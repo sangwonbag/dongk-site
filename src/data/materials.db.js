@@ -116,35 +116,35 @@ const matKccExtended = LIST_KCC_EXTENDED.map(item => {
 // 동신 (媛寃?誘몄젙, 전체보기)
 // 동신 (媛寃?誘몄젙, 전체보기) -> 媛寃?洹쒓꺽 ?먮룞 ?곸슜
 const LIST_DONGSHIN_RAW = [
-    { id:"DS-AB_6711", brand:"동신", code:"AB_6711", name:"AB 6711", category:"데코타일" },
-    { id:"DS-AB_6712", brand:"동신", code:"AB_6712", name:"AB 6712", category:"데코타일" },
-    { id:"DS-AB_6717", brand:"동신", code:"AB_6717", name:"AB 6717", category:"데코타일" },
-    { id:"DS-AB_6727", brand:"동신", code:"AB_6727", name:"AB 6727", category:"데코타일" },
-    { id:"DS-AB_6739", brand:"동신", code:"AB_6739", name:"AB 6739", category:"데코타일" },
-    { id:"DS-AB_6740", brand:"동신", code:"AB_6740", name:"AB 6740", category:"데코타일" },
-    { id:"DS-AB_6741", brand:"동신", code:"AB_6741", name:"AB 6741", category:"데코타일" },
-    { id:"DS-AB_6899", brand:"동신", code:"AB_6899", name:"AB 6899", category:"데코타일" },
-    { id:"DS-AB_6915", brand:"동신", code:"AB_6915", name:"AB 6915", category:"데코타일" },
-    { id:"DS-AB_6933", brand:"동신", code:"AB_6933", name:"AB 6933", category:"데코타일" },
-    { id:"DS-AB_6978", brand:"동신", code:"AB_6978", name:"AB 6978", category:"데코타일" },
-    { id:"DS-AB_6981", brand:"동신", code:"AB_6981", name:"AB 6981", category:"데코타일" },
-    { id:"DS-AB_6984", brand:"동신", code:"AB_6984", name:"AB 6984", category:"데코타일" },
-    { id:"DS-AB_6990", brand:"동신", code:"AB_6990", name:"AB 6990", category:"데코타일" },
-    { id:"DS-AH_505", brand:"동신", code:"AH_505", name:"AH 505", category:"데코타일" },
-    { id:"DS-AH_506", brand:"동신", code:"AH_506", name:"AH 506", category:"데코타일" },
-    { id:"DS-AH_507", brand:"동신", code:"AH_507", name:"AH 507", category:"데코타일" },
-    { id:"DS-AH_509", brand:"동신", code:"AH_509", name:"AH 509", category:"데코타일" },
-    { id:"DS-AH_510", brand:"동신", code:"AH_510", name:"AH 510", category:"데코타일" },
-    { id:"DS-AH_726", brand:"동신", code:"AH_726", name:"AH 726", category:"데코타일" },
-    { id:"DS-AH_728", brand:"동신", code:"AH_728", name:"AH 728", category:"데코타일" },
-    { id:"DS-AH_729", brand:"동신", code:"AH_729", name:"AH 729", category:"데코타일" },
-    { id:"DS-AH_730", brand:"동신", code:"AH_730", name:"AH 730", category:"데코타일" },
-    { id:"DS-AH_734", brand:"동신", code:"AH_734", name:"AH 734", category:"데코타일" },
-    { id:"DS-AH_735", brand:"동신", code:"AH_735", name:"AH 735", category:"데코타일" },
-    { id:"DS-AH_736", brand:"동신", code:"AH_736", name:"AH 736", category:"데코타일" },
-    { id:"DS-AH_737", brand:"동신", code:"AH_737", name:"AH 737", category:"데코타일" },
-    { id:"DS-AH_738", brand:"동신", code:"AH_738", name:"AH 738", category:"데코타일" },
-    { id:"DS-AH_739", brand:"동신", code:"AH_739", name:"AH 739", category:"데코타일" }
+    { id:"DS-AB_6711", brand:"동신", code:"AB_6711", name:"AB 6711", category: "데코" },
+    { id:"DS-AB_6712", brand:"동신", code:"AB_6712", name:"AB 6712", category: "데코" },
+    { id:"DS-AB_6717", brand:"동신", code:"AB_6717", name:"AB 6717", category: "데코" },
+    { id:"DS-AB_6727", brand:"동신", code:"AB_6727", name:"AB 6727", category: "데코" },
+    { id:"DS-AB_6739", brand:"동신", code:"AB_6739", name:"AB 6739", category: "데코" },
+    { id:"DS-AB_6740", brand:"동신", code:"AB_6740", name:"AB 6740", category: "데코" },
+    { id:"DS-AB_6741", brand:"동신", code:"AB_6741", name:"AB 6741", category: "데코" },
+    { id:"DS-AB_6899", brand:"동신", code:"AB_6899", name:"AB 6899", category: "데코" },
+    { id:"DS-AB_6915", brand:"동신", code:"AB_6915", name:"AB 6915", category: "데코" },
+    { id:"DS-AB_6933", brand:"동신", code:"AB_6933", name:"AB 6933", category: "데코" },
+    { id:"DS-AB_6978", brand:"동신", code:"AB_6978", name:"AB 6978", category: "데코" },
+    { id:"DS-AB_6981", brand:"동신", code:"AB_6981", name:"AB 6981", category: "데코" },
+    { id:"DS-AB_6984", brand:"동신", code:"AB_6984", name:"AB 6984", category: "데코" },
+    { id:"DS-AB_6990", brand:"동신", code:"AB_6990", name:"AB 6990", category: "데코" },
+    { id:"DS-AH_505", brand:"동신", code:"AH_505", name:"AH 505", category: "데코" },
+    { id:"DS-AH_506", brand:"동신", code:"AH_506", name:"AH 506", category: "데코" },
+    { id:"DS-AH_507", brand:"동신", code:"AH_507", name:"AH 507", category: "데코" },
+    { id:"DS-AH_509", brand:"동신", code:"AH_509", name:"AH 509", category: "데코" },
+    { id:"DS-AH_510", brand:"동신", code:"AH_510", name:"AH 510", category: "데코" },
+    { id:"DS-AH_726", brand:"동신", code:"AH_726", name:"AH 726", category: "데코" },
+    { id:"DS-AH_728", brand:"동신", code:"AH_728", name:"AH 728", category: "데코" },
+    { id:"DS-AH_729", brand:"동신", code:"AH_729", name:"AH 729", category: "데코" },
+    { id:"DS-AH_730", brand:"동신", code:"AH_730", name:"AH 730", category: "데코" },
+    { id:"DS-AH_734", brand:"동신", code:"AH_734", name:"AH 734", category: "데코" },
+    { id:"DS-AH_735", brand:"동신", code:"AH_735", name:"AH 735", category: "데코" },
+    { id:"DS-AH_736", brand:"동신", code:"AH_736", name:"AH 736", category: "데코" },
+    { id:"DS-AH_737", brand:"동신", code:"AH_737", name:"AH 737", category: "데코" },
+    { id:"DS-AH_738", brand:"동신", code:"AH_738", name:"AH 738", category: "데코" },
+    { id:"DS-AH_739", brand:"동신", code:"AH_739", name:"AH 739", category: "데코" }
 ];
 const processDongshinItem = (item) => {
     let price = 36000; // Fixed price for all Dongshin
@@ -207,10 +207,10 @@ const PRESTIGE_5T_RAW = [
     {
         id:"PTT6952",
         brand:"LX",
-        category:"데코",
-        line: \"꾨젅스틸떚吏 5T",
+        category: "데코",
+        line: "프레스티지 5T",
         code:"PTT6952",
-        name:"샌드 베이지",
+        name: "샌드 베이지",
         type:"STONE",
         sizeLabel:"600x600mm",
         thickness:"5.0T",
@@ -223,8 +223,8 @@ const PRESTIGE_5T_RAW = [
     {
         id:"PTT6953",
         brand:"LX",
-        category:"데코",
-        line: \"꾨젅스틸떚吏 5T",
+        category: "데코",
+        line: "프레스티지 5T",
         code:"PTT6953",
         name:"데저트샌드",
         type:"STONE",
@@ -239,8 +239,8 @@ const PRESTIGE_5T_RAW = [
     {
         id:"PTT6950",
         brand:"LX",
-        category:"데코",
-        line: \"꾨젅스틸떚吏 5T",
+        category: "데코",
+        line: "프레스티지 5T",
         code:"PTT6950",
         name:"미스티콘크리트",
         type:"STONE",
@@ -255,8 +255,8 @@ const PRESTIGE_5T_RAW = [
     {
         id:"PTT6913",
         brand:"LX",
-        category:"데코",
-        line: \"꾨젅스틸떚吏 5T",
+        category: "데코",
+        line: "프레스티지 5T",
         code:"PTT6913",
         name:"딥콘크리트",
         type:"STONE",
@@ -271,8 +271,8 @@ const PRESTIGE_5T_RAW = [
     {
         id:"PTT6910",
         brand:"LX",
-        category:"데코",
-        line: \"꾨젅스틸떚吏 5T",
+        category: "데코",
+        line: "프레스티지 5T",
         code:"PTT6910",
         name:"메탈",
         type:"STONE",
@@ -287,8 +287,8 @@ const PRESTIGE_5T_RAW = [
     {
         id:"PTT6912",
         brand:"LX",
-        category:"데코",
-        line: \"꾨젅스틸떚吏 5T",
+        category: "데코",
+        line: "프레스티지 5T",
         code:"PTT6912",
         name:"메탈",
         type:"STONE",
@@ -303,8 +303,8 @@ const PRESTIGE_5T_RAW = [
     {
         id:"PTT6951",
         brand:"LX",
-        category:"데코",
-        line: \"꾨젅스틸떚吏 5T",
+        category: "데코",
+        line: "프레스티지 5T",
         code:"PTT6951",
         name:"모던 그레이",
         type:"STONE",
@@ -319,8 +319,8 @@ const PRESTIGE_5T_RAW = [
     {
         id:"PTT6917",
         brand:"LX",
-        category:"데코",
-        line: \"꾨젅스틸떚吏 5T",
+        category: "데코",
+        line: "프레스티지 5T",
         code:"PTT6917",
         name:"비앙코",
         type:"STONE",
@@ -335,8 +335,8 @@ const PRESTIGE_5T_RAW = [
     {
         id:"PTT8696",
         brand:"LX",
-        category:"데코",
-        line: \"꾨젅스틸떚吏 5T",
+        category: "데코",
+        line: "프레스티지 5T",
         code:"PTT8696",
         name:"아이보리골드",
         type:"STONE",
@@ -351,8 +351,8 @@ const PRESTIGE_5T_RAW = [
     {
         id:"PTT8698",
         brand:"LX",
-        category:"데코",
-        line: \"꾨젅스틸떚吏 5T",
+        category: "데코",
+        line: "프레스티지 5T",
         code:"PTT8698",
         name:"더스티브론즈",
         type:"STONE",
@@ -367,8 +367,8 @@ const PRESTIGE_5T_RAW = [
     {
         id:"PTW7961",
         brand:"LX",
-        category:"데코",
-        line: \"꾨젅스틸떚吏 5T",
+        category: "데코",
+        line: "프레스티지 5T",
         code:"PTW7961",
         name:"어반 사하라",
         type:"WOOD",
@@ -383,8 +383,8 @@ const PRESTIGE_5T_RAW = [
     {
         id:"PTW7964",
         brand:"LX",
-        category:"데코",
-        line: \"꾨젅스틸떚吏 5T",
+        category: "데코",
+        line: "프레스티지 5T",
         code:"PTW7964",
         name:"아메리칸 오크",
         type:"WOOD",
@@ -399,8 +399,8 @@ const PRESTIGE_5T_RAW = [
     {
         id:"PTW7902",
         brand:"LX",
-        category:"데코",
-        line: \"꾨젅스틸떚吏 5T",
+        category: "데코",
+        line: "프레스티지 5T",
         code:"PTW7902",
         name:"소프트 오크",
         type:"WOOD",
@@ -415,8 +415,8 @@ const PRESTIGE_5T_RAW = [
     {
         id:"PTW7904",
         brand:"LX",
-        category:"데코",
-        line: \"꾨젅스틸떚吏 5T",
+        category: "데코",
+        line: "프레스티지 5T",
         code:"PTW7904",
         name:"파인",
         type:"WOOD",
@@ -442,281 +442,281 @@ const PRESTIGE_5T = PRESTIGE_5T_RAW.map(item => ({
 const ECONO_PLUS_3T_RAW = [
     // CONCRETE 600
     {
-        id:"DET6553", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6553", name:"클레이 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6553", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6553", name:"클레이 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6554", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6554", name:"클레이 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6554", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6554", name:"클레이 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6555", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6555", name:"클레이 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6555", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6555", name:"클레이 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6556", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6556", name:"클레이 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6556", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6556", name:"클레이 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6557", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6557", name:"내추럴 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6557", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6557", name:"내추럴 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6558", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6558", name:"내추럴 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6558", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6558", name:"내추럴 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6559", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6559", name:"내추럴 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6559", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6559", name:"내추럴 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6550", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6550", name:"어반 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6550", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6550", name:"어반 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6551", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6551", name:"어반 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6551", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6551", name:"어반 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6552", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6552", name:"어반 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6552", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6552", name:"어반 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6235", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6235", name:"메탈 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6235", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6235", name:"메탈 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6236", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6236", name:"메탈 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6236", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6236", name:"메탈 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6242", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6242", name:"메탈 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6242", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6242", name:"메탈 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6243", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6243", name:"메탈 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6243", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6243", name:"메탈 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6244", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6244", name:"메탈 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6244", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6244", name:"메탈 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6251", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6251", name:"노출 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6251", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6251", name:"노출 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6252", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6252", name:"노출 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6252", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6252", name:"노출 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6237", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6237", name:"노출 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6237", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6237", name:"노출 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6238", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6238", name:"노출 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6238", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6238", name:"노출 콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     // SAND / LIME 600
     {
-        id:"DET6560", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6560", name:"라임스톤", type:"STONE", patternGroup:"SAND_LIME", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6560", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6560", name:"라임스톤", type:"STONE", patternGroup:"SAND_LIME", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6561", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6561", name:"라임스톤", type:"STONE", patternGroup:"SAND_LIME", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6561", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6561", name:"라임스톤", type:"STONE", patternGroup:"SAND_LIME", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6562", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6562", name:"라임스톤", type:"STONE", patternGroup:"SAND_LIME", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6562", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6562", name:"라임스톤", type:"STONE", patternGroup:"SAND_LIME", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
-    { id:"DET6563", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6563", name:"샌드세라믹", type:"STONE", patternGroup:"SAND_LIME", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
-    { id:"DET6564", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6564", name:"샌드세라믹", type:"STONE", patternGroup:"SAND_LIME", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
-    { id:"DET6565", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6565", name:"샌드세라믹", type:"STONE", patternGroup:"SAND_LIME", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id:"DET6563", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6563", name:"샌드세라믹", type:"STONE", patternGroup:"SAND_LIME", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id:"DET6564", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6564", name:"샌드세라믹", type:"STONE", patternGroup:"SAND_LIME", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id:"DET6565", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6565", name:"샌드세라믹", type:"STONE", patternGroup:"SAND_LIME", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
     // MARBLE 600
     {
-        id:"DET6566", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6566", name:"컴포트 마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6566", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6566", name:"컴포트 마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6567", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6567", name:"컴포트 마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6567", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6567", name:"컴포트 마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6568", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6568", name:"컴포트 마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6568", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6568", name:"컴포트 마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6271", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6271", name:"마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6271", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6271", name:"마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6272", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6272", name:"마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6272", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6272", name:"마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6273", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6273", name:"마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6273", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6273", name:"마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6207", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6207", name:"피렌체 마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6207", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6207", name:"피렌체 마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6208", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6208", name:"피렌체 마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6208", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6208", name:"피렌체 마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
-    { id:"DET6203", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6203", name:"비앙코", type:"STONE", patternGroup:"MARBLE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
-    { id:"DET6204", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6204", name:"비앙코", type:"STONE", patternGroup:"MARBLE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id:"DET6203", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6203", name:"비앙코", type:"STONE", patternGroup:"MARBLE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id:"DET6204", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6204", name:"비앙코", type:"STONE", patternGroup:"MARBLE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
     {
-        id:"DET6256", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6256", name:"크랙 마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
-    },
-    {
-        id:"DET6257", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6257", name:"크랙 마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6256", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6256", name:"크랙 마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6258", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6258", name:"크랙 마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6257", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6257", name:"크랙 마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+    },
+    {
+        id:"DET6258", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6258", name:"크랙 마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     // TERRAZZO 600
-    { id:"DET6281", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6281", name:"테라조", type:"STONE", patternGroup:"TERRAZZO", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
-    { id:"DET6282", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6282", name:"테라조", type:"STONE", patternGroup:"TERRAZZO", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
-    { id:"DET6569", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6569", name:"베이지 딥 테라조", type:"STONE", patternGroup:"TERRAZZO", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
-    { id:"DET6570", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6570", name:"베이지 딥 테라조", type:"STONE", patternGroup:"TERRAZZO", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
-    { id:"DET6571", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6571", name:"베이지 딥 테라조", type:"STONE", patternGroup:"TERRAZZO", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
-    { id:"DET6572", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6572", name:"비앙코 딥 테라조", type:"STONE", patternGroup:"TERRAZZO", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
-    { id:"DET6573", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6573", name:"비앙코 딥 테라조", type:"STONE", patternGroup:"TERRAZZO", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
-    { id:"DET6574", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6574", name:"비앙코 딥 테라조", type:"STONE", patternGroup:"TERRAZZO", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id:"DET6281", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6281", name:"테라조", type:"STONE", patternGroup:"TERRAZZO", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id:"DET6282", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6282", name:"테라조", type:"STONE", patternGroup:"TERRAZZO", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id:"DET6569", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6569", name:"베이지 딥 테라조", type:"STONE", patternGroup:"TERRAZZO", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id:"DET6570", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6570", name:"베이지 딥 테라조", type:"STONE", patternGroup:"TERRAZZO", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id:"DET6571", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6571", name:"베이지 딥 테라조", type:"STONE", patternGroup:"TERRAZZO", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id:"DET6572", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6572", name:"비앙코 딥 테라조", type:"STONE", patternGroup:"TERRAZZO", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id:"DET6573", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6573", name:"비앙코 딥 테라조", type:"STONE", patternGroup:"TERRAZZO", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id:"DET6574", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6574", name:"비앙코 딥 테라조", type:"STONE", patternGroup:"TERRAZZO", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
     // GRANITE 600
     {
-        id:"DET6291", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6291", name:"그라니트", type:"STONE", patternGroup:"GRANITE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6291", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6291", name:"그라니트", type:"STONE", patternGroup:"GRANITE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
     {
-        id:"DET6292", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6292", name:"그라니트", type:"STONE", patternGroup:"GRANITE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+        id:"DET6292", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6292", name:"그라니트", type:"STONE", patternGroup:"GRANITE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
     },
-    { id:"DET6312", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6312", name:"?먯씠吏딥? ㅽ떥", type:"STONE", patternGroup:"GRANITE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id:"DET6312", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6312", name:"?먯씠吏딥? ㅽ떥", type:"STONE", patternGroup:"GRANITE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
 // METAL SPARKLING 600
 {
-    id:"DET6245", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6245", name:"스파클링 메탈", type:"STONE", patternGroup:"METAL_SPARKLING", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+    id:"DET6245", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6245", name:"스파클링 메탈", type:"STONE", patternGroup:"METAL_SPARKLING", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET6246", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6246", name:"스파클링 메탈", type:"STONE", patternGroup:"METAL_SPARKLING", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+    id:"DET6246", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6246", name:"스파클링 메탈", type:"STONE", patternGroup:"METAL_SPARKLING", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET6247", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6247", name:"스파클링 메탈", type:"STONE", patternGroup:"METAL_SPARKLING", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+    id:"DET6247", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6247", name:"스파클링 메탈", type:"STONE", patternGroup:"METAL_SPARKLING", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET6248", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6248", name:"스파클링 메탈", type:"STONE", patternGroup:"METAL_SPARKLING", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+    id:"DET6248", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6248", name:"스파클링 메탈", type:"STONE", patternGroup:"METAL_SPARKLING", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
 },
 // WOVEN 600
-{ id:"DET2981", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET2981", name:" 패브릭", type:"WOVEN", patternGroup:"WOVEN", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
-{ id:"DET2983", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET2983", name:" 패브릭", type:"WOVEN", patternGroup:"WOVEN", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
-{ id:"DET2991", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET2991", name:" 패브릭", type:"WOVEN", patternGroup:"WOVEN", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
-{ id:"DET2992", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET2992", name:" 패브릭", type:"WOVEN", patternGroup:"WOVEN", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+{ id:"DET2981", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET2981", name:" 패브릭", type:"WOVEN", patternGroup:"WOVEN", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+{ id:"DET2983", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET2983", name:" 패브릭", type:"WOVEN", patternGroup:"WOVEN", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+{ id:"DET2991", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET2991", name:" 패브릭", type:"WOVEN", patternGroup:"WOVEN", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+{ id:"DET2992", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET2992", name:" 패브릭", type:"WOVEN", patternGroup:"WOVEN", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
 {
-    id:"DET6325", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6325", name:"우븐", type:"WOVEN", patternGroup:"WOVEN", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+    id:"DET6325", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6325", name:"우븐", type:"WOVEN", patternGroup:"WOVEN", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET6326", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6326", name:"우븐", type:"WOVEN", patternGroup:"WOVEN", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+    id:"DET6326", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6326", name:"우븐", type:"WOVEN", patternGroup:"WOVEN", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET6330", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6330", name:"우븐", type:"WOVEN", patternGroup:"WOVEN", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+    id:"DET6330", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6330", name:"우븐", type:"WOVEN", patternGroup:"WOVEN", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET6340", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6340", name:" 라인우븐", type:"WOVEN", patternGroup:"WOVEN", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+    id:"DET6340", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6340", name:" 라인우븐", type:"WOVEN", patternGroup:"WOVEN", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET6341", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6341", name:" 라인우븐", type:"WOVEN", patternGroup:"WOVEN", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+    id:"DET6341", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6341", name:" 라인우븐", type:"WOVEN", patternGroup:"WOVEN", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
 },
 // CARPET 600
-{ id:"DET6008", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6008", name:"데저트 카펫", type:"CARPET", patternGroup:"CARPET", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
-{ id:"DET6014", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6014", name:"데저트 카펫", type:"CARPET", patternGroup:"CARPET", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+{ id:"DET6008", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6008", name:"데저트 카펫", type:"CARPET", patternGroup:"CARPET", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+{ id:"DET6014", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6014", name:"데저트 카펫", type:"CARPET", patternGroup:"CARPET", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
 {
-    id:"DET6064", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6064", name:" 패턴 카펫", type:"CARPET", patternGroup:"CARPET", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+    id:"DET6064", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6064", name:" 패턴 카펫", type:"CARPET", patternGroup:"CARPET", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET6075", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6075", name:" 패턴 카펫", type:"CARPET", patternGroup:"CARPET", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+    id:"DET6075", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6075", name:" 패턴 카펫", type:"CARPET", patternGroup:"CARPET", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET6076", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6076", name:" 패턴 카펫", type:"CARPET", patternGroup:"CARPET", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+    id:"DET6076", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6076", name:" 패턴 카펫", type:"CARPET", patternGroup:"CARPET", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET6575", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6575", name:"베이지 카펫", type:"CARPET", patternGroup:"CARPET", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+    id:"DET6575", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6575", name:"베이지 카펫", type:"CARPET", patternGroup:"CARPET", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET6576", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6576", name:"베이지 카펫", type:"CARPET", patternGroup:"CARPET", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+    id:"DET6576", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6576", name:"베이지 카펫", type:"CARPET", patternGroup:"CARPET", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET6577", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6577", name:"마일드 카펫", type:"CARPET", patternGroup:"CARPET", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+    id:"DET6577", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6577", name:"마일드 카펫", type:"CARPET", patternGroup:"CARPET", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET6578", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6578", name:"마일드 카펫", type:"CARPET", patternGroup:"CARPET", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+    id:"DET6578", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6578", name:"마일드 카펫", type:"CARPET", patternGroup:"CARPET", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET6579", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6579", name:"아트러그", type:"CARPET", patternGroup:"CARPET", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+    id:"DET6579", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6579", name:"아트러그", type:"CARPET", patternGroup:"CARPET", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET6580", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6580", name:"아트러그", type:"CARPET", patternGroup:"CARPET", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+    id:"DET6580", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6580", name:"아트러그", type:"CARPET", patternGroup:"CARPET", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
 },
 // STONE 450
 {
-    id:"DET2904", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET2904", name:"노출 콘크리트", type:"STONE", patternGroup:"STONE_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
+    id:"DET2904", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET2904", name:"노출 콘크리트", type:"STONE", patternGroup:"STONE_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET2493", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET2493", name:"노출 콘크리트", type:"STONE", patternGroup:"STONE_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
+    id:"DET2493", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET2493", name:"노출 콘크리트", type:"STONE", patternGroup:"STONE_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET2905", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET2905", name:"노출 콘크리트", type:"STONE", patternGroup:"STONE_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
+    id:"DET2905", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET2905", name:"노출 콘크리트", type:"STONE", patternGroup:"STONE_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET2494", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET2494", name:"노출 콘크리트", type:"STONE", patternGroup:"STONE_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
+    id:"DET2494", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET2494", name:"노출 콘크리트", type:"STONE", patternGroup:"STONE_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET2251", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET2251", name:"마블", type:"STONE", patternGroup:"STONE_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
+    id:"DET2251", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET2251", name:"마블", type:"STONE", patternGroup:"STONE_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET6240", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6240", name:"마블", type:"STONE", patternGroup:"STONE_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
+    id:"DET6240", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6240", name:"마블", type:"STONE", patternGroup:"STONE_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET6239", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6239", name:"마블", type:"STONE", patternGroup:"STONE_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
+    id:"DET6239", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6239", name:"마블", type:"STONE", patternGroup:"STONE_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET2125", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET2125", name:"그라니트", type:"STONE", patternGroup:"STONE_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
+    id:"DET2125", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET2125", name:"그라니트", type:"STONE", patternGroup:"STONE_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET2116", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET2116", name:"그라니트", type:"STONE", patternGroup:"STONE_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
+    id:"DET2116", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET2116", name:"그라니트", type:"STONE", patternGroup:"STONE_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
 },
-{ id:"DET2407", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET2407", name:"세라믹", type:"STONE", patternGroup:"STONE_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000 },
+{ id:"DET2407", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET2407", name:"세라믹", type:"STONE", patternGroup:"STONE_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000 },
 // CARPET 450
 {
-    id:"DET2870", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET2870", name:" 딥? ㅻ쾭 카펫", type:"CARPET", patternGroup:"CARPET_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
+    id:"DET2870", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET2870", name:" 딥? ㅻ쾭 카펫", type:"CARPET", patternGroup:"CARPET_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET2871", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET2871", name:" 딥? ㅻ쾭 카펫", type:"CARPET", patternGroup:"CARPET_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
+    id:"DET2871", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET2871", name:" 딥? ㅻ쾭 카펫", type:"CARPET", patternGroup:"CARPET_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET2872", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET2872", name:" 딥? ㅻ쾭 카펫", type:"CARPET", patternGroup:"CARPET_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
+    id:"DET2872", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET2872", name:" 딥? ㅻ쾭 카펫", type:"CARPET", patternGroup:"CARPET_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET2862", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET2862", name:" 패턴 카펫", type:"CARPET", patternGroup:"CARPET_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
+    id:"DET2862", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET2862", name:" 패턴 카펫", type:"CARPET", patternGroup:"CARPET_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET2821", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET2821", name:" 패턴 카펫", type:"CARPET", patternGroup:"CARPET_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
+    id:"DET2821", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET2821", name:" 패턴 카펫", type:"CARPET", patternGroup:"CARPET_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET2823", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET2823", name:" 패턴 카펫", type:"CARPET", patternGroup:"CARPET_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
+    id:"DET2823", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET2823", name:" 패턴 카펫", type:"CARPET", patternGroup:"CARPET_450", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000
 },
 // WOOD PLANK
 {
-    id:"DEW4608", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DEW4608", name:"브러쉬 딥? ㅽ겕", type:"WOOD", patternGroup:"WOOD_PLANK", sizeLabel:"180x1200mm", thickness:"3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000
+    id:"DEW4608", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DEW4608", name:"브러쉬 딥? ㅽ겕", type:"WOOD", patternGroup:"WOOD_PLANK", sizeLabel:"180x1200mm", thickness:"3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000
 },
 {
-    id:"DEW4707", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DEW4707", name:"브러쉬 딥? ㅽ겕", type:"WOOD", patternGroup:"WOOD_PLANK", sizeLabel:"180x1200mm", thickness:"3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000
+    id:"DEW4707", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DEW4707", name:"브러쉬 딥? ㅽ겕", type:"WOOD", patternGroup:"WOOD_PLANK", sizeLabel:"180x1200mm", thickness:"3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000
 },
 {
-    id:"DEW4206", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DEW4206", name:"오크", type:"WOOD", patternGroup:"WOOD_PLANK", sizeLabel:"180x1200mm", thickness:"3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000
+    id:"DEW4206", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DEW4206", name:"오크", type:"WOOD", patternGroup:"WOOD_PLANK", sizeLabel:"180x1200mm", thickness:"3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000
 },
 {
-    id:"DEW4709", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DEW4709", name:"泥대━", type:"WOOD", patternGroup:"WOOD_PLANK", sizeLabel:"180x1200mm", thickness:"3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000
+    id:"DEW4709", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DEW4709", name:"泥대━", type:"WOOD", patternGroup:"WOOD_PLANK", sizeLabel:"180x1200mm", thickness:"3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000
 },
 {
-    id:"DEW4792", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DEW4792", name:"오크", type:"WOOD", patternGroup:"WOOD_PLANK", sizeLabel:"180x1200mm", thickness:"3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000
+    id:"DEW4792", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DEW4792", name:"오크", type:"WOOD", patternGroup:"WOOD_PLANK", sizeLabel:"180x1200mm", thickness:"3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000
 },
 {
-    id:"DEW4752", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DEW4752", name:"오크", type:"WOOD", patternGroup:"WOOD_PLANK", sizeLabel:"180x1200mm", thickness:"3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000
+    id:"DEW4752", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DEW4752", name:"오크", type:"WOOD", patternGroup:"WOOD_PLANK", sizeLabel:"180x1200mm", thickness:"3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000
 },
 {
-    id:"DEW2631", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DEW2631", name:"애니오크", type:"WOOD", patternGroup:"WOOD_PLANK", sizeLabel:"180x1200mm", thickness:"3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000
+    id:"DEW2631", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DEW2631", name:"애니오크", type:"WOOD", patternGroup:"WOOD_PLANK", sizeLabel:"180x1200mm", thickness:"3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000
 },
 {
-    id:"DEW2632", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DEW2632", name:"애니오크", type:"WOOD", patternGroup:"WOOD_PLANK", sizeLabel:"180x1200mm", thickness:"3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000
+    id:"DEW2632", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DEW2632", name:"애니오크", type:"WOOD", patternGroup:"WOOD_PLANK", sizeLabel:"180x1200mm", thickness:"3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000
 },
 {
-    id:"DEW2671", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DEW2671", name:"카빈오크", type:"WOOD", patternGroup:"WOOD_PLANK", sizeLabel:"180x1200mm", thickness:"3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000
+    id:"DEW2671", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DEW2671", name:"카빈오크", type:"WOOD", patternGroup:"WOOD_PLANK", sizeLabel:"180x1200mm", thickness:"3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000
 },
 {
-    id:"DEW2672", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DEW2672", name:"카빈오크", type:"WOOD", patternGroup:"WOOD_PLANK", sizeLabel:"180x1200mm", thickness:"3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000
+    id:"DEW2672", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DEW2672", name:"카빈오크", type:"WOOD", patternGroup:"WOOD_PLANK", sizeLabel:"180x1200mm", thickness:"3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000
 },
 {
-    id:"DEW2620", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DEW2620", name:"캔트느티", type:"WOOD", patternGroup:"WOOD_PLANK", sizeLabel:"180x1200mm", thickness:"3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000
+    id:"DEW2620", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DEW2620", name:"캔트느티", type:"WOOD", patternGroup:"WOOD_PLANK", sizeLabel:"180x1200mm", thickness:"3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000
 },
 // WOOD 600
 {
-    id:"DET6523", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6523", name:"포켓 우드", type:"WOOD", patternGroup:"WOOD_600", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+    id:"DET6523", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6523", name:"포켓 우드", type:"WOOD", patternGroup:"WOOD_600", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
 },
 {
-    id:"DET6262", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6262", name:"모던", type:"WOOD", patternGroup:"WOOD_600", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
+    id:"DET6262", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6262", name:"모던", type:"WOOD", patternGroup:"WOOD_600", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000
 },
-{ id:"DET6263", brand:"LX", category:"데코", line:"에코노플러스 3T", code:"DET6263", name:"모던", type:"WOOD", patternGroup:"WOOD_600", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 }
+{ id:"DET6263", brand:"LX", category: "데코", line:"에코노플러스 3T", code:"DET6263", name:"모던", type:"WOOD", patternGroup:"WOOD_600", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 }
 ];
 const ECONO_PLUS_3T = ECONO_PLUS_3T_RAW.map(item => ({
     ...item,
@@ -730,95 +730,95 @@ const ECONO_PLUS_3T = ECONO_PLUS_3T_RAW.map(item => ({
 }));
 // LX Botanic 3T Data
 const BOTANIC_3T_RAW = [
-    // 600각    { id:"DBT3085", brand:"LX", category:"데코", line:"보타닉3T", code:"DBT3085", name:"카펫", type:"CARPET", patternGroup:"CARPET", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
-    { id:"DBT3080", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBT3080", name:"콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
-{ id:"DBT3087", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBT3087", name:"콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
-{ id:"DBT3084", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBT3084", name:" ? 뚮뱶스톤", type:"STONE", patternGroup:"SANDSTONE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
-{ id:"DBT3090", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBT3090", name:" ? 뚮뱶스톤", type:"STONE", patternGroup:"SANDSTONE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
-{ id:"DBT3089", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBT3089", name:"콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
-{ id:"DBT3086", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBT3086", name:"콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
-{ id:"DBT3088", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBT3088", name:"콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
-{ id:"DBT3083", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBT3083", name:"라임스톤", type:"STONE", patternGroup:"LIMESTONE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
-{ id:"DBT3091", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBT3091", name:" ? 테라조", type:"STONE", patternGroup:"TERRAZZO", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
+    // 600각    { id:"DBT3085", brand:"LX", category: "데코", line:"보타닉3T", code:"DBT3085", name:"카펫", type:"CARPET", patternGroup:"CARPET", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
+    { id:"DBT3080", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBT3080", name:"콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
+{ id:"DBT3087", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBT3087", name:"콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
+{ id:"DBT3084", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBT3084", name:" ? 뚮뱶스톤", type:"STONE", patternGroup:"SANDSTONE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
+{ id:"DBT3090", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBT3090", name:" ? 뚮뱶스톤", type:"STONE", patternGroup:"SANDSTONE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
+{ id:"DBT3089", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBT3089", name:"콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
+{ id:"DBT3086", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBT3086", name:"콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
+{ id:"DBT3088", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBT3088", name:"콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
+{ id:"DBT3083", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBT3083", name:"라임스톤", type:"STONE", patternGroup:"LIMESTONE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
+{ id:"DBT3091", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBT3091", name:" ? 테라조", type:"STONE", patternGroup:"TERRAZZO", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
 {
-    id:"DBT3081", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBT3081", name:"콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000
+    id:"DBT3081", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBT3081", name:"콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000
 },
 {
-    id:"DBT3082", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBT3082", name:"콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000
+    id:"DBT3082", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBT3082", name:"콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"600x600mm", thickness:"3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000
 },
-// 450각    { id:"DBT3068", brand:"LX", category:"데코", line:"보타닉3T", code:"DBT3068", name:"마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000 },
+// 450각    { id:"DBT3068", brand:"LX", category: "데코", line:"보타닉3T", code:"DBT3068", name:"마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000 },
 {
-    id:"DBT3061", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBT3061", name:" 패턴 콘크리트", type:"STONE", patternGroup:"PATTERN_CONCRETE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
-},
-{
-    id:"DBT3074", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBT3074", name:"라임스톤", type:"STONE", patternGroup:"LIMESTONE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
+    id:"DBT3061", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBT3061", name:" 패턴 콘크리트", type:"STONE", patternGroup:"PATTERN_CONCRETE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
 },
 {
-    id:"DBT3075", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBT3075", name:"라임스톤", type:"STONE", patternGroup:"LIMESTONE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
+    id:"DBT3074", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBT3074", name:"라임스톤", type:"STONE", patternGroup:"LIMESTONE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
 },
 {
-    id:"DBT3076", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBT3076", name:"라임스톤", type:"STONE", patternGroup:"LIMESTONE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
+    id:"DBT3075", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBT3075", name:"라임스톤", type:"STONE", patternGroup:"LIMESTONE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
 },
 {
-    id:"DBT3077", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBT3077", name:"콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
+    id:"DBT3076", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBT3076", name:"라임스톤", type:"STONE", patternGroup:"LIMESTONE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
 },
 {
-    id:"DBT3078", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBT3078", name:"콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
+    id:"DBT3077", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBT3077", name:"콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
 },
 {
-    id:"DBT3079", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBT3079", name:"콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
+    id:"DBT3078", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBT3078", name:"콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
 },
 {
-    id:"DBT3060", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBT3060", name:" 패턴 콘크리트", type:"STONE", patternGroup:"PATTERN_CONCRETE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
+    id:"DBT3079", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBT3079", name:"콘크리트", type:"STONE", patternGroup:"CONCRETE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
 },
 {
-    id:"DBT3062", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBT3062", name:" 패턴 콘크리트", type:"STONE", patternGroup:"PATTERN_CONCRETE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
+    id:"DBT3060", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBT3060", name:" 패턴 콘크리트", type:"STONE", patternGroup:"PATTERN_CONCRETE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
 },
 {
-    id:"DBT3059", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBT3059", name:"마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
+    id:"DBT3062", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBT3062", name:" 패턴 콘크리트", type:"STONE", patternGroup:"PATTERN_CONCRETE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
 },
 {
-    id:"DBT3069", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBT3069", name:"그라니트", type:"STONE", patternGroup:"GRANITE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
+    id:"DBT3059", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBT3059", name:"마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
 },
 {
-    id:"DBT3067", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBT3067", name:"마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
+    id:"DBT3069", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBT3069", name:"그라니트", type:"STONE", patternGroup:"GRANITE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
 },
 {
-    id:"DBT3051", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBT3051", name:"마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
+    id:"DBT3067", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBT3067", name:"마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
 },
 {
-    id:"DBT3065", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBT3065", name:"카펫", type:"CARPET", patternGroup:"CARPET", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
+    id:"DBT3051", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBT3051", name:"마블", type:"STONE", patternGroup:"MARBLE", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
 },
 {
-    id:"DBT3066", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBT3066", name:"카펫", type:"CARPET", patternGroup:"CARPET", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
-},
-// 우드 180媛?    { id:"DBW3045", brand:"LX", category:"데코", line:"보타닉3T", code:"DBW3045", name:"화이트 오크", type:"WOOD", patternGroup:"OAK", sizeLabel:"180x920mm", thickness:"3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000 },
-{
-    id:"DBW3038", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBW3038", name:"브러쉬오크", type:"WOOD", patternGroup:"OAK", sizeLabel:"180x920mm", thickness:"3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000
+    id:"DBT3065", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBT3065", name:"카펫", type:"CARPET", patternGroup:"CARPET", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
 },
 {
-    id:"DBW3046", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBW3046", name:"오크", type:"WOOD", patternGroup:"OAK", sizeLabel:"180x920mm", thickness:"3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000
+    id:"DBT3066", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBT3066", name:"카펫", type:"CARPET", patternGroup:"CARPET", sizeLabel:"450x450mm", thickness:"3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000
+},
+// 우드 180媛?    { id:"DBW3045", brand:"LX", category: "데코", line:"보타닉3T", code:"DBW3045", name:"화이트 오크", type:"WOOD", patternGroup:"OAK", sizeLabel:"180x920mm", thickness:"3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000 },
+{
+    id:"DBW3038", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBW3038", name:"브러쉬오크", type:"WOOD", patternGroup:"OAK", sizeLabel:"180x920mm", thickness:"3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000
 },
 {
-    id:"DBW3029", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBW3029", name:"그린 오크", type:"WOOD", patternGroup:"OAK", sizeLabel:"180x920mm", thickness:"3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000
+    id:"DBW3046", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBW3046", name:"오크", type:"WOOD", patternGroup:"OAK", sizeLabel:"180x920mm", thickness:"3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000
 },
 {
-    id:"DBW3040", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBW3040", name:" 소프트파인", type:"WOOD", patternGroup:"PINE", sizeLabel:"180x920mm", thickness:"3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000
+    id:"DBW3029", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBW3029", name:"그린 오크", type:"WOOD", patternGroup:"OAK", sizeLabel:"180x920mm", thickness:"3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000
 },
 {
-    id:"DBW3020", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBW3020", name:" 르네강스오크", type:"WOOD", patternGroup:"OAK", sizeLabel:"180x920mm", thickness:"3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000
+    id:"DBW3040", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBW3040", name:" 소프트파인", type:"WOOD", patternGroup:"PINE", sizeLabel:"180x920mm", thickness:"3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000
 },
 {
-    id:"DBW3037", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBW3037", name:"브러쉬오크", type:"WOOD", patternGroup:"OAK", sizeLabel:"180x920mm", thickness:"3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000
+    id:"DBW3020", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBW3020", name:" 르네강스오크", type:"WOOD", patternGroup:"OAK", sizeLabel:"180x920mm", thickness:"3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000
 },
 {
-    id:"DBW3042", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBW3042", name:" 컬러스톤오크", type:"WOOD", patternGroup:"OAK", sizeLabel:"180x920mm", thickness:"3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000
+    id:"DBW3037", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBW3037", name:"브러쉬오크", type:"WOOD", patternGroup:"OAK", sizeLabel:"180x920mm", thickness:"3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000
 },
 {
-    id:"DBW3019", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBW3019", name:" 르네강스오크", type:"WOOD", patternGroup:"OAK", sizeLabel:"180x920mm", thickness:"3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000
+    id:"DBW3042", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBW3042", name:" 컬러스톤오크", type:"WOOD", patternGroup:"OAK", sizeLabel:"180x920mm", thickness:"3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000
 },
 {
-    id:"DBW3022", brand:"LX", category:"데코", line:"보타닉 3T", code:"DBW3022", name:" 르네강스오크", type:"WOOD", patternGroup:"OAK", sizeLabel:"180x920mm", thickness:"3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000
+    id:"DBW3019", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBW3019", name:" 르네강스오크", type:"WOOD", patternGroup:"OAK", sizeLabel:"180x920mm", thickness:"3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000
+},
+{
+    id:"DBW3022", brand:"LX", category: "데코", line:"보타닉 3T", code:"DBW3022", name:" 르네강스오크", type:"WOOD", patternGroup:"OAK", sizeLabel:"180x920mm", thickness:"3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000
 }
 ];
 const BOTANIC_3T = BOTANIC_3T_RAW.map(item => ({
@@ -930,32 +930,32 @@ const LIST_LX_4_5T = [
     {"id":"LX-ZS84041-11","name":"지아소리잠 클래식 오크","code":"ZS84041-11","brand":"LX 4.5T","category":"장판","price":48000,"thickness":"4.5T","specs":{"thickness":"4.5T","size":"1.83m x 롤단위","packing":"m 단위 절단 판매"}}
 ];
 const LIST_LX_DECO_S = [
-    { id:"LX-DLT3300", brand:"LX", category:"데코타일", line:"데코레이S", code:"DLT3300", name:"DLT 3300", thickness:"3.0T", price: 0 },
-    { id:"LX-DLT3301", brand:"LX", category:"데코타일", line:"데코레이S", code:"DLT3301", name:"DLT 3301", thickness:"3.0T", price: 0 },
-    { id:"LX-DLT3302", brand:"LX", category:"데코타일", line:"데코레이S", code:"DLT3302", name:"DLT 3302", thickness:"3.0T", price: 0 },
-    { id:"LX-DLT3303", brand:"LX", category:"데코타일", line:"데코레이S", code:"DLT3303", name:"DLT 3303", thickness:"3.0T", price: 0 },
-    { id:"LX-DLT3304", brand:"LX", category:"데코타일", line:"데코레이S", code:"DLT3304", name:"DLT 3304", thickness:"3.0T", price: 0 },
-    { id:"LX-DLT3305", brand:"LX", category:"데코타일", line:"데코레이S", code:"DLT3305", name:"DLT 3305", thickness:"3.0T", price: 0 },
-    { id:"LX-DLT3306", brand:"LX", category:"데코타일", line:"데코레이S", code:"DLT3306", name:"DLT 3306", thickness:"3.0T", price: 0 },
-    { id:"LX-DLT3307", brand:"LX", category:"데코타일", line:"데코레이S", code:"DLT3307", name:"DLT 3307", thickness:"3.0T", price: 0 },
-    { id:"LX-DLT3308", brand:"LX", category:"데코타일", line:"데코레이S", code:"DLT3308", name:"DLT 3308", thickness:"3.0T", price: 0 },
-    { id:"LX-DLT3309", brand:"LX", category:"데코타일", line:"데코레이S", code:"DLT3309", name:"DLT 3309", thickness:"3.0T", price: 0 },
-    { id:"LX-DLT3310", brand:"LX", category:"데코타일", line:"데코레이S", code:"DLT3310", name:"DLT 3310", thickness:"3.0T", price: 0 },
-    { id:"LX-DLT3311", brand:"LX", category:"데코타일", line:"데코레이S", code:"DLT3311", name:"DLT 3311", thickness:"3.0T", price: 0 },
-    { id:"LX-DLT3312", brand:"LX", category:"데코타일", line:"데코레이S", code:"DLT3312", name:"DLT 3312", thickness:"3.0T", price: 0 },
-    { id:"LX-DLT3313", brand:"LX", category:"데코타일", line:"데코레이S", code:"DLT3313", name:"DLT 3313", thickness:"3.0T", price: 0 },
-    { id:"LX-DLT3314", brand:"LX", category:"데코타일", line:"데코레이S", code:"DLT3314", name:"DLT 3314", thickness:"3.0T", price: 0 },
-    { id:"LX-DLT3315", brand:"LX", category:"데코타일", line:"데코레이S", code:"DLT3315", name:"DLT 3315", thickness:"3.0T", price: 0 },
-    { id:"LX-DLT3316", brand:"LX", category:"데코타일", line:"데코레이S", code:"DLT3316", name:"DLT 3316", thickness:"3.0T", price: 0 }
+    { id:"LX-DLT3300", brand:"LX", category: "데코", line:"데코레이S", code:"DLT3300", name:"DLT 3300", thickness:"3.0T", price: 0 },
+    { id:"LX-DLT3301", brand:"LX", category: "데코", line:"데코레이S", code:"DLT3301", name:"DLT 3301", thickness:"3.0T", price: 0 },
+    { id:"LX-DLT3302", brand:"LX", category: "데코", line:"데코레이S", code:"DLT3302", name:"DLT 3302", thickness:"3.0T", price: 0 },
+    { id:"LX-DLT3303", brand:"LX", category: "데코", line:"데코레이S", code:"DLT3303", name:"DLT 3303", thickness:"3.0T", price: 0 },
+    { id:"LX-DLT3304", brand:"LX", category: "데코", line:"데코레이S", code:"DLT3304", name:"DLT 3304", thickness:"3.0T", price: 0 },
+    { id:"LX-DLT3305", brand:"LX", category: "데코", line:"데코레이S", code:"DLT3305", name:"DLT 3305", thickness:"3.0T", price: 0 },
+    { id:"LX-DLT3306", brand:"LX", category: "데코", line:"데코레이S", code:"DLT3306", name:"DLT 3306", thickness:"3.0T", price: 0 },
+    { id:"LX-DLT3307", brand:"LX", category: "데코", line:"데코레이S", code:"DLT3307", name:"DLT 3307", thickness:"3.0T", price: 0 },
+    { id:"LX-DLT3308", brand:"LX", category: "데코", line:"데코레이S", code:"DLT3308", name:"DLT 3308", thickness:"3.0T", price: 0 },
+    { id:"LX-DLT3309", brand:"LX", category: "데코", line:"데코레이S", code:"DLT3309", name:"DLT 3309", thickness:"3.0T", price: 0 },
+    { id:"LX-DLT3310", brand:"LX", category: "데코", line:"데코레이S", code:"DLT3310", name:"DLT 3310", thickness:"3.0T", price: 0 },
+    { id:"LX-DLT3311", brand:"LX", category: "데코", line:"데코레이S", code:"DLT3311", name:"DLT 3311", thickness:"3.0T", price: 0 },
+    { id:"LX-DLT3312", brand:"LX", category: "데코", line:"데코레이S", code:"DLT3312", name:"DLT 3312", thickness:"3.0T", price: 0 },
+    { id:"LX-DLT3313", brand:"LX", category: "데코", line:"데코레이S", code:"DLT3313", name:"DLT 3313", thickness:"3.0T", price: 0 },
+    { id:"LX-DLT3314", brand:"LX", category: "데코", line:"데코레이S", code:"DLT3314", name:"DLT 3314", thickness:"3.0T", price: 0 },
+    { id:"LX-DLT3315", brand:"LX", category: "데코", line:"데코레이S", code:"DLT3315", name:"DLT 3315", thickness:"3.0T", price: 0 },
+    { id:"LX-DLT3316", brand:"LX", category: "데코", line:"데코레이S", code:"DLT3316", name:"DLT 3316", thickness:"3.0T", price: 0 }
 ];
 const LIST_LX_DECORAY_S_AUTO = [
-    { id:"LX-HOT062-01", brand:"LX", category:"데코타일", line:"데코레이S", code:"HOT062-01", name:"HOT062-01", price: 0 },
-    { id:"LX-HOW180-01", brand:"LX", category:"데코타일", line:"데코레이S", code:"HOW180-01", name:"HOW180-01", price: 0 },
-    { id:"LX-HOW181-01", brand:"LX", category:"데코타일", line:"데코레이S", code:"HOW181-01", name:"HOW181-01", price: 0 },
-    { id:"LX-HOW181-02", brand:"LX", category:"데코타일", line:"데코레이S", code:"HOW181-02", name:"HOW181-02", price: 0 },
-    { id:"LX-HOW182-01", brand:"LX", category:"데코타일", line:"데코레이S", code:"HOW182-01", name:"HOW182-01", price: 0 },
-    { id:"LX-HOW183-01", brand:"LX", category:"데코타일", line:"데코레이S", code:"HOW183-01", name:"HOW183-01", price: 0 },
-    { id:"LX-HOW184-01", brand:"LX", category:"데코타일", line:"데코레이S", code:"HOW184-01", name:"HOW184-01", price: 0 }
+    { id:"LX-HOT062-01", brand:"LX", category: "데코", line:"데코레이S", code:"HOT062-01", name:"HOT062-01", price: 0 },
+    { id:"LX-HOW180-01", brand:"LX", category: "데코", line:"데코레이S", code:"HOW180-01", name:"HOW180-01", price: 0 },
+    { id:"LX-HOW181-01", brand:"LX", category: "데코", line:"데코레이S", code:"HOW181-01", name:"HOW181-01", price: 0 },
+    { id:"LX-HOW181-02", brand:"LX", category: "데코", line:"데코레이S", code:"HOW181-02", name:"HOW181-02", price: 0 },
+    { id:"LX-HOW182-01", brand:"LX", category: "데코", line:"데코레이S", code:"HOW182-01", name:"HOW182-01", price: 0 },
+    { id:"LX-HOW183-01", brand:"LX", category: "데코", line:"데코레이S", code:"HOW183-01", name:"HOW183-01", price: 0 },
+    { id:"LX-HOW184-01", brand:"LX", category: "데코", line:"데코레이S", code:"HOW184-01", name:"HOW184-01", price: 0 }
 ];
 const LIST_LX_WALLPAPER = [
   { id:"LXW-PR003-01", code:"PR003-01", name:"디아망 PR003-01", brand:"LX", category:"벽지", materialType:"디아망", price: 0 },
