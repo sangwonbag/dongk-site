@@ -1,0 +1,1356 @@
+﻿
+// 600媛??꾨━誘몄뾼 (26,000??
+const LIST_600 = [
+    "TS 5535M", "TS 5536M", "TS 5537M", "TS 5532M", "TS 5533M", "TS 5534M", "TS 5531M"
+];
+
+// 450媛?(25,000??
+const LIST_450 = [
+    "TS 5541P", "TS 5542P", "TS 5543P", "TS 5544P", "TS 5545P", "TS 5546P", "TS 5548P",
+    "TS 5549P", "TS 5518P", "TS 5519P", "TS 5550P", "TS 5547P", "TS 5516P", "TS 5508P",
+    "TS 5551P", "TS 5552P", "TS 5510P", "TS 5511P", "TS 5502P", "TS 5503P"
+];
+
+// KCC (?곸꽭 ?뺣낫 ?ы븿)
+const LIST_KCC_EXTENDED = [
+    { id: "TS5502P", code: "TS5502P", name: "TS5502P ?곕툙", type: "450" },
+    { id: "TS5503P", code: "TS5503P", name: "TS5503P ?곕툙", type: "450" },
+    { id: "TS5508", code: "TS5508", name: "TS5508 釉뚮윭??移댄렖", type: "450" },
+    { id: "TS5510P", code: "TS5510P", name: "TS5510P 移댄렖", type: "450" },
+    { id: "TS5511P", code: "TS5511P", name: "TS5511P 移댄렖", type: "450" },
+    { id: "TS5516P", code: "TS5516P", name: "TS5516P 留덈툝", type: "450" },
+    { id: "TS5518P", code: "TS5518P", name: "TS5518P 肄섑겕由ы듃", type: "450" },
+    { id: "TS5519P", code: "TS5519P", name: "TS5519P 肄섑겕由ы듃", type: "450" },
+    { id: "TS5531M", code: "TS5531M", name: "TS5531M ?ㅻ땳??, type: "600" },
+    { id: "TS5532M", code: "TS5532M", name: "TS5532M ?뚮씪?붿냼", type: "600" },
+    { id: "TS5533M", code: "TS5533M", name: "TS5533M ?뚮씪?붿냼", type: "600" },
+    { id: "TS5534M", code: "TS5534M", name: "TS5534M ?뚮씪?붿냼", type: "600" },
+    { id: "TS5535M", code: "TS5535M", name: "TS5535M ?대컲 肄섑겕由ы듃", type: "600" },
+    { id: "TS5536M", code: "TS5536M", name: "TS5536M ?대컲 肄섑겕由ы듃", type: "600" },
+    { id: "TS5537M", code: "TS5537M", name: "TS5537M ?대컲 肄섑겕由ы듃", type: "600" },
+    { id: "TS5541P", code: "TS5541P", name: "TS5541P ?щ젅?댄듃", type: "450" },
+    { id: "TS5542P", code: "TS5542P", name: "TS5542P ?щ젅?댄듃", type: "450" },
+    { id: "TS5543P", code: "TS5543P", name: "TS5543P ?щ젅?댄듃", type: "450" },
+    { id: "TS5544P", code: "TS5544P", name: "TS5544P ?щ젅?댄듃", type: "450" },
+    { id: "TS5545P", code: "TS5545P", name: "TS5545P ?뚮씪二?, type: "450" },
+    { id: "TS5546P", code: "TS5546P", name: "TS5546P ?붾씪二?, type: "450" },
+    { id: "TS5547P", code: "TS5547P", name: "TS5547P 鍮꾩븰肄?, type: "450" },
+    { id: "TS5548P", code: "TS5548P", name: "TS5548P ?뚮뱶?ㅽ넠", type: "450" },
+    { id: "TS5549M", code: "TS5549M", name: "TS5549M ?뚮뱶?ㅽ넠", type: "600" },
+    { id: "TS5550P", code: "TS5550P", name: "TS5550P 肄섑겕由ы듃", type: "450" },
+    { id: "TS5551P", code: "TS5551P", name: "TS5551P 踰좎씠吏?移댄렖", type: "450" },
+    { id: "TS5552P", code: "TS5552P", name: "TS5552P 踰좎씠吏?移댄렖", type: "450" }
+];
+
+// ?곕뱶 (25,000??
+const LIST_WOOD = [
+    "TW 5104G", "TW 5107G", "TW 5109G", "TW 5108G", "TW 5103G", "TW 5105G", "TW 5106G",
+    "TW 5102G", "TW 5110G", "TW 5111G", "TW 5112G", "TW 5119G", "TW 5120G"
+];
+
+// 媛寃??곸닔
+export const PRICE_ECONO_PLUS = 35000;
+export const PRICE_BOTANIC = 28000;
+
+const BASE_PATH = "/images/products";
+
+export const ALL_BRANDS = [
+    "KCC", "?숈떊", "LX", "?뱀닔", "?ъ쁺", "?꾨?", "?좎꽦",
+    "?닿굔", "?숉솕", "援ъ젙",
+    "媛쒕굹由?, "?쒖슱", "?쒖씪", "?붿븘?대뵒", "?좏븳",
+    "?ㅼ셿", "?꾨컲",
+    "湲고?",
+];
+
+export const BRANDS_BY_CATEGORY = {
+    "?곗퐫???: ["KCC", "?숈떊", "LX", "?뱀닔", "?ъ쁺", "?꾨?", "?좎꽦"],
+    "?ν뙋": ["LX1.8T", "LX2.0T", "LX2.2T", "LX2.7T", "LX3.2T", "LX4.5T", "LX5.0T", "LX6.0T"],
+    "留덈（": ["?닿굔", "?숉솕", "援ъ젙"],
+    "踰쎌?": ["LX", "媛쒕굹由?, "?쒖슱", "?쒖씪", "?붿븘?대뵒", "?좏븳"],
+    "移댄럹?명???: ["?ㅼ셿", "?꾨컲"],
+};
+
+function createMaterial(code, type) {
+    let name = code; // Default name is code
+    let price = 0;
+    let sizeLabel = "";
+    let packing = "";
+    let category = "";
+
+    // Mapping logic
+    if (type === "600") {
+        price = 26000;
+        sizeLabel = "600x600mm";
+        packing = "9pcs / 3.24??;
+        category = "600媛?;
+    } else if (type === "450") {
+        price = 25000;
+        sizeLabel = "457.2x457.2mm"; // Size label kept as is per usual product specs, just category name changed
+        packing = "16pcs / 3.34??;
+        category = "450媛?;
+    } else if (type === "wood") {
+        price = 25000;
+        sizeLabel = "184x950mm";
+        packing = "19pcs / 3.32??;
+    }
+    category = "?곗퐫???; // All current items are Deco Tile
+
+    // Try to find a cleaner name if possible or just use code
+    // In a real app, we might have a name map. For now, we use the code as the name base.
+    // Ensure image path logic handles variants if they existed in the old file, 
+    // but here we likely just stick to the base code for the main image.
+    // Note: The user provided codes like "TS 5549P" but file might be "TS 5549P ?뚮뱶?ㅽ넠.jpg"
+    // We might need to fuzzy match or just assume standard jpg. 
+    // Given the previous file list, we should probably append naming if we knew it.
+    // For this refactor, I will leave the name as the code to ensure it works, 
+    // or try to preserve the existing names if I can match them.
+
+    return {
+        id: code,
+        name: code,
+        code: code,
+        brand: "KCC",
+        category: category,
+        type: type,
+        price: price,
+        sizeLabel: sizeLabel,
+        packing: packing,
+        thickness: "3.0mm",
+        isRecommended: code.includes("5541") || code.includes("5535") || code.includes("5104"),
+        specs: {
+            thickness: "3.0mm",
+            size: sizeLabel,
+            packing: packing
+        }
+    };
+}
+
+// Generate Lists
+const mat600 = LIST_600.map(code => createMaterial(code, "600"));
+const mat450 = LIST_450.map(code => createMaterial(code, "450"));
+const matWood = LIST_WOOD.map(code => createMaterial(code, "wood"));
+
+const matKccExtended = LIST_KCC_EXTENDED.map(item => {
+    const base = createMaterial(item.code, item.type);
+    return { ...base, id: item.id, name: item.name };
+});
+
+// ?숈떊 (媛寃?誘몄젙, ?꾩껜蹂닿린)
+// ?숈떊 (媛寃?誘몄젙, ?꾩껜蹂닿린) -> 媛寃?洹쒓꺽 ?먮룞 ?곸슜
+const LIST_DONGSHIN_RAW = [
+    { id: "DS-AB_6711", brand: "?숈떊", code: "AB_6711", name: "AB 6711", category: "?꾩껜蹂닿린" },
+    { id: "DS-AB_6712", brand: "?숈떊", code: "AB_6712", name: "AB 6712", category: "?꾩껜蹂닿린" },
+    { id: "DS-AB_6717", brand: "?숈떊", code: "AB_6717", name: "AB 6717", category: "?꾩껜蹂닿린" },
+    { id: "DS-AB_6727", brand: "?숈떊", code: "AB_6727", name: "AB 6727", category: "?꾩껜蹂닿린" },
+    { id: "DS-AB_6739", brand: "?숈떊", code: "AB_6739", name: "AB 6739", category: "?꾩껜蹂닿린" },
+    { id: "DS-AB_6740", brand: "?숈떊", code: "AB_6740", name: "AB 6740", category: "?꾩껜蹂닿린" },
+    { id: "DS-AB_6741", brand: "?숈떊", code: "AB_6741", name: "AB 6741", category: "?꾩껜蹂닿린" },
+    { id: "DS-AB_6899", brand: "?숈떊", code: "AB_6899", name: "AB 6899", category: "?꾩껜蹂닿린" },
+    { id: "DS-AB_6915", brand: "?숈떊", code: "AB_6915", name: "AB 6915", category: "?꾩껜蹂닿린" },
+    { id: "DS-AB_6933", brand: "?숈떊", code: "AB_6933", name: "AB 6933", category: "?꾩껜蹂닿린" },
+    { id: "DS-AB_6978", brand: "?숈떊", code: "AB_6978", name: "AB 6978", category: "?꾩껜蹂닿린" },
+    { id: "DS-AB_6981", brand: "?숈떊", code: "AB_6981", name: "AB 6981", category: "?꾩껜蹂닿린" },
+    { id: "DS-AB_6984", brand: "?숈떊", code: "AB_6984", name: "AB 6984", category: "?꾩껜蹂닿린" },
+    { id: "DS-AB_6990", brand: "?숈떊", code: "AB_6990", name: "AB 6990", category: "?꾩껜蹂닿린" },
+
+    { id: "DS-AH_505", brand: "?숈떊", code: "AH_505", name: "AH 505", category: "?꾩껜蹂닿린" },
+    { id: "DS-AH_506", brand: "?숈떊", code: "AH_506", name: "AH 506", category: "?꾩껜蹂닿린" },
+    { id: "DS-AH_507", brand: "?숈떊", code: "AH_507", name: "AH 507", category: "?꾩껜蹂닿린" },
+    { id: "DS-AH_509", brand: "?숈떊", code: "AH_509", name: "AH 509", category: "?꾩껜蹂닿린" },
+    { id: "DS-AH_510", brand: "?숈떊", code: "AH_510", name: "AH 510", category: "?꾩껜蹂닿린" },
+    { id: "DS-AH_726", brand: "?숈떊", code: "AH_726", name: "AH 726", category: "?꾩껜蹂닿린" },
+    { id: "DS-AH_728", brand: "?숈떊", code: "AH_728", name: "AH 728", category: "?꾩껜蹂닿린" },
+    { id: "DS-AH_729", brand: "?숈떊", code: "AH_729", name: "AH 729", category: "?꾩껜蹂닿린" },
+
+    { id: "DS-AH_730", brand: "?숈떊", code: "AH_730", name: "AH 730", category: "?꾩껜蹂닿린" },
+    { id: "DS-AH_734", brand: "?숈떊", code: "AH_734", name: "AH 734", category: "?꾩껜蹂닿린" },
+    { id: "DS-AH_735", brand: "?숈떊", code: "AH_735", name: "AH 735", category: "?꾩껜蹂닿린" },
+    { id: "DS-AH_736", brand: "?숈떊", code: "AH_736", name: "AH 736", category: "?꾩껜蹂닿린" },
+    { id: "DS-AH_737", brand: "?숈떊", code: "AH_737", name: "AH 737", category: "?꾩껜蹂닿린" },
+    { id: "DS-AH_738", brand: "?숈떊", code: "AH_738", name: "AH 738", category: "?꾩껜蹂닿린" },
+    { id: "DS-AH_739", brand: "?숈떊", code: "AH_739", name: "AH 739", category: "?꾩껜蹂닿린" },
+];
+
+const processDongshinItem = (item) => {
+    let price = 36000; // Fixed price for all Dongshin
+    let sizeLabel = "";
+    let packing = "";
+    let type = "";
+    let category = "";
+
+    const code = item.code;
+
+    // Classification Logic
+    // 1. Dongshin 450: specs.size 457.2x457.2mm, starts with AS
+    if (code.startsWith("AS") || code.startsWith("AS_")) {
+        sizeLabel = "457.2x457.2mm";
+        packing = "16pcs / 3.34??;
+        type = "ds_450";
+        category = "?숈떊 450媛?;
+    }
+    // 3. Dongshin 600: specs.size 600x600mm, code AH 61**
+    // Using startsWith("AH 61") or "AH_61" to be safe with formats
+    else if (code.startsWith("AH 61") || code.startsWith("AH_61") || code.startsWith("AH61")) {
+        sizeLabel = "600x600mm";
+        packing = "9pcs / 3.24??;
+        type = "ds_600";
+        category = "?숈떊 600媛?;
+    }
+    // 2. Dongshin Wood: specs.size 180x920mm, starts with AB or AH 5/7
+    else if (
+        code.startsWith("AB") || code.startsWith("AB_") ||
+        code.startsWith("AH 5") || code.startsWith("AH_5") || code.startsWith("AH5") ||
+        code.startsWith("AH 7") || code.startsWith("AH_7") || code.startsWith("AH7")
+    ) {
+        sizeLabel = "180x920mm";
+        packing = "20pcs / 3.31??;
+        type = "ds_wood";
+        category = "?숈떊 ?곕뱶";
+    }
+    // Fallback for unknown Dongshin codes
+    else {
+        sizeLabel = "180x920mm";
+        packing = "20pcs / 3.31??;
+        type = "ds_wood";
+    }
+
+    category = "?곗퐫???; // All current Dongshin items are also Deco Tile
+
+    return {
+        ...item,
+        price,
+        type,
+        category,
+        sizeLabel,
+        packing,
+        specs: {
+            thickness: "3.0mm",
+            size: sizeLabel,
+            packing: packing
+        }
+    };
+};
+
+const LIST_DONGSHIN = LIST_DONGSHIN_RAW.map(processDongshinItem);
+
+// LX Prestige 5T Data
+const PRESTIGE_5T_RAW = [
+    {
+        id: "PTT6952",
+        brand: "LX",
+        category: "?곗퐫???,
+        line: "?꾨젅?ㅽ떚吏 5T",
+        code: "PTT6952",
+        name: "?뚮뱶 踰좎씠吏",
+        type: "STONE",
+        sizeLabel: "600x600mm",
+        thickness: "5.0T",
+        width: 600,
+        length: 600,
+        box_pcs: 5,
+        box_m2: 1.80,
+        price: 36000
+    },
+    {
+        id: "PTT6953",
+        brand: "LX",
+        category: "?곗퐫???,
+        line: "?꾨젅?ㅽ떚吏 5T",
+        code: "PTT6953",
+        name: "?붾━??移?,
+        type: "STONE",
+        sizeLabel: "600x600mm",
+        thickness: "5.0T",
+        width: 600,
+        length: 600,
+        box_pcs: 5,
+        box_m2: 1.80,
+        price: 36000
+    },
+    {
+        id: "PTT6950",
+        brand: "LX",
+        category: "?곗퐫???,
+        line: "?꾨젅?ㅽ떚吏 5T",
+        code: "PTT6950",
+        name: "誘몄뒪??肄섑겕由ы듃",
+        type: "STONE",
+        sizeLabel: "600x600mm",
+        thickness: "5.0T",
+        width: 600,
+        length: 600,
+        box_pcs: 5,
+        box_m2: 1.80,
+        price: 36000
+    },
+    {
+        id: "PTT6913",
+        brand: "LX",
+        category: "?곗퐫???,
+        line: "?꾨젅?ㅽ떚吏 5T",
+        code: "PTT6913",
+        name: "??肄섑겕由ы듃",
+        type: "STONE",
+        sizeLabel: "600x600mm",
+        thickness: "5.0T",
+        width: 600,
+        length: 600,
+        box_pcs: 5,
+        box_m2: 1.80,
+        price: 36000
+    },
+    {
+        id: "PTT6910",
+        brand: "LX",
+        category: "?곗퐫???,
+        line: "?꾨젅?ㅽ떚吏 5T",
+        code: "PTT6910",
+        name: "硫뷀깉",
+        type: "STONE",
+        sizeLabel: "600x600mm",
+        thickness: "5.0T",
+        width: 600,
+        length: 600,
+        box_pcs: 5,
+        box_m2: 1.80,
+        price: 36000
+    },
+    {
+        id: "PTT6912",
+        brand: "LX",
+        category: "?곗퐫???,
+        line: "?꾨젅?ㅽ떚吏 5T",
+        code: "PTT6912",
+        name: "硫뷀깉",
+        type: "STONE",
+        sizeLabel: "600x600mm",
+        thickness: "5.0T",
+        width: 600,
+        length: 600,
+        box_pcs: 5,
+        box_m2: 1.80,
+        price: 36000
+    },
+    {
+        id: "PTT6951",
+        brand: "LX",
+        category: "?곗퐫???,
+        line: "?꾨젅?ㅽ떚吏 5T",
+        code: "PTT6951",
+        name: "紐⑤뜕 洹몃젅??,
+        type: "STONE",
+        sizeLabel: "600x600mm",
+        thickness: "5.0T",
+        width: 600,
+        length: 600,
+        box_pcs: 5,
+        box_m2: 1.80,
+        price: 36000
+    },
+    {
+        id: "PTT6917",
+        brand: "LX",
+        category: "?곗퐫???,
+        line: "?꾨젅?ㅽ떚吏 5T",
+        code: "PTT6917",
+        name: "鍮꾩븞肄?,
+        type: "STONE",
+        sizeLabel: "600x600mm",
+        thickness: "5.0T",
+        width: 600,
+        length: 600,
+        box_pcs: 5,
+        box_m2: 1.80,
+        price: 36000
+    },
+    {
+        id: "PTT8696",
+        brand: "LX",
+        category: "?곗퐫???,
+        line: "?꾨젅?ㅽ떚吏 5T",
+        code: "PTT8696",
+        name: "?꾩씠??怨⑤뱶",
+        type: "STONE",
+        sizeLabel: "457.2x914.4mm",
+        thickness: "5.0T",
+        width: 457.2,
+        length: 914.4,
+        box_pcs: 5,
+        box_m2: 2.09,
+        price: 36000
+    },
+    {
+        id: "PTT8698",
+        brand: "LX",
+        category: "?곗퐫???,
+        line: "?꾨젅?ㅽ떚吏 5T",
+        code: "PTT8698",
+        name: "?붿뒪??釉뚮줎利?,
+        type: "STONE",
+        sizeLabel: "457.2x914.4mm",
+        thickness: "5.0T",
+        width: 457.2,
+        length: 914.4,
+        box_pcs: 5,
+        box_m2: 2.09,
+        price: 36000
+    },
+    {
+        id: "PTW7961",
+        brand: "LX",
+        category: "?곗퐫???,
+        line: "?꾨젅?ㅽ떚吏 5T",
+        code: "PTW7961",
+        name: "?대컲 ?ы븯??,
+        type: "WOOD",
+        sizeLabel: "228.6x1523mm",
+        thickness: "5.0T",
+        width: 228.6,
+        length: 1523,
+        box_pcs: 6,
+        box_m2: 2.09,
+        price: 36000
+    },
+    {
+        id: "PTW7964",
+        brand: "LX",
+        category: "?곗퐫???,
+        line: "?꾨젅?ㅽ떚吏 5T",
+        code: "PTW7964",
+        name: "?꾨찓由ъ뭏 ?ㅽ겕",
+        type: "WOOD",
+        sizeLabel: "228.6x1523mm",
+        thickness: "5.0T",
+        width: 228.6,
+        length: 1523,
+        box_pcs: 6,
+        box_m2: 2.09,
+        price: 36000
+    },
+    {
+        id: "PTW7902",
+        brand: "LX",
+        category: "?곗퐫???,
+        line: "?꾨젅?ㅽ떚吏 5T",
+        code: "PTW7902",
+        name: "?뷀듃 ?ㅽ겕",
+        type: "WOOD",
+        sizeLabel: "228.6x1523mm",
+        thickness: "5.0T",
+        width: 228.6,
+        length: 1523,
+        box_pcs: 6,
+        box_m2: 2.09,
+        price: 36000
+    },
+    {
+        id: "PTW7904",
+        brand: "LX",
+        category: "?곗퐫???,
+        line: "?꾨젅?ㅽ떚吏 5T",
+        code: "PTW7904",
+        name: "?뚯씤",
+        type: "WOOD",
+        sizeLabel: "228.6x1523mm",
+        thickness: "5.0T",
+        width: 228.6,
+        length: 1523,
+        box_pcs: 6,
+        box_m2: 2.09,
+        price: 36000
+    }
+];
+
+const PRESTIGE_5T = PRESTIGE_5T_RAW.map(item => ({
+    ...item,
+    packing: `${item.box_pcs}pcs / ${item.box_m2}??,
+    specs: {
+        thickness: item.thickness,
+        size: item.sizeLabel,
+        packing: `${item.box_pcs}pcs / ${item.box_m2}??
+    }
+}));
+
+// LX Econo Plus 3T Data
+const ECONO_PLUS_3T_RAW = [
+    // CONCRETE 600
+    { id: "DET6553", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6553", name: "?대젅??肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6554", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6554", name: "?대젅??肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6555", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6555", name: "?대젅??肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6556", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6556", name: "?대젅??肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6557", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6557", name: "?댁텛??肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6558", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6558", name: "?댁텛??肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6559", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6559", name: "?댁텛??肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6550", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6550", name: "?대컲 肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6551", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6551", name: "?대컲 肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6552", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6552", name: "?대컲 肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6235", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6235", name: "硫뷀깉 肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6236", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6236", name: "硫뷀깉 肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6242", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6242", name: "硫뷀깉 肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6243", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6243", name: "硫뷀깉 肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6244", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6244", name: "硫뷀깉 肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6251", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6251", name: "?몄텧 肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6252", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6252", name: "?몄텧 肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6237", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6237", name: "?몄텧 肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6238", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6238", name: "?몄텧 肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+
+    // SAND / LIME 600
+    { id: "DET6560", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6560", name: "?쇱엫 ?ㅽ넠", type: "STONE", patternGroup: "SAND_LIME", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6561", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6561", name: "?쇱엫 ?ㅽ넠", type: "STONE", patternGroup: "SAND_LIME", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6562", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6562", name: "?쇱엫 ?ㅽ넠", type: "STONE", patternGroup: "SAND_LIME", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6563", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6563", name: "移??몃씪誘?, type: "STONE", patternGroup: "SAND_LIME", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6564", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6564", name: "移??몃씪誘?, type: "STONE", patternGroup: "SAND_LIME", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6565", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6565", name: "移??몃씪誘?, type: "STONE", patternGroup: "SAND_LIME", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+
+    // MARBLE 600
+    { id: "DET6566", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6566", name: "而댄룷??留덈툝", type: "STONE", patternGroup: "MARBLE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6567", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6567", name: "而댄룷??留덈툝", type: "STONE", patternGroup: "MARBLE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6568", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6568", name: "而댄룷??留덈툝", type: "STONE", patternGroup: "MARBLE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6271", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6271", name: "留덈툝", type: "STONE", patternGroup: "MARBLE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6272", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6272", name: "留덈툝", type: "STONE", patternGroup: "MARBLE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6273", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6273", name: "留덈툝", type: "STONE", patternGroup: "MARBLE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6207", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6207", name: "?쇰젋泥?留덈툝", type: "STONE", patternGroup: "MARBLE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6208", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6208", name: "?쇰젋泥?留덈툝", type: "STONE", patternGroup: "MARBLE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6203", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6203", name: "鍮꾩븞肄?, type: "STONE", patternGroup: "MARBLE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6204", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6204", name: "鍮꾩븞肄?, type: "STONE", patternGroup: "MARBLE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6256", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6256", name: "?щ옓 留덈툝", type: "STONE", patternGroup: "MARBLE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6257", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6257", name: "?щ옓 留덈툝", type: "STONE", patternGroup: "MARBLE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6258", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6258", name: "?щ옓 留덈툝", type: "STONE", patternGroup: "MARBLE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+
+    // TERRAZZO 600
+    { id: "DET6281", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6281", name: "?뚮씪議?, type: "STONE", patternGroup: "TERRAZZO", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6282", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6282", name: "?뚮씪議?, type: "STONE", patternGroup: "TERRAZZO", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6569", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6569", name: "踰좎씠吏??뚮씪議?, type: "STONE", patternGroup: "TERRAZZO", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6570", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6570", name: "踰좎씠吏??뚮씪議?, type: "STONE", patternGroup: "TERRAZZO", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6571", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6571", name: "踰좎씠吏??뚮씪議?, type: "STONE", patternGroup: "TERRAZZO", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6572", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6572", name: "鍮꾩븞肄??뚮씪議?, type: "STONE", patternGroup: "TERRAZZO", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6573", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6573", name: "鍮꾩븞肄??뚮씪議?, type: "STONE", patternGroup: "TERRAZZO", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6574", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6574", name: "鍮꾩븞肄??뚮씪議?, type: "STONE", patternGroup: "TERRAZZO", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+
+    // GRANITE 600
+    { id: "DET6291", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6291", name: "洹몃씪?덊듃", type: "STONE", patternGroup: "GRANITE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6292", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6292", name: "洹몃씪?덊듃", type: "STONE", patternGroup: "GRANITE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6312", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6312", name: "?먯씠吏???ㅽ떥", type: "STONE", patternGroup: "GRANITE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+
+    // METAL SPARKLING 600
+    { id: "DET6245", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6245", name: "?ㅽ뙆?대쭅 硫뷀깉", type: "STONE", patternGroup: "METAL_SPARKLING", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6246", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6246", name: "?ㅽ뙆?대쭅 硫뷀깉", type: "STONE", patternGroup: "METAL_SPARKLING", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6247", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6247", name: "?ㅽ뙆?대쭅 硫뷀깉", type: "STONE", patternGroup: "METAL_SPARKLING", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6248", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6248", name: "?ㅽ뙆?대쭅 硫뷀깉", type: "STONE", patternGroup: "METAL_SPARKLING", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+
+    // WOVEN 600
+    { id: "DET2981", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET2981", name: "?⑤툕由?, type: "WOVEN", patternGroup: "WOVEN", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET2983", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET2983", name: "?⑤툕由?, type: "WOVEN", patternGroup: "WOVEN", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET2991", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET2991", name: "?⑤툕由?, type: "WOVEN", patternGroup: "WOVEN", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET2992", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET2992", name: "?⑤툕由?, type: "WOVEN", patternGroup: "WOVEN", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6325", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6325", name: "?곕툙", type: "WOVEN", patternGroup: "WOVEN", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6326", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6326", name: "?곕툙", type: "WOVEN", patternGroup: "WOVEN", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6330", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6330", name: "?곕툙", type: "WOVEN", patternGroup: "WOVEN", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6340", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6340", name: "?쇱씤 ?곕툙", type: "WOVEN", patternGroup: "WOVEN", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6341", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6341", name: "?쇱씤 ?곕툙", type: "WOVEN", patternGroup: "WOVEN", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+
+    // CARPET 600
+    { id: "DET6008", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6008", name: "?붾━??移댄렖", type: "CARPET", patternGroup: "CARPET", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6014", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6014", name: "?붾━??移댄렖", type: "CARPET", patternGroup: "CARPET", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6064", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6064", name: "?⑦꽩 移댄렖", type: "CARPET", patternGroup: "CARPET", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6075", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6075", name: "?⑦꽩 移댄렖", type: "CARPET", patternGroup: "CARPET", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6076", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6076", name: "?⑦꽩 移댄렖", type: "CARPET", patternGroup: "CARPET", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6575", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6575", name: "踰좎씠吏?移댄렖", type: "CARPET", patternGroup: "CARPET", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6576", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6576", name: "踰좎씠吏?移댄렖", type: "CARPET", patternGroup: "CARPET", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6577", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6577", name: "留덉슫??移댄렖", type: "CARPET", patternGroup: "CARPET", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6578", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6578", name: "留덉슫??移댄렖", type: "CARPET", patternGroup: "CARPET", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6579", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6579", name: "?꾪듃 ?ш렇", type: "CARPET", patternGroup: "CARPET", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6580", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6580", name: "?꾪듃 ?ш렇", type: "CARPET", patternGroup: "CARPET", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+
+    // STONE 450
+    { id: "DET2904", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET2904", name: "?몄텧 肄섑겕由ы듃", type: "STONE", patternGroup: "STONE_450", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000 },
+    { id: "DET2493", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET2493", name: "?몄텧 肄섑겕由ы듃", type: "STONE", patternGroup: "STONE_450", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000 },
+    { id: "DET2905", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET2905", name: "?몄텧 肄섑겕由ы듃", type: "STONE", patternGroup: "STONE_450", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000 },
+    { id: "DET2494", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET2494", name: "?몄텧 肄섑겕由ы듃", type: "STONE", patternGroup: "STONE_450", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000 },
+    { id: "DET2251", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET2251", name: "留덈툝", type: "STONE", patternGroup: "STONE_450", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000 },
+    { id: "DET6240", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6240", name: "留덈툝", type: "STONE", patternGroup: "STONE_450", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000 },
+    { id: "DET6239", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6239", name: "留덈툝", type: "STONE", patternGroup: "STONE_450", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000 },
+    { id: "DET2125", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET2125", name: "洹몃씪?덊듃", type: "STONE", patternGroup: "STONE_450", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000 },
+    { id: "DET2116", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET2116", name: "洹몃씪?덊듃", type: "STONE", patternGroup: "STONE_450", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000 },
+    { id: "DET2407", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET2407", name: "?몃씪誘?, type: "STONE", patternGroup: "STONE_450", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000 },
+
+    // CARPET 450
+    { id: "DET2870", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET2870", name: "???ㅻ쾭 移댄렖", type: "CARPET", patternGroup: "CARPET_450", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000 },
+    { id: "DET2871", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET2871", name: "???ㅻ쾭 移댄렖", type: "CARPET", patternGroup: "CARPET_450", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000 },
+    { id: "DET2872", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET2872", name: "???ㅻ쾭 移댄렖", type: "CARPET", patternGroup: "CARPET_450", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000 },
+    { id: "DET2862", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET2862", name: "?⑦꽩 移댄렖", type: "CARPET", patternGroup: "CARPET_450", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000 },
+    { id: "DET2821", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET2821", name: "?⑦꽩 移댄렖", type: "CARPET", patternGroup: "CARPET_450", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000 },
+    { id: "DET2823", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET2823", name: "?⑦꽩 移댄렖", type: "CARPET", patternGroup: "CARPET_450", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 36000 },
+
+    // WOOD PLANK
+    { id: "DEW4608", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DEW4608", name: "?뚯떆???ㅽ겕", type: "WOOD", patternGroup: "WOOD_PLANK", sizeLabel: "180x1200mm", thickness: "3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000 },
+    { id: "DEW4707", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DEW4707", name: "?뚯떆???ㅽ겕", type: "WOOD", patternGroup: "WOOD_PLANK", sizeLabel: "180x1200mm", thickness: "3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000 },
+    { id: "DEW4206", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DEW4206", name: "?ㅽ겕", type: "WOOD", patternGroup: "WOOD_PLANK", sizeLabel: "180x1200mm", thickness: "3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000 },
+    { id: "DEW4709", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DEW4709", name: "泥대━", type: "WOOD", patternGroup: "WOOD_PLANK", sizeLabel: "180x1200mm", thickness: "3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000 },
+    { id: "DEW4792", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DEW4792", name: "?고겕", type: "WOOD", patternGroup: "WOOD_PLANK", sizeLabel: "180x1200mm", thickness: "3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000 },
+    { id: "DEW4752", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DEW4752", name: "?고겕", type: "WOOD", patternGroup: "WOOD_PLANK", sizeLabel: "180x1200mm", thickness: "3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000 },
+    { id: "DEW2631", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DEW2631", name: "?덈땲 ?ㅽ겕", type: "WOOD", patternGroup: "WOOD_PLANK", sizeLabel: "180x1200mm", thickness: "3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000 },
+    { id: "DEW2632", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DEW2632", name: "?덈땲 ?ㅽ겕", type: "WOOD", patternGroup: "WOOD_PLANK", sizeLabel: "180x1200mm", thickness: "3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000 },
+    { id: "DEW2671", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DEW2671", name: "移대튃 ?ㅽ겕", type: "WOOD", patternGroup: "WOOD_PLANK", sizeLabel: "180x1200mm", thickness: "3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000 },
+    { id: "DEW2672", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DEW2672", name: "移대튃 ?ㅽ겕", type: "WOOD", patternGroup: "WOOD_PLANK", sizeLabel: "180x1200mm", thickness: "3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000 },
+    { id: "DEW2620", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DEW2620", name: "耳꾪듃 ?섎쫫", type: "WOOD", patternGroup: "WOOD_PLANK", sizeLabel: "180x1200mm", thickness: "3.0T", width: 180, length: 1200, box_pcs: 15, box_m2: 3.24, price: 36000 },
+
+    // WOOD 600
+    { id: "DET6523", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6523", name: "?뚯폆 ?곕뱶", type: "WOOD", patternGroup: "WOOD_600", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6262", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6262", name: "紐⑤뜕", type: "WOOD", patternGroup: "WOOD_600", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+    { id: "DET6263", brand: "LX", category: "?곗퐫???, line: "?먯퐫?명뵆?ъ뒪 3T", code: "DET6263", name: "紐⑤뜕", type: "WOOD", patternGroup: "WOOD_600", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 36000 },
+];
+
+const ECONO_PLUS_3T = ECONO_PLUS_3T_RAW.map(item => ({
+    ...item,
+    price: PRICE_ECONO_PLUS,
+    packing: `${item.box_pcs}pcs / ${item.box_m2}??,
+    specs: {
+        thickness: item.thickness,
+        size: item.sizeLabel,
+        packing: `${item.box_pcs}pcs / ${item.box_m2}??
+    }
+}));
+
+// LX Botanic 3T Data
+const BOTANIC_3T_RAW = [
+    // 600媛?    { id: "DBT3085", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3085", name: "移댄렖", type: "CARPET", patternGroup: "CARPET", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
+    { id: "DBT3080", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3080", name: "肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
+    { id: "DBT3087", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3087", name: "肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
+    { id: "DBT3084", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3084", name: "?뚮뱶?ㅽ넠", type: "STONE", patternGroup: "SANDSTONE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
+    { id: "DBT3090", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3090", name: "?뚮뱶?ㅽ넠", type: "STONE", patternGroup: "SANDSTONE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
+    { id: "DBT3089", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3089", name: "肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
+    { id: "DBT3086", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3086", name: "肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
+    { id: "DBT3088", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3088", name: "肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
+    { id: "DBT3083", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3083", name: "?쇱엫?ㅽ넠", type: "STONE", patternGroup: "LIMESTONE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
+    { id: "DBT3091", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3091", name: "?뚮씪議?, type: "STONE", patternGroup: "TERRAZZO", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
+    { id: "DBT3081", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3081", name: "肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
+    { id: "DBT3082", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3082", name: "肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "600x600mm", thickness: "3.0T", width: 600, length: 600, box_pcs: 9, box_m2: 3.24, price: 28000 },
+
+    // 450媛?    { id: "DBT3068", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3068", name: "留덈툝", type: "STONE", patternGroup: "MARBLE", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000 },
+    { id: "DBT3061", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3061", name: "?⑦꽩 肄섑겕由ы듃", type: "STONE", patternGroup: "PATTERN_CONCRETE", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000 },
+    { id: "DBT3074", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3074", name: "?쇱엫?ㅽ넠", type: "STONE", patternGroup: "LIMESTONE", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000 },
+    { id: "DBT3075", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3075", name: "?쇱엫?ㅽ넠", type: "STONE", patternGroup: "LIMESTONE", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000 },
+    { id: "DBT3076", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3076", name: "?쇱엫?ㅽ넠", type: "STONE", patternGroup: "LIMESTONE", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000 },
+    { id: "DBT3077", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3077", name: "肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000 },
+    { id: "DBT3078", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3078", name: "肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000 },
+    { id: "DBT3079", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3079", name: "肄섑겕由ы듃", type: "STONE", patternGroup: "CONCRETE", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000 },
+    { id: "DBT3060", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3060", name: "?⑦꽩 肄섑겕由ы듃", type: "STONE", patternGroup: "PATTERN_CONCRETE", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000 },
+    { id: "DBT3062", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3062", name: "?⑦꽩 肄섑겕由ы듃", type: "STONE", patternGroup: "PATTERN_CONCRETE", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000 },
+    { id: "DBT3059", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3059", name: "留덈툝", type: "STONE", patternGroup: "MARBLE", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000 },
+    { id: "DBT3069", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3069", name: "洹몃씪?덊듃", type: "STONE", patternGroup: "GRANITE", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000 },
+    { id: "DBT3067", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3067", name: "留덈툝", type: "STONE", patternGroup: "MARBLE", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000 },
+    { id: "DBT3051", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3051", name: "留덈툝", type: "STONE", patternGroup: "MARBLE", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000 },
+    { id: "DBT3065", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3065", name: "移댄렖", type: "CARPET", patternGroup: "CARPET", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000 },
+    { id: "DBT3066", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBT3066", name: "移댄렖", type: "CARPET", patternGroup: "CARPET", sizeLabel: "450x450mm", thickness: "3.0T", width: 450, length: 450, box_pcs: 16, box_m2: 3.24, price: 28000 },
+
+    // ?곕뱶 180媛?    { id: "DBW3045", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBW3045", name: "?붿씠???ㅽ겕", type: "WOOD", patternGroup: "OAK", sizeLabel: "180x920mm", thickness: "3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000 },
+    { id: "DBW3038", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBW3038", name: "?뚯떆 ?ㅽ겕", type: "WOOD", patternGroup: "OAK", sizeLabel: "180x920mm", thickness: "3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000 },
+    { id: "DBW3046", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBW3046", name: "?ㅽ겕", type: "WOOD", patternGroup: "OAK", sizeLabel: "180x920mm", thickness: "3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000 },
+    { id: "DBW3029", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBW3029", name: "洹몃┛ ?ㅽ겕", type: "WOOD", patternGroup: "OAK", sizeLabel: "180x920mm", thickness: "3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000 },
+    { id: "DBW3040", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBW3040", name: "?뚰봽???뚯씤", type: "WOOD", patternGroup: "PINE", sizeLabel: "180x920mm", thickness: "3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000 },
+    { id: "DBW3020", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBW3020", name: "?섎젅媛뺤뒪 ?ㅽ겕", type: "WOOD", patternGroup: "OAK", sizeLabel: "180x920mm", thickness: "3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000 },
+    { id: "DBW3037", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBW3037", name: "?뚯떆 ?ㅽ겕", type: "WOOD", patternGroup: "OAK", sizeLabel: "180x920mm", thickness: "3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000 },
+    { id: "DBW3042", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBW3042", name: "?좊윭?쇱븞 ?ㅽ겕", type: "WOOD", patternGroup: "OAK", sizeLabel: "180x920mm", thickness: "3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000 },
+    { id: "DBW3019", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBW3019", name: "?섎젅媛뺤뒪 ?ㅽ겕", type: "WOOD", patternGroup: "OAK", sizeLabel: "180x920mm", thickness: "3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000 },
+    { id: "DBW3022", brand: "LX", category: "?곗퐫???, line: "蹂댄???3T", code: "DBW3022", name: "?섎젅媛뺤뒪 ?ㅽ겕", type: "WOOD", patternGroup: "OAK", sizeLabel: "180x920mm", thickness: "3.0T", width: 180, length: 920, box_pcs: 20, box_m2: 3.31, price: 28000 },
+];
+
+const BOTANIC_3T = BOTANIC_3T_RAW.map(item => ({
+    ...item,
+    price: PRICE_BOTANIC,
+    packing: `${item.box_pcs}pcs / ${item.box_m2}??,
+    specs: {
+        thickness: item.thickness,
+        size: item.sizeLabel,
+        packing: `${item.box_pcs}pcs / ${item.box_m2}??
+    }
+}));
+
+// LX ?ν뙋 1.8T (?댁껌留? - 11,000??m
+const LIST_LX_1_8T = [
+    { 'id': 'LX-CM24731', 'name': '?댁껌留??댁텛???붿씠??, 'code': 'CM24731', 'brand': 'LX1.8T', 'category': '?ν뙋', 'price': 11000, 'thickness': '1.8T', 'specs': { 'thickness': '1.8T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-CM24083', 'name': '?댁껌留??좎돩', 'code': 'CM24083', 'brand': 'LX1.8T', 'category': '?ν뙋', 'price': 11000, 'thickness': '1.8T', 'specs': { 'thickness': '1.8T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-CM21882', 'name': '?댁껌留??ㅽ겕', 'code': 'CM21882', 'brand': 'LX1.8T', 'category': '?ν뙋', 'price': 11000, 'thickness': '1.8T', 'specs': { 'thickness': '1.8T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-CM24131', 'name': '?댁껌留??ㅽ겕', 'code': 'CM24131', 'brand': 'LX1.8T', 'category': '?ν뙋', 'price': 11000, 'thickness': '1.8T', 'specs': { 'thickness': '1.8T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-CM24133', 'name': '?댁껌留??ㅽ겕', 'code': 'CM24133', 'brand': 'LX1.8T', 'category': '?ν뙋', 'price': 11000, 'thickness': '1.8T', 'specs': { 'thickness': '1.8T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-CM24722', 'name': '?댁껌留?留덉씪???ㅽ넠', 'code': 'CM24722', 'brand': 'LX1.8T', 'category': '?ν뙋', 'price': 11000, 'thickness': '1.8T', 'specs': { 'thickness': '1.8T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-CM24741', 'name': '?댁껌留??몃씪誘??ㅽ넠', 'code': 'CM24741', 'brand': 'LX1.8T', 'category': '?ν뙋', 'price': 11000, 'thickness': '1.8T', 'specs': { 'thickness': '1.8T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-CM24711', 'name': '?댁껌留?釉붾옉 ?ㅽ겕', 'code': 'CM24711', 'brand': 'LX1.8T', 'category': '?ν뙋', 'price': 11000, 'thickness': '1.8T', 'specs': { 'thickness': '1.8T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-CM24081', 'name': '?댁껌留??좎돩', 'code': 'CM24081', 'brand': 'LX1.8T', 'category': '?ν뙋', 'price': 11000, 'thickness': '1.8T', 'specs': { 'thickness': '1.8T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-CM24713', 'name': '?댁껌留??щ옒?꾪듃 ?ㅽ겕', 'code': 'CM24713', 'brand': 'LX1.8T', 'category': '?ν뙋', 'price': 11000, 'thickness': '1.8T', 'specs': { 'thickness': '1.8T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-CM23691', 'name': '?댁껌留??섎쫫', 'code': 'CM23691', 'brand': 'LX1.8T', 'category': '?ν뙋', 'price': 11000, 'thickness': '1.8T', 'specs': { 'thickness': '1.8T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-CM22771', 'name': '?댁껌留??ㅽ겕', 'code': 'CM22771', 'brand': 'LX1.8T', 'category': '?ν뙋', 'price': 11000, 'thickness': '1.8T', 'specs': { 'thickness': '1.8T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-CM23692', 'name': '?댁껌留??섎쫫', 'code': 'CM23692', 'brand': 'LX1.8T', 'category': '?ν뙋', 'price': 11000, 'thickness': '1.8T', 'specs': { 'thickness': '1.8T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } }
+];
+
+// LX ?ν뙋 2.0T (??됰ぉ) - 17,000??m
+const LIST_LX_2_0T = [
+    { 'id': 'LX-EH14721', 'name': '??됰ぉ ?대씪?곕뱶 ?щ┝', 'code': 'EH14721', 'brand': 'LX2.0T', 'category': '?ν뙋', 'price': 17000, 'thickness': '2.0T', 'specs': { 'thickness': '2.0T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-EH12121', 'name': '??됰ぉ ?ㅽ겕', 'code': 'EH12121', 'brand': 'LX2.0T', 'category': '?ν뙋', 'price': 17000, 'thickness': '2.0T', 'specs': { 'thickness': '2.0T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-EH14092', 'name': '??됰ぉ ?ㅽ궎 ?ㅽ넠', 'code': 'EH14092', 'brand': 'LX2.0T', 'category': '?ν뙋', 'price': 17000, 'thickness': '2.0T', 'specs': { 'thickness': '2.0T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-EH14732', 'name': '??됰ぉ ?댁텛??洹몃젅??, 'code': 'EH14732', 'brand': 'LX2.0T', 'category': '?ν뙋', 'price': 17000, 'thickness': '2.0T', 'specs': { 'thickness': '2.0T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-EH14101', 'name': '??됰ぉ 紐⑤끂瑜?, 'code': 'EH14101', 'brand': 'LX2.0T', 'category': '?ν뙋', 'price': 17000, 'thickness': '2.0T', 'specs': { 'thickness': '2.0T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-EH13713', 'name': '??됰ぉ 誘몃땲硫 ?곕뱶', 'code': 'EH13713', 'brand': 'LX2.0T', 'category': '?ν뙋', 'price': 17000, 'thickness': '2.0T', 'specs': { 'thickness': '2.0T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-EH14121', 'name': '??됰ぉ 罹??ㅽ겕', 'code': 'EH14121', 'brand': 'LX2.0T', 'category': '?ν뙋', 'price': 17000, 'thickness': '2.0T', 'specs': { 'thickness': '2.0T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-EH13712', 'name': '??됰ぉ 留덇끝 ?ㅽ겕', 'code': 'EH13712', 'brand': 'LX2.0T', 'category': '?ν뙋', 'price': 17000, 'thickness': '2.0T', 'specs': { 'thickness': '2.0T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-EH14712', 'name': '??됰ぉ ?쇱튂 ?ㅽ겕', 'code': 'EH14712', 'brand': 'LX2.0T', 'category': '?ν뙋', 'price': 17000, 'thickness': '2.0T', 'specs': { 'thickness': '2.0T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-EH12071', 'name': '??됰ぉ ?ㅽ겕', 'code': 'EH12071', 'brand': 'LX2.0T', 'category': '?ν뙋', 'price': 17000, 'thickness': '2.0T', 'specs': { 'thickness': '2.0T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } }
+];
+
+// LX ?ν뙋 2.7T (吏?꾩궗?묒븷) - 32,000??m
+const LIST_LX_2_7T = [
+    { 'id': 'LX-ZH50011', 'name': '吏?꾩궗?묒븷 ?ㅽ겕', 'code': 'ZH50011', 'brand': 'LX2.7T', 'category': '?ν뙋', 'price': 32000, 'thickness': '2.7T', 'specs': { 'thickness': '2.7T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-ZH50061', 'name': '吏?꾩궗?묒븷 ?ㅽ겕', 'code': 'ZH50061', 'brand': 'LX2.7T', 'category': '?ν뙋', 'price': 32000, 'thickness': '2.7T', 'specs': { 'thickness': '2.7T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-ZH53603', 'name': '吏?꾩궗?묒븷 ?대컲?ъ꽭由?, 'code': 'ZH53603', 'brand': 'LX2.7T', 'category': '?ν뙋', 'price': 32000, 'thickness': '2.7T', 'specs': { 'thickness': '2.7T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-ZH54032', 'name': '吏?꾩궗?묒븷 ?덊떞洹몃젅??, 'code': 'ZH54032', 'brand': 'LX2.7T', 'category': '?ν뙋', 'price': 32000, 'thickness': '2.7T', 'specs': { 'thickness': '2.7T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-ZH54044', 'name': '吏?꾩궗?묒븷 ?댁뒪?댁삤??, 'code': 'ZH54044', 'brand': 'LX2.7T', 'category': '?ν뙋', 'price': 32000, 'thickness': '2.7T', 'specs': { 'thickness': '2.7T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-ZH54231', 'name': '吏?꾩궗?묒븷 ?섏씪?ㅽ겕', 'code': 'ZH54231', 'brand': 'LX2.7T', 'category': '?ν뙋', 'price': 32000, 'thickness': '2.7T', 'specs': { 'thickness': '2.7T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-ZH54483', 'name': '吏?꾩궗?묒븷 ?뚰봽?몄뒪??, 'code': 'ZH54483', 'brand': 'LX2.7T', 'category': '?ν뙋', 'price': 32000, 'thickness': '2.7T', 'specs': { 'thickness': '2.7T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-ZH54542', 'name': '吏?꾩궗?묒븷 硫쒕줈?곗뒪??, 'code': 'ZH54542', 'brand': 'LX2.7T', 'category': '?ν뙋', 'price': 32000, 'thickness': '2.7T', 'specs': { 'thickness': '2.7T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } }
+];
+
+// LX ?ν뙋 3.2T (吏?꾩궗?묒븷) - 36,000??m
+const LIST_LX_3_2T = [
+    { 'id': 'LX-50011', 'name': '吏?꾩궗?묒븷 ?ㅽ겕', 'code': '50011', 'brand': 'LX3.2T', 'category': '?ν뙋', 'price': 36000, 'thickness': '3.2T', 'specs': { 'thickness': '3.2T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-50061', 'name': '吏?꾩궗?묒븷 ?ㅽ겕', 'code': '50061', 'brand': 'LX3.2T', 'category': '?ν뙋', 'price': 36000, 'thickness': '3.2T', 'specs': { 'thickness': '3.2T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-53351', 'name': '吏?꾩궗?묒븷 蹂댁뒪?ㅼ삤??, 'code': '53351', 'brand': 'LX3.2T', 'category': '?ν뙋', 'price': 36000, 'thickness': '3.2T', 'specs': { 'thickness': '3.2T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-54211', 'name': '吏?꾩궗?묒븷 紐⑥뭅?ㅽ겕', 'code': '54211', 'brand': 'LX3.2T', 'category': '?ν뙋', 'price': 36000, 'thickness': '3.2T', 'specs': { 'thickness': '3.2T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-54231', 'name': '吏?꾩궗?묒븷 ?섏씪?ㅽ겕', 'code': '54231', 'brand': 'LX3.2T', 'category': '?ν뙋', 'price': 36000, 'thickness': '3.2T', 'specs': { 'thickness': '3.2T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-60071', 'name': '吏?꾩궗?묒븷 ?꾨━??, 'code': '60071', 'brand': 'LX3.2T', 'category': '?ν뙋', 'price': 36000, 'thickness': '3.2T', 'specs': { 'thickness': '3.2T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-60081', 'name': '吏?꾩궗?묒븷 ?몃껐踰꾨젅??, 'code': '60081', 'brand': 'LX3.2T', 'category': '?ν뙋', 'price': 36000, 'thickness': '3.2T', 'specs': { 'thickness': '3.2T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-60151', 'name': '吏?꾩궗?묒븷 洹몃젅?댄???, 'code': '60151', 'brand': 'LX3.2T', 'category': '?ν뙋', 'price': 36000, 'thickness': '3.2T', 'specs': { 'thickness': '3.2T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-60161', 'name': '吏?꾩궗?묒븷 諛붾땺??, 'code': '60161', 'brand': 'LX3.2T', 'category': '?ν뙋', 'price': 36000, 'thickness': '3.2T', 'specs': { 'thickness': '3.2T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-63312', 'name': '吏?꾩궗?묒븷 ?뚰봽?몄삤??, 'code': '63312', 'brand': 'LX3.2T', 'category': '?ν뙋', 'price': 36000, 'thickness': '3.2T', 'specs': { 'thickness': '3.2T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-63391', 'name': '吏?꾩궗?묒븷 ?ㅻ땳??, 'code': '63391', 'brand': 'LX3.2T', 'category': '?ν뙋', 'price': 36000, 'thickness': '3.2T', 'specs': { 'thickness': '3.2T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-63693', 'name': '吏?꾩궗?묒븷 鍮꾩뒪?ъ뿕由?, 'code': '63693', 'brand': 'LX3.2T', 'category': '?ν뙋', 'price': 36000, 'thickness': '3.2T', 'specs': { 'thickness': '3.2T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-64221', 'name': '吏?꾩궗?묒븷 ?먮쾭?뚯삤??, 'code': '64221', 'brand': 'LX3.2T', 'category': '?ν뙋', 'price': 36000, 'thickness': '3.2T', 'specs': { 'thickness': '3.2T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-64223', 'name': '吏?꾩궗?묒븷 ?꾪듃?ㅽ겕', 'code': '64223', 'brand': 'LX3.2T', 'category': '?ν뙋', 'price': 36000, 'thickness': '3.2T', 'specs': { 'thickness': '3.2T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-64281', 'name': '吏?꾩궗?묒븷 ?댁텛?댄뀒?쇱“', 'code': '64281', 'brand': 'LX3.2T', 'category': '?ν뙋', 'price': 36000, 'thickness': '3.2T', 'specs': { 'thickness': '3.2T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } }
+];
+
+// LX ?ν뙋 4.5T (吏?꾩냼由ъ옞) - 44,000??m
+const LIST_LX_4_5T = [
+    { 'id': 'LX-ZS80021-11', 'name': '吏?꾩냼由ъ옞 紐⑤뜕 ?ㅽ겕', 'code': 'ZS80021-11', 'brand': 'LX4.5T', 'category': '?ν뙋', 'price': 44000, 'thickness': '4.5T', 'specs': { 'thickness': '4.5T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-ZS80071-11', 'name': '吏?꾩냼由ъ옞 ?붿씠???ㅽ겕', 'code': 'ZS80071-11', 'brand': 'LX4.5T', 'category': '?ν뙋', 'price': 44000, 'thickness': '4.5T', 'specs': { 'thickness': '4.5T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-ZS82991-11', 'name': '吏?꾩냼由ъ옞 ?쇱엫 ?ㅽ겕', 'code': 'ZS82991-11', 'brand': 'LX4.5T', 'category': '?ν뙋', 'price': 44000, 'thickness': '4.5T', 'specs': { 'thickness': '4.5T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-ZS83011-11', 'name': '吏?꾩냼由ъ옞 ?щ젅留??붿씠??, 'code': 'ZS83011-11', 'brand': 'LX4.5T', 'category': '?ν뙋', 'price': 44000, 'thickness': '4.5T', 'specs': { 'thickness': '4.5T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-ZS83051-11', 'name': '吏?꾩냼由ъ옞 硫???ㅻ쭅蹂?, 'code': 'ZS83051-11', 'brand': 'LX4.5T', 'category': '?ν뙋', 'price': 44000, 'thickness': '4.5T', 'specs': { 'thickness': '4.5T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-ZS83081-11', 'name': '吏?꾩냼由ъ옞 鍮꾩?肄?留덈툝', 'code': 'ZS83081-11', 'brand': 'LX4.5T', 'category': '?ν뙋', 'price': 44000, 'thickness': '4.5T', 'specs': { 'thickness': '4.5T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-ZS84011-11', 'name': '吏?꾩냼由ъ옞 ?댁툌???ㅽ겕', 'code': 'ZS84011-11', 'brand': 'LX4.5T', 'category': '?ν뙋', 'price': 44000, 'thickness': '4.5T', 'specs': { 'thickness': '4.5T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-ZS84012-11', 'name': '吏?꾩냼由ъ옞 諛몃━ ?ㅽ겕', 'code': 'ZS84012-11', 'brand': 'LX4.5T', 'category': '?ν뙋', 'price': 44000, 'thickness': '4.5T', 'specs': { 'thickness': '4.5T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-ZS84021-11', 'name': '吏?꾩냼由ъ옞 誘몄뒪???ㅽ겕', 'code': 'ZS84021-11', 'brand': 'LX4.5T', 'category': '?ν뙋', 'price': 44000, 'thickness': '4.5T', 'specs': { 'thickness': '4.5T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-ZS84022-11', 'name': '吏?꾩냼由ъ옞 ?쒕줈???ㅽ겕', 'code': 'ZS84022-11', 'brand': 'LX4.5T', 'category': '?ν뙋', 'price': 44000, 'thickness': '4.5T', 'specs': { 'thickness': '4.5T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-ZS84031-11', 'name': '吏?꾩냼由ъ옞 ?뚰봽???ъ꽭由?, 'code': 'ZS84031-11', 'brand': 'LX4.5T', 'category': '?ν뙋', 'price': 44000, 'thickness': '4.5T', 'specs': { 'thickness': '4.5T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-ZS84032-11', 'name': '吏?꾩냼由ъ옞 洹몃젅???ъ꽭由?, 'code': 'ZS84032-11', 'brand': 'LX4.5T', 'category': '?ν뙋', 'price': 44000, 'thickness': '4.5T', 'specs': { 'thickness': '4.5T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } },
+    { 'id': 'LX-ZS84041-11', 'name': '吏?꾩냼由ъ옞 ?대옒???ㅽ겕', 'code': 'ZS84041-11', 'brand': 'LX4.5T', 'category': '?ν뙋', 'price': 44000, 'thickness': '4.5T', 'specs': { 'thickness': '4.5T', 'size': '1.83m x 濡ㅻ떒??, 'packing': 'm ?⑥쐞 ?덈떒 ?먮ℓ' } }
+];
+
+
+
+
+
+
+
+
+
+;
+
+const LIST_LX_DECO_S = [
+    { "id": "LX-HOT062-01", "brand": "LX", "category": "?곗퐫???, "line": "?곗퐫?덉씠S", "code": "HOT062-01", "name": "HOT062-01", "price": 0 },
+    { "id": "LX-HOW180-01", "brand": "LX", "category": "?곗퐫???, "line": "?곗퐫?덉씠S", "code": "HOW180-01", "name": "HOW180-01", "price": 0 },
+    { "id": "LX-HOW181-01", "brand": "LX", "category": "?곗퐫???, "line": "?곗퐫?덉씠S", "code": "HOW181-01", "name": "HOW181-01", "price": 0 },
+    { "id": "LX-HOW181-02", "brand": "LX", "category": "?곗퐫???, "line": "?곗퐫?덉씠S", "code": "HOW181-02", "name": "HOW181-02", "price": 0 },
+    { "id": "LX-HOW182-01", "brand": "LX", "category": "?곗퐫???, "line": "?곗퐫?덉씠S", "code": "HOW182-01", "name": "HOW182-01", "price": 0 },
+    { "id": "LX-HOW183-01", "brand": "LX", "category": "?곗퐫???, "line": "?곗퐫?덉씠S", "code": "HOW183-01", "name": "HOW183-01", "price": 0 },
+    { "id": "LX-HOW184-01", "brand": "LX", "category": "?곗퐫???, "line": "?곗퐫?덉씠S", "code": "HOW184-01", "name": "HOW184-01", "price": 0 }
+];
+
+
+// --- SHINHAN AUTO GENERATED START ---
+const LIST_GAENARI_2025 = []; // TODO: Recover Gaenari data if needed
+
+const LIST_SHINHAN_LIVING_FILES = [
+    "70287-1 釉붾줈?쒖븘.jpg",
+    "70288-1 鍮덊떚吏 媛??jpg",
+    "70288-2 鍮덊떚吏 媛??jpg",
+    "70289-1 由ы넗??jpg",
+    "70290-1 留덈툝??jpg",
+    "70290-2 留덈툝??jpg",
+    "70291-1 ?몃━??jpg",
+    "70291-2 ?몃━??jpg",
+    "70292-1 洹몃젅?몄썡.jpg",
+    "70292-2 洹몃젅?몄썡.jpg",
+    "70292-3 洹몃젅?몄썡.jpg",
+    "70293-1 ?몃꽕??jpg",
+    "70293-2 ?몃꽕??jpg",
+    "70293-3 ?몃꽕??jpg",
+    "70293-4 ?몃꽕??jpg",
+    "70294-1 ?ㅻ툕?꾨툕.jpg",
+    "70294-2 ?ㅻ툕?꾨툕.jpg",
+    "70294-3 ?ㅻ툕?꾨툕.jpg",
+    "70294-4 ?ㅻ툕?꾨툕.jpg",
+    "70294-5 ?ㅻ툕?꾨툕.jpg",
+    "70295-1 諛뷀겢.jpg",
+    "70295-2 諛뷀겢.jpg",
+    "70295-3 諛뷀겢.jpg",
+    "70295-4 諛뷀겢.jpg",
+    "70295-5 諛뷀겢.jpg",
+    "70296-1 ?대젅?댁뼱.jpg",
+    "70296-2 ?대젅?댁뼱.jpg",
+    "70296-3 ?대젅?댁뼱.jpg",
+    "70296-4 ?대젅?댁뼱.jpg",
+    "70296-5 ?대젅?댁뼱.jpg",
+    "70296-6 ?대젅?댁뼱.jpg",
+    "70296-7 ?대젅?댁뼱.jpg",
+    "70296-8 ?대젅?댁뼱.jpg",
+    "70296-9 ?대젅?댁뼱.jpg",
+    "70297-1 ??쇱썡.jpg",
+    "70297-2 ??쇱썡.jpg",
+    "70297-3 ??쇱썡.jpg",
+    "70297-4 ??쇱썡.jpg",
+    "70297-5 ??쇱썡.jpg",
+    "70298-1 ?ㅽ넠 洹몃━??jpg",
+    "70298-2 ?ㅽ넠 洹몃━??jpg",
+    "70298-3 ?ㅽ넠 洹몃━??jpg",
+    "70298-4 ?ㅽ넠 洹몃━??jpg",
+    "70299-1 ?꾨꺼?ㅽ넠.jpg",
+    "70299-2 ?꾨꺼?ㅽ넠.jpg",
+    "70299-3 ?꾨꺼?ㅽ넠.jpg",
+    "70299-4 ?꾨꺼?ㅽ넠.jpg",
+    "70299-5 ?꾨꺼?ㅽ넠.jpg",
+    "70300-1 ?섎뱶?곗퐫.jpg",
+    "70300-2 ?섎뱶?곗퐫.jpg",
+    "70300-3 ?섎뱶?곗퐫.jpg",
+    "70300-4 ?섎뱶?곗퐫.jpg",
+    "70300-5 ?섎뱶?곗퐫.jpg",
+    "70300-6 ?섎뱶?곗퐫.jpg",
+    "70301-1 ?쇰끂?ㅽ넠.jpg",
+    "70301-2 ?쇰끂?ㅽ넠.jpg",
+    "70301-3 ?쇰끂?ㅽ넠.jpg",
+    "70301-4 ?쇰끂?ㅽ넠.jpg",
+    "70301-5 ?쇰끂?ㅽ넠.jpg",
+    "70301-6 ?쇰끂?ㅽ넠.jpg",
+    "70302-1 ?꾨씪???ㅽ넠.jpg",
+    "70302-2 ?꾨씪???ㅽ넠.jpg",
+    "70302-3 ?꾨씪???ㅽ넠.jpg",
+    "70302-4 ?꾨씪???ㅽ넠.jpg",
+    "70302-5 ?꾨씪???ㅽ넠.jpg",
+    "70302-6 ?꾨씪???ㅽ넠.jpg",
+    "70302-7 ?꾨씪???ㅽ넠.jpg",
+    "70302-8 ?꾨씪???ㅽ넠.jpg",
+    "C8123-1 ?뚮꼫.jpg",
+    "C8123-2 ?뚮꼫.jpg"
+];
+const LIST_SHINHAN_LIVING = LIST_SHINHAN_LIVING_FILES.map(file => ({
+    id: 'SH-' + file.split('.')[0],
+    brand: "?좏븳",
+    category: "踰쎌?",
+    collection: "由щ튃",
+    code: file.split('.')[0],
+    name: file.split('.')[0],
+    price: 0,
+    image: "/images/products/?좏븳踰쎌?_由щ튃(LIVING)/" + file,
+    thumbnail: "/images/products/?좏븳踰쎌?_由щ튃(LIVING)/" + file,
+    cover: "/images/products/?좏븳踰쎌?_由щ튃(LIVING)/" + file
+}));
+
+const LIST_SHINHAN_FIRE_RETARDANT_FILES = [
+    "F15053-1 議곗슜???ъ깋.jpg",
+    "F15053-2 議곗슜???ъ깋.jpg",
+    "F15087-5 遊꾨궇???대ℓ.jpg",
+    "F15087-7 遊꾨궇???대ℓ.jpg",
+    "F15094-2 ?쒖슱???쇨꼍.jpg",
+    "F15094-3 ?쒖슱???쇨꼍.jpg",
+    "F15094-4 ?쒖슱???쇨꼍.jpg",
+    "F15099-1 ?좊퉬濡쒖슫 ?덈꼍.jpg",
+    "F15099-2 ?좊퉬濡쒖슫 ?덈꼍.jpg",
+    "F15099-3 ?좊퉬濡쒖슫 ?덈꼍.jpg",
+    "F15099-4 ?좊퉬濡쒖슫 ?덈꼍.jpg",
+    "F15099-8 ?좊퉬濡쒖슫 ?덈꼍.jpg",
+    "F15099-9 ?좊퉬濡쒖슫 ?덈꼍.jpg",
+    "F15102-1 ?뚯냼??湲곕떎由?jpg",
+    "F15102-3 ?뚯냼??湲곕떎由?jpg",
+    "F15102-4 ?뚯냼??湲곕떎由?jpg",
+    "F15102-6 ?뚯냼??湲곕떎由?jpg",
+    "F15102-7 ?뚯냼??湲곕떎由?jpg",
+    "F15102-8 ?뚯냼??湲곕떎由?jpg",
+    "F15103-1 鍮꾨??댁빞湲?jpg",
+    "F15103-2 鍮꾨??댁빞湲?jpg",
+    "F15103-3 鍮꾨??댁빞湲?jpg",
+    "F15103-4 鍮꾨??댁빞湲?jpg",
+    "F15105-1 洹몃궇???쎌냽.jpg",
+    "F15105-2 洹몃궇???쎌냽.jpg",
+    "F15105-3 洹몃궇???쎌냽.jpg",
+    "F15105-4 洹몃궇???쎌냽.jpg",
+    "F70180-3 ?몄텧肄섑겕由ы듃.jpg",
+    "F70199-2 ?댁넔.jpg",
+    "F70199-3 ?댁넔.jpg",
+    "F70213-10 ?뚮젅??jpg",
+    "F70220-1 酉곌??쇱뒪.jpg",
+    "F70220-2 酉곌??쇱뒪.jpg",
+    "F70220-4 酉곌??쇱뒪.jpg",
+    "F70226-1 釉뚮엺??jpg",
+    "F70226-2 釉뚮엺??jpg",
+    "F70227-1 ??jpg",
+    "F70231-1 諛뷀쓲.jpg",
+    "F70231-2 諛뷀쓲.jpg",
+    "F70231-3 諛뷀쓲.jpg",
+    "F70249-1 ?먮뜑.jpg",
+    "F70249-2 ?먮뜑.jpg",
+    "F70249-3 ?먮뜑.jpg",
+    "F70249-4 ?먮뜑.jpg",
+    "F70249-6 ?먮뜑.jpg",
+    "F70252-1 瑜대찓瑜?jpg",
+    "F70252-2 瑜대찓瑜?jpg",
+    "F70252-3 瑜대찓瑜?jpg",
+    "F70254-1 ?쒗봽由?jpg",
+    "F70254-2 ?쒗봽由?jpg",
+    "F70254-3 ?쒗봽由?jpg",
+    "F70254-4 ?쒗봽由?jpg",
+    "F70254-5 ?쒗봽由?jpg",
+    "F70254-6 ?쒗봽由?jpg",
+    "F70255-1 ?쇳꽣.jpg",
+    "F70255-2 ?쇳꽣.jpg",
+    "F70255-3 ?쇳꽣.jpg",
+    "FC8052-1 ?뚰넗.jpg",
+    "FC8052-3 ?뚰넗.jpg",
+    "FC9643-10 ?ㅽ?.jpg",
+    "FC9643-11 ?ㅽ?.jpg",
+    "FK0007-1 ?뚮툕.jpg",
+    "FK0007-2 ?뚮툕.jpg",
+    "FK0007-4 ?뚮툕.jpg",
+    "FK0010-1 洹몃┫.jpg",
+    "FK0010-2 洹몃┫.jpg",
+    "FK0010-3 洹몃┫.jpg",
+    "FK0010-4 洹몃┫.jpg",
+    "FK0014-1 由ъ뼹?곗튂.jpg",
+    "FK0014-2 由ъ뼹?곗튂.jpg",
+    "FK0014-3 由ъ뼹?곗튂.jpg",
+    "FK0014-4 由ъ뼹?곗튂.jpg",
+    "FK0018-1 ?ㅽ넠踰좎씠??jpg",
+    "FK0018-2 ?ㅽ넠踰좎씠??jpg",
+    "FK0018-3 ?ㅽ넠踰좎씠??jpg",
+    "FK0019-1 ??쇰뱶?곗튂.jpg",
+    "FK0025-1 ?곕え??jpg",
+    "FK0025-2 ?곕え??jpg",
+    "FK0025-3 ?곕え??jpg",
+    "FK0025-4 ?곕え??jpg"
+];
+const LIST_SHINHAN_FIRE_RETARDANT = LIST_SHINHAN_FIRE_RETARDANT_FILES.map(file => ({
+    id: 'SH-' + file.split('.')[0],
+    brand: "?좏븳",
+    category: "踰쎌?",
+    collection: "諛⑹뿼",
+    code: file.split('.')[0],
+    name: file.split('.')[0],
+    price: 0,
+    image: "/images/products/?좏븳踰쎌?_諛⑹뿼/" + file,
+    thumbnail: "/images/products/?좏븳踰쎌?_諛⑹뿼/" + file,
+    cover: "/images/products/?좏븳踰쎌?_諛⑹뿼/" + file
+}));
+
+const LIST_SHINHAN_SKETCH_FILES = [
+    "15120-1 ?꾪듃 ?뚮씪議?jpg",
+    "15120-2 ?꾪듃 ?뚮씪議?jpg",
+    "15120-3 ?꾪듃 ?뚮씪議?jpg",
+    "15121-1 ?ㅽ럹???섏씤??jpg",
+    "15121-2 ?ㅽ럹???섏씤??jpg",
+    "15121-3 ?ㅽ럹???섏씤??jpg",
+    "15121-4 ?ㅽ럹???섏씤??jpg",
+    "15122-1 ?붾젮???쒖꽑.jpg",
+    "15122-2 ?붾젮???쒖꽑.jpg",
+    "15122-3 ?붾젮???쒖꽑.jpg",
+    "15122-4 ?붾젮???쒖꽑.jpg",
+    "15122-5 ?붾젮???쒖꽑.jpg",
+    "15122-6 ?붾젮???쒖꽑.jpg",
+    "15123-1 遺?쒕윭??珥됯컧.jpg",
+    "15123-2 遺?쒕윭??珥됯컧.jpg",
+    "15123-3 遺?쒕윭??珥됯컧.jpg",
+    "15123-4 遺?쒕윭??珥됯컧.jpg",
+    "15123-5 遺?쒕윭??珥됯컧.jpg",
+    "15123-6 遺?쒕윭??珥됯컧.jpg",
+    "15124-1 ?됰떎瑜??먮굦.jpg",
+    "15124-2 ?됰떎瑜??먮굦.jpg",
+    "15124-3 ?됰떎瑜??먮굦.jpg",
+    "15124-4 ?됰떎瑜??먮굦.jpg",
+    "15124-5 ?됰떎瑜??먮굦.jpg",
+    "15125-1 ?ы봽 ?먯씠??jpg",
+    "15125-2 ?ы봽 ?먯씠??jpg",
+    "15125-3 ?ы봽 ?먯씠??jpg",
+    "15125-4 ?ы봽 ?먯씠??jpg",
+    "15126-1 ?μ뒪??jpg",
+    "15126-2 ?μ뒪??jpg",
+    "15126-3 ?μ뒪??jpg",
+    "15126-4 ?μ뒪??jpg",
+    "15126-5 ?μ뒪??jpg",
+    "15126-6 ?μ뒪??jpg",
+    "15126-7 ?μ뒪??jpg",
+    "15127-1 而щ윭釉붾８.jpg",
+    "15127-2 而щ윭釉붾８.jpg",
+    "15127-3 而щ윭釉붾８.jpg",
+    "15127-4 而щ윭釉붾８.jpg",
+    "15127-5 而щ윭釉붾８.jpg",
+    "15127-6 而щ윭釉붾８.jpg",
+    "15127-7 而щ윭釉붾８.jpg",
+    "15128-1 ?섎툝?ㅽ넠.jpg",
+    "15128-2 ?섎툝?ㅽ넠.jpg",
+    "15128-3 ?섎툝?ㅽ넠.jpg",
+    "15128-4 ?섎툝?ㅽ넠.jpg",
+    "15128-5 ?섎툝?ㅽ넠.jpg",
+    "15128-6 ?섎툝?ㅽ넠.jpg",
+    "15128-7 ?섎툝?ㅽ넠.jpg",
+    "15128-8 ?섎툝?ㅽ넠.jpg",
+    "15129-1 ?꾪넱??肄뷀듉.jpg",
+    "15129-2 ?꾪넱??肄뷀듉.jpg",
+    "15129-3 ?꾪넱??肄뷀듉.jpg",
+    "15129-4 ?꾪넱??肄뷀듉.jpg",
+    "15129-5 ?꾪넱??肄뷀듉.jpg",
+    "15129-6 ?꾪넱??肄뷀듉.jpg",
+    "15130-1 留ㅽ듃 ?쇰땲??jpg",
+    "15130-2 留ㅽ듃 ?쇰땲??jpg",
+    "15130-3 留ㅽ듃 ?쇰땲??jpg",
+    "15130-4 留ㅽ듃 ?쇰땲??jpg",
+    "15130-5 留ㅽ듃 ?쇰땲??jpg",
+    "15130-6 留ㅽ듃 ?쇰땲??jpg",
+    "15130-7 留ㅽ듃 ?쇰땲??jpg",
+    "15130-8 留ㅽ듃 ?쇰땲??jpg",
+    "15131-1 ?ъ꽭??吏곷Ъ.jpg",
+    "15131-2 ?ъ꽭??吏곷Ъ.jpg",
+    "15131-3 ?ъ꽭??吏곷Ъ.jpg",
+    "15131-4 ?ъ꽭??吏곷Ъ.jpg",
+    "15131-5 ?ъ꽭??吏곷Ъ.jpg",
+    "15131-6 ?ъ꽭??吏곷Ъ.jpg",
+    "15131-7 ?ъ꽭??吏곷Ъ.jpg",
+    "15131-8 ?ъ꽭??吏곷Ъ.jpg",
+    "15132-1 ?щ옓?ㅽ넠.jpg",
+    "15132-2 ?щ옓?ㅽ넠.jpg",
+    "15132-3 ?щ옓?ㅽ넠.jpg",
+    "15132-4 ?щ옓?ㅽ넠.jpg",
+    "15132-5 ?щ옓?ㅽ넠.jpg",
+    "15132-6 ?щ옓?ㅽ넠.jpg",
+    "C9643-20 ?ㅽ?.jpg"
+];
+const LIST_SHINHAN_SKETCH = LIST_SHINHAN_SKETCH_FILES.map(file => ({
+    id: 'SH-' + file.split('.')[0],
+    brand: "?좏븳",
+    category: "踰쎌?",
+    collection: "?ㅼ?移?,
+    code: file.split('.')[0],
+    name: file.split('.')[0],
+    price: 0,
+    image: "/images/products/?좏븳踰쎌?_?ㅼ?移?SKETCH)/" + file,
+    thumbnail: "/images/products/?좏븳踰쎌?_?ㅼ?移?SKETCH)/" + file,
+    cover: "/images/products/?좏븳踰쎌?_?ㅼ?移?SKETCH)/" + file
+}));
+
+const LIST_SHINHAN_IRIS_FILES = [
+    "6875-1 ?щ┸.jpg",
+    "6875-2 ?щ┸.jpg",
+    "6876-1 ?먰떚?뚯씠.jpg",
+    "6877-1 瑜대걣??jpg",
+    "6878-1 ?쒗떚鍮?jpg",
+    "6879-1 ?숈뼇??jpg",
+    "6880-1 ?랁넠.jpg",
+    "6880-2 ?랁넠.jpg",
+    "6880-3 ?랁넠.jpg",
+    "6881-1 誘몄뒪??jpg",
+    "6882-1 ?щ옒??jpg",
+    "6882-2 ?щ옒??jpg",
+    "6882-3 ?щ옒??jpg",
+    "6883-1 ?ъ뒪??jpg",
+    "6883-2 ?ъ뒪??jpg",
+    "6884-1 ?쇳뵆.jpg",
+    "6884-2 ?쇳뵆.jpg",
+    "6884-3 ?쇳뵆.jpg",
+    "6884-4 ?쇳뵆.jpg",
+    "6884-5 ?쇳뵆.jpg",
+    "6885-1 ?ㅼ뒳.jpg",
+    "6885-2 ?ㅼ뒳.jpg",
+    "6885-3 ?ㅼ뒳.jpg",
+    "6885-4 ?ㅼ뒳.jpg",
+    "6885-5 ?ㅼ뒳.jpg",
+    "6886-1 泥댁씠??jpg",
+    "6886-2 泥댁씠??jpg",
+    "6886-3 泥댁씠??jpg",
+    "6886-4 泥댁씠??jpg",
+    "6887-1 ?ㅻ꼫洹?jpg",
+    "6887-10 ?ㅻ꼫洹?jpg",
+    "6887-2 ?ㅻ꼫洹?jpg",
+    "6887-3 ?ㅻ꼫洹?jpg",
+    "6887-4 ?ㅻ꼫洹?jpg",
+    "6887-5 ?ㅻ꼫洹?jpg",
+    "6887-6 ?ㅻ꼫洹?jpg",
+    "6887-7 ?ㅻ꼫洹?jpg",
+    "6887-8 ?ㅻ꼫洹?jpg",
+    "6887-9 ?ㅻ꼫洹?jpg",
+    "6888-1 ?뚮툝.jpg",
+    "6888-2 ?뚮툝.jpg",
+    "6888-3 ?뚮툝.jpg",
+    "6888-4 ?뚮툝.jpg",
+    "6888-5 ?뚮툝.jpg",
+    "6888-6 ?뚮툝.jpg",
+    "6889-1 諛뷀떚??jpg",
+    "6889-2 諛뷀떚??jpg",
+    "6889-3 諛뷀떚??jpg",
+    "6889-4 諛뷀떚??jpg",
+    "6889-5 諛뷀떚??jpg",
+    "6889-6 諛뷀떚??jpg",
+    "6890-1 ?ㅻ뱶.jpg",
+    "6890-2 ?ㅻ뱶.jpg",
+    "6890-3 ?ㅻ뱶.jpg",
+    "6890-4 ?ㅻ뱶.jpg",
+    "6890-5 ?ㅻ뱶.jpg",
+    "6890-6 ?ㅻ뱶.jpg",
+    "6891-1 ?щ━利?jpg",
+    "6891-2 ?щ━利?jpg",
+    "6891-3 ?щ━利?jpg",
+    "6891-4 ?щ━利?jpg",
+    "6891-5 ?щ━利?jpg",
+    "6892-1 肄붾Ⅴ??jpg",
+    "6892-2 肄붾Ⅴ??jpg",
+    "6892-3 肄붾Ⅴ??jpg",
+    "6892-4 肄붾Ⅴ??jpg",
+    "6892-5 肄붾Ⅴ??jpg",
+    "6892-6 肄붾Ⅴ??jpg",
+    "6892-7 肄붾Ⅴ??jpg"
+];
+const LIST_SHINHAN_IRIS = LIST_SHINHAN_IRIS_FILES.map(file => ({
+    id: 'SH-' + file.split('.')[0],
+    brand: "?좏븳",
+    category: "踰쎌?",
+    collection: "?꾩씠由ъ뒪",
+    code: file.split('.')[0],
+    name: file.split('.')[0],
+    price: 0,
+    image: "/images/products/?좏븳踰쎌?_?꾩씠由ъ뒪(IRIS)/" + file,
+    thumbnail: "/images/products/?좏븳踰쎌?_?꾩씠由ъ뒪(IRIS)/" + file,
+    cover: "/images/products/?좏븳踰쎌?_?꾩씠由ъ뒪(IRIS)/" + file
+}));
+
+const LIST_SHINHAN_WALLGUARD_FILES = [
+    "W2201-1 ?섎뱶由?jpg",
+    "W2201-2 ?섎뱶由?jpg",
+    "W2201-3 ?섎뱶由?jpg",
+    "W2201-4 ?섎뱶由?jpg",
+    "W2201-5 ?섎뱶由?jpg",
+    "W2202-1 誘뱀뒪??jpg",
+    "W2202-10 誘뱀뒪??jpg",
+    "W2202-11 誘뱀뒪??jpg",
+    "W2202-2 誘뱀뒪??jpg",
+    "W2202-3 誘뱀뒪??jpg",
+    "W2202-4 誘뱀뒪??.jpg",
+    "W2202-5 誘뱀뒪??.jpg",
+    "W2202-6 誘뱀뒪??jpg",
+    "W2202-7 誘뱀뒪??jpg",
+    "W2202-8 誘뱀뒪??jpg",
+    "W2202-9 誘뱀뒪??jpg",
+    "W2203-1 ?ы봽??jpg",
+    "W2203-2 ?ы봽??jpg",
+    "W2203-3 ?ы봽??jpg",
+    "W2203-4 ?ы봽??jpg",
+    "W2204-1 肄섑겕臾댄듃.jpg",
+    "W2204-2 肄섑겕臾댄듃.jpg",
+    "W2204-3 肄섑겕臾댄듃.jpg",
+    "W2204-4 肄섑겕臾댄듃.jpg",
+    "W2205-1 ?뚰봽??jpg",
+    "W2205-2 ?뚰봽??jpg",
+    "W2205-3 ?뚰봽??jpg",
+    "W2205-4 ?뚰봽??jpg",
+    "W2205-5 ?뚰봽??jpg",
+    "W2206-1 ?ㅽ떚?ъ썡.jpg",
+    "W2206-2 ?ㅽ떚?ъ썡.jpg",
+    "W2207-1 留ㅽ듃?щ옪.jpg",
+    "W2207-2 留ㅽ듃?щ옪.jpg",
+    "W2207-3 留ㅽ듃?щ옪.jpg",
+    "W2207-4 留ㅽ듃?щ옪.jpg",
+    "W2208-1 ?뚮뵒硫섑듃.jpg",
+    "W2208-2 ?뚮뵒硫섑듃.jpg",
+    "W2208-3 ?뚮뵒硫섑듃.jpg",
+    "W2208-4 ?뚮뵒硫섑듃.jpg",
+    "W2208-5 ?뚮뵒硫섑듃.jpg",
+    "W2208-6 ?뚮뵒硫섑듃.jpg",
+    "W2208-7 ?뚮뵒硫섑듃.jpg"
+];
+const LIST_SHINHAN_WALLGUARD = LIST_SHINHAN_WALLGUARD_FILES.map(file => ({
+    id: 'SH-' + file.split('.')[0],
+    brand: "?좏븳",
+    category: "踰쎌?",
+    collection: "?붽???,
+    code: file.split('.')[0],
+    name: file.split('.')[0],
+    price: 0,
+    image: "/images/products/?좏븳踰쎌?_?붽???WALLGUARD)/" + file,
+    thumbnail: "/images/products/?좏븳踰쎌?_?붽???WALLGUARD)/" + file,
+    cover: "/images/products/?좏븳踰쎌?_?붽???WALLGUARD)/" + file
+}));
+
+const LIST_SHINHAN_FACADE_FILES = [
+    "2001-1 濡쒖떆??jpg",
+    "2001-2 濡쒖떆??jpg",
+    "2002-1 ?쇱궗濡?jpg",
+    "2002-2 ?쇱궗濡?jpg",
+    "2002-3 ?쇱궗濡?jpg",
+    "2003-1 ?몃옒踰꾪떞.jpg",
+    "2003-2 ?몃옒踰꾪떞.jpg",
+    "2004-1 ?대줈??jpg",
+    "2004-2 ?대줈??jpg",
+    "2004-3 ?대줈??jpg",
+    "2004-4 ?대줈??jpg",
+    "2005-1 ?ㅻⅤ??jpg",
+    "2005-2 ?ㅻⅤ??jpg",
+    "2006-1 移대?.jpg",
+    "2006-2 移대?.jpg",
+    "2006-3 移대?.jpg",
+    "2006-4 移대?.jpg",
+    "2007-1 怨좎빞.jpg",
+    "2007-2 怨좎빞.jpg",
+    "2007-3 怨좎빞.jpg",
+    "2007-4 怨좎빞.jpg",
+    "2008-1 猷⑤깽??jpg",
+    "2008-2 猷⑤깽??jpg",
+    "2008-3 猷⑤깽??jpg",
+    "2008-4 猷⑤깽??jpg",
+    "2009-1 移대???jpg",
+    "2010-1 ?꾨?痢?jpg",
+    "2010-2 ?꾨?痢?jpg",
+    "2010-3 ?꾨?痢?jpg",
+    "2011-1 ?먮뱶媛.jpg",
+    "2011-2 ?먮뱶媛.jpg",
+    "2011-3 ?먮뱶媛.jpg",
+    "2011-4 ?먮뱶媛.jpg",
+    "2012-1 諛붽렇??jpg",
+    "2012-2 諛붽렇??jpg",
+    "2012-3 諛붽렇??jpg",
+    "2012-4 諛붽렇??jpg",
+    "2012-5 諛붽렇??jpg",
+    "2013-1 踰좊Ⅴ硫붾Ⅴ.jpg",
+    "2013-2 踰좊Ⅴ硫붾Ⅴ.jpg",
+    "2014-1 ?뚮씪肄뷀?.jpg",
+    "2014-2 ?뚮씪肄뷀?.jpg",
+    "2014-3 ?뚮씪肄뷀?.jpg",
+    "2015-1 ?꾧렇?ㅼ뒪.jpg",
+    "2015-2 ?꾧렇?ㅼ뒪.jpg",
+    "2015-3 ?꾧렇?ㅼ뒪.jpg",
+    "2015-4 ?꾧렇?ㅼ뒪.jpg",
+    "2016-1 ?ㅻ퉰移?jpg",
+    "2016-2 ?ㅻ퉰移?jpg",
+    "2016-3 ?ㅻ퉰移?jpg",
+    "2016-4 ?ㅻ퉰移?jpg",
+    "2017-1 ?쇳뙆?섎줈.jpg",
+    "2017-2 ?쇳뙆?섎줈.jpg",
+    "2017-3 ?쇳뙆?섎줈.jpg",
+    "2018-1 ?ㅺ컝.jpg",
+    "2018-2 ?ㅺ컝.jpg",
+    "2018-3 ?ㅺ컝.jpg",
+    "2018-4 ?ㅺ컝.jpg",
+    "2018-5 ?ㅺ컝.jpg",
+    "2019-1 ?곗튂?꾨끂.jpg",
+    "2019-2 ?곗튂?꾨끂.jpg",
+    "2019-3 ?곗튂?꾨끂.jpg",
+    "2019-4 ?곗튂?꾨끂.jpg",
+    "2020-1 留덊떚??jpg",
+    "2020-2 留덊떚??jpg",
+    "2020-3 留덊떚??jpg",
+    "2020-4 留덊떚??jpg",
+    "2020-5 留덊떚??jpg",
+    "W2201-1 ?섎뱶由?jpg",
+    "W2201-2 ?섎뱶由?jpg",
+    "W2201-3 ?섎뱶由?jpg",
+    "W2201-4 ?섎뱶由?jpg",
+    "W2202-1 誘뱀뒪??jpg",
+    "W2202-2 誘뱀뒪??jpg",
+    "W2202-3 誘뱀뒪??jpg",
+    "W2202-4 誘뱀뒪??jpg",
+    "W2202-5 誘뱀뒪??jpg",
+    "W2203-1 ?ы봽??jpg",
+    "W2203-2 ?ы봽??jpg",
+    "W2203-3 ?ы봽??jpg",
+    "W2203-4 ?ы봽??jpg"
+];
+const LIST_SHINHAN_FACADE = LIST_SHINHAN_FACADE_FILES.map(file => ({
+    id: 'SH-' + file.split('.')[0],
+    brand: "?좏븳",
+    category: "踰쎌?",
+    collection: "?뚯궗??,
+    code: file.split('.')[0],
+    name: file.split('.')[0],
+    price: 0,
+    image: "/images/products/?좏븳踰쎌?_?뚯궗??FACADE)/" + file,
+    thumbnail: "/images/products/?좏븳踰쎌?_?뚯궗??FACADE)/" + file,
+    cover: "/images/products/?좏븳踰쎌?_?뚯궗??FACADE)/" + file
+}));
+
+const LIST_SHINHAN_PINEHEIM_FILES = [
+    "4244-1 ?곗튂?곗튂.jpg",
+    "4249-1 ?곕툙踰좎씠??jpg",
+    "4278-1 瑗щえ?띿뒪.jpg",
+    "4295-1 猷⑤퉬??jpg",
+    "4298-1 ?쇰?.jpg",
+    "4298-2 ?쇰?.jpg",
+    "4298-4 ?쇰?.jpg",
+    "4298-5 ?쇰?.jpg",
+    "4299-1 ?뚮뜑??jpg",
+    "4299-2 ?뚮뜑??jpg",
+    "4303-1 ?⑺겕.jpg",
+    "4305-1 ?ㅻ━諛?jpg",
+    "4305-2 ?ㅻ━諛?jpg",
+    "4305-3 ?ㅻ━諛?jpg",
+    "4306-2 ?쇰━??jpg",
+    "4309-2 踰좊Ⅴ媛.jpg",
+    "4310-1 ?꾪듃.jpg",
+    "4310-2 ?꾪듃.jpg",
+    "4314-1 ?뱀뒪.jpg",
+    "4314-2 ?뱀뒪.jpg",
+    "4315-1 罹좏띁.jpg",
+    "4315-2 罹좏띁.jpg",
+    "4315-3 罹좏띁.jpg",
+    "4316-1 ?붿뒪.jpg",
+    "4316-2 ?붿뒪.jpg",
+    "4316-3 ?붿뒪.jpg",
+    "4317-1 ?댄봽.jpg",
+    "4317-2 ?댄봽.jpg",
+    "4317-3 ?댄봽.jpg",
+    "4317-4 ?댄봽.jpg"
+];
+const LIST_SHINHAN_PINEHEIM = LIST_SHINHAN_PINEHEIM_FILES.map(file => ({
+    id: 'SH-' + file.split('.')[0],
+    brand: "?좏븳",
+    category: "踰쎌?",
+    collection: "?뚯씤?섏엫",
+    code: file.split('.')[0],
+    name: file.split('.')[0],
+    price: 0,
+    image: "/images/products/?좏븳踰쎌?_?뚯씤?섏엫/" + file,
+    thumbnail: "/images/products/?좏븳踰쎌?_?뚯씤?섏엫/" + file,
+    cover: "/images/products/?좏븳踰쎌?_?뚯씤?섏엫/" + file
+}));
+
+// --- SHINHAN AUTO GENERATED END ---
+
+export const materials = [
+
+    ...matKccExtended,
+    ...LIST_SHINHAN_LIVING,
+    ...LIST_SHINHAN_FIRE_RETARDANT,
+    ...LIST_SHINHAN_SKETCH,
+    ...LIST_SHINHAN_IRIS,
+    ...LIST_SHINHAN_WALLGUARD,
+    ...LIST_SHINHAN_FACADE,
+    ...LIST_SHINHAN_PINEHEIM,
+    ...LIST_GAENARI_2025,
+    ...LIST_LX_DECO_S,
+    ...matWood,
+    ...LIST_DONGSHIN,
+    ...PRESTIGE_5T,
+    ...ECONO_PLUS_3T,
+    ...BOTANIC_3T,
+    ...LIST_LX_1_8T,
+    ...LIST_LX_2_0T,
+    ...LIST_LX_2_2T,
+    ...LIST_LX_2_7T,
+    ...LIST_LX_3_2T,
+    ...LIST_LX_4_5T
+
+];
+

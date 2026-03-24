@@ -1,0 +1,90 @@
+.sb-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.sb-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.sb-card-cover {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    /* Portrait for books */
+    background: #f5f5f5;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.sb-card-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.sb-card:hover .sb-card-cover img {
+    transform: scale(1.05);
+}
+
+.sb-cover-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.sb-badge-new {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #000;
+    color: #fff;
+    font-size: 10px;
+    padding: 3px 6px;
+    font-weight: 700;
+}
+
+.sb-card-info {
+    padding: 16px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.sb-brand-tag {
+    font-size: 11px;
+    color: #666;
+    margin-bottom: 4px;
+    font-weight: 500;
+}
+
+.sb-card-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #111;
+    margin-bottom: 6px;
+    line-height: 1.4;
+}
+
+.sb-card-desc {
+    font-size: 12px;
+    color: #888;
+    line-height: 1.4;
+    margin-top: auto;
+}

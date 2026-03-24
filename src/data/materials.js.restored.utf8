@@ -1,0 +1,222 @@
+﻿
+// 600媛??꾨━誘몄뾼 (26,000??
+const LIST_600 = [
+    "TS 5535M", "TS 5536M", "TS 5537M", "TS 5532M", "TS 5533M", "TS 5534M", "TS 5531M"
+];
+
+// 450媛?(25,000??
+const LIST_450 = [
+    "TS 5541P", "TS 5542P", "TS 5543P", "TS 5544P", "TS 5545P", "TS 5546P", "TS 5548P",
+    "TS 5549P", "TS 5518P", "TS 5519P", "TS 5550P", "TS 5547P", "TS 5516P", "TS 5508P",
+    "TS 5551P", "TS 5552P", "TS 5510P", "TS 5511P", "TS 5502P", "TS 5503P"
+];
+
+// ?곕뱶 (25,000??
+const LIST_WOOD = [
+    "TW 5104G", "TW 5107G", "TW 5109G", "TW 5108G", "TW 5103G", "TW 5105G", "TW 5106G",
+    "TW 5102G", "TW 5110G", "TW 5111G", "TW 5112G", "TW 5119G", "TW 5120G"
+];
+
+const BASE_PATH = "/images/products";
+
+export const ALL_BRANDS = [
+    // ?곗퐫???    "KCC", "?숈떊", "LX", "?뱀닔", "?ъ쁺", "?꾨?", "?좎꽦",
+
+    // ?ν뙋
+    "LX 1.8T", "LX 2.0T", "LX 3.0T", "LX 4.0T", "LX 5.0T",
+
+    // 留덈（
+    "?닿굔", "?숉솕", "援ъ젙",
+
+    // 踰쎌?
+    "LX(踰쎌?)", "媛쒕굹由?, "?쒖슱", "?쒖씪", "?붿븘?대뵒", "?좏븳(KCC)",
+
+    // 移댄럹?명???    "?ㅼ셿", "?꾨컲",
+
+    // 湲고?
+    "湲고?",
+];
+
+export const BRANDS_BY_CATEGORY = {
+    "?곗퐫???: ["KCC", "?숈떊", "LX", "?뱀닔", "?ъ쁺", "?꾨?", "?좎꽦"],
+    "?ν뙋": ["LX 1.8T", "LX 2.0T", "LX 3.0T", "LX 4.0T", "LX 5.0T"],
+    "留덈（": ["?닿굔", "?숉솕", "援ъ젙"],
+    "踰쎌?": ["LX(踰쎌?)", "媛쒕굹由?, "?쒖슱", "?쒖씪", "?붿븘?대뵒", "?좏븳(KCC)"],
+    "移댄럹?명???: ["?ㅼ셿", "?꾨컲"],
+};
+
+function createMaterial(code, type) {
+    let name = code; // Default name is code
+    let price = 0;
+    let sizeLabel = "";
+    let packing = "";
+    let category = "";
+
+    // Mapping logic
+    if (type === "600") {
+        price = 26000;
+        sizeLabel = "600x600mm";
+        packing = "9pcs / 3.24??;
+        category = "600媛?;
+    } else if (type === "450") {
+        price = 25000;
+        sizeLabel = "457.2x457.2mm"; // Size label kept as is per usual product specs, just category name changed
+        packing = "16pcs / 3.34??;
+        category = "450媛?;
+    } else if (type === "wood") {
+        price = 25000;
+        sizeLabel = "184x950mm";
+        packing = "19pcs / 3.32??;
+    }
+    category = "?곗퐫???; // All current items are Deco Tile
+
+    // Try to find a cleaner name if possible or just use code
+    // In a real app, we might have a name map. For now, we use the code as the name base.
+    // Ensure image path logic handles variants if they existed in the old file, 
+    // but here we likely just stick to the base code for the main image.
+    // Note: The user provided codes like "TS 5549P" but file might be "TS 5549P ?뚮뱶?ㅽ넠.jpg"
+    // We might need to fuzzy match or just assume standard jpg. 
+    // Given the previous file list, we should probably append naming if we knew it.
+    // For this refactor, I will leave the name as the code to ensure it works, 
+    // or try to preserve the existing names if I can match them.
+
+    return {
+        id: code,
+        name: code,
+        code: code,
+        brand: "KCC",
+        category: category,
+        type: type,
+        price: price,
+        sizeLabel: sizeLabel,
+        packing: packing,
+        thickness: "3.0mm",
+        isRecommended: code.includes("5541") || code.includes("5535") || code.includes("5104"),
+        specs: {
+            thickness: "3.0mm",
+            size: sizeLabel,
+            packing: packing
+        }
+    };
+}
+
+// Generate Lists
+const mat600 = LIST_600.map(code => createMaterial(code, "600"));
+const mat450 = LIST_450.map(code => createMaterial(code, "450"));
+const matWood = LIST_WOOD.map(code => createMaterial(code, "wood"));
+
+// ?숈떊 (媛寃?誘몄젙, ?꾩껜蹂닿린)
+// ?숈떊 (媛寃?誘몄젙, ?꾩껜蹂닿린) -> 媛寃?洹쒓꺽 ?먮룞 ?곸슜
+const LIST_DONGSHIN_RAW = [
+    { id: "DS-AB_6711", brand: "?숈떊", code: "AB_6711", name: "AB 6711", category: "?꾩껜蹂닿린" },
+    { id: "DS-AB_6712", brand: "?숈떊", code: "AB_6712", name: "AB 6712", category: "?꾩껜蹂닿린" },
+    { id: "DS-AB_6717", brand: "?숈떊", code: "AB_6717", name: "AB 6717", category: "?꾩껜蹂닿린" },
+    { id: "DS-AB_6727", brand: "?숈떊", code: "AB_6727", name: "AB 6727", category: "?꾩껜蹂닿린" },
+    { id: "DS-AB_6739", brand: "?숈떊", code: "AB_6739", name: "AB 6739", category: "?꾩껜蹂닿린" },
+    { id: "DS-AB_6740", brand: "?숈떊", code: "AB_6740", name: "AB 6740", category: "?꾩껜蹂닿린" },
+    { id: "DS-AB_6741", brand: "?숈떊", code: "AB_6741", name: "AB 6741", category: "?꾩껜蹂닿린" },
+    { id: "DS-AB_6899", brand: "?숈떊", code: "AB_6899", name: "AB 6899", category: "?꾩껜蹂닿린" },
+    { id: "DS-AB_6915", brand: "?숈떊", code: "AB_6915", name: "AB 6915", category: "?꾩껜蹂닿린" },
+    { id: "DS-AB_6933", brand: "?숈떊", code: "AB_6933", name: "AB 6933", category: "?꾩껜蹂닿린" },
+    { id: "DS-AB_6978", brand: "?숈떊", code: "AB_6978", name: "AB 6978", category: "?꾩껜蹂닿린" },
+    { id: "DS-AB_6981", brand: "?숈떊", code: "AB_6981", name: "AB 6981", category: "?꾩껜蹂닿린" },
+    { id: "DS-AB_6984", brand: "?숈떊", code: "AB_6984", name: "AB 6984", category: "?꾩껜蹂닿린" },
+    { id: "DS-AB_6990", brand: "?숈떊", code: "AB_6990", name: "AB 6990", category: "?꾩껜蹂닿린" },
+
+    { id: "DS-AH_505", brand: "?숈떊", code: "AH_505", name: "AH 505", category: "?꾩껜蹂닿린" },
+    { id: "DS-AH_506", brand: "?숈떊", code: "AH_506", name: "AH 506", category: "?꾩껜蹂닿린" },
+    { id: "DS-AH_507", brand: "?숈떊", code: "AH_507", name: "AH 507", category: "?꾩껜蹂닿린" },
+    { id: "DS-AH_509", brand: "?숈떊", code: "AH_509", name: "AH 509", category: "?꾩껜蹂닿린" },
+    { id: "DS-AH_510", brand: "?숈떊", code: "AH_510", name: "AH 510", category: "?꾩껜蹂닿린" },
+    { id: "DS-AH_726", brand: "?숈떊", code: "AH_726", name: "AH 726", category: "?꾩껜蹂닿린" },
+    { id: "DS-AH_728", brand: "?숈떊", code: "AH_728", name: "AH 728", category: "?꾩껜蹂닿린" },
+    { id: "DS-AH_729", brand: "?숈떊", code: "AH_729", name: "AH 729", category: "?꾩껜蹂닿린" },
+
+    { id: "DS-AH_730", brand: "?숈떊", code: "AH_730", name: "AH 730", category: "?꾩껜蹂닿린" },
+    { id: "DS-AH_734", brand: "?숈떊", code: "AH_734", name: "AH 734", category: "?꾩껜蹂닿린" },
+    { id: "DS-AH_735", brand: "?숈떊", code: "AH_735", name: "AH 735", category: "?꾩껜蹂닿린" },
+    { id: "DS-AH_736", brand: "?숈떊", code: "AH_736", name: "AH 736", category: "?꾩껜蹂닿린" },
+    { id: "DS-AH_737", brand: "?숈떊", code: "AH_737", name: "AH 737", category: "?꾩껜蹂닿린" },
+    { id: "DS-AH_738", brand: "?숈떊", code: "AH_738", name: "AH 738", category: "?꾩껜蹂닿린" },
+    { id: "DS-AH_739", brand: "?숈떊", code: "AH_739", name: "AH 739", category: "?꾩껜蹂닿린" },
+];
+
+const processDongshinItem = (item) => {
+    let price = 36000; // Fixed price for all Dongshin
+    let sizeLabel = "";
+    let packing = "";
+    let type = "";
+    let category = "";
+
+    const code = item.code;
+
+    // Classification Logic
+    // 1. Dongshin 450: specs.size 457.2x457.2mm, starts with AS
+    if (code.startsWith("AS") || code.startsWith("AS_")) {
+        sizeLabel = "457.2x457.2mm";
+        packing = "16pcs / 3.34??;
+        type = "ds_450";
+        category = "?숈떊 450媛?;
+    }
+    // 3. Dongshin 600: specs.size 600x600mm, code AH 61**
+    // Using startsWith("AH 61") or "AH_61" to be safe with formats
+    else if (code.startsWith("AH 61") || code.startsWith("AH_61") || code.startsWith("AH61")) {
+        sizeLabel = "600x600mm";
+        packing = "9pcs / 3.24??;
+        type = "ds_600";
+        category = "?숈떊 600媛?;
+    }
+    // 2. Dongshin Wood: specs.size 180x920mm, starts with AB or AH 5/7
+    else if (
+        code.startsWith("AB") || code.startsWith("AB_") ||
+        code.startsWith("AH 5") || code.startsWith("AH_5") || code.startsWith("AH5") ||
+        code.startsWith("AH 7") || code.startsWith("AH_7") || code.startsWith("AH7")
+    ) {
+        sizeLabel = "180x920mm";
+        packing = "20pcs / 3.31??;
+        type = "ds_wood";
+        category = "?숈떊 ?곕뱶";
+    }
+    // Fallback for unknown Dongshin codes
+    else {
+        sizeLabel = "180x920mm";
+        packing = "20pcs / 3.31??;
+        type = "ds_wood";
+    }
+
+    category = "?곗퐫???; // All current Dongshin items are also Deco Tile
+
+    return {
+        ...item,
+        price,
+        type,
+        category,
+        sizeLabel,
+        packing,
+        specs: {
+            thickness: "3.0mm",
+            size: sizeLabel,
+            packing: packing
+        }
+    };
+};
+
+const LIST_DONGSHIN = LIST_DONGSHIN_RAW.map(processDongshinItem);
+
+export const materials = [
+    {
+        id: "kcc-1",
+        name: "KCC ?덉떆",
+        code: "TS 5551P",
+        category: "?곗퐫???,
+        brand: "KCC",
+        price: 25000,
+        isRecommended: true,
+        specs: { thickness: "3.0mm", size: "457.2x457.2mm", packing: "16pcs / 3.34?? }
+    },
+    ...mat600,
+    ...mat450,
+    ...matWood,
+    ...LIST_DONGSHIN
+];
+

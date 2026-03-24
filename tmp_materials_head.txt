@@ -1,0 +1,100 @@
+﻿
+// 600媛곹봽由щ???(26,000??
+const LIST_600 = [
+    "TS 5535M", "TS 5536M", "TS 5537M", "TS 5532M", "TS 5533M", "TS 5534M", "TS 5531M"
+];
+
+// 450媛?25,000??
+const LIST_450 = [
+    "TS 5541P", "TS 5542P", "TS 5543P", "TS 5544P", "TS 5545P", "TS 5546P", "TS 5548P",
+    "TS 5549P", "TS 5518P", "TS 5519P", "TS 5550P", "TS 5547P", "TS 5516P", "TS 5508P",
+    "TS 5551P", "TS 5552P", "TS 5510P", "TS 5511P", "TS 5502P", "TS 5503P"
+];
+
+// KCC (?곸꽭 ?뺣낫 ?ы븿)
+const LIST_KCC_EXTENDED = [
+    { id: "TS5502P", code: "TS5502P", name: "TS5502P ?ㅽ겕", type: "450" },
+    { id: "TS5503P", code: "TS5503P", name: "TS5503P ?ㅽ겕", type: "450" },
+    { id: "TS5508", code: "TS5508", name: "TS5508 釉뚮윭??移댄렖", type: "450" },
+    { id: "TS5510P", code: "TS5510P", name: "TS5510P 移댄렖", type: "450" },
+    { id: "TS5511P", code: "TS5511P", name: "TS5511P 移댄렖", type: "450" },
+    { id: "TS5516P", code: "TS5516P", name: "TS5516P 留덈툝", type: "450" },
+    { id: "TS5518P", code: "TS5518P", name: "TS5518P 肄섑겕由ы듃", type: "450" },
+    { id: "TS5519P", code: "TS5519P", name: "TS5519P 肄섑겕由ы듃", type: "450" },
+    { id: "TS5531M", code: "TS5531M", name: "TS5531M ?ㅻ땳??, type: "600" },
+    { id: "TS5532M", code: "TS5532M", name: "TS5532M ?뚮씪議곗냼??, type: "600" },
+    { id: "TS5533M", code: "TS5533M", name: "TS5533M ?뚮씪議곗냼??, type: "600" },
+    { id: "TS5534M", code: "TS5534M", name: "TS5534M ?뚮씪議곗냼??, type: "600" },
+    { id: "TS5535M", code: "TS5535M", name: "TS5535M ?대컲 肄섑겕由ы듃", type: "600" },
+    { id: "TS5536M", code: "TS5536M", name: "TS5536M ?대컲 肄섑겕由ы듃", type: "600" },
+    { id: "TS5537M", code: "TS5537M", name: "TS5537M ?대컲 肄섑겕由ы듃", type: "600" },
+    { id: "TS5541P", code: "TS5541P", name: "TS5541P ?щ젅?댄듃", type: "450" },
+    { id: "TS5542P", code: "TS5542P", name: "TS5542P ?щ젅?댄듃", type: "450" },
+    { id: "TS5543P", code: "TS5543P", name: "TS5543P ?щ젅?댄듃", type: "450" },
+    { id: "TS5544P", code: "TS5544P", name: "TS5544P ?щ젅?댄듃", type: "450" },
+    { id: "TS5545P", code: "TS5545P", name: "TS5545P ?뚮씪議?, type: "450" },
+    { id: "TS5546P", code: "TS5546P", name: "TS5546P ?뚮씪議?, type: "450" },
+    { id: "TS5547P", code: "TS5547P", name: "TS5547P 鍮꾩븰肄?, type: "450" },
+    { id: "TS5548P", code: "TS5548P", name: "TS5548P ?뚮뱶?ㅽ넠", type: "450" },
+    { id: "TS5549M", code: "TS5549M", name: "TS5549M ?뚮뱶?ㅽ넠", type: "600" },
+    { id: "TS5550P", code: "TS5550P", name: "TS5550P 肄섑겕由ы듃", type: "450" },
+    { id: "TS5551P", code: "TS5551P", name: "TS5551P 踰좎씠吏 移댄렖", type: "450" },
+    { id: "TS5552P", code: "TS5552P", name: "TS5552P 踰좎씠吏 移댄렖", type: "450" }
+
+];
+
+// ?곕뱶 (25,000??
+const LIST_WOOD = [
+    "TW 5104G", "TW 5107G", "TW 5109G", "TW 5108G", "TW 5103G", "TW 5105G", "TW 5106G",
+    "TW 5102G", "TW 5110G", "TW 5111G", "TW 5112G", "TW 5119G", "TW 5120G"
+];
+
+// 揶쎛野껊뵦怨몃땾
+export const PRICE_ECONO_PLUS = 35000;
+export const PRICE_BOTANIC = 28000;
+
+const BASE_PATH = "/images/products";
+
+export const ALL_BRANDS = [
+    "KCC", "?숈떊", "LX", "?뱀닔", "?ъ쁺", "?꾨?",
+    "LX 1.8T", "LX 2.0T", "LX 2.2T", "LX 2.7T", "LX 3.2T", "LX 4.5T", "LX 5.0T",
+    "?닿굔", "?숉솕", "援ъ젙",
+    "媛쒕굹由?, "?쒖슱", "?쒖씪", "?붿븘?대뵒", "?좏븳(KCC)",
+    "?ㅼ셿", "?꾨컲",
+    "湲고?"
+];
+
+export const BRANDS_BY_CATEGORY = {
+  "?곗퐫???: ["KCC","?숈떊","LX","?뱀닔","?ъ쁺","?꾨?"],
+  "?ν뙋": ["LX 1.8T","LX 2.0T","LX 2.2T","LX 2.7T","LX 3.2T","LX 4.5T","LX 5.0T"],
+  "留덈（": ["?닿굔","?숉솕","援ъ젙"],
+  "踰쎌?": ["LX","媛쒕굹由?,"?쒖슱","?쒖씪","?붿븘?대뵒","?좏븳(KCC)"],
+  "移댄럹?명???: ["?ㅼ셿","?꾨컲"]
+};
+
+function createMaterial(code, type) {
+    let price = 0;
+    let sizeLabel = "";
+    let packing = "";
+    let category = "";
+
+    // Mapping logic
+    if (type === "600") {
+        price = 26000;
+        sizeLabel = "600x600mm";
+        packing = "9pcs / 3.24??;
+        category = "600媛?;
+    } else if (type === "450") {
+        price = 25000;
+        sizeLabel = "457.2x457.2mm";
+        packing = "16pcs / 3.34??;
+        category = "450媛?;
+    } else if (type === "wood") {
+        price = 25000;
+        sizeLabel = "184x950mm";
+        packing = "19pcs / 3.32??;
+    }
+    category = "?곗퐫???;
+
+    return {
+        id: code,

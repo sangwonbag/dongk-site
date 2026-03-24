@@ -1,0 +1,244 @@
+/* SampleBooks Layout */
+.samplebooks-container {
+    display: block;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 40px;
+    padding-bottom: 80px;
+    padding-top: 20px;
+}
+
+.sb-content {
+    width: 100%;
+}
+
+.sb-content.full {
+    padding-left: 0;
+}
+
+/* Tabs */
+.samplebooks-tabs {
+    display: flex;
+    gap: 30px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+.sb-tab {
+    padding: 12px 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: #888;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition: color 0.2s;
+}
+
+.sb-tab.active {
+    color: #111;
+    font-weight: 700;
+}
+
+.sb-tab.active::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #111;
+}
+
+/* Brand Filter Row */
+.brand-filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 12px 0 16px;
+}
+
+.brand-chip {
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    padding: 8px 14px;
+    border-radius: 999px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all .15s ease;
+}
+
+.brand-chip:hover {
+    border-color: #111;
+}
+
+.brand-chip.active {
+    background: #111;
+    color: #fff;
+    border-color: #111;
+}
+
+.material-chip.active {
+    background: #7d2ae8;
+    border-color: #7d2ae8;
+}
+
+.material-type-row {
+    border-top: 1px dashed #eee;
+    padding-top: 10px;
+    margin-top: 0;
+}
+
+.results-header {
+    margin-bottom: 20px;
+}
+
+.results-info {
+    font-size: 13px;
+    color: #666;
+}
+
+/* Grid - 4 Columns */
+.sb-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 100%;
+    align-content: start;
+}
+
+/* Responsive */
+@media (max-width: 1400px) {
+    .samplebooks-container {
+        max-width: 1100px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .sb-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 900px) {
+    .sb-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .samplebooks-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+.no-results {
+    padding: 60px 0;
+    text-align: center;
+    color: #999;
+}
+
+.sb-card {
+    border: 1px solid #eee;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    background: #fff;
+}
+
+.sb-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.sb-card-cover {
+    width: 100%;
+    aspect-ratio: 1 / 1.4;
+    /* Standard A4ish ratio */
+    background-color: #f5f5f5;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sb-card-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sb-cover-placeholder {
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+    display: flex;
+    /* Centering */
+    align-items: center;
+    justify-content: center;
+    color: #888;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sb-badge-new {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: #111;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.sb-card-info {
+    padding: 16px;
+}
+
+.sb-brand-tag {
+    font-size: 12px;
+    color: #666;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.sb-card-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 6px;
+    line-height: 1.4;
+    color: #111;
+}
+
+.sb-card-desc {
+    font-size: 13px;
+    color: #888;
+    line-height: 1.4;
+}
+
+
+
+@media (max-width: 768px) {
+    .sb-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .sb-card-cover {
+        height: 200px;
+        /* Smaller on mobile */
+    }
+
+    .sb-card-info {
+        padding: 12px;
+    }
+
+    .sb-card-title {
+        font-size: 15px;
+    }
+}

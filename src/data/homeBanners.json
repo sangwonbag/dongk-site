@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "title": "2025 신규 바닥재 컬렉션",
+        "subtitle": "더욱 편안하고 아름다운 공간을 위한 새로운 제안",
+        "ctaText": "자재 보러가기",
+        "ctaLink": "/materials",
+        "image": "/banner1.jpg",
+        "isDark": true
+    },
+    {
+        "id": 2,
+        "title": "동경바닥재 샘플북 출시",
+        "subtitle": "다양한 브랜드의 바닥재를 한눈에 확인하세요",
+        "ctaText": "샘플북 보기",
+        "ctaLink": "/samplebooks",
+        "image": "/banner2.jpg",
+        "isDark": false
+    },
+    {
+        "id": 3,
+        "title": "대량 구매 견적 문의",
+        "subtitle": "합리적인 가격으로 최고의 시공을 약속드립니다",
+        "ctaText": "문의하기",
+        "ctaLink": "/inquiry",
+        "image": "/banner3.jpg",
+        "isDark": true
+    }
+]

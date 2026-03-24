@@ -1,0 +1,97 @@
+.brand-tree-filter {
+    width: 100%;
+    font-family: 'Pretendard', sans-serif;
+    user-select: none;
+}
+
+.bt-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #111;
+}
+
+.bt-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #111;
+    margin: 0;
+}
+
+.bt-reset-btn {
+    font-size: 12px;
+    color: #666;
+    background: #f0f0f0;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bt-reset-btn:hover {
+    background: #e0e0e0;
+    color: #333;
+}
+
+.bt-section {
+    margin-bottom: 12px;
+}
+
+.bt-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    cursor: pointer;
+}
+
+.bt-cat-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    transition: color 0.2s;
+}
+
+.bt-cat-name:hover,
+.bt-cat-name.active {
+    color: #000;
+}
+
+.bt-toggle-icon {
+    background: none;
+    border: none;
+    color: #666;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.bt-sub-list {
+    list-style: none;
+    padding: 0;
+    margin: 4px 0 16px 0;
+    padding-left: 8px;
+    /* Indent sub-items */
+}
+
+.bt-sub-item {
+    padding: 6px 8px;
+    font-size: 14px;
+    color: #666;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.2s;
+}
+
+.bt-sub-item:hover {
+    color: #111;
+    background-color: #f9f9f9;
+}
+
+.bt-sub-item.active {
+    color: #fff;
+    background-color: #111;
+    font-weight: 600;
+}

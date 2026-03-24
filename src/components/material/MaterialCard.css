@@ -1,0 +1,119 @@
+.material-card {
+    border: 1px solid #eee;
+    background: #fff;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.material-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card-thumb {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background: #f8f8f8;
+    position: relative;
+    overflow: hidden;
+}
+
+.material-thumb {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.thumb-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ccc;
+    font-size: 14px;
+}
+
+.badge-new {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: #ff5a5a;
+    color: white;
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.card-info {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.card-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-brand-cat {
+    font-size: 11px;
+    color: #888;
+    margin-bottom: 4px;
+}
+
+.card-price-row {
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+.card-price {
+    font-size: 15px;
+    font-weight: 700;
+    color: #111;
+}
+
+/* Actions logic */
+.card-actions {
+    display: flex;
+    gap: 6px;
+    margin-top: auto;
+}
+
+.btn-detail,
+.btn-quote {
+    flex: 1;
+    padding: 8px 0;
+    font-size: 12px;
+    cursor: pointer;
+    border: 1px solid #333;
+    transition: all 0.2s;
+    text-align: center;
+}
+
+.btn-detail {
+    background: #333;
+    color: white;
+}
+
+.btn-detail:hover {
+    background: #555;
+}
+
+.btn-quote {
+    background: white;
+    color: #333;
+}
+
+.btn-quote:hover {
+    background: #f0f0f0;
+}

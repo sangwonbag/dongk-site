@@ -1,0 +1,49 @@
+.right-float {
+    position: fixed;
+    right: 24px;
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    z-index: 40;
+}
+
+.rf-card {
+    width: 170px;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    box-shadow: var(--shadow);
+    padding: 14px;
+}
+
+.rf-title {
+    font-weight: 800;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.rf-value {
+    font-weight: 900;
+    letter-spacing: -0.2px;
+    margin: 6px 0;
+}
+
+.rf-sub {
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+.rf-note {
+    font-size: 11px;
+    color: #888;
+    margin-top: 8px;
+    line-height: 1.3;
+}
+
+@media (max-width: 1100px) {
+    .right-float {
+        display: none;
+    }
+}

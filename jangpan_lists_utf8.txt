@@ -1,0 +1,841 @@
+﻿const LIST_LX_1_8T = [
+    {
+        "id": "LX-CM24731",
+        "name": "?댁껌留??댁텛???붿씠??,
+        "code": "CM24731",
+        "brand": "LX1.8T",
+        "category": "?ν뙋",
+        "price": 11000,
+        "thickness": "1.8T",
+        "specs": {
+            "thickness": "1.8T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-CM24083",
+        "name": "?댁껌留??좎돩",
+        "code": "CM24083",
+        "brand": "LX1.8T",
+        "category": "?ν뙋",
+        "price": 11000,
+        "thickness": "1.8T",
+        "specs": {
+            "thickness": "1.8T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-CM21882",
+        "name": "?댁껌留??ㅽ겕",
+        "code": "CM21882",
+        "brand": "LX1.8T",
+        "category": "?ν뙋",
+        "price": 11000,
+        "thickness": "1.8T",
+        "specs": {
+            "thickness": "1.8T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-CM24131",
+        "name": "?댁껌留??ㅽ겕",
+        "code": "CM24131",
+        "brand": "LX1.8T",
+        "category": "?ν뙋",
+        "price": 11000,
+        "thickness": "1.8T",
+        "specs": {
+            "thickness": "1.8T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-CM24133",
+        "name": "?댁껌留??ㅽ겕",
+        "code": "CM24133",
+        "brand": "LX1.8T",
+        "category": "?ν뙋",
+        "price": 11000,
+        "thickness": "1.8T",
+        "specs": {
+            "thickness": "1.8T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-CM24722",
+        "name": "?댁껌留?留덉씪???ㅽ넠",
+        "code": "CM24722",
+        "brand": "LX1.8T",
+        "category": "?ν뙋",
+        "price": 11000,
+        "thickness": "1.8T",
+        "specs": {
+            "thickness": "1.8T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-CM24741",
+        "name": "?댁껌留??몃씪誘??ㅽ넠",
+        "code": "CM24741",
+        "brand": "LX1.8T",
+        "category": "?ν뙋",
+        "price": 11000,
+        "thickness": "1.8T",
+        "specs": {
+            "thickness": "1.8T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-CM24711",
+        "name": "?댁껌留?釉붾옉 ?ㅽ겕",
+        "code": "CM24711",
+        "brand": "LX1.8T",
+        "category": "?ν뙋",
+        "price": 11000,
+        "thickness": "1.8T",
+        "specs": {
+            "thickness": "1.8T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-CM24081",
+        "name": "?댁껌留??좎돩",
+        "code": "CM24081",
+        "brand": "LX1.8T",
+        "category": "?ν뙋",
+        "price": 11000,
+        "thickness": "1.8T",
+        "specs": {
+            "thickness": "1.8T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-CM24713",
+        "name": "?댁껌留??щ옒?꾪듃 ?ㅽ겕",
+        "code": "CM24713",
+        "brand": "LX1.8T",
+        "category": "?ν뙋",
+        "price": 11000,
+        "thickness": "1.8T",
+        "specs": {
+            "thickness": "1.8T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-CM23691",
+        "name": "?댁껌留??섎쫫",
+        "code": "CM23691",
+        "brand": "LX1.8T",
+        "category": "?ν뙋",
+        "price": 11000,
+        "thickness": "1.8T",
+        "specs": {
+            "thickness": "1.8T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-CM22771",
+        "name": "?댁껌留??ㅽ겕",
+        "code": "CM22771",
+        "brand": "LX1.8T",
+        "category": "?ν뙋",
+        "price": 11000,
+        "thickness": "1.8T",
+        "specs": {
+            "thickness": "1.8T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-CM23692",
+        "name": "?댁껌留??섎쫫",
+        "code": "CM23692",
+        "brand": "LX1.8T",
+        "category": "?ν뙋",
+        "price": 11000,
+        "thickness": "1.8T",
+        "specs": {
+            "thickness": "1.8T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    }
+];
+
+const LIST_LX_2_0T = [
+    {
+        "id": "LX-EH14721",
+        "name": "??됰ぉ ?대씪?곕뱶 ?щ┝ (1)",
+        "code": "EH14721",
+        "brand": "LX2.0T",
+        "category": "?ν뙋",
+        "price": 17000,
+        "thickness": "2.0T",
+        "specs": {
+            "thickness": "2.0T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-EH12121",
+        "name": "??됰ぉ ?ㅽ겕 (1)",
+        "code": "EH12121",
+        "brand": "LX2.0T",
+        "category": "?ν뙋",
+        "price": 17000,
+        "thickness": "2.0T",
+        "specs": {
+            "thickness": "2.0T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-EH14092",
+        "name": "??됰ぉ ?ㅽ궎 ?ㅽ넠 (1)",
+        "code": "EH14092",
+        "brand": "LX2.0T",
+        "category": "?ν뙋",
+        "price": 17000,
+        "thickness": "2.0T",
+        "specs": {
+            "thickness": "2.0T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-EH14732",
+        "name": "??됰ぉ ?댁텛??洹몃젅??(1)",
+        "code": "EH14732",
+        "brand": "LX2.0T",
+        "category": "?ν뙋",
+        "price": 17000,
+        "thickness": "2.0T",
+        "specs": {
+            "thickness": "2.0T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-EH14101",
+        "name": "??됰ぉ 紐⑤끂瑜?(1)",
+        "code": "EH14101",
+        "brand": "LX2.0T",
+        "category": "?ν뙋",
+        "price": 17000,
+        "thickness": "2.0T",
+        "specs": {
+            "thickness": "2.0T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-EH13713",
+        "name": "??됰ぉ 誘몃땲硫 ?곕뱶 (1)",
+        "code": "EH13713",
+        "brand": "LX2.0T",
+        "category": "?ν뙋",
+        "price": 17000,
+        "thickness": "2.0T",
+        "specs": {
+            "thickness": "2.0T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-EH14121",
+        "name": "??됰ぉ 罹??ㅽ겕 (1)",
+        "code": "EH14121",
+        "brand": "LX2.0T",
+        "category": "?ν뙋",
+        "price": 17000,
+        "thickness": "2.0T",
+        "specs": {
+            "thickness": "2.0T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-EH13712",
+        "name": "??됰ぉ 留덇끝 ?ㅽ겕 (1)",
+        "code": "EH13712",
+        "brand": "LX2.0T",
+        "category": "?ν뙋",
+        "price": 17000,
+        "thickness": "2.0T",
+        "specs": {
+            "thickness": "2.0T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-EH14712",
+        "name": "??됰ぉ ?쇱튂 ?ㅽ겕 (1)",
+        "code": "EH14712",
+        "brand": "LX2.0T",
+        "category": "?ν뙋",
+        "price": 17000,
+        "thickness": "2.0T",
+        "specs": {
+            "thickness": "2.0T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-EH12071",
+        "name": "??됰ぉ ?ㅽ겕 (1)",
+        "code": "EH12071",
+        "brand": "LX2.0T",
+        "category": "?ν뙋",
+        "price": 17000,
+        "thickness": "2.0T",
+        "specs": {
+            "thickness": "2.0T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    }
+];
+
+const LIST_LX_2_7T = [
+    {
+        "id": "LX-ZH50011",
+        "name": "吏?꾩궗?묒븷 ?ㅽ겕",
+        "code": "ZH50011",
+        "brand": "LX2.7T",
+        "category": "?ν뙋",
+        "price": 32000,
+        "thickness": "2.7T",
+        "specs": {
+            "thickness": "2.7T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-ZH50061",
+        "name": "吏?꾩궗?묒븷 ?ㅽ겕",
+        "code": "ZH50061",
+        "brand": "LX2.7T",
+        "category": "?ν뙋",
+        "price": 32000,
+        "thickness": "2.7T",
+        "specs": {
+            "thickness": "2.7T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-ZH53603",
+        "name": "吏?꾩궗?묒븷 ?대컲?ъ꽭由?,
+        "code": "ZH53603",
+        "brand": "LX2.7T",
+        "category": "?ν뙋",
+        "price": 32000,
+        "thickness": "2.7T",
+        "specs": {
+            "thickness": "2.7T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-ZH54032",
+        "name": "吏?꾩궗?묒븷 ?덊떞洹몃젅??,
+        "code": "ZH54032",
+        "brand": "LX2.7T",
+        "category": "?ν뙋",
+        "price": 32000,
+        "thickness": "2.7T",
+        "specs": {
+            "thickness": "2.7T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-ZH54044",
+        "name": "吏?꾩궗?묒븷 ?댁뒪?댁삤??,
+        "code": "ZH54044",
+        "brand": "LX2.7T",
+        "category": "?ν뙋",
+        "price": 32000,
+        "thickness": "2.7T",
+        "specs": {
+            "thickness": "2.7T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-ZH54231",
+        "name": "吏?꾩궗?묒븷 ?섏씪?ㅽ겕",
+        "code": "ZH54231",
+        "brand": "LX2.7T",
+        "category": "?ν뙋",
+        "price": 32000,
+        "thickness": "2.7T",
+        "specs": {
+            "thickness": "2.7T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-ZH54483",
+        "name": "吏?꾩궗?묒븷 ?뚰봽?몄뒪??,
+        "code": "ZH54483",
+        "brand": "LX2.7T",
+        "category": "?ν뙋",
+        "price": 32000,
+        "thickness": "2.7T",
+        "specs": {
+            "thickness": "2.7T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-ZH54542",
+        "name": "吏?꾩궗?묒븷 硫쒕줈?곗뒪??,
+        "code": "ZH54542",
+        "brand": "LX2.7T",
+        "category": "?ν뙋",
+        "price": 32000,
+        "thickness": "2.7T",
+        "specs": {
+            "thickness": "2.7T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    }
+];
+
+const LIST_LX_3_2T = [
+    {
+        "id": "LX-50011",
+        "name": "吏?꾩궗?묒븷 ?ㅽ겕",
+        "code": "50011",
+        "brand": "LX3.2T",
+        "category": "?ν뙋",
+        "price": 36000,
+        "thickness": "3.2T",
+        "specs": {
+            "thickness": "3.2T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-50061",
+        "name": "吏?꾩궗?묒븷 ?ㅽ겕",
+        "code": "50061",
+        "brand": "LX3.2T",
+        "category": "?ν뙋",
+        "price": 36000,
+        "thickness": "3.2T",
+        "specs": {
+            "thickness": "3.2T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-53351",
+        "name": "吏?꾩궗?묒븷 蹂댁뒪?ㅼ삤??,
+        "code": "53351",
+        "brand": "LX3.2T",
+        "category": "?ν뙋",
+        "price": 36000,
+        "thickness": "3.2T",
+        "specs": {
+            "thickness": "3.2T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-54211",
+        "name": "吏?꾩궗?묒븷 紐⑥뭅?ㅽ겕",
+        "code": "54211",
+        "brand": "LX3.2T",
+        "category": "?ν뙋",
+        "price": 36000,
+        "thickness": "3.2T",
+        "specs": {
+            "thickness": "3.2T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-54231",
+        "name": "吏?꾩궗?묒븷 ?섏씪?ㅽ겕",
+        "code": "54231",
+        "brand": "LX3.2T",
+        "category": "?ν뙋",
+        "price": 36000,
+        "thickness": "3.2T",
+        "specs": {
+            "thickness": "3.2T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-60071",
+        "name": "吏?꾩궗?묒븷 ?꾨━??,
+        "code": "60071",
+        "brand": "LX3.2T",
+        "category": "?ν뙋",
+        "price": 36000,
+        "thickness": "3.2T",
+        "specs": {
+            "thickness": "3.2T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-60081",
+        "name": "吏?꾩궗?묒븷 ?몃껐踰꾨젅??,
+        "code": "60081",
+        "brand": "LX3.2T",
+        "category": "?ν뙋",
+        "price": 36000,
+        "thickness": "3.2T",
+        "specs": {
+            "thickness": "3.2T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-60151",
+        "name": "吏?꾩궗?묒븷 洹몃젅?댄???,
+        "code": "60151",
+        "brand": "LX3.2T",
+        "category": "?ν뙋",
+        "price": 36000,
+        "thickness": "3.2T",
+        "specs": {
+            "thickness": "3.2T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-60161",
+        "name": "吏?꾩궗?묒븷 諛붾땺??,
+        "code": "60161",
+        "brand": "LX3.2T",
+        "category": "?ν뙋",
+        "price": 36000,
+        "thickness": "3.2T",
+        "specs": {
+            "thickness": "3.2T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-63312",
+        "name": "吏?꾩궗?묒븷 ?뚰봽?몄삤??,
+        "code": "63312",
+        "brand": "LX3.2T",
+        "category": "?ν뙋",
+        "price": 36000,
+        "thickness": "3.2T",
+        "specs": {
+            "thickness": "3.2T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-63391",
+        "name": "吏?꾩궗?묒븷 ?ㅻ땳??,
+        "code": "63391",
+        "brand": "LX3.2T",
+        "category": "?ν뙋",
+        "price": 36000,
+        "thickness": "3.2T",
+        "specs": {
+            "thickness": "3.2T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-63693",
+        "name": "吏?꾩궗?묒븷 鍮꾩뒪?ъ뿕由?,
+        "code": "63693",
+        "brand": "LX3.2T",
+        "category": "?ν뙋",
+        "price": 36000,
+        "thickness": "3.2T",
+        "specs": {
+            "thickness": "3.2T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-64221",
+        "name": "吏?꾩궗?묒븷 ?먮쾭?뚯삤??,
+        "code": "64221",
+        "brand": "LX3.2T",
+        "category": "?ν뙋",
+        "price": 36000,
+        "thickness": "3.2T",
+        "specs": {
+            "thickness": "3.2T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-64223",
+        "name": "吏?꾩궗?묒븷 ?꾪듃?ㅽ겕",
+        "code": "64223",
+        "brand": "LX3.2T",
+        "category": "?ν뙋",
+        "price": 36000,
+        "thickness": "3.2T",
+        "specs": {
+            "thickness": "3.2T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-64281",
+        "name": "吏?꾩궗?묒븷 ?댁텛?댄뀒?쇱“",
+        "code": "64281",
+        "brand": "LX3.2T",
+        "category": "?ν뙋",
+        "price": 36000,
+        "thickness": "3.2T",
+        "specs": {
+            "thickness": "3.2T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    }
+];
+
+const LIST_LX_4_5T = [
+    {
+        "id": "LX-ZS80021-11",
+        "name": "吏?꾩냼由ъ옞 紐⑤뜕 ?ㅽ겕",
+        "code": "ZS80021-11",
+        "brand": "LX4.5T",
+        "category": "?ν뙋",
+        "price": 44000,
+        "thickness": "4.5T",
+        "specs": {
+            "thickness": "4.5T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-ZS80071-11",
+        "name": "吏?꾩냼由ъ옞 ?붿씠???ㅽ겕",
+        "code": "ZS80071-11",
+        "brand": "LX4.5T",
+        "category": "?ν뙋",
+        "price": 44000,
+        "thickness": "4.5T",
+        "specs": {
+            "thickness": "4.5T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-ZS82991-11",
+        "name": "吏?꾩냼由ъ옞 ?쇱엫 ?ㅽ겕",
+        "code": "ZS82991-11",
+        "brand": "LX4.5T",
+        "category": "?ν뙋",
+        "price": 44000,
+        "thickness": "4.5T",
+        "specs": {
+            "thickness": "4.5T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-ZS83011-11",
+        "name": "吏?꾩냼由ъ옞 ?щ젅留??붿씠??,
+        "code": "ZS83011-11",
+        "brand": "LX4.5T",
+        "category": "?ν뙋",
+        "price": 44000,
+        "thickness": "4.5T",
+        "specs": {
+            "thickness": "4.5T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-ZS83051-11",
+        "name": "吏?꾩냼由ъ옞 硫???ㅻ쭅蹂?,
+        "code": "ZS83051-11",
+        "brand": "LX4.5T",
+        "category": "?ν뙋",
+        "price": 44000,
+        "thickness": "4.5T",
+        "specs": {
+            "thickness": "4.5T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-ZS83081-11",
+        "name": "吏?꾩냼由ъ옞 鍮꾩?肄?留덈툝",
+        "code": "ZS83081-11",
+        "brand": "LX4.5T",
+        "category": "?ν뙋",
+        "price": 44000,
+        "thickness": "4.5T",
+        "specs": {
+            "thickness": "4.5T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-ZS84011-11",
+        "name": "吏?꾩냼由ъ옞 ?댁툌???ㅽ겕",
+        "code": "ZS84011-11",
+        "brand": "LX4.5T",
+        "category": "?ν뙋",
+        "price": 44000,
+        "thickness": "4.5T",
+        "specs": {
+            "thickness": "4.5T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-ZS84012-11",
+        "name": "吏?꾩냼由ъ옞 諛몃━ ?ㅽ겕",
+        "code": "ZS84012-11",
+        "brand": "LX4.5T",
+        "category": "?ν뙋",
+        "price": 44000,
+        "thickness": "4.5T",
+        "specs": {
+            "thickness": "4.5T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-ZS84021-11",
+        "name": "吏?꾩냼由ъ옞 誘몄뒪???ㅽ겕",
+        "code": "ZS84021-11",
+        "brand": "LX4.5T",
+        "category": "?ν뙋",
+        "price": 44000,
+        "thickness": "4.5T",
+        "specs": {
+            "thickness": "4.5T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-ZS84022-11",
+        "name": "吏?꾩냼由ъ옞 ?쒕줈???ㅽ겕",
+        "code": "ZS84022-11",
+        "brand": "LX4.5T",
+        "category": "?ν뙋",
+        "price": 44000,
+        "thickness": "4.5T",
+        "specs": {
+            "thickness": "4.5T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-ZS84031-11",
+        "name": "吏?꾩냼由ъ옞 ?뚰봽???ъ꽭由?,
+        "code": "ZS84031-11",
+        "brand": "LX4.5T",
+        "category": "?ν뙋",
+        "price": 44000,
+        "thickness": "4.5T",
+        "specs": {
+            "thickness": "4.5T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-ZS84032-11",
+        "name": "吏?꾩냼由ъ옞 洹몃젅???ъ꽭由?,
+        "code": "ZS84032-11",
+        "brand": "LX4.5T",
+        "category": "?ν뙋",
+        "price": 44000,
+        "thickness": "4.5T",
+        "specs": {
+            "thickness": "4.5T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    },
+    {
+        "id": "LX-ZS84041-11",
+        "name": "吏?꾩냼由ъ옞 ?대옒???ㅽ겕",
+        "code": "ZS84041-11",
+        "brand": "LX4.5T",
+        "category": "?ν뙋",
+        "price": 44000,
+        "thickness": "4.5T",
+        "specs": {
+            "thickness": "4.5T",
+            "size": "1.83m x 濡ㅻ떒??,
+            "packing": "m ?⑥쐞 ?덈떒 ?먮ℓ"
+        }
+    }
+];
+

@@ -1,0 +1,284 @@
+/* src/pages/MaterialDetail.css */
+
+.mat-detail-page {
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.detail-wrapper {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+/* --- Gallery --- */
+.detail-gallery {
+    width: 500px;
+    flex-shrink: 0;
+}
+
+.main-image {
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-color: #f8f8f8;
+    border: 1px solid #eee;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.main-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.detail-img-placeholder {
+    font-size: 24px;
+    color: #ccc;
+    font-weight: 700;
+}
+
+.thumb-list {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+}
+
+.thumb {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 0.2s;
+}
+
+.thumb:hover {
+    opacity: 1;
+}
+
+.thumb.active {
+    opacity: 1;
+    border: 2px solid #346aff;
+}
+
+/* --- Info Column --- */
+.detail-info {
+    flex: 1;
+}
+
+.info-header {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #888;
+}
+
+.brand-name {
+    font-weight: 700;
+    color: #555;
+}
+
+.product-title {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 0 16px 0;
+    line-height: 1.4;
+    color: #111;
+}
+
+.product-price {
+    font-size: 28px;
+    font-weight: 800;
+    color: #CB1400;
+    /* Coupang red-ish price color */
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 24px;
+}
+
+/* Specs Table */
+.specs-table {
+    margin-bottom: 30px;
+    border-top: 2px solid #555;
+}
+
+.spec-row {
+    display: flex;
+    border-bottom: 1px solid #eee;
+}
+
+.spec-key {
+    width: 100px;
+    background: #f9f9f9;
+    padding: 12px;
+    font-size: 13px;
+    color: #666;
+    font-weight: 500;
+}
+
+.spec-val {
+    flex: 1;
+    padding: 12px 16px;
+    font-size: 13px;
+    color: #333;
+}
+
+/* Options */
+.option-section {
+    margin-bottom: 30px;
+}
+
+.section-label {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 8px;
+}
+
+.option-select {
+    width: 100%;
+    height: 48px;
+    padding: 0 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.option-select:focus {
+    border-color: #346aff;
+    outline: none;
+}
+
+/* Summary Box */
+.summary-box {
+    background: #f7f7f7;
+    border: 1px solid #eee;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.summary-name {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+}
+
+.qty-control {
+    display: flex;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+.qty-control button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    color: #555;
+}
+
+.qty-control input {
+    width: 40px;
+    height: 30px;
+    border: none;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    text-align: center;
+    font-size: 13px;
+    outline: none;
+}
+
+.summary-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.total-label {
+    font-size: 14px;
+    font-weight: 700;
+    color: #111;
+}
+
+.total-price {
+    font-size: 24px;
+    font-weight: 800;
+    color: #CB1400;
+}
+
+/* Buttons */
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn-cart,
+.btn-buy {
+    flex: 1;
+    height: 56px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.2s;
+}
+
+.btn-cart {
+    background: #fff;
+    border: 1px solid #346aff;
+    color: #346aff;
+}
+
+.btn-cart.disabled {
+    border-color: #ccc;
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.btn-buy {
+    background: #346aff;
+    border: 1px solid #346aff;
+    color: #fff;
+}
+
+.btn-buy.disabled {
+    background: #ccc;
+    border-color: #ccc;
+    cursor: not-allowed;
+}
+
+.select-guide {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #CB1400;
+    text-align: right;
+}
+
+@media (max-width: 900px) {
+    .detail-wrapper {
+        flex-direction: column;
+    }
+
+    .detail-gallery {
+        width: 100%;
+    }
+}
