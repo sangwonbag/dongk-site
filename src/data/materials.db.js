@@ -42,9 +42,9 @@ const LIST_WOOD = ["TW 5104G","TW 5107G","TW 5109G","TW 5108G","TW 5103G","TW 51
 export const PRICE_ECONO_PLUS = 35000;
 export const PRICE_BOTANIC = 28000;
 const BASE_PATH ="/images/products";
-export const ALL_BRANDS = ["K","동신","LX","녹수","재영","현대","LX 1.8T","LX 2.0T","LX 2.2T","LX 2.7T","LX 3.2T","LX 4.5T","LX 5.0T","이건","동화","구정","개나리","서울","제일","디아이디","신한(KCC)","스완","아반","기타"
+export const ALL_BRANDS = ["KCC","동신","LX","녹수","재영","현대","LX 1.8T","LX 2.0T","LX 2.2T","LX 2.7T","LX 3.2T","LX 4.5T","LX 5.0T","이건","동화","구정","개나리","서울","제일","디아이디","신한(KCC)","스완","아반","기타"
 ];
-export const BRANDS_BY_CATEGORY = {"데코타일": ["K","동신","LX","녹수","재영","현대"],"장판": ["LX 1.8T","LX 2.0T","LX 2.2T","LX 2.7T","LX 3.2T","LX 4.5T","LX 5.0T"],"마루": ["이건","동화","구정"],"벽지": ["LX","개나리","서울","제일","디아이디","신한(KCC)"],"카페트타일": ["스완","아반"]
+export const BRANDS_BY_CATEGORY = {"데코타일": ["KCC","동신","LX","녹수","재영","현대"],"장판": ["LX 1.8T","LX 2.0T","LX 2.2T","LX 2.7T","LX 3.2T","LX 4.5T","LX 5.0T"],"마루": ["이건","동화","구정"],"벽지": ["LX","개나리","서울","제일","디아이디","신한(KCC)"],"카페트타일": ["스완","아반"]
 };
 function createMaterial(code, type) {
     let price = 0;
@@ -72,7 +72,7 @@ function createMaterial(code, type) {
         id: code,
         name: code,
         code: code,
-        brand:"K",
+        brand:"KCC",
         category: category,
         type: type,
         price: price,

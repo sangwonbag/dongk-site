@@ -41,9 +41,9 @@ const MaterialCard = ({ material }) => {
                 <div className="card-brand-cat">{getComputedBrand(material)}</div>
                 <div className="card-name">{material.name}</div>
                 <div className="card-price-row">
-                    {material.price && (
-                        <div className="card-price">₩{material.price.toLocaleString()}원</div>
-                    )}
+                    <div className="card-price">
+                        {material.price ? `₩${material.price.toLocaleString()}원` : "가격문의"}
+                    </div>
                 </div>
 
                 <div className="card-actions">

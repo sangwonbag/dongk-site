@@ -158,7 +158,9 @@ export default function MaterialDetail() {
                                 </div>
                                 <div className="summary-total">
                                     <span className="total-label">총 상품금액</span>
-                                    <span className="total-price">{totalPrice.toLocaleString()}원</span>
+                                    <span className="total-price">
+                                        {totalPrice > 0 ? `${totalPrice.toLocaleString()}원` : "가격문의"}
+                                    </span>
                                 </div>
                             </div>
                         )}

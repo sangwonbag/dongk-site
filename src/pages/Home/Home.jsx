@@ -40,7 +40,9 @@ export default function Home() {
                   <div className="pc-info">
                     <div className="pc-brand">{m.brand}</div>
                     <div className="pc-name">{m.name}</div>
-                    <div className="pc-price">{(m.price || 0).toLocaleString()}원</div>
+                    <div className="pc-price">
+                      {m.price ? `${m.price.toLocaleString()}원` : "가격문의"}
+                    </div>
                     <div className="pc-specs">
                       {m.specs && (
                         <>
