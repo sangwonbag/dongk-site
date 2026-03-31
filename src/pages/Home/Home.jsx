@@ -55,7 +55,7 @@ export default function Home() {
       .sort((a, b) => (Math.random() * b.weight) - (Math.random() * a.weight))
       .map(entry => entry.item);
 
-    return shuffled.slice(0, 8);
+    return shuffled.slice(0, 6);
   }, []);
 
   return (
