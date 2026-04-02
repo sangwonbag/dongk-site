@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 
 // Configuration
 const PROJECT_ROOT = path.resolve(__dirname, '..');
@@ -119,9 +120,29 @@ items.forEach(code => {
     });
 
     const cover = convertToPublicPath(fileMatches[0].path);
-    const gallery = [...new Set(fileMatches.map(m => convertToPublicPath(m.path)))];
+    
+    // Deduplicate gallery by file content (hash) AND path
+    // This handles cases where different files are identical copies
+    const seenHashes = new Set();
+    const uniqueGallery = [];
 
-    const entry = { cover, gallery };
+    for (const m of fileMatches) {
+        const publicPath = convertToPublicPath(m.path);
+        try {
+            const hash = crypto.createHash('md5').update(fs.readFileSync(m.path)).digest('hex');
+            if (!seenHashes.has(hash)) {
+                seenHashes.add(hash);
+                uniqueGallery.push(publicPath);
+            }
+        } catch (e) {
+            // Fallback to path unique if hashing fails
+            if (!uniqueGallery.includes(publicPath)) {
+                uniqueGallery.push(publicPath);
+            }
+        }
+    }
+
+    const entry = { cover, gallery: uniqueGallery };
     manifest[code] = entry;
     if (nCode !== code) {
         manifest[nCode] = entry;

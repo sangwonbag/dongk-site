@@ -6,7 +6,7 @@ export default function Footer() {
         <footer className="footer">
             <div className="container">
                 <div className="footer-info">
-                    <p className="footer-corp">동경바닥재</p>
+                    <p className="footer-corp">DK Floor</p>
                     <div className="footer-details">
                         <p>사업자등록번호: 890-88-02243</p>
                         <p>대표: 최화선</p>
@@ -17,11 +17,11 @@ export default function Footer() {
                         <p>운영시간: 평일 07:00 ~ 18:00 / 주말 07:00 ~ 12:00</p>
                     </div>
                     <p className="footer-bank">
-                        무통장 입금: 농협 301-0298-9197-81 (예금주: (주) 동경바닥재)
+                        무통장 입금: 농협 301-0298-9197-81 (예금주: DK Floor)
                     </p>
                 </div>
                 <p className="footer-copyright">
-                    Copyright © 2026 동경바닥재. All rights reserved.
+                    Copyright © 2026 DK Floor. All rights reserved.
                 </p>
             </div>
         </footer>

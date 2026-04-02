@@ -44,7 +44,7 @@ export default function Header() {
       <div className="container header-row">
         {/* Logo */}
         <div className="header-logo" onClick={() => nav("/")}>
-          동경바닥재
+          DK Floor
         </div>
 
         {/* Search */}

@@ -33,8 +33,8 @@ export default function MaterialDetail() {
 
             if (!alive) return;
 
-            // Combine both: _0 (cover) + _1, _2...
-            const allImages = [cover, ...gallery].filter(Boolean);
+            // Combine both: _0 (cover) + _1, _2... and deduplicate
+            const allImages = [...new Set([cover, ...gallery].filter(Boolean))];
 
             if (allImages.length > 0) {
                 setImages(allImages);
@@ -108,7 +108,7 @@ export default function MaterialDetail() {
                         <h1 className="product-title">{item.name}</h1>
 
                         <div className="product-price">
-                            {item.price ? `${item.price.toLocaleString()}원` : "가격문의"}
+                            {item.price ? `${item.price.toLocaleString()}원 (VAT 별도)` : "가격문의"}
                         </div>
 
                         {/* Specs Table */}
@@ -159,7 +159,7 @@ export default function MaterialDetail() {
                                 <div className="summary-total">
                                     <span className="total-label">총 상품금액</span>
                                     <span className="total-price">
-                                        {totalPrice > 0 ? `${totalPrice.toLocaleString()}원` : "가격문의"}
+                                        {totalPrice > 0 ? `${totalPrice.toLocaleString()}원 (VAT 별도)` : "가격문의"}
                                     </span>
                                 </div>
                             </div>

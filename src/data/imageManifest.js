@@ -589,159 +589,96 @@ export const imageManifest = {
     ]
   },
   "50011": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/50011-오크.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/50011_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/50011-오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH50011_1.jpg",
       "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/50011_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH50011_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/50011_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH50011_3.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/50011_3.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/50011_4.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/50011_5.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/50011_6.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH50011_오크.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/50011_4.jpg"
     ]
   },
   "50061": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/50061-오크.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/50061_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/50061-오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH50061_1.jpg",
       "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/50061_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH50061_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/50061_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH50061_3.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/50061_3.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/50061_4.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/50061_5.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/50061_6.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH50061_오크.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/50061_4.jpg"
     ]
   },
   "53351": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/53351-보스톤오크.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/53351_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/53351-보스톤오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/53351_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/53351_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/53351_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/53351_1.jpg"
     ]
   },
   "54211": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/54211-모카오크.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/54211_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/54211-모카오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/54211_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/54211_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/54211_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/54211_1.jpg"
     ]
   },
   "54231": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/54231-페일오크.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/54231_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/54231-페일오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH54231_1.jpg",
       "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/54231_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH54231_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/54231_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH54231_3.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/54231_3.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/54231_4.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/54231_5.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/54231_6.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54231_페일오크.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/54231_4.jpg"
     ]
   },
   "60071": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60071-아리아.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/60071_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60071-아리아.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/60071_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/60071_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/60071_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/60071_1.jpg"
     ]
   },
   "60081": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60081-노벰버레인.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60081_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60081-노벰버레인.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60081_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60081_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60081_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60081_1.jpg"
     ]
   },
   "60151": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60151-그레이타일.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60151_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60151-그레이타일.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60151_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60151_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60151_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60151_1.jpg"
     ]
   },
   "60161": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60161-바닐라.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60161_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60161-바닐라.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60161_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60161_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60161_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60161_1.jpg"
     ]
   },
   "63312": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63312-소프트오크.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63312_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63312-소프트오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63312_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63312_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63312_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63312_1.jpg"
     ]
   },
   "63391": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63391-오닉스.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63391_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63391-오닉스.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63391_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63391_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63391_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63391_1.jpg"
     ]
   },
   "63693": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63693-비스크엘름.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63693_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63693-비스크엘름.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63693_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63693_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63693_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63693_1.jpg"
     ]
   },
   "64221": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64221-에버닌오크.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64221_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64221-에버닌오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64221_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64221_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64221_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64221_1.jpg"
     ]
   },
   "64223": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64223-위트오크.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64223_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64223-위트오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64223_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64223_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64223_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64223_1.jpg"
     ]
   },
   "64281": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64281-내추럴테라조.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64281_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64281-내추럴테라조.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64281_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64281_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64281_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64281_1.jpg"
     ]
   },
   "68751": {
@@ -2060,617 +1997,529 @@ export const imageManifest = {
   "705301": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7053-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7053-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7053-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7053-01.jpg"
     ]
   },
   "706901": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7069-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7069-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7069-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7069-01.jpg"
     ]
   },
   "707402": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7074-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7074-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7074-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7074-02.jpg"
     ]
   },
   "707501": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7075-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7075-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7075-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7075-01.jpg"
     ]
   },
   "707701": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7077-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7077-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7077-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7077-01.jpg"
     ]
   },
   "708501": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7085-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7085-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7085-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7085-01.jpg"
     ]
   },
   "708502": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7085-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7085-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7085-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7085-02.jpg"
     ]
   },
   "708701": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7087-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7087-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7087-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7087-01.jpg"
     ]
   },
   "709001": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7090-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-01.jpg"
     ]
   },
   "709005": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7090-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-05.jpg"
     ]
   },
   "709006": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-06.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-06.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7090-06.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-06.jpg"
     ]
   },
   "709007": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-07.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-07.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7090-07.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-07.jpg"
     ]
   },
   "709008": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-08.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-08.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7090-08.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-08.jpg"
     ]
   },
   "709502": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7095-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7095-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7095-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7095-02.jpg"
     ]
   },
   "709601": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7096-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7096-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7096-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7096-01.jpg"
     ]
   },
   "709701": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7097-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-01.jpg"
     ]
   },
   "709704": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7097-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-04.jpg"
     ]
   },
   "709705": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7097-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-05.jpg"
     ]
   },
   "709706": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-06.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-06.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7097-06.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-06.jpg"
     ]
   },
   "709707": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-07.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-07.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7097-07.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-07.jpg"
     ]
   },
   "709708": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-08.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-08.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7097-08.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-08.jpg"
     ]
   },
   "710501": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7105-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7105-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7105-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7105-01.jpg"
     ]
   },
   "710701": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7107-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-01.jpg"
     ]
   },
   "710702": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7107-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-02.jpg"
     ]
   },
   "710703": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7107-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-03.jpg"
     ]
   },
   "710704": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7107-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-04.jpg"
     ]
   },
   "710705": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7107-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-05.jpg"
     ]
   },
   "710801": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7108-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-01.jpg"
     ]
   },
   "710802": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7108-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-02.jpg"
     ]
   },
   "710803": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7108-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-03.jpg"
     ]
   },
   "710804": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7108-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-04.jpg"
     ]
   },
   "710805": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7108-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-05.jpg"
     ]
   },
   "710901": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7109-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7109-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7109-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7109-01.jpg"
     ]
   },
   "711101": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7111-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-01.jpg"
     ]
   },
   "711102": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7111-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-02.jpg"
     ]
   },
   "711103": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7111-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-03.jpg"
     ]
   },
   "711104": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7111-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-04.jpg"
     ]
   },
   "711201": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7112-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-01.jpg"
     ]
   },
   "711202": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7112-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-02.jpg"
     ]
   },
   "711204": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7112-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-04.jpg"
     ]
   },
   "711205": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7112-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-05.jpg"
     ]
   },
   "711301": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-01.jpg"
     ]
   },
   "711302": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-02.jpg"
     ]
   },
   "711303": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-03.jpg"
     ]
   },
   "711304": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-04.jpg"
     ]
   },
   "711305": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-05.jpg"
     ]
   },
   "711306": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-06.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-06.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-06.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-06.jpg"
     ]
   },
   "711307": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-07.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-07.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-07.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-07.jpg"
     ]
   },
   "711401": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-01.jpg"
     ]
   },
   "711402": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-02.jpg"
     ]
   },
   "711403": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-03.jpg"
     ]
   },
   "711404": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-04.jpg"
     ]
   },
   "711405": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-05.jpg"
     ]
   },
   "711406": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-06.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-06.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-06.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-06.jpg"
     ]
   },
   "711407": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-07.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-07.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-07.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-07.jpg"
     ]
   },
   "711408": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-08.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-08.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-08.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-08.jpg"
     ]
   },
   "711501": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-01.jpg"
     ]
   },
   "711502": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-02.jpg"
     ]
   },
   "711503": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-03.jpg"
     ]
   },
   "711504": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-04.jpg"
     ]
   },
   "711505": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-05.jpg"
     ]
   },
   "711506": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-06.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-06.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-06.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-06.jpg"
     ]
   },
   "711507": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-07.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-07.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-07.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-07.jpg"
     ]
   },
   "711601": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-01.jpg"
     ]
   },
   "711602": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-02.jpg"
     ]
   },
   "711603": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-03.jpg"
     ]
   },
   "711604": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-04.jpg"
     ]
   },
   "711605": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-05.jpg"
     ]
   },
   "711606": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-06.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-06.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-06.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-06.jpg"
     ]
   },
   "711607": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-07.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-07.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-07.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-07.jpg"
     ]
   },
   "711608": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-08.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-08.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-08.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-08.jpg"
     ]
   },
   "711701": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7117-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-01.jpg"
     ]
   },
   "711702": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7117-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-02.jpg"
     ]
   },
   "711703": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7117-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-03.jpg"
     ]
   },
   "711704": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7117-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-04.jpg"
     ]
   },
   "711705": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7117-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-05.jpg"
     ]
   },
   "711801": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7118-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-01.jpg"
     ]
   },
   "711802": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7118-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-02.jpg"
     ]
   },
   "711803": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7118-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-03.jpg"
     ]
   },
   "711804": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7118-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-04.jpg"
     ]
   },
   "711805": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7118-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-05.jpg"
     ]
   },
   "711901": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7119-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-01.jpg"
     ]
   },
   "711902": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7119-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-02.jpg"
     ]
   },
   "711903": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7119-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-03.jpg"
     ]
   },
   "711904": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7119-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-04.jpg"
     ]
   },
   "712001": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7120-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-01.jpg"
     ]
   },
   "712002": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7120-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-02.jpg"
     ]
   },
   "712003": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7120-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-03.jpg"
     ]
   },
   "819001": {
@@ -2678,34 +2527,29 @@ export const imageManifest = {
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8190-01.jpg",
       "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8190-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._8190-01.jpg",
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/H8190-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/H8190-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._H8190-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/H8190-01.jpg"
     ]
   },
   "819201": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8192-01.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8192-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8192-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._8192-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8192-01.jpg"
     ]
   },
   "819501": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8195-01.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8195-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8195-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._8195-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8195-01.jpg"
     ]
   },
   "819701": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8197-01.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8197-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8197-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._8197-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8197-01.jpg"
     ]
   },
   "8245801": {
@@ -3423,2366 +3267,1251 @@ export const imageManifest = {
     ]
   },
   "TS5502P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5502P 우븐_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5502P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5502P 우븐_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5502P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5502P 우븐_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5502P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5502P 우븐_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5502P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5502P 우븐_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5502P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5502P 우븐_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5502P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5502P 우븐_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5502P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5502P_2.jpg"
     ]
   },
   "TS5503P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5503P 우븐_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5503P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5503P 우븐_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5503P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5503P 우븐_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5503P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5503P 우븐_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5503P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5503P 우븐_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5503P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5503P 우븐_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5503P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5503P 우븐_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5503P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5503P_2.jpg"
     ]
   },
   "TS5508": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5508 브러쉬 카펫_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5508 브러쉬 카펫_2.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5508 브러쉬 카펫_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5508P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5508 브러쉬 카펫_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5508P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5508 브러쉬 카펫_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5508 브러쉬 카펫_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5508 브러쉬 카펫_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5508 브러쉬 카펫_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5508 브러쉬 카펫_2.jpg"
     ]
   },
   "TS5510P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5510P 카펫_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5510P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5510P 카펫_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5510P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5510P 카펫_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5510P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5510P 카펫_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5510P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5510P 카펫_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5510P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5510P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5510P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5510P_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5510P_3.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5510P_2.jpg"
     ]
   },
   "TS5511P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5511P 카펫_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5511P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5511P 카펫_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5511P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5511P 카펫_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5511P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5511P 카펫_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5511P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5511P 카펫_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5511P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5511P 카펫_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5511P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5511P 카펫_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5511P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5511P_2.jpg"
     ]
   },
   "TS5516P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5516P 마블_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5516P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5516P 마블_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5516P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5516P 마블_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5516P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5516P 마블_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5516P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5516P 마블_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5516P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5516P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5516P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5516P_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5516P_3.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5516P_2.jpg"
     ]
   },
   "TS5518P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5518P 콘크리트_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5518P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5518P 콘크리트_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5518P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5518P 콘크리트_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5518P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5518P 콘크리트_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5518P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5518P 콘크리트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5518P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5518P 콘크리트_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5518P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5518P 콘크리트_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5518P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5518P_2.jpg"
     ]
   },
   "TS5519P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5519P 콘크리트_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5519P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5519P 콘크리트_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5519P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5519P 콘크리트_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5519P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5519P 콘크리트_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5519P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5519P 콘크리트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5519P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5519P 콘크리트_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5519P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5519P 콘크리트_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5519P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5519P_2.jpg"
     ]
   },
   "TS5531M": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5531M 오닉스_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5531M_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5531M 오닉스_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5531M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5531M 오닉스_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5531M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5531M 오닉스_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5531M_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5531M 오닉스_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5531M_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5531M_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5531M_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5531M_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5531M_3.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5531M_2.jpg"
     ]
   },
   "TS5532M": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5532M 파라디소_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5532M_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5532M 파라디소_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5532M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5532M 파라디소_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5532M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5532M 파라디소_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5532M_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5532M 파라디소_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5532M_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5532M 파라디소_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5532M_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5532M 파라디소_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5532M_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5532M_2.jpg"
     ]
   },
   "TS5533M": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5533M 파라디소_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5533M_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5533M 파라디소_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5533M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5533M 파라디소_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5533M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5533M 파라디소_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5533M_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5533M 파라디소_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5533M_1.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5533M_1.jpg"
     ]
   },
   "TS5534M": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5534M 파라디소_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5534M_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5534M 파라디소_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5534M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5534M 파라디소_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5534M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5534M 파라디소_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5534M_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5534M 파라디소_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5534M_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5534M 파라디소_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5534M_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5534M 파라디소_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5534M_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5534M_2.jpg"
     ]
   },
   "TS5535M": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5535M 어반 콘크리트_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5535M_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5535M 어반 콘크리트_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5535M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5535M 어반 콘크리트_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5535M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5535M 어반 콘크리트_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5535M_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5535M 어반 콘크리트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5535M_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5535M 어반 콘크리트_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5535M_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5535M 어반 콘크리트_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5535M_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5535M_2.jpg"
     ]
   },
   "TS5536M": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5536M 어반 콘크리트_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5536M_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5536M 어반 콘크리트_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5536M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5536M 어반 콘크리트_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5536M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5536M 어반 콘크리트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5536M_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5536M 어반 콘크리트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5536M_1.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5536M_1.jpg"
     ]
   },
   "TS5537M": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5537M 어반 콘크리트_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5537M_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5537M 어반 콘크리트_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5537M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5537M 어반 콘크리트_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5537M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5537M 어반 콘크리트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5537M_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5537M 어반 콘크리트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5537M_1.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5537M_1.jpg"
     ]
   },
   "TS5541P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5541P 슬레이트_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5541P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5541P 슬레이트_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5541P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5541P 슬레이트_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5541P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5541P 슬레이트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5541P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5541P 슬레이트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5541P_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/TS5541P_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/TS5541P_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/TS5541P_3.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/TS5541P_4.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/TS5541P_5.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/TS5541P_6.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/TS5541P_7.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/TS5541P_8.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5541P_1.jpg"
     ]
   },
   "TS5542P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5542P 슬레이트_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5542P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5542P 슬레이트_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5542P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5542P 슬레이트_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5542P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5542P 슬레이트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5542P 슬레이트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5542P_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5542P_3.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5542P_3.jpg"
     ]
   },
   "TS5543P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5543P 슬레이트_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5543P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5543P 슬레이트_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5543P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5543P 슬레이트_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5543P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5543P 슬레이트_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5543P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5543P 슬레이트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5543P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5543P 슬레이트_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5543P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5543P 슬레이트_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5543P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5543P_2.jpg"
     ]
   },
   "TS5544P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5544P 슬레이트_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5544P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5544P 슬레이트_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5544P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5544P 슬레이트_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5544P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5544P 슬레이트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5544P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5544P 슬레이트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5544P_1.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5544P_1.jpg"
     ]
   },
   "TS5545P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5545P 테라죠_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5545P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5545P 테라죠_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5545P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5545P 테라죠_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5545P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5545P 테라죠_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5545P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5545P 테라죠_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5545P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5545P 테라죠_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5545P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5545P 테라죠_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5545P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5545P_2.jpg"
     ]
   },
   "TS5546P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5546P 텔라죠_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5546P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5546P 텔라죠_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5546P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5546P 텔라죠_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5546P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5546P 텔라죠_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5546P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5546P 텔라죠_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5546P_1.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5546P_1.jpg"
     ]
   },
   "TS5547P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5547P 비앙코_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5547P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5547P 비앙코_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5547P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5547P 비앙코_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5547P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5547P 비앙코_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5547P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5547P 비앙코_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5547P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5547P 비앙코_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5547P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5547P 비앙코_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5547P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5547P_2.jpg"
     ]
   },
   "TS5548P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5548P 샌드스톤_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5548P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5548P 샌드스톤_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5548P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5548P 샌드스톤_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5548P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5548P 샌드스톤_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5548P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5548P 샌드스톤_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5548P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5548P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5548P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5548P 샌드스톤_12.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5548P 샌드스톤_12.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5548P_2.jpg"
     ]
   },
   "TS5549M": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5549M 샌드스톤_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5549M 샌드스톤_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5549M 샌드스톤_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5549M 샌드스톤_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5549M 샌드스톤_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5549M 샌드스톤_1.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5549M 샌드스톤_1.jpg"
     ]
   },
   "TS5550P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5550P 콘크리트_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5550P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5550P 콘크리트_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5550P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5550P 콘크리트_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5550P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5550P 콘크리트_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5550P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5550P 콘크리트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5550P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5550P 콘크리트_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5550P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5550P 콘크리트_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5550P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5550P_2.jpg"
     ]
   },
   "TS5551P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5551P 베이직 카펫_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5551P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5551P 베이직 카펫_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5551P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5551P 베이직 카펫_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5551P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5551P 베이직 카펫_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5551P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5551P 베이직 카펫_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5551P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5551P 베이직 카펫_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5551P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5551P 베이직 카펫_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5551P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5551P_2.jpg"
     ]
   },
   "TS5552P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5552P 베이직 카펫_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5552P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5552P 베이직 카펫_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5552P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5552P 베이직 카펫_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5552P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5552P 베이직 카펫_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5552P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5552P 베이직 카펫_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5552P_1.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5552P_1.jpg"
     ]
   },
   "LX-XCF3441": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3441_애쉬베이지.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3441_애쉬베이지.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF3441_애쉬베이지.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3441_애쉬베이지.jpg"
     ]
   },
   "LXXCF3441": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3441_애쉬베이지.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3441_애쉬베이지.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF3441_애쉬베이지.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3441_애쉬베이지.jpg"
     ]
   },
   "XCF3441": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3441_애쉬베이지.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3441_애쉬베이지.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF3441_애쉬베이지.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3441_애쉬베이지.jpg"
     ]
   },
   "LX-XCF3442": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3442_라이트베이지.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3442_라이트베이지.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF3442_라이트베이지.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3442_라이트베이지.jpg"
     ]
   },
   "LXXCF3442": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3442_라이트베이지.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3442_라이트베이지.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF3442_라이트베이지.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3442_라이트베이지.jpg"
     ]
   },
   "XCF3442": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3442_라이트베이지.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3442_라이트베이지.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF3442_라이트베이지.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3442_라이트베이지.jpg"
     ]
   },
   "LX-XCF3451": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3451_애쉬화이트.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3451_애쉬화이트.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF3451_애쉬화이트.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3451_애쉬화이트.jpg"
     ]
   },
   "LXXCF3451": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3451_애쉬화이트.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3451_애쉬화이트.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF3451_애쉬화이트.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3451_애쉬화이트.jpg"
     ]
   },
   "XCF3451": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3451_애쉬화이트.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3451_애쉬화이트.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF3451_애쉬화이트.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3451_애쉬화이트.jpg"
     ]
   },
   "LX-XCF3612": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3612_스탠다드베인.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3612_스탠다드베인.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF3612_스탠다드베인.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3612_스탠다드베인.jpg"
     ]
   },
   "LXXCF3612": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3612_스탠다드베인.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3612_스탠다드베인.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF3612_스탠다드베인.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3612_스탠다드베인.jpg"
     ]
   },
   "XCF3612": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3612_스탠다드베인.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3612_스탠다드베인.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF3612_스탠다드베인.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3612_스탠다드베인.jpg"
     ]
   },
   "LX-XCF3621": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3621_텐더그레이.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3621_텐더그레이.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF3621_텐더그레이.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3621_텐더그레이.jpg"
     ]
   },
   "LXXCF3621": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3621_텐더그레이.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3621_텐더그레이.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF3621_텐더그레이.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3621_텐더그레이.jpg"
     ]
   },
   "XCF3621": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3621_텐더그레이.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3621_텐더그레이.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF3621_텐더그레이.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3621_텐더그레이.jpg"
     ]
   },
   "LX-XCF3622": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3622_스페이스그레이.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3622_스페이스그레이.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF3622_스페이스그레이.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3622_스페이스그레이.jpg"
     ]
   },
   "LXXCF3622": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3622_스페이스그레이.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3622_스페이스그레이.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF3622_스페이스그레이.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3622_스페이스그레이.jpg"
     ]
   },
   "XCF3622": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3622_스페이스그레이.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3622_스페이스그레이.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF3622_스페이스그레이.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3622_스페이스그레이.jpg"
     ]
   },
   "LX-XCF4023": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4023_썸머오크.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4023_썸머오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF4023_썸머오크.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4023_썸머오크.jpg"
     ]
   },
   "LXXCF4023": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4023_썸머오크.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4023_썸머오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF4023_썸머오크.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4023_썸머오크.jpg"
     ]
   },
   "XCF4023": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4023_썸머오크.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4023_썸머오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF4023_썸머오크.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4023_썸머오크.jpg"
     ]
   },
   "LX-XCF4043": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4043_스탠다드오크.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4043_스탠다드오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF4043_스탠다드오크.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4043_스탠다드오크.jpg"
     ]
   },
   "LXXCF4043": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4043_스탠다드오크.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4043_스탠다드오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF4043_스탠다드오크.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4043_스탠다드오크.jpg"
     ]
   },
   "XCF4043": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4043_스탠다드오크.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4043_스탠다드오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF4043_스탠다드오크.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4043_스탠다드오크.jpg"
     ]
   },
   "LX-XCF4481": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4481_크리마마필화이트.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4481_크리마마필화이트.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF4481_크리마마필화이트.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4481_크리마마필화이트.jpg"
     ]
   },
   "LXXCF4481": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4481_크리마마필화이트.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4481_크리마마필화이트.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF4481_크리마마필화이트.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4481_크리마마필화이트.jpg"
     ]
   },
   "XCF4481": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4481_크리마마필화이트.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4481_크리마마필화이트.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF4481_크리마마필화이트.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4481_크리마마필화이트.jpg"
     ]
   },
   "LX-XCF4482": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4482_크리마마필그레이.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4482_크리마마필그레이.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF4482_크리마마필그레이.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4482_크리마마필그레이.jpg"
     ]
   },
   "LXXCF4482": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4482_크리마마필그레이.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4482_크리마마필그레이.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF4482_크리마마필그레이.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4482_크리마마필그레이.jpg"
     ]
   },
   "XCF4482": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4482_크리마마필그레이.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4482_크리마마필그레이.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF4482_크리마마필그레이.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4482_크리마마필그레이.jpg"
     ]
   },
   "LX-XCF4531": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4531_코지콘크리트.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4531_코지콘크리트.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF4531_코지콘크리트.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4531_코지콘크리트.jpg"
     ]
   },
   "LXXCF4531": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4531_코지콘크리트.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4531_코지콘크리트.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF4531_코지콘크리트.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4531_코지콘크리트.jpg"
     ]
   },
   "XCF4531": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4531_코지콘크리트.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4531_코지콘크리트.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF4531_코지콘크리트.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4531_코지콘크리트.jpg"
     ]
   },
   "LX-XCF4541": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4541_베인샌드스톤.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4541_베인샌드스톤.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF4541_베인샌드스톤.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4541_베인샌드스톤.jpg"
     ]
   },
   "LXXCF4541": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4541_베인샌드스톤.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4541_베인샌드스톤.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF4541_베인샌드스톤.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4541_베인샌드스톤.jpg"
     ]
   },
   "XCF4541": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4541_베인샌드스톤.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4541_베인샌드스톤.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCF4541_베인샌드스톤.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4541_베인샌드스톤.jpg"
     ]
   },
   "LX-XCFS011": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS011_솔티화이트.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS011_솔티화이트.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCFS011_솔티화이트.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS011_솔티화이트.jpg"
     ]
   },
   "LXXCFS011": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS011_솔티화이트.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS011_솔티화이트.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCFS011_솔티화이트.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS011_솔티화이트.jpg"
     ]
   },
   "XCFS011": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS011_솔티화이트.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS011_솔티화이트.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCFS011_솔티화이트.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS011_솔티화이트.jpg"
     ]
   },
   "LX-XCFS012": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS012_솔티그레이지.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS012_솔티그레이지.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCFS012_솔티그레이지.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS012_솔티그레이지.jpg"
     ]
   },
   "LXXCFS012": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS012_솔티그레이지.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS012_솔티그레이지.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCFS012_솔티그레이지.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS012_솔티그레이지.jpg"
     ]
   },
   "XCFS012": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS012_솔티그레이지.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS012_솔티그레이지.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCFS012_솔티그레이지.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS012_솔티그레이지.jpg"
     ]
   },
   "LX-XCFW011": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFW011_스노우우드.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFW011_스노우우드.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCFW011_스노우우드.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFW011_스노우우드.jpg"
     ]
   },
   "LXXCFW011": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFW011_스노우우드.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFW011_스노우우드.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCFW011_스노우우드.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFW011_스노우우드.jpg"
     ]
   },
   "XCFW011": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFW011_스노우우드.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFW011_스노우우드.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/엑스컴포트/XCFW011_스노우우드.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFW011_스노우우드.jpg"
     ]
   },
   "DS-AB_6711": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6711.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6711.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6711.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6711.png"
     ]
   },
   "DSAB6711": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6711.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6711.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6711.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6711.png"
     ]
   },
   "AB_6711": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6711.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6711.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6711.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6711_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6711_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6711_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6711_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6711_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6711_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6711_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6711_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6711_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6711_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6711_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6711_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6711.png"
     ]
   },
   "AB6711": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6711.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6711.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6711.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6711_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6711_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6711_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6711_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6711_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6711_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6711_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6711_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6711_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6711_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6711_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6711_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6711.png"
     ]
   },
   "DS-AB_6712": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6712.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6712.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6712.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6712.png"
     ]
   },
   "DSAB6712": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6712.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6712.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6712.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6712.png"
     ]
   },
   "AB_6712": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6712.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6712.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6712.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6712_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6712_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6712_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6712_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6712_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6712_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6712_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6712_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6712_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6712_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6712_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6712_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6712.png"
     ]
   },
   "AB6712": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6712.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6712.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6712.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6712_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6712_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6712_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6712_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6712_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6712_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6712_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6712_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6712_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6712_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6712_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6712_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6712.png"
     ]
   },
   "DS-AB_6717": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6717.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6717.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6717.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6717.png"
     ]
   },
   "DSAB6717": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6717.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6717.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6717.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6717.png"
     ]
   },
   "AB_6717": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6717.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6717.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6717.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6717_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6717_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6717_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6717_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6717_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6717_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6717_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6717_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6717_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6717_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6717_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6717_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6717.png"
     ]
   },
   "AB6717": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6717.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6717.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6717.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6717_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6717_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6717_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6717_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6717_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6717_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6717_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6717_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6717_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6717_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6717_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6717_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6717.png"
     ]
   },
   "DS-AB_6727": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6727.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6727.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6727.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6727.png"
     ]
   },
   "DSAB6727": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6727.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6727.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6727.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6727.png"
     ]
   },
   "AB_6727": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6727.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6727.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6727.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6727_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6727_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6727_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6727_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6727_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6727_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6727_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6727_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6727_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6727_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6727_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6727_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6727.png"
     ]
   },
   "AB6727": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6727.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6727.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6727.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6727_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6727_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6727_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6727_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6727_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6727_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6727_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6727_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6727_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6727_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6727_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6727_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6727.png"
     ]
   },
   "DS-AB_6739": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6739.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6739.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6739.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6739.png"
     ]
   },
   "DSAB6739": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6739.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6739.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6739.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6739.png"
     ]
   },
   "AB_6739": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6739.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6739.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6739.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6739_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6739_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6739_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6739_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6739_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6739_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6739_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6739_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6739_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6739_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6739_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6739_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6739.png"
     ]
   },
   "AB6739": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6739.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6739.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6739.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6739_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6739_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6739_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6739_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6739_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6739_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6739_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6739_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6739_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6739_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6739_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6739_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6739.png"
     ]
   },
   "DS-AB_6740": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6740.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6740.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6740.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6740.png"
     ]
   },
   "DSAB6740": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6740.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6740.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6740.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6740.png"
     ]
   },
   "AB_6740": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6740.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6740.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6740.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6740_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6740_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6740_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6740_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6740_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6740_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6740_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6740_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6740_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6740_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6740_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6740_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6740.png"
     ]
   },
   "AB6740": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6740.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6740.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6740.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6740_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6740_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6740_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6740_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6740_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6740_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6740_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6740_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6740_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6740_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6740_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6740_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6740.png"
     ]
   },
   "DS-AB_6741": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6741.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6741.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6741.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6741.png"
     ]
   },
   "DSAB6741": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6741.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6741.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6741.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6741.png"
     ]
   },
   "AB_6741": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6741.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6741.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6741.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6741_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6741_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6741_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6741_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6741_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6741_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6741_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6741_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6741_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6741_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6741_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6741_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6741.png"
     ]
   },
   "AB6741": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6741.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6741.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6741.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6741_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6741_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6741_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6741_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6741_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6741_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6741_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6741_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6741_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6741_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6741_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6741_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6741.png"
     ]
   },
   "DS-AB_6899": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6899.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6899.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6899.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6899.png"
     ]
   },
   "DSAB6899": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6899.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6899.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6899.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6899.png"
     ]
   },
   "AB_6899": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6899.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6899.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6899.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6899_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6899_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6899_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6899_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6899_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6899_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6899_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6899_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6899_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6899_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6899_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6899_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6899.png"
     ]
   },
   "AB6899": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6899.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6899.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6899.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6899_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6899_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6899_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6899_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6899_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6899_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6899_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6899_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6899_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6899_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6899_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6899_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6899.png"
     ]
   },
   "DS-AB_6915": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6915.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6915.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6915.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6915.png"
     ]
   },
   "DSAB6915": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6915.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6915.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6915.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6915.png"
     ]
   },
   "AB_6915": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6915.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6915.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6915.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6915_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6915_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6915_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6915_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6915_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6915_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6915_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6915_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6915_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6915_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6915_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6915_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6915.png"
     ]
   },
   "AB6915": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6915.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6915.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6915.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6915_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6915_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6915_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6915_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6915_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6915_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6915_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6915_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6915_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6915_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6915_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6915_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6915.png"
     ]
   },
   "DS-AB_6933": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6933.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6933.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6933.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6933.png"
     ]
   },
   "DSAB6933": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6933.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6933.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6933.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6933.png"
     ]
   },
   "AB_6933": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6933.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6933.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6933.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6933_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6933_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6933_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6933_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6933_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6933_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6933_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6933_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6933_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6933_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6933_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6933_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6933.png"
     ]
   },
   "AB6933": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6933.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6933.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6933.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6933_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6933_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6933_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6933_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6933_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6933_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6933_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6933_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6933_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6933_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6933_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6933_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6933.png"
     ]
   },
   "DS-AB_6978": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6978.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6978.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6978.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6978.png"
     ]
   },
   "DSAB6978": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6978.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6978.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6978.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6978.png"
     ]
   },
   "AB_6978": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6978.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6978.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6978.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6978_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6978_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6978_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6978_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6978_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6978_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6978_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6978_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6978_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6978_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6978_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6978_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6978.png"
     ]
   },
   "AB6978": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6978.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6978.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6978.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6978_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6978_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6978_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6978_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6978_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6978_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6978_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6978_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6978_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6978_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6978_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6978_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6978.png"
     ]
   },
   "DS-AB_6981": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6981.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6981.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6981.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6981.png"
     ]
   },
   "DSAB6981": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6981.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6981.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6981.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6981.png"
     ]
   },
   "AB_6981": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6981.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6981.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6981.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6981_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6981_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6981_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6981_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6981_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6981_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6981_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6981_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6981_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6981_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6981_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6981_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6981.png"
     ]
   },
   "AB6981": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6981.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6981.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6981.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6981_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6981_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6981_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6981_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6981_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6981_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6981_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6981_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6981_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6981_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6981_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6981_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6981.png"
     ]
   },
   "DS-AB_6984": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6984.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6984.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6984.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6984.png"
     ]
   },
   "DSAB6984": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6984.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6984.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6984.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6984.png"
     ]
   },
   "AB_6984": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6984.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6984.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6984.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6984_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6984_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6984_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6984_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6984_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6984_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6984_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6984_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6984_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6984_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6984_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6984_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6984.png"
     ]
   },
   "AB6984": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6984.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6984.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6984.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6984_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6984_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6984_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6984_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6984_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6984_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6984_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6984_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6984_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6984_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6984_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6984_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6984.png"
     ]
   },
   "DS-AB_6990": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6990.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6990.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6990.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6990.png"
     ]
   },
   "DSAB6990": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6990.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6990.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6990.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6990.png"
     ]
   },
   "AB_6990": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6990.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6990.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6990.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6990_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6990_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6990_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6990_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6990_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6990_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6990_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6990_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6990_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6990_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6990_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6990_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6990.png"
     ]
   },
   "AB6990": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6990.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6990.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6990.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6990_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6990_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6990_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6990_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6990_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6990_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6990_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6990_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6990_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6990_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6990_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6990_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6990.png"
     ]
   },
   "DS-AH_505": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_505.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_505.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_505.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_505.png"
     ]
   },
   "DSAH505": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_505.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_505.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_505.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_505.png"
     ]
   },
   "AH_505": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_505.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_505.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_505.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH505_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH505_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH505_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH505_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH505_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH505_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH505_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH505_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH505_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH505_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH505_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH505_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_505.png"
     ]
   },
   "AH505": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_505.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_505.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_505.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH505_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH505_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH505_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH505_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH505_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH505_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH505_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH505_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH505_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH505_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH505_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH505_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_505.png"
     ]
   },
   "DS-AH_506": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_506.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_506.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_506.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_506.png"
     ]
   },
   "DSAH506": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_506.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_506.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_506.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_506.png"
     ]
   },
   "AH_506": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_506.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_506.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_506.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH506_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH506_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH506_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH506_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH506_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH506_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH506_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH506_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH506_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH506_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH506_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH506_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_506.png"
     ]
   },
   "AH506": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_506.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_506.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_506.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH506_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH506_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH506_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH506_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH506_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH506_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH506_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH506_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH506_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH506_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH506_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH506_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_506.png"
     ]
   },
   "DS-AH_507": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_507.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_507.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_507.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_507.png"
     ]
   },
   "DSAH507": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_507.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_507.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_507.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_507.png"
     ]
   },
   "AH_507": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_507.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_507.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_507.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH507_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH507_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH507_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH507_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH507_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH507_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH507_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH507_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH507_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH507_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH507_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH507_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_507.png"
     ]
   },
   "AH507": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_507.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_507.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_507.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH507_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH507_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH507_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH507_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH507_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH507_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH507_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH507_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH507_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH507_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH507_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH507_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_507.png"
     ]
   },
   "DS-AH_509": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_509.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_509.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_509.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_509.png"
     ]
   },
   "DSAH509": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_509.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_509.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_509.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_509.png"
     ]
   },
   "AH_509": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_509.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_509.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_509.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH509_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH509_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH509_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH509_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH509_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH509_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH509_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH509_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH509_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH509_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH509_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH509_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_509.png"
     ]
   },
   "AH509": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_509.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_509.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_509.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH509_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH509_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH509_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH509_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH509_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH509_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH509_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH509_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH509_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH509_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH509_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH509_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_509.png"
     ]
   },
   "DS-AH_510": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_510.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_510.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_510.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_510.png"
     ]
   },
   "DSAH510": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_510.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_510.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_510.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_510.png"
     ]
   },
   "AH_510": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_510.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_510.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_510.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH510_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH510_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH510_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH510_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH510_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH510_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH510_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH510_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH510_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH510_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH510_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH510_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_510.png"
     ]
   },
   "AH510": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_510.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_510.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_510.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH510_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH510_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH510_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH510_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH510_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH510_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH510_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH510_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH510_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH510_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH510_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH510_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_510.png"
     ]
   },
   "DS-AH_726": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_726.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_726.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_726.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_726.png"
     ]
   },
   "DSAH726": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_726.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_726.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_726.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_726.png"
     ]
   },
   "AH_726": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_726.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_726.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_726.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH726_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH726_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH726_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH726_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH726_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH726_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH726_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH726_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH726_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH726_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH726_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH726_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_726.png"
     ]
   },
   "AH726": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_726.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_726.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_726.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH726_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH726_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH726_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH726_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH726_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH726_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH726_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH726_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH726_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH726_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH726_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH726_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_726.png"
     ]
   },
   "DS-AH_728": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_728.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_728.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_728.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_728.png"
     ]
   },
   "DSAH728": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_728.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_728.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_728.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_728.png"
     ]
   },
   "AH_728": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_728.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_728.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_728.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH728_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH728_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH728_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH728_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH728_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH728_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH728_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH728_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH728_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH728_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH728_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH728_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_728.png"
     ]
   },
   "AH728": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_728.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_728.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_728.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH728_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH728_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH728_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH728_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH728_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH728_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH728_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH728_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH728_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH728_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH728_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH728_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_728.png"
     ]
   },
   "DS-AH_729": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_729.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_729.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_729.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_729.png"
     ]
   },
   "DSAH729": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_729.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_729.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_729.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_729.png"
     ]
   },
   "AH_729": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_729.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_729.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_729.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH729_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH729_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH729_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH729_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH729_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH729_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH729_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH729_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH729_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH729_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH729_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH729_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_729.png"
     ]
   },
   "AH729": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_729.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_729.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_729.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH729_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH729_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH729_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH729_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH729_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH729_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH729_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH729_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH729_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH729_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH729_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH729_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_729.png"
     ]
   },
   "DS-AH_730": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_730.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_730.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_730.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_730.png"
     ]
   },
   "DSAH730": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_730.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_730.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_730.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_730.png"
     ]
   },
   "AH_730": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_730.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_730.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_730.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH730_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH730_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH730_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH730_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH730_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH730_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH730_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH730_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH730_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH730_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH730_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH730_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_730.png"
     ]
   },
   "AH730": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_730.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_730.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_730.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH730_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH730_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH730_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH730_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH730_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH730_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH730_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH730_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH730_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH730_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH730_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH730_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_730.png"
     ]
   },
   "DS-AH_734": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_734.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_734.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_734.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_734.png"
     ]
   },
   "DSAH734": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_734.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_734.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_734.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_734.png"
     ]
   },
   "AH_734": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_734.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_734.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_734.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH734_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH734_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH734_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH734_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH734_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH734_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH734_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH734_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH734_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH734_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH734_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH734_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_734.png"
     ]
   },
   "AH734": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_734.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_734.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_734.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH734_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH734_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH734_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH734_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH734_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH734_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH734_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH734_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH734_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH734_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH734_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH734_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_734.png"
     ]
   },
   "DS-AH_735": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_735.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_735.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_735.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_735.png"
     ]
   },
   "DSAH735": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_735.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_735.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_735.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_735.png"
     ]
   },
   "AH_735": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_735.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_735.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_735.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH735_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH735_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH735_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH735_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH735_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH735_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH735_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH735_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH735_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH735_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH735_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH735_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_735.png"
     ]
   },
   "AH735": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_735.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_735.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_735.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH735_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH735_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH735_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH735_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH735_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH735_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH735_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH735_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH735_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH735_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH735_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH735_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_735.png"
     ]
   },
   "DS-AH_736": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_736.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_736.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_736.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_736.png"
     ]
   },
   "DSAH736": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_736.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_736.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_736.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_736.png"
     ]
   },
   "AH_736": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_736.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_736.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_736.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH736_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH736_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH736_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH736_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH736_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH736_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH736_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH736_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH736_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH736_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH736_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH736_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_736.png"
     ]
   },
   "AH736": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_736.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_736.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_736.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH736_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH736_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH736_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH736_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH736_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH736_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH736_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH736_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH736_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH736_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH736_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH736_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_736.png"
     ]
   },
   "DS-AH_737": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_737.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_737.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_737.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_737.png"
     ]
   },
   "DSAH737": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_737.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_737.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_737.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_737.png"
     ]
   },
   "AH_737": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_737.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_737.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_737.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH737_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH737_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH737_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH737_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH737_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH737_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH737_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH737_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH737_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH737_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH737_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH737_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_737.png"
     ]
   },
   "AH737": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_737.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_737.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_737.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH737_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH737_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH737_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH737_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH737_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH737_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH737_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH737_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH737_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH737_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH737_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH737_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_737.png"
     ]
   },
   "DS-AH_738": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_738.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_738.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_738.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_738.png"
     ]
   },
   "DSAH738": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_738.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_738.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_738.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_738.png"
     ]
   },
   "AH_738": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_738.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_738.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_738.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH738_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH738_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH738_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH738_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH738_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH738_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH738_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH738_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH738_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH738_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH738_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH738_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_738.png"
     ]
   },
   "AH738": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_738.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_738.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_738.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH738_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH738_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH738_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH738_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH738_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH738_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH738_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH738_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH738_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH738_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH738_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH738_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_738.png"
     ]
   },
   "DS-AH_739": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_739.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_739.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_739.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_739.png"
     ]
   },
   "DSAH739": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_739.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_739.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_739.png"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_739.png"
     ]
   },
   "AH_739": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_739.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_739.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_739.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH739_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH739_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH739_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH739_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH739_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH739_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH739_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH739_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH739_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH739_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH739_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH739_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_739.png"
     ]
   },
   "AH739": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_739.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_739.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_739.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH739_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH739_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH739_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH739_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH739_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH739_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH739_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH739_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH739_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH739_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH739_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH739_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_739.png"
     ]
   },
   "CM24731": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/1. CM24731 내추럴 화이트.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24731_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/1. CM24731 내추럴 화이트.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24731_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24731_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24731_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24731_1.jpg"
     ]
   },
   "CM24083": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24083_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24083_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24083_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24083_3.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/10. CM24083 애쉬.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24083_1.jpg"
     ]
   },
   "CM21882": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM21882_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM21882_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM21882_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM21882_3.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/11. CM21882 오크.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM21882_1.jpg"
     ]
   },
   "CM24131": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24131_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24131_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24131_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24131_3.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/12. CM24131 오크.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24131_1.jpg"
     ]
   },
   "CM24133": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24133_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24133_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24133_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24133_3.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/13. CM24133 오크.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24133_1.jpg"
     ]
   },
   "CM24722": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/2. CM24722 마일드 스톤.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24722_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/2. CM24722 마일드 스톤.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24722_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24722_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24722_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24722_1.jpg"
     ]
   },
   "CM24741": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24741_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24741_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/3. CM24741 세라믹 스톤.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24741_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24741_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24741_1.jpg"
     ]
   },
   "CM24711": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24711_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24711_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24711_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/4. CM24711 블랑 오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24711_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24711_1.jpg"
     ]
   },
   "CM24081": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24081_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24081_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24081_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24081_3.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/5. CM24081 애쉬.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24081_1.jpg"
     ]
   },
   "CM24713": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24713_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24713_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24713_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24713_3.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/6. CM24713 크래프트 오크.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM24713_1.jpg"
     ]
   },
   "CM23691": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM23691_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM23691_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM23691_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM23691_3.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/7. CM23691 엘름.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM23691_1.jpg"
     ]
   },
   "CM22771": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM22771_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM22771_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM22771_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM22771_3.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/8. CM22771 오크.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM22771_1.jpg"
     ]
   },
   "CM23692": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM23692_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM23692_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM23692_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM23692_3.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/9. CM23692 엘름.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM23692_1.jpg"
     ]
   },
   "LXJ-ZJ32981-11": {
@@ -6314,840 +5043,249 @@ export const imageManifest = {
     ]
   },
   "EH14721": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/1. EH14721 클라우드 크림 (1).jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH14721_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/1. EH14721 클라우드 크림 (1).jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH14721_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH14721_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH14721_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH14721_1.jpg"
     ]
   },
   "EH12121": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH12121_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH12121_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH12121_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH12121_3.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/10. EH12121 오크 (1).jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH12121_1.jpg"
     ]
   },
   "EH14092": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH14092_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH14092_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/2. EH14092 실키 스톤 (1).jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH14092_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH14092_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH14092_1.jpg"
     ]
   },
   "EH14732": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH14732_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH14732_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH14732_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/3. EH14732 내추럴 그레이 (1).jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH14732_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH14732_1.jpg"
     ]
   },
   "EH14101": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH14101_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH14101_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH14101_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH14101_3.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/4. EH14101 모노륨 (1).jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH14101_1.jpg"
     ]
   },
   "EH13713": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH13713_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH13713_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH13713_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH13713_3.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/5. EH13713 미니멀 우드 (1).jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/EH13713_1.jpg"
     ]
   },
   "EH14121": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/EH14121_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/EH14121_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/EH14121_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/EH14121_3.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/6. EH14121 캄 오크 (1).jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/EH14121_1.jpg"
     ]
   },
   "EH13712": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/EH13712_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/EH13712_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/EH13712_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/EH13712_3.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/7. EH13712 마곡 오크 (1).jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/EH13712_1.jpg"
     ]
   },
   "EH14712": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/EH14712_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/EH14712_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/EH14712_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/EH14712_3.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/8. EH14712 피치 오크 (1).jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/EH14712_1.jpg"
     ]
   },
   "EH12071": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/EH12071_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/EH12071_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/EH12071_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/EH12071_3.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/9. EH12071 오크 (1).jpg"
-    ]
-  },
-  "LX-ZH50011": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH50011_오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH50011_오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/50011-오크.jpg"
-    ]
-  },
-  "LXZH50011": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH50011_오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH50011_오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/50011-오크.jpg"
-    ]
-  },
-  "ZH50011": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH50011_오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH50011_오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH50011_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH50011_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH50011_3.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/50011-오크.jpg"
-    ]
-  },
-  "LX-ZH50061": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH50061_오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH50061_오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/50061-오크.jpg"
-    ]
-  },
-  "LXZH50061": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH50061_오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH50061_오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/50061-오크.jpg"
-    ]
-  },
-  "ZH50061": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH50061_오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH50061_오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH50061_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH50061_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH50061_3.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/50061-오크.jpg"
-    ]
-  },
-  "LX-ZH53603": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH53603_어반포세린.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH53603_어반포세린.jpg"
-    ]
-  },
-  "LXZH53603": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH53603_어반포세린.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH53603_어반포세린.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/EH12071_1.jpg"
     ]
   },
   "ZH53603": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH53603_어반포세린.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH53603_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH53603_어반포세린.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH53603_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH53603_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH53603_3.jpg"
-    ]
-  },
-  "LX-ZH54032": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54032_새틴그레이.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54032_새틴그레이.jpg"
-    ]
-  },
-  "LXZH54032": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54032_새틴그레이.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54032_새틴그레이.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH53603_1.jpg"
     ]
   },
   "ZH54032": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54032_새틴그레이.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH54032_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54032_새틴그레이.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH54032_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH54032_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH54032_3.jpg"
-    ]
-  },
-  "LX-ZH54044": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54044_이스턴오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54044_이스턴오크.jpg"
-    ]
-  },
-  "LXZH54044": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54044_이스턴오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54044_이스턴오크.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH54032_1.jpg"
     ]
   },
   "ZH54044": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54044_이스턴오크.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH54044_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54044_이스턴오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH54044_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH54044_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH54044_3.jpg"
-    ]
-  },
-  "LX-ZH54231": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54231_페일오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54231_페일오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/54231-페일오크.jpg"
-    ]
-  },
-  "LXZH54231": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54231_페일오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54231_페일오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/54231-페일오크.jpg"
-    ]
-  },
-  "ZH54231": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54231_페일오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54231_페일오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH54231_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH54231_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH54231_3.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/54231-페일오크.jpg"
-    ]
-  },
-  "LX-ZH54483": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54483_소프트스톤.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54483_소프트스톤.jpg"
-    ]
-  },
-  "LXZH54483": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54483_소프트스톤.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54483_소프트스톤.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_은행목_2.0T/ZH54044_1.jpg"
     ]
   },
   "ZH54483": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54483_소프트스톤.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54483_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54483_소프트스톤.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54483_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54483_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54483_3.jpg"
-    ]
-  },
-  "LX-ZH54542": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54542_멜로우스톤.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54542_멜로우스톤.jpg"
-    ]
-  },
-  "LXZH54542": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54542_멜로우스톤.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54542_멜로우스톤.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54483_1.jpg"
     ]
   },
   "ZH54542": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54542_멜로우스톤.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54542_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54542_멜로우스톤.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54542_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54542_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54542_3.jpg"
-    ]
-  },
-  "LX-50011": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/50011-오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/50011-오크.jpg"
-    ]
-  },
-  "LX50011": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/50011-오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/50011-오크.jpg"
-    ]
-  },
-  "LX-50061": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/50061-오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/50061-오크.jpg"
-    ]
-  },
-  "LX50061": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/50061-오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/50061-오크.jpg"
-    ]
-  },
-  "LX-53351": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/53351-보스톤오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/53351-보스톤오크.jpg"
-    ]
-  },
-  "LX53351": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/53351-보스톤오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/53351-보스톤오크.jpg"
-    ]
-  },
-  "LX-54211": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/54211-모카오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/54211-모카오크.jpg"
-    ]
-  },
-  "LX54211": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/54211-모카오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/54211-모카오크.jpg"
-    ]
-  },
-  "LX-54231": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/54231-페일오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/54231-페일오크.jpg"
-    ]
-  },
-  "LX54231": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/54231-페일오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/54231-페일오크.jpg"
-    ]
-  },
-  "LX-60071": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60071-아리아.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60071-아리아.jpg"
-    ]
-  },
-  "LX60071": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60071-아리아.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60071-아리아.jpg"
-    ]
-  },
-  "LX-60081": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60081-노벰버레인.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60081-노벰버레인.jpg"
-    ]
-  },
-  "LX60081": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60081-노벰버레인.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60081-노벰버레인.jpg"
-    ]
-  },
-  "LX-60151": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60151-그레이타일.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60151-그레이타일.jpg"
-    ]
-  },
-  "LX60151": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60151-그레이타일.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60151-그레이타일.jpg"
-    ]
-  },
-  "LX-60161": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60161-바닐라.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60161-바닐라.jpg"
-    ]
-  },
-  "LX60161": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60161-바닐라.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/60161-바닐라.jpg"
-    ]
-  },
-  "LX-63312": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63312-소프트오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63312-소프트오크.jpg"
-    ]
-  },
-  "LX63312": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63312-소프트오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63312-소프트오크.jpg"
-    ]
-  },
-  "LX-63391": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63391-오닉스.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63391-오닉스.jpg"
-    ]
-  },
-  "LX63391": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63391-오닉스.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63391-오닉스.jpg"
-    ]
-  },
-  "LX-63693": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63693-비스크엘름.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63693-비스크엘름.jpg"
-    ]
-  },
-  "LX63693": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63693-비스크엘름.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/63693-비스크엘름.jpg"
-    ]
-  },
-  "LX-64221": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64221-에버닌오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64221-에버닌오크.jpg"
-    ]
-  },
-  "LX64221": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64221-에버닌오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64221-에버닌오크.jpg"
-    ]
-  },
-  "LX-64223": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64223-위트오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64223-위트오크.jpg"
-    ]
-  },
-  "LX64223": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64223-위트오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64223-위트오크.jpg"
-    ]
-  },
-  "LX-64281": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64281-내추럴테라조.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64281-내추럴테라조.jpg"
-    ]
-  },
-  "LX64281": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64281-내추럴테라조.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/64281-내추럴테라조.jpg"
-    ]
-  },
-  "LX-ZS80021-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS80021-11 모던 오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS80021-11 모던 오크.jpg"
-    ]
-  },
-  "LXZS8002111": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS80021-11 모던 오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS80021-11 모던 오크.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_2.7T/ZH54542_1.jpg"
     ]
   },
   "ZS80021-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS80021-11 모던 오크.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8002111_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS80021-11 모던 오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8002111_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8002111_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8002111_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8002111_1.jpg"
     ]
   },
   "ZS8002111": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS80021-11 모던 오크.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8002111_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS80021-11 모던 오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8002111_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8002111_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8002111_3.jpg"
-    ]
-  },
-  "LX-ZS80071-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS80071-11 화이트 오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS80071-11 화이트 오크.jpg"
-    ]
-  },
-  "LXZS8007111": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS80071-11 화이트 오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS80071-11 화이트 오크.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8002111_1.jpg"
     ]
   },
   "ZS80071-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS80071-11 화이트 오크.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8007111_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS80071-11 화이트 오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8007111_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8007111_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8007111_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8007111_1.jpg"
     ]
   },
   "ZS8007111": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS80071-11 화이트 오크.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8007111_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS80071-11 화이트 오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8007111_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8007111_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8007111_3.jpg"
-    ]
-  },
-  "LX-ZS82991-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS82991-11 라임 오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS82991-11 라임 오크.jpg"
-    ]
-  },
-  "LXZS8299111": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS82991-11 라임 오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS82991-11 라임 오크.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8007111_1.jpg"
     ]
   },
   "ZS82991-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS82991-11 라임 오크.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8299111_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS82991-11 라임 오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8299111_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8299111_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8299111_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8299111_1.jpg"
     ]
   },
   "ZS8299111": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS82991-11 라임 오크.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8299111_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS82991-11 라임 오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8299111_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8299111_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8299111_3.jpg"
-    ]
-  },
-  "LX-ZS83011-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS83011-11 크레마 화이트.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS83011-11 크레마 화이트.jpg"
-    ]
-  },
-  "LXZS8301111": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS83011-11 크레마 화이트.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS83011-11 크레마 화이트.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8299111_1.jpg"
     ]
   },
   "ZS83011-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS83011-11 크레마 화이트.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8301111_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS83011-11 크레마 화이트.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8301111_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8301111_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8301111_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8301111_1.jpg"
     ]
   },
   "ZS8301111": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS83011-11 크레마 화이트.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8301111_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS83011-11 크레마 화이트.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8301111_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8301111_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8301111_3.jpg"
-    ]
-  },
-  "LX-ZS83051-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS83051-11 멀티 헤링본.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS83051-11 멀티 헤링본.jpg"
-    ]
-  },
-  "LXZS8305111": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS83051-11 멀티 헤링본.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS83051-11 멀티 헤링본.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8301111_1.jpg"
     ]
   },
   "ZS83051-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS83051-11 멀티 헤링본.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8305111_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS83051-11 멀티 헤링본.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8305111_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8305111_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8305111_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8305111_1.jpg"
     ]
   },
   "ZS8305111": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS83051-11 멀티 헤링본.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8305111_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS83051-11 멀티 헤링본.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8305111_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8305111_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8305111_3.jpg"
-    ]
-  },
-  "LX-ZS83081-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS83081-11 비얀코 마블.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS83081-11 비얀코 마블.jpg"
-    ]
-  },
-  "LXZS8308111": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS83081-11 비얀코 마블.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS83081-11 비얀코 마블.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8305111_1.jpg"
     ]
   },
   "ZS83081-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS83081-11 비얀코 마블.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8308111_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS83081-11 비얀코 마블.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8308111_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8308111_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8308111_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8308111_1.jpg"
     ]
   },
   "ZS8308111": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS83081-11 비얀코 마블.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8308111_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS83081-11 비얀코 마블.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8308111_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8308111_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8308111_3.jpg"
-    ]
-  },
-  "LX-ZS84011-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84011-11 내츄럴 오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84011-11 내츄럴 오크.jpg"
-    ]
-  },
-  "LXZS8401111": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84011-11 내츄럴 오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84011-11 내츄럴 오크.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아사랑애_3.2T/ZS8308111_1.jpg"
     ]
   },
   "ZS84011-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84011-11 내츄럴 오크.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8401111_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84011-11 내츄럴 오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8401111_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8401111_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8401111_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8401111_1.jpg"
     ]
   },
   "ZS8401111": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84011-11 내츄럴 오크.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8401111_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84011-11 내츄럴 오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8401111_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8401111_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8401111_3.jpg"
-    ]
-  },
-  "LX-ZS84012-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84012-11 밸리 오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84012-11 밸리 오크.jpg"
-    ]
-  },
-  "LXZS8401211": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84012-11 밸리 오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84012-11 밸리 오크.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8401111_1.jpg"
     ]
   },
   "ZS84012-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84012-11 밸리 오크.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8401211_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84012-11 밸리 오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8401211_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8401211_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8401211_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8401211_1.jpg"
     ]
   },
   "ZS8401211": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84012-11 밸리 오크.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8401211_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84012-11 밸리 오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8401211_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8401211_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8401211_3.jpg"
-    ]
-  },
-  "LX-ZS84021-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84021-11 미스티 오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84021-11 미스티 오크.jpg"
-    ]
-  },
-  "LXZS8402111": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84021-11 미스티 오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84021-11 미스티 오크.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8401211_1.jpg"
     ]
   },
   "ZS84021-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84021-11 미스티 오크.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8402111_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84021-11 미스티 오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8402111_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8402111_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8402111_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8402111_1.jpg"
     ]
   },
   "ZS8402111": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84021-11 미스티 오크.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8402111_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84021-11 미스티 오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8402111_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8402111_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8402111_3.jpg"
-    ]
-  },
-  "LX-ZS84022-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84022-11 드로잉 오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84022-11 드로잉 오크.jpg"
-    ]
-  },
-  "LXZS8402211": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84022-11 드로잉 오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84022-11 드로잉 오크.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8402111_1.jpg"
     ]
   },
   "ZS84022-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84022-11 드로잉 오크.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8402211_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84022-11 드로잉 오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8402211_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8402211_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8402211_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8402211_1.jpg"
     ]
   },
   "ZS8402211": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84022-11 드로잉 오크.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8402211_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84022-11 드로잉 오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8402211_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8402211_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8402211_3.jpg"
-    ]
-  },
-  "LX-ZS84031-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84031-11 소프트 포세린.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84031-11 소프트 포세린.jpg"
-    ]
-  },
-  "LXZS8403111": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84031-11 소프트 포세린.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84031-11 소프트 포세린.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8402211_1.jpg"
     ]
   },
   "ZS84031-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84031-11 소프트 포세린.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8403111_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84031-11 소프트 포세린.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8403111_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8403111_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8403111_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8403111_1.jpg"
     ]
   },
   "ZS8403111": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84031-11 소프트 포세린.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8403111_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84031-11 소프트 포세린.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8403111_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8403111_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8403111_3.jpg"
-    ]
-  },
-  "LX-ZS84032-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84032-11 그레이 포세린.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84032-11 그레이 포세린.jpg"
-    ]
-  },
-  "LXZS8403211": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84032-11 그레이 포세린.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84032-11 그레이 포세린.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8403111_1.jpg"
     ]
   },
   "ZS84032-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84032-11 그레이 포세린.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8403211_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84032-11 그레이 포세린.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8403211_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8403211_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8403211_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8403211_1.jpg"
     ]
   },
   "ZS8403211": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84032-11 그레이 포세린.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8403211_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84032-11 그레이 포세린.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8403211_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8403211_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8403211_3.jpg"
-    ]
-  },
-  "LX-ZS84041-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84041-11 클래식 오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84041-11 클래식 오크.jpg"
-    ]
-  },
-  "LXZS8404111": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84041-11 클래식 오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84041-11 클래식 오크.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8403211_1.jpg"
     ]
   },
   "ZS84041-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84041-11 클래식 오크.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8404111_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84041-11 클래식 오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8404111_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8404111_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8404111_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8404111_1.jpg"
     ]
   },
   "ZS8404111": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84041-11 클래식 오크.jpg",
+    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8404111_1.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS84041-11 클래식 오크.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8404111_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8404111_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8404111_3.jpg"
+      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8404111_1.jpg"
     ]
   },
   "LX-DLT3300": {
@@ -10712,16 +8850,14 @@ export const imageManifest = {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8190-01.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8190-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8190-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._8190-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8190-01.jpg"
     ]
   },
   "LXW819001": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8190-01.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8190-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8190-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._8190-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8190-01.jpg"
     ]
   },
   "8190-01": {
@@ -10729,82 +8865,71 @@ export const imageManifest = {
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8190-01.jpg",
       "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8190-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._8190-01.jpg",
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/H8190-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/H8190-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._H8190-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/H8190-01.jpg"
     ]
   },
   "LXW-8192-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8192-01.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8192-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8192-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._8192-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8192-01.jpg"
     ]
   },
   "LXW819201": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8192-01.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8192-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8192-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._8192-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8192-01.jpg"
     ]
   },
   "8192-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8192-01.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8192-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8192-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._8192-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8192-01.jpg"
     ]
   },
   "LXW-8195-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8195-01.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8195-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8195-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._8195-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8195-01.jpg"
     ]
   },
   "LXW819501": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8195-01.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8195-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8195-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._8195-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8195-01.jpg"
     ]
   },
   "8195-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8195-01.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8195-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8195-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._8195-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8195-01.jpg"
     ]
   },
   "LXW-8197-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8197-01.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8197-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8197-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._8197-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8197-01.jpg"
     ]
   },
   "LXW819701": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8197-01.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8197-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8197-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._8197-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8197-01.jpg"
     ]
   },
   "8197-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8197-01.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8197-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8197-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._8197-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8197-01.jpg"
     ]
   },
   "LXW-82458-01": {
@@ -12955,9 +11080,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8190-01.jpg",
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/H8190-01.jpg",
       "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8190-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/H8190-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._8190-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._H8190-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/H8190-01.jpg"
     ]
   },
   "LXWH819001": {
@@ -12966,9 +11089,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8190-01.jpg",
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/H8190-01.jpg",
       "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8190-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/H8190-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._8190-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._H8190-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/H8190-01.jpg"
     ]
   },
   "H8190-01": {
@@ -12976,10 +11097,8 @@ export const imageManifest = {
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/H8190-01.jpg",
       "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/H8190-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._H8190-01.jpg",
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8190-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8190-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._8190-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8190-01.jpg"
     ]
   },
   "H819001": {
@@ -12987,42 +11106,36 @@ export const imageManifest = {
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/H8190-01.jpg",
       "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/H8190-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._H8190-01.jpg",
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/8190-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8190-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._8190-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/8190-01.jpg"
     ]
   },
   "LXW-H8194-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/H8194-01.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/H8194-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/H8194-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._H8194-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/H8194-01.jpg"
     ]
   },
   "LXWH819401": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/H8194-01.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/H8194-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/H8194-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._H8194-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/H8194-01.jpg"
     ]
   },
   "H8194-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/H8194-01.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/H8194-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/H8194-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._H8194-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/H8194-01.jpg"
     ]
   },
   "H819401": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/H8194-01.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/H8194-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/H8194-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._H8194-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/H8194-01.jpg"
     ]
   },
   "LXW-T1032-01": {
@@ -13310,1865 +11423,1599 @@ export const imageManifest = {
   "LXW-7053-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7053-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7053-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7053-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7053-01.jpg"
     ]
   },
   "LXW705301": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7053-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7053-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7053-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7053-01.jpg"
     ]
   },
   "7053-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7053-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7053-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7053-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7053-01.jpg"
     ]
   },
   "LXW-7069-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7069-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7069-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7069-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7069-01.jpg"
     ]
   },
   "LXW706901": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7069-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7069-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7069-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7069-01.jpg"
     ]
   },
   "7069-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7069-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7069-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7069-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7069-01.jpg"
     ]
   },
   "LXW-7074-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7074-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7074-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7074-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7074-02.jpg"
     ]
   },
   "LXW707402": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7074-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7074-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7074-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7074-02.jpg"
     ]
   },
   "7074-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7074-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7074-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7074-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7074-02.jpg"
     ]
   },
   "LXW-7075-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7075-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7075-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7075-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7075-01.jpg"
     ]
   },
   "LXW707501": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7075-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7075-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7075-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7075-01.jpg"
     ]
   },
   "7075-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7075-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7075-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7075-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7075-01.jpg"
     ]
   },
   "LXW-7077-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7077-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7077-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7077-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7077-01.jpg"
     ]
   },
   "LXW707701": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7077-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7077-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7077-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7077-01.jpg"
     ]
   },
   "7077-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7077-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7077-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7077-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7077-01.jpg"
     ]
   },
   "LXW-7085-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7085-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7085-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7085-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7085-01.jpg"
     ]
   },
   "LXW708501": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7085-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7085-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7085-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7085-01.jpg"
     ]
   },
   "7085-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7085-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7085-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7085-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7085-01.jpg"
     ]
   },
   "LXW-7085-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7085-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7085-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7085-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7085-02.jpg"
     ]
   },
   "LXW708502": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7085-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7085-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7085-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7085-02.jpg"
     ]
   },
   "7085-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7085-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7085-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7085-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7085-02.jpg"
     ]
   },
   "LXW-7087-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7087-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7087-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7087-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7087-01.jpg"
     ]
   },
   "LXW708701": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7087-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7087-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7087-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7087-01.jpg"
     ]
   },
   "7087-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7087-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7087-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7087-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7087-01.jpg"
     ]
   },
   "LXW-7090-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7090-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-01.jpg"
     ]
   },
   "LXW709001": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7090-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-01.jpg"
     ]
   },
   "7090-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7090-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-01.jpg"
     ]
   },
   "LXW-7090-05": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7090-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-05.jpg"
     ]
   },
   "LXW709005": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7090-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-05.jpg"
     ]
   },
   "7090-05": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7090-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-05.jpg"
     ]
   },
   "LXW-7090-06": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-06.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-06.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7090-06.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-06.jpg"
     ]
   },
   "LXW709006": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-06.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-06.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7090-06.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-06.jpg"
     ]
   },
   "7090-06": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-06.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-06.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7090-06.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-06.jpg"
     ]
   },
   "LXW-7090-07": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-07.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-07.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7090-07.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-07.jpg"
     ]
   },
   "LXW709007": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-07.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-07.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7090-07.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-07.jpg"
     ]
   },
   "7090-07": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-07.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-07.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7090-07.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-07.jpg"
     ]
   },
   "LXW-7090-08": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-08.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-08.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7090-08.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-08.jpg"
     ]
   },
   "LXW709008": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-08.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-08.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7090-08.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-08.jpg"
     ]
   },
   "7090-08": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-08.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-08.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7090-08.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7090-08.jpg"
     ]
   },
   "LXW-7095-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7095-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7095-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7095-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7095-02.jpg"
     ]
   },
   "LXW709502": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7095-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7095-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7095-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7095-02.jpg"
     ]
   },
   "7095-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7095-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7095-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7095-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7095-02.jpg"
     ]
   },
   "LXW-7096-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7096-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7096-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7096-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7096-01.jpg"
     ]
   },
   "LXW709601": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7096-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7096-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7096-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7096-01.jpg"
     ]
   },
   "7096-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7096-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7096-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7096-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7096-01.jpg"
     ]
   },
   "LXW-7097-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7097-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-01.jpg"
     ]
   },
   "LXW709701": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7097-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-01.jpg"
     ]
   },
   "7097-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7097-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-01.jpg"
     ]
   },
   "LXW-7097-04": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7097-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-04.jpg"
     ]
   },
   "LXW709704": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7097-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-04.jpg"
     ]
   },
   "7097-04": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7097-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-04.jpg"
     ]
   },
   "LXW-7097-05": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7097-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-05.jpg"
     ]
   },
   "LXW709705": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7097-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-05.jpg"
     ]
   },
   "7097-05": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7097-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-05.jpg"
     ]
   },
   "LXW-7097-06": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-06.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-06.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7097-06.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-06.jpg"
     ]
   },
   "LXW709706": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-06.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-06.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7097-06.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-06.jpg"
     ]
   },
   "7097-06": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-06.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-06.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7097-06.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-06.jpg"
     ]
   },
   "LXW-7097-07": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-07.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-07.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7097-07.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-07.jpg"
     ]
   },
   "LXW709707": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-07.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-07.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7097-07.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-07.jpg"
     ]
   },
   "7097-07": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-07.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-07.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7097-07.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-07.jpg"
     ]
   },
   "LXW-7097-08": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-08.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-08.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7097-08.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-08.jpg"
     ]
   },
   "LXW709708": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-08.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-08.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7097-08.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-08.jpg"
     ]
   },
   "7097-08": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-08.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-08.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7097-08.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7097-08.jpg"
     ]
   },
   "LXW-7105-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7105-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7105-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7105-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7105-01.jpg"
     ]
   },
   "LXW710501": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7105-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7105-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7105-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7105-01.jpg"
     ]
   },
   "7105-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7105-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7105-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7105-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7105-01.jpg"
     ]
   },
   "LXW-7107-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7107-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-01.jpg"
     ]
   },
   "LXW710701": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7107-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-01.jpg"
     ]
   },
   "7107-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7107-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-01.jpg"
     ]
   },
   "LXW-7107-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7107-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-02.jpg"
     ]
   },
   "LXW710702": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7107-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-02.jpg"
     ]
   },
   "7107-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7107-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-02.jpg"
     ]
   },
   "LXW-7107-03": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7107-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-03.jpg"
     ]
   },
   "LXW710703": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7107-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-03.jpg"
     ]
   },
   "7107-03": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7107-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-03.jpg"
     ]
   },
   "LXW-7107-04": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7107-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-04.jpg"
     ]
   },
   "LXW710704": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7107-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-04.jpg"
     ]
   },
   "7107-04": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7107-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-04.jpg"
     ]
   },
   "LXW-7107-05": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7107-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-05.jpg"
     ]
   },
   "LXW710705": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7107-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-05.jpg"
     ]
   },
   "7107-05": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7107-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7107-05.jpg"
     ]
   },
   "LXW-7108-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7108-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-01.jpg"
     ]
   },
   "LXW710801": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7108-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-01.jpg"
     ]
   },
   "7108-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7108-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-01.jpg"
     ]
   },
   "LXW-7108-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7108-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-02.jpg"
     ]
   },
   "LXW710802": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7108-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-02.jpg"
     ]
   },
   "7108-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7108-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-02.jpg"
     ]
   },
   "LXW-7108-03": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7108-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-03.jpg"
     ]
   },
   "LXW710803": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7108-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-03.jpg"
     ]
   },
   "7108-03": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7108-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-03.jpg"
     ]
   },
   "LXW-7108-04": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7108-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-04.jpg"
     ]
   },
   "LXW710804": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7108-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-04.jpg"
     ]
   },
   "7108-04": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7108-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-04.jpg"
     ]
   },
   "LXW-7108-05": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7108-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-05.jpg"
     ]
   },
   "LXW710805": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7108-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-05.jpg"
     ]
   },
   "7108-05": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7108-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7108-05.jpg"
     ]
   },
   "LXW-7109-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7109-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7109-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7109-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7109-01.jpg"
     ]
   },
   "LXW710901": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7109-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7109-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7109-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7109-01.jpg"
     ]
   },
   "7109-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7109-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7109-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7109-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7109-01.jpg"
     ]
   },
   "LXW-7111-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7111-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-01.jpg"
     ]
   },
   "LXW711101": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7111-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-01.jpg"
     ]
   },
   "7111-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7111-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-01.jpg"
     ]
   },
   "LXW-7111-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7111-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-02.jpg"
     ]
   },
   "LXW711102": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7111-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-02.jpg"
     ]
   },
   "7111-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7111-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-02.jpg"
     ]
   },
   "LXW-7111-03": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7111-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-03.jpg"
     ]
   },
   "LXW711103": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7111-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-03.jpg"
     ]
   },
   "7111-03": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7111-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-03.jpg"
     ]
   },
   "LXW-7111-04": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7111-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-04.jpg"
     ]
   },
   "LXW711104": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7111-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-04.jpg"
     ]
   },
   "7111-04": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7111-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7111-04.jpg"
     ]
   },
   "LXW-7112-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7112-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-01.jpg"
     ]
   },
   "LXW711201": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7112-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-01.jpg"
     ]
   },
   "7112-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7112-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-01.jpg"
     ]
   },
   "LXW-7112-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7112-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-02.jpg"
     ]
   },
   "LXW711202": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7112-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-02.jpg"
     ]
   },
   "7112-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7112-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-02.jpg"
     ]
   },
   "LXW-7112-04": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7112-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-04.jpg"
     ]
   },
   "LXW711204": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7112-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-04.jpg"
     ]
   },
   "7112-04": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7112-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-04.jpg"
     ]
   },
   "LXW-7112-05": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7112-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-05.jpg"
     ]
   },
   "LXW711205": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7112-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-05.jpg"
     ]
   },
   "7112-05": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7112-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7112-05.jpg"
     ]
   },
   "LXW-7113-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-01.jpg"
     ]
   },
   "LXW711301": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-01.jpg"
     ]
   },
   "7113-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-01.jpg"
     ]
   },
   "LXW-7113-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-02.jpg"
     ]
   },
   "LXW711302": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-02.jpg"
     ]
   },
   "7113-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-02.jpg"
     ]
   },
   "LXW-7113-03": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-03.jpg"
     ]
   },
   "LXW711303": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-03.jpg"
     ]
   },
   "7113-03": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-03.jpg"
     ]
   },
   "LXW-7113-04": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-04.jpg"
     ]
   },
   "LXW711304": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-04.jpg"
     ]
   },
   "7113-04": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-04.jpg"
     ]
   },
   "LXW-7113-05": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-05.jpg"
     ]
   },
   "LXW711305": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-05.jpg"
     ]
   },
   "7113-05": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-05.jpg"
     ]
   },
   "LXW-7113-06": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-06.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-06.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-06.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-06.jpg"
     ]
   },
   "LXW711306": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-06.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-06.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-06.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-06.jpg"
     ]
   },
   "7113-06": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-06.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-06.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-06.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-06.jpg"
     ]
   },
   "LXW-7113-07": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-07.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-07.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-07.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-07.jpg"
     ]
   },
   "LXW711307": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-07.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-07.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-07.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-07.jpg"
     ]
   },
   "7113-07": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-07.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-07.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7113-07.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7113-07.jpg"
     ]
   },
   "LXW-7114-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-01.jpg"
     ]
   },
   "LXW711401": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-01.jpg"
     ]
   },
   "7114-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-01.jpg"
     ]
   },
   "LXW-7114-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-02.jpg"
     ]
   },
   "LXW711402": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-02.jpg"
     ]
   },
   "7114-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-02.jpg"
     ]
   },
   "LXW-7114-03": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-03.jpg"
     ]
   },
   "LXW711403": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-03.jpg"
     ]
   },
   "7114-03": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-03.jpg"
     ]
   },
   "LXW-7114-04": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-04.jpg"
     ]
   },
   "LXW711404": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-04.jpg"
     ]
   },
   "7114-04": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-04.jpg"
     ]
   },
   "LXW-7114-05": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-05.jpg"
     ]
   },
   "LXW711405": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-05.jpg"
     ]
   },
   "7114-05": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-05.jpg"
     ]
   },
   "LXW-7114-06": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-06.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-06.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-06.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-06.jpg"
     ]
   },
   "LXW711406": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-06.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-06.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-06.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-06.jpg"
     ]
   },
   "7114-06": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-06.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-06.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-06.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-06.jpg"
     ]
   },
   "LXW-7114-07": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-07.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-07.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-07.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-07.jpg"
     ]
   },
   "LXW711407": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-07.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-07.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-07.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-07.jpg"
     ]
   },
   "7114-07": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-07.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-07.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-07.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-07.jpg"
     ]
   },
   "LXW-7114-08": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-08.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-08.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-08.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-08.jpg"
     ]
   },
   "LXW711408": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-08.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-08.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-08.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-08.jpg"
     ]
   },
   "7114-08": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-08.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-08.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7114-08.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7114-08.jpg"
     ]
   },
   "LXW-7115-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-01.jpg"
     ]
   },
   "LXW711501": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-01.jpg"
     ]
   },
   "7115-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-01.jpg"
     ]
   },
   "LXW-7115-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-02.jpg"
     ]
   },
   "LXW711502": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-02.jpg"
     ]
   },
   "7115-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-02.jpg"
     ]
   },
   "LXW-7115-03": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-03.jpg"
     ]
   },
   "LXW711503": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-03.jpg"
     ]
   },
   "7115-03": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-03.jpg"
     ]
   },
   "LXW-7115-04": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-04.jpg"
     ]
   },
   "LXW711504": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-04.jpg"
     ]
   },
   "7115-04": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-04.jpg"
     ]
   },
   "LXW-7115-05": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-05.jpg"
     ]
   },
   "LXW711505": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-05.jpg"
     ]
   },
   "7115-05": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-05.jpg"
     ]
   },
   "LXW-7115-06": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-06.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-06.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-06.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-06.jpg"
     ]
   },
   "LXW711506": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-06.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-06.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-06.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-06.jpg"
     ]
   },
   "7115-06": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-06.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-06.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-06.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-06.jpg"
     ]
   },
   "LXW-7115-07": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-07.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-07.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-07.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-07.jpg"
     ]
   },
   "LXW711507": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-07.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-07.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-07.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-07.jpg"
     ]
   },
   "7115-07": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-07.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-07.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7115-07.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7115-07.jpg"
     ]
   },
   "LXW-7116-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-01.jpg"
     ]
   },
   "LXW711601": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-01.jpg"
     ]
   },
   "7116-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-01.jpg"
     ]
   },
   "LXW-7116-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-02.jpg"
     ]
   },
   "LXW711602": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-02.jpg"
     ]
   },
   "7116-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-02.jpg"
     ]
   },
   "LXW-7116-03": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-03.jpg"
     ]
   },
   "LXW711603": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-03.jpg"
     ]
   },
   "7116-03": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-03.jpg"
     ]
   },
   "LXW-7116-04": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-04.jpg"
     ]
   },
   "LXW711604": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-04.jpg"
     ]
   },
   "7116-04": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-04.jpg"
     ]
   },
   "LXW-7116-05": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-05.jpg"
     ]
   },
   "LXW711605": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-05.jpg"
     ]
   },
   "7116-05": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-05.jpg"
     ]
   },
   "LXW-7116-06": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-06.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-06.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-06.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-06.jpg"
     ]
   },
   "LXW711606": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-06.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-06.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-06.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-06.jpg"
     ]
   },
   "7116-06": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-06.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-06.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-06.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-06.jpg"
     ]
   },
   "LXW-7116-07": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-07.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-07.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-07.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-07.jpg"
     ]
   },
   "LXW711607": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-07.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-07.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-07.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-07.jpg"
     ]
   },
   "7116-07": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-07.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-07.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-07.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-07.jpg"
     ]
   },
   "LXW-7116-08": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-08.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-08.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-08.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-08.jpg"
     ]
   },
   "LXW711608": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-08.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-08.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-08.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-08.jpg"
     ]
   },
   "7116-08": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-08.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-08.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7116-08.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7116-08.jpg"
     ]
   },
   "LXW-7117-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7117-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-01.jpg"
     ]
   },
   "LXW711701": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7117-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-01.jpg"
     ]
   },
   "7117-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7117-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-01.jpg"
     ]
   },
   "LXW-7117-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7117-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-02.jpg"
     ]
   },
   "LXW711702": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7117-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-02.jpg"
     ]
   },
   "7117-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7117-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-02.jpg"
     ]
   },
   "LXW-7117-03": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7117-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-03.jpg"
     ]
   },
   "LXW711703": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7117-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-03.jpg"
     ]
   },
   "7117-03": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7117-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-03.jpg"
     ]
   },
   "LXW-7117-04": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7117-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-04.jpg"
     ]
   },
   "LXW711704": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7117-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-04.jpg"
     ]
   },
   "7117-04": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7117-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-04.jpg"
     ]
   },
   "LXW-7117-05": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7117-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-05.jpg"
     ]
   },
   "LXW711705": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7117-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-05.jpg"
     ]
   },
   "7117-05": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7117-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7117-05.jpg"
     ]
   },
   "LXW-7118-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7118-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-01.jpg"
     ]
   },
   "LXW711801": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7118-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-01.jpg"
     ]
   },
   "7118-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7118-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-01.jpg"
     ]
   },
   "LXW-7118-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7118-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-02.jpg"
     ]
   },
   "LXW711802": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7118-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-02.jpg"
     ]
   },
   "7118-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7118-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-02.jpg"
     ]
   },
   "LXW-7118-03": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7118-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-03.jpg"
     ]
   },
   "LXW711803": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7118-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-03.jpg"
     ]
   },
   "7118-03": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7118-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-03.jpg"
     ]
   },
   "LXW-7118-04": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7118-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-04.jpg"
     ]
   },
   "LXW711804": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7118-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-04.jpg"
     ]
   },
   "7118-04": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7118-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-04.jpg"
     ]
   },
   "LXW-7118-05": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7118-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-05.jpg"
     ]
   },
   "LXW711805": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7118-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-05.jpg"
     ]
   },
   "7118-05": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-05.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-05.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7118-05.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7118-05.jpg"
     ]
   },
   "LXW-7119-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7119-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-01.jpg"
     ]
   },
   "LXW711901": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7119-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-01.jpg"
     ]
   },
   "7119-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7119-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-01.jpg"
     ]
   },
   "LXW-7119-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7119-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-02.jpg"
     ]
   },
   "LXW711902": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7119-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-02.jpg"
     ]
   },
   "7119-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7119-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-02.jpg"
     ]
   },
   "LXW-7119-03": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7119-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-03.jpg"
     ]
   },
   "LXW711903": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7119-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-03.jpg"
     ]
   },
   "7119-03": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7119-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-03.jpg"
     ]
   },
   "LXW-7119-04": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7119-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-04.jpg"
     ]
   },
   "LXW711904": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7119-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-04.jpg"
     ]
   },
   "7119-04": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-04.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-04.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7119-04.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7119-04.jpg"
     ]
   },
   "LXW-7120-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7120-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-01.jpg"
     ]
   },
   "LXW712001": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7120-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-01.jpg"
     ]
   },
   "7120-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-01.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7120-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-01.jpg"
     ]
   },
   "LXW-7120-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7120-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-02.jpg"
     ]
   },
   "LXW712002": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7120-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-02.jpg"
     ]
   },
   "7120-02": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-02.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-02.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7120-02.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-02.jpg"
     ]
   },
   "LXW-7120-03": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7120-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-03.jpg"
     ]
   },
   "LXW712003": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7120-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-03.jpg"
     ]
   },
   "7120-03": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-03.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-03.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._7120-03.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/7120-03.jpg"
     ]
   },
   "LXW-._H8194-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/H8194-01.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/H8194-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/H8194-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._H8194-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/H8194-01.jpg"
     ]
   },
   "._H8194-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/H8194-01.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/H8194-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/H8194-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._H8194-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/H8194-01.jpg"
     ]
   },
   "6875-1": {
@@ -18613,486 +16460,243 @@ export const imageManifest = {
     ]
   },
   "TS 5535M": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5535M 어반 콘크리트_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5535M_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5535M 어반 콘크리트_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5535M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5535M 어반 콘크리트_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5535M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5535M 어반 콘크리트_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5535M_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5535M 어반 콘크리트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5535M_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5535M 어반 콘크리트_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5535M_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5535M 어반 콘크리트_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5535M_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5535M_2.jpg"
     ]
   },
   "TS 5536M": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5536M 어반 콘크리트_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5536M_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5536M 어반 콘크리트_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5536M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5536M 어반 콘크리트_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5536M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5536M 어반 콘크리트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5536M_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5536M 어반 콘크리트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5536M_1.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5536M_1.jpg"
     ]
   },
   "TS 5537M": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5537M 어반 콘크리트_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5537M_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5537M 어반 콘크리트_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5537M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5537M 어반 콘크리트_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5537M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5537M 어반 콘크리트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5537M_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5537M 어반 콘크리트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5537M_1.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5537M_1.jpg"
     ]
   },
   "TS 5532M": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5532M 파라디소_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5532M_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5532M 파라디소_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5532M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5532M 파라디소_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5532M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5532M 파라디소_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5532M_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5532M 파라디소_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5532M_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5532M 파라디소_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5532M_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5532M 파라디소_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5532M_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5532M_2.jpg"
     ]
   },
   "TS 5533M": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5533M 파라디소_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5533M_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5533M 파라디소_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5533M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5533M 파라디소_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5533M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5533M 파라디소_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5533M_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5533M 파라디소_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5533M_1.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5533M_1.jpg"
     ]
   },
   "TS 5534M": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5534M 파라디소_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5534M_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5534M 파라디소_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5534M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5534M 파라디소_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5534M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5534M 파라디소_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5534M_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5534M 파라디소_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5534M_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5534M 파라디소_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5534M_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5534M 파라디소_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5534M_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5534M_2.jpg"
     ]
   },
   "TS 5531M": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5531M 오닉스_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5531M_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5531M 오닉스_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5531M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5531M 오닉스_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5531M_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5531M 오닉스_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5531M_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5531M 오닉스_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5531M_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5531M_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5531M_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5531M_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5531M_3.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5531M_2.jpg"
     ]
   },
   "TS 5541P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5541P 슬레이트_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5541P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5541P 슬레이트_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5541P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5541P 슬레이트_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5541P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5541P 슬레이트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5541P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5541P 슬레이트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5541P_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/TS5541P_1.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/TS5541P_2.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/TS5541P_3.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/TS5541P_4.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/TS5541P_5.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/TS5541P_6.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/TS5541P_7.jpg",
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/TS5541P_8.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5541P_1.jpg"
     ]
   },
   "TS 5542P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5542P 슬레이트_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5542P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5542P 슬레이트_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5542P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5542P 슬레이트_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5542P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5542P 슬레이트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5542P 슬레이트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5542P_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5542P_3.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5542P_3.jpg"
     ]
   },
   "TS 5543P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5543P 슬레이트_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5543P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5543P 슬레이트_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5543P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5543P 슬레이트_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5543P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5543P 슬레이트_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5543P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5543P 슬레이트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5543P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5543P 슬레이트_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5543P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5543P 슬레이트_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5543P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5543P_2.jpg"
     ]
   },
   "TS 5544P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5544P 슬레이트_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5544P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5544P 슬레이트_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5544P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5544P 슬레이트_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5544P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5544P 슬레이트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5544P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5544P 슬레이트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5544P_1.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5544P_1.jpg"
     ]
   },
   "TS 5545P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5545P 테라죠_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5545P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5545P 테라죠_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5545P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5545P 테라죠_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5545P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5545P 테라죠_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5545P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5545P 테라죠_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5545P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5545P 테라죠_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5545P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5545P 테라죠_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5545P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5545P_2.jpg"
     ]
   },
   "TS 5546P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5546P 텔라죠_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5546P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5546P 텔라죠_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5546P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5546P 텔라죠_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5546P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5546P 텔라죠_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5546P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5546P 텔라죠_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5546P_1.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5546P_1.jpg"
     ]
   },
   "TS 5548P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5548P 샌드스톤_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5548P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5548P 샌드스톤_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5548P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5548P 샌드스톤_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5548P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5548P 샌드스톤_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5548P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5548P 샌드스톤_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5548P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5548P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5548P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5548P 샌드스톤_12.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5548P 샌드스톤_12.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5548P_2.jpg"
     ]
   },
   "TS 5549P": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5549P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5549P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5549P_0.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5549P_0.jpg"
     ]
   },
   "TS5549P": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5549P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5549P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5549P_0.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5549P_0.jpg"
     ]
   },
   "TS 5518P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5518P 콘크리트_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5518P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5518P 콘크리트_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5518P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5518P 콘크리트_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5518P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5518P 콘크리트_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5518P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5518P 콘크리트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5518P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5518P 콘크리트_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5518P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5518P 콘크리트_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5518P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5518P_2.jpg"
     ]
   },
   "TS 5519P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5519P 콘크리트_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5519P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5519P 콘크리트_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5519P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5519P 콘크리트_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5519P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5519P 콘크리트_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5519P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5519P 콘크리트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5519P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5519P 콘크리트_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5519P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5519P 콘크리트_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5519P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5519P_2.jpg"
     ]
   },
   "TS 5550P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5550P 콘크리트_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5550P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5550P 콘크리트_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5550P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5550P 콘크리트_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5550P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5550P 콘크리트_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5550P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5550P 콘크리트_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5550P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5550P 콘크리트_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5550P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5550P 콘크리트_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5550P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5550P_2.jpg"
     ]
   },
   "TS 5547P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5547P 비앙코_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5547P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5547P 비앙코_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5547P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5547P 비앙코_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5547P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5547P 비앙코_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5547P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5547P 비앙코_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5547P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5547P 비앙코_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5547P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5547P 비앙코_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5547P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5547P_2.jpg"
     ]
   },
   "TS 5516P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5516P 마블_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5516P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5516P 마블_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5516P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5516P 마블_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5516P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5516P 마블_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5516P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5516P 마블_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5516P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5516P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5516P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5516P_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5516P_3.jpg"
-    ]
-  },
-  "TS 5508P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5508P_0.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5508P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5508P_0.jpg"
-    ]
-  },
-  "TS5508P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5508P_0.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5508P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5508P_0.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5516P_2.jpg"
     ]
   },
   "TS 5551P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5551P 베이직 카펫_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5551P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5551P 베이직 카펫_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5551P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5551P 베이직 카펫_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5551P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5551P 베이직 카펫_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5551P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5551P 베이직 카펫_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5551P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5551P 베이직 카펫_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5551P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5551P 베이직 카펫_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5551P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5551P_2.jpg"
     ]
   },
   "TS 5552P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5552P 베이직 카펫_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5552P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5552P 베이직 카펫_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5552P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5552P 베이직 카펫_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5552P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5552P 베이직 카펫_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5552P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5552P 베이직 카펫_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5552P_1.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5552P_1.jpg"
     ]
   },
   "TS 5510P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5510P 카펫_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5510P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5510P 카펫_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5510P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5510P 카펫_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5510P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5510P 카펫_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5510P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5510P 카펫_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5510P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5510P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5510P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5510P_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5510P_3.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5510P_2.jpg"
     ]
   },
   "TS 5511P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5511P 카펫_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5511P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5511P 카펫_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5511P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5511P 카펫_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5511P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5511P 카펫_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5511P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5511P 카펫_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5511P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5511P 카펫_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5511P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5511P 카펫_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5511P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5511P_2.jpg"
     ]
   },
   "TS 5502P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5502P 우븐_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5502P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5502P 우븐_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5502P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5502P 우븐_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5502P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5502P 우븐_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5502P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5502P 우븐_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5502P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5502P 우븐_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5502P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5502P 우븐_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5502P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5502P_2.jpg"
     ]
   },
   "TS 5503P": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5503P 우븐_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5503P_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5503P 우븐_0.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5503P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5503P 우븐_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5503P_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5503P 우븐_1.jpg",
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5503P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5503P 우븐_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5503P_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5503P 우븐_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5503P_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5503P 우븐_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TS5503P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5503P_2.jpg"
     ]
   },
   "TW 5104G": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5104G_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5104G_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TW5104G_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW 5104G_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TW 5104G_3.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5104G_0.jpg"
     ]
   },
   "TW5104G": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5104G_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5104G_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TW5104G_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW 5104G_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TW 5104G_3.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5104G_0.jpg"
     ]
   },
   "TW 5102G": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5102G_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5102G_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TW5102G_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW 5102G_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TW 5102G_3.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5102G_0.jpg"
     ]
   },
   "TW5102G": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5102G_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5102G_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TW5102G_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW 5102G_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TW 5102G_3.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5102G_0.jpg"
     ]
   },
   "TW 5112G": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5112G_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5112G_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TW5112G_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW 5112G_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TW 5112G_3.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5112G_0.jpg"
     ]
   },
   "TW5112G": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5112G_0.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5112G_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TW5112G_0.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW 5112G_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/KCC_square/TW 5112G_3.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5112G_0.jpg"
     ]
   },
   "LX 1.8T": {
@@ -19158,552 +16762,175 @@ export const imageManifest = {
   "AB 6711": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6711.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6711.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6711.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6711_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6711_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6711_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6711_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6711_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6711_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6711_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6711_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6711_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6711_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6711_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6711_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6711.png"
     ]
   },
   "AB 6712": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6712.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6712.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6712.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6712_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6712_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6712_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6712_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6712_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6712_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6712_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6712_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6712_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6712_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6712_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6712_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6712.png"
     ]
   },
   "AB 6717": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6717.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6717.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6717.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6717_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6717_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6717_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6717_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6717_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6717_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6717_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6717_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6717_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6717_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6717_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6717_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6717.png"
     ]
   },
   "AB 6727": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6727.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6727.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6727.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6727_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6727_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6727_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6727_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6727_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6727_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6727_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6727_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6727_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6727_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6727_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6727_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6727.png"
     ]
   },
   "AB 6739": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6739.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6739.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6739.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6739_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6739_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6739_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6739_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6739_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6739_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6739_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6739_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6739_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6739_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6739_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6739_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6739.png"
     ]
   },
   "AB 6740": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6740.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6740.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6740.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6740_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6740_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6740_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6740_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6740_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6740_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6740_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6740_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6740_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6740_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6740_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6740_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6740.png"
     ]
   },
   "AB 6741": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6741.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6741.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6741.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6741_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6741_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6741_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6741_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6741_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6741_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6741_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6741_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6741_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6741_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6741_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6741_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6741.png"
     ]
   },
   "AB 6899": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6899.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6899.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6899.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6899_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6899_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6899_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6899_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6899_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6899_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6899_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6899_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6899_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6899_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6899_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6899_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6899.png"
     ]
   },
   "AB 6915": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6915.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6915.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6915.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6915_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6915_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6915_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6915_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6915_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6915_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6915_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6915_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6915_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6915_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6915_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6915_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6915.png"
     ]
   },
   "AB 6933": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6933.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6933.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6933.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6933_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6933_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6933_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6933_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6933_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6933_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6933_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6933_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6933_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6933_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6933_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6933_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6933.png"
     ]
   },
   "AB 6978": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6978.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6978.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6978.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6978_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6978_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6978_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6978_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6978_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6978_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6978_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6978_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6978_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6978_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6978_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6978_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6978.png"
     ]
   },
   "AB 6981": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6981.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6981.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6981.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6981_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6981_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6981_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6981_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6981_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6981_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6981_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6981_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6981_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6981_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6981_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6981_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6981.png"
     ]
   },
   "AB 6984": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6984.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6984.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6984.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6984_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6984_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6984_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6984_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6984_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6984_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6984_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6984_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6984_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6984_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6984_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6984_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6984.png"
     ]
   },
   "AB 6990": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6990.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6990.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB_6990.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6990_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6990_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6990_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6990_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6990_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6990_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6990_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6990_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6990_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6990_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB6990_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AB6990_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AB_6990.png"
     ]
   },
   "AH 505": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_505.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_505.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_505.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH505_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH505_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH505_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH505_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH505_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH505_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH505_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH505_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH505_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH505_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH505_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH505_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_505.png"
     ]
   },
   "AH 506": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_506.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_506.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_506.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH506_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH506_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH506_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH506_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH506_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH506_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH506_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH506_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH506_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH506_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH506_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH506_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_506.png"
     ]
   },
   "AH 507": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_507.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_507.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_507.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH507_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH507_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH507_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH507_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH507_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH507_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH507_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH507_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH507_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH507_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH507_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH507_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_507.png"
     ]
   },
   "AH 509": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_509.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_509.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_509.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH509_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH509_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH509_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH509_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH509_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH509_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH509_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH509_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH509_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH509_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH509_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH509_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_509.png"
     ]
   },
   "AH 510": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_510.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_510.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_510.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH510_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH510_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH510_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH510_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH510_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH510_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH510_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH510_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH510_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH510_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH510_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH510_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_510.png"
     ]
   },
   "AH 726": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_726.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_726.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_726.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH726_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH726_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH726_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH726_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH726_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH726_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH726_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH726_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH726_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH726_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH726_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH726_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_726.png"
     ]
   },
   "AH 728": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_728.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_728.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_728.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH728_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH728_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH728_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH728_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH728_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH728_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH728_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH728_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH728_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH728_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH728_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH728_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_728.png"
     ]
   },
   "AH 729": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_729.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_729.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_729.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH729_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH729_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH729_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH729_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH729_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH729_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH729_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH729_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH729_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH729_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH729_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH729_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_729.png"
     ]
   },
   "AH 730": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_730.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_730.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_730.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH730_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH730_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH730_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH730_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH730_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH730_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH730_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH730_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH730_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH730_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH730_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH730_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_730.png"
     ]
   },
   "AH 734": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_734.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_734.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_734.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH734_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH734_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH734_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH734_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH734_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH734_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH734_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH734_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH734_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH734_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH734_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH734_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_734.png"
     ]
   },
   "AH 735": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_735.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_735.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_735.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH735_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH735_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH735_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH735_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH735_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH735_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH735_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH735_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH735_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH735_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH735_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH735_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_735.png"
     ]
   },
   "AH 736": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_736.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_736.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_736.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH736_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH736_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH736_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH736_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH736_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH736_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH736_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH736_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH736_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH736_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH736_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH736_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_736.png"
     ]
   },
   "AH 737": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_737.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_737.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_737.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH737_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH737_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH737_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH737_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH737_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH737_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH737_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH737_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH737_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH737_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH737_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH737_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_737.png"
     ]
   },
   "AH 738": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_738.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_738.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_738.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH738_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH738_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH738_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH738_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH738_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH738_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH738_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH738_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH738_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH738_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH738_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH738_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_738.png"
     ]
   },
   "AH 739": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_739.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_739.png",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH_739.png",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH739_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH739_1.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH739_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH739_2.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH739_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH739_3.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH739_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH739_4.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH739_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH739_5.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH739_6.jpg",
-      "/images/Thumbnail_Image/materials/데코타일/동신/dongshin/AH739_6.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/dongshin/AH_739.png"
     ]
   },
   "DLT 3300": {
@@ -19812,16 +17039,14 @@ export const imageManifest = {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/H8194-01.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/H8194-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/H8194-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._H8194-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/H8194-01.jpg"
     ]
   },
   "MACOSXH819401": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/H8194-01.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/LX/LX_베스트/H8194-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/H8194-01.jpg",
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/__MACOSX/._H8194-01.jpg"
+      "/images/Thumbnail_Image/materials/벽지/LX/LX_테라피/H8194-01.jpg"
     ]
   }
 };
