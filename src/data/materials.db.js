@@ -1697,19 +1697,6 @@ const LIST_SHINHAN_FACADE = [
   { id:"2020-3", code:"2020-3", name:"2020-3 마티스", brand:"신한(KCC)", category:"벽지", materialType:"실크", price: 0 },
   { id:"2020-4", code:"2020-4", name:"2020-4 마티스", brand:"신한(KCC)", category:"벽지", materialType:"실크", price: 0 },
   { id:"2020-5", code:"2020-5", name:"2020-5 마티스", brand:"신한(KCC)", category:"벽지", materialType:"실크", price: 0 },
-  { id:"W2201-1", code:"W2201-1", name:"W2201-1 하드릭", brand:"신한(KCC)", category:"벽지", materialType:"실크", price: 0 },
-  { id:"W2201-2", code:"W2201-2", name:"W2201-2 하드릭", brand:"신한(KCC)", category:"벽지", materialType:"실크", price: 0 },
-  { id:"W2201-3", code:"W2201-3", name:"W2201-3 하드릭", brand:"신한(KCC)", category:"벽지", materialType:"실크", price: 0 },
-  { id:"W2201-4", code:"W2201-4", name:"W2201-4 하드릭", brand:"신한(KCC)", category:"벽지", materialType:"실크", price: 0 },
-  { id:"W2202-1", code:"W2202-1", name:"W2202-1 믹스톤", brand:"신한(KCC)", category:"벽지", materialType:"실크", price: 0 },
-  { id:"W2202-2", code:"W2202-2", name:"W2202-2 믹스톤", brand:"신한(KCC)", category:"벽지", materialType:"실크", price: 0 },
-  { id:"W2202-3", code:"W2202-3", name:"W2202-3 믹스톤", brand:"신한(KCC)", category:"벽지", materialType:"실크", price: 0 },
-  { id:"W2202-4", code:"W2202-4", name:"W2202-4 믹스톤", brand:"신한(KCC)", category:"벽지", materialType:"실크", price: 0 },
-  { id:"W2202-5", code:"W2202-5", name:"W2202-5 믹스톤", brand:"신한(KCC)", category:"벽지", materialType:"실크", price: 0 },
-  { id:"W2203-1", code:"W2203-1", name:"W2203-1 러프트", brand:"신한(KCC)", category:"벽지", materialType:"실크", price: 0 },
-  { id:"W2203-2", code:"W2203-2", name:"W2203-2 러프트", brand:"신한(KCC)", category:"벽지", materialType:"실크", price: 0 },
-  { id:"W2203-3", code:"W2203-3", name:"W2203-3 러프트", brand:"신한(KCC)", category:"벽지", materialType:"실크", price: 0 },
-  { id:"W2203-4", code:"W2203-4", name:"W2203-4 러프트", brand:"신한(KCC)", category:"벽지", materialType:"실크", price: 0 },
 ];
 const LIST_SHINHAN_FIRE_RETARDANT = [
   { id:"방염_F15053-1", code:"방염_F15053-1", name:"방염_F15053-1 조용한 사색", brand:"신한(KCC)", category:"벽지", materialType:"방염", price: 0 },
@@ -1793,9 +1780,9 @@ const LIST_SHINHAN_FIRE_RETARDANT = [
   { id:"방염_FK0025-3", code:"방염_FK0025-3", name:"방염_FK0025-3 티모시", brand:"신한(KCC)", category:"벽지", materialType:"방염", price: 0 },
   { id:"방염_FK0025-4", code:"방염_FK0025-4", name:"방염_FK0025-4 티모시", brand:"신한(KCC)", category:"벽지", materialType:"방염", price: 0 },
 ];
-export const materials = [
+const ALL_MATERIAL_LISTS = [
     ...LIST_LX_WALLPAPER,
-...LIST_AUTO_GENERATED,
+    ...LIST_AUTO_GENERATED,
     ...LIST_SHINHAN_IRIS,
     ...LIST_SHINHAN_PINEHEIM,
     ...LIST_SHINHAN_SKETCH,
@@ -1803,20 +1790,25 @@ export const materials = [
     ...LIST_SHINHAN_LIVING,
     ...LIST_SHINHAN_FACADE,
     ...LIST_SHINHAN_FIRE_RETARDANT,
-...matKccExtended,
+    ...matKccExtended,
     ...LIST_LX_DECO_S,
     ...LIST_LX_DECORAY_S_AUTO,
-                                                                                                                                        ...matWood,
-                                                                                                                                        ...LIST_DONGSHIN,
-                                                                                                                                        ...PRESTIGE_5T,
-                                                                                                                                        ...ECONO_PLUS_3T,
-                                                                                                                                        ...BOTANIC_3T,
-                                                                                                                                        ...LIST_LX_1_8T,
-                                                                                                                                        ...LIST_LX_2_0T,
-                                                                                                                                        ...LIST_LX_2_2T,
-                                                                                                                                        ...LIST_LX_2_7T,
-                                                                                                                                        ...LIST_LX_3_2T,
-                                                                                                                                        ...LIST_LX_4_5T,
+    ...matWood,
+    ...LIST_DONGSHIN,
+    ...PRESTIGE_5T,
+    ...ECONO_PLUS_3T,
+    ...BOTANIC_3T,
+    ...LIST_LX_1_8T,
+    ...LIST_LX_2_0T,
+    ...LIST_LX_2_2T,
+    ...LIST_LX_2_7T,
+    ...LIST_LX_3_2T,
+    ...LIST_LX_4_5T,
     ...LIST_GAENARI_2025,
     ...LIST_LX_5_0T
 ];
+
+// Deduplicate by ID to ensure single category placement for each product
+export const materials = Array.from(
+    new Map(ALL_MATERIAL_LISTS.map(item => [item.id, item])).values()
+);
