@@ -14244,32 +14244,28 @@ export const imageManifest = {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-4 믹스톤.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-4 믹스톤.jpg",
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_파사드(FACADE)/W2202-4 믹스톤.jpg",
-      "/images/Thumbnail_Image/materials/벽지/실크/신한벽지_월가드(WALLGUARD)/W2202-4 믹스톤_.jpg"
+      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_파사드(FACADE)/W2202-4 믹스톤.jpg"
     ]
   },
   "W22024": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-4 믹스톤.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-4 믹스톤.jpg",
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_파사드(FACADE)/W2202-4 믹스톤.jpg",
-      "/images/Thumbnail_Image/materials/벽지/실크/신한벽지_월가드(WALLGUARD)/W2202-4 믹스톤_.jpg"
+      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_파사드(FACADE)/W2202-4 믹스톤.jpg"
     ]
   },
   "W2202-5": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-5 믹스톤.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-5 믹스톤.jpg",
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_파사드(FACADE)/W2202-5 믹스톤.jpg",
-      "/images/Thumbnail_Image/materials/벽지/실크/신한벽지_월가드(WALLGUARD)/W2202-5 믹스톤_.jpg"
+      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_파사드(FACADE)/W2202-5 믹스톤.jpg"
     ]
   },
   "W22025": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-5 믹스톤.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-5 믹스톤.jpg",
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_파사드(FACADE)/W2202-5 믹스톤.jpg",
-      "/images/Thumbnail_Image/materials/벽지/실크/신한벽지_월가드(WALLGUARD)/W2202-5 믹스톤_.jpg"
+      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_파사드(FACADE)/W2202-5 믹스톤.jpg"
     ]
   },
   "W2202-6": {
@@ -14379,57 +14375,49 @@ export const imageManifest = {
   "W2204-1": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2204-1 콘크무드.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2204-1 콘크무드.jpg",
-      "/images/Thumbnail_Image/materials/벽지/실크/신한벽지_월가드(WALLGUARD)/W2204-1 콘크무트.jpg"
+      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2204-1 콘크무드.jpg"
     ]
   },
   "W22041": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2204-1 콘크무드.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2204-1 콘크무드.jpg",
-      "/images/Thumbnail_Image/materials/벽지/실크/신한벽지_월가드(WALLGUARD)/W2204-1 콘크무트.jpg"
+      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2204-1 콘크무드.jpg"
     ]
   },
   "W2204-2": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2204-2 콘크무드.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2204-2 콘크무드.jpg",
-      "/images/Thumbnail_Image/materials/벽지/실크/신한벽지_월가드(WALLGUARD)/W2204-2 콘크무트.jpg"
+      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2204-2 콘크무드.jpg"
     ]
   },
   "W22042": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2204-2 콘크무드.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2204-2 콘크무드.jpg",
-      "/images/Thumbnail_Image/materials/벽지/실크/신한벽지_월가드(WALLGUARD)/W2204-2 콘크무트.jpg"
+      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2204-2 콘크무드.jpg"
     ]
   },
   "W2204-3": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2204-3 콘크무드.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2204-3 콘크무드.jpg",
-      "/images/Thumbnail_Image/materials/벽지/실크/신한벽지_월가드(WALLGUARD)/W2204-3 콘크무트.jpg"
+      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2204-3 콘크무드.jpg"
     ]
   },
   "W22043": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2204-3 콘크무드.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2204-3 콘크무드.jpg",
-      "/images/Thumbnail_Image/materials/벽지/실크/신한벽지_월가드(WALLGUARD)/W2204-3 콘크무트.jpg"
+      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2204-3 콘크무드.jpg"
     ]
   },
   "W2204-4": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2204-4 콘크무드.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2204-4 콘크무드.jpg",
-      "/images/Thumbnail_Image/materials/벽지/실크/신한벽지_월가드(WALLGUARD)/W2204-4 콘크무트.jpg"
+      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2204-4 콘크무드.jpg"
     ]
   },
   "W22044": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2204-4 콘크무드.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2204-4 콘크무드.jpg",
-      "/images/Thumbnail_Image/materials/벽지/실크/신한벽지_월가드(WALLGUARD)/W2204-4 콘크무트.jpg"
+      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2204-4 콘크무드.jpg"
     ]
   },
   "W2205-1": {
@@ -14495,29 +14483,25 @@ export const imageManifest = {
   "W2206-1": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2206-1 엔티크월.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2206-1 엔티크월.jpg",
-      "/images/Thumbnail_Image/materials/벽지/실크/신한벽지_월가드(WALLGUARD)/W2206-1 앤티크월.jpg"
+      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2206-1 엔티크월.jpg"
     ]
   },
   "W22061": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2206-1 엔티크월.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2206-1 엔티크월.jpg",
-      "/images/Thumbnail_Image/materials/벽지/실크/신한벽지_월가드(WALLGUARD)/W2206-1 앤티크월.jpg"
+      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2206-1 엔티크월.jpg"
     ]
   },
   "W2206-2": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2206-2 엔티크월.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2206-2 엔티크월.jpg",
-      "/images/Thumbnail_Image/materials/벽지/실크/신한벽지_월가드(WALLGUARD)/W2206-2 앤티크월.jpg"
+      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2206-2 엔티크월.jpg"
     ]
   },
   "W22062": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2206-2 엔티크월.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2206-2 엔티크월.jpg",
-      "/images/Thumbnail_Image/materials/벽지/실크/신한벽지_월가드(WALLGUARD)/W2206-2 앤티크월.jpg"
+      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2206-2 엔티크월.jpg"
     ]
   },
   "W2207-1": {
