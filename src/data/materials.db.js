@@ -1780,6 +1780,22 @@ const LIST_SHINHAN_FIRE_RETARDANT = [
   { id:"방염_FK0025-3", code:"방염_FK0025-3", name:"방염_FK0025-3 티모시", brand:"신한(KCC)", category:"벽지", materialType:"방염", price: 0 },
   { id:"방염_FK0025-4", code:"방염_FK0025-4", name:"방염_FK0025-4 티모시", brand:"신한(KCC)", category:"벽지", materialType:"방염", price: 0 },
 ];
+
+const LIST_DONGWHA_JIN_ORIGIN = [
+  { id:"어반내추럴", code:"어반내추럴", name:"어반내추럴", brand:"동화", category:"마루", materialType:"진 오리진", price: 0 },
+  { id:"어반밀크티", code:"어반밀크티", name:"어반밀크티", brand:"동화", category:"마루", materialType:"진 오리진", price: 0 },
+  { id:"어반샌디에고", code:"어반샌디에고", name:"어반샌디에고", brand:"동화", category:"마루", materialType:"진 오리진", price: 0 },
+  { id:"어반화이트", code:"어반화이트", name:"어반화이트", brand:"동화", category:"마루", materialType:"진 오리진", price: 0 },
+  { id:"퓨어그레이", code:"퓨어그레이", name:"퓨어그레이", brand:"동화", category:"마루", materialType:"진 오리진", price: 0 },
+  { id:"퓨어베이지", code:"퓨어베이지", name:"퓨어베이지", brand:"동화", category:"마루", materialType:"진 오리진", price: 0 },
+  { id:"퓨어브라운", code:"퓨어브라운", name:"퓨어브라운", brand:"동화", category:"마루", materialType:"진 오리진", price: 0 },
+  { id:"퓨어샌디", code:"퓨어샌디", name:"퓨어샌디", brand:"동화", category:"마루", materialType:"진 오리진", price: 0 },
+  { id:"퓨어실버", code:"퓨어실버", name:"퓨어실버", brand:"동화", category:"마루", materialType:"진 오리진", price: 0 },
+  { id:"퓨어아이보리", code:"퓨어아이보리", name:"퓨어아이보리", brand:"동화", category:"마루", materialType:"진 오리진", price: 0 },
+  { id:"퓨어옐로우", code:"퓨어옐로우", name:"퓨어옐로우", brand:"동화", category:"마루", materialType:"진 오리진", price: 0 },
+  { id:"퓨어크림", code:"퓨어크림", name:"퓨어크림", brand:"동화", category:"마루", materialType:"진 오리진", price: 0 },
+];
+
 const ALL_MATERIAL_LISTS = [
     ...LIST_LX_WALLPAPER,
     ...LIST_AUTO_GENERATED,
@@ -1805,7 +1821,8 @@ const ALL_MATERIAL_LISTS = [
     ...LIST_LX_3_2T,
     ...LIST_LX_4_5T,
     ...LIST_GAENARI_2025,
-    ...LIST_LX_5_0T
+    ...LIST_LX_5_0T,
+    ...LIST_DONGWHA_JIN_ORIGIN
 ];
 
 // Deduplicate by ID to ensure single category placement for each product

@@ -13,7 +13,7 @@ const COVER_DIR = path.join(PUBLIC_DIR, 'images', 'cover');
 const THUMB_DIR = path.join(PUBLIC_DIR, 'images', 'Thumbnail_Image');
 
 // Helper: Normalize (Strict) for matching
-const normalize = (str) => str ? str.replace(/[^a-zA-Z0-9]/g, '').toUpperCase() : "";
+const normalize = (str) => str ? str.replace(/[^a-zA-Z0-9가-힣]/g, '').toUpperCase() : "";
 
 // 1. Extract Codes from databases
 const materialsContent = fs.readFileSync(DATA_FILE, 'utf8');

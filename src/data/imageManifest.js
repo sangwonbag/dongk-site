@@ -1561,8 +1561,7 @@ export const imageManifest = {
   "688710": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/합지/신한벽지_아이리스(IRIS)/6887-10 스너그.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/신한/합지/신한벽지_아이리스(IRIS)/6887-10 스너그.jpg",
-      "/images/Thumbnail_Image/materials/벽지/신한/합지/신한벽지_아이리스(IRIS)/6887-1 스너그.jpg"
+      "/images/Thumbnail_Image/materials/벽지/신한/합지/신한벽지_아이리스(IRIS)/6887-10 스너그.jpg"
     ]
   },
   "702871": {
@@ -3470,34 +3469,10 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TS5552P_1.jpg"
     ]
   },
-  "LX-XCF3441": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3441_애쉬베이지.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3441_애쉬베이지.jpg"
-    ]
-  },
-  "LXXCF3441": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3441_애쉬베이지.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3441_애쉬베이지.jpg"
-    ]
-  },
   "XCF3441": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3441_애쉬베이지.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3441_애쉬베이지.jpg"
-    ]
-  },
-  "LX-XCF3442": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3442_라이트베이지.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3442_라이트베이지.jpg"
-    ]
-  },
-  "LXXCF3442": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3442_라이트베이지.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3442_라이트베이지.jpg"
     ]
   },
   "XCF3442": {
@@ -3506,34 +3481,10 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3442_라이트베이지.jpg"
     ]
   },
-  "LX-XCF3451": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3451_애쉬화이트.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3451_애쉬화이트.jpg"
-    ]
-  },
-  "LXXCF3451": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3451_애쉬화이트.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3451_애쉬화이트.jpg"
-    ]
-  },
   "XCF3451": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3451_애쉬화이트.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3451_애쉬화이트.jpg"
-    ]
-  },
-  "LX-XCF3612": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3612_스탠다드베인.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3612_스탠다드베인.jpg"
-    ]
-  },
-  "LXXCF3612": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3612_스탠다드베인.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3612_스탠다드베인.jpg"
     ]
   },
   "XCF3612": {
@@ -3542,34 +3493,10 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3612_스탠다드베인.jpg"
     ]
   },
-  "LX-XCF3621": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3621_텐더그레이.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3621_텐더그레이.jpg"
-    ]
-  },
-  "LXXCF3621": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3621_텐더그레이.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3621_텐더그레이.jpg"
-    ]
-  },
   "XCF3621": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3621_텐더그레이.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3621_텐더그레이.jpg"
-    ]
-  },
-  "LX-XCF3622": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3622_스페이스그레이.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3622_스페이스그레이.jpg"
-    ]
-  },
-  "LXXCF3622": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3622_스페이스그레이.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3622_스페이스그레이.jpg"
     ]
   },
   "XCF3622": {
@@ -3578,34 +3505,10 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF3622_스페이스그레이.jpg"
     ]
   },
-  "LX-XCF4023": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4023_썸머오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4023_썸머오크.jpg"
-    ]
-  },
-  "LXXCF4023": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4023_썸머오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4023_썸머오크.jpg"
-    ]
-  },
   "XCF4023": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4023_썸머오크.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4023_썸머오크.jpg"
-    ]
-  },
-  "LX-XCF4043": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4043_스탠다드오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4043_스탠다드오크.jpg"
-    ]
-  },
-  "LXXCF4043": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4043_스탠다드오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4043_스탠다드오크.jpg"
     ]
   },
   "XCF4043": {
@@ -3614,34 +3517,10 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4043_스탠다드오크.jpg"
     ]
   },
-  "LX-XCF4481": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4481_크리마마필화이트.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4481_크리마마필화이트.jpg"
-    ]
-  },
-  "LXXCF4481": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4481_크리마마필화이트.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4481_크리마마필화이트.jpg"
-    ]
-  },
   "XCF4481": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4481_크리마마필화이트.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4481_크리마마필화이트.jpg"
-    ]
-  },
-  "LX-XCF4482": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4482_크리마마필그레이.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4482_크리마마필그레이.jpg"
-    ]
-  },
-  "LXXCF4482": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4482_크리마마필그레이.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4482_크리마마필그레이.jpg"
     ]
   },
   "XCF4482": {
@@ -3650,34 +3529,10 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4482_크리마마필그레이.jpg"
     ]
   },
-  "LX-XCF4531": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4531_코지콘크리트.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4531_코지콘크리트.jpg"
-    ]
-  },
-  "LXXCF4531": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4531_코지콘크리트.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4531_코지콘크리트.jpg"
-    ]
-  },
   "XCF4531": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4531_코지콘크리트.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4531_코지콘크리트.jpg"
-    ]
-  },
-  "LX-XCF4541": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4541_베인샌드스톤.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4541_베인샌드스톤.jpg"
-    ]
-  },
-  "LXXCF4541": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4541_베인샌드스톤.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4541_베인샌드스톤.jpg"
     ]
   },
   "XCF4541": {
@@ -3686,52 +3541,16 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCF4541_베인샌드스톤.jpg"
     ]
   },
-  "LX-XCFS011": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS011_솔티화이트.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS011_솔티화이트.jpg"
-    ]
-  },
-  "LXXCFS011": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS011_솔티화이트.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS011_솔티화이트.jpg"
-    ]
-  },
   "XCFS011": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS011_솔티화이트.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS011_솔티화이트.jpg"
     ]
   },
-  "LX-XCFS012": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS012_솔티그레이지.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS012_솔티그레이지.jpg"
-    ]
-  },
-  "LXXCFS012": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS012_솔티그레이지.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS012_솔티그레이지.jpg"
-    ]
-  },
   "XCFS012": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS012_솔티그레이지.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFS012_솔티그레이지.jpg"
-    ]
-  },
-  "LX-XCFW011": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFW011_스노우우드.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFW011_스노우우드.jpg"
-    ]
-  },
-  "LXXCFW011": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFW011_스노우우드.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_엑스컴포트_5.0T/XCFW011_스노우우드.jpg"
     ]
   },
   "XCFW011": {
@@ -4514,18 +4333,6 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM23692_1.jpg"
     ]
   },
-  "LXJ-ZJ32981-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ32981-11-화이트-오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ32981-11-화이트-오크.jpg"
-    ]
-  },
-  "LXJZJ3298111": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ32981-11-화이트-오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ32981-11-화이트-오크.jpg"
-    ]
-  },
   "ZJ32981-11": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ32981-11-화이트-오크.jpg",
     "gallery": [
@@ -4536,18 +4343,6 @@ export const imageManifest = {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ32981-11-화이트-오크.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ32981-11-화이트-오크.jpg"
-    ]
-  },
-  "LXJ-ZJ33561-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33561-11-오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33561-11-오크.jpg"
-    ]
-  },
-  "LXJZJ3356111": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33561-11-오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33561-11-오크.jpg"
     ]
   },
   "ZJ33561-11": {
@@ -4562,18 +4357,6 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33561-11-오크.jpg"
     ]
   },
-  "LXJ-ZJ33562-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33562-11-오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33562-11-오크.jpg"
-    ]
-  },
-  "LXJZJ3356211": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33562-11-오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33562-11-오크.jpg"
-    ]
-  },
   "ZJ33562-11": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33562-11-오크.jpg",
     "gallery": [
@@ -4584,18 +4367,6 @@ export const imageManifest = {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33562-11-오크.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33562-11-오크.jpg"
-    ]
-  },
-  "LXJ-ZJ33763-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33763-11-브라운-오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33763-11-브라운-오크.jpg"
-    ]
-  },
-  "LXJZJ3376311": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33763-11-브라운-오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33763-11-브라운-오크.jpg"
     ]
   },
   "ZJ33763-11": {
@@ -4610,18 +4381,6 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33763-11-브라운-오크.jpg"
     ]
   },
-  "LXJ-ZJ33871-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33871-11-모던-오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33871-11-모던-오크.jpg"
-    ]
-  },
-  "LXJZJ3387111": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33871-11-모던-오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33871-11-모던-오크.jpg"
-    ]
-  },
   "ZJ33871-11": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33871-11-모던-오크.jpg",
     "gallery": [
@@ -4632,18 +4391,6 @@ export const imageManifest = {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33871-11-모던-오크.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33871-11-모던-오크.jpg"
-    ]
-  },
-  "LXJ-ZJ33872-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33872-11-베이지-오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33872-11-베이지-오크.jpg"
-    ]
-  },
-  "LXJZJ3387211": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33872-11-베이지-오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33872-11-베이지-오크.jpg"
     ]
   },
   "ZJ33872-11": {
@@ -4658,18 +4405,6 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ33872-11-베이지-오크.jpg"
     ]
   },
-  "LXJ-ZJ34331-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34331-11-윈터-오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34331-11-윈터-오크.jpg"
-    ]
-  },
-  "LXJZJ3433111": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34331-11-윈터-오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34331-11-윈터-오크.jpg"
-    ]
-  },
   "ZJ34331-11": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34331-11-윈터-오크.jpg",
     "gallery": [
@@ -4680,18 +4415,6 @@ export const imageManifest = {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34331-11-윈터-오크.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34331-11-윈터-오크.jpg"
-    ]
-  },
-  "LXJ-ZJ34371-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34371-11-시나몬-오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34371-11-시나몬-오크.jpg"
-    ]
-  },
-  "LXJZJ3437111": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34371-11-시나몬-오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34371-11-시나몬-오크.jpg"
     ]
   },
   "ZJ34371-11": {
@@ -4706,18 +4429,6 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34371-11-시나몬-오크.jpg"
     ]
   },
-  "LXJ-ZJ34841-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34841-11-아이보리-오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34841-11-아이보리-오크.jpg"
-    ]
-  },
-  "LXJZJ3484111": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34841-11-아이보리-오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34841-11-아이보리-오크.jpg"
-    ]
-  },
   "ZJ34841-11": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34841-11-아이보리-오크.jpg",
     "gallery": [
@@ -4728,18 +4439,6 @@ export const imageManifest = {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34841-11-아이보리-오크.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34841-11-아이보리-오크.jpg"
-    ]
-  },
-  "LXJ-ZJ34842-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34842-11-토프-오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34842-11-토프-오크.jpg"
-    ]
-  },
-  "LXJZJ3484211": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34842-11-토프-오크.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34842-11-토프-오크.jpg"
     ]
   },
   "ZJ34842-11": {
@@ -4754,18 +4453,6 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34842-11-토프-오크.jpg"
     ]
   },
-  "LXJ-ZJ34851-11": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34851-11-피치-애쉬.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34851-11-피치-애쉬.jpg"
-    ]
-  },
-  "LXJZJ3485111": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34851-11-피치-애쉬.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34851-11-피치-애쉬.jpg"
-    ]
-  },
   "ZJ34851-11": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34851-11-피치-애쉬.jpg",
     "gallery": [
@@ -4776,18 +4463,6 @@ export const imageManifest = {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34851-11-피치-애쉬.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ34851-11-피치-애쉬.jpg"
-    ]
-  },
-  "LXJ-ZJ43601-22": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ43601-22-소프트-콘크리트.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ43601-22-소프트-콘크리트.jpg"
-    ]
-  },
-  "LXJZJ4360122": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ43601-22-소프트-콘크리트.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ43601-22-소프트-콘크리트.jpg"
     ]
   },
   "ZJ43601-22": {
@@ -4802,18 +4477,6 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ43601-22-소프트-콘크리트.jpg"
     ]
   },
-  "LXJ-ZJ43841-22": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ43841-22-베이지-포세린.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ43841-22-베이지-포세린.jpg"
-    ]
-  },
-  "LXJZJ4384122": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ43841-22-베이지-포세린.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ43841-22-베이지-포세린.jpg"
-    ]
-  },
   "ZJ43841-22": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ43841-22-베이지-포세린.jpg",
     "gallery": [
@@ -4824,18 +4487,6 @@ export const imageManifest = {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ43841-22-베이지-포세린.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ43841-22-베이지-포세린.jpg"
-    ]
-  },
-  "LXJ-ZJ43893-22": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ43893-22-뉴-실버-마블.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ43893-22-뉴-실버-마블.jpg"
-    ]
-  },
-  "LXJZJ4389322": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ43893-22-뉴-실버-마블.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ43893-22-뉴-실버-마블.jpg"
     ]
   },
   "ZJ43893-22": {
@@ -4850,18 +4501,6 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ43893-22-뉴-실버-마블.jpg"
     ]
   },
-  "LXJ-ZJ44093-22": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44093-22-애쉬-베인-샌드.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44093-22-애쉬-베인-샌드.jpg"
-    ]
-  },
-  "LXJZJ4409322": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44093-22-애쉬-베인-샌드.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44093-22-애쉬-베인-샌드.jpg"
-    ]
-  },
   "ZJ44093-22": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44093-22-애쉬-베인-샌드.jpg",
     "gallery": [
@@ -4872,18 +4511,6 @@ export const imageManifest = {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44093-22-애쉬-베인-샌드.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44093-22-애쉬-베인-샌드.jpg"
-    ]
-  },
-  "LXJ-ZJ44241-22": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44241-22-로즈-마블.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44241-22-로즈-마블.jpg"
-    ]
-  },
-  "LXJZJ4424122": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44241-22-로즈-마블.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44241-22-로즈-마블.jpg"
     ]
   },
   "ZJ44241-22": {
@@ -4898,18 +4525,6 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44241-22-로즈-마블.jpg"
     ]
   },
-  "LXJ-ZJ44351-22": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44351-22-그레이-콘크리트.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44351-22-그레이-콘크리트.jpg"
-    ]
-  },
-  "LXJZJ4435122": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44351-22-그레이-콘크리트.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44351-22-그레이-콘크리트.jpg"
-    ]
-  },
   "ZJ44351-22": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44351-22-그레이-콘크리트.jpg",
     "gallery": [
@@ -4920,18 +4535,6 @@ export const imageManifest = {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44351-22-그레이-콘크리트.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44351-22-그레이-콘크리트.jpg"
-    ]
-  },
-  "LXJ-ZJ44821-22": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44821-22-베이지-샌드.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44821-22-베이지-샌드.jpg"
-    ]
-  },
-  "LXJZJ4482122": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44821-22-베이지-샌드.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44821-22-베이지-샌드.jpg"
     ]
   },
   "ZJ44821-22": {
@@ -4946,18 +4549,6 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44821-22-베이지-샌드.jpg"
     ]
   },
-  "LXJ-ZJ44822-22": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44822-22-오트-샌드.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44822-22-오트-샌드.jpg"
-    ]
-  },
-  "LXJZJ4482222": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44822-22-오트-샌드.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44822-22-오트-샌드.jpg"
-    ]
-  },
   "ZJ44822-22": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44822-22-오트-샌드.jpg",
     "gallery": [
@@ -4968,18 +4559,6 @@ export const imageManifest = {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44822-22-오트-샌드.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44822-22-오트-샌드.jpg"
-    ]
-  },
-  "LXJ-ZJ44831-22": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44831-22-모하비-스톤.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44831-22-모하비-스톤.jpg"
-    ]
-  },
-  "LXJZJ4483122": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44831-22-모하비-스톤.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44831-22-모하비-스톤.jpg"
     ]
   },
   "ZJ44831-22": {
@@ -4994,18 +4573,6 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44831-22-모하비-스톤.jpg"
     ]
   },
-  "LXJ-ZJ44861-22": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44861-22-웜-브릭.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44861-22-웜-브릭.jpg"
-    ]
-  },
-  "LXJZJ4486122": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44861-22-웜-브릭.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44861-22-웜-브릭.jpg"
-    ]
-  },
   "ZJ44861-22": {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44861-22-웜-브릭.jpg",
     "gallery": [
@@ -5016,18 +4583,6 @@ export const imageManifest = {
     "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44861-22-웜-브릭.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44861-22-웜-브릭.jpg"
-    ]
-  },
-  "LXJ-ZJ44871-22": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44871-22-스투코-그레이.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44871-22-스투코-그레이.jpg"
-    ]
-  },
-  "LXJZJ4487122": {
-    "cover": "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44871-22-스투코-그레이.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/장판/LX하우시스_지아자연애_2.2T/ZJ44871-22-스투코-그레이.jpg"
     ]
   },
   "ZJ44871-22": {
@@ -5288,34 +4843,10 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/장판/LX하우시스_지아소리잠_4.5T/ZS8404111_1.jpg"
     ]
   },
-  "LX-DLT3300": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3300.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3300.jpg"
-    ]
-  },
-  "LXDLT3300": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3300.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3300.jpg"
-    ]
-  },
   "DLT3300": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3300.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3300.jpg"
-    ]
-  },
-  "LX-DLT3301": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3301.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3301.jpg"
-    ]
-  },
-  "LXDLT3301": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3301.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3301.jpg"
     ]
   },
   "DLT3301": {
@@ -5324,34 +4855,10 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3301.jpg"
     ]
   },
-  "LX-DLT3302": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3302.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3302.jpg"
-    ]
-  },
-  "LXDLT3302": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3302.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3302.jpg"
-    ]
-  },
   "DLT3302": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3302.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3302.jpg"
-    ]
-  },
-  "LX-DLT3303": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3303.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3303.jpg"
-    ]
-  },
-  "LXDLT3303": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3303.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3303.jpg"
     ]
   },
   "DLT3303": {
@@ -5372,34 +4879,10 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3305_4장.jpg"
     ]
   },
-  "LX-DLT3306": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3306.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3306.jpg"
-    ]
-  },
-  "LXDLT3306": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3306.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3306.jpg"
-    ]
-  },
   "DLT3306": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3306.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3306.jpg"
-    ]
-  },
-  "LX-DLT3307": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3307.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3307.jpg"
-    ]
-  },
-  "LXDLT3307": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3307.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3307.jpg"
     ]
   },
   "DLT3307": {
@@ -5408,34 +4891,10 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3307.jpg"
     ]
   },
-  "LX-DLT3308": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3308.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3308.jpg"
-    ]
-  },
-  "LXDLT3308": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3308.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3308.jpg"
-    ]
-  },
   "DLT3308": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3308.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3308.jpg"
-    ]
-  },
-  "LX-DLT3309": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3309.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3309.jpg"
-    ]
-  },
-  "LXDLT3309": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3309.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3309.jpg"
     ]
   },
   "DLT3309": {
@@ -5444,34 +4903,10 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3309.jpg"
     ]
   },
-  "LX-DLT3310": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3310.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3310.jpg"
-    ]
-  },
-  "LXDLT3310": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3310.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3310.jpg"
-    ]
-  },
   "DLT3310": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3310.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3310.jpg"
-    ]
-  },
-  "LX-DLT3311": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3311.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3311.jpg"
-    ]
-  },
-  "LXDLT3311": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3311.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3311.jpg"
     ]
   },
   "DLT3311": {
@@ -5480,52 +4915,16 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3311.jpg"
     ]
   },
-  "LX-DLT3312": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3312.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3312.jpg"
-    ]
-  },
-  "LXDLT3312": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3312.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3312.jpg"
-    ]
-  },
   "DLT3312": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3312.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3312.jpg"
     ]
   },
-  "LX-DLT3313": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3313.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3313.jpg"
-    ]
-  },
-  "LXDLT3313": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3313.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3313.jpg"
-    ]
-  },
   "DLT3313": {
     "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3313.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3313.jpg"
-    ]
-  },
-  "LX-DLT3314": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3314.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3314.jpg"
-    ]
-  },
-  "LXDLT3314": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3314.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3314.jpg"
     ]
   },
   "DLT3314": {
@@ -5538,18 +4937,6 @@ export const imageManifest = {
     "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3315_1.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3315_1.jpg"
-    ]
-  },
-  "LX-DLT3316": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3316.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3316.jpg"
-    ]
-  },
-  "LXDLT3316": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3316.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우시스_데코레이S/내지_데코_DLT 3316.jpg"
     ]
   },
   "DLT3316": {
@@ -7262,18 +6649,6 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/LX/LX_디아망/PR057-02.jpg"
     ]
   },
-  "LXW-PR053-01": {
-    "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_디아망/고)PR053-01.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_디아망/고)PR053-01.jpg"
-    ]
-  },
-  "LXWPR05301": {
-    "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_디아망/고)PR053-01.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_디아망/고)PR053-01.jpg"
-    ]
-  },
   "PR053-01": {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_디아망/고)PR053-01.jpg",
     "gallery": [
@@ -7284,18 +6659,6 @@ export const imageManifest = {
     "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_디아망/고)PR053-01.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/LX/LX_디아망/고)PR053-01.jpg"
-    ]
-  },
-  "LXW-PR058-01": {
-    "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_디아망/고)PR058-01.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_디아망/고)PR058-01.jpg"
-    ]
-  },
-  "LXWPR05801": {
-    "cover": "/images/Thumbnail_Image/materials/벽지/LX/LX_디아망/고)PR058-01.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/LX/LX_디아망/고)PR058-01.jpg"
     ]
   },
   "PR058-01": {
@@ -13202,8 +12565,7 @@ export const imageManifest = {
   "6887-10": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/합지/신한벽지_아이리스(IRIS)/6887-10 스너그.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/신한/합지/신한벽지_아이리스(IRIS)/6887-10 스너그.jpg",
-      "/images/Thumbnail_Image/materials/벽지/신한/합지/신한벽지_아이리스(IRIS)/6887-1 스너그.jpg"
+      "/images/Thumbnail_Image/materials/벽지/신한/합지/신한벽지_아이리스(IRIS)/6887-10 스너그.jpg"
     ]
   },
   "6887-2": {
@@ -14166,50 +13528,42 @@ export const imageManifest = {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-1 믹스톤.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-1 믹스톤.jpg",
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_파사드(FACADE)/W2202-1 믹스톤.jpg",
       "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-10 믹스톤.jpg",
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-11 믹스톤.jpg"
+      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-11 믹스톤.jpg",
+      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_파사드(FACADE)/W2202-1 믹스톤.jpg"
     ]
   },
   "W22021": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-1 믹스톤.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-1 믹스톤.jpg",
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_파사드(FACADE)/W2202-1 믹스톤.jpg",
       "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-10 믹스톤.jpg",
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-11 믹스톤.jpg"
+      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-11 믹스톤.jpg",
+      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_파사드(FACADE)/W2202-1 믹스톤.jpg"
     ]
   },
   "W2202-10": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-10 믹스톤.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-10 믹스톤.jpg",
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-1 믹스톤.jpg",
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_파사드(FACADE)/W2202-1 믹스톤.jpg"
+      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-10 믹스톤.jpg"
     ]
   },
   "W220210": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-10 믹스톤.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-10 믹스톤.jpg",
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-1 믹스톤.jpg",
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_파사드(FACADE)/W2202-1 믹스톤.jpg"
+      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-10 믹스톤.jpg"
     ]
   },
   "W2202-11": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-11 믹스톤.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-11 믹스톤.jpg",
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-1 믹스톤.jpg",
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_파사드(FACADE)/W2202-1 믹스톤.jpg"
+      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-11 믹스톤.jpg"
     ]
   },
   "W220211": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-11 믹스톤.jpg",
     "gallery": [
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-11 믹스톤.jpg",
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-1 믹스톤.jpg",
-      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_파사드(FACADE)/W2202-1 믹스톤.jpg"
+      "/images/Thumbnail_Image/materials/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/W2202-11 믹스톤.jpg"
     ]
   },
   "W2202-2": {
@@ -15489,7 +14843,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15053-1 조용한 사색.jpg"
     ]
   },
-  "F150531": {
+  "방염F150531": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15053-1 조용한 사색.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15053-1 조용한 사색.jpg"
@@ -15501,7 +14855,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15053-2 조용한 사색.jpg"
     ]
   },
-  "F150532": {
+  "방염F150532": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15053-2 조용한 사색.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15053-2 조용한 사색.jpg"
@@ -15513,7 +14867,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15087-5 봄날의 열매.jpg"
     ]
   },
-  "F150875": {
+  "방염F150875": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15087-5 봄날의 열매.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15087-5 봄날의 열매.jpg"
@@ -15525,7 +14879,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15087-7 봄날의 열매.jpg"
     ]
   },
-  "F150877": {
+  "방염F150877": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15087-7 봄날의 열매.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15087-7 봄날의 열매.jpg"
@@ -15537,7 +14891,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15094-2 서울의 야경.jpg"
     ]
   },
-  "F150942": {
+  "방염F150942": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15094-2 서울의 야경.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15094-2 서울의 야경.jpg"
@@ -15549,7 +14903,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15094-3 서울의 야경.jpg"
     ]
   },
-  "F150943": {
+  "방염F150943": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15094-3 서울의 야경.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15094-3 서울의 야경.jpg"
@@ -15561,7 +14915,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15094-4 서울의 야경.jpg"
     ]
   },
-  "F150944": {
+  "방염F150944": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15094-4 서울의 야경.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15094-4 서울의 야경.jpg"
@@ -15573,7 +14927,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15099-1 신비로운 새벽.jpg"
     ]
   },
-  "F150991": {
+  "방염F150991": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15099-1 신비로운 새벽.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15099-1 신비로운 새벽.jpg"
@@ -15585,7 +14939,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15099-2 신비로운 새벽.jpg"
     ]
   },
-  "F150992": {
+  "방염F150992": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15099-2 신비로운 새벽.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15099-2 신비로운 새벽.jpg"
@@ -15597,7 +14951,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15099-3 신비로운 새벽.jpg"
     ]
   },
-  "F150993": {
+  "방염F150993": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15099-3 신비로운 새벽.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15099-3 신비로운 새벽.jpg"
@@ -15609,7 +14963,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15099-4 신비로운 새벽.jpg"
     ]
   },
-  "F150994": {
+  "방염F150994": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15099-4 신비로운 새벽.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15099-4 신비로운 새벽.jpg"
@@ -15621,7 +14975,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15099-8 신비로운 새벽.jpg"
     ]
   },
-  "F150998": {
+  "방염F150998": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15099-8 신비로운 새벽.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15099-8 신비로운 새벽.jpg"
@@ -15633,7 +14987,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15099-9 신비로운 새벽.jpg"
     ]
   },
-  "F150999": {
+  "방염F150999": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15099-9 신비로운 새벽.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15099-9 신비로운 새벽.jpg"
@@ -15645,7 +14999,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15102-1 소소한 기다림.jpg"
     ]
   },
-  "F151021": {
+  "방염F151021": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15102-1 소소한 기다림.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15102-1 소소한 기다림.jpg"
@@ -15657,7 +15011,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15102-3 소소한 기다림.jpg"
     ]
   },
-  "F151023": {
+  "방염F151023": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15102-3 소소한 기다림.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15102-3 소소한 기다림.jpg"
@@ -15669,7 +15023,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15102-4 소소한 기다림.jpg"
     ]
   },
-  "F151024": {
+  "방염F151024": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15102-4 소소한 기다림.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15102-4 소소한 기다림.jpg"
@@ -15681,7 +15035,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15102-6 소소한 기다림.jpg"
     ]
   },
-  "F151026": {
+  "방염F151026": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15102-6 소소한 기다림.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15102-6 소소한 기다림.jpg"
@@ -15693,7 +15047,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15102-7 소소한 기다림.jpg"
     ]
   },
-  "F151027": {
+  "방염F151027": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15102-7 소소한 기다림.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15102-7 소소한 기다림.jpg"
@@ -15705,7 +15059,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15102-8 소소한 기다림.jpg"
     ]
   },
-  "F151028": {
+  "방염F151028": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15102-8 소소한 기다림.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15102-8 소소한 기다림.jpg"
@@ -15717,7 +15071,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15103-1 비밀이야기.jpg"
     ]
   },
-  "F151031": {
+  "방염F151031": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15103-1 비밀이야기.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15103-1 비밀이야기.jpg"
@@ -15729,7 +15083,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15103-2 비밀이야기.jpg"
     ]
   },
-  "F151032": {
+  "방염F151032": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15103-2 비밀이야기.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15103-2 비밀이야기.jpg"
@@ -15741,7 +15095,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15103-3 비밀이야기.jpg"
     ]
   },
-  "F151033": {
+  "방염F151033": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15103-3 비밀이야기.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15103-3 비밀이야기.jpg"
@@ -15753,7 +15107,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15103-4 비밀이야기.jpg"
     ]
   },
-  "F151034": {
+  "방염F151034": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15103-4 비밀이야기.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15103-4 비밀이야기.jpg"
@@ -15765,7 +15119,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15105-1 그날의 약속.jpg"
     ]
   },
-  "F151051": {
+  "방염F151051": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15105-1 그날의 약속.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15105-1 그날의 약속.jpg"
@@ -15777,7 +15131,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15105-2 그날의 약속.jpg"
     ]
   },
-  "F151052": {
+  "방염F151052": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15105-2 그날의 약속.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15105-2 그날의 약속.jpg"
@@ -15789,7 +15143,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15105-3 그날의 약속.jpg"
     ]
   },
-  "F151053": {
+  "방염F151053": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15105-3 그날의 약속.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15105-3 그날의 약속.jpg"
@@ -15801,7 +15155,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15105-4 그날의 약속.jpg"
     ]
   },
-  "F151054": {
+  "방염F151054": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15105-4 그날의 약속.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F15105-4 그날의 약속.jpg"
@@ -15813,7 +15167,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70180-3 노출콘크리트.jpg"
     ]
   },
-  "F701803": {
+  "방염F701803": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70180-3 노출콘크리트.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70180-3 노출콘크리트.jpg"
@@ -15825,7 +15179,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70199-2 이솝.jpg"
     ]
   },
-  "F701992": {
+  "방염F701992": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70199-2 이솝.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70199-2 이솝.jpg"
@@ -15837,7 +15191,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70199-3 이솝.jpg"
     ]
   },
-  "F701993": {
+  "방염F701993": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70199-3 이솝.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70199-3 이솝.jpg"
@@ -15849,7 +15203,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70213-10 플레인.jpg"
     ]
   },
-  "F7021310": {
+  "방염F7021310": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70213-10 플레인.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70213-10 플레인.jpg"
@@ -15861,7 +15215,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70220-1 뷰글라스.jpg"
     ]
   },
-  "F702201": {
+  "방염F702201": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70220-1 뷰글라스.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70220-1 뷰글라스.jpg"
@@ -15873,7 +15227,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70220-2 뷰글라스.jpg"
     ]
   },
-  "F702202": {
+  "방염F702202": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70220-2 뷰글라스.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70220-2 뷰글라스.jpg"
@@ -15885,7 +15239,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70220-4 뷰글라스.jpg"
     ]
   },
-  "F702204": {
+  "방염F702204": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70220-4 뷰글라스.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70220-4 뷰글라스.jpg"
@@ -15897,7 +15251,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70226-1 브람스.jpg"
     ]
   },
-  "F702261": {
+  "방염F702261": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70226-1 브람스.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70226-1 브람스.jpg"
@@ -15909,7 +15263,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70226-2 브람스.jpg"
     ]
   },
-  "F702262": {
+  "방염F702262": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70226-2 브람스.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70226-2 브람스.jpg"
@@ -15921,7 +15275,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70227-1 던.jpg"
     ]
   },
-  "F702271": {
+  "방염F702271": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70227-1 던.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70227-1 던.jpg"
@@ -15933,7 +15287,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70231-1 바흐.jpg"
     ]
   },
-  "F702311": {
+  "방염F702311": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70231-1 바흐.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70231-1 바흐.jpg"
@@ -15945,7 +15299,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70231-2 바흐.jpg"
     ]
   },
-  "F702312": {
+  "방염F702312": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70231-2 바흐.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70231-2 바흐.jpg"
@@ -15957,7 +15311,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70231-3 바흐.jpg"
     ]
   },
-  "F702313": {
+  "방염F702313": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70231-3 바흐.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70231-3 바흐.jpg"
@@ -15969,7 +15323,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70249-1 텐더.jpg"
     ]
   },
-  "F702491": {
+  "방염F702491": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70249-1 텐더.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70249-1 텐더.jpg"
@@ -15981,7 +15335,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70249-2 텐더.jpg"
     ]
   },
-  "F702492": {
+  "방염F702492": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70249-2 텐더.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70249-2 텐더.jpg"
@@ -15993,7 +15347,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70249-3 텐더.jpg"
     ]
   },
-  "F702493": {
+  "방염F702493": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70249-3 텐더.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70249-3 텐더.jpg"
@@ -16005,7 +15359,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70249-4 텐더.jpg"
     ]
   },
-  "F702494": {
+  "방염F702494": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70249-4 텐더.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70249-4 텐더.jpg"
@@ -16017,7 +15371,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70249-6 텐더.jpg"
     ]
   },
-  "F702496": {
+  "방염F702496": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70249-6 텐더.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70249-6 텐더.jpg"
@@ -16029,7 +15383,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70252-1 르메르.jpg"
     ]
   },
-  "F702521": {
+  "방염F702521": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70252-1 르메르.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70252-1 르메르.jpg"
@@ -16041,7 +15395,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70252-2 르메르.jpg"
     ]
   },
-  "F702522": {
+  "방염F702522": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70252-2 르메르.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70252-2 르메르.jpg"
@@ -16053,7 +15407,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70252-3 르메르.jpg"
     ]
   },
-  "F702523": {
+  "방염F702523": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70252-3 르메르.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70252-3 르메르.jpg"
@@ -16065,7 +15419,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70254-1 제프리.jpg"
     ]
   },
-  "F702541": {
+  "방염F702541": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70254-1 제프리.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70254-1 제프리.jpg"
@@ -16077,7 +15431,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70254-2 제프리.jpg"
     ]
   },
-  "F702542": {
+  "방염F702542": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70254-2 제프리.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70254-2 제프리.jpg"
@@ -16089,7 +15443,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70254-3 제프리.jpg"
     ]
   },
-  "F702543": {
+  "방염F702543": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70254-3 제프리.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70254-3 제프리.jpg"
@@ -16101,7 +15455,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70254-4 제프리.jpg"
     ]
   },
-  "F702544": {
+  "방염F702544": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70254-4 제프리.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70254-4 제프리.jpg"
@@ -16113,7 +15467,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70254-5 제프리.jpg"
     ]
   },
-  "F702545": {
+  "방염F702545": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70254-5 제프리.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70254-5 제프리.jpg"
@@ -16125,7 +15479,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70254-6 제프리.jpg"
     ]
   },
-  "F702546": {
+  "방염F702546": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70254-6 제프리.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70254-6 제프리.jpg"
@@ -16137,7 +15491,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70255-1 센터.jpg"
     ]
   },
-  "F702551": {
+  "방염F702551": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70255-1 센터.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70255-1 센터.jpg"
@@ -16149,7 +15503,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70255-2 센터.jpg"
     ]
   },
-  "F702552": {
+  "방염F702552": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70255-2 센터.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70255-2 센터.jpg"
@@ -16161,7 +15515,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70255-3 센터.jpg"
     ]
   },
-  "F702553": {
+  "방염F702553": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70255-3 센터.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_F70255-3 센터.jpg"
@@ -16173,7 +15527,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FC8052-1 알토.jpg"
     ]
   },
-  "FC80521": {
+  "방염FC80521": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FC8052-1 알토.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FC8052-1 알토.jpg"
@@ -16185,7 +15539,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FC8052-3 알토.jpg"
     ]
   },
-  "FC80523": {
+  "방염FC80523": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FC8052-3 알토.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FC8052-3 알토.jpg"
@@ -16197,7 +15551,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FC9643-10 스타.jpg"
     ]
   },
-  "FC964310": {
+  "방염FC964310": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FC9643-10 스타.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FC9643-10 스타.jpg"
@@ -16209,7 +15563,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FC9643-11 스타.jpg"
     ]
   },
-  "FC964311": {
+  "방염FC964311": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FC9643-11 스타.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FC9643-11 스타.jpg"
@@ -16221,7 +15575,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0007-1 파브.jpg"
     ]
   },
-  "FK00071": {
+  "방염FK00071": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0007-1 파브.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0007-1 파브.jpg"
@@ -16233,7 +15587,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0007-2 파브.jpg"
     ]
   },
-  "FK00072": {
+  "방염FK00072": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0007-2 파브.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0007-2 파브.jpg"
@@ -16245,7 +15599,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0007-4 파브.jpg"
     ]
   },
-  "FK00074": {
+  "방염FK00074": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0007-4 파브.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0007-4 파브.jpg"
@@ -16257,7 +15611,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0010-1 그릴.jpg"
     ]
   },
-  "FK00101": {
+  "방염FK00101": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0010-1 그릴.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0010-1 그릴.jpg"
@@ -16269,7 +15623,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0010-2 그릴.jpg"
     ]
   },
-  "FK00102": {
+  "방염FK00102": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0010-2 그릴.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0010-2 그릴.jpg"
@@ -16281,7 +15635,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0010-3 그릴.jpg"
     ]
   },
-  "FK00103": {
+  "방염FK00103": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0010-3 그릴.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0010-3 그릴.jpg"
@@ -16293,7 +15647,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0010-4 그릴.jpg"
     ]
   },
-  "FK00104": {
+  "방염FK00104": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0010-4 그릴.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0010-4 그릴.jpg"
@@ -16305,7 +15659,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0014-1 리얼터치.jpg"
     ]
   },
-  "FK00141": {
+  "방염FK00141": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0014-1 리얼터치.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0014-1 리얼터치.jpg"
@@ -16317,7 +15671,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0014-2 리얼터치.jpg"
     ]
   },
-  "FK00142": {
+  "방염FK00142": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0014-2 리얼터치.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0014-2 리얼터치.jpg"
@@ -16329,7 +15683,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0014-3 리얼터치.jpg"
     ]
   },
-  "FK00143": {
+  "방염FK00143": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0014-3 리얼터치.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0014-3 리얼터치.jpg"
@@ -16341,7 +15695,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0014-4 리얼터치.jpg"
     ]
   },
-  "FK00144": {
+  "방염FK00144": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0014-4 리얼터치.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0014-4 리얼터치.jpg"
@@ -16353,7 +15707,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0018-1 스톤베이스.jpg"
     ]
   },
-  "FK00181": {
+  "방염FK00181": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0018-1 스톤베이스.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0018-1 스톤베이스.jpg"
@@ -16365,7 +15719,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0018-2 스톤베이스.jpg"
     ]
   },
-  "FK00182": {
+  "방염FK00182": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0018-2 스톤베이스.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0018-2 스톤베이스.jpg"
@@ -16377,7 +15731,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0018-3 스톤베이스.jpg"
     ]
   },
-  "FK00183": {
+  "방염FK00183": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0018-3 스톤베이스.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0018-3 스톤베이스.jpg"
@@ -16389,7 +15743,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0019-1 와일드터치.jpg"
     ]
   },
-  "FK00191": {
+  "방염FK00191": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0019-1 와일드터치.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0019-1 와일드터치.jpg"
@@ -16401,7 +15755,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0025-1 티모시.jpg"
     ]
   },
-  "FK00251": {
+  "방염FK00251": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0025-1 티모시.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0025-1 티모시.jpg"
@@ -16413,7 +15767,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0025-2 티모시.jpg"
     ]
   },
-  "FK00252": {
+  "방염FK00252": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0025-2 티모시.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0025-2 티모시.jpg"
@@ -16425,7 +15779,7 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0025-3 티모시.jpg"
     ]
   },
-  "FK00253": {
+  "방염FK00253": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0025-3 티모시.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0025-3 티모시.jpg"
@@ -16437,10 +15791,82 @@ export const imageManifest = {
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0025-4 티모시.jpg"
     ]
   },
-  "FK00254": {
+  "방염FK00254": {
     "cover": "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0025-4 티모시.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/벽지/신한/방염/신한벽지_방염/방염_FK0025-4 티모시.jpg"
+    ]
+  },
+  "어반내추럴": {
+    "cover": "/images/Thumbnail_Image/materials/마루/동화/진 오리진/어반내추럴.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/마루/동화/진 오리진/어반내추럴.png"
+    ]
+  },
+  "어반밀크티": {
+    "cover": "/images/Thumbnail_Image/materials/마루/동화/진 오리진/어반밀크티.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/마루/동화/진 오리진/어반밀크티.png"
+    ]
+  },
+  "어반샌디에고": {
+    "cover": "/images/Thumbnail_Image/materials/마루/동화/진 오리진/어반샌디에고.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/마루/동화/진 오리진/어반샌디에고.png"
+    ]
+  },
+  "어반화이트": {
+    "cover": "/images/Thumbnail_Image/materials/마루/동화/진 오리진/어반화이트.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/마루/동화/진 오리진/어반화이트.png"
+    ]
+  },
+  "퓨어그레이": {
+    "cover": "/images/Thumbnail_Image/materials/마루/동화/진 오리진/퓨어그레이.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/마루/동화/진 오리진/퓨어그레이.png"
+    ]
+  },
+  "퓨어베이지": {
+    "cover": "/images/Thumbnail_Image/materials/마루/동화/진 오리진/퓨어베이지.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/마루/동화/진 오리진/퓨어베이지.png"
+    ]
+  },
+  "퓨어브라운": {
+    "cover": "/images/Thumbnail_Image/materials/마루/동화/진 오리진/퓨어브라운.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/마루/동화/진 오리진/퓨어브라운.png"
+    ]
+  },
+  "퓨어샌디": {
+    "cover": "/images/Thumbnail_Image/materials/마루/동화/진 오리진/퓨어샌디.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/마루/동화/진 오리진/퓨어샌디.png"
+    ]
+  },
+  "퓨어실버": {
+    "cover": "/images/Thumbnail_Image/materials/마루/동화/진 오리진/퓨어실버.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/마루/동화/진 오리진/퓨어실버.png"
+    ]
+  },
+  "퓨어아이보리": {
+    "cover": "/images/Thumbnail_Image/materials/마루/동화/진 오리진/퓨어아이보리.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/마루/동화/진 오리진/퓨어아이보리.png"
+    ]
+  },
+  "퓨어옐로우": {
+    "cover": "/images/Thumbnail_Image/materials/마루/동화/진 오리진/퓨어옐로우.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/마루/동화/진 오리진/퓨어옐로우.png"
+    ]
+  },
+  "퓨어크림": {
+    "cover": "/images/Thumbnail_Image/materials/마루/동화/진 오리진/퓨어크림.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/마루/동화/진 오리진/퓨어크림.png"
     ]
   },
   "TS 5535M": {
@@ -16681,66 +16107,6 @@ export const imageManifest = {
     "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5112G_0.jpg",
     "gallery": [
       "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5112G_0.jpg"
-    ]
-  },
-  "LX 1.8T": {
-    "cover": "/images/Thumbnail_Image/samplebooks/LX장판_1.8T.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/samplebooks/LX장판_1.8T.jpg"
-    ]
-  },
-  "LX18T": {
-    "cover": "/images/Thumbnail_Image/samplebooks/LX장판_1.8T.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/samplebooks/LX장판_1.8T.jpg"
-    ]
-  },
-  "LX 2.0T": {
-    "cover": "/images/Thumbnail_Image/samplebooks/LX장판_2.0T.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/samplebooks/LX장판_2.0T.jpg"
-    ]
-  },
-  "LX20T": {
-    "cover": "/images/Thumbnail_Image/samplebooks/LX장판_2.0T.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/samplebooks/LX장판_2.0T.jpg"
-    ]
-  },
-  "LX 2.2T": {
-    "cover": "/images/Thumbnail_Image/samplebooks/LX장판_2.2T.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/samplebooks/LX장판_2.2T.jpg"
-    ]
-  },
-  "LX22T": {
-    "cover": "/images/Thumbnail_Image/samplebooks/LX장판_2.2T.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/samplebooks/LX장판_2.2T.jpg"
-    ]
-  },
-  "LX 2.7T": {
-    "cover": "/images/Thumbnail_Image/samplebooks/LX장판_2.7T_3.2T.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/samplebooks/LX장판_2.7T_3.2T.jpg"
-    ]
-  },
-  "LX27T": {
-    "cover": "/images/Thumbnail_Image/samplebooks/LX장판_2.7T_3.2T.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/samplebooks/LX장판_2.7T_3.2T.jpg"
-    ]
-  },
-  "LX 5.0T": {
-    "cover": "/images/Thumbnail_Image/samplebooks/LX장판_5.0T.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/samplebooks/LX장판_5.0T.jpg"
-    ]
-  },
-  "LX50T": {
-    "cover": "/images/Thumbnail_Image/samplebooks/LX장판_5.0T.jpg",
-    "gallery": [
-      "/images/Thumbnail_Image/samplebooks/LX장판_5.0T.jpg"
     ]
   },
   "AB 6711": {
