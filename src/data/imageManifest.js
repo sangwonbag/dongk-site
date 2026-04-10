@@ -16074,39 +16074,159 @@ export const imageManifest = {
     ]
   },
   "TW 5104G": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5104G_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5104G.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5104G_0.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5104G.png"
     ]
   },
   "TW5104G": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5104G_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5104G.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5104G_0.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5104G.png"
+    ]
+  },
+  "TW 5107G": {
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5107G.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5107G.png"
+    ]
+  },
+  "TW5107G": {
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5107G.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5107G.png"
+    ]
+  },
+  "TW 5109G": {
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5109G.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5109G.png"
+    ]
+  },
+  "TW5109G": {
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5109G.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5109G.png"
+    ]
+  },
+  "TW 5108G": {
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5108G.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5108G.png"
+    ]
+  },
+  "TW5108G": {
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5108G.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5108G.png"
+    ]
+  },
+  "TW 5103G": {
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5103G.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5103G.png"
+    ]
+  },
+  "TW5103G": {
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5103G.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5103G.png"
+    ]
+  },
+  "TW 5105G": {
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5105G.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5105G.png"
+    ]
+  },
+  "TW5105G": {
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5105G.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5105G.png"
+    ]
+  },
+  "TW 5106G": {
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5106G.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5106G.png"
+    ]
+  },
+  "TW5106G": {
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5106G.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5106G.png"
     ]
   },
   "TW 5102G": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5102G_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5102G.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5102G_0.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5102G.png"
     ]
   },
   "TW5102G": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5102G_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5102G.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5102G_0.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5102G.png"
+    ]
+  },
+  "TW 5110G": {
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5110G.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5110G.png"
+    ]
+  },
+  "TW5110G": {
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5110G.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5110G.png"
+    ]
+  },
+  "TW 5111G": {
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5111G.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5111G.png"
+    ]
+  },
+  "TW5111G": {
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5111G.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5111G.png"
     ]
   },
   "TW 5112G": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5112G_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5112G.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5112G_0.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5112G.png"
     ]
   },
   "TW5112G": {
-    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5112G_0.jpg",
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5112G.png",
     "gallery": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_square/TW5112G_0.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5112G.png"
+    ]
+  },
+  "TW 5119G": {
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5119G.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5119G.png"
+    ]
+  },
+  "TW5119G": {
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5119G.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5119G.png"
+    ]
+  },
+  "TW 5120G": {
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5120G.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5120G.png"
+    ]
+  },
+  "TW5120G": {
+    "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5120G.png",
+    "gallery": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_wood/TW 5120G.png"
     ]
   },
   "AB 6711": {
