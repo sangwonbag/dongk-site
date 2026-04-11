@@ -21,6 +21,16 @@ export default function MaterialDetail() {
     const [selectedOption, setSelectedOption] = useState("");
     const [qty, setQty] = useState(1);
 
+    const handleImageError = (brokenSrc) => {
+        setImages(prev => {
+            const nextImages = prev.filter(img => img !== brokenSrc);
+            if (selectedImg === brokenSrc) {
+                setSelectedImg(nextImages.length > 0 ? nextImages[0] : "");
+            }
+            return nextImages;
+        });
+    };
+
     // Initial Image Load
     useEffect(() => {
         if (!item) return;
@@ -92,7 +102,11 @@ export default function MaterialDetail() {
                     <div className="detail-gallery">
                         <div className="main-image">
                             {selectedImg ? (
-                                <img src={selectedImg} alt={item.name} />
+                                <img 
+                                    src={selectedImg} 
+                                    alt={item.name} 
+                                    onError={() => handleImageError(selectedImg)} 
+                                />
                             ) : (
                                 <div className="detail-img-placeholder">{item.name}</div>
                             )}
@@ -105,6 +119,7 @@ export default function MaterialDetail() {
                                         src={src}
                                         className={`thumb ${selectedImg === src ? "active" : ""}`}
                                         onClick={() => setSelectedImg(src)}
+                                        onError={() => handleImageError(src)}
                                         alt={`thumb-${idx}`}
                                     />
                                 ))}
