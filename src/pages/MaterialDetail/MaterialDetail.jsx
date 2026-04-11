@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import MainLayout from "../../components/layout/MainLayout";
 import { materials } from "../../data/materials.db";
-import { getValidGalleryImages, getDetailImage } from "../../utils/galleryUtils";
+import { getValidGalleryImages, getDetailImage, getThumbnailImage } from "../../utils/galleryUtils";
 import "./MaterialDetail.css";
 
 export default function MaterialDetail() {
@@ -16,16 +16,16 @@ export default function MaterialDetail() {
     // Find material. Try ID match first, then Code match (if slug is code)
     const item = materials.find(m => m.id === id || m.code === id);
 
-    const [images, setImages] = useState([]);
-    const [selectedImg, setSelectedImg] = useState("");
+    const [images, setImages] = useState([]); // Array of {thumbnail, detail} objects
+    const [selectedImageObj, setSelectedImageObj] = useState(null); // The chosen {thumbnail, detail}
     const [selectedOption, setSelectedOption] = useState("");
     const [qty, setQty] = useState(1);
 
-    const handleImageError = (brokenSrc) => {
+    const handleImageError = (brokenObj) => {
         setImages(prev => {
-            const nextImages = prev.filter(img => img !== brokenSrc);
-            if (selectedImg === brokenSrc) {
-                setSelectedImg(nextImages.length > 0 ? nextImages[0] : "");
+            const nextImages = prev.filter(img => img.detail !== brokenObj.detail);
+            if (selectedImageObj && selectedImageObj.detail === brokenObj.detail) {
+                setSelectedImageObj(nextImages.length > 0 ? nextImages[0] : null);
             }
             return nextImages;
         });
@@ -38,22 +38,39 @@ export default function MaterialDetail() {
         let alive = true;
 
         async function loadImages() {
-            // 1. Get Detail Image (high-res) or fallback to cover
-            const detailImg = await getDetailImage(item);
-            // 2. Get Gallery (_1 onwards)
-            const gallery = await getValidGalleryImages(item);
+            const detailStr = await getDetailImage(item);
+            const thumbStr = await getThumbnailImage(item);
+            const galleryObjs = await getValidGalleryImages(item);
 
             if (!alive) return;
 
-            // Combine both: detailImg + gallery... and deduplicate
-            const allImages = [...new Set([detailImg, ...gallery].filter(Boolean))];
+            // Combine into structured objects prioritizing separation
+            const firstImgObj = {
+                thumbnail: thumbStr || detailStr,
+                detail: detailStr || thumbStr
+            };
+
+            const allImages = [];
+            const seenDetails = new Set();
+
+            if (firstImgObj.detail) {
+                seenDetails.add(firstImgObj.detail);
+                allImages.push(firstImgObj);
+            }
+
+            for (const go of galleryObjs) {
+                if (go.detail && !seenDetails.has(go.detail)) {
+                    seenDetails.add(go.detail);
+                    allImages.push(go);
+                }
+            }
 
             if (allImages.length > 0) {
                 setImages(allImages);
-                setSelectedImg(allImages[0]); // _0 is first
+                setSelectedImageObj(allImages[0]);
             } else {
                 setImages([]);
-                setSelectedImg("");
+                setSelectedImageObj(null);
             }
         }
         loadImages();
@@ -101,11 +118,11 @@ export default function MaterialDetail() {
                     {/* Left: Gallery */}
                     <div className="detail-gallery">
                         <div className="main-image">
-                            {selectedImg ? (
+                            {selectedImageObj && selectedImageObj.detail ? (
                                 <img 
-                                    src={`${selectedImg}?v=2`} 
-                                    alt={item.name} 
-                                    onError={() => handleImageError(selectedImg)} 
+                                    src={`${selectedImageObj.detail}?v=2`} 
+                                    alt={`${item.name} main zoom`} 
+                                    onError={() => handleImageError(selectedImageObj)} 
                                 />
                             ) : (
                                 <div className="detail-img-placeholder">{item.name}</div>
@@ -113,13 +130,13 @@ export default function MaterialDetail() {
                         </div>
                         {images.length > 1 && (
                             <div className="thumb-list">
-                                {images.map((src, idx) => (
+                                {images.map((imgObj, idx) => (
                                     <img
-                                        key={src}
-                                        src={`${src}?v=2`}
-                                        className={`thumb ${selectedImg === src ? "active" : ""}`}
-                                        onClick={() => setSelectedImg(src)}
-                                        onError={() => handleImageError(src)}
+                                        key={imgObj.detail || idx}
+                                        src={`${imgObj.thumbnail}?v=2`}
+                                        className={`thumb ${selectedImageObj && selectedImageObj.detail === imgObj.detail ? "active" : ""}`}
+                                        onClick={() => setSelectedImageObj(imgObj)}
+                                        onError={() => handleImageError(imgObj)}
                                         alt={`thumb-${idx}`}
                                     />
                                 ))}

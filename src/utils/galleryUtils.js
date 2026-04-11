@@ -46,12 +46,28 @@ export async function getDetailImage(item) {
 export async function getValidGalleryImages(item) {
     if (!item) return [];
 
+    // 1. Try manual gallery data from DB
+    if (item.galleryImages && Array.isArray(item.galleryImages)) {
+        const mapped = item.galleryImages.map(g => {
+            if (typeof g === 'string') return { thumbnail: g, detail: g };
+            return {
+                thumbnail: g.thumbnail || g.detail || "",
+                detail: g.detail || g.thumbnail || ""
+            };
+        });
+        if (mapped.length > 0) return mapped;
+    }
+
     const keys = [item.code, item.name].filter(Boolean).map(normalize);
 
     for (const key of keys) {
         if (imageManifest[key] && imageManifest[key].gallery) {
-            // Manifest already contains only _1 and _2 in order
-            return imageManifest[key].gallery;
+            // Manifest contains strings, map them to objects
+            // Future-proofing: if they provide large files, they can update this mapping.
+            return imageManifest[key].gallery.map(str => ({
+                thumbnail: str,
+                detail: str // Fallback to same string if no high-res replacement logic
+            }));
         }
     }
 
