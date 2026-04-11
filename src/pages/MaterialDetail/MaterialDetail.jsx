@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import MainLayout from "../../components/layout/MainLayout";
 import { materials } from "../../data/materials.db";
-import { getValidGalleryImages, getCoverImage } from "../../utils/galleryUtils";
+import { getValidGalleryImages, getDetailImage } from "../../utils/galleryUtils";
 import "./MaterialDetail.css";
 
 export default function MaterialDetail() {
@@ -38,15 +38,15 @@ export default function MaterialDetail() {
         let alive = true;
 
         async function loadImages() {
-            // 1. Get Cover
-            const cover = await getCoverImage(item);
+            // 1. Get Detail Image (high-res) or fallback to cover
+            const detailImg = await getDetailImage(item);
             // 2. Get Gallery (_1 onwards)
             const gallery = await getValidGalleryImages(item);
 
             if (!alive) return;
 
-            // Combine both: _0 (cover) + _1, _2... and deduplicate
-            const allImages = [...new Set([cover, ...gallery].filter(Boolean))];
+            // Combine both: detailImg + gallery... and deduplicate
+            const allImages = [...new Set([detailImg, ...gallery].filter(Boolean))];
 
             if (allImages.length > 0) {
                 setImages(allImages);

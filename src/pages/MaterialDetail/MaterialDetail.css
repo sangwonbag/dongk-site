@@ -33,6 +33,8 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
+    image-rendering: -webkit-optimize-contrast;   /* Fix blurry upscaling in Chrome */
+    image-rendering: crisp-edges;
 }
 
 .detail-img-placeholder {

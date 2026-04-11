@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ShoppingCart } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import { getCoverImage } from '../../utils/galleryUtils';
+import { getThumbnailImage } from '../../utils/galleryUtils';
 import { getComputedBrand } from '../../utils/brandUtils';
 import './MaterialCard.css';
 
@@ -11,7 +11,7 @@ const MaterialCard = ({ material }) => {
 
     useEffect(() => {
         let isMounted = true;
-        getCoverImage(material).then((url) => {
+        getThumbnailImage(material).then((url) => {
             if (isMounted && url) {
                 setCoverUrl(url);
             }

@@ -113,13 +113,21 @@ items.forEach(code => {
 
     if (fileMatches.length === 0) return;
 
-    // Pick best cover: lowest index thumbnail, or lowest index cover
-    fileMatches.sort((a, b) => {
+    // Pick best THUMBNAIL: lowest index thumbnail, or lowest index cover
+    const thumbMatches = [...fileMatches].sort((a, b) => {
         if (a.isThumb !== b.isThumb) return a.isThumb ? -1 : 1;
         return a.index - b.index;
     });
 
-    const cover = convertToPublicPath(fileMatches[0].path);
+    // Pick best DETAIL: lowest index non-thumbnail (high-res), or lowest index thumbnail
+    const detailMatches = [...fileMatches].sort((a, b) => {
+        if (a.isThumb !== b.isThumb) return a.isThumb ? 1 : -1;
+        return a.index - b.index;
+    });
+
+    const thumbnail = convertToPublicPath(thumbMatches[0].path);
+    const detail = convertToPublicPath(detailMatches[0].path);
+    const cover = thumbnail; // Fallback alias
     
     // Deduplicate gallery by file content (hash) AND path
     // This handles cases where different files are identical copies
@@ -142,7 +150,7 @@ items.forEach(code => {
         }
     }
 
-    const entry = { cover, gallery: uniqueGallery };
+    const entry = { thumbnail, detail, cover, gallery: uniqueGallery };
     manifest[code] = entry;
     if (nCode !== code) {
         manifest[nCode] = entry;
