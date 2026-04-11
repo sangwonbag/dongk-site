@@ -24,8 +24,16 @@ const MaterialCard = ({ material }) => {
         navigate('/inquiry'); // Or open modal
     };
 
+    const handleGoDetail = (e) => {
+        if (e) e.stopPropagation();
+        sessionStorage.setItem("materialsScrollY", window.scrollY.toString());
+        // Also save current path+query so "Back to list" in detail view works exactly
+        sessionStorage.setItem("materialsLastUrl", window.location.pathname + window.location.search);
+        navigate(`/materials/${material.id}`);
+    };
+
     return (
-        <div className="material-card" onClick={() => navigate(`/materials/${material.id}`)}>
+        <div className="material-card" onClick={() => handleGoDetail()}>
             <div className="card-thumb">
                 <img
                     className="material-thumb"
@@ -47,10 +55,7 @@ const MaterialCard = ({ material }) => {
                 </div>
 
                 <div className="card-actions">
-                    <button className="btn-detail" onClick={(e) => {
-                        e.stopPropagation();
-                        navigate(`/materials/${material.id}`);
-                    }}>
+                    <button className="btn-detail" onClick={handleGoDetail}>
                         상세보기
                     </button>
                     <button className="btn-quote" onClick={handleInquiry}>

@@ -1,5 +1,5 @@
 import React, { useMemo, useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useSearchParams } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { materials, ALL_BRANDS, BRANDS_BY_CATEGORY } from "../../data/materials.db";
 import { getComputedBrand } from "../../utils/brandUtils";
@@ -8,10 +8,7 @@ import "./Materials.css";
 import SampleBookPDF from "../../components/samplebook/SampleBookPDF";
 // import DownloadPdfButton from "../components/DownloadPdfButton";
 
-function useQuery() {
-  const { search } = useLocation();
-  return useMemo(() => new URLSearchParams(search), [search]);
-}
+// useQuery removed in favor of useSearchParams
 
 /** ✅ 상단 탭: 추천 + 카테고리 */
 const CATEGORY_TABS = [
@@ -24,26 +21,50 @@ const CATEGORY_TABS = [
 ];
 
 export default function Materials() {
-  const query = useQuery();
+  const [searchParams, setSearchParams] = useSearchParams();
 
-  const searchText = query.get("search") || "";
-  const [activeTab, setActiveTab] = useState("recommended");
-  const [activeBrand, setActiveBrand] = useState("all");
-  const [activeMaterialType, setActiveMaterialType] = useState("all");
+  // Read state directly from URL query parameters
+  const activeTab = searchParams.get("category") || "recommended";
+  const activeBrand = searchParams.get("brand") || "all";
+  const activeMaterialType = searchParams.get("type") || "all";
+  const searchText = searchParams.get("search") || "";
 
-  // 카테고리 이동 시 브랜드/재질 필터 초기화
+  // Update query params helper
+  const updateParams = (updates) => {
+    setSearchParams(prev => {
+      const newParams = new URLSearchParams(prev);
+      Object.entries(updates).forEach(([key, val]) => {
+        if (val === null || val === "all") {
+          newParams.delete(key);
+        } else {
+          newParams.set(key, val);
+        }
+      });
+      return newParams;
+    }, { replace: true });
+  };
+
+  const setActiveTab = (tab) => {
+    if (tab === "recommended") {
+      updateParams({ category: null, brand: null, type: null }); // Default view
+    } else {
+      updateParams({ category: tab, brand: null, type: null });
+    }
+  };
+
+  const setActiveBrand = (brand) => updateParams({ brand, type: null });
+  const setActiveMaterialType = (type) => updateParams({ type });
+
+  // Scroll restoration on return
   useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setActiveBrand("all");
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setActiveMaterialType("all");
-  }, [activeTab]);
-
-  // 브랜드 변경 시 재질 필터 초기화
-  useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setActiveMaterialType("all");
-  }, [activeBrand]);
+    const savedScroll = sessionStorage.getItem("materialsScrollY");
+    if (savedScroll) {
+      setTimeout(() => { // slight delay to allow rendering
+        window.scrollTo(0, parseInt(savedScroll, 10));
+        sessionStorage.removeItem("materialsScrollY");
+      }, 50);
+    }
+  }, []);
 
   /** ✅ 브랜드 목록: 카테고리에 맞춰 가공 (요구사항 반영) */
   const visibleBrands = useMemo(() => {

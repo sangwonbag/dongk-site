@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
+import { ArrowLeft } from "lucide-react";
 import MainLayout from "../../components/layout/MainLayout";
 import { materials } from "../../data/materials.db";
 import { getValidGalleryImages, getCoverImage } from "../../utils/galleryUtils";
@@ -7,6 +8,7 @@ import "./MaterialDetail.css";
 
 export default function MaterialDetail() {
     const { id: rawId } = useParams();
+    const navigate = useNavigate();
 
     // Decode ID to handle encoded chars like %20
     const id = decodeURIComponent(rawId || "");
@@ -70,9 +72,21 @@ export default function MaterialDetail() {
         alert("장바구니에 담았습니다.");
     };
 
+    const handleBackInfo = () => {
+        const lastUrl = sessionStorage.getItem("materialsLastUrl");
+        if (lastUrl) {
+            navigate(lastUrl);
+        } else {
+            navigate("/materials"); // default to recommended
+        }
+    };
+
     return (
         <MainLayout>
             <div className="container mat-detail-page">
+                <button className="btn-back-to-list" onClick={handleBackInfo} style={{ display: 'flex', alignItems: 'center', gap: '6px', background: 'none', border: 'none', cursor: 'pointer', marginBottom: '20px', fontSize: '15px', color: '#666', padding: '0' }}>
+                    <ArrowLeft size={18} /> 이전 목록으로 돌아가기
+                </button>
                 <div className="detail-wrapper">
                     {/* Left: Gallery */}
                     <div className="detail-gallery">
