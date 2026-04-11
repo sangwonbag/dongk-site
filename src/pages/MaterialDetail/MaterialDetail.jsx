@@ -103,7 +103,7 @@ export default function MaterialDetail() {
                         <div className="main-image">
                             {selectedImg ? (
                                 <img 
-                                    src={selectedImg} 
+                                    src={`${selectedImg}?v=2`} 
                                     alt={item.name} 
                                     onError={() => handleImageError(selectedImg)} 
                                 />
@@ -116,7 +116,7 @@ export default function MaterialDetail() {
                                 {images.map((src, idx) => (
                                     <img
                                         key={src}
-                                        src={src}
+                                        src={`${src}?v=2`}
                                         className={`thumb ${selectedImg === src ? "active" : ""}`}
                                         onClick={() => setSelectedImg(src)}
                                         onError={() => handleImageError(src)}
