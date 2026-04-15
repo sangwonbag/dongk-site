@@ -18,7 +18,9 @@ const normalize = (str) => str ? str.replace(/[^a-zA-Z0-9가-힣]/g, '').toUpper
 // 1. Extract Codes from databases
 const materialsContent = fs.readFileSync(DATA_FILE, 'utf8');
 const sampleBooksContent = fs.readFileSync(SAMPLE_DATA_FILE, 'utf8');
-const combinedContent = materialsContent + '\n' + sampleBooksContent;
+const generatedContentPath = path.join(PROJECT_ROOT, 'src', 'data', 'generatedMaterials.js');
+const generatedContent = fs.existsSync(generatedContentPath) ? fs.readFileSync(generatedContentPath, 'utf8') : '';
+const combinedContent = materialsContent + '\n' + sampleBooksContent + '\n' + generatedContent;
 const items = new Set();
 
 // Strategy A: Find all property values for "id" or "code"
@@ -95,6 +97,10 @@ items.forEach(code => {
         // Determine index/priority
         if (nFile === nCode) {
             index = 0;
+        } else if (nFile.includes("ORIGINAL")) {
+            index = 0; // High priority for thumbnail
+        } else if (nFile.includes("DETAIL")) {
+            index = 999; // Low priority for thumbnail
         } else {
             // Check for trailing index like _1, _2
             const idxMatch = nameOnly.match(/[_\s](\d+)$/);
@@ -108,19 +114,23 @@ items.forEach(code => {
                 }
             }
         }
-        return { path: f, index, isThumb: f.includes('Thumbnail_Image') };
+        
+        const isDetail = nFile.includes("DETAIL");
+        return { path: f, index, isThumb: f.includes('Thumbnail_Image'), isDetail };
     });
 
     if (fileMatches.length === 0) return;
 
-    // Pick best THUMBNAIL: lowest index thumbnail, or lowest index cover
+    // Pick best THUMBNAIL: non-detail first, then lowest index thumbnail, or lowest index cover
     const thumbMatches = [...fileMatches].sort((a, b) => {
+        if (a.isDetail !== b.isDetail) return a.isDetail ? 1 : -1;
         if (a.isThumb !== b.isThumb) return a.isThumb ? -1 : 1;
         return a.index - b.index;
     });
 
-    // Pick best DETAIL: lowest index non-thumbnail (high-res), or lowest index thumbnail
+    // Pick best DETAIL: detail flag first, then lowest index non-thumbnail (high-res), or lowest index thumbnail
     const detailMatches = [...fileMatches].sort((a, b) => {
+        if (a.isDetail !== b.isDetail) return a.isDetail ? -1 : 1;
         if (a.isThumb !== b.isThumb) return a.isThumb ? 1 : -1;
         return a.index - b.index;
     });
