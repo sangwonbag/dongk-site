@@ -123,7 +123,9 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
             break;
 
         case '벽지':
-            if (brand.includes('신한')) {
+            if (line.includes('방염') || fileName.includes('방염') || (brandFolder && brandFolder.includes('방염'))) {
+                materialType = "방염";
+            } else if (brand.includes('신한')) {
                 materialType = line.includes('실크') || line.includes('스케치') || line.includes('리빙') || line.includes('월가드') ? "실크" : "합지";
             } else if (brand === 'LX') {
                 materialType = line.includes('디아망') || line.includes('베스트') || line.includes('테라피') ? "실크" : "실크";

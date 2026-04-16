@@ -5518,7 +5518,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F15053-2",
@@ -5528,7 +5528,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F15087-5",
@@ -5538,7 +5538,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F15087-7",
@@ -5548,7 +5548,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F15094-2",
@@ -5558,7 +5558,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F15094-3",
@@ -5568,7 +5568,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F15094-4",
@@ -5578,7 +5578,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F15099-1",
@@ -5588,7 +5588,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F15099-2",
@@ -5598,7 +5598,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F15099-3",
@@ -5608,7 +5608,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F15099-4",
@@ -5618,7 +5618,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F15099-8",
@@ -5628,7 +5628,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F15099-9",
@@ -5638,7 +5638,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F15102-1",
@@ -5648,7 +5648,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F15102-3",
@@ -5658,7 +5658,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F15102-4",
@@ -5668,7 +5668,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F15102-6",
@@ -5678,7 +5678,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F15102-7",
@@ -5688,7 +5688,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F15102-8",
@@ -5698,7 +5698,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F15103-1",
@@ -5708,7 +5708,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F15103-2",
@@ -5718,7 +5718,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F15103-3",
@@ -5728,7 +5728,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F15103-4",
@@ -5738,7 +5738,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F15105-1",
@@ -5748,7 +5748,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F15105-2",
@@ -5758,7 +5758,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F15105-3",
@@ -5768,7 +5768,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F15105-4",
@@ -5778,7 +5778,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70180-3",
@@ -5788,7 +5788,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70199-2",
@@ -5798,7 +5798,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70199-3",
@@ -5808,7 +5808,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70213-10",
@@ -5818,7 +5818,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70220-1",
@@ -5828,7 +5828,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70220-2",
@@ -5838,7 +5838,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70220-4",
@@ -5848,7 +5848,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70226-1",
@@ -5858,7 +5858,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70226-2",
@@ -5868,7 +5868,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70227-1",
@@ -5878,7 +5878,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70231-1",
@@ -5888,7 +5888,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70231-2",
@@ -5898,7 +5898,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70231-3",
@@ -5908,7 +5908,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70249-1",
@@ -5918,7 +5918,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70249-2",
@@ -5928,7 +5928,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70249-3",
@@ -5938,7 +5938,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70249-4",
@@ -5948,7 +5948,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70249-6",
@@ -5958,7 +5958,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70252-1",
@@ -5968,7 +5968,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70252-2",
@@ -5978,7 +5978,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70252-3",
@@ -5988,7 +5988,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70254-1",
@@ -5998,7 +5998,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70254-2",
@@ -6008,7 +6008,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70254-3",
@@ -6018,7 +6018,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70254-4",
@@ -6028,7 +6028,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70254-5",
@@ -6038,7 +6038,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70254-6",
@@ -6048,7 +6048,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70255-1",
@@ -6058,7 +6058,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70255-2",
@@ -6068,7 +6068,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_F70255-3",
@@ -6078,7 +6078,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_FC8052-1",
@@ -6088,7 +6088,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_FC8052-3",
@@ -6098,7 +6098,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_FC9643-10",
@@ -6108,7 +6108,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_FC9643-11",
@@ -6118,7 +6118,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_FK0007-1",
@@ -6128,7 +6128,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_FK0007-2",
@@ -6138,7 +6138,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_FK0007-4",
@@ -6148,7 +6148,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_FK0010-1",
@@ -6158,7 +6158,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_FK0010-2",
@@ -6168,7 +6168,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_FK0010-3",
@@ -6178,7 +6178,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_FK0010-4",
@@ -6188,7 +6188,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_FK0014-1",
@@ -6198,7 +6198,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_FK0014-2",
@@ -6208,7 +6208,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_FK0014-3",
@@ -6218,7 +6218,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_FK0014-4",
@@ -6228,7 +6228,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_FK0018-1",
@@ -6238,7 +6238,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_FK0018-2",
@@ -6248,7 +6248,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_FK0018-3",
@@ -6258,7 +6258,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_FK0019-1",
@@ -6268,7 +6268,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_FK0025-1",
@@ -6278,7 +6278,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_FK0025-2",
@@ -6288,7 +6288,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_FK0025-3",
@@ -6298,7 +6298,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-방염_FK0025-4",
@@ -6308,7 +6308,7 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
-    "materialType": "합지"
+    "materialType": "방염"
   },
   {
     "id": "신한-70287-1",
