@@ -1161,129 +1161,12 @@ export const materials = [
     }
   },
   {
-    "id": "LX-dbt3066_carpet_gray_450",
-    "code": "dbt3066_carpet_gray_450",
-    "name": "dbt3066_carpet_gray_450",
-    "brand": "LX",
-    "category": "데코타일",
-    "line": "botanic",
-    "price": 0
-  },
-  {
-    "id": "LX-dbt3067_stone_greige_450",
-    "code": "dbt3067_stone_greige_450",
-    "name": "dbt3067_stone_greige_450",
-    "brand": "LX",
-    "category": "데코타일",
-    "line": "botanic",
-    "price": 0
-  },
-  {
-    "id": "LX-dbt3069_stone_silver_450",
-    "code": "dbt3069_stone_silver_450",
-    "name": "dbt3069_stone_silver_450",
-    "brand": "LX",
-    "category": "데코타일",
-    "line": "botanic",
-    "price": 0
-  },
-  {
-    "id": "LX-dbt3074_limestone_lightgray_450",
-    "code": "dbt3074_limestone_lightgray_450",
-    "name": "dbt3074_limestone_lightgray_450",
-    "brand": "LX",
-    "category": "데코타일",
-    "line": "botanic",
-    "price": 0
-  },
-  {
-    "id": "LX-dbt3075_limestone_lightgray_450",
-    "code": "dbt3075_limestone_lightgray_450",
-    "name": "dbt3075_limestone_lightgray_450",
-    "brand": "LX",
-    "category": "데코타일",
-    "line": "botanic",
-    "price": 0
-  },
-  {
-    "id": "LX-dbt3082_concrete_lightgray_600",
-    "code": "dbt3082_concrete_lightgray_600",
-    "name": "dbt3082_concrete_lightgray_600",
-    "brand": "LX",
-    "category": "데코타일",
-    "line": "botanic",
-    "price": 0
-  },
-  {
-    "id": "LX-dbt3090_sandstone_lightgray_600",
-    "code": "dbt3090_sandstone_lightgray_600",
-    "name": "dbt3090_sandstone_lightgray_600",
-    "brand": "LX",
-    "category": "데코타일",
-    "line": "botanic",
-    "price": 0
-  },
-  {
-    "id": "LX-dbw3020_wood_brown_180",
-    "code": "dbw3020_wood_brown_180",
-    "name": "dbw3020_wood_brown_180",
-    "brand": "LX",
-    "category": "데코타일",
-    "line": "botanic",
-    "price": 0
-  },
-  {
-    "id": "LX-dbw3022_wood_brown_180",
-    "code": "dbw3022_wood_brown_180",
-    "name": "dbw3022_wood_brown_180",
-    "brand": "LX",
-    "category": "데코타일",
-    "line": "botanic",
-    "price": 0
-  },
-  {
-    "id": "LX-dbw3029_wood_lightbeige_180",
-    "code": "dbw3029_wood_lightbeige_180",
-    "name": "dbw3029_wood_lightbeige_180",
-    "brand": "LX",
-    "category": "데코타일",
-    "line": "botanic",
-    "price": 0
-  },
-  {
-    "id": "LX-dbw3037_wood_lightbeige_180",
-    "code": "dbw3037_wood_lightbeige_180",
-    "name": "dbw3037_wood_lightbeige_180",
-    "brand": "LX",
-    "category": "데코타일",
-    "line": "botanic",
-    "price": 0
-  },
-  {
-    "id": "LX-dbw3038_wood_beige_180",
-    "code": "dbw3038_wood_beige_180",
-    "name": "dbw3038_wood_beige_180",
-    "brand": "LX",
-    "category": "데코타일",
-    "line": "botanic",
-    "price": 0
-  },
-  {
-    "id": "LX-dbw3042_wood_lightbrown_180",
-    "code": "dbw3042_wood_lightbrown_180",
-    "name": "dbw3042_wood_lightbrown_180",
-    "brand": "LX",
-    "category": "데코타일",
-    "line": "botanic",
-    "price": 0
-  },
-  {
     "id": "LX-HOT 0065",
     "code": "HOT 0065",
     "name": "HOT 0065 라임 스톤 미스트",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse",
+    "line": "LX하우스",
     "price": 0
   },
   {
@@ -1292,7 +1175,7 @@ export const materials = [
     "name": "HOT 0066 라임 스톤 그레이",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse",
+    "line": "LX하우스",
     "price": 0
   },
   {
@@ -1301,7 +1184,7 @@ export const materials = [
     "name": "HOT 0067 라임 스톤 크림",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse",
+    "line": "LX하우스",
     "price": 0
   },
   {
@@ -1310,7 +1193,7 @@ export const materials = [
     "name": "HOT 0068 라임 스톤 베이지",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse",
+    "line": "LX하우스",
     "price": 0
   },
   {
@@ -1319,7 +1202,7 @@ export const materials = [
     "name": "HOT 0069 오셔너스 스노우",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse",
+    "line": "LX하우스",
     "price": 0
   },
   {
@@ -1328,7 +1211,7 @@ export const materials = [
     "name": "HOT 0070 오셔너스 쿨 그레이",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse",
+    "line": "LX하우스",
     "price": 0
   },
   {
@@ -1337,7 +1220,7 @@ export const materials = [
     "name": "HOT 0071 오셔너스 블랙",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse",
+    "line": "LX하우스",
     "price": 0
   },
   {
@@ -1346,7 +1229,7 @@ export const materials = [
     "name": "HOT 0072 퍼실 화이트",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse",
+    "line": "LX하우스",
     "price": 0
   },
   {
@@ -1355,7 +1238,7 @@ export const materials = [
     "name": "HOT 0073 카사 베이직",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse",
+    "line": "LX하우스",
     "price": 0
   },
   {
@@ -1364,7 +1247,7 @@ export const materials = [
     "name": "HOW 0032 오크 라이트",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse",
+    "line": "LX하우스",
     "price": 0
   },
   {
@@ -1373,7 +1256,7 @@ export const materials = [
     "name": "HOW 0033 오크 내추럴",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse",
+    "line": "LX하우스",
     "price": 0
   },
   {
@@ -1382,7 +1265,7 @@ export const materials = [
     "name": "HOW 0034 오크 스노우",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse",
+    "line": "LX하우스",
     "price": 0
   },
   {
@@ -1391,7 +1274,7 @@ export const materials = [
     "name": "HOW 0035 오크 베이지",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse",
+    "line": "LX하우스",
     "price": 0
   },
   {
@@ -1400,7 +1283,7 @@ export const materials = [
     "name": "HOW 0036 애쉬 라떼",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse",
+    "line": "LX하우스",
     "price": 0
   },
   {
@@ -1409,7 +1292,7 @@ export const materials = [
     "name": "HOW 0037 애쉬 그레이",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse",
+    "line": "LX하우스",
     "price": 0
   },
   {
@@ -1418,8 +1301,14 @@ export const materials = [
     "name": "DLT 3300",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse_decola",
-    "price": 0
+    "line": "LX하우스_데코레이s",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
   },
   {
     "id": "LX-DLT 3301",
@@ -1427,8 +1316,14 @@ export const materials = [
     "name": "DLT 3301",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse_decola",
-    "price": 0
+    "line": "LX하우스_데코레이s",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
   },
   {
     "id": "LX-DLT 3302",
@@ -1436,8 +1331,14 @@ export const materials = [
     "name": "DLT 3302",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse_decola",
-    "price": 0
+    "line": "LX하우스_데코레이s",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
   },
   {
     "id": "LX-DLT 3303",
@@ -1445,8 +1346,14 @@ export const materials = [
     "name": "DLT 3303",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse_decola",
-    "price": 0
+    "line": "LX하우스_데코레이s",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
   },
   {
     "id": "LX-DLT 3304_4장",
@@ -1454,8 +1361,14 @@ export const materials = [
     "name": "DLT 3304_4장",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse_decola",
-    "price": 0
+    "line": "LX하우스_데코레이s",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
   },
   {
     "id": "LX-DLT 3305_4장",
@@ -1463,8 +1376,14 @@ export const materials = [
     "name": "DLT 3305_4장",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse_decola",
-    "price": 0
+    "line": "LX하우스_데코레이s",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
   },
   {
     "id": "LX-DLT 3306",
@@ -1472,8 +1391,14 @@ export const materials = [
     "name": "DLT 3306",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse_decola",
-    "price": 0
+    "line": "LX하우스_데코레이s",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
   },
   {
     "id": "LX-DLT 3307",
@@ -1481,8 +1406,14 @@ export const materials = [
     "name": "DLT 3307",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse_decola",
-    "price": 0
+    "line": "LX하우스_데코레이s",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
   },
   {
     "id": "LX-DLT 3308",
@@ -1490,8 +1421,14 @@ export const materials = [
     "name": "DLT 3308",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse_decola",
-    "price": 0
+    "line": "LX하우스_데코레이s",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
   },
   {
     "id": "LX-DLT 3309",
@@ -1499,8 +1436,14 @@ export const materials = [
     "name": "DLT 3309",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse_decola",
-    "price": 0
+    "line": "LX하우스_데코레이s",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
   },
   {
     "id": "LX-DLT 3310",
@@ -1508,8 +1451,14 @@ export const materials = [
     "name": "DLT 3310",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse_decola",
-    "price": 0
+    "line": "LX하우스_데코레이s",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
   },
   {
     "id": "LX-DLT 3311",
@@ -1517,8 +1466,14 @@ export const materials = [
     "name": "DLT 3311",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse_decola",
-    "price": 0
+    "line": "LX하우스_데코레이s",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
   },
   {
     "id": "LX-DLT 3312",
@@ -1526,8 +1481,14 @@ export const materials = [
     "name": "DLT 3312",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse_decola",
-    "price": 0
+    "line": "LX하우스_데코레이s",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
   },
   {
     "id": "LX-DLT 3313",
@@ -1535,8 +1496,14 @@ export const materials = [
     "name": "DLT 3313",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse_decola",
-    "price": 0
+    "line": "LX하우스_데코레이s",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
   },
   {
     "id": "LX-DLT 3314",
@@ -1544,8 +1511,14 @@ export const materials = [
     "name": "DLT 3314",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse_decola",
-    "price": 0
+    "line": "LX하우스_데코레이s",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
   },
   {
     "id": "LX-DLT 3315",
@@ -1553,8 +1526,14 @@ export const materials = [
     "name": "DLT 3315",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse_decola",
-    "price": 0
+    "line": "LX하우스_데코레이s",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
   },
   {
     "id": "LX-DLT 3316",
@@ -1562,8 +1541,209 @@ export const materials = [
     "name": "DLT 3316",
     "brand": "LX",
     "category": "데코타일",
-    "line": "LXhouse_decola",
-    "price": 0
+    "line": "LX하우스_데코레이s",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DBT3066",
+    "code": "DBT3066",
+    "name": "DBT3066 카펫 그레이 450",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "보타닉",
+    "price": 28000,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DBT3067",
+    "code": "DBT3067",
+    "name": "DBT3067 스톤 그레이지 450",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "보타닉",
+    "price": 28000,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DBT3069",
+    "code": "DBT3069",
+    "name": "DBT3069 스톤 실버 450",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "보타닉",
+    "price": 28000,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DBT3074",
+    "code": "DBT3074",
+    "name": "DBT3074 라임스톤 라이트그레이 450",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "보타닉",
+    "price": 28000,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DBT3075",
+    "code": "DBT3075",
+    "name": "DBT3075 라임스톤 라이트그레이 450",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "보타닉",
+    "price": 28000,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DBT3082",
+    "code": "DBT3082",
+    "name": "DBT3082 콘크리트 라이트그레이 600",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "보타닉",
+    "price": 28000,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DBT3090",
+    "code": "DBT3090",
+    "name": "DBT3090 샌드스톤 라이트그레이 600",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "보타닉",
+    "price": 28000,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DBW3020",
+    "code": "DBW3020",
+    "name": "DBW3020 우드 브라운 180",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "보타닉",
+    "price": 28000,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DBW3022",
+    "code": "DBW3022",
+    "name": "DBW3022 우드 브라운 180",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "보타닉",
+    "price": 28000,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DBW3029",
+    "code": "DBW3029",
+    "name": "DBW3029 우드 라이트베이지 180",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "보타닉",
+    "price": 28000,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DBW3037",
+    "code": "DBW3037",
+    "name": "DBW3037 우드 라이트베이지 180",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "보타닉",
+    "price": 28000,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DBW3038",
+    "code": "DBW3038",
+    "name": "DBW3038 우드 베이지 180",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "보타닉",
+    "price": 28000,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DBW3042",
+    "code": "DBW3042",
+    "name": "DBW3042 우드 라이트브라운 180",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "보타닉",
+    "price": 28000,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
   },
   {
     "id": "YO-ABSTRACT",
