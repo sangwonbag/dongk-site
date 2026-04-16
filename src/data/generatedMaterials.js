@@ -5,11 +5,17 @@ export const ALL_BRANDS = [
   "LX",
   "동화",
   "신한(KCC)",
-  "LX 1.8T"
+  "LX 1.8T",
+  "LX 5.0T",
+  "LX 2.0T",
+  "LX 2.7T",
+  "LX 3.2T",
+  "LX 4.5T",
+  "LX 2.2T"
 ];
 
 export const BRANDS_BY_CATEGORY = {
-  "데코": [
+  "데코타일": [
     "동신",
     "KCC",
     "LX"
@@ -22,7 +28,13 @@ export const BRANDS_BY_CATEGORY = {
     "신한(KCC)"
   ],
   "장판": [
-    "LX 1.8T"
+    "LX 1.8T",
+    "LX 5.0T",
+    "LX 2.0T",
+    "LX 2.7T",
+    "LX 3.2T",
+    "LX 4.5T",
+    "LX 2.2T"
   ]
 };
 
@@ -32,7 +44,7 @@ export const materials = [
     "code": "AB_6711",
     "name": "AB_6711",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 24000,
     "materialType": "동신 우드",
@@ -48,7 +60,7 @@ export const materials = [
     "code": "AB_6712",
     "name": "AB_6712",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 24000,
     "materialType": "동신 우드",
@@ -64,7 +76,7 @@ export const materials = [
     "code": "AB_6717",
     "name": "AB_6717",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 24000,
     "materialType": "동신 우드",
@@ -80,7 +92,7 @@ export const materials = [
     "code": "AB_6727",
     "name": "AB_6727",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 24000,
     "materialType": "동신 우드",
@@ -96,7 +108,7 @@ export const materials = [
     "code": "AB_6739",
     "name": "AB_6739",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 24000,
     "materialType": "동신 우드",
@@ -112,7 +124,7 @@ export const materials = [
     "code": "AB_6740",
     "name": "AB_6740",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 24000,
     "materialType": "동신 우드",
@@ -128,7 +140,7 @@ export const materials = [
     "code": "AB_6741",
     "name": "AB_6741",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 24000,
     "materialType": "동신 우드",
@@ -144,7 +156,7 @@ export const materials = [
     "code": "AB_6899",
     "name": "AB_6899",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 24000,
     "materialType": "동신 우드",
@@ -160,7 +172,7 @@ export const materials = [
     "code": "AB_6915",
     "name": "AB_6915",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 24000,
     "materialType": "동신 우드",
@@ -176,7 +188,7 @@ export const materials = [
     "code": "AB_6933",
     "name": "AB_6933",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 24000,
     "materialType": "동신 우드",
@@ -192,7 +204,7 @@ export const materials = [
     "code": "AB_6978",
     "name": "AB_6978",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 24000,
     "materialType": "동신 우드",
@@ -208,7 +220,7 @@ export const materials = [
     "code": "AB_6981",
     "name": "AB_6981",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 24000,
     "materialType": "동신 우드",
@@ -224,7 +236,7 @@ export const materials = [
     "code": "AB_6984",
     "name": "AB_6984",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 24000,
     "materialType": "동신 우드",
@@ -240,7 +252,7 @@ export const materials = [
     "code": "AB_6990",
     "name": "AB_6990",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 24000,
     "materialType": "동신 우드",
@@ -256,7 +268,7 @@ export const materials = [
     "code": "AH_505",
     "name": "AH_505",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 36000,
     "materialType": "동신 우드",
@@ -272,7 +284,7 @@ export const materials = [
     "code": "AH_506",
     "name": "AH_506",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 36000,
     "materialType": "동신 우드",
@@ -288,7 +300,7 @@ export const materials = [
     "code": "AH_507",
     "name": "AH_507",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 36000,
     "materialType": "동신 우드",
@@ -304,7 +316,7 @@ export const materials = [
     "code": "AH_509",
     "name": "AH_509",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 36000,
     "materialType": "동신 우드",
@@ -320,7 +332,7 @@ export const materials = [
     "code": "AH_510",
     "name": "AH_510",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 36000,
     "materialType": "동신 우드",
@@ -336,7 +348,7 @@ export const materials = [
     "code": "AH_726",
     "name": "AH_726",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 36000,
     "materialType": "동신 우드",
@@ -352,7 +364,7 @@ export const materials = [
     "code": "AH_728",
     "name": "AH_728",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 36000,
     "materialType": "동신 우드",
@@ -368,7 +380,7 @@ export const materials = [
     "code": "AH_729",
     "name": "AH_729",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 36000,
     "materialType": "동신 우드",
@@ -384,7 +396,7 @@ export const materials = [
     "code": "AH_730",
     "name": "AH_730",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 36000,
     "materialType": "동신 우드",
@@ -400,7 +412,7 @@ export const materials = [
     "code": "AH_734",
     "name": "AH_734",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 36000,
     "materialType": "동신 우드",
@@ -416,7 +428,7 @@ export const materials = [
     "code": "AH_735",
     "name": "AH_735",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 36000,
     "materialType": "동신 우드",
@@ -432,7 +444,7 @@ export const materials = [
     "code": "AH_736",
     "name": "AH_736",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 36000,
     "materialType": "동신 우드",
@@ -448,7 +460,7 @@ export const materials = [
     "code": "AH_737",
     "name": "AH_737",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 36000,
     "materialType": "동신 우드",
@@ -464,7 +476,7 @@ export const materials = [
     "code": "AH_738",
     "name": "AH_738",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 36000,
     "materialType": "동신 우드",
@@ -480,7 +492,7 @@ export const materials = [
     "code": "AH_739",
     "name": "AH_739",
     "brand": "동신",
-    "category": "데코",
+    "category": "데코타일",
     "line": "",
     "price": 36000,
     "materialType": "동신 우드",
@@ -492,11 +504,11 @@ export const materials = [
     }
   },
   {
-    "id": "TS5502P_0",
-    "code": "TS5502P_0",
-    "name": "TS5502P_0",
+    "id": "TS5502P",
+    "code": "TS5502P",
+    "name": "TS5502P",
     "brand": "KCC",
-    "category": "데코",
+    "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
@@ -508,75 +520,11 @@ export const materials = [
     }
   },
   {
-    "id": "TS5502P_1",
-    "code": "TS5502P_1",
-    "name": "TS5502P_1",
+    "id": "TS5503P",
+    "code": "TS5503P",
+    "name": "TS5503P",
     "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5502P_2",
-    "code": "TS5502P_2",
-    "name": "TS5502P_2",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5503P_0",
-    "code": "TS5503P_0",
-    "name": "TS5503P_0",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5503P_1",
-    "code": "TS5503P_1",
-    "name": "TS5503P_1",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5503P_2",
-    "code": "TS5503P_2",
-    "name": "TS5503P_2",
-    "brand": "KCC",
-    "category": "데코",
+    "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
@@ -590,9 +538,9 @@ export const materials = [
   {
     "id": "TS5508",
     "code": "TS5508",
-    "name": "TS5508 브러쉬 카펫_2",
+    "name": "TS5508 브러쉬 카펫",
     "brand": "KCC",
-    "category": "데코",
+    "category": "데코타일",
     "line": "KCC_square",
     "price": 0,
     "thickness": "3.0mm",
@@ -603,11 +551,11 @@ export const materials = [
     }
   },
   {
-    "id": "TS5510P_0",
-    "code": "TS5510P_0",
-    "name": "TS5510P_0",
+    "id": "TS5510P",
+    "code": "TS5510P",
+    "name": "TS5510P",
     "brand": "KCC",
-    "category": "데코",
+    "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
@@ -619,11 +567,11 @@ export const materials = [
     }
   },
   {
-    "id": "TS5510P_1",
-    "code": "TS5510P_1",
-    "name": "TS5510P_1",
+    "id": "TS5511P",
+    "code": "TS5511P",
+    "name": "TS5511P",
     "brand": "KCC",
-    "category": "데코",
+    "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
@@ -635,11 +583,11 @@ export const materials = [
     }
   },
   {
-    "id": "TS5510P_2",
-    "code": "TS5510P_2",
-    "name": "TS5510P_2",
+    "id": "TS5516P",
+    "code": "TS5516P",
+    "name": "TS5516P",
     "brand": "KCC",
-    "category": "데코",
+    "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
@@ -651,11 +599,11 @@ export const materials = [
     }
   },
   {
-    "id": "TS5511P_0",
-    "code": "TS5511P_0",
-    "name": "TS5511P_0",
+    "id": "TS5518P",
+    "code": "TS5518P",
+    "name": "TS5518P",
     "brand": "KCC",
-    "category": "데코",
+    "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
@@ -667,11 +615,11 @@ export const materials = [
     }
   },
   {
-    "id": "TS5511P_1",
-    "code": "TS5511P_1",
-    "name": "TS5511P_1",
+    "id": "TS5519P",
+    "code": "TS5519P",
+    "name": "TS5519P",
     "brand": "KCC",
-    "category": "데코",
+    "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
@@ -683,11 +631,123 @@ export const materials = [
     }
   },
   {
-    "id": "TS5511P_2",
-    "code": "TS5511P_2",
-    "name": "TS5511P_2",
+    "id": "TS5531M",
+    "code": "TS5531M",
+    "name": "TS5531M",
     "brand": "KCC",
-    "category": "데코",
+    "category": "데코타일",
+    "line": "KCC_square",
+    "price": 26000,
+    "type": "600",
+    "thickness": "3.0mm",
+    "specs": {
+      "thickness": "3.0mm",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
+  },
+  {
+    "id": "TS5532M",
+    "code": "TS5532M",
+    "name": "TS5532M",
+    "brand": "KCC",
+    "category": "데코타일",
+    "line": "KCC_square",
+    "price": 26000,
+    "type": "600",
+    "thickness": "3.0mm",
+    "specs": {
+      "thickness": "3.0mm",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
+  },
+  {
+    "id": "TS5533M",
+    "code": "TS5533M",
+    "name": "TS5533M",
+    "brand": "KCC",
+    "category": "데코타일",
+    "line": "KCC_square",
+    "price": 26000,
+    "type": "600",
+    "thickness": "3.0mm",
+    "specs": {
+      "thickness": "3.0mm",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
+  },
+  {
+    "id": "TS5534M",
+    "code": "TS5534M",
+    "name": "TS5534M",
+    "brand": "KCC",
+    "category": "데코타일",
+    "line": "KCC_square",
+    "price": 26000,
+    "type": "600",
+    "thickness": "3.0mm",
+    "specs": {
+      "thickness": "3.0mm",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
+  },
+  {
+    "id": "TS5535M",
+    "code": "TS5535M",
+    "name": "TS5535M",
+    "brand": "KCC",
+    "category": "데코타일",
+    "line": "KCC_square",
+    "price": 26000,
+    "type": "600",
+    "thickness": "3.0mm",
+    "specs": {
+      "thickness": "3.0mm",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
+  },
+  {
+    "id": "TS5536M",
+    "code": "TS5536M",
+    "name": "TS5536M",
+    "brand": "KCC",
+    "category": "데코타일",
+    "line": "KCC_square",
+    "price": 26000,
+    "type": "600",
+    "thickness": "3.0mm",
+    "specs": {
+      "thickness": "3.0mm",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
+  },
+  {
+    "id": "TS5537M",
+    "code": "TS5537M",
+    "name": "TS5537M",
+    "brand": "KCC",
+    "category": "데코타일",
+    "line": "KCC_square",
+    "price": 26000,
+    "type": "600",
+    "thickness": "3.0mm",
+    "specs": {
+      "thickness": "3.0mm",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
+  },
+  {
+    "id": "TS5541P",
+    "code": "TS5541P",
+    "name": "TS5541P",
+    "brand": "KCC",
+    "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
@@ -699,11 +759,11 @@ export const materials = [
     }
   },
   {
-    "id": "TS5516P_0",
-    "code": "TS5516P_0",
-    "name": "TS5516P_0",
+    "id": "TS5542P",
+    "code": "TS5542P",
+    "name": "TS5542P",
     "brand": "KCC",
-    "category": "데코",
+    "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
@@ -715,11 +775,11 @@ export const materials = [
     }
   },
   {
-    "id": "TS5516P_1",
-    "code": "TS5516P_1",
-    "name": "TS5516P_1",
+    "id": "TS5543P",
+    "code": "TS5543P",
+    "name": "TS5543P",
     "brand": "KCC",
-    "category": "데코",
+    "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
@@ -731,11 +791,11 @@ export const materials = [
     }
   },
   {
-    "id": "TS5516P_2",
-    "code": "TS5516P_2",
-    "name": "TS5516P_2",
+    "id": "TS5544P",
+    "code": "TS5544P",
+    "name": "TS5544P",
     "brand": "KCC",
-    "category": "데코",
+    "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
@@ -747,11 +807,11 @@ export const materials = [
     }
   },
   {
-    "id": "TS5518P_0",
-    "code": "TS5518P_0",
-    "name": "TS5518P_0",
+    "id": "TS5545P",
+    "code": "TS5545P",
+    "name": "TS5545P",
     "brand": "KCC",
-    "category": "데코",
+    "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
@@ -763,11 +823,11 @@ export const materials = [
     }
   },
   {
-    "id": "TS5518P_1",
-    "code": "TS5518P_1",
-    "name": "TS5518P_1",
+    "id": "TS5546P",
+    "code": "TS5546P",
+    "name": "TS5546P",
     "brand": "KCC",
-    "category": "데코",
+    "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
@@ -779,11 +839,11 @@ export const materials = [
     }
   },
   {
-    "id": "TS5518P_2",
-    "code": "TS5518P_2",
-    "name": "TS5518P_2",
+    "id": "TS5547P",
+    "code": "TS5547P",
+    "name": "TS5547P",
     "brand": "KCC",
-    "category": "데코",
+    "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
@@ -795,651 +855,11 @@ export const materials = [
     }
   },
   {
-    "id": "TS5519P_0",
-    "code": "TS5519P_0",
-    "name": "TS5519P_0",
+    "id": "TS5548P",
+    "code": "TS5548P",
+    "name": "TS5548P",
     "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5519P_1",
-    "code": "TS5519P_1",
-    "name": "TS5519P_1",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5519P_2",
-    "code": "TS5519P_2",
-    "name": "TS5519P_2",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5531M_0",
-    "code": "TS5531M_0",
-    "name": "TS5531M_0",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5531M_1",
-    "code": "TS5531M_1",
-    "name": "TS5531M_1",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5531M_2",
-    "code": "TS5531M_2",
-    "name": "TS5531M_2",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5532M_0",
-    "code": "TS5532M_0",
-    "name": "TS5532M_0",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5532M_1",
-    "code": "TS5532M_1",
-    "name": "TS5532M_1",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5532M_2",
-    "code": "TS5532M_2",
-    "name": "TS5532M_2",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5533M_0",
-    "code": "TS5533M_0",
-    "name": "TS5533M_0",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5533M_1",
-    "code": "TS5533M_1",
-    "name": "TS5533M_1",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5534M_0",
-    "code": "TS5534M_0",
-    "name": "TS5534M_0",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5534M_1",
-    "code": "TS5534M_1",
-    "name": "TS5534M_1",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5534M_2",
-    "code": "TS5534M_2",
-    "name": "TS5534M_2",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5535M_0",
-    "code": "TS5535M_0",
-    "name": "TS5535M_0",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5535M_1",
-    "code": "TS5535M_1",
-    "name": "TS5535M_1",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5535M_2",
-    "code": "TS5535M_2",
-    "name": "TS5535M_2",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5536M_0",
-    "code": "TS5536M_0",
-    "name": "TS5536M_0",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5536M_1",
-    "code": "TS5536M_1",
-    "name": "TS5536M_1",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5537M_0",
-    "code": "TS5537M_0",
-    "name": "TS5537M_0",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5537M_1",
-    "code": "TS5537M_1",
-    "name": "TS5537M_1",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5541P_0",
-    "code": "TS5541P_0",
-    "name": "TS5541P_0",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5541P_1",
-    "code": "TS5541P_1",
-    "name": "TS5541P_1",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5542P_0",
-    "code": "TS5542P_0",
-    "name": "TS5542P_0",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5542P_3",
-    "code": "TS5542P_3",
-    "name": "TS5542P_3",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5543P_0",
-    "code": "TS5543P_0",
-    "name": "TS5543P_0",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5543P_1",
-    "code": "TS5543P_1",
-    "name": "TS5543P_1",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5543P_2",
-    "code": "TS5543P_2",
-    "name": "TS5543P_2",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5544P_0",
-    "code": "TS5544P_0",
-    "name": "TS5544P_0",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5544P_1",
-    "code": "TS5544P_1",
-    "name": "TS5544P_1",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5545P_0",
-    "code": "TS5545P_0",
-    "name": "TS5545P_0",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5545P_1",
-    "code": "TS5545P_1",
-    "name": "TS5545P_1",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5545P_2",
-    "code": "TS5545P_2",
-    "name": "TS5545P_2",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5546P_0",
-    "code": "TS5546P_0",
-    "name": "TS5546P_0",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5546P_1",
-    "code": "TS5546P_1",
-    "name": "TS5546P_1",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5547P_0",
-    "code": "TS5547P_0",
-    "name": "TS5547P_0",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5547P_1",
-    "code": "TS5547P_1",
-    "name": "TS5547P_1",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5547P_2",
-    "code": "TS5547P_2",
-    "name": "TS5547P_2",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5548P_0",
-    "code": "TS5548P_0",
-    "name": "TS5548P_0",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5548P_1",
-    "code": "TS5548P_1",
-    "name": "TS5548P_1",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5548P_2",
-    "code": "TS5548P_2",
-    "name": "TS5548P_2",
-    "brand": "KCC",
-    "category": "데코",
+    "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
@@ -1453,9 +873,9 @@ export const materials = [
   {
     "id": "TS5549M",
     "code": "TS5549M",
-    "name": "TS5549M 샌드스톤_1",
+    "name": "TS5549M 샌드스톤",
     "brand": "KCC",
-    "category": "데코",
+    "category": "데코타일",
     "line": "KCC_square",
     "price": 26000,
     "type": "600",
@@ -1467,11 +887,11 @@ export const materials = [
     }
   },
   {
-    "id": "TS5549P_0",
-    "code": "TS5549P_0",
-    "name": "TS5549P_0",
+    "id": "TS5549P",
+    "code": "TS5549P",
+    "name": "TS5549P",
     "brand": "KCC",
-    "category": "데코",
+    "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
@@ -1483,11 +903,11 @@ export const materials = [
     }
   },
   {
-    "id": "TS5550P_0",
-    "code": "TS5550P_0",
-    "name": "TS5550P_0",
+    "id": "TS5550P",
+    "code": "TS5550P",
+    "name": "TS5550P",
     "brand": "KCC",
-    "category": "데코",
+    "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
@@ -1499,11 +919,11 @@ export const materials = [
     }
   },
   {
-    "id": "TS5550P_1",
-    "code": "TS5550P_1",
-    "name": "TS5550P_1",
+    "id": "TS5551P",
+    "code": "TS5551P",
+    "name": "TS5551P",
     "brand": "KCC",
-    "category": "데코",
+    "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
@@ -1515,11 +935,11 @@ export const materials = [
     }
   },
   {
-    "id": "TS5550P_2",
-    "code": "TS5550P_2",
-    "name": "TS5550P_2",
+    "id": "TS5552P",
+    "code": "TS5552P",
+    "name": "TS5552P",
     "brand": "KCC",
-    "category": "데코",
+    "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
@@ -1531,91 +951,11 @@ export const materials = [
     }
   },
   {
-    "id": "TS5551P_0",
-    "code": "TS5551P_0",
-    "name": "TS5551P_0",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5551P_1",
-    "code": "TS5551P_1",
-    "name": "TS5551P_1",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5551P_2",
-    "code": "TS5551P_2",
-    "name": "TS5551P_2",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5552P_0",
-    "code": "TS5552P_0",
-    "name": "TS5552P_0",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TS5552P_1",
-    "code": "TS5552P_1",
-    "name": "TS5552P_1",
-    "brand": "KCC",
-    "category": "데코",
-    "line": "KCC_square",
-    "price": 25000,
-    "type": "450",
-    "thickness": "3.0mm",
-    "specs": {
-      "thickness": "3.0mm",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    }
-  },
-  {
-    "id": "TW",
-    "code": "TW",
+    "id": "TW 5102G",
+    "code": "TW 5102G",
     "name": "TW 5102G",
     "brand": "KCC",
-    "category": "데코",
+    "category": "데코타일",
     "line": "KCC_wood",
     "price": 25000,
     "type": "wood",
@@ -1627,29 +967,578 @@ export const materials = [
     }
   },
   {
-    "id": "LX-HOT",
-    "code": "HOT",
+    "id": "TW 5103G",
+    "code": "TW 5103G",
+    "name": "TW 5103G",
+    "brand": "KCC",
+    "category": "데코타일",
+    "line": "KCC_wood",
+    "price": 25000,
+    "type": "wood",
+    "thickness": "3.0mm",
+    "specs": {
+      "thickness": "3.0mm",
+      "size": "184x950mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "TW 5104G",
+    "code": "TW 5104G",
+    "name": "TW 5104G",
+    "brand": "KCC",
+    "category": "데코타일",
+    "line": "KCC_wood",
+    "price": 25000,
+    "type": "wood",
+    "thickness": "3.0mm",
+    "specs": {
+      "thickness": "3.0mm",
+      "size": "184x950mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "TW 5105G",
+    "code": "TW 5105G",
+    "name": "TW 5105G",
+    "brand": "KCC",
+    "category": "데코타일",
+    "line": "KCC_wood",
+    "price": 25000,
+    "type": "wood",
+    "thickness": "3.0mm",
+    "specs": {
+      "thickness": "3.0mm",
+      "size": "184x950mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "TW 5106G",
+    "code": "TW 5106G",
+    "name": "TW 5106G",
+    "brand": "KCC",
+    "category": "데코타일",
+    "line": "KCC_wood",
+    "price": 25000,
+    "type": "wood",
+    "thickness": "3.0mm",
+    "specs": {
+      "thickness": "3.0mm",
+      "size": "184x950mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "TW 5107G",
+    "code": "TW 5107G",
+    "name": "TW 5107G",
+    "brand": "KCC",
+    "category": "데코타일",
+    "line": "KCC_wood",
+    "price": 25000,
+    "type": "wood",
+    "thickness": "3.0mm",
+    "specs": {
+      "thickness": "3.0mm",
+      "size": "184x950mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "TW 5108G",
+    "code": "TW 5108G",
+    "name": "TW 5108G",
+    "brand": "KCC",
+    "category": "데코타일",
+    "line": "KCC_wood",
+    "price": 25000,
+    "type": "wood",
+    "thickness": "3.0mm",
+    "specs": {
+      "thickness": "3.0mm",
+      "size": "184x950mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "TW 5109G",
+    "code": "TW 5109G",
+    "name": "TW 5109G",
+    "brand": "KCC",
+    "category": "데코타일",
+    "line": "KCC_wood",
+    "price": 25000,
+    "type": "wood",
+    "thickness": "3.0mm",
+    "specs": {
+      "thickness": "3.0mm",
+      "size": "184x950mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "TW 5110G",
+    "code": "TW 5110G",
+    "name": "TW 5110G",
+    "brand": "KCC",
+    "category": "데코타일",
+    "line": "KCC_wood",
+    "price": 25000,
+    "type": "wood",
+    "thickness": "3.0mm",
+    "specs": {
+      "thickness": "3.0mm",
+      "size": "184x950mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "TW 5111G",
+    "code": "TW 5111G",
+    "name": "TW 5111G",
+    "brand": "KCC",
+    "category": "데코타일",
+    "line": "KCC_wood",
+    "price": 25000,
+    "type": "wood",
+    "thickness": "3.0mm",
+    "specs": {
+      "thickness": "3.0mm",
+      "size": "184x950mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "TW 5112G",
+    "code": "TW 5112G",
+    "name": "TW 5112G",
+    "brand": "KCC",
+    "category": "데코타일",
+    "line": "KCC_wood",
+    "price": 25000,
+    "type": "wood",
+    "thickness": "3.0mm",
+    "specs": {
+      "thickness": "3.0mm",
+      "size": "184x950mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "TW 5119G",
+    "code": "TW 5119G",
+    "name": "TW 5119G",
+    "brand": "KCC",
+    "category": "데코타일",
+    "line": "KCC_wood",
+    "price": 25000,
+    "type": "wood",
+    "thickness": "3.0mm",
+    "specs": {
+      "thickness": "3.0mm",
+      "size": "184x950mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "TW 5120G",
+    "code": "TW 5120G",
+    "name": "TW 5120G",
+    "brand": "KCC",
+    "category": "데코타일",
+    "line": "KCC_wood",
+    "price": 25000,
+    "type": "wood",
+    "thickness": "3.0mm",
+    "specs": {
+      "thickness": "3.0mm",
+      "size": "184x950mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "LX-HOT 0065",
+    "code": "HOT 0065",
     "name": "HOT 0065 라임 스톤 미스트",
     "brand": "LX",
-    "category": "데코",
+    "category": "데코타일",
     "line": "LX하우스",
     "price": 0
   },
   {
-    "id": "LX-HOW",
-    "code": "HOW",
+    "id": "LX-HOT 0066",
+    "code": "HOT 0066",
+    "name": "HOT 0066 라임 스톤 그레이",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우스",
+    "price": 0
+  },
+  {
+    "id": "LX-HOT 0067",
+    "code": "HOT 0067",
+    "name": "HOT 0067 라임 스톤 크림",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우스",
+    "price": 0
+  },
+  {
+    "id": "LX-HOT 0068",
+    "code": "HOT 0068",
+    "name": "HOT 0068 라임 스톤 베이지",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우스",
+    "price": 0
+  },
+  {
+    "id": "LX-HOT 0069",
+    "code": "HOT 0069",
+    "name": "HOT 0069 오셔너스 스노우",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우스",
+    "price": 0
+  },
+  {
+    "id": "LX-HOT 0070",
+    "code": "HOT 0070",
+    "name": "HOT 0070 오셔너스 쿨 그레이",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우스",
+    "price": 0
+  },
+  {
+    "id": "LX-HOT 0071",
+    "code": "HOT 0071",
+    "name": "HOT 0071 오셔너스 블랙",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우스",
+    "price": 0
+  },
+  {
+    "id": "LX-HOT 0072",
+    "code": "HOT 0072",
+    "name": "HOT 0072 퍼실 화이트",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우스",
+    "price": 0
+  },
+  {
+    "id": "LX-HOT 0073",
+    "code": "HOT 0073",
+    "name": "HOT 0073 카사 베이직",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우스",
+    "price": 0
+  },
+  {
+    "id": "LX-HOW 0032",
+    "code": "HOW 0032",
     "name": "HOW 0032 오크 라이트",
     "brand": "LX",
-    "category": "데코",
+    "category": "데코타일",
     "line": "LX하우스",
     "price": 0
   },
   {
-    "id": "LX-DLT",
-    "code": "DLT",
+    "id": "LX-HOW 0033",
+    "code": "HOW 0033",
+    "name": "HOW 0033 오크 내추럴",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우스",
+    "price": 0
+  },
+  {
+    "id": "LX-HOW 0034",
+    "code": "HOW 0034",
+    "name": "HOW 0034 오크 스노우",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우스",
+    "price": 0
+  },
+  {
+    "id": "LX-HOW 0035",
+    "code": "HOW 0035",
+    "name": "HOW 0035 오크 베이지",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우스",
+    "price": 0
+  },
+  {
+    "id": "LX-HOW 0036",
+    "code": "HOW 0036",
+    "name": "HOW 0036 애쉬 라떼",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우스",
+    "price": 0
+  },
+  {
+    "id": "LX-HOW 0037",
+    "code": "HOW 0037",
+    "name": "HOW 0037 애쉬 그레이",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우스",
+    "price": 0
+  },
+  {
+    "id": "LX-DLT 3300",
+    "code": "DLT 3300",
     "name": "DLT 3300",
     "brand": "LX",
-    "category": "데코",
+    "category": "데코타일",
+    "line": "LX하우시스_데코레이S",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DLT 3301",
+    "code": "DLT 3301",
+    "name": "DLT 3301",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우시스_데코레이S",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DLT 3302",
+    "code": "DLT 3302",
+    "name": "DLT 3302",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우시스_데코레이S",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DLT 3303",
+    "code": "DLT 3303",
+    "name": "DLT 3303",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우시스_데코레이S",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DLT 3304_4장",
+    "code": "DLT 3304_4장",
+    "name": "DLT 3304_4장",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우시스_데코레이S",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DLT 3305_4장",
+    "code": "DLT 3305_4장",
+    "name": "DLT 3305_4장",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우시스_데코레이S",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DLT 3306",
+    "code": "DLT 3306",
+    "name": "DLT 3306",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우시스_데코레이S",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DLT 3307",
+    "code": "DLT 3307",
+    "name": "DLT 3307",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우시스_데코레이S",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DLT 3308",
+    "code": "DLT 3308",
+    "name": "DLT 3308",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우시스_데코레이S",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DLT 3309",
+    "code": "DLT 3309",
+    "name": "DLT 3309",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우시스_데코레이S",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DLT 3310",
+    "code": "DLT 3310",
+    "name": "DLT 3310",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우시스_데코레이S",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DLT 3311",
+    "code": "DLT 3311",
+    "name": "DLT 3311",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우시스_데코레이S",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DLT 3312",
+    "code": "DLT 3312",
+    "name": "DLT 3312",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우시스_데코레이S",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DLT 3313",
+    "code": "DLT 3313",
+    "name": "DLT 3313",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우시스_데코레이S",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DLT 3314",
+    "code": "DLT 3314",
+    "name": "DLT 3314",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우시스_데코레이S",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DLT 3315",
+    "code": "DLT 3315",
+    "name": "DLT 3315",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "LX하우시스_데코레이S",
+    "price": 0,
+    "thickness": "3.0T",
+    "specs": {
+      "thickness": "3.0T",
+      "size": "",
+      "packing": ""
+    }
+  },
+  {
+    "id": "LX-DLT 3316",
+    "code": "DLT 3316",
+    "name": "DLT 3316",
+    "brand": "LX",
+    "category": "데코타일",
     "line": "LX하우시스_데코레이S",
     "price": 0,
     "thickness": "3.0T",
@@ -10132,9 +10021,9 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "LX-CM21882_1",
-    "code": "CM21882_1",
-    "name": "CM21882_1",
+    "id": "LX-CM21882",
+    "code": "CM21882",
+    "name": "CM21882",
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
@@ -10147,9 +10036,9 @@ export const materials = [
     }
   },
   {
-    "id": "LX-CM22771_1",
-    "code": "CM22771_1",
-    "name": "CM22771_1",
+    "id": "LX-CM22771",
+    "code": "CM22771",
+    "name": "CM22771",
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
@@ -10162,9 +10051,9 @@ export const materials = [
     }
   },
   {
-    "id": "LX-CM23691_1",
-    "code": "CM23691_1",
-    "name": "CM23691_1",
+    "id": "LX-CM23691",
+    "code": "CM23691",
+    "name": "CM23691",
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
@@ -10177,9 +10066,9 @@ export const materials = [
     }
   },
   {
-    "id": "LX-CM23692_1",
-    "code": "CM23692_1",
-    "name": "CM23692_1",
+    "id": "LX-CM23692",
+    "code": "CM23692",
+    "name": "CM23692",
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
@@ -10192,9 +10081,9 @@ export const materials = [
     }
   },
   {
-    "id": "LX-CM24081_1",
-    "code": "CM24081_1",
-    "name": "CM24081_1",
+    "id": "LX-CM24081",
+    "code": "CM24081",
+    "name": "CM24081",
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
@@ -10207,9 +10096,9 @@ export const materials = [
     }
   },
   {
-    "id": "LX-CM24083_1",
-    "code": "CM24083_1",
-    "name": "CM24083_1",
+    "id": "LX-CM24083",
+    "code": "CM24083",
+    "name": "CM24083",
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
@@ -10222,9 +10111,9 @@ export const materials = [
     }
   },
   {
-    "id": "LX-CM24131_1",
-    "code": "CM24131_1",
-    "name": "CM24131_1",
+    "id": "LX-CM24131",
+    "code": "CM24131",
+    "name": "CM24131",
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
@@ -10237,9 +10126,9 @@ export const materials = [
     }
   },
   {
-    "id": "LX-CM24133_1",
-    "code": "CM24133_1",
-    "name": "CM24133_1",
+    "id": "LX-CM24133",
+    "code": "CM24133",
+    "name": "CM24133",
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
@@ -10252,9 +10141,9 @@ export const materials = [
     }
   },
   {
-    "id": "LX-CM24711_1",
-    "code": "CM24711_1",
-    "name": "CM24711_1",
+    "id": "LX-CM24711",
+    "code": "CM24711",
+    "name": "CM24711",
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
@@ -10267,9 +10156,9 @@ export const materials = [
     }
   },
   {
-    "id": "LX-CM24713_1",
-    "code": "CM24713_1",
-    "name": "CM24713_1",
+    "id": "LX-CM24713",
+    "code": "CM24713",
+    "name": "CM24713",
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
@@ -10282,9 +10171,9 @@ export const materials = [
     }
   },
   {
-    "id": "LX-CM24722_1",
-    "code": "CM24722_1",
-    "name": "CM24722_1",
+    "id": "LX-CM24722",
+    "code": "CM24722",
+    "name": "CM24722",
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
@@ -10297,9 +10186,9 @@ export const materials = [
     }
   },
   {
-    "id": "LX-CM24731_1",
-    "code": "CM24731_1",
-    "name": "CM24731_1",
+    "id": "LX-CM24731",
+    "code": "CM24731",
+    "name": "CM24731",
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
@@ -10312,9 +10201,9 @@ export const materials = [
     }
   },
   {
-    "id": "LX-CM24741_1",
-    "code": "CM24741_1",
-    "name": "CM24741_1",
+    "id": "LX-CM24741",
+    "code": "CM24741",
+    "name": "CM24741",
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
@@ -10327,9 +10216,9 @@ export const materials = [
     }
   },
   {
-    "id": "LX-EH12121_1",
-    "code": "EH12121_1",
-    "name": "EH12121_1",
+    "id": "LX-EH12121",
+    "code": "EH12121",
+    "name": "EH12121",
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
@@ -10342,9 +10231,9 @@ export const materials = [
     }
   },
   {
-    "id": "LX-EH13713_1",
-    "code": "EH13713_1",
-    "name": "EH13713_1",
+    "id": "LX-EH13713",
+    "code": "EH13713",
+    "name": "EH13713",
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
@@ -10357,9 +10246,9 @@ export const materials = [
     }
   },
   {
-    "id": "LX-EH14092_1",
-    "code": "EH14092_1",
-    "name": "EH14092_1",
+    "id": "LX-EH14092",
+    "code": "EH14092",
+    "name": "EH14092",
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
@@ -10372,9 +10261,9 @@ export const materials = [
     }
   },
   {
-    "id": "LX-EH14101_1",
-    "code": "EH14101_1",
-    "name": "EH14101_1",
+    "id": "LX-EH14101",
+    "code": "EH14101",
+    "name": "EH14101",
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
@@ -10387,9 +10276,9 @@ export const materials = [
     }
   },
   {
-    "id": "LX-EH14721_1",
-    "code": "EH14721_1",
-    "name": "EH14721_1",
+    "id": "LX-EH14721",
+    "code": "EH14721",
+    "name": "EH14721",
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
@@ -10402,9 +10291,9 @@ export const materials = [
     }
   },
   {
-    "id": "LX-EH14732_1",
-    "code": "EH14732_1",
-    "name": "EH14732_1",
+    "id": "LX-EH14732",
+    "code": "EH14732",
+    "name": "EH14732",
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
@@ -10420,13 +10309,13 @@ export const materials = [
     "id": "LX-XCF3441_애쉬베이지",
     "code": "XCF3441_애쉬베이지",
     "name": "XCF3441_애쉬베이지",
-    "brand": "LX 1.8T",
+    "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "5.0T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -10435,13 +10324,13 @@ export const materials = [
     "id": "LX-XCF3442_라이트베이지",
     "code": "XCF3442_라이트베이지",
     "name": "XCF3442_라이트베이지",
-    "brand": "LX 1.8T",
+    "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "5.0T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -10450,13 +10339,13 @@ export const materials = [
     "id": "LX-XCF3451_애쉬화이트",
     "code": "XCF3451_애쉬화이트",
     "name": "XCF3451_애쉬화이트",
-    "brand": "LX 1.8T",
+    "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "5.0T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -10465,13 +10354,13 @@ export const materials = [
     "id": "LX-XCF3612_스탠다드베인",
     "code": "XCF3612_스탠다드베인",
     "name": "XCF3612_스탠다드베인",
-    "brand": "LX 1.8T",
+    "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "5.0T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -10480,13 +10369,13 @@ export const materials = [
     "id": "LX-XCF3621_텐더그레이",
     "code": "XCF3621_텐더그레이",
     "name": "XCF3621_텐더그레이",
-    "brand": "LX 1.8T",
+    "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "5.0T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -10495,13 +10384,13 @@ export const materials = [
     "id": "LX-XCF3622_스페이스그레이",
     "code": "XCF3622_스페이스그레이",
     "name": "XCF3622_스페이스그레이",
-    "brand": "LX 1.8T",
+    "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "5.0T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -10510,13 +10399,13 @@ export const materials = [
     "id": "LX-XCF4023_썸머오크",
     "code": "XCF4023_썸머오크",
     "name": "XCF4023_썸머오크",
-    "brand": "LX 1.8T",
+    "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "5.0T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -10525,13 +10414,13 @@ export const materials = [
     "id": "LX-XCF4043_스탠다드오크",
     "code": "XCF4043_스탠다드오크",
     "name": "XCF4043_스탠다드오크",
-    "brand": "LX 1.8T",
+    "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "5.0T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -10540,13 +10429,13 @@ export const materials = [
     "id": "LX-XCF4481_크리마마필화이트",
     "code": "XCF4481_크리마마필화이트",
     "name": "XCF4481_크리마마필화이트",
-    "brand": "LX 1.8T",
+    "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "5.0T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -10555,13 +10444,13 @@ export const materials = [
     "id": "LX-XCF4482_크리마마필그레이",
     "code": "XCF4482_크리마마필그레이",
     "name": "XCF4482_크리마마필그레이",
-    "brand": "LX 1.8T",
+    "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "5.0T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -10570,13 +10459,13 @@ export const materials = [
     "id": "LX-XCF4531_코지콘크리트",
     "code": "XCF4531_코지콘크리트",
     "name": "XCF4531_코지콘크리트",
-    "brand": "LX 1.8T",
+    "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "5.0T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -10585,13 +10474,13 @@ export const materials = [
     "id": "LX-XCF4541_베인샌드스톤",
     "code": "XCF4541_베인샌드스톤",
     "name": "XCF4541_베인샌드스톤",
-    "brand": "LX 1.8T",
+    "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "5.0T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -10600,13 +10489,13 @@ export const materials = [
     "id": "LX-XCFS011_솔티화이트",
     "code": "XCFS011_솔티화이트",
     "name": "XCFS011_솔티화이트",
-    "brand": "LX 1.8T",
+    "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "5.0T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -10615,13 +10504,13 @@ export const materials = [
     "id": "LX-XCFS012_솔티그레이지",
     "code": "XCFS012_솔티그레이지",
     "name": "XCFS012_솔티그레이지",
-    "brand": "LX 1.8T",
+    "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "5.0T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -10630,613 +10519,568 @@ export const materials = [
     "id": "LX-XCFW011_스노우우드",
     "code": "XCFW011_스노우우드",
     "name": "XCFW011_스노우우드",
-    "brand": "LX 1.8T",
+    "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "5.0T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-EH12071_1",
-    "code": "EH12071_1",
-    "name": "EH12071_1",
-    "brand": "LX 1.8T",
+    "id": "LX-EH12071",
+    "code": "EH12071",
+    "name": "EH12071",
+    "brand": "LX 2.0T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.0T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-EH13712_1",
-    "code": "EH13712_1",
-    "name": "EH13712_1",
-    "brand": "LX 1.8T",
+    "id": "LX-EH13712",
+    "code": "EH13712",
+    "name": "EH13712",
+    "brand": "LX 2.0T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.0T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-EH14121_1",
-    "code": "EH14121_1",
-    "name": "EH14121_1",
-    "brand": "LX 1.8T",
+    "id": "LX-EH14121",
+    "code": "EH14121",
+    "name": "EH14121",
+    "brand": "LX 2.0T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.0T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-EH14712_1",
-    "code": "EH14712_1",
-    "name": "EH14712_1",
-    "brand": "LX 1.8T",
+    "id": "LX-EH14712",
+    "code": "EH14712",
+    "name": "EH14712",
+    "brand": "LX 2.0T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.0T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-ZH53603_1",
-    "code": "ZH53603_1",
-    "name": "ZH53603_1",
-    "brand": "LX 1.8T",
+    "id": "LX-ZH53603",
+    "code": "ZH53603",
+    "name": "ZH53603",
+    "brand": "LX 2.0T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.0T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-ZH54032_1",
-    "code": "ZH54032_1",
-    "name": "ZH54032_1",
-    "brand": "LX 1.8T",
+    "id": "LX-ZH54032",
+    "code": "ZH54032",
+    "name": "ZH54032",
+    "brand": "LX 2.0T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.0T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-ZH54044_1",
-    "code": "ZH54044_1",
-    "name": "ZH54044_1",
-    "brand": "LX 1.8T",
+    "id": "LX-ZH54044",
+    "code": "ZH54044",
+    "name": "ZH54044",
+    "brand": "LX 2.0T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.0T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-50011_1",
-    "code": "50011_1",
-    "name": "50011_1",
-    "brand": "LX 1.8T",
+    "id": "LX-50011",
+    "code": "50011",
+    "name": "50011",
+    "brand": "LX 2.7T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.7T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.7T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-50011_4",
-    "code": "50011_4",
-    "name": "50011_4",
-    "brand": "LX 1.8T",
+    "id": "LX-50061",
+    "code": "50061",
+    "name": "50061",
+    "brand": "LX 2.7T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.7T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.7T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-50061_1",
-    "code": "50061_1",
-    "name": "50061_1",
-    "brand": "LX 1.8T",
+    "id": "LX-53351",
+    "code": "53351",
+    "name": "53351",
+    "brand": "LX 2.7T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.7T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.7T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-50061_4",
-    "code": "50061_4",
-    "name": "50061_4",
-    "brand": "LX 1.8T",
+    "id": "LX-54211",
+    "code": "54211",
+    "name": "54211",
+    "brand": "LX 2.7T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.7T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.7T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-53351_1",
-    "code": "53351_1",
-    "name": "53351_1",
-    "brand": "LX 1.8T",
+    "id": "LX-54231",
+    "code": "54231",
+    "name": "54231",
+    "brand": "LX 2.7T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.7T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.7T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-54211_1",
-    "code": "54211_1",
-    "name": "54211_1",
-    "brand": "LX 1.8T",
+    "id": "LX-60071",
+    "code": "60071",
+    "name": "60071",
+    "brand": "LX 2.7T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.7T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.7T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-54231_1",
-    "code": "54231_1",
-    "name": "54231_1",
-    "brand": "LX 1.8T",
+    "id": "LX-ZH54483",
+    "code": "ZH54483",
+    "name": "ZH54483",
+    "brand": "LX 2.7T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.7T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.7T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-54231_4",
-    "code": "54231_4",
-    "name": "54231_4",
-    "brand": "LX 1.8T",
+    "id": "LX-ZH54542",
+    "code": "ZH54542",
+    "name": "ZH54542",
+    "brand": "LX 2.7T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.7T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.7T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-60071_1",
-    "code": "60071_1",
-    "name": "60071_1",
-    "brand": "LX 1.8T",
+    "id": "LX-60081",
+    "code": "60081",
+    "name": "60081",
+    "brand": "LX 3.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "3.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-ZH54483_1",
-    "code": "ZH54483_1",
-    "name": "ZH54483_1",
-    "brand": "LX 1.8T",
+    "id": "LX-60151",
+    "code": "60151",
+    "name": "60151",
+    "brand": "LX 3.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "3.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-ZH54542_1",
-    "code": "ZH54542_1",
-    "name": "ZH54542_1",
-    "brand": "LX 1.8T",
+    "id": "LX-60161",
+    "code": "60161",
+    "name": "60161",
+    "brand": "LX 3.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "3.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-60081_1",
-    "code": "60081_1",
-    "name": "60081_1",
-    "brand": "LX 1.8T",
+    "id": "LX-63312",
+    "code": "63312",
+    "name": "63312",
+    "brand": "LX 3.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "3.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-60151_1",
-    "code": "60151_1",
-    "name": "60151_1",
-    "brand": "LX 1.8T",
+    "id": "LX-63391",
+    "code": "63391",
+    "name": "63391",
+    "brand": "LX 3.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "3.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-60161_1",
-    "code": "60161_1",
-    "name": "60161_1",
-    "brand": "LX 1.8T",
+    "id": "LX-63693",
+    "code": "63693",
+    "name": "63693",
+    "brand": "LX 3.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "3.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-63312_1",
-    "code": "63312_1",
-    "name": "63312_1",
-    "brand": "LX 1.8T",
+    "id": "LX-64221",
+    "code": "64221",
+    "name": "64221",
+    "brand": "LX 3.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "3.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-63391_1",
-    "code": "63391_1",
-    "name": "63391_1",
-    "brand": "LX 1.8T",
+    "id": "LX-64223",
+    "code": "64223",
+    "name": "64223",
+    "brand": "LX 3.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "3.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-63693_1",
-    "code": "63693_1",
-    "name": "63693_1",
-    "brand": "LX 1.8T",
+    "id": "LX-64281",
+    "code": "64281",
+    "name": "64281",
+    "brand": "LX 3.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "3.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-64221_1",
-    "code": "64221_1",
-    "name": "64221_1",
-    "brand": "LX 1.8T",
+    "id": "LX-ZS8002111",
+    "code": "ZS8002111",
+    "name": "ZS8002111",
+    "brand": "LX 3.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "3.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-64223_1",
-    "code": "64223_1",
-    "name": "64223_1",
-    "brand": "LX 1.8T",
+    "id": "LX-ZS8007111",
+    "code": "ZS8007111",
+    "name": "ZS8007111",
+    "brand": "LX 3.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "3.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-64281_1",
-    "code": "64281_1",
-    "name": "64281_1",
-    "brand": "LX 1.8T",
+    "id": "LX-ZS8299111",
+    "code": "ZS8299111",
+    "name": "ZS8299111",
+    "brand": "LX 3.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "3.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-ZS8002111_1",
-    "code": "ZS8002111_1",
-    "name": "ZS8002111_1",
-    "brand": "LX 1.8T",
+    "id": "LX-ZS8301111",
+    "code": "ZS8301111",
+    "name": "ZS8301111",
+    "brand": "LX 3.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "3.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-ZS8007111_1",
-    "code": "ZS8007111_1",
-    "name": "ZS8007111_1",
-    "brand": "LX 1.8T",
+    "id": "LX-ZS8305111",
+    "code": "ZS8305111",
+    "name": "ZS8305111",
+    "brand": "LX 3.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "3.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-ZS8299111_1",
-    "code": "ZS8299111_1",
-    "name": "ZS8299111_1",
-    "brand": "LX 1.8T",
+    "id": "LX-ZS8308111",
+    "code": "ZS8308111",
+    "name": "ZS8308111",
+    "brand": "LX 3.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "3.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-ZS8301111_1",
-    "code": "ZS8301111_1",
-    "name": "ZS8301111_1",
-    "brand": "LX 1.8T",
+    "id": "LX-ZS8401111",
+    "code": "ZS8401111",
+    "name": "ZS8401111",
+    "brand": "LX 4.5T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "4.5T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "4.5T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-ZS8305111_1",
-    "code": "ZS8305111_1",
-    "name": "ZS8305111_1",
-    "brand": "LX 1.8T",
+    "id": "LX-ZS8401211",
+    "code": "ZS8401211",
+    "name": "ZS8401211",
+    "brand": "LX 4.5T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "4.5T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "4.5T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-ZS8308111_1",
-    "code": "ZS8308111_1",
-    "name": "ZS8308111_1",
-    "brand": "LX 1.8T",
+    "id": "LX-ZS8402111",
+    "code": "ZS8402111",
+    "name": "ZS8402111",
+    "brand": "LX 4.5T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "4.5T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "4.5T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-ZS8401111_1",
-    "code": "ZS8401111_1",
-    "name": "ZS8401111_1",
-    "brand": "LX 1.8T",
+    "id": "LX-ZS8402211",
+    "code": "ZS8402211",
+    "name": "ZS8402211",
+    "brand": "LX 4.5T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "4.5T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "4.5T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-ZS8401211_1",
-    "code": "ZS8401211_1",
-    "name": "ZS8401211_1",
-    "brand": "LX 1.8T",
+    "id": "LX-ZS8403111",
+    "code": "ZS8403111",
+    "name": "ZS8403111",
+    "brand": "LX 4.5T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "4.5T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "4.5T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-ZS8402111_1",
-    "code": "ZS8402111_1",
-    "name": "ZS8402111_1",
-    "brand": "LX 1.8T",
+    "id": "LX-ZS8403211",
+    "code": "ZS8403211",
+    "name": "ZS8403211",
+    "brand": "LX 4.5T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "4.5T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "4.5T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
   },
   {
-    "id": "LX-ZS8402211_1",
-    "code": "ZS8402211_1",
-    "name": "ZS8402211_1",
-    "brand": "LX 1.8T",
+    "id": "LX-ZS8404111",
+    "code": "ZS8404111",
+    "name": "ZS8404111",
+    "brand": "LX 4.5T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "4.5T",
     "specs": {
-      "thickness": "1.8T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
-    }
-  },
-  {
-    "id": "LX-ZS8403111_1",
-    "code": "ZS8403111_1",
-    "name": "ZS8403111_1",
-    "brand": "LX 1.8T",
-    "category": "장판",
-    "line": "",
-    "price": 0,
-    "thickness": "1.8T",
-    "specs": {
-      "thickness": "1.8T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
-    }
-  },
-  {
-    "id": "LX-ZS8403211_1",
-    "code": "ZS8403211_1",
-    "name": "ZS8403211_1",
-    "brand": "LX 1.8T",
-    "category": "장판",
-    "line": "",
-    "price": 0,
-    "thickness": "1.8T",
-    "specs": {
-      "thickness": "1.8T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
-    }
-  },
-  {
-    "id": "LX-ZS8404111_1",
-    "code": "ZS8404111_1",
-    "name": "ZS8404111_1",
-    "brand": "LX 1.8T",
-    "category": "장판",
-    "line": "",
-    "price": 0,
-    "thickness": "1.8T",
-    "specs": {
-      "thickness": "1.8T",
+      "thickness": "4.5T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -11245,13 +11089,13 @@ export const materials = [
     "id": "LX-ZJ32981-11-화이트-오크",
     "code": "ZJ32981-11-화이트-오크",
     "name": "ZJ32981-11-화이트-오크",
-    "brand": "LX 1.8T",
+    "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -11260,13 +11104,13 @@ export const materials = [
     "id": "LX-ZJ33561-11-오크",
     "code": "ZJ33561-11-오크",
     "name": "ZJ33561-11-오크",
-    "brand": "LX 1.8T",
+    "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -11275,13 +11119,13 @@ export const materials = [
     "id": "LX-ZJ33562-11-오크",
     "code": "ZJ33562-11-오크",
     "name": "ZJ33562-11-오크",
-    "brand": "LX 1.8T",
+    "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -11290,13 +11134,13 @@ export const materials = [
     "id": "LX-ZJ33763-11-브라운-오크",
     "code": "ZJ33763-11-브라운-오크",
     "name": "ZJ33763-11-브라운-오크",
-    "brand": "LX 1.8T",
+    "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -11305,13 +11149,13 @@ export const materials = [
     "id": "LX-ZJ33871-11-모던-오크",
     "code": "ZJ33871-11-모던-오크",
     "name": "ZJ33871-11-모던-오크",
-    "brand": "LX 1.8T",
+    "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -11320,13 +11164,13 @@ export const materials = [
     "id": "LX-ZJ33872-11-베이지-오크",
     "code": "ZJ33872-11-베이지-오크",
     "name": "ZJ33872-11-베이지-오크",
-    "brand": "LX 1.8T",
+    "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -11335,13 +11179,13 @@ export const materials = [
     "id": "LX-ZJ34331-11-윈터-오크",
     "code": "ZJ34331-11-윈터-오크",
     "name": "ZJ34331-11-윈터-오크",
-    "brand": "LX 1.8T",
+    "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -11350,13 +11194,13 @@ export const materials = [
     "id": "LX-ZJ34371-11-시나몬-오크",
     "code": "ZJ34371-11-시나몬-오크",
     "name": "ZJ34371-11-시나몬-오크",
-    "brand": "LX 1.8T",
+    "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -11365,13 +11209,13 @@ export const materials = [
     "id": "LX-ZJ34841-11-아이보리-오크",
     "code": "ZJ34841-11-아이보리-오크",
     "name": "ZJ34841-11-아이보리-오크",
-    "brand": "LX 1.8T",
+    "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -11380,13 +11224,13 @@ export const materials = [
     "id": "LX-ZJ34842-11-토프-오크",
     "code": "ZJ34842-11-토프-오크",
     "name": "ZJ34842-11-토프-오크",
-    "brand": "LX 1.8T",
+    "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -11395,13 +11239,13 @@ export const materials = [
     "id": "LX-ZJ34851-11-피치-애쉬",
     "code": "ZJ34851-11-피치-애쉬",
     "name": "ZJ34851-11-피치-애쉬",
-    "brand": "LX 1.8T",
+    "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -11410,13 +11254,13 @@ export const materials = [
     "id": "LX-ZJ43601-22-소프트-콘크리트",
     "code": "ZJ43601-22-소프트-콘크리트",
     "name": "ZJ43601-22-소프트-콘크리트",
-    "brand": "LX 1.8T",
+    "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -11425,13 +11269,13 @@ export const materials = [
     "id": "LX-ZJ43841-22-베이지-포세린",
     "code": "ZJ43841-22-베이지-포세린",
     "name": "ZJ43841-22-베이지-포세린",
-    "brand": "LX 1.8T",
+    "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -11440,13 +11284,13 @@ export const materials = [
     "id": "LX-ZJ43893-22-뉴-실버-마블",
     "code": "ZJ43893-22-뉴-실버-마블",
     "name": "ZJ43893-22-뉴-실버-마블",
-    "brand": "LX 1.8T",
+    "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -11455,13 +11299,13 @@ export const materials = [
     "id": "LX-ZJ44093-22-애쉬-베인-샌드",
     "code": "ZJ44093-22-애쉬-베인-샌드",
     "name": "ZJ44093-22-애쉬-베인-샌드",
-    "brand": "LX 1.8T",
+    "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -11470,13 +11314,13 @@ export const materials = [
     "id": "LX-ZJ44241-22-로즈-마블",
     "code": "ZJ44241-22-로즈-마블",
     "name": "ZJ44241-22-로즈-마블",
-    "brand": "LX 1.8T",
+    "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -11485,13 +11329,13 @@ export const materials = [
     "id": "LX-ZJ44351-22-그레이-콘크리트",
     "code": "ZJ44351-22-그레이-콘크리트",
     "name": "ZJ44351-22-그레이-콘크리트",
-    "brand": "LX 1.8T",
+    "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -11500,13 +11344,13 @@ export const materials = [
     "id": "LX-ZJ44821-22-베이지-샌드",
     "code": "ZJ44821-22-베이지-샌드",
     "name": "ZJ44821-22-베이지-샌드",
-    "brand": "LX 1.8T",
+    "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -11515,13 +11359,13 @@ export const materials = [
     "id": "LX-ZJ44822-22-오트-샌드",
     "code": "ZJ44822-22-오트-샌드",
     "name": "ZJ44822-22-오트-샌드",
-    "brand": "LX 1.8T",
+    "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -11530,13 +11374,13 @@ export const materials = [
     "id": "LX-ZJ44831-22-모하비-스톤",
     "code": "ZJ44831-22-모하비-스톤",
     "name": "ZJ44831-22-모하비-스톤",
-    "brand": "LX 1.8T",
+    "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -11545,13 +11389,13 @@ export const materials = [
     "id": "LX-ZJ44861-22-웜-브릭",
     "code": "ZJ44861-22-웜-브릭",
     "name": "ZJ44861-22-웜-브릭",
-    "brand": "LX 1.8T",
+    "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }
@@ -11560,13 +11404,13 @@ export const materials = [
     "id": "LX-ZJ44871-22-스투코-그레이",
     "code": "ZJ44871-22-스투코-그레이",
     "name": "ZJ44871-22-스투코-그레이",
-    "brand": "LX 1.8T",
+    "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
     "price": 0,
-    "thickness": "1.8T",
+    "thickness": "2.2T",
     "specs": {
-      "thickness": "1.8T",
+      "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
     }

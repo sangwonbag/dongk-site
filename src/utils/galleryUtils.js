@@ -1,6 +1,15 @@
 import { imageManifest } from "../data/imageManifest";
 
-const normalize = (str) => str ? str.replace(/[^a-zA-Z0-9가-힣]/g, '').toUpperCase() : "";
+const normalize = (str) => str ? str.replace(/[^a-zA-Z0-9가-힣_-]/g, '').toUpperCase() : "";
+
+export const SUPABASE_PUBLIC_URL_PREFIX = "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/";
+
+function toFullUrl(path) {
+    if (!path) return "";
+    if (path.startsWith('http')) return path;
+    if (path.startsWith('/')) return path; // Keep absolute local paths
+    return SUPABASE_PUBLIC_URL_PREFIX + path;
+}
 
 export async function getThumbnailImage(item) {
     if (!item) return "";
@@ -13,11 +22,16 @@ export async function getThumbnailImage(item) {
     const keys = [item.code, item.name].filter(Boolean).map(normalize);
 
     for (const key of keys) {
-        if (imageManifest[key] && imageManifest[key].thumbnail) {
-            return imageManifest[key].thumbnail;
-        }
-        if (imageManifest[key] && imageManifest[key].cover) {
-            return imageManifest[key].cover;
+        const entry = imageManifest[key];
+        if (!entry) continue;
+
+        if (Array.isArray(entry)) {
+            if (entry.length > 0) return toFullUrl(entry[0]);
+        } else {
+            // New structure: { thumbnail: "...", images: [...] }
+            // Old structure: { thumbnail: "...", cover: "..." }
+            if (entry.thumbnail) return toFullUrl(entry.thumbnail);
+            if (entry.cover) return toFullUrl(entry.cover);
         }
     }
 
@@ -34,8 +48,13 @@ export async function getDetailImage(item) {
     const keys = [item.code, item.name].filter(Boolean).map(normalize);
 
     for (const key of keys) {
-        if (imageManifest[key] && imageManifest[key].detail) {
-            return imageManifest[key].detail;
+        const entry = imageManifest[key];
+        if (!entry) continue;
+
+        if (Array.isArray(entry) || entry.images) {
+            return getThumbnailImage(item); // the full array is handled by getValidGalleryImages
+        } else if (entry.detail) {
+            return toFullUrl(entry.detail);
         }
     }
 
@@ -61,12 +80,19 @@ export async function getValidGalleryImages(item) {
     const keys = [item.code, item.name].filter(Boolean).map(normalize);
 
     for (const key of keys) {
-        if (imageManifest[key] && imageManifest[key].gallery) {
-            // Manifest contains strings, map them to objects
-            // Future-proofing: if they provide large files, they can update this mapping.
-            return imageManifest[key].gallery.map(str => ({
-                thumbnail: str,
-                detail: str // Fallback to same string if no high-res replacement logic
+        const entry = imageManifest[key];
+        if (!entry) continue;
+
+        if (Array.isArray(entry)) {
+            return entry.map(str => ({ thumbnail: toFullUrl(str), detail: toFullUrl(str) }));
+        } else if (entry.images) {
+            // New structured format
+            return entry.images.map(str => ({ thumbnail: toFullUrl(str), detail: toFullUrl(str) }));
+        } else if (entry.gallery) {
+            // Legacy structured format
+            return entry.gallery.map(str => ({
+                thumbnail: toFullUrl(str),
+                detail: toFullUrl(str)
             }));
         }
     }

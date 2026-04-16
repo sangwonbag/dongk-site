@@ -29,6 +29,14 @@ export default function Materials() {
   const activeMaterialType = searchParams.get("type") || "all";
   const searchText = searchParams.get("search") || "";
 
+  // Pagination state
+  const [visibleCount, setVisibleCount] = useState(100);
+
+  // Reset pagination when filters change
+  useEffect(() => {
+    setVisibleCount(100);
+  }, [activeTab, activeBrand, activeMaterialType, searchText]);
+
   // Update query params helper
   const updateParams = (updates) => {
     setSearchParams(prev => {
@@ -68,7 +76,7 @@ export default function Materials() {
 
   /** ✅ 브랜드 목록: 카테고리에 맞춰 가공 (요구사항 반영) */
   const visibleBrands = useMemo(() => {
-    if (activeTab === "recommended") return ["all", ...ALL_BRANDS];
+    if (activeTab === "recommended") return ["all", "동신", "KCC"];
     return ["all", ...(BRANDS_BY_CATEGORY[activeTab] || [])];
   }, [activeTab]);
 
@@ -86,10 +94,7 @@ export default function Materials() {
       // 1) 탭(카테고리) 필터
       let tabOk = true;
       if (activeTab === "recommended") {
-        tabOk = !!m.isRecommended;
-        // 추천이 0개면 전체 노출 (선택사항)
-        const anyRec = materials.some(x => x && x.isRecommended);
-        if (!anyRec) tabOk = true;
+        tabOk = (m.brand === "동신" || m.brand === "KCC");
       } else {
         tabOk = (m.category === activeTab);
       }
@@ -185,11 +190,24 @@ export default function Materials() {
             </div>
 
             {filtered.length > 0 ? (
-              <div className="materials-grid">
-                {filtered.map((m) => (
-                  <MaterialCard key={m.id} material={m} />
-                ))}
-              </div>
+              <>
+                <div className="materials-grid">
+                  {filtered.slice(0, visibleCount).map((m) => (
+                    <MaterialCard key={m.id} material={m} />
+                  ))}
+                </div>
+                
+                {visibleCount < filtered.length && (
+                  <div className="load-more-container">
+                    <button 
+                      className="load-more-btn" 
+                      onClick={() => setVisibleCount(prev => prev + 100)}
+                    >
+                      더보기 ({Math.min(visibleCount, filtered.length)} / {filtered.length})
+                    </button>
+                  </div>
+                )}
+              </>
             ) : (
               <div className="no-results">검색 결과가 없습니다.</div>
             )}

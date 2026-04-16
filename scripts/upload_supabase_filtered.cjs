@@ -17,6 +17,29 @@ const BUCKET = "materials";
 const ALLOWED_CATEGORIES = ["데코타일", "장판"];
 const DRY_RUN = process.argv.includes("--dry-run");
 
+// 한국어 폴더명 → 영문 storage key 변환 테이블
+const PATH_MAP = {
+  "데코타일": "decotile",
+  "장판": "jangpan",
+  "LX하우시스_엑스컴포트_5.0T": "LX_XComfort_5T",
+  "LX하우시스_청마루_1.8T": "LX_Cheongmaru_1.8T",
+  "LX하우시스_청마루_2.0T": "LX_Cheongmaru_2.0T",
+  "LX하우시스_청마루_2.2T": "LX_Cheongmaru_2.2T",
+  "LX하우시스_청마루_2.7T": "LX_Cheongmaru_2.7T",
+  "LX하우시스_청마루_3.2T": "LX_Cheongmaru_3.2T",
+  "LX하우시스_지아사랑애_3.2T": "LX_ZiaSarangae_3.2T",
+  "LX하우시스_지아소리잠_4.5T": "LX_ZiaSorijam_4.5T",
+  "LX하우시스_지아자연애_2.2T": "LX_ZiaZayeonae_2.2T",
+  "LX하우시스_데코레이S": "LX_DecoRayS",
+  "LX하우시스": "LX",
+};
+
+function encodePath(p) {
+  // 각 path segment를 변환 테이블 기반으로 치환
+  return p.split("/").map(seg => PATH_MAP[seg] || seg).join("/");
+}
+
+
 const UPLOAD_SOURCE = path.join(process.cwd(), "public", "images", "upload_target");
 
 // ─── 유틸 ────────────────────────────────────────────────────────────────────
@@ -85,16 +108,17 @@ async function main() {
   const failed = [];
 
   for (const { fullPath, storagePath } of allFiles) {
+    const encodedPath = encodePath(storagePath);
     const fileBuffer = fs.readFileSync(fullPath);
     const { error } = await client.storage
       .from(BUCKET)
-      .upload(storagePath, fileBuffer, { upsert: true, contentType: getMimeType(fullPath) });
+      .upload(encodedPath, fileBuffer, { upsert: true, contentType: getMimeType(fullPath) });
 
     if (error) {
-      console.error(`  FAILED: ${storagePath} — ${error.message}`);
-      failed.push({ storagePath, error: error.message });
+      console.error(`  FAILED: ${encodedPath} — ${error.message}`);
+      failed.push({ storagePath: encodedPath, error: error.message });
     } else {
-      console.log(`  OK: ${storagePath}`);
+      console.log(`  OK: ${encodedPath}`);
       uploaded++;
     }
   }

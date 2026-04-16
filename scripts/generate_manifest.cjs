@@ -20,6 +20,50 @@ const SUPABASE_BUCKET = 'materials';
 // Helper: Normalize (Strict) for matching
 const normalize = (str) => str ? str.replace(/[^a-zA-Z0-9가-힣]/g, '').toUpperCase() : "";
 
+function slugifyPath(input) {
+  return input
+    .replace(/\\/g, '/')
+    .split('/')
+    .map((part) =>
+      part
+        .trim()
+        .toLowerCase()
+        // 대분류
+        .replace(/데코타일/g, 'deco_tile')
+        .replace(/장판/g, 'jangpan')
+        .replace(/마루/g, 'maru')
+        .replace(/벽지/g, 'wallpaper')
+        .replace(/카페트타일/g, 'carpet_tile')
+        // LX 장판 (두께 중심)
+        .replace(/lx하우시스_.*_1\.8t/g, 'lx_18t')
+        .replace(/lx하우시스_.*_2\.0t/g, 'lx_20t')
+        .replace(/lx하우시스_.*_2\.2t/g, 'lx_22t')
+        .replace(/lx하우시스_.*_2\.7t/g, 'lx_27t')
+        .replace(/lx하우시스_.*_3\.2t/g, 'lx_32t')
+        .replace(/lx하우시스_.*_4\.5t/g, 'lx_45t')
+        .replace(/lx하우시스_.*_5\.0t/g, 'lx_50t')
+        // 브랜드명 치환
+        .replace(/동신/g, 'dongshin')
+        .replace(/녹수/g, 'noksu')
+        .replace(/재영/g, 'jaeyoung')
+        .replace(/현대/g, 'hyundai')
+        .replace(/동화/g, 'dongwha')
+        .replace(/구정/g, 'kujung')
+        .replace(/개나리/g, 'gaenari')
+        .replace(/서울/g, 'seoul')
+        .replace(/제일/g, 'jeil')
+        .replace(/디아이디/g, 'did')
+        .replace(/신한/g, 'shinhan')
+        .replace(/스완/g, 'swan')
+        .replace(/아반/g, 'avan')
+        // 정규화 (공백 등)
+        .replace(/\s+/g, '_')
+        .replace(/[^a-z0-9가-힣._-]/g, '_') // Allow Korean characters
+        .replace(/_+/g, '_')
+    )
+    .join('/');
+}
+
 // 1. Extract Codes from databases
 const materialsContent = fs.readFileSync(DATA_FILE, 'utf8');
 const sampleBooksContent = fs.readFileSync(SAMPLE_DATA_FILE, 'utf8');
@@ -86,8 +130,7 @@ const convertToPublicPath = (absPath) => {
         const relPath = path.relative(THUMB_MATERIALS_DIR, absPath).replace(/\\/g, '/');
         const hash = crypto.createHash('md5').update(relPath, 'utf8').digest('hex');
         const ext = path.extname(absPath).toLowerCase();
-        const storageKey = hash + ext;
-        return `${SUPABASE_URL}/storage/v1/object/public/${SUPABASE_BUCKET}/${storageKey}`;
+        return hash + ext;
     }
     // cover 등 나머지 → 로컬 경로 유지
     return '/' + path.relative(PUBLIC_DIR, absPath).split(path.sep).join('/');
@@ -183,7 +226,7 @@ items.forEach(code => {
         }
     }
 
-    const entry = { thumbnail, detail, cover, gallery: uniqueGallery };
+    let entry = { thumbnail, images: uniqueGallery };
     manifest[code] = entry;
     if (nCode !== code) {
         manifest[nCode] = entry;

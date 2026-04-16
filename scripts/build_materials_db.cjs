@@ -24,7 +24,7 @@ function extractBrand(folderName, category) {
 }
 
 // Pricing & Spec Rules Engine
-function applyRules(category, brand, line, fileName, nameOnly, id, code) {
+function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFolder) {
     let price = 0;
     let sizeLabel = "";
     let packing = "";
@@ -97,11 +97,12 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code) {
             break;
 
         case '장판':
-            if (brand.includes('LX') || folderName.includes('LX')) {
-                // Parse thickness from line or code
-                let tMatch = line.match(/(\d\.\d)T/);
+            if (brand.includes('LX') || (brandFolder && brandFolder.includes('LX'))) {
+                // Parse thickness from brandFolder or line
+                const thicknessSource = brandFolder || line;
+                let tMatch = thicknessSource.match(/(\d\.\d)T/i);
                 if (tMatch) {
-                    thickness = tMatch[0];
+                    thickness = tMatch[0].toUpperCase();
                     brand = `LX ${thickness}`;
                 } else {
                     thickness = "1.8T"; // default
@@ -164,8 +165,17 @@ function processDirectory(dirPath, category, brandFolder, lineFolder) {
             let rawCode = codeMatch ? codeMatch[0] : nameOnly.trim().split(' ')[0];
             
             // Cleanup generic prefixes like "1. ", "내지_데코_"
-            let cleanName = nameOnly.replace(/^\d+\.\s*/, '').replace(/^내지_데코_/, '');
-            let finalCode = cleanName.split(' ')[0].replace(/_$/, ''); // usually the first word is the code
+            // Strip suffixes like _0, _1, _2, _detail, _thumb, _original
+            let cleanName = nameOnly.replace(/^\d+\.\s*/, '').replace(/^내지_데코_/, '')
+                              .replace(/_?(detail|thumb|original)$/i, '')
+                              .replace(/_\d{1,2}$/, '') // strip _0, _1, _2 up to 2 digits max
+                              .replace(/_$/, ''); // strip trailing underscore
+                              
+            let words = cleanName.split(' ');
+            let finalCode = words[0];
+            if (words.length > 1 && /^\d+/.test(words[1])) {
+                finalCode += ' ' + words[1];
+            }
             
             // Build ID
             let id = `${brandFolder ? brandFolder.slice(0, 2).toUpperCase() : 'XX'}-${finalCode}`;
@@ -181,18 +191,21 @@ function processDirectory(dirPath, category, brandFolder, lineFolder) {
             const computedBrand = extractBrand(brandFolder || "기타", category);
 
             // Apply rules
-            const rules = applyRules(category, computedBrand, activeLine, file.name, cleanName, id, finalCode);
+            const rules = applyRules(category, computedBrand, activeLine, file.name, cleanName, id, finalCode, brandFolder);
 
             // De-dupe check 
             const existingIdx = items.findIndex(i => i.id === id);
             if (existingIdx !== -1) return;
+            if (category === '장판' && id.includes('XCF3441')) {
+                require('fs').appendFileSync('debug_output.log', JSON.stringify({id, brandFolder, activeLine, rules}) + '\n');
+            }
 
             items.push({
                 id: id,
                 code: finalCode,
                 name: cleanName,
                 brand: rules.brand || computedBrand,
-                category: category === "데코타일" ? "데코" : category,
+                category: category,
                 line: activeLine.replace(/_$/, ''),
                 price: rules.price,
                 materialType: rules.materialType || undefined,

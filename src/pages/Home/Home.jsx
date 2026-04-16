@@ -15,19 +15,19 @@ export default function Home() {
   const recommendedMaterials = useMemo(() => {
     const normalize = (str) => str ? str.replace(/[^a-zA-Z0-9]/g, '').toUpperCase() : "";
     
-    // 1. Filter: 브랜드 KCC + 카테고리 데코타일 + 실이미지 존재 + 중복 코드 제외
+    // 1. Filter: 브랜드 KCC/동신 + 실이미지 존재 + 중복 코드 제외
     const seenCodes = new Set();
     const pool = materials.filter(m => {
-      if (m.brand !== 'KCC' || m.category !== '데코타일') return false;
+      if (m.brand !== 'KCC' && m.brand !== '동신') return false;
       if (seenCodes.has(m.code)) return false;
       
       const key = normalize(m.code);
       const entry = imageManifest[key];
-      const hasImage = !!(entry?.cover);
+      const hasImage = !!(entry?.thumbnail);
       
       if (hasImage) {
         // Exclude placeholders if they have a specific path
-        if (entry.cover.includes("no-image") || entry.cover.includes("placeholder")) return false;
+        if (entry.thumbnail.includes("no-image") || entry.thumbnail.includes("placeholder")) return false;
         
         seenCodes.add(m.code);
         return true;
@@ -42,7 +42,7 @@ export default function Home() {
     // - 최근 추가된 상품 가중치 (materials 배열에서의 인덱스 활용)
     const weightedPool = pool.map(m => {
       const key = normalize(m.code);
-      const hasSpace = (imageManifest[key]?.gallery?.length > 1) ? 2 : 1; 
+      const hasSpace = (imageManifest[key]?.images?.length > 1) ? 2 : 1; 
       const indexWeight = materials.indexOf(m) / materials.length; 
       return { 
         item: m, 
@@ -50,12 +50,12 @@ export default function Home() {
       };
     });
 
-    // 3. Shuffle & Select 8
+    // 3. Shuffle & Select 9
     const shuffled = weightedPool
       .sort((a, b) => (Math.random() * b.weight) - (Math.random() * a.weight))
       .map(entry => entry.item);
 
-    return shuffled.slice(0, 6);
+    return shuffled.slice(0, 9);
   }, []);
 
   return (
@@ -70,8 +70,8 @@ export default function Home() {
           {/* Recommended Section */}
           <section className="home-section recommended-section">
             <div className="section-header">
-              <h2>추천 자재 (KCC)</h2>
-              <button className="more-btn" onClick={() => nav("/materials?brand=KCC")}>
+              <h2>추천 자재</h2>
+              <button className="more-btn" onClick={() => nav("/materials")}>
                 전체 보기 →
               </button>
             </div>
