@@ -157,9 +157,14 @@ export default function MaterialDetail() {
                             {item.price ? `${item.price.toLocaleString()}원 (VAT 별도)` : "가격문의"}
                         </div>
 
-                        {/* Specs Table */}
                         {item.specs && (
                             <div className="specs-table">
+                                {item.specs.division && (
+                                    <div className="spec-row">
+                                        <span className="spec-key">구분</span>
+                                        <span className="spec-val">{item.specs.division}</span>
+                                    </div>
+                                )}
                                 <div className="spec-row">
                                     <span className="spec-key">두께</span>
                                     <span className="spec-val">{item.specs.thickness}</span>

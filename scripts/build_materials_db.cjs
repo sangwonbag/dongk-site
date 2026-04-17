@@ -32,6 +32,7 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
     let thickness = "";
     let type = "";
     let materialType = "";
+    let division = "";
 
     // Regex helpers for code
     const uCode = code.toUpperCase();
@@ -110,6 +111,36 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                 } else if (line.includes('데코레이')) {
                     price = 0; // Unknown
                     thickness = "3.0T";
+                } else if (line.includes('하우스스타일') || (brandFolder && brandFolder.includes('하우스스타일'))) {
+                    thickness = "3.0T";
+                    price = 0; // Unspecified
+                    if (uCode.startsWith("ZOT")) {
+                        sizeLabel = "600x600mm";
+                        packing = "9pcs / 3.24㎡";
+                        division = "스톤"; 
+                        type = "600";
+                    } else if (uCode.startsWith("ZOW")) {
+                        sizeLabel = "150x1200mm";
+                        packing = "18pcs / 3.24㎡";
+                        division = "우드";
+                        type = "wood";
+                    }
+                } else if (line.includes('하우스') || (brandFolder && brandFolder.includes('하우스'))) {
+                    // This acts as a fallback for '하우스' that isn't '하우스스타일'
+                    // Since '하우스스타일' is matched above, this will only hit for '하우스'
+                    thickness = "3.0T";
+                    price = 0; // Unspecified
+                    if (uCode.startsWith("HOT")) {
+                        sizeLabel = "600x600mm";
+                        packing = "9pcs / 3.24㎡";
+                        division = "스톤"; 
+                        type = "600";
+                    } else if (uCode.startsWith("HOW")) {
+                        sizeLabel = "150x920mm";
+                        packing = "24pcs / 3.31㎡";
+                        division = "우드";
+                        type = "wood";
+                    }
                 }
             }
             break;
@@ -154,7 +185,7 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
             break;
     }
 
-    return { price, sizeLabel, packing, thickness, type, materialType, brand };
+    return { price, sizeLabel, packing, thickness, type, materialType, brand, division };
 }
 
 function processDirectory(dirPath, category, brandFolder, lineFolder) {
@@ -244,7 +275,8 @@ function processDirectory(dirPath, category, brandFolder, lineFolder) {
                 materialType: rules.materialType || undefined,
                 type: rules.type || undefined,
                 thickness: rules.thickness || undefined,
-                specs: (rules.thickness || rules.sizeLabel || rules.packing) ? {
+                specs: (rules.thickness || rules.sizeLabel || rules.packing || rules.division) ? {
+                    division: rules.division,
                     thickness: rules.thickness,
                     size: rules.sizeLabel,
                     packing: rules.packing

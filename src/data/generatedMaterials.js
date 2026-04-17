@@ -52,6 +52,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -68,6 +69,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -84,6 +86,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -100,6 +103,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -116,6 +120,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -132,6 +137,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -148,6 +154,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -164,6 +171,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -180,6 +188,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -196,6 +205,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -212,6 +222,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -228,6 +239,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -244,6 +256,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -260,6 +273,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -276,6 +290,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -292,6 +307,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -308,6 +324,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -324,6 +341,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -340,6 +358,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -356,6 +375,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -372,6 +392,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -388,6 +409,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -404,6 +426,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -420,6 +443,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -436,6 +460,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -452,6 +477,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -468,6 +494,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -484,6 +511,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -500,6 +528,7 @@ export const materials = [
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
+      "division": "",
       "thickness": "",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -516,6 +545,7 @@ export const materials = [
     "type": "450",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
@@ -532,6 +562,7 @@ export const materials = [
     "type": "450",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
@@ -547,6 +578,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "",
       "packing": ""
@@ -563,6 +595,7 @@ export const materials = [
     "type": "450",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
@@ -579,6 +612,7 @@ export const materials = [
     "type": "450",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
@@ -595,6 +629,7 @@ export const materials = [
     "type": "450",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
@@ -611,6 +646,7 @@ export const materials = [
     "type": "450",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
@@ -627,6 +663,7 @@ export const materials = [
     "type": "450",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
@@ -643,6 +680,7 @@ export const materials = [
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "600x600mm",
       "packing": "9pcs / 3.24㎡"
@@ -659,6 +697,7 @@ export const materials = [
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "600x600mm",
       "packing": "9pcs / 3.24㎡"
@@ -675,6 +714,7 @@ export const materials = [
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "600x600mm",
       "packing": "9pcs / 3.24㎡"
@@ -691,6 +731,7 @@ export const materials = [
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "600x600mm",
       "packing": "9pcs / 3.24㎡"
@@ -707,6 +748,7 @@ export const materials = [
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "600x600mm",
       "packing": "9pcs / 3.24㎡"
@@ -723,6 +765,7 @@ export const materials = [
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "600x600mm",
       "packing": "9pcs / 3.24㎡"
@@ -739,6 +782,7 @@ export const materials = [
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "600x600mm",
       "packing": "9pcs / 3.24㎡"
@@ -755,6 +799,7 @@ export const materials = [
     "type": "450",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
@@ -771,6 +816,7 @@ export const materials = [
     "type": "450",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
@@ -787,6 +833,7 @@ export const materials = [
     "type": "450",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
@@ -803,6 +850,7 @@ export const materials = [
     "type": "450",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
@@ -819,6 +867,7 @@ export const materials = [
     "type": "450",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
@@ -835,6 +884,7 @@ export const materials = [
     "type": "450",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
@@ -851,6 +901,7 @@ export const materials = [
     "type": "450",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
@@ -867,6 +918,7 @@ export const materials = [
     "type": "450",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
@@ -883,6 +935,7 @@ export const materials = [
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "600x600mm",
       "packing": "9pcs / 3.24㎡"
@@ -899,6 +952,7 @@ export const materials = [
     "type": "450",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
@@ -915,6 +969,7 @@ export const materials = [
     "type": "450",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
@@ -931,6 +986,7 @@ export const materials = [
     "type": "450",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
@@ -947,6 +1003,7 @@ export const materials = [
     "type": "450",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
@@ -963,6 +1020,7 @@ export const materials = [
     "type": "wood",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "184x950mm",
       "packing": "19pcs / 3.32㎡"
@@ -979,6 +1037,7 @@ export const materials = [
     "type": "wood",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "184x950mm",
       "packing": "19pcs / 3.32㎡"
@@ -995,6 +1054,7 @@ export const materials = [
     "type": "wood",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "184x950mm",
       "packing": "19pcs / 3.32㎡"
@@ -1011,6 +1071,7 @@ export const materials = [
     "type": "wood",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "184x950mm",
       "packing": "19pcs / 3.32㎡"
@@ -1027,6 +1088,7 @@ export const materials = [
     "type": "wood",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "184x950mm",
       "packing": "19pcs / 3.32㎡"
@@ -1043,6 +1105,7 @@ export const materials = [
     "type": "wood",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "184x950mm",
       "packing": "19pcs / 3.32㎡"
@@ -1059,6 +1122,7 @@ export const materials = [
     "type": "wood",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "184x950mm",
       "packing": "19pcs / 3.32㎡"
@@ -1075,6 +1139,7 @@ export const materials = [
     "type": "wood",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "184x950mm",
       "packing": "19pcs / 3.32㎡"
@@ -1091,6 +1156,7 @@ export const materials = [
     "type": "wood",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "184x950mm",
       "packing": "19pcs / 3.32㎡"
@@ -1107,6 +1173,7 @@ export const materials = [
     "type": "wood",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "184x950mm",
       "packing": "19pcs / 3.32㎡"
@@ -1123,6 +1190,7 @@ export const materials = [
     "type": "wood",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "184x950mm",
       "packing": "19pcs / 3.32㎡"
@@ -1139,6 +1207,7 @@ export const materials = [
     "type": "wood",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "184x950mm",
       "packing": "19pcs / 3.32㎡"
@@ -1155,6 +1224,7 @@ export const materials = [
     "type": "wood",
     "thickness": "3.0mm",
     "specs": {
+      "division": "",
       "thickness": "3.0mm",
       "size": "184x950mm",
       "packing": "19pcs / 3.32㎡"
@@ -1167,7 +1237,15 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0
+    "price": 0,
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "스톤",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
   },
   {
     "id": "LX-HOT 0066",
@@ -1176,7 +1254,15 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0
+    "price": 0,
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "스톤",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
   },
   {
     "id": "LX-HOT 0067",
@@ -1185,7 +1271,15 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0
+    "price": 0,
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "스톤",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
   },
   {
     "id": "LX-HOT 0068",
@@ -1194,7 +1288,15 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0
+    "price": 0,
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "스톤",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
   },
   {
     "id": "LX-HOT 0069",
@@ -1203,7 +1305,15 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0
+    "price": 0,
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "스톤",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
   },
   {
     "id": "LX-HOT 0070",
@@ -1212,7 +1322,15 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0
+    "price": 0,
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "스톤",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
   },
   {
     "id": "LX-HOT 0071",
@@ -1221,7 +1339,15 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0
+    "price": 0,
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "스톤",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
   },
   {
     "id": "LX-HOT 0072",
@@ -1230,7 +1356,15 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0
+    "price": 0,
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "스톤",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
   },
   {
     "id": "LX-HOT 0073",
@@ -1239,7 +1373,15 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0
+    "price": 0,
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "스톤",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
   },
   {
     "id": "LX-HOW 0032",
@@ -1248,7 +1390,15 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0
+    "price": 0,
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "우드",
+      "thickness": "3.0T",
+      "size": "150x920mm",
+      "packing": "24pcs / 3.31㎡"
+    }
   },
   {
     "id": "LX-HOW 0033",
@@ -1257,7 +1407,15 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0
+    "price": 0,
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "우드",
+      "thickness": "3.0T",
+      "size": "150x920mm",
+      "packing": "24pcs / 3.31㎡"
+    }
   },
   {
     "id": "LX-HOW 0034",
@@ -1266,7 +1424,15 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0
+    "price": 0,
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "우드",
+      "thickness": "3.0T",
+      "size": "150x920mm",
+      "packing": "24pcs / 3.31㎡"
+    }
   },
   {
     "id": "LX-HOW 0035",
@@ -1275,7 +1441,15 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0
+    "price": 0,
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "우드",
+      "thickness": "3.0T",
+      "size": "150x920mm",
+      "packing": "24pcs / 3.31㎡"
+    }
   },
   {
     "id": "LX-HOW 0036",
@@ -1284,7 +1458,15 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0
+    "price": 0,
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "우드",
+      "thickness": "3.0T",
+      "size": "150x920mm",
+      "packing": "24pcs / 3.31㎡"
+    }
   },
   {
     "id": "LX-HOW 0037",
@@ -1293,7 +1475,15 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0
+    "price": 0,
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "우드",
+      "thickness": "3.0T",
+      "size": "150x920mm",
+      "packing": "24pcs / 3.31㎡"
+    }
   },
   {
     "id": "LX-DLT 3300",
@@ -1305,6 +1495,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "",
       "packing": ""
@@ -1320,6 +1511,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "",
       "packing": ""
@@ -1335,6 +1527,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "",
       "packing": ""
@@ -1350,6 +1543,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "",
       "packing": ""
@@ -1365,6 +1559,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "",
       "packing": ""
@@ -1380,6 +1575,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "",
       "packing": ""
@@ -1395,6 +1591,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "",
       "packing": ""
@@ -1410,6 +1607,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "",
       "packing": ""
@@ -1425,6 +1623,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "",
       "packing": ""
@@ -1440,6 +1639,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "",
       "packing": ""
@@ -1455,6 +1655,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "",
       "packing": ""
@@ -1470,6 +1671,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "",
       "packing": ""
@@ -1485,6 +1687,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "",
       "packing": ""
@@ -1500,6 +1703,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "",
       "packing": ""
@@ -1515,6 +1719,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "",
       "packing": ""
@@ -1527,7 +1732,15 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스스타일",
-    "price": 0
+    "price": 0,
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "스톤",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
   },
   {
     "id": "LX-ZOT 0762",
@@ -1536,7 +1749,15 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스스타일",
-    "price": 0
+    "price": 0,
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "스톤",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
   },
   {
     "id": "LX-ZOT 0767",
@@ -1545,7 +1766,15 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스스타일",
-    "price": 0
+    "price": 0,
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "스톤",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
   },
   {
     "id": "LX-ZOT 0768",
@@ -1554,7 +1783,15 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스스타일",
-    "price": 0
+    "price": 0,
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "스톤",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
   },
   {
     "id": "LX-ZOT 0769",
@@ -1563,7 +1800,15 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스스타일",
-    "price": 0
+    "price": 0,
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "스톤",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
   },
   {
     "id": "LX-ZOT 0770",
@@ -1572,7 +1817,15 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스스타일",
-    "price": 0
+    "price": 0,
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "스톤",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
   },
   {
     "id": "LX-ZOT 0771",
@@ -1581,7 +1834,15 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스스타일",
-    "price": 0
+    "price": 0,
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "스톤",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
   },
   {
     "id": "LX-ZOW 0712",
@@ -1590,7 +1851,15 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스스타일",
-    "price": 0
+    "price": 0,
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "우드",
+      "thickness": "3.0T",
+      "size": "150x1200mm",
+      "packing": "18pcs / 3.24㎡"
+    }
   },
   {
     "id": "LX-ZOW 0717",
@@ -1599,7 +1868,15 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스스타일",
-    "price": 0
+    "price": 0,
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "우드",
+      "thickness": "3.0T",
+      "size": "150x1200mm",
+      "packing": "18pcs / 3.24㎡"
+    }
   },
   {
     "id": "LX-ZOW 0718",
@@ -1608,7 +1885,15 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스스타일",
-    "price": 0
+    "price": 0,
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "우드",
+      "thickness": "3.0T",
+      "size": "150x1200mm",
+      "packing": "18pcs / 3.24㎡"
+    }
   },
   {
     "id": "LX-ZOW 0719",
@@ -1617,7 +1902,15 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스스타일",
-    "price": 0
+    "price": 0,
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "우드",
+      "thickness": "3.0T",
+      "size": "150x1200mm",
+      "packing": "18pcs / 3.24㎡"
+    }
   },
   {
     "id": "LX-ZOW 0720",
@@ -1626,7 +1919,15 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스스타일",
-    "price": 0
+    "price": 0,
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "우드",
+      "thickness": "3.0T",
+      "size": "150x1200mm",
+      "packing": "18pcs / 3.24㎡"
+    }
   },
   {
     "id": "LX-DBT 3066",
@@ -1639,6 +1940,7 @@ export const materials = [
     "type": "450",
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "450x450mm",
       "packing": "16pcs / 3.24㎡"
@@ -1655,6 +1957,7 @@ export const materials = [
     "type": "450",
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "450x450mm",
       "packing": "16pcs / 3.24㎡"
@@ -1671,6 +1974,7 @@ export const materials = [
     "type": "450",
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "450x450mm",
       "packing": "16pcs / 3.24㎡"
@@ -1687,6 +1991,7 @@ export const materials = [
     "type": "450",
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "450x450mm",
       "packing": "16pcs / 3.24㎡"
@@ -1703,6 +2008,7 @@ export const materials = [
     "type": "450",
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "450x450mm",
       "packing": "16pcs / 3.24㎡"
@@ -1719,6 +2025,7 @@ export const materials = [
     "type": "600",
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "600x600mm",
       "packing": "9pcs / 3.24㎡"
@@ -1735,6 +2042,7 @@ export const materials = [
     "type": "600",
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "600x600mm",
       "packing": "9pcs / 3.24㎡"
@@ -1751,6 +2059,7 @@ export const materials = [
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -1767,6 +2076,7 @@ export const materials = [
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -1783,6 +2093,7 @@ export const materials = [
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -1799,6 +2110,7 @@ export const materials = [
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -1815,6 +2127,7 @@ export const materials = [
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -1831,6 +2144,7 @@ export const materials = [
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
+      "division": "",
       "thickness": "3.0T",
       "size": "180x920mm",
       "packing": "20pcs / 3.31㎡"
@@ -2009,6 +2323,7 @@ export const materials = [
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
+      "division": "",
       "thickness": "7.5T",
       "size": "190x1615mm",
       "packing": "1박스 (1.84 m²)"
@@ -2025,6 +2340,7 @@ export const materials = [
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
+      "division": "",
       "thickness": "7.5T",
       "size": "190x1615mm",
       "packing": "1박스 (1.84 m²)"
@@ -2041,6 +2357,7 @@ export const materials = [
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
+      "division": "",
       "thickness": "7.5T",
       "size": "190x1615mm",
       "packing": "1박스 (1.84 m²)"
@@ -2057,6 +2374,7 @@ export const materials = [
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
+      "division": "",
       "thickness": "7.5T",
       "size": "190x1615mm",
       "packing": "1박스 (1.84 m²)"
@@ -2073,6 +2391,7 @@ export const materials = [
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
+      "division": "",
       "thickness": "7.5T",
       "size": "190x1615mm",
       "packing": "1박스 (1.84 m²)"
@@ -2089,6 +2408,7 @@ export const materials = [
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
+      "division": "",
       "thickness": "7.5T",
       "size": "190x1615mm",
       "packing": "1박스 (1.84 m²)"
@@ -2105,6 +2425,7 @@ export const materials = [
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
+      "division": "",
       "thickness": "7.5T",
       "size": "190x1615mm",
       "packing": "1박스 (1.84 m²)"
@@ -2121,6 +2442,7 @@ export const materials = [
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
+      "division": "",
       "thickness": "7.5T",
       "size": "190x1615mm",
       "packing": "1박스 (1.84 m²)"
@@ -2137,6 +2459,7 @@ export const materials = [
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
+      "division": "",
       "thickness": "7.5T",
       "size": "190x1615mm",
       "packing": "1박스 (1.84 m²)"
@@ -2153,6 +2476,7 @@ export const materials = [
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
+      "division": "",
       "thickness": "7.5T",
       "size": "190x1615mm",
       "packing": "1박스 (1.84 m²)"
@@ -2169,6 +2493,7 @@ export const materials = [
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
+      "division": "",
       "thickness": "7.5T",
       "size": "190x1615mm",
       "packing": "1박스 (1.84 m²)"
@@ -2185,6 +2510,7 @@ export const materials = [
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
+      "division": "",
       "thickness": "7.5T",
       "size": "190x1615mm",
       "packing": "1박스 (1.84 m²)"
@@ -10480,6 +10806,7 @@ export const materials = [
     "price": 0,
     "thickness": "1.8T",
     "specs": {
+      "division": "",
       "thickness": "1.8T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10495,6 +10822,7 @@ export const materials = [
     "price": 0,
     "thickness": "1.8T",
     "specs": {
+      "division": "",
       "thickness": "1.8T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10510,6 +10838,7 @@ export const materials = [
     "price": 0,
     "thickness": "1.8T",
     "specs": {
+      "division": "",
       "thickness": "1.8T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10525,6 +10854,7 @@ export const materials = [
     "price": 0,
     "thickness": "1.8T",
     "specs": {
+      "division": "",
       "thickness": "1.8T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10540,6 +10870,7 @@ export const materials = [
     "price": 0,
     "thickness": "1.8T",
     "specs": {
+      "division": "",
       "thickness": "1.8T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10555,6 +10886,7 @@ export const materials = [
     "price": 0,
     "thickness": "1.8T",
     "specs": {
+      "division": "",
       "thickness": "1.8T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10570,6 +10902,7 @@ export const materials = [
     "price": 0,
     "thickness": "1.8T",
     "specs": {
+      "division": "",
       "thickness": "1.8T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10585,6 +10918,7 @@ export const materials = [
     "price": 0,
     "thickness": "1.8T",
     "specs": {
+      "division": "",
       "thickness": "1.8T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10600,6 +10934,7 @@ export const materials = [
     "price": 0,
     "thickness": "1.8T",
     "specs": {
+      "division": "",
       "thickness": "1.8T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10615,6 +10950,7 @@ export const materials = [
     "price": 0,
     "thickness": "1.8T",
     "specs": {
+      "division": "",
       "thickness": "1.8T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10630,6 +10966,7 @@ export const materials = [
     "price": 0,
     "thickness": "1.8T",
     "specs": {
+      "division": "",
       "thickness": "1.8T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10645,6 +10982,7 @@ export const materials = [
     "price": 0,
     "thickness": "1.8T",
     "specs": {
+      "division": "",
       "thickness": "1.8T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10660,6 +10998,7 @@ export const materials = [
     "price": 0,
     "thickness": "1.8T",
     "specs": {
+      "division": "",
       "thickness": "1.8T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10675,6 +11014,7 @@ export const materials = [
     "price": 0,
     "thickness": "1.8T",
     "specs": {
+      "division": "",
       "thickness": "1.8T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10690,6 +11030,7 @@ export const materials = [
     "price": 0,
     "thickness": "1.8T",
     "specs": {
+      "division": "",
       "thickness": "1.8T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10705,6 +11046,7 @@ export const materials = [
     "price": 0,
     "thickness": "1.8T",
     "specs": {
+      "division": "",
       "thickness": "1.8T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10720,6 +11062,7 @@ export const materials = [
     "price": 0,
     "thickness": "1.8T",
     "specs": {
+      "division": "",
       "thickness": "1.8T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10735,6 +11078,7 @@ export const materials = [
     "price": 0,
     "thickness": "1.8T",
     "specs": {
+      "division": "",
       "thickness": "1.8T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10750,6 +11094,7 @@ export const materials = [
     "price": 0,
     "thickness": "1.8T",
     "specs": {
+      "division": "",
       "thickness": "1.8T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10765,6 +11110,7 @@ export const materials = [
     "price": 0,
     "thickness": "5.0T",
     "specs": {
+      "division": "",
       "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10780,6 +11126,7 @@ export const materials = [
     "price": 0,
     "thickness": "5.0T",
     "specs": {
+      "division": "",
       "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10795,6 +11142,7 @@ export const materials = [
     "price": 0,
     "thickness": "5.0T",
     "specs": {
+      "division": "",
       "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10810,6 +11158,7 @@ export const materials = [
     "price": 0,
     "thickness": "5.0T",
     "specs": {
+      "division": "",
       "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10825,6 +11174,7 @@ export const materials = [
     "price": 0,
     "thickness": "5.0T",
     "specs": {
+      "division": "",
       "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10840,6 +11190,7 @@ export const materials = [
     "price": 0,
     "thickness": "5.0T",
     "specs": {
+      "division": "",
       "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10855,6 +11206,7 @@ export const materials = [
     "price": 0,
     "thickness": "5.0T",
     "specs": {
+      "division": "",
       "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10870,6 +11222,7 @@ export const materials = [
     "price": 0,
     "thickness": "5.0T",
     "specs": {
+      "division": "",
       "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10885,6 +11238,7 @@ export const materials = [
     "price": 0,
     "thickness": "5.0T",
     "specs": {
+      "division": "",
       "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10900,6 +11254,7 @@ export const materials = [
     "price": 0,
     "thickness": "5.0T",
     "specs": {
+      "division": "",
       "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10915,6 +11270,7 @@ export const materials = [
     "price": 0,
     "thickness": "5.0T",
     "specs": {
+      "division": "",
       "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10930,6 +11286,7 @@ export const materials = [
     "price": 0,
     "thickness": "5.0T",
     "specs": {
+      "division": "",
       "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10945,6 +11302,7 @@ export const materials = [
     "price": 0,
     "thickness": "5.0T",
     "specs": {
+      "division": "",
       "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10960,6 +11318,7 @@ export const materials = [
     "price": 0,
     "thickness": "5.0T",
     "specs": {
+      "division": "",
       "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10975,6 +11334,7 @@ export const materials = [
     "price": 0,
     "thickness": "5.0T",
     "specs": {
+      "division": "",
       "thickness": "5.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -10990,6 +11350,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.0T",
     "specs": {
+      "division": "",
       "thickness": "2.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11005,6 +11366,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.0T",
     "specs": {
+      "division": "",
       "thickness": "2.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11020,6 +11382,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.0T",
     "specs": {
+      "division": "",
       "thickness": "2.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11035,6 +11398,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.0T",
     "specs": {
+      "division": "",
       "thickness": "2.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11050,6 +11414,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.0T",
     "specs": {
+      "division": "",
       "thickness": "2.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11065,6 +11430,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.0T",
     "specs": {
+      "division": "",
       "thickness": "2.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11080,6 +11446,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.0T",
     "specs": {
+      "division": "",
       "thickness": "2.0T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11095,6 +11462,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.7T",
     "specs": {
+      "division": "",
       "thickness": "2.7T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11110,6 +11478,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.7T",
     "specs": {
+      "division": "",
       "thickness": "2.7T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11125,6 +11494,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.7T",
     "specs": {
+      "division": "",
       "thickness": "2.7T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11140,6 +11510,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.7T",
     "specs": {
+      "division": "",
       "thickness": "2.7T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11155,6 +11526,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.7T",
     "specs": {
+      "division": "",
       "thickness": "2.7T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11170,6 +11542,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.7T",
     "specs": {
+      "division": "",
       "thickness": "2.7T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11185,6 +11558,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.7T",
     "specs": {
+      "division": "",
       "thickness": "2.7T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11200,6 +11574,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.7T",
     "specs": {
+      "division": "",
       "thickness": "2.7T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11215,6 +11590,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.2T",
     "specs": {
+      "division": "",
       "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11230,6 +11606,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.2T",
     "specs": {
+      "division": "",
       "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11245,6 +11622,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.2T",
     "specs": {
+      "division": "",
       "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11260,6 +11638,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.2T",
     "specs": {
+      "division": "",
       "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11275,6 +11654,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.2T",
     "specs": {
+      "division": "",
       "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11290,6 +11670,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.2T",
     "specs": {
+      "division": "",
       "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11305,6 +11686,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.2T",
     "specs": {
+      "division": "",
       "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11320,6 +11702,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.2T",
     "specs": {
+      "division": "",
       "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11335,6 +11718,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.2T",
     "specs": {
+      "division": "",
       "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11350,6 +11734,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.2T",
     "specs": {
+      "division": "",
       "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11365,6 +11750,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.2T",
     "specs": {
+      "division": "",
       "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11380,6 +11766,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.2T",
     "specs": {
+      "division": "",
       "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11395,6 +11782,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.2T",
     "specs": {
+      "division": "",
       "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11410,6 +11798,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.2T",
     "specs": {
+      "division": "",
       "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11425,6 +11814,7 @@ export const materials = [
     "price": 0,
     "thickness": "3.2T",
     "specs": {
+      "division": "",
       "thickness": "3.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11440,6 +11830,7 @@ export const materials = [
     "price": 0,
     "thickness": "4.5T",
     "specs": {
+      "division": "",
       "thickness": "4.5T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11455,6 +11846,7 @@ export const materials = [
     "price": 0,
     "thickness": "4.5T",
     "specs": {
+      "division": "",
       "thickness": "4.5T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11470,6 +11862,7 @@ export const materials = [
     "price": 0,
     "thickness": "4.5T",
     "specs": {
+      "division": "",
       "thickness": "4.5T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11485,6 +11878,7 @@ export const materials = [
     "price": 0,
     "thickness": "4.5T",
     "specs": {
+      "division": "",
       "thickness": "4.5T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11500,6 +11894,7 @@ export const materials = [
     "price": 0,
     "thickness": "4.5T",
     "specs": {
+      "division": "",
       "thickness": "4.5T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11515,6 +11910,7 @@ export const materials = [
     "price": 0,
     "thickness": "4.5T",
     "specs": {
+      "division": "",
       "thickness": "4.5T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11530,6 +11926,7 @@ export const materials = [
     "price": 0,
     "thickness": "4.5T",
     "specs": {
+      "division": "",
       "thickness": "4.5T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11545,6 +11942,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.2T",
     "specs": {
+      "division": "",
       "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11560,6 +11958,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.2T",
     "specs": {
+      "division": "",
       "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11575,6 +11974,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.2T",
     "specs": {
+      "division": "",
       "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11590,6 +11990,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.2T",
     "specs": {
+      "division": "",
       "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11605,6 +12006,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.2T",
     "specs": {
+      "division": "",
       "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11620,6 +12022,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.2T",
     "specs": {
+      "division": "",
       "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11635,6 +12038,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.2T",
     "specs": {
+      "division": "",
       "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11650,6 +12054,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.2T",
     "specs": {
+      "division": "",
       "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11665,6 +12070,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.2T",
     "specs": {
+      "division": "",
       "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11680,6 +12086,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.2T",
     "specs": {
+      "division": "",
       "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11695,6 +12102,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.2T",
     "specs": {
+      "division": "",
       "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11710,6 +12118,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.2T",
     "specs": {
+      "division": "",
       "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11725,6 +12134,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.2T",
     "specs": {
+      "division": "",
       "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11740,6 +12150,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.2T",
     "specs": {
+      "division": "",
       "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11755,6 +12166,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.2T",
     "specs": {
+      "division": "",
       "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11770,6 +12182,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.2T",
     "specs": {
+      "division": "",
       "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11785,6 +12198,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.2T",
     "specs": {
+      "division": "",
       "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11800,6 +12214,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.2T",
     "specs": {
+      "division": "",
       "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11815,6 +12230,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.2T",
     "specs": {
+      "division": "",
       "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11830,6 +12246,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.2T",
     "specs": {
+      "division": "",
       "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11845,6 +12262,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.2T",
     "specs": {
+      "division": "",
       "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
@@ -11860,6 +12278,7 @@ export const materials = [
     "price": 0,
     "thickness": "2.2T",
     "specs": {
+      "division": "",
       "thickness": "2.2T",
       "size": "1.83m x 롤단위",
       "packing": "m 단위 절단 판매"
