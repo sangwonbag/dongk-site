@@ -11885,355 +11885,355 @@ export const materials = [
     }
   },
   {
-    "id": "LX-ZJ32981-11-화이트-오크",
-    "code": "ZJ32981-11-화이트-오크",
-    "name": "ZJ32981-11-화이트-오크",
+    "id": "LX-ZJ32981-11",
+    "code": "ZJ32981-11",
+    "name": "ZJ32981-11",
     "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 22000,
     "thickness": "2.2T",
     "specs": {
       "division": "",
       "thickness": "2.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   },
   {
-    "id": "LX-ZJ33561-11-오크",
-    "code": "ZJ33561-11-오크",
-    "name": "ZJ33561-11-오크",
+    "id": "LX-ZJ33561-11",
+    "code": "ZJ33561-11",
+    "name": "ZJ33561-11",
     "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 22000,
     "thickness": "2.2T",
     "specs": {
       "division": "",
       "thickness": "2.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   },
   {
-    "id": "LX-ZJ33562-11-오크",
-    "code": "ZJ33562-11-오크",
-    "name": "ZJ33562-11-오크",
+    "id": "LX-ZJ33562-11",
+    "code": "ZJ33562-11",
+    "name": "ZJ33562-11",
     "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 22000,
     "thickness": "2.2T",
     "specs": {
       "division": "",
       "thickness": "2.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   },
   {
-    "id": "LX-ZJ33763-11-브라운-오크",
-    "code": "ZJ33763-11-브라운-오크",
-    "name": "ZJ33763-11-브라운-오크",
+    "id": "LX-ZJ33763-11",
+    "code": "ZJ33763-11",
+    "name": "ZJ33763-11",
     "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 22000,
     "thickness": "2.2T",
     "specs": {
       "division": "",
       "thickness": "2.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   },
   {
-    "id": "LX-ZJ33871-11-모던-오크",
-    "code": "ZJ33871-11-모던-오크",
-    "name": "ZJ33871-11-모던-오크",
+    "id": "LX-ZJ33871-1",
+    "code": "ZJ33871-1",
+    "name": "ZJ33871-1",
     "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 22000,
     "thickness": "2.2T",
     "specs": {
       "division": "",
       "thickness": "2.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   },
   {
-    "id": "LX-ZJ33872-11-베이지-오크",
-    "code": "ZJ33872-11-베이지-오크",
-    "name": "ZJ33872-11-베이지-오크",
+    "id": "LX-ZJ33872-11",
+    "code": "ZJ33872-11",
+    "name": "ZJ33872-11",
     "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 22000,
     "thickness": "2.2T",
     "specs": {
       "division": "",
       "thickness": "2.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   },
   {
-    "id": "LX-ZJ34331-11-윈터-오크",
-    "code": "ZJ34331-11-윈터-오크",
-    "name": "ZJ34331-11-윈터-오크",
+    "id": "LX-ZJ34331-11",
+    "code": "ZJ34331-11",
+    "name": "ZJ34331-11",
     "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 22000,
     "thickness": "2.2T",
     "specs": {
       "division": "",
       "thickness": "2.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   },
   {
-    "id": "LX-ZJ34371-11-시나몬-오크",
-    "code": "ZJ34371-11-시나몬-오크",
-    "name": "ZJ34371-11-시나몬-오크",
+    "id": "LX-ZJ34371-11",
+    "code": "ZJ34371-11",
+    "name": "ZJ34371-11",
     "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 22000,
     "thickness": "2.2T",
     "specs": {
       "division": "",
       "thickness": "2.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   },
   {
-    "id": "LX-ZJ34841-11-아이보리-오크",
-    "code": "ZJ34841-11-아이보리-오크",
-    "name": "ZJ34841-11-아이보리-오크",
+    "id": "LX-ZJ34841-11",
+    "code": "ZJ34841-11",
+    "name": "ZJ34841-11",
     "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 22000,
     "thickness": "2.2T",
     "specs": {
       "division": "",
       "thickness": "2.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   },
   {
-    "id": "LX-ZJ34842-11-토프-오크",
-    "code": "ZJ34842-11-토프-오크",
-    "name": "ZJ34842-11-토프-오크",
+    "id": "LX-ZJ34842-11",
+    "code": "ZJ34842-11",
+    "name": "ZJ34842-11",
     "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 22000,
     "thickness": "2.2T",
     "specs": {
       "division": "",
       "thickness": "2.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   },
   {
-    "id": "LX-ZJ34851-11-피치-애쉬",
-    "code": "ZJ34851-11-피치-애쉬",
-    "name": "ZJ34851-11-피치-애쉬",
+    "id": "LX-ZJ34851-11",
+    "code": "ZJ34851-11",
+    "name": "ZJ34851-11",
     "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 22000,
     "thickness": "2.2T",
     "specs": {
       "division": "",
       "thickness": "2.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   },
   {
-    "id": "LX-ZJ43601-22-소프트-콘크리트",
-    "code": "ZJ43601-22-소프트-콘크리트",
-    "name": "ZJ43601-22-소프트-콘크리트",
+    "id": "LX-ZJ43601-22",
+    "code": "ZJ43601-22",
+    "name": "ZJ43601-22",
     "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 22000,
     "thickness": "2.2T",
     "specs": {
       "division": "",
       "thickness": "2.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   },
   {
-    "id": "LX-ZJ43841-22-베이지-포세린",
-    "code": "ZJ43841-22-베이지-포세린",
-    "name": "ZJ43841-22-베이지-포세린",
+    "id": "LX-ZJ43841-22",
+    "code": "ZJ43841-22",
+    "name": "ZJ43841-22",
     "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 22000,
     "thickness": "2.2T",
     "specs": {
       "division": "",
       "thickness": "2.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   },
   {
-    "id": "LX-ZJ43893-22-뉴-실버-마블",
-    "code": "ZJ43893-22-뉴-실버-마블",
-    "name": "ZJ43893-22-뉴-실버-마블",
+    "id": "LX-ZJ43893-22",
+    "code": "ZJ43893-22",
+    "name": "ZJ43893-22",
     "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 22000,
     "thickness": "2.2T",
     "specs": {
       "division": "",
       "thickness": "2.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   },
   {
-    "id": "LX-ZJ44093-22-애쉬-베인-샌드",
-    "code": "ZJ44093-22-애쉬-베인-샌드",
-    "name": "ZJ44093-22-애쉬-베인-샌드",
+    "id": "LX-ZJ44093-22",
+    "code": "ZJ44093-22",
+    "name": "ZJ44093-22",
     "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 22000,
     "thickness": "2.2T",
     "specs": {
       "division": "",
       "thickness": "2.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   },
   {
-    "id": "LX-ZJ44241-22-로즈-마블",
-    "code": "ZJ44241-22-로즈-마블",
-    "name": "ZJ44241-22-로즈-마블",
+    "id": "LX-ZJ44241-22",
+    "code": "ZJ44241-22",
+    "name": "ZJ44241-22",
     "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 22000,
     "thickness": "2.2T",
     "specs": {
       "division": "",
       "thickness": "2.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   },
   {
-    "id": "LX-ZJ44351-22-그레이-콘크리트",
-    "code": "ZJ44351-22-그레이-콘크리트",
-    "name": "ZJ44351-22-그레이-콘크리트",
+    "id": "LX-ZJ44351-22",
+    "code": "ZJ44351-22",
+    "name": "ZJ44351-22",
     "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 22000,
     "thickness": "2.2T",
     "specs": {
       "division": "",
       "thickness": "2.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   },
   {
-    "id": "LX-ZJ44821-22-베이지-샌드",
-    "code": "ZJ44821-22-베이지-샌드",
-    "name": "ZJ44821-22-베이지-샌드",
+    "id": "LX-ZJ44821-22",
+    "code": "ZJ44821-22",
+    "name": "ZJ44821-22",
     "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 22000,
     "thickness": "2.2T",
     "specs": {
       "division": "",
       "thickness": "2.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   },
   {
-    "id": "LX-ZJ44822-22-오트-샌드",
-    "code": "ZJ44822-22-오트-샌드",
-    "name": "ZJ44822-22-오트-샌드",
+    "id": "LX-ZJ44822-22",
+    "code": "ZJ44822-22",
+    "name": "ZJ44822-22",
     "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 22000,
     "thickness": "2.2T",
     "specs": {
       "division": "",
       "thickness": "2.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   },
   {
-    "id": "LX-ZJ44831-22-모하비-스톤",
-    "code": "ZJ44831-22-모하비-스톤",
-    "name": "ZJ44831-22-모하비-스톤",
+    "id": "LX-ZJ44831-22",
+    "code": "ZJ44831-22",
+    "name": "ZJ44831-22",
     "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 22000,
     "thickness": "2.2T",
     "specs": {
       "division": "",
       "thickness": "2.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   },
   {
-    "id": "LX-ZJ44861-22-웜-브릭",
-    "code": "ZJ44861-22-웜-브릭",
-    "name": "ZJ44861-22-웜-브릭",
+    "id": "LX-ZJ44861-22",
+    "code": "ZJ44861-22",
+    "name": "ZJ44861-22",
     "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 22000,
     "thickness": "2.2T",
     "specs": {
       "division": "",
       "thickness": "2.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   },
   {
-    "id": "LX-ZJ44871-22-스투코-그레이",
-    "code": "ZJ44871-22-스투코-그레이",
-    "name": "ZJ44871-22-스투코-그레이",
+    "id": "LX-ZJ44871-22",
+    "code": "ZJ44871-22",
+    "name": "ZJ44871-22",
     "brand": "LX 2.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 22000,
     "thickness": "2.2T",
     "specs": {
       "division": "",
       "thickness": "2.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   }
 ];
