@@ -248,6 +248,22 @@ export const imageManifest = {
       "1e737cbe9bc3266891cd790865768aca.jpg"
     ]
   },
+  "5801": {
+    "thumbnail": "0ff94b761f629fc0495e2990aef20866.jpg",
+    "images": [
+      "e34424d769ec17d712352a1ab7b02f62.jpg",
+      "0ff94b761f629fc0495e2990aef20866.jpg",
+      "801b831f7008e99c2cb33327d6e9524f.jpg",
+      "d6646294eb6a111b1be41fb551fbd541.jpg"
+    ]
+  },
+  "5803": {
+    "thumbnail": "126a572acb98ad110edebbdca258be54.jpg",
+    "images": [
+      "0dacb75fdf9283fe45d6e89936502e59.jpg",
+      "126a572acb98ad110edebbdca258be54.jpg"
+    ]
+  },
   "6001": {
     "thumbnail": "17e68e127b3c3e358a2e60159982a118.jpg",
     "images": [
@@ -284,6 +300,21 @@ export const imageManifest = {
     "thumbnail": "83c23a25c2c1a8e5a8afc65f8b444853.jpg",
     "images": [
       "83c23a25c2c1a8e5a8afc65f8b444853.jpg"
+    ]
+  },
+  "8801": {
+    "thumbnail": "430d3e567716fbbc85a99623d8d36855.jpg",
+    "images": [
+      "492abfb8c4d8e1afc458ea131f1c31d2.jpg",
+      "430d3e567716fbbc85a99623d8d36855.jpg"
+    ]
+  },
+  "8803": {
+    "thumbnail": "1c5a32c3aedd425ede224233a0d7c824.jpg",
+    "images": [
+      "976449250fa9a6a3a843ad19d67da6fa.jpg",
+      "1c5a32c3aedd425ede224233a0d7c824.jpg",
+      "e65eebe6eadacdee888928cf007b86fe.jpg"
     ]
   },
   "20011": {
@@ -18794,6 +18825,54 @@ export const imageManifest = {
     "thumbnail": "83c23a25c2c1a8e5a8afc65f8b444853.jpg",
     "images": [
       "83c23a25c2c1a8e5a8afc65f8b444853.jpg"
+    ]
+  },
+  "FSM 5801": {
+    "thumbnail": "e34424d769ec17d712352a1ab7b02f62.jpg",
+    "images": [
+      "e34424d769ec17d712352a1ab7b02f62.jpg"
+    ]
+  },
+  "FSM5801": {
+    "thumbnail": "e34424d769ec17d712352a1ab7b02f62.jpg",
+    "images": [
+      "e34424d769ec17d712352a1ab7b02f62.jpg"
+    ]
+  },
+  "FSM 5803": {
+    "thumbnail": "0dacb75fdf9283fe45d6e89936502e59.jpg",
+    "images": [
+      "0dacb75fdf9283fe45d6e89936502e59.jpg"
+    ]
+  },
+  "FSM5803": {
+    "thumbnail": "0dacb75fdf9283fe45d6e89936502e59.jpg",
+    "images": [
+      "0dacb75fdf9283fe45d6e89936502e59.jpg"
+    ]
+  },
+  "FWM 8801": {
+    "thumbnail": "492abfb8c4d8e1afc458ea131f1c31d2.jpg",
+    "images": [
+      "492abfb8c4d8e1afc458ea131f1c31d2.jpg"
+    ]
+  },
+  "FWM8801": {
+    "thumbnail": "492abfb8c4d8e1afc458ea131f1c31d2.jpg",
+    "images": [
+      "492abfb8c4d8e1afc458ea131f1c31d2.jpg"
+    ]
+  },
+  "FWM 8803": {
+    "thumbnail": "976449250fa9a6a3a843ad19d67da6fa.jpg",
+    "images": [
+      "976449250fa9a6a3a843ad19d67da6fa.jpg"
+    ]
+  },
+  "FWM8803": {
+    "thumbnail": "976449250fa9a6a3a843ad19d67da6fa.jpg",
+    "images": [
+      "976449250fa9a6a3a843ad19d67da6fa.jpg"
     ]
   }
 };

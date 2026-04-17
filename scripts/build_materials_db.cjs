@@ -76,15 +76,19 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                     packing = "19pcs / 3.32㎡";
                     type = "wood";
                 }
-                thickness = "3.0mm";
             } else if (brand === '유성') {
-                if (line.includes('600각') || line.includes('600')) {
-                    price = 21500;
+                price = 21500;
+                thickness = "3.0mm";
+                const uName = nameOnly.toUpperCase();
+                if (uName.startsWith('FWM') || uName.includes('WOOD') || (line.includes('우드') && !line.includes('600'))) {
+                    sizeLabel = "180mm(W) x 920mm(L) x 3.0(T)";
+                    packing = "20pcs/box (3.31㎡)";
+                    type = "wood";
+                } else if (uName.startsWith('FSM') || line.includes('600각') || line.includes('600')) {
                     sizeLabel = "600mm(W) x 600mm(L) x 3.0(T)";
                     packing = "9 pcs/box (3.24㎡)";
                     type = "600";
                 }
-                thickness = "3.0mm";
             } else if (brand === 'LX') {
                 // Determine prices based on lines or codes
                 if (line.includes('프레스티지')) {

@@ -543,10 +543,9 @@ export const materials = [
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     }
@@ -560,10 +559,9 @@ export const materials = [
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     }
@@ -575,14 +573,7 @@ export const materials = [
     "brand": "KCC",
     "category": "데코타일",
     "line": "KCC_square",
-    "price": 0,
-    "thickness": "3.0mm",
-    "specs": {
-      "division": "",
-      "thickness": "3.0mm",
-      "size": "",
-      "packing": ""
-    }
+    "price": 0
   },
   {
     "id": "TS5510P",
@@ -593,10 +584,9 @@ export const materials = [
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     }
@@ -610,10 +600,9 @@ export const materials = [
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     }
@@ -627,10 +616,9 @@ export const materials = [
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     }
@@ -644,10 +632,9 @@ export const materials = [
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     }
@@ -661,10 +648,9 @@ export const materials = [
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     }
@@ -678,10 +664,9 @@ export const materials = [
     "line": "KCC_square",
     "price": 26000,
     "type": "600",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "600x600mm",
       "packing": "9pcs / 3.24㎡"
     }
@@ -695,10 +680,9 @@ export const materials = [
     "line": "KCC_square",
     "price": 26000,
     "type": "600",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "600x600mm",
       "packing": "9pcs / 3.24㎡"
     }
@@ -712,10 +696,9 @@ export const materials = [
     "line": "KCC_square",
     "price": 26000,
     "type": "600",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "600x600mm",
       "packing": "9pcs / 3.24㎡"
     }
@@ -729,10 +712,9 @@ export const materials = [
     "line": "KCC_square",
     "price": 26000,
     "type": "600",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "600x600mm",
       "packing": "9pcs / 3.24㎡"
     }
@@ -746,10 +728,9 @@ export const materials = [
     "line": "KCC_square",
     "price": 26000,
     "type": "600",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "600x600mm",
       "packing": "9pcs / 3.24㎡"
     }
@@ -763,10 +744,9 @@ export const materials = [
     "line": "KCC_square",
     "price": 26000,
     "type": "600",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "600x600mm",
       "packing": "9pcs / 3.24㎡"
     }
@@ -780,10 +760,9 @@ export const materials = [
     "line": "KCC_square",
     "price": 26000,
     "type": "600",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "600x600mm",
       "packing": "9pcs / 3.24㎡"
     }
@@ -797,10 +776,9 @@ export const materials = [
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     }
@@ -814,10 +792,9 @@ export const materials = [
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     }
@@ -831,10 +808,9 @@ export const materials = [
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     }
@@ -848,10 +824,9 @@ export const materials = [
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     }
@@ -865,10 +840,9 @@ export const materials = [
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     }
@@ -882,10 +856,9 @@ export const materials = [
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     }
@@ -899,10 +872,9 @@ export const materials = [
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     }
@@ -916,10 +888,9 @@ export const materials = [
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     }
@@ -933,10 +904,9 @@ export const materials = [
     "line": "KCC_square",
     "price": 26000,
     "type": "600",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "600x600mm",
       "packing": "9pcs / 3.24㎡"
     }
@@ -950,10 +920,9 @@ export const materials = [
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     }
@@ -967,10 +936,9 @@ export const materials = [
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     }
@@ -984,10 +952,9 @@ export const materials = [
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     }
@@ -1001,10 +968,9 @@ export const materials = [
     "line": "KCC_square",
     "price": 25000,
     "type": "450",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     }
@@ -1018,10 +984,9 @@ export const materials = [
     "line": "KCC_wood",
     "price": 25000,
     "type": "wood",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "184x950mm",
       "packing": "19pcs / 3.32㎡"
     }
@@ -1035,10 +1000,9 @@ export const materials = [
     "line": "KCC_wood",
     "price": 25000,
     "type": "wood",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "184x950mm",
       "packing": "19pcs / 3.32㎡"
     }
@@ -1052,10 +1016,9 @@ export const materials = [
     "line": "KCC_wood",
     "price": 25000,
     "type": "wood",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "184x950mm",
       "packing": "19pcs / 3.32㎡"
     }
@@ -1069,10 +1032,9 @@ export const materials = [
     "line": "KCC_wood",
     "price": 25000,
     "type": "wood",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "184x950mm",
       "packing": "19pcs / 3.32㎡"
     }
@@ -1086,10 +1048,9 @@ export const materials = [
     "line": "KCC_wood",
     "price": 25000,
     "type": "wood",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "184x950mm",
       "packing": "19pcs / 3.32㎡"
     }
@@ -1103,10 +1064,9 @@ export const materials = [
     "line": "KCC_wood",
     "price": 25000,
     "type": "wood",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "184x950mm",
       "packing": "19pcs / 3.32㎡"
     }
@@ -1120,10 +1080,9 @@ export const materials = [
     "line": "KCC_wood",
     "price": 25000,
     "type": "wood",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "184x950mm",
       "packing": "19pcs / 3.32㎡"
     }
@@ -1137,10 +1096,9 @@ export const materials = [
     "line": "KCC_wood",
     "price": 25000,
     "type": "wood",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "184x950mm",
       "packing": "19pcs / 3.32㎡"
     }
@@ -1154,10 +1112,9 @@ export const materials = [
     "line": "KCC_wood",
     "price": 25000,
     "type": "wood",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "184x950mm",
       "packing": "19pcs / 3.32㎡"
     }
@@ -1171,10 +1128,9 @@ export const materials = [
     "line": "KCC_wood",
     "price": 25000,
     "type": "wood",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "184x950mm",
       "packing": "19pcs / 3.32㎡"
     }
@@ -1188,10 +1144,9 @@ export const materials = [
     "line": "KCC_wood",
     "price": 25000,
     "type": "wood",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "184x950mm",
       "packing": "19pcs / 3.32㎡"
     }
@@ -1205,10 +1160,9 @@ export const materials = [
     "line": "KCC_wood",
     "price": 25000,
     "type": "wood",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "184x950mm",
       "packing": "19pcs / 3.32㎡"
     }
@@ -1222,10 +1176,9 @@ export const materials = [
     "line": "KCC_wood",
     "price": 25000,
     "type": "wood",
-    "thickness": "3.0mm",
     "specs": {
       "division": "",
-      "thickness": "3.0mm",
+      "thickness": "",
       "size": "184x950mm",
       "packing": "19pcs / 3.32㎡"
     }
@@ -2811,6 +2764,74 @@ export const materials = [
       "thickness": "3.0mm",
       "size": "600mm(W) x 600mm(L) x 3.0(T)",
       "packing": "9 pcs/box (3.24㎡)"
+    }
+  },
+  {
+    "id": "YO-5801",
+    "code": "5801",
+    "name": "FSM 5801",
+    "brand": "유성",
+    "category": "데코타일",
+    "line": "피오네 모던_600각트랜드",
+    "price": 21500,
+    "type": "600",
+    "thickness": "3.0mm",
+    "specs": {
+      "division": "",
+      "thickness": "3.0mm",
+      "size": "600mm(W) x 600mm(L) x 3.0(T)",
+      "packing": "9 pcs/box (3.24㎡)"
+    }
+  },
+  {
+    "id": "YO-5803",
+    "code": "5803",
+    "name": "FSM 5803",
+    "brand": "유성",
+    "category": "데코타일",
+    "line": "피오네 모던_600각트랜드",
+    "price": 21500,
+    "type": "600",
+    "thickness": "3.0mm",
+    "specs": {
+      "division": "",
+      "thickness": "3.0mm",
+      "size": "600mm(W) x 600mm(L) x 3.0(T)",
+      "packing": "9 pcs/box (3.24㎡)"
+    }
+  },
+  {
+    "id": "YO-8801",
+    "code": "8801",
+    "name": "FWM 8801",
+    "brand": "유성",
+    "category": "데코타일",
+    "line": "피오네 모던_600각트랜드",
+    "price": 21500,
+    "type": "wood",
+    "thickness": "3.0mm",
+    "specs": {
+      "division": "",
+      "thickness": "3.0mm",
+      "size": "180mm(W) x 920mm(L) x 3.0(T)",
+      "packing": "20pcs/box (3.31㎡)"
+    }
+  },
+  {
+    "id": "YO-8803",
+    "code": "8803",
+    "name": "FWM 8803",
+    "brand": "유성",
+    "category": "데코타일",
+    "line": "피오네 모던_600각트랜드",
+    "price": 21500,
+    "type": "wood",
+    "thickness": "3.0mm",
+    "specs": {
+      "division": "",
+      "thickness": "3.0mm",
+      "size": "180mm(W) x 920mm(L) x 3.0(T)",
+      "packing": "20pcs/box (3.31㎡)"
     }
   },
   {
