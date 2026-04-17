@@ -11533,19 +11533,35 @@ export const materials = [
     }
   },
   {
+    "id": "LX-60071",
+    "code": "60071",
+    "name": "60071",
+    "brand": "LX 3.2T",
+    "category": "장판",
+    "line": "",
+    "price": 36000,
+    "thickness": "3.2T",
+    "specs": {
+      "division": "",
+      "thickness": "3.2T",
+      "size": "3.2mm(T) x 1,830mm(W)",
+      "packing": "23m / Roll"
+    }
+  },
+  {
     "id": "LX-60081",
     "code": "60081",
     "name": "60081",
     "brand": "LX 3.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 36000,
     "thickness": "3.2T",
     "specs": {
       "division": "",
       "thickness": "3.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "3.2mm(T) x 1,830mm(W)",
+      "packing": "23m / Roll"
     }
   },
   {
@@ -11555,13 +11571,13 @@ export const materials = [
     "brand": "LX 3.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 36000,
     "thickness": "3.2T",
     "specs": {
       "division": "",
       "thickness": "3.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "3.2mm(T) x 1,830mm(W)",
+      "packing": "23m / Roll"
     }
   },
   {
@@ -11571,13 +11587,13 @@ export const materials = [
     "brand": "LX 3.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 36000,
     "thickness": "3.2T",
     "specs": {
       "division": "",
       "thickness": "3.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "3.2mm(T) x 1,830mm(W)",
+      "packing": "23m / Roll"
     }
   },
   {
@@ -11587,13 +11603,13 @@ export const materials = [
     "brand": "LX 3.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 36000,
     "thickness": "3.2T",
     "specs": {
       "division": "",
       "thickness": "3.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "3.2mm(T) x 1,830mm(W)",
+      "packing": "23m / Roll"
     }
   },
   {
@@ -11603,13 +11619,13 @@ export const materials = [
     "brand": "LX 3.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 36000,
     "thickness": "3.2T",
     "specs": {
       "division": "",
       "thickness": "3.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "3.2mm(T) x 1,830mm(W)",
+      "packing": "23m / Roll"
     }
   },
   {
@@ -11619,29 +11635,29 @@ export const materials = [
     "brand": "LX 3.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 36000,
     "thickness": "3.2T",
     "specs": {
       "division": "",
       "thickness": "3.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "3.2mm(T) x 1,830mm(W)",
+      "packing": "23m / Roll"
     }
   },
   {
     "id": "LX-64221",
     "code": "64221",
-    "name": "64221",
+    "name": "64221 ",
     "brand": "LX 3.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 36000,
     "thickness": "3.2T",
     "specs": {
       "division": "",
       "thickness": "3.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "3.2mm(T) x 1,830mm(W)",
+      "packing": "23m / Roll"
     }
   },
   {
@@ -11651,13 +11667,13 @@ export const materials = [
     "brand": "LX 3.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 36000,
     "thickness": "3.2T",
     "specs": {
       "division": "",
       "thickness": "3.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "3.2mm(T) x 1,830mm(W)",
+      "packing": "23m / Roll"
     }
   },
   {
@@ -11667,109 +11683,13 @@ export const materials = [
     "brand": "LX 3.2T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 36000,
     "thickness": "3.2T",
     "specs": {
       "division": "",
       "thickness": "3.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
-    }
-  },
-  {
-    "id": "LX-ZS8002111",
-    "code": "ZS8002111",
-    "name": "ZS8002111",
-    "brand": "LX 3.2T",
-    "category": "장판",
-    "line": "",
-    "price": 0,
-    "thickness": "3.2T",
-    "specs": {
-      "division": "",
-      "thickness": "3.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
-    }
-  },
-  {
-    "id": "LX-ZS8007111",
-    "code": "ZS8007111",
-    "name": "ZS8007111",
-    "brand": "LX 3.2T",
-    "category": "장판",
-    "line": "",
-    "price": 0,
-    "thickness": "3.2T",
-    "specs": {
-      "division": "",
-      "thickness": "3.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
-    }
-  },
-  {
-    "id": "LX-ZS8299111",
-    "code": "ZS8299111",
-    "name": "ZS8299111",
-    "brand": "LX 3.2T",
-    "category": "장판",
-    "line": "",
-    "price": 0,
-    "thickness": "3.2T",
-    "specs": {
-      "division": "",
-      "thickness": "3.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
-    }
-  },
-  {
-    "id": "LX-ZS8301111",
-    "code": "ZS8301111",
-    "name": "ZS8301111",
-    "brand": "LX 3.2T",
-    "category": "장판",
-    "line": "",
-    "price": 0,
-    "thickness": "3.2T",
-    "specs": {
-      "division": "",
-      "thickness": "3.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
-    }
-  },
-  {
-    "id": "LX-ZS8305111",
-    "code": "ZS8305111",
-    "name": "ZS8305111",
-    "brand": "LX 3.2T",
-    "category": "장판",
-    "line": "",
-    "price": 0,
-    "thickness": "3.2T",
-    "specs": {
-      "division": "",
-      "thickness": "3.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
-    }
-  },
-  {
-    "id": "LX-ZS8308111",
-    "code": "ZS8308111",
-    "name": "ZS8308111",
-    "brand": "LX 3.2T",
-    "category": "장판",
-    "line": "",
-    "price": 0,
-    "thickness": "3.2T",
-    "specs": {
-      "division": "",
-      "thickness": "3.2T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "3.2mm(T) x 1,830mm(W)",
+      "packing": "23m / Roll"
     }
   },
   {

@@ -162,6 +162,10 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                     price = 22000;
                     sizeLabel = "2.2mm(T) x 1,830mm(W)";
                     packing = "30m / Roll";
+                } else if (thicknessSource.includes('지아사랑애') && thicknessSource.includes('3.2')) {
+                    price = 36000;
+                    sizeLabel = "3.2mm(T) x 1,830mm(W)";
+                    packing = "23m / Roll";
                 }
                 let tMatch = thicknessSource.match(/(\d\.\d)T/i);
                 if (tMatch) {
