@@ -11645,115 +11645,163 @@ export const materials = [
     }
   },
   {
-    "id": "LX-ZS8401111",
-    "code": "ZS8401111",
-    "name": "ZS8401111",
+    "id": "LX-ZS80021-11",
+    "code": "ZS80021-11",
+    "name": "ZS80021-11",
     "brand": "LX 4.5T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 44000,
     "thickness": "4.5T",
     "specs": {
       "division": "",
       "thickness": "4.5T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "4.5mm(T) x 1,830mm(W)",
+      "packing": "20m / 롤"
     }
   },
   {
-    "id": "LX-ZS8401211",
-    "code": "ZS8401211",
-    "name": "ZS8401211",
+    "id": "LX-ZS80071-11",
+    "code": "ZS80071-11",
+    "name": "ZS80071-11",
     "brand": "LX 4.5T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 44000,
     "thickness": "4.5T",
     "specs": {
       "division": "",
       "thickness": "4.5T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "4.5mm(T) x 1,830mm(W)",
+      "packing": "20m / 롤"
     }
   },
   {
-    "id": "LX-ZS8402111",
-    "code": "ZS8402111",
-    "name": "ZS8402111",
+    "id": "LX-ZS83081-11",
+    "code": "ZS83081-11",
+    "name": "ZS83081-11",
     "brand": "LX 4.5T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 44000,
     "thickness": "4.5T",
     "specs": {
       "division": "",
       "thickness": "4.5T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "4.5mm(T) x 1,830mm(W)",
+      "packing": "20m / 롤"
     }
   },
   {
-    "id": "LX-ZS8402211",
-    "code": "ZS8402211",
-    "name": "ZS8402211",
+    "id": "LX-ZS84011-11",
+    "code": "ZS84011-11",
+    "name": "ZS84011-11",
     "brand": "LX 4.5T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 44000,
     "thickness": "4.5T",
     "specs": {
       "division": "",
       "thickness": "4.5T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "4.5mm(T) x 1,830mm(W)",
+      "packing": "20m / 롤"
     }
   },
   {
-    "id": "LX-ZS8403111",
-    "code": "ZS8403111",
-    "name": "ZS8403111",
+    "id": "LX-ZS84012-11",
+    "code": "ZS84012-11",
+    "name": "ZS84012-11",
     "brand": "LX 4.5T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 44000,
     "thickness": "4.5T",
     "specs": {
       "division": "",
       "thickness": "4.5T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "4.5mm(T) x 1,830mm(W)",
+      "packing": "20m / 롤"
     }
   },
   {
-    "id": "LX-ZS8403211",
-    "code": "ZS8403211",
-    "name": "ZS8403211",
+    "id": "LX-ZS84021-11",
+    "code": "ZS84021-11",
+    "name": "ZS84021-11",
     "brand": "LX 4.5T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 44000,
     "thickness": "4.5T",
     "specs": {
       "division": "",
       "thickness": "4.5T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "4.5mm(T) x 1,830mm(W)",
+      "packing": "20m / 롤"
     }
   },
   {
-    "id": "LX-ZS8404111",
-    "code": "ZS8404111",
-    "name": "ZS8404111",
+    "id": "LX-ZS84022-11",
+    "code": "ZS84022-11",
+    "name": "ZS84022-11",
     "brand": "LX 4.5T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 44000,
     "thickness": "4.5T",
     "specs": {
       "division": "",
       "thickness": "4.5T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "4.5mm(T) x 1,830mm(W)",
+      "packing": "20m / 롤"
+    }
+  },
+  {
+    "id": "LX-ZS84031-11",
+    "code": "ZS84031-11",
+    "name": "ZS84031-11",
+    "brand": "LX 4.5T",
+    "category": "장판",
+    "line": "",
+    "price": 44000,
+    "thickness": "4.5T",
+    "specs": {
+      "division": "",
+      "thickness": "4.5T",
+      "size": "4.5mm(T) x 1,830mm(W)",
+      "packing": "20m / 롤"
+    }
+  },
+  {
+    "id": "LX-ZS84032-11",
+    "code": "ZS84032-11",
+    "name": "ZS84032-11",
+    "brand": "LX 4.5T",
+    "category": "장판",
+    "line": "",
+    "price": 44000,
+    "thickness": "4.5T",
+    "specs": {
+      "division": "",
+      "thickness": "4.5T",
+      "size": "4.5mm(T) x 1,830mm(W)",
+      "packing": "20m / 롤"
+    }
+  },
+  {
+    "id": "LX-ZS84041-11",
+    "code": "ZS84041-11",
+    "name": "ZS84041-11",
+    "brand": "LX 4.5T",
+    "category": "장판",
+    "line": "",
+    "price": 44000,
+    "thickness": "4.5T",
+    "specs": {
+      "division": "",
+      "thickness": "4.5T",
+      "size": "4.5mm(T) x 1,830mm(W)",
+      "packing": "20m / 롤"
     }
   },
   {

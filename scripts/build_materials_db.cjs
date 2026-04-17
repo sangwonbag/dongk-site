@@ -170,6 +170,10 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                     price = 32000;
                     sizeLabel = "2.7mm(T) x 1,830mm(W)";
                     packing = "25m / Roll";
+                } else if (thicknessSource.includes('지아소리잠')) {
+                    price = 44000;
+                    sizeLabel = "4.5mm(T) x 1,830mm(W)";
+                    packing = "20m / 롤";
                 }
                 let tMatch = thicknessSource.match(/(\d\.\d)T/i);
                 if (tMatch) {
