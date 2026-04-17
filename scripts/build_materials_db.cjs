@@ -174,6 +174,10 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                     price = 44000;
                     sizeLabel = "4.5mm(T) x 1,830mm(W)";
                     packing = "20m / 롤";
+                } else if (thicknessSource.includes('엑스컴포트')) {
+                    price = 50000;
+                    sizeLabel = "5.0mm(T) x 1,830mm(W)";
+                    packing = "20m / Roll";
                 }
                 let tMatch = thicknessSource.match(/(\d\.\d)T/i);
                 if (tMatch) {

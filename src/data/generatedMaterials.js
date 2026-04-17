@@ -11005,243 +11005,243 @@ export const materials = [
     }
   },
   {
-    "id": "LX-XCF3441_애쉬베이지",
-    "code": "XCF3441_애쉬베이지",
-    "name": "XCF3441_애쉬베이지",
+    "id": "LX-XCF 3441",
+    "code": "XCF 3441",
+    "name": "XCF3441",
     "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 50000,
     "thickness": "5.0T",
     "specs": {
       "division": "",
       "thickness": "5.0T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "5.0mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
     }
   },
   {
-    "id": "LX-XCF3442_라이트베이지",
-    "code": "XCF3442_라이트베이지",
-    "name": "XCF3442_라이트베이지",
+    "id": "LX-XCF 3442",
+    "code": "XCF 3442",
+    "name": "XCF3442",
     "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 50000,
     "thickness": "5.0T",
     "specs": {
       "division": "",
       "thickness": "5.0T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "5.0mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
     }
   },
   {
-    "id": "LX-XCF3451_애쉬화이트",
-    "code": "XCF3451_애쉬화이트",
-    "name": "XCF3451_애쉬화이트",
+    "id": "LX-XCF 3451",
+    "code": "XCF 3451",
+    "name": "XCF3451",
     "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 50000,
     "thickness": "5.0T",
     "specs": {
       "division": "",
       "thickness": "5.0T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "5.0mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
     }
   },
   {
-    "id": "LX-XCF3612_스탠다드베인",
-    "code": "XCF3612_스탠다드베인",
-    "name": "XCF3612_스탠다드베인",
+    "id": "LX-XCF 3612",
+    "code": "XCF 3612",
+    "name": "XCF3612",
     "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 50000,
     "thickness": "5.0T",
     "specs": {
       "division": "",
       "thickness": "5.0T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "5.0mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
     }
   },
   {
-    "id": "LX-XCF3621_텐더그레이",
-    "code": "XCF3621_텐더그레이",
-    "name": "XCF3621_텐더그레이",
+    "id": "LX-XCF 3621",
+    "code": "XCF 3621",
+    "name": "XCF3621",
     "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 50000,
     "thickness": "5.0T",
     "specs": {
       "division": "",
       "thickness": "5.0T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "5.0mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
     }
   },
   {
-    "id": "LX-XCF3622_스페이스그레이",
-    "code": "XCF3622_스페이스그레이",
-    "name": "XCF3622_스페이스그레이",
+    "id": "LX-XCF 3622",
+    "code": "XCF 3622",
+    "name": "XCF3622",
     "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 50000,
     "thickness": "5.0T",
     "specs": {
       "division": "",
       "thickness": "5.0T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "5.0mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
     }
   },
   {
-    "id": "LX-XCF4023_썸머오크",
-    "code": "XCF4023_썸머오크",
-    "name": "XCF4023_썸머오크",
+    "id": "LX-XCF 4023",
+    "code": "XCF 4023",
+    "name": "XCF4023",
     "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 50000,
     "thickness": "5.0T",
     "specs": {
       "division": "",
       "thickness": "5.0T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "5.0mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
     }
   },
   {
-    "id": "LX-XCF4043_스탠다드오크",
-    "code": "XCF4043_스탠다드오크",
-    "name": "XCF4043_스탠다드오크",
+    "id": "LX-XCF 4043",
+    "code": "XCF 4043",
+    "name": "XCF4043",
     "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 50000,
     "thickness": "5.0T",
     "specs": {
       "division": "",
       "thickness": "5.0T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "5.0mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
     }
   },
   {
-    "id": "LX-XCF4481_크리마마필화이트",
-    "code": "XCF4481_크리마마필화이트",
-    "name": "XCF4481_크리마마필화이트",
+    "id": "LX-XCF 4481",
+    "code": "XCF 4481",
+    "name": "XCF4481",
     "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 50000,
     "thickness": "5.0T",
     "specs": {
       "division": "",
       "thickness": "5.0T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "5.0mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
     }
   },
   {
-    "id": "LX-XCF4482_크리마마필그레이",
-    "code": "XCF4482_크리마마필그레이",
-    "name": "XCF4482_크리마마필그레이",
+    "id": "LX-XCF 4482",
+    "code": "XCF 4482",
+    "name": "XCF4482",
     "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 50000,
     "thickness": "5.0T",
     "specs": {
       "division": "",
       "thickness": "5.0T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "5.0mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
     }
   },
   {
-    "id": "LX-XCF4531_코지콘크리트",
-    "code": "XCF4531_코지콘크리트",
-    "name": "XCF4531_코지콘크리트",
+    "id": "LX-XCF 4531",
+    "code": "XCF 4531",
+    "name": "XCF4531",
     "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 50000,
     "thickness": "5.0T",
     "specs": {
       "division": "",
       "thickness": "5.0T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "5.0mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
     }
   },
   {
-    "id": "LX-XCF4541_베인샌드스톤",
-    "code": "XCF4541_베인샌드스톤",
-    "name": "XCF4541_베인샌드스톤",
+    "id": "LX-XCF 4541",
+    "code": "XCF 4541",
+    "name": "XCF4541",
     "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 50000,
     "thickness": "5.0T",
     "specs": {
       "division": "",
       "thickness": "5.0T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "5.0mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
     }
   },
   {
-    "id": "LX-XCFS011_솔티화이트",
-    "code": "XCFS011_솔티화이트",
-    "name": "XCFS011_솔티화이트",
+    "id": "LX-XCFS011",
+    "code": "XCFS011",
+    "name": "XCFS011",
     "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 50000,
     "thickness": "5.0T",
     "specs": {
       "division": "",
       "thickness": "5.0T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "5.0mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
     }
   },
   {
-    "id": "LX-XCFS012_솔티그레이지",
-    "code": "XCFS012_솔티그레이지",
-    "name": "XCFS012_솔티그레이지",
+    "id": "LX-XCFS012",
+    "code": "XCFS012",
+    "name": "XCFS012",
     "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 50000,
     "thickness": "5.0T",
     "specs": {
       "division": "",
       "thickness": "5.0T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "5.0mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
     }
   },
   {
-    "id": "LX-XCFW011_스노우우드",
-    "code": "XCFW011_스노우우드",
-    "name": "XCFW011_스노우우드",
+    "id": "LX-XCFW011",
+    "code": "XCFW011",
+    "name": "XCFW011",
     "brand": "LX 5.0T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 50000,
     "thickness": "5.0T",
     "specs": {
       "division": "",
       "thickness": "5.0T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "5.0mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
     }
   },
   {

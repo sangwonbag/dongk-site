@@ -16788,364 +16788,346 @@ export const imageManifest = {
       "323d4236d57a6068b093d045bd74121a.jpg"
     ]
   },
-  "LX-XCF3441_애쉬베이지": {
-    "thumbnail": "73e09981b9cb3c2b49ca55f43c3cf9d6.jpg",
+  "LX-XCF 3441": {
+    "thumbnail": "af164f334d0a820fb94994b6593f14d1.jpg",
     "images": [
-      "73e09981b9cb3c2b49ca55f43c3cf9d6.jpg"
+      "af164f334d0a820fb94994b6593f14d1.jpg"
     ]
   },
-  "LXXCF3441애쉬베이지": {
-    "thumbnail": "73e09981b9cb3c2b49ca55f43c3cf9d6.jpg",
+  "LXXCF3441": {
+    "thumbnail": "af164f334d0a820fb94994b6593f14d1.jpg",
     "images": [
-      "73e09981b9cb3c2b49ca55f43c3cf9d6.jpg"
+      "af164f334d0a820fb94994b6593f14d1.jpg"
     ]
   },
-  "XCF3441_애쉬베이지": {
-    "thumbnail": "73e09981b9cb3c2b49ca55f43c3cf9d6.jpg",
+  "XCF 3441": {
+    "thumbnail": "af164f334d0a820fb94994b6593f14d1.jpg",
     "images": [
-      "73e09981b9cb3c2b49ca55f43c3cf9d6.jpg"
+      "af164f334d0a820fb94994b6593f14d1.jpg"
     ]
   },
-  "XCF3441애쉬베이지": {
-    "thumbnail": "73e09981b9cb3c2b49ca55f43c3cf9d6.jpg",
+  "XCF3441": {
+    "thumbnail": "af164f334d0a820fb94994b6593f14d1.jpg",
     "images": [
-      "73e09981b9cb3c2b49ca55f43c3cf9d6.jpg"
+      "af164f334d0a820fb94994b6593f14d1.jpg"
     ]
   },
-  "LX-XCF3442_라이트베이지": {
-    "thumbnail": "97bbe64b6d65f713d9ff188c1aedd33b.jpg",
+  "LX-XCF 3442": {
+    "thumbnail": "e68f96f439e3f1502a85e9d06e5862d4.jpg",
     "images": [
-      "97bbe64b6d65f713d9ff188c1aedd33b.jpg"
+      "e68f96f439e3f1502a85e9d06e5862d4.jpg"
     ]
   },
-  "LXXCF3442라이트베이지": {
-    "thumbnail": "97bbe64b6d65f713d9ff188c1aedd33b.jpg",
+  "LXXCF3442": {
+    "thumbnail": "e68f96f439e3f1502a85e9d06e5862d4.jpg",
     "images": [
-      "97bbe64b6d65f713d9ff188c1aedd33b.jpg"
+      "e68f96f439e3f1502a85e9d06e5862d4.jpg"
     ]
   },
-  "XCF3442_라이트베이지": {
-    "thumbnail": "97bbe64b6d65f713d9ff188c1aedd33b.jpg",
+  "XCF 3442": {
+    "thumbnail": "e68f96f439e3f1502a85e9d06e5862d4.jpg",
     "images": [
-      "97bbe64b6d65f713d9ff188c1aedd33b.jpg"
+      "e68f96f439e3f1502a85e9d06e5862d4.jpg"
     ]
   },
-  "XCF3442라이트베이지": {
-    "thumbnail": "97bbe64b6d65f713d9ff188c1aedd33b.jpg",
+  "XCF3442": {
+    "thumbnail": "e68f96f439e3f1502a85e9d06e5862d4.jpg",
     "images": [
-      "97bbe64b6d65f713d9ff188c1aedd33b.jpg"
+      "e68f96f439e3f1502a85e9d06e5862d4.jpg"
     ]
   },
-  "LX-XCF3451_애쉬화이트": {
-    "thumbnail": "e504adccd60edfcbfe61e3e10eacdf24.jpg",
+  "LX-XCF 3451": {
+    "thumbnail": "3961523a851ea2c27b7812ea8c305925.jpg",
     "images": [
-      "e504adccd60edfcbfe61e3e10eacdf24.jpg"
+      "3961523a851ea2c27b7812ea8c305925.jpg"
     ]
   },
-  "LXXCF3451애쉬화이트": {
-    "thumbnail": "e504adccd60edfcbfe61e3e10eacdf24.jpg",
+  "LXXCF3451": {
+    "thumbnail": "3961523a851ea2c27b7812ea8c305925.jpg",
     "images": [
-      "e504adccd60edfcbfe61e3e10eacdf24.jpg"
+      "3961523a851ea2c27b7812ea8c305925.jpg"
     ]
   },
-  "XCF3451_애쉬화이트": {
-    "thumbnail": "e504adccd60edfcbfe61e3e10eacdf24.jpg",
+  "XCF 3451": {
+    "thumbnail": "3961523a851ea2c27b7812ea8c305925.jpg",
     "images": [
-      "e504adccd60edfcbfe61e3e10eacdf24.jpg"
+      "3961523a851ea2c27b7812ea8c305925.jpg"
     ]
   },
-  "XCF3451애쉬화이트": {
-    "thumbnail": "e504adccd60edfcbfe61e3e10eacdf24.jpg",
+  "XCF3451": {
+    "thumbnail": "3961523a851ea2c27b7812ea8c305925.jpg",
     "images": [
-      "e504adccd60edfcbfe61e3e10eacdf24.jpg"
+      "3961523a851ea2c27b7812ea8c305925.jpg"
     ]
   },
-  "LX-XCF3612_스탠다드베인": {
-    "thumbnail": "ded0bfbfc78a9c9d91954dda680f6254.jpg",
+  "LX-XCF 3612": {
+    "thumbnail": "beca289c3fb1336d30a0da24d4552948.jpg",
     "images": [
-      "ded0bfbfc78a9c9d91954dda680f6254.jpg"
+      "beca289c3fb1336d30a0da24d4552948.jpg"
     ]
   },
-  "LXXCF3612스탠다드베인": {
-    "thumbnail": "ded0bfbfc78a9c9d91954dda680f6254.jpg",
+  "LXXCF3612": {
+    "thumbnail": "beca289c3fb1336d30a0da24d4552948.jpg",
     "images": [
-      "ded0bfbfc78a9c9d91954dda680f6254.jpg"
+      "beca289c3fb1336d30a0da24d4552948.jpg"
     ]
   },
-  "XCF3612_스탠다드베인": {
-    "thumbnail": "ded0bfbfc78a9c9d91954dda680f6254.jpg",
+  "XCF 3612": {
+    "thumbnail": "beca289c3fb1336d30a0da24d4552948.jpg",
     "images": [
-      "ded0bfbfc78a9c9d91954dda680f6254.jpg"
+      "beca289c3fb1336d30a0da24d4552948.jpg"
     ]
   },
-  "XCF3612스탠다드베인": {
-    "thumbnail": "ded0bfbfc78a9c9d91954dda680f6254.jpg",
+  "XCF3612": {
+    "thumbnail": "beca289c3fb1336d30a0da24d4552948.jpg",
     "images": [
-      "ded0bfbfc78a9c9d91954dda680f6254.jpg"
+      "beca289c3fb1336d30a0da24d4552948.jpg"
     ]
   },
-  "LX-XCF3621_텐더그레이": {
-    "thumbnail": "03d158b56a44ae5b002480dad929ecd9.jpg",
+  "LX-XCF 3621": {
+    "thumbnail": "b28b77fe73a269febcbff6f2d0352c39.jpg",
     "images": [
-      "03d158b56a44ae5b002480dad929ecd9.jpg"
+      "b28b77fe73a269febcbff6f2d0352c39.jpg"
     ]
   },
-  "LXXCF3621텐더그레이": {
-    "thumbnail": "03d158b56a44ae5b002480dad929ecd9.jpg",
+  "LXXCF3621": {
+    "thumbnail": "b28b77fe73a269febcbff6f2d0352c39.jpg",
     "images": [
-      "03d158b56a44ae5b002480dad929ecd9.jpg"
+      "b28b77fe73a269febcbff6f2d0352c39.jpg"
     ]
   },
-  "XCF3621_텐더그레이": {
-    "thumbnail": "03d158b56a44ae5b002480dad929ecd9.jpg",
+  "XCF 3621": {
+    "thumbnail": "b28b77fe73a269febcbff6f2d0352c39.jpg",
     "images": [
-      "03d158b56a44ae5b002480dad929ecd9.jpg"
+      "b28b77fe73a269febcbff6f2d0352c39.jpg"
     ]
   },
-  "XCF3621텐더그레이": {
-    "thumbnail": "03d158b56a44ae5b002480dad929ecd9.jpg",
+  "XCF3621": {
+    "thumbnail": "b28b77fe73a269febcbff6f2d0352c39.jpg",
     "images": [
-      "03d158b56a44ae5b002480dad929ecd9.jpg"
+      "b28b77fe73a269febcbff6f2d0352c39.jpg"
     ]
   },
-  "LX-XCF3622_스페이스그레이": {
-    "thumbnail": "8de95434095a693dba325297b33538dd.jpg",
+  "LX-XCF 3622": {
+    "thumbnail": "22475027d6ec1fad281add166e8d29d3.jpg",
     "images": [
-      "8de95434095a693dba325297b33538dd.jpg"
+      "22475027d6ec1fad281add166e8d29d3.jpg"
     ]
   },
-  "LXXCF3622스페이스그레이": {
-    "thumbnail": "8de95434095a693dba325297b33538dd.jpg",
+  "LXXCF3622": {
+    "thumbnail": "22475027d6ec1fad281add166e8d29d3.jpg",
     "images": [
-      "8de95434095a693dba325297b33538dd.jpg"
+      "22475027d6ec1fad281add166e8d29d3.jpg"
     ]
   },
-  "XCF3622_스페이스그레이": {
-    "thumbnail": "8de95434095a693dba325297b33538dd.jpg",
+  "XCF 3622": {
+    "thumbnail": "22475027d6ec1fad281add166e8d29d3.jpg",
     "images": [
-      "8de95434095a693dba325297b33538dd.jpg"
+      "22475027d6ec1fad281add166e8d29d3.jpg"
     ]
   },
-  "XCF3622스페이스그레이": {
-    "thumbnail": "8de95434095a693dba325297b33538dd.jpg",
+  "XCF3622": {
+    "thumbnail": "22475027d6ec1fad281add166e8d29d3.jpg",
     "images": [
-      "8de95434095a693dba325297b33538dd.jpg"
+      "22475027d6ec1fad281add166e8d29d3.jpg"
     ]
   },
-  "LX-XCF4023_썸머오크": {
-    "thumbnail": "8a44c79a599bb890af86de9deae37ebc.jpg",
+  "LX-XCF 4023": {
+    "thumbnail": "918c2d6205fcb5d7dafd03622baad1f0.jpg",
     "images": [
-      "8a44c79a599bb890af86de9deae37ebc.jpg"
+      "918c2d6205fcb5d7dafd03622baad1f0.jpg"
     ]
   },
-  "LXXCF4023썸머오크": {
-    "thumbnail": "8a44c79a599bb890af86de9deae37ebc.jpg",
+  "LXXCF4023": {
+    "thumbnail": "918c2d6205fcb5d7dafd03622baad1f0.jpg",
     "images": [
-      "8a44c79a599bb890af86de9deae37ebc.jpg"
+      "918c2d6205fcb5d7dafd03622baad1f0.jpg"
     ]
   },
-  "XCF4023_썸머오크": {
-    "thumbnail": "8a44c79a599bb890af86de9deae37ebc.jpg",
+  "XCF 4023": {
+    "thumbnail": "918c2d6205fcb5d7dafd03622baad1f0.jpg",
     "images": [
-      "8a44c79a599bb890af86de9deae37ebc.jpg"
+      "918c2d6205fcb5d7dafd03622baad1f0.jpg"
     ]
   },
-  "XCF4023썸머오크": {
-    "thumbnail": "8a44c79a599bb890af86de9deae37ebc.jpg",
+  "XCF4023": {
+    "thumbnail": "918c2d6205fcb5d7dafd03622baad1f0.jpg",
     "images": [
-      "8a44c79a599bb890af86de9deae37ebc.jpg"
+      "918c2d6205fcb5d7dafd03622baad1f0.jpg"
     ]
   },
-  "LX-XCF4043_스탠다드오크": {
-    "thumbnail": "701df65bd4a11fe4ad5a282379ca60e0.jpg",
+  "LX-XCF 4043": {
+    "thumbnail": "07cd93fe9b8080c182958531be7d2e96.jpg",
     "images": [
-      "701df65bd4a11fe4ad5a282379ca60e0.jpg"
+      "07cd93fe9b8080c182958531be7d2e96.jpg"
     ]
   },
-  "LXXCF4043스탠다드오크": {
-    "thumbnail": "701df65bd4a11fe4ad5a282379ca60e0.jpg",
+  "LXXCF4043": {
+    "thumbnail": "07cd93fe9b8080c182958531be7d2e96.jpg",
     "images": [
-      "701df65bd4a11fe4ad5a282379ca60e0.jpg"
+      "07cd93fe9b8080c182958531be7d2e96.jpg"
     ]
   },
-  "XCF4043_스탠다드오크": {
-    "thumbnail": "701df65bd4a11fe4ad5a282379ca60e0.jpg",
+  "XCF 4043": {
+    "thumbnail": "07cd93fe9b8080c182958531be7d2e96.jpg",
     "images": [
-      "701df65bd4a11fe4ad5a282379ca60e0.jpg"
+      "07cd93fe9b8080c182958531be7d2e96.jpg"
     ]
   },
-  "XCF4043스탠다드오크": {
-    "thumbnail": "701df65bd4a11fe4ad5a282379ca60e0.jpg",
+  "XCF4043": {
+    "thumbnail": "07cd93fe9b8080c182958531be7d2e96.jpg",
     "images": [
-      "701df65bd4a11fe4ad5a282379ca60e0.jpg"
+      "07cd93fe9b8080c182958531be7d2e96.jpg"
     ]
   },
-  "LX-XCF4481_크리마마필화이트": {
-    "thumbnail": "29e0c6bdd196942e76eeeac4922fb422.jpg",
+  "LX-XCF 4481": {
+    "thumbnail": "f32be161acb2fb0c4f0785c03e2d98cb.jpg",
     "images": [
-      "29e0c6bdd196942e76eeeac4922fb422.jpg"
+      "f32be161acb2fb0c4f0785c03e2d98cb.jpg"
     ]
   },
-  "LXXCF4481크리마마필화이트": {
-    "thumbnail": "29e0c6bdd196942e76eeeac4922fb422.jpg",
+  "LXXCF4481": {
+    "thumbnail": "f32be161acb2fb0c4f0785c03e2d98cb.jpg",
     "images": [
-      "29e0c6bdd196942e76eeeac4922fb422.jpg"
+      "f32be161acb2fb0c4f0785c03e2d98cb.jpg"
     ]
   },
-  "XCF4481_크리마마필화이트": {
-    "thumbnail": "29e0c6bdd196942e76eeeac4922fb422.jpg",
+  "XCF 4481": {
+    "thumbnail": "f32be161acb2fb0c4f0785c03e2d98cb.jpg",
     "images": [
-      "29e0c6bdd196942e76eeeac4922fb422.jpg"
+      "f32be161acb2fb0c4f0785c03e2d98cb.jpg"
     ]
   },
-  "XCF4481크리마마필화이트": {
-    "thumbnail": "29e0c6bdd196942e76eeeac4922fb422.jpg",
+  "XCF4481": {
+    "thumbnail": "f32be161acb2fb0c4f0785c03e2d98cb.jpg",
     "images": [
-      "29e0c6bdd196942e76eeeac4922fb422.jpg"
+      "f32be161acb2fb0c4f0785c03e2d98cb.jpg"
     ]
   },
-  "LX-XCF4482_크리마마필그레이": {
-    "thumbnail": "6a06ea8cd994b9b2323b50b8a32c0e35.jpg",
+  "LX-XCF 4482": {
+    "thumbnail": "0360739392ee291a52e7120cd23b50a8.jpg",
     "images": [
-      "6a06ea8cd994b9b2323b50b8a32c0e35.jpg"
+      "0360739392ee291a52e7120cd23b50a8.jpg"
     ]
   },
-  "LXXCF4482크리마마필그레이": {
-    "thumbnail": "6a06ea8cd994b9b2323b50b8a32c0e35.jpg",
+  "LXXCF4482": {
+    "thumbnail": "0360739392ee291a52e7120cd23b50a8.jpg",
     "images": [
-      "6a06ea8cd994b9b2323b50b8a32c0e35.jpg"
+      "0360739392ee291a52e7120cd23b50a8.jpg"
     ]
   },
-  "XCF4482_크리마마필그레이": {
-    "thumbnail": "6a06ea8cd994b9b2323b50b8a32c0e35.jpg",
+  "XCF 4482": {
+    "thumbnail": "0360739392ee291a52e7120cd23b50a8.jpg",
     "images": [
-      "6a06ea8cd994b9b2323b50b8a32c0e35.jpg"
+      "0360739392ee291a52e7120cd23b50a8.jpg"
     ]
   },
-  "XCF4482크리마마필그레이": {
-    "thumbnail": "6a06ea8cd994b9b2323b50b8a32c0e35.jpg",
+  "XCF4482": {
+    "thumbnail": "0360739392ee291a52e7120cd23b50a8.jpg",
     "images": [
-      "6a06ea8cd994b9b2323b50b8a32c0e35.jpg"
+      "0360739392ee291a52e7120cd23b50a8.jpg"
     ]
   },
-  "LX-XCF4531_코지콘크리트": {
-    "thumbnail": "de82ec43314d6613b2402bb204d0ab51.jpg",
+  "LX-XCF 4531": {
+    "thumbnail": "c59c83fc3c3fa51ac24f47a8ffad63b4.jpg",
     "images": [
-      "de82ec43314d6613b2402bb204d0ab51.jpg"
+      "c59c83fc3c3fa51ac24f47a8ffad63b4.jpg"
     ]
   },
-  "LXXCF4531코지콘크리트": {
-    "thumbnail": "de82ec43314d6613b2402bb204d0ab51.jpg",
+  "LXXCF4531": {
+    "thumbnail": "c59c83fc3c3fa51ac24f47a8ffad63b4.jpg",
     "images": [
-      "de82ec43314d6613b2402bb204d0ab51.jpg"
+      "c59c83fc3c3fa51ac24f47a8ffad63b4.jpg"
     ]
   },
-  "XCF4531_코지콘크리트": {
-    "thumbnail": "de82ec43314d6613b2402bb204d0ab51.jpg",
+  "XCF 4531": {
+    "thumbnail": "c59c83fc3c3fa51ac24f47a8ffad63b4.jpg",
     "images": [
-      "de82ec43314d6613b2402bb204d0ab51.jpg"
+      "c59c83fc3c3fa51ac24f47a8ffad63b4.jpg"
     ]
   },
-  "XCF4531코지콘크리트": {
-    "thumbnail": "de82ec43314d6613b2402bb204d0ab51.jpg",
+  "XCF4531": {
+    "thumbnail": "c59c83fc3c3fa51ac24f47a8ffad63b4.jpg",
     "images": [
-      "de82ec43314d6613b2402bb204d0ab51.jpg"
+      "c59c83fc3c3fa51ac24f47a8ffad63b4.jpg"
     ]
   },
-  "LX-XCF4541_베인샌드스톤": {
-    "thumbnail": "785da67dbd2fc4361d3b36c7f32fb3f0.jpg",
+  "LX-XCF 4541": {
+    "thumbnail": "246e67a7f0fb60c5e9e1abedd025297c.jpg",
     "images": [
-      "785da67dbd2fc4361d3b36c7f32fb3f0.jpg"
+      "246e67a7f0fb60c5e9e1abedd025297c.jpg"
     ]
   },
-  "LXXCF4541베인샌드스톤": {
-    "thumbnail": "785da67dbd2fc4361d3b36c7f32fb3f0.jpg",
+  "LXXCF4541": {
+    "thumbnail": "246e67a7f0fb60c5e9e1abedd025297c.jpg",
     "images": [
-      "785da67dbd2fc4361d3b36c7f32fb3f0.jpg"
+      "246e67a7f0fb60c5e9e1abedd025297c.jpg"
     ]
   },
-  "XCF4541_베인샌드스톤": {
-    "thumbnail": "785da67dbd2fc4361d3b36c7f32fb3f0.jpg",
+  "XCF 4541": {
+    "thumbnail": "246e67a7f0fb60c5e9e1abedd025297c.jpg",
     "images": [
-      "785da67dbd2fc4361d3b36c7f32fb3f0.jpg"
+      "246e67a7f0fb60c5e9e1abedd025297c.jpg"
     ]
   },
-  "XCF4541베인샌드스톤": {
-    "thumbnail": "785da67dbd2fc4361d3b36c7f32fb3f0.jpg",
+  "XCF4541": {
+    "thumbnail": "246e67a7f0fb60c5e9e1abedd025297c.jpg",
     "images": [
-      "785da67dbd2fc4361d3b36c7f32fb3f0.jpg"
+      "246e67a7f0fb60c5e9e1abedd025297c.jpg"
     ]
   },
-  "LX-XCFS011_솔티화이트": {
-    "thumbnail": "b6cab3fee19e69996914e0e67d8491ef.jpg",
+  "LX-XCFS011": {
+    "thumbnail": "da94f897c53c8611c95289215ad35402.jpg",
     "images": [
-      "b6cab3fee19e69996914e0e67d8491ef.jpg"
+      "da94f897c53c8611c95289215ad35402.jpg"
     ]
   },
-  "LXXCFS011솔티화이트": {
-    "thumbnail": "b6cab3fee19e69996914e0e67d8491ef.jpg",
+  "LXXCFS011": {
+    "thumbnail": "da94f897c53c8611c95289215ad35402.jpg",
     "images": [
-      "b6cab3fee19e69996914e0e67d8491ef.jpg"
+      "da94f897c53c8611c95289215ad35402.jpg"
     ]
   },
-  "XCFS011_솔티화이트": {
-    "thumbnail": "b6cab3fee19e69996914e0e67d8491ef.jpg",
+  "XCFS011": {
+    "thumbnail": "da94f897c53c8611c95289215ad35402.jpg",
     "images": [
-      "b6cab3fee19e69996914e0e67d8491ef.jpg"
+      "da94f897c53c8611c95289215ad35402.jpg"
     ]
   },
-  "XCFS011솔티화이트": {
-    "thumbnail": "b6cab3fee19e69996914e0e67d8491ef.jpg",
+  "LX-XCFS012": {
+    "thumbnail": "a4636ba0652a946232426faae670491b.jpg",
     "images": [
-      "b6cab3fee19e69996914e0e67d8491ef.jpg"
+      "a4636ba0652a946232426faae670491b.jpg"
     ]
   },
-  "LX-XCFS012_솔티그레이지": {
-    "thumbnail": "c3ef21fe80aa8cdbe549aa248d527545.jpg",
+  "LXXCFS012": {
+    "thumbnail": "a4636ba0652a946232426faae670491b.jpg",
     "images": [
-      "c3ef21fe80aa8cdbe549aa248d527545.jpg"
+      "a4636ba0652a946232426faae670491b.jpg"
     ]
   },
-  "LXXCFS012솔티그레이지": {
-    "thumbnail": "c3ef21fe80aa8cdbe549aa248d527545.jpg",
+  "XCFS012": {
+    "thumbnail": "a4636ba0652a946232426faae670491b.jpg",
     "images": [
-      "c3ef21fe80aa8cdbe549aa248d527545.jpg"
+      "a4636ba0652a946232426faae670491b.jpg"
     ]
   },
-  "XCFS012_솔티그레이지": {
-    "thumbnail": "c3ef21fe80aa8cdbe549aa248d527545.jpg",
+  "LX-XCFW011": {
+    "thumbnail": "bf0066e6102a617a8b47968cf633672a.jpg",
     "images": [
-      "c3ef21fe80aa8cdbe549aa248d527545.jpg"
+      "bf0066e6102a617a8b47968cf633672a.jpg"
     ]
   },
-  "XCFS012솔티그레이지": {
-    "thumbnail": "c3ef21fe80aa8cdbe549aa248d527545.jpg",
+  "LXXCFW011": {
+    "thumbnail": "bf0066e6102a617a8b47968cf633672a.jpg",
     "images": [
-      "c3ef21fe80aa8cdbe549aa248d527545.jpg"
+      "bf0066e6102a617a8b47968cf633672a.jpg"
     ]
   },
-  "LX-XCFW011_스노우우드": {
-    "thumbnail": "418e62e4dd399d8a4c6a28752f8c6b7c.jpg",
+  "XCFW011": {
+    "thumbnail": "bf0066e6102a617a8b47968cf633672a.jpg",
     "images": [
-      "418e62e4dd399d8a4c6a28752f8c6b7c.jpg"
-    ]
-  },
-  "LXXCFW011스노우우드": {
-    "thumbnail": "418e62e4dd399d8a4c6a28752f8c6b7c.jpg",
-    "images": [
-      "418e62e4dd399d8a4c6a28752f8c6b7c.jpg"
-    ]
-  },
-  "XCFW011_스노우우드": {
-    "thumbnail": "418e62e4dd399d8a4c6a28752f8c6b7c.jpg",
-    "images": [
-      "418e62e4dd399d8a4c6a28752f8c6b7c.jpg"
-    ]
-  },
-  "XCFW011스노우우드": {
-    "thumbnail": "418e62e4dd399d8a4c6a28752f8c6b7c.jpg",
-    "images": [
-      "418e62e4dd399d8a4c6a28752f8c6b7c.jpg"
+      "bf0066e6102a617a8b47968cf633672a.jpg"
     ]
   },
   "LX-EH12071": {
