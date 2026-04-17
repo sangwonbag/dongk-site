@@ -77,6 +77,14 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                     type = "wood";
                 }
                 thickness = "3.0mm";
+            } else if (brand === '유성') {
+                if (line.includes('600각') || line.includes('600')) {
+                    price = 21500;
+                    sizeLabel = "600mm(W) x 600mm(L) x 3.0(T)";
+                    packing = "9 pcs/box (3.24㎡)";
+                    type = "600";
+                }
+                thickness = "3.0mm";
             } else if (brand === 'LX') {
                 // Determine prices based on lines or codes
                 if (line.includes('프레스티지')) {
@@ -252,7 +260,7 @@ function processDirectory(dirPath, category, brandFolder, lineFolder) {
                               .replace(/_\d{1,2}$/, '') // strip _0, _1, _2 up to 2 digits max
                               .replace(/_$/, ''); // strip trailing underscore
                               
-            let words = cleanName.split(' ');
+            let words = cleanName.trim().split(/\s+/);
             let finalCode = words[0];
             if (words.length > 1 && /^\d+/.test(words[1])) {
                 finalCode += ' ' + words[1];
