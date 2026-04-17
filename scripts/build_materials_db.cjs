@@ -85,7 +85,6 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                     type = "wood";
                 }
             } else if (brand === '유성') {
-                price = 21500;
                 thickness = "3.0mm";
                 const uName = nameOnly.toUpperCase();
                 if (uName.startsWith('FWM') || uName.includes('WOOD') || (line.includes('우드') && !line.includes('600'))) {
