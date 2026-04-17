@@ -154,6 +154,10 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                     price = 11000;
                     sizeLabel = "1.8mm(T) x 1,830mm(W)";
                     packing = "35m / Roll";
+                } else if (thicknessSource.includes('은행목')) {
+                    price = 17000;
+                    sizeLabel = "2.0mm(T) x 1,830mm(W)";
+                    packing = "30m / Roll";
                 }
                 let tMatch = thicknessSource.match(/(\d\.\d)T/i);
                 if (tMatch) {

@@ -11251,29 +11251,93 @@ export const materials = [
     "brand": "LX 2.0T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 17000,
     "thickness": "2.0T",
     "specs": {
       "division": "",
       "thickness": "2.0T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.0mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
+    }
+  },
+  {
+    "id": "LX-EH12121",
+    "code": "EH12121",
+    "name": "EH12121",
+    "brand": "LX 2.0T",
+    "category": "장판",
+    "line": "",
+    "price": 17000,
+    "thickness": "2.0T",
+    "specs": {
+      "division": "",
+      "thickness": "2.0T",
+      "size": "2.0mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   },
   {
     "id": "LX-EH13712",
     "code": "EH13712",
-    "name": "EH13712",
+    "name": "EH13712 ",
     "brand": "LX 2.0T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 17000,
     "thickness": "2.0T",
     "specs": {
       "division": "",
       "thickness": "2.0T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.0mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
+    }
+  },
+  {
+    "id": "LX-EH13713",
+    "code": "EH13713",
+    "name": "EH13713",
+    "brand": "LX 2.0T",
+    "category": "장판",
+    "line": "",
+    "price": 17000,
+    "thickness": "2.0T",
+    "specs": {
+      "division": "",
+      "thickness": "2.0T",
+      "size": "2.0mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
+    }
+  },
+  {
+    "id": "LX-EH14092",
+    "code": "EH14092",
+    "name": "EH14092",
+    "brand": "LX 2.0T",
+    "category": "장판",
+    "line": "",
+    "price": 17000,
+    "thickness": "2.0T",
+    "specs": {
+      "division": "",
+      "thickness": "2.0T",
+      "size": "2.0mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
+    }
+  },
+  {
+    "id": "LX-EH14101",
+    "code": "EH14101",
+    "name": "EH14101",
+    "brand": "LX 2.0T",
+    "category": "장판",
+    "line": "",
+    "price": 17000,
+    "thickness": "2.0T",
+    "specs": {
+      "division": "",
+      "thickness": "2.0T",
+      "size": "2.0mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   },
   {
@@ -11283,13 +11347,13 @@ export const materials = [
     "brand": "LX 2.0T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 17000,
     "thickness": "2.0T",
     "specs": {
       "division": "",
       "thickness": "2.0T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.0mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   },
   {
@@ -11299,61 +11363,45 @@ export const materials = [
     "brand": "LX 2.0T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 17000,
     "thickness": "2.0T",
     "specs": {
       "division": "",
       "thickness": "2.0T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.0mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   },
   {
-    "id": "LX-ZH53603",
-    "code": "ZH53603",
-    "name": "ZH53603",
+    "id": "LX-EH14721",
+    "code": "EH14721",
+    "name": "EH14721",
     "brand": "LX 2.0T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 17000,
     "thickness": "2.0T",
     "specs": {
       "division": "",
       "thickness": "2.0T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.0mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   },
   {
-    "id": "LX-ZH54032",
-    "code": "ZH54032",
-    "name": "ZH54032",
+    "id": "LX-EH14732",
+    "code": "EH14732",
+    "name": "EH14732",
     "brand": "LX 2.0T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 17000,
     "thickness": "2.0T",
     "specs": {
       "division": "",
       "thickness": "2.0T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
-    }
-  },
-  {
-    "id": "LX-ZH54044",
-    "code": "ZH54044",
-    "name": "ZH54044",
-    "brand": "LX 2.0T",
-    "category": "장판",
-    "line": "",
-    "price": 0,
-    "thickness": "2.0T",
-    "specs": {
-      "division": "",
-      "thickness": "2.0T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "2.0mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
     }
   },
   {
