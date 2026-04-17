@@ -149,6 +149,10 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
             if (brand.includes('LX') || (brandFolder && brandFolder.includes('LX'))) {
                 // Parse thickness from brandFolder or line
                 const thicknessSource = brandFolder || line;
+                
+                if (thicknessSource.includes('뉴청맥')) {
+                    price = 11000;
+                }
                 let tMatch = thicknessSource.match(/(\d\.\d)T/i);
                 if (tMatch) {
                     thickness = tMatch[0].toUpperCase();

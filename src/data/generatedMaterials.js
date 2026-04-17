@@ -10803,7 +10803,7 @@ export const materials = [
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 11000,
     "thickness": "1.8T",
     "specs": {
       "division": "",
@@ -10819,7 +10819,7 @@ export const materials = [
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 11000,
     "thickness": "1.8T",
     "specs": {
       "division": "",
@@ -10835,7 +10835,7 @@ export const materials = [
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 11000,
     "thickness": "1.8T",
     "specs": {
       "division": "",
@@ -10851,7 +10851,7 @@ export const materials = [
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 11000,
     "thickness": "1.8T",
     "specs": {
       "division": "",
@@ -10867,7 +10867,7 @@ export const materials = [
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 11000,
     "thickness": "1.8T",
     "specs": {
       "division": "",
@@ -10883,7 +10883,7 @@ export const materials = [
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 11000,
     "thickness": "1.8T",
     "specs": {
       "division": "",
@@ -10899,7 +10899,7 @@ export const materials = [
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 11000,
     "thickness": "1.8T",
     "specs": {
       "division": "",
@@ -10915,7 +10915,7 @@ export const materials = [
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 11000,
     "thickness": "1.8T",
     "specs": {
       "division": "",
@@ -10931,7 +10931,7 @@ export const materials = [
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 11000,
     "thickness": "1.8T",
     "specs": {
       "division": "",
@@ -10947,7 +10947,7 @@ export const materials = [
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 11000,
     "thickness": "1.8T",
     "specs": {
       "division": "",
@@ -10963,7 +10963,7 @@ export const materials = [
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 11000,
     "thickness": "1.8T",
     "specs": {
       "division": "",
@@ -10979,7 +10979,7 @@ export const materials = [
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
-    "price": 0,
+    "price": 11000,
     "thickness": "1.8T",
     "specs": {
       "division": "",
@@ -10995,103 +10995,7 @@ export const materials = [
     "brand": "LX 1.8T",
     "category": "장판",
     "line": "",
-    "price": 0,
-    "thickness": "1.8T",
-    "specs": {
-      "division": "",
-      "thickness": "1.8T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
-    }
-  },
-  {
-    "id": "LX-EH12121",
-    "code": "EH12121",
-    "name": "EH12121",
-    "brand": "LX 1.8T",
-    "category": "장판",
-    "line": "",
-    "price": 0,
-    "thickness": "1.8T",
-    "specs": {
-      "division": "",
-      "thickness": "1.8T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
-    }
-  },
-  {
-    "id": "LX-EH13713",
-    "code": "EH13713",
-    "name": "EH13713",
-    "brand": "LX 1.8T",
-    "category": "장판",
-    "line": "",
-    "price": 0,
-    "thickness": "1.8T",
-    "specs": {
-      "division": "",
-      "thickness": "1.8T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
-    }
-  },
-  {
-    "id": "LX-EH14092",
-    "code": "EH14092",
-    "name": "EH14092",
-    "brand": "LX 1.8T",
-    "category": "장판",
-    "line": "",
-    "price": 0,
-    "thickness": "1.8T",
-    "specs": {
-      "division": "",
-      "thickness": "1.8T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
-    }
-  },
-  {
-    "id": "LX-EH14101",
-    "code": "EH14101",
-    "name": "EH14101",
-    "brand": "LX 1.8T",
-    "category": "장판",
-    "line": "",
-    "price": 0,
-    "thickness": "1.8T",
-    "specs": {
-      "division": "",
-      "thickness": "1.8T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
-    }
-  },
-  {
-    "id": "LX-EH14721",
-    "code": "EH14721",
-    "name": "EH14721",
-    "brand": "LX 1.8T",
-    "category": "장판",
-    "line": "",
-    "price": 0,
-    "thickness": "1.8T",
-    "specs": {
-      "division": "",
-      "thickness": "1.8T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
-    }
-  },
-  {
-    "id": "LX-EH14732",
-    "code": "EH14732",
-    "name": "EH14732",
-    "brand": "LX 1.8T",
-    "category": "장판",
-    "line": "",
-    "price": 0,
+    "price": 11000,
     "thickness": "1.8T",
     "specs": {
       "division": "",
