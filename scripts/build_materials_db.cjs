@@ -129,7 +129,7 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                     // This acts as a fallback for '하우스' that isn't '하우스스타일'
                     // Since '하우스스타일' is matched above, this will only hit for '하우스'
                     thickness = "3.0T";
-                    price = 0; // Unspecified
+                    price = 40000;
                     if (uCode.startsWith("HOT")) {
                         sizeLabel = "600x600mm";
                         packing = "9pcs / 3.24㎡";

@@ -1237,7 +1237,7 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0,
+    "price": 40000,
     "type": "600",
     "thickness": "3.0T",
     "specs": {
@@ -1254,7 +1254,7 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0,
+    "price": 40000,
     "type": "600",
     "thickness": "3.0T",
     "specs": {
@@ -1271,7 +1271,7 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0,
+    "price": 40000,
     "type": "600",
     "thickness": "3.0T",
     "specs": {
@@ -1288,7 +1288,7 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0,
+    "price": 40000,
     "type": "600",
     "thickness": "3.0T",
     "specs": {
@@ -1305,7 +1305,7 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0,
+    "price": 40000,
     "type": "600",
     "thickness": "3.0T",
     "specs": {
@@ -1322,7 +1322,7 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0,
+    "price": 40000,
     "type": "600",
     "thickness": "3.0T",
     "specs": {
@@ -1339,7 +1339,7 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0,
+    "price": 40000,
     "type": "600",
     "thickness": "3.0T",
     "specs": {
@@ -1356,7 +1356,7 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0,
+    "price": 40000,
     "type": "600",
     "thickness": "3.0T",
     "specs": {
@@ -1373,7 +1373,7 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0,
+    "price": 40000,
     "type": "600",
     "thickness": "3.0T",
     "specs": {
@@ -1390,7 +1390,7 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0,
+    "price": 40000,
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
@@ -1407,7 +1407,7 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0,
+    "price": 40000,
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
@@ -1424,7 +1424,7 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0,
+    "price": 40000,
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
@@ -1441,7 +1441,7 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0,
+    "price": 40000,
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
@@ -1458,7 +1458,7 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0,
+    "price": 40000,
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
@@ -1475,7 +1475,7 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스",
-    "price": 0,
+    "price": 40000,
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
