@@ -10808,8 +10808,8 @@ export const materials = [
     "specs": {
       "division": "",
       "thickness": "1.8T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "1.8mm(T) x 1,830mm(W)",
+      "packing": "35m / Roll"
     }
   },
   {
@@ -10824,8 +10824,8 @@ export const materials = [
     "specs": {
       "division": "",
       "thickness": "1.8T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "1.8mm(T) x 1,830mm(W)",
+      "packing": "35m / Roll"
     }
   },
   {
@@ -10840,8 +10840,8 @@ export const materials = [
     "specs": {
       "division": "",
       "thickness": "1.8T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "1.8mm(T) x 1,830mm(W)",
+      "packing": "35m / Roll"
     }
   },
   {
@@ -10856,8 +10856,8 @@ export const materials = [
     "specs": {
       "division": "",
       "thickness": "1.8T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "1.8mm(T) x 1,830mm(W)",
+      "packing": "35m / Roll"
     }
   },
   {
@@ -10872,8 +10872,8 @@ export const materials = [
     "specs": {
       "division": "",
       "thickness": "1.8T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "1.8mm(T) x 1,830mm(W)",
+      "packing": "35m / Roll"
     }
   },
   {
@@ -10888,8 +10888,8 @@ export const materials = [
     "specs": {
       "division": "",
       "thickness": "1.8T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "1.8mm(T) x 1,830mm(W)",
+      "packing": "35m / Roll"
     }
   },
   {
@@ -10904,8 +10904,8 @@ export const materials = [
     "specs": {
       "division": "",
       "thickness": "1.8T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "1.8mm(T) x 1,830mm(W)",
+      "packing": "35m / Roll"
     }
   },
   {
@@ -10920,8 +10920,8 @@ export const materials = [
     "specs": {
       "division": "",
       "thickness": "1.8T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "1.8mm(T) x 1,830mm(W)",
+      "packing": "35m / Roll"
     }
   },
   {
@@ -10936,8 +10936,8 @@ export const materials = [
     "specs": {
       "division": "",
       "thickness": "1.8T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "1.8mm(T) x 1,830mm(W)",
+      "packing": "35m / Roll"
     }
   },
   {
@@ -10952,8 +10952,8 @@ export const materials = [
     "specs": {
       "division": "",
       "thickness": "1.8T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "1.8mm(T) x 1,830mm(W)",
+      "packing": "35m / Roll"
     }
   },
   {
@@ -10968,8 +10968,8 @@ export const materials = [
     "specs": {
       "division": "",
       "thickness": "1.8T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "1.8mm(T) x 1,830mm(W)",
+      "packing": "35m / Roll"
     }
   },
   {
@@ -10984,8 +10984,8 @@ export const materials = [
     "specs": {
       "division": "",
       "thickness": "1.8T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "1.8mm(T) x 1,830mm(W)",
+      "packing": "35m / Roll"
     }
   },
   {
@@ -11000,8 +11000,8 @@ export const materials = [
     "specs": {
       "division": "",
       "thickness": "1.8T",
-      "size": "1.83m x 롤단위",
-      "packing": "m 단위 절단 판매"
+      "size": "1.8mm(T) x 1,830mm(W)",
+      "packing": "35m / Roll"
     }
   },
   {

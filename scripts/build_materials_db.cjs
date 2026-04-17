@@ -152,6 +152,8 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                 
                 if (thicknessSource.includes('뉴청맥')) {
                     price = 11000;
+                    sizeLabel = "1.8mm(T) x 1,830mm(W)";
+                    packing = "35m / Roll";
                 }
                 let tMatch = thicknessSource.match(/(\d\.\d)T/i);
                 if (tMatch) {
@@ -161,8 +163,8 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                     thickness = "1.8T"; // default
                     brand = `LX 1.8T`;
                 }
-                sizeLabel = "1.83m x 롤단위";
-                packing = "m 단위 절단 판매";
+                if (!sizeLabel) sizeLabel = "1.83m x 롤단위";
+                if (!packing) packing = "m 단위 절단 판매";
             }
             break;
 
