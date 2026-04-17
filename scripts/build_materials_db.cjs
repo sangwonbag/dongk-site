@@ -1,9 +1,17 @@
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 
 const PROJECT_ROOT = path.resolve(__dirname, '..');
 const MATERIALS_DIR = path.join(PROJECT_ROOT, 'public', 'images', 'Thumbnail_Image', 'materials');
 const OUTPUT_FILE = path.join(PROJECT_ROOT, 'src', 'data', 'generatedMaterials.js');
+
+function getMd5StorageKey(absPath) {
+    const relPath = path.relative(MATERIALS_DIR, absPath).replace(/\\/g, '/');
+    const hash = crypto.createHash('md5').update(relPath, 'utf8').digest('hex');
+    const ext = path.extname(absPath).toLowerCase();
+    return hash + ext;
+}
 
 // Helper to extract a readable brand name from folder
 function extractBrand(folderName, category) {
@@ -314,6 +322,8 @@ function processDirectory(dirPath, category, brandFolder, lineFolder) {
                 category: category,
                 line: activeLine.replace(/_$/, ''),
                 price: rules.price,
+                thumbnail: getMd5StorageKey(fullPath),
+                images: [getMd5StorageKey(fullPath)],
                 materialType: rules.materialType || undefined,
                 type: rules.type || undefined,
                 thickness: rules.thickness || undefined,

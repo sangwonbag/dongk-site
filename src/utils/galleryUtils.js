@@ -15,8 +15,8 @@ export async function getThumbnailImage(item) {
     if (!item) return "";
 
     // 1. Try direct thumbnail property first
-    if (item.thumbnail) return item.thumbnail;
-    if (item.cover) return item.cover; // Fallback to cover if old db format
+    if (item.thumbnail) return toFullUrl(item.thumbnail);
+    if (item.cover) return toFullUrl(item.cover); // Fallback to cover if old db format
 
     // 2. Fallback to code/name lookup in manifest
     const keys = [item.code, item.name].filter(Boolean).map(normalize);
@@ -75,6 +75,13 @@ export async function getValidGalleryImages(item) {
             };
         });
         if (mapped.length > 0) return mapped;
+    }
+
+    if (item.images && Array.isArray(item.images)) {
+        return item.images.map(str => ({
+            thumbnail: toFullUrl(str),
+            detail: toFullUrl(str)
+        }));
     }
 
     const keys = [item.code, item.name].filter(Boolean).map(normalize);

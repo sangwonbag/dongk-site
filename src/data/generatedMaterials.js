@@ -49,6 +49,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 24000,
+    "thumbnail": "73eb9649605e4874ac3c933b4b6f8c5d.png",
+    "images": [
+      "73eb9649605e4874ac3c933b4b6f8c5d.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -66,6 +70,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 24000,
+    "thumbnail": "f73b616b3076f5e901d58471d3b18d79.png",
+    "images": [
+      "f73b616b3076f5e901d58471d3b18d79.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -83,6 +91,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 24000,
+    "thumbnail": "4afd613c00b07b5434ed18725fe4b278.png",
+    "images": [
+      "4afd613c00b07b5434ed18725fe4b278.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -100,6 +112,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 24000,
+    "thumbnail": "480ac7ac0944f5c0ecab4b3116f69e57.png",
+    "images": [
+      "480ac7ac0944f5c0ecab4b3116f69e57.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -117,6 +133,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 24000,
+    "thumbnail": "e504f6262ae46278ce0c9aa4f0fc0706.png",
+    "images": [
+      "e504f6262ae46278ce0c9aa4f0fc0706.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -134,6 +154,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 24000,
+    "thumbnail": "db39e430c571671fa2851c071744973d.png",
+    "images": [
+      "db39e430c571671fa2851c071744973d.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -151,6 +175,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 24000,
+    "thumbnail": "c45db079aa8d30b0da5dd58b5c817531.png",
+    "images": [
+      "c45db079aa8d30b0da5dd58b5c817531.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -168,6 +196,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 24000,
+    "thumbnail": "f9c213d3e6748963020984155ebc5fdc.png",
+    "images": [
+      "f9c213d3e6748963020984155ebc5fdc.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -185,6 +217,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 24000,
+    "thumbnail": "0490bc281e86fba6a9f6812411adfa9f.png",
+    "images": [
+      "0490bc281e86fba6a9f6812411adfa9f.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -202,6 +238,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 24000,
+    "thumbnail": "6a5a6e791d35175d45d70e776f347e4f.png",
+    "images": [
+      "6a5a6e791d35175d45d70e776f347e4f.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -219,6 +259,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 24000,
+    "thumbnail": "5e9e30b20ca6d24cf4096b35c471ee35.png",
+    "images": [
+      "5e9e30b20ca6d24cf4096b35c471ee35.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -236,6 +280,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 24000,
+    "thumbnail": "d39a8ab54f9c57c73e01cd2ff4c409bb.png",
+    "images": [
+      "d39a8ab54f9c57c73e01cd2ff4c409bb.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -253,6 +301,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 24000,
+    "thumbnail": "8cce18f9628ff1e58a8947c087861921.png",
+    "images": [
+      "8cce18f9628ff1e58a8947c087861921.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -270,6 +322,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 24000,
+    "thumbnail": "57a04f1ea7446a84cb9916a27fb1a514.png",
+    "images": [
+      "57a04f1ea7446a84cb9916a27fb1a514.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -287,6 +343,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 36000,
+    "thumbnail": "40f2f4f0308fa68d12b3d68ea8f30ff9.png",
+    "images": [
+      "40f2f4f0308fa68d12b3d68ea8f30ff9.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -304,6 +364,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 36000,
+    "thumbnail": "59d7f1f68f763f766a5fc6362a8f44d3.png",
+    "images": [
+      "59d7f1f68f763f766a5fc6362a8f44d3.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -321,6 +385,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 36000,
+    "thumbnail": "1053434c347ff0d22ae3ad079d9513fb.png",
+    "images": [
+      "1053434c347ff0d22ae3ad079d9513fb.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -338,6 +406,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 36000,
+    "thumbnail": "f311357b336512b1d3d030ab27cda92d.png",
+    "images": [
+      "f311357b336512b1d3d030ab27cda92d.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -355,6 +427,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 36000,
+    "thumbnail": "f250e42deadd50fcb30b6e5fb591f13c.png",
+    "images": [
+      "f250e42deadd50fcb30b6e5fb591f13c.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -372,6 +448,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 36000,
+    "thumbnail": "a73b84f4e7ba879790fcca149b776887.png",
+    "images": [
+      "a73b84f4e7ba879790fcca149b776887.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -389,6 +469,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 36000,
+    "thumbnail": "f0bfea21fa367b4374f6502a3ca8f458.png",
+    "images": [
+      "f0bfea21fa367b4374f6502a3ca8f458.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -406,6 +490,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 36000,
+    "thumbnail": "e691e31b111d04c5f53f1ac0b57816df.png",
+    "images": [
+      "e691e31b111d04c5f53f1ac0b57816df.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -423,6 +511,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 36000,
+    "thumbnail": "f4448d38cab85d2795bdfe7d0580839f.png",
+    "images": [
+      "f4448d38cab85d2795bdfe7d0580839f.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -440,6 +532,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 36000,
+    "thumbnail": "54f56fc969a225b82def350ad98e3948.png",
+    "images": [
+      "54f56fc969a225b82def350ad98e3948.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -457,6 +553,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 36000,
+    "thumbnail": "85c367eda096708c07c0d9e60698c280.png",
+    "images": [
+      "85c367eda096708c07c0d9e60698c280.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -474,6 +574,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 36000,
+    "thumbnail": "720b44d84f355b0df716e40883987c46.png",
+    "images": [
+      "720b44d84f355b0df716e40883987c46.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -491,6 +595,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 36000,
+    "thumbnail": "86c37594f75107f78aca77cc82e9bf95.png",
+    "images": [
+      "86c37594f75107f78aca77cc82e9bf95.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -508,6 +616,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 36000,
+    "thumbnail": "06b98ee340b2d92f24703665b8b3c643.png",
+    "images": [
+      "06b98ee340b2d92f24703665b8b3c643.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -525,6 +637,10 @@ export const materials = [
     "category": "데코타일",
     "line": "",
     "price": 36000,
+    "thumbnail": "24716e285a129a56a137b34c072785d4.png",
+    "images": [
+      "24716e285a129a56a137b34c072785d4.png"
+    ],
     "materialType": "동신 우드",
     "type": "ds_wood",
     "specs": {
@@ -542,6 +658,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
+    "thumbnail": "6d9f1d5c5fc22601dc166ae5736bb1d1.jpg",
+    "images": [
+      "6d9f1d5c5fc22601dc166ae5736bb1d1.jpg"
+    ],
     "type": "450",
     "specs": {
       "division": "",
@@ -558,6 +678,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
+    "thumbnail": "9abb07b9af45948bd26e047494cfec70.jpg",
+    "images": [
+      "9abb07b9af45948bd26e047494cfec70.jpg"
+    ],
     "type": "450",
     "specs": {
       "division": "",
@@ -573,7 +697,11 @@ export const materials = [
     "brand": "KCC",
     "category": "데코타일",
     "line": "KCC_square",
-    "price": 0
+    "price": 0,
+    "thumbnail": "f6b1e47b2f5918570320065cabf0651e.jpg",
+    "images": [
+      "f6b1e47b2f5918570320065cabf0651e.jpg"
+    ]
   },
   {
     "id": "TS5510P",
@@ -583,6 +711,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
+    "thumbnail": "f5ae8b7d3941c0c13ad5a2a0c36246cf.jpg",
+    "images": [
+      "f5ae8b7d3941c0c13ad5a2a0c36246cf.jpg"
+    ],
     "type": "450",
     "specs": {
       "division": "",
@@ -599,6 +731,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
+    "thumbnail": "444faaf0c9a337172d06f15977dd7a58.jpg",
+    "images": [
+      "444faaf0c9a337172d06f15977dd7a58.jpg"
+    ],
     "type": "450",
     "specs": {
       "division": "",
@@ -615,6 +751,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
+    "thumbnail": "42cc499691cc6dea9876e340db17f52c.jpg",
+    "images": [
+      "42cc499691cc6dea9876e340db17f52c.jpg"
+    ],
     "type": "450",
     "specs": {
       "division": "",
@@ -631,6 +771,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
+    "thumbnail": "1aa13ff1659935d6c590802d846589c6.jpg",
+    "images": [
+      "1aa13ff1659935d6c590802d846589c6.jpg"
+    ],
     "type": "450",
     "specs": {
       "division": "",
@@ -647,6 +791,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
+    "thumbnail": "7137fa08bfdd26464342621801a5b3e8.jpg",
+    "images": [
+      "7137fa08bfdd26464342621801a5b3e8.jpg"
+    ],
     "type": "450",
     "specs": {
       "division": "",
@@ -663,6 +811,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_square",
     "price": 26000,
+    "thumbnail": "9db8751801a8fee96431e15c0adb0ff3.jpg",
+    "images": [
+      "9db8751801a8fee96431e15c0adb0ff3.jpg"
+    ],
     "type": "600",
     "specs": {
       "division": "",
@@ -679,6 +831,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_square",
     "price": 26000,
+    "thumbnail": "2f0a4cf8f4419e089aa22c97773df205.jpg",
+    "images": [
+      "2f0a4cf8f4419e089aa22c97773df205.jpg"
+    ],
     "type": "600",
     "specs": {
       "division": "",
@@ -695,6 +851,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_square",
     "price": 26000,
+    "thumbnail": "d80f867cac684be5ea1e28872366daf1.jpg",
+    "images": [
+      "d80f867cac684be5ea1e28872366daf1.jpg"
+    ],
     "type": "600",
     "specs": {
       "division": "",
@@ -711,6 +871,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_square",
     "price": 26000,
+    "thumbnail": "887df172cfdba7e0d5b7460e9af7be6c.jpg",
+    "images": [
+      "887df172cfdba7e0d5b7460e9af7be6c.jpg"
+    ],
     "type": "600",
     "specs": {
       "division": "",
@@ -727,6 +891,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_square",
     "price": 26000,
+    "thumbnail": "7941fd9a6953df949a0bfc090fb0b8b4.jpg",
+    "images": [
+      "7941fd9a6953df949a0bfc090fb0b8b4.jpg"
+    ],
     "type": "600",
     "specs": {
       "division": "",
@@ -743,6 +911,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_square",
     "price": 26000,
+    "thumbnail": "5eb13d3b6b53a1bae8cfefe7acf47941.jpg",
+    "images": [
+      "5eb13d3b6b53a1bae8cfefe7acf47941.jpg"
+    ],
     "type": "600",
     "specs": {
       "division": "",
@@ -759,6 +931,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_square",
     "price": 26000,
+    "thumbnail": "c6a96646f1d3bcb136019e9ea5147cfc.jpg",
+    "images": [
+      "c6a96646f1d3bcb136019e9ea5147cfc.jpg"
+    ],
     "type": "600",
     "specs": {
       "division": "",
@@ -775,6 +951,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
+    "thumbnail": "8a00505131e5ad038886d706cd4053ba.jpg",
+    "images": [
+      "8a00505131e5ad038886d706cd4053ba.jpg"
+    ],
     "type": "450",
     "specs": {
       "division": "",
@@ -791,6 +971,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
+    "thumbnail": "d7b638c11b032972dbbe5fd5368a70ff.jpg",
+    "images": [
+      "d7b638c11b032972dbbe5fd5368a70ff.jpg"
+    ],
     "type": "450",
     "specs": {
       "division": "",
@@ -807,6 +991,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
+    "thumbnail": "0bddbf46b5928b9c3013bf57de3b4611.jpg",
+    "images": [
+      "0bddbf46b5928b9c3013bf57de3b4611.jpg"
+    ],
     "type": "450",
     "specs": {
       "division": "",
@@ -823,6 +1011,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
+    "thumbnail": "26e43e88d31bfb37d39e5873a9b178f9.jpg",
+    "images": [
+      "26e43e88d31bfb37d39e5873a9b178f9.jpg"
+    ],
     "type": "450",
     "specs": {
       "division": "",
@@ -839,6 +1031,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
+    "thumbnail": "bfe1e754cad07bd87d143ce9ef06e090.jpg",
+    "images": [
+      "bfe1e754cad07bd87d143ce9ef06e090.jpg"
+    ],
     "type": "450",
     "specs": {
       "division": "",
@@ -855,6 +1051,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
+    "thumbnail": "0efde4c2472c73e896033635646aa1c2.jpg",
+    "images": [
+      "0efde4c2472c73e896033635646aa1c2.jpg"
+    ],
     "type": "450",
     "specs": {
       "division": "",
@@ -871,6 +1071,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
+    "thumbnail": "3b417e913f0e7da827c27645e26d4807.jpg",
+    "images": [
+      "3b417e913f0e7da827c27645e26d4807.jpg"
+    ],
     "type": "450",
     "specs": {
       "division": "",
@@ -887,6 +1091,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
+    "thumbnail": "1f63ffc6ff856090c1a8aeb32ea4cbce.jpg",
+    "images": [
+      "1f63ffc6ff856090c1a8aeb32ea4cbce.jpg"
+    ],
     "type": "450",
     "specs": {
       "division": "",
@@ -903,6 +1111,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_square",
     "price": 26000,
+    "thumbnail": "f02953bba62ba9a5ee3fe6e6cd0b576b.jpg",
+    "images": [
+      "f02953bba62ba9a5ee3fe6e6cd0b576b.jpg"
+    ],
     "type": "600",
     "specs": {
       "division": "",
@@ -919,6 +1131,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
+    "thumbnail": "8d847717e9c07f70dbb05482218a16af.jpg",
+    "images": [
+      "8d847717e9c07f70dbb05482218a16af.jpg"
+    ],
     "type": "450",
     "specs": {
       "division": "",
@@ -935,6 +1151,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
+    "thumbnail": "8e0e20916233726db282c392aecc9ea4.jpg",
+    "images": [
+      "8e0e20916233726db282c392aecc9ea4.jpg"
+    ],
     "type": "450",
     "specs": {
       "division": "",
@@ -951,6 +1171,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
+    "thumbnail": "c29795be2f2a5337bd21899c54f14417.jpg",
+    "images": [
+      "c29795be2f2a5337bd21899c54f14417.jpg"
+    ],
     "type": "450",
     "specs": {
       "division": "",
@@ -967,6 +1191,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_square",
     "price": 25000,
+    "thumbnail": "87bf76afe05aed6b8f0075d66ec6de42.jpg",
+    "images": [
+      "87bf76afe05aed6b8f0075d66ec6de42.jpg"
+    ],
     "type": "450",
     "specs": {
       "division": "",
@@ -983,6 +1211,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_wood",
     "price": 25000,
+    "thumbnail": "f655953bfacafbbe4c153b6e0548bd84.png",
+    "images": [
+      "f655953bfacafbbe4c153b6e0548bd84.png"
+    ],
     "type": "wood",
     "specs": {
       "division": "",
@@ -999,6 +1231,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_wood",
     "price": 25000,
+    "thumbnail": "1b447df215cc397a25d40f7aa97e8e09.png",
+    "images": [
+      "1b447df215cc397a25d40f7aa97e8e09.png"
+    ],
     "type": "wood",
     "specs": {
       "division": "",
@@ -1015,6 +1251,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_wood",
     "price": 25000,
+    "thumbnail": "047efac87402fbe4bd16af9269f9f0d6.png",
+    "images": [
+      "047efac87402fbe4bd16af9269f9f0d6.png"
+    ],
     "type": "wood",
     "specs": {
       "division": "",
@@ -1031,6 +1271,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_wood",
     "price": 25000,
+    "thumbnail": "cb3d27e206817b96161a45301835872d.png",
+    "images": [
+      "cb3d27e206817b96161a45301835872d.png"
+    ],
     "type": "wood",
     "specs": {
       "division": "",
@@ -1047,6 +1291,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_wood",
     "price": 25000,
+    "thumbnail": "0c2d30f8ba5ec92ce7c5db1c54efbfd5.png",
+    "images": [
+      "0c2d30f8ba5ec92ce7c5db1c54efbfd5.png"
+    ],
     "type": "wood",
     "specs": {
       "division": "",
@@ -1063,6 +1311,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_wood",
     "price": 25000,
+    "thumbnail": "de6cee0f9e4c99f77cbe7404c63b3f96.png",
+    "images": [
+      "de6cee0f9e4c99f77cbe7404c63b3f96.png"
+    ],
     "type": "wood",
     "specs": {
       "division": "",
@@ -1079,6 +1331,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_wood",
     "price": 25000,
+    "thumbnail": "4cbd3459e97d3eb074952a518bd71b40.png",
+    "images": [
+      "4cbd3459e97d3eb074952a518bd71b40.png"
+    ],
     "type": "wood",
     "specs": {
       "division": "",
@@ -1095,6 +1351,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_wood",
     "price": 25000,
+    "thumbnail": "b9f78bdbaf4d8140ca7e4f2892612218.png",
+    "images": [
+      "b9f78bdbaf4d8140ca7e4f2892612218.png"
+    ],
     "type": "wood",
     "specs": {
       "division": "",
@@ -1111,6 +1371,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_wood",
     "price": 25000,
+    "thumbnail": "a9819e221fe93efbd10a1bd475a2670e.png",
+    "images": [
+      "a9819e221fe93efbd10a1bd475a2670e.png"
+    ],
     "type": "wood",
     "specs": {
       "division": "",
@@ -1127,6 +1391,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_wood",
     "price": 25000,
+    "thumbnail": "0572f95bcda02c344558b0bb9148b294.png",
+    "images": [
+      "0572f95bcda02c344558b0bb9148b294.png"
+    ],
     "type": "wood",
     "specs": {
       "division": "",
@@ -1143,6 +1411,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_wood",
     "price": 25000,
+    "thumbnail": "34e3f7dfa4c879727fb887d86f897883.png",
+    "images": [
+      "34e3f7dfa4c879727fb887d86f897883.png"
+    ],
     "type": "wood",
     "specs": {
       "division": "",
@@ -1159,6 +1431,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_wood",
     "price": 25000,
+    "thumbnail": "879e5a731ca3ff2c91959cc7d50266be.png",
+    "images": [
+      "879e5a731ca3ff2c91959cc7d50266be.png"
+    ],
     "type": "wood",
     "specs": {
       "division": "",
@@ -1175,6 +1451,10 @@ export const materials = [
     "category": "데코타일",
     "line": "KCC_wood",
     "price": 25000,
+    "thumbnail": "b4bea7a43b51a66b59365d6a53cb38a0.png",
+    "images": [
+      "b4bea7a43b51a66b59365d6a53cb38a0.png"
+    ],
     "type": "wood",
     "specs": {
       "division": "",
@@ -1191,6 +1471,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스",
     "price": 40000,
+    "thumbnail": "ea1b8db329cecae307acc4cd69d92cd8.jpg",
+    "images": [
+      "ea1b8db329cecae307acc4cd69d92cd8.jpg"
+    ],
     "type": "600",
     "thickness": "3.0T",
     "specs": {
@@ -1208,6 +1492,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스",
     "price": 40000,
+    "thumbnail": "8a011fb7b6ae2d67c89de0f46a8401d2.jpg",
+    "images": [
+      "8a011fb7b6ae2d67c89de0f46a8401d2.jpg"
+    ],
     "type": "600",
     "thickness": "3.0T",
     "specs": {
@@ -1225,6 +1513,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스",
     "price": 40000,
+    "thumbnail": "876c0643340513d4a099d31580c329d7.jpg",
+    "images": [
+      "876c0643340513d4a099d31580c329d7.jpg"
+    ],
     "type": "600",
     "thickness": "3.0T",
     "specs": {
@@ -1242,6 +1534,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스",
     "price": 40000,
+    "thumbnail": "70be61cc23690d335a868a23010d9e5f.jpg",
+    "images": [
+      "70be61cc23690d335a868a23010d9e5f.jpg"
+    ],
     "type": "600",
     "thickness": "3.0T",
     "specs": {
@@ -1259,6 +1555,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스",
     "price": 40000,
+    "thumbnail": "f6729e44f8d06e3ddefa79b4065ccd7d.jpg",
+    "images": [
+      "f6729e44f8d06e3ddefa79b4065ccd7d.jpg"
+    ],
     "type": "600",
     "thickness": "3.0T",
     "specs": {
@@ -1276,6 +1576,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스",
     "price": 40000,
+    "thumbnail": "901844af985af767033961deb729013f.jpg",
+    "images": [
+      "901844af985af767033961deb729013f.jpg"
+    ],
     "type": "600",
     "thickness": "3.0T",
     "specs": {
@@ -1293,6 +1597,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스",
     "price": 40000,
+    "thumbnail": "aced4c0ab5440445390c7bbb9ee5dec5.jpg",
+    "images": [
+      "aced4c0ab5440445390c7bbb9ee5dec5.jpg"
+    ],
     "type": "600",
     "thickness": "3.0T",
     "specs": {
@@ -1310,6 +1618,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스",
     "price": 40000,
+    "thumbnail": "2f30a3e735fbb398acb13da870e19390.jpg",
+    "images": [
+      "2f30a3e735fbb398acb13da870e19390.jpg"
+    ],
     "type": "600",
     "thickness": "3.0T",
     "specs": {
@@ -1327,6 +1639,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스",
     "price": 40000,
+    "thumbnail": "ffbfddf38c3d600cc9c4d617d3bbc301.jpg",
+    "images": [
+      "ffbfddf38c3d600cc9c4d617d3bbc301.jpg"
+    ],
     "type": "600",
     "thickness": "3.0T",
     "specs": {
@@ -1344,6 +1660,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스",
     "price": 40000,
+    "thumbnail": "45c1f59d9bc47bd2b303b3c8443f9a75.jpg",
+    "images": [
+      "45c1f59d9bc47bd2b303b3c8443f9a75.jpg"
+    ],
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
@@ -1361,6 +1681,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스",
     "price": 40000,
+    "thumbnail": "d66a3e67df8c8734107a89751374f49b.jpg",
+    "images": [
+      "d66a3e67df8c8734107a89751374f49b.jpg"
+    ],
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
@@ -1378,6 +1702,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스",
     "price": 40000,
+    "thumbnail": "67ec4f74a6ceb00ead48d661eb89e719.jpg",
+    "images": [
+      "67ec4f74a6ceb00ead48d661eb89e719.jpg"
+    ],
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
@@ -1395,6 +1723,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스",
     "price": 40000,
+    "thumbnail": "4932fe379bb7da26a0ad684ee7ce426d.jpg",
+    "images": [
+      "4932fe379bb7da26a0ad684ee7ce426d.jpg"
+    ],
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
@@ -1412,6 +1744,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스",
     "price": 40000,
+    "thumbnail": "724e18a9778b491398850ec65ab3515d.jpg",
+    "images": [
+      "724e18a9778b491398850ec65ab3515d.jpg"
+    ],
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
@@ -1429,6 +1765,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스",
     "price": 40000,
+    "thumbnail": "fd4c6de46b2999a1a2afdcae2b02ee0f.jpg",
+    "images": [
+      "fd4c6de46b2999a1a2afdcae2b02ee0f.jpg"
+    ],
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
@@ -1446,6 +1786,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스_데코레이s",
     "price": 0,
+    "thumbnail": "e2098c4abc2eb41b3900df0f5bdec36b.jpg",
+    "images": [
+      "e2098c4abc2eb41b3900df0f5bdec36b.jpg"
+    ],
     "thickness": "3.0T",
     "specs": {
       "division": "",
@@ -1462,6 +1806,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스_데코레이s",
     "price": 0,
+    "thumbnail": "3b24d0a8bc03f51b033442176f7ebb61.jpg",
+    "images": [
+      "3b24d0a8bc03f51b033442176f7ebb61.jpg"
+    ],
     "thickness": "3.0T",
     "specs": {
       "division": "",
@@ -1478,6 +1826,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스_데코레이s",
     "price": 0,
+    "thumbnail": "09cae0b7fdd086da908c0ba427ff678c.jpg",
+    "images": [
+      "09cae0b7fdd086da908c0ba427ff678c.jpg"
+    ],
     "thickness": "3.0T",
     "specs": {
       "division": "",
@@ -1494,6 +1846,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스_데코레이s",
     "price": 0,
+    "thumbnail": "ef9c0850ab619dbdaa8cb395698cf2f8.jpg",
+    "images": [
+      "ef9c0850ab619dbdaa8cb395698cf2f8.jpg"
+    ],
     "thickness": "3.0T",
     "specs": {
       "division": "",
@@ -1510,6 +1866,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스_데코레이s",
     "price": 0,
+    "thumbnail": "914c23da3a7ca0b9fc63db1d8893dece.jpg",
+    "images": [
+      "914c23da3a7ca0b9fc63db1d8893dece.jpg"
+    ],
     "thickness": "3.0T",
     "specs": {
       "division": "",
@@ -1526,6 +1886,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스_데코레이s",
     "price": 0,
+    "thumbnail": "e8a7aec9f01eae72d18e59a0d6e3b79e.jpg",
+    "images": [
+      "e8a7aec9f01eae72d18e59a0d6e3b79e.jpg"
+    ],
     "thickness": "3.0T",
     "specs": {
       "division": "",
@@ -1542,6 +1906,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스_데코레이s",
     "price": 0,
+    "thumbnail": "694283f4d9a7a4d5c6a4716f5eeb2297.jpg",
+    "images": [
+      "694283f4d9a7a4d5c6a4716f5eeb2297.jpg"
+    ],
     "thickness": "3.0T",
     "specs": {
       "division": "",
@@ -1558,6 +1926,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스_데코레이s",
     "price": 0,
+    "thumbnail": "f2f6c8cca276d9579f2eac7f86f6d629.jpg",
+    "images": [
+      "f2f6c8cca276d9579f2eac7f86f6d629.jpg"
+    ],
     "thickness": "3.0T",
     "specs": {
       "division": "",
@@ -1574,6 +1946,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스_데코레이s",
     "price": 0,
+    "thumbnail": "d99e43a118424d19256c7bf22587da25.jpg",
+    "images": [
+      "d99e43a118424d19256c7bf22587da25.jpg"
+    ],
     "thickness": "3.0T",
     "specs": {
       "division": "",
@@ -1590,6 +1966,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스_데코레이s",
     "price": 0,
+    "thumbnail": "6b455c86adbd26ecebab40694e26e42e.jpg",
+    "images": [
+      "6b455c86adbd26ecebab40694e26e42e.jpg"
+    ],
     "thickness": "3.0T",
     "specs": {
       "division": "",
@@ -1606,6 +1986,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스_데코레이s",
     "price": 0,
+    "thumbnail": "a9e0a2ada4dda827eb98f45eb20d3680.jpg",
+    "images": [
+      "a9e0a2ada4dda827eb98f45eb20d3680.jpg"
+    ],
     "thickness": "3.0T",
     "specs": {
       "division": "",
@@ -1622,6 +2006,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스_데코레이s",
     "price": 0,
+    "thumbnail": "aabca174e7161511323781b3f17d4299.jpg",
+    "images": [
+      "aabca174e7161511323781b3f17d4299.jpg"
+    ],
     "thickness": "3.0T",
     "specs": {
       "division": "",
@@ -1638,6 +2026,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스_데코레이s",
     "price": 0,
+    "thumbnail": "e136c14aa03d0acdab5218c9873f571b.jpg",
+    "images": [
+      "e136c14aa03d0acdab5218c9873f571b.jpg"
+    ],
     "thickness": "3.0T",
     "specs": {
       "division": "",
@@ -1654,6 +2046,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스_데코레이s",
     "price": 0,
+    "thumbnail": "70d1629c5b16c568528931657e36e3dc.jpg",
+    "images": [
+      "70d1629c5b16c568528931657e36e3dc.jpg"
+    ],
     "thickness": "3.0T",
     "specs": {
       "division": "",
@@ -1670,6 +2066,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스_데코레이s",
     "price": 0,
+    "thumbnail": "16d5597965d8cd637026a056d87c7beb.jpg",
+    "images": [
+      "16d5597965d8cd637026a056d87c7beb.jpg"
+    ],
     "thickness": "3.0T",
     "specs": {
       "division": "",
@@ -1686,6 +2086,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스스타일",
     "price": 0,
+    "thumbnail": "b5727530fd5139a592ba53095f07c139.jpg",
+    "images": [
+      "b5727530fd5139a592ba53095f07c139.jpg"
+    ],
     "type": "600",
     "thickness": "3.0T",
     "specs": {
@@ -1703,6 +2107,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스스타일",
     "price": 0,
+    "thumbnail": "41d44938fd0f710a1e7e465437746c96.jpg",
+    "images": [
+      "41d44938fd0f710a1e7e465437746c96.jpg"
+    ],
     "type": "600",
     "thickness": "3.0T",
     "specs": {
@@ -1720,6 +2128,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스스타일",
     "price": 0,
+    "thumbnail": "4bb719192b3f337fee864d3d7430c513.jpg",
+    "images": [
+      "4bb719192b3f337fee864d3d7430c513.jpg"
+    ],
     "type": "600",
     "thickness": "3.0T",
     "specs": {
@@ -1737,6 +2149,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스스타일",
     "price": 0,
+    "thumbnail": "03d9caf4809e6cf431da5ee04b581cad.jpg",
+    "images": [
+      "03d9caf4809e6cf431da5ee04b581cad.jpg"
+    ],
     "type": "600",
     "thickness": "3.0T",
     "specs": {
@@ -1754,6 +2170,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스스타일",
     "price": 0,
+    "thumbnail": "446cc99363ff642df5eb2a6c9dff84de.jpg",
+    "images": [
+      "446cc99363ff642df5eb2a6c9dff84de.jpg"
+    ],
     "type": "600",
     "thickness": "3.0T",
     "specs": {
@@ -1771,6 +2191,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스스타일",
     "price": 0,
+    "thumbnail": "bf5841ccc93a637bace7d97616efdbb8.jpg",
+    "images": [
+      "bf5841ccc93a637bace7d97616efdbb8.jpg"
+    ],
     "type": "600",
     "thickness": "3.0T",
     "specs": {
@@ -1788,6 +2212,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스스타일",
     "price": 0,
+    "thumbnail": "c3820e3b35f844af6182f3574b75d9c4.jpg",
+    "images": [
+      "c3820e3b35f844af6182f3574b75d9c4.jpg"
+    ],
     "type": "600",
     "thickness": "3.0T",
     "specs": {
@@ -1805,6 +2233,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스스타일",
     "price": 0,
+    "thumbnail": "a244cd4d18104369d0142461df9a31b2.jpg",
+    "images": [
+      "a244cd4d18104369d0142461df9a31b2.jpg"
+    ],
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
@@ -1822,6 +2254,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스스타일",
     "price": 0,
+    "thumbnail": "f40b6fb6c56e056c6d31af9e14993d11.jpg",
+    "images": [
+      "f40b6fb6c56e056c6d31af9e14993d11.jpg"
+    ],
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
@@ -1839,6 +2275,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스스타일",
     "price": 0,
+    "thumbnail": "d74373b89b0375dfd864558ffc01d873.jpg",
+    "images": [
+      "d74373b89b0375dfd864558ffc01d873.jpg"
+    ],
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
@@ -1856,6 +2296,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스스타일",
     "price": 0,
+    "thumbnail": "9e4fd6ee09edb053a7866c91b98a476c.jpg",
+    "images": [
+      "9e4fd6ee09edb053a7866c91b98a476c.jpg"
+    ],
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
@@ -1873,6 +2317,10 @@ export const materials = [
     "category": "데코타일",
     "line": "LX하우스스타일",
     "price": 0,
+    "thumbnail": "6354e5de7f1cc40d2500f3d83111b020.jpg",
+    "images": [
+      "6354e5de7f1cc40d2500f3d83111b020.jpg"
+    ],
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
@@ -1890,6 +2338,10 @@ export const materials = [
     "category": "데코타일",
     "line": "보타닉",
     "price": 35000,
+    "thumbnail": "869e8057e87a6d0d03e71214c71b4864.jpg",
+    "images": [
+      "869e8057e87a6d0d03e71214c71b4864.jpg"
+    ],
     "type": "450",
     "thickness": "3.0T",
     "specs": {
@@ -1907,6 +2359,10 @@ export const materials = [
     "category": "데코타일",
     "line": "보타닉",
     "price": 35000,
+    "thumbnail": "3562066f2ae37e80cf08db6f088477bd.jpg",
+    "images": [
+      "3562066f2ae37e80cf08db6f088477bd.jpg"
+    ],
     "type": "450",
     "thickness": "3.0T",
     "specs": {
@@ -1924,6 +2380,10 @@ export const materials = [
     "category": "데코타일",
     "line": "보타닉",
     "price": 35000,
+    "thumbnail": "a074966950752b4dd01e8937e3e54171.jpg",
+    "images": [
+      "a074966950752b4dd01e8937e3e54171.jpg"
+    ],
     "type": "450",
     "thickness": "3.0T",
     "specs": {
@@ -1941,6 +2401,10 @@ export const materials = [
     "category": "데코타일",
     "line": "보타닉",
     "price": 35000,
+    "thumbnail": "de32c7b4dddec8c71a87cb97a083eb3b.jpg",
+    "images": [
+      "de32c7b4dddec8c71a87cb97a083eb3b.jpg"
+    ],
     "type": "450",
     "thickness": "3.0T",
     "specs": {
@@ -1958,6 +2422,10 @@ export const materials = [
     "category": "데코타일",
     "line": "보타닉",
     "price": 35000,
+    "thumbnail": "fc7e7be6e27aa96ce9f6314427b7138b.jpg",
+    "images": [
+      "fc7e7be6e27aa96ce9f6314427b7138b.jpg"
+    ],
     "type": "450",
     "thickness": "3.0T",
     "specs": {
@@ -1975,6 +2443,10 @@ export const materials = [
     "category": "데코타일",
     "line": "보타닉",
     "price": 35000,
+    "thumbnail": "ccbdf0ec2adbf1138179a1322e54d36c.jpg",
+    "images": [
+      "ccbdf0ec2adbf1138179a1322e54d36c.jpg"
+    ],
     "type": "600",
     "thickness": "3.0T",
     "specs": {
@@ -1992,6 +2464,10 @@ export const materials = [
     "category": "데코타일",
     "line": "보타닉",
     "price": 35000,
+    "thumbnail": "78211cb24645d9dbb34a5046d4281cda.jpg",
+    "images": [
+      "78211cb24645d9dbb34a5046d4281cda.jpg"
+    ],
     "type": "600",
     "thickness": "3.0T",
     "specs": {
@@ -2009,6 +2485,10 @@ export const materials = [
     "category": "데코타일",
     "line": "보타닉",
     "price": 35000,
+    "thumbnail": "ad96acca29f36d98620b44efd1a8b12f.jpg",
+    "images": [
+      "ad96acca29f36d98620b44efd1a8b12f.jpg"
+    ],
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
@@ -2026,6 +2506,10 @@ export const materials = [
     "category": "데코타일",
     "line": "보타닉",
     "price": 35000,
+    "thumbnail": "88871c7e4f1c11ebe383569e8930f2f9.jpg",
+    "images": [
+      "88871c7e4f1c11ebe383569e8930f2f9.jpg"
+    ],
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
@@ -2043,6 +2527,10 @@ export const materials = [
     "category": "데코타일",
     "line": "보타닉",
     "price": 35000,
+    "thumbnail": "db30063132c0cc1759f7058ce846af53.jpg",
+    "images": [
+      "db30063132c0cc1759f7058ce846af53.jpg"
+    ],
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
@@ -2060,6 +2548,10 @@ export const materials = [
     "category": "데코타일",
     "line": "보타닉",
     "price": 35000,
+    "thumbnail": "d820ced07d4b143b73969f77f34a453e.jpg",
+    "images": [
+      "d820ced07d4b143b73969f77f34a453e.jpg"
+    ],
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
@@ -2077,6 +2569,10 @@ export const materials = [
     "category": "데코타일",
     "line": "보타닉",
     "price": 35000,
+    "thumbnail": "efad8edce44be823dd13aad8925498a3.jpg",
+    "images": [
+      "efad8edce44be823dd13aad8925498a3.jpg"
+    ],
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
@@ -2094,6 +2590,10 @@ export const materials = [
     "category": "데코타일",
     "line": "보타닉",
     "price": 35000,
+    "thumbnail": "e9a62eb80a5be6c627cb472caefac17c.jpg",
+    "images": [
+      "e9a62eb80a5be6c627cb472caefac17c.jpg"
+    ],
     "type": "wood",
     "thickness": "3.0T",
     "specs": {
@@ -2111,6 +2611,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "1c9924927531956e35f64277b68bcb5f.jpg",
+    "images": [
+      "1c9924927531956e35f64277b68bcb5f.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2128,6 +2632,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "04a2ebc290b7fd5b33d276d8d6dbac49.jpg",
+    "images": [
+      "04a2ebc290b7fd5b33d276d8d6dbac49.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2145,6 +2653,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "e4c440ea0ea16b8e752049de48021d51.jpg",
+    "images": [
+      "e4c440ea0ea16b8e752049de48021d51.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2162,6 +2674,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "54caad73a3fc4dd011c1ae4c93b63382.jpg",
+    "images": [
+      "54caad73a3fc4dd011c1ae4c93b63382.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2179,6 +2695,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "bff49ae7e6f41ad59dd407f2b8febdac.jpg",
+    "images": [
+      "bff49ae7e6f41ad59dd407f2b8febdac.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2196,6 +2716,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "e86488c008defac4491528c56d23fd48.jpg",
+    "images": [
+      "e86488c008defac4491528c56d23fd48.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2213,6 +2737,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "9055f609c4155b33395b8ea9fcc9cbac.jpg",
+    "images": [
+      "9055f609c4155b33395b8ea9fcc9cbac.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2230,6 +2758,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "04a6fc5782ce9f6ae535eed255bed721.jpg",
+    "images": [
+      "04a6fc5782ce9f6ae535eed255bed721.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2247,6 +2779,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "4c9d728bb117a5fab4dccfe710782d0c.jpg",
+    "images": [
+      "4c9d728bb117a5fab4dccfe710782d0c.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2264,6 +2800,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "5d85ba94303a97f6f805fdd11c3a72b6.jpg",
+    "images": [
+      "5d85ba94303a97f6f805fdd11c3a72b6.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2281,6 +2821,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "babbe87ed3692c97482dcb2861b72a5a.jpg",
+    "images": [
+      "babbe87ed3692c97482dcb2861b72a5a.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2298,6 +2842,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "f817d7e04ed188a2ffbbfad066e150ef.jpg",
+    "images": [
+      "f817d7e04ed188a2ffbbfad066e150ef.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2315,6 +2863,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "14b9f9e9e0093275604da0dd2d043c28.jpg",
+    "images": [
+      "14b9f9e9e0093275604da0dd2d043c28.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2332,6 +2884,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "f217d8b1ab79b154ff8c8a47053f882e.jpg",
+    "images": [
+      "f217d8b1ab79b154ff8c8a47053f882e.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2349,6 +2905,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "ca0c0c9ec7202b0c6e812e19462df93d.jpg",
+    "images": [
+      "ca0c0c9ec7202b0c6e812e19462df93d.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2366,6 +2926,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "77a419369944fdd0793bbac22ea58bd4.jpg",
+    "images": [
+      "77a419369944fdd0793bbac22ea58bd4.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2383,6 +2947,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "d82044154718ff118ac421603f895d46.jpg",
+    "images": [
+      "d82044154718ff118ac421603f895d46.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2400,6 +2968,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "f911d8552ca84b7250e7cfd96682e319.jpg",
+    "images": [
+      "f911d8552ca84b7250e7cfd96682e319.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2417,6 +2989,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "ad37f760cbcbb367cb750f44387d7fd1.jpg",
+    "images": [
+      "ad37f760cbcbb367cb750f44387d7fd1.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2434,6 +3010,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "edca31b4947640c6f5da4d8d057bc7eb.jpg",
+    "images": [
+      "edca31b4947640c6f5da4d8d057bc7eb.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2451,6 +3031,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "5f2c481d8cf9d3752eab3698a7de7e59.jpg",
+    "images": [
+      "5f2c481d8cf9d3752eab3698a7de7e59.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2468,6 +3052,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "c7a404ad128786d8dbeb7ee83b048bff.jpg",
+    "images": [
+      "c7a404ad128786d8dbeb7ee83b048bff.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2485,6 +3073,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "218d7c8bb746c96225f13422a7d309f1.jpg",
+    "images": [
+      "218d7c8bb746c96225f13422a7d309f1.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2502,6 +3094,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "3b5f6bd518ed262f1402bb7bf266ee95.jpg",
+    "images": [
+      "3b5f6bd518ed262f1402bb7bf266ee95.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2519,6 +3115,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "2ae9572eae0c9b3e81626356b1ebeaef.jpg",
+    "images": [
+      "2ae9572eae0c9b3e81626356b1ebeaef.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2536,6 +3136,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "3d64292fca5ce6b823712876f47ad885.jpg",
+    "images": [
+      "3d64292fca5ce6b823712876f47ad885.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2553,6 +3157,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "0a0ce20c6b8fc24e333a695dbe72b92e.jpg",
+    "images": [
+      "0a0ce20c6b8fc24e333a695dbe72b92e.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2570,6 +3178,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "1d1dc33815a3d68e1b3e267964d6a451.jpg",
+    "images": [
+      "1d1dc33815a3d68e1b3e267964d6a451.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2587,6 +3199,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "17fd7f221d26449ac96b77e34f762376.jpg",
+    "images": [
+      "17fd7f221d26449ac96b77e34f762376.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2604,6 +3220,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "40dc3fea56d99d86909c07082d7351bb.jpg",
+    "images": [
+      "40dc3fea56d99d86909c07082d7351bb.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2621,6 +3241,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "31ad67d52855140b66385b4b5ff91d5c.jpg",
+    "images": [
+      "31ad67d52855140b66385b4b5ff91d5c.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2638,6 +3262,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "586581d7d51850c45f061471720c2702.jpg",
+    "images": [
+      "586581d7d51850c45f061471720c2702.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2655,6 +3283,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "1e737cbe9bc3266891cd790865768aca.jpg",
+    "images": [
+      "1e737cbe9bc3266891cd790865768aca.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2672,6 +3304,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "e983a9f90a6df5ee15f038d80640c3b8.jpg",
+    "images": [
+      "e983a9f90a6df5ee15f038d80640c3b8.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2689,6 +3325,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "81d5a5effa47cd6a6a52c34669137b5b.jpg",
+    "images": [
+      "81d5a5effa47cd6a6a52c34669137b5b.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2706,6 +3346,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "3431e46a5802f5542ecbd4a9e57d388c.jpg",
+    "images": [
+      "3431e46a5802f5542ecbd4a9e57d388c.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2723,6 +3367,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "58b0e56542d9bdb4d65495e6468fd881.jpg",
+    "images": [
+      "58b0e56542d9bdb4d65495e6468fd881.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2740,6 +3388,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "edaf800a4e30cd4266a40e8cd47ecc07.jpg",
+    "images": [
+      "edaf800a4e30cd4266a40e8cd47ecc07.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2757,6 +3409,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각",
     "price": 21500,
+    "thumbnail": "83c23a25c2c1a8e5a8afc65f8b444853.jpg",
+    "images": [
+      "83c23a25c2c1a8e5a8afc65f8b444853.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2774,6 +3430,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각트랜드",
     "price": 21500,
+    "thumbnail": "e34424d769ec17d712352a1ab7b02f62.jpg",
+    "images": [
+      "e34424d769ec17d712352a1ab7b02f62.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2791,6 +3451,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각트랜드",
     "price": 21500,
+    "thumbnail": "0dacb75fdf9283fe45d6e89936502e59.jpg",
+    "images": [
+      "0dacb75fdf9283fe45d6e89936502e59.jpg"
+    ],
     "type": "600",
     "thickness": "3.0mm",
     "specs": {
@@ -2808,6 +3472,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각트랜드",
     "price": 21500,
+    "thumbnail": "492abfb8c4d8e1afc458ea131f1c31d2.jpg",
+    "images": [
+      "492abfb8c4d8e1afc458ea131f1c31d2.jpg"
+    ],
     "type": "wood",
     "thickness": "3.0mm",
     "specs": {
@@ -2825,6 +3493,10 @@ export const materials = [
     "category": "데코타일",
     "line": "피오네 모던_600각트랜드",
     "price": 21500,
+    "thumbnail": "976449250fa9a6a3a843ad19d67da6fa.jpg",
+    "images": [
+      "976449250fa9a6a3a843ad19d67da6fa.jpg"
+    ],
     "type": "wood",
     "thickness": "3.0mm",
     "specs": {
@@ -2842,6 +3514,10 @@ export const materials = [
     "category": "마루",
     "line": "진 오리진",
     "price": 0,
+    "thumbnail": "71b8dff3c935b3ef6e425deecf65e9e5.png",
+    "images": [
+      "71b8dff3c935b3ef6e425deecf65e9e5.png"
+    ],
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
@@ -2859,6 +3535,10 @@ export const materials = [
     "category": "마루",
     "line": "진 오리진",
     "price": 0,
+    "thumbnail": "2b432ec7a7d25f258e4520dd9b7de54b.png",
+    "images": [
+      "2b432ec7a7d25f258e4520dd9b7de54b.png"
+    ],
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
@@ -2876,6 +3556,10 @@ export const materials = [
     "category": "마루",
     "line": "진 오리진",
     "price": 0,
+    "thumbnail": "29bca9ac33aa1d79ce1031e6e0be90c2.png",
+    "images": [
+      "29bca9ac33aa1d79ce1031e6e0be90c2.png"
+    ],
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
@@ -2893,6 +3577,10 @@ export const materials = [
     "category": "마루",
     "line": "진 오리진",
     "price": 0,
+    "thumbnail": "b47cd88a7138d9d160b85a19f87d55b4.png",
+    "images": [
+      "b47cd88a7138d9d160b85a19f87d55b4.png"
+    ],
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
@@ -2910,6 +3598,10 @@ export const materials = [
     "category": "마루",
     "line": "진 오리진",
     "price": 0,
+    "thumbnail": "3432b05f87e5f13ca64e5fbe0221ac75.png",
+    "images": [
+      "3432b05f87e5f13ca64e5fbe0221ac75.png"
+    ],
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
@@ -2927,6 +3619,10 @@ export const materials = [
     "category": "마루",
     "line": "진 오리진",
     "price": 0,
+    "thumbnail": "bf07156a308f39d0e4170fa2b631cbc5.png",
+    "images": [
+      "bf07156a308f39d0e4170fa2b631cbc5.png"
+    ],
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
@@ -2944,6 +3640,10 @@ export const materials = [
     "category": "마루",
     "line": "진 오리진",
     "price": 0,
+    "thumbnail": "cef14563cccbc37a04c7060bce030cea.png",
+    "images": [
+      "cef14563cccbc37a04c7060bce030cea.png"
+    ],
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
@@ -2961,6 +3661,10 @@ export const materials = [
     "category": "마루",
     "line": "진 오리진",
     "price": 0,
+    "thumbnail": "9a2ff9bf405f9cce02e03b71aeb31078.png",
+    "images": [
+      "9a2ff9bf405f9cce02e03b71aeb31078.png"
+    ],
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
@@ -2978,6 +3682,10 @@ export const materials = [
     "category": "마루",
     "line": "진 오리진",
     "price": 0,
+    "thumbnail": "1bb0a4191c0c93611cd77d11165e0c87.png",
+    "images": [
+      "1bb0a4191c0c93611cd77d11165e0c87.png"
+    ],
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
@@ -2995,6 +3703,10 @@ export const materials = [
     "category": "마루",
     "line": "진 오리진",
     "price": 0,
+    "thumbnail": "c36f3a4568bb82403f42e1e5f98b397d.png",
+    "images": [
+      "c36f3a4568bb82403f42e1e5f98b397d.png"
+    ],
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
@@ -3012,6 +3724,10 @@ export const materials = [
     "category": "마루",
     "line": "진 오리진",
     "price": 0,
+    "thumbnail": "0ab4497de02f7a3b49d19b9064c2da8b.png",
+    "images": [
+      "0ab4497de02f7a3b49d19b9064c2da8b.png"
+    ],
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
@@ -3029,6 +3745,10 @@ export const materials = [
     "category": "마루",
     "line": "진 오리진",
     "price": 0,
+    "thumbnail": "8a7601868539721bb7e96b434d5042a2.png",
+    "images": [
+      "8a7601868539721bb7e96b434d5042a2.png"
+    ],
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
@@ -3046,6 +3766,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "9fbb91fb05fd8f22e7206dc35d3b1ed6.jpg",
+    "images": [
+      "9fbb91fb05fd8f22e7206dc35d3b1ed6.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3056,6 +3780,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "48cc0ae456ed36b19a40438f2d32fedf.jpg",
+    "images": [
+      "48cc0ae456ed36b19a40438f2d32fedf.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3066,6 +3794,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "4d93f231353d5d77404e658a6170ee70.jpg",
+    "images": [
+      "4d93f231353d5d77404e658a6170ee70.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3076,6 +3808,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "db407ae1a572d14c6cb3d5d374b50f0a.jpg",
+    "images": [
+      "db407ae1a572d14c6cb3d5d374b50f0a.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3086,6 +3822,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "286c225087becea65a1f5050b9c3f96b.jpg",
+    "images": [
+      "286c225087becea65a1f5050b9c3f96b.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3096,6 +3836,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "d2aaa04d86c4f6f86b218a39ce0aa597.jpg",
+    "images": [
+      "d2aaa04d86c4f6f86b218a39ce0aa597.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3106,6 +3850,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "45fc4237faac589265127551c28c29eb.jpg",
+    "images": [
+      "45fc4237faac589265127551c28c29eb.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3116,6 +3864,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "6b0ca750c4bb05c86da0d7fb88d50082.jpg",
+    "images": [
+      "6b0ca750c4bb05c86da0d7fb88d50082.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3126,6 +3878,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "414ad76bf0a500c2d6ddc2148b193e5e.jpg",
+    "images": [
+      "414ad76bf0a500c2d6ddc2148b193e5e.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3136,6 +3892,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "4d0a39c2ff5f66c66c6919210420d799.jpg",
+    "images": [
+      "4d0a39c2ff5f66c66c6919210420d799.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3146,6 +3906,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "60b24a9311a43a155a4a7139186ef5ba.jpg",
+    "images": [
+      "60b24a9311a43a155a4a7139186ef5ba.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3156,6 +3920,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "1e23d89857886f59fcf7306e25fab3a1.jpg",
+    "images": [
+      "1e23d89857886f59fcf7306e25fab3a1.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3166,6 +3934,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "5daff69484c599d5366d09b37fcf779a.jpg",
+    "images": [
+      "5daff69484c599d5366d09b37fcf779a.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3176,6 +3948,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "d4377b97dc25d44c7154217469dd72e3.jpg",
+    "images": [
+      "d4377b97dc25d44c7154217469dd72e3.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3186,6 +3962,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "8bcb05f900027ca204b9a967724000b1.jpg",
+    "images": [
+      "8bcb05f900027ca204b9a967724000b1.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3196,6 +3976,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "a4478cdc1b1ec1a5b2c589ce8fce713d.jpg",
+    "images": [
+      "a4478cdc1b1ec1a5b2c589ce8fce713d.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3206,6 +3990,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "ccd1871cb8d01d95ef7f0a8de0612ae3.jpg",
+    "images": [
+      "ccd1871cb8d01d95ef7f0a8de0612ae3.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3216,6 +4004,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "1677f6080b80139eabd92b6157baddc0.jpg",
+    "images": [
+      "1677f6080b80139eabd92b6157baddc0.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3226,6 +4018,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "327c21c79177967d3026220dfab356b6.jpg",
+    "images": [
+      "327c21c79177967d3026220dfab356b6.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3236,6 +4032,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "a83bf4e8fd4fb7149cf245c97d9b79d9.jpg",
+    "images": [
+      "a83bf4e8fd4fb7149cf245c97d9b79d9.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3246,6 +4046,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "c5893b3392627cb19245e02319290923.jpg",
+    "images": [
+      "c5893b3392627cb19245e02319290923.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3256,6 +4060,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "0978de6f4b489759ee84567d52b82103.jpg",
+    "images": [
+      "0978de6f4b489759ee84567d52b82103.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3266,6 +4074,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "4c7e3e1181d3d0a1b8e83074821dbd90.jpg",
+    "images": [
+      "4c7e3e1181d3d0a1b8e83074821dbd90.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3276,6 +4088,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "742babfe91b30385c6f80e49fbe0953c.jpg",
+    "images": [
+      "742babfe91b30385c6f80e49fbe0953c.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3286,6 +4102,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "33628473c35219f6c456e048f9dbf870.jpg",
+    "images": [
+      "33628473c35219f6c456e048f9dbf870.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3296,6 +4116,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "597514fe824e84700bd5978dbc08da14.jpg",
+    "images": [
+      "597514fe824e84700bd5978dbc08da14.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3306,6 +4130,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "d2101b9b4c18d4ad8077558662d496e9.jpg",
+    "images": [
+      "d2101b9b4c18d4ad8077558662d496e9.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3316,6 +4144,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "cc93969ec19ac9229727f5a71f71ebf8.jpg",
+    "images": [
+      "cc93969ec19ac9229727f5a71f71ebf8.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3326,6 +4158,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "c529d3444e263b4c347b20bdb63732d7.jpg",
+    "images": [
+      "c529d3444e263b4c347b20bdb63732d7.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3336,6 +4172,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "bb6a02044cff4981a0a01bdadaf7b305.jpg",
+    "images": [
+      "bb6a02044cff4981a0a01bdadaf7b305.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3346,6 +4186,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "4bc89ff004f29225b9a277f61f46728a.jpg",
+    "images": [
+      "4bc89ff004f29225b9a277f61f46728a.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3356,6 +4200,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "3edd1a99cae708696096ecb07f1d5b35.jpg",
+    "images": [
+      "3edd1a99cae708696096ecb07f1d5b35.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3366,6 +4214,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "120dd42a7396412239b61348b1ec6127.jpg",
+    "images": [
+      "120dd42a7396412239b61348b1ec6127.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3376,6 +4228,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "5896d3e9792d0b69030670db78d79413.jpg",
+    "images": [
+      "5896d3e9792d0b69030670db78d79413.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3386,6 +4242,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "8b1cd9bdd5d678ae574613a8c2c4a5b7.jpg",
+    "images": [
+      "8b1cd9bdd5d678ae574613a8c2c4a5b7.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3396,6 +4256,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "f9c27edf28224471e822b315b2209b7e.jpg",
+    "images": [
+      "f9c27edf28224471e822b315b2209b7e.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3406,6 +4270,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "8ce3e4d7a4c866c0861fc8bf44e6f0ce.jpg",
+    "images": [
+      "8ce3e4d7a4c866c0861fc8bf44e6f0ce.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3416,6 +4284,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "f9a3e439d21c9b46262e57e6c949c2c2.jpg",
+    "images": [
+      "f9a3e439d21c9b46262e57e6c949c2c2.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3426,6 +4298,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "1fdc5c9f9f61c59e7b49981085cfb9c8.jpg",
+    "images": [
+      "1fdc5c9f9f61c59e7b49981085cfb9c8.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3436,6 +4312,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "bdd315b157c12fbadbdbf287edba7372.jpg",
+    "images": [
+      "bdd315b157c12fbadbdbf287edba7372.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3446,6 +4326,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "9a2c61bd9f48431971ff8f84690eca05.jpg",
+    "images": [
+      "9a2c61bd9f48431971ff8f84690eca05.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3456,6 +4340,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "ff88932f6a31990505f243203efa652b.jpg",
+    "images": [
+      "ff88932f6a31990505f243203efa652b.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3466,6 +4354,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "0225b0842f3c6a2143b199c2a354c3de.jpg",
+    "images": [
+      "0225b0842f3c6a2143b199c2a354c3de.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3476,6 +4368,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "aaba5982e4d1b1443ca5eaac2d2b3bff.jpg",
+    "images": [
+      "aaba5982e4d1b1443ca5eaac2d2b3bff.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3486,6 +4382,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "1f2eff267ee74974bf6e11a313f65971.jpg",
+    "images": [
+      "1f2eff267ee74974bf6e11a313f65971.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3496,6 +4396,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "40697821bee70365117d727f32165c3b.jpg",
+    "images": [
+      "40697821bee70365117d727f32165c3b.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3506,6 +4410,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "85dc7cd7aa00356f5bba8531aa2c5b7c.jpg",
+    "images": [
+      "85dc7cd7aa00356f5bba8531aa2c5b7c.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3516,6 +4424,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "f8354428bdbb5b29ddbf28e684432858.jpg",
+    "images": [
+      "f8354428bdbb5b29ddbf28e684432858.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3526,6 +4438,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "6bb50968f633335497c4f7ecd197ec25.jpg",
+    "images": [
+      "6bb50968f633335497c4f7ecd197ec25.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3536,6 +4452,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "4e3e6071585eb5de21772082357a67f6.jpg",
+    "images": [
+      "4e3e6071585eb5de21772082357a67f6.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3546,6 +4466,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "d8225ec771e2dce50fad0ee8091eb48c.jpg",
+    "images": [
+      "d8225ec771e2dce50fad0ee8091eb48c.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3556,6 +4480,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "3d3d7e9dbe46590007e2920caa448914.jpg",
+    "images": [
+      "3d3d7e9dbe46590007e2920caa448914.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3566,6 +4494,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "bff7eaff289f5b4c4740a6f9014122cf.jpg",
+    "images": [
+      "bff7eaff289f5b4c4740a6f9014122cf.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3576,6 +4508,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "ebedbd978ede01a3352e5db1a26c249e.jpg",
+    "images": [
+      "ebedbd978ede01a3352e5db1a26c249e.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3586,6 +4522,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "034d3bfe5c0e085e37a75888966c0e5e.jpg",
+    "images": [
+      "034d3bfe5c0e085e37a75888966c0e5e.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3596,6 +4536,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "71412a6c886694caadc8ba51fc640c06.jpg",
+    "images": [
+      "71412a6c886694caadc8ba51fc640c06.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3606,6 +4550,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "b9ace4efed9a315977e2708e99da7177.jpg",
+    "images": [
+      "b9ace4efed9a315977e2708e99da7177.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3616,6 +4564,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "bab0bfed528a9c6546b55e380c40c0d3.jpg",
+    "images": [
+      "bab0bfed528a9c6546b55e380c40c0d3.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3626,6 +4578,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "1dd1f833c96e7a7a787bb766014d64f9.jpg",
+    "images": [
+      "1dd1f833c96e7a7a787bb766014d64f9.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3636,6 +4592,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "feaaccfa2790160d6f7dde2e38822d44.jpg",
+    "images": [
+      "feaaccfa2790160d6f7dde2e38822d44.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3646,6 +4606,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "35ef80060973246a85df620957f8a8d3.jpg",
+    "images": [
+      "35ef80060973246a85df620957f8a8d3.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3656,6 +4620,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "5cc240432c976ad0efc80423319a3d3b.jpg",
+    "images": [
+      "5cc240432c976ad0efc80423319a3d3b.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3666,6 +4634,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "b666e87b94308afd8e6f7a09ee300962.jpg",
+    "images": [
+      "b666e87b94308afd8e6f7a09ee300962.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3676,6 +4648,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "4af6b4e6dc212c2c9cecc48f37949643.jpg",
+    "images": [
+      "4af6b4e6dc212c2c9cecc48f37949643.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3686,6 +4662,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "a05e87adc971590c829a2f8f421ace13.jpg",
+    "images": [
+      "a05e87adc971590c829a2f8f421ace13.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3696,6 +4676,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "bc5a44a82a748284250958b49936d1d8.jpg",
+    "images": [
+      "bc5a44a82a748284250958b49936d1d8.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3706,6 +4690,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "3478545b9bc7d0ca8080fdcae2a5ebd3.jpg",
+    "images": [
+      "3478545b9bc7d0ca8080fdcae2a5ebd3.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3716,6 +4704,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "c5af108236104bfa562170d830fd4e43.jpg",
+    "images": [
+      "c5af108236104bfa562170d830fd4e43.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3726,6 +4718,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "4a57c94d2dc79be5350564e06cb53221.jpg",
+    "images": [
+      "4a57c94d2dc79be5350564e06cb53221.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3736,6 +4732,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "24b0f3c4c6294f5ca3d8662697170119.jpg",
+    "images": [
+      "24b0f3c4c6294f5ca3d8662697170119.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3746,6 +4746,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "29c06a93bd48d2ae8f42b8f277b33ba3.jpg",
+    "images": [
+      "29c06a93bd48d2ae8f42b8f277b33ba3.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3756,6 +4760,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "f8844913268bf29dd015c114652a25b9.jpg",
+    "images": [
+      "f8844913268bf29dd015c114652a25b9.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3766,6 +4774,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "a2f5492e64352e55b76f9d833bb85c89.jpg",
+    "images": [
+      "a2f5492e64352e55b76f9d833bb85c89.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3776,6 +4788,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "c159f85160feaa92418a3f916a0e583c.jpg",
+    "images": [
+      "c159f85160feaa92418a3f916a0e583c.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3786,6 +4802,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "be7cc8d421d431359111c08ce8247661.jpg",
+    "images": [
+      "be7cc8d421d431359111c08ce8247661.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3796,6 +4816,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "50e355927d63002c235e88fcfcd76183.jpg",
+    "images": [
+      "50e355927d63002c235e88fcfcd76183.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3806,6 +4830,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "bafd7e1d9ddddd33e303f4dd063d0457.jpg",
+    "images": [
+      "bafd7e1d9ddddd33e303f4dd063d0457.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3816,6 +4844,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "c08528f370ac4cce8e76f2d335c0cac6.jpg",
+    "images": [
+      "c08528f370ac4cce8e76f2d335c0cac6.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3826,6 +4858,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "b57ccdef3a35022470a70549d0862a5a.jpg",
+    "images": [
+      "b57ccdef3a35022470a70549d0862a5a.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3836,6 +4872,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망",
     "price": 0,
+    "thumbnail": "0ff94b761f629fc0495e2990aef20866.jpg",
+    "images": [
+      "0ff94b761f629fc0495e2990aef20866.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3846,6 +4886,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "f34ff74eebc684562b7c992020ff7af8.jpg",
+    "images": [
+      "f34ff74eebc684562b7c992020ff7af8.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3856,6 +4900,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "7150416edf96c7e6c661466c96235913.jpg",
+    "images": [
+      "7150416edf96c7e6c661466c96235913.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3866,6 +4914,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "ffc1911bc0369c328a2c2281d856b5cb.jpg",
+    "images": [
+      "ffc1911bc0369c328a2c2281d856b5cb.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3876,6 +4928,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "70ac35b4911f37e418ec6cc4f893d4b4.jpg",
+    "images": [
+      "70ac35b4911f37e418ec6cc4f893d4b4.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3886,6 +4942,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "c8e242b87fde0695d539050a4ed86472.jpg",
+    "images": [
+      "c8e242b87fde0695d539050a4ed86472.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3896,6 +4956,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "aee40b0f3d0f25a064df7ae8dc6862dd.jpg",
+    "images": [
+      "aee40b0f3d0f25a064df7ae8dc6862dd.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3906,6 +4970,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "d0f0e0033eed25aa68605b6ada64b924.jpg",
+    "images": [
+      "d0f0e0033eed25aa68605b6ada64b924.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3916,6 +4984,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "3e8a8b9d3a297d070e5d43f755cda038.jpg",
+    "images": [
+      "3e8a8b9d3a297d070e5d43f755cda038.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3926,6 +4998,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "8a40a87db167266554dcd11186302ae1.jpg",
+    "images": [
+      "8a40a87db167266554dcd11186302ae1.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3936,6 +5012,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "a3f967bd90e5c36c45014563cd511216.jpg",
+    "images": [
+      "a3f967bd90e5c36c45014563cd511216.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3946,6 +5026,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "9f639b96a7b1ef975a4b52320e615c86.jpg",
+    "images": [
+      "9f639b96a7b1ef975a4b52320e615c86.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3956,6 +5040,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "917f94886e59b80ebb35389fa9e4e425.jpg",
+    "images": [
+      "917f94886e59b80ebb35389fa9e4e425.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3966,6 +5054,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "604d432a6f36e171abf43365aa301f50.jpg",
+    "images": [
+      "604d432a6f36e171abf43365aa301f50.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3976,6 +5068,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "a6f40f4133fd6c18cfe8ad9f90ec3696.jpg",
+    "images": [
+      "a6f40f4133fd6c18cfe8ad9f90ec3696.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3986,6 +5082,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "85e56168a22cfc0d0d8f2f8eaebfdf36.jpg",
+    "images": [
+      "85e56168a22cfc0d0d8f2f8eaebfdf36.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -3996,6 +5096,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "ba18cc58950a9b906828dc60f8c60f91.jpg",
+    "images": [
+      "ba18cc58950a9b906828dc60f8c60f91.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4006,6 +5110,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "022ef543c837ecd8e0999e3cd5201bdd.jpg",
+    "images": [
+      "022ef543c837ecd8e0999e3cd5201bdd.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4016,6 +5124,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "9b2a9cd1ff0d6afd595c594b32f44b40.jpg",
+    "images": [
+      "9b2a9cd1ff0d6afd595c594b32f44b40.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4026,6 +5138,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "1d4bee9ac687d6a6be16a65572170325.jpg",
+    "images": [
+      "1d4bee9ac687d6a6be16a65572170325.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4036,6 +5152,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "5ac1ef536bcb66801a937d5a83e27425.jpg",
+    "images": [
+      "5ac1ef536bcb66801a937d5a83e27425.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4046,6 +5166,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "c830339c85a4b934fab126576dfcb55e.jpg",
+    "images": [
+      "c830339c85a4b934fab126576dfcb55e.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4056,6 +5180,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "166d9217dd5620386b1d2a0c45f3b653.jpg",
+    "images": [
+      "166d9217dd5620386b1d2a0c45f3b653.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4066,6 +5194,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "326ecf01396c238c94986f68470ec5de.jpg",
+    "images": [
+      "326ecf01396c238c94986f68470ec5de.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4076,6 +5208,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "fa299b7451e863f51e58cf406cd34d8f.jpg",
+    "images": [
+      "fa299b7451e863f51e58cf406cd34d8f.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4086,6 +5222,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "184a09438ac084ec412a25066b2a0c3e.jpg",
+    "images": [
+      "184a09438ac084ec412a25066b2a0c3e.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4096,6 +5236,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "d26a5f98b8704daf9810e710779702de.jpg",
+    "images": [
+      "d26a5f98b8704daf9810e710779702de.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4106,6 +5250,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "c5f61253534fd0a593f416183ee9196f.jpg",
+    "images": [
+      "c5f61253534fd0a593f416183ee9196f.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4116,6 +5264,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "893258073a9c8d7049f11047c028cc1f.jpg",
+    "images": [
+      "893258073a9c8d7049f11047c028cc1f.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4126,6 +5278,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "fbecc1070439652737bfdf442e6138a0.jpg",
+    "images": [
+      "fbecc1070439652737bfdf442e6138a0.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4136,6 +5292,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "13a0d4082dd2302844abbe3b41701fe6.jpg",
+    "images": [
+      "13a0d4082dd2302844abbe3b41701fe6.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4146,6 +5306,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "626a20648beb5e745d80884c7ed866df.jpg",
+    "images": [
+      "626a20648beb5e745d80884c7ed866df.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4156,6 +5320,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "89c393f541c5518f6e86d38967c14afa.jpg",
+    "images": [
+      "89c393f541c5518f6e86d38967c14afa.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4166,6 +5334,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "2a95653e4a670dba55dae6021c88d40d.jpg",
+    "images": [
+      "2a95653e4a670dba55dae6021c88d40d.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4176,6 +5348,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "0092284759c8d91862502e26f8c310d0.jpg",
+    "images": [
+      "0092284759c8d91862502e26f8c310d0.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4186,6 +5362,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "bc3c13e021d741f3980c5ade325f8497.jpg",
+    "images": [
+      "bc3c13e021d741f3980c5ade325f8497.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4196,6 +5376,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "a450ed06a78a5100ec74aa602dda5dde.jpg",
+    "images": [
+      "a450ed06a78a5100ec74aa602dda5dde.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4206,6 +5390,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "fbb70305614382bd037f3f0d53c69241.jpg",
+    "images": [
+      "fbb70305614382bd037f3f0d53c69241.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4216,6 +5404,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "74259b25e6ff4f1fd272a2f478348296.jpg",
+    "images": [
+      "74259b25e6ff4f1fd272a2f478348296.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4226,6 +5418,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "d5d3439d79ad6a8cf6b7e7539c09191f.jpg",
+    "images": [
+      "d5d3439d79ad6a8cf6b7e7539c09191f.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4236,6 +5432,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "c67dbdbad23d61af469ae927700a143e.jpg",
+    "images": [
+      "c67dbdbad23d61af469ae927700a143e.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4246,6 +5446,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "2aa768b62f32d937f169703fdee956cb.jpg",
+    "images": [
+      "2aa768b62f32d937f169703fdee956cb.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4256,6 +5460,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "c9f4ac7efc1b6b0eb313deeb71258532.jpg",
+    "images": [
+      "c9f4ac7efc1b6b0eb313deeb71258532.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4266,6 +5474,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "aa113b44738589e54fbb56f86e754005.jpg",
+    "images": [
+      "aa113b44738589e54fbb56f86e754005.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4276,6 +5488,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "0ab25a11bb57a7891e3b9a60a1932ca6.jpg",
+    "images": [
+      "0ab25a11bb57a7891e3b9a60a1932ca6.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4286,6 +5502,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "e4996885fb9ba8e6135df82a3a93ecd6.jpg",
+    "images": [
+      "e4996885fb9ba8e6135df82a3a93ecd6.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4296,6 +5516,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "f3579b478186be7d55251c9f2c36f57c.jpg",
+    "images": [
+      "f3579b478186be7d55251c9f2c36f57c.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4306,6 +5530,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "638b294642a90da795e18dc2b668a31b.jpg",
+    "images": [
+      "638b294642a90da795e18dc2b668a31b.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4316,6 +5544,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "8edb90cb703f7218fc0e726b23af947e.jpg",
+    "images": [
+      "8edb90cb703f7218fc0e726b23af947e.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4326,6 +5558,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "fcbd7e8f03fb0addd60c564285ac5a5f.jpg",
+    "images": [
+      "fcbd7e8f03fb0addd60c564285ac5a5f.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4336,6 +5572,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "649e6bc7e8befbb33aef813e339a1921.jpg",
+    "images": [
+      "649e6bc7e8befbb33aef813e339a1921.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4346,6 +5586,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "51bb34f1b7746c1997d9c3fb13854855.jpg",
+    "images": [
+      "51bb34f1b7746c1997d9c3fb13854855.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4356,6 +5600,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "3fe53f3e0d3f2837c989169a4a8015b9.jpg",
+    "images": [
+      "3fe53f3e0d3f2837c989169a4a8015b9.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4366,6 +5614,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "404af8e64d5186b0a69f3362f6661b75.jpg",
+    "images": [
+      "404af8e64d5186b0a69f3362f6661b75.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4376,6 +5628,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "88538ae346862509fab8cb40a8f76ee0.jpg",
+    "images": [
+      "88538ae346862509fab8cb40a8f76ee0.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4386,6 +5642,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "9f46ec8a1c9c47259d5c8df17f44de98.jpg",
+    "images": [
+      "9f46ec8a1c9c47259d5c8df17f44de98.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4396,6 +5656,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "d71b72c7e0fcfe88f8fc0a50c1c02ba0.jpg",
+    "images": [
+      "d71b72c7e0fcfe88f8fc0a50c1c02ba0.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4406,6 +5670,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "b28499ccc9c8d97752fc52eda43fb915.jpg",
+    "images": [
+      "b28499ccc9c8d97752fc52eda43fb915.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4416,6 +5684,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "f64994d9fe352f2e438c3ca8012e6588.jpg",
+    "images": [
+      "f64994d9fe352f2e438c3ca8012e6588.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4426,6 +5698,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "5a0b4db27a4592955c776ca5b98c03f0.jpg",
+    "images": [
+      "5a0b4db27a4592955c776ca5b98c03f0.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4436,6 +5712,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "45188e9c5bd208056cd4e58c0452c893.jpg",
+    "images": [
+      "45188e9c5bd208056cd4e58c0452c893.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4446,6 +5726,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "60e09493fabf4dcd33243ff365429eb7.jpg",
+    "images": [
+      "60e09493fabf4dcd33243ff365429eb7.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4456,6 +5740,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "f5945940ae4906064f65d84834880a9c.jpg",
+    "images": [
+      "f5945940ae4906064f65d84834880a9c.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4466,6 +5754,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "cc2181bef44ad035198f4d383030aec8.jpg",
+    "images": [
+      "cc2181bef44ad035198f4d383030aec8.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4476,6 +5768,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_디아망포티스",
     "price": 0,
+    "thumbnail": "e9032b30fc4b041841e1998dab51b48d.jpg",
+    "images": [
+      "e9032b30fc4b041841e1998dab51b48d.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4486,6 +5782,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "dbf8f52703decd02f6c5c8490e909092.jpg",
+    "images": [
+      "dbf8f52703decd02f6c5c8490e909092.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4496,6 +5796,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "9c8bcf278c82bea899f7f466c53cb13e.jpg",
+    "images": [
+      "9c8bcf278c82bea899f7f466c53cb13e.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4506,6 +5810,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "7e1f9d9bd1078b3590574bda8fcb68bb.jpg",
+    "images": [
+      "7e1f9d9bd1078b3590574bda8fcb68bb.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4516,6 +5824,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "93d43f4173dd557aac7193741c02bad9.jpg",
+    "images": [
+      "93d43f4173dd557aac7193741c02bad9.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4526,6 +5838,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "801b831f7008e99c2cb33327d6e9524f.jpg",
+    "images": [
+      "801b831f7008e99c2cb33327d6e9524f.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4536,6 +5852,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "b77d9528003cefa1313e998c86ed6a52.jpg",
+    "images": [
+      "b77d9528003cefa1313e998c86ed6a52.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4546,6 +5866,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "163b372bb04c07de0a83767a8fe3b860.jpg",
+    "images": [
+      "163b372bb04c07de0a83767a8fe3b860.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4556,6 +5880,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "ffec82d2f568eabee3e162dbb96f4f71.jpg",
+    "images": [
+      "ffec82d2f568eabee3e162dbb96f4f71.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4566,6 +5894,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "33d7625203a76e3915ff0f1b8d3b541a.jpg",
+    "images": [
+      "33d7625203a76e3915ff0f1b8d3b541a.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4576,6 +5908,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "bdfc7f4df3ed5ab73cbc4015f143231a.jpg",
+    "images": [
+      "bdfc7f4df3ed5ab73cbc4015f143231a.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4586,6 +5922,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "da71542b5cb64bb8cd90bde0d95985e0.jpg",
+    "images": [
+      "da71542b5cb64bb8cd90bde0d95985e0.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4596,6 +5936,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "1e6665083daaa5612dd3dc21d8e550b9.jpg",
+    "images": [
+      "1e6665083daaa5612dd3dc21d8e550b9.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4606,6 +5950,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "20c3543c84f42ed0fa46dcd5ecd4edb0.jpg",
+    "images": [
+      "20c3543c84f42ed0fa46dcd5ecd4edb0.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4616,6 +5964,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "c2973d764e15f9994ad46cfb8a5be622.jpg",
+    "images": [
+      "c2973d764e15f9994ad46cfb8a5be622.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4626,6 +5978,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "dce0bdef8b43866dcd48b4727c3f3a2e.jpg",
+    "images": [
+      "dce0bdef8b43866dcd48b4727c3f3a2e.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4636,6 +5992,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "0bed44d14509b9029e05397c7db5212b.jpg",
+    "images": [
+      "0bed44d14509b9029e05397c7db5212b.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4646,6 +6006,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "5e29069df019e00e3f40535bb625cdc0.jpg",
+    "images": [
+      "5e29069df019e00e3f40535bb625cdc0.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4656,6 +6020,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "31bfb661d483953eddc3a4f3faad2408.jpg",
+    "images": [
+      "31bfb661d483953eddc3a4f3faad2408.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4666,6 +6034,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "8a40ca429cda98fb9131c806f97a2b29.jpg",
+    "images": [
+      "8a40ca429cda98fb9131c806f97a2b29.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4676,6 +6048,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "5ae798257826f0597bc87186ba475f18.jpg",
+    "images": [
+      "5ae798257826f0597bc87186ba475f18.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4686,6 +6062,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "6e41deec4c0eb951a24d414ceda68cc7.jpg",
+    "images": [
+      "6e41deec4c0eb951a24d414ceda68cc7.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4696,6 +6076,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "5551b141eb1e0011b063b9b93338af77.jpg",
+    "images": [
+      "5551b141eb1e0011b063b9b93338af77.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4706,6 +6090,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "a34873f0bbae365d0383552e9bb9f00d.jpg",
+    "images": [
+      "a34873f0bbae365d0383552e9bb9f00d.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4716,6 +6104,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "240ba5e9235336a600db3453abaf971c.jpg",
+    "images": [
+      "240ba5e9235336a600db3453abaf971c.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4726,6 +6118,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "c188a5381a6f4481795897440ac8c581.jpg",
+    "images": [
+      "c188a5381a6f4481795897440ac8c581.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4736,6 +6132,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "047a5499d7cfb8b527d0dbde9a57d518.jpg",
+    "images": [
+      "047a5499d7cfb8b527d0dbde9a57d518.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4746,6 +6146,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "2f798273ecba94efafc505bcbda93c61.jpg",
+    "images": [
+      "2f798273ecba94efafc505bcbda93c61.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4756,6 +6160,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "f0ae85772f0460e86528af36a6058660.jpg",
+    "images": [
+      "f0ae85772f0460e86528af36a6058660.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4766,6 +6174,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "e715e610bf9faa54c07f296a62d2cd06.jpg",
+    "images": [
+      "e715e610bf9faa54c07f296a62d2cd06.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4776,6 +6188,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "beba566c3402ba9e2cc9de3631643997.jpg",
+    "images": [
+      "beba566c3402ba9e2cc9de3631643997.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4786,6 +6202,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "416c5648c2ca244f80f0515ba612ed80.jpg",
+    "images": [
+      "416c5648c2ca244f80f0515ba612ed80.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4796,6 +6216,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "954adb241c860c168d3cf6cf010637a9.jpg",
+    "images": [
+      "954adb241c860c168d3cf6cf010637a9.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4806,6 +6230,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "655fe1b3b492678b367135f464321c87.jpg",
+    "images": [
+      "655fe1b3b492678b367135f464321c87.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4816,6 +6244,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "c05a4d4761eb911bdb3bc7ba90178075.jpg",
+    "images": [
+      "c05a4d4761eb911bdb3bc7ba90178075.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4826,6 +6258,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "d6646294eb6a111b1be41fb551fbd541.jpg",
+    "images": [
+      "d6646294eb6a111b1be41fb551fbd541.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4836,6 +6272,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "66eb74b9ec89559a48068314c102dfd3.jpg",
+    "images": [
+      "66eb74b9ec89559a48068314c102dfd3.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4846,6 +6286,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "126a572acb98ad110edebbdca258be54.jpg",
+    "images": [
+      "126a572acb98ad110edebbdca258be54.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4856,6 +6300,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "6d64e434fbf35c49bfbb285322e25d3a.jpg",
+    "images": [
+      "6d64e434fbf35c49bfbb285322e25d3a.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4866,6 +6314,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "f26d50e0eb169790309db2c9cf52c2cf.jpg",
+    "images": [
+      "f26d50e0eb169790309db2c9cf52c2cf.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4876,6 +6328,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "a5f6a4b932b1eef9cd2d2b5962c616d1.jpg",
+    "images": [
+      "a5f6a4b932b1eef9cd2d2b5962c616d1.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4886,6 +6342,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "00161adea11203efc0de893f40b3b0b7.jpg",
+    "images": [
+      "00161adea11203efc0de893f40b3b0b7.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4896,6 +6356,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "f636c5b0d53d214c0ab862da8df5e1a5.jpg",
+    "images": [
+      "f636c5b0d53d214c0ab862da8df5e1a5.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4906,6 +6370,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "17e68e127b3c3e358a2e60159982a118.jpg",
+    "images": [
+      "17e68e127b3c3e358a2e60159982a118.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4916,6 +6384,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "e34e9f2f9e627e3a1a213c1b101ce71c.jpg",
+    "images": [
+      "e34e9f2f9e627e3a1a213c1b101ce71c.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4926,6 +6398,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "5b89e3ea7f6c7247b5a21a6713197ca7.jpg",
+    "images": [
+      "5b89e3ea7f6c7247b5a21a6713197ca7.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4936,6 +6412,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "2d466ad8cbbedbf239521aec5586ffc1.jpg",
+    "images": [
+      "2d466ad8cbbedbf239521aec5586ffc1.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4946,6 +6426,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "23c6b412a4d408838347ba601b9434e8.jpg",
+    "images": [
+      "23c6b412a4d408838347ba601b9434e8.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4956,6 +6440,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "a380beb8c2f2bac042c511ef56db5a87.jpg",
+    "images": [
+      "a380beb8c2f2bac042c511ef56db5a87.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4966,6 +6454,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "4fc8df9122c31a2b890153c7f16a81bd.jpg",
+    "images": [
+      "4fc8df9122c31a2b890153c7f16a81bd.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4976,6 +6468,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "7e81c0c3dedf5af1c8647e885fc55fd6.jpg",
+    "images": [
+      "7e81c0c3dedf5af1c8647e885fc55fd6.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4986,6 +6482,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "c056a1a5bbe54b6a6ddfa0046f386286.jpg",
+    "images": [
+      "c056a1a5bbe54b6a6ddfa0046f386286.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -4996,6 +6496,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "5f6fad9caba8c7a8103af8751a96115f.jpg",
+    "images": [
+      "5f6fad9caba8c7a8103af8751a96115f.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5006,6 +6510,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "1ff266703fe3ca8c20d0c3547c4357c2.jpg",
+    "images": [
+      "1ff266703fe3ca8c20d0c3547c4357c2.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5016,6 +6524,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "9954496af6ab1f650913c574c8d13877.jpg",
+    "images": [
+      "9954496af6ab1f650913c574c8d13877.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5026,6 +6538,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "f8fe43faca8e58fa9e72d1237cc2b9da.jpg",
+    "images": [
+      "f8fe43faca8e58fa9e72d1237cc2b9da.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5036,6 +6552,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "d4b51370bd518c2744e3ad5845ee1e1b.jpg",
+    "images": [
+      "d4b51370bd518c2744e3ad5845ee1e1b.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5046,6 +6566,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "81cd485dedbd487a87fa4f84e0ce4197.jpg",
+    "images": [
+      "81cd485dedbd487a87fa4f84e0ce4197.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5056,6 +6580,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "813fbbb66f1d474d3ddd4670bfa679b8.jpg",
+    "images": [
+      "813fbbb66f1d474d3ddd4670bfa679b8.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5066,6 +6594,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "cfb3ec36749547097b87e3f6d257b4d9.jpg",
+    "images": [
+      "cfb3ec36749547097b87e3f6d257b4d9.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5076,6 +6608,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "daec68a144531e984ff11c5b9c181d83.jpg",
+    "images": [
+      "daec68a144531e984ff11c5b9c181d83.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5086,6 +6622,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "ed0ab4a5b0c62c9f6cbb612d174bc8f3.jpg",
+    "images": [
+      "ed0ab4a5b0c62c9f6cbb612d174bc8f3.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5096,6 +6636,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "70eb86e9ac2c1d5f223fb61835304292.jpg",
+    "images": [
+      "70eb86e9ac2c1d5f223fb61835304292.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5106,6 +6650,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "2eb84ba4bfbf9c4f575c0f4534a8b499.jpg",
+    "images": [
+      "2eb84ba4bfbf9c4f575c0f4534a8b499.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5116,6 +6664,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "8c7b2dff08470f1813c135c62f41532b.jpg",
+    "images": [
+      "8c7b2dff08470f1813c135c62f41532b.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5126,6 +6678,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "599138048fcea9e76f0e0528c127e3c7.jpg",
+    "images": [
+      "599138048fcea9e76f0e0528c127e3c7.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5136,6 +6692,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "4cade34c333d437eda9ab69e0956df1c.jpg",
+    "images": [
+      "4cade34c333d437eda9ab69e0956df1c.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5146,6 +6706,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "82b07dfe348a89f5080145aaca11b767.jpg",
+    "images": [
+      "82b07dfe348a89f5080145aaca11b767.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5156,6 +6720,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "4cbb66c36381c83c20f932bbe3d26596.jpg",
+    "images": [
+      "4cbb66c36381c83c20f932bbe3d26596.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5166,6 +6734,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "610d6858253db285ffa38915d65da3b2.jpg",
+    "images": [
+      "610d6858253db285ffa38915d65da3b2.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5176,6 +6748,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "ce9bd9a5bf3d6240327fa51a82a3f087.jpg",
+    "images": [
+      "ce9bd9a5bf3d6240327fa51a82a3f087.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5186,6 +6762,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "0dbb2ed024cf79d261b2c34b5272981e.jpg",
+    "images": [
+      "0dbb2ed024cf79d261b2c34b5272981e.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5196,6 +6776,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "5d9840403ea01e31dccce7dd451e15ae.jpg",
+    "images": [
+      "5d9840403ea01e31dccce7dd451e15ae.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5206,6 +6790,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "7c41ed13298ffa41bd0a8d6a1dc0a099.jpg",
+    "images": [
+      "7c41ed13298ffa41bd0a8d6a1dc0a099.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5216,6 +6804,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "d76c5c8e1c71fb1b30f15e2022feaa2b.jpg",
+    "images": [
+      "d76c5c8e1c71fb1b30f15e2022feaa2b.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5226,6 +6818,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "1c5a32c3aedd425ede224233a0d7c824.jpg",
+    "images": [
+      "1c5a32c3aedd425ede224233a0d7c824.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5236,6 +6832,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "d5cfc3d053402d40bdc4947cfe0631b0.jpg",
+    "images": [
+      "d5cfc3d053402d40bdc4947cfe0631b0.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5246,6 +6846,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "e18fa79ff645cb5413fdebc19e1454d4.jpg",
+    "images": [
+      "e18fa79ff645cb5413fdebc19e1454d4.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5256,6 +6860,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "e5db57ae66679027ec89c18feb1ae569.jpg",
+    "images": [
+      "e5db57ae66679027ec89c18feb1ae569.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5266,6 +6874,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "02fbe99adc6731a5476a55b14c6c5b97.jpg",
+    "images": [
+      "02fbe99adc6731a5476a55b14c6c5b97.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5276,6 +6888,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "d239ce99074d6882892d7cf4a327aede.jpg",
+    "images": [
+      "d239ce99074d6882892d7cf4a327aede.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5286,6 +6902,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "c8203c29d6702a1a1bdd8f9a0494728f.jpg",
+    "images": [
+      "c8203c29d6702a1a1bdd8f9a0494728f.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5296,6 +6916,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "2d4dd408476feae88e79af2c108ca90c.jpg",
+    "images": [
+      "2d4dd408476feae88e79af2c108ca90c.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5306,6 +6930,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "8fa685b23a7e452f0e5e806e1e1f50fd.jpg",
+    "images": [
+      "8fa685b23a7e452f0e5e806e1e1f50fd.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5316,6 +6944,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "80f564ce587ac19dd1f61c41b60d0014.jpg",
+    "images": [
+      "80f564ce587ac19dd1f61c41b60d0014.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5326,6 +6958,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "8ff775ad891debba001b789ba6fbb2fa.jpg",
+    "images": [
+      "8ff775ad891debba001b789ba6fbb2fa.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5336,6 +6972,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "b370044449b8bdcab046b531ed4d73ed.jpg",
+    "images": [
+      "b370044449b8bdcab046b531ed4d73ed.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5346,6 +6986,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "e1ebd5a0b04dd30c2141bc29ed7a0a99.jpg",
+    "images": [
+      "e1ebd5a0b04dd30c2141bc29ed7a0a99.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5356,6 +7000,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "9d09d3c7ed433069d773c03d65bf17bf.jpg",
+    "images": [
+      "9d09d3c7ed433069d773c03d65bf17bf.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5366,6 +7014,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "095c0e051fcb3671a72c5c14075a5bb2.jpg",
+    "images": [
+      "095c0e051fcb3671a72c5c14075a5bb2.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5376,6 +7028,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "ea911a2ca0a1a44552e44b222c45c94f.jpg",
+    "images": [
+      "ea911a2ca0a1a44552e44b222c45c94f.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5386,6 +7042,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "bbb6ef1f5d913c139e1fb07471adfdc4.jpg",
+    "images": [
+      "bbb6ef1f5d913c139e1fb07471adfdc4.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5396,6 +7056,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "a126c3a7e9dd38948d3dd414a88490cf.jpg",
+    "images": [
+      "a126c3a7e9dd38948d3dd414a88490cf.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5406,6 +7070,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "d3632b3951b502c4a9dc819551c7bd99.jpg",
+    "images": [
+      "d3632b3951b502c4a9dc819551c7bd99.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5416,6 +7084,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "83729ebedffddb07cc4d58fbcac991cd.jpg",
+    "images": [
+      "83729ebedffddb07cc4d58fbcac991cd.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5426,6 +7098,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "c441e4e8186a7871f51ba8067b5cd65c.jpg",
+    "images": [
+      "c441e4e8186a7871f51ba8067b5cd65c.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5436,6 +7112,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "d05304b76a8acde58e869d1f256c44fb.jpg",
+    "images": [
+      "d05304b76a8acde58e869d1f256c44fb.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5446,6 +7126,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "c9cd43451eadc358253bdc2f31d1d25f.jpg",
+    "images": [
+      "c9cd43451eadc358253bdc2f31d1d25f.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5456,6 +7140,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "4862a6f1c79f981b172c27ce66c4d051.jpg",
+    "images": [
+      "4862a6f1c79f981b172c27ce66c4d051.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5466,6 +7154,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "02104512646306aaef5f3d7237c4f73d.jpg",
+    "images": [
+      "02104512646306aaef5f3d7237c4f73d.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5476,6 +7168,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "32675504643be00bfcee68a5b703f086.jpg",
+    "images": [
+      "32675504643be00bfcee68a5b703f086.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5486,6 +7182,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "bc27a82934bdf809d2093612b388a157.jpg",
+    "images": [
+      "bc27a82934bdf809d2093612b388a157.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5496,6 +7196,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "fe6f2b9728a8b11cfe6bdee494363d2d.jpg",
+    "images": [
+      "fe6f2b9728a8b11cfe6bdee494363d2d.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5506,6 +7210,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "55e026eea9bca10c88ca3f42ffeea896.jpg",
+    "images": [
+      "55e026eea9bca10c88ca3f42ffeea896.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5516,6 +7224,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "cd381804dcd366ad2a11e2653d4bc9d1.jpg",
+    "images": [
+      "cd381804dcd366ad2a11e2653d4bc9d1.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5526,6 +7238,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "1e4369d0d9a48137310e2c71902c71d1.jpg",
+    "images": [
+      "1e4369d0d9a48137310e2c71902c71d1.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5536,6 +7252,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "1f23e1c5ffc4be480580a604f0102199.jpg",
+    "images": [
+      "1f23e1c5ffc4be480580a604f0102199.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5546,6 +7266,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "12aec3d8d3dec6ff9176b4a502920740.jpg",
+    "images": [
+      "12aec3d8d3dec6ff9176b4a502920740.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5556,6 +7280,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "920a8e039d3abe40613e2a88d01064df.jpg",
+    "images": [
+      "920a8e039d3abe40613e2a88d01064df.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5566,6 +7294,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "1b3ac87ab3dd0e7e2690d10fe417f6ad.jpg",
+    "images": [
+      "1b3ac87ab3dd0e7e2690d10fe417f6ad.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5576,6 +7308,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "282bcd12902875b1adff035ee9d2d079.jpg",
+    "images": [
+      "282bcd12902875b1adff035ee9d2d079.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5586,6 +7322,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "8f19351920b50aa4c93255e64bde2320.jpg",
+    "images": [
+      "8f19351920b50aa4c93255e64bde2320.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5596,6 +7336,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "01939f05a51c828e7fe3872214ba30b0.jpg",
+    "images": [
+      "01939f05a51c828e7fe3872214ba30b0.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5606,6 +7350,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "c394a59c9bcc57ef8ed9346b03a1fa32.jpg",
+    "images": [
+      "c394a59c9bcc57ef8ed9346b03a1fa32.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5616,6 +7364,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "333db9649342601302010a622b712a8b.jpg",
+    "images": [
+      "333db9649342601302010a622b712a8b.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5626,6 +7378,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "40a5786d93ebb5b49c0a94f320fa6275.jpg",
+    "images": [
+      "40a5786d93ebb5b49c0a94f320fa6275.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5636,6 +7392,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "ea865f6dd96953f302bf357c67369619.jpg",
+    "images": [
+      "ea865f6dd96953f302bf357c67369619.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5646,6 +7406,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "0e887f19ab88f4bc9571a053a5fea07b.jpg",
+    "images": [
+      "0e887f19ab88f4bc9571a053a5fea07b.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5656,6 +7420,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "83814164d98a94dfb20ec3f2f16c1f3e.jpg",
+    "images": [
+      "83814164d98a94dfb20ec3f2f16c1f3e.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5666,6 +7434,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "4d7a18a7dfd3afeae1e783ea66ae75ed.jpg",
+    "images": [
+      "4d7a18a7dfd3afeae1e783ea66ae75ed.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5676,6 +7448,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "820f5de15801bdbcf01d9f030a5b71d9.jpg",
+    "images": [
+      "820f5de15801bdbcf01d9f030a5b71d9.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5686,6 +7462,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "1f19f28a7c0ead4b61d3d759c0f12942.jpg",
+    "images": [
+      "1f19f28a7c0ead4b61d3d759c0f12942.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5696,6 +7476,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "e4e0d491e96d27bb09d0fecab40f7871.jpg",
+    "images": [
+      "e4e0d491e96d27bb09d0fecab40f7871.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5706,6 +7490,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "c4b683767b96796562fd9925458750bc.jpg",
+    "images": [
+      "c4b683767b96796562fd9925458750bc.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5716,6 +7504,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "7e87f8deaa3a0dfaeee08f731f3af364.jpg",
+    "images": [
+      "7e87f8deaa3a0dfaeee08f731f3af364.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5726,6 +7518,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "51f9207f85ee4e8ce088c9c9ae08ded4.jpg",
+    "images": [
+      "51f9207f85ee4e8ce088c9c9ae08ded4.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5736,6 +7532,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "04f1256c23fef6e06a89b03efdd7fc86.jpg",
+    "images": [
+      "04f1256c23fef6e06a89b03efdd7fc86.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5746,6 +7546,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "fba6ec5feb9d9d7957ee66cf5657ff4c.jpg",
+    "images": [
+      "fba6ec5feb9d9d7957ee66cf5657ff4c.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5756,6 +7560,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "c8fcee5f806276b14b08e151704cca44.jpg",
+    "images": [
+      "c8fcee5f806276b14b08e151704cca44.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5766,6 +7574,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "40717d2c62ef75b179394eedb2c54516.jpg",
+    "images": [
+      "40717d2c62ef75b179394eedb2c54516.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5776,6 +7588,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "f3a23058a8f03b4e48c74a3ca0640e3e.jpg",
+    "images": [
+      "f3a23058a8f03b4e48c74a3ca0640e3e.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5786,6 +7602,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "a5d1b2441ea59d5e07c4b38401fb502a.jpg",
+    "images": [
+      "a5d1b2441ea59d5e07c4b38401fb502a.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5796,6 +7616,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "843517b78448f22d6ce4dd0d70a16de3.jpg",
+    "images": [
+      "843517b78448f22d6ce4dd0d70a16de3.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5806,6 +7630,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "1a1baeeaa784a198e2f6b91383b73373.jpg",
+    "images": [
+      "1a1baeeaa784a198e2f6b91383b73373.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5816,6 +7644,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "21e0e00f05bd5937578706f28d666950.jpg",
+    "images": [
+      "21e0e00f05bd5937578706f28d666950.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5826,6 +7658,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_베스트",
     "price": 0,
+    "thumbnail": "f4c27b2bcf6efd3d7802ed1743426aa4.jpg",
+    "images": [
+      "f4c27b2bcf6efd3d7802ed1743426aa4.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5836,6 +7672,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "f0ccc8f0145fcfd2caef0c6d6d8f9d55.jpg",
+    "images": [
+      "f0ccc8f0145fcfd2caef0c6d6d8f9d55.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5846,6 +7686,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "fec106d93889bf80531fd77e0958d25b.jpg",
+    "images": [
+      "fec106d93889bf80531fd77e0958d25b.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5856,6 +7700,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "90d0002ba2ec452749755500c4e1f715.jpg",
+    "images": [
+      "90d0002ba2ec452749755500c4e1f715.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5866,6 +7714,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "e8bdb94c37c8aa01d2591cd57895798a.jpg",
+    "images": [
+      "e8bdb94c37c8aa01d2591cd57895798a.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5876,6 +7728,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "3d0746b560d71b548277139f4dc83b0b.jpg",
+    "images": [
+      "3d0746b560d71b548277139f4dc83b0b.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5886,6 +7742,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "167f6b05e75592b62f41c921e752149c.jpg",
+    "images": [
+      "167f6b05e75592b62f41c921e752149c.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5896,6 +7756,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "4c51b03114b3521797672d2f3118eab1.jpg",
+    "images": [
+      "4c51b03114b3521797672d2f3118eab1.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5906,6 +7770,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "345a672c720a1b9cdd16073b9f4e1a2a.jpg",
+    "images": [
+      "345a672c720a1b9cdd16073b9f4e1a2a.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5916,6 +7784,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "f42488f7e1b81e466b8517c4c7c7524f.jpg",
+    "images": [
+      "f42488f7e1b81e466b8517c4c7c7524f.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5926,6 +7798,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "71e4695fc241d9d0b63e229ce583f68c.jpg",
+    "images": [
+      "71e4695fc241d9d0b63e229ce583f68c.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5936,6 +7812,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "91c01271d8daacb544f44c3e947b8d78.jpg",
+    "images": [
+      "91c01271d8daacb544f44c3e947b8d78.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5946,6 +7826,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "7d14fc6dc5f6d2ac02e3af8ae8945955.jpg",
+    "images": [
+      "7d14fc6dc5f6d2ac02e3af8ae8945955.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5956,6 +7840,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "77e0388d197362159a4d9e2c508a2d98.jpg",
+    "images": [
+      "77e0388d197362159a4d9e2c508a2d98.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5966,6 +7854,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "97ef62030335efce7dd8b8ddd3ebf613.jpg",
+    "images": [
+      "97ef62030335efce7dd8b8ddd3ebf613.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5976,6 +7868,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "72b7263d015655cd8ccc6f3d5654df23.jpg",
+    "images": [
+      "72b7263d015655cd8ccc6f3d5654df23.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5986,6 +7882,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "53d86df3d8e70d20b06d246e43c08c91.jpg",
+    "images": [
+      "53d86df3d8e70d20b06d246e43c08c91.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -5996,6 +7896,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "c6dfd3f1c3d19ec771014939e3ba3afa.jpg",
+    "images": [
+      "c6dfd3f1c3d19ec771014939e3ba3afa.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6006,6 +7910,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "64266b6cf14889830745546c05c06345.jpg",
+    "images": [
+      "64266b6cf14889830745546c05c06345.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6016,6 +7924,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "cf74f91f62593d69a3bf7e57020cba93.jpg",
+    "images": [
+      "cf74f91f62593d69a3bf7e57020cba93.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6026,6 +7938,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "34da7c21a5872dd1e699768f0e7cab84.jpg",
+    "images": [
+      "34da7c21a5872dd1e699768f0e7cab84.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6036,6 +7952,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "ad3921da6d5ef5138425197369d43c7e.jpg",
+    "images": [
+      "ad3921da6d5ef5138425197369d43c7e.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6046,6 +7966,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "25573014b5807af511f8375aa7c5e98d.jpg",
+    "images": [
+      "25573014b5807af511f8375aa7c5e98d.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6056,6 +7980,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "fff9d17dd43434cd1395563f82271d22.jpg",
+    "images": [
+      "fff9d17dd43434cd1395563f82271d22.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6066,6 +7994,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "629e4fc92ec9803a1f7df6dbf40b14b8.jpg",
+    "images": [
+      "629e4fc92ec9803a1f7df6dbf40b14b8.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6076,6 +8008,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "fc0fdbc27bb0ffe4008fc3f94cda41cd.jpg",
+    "images": [
+      "fc0fdbc27bb0ffe4008fc3f94cda41cd.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6086,6 +8022,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "5ce0e3c9f7bda726dc6688b2be54362b.jpg",
+    "images": [
+      "5ce0e3c9f7bda726dc6688b2be54362b.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6096,6 +8036,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "ac450db1bd435f5124d21a40aaf3fcee.jpg",
+    "images": [
+      "ac450db1bd435f5124d21a40aaf3fcee.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6106,6 +8050,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "6c4b07a9d4daebdaf69eb3138bce7bfe.jpg",
+    "images": [
+      "6c4b07a9d4daebdaf69eb3138bce7bfe.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6116,6 +8064,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "d47102e5dba7a4052fb9306e6a7cf883.jpg",
+    "images": [
+      "d47102e5dba7a4052fb9306e6a7cf883.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6126,6 +8078,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "074f703b9c8b7d558c46caa7d6765d0d.jpg",
+    "images": [
+      "074f703b9c8b7d558c46caa7d6765d0d.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6136,6 +8092,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "6243d038621c464ff6694a5d52155406.jpg",
+    "images": [
+      "6243d038621c464ff6694a5d52155406.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6146,6 +8106,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "4d1268cb02bbf921cf75fcf9c52204a8.jpg",
+    "images": [
+      "4d1268cb02bbf921cf75fcf9c52204a8.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6156,6 +8120,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "5bc42dc4116e107d1dbfa623e5d81739.jpg",
+    "images": [
+      "5bc42dc4116e107d1dbfa623e5d81739.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6166,6 +8134,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "7acb9ca6c37f62507cca1a1760a7515b.jpg",
+    "images": [
+      "7acb9ca6c37f62507cca1a1760a7515b.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6176,6 +8148,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "c60db3dbaa5ebfa7f2c249cd218f3326.jpg",
+    "images": [
+      "c60db3dbaa5ebfa7f2c249cd218f3326.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6186,6 +8162,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "f19c60aa777486f3d70d3e4c6db99895.jpg",
+    "images": [
+      "f19c60aa777486f3d70d3e4c6db99895.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6196,6 +8176,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "b195e54bd220a535fd868b602dac011d.jpg",
+    "images": [
+      "b195e54bd220a535fd868b602dac011d.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6206,6 +8190,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "53256328e6560e72adedb7e5ed468e2e.jpg",
+    "images": [
+      "53256328e6560e72adedb7e5ed468e2e.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6216,6 +8204,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "73bd6814b60e812ae5e907179d9159dc.jpg",
+    "images": [
+      "73bd6814b60e812ae5e907179d9159dc.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6226,6 +8218,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "7c92ae0a686caffa8f9455bee18e215f.jpg",
+    "images": [
+      "7c92ae0a686caffa8f9455bee18e215f.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6236,6 +8232,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "d351730b45919de13c4248900bbb9f3b.jpg",
+    "images": [
+      "d351730b45919de13c4248900bbb9f3b.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6246,6 +8246,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "f4c69de0043a329b7fdb974fb0f4ec25.jpg",
+    "images": [
+      "f4c69de0043a329b7fdb974fb0f4ec25.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6256,6 +8260,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "739c44ca815949982f8346dfd719e3c0.jpg",
+    "images": [
+      "739c44ca815949982f8346dfd719e3c0.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6266,6 +8274,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "3762aecaa89db3c2bbc958b4d1214b80.jpg",
+    "images": [
+      "3762aecaa89db3c2bbc958b4d1214b80.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6276,6 +8288,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "b64bf79bcf8d7686a011fd80e4a5f6e0.jpg",
+    "images": [
+      "b64bf79bcf8d7686a011fd80e4a5f6e0.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6286,6 +8302,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "6711424670345aa0146baeccc4dde1fe.jpg",
+    "images": [
+      "6711424670345aa0146baeccc4dde1fe.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6296,6 +8316,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "51b761f518c1d89ee8d97c8d1b025a3d.jpg",
+    "images": [
+      "51b761f518c1d89ee8d97c8d1b025a3d.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6306,6 +8330,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "bc4ecaa5d3b78ed4b632e521a4b64c49.jpg",
+    "images": [
+      "bc4ecaa5d3b78ed4b632e521a4b64c49.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6316,6 +8344,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "aa64af1d4d39a960e9cd6b1c10d2478f.jpg",
+    "images": [
+      "aa64af1d4d39a960e9cd6b1c10d2478f.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6326,6 +8358,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "43fc2d84f74ee9dca5683756aa3dfa64.jpg",
+    "images": [
+      "43fc2d84f74ee9dca5683756aa3dfa64.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6336,6 +8372,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "a4cb369a1fa03f8be07d904a5ac9c09b.jpg",
+    "images": [
+      "a4cb369a1fa03f8be07d904a5ac9c09b.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6346,6 +8386,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "29f13d32bd6282363084369a962ca4f4.jpg",
+    "images": [
+      "29f13d32bd6282363084369a962ca4f4.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6356,6 +8400,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "ac26368dd5c96aa834cf40d31852c2b3.jpg",
+    "images": [
+      "ac26368dd5c96aa834cf40d31852c2b3.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6366,6 +8414,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "0d98943e8c758ae356871d2c2fffcd7d.jpg",
+    "images": [
+      "0d98943e8c758ae356871d2c2fffcd7d.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6376,6 +8428,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "b94f8183baa87caacd0e0b968ce0b718.jpg",
+    "images": [
+      "b94f8183baa87caacd0e0b968ce0b718.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6386,6 +8442,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "a7529afc6fc202d547ba18197653ffbc.jpg",
+    "images": [
+      "a7529afc6fc202d547ba18197653ffbc.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6396,6 +8456,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "9e5df7ffb1c795ac6666de240ee0113b.jpg",
+    "images": [
+      "9e5df7ffb1c795ac6666de240ee0113b.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6406,6 +8470,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "0eec07e8268f590a62e1f13460e6e132.jpg",
+    "images": [
+      "0eec07e8268f590a62e1f13460e6e132.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6416,6 +8484,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "b5894262a6890a33b426d95a54ca0037.jpg",
+    "images": [
+      "b5894262a6890a33b426d95a54ca0037.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6426,6 +8498,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "f9efb842c4300be11a5db089a11a4941.jpg",
+    "images": [
+      "f9efb842c4300be11a5db089a11a4941.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6436,6 +8512,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "a2f400e4ebf6c68090abe6ac0d4d8e4d.jpg",
+    "images": [
+      "a2f400e4ebf6c68090abe6ac0d4d8e4d.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6446,6 +8526,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "b9cbf779bbfa5826f6fc334ab9a62452.jpg",
+    "images": [
+      "b9cbf779bbfa5826f6fc334ab9a62452.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6456,6 +8540,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "864a012b82277983ef9ae00f65a5f48f.jpg",
+    "images": [
+      "864a012b82277983ef9ae00f65a5f48f.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6466,6 +8554,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "6d091c17a18b757c53bd5bab5271609d.jpg",
+    "images": [
+      "6d091c17a18b757c53bd5bab5271609d.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6476,6 +8568,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "5878c919a1bd28673d0e5d12dc5a52f2.jpg",
+    "images": [
+      "5878c919a1bd28673d0e5d12dc5a52f2.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6486,6 +8582,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "2aa8b750b8364e856908733989370f82.jpg",
+    "images": [
+      "2aa8b750b8364e856908733989370f82.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6496,6 +8596,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "8c51eb58e442d9cc994da07b95d33ed1.jpg",
+    "images": [
+      "8c51eb58e442d9cc994da07b95d33ed1.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6506,6 +8610,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "a496c39dd5902741e8e3da2c76e7f401.jpg",
+    "images": [
+      "a496c39dd5902741e8e3da2c76e7f401.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6516,6 +8624,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "c69d08bb9aee467a30bf78741d11281f.jpg",
+    "images": [
+      "c69d08bb9aee467a30bf78741d11281f.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6526,6 +8638,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "4c2950edb71c5fa65421b023703b6452.jpg",
+    "images": [
+      "4c2950edb71c5fa65421b023703b6452.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6536,6 +8652,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "d0acb8bc83b31ad149c8f9a26d331721.jpg",
+    "images": [
+      "d0acb8bc83b31ad149c8f9a26d331721.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6546,6 +8666,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "bf0fa80a279f2f1fce3f1ebf41c0aee9.jpg",
+    "images": [
+      "bf0fa80a279f2f1fce3f1ebf41c0aee9.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6556,6 +8680,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "58f4c7936d1dd2306e4ad791be657eb7.jpg",
+    "images": [
+      "58f4c7936d1dd2306e4ad791be657eb7.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6566,6 +8694,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "7e6bf581874fd8ebd9240ebaed8e3c2b.jpg",
+    "images": [
+      "7e6bf581874fd8ebd9240ebaed8e3c2b.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6576,6 +8708,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "6eb7dd99e5c99bb5f9c564008ccc544a.jpg",
+    "images": [
+      "6eb7dd99e5c99bb5f9c564008ccc544a.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6586,6 +8722,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "4d0421a41ac6ebe92092577f7bb336ea.jpg",
+    "images": [
+      "4d0421a41ac6ebe92092577f7bb336ea.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6596,6 +8736,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "c99ac893a364b8c7c70434afd6cd6886.jpg",
+    "images": [
+      "c99ac893a364b8c7c70434afd6cd6886.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6606,6 +8750,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "7976d6b7295ab83553897163410cecb8.jpg",
+    "images": [
+      "7976d6b7295ab83553897163410cecb8.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6616,6 +8764,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "76d28517caa02753571de821ce8f8b6a.jpg",
+    "images": [
+      "76d28517caa02753571de821ce8f8b6a.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6626,6 +8778,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "24d7a78f6f32061d39c7760826ff03f5.jpg",
+    "images": [
+      "24d7a78f6f32061d39c7760826ff03f5.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6636,6 +8792,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "e5f5e5e223de735a2abb87e8df199257.jpg",
+    "images": [
+      "e5f5e5e223de735a2abb87e8df199257.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6646,6 +8806,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "7291b4b03484a5d3f554bc001e79025f.jpg",
+    "images": [
+      "7291b4b03484a5d3f554bc001e79025f.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6656,6 +8820,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "09168442c28f991162daae55071c1dbf.jpg",
+    "images": [
+      "09168442c28f991162daae55071c1dbf.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6666,6 +8834,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "b3aeba004cc8ff2606d1ba2ec434bcdc.jpg",
+    "images": [
+      "b3aeba004cc8ff2606d1ba2ec434bcdc.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6676,6 +8848,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "79f2e097f7280bc57ca0bec138e94456.jpg",
+    "images": [
+      "79f2e097f7280bc57ca0bec138e94456.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6686,6 +8862,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "2ea61de52a9e8cd4db37b07916994ca4.jpg",
+    "images": [
+      "2ea61de52a9e8cd4db37b07916994ca4.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6696,6 +8876,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "7cd6d35fcd7459a4bd855f9f86f33b49.jpg",
+    "images": [
+      "7cd6d35fcd7459a4bd855f9f86f33b49.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6706,6 +8890,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "3d6b27585ea15713abf7cd855414fdef.jpg",
+    "images": [
+      "3d6b27585ea15713abf7cd855414fdef.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6716,6 +8904,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "e70edea1505888aa8b8bf24fda7be9c8.jpg",
+    "images": [
+      "e70edea1505888aa8b8bf24fda7be9c8.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6726,6 +8918,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "03b5305bc1f4758ff9666187227456d2.jpg",
+    "images": [
+      "03b5305bc1f4758ff9666187227456d2.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6736,6 +8932,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "87dff9ba6cc97f03a7506eaa8d7c53d7.jpg",
+    "images": [
+      "87dff9ba6cc97f03a7506eaa8d7c53d7.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6746,6 +8946,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "3bf149d364adf583a45c5ba7c3a244cc.jpg",
+    "images": [
+      "3bf149d364adf583a45c5ba7c3a244cc.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6756,6 +8960,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "7f51718162d9962858abdbefdf0dcf42.jpg",
+    "images": [
+      "7f51718162d9962858abdbefdf0dcf42.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6766,6 +8974,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "33a34a84fa11b130f254b19f28ec9705.jpg",
+    "images": [
+      "33a34a84fa11b130f254b19f28ec9705.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6776,6 +8988,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "588ec35c18df47fa01e39c4a6e9b61ac.jpg",
+    "images": [
+      "588ec35c18df47fa01e39c4a6e9b61ac.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6786,6 +9002,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피",
     "price": 0,
+    "thumbnail": "a35c377125feaa82ecee62b8d35d603a.jpg",
+    "images": [
+      "a35c377125feaa82ecee62b8d35d603a.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6796,6 +9016,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피___MACOSX",
     "price": 0,
+    "thumbnail": "84f5507e977372fe55caef98fad9d833.jpg",
+    "images": [
+      "84f5507e977372fe55caef98fad9d833.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6806,6 +9030,10 @@ export const materials = [
     "category": "벽지",
     "line": "LX_테라피___MACOSX",
     "price": 0,
+    "thumbnail": "3b41c372f75a4d58d5d9a53cac49a324.jpg",
+    "images": [
+      "3b41c372f75a4d58d5d9a53cac49a324.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -6816,6 +9044,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "57dc2a1d05990736098e24f6369c62c1.jpg",
+    "images": [
+      "57dc2a1d05990736098e24f6369c62c1.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -6826,6 +9058,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "2c67a89d876b882eb19de56300885c92.jpg",
+    "images": [
+      "2c67a89d876b882eb19de56300885c92.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -6836,6 +9072,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "153f323fe4876992612ad5bd11fd0517.jpg",
+    "images": [
+      "153f323fe4876992612ad5bd11fd0517.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -6846,6 +9086,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "e093e4bbc534c77893d2f5de1ca2fd77.jpg",
+    "images": [
+      "e093e4bbc534c77893d2f5de1ca2fd77.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -6856,6 +9100,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "acc7500f2acf0d56b503a41d79bd87ba.jpg",
+    "images": [
+      "acc7500f2acf0d56b503a41d79bd87ba.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -6866,6 +9114,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "2f5b34d7f146d63fe191008d6a7e03d5.jpg",
+    "images": [
+      "2f5b34d7f146d63fe191008d6a7e03d5.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -6876,6 +9128,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "ad7fb3422449e01a2d38b544f811c86b.jpg",
+    "images": [
+      "ad7fb3422449e01a2d38b544f811c86b.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -6886,6 +9142,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "aa64e7a97e7ec69fe25fadff69aaebb4.jpg",
+    "images": [
+      "aa64e7a97e7ec69fe25fadff69aaebb4.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -6896,6 +9156,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "65a8039d567132182848e330893dd235.jpg",
+    "images": [
+      "65a8039d567132182848e330893dd235.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -6906,6 +9170,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "8dd38812f9a78751081c54698b3c3a98.jpg",
+    "images": [
+      "8dd38812f9a78751081c54698b3c3a98.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -6916,6 +9184,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "14ae9b24b262d74c36d00270ba9b5b8f.jpg",
+    "images": [
+      "14ae9b24b262d74c36d00270ba9b5b8f.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -6926,6 +9198,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "efa61e2c30735325c7f6d4cd2b993fb4.jpg",
+    "images": [
+      "efa61e2c30735325c7f6d4cd2b993fb4.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -6936,6 +9212,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "e06fb996c000eb9269511e5983a1b4a4.jpg",
+    "images": [
+      "e06fb996c000eb9269511e5983a1b4a4.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -6946,6 +9226,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "23f1f23b6cd7538b033af2650c9492ab.jpg",
+    "images": [
+      "23f1f23b6cd7538b033af2650c9492ab.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -6956,6 +9240,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "1400ac3cfb63a04d47bce8cc46a8b36f.jpg",
+    "images": [
+      "1400ac3cfb63a04d47bce8cc46a8b36f.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -6966,6 +9254,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "f1b3e1896af07ebd23c8fce1912a996e.jpg",
+    "images": [
+      "f1b3e1896af07ebd23c8fce1912a996e.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -6976,6 +9268,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "256ac25cce8027395c658a84a9b049fd.jpg",
+    "images": [
+      "256ac25cce8027395c658a84a9b049fd.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -6986,6 +9282,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "0c19e93818e1b8dd1eec27fe2675bb4d.jpg",
+    "images": [
+      "0c19e93818e1b8dd1eec27fe2675bb4d.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -6996,6 +9296,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "f07c943a72836af503b45c22c39ef74a.jpg",
+    "images": [
+      "f07c943a72836af503b45c22c39ef74a.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7006,6 +9310,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "8524e28a268f10a53f0057c77f73b87f.jpg",
+    "images": [
+      "8524e28a268f10a53f0057c77f73b87f.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7016,6 +9324,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "31e8453b452c92d9eeed9278e30dfeec.jpg",
+    "images": [
+      "31e8453b452c92d9eeed9278e30dfeec.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7026,6 +9338,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "20f41710db354df4a477311260f6d50d.jpg",
+    "images": [
+      "20f41710db354df4a477311260f6d50d.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7036,6 +9352,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "310504cda86560b4bbe1bc2da387ee68.jpg",
+    "images": [
+      "310504cda86560b4bbe1bc2da387ee68.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7046,6 +9366,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "ba9a45f901c9846808557e488a514b4c.jpg",
+    "images": [
+      "ba9a45f901c9846808557e488a514b4c.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7056,6 +9380,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "9a029da18e34a0691d70347ee46e7bd1.jpg",
+    "images": [
+      "9a029da18e34a0691d70347ee46e7bd1.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7066,6 +9394,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "d6955015039fd3df89e2a563934ebcbe.jpg",
+    "images": [
+      "d6955015039fd3df89e2a563934ebcbe.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7076,6 +9408,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "4d3c2e492b3e1ee0433807d43f53dfaa.jpg",
+    "images": [
+      "4d3c2e492b3e1ee0433807d43f53dfaa.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7086,6 +9422,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "2695a48a068cc83901aac8c26375ca00.jpg",
+    "images": [
+      "2695a48a068cc83901aac8c26375ca00.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7096,6 +9436,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "abed3e48093f5e31b50293b8df4db82b.jpg",
+    "images": [
+      "abed3e48093f5e31b50293b8df4db82b.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7106,6 +9450,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "acc90672407aa7cc43ec152b29b35643.jpg",
+    "images": [
+      "acc90672407aa7cc43ec152b29b35643.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7116,6 +9464,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "98b450d597811e73d2193598934c66c5.jpg",
+    "images": [
+      "98b450d597811e73d2193598934c66c5.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7126,6 +9478,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "7044c21b52d62c7f43d0168f336ca6e9.jpg",
+    "images": [
+      "7044c21b52d62c7f43d0168f336ca6e9.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7136,6 +9492,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "05b94b2f313b779b42ddda23f9ae6fa0.jpg",
+    "images": [
+      "05b94b2f313b779b42ddda23f9ae6fa0.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7146,6 +9506,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "d7f35fe50bbb73b6474adc58b1ae48df.jpg",
+    "images": [
+      "d7f35fe50bbb73b6474adc58b1ae48df.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7156,6 +9520,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "d3cb64e4f4c396efca99ae48e57600ee.jpg",
+    "images": [
+      "d3cb64e4f4c396efca99ae48e57600ee.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7166,6 +9534,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "9771f46e8deccca27c6e5dcf4b913966.jpg",
+    "images": [
+      "9771f46e8deccca27c6e5dcf4b913966.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7176,6 +9548,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "7e2a29b1b950d2503d40a04d51699111.jpg",
+    "images": [
+      "7e2a29b1b950d2503d40a04d51699111.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7186,6 +9562,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "118613bf23d14bb58844f4d7aba024c5.jpg",
+    "images": [
+      "118613bf23d14bb58844f4d7aba024c5.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7196,6 +9576,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "73c6bbcc8f00de4838554a0f2e905b27.jpg",
+    "images": [
+      "73c6bbcc8f00de4838554a0f2e905b27.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7206,6 +9590,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "b2eb88f989c03583d979a9d25f02a6f2.jpg",
+    "images": [
+      "b2eb88f989c03583d979a9d25f02a6f2.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7216,6 +9604,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "eec851a89ac3693b5f98eb0b46a56728.jpg",
+    "images": [
+      "eec851a89ac3693b5f98eb0b46a56728.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7226,6 +9618,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "5a92f05508a2f0641c7619a1b2dc2425.jpg",
+    "images": [
+      "5a92f05508a2f0641c7619a1b2dc2425.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7236,6 +9632,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "b71c9ff82671bcf918d332b4df73b202.jpg",
+    "images": [
+      "b71c9ff82671bcf918d332b4df73b202.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7246,6 +9646,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "d1850efe3dd1d16c74eb3e7f11aa745b.jpg",
+    "images": [
+      "d1850efe3dd1d16c74eb3e7f11aa745b.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7256,6 +9660,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "cabd0343bfeac9f71c446252905ed04e.jpg",
+    "images": [
+      "cabd0343bfeac9f71c446252905ed04e.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7266,6 +9674,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "4bddc11d111489516af2a78b80396a66.jpg",
+    "images": [
+      "4bddc11d111489516af2a78b80396a66.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7276,6 +9688,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "9023ec37d4a480c68ec8cfa6bca080d7.jpg",
+    "images": [
+      "9023ec37d4a480c68ec8cfa6bca080d7.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7286,6 +9702,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "26c8307c3a1d64aefe9f9be7c1680e69.jpg",
+    "images": [
+      "26c8307c3a1d64aefe9f9be7c1680e69.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7296,6 +9716,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "e2aed7b6dab1b91b28775dc470a08b3c.jpg",
+    "images": [
+      "e2aed7b6dab1b91b28775dc470a08b3c.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7306,6 +9730,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "de37a7073530a4a088424b22d36381fb.jpg",
+    "images": [
+      "de37a7073530a4a088424b22d36381fb.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7316,6 +9744,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "14a93c77c8eb81739f5a0755ddca5455.jpg",
+    "images": [
+      "14a93c77c8eb81739f5a0755ddca5455.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7326,6 +9758,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "f2401a1635bd516aaefcb9909aba81eb.jpg",
+    "images": [
+      "f2401a1635bd516aaefcb9909aba81eb.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7336,6 +9772,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "f4185aba4bae7df30ffe13f1765185fd.jpg",
+    "images": [
+      "f4185aba4bae7df30ffe13f1765185fd.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7346,6 +9786,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "e3ca4e8e102da83ee15c1ba912312b87.jpg",
+    "images": [
+      "e3ca4e8e102da83ee15c1ba912312b87.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7356,6 +9800,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "c723b00318233ac5e2732d3f7b4a37e1.jpg",
+    "images": [
+      "c723b00318233ac5e2732d3f7b4a37e1.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7366,6 +9814,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "e7b60ee461129883156cd0f5728ae522.jpg",
+    "images": [
+      "e7b60ee461129883156cd0f5728ae522.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7376,6 +9828,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "625554b9b53ed8a2fb611ef5d114d7ad.jpg",
+    "images": [
+      "625554b9b53ed8a2fb611ef5d114d7ad.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7386,6 +9842,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "c98a29320fdd99c3c6184a5ad342812c.jpg",
+    "images": [
+      "c98a29320fdd99c3c6184a5ad342812c.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7396,6 +9856,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "fdaeefac48c3f38e3e74867fb03c94c6.jpg",
+    "images": [
+      "fdaeefac48c3f38e3e74867fb03c94c6.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7406,6 +9870,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "b3505b67ea6795e01306c2b50cbdfabe.jpg",
+    "images": [
+      "b3505b67ea6795e01306c2b50cbdfabe.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7416,6 +9884,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "ab1e67f5aeba6f68bd9bb6a00733b961.jpg",
+    "images": [
+      "ab1e67f5aeba6f68bd9bb6a00733b961.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7426,6 +9898,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "ed3f53ce613d33bbf2f806aa290f2cbf.jpg",
+    "images": [
+      "ed3f53ce613d33bbf2f806aa290f2cbf.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7436,6 +9912,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "af8fdfa74b08c0acf4d6019161d4f45e.jpg",
+    "images": [
+      "af8fdfa74b08c0acf4d6019161d4f45e.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7446,6 +9926,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "802b53bf5c955e6c5c4f1647a144d414.jpg",
+    "images": [
+      "802b53bf5c955e6c5c4f1647a144d414.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7456,6 +9940,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "c81256405de91fcfe11bfb9b9b935b55.jpg",
+    "images": [
+      "c81256405de91fcfe11bfb9b9b935b55.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7466,6 +9954,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "db3dcf300f0f9ca91dd170c3cfb5eb38.jpg",
+    "images": [
+      "db3dcf300f0f9ca91dd170c3cfb5eb38.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7476,6 +9968,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "3100dff7cda02c3ebf485c36900f69c0.jpg",
+    "images": [
+      "3100dff7cda02c3ebf485c36900f69c0.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7486,6 +9982,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "7ddd7aa3ee24675a1ea34ac716e7af68.jpg",
+    "images": [
+      "7ddd7aa3ee24675a1ea34ac716e7af68.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7496,6 +9996,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "f5b7a4a3f3a9c43267b2ecf86448c500.jpg",
+    "images": [
+      "f5b7a4a3f3a9c43267b2ecf86448c500.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7506,6 +10010,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "3365461f6eb35f29cf0e51f5da6dd783.jpg",
+    "images": [
+      "3365461f6eb35f29cf0e51f5da6dd783.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7516,6 +10024,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "c94a58384d49281e3952af66725dbb21.jpg",
+    "images": [
+      "c94a58384d49281e3952af66725dbb21.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7526,6 +10038,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "46eb25a904a98df0b00d48a56fda0783.jpg",
+    "images": [
+      "46eb25a904a98df0b00d48a56fda0783.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7536,6 +10052,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "946e2fc119b5c6088b51873f803f0c47.jpg",
+    "images": [
+      "946e2fc119b5c6088b51873f803f0c47.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7546,6 +10066,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "c41af56e01d06d67c92d9e6717200225.jpg",
+    "images": [
+      "c41af56e01d06d67c92d9e6717200225.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7556,6 +10080,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "87ebed783bef53838160fec4513cb877.jpg",
+    "images": [
+      "87ebed783bef53838160fec4513cb877.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7566,6 +10094,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "b402466f6c7e111abca930624a3b5be8.jpg",
+    "images": [
+      "b402466f6c7e111abca930624a3b5be8.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7576,6 +10108,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "67636c96fc981712983b60a2c8d63dcd.jpg",
+    "images": [
+      "67636c96fc981712983b60a2c8d63dcd.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7586,6 +10122,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "e7cd49d57cb6d08fdedf7405d65a2881.jpg",
+    "images": [
+      "e7cd49d57cb6d08fdedf7405d65a2881.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7596,6 +10136,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "4a720f25af900babf3124bbd3a1fc16e.jpg",
+    "images": [
+      "4a720f25af900babf3124bbd3a1fc16e.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7606,6 +10150,10 @@ export const materials = [
     "category": "벽지",
     "line": "방염_신한벽지_방염",
     "price": 0,
+    "thumbnail": "dcc347406222238a4d0e3e7d6a3d1514.jpg",
+    "images": [
+      "dcc347406222238a4d0e3e7d6a3d1514.jpg"
+    ],
     "materialType": "방염"
   },
   {
@@ -7616,6 +10164,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "6a6bfb11c7c7b79a1a489451cdc853ab.jpg",
+    "images": [
+      "6a6bfb11c7c7b79a1a489451cdc853ab.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7626,6 +10178,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "0aaba35473b6b4c4eb016d92ef39dcff.jpg",
+    "images": [
+      "0aaba35473b6b4c4eb016d92ef39dcff.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7636,6 +10192,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "f59399ada6f5a4ab1ddd2b1ee9602610.jpg",
+    "images": [
+      "f59399ada6f5a4ab1ddd2b1ee9602610.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7646,6 +10206,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "cca889fa22c0bdf9610b47fd8ff4ac81.jpg",
+    "images": [
+      "cca889fa22c0bdf9610b47fd8ff4ac81.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7656,6 +10220,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "c1dec513133cb30f229489c1373a1c44.jpg",
+    "images": [
+      "c1dec513133cb30f229489c1373a1c44.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7666,6 +10234,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "a2c255cfa6cef42a9807182ee77c63d8.jpg",
+    "images": [
+      "a2c255cfa6cef42a9807182ee77c63d8.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7676,6 +10248,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "525b8f3b910c7764d7861eac20ffdbb5.jpg",
+    "images": [
+      "525b8f3b910c7764d7861eac20ffdbb5.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7686,6 +10262,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "f8f4f4e3c9297855bb3aaa8668a3dd94.jpg",
+    "images": [
+      "f8f4f4e3c9297855bb3aaa8668a3dd94.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7696,6 +10276,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "2540ea9d9a8c1f1e611a8aee2c6077aa.jpg",
+    "images": [
+      "2540ea9d9a8c1f1e611a8aee2c6077aa.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7706,6 +10290,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "649233afd06c6e8283d9d1329e479333.jpg",
+    "images": [
+      "649233afd06c6e8283d9d1329e479333.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7716,6 +10304,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "c0761f4d6a5d8a45f6a1ca7b726164a9.jpg",
+    "images": [
+      "c0761f4d6a5d8a45f6a1ca7b726164a9.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7726,6 +10318,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "bd2e92b556af7c8359f46baafb198ad2.jpg",
+    "images": [
+      "bd2e92b556af7c8359f46baafb198ad2.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7736,6 +10332,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "911485ef10707b5233eb9967b52d198a.jpg",
+    "images": [
+      "911485ef10707b5233eb9967b52d198a.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7746,6 +10346,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "41d43797b60619df04675c0053622f56.jpg",
+    "images": [
+      "41d43797b60619df04675c0053622f56.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7756,6 +10360,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "38a449d241062180f26c2a0290b6abc6.jpg",
+    "images": [
+      "38a449d241062180f26c2a0290b6abc6.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7766,6 +10374,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "34c9cbf4ac064adf69076118354d3c39.jpg",
+    "images": [
+      "34c9cbf4ac064adf69076118354d3c39.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7776,6 +10388,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "3d26deec0a74aee4835f015316905d1c.jpg",
+    "images": [
+      "3d26deec0a74aee4835f015316905d1c.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7786,6 +10402,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "22150985cd3f117bfee1ff43904de7e0.jpg",
+    "images": [
+      "22150985cd3f117bfee1ff43904de7e0.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7796,6 +10416,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "4a680a775bb37d6d3b322a1bfed29d96.jpg",
+    "images": [
+      "4a680a775bb37d6d3b322a1bfed29d96.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7806,6 +10430,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "9e387095f971245eb46ef248d7d30911.jpg",
+    "images": [
+      "9e387095f971245eb46ef248d7d30911.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7816,6 +10444,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "3afc56b91b9048f48d98734e8615f779.jpg",
+    "images": [
+      "3afc56b91b9048f48d98734e8615f779.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7826,6 +10458,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "bbfb968e4f375577d55a982ee9ecb132.jpg",
+    "images": [
+      "bbfb968e4f375577d55a982ee9ecb132.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7836,6 +10472,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "000bebcfed8d5f9b6dbd4bec4a7041fa.jpg",
+    "images": [
+      "000bebcfed8d5f9b6dbd4bec4a7041fa.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7846,6 +10486,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "ae8f1ddbcd8a01583913bef510216437.jpg",
+    "images": [
+      "ae8f1ddbcd8a01583913bef510216437.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7856,6 +10500,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "7c0cf9fb6eada013cb0cc7e33ff4d186.jpg",
+    "images": [
+      "7c0cf9fb6eada013cb0cc7e33ff4d186.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7866,6 +10514,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "8c80af0caec490c5244496c0e5b5c225.jpg",
+    "images": [
+      "8c80af0caec490c5244496c0e5b5c225.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7876,6 +10528,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "38c4d9e2a5a2b0bc6ccde1b0f436a2df.jpg",
+    "images": [
+      "38c4d9e2a5a2b0bc6ccde1b0f436a2df.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7886,6 +10542,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "536c13538e6919ccc6918d122c56d3cd.jpg",
+    "images": [
+      "536c13538e6919ccc6918d122c56d3cd.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7896,6 +10556,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "da224f6130b612f192db32b7bbf62fe8.jpg",
+    "images": [
+      "da224f6130b612f192db32b7bbf62fe8.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7906,6 +10570,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "6d69ba7d860a05ab59d238a92b23d67e.jpg",
+    "images": [
+      "6d69ba7d860a05ab59d238a92b23d67e.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7916,6 +10584,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "7040067468be161ee87fb562da86244f.jpg",
+    "images": [
+      "7040067468be161ee87fb562da86244f.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7926,6 +10598,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "f8879ce9011d66f58572ff8ed096d2bf.jpg",
+    "images": [
+      "f8879ce9011d66f58572ff8ed096d2bf.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7936,6 +10612,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "78d1504b2857a9b0d9a830151ea8467f.jpg",
+    "images": [
+      "78d1504b2857a9b0d9a830151ea8467f.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7946,6 +10626,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "11f02c07b67090de2846a3fc6cfa43dc.jpg",
+    "images": [
+      "11f02c07b67090de2846a3fc6cfa43dc.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7956,6 +10640,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "c4ed18ef7b1eb37f297d85c25892e3c8.jpg",
+    "images": [
+      "c4ed18ef7b1eb37f297d85c25892e3c8.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7966,6 +10654,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "1a3155040d60cbca369e2334fcbaf4fb.jpg",
+    "images": [
+      "1a3155040d60cbca369e2334fcbaf4fb.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7976,6 +10668,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "5129cf2ce0fbd4204b08da8d98d9fe9e.jpg",
+    "images": [
+      "5129cf2ce0fbd4204b08da8d98d9fe9e.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7986,6 +10682,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "34f40a40e8ed4989ab8c27fbe82c0554.jpg",
+    "images": [
+      "34f40a40e8ed4989ab8c27fbe82c0554.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -7996,6 +10696,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "c7713bac5a3e2714c1b1ca885a100df4.jpg",
+    "images": [
+      "c7713bac5a3e2714c1b1ca885a100df4.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8006,6 +10710,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "0404eb324be36327dac84da397ca3ed3.jpg",
+    "images": [
+      "0404eb324be36327dac84da397ca3ed3.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8016,6 +10724,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "4e9b61027927d814c635690d03f78f6b.jpg",
+    "images": [
+      "4e9b61027927d814c635690d03f78f6b.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8026,6 +10738,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "dbe5d1077b2ab9405b0bc410398da71b.jpg",
+    "images": [
+      "dbe5d1077b2ab9405b0bc410398da71b.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8036,6 +10752,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "bc8e5c68588025380da4d696ff85c91f.jpg",
+    "images": [
+      "bc8e5c68588025380da4d696ff85c91f.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8046,6 +10766,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "4c32c9609a6be94b0a3d807be4075117.jpg",
+    "images": [
+      "4c32c9609a6be94b0a3d807be4075117.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8056,6 +10780,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "7fcc10ab60ff1083997bc111a50c8112.jpg",
+    "images": [
+      "7fcc10ab60ff1083997bc111a50c8112.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8066,6 +10794,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "6ffa5ba467049d5d0828da5e87e8102b.jpg",
+    "images": [
+      "6ffa5ba467049d5d0828da5e87e8102b.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8076,6 +10808,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "adfa6a1cec7276f1a6e000256c2d0125.jpg",
+    "images": [
+      "adfa6a1cec7276f1a6e000256c2d0125.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8086,6 +10822,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "cbc032caaf6ffec68cd030b8e3dfa4d9.jpg",
+    "images": [
+      "cbc032caaf6ffec68cd030b8e3dfa4d9.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8096,6 +10836,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "08b2750d60b1b30ab030ca3928ad242b.jpg",
+    "images": [
+      "08b2750d60b1b30ab030ca3928ad242b.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8106,6 +10850,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "ee2d9cb17755d64903cb4dc7d9ca1d74.jpg",
+    "images": [
+      "ee2d9cb17755d64903cb4dc7d9ca1d74.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8116,6 +10864,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "00729c9b278d3ef7daea40612d71aedd.jpg",
+    "images": [
+      "00729c9b278d3ef7daea40612d71aedd.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8126,6 +10878,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "49a28276c93652ac237211ec283548b2.jpg",
+    "images": [
+      "49a28276c93652ac237211ec283548b2.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8136,6 +10892,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "6eb631dfd93780233f381d3cacf58832.jpg",
+    "images": [
+      "6eb631dfd93780233f381d3cacf58832.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8146,6 +10906,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "b1379d8f001110228a17ad03072f1de5.jpg",
+    "images": [
+      "b1379d8f001110228a17ad03072f1de5.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8156,6 +10920,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "1d7863ef489db3cf1b42555ad8c5a82a.jpg",
+    "images": [
+      "1d7863ef489db3cf1b42555ad8c5a82a.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8166,6 +10934,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "a3b9fe436d02684e39a2c5d136a99a2e.jpg",
+    "images": [
+      "a3b9fe436d02684e39a2c5d136a99a2e.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8176,6 +10948,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "1fc7a3ba35623f21487540603d3124a1.jpg",
+    "images": [
+      "1fc7a3ba35623f21487540603d3124a1.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8186,6 +10962,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "207f879eae7a1d4fd7040a9dff817db1.jpg",
+    "images": [
+      "207f879eae7a1d4fd7040a9dff817db1.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8196,6 +10976,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "9d583f94d946a0b4eff72d585a17d514.jpg",
+    "images": [
+      "9d583f94d946a0b4eff72d585a17d514.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8206,6 +10990,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "9420d14dedd8fba3d0474750bfe15702.jpg",
+    "images": [
+      "9420d14dedd8fba3d0474750bfe15702.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8216,6 +11004,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "5c6b906d0bc778539e6da230f4a90be9.jpg",
+    "images": [
+      "5c6b906d0bc778539e6da230f4a90be9.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8226,6 +11018,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "3ac8697dc61deadc6a0efb11475c43f6.jpg",
+    "images": [
+      "3ac8697dc61deadc6a0efb11475c43f6.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8236,6 +11032,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "b0e1f0621ce2baffe1fc4f2b5484dd15.jpg",
+    "images": [
+      "b0e1f0621ce2baffe1fc4f2b5484dd15.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8246,6 +11046,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "2040d6ce6c6a4808f145555aed94397f.jpg",
+    "images": [
+      "2040d6ce6c6a4808f145555aed94397f.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8256,6 +11060,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "97a78512c5da4da1edcaa02df0ace517.jpg",
+    "images": [
+      "97a78512c5da4da1edcaa02df0ace517.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8266,6 +11074,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "8b85762ab55179f5d156c106a1e985c0.jpg",
+    "images": [
+      "8b85762ab55179f5d156c106a1e985c0.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8276,6 +11088,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "a05dd9b274f29fdbb1e589826fbdb663.jpg",
+    "images": [
+      "a05dd9b274f29fdbb1e589826fbdb663.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8286,6 +11102,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "fa205c7935601af93110bdd7b38b32cc.jpg",
+    "images": [
+      "fa205c7935601af93110bdd7b38b32cc.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8296,6 +11116,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "f3397b86eca17f9d4d8deb8299eb7169.jpg",
+    "images": [
+      "f3397b86eca17f9d4d8deb8299eb7169.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8306,6 +11130,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
     "price": 0,
+    "thumbnail": "dee8a19626b4318ad8f548dff6a8b5d7.jpg",
+    "images": [
+      "dee8a19626b4318ad8f548dff6a8b5d7.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8316,6 +11144,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "8a50db305a9d01c287bfee0465514419.jpg",
+    "images": [
+      "8a50db305a9d01c287bfee0465514419.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8326,6 +11158,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "035049224cbd732ef9c52af9cf875db7.jpg",
+    "images": [
+      "035049224cbd732ef9c52af9cf875db7.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8336,6 +11172,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "c5388be380361e39224ce753d7ffdd3a.jpg",
+    "images": [
+      "c5388be380361e39224ce753d7ffdd3a.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8346,6 +11186,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "7b906dd48da8af109a0972b598a831df.jpg",
+    "images": [
+      "7b906dd48da8af109a0972b598a831df.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8356,6 +11200,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "0eb59dfb4f7257021a3d7f2fc682a352.jpg",
+    "images": [
+      "0eb59dfb4f7257021a3d7f2fc682a352.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8366,6 +11214,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "158de123de3bf8a05fc1560a0f69065c.jpg",
+    "images": [
+      "158de123de3bf8a05fc1560a0f69065c.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8376,6 +11228,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "f1f54564b14c120742bcf45c2c066758.jpg",
+    "images": [
+      "f1f54564b14c120742bcf45c2c066758.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8386,6 +11242,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "49f37e7fcc0969394517f0339559c18a.jpg",
+    "images": [
+      "49f37e7fcc0969394517f0339559c18a.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8396,6 +11256,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "9195bd9dbf51ee371f1f6593e46cfc20.jpg",
+    "images": [
+      "9195bd9dbf51ee371f1f6593e46cfc20.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8406,6 +11270,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "791cd328722e83158aa105ee61bfd31b.jpg",
+    "images": [
+      "791cd328722e83158aa105ee61bfd31b.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8416,6 +11284,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "df42a73f0d55b4137bfced06c5cddc6e.jpg",
+    "images": [
+      "df42a73f0d55b4137bfced06c5cddc6e.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8426,6 +11298,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "2dc157b026f6dd9ba217f059afb421cc.jpg",
+    "images": [
+      "2dc157b026f6dd9ba217f059afb421cc.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8436,6 +11312,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "e6937eb85d94cd1457a4d001931da8e1.jpg",
+    "images": [
+      "e6937eb85d94cd1457a4d001931da8e1.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8446,6 +11326,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "3f7677b5354b65098898bf4e8720f8f3.jpg",
+    "images": [
+      "3f7677b5354b65098898bf4e8720f8f3.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8456,6 +11340,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "d17c090581bd9528c7be81aa2bb71b73.jpg",
+    "images": [
+      "d17c090581bd9528c7be81aa2bb71b73.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8466,6 +11354,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "c4fc398492cade9fd6e889a4a9aaed84.jpg",
+    "images": [
+      "c4fc398492cade9fd6e889a4a9aaed84.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8476,6 +11368,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "4bd9ffcf6492fb2e5de45175a444190c.jpg",
+    "images": [
+      "4bd9ffcf6492fb2e5de45175a444190c.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8486,6 +11382,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "abdb32ceea8222fb2b6b015967514a82.jpg",
+    "images": [
+      "abdb32ceea8222fb2b6b015967514a82.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8496,6 +11396,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "548fdf3227e7a285132e47a2fce141fd.jpg",
+    "images": [
+      "548fdf3227e7a285132e47a2fce141fd.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8506,6 +11410,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "36727fc517b8aeba304fc0f5943d74e7.jpg",
+    "images": [
+      "36727fc517b8aeba304fc0f5943d74e7.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8516,6 +11424,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "1b7bfddab4eba83b256b0916555c38ec.jpg",
+    "images": [
+      "1b7bfddab4eba83b256b0916555c38ec.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8526,6 +11438,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "cf897d33e8c79ae042d178a66a003464.jpg",
+    "images": [
+      "cf897d33e8c79ae042d178a66a003464.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8536,6 +11452,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "f0ac1b40f58295872333a3129c41a531.jpg",
+    "images": [
+      "f0ac1b40f58295872333a3129c41a531.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8546,6 +11466,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "8bf1cdbb0ec0b8912ebf886a0b819ea9.jpg",
+    "images": [
+      "8bf1cdbb0ec0b8912ebf886a0b819ea9.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8556,6 +11480,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "fbd985bc58d994633297e1344abbd4e2.jpg",
+    "images": [
+      "fbd985bc58d994633297e1344abbd4e2.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8566,6 +11494,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "d8b04d548fa494e6f4a32a6fcb0d4d87.jpg",
+    "images": [
+      "d8b04d548fa494e6f4a32a6fcb0d4d87.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8576,6 +11508,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "5b63405ed9e5c6d51ec77fb2787ac701.jpg",
+    "images": [
+      "5b63405ed9e5c6d51ec77fb2787ac701.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8586,6 +11522,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "411b9f2bfd3fb04877d9d83724a4e0a0.jpg",
+    "images": [
+      "411b9f2bfd3fb04877d9d83724a4e0a0.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8596,6 +11536,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "5d77a882cb0dfdc4e3b4154268a7c44e.jpg",
+    "images": [
+      "5d77a882cb0dfdc4e3b4154268a7c44e.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8606,6 +11550,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "8acee19348d595a48479c58995437a0e.jpg",
+    "images": [
+      "8acee19348d595a48479c58995437a0e.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8616,6 +11564,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "f1c3fa9b5b9054281868406436ea8a6f.jpg",
+    "images": [
+      "f1c3fa9b5b9054281868406436ea8a6f.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8626,6 +11578,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "33ada27be15f74625a8aad4986d701c5.jpg",
+    "images": [
+      "33ada27be15f74625a8aad4986d701c5.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8636,6 +11592,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "ed3cefdc6c2a0fe576f0972f057eb895.jpg",
+    "images": [
+      "ed3cefdc6c2a0fe576f0972f057eb895.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8646,6 +11606,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "cd38cada7885074e7d2f69fb6c665257.jpg",
+    "images": [
+      "cd38cada7885074e7d2f69fb6c665257.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8656,6 +11620,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "a8b6e5e068cd90befa7ccd59b40d87ae.jpg",
+    "images": [
+      "a8b6e5e068cd90befa7ccd59b40d87ae.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8666,6 +11634,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "5eb84434af93d5d2af01a5e047b372e0.jpg",
+    "images": [
+      "5eb84434af93d5d2af01a5e047b372e0.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8676,6 +11648,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "8d55017f57b057b09a520ccda3dec398.jpg",
+    "images": [
+      "8d55017f57b057b09a520ccda3dec398.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8686,6 +11662,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "2547857e8aa0e6a858750793c30eb13f.jpg",
+    "images": [
+      "2547857e8aa0e6a858750793c30eb13f.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8696,6 +11676,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "78c449b86d1aab9a0dc113275b5159ec.jpg",
+    "images": [
+      "78c449b86d1aab9a0dc113275b5159ec.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8706,6 +11690,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "060b390ea1c7eeaa11dd805765a357ca.jpg",
+    "images": [
+      "060b390ea1c7eeaa11dd805765a357ca.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8716,6 +11704,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "50ba27ad311111a12681c2ed3f18f33e.jpg",
+    "images": [
+      "50ba27ad311111a12681c2ed3f18f33e.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8726,6 +11718,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "7ed32ee0fb1839c2eaf306720e723f3d.jpg",
+    "images": [
+      "7ed32ee0fb1839c2eaf306720e723f3d.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8736,6 +11732,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "0ba8f53195189061130a3a046d61b5b4.jpg",
+    "images": [
+      "0ba8f53195189061130a3a046d61b5b4.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8746,6 +11746,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "d1e30505ccf68d0bb9e3440e1d8abde7.jpg",
+    "images": [
+      "d1e30505ccf68d0bb9e3440e1d8abde7.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8756,6 +11760,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "b749ce63b5d31921f16ba71f692b2e8a.jpg",
+    "images": [
+      "b749ce63b5d31921f16ba71f692b2e8a.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8766,6 +11774,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "bf1291bd3bba869d89d3ea6d7a868ef0.jpg",
+    "images": [
+      "bf1291bd3bba869d89d3ea6d7a868ef0.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8776,6 +11788,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "f8fab26374c8225a98641ae7b166e3c7.jpg",
+    "images": [
+      "f8fab26374c8225a98641ae7b166e3c7.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8786,6 +11802,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "2d96d8e20201e1bc66a93f7d501cf330.jpg",
+    "images": [
+      "2d96d8e20201e1bc66a93f7d501cf330.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8796,6 +11816,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "fac9936e126d16736c54dbd3db7caad2.jpg",
+    "images": [
+      "fac9936e126d16736c54dbd3db7caad2.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8806,6 +11830,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "781ae11a61f717ae725c7572f3723f7d.jpg",
+    "images": [
+      "781ae11a61f717ae725c7572f3723f7d.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8816,6 +11844,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "d55a57ff5f5ca6c2cefed8fcc3568f39.jpg",
+    "images": [
+      "d55a57ff5f5ca6c2cefed8fcc3568f39.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8826,6 +11858,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "7287e37a48d1d92f7887d29c31463400.jpg",
+    "images": [
+      "7287e37a48d1d92f7887d29c31463400.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8836,6 +11872,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "458e14d9d95b870191de44d54e8d7af0.jpg",
+    "images": [
+      "458e14d9d95b870191de44d54e8d7af0.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8846,6 +11886,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "8fa7cb7dba143605010d86c0bbcd7383.jpg",
+    "images": [
+      "8fa7cb7dba143605010d86c0bbcd7383.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8856,6 +11900,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "257bffb40d02479232ecb476818e6dff.jpg",
+    "images": [
+      "257bffb40d02479232ecb476818e6dff.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8866,6 +11914,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "5cc021425402036d9d5fa2b3978bb037.jpg",
+    "images": [
+      "5cc021425402036d9d5fa2b3978bb037.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8876,6 +11928,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "02b342f011bbf4fba1127713f7d9ee2a.jpg",
+    "images": [
+      "02b342f011bbf4fba1127713f7d9ee2a.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8886,6 +11942,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "c3a07dd69c24d6005132ed71c41e07ba.jpg",
+    "images": [
+      "c3a07dd69c24d6005132ed71c41e07ba.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8896,6 +11956,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "f1d56cd9d001ba84c7f8e89009bb4c2c.jpg",
+    "images": [
+      "f1d56cd9d001ba84c7f8e89009bb4c2c.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8906,6 +11970,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "e933c631a844a1fd6d44097b4039df66.jpg",
+    "images": [
+      "e933c631a844a1fd6d44097b4039df66.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8916,6 +11984,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "895e8fd5393a4b99cdcfdaeda19289df.jpg",
+    "images": [
+      "895e8fd5393a4b99cdcfdaeda19289df.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8926,6 +11998,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "28343a04735d673a79c1c66ce92f3e10.jpg",
+    "images": [
+      "28343a04735d673a79c1c66ce92f3e10.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8936,6 +12012,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "a79dca71b6c6f8fb66266efa790d6f42.jpg",
+    "images": [
+      "a79dca71b6c6f8fb66266efa790d6f42.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8946,6 +12026,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "a8d95f737adcd04de691438cc4559e05.jpg",
+    "images": [
+      "a8d95f737adcd04de691438cc4559e05.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8956,6 +12040,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "6b089a8a87434fc2e143687e0b088449.jpg",
+    "images": [
+      "6b089a8a87434fc2e143687e0b088449.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8966,6 +12054,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "0d1c38e629f14c2d042860a84947b9a1.jpg",
+    "images": [
+      "0d1c38e629f14c2d042860a84947b9a1.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8976,6 +12068,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "7000006df652ad79359982415c9ff6d7.jpg",
+    "images": [
+      "7000006df652ad79359982415c9ff6d7.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8986,6 +12082,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "d4035e90b421881c695b74398fac130a.jpg",
+    "images": [
+      "d4035e90b421881c695b74398fac130a.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -8996,6 +12096,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "8666b28ec815e47952fba0a9c4ce03b9.jpg",
+    "images": [
+      "8666b28ec815e47952fba0a9c4ce03b9.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9006,6 +12110,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "1ecc81f31ad451d258e6e739a7b9f60a.jpg",
+    "images": [
+      "1ecc81f31ad451d258e6e739a7b9f60a.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9016,6 +12124,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "39c94f5ef3780a11a7d717d2d79ce112.jpg",
+    "images": [
+      "39c94f5ef3780a11a7d717d2d79ce112.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9026,6 +12138,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "e0f694dc2b365ad029886df6c7b218ca.jpg",
+    "images": [
+      "e0f694dc2b365ad029886df6c7b218ca.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9036,6 +12152,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "cbc9151d81e55a3ef5069c2a59a65a74.jpg",
+    "images": [
+      "cbc9151d81e55a3ef5069c2a59a65a74.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9046,6 +12166,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "eb73409302376b79bb62384bbcefae48.jpg",
+    "images": [
+      "eb73409302376b79bb62384bbcefae48.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9056,6 +12180,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "6fb14e428a8d3775eead936b066071e8.jpg",
+    "images": [
+      "6fb14e428a8d3775eead936b066071e8.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9066,6 +12194,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "de7a66fbc1ea45ade78a1fd2a8a048d3.jpg",
+    "images": [
+      "de7a66fbc1ea45ade78a1fd2a8a048d3.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9076,6 +12208,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "8fd3a3b1e236f548e93c5bac1a1ab0eb.jpg",
+    "images": [
+      "8fd3a3b1e236f548e93c5bac1a1ab0eb.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9086,6 +12222,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "12eed7d857f0225436a639f3ee50b1d4.jpg",
+    "images": [
+      "12eed7d857f0225436a639f3ee50b1d4.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9096,6 +12236,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
     "price": 0,
+    "thumbnail": "87be9a45882c5f6d01223ff1761f31f1.jpg",
+    "images": [
+      "87be9a45882c5f6d01223ff1761f31f1.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9106,6 +12250,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "bc65d8aacd521b9729167cdea8bb57b6.jpg",
+    "images": [
+      "bc65d8aacd521b9729167cdea8bb57b6.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9116,6 +12264,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "9b033d9f3ee93f5a2d5e9a3562a6abe8.jpg",
+    "images": [
+      "9b033d9f3ee93f5a2d5e9a3562a6abe8.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9126,6 +12278,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "dd9702e9cc61c5a5cf9efee01b0837d3.jpg",
+    "images": [
+      "dd9702e9cc61c5a5cf9efee01b0837d3.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9136,6 +12292,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "052df3e8c6f399ab8697ee61fdce2f33.jpg",
+    "images": [
+      "052df3e8c6f399ab8697ee61fdce2f33.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9146,6 +12306,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "0b47a5cc583c0f7252cdd67f862d2df7.jpg",
+    "images": [
+      "0b47a5cc583c0f7252cdd67f862d2df7.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9156,6 +12320,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "9759456c8fd733c94515676f5dd34460.jpg",
+    "images": [
+      "9759456c8fd733c94515676f5dd34460.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9166,6 +12334,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "450d534e66b7559dd2f45c139f9c71a3.jpg",
+    "images": [
+      "450d534e66b7559dd2f45c139f9c71a3.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9176,6 +12348,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "1f4199901dbc37fd3bfe114aaf4c4618.jpg",
+    "images": [
+      "1f4199901dbc37fd3bfe114aaf4c4618.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9186,6 +12362,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "5068a3585e1dfc4d845de88d3092e9e5.jpg",
+    "images": [
+      "5068a3585e1dfc4d845de88d3092e9e5.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9196,6 +12376,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "ddba5ddb9608e8bc75d31b34963b950d.jpg",
+    "images": [
+      "ddba5ddb9608e8bc75d31b34963b950d.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9206,6 +12390,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "771ff2dcbc6debbd96a9c7f2ddce744f.jpg",
+    "images": [
+      "771ff2dcbc6debbd96a9c7f2ddce744f.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9216,6 +12404,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "b4872466d7e8ae9adcabcdeb4823aa3e.jpg",
+    "images": [
+      "b4872466d7e8ae9adcabcdeb4823aa3e.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9226,6 +12418,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "4c2ab445e50e5e2f065365642b495577.jpg",
+    "images": [
+      "4c2ab445e50e5e2f065365642b495577.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9236,6 +12432,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "667a97f8833b2ad120546fd4693774e6.jpg",
+    "images": [
+      "667a97f8833b2ad120546fd4693774e6.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9246,6 +12446,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "ac1312e32d7033338c68d20af3e14a02.jpg",
+    "images": [
+      "ac1312e32d7033338c68d20af3e14a02.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9256,6 +12460,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "99edb909a88f174d719fdf812acfba42.jpg",
+    "images": [
+      "99edb909a88f174d719fdf812acfba42.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9266,6 +12474,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "f8000c86d8b64283dd7a460855bafcb5.jpg",
+    "images": [
+      "f8000c86d8b64283dd7a460855bafcb5.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9276,6 +12488,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "203fac747552282dfec8f9b45b59860b.jpg",
+    "images": [
+      "203fac747552282dfec8f9b45b59860b.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9286,6 +12502,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "197838a61e741f1541dd34b1f2eaed64.jpg",
+    "images": [
+      "197838a61e741f1541dd34b1f2eaed64.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9296,6 +12516,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "44926999df3d979b9c455bbed6c1ab26.jpg",
+    "images": [
+      "44926999df3d979b9c455bbed6c1ab26.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9306,6 +12530,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "cdbeb7117a0b0f4dc806338ebcac23cd.jpg",
+    "images": [
+      "cdbeb7117a0b0f4dc806338ebcac23cd.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9316,6 +12544,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "2d2690e6f8b118937e20a5216332a1b4.jpg",
+    "images": [
+      "2d2690e6f8b118937e20a5216332a1b4.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9326,6 +12558,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "684becda201874daffa66c022ea59811.jpg",
+    "images": [
+      "684becda201874daffa66c022ea59811.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9336,6 +12572,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "0ed2f3b7ab4685a26c63d51c8189aee8.jpg",
+    "images": [
+      "0ed2f3b7ab4685a26c63d51c8189aee8.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9346,6 +12586,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "7da3a5916ad9598d79735ff1b6850058.jpg",
+    "images": [
+      "7da3a5916ad9598d79735ff1b6850058.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9356,6 +12600,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "ad337e57bb11c536e58519e1963178fb.jpg",
+    "images": [
+      "ad337e57bb11c536e58519e1963178fb.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9366,6 +12614,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "b4f49a26a9eb90e7c01035da709e41de.jpg",
+    "images": [
+      "b4f49a26a9eb90e7c01035da709e41de.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9376,6 +12628,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "52879ca0c1620eb1c0c4a8d14fc3f083.jpg",
+    "images": [
+      "52879ca0c1620eb1c0c4a8d14fc3f083.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9386,6 +12642,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "af0c6a22601e381d08f0089a113b7e5e.jpg",
+    "images": [
+      "af0c6a22601e381d08f0089a113b7e5e.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9396,6 +12656,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "21c701477687dee9a36f2befa6eb0dcf.jpg",
+    "images": [
+      "21c701477687dee9a36f2befa6eb0dcf.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9406,6 +12670,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "d040a5473ed024b0ec80ad2eb203a53d.jpg",
+    "images": [
+      "d040a5473ed024b0ec80ad2eb203a53d.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9416,6 +12684,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "e6ac56655d485c4ecd0c1dc496711cc5.jpg",
+    "images": [
+      "e6ac56655d485c4ecd0c1dc496711cc5.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9426,6 +12698,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "d2798b06bb3caff62a3e2ba0e3fe4cf3.jpg",
+    "images": [
+      "d2798b06bb3caff62a3e2ba0e3fe4cf3.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9436,6 +12712,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "ad4b21de23632790958db91c8fa7835d.jpg",
+    "images": [
+      "ad4b21de23632790958db91c8fa7835d.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9446,6 +12726,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "7c0c97543c5bbb1aa7f93ea224f541a0.jpg",
+    "images": [
+      "7c0c97543c5bbb1aa7f93ea224f541a0.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9456,6 +12740,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "9654cf164a808c3299da18c9fda14beb.jpg",
+    "images": [
+      "9654cf164a808c3299da18c9fda14beb.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9466,6 +12754,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "9fdaea5cd33fa5c137f2a76236ac1faa.jpg",
+    "images": [
+      "9fdaea5cd33fa5c137f2a76236ac1faa.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9476,6 +12768,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "500a496d0a8b0272e447e65712be4cda.jpg",
+    "images": [
+      "500a496d0a8b0272e447e65712be4cda.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9486,6 +12782,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "f84a8216ab0a53d3f610d36c9a040eab.jpg",
+    "images": [
+      "f84a8216ab0a53d3f610d36c9a040eab.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9496,6 +12796,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "648bce7f28dea2c9569f596a5105e086.jpg",
+    "images": [
+      "648bce7f28dea2c9569f596a5105e086.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9506,6 +12810,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "24ed3ccd41e4df70c64e753a3e16113c.jpg",
+    "images": [
+      "24ed3ccd41e4df70c64e753a3e16113c.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9516,6 +12824,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
     "price": 0,
+    "thumbnail": "aae30d9653b158deae87e87ce8c7ce50.jpg",
+    "images": [
+      "aae30d9653b158deae87e87ce8c7ce50.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9526,6 +12838,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "9fe1bc3c0ea5de02f0701c505c991d7b.jpg",
+    "images": [
+      "9fe1bc3c0ea5de02f0701c505c991d7b.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9536,6 +12852,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "3b3c8ced0b941e9f431f04fc8da5607a.jpg",
+    "images": [
+      "3b3c8ced0b941e9f431f04fc8da5607a.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9546,6 +12866,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "5ba50ff0d001aaf4c2bd325bedc964c2.jpg",
+    "images": [
+      "5ba50ff0d001aaf4c2bd325bedc964c2.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9556,6 +12880,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "313b7edf835232538e4837d77c73b515.jpg",
+    "images": [
+      "313b7edf835232538e4837d77c73b515.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9566,6 +12894,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "82b23d8770a2c2f5ac55b2a89e8d5569.jpg",
+    "images": [
+      "82b23d8770a2c2f5ac55b2a89e8d5569.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9576,6 +12908,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "7af1bacbb6af56989f3ca61399ae8118.jpg",
+    "images": [
+      "7af1bacbb6af56989f3ca61399ae8118.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9586,6 +12922,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "4d99a3196a2b2f19ba937c599cb880f4.jpg",
+    "images": [
+      "4d99a3196a2b2f19ba937c599cb880f4.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9596,6 +12936,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "d5d801904c4b37f798dd567d1d175a79.jpg",
+    "images": [
+      "d5d801904c4b37f798dd567d1d175a79.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9606,6 +12950,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "b3a75291134e36d9228996435a37a295.jpg",
+    "images": [
+      "b3a75291134e36d9228996435a37a295.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9616,6 +12964,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "27a709dfef333e9b6191393b0476e443.jpg",
+    "images": [
+      "27a709dfef333e9b6191393b0476e443.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9626,6 +12978,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "a485f7fcd35603b468916fc41f7ddfcc.jpg",
+    "images": [
+      "a485f7fcd35603b468916fc41f7ddfcc.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9636,6 +12992,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "15d3e2a81c3117bebb73ab59688652d5.jpg",
+    "images": [
+      "15d3e2a81c3117bebb73ab59688652d5.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9646,6 +13006,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "06908374dd87eeaebe83cdb47af54817.jpg",
+    "images": [
+      "06908374dd87eeaebe83cdb47af54817.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9656,6 +13020,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "2ed3f32c2e5d0c8ecd1903c2f549710a.jpg",
+    "images": [
+      "2ed3f32c2e5d0c8ecd1903c2f549710a.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9666,6 +13034,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "a14dbde2818f3f9d2d23776ec0735828.jpg",
+    "images": [
+      "a14dbde2818f3f9d2d23776ec0735828.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9676,6 +13048,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "a5cd126546002e1cbc5be4f475d604df.jpg",
+    "images": [
+      "a5cd126546002e1cbc5be4f475d604df.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9686,6 +13062,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "194a146d682a245018e93862c8d2cd63.jpg",
+    "images": [
+      "194a146d682a245018e93862c8d2cd63.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9696,6 +13076,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "e6270b03e2bb849432c4986bcb8d830d.jpg",
+    "images": [
+      "e6270b03e2bb849432c4986bcb8d830d.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9706,6 +13090,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "9be0de4fff44dee57e840c953e3f759e.jpg",
+    "images": [
+      "9be0de4fff44dee57e840c953e3f759e.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9716,6 +13104,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "e59ec36e685d3fec21275b03a814c3ad.jpg",
+    "images": [
+      "e59ec36e685d3fec21275b03a814c3ad.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9726,6 +13118,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "cb3f70ba2b6cddf350057ae9340629a0.jpg",
+    "images": [
+      "cb3f70ba2b6cddf350057ae9340629a0.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9736,6 +13132,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "f09b981390206a6817253e27566fe605.jpg",
+    "images": [
+      "f09b981390206a6817253e27566fe605.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9746,6 +13146,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "73f593514223c85ca6370d3a58965178.jpg",
+    "images": [
+      "73f593514223c85ca6370d3a58965178.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9756,6 +13160,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "c7b3cf677e2a59bfdfd3f965b2f69a7e.jpg",
+    "images": [
+      "c7b3cf677e2a59bfdfd3f965b2f69a7e.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9766,6 +13174,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "4bb410a6c63df42f9ff2b6e6a315b729.jpg",
+    "images": [
+      "4bb410a6c63df42f9ff2b6e6a315b729.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9776,6 +13188,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "f1c370ecbcd99c1c0b6e11e834d4f2ee.jpg",
+    "images": [
+      "f1c370ecbcd99c1c0b6e11e834d4f2ee.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9786,6 +13202,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "fb2f024f710a299ecdf1a4ea844947d4.jpg",
+    "images": [
+      "fb2f024f710a299ecdf1a4ea844947d4.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9796,6 +13216,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "4890ea8372bc852f37db4d7b77b5b643.jpg",
+    "images": [
+      "4890ea8372bc852f37db4d7b77b5b643.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9806,6 +13230,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "784268dd6fa8ec7421da9a6cbe1b2e4b.jpg",
+    "images": [
+      "784268dd6fa8ec7421da9a6cbe1b2e4b.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9816,6 +13244,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "aa6597b8ab57d09f82d70883e7503c86.jpg",
+    "images": [
+      "aa6597b8ab57d09f82d70883e7503c86.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9826,6 +13258,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "6446689deb0b48c83e676bbe4020cd11.jpg",
+    "images": [
+      "6446689deb0b48c83e676bbe4020cd11.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9836,6 +13272,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "34a656dfcd2f635753a3a6127a6f5204.jpg",
+    "images": [
+      "34a656dfcd2f635753a3a6127a6f5204.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9846,6 +13286,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "49a8330a3309340252abb99c8a38d1c7.jpg",
+    "images": [
+      "49a8330a3309340252abb99c8a38d1c7.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9856,6 +13300,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "196a950994d6fede773bcb4f31f8f513.jpg",
+    "images": [
+      "196a950994d6fede773bcb4f31f8f513.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9866,6 +13314,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "4c6a07074a49f03945f345148b603725.jpg",
+    "images": [
+      "4c6a07074a49f03945f345148b603725.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9876,6 +13328,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "0fbb776f9fb9e333e6f75f1a23a0d8f5.jpg",
+    "images": [
+      "0fbb776f9fb9e333e6f75f1a23a0d8f5.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9886,6 +13342,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "b7885eb83a57900b8f0e20b1daf0e95d.jpg",
+    "images": [
+      "b7885eb83a57900b8f0e20b1daf0e95d.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9896,6 +13356,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "f83674df01481ec70f220c7dc489071a.jpg",
+    "images": [
+      "f83674df01481ec70f220c7dc489071a.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9906,6 +13370,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "8ca910ebaa83110ddd1e615ab72e4606.jpg",
+    "images": [
+      "8ca910ebaa83110ddd1e615ab72e4606.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9916,6 +13384,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "1302c4ce188f67fc1b35a1817d0aba04.jpg",
+    "images": [
+      "1302c4ce188f67fc1b35a1817d0aba04.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9926,6 +13398,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "d2747ace9281130fd452d74233ac0284.jpg",
+    "images": [
+      "d2747ace9281130fd452d74233ac0284.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9936,6 +13412,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "a199c70e02b130c603b4e490e417866f.jpg",
+    "images": [
+      "a199c70e02b130c603b4e490e417866f.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9946,6 +13426,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "dafc54a8d6ecf648f090e7249b39c4b4.jpg",
+    "images": [
+      "dafc54a8d6ecf648f090e7249b39c4b4.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9956,6 +13440,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "4d8dfa4d9e7a32677e0cd9ca22ffe7d6.jpg",
+    "images": [
+      "4d8dfa4d9e7a32677e0cd9ca22ffe7d6.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9966,6 +13454,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "fd52bbe619bee1c3ea3677586a3ccd44.jpg",
+    "images": [
+      "fd52bbe619bee1c3ea3677586a3ccd44.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9976,6 +13468,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "4d40b5a5e4290a0a579566d987bc2624.jpg",
+    "images": [
+      "4d40b5a5e4290a0a579566d987bc2624.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9986,6 +13482,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "6cf30f8b6464c36d0bf68a3bcb2ac13a.jpg",
+    "images": [
+      "6cf30f8b6464c36d0bf68a3bcb2ac13a.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -9996,6 +13496,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "78e95e0e3461449361d40183dfad6d93.jpg",
+    "images": [
+      "78e95e0e3461449361d40183dfad6d93.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10006,6 +13510,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "f542c8cec366231d368fc0eeb3f7402a.jpg",
+    "images": [
+      "f542c8cec366231d368fc0eeb3f7402a.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10016,6 +13524,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "a2109c1a94fbd2d3b30d18ec98232c2a.jpg",
+    "images": [
+      "a2109c1a94fbd2d3b30d18ec98232c2a.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10026,6 +13538,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "a0d9a08ac3f95e7230f01e0a2e47ccce.jpg",
+    "images": [
+      "a0d9a08ac3f95e7230f01e0a2e47ccce.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10036,6 +13552,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "4e8596b9b20c8d8c1114947596c52250.jpg",
+    "images": [
+      "4e8596b9b20c8d8c1114947596c52250.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10046,6 +13566,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "a16d65a01aa179a32c90c2895f17e158.jpg",
+    "images": [
+      "a16d65a01aa179a32c90c2895f17e158.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10056,6 +13580,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "9188b41522c576b99b4fd8df7b5350f5.jpg",
+    "images": [
+      "9188b41522c576b99b4fd8df7b5350f5.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10066,6 +13594,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "2cc184290046133b861f82b7d81be2fc.jpg",
+    "images": [
+      "2cc184290046133b861f82b7d81be2fc.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10076,6 +13608,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "07c1393b06d31bd5715bd356e0f5cfe3.jpg",
+    "images": [
+      "07c1393b06d31bd5715bd356e0f5cfe3.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10086,6 +13622,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "0d4fbed9ec0a38884457af56be760ee4.jpg",
+    "images": [
+      "0d4fbed9ec0a38884457af56be760ee4.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10096,6 +13636,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "377b38843bef0854328a3ddf0f3c4290.jpg",
+    "images": [
+      "377b38843bef0854328a3ddf0f3c4290.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10106,6 +13650,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "d515889593b285cad483ce18564a20fa.jpg",
+    "images": [
+      "d515889593b285cad483ce18564a20fa.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10116,6 +13664,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "3185fbfcc1f77555a076d367367d7067.jpg",
+    "images": [
+      "3185fbfcc1f77555a076d367367d7067.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10126,6 +13678,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "321201c89fd125b29949c2926813b1d2.jpg",
+    "images": [
+      "321201c89fd125b29949c2926813b1d2.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10136,6 +13692,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "2dbee4f0b36f25ee62cf118ad0696ef2.jpg",
+    "images": [
+      "2dbee4f0b36f25ee62cf118ad0696ef2.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10146,6 +13706,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "c8c3a41eade56ceaac053364743a4e76.jpg",
+    "images": [
+      "c8c3a41eade56ceaac053364743a4e76.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10156,6 +13720,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "d312c744224aee9c0f9d32f09747e8c0.jpg",
+    "images": [
+      "d312c744224aee9c0f9d32f09747e8c0.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10166,6 +13734,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "c03a30e94797d2f39a446bd51c14935e.jpg",
+    "images": [
+      "c03a30e94797d2f39a446bd51c14935e.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10176,6 +13748,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "e471bb354881fd06512d9f00d632d537.jpg",
+    "images": [
+      "e471bb354881fd06512d9f00d632d537.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10186,6 +13762,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "686404404f9444bcf9d813d82f737412.jpg",
+    "images": [
+      "686404404f9444bcf9d813d82f737412.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10196,6 +13776,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "79dfb5c3e49499b59486f7f5f9de5985.jpg",
+    "images": [
+      "79dfb5c3e49499b59486f7f5f9de5985.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10206,6 +13790,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "f2f2178e8deda34b3e03a9067f7844df.jpg",
+    "images": [
+      "f2f2178e8deda34b3e03a9067f7844df.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10216,6 +13804,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "78586e5822d1f5333a8b6fe52362aebb.jpg",
+    "images": [
+      "78586e5822d1f5333a8b6fe52362aebb.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10226,6 +13818,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "62c6ff0588b3e122c132ea1b2dc00623.jpg",
+    "images": [
+      "62c6ff0588b3e122c132ea1b2dc00623.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10236,6 +13832,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "8f266cd6d6e06181bdfd1b2eecfe3f44.jpg",
+    "images": [
+      "8f266cd6d6e06181bdfd1b2eecfe3f44.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10246,6 +13846,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "e703d3dbca4a5ed1a6004903f436851f.jpg",
+    "images": [
+      "e703d3dbca4a5ed1a6004903f436851f.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10256,6 +13860,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "1af5495588f22e8fd2b0220461106bc0.jpg",
+    "images": [
+      "1af5495588f22e8fd2b0220461106bc0.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10266,6 +13874,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "179fd6f8e7b30cad58d029dba8039916.jpg",
+    "images": [
+      "179fd6f8e7b30cad58d029dba8039916.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10276,6 +13888,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "e205e0ec5d9c4828cac816bd03da2236.jpg",
+    "images": [
+      "e205e0ec5d9c4828cac816bd03da2236.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10286,6 +13902,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "73c48087bbc0acb55317a9ce084e82c5.jpg",
+    "images": [
+      "73c48087bbc0acb55317a9ce084e82c5.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10296,6 +13916,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "f5fa7746a591fbea4b938910eaec62dd.jpg",
+    "images": [
+      "f5fa7746a591fbea4b938910eaec62dd.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10306,6 +13930,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "b3ae2464eab7dd77b8613e5886cae30c.jpg",
+    "images": [
+      "b3ae2464eab7dd77b8613e5886cae30c.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10316,6 +13944,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "3b70e7f193a5a5e78731cf80d32ee487.jpg",
+    "images": [
+      "3b70e7f193a5a5e78731cf80d32ee487.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10326,6 +13958,10 @@ export const materials = [
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
     "price": 0,
+    "thumbnail": "0c45a2e4344d938d01de2b3b0eb00167.jpg",
+    "images": [
+      "0c45a2e4344d938d01de2b3b0eb00167.jpg"
+    ],
     "materialType": "실크"
   },
   {
@@ -10336,6 +13972,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "3de81c3281d787749bdcd2a26c38d916.jpg",
+    "images": [
+      "3de81c3281d787749bdcd2a26c38d916.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10346,6 +13986,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "c0201e2cbdcf4a3c0accbad29d9a827f.jpg",
+    "images": [
+      "c0201e2cbdcf4a3c0accbad29d9a827f.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10356,6 +14000,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "18f9a040497a6a5767c6d970ceda5a7f.jpg",
+    "images": [
+      "18f9a040497a6a5767c6d970ceda5a7f.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10366,6 +14014,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "792a5221bac5282ff2db16fd06a91d2a.jpg",
+    "images": [
+      "792a5221bac5282ff2db16fd06a91d2a.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10376,6 +14028,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "06cc2c8a0081bc2f0884b1b750a65cfd.jpg",
+    "images": [
+      "06cc2c8a0081bc2f0884b1b750a65cfd.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10386,6 +14042,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "f04b20b9c87a4ee84113bba2eb3ee8e3.jpg",
+    "images": [
+      "f04b20b9c87a4ee84113bba2eb3ee8e3.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10396,6 +14056,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "430d3e567716fbbc85a99623d8d36855.jpg",
+    "images": [
+      "430d3e567716fbbc85a99623d8d36855.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10406,6 +14070,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "97988a18b2713e8a9303266cb1afdfab.jpg",
+    "images": [
+      "97988a18b2713e8a9303266cb1afdfab.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10416,6 +14084,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "e65eebe6eadacdee888928cf007b86fe.jpg",
+    "images": [
+      "e65eebe6eadacdee888928cf007b86fe.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10426,6 +14098,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "f68612f07b562c66a4dd0e106f34190f.jpg",
+    "images": [
+      "f68612f07b562c66a4dd0e106f34190f.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10436,6 +14112,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "4edcce7d77dd44373c6143f4c212dc81.jpg",
+    "images": [
+      "4edcce7d77dd44373c6143f4c212dc81.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10446,6 +14126,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "772d946114ab9e4dfd30a63f2b0087c6.jpg",
+    "images": [
+      "772d946114ab9e4dfd30a63f2b0087c6.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10456,6 +14140,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "e14e93bcbecabf4ba011da9a53805ee6.jpg",
+    "images": [
+      "e14e93bcbecabf4ba011da9a53805ee6.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10466,6 +14154,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "d89fbcfbbb8f36ca4c31d5ff887272be.jpg",
+    "images": [
+      "d89fbcfbbb8f36ca4c31d5ff887272be.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10476,6 +14168,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "593a6bbf5af9d4c74f270367c3392048.jpg",
+    "images": [
+      "593a6bbf5af9d4c74f270367c3392048.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10486,6 +14182,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "0d66f3663e34f4c121eb97aee751b7fa.jpg",
+    "images": [
+      "0d66f3663e34f4c121eb97aee751b7fa.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10496,6 +14196,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "fef4b1da7c1723913ba3e4de2be4f9be.jpg",
+    "images": [
+      "fef4b1da7c1723913ba3e4de2be4f9be.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10506,6 +14210,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "47781aa5d6e00fa4b58e351ce88dd5ab.jpg",
+    "images": [
+      "47781aa5d6e00fa4b58e351ce88dd5ab.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10516,6 +14224,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "664fb7887bd8f26472baadae3c206bda.jpg",
+    "images": [
+      "664fb7887bd8f26472baadae3c206bda.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10526,6 +14238,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "9e663a37bcbef5959a09cd9911aa69ab.jpg",
+    "images": [
+      "9e663a37bcbef5959a09cd9911aa69ab.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10536,6 +14252,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "a632774c5e079f6c04f73afd479009c6.jpg",
+    "images": [
+      "a632774c5e079f6c04f73afd479009c6.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10546,6 +14266,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "458e2fcf1da93b39fce88440a62aa710.jpg",
+    "images": [
+      "458e2fcf1da93b39fce88440a62aa710.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10556,6 +14280,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "3145988a3addfc7ff590aac21ef15cd1.jpg",
+    "images": [
+      "3145988a3addfc7ff590aac21ef15cd1.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10566,6 +14294,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "d27be8728ac809125f383ac9f8d00aa8.jpg",
+    "images": [
+      "d27be8728ac809125f383ac9f8d00aa8.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10576,6 +14308,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "e0dd441c40d3a91ae7b8fec8c3117755.jpg",
+    "images": [
+      "e0dd441c40d3a91ae7b8fec8c3117755.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10586,6 +14322,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "accfc70144bb0e6ee2f599807adfc9c7.jpg",
+    "images": [
+      "accfc70144bb0e6ee2f599807adfc9c7.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10596,6 +14336,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "28c85fb4c3a8a8362e99c5de166f7850.jpg",
+    "images": [
+      "28c85fb4c3a8a8362e99c5de166f7850.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10606,6 +14350,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "6f5b6cc3c0c388e1e6a7e9db95d62fe1.jpg",
+    "images": [
+      "6f5b6cc3c0c388e1e6a7e9db95d62fe1.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10616,6 +14364,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "bb02900b25503d96847198e4faffb491.jpg",
+    "images": [
+      "bb02900b25503d96847198e4faffb491.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10626,6 +14378,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "89b0081fe6dd9bdcded3c51204dd7dbe.jpg",
+    "images": [
+      "89b0081fe6dd9bdcded3c51204dd7dbe.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10636,6 +14392,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "8eec108d63bc222a27f53cd64834aa22.jpg",
+    "images": [
+      "8eec108d63bc222a27f53cd64834aa22.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10646,6 +14406,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "a4f20392426177138feea71d2fc370c8.jpg",
+    "images": [
+      "a4f20392426177138feea71d2fc370c8.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10656,6 +14420,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "a4e1a67f756f8b5bc6a568532a870518.jpg",
+    "images": [
+      "a4e1a67f756f8b5bc6a568532a870518.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10666,6 +14434,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "50e4aa21b95433bd54bafdbe7b33dab6.jpg",
+    "images": [
+      "50e4aa21b95433bd54bafdbe7b33dab6.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10676,6 +14448,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "c95904daf1b809df8a34f4a7184ab25e.jpg",
+    "images": [
+      "c95904daf1b809df8a34f4a7184ab25e.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10686,6 +14462,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "0ac5086181cf86948ea88d2f073fd7f5.jpg",
+    "images": [
+      "0ac5086181cf86948ea88d2f073fd7f5.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10696,6 +14476,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "2bd327f83fff46e29e943992ea6fa6bf.jpg",
+    "images": [
+      "2bd327f83fff46e29e943992ea6fa6bf.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10706,6 +14490,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "bd6342858e7eb741133f0b5bb76a503b.jpg",
+    "images": [
+      "bd6342858e7eb741133f0b5bb76a503b.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10716,6 +14504,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "b453137721f73c49b57d05c4553edc52.jpg",
+    "images": [
+      "b453137721f73c49b57d05c4553edc52.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10726,6 +14518,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "a38fcfa4796569054ad1137e829647ba.jpg",
+    "images": [
+      "a38fcfa4796569054ad1137e829647ba.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10736,6 +14532,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "b74bd457991ee49a1ed8ec77b839124d.jpg",
+    "images": [
+      "b74bd457991ee49a1ed8ec77b839124d.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10746,6 +14546,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "c38b1a50620d189e5a743c7e23f433c0.jpg",
+    "images": [
+      "c38b1a50620d189e5a743c7e23f433c0.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10756,6 +14560,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "eab9dc1fc359729f95c2242abd50dc1c.jpg",
+    "images": [
+      "eab9dc1fc359729f95c2242abd50dc1c.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10766,6 +14574,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "5a8eaf5d5ed0fb3cc25a08f7825e95ff.jpg",
+    "images": [
+      "5a8eaf5d5ed0fb3cc25a08f7825e95ff.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10776,6 +14588,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "cb9fad3c22b48e071fc94dc889013507.jpg",
+    "images": [
+      "cb9fad3c22b48e071fc94dc889013507.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10786,6 +14602,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "970bf618a6a87852118a7344847fdda6.jpg",
+    "images": [
+      "970bf618a6a87852118a7344847fdda6.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10796,6 +14616,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "d64e50072a62cb91df89572ef9f80a52.jpg",
+    "images": [
+      "d64e50072a62cb91df89572ef9f80a52.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10806,6 +14630,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "8965697a11dbf90672f65ec1cf311483.jpg",
+    "images": [
+      "8965697a11dbf90672f65ec1cf311483.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10816,6 +14644,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "1850688c18258b05a94622bae48db5ef.jpg",
+    "images": [
+      "1850688c18258b05a94622bae48db5ef.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10826,6 +14658,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "920479421f6d083085271f2c3ce97b44.jpg",
+    "images": [
+      "920479421f6d083085271f2c3ce97b44.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10836,6 +14672,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "fa8d5f8eb0a99409392b50c54ccc2f20.jpg",
+    "images": [
+      "fa8d5f8eb0a99409392b50c54ccc2f20.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10846,6 +14686,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "705b29bfe7fc2d9a2f5a15761144b4aa.jpg",
+    "images": [
+      "705b29bfe7fc2d9a2f5a15761144b4aa.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10856,6 +14700,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "bb535dfcb3a550610731b87b1a9ed5e4.jpg",
+    "images": [
+      "bb535dfcb3a550610731b87b1a9ed5e4.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10866,6 +14714,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "f04a85ee0f4e33516b34b43090e9c6a4.jpg",
+    "images": [
+      "f04a85ee0f4e33516b34b43090e9c6a4.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10876,6 +14728,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "01e0aa0267953445de94f5892d9c710a.jpg",
+    "images": [
+      "01e0aa0267953445de94f5892d9c710a.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10886,6 +14742,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "2dc04974422377a6fe0016d5eded370e.jpg",
+    "images": [
+      "2dc04974422377a6fe0016d5eded370e.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10896,6 +14756,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "ab62d19b07bf92bea29dadd60111d8a3.jpg",
+    "images": [
+      "ab62d19b07bf92bea29dadd60111d8a3.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10906,6 +14770,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "499df0155bebaef80894d05ccf0368d5.jpg",
+    "images": [
+      "499df0155bebaef80894d05ccf0368d5.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10916,6 +14784,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "888415ed7e9949dc15c4bf83bdb83def.jpg",
+    "images": [
+      "888415ed7e9949dc15c4bf83bdb83def.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10926,6 +14798,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "c14cc56873f57cffadf9f2850f404b9b.jpg",
+    "images": [
+      "c14cc56873f57cffadf9f2850f404b9b.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10936,6 +14812,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "7e795a27e61d79c1d7e6e6556163bf7b.jpg",
+    "images": [
+      "7e795a27e61d79c1d7e6e6556163bf7b.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10946,6 +14826,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "b1cac81afafb2929d0e5ef3b1ba7fd5b.jpg",
+    "images": [
+      "b1cac81afafb2929d0e5ef3b1ba7fd5b.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10956,6 +14840,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "d89208d53e77ef7639ce1f7be5e319d8.jpg",
+    "images": [
+      "d89208d53e77ef7639ce1f7be5e319d8.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10966,6 +14854,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "27e46efc53be5d6c22d778e6b7183ad6.jpg",
+    "images": [
+      "27e46efc53be5d6c22d778e6b7183ad6.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10976,6 +14868,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "b716dfdc7dc33ef528f85dbd72391a2f.jpg",
+    "images": [
+      "b716dfdc7dc33ef528f85dbd72391a2f.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10986,6 +14882,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "8992581adbf1b39aec00f911435b7bfe.jpg",
+    "images": [
+      "8992581adbf1b39aec00f911435b7bfe.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -10996,6 +14896,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "5dd852add3c878cc88c285158975cd80.jpg",
+    "images": [
+      "5dd852add3c878cc88c285158975cd80.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11006,6 +14910,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "88456558421ee9b05f2291224caaf0c2.jpg",
+    "images": [
+      "88456558421ee9b05f2291224caaf0c2.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11016,6 +14924,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
     "price": 0,
+    "thumbnail": "b0c86e07958b9173a137a87a6082170d.jpg",
+    "images": [
+      "b0c86e07958b9173a137a87a6082170d.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11026,6 +14938,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "51d57e3a92718bcf699c7342c37bdb1b.jpg",
+    "images": [
+      "51d57e3a92718bcf699c7342c37bdb1b.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11036,6 +14952,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "8da4cbc2a5d0c544f0b677fa20b09467.jpg",
+    "images": [
+      "8da4cbc2a5d0c544f0b677fa20b09467.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11046,6 +14966,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "58173d2dec3e5dd22608324f7b16de61.jpg",
+    "images": [
+      "58173d2dec3e5dd22608324f7b16de61.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11056,6 +14980,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "236a09ca03a88653f114d1023224efcd.jpg",
+    "images": [
+      "236a09ca03a88653f114d1023224efcd.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11066,6 +14994,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "94b4def1e16a638228ef1d68dd693e09.jpg",
+    "images": [
+      "94b4def1e16a638228ef1d68dd693e09.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11076,6 +15008,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "370c23639b989ad7616de9ad498e501c.jpg",
+    "images": [
+      "370c23639b989ad7616de9ad498e501c.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11086,6 +15022,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "2ec030b1117c1a67706e28aae01be257.jpg",
+    "images": [
+      "2ec030b1117c1a67706e28aae01be257.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11096,6 +15036,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "74c5c3bdb9fa4fa0991af935babd3650.jpg",
+    "images": [
+      "74c5c3bdb9fa4fa0991af935babd3650.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11106,6 +15050,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "f194cf5e071a8bef5dc911a44bde2a10.jpg",
+    "images": [
+      "f194cf5e071a8bef5dc911a44bde2a10.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11116,6 +15064,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "16826d3608b3cbf0ecd0eb98f8d0b115.jpg",
+    "images": [
+      "16826d3608b3cbf0ecd0eb98f8d0b115.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11126,6 +15078,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "7a61a08558b35042efc27caecc29eacf.jpg",
+    "images": [
+      "7a61a08558b35042efc27caecc29eacf.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11136,6 +15092,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "d4de6b267e4a7392cadc63d90c6aa396.jpg",
+    "images": [
+      "d4de6b267e4a7392cadc63d90c6aa396.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11146,6 +15106,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "1bbcba9b64064f3b8f908c3184ddf7e5.jpg",
+    "images": [
+      "1bbcba9b64064f3b8f908c3184ddf7e5.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11156,6 +15120,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "463cc4c25f7de329bbe0d8270569b0e8.jpg",
+    "images": [
+      "463cc4c25f7de329bbe0d8270569b0e8.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11166,6 +15134,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "a5b69319b80b239e7cf1d47da8e736e7.jpg",
+    "images": [
+      "a5b69319b80b239e7cf1d47da8e736e7.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11176,6 +15148,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "76f19a467afa7ab3ef7c7dd01eb30e70.jpg",
+    "images": [
+      "76f19a467afa7ab3ef7c7dd01eb30e70.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11186,6 +15162,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "03608e1a1bfc0e951ec82fb8243c3df6.jpg",
+    "images": [
+      "03608e1a1bfc0e951ec82fb8243c3df6.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11196,6 +15176,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "db51cc9d335ccd78c7a2de959b11692c.jpg",
+    "images": [
+      "db51cc9d335ccd78c7a2de959b11692c.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11206,6 +15190,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "48550f7eaea2c37e762d349e9a883def.jpg",
+    "images": [
+      "48550f7eaea2c37e762d349e9a883def.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11216,6 +15204,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "58e21384ace812bf0ca0e4e970872444.jpg",
+    "images": [
+      "58e21384ace812bf0ca0e4e970872444.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11226,6 +15218,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "0e0ba65acdec46e009ea8509329f8b63.jpg",
+    "images": [
+      "0e0ba65acdec46e009ea8509329f8b63.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11236,6 +15232,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "b3769fbcd6a4023b2270f1fc3e296304.jpg",
+    "images": [
+      "b3769fbcd6a4023b2270f1fc3e296304.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11246,6 +15246,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "bd756aec18f23a57ae10996ea54d6c0f.jpg",
+    "images": [
+      "bd756aec18f23a57ae10996ea54d6c0f.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11256,6 +15260,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "dbf2ced4e5dca9377af183ba35970246.jpg",
+    "images": [
+      "dbf2ced4e5dca9377af183ba35970246.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11266,6 +15274,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "75f3c11777862167e1eae36f12c74b4d.jpg",
+    "images": [
+      "75f3c11777862167e1eae36f12c74b4d.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11276,6 +15288,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "86a3b7223d08462896bde0b66d7756bd.jpg",
+    "images": [
+      "86a3b7223d08462896bde0b66d7756bd.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11286,6 +15302,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "9dbfd1bd1a42ff513cc54a4b928f3837.jpg",
+    "images": [
+      "9dbfd1bd1a42ff513cc54a4b928f3837.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11296,6 +15316,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "8d0a9f2f13ce66f7af20a7257cebe763.jpg",
+    "images": [
+      "8d0a9f2f13ce66f7af20a7257cebe763.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11306,6 +15330,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "e855cfda2690c0f3ecaaa265735ce75d.jpg",
+    "images": [
+      "e855cfda2690c0f3ecaaa265735ce75d.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11316,6 +15344,10 @@ export const materials = [
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
     "price": 0,
+    "thumbnail": "36d8adafb8dc1354bf44d1acf425344b.jpg",
+    "images": [
+      "36d8adafb8dc1354bf44d1acf425344b.jpg"
+    ],
     "materialType": "합지"
   },
   {
@@ -11326,6 +15358,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 11000,
+    "thumbnail": "21dbe351f95dc780abee0858a6857730.jpg",
+    "images": [
+      "21dbe351f95dc780abee0858a6857730.jpg"
+    ],
     "thickness": "1.8T",
     "specs": {
       "division": "",
@@ -11342,6 +15378,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 11000,
+    "thumbnail": "65a3be0724ac5528edf6238113c1b9b8.jpg",
+    "images": [
+      "65a3be0724ac5528edf6238113c1b9b8.jpg"
+    ],
     "thickness": "1.8T",
     "specs": {
       "division": "",
@@ -11358,6 +15398,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 11000,
+    "thumbnail": "1d1df7b36d0215eaf749e33da113686f.jpg",
+    "images": [
+      "1d1df7b36d0215eaf749e33da113686f.jpg"
+    ],
     "thickness": "1.8T",
     "specs": {
       "division": "",
@@ -11374,6 +15418,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 11000,
+    "thumbnail": "20b967ca089e278b0aa7b4040bd74d54.jpg",
+    "images": [
+      "20b967ca089e278b0aa7b4040bd74d54.jpg"
+    ],
     "thickness": "1.8T",
     "specs": {
       "division": "",
@@ -11390,6 +15438,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 11000,
+    "thumbnail": "0a766e4a32543425fa2b14c9694b0431.jpg",
+    "images": [
+      "0a766e4a32543425fa2b14c9694b0431.jpg"
+    ],
     "thickness": "1.8T",
     "specs": {
       "division": "",
@@ -11406,6 +15458,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 11000,
+    "thumbnail": "97149dbb7c2988ec46360a11046852cf.jpg",
+    "images": [
+      "97149dbb7c2988ec46360a11046852cf.jpg"
+    ],
     "thickness": "1.8T",
     "specs": {
       "division": "",
@@ -11422,6 +15478,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 11000,
+    "thumbnail": "a5c1fc3f7a17d98fa502cd6528871f9e.jpg",
+    "images": [
+      "a5c1fc3f7a17d98fa502cd6528871f9e.jpg"
+    ],
     "thickness": "1.8T",
     "specs": {
       "division": "",
@@ -11438,6 +15498,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 11000,
+    "thumbnail": "d7320ae97f33d77008f9ccebf7534bea.jpg",
+    "images": [
+      "d7320ae97f33d77008f9ccebf7534bea.jpg"
+    ],
     "thickness": "1.8T",
     "specs": {
       "division": "",
@@ -11454,6 +15518,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 11000,
+    "thumbnail": "1e4d9fee3658aefd02de16587a621930.jpg",
+    "images": [
+      "1e4d9fee3658aefd02de16587a621930.jpg"
+    ],
     "thickness": "1.8T",
     "specs": {
       "division": "",
@@ -11470,6 +15538,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 11000,
+    "thumbnail": "f2bcf71dc4c87c86549580ad8f0cbc2e.jpg",
+    "images": [
+      "f2bcf71dc4c87c86549580ad8f0cbc2e.jpg"
+    ],
     "thickness": "1.8T",
     "specs": {
       "division": "",
@@ -11486,6 +15558,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 11000,
+    "thumbnail": "8bccb6231640c0777bda209425ab126c.jpg",
+    "images": [
+      "8bccb6231640c0777bda209425ab126c.jpg"
+    ],
     "thickness": "1.8T",
     "specs": {
       "division": "",
@@ -11502,6 +15578,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 11000,
+    "thumbnail": "1f23ed91bbe108fab9b12a1a8076d30b.jpg",
+    "images": [
+      "1f23ed91bbe108fab9b12a1a8076d30b.jpg"
+    ],
     "thickness": "1.8T",
     "specs": {
       "division": "",
@@ -11518,6 +15598,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 11000,
+    "thumbnail": "323d4236d57a6068b093d045bd74121a.jpg",
+    "images": [
+      "323d4236d57a6068b093d045bd74121a.jpg"
+    ],
     "thickness": "1.8T",
     "specs": {
       "division": "",
@@ -11534,6 +15618,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 50000,
+    "thumbnail": "af164f334d0a820fb94994b6593f14d1.jpg",
+    "images": [
+      "af164f334d0a820fb94994b6593f14d1.jpg"
+    ],
     "thickness": "5.0T",
     "specs": {
       "division": "",
@@ -11550,6 +15638,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 50000,
+    "thumbnail": "e68f96f439e3f1502a85e9d06e5862d4.jpg",
+    "images": [
+      "e68f96f439e3f1502a85e9d06e5862d4.jpg"
+    ],
     "thickness": "5.0T",
     "specs": {
       "division": "",
@@ -11566,6 +15658,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 50000,
+    "thumbnail": "3961523a851ea2c27b7812ea8c305925.jpg",
+    "images": [
+      "3961523a851ea2c27b7812ea8c305925.jpg"
+    ],
     "thickness": "5.0T",
     "specs": {
       "division": "",
@@ -11582,6 +15678,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 50000,
+    "thumbnail": "beca289c3fb1336d30a0da24d4552948.jpg",
+    "images": [
+      "beca289c3fb1336d30a0da24d4552948.jpg"
+    ],
     "thickness": "5.0T",
     "specs": {
       "division": "",
@@ -11598,6 +15698,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 50000,
+    "thumbnail": "b28b77fe73a269febcbff6f2d0352c39.jpg",
+    "images": [
+      "b28b77fe73a269febcbff6f2d0352c39.jpg"
+    ],
     "thickness": "5.0T",
     "specs": {
       "division": "",
@@ -11614,6 +15718,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 50000,
+    "thumbnail": "22475027d6ec1fad281add166e8d29d3.jpg",
+    "images": [
+      "22475027d6ec1fad281add166e8d29d3.jpg"
+    ],
     "thickness": "5.0T",
     "specs": {
       "division": "",
@@ -11630,6 +15738,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 50000,
+    "thumbnail": "918c2d6205fcb5d7dafd03622baad1f0.jpg",
+    "images": [
+      "918c2d6205fcb5d7dafd03622baad1f0.jpg"
+    ],
     "thickness": "5.0T",
     "specs": {
       "division": "",
@@ -11646,6 +15758,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 50000,
+    "thumbnail": "07cd93fe9b8080c182958531be7d2e96.jpg",
+    "images": [
+      "07cd93fe9b8080c182958531be7d2e96.jpg"
+    ],
     "thickness": "5.0T",
     "specs": {
       "division": "",
@@ -11662,6 +15778,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 50000,
+    "thumbnail": "f32be161acb2fb0c4f0785c03e2d98cb.jpg",
+    "images": [
+      "f32be161acb2fb0c4f0785c03e2d98cb.jpg"
+    ],
     "thickness": "5.0T",
     "specs": {
       "division": "",
@@ -11678,6 +15798,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 50000,
+    "thumbnail": "0360739392ee291a52e7120cd23b50a8.jpg",
+    "images": [
+      "0360739392ee291a52e7120cd23b50a8.jpg"
+    ],
     "thickness": "5.0T",
     "specs": {
       "division": "",
@@ -11694,6 +15818,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 50000,
+    "thumbnail": "c59c83fc3c3fa51ac24f47a8ffad63b4.jpg",
+    "images": [
+      "c59c83fc3c3fa51ac24f47a8ffad63b4.jpg"
+    ],
     "thickness": "5.0T",
     "specs": {
       "division": "",
@@ -11710,6 +15838,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 50000,
+    "thumbnail": "246e67a7f0fb60c5e9e1abedd025297c.jpg",
+    "images": [
+      "246e67a7f0fb60c5e9e1abedd025297c.jpg"
+    ],
     "thickness": "5.0T",
     "specs": {
       "division": "",
@@ -11726,6 +15858,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 50000,
+    "thumbnail": "da94f897c53c8611c95289215ad35402.jpg",
+    "images": [
+      "da94f897c53c8611c95289215ad35402.jpg"
+    ],
     "thickness": "5.0T",
     "specs": {
       "division": "",
@@ -11742,6 +15878,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 50000,
+    "thumbnail": "a4636ba0652a946232426faae670491b.jpg",
+    "images": [
+      "a4636ba0652a946232426faae670491b.jpg"
+    ],
     "thickness": "5.0T",
     "specs": {
       "division": "",
@@ -11758,6 +15898,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 50000,
+    "thumbnail": "bf0066e6102a617a8b47968cf633672a.jpg",
+    "images": [
+      "bf0066e6102a617a8b47968cf633672a.jpg"
+    ],
     "thickness": "5.0T",
     "specs": {
       "division": "",
@@ -11774,6 +15918,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 17000,
+    "thumbnail": "c83273fce5df4c9aaca736d4459b3aa9.jpg",
+    "images": [
+      "c83273fce5df4c9aaca736d4459b3aa9.jpg"
+    ],
     "thickness": "2.0T",
     "specs": {
       "division": "",
@@ -11790,6 +15938,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 17000,
+    "thumbnail": "b8183ce6b7a7ac50e4ec7411056640f0.jpg",
+    "images": [
+      "b8183ce6b7a7ac50e4ec7411056640f0.jpg"
+    ],
     "thickness": "2.0T",
     "specs": {
       "division": "",
@@ -11806,6 +15958,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 17000,
+    "thumbnail": "34e5c80172e7102597a953735b017ded.jpg",
+    "images": [
+      "34e5c80172e7102597a953735b017ded.jpg"
+    ],
     "thickness": "2.0T",
     "specs": {
       "division": "",
@@ -11822,6 +15978,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 17000,
+    "thumbnail": "79d72a80b5663f52678d0fa36bd51b74.jpg",
+    "images": [
+      "79d72a80b5663f52678d0fa36bd51b74.jpg"
+    ],
     "thickness": "2.0T",
     "specs": {
       "division": "",
@@ -11838,6 +15998,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 17000,
+    "thumbnail": "ed2b559c1281cf2b81936110451f6771.jpg",
+    "images": [
+      "ed2b559c1281cf2b81936110451f6771.jpg"
+    ],
     "thickness": "2.0T",
     "specs": {
       "division": "",
@@ -11854,6 +16018,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 17000,
+    "thumbnail": "3c989b37eab007358d6f3679220416a5.jpg",
+    "images": [
+      "3c989b37eab007358d6f3679220416a5.jpg"
+    ],
     "thickness": "2.0T",
     "specs": {
       "division": "",
@@ -11870,6 +16038,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 17000,
+    "thumbnail": "203ee363218c8a60e61ffda9cecf5ce4.jpg",
+    "images": [
+      "203ee363218c8a60e61ffda9cecf5ce4.jpg"
+    ],
     "thickness": "2.0T",
     "specs": {
       "division": "",
@@ -11886,6 +16058,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 17000,
+    "thumbnail": "3a99c6bd1da6d847d0098d2ddb1b1924.jpg",
+    "images": [
+      "3a99c6bd1da6d847d0098d2ddb1b1924.jpg"
+    ],
     "thickness": "2.0T",
     "specs": {
       "division": "",
@@ -11902,6 +16078,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 17000,
+    "thumbnail": "a285aea66055b729a3926332786b0ce9.jpg",
+    "images": [
+      "a285aea66055b729a3926332786b0ce9.jpg"
+    ],
     "thickness": "2.0T",
     "specs": {
       "division": "",
@@ -11918,6 +16098,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 17000,
+    "thumbnail": "71924a52189f9f763db2546dd89a3dc2.jpg",
+    "images": [
+      "71924a52189f9f763db2546dd89a3dc2.jpg"
+    ],
     "thickness": "2.0T",
     "specs": {
       "division": "",
@@ -11934,6 +16118,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 32000,
+    "thumbnail": "8f84ed06717d9de43c1cf0ede4c256b0.jpg",
+    "images": [
+      "8f84ed06717d9de43c1cf0ede4c256b0.jpg"
+    ],
     "thickness": "2.7T",
     "specs": {
       "division": "",
@@ -11950,6 +16138,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 32000,
+    "thumbnail": "382f5935c0b48205ea888531a7ab90d7.jpg",
+    "images": [
+      "382f5935c0b48205ea888531a7ab90d7.jpg"
+    ],
     "thickness": "2.7T",
     "specs": {
       "division": "",
@@ -11966,6 +16158,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 32000,
+    "thumbnail": "0e410ca55f01d42be7cfd7690adbb483.jpg",
+    "images": [
+      "0e410ca55f01d42be7cfd7690adbb483.jpg"
+    ],
     "thickness": "2.7T",
     "specs": {
       "division": "",
@@ -11982,6 +16178,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 32000,
+    "thumbnail": "b8107cc400d78275b8a358232df70e0c.jpg",
+    "images": [
+      "b8107cc400d78275b8a358232df70e0c.jpg"
+    ],
     "thickness": "2.7T",
     "specs": {
       "division": "",
@@ -11998,6 +16198,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 32000,
+    "thumbnail": "fc0781d8cd9d09cd6e31240438e19a79.jpg",
+    "images": [
+      "fc0781d8cd9d09cd6e31240438e19a79.jpg"
+    ],
     "thickness": "2.7T",
     "specs": {
       "division": "",
@@ -12014,6 +16218,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 36000,
+    "thumbnail": "344c8623a21bd01f96086555db276218.jpg",
+    "images": [
+      "344c8623a21bd01f96086555db276218.jpg"
+    ],
     "thickness": "3.2T",
     "specs": {
       "division": "",
@@ -12030,6 +16238,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 36000,
+    "thumbnail": "0968e6575f48a2bd72a6e75c0dd1ebdd.jpg",
+    "images": [
+      "0968e6575f48a2bd72a6e75c0dd1ebdd.jpg"
+    ],
     "thickness": "3.2T",
     "specs": {
       "division": "",
@@ -12046,6 +16258,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 36000,
+    "thumbnail": "09009d7b212dccc194d635f1722a3849.jpg",
+    "images": [
+      "09009d7b212dccc194d635f1722a3849.jpg"
+    ],
     "thickness": "3.2T",
     "specs": {
       "division": "",
@@ -12062,6 +16278,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 36000,
+    "thumbnail": "6c2e9dfd7638676e3235581b7a6d9a5e.jpg",
+    "images": [
+      "6c2e9dfd7638676e3235581b7a6d9a5e.jpg"
+    ],
     "thickness": "3.2T",
     "specs": {
       "division": "",
@@ -12078,6 +16298,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 36000,
+    "thumbnail": "291c4cbd051aa3e07acc5d1bc5687c76.jpg",
+    "images": [
+      "291c4cbd051aa3e07acc5d1bc5687c76.jpg"
+    ],
     "thickness": "3.2T",
     "specs": {
       "division": "",
@@ -12094,6 +16318,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 36000,
+    "thumbnail": "c968b425cdda860d33c903e8ad773d53.jpg",
+    "images": [
+      "c968b425cdda860d33c903e8ad773d53.jpg"
+    ],
     "thickness": "3.2T",
     "specs": {
       "division": "",
@@ -12110,6 +16338,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 36000,
+    "thumbnail": "a71605b0debf20447ba026603a33150f.jpg",
+    "images": [
+      "a71605b0debf20447ba026603a33150f.jpg"
+    ],
     "thickness": "3.2T",
     "specs": {
       "division": "",
@@ -12126,6 +16358,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 36000,
+    "thumbnail": "02c06ea13fb6fae24560766b710a8e3a.jpg",
+    "images": [
+      "02c06ea13fb6fae24560766b710a8e3a.jpg"
+    ],
     "thickness": "3.2T",
     "specs": {
       "division": "",
@@ -12142,6 +16378,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 36000,
+    "thumbnail": "d80a8717b63cfe4b5ef83e8c8a72803d.jpg",
+    "images": [
+      "d80a8717b63cfe4b5ef83e8c8a72803d.jpg"
+    ],
     "thickness": "3.2T",
     "specs": {
       "division": "",
@@ -12158,6 +16398,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 36000,
+    "thumbnail": "45a47c6c5de906b07418151dcd47bda9.jpg",
+    "images": [
+      "45a47c6c5de906b07418151dcd47bda9.jpg"
+    ],
     "thickness": "3.2T",
     "specs": {
       "division": "",
@@ -12174,6 +16418,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 44000,
+    "thumbnail": "f4807382fb81740550336fccdd64bd7e.jpg",
+    "images": [
+      "f4807382fb81740550336fccdd64bd7e.jpg"
+    ],
     "thickness": "4.5T",
     "specs": {
       "division": "",
@@ -12190,6 +16438,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 44000,
+    "thumbnail": "66d5cfdb678aef25af557e61a9fdf8cd.jpg",
+    "images": [
+      "66d5cfdb678aef25af557e61a9fdf8cd.jpg"
+    ],
     "thickness": "4.5T",
     "specs": {
       "division": "",
@@ -12206,6 +16458,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 44000,
+    "thumbnail": "012006d210c72134c3741f5f41193188.jpg",
+    "images": [
+      "012006d210c72134c3741f5f41193188.jpg"
+    ],
     "thickness": "4.5T",
     "specs": {
       "division": "",
@@ -12222,6 +16478,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 44000,
+    "thumbnail": "7708c1a58a46f57571d25efaebff0b11.jpg",
+    "images": [
+      "7708c1a58a46f57571d25efaebff0b11.jpg"
+    ],
     "thickness": "4.5T",
     "specs": {
       "division": "",
@@ -12238,6 +16498,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 44000,
+    "thumbnail": "25720c50b1998a2d450785dc01eecccf.jpg",
+    "images": [
+      "25720c50b1998a2d450785dc01eecccf.jpg"
+    ],
     "thickness": "4.5T",
     "specs": {
       "division": "",
@@ -12254,6 +16518,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 44000,
+    "thumbnail": "9ba087a3220890f210b7cc6c4b7c7df4.jpg",
+    "images": [
+      "9ba087a3220890f210b7cc6c4b7c7df4.jpg"
+    ],
     "thickness": "4.5T",
     "specs": {
       "division": "",
@@ -12270,6 +16538,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 44000,
+    "thumbnail": "144de8d5cdecde28b434c9c45cf0b0f4.jpg",
+    "images": [
+      "144de8d5cdecde28b434c9c45cf0b0f4.jpg"
+    ],
     "thickness": "4.5T",
     "specs": {
       "division": "",
@@ -12286,6 +16558,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 44000,
+    "thumbnail": "92acd5a44f3e2e9ebf14294b3dfd0038.jpg",
+    "images": [
+      "92acd5a44f3e2e9ebf14294b3dfd0038.jpg"
+    ],
     "thickness": "4.5T",
     "specs": {
       "division": "",
@@ -12302,6 +16578,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 44000,
+    "thumbnail": "969327dcaaae112b621231ab7bbb8691.jpg",
+    "images": [
+      "969327dcaaae112b621231ab7bbb8691.jpg"
+    ],
     "thickness": "4.5T",
     "specs": {
       "division": "",
@@ -12318,6 +16598,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 44000,
+    "thumbnail": "e881dff3677d88b2d5d1b177d23b7227.jpg",
+    "images": [
+      "e881dff3677d88b2d5d1b177d23b7227.jpg"
+    ],
     "thickness": "4.5T",
     "specs": {
       "division": "",
@@ -12334,6 +16618,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 22000,
+    "thumbnail": "78189a085b21089ef2eaf05225df3c1e.jpg",
+    "images": [
+      "78189a085b21089ef2eaf05225df3c1e.jpg"
+    ],
     "thickness": "2.2T",
     "specs": {
       "division": "",
@@ -12350,6 +16638,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 22000,
+    "thumbnail": "b4f39e91eedc65a656cd2b171eee22ce.jpg",
+    "images": [
+      "b4f39e91eedc65a656cd2b171eee22ce.jpg"
+    ],
     "thickness": "2.2T",
     "specs": {
       "division": "",
@@ -12366,6 +16658,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 22000,
+    "thumbnail": "742ba214514b2c7c82f7104037ea7298.jpg",
+    "images": [
+      "742ba214514b2c7c82f7104037ea7298.jpg"
+    ],
     "thickness": "2.2T",
     "specs": {
       "division": "",
@@ -12382,6 +16678,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 22000,
+    "thumbnail": "7fe0ecd8b9cbb9292bb96bc7533ca53a.jpg",
+    "images": [
+      "7fe0ecd8b9cbb9292bb96bc7533ca53a.jpg"
+    ],
     "thickness": "2.2T",
     "specs": {
       "division": "",
@@ -12398,6 +16698,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 22000,
+    "thumbnail": "e19f534d1e6c5104675a02af2ee40dfc.jpg",
+    "images": [
+      "e19f534d1e6c5104675a02af2ee40dfc.jpg"
+    ],
     "thickness": "2.2T",
     "specs": {
       "division": "",
@@ -12414,6 +16718,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 22000,
+    "thumbnail": "c19b2179292317b7c9745ed299ebeaec.jpg",
+    "images": [
+      "c19b2179292317b7c9745ed299ebeaec.jpg"
+    ],
     "thickness": "2.2T",
     "specs": {
       "division": "",
@@ -12430,6 +16738,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 22000,
+    "thumbnail": "13b36d8fd821d8850e4b507d9882cfc0.jpg",
+    "images": [
+      "13b36d8fd821d8850e4b507d9882cfc0.jpg"
+    ],
     "thickness": "2.2T",
     "specs": {
       "division": "",
@@ -12446,6 +16758,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 22000,
+    "thumbnail": "4629a4e8a3ef3bdc8e7b801592cba63e.jpg",
+    "images": [
+      "4629a4e8a3ef3bdc8e7b801592cba63e.jpg"
+    ],
     "thickness": "2.2T",
     "specs": {
       "division": "",
@@ -12462,6 +16778,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 22000,
+    "thumbnail": "82d0a3cc480942f4bc9d7628066a2659.jpg",
+    "images": [
+      "82d0a3cc480942f4bc9d7628066a2659.jpg"
+    ],
     "thickness": "2.2T",
     "specs": {
       "division": "",
@@ -12478,6 +16798,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 22000,
+    "thumbnail": "100fc65f7ab5f1fc45faf0b1c2f43f58.jpg",
+    "images": [
+      "100fc65f7ab5f1fc45faf0b1c2f43f58.jpg"
+    ],
     "thickness": "2.2T",
     "specs": {
       "division": "",
@@ -12494,6 +16818,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 22000,
+    "thumbnail": "e32a81c9c20d4a65e2bf1cf256b5decc.jpg",
+    "images": [
+      "e32a81c9c20d4a65e2bf1cf256b5decc.jpg"
+    ],
     "thickness": "2.2T",
     "specs": {
       "division": "",
@@ -12510,6 +16838,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 22000,
+    "thumbnail": "0e3b936627b3c0427db427edb837102c.jpg",
+    "images": [
+      "0e3b936627b3c0427db427edb837102c.jpg"
+    ],
     "thickness": "2.2T",
     "specs": {
       "division": "",
@@ -12526,6 +16858,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 22000,
+    "thumbnail": "723b966123e57e345e8cb62cc4ef9901.jpg",
+    "images": [
+      "723b966123e57e345e8cb62cc4ef9901.jpg"
+    ],
     "thickness": "2.2T",
     "specs": {
       "division": "",
@@ -12542,6 +16878,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 22000,
+    "thumbnail": "e422122de6d83eff8125db7b3c605f91.jpg",
+    "images": [
+      "e422122de6d83eff8125db7b3c605f91.jpg"
+    ],
     "thickness": "2.2T",
     "specs": {
       "division": "",
@@ -12558,6 +16898,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 22000,
+    "thumbnail": "b10594853bff9b25b5f7f04aab17a180.jpg",
+    "images": [
+      "b10594853bff9b25b5f7f04aab17a180.jpg"
+    ],
     "thickness": "2.2T",
     "specs": {
       "division": "",
@@ -12574,6 +16918,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 22000,
+    "thumbnail": "8e1981246d846812cebe1a9bc1f41316.jpg",
+    "images": [
+      "8e1981246d846812cebe1a9bc1f41316.jpg"
+    ],
     "thickness": "2.2T",
     "specs": {
       "division": "",
@@ -12590,6 +16938,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 22000,
+    "thumbnail": "d14661e7f842dd175511c5ed5dca4e9d.jpg",
+    "images": [
+      "d14661e7f842dd175511c5ed5dca4e9d.jpg"
+    ],
     "thickness": "2.2T",
     "specs": {
       "division": "",
@@ -12606,6 +16958,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 22000,
+    "thumbnail": "ce000e796f28fc307be9179201776066.jpg",
+    "images": [
+      "ce000e796f28fc307be9179201776066.jpg"
+    ],
     "thickness": "2.2T",
     "specs": {
       "division": "",
@@ -12622,6 +16978,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 22000,
+    "thumbnail": "4b895dfcb7c092e4630e492a8ecd405e.jpg",
+    "images": [
+      "4b895dfcb7c092e4630e492a8ecd405e.jpg"
+    ],
     "thickness": "2.2T",
     "specs": {
       "division": "",
@@ -12638,6 +16998,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 22000,
+    "thumbnail": "acebec00fbd003a7508d739c0a37b5e7.jpg",
+    "images": [
+      "acebec00fbd003a7508d739c0a37b5e7.jpg"
+    ],
     "thickness": "2.2T",
     "specs": {
       "division": "",
@@ -12654,6 +17018,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 22000,
+    "thumbnail": "502aeb4e260559922d1ce3bc7f04fee1.jpg",
+    "images": [
+      "502aeb4e260559922d1ce3bc7f04fee1.jpg"
+    ],
     "thickness": "2.2T",
     "specs": {
       "division": "",
@@ -12670,6 +17038,10 @@ export const materials = [
     "category": "장판",
     "line": "",
     "price": 22000,
+    "thumbnail": "ddcd060b471a1c008b25c1f7b892f2a0.jpg",
+    "images": [
+      "ddcd060b471a1c008b25c1f7b892f2a0.jpg"
+    ],
     "thickness": "2.2T",
     "specs": {
       "division": "",
