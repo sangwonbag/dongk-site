@@ -1,7 +1,8 @@
 import React, { useMemo, useState, useEffect } from "react";
 import { useLocation, useSearchParams } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
-import { materials, ALL_BRANDS, BRANDS_BY_CATEGORY } from "../../data/materials.db";
+import { materials } from "../../data/materials.db";
+import { CATEGORY_BRAND_MAP } from "../../data/categoryMap";
 import { getComputedBrand } from "../../utils/brandUtils";
 import MaterialCard from "../../components/material/MaterialCard";
 import "./Materials.css";
@@ -77,7 +78,7 @@ export default function Materials() {
   /** ✅ 브랜드 목록: 카테고리에 맞춰 가공 (요구사항 반영) */
   const visibleBrands = useMemo(() => {
     if (activeTab === "recommended") return ["all", "동신", "KCC"];
-    return ["all", ...(BRANDS_BY_CATEGORY[activeTab] || [])];
+    return ["all", ...(CATEGORY_BRAND_MAP[activeTab] || [])];
   }, [activeTab]);
 
   /** ✅ 재질 목록 (벽지 전용) */

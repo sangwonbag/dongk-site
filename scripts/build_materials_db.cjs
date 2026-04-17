@@ -9,6 +9,7 @@ const OUTPUT_FILE = path.join(PROJECT_ROOT, 'src', 'data', 'generatedMaterials.j
 function extractBrand(folderName, category) {
     if (folderName.includes('KCC')) return 'KCC';
     if (folderName.toLowerCase().includes('dongshin')) return '동신';
+    if (folderName.toLowerCase().includes('yousung')) return '유성';
     if (folderName.includes('LX') && category === '벽지') return 'LX';
     if (folderName.includes('LX')) return 'LX';
     if (folderName.includes('구정')) return '구정';
@@ -87,8 +88,25 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                     price = 35000;
                     thickness = "3.0T";
                 } else if (line.includes('보타닉')) {
-                    price = 28000;
+                    price = 35000;
                     thickness = "3.0T";
+                    if (uCode.startsWith("DBW")) {
+                        sizeLabel = "180x920mm";
+                        packing = "20pcs / 3.31㎡";
+                        type = "wood";
+                    } else if (uCode.startsWith("DBT")) {
+                        const numMatch = uCode.match(/\d+/);
+                        const num = numMatch ? parseInt(numMatch[0], 10) : 0;
+                        if (num >= 3080) {
+                            sizeLabel = "600x600mm";
+                            packing = "9pcs / 3.24㎡";
+                            type = "600";
+                        } else {
+                            sizeLabel = "450x450mm";
+                            packing = "16pcs / 3.24㎡";
+                            type = "450";
+                        }
+                    }
                 } else if (line.includes('데코레이')) {
                     price = 0; // Unknown
                     thickness = "3.0T";
@@ -177,6 +195,19 @@ function processDirectory(dirPath, category, brandFolder, lineFolder) {
             let finalCode = words[0];
             if (words.length > 1 && /^\d+/.test(words[1])) {
                 finalCode += ' ' + words[1];
+            }
+            if (brandFolder && brandFolder.toLowerCase().includes('yousung')) {
+                finalCode = words[words.length - 1]; 
+            }
+
+            // Convert contiguous 3-letter + numbers to spaced format (e.g. DBT3066 -> DBT 3066)
+            if (/^[A-Za-z]{3}\d{4,}$/.test(finalCode)) {
+                finalCode = finalCode.replace(/^([A-Za-z]{3})(\d{4,})$/, '$1 $2');
+            }
+
+            // For LX Decotiles, drop descriptive text and just use the spaced code as name
+            if (category === '데코타일' && brandFolder && brandFolder.includes('LX')) {
+                cleanName = finalCode;
             }
             
             // Build ID

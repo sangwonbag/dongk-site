@@ -1,9 +1,9 @@
 export const CATEGORY_BRAND_MAP = {
-    '데코타일': ['KCC', '동신', 'LX', '녹수', '재영', '현대'],
-    '장판': ['LX 1.8T', 'LX 2.0T', 'LX 3.0T', 'LX 4.0T', 'LX 5.0T'],
-    '마루': ['이건', '동화', '구정'],
+    '데코타일': ['KCC', '동신', 'LX', '녹수', '재영', '유성', '현대'],
+    '장판': ['LX 1.8T', 'LX 2.0T', 'LX 2.2T', 'LX 2.7T', 'LX 3.2T', 'LX 4.5T', 'LX 5.0T'],
+    '마루': ['동화', '구정'],
     '벽지': ['LX', '개나리', '서울', '제일', '디아이디', '신한(KCC)'],
-    '카페트타일': ['스완', '어반']
+    '카페트타일': ['스완', '아반']
 };
 
 // Maps internal English category keys to Korean display keys if needed

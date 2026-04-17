@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo } from "react";
 import { useLocation } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { sampleBooks } from "../../data/samplebooks.db";
-import { BRANDS_BY_CATEGORY, ALL_BRANDS } from "../../data/materials.db";
+import { CATEGORY_BRAND_MAP } from "../../data/categoryMap";
 import { getComputedBrand } from "../../utils/brandUtils";
 import SampleBookViewer from "../../components/samplebook/SampleBookViewer";
 import SampleBookCard from "../../components/samplebook/SampleBookCard";
@@ -53,27 +53,11 @@ export default function SampleBooks() {
   const brands = useMemo(() => {
     if (activeTab === "recommended") {
       // 추천 탭인 경우 중복 제거된 전체 브랜드 목록 표시
-      const uniqueBrands = [...new Set(ALL_BRANDS)];
+      const uniqueBrands = [...new Set(Object.values(CATEGORY_BRAND_MAP).flat())];
       return ["all", ...uniqueBrands];
     }
     // 자재 데이터의 브랜드 목록 사용
-    let categoryBrands = [...(BRANDS_BY_CATEGORY[activeTab] || [])];
-
-    if (activeTab === "장판") {
-      // 샘플북 예외: LX2.7T와 LX3.2T를 "LX2.7T/3.2T"로 묶음
-      const has27 = categoryBrands.includes("LX2.7T");
-      const has32 = categoryBrands.includes("LX3.2T");
-      if (has27 || has32) {
-        categoryBrands = categoryBrands.filter(b => b !== "LX2.7T" && b !== "LX3.2T");
-        // LX2.2T 다음 또는 적절한 위치에 삽입
-        const idx = categoryBrands.indexOf("LX2.2T");
-        if (idx !== -1) {
-          categoryBrands.splice(idx + 1, 0, "LX2.7T/3.2T");
-        } else {
-          categoryBrands.push("LX2.7T/3.2T");
-        }
-      }
-    }
+    let categoryBrands = [...(CATEGORY_BRAND_MAP[activeTab] || [])];
 
     return ["all", ...categoryBrands];
   }, [activeTab]);
@@ -93,9 +77,6 @@ export default function SampleBooks() {
 
       if (selectedBrand === "all") {
         brandOk = true;
-      } else if (selectedBrand === "LX2.7T/3.2T") {
-        // "LX2.7T/3.2T" 선택 시 두 두께 모두 포함
-        brandOk = sbComputedBrand === "LX2.7T" || sbComputedBrand === "LX3.2T";
       } else {
         brandOk = sbComputedBrand === selectedBrand;
       }
