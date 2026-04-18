@@ -29,6 +29,7 @@ function extractBrand(folderName, category) {
     if (folderName.includes('제일')) return '제일';
     if (folderName.includes('스완')) return '스완';
     if (folderName.includes('아반')) return '아반';
+    if (folderName.toLowerCase().includes('noksu')) return '녹수';
     return folderName;
 }
 
@@ -159,6 +160,91 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                         packing = "24pcs / 3.31㎡";
                         division = "우드";
                         type = "wood";
+                    }
+                }
+            } else if (brand === '녹수') {
+                if (line.includes('프라임1500')) {
+                    if (line.includes('우드') || uCode.startsWith("NPW")) {
+                        sizeLabel = "184x950mm";
+                        packing = "19pcs/Box (3.32m²)";
+                        thickness = "3.0T";
+                        type = "wood";
+                    } else if (line.includes('450각')) {
+                        sizeLabel = "457.2x457.2mm";
+                        packing = "16pcs/Box (3.34m²)";
+                        thickness = "3.0T";
+                        type = "450";
+                    } else if (line.includes('600각')) {
+                        sizeLabel = "600x600mm";
+                        packing = "9pcs/Box (3.24m²)";
+                        thickness = "3.0T";
+                        type = "600";
+                    }
+                } else if (line.includes('세타그립')) {
+                    if (line.includes('450각')) {
+                        sizeLabel = "457.2x457.2mm";
+                        packing = "14pcs/Box (2.93m²)";
+                        thickness = "3.5T";
+                        type = "450";
+                    } else if (line.includes('우드')) {
+                        sizeLabel = "152.4x1219.2mm";
+                        packing = "16pcs/Box (2.97m²)";
+                        thickness = "3.5T";
+                        type = "wood";
+                    }
+                } else if (line.includes('오키드3000')) {
+                    if (line.includes('우드450')) {
+                        sizeLabel = "457.2x914.4mm";
+                        packing = "8pcs/Box (3.34m²)";
+                        thickness = "3.0T";
+                        type = "wood";
+                    } else if (line.includes('우드1200')) {
+                        sizeLabel = "180x1200mm";
+                        packing = "15pcs/Box (3.24m²)";
+                        thickness = "3.0T";
+                        type = "wood";
+                    } else if (line.includes('우드150') || line.includes('프리미엄_우드')) {
+                        sizeLabel = "152.4x914.4mm";
+                        packing = "24pcs/Box (3.34m²)";
+                        thickness = "3.0T";
+                        type = "wood";
+                    } else if (line.includes('우드') || uCode.startsWith("NOW")) {
+                        sizeLabel = "186x940mm";
+                        packing = "18pcs/Box (3.15m²)";
+                        thickness = "3.0T";
+                        type = "wood";
+                    } else if (line.includes('900각')) {
+                        sizeLabel = "914.4x914.4mm";
+                        packing = "6pcs/Box (5.02m²)";
+                        thickness = "3.0T";
+                        type = "900";
+                    } else if (line.includes('프리미엄_600각')) {
+                        sizeLabel = "609.6x609.6mm";
+                        packing = "9pcs/Box (3.34m²)";
+                        thickness = "3.0T";
+                        type = "600";
+                    } else if (line.includes('600각')) {
+                        sizeLabel = "600x600mm";
+                        packing = "9pcs/Box (3.24m²)";
+                        thickness = "3.0T";
+                        type = "600";
+                    } else if (line.includes('450각')) {
+                        sizeLabel = "457.2x457.2mm";
+                        packing = "16pcs/Box (3.34m²)";
+                        thickness = "3.0T";
+                        type = "450";
+                    }
+                } else if (line.includes('에코홈2000')) {
+                    if (line.includes('우드') || uCode.startsWith("NEW")) {
+                        sizeLabel = "180x920mm";
+                        packing = "19pcs/Box (3.15m²)";
+                        thickness = "3.0T";
+                        type = "wood";
+                    } else if (line.includes('600각')) {
+                        sizeLabel = "600x600mm";
+                        packing = "9pcs/Box (3.24m²)";
+                        thickness = "3.0T";
+                        type = "600";
                     }
                 }
             }
@@ -296,6 +382,7 @@ function processDirectory(dirPath, category, brandFolder, lineFolder) {
                 if (brandFolder.includes('dongshin')) id = `DS-${finalCode}`;
                 if (brandFolder.includes('KCC')) id = finalCode;
                 if (brandFolder.includes('LX')) id = `LX-${finalCode}`;
+                if (brandFolder.toLowerCase().includes('noksu')) id = `NOKSU-${finalCode}`;
             } else if (category === '벽지' && brandFolder.includes('LX')) {
                 id = `LXW-${finalCode}`;
             }
