@@ -164,6 +164,7 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                 }
             } else if (brand === '녹수') {
                 if (line.includes('프라임1500')) {
+                    price = 21500;
                     if (line.includes('우드') || uCode.startsWith("NPW")) {
                         sizeLabel = "184x950mm";
                         packing = "19pcs/Box (3.32m²)";
@@ -193,6 +194,7 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                         type = "wood";
                     }
                 } else if (line.includes('오키드3000')) {
+                    price = 32000;
                     if (line.includes('우드450')) {
                         sizeLabel = "457.2x914.4mm";
                         packing = "8pcs/Box (3.34m²)";
@@ -228,13 +230,19 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                         packing = "9pcs/Box (3.24m²)";
                         thickness = "3.0T";
                         type = "600";
-                    } else if (line.includes('450각')) {
+                    } else if (line.includes('프리미엄_450각')) {
                         sizeLabel = "457.2x457.2mm";
                         packing = "16pcs/Box (3.34m²)";
                         thickness = "3.0T";
                         type = "450";
+                    } else if (line.includes('450각')) {
+                        sizeLabel = "457.2x457.2mm";
+                        packing = "15pcs/Box (3.14m²)";
+                        thickness = "3.0T";
+                        type = "450";
                     }
                 } else if (line.includes('에코홈2000')) {
+                    price = 32000;
                     if (line.includes('우드') || uCode.startsWith("NEW")) {
                         sizeLabel = "180x920mm";
                         packing = "19pcs/Box (3.15m²)";
@@ -312,10 +320,23 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
             } else if (brand.includes('신한')) {
                 materialType = line.includes('실크') || line.includes('스케치') || line.includes('리빙') || line.includes('월가드') ? "실크" : "합지";
             } else if (brand === 'LX') {
-                materialType = line.includes('디아망') || line.includes('베스트') || line.includes('테라피') ? "실크" : "실크";
+                if (line.includes('디아망') || uCode.startsWith('PR0') || uCode.startsWith('PRO') || uCode.startsWith('DF')) {
+                    materialType = "디아망";
+                } else if (uCode.startsWith('4')) {
+                    materialType = "합지";
+                } else {
+                    materialType = "실크";
+                }
             } else if (brand === '제일') {
                 materialType = line.includes('실크') ? "실크" : "합지";
                 if (!line) materialType = "합지";
+            } else if (brand === '개나리') {
+                if (line.includes('프리미엄')) {
+                    materialType = "프리미엄";
+                    sizeLabel = "1.06m(W) x 15.6m(H) / Roll";
+                    price = 99000;
+                    packing = "2 Roll";
+                }
             }
             break;
     }

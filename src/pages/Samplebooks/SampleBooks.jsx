@@ -49,6 +49,11 @@ export default function SampleBooks() {
     setSelectedMaterialType("all");
   }, [activeTab]);
 
+  // 브랜드 변경 시 재질 필터 초기화
+  useEffect(() => {
+    setSelectedMaterialType("all");
+  }, [selectedBrand]);
+
   /** ✅ 해당 카테고리에 속한 브랜드 목록 (자재 페이지와 동일하게) */
   const brands = useMemo(() => {
     if (activeTab === "recommended") {
@@ -137,7 +142,7 @@ export default function SampleBooks() {
           {/* ✅ 벽지인 경우 재질 필터 추가 */}
           {activeTab === "벽지" && (
             <div className="brand-filter-row material-type-row">
-              {["all", "합지", "실크", "방염"].map((t) => (
+              {(selectedBrand === "all" ? ["all"] : selectedBrand === "개나리" ? ["all", "프리미엄", "합지", "실크", "방염"] : ["all", "합지", "실크", "방염"]).map((t) => (
                 <button
                   key={t}
                   className={`brand-chip material-chip ${selectedMaterialType === t ? "active" : ""}`}
@@ -166,7 +171,7 @@ export default function SampleBooks() {
               ))}
             </div>
           ) : (
-            <div className="no-results">검색 결과가 없습니다.</div>
+            <div className="no-results">상품 준비중입니다.</div>
           )}
         </main>
       </div>

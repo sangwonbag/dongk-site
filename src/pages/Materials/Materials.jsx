@@ -28,6 +28,7 @@ export default function Materials() {
   const activeTab = searchParams.get("category") || "recommended";
   const activeBrand = searchParams.get("brand") || "all";
   const activeMaterialType = searchParams.get("type") || "all";
+  const activeNoksuLine = searchParams.get("line") || "all";
   const searchText = searchParams.get("search") || "";
 
   // Pagination state
@@ -36,7 +37,7 @@ export default function Materials() {
   // Reset pagination when filters change
   useEffect(() => {
     setVisibleCount(100);
-  }, [activeTab, activeBrand, activeMaterialType, searchText]);
+  }, [activeTab, activeBrand, activeMaterialType, activeNoksuLine, searchText]);
 
   // Update query params helper
   const updateParams = (updates) => {
@@ -55,14 +56,15 @@ export default function Materials() {
 
   const setActiveTab = (tab) => {
     if (tab === "recommended") {
-      updateParams({ category: null, brand: null, type: null }); // Default view
+      updateParams({ category: null, brand: null, type: null, line: null }); // Default view
     } else {
-      updateParams({ category: tab, brand: null, type: null });
+      updateParams({ category: tab, brand: null, type: null, line: null });
     }
   };
 
-  const setActiveBrand = (brand) => updateParams({ brand, type: null });
+  const setActiveBrand = (brand) => updateParams({ brand, type: null, line: null });
   const setActiveMaterialType = (type) => updateParams({ type });
+  const setActiveNoksuLine = (line) => updateParams({ line });
 
   // Scroll restoration on return
   useEffect(() => {
@@ -82,7 +84,7 @@ export default function Materials() {
   }, [activeTab]);
 
   /** ✅ 재질 목록 (벽지 전용) */
-  const MATERIAL_TYPES = ["all", "합지", "실크", "방염"];
+  const MATERIAL_TYPES = ["all", "프리미엄", "디아망", "합지", "실크", "방염"];
 
   /** ✅ 최종 필터링: (카테고리/추천) + (브랜드) + (재질) + (검색) */
   const filtered = useMemo(() => {
@@ -113,6 +115,12 @@ export default function Materials() {
         materialOk = (m.materialType === activeMaterialType);
       }
 
+      // 3-1) 녹수 데코타일 라인 필터
+      let noksuLineOk = true;
+      if (activeTab === "데코타일" && activeBrand === "녹수" && activeNoksuLine !== "all") {
+        noksuLineOk = (m.line || "").includes(activeNoksuLine);
+      }
+
       // 4) 검색 필터
       const searchOk = !s
         ? true
@@ -120,9 +128,9 @@ export default function Materials() {
           (m.code || "").toLowerCase().includes(s) ||
           mComputedBrand.toLowerCase().includes(s));
 
-      return tabOk && brandOk && materialOk && searchOk;
+      return tabOk && brandOk && materialOk && noksuLineOk && searchOk;
     });
-  }, [activeTab, activeBrand, activeMaterialType, searchText]);
+  }, [activeTab, activeBrand, activeMaterialType, activeNoksuLine, searchText]);
 
   return (
     <MainLayout>
@@ -154,10 +162,25 @@ export default function Materials() {
             ))}
           </div>
 
+          {/* ✅ 녹수 데코타일 라인업 필터 */}
+          {activeTab === "데코타일" && activeBrand === "녹수" && (
+            <div className="material-type-row">
+              {["all", "세타그립", "프라임1500", "에코홈2000", "오키드3000"].map((lineName) => (
+                <button
+                  key={lineName}
+                  className={`material-type-chip ${activeNoksuLine === lineName ? "active" : ""}`}
+                  onClick={() => setActiveNoksuLine(lineName)}
+                >
+                  {lineName === "all" ? "전체 라인업" : lineName}
+                </button>
+              ))}
+            </div>
+          )}
+
           {/* ✅ 재질 필터 (벽지일 때 브랜드가 선택된 경우 혹은 전체일 때 노출) */}
           {activeTab === "벽지" && (
             <div className="material-type-row">
-              {MATERIAL_TYPES.map((t) => (
+              {(activeBrand === "all" ? ["all"] : activeBrand === "개나리" ? ["all", "프리미엄", "합지", "실크", "방염"] : activeBrand === "LX" ? ["all", "디아망", "합지", "실크", "방염"] : ["all", "합지", "실크", "방염"]).map((t) => (
                 <button
                   key={t}
                   className={`material-type-chip ${activeMaterialType === t ? "active" : ""}`}
@@ -210,7 +233,7 @@ export default function Materials() {
                 )}
               </>
             ) : (
-              <div className="no-results">검색 결과가 없습니다.</div>
+              <div className="no-results">상품 준비중입니다.</div>
             )}
           </div>
         </main>
