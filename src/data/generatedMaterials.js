@@ -6141,11 +6141,11 @@ export const materials = [
     "name": "PR002-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "9fbb91fb05fd8f22e7206dc35d3b1ed6.jpg",
+    "thumbnail": "85328b5b1750780eb292a006302ef94a.jpg",
     "images": [
-      "9fbb91fb05fd8f22e7206dc35d3b1ed6.jpg"
+      "85328b5b1750780eb292a006302ef94a.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6155,11 +6155,11 @@ export const materials = [
     "name": "PR002-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "48cc0ae456ed36b19a40438f2d32fedf.jpg",
+    "thumbnail": "48086db6936b84386bfa4e4ae3f41362.jpg",
     "images": [
-      "48cc0ae456ed36b19a40438f2d32fedf.jpg"
+      "48086db6936b84386bfa4e4ae3f41362.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6169,11 +6169,11 @@ export const materials = [
     "name": "PR002-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "4d93f231353d5d77404e658a6170ee70.jpg",
+    "thumbnail": "1d2888559d7135212f2cbc6fbbd13cd0.jpg",
     "images": [
-      "4d93f231353d5d77404e658a6170ee70.jpg"
+      "1d2888559d7135212f2cbc6fbbd13cd0.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6183,11 +6183,11 @@ export const materials = [
     "name": "PR002-10",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "db407ae1a572d14c6cb3d5d374b50f0a.jpg",
+    "thumbnail": "8239776bf116fba2ea82bac421f304c3.jpg",
     "images": [
-      "db407ae1a572d14c6cb3d5d374b50f0a.jpg"
+      "8239776bf116fba2ea82bac421f304c3.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6197,11 +6197,11 @@ export const materials = [
     "name": "PR002-11",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "286c225087becea65a1f5050b9c3f96b.jpg",
+    "thumbnail": "8bff27e8c6c2bf7d886c307270d364a6.jpg",
     "images": [
-      "286c225087becea65a1f5050b9c3f96b.jpg"
+      "8bff27e8c6c2bf7d886c307270d364a6.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6211,11 +6211,11 @@ export const materials = [
     "name": "PR002-12",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "d2aaa04d86c4f6f86b218a39ce0aa597.jpg",
+    "thumbnail": "70e2d64a514c8c4750025956972dc37d.jpg",
     "images": [
-      "d2aaa04d86c4f6f86b218a39ce0aa597.jpg"
+      "70e2d64a514c8c4750025956972dc37d.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6225,11 +6225,11 @@ export const materials = [
     "name": "PR002-13",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "45fc4237faac589265127551c28c29eb.jpg",
+    "thumbnail": "9140b0ca9c237cf1193ce4da7830b584.jpg",
     "images": [
-      "45fc4237faac589265127551c28c29eb.jpg"
+      "9140b0ca9c237cf1193ce4da7830b584.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6239,11 +6239,11 @@ export const materials = [
     "name": "PR003-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "6b0ca750c4bb05c86da0d7fb88d50082.jpg",
+    "thumbnail": "5b2196b0f75ca58fee9f0e9a2782e08e.jpg",
     "images": [
-      "6b0ca750c4bb05c86da0d7fb88d50082.jpg"
+      "5b2196b0f75ca58fee9f0e9a2782e08e.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6253,11 +6253,11 @@ export const materials = [
     "name": "PR003-10",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "414ad76bf0a500c2d6ddc2148b193e5e.jpg",
+    "thumbnail": "09d188af447322ae94ddae9248f2147d.jpg",
     "images": [
-      "414ad76bf0a500c2d6ddc2148b193e5e.jpg"
+      "09d188af447322ae94ddae9248f2147d.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6267,11 +6267,11 @@ export const materials = [
     "name": "PR010-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "4d0a39c2ff5f66c66c6919210420d799.jpg",
+    "thumbnail": "8136812bced911711541fd73e4919d04.jpg",
     "images": [
-      "4d0a39c2ff5f66c66c6919210420d799.jpg"
+      "8136812bced911711541fd73e4919d04.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6281,11 +6281,11 @@ export const materials = [
     "name": "PR011-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "60b24a9311a43a155a4a7139186ef5ba.jpg",
+    "thumbnail": "a73ae760a4c87da8b41c56cfb0db19f7.jpg",
     "images": [
-      "60b24a9311a43a155a4a7139186ef5ba.jpg"
+      "a73ae760a4c87da8b41c56cfb0db19f7.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6295,11 +6295,11 @@ export const materials = [
     "name": "PR011-07",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "1e23d89857886f59fcf7306e25fab3a1.jpg",
+    "thumbnail": "037dda57cc3fcad5b5474382bbb5e055.jpg",
     "images": [
-      "1e23d89857886f59fcf7306e25fab3a1.jpg"
+      "037dda57cc3fcad5b5474382bbb5e055.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6309,11 +6309,11 @@ export const materials = [
     "name": "PR014-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "5daff69484c599d5366d09b37fcf779a.jpg",
+    "thumbnail": "05c1736a368f304711a5ec6b5de5948f.jpg",
     "images": [
-      "5daff69484c599d5366d09b37fcf779a.jpg"
+      "05c1736a368f304711a5ec6b5de5948f.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6323,11 +6323,11 @@ export const materials = [
     "name": "PR016-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "d4377b97dc25d44c7154217469dd72e3.jpg",
+    "thumbnail": "692eab7f33266bf846602cb8388a9c72.jpg",
     "images": [
-      "d4377b97dc25d44c7154217469dd72e3.jpg"
+      "692eab7f33266bf846602cb8388a9c72.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6337,11 +6337,11 @@ export const materials = [
     "name": "PR018-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "8bcb05f900027ca204b9a967724000b1.jpg",
+    "thumbnail": "6aedd588f288dcfe8096da4e0a5c5965.jpg",
     "images": [
-      "8bcb05f900027ca204b9a967724000b1.jpg"
+      "6aedd588f288dcfe8096da4e0a5c5965.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6351,11 +6351,11 @@ export const materials = [
     "name": "PR018-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "a4478cdc1b1ec1a5b2c589ce8fce713d.jpg",
+    "thumbnail": "cdba4bdcdb9a543fca6eec466a60ea95.jpg",
     "images": [
-      "a4478cdc1b1ec1a5b2c589ce8fce713d.jpg"
+      "cdba4bdcdb9a543fca6eec466a60ea95.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6365,11 +6365,11 @@ export const materials = [
     "name": "PR025-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "ccd1871cb8d01d95ef7f0a8de0612ae3.jpg",
+    "thumbnail": "1626251ddf843fbf376cb52bd3f4f198.jpg",
     "images": [
-      "ccd1871cb8d01d95ef7f0a8de0612ae3.jpg"
+      "1626251ddf843fbf376cb52bd3f4f198.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6379,11 +6379,11 @@ export const materials = [
     "name": "PR027-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "1677f6080b80139eabd92b6157baddc0.jpg",
+    "thumbnail": "674eb58596fee635e70e0e8f515e2b92.jpg",
     "images": [
-      "1677f6080b80139eabd92b6157baddc0.jpg"
+      "674eb58596fee635e70e0e8f515e2b92.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6393,11 +6393,11 @@ export const materials = [
     "name": "PR027-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "327c21c79177967d3026220dfab356b6.jpg",
+    "thumbnail": "935d0eaababb6b9aa286d0ee6d3ea487.jpg",
     "images": [
-      "327c21c79177967d3026220dfab356b6.jpg"
+      "935d0eaababb6b9aa286d0ee6d3ea487.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6407,11 +6407,11 @@ export const materials = [
     "name": "PR027-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "a83bf4e8fd4fb7149cf245c97d9b79d9.jpg",
+    "thumbnail": "d85edc15e4ca3334739a5062285db69a.jpg",
     "images": [
-      "a83bf4e8fd4fb7149cf245c97d9b79d9.jpg"
+      "d85edc15e4ca3334739a5062285db69a.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6421,11 +6421,11 @@ export const materials = [
     "name": "PR028-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "c5893b3392627cb19245e02319290923.jpg",
+    "thumbnail": "747ad0b71da687c23529bd979f08ba96.jpg",
     "images": [
-      "c5893b3392627cb19245e02319290923.jpg"
+      "747ad0b71da687c23529bd979f08ba96.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6435,11 +6435,11 @@ export const materials = [
     "name": "PR028-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "0978de6f4b489759ee84567d52b82103.jpg",
+    "thumbnail": "2beb332256c42422f0d1bdeab12a5b76.jpg",
     "images": [
-      "0978de6f4b489759ee84567d52b82103.jpg"
+      "2beb332256c42422f0d1bdeab12a5b76.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6449,11 +6449,11 @@ export const materials = [
     "name": "PR029-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "4c7e3e1181d3d0a1b8e83074821dbd90.jpg",
+    "thumbnail": "b91df187ce546ed0c87e4b68201575cd.jpg",
     "images": [
-      "4c7e3e1181d3d0a1b8e83074821dbd90.jpg"
+      "b91df187ce546ed0c87e4b68201575cd.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6463,11 +6463,11 @@ export const materials = [
     "name": "PR029-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "742babfe91b30385c6f80e49fbe0953c.jpg",
+    "thumbnail": "0da93ba4fdfc43d432499b9bd1beda58.jpg",
     "images": [
-      "742babfe91b30385c6f80e49fbe0953c.jpg"
+      "0da93ba4fdfc43d432499b9bd1beda58.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6477,11 +6477,11 @@ export const materials = [
     "name": "PR030-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "33628473c35219f6c456e048f9dbf870.jpg",
+    "thumbnail": "46699f0fef791882f1d6966beff21011.jpg",
     "images": [
-      "33628473c35219f6c456e048f9dbf870.jpg"
+      "46699f0fef791882f1d6966beff21011.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6491,11 +6491,11 @@ export const materials = [
     "name": "PR030-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "597514fe824e84700bd5978dbc08da14.jpg",
+    "thumbnail": "82703eecb80f7bb92c35bc7d85ce69da.jpg",
     "images": [
-      "597514fe824e84700bd5978dbc08da14.jpg"
+      "82703eecb80f7bb92c35bc7d85ce69da.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6505,11 +6505,11 @@ export const materials = [
     "name": "PR030-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "d2101b9b4c18d4ad8077558662d496e9.jpg",
+    "thumbnail": "cd6435083a55c3af460cfdcb736ccd2e.jpg",
     "images": [
-      "d2101b9b4c18d4ad8077558662d496e9.jpg"
+      "cd6435083a55c3af460cfdcb736ccd2e.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6519,11 +6519,11 @@ export const materials = [
     "name": "PR031-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "cc93969ec19ac9229727f5a71f71ebf8.jpg",
+    "thumbnail": "cb7e43013e941e4be5b2a03e56030283.jpg",
     "images": [
-      "cc93969ec19ac9229727f5a71f71ebf8.jpg"
+      "cb7e43013e941e4be5b2a03e56030283.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6533,11 +6533,11 @@ export const materials = [
     "name": "PR031-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "c529d3444e263b4c347b20bdb63732d7.jpg",
+    "thumbnail": "ce6f524311e70c16982cfd2022855c73.jpg",
     "images": [
-      "c529d3444e263b4c347b20bdb63732d7.jpg"
+      "ce6f524311e70c16982cfd2022855c73.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6547,11 +6547,11 @@ export const materials = [
     "name": "PR031-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "bb6a02044cff4981a0a01bdadaf7b305.jpg",
+    "thumbnail": "c380be3341e3461c4a5c7a722a045b80.jpg",
     "images": [
-      "bb6a02044cff4981a0a01bdadaf7b305.jpg"
+      "c380be3341e3461c4a5c7a722a045b80.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6561,11 +6561,11 @@ export const materials = [
     "name": "PR031-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "4bc89ff004f29225b9a277f61f46728a.jpg",
+    "thumbnail": "93c9fcf920e46ce5bc502a1b507b40bf.jpg",
     "images": [
-      "4bc89ff004f29225b9a277f61f46728a.jpg"
+      "93c9fcf920e46ce5bc502a1b507b40bf.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6575,11 +6575,11 @@ export const materials = [
     "name": "PR033-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "3edd1a99cae708696096ecb07f1d5b35.jpg",
+    "thumbnail": "aac627a1594067aee3b52e2cf1e82487.jpg",
     "images": [
-      "3edd1a99cae708696096ecb07f1d5b35.jpg"
+      "aac627a1594067aee3b52e2cf1e82487.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6589,11 +6589,11 @@ export const materials = [
     "name": "PR033-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "120dd42a7396412239b61348b1ec6127.jpg",
+    "thumbnail": "8cb2f5c4e0f47604bdd98a6409bfb3b2.jpg",
     "images": [
-      "120dd42a7396412239b61348b1ec6127.jpg"
+      "8cb2f5c4e0f47604bdd98a6409bfb3b2.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6603,11 +6603,11 @@ export const materials = [
     "name": "PR033-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "5896d3e9792d0b69030670db78d79413.jpg",
+    "thumbnail": "5bf619e7425c72cd2b053d3af5c32cc5.jpg",
     "images": [
-      "5896d3e9792d0b69030670db78d79413.jpg"
+      "5bf619e7425c72cd2b053d3af5c32cc5.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6617,11 +6617,11 @@ export const materials = [
     "name": "PR034-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "8b1cd9bdd5d678ae574613a8c2c4a5b7.jpg",
+    "thumbnail": "51f8e38829d99d89f2879810faeb42e3.jpg",
     "images": [
-      "8b1cd9bdd5d678ae574613a8c2c4a5b7.jpg"
+      "51f8e38829d99d89f2879810faeb42e3.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6631,11 +6631,11 @@ export const materials = [
     "name": "PR034-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "f9c27edf28224471e822b315b2209b7e.jpg",
+    "thumbnail": "85da8a6b5a5706e2a4996cf2e5f8b2f3.jpg",
     "images": [
-      "f9c27edf28224471e822b315b2209b7e.jpg"
+      "85da8a6b5a5706e2a4996cf2e5f8b2f3.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6645,11 +6645,11 @@ export const materials = [
     "name": "PR043-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "8ce3e4d7a4c866c0861fc8bf44e6f0ce.jpg",
+    "thumbnail": "e246737f9fbafb739b1d8420b4bae02f.jpg",
     "images": [
-      "8ce3e4d7a4c866c0861fc8bf44e6f0ce.jpg"
+      "e246737f9fbafb739b1d8420b4bae02f.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6659,11 +6659,11 @@ export const materials = [
     "name": "PR043-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "f9a3e439d21c9b46262e57e6c949c2c2.jpg",
+    "thumbnail": "1543000212162d784b71ee51c525d62f.jpg",
     "images": [
-      "f9a3e439d21c9b46262e57e6c949c2c2.jpg"
+      "1543000212162d784b71ee51c525d62f.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6673,11 +6673,11 @@ export const materials = [
     "name": "PR043-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "1fdc5c9f9f61c59e7b49981085cfb9c8.jpg",
+    "thumbnail": "87b083e9dad2614d9ec623f02ffd222b.jpg",
     "images": [
-      "1fdc5c9f9f61c59e7b49981085cfb9c8.jpg"
+      "87b083e9dad2614d9ec623f02ffd222b.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6687,11 +6687,11 @@ export const materials = [
     "name": "PR043-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "bdd315b157c12fbadbdbf287edba7372.jpg",
+    "thumbnail": "3882afe7b423513f706041bf016e16d8.jpg",
     "images": [
-      "bdd315b157c12fbadbdbf287edba7372.jpg"
+      "3882afe7b423513f706041bf016e16d8.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6701,11 +6701,11 @@ export const materials = [
     "name": "PR043-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "9a2c61bd9f48431971ff8f84690eca05.jpg",
+    "thumbnail": "334db2ff778f8578a499105561b20e83.jpg",
     "images": [
-      "9a2c61bd9f48431971ff8f84690eca05.jpg"
+      "334db2ff778f8578a499105561b20e83.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6715,11 +6715,11 @@ export const materials = [
     "name": "PR043-06",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "ff88932f6a31990505f243203efa652b.jpg",
+    "thumbnail": "04a661b2f9cbd8684941aada974844d6.jpg",
     "images": [
-      "ff88932f6a31990505f243203efa652b.jpg"
+      "04a661b2f9cbd8684941aada974844d6.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6729,11 +6729,11 @@ export const materials = [
     "name": "PR043-07",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "0225b0842f3c6a2143b199c2a354c3de.jpg",
+    "thumbnail": "e6ba8443cdfd4c2eae0afb630707f18c.jpg",
     "images": [
-      "0225b0842f3c6a2143b199c2a354c3de.jpg"
+      "e6ba8443cdfd4c2eae0afb630707f18c.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6743,11 +6743,11 @@ export const materials = [
     "name": "PR044-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "aaba5982e4d1b1443ca5eaac2d2b3bff.jpg",
+    "thumbnail": "ad100409453dfc69eb12d661bd9babef.jpg",
     "images": [
-      "aaba5982e4d1b1443ca5eaac2d2b3bff.jpg"
+      "ad100409453dfc69eb12d661bd9babef.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6757,11 +6757,11 @@ export const materials = [
     "name": "PR044-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "1f2eff267ee74974bf6e11a313f65971.jpg",
+    "thumbnail": "0f20a90b0828b89e9becd8cdcb708667.jpg",
     "images": [
-      "1f2eff267ee74974bf6e11a313f65971.jpg"
+      "0f20a90b0828b89e9becd8cdcb708667.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6771,11 +6771,11 @@ export const materials = [
     "name": "PR044-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "40697821bee70365117d727f32165c3b.jpg",
+    "thumbnail": "bbb671595924089a53f1812455e04262.jpg",
     "images": [
-      "40697821bee70365117d727f32165c3b.jpg"
+      "bbb671595924089a53f1812455e04262.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6785,11 +6785,11 @@ export const materials = [
     "name": "PR044-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "85dc7cd7aa00356f5bba8531aa2c5b7c.jpg",
+    "thumbnail": "01f96a2413482eea56d2b8a66803795d.jpg",
     "images": [
-      "85dc7cd7aa00356f5bba8531aa2c5b7c.jpg"
+      "01f96a2413482eea56d2b8a66803795d.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6799,11 +6799,11 @@ export const materials = [
     "name": "PR044-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "f8354428bdbb5b29ddbf28e684432858.jpg",
+    "thumbnail": "5f4664576d1ef618e6f6e34cc95b503c.jpg",
     "images": [
-      "f8354428bdbb5b29ddbf28e684432858.jpg"
+      "5f4664576d1ef618e6f6e34cc95b503c.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6813,11 +6813,11 @@ export const materials = [
     "name": "PR044-06",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "6bb50968f633335497c4f7ecd197ec25.jpg",
+    "thumbnail": "3c6ec55fc9b0fbdd52b4ac781c2931ab.jpg",
     "images": [
-      "6bb50968f633335497c4f7ecd197ec25.jpg"
+      "3c6ec55fc9b0fbdd52b4ac781c2931ab.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6827,11 +6827,11 @@ export const materials = [
     "name": "PR045-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "4e3e6071585eb5de21772082357a67f6.jpg",
+    "thumbnail": "c5d11ba916110da363e6df7438ca0304.jpg",
     "images": [
-      "4e3e6071585eb5de21772082357a67f6.jpg"
+      "c5d11ba916110da363e6df7438ca0304.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6841,11 +6841,11 @@ export const materials = [
     "name": "PR045-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "d8225ec771e2dce50fad0ee8091eb48c.jpg",
+    "thumbnail": "529556dd0832313ff6a0413ac77be3c5.jpg",
     "images": [
-      "d8225ec771e2dce50fad0ee8091eb48c.jpg"
+      "529556dd0832313ff6a0413ac77be3c5.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6855,11 +6855,11 @@ export const materials = [
     "name": "PR045-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "3d3d7e9dbe46590007e2920caa448914.jpg",
+    "thumbnail": "833dd2ab506450edda12f7d35f614887.jpg",
     "images": [
-      "3d3d7e9dbe46590007e2920caa448914.jpg"
+      "833dd2ab506450edda12f7d35f614887.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6869,11 +6869,11 @@ export const materials = [
     "name": "PR045-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "bff7eaff289f5b4c4740a6f9014122cf.jpg",
+    "thumbnail": "99a929a5e89adc78d3a91f8bfe393df8.jpg",
     "images": [
-      "bff7eaff289f5b4c4740a6f9014122cf.jpg"
+      "99a929a5e89adc78d3a91f8bfe393df8.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6883,11 +6883,11 @@ export const materials = [
     "name": "PR045-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "ebedbd978ede01a3352e5db1a26c249e.jpg",
+    "thumbnail": "756126beba81a20b03ef8247a0c256ff.jpg",
     "images": [
-      "ebedbd978ede01a3352e5db1a26c249e.jpg"
+      "756126beba81a20b03ef8247a0c256ff.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6897,11 +6897,11 @@ export const materials = [
     "name": "PR046-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "034d3bfe5c0e085e37a75888966c0e5e.jpg",
+    "thumbnail": "6c02a027c6f34357381336742e48aa4c.jpg",
     "images": [
-      "034d3bfe5c0e085e37a75888966c0e5e.jpg"
+      "6c02a027c6f34357381336742e48aa4c.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6911,11 +6911,11 @@ export const materials = [
     "name": "PR046-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "71412a6c886694caadc8ba51fc640c06.jpg",
+    "thumbnail": "e3f159a62a38b74c422c940713e3ade4.jpg",
     "images": [
-      "71412a6c886694caadc8ba51fc640c06.jpg"
+      "e3f159a62a38b74c422c940713e3ade4.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6925,11 +6925,11 @@ export const materials = [
     "name": "PR046-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "b9ace4efed9a315977e2708e99da7177.jpg",
+    "thumbnail": "f952c65cd7a65be532ac386a7fc760e7.jpg",
     "images": [
-      "b9ace4efed9a315977e2708e99da7177.jpg"
+      "f952c65cd7a65be532ac386a7fc760e7.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6939,11 +6939,11 @@ export const materials = [
     "name": "PR046-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "bab0bfed528a9c6546b55e380c40c0d3.jpg",
+    "thumbnail": "b15580b0fe504697423a139e8fa3e9e9.jpg",
     "images": [
-      "bab0bfed528a9c6546b55e380c40c0d3.jpg"
+      "b15580b0fe504697423a139e8fa3e9e9.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6953,11 +6953,11 @@ export const materials = [
     "name": "PR046-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "1dd1f833c96e7a7a787bb766014d64f9.jpg",
+    "thumbnail": "e4905e971717928e5073121c2e08d2a1.jpg",
     "images": [
-      "1dd1f833c96e7a7a787bb766014d64f9.jpg"
+      "e4905e971717928e5073121c2e08d2a1.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6967,11 +6967,11 @@ export const materials = [
     "name": "PR047-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "feaaccfa2790160d6f7dde2e38822d44.jpg",
+    "thumbnail": "1bd0baa404dde9e12e178264d64e74df.jpg",
     "images": [
-      "feaaccfa2790160d6f7dde2e38822d44.jpg"
+      "1bd0baa404dde9e12e178264d64e74df.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6981,11 +6981,11 @@ export const materials = [
     "name": "PR048-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "35ef80060973246a85df620957f8a8d3.jpg",
+    "thumbnail": "a44648ac4d61507dc4aaa8a72240a46f.jpg",
     "images": [
-      "35ef80060973246a85df620957f8a8d3.jpg"
+      "a44648ac4d61507dc4aaa8a72240a46f.jpg"
     ],
     "materialType": "디아망"
   },
@@ -6995,11 +6995,11 @@ export const materials = [
     "name": "PR048-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "5cc240432c976ad0efc80423319a3d3b.jpg",
+    "thumbnail": "3f7e0238910fdd1d0d45bc0499f2e0b3.jpg",
     "images": [
-      "5cc240432c976ad0efc80423319a3d3b.jpg"
+      "3f7e0238910fdd1d0d45bc0499f2e0b3.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7009,11 +7009,11 @@ export const materials = [
     "name": "PR048-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "b666e87b94308afd8e6f7a09ee300962.jpg",
+    "thumbnail": "b2c46d4d7ed4a138861ceda57f86f6dd.jpg",
     "images": [
-      "b666e87b94308afd8e6f7a09ee300962.jpg"
+      "b2c46d4d7ed4a138861ceda57f86f6dd.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7023,11 +7023,11 @@ export const materials = [
     "name": "PR048-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "4af6b4e6dc212c2c9cecc48f37949643.jpg",
+    "thumbnail": "e88acaa68f8bc8c2e87e01031ef3a828.jpg",
     "images": [
-      "4af6b4e6dc212c2c9cecc48f37949643.jpg"
+      "e88acaa68f8bc8c2e87e01031ef3a828.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7037,11 +7037,11 @@ export const materials = [
     "name": "PR049-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "a05e87adc971590c829a2f8f421ace13.jpg",
+    "thumbnail": "7fdc69babae2775405f13eec151e241c.jpg",
     "images": [
-      "a05e87adc971590c829a2f8f421ace13.jpg"
+      "7fdc69babae2775405f13eec151e241c.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7051,11 +7051,11 @@ export const materials = [
     "name": "PR049-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "bc5a44a82a748284250958b49936d1d8.jpg",
+    "thumbnail": "e0c55302c4d5c96c6354c249eeaea8cf.jpg",
     "images": [
-      "bc5a44a82a748284250958b49936d1d8.jpg"
+      "e0c55302c4d5c96c6354c249eeaea8cf.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7065,11 +7065,11 @@ export const materials = [
     "name": "PR050(2518)",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "3478545b9bc7d0ca8080fdcae2a5ebd3.jpg",
+    "thumbnail": "ed4b767df101776c303672b70db46d6c.jpg",
     "images": [
-      "3478545b9bc7d0ca8080fdcae2a5ebd3.jpg"
+      "ed4b767df101776c303672b70db46d6c.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7079,11 +7079,11 @@ export const materials = [
     "name": "PR051-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "c5af108236104bfa562170d830fd4e43.jpg",
+    "thumbnail": "1951aaf9179524ab867c285415a37c99.jpg",
     "images": [
-      "c5af108236104bfa562170d830fd4e43.jpg"
+      "1951aaf9179524ab867c285415a37c99.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7093,11 +7093,11 @@ export const materials = [
     "name": "PR051-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "4a57c94d2dc79be5350564e06cb53221.jpg",
+    "thumbnail": "720e4174375281351af285945e3dfc47.jpg",
     "images": [
-      "4a57c94d2dc79be5350564e06cb53221.jpg"
+      "720e4174375281351af285945e3dfc47.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7107,11 +7107,11 @@ export const materials = [
     "name": "PR052-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "24b0f3c4c6294f5ca3d8662697170119.jpg",
+    "thumbnail": "d9b5ee221385754a873ca9d58521814e.jpg",
     "images": [
-      "24b0f3c4c6294f5ca3d8662697170119.jpg"
+      "d9b5ee221385754a873ca9d58521814e.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7121,11 +7121,11 @@ export const materials = [
     "name": "PR052-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "29c06a93bd48d2ae8f42b8f277b33ba3.jpg",
+    "thumbnail": "cdee4b0774231e060ac762b3eced06b0.jpg",
     "images": [
-      "29c06a93bd48d2ae8f42b8f277b33ba3.jpg"
+      "cdee4b0774231e060ac762b3eced06b0.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7135,11 +7135,11 @@ export const materials = [
     "name": "PR055-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "f8844913268bf29dd015c114652a25b9.jpg",
+    "thumbnail": "fe3127fe53806e8c148385b298d45d29.jpg",
     "images": [
-      "f8844913268bf29dd015c114652a25b9.jpg"
+      "fe3127fe53806e8c148385b298d45d29.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7149,11 +7149,11 @@ export const materials = [
     "name": "PR056-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "a2f5492e64352e55b76f9d833bb85c89.jpg",
+    "thumbnail": "0b9dfb3d80cd566dbd35baaa93ff46b4.jpg",
     "images": [
-      "a2f5492e64352e55b76f9d833bb85c89.jpg"
+      "0b9dfb3d80cd566dbd35baaa93ff46b4.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7163,11 +7163,11 @@ export const materials = [
     "name": "PR056-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "c159f85160feaa92418a3f916a0e583c.jpg",
+    "thumbnail": "7c53c99ab683479543a3221952cb41ea.jpg",
     "images": [
-      "c159f85160feaa92418a3f916a0e583c.jpg"
+      "7c53c99ab683479543a3221952cb41ea.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7177,11 +7177,11 @@ export const materials = [
     "name": "PR056-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "be7cc8d421d431359111c08ce8247661.jpg",
+    "thumbnail": "967c9db878c4e6774577f71c19263644.jpg",
     "images": [
-      "be7cc8d421d431359111c08ce8247661.jpg"
+      "967c9db878c4e6774577f71c19263644.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7191,11 +7191,11 @@ export const materials = [
     "name": "PR056-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "50e355927d63002c235e88fcfcd76183.jpg",
+    "thumbnail": "1cd7ba8e596cf1496676afaf601fc292.jpg",
     "images": [
-      "50e355927d63002c235e88fcfcd76183.jpg"
+      "1cd7ba8e596cf1496676afaf601fc292.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7205,11 +7205,11 @@ export const materials = [
     "name": "PR057-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "bafd7e1d9ddddd33e303f4dd063d0457.jpg",
+    "thumbnail": "5c5b873f2bee7ffe47c425423d3d8b32.jpg",
     "images": [
-      "bafd7e1d9ddddd33e303f4dd063d0457.jpg"
+      "5c5b873f2bee7ffe47c425423d3d8b32.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7219,11 +7219,11 @@ export const materials = [
     "name": "PR057-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "c08528f370ac4cce8e76f2d335c0cac6.jpg",
+    "thumbnail": "69f29fab9c0e7b7b94efe1d8828c494c.jpg",
     "images": [
-      "c08528f370ac4cce8e76f2d335c0cac6.jpg"
+      "69f29fab9c0e7b7b94efe1d8828c494c.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7233,11 +7233,11 @@ export const materials = [
     "name": "고)PR053-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "b57ccdef3a35022470a70549d0862a5a.jpg",
+    "thumbnail": "004a2efc361fcfeb59e21510c6edd32d.jpg",
     "images": [
-      "b57ccdef3a35022470a70549d0862a5a.jpg"
+      "004a2efc361fcfeb59e21510c6edd32d.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7247,11 +7247,11 @@ export const materials = [
     "name": "고)PR058-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망",
+    "line": "디아망_LX_디아망",
     "price": 0,
-    "thumbnail": "0ff94b761f629fc0495e2990aef20866.jpg",
+    "thumbnail": "0240a28945018d3ebfd0cebffcde84f3.jpg",
     "images": [
-      "0ff94b761f629fc0495e2990aef20866.jpg"
+      "0240a28945018d3ebfd0cebffcde84f3.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7261,11 +7261,11 @@ export const materials = [
     "name": "DF001-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "f34ff74eebc684562b7c992020ff7af8.jpg",
+    "thumbnail": "bbb516242b2f70b9d408c4d3062078c2.jpg",
     "images": [
-      "f34ff74eebc684562b7c992020ff7af8.jpg"
+      "bbb516242b2f70b9d408c4d3062078c2.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7275,11 +7275,11 @@ export const materials = [
     "name": "DF001-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "7150416edf96c7e6c661466c96235913.jpg",
+    "thumbnail": "e08a8a412b0a955abfd4a5e0ea631df7.jpg",
     "images": [
-      "7150416edf96c7e6c661466c96235913.jpg"
+      "e08a8a412b0a955abfd4a5e0ea631df7.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7289,11 +7289,11 @@ export const materials = [
     "name": "DF002-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "ffc1911bc0369c328a2c2281d856b5cb.jpg",
+    "thumbnail": "e506f7ed49bfa6a23cc8793838fbf45a.jpg",
     "images": [
-      "ffc1911bc0369c328a2c2281d856b5cb.jpg"
+      "e506f7ed49bfa6a23cc8793838fbf45a.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7303,11 +7303,11 @@ export const materials = [
     "name": "DF002-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "70ac35b4911f37e418ec6cc4f893d4b4.jpg",
+    "thumbnail": "b19c9b274b2529114da912285192c555.jpg",
     "images": [
-      "70ac35b4911f37e418ec6cc4f893d4b4.jpg"
+      "b19c9b274b2529114da912285192c555.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7317,11 +7317,11 @@ export const materials = [
     "name": "DF003-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "c8e242b87fde0695d539050a4ed86472.jpg",
+    "thumbnail": "61b43f5ac66bacc1039e9228cbdc957c.jpg",
     "images": [
-      "c8e242b87fde0695d539050a4ed86472.jpg"
+      "61b43f5ac66bacc1039e9228cbdc957c.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7331,11 +7331,11 @@ export const materials = [
     "name": "DF003-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "aee40b0f3d0f25a064df7ae8dc6862dd.jpg",
+    "thumbnail": "2f190743f62f5bda78abfadba2c10b92.jpg",
     "images": [
-      "aee40b0f3d0f25a064df7ae8dc6862dd.jpg"
+      "2f190743f62f5bda78abfadba2c10b92.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7345,11 +7345,11 @@ export const materials = [
     "name": "DF003-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "d0f0e0033eed25aa68605b6ada64b924.jpg",
+    "thumbnail": "2ccd81e4959257f08cf1de4ebcf63e8e.jpg",
     "images": [
-      "d0f0e0033eed25aa68605b6ada64b924.jpg"
+      "2ccd81e4959257f08cf1de4ebcf63e8e.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7359,11 +7359,11 @@ export const materials = [
     "name": "DF003-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "3e8a8b9d3a297d070e5d43f755cda038.jpg",
+    "thumbnail": "26d62d694007594845fe3be8abdc1aeb.jpg",
     "images": [
-      "3e8a8b9d3a297d070e5d43f755cda038.jpg"
+      "26d62d694007594845fe3be8abdc1aeb.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7373,11 +7373,11 @@ export const materials = [
     "name": "DF003-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "8a40a87db167266554dcd11186302ae1.jpg",
+    "thumbnail": "38da715e048eefe74dd1903b30c39449.jpg",
     "images": [
-      "8a40a87db167266554dcd11186302ae1.jpg"
+      "38da715e048eefe74dd1903b30c39449.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7387,11 +7387,11 @@ export const materials = [
     "name": "DF003-06",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "a3f967bd90e5c36c45014563cd511216.jpg",
+    "thumbnail": "543f5aada67aca76a1ea8fd6e05ea3a7.jpg",
     "images": [
-      "a3f967bd90e5c36c45014563cd511216.jpg"
+      "543f5aada67aca76a1ea8fd6e05ea3a7.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7401,11 +7401,11 @@ export const materials = [
     "name": "DF003-07",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "9f639b96a7b1ef975a4b52320e615c86.jpg",
+    "thumbnail": "deffd1be823a914bbee1920cbc30cf9b.jpg",
     "images": [
-      "9f639b96a7b1ef975a4b52320e615c86.jpg"
+      "deffd1be823a914bbee1920cbc30cf9b.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7415,11 +7415,11 @@ export const materials = [
     "name": "DF003-08",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "917f94886e59b80ebb35389fa9e4e425.jpg",
+    "thumbnail": "2763aba8b5957adf0825cae84c0f35f2.jpg",
     "images": [
-      "917f94886e59b80ebb35389fa9e4e425.jpg"
+      "2763aba8b5957adf0825cae84c0f35f2.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7429,11 +7429,11 @@ export const materials = [
     "name": "DF003-09",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "604d432a6f36e171abf43365aa301f50.jpg",
+    "thumbnail": "d028eb06c02cf5e312e3a32dabab595a.jpg",
     "images": [
-      "604d432a6f36e171abf43365aa301f50.jpg"
+      "d028eb06c02cf5e312e3a32dabab595a.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7443,11 +7443,11 @@ export const materials = [
     "name": "DF004-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "a6f40f4133fd6c18cfe8ad9f90ec3696.jpg",
+    "thumbnail": "a884ca23cca5e9301f784d3c08d68277.jpg",
     "images": [
-      "a6f40f4133fd6c18cfe8ad9f90ec3696.jpg"
+      "a884ca23cca5e9301f784d3c08d68277.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7457,11 +7457,11 @@ export const materials = [
     "name": "DF004-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "85e56168a22cfc0d0d8f2f8eaebfdf36.jpg",
+    "thumbnail": "7261a88f7c7a0aedf20a059d2fb12632.jpg",
     "images": [
-      "85e56168a22cfc0d0d8f2f8eaebfdf36.jpg"
+      "7261a88f7c7a0aedf20a059d2fb12632.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7471,11 +7471,11 @@ export const materials = [
     "name": "DF004-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "ba18cc58950a9b906828dc60f8c60f91.jpg",
+    "thumbnail": "da0dd3bf3319803dbf39e5136ef6c9c7.jpg",
     "images": [
-      "ba18cc58950a9b906828dc60f8c60f91.jpg"
+      "da0dd3bf3319803dbf39e5136ef6c9c7.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7485,11 +7485,11 @@ export const materials = [
     "name": "DF004-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "022ef543c837ecd8e0999e3cd5201bdd.jpg",
+    "thumbnail": "b01e9b583778f9a421b27f52be859920.jpg",
     "images": [
-      "022ef543c837ecd8e0999e3cd5201bdd.jpg"
+      "b01e9b583778f9a421b27f52be859920.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7499,11 +7499,11 @@ export const materials = [
     "name": "DF004-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "9b2a9cd1ff0d6afd595c594b32f44b40.jpg",
+    "thumbnail": "5120471f0df8efdefebbea35d4151fab.jpg",
     "images": [
-      "9b2a9cd1ff0d6afd595c594b32f44b40.jpg"
+      "5120471f0df8efdefebbea35d4151fab.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7513,11 +7513,11 @@ export const materials = [
     "name": "DF004-06",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "1d4bee9ac687d6a6be16a65572170325.jpg",
+    "thumbnail": "8597345d9d26a9f56f34316cdae56f69.jpg",
     "images": [
-      "1d4bee9ac687d6a6be16a65572170325.jpg"
+      "8597345d9d26a9f56f34316cdae56f69.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7527,11 +7527,11 @@ export const materials = [
     "name": "DF005-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "5ac1ef536bcb66801a937d5a83e27425.jpg",
+    "thumbnail": "8d8bf0f7461570a562551cfc97aa9c12.jpg",
     "images": [
-      "5ac1ef536bcb66801a937d5a83e27425.jpg"
+      "8d8bf0f7461570a562551cfc97aa9c12.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7541,11 +7541,11 @@ export const materials = [
     "name": "DF005-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "c830339c85a4b934fab126576dfcb55e.jpg",
+    "thumbnail": "4e979627e89782a11ad7838c4ed99683.jpg",
     "images": [
-      "c830339c85a4b934fab126576dfcb55e.jpg"
+      "4e979627e89782a11ad7838c4ed99683.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7555,11 +7555,11 @@ export const materials = [
     "name": "DF005-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "166d9217dd5620386b1d2a0c45f3b653.jpg",
+    "thumbnail": "43a52d14236a9d2fa8b0aa94ff34a1ad.jpg",
     "images": [
-      "166d9217dd5620386b1d2a0c45f3b653.jpg"
+      "43a52d14236a9d2fa8b0aa94ff34a1ad.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7569,11 +7569,11 @@ export const materials = [
     "name": "DF005-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "326ecf01396c238c94986f68470ec5de.jpg",
+    "thumbnail": "941087ca09d2a3e2478d8929a584983b.jpg",
     "images": [
-      "326ecf01396c238c94986f68470ec5de.jpg"
+      "941087ca09d2a3e2478d8929a584983b.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7583,11 +7583,11 @@ export const materials = [
     "name": "DF006-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "fa299b7451e863f51e58cf406cd34d8f.jpg",
+    "thumbnail": "192ba49207fa76396ae7774aadf70ac5.jpg",
     "images": [
-      "fa299b7451e863f51e58cf406cd34d8f.jpg"
+      "192ba49207fa76396ae7774aadf70ac5.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7597,11 +7597,11 @@ export const materials = [
     "name": "DF006-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "184a09438ac084ec412a25066b2a0c3e.jpg",
+    "thumbnail": "ff2fe70389a2955805a0610c2140921e.jpg",
     "images": [
-      "184a09438ac084ec412a25066b2a0c3e.jpg"
+      "ff2fe70389a2955805a0610c2140921e.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7611,11 +7611,11 @@ export const materials = [
     "name": "DF006-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "d26a5f98b8704daf9810e710779702de.jpg",
+    "thumbnail": "be7843b6fe8d4d4bbef9235835714170.jpg",
     "images": [
-      "d26a5f98b8704daf9810e710779702de.jpg"
+      "be7843b6fe8d4d4bbef9235835714170.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7625,11 +7625,11 @@ export const materials = [
     "name": "DF007-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "c5f61253534fd0a593f416183ee9196f.jpg",
+    "thumbnail": "21179c4cd0a13689abbb2284b3abba16.jpg",
     "images": [
-      "c5f61253534fd0a593f416183ee9196f.jpg"
+      "21179c4cd0a13689abbb2284b3abba16.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7639,11 +7639,11 @@ export const materials = [
     "name": "DF007-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "893258073a9c8d7049f11047c028cc1f.jpg",
+    "thumbnail": "e9fc1f4f5ceaaf3484452355c1dd9b35.jpg",
     "images": [
-      "893258073a9c8d7049f11047c028cc1f.jpg"
+      "e9fc1f4f5ceaaf3484452355c1dd9b35.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7653,11 +7653,11 @@ export const materials = [
     "name": "DF007-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "fbecc1070439652737bfdf442e6138a0.jpg",
+    "thumbnail": "6faf999d92ab5c7439416e65a8db132b.jpg",
     "images": [
-      "fbecc1070439652737bfdf442e6138a0.jpg"
+      "6faf999d92ab5c7439416e65a8db132b.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7667,11 +7667,11 @@ export const materials = [
     "name": "DF007-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "13a0d4082dd2302844abbe3b41701fe6.jpg",
+    "thumbnail": "72f2ebb3b66c0df84b6d74c91ea97ddd.jpg",
     "images": [
-      "13a0d4082dd2302844abbe3b41701fe6.jpg"
+      "72f2ebb3b66c0df84b6d74c91ea97ddd.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7681,11 +7681,11 @@ export const materials = [
     "name": "DF007-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "626a20648beb5e745d80884c7ed866df.jpg",
+    "thumbnail": "fe03e72bdf6d4d320befe294bdd3b585.jpg",
     "images": [
-      "626a20648beb5e745d80884c7ed866df.jpg"
+      "fe03e72bdf6d4d320befe294bdd3b585.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7695,11 +7695,11 @@ export const materials = [
     "name": "DF007-06",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "89c393f541c5518f6e86d38967c14afa.jpg",
+    "thumbnail": "28d307e8338f2ce31aa280821c7000ee.jpg",
     "images": [
-      "89c393f541c5518f6e86d38967c14afa.jpg"
+      "28d307e8338f2ce31aa280821c7000ee.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7709,11 +7709,11 @@ export const materials = [
     "name": "DF008-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "2a95653e4a670dba55dae6021c88d40d.jpg",
+    "thumbnail": "9bb6e0764f07a03afc1517078e6e9cf1.jpg",
     "images": [
-      "2a95653e4a670dba55dae6021c88d40d.jpg"
+      "9bb6e0764f07a03afc1517078e6e9cf1.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7723,11 +7723,11 @@ export const materials = [
     "name": "DF008-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "0092284759c8d91862502e26f8c310d0.jpg",
+    "thumbnail": "fa34c1b18233df39c9ef48abe2415704.jpg",
     "images": [
-      "0092284759c8d91862502e26f8c310d0.jpg"
+      "fa34c1b18233df39c9ef48abe2415704.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7737,11 +7737,11 @@ export const materials = [
     "name": "DF008-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "bc3c13e021d741f3980c5ade325f8497.jpg",
+    "thumbnail": "412dca9b343c78cc3cace18eef652271.jpg",
     "images": [
-      "bc3c13e021d741f3980c5ade325f8497.jpg"
+      "412dca9b343c78cc3cace18eef652271.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7751,11 +7751,11 @@ export const materials = [
     "name": "DF008-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "a450ed06a78a5100ec74aa602dda5dde.jpg",
+    "thumbnail": "44f735bafaf5971a98c92cbb3e90cae1.jpg",
     "images": [
-      "a450ed06a78a5100ec74aa602dda5dde.jpg"
+      "44f735bafaf5971a98c92cbb3e90cae1.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7765,11 +7765,11 @@ export const materials = [
     "name": "DF010-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "fbb70305614382bd037f3f0d53c69241.jpg",
+    "thumbnail": "ac6f4af2e22e09aca0d0d952fb009dbb.jpg",
     "images": [
-      "fbb70305614382bd037f3f0d53c69241.jpg"
+      "ac6f4af2e22e09aca0d0d952fb009dbb.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7779,11 +7779,11 @@ export const materials = [
     "name": "DF011-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "74259b25e6ff4f1fd272a2f478348296.jpg",
+    "thumbnail": "31373342b8326855b60dbb55058b98f2.jpg",
     "images": [
-      "74259b25e6ff4f1fd272a2f478348296.jpg"
+      "31373342b8326855b60dbb55058b98f2.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7793,11 +7793,11 @@ export const materials = [
     "name": "DF012-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "d5d3439d79ad6a8cf6b7e7539c09191f.jpg",
+    "thumbnail": "448ee5d3cd899745a77e370e2f301493.jpg",
     "images": [
-      "d5d3439d79ad6a8cf6b7e7539c09191f.jpg"
+      "448ee5d3cd899745a77e370e2f301493.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7807,11 +7807,11 @@ export const materials = [
     "name": "DF012-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "c67dbdbad23d61af469ae927700a143e.jpg",
+    "thumbnail": "a1b68124111b7655ca86435e2c0baf2b.jpg",
     "images": [
-      "c67dbdbad23d61af469ae927700a143e.jpg"
+      "a1b68124111b7655ca86435e2c0baf2b.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7821,11 +7821,11 @@ export const materials = [
     "name": "DF012-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "2aa768b62f32d937f169703fdee956cb.jpg",
+    "thumbnail": "8629a80365d27ed2a8f92f6601575625.jpg",
     "images": [
-      "2aa768b62f32d937f169703fdee956cb.jpg"
+      "8629a80365d27ed2a8f92f6601575625.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7835,11 +7835,11 @@ export const materials = [
     "name": "DF012-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "c9f4ac7efc1b6b0eb313deeb71258532.jpg",
+    "thumbnail": "3f1fb31393325b707fa9480e768d2b6b.jpg",
     "images": [
-      "c9f4ac7efc1b6b0eb313deeb71258532.jpg"
+      "3f1fb31393325b707fa9480e768d2b6b.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7849,11 +7849,11 @@ export const materials = [
     "name": "DF012-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "aa113b44738589e54fbb56f86e754005.jpg",
+    "thumbnail": "e0c57052bc03b87a363952f113e49a92.jpg",
     "images": [
-      "aa113b44738589e54fbb56f86e754005.jpg"
+      "e0c57052bc03b87a363952f113e49a92.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7863,11 +7863,11 @@ export const materials = [
     "name": "DF012-06",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "0ab25a11bb57a7891e3b9a60a1932ca6.jpg",
+    "thumbnail": "691509dabe6f7ae46f772d2ba5d6473e.jpg",
     "images": [
-      "0ab25a11bb57a7891e3b9a60a1932ca6.jpg"
+      "691509dabe6f7ae46f772d2ba5d6473e.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7877,11 +7877,11 @@ export const materials = [
     "name": "DF013-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "e4996885fb9ba8e6135df82a3a93ecd6.jpg",
+    "thumbnail": "9d438b514d4507b06d1e8c2465506d3c.jpg",
     "images": [
-      "e4996885fb9ba8e6135df82a3a93ecd6.jpg"
+      "9d438b514d4507b06d1e8c2465506d3c.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7891,11 +7891,11 @@ export const materials = [
     "name": "DF013-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "f3579b478186be7d55251c9f2c36f57c.jpg",
+    "thumbnail": "c53b7af56fc7ba52924b88fe73b86124.jpg",
     "images": [
-      "f3579b478186be7d55251c9f2c36f57c.jpg"
+      "c53b7af56fc7ba52924b88fe73b86124.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7905,11 +7905,11 @@ export const materials = [
     "name": "DF013-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "638b294642a90da795e18dc2b668a31b.jpg",
+    "thumbnail": "4eb25397e0866eea21585b10bc5c2b74.jpg",
     "images": [
-      "638b294642a90da795e18dc2b668a31b.jpg"
+      "4eb25397e0866eea21585b10bc5c2b74.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7919,11 +7919,11 @@ export const materials = [
     "name": "DF013-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "8edb90cb703f7218fc0e726b23af947e.jpg",
+    "thumbnail": "e09ce7f33ce39a969b3774d71ae8a4e1.jpg",
     "images": [
-      "8edb90cb703f7218fc0e726b23af947e.jpg"
+      "e09ce7f33ce39a969b3774d71ae8a4e1.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7933,11 +7933,11 @@ export const materials = [
     "name": "DF013-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "fcbd7e8f03fb0addd60c564285ac5a5f.jpg",
+    "thumbnail": "7d133483c8a7b606eee0a60ac0f9a66a.jpg",
     "images": [
-      "fcbd7e8f03fb0addd60c564285ac5a5f.jpg"
+      "7d133483c8a7b606eee0a60ac0f9a66a.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7947,11 +7947,11 @@ export const materials = [
     "name": "DF014-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "649e6bc7e8befbb33aef813e339a1921.jpg",
+    "thumbnail": "ecf8f2f95fc959bdbe79e0a75cc0740c.jpg",
     "images": [
-      "649e6bc7e8befbb33aef813e339a1921.jpg"
+      "ecf8f2f95fc959bdbe79e0a75cc0740c.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7961,11 +7961,11 @@ export const materials = [
     "name": "DF014-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "51bb34f1b7746c1997d9c3fb13854855.jpg",
+    "thumbnail": "34c8bbb5b3b8480f2287c5d72d4daf6a.jpg",
     "images": [
-      "51bb34f1b7746c1997d9c3fb13854855.jpg"
+      "34c8bbb5b3b8480f2287c5d72d4daf6a.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7975,11 +7975,11 @@ export const materials = [
     "name": "DF014-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "3fe53f3e0d3f2837c989169a4a8015b9.jpg",
+    "thumbnail": "66b6b69532a11fe9c510e543ee1ce170.jpg",
     "images": [
-      "3fe53f3e0d3f2837c989169a4a8015b9.jpg"
+      "66b6b69532a11fe9c510e543ee1ce170.jpg"
     ],
     "materialType": "디아망"
   },
@@ -7989,11 +7989,11 @@ export const materials = [
     "name": "DF014-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "404af8e64d5186b0a69f3362f6661b75.jpg",
+    "thumbnail": "12beba90fcc49618716e7136a41d069e.jpg",
     "images": [
-      "404af8e64d5186b0a69f3362f6661b75.jpg"
+      "12beba90fcc49618716e7136a41d069e.jpg"
     ],
     "materialType": "디아망"
   },
@@ -8003,11 +8003,11 @@ export const materials = [
     "name": "DF014-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "88538ae346862509fab8cb40a8f76ee0.jpg",
+    "thumbnail": "c3b997c11dc5ceec6d82d7133ef4d3d8.jpg",
     "images": [
-      "88538ae346862509fab8cb40a8f76ee0.jpg"
+      "c3b997c11dc5ceec6d82d7133ef4d3d8.jpg"
     ],
     "materialType": "디아망"
   },
@@ -8017,11 +8017,11 @@ export const materials = [
     "name": "DF015-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "9f46ec8a1c9c47259d5c8df17f44de98.jpg",
+    "thumbnail": "bbe1ca54bbcc4fbf7741ee4b3a25a35f.jpg",
     "images": [
-      "9f46ec8a1c9c47259d5c8df17f44de98.jpg"
+      "bbe1ca54bbcc4fbf7741ee4b3a25a35f.jpg"
     ],
     "materialType": "디아망"
   },
@@ -8031,11 +8031,11 @@ export const materials = [
     "name": "DF015-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "d71b72c7e0fcfe88f8fc0a50c1c02ba0.jpg",
+    "thumbnail": "d9e4fe075bc56f804614935f8fc78cfc.jpg",
     "images": [
-      "d71b72c7e0fcfe88f8fc0a50c1c02ba0.jpg"
+      "d9e4fe075bc56f804614935f8fc78cfc.jpg"
     ],
     "materialType": "디아망"
   },
@@ -8045,11 +8045,11 @@ export const materials = [
     "name": "DF015-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "b28499ccc9c8d97752fc52eda43fb915.jpg",
+    "thumbnail": "7c875a706c0e5fdb02ddba8950d4075a.jpg",
     "images": [
-      "b28499ccc9c8d97752fc52eda43fb915.jpg"
+      "7c875a706c0e5fdb02ddba8950d4075a.jpg"
     ],
     "materialType": "디아망"
   },
@@ -8059,11 +8059,11 @@ export const materials = [
     "name": "DF015-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "f64994d9fe352f2e438c3ca8012e6588.jpg",
+    "thumbnail": "f531b0d3903cccd8198e7dddbef08415.jpg",
     "images": [
-      "f64994d9fe352f2e438c3ca8012e6588.jpg"
+      "f531b0d3903cccd8198e7dddbef08415.jpg"
     ],
     "materialType": "디아망"
   },
@@ -8073,11 +8073,11 @@ export const materials = [
     "name": "DF016-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "5a0b4db27a4592955c776ca5b98c03f0.jpg",
+    "thumbnail": "5592346f1f3d33ad1ef65ee632aceb9a.jpg",
     "images": [
-      "5a0b4db27a4592955c776ca5b98c03f0.jpg"
+      "5592346f1f3d33ad1ef65ee632aceb9a.jpg"
     ],
     "materialType": "디아망"
   },
@@ -8087,11 +8087,11 @@ export const materials = [
     "name": "DF017-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "45188e9c5bd208056cd4e58c0452c893.jpg",
+    "thumbnail": "1865209f9c6dbed27c87f06c71a25e5d.jpg",
     "images": [
-      "45188e9c5bd208056cd4e58c0452c893.jpg"
+      "1865209f9c6dbed27c87f06c71a25e5d.jpg"
     ],
     "materialType": "디아망"
   },
@@ -8101,11 +8101,11 @@ export const materials = [
     "name": "DF018-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "60e09493fabf4dcd33243ff365429eb7.jpg",
+    "thumbnail": "e3eea18c6ecef42d416fc290df5b0f26.jpg",
     "images": [
-      "60e09493fabf4dcd33243ff365429eb7.jpg"
+      "e3eea18c6ecef42d416fc290df5b0f26.jpg"
     ],
     "materialType": "디아망"
   },
@@ -8115,11 +8115,11 @@ export const materials = [
     "name": "DF018-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "f5945940ae4906064f65d84834880a9c.jpg",
+    "thumbnail": "7817f16b5ccb02b0279634d7a58e132c.jpg",
     "images": [
-      "f5945940ae4906064f65d84834880a9c.jpg"
+      "7817f16b5ccb02b0279634d7a58e132c.jpg"
     ],
     "materialType": "디아망"
   },
@@ -8129,11 +8129,11 @@ export const materials = [
     "name": "DF018-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "cc2181bef44ad035198f4d383030aec8.jpg",
+    "thumbnail": "d05bd505a7e0366e1a8dba309833ef55.jpg",
     "images": [
-      "cc2181bef44ad035198f4d383030aec8.jpg"
+      "d05bd505a7e0366e1a8dba309833ef55.jpg"
     ],
     "materialType": "디아망"
   },
@@ -8143,11 +8143,11 @@ export const materials = [
     "name": "DF018-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_디아망포티스",
+    "line": "디아망_LX_디아망포티스",
     "price": 0,
-    "thumbnail": "e9032b30fc4b041841e1998dab51b48d.jpg",
+    "thumbnail": "e95ef736d6d21fc75a839244365eeb34.jpg",
     "images": [
-      "e9032b30fc4b041841e1998dab51b48d.jpg"
+      "e95ef736d6d21fc75a839244365eeb34.jpg"
     ],
     "materialType": "디아망"
   },
@@ -8157,11 +8157,11 @@ export const materials = [
     "name": "8190-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "dbf8f52703decd02f6c5c8490e909092.jpg",
+    "thumbnail": "4868acc64c92cd4c203c6494e0090d0a.jpg",
     "images": [
-      "dbf8f52703decd02f6c5c8490e909092.jpg"
+      "4868acc64c92cd4c203c6494e0090d0a.jpg"
     ],
     "materialType": "실크"
   },
@@ -8171,11 +8171,11 @@ export const materials = [
     "name": "8192-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "9c8bcf278c82bea899f7f466c53cb13e.jpg",
+    "thumbnail": "515e6291fa8eeef4e7c0a30e8feeb6a5.jpg",
     "images": [
-      "9c8bcf278c82bea899f7f466c53cb13e.jpg"
+      "515e6291fa8eeef4e7c0a30e8feeb6a5.jpg"
     ],
     "materialType": "실크"
   },
@@ -8185,11 +8185,11 @@ export const materials = [
     "name": "8195-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "7e1f9d9bd1078b3590574bda8fcb68bb.jpg",
+    "thumbnail": "5ae7bf1b28355b974a580d3aa53711bd.jpg",
     "images": [
-      "7e1f9d9bd1078b3590574bda8fcb68bb.jpg"
+      "5ae7bf1b28355b974a580d3aa53711bd.jpg"
     ],
     "materialType": "실크"
   },
@@ -8199,11 +8199,11 @@ export const materials = [
     "name": "8197-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "93d43f4173dd557aac7193741c02bad9.jpg",
+    "thumbnail": "5edbf2e0dbb03e2f7d7f487b56a37679.jpg",
     "images": [
-      "93d43f4173dd557aac7193741c02bad9.jpg"
+      "5edbf2e0dbb03e2f7d7f487b56a37679.jpg"
     ],
     "materialType": "실크"
   },
@@ -8213,11 +8213,11 @@ export const materials = [
     "name": "82458-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "801b831f7008e99c2cb33327d6e9524f.jpg",
+    "thumbnail": "c84f9f3d77715842c8ac06e648ce9fb0.jpg",
     "images": [
-      "801b831f7008e99c2cb33327d6e9524f.jpg"
+      "c84f9f3d77715842c8ac06e648ce9fb0.jpg"
     ],
     "materialType": "실크"
   },
@@ -8227,11 +8227,11 @@ export const materials = [
     "name": "82476-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "b77d9528003cefa1313e998c86ed6a52.jpg",
+    "thumbnail": "d1140a1f457138c69e5a24d1cf834cb1.jpg",
     "images": [
-      "b77d9528003cefa1313e998c86ed6a52.jpg"
+      "d1140a1f457138c69e5a24d1cf834cb1.jpg"
     ],
     "materialType": "실크"
   },
@@ -8241,11 +8241,11 @@ export const materials = [
     "name": "82477-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "163b372bb04c07de0a83767a8fe3b860.jpg",
+    "thumbnail": "b9b8c6aa53d4e6c7c0e81c0d9a47cdae.jpg",
     "images": [
-      "163b372bb04c07de0a83767a8fe3b860.jpg"
+      "b9b8c6aa53d4e6c7c0e81c0d9a47cdae.jpg"
     ],
     "materialType": "실크"
   },
@@ -8255,11 +8255,11 @@ export const materials = [
     "name": "82477-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "ffec82d2f568eabee3e162dbb96f4f71.jpg",
+    "thumbnail": "9165b81381f7836ac2973f106b572b76.jpg",
     "images": [
-      "ffec82d2f568eabee3e162dbb96f4f71.jpg"
+      "9165b81381f7836ac2973f106b572b76.jpg"
     ],
     "materialType": "실크"
   },
@@ -8269,11 +8269,11 @@ export const materials = [
     "name": "82483-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "33d7625203a76e3915ff0f1b8d3b541a.jpg",
+    "thumbnail": "02de52155821c4ebeae3b93afe6c5356.jpg",
     "images": [
-      "33d7625203a76e3915ff0f1b8d3b541a.jpg"
+      "02de52155821c4ebeae3b93afe6c5356.jpg"
     ],
     "materialType": "실크"
   },
@@ -8283,11 +8283,11 @@ export const materials = [
     "name": "82526-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "bdfc7f4df3ed5ab73cbc4015f143231a.jpg",
+    "thumbnail": "4c139beb683aa64474ac53bab441c0fa.jpg",
     "images": [
-      "bdfc7f4df3ed5ab73cbc4015f143231a.jpg"
+      "4c139beb683aa64474ac53bab441c0fa.jpg"
     ],
     "materialType": "실크"
   },
@@ -8297,11 +8297,11 @@ export const materials = [
     "name": "82526-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "da71542b5cb64bb8cd90bde0d95985e0.jpg",
+    "thumbnail": "c53643e13c5f4bd34c05ac0dc22d0ebd.jpg",
     "images": [
-      "da71542b5cb64bb8cd90bde0d95985e0.jpg"
+      "c53643e13c5f4bd34c05ac0dc22d0ebd.jpg"
     ],
     "materialType": "실크"
   },
@@ -8311,11 +8311,11 @@ export const materials = [
     "name": "82526-06",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "1e6665083daaa5612dd3dc21d8e550b9.jpg",
+    "thumbnail": "e43a705b90698c07f21a6f0d3e31ee2d.jpg",
     "images": [
-      "1e6665083daaa5612dd3dc21d8e550b9.jpg"
+      "e43a705b90698c07f21a6f0d3e31ee2d.jpg"
     ],
     "materialType": "실크"
   },
@@ -8325,11 +8325,11 @@ export const materials = [
     "name": "82526-07",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "20c3543c84f42ed0fa46dcd5ecd4edb0.jpg",
+    "thumbnail": "07c2dec8cf7b22d426ec389739adb392.jpg",
     "images": [
-      "20c3543c84f42ed0fa46dcd5ecd4edb0.jpg"
+      "07c2dec8cf7b22d426ec389739adb392.jpg"
     ],
     "materialType": "실크"
   },
@@ -8339,11 +8339,11 @@ export const materials = [
     "name": "82538-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "c2973d764e15f9994ad46cfb8a5be622.jpg",
+    "thumbnail": "4072db2cd91c7ad125e4a3a7f82da6b0.jpg",
     "images": [
-      "c2973d764e15f9994ad46cfb8a5be622.jpg"
+      "4072db2cd91c7ad125e4a3a7f82da6b0.jpg"
     ],
     "materialType": "실크"
   },
@@ -8353,11 +8353,11 @@ export const materials = [
     "name": "82538-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "dce0bdef8b43866dcd48b4727c3f3a2e.jpg",
+    "thumbnail": "151330d19a729d273d6eda2d46367433.jpg",
     "images": [
-      "dce0bdef8b43866dcd48b4727c3f3a2e.jpg"
+      "151330d19a729d273d6eda2d46367433.jpg"
     ],
     "materialType": "실크"
   },
@@ -8367,11 +8367,11 @@ export const materials = [
     "name": "82538-08",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "0bed44d14509b9029e05397c7db5212b.jpg",
+    "thumbnail": "f0169ca487ce831a4d0a1912d3208095.jpg",
     "images": [
-      "0bed44d14509b9029e05397c7db5212b.jpg"
+      "f0169ca487ce831a4d0a1912d3208095.jpg"
     ],
     "materialType": "실크"
   },
@@ -8381,11 +8381,11 @@ export const materials = [
     "name": "82539-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "5e29069df019e00e3f40535bb625cdc0.jpg",
+    "thumbnail": "f50dbe3698cb62a7a12eeee307db0e02.jpg",
     "images": [
-      "5e29069df019e00e3f40535bb625cdc0.jpg"
+      "f50dbe3698cb62a7a12eeee307db0e02.jpg"
     ],
     "materialType": "실크"
   },
@@ -8395,11 +8395,11 @@ export const materials = [
     "name": "82539-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "31bfb661d483953eddc3a4f3faad2408.jpg",
+    "thumbnail": "f2bb9746a3f28292464c49a0e75faab0.jpg",
     "images": [
-      "31bfb661d483953eddc3a4f3faad2408.jpg"
+      "f2bb9746a3f28292464c49a0e75faab0.jpg"
     ],
     "materialType": "실크"
   },
@@ -8409,11 +8409,11 @@ export const materials = [
     "name": "82539-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "8a40ca429cda98fb9131c806f97a2b29.jpg",
+    "thumbnail": "469659f4c4dda6c67e15baf92c8c4f27.jpg",
     "images": [
-      "8a40ca429cda98fb9131c806f97a2b29.jpg"
+      "469659f4c4dda6c67e15baf92c8c4f27.jpg"
     ],
     "materialType": "실크"
   },
@@ -8423,11 +8423,11 @@ export const materials = [
     "name": "82539-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "5ae798257826f0597bc87186ba475f18.jpg",
+    "thumbnail": "650657e18d7de6859edfec1f33c33fa4.jpg",
     "images": [
-      "5ae798257826f0597bc87186ba475f18.jpg"
+      "650657e18d7de6859edfec1f33c33fa4.jpg"
     ],
     "materialType": "실크"
   },
@@ -8437,11 +8437,11 @@ export const materials = [
     "name": "82539-13",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "6e41deec4c0eb951a24d414ceda68cc7.jpg",
+    "thumbnail": "75ee4777bc5174f284f6c27a2b5f65f1.jpg",
     "images": [
-      "6e41deec4c0eb951a24d414ceda68cc7.jpg"
+      "75ee4777bc5174f284f6c27a2b5f65f1.jpg"
     ],
     "materialType": "실크"
   },
@@ -8451,11 +8451,11 @@ export const materials = [
     "name": "82539-14",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "5551b141eb1e0011b063b9b93338af77.jpg",
+    "thumbnail": "53af5274c8ab55ad406209ae246147c9.jpg",
     "images": [
-      "5551b141eb1e0011b063b9b93338af77.jpg"
+      "53af5274c8ab55ad406209ae246147c9.jpg"
     ],
     "materialType": "실크"
   },
@@ -8465,11 +8465,11 @@ export const materials = [
     "name": "82539-15",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "a34873f0bbae365d0383552e9bb9f00d.jpg",
+    "thumbnail": "20f056c04848717c27f538a5bce9586d.jpg",
     "images": [
-      "a34873f0bbae365d0383552e9bb9f00d.jpg"
+      "20f056c04848717c27f538a5bce9586d.jpg"
     ],
     "materialType": "실크"
   },
@@ -8479,11 +8479,11 @@ export const materials = [
     "name": "82544-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "240ba5e9235336a600db3453abaf971c.jpg",
+    "thumbnail": "94e575392f59d55bb273a3d92448ca6f.jpg",
     "images": [
-      "240ba5e9235336a600db3453abaf971c.jpg"
+      "94e575392f59d55bb273a3d92448ca6f.jpg"
     ],
     "materialType": "실크"
   },
@@ -8493,11 +8493,11 @@ export const materials = [
     "name": "82544-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "c188a5381a6f4481795897440ac8c581.jpg",
+    "thumbnail": "15df958c27d70b741eef95166d9fe9f0.jpg",
     "images": [
-      "c188a5381a6f4481795897440ac8c581.jpg"
+      "15df958c27d70b741eef95166d9fe9f0.jpg"
     ],
     "materialType": "실크"
   },
@@ -8507,11 +8507,11 @@ export const materials = [
     "name": "82546-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "047a5499d7cfb8b527d0dbde9a57d518.jpg",
+    "thumbnail": "3e4ab12710397ce289ec836382229f60.jpg",
     "images": [
-      "047a5499d7cfb8b527d0dbde9a57d518.jpg"
+      "3e4ab12710397ce289ec836382229f60.jpg"
     ],
     "materialType": "실크"
   },
@@ -8521,11 +8521,11 @@ export const materials = [
     "name": "82547-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "2f798273ecba94efafc505bcbda93c61.jpg",
+    "thumbnail": "467c45335baa716b402d598329142f33.jpg",
     "images": [
-      "2f798273ecba94efafc505bcbda93c61.jpg"
+      "467c45335baa716b402d598329142f33.jpg"
     ],
     "materialType": "실크"
   },
@@ -8535,11 +8535,11 @@ export const materials = [
     "name": "82547-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "f0ae85772f0460e86528af36a6058660.jpg",
+    "thumbnail": "2f3c99d64aa4fc7d0ea4afccc5270715.jpg",
     "images": [
-      "f0ae85772f0460e86528af36a6058660.jpg"
+      "2f3c99d64aa4fc7d0ea4afccc5270715.jpg"
     ],
     "materialType": "실크"
   },
@@ -8549,11 +8549,11 @@ export const materials = [
     "name": "82547-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "e715e610bf9faa54c07f296a62d2cd06.jpg",
+    "thumbnail": "2ab99136019d95296da2fde54a512e6c.jpg",
     "images": [
-      "e715e610bf9faa54c07f296a62d2cd06.jpg"
+      "2ab99136019d95296da2fde54a512e6c.jpg"
     ],
     "materialType": "실크"
   },
@@ -8563,11 +8563,11 @@ export const materials = [
     "name": "82554-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "beba566c3402ba9e2cc9de3631643997.jpg",
+    "thumbnail": "43061f77c7c049fbd43940becf703133.jpg",
     "images": [
-      "beba566c3402ba9e2cc9de3631643997.jpg"
+      "43061f77c7c049fbd43940becf703133.jpg"
     ],
     "materialType": "실크"
   },
@@ -8577,11 +8577,11 @@ export const materials = [
     "name": "82554-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "416c5648c2ca244f80f0515ba612ed80.jpg",
+    "thumbnail": "427731413c6ade32f94e014426d4833f.jpg",
     "images": [
-      "416c5648c2ca244f80f0515ba612ed80.jpg"
+      "427731413c6ade32f94e014426d4833f.jpg"
     ],
     "materialType": "실크"
   },
@@ -8591,11 +8591,11 @@ export const materials = [
     "name": "82555-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "954adb241c860c168d3cf6cf010637a9.jpg",
+    "thumbnail": "3f8664f07886af7653bc9ab0f3b9b986.jpg",
     "images": [
-      "954adb241c860c168d3cf6cf010637a9.jpg"
+      "3f8664f07886af7653bc9ab0f3b9b986.jpg"
     ],
     "materialType": "실크"
   },
@@ -8605,11 +8605,11 @@ export const materials = [
     "name": "82555-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "655fe1b3b492678b367135f464321c87.jpg",
+    "thumbnail": "d1ce1656432b1e7897c10c7759ce6a02.jpg",
     "images": [
-      "655fe1b3b492678b367135f464321c87.jpg"
+      "d1ce1656432b1e7897c10c7759ce6a02.jpg"
     ],
     "materialType": "실크"
   },
@@ -8619,11 +8619,11 @@ export const materials = [
     "name": "82555-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "c05a4d4761eb911bdb3bc7ba90178075.jpg",
+    "thumbnail": "6dc7d6aa537b0c6652a23afb8bf3279a.jpg",
     "images": [
-      "c05a4d4761eb911bdb3bc7ba90178075.jpg"
+      "6dc7d6aa537b0c6652a23afb8bf3279a.jpg"
     ],
     "materialType": "실크"
   },
@@ -8633,11 +8633,11 @@ export const materials = [
     "name": "82558-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "d6646294eb6a111b1be41fb551fbd541.jpg",
+    "thumbnail": "542676a7212a556fd832686ae24f4843.jpg",
     "images": [
-      "d6646294eb6a111b1be41fb551fbd541.jpg"
+      "542676a7212a556fd832686ae24f4843.jpg"
     ],
     "materialType": "실크"
   },
@@ -8647,11 +8647,11 @@ export const materials = [
     "name": "82558-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "66eb74b9ec89559a48068314c102dfd3.jpg",
+    "thumbnail": "4073f2abf618617c630c4b1c1edc21ff.jpg",
     "images": [
-      "66eb74b9ec89559a48068314c102dfd3.jpg"
+      "4073f2abf618617c630c4b1c1edc21ff.jpg"
     ],
     "materialType": "실크"
   },
@@ -8661,11 +8661,11 @@ export const materials = [
     "name": "82558-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "126a572acb98ad110edebbdca258be54.jpg",
+    "thumbnail": "b1e5e14ace0abf24049897c8cf0ed588.jpg",
     "images": [
-      "126a572acb98ad110edebbdca258be54.jpg"
+      "b1e5e14ace0abf24049897c8cf0ed588.jpg"
     ],
     "materialType": "실크"
   },
@@ -8675,11 +8675,11 @@ export const materials = [
     "name": "82558-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "6d64e434fbf35c49bfbb285322e25d3a.jpg",
+    "thumbnail": "9ced38dd97fb0a923cd9769f961f5d49.jpg",
     "images": [
-      "6d64e434fbf35c49bfbb285322e25d3a.jpg"
+      "9ced38dd97fb0a923cd9769f961f5d49.jpg"
     ],
     "materialType": "실크"
   },
@@ -8689,11 +8689,11 @@ export const materials = [
     "name": "82558-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "f26d50e0eb169790309db2c9cf52c2cf.jpg",
+    "thumbnail": "6156658c064307929a59e81583922197.jpg",
     "images": [
-      "f26d50e0eb169790309db2c9cf52c2cf.jpg"
+      "6156658c064307929a59e81583922197.jpg"
     ],
     "materialType": "실크"
   },
@@ -8703,11 +8703,11 @@ export const materials = [
     "name": "82559-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "a5f6a4b932b1eef9cd2d2b5962c616d1.jpg",
+    "thumbnail": "7584943c3b0187f0b99a944bc7ee31c7.jpg",
     "images": [
-      "a5f6a4b932b1eef9cd2d2b5962c616d1.jpg"
+      "7584943c3b0187f0b99a944bc7ee31c7.jpg"
     ],
     "materialType": "실크"
   },
@@ -8717,11 +8717,11 @@ export const materials = [
     "name": "82559-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "00161adea11203efc0de893f40b3b0b7.jpg",
+    "thumbnail": "255ea74bc830966c3abe2a0626dcc5cf.jpg",
     "images": [
-      "00161adea11203efc0de893f40b3b0b7.jpg"
+      "255ea74bc830966c3abe2a0626dcc5cf.jpg"
     ],
     "materialType": "실크"
   },
@@ -8731,11 +8731,11 @@ export const materials = [
     "name": "82559-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "f636c5b0d53d214c0ab862da8df5e1a5.jpg",
+    "thumbnail": "4d4a806ba4ca2b2c29413b3ed9749400.jpg",
     "images": [
-      "f636c5b0d53d214c0ab862da8df5e1a5.jpg"
+      "4d4a806ba4ca2b2c29413b3ed9749400.jpg"
     ],
     "materialType": "실크"
   },
@@ -8745,11 +8745,11 @@ export const materials = [
     "name": "82560-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "17e68e127b3c3e358a2e60159982a118.jpg",
+    "thumbnail": "db6fd7f989d6ab093ae166964a71dfd3.jpg",
     "images": [
-      "17e68e127b3c3e358a2e60159982a118.jpg"
+      "db6fd7f989d6ab093ae166964a71dfd3.jpg"
     ],
     "materialType": "실크"
   },
@@ -8759,11 +8759,11 @@ export const materials = [
     "name": "82560-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "e34e9f2f9e627e3a1a213c1b101ce71c.jpg",
+    "thumbnail": "86e6f780f55bc69bb488472057c6c7c1.jpg",
     "images": [
-      "e34e9f2f9e627e3a1a213c1b101ce71c.jpg"
+      "86e6f780f55bc69bb488472057c6c7c1.jpg"
     ],
     "materialType": "실크"
   },
@@ -8773,11 +8773,11 @@ export const materials = [
     "name": "82575-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "5b89e3ea7f6c7247b5a21a6713197ca7.jpg",
+    "thumbnail": "568a367f3e4056028de9598dbb2eb2d9.jpg",
     "images": [
-      "5b89e3ea7f6c7247b5a21a6713197ca7.jpg"
+      "568a367f3e4056028de9598dbb2eb2d9.jpg"
     ],
     "materialType": "실크"
   },
@@ -8787,11 +8787,11 @@ export const materials = [
     "name": "82575-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "2d466ad8cbbedbf239521aec5586ffc1.jpg",
+    "thumbnail": "39a237bf80ee1bced8e930cd17e717d8.jpg",
     "images": [
-      "2d466ad8cbbedbf239521aec5586ffc1.jpg"
+      "39a237bf80ee1bced8e930cd17e717d8.jpg"
     ],
     "materialType": "실크"
   },
@@ -8801,11 +8801,11 @@ export const materials = [
     "name": "82575-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "23c6b412a4d408838347ba601b9434e8.jpg",
+    "thumbnail": "a8fbda8341cf9cb0d3d0e21c6e575f65.jpg",
     "images": [
-      "23c6b412a4d408838347ba601b9434e8.jpg"
+      "a8fbda8341cf9cb0d3d0e21c6e575f65.jpg"
     ],
     "materialType": "실크"
   },
@@ -8815,11 +8815,11 @@ export const materials = [
     "name": "82575-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "a380beb8c2f2bac042c511ef56db5a87.jpg",
+    "thumbnail": "438e8e119d5bd6f6e8cdcedc5b56c2c7.jpg",
     "images": [
-      "a380beb8c2f2bac042c511ef56db5a87.jpg"
+      "438e8e119d5bd6f6e8cdcedc5b56c2c7.jpg"
     ],
     "materialType": "실크"
   },
@@ -8829,11 +8829,11 @@ export const materials = [
     "name": "82576-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "4fc8df9122c31a2b890153c7f16a81bd.jpg",
+    "thumbnail": "a9c5d36290f9d34229e06af4003d91e2.jpg",
     "images": [
-      "4fc8df9122c31a2b890153c7f16a81bd.jpg"
+      "a9c5d36290f9d34229e06af4003d91e2.jpg"
     ],
     "materialType": "실크"
   },
@@ -8843,11 +8843,11 @@ export const materials = [
     "name": "82576-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "7e81c0c3dedf5af1c8647e885fc55fd6.jpg",
+    "thumbnail": "89cb05655db528352d37a3501fd30dd5.jpg",
     "images": [
-      "7e81c0c3dedf5af1c8647e885fc55fd6.jpg"
+      "89cb05655db528352d37a3501fd30dd5.jpg"
     ],
     "materialType": "실크"
   },
@@ -8857,11 +8857,11 @@ export const materials = [
     "name": "82576-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "c056a1a5bbe54b6a6ddfa0046f386286.jpg",
+    "thumbnail": "db36da7b68809723ecf36917d98c226d.jpg",
     "images": [
-      "c056a1a5bbe54b6a6ddfa0046f386286.jpg"
+      "db36da7b68809723ecf36917d98c226d.jpg"
     ],
     "materialType": "실크"
   },
@@ -8871,11 +8871,11 @@ export const materials = [
     "name": "82576-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "5f6fad9caba8c7a8103af8751a96115f.jpg",
+    "thumbnail": "f20577bc676a6e4323d2507ba1d8a7f0.jpg",
     "images": [
-      "5f6fad9caba8c7a8103af8751a96115f.jpg"
+      "f20577bc676a6e4323d2507ba1d8a7f0.jpg"
     ],
     "materialType": "실크"
   },
@@ -8885,11 +8885,11 @@ export const materials = [
     "name": "82576-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "1ff266703fe3ca8c20d0c3547c4357c2.jpg",
+    "thumbnail": "fe3474f911eaea2c1da8b14a304dca02.jpg",
     "images": [
-      "1ff266703fe3ca8c20d0c3547c4357c2.jpg"
+      "fe3474f911eaea2c1da8b14a304dca02.jpg"
     ],
     "materialType": "실크"
   },
@@ -8899,11 +8899,11 @@ export const materials = [
     "name": "82576-06",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "9954496af6ab1f650913c574c8d13877.jpg",
+    "thumbnail": "900640dc480022f182d371e5bb0a6ee5.jpg",
     "images": [
-      "9954496af6ab1f650913c574c8d13877.jpg"
+      "900640dc480022f182d371e5bb0a6ee5.jpg"
     ],
     "materialType": "실크"
   },
@@ -8913,11 +8913,11 @@ export const materials = [
     "name": "82576-07",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "f8fe43faca8e58fa9e72d1237cc2b9da.jpg",
+    "thumbnail": "c284ff70c96a9308a78084d0fd5e0bed.jpg",
     "images": [
-      "f8fe43faca8e58fa9e72d1237cc2b9da.jpg"
+      "c284ff70c96a9308a78084d0fd5e0bed.jpg"
     ],
     "materialType": "실크"
   },
@@ -8927,11 +8927,11 @@ export const materials = [
     "name": "82576-08",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "d4b51370bd518c2744e3ad5845ee1e1b.jpg",
+    "thumbnail": "658ec3f28deb047e77efdab8c560b7f6.jpg",
     "images": [
-      "d4b51370bd518c2744e3ad5845ee1e1b.jpg"
+      "658ec3f28deb047e77efdab8c560b7f6.jpg"
     ],
     "materialType": "실크"
   },
@@ -8941,11 +8941,11 @@ export const materials = [
     "name": "82577-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "81cd485dedbd487a87fa4f84e0ce4197.jpg",
+    "thumbnail": "55bb9bc2f3d598c53273dafff6aac86e.jpg",
     "images": [
-      "81cd485dedbd487a87fa4f84e0ce4197.jpg"
+      "55bb9bc2f3d598c53273dafff6aac86e.jpg"
     ],
     "materialType": "실크"
   },
@@ -8955,11 +8955,11 @@ export const materials = [
     "name": "82577-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "813fbbb66f1d474d3ddd4670bfa679b8.jpg",
+    "thumbnail": "a4ab4f75e1d0b82c14869169b7363dbe.jpg",
     "images": [
-      "813fbbb66f1d474d3ddd4670bfa679b8.jpg"
+      "a4ab4f75e1d0b82c14869169b7363dbe.jpg"
     ],
     "materialType": "실크"
   },
@@ -8969,11 +8969,11 @@ export const materials = [
     "name": "82578-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "cfb3ec36749547097b87e3f6d257b4d9.jpg",
+    "thumbnail": "afad84e67c1c2ef91f6320e0a66842bb.jpg",
     "images": [
-      "cfb3ec36749547097b87e3f6d257b4d9.jpg"
+      "afad84e67c1c2ef91f6320e0a66842bb.jpg"
     ],
     "materialType": "실크"
   },
@@ -8983,11 +8983,11 @@ export const materials = [
     "name": "82578-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "daec68a144531e984ff11c5b9c181d83.jpg",
+    "thumbnail": "c642b2143f3b94cc5016e9db3498d063.jpg",
     "images": [
-      "daec68a144531e984ff11c5b9c181d83.jpg"
+      "c642b2143f3b94cc5016e9db3498d063.jpg"
     ],
     "materialType": "실크"
   },
@@ -8997,11 +8997,11 @@ export const materials = [
     "name": "82578-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "ed0ab4a5b0c62c9f6cbb612d174bc8f3.jpg",
+    "thumbnail": "5ec84e6d39b85f98b4e0296074bda500.jpg",
     "images": [
-      "ed0ab4a5b0c62c9f6cbb612d174bc8f3.jpg"
+      "5ec84e6d39b85f98b4e0296074bda500.jpg"
     ],
     "materialType": "실크"
   },
@@ -9011,11 +9011,11 @@ export const materials = [
     "name": "82578-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "70eb86e9ac2c1d5f223fb61835304292.jpg",
+    "thumbnail": "92f197d21ca2d2dd290afd8786bcb073.jpg",
     "images": [
-      "70eb86e9ac2c1d5f223fb61835304292.jpg"
+      "92f197d21ca2d2dd290afd8786bcb073.jpg"
     ],
     "materialType": "실크"
   },
@@ -9025,11 +9025,11 @@ export const materials = [
     "name": "82578-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "2eb84ba4bfbf9c4f575c0f4534a8b499.jpg",
+    "thumbnail": "dba7f809429d369695ac5ce533118e64.jpg",
     "images": [
-      "2eb84ba4bfbf9c4f575c0f4534a8b499.jpg"
+      "dba7f809429d369695ac5ce533118e64.jpg"
     ],
     "materialType": "실크"
   },
@@ -9039,11 +9039,11 @@ export const materials = [
     "name": "82578-06",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "8c7b2dff08470f1813c135c62f41532b.jpg",
+    "thumbnail": "de0677702e6047649e5ddf79dc6e4619.jpg",
     "images": [
-      "8c7b2dff08470f1813c135c62f41532b.jpg"
+      "de0677702e6047649e5ddf79dc6e4619.jpg"
     ],
     "materialType": "실크"
   },
@@ -9053,11 +9053,11 @@ export const materials = [
     "name": "82578-07",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "599138048fcea9e76f0e0528c127e3c7.jpg",
+    "thumbnail": "be9b17185021fd8c91d0b4f8378cbec8.jpg",
     "images": [
-      "599138048fcea9e76f0e0528c127e3c7.jpg"
+      "be9b17185021fd8c91d0b4f8378cbec8.jpg"
     ],
     "materialType": "실크"
   },
@@ -9067,11 +9067,11 @@ export const materials = [
     "name": "82579-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "4cade34c333d437eda9ab69e0956df1c.jpg",
+    "thumbnail": "b661d8aba008fd8e447a85c930df8517.jpg",
     "images": [
-      "4cade34c333d437eda9ab69e0956df1c.jpg"
+      "b661d8aba008fd8e447a85c930df8517.jpg"
     ],
     "materialType": "실크"
   },
@@ -9081,11 +9081,11 @@ export const materials = [
     "name": "82579-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "82b07dfe348a89f5080145aaca11b767.jpg",
+    "thumbnail": "dfd48009f99a72bb3fdc7741bb87926f.jpg",
     "images": [
-      "82b07dfe348a89f5080145aaca11b767.jpg"
+      "dfd48009f99a72bb3fdc7741bb87926f.jpg"
     ],
     "materialType": "실크"
   },
@@ -9095,11 +9095,11 @@ export const materials = [
     "name": "82579-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "4cbb66c36381c83c20f932bbe3d26596.jpg",
+    "thumbnail": "46acbf23926b3819c22284732bedac8d.jpg",
     "images": [
-      "4cbb66c36381c83c20f932bbe3d26596.jpg"
+      "46acbf23926b3819c22284732bedac8d.jpg"
     ],
     "materialType": "실크"
   },
@@ -9109,11 +9109,11 @@ export const materials = [
     "name": "82579-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "610d6858253db285ffa38915d65da3b2.jpg",
+    "thumbnail": "36d51c61cbd8c8694df01a9274269cc4.jpg",
     "images": [
-      "610d6858253db285ffa38915d65da3b2.jpg"
+      "36d51c61cbd8c8694df01a9274269cc4.jpg"
     ],
     "materialType": "실크"
   },
@@ -9123,11 +9123,11 @@ export const materials = [
     "name": "82581-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "ce9bd9a5bf3d6240327fa51a82a3f087.jpg",
+    "thumbnail": "94c47cc35d2d8da39c0199718f31acd7.jpg",
     "images": [
-      "ce9bd9a5bf3d6240327fa51a82a3f087.jpg"
+      "94c47cc35d2d8da39c0199718f31acd7.jpg"
     ],
     "materialType": "실크"
   },
@@ -9137,11 +9137,11 @@ export const materials = [
     "name": "82581-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "0dbb2ed024cf79d261b2c34b5272981e.jpg",
+    "thumbnail": "2dfeada1432f965d51d88dbc313d042f.jpg",
     "images": [
-      "0dbb2ed024cf79d261b2c34b5272981e.jpg"
+      "2dfeada1432f965d51d88dbc313d042f.jpg"
     ],
     "materialType": "실크"
   },
@@ -9151,11 +9151,11 @@ export const materials = [
     "name": "82581-06",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "5d9840403ea01e31dccce7dd451e15ae.jpg",
+    "thumbnail": "da9648bdc26ef670544ae20f3e9e666a.jpg",
     "images": [
-      "5d9840403ea01e31dccce7dd451e15ae.jpg"
+      "da9648bdc26ef670544ae20f3e9e666a.jpg"
     ],
     "materialType": "실크"
   },
@@ -9165,11 +9165,11 @@ export const materials = [
     "name": "82585-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "7c41ed13298ffa41bd0a8d6a1dc0a099.jpg",
+    "thumbnail": "3ed0b1c513630b6df41be2324bcc4f54.jpg",
     "images": [
-      "7c41ed13298ffa41bd0a8d6a1dc0a099.jpg"
+      "3ed0b1c513630b6df41be2324bcc4f54.jpg"
     ],
     "materialType": "실크"
   },
@@ -9179,11 +9179,11 @@ export const materials = [
     "name": "82588-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "d76c5c8e1c71fb1b30f15e2022feaa2b.jpg",
+    "thumbnail": "688b0af8fb5905a836860ea9ecdaeac6.jpg",
     "images": [
-      "d76c5c8e1c71fb1b30f15e2022feaa2b.jpg"
+      "688b0af8fb5905a836860ea9ecdaeac6.jpg"
     ],
     "materialType": "실크"
   },
@@ -9193,11 +9193,11 @@ export const materials = [
     "name": "82588-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "1c5a32c3aedd425ede224233a0d7c824.jpg",
+    "thumbnail": "f1a142bce285a6ca1aaaa2dd8c6640d7.jpg",
     "images": [
-      "1c5a32c3aedd425ede224233a0d7c824.jpg"
+      "f1a142bce285a6ca1aaaa2dd8c6640d7.jpg"
     ],
     "materialType": "실크"
   },
@@ -9207,11 +9207,11 @@ export const materials = [
     "name": "82590-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "d5cfc3d053402d40bdc4947cfe0631b0.jpg",
+    "thumbnail": "ed331239273a8b77672b2e14560f660b.jpg",
     "images": [
-      "d5cfc3d053402d40bdc4947cfe0631b0.jpg"
+      "ed331239273a8b77672b2e14560f660b.jpg"
     ],
     "materialType": "실크"
   },
@@ -9221,11 +9221,11 @@ export const materials = [
     "name": "82590-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "e18fa79ff645cb5413fdebc19e1454d4.jpg",
+    "thumbnail": "0b19ec9517509a5d87b0cb37365b61fc.jpg",
     "images": [
-      "e18fa79ff645cb5413fdebc19e1454d4.jpg"
+      "0b19ec9517509a5d87b0cb37365b61fc.jpg"
     ],
     "materialType": "실크"
   },
@@ -9235,11 +9235,11 @@ export const materials = [
     "name": "82599-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "e5db57ae66679027ec89c18feb1ae569.jpg",
+    "thumbnail": "f23ecfd0853409f96fc2136ed8d4d08d.jpg",
     "images": [
-      "e5db57ae66679027ec89c18feb1ae569.jpg"
+      "f23ecfd0853409f96fc2136ed8d4d08d.jpg"
     ],
     "materialType": "실크"
   },
@@ -9249,11 +9249,11 @@ export const materials = [
     "name": "82600-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "02fbe99adc6731a5476a55b14c6c5b97.jpg",
+    "thumbnail": "cddbba84b16fcbf5afdce27e0d75c546.jpg",
     "images": [
-      "02fbe99adc6731a5476a55b14c6c5b97.jpg"
+      "cddbba84b16fcbf5afdce27e0d75c546.jpg"
     ],
     "materialType": "실크"
   },
@@ -9263,11 +9263,11 @@ export const materials = [
     "name": "82600-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "d239ce99074d6882892d7cf4a327aede.jpg",
+    "thumbnail": "429ecf486929b8ee085d04bff3374ef0.jpg",
     "images": [
-      "d239ce99074d6882892d7cf4a327aede.jpg"
+      "429ecf486929b8ee085d04bff3374ef0.jpg"
     ],
     "materialType": "실크"
   },
@@ -9277,11 +9277,11 @@ export const materials = [
     "name": "82600-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "c8203c29d6702a1a1bdd8f9a0494728f.jpg",
+    "thumbnail": "62b395d674f4a267b05f49110f740775.jpg",
     "images": [
-      "c8203c29d6702a1a1bdd8f9a0494728f.jpg"
+      "62b395d674f4a267b05f49110f740775.jpg"
     ],
     "materialType": "실크"
   },
@@ -9291,11 +9291,11 @@ export const materials = [
     "name": "82600-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "2d4dd408476feae88e79af2c108ca90c.jpg",
+    "thumbnail": "4ab775738be198c55f1910b7b9cb97e7.jpg",
     "images": [
-      "2d4dd408476feae88e79af2c108ca90c.jpg"
+      "4ab775738be198c55f1910b7b9cb97e7.jpg"
     ],
     "materialType": "실크"
   },
@@ -9305,11 +9305,11 @@ export const materials = [
     "name": "82600-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "8fa685b23a7e452f0e5e806e1e1f50fd.jpg",
+    "thumbnail": "33f9b496bb41770e3c80de11936eb171.jpg",
     "images": [
-      "8fa685b23a7e452f0e5e806e1e1f50fd.jpg"
+      "33f9b496bb41770e3c80de11936eb171.jpg"
     ],
     "materialType": "실크"
   },
@@ -9319,11 +9319,11 @@ export const materials = [
     "name": "82600-06",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "80f564ce587ac19dd1f61c41b60d0014.jpg",
+    "thumbnail": "403eea5ed06be94d8be0fbc93f0b798d.jpg",
     "images": [
-      "80f564ce587ac19dd1f61c41b60d0014.jpg"
+      "403eea5ed06be94d8be0fbc93f0b798d.jpg"
     ],
     "materialType": "실크"
   },
@@ -9333,11 +9333,11 @@ export const materials = [
     "name": "82600-07",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "8ff775ad891debba001b789ba6fbb2fa.jpg",
+    "thumbnail": "80f5d119ad2db170581fc11daf0d7557.jpg",
     "images": [
-      "8ff775ad891debba001b789ba6fbb2fa.jpg"
+      "80f5d119ad2db170581fc11daf0d7557.jpg"
     ],
     "materialType": "실크"
   },
@@ -9347,11 +9347,11 @@ export const materials = [
     "name": "82600-08",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "b370044449b8bdcab046b531ed4d73ed.jpg",
+    "thumbnail": "15266603bfc3308b7d23b8479ac6f1a5.jpg",
     "images": [
-      "b370044449b8bdcab046b531ed4d73ed.jpg"
+      "15266603bfc3308b7d23b8479ac6f1a5.jpg"
     ],
     "materialType": "실크"
   },
@@ -9361,11 +9361,11 @@ export const materials = [
     "name": "82601-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "e1ebd5a0b04dd30c2141bc29ed7a0a99.jpg",
+    "thumbnail": "09e26a0d92308901b01584073a8ad380.jpg",
     "images": [
-      "e1ebd5a0b04dd30c2141bc29ed7a0a99.jpg"
+      "09e26a0d92308901b01584073a8ad380.jpg"
     ],
     "materialType": "실크"
   },
@@ -9375,11 +9375,11 @@ export const materials = [
     "name": "82601-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "9d09d3c7ed433069d773c03d65bf17bf.jpg",
+    "thumbnail": "e1e2ab9c035d2d37486ad5814775499d.jpg",
     "images": [
-      "9d09d3c7ed433069d773c03d65bf17bf.jpg"
+      "e1e2ab9c035d2d37486ad5814775499d.jpg"
     ],
     "materialType": "실크"
   },
@@ -9389,11 +9389,11 @@ export const materials = [
     "name": "82601-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "095c0e051fcb3671a72c5c14075a5bb2.jpg",
+    "thumbnail": "933ae7f8c8c91b3d11fdcd6bcfa5baac.jpg",
     "images": [
-      "095c0e051fcb3671a72c5c14075a5bb2.jpg"
+      "933ae7f8c8c91b3d11fdcd6bcfa5baac.jpg"
     ],
     "materialType": "실크"
   },
@@ -9403,11 +9403,11 @@ export const materials = [
     "name": "82601-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "ea911a2ca0a1a44552e44b222c45c94f.jpg",
+    "thumbnail": "a3cfff3f2205cf655d73d8b3d5ce01b9.jpg",
     "images": [
-      "ea911a2ca0a1a44552e44b222c45c94f.jpg"
+      "a3cfff3f2205cf655d73d8b3d5ce01b9.jpg"
     ],
     "materialType": "실크"
   },
@@ -9417,11 +9417,11 @@ export const materials = [
     "name": "82601-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "bbb6ef1f5d913c139e1fb07471adfdc4.jpg",
+    "thumbnail": "60a5df927429f8d7f2138fa986da9027.jpg",
     "images": [
-      "bbb6ef1f5d913c139e1fb07471adfdc4.jpg"
+      "60a5df927429f8d7f2138fa986da9027.jpg"
     ],
     "materialType": "실크"
   },
@@ -9431,11 +9431,11 @@ export const materials = [
     "name": "82601-06",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "a126c3a7e9dd38948d3dd414a88490cf.jpg",
+    "thumbnail": "9a6ab14b4a8efeb5c4e1279f2c3817b6.jpg",
     "images": [
-      "a126c3a7e9dd38948d3dd414a88490cf.jpg"
+      "9a6ab14b4a8efeb5c4e1279f2c3817b6.jpg"
     ],
     "materialType": "실크"
   },
@@ -9445,11 +9445,11 @@ export const materials = [
     "name": "82601-07",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "d3632b3951b502c4a9dc819551c7bd99.jpg",
+    "thumbnail": "b4a6f991500b36fc8ae63e2cf84fd4a7.jpg",
     "images": [
-      "d3632b3951b502c4a9dc819551c7bd99.jpg"
+      "b4a6f991500b36fc8ae63e2cf84fd4a7.jpg"
     ],
     "materialType": "실크"
   },
@@ -9459,11 +9459,11 @@ export const materials = [
     "name": "82602-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "83729ebedffddb07cc4d58fbcac991cd.jpg",
+    "thumbnail": "6b828d9dfdcf145385522e8c0ae762d4.jpg",
     "images": [
-      "83729ebedffddb07cc4d58fbcac991cd.jpg"
+      "6b828d9dfdcf145385522e8c0ae762d4.jpg"
     ],
     "materialType": "실크"
   },
@@ -9473,11 +9473,11 @@ export const materials = [
     "name": "82602-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "c441e4e8186a7871f51ba8067b5cd65c.jpg",
+    "thumbnail": "eb0536b6dac9e6e93505f7c20a4e8177.jpg",
     "images": [
-      "c441e4e8186a7871f51ba8067b5cd65c.jpg"
+      "eb0536b6dac9e6e93505f7c20a4e8177.jpg"
     ],
     "materialType": "실크"
   },
@@ -9487,11 +9487,11 @@ export const materials = [
     "name": "82602-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "d05304b76a8acde58e869d1f256c44fb.jpg",
+    "thumbnail": "ac5159b5a262565dc9b100d878210dc2.jpg",
     "images": [
-      "d05304b76a8acde58e869d1f256c44fb.jpg"
+      "ac5159b5a262565dc9b100d878210dc2.jpg"
     ],
     "materialType": "실크"
   },
@@ -9501,11 +9501,11 @@ export const materials = [
     "name": "82602-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "c9cd43451eadc358253bdc2f31d1d25f.jpg",
+    "thumbnail": "bbd59ceead68e1dd6b48bae7f1f55d99.jpg",
     "images": [
-      "c9cd43451eadc358253bdc2f31d1d25f.jpg"
+      "bbd59ceead68e1dd6b48bae7f1f55d99.jpg"
     ],
     "materialType": "실크"
   },
@@ -9515,11 +9515,11 @@ export const materials = [
     "name": "82602-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "4862a6f1c79f981b172c27ce66c4d051.jpg",
+    "thumbnail": "bb9dbfa6a9172a1080c4b723af7e63fa.jpg",
     "images": [
-      "4862a6f1c79f981b172c27ce66c4d051.jpg"
+      "bb9dbfa6a9172a1080c4b723af7e63fa.jpg"
     ],
     "materialType": "실크"
   },
@@ -9529,11 +9529,11 @@ export const materials = [
     "name": "82602-06",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "02104512646306aaef5f3d7237c4f73d.jpg",
+    "thumbnail": "7179ec43373ca5b00a6b74ad2584fe11.jpg",
     "images": [
-      "02104512646306aaef5f3d7237c4f73d.jpg"
+      "7179ec43373ca5b00a6b74ad2584fe11.jpg"
     ],
     "materialType": "실크"
   },
@@ -9543,11 +9543,11 @@ export const materials = [
     "name": "82603-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "32675504643be00bfcee68a5b703f086.jpg",
+    "thumbnail": "ad0ace58ad97d7c67a362d4ea34723f8.jpg",
     "images": [
-      "32675504643be00bfcee68a5b703f086.jpg"
+      "ad0ace58ad97d7c67a362d4ea34723f8.jpg"
     ],
     "materialType": "실크"
   },
@@ -9557,11 +9557,11 @@ export const materials = [
     "name": "82603-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "bc27a82934bdf809d2093612b388a157.jpg",
+    "thumbnail": "17cd3b5496d050b139e3e2b1a1a57baf.jpg",
     "images": [
-      "bc27a82934bdf809d2093612b388a157.jpg"
+      "17cd3b5496d050b139e3e2b1a1a57baf.jpg"
     ],
     "materialType": "실크"
   },
@@ -9571,11 +9571,11 @@ export const materials = [
     "name": "82603-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "fe6f2b9728a8b11cfe6bdee494363d2d.jpg",
+    "thumbnail": "92bfa8657cbfb3be47525183d01fe6ed.jpg",
     "images": [
-      "fe6f2b9728a8b11cfe6bdee494363d2d.jpg"
+      "92bfa8657cbfb3be47525183d01fe6ed.jpg"
     ],
     "materialType": "실크"
   },
@@ -9585,11 +9585,11 @@ export const materials = [
     "name": "82603-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "55e026eea9bca10c88ca3f42ffeea896.jpg",
+    "thumbnail": "67455757f5b57009403de3c837e9c11b.jpg",
     "images": [
-      "55e026eea9bca10c88ca3f42ffeea896.jpg"
+      "67455757f5b57009403de3c837e9c11b.jpg"
     ],
     "materialType": "실크"
   },
@@ -9599,11 +9599,11 @@ export const materials = [
     "name": "82603-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "cd381804dcd366ad2a11e2653d4bc9d1.jpg",
+    "thumbnail": "8bbf4c253707b8bbe9ae9442b61f4211.jpg",
     "images": [
-      "cd381804dcd366ad2a11e2653d4bc9d1.jpg"
+      "8bbf4c253707b8bbe9ae9442b61f4211.jpg"
     ],
     "materialType": "실크"
   },
@@ -9613,11 +9613,11 @@ export const materials = [
     "name": "82603-06",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "1e4369d0d9a48137310e2c71902c71d1.jpg",
+    "thumbnail": "3c8dc219ca2e4e63ddce424bbde095f5.jpg",
     "images": [
-      "1e4369d0d9a48137310e2c71902c71d1.jpg"
+      "3c8dc219ca2e4e63ddce424bbde095f5.jpg"
     ],
     "materialType": "실크"
   },
@@ -9627,11 +9627,11 @@ export const materials = [
     "name": "82606-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "1f23e1c5ffc4be480580a604f0102199.jpg",
+    "thumbnail": "65018ab19cde68e6ecbdd8d762f510ec.jpg",
     "images": [
-      "1f23e1c5ffc4be480580a604f0102199.jpg"
+      "65018ab19cde68e6ecbdd8d762f510ec.jpg"
     ],
     "materialType": "실크"
   },
@@ -9641,11 +9641,11 @@ export const materials = [
     "name": "82606-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "12aec3d8d3dec6ff9176b4a502920740.jpg",
+    "thumbnail": "ab092a2377b5a4d73d3eb4dc6b47114a.jpg",
     "images": [
-      "12aec3d8d3dec6ff9176b4a502920740.jpg"
+      "ab092a2377b5a4d73d3eb4dc6b47114a.jpg"
     ],
     "materialType": "실크"
   },
@@ -9655,11 +9655,11 @@ export const materials = [
     "name": "82607-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "920a8e039d3abe40613e2a88d01064df.jpg",
+    "thumbnail": "b5119edaad6879e33284570df1ba10d6.jpg",
     "images": [
-      "920a8e039d3abe40613e2a88d01064df.jpg"
+      "b5119edaad6879e33284570df1ba10d6.jpg"
     ],
     "materialType": "실크"
   },
@@ -9669,11 +9669,11 @@ export const materials = [
     "name": "82607-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "1b3ac87ab3dd0e7e2690d10fe417f6ad.jpg",
+    "thumbnail": "b941ad9c2ca9fa7ca7260c581f14560c.jpg",
     "images": [
-      "1b3ac87ab3dd0e7e2690d10fe417f6ad.jpg"
+      "b941ad9c2ca9fa7ca7260c581f14560c.jpg"
     ],
     "materialType": "실크"
   },
@@ -9683,11 +9683,11 @@ export const materials = [
     "name": "82608-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "282bcd12902875b1adff035ee9d2d079.jpg",
+    "thumbnail": "0b0fbd76e713eb5e8433b06cca794276.jpg",
     "images": [
-      "282bcd12902875b1adff035ee9d2d079.jpg"
+      "0b0fbd76e713eb5e8433b06cca794276.jpg"
     ],
     "materialType": "실크"
   },
@@ -9697,11 +9697,11 @@ export const materials = [
     "name": "82608-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "8f19351920b50aa4c93255e64bde2320.jpg",
+    "thumbnail": "30977ddb21068856e67db325c1564b00.jpg",
     "images": [
-      "8f19351920b50aa4c93255e64bde2320.jpg"
+      "30977ddb21068856e67db325c1564b00.jpg"
     ],
     "materialType": "실크"
   },
@@ -9711,11 +9711,11 @@ export const materials = [
     "name": "82608-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "01939f05a51c828e7fe3872214ba30b0.jpg",
+    "thumbnail": "1dd6d0022d56eb9d58353cff1e726ec6.jpg",
     "images": [
-      "01939f05a51c828e7fe3872214ba30b0.jpg"
+      "1dd6d0022d56eb9d58353cff1e726ec6.jpg"
     ],
     "materialType": "실크"
   },
@@ -9725,11 +9725,11 @@ export const materials = [
     "name": "82608-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "c394a59c9bcc57ef8ed9346b03a1fa32.jpg",
+    "thumbnail": "6f84d6b59c75007f0a898dd82b050b68.jpg",
     "images": [
-      "c394a59c9bcc57ef8ed9346b03a1fa32.jpg"
+      "6f84d6b59c75007f0a898dd82b050b68.jpg"
     ],
     "materialType": "실크"
   },
@@ -9739,11 +9739,11 @@ export const materials = [
     "name": "82609-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "333db9649342601302010a622b712a8b.jpg",
+    "thumbnail": "92aded863e3e73f9b2c525735dd2bdfa.jpg",
     "images": [
-      "333db9649342601302010a622b712a8b.jpg"
+      "92aded863e3e73f9b2c525735dd2bdfa.jpg"
     ],
     "materialType": "실크"
   },
@@ -9753,11 +9753,11 @@ export const materials = [
     "name": "82609-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "40a5786d93ebb5b49c0a94f320fa6275.jpg",
+    "thumbnail": "75496d15c086895d4adc429b082dd84b.jpg",
     "images": [
-      "40a5786d93ebb5b49c0a94f320fa6275.jpg"
+      "75496d15c086895d4adc429b082dd84b.jpg"
     ],
     "materialType": "실크"
   },
@@ -9767,11 +9767,11 @@ export const materials = [
     "name": "82610-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "ea865f6dd96953f302bf357c67369619.jpg",
+    "thumbnail": "6cb1970fe1bcdcba8c62d4f96ed98333.jpg",
     "images": [
-      "ea865f6dd96953f302bf357c67369619.jpg"
+      "6cb1970fe1bcdcba8c62d4f96ed98333.jpg"
     ],
     "materialType": "실크"
   },
@@ -9781,11 +9781,11 @@ export const materials = [
     "name": "82610-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "0e887f19ab88f4bc9571a053a5fea07b.jpg",
+    "thumbnail": "ff7705f9b99e8e324c12558204817ef9.jpg",
     "images": [
-      "0e887f19ab88f4bc9571a053a5fea07b.jpg"
+      "ff7705f9b99e8e324c12558204817ef9.jpg"
     ],
     "materialType": "실크"
   },
@@ -9795,11 +9795,11 @@ export const materials = [
     "name": "82610-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "83814164d98a94dfb20ec3f2f16c1f3e.jpg",
+    "thumbnail": "c6dbbb4d75f9bdf67cb0d81177c2c7c7.jpg",
     "images": [
-      "83814164d98a94dfb20ec3f2f16c1f3e.jpg"
+      "c6dbbb4d75f9bdf67cb0d81177c2c7c7.jpg"
     ],
     "materialType": "실크"
   },
@@ -9809,11 +9809,11 @@ export const materials = [
     "name": "82610-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "4d7a18a7dfd3afeae1e783ea66ae75ed.jpg",
+    "thumbnail": "f7d425dfc1d15f52cb92f53d52e08f4f.jpg",
     "images": [
-      "4d7a18a7dfd3afeae1e783ea66ae75ed.jpg"
+      "f7d425dfc1d15f52cb92f53d52e08f4f.jpg"
     ],
     "materialType": "실크"
   },
@@ -9823,11 +9823,11 @@ export const materials = [
     "name": "82610-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "820f5de15801bdbcf01d9f030a5b71d9.jpg",
+    "thumbnail": "40ea37161525c1e2cd4a842706ab946d.jpg",
     "images": [
-      "820f5de15801bdbcf01d9f030a5b71d9.jpg"
+      "40ea37161525c1e2cd4a842706ab946d.jpg"
     ],
     "materialType": "실크"
   },
@@ -9837,11 +9837,11 @@ export const materials = [
     "name": "82611-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "1f19f28a7c0ead4b61d3d759c0f12942.jpg",
+    "thumbnail": "ae6d1c0012e81246f5363cab2d44bf50.jpg",
     "images": [
-      "1f19f28a7c0ead4b61d3d759c0f12942.jpg"
+      "ae6d1c0012e81246f5363cab2d44bf50.jpg"
     ],
     "materialType": "실크"
   },
@@ -9851,11 +9851,11 @@ export const materials = [
     "name": "82613-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "e4e0d491e96d27bb09d0fecab40f7871.jpg",
+    "thumbnail": "e24e823ad3c5e096934f8c6ac191a3d4.jpg",
     "images": [
-      "e4e0d491e96d27bb09d0fecab40f7871.jpg"
+      "e24e823ad3c5e096934f8c6ac191a3d4.jpg"
     ],
     "materialType": "실크"
   },
@@ -9865,11 +9865,11 @@ export const materials = [
     "name": "82613-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "c4b683767b96796562fd9925458750bc.jpg",
+    "thumbnail": "6012f50a4db21de6b5dff95e27ed4e8b.jpg",
     "images": [
-      "c4b683767b96796562fd9925458750bc.jpg"
+      "6012f50a4db21de6b5dff95e27ed4e8b.jpg"
     ],
     "materialType": "실크"
   },
@@ -9879,11 +9879,11 @@ export const materials = [
     "name": "H8190-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "7e87f8deaa3a0dfaeee08f731f3af364.jpg",
+    "thumbnail": "5780a9fcae10df0f85c6906667af321d.jpg",
     "images": [
-      "7e87f8deaa3a0dfaeee08f731f3af364.jpg"
+      "5780a9fcae10df0f85c6906667af321d.jpg"
     ],
     "materialType": "실크"
   },
@@ -9893,11 +9893,11 @@ export const materials = [
     "name": "H8194-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "51f9207f85ee4e8ce088c9c9ae08ded4.jpg",
+    "thumbnail": "80b91989290019b2568579b1e760f77b.jpg",
     "images": [
-      "51f9207f85ee4e8ce088c9c9ae08ded4.jpg"
+      "80b91989290019b2568579b1e760f77b.jpg"
     ],
     "materialType": "실크"
   },
@@ -9907,11 +9907,11 @@ export const materials = [
     "name": "T1032-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "04f1256c23fef6e06a89b03efdd7fc86.jpg",
+    "thumbnail": "f523ee434cc4820c32205ee1e69a1152.jpg",
     "images": [
-      "04f1256c23fef6e06a89b03efdd7fc86.jpg"
+      "f523ee434cc4820c32205ee1e69a1152.jpg"
     ],
     "materialType": "실크"
   },
@@ -9921,11 +9921,11 @@ export const materials = [
     "name": "T1033-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "fba6ec5feb9d9d7957ee66cf5657ff4c.jpg",
+    "thumbnail": "828b67b1d4c7464bad39510ab98588e1.jpg",
     "images": [
-      "fba6ec5feb9d9d7957ee66cf5657ff4c.jpg"
+      "828b67b1d4c7464bad39510ab98588e1.jpg"
     ],
     "materialType": "실크"
   },
@@ -9935,11 +9935,11 @@ export const materials = [
     "name": "T1059-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "c8fcee5f806276b14b08e151704cca44.jpg",
+    "thumbnail": "8effeb514e4145ae4016d1e3f76267c1.jpg",
     "images": [
-      "c8fcee5f806276b14b08e151704cca44.jpg"
+      "8effeb514e4145ae4016d1e3f76267c1.jpg"
     ],
     "materialType": "실크"
   },
@@ -9949,11 +9949,11 @@ export const materials = [
     "name": "T1082-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "40717d2c62ef75b179394eedb2c54516.jpg",
+    "thumbnail": "80e55cf09b3152612b644b7a613aec61.jpg",
     "images": [
-      "40717d2c62ef75b179394eedb2c54516.jpg"
+      "80e55cf09b3152612b644b7a613aec61.jpg"
     ],
     "materialType": "실크"
   },
@@ -9963,11 +9963,11 @@ export const materials = [
     "name": "T1082-09",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "f3a23058a8f03b4e48c74a3ca0640e3e.jpg",
+    "thumbnail": "cfd74ea3712862860e3923d615181446.jpg",
     "images": [
-      "f3a23058a8f03b4e48c74a3ca0640e3e.jpg"
+      "cfd74ea3712862860e3923d615181446.jpg"
     ],
     "materialType": "실크"
   },
@@ -9977,11 +9977,11 @@ export const materials = [
     "name": "T1082-10",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "a5d1b2441ea59d5e07c4b38401fb502a.jpg",
+    "thumbnail": "feb3e285e17ea4e4d9784852c4e7b262.jpg",
     "images": [
-      "a5d1b2441ea59d5e07c4b38401fb502a.jpg"
+      "feb3e285e17ea4e4d9784852c4e7b262.jpg"
     ],
     "materialType": "실크"
   },
@@ -9991,11 +9991,11 @@ export const materials = [
     "name": "T1084-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "843517b78448f22d6ce4dd0d70a16de3.jpg",
+    "thumbnail": "960a13ecffc5cb7b284a2cc36a562848.jpg",
     "images": [
-      "843517b78448f22d6ce4dd0d70a16de3.jpg"
+      "960a13ecffc5cb7b284a2cc36a562848.jpg"
     ],
     "materialType": "실크"
   },
@@ -10005,11 +10005,11 @@ export const materials = [
     "name": "T1084-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "1a1baeeaa784a198e2f6b91383b73373.jpg",
+    "thumbnail": "43b7a650aa8c80ec767b91c040fadfe2.jpg",
     "images": [
-      "1a1baeeaa784a198e2f6b91383b73373.jpg"
+      "43b7a650aa8c80ec767b91c040fadfe2.jpg"
     ],
     "materialType": "실크"
   },
@@ -10019,11 +10019,11 @@ export const materials = [
     "name": "T1093-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "21e0e00f05bd5937578706f28d666950.jpg",
+    "thumbnail": "847f12ddf5496aaff613768727a9acd3.jpg",
     "images": [
-      "21e0e00f05bd5937578706f28d666950.jpg"
+      "847f12ddf5496aaff613768727a9acd3.jpg"
     ],
     "materialType": "실크"
   },
@@ -10033,11 +10033,11 @@ export const materials = [
     "name": "T1096-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_베스트",
+    "line": "실크_LX_베스트",
     "price": 0,
-    "thumbnail": "f4c27b2bcf6efd3d7802ed1743426aa4.jpg",
+    "thumbnail": "7647b6e91e0851a4fcaceccf046330ce.jpg",
     "images": [
-      "f4c27b2bcf6efd3d7802ed1743426aa4.jpg"
+      "7647b6e91e0851a4fcaceccf046330ce.jpg"
     ],
     "materialType": "실크"
   },
@@ -10047,11 +10047,11 @@ export const materials = [
     "name": "7043-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "f0ccc8f0145fcfd2caef0c6d6d8f9d55.jpg",
+    "thumbnail": "fe02529bc4aacaf59508962c301907ef.jpg",
     "images": [
-      "f0ccc8f0145fcfd2caef0c6d6d8f9d55.jpg"
+      "fe02529bc4aacaf59508962c301907ef.jpg"
     ],
     "materialType": "실크"
   },
@@ -10061,11 +10061,11 @@ export const materials = [
     "name": "7043-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "fec106d93889bf80531fd77e0958d25b.jpg",
+    "thumbnail": "164083bcb16030ee13938dc66feaa4ea.jpg",
     "images": [
-      "fec106d93889bf80531fd77e0958d25b.jpg"
+      "164083bcb16030ee13938dc66feaa4ea.jpg"
     ],
     "materialType": "실크"
   },
@@ -10075,11 +10075,11 @@ export const materials = [
     "name": "7053-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "90d0002ba2ec452749755500c4e1f715.jpg",
+    "thumbnail": "7985b4f43abc9c8cfba7d8700c451a93.jpg",
     "images": [
-      "90d0002ba2ec452749755500c4e1f715.jpg"
+      "7985b4f43abc9c8cfba7d8700c451a93.jpg"
     ],
     "materialType": "실크"
   },
@@ -10089,11 +10089,11 @@ export const materials = [
     "name": "7069-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "e8bdb94c37c8aa01d2591cd57895798a.jpg",
+    "thumbnail": "29f3f67c2a56adc26019a6bc92431f6d.jpg",
     "images": [
-      "e8bdb94c37c8aa01d2591cd57895798a.jpg"
+      "29f3f67c2a56adc26019a6bc92431f6d.jpg"
     ],
     "materialType": "실크"
   },
@@ -10103,11 +10103,11 @@ export const materials = [
     "name": "7074-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "3d0746b560d71b548277139f4dc83b0b.jpg",
+    "thumbnail": "4d9051e0ac8a1cb3c60f90b215d60fb4.jpg",
     "images": [
-      "3d0746b560d71b548277139f4dc83b0b.jpg"
+      "4d9051e0ac8a1cb3c60f90b215d60fb4.jpg"
     ],
     "materialType": "실크"
   },
@@ -10117,11 +10117,11 @@ export const materials = [
     "name": "7075-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "167f6b05e75592b62f41c921e752149c.jpg",
+    "thumbnail": "5e331c3792868e86e69a5ebe5dfcb861.jpg",
     "images": [
-      "167f6b05e75592b62f41c921e752149c.jpg"
+      "5e331c3792868e86e69a5ebe5dfcb861.jpg"
     ],
     "materialType": "실크"
   },
@@ -10131,11 +10131,11 @@ export const materials = [
     "name": "7077-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "4c51b03114b3521797672d2f3118eab1.jpg",
+    "thumbnail": "c377d201e599c7ce3566ce5c23ebe56f.jpg",
     "images": [
-      "4c51b03114b3521797672d2f3118eab1.jpg"
+      "c377d201e599c7ce3566ce5c23ebe56f.jpg"
     ],
     "materialType": "실크"
   },
@@ -10145,11 +10145,11 @@ export const materials = [
     "name": "7085-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "345a672c720a1b9cdd16073b9f4e1a2a.jpg",
+    "thumbnail": "18f8fde1aafb3b5aa3f759253459552c.jpg",
     "images": [
-      "345a672c720a1b9cdd16073b9f4e1a2a.jpg"
+      "18f8fde1aafb3b5aa3f759253459552c.jpg"
     ],
     "materialType": "실크"
   },
@@ -10159,11 +10159,11 @@ export const materials = [
     "name": "7085-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "f42488f7e1b81e466b8517c4c7c7524f.jpg",
+    "thumbnail": "2f0bf7a1263de42e04fa1ed6d3642fae.jpg",
     "images": [
-      "f42488f7e1b81e466b8517c4c7c7524f.jpg"
+      "2f0bf7a1263de42e04fa1ed6d3642fae.jpg"
     ],
     "materialType": "실크"
   },
@@ -10173,11 +10173,11 @@ export const materials = [
     "name": "7087-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "71e4695fc241d9d0b63e229ce583f68c.jpg",
+    "thumbnail": "4b863bfd22a439135a6f17190d4a5280.jpg",
     "images": [
-      "71e4695fc241d9d0b63e229ce583f68c.jpg"
+      "4b863bfd22a439135a6f17190d4a5280.jpg"
     ],
     "materialType": "실크"
   },
@@ -10187,11 +10187,11 @@ export const materials = [
     "name": "7090-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "91c01271d8daacb544f44c3e947b8d78.jpg",
+    "thumbnail": "dc022f0d1848a85db3f3dcceeca6ad31.jpg",
     "images": [
-      "91c01271d8daacb544f44c3e947b8d78.jpg"
+      "dc022f0d1848a85db3f3dcceeca6ad31.jpg"
     ],
     "materialType": "실크"
   },
@@ -10201,11 +10201,11 @@ export const materials = [
     "name": "7090-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "7d14fc6dc5f6d2ac02e3af8ae8945955.jpg",
+    "thumbnail": "f15b2a1f4ac5649bcfdc65699bf3d897.jpg",
     "images": [
-      "7d14fc6dc5f6d2ac02e3af8ae8945955.jpg"
+      "f15b2a1f4ac5649bcfdc65699bf3d897.jpg"
     ],
     "materialType": "실크"
   },
@@ -10215,11 +10215,11 @@ export const materials = [
     "name": "7090-06",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "77e0388d197362159a4d9e2c508a2d98.jpg",
+    "thumbnail": "a832dea292aed0e76d27d40ad2fe2091.jpg",
     "images": [
-      "77e0388d197362159a4d9e2c508a2d98.jpg"
+      "a832dea292aed0e76d27d40ad2fe2091.jpg"
     ],
     "materialType": "실크"
   },
@@ -10229,11 +10229,11 @@ export const materials = [
     "name": "7090-07",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "97ef62030335efce7dd8b8ddd3ebf613.jpg",
+    "thumbnail": "98cc78c7b96956d10e072373da00ecca.jpg",
     "images": [
-      "97ef62030335efce7dd8b8ddd3ebf613.jpg"
+      "98cc78c7b96956d10e072373da00ecca.jpg"
     ],
     "materialType": "실크"
   },
@@ -10243,11 +10243,11 @@ export const materials = [
     "name": "7090-08",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "72b7263d015655cd8ccc6f3d5654df23.jpg",
+    "thumbnail": "024e6635b995bdbb2483b40bdea85077.jpg",
     "images": [
-      "72b7263d015655cd8ccc6f3d5654df23.jpg"
+      "024e6635b995bdbb2483b40bdea85077.jpg"
     ],
     "materialType": "실크"
   },
@@ -10257,11 +10257,11 @@ export const materials = [
     "name": "7095-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "53d86df3d8e70d20b06d246e43c08c91.jpg",
+    "thumbnail": "d6f2b01ed3c9b98e1ecbf24b0142bfa2.jpg",
     "images": [
-      "53d86df3d8e70d20b06d246e43c08c91.jpg"
+      "d6f2b01ed3c9b98e1ecbf24b0142bfa2.jpg"
     ],
     "materialType": "실크"
   },
@@ -10271,11 +10271,11 @@ export const materials = [
     "name": "7096-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "c6dfd3f1c3d19ec771014939e3ba3afa.jpg",
+    "thumbnail": "fb58d065e3b427e93c417b583098490d.jpg",
     "images": [
-      "c6dfd3f1c3d19ec771014939e3ba3afa.jpg"
+      "fb58d065e3b427e93c417b583098490d.jpg"
     ],
     "materialType": "실크"
   },
@@ -10285,11 +10285,11 @@ export const materials = [
     "name": "7097-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "64266b6cf14889830745546c05c06345.jpg",
+    "thumbnail": "55d4a935cb2de9fdb963312762170a09.jpg",
     "images": [
-      "64266b6cf14889830745546c05c06345.jpg"
+      "55d4a935cb2de9fdb963312762170a09.jpg"
     ],
     "materialType": "실크"
   },
@@ -10299,11 +10299,11 @@ export const materials = [
     "name": "7097-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "cf74f91f62593d69a3bf7e57020cba93.jpg",
+    "thumbnail": "ed5b3c2d06d529a3fe650106e149ee35.jpg",
     "images": [
-      "cf74f91f62593d69a3bf7e57020cba93.jpg"
+      "ed5b3c2d06d529a3fe650106e149ee35.jpg"
     ],
     "materialType": "실크"
   },
@@ -10313,11 +10313,11 @@ export const materials = [
     "name": "7097-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "34da7c21a5872dd1e699768f0e7cab84.jpg",
+    "thumbnail": "72d931fbe3d6550c151ce570cecd3c10.jpg",
     "images": [
-      "34da7c21a5872dd1e699768f0e7cab84.jpg"
+      "72d931fbe3d6550c151ce570cecd3c10.jpg"
     ],
     "materialType": "실크"
   },
@@ -10327,11 +10327,11 @@ export const materials = [
     "name": "7097-06",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "ad3921da6d5ef5138425197369d43c7e.jpg",
+    "thumbnail": "1aad0e5d57ae42a79dc76002e99d98a1.jpg",
     "images": [
-      "ad3921da6d5ef5138425197369d43c7e.jpg"
+      "1aad0e5d57ae42a79dc76002e99d98a1.jpg"
     ],
     "materialType": "실크"
   },
@@ -10341,11 +10341,11 @@ export const materials = [
     "name": "7097-07",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "25573014b5807af511f8375aa7c5e98d.jpg",
+    "thumbnail": "aeadac8eae252f320987b2a8d66630e2.jpg",
     "images": [
-      "25573014b5807af511f8375aa7c5e98d.jpg"
+      "aeadac8eae252f320987b2a8d66630e2.jpg"
     ],
     "materialType": "실크"
   },
@@ -10355,11 +10355,11 @@ export const materials = [
     "name": "7097-08",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "fff9d17dd43434cd1395563f82271d22.jpg",
+    "thumbnail": "b62272eb92ab1459a4acb49c2135fc1e.jpg",
     "images": [
-      "fff9d17dd43434cd1395563f82271d22.jpg"
+      "b62272eb92ab1459a4acb49c2135fc1e.jpg"
     ],
     "materialType": "실크"
   },
@@ -10369,11 +10369,11 @@ export const materials = [
     "name": "7105-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "629e4fc92ec9803a1f7df6dbf40b14b8.jpg",
+    "thumbnail": "09423219fe52a784c17b695c795801df.jpg",
     "images": [
-      "629e4fc92ec9803a1f7df6dbf40b14b8.jpg"
+      "09423219fe52a784c17b695c795801df.jpg"
     ],
     "materialType": "실크"
   },
@@ -10383,11 +10383,11 @@ export const materials = [
     "name": "7107-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "fc0fdbc27bb0ffe4008fc3f94cda41cd.jpg",
+    "thumbnail": "9525895a4250514639c951f81a993fe1.jpg",
     "images": [
-      "fc0fdbc27bb0ffe4008fc3f94cda41cd.jpg"
+      "9525895a4250514639c951f81a993fe1.jpg"
     ],
     "materialType": "실크"
   },
@@ -10397,11 +10397,11 @@ export const materials = [
     "name": "7107-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "5ce0e3c9f7bda726dc6688b2be54362b.jpg",
+    "thumbnail": "9971f35526cf17ce01b28fb53f30be8c.jpg",
     "images": [
-      "5ce0e3c9f7bda726dc6688b2be54362b.jpg"
+      "9971f35526cf17ce01b28fb53f30be8c.jpg"
     ],
     "materialType": "실크"
   },
@@ -10411,11 +10411,11 @@ export const materials = [
     "name": "7107-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "ac450db1bd435f5124d21a40aaf3fcee.jpg",
+    "thumbnail": "5e6c712758b6e260ec51dc8a114c6763.jpg",
     "images": [
-      "ac450db1bd435f5124d21a40aaf3fcee.jpg"
+      "5e6c712758b6e260ec51dc8a114c6763.jpg"
     ],
     "materialType": "실크"
   },
@@ -10425,11 +10425,11 @@ export const materials = [
     "name": "7107-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "6c4b07a9d4daebdaf69eb3138bce7bfe.jpg",
+    "thumbnail": "c0eb5e75533b00ed87fcec17fc94ccbe.jpg",
     "images": [
-      "6c4b07a9d4daebdaf69eb3138bce7bfe.jpg"
+      "c0eb5e75533b00ed87fcec17fc94ccbe.jpg"
     ],
     "materialType": "실크"
   },
@@ -10439,11 +10439,11 @@ export const materials = [
     "name": "7107-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "d47102e5dba7a4052fb9306e6a7cf883.jpg",
+    "thumbnail": "566ad5018491080fcf2bac598ca0b049.jpg",
     "images": [
-      "d47102e5dba7a4052fb9306e6a7cf883.jpg"
+      "566ad5018491080fcf2bac598ca0b049.jpg"
     ],
     "materialType": "실크"
   },
@@ -10453,11 +10453,11 @@ export const materials = [
     "name": "7108-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "074f703b9c8b7d558c46caa7d6765d0d.jpg",
+    "thumbnail": "ba92c9f58d22e8bf43e146414296cfba.jpg",
     "images": [
-      "074f703b9c8b7d558c46caa7d6765d0d.jpg"
+      "ba92c9f58d22e8bf43e146414296cfba.jpg"
     ],
     "materialType": "실크"
   },
@@ -10467,11 +10467,11 @@ export const materials = [
     "name": "7108-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "6243d038621c464ff6694a5d52155406.jpg",
+    "thumbnail": "31ddefafcfda608a2f13064f1ecdd1f4.jpg",
     "images": [
-      "6243d038621c464ff6694a5d52155406.jpg"
+      "31ddefafcfda608a2f13064f1ecdd1f4.jpg"
     ],
     "materialType": "실크"
   },
@@ -10481,11 +10481,11 @@ export const materials = [
     "name": "7108-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "4d1268cb02bbf921cf75fcf9c52204a8.jpg",
+    "thumbnail": "03edcbcf3f8e4545a7b7f4df4ab7d5c9.jpg",
     "images": [
-      "4d1268cb02bbf921cf75fcf9c52204a8.jpg"
+      "03edcbcf3f8e4545a7b7f4df4ab7d5c9.jpg"
     ],
     "materialType": "실크"
   },
@@ -10495,11 +10495,11 @@ export const materials = [
     "name": "7108-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "5bc42dc4116e107d1dbfa623e5d81739.jpg",
+    "thumbnail": "e382829c60160d9e3802c3327a56e7af.jpg",
     "images": [
-      "5bc42dc4116e107d1dbfa623e5d81739.jpg"
+      "e382829c60160d9e3802c3327a56e7af.jpg"
     ],
     "materialType": "실크"
   },
@@ -10509,11 +10509,11 @@ export const materials = [
     "name": "7108-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "7acb9ca6c37f62507cca1a1760a7515b.jpg",
+    "thumbnail": "898017f2e384398c503ab29a3d363f28.jpg",
     "images": [
-      "7acb9ca6c37f62507cca1a1760a7515b.jpg"
+      "898017f2e384398c503ab29a3d363f28.jpg"
     ],
     "materialType": "실크"
   },
@@ -10523,11 +10523,11 @@ export const materials = [
     "name": "7109-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "c60db3dbaa5ebfa7f2c249cd218f3326.jpg",
+    "thumbnail": "0e57df239118e8b60da72c73d1d80f46.jpg",
     "images": [
-      "c60db3dbaa5ebfa7f2c249cd218f3326.jpg"
+      "0e57df239118e8b60da72c73d1d80f46.jpg"
     ],
     "materialType": "실크"
   },
@@ -10537,11 +10537,11 @@ export const materials = [
     "name": "7111-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "f19c60aa777486f3d70d3e4c6db99895.jpg",
+    "thumbnail": "ae73ea62d80bb118885c99ce9865b68e.jpg",
     "images": [
-      "f19c60aa777486f3d70d3e4c6db99895.jpg"
+      "ae73ea62d80bb118885c99ce9865b68e.jpg"
     ],
     "materialType": "실크"
   },
@@ -10551,11 +10551,11 @@ export const materials = [
     "name": "7111-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "b195e54bd220a535fd868b602dac011d.jpg",
+    "thumbnail": "7b9558bb882bddce855ff3fd068f6409.jpg",
     "images": [
-      "b195e54bd220a535fd868b602dac011d.jpg"
+      "7b9558bb882bddce855ff3fd068f6409.jpg"
     ],
     "materialType": "실크"
   },
@@ -10565,11 +10565,11 @@ export const materials = [
     "name": "7111-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "53256328e6560e72adedb7e5ed468e2e.jpg",
+    "thumbnail": "c6c6218efba14d1ed0f42f1d60e60ca4.jpg",
     "images": [
-      "53256328e6560e72adedb7e5ed468e2e.jpg"
+      "c6c6218efba14d1ed0f42f1d60e60ca4.jpg"
     ],
     "materialType": "실크"
   },
@@ -10579,11 +10579,11 @@ export const materials = [
     "name": "7111-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "73bd6814b60e812ae5e907179d9159dc.jpg",
+    "thumbnail": "9624f769091bc0556e3baee804f5475a.jpg",
     "images": [
-      "73bd6814b60e812ae5e907179d9159dc.jpg"
+      "9624f769091bc0556e3baee804f5475a.jpg"
     ],
     "materialType": "실크"
   },
@@ -10593,11 +10593,11 @@ export const materials = [
     "name": "7112-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "7c92ae0a686caffa8f9455bee18e215f.jpg",
+    "thumbnail": "8662130adb419449ca8a1ccb91abac85.jpg",
     "images": [
-      "7c92ae0a686caffa8f9455bee18e215f.jpg"
+      "8662130adb419449ca8a1ccb91abac85.jpg"
     ],
     "materialType": "실크"
   },
@@ -10607,11 +10607,11 @@ export const materials = [
     "name": "7112-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "d351730b45919de13c4248900bbb9f3b.jpg",
+    "thumbnail": "adc6c22a4748995bb3d5f986d0caf572.jpg",
     "images": [
-      "d351730b45919de13c4248900bbb9f3b.jpg"
+      "adc6c22a4748995bb3d5f986d0caf572.jpg"
     ],
     "materialType": "실크"
   },
@@ -10621,11 +10621,11 @@ export const materials = [
     "name": "7112-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "f4c69de0043a329b7fdb974fb0f4ec25.jpg",
+    "thumbnail": "152e849cc5e53dce3dfdbd73def80431.jpg",
     "images": [
-      "f4c69de0043a329b7fdb974fb0f4ec25.jpg"
+      "152e849cc5e53dce3dfdbd73def80431.jpg"
     ],
     "materialType": "실크"
   },
@@ -10635,11 +10635,11 @@ export const materials = [
     "name": "7112-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "739c44ca815949982f8346dfd719e3c0.jpg",
+    "thumbnail": "d50cc46e2259de98f04dd03c2237b40e.jpg",
     "images": [
-      "739c44ca815949982f8346dfd719e3c0.jpg"
+      "d50cc46e2259de98f04dd03c2237b40e.jpg"
     ],
     "materialType": "실크"
   },
@@ -10649,11 +10649,11 @@ export const materials = [
     "name": "7113-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "3762aecaa89db3c2bbc958b4d1214b80.jpg",
+    "thumbnail": "9d8c64c14125d545007314043fc01c05.jpg",
     "images": [
-      "3762aecaa89db3c2bbc958b4d1214b80.jpg"
+      "9d8c64c14125d545007314043fc01c05.jpg"
     ],
     "materialType": "실크"
   },
@@ -10663,11 +10663,11 @@ export const materials = [
     "name": "7113-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "b64bf79bcf8d7686a011fd80e4a5f6e0.jpg",
+    "thumbnail": "bd90c7107dedeae5255c627cae9a3d32.jpg",
     "images": [
-      "b64bf79bcf8d7686a011fd80e4a5f6e0.jpg"
+      "bd90c7107dedeae5255c627cae9a3d32.jpg"
     ],
     "materialType": "실크"
   },
@@ -10677,11 +10677,11 @@ export const materials = [
     "name": "7113-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "6711424670345aa0146baeccc4dde1fe.jpg",
+    "thumbnail": "4b77c3f8e36c420c4eb6db89b1a2b6f8.jpg",
     "images": [
-      "6711424670345aa0146baeccc4dde1fe.jpg"
+      "4b77c3f8e36c420c4eb6db89b1a2b6f8.jpg"
     ],
     "materialType": "실크"
   },
@@ -10691,11 +10691,11 @@ export const materials = [
     "name": "7113-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "51b761f518c1d89ee8d97c8d1b025a3d.jpg",
+    "thumbnail": "db7541d5f7bcc0c1a1408968b1e0393a.jpg",
     "images": [
-      "51b761f518c1d89ee8d97c8d1b025a3d.jpg"
+      "db7541d5f7bcc0c1a1408968b1e0393a.jpg"
     ],
     "materialType": "실크"
   },
@@ -10705,11 +10705,11 @@ export const materials = [
     "name": "7113-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "bc4ecaa5d3b78ed4b632e521a4b64c49.jpg",
+    "thumbnail": "060fab4579075b46518fd592e159a078.jpg",
     "images": [
-      "bc4ecaa5d3b78ed4b632e521a4b64c49.jpg"
+      "060fab4579075b46518fd592e159a078.jpg"
     ],
     "materialType": "실크"
   },
@@ -10719,11 +10719,11 @@ export const materials = [
     "name": "7113-06",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "aa64af1d4d39a960e9cd6b1c10d2478f.jpg",
+    "thumbnail": "818e63bb6b918fd25781d7e9d7a7bc75.jpg",
     "images": [
-      "aa64af1d4d39a960e9cd6b1c10d2478f.jpg"
+      "818e63bb6b918fd25781d7e9d7a7bc75.jpg"
     ],
     "materialType": "실크"
   },
@@ -10733,11 +10733,11 @@ export const materials = [
     "name": "7113-07",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "43fc2d84f74ee9dca5683756aa3dfa64.jpg",
+    "thumbnail": "9d624aca1ae00e4615c52f6d811aad49.jpg",
     "images": [
-      "43fc2d84f74ee9dca5683756aa3dfa64.jpg"
+      "9d624aca1ae00e4615c52f6d811aad49.jpg"
     ],
     "materialType": "실크"
   },
@@ -10747,11 +10747,11 @@ export const materials = [
     "name": "7114-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "a4cb369a1fa03f8be07d904a5ac9c09b.jpg",
+    "thumbnail": "fbe9e25c6b1d6bcc38c81524c0eaf51b.jpg",
     "images": [
-      "a4cb369a1fa03f8be07d904a5ac9c09b.jpg"
+      "fbe9e25c6b1d6bcc38c81524c0eaf51b.jpg"
     ],
     "materialType": "실크"
   },
@@ -10761,11 +10761,11 @@ export const materials = [
     "name": "7114-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "29f13d32bd6282363084369a962ca4f4.jpg",
+    "thumbnail": "9b27a5c196a27514640b1a0699b0b33b.jpg",
     "images": [
-      "29f13d32bd6282363084369a962ca4f4.jpg"
+      "9b27a5c196a27514640b1a0699b0b33b.jpg"
     ],
     "materialType": "실크"
   },
@@ -10775,11 +10775,11 @@ export const materials = [
     "name": "7114-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "ac26368dd5c96aa834cf40d31852c2b3.jpg",
+    "thumbnail": "d0e381fabfca82e41ee3d71cb56d79ca.jpg",
     "images": [
-      "ac26368dd5c96aa834cf40d31852c2b3.jpg"
+      "d0e381fabfca82e41ee3d71cb56d79ca.jpg"
     ],
     "materialType": "실크"
   },
@@ -10789,11 +10789,11 @@ export const materials = [
     "name": "7114-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "0d98943e8c758ae356871d2c2fffcd7d.jpg",
+    "thumbnail": "3751cc3bb7643e5b905d082f68694b39.jpg",
     "images": [
-      "0d98943e8c758ae356871d2c2fffcd7d.jpg"
+      "3751cc3bb7643e5b905d082f68694b39.jpg"
     ],
     "materialType": "실크"
   },
@@ -10803,11 +10803,11 @@ export const materials = [
     "name": "7114-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "b94f8183baa87caacd0e0b968ce0b718.jpg",
+    "thumbnail": "bbab8669abab23cfe7b19aa8108f7210.jpg",
     "images": [
-      "b94f8183baa87caacd0e0b968ce0b718.jpg"
+      "bbab8669abab23cfe7b19aa8108f7210.jpg"
     ],
     "materialType": "실크"
   },
@@ -10817,11 +10817,11 @@ export const materials = [
     "name": "7114-06",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "a7529afc6fc202d547ba18197653ffbc.jpg",
+    "thumbnail": "2b582b977d67f0ab5d300cfc6373124e.jpg",
     "images": [
-      "a7529afc6fc202d547ba18197653ffbc.jpg"
+      "2b582b977d67f0ab5d300cfc6373124e.jpg"
     ],
     "materialType": "실크"
   },
@@ -10831,11 +10831,11 @@ export const materials = [
     "name": "7114-07",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "9e5df7ffb1c795ac6666de240ee0113b.jpg",
+    "thumbnail": "a31ec408e228f8f309c5a06c98a7baad.jpg",
     "images": [
-      "9e5df7ffb1c795ac6666de240ee0113b.jpg"
+      "a31ec408e228f8f309c5a06c98a7baad.jpg"
     ],
     "materialType": "실크"
   },
@@ -10845,11 +10845,11 @@ export const materials = [
     "name": "7114-08",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "0eec07e8268f590a62e1f13460e6e132.jpg",
+    "thumbnail": "8eaaf1e58baa8afb1859a4af81d13429.jpg",
     "images": [
-      "0eec07e8268f590a62e1f13460e6e132.jpg"
+      "8eaaf1e58baa8afb1859a4af81d13429.jpg"
     ],
     "materialType": "실크"
   },
@@ -10859,11 +10859,11 @@ export const materials = [
     "name": "7115-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "b5894262a6890a33b426d95a54ca0037.jpg",
+    "thumbnail": "3068abdeda86a0250aaf2f630e8ed0af.jpg",
     "images": [
-      "b5894262a6890a33b426d95a54ca0037.jpg"
+      "3068abdeda86a0250aaf2f630e8ed0af.jpg"
     ],
     "materialType": "실크"
   },
@@ -10873,11 +10873,11 @@ export const materials = [
     "name": "7115-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "f9efb842c4300be11a5db089a11a4941.jpg",
+    "thumbnail": "77f8ebfce6ae3777eef3877935e52fe2.jpg",
     "images": [
-      "f9efb842c4300be11a5db089a11a4941.jpg"
+      "77f8ebfce6ae3777eef3877935e52fe2.jpg"
     ],
     "materialType": "실크"
   },
@@ -10887,11 +10887,11 @@ export const materials = [
     "name": "7115-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "a2f400e4ebf6c68090abe6ac0d4d8e4d.jpg",
+    "thumbnail": "6789596b05e81f6544c4dad915015073.jpg",
     "images": [
-      "a2f400e4ebf6c68090abe6ac0d4d8e4d.jpg"
+      "6789596b05e81f6544c4dad915015073.jpg"
     ],
     "materialType": "실크"
   },
@@ -10901,11 +10901,11 @@ export const materials = [
     "name": "7115-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "b9cbf779bbfa5826f6fc334ab9a62452.jpg",
+    "thumbnail": "69336b01c05bcde9c80d589db7b8b562.jpg",
     "images": [
-      "b9cbf779bbfa5826f6fc334ab9a62452.jpg"
+      "69336b01c05bcde9c80d589db7b8b562.jpg"
     ],
     "materialType": "실크"
   },
@@ -10915,11 +10915,11 @@ export const materials = [
     "name": "7115-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "864a012b82277983ef9ae00f65a5f48f.jpg",
+    "thumbnail": "d98c91e3a26a29a0115fc148590c0295.jpg",
     "images": [
-      "864a012b82277983ef9ae00f65a5f48f.jpg"
+      "d98c91e3a26a29a0115fc148590c0295.jpg"
     ],
     "materialType": "실크"
   },
@@ -10929,11 +10929,11 @@ export const materials = [
     "name": "7115-06",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "6d091c17a18b757c53bd5bab5271609d.jpg",
+    "thumbnail": "f56bd7407b755b7a89af8ec2248909b0.jpg",
     "images": [
-      "6d091c17a18b757c53bd5bab5271609d.jpg"
+      "f56bd7407b755b7a89af8ec2248909b0.jpg"
     ],
     "materialType": "실크"
   },
@@ -10943,11 +10943,11 @@ export const materials = [
     "name": "7115-07",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "5878c919a1bd28673d0e5d12dc5a52f2.jpg",
+    "thumbnail": "bc0fe1d5ff6dfd4a87ff8b3ec0fe10ed.jpg",
     "images": [
-      "5878c919a1bd28673d0e5d12dc5a52f2.jpg"
+      "bc0fe1d5ff6dfd4a87ff8b3ec0fe10ed.jpg"
     ],
     "materialType": "실크"
   },
@@ -10957,11 +10957,11 @@ export const materials = [
     "name": "7116-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "2aa8b750b8364e856908733989370f82.jpg",
+    "thumbnail": "e2a2ba90b7d116a0d5a9c5a967cc2555.jpg",
     "images": [
-      "2aa8b750b8364e856908733989370f82.jpg"
+      "e2a2ba90b7d116a0d5a9c5a967cc2555.jpg"
     ],
     "materialType": "실크"
   },
@@ -10971,11 +10971,11 @@ export const materials = [
     "name": "7116-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "8c51eb58e442d9cc994da07b95d33ed1.jpg",
+    "thumbnail": "b4a23fa3459fc30e7d40ee9f8c32d942.jpg",
     "images": [
-      "8c51eb58e442d9cc994da07b95d33ed1.jpg"
+      "b4a23fa3459fc30e7d40ee9f8c32d942.jpg"
     ],
     "materialType": "실크"
   },
@@ -10985,11 +10985,11 @@ export const materials = [
     "name": "7116-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "a496c39dd5902741e8e3da2c76e7f401.jpg",
+    "thumbnail": "fde43103e5d10682eb17b97a56974fd8.jpg",
     "images": [
-      "a496c39dd5902741e8e3da2c76e7f401.jpg"
+      "fde43103e5d10682eb17b97a56974fd8.jpg"
     ],
     "materialType": "실크"
   },
@@ -10999,11 +10999,11 @@ export const materials = [
     "name": "7116-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "c69d08bb9aee467a30bf78741d11281f.jpg",
+    "thumbnail": "5180942028abb151facc3e485da1fea1.jpg",
     "images": [
-      "c69d08bb9aee467a30bf78741d11281f.jpg"
+      "5180942028abb151facc3e485da1fea1.jpg"
     ],
     "materialType": "실크"
   },
@@ -11013,11 +11013,11 @@ export const materials = [
     "name": "7116-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "4c2950edb71c5fa65421b023703b6452.jpg",
+    "thumbnail": "dd1f366a346968af4050a1c6594b28b8.jpg",
     "images": [
-      "4c2950edb71c5fa65421b023703b6452.jpg"
+      "dd1f366a346968af4050a1c6594b28b8.jpg"
     ],
     "materialType": "실크"
   },
@@ -11027,11 +11027,11 @@ export const materials = [
     "name": "7116-06",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "d0acb8bc83b31ad149c8f9a26d331721.jpg",
+    "thumbnail": "f3ca390c86e2008d4402958c03e8dcef.jpg",
     "images": [
-      "d0acb8bc83b31ad149c8f9a26d331721.jpg"
+      "f3ca390c86e2008d4402958c03e8dcef.jpg"
     ],
     "materialType": "실크"
   },
@@ -11041,11 +11041,11 @@ export const materials = [
     "name": "7116-07",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "bf0fa80a279f2f1fce3f1ebf41c0aee9.jpg",
+    "thumbnail": "81d2ae6d3b3aa245eb83942d6f717998.jpg",
     "images": [
-      "bf0fa80a279f2f1fce3f1ebf41c0aee9.jpg"
+      "81d2ae6d3b3aa245eb83942d6f717998.jpg"
     ],
     "materialType": "실크"
   },
@@ -11055,11 +11055,11 @@ export const materials = [
     "name": "7116-08",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "58f4c7936d1dd2306e4ad791be657eb7.jpg",
+    "thumbnail": "2e9bcd973ef533fd2d254b868e5d477f.jpg",
     "images": [
-      "58f4c7936d1dd2306e4ad791be657eb7.jpg"
+      "2e9bcd973ef533fd2d254b868e5d477f.jpg"
     ],
     "materialType": "실크"
   },
@@ -11069,11 +11069,11 @@ export const materials = [
     "name": "7117-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "7e6bf581874fd8ebd9240ebaed8e3c2b.jpg",
+    "thumbnail": "a9f2e49b7d7b9a8ff3e4c31fda95c5c0.jpg",
     "images": [
-      "7e6bf581874fd8ebd9240ebaed8e3c2b.jpg"
+      "a9f2e49b7d7b9a8ff3e4c31fda95c5c0.jpg"
     ],
     "materialType": "실크"
   },
@@ -11083,11 +11083,11 @@ export const materials = [
     "name": "7117-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "6eb7dd99e5c99bb5f9c564008ccc544a.jpg",
+    "thumbnail": "0a6c281417d728860f3d674624299e28.jpg",
     "images": [
-      "6eb7dd99e5c99bb5f9c564008ccc544a.jpg"
+      "0a6c281417d728860f3d674624299e28.jpg"
     ],
     "materialType": "실크"
   },
@@ -11097,11 +11097,11 @@ export const materials = [
     "name": "7117-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "4d0421a41ac6ebe92092577f7bb336ea.jpg",
+    "thumbnail": "e6b983430366e8e02b49a79d0351b7b7.jpg",
     "images": [
-      "4d0421a41ac6ebe92092577f7bb336ea.jpg"
+      "e6b983430366e8e02b49a79d0351b7b7.jpg"
     ],
     "materialType": "실크"
   },
@@ -11111,11 +11111,11 @@ export const materials = [
     "name": "7117-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "c99ac893a364b8c7c70434afd6cd6886.jpg",
+    "thumbnail": "dec3a403f0cbbbd0d98e476c2ebcbc52.jpg",
     "images": [
-      "c99ac893a364b8c7c70434afd6cd6886.jpg"
+      "dec3a403f0cbbbd0d98e476c2ebcbc52.jpg"
     ],
     "materialType": "실크"
   },
@@ -11125,11 +11125,11 @@ export const materials = [
     "name": "7117-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "7976d6b7295ab83553897163410cecb8.jpg",
+    "thumbnail": "916e8d18dd41eafb652aeac4caa45729.jpg",
     "images": [
-      "7976d6b7295ab83553897163410cecb8.jpg"
+      "916e8d18dd41eafb652aeac4caa45729.jpg"
     ],
     "materialType": "실크"
   },
@@ -11139,11 +11139,11 @@ export const materials = [
     "name": "7118-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "76d28517caa02753571de821ce8f8b6a.jpg",
+    "thumbnail": "2661c222ee8363ec4ba01e5a62445ae3.jpg",
     "images": [
-      "76d28517caa02753571de821ce8f8b6a.jpg"
+      "2661c222ee8363ec4ba01e5a62445ae3.jpg"
     ],
     "materialType": "실크"
   },
@@ -11153,11 +11153,11 @@ export const materials = [
     "name": "7118-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "24d7a78f6f32061d39c7760826ff03f5.jpg",
+    "thumbnail": "bee16456d932e6cb999d14caa4bf0fec.jpg",
     "images": [
-      "24d7a78f6f32061d39c7760826ff03f5.jpg"
+      "bee16456d932e6cb999d14caa4bf0fec.jpg"
     ],
     "materialType": "실크"
   },
@@ -11167,11 +11167,11 @@ export const materials = [
     "name": "7118-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "e5f5e5e223de735a2abb87e8df199257.jpg",
+    "thumbnail": "c85a930e02f415df1db8b3454e4ece21.jpg",
     "images": [
-      "e5f5e5e223de735a2abb87e8df199257.jpg"
+      "c85a930e02f415df1db8b3454e4ece21.jpg"
     ],
     "materialType": "실크"
   },
@@ -11181,11 +11181,11 @@ export const materials = [
     "name": "7118-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "7291b4b03484a5d3f554bc001e79025f.jpg",
+    "thumbnail": "1f0f5d77189e7fd244edf0c729f665aa.jpg",
     "images": [
-      "7291b4b03484a5d3f554bc001e79025f.jpg"
+      "1f0f5d77189e7fd244edf0c729f665aa.jpg"
     ],
     "materialType": "실크"
   },
@@ -11195,11 +11195,11 @@ export const materials = [
     "name": "7118-05",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "09168442c28f991162daae55071c1dbf.jpg",
+    "thumbnail": "63335e470b5f2f0cf96a306a07b2d369.jpg",
     "images": [
-      "09168442c28f991162daae55071c1dbf.jpg"
+      "63335e470b5f2f0cf96a306a07b2d369.jpg"
     ],
     "materialType": "실크"
   },
@@ -11209,11 +11209,11 @@ export const materials = [
     "name": "7119-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "b3aeba004cc8ff2606d1ba2ec434bcdc.jpg",
+    "thumbnail": "02e593be19a6c657bea5b25bd406514f.jpg",
     "images": [
-      "b3aeba004cc8ff2606d1ba2ec434bcdc.jpg"
+      "02e593be19a6c657bea5b25bd406514f.jpg"
     ],
     "materialType": "실크"
   },
@@ -11223,11 +11223,11 @@ export const materials = [
     "name": "7119-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "79f2e097f7280bc57ca0bec138e94456.jpg",
+    "thumbnail": "e549fa2f4a0a580d4b7289dc3cbe5840.jpg",
     "images": [
-      "79f2e097f7280bc57ca0bec138e94456.jpg"
+      "e549fa2f4a0a580d4b7289dc3cbe5840.jpg"
     ],
     "materialType": "실크"
   },
@@ -11237,11 +11237,11 @@ export const materials = [
     "name": "7119-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "2ea61de52a9e8cd4db37b07916994ca4.jpg",
+    "thumbnail": "4815fd4d0589dbb897dca37debf5b7d8.jpg",
     "images": [
-      "2ea61de52a9e8cd4db37b07916994ca4.jpg"
+      "4815fd4d0589dbb897dca37debf5b7d8.jpg"
     ],
     "materialType": "실크"
   },
@@ -11251,11 +11251,11 @@ export const materials = [
     "name": "7119-04",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "7cd6d35fcd7459a4bd855f9f86f33b49.jpg",
+    "thumbnail": "0159e6fb8530397918098a8181ba9400.jpg",
     "images": [
-      "7cd6d35fcd7459a4bd855f9f86f33b49.jpg"
+      "0159e6fb8530397918098a8181ba9400.jpg"
     ],
     "materialType": "실크"
   },
@@ -11265,11 +11265,11 @@ export const materials = [
     "name": "7120-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "3d6b27585ea15713abf7cd855414fdef.jpg",
+    "thumbnail": "534b8f835b96b0c9d0f5d3846fd1f258.jpg",
     "images": [
-      "3d6b27585ea15713abf7cd855414fdef.jpg"
+      "534b8f835b96b0c9d0f5d3846fd1f258.jpg"
     ],
     "materialType": "실크"
   },
@@ -11279,11 +11279,11 @@ export const materials = [
     "name": "7120-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "e70edea1505888aa8b8bf24fda7be9c8.jpg",
+    "thumbnail": "e0cacdd1e32f309786309f70e9fac899.jpg",
     "images": [
-      "e70edea1505888aa8b8bf24fda7be9c8.jpg"
+      "e0cacdd1e32f309786309f70e9fac899.jpg"
     ],
     "materialType": "실크"
   },
@@ -11293,11 +11293,11 @@ export const materials = [
     "name": "7120-03",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "03b5305bc1f4758ff9666187227456d2.jpg",
+    "thumbnail": "10f94b5594cbaf727ddf6dbfc421b606.jpg",
     "images": [
-      "03b5305bc1f4758ff9666187227456d2.jpg"
+      "10f94b5594cbaf727ddf6dbfc421b606.jpg"
     ],
     "materialType": "실크"
   },
@@ -11307,11 +11307,11 @@ export const materials = [
     "name": "8190-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "87dff9ba6cc97f03a7506eaa8d7c53d7.jpg",
+    "thumbnail": "e0a7caca5807b0b4f5188bb4f833fa2e.jpg",
     "images": [
-      "87dff9ba6cc97f03a7506eaa8d7c53d7.jpg"
+      "e0a7caca5807b0b4f5188bb4f833fa2e.jpg"
     ],
     "materialType": "실크"
   },
@@ -11321,11 +11321,11 @@ export const materials = [
     "name": "8192-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "3bf149d364adf583a45c5ba7c3a244cc.jpg",
+    "thumbnail": "bea0f8cc9439fc2ec44886fc5de59922.jpg",
     "images": [
-      "3bf149d364adf583a45c5ba7c3a244cc.jpg"
+      "bea0f8cc9439fc2ec44886fc5de59922.jpg"
     ],
     "materialType": "실크"
   },
@@ -11335,11 +11335,11 @@ export const materials = [
     "name": "8195-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "7f51718162d9962858abdbefdf0dcf42.jpg",
+    "thumbnail": "56bd3ee42e1331c1534ea60a4cbfbf52.jpg",
     "images": [
-      "7f51718162d9962858abdbefdf0dcf42.jpg"
+      "56bd3ee42e1331c1534ea60a4cbfbf52.jpg"
     ],
     "materialType": "실크"
   },
@@ -11349,11 +11349,11 @@ export const materials = [
     "name": "8197-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "33a34a84fa11b130f254b19f28ec9705.jpg",
+    "thumbnail": "4a6deed97129f0ec1dd0d9359e93dec7.jpg",
     "images": [
-      "33a34a84fa11b130f254b19f28ec9705.jpg"
+      "4a6deed97129f0ec1dd0d9359e93dec7.jpg"
     ],
     "materialType": "실크"
   },
@@ -11363,11 +11363,11 @@ export const materials = [
     "name": "H8190-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "588ec35c18df47fa01e39c4a6e9b61ac.jpg",
+    "thumbnail": "bd18c2ed361dce02658a45c232d7862e.jpg",
     "images": [
-      "588ec35c18df47fa01e39c4a6e9b61ac.jpg"
+      "bd18c2ed361dce02658a45c232d7862e.jpg"
     ],
     "materialType": "실크"
   },
@@ -11377,11 +11377,11 @@ export const materials = [
     "name": "H8194-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피",
+    "line": "실크_LX_테라피",
     "price": 0,
-    "thumbnail": "a35c377125feaa82ecee62b8d35d603a.jpg",
+    "thumbnail": "d10e63feb28ff234dd89ceafdfc7d4d2.jpg",
     "images": [
-      "a35c377125feaa82ecee62b8d35d603a.jpg"
+      "d10e63feb28ff234dd89ceafdfc7d4d2.jpg"
     ],
     "materialType": "실크"
   },
@@ -11391,11 +11391,11 @@ export const materials = [
     "name": "._7043-01",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피___MACOSX",
+    "line": "실크_LX_테라피___MACOSX",
     "price": 0,
-    "thumbnail": "84f5507e977372fe55caef98fad9d833.jpg",
+    "thumbnail": "87b2eca78b2e09de2b53db53bee168d4.jpg",
     "images": [
-      "84f5507e977372fe55caef98fad9d833.jpg"
+      "87b2eca78b2e09de2b53db53bee168d4.jpg"
     ],
     "materialType": "실크"
   },
@@ -11405,11 +11405,11 @@ export const materials = [
     "name": "._7043-02",
     "brand": "LX",
     "category": "벽지",
-    "line": "LX_테라피___MACOSX",
+    "line": "실크_LX_테라피___MACOSX",
     "price": 0,
-    "thumbnail": "3b41c372f75a4d58d5d9a53cac49a324.jpg",
+    "thumbnail": "0d7935fca0bb3e46aaf8fedaf6b5de75.jpg",
     "images": [
-      "3b41c372f75a4d58d5d9a53cac49a324.jpg"
+      "0d7935fca0bb3e46aaf8fedaf6b5de75.jpg"
     ],
     "materialType": "실크"
   },
