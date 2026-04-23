@@ -142,7 +142,7 @@ export default function SampleBooks() {
           {/* ✅ 벽지인 경우 재질 필터 추가 */}
           {activeTab === "벽지" && (
             <div className="brand-filter-row material-type-row">
-              {(selectedBrand === "all" ? ["all"] : selectedBrand === "개나리" ? ["all", "프리미엄", "합지", "실크", "방염"] : ["all", "합지", "실크", "방염"]).map((t) => (
+              {(selectedBrand === "all" ? ["all"] : selectedBrand === "개나리" ? ["all", "프리미엄", "합지(소폭)", "합지(장폭)", "실크", "방염"] : ["all", "합지", "실크", "방염"]).map((t) => (
                 <button
                   key={t}
                   className={`brand-chip material-chip ${selectedMaterialType === t ? "active" : ""}`}

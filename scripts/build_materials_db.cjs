@@ -336,6 +336,16 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                     sizeLabel = "1.06m(W) x 15.6m(H) / Roll";
                     price = 99000;
                     packing = "2 Roll";
+                } else if (line.includes('합지(소폭)')) {
+                    materialType = "합지(소폭)";
+                } else if (line.includes('합지(장폭)')) {
+                    materialType = "합지(장폭)";
+                } else if (line.includes('합지')) {
+                    materialType = "합지";
+                } else if (line.includes('실크')) {
+                    materialType = "실크";
+                } else if (line.includes('방염')) {
+                    materialType = "방염";
                 }
             }
             break;
