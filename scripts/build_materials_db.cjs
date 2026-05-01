@@ -344,6 +344,9 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                     materialType = "합지";
                 } else if (line.includes('실크')) {
                     materialType = "실크";
+                    sizeLabel = "1.06m(W) x 15.6m(H) / Roll (16.43㎡)";
+                    price = 87000;
+                    packing = "4 Roll";
                 } else if (line.includes('방염')) {
                     materialType = "방염";
                 }
