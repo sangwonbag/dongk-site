@@ -11419,11 +11419,11 @@ export const materials = [
     "name": "54013-1",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "69ba23ad5f17d58d3f9007698ec55b0e.jpg",
+    "thumbnail": "ea1d408d8d0a8cd65d5a41ed2a922062.jpg",
     "images": [
-      "69ba23ad5f17d58d3f9007698ec55b0e.jpg"
+      "ea1d408d8d0a8cd65d5a41ed2a922062.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11439,11 +11439,11 @@ export const materials = [
     "name": "54013-2",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "6c0d4356e93a50100db3176a49970425.jpg",
+    "thumbnail": "6f5a86050acc5618112c2d81fd33b5e0.jpg",
     "images": [
-      "6c0d4356e93a50100db3176a49970425.jpg"
+      "6f5a86050acc5618112c2d81fd33b5e0.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11459,11 +11459,11 @@ export const materials = [
     "name": "54160-1",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "020390d0fa4f8bef75000527f6eaa682.jpg",
+    "thumbnail": "c7da418d701dba0ce5729970ac8c9cee.jpg",
     "images": [
-      "020390d0fa4f8bef75000527f6eaa682.jpg"
+      "c7da418d701dba0ce5729970ac8c9cee.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11479,11 +11479,11 @@ export const materials = [
     "name": "54160-2",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "4026f50b34db8bb5f44a2ac89814c708.jpg",
+    "thumbnail": "503ad99125e91d602f5dc662850fc302.jpg",
     "images": [
-      "4026f50b34db8bb5f44a2ac89814c708.jpg"
+      "503ad99125e91d602f5dc662850fc302.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11499,11 +11499,11 @@ export const materials = [
     "name": "54170-1",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "5dd53c07368e25cc22156862d99f426b.jpg",
+    "thumbnail": "a0dccadf8cfccb327e6130ccca1f9f9a.jpg",
     "images": [
-      "5dd53c07368e25cc22156862d99f426b.jpg"
+      "a0dccadf8cfccb327e6130ccca1f9f9a.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11519,11 +11519,11 @@ export const materials = [
     "name": "54170-2",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "1ff72f1d81d35eba8921f8d0a498fcf7.jpg",
+    "thumbnail": "3870ee8fe1347ca201d9beedd1e66478.jpg",
     "images": [
-      "1ff72f1d81d35eba8921f8d0a498fcf7.jpg"
+      "3870ee8fe1347ca201d9beedd1e66478.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11539,11 +11539,11 @@ export const materials = [
     "name": "87440-1",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "277c82845820df3e523c16682fd6d644.jpg",
+    "thumbnail": "1f3b7bc195aeb0ee8387754541dceacd.jpg",
     "images": [
-      "277c82845820df3e523c16682fd6d644.jpg"
+      "1f3b7bc195aeb0ee8387754541dceacd.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11559,11 +11559,11 @@ export const materials = [
     "name": "87440-3",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "3853aea1bab2913e91a0bb5ac91c4984.jpg",
+    "thumbnail": "8962521fc3d5cf34f0eba479bd0fc011.jpg",
     "images": [
-      "3853aea1bab2913e91a0bb5ac91c4984.jpg"
+      "8962521fc3d5cf34f0eba479bd0fc011.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11579,11 +11579,11 @@ export const materials = [
     "name": "87444-1",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "e41c8746a6317194951156b4943181c2.jpg",
+    "thumbnail": "15a60c492f983faad2ce185e73578415.jpg",
     "images": [
-      "e41c8746a6317194951156b4943181c2.jpg"
+      "15a60c492f983faad2ce185e73578415.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11599,11 +11599,11 @@ export const materials = [
     "name": "87444-10",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "7944200b80403f10d19f30548f6651ec.jpg",
+    "thumbnail": "f60dc6896af8d64cd9b02806a17c82ac.jpg",
     "images": [
-      "7944200b80403f10d19f30548f6651ec.jpg"
+      "f60dc6896af8d64cd9b02806a17c82ac.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11619,11 +11619,11 @@ export const materials = [
     "name": "87444-2",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "309faf108102a04308b085a20e91e723.jpg",
+    "thumbnail": "fae2597d7f1ebef6b29fb26304ffd774.jpg",
     "images": [
-      "309faf108102a04308b085a20e91e723.jpg"
+      "fae2597d7f1ebef6b29fb26304ffd774.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11639,11 +11639,11 @@ export const materials = [
     "name": "87444-9",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "0b3e2760928ee98c36fade6a11f0de99.jpg",
+    "thumbnail": "1767c3c9ed25e684ec2d752ad1788ae6.jpg",
     "images": [
-      "0b3e2760928ee98c36fade6a11f0de99.jpg"
+      "1767c3c9ed25e684ec2d752ad1788ae6.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11659,11 +11659,11 @@ export const materials = [
     "name": "87450-1",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "dbf8793613dd5bf441e3f966e3316aaa.jpg",
+    "thumbnail": "965c39309b60c4f7a40ac7980af5b4dd.jpg",
     "images": [
-      "dbf8793613dd5bf441e3f966e3316aaa.jpg"
+      "965c39309b60c4f7a40ac7980af5b4dd.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11679,11 +11679,11 @@ export const materials = [
     "name": "87450-2",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "c101c2c204db48dbb50418aba46f9af3.jpg",
+    "thumbnail": "1f4c86ea1a09a4b3a694ab04a6c4616c.jpg",
     "images": [
-      "c101c2c204db48dbb50418aba46f9af3.jpg"
+      "1f4c86ea1a09a4b3a694ab04a6c4616c.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11699,11 +11699,11 @@ export const materials = [
     "name": "87450-3",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "09e9b15262f8db05b4f53cc369039390.jpg",
+    "thumbnail": "ca6d4dd132a4162084b25ab1de6d66d7.jpg",
     "images": [
-      "09e9b15262f8db05b4f53cc369039390.jpg"
+      "ca6d4dd132a4162084b25ab1de6d66d7.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11719,11 +11719,11 @@ export const materials = [
     "name": "87451-1 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "60406b73889ca86ce9d19b8001f6a606.jpg",
+    "thumbnail": "c907378f2c4cffb9e18f4b3241f20218.jpg",
     "images": [
-      "60406b73889ca86ce9d19b8001f6a606.jpg"
+      "c907378f2c4cffb9e18f4b3241f20218.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11739,11 +11739,11 @@ export const materials = [
     "name": "87451-2",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "38e28046ee4385ec66be91bcdbe2fe45.jpg",
+    "thumbnail": "ce6b3aa97f7124372dd2ddce9b61c580.jpg",
     "images": [
-      "38e28046ee4385ec66be91bcdbe2fe45.jpg"
+      "ce6b3aa97f7124372dd2ddce9b61c580.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11759,11 +11759,11 @@ export const materials = [
     "name": "87451-4",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "33b567e45758bffcf8dbbbb5d5395250.jpg",
+    "thumbnail": "c47c62615af0d8cbdced2c4e16fb61f8.jpg",
     "images": [
-      "33b567e45758bffcf8dbbbb5d5395250.jpg"
+      "c47c62615af0d8cbdced2c4e16fb61f8.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11779,11 +11779,11 @@ export const materials = [
     "name": "87451-5",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "d2732c5258b7f8c3f78052eef7f8c9d3.jpg",
+    "thumbnail": "feefed64a11d56dc66c772703521fd16.jpg",
     "images": [
-      "d2732c5258b7f8c3f78052eef7f8c9d3.jpg"
+      "feefed64a11d56dc66c772703521fd16.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11799,11 +11799,11 @@ export const materials = [
     "name": "87451-6 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "15beb01b51bbbe590561a7a7b289eccb.jpg",
+    "thumbnail": "51979eb91bb050dfba1e58885d6bde4f.jpg",
     "images": [
-      "15beb01b51bbbe590561a7a7b289eccb.jpg"
+      "51979eb91bb050dfba1e58885d6bde4f.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11819,11 +11819,11 @@ export const materials = [
     "name": "87451-7",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "728cae53493f0af9040a52926c30565e.jpg",
+    "thumbnail": "f9e108ad43a3bb47aca93696b5fd4402.jpg",
     "images": [
-      "728cae53493f0af9040a52926c30565e.jpg"
+      "f9e108ad43a3bb47aca93696b5fd4402.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11839,11 +11839,11 @@ export const materials = [
     "name": "87453-1",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "1cef62b91276e1416e0a22b58037f4fa.png",
+    "thumbnail": "2144d83a483fd7b27f240a865544049c.png",
     "images": [
-      "1cef62b91276e1416e0a22b58037f4fa.png"
+      "2144d83a483fd7b27f240a865544049c.png"
     ],
     "materialType": "실크",
     "specs": {
@@ -11859,11 +11859,11 @@ export const materials = [
     "name": "87453-2",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "b8f31b977ea0efc23734c5b2dced0e91.jpg",
+    "thumbnail": "87c9cd76ed0d46c378659b0267ebfb58.jpg",
     "images": [
-      "b8f31b977ea0efc23734c5b2dced0e91.jpg"
+      "87c9cd76ed0d46c378659b0267ebfb58.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11879,11 +11879,11 @@ export const materials = [
     "name": "87453-3",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "6ee1fdc3fc8e4d8317ecc107ddbcf91d.jpg",
+    "thumbnail": "99e89f16414755977b72c63c89c9e03f.jpg",
     "images": [
-      "6ee1fdc3fc8e4d8317ecc107ddbcf91d.jpg"
+      "99e89f16414755977b72c63c89c9e03f.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11899,11 +11899,11 @@ export const materials = [
     "name": "87453-6 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "6b9b5bacec007a569ab78ad44b2ff8ca.jpg",
+    "thumbnail": "4d3306075040f543111981928711235c.jpg",
     "images": [
-      "6b9b5bacec007a569ab78ad44b2ff8ca.jpg"
+      "4d3306075040f543111981928711235c.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11919,11 +11919,11 @@ export const materials = [
     "name": "87454-1",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "268b70948d22a1ed77d985a133f47ed0.jpg",
+    "thumbnail": "19f52640a1539a28e47e608deb5bb744.jpg",
     "images": [
-      "268b70948d22a1ed77d985a133f47ed0.jpg"
+      "19f52640a1539a28e47e608deb5bb744.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11939,11 +11939,11 @@ export const materials = [
     "name": "87454-2",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "be2a986ab638a31ccf70e7f9d27a13fc.jpg",
+    "thumbnail": "4c28eed5246872c32ac7800fffd31d5c.jpg",
     "images": [
-      "be2a986ab638a31ccf70e7f9d27a13fc.jpg"
+      "4c28eed5246872c32ac7800fffd31d5c.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11959,11 +11959,11 @@ export const materials = [
     "name": "87454-3",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "3d7c86cf9187d5b1ea6b66e38a288fd0.jpg",
+    "thumbnail": "432aa3745ef279a0731518ab72d97b65.jpg",
     "images": [
-      "3d7c86cf9187d5b1ea6b66e38a288fd0.jpg"
+      "432aa3745ef279a0731518ab72d97b65.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11979,11 +11979,11 @@ export const materials = [
     "name": "87454-4",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "e11872eface93c311b3a72fe3ca0d9b5.jpg",
+    "thumbnail": "5e8158c82646bfd0dd174e4877d0e0f2.jpg",
     "images": [
-      "e11872eface93c311b3a72fe3ca0d9b5.jpg"
+      "5e8158c82646bfd0dd174e4877d0e0f2.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -11999,11 +11999,11 @@ export const materials = [
     "name": "87454-5 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "8e5fa7f42f42b1e197c0833903b954de.jpg",
+    "thumbnail": "d5b4a80732ec6732b16665f3ac9ef6ef.jpg",
     "images": [
-      "8e5fa7f42f42b1e197c0833903b954de.jpg"
+      "d5b4a80732ec6732b16665f3ac9ef6ef.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12019,11 +12019,11 @@ export const materials = [
     "name": "87456-1 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "5f6fe5ab71979bb3d6cab9500b952705.jpg",
+    "thumbnail": "a05bea007b8acfb6ef2501bad99ea18e.jpg",
     "images": [
-      "5f6fe5ab71979bb3d6cab9500b952705.jpg"
+      "a05bea007b8acfb6ef2501bad99ea18e.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12039,11 +12039,11 @@ export const materials = [
     "name": "87456-2",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "4195b4707edbbf67453245ec285f4901.jpg",
+    "thumbnail": "b6f9ac9545f5c63fb9ce12a95d299652.jpg",
     "images": [
-      "4195b4707edbbf67453245ec285f4901.jpg"
+      "b6f9ac9545f5c63fb9ce12a95d299652.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12059,11 +12059,11 @@ export const materials = [
     "name": "87456-3 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "2eece04fe96d4f05b8716333b4de02ca.jpg",
+    "thumbnail": "82f896829a439517f5e43732436ef252.jpg",
     "images": [
-      "2eece04fe96d4f05b8716333b4de02ca.jpg"
+      "82f896829a439517f5e43732436ef252.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12079,11 +12079,11 @@ export const materials = [
     "name": "87456-4 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "d7151d8a9ee173491b70600d89a9f1e9.jpg",
+    "thumbnail": "ce7372165a1766bb8d13ff8d7d74f51d.jpg",
     "images": [
-      "d7151d8a9ee173491b70600d89a9f1e9.jpg"
+      "ce7372165a1766bb8d13ff8d7d74f51d.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12099,11 +12099,11 @@ export const materials = [
     "name": "87456-5 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "62c77dec86d3d238d2812810e7f8dfc7.jpg",
+    "thumbnail": "258ae3addebeb794b9f3f7669b8e32e1.jpg",
     "images": [
-      "62c77dec86d3d238d2812810e7f8dfc7.jpg"
+      "258ae3addebeb794b9f3f7669b8e32e1.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12119,11 +12119,11 @@ export const materials = [
     "name": "87456-6 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "adb3e1014d85800c3bc89cb9efa478aa.jpg",
+    "thumbnail": "217b37f63c7a796373e0ce13f28c011b.jpg",
     "images": [
-      "adb3e1014d85800c3bc89cb9efa478aa.jpg"
+      "217b37f63c7a796373e0ce13f28c011b.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12139,11 +12139,11 @@ export const materials = [
     "name": "87456-7 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "12d3c2dde2b9a56cdbf351188a4fefaa.jpg",
+    "thumbnail": "dccae6cce01ed99d2f7a52ce5eaa071e.jpg",
     "images": [
-      "12d3c2dde2b9a56cdbf351188a4fefaa.jpg"
+      "dccae6cce01ed99d2f7a52ce5eaa071e.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12159,11 +12159,11 @@ export const materials = [
     "name": "87457-1 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "9e738dbf49f4bae0b14de2adfa18a76c.jpg",
+    "thumbnail": "0368ac19cf13861fbae4dda0f1533239.jpg",
     "images": [
-      "9e738dbf49f4bae0b14de2adfa18a76c.jpg"
+      "0368ac19cf13861fbae4dda0f1533239.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12179,11 +12179,11 @@ export const materials = [
     "name": "87457-2 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "2d21d7387588dfb73ec3cf10789332be.jpg",
+    "thumbnail": "df7fc80d7f1506ef61eb3675b1d690c1.jpg",
     "images": [
-      "2d21d7387588dfb73ec3cf10789332be.jpg"
+      "df7fc80d7f1506ef61eb3675b1d690c1.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12199,11 +12199,11 @@ export const materials = [
     "name": "87457-3 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "95e2a0812475a3fbc6d47b25027d0e02.jpg",
+    "thumbnail": "96058fcf876c79093f12b3419cdde2d3.jpg",
     "images": [
-      "95e2a0812475a3fbc6d47b25027d0e02.jpg"
+      "96058fcf876c79093f12b3419cdde2d3.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12219,11 +12219,11 @@ export const materials = [
     "name": "87457-4 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "762f5f31006f757ee89e790b0c8c18ed.jpg",
+    "thumbnail": "10824a98944a4f960213526a73e87218.jpg",
     "images": [
-      "762f5f31006f757ee89e790b0c8c18ed.jpg"
+      "10824a98944a4f960213526a73e87218.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12239,11 +12239,11 @@ export const materials = [
     "name": "87459-1",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "4c4a2ac06b8c68f7a0f022a0205c773e.jpg",
+    "thumbnail": "f23a7ff904aefcf8ceceba96387dbe06.jpg",
     "images": [
-      "4c4a2ac06b8c68f7a0f022a0205c773e.jpg"
+      "f23a7ff904aefcf8ceceba96387dbe06.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12259,11 +12259,11 @@ export const materials = [
     "name": "87459-2",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "ee32433fa1d5e75299c013c00a9f9074.jpg",
+    "thumbnail": "fe2e238679925ae9c771a597769e4526.jpg",
     "images": [
-      "ee32433fa1d5e75299c013c00a9f9074.jpg"
+      "fe2e238679925ae9c771a597769e4526.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12279,11 +12279,11 @@ export const materials = [
     "name": "87459-3",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "48bfd1f8ce9072388cc8a903c0099256.jpg",
+    "thumbnail": "ace04660e210c765314e8c2dc1dc188a.jpg",
     "images": [
-      "48bfd1f8ce9072388cc8a903c0099256.jpg"
+      "ace04660e210c765314e8c2dc1dc188a.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12299,11 +12299,11 @@ export const materials = [
     "name": "87459-4 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "8f54b88252c636d2a14073f4cf207905.jpg",
+    "thumbnail": "e40bd18ee496c59d6b1354737806a814.jpg",
     "images": [
-      "8f54b88252c636d2a14073f4cf207905.jpg"
+      "e40bd18ee496c59d6b1354737806a814.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12319,11 +12319,11 @@ export const materials = [
     "name": "87459-5",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "340dc0da24cece21815043f57c8e58e2.jpg",
+    "thumbnail": "8fe3af698b93a36f365ae984d3cf135d.jpg",
     "images": [
-      "340dc0da24cece21815043f57c8e58e2.jpg"
+      "8fe3af698b93a36f365ae984d3cf135d.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12339,11 +12339,11 @@ export const materials = [
     "name": "87459-6 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "39529e9260e14e94ecfac61ce9e72194.jpg",
+    "thumbnail": "f5fb17e0c8d40a0158a0d4d8d674d415.jpg",
     "images": [
-      "39529e9260e14e94ecfac61ce9e72194.jpg"
+      "f5fb17e0c8d40a0158a0d4d8d674d415.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12359,11 +12359,11 @@ export const materials = [
     "name": "87460-1 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "3b080d7e34515e9b785fc8618ebf19ef.png",
+    "thumbnail": "83a8a7eb3cfa0e47e51b986e5c34a5d4.png",
     "images": [
-      "3b080d7e34515e9b785fc8618ebf19ef.png"
+      "83a8a7eb3cfa0e47e51b986e5c34a5d4.png"
     ],
     "materialType": "실크",
     "specs": {
@@ -12379,11 +12379,11 @@ export const materials = [
     "name": "87460-2 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "5d78e6dcc203865f95f357e1cdbffeb5.jpg",
+    "thumbnail": "efce7b3a41863b628328943105ac5fbf.jpg",
     "images": [
-      "5d78e6dcc203865f95f357e1cdbffeb5.jpg"
+      "efce7b3a41863b628328943105ac5fbf.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12399,11 +12399,11 @@ export const materials = [
     "name": "87460-3 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "dfbba5b6600d19d9c885fd4aca4055e4.jpg",
+    "thumbnail": "b5783b0fbd399021da4499b4aee1beef.jpg",
     "images": [
-      "dfbba5b6600d19d9c885fd4aca4055e4.jpg"
+      "b5783b0fbd399021da4499b4aee1beef.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12419,11 +12419,11 @@ export const materials = [
     "name": "87460-4 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "b79aac22dc06b73d05d7e9406c50c4ce.jpg",
+    "thumbnail": "91f394ccd8910c5900d68485792e36ca.jpg",
     "images": [
-      "b79aac22dc06b73d05d7e9406c50c4ce.jpg"
+      "91f394ccd8910c5900d68485792e36ca.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12439,11 +12439,11 @@ export const materials = [
     "name": "87460-5 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "5c20afc92250cbc37e31c49947463c80.jpg",
+    "thumbnail": "a6733786f8f42055052b2aaaf7f97509.jpg",
     "images": [
-      "5c20afc92250cbc37e31c49947463c80.jpg"
+      "a6733786f8f42055052b2aaaf7f97509.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12459,11 +12459,11 @@ export const materials = [
     "name": "87460-6 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "6c53371dfc2480b9ac3e1e1ca44deae1.jpg",
+    "thumbnail": "bdb791be887b817f56c5833b049b1893.jpg",
     "images": [
-      "6c53371dfc2480b9ac3e1e1ca44deae1.jpg"
+      "bdb791be887b817f56c5833b049b1893.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12479,11 +12479,11 @@ export const materials = [
     "name": "87460-7 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "28d1f3a82817be50a84ece654d544dc6.jpg",
+    "thumbnail": "436e88797a46bde381b7453365b27e4a.jpg",
     "images": [
-      "28d1f3a82817be50a84ece654d544dc6.jpg"
+      "436e88797a46bde381b7453365b27e4a.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12499,11 +12499,11 @@ export const materials = [
     "name": "87460-8 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "22aadb2e47761df91f68e2dd1a3f5192.jpg",
+    "thumbnail": "d3437872679227a56f0ce374b615e1a4.jpg",
     "images": [
-      "22aadb2e47761df91f68e2dd1a3f5192.jpg"
+      "d3437872679227a56f0ce374b615e1a4.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12519,11 +12519,11 @@ export const materials = [
     "name": "87461-1 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "a21c4c0962198d85bfb3e10b8e572e26.png",
+    "thumbnail": "f9a770d05cc74f6cd0ce455dbd764c75.png",
     "images": [
-      "a21c4c0962198d85bfb3e10b8e572e26.png"
+      "f9a770d05cc74f6cd0ce455dbd764c75.png"
     ],
     "materialType": "실크",
     "specs": {
@@ -12539,11 +12539,11 @@ export const materials = [
     "name": "87461-2 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "92a9d27cda8295a5539e50b2ee14b4c3.jpg",
+    "thumbnail": "ba36d8d8f9728a39383402d7ca3fffe1.jpg",
     "images": [
-      "92a9d27cda8295a5539e50b2ee14b4c3.jpg"
+      "ba36d8d8f9728a39383402d7ca3fffe1.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12559,11 +12559,11 @@ export const materials = [
     "name": "87461-3",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "e09de199e0a23eab96110afc2c57330e.jpg",
+    "thumbnail": "91a827a8f5b33c86f5213c3fe418a575.jpg",
     "images": [
-      "e09de199e0a23eab96110afc2c57330e.jpg"
+      "91a827a8f5b33c86f5213c3fe418a575.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12579,11 +12579,11 @@ export const materials = [
     "name": "87461-4",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "af60c0f27420cb63ad646d2dbb75b6fa.jpg",
+    "thumbnail": "7aba1fe13f8f39e4afc4e3cc9684f659.jpg",
     "images": [
-      "af60c0f27420cb63ad646d2dbb75b6fa.jpg"
+      "7aba1fe13f8f39e4afc4e3cc9684f659.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12599,11 +12599,11 @@ export const materials = [
     "name": "87461-5 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "52ec6248beb17d73642e168c4509e6d7.jpg",
+    "thumbnail": "6d29fe1e04b2d97a117a348ced024846.jpg",
     "images": [
-      "52ec6248beb17d73642e168c4509e6d7.jpg"
+      "6d29fe1e04b2d97a117a348ced024846.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12619,11 +12619,11 @@ export const materials = [
     "name": "87461-6",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "d31e6dacc052e5198cb46e9083754671.jpg",
+    "thumbnail": "0d534c152d3f2d1aaee5d8feaf317569.jpg",
     "images": [
-      "d31e6dacc052e5198cb46e9083754671.jpg"
+      "0d534c152d3f2d1aaee5d8feaf317569.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12639,11 +12639,11 @@ export const materials = [
     "name": "87461-7",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "a13bf3e62e3660560ea2000f31c075be.jpg",
+    "thumbnail": "509fcfe3fd0c619d1833b14a13463ac6.jpg",
     "images": [
-      "a13bf3e62e3660560ea2000f31c075be.jpg"
+      "509fcfe3fd0c619d1833b14a13463ac6.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12659,11 +12659,11 @@ export const materials = [
     "name": "87461-9 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "09f6183f9b24ddf8802bea5bf6335d3d.jpg",
+    "thumbnail": "0ce36e0650c06ecffbfd71027b692efb.jpg",
     "images": [
-      "09f6183f9b24ddf8802bea5bf6335d3d.jpg"
+      "0ce36e0650c06ecffbfd71027b692efb.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12679,11 +12679,11 @@ export const materials = [
     "name": "87462-1",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "ae1570bf39dc7f7db140dde130eaaa03.jpg",
+    "thumbnail": "06ce052e4cbfd085b8e56e1d85d09126.jpg",
     "images": [
-      "ae1570bf39dc7f7db140dde130eaaa03.jpg"
+      "06ce052e4cbfd085b8e56e1d85d09126.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12699,11 +12699,11 @@ export const materials = [
     "name": "87462-2",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "4b611fb8b7e5df04f757ca0d1f4e0c92.jpg",
+    "thumbnail": "0e08922669326cd93dff69d4059654a6.jpg",
     "images": [
-      "4b611fb8b7e5df04f757ca0d1f4e0c92.jpg"
+      "0e08922669326cd93dff69d4059654a6.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12719,11 +12719,11 @@ export const materials = [
     "name": "87463-1",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "add6d9daefa38279928b0f09a160c5ad.jpg",
+    "thumbnail": "01dd571b27df019027c7ca679fe94cc2.jpg",
     "images": [
-      "add6d9daefa38279928b0f09a160c5ad.jpg"
+      "01dd571b27df019027c7ca679fe94cc2.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12739,11 +12739,11 @@ export const materials = [
     "name": "87463-2",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "0a064eab133215c53809e65d0e5aa280.jpg",
+    "thumbnail": "fcfb9d9db2901d545e6632d7d5ae61f1.jpg",
     "images": [
-      "0a064eab133215c53809e65d0e5aa280.jpg"
+      "fcfb9d9db2901d545e6632d7d5ae61f1.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12759,11 +12759,11 @@ export const materials = [
     "name": "87463-3",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "3cf92ba815cebc875c58996adde3b374.jpg",
+    "thumbnail": "b43c5fb167865b99c1be36948f177e88.jpg",
     "images": [
-      "3cf92ba815cebc875c58996adde3b374.jpg"
+      "b43c5fb167865b99c1be36948f177e88.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12779,11 +12779,11 @@ export const materials = [
     "name": "87463-4 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "be7d8e1ef12ab84afb504034e660b12f.jpg",
+    "thumbnail": "436e17d82c3de02ab0ff8f4f14aa55eb.jpg",
     "images": [
-      "be7d8e1ef12ab84afb504034e660b12f.jpg"
+      "436e17d82c3de02ab0ff8f4f14aa55eb.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12799,11 +12799,11 @@ export const materials = [
     "name": "87463-5 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "9fcb910fbdcafdfadf7bd8fe91c27f20.jpg",
+    "thumbnail": "47067994c1aac4ecd8cc9d9babd59c74.jpg",
     "images": [
-      "9fcb910fbdcafdfadf7bd8fe91c27f20.jpg"
+      "47067994c1aac4ecd8cc9d9babd59c74.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12819,11 +12819,11 @@ export const materials = [
     "name": "87463-6 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "d18a5a25a72b42a4f8d9b00cb6df33a6.jpg",
+    "thumbnail": "c5b6a0e81285b891d8eba6b06bda6bcb.jpg",
     "images": [
-      "d18a5a25a72b42a4f8d9b00cb6df33a6.jpg"
+      "c5b6a0e81285b891d8eba6b06bda6bcb.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12839,11 +12839,11 @@ export const materials = [
     "name": "87464-1",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "d5f6d147ac2b47adda4b1566c7f2337d.jpg",
+    "thumbnail": "54053d2a1129b6e6ed694f5b2366754c.jpg",
     "images": [
-      "d5f6d147ac2b47adda4b1566c7f2337d.jpg"
+      "54053d2a1129b6e6ed694f5b2366754c.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12859,11 +12859,11 @@ export const materials = [
     "name": "87464-2 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "78ac992fc3307c2b2b53b129ff296fa8.jpg",
+    "thumbnail": "094995acf081e5f4f23b882aea2ace68.jpg",
     "images": [
-      "78ac992fc3307c2b2b53b129ff296fa8.jpg"
+      "094995acf081e5f4f23b882aea2ace68.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12879,11 +12879,11 @@ export const materials = [
     "name": "87464-3 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "2fa827ea6a3576fed850467db379fd19.jpg",
+    "thumbnail": "46fd63cfde4d9c2358e1a57d50d07dd1.jpg",
     "images": [
-      "2fa827ea6a3576fed850467db379fd19.jpg"
+      "46fd63cfde4d9c2358e1a57d50d07dd1.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12899,11 +12899,11 @@ export const materials = [
     "name": "87464-4 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "a604d180e7d339befa5327381c007952.jpg",
+    "thumbnail": "7570a935b78af1e1f7240a502e97d932.jpg",
     "images": [
-      "a604d180e7d339befa5327381c007952.jpg"
+      "7570a935b78af1e1f7240a502e97d932.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12919,11 +12919,11 @@ export const materials = [
     "name": "87465-1",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "22a1b6ca2843ac49ed5d2a001fc86046.jpg",
+    "thumbnail": "1aeebbb8dae8e81e334a01e5592087c6.jpg",
     "images": [
-      "22a1b6ca2843ac49ed5d2a001fc86046.jpg"
+      "1aeebbb8dae8e81e334a01e5592087c6.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12939,11 +12939,11 @@ export const materials = [
     "name": "87465-2 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "a2a1375b2b6341b0556bfaff271d8ce3.jpg",
+    "thumbnail": "bf653b9a7bed7a4cda026d5f938f8547.jpg",
     "images": [
-      "a2a1375b2b6341b0556bfaff271d8ce3.jpg"
+      "bf653b9a7bed7a4cda026d5f938f8547.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12959,11 +12959,11 @@ export const materials = [
     "name": "87465-3",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "15d86647eb98c417c25da1ab3ad1accb.jpg",
+    "thumbnail": "306ac2f6c97b42cac460e11da8099515.jpg",
     "images": [
-      "15d86647eb98c417c25da1ab3ad1accb.jpg"
+      "306ac2f6c97b42cac460e11da8099515.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12979,11 +12979,11 @@ export const materials = [
     "name": "87465-4",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "9ceb47af98b6aa859a2194db72befb23.jpg",
+    "thumbnail": "b118cc28f0e6ff2feb23781b09139eea.jpg",
     "images": [
-      "9ceb47af98b6aa859a2194db72befb23.jpg"
+      "b118cc28f0e6ff2feb23781b09139eea.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -12999,11 +12999,11 @@ export const materials = [
     "name": "87466-1",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "e60ead57a9770d84141f31a6a06a9c0d.jpg",
+    "thumbnail": "372780902600e0fd29bcfc8b29b063c4.jpg",
     "images": [
-      "e60ead57a9770d84141f31a6a06a9c0d.jpg"
+      "372780902600e0fd29bcfc8b29b063c4.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13019,11 +13019,11 @@ export const materials = [
     "name": "87466-2",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "a52dd779e30f8ad94531133ff84da0ba.jpg",
+    "thumbnail": "e06909284c34952b8b2d504cde9216e2.jpg",
     "images": [
-      "a52dd779e30f8ad94531133ff84da0ba.jpg"
+      "e06909284c34952b8b2d504cde9216e2.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13039,11 +13039,11 @@ export const materials = [
     "name": "87467-1 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "dd547ce7da763a13703064b8bc328afd.jpg",
+    "thumbnail": "1dbb8fd2122115f0a5e707eabf501193.jpg",
     "images": [
-      "dd547ce7da763a13703064b8bc328afd.jpg"
+      "1dbb8fd2122115f0a5e707eabf501193.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13059,11 +13059,11 @@ export const materials = [
     "name": "87467-2 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "4e80a09c59ae51145ef2c87e39f7e970.jpg",
+    "thumbnail": "07f21983a534a6b1b1fcd3131decc29b.jpg",
     "images": [
-      "4e80a09c59ae51145ef2c87e39f7e970.jpg"
+      "07f21983a534a6b1b1fcd3131decc29b.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13079,11 +13079,11 @@ export const materials = [
     "name": "87467-3",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "d00950b43b7f88c35bbed759ce31c9f3.jpg",
+    "thumbnail": "d2c1f94bfc2bfc46cbd21293709b248b.jpg",
     "images": [
-      "d00950b43b7f88c35bbed759ce31c9f3.jpg"
+      "d2c1f94bfc2bfc46cbd21293709b248b.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13099,11 +13099,11 @@ export const materials = [
     "name": "87467-4 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "273905daca80aeeb1c217cee736a8179.jpg",
+    "thumbnail": "94ed68ec7acf724f8f7e0ba3af366611.jpg",
     "images": [
-      "273905daca80aeeb1c217cee736a8179.jpg"
+      "94ed68ec7acf724f8f7e0ba3af366611.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13119,11 +13119,11 @@ export const materials = [
     "name": "87467-5",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "a33478d7213174864f335c73981177f7.jpg",
+    "thumbnail": "eaf95fe3ed9a286db18c0b49c03a9584.jpg",
     "images": [
-      "a33478d7213174864f335c73981177f7.jpg"
+      "eaf95fe3ed9a286db18c0b49c03a9584.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13139,11 +13139,11 @@ export const materials = [
     "name": "87468-1 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "471ea96c93ae41000a855458090cdcfd.jpg",
+    "thumbnail": "bbb2bb1962682b4dda580b7419ca8ff2.jpg",
     "images": [
-      "471ea96c93ae41000a855458090cdcfd.jpg"
+      "bbb2bb1962682b4dda580b7419ca8ff2.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13159,11 +13159,11 @@ export const materials = [
     "name": "87468-2 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "a598cb7377edbd60c3bdf02fb30a7417.jpg",
+    "thumbnail": "f2728eb83ef719c4542acb6240217ef0.jpg",
     "images": [
-      "a598cb7377edbd60c3bdf02fb30a7417.jpg"
+      "f2728eb83ef719c4542acb6240217ef0.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13179,11 +13179,11 @@ export const materials = [
     "name": "87468-3 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "a82fd0ff2033902317a1312bbaa92555.jpg",
+    "thumbnail": "6ddf1c4e8e788bfa2935f47ed833c50a.jpg",
     "images": [
-      "a82fd0ff2033902317a1312bbaa92555.jpg"
+      "6ddf1c4e8e788bfa2935f47ed833c50a.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13199,11 +13199,11 @@ export const materials = [
     "name": "87468-4",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "b161ed84e1343513088b20e36194fe72.jpg",
+    "thumbnail": "625d964189017a8dfe9fbb27f1b9185e.jpg",
     "images": [
-      "b161ed84e1343513088b20e36194fe72.jpg"
+      "625d964189017a8dfe9fbb27f1b9185e.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13219,11 +13219,11 @@ export const materials = [
     "name": "87468-5 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "e62b8f10b342a5c3a44d6d1f6e7e6adb.jpg",
+    "thumbnail": "ad93e239a26ece2b03f25a59aaa32807.jpg",
     "images": [
-      "e62b8f10b342a5c3a44d6d1f6e7e6adb.jpg"
+      "ad93e239a26ece2b03f25a59aaa32807.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13239,11 +13239,11 @@ export const materials = [
     "name": "87468-6 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "8bc55c41b108a428f501f513c29d33cc.jpg",
+    "thumbnail": "708f3ca75dad7066808b4d9bc698d31d.jpg",
     "images": [
-      "8bc55c41b108a428f501f513c29d33cc.jpg"
+      "708f3ca75dad7066808b4d9bc698d31d.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13259,11 +13259,11 @@ export const materials = [
     "name": "87468-7 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "f67c270311069253228798df980f5a6e.jpg",
+    "thumbnail": "63f23013c437fa6feaf4e80989198a5b.jpg",
     "images": [
-      "f67c270311069253228798df980f5a6e.jpg"
+      "63f23013c437fa6feaf4e80989198a5b.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13279,11 +13279,11 @@ export const materials = [
     "name": "87469-1 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "ebc1ac5ea6e3183b472f68edf6e4dc29.jpg",
+    "thumbnail": "7fe1e0ce5a855dc2dd29fd274c4ebf92.jpg",
     "images": [
-      "ebc1ac5ea6e3183b472f68edf6e4dc29.jpg"
+      "7fe1e0ce5a855dc2dd29fd274c4ebf92.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13299,11 +13299,11 @@ export const materials = [
     "name": "87469-2 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "f7ebcf2aca8b20999e7f65751ea6fa23.jpg",
+    "thumbnail": "7f8c77057e5356996b3f795a4728532b.jpg",
     "images": [
-      "f7ebcf2aca8b20999e7f65751ea6fa23.jpg"
+      "7f8c77057e5356996b3f795a4728532b.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13319,11 +13319,11 @@ export const materials = [
     "name": "87469-3 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "508be7e403c41bb02f2d1697e2a38ff8.jpg",
+    "thumbnail": "09ecbcdbc35d6fe78492555ea530527b.jpg",
     "images": [
-      "508be7e403c41bb02f2d1697e2a38ff8.jpg"
+      "09ecbcdbc35d6fe78492555ea530527b.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13339,11 +13339,11 @@ export const materials = [
     "name": "87469-4 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "e21f1527868f5f45b8b4612e144308e8.jpg",
+    "thumbnail": "4ff3c6b4c36da2698c08b38e4cdf31c2.jpg",
     "images": [
-      "e21f1527868f5f45b8b4612e144308e8.jpg"
+      "4ff3c6b4c36da2698c08b38e4cdf31c2.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13359,11 +13359,11 @@ export const materials = [
     "name": "87469-5 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "f0e76720113b0a5c0b3760640184b73d.jpg",
+    "thumbnail": "e9b7202208c3210ed71973258834d6b7.jpg",
     "images": [
-      "f0e76720113b0a5c0b3760640184b73d.jpg"
+      "e9b7202208c3210ed71973258834d6b7.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13379,11 +13379,11 @@ export const materials = [
     "name": "87470-1 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "06f5dd31269d2299abb3fcf866b5925f.jpg",
+    "thumbnail": "09c6a445ad9ca69afb67667a67d585c2.jpg",
     "images": [
-      "06f5dd31269d2299abb3fcf866b5925f.jpg"
+      "09c6a445ad9ca69afb67667a67d585c2.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13399,11 +13399,11 @@ export const materials = [
     "name": "87470-2 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "5f8e99730a4d68d408c6e782b00e6486.jpg",
+    "thumbnail": "7d3a32de6590186beb24d72c5d0a07e6.jpg",
     "images": [
-      "5f8e99730a4d68d408c6e782b00e6486.jpg"
+      "7d3a32de6590186beb24d72c5d0a07e6.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13419,11 +13419,11 @@ export const materials = [
     "name": "87470-3 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "d698357554eaa85d07cdeef861e5f503.jpg",
+    "thumbnail": "73785b1d9d6ed33dd7acd7dc102a0297.jpg",
     "images": [
-      "d698357554eaa85d07cdeef861e5f503.jpg"
+      "73785b1d9d6ed33dd7acd7dc102a0297.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13439,11 +13439,11 @@ export const materials = [
     "name": "87470-4",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "e3523ff8f0d62ddeed9bcee46758e3ad.jpg",
+    "thumbnail": "10375bb7e45ad1e3e1c54b9952d3cbf9.jpg",
     "images": [
-      "e3523ff8f0d62ddeed9bcee46758e3ad.jpg"
+      "10375bb7e45ad1e3e1c54b9952d3cbf9.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13459,11 +13459,11 @@ export const materials = [
     "name": "87471-1 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "b99a1ee11e8ce2294745eddb30e5a838.jpg",
+    "thumbnail": "de1d32637434f868187a92dff540777c.jpg",
     "images": [
-      "b99a1ee11e8ce2294745eddb30e5a838.jpg"
+      "de1d32637434f868187a92dff540777c.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13479,11 +13479,11 @@ export const materials = [
     "name": "87471-2 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "d389c9c76ba54f7a5da2600899634333.jpg",
+    "thumbnail": "c402464f80a3bdc22ce97d36631d1a91.jpg",
     "images": [
-      "d389c9c76ba54f7a5da2600899634333.jpg"
+      "c402464f80a3bdc22ce97d36631d1a91.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13499,11 +13499,11 @@ export const materials = [
     "name": "87471-3 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "ea7b20fc2fc3e9f9c5cf6afe1d46525b.jpg",
+    "thumbnail": "a05c702d69070811520d33f39d0f8c1d.jpg",
     "images": [
-      "ea7b20fc2fc3e9f9c5cf6afe1d46525b.jpg"
+      "a05c702d69070811520d33f39d0f8c1d.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13519,11 +13519,11 @@ export const materials = [
     "name": "87471-4",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "ae5cb055ec05b774a90602d19012966c.jpg",
+    "thumbnail": "a07268ecab66cdd15f17c3ec2d1be473.jpg",
     "images": [
-      "ae5cb055ec05b774a90602d19012966c.jpg"
+      "a07268ecab66cdd15f17c3ec2d1be473.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13539,11 +13539,11 @@ export const materials = [
     "name": "87471-5 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "e420924d3e8d8a13ec8d1f15263e31d7.jpg",
+    "thumbnail": "bf0a1fc4adbbf714b01d3f1c9536af2d.jpg",
     "images": [
-      "e420924d3e8d8a13ec8d1f15263e31d7.jpg"
+      "bf0a1fc4adbbf714b01d3f1c9536af2d.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13559,11 +13559,11 @@ export const materials = [
     "name": "87472-1",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "4dc78d1f6d55eea7319c32a474682b0c.jpg",
+    "thumbnail": "940d1006230d1edc964a3e3366283865.jpg",
     "images": [
-      "4dc78d1f6d55eea7319c32a474682b0c.jpg"
+      "940d1006230d1edc964a3e3366283865.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13579,11 +13579,11 @@ export const materials = [
     "name": "87473-1",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "bc8158b0bccbbf8c3fa2a840a60412e6.jpg",
+    "thumbnail": "4951f32e9aeb0ff9abf33e16fb2c3c92.jpg",
     "images": [
-      "bc8158b0bccbbf8c3fa2a840a60412e6.jpg"
+      "4951f32e9aeb0ff9abf33e16fb2c3c92.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13599,11 +13599,11 @@ export const materials = [
     "name": "87473-2",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "1871298e99dceb4562d5364f34137fdc.jpg",
+    "thumbnail": "62e2eceeaa93de4b613c4299ae416dc8.jpg",
     "images": [
-      "1871298e99dceb4562d5364f34137fdc.jpg"
+      "62e2eceeaa93de4b613c4299ae416dc8.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13619,11 +13619,11 @@ export const materials = [
     "name": "87474-1 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "3ee5c2e1e6cd9ae01b08c89ccca9ef2b.jpg",
+    "thumbnail": "57ca40deb5c505093370d8afd30946b3.jpg",
     "images": [
-      "3ee5c2e1e6cd9ae01b08c89ccca9ef2b.jpg"
+      "57ca40deb5c505093370d8afd30946b3.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13639,11 +13639,11 @@ export const materials = [
     "name": "87474-2 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "71aad51ba95683c9af1187280bb97c18.jpg",
+    "thumbnail": "692ccc451dd4550c56a202438d7e8776.jpg",
     "images": [
-      "71aad51ba95683c9af1187280bb97c18.jpg"
+      "692ccc451dd4550c56a202438d7e8776.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13659,11 +13659,11 @@ export const materials = [
     "name": "87474-3 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "2164b0f97a8149df09c31a367733bd31.jpg",
+    "thumbnail": "d62d9ec3410fb26c985a79baacb0f8e1.jpg",
     "images": [
-      "2164b0f97a8149df09c31a367733bd31.jpg"
+      "d62d9ec3410fb26c985a79baacb0f8e1.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13679,11 +13679,11 @@ export const materials = [
     "name": "87474-4",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "b30c9d738a0eca02d23d8cd3f4598a2e.jpg",
+    "thumbnail": "01bebb3910c6fe0be941f620163d06af.jpg",
     "images": [
-      "b30c9d738a0eca02d23d8cd3f4598a2e.jpg"
+      "01bebb3910c6fe0be941f620163d06af.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13699,11 +13699,11 @@ export const materials = [
     "name": "87475-1 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "de1d428add2ba3c71597e68b73a6da52.jpg",
+    "thumbnail": "31bae6ad75969eb2294562895ad25791.jpg",
     "images": [
-      "de1d428add2ba3c71597e68b73a6da52.jpg"
+      "31bae6ad75969eb2294562895ad25791.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13719,11 +13719,11 @@ export const materials = [
     "name": "87475-2 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "cc3b02ab7053a3d50af71c962c742bb1.jpg",
+    "thumbnail": "2aea1d733e9c8ba9b8b82036f1776f6f.jpg",
     "images": [
-      "cc3b02ab7053a3d50af71c962c742bb1.jpg"
+      "2aea1d733e9c8ba9b8b82036f1776f6f.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13739,11 +13739,11 @@ export const materials = [
     "name": "87475-3 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "4aed03c964560ec6dbc4df1cf9a810e9.jpg",
+    "thumbnail": "83ee9c99f31a9b2480fd993723923298.jpg",
     "images": [
-      "4aed03c964560ec6dbc4df1cf9a810e9.jpg"
+      "83ee9c99f31a9b2480fd993723923298.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13759,11 +13759,11 @@ export const materials = [
     "name": "87475-4 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "b70d03fb3695771f6f15d40416d32ffd.jpg",
+    "thumbnail": "0806f67ec0c7420411afa2fa027febce.jpg",
     "images": [
-      "b70d03fb3695771f6f15d40416d32ffd.jpg"
+      "0806f67ec0c7420411afa2fa027febce.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13779,11 +13779,11 @@ export const materials = [
     "name": "87475-5",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "c15843740fa6e21150abfedca90cabd0.jpg",
+    "thumbnail": "ca2e968652cd33dab4ff295b5a790393.jpg",
     "images": [
-      "c15843740fa6e21150abfedca90cabd0.jpg"
+      "ca2e968652cd33dab4ff295b5a790393.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13799,11 +13799,11 @@ export const materials = [
     "name": "87476-1 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "1b527c5c80dfcdf1ba12bbe0180d7b3b.jpg",
+    "thumbnail": "369fd60e1507f11559d177e201229ca8.jpg",
     "images": [
-      "1b527c5c80dfcdf1ba12bbe0180d7b3b.jpg"
+      "369fd60e1507f11559d177e201229ca8.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13819,11 +13819,11 @@ export const materials = [
     "name": "87476-2 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "439d75f4fa5e8330d97eb388de086483.jpg",
+    "thumbnail": "1b723c706c263b6acd07294160e65b39.jpg",
     "images": [
-      "439d75f4fa5e8330d97eb388de086483.jpg"
+      "1b723c706c263b6acd07294160e65b39.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13839,11 +13839,11 @@ export const materials = [
     "name": "87476-3 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "dbd2ed4667bf3f27b1186eb5424299c8.jpg",
+    "thumbnail": "c20352da14d44b86b7ed5e8b72d08a34.jpg",
     "images": [
-      "dbd2ed4667bf3f27b1186eb5424299c8.jpg"
+      "c20352da14d44b86b7ed5e8b72d08a34.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13859,11 +13859,11 @@ export const materials = [
     "name": "87476-4 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "73f7b5842c6453ce0c49381d7bd9eb07.jpg",
+    "thumbnail": "1c132242fa83835b293919b50ba02d69.jpg",
     "images": [
-      "73f7b5842c6453ce0c49381d7bd9eb07.jpg"
+      "1c132242fa83835b293919b50ba02d69.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13879,11 +13879,11 @@ export const materials = [
     "name": "87476-5 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "dd026ffe4ec78bbbbec263dee3461b3e.jpg",
+    "thumbnail": "cc0f69e80c893d37e6e04db9eaba1963.jpg",
     "images": [
-      "dd026ffe4ec78bbbbec263dee3461b3e.jpg"
+      "cc0f69e80c893d37e6e04db9eaba1963.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13899,11 +13899,11 @@ export const materials = [
     "name": "87476-6 (2)",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "3efbc8f9f177b3c41e01538bc13b5233.jpg",
+    "thumbnail": "fb2bd4270199a252df984071c3890ee5.jpg",
     "images": [
-      "3efbc8f9f177b3c41e01538bc13b5233.jpg"
+      "fb2bd4270199a252df984071c3890ee5.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13919,11 +13919,11 @@ export const materials = [
     "name": "87477-1",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "9a83618077ecda15ea270f0c90464688.png",
+    "thumbnail": "9759569f91c76f114694ed6c137ed6e7.png",
     "images": [
-      "9a83618077ecda15ea270f0c90464688.png"
+      "9759569f91c76f114694ed6c137ed6e7.png"
     ],
     "materialType": "실크",
     "specs": {
@@ -13939,11 +13939,11 @@ export const materials = [
     "name": "87477-2",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "583e6113cd24d07cb411d2ed9a3717ea.jpg",
+    "thumbnail": "a67eb71a2c7543f0ee2896af92cdd2ec.jpg",
     "images": [
-      "583e6113cd24d07cb411d2ed9a3717ea.jpg"
+      "a67eb71a2c7543f0ee2896af92cdd2ec.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13959,11 +13959,11 @@ export const materials = [
     "name": "87477-3",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "9d6ea2326cc39320fbd07a26c5ba60b3.jpg",
+    "thumbnail": "298f7ba0a7b5ee14df140c14fe4b931c.jpg",
     "images": [
-      "9d6ea2326cc39320fbd07a26c5ba60b3.jpg"
+      "298f7ba0a7b5ee14df140c14fe4b931c.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13979,11 +13979,11 @@ export const materials = [
     "name": "87477-4",
     "brand": "개나리",
     "category": "벽지",
-    "line": "실크",
+    "line": "실크_로하스",
     "price": 87000,
-    "thumbnail": "eeb4a58dda49a783005049a6ce30a7c9.jpg",
+    "thumbnail": "51c29c12555f476a74ca24996c962ec4.jpg",
     "images": [
-      "eeb4a58dda49a783005049a6ce30a7c9.jpg"
+      "51c29c12555f476a74ca24996c962ec4.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -13991,6 +13991,2706 @@ export const materials = [
       "thickness": "",
       "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
       "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-54013-1",
+    "code": "54013-1",
+    "name": "54013-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 54000,
+    "thumbnail": "abbd627e9af80f0f32c1f22e34ed1ced.jpeg",
+    "images": [
+      "abbd627e9af80f0f32c1f22e34ed1ced.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-54013-2",
+    "code": "54013-2",
+    "name": "54013-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 54000,
+    "thumbnail": "8556cd27fc6a44a9738a15d044d1c45d.jpeg",
+    "images": [
+      "8556cd27fc6a44a9738a15d044d1c45d.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-54160-1",
+    "code": "54160-1",
+    "name": "54160-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 54000,
+    "thumbnail": "292f1da93f8f7ed4982036e04df827e2.jpeg",
+    "images": [
+      "292f1da93f8f7ed4982036e04df827e2.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-54160-2",
+    "code": "54160-2",
+    "name": "54160-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 54000,
+    "thumbnail": "7ec8b2d1f10e2cfdd668bc39b3ad68fd.jpeg",
+    "images": [
+      "7ec8b2d1f10e2cfdd668bc39b3ad68fd.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-54170-1",
+    "code": "54170-1",
+    "name": "54170-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 54000,
+    "thumbnail": "bd56eb9561ca39b6e51fe8a1daf90f60.jpeg",
+    "images": [
+      "bd56eb9561ca39b6e51fe8a1daf90f60.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-54170-2",
+    "code": "54170-2",
+    "name": "54170-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 54000,
+    "thumbnail": "d1d1b821658129bd27ed1a803eabfe46.jpeg",
+    "images": [
+      "d1d1b821658129bd27ed1a803eabfe46.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57160-1",
+    "code": "57160-1",
+    "name": "57160-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "96f84a5176da52f5a30d101307275fa1.jpeg",
+    "images": [
+      "96f84a5176da52f5a30d101307275fa1.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57160-28",
+    "code": "57160-28",
+    "name": "57160-28",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "c05c1304d36397ca5b6b682fcd2a56c0.jpeg",
+    "images": [
+      "c05c1304d36397ca5b6b682fcd2a56c0.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57160-39",
+    "code": "57160-39",
+    "name": "57160-39",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "be797968de22e823b05d64d591ecd9b7.jpeg",
+    "images": [
+      "be797968de22e823b05d64d591ecd9b7.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57160-40",
+    "code": "57160-40",
+    "name": "57160-40",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "8f9f274f28ae66d711ac0530cf7c6064.jpeg",
+    "images": [
+      "8f9f274f28ae66d711ac0530cf7c6064.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57190-1",
+    "code": "57190-1",
+    "name": "57190-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "a3b930c025a01131b395641f1dc454c0.jpeg",
+    "images": [
+      "a3b930c025a01131b395641f1dc454c0.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57190-2",
+    "code": "57190-2",
+    "name": "57190-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "61eef19dfec50445c245067718818272.jpeg",
+    "images": [
+      "61eef19dfec50445c245067718818272.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57190-3",
+    "code": "57190-3",
+    "name": "57190-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "4c9bde7d30ef3a795a7d6a757ffdea75.jpeg",
+    "images": [
+      "4c9bde7d30ef3a795a7d6a757ffdea75.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57190-5",
+    "code": "57190-5",
+    "name": "57190-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "2b7cc7edb2b129edc3662abcc12f51df.jpeg",
+    "images": [
+      "2b7cc7edb2b129edc3662abcc12f51df.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57196-1",
+    "code": "57196-1",
+    "name": "57196-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "5726993ee192b1b754a5dd5adcc2ed9b.jpeg",
+    "images": [
+      "5726993ee192b1b754a5dd5adcc2ed9b.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57196-2",
+    "code": "57196-2",
+    "name": "57196-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "2969fc2443829bbee8b1237472725654.jpeg",
+    "images": [
+      "2969fc2443829bbee8b1237472725654.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57196-3",
+    "code": "57196-3",
+    "name": "57196-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "c1c40c81a626f8e18258de350b6117f5.jpeg",
+    "images": [
+      "c1c40c81a626f8e18258de350b6117f5.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57196-6",
+    "code": "57196-6",
+    "name": "57196-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "9e7db9c90e8aac5f8af17765bef3cd8e.jpeg",
+    "images": [
+      "9e7db9c90e8aac5f8af17765bef3cd8e.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57196-9",
+    "code": "57196-9",
+    "name": "57196-9",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "15cfb39a6baa5f76bafcafca8f5d7a09.jpeg",
+    "images": [
+      "15cfb39a6baa5f76bafcafca8f5d7a09.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57198-1_p48",
+    "code": "57198-1_p48",
+    "name": "57198-1_p48",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "58a9765e17d63fcdebfd73700d0d24fc.jpeg",
+    "images": [
+      "58a9765e17d63fcdebfd73700d0d24fc.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57198-3",
+    "code": "57198-3",
+    "name": "57198-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "73fcf3074ac0d181081923efcdd814f2.jpeg",
+    "images": [
+      "73fcf3074ac0d181081923efcdd814f2.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57205-1",
+    "code": "57205-1",
+    "name": "57205-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "e11d09b227d9120f88592d87f7742b24.jpeg",
+    "images": [
+      "e11d09b227d9120f88592d87f7742b24.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57205-2",
+    "code": "57205-2",
+    "name": "57205-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "e5ef324fc7f62f51f2988f7df2ec0b4f.jpeg",
+    "images": [
+      "e5ef324fc7f62f51f2988f7df2ec0b4f.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57205-3",
+    "code": "57205-3",
+    "name": "57205-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "8b3137a0087a1405b38694f78d1c0c94.jpeg",
+    "images": [
+      "8b3137a0087a1405b38694f78d1c0c94.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57205-5",
+    "code": "57205-5",
+    "name": "57205-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "7e032f049e3e56ce2d3c38bec2db30c5.jpeg",
+    "images": [
+      "7e032f049e3e56ce2d3c38bec2db30c5.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57206-1",
+    "code": "57206-1",
+    "name": "57206-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "a0195f8bd35206bf91955e2a7965d6cd.jpeg",
+    "images": [
+      "a0195f8bd35206bf91955e2a7965d6cd.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57206-2",
+    "code": "57206-2",
+    "name": "57206-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "784f0a509d67f0f719273181d158abcd.jpeg",
+    "images": [
+      "784f0a509d67f0f719273181d158abcd.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57206-3",
+    "code": "57206-3",
+    "name": "57206-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "03d531a142120b83b546923dbca7ec3c.jpeg",
+    "images": [
+      "03d531a142120b83b546923dbca7ec3c.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57206-4",
+    "code": "57206-4",
+    "name": "57206-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "f39092529844b9b6ab42be6f9fa0ed14.jpeg",
+    "images": [
+      "f39092529844b9b6ab42be6f9fa0ed14.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57206-6",
+    "code": "57206-6",
+    "name": "57206-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "6f0f25e8135a114c3b5607ea011492b0.jpeg",
+    "images": [
+      "6f0f25e8135a114c3b5607ea011492b0.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57206-7",
+    "code": "57206-7",
+    "name": "57206-7",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "fe29ba8de38e6ccfdf57d00e09c301a3.jpeg",
+    "images": [
+      "fe29ba8de38e6ccfdf57d00e09c301a3.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57210-1",
+    "code": "57210-1",
+    "name": "57210-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "a0d25c9178e34eb1f07a9b22b69c7980.jpeg",
+    "images": [
+      "a0d25c9178e34eb1f07a9b22b69c7980.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57210-10",
+    "code": "57210-10",
+    "name": "57210-10",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "79b76ec60528351ad892e09c2efdb496.jpeg",
+    "images": [
+      "79b76ec60528351ad892e09c2efdb496.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57210-2",
+    "code": "57210-2",
+    "name": "57210-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "de9402bd7565c9fc19f677f13f793f8d.jpeg",
+    "images": [
+      "de9402bd7565c9fc19f677f13f793f8d.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57210-3",
+    "code": "57210-3",
+    "name": "57210-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "fe49c6b35821e36ef4d294bbfa913b35.jpeg",
+    "images": [
+      "fe49c6b35821e36ef4d294bbfa913b35.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57210-6",
+    "code": "57210-6",
+    "name": "57210-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "5a78faa9583f9a92fa7fce2abf2d7852.jpeg",
+    "images": [
+      "5a78faa9583f9a92fa7fce2abf2d7852.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57210-7",
+    "code": "57210-7",
+    "name": "57210-7",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "e0c7f232ab8d8e7eb537f757c327143a.jpeg",
+    "images": [
+      "e0c7f232ab8d8e7eb537f757c327143a.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57210-8",
+    "code": "57210-8",
+    "name": "57210-8",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "e9a3170b300274d4312239975b3250cc.jpeg",
+    "images": [
+      "e9a3170b300274d4312239975b3250cc.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57210-9",
+    "code": "57210-9",
+    "name": "57210-9",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "99a493fbcb2739379452d7ac52bae61d.jpeg",
+    "images": [
+      "99a493fbcb2739379452d7ac52bae61d.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57215-1",
+    "code": "57215-1",
+    "name": "57215-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "80cbb59335071f4af2788bc3fec1ab8a.jpeg",
+    "images": [
+      "80cbb59335071f4af2788bc3fec1ab8a.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57215-2",
+    "code": "57215-2",
+    "name": "57215-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "998c58b524a90e26ff22634a02fe0c6f.jpeg",
+    "images": [
+      "998c58b524a90e26ff22634a02fe0c6f.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57215-3",
+    "code": "57215-3",
+    "name": "57215-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "8e9e7228ef6310dba6e67c19804d046a.jpeg",
+    "images": [
+      "8e9e7228ef6310dba6e67c19804d046a.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57215-4",
+    "code": "57215-4",
+    "name": "57215-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "64710bf45e8dc42b31707239f9c745d4.jpeg",
+    "images": [
+      "64710bf45e8dc42b31707239f9c745d4.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57217-1",
+    "code": "57217-1",
+    "name": "57217-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "1d76fcaaffe0ab036f4cc4dd966d6fee.jpeg",
+    "images": [
+      "1d76fcaaffe0ab036f4cc4dd966d6fee.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57217-2",
+    "code": "57217-2",
+    "name": "57217-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "2701bc122212eb34c9a58025f549edd4.jpeg",
+    "images": [
+      "2701bc122212eb34c9a58025f549edd4.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57217-3",
+    "code": "57217-3",
+    "name": "57217-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "fafb5e9b46f06bc36a358242ddd94886.jpeg",
+    "images": [
+      "fafb5e9b46f06bc36a358242ddd94886.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57217-4",
+    "code": "57217-4",
+    "name": "57217-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "1475f888b84dbacade4460f287cd7915.jpeg",
+    "images": [
+      "1475f888b84dbacade4460f287cd7915.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57217-5",
+    "code": "57217-5",
+    "name": "57217-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "4415e31e051d97677bfa3e7c410e3606.jpeg",
+    "images": [
+      "4415e31e051d97677bfa3e7c410e3606.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57217-6",
+    "code": "57217-6",
+    "name": "57217-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "8d841918516c92023d0defa7e1afa5d8.jpeg",
+    "images": [
+      "8d841918516c92023d0defa7e1afa5d8.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57217-8",
+    "code": "57217-8",
+    "name": "57217-8",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "c1d5659cea90e0a62968fec58dd90dc6.jpeg",
+    "images": [
+      "c1d5659cea90e0a62968fec58dd90dc6.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57218-1",
+    "code": "57218-1",
+    "name": "57218-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "00a286d3e267fbdd21c0ca39bf5681bc.jpeg",
+    "images": [
+      "00a286d3e267fbdd21c0ca39bf5681bc.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57218-2",
+    "code": "57218-2",
+    "name": "57218-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "206a217658cd8d0d8ea8837ddd2b0b97.jpeg",
+    "images": [
+      "206a217658cd8d0d8ea8837ddd2b0b97.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57218-3",
+    "code": "57218-3",
+    "name": "57218-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "73a8b07696c4d45829048ebd0a40771c.jpeg",
+    "images": [
+      "73a8b07696c4d45829048ebd0a40771c.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57218-4",
+    "code": "57218-4",
+    "name": "57218-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "8e5861efeb2b680a084a1c47d86cf6da.jpeg",
+    "images": [
+      "8e5861efeb2b680a084a1c47d86cf6da.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57218-5",
+    "code": "57218-5",
+    "name": "57218-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "ce13b55392cb34f7a93150964beadc38.jpeg",
+    "images": [
+      "ce13b55392cb34f7a93150964beadc38.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57218-6",
+    "code": "57218-6",
+    "name": "57218-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "a8109e9e6b90854098d61dba15ca8d90.jpeg",
+    "images": [
+      "a8109e9e6b90854098d61dba15ca8d90.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57218-7",
+    "code": "57218-7",
+    "name": "57218-7",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "59fb2bf34074776a7c89462913b1d328.jpeg",
+    "images": [
+      "59fb2bf34074776a7c89462913b1d328.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57218-8",
+    "code": "57218-8",
+    "name": "57218-8",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "62cf9f82893728a8b032c6f5ac87d67b.jpeg",
+    "images": [
+      "62cf9f82893728a8b032c6f5ac87d67b.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57219-1",
+    "code": "57219-1",
+    "name": "57219-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "68149de5d6e2da76ad5746a37c44f36d.jpeg",
+    "images": [
+      "68149de5d6e2da76ad5746a37c44f36d.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57219-2",
+    "code": "57219-2",
+    "name": "57219-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "33f4db1939bf06e5746fc8822e677329.jpeg",
+    "images": [
+      "33f4db1939bf06e5746fc8822e677329.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57219-3",
+    "code": "57219-3",
+    "name": "57219-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "862a2ebefa9eedeab8fd4b4023de971a.jpeg",
+    "images": [
+      "862a2ebefa9eedeab8fd4b4023de971a.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57219-4",
+    "code": "57219-4",
+    "name": "57219-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "20b09f22ac0443e65c41bf4dbe6f1fd4.jpeg",
+    "images": [
+      "20b09f22ac0443e65c41bf4dbe6f1fd4.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57219-5",
+    "code": "57219-5",
+    "name": "57219-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "fdfc07e70e32949a83821336b90c9900.jpeg",
+    "images": [
+      "fdfc07e70e32949a83821336b90c9900.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57219-6",
+    "code": "57219-6",
+    "name": "57219-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "170f218b2357695ef77a24662b922158.jpeg",
+    "images": [
+      "170f218b2357695ef77a24662b922158.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57219-7",
+    "code": "57219-7",
+    "name": "57219-7",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "9a2086b1a70aaa26e0fe7a074f7f94e3.jpeg",
+    "images": [
+      "9a2086b1a70aaa26e0fe7a074f7f94e3.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57220-1",
+    "code": "57220-1",
+    "name": "57220-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "96405b3e642b951e7063c1bdeb44d5c5.jpeg",
+    "images": [
+      "96405b3e642b951e7063c1bdeb44d5c5.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57220-2",
+    "code": "57220-2",
+    "name": "57220-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "c24dd96193ecf262f0220e78e9108de7.jpeg",
+    "images": [
+      "c24dd96193ecf262f0220e78e9108de7.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57220-3",
+    "code": "57220-3",
+    "name": "57220-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "d1d0ed92030893777a32105b4ddedc7c.jpeg",
+    "images": [
+      "d1d0ed92030893777a32105b4ddedc7c.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57220-4",
+    "code": "57220-4",
+    "name": "57220-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "5a3519c1045371f76f196ed78f90923a.jpeg",
+    "images": [
+      "5a3519c1045371f76f196ed78f90923a.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57220-5",
+    "code": "57220-5",
+    "name": "57220-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "ef5ec0c24166ab9d528021719bc3125d.jpeg",
+    "images": [
+      "ef5ec0c24166ab9d528021719bc3125d.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57221-1",
+    "code": "57221-1",
+    "name": "57221-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "ff12911488a85d36e225cceaea1f4593.png",
+    "images": [
+      "ff12911488a85d36e225cceaea1f4593.png"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57222-1",
+    "code": "57222-1",
+    "name": "57222-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "ce66afede343abb8c185b9512918aa9a.png",
+    "images": [
+      "ce66afede343abb8c185b9512918aa9a.png"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57223-1",
+    "code": "57223-1",
+    "name": "57223-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "36464ffd0f9cf5c2ca5943aa45011bea.jpeg",
+    "images": [
+      "36464ffd0f9cf5c2ca5943aa45011bea.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57223-2",
+    "code": "57223-2",
+    "name": "57223-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "e5e7efdc0e7f9f098deeffb4a2d8ad80.jpeg",
+    "images": [
+      "e5e7efdc0e7f9f098deeffb4a2d8ad80.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57223-3",
+    "code": "57223-3",
+    "name": "57223-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "9976e42e237bf9ee9a7a928c57563648.jpeg",
+    "images": [
+      "9976e42e237bf9ee9a7a928c57563648.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57223-4",
+    "code": "57223-4",
+    "name": "57223-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "23428ca78239918738c7cca34a932f77.jpeg",
+    "images": [
+      "23428ca78239918738c7cca34a932f77.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57224-1",
+    "code": "57224-1",
+    "name": "57224-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "fa978c51e167003f9373a2a917f62007.jpeg",
+    "images": [
+      "fa978c51e167003f9373a2a917f62007.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57224-2",
+    "code": "57224-2",
+    "name": "57224-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "d0848a30974708d29570282eedfe763c.jpeg",
+    "images": [
+      "d0848a30974708d29570282eedfe763c.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57224-3",
+    "code": "57224-3",
+    "name": "57224-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "fca1a677488eb751f048bcdd3607eefd.jpeg",
+    "images": [
+      "fca1a677488eb751f048bcdd3607eefd.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57224-4",
+    "code": "57224-4",
+    "name": "57224-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "69ebdc354aca9995e7299fb3102589fa.jpeg",
+    "images": [
+      "69ebdc354aca9995e7299fb3102589fa.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57224-5",
+    "code": "57224-5",
+    "name": "57224-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "618e69ea25b29082e03e378b6ab209bc.jpeg",
+    "images": [
+      "618e69ea25b29082e03e378b6ab209bc.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57225-1",
+    "code": "57225-1",
+    "name": "57225-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "4c0a4c1bc13eb0e3e35ba76da535e5db.jpeg",
+    "images": [
+      "4c0a4c1bc13eb0e3e35ba76da535e5db.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57225-2",
+    "code": "57225-2",
+    "name": "57225-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "42999da3b40759a68b32fec6cc80b243.jpeg",
+    "images": [
+      "42999da3b40759a68b32fec6cc80b243.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57225-3",
+    "code": "57225-3",
+    "name": "57225-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "05d79648bc58506976f4eabbb9753924.jpeg",
+    "images": [
+      "05d79648bc58506976f4eabbb9753924.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57225-4",
+    "code": "57225-4",
+    "name": "57225-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "d978b85eecfdd040f7ba4be6ac8e77a2.jpeg",
+    "images": [
+      "d978b85eecfdd040f7ba4be6ac8e77a2.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57226-1",
+    "code": "57226-1",
+    "name": "57226-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "5cd8ab3a5fc3638333644d55acd72fd7.jpeg",
+    "images": [
+      "5cd8ab3a5fc3638333644d55acd72fd7.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57226-2",
+    "code": "57226-2",
+    "name": "57226-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "028e58020c9e60c23c6be6be63ea2cf8.jpeg",
+    "images": [
+      "028e58020c9e60c23c6be6be63ea2cf8.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57226-3",
+    "code": "57226-3",
+    "name": "57226-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "a310a1e1c29f70e1589e0fcb20acd948.jpeg",
+    "images": [
+      "a310a1e1c29f70e1589e0fcb20acd948.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57226-4",
+    "code": "57226-4",
+    "name": "57226-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "e224ba09dee47619e18c435d0e702577.jpeg",
+    "images": [
+      "e224ba09dee47619e18c435d0e702577.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57226-5",
+    "code": "57226-5",
+    "name": "57226-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "389e682259dbf659a5fe6febcbe90584.jpeg",
+    "images": [
+      "389e682259dbf659a5fe6febcbe90584.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57226-6",
+    "code": "57226-6",
+    "name": "57226-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "76f049c5d452a731447a446d525c615c.jpeg",
+    "images": [
+      "76f049c5d452a731447a446d525c615c.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57227-1",
+    "code": "57227-1",
+    "name": "57227-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "9c4fdb40de4fe5aacc3088522ab4d0cd.jpeg",
+    "images": [
+      "9c4fdb40de4fe5aacc3088522ab4d0cd.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57227-2",
+    "code": "57227-2",
+    "name": "57227-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "a88fe91e42227174e0ebe2d79d12002d.jpeg",
+    "images": [
+      "a88fe91e42227174e0ebe2d79d12002d.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57228-1",
+    "code": "57228-1",
+    "name": "57228-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "3be7cbdb6253db3bc5c3ff397dab9d03.jpeg",
+    "images": [
+      "3be7cbdb6253db3bc5c3ff397dab9d03.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57228-2",
+    "code": "57228-2",
+    "name": "57228-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "83ac1aa74aa975990f10504b254723ea.jpeg",
+    "images": [
+      "83ac1aa74aa975990f10504b254723ea.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57228-3",
+    "code": "57228-3",
+    "name": "57228-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "0f831b32e447fa6c7fff73aa95c88c54.jpeg",
+    "images": [
+      "0f831b32e447fa6c7fff73aa95c88c54.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57228-4",
+    "code": "57228-4",
+    "name": "57228-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "770cf0fef0b4612e9950b5cae176f23a.jpeg",
+    "images": [
+      "770cf0fef0b4612e9950b5cae176f23a.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57228-5",
+    "code": "57228-5",
+    "name": "57228-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "c6fad0e8be7f1dfc468bacb076b6c642.jpeg",
+    "images": [
+      "c6fad0e8be7f1dfc468bacb076b6c642.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57229-1",
+    "code": "57229-1",
+    "name": "57229-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "7956ff2a02fe7df4ec42049aed3ddad8.jpeg",
+    "images": [
+      "7956ff2a02fe7df4ec42049aed3ddad8.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57229-2",
+    "code": "57229-2",
+    "name": "57229-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "08ceb1e0e0b01cdd30779e588f42846d.jpeg",
+    "images": [
+      "08ceb1e0e0b01cdd30779e588f42846d.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57229-3",
+    "code": "57229-3",
+    "name": "57229-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "2857fce4ad9a76b45e5ca8dc23268967.jpeg",
+    "images": [
+      "2857fce4ad9a76b45e5ca8dc23268967.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57229-4",
+    "code": "57229-4",
+    "name": "57229-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "a90eb7ea514491aaf50cd995af65b15d.jpeg",
+    "images": [
+      "a90eb7ea514491aaf50cd995af65b15d.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57229-5",
+    "code": "57229-5",
+    "name": "57229-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "99ac70c6379be61780db04aa8d432806.jpeg",
+    "images": [
+      "99ac70c6379be61780db04aa8d432806.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57229-6",
+    "code": "57229-6",
+    "name": "57229-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "d46918c107a5216a7ce0a194d0c4d69c.jpeg",
+    "images": [
+      "d46918c107a5216a7ce0a194d0c4d69c.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57230-1",
+    "code": "57230-1",
+    "name": "57230-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "62808b492e39b2a4dac8f08d7fe349b8.jpeg",
+    "images": [
+      "62808b492e39b2a4dac8f08d7fe349b8.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57230-2",
+    "code": "57230-2",
+    "name": "57230-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "97fbc785bbebad7520e10965b5d01661.jpeg",
+    "images": [
+      "97fbc785bbebad7520e10965b5d01661.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57230-3",
+    "code": "57230-3",
+    "name": "57230-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "3ed9ff7581e551697f64a5988e501522.jpeg",
+    "images": [
+      "3ed9ff7581e551697f64a5988e501522.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57230-4",
+    "code": "57230-4",
+    "name": "57230-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "893de1bad4cb871f29c53874badd9429.jpeg",
+    "images": [
+      "893de1bad4cb871f29c53874badd9429.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57230-5",
+    "code": "57230-5",
+    "name": "57230-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "4898a27a7a1b60001dd76733efa041ba.jpeg",
+    "images": [
+      "4898a27a7a1b60001dd76733efa041ba.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57230-6",
+    "code": "57230-6",
+    "name": "57230-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "2820a11acad3cdddbc934d4203eda17f.jpeg",
+    "images": [
+      "2820a11acad3cdddbc934d4203eda17f.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57231-1",
+    "code": "57231-1",
+    "name": "57231-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "e5ac872576ab1c30e5c2641a8c45dc09.jpeg",
+    "images": [
+      "e5ac872576ab1c30e5c2641a8c45dc09.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57231-2",
+    "code": "57231-2",
+    "name": "57231-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "e03e43fe2e089f1d46a13273cb2deb7e.jpeg",
+    "images": [
+      "e03e43fe2e089f1d46a13273cb2deb7e.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57231-3",
+    "code": "57231-3",
+    "name": "57231-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "374a1fcc8deb70eed4a993af23657a05.jpeg",
+    "images": [
+      "374a1fcc8deb70eed4a993af23657a05.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57231-4",
+    "code": "57231-4",
+    "name": "57231-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "5160ebe0b7ee4f1cb07d6e61cbf2022f.jpeg",
+    "images": [
+      "5160ebe0b7ee4f1cb07d6e61cbf2022f.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57231-5",
+    "code": "57231-5",
+    "name": "57231-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "7998a6df001149da91c81f87613f63b6.jpeg",
+    "images": [
+      "7998a6df001149da91c81f87613f63b6.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57231-6",
+    "code": "57231-6",
+    "name": "57231-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "712b14be697e1c74dbdc1b130076eeaf.jpeg",
+    "images": [
+      "712b14be697e1c74dbdc1b130076eeaf.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57231-7",
+    "code": "57231-7",
+    "name": "57231-7",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "3e63f30802d555b27dce3016fc847918.jpeg",
+    "images": [
+      "3e63f30802d555b27dce3016fc847918.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57232-1",
+    "code": "57232-1",
+    "name": "57232-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "94dbbb074f7ec9c44836faf1ced60953.jpeg",
+    "images": [
+      "94dbbb074f7ec9c44836faf1ced60953.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57232-2",
+    "code": "57232-2",
+    "name": "57232-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "0f244514abe9b0bbba0ee33203869985.jpeg",
+    "images": [
+      "0f244514abe9b0bbba0ee33203869985.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57232-3",
+    "code": "57232-3",
+    "name": "57232-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "26365054f039786602634c4f336bc076.jpeg",
+    "images": [
+      "26365054f039786602634c4f336bc076.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57232-4",
+    "code": "57232-4",
+    "name": "57232-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "2cd269a5a4bad5757b5889e928831d27.jpeg",
+    "images": [
+      "2cd269a5a4bad5757b5889e928831d27.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57232-5",
+    "code": "57232-5",
+    "name": "57232-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "dca7a9a43f100ed954402b61e7aba532.jpeg",
+    "images": [
+      "dca7a9a43f100ed954402b61e7aba532.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57232-6",
+    "code": "57232-6",
+    "name": "57232-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "e3843b0e30e3bda0c966dc23a1fd3b4b.jpeg",
+    "images": [
+      "e3843b0e30e3bda0c966dc23a1fd3b4b.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57233-1",
+    "code": "57233-1",
+    "name": "57233-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "e73cbd0c22d8adde77a72f93fb2ff08b.jpeg",
+    "images": [
+      "e73cbd0c22d8adde77a72f93fb2ff08b.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57233-2",
+    "code": "57233-2",
+    "name": "57233-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "30cd3710aedf180d9f8e82bd9239b56f.jpeg",
+    "images": [
+      "30cd3710aedf180d9f8e82bd9239b56f.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57233-3",
+    "code": "57233-3",
+    "name": "57233-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "9aeee8a0867dd0be6994d8f861c9472e.jpeg",
+    "images": [
+      "9aeee8a0867dd0be6994d8f861c9472e.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57233-4",
+    "code": "57233-4",
+    "name": "57233-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "469076d6ac996244dc140ad3813f8681.jpeg",
+    "images": [
+      "469076d6ac996244dc140ad3813f8681.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57233-5",
+    "code": "57233-5",
+    "name": "57233-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "d2cdec329198b99dc942ad71faf7199b.jpeg",
+    "images": [
+      "d2cdec329198b99dc942ad71faf7199b.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57233-6",
+    "code": "57233-6",
+    "name": "57233-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "b53c41b0e5ffdc029f8da700ac5a33a3.jpeg",
+    "images": [
+      "b53c41b0e5ffdc029f8da700ac5a33a3.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-57233-7",
+    "code": "57233-7",
+    "name": "57233-7",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "676ec3b7a8cb509c29a45181f3dcf5a2.jpeg",
+    "images": [
+      "676ec3b7a8cb509c29a45181f3dcf5a2.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-83204-2",
+    "code": "83204-2",
+    "name": "83204-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "c7a9b74a3598cc68d2dc74ef216f1213.jpeg",
+    "images": [
+      "c7a9b74a3598cc68d2dc74ef216f1213.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-83206-1",
+    "code": "83206-1",
+    "name": "83206-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "72af2e1b4aba405dfd20fabeaeefac57.jpeg",
+    "images": [
+      "72af2e1b4aba405dfd20fabeaeefac57.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-83209-2",
+    "code": "83209-2",
+    "name": "83209-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "0692c2d10e694b39444965340441523e.jpeg",
+    "images": [
+      "0692c2d10e694b39444965340441523e.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-83210-1",
+    "code": "83210-1",
+    "name": "83210-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "40dbf0a99b91f0d3b7b31352e22ec9f8.jpeg",
+    "images": [
+      "40dbf0a99b91f0d3b7b31352e22ec9f8.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-83218-3",
+    "code": "83218-3",
+    "name": "83218-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": 57000,
+    "thumbnail": "5031411fceac2a9fa602478d19015fac.jpeg",
+    "images": [
+      "5031411fceac2a9fa602478d19015fac.jpeg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
     }
   },
   {

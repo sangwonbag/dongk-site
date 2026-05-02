@@ -342,6 +342,11 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                     materialType = "합지(장폭)";
                 } else if (line.includes('합지')) {
                     materialType = "합지";
+                } else if (line.includes('아트북')) {
+                    materialType = "실크";
+                    sizeLabel = "1.06m(W) x 15.6m(H) / Roll (16.43㎡)";
+                    packing = "4 Roll / Box";
+                    price = uCode.startsWith("54") ? 54000 : 57000;
                 } else if (line.includes('실크')) {
                     materialType = "실크";
                     sizeLabel = "1.06m(W) x 15.6m(H) / Roll (16.43㎡)";
