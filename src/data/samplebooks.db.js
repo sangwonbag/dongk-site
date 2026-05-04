@@ -162,6 +162,7 @@ export const sampleBooks = [
         brand: "녹수",
         category: "데코타일",
         pdf: "/samplebooks/데코타일/녹수/에코홈2000.pdf",
+        cover: "/samplebooks/Thumnail_image/데코타일/녹수/에코홈2000/ecohome2000_page1.png",
         description: "녹수 에코홈 2000 데코타일 샘플북"
     },
     {
@@ -170,6 +171,7 @@ export const sampleBooks = [
         brand: "녹수",
         category: "데코타일",
         pdf: "/samplebooks/데코타일/녹수/오키드3000.pdf",
+        cover: "/samplebooks/Thumnail_image/데코타일/녹수/오키드3000/orchid3000_page1.png",
         description: "녹수 오키드 3000 데코타일 샘플북"
     },
     {
@@ -178,6 +180,7 @@ export const sampleBooks = [
         brand: "녹수",
         category: "데코타일",
         pdf: "/samplebooks/데코타일/녹수/프라임1500.pdf",
+        cover: "/samplebooks/Thumnail_image/데코타일/녹수/프라임1500/prime1500_page1.png",
         description: "녹수 프라임 1500 데코타일 샘플북"
     },
 
