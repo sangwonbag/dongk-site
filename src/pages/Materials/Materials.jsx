@@ -28,7 +28,7 @@ export default function Materials() {
   const activeTab = searchParams.get("category") || "recommended";
   const activeBrand = searchParams.get("brand") || "all";
   const activeMaterialType = searchParams.get("type") || "all";
-  const activeNoksuLine = searchParams.get("line") || "all";
+  const activeLine = searchParams.get("line") || "all";
   const searchText = searchParams.get("search") || "";
 
   // Pagination state
@@ -37,7 +37,7 @@ export default function Materials() {
   // Reset pagination when filters change
   useEffect(() => {
     setVisibleCount(100);
-  }, [activeTab, activeBrand, activeMaterialType, activeNoksuLine, searchText]);
+  }, [activeTab, activeBrand, activeMaterialType, activeLine, searchText]);
 
   // Update query params helper
   const updateParams = (updates) => {
@@ -64,7 +64,7 @@ export default function Materials() {
 
   const setActiveBrand = (brand) => updateParams({ brand, type: null, line: null });
   const setActiveMaterialType = (type) => updateParams({ type });
-  const setActiveNoksuLine = (line) => updateParams({ line });
+  const setActiveLine = (line) => updateParams({ line });
 
   // Scroll restoration on return
   useEffect(() => {
@@ -115,10 +115,10 @@ export default function Materials() {
         materialOk = (m.materialType === activeMaterialType);
       }
 
-      // 3-1) 녹수 데코타일 라인 필터
-      let noksuLineOk = true;
-      if (activeTab === "데코타일" && activeBrand === "녹수" && activeNoksuLine !== "all") {
-        noksuLineOk = (m.line || "").includes(activeNoksuLine);
+      // 3-1) 데코타일 라인 필터 (녹수, 현대 등)
+      let lineOk = true;
+      if (activeTab === "데코타일" && (activeBrand === "녹수" || activeBrand === "현대") && activeLine !== "all") {
+        lineOk = (m.line || "").includes(activeLine);
       }
 
       // 4) 검색 필터
@@ -128,9 +128,9 @@ export default function Materials() {
           (m.code || "").toLowerCase().includes(s) ||
           mComputedBrand.toLowerCase().includes(s));
 
-      return tabOk && brandOk && materialOk && noksuLineOk && searchOk;
+      return tabOk && brandOk && materialOk && lineOk && searchOk;
     });
-  }, [activeTab, activeBrand, activeMaterialType, activeNoksuLine, searchText]);
+  }, [activeTab, activeBrand, activeMaterialType, activeLine, searchText]);
 
   return (
     <MainLayout>
@@ -162,14 +162,14 @@ export default function Materials() {
             ))}
           </div>
 
-          {/* ✅ 녹수 데코타일 라인업 필터 */}
-          {activeTab === "데코타일" && activeBrand === "녹수" && (
+          {/* ✅ 데코타일 라인업 필터 (녹수, 현대) */}
+          {activeTab === "데코타일" && (activeBrand === "녹수" || activeBrand === "현대") && (
             <div className="material-type-row">
-              {["all", "세타그립", "프라임1500", "에코홈2000", "오키드3000"].map((lineName) => (
+              {(activeBrand === "녹수" ? ["all", "세타그립", "프라임1500", "에코홈2000", "오키드3000"] : ["all", "골드타일", "디럭스"]).map((lineName) => (
                 <button
                   key={lineName}
-                  className={`material-type-chip ${activeNoksuLine === lineName ? "active" : ""}`}
-                  onClick={() => setActiveNoksuLine(lineName)}
+                  className={`material-type-chip ${activeLine === lineName ? "active" : ""}`}
+                  onClick={() => setActiveLine(lineName)}
                 >
                   {lineName === "all" ? "전체 라인업" : lineName}
                 </button>

@@ -27,7 +27,7 @@ const SampleBookCard = ({ book, onClick }) => {
                     style={{ display: coverSrc ? 'none' : 'flex' }}
                 >
                     <span>{getComputedBrand(book)}</span>
-                </div>ㅞㅡ
+                </div>
 
                 {book.isNew && <div className="sb-badge-new">NEW</div>}
             </div>

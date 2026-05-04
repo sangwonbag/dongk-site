@@ -255,6 +255,62 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                         type = "600";
                     }
                 }
+            } else if (brand === '현대') {
+                if (line.includes('골드타일')) {
+                    thickness = "3.0T"; // General default for Gold Tile
+
+                    if (line.includes('골드타일클래식')) {
+                        const code600 = ['7401', '7403', '7451', '7452', '7471', '7473', '7495', '7497', '7505', '7506', '7507', '7511', '7512', '7513', '7514', '7521', '7522', '7523', '7524', '7531', '7532', '7533', '7534', '7541', '7542', '7543', '7544', '7551', '7552', '7553', '7554', '9731', '9732', '9733', '9734', '9824'];
+                        const code500 = ['7406', '7461', '7462', '9709', '9712', '9827', '9846', '9847', '9843'];
+                        const codeWood = ['3521', '3522', '3532', '4901', '4902', '4974', '4975', '4982'];
+
+                        if (code600.some(c => uCode.includes(c))) {
+                            sizeLabel = "600x600mm";
+                            packing = "9pcs / Box (3.24㎡)";
+                            type = "600";
+                        } else if (code500.some(c => uCode.includes(c))) {
+                            sizeLabel = "500x500mm";
+                            packing = "13pcs / Box (3.25㎡)";
+                            type = "500";
+                        } else if (codeWood.some(c => uCode.includes(c))) {
+                            sizeLabel = "186x940mm";
+                            packing = "19pcs / Box (3.32㎡)";
+                            type = "wood";
+                        }
+                    } else if (line.includes('골드타일마스터')) {
+                        const master600 = ['MTS6141', 'MTS6142', 'MTS6143', 'MTS6144', 'MTS6151', 'MTS6152', 'MTS6153', 'MTS6154', 'MTS6161', 'MTS6162', 'MTS6163', 'MTS6164', 'MTS6111', 'MTS6112', 'MTS6131', 'MTS6132'];
+                        const master450 = ['MTS4415', 'MTS4417', 'MTS4421', 'MTS4422', 'MTS4425', 'MTS4433', 'MTS4434', 'MTS4435', 'MTS5522', 'MTS5523', 'MTS5524', 'MTS6011', 'MTS6012', 'MTS6013', 'MTS6021', 'MTS6022', 'MTS6023', 'MTS6024', 'MTS6025', 'MTS6026', 'MTS6031', 'MTS6032', 'MTS6033', 'MTS6051', 'MTS6053', 'MTS6062', 'MTS6063'];
+                        const masterWood = ['MTW3011', 'MTW3012', 'MTW3021', 'MTW3024', 'MTW4463', 'MTW4464', 'MTW4481', 'MTW4486', 'MTW4487', 'MTW4488'];
+
+                        if (master600.some(c => uCode.includes(c))) {
+                            sizeLabel = "600x600mm";
+                            packing = "9Pcs / Box (3.24㎡)";
+                            type = "600";
+                        } else if (master450.some(c => uCode.includes(c))) {
+                            sizeLabel = "450x450mm";
+                            packing = "16Pcs / Box (3.24㎡)";
+                            type = "450";
+                        } else if (masterWood.some(c => uCode.includes(c))) {
+                            sizeLabel = "186x940mm";
+                            packing = "19Pcs / Box (3.32㎡)";
+                            type = "wood";
+                        }
+                    }
+                } else if (line.includes('디럭스')) {
+                    let overrideName = `디럭스 타일 ${code}`;
+                    if (line.includes('BASIC')) {
+                        thickness = "2.0T / 3.0T";
+                        sizeLabel = "300x300mm / 450x450mm";
+                        packing = "두께 및 사이즈별 상이";
+                    } else if (line.includes('REGENT') || line.includes('DELUXE_GOLD') || line.includes('CONDUCTIVE')) {
+                        thickness = "3.0T";
+                        sizeLabel = "450x450mm";
+                        packing = "16pcs / Box (3.24㎡)";
+                    } else {
+                        thickness = "3.0T";
+                    }
+                    return { price, sizeLabel, packing, thickness, type, materialType, brand, division, overrideName };
+                }
             }
             break;
 
@@ -378,7 +434,7 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
             break;
     }
 
-    return { price, sizeLabel, packing, thickness, type, materialType, brand, division };
+    return { price, sizeLabel, packing, thickness, type, materialType, brand, division, overrideName: null };
 }
 
 function processDirectory(dirPath, category, brandFolder, lineFolder) {
@@ -464,7 +520,7 @@ function processDirectory(dirPath, category, brandFolder, lineFolder) {
             items.push({
                 id: id,
                 code: finalCode,
-                name: cleanName,
+                name: rules.overrideName || cleanName,
                 brand: rules.brand || computedBrand,
                 category: category,
                 line: activeLine.replace(/_$/, ''),
