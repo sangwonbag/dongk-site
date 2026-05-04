@@ -330,11 +330,30 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
             } else if (brand === '제일') {
                 materialType = line.includes('실크') ? "실크" : "합지";
                 if (!line) materialType = "합지";
+            } else if (brand === '서울') {
+                if (line.includes('프리미엄')) {
+                    materialType = "프리미엄";
+                    sizeLabel = "1.06m(W) x 15.6m(H) / Roll";
+                    packing = "1 Roll / Box";
+                } else if (line.includes('합지')) {
+                    materialType = "합지";
+                    sizeLabel = "93cm(W) x 17.75m(H) / Roll";
+                    packing = "6 Roll / Box";
+                } else if (line.includes('실크')) {
+                    materialType = "실크";
+                    sizeLabel = "1.06m(W) x 15.6m(H) / Roll";
+                    packing = "4 Roll / Box";
+                } else if (line.includes('방염')) {
+                    materialType = "방염";
+                    sizeLabel = "1.06m(W) x 15.6m(H) / Roll";
+                    packing = "4 Roll / Box";
+                } else {
+                    return { skip: true };
+                }
             } else if (brand === '개나리') {
                 if (line.includes('프리미엄')) {
                     materialType = "프리미엄";
                     sizeLabel = "1.06m(W) x 15.6m(H) / Roll";
-                    price = 99000;
                     packing = "2 Roll";
                 } else if (line.includes('합지(소폭)')) {
                     materialType = "합지(소폭)";
@@ -346,14 +365,14 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                     materialType = "실크";
                     sizeLabel = "1.06m(W) x 15.6m(H) / Roll (16.43㎡)";
                     packing = "4 Roll / Box";
-                    price = uCode.startsWith("54") ? 54000 : 57000;
                 } else if (line.includes('실크')) {
                     materialType = "실크";
                     sizeLabel = "1.06m(W) x 15.6m(H) / Roll (16.43㎡)";
-                    price = 87000;
                     packing = "4 Roll";
                 } else if (line.includes('방염')) {
                     materialType = "방염";
+                    sizeLabel = "1.06m(W) x 15.6m(H) / Roll (16.43㎡)";
+                    packing = "4 Roll";
                 }
             }
             break;
@@ -431,6 +450,9 @@ function processDirectory(dirPath, category, brandFolder, lineFolder) {
 
             // Apply rules
             const rules = applyRules(category, computedBrand, activeLine, file.name, cleanName, id, finalCode, brandFolder);
+
+            // Skip if rule tells us to
+            if (rules.skip) return;
 
             // De-dupe check 
             const existingIdx = items.findIndex(i => i.id === id);

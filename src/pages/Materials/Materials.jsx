@@ -180,7 +180,7 @@ export default function Materials() {
           {/* ✅ 재질 필터 (벽지일 때 브랜드가 선택된 경우 혹은 전체일 때 노출) */}
           {activeTab === "벽지" && (
             <div className="material-type-row">
-              {(activeBrand === "all" ? ["all"] : activeBrand === "개나리" ? ["all", "프리미엄", "합지(소폭)", "합지(장폭)", "실크", "방염"] : activeBrand === "LX" ? ["all", "디아망", "합지", "실크", "방염"] : ["all", "합지", "실크", "방염"]).map((t) => (
+              {(activeBrand === "all" ? ["all"] : activeBrand === "개나리" ? ["all", "프리미엄", "합지(소폭)", "합지(장폭)", "실크", "방염"] : activeBrand === "LX" ? ["all", "디아망", "합지", "실크", "방염"] : activeBrand === "서울" ? ["all", "프리미엄", "합지", "실크", "방염"] : ["all", "합지", "실크", "방염"]).map((t) => (
                 <button
                   key={t}
                   className={`material-type-chip ${activeMaterialType === t ? "active" : ""}`}
