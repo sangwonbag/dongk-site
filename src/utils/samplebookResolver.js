@@ -6,8 +6,8 @@ import { imageManifest } from "../data/imageManifest";
 
 const normalize = (str) => str ? str.replace(/[^a-zA-Z0-9]/g, '').toUpperCase() : "";
 
-// public/samplebooks 폴더의 이미지들을 재귀적으로 eager 로딩
-const sampleBookImages = import.meta.glob('/public/samplebooks/**/*.{jpg,jpeg,png,webp}', { eager: true });
+// public/samplebooks 폴더의 이미지들을 재귀적으로 eager 로딩 (Thumnail_image 폴더 제외)
+const sampleBookImages = import.meta.glob(['/public/samplebooks/**/*.{jpg,jpeg,png,webp}', '!/public/samplebooks/Thumnail_image/**'], { eager: true });
 
 // 이미지 파일명 목록 추출
 const imageFiles = Object.entries(sampleBookImages).map(([path]) => {

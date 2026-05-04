@@ -19,6 +19,7 @@ const CATEGORY_TABS = [
   { id: "마루", label: "마루" },
   { id: "벽지", label: "벽지" },
   { id: "카페트타일", label: "카페트타일" },
+  { id: "러버타일", label: "러버타일" },
 ];
 
 export default function Materials() {
@@ -115,9 +116,9 @@ export default function Materials() {
         materialOk = (m.materialType === activeMaterialType);
       }
 
-      // 3-1) 데코타일 라인 필터 (녹수, 현대 등)
+      // 3-1) 라인 필터 (데코타일, 러버타일)
       let lineOk = true;
-      if (activeTab === "데코타일" && (activeBrand === "녹수" || activeBrand === "현대") && activeLine !== "all") {
+      if ((activeTab === "데코타일" || activeTab === "러버타일") && (activeBrand === "녹수" || activeBrand === "현대") && activeLine !== "all") {
         lineOk = (m.line || "").includes(activeLine);
       }
 
@@ -162,10 +163,14 @@ export default function Materials() {
             ))}
           </div>
 
-          {/* ✅ 데코타일 라인업 필터 (녹수, 현대) */}
-          {activeTab === "데코타일" && (activeBrand === "녹수" || activeBrand === "현대") && (
+          {/* ✅ 데코타일/러버타일 라인업 필터 (녹수, 현대 등) */}
+          {(activeTab === "데코타일" || activeTab === "러버타일") && (activeBrand === "녹수" || activeBrand === "현대") && (
             <div className="material-type-row">
-              {(activeBrand === "녹수" ? ["all", "세타그립", "프라임1500", "에코홈2000", "오키드3000"] : ["all", "골드타일", "디럭스"]).map((lineName) => (
+              {(
+                activeTab === "러버타일" ? ["all", "COIN TILE", "SAFETY / SHEET", "MEGA CORK", "MEGA COIN", "MEGA EMBO"] :
+                activeBrand === "녹수" ? ["all", "세타그립", "프라임1500", "에코홈2000", "오키드3000"] : 
+                ["all", "골드타일", "디럭스"]
+              ).map((lineName) => (
                 <button
                   key={lineName}
                   className={`material-type-chip ${activeLine === lineName ? "active" : ""}`}

@@ -432,9 +432,45 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                 }
             }
             break;
+        case '러버타일':
+            if (brand === '현대') {
+                    let overrideName = `러버타일 ${code}`;
+                    let overrideLine = "";
+                    
+                    const coinCodes = ['CT101', 'CT402', 'CT54', 'CT23', 'CT11', 'CT83', 'CT86', 'CT56', 'CT806', 'CT82', 'CT43', 'CT93', 'CT52', 'CT57', 'CT921', 'CT10', 'CT94', 'CT47', 'CT91'];
+                    const sheetCodes = ['STM1021', 'STM3021'];
+                    const corkCodes = ['NMC40', 'NMC10', 'NMC33'];
+                    const megaCoinCodes = ['NMR44', 'NMR48', 'NMR88', 'NMR93', 'NMR31'];
+                    const megaEmboCodes = ['NMH44', 'NMH48', 'NMH88', 'NMH93', 'NMH31'];
+
+                    if (coinCodes.some(c => uCode.includes(c))) {
+                        thickness = "3.0T / 4.0T";
+                        sizeLabel = "500x500mm";
+                        overrideLine = "COIN TILE";
+                    } else if (sheetCodes.some(c => uCode.includes(c))) {
+                        thickness = "2.0T / 3.0T";
+                        sizeLabel = "1.2m x 12~15m";
+                        overrideLine = "SAFETY / SHEET";
+                    } else if (corkCodes.some(c => uCode.includes(c))) {
+                        thickness = "3.0T";
+                        sizeLabel = "500x500mm";
+                        overrideLine = "MEGA CORK";
+                    } else if (megaCoinCodes.some(c => uCode.includes(c))) {
+                        thickness = "3.0T / 4.0T";
+                        sizeLabel = "500x500mm";
+                        overrideLine = "MEGA COIN";
+                    } else if (megaEmboCodes.some(c => uCode.includes(c))) {
+                        thickness = "3.0T / 3.5T";
+                        sizeLabel = "500x500mm";
+                        overrideLine = "MEGA EMBO";
+                    }
+                    
+                    return { price, sizeLabel, packing, thickness, type, materialType, brand, division, overrideName, overrideLine };
+                }
+            break;
     }
 
-    return { price, sizeLabel, packing, thickness, type, materialType, brand, division, overrideName: null };
+    return { price, sizeLabel, packing, thickness, type, materialType, brand, division, overrideName: null, overrideLine: null };
 }
 
 function processDirectory(dirPath, category, brandFolder, lineFolder) {
@@ -523,7 +559,7 @@ function processDirectory(dirPath, category, brandFolder, lineFolder) {
                 name: rules.overrideName || cleanName,
                 brand: rules.brand || computedBrand,
                 category: category,
-                line: activeLine.replace(/_$/, ''),
+                line: rules.overrideLine || activeLine.replace(/_$/, ''),
                 price: rules.price,
                 thumbnail: getMd5StorageKey(fullPath),
                 images: [getMd5StorageKey(fullPath)],

@@ -13,7 +13,7 @@ export default function AICounselor() {
     const messagesEndRef = useRef(null);
 
     // Initial greeting options
-    const initialOptions = ["데코타일", "장판", "마루", "벽지", "카페트타일", "잘 모르겠어요"];
+    const initialOptions = ["데코타일", "장판", "마루", "벽지", "카페트타일", "러버타일", "잘 모르겠어요"];
 
     useEffect(() => {
         // Generate a random session ID for this consultation
@@ -23,7 +23,7 @@ export default function AICounselor() {
         setMessages([
             {
                 role: 'assistant',
-                content: '안녕하세요. 동경바닥재 AI 상담사입니다. 바닥재, 벽지, 마루, 카페트타일 중 어떤 상담을 도와드릴까요?',
+                content: '안녕하세요. 동경바닥재 AI 상담사입니다. 바닥재, 벽지, 마루, 카페트타일, 러버타일 중 어떤 상담을 도와드릴까요?',
                 options: initialOptions
             }
         ]);

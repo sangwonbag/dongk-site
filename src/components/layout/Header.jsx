@@ -21,6 +21,7 @@ export default function Header() {
     if (k.includes("마루")) return nav("/materials?category=마루");
     if (k.includes("벽지")) return nav("/materials?category=벽지");
     if (k.includes("카페트")) return nav("/materials?category=카페트타일");
+    if (k.includes("러버") || k.includes("고무")) return nav("/materials?category=러버타일");
 
     // Brand redirection
     if (k.includes("kcc")) return nav("/materials?brand=KCC");

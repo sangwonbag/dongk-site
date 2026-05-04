@@ -95,6 +95,7 @@ export default function Home() {
               <button onClick={() => nav("/materials?category=마루")}>마루</button>
               <button onClick={() => nav("/materials?category=벽지")}>벽지</button>
               <button onClick={() => nav("/materials?category=카페트타일")}>카페트타일</button>
+              <button onClick={() => nav("/materials?category=러버타일")}>러버타일</button>
             </div>
           </section>
         </div>
