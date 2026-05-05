@@ -4990,7 +4990,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5101",
+    "id": "YO-피오네 모던_600각_5101",
     "code": "5101",
     "name": "FSM 5101 ",
     "brand": "유성",
@@ -5011,7 +5011,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5102",
+    "id": "YO-피오네 모던_600각_5102",
     "code": "5102",
     "name": "FSM 5102 ",
     "brand": "유성",
@@ -5032,7 +5032,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5103",
+    "id": "YO-피오네 모던_600각_5103",
     "code": "5103",
     "name": "FSM 5103",
     "brand": "유성",
@@ -5053,7 +5053,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5111",
+    "id": "YO-피오네 모던_600각_5111",
     "code": "5111",
     "name": "FSM 5111",
     "brand": "유성",
@@ -5074,7 +5074,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5112",
+    "id": "YO-피오네 모던_600각_5112",
     "code": "5112",
     "name": "FSM 5112",
     "brand": "유성",
@@ -5095,7 +5095,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5113",
+    "id": "YO-피오네 모던_600각_5113",
     "code": "5113",
     "name": "FSM 5113",
     "brand": "유성",
@@ -5116,7 +5116,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5121",
+    "id": "YO-피오네 모던_600각_5121",
     "code": "5121",
     "name": "FSM 5121",
     "brand": "유성",
@@ -5137,7 +5137,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5122",
+    "id": "YO-피오네 모던_600각_5122",
     "code": "5122",
     "name": "FSM 5122",
     "brand": "유성",
@@ -5158,7 +5158,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5123",
+    "id": "YO-피오네 모던_600각_5123",
     "code": "5123",
     "name": "FSM 5123",
     "brand": "유성",
@@ -5179,7 +5179,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5201",
+    "id": "YO-피오네 모던_600각_5201",
     "code": "5201",
     "name": "FSM 5201",
     "brand": "유성",
@@ -5200,7 +5200,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5202",
+    "id": "YO-피오네 모던_600각_5202",
     "code": "5202",
     "name": "FSM 5202",
     "brand": "유성",
@@ -5221,7 +5221,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5203",
+    "id": "YO-피오네 모던_600각_5203",
     "code": "5203",
     "name": "FSM 5203",
     "brand": "유성",
@@ -5242,7 +5242,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5312",
+    "id": "YO-피오네 모던_600각_5312",
     "code": "5312",
     "name": "FSM 5312",
     "brand": "유성",
@@ -5263,7 +5263,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5313",
+    "id": "YO-피오네 모던_600각_5313",
     "code": "5313",
     "name": "FSM 5313",
     "brand": "유성",
@@ -5284,7 +5284,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5314",
+    "id": "YO-피오네 모던_600각_5314",
     "code": "5314",
     "name": "FSM 5314",
     "brand": "유성",
@@ -5305,7 +5305,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5315",
+    "id": "YO-피오네 모던_600각_5315",
     "code": "5315",
     "name": "FSM 5315",
     "brand": "유성",
@@ -5326,7 +5326,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5316",
+    "id": "YO-피오네 모던_600각_5316",
     "code": "5316",
     "name": "FSM 5316",
     "brand": "유성",
@@ -5347,7 +5347,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5317",
+    "id": "YO-피오네 모던_600각_5317",
     "code": "5317",
     "name": "FSM 5317",
     "brand": "유성",
@@ -5368,7 +5368,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5401",
+    "id": "YO-피오네 모던_600각_5401",
     "code": "5401",
     "name": "FSM 5401",
     "brand": "유성",
@@ -5389,7 +5389,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5402",
+    "id": "YO-피오네 모던_600각_5402",
     "code": "5402",
     "name": "FSM 5402",
     "brand": "유성",
@@ -5410,7 +5410,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5403",
+    "id": "YO-피오네 모던_600각_5403",
     "code": "5403",
     "name": "FSM 5403",
     "brand": "유성",
@@ -5431,7 +5431,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5501",
+    "id": "YO-피오네 모던_600각_5501",
     "code": "5501",
     "name": "FSM 5501",
     "brand": "유성",
@@ -5452,7 +5452,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5502",
+    "id": "YO-피오네 모던_600각_5502",
     "code": "5502",
     "name": "FSM 5502",
     "brand": "유성",
@@ -5473,7 +5473,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5503",
+    "id": "YO-피오네 모던_600각_5503",
     "code": "5503",
     "name": "FSM 5503",
     "brand": "유성",
@@ -5494,7 +5494,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5601",
+    "id": "YO-피오네 모던_600각_5601",
     "code": "5601",
     "name": "FSM 5601",
     "brand": "유성",
@@ -5515,7 +5515,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5602",
+    "id": "YO-피오네 모던_600각_5602",
     "code": "5602",
     "name": "FSM 5602 ",
     "brand": "유성",
@@ -5536,7 +5536,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5603",
+    "id": "YO-피오네 모던_600각_5603",
     "code": "5603",
     "name": "FSM 5603",
     "brand": "유성",
@@ -5557,7 +5557,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5701",
+    "id": "YO-피오네 모던_600각_5701",
     "code": "5701",
     "name": "FSM 5701",
     "brand": "유성",
@@ -5578,7 +5578,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5711",
+    "id": "YO-피오네 모던_600각_5711",
     "code": "5711",
     "name": "FSM 5711",
     "brand": "유성",
@@ -5599,7 +5599,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5712",
+    "id": "YO-피오네 모던_600각_5712",
     "code": "5712",
     "name": "FSM 5712",
     "brand": "유성",
@@ -5620,7 +5620,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5721",
+    "id": "YO-피오네 모던_600각_5721",
     "code": "5721",
     "name": "FSM 5721",
     "brand": "유성",
@@ -5641,7 +5641,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5722",
+    "id": "YO-피오네 모던_600각_5722",
     "code": "5722",
     "name": "FSM 5722",
     "brand": "유성",
@@ -5662,7 +5662,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5723",
+    "id": "YO-피오네 모던_600각_5723",
     "code": "5723",
     "name": "FSM 5723",
     "brand": "유성",
@@ -5683,7 +5683,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-6001",
+    "id": "YO-피오네 모던_600각_6001",
     "code": "6001",
     "name": "FSM 6001",
     "brand": "유성",
@@ -5704,7 +5704,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-6002",
+    "id": "YO-피오네 모던_600각_6002",
     "code": "6002",
     "name": "FSM 6002",
     "brand": "유성",
@@ -5725,7 +5725,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-6003",
+    "id": "YO-피오네 모던_600각_6003",
     "code": "6003",
     "name": "FSM 6003",
     "brand": "유성",
@@ -5746,7 +5746,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-6004",
+    "id": "YO-피오네 모던_600각_6004",
     "code": "6004",
     "name": "FSM 6004",
     "brand": "유성",
@@ -5767,7 +5767,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-6201",
+    "id": "YO-피오네 모던_600각_6201",
     "code": "6201",
     "name": "FSM 6201",
     "brand": "유성",
@@ -5788,7 +5788,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-6202",
+    "id": "YO-피오네 모던_600각_6202",
     "code": "6202",
     "name": "FSM 6202",
     "brand": "유성",
@@ -5809,7 +5809,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5801",
+    "id": "YO-피오네 모던_600각트랜드_5801",
     "code": "5801",
     "name": "FSM 5801",
     "brand": "유성",
@@ -5830,7 +5830,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-5803",
+    "id": "YO-피오네 모던_600각트랜드_5803",
     "code": "5803",
     "name": "FSM 5803",
     "brand": "유성",
@@ -5851,7 +5851,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-8801",
+    "id": "YO-피오네 모던_600각트랜드_8801",
     "code": "8801",
     "name": "FWM 8801",
     "brand": "유성",
@@ -5872,7 +5872,7 @@ export const materials = [
     }
   },
   {
-    "id": "YO-8803",
+    "id": "YO-피오네 모던_600각트랜드_8803",
     "code": "8803",
     "name": "FWM 8803",
     "brand": "유성",
@@ -5893,7 +5893,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-3201",
+    "id": "현대-골드타일_골드타일레릭_RT-3201",
     "code": "RT-3201",
     "name": "RT-3201",
     "brand": "현대",
@@ -5913,7 +5913,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-3202",
+    "id": "현대-골드타일_골드타일레릭_RT-3202",
     "code": "RT-3202",
     "name": "RT-3202",
     "brand": "현대",
@@ -5933,7 +5933,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-3203",
+    "id": "현대-골드타일_골드타일레릭_RT-3203",
     "code": "RT-3203",
     "name": "RT-3203",
     "brand": "현대",
@@ -5953,7 +5953,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-3204",
+    "id": "현대-골드타일_골드타일레릭_RT-3204",
     "code": "RT-3204",
     "name": "RT-3204",
     "brand": "현대",
@@ -5973,7 +5973,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-3205",
+    "id": "현대-골드타일_골드타일레릭_RT-3205",
     "code": "RT-3205",
     "name": "RT-3205",
     "brand": "현대",
@@ -5993,7 +5993,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-3206",
+    "id": "현대-골드타일_골드타일레릭_RT-3206",
     "code": "RT-3206",
     "name": "RT-3206",
     "brand": "현대",
@@ -6013,7 +6013,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-3207",
+    "id": "현대-골드타일_골드타일레릭_RT-3207",
     "code": "RT-3207",
     "name": "RT-3207",
     "brand": "현대",
@@ -6033,7 +6033,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-3208",
+    "id": "현대-골드타일_골드타일레릭_RT-3208",
     "code": "RT-3208",
     "name": "RT-3208",
     "brand": "현대",
@@ -6053,7 +6053,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-3209",
+    "id": "현대-골드타일_골드타일레릭_RT-3209",
     "code": "RT-3209",
     "name": "RT-3209",
     "brand": "현대",
@@ -6073,7 +6073,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-5201",
+    "id": "현대-골드타일_골드타일레릭_RT-5201",
     "code": "RT-5201",
     "name": "RT-5201",
     "brand": "현대",
@@ -6093,7 +6093,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-5202",
+    "id": "현대-골드타일_골드타일레릭_RT-5202",
     "code": "RT-5202",
     "name": "RT-5202",
     "brand": "현대",
@@ -6113,7 +6113,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-5203",
+    "id": "현대-골드타일_골드타일레릭_RT-5203",
     "code": "RT-5203",
     "name": "RT-5203",
     "brand": "현대",
@@ -6133,7 +6133,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-5204",
+    "id": "현대-골드타일_골드타일레릭_RT-5204",
     "code": "RT-5204",
     "name": "RT-5204",
     "brand": "현대",
@@ -6153,7 +6153,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-5205",
+    "id": "현대-골드타일_골드타일레릭_RT-5205",
     "code": "RT-5205",
     "name": "RT-5205",
     "brand": "현대",
@@ -6173,7 +6173,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-5206",
+    "id": "현대-골드타일_골드타일레릭_RT-5206",
     "code": "RT-5206",
     "name": "RT-5206",
     "brand": "현대",
@@ -6193,7 +6193,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-5207",
+    "id": "현대-골드타일_골드타일레릭_RT-5207",
     "code": "RT-5207",
     "name": "RT-5207",
     "brand": "현대",
@@ -6213,7 +6213,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-5208",
+    "id": "현대-골드타일_골드타일레릭_RT-5208",
     "code": "RT-5208",
     "name": "RT-5208",
     "brand": "현대",
@@ -6233,7 +6233,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-6201",
+    "id": "현대-골드타일_골드타일레릭_RT-6201",
     "code": "RT-6201",
     "name": "RT-6201",
     "brand": "현대",
@@ -6253,7 +6253,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-6202",
+    "id": "현대-골드타일_골드타일레릭_RT-6202",
     "code": "RT-6202",
     "name": "RT-6202",
     "brand": "현대",
@@ -6273,7 +6273,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-6203",
+    "id": "현대-골드타일_골드타일레릭_RT-6203",
     "code": "RT-6203",
     "name": "RT-6203",
     "brand": "현대",
@@ -6293,7 +6293,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-6204",
+    "id": "현대-골드타일_골드타일레릭_RT-6204",
     "code": "RT-6204",
     "name": "RT-6204",
     "brand": "현대",
@@ -6313,7 +6313,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-6205",
+    "id": "현대-골드타일_골드타일레릭_RT-6205",
     "code": "RT-6205",
     "name": "RT-6205",
     "brand": "현대",
@@ -6333,7 +6333,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-6206",
+    "id": "현대-골드타일_골드타일레릭_RT-6206",
     "code": "RT-6206",
     "name": "RT-6206",
     "brand": "현대",
@@ -6353,7 +6353,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-6207",
+    "id": "현대-골드타일_골드타일레릭_RT-6207",
     "code": "RT-6207",
     "name": "RT-6207",
     "brand": "현대",
@@ -6373,7 +6373,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-6208",
+    "id": "현대-골드타일_골드타일레릭_RT-6208",
     "code": "RT-6208",
     "name": "RT-6208",
     "brand": "현대",
@@ -6393,7 +6393,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-6209",
+    "id": "현대-골드타일_골드타일레릭_RT-6209",
     "code": "RT-6209",
     "name": "RT-6209",
     "brand": "현대",
@@ -6413,7 +6413,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-6210",
+    "id": "현대-골드타일_골드타일레릭_RT-6210",
     "code": "RT-6210",
     "name": "RT-6210",
     "brand": "현대",
@@ -6433,7 +6433,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-6211",
+    "id": "현대-골드타일_골드타일레릭_RT-6211",
     "code": "RT-6211",
     "name": "RT-6211",
     "brand": "현대",
@@ -6453,7 +6453,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-6212",
+    "id": "현대-골드타일_골드타일레릭_RT-6212",
     "code": "RT-6212",
     "name": "RT-6212",
     "brand": "현대",
@@ -6473,7 +6473,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-6213",
+    "id": "현대-골드타일_골드타일레릭_RT-6213",
     "code": "RT-6213",
     "name": "RT-6213",
     "brand": "현대",
@@ -6493,7 +6493,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-6214",
+    "id": "현대-골드타일_골드타일레릭_RT-6214",
     "code": "RT-6214",
     "name": "RT-6214",
     "brand": "현대",
@@ -6513,7 +6513,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-6215",
+    "id": "현대-골드타일_골드타일레릭_RT-6215",
     "code": "RT-6215",
     "name": "RT-6215",
     "brand": "현대",
@@ -6533,7 +6533,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-RT-6216",
+    "id": "현대-골드타일_골드타일레릭_RT-6216",
     "code": "RT-6216",
     "name": "RT-6216",
     "brand": "현대",
@@ -6553,7 +6553,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 4415",
+    "id": "현대-골드타일_골드타일마스터_MTS 4415",
     "code": "MTS 4415",
     "name": "MTS4415",
     "brand": "현대",
@@ -6573,7 +6573,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 4417",
+    "id": "현대-골드타일_골드타일마스터_MTS 4417",
     "code": "MTS 4417",
     "name": "MTS4417",
     "brand": "현대",
@@ -6593,7 +6593,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 4421",
+    "id": "현대-골드타일_골드타일마스터_MTS 4421",
     "code": "MTS 4421",
     "name": "MTS4421",
     "brand": "현대",
@@ -6613,7 +6613,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 4422",
+    "id": "현대-골드타일_골드타일마스터_MTS 4422",
     "code": "MTS 4422",
     "name": "MTS4422",
     "brand": "현대",
@@ -6633,7 +6633,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 4425",
+    "id": "현대-골드타일_골드타일마스터_MTS 4425",
     "code": "MTS 4425",
     "name": "MTS4425",
     "brand": "현대",
@@ -6653,7 +6653,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 4433",
+    "id": "현대-골드타일_골드타일마스터_MTS 4433",
     "code": "MTS 4433",
     "name": "MTS4433",
     "brand": "현대",
@@ -6673,7 +6673,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 4434",
+    "id": "현대-골드타일_골드타일마스터_MTS 4434",
     "code": "MTS 4434",
     "name": "MTS4434",
     "brand": "현대",
@@ -6693,7 +6693,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 4435",
+    "id": "현대-골드타일_골드타일마스터_MTS 4435",
     "code": "MTS 4435",
     "name": "MTS4435",
     "brand": "현대",
@@ -6713,7 +6713,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 5522",
+    "id": "현대-골드타일_골드타일마스터_MTS 5522",
     "code": "MTS 5522",
     "name": "MTS5522",
     "brand": "현대",
@@ -6733,7 +6733,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 5523",
+    "id": "현대-골드타일_골드타일마스터_MTS 5523",
     "code": "MTS 5523",
     "name": "MTS5523",
     "brand": "현대",
@@ -6753,7 +6753,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 5524",
+    "id": "현대-골드타일_골드타일마스터_MTS 5524",
     "code": "MTS 5524",
     "name": "MTS5524",
     "brand": "현대",
@@ -6773,7 +6773,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6011",
+    "id": "현대-골드타일_골드타일마스터_MTS 6011",
     "code": "MTS 6011",
     "name": "MTS6011",
     "brand": "현대",
@@ -6793,7 +6793,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6012",
+    "id": "현대-골드타일_골드타일마스터_MTS 6012",
     "code": "MTS 6012",
     "name": "MTS6012",
     "brand": "현대",
@@ -6813,7 +6813,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6013",
+    "id": "현대-골드타일_골드타일마스터_MTS 6013",
     "code": "MTS 6013",
     "name": "MTS6013",
     "brand": "현대",
@@ -6833,7 +6833,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6021",
+    "id": "현대-골드타일_골드타일마스터_MTS 6021",
     "code": "MTS 6021",
     "name": "MTS6021",
     "brand": "현대",
@@ -6853,7 +6853,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6022",
+    "id": "현대-골드타일_골드타일마스터_MTS 6022",
     "code": "MTS 6022",
     "name": "MTS6022",
     "brand": "현대",
@@ -6873,7 +6873,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6023",
+    "id": "현대-골드타일_골드타일마스터_MTS 6023",
     "code": "MTS 6023",
     "name": "MTS6023",
     "brand": "현대",
@@ -6893,7 +6893,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6024",
+    "id": "현대-골드타일_골드타일마스터_MTS 6024",
     "code": "MTS 6024",
     "name": "MTS6024",
     "brand": "현대",
@@ -6913,7 +6913,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6025",
+    "id": "현대-골드타일_골드타일마스터_MTS 6025",
     "code": "MTS 6025",
     "name": "MTS6025",
     "brand": "현대",
@@ -6933,7 +6933,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6026",
+    "id": "현대-골드타일_골드타일마스터_MTS 6026",
     "code": "MTS 6026",
     "name": "MTS6026",
     "brand": "현대",
@@ -6953,7 +6953,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6031",
+    "id": "현대-골드타일_골드타일마스터_MTS 6031",
     "code": "MTS 6031",
     "name": "MTS6031",
     "brand": "현대",
@@ -6973,7 +6973,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6032",
+    "id": "현대-골드타일_골드타일마스터_MTS 6032",
     "code": "MTS 6032",
     "name": "MTS6032",
     "brand": "현대",
@@ -6993,7 +6993,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6033",
+    "id": "현대-골드타일_골드타일마스터_MTS 6033",
     "code": "MTS 6033",
     "name": "MTS6033",
     "brand": "현대",
@@ -7013,7 +7013,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6051",
+    "id": "현대-골드타일_골드타일마스터_MTS 6051",
     "code": "MTS 6051",
     "name": "MTS6051",
     "brand": "현대",
@@ -7033,7 +7033,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6053",
+    "id": "현대-골드타일_골드타일마스터_MTS 6053",
     "code": "MTS 6053",
     "name": "MTS6053",
     "brand": "현대",
@@ -7053,7 +7053,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6062",
+    "id": "현대-골드타일_골드타일마스터_MTS 6062",
     "code": "MTS 6062",
     "name": "MTS6062",
     "brand": "현대",
@@ -7073,7 +7073,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6063",
+    "id": "현대-골드타일_골드타일마스터_MTS 6063",
     "code": "MTS 6063",
     "name": "MTS6063",
     "brand": "현대",
@@ -7093,7 +7093,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6111",
+    "id": "현대-골드타일_골드타일마스터_MTS 6111",
     "code": "MTS 6111",
     "name": "MTS6111",
     "brand": "현대",
@@ -7113,7 +7113,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6112",
+    "id": "현대-골드타일_골드타일마스터_MTS 6112",
     "code": "MTS 6112",
     "name": "MTS6112",
     "brand": "현대",
@@ -7133,7 +7133,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6131",
+    "id": "현대-골드타일_골드타일마스터_MTS 6131",
     "code": "MTS 6131",
     "name": "MTS6131",
     "brand": "현대",
@@ -7153,7 +7153,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6132",
+    "id": "현대-골드타일_골드타일마스터_MTS 6132",
     "code": "MTS 6132",
     "name": "MTS6132",
     "brand": "현대",
@@ -7173,7 +7173,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6141",
+    "id": "현대-골드타일_골드타일마스터_MTS 6141",
     "code": "MTS 6141",
     "name": "MTS6141",
     "brand": "현대",
@@ -7193,7 +7193,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6142",
+    "id": "현대-골드타일_골드타일마스터_MTS 6142",
     "code": "MTS 6142",
     "name": "MTS6142",
     "brand": "현대",
@@ -7213,7 +7213,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6143",
+    "id": "현대-골드타일_골드타일마스터_MTS 6143",
     "code": "MTS 6143",
     "name": "MTS6143",
     "brand": "현대",
@@ -7233,7 +7233,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6144",
+    "id": "현대-골드타일_골드타일마스터_MTS 6144",
     "code": "MTS 6144",
     "name": "MTS6144",
     "brand": "현대",
@@ -7253,7 +7253,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6151",
+    "id": "현대-골드타일_골드타일마스터_MTS 6151",
     "code": "MTS 6151",
     "name": "MTS6151",
     "brand": "현대",
@@ -7273,7 +7273,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6152",
+    "id": "현대-골드타일_골드타일마스터_MTS 6152",
     "code": "MTS 6152",
     "name": "MTS6152",
     "brand": "현대",
@@ -7293,7 +7293,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6153",
+    "id": "현대-골드타일_골드타일마스터_MTS 6153",
     "code": "MTS 6153",
     "name": "MTS6153",
     "brand": "현대",
@@ -7313,7 +7313,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6154",
+    "id": "현대-골드타일_골드타일마스터_MTS 6154",
     "code": "MTS 6154",
     "name": "MTS6154",
     "brand": "현대",
@@ -7333,7 +7333,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6161",
+    "id": "현대-골드타일_골드타일마스터_MTS 6161",
     "code": "MTS 6161",
     "name": "MTS6161",
     "brand": "현대",
@@ -7353,7 +7353,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6162",
+    "id": "현대-골드타일_골드타일마스터_MTS 6162",
     "code": "MTS 6162",
     "name": "MTS6162",
     "brand": "현대",
@@ -7373,7 +7373,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6163",
+    "id": "현대-골드타일_골드타일마스터_MTS 6163",
     "code": "MTS 6163",
     "name": "MTS6163",
     "brand": "현대",
@@ -7393,7 +7393,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTS 6164",
+    "id": "현대-골드타일_골드타일마스터_MTS 6164",
     "code": "MTS 6164",
     "name": "MTS6164",
     "brand": "현대",
@@ -7413,7 +7413,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTW 3011",
+    "id": "현대-골드타일_골드타일마스터_MTW 3011",
     "code": "MTW 3011",
     "name": "MTW3011",
     "brand": "현대",
@@ -7433,7 +7433,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTW 3012",
+    "id": "현대-골드타일_골드타일마스터_MTW 3012",
     "code": "MTW 3012",
     "name": "MTW3012",
     "brand": "현대",
@@ -7453,7 +7453,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTW 3021",
+    "id": "현대-골드타일_골드타일마스터_MTW 3021",
     "code": "MTW 3021",
     "name": "MTW3021",
     "brand": "현대",
@@ -7473,7 +7473,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTW 3024",
+    "id": "현대-골드타일_골드타일마스터_MTW 3024",
     "code": "MTW 3024",
     "name": "MTW3024",
     "brand": "현대",
@@ -7493,7 +7493,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTW 4463",
+    "id": "현대-골드타일_골드타일마스터_MTW 4463",
     "code": "MTW 4463",
     "name": "MTW4463",
     "brand": "현대",
@@ -7513,7 +7513,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTW 4464",
+    "id": "현대-골드타일_골드타일마스터_MTW 4464",
     "code": "MTW 4464",
     "name": "MTW4464",
     "brand": "현대",
@@ -7533,7 +7533,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTW 4481",
+    "id": "현대-골드타일_골드타일마스터_MTW 4481",
     "code": "MTW 4481",
     "name": "MTW4481",
     "brand": "현대",
@@ -7553,7 +7553,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTW 4486",
+    "id": "현대-골드타일_골드타일마스터_MTW 4486",
     "code": "MTW 4486",
     "name": "MTW4486",
     "brand": "현대",
@@ -7573,7 +7573,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTW 4487",
+    "id": "현대-골드타일_골드타일마스터_MTW 4487",
     "code": "MTW 4487",
     "name": "MTW4487",
     "brand": "현대",
@@ -7593,7 +7593,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-MTW 4488",
+    "id": "현대-골드타일_골드타일마스터_MTW 4488",
     "code": "MTW 4488",
     "name": "MTW4488",
     "brand": "현대",
@@ -7613,7 +7613,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-3521",
+    "id": "현대-골드타일_골드타일클래식_3521",
     "code": "3521",
     "name": "3521",
     "brand": "현대",
@@ -7634,7 +7634,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-3522",
+    "id": "현대-골드타일_골드타일클래식_3522",
     "code": "3522",
     "name": "3522",
     "brand": "현대",
@@ -7655,7 +7655,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-3532",
+    "id": "현대-골드타일_골드타일클래식_3532",
     "code": "3532",
     "name": "3532",
     "brand": "현대",
@@ -7676,7 +7676,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-4901",
+    "id": "현대-골드타일_골드타일클래식_4901",
     "code": "4901",
     "name": "4901",
     "brand": "현대",
@@ -7697,7 +7697,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-4902",
+    "id": "현대-골드타일_골드타일클래식_4902",
     "code": "4902",
     "name": "4902",
     "brand": "현대",
@@ -7718,7 +7718,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-4974",
+    "id": "현대-골드타일_골드타일클래식_4974",
     "code": "4974",
     "name": "4974",
     "brand": "현대",
@@ -7739,7 +7739,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-4975",
+    "id": "현대-골드타일_골드타일클래식_4975",
     "code": "4975",
     "name": "4975",
     "brand": "현대",
@@ -7760,7 +7760,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-4982",
+    "id": "현대-골드타일_골드타일클래식_4982",
     "code": "4982",
     "name": "4982",
     "brand": "현대",
@@ -7781,7 +7781,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7401",
+    "id": "현대-골드타일_골드타일클래식_7401",
     "code": "7401",
     "name": "7401",
     "brand": "현대",
@@ -7802,7 +7802,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7403",
+    "id": "현대-골드타일_골드타일클래식_7403",
     "code": "7403",
     "name": "7403",
     "brand": "현대",
@@ -7823,7 +7823,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7406",
+    "id": "현대-골드타일_골드타일클래식_7406",
     "code": "7406",
     "name": "7406",
     "brand": "현대",
@@ -7844,7 +7844,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7451",
+    "id": "현대-골드타일_골드타일클래식_7451",
     "code": "7451",
     "name": "7451",
     "brand": "현대",
@@ -7865,7 +7865,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7452",
+    "id": "현대-골드타일_골드타일클래식_7452",
     "code": "7452",
     "name": "7452",
     "brand": "현대",
@@ -7886,7 +7886,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7461",
+    "id": "현대-골드타일_골드타일클래식_7461",
     "code": "7461",
     "name": "7461",
     "brand": "현대",
@@ -7907,7 +7907,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7462",
+    "id": "현대-골드타일_골드타일클래식_7462",
     "code": "7462",
     "name": "7462",
     "brand": "현대",
@@ -7928,7 +7928,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7471",
+    "id": "현대-골드타일_골드타일클래식_7471",
     "code": "7471",
     "name": "7471",
     "brand": "현대",
@@ -7949,7 +7949,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7473",
+    "id": "현대-골드타일_골드타일클래식_7473",
     "code": "7473",
     "name": "7473",
     "brand": "현대",
@@ -7970,7 +7970,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7495",
+    "id": "현대-골드타일_골드타일클래식_7495",
     "code": "7495",
     "name": "7495",
     "brand": "현대",
@@ -7991,7 +7991,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7497",
+    "id": "현대-골드타일_골드타일클래식_7497",
     "code": "7497",
     "name": "7497",
     "brand": "현대",
@@ -8012,7 +8012,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7505",
+    "id": "현대-골드타일_골드타일클래식_7505",
     "code": "7505",
     "name": "7505",
     "brand": "현대",
@@ -8033,7 +8033,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7506",
+    "id": "현대-골드타일_골드타일클래식_7506",
     "code": "7506",
     "name": "7506",
     "brand": "현대",
@@ -8054,7 +8054,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7507",
+    "id": "현대-골드타일_골드타일클래식_7507",
     "code": "7507",
     "name": "7507",
     "brand": "현대",
@@ -8075,7 +8075,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7511",
+    "id": "현대-골드타일_골드타일클래식_7511",
     "code": "7511",
     "name": "7511",
     "brand": "현대",
@@ -8096,7 +8096,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7512",
+    "id": "현대-골드타일_골드타일클래식_7512",
     "code": "7512",
     "name": "7512",
     "brand": "현대",
@@ -8117,7 +8117,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7513",
+    "id": "현대-골드타일_골드타일클래식_7513",
     "code": "7513",
     "name": "7513",
     "brand": "현대",
@@ -8138,7 +8138,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7514",
+    "id": "현대-골드타일_골드타일클래식_7514",
     "code": "7514",
     "name": "7514",
     "brand": "현대",
@@ -8159,7 +8159,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7521",
+    "id": "현대-골드타일_골드타일클래식_7521",
     "code": "7521",
     "name": "7521",
     "brand": "현대",
@@ -8180,7 +8180,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7522",
+    "id": "현대-골드타일_골드타일클래식_7522",
     "code": "7522",
     "name": "7522",
     "brand": "현대",
@@ -8201,7 +8201,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7523",
+    "id": "현대-골드타일_골드타일클래식_7523",
     "code": "7523",
     "name": "7523",
     "brand": "현대",
@@ -8222,7 +8222,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7524",
+    "id": "현대-골드타일_골드타일클래식_7524",
     "code": "7524",
     "name": "7524",
     "brand": "현대",
@@ -8243,7 +8243,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7531",
+    "id": "현대-골드타일_골드타일클래식_7531",
     "code": "7531",
     "name": "7531",
     "brand": "현대",
@@ -8264,7 +8264,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7532",
+    "id": "현대-골드타일_골드타일클래식_7532",
     "code": "7532",
     "name": "7532",
     "brand": "현대",
@@ -8285,7 +8285,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7533",
+    "id": "현대-골드타일_골드타일클래식_7533",
     "code": "7533",
     "name": "7533",
     "brand": "현대",
@@ -8306,7 +8306,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7534",
+    "id": "현대-골드타일_골드타일클래식_7534",
     "code": "7534",
     "name": "7534",
     "brand": "현대",
@@ -8327,7 +8327,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7541",
+    "id": "현대-골드타일_골드타일클래식_7541",
     "code": "7541",
     "name": "7541",
     "brand": "현대",
@@ -8348,7 +8348,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7542",
+    "id": "현대-골드타일_골드타일클래식_7542",
     "code": "7542",
     "name": "7542",
     "brand": "현대",
@@ -8369,7 +8369,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7543",
+    "id": "현대-골드타일_골드타일클래식_7543",
     "code": "7543",
     "name": "7543",
     "brand": "현대",
@@ -8390,7 +8390,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7544",
+    "id": "현대-골드타일_골드타일클래식_7544",
     "code": "7544",
     "name": "7544",
     "brand": "현대",
@@ -8411,7 +8411,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7551",
+    "id": "현대-골드타일_골드타일클래식_7551",
     "code": "7551",
     "name": "7551",
     "brand": "현대",
@@ -8432,7 +8432,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7552",
+    "id": "현대-골드타일_골드타일클래식_7552",
     "code": "7552",
     "name": "7552",
     "brand": "현대",
@@ -8453,7 +8453,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7553",
+    "id": "현대-골드타일_골드타일클래식_7553",
     "code": "7553",
     "name": "7553",
     "brand": "현대",
@@ -8474,7 +8474,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-7554",
+    "id": "현대-골드타일_골드타일클래식_7554",
     "code": "7554",
     "name": "7554",
     "brand": "현대",
@@ -8495,7 +8495,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-9709",
+    "id": "현대-골드타일_골드타일클래식_9709",
     "code": "9709",
     "name": "9709",
     "brand": "현대",
@@ -8516,7 +8516,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-9712",
+    "id": "현대-골드타일_골드타일클래식_9712",
     "code": "9712",
     "name": "9712",
     "brand": "현대",
@@ -8537,7 +8537,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-9731",
+    "id": "현대-골드타일_골드타일클래식_9731",
     "code": "9731",
     "name": "9731",
     "brand": "현대",
@@ -8558,7 +8558,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-9732",
+    "id": "현대-골드타일_골드타일클래식_9732",
     "code": "9732",
     "name": "9732",
     "brand": "현대",
@@ -8579,7 +8579,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-9733",
+    "id": "현대-골드타일_골드타일클래식_9733",
     "code": "9733",
     "name": "9733",
     "brand": "현대",
@@ -8600,7 +8600,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-9734",
+    "id": "현대-골드타일_골드타일클래식_9734",
     "code": "9734",
     "name": "9734",
     "brand": "현대",
@@ -8621,7 +8621,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-9824",
+    "id": "현대-골드타일_골드타일클래식_9824",
     "code": "9824",
     "name": "9824",
     "brand": "현대",
@@ -8642,7 +8642,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-9827",
+    "id": "현대-골드타일_골드타일클래식_9827",
     "code": "9827",
     "name": "9827",
     "brand": "현대",
@@ -8663,7 +8663,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-9843",
+    "id": "현대-골드타일_골드타일클래식_9843",
     "code": "9843",
     "name": "9843",
     "brand": "현대",
@@ -8684,7 +8684,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-9846",
+    "id": "현대-골드타일_골드타일클래식_9846",
     "code": "9846",
     "name": "9846",
     "brand": "현대",
@@ -8705,7 +8705,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-9847",
+    "id": "현대-골드타일_골드타일클래식_9847",
     "code": "9847",
     "name": "9847",
     "brand": "현대",
@@ -8726,7 +8726,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-1102",
+    "id": "현대-디럭스_BASIC_1102",
     "code": "1102",
     "name": "디럭스 타일 1102",
     "brand": "현대",
@@ -8746,7 +8746,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-1109",
+    "id": "현대-디럭스_BASIC_1109",
     "code": "1109",
     "name": "디럭스 타일 1109",
     "brand": "현대",
@@ -8766,7 +8766,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-1117",
+    "id": "현대-디럭스_BASIC_1117",
     "code": "1117",
     "name": "디럭스 타일 1117",
     "brand": "현대",
@@ -8786,7 +8786,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-1120",
+    "id": "현대-디럭스_BASIC_1120",
     "code": "1120",
     "name": "디럭스 타일 1120",
     "brand": "현대",
@@ -8806,7 +8806,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-1130",
+    "id": "현대-디럭스_BASIC_1130",
     "code": "1130",
     "name": "디럭스 타일 1130",
     "brand": "현대",
@@ -8826,7 +8826,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-1131",
+    "id": "현대-디럭스_BASIC_1131",
     "code": "1131",
     "name": "디럭스 타일 1131",
     "brand": "현대",
@@ -8846,7 +8846,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-1133",
+    "id": "현대-디럭스_BASIC_1133",
     "code": "1133",
     "name": "디럭스 타일 1133",
     "brand": "현대",
@@ -8866,7 +8866,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-1134",
+    "id": "현대-디럭스_BASIC_1134",
     "code": "1134",
     "name": "디럭스 타일 1134",
     "brand": "현대",
@@ -8886,7 +8886,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-1135",
+    "id": "현대-디럭스_BASIC_1135",
     "code": "1135",
     "name": "디럭스 타일 1135",
     "brand": "현대",
@@ -8906,7 +8906,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-1197",
+    "id": "현대-디럭스_BASIC_1197",
     "code": "1197",
     "name": "디럭스 타일 1197",
     "brand": "현대",
@@ -8926,7 +8926,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-1401",
+    "id": "현대-디럭스_BASIC_1401",
     "code": "1401",
     "name": "디럭스 타일 1401",
     "brand": "현대",
@@ -8946,7 +8946,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-1402",
+    "id": "현대-디럭스_BASIC_1402",
     "code": "1402",
     "name": "디럭스 타일 1402",
     "brand": "현대",
@@ -8966,7 +8966,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-1403",
+    "id": "현대-디럭스_BASIC_1403",
     "code": "1403",
     "name": "디럭스 타일 1403",
     "brand": "현대",
@@ -8986,7 +8986,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-154",
+    "id": "현대-디럭스_BASIC_154",
     "code": "154",
     "name": "디럭스 타일 154",
     "brand": "현대",
@@ -9006,7 +9006,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-157",
+    "id": "현대-디럭스_BASIC_157",
     "code": "157",
     "name": "디럭스 타일 157",
     "brand": "현대",
@@ -9026,7 +9026,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-196",
+    "id": "현대-디럭스_BASIC_196",
     "code": "196",
     "name": "디럭스 타일 196",
     "brand": "현대",
@@ -9046,7 +9046,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-726",
+    "id": "현대-디럭스_DELUXE_GOLD_726",
     "code": "726",
     "name": "디럭스 타일 726",
     "brand": "현대",
@@ -9066,7 +9066,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-727",
+    "id": "현대-디럭스_DELUXE_GOLD_727",
     "code": "727",
     "name": "디럭스 타일 727",
     "brand": "현대",
@@ -9086,7 +9086,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-738",
+    "id": "현대-디럭스_DELUXE_GOLD_738",
     "code": "738",
     "name": "디럭스 타일 738",
     "brand": "현대",
@@ -9106,7 +9106,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-739",
+    "id": "현대-디럭스_DELUXE_GOLD_739",
     "code": "739",
     "name": "디럭스 타일 739",
     "brand": "현대",
@@ -9126,7 +9126,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-751",
+    "id": "현대-디럭스_DELUXE_GOLD_751",
     "code": "751",
     "name": "디럭스 타일 751",
     "brand": "현대",
@@ -9146,7 +9146,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-752",
+    "id": "현대-디럭스_DELUXE_GOLD_752",
     "code": "752",
     "name": "디럭스 타일 752",
     "brand": "현대",
@@ -9166,7 +9166,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-753",
+    "id": "현대-디럭스_DELUXE_GOLD_753",
     "code": "753",
     "name": "디럭스 타일 753",
     "brand": "현대",
@@ -9186,7 +9186,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-754",
+    "id": "현대-디럭스_DELUXE_GOLD_754",
     "code": "754",
     "name": "디럭스 타일 754",
     "brand": "현대",
@@ -9206,7 +9206,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-1902",
+    "id": "현대-디럭스_REGENT_1902",
     "code": "1902",
     "name": "디럭스 타일 1902",
     "brand": "현대",
@@ -9226,7 +9226,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-1903",
+    "id": "현대-디럭스_REGENT_1903",
     "code": "1903",
     "name": "디럭스 타일 1903",
     "brand": "현대",
@@ -9246,7 +9246,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-1904",
+    "id": "현대-디럭스_REGENT_1904",
     "code": "1904",
     "name": "디럭스 타일 1904",
     "brand": "현대",
@@ -9266,7 +9266,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-1906",
+    "id": "현대-디럭스_REGENT_1906",
     "code": "1906",
     "name": "디럭스 타일 1906",
     "brand": "현대",
@@ -9286,7 +9286,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-1916",
+    "id": "현대-디럭스_REGENT_1916",
     "code": "1916",
     "name": "디럭스 타일 1916",
     "brand": "현대",
@@ -9306,7 +9306,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-1919",
+    "id": "현대-디럭스_REGENT_1919",
     "code": "1919",
     "name": "디럭스 타일 1919",
     "brand": "현대",
@@ -9326,7 +9326,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-1920",
+    "id": "현대-디럭스_REGENT_1920",
     "code": "1920",
     "name": "디럭스 타일 1920",
     "brand": "현대",
@@ -9346,7 +9346,7 @@ export const materials = [
     }
   },
   {
-    "id": "현대-1922",
+    "id": "현대-디럭스_REGENT_1922",
     "code": "1922",
     "name": "디럭스 타일 1922",
     "brand": "현대",
@@ -10032,7 +10032,7 @@ export const materials = [
     ]
   },
   {
-    "id": "동화-어반내추럴",
+    "id": "동화-진 오리진_어반내추럴",
     "code": "어반내추럴",
     "name": "어반내추럴",
     "brand": "동화",
@@ -10053,7 +10053,7 @@ export const materials = [
     }
   },
   {
-    "id": "동화-어반밀크티",
+    "id": "동화-진 오리진_어반밀크티",
     "code": "어반밀크티",
     "name": "어반밀크티",
     "brand": "동화",
@@ -10074,7 +10074,7 @@ export const materials = [
     }
   },
   {
-    "id": "동화-어반샌디에고",
+    "id": "동화-진 오리진_어반샌디에고",
     "code": "어반샌디에고",
     "name": "어반샌디에고",
     "brand": "동화",
@@ -10095,7 +10095,7 @@ export const materials = [
     }
   },
   {
-    "id": "동화-어반화이트",
+    "id": "동화-진 오리진_어반화이트",
     "code": "어반화이트",
     "name": "어반화이트",
     "brand": "동화",
@@ -10116,7 +10116,7 @@ export const materials = [
     }
   },
   {
-    "id": "동화-퓨어그레이",
+    "id": "동화-진 오리진_퓨어그레이",
     "code": "퓨어그레이",
     "name": "퓨어그레이",
     "brand": "동화",
@@ -10137,7 +10137,7 @@ export const materials = [
     }
   },
   {
-    "id": "동화-퓨어베이지",
+    "id": "동화-진 오리진_퓨어베이지",
     "code": "퓨어베이지",
     "name": "퓨어베이지",
     "brand": "동화",
@@ -10158,7 +10158,7 @@ export const materials = [
     }
   },
   {
-    "id": "동화-퓨어브라운",
+    "id": "동화-진 오리진_퓨어브라운",
     "code": "퓨어브라운",
     "name": "퓨어브라운",
     "brand": "동화",
@@ -10179,7 +10179,7 @@ export const materials = [
     }
   },
   {
-    "id": "동화-퓨어샌디",
+    "id": "동화-진 오리진_퓨어샌디",
     "code": "퓨어샌디",
     "name": "퓨어샌디",
     "brand": "동화",
@@ -10200,7 +10200,7 @@ export const materials = [
     }
   },
   {
-    "id": "동화-퓨어실버",
+    "id": "동화-진 오리진_퓨어실버",
     "code": "퓨어실버",
     "name": "퓨어실버",
     "brand": "동화",
@@ -10221,7 +10221,7 @@ export const materials = [
     }
   },
   {
-    "id": "동화-퓨어아이보리",
+    "id": "동화-진 오리진_퓨어아이보리",
     "code": "퓨어아이보리",
     "name": "퓨어아이보리",
     "brand": "동화",
@@ -10242,7 +10242,7 @@ export const materials = [
     }
   },
   {
-    "id": "동화-퓨어옐로우",
+    "id": "동화-진 오리진_퓨어옐로우",
     "code": "퓨어옐로우",
     "name": "퓨어옐로우",
     "brand": "동화",
@@ -10263,7 +10263,7 @@ export const materials = [
     }
   },
   {
-    "id": "동화-퓨어크림",
+    "id": "동화-진 오리진_퓨어크림",
     "code": "퓨어크림",
     "name": "퓨어크림",
     "brand": "동화",
@@ -11051,7 +11051,7 @@ export const materials = [
     ]
   },
   {
-    "id": "LXW-PR002-01",
+    "id": "LXW-디아망_LX_디아망_PR002-01",
     "code": "PR002-01",
     "name": "PR002-01",
     "brand": "LX",
@@ -11065,7 +11065,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR002-02",
+    "id": "LXW-디아망_LX_디아망_PR002-02",
     "code": "PR002-02",
     "name": "PR002-02",
     "brand": "LX",
@@ -11079,7 +11079,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR002-03",
+    "id": "LXW-디아망_LX_디아망_PR002-03",
     "code": "PR002-03",
     "name": "PR002-03",
     "brand": "LX",
@@ -11093,7 +11093,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR002-10",
+    "id": "LXW-디아망_LX_디아망_PR002-10",
     "code": "PR002-10",
     "name": "PR002-10",
     "brand": "LX",
@@ -11107,7 +11107,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR002-11",
+    "id": "LXW-디아망_LX_디아망_PR002-11",
     "code": "PR002-11",
     "name": "PR002-11",
     "brand": "LX",
@@ -11121,7 +11121,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR002-12",
+    "id": "LXW-디아망_LX_디아망_PR002-12",
     "code": "PR002-12",
     "name": "PR002-12",
     "brand": "LX",
@@ -11135,7 +11135,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR002-13",
+    "id": "LXW-디아망_LX_디아망_PR002-13",
     "code": "PR002-13",
     "name": "PR002-13",
     "brand": "LX",
@@ -11149,7 +11149,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR003-01",
+    "id": "LXW-디아망_LX_디아망_PR003-01",
     "code": "PR003-01",
     "name": "PR003-01",
     "brand": "LX",
@@ -11163,7 +11163,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR003-10",
+    "id": "LXW-디아망_LX_디아망_PR003-10",
     "code": "PR003-10",
     "name": "PR003-10",
     "brand": "LX",
@@ -11177,7 +11177,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR010-01",
+    "id": "LXW-디아망_LX_디아망_PR010-01",
     "code": "PR010-01",
     "name": "PR010-01",
     "brand": "LX",
@@ -11191,7 +11191,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR011-01",
+    "id": "LXW-디아망_LX_디아망_PR011-01",
     "code": "PR011-01",
     "name": "PR011-01",
     "brand": "LX",
@@ -11205,7 +11205,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR011-07",
+    "id": "LXW-디아망_LX_디아망_PR011-07",
     "code": "PR011-07",
     "name": "PR011-07",
     "brand": "LX",
@@ -11219,7 +11219,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR014-01",
+    "id": "LXW-디아망_LX_디아망_PR014-01",
     "code": "PR014-01",
     "name": "PR014-01",
     "brand": "LX",
@@ -11233,7 +11233,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR016-01",
+    "id": "LXW-디아망_LX_디아망_PR016-01",
     "code": "PR016-01",
     "name": "PR016-01",
     "brand": "LX",
@@ -11247,7 +11247,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR018-01",
+    "id": "LXW-디아망_LX_디아망_PR018-01",
     "code": "PR018-01",
     "name": "PR018-01",
     "brand": "LX",
@@ -11261,7 +11261,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR018-03",
+    "id": "LXW-디아망_LX_디아망_PR018-03",
     "code": "PR018-03",
     "name": "PR018-03",
     "brand": "LX",
@@ -11275,7 +11275,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR025-01",
+    "id": "LXW-디아망_LX_디아망_PR025-01",
     "code": "PR025-01",
     "name": "PR025-01",
     "brand": "LX",
@@ -11289,7 +11289,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR027-01",
+    "id": "LXW-디아망_LX_디아망_PR027-01",
     "code": "PR027-01",
     "name": "PR027-01",
     "brand": "LX",
@@ -11303,7 +11303,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR027-03",
+    "id": "LXW-디아망_LX_디아망_PR027-03",
     "code": "PR027-03",
     "name": "PR027-03",
     "brand": "LX",
@@ -11317,7 +11317,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR027-05",
+    "id": "LXW-디아망_LX_디아망_PR027-05",
     "code": "PR027-05",
     "name": "PR027-05",
     "brand": "LX",
@@ -11331,7 +11331,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR028-01",
+    "id": "LXW-디아망_LX_디아망_PR028-01",
     "code": "PR028-01",
     "name": "PR028-01",
     "brand": "LX",
@@ -11345,7 +11345,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR028-02",
+    "id": "LXW-디아망_LX_디아망_PR028-02",
     "code": "PR028-02",
     "name": "PR028-02",
     "brand": "LX",
@@ -11359,7 +11359,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR029-01",
+    "id": "LXW-디아망_LX_디아망_PR029-01",
     "code": "PR029-01",
     "name": "PR029-01",
     "brand": "LX",
@@ -11373,7 +11373,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR029-02",
+    "id": "LXW-디아망_LX_디아망_PR029-02",
     "code": "PR029-02",
     "name": "PR029-02",
     "brand": "LX",
@@ -11387,7 +11387,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR030-01",
+    "id": "LXW-디아망_LX_디아망_PR030-01",
     "code": "PR030-01",
     "name": "PR030-01",
     "brand": "LX",
@@ -11401,7 +11401,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR030-02",
+    "id": "LXW-디아망_LX_디아망_PR030-02",
     "code": "PR030-02",
     "name": "PR030-02",
     "brand": "LX",
@@ -11415,7 +11415,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR030-03",
+    "id": "LXW-디아망_LX_디아망_PR030-03",
     "code": "PR030-03",
     "name": "PR030-03",
     "brand": "LX",
@@ -11429,7 +11429,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR031-01",
+    "id": "LXW-디아망_LX_디아망_PR031-01",
     "code": "PR031-01",
     "name": "PR031-01",
     "brand": "LX",
@@ -11443,7 +11443,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR031-02",
+    "id": "LXW-디아망_LX_디아망_PR031-02",
     "code": "PR031-02",
     "name": "PR031-02",
     "brand": "LX",
@@ -11457,7 +11457,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR031-03",
+    "id": "LXW-디아망_LX_디아망_PR031-03",
     "code": "PR031-03",
     "name": "PR031-03",
     "brand": "LX",
@@ -11471,7 +11471,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR031-05",
+    "id": "LXW-디아망_LX_디아망_PR031-05",
     "code": "PR031-05",
     "name": "PR031-05",
     "brand": "LX",
@@ -11485,7 +11485,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR033-01",
+    "id": "LXW-디아망_LX_디아망_PR033-01",
     "code": "PR033-01",
     "name": "PR033-01",
     "brand": "LX",
@@ -11499,7 +11499,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR033-02",
+    "id": "LXW-디아망_LX_디아망_PR033-02",
     "code": "PR033-02",
     "name": "PR033-02",
     "brand": "LX",
@@ -11513,7 +11513,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR033-03",
+    "id": "LXW-디아망_LX_디아망_PR033-03",
     "code": "PR033-03",
     "name": "PR033-03",
     "brand": "LX",
@@ -11527,7 +11527,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR034-01",
+    "id": "LXW-디아망_LX_디아망_PR034-01",
     "code": "PR034-01",
     "name": "PR034-01",
     "brand": "LX",
@@ -11541,7 +11541,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR034-02",
+    "id": "LXW-디아망_LX_디아망_PR034-02",
     "code": "PR034-02",
     "name": "PR034-02",
     "brand": "LX",
@@ -11555,7 +11555,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR043-01",
+    "id": "LXW-디아망_LX_디아망_PR043-01",
     "code": "PR043-01",
     "name": "PR043-01",
     "brand": "LX",
@@ -11569,7 +11569,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR043-02",
+    "id": "LXW-디아망_LX_디아망_PR043-02",
     "code": "PR043-02",
     "name": "PR043-02",
     "brand": "LX",
@@ -11583,7 +11583,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR043-03",
+    "id": "LXW-디아망_LX_디아망_PR043-03",
     "code": "PR043-03",
     "name": "PR043-03",
     "brand": "LX",
@@ -11597,7 +11597,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR043-04",
+    "id": "LXW-디아망_LX_디아망_PR043-04",
     "code": "PR043-04",
     "name": "PR043-04",
     "brand": "LX",
@@ -11611,7 +11611,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR043-05",
+    "id": "LXW-디아망_LX_디아망_PR043-05",
     "code": "PR043-05",
     "name": "PR043-05",
     "brand": "LX",
@@ -11625,7 +11625,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR043-06",
+    "id": "LXW-디아망_LX_디아망_PR043-06",
     "code": "PR043-06",
     "name": "PR043-06",
     "brand": "LX",
@@ -11639,7 +11639,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR043-07",
+    "id": "LXW-디아망_LX_디아망_PR043-07",
     "code": "PR043-07",
     "name": "PR043-07",
     "brand": "LX",
@@ -11653,7 +11653,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR044-01",
+    "id": "LXW-디아망_LX_디아망_PR044-01",
     "code": "PR044-01",
     "name": "PR044-01",
     "brand": "LX",
@@ -11667,7 +11667,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR044-02",
+    "id": "LXW-디아망_LX_디아망_PR044-02",
     "code": "PR044-02",
     "name": "PR044-02",
     "brand": "LX",
@@ -11681,7 +11681,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR044-03",
+    "id": "LXW-디아망_LX_디아망_PR044-03",
     "code": "PR044-03",
     "name": "PR044-03",
     "brand": "LX",
@@ -11695,7 +11695,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR044-04",
+    "id": "LXW-디아망_LX_디아망_PR044-04",
     "code": "PR044-04",
     "name": "PR044-04",
     "brand": "LX",
@@ -11709,7 +11709,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR044-05",
+    "id": "LXW-디아망_LX_디아망_PR044-05",
     "code": "PR044-05",
     "name": "PR044-05",
     "brand": "LX",
@@ -11723,7 +11723,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR044-06",
+    "id": "LXW-디아망_LX_디아망_PR044-06",
     "code": "PR044-06",
     "name": "PR044-06",
     "brand": "LX",
@@ -11737,7 +11737,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR045-01",
+    "id": "LXW-디아망_LX_디아망_PR045-01",
     "code": "PR045-01",
     "name": "PR045-01",
     "brand": "LX",
@@ -11751,7 +11751,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR045-02",
+    "id": "LXW-디아망_LX_디아망_PR045-02",
     "code": "PR045-02",
     "name": "PR045-02",
     "brand": "LX",
@@ -11765,7 +11765,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR045-03",
+    "id": "LXW-디아망_LX_디아망_PR045-03",
     "code": "PR045-03",
     "name": "PR045-03",
     "brand": "LX",
@@ -11779,7 +11779,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR045-04",
+    "id": "LXW-디아망_LX_디아망_PR045-04",
     "code": "PR045-04",
     "name": "PR045-04",
     "brand": "LX",
@@ -11793,7 +11793,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR045-05",
+    "id": "LXW-디아망_LX_디아망_PR045-05",
     "code": "PR045-05",
     "name": "PR045-05",
     "brand": "LX",
@@ -11807,7 +11807,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR046-01",
+    "id": "LXW-디아망_LX_디아망_PR046-01",
     "code": "PR046-01",
     "name": "PR046-01",
     "brand": "LX",
@@ -11821,7 +11821,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR046-02",
+    "id": "LXW-디아망_LX_디아망_PR046-02",
     "code": "PR046-02",
     "name": "PR046-02",
     "brand": "LX",
@@ -11835,7 +11835,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR046-03",
+    "id": "LXW-디아망_LX_디아망_PR046-03",
     "code": "PR046-03",
     "name": "PR046-03",
     "brand": "LX",
@@ -11849,7 +11849,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR046-04",
+    "id": "LXW-디아망_LX_디아망_PR046-04",
     "code": "PR046-04",
     "name": "PR046-04",
     "brand": "LX",
@@ -11863,7 +11863,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR046-05",
+    "id": "LXW-디아망_LX_디아망_PR046-05",
     "code": "PR046-05",
     "name": "PR046-05",
     "brand": "LX",
@@ -11877,7 +11877,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR047-01",
+    "id": "LXW-디아망_LX_디아망_PR047-01",
     "code": "PR047-01",
     "name": "PR047-01",
     "brand": "LX",
@@ -11891,7 +11891,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR048-01",
+    "id": "LXW-디아망_LX_디아망_PR048-01",
     "code": "PR048-01",
     "name": "PR048-01",
     "brand": "LX",
@@ -11905,7 +11905,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR048-02",
+    "id": "LXW-디아망_LX_디아망_PR048-02",
     "code": "PR048-02",
     "name": "PR048-02",
     "brand": "LX",
@@ -11919,7 +11919,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR048-03",
+    "id": "LXW-디아망_LX_디아망_PR048-03",
     "code": "PR048-03",
     "name": "PR048-03",
     "brand": "LX",
@@ -11933,7 +11933,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR048-04",
+    "id": "LXW-디아망_LX_디아망_PR048-04",
     "code": "PR048-04",
     "name": "PR048-04",
     "brand": "LX",
@@ -11947,7 +11947,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR049-01",
+    "id": "LXW-디아망_LX_디아망_PR049-01",
     "code": "PR049-01",
     "name": "PR049-01",
     "brand": "LX",
@@ -11961,7 +11961,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR049-02",
+    "id": "LXW-디아망_LX_디아망_PR049-02",
     "code": "PR049-02",
     "name": "PR049-02",
     "brand": "LX",
@@ -11975,7 +11975,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR050(2518)",
+    "id": "LXW-디아망_LX_디아망_PR050(2518)",
     "code": "PR050(2518)",
     "name": "PR050(2518)",
     "brand": "LX",
@@ -11989,7 +11989,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR051-01",
+    "id": "LXW-디아망_LX_디아망_PR051-01",
     "code": "PR051-01",
     "name": "PR051-01",
     "brand": "LX",
@@ -12003,7 +12003,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR051-02",
+    "id": "LXW-디아망_LX_디아망_PR051-02",
     "code": "PR051-02",
     "name": "PR051-02",
     "brand": "LX",
@@ -12017,7 +12017,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR052-01",
+    "id": "LXW-디아망_LX_디아망_PR052-01",
     "code": "PR052-01",
     "name": "PR052-01",
     "brand": "LX",
@@ -12031,7 +12031,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR052-02",
+    "id": "LXW-디아망_LX_디아망_PR052-02",
     "code": "PR052-02",
     "name": "PR052-02",
     "brand": "LX",
@@ -12045,7 +12045,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR055-01",
+    "id": "LXW-디아망_LX_디아망_PR055-01",
     "code": "PR055-01",
     "name": "PR055-01",
     "brand": "LX",
@@ -12059,7 +12059,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR056-01",
+    "id": "LXW-디아망_LX_디아망_PR056-01",
     "code": "PR056-01",
     "name": "PR056-01",
     "brand": "LX",
@@ -12073,7 +12073,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR056-02",
+    "id": "LXW-디아망_LX_디아망_PR056-02",
     "code": "PR056-02",
     "name": "PR056-02",
     "brand": "LX",
@@ -12087,7 +12087,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR056-03",
+    "id": "LXW-디아망_LX_디아망_PR056-03",
     "code": "PR056-03",
     "name": "PR056-03",
     "brand": "LX",
@@ -12101,7 +12101,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR056-04",
+    "id": "LXW-디아망_LX_디아망_PR056-04",
     "code": "PR056-04",
     "name": "PR056-04",
     "brand": "LX",
@@ -12115,7 +12115,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR057-01",
+    "id": "LXW-디아망_LX_디아망_PR057-01",
     "code": "PR057-01",
     "name": "PR057-01",
     "brand": "LX",
@@ -12129,7 +12129,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-PR057-02",
+    "id": "LXW-디아망_LX_디아망_PR057-02",
     "code": "PR057-02",
     "name": "PR057-02",
     "brand": "LX",
@@ -12143,7 +12143,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-고)PR053-01",
+    "id": "LXW-디아망_LX_디아망_고)PR053-01",
     "code": "고)PR053-01",
     "name": "고)PR053-01",
     "brand": "LX",
@@ -12157,7 +12157,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-고)PR058-01",
+    "id": "LXW-디아망_LX_디아망_고)PR058-01",
     "code": "고)PR058-01",
     "name": "고)PR058-01",
     "brand": "LX",
@@ -12171,7 +12171,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF001-01",
+    "id": "LXW-디아망_LX_디아망포티스_DF001-01",
     "code": "DF001-01",
     "name": "DF001-01",
     "brand": "LX",
@@ -12185,7 +12185,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF001-02",
+    "id": "LXW-디아망_LX_디아망포티스_DF001-02",
     "code": "DF001-02",
     "name": "DF001-02",
     "brand": "LX",
@@ -12199,7 +12199,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF002-01",
+    "id": "LXW-디아망_LX_디아망포티스_DF002-01",
     "code": "DF002-01",
     "name": "DF002-01",
     "brand": "LX",
@@ -12213,7 +12213,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF002-02",
+    "id": "LXW-디아망_LX_디아망포티스_DF002-02",
     "code": "DF002-02",
     "name": "DF002-02",
     "brand": "LX",
@@ -12227,7 +12227,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF003-01",
+    "id": "LXW-디아망_LX_디아망포티스_DF003-01",
     "code": "DF003-01",
     "name": "DF003-01",
     "brand": "LX",
@@ -12241,7 +12241,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF003-02",
+    "id": "LXW-디아망_LX_디아망포티스_DF003-02",
     "code": "DF003-02",
     "name": "DF003-02",
     "brand": "LX",
@@ -12255,7 +12255,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF003-03",
+    "id": "LXW-디아망_LX_디아망포티스_DF003-03",
     "code": "DF003-03",
     "name": "DF003-03",
     "brand": "LX",
@@ -12269,7 +12269,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF003-04",
+    "id": "LXW-디아망_LX_디아망포티스_DF003-04",
     "code": "DF003-04",
     "name": "DF003-04",
     "brand": "LX",
@@ -12283,7 +12283,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF003-05",
+    "id": "LXW-디아망_LX_디아망포티스_DF003-05",
     "code": "DF003-05",
     "name": "DF003-05",
     "brand": "LX",
@@ -12297,7 +12297,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF003-06",
+    "id": "LXW-디아망_LX_디아망포티스_DF003-06",
     "code": "DF003-06",
     "name": "DF003-06",
     "brand": "LX",
@@ -12311,7 +12311,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF003-07",
+    "id": "LXW-디아망_LX_디아망포티스_DF003-07",
     "code": "DF003-07",
     "name": "DF003-07",
     "brand": "LX",
@@ -12325,7 +12325,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF003-08",
+    "id": "LXW-디아망_LX_디아망포티스_DF003-08",
     "code": "DF003-08",
     "name": "DF003-08",
     "brand": "LX",
@@ -12339,7 +12339,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF003-09",
+    "id": "LXW-디아망_LX_디아망포티스_DF003-09",
     "code": "DF003-09",
     "name": "DF003-09",
     "brand": "LX",
@@ -12353,7 +12353,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF004-01",
+    "id": "LXW-디아망_LX_디아망포티스_DF004-01",
     "code": "DF004-01",
     "name": "DF004-01",
     "brand": "LX",
@@ -12367,7 +12367,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF004-02",
+    "id": "LXW-디아망_LX_디아망포티스_DF004-02",
     "code": "DF004-02",
     "name": "DF004-02",
     "brand": "LX",
@@ -12381,7 +12381,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF004-03",
+    "id": "LXW-디아망_LX_디아망포티스_DF004-03",
     "code": "DF004-03",
     "name": "DF004-03",
     "brand": "LX",
@@ -12395,7 +12395,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF004-04",
+    "id": "LXW-디아망_LX_디아망포티스_DF004-04",
     "code": "DF004-04",
     "name": "DF004-04",
     "brand": "LX",
@@ -12409,7 +12409,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF004-05",
+    "id": "LXW-디아망_LX_디아망포티스_DF004-05",
     "code": "DF004-05",
     "name": "DF004-05",
     "brand": "LX",
@@ -12423,7 +12423,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF004-06",
+    "id": "LXW-디아망_LX_디아망포티스_DF004-06",
     "code": "DF004-06",
     "name": "DF004-06",
     "brand": "LX",
@@ -12437,7 +12437,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF005-01",
+    "id": "LXW-디아망_LX_디아망포티스_DF005-01",
     "code": "DF005-01",
     "name": "DF005-01",
     "brand": "LX",
@@ -12451,7 +12451,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF005-02",
+    "id": "LXW-디아망_LX_디아망포티스_DF005-02",
     "code": "DF005-02",
     "name": "DF005-02",
     "brand": "LX",
@@ -12465,7 +12465,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF005-03",
+    "id": "LXW-디아망_LX_디아망포티스_DF005-03",
     "code": "DF005-03",
     "name": "DF005-03",
     "brand": "LX",
@@ -12479,7 +12479,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF005-04",
+    "id": "LXW-디아망_LX_디아망포티스_DF005-04",
     "code": "DF005-04",
     "name": "DF005-04",
     "brand": "LX",
@@ -12493,7 +12493,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF006-01",
+    "id": "LXW-디아망_LX_디아망포티스_DF006-01",
     "code": "DF006-01",
     "name": "DF006-01",
     "brand": "LX",
@@ -12507,7 +12507,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF006-02",
+    "id": "LXW-디아망_LX_디아망포티스_DF006-02",
     "code": "DF006-02",
     "name": "DF006-02",
     "brand": "LX",
@@ -12521,7 +12521,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF006-03",
+    "id": "LXW-디아망_LX_디아망포티스_DF006-03",
     "code": "DF006-03",
     "name": "DF006-03",
     "brand": "LX",
@@ -12535,7 +12535,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF007-01",
+    "id": "LXW-디아망_LX_디아망포티스_DF007-01",
     "code": "DF007-01",
     "name": "DF007-01",
     "brand": "LX",
@@ -12549,7 +12549,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF007-02",
+    "id": "LXW-디아망_LX_디아망포티스_DF007-02",
     "code": "DF007-02",
     "name": "DF007-02",
     "brand": "LX",
@@ -12563,7 +12563,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF007-03",
+    "id": "LXW-디아망_LX_디아망포티스_DF007-03",
     "code": "DF007-03",
     "name": "DF007-03",
     "brand": "LX",
@@ -12577,7 +12577,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF007-04",
+    "id": "LXW-디아망_LX_디아망포티스_DF007-04",
     "code": "DF007-04",
     "name": "DF007-04",
     "brand": "LX",
@@ -12591,7 +12591,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF007-05",
+    "id": "LXW-디아망_LX_디아망포티스_DF007-05",
     "code": "DF007-05",
     "name": "DF007-05",
     "brand": "LX",
@@ -12605,7 +12605,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF007-06",
+    "id": "LXW-디아망_LX_디아망포티스_DF007-06",
     "code": "DF007-06",
     "name": "DF007-06",
     "brand": "LX",
@@ -12619,7 +12619,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF008-01",
+    "id": "LXW-디아망_LX_디아망포티스_DF008-01",
     "code": "DF008-01",
     "name": "DF008-01",
     "brand": "LX",
@@ -12633,7 +12633,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF008-02",
+    "id": "LXW-디아망_LX_디아망포티스_DF008-02",
     "code": "DF008-02",
     "name": "DF008-02",
     "brand": "LX",
@@ -12647,7 +12647,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF008-03",
+    "id": "LXW-디아망_LX_디아망포티스_DF008-03",
     "code": "DF008-03",
     "name": "DF008-03",
     "brand": "LX",
@@ -12661,7 +12661,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF008-04",
+    "id": "LXW-디아망_LX_디아망포티스_DF008-04",
     "code": "DF008-04",
     "name": "DF008-04",
     "brand": "LX",
@@ -12675,7 +12675,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF010-01",
+    "id": "LXW-디아망_LX_디아망포티스_DF010-01",
     "code": "DF010-01",
     "name": "DF010-01",
     "brand": "LX",
@@ -12689,7 +12689,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF011-01",
+    "id": "LXW-디아망_LX_디아망포티스_DF011-01",
     "code": "DF011-01",
     "name": "DF011-01",
     "brand": "LX",
@@ -12703,7 +12703,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF012-01",
+    "id": "LXW-디아망_LX_디아망포티스_DF012-01",
     "code": "DF012-01",
     "name": "DF012-01",
     "brand": "LX",
@@ -12717,7 +12717,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF012-02",
+    "id": "LXW-디아망_LX_디아망포티스_DF012-02",
     "code": "DF012-02",
     "name": "DF012-02",
     "brand": "LX",
@@ -12731,7 +12731,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF012-03",
+    "id": "LXW-디아망_LX_디아망포티스_DF012-03",
     "code": "DF012-03",
     "name": "DF012-03",
     "brand": "LX",
@@ -12745,7 +12745,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF012-04",
+    "id": "LXW-디아망_LX_디아망포티스_DF012-04",
     "code": "DF012-04",
     "name": "DF012-04",
     "brand": "LX",
@@ -12759,7 +12759,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF012-05",
+    "id": "LXW-디아망_LX_디아망포티스_DF012-05",
     "code": "DF012-05",
     "name": "DF012-05",
     "brand": "LX",
@@ -12773,7 +12773,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF012-06",
+    "id": "LXW-디아망_LX_디아망포티스_DF012-06",
     "code": "DF012-06",
     "name": "DF012-06",
     "brand": "LX",
@@ -12787,7 +12787,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF013-01",
+    "id": "LXW-디아망_LX_디아망포티스_DF013-01",
     "code": "DF013-01",
     "name": "DF013-01",
     "brand": "LX",
@@ -12801,7 +12801,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF013-02",
+    "id": "LXW-디아망_LX_디아망포티스_DF013-02",
     "code": "DF013-02",
     "name": "DF013-02",
     "brand": "LX",
@@ -12815,7 +12815,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF013-03",
+    "id": "LXW-디아망_LX_디아망포티스_DF013-03",
     "code": "DF013-03",
     "name": "DF013-03",
     "brand": "LX",
@@ -12829,7 +12829,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF013-04",
+    "id": "LXW-디아망_LX_디아망포티스_DF013-04",
     "code": "DF013-04",
     "name": "DF013-04",
     "brand": "LX",
@@ -12843,7 +12843,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF013-05",
+    "id": "LXW-디아망_LX_디아망포티스_DF013-05",
     "code": "DF013-05",
     "name": "DF013-05",
     "brand": "LX",
@@ -12857,7 +12857,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF014-01",
+    "id": "LXW-디아망_LX_디아망포티스_DF014-01",
     "code": "DF014-01",
     "name": "DF014-01",
     "brand": "LX",
@@ -12871,7 +12871,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF014-02",
+    "id": "LXW-디아망_LX_디아망포티스_DF014-02",
     "code": "DF014-02",
     "name": "DF014-02",
     "brand": "LX",
@@ -12885,7 +12885,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF014-03",
+    "id": "LXW-디아망_LX_디아망포티스_DF014-03",
     "code": "DF014-03",
     "name": "DF014-03",
     "brand": "LX",
@@ -12899,7 +12899,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF014-04",
+    "id": "LXW-디아망_LX_디아망포티스_DF014-04",
     "code": "DF014-04",
     "name": "DF014-04",
     "brand": "LX",
@@ -12913,7 +12913,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF014-05",
+    "id": "LXW-디아망_LX_디아망포티스_DF014-05",
     "code": "DF014-05",
     "name": "DF014-05",
     "brand": "LX",
@@ -12927,7 +12927,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF015-01",
+    "id": "LXW-디아망_LX_디아망포티스_DF015-01",
     "code": "DF015-01",
     "name": "DF015-01",
     "brand": "LX",
@@ -12941,7 +12941,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF015-02",
+    "id": "LXW-디아망_LX_디아망포티스_DF015-02",
     "code": "DF015-02",
     "name": "DF015-02",
     "brand": "LX",
@@ -12955,7 +12955,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF015-03",
+    "id": "LXW-디아망_LX_디아망포티스_DF015-03",
     "code": "DF015-03",
     "name": "DF015-03",
     "brand": "LX",
@@ -12969,7 +12969,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF015-04",
+    "id": "LXW-디아망_LX_디아망포티스_DF015-04",
     "code": "DF015-04",
     "name": "DF015-04",
     "brand": "LX",
@@ -12983,7 +12983,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF016-01",
+    "id": "LXW-디아망_LX_디아망포티스_DF016-01",
     "code": "DF016-01",
     "name": "DF016-01",
     "brand": "LX",
@@ -12997,7 +12997,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF017-01",
+    "id": "LXW-디아망_LX_디아망포티스_DF017-01",
     "code": "DF017-01",
     "name": "DF017-01",
     "brand": "LX",
@@ -13011,7 +13011,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF018-01",
+    "id": "LXW-디아망_LX_디아망포티스_DF018-01",
     "code": "DF018-01",
     "name": "DF018-01",
     "brand": "LX",
@@ -13025,7 +13025,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF018-02",
+    "id": "LXW-디아망_LX_디아망포티스_DF018-02",
     "code": "DF018-02",
     "name": "DF018-02",
     "brand": "LX",
@@ -13039,7 +13039,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF018-03",
+    "id": "LXW-디아망_LX_디아망포티스_DF018-03",
     "code": "DF018-03",
     "name": "DF018-03",
     "brand": "LX",
@@ -13053,7 +13053,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-DF018-04",
+    "id": "LXW-디아망_LX_디아망포티스_DF018-04",
     "code": "DF018-04",
     "name": "DF018-04",
     "brand": "LX",
@@ -13067,7 +13067,7 @@ export const materials = [
     "materialType": "디아망"
   },
   {
-    "id": "LXW-8190-01",
+    "id": "LXW-실크_LX_베스트_8190-01",
     "code": "8190-01",
     "name": "8190-01",
     "brand": "LX",
@@ -13081,7 +13081,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-8192-01",
+    "id": "LXW-실크_LX_베스트_8192-01",
     "code": "8192-01",
     "name": "8192-01",
     "brand": "LX",
@@ -13095,7 +13095,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-8195-01",
+    "id": "LXW-실크_LX_베스트_8195-01",
     "code": "8195-01",
     "name": "8195-01",
     "brand": "LX",
@@ -13109,7 +13109,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-8197-01",
+    "id": "LXW-실크_LX_베스트_8197-01",
     "code": "8197-01",
     "name": "8197-01",
     "brand": "LX",
@@ -13123,7 +13123,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82458-01",
+    "id": "LXW-실크_LX_베스트_82458-01",
     "code": "82458-01",
     "name": "82458-01",
     "brand": "LX",
@@ -13137,7 +13137,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82476-01",
+    "id": "LXW-실크_LX_베스트_82476-01",
     "code": "82476-01",
     "name": "82476-01",
     "brand": "LX",
@@ -13151,7 +13151,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82477-01",
+    "id": "LXW-실크_LX_베스트_82477-01",
     "code": "82477-01",
     "name": "82477-01",
     "brand": "LX",
@@ -13165,7 +13165,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82477-02",
+    "id": "LXW-실크_LX_베스트_82477-02",
     "code": "82477-02",
     "name": "82477-02",
     "brand": "LX",
@@ -13179,7 +13179,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82483-01",
+    "id": "LXW-실크_LX_베스트_82483-01",
     "code": "82483-01",
     "name": "82483-01",
     "brand": "LX",
@@ -13193,7 +13193,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82526-01",
+    "id": "LXW-실크_LX_베스트_82526-01",
     "code": "82526-01",
     "name": "82526-01",
     "brand": "LX",
@@ -13207,7 +13207,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82526-02",
+    "id": "LXW-실크_LX_베스트_82526-02",
     "code": "82526-02",
     "name": "82526-02",
     "brand": "LX",
@@ -13221,7 +13221,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82526-06",
+    "id": "LXW-실크_LX_베스트_82526-06",
     "code": "82526-06",
     "name": "82526-06",
     "brand": "LX",
@@ -13235,7 +13235,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82526-07",
+    "id": "LXW-실크_LX_베스트_82526-07",
     "code": "82526-07",
     "name": "82526-07",
     "brand": "LX",
@@ -13249,7 +13249,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82538-01",
+    "id": "LXW-실크_LX_베스트_82538-01",
     "code": "82538-01",
     "name": "82538-01",
     "brand": "LX",
@@ -13263,7 +13263,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82538-02",
+    "id": "LXW-실크_LX_베스트_82538-02",
     "code": "82538-02",
     "name": "82538-02",
     "brand": "LX",
@@ -13277,7 +13277,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82538-08",
+    "id": "LXW-실크_LX_베스트_82538-08",
     "code": "82538-08",
     "name": "82538-08",
     "brand": "LX",
@@ -13291,7 +13291,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82539-01",
+    "id": "LXW-실크_LX_베스트_82539-01",
     "code": "82539-01",
     "name": "82539-01",
     "brand": "LX",
@@ -13305,7 +13305,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82539-02",
+    "id": "LXW-실크_LX_베스트_82539-02",
     "code": "82539-02",
     "name": "82539-02",
     "brand": "LX",
@@ -13319,7 +13319,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82539-03",
+    "id": "LXW-실크_LX_베스트_82539-03",
     "code": "82539-03",
     "name": "82539-03",
     "brand": "LX",
@@ -13333,7 +13333,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82539-04",
+    "id": "LXW-실크_LX_베스트_82539-04",
     "code": "82539-04",
     "name": "82539-04",
     "brand": "LX",
@@ -13347,7 +13347,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82539-13",
+    "id": "LXW-실크_LX_베스트_82539-13",
     "code": "82539-13",
     "name": "82539-13",
     "brand": "LX",
@@ -13361,7 +13361,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82539-14",
+    "id": "LXW-실크_LX_베스트_82539-14",
     "code": "82539-14",
     "name": "82539-14",
     "brand": "LX",
@@ -13375,7 +13375,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82539-15",
+    "id": "LXW-실크_LX_베스트_82539-15",
     "code": "82539-15",
     "name": "82539-15",
     "brand": "LX",
@@ -13389,7 +13389,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82544-01",
+    "id": "LXW-실크_LX_베스트_82544-01",
     "code": "82544-01",
     "name": "82544-01",
     "brand": "LX",
@@ -13403,7 +13403,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82544-02",
+    "id": "LXW-실크_LX_베스트_82544-02",
     "code": "82544-02",
     "name": "82544-02",
     "brand": "LX",
@@ -13417,7 +13417,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82546-02",
+    "id": "LXW-실크_LX_베스트_82546-02",
     "code": "82546-02",
     "name": "82546-02",
     "brand": "LX",
@@ -13431,7 +13431,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82547-01",
+    "id": "LXW-실크_LX_베스트_82547-01",
     "code": "82547-01",
     "name": "82547-01",
     "brand": "LX",
@@ -13445,7 +13445,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82547-04",
+    "id": "LXW-실크_LX_베스트_82547-04",
     "code": "82547-04",
     "name": "82547-04",
     "brand": "LX",
@@ -13459,7 +13459,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82547-05",
+    "id": "LXW-실크_LX_베스트_82547-05",
     "code": "82547-05",
     "name": "82547-05",
     "brand": "LX",
@@ -13473,7 +13473,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82554-02",
+    "id": "LXW-실크_LX_베스트_82554-02",
     "code": "82554-02",
     "name": "82554-02",
     "brand": "LX",
@@ -13487,7 +13487,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82554-03",
+    "id": "LXW-실크_LX_베스트_82554-03",
     "code": "82554-03",
     "name": "82554-03",
     "brand": "LX",
@@ -13501,7 +13501,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82555-01",
+    "id": "LXW-실크_LX_베스트_82555-01",
     "code": "82555-01",
     "name": "82555-01",
     "brand": "LX",
@@ -13515,7 +13515,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82555-04",
+    "id": "LXW-실크_LX_베스트_82555-04",
     "code": "82555-04",
     "name": "82555-04",
     "brand": "LX",
@@ -13529,7 +13529,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82555-05",
+    "id": "LXW-실크_LX_베스트_82555-05",
     "code": "82555-05",
     "name": "82555-05",
     "brand": "LX",
@@ -13543,7 +13543,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82558-01",
+    "id": "LXW-실크_LX_베스트_82558-01",
     "code": "82558-01",
     "name": "82558-01",
     "brand": "LX",
@@ -13557,7 +13557,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82558-02",
+    "id": "LXW-실크_LX_베스트_82558-02",
     "code": "82558-02",
     "name": "82558-02",
     "brand": "LX",
@@ -13571,7 +13571,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82558-03",
+    "id": "LXW-실크_LX_베스트_82558-03",
     "code": "82558-03",
     "name": "82558-03",
     "brand": "LX",
@@ -13585,7 +13585,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82558-04",
+    "id": "LXW-실크_LX_베스트_82558-04",
     "code": "82558-04",
     "name": "82558-04",
     "brand": "LX",
@@ -13599,7 +13599,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82558-05",
+    "id": "LXW-실크_LX_베스트_82558-05",
     "code": "82558-05",
     "name": "82558-05",
     "brand": "LX",
@@ -13613,7 +13613,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82559-01",
+    "id": "LXW-실크_LX_베스트_82559-01",
     "code": "82559-01",
     "name": "82559-01",
     "brand": "LX",
@@ -13627,7 +13627,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82559-02",
+    "id": "LXW-실크_LX_베스트_82559-02",
     "code": "82559-02",
     "name": "82559-02",
     "brand": "LX",
@@ -13641,7 +13641,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82559-04",
+    "id": "LXW-실크_LX_베스트_82559-04",
     "code": "82559-04",
     "name": "82559-04",
     "brand": "LX",
@@ -13655,7 +13655,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82560-01",
+    "id": "LXW-실크_LX_베스트_82560-01",
     "code": "82560-01",
     "name": "82560-01",
     "brand": "LX",
@@ -13669,7 +13669,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82560-02",
+    "id": "LXW-실크_LX_베스트_82560-02",
     "code": "82560-02",
     "name": "82560-02",
     "brand": "LX",
@@ -13683,7 +13683,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82575-01",
+    "id": "LXW-실크_LX_베스트_82575-01",
     "code": "82575-01",
     "name": "82575-01",
     "brand": "LX",
@@ -13697,7 +13697,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82575-02",
+    "id": "LXW-실크_LX_베스트_82575-02",
     "code": "82575-02",
     "name": "82575-02",
     "brand": "LX",
@@ -13711,7 +13711,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82575-03",
+    "id": "LXW-실크_LX_베스트_82575-03",
     "code": "82575-03",
     "name": "82575-03",
     "brand": "LX",
@@ -13725,7 +13725,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82575-04",
+    "id": "LXW-실크_LX_베스트_82575-04",
     "code": "82575-04",
     "name": "82575-04",
     "brand": "LX",
@@ -13739,7 +13739,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82576-01",
+    "id": "LXW-실크_LX_베스트_82576-01",
     "code": "82576-01",
     "name": "82576-01",
     "brand": "LX",
@@ -13753,7 +13753,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82576-02",
+    "id": "LXW-실크_LX_베스트_82576-02",
     "code": "82576-02",
     "name": "82576-02",
     "brand": "LX",
@@ -13767,7 +13767,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82576-03",
+    "id": "LXW-실크_LX_베스트_82576-03",
     "code": "82576-03",
     "name": "82576-03",
     "brand": "LX",
@@ -13781,7 +13781,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82576-04",
+    "id": "LXW-실크_LX_베스트_82576-04",
     "code": "82576-04",
     "name": "82576-04",
     "brand": "LX",
@@ -13795,7 +13795,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82576-05",
+    "id": "LXW-실크_LX_베스트_82576-05",
     "code": "82576-05",
     "name": "82576-05",
     "brand": "LX",
@@ -13809,7 +13809,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82576-06",
+    "id": "LXW-실크_LX_베스트_82576-06",
     "code": "82576-06",
     "name": "82576-06",
     "brand": "LX",
@@ -13823,7 +13823,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82576-07",
+    "id": "LXW-실크_LX_베스트_82576-07",
     "code": "82576-07",
     "name": "82576-07",
     "brand": "LX",
@@ -13837,7 +13837,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82576-08",
+    "id": "LXW-실크_LX_베스트_82576-08",
     "code": "82576-08",
     "name": "82576-08",
     "brand": "LX",
@@ -13851,7 +13851,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82577-01",
+    "id": "LXW-실크_LX_베스트_82577-01",
     "code": "82577-01",
     "name": "82577-01",
     "brand": "LX",
@@ -13865,7 +13865,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82577-02",
+    "id": "LXW-실크_LX_베스트_82577-02",
     "code": "82577-02",
     "name": "82577-02",
     "brand": "LX",
@@ -13879,7 +13879,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82578-01",
+    "id": "LXW-실크_LX_베스트_82578-01",
     "code": "82578-01",
     "name": "82578-01",
     "brand": "LX",
@@ -13893,7 +13893,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82578-02",
+    "id": "LXW-실크_LX_베스트_82578-02",
     "code": "82578-02",
     "name": "82578-02",
     "brand": "LX",
@@ -13907,7 +13907,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82578-03",
+    "id": "LXW-실크_LX_베스트_82578-03",
     "code": "82578-03",
     "name": "82578-03",
     "brand": "LX",
@@ -13921,7 +13921,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82578-04",
+    "id": "LXW-실크_LX_베스트_82578-04",
     "code": "82578-04",
     "name": "82578-04",
     "brand": "LX",
@@ -13935,7 +13935,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82578-05",
+    "id": "LXW-실크_LX_베스트_82578-05",
     "code": "82578-05",
     "name": "82578-05",
     "brand": "LX",
@@ -13949,7 +13949,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82578-06",
+    "id": "LXW-실크_LX_베스트_82578-06",
     "code": "82578-06",
     "name": "82578-06",
     "brand": "LX",
@@ -13963,7 +13963,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82578-07",
+    "id": "LXW-실크_LX_베스트_82578-07",
     "code": "82578-07",
     "name": "82578-07",
     "brand": "LX",
@@ -13977,7 +13977,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82579-01",
+    "id": "LXW-실크_LX_베스트_82579-01",
     "code": "82579-01",
     "name": "82579-01",
     "brand": "LX",
@@ -13991,7 +13991,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82579-02",
+    "id": "LXW-실크_LX_베스트_82579-02",
     "code": "82579-02",
     "name": "82579-02",
     "brand": "LX",
@@ -14005,7 +14005,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82579-03",
+    "id": "LXW-실크_LX_베스트_82579-03",
     "code": "82579-03",
     "name": "82579-03",
     "brand": "LX",
@@ -14019,7 +14019,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82579-05",
+    "id": "LXW-실크_LX_베스트_82579-05",
     "code": "82579-05",
     "name": "82579-05",
     "brand": "LX",
@@ -14033,7 +14033,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82581-01",
+    "id": "LXW-실크_LX_베스트_82581-01",
     "code": "82581-01",
     "name": "82581-01",
     "brand": "LX",
@@ -14047,7 +14047,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82581-02",
+    "id": "LXW-실크_LX_베스트_82581-02",
     "code": "82581-02",
     "name": "82581-02",
     "brand": "LX",
@@ -14061,7 +14061,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82581-06",
+    "id": "LXW-실크_LX_베스트_82581-06",
     "code": "82581-06",
     "name": "82581-06",
     "brand": "LX",
@@ -14075,7 +14075,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82585-01",
+    "id": "LXW-실크_LX_베스트_82585-01",
     "code": "82585-01",
     "name": "82585-01",
     "brand": "LX",
@@ -14089,7 +14089,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82588-02",
+    "id": "LXW-실크_LX_베스트_82588-02",
     "code": "82588-02",
     "name": "82588-02",
     "brand": "LX",
@@ -14103,7 +14103,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82588-03",
+    "id": "LXW-실크_LX_베스트_82588-03",
     "code": "82588-03",
     "name": "82588-03",
     "brand": "LX",
@@ -14117,7 +14117,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82590-01",
+    "id": "LXW-실크_LX_베스트_82590-01",
     "code": "82590-01",
     "name": "82590-01",
     "brand": "LX",
@@ -14131,7 +14131,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82590-02",
+    "id": "LXW-실크_LX_베스트_82590-02",
     "code": "82590-02",
     "name": "82590-02",
     "brand": "LX",
@@ -14145,7 +14145,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82599-01",
+    "id": "LXW-실크_LX_베스트_82599-01",
     "code": "82599-01",
     "name": "82599-01",
     "brand": "LX",
@@ -14159,7 +14159,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82600-01",
+    "id": "LXW-실크_LX_베스트_82600-01",
     "code": "82600-01",
     "name": "82600-01",
     "brand": "LX",
@@ -14173,7 +14173,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82600-02",
+    "id": "LXW-실크_LX_베스트_82600-02",
     "code": "82600-02",
     "name": "82600-02",
     "brand": "LX",
@@ -14187,7 +14187,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82600-03",
+    "id": "LXW-실크_LX_베스트_82600-03",
     "code": "82600-03",
     "name": "82600-03",
     "brand": "LX",
@@ -14201,7 +14201,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82600-04",
+    "id": "LXW-실크_LX_베스트_82600-04",
     "code": "82600-04",
     "name": "82600-04",
     "brand": "LX",
@@ -14215,7 +14215,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82600-05",
+    "id": "LXW-실크_LX_베스트_82600-05",
     "code": "82600-05",
     "name": "82600-05",
     "brand": "LX",
@@ -14229,7 +14229,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82600-06",
+    "id": "LXW-실크_LX_베스트_82600-06",
     "code": "82600-06",
     "name": "82600-06",
     "brand": "LX",
@@ -14243,7 +14243,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82600-07",
+    "id": "LXW-실크_LX_베스트_82600-07",
     "code": "82600-07",
     "name": "82600-07",
     "brand": "LX",
@@ -14257,7 +14257,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82600-08",
+    "id": "LXW-실크_LX_베스트_82600-08",
     "code": "82600-08",
     "name": "82600-08",
     "brand": "LX",
@@ -14271,7 +14271,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82601-01",
+    "id": "LXW-실크_LX_베스트_82601-01",
     "code": "82601-01",
     "name": "82601-01",
     "brand": "LX",
@@ -14285,7 +14285,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82601-02",
+    "id": "LXW-실크_LX_베스트_82601-02",
     "code": "82601-02",
     "name": "82601-02",
     "brand": "LX",
@@ -14299,7 +14299,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82601-03",
+    "id": "LXW-실크_LX_베스트_82601-03",
     "code": "82601-03",
     "name": "82601-03",
     "brand": "LX",
@@ -14313,7 +14313,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82601-04",
+    "id": "LXW-실크_LX_베스트_82601-04",
     "code": "82601-04",
     "name": "82601-04",
     "brand": "LX",
@@ -14327,7 +14327,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82601-05",
+    "id": "LXW-실크_LX_베스트_82601-05",
     "code": "82601-05",
     "name": "82601-05",
     "brand": "LX",
@@ -14341,7 +14341,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82601-06",
+    "id": "LXW-실크_LX_베스트_82601-06",
     "code": "82601-06",
     "name": "82601-06",
     "brand": "LX",
@@ -14355,7 +14355,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82601-07",
+    "id": "LXW-실크_LX_베스트_82601-07",
     "code": "82601-07",
     "name": "82601-07",
     "brand": "LX",
@@ -14369,7 +14369,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82602-01",
+    "id": "LXW-실크_LX_베스트_82602-01",
     "code": "82602-01",
     "name": "82602-01",
     "brand": "LX",
@@ -14383,7 +14383,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82602-02",
+    "id": "LXW-실크_LX_베스트_82602-02",
     "code": "82602-02",
     "name": "82602-02",
     "brand": "LX",
@@ -14397,7 +14397,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82602-03",
+    "id": "LXW-실크_LX_베스트_82602-03",
     "code": "82602-03",
     "name": "82602-03",
     "brand": "LX",
@@ -14411,7 +14411,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82602-04",
+    "id": "LXW-실크_LX_베스트_82602-04",
     "code": "82602-04",
     "name": "82602-04",
     "brand": "LX",
@@ -14425,7 +14425,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82602-05",
+    "id": "LXW-실크_LX_베스트_82602-05",
     "code": "82602-05",
     "name": "82602-05",
     "brand": "LX",
@@ -14439,7 +14439,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82602-06",
+    "id": "LXW-실크_LX_베스트_82602-06",
     "code": "82602-06",
     "name": "82602-06",
     "brand": "LX",
@@ -14453,7 +14453,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82603-01",
+    "id": "LXW-실크_LX_베스트_82603-01",
     "code": "82603-01",
     "name": "82603-01",
     "brand": "LX",
@@ -14467,7 +14467,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82603-02",
+    "id": "LXW-실크_LX_베스트_82603-02",
     "code": "82603-02",
     "name": "82603-02",
     "brand": "LX",
@@ -14481,7 +14481,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82603-03",
+    "id": "LXW-실크_LX_베스트_82603-03",
     "code": "82603-03",
     "name": "82603-03",
     "brand": "LX",
@@ -14495,7 +14495,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82603-04",
+    "id": "LXW-실크_LX_베스트_82603-04",
     "code": "82603-04",
     "name": "82603-04",
     "brand": "LX",
@@ -14509,7 +14509,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82603-05",
+    "id": "LXW-실크_LX_베스트_82603-05",
     "code": "82603-05",
     "name": "82603-05",
     "brand": "LX",
@@ -14523,7 +14523,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82603-06",
+    "id": "LXW-실크_LX_베스트_82603-06",
     "code": "82603-06",
     "name": "82603-06",
     "brand": "LX",
@@ -14537,7 +14537,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82606-01",
+    "id": "LXW-실크_LX_베스트_82606-01",
     "code": "82606-01",
     "name": "82606-01",
     "brand": "LX",
@@ -14551,7 +14551,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82606-02",
+    "id": "LXW-실크_LX_베스트_82606-02",
     "code": "82606-02",
     "name": "82606-02",
     "brand": "LX",
@@ -14565,7 +14565,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82607-01",
+    "id": "LXW-실크_LX_베스트_82607-01",
     "code": "82607-01",
     "name": "82607-01",
     "brand": "LX",
@@ -14579,7 +14579,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82607-02",
+    "id": "LXW-실크_LX_베스트_82607-02",
     "code": "82607-02",
     "name": "82607-02",
     "brand": "LX",
@@ -14593,7 +14593,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82608-01",
+    "id": "LXW-실크_LX_베스트_82608-01",
     "code": "82608-01",
     "name": "82608-01",
     "brand": "LX",
@@ -14607,7 +14607,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82608-02",
+    "id": "LXW-실크_LX_베스트_82608-02",
     "code": "82608-02",
     "name": "82608-02",
     "brand": "LX",
@@ -14621,7 +14621,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82608-03",
+    "id": "LXW-실크_LX_베스트_82608-03",
     "code": "82608-03",
     "name": "82608-03",
     "brand": "LX",
@@ -14635,7 +14635,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82608-04",
+    "id": "LXW-실크_LX_베스트_82608-04",
     "code": "82608-04",
     "name": "82608-04",
     "brand": "LX",
@@ -14649,7 +14649,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82609-01",
+    "id": "LXW-실크_LX_베스트_82609-01",
     "code": "82609-01",
     "name": "82609-01",
     "brand": "LX",
@@ -14663,7 +14663,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82609-02",
+    "id": "LXW-실크_LX_베스트_82609-02",
     "code": "82609-02",
     "name": "82609-02",
     "brand": "LX",
@@ -14677,7 +14677,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82610-01",
+    "id": "LXW-실크_LX_베스트_82610-01",
     "code": "82610-01",
     "name": "82610-01",
     "brand": "LX",
@@ -14691,7 +14691,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82610-02",
+    "id": "LXW-실크_LX_베스트_82610-02",
     "code": "82610-02",
     "name": "82610-02",
     "brand": "LX",
@@ -14705,7 +14705,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82610-03",
+    "id": "LXW-실크_LX_베스트_82610-03",
     "code": "82610-03",
     "name": "82610-03",
     "brand": "LX",
@@ -14719,7 +14719,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82610-04",
+    "id": "LXW-실크_LX_베스트_82610-04",
     "code": "82610-04",
     "name": "82610-04",
     "brand": "LX",
@@ -14733,7 +14733,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82610-05",
+    "id": "LXW-실크_LX_베스트_82610-05",
     "code": "82610-05",
     "name": "82610-05",
     "brand": "LX",
@@ -14747,7 +14747,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82611-01",
+    "id": "LXW-실크_LX_베스트_82611-01",
     "code": "82611-01",
     "name": "82611-01",
     "brand": "LX",
@@ -14761,7 +14761,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82613-01",
+    "id": "LXW-실크_LX_베스트_82613-01",
     "code": "82613-01",
     "name": "82613-01",
     "brand": "LX",
@@ -14775,7 +14775,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-82613-02",
+    "id": "LXW-실크_LX_베스트_82613-02",
     "code": "82613-02",
     "name": "82613-02",
     "brand": "LX",
@@ -14789,7 +14789,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-H8190-01",
+    "id": "LXW-실크_LX_베스트_H8190-01",
     "code": "H8190-01",
     "name": "H8190-01",
     "brand": "LX",
@@ -14803,7 +14803,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-H8194-01",
+    "id": "LXW-실크_LX_베스트_H8194-01",
     "code": "H8194-01",
     "name": "H8194-01",
     "brand": "LX",
@@ -14817,7 +14817,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-T1032-01",
+    "id": "LXW-실크_LX_베스트_T1032-01",
     "code": "T1032-01",
     "name": "T1032-01",
     "brand": "LX",
@@ -14831,7 +14831,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-T1033-01",
+    "id": "LXW-실크_LX_베스트_T1033-01",
     "code": "T1033-01",
     "name": "T1033-01",
     "brand": "LX",
@@ -14845,7 +14845,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-T1059-01",
+    "id": "LXW-실크_LX_베스트_T1059-01",
     "code": "T1059-01",
     "name": "T1059-01",
     "brand": "LX",
@@ -14859,7 +14859,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-T1082-01",
+    "id": "LXW-실크_LX_베스트_T1082-01",
     "code": "T1082-01",
     "name": "T1082-01",
     "brand": "LX",
@@ -14873,7 +14873,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-T1082-09",
+    "id": "LXW-실크_LX_베스트_T1082-09",
     "code": "T1082-09",
     "name": "T1082-09",
     "brand": "LX",
@@ -14887,7 +14887,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-T1082-10",
+    "id": "LXW-실크_LX_베스트_T1082-10",
     "code": "T1082-10",
     "name": "T1082-10",
     "brand": "LX",
@@ -14901,7 +14901,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-T1084-01",
+    "id": "LXW-실크_LX_베스트_T1084-01",
     "code": "T1084-01",
     "name": "T1084-01",
     "brand": "LX",
@@ -14915,7 +14915,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-T1084-02",
+    "id": "LXW-실크_LX_베스트_T1084-02",
     "code": "T1084-02",
     "name": "T1084-02",
     "brand": "LX",
@@ -14929,7 +14929,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-T1093-01",
+    "id": "LXW-실크_LX_베스트_T1093-01",
     "code": "T1093-01",
     "name": "T1093-01",
     "brand": "LX",
@@ -14943,7 +14943,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-T1096-01",
+    "id": "LXW-실크_LX_베스트_T1096-01",
     "code": "T1096-01",
     "name": "T1096-01",
     "brand": "LX",
@@ -14957,7 +14957,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7043-01",
+    "id": "LXW-실크_LX_테라피_7043-01",
     "code": "7043-01",
     "name": "7043-01",
     "brand": "LX",
@@ -14971,7 +14971,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7043-02",
+    "id": "LXW-실크_LX_테라피_7043-02",
     "code": "7043-02",
     "name": "7043-02",
     "brand": "LX",
@@ -14985,7 +14985,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7053-01",
+    "id": "LXW-실크_LX_테라피_7053-01",
     "code": "7053-01",
     "name": "7053-01",
     "brand": "LX",
@@ -14999,7 +14999,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7069-01",
+    "id": "LXW-실크_LX_테라피_7069-01",
     "code": "7069-01",
     "name": "7069-01",
     "brand": "LX",
@@ -15013,7 +15013,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7074-02",
+    "id": "LXW-실크_LX_테라피_7074-02",
     "code": "7074-02",
     "name": "7074-02",
     "brand": "LX",
@@ -15027,7 +15027,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7075-01",
+    "id": "LXW-실크_LX_테라피_7075-01",
     "code": "7075-01",
     "name": "7075-01",
     "brand": "LX",
@@ -15041,7 +15041,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7077-01",
+    "id": "LXW-실크_LX_테라피_7077-01",
     "code": "7077-01",
     "name": "7077-01",
     "brand": "LX",
@@ -15055,7 +15055,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7085-01",
+    "id": "LXW-실크_LX_테라피_7085-01",
     "code": "7085-01",
     "name": "7085-01",
     "brand": "LX",
@@ -15069,7 +15069,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7085-02",
+    "id": "LXW-실크_LX_테라피_7085-02",
     "code": "7085-02",
     "name": "7085-02",
     "brand": "LX",
@@ -15083,7 +15083,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7087-01",
+    "id": "LXW-실크_LX_테라피_7087-01",
     "code": "7087-01",
     "name": "7087-01",
     "brand": "LX",
@@ -15097,7 +15097,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7090-01",
+    "id": "LXW-실크_LX_테라피_7090-01",
     "code": "7090-01",
     "name": "7090-01",
     "brand": "LX",
@@ -15111,7 +15111,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7090-05",
+    "id": "LXW-실크_LX_테라피_7090-05",
     "code": "7090-05",
     "name": "7090-05",
     "brand": "LX",
@@ -15125,7 +15125,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7090-06",
+    "id": "LXW-실크_LX_테라피_7090-06",
     "code": "7090-06",
     "name": "7090-06",
     "brand": "LX",
@@ -15139,7 +15139,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7090-07",
+    "id": "LXW-실크_LX_테라피_7090-07",
     "code": "7090-07",
     "name": "7090-07",
     "brand": "LX",
@@ -15153,7 +15153,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7090-08",
+    "id": "LXW-실크_LX_테라피_7090-08",
     "code": "7090-08",
     "name": "7090-08",
     "brand": "LX",
@@ -15167,7 +15167,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7095-02",
+    "id": "LXW-실크_LX_테라피_7095-02",
     "code": "7095-02",
     "name": "7095-02",
     "brand": "LX",
@@ -15181,7 +15181,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7096-01",
+    "id": "LXW-실크_LX_테라피_7096-01",
     "code": "7096-01",
     "name": "7096-01",
     "brand": "LX",
@@ -15195,7 +15195,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7097-01",
+    "id": "LXW-실크_LX_테라피_7097-01",
     "code": "7097-01",
     "name": "7097-01",
     "brand": "LX",
@@ -15209,7 +15209,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7097-04",
+    "id": "LXW-실크_LX_테라피_7097-04",
     "code": "7097-04",
     "name": "7097-04",
     "brand": "LX",
@@ -15223,7 +15223,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7097-05",
+    "id": "LXW-실크_LX_테라피_7097-05",
     "code": "7097-05",
     "name": "7097-05",
     "brand": "LX",
@@ -15237,7 +15237,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7097-06",
+    "id": "LXW-실크_LX_테라피_7097-06",
     "code": "7097-06",
     "name": "7097-06",
     "brand": "LX",
@@ -15251,7 +15251,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7097-07",
+    "id": "LXW-실크_LX_테라피_7097-07",
     "code": "7097-07",
     "name": "7097-07",
     "brand": "LX",
@@ -15265,7 +15265,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7097-08",
+    "id": "LXW-실크_LX_테라피_7097-08",
     "code": "7097-08",
     "name": "7097-08",
     "brand": "LX",
@@ -15279,7 +15279,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7105-01",
+    "id": "LXW-실크_LX_테라피_7105-01",
     "code": "7105-01",
     "name": "7105-01",
     "brand": "LX",
@@ -15293,7 +15293,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7107-01",
+    "id": "LXW-실크_LX_테라피_7107-01",
     "code": "7107-01",
     "name": "7107-01",
     "brand": "LX",
@@ -15307,7 +15307,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7107-02",
+    "id": "LXW-실크_LX_테라피_7107-02",
     "code": "7107-02",
     "name": "7107-02",
     "brand": "LX",
@@ -15321,7 +15321,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7107-03",
+    "id": "LXW-실크_LX_테라피_7107-03",
     "code": "7107-03",
     "name": "7107-03",
     "brand": "LX",
@@ -15335,7 +15335,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7107-04",
+    "id": "LXW-실크_LX_테라피_7107-04",
     "code": "7107-04",
     "name": "7107-04",
     "brand": "LX",
@@ -15349,7 +15349,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7107-05",
+    "id": "LXW-실크_LX_테라피_7107-05",
     "code": "7107-05",
     "name": "7107-05",
     "brand": "LX",
@@ -15363,7 +15363,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7108-01",
+    "id": "LXW-실크_LX_테라피_7108-01",
     "code": "7108-01",
     "name": "7108-01",
     "brand": "LX",
@@ -15377,7 +15377,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7108-02",
+    "id": "LXW-실크_LX_테라피_7108-02",
     "code": "7108-02",
     "name": "7108-02",
     "brand": "LX",
@@ -15391,7 +15391,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7108-03",
+    "id": "LXW-실크_LX_테라피_7108-03",
     "code": "7108-03",
     "name": "7108-03",
     "brand": "LX",
@@ -15405,7 +15405,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7108-04",
+    "id": "LXW-실크_LX_테라피_7108-04",
     "code": "7108-04",
     "name": "7108-04",
     "brand": "LX",
@@ -15419,7 +15419,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7108-05",
+    "id": "LXW-실크_LX_테라피_7108-05",
     "code": "7108-05",
     "name": "7108-05",
     "brand": "LX",
@@ -15433,7 +15433,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7109-01",
+    "id": "LXW-실크_LX_테라피_7109-01",
     "code": "7109-01",
     "name": "7109-01",
     "brand": "LX",
@@ -15447,7 +15447,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7111-01",
+    "id": "LXW-실크_LX_테라피_7111-01",
     "code": "7111-01",
     "name": "7111-01",
     "brand": "LX",
@@ -15461,7 +15461,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7111-02",
+    "id": "LXW-실크_LX_테라피_7111-02",
     "code": "7111-02",
     "name": "7111-02",
     "brand": "LX",
@@ -15475,7 +15475,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7111-03",
+    "id": "LXW-실크_LX_테라피_7111-03",
     "code": "7111-03",
     "name": "7111-03",
     "brand": "LX",
@@ -15489,7 +15489,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7111-04",
+    "id": "LXW-실크_LX_테라피_7111-04",
     "code": "7111-04",
     "name": "7111-04",
     "brand": "LX",
@@ -15503,7 +15503,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7112-01",
+    "id": "LXW-실크_LX_테라피_7112-01",
     "code": "7112-01",
     "name": "7112-01",
     "brand": "LX",
@@ -15517,7 +15517,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7112-02",
+    "id": "LXW-실크_LX_테라피_7112-02",
     "code": "7112-02",
     "name": "7112-02",
     "brand": "LX",
@@ -15531,7 +15531,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7112-04",
+    "id": "LXW-실크_LX_테라피_7112-04",
     "code": "7112-04",
     "name": "7112-04",
     "brand": "LX",
@@ -15545,7 +15545,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7112-05",
+    "id": "LXW-실크_LX_테라피_7112-05",
     "code": "7112-05",
     "name": "7112-05",
     "brand": "LX",
@@ -15559,7 +15559,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7113-01",
+    "id": "LXW-실크_LX_테라피_7113-01",
     "code": "7113-01",
     "name": "7113-01",
     "brand": "LX",
@@ -15573,7 +15573,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7113-02",
+    "id": "LXW-실크_LX_테라피_7113-02",
     "code": "7113-02",
     "name": "7113-02",
     "brand": "LX",
@@ -15587,7 +15587,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7113-03",
+    "id": "LXW-실크_LX_테라피_7113-03",
     "code": "7113-03",
     "name": "7113-03",
     "brand": "LX",
@@ -15601,7 +15601,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7113-04",
+    "id": "LXW-실크_LX_테라피_7113-04",
     "code": "7113-04",
     "name": "7113-04",
     "brand": "LX",
@@ -15615,7 +15615,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7113-05",
+    "id": "LXW-실크_LX_테라피_7113-05",
     "code": "7113-05",
     "name": "7113-05",
     "brand": "LX",
@@ -15629,7 +15629,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7113-06",
+    "id": "LXW-실크_LX_테라피_7113-06",
     "code": "7113-06",
     "name": "7113-06",
     "brand": "LX",
@@ -15643,7 +15643,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7113-07",
+    "id": "LXW-실크_LX_테라피_7113-07",
     "code": "7113-07",
     "name": "7113-07",
     "brand": "LX",
@@ -15657,7 +15657,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7114-01",
+    "id": "LXW-실크_LX_테라피_7114-01",
     "code": "7114-01",
     "name": "7114-01",
     "brand": "LX",
@@ -15671,7 +15671,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7114-02",
+    "id": "LXW-실크_LX_테라피_7114-02",
     "code": "7114-02",
     "name": "7114-02",
     "brand": "LX",
@@ -15685,7 +15685,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7114-03",
+    "id": "LXW-실크_LX_테라피_7114-03",
     "code": "7114-03",
     "name": "7114-03",
     "brand": "LX",
@@ -15699,7 +15699,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7114-04",
+    "id": "LXW-실크_LX_테라피_7114-04",
     "code": "7114-04",
     "name": "7114-04",
     "brand": "LX",
@@ -15713,7 +15713,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7114-05",
+    "id": "LXW-실크_LX_테라피_7114-05",
     "code": "7114-05",
     "name": "7114-05",
     "brand": "LX",
@@ -15727,7 +15727,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7114-06",
+    "id": "LXW-실크_LX_테라피_7114-06",
     "code": "7114-06",
     "name": "7114-06",
     "brand": "LX",
@@ -15741,7 +15741,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7114-07",
+    "id": "LXW-실크_LX_테라피_7114-07",
     "code": "7114-07",
     "name": "7114-07",
     "brand": "LX",
@@ -15755,7 +15755,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7114-08",
+    "id": "LXW-실크_LX_테라피_7114-08",
     "code": "7114-08",
     "name": "7114-08",
     "brand": "LX",
@@ -15769,7 +15769,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7115-01",
+    "id": "LXW-실크_LX_테라피_7115-01",
     "code": "7115-01",
     "name": "7115-01",
     "brand": "LX",
@@ -15783,7 +15783,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7115-02",
+    "id": "LXW-실크_LX_테라피_7115-02",
     "code": "7115-02",
     "name": "7115-02",
     "brand": "LX",
@@ -15797,7 +15797,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7115-03",
+    "id": "LXW-실크_LX_테라피_7115-03",
     "code": "7115-03",
     "name": "7115-03",
     "brand": "LX",
@@ -15811,7 +15811,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7115-04",
+    "id": "LXW-실크_LX_테라피_7115-04",
     "code": "7115-04",
     "name": "7115-04",
     "brand": "LX",
@@ -15825,7 +15825,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7115-05",
+    "id": "LXW-실크_LX_테라피_7115-05",
     "code": "7115-05",
     "name": "7115-05",
     "brand": "LX",
@@ -15839,7 +15839,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7115-06",
+    "id": "LXW-실크_LX_테라피_7115-06",
     "code": "7115-06",
     "name": "7115-06",
     "brand": "LX",
@@ -15853,7 +15853,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7115-07",
+    "id": "LXW-실크_LX_테라피_7115-07",
     "code": "7115-07",
     "name": "7115-07",
     "brand": "LX",
@@ -15867,7 +15867,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7116-01",
+    "id": "LXW-실크_LX_테라피_7116-01",
     "code": "7116-01",
     "name": "7116-01",
     "brand": "LX",
@@ -15881,7 +15881,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7116-02",
+    "id": "LXW-실크_LX_테라피_7116-02",
     "code": "7116-02",
     "name": "7116-02",
     "brand": "LX",
@@ -15895,7 +15895,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7116-03",
+    "id": "LXW-실크_LX_테라피_7116-03",
     "code": "7116-03",
     "name": "7116-03",
     "brand": "LX",
@@ -15909,7 +15909,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7116-04",
+    "id": "LXW-실크_LX_테라피_7116-04",
     "code": "7116-04",
     "name": "7116-04",
     "brand": "LX",
@@ -15923,7 +15923,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7116-05",
+    "id": "LXW-실크_LX_테라피_7116-05",
     "code": "7116-05",
     "name": "7116-05",
     "brand": "LX",
@@ -15937,7 +15937,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7116-06",
+    "id": "LXW-실크_LX_테라피_7116-06",
     "code": "7116-06",
     "name": "7116-06",
     "brand": "LX",
@@ -15951,7 +15951,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7116-07",
+    "id": "LXW-실크_LX_테라피_7116-07",
     "code": "7116-07",
     "name": "7116-07",
     "brand": "LX",
@@ -15965,7 +15965,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7116-08",
+    "id": "LXW-실크_LX_테라피_7116-08",
     "code": "7116-08",
     "name": "7116-08",
     "brand": "LX",
@@ -15979,7 +15979,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7117-01",
+    "id": "LXW-실크_LX_테라피_7117-01",
     "code": "7117-01",
     "name": "7117-01",
     "brand": "LX",
@@ -15993,7 +15993,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7117-02",
+    "id": "LXW-실크_LX_테라피_7117-02",
     "code": "7117-02",
     "name": "7117-02",
     "brand": "LX",
@@ -16007,7 +16007,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7117-03",
+    "id": "LXW-실크_LX_테라피_7117-03",
     "code": "7117-03",
     "name": "7117-03",
     "brand": "LX",
@@ -16021,7 +16021,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7117-04",
+    "id": "LXW-실크_LX_테라피_7117-04",
     "code": "7117-04",
     "name": "7117-04",
     "brand": "LX",
@@ -16035,7 +16035,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7117-05",
+    "id": "LXW-실크_LX_테라피_7117-05",
     "code": "7117-05",
     "name": "7117-05",
     "brand": "LX",
@@ -16049,7 +16049,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7118-01",
+    "id": "LXW-실크_LX_테라피_7118-01",
     "code": "7118-01",
     "name": "7118-01",
     "brand": "LX",
@@ -16063,7 +16063,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7118-02",
+    "id": "LXW-실크_LX_테라피_7118-02",
     "code": "7118-02",
     "name": "7118-02",
     "brand": "LX",
@@ -16077,7 +16077,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7118-03",
+    "id": "LXW-실크_LX_테라피_7118-03",
     "code": "7118-03",
     "name": "7118-03",
     "brand": "LX",
@@ -16091,7 +16091,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7118-04",
+    "id": "LXW-실크_LX_테라피_7118-04",
     "code": "7118-04",
     "name": "7118-04",
     "brand": "LX",
@@ -16105,7 +16105,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7118-05",
+    "id": "LXW-실크_LX_테라피_7118-05",
     "code": "7118-05",
     "name": "7118-05",
     "brand": "LX",
@@ -16119,7 +16119,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7119-01",
+    "id": "LXW-실크_LX_테라피_7119-01",
     "code": "7119-01",
     "name": "7119-01",
     "brand": "LX",
@@ -16133,7 +16133,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7119-02",
+    "id": "LXW-실크_LX_테라피_7119-02",
     "code": "7119-02",
     "name": "7119-02",
     "brand": "LX",
@@ -16147,7 +16147,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7119-03",
+    "id": "LXW-실크_LX_테라피_7119-03",
     "code": "7119-03",
     "name": "7119-03",
     "brand": "LX",
@@ -16161,7 +16161,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7119-04",
+    "id": "LXW-실크_LX_테라피_7119-04",
     "code": "7119-04",
     "name": "7119-04",
     "brand": "LX",
@@ -16175,7 +16175,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7120-01",
+    "id": "LXW-실크_LX_테라피_7120-01",
     "code": "7120-01",
     "name": "7120-01",
     "brand": "LX",
@@ -16189,7 +16189,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7120-02",
+    "id": "LXW-실크_LX_테라피_7120-02",
     "code": "7120-02",
     "name": "7120-02",
     "brand": "LX",
@@ -16203,7 +16203,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-7120-03",
+    "id": "LXW-실크_LX_테라피_7120-03",
     "code": "7120-03",
     "name": "7120-03",
     "brand": "LX",
@@ -16217,7 +16217,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-8190-01",
+    "id": "LXW-실크_LX_테라피_8190-01",
     "code": "8190-01",
     "name": "8190-01",
     "brand": "LX",
@@ -16231,7 +16231,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-8192-01",
+    "id": "LXW-실크_LX_테라피_8192-01",
     "code": "8192-01",
     "name": "8192-01",
     "brand": "LX",
@@ -16245,7 +16245,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-8195-01",
+    "id": "LXW-실크_LX_테라피_8195-01",
     "code": "8195-01",
     "name": "8195-01",
     "brand": "LX",
@@ -16259,7 +16259,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-8197-01",
+    "id": "LXW-실크_LX_테라피_8197-01",
     "code": "8197-01",
     "name": "8197-01",
     "brand": "LX",
@@ -16273,7 +16273,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-H8190-01",
+    "id": "LXW-실크_LX_테라피_H8190-01",
     "code": "H8190-01",
     "name": "H8190-01",
     "brand": "LX",
@@ -16287,7 +16287,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-H8194-01",
+    "id": "LXW-실크_LX_테라피_H8194-01",
     "code": "H8194-01",
     "name": "H8194-01",
     "brand": "LX",
@@ -16301,7 +16301,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-._7043-01",
+    "id": "LXW-실크_LX_테라피___MACOSX_._7043-01",
     "code": "._7043-01",
     "name": "._7043-01",
     "brand": "LX",
@@ -16315,7 +16315,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "LXW-._7043-02",
+    "id": "LXW-실크_LX_테라피___MACOSX_._7043-02",
     "code": "._7043-02",
     "name": "._7043-02",
     "brand": "LX",
@@ -16329,7 +16329,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "개나-90013-1",
+    "id": "개나-방염_90013-1",
     "code": "90013-1",
     "name": "90013-1",
     "brand": "개나리",
@@ -16343,7 +16343,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-90138-1",
+    "id": "개나-방염_90138-1",
     "code": "90138-1",
     "name": "90138-1",
     "brand": "개나리",
@@ -16357,7 +16357,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-90139-1",
+    "id": "개나-방염_90139-1",
     "code": "90139-1",
     "name": "90139-1",
     "brand": "개나리",
@@ -16371,7 +16371,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-90139-3",
+    "id": "개나-방염_90139-3",
     "code": "90139-3",
     "name": "90139-3",
     "brand": "개나리",
@@ -16385,7 +16385,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-90139-4",
+    "id": "개나-방염_90139-4",
     "code": "90139-4",
     "name": "90139-4",
     "brand": "개나리",
@@ -16399,7 +16399,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-90141-1",
+    "id": "개나-방염_90141-1",
     "code": "90141-1",
     "name": "90141-1",
     "brand": "개나리",
@@ -16413,7 +16413,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-90141-2",
+    "id": "개나-방염_90141-2",
     "code": "90141-2",
     "name": "90141-2",
     "brand": "개나리",
@@ -16427,7 +16427,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-90142-1",
+    "id": "개나-방염_90142-1",
     "code": "90142-1",
     "name": "90142-1",
     "brand": "개나리",
@@ -16441,7 +16441,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-90142-2",
+    "id": "개나-방염_90142-2",
     "code": "90142-2",
     "name": "90142-2",
     "brand": "개나리",
@@ -16455,7 +16455,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-90142-3",
+    "id": "개나-방염_90142-3",
     "code": "90142-3",
     "name": "90142-3",
     "brand": "개나리",
@@ -16469,7 +16469,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-90160-1",
+    "id": "개나-방염_90160-1",
     "code": "90160-1",
     "name": "90160-1",
     "brand": "개나리",
@@ -16483,7 +16483,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-90170-1",
+    "id": "개나-방염_90170-1",
     "code": "90170-1",
     "name": "90170-1",
     "brand": "개나리",
@@ -16497,7 +16497,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91051-1",
+    "id": "개나-방염_91051-1",
     "code": "91051-1",
     "name": "91051-1",
     "brand": "개나리",
@@ -16511,7 +16511,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91054-1",
+    "id": "개나-방염_91054-1",
     "code": "91054-1",
     "name": "91054-1",
     "brand": "개나리",
@@ -16525,7 +16525,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91180-1",
+    "id": "개나-방염_91180-1",
     "code": "91180-1",
     "name": "91180-1",
     "brand": "개나리",
@@ -16539,7 +16539,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91180-4",
+    "id": "개나-방염_91180-4",
     "code": "91180-4",
     "name": "91180-4",
     "brand": "개나리",
@@ -16553,7 +16553,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91181-1",
+    "id": "개나-방염_91181-1",
     "code": "91181-1",
     "name": "91181-1",
     "brand": "개나리",
@@ -16567,7 +16567,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91181-2",
+    "id": "개나-방염_91181-2",
     "code": "91181-2",
     "name": "91181-2",
     "brand": "개나리",
@@ -16581,7 +16581,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91182-1",
+    "id": "개나-방염_91182-1",
     "code": "91182-1",
     "name": "91182-1",
     "brand": "개나리",
@@ -16595,7 +16595,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91182-2",
+    "id": "개나-방염_91182-2",
     "code": "91182-2",
     "name": "91182-2",
     "brand": "개나리",
@@ -16609,7 +16609,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91182-3",
+    "id": "개나-방염_91182-3",
     "code": "91182-3",
     "name": "91182-3",
     "brand": "개나리",
@@ -16623,7 +16623,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91185-1",
+    "id": "개나-방염_91185-1",
     "code": "91185-1",
     "name": "91185-1",
     "brand": "개나리",
@@ -16637,7 +16637,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91185-2",
+    "id": "개나-방염_91185-2",
     "code": "91185-2",
     "name": "91185-2",
     "brand": "개나리",
@@ -16651,7 +16651,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91185-4",
+    "id": "개나-방염_91185-4",
     "code": "91185-4",
     "name": "91185-4",
     "brand": "개나리",
@@ -16665,7 +16665,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91186-1",
+    "id": "개나-방염_91186-1",
     "code": "91186-1",
     "name": "91186-1",
     "brand": "개나리",
@@ -16679,7 +16679,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91186-3",
+    "id": "개나-방염_91186-3",
     "code": "91186-3",
     "name": "91186-3",
     "brand": "개나리",
@@ -16693,7 +16693,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91187-1",
+    "id": "개나-방염_91187-1",
     "code": "91187-1",
     "name": "91187-1",
     "brand": "개나리",
@@ -16707,7 +16707,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91187-2",
+    "id": "개나-방염_91187-2",
     "code": "91187-2",
     "name": "91187-2",
     "brand": "개나리",
@@ -16721,7 +16721,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91187-4",
+    "id": "개나-방염_91187-4",
     "code": "91187-4",
     "name": "91187-4",
     "brand": "개나리",
@@ -16735,7 +16735,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91187-5",
+    "id": "개나-방염_91187-5",
     "code": "91187-5",
     "name": "91187-5",
     "brand": "개나리",
@@ -16749,7 +16749,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91190-1",
+    "id": "개나-방염_91190-1",
     "code": "91190-1",
     "name": "91190-1",
     "brand": "개나리",
@@ -16763,7 +16763,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91190-2",
+    "id": "개나-방염_91190-2",
     "code": "91190-2",
     "name": "91190-2",
     "brand": "개나리",
@@ -16777,7 +16777,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91193-1",
+    "id": "개나-방염_91193-1",
     "code": "91193-1",
     "name": "91193-1",
     "brand": "개나리",
@@ -16791,7 +16791,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91193-2",
+    "id": "개나-방염_91193-2",
     "code": "91193-2",
     "name": "91193-2",
     "brand": "개나리",
@@ -16805,7 +16805,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91193-3",
+    "id": "개나-방염_91193-3",
     "code": "91193-3",
     "name": "91193-3",
     "brand": "개나리",
@@ -16819,7 +16819,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91194-1",
+    "id": "개나-방염_91194-1",
     "code": "91194-1",
     "name": "91194-1",
     "brand": "개나리",
@@ -16833,7 +16833,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91194-2",
+    "id": "개나-방염_91194-2",
     "code": "91194-2",
     "name": "91194-2",
     "brand": "개나리",
@@ -16847,7 +16847,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91196-1",
+    "id": "개나-방염_91196-1",
     "code": "91196-1",
     "name": "91196-1",
     "brand": "개나리",
@@ -16861,7 +16861,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91196-2",
+    "id": "개나-방염_91196-2",
     "code": "91196-2",
     "name": "91196-2",
     "brand": "개나리",
@@ -16875,7 +16875,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91196-3",
+    "id": "개나-방염_91196-3",
     "code": "91196-3",
     "name": "91196-3",
     "brand": "개나리",
@@ -16889,7 +16889,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91197-1",
+    "id": "개나-방염_91197-1",
     "code": "91197-1",
     "name": "91197-1",
     "brand": "개나리",
@@ -16903,7 +16903,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91197-2",
+    "id": "개나-방염_91197-2",
     "code": "91197-2",
     "name": "91197-2",
     "brand": "개나리",
@@ -16917,7 +16917,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91197-3",
+    "id": "개나-방염_91197-3",
     "code": "91197-3",
     "name": "91197-3",
     "brand": "개나리",
@@ -16931,7 +16931,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91197-4",
+    "id": "개나-방염_91197-4",
     "code": "91197-4",
     "name": "91197-4",
     "brand": "개나리",
@@ -16945,7 +16945,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91198-1",
+    "id": "개나-방염_91198-1",
     "code": "91198-1",
     "name": "91198-1",
     "brand": "개나리",
@@ -16959,7 +16959,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91198-2",
+    "id": "개나-방염_91198-2",
     "code": "91198-2",
     "name": "91198-2",
     "brand": "개나리",
@@ -16973,7 +16973,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91198-3",
+    "id": "개나-방염_91198-3",
     "code": "91198-3",
     "name": "91198-3",
     "brand": "개나리",
@@ -16987,7 +16987,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91198-4",
+    "id": "개나-방염_91198-4",
     "code": "91198-4",
     "name": "91198-4",
     "brand": "개나리",
@@ -17001,7 +17001,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91198-5",
+    "id": "개나-방염_91198-5",
     "code": "91198-5",
     "name": "91198-5",
     "brand": "개나리",
@@ -17015,7 +17015,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91199-1",
+    "id": "개나-방염_91199-1",
     "code": "91199-1",
     "name": "91199-1",
     "brand": "개나리",
@@ -17029,7 +17029,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91199-2",
+    "id": "개나-방염_91199-2",
     "code": "91199-2",
     "name": "91199-2",
     "brand": "개나리",
@@ -17043,7 +17043,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91199-3",
+    "id": "개나-방염_91199-3",
     "code": "91199-3",
     "name": "91199-3",
     "brand": "개나리",
@@ -17057,7 +17057,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91200-1",
+    "id": "개나-방염_91200-1",
     "code": "91200-1",
     "name": "91200-1",
     "brand": "개나리",
@@ -17071,7 +17071,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91200-2",
+    "id": "개나-방염_91200-2",
     "code": "91200-2",
     "name": "91200-2",
     "brand": "개나리",
@@ -17085,7 +17085,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91200-3",
+    "id": "개나-방염_91200-3",
     "code": "91200-3",
     "name": "91200-3",
     "brand": "개나리",
@@ -17099,7 +17099,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91201-1",
+    "id": "개나-방염_91201-1",
     "code": "91201-1",
     "name": "91201-1",
     "brand": "개나리",
@@ -17113,7 +17113,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91201-2",
+    "id": "개나-방염_91201-2",
     "code": "91201-2",
     "name": "91201-2",
     "brand": "개나리",
@@ -17127,7 +17127,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91201-3",
+    "id": "개나-방염_91201-3",
     "code": "91201-3",
     "name": "91201-3",
     "brand": "개나리",
@@ -17141,7 +17141,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91202-1",
+    "id": "개나-방염_91202-1",
     "code": "91202-1",
     "name": "91202-1",
     "brand": "개나리",
@@ -17155,7 +17155,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91202-3",
+    "id": "개나-방염_91202-3",
     "code": "91202-3",
     "name": "91202-3",
     "brand": "개나리",
@@ -17169,7 +17169,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91203-1",
+    "id": "개나-방염_91203-1",
     "code": "91203-1",
     "name": "91203-1",
     "brand": "개나리",
@@ -17183,7 +17183,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91203-2",
+    "id": "개나-방염_91203-2",
     "code": "91203-2",
     "name": "91203-2",
     "brand": "개나리",
@@ -17197,7 +17197,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91203-3",
+    "id": "개나-방염_91203-3",
     "code": "91203-3",
     "name": "91203-3",
     "brand": "개나리",
@@ -17211,7 +17211,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91203-4",
+    "id": "개나-방염_91203-4",
     "code": "91203-4",
     "name": "91203-4",
     "brand": "개나리",
@@ -17225,7 +17225,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91204-1",
+    "id": "개나-방염_91204-1",
     "code": "91204-1",
     "name": "91204-1",
     "brand": "개나리",
@@ -17239,7 +17239,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91204-2",
+    "id": "개나-방염_91204-2",
     "code": "91204-2",
     "name": "91204-2",
     "brand": "개나리",
@@ -17253,7 +17253,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91204-3",
+    "id": "개나-방염_91204-3",
     "code": "91204-3",
     "name": "91204-3",
     "brand": "개나리",
@@ -17267,7 +17267,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91205-1",
+    "id": "개나-방염_91205-1",
     "code": "91205-1",
     "name": "91205-1",
     "brand": "개나리",
@@ -17281,7 +17281,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91205-2",
+    "id": "개나-방염_91205-2",
     "code": "91205-2",
     "name": "91205-2",
     "brand": "개나리",
@@ -17295,7 +17295,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91205-3",
+    "id": "개나-방염_91205-3",
     "code": "91205-3",
     "name": "91205-3",
     "brand": "개나리",
@@ -17309,7 +17309,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-91205-4",
+    "id": "개나-방염_91205-4",
     "code": "91205-4",
     "name": "91205-4",
     "brand": "개나리",
@@ -17323,7 +17323,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-92101-1",
+    "id": "개나-방염_92101-1",
     "code": "92101-1",
     "name": "92101-1",
     "brand": "개나리",
@@ -17337,7 +17337,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-92101-2",
+    "id": "개나-방염_92101-2",
     "code": "92101-2",
     "name": "92101-2",
     "brand": "개나리",
@@ -17351,7 +17351,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-92102-1",
+    "id": "개나-방염_92102-1",
     "code": "92102-1",
     "name": "92102-1",
     "brand": "개나리",
@@ -17365,7 +17365,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-92102-2",
+    "id": "개나-방염_92102-2",
     "code": "92102-2",
     "name": "92102-2",
     "brand": "개나리",
@@ -17379,7 +17379,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-54013-1",
+    "id": "개나-실크_로하스_54013-1",
     "code": "54013-1",
     "name": "54013-1",
     "brand": "개나리",
@@ -17399,7 +17399,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-54013-2",
+    "id": "개나-실크_로하스_54013-2",
     "code": "54013-2",
     "name": "54013-2",
     "brand": "개나리",
@@ -17419,7 +17419,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-54160-1",
+    "id": "개나-실크_로하스_54160-1",
     "code": "54160-1",
     "name": "54160-1",
     "brand": "개나리",
@@ -17439,7 +17439,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-54160-2",
+    "id": "개나-실크_로하스_54160-2",
     "code": "54160-2",
     "name": "54160-2",
     "brand": "개나리",
@@ -17459,7 +17459,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-54170-1",
+    "id": "개나-실크_로하스_54170-1",
     "code": "54170-1",
     "name": "54170-1",
     "brand": "개나리",
@@ -17479,7 +17479,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-54170-2",
+    "id": "개나-실크_로하스_54170-2",
     "code": "54170-2",
     "name": "54170-2",
     "brand": "개나리",
@@ -17499,7 +17499,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87440-1",
+    "id": "개나-실크_로하스_87440-1",
     "code": "87440-1",
     "name": "87440-1",
     "brand": "개나리",
@@ -17519,7 +17519,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87440-3",
+    "id": "개나-실크_로하스_87440-3",
     "code": "87440-3",
     "name": "87440-3",
     "brand": "개나리",
@@ -17539,7 +17539,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87444-1",
+    "id": "개나-실크_로하스_87444-1",
     "code": "87444-1",
     "name": "87444-1",
     "brand": "개나리",
@@ -17559,7 +17559,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87444-10",
+    "id": "개나-실크_로하스_87444-10",
     "code": "87444-10",
     "name": "87444-10",
     "brand": "개나리",
@@ -17579,7 +17579,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87444-2",
+    "id": "개나-실크_로하스_87444-2",
     "code": "87444-2",
     "name": "87444-2",
     "brand": "개나리",
@@ -17599,7 +17599,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87444-9",
+    "id": "개나-실크_로하스_87444-9",
     "code": "87444-9",
     "name": "87444-9",
     "brand": "개나리",
@@ -17619,7 +17619,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87450-1",
+    "id": "개나-실크_로하스_87450-1",
     "code": "87450-1",
     "name": "87450-1",
     "brand": "개나리",
@@ -17639,7 +17639,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87450-2",
+    "id": "개나-실크_로하스_87450-2",
     "code": "87450-2",
     "name": "87450-2",
     "brand": "개나리",
@@ -17659,7 +17659,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87450-3",
+    "id": "개나-실크_로하스_87450-3",
     "code": "87450-3",
     "name": "87450-3",
     "brand": "개나리",
@@ -17679,7 +17679,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87451-1",
+    "id": "개나-실크_로하스_87451-1",
     "code": "87451-1",
     "name": "87451-1 (2)",
     "brand": "개나리",
@@ -17699,7 +17699,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87451-2",
+    "id": "개나-실크_로하스_87451-2",
     "code": "87451-2",
     "name": "87451-2",
     "brand": "개나리",
@@ -17719,7 +17719,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87451-4",
+    "id": "개나-실크_로하스_87451-4",
     "code": "87451-4",
     "name": "87451-4",
     "brand": "개나리",
@@ -17739,7 +17739,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87451-5",
+    "id": "개나-실크_로하스_87451-5",
     "code": "87451-5",
     "name": "87451-5",
     "brand": "개나리",
@@ -17759,7 +17759,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87451-6",
+    "id": "개나-실크_로하스_87451-6",
     "code": "87451-6",
     "name": "87451-6 (2)",
     "brand": "개나리",
@@ -17779,7 +17779,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87451-7",
+    "id": "개나-실크_로하스_87451-7",
     "code": "87451-7",
     "name": "87451-7",
     "brand": "개나리",
@@ -17799,7 +17799,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87453-1",
+    "id": "개나-실크_로하스_87453-1",
     "code": "87453-1",
     "name": "87453-1",
     "brand": "개나리",
@@ -17819,7 +17819,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87453-2",
+    "id": "개나-실크_로하스_87453-2",
     "code": "87453-2",
     "name": "87453-2",
     "brand": "개나리",
@@ -17839,7 +17839,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87453-3",
+    "id": "개나-실크_로하스_87453-3",
     "code": "87453-3",
     "name": "87453-3",
     "brand": "개나리",
@@ -17859,7 +17859,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87453-6",
+    "id": "개나-실크_로하스_87453-6",
     "code": "87453-6",
     "name": "87453-6 (2)",
     "brand": "개나리",
@@ -17879,7 +17879,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87454-1",
+    "id": "개나-실크_로하스_87454-1",
     "code": "87454-1",
     "name": "87454-1",
     "brand": "개나리",
@@ -17899,7 +17899,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87454-2",
+    "id": "개나-실크_로하스_87454-2",
     "code": "87454-2",
     "name": "87454-2",
     "brand": "개나리",
@@ -17919,7 +17919,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87454-3",
+    "id": "개나-실크_로하스_87454-3",
     "code": "87454-3",
     "name": "87454-3",
     "brand": "개나리",
@@ -17939,7 +17939,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87454-4",
+    "id": "개나-실크_로하스_87454-4",
     "code": "87454-4",
     "name": "87454-4",
     "brand": "개나리",
@@ -17959,7 +17959,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87454-5",
+    "id": "개나-실크_로하스_87454-5",
     "code": "87454-5",
     "name": "87454-5 (2)",
     "brand": "개나리",
@@ -17979,7 +17979,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87456-1",
+    "id": "개나-실크_로하스_87456-1",
     "code": "87456-1",
     "name": "87456-1 (2)",
     "brand": "개나리",
@@ -17999,7 +17999,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87456-2",
+    "id": "개나-실크_로하스_87456-2",
     "code": "87456-2",
     "name": "87456-2",
     "brand": "개나리",
@@ -18019,7 +18019,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87456-3",
+    "id": "개나-실크_로하스_87456-3",
     "code": "87456-3",
     "name": "87456-3 (2)",
     "brand": "개나리",
@@ -18039,7 +18039,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87456-4",
+    "id": "개나-실크_로하스_87456-4",
     "code": "87456-4",
     "name": "87456-4 (2)",
     "brand": "개나리",
@@ -18059,7 +18059,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87456-5",
+    "id": "개나-실크_로하스_87456-5",
     "code": "87456-5",
     "name": "87456-5 (2)",
     "brand": "개나리",
@@ -18079,7 +18079,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87456-6",
+    "id": "개나-실크_로하스_87456-6",
     "code": "87456-6",
     "name": "87456-6 (2)",
     "brand": "개나리",
@@ -18099,7 +18099,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87456-7",
+    "id": "개나-실크_로하스_87456-7",
     "code": "87456-7",
     "name": "87456-7 (2)",
     "brand": "개나리",
@@ -18119,7 +18119,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87457-1",
+    "id": "개나-실크_로하스_87457-1",
     "code": "87457-1",
     "name": "87457-1 (2)",
     "brand": "개나리",
@@ -18139,7 +18139,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87457-2",
+    "id": "개나-실크_로하스_87457-2",
     "code": "87457-2",
     "name": "87457-2 (2)",
     "brand": "개나리",
@@ -18159,7 +18159,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87457-3",
+    "id": "개나-실크_로하스_87457-3",
     "code": "87457-3",
     "name": "87457-3 (2)",
     "brand": "개나리",
@@ -18179,7 +18179,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87457-4",
+    "id": "개나-실크_로하스_87457-4",
     "code": "87457-4",
     "name": "87457-4 (2)",
     "brand": "개나리",
@@ -18199,7 +18199,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87459-1",
+    "id": "개나-실크_로하스_87459-1",
     "code": "87459-1",
     "name": "87459-1",
     "brand": "개나리",
@@ -18219,7 +18219,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87459-2",
+    "id": "개나-실크_로하스_87459-2",
     "code": "87459-2",
     "name": "87459-2",
     "brand": "개나리",
@@ -18239,7 +18239,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87459-3",
+    "id": "개나-실크_로하스_87459-3",
     "code": "87459-3",
     "name": "87459-3",
     "brand": "개나리",
@@ -18259,7 +18259,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87459-4",
+    "id": "개나-실크_로하스_87459-4",
     "code": "87459-4",
     "name": "87459-4 (2)",
     "brand": "개나리",
@@ -18279,7 +18279,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87459-5",
+    "id": "개나-실크_로하스_87459-5",
     "code": "87459-5",
     "name": "87459-5",
     "brand": "개나리",
@@ -18299,7 +18299,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87459-6",
+    "id": "개나-실크_로하스_87459-6",
     "code": "87459-6",
     "name": "87459-6 (2)",
     "brand": "개나리",
@@ -18319,7 +18319,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87460-1",
+    "id": "개나-실크_로하스_87460-1",
     "code": "87460-1",
     "name": "87460-1 (2)",
     "brand": "개나리",
@@ -18339,7 +18339,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87460-2",
+    "id": "개나-실크_로하스_87460-2",
     "code": "87460-2",
     "name": "87460-2 (2)",
     "brand": "개나리",
@@ -18359,7 +18359,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87460-3",
+    "id": "개나-실크_로하스_87460-3",
     "code": "87460-3",
     "name": "87460-3 (2)",
     "brand": "개나리",
@@ -18379,7 +18379,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87460-4",
+    "id": "개나-실크_로하스_87460-4",
     "code": "87460-4",
     "name": "87460-4 (2)",
     "brand": "개나리",
@@ -18399,7 +18399,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87460-5",
+    "id": "개나-실크_로하스_87460-5",
     "code": "87460-5",
     "name": "87460-5 (2)",
     "brand": "개나리",
@@ -18419,7 +18419,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87460-6",
+    "id": "개나-실크_로하스_87460-6",
     "code": "87460-6",
     "name": "87460-6 (2)",
     "brand": "개나리",
@@ -18439,7 +18439,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87460-7",
+    "id": "개나-실크_로하스_87460-7",
     "code": "87460-7",
     "name": "87460-7 (2)",
     "brand": "개나리",
@@ -18459,7 +18459,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87460-8",
+    "id": "개나-실크_로하스_87460-8",
     "code": "87460-8",
     "name": "87460-8 (2)",
     "brand": "개나리",
@@ -18479,7 +18479,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87461-1",
+    "id": "개나-실크_로하스_87461-1",
     "code": "87461-1",
     "name": "87461-1 (2)",
     "brand": "개나리",
@@ -18499,7 +18499,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87461-2",
+    "id": "개나-실크_로하스_87461-2",
     "code": "87461-2",
     "name": "87461-2 (2)",
     "brand": "개나리",
@@ -18519,7 +18519,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87461-3",
+    "id": "개나-실크_로하스_87461-3",
     "code": "87461-3",
     "name": "87461-3",
     "brand": "개나리",
@@ -18539,7 +18539,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87461-4",
+    "id": "개나-실크_로하스_87461-4",
     "code": "87461-4",
     "name": "87461-4",
     "brand": "개나리",
@@ -18559,7 +18559,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87461-5",
+    "id": "개나-실크_로하스_87461-5",
     "code": "87461-5",
     "name": "87461-5 (2)",
     "brand": "개나리",
@@ -18579,7 +18579,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87461-6",
+    "id": "개나-실크_로하스_87461-6",
     "code": "87461-6",
     "name": "87461-6",
     "brand": "개나리",
@@ -18599,7 +18599,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87461-7",
+    "id": "개나-실크_로하스_87461-7",
     "code": "87461-7",
     "name": "87461-7",
     "brand": "개나리",
@@ -18619,7 +18619,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87461-9",
+    "id": "개나-실크_로하스_87461-9",
     "code": "87461-9",
     "name": "87461-9 (2)",
     "brand": "개나리",
@@ -18639,7 +18639,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87462-1",
+    "id": "개나-실크_로하스_87462-1",
     "code": "87462-1",
     "name": "87462-1",
     "brand": "개나리",
@@ -18659,7 +18659,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87462-2",
+    "id": "개나-실크_로하스_87462-2",
     "code": "87462-2",
     "name": "87462-2",
     "brand": "개나리",
@@ -18679,7 +18679,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87463-1",
+    "id": "개나-실크_로하스_87463-1",
     "code": "87463-1",
     "name": "87463-1",
     "brand": "개나리",
@@ -18699,7 +18699,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87463-2",
+    "id": "개나-실크_로하스_87463-2",
     "code": "87463-2",
     "name": "87463-2",
     "brand": "개나리",
@@ -18719,7 +18719,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87463-3",
+    "id": "개나-실크_로하스_87463-3",
     "code": "87463-3",
     "name": "87463-3",
     "brand": "개나리",
@@ -18739,7 +18739,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87463-4",
+    "id": "개나-실크_로하스_87463-4",
     "code": "87463-4",
     "name": "87463-4 (2)",
     "brand": "개나리",
@@ -18759,7 +18759,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87463-5",
+    "id": "개나-실크_로하스_87463-5",
     "code": "87463-5",
     "name": "87463-5 (2)",
     "brand": "개나리",
@@ -18779,7 +18779,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87463-6",
+    "id": "개나-실크_로하스_87463-6",
     "code": "87463-6",
     "name": "87463-6 (2)",
     "brand": "개나리",
@@ -18799,7 +18799,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87464-1",
+    "id": "개나-실크_로하스_87464-1",
     "code": "87464-1",
     "name": "87464-1",
     "brand": "개나리",
@@ -18819,7 +18819,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87464-2",
+    "id": "개나-실크_로하스_87464-2",
     "code": "87464-2",
     "name": "87464-2 (2)",
     "brand": "개나리",
@@ -18839,7 +18839,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87464-3",
+    "id": "개나-실크_로하스_87464-3",
     "code": "87464-3",
     "name": "87464-3 (2)",
     "brand": "개나리",
@@ -18859,7 +18859,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87464-4",
+    "id": "개나-실크_로하스_87464-4",
     "code": "87464-4",
     "name": "87464-4 (2)",
     "brand": "개나리",
@@ -18879,7 +18879,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87465-1",
+    "id": "개나-실크_로하스_87465-1",
     "code": "87465-1",
     "name": "87465-1",
     "brand": "개나리",
@@ -18899,7 +18899,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87465-2",
+    "id": "개나-실크_로하스_87465-2",
     "code": "87465-2",
     "name": "87465-2 (2)",
     "brand": "개나리",
@@ -18919,7 +18919,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87465-3",
+    "id": "개나-실크_로하스_87465-3",
     "code": "87465-3",
     "name": "87465-3",
     "brand": "개나리",
@@ -18939,7 +18939,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87465-4",
+    "id": "개나-실크_로하스_87465-4",
     "code": "87465-4",
     "name": "87465-4",
     "brand": "개나리",
@@ -18959,7 +18959,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87466-1",
+    "id": "개나-실크_로하스_87466-1",
     "code": "87466-1",
     "name": "87466-1",
     "brand": "개나리",
@@ -18979,7 +18979,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87466-2",
+    "id": "개나-실크_로하스_87466-2",
     "code": "87466-2",
     "name": "87466-2",
     "brand": "개나리",
@@ -18999,7 +18999,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87467-1",
+    "id": "개나-실크_로하스_87467-1",
     "code": "87467-1",
     "name": "87467-1 (2)",
     "brand": "개나리",
@@ -19019,7 +19019,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87467-2",
+    "id": "개나-실크_로하스_87467-2",
     "code": "87467-2",
     "name": "87467-2 (2)",
     "brand": "개나리",
@@ -19039,7 +19039,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87467-3",
+    "id": "개나-실크_로하스_87467-3",
     "code": "87467-3",
     "name": "87467-3",
     "brand": "개나리",
@@ -19059,7 +19059,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87467-4",
+    "id": "개나-실크_로하스_87467-4",
     "code": "87467-4",
     "name": "87467-4 (2)",
     "brand": "개나리",
@@ -19079,7 +19079,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87467-5",
+    "id": "개나-실크_로하스_87467-5",
     "code": "87467-5",
     "name": "87467-5",
     "brand": "개나리",
@@ -19099,7 +19099,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87468-1",
+    "id": "개나-실크_로하스_87468-1",
     "code": "87468-1",
     "name": "87468-1 (2)",
     "brand": "개나리",
@@ -19119,7 +19119,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87468-2",
+    "id": "개나-실크_로하스_87468-2",
     "code": "87468-2",
     "name": "87468-2 (2)",
     "brand": "개나리",
@@ -19139,7 +19139,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87468-3",
+    "id": "개나-실크_로하스_87468-3",
     "code": "87468-3",
     "name": "87468-3 (2)",
     "brand": "개나리",
@@ -19159,7 +19159,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87468-4",
+    "id": "개나-실크_로하스_87468-4",
     "code": "87468-4",
     "name": "87468-4",
     "brand": "개나리",
@@ -19179,7 +19179,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87468-5",
+    "id": "개나-실크_로하스_87468-5",
     "code": "87468-5",
     "name": "87468-5 (2)",
     "brand": "개나리",
@@ -19199,7 +19199,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87468-6",
+    "id": "개나-실크_로하스_87468-6",
     "code": "87468-6",
     "name": "87468-6 (2)",
     "brand": "개나리",
@@ -19219,7 +19219,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87468-7",
+    "id": "개나-실크_로하스_87468-7",
     "code": "87468-7",
     "name": "87468-7 (2)",
     "brand": "개나리",
@@ -19239,7 +19239,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87469-1",
+    "id": "개나-실크_로하스_87469-1",
     "code": "87469-1",
     "name": "87469-1 (2)",
     "brand": "개나리",
@@ -19259,7 +19259,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87469-2",
+    "id": "개나-실크_로하스_87469-2",
     "code": "87469-2",
     "name": "87469-2 (2)",
     "brand": "개나리",
@@ -19279,7 +19279,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87469-3",
+    "id": "개나-실크_로하스_87469-3",
     "code": "87469-3",
     "name": "87469-3 (2)",
     "brand": "개나리",
@@ -19299,7 +19299,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87469-4",
+    "id": "개나-실크_로하스_87469-4",
     "code": "87469-4",
     "name": "87469-4 (2)",
     "brand": "개나리",
@@ -19319,7 +19319,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87469-5",
+    "id": "개나-실크_로하스_87469-5",
     "code": "87469-5",
     "name": "87469-5 (2)",
     "brand": "개나리",
@@ -19339,7 +19339,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87470-1",
+    "id": "개나-실크_로하스_87470-1",
     "code": "87470-1",
     "name": "87470-1 (2)",
     "brand": "개나리",
@@ -19359,7 +19359,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87470-2",
+    "id": "개나-실크_로하스_87470-2",
     "code": "87470-2",
     "name": "87470-2 (2)",
     "brand": "개나리",
@@ -19379,7 +19379,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87470-3",
+    "id": "개나-실크_로하스_87470-3",
     "code": "87470-3",
     "name": "87470-3 (2)",
     "brand": "개나리",
@@ -19399,7 +19399,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87470-4",
+    "id": "개나-실크_로하스_87470-4",
     "code": "87470-4",
     "name": "87470-4",
     "brand": "개나리",
@@ -19419,7 +19419,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87471-1",
+    "id": "개나-실크_로하스_87471-1",
     "code": "87471-1",
     "name": "87471-1 (2)",
     "brand": "개나리",
@@ -19439,7 +19439,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87471-2",
+    "id": "개나-실크_로하스_87471-2",
     "code": "87471-2",
     "name": "87471-2 (2)",
     "brand": "개나리",
@@ -19459,7 +19459,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87471-3",
+    "id": "개나-실크_로하스_87471-3",
     "code": "87471-3",
     "name": "87471-3 (2)",
     "brand": "개나리",
@@ -19479,7 +19479,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87471-4",
+    "id": "개나-실크_로하스_87471-4",
     "code": "87471-4",
     "name": "87471-4",
     "brand": "개나리",
@@ -19499,7 +19499,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87471-5",
+    "id": "개나-실크_로하스_87471-5",
     "code": "87471-5",
     "name": "87471-5 (2)",
     "brand": "개나리",
@@ -19519,7 +19519,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87472-1",
+    "id": "개나-실크_로하스_87472-1",
     "code": "87472-1",
     "name": "87472-1",
     "brand": "개나리",
@@ -19539,7 +19539,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87473-1",
+    "id": "개나-실크_로하스_87473-1",
     "code": "87473-1",
     "name": "87473-1",
     "brand": "개나리",
@@ -19559,7 +19559,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87473-2",
+    "id": "개나-실크_로하스_87473-2",
     "code": "87473-2",
     "name": "87473-2",
     "brand": "개나리",
@@ -19579,7 +19579,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87474-1",
+    "id": "개나-실크_로하스_87474-1",
     "code": "87474-1",
     "name": "87474-1 (2)",
     "brand": "개나리",
@@ -19599,7 +19599,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87474-2",
+    "id": "개나-실크_로하스_87474-2",
     "code": "87474-2",
     "name": "87474-2 (2)",
     "brand": "개나리",
@@ -19619,7 +19619,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87474-3",
+    "id": "개나-실크_로하스_87474-3",
     "code": "87474-3",
     "name": "87474-3 (2)",
     "brand": "개나리",
@@ -19639,7 +19639,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87474-4",
+    "id": "개나-실크_로하스_87474-4",
     "code": "87474-4",
     "name": "87474-4",
     "brand": "개나리",
@@ -19659,7 +19659,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87475-1",
+    "id": "개나-실크_로하스_87475-1",
     "code": "87475-1",
     "name": "87475-1 (2)",
     "brand": "개나리",
@@ -19679,7 +19679,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87475-2",
+    "id": "개나-실크_로하스_87475-2",
     "code": "87475-2",
     "name": "87475-2 (2)",
     "brand": "개나리",
@@ -19699,7 +19699,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87475-3",
+    "id": "개나-실크_로하스_87475-3",
     "code": "87475-3",
     "name": "87475-3 (2)",
     "brand": "개나리",
@@ -19719,7 +19719,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87475-4",
+    "id": "개나-실크_로하스_87475-4",
     "code": "87475-4",
     "name": "87475-4 (2)",
     "brand": "개나리",
@@ -19739,7 +19739,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87475-5",
+    "id": "개나-실크_로하스_87475-5",
     "code": "87475-5",
     "name": "87475-5",
     "brand": "개나리",
@@ -19759,7 +19759,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87476-1",
+    "id": "개나-실크_로하스_87476-1",
     "code": "87476-1",
     "name": "87476-1 (2)",
     "brand": "개나리",
@@ -19779,7 +19779,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87476-2",
+    "id": "개나-실크_로하스_87476-2",
     "code": "87476-2",
     "name": "87476-2 (2)",
     "brand": "개나리",
@@ -19799,7 +19799,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87476-3",
+    "id": "개나-실크_로하스_87476-3",
     "code": "87476-3",
     "name": "87476-3 (2)",
     "brand": "개나리",
@@ -19819,7 +19819,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87476-4",
+    "id": "개나-실크_로하스_87476-4",
     "code": "87476-4",
     "name": "87476-4 (2)",
     "brand": "개나리",
@@ -19839,7 +19839,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87476-5",
+    "id": "개나-실크_로하스_87476-5",
     "code": "87476-5",
     "name": "87476-5 (2)",
     "brand": "개나리",
@@ -19859,7 +19859,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87476-6",
+    "id": "개나-실크_로하스_87476-6",
     "code": "87476-6",
     "name": "87476-6 (2)",
     "brand": "개나리",
@@ -19879,7 +19879,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87477-1",
+    "id": "개나-실크_로하스_87477-1",
     "code": "87477-1",
     "name": "87477-1",
     "brand": "개나리",
@@ -19899,7 +19899,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87477-2",
+    "id": "개나-실크_로하스_87477-2",
     "code": "87477-2",
     "name": "87477-2",
     "brand": "개나리",
@@ -19919,7 +19919,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87477-3",
+    "id": "개나-실크_로하스_87477-3",
     "code": "87477-3",
     "name": "87477-3",
     "brand": "개나리",
@@ -19939,7 +19939,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-87477-4",
+    "id": "개나-실크_로하스_87477-4",
     "code": "87477-4",
     "name": "87477-4",
     "brand": "개나리",
@@ -19959,7 +19959,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-54013-1",
+    "id": "개나-실크_아트북_54013-1",
     "code": "54013-1",
     "name": "54013-1",
     "brand": "개나리",
@@ -19979,7 +19979,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-54013-2",
+    "id": "개나-실크_아트북_54013-2",
     "code": "54013-2",
     "name": "54013-2",
     "brand": "개나리",
@@ -19999,7 +19999,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-54160-1",
+    "id": "개나-실크_아트북_54160-1",
     "code": "54160-1",
     "name": "54160-1",
     "brand": "개나리",
@@ -20019,7 +20019,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-54160-2",
+    "id": "개나-실크_아트북_54160-2",
     "code": "54160-2",
     "name": "54160-2",
     "brand": "개나리",
@@ -20039,7 +20039,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-54170-1",
+    "id": "개나-실크_아트북_54170-1",
     "code": "54170-1",
     "name": "54170-1",
     "brand": "개나리",
@@ -20059,7 +20059,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-54170-2",
+    "id": "개나-실크_아트북_54170-2",
     "code": "54170-2",
     "name": "54170-2",
     "brand": "개나리",
@@ -20079,7 +20079,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57160-1",
+    "id": "개나-실크_아트북_57160-1",
     "code": "57160-1",
     "name": "57160-1",
     "brand": "개나리",
@@ -20099,7 +20099,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57160-28",
+    "id": "개나-실크_아트북_57160-28",
     "code": "57160-28",
     "name": "57160-28",
     "brand": "개나리",
@@ -20119,7 +20119,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57160-39",
+    "id": "개나-실크_아트북_57160-39",
     "code": "57160-39",
     "name": "57160-39",
     "brand": "개나리",
@@ -20139,7 +20139,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57160-40",
+    "id": "개나-실크_아트북_57160-40",
     "code": "57160-40",
     "name": "57160-40",
     "brand": "개나리",
@@ -20159,7 +20159,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57190-1",
+    "id": "개나-실크_아트북_57190-1",
     "code": "57190-1",
     "name": "57190-1",
     "brand": "개나리",
@@ -20179,7 +20179,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57190-2",
+    "id": "개나-실크_아트북_57190-2",
     "code": "57190-2",
     "name": "57190-2",
     "brand": "개나리",
@@ -20199,7 +20199,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57190-3",
+    "id": "개나-실크_아트북_57190-3",
     "code": "57190-3",
     "name": "57190-3",
     "brand": "개나리",
@@ -20219,7 +20219,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57190-5",
+    "id": "개나-실크_아트북_57190-5",
     "code": "57190-5",
     "name": "57190-5",
     "brand": "개나리",
@@ -20239,7 +20239,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57196-1",
+    "id": "개나-실크_아트북_57196-1",
     "code": "57196-1",
     "name": "57196-1",
     "brand": "개나리",
@@ -20259,7 +20259,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57196-2",
+    "id": "개나-실크_아트북_57196-2",
     "code": "57196-2",
     "name": "57196-2",
     "brand": "개나리",
@@ -20279,7 +20279,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57196-3",
+    "id": "개나-실크_아트북_57196-3",
     "code": "57196-3",
     "name": "57196-3",
     "brand": "개나리",
@@ -20299,7 +20299,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57196-6",
+    "id": "개나-실크_아트북_57196-6",
     "code": "57196-6",
     "name": "57196-6",
     "brand": "개나리",
@@ -20319,7 +20319,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57196-9",
+    "id": "개나-실크_아트북_57196-9",
     "code": "57196-9",
     "name": "57196-9",
     "brand": "개나리",
@@ -20339,7 +20339,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57198-1_p48",
+    "id": "개나-실크_아트북_57198-1_p48",
     "code": "57198-1_p48",
     "name": "57198-1_p48",
     "brand": "개나리",
@@ -20359,7 +20359,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57198-3",
+    "id": "개나-실크_아트북_57198-3",
     "code": "57198-3",
     "name": "57198-3",
     "brand": "개나리",
@@ -20379,7 +20379,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57205-1",
+    "id": "개나-실크_아트북_57205-1",
     "code": "57205-1",
     "name": "57205-1",
     "brand": "개나리",
@@ -20399,7 +20399,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57205-2",
+    "id": "개나-실크_아트북_57205-2",
     "code": "57205-2",
     "name": "57205-2",
     "brand": "개나리",
@@ -20419,7 +20419,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57205-3",
+    "id": "개나-실크_아트북_57205-3",
     "code": "57205-3",
     "name": "57205-3",
     "brand": "개나리",
@@ -20439,7 +20439,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57205-5",
+    "id": "개나-실크_아트북_57205-5",
     "code": "57205-5",
     "name": "57205-5",
     "brand": "개나리",
@@ -20459,7 +20459,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57206-1",
+    "id": "개나-실크_아트북_57206-1",
     "code": "57206-1",
     "name": "57206-1",
     "brand": "개나리",
@@ -20479,7 +20479,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57206-2",
+    "id": "개나-실크_아트북_57206-2",
     "code": "57206-2",
     "name": "57206-2",
     "brand": "개나리",
@@ -20499,7 +20499,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57206-3",
+    "id": "개나-실크_아트북_57206-3",
     "code": "57206-3",
     "name": "57206-3",
     "brand": "개나리",
@@ -20519,7 +20519,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57206-4",
+    "id": "개나-실크_아트북_57206-4",
     "code": "57206-4",
     "name": "57206-4",
     "brand": "개나리",
@@ -20539,7 +20539,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57206-6",
+    "id": "개나-실크_아트북_57206-6",
     "code": "57206-6",
     "name": "57206-6",
     "brand": "개나리",
@@ -20559,7 +20559,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57206-7",
+    "id": "개나-실크_아트북_57206-7",
     "code": "57206-7",
     "name": "57206-7",
     "brand": "개나리",
@@ -20579,7 +20579,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57210-1",
+    "id": "개나-실크_아트북_57210-1",
     "code": "57210-1",
     "name": "57210-1",
     "brand": "개나리",
@@ -20599,7 +20599,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57210-10",
+    "id": "개나-실크_아트북_57210-10",
     "code": "57210-10",
     "name": "57210-10",
     "brand": "개나리",
@@ -20619,7 +20619,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57210-2",
+    "id": "개나-실크_아트북_57210-2",
     "code": "57210-2",
     "name": "57210-2",
     "brand": "개나리",
@@ -20639,7 +20639,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57210-3",
+    "id": "개나-실크_아트북_57210-3",
     "code": "57210-3",
     "name": "57210-3",
     "brand": "개나리",
@@ -20659,7 +20659,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57210-6",
+    "id": "개나-실크_아트북_57210-6",
     "code": "57210-6",
     "name": "57210-6",
     "brand": "개나리",
@@ -20679,7 +20679,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57210-7",
+    "id": "개나-실크_아트북_57210-7",
     "code": "57210-7",
     "name": "57210-7",
     "brand": "개나리",
@@ -20699,7 +20699,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57210-8",
+    "id": "개나-실크_아트북_57210-8",
     "code": "57210-8",
     "name": "57210-8",
     "brand": "개나리",
@@ -20719,7 +20719,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57210-9",
+    "id": "개나-실크_아트북_57210-9",
     "code": "57210-9",
     "name": "57210-9",
     "brand": "개나리",
@@ -20739,7 +20739,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57215-1",
+    "id": "개나-실크_아트북_57215-1",
     "code": "57215-1",
     "name": "57215-1",
     "brand": "개나리",
@@ -20759,7 +20759,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57215-2",
+    "id": "개나-실크_아트북_57215-2",
     "code": "57215-2",
     "name": "57215-2",
     "brand": "개나리",
@@ -20779,7 +20779,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57215-3",
+    "id": "개나-실크_아트북_57215-3",
     "code": "57215-3",
     "name": "57215-3",
     "brand": "개나리",
@@ -20799,7 +20799,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57215-4",
+    "id": "개나-실크_아트북_57215-4",
     "code": "57215-4",
     "name": "57215-4",
     "brand": "개나리",
@@ -20819,7 +20819,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57217-1",
+    "id": "개나-실크_아트북_57217-1",
     "code": "57217-1",
     "name": "57217-1",
     "brand": "개나리",
@@ -20839,7 +20839,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57217-2",
+    "id": "개나-실크_아트북_57217-2",
     "code": "57217-2",
     "name": "57217-2",
     "brand": "개나리",
@@ -20859,7 +20859,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57217-3",
+    "id": "개나-실크_아트북_57217-3",
     "code": "57217-3",
     "name": "57217-3",
     "brand": "개나리",
@@ -20879,7 +20879,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57217-4",
+    "id": "개나-실크_아트북_57217-4",
     "code": "57217-4",
     "name": "57217-4",
     "brand": "개나리",
@@ -20899,7 +20899,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57217-5",
+    "id": "개나-실크_아트북_57217-5",
     "code": "57217-5",
     "name": "57217-5",
     "brand": "개나리",
@@ -20919,7 +20919,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57217-6",
+    "id": "개나-실크_아트북_57217-6",
     "code": "57217-6",
     "name": "57217-6",
     "brand": "개나리",
@@ -20939,7 +20939,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57217-8",
+    "id": "개나-실크_아트북_57217-8",
     "code": "57217-8",
     "name": "57217-8",
     "brand": "개나리",
@@ -20959,7 +20959,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57218-1",
+    "id": "개나-실크_아트북_57218-1",
     "code": "57218-1",
     "name": "57218-1",
     "brand": "개나리",
@@ -20979,7 +20979,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57218-2",
+    "id": "개나-실크_아트북_57218-2",
     "code": "57218-2",
     "name": "57218-2",
     "brand": "개나리",
@@ -20999,7 +20999,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57218-3",
+    "id": "개나-실크_아트북_57218-3",
     "code": "57218-3",
     "name": "57218-3",
     "brand": "개나리",
@@ -21019,7 +21019,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57218-4",
+    "id": "개나-실크_아트북_57218-4",
     "code": "57218-4",
     "name": "57218-4",
     "brand": "개나리",
@@ -21039,7 +21039,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57218-5",
+    "id": "개나-실크_아트북_57218-5",
     "code": "57218-5",
     "name": "57218-5",
     "brand": "개나리",
@@ -21059,7 +21059,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57218-6",
+    "id": "개나-실크_아트북_57218-6",
     "code": "57218-6",
     "name": "57218-6",
     "brand": "개나리",
@@ -21079,7 +21079,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57218-7",
+    "id": "개나-실크_아트북_57218-7",
     "code": "57218-7",
     "name": "57218-7",
     "brand": "개나리",
@@ -21099,7 +21099,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57218-8",
+    "id": "개나-실크_아트북_57218-8",
     "code": "57218-8",
     "name": "57218-8",
     "brand": "개나리",
@@ -21119,7 +21119,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57219-1",
+    "id": "개나-실크_아트북_57219-1",
     "code": "57219-1",
     "name": "57219-1",
     "brand": "개나리",
@@ -21139,7 +21139,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57219-2",
+    "id": "개나-실크_아트북_57219-2",
     "code": "57219-2",
     "name": "57219-2",
     "brand": "개나리",
@@ -21159,7 +21159,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57219-3",
+    "id": "개나-실크_아트북_57219-3",
     "code": "57219-3",
     "name": "57219-3",
     "brand": "개나리",
@@ -21179,7 +21179,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57219-4",
+    "id": "개나-실크_아트북_57219-4",
     "code": "57219-4",
     "name": "57219-4",
     "brand": "개나리",
@@ -21199,7 +21199,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57219-5",
+    "id": "개나-실크_아트북_57219-5",
     "code": "57219-5",
     "name": "57219-5",
     "brand": "개나리",
@@ -21219,7 +21219,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57219-6",
+    "id": "개나-실크_아트북_57219-6",
     "code": "57219-6",
     "name": "57219-6",
     "brand": "개나리",
@@ -21239,7 +21239,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57219-7",
+    "id": "개나-실크_아트북_57219-7",
     "code": "57219-7",
     "name": "57219-7",
     "brand": "개나리",
@@ -21259,7 +21259,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57220-1",
+    "id": "개나-실크_아트북_57220-1",
     "code": "57220-1",
     "name": "57220-1",
     "brand": "개나리",
@@ -21279,7 +21279,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57220-2",
+    "id": "개나-실크_아트북_57220-2",
     "code": "57220-2",
     "name": "57220-2",
     "brand": "개나리",
@@ -21299,7 +21299,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57220-3",
+    "id": "개나-실크_아트북_57220-3",
     "code": "57220-3",
     "name": "57220-3",
     "brand": "개나리",
@@ -21319,7 +21319,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57220-4",
+    "id": "개나-실크_아트북_57220-4",
     "code": "57220-4",
     "name": "57220-4",
     "brand": "개나리",
@@ -21339,7 +21339,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57220-5",
+    "id": "개나-실크_아트북_57220-5",
     "code": "57220-5",
     "name": "57220-5",
     "brand": "개나리",
@@ -21359,7 +21359,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57221-1",
+    "id": "개나-실크_아트북_57221-1",
     "code": "57221-1",
     "name": "57221-1",
     "brand": "개나리",
@@ -21379,7 +21379,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57222-1",
+    "id": "개나-실크_아트북_57222-1",
     "code": "57222-1",
     "name": "57222-1",
     "brand": "개나리",
@@ -21399,7 +21399,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57223-1",
+    "id": "개나-실크_아트북_57223-1",
     "code": "57223-1",
     "name": "57223-1",
     "brand": "개나리",
@@ -21419,7 +21419,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57223-2",
+    "id": "개나-실크_아트북_57223-2",
     "code": "57223-2",
     "name": "57223-2",
     "brand": "개나리",
@@ -21439,7 +21439,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57223-3",
+    "id": "개나-실크_아트북_57223-3",
     "code": "57223-3",
     "name": "57223-3",
     "brand": "개나리",
@@ -21459,7 +21459,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57223-4",
+    "id": "개나-실크_아트북_57223-4",
     "code": "57223-4",
     "name": "57223-4",
     "brand": "개나리",
@@ -21479,7 +21479,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57224-1",
+    "id": "개나-실크_아트북_57224-1",
     "code": "57224-1",
     "name": "57224-1",
     "brand": "개나리",
@@ -21499,7 +21499,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57224-2",
+    "id": "개나-실크_아트북_57224-2",
     "code": "57224-2",
     "name": "57224-2",
     "brand": "개나리",
@@ -21519,7 +21519,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57224-3",
+    "id": "개나-실크_아트북_57224-3",
     "code": "57224-3",
     "name": "57224-3",
     "brand": "개나리",
@@ -21539,7 +21539,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57224-4",
+    "id": "개나-실크_아트북_57224-4",
     "code": "57224-4",
     "name": "57224-4",
     "brand": "개나리",
@@ -21559,7 +21559,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57224-5",
+    "id": "개나-실크_아트북_57224-5",
     "code": "57224-5",
     "name": "57224-5",
     "brand": "개나리",
@@ -21579,7 +21579,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57225-1",
+    "id": "개나-실크_아트북_57225-1",
     "code": "57225-1",
     "name": "57225-1",
     "brand": "개나리",
@@ -21599,7 +21599,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57225-2",
+    "id": "개나-실크_아트북_57225-2",
     "code": "57225-2",
     "name": "57225-2",
     "brand": "개나리",
@@ -21619,7 +21619,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57225-3",
+    "id": "개나-실크_아트북_57225-3",
     "code": "57225-3",
     "name": "57225-3",
     "brand": "개나리",
@@ -21639,7 +21639,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57225-4",
+    "id": "개나-실크_아트북_57225-4",
     "code": "57225-4",
     "name": "57225-4",
     "brand": "개나리",
@@ -21659,7 +21659,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57226-1",
+    "id": "개나-실크_아트북_57226-1",
     "code": "57226-1",
     "name": "57226-1",
     "brand": "개나리",
@@ -21679,7 +21679,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57226-2",
+    "id": "개나-실크_아트북_57226-2",
     "code": "57226-2",
     "name": "57226-2",
     "brand": "개나리",
@@ -21699,7 +21699,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57226-3",
+    "id": "개나-실크_아트북_57226-3",
     "code": "57226-3",
     "name": "57226-3",
     "brand": "개나리",
@@ -21719,7 +21719,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57226-4",
+    "id": "개나-실크_아트북_57226-4",
     "code": "57226-4",
     "name": "57226-4",
     "brand": "개나리",
@@ -21739,7 +21739,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57226-5",
+    "id": "개나-실크_아트북_57226-5",
     "code": "57226-5",
     "name": "57226-5",
     "brand": "개나리",
@@ -21759,7 +21759,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57226-6",
+    "id": "개나-실크_아트북_57226-6",
     "code": "57226-6",
     "name": "57226-6",
     "brand": "개나리",
@@ -21779,7 +21779,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57227-1",
+    "id": "개나-실크_아트북_57227-1",
     "code": "57227-1",
     "name": "57227-1",
     "brand": "개나리",
@@ -21799,7 +21799,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57227-2",
+    "id": "개나-실크_아트북_57227-2",
     "code": "57227-2",
     "name": "57227-2",
     "brand": "개나리",
@@ -21819,7 +21819,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57228-1",
+    "id": "개나-실크_아트북_57228-1",
     "code": "57228-1",
     "name": "57228-1",
     "brand": "개나리",
@@ -21839,7 +21839,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57228-2",
+    "id": "개나-실크_아트북_57228-2",
     "code": "57228-2",
     "name": "57228-2",
     "brand": "개나리",
@@ -21859,7 +21859,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57228-3",
+    "id": "개나-실크_아트북_57228-3",
     "code": "57228-3",
     "name": "57228-3",
     "brand": "개나리",
@@ -21879,7 +21879,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57228-4",
+    "id": "개나-실크_아트북_57228-4",
     "code": "57228-4",
     "name": "57228-4",
     "brand": "개나리",
@@ -21899,7 +21899,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57228-5",
+    "id": "개나-실크_아트북_57228-5",
     "code": "57228-5",
     "name": "57228-5",
     "brand": "개나리",
@@ -21919,7 +21919,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57229-1",
+    "id": "개나-실크_아트북_57229-1",
     "code": "57229-1",
     "name": "57229-1",
     "brand": "개나리",
@@ -21939,7 +21939,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57229-2",
+    "id": "개나-실크_아트북_57229-2",
     "code": "57229-2",
     "name": "57229-2",
     "brand": "개나리",
@@ -21959,7 +21959,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57229-3",
+    "id": "개나-실크_아트북_57229-3",
     "code": "57229-3",
     "name": "57229-3",
     "brand": "개나리",
@@ -21979,7 +21979,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57229-4",
+    "id": "개나-실크_아트북_57229-4",
     "code": "57229-4",
     "name": "57229-4",
     "brand": "개나리",
@@ -21999,7 +21999,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57229-5",
+    "id": "개나-실크_아트북_57229-5",
     "code": "57229-5",
     "name": "57229-5",
     "brand": "개나리",
@@ -22019,7 +22019,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57229-6",
+    "id": "개나-실크_아트북_57229-6",
     "code": "57229-6",
     "name": "57229-6",
     "brand": "개나리",
@@ -22039,7 +22039,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57230-1",
+    "id": "개나-실크_아트북_57230-1",
     "code": "57230-1",
     "name": "57230-1",
     "brand": "개나리",
@@ -22059,7 +22059,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57230-2",
+    "id": "개나-실크_아트북_57230-2",
     "code": "57230-2",
     "name": "57230-2",
     "brand": "개나리",
@@ -22079,7 +22079,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57230-3",
+    "id": "개나-실크_아트북_57230-3",
     "code": "57230-3",
     "name": "57230-3",
     "brand": "개나리",
@@ -22099,7 +22099,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57230-4",
+    "id": "개나-실크_아트북_57230-4",
     "code": "57230-4",
     "name": "57230-4",
     "brand": "개나리",
@@ -22119,7 +22119,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57230-5",
+    "id": "개나-실크_아트북_57230-5",
     "code": "57230-5",
     "name": "57230-5",
     "brand": "개나리",
@@ -22139,7 +22139,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57230-6",
+    "id": "개나-실크_아트북_57230-6",
     "code": "57230-6",
     "name": "57230-6",
     "brand": "개나리",
@@ -22159,7 +22159,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57231-1",
+    "id": "개나-실크_아트북_57231-1",
     "code": "57231-1",
     "name": "57231-1",
     "brand": "개나리",
@@ -22179,7 +22179,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57231-2",
+    "id": "개나-실크_아트북_57231-2",
     "code": "57231-2",
     "name": "57231-2",
     "brand": "개나리",
@@ -22199,7 +22199,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57231-3",
+    "id": "개나-실크_아트북_57231-3",
     "code": "57231-3",
     "name": "57231-3",
     "brand": "개나리",
@@ -22219,7 +22219,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57231-4",
+    "id": "개나-실크_아트북_57231-4",
     "code": "57231-4",
     "name": "57231-4",
     "brand": "개나리",
@@ -22239,7 +22239,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57231-5",
+    "id": "개나-실크_아트북_57231-5",
     "code": "57231-5",
     "name": "57231-5",
     "brand": "개나리",
@@ -22259,7 +22259,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57231-6",
+    "id": "개나-실크_아트북_57231-6",
     "code": "57231-6",
     "name": "57231-6",
     "brand": "개나리",
@@ -22279,7 +22279,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57231-7",
+    "id": "개나-실크_아트북_57231-7",
     "code": "57231-7",
     "name": "57231-7",
     "brand": "개나리",
@@ -22299,7 +22299,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57232-1",
+    "id": "개나-실크_아트북_57232-1",
     "code": "57232-1",
     "name": "57232-1",
     "brand": "개나리",
@@ -22319,7 +22319,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57232-2",
+    "id": "개나-실크_아트북_57232-2",
     "code": "57232-2",
     "name": "57232-2",
     "brand": "개나리",
@@ -22339,7 +22339,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57232-3",
+    "id": "개나-실크_아트북_57232-3",
     "code": "57232-3",
     "name": "57232-3",
     "brand": "개나리",
@@ -22359,7 +22359,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57232-4",
+    "id": "개나-실크_아트북_57232-4",
     "code": "57232-4",
     "name": "57232-4",
     "brand": "개나리",
@@ -22379,7 +22379,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57232-5",
+    "id": "개나-실크_아트북_57232-5",
     "code": "57232-5",
     "name": "57232-5",
     "brand": "개나리",
@@ -22399,7 +22399,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57232-6",
+    "id": "개나-실크_아트북_57232-6",
     "code": "57232-6",
     "name": "57232-6",
     "brand": "개나리",
@@ -22419,7 +22419,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57233-1",
+    "id": "개나-실크_아트북_57233-1",
     "code": "57233-1",
     "name": "57233-1",
     "brand": "개나리",
@@ -22439,7 +22439,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57233-2",
+    "id": "개나-실크_아트북_57233-2",
     "code": "57233-2",
     "name": "57233-2",
     "brand": "개나리",
@@ -22459,7 +22459,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57233-3",
+    "id": "개나-실크_아트북_57233-3",
     "code": "57233-3",
     "name": "57233-3",
     "brand": "개나리",
@@ -22479,7 +22479,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57233-4",
+    "id": "개나-실크_아트북_57233-4",
     "code": "57233-4",
     "name": "57233-4",
     "brand": "개나리",
@@ -22499,7 +22499,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57233-5",
+    "id": "개나-실크_아트북_57233-5",
     "code": "57233-5",
     "name": "57233-5",
     "brand": "개나리",
@@ -22519,7 +22519,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57233-6",
+    "id": "개나-실크_아트북_57233-6",
     "code": "57233-6",
     "name": "57233-6",
     "brand": "개나리",
@@ -22539,7 +22539,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-57233-7",
+    "id": "개나-실크_아트북_57233-7",
     "code": "57233-7",
     "name": "57233-7",
     "brand": "개나리",
@@ -22559,7 +22559,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-83204-2",
+    "id": "개나-실크_아트북_83204-2",
     "code": "83204-2",
     "name": "83204-2",
     "brand": "개나리",
@@ -22579,7 +22579,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-83206-1",
+    "id": "개나-실크_아트북_83206-1",
     "code": "83206-1",
     "name": "83206-1",
     "brand": "개나리",
@@ -22599,7 +22599,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-83209-2",
+    "id": "개나-실크_아트북_83209-2",
     "code": "83209-2",
     "name": "83209-2",
     "brand": "개나리",
@@ -22619,7 +22619,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-83210-1",
+    "id": "개나-실크_아트북_83210-1",
     "code": "83210-1",
     "name": "83210-1",
     "brand": "개나리",
@@ -22639,7 +22639,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-83218-3",
+    "id": "개나-실크_아트북_83218-3",
     "code": "83218-3",
     "name": "83218-3",
     "brand": "개나리",
@@ -22659,7 +22659,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99001-1",
+    "id": "개나-프리미엄_99001-1",
     "code": "99001-1",
     "name": "99001-1",
     "brand": "개나리",
@@ -22679,7 +22679,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99104-1",
+    "id": "개나-프리미엄_99104-1",
     "code": "99104-1",
     "name": "99104-1",
     "brand": "개나리",
@@ -22699,7 +22699,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99104-2",
+    "id": "개나-프리미엄_99104-2",
     "code": "99104-2",
     "name": "99104-2",
     "brand": "개나리",
@@ -22719,7 +22719,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99105-1",
+    "id": "개나-프리미엄_99105-1",
     "code": "99105-1",
     "name": "99105-1",
     "brand": "개나리",
@@ -22739,7 +22739,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99105-2",
+    "id": "개나-프리미엄_99105-2",
     "code": "99105-2",
     "name": "99105-2",
     "brand": "개나리",
@@ -22759,7 +22759,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99105-5",
+    "id": "개나-프리미엄_99105-5",
     "code": "99105-5",
     "name": "99105-5",
     "brand": "개나리",
@@ -22779,7 +22779,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99105-6",
+    "id": "개나-프리미엄_99105-6",
     "code": "99105-6",
     "name": "99105-6",
     "brand": "개나리",
@@ -22799,7 +22799,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99106-1",
+    "id": "개나-프리미엄_99106-1",
     "code": "99106-1",
     "name": "99106-1",
     "brand": "개나리",
@@ -22819,7 +22819,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99106-4",
+    "id": "개나-프리미엄_99106-4",
     "code": "99106-4",
     "name": "99106-4",
     "brand": "개나리",
@@ -22839,7 +22839,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99106-6",
+    "id": "개나-프리미엄_99106-6",
     "code": "99106-6",
     "name": "99106-6",
     "brand": "개나리",
@@ -22859,7 +22859,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99109-1",
+    "id": "개나-프리미엄_99109-1",
     "code": "99109-1",
     "name": "99109-1",
     "brand": "개나리",
@@ -22879,7 +22879,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99110-1",
+    "id": "개나-프리미엄_99110-1",
     "code": "99110-1",
     "name": "99110-1",
     "brand": "개나리",
@@ -22899,7 +22899,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99110-2",
+    "id": "개나-프리미엄_99110-2",
     "code": "99110-2",
     "name": "99110-2",
     "brand": "개나리",
@@ -22919,7 +22919,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99110-5",
+    "id": "개나-프리미엄_99110-5",
     "code": "99110-5",
     "name": "99110-5",
     "brand": "개나리",
@@ -22939,7 +22939,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99112-1",
+    "id": "개나-프리미엄_99112-1",
     "code": "99112-1",
     "name": "99112-1",
     "brand": "개나리",
@@ -22959,7 +22959,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99112-2",
+    "id": "개나-프리미엄_99112-2",
     "code": "99112-2",
     "name": "99112-2",
     "brand": "개나리",
@@ -22979,7 +22979,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99112-3",
+    "id": "개나-프리미엄_99112-3",
     "code": "99112-3",
     "name": "99112-3",
     "brand": "개나리",
@@ -22999,7 +22999,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99113-1",
+    "id": "개나-프리미엄_99113-1",
     "code": "99113-1",
     "name": "99113-1",
     "brand": "개나리",
@@ -23019,7 +23019,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99113-2",
+    "id": "개나-프리미엄_99113-2",
     "code": "99113-2",
     "name": "99113-2",
     "brand": "개나리",
@@ -23039,7 +23039,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99113-3",
+    "id": "개나-프리미엄_99113-3",
     "code": "99113-3",
     "name": "99113-3",
     "brand": "개나리",
@@ -23059,7 +23059,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99113-4",
+    "id": "개나-프리미엄_99113-4",
     "code": "99113-4",
     "name": "99113-4",
     "brand": "개나리",
@@ -23079,7 +23079,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99115-1",
+    "id": "개나-프리미엄_99115-1",
     "code": "99115-1",
     "name": "99115-1",
     "brand": "개나리",
@@ -23099,7 +23099,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99115-2",
+    "id": "개나-프리미엄_99115-2",
     "code": "99115-2",
     "name": "99115-2",
     "brand": "개나리",
@@ -23119,7 +23119,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99115-3",
+    "id": "개나-프리미엄_99115-3",
     "code": "99115-3",
     "name": "99115-3",
     "brand": "개나리",
@@ -23139,7 +23139,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99115-4",
+    "id": "개나-프리미엄_99115-4",
     "code": "99115-4",
     "name": "99115-4",
     "brand": "개나리",
@@ -23159,7 +23159,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99115-5",
+    "id": "개나-프리미엄_99115-5",
     "code": "99115-5",
     "name": "99115-5",
     "brand": "개나리",
@@ -23179,7 +23179,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99116-1",
+    "id": "개나-프리미엄_99116-1",
     "code": "99116-1",
     "name": "99116-1",
     "brand": "개나리",
@@ -23199,7 +23199,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99116-2",
+    "id": "개나-프리미엄_99116-2",
     "code": "99116-2",
     "name": "99116-2",
     "brand": "개나리",
@@ -23219,7 +23219,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99116-3",
+    "id": "개나-프리미엄_99116-3",
     "code": "99116-3",
     "name": "99116-3",
     "brand": "개나리",
@@ -23239,7 +23239,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99116-4",
+    "id": "개나-프리미엄_99116-4",
     "code": "99116-4",
     "name": "99116-4",
     "brand": "개나리",
@@ -23259,7 +23259,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99116-5",
+    "id": "개나-프리미엄_99116-5",
     "code": "99116-5",
     "name": "99116-5",
     "brand": "개나리",
@@ -23279,7 +23279,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99117-1",
+    "id": "개나-프리미엄_99117-1",
     "code": "99117-1",
     "name": "99117-1",
     "brand": "개나리",
@@ -23299,7 +23299,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99117-2",
+    "id": "개나-프리미엄_99117-2",
     "code": "99117-2",
     "name": "99117-2",
     "brand": "개나리",
@@ -23319,7 +23319,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99117-3",
+    "id": "개나-프리미엄_99117-3",
     "code": "99117-3",
     "name": "99117-3",
     "brand": "개나리",
@@ -23339,7 +23339,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99117-4",
+    "id": "개나-프리미엄_99117-4",
     "code": "99117-4",
     "name": "99117-4",
     "brand": "개나리",
@@ -23359,7 +23359,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99117-5",
+    "id": "개나-프리미엄_99117-5",
     "code": "99117-5",
     "name": "99117-5",
     "brand": "개나리",
@@ -23379,7 +23379,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99118-1",
+    "id": "개나-프리미엄_99118-1",
     "code": "99118-1",
     "name": "99118-1",
     "brand": "개나리",
@@ -23399,7 +23399,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99118-2",
+    "id": "개나-프리미엄_99118-2",
     "code": "99118-2",
     "name": "99118-2",
     "brand": "개나리",
@@ -23419,7 +23419,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99119-1",
+    "id": "개나-프리미엄_99119-1",
     "code": "99119-1",
     "name": "99119-1",
     "brand": "개나리",
@@ -23439,7 +23439,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99119-2",
+    "id": "개나-프리미엄_99119-2",
     "code": "99119-2",
     "name": "99119-2",
     "brand": "개나리",
@@ -23459,7 +23459,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99119-3",
+    "id": "개나-프리미엄_99119-3",
     "code": "99119-3",
     "name": "99119-3",
     "brand": "개나리",
@@ -23479,7 +23479,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99119-4",
+    "id": "개나-프리미엄_99119-4",
     "code": "99119-4",
     "name": "99119-4",
     "brand": "개나리",
@@ -23499,7 +23499,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99120-1",
+    "id": "개나-프리미엄_99120-1",
     "code": "99120-1",
     "name": "99120-1",
     "brand": "개나리",
@@ -23519,7 +23519,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99120-2",
+    "id": "개나-프리미엄_99120-2",
     "code": "99120-2",
     "name": "99120-2",
     "brand": "개나리",
@@ -23539,7 +23539,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99120-3",
+    "id": "개나-프리미엄_99120-3",
     "code": "99120-3",
     "name": "99120-3",
     "brand": "개나리",
@@ -23559,7 +23559,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99120-4",
+    "id": "개나-프리미엄_99120-4",
     "code": "99120-4",
     "name": "99120-4",
     "brand": "개나리",
@@ -23579,7 +23579,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99121-1",
+    "id": "개나-프리미엄_99121-1",
     "code": "99121-1",
     "name": "99121-1",
     "brand": "개나리",
@@ -23599,7 +23599,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99121-2",
+    "id": "개나-프리미엄_99121-2",
     "code": "99121-2",
     "name": "99121-2",
     "brand": "개나리",
@@ -23619,7 +23619,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99121-3",
+    "id": "개나-프리미엄_99121-3",
     "code": "99121-3",
     "name": "99121-3",
     "brand": "개나리",
@@ -23639,7 +23639,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99123-1",
+    "id": "개나-프리미엄_99123-1",
     "code": "99123-1",
     "name": "99123-1",
     "brand": "개나리",
@@ -23659,7 +23659,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99123-2",
+    "id": "개나-프리미엄_99123-2",
     "code": "99123-2",
     "name": "99123-2",
     "brand": "개나리",
@@ -23679,7 +23679,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99124-1",
+    "id": "개나-프리미엄_99124-1",
     "code": "99124-1",
     "name": "99124-1",
     "brand": "개나리",
@@ -23699,7 +23699,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99124-2",
+    "id": "개나-프리미엄_99124-2",
     "code": "99124-2",
     "name": "99124-2",
     "brand": "개나리",
@@ -23719,7 +23719,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99125-1",
+    "id": "개나-프리미엄_99125-1",
     "code": "99125-1",
     "name": "99125-1",
     "brand": "개나리",
@@ -23739,7 +23739,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99125-2",
+    "id": "개나-프리미엄_99125-2",
     "code": "99125-2",
     "name": "99125-2",
     "brand": "개나리",
@@ -23759,7 +23759,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99125-3",
+    "id": "개나-프리미엄_99125-3",
     "code": "99125-3",
     "name": "99125-3",
     "brand": "개나리",
@@ -23779,7 +23779,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99125-4",
+    "id": "개나-프리미엄_99125-4",
     "code": "99125-4",
     "name": "99125-4",
     "brand": "개나리",
@@ -23799,7 +23799,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99126-1",
+    "id": "개나-프리미엄_99126-1",
     "code": "99126-1",
     "name": "99126-1",
     "brand": "개나리",
@@ -23819,7 +23819,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99126-2",
+    "id": "개나-프리미엄_99126-2",
     "code": "99126-2",
     "name": "99126-2",
     "brand": "개나리",
@@ -23839,7 +23839,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99126-3",
+    "id": "개나-프리미엄_99126-3",
     "code": "99126-3",
     "name": "99126-3",
     "brand": "개나리",
@@ -23859,7 +23859,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99126-4",
+    "id": "개나-프리미엄_99126-4",
     "code": "99126-4",
     "name": "99126-4",
     "brand": "개나리",
@@ -23879,7 +23879,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99126-5",
+    "id": "개나-프리미엄_99126-5",
     "code": "99126-5",
     "name": "99126-5",
     "brand": "개나리",
@@ -23899,7 +23899,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99126-6",
+    "id": "개나-프리미엄_99126-6",
     "code": "99126-6",
     "name": "99126-6",
     "brand": "개나리",
@@ -23919,7 +23919,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99127-1",
+    "id": "개나-프리미엄_99127-1",
     "code": "99127-1",
     "name": "99127-1",
     "brand": "개나리",
@@ -23939,7 +23939,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99127-2",
+    "id": "개나-프리미엄_99127-2",
     "code": "99127-2",
     "name": "99127-2",
     "brand": "개나리",
@@ -23959,7 +23959,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99127-3",
+    "id": "개나-프리미엄_99127-3",
     "code": "99127-3",
     "name": "99127-3",
     "brand": "개나리",
@@ -23979,7 +23979,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99127-4",
+    "id": "개나-프리미엄_99127-4",
     "code": "99127-4",
     "name": "99127-4",
     "brand": "개나리",
@@ -23999,7 +23999,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99127-5",
+    "id": "개나-프리미엄_99127-5",
     "code": "99127-5",
     "name": "99127-5",
     "brand": "개나리",
@@ -24019,7 +24019,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99128-1",
+    "id": "개나-프리미엄_99128-1",
     "code": "99128-1",
     "name": "99128-1",
     "brand": "개나리",
@@ -24039,7 +24039,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99128-2",
+    "id": "개나-프리미엄_99128-2",
     "code": "99128-2",
     "name": "99128-2",
     "brand": "개나리",
@@ -24059,7 +24059,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99128-3",
+    "id": "개나-프리미엄_99128-3",
     "code": "99128-3",
     "name": "99128-3",
     "brand": "개나리",
@@ -24079,7 +24079,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99128-4",
+    "id": "개나-프리미엄_99128-4",
     "code": "99128-4",
     "name": "99128-4",
     "brand": "개나리",
@@ -24099,7 +24099,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99128-5",
+    "id": "개나-프리미엄_99128-5",
     "code": "99128-5",
     "name": "99128-5",
     "brand": "개나리",
@@ -24119,7 +24119,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99128-6",
+    "id": "개나-프리미엄_99128-6",
     "code": "99128-6",
     "name": "99128-6",
     "brand": "개나리",
@@ -24139,7 +24139,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99701-1",
+    "id": "개나-프리미엄_99701-1",
     "code": "99701-1",
     "name": "99701-1",
     "brand": "개나리",
@@ -24159,7 +24159,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99701-2",
+    "id": "개나-프리미엄_99701-2",
     "code": "99701-2",
     "name": "99701-2",
     "brand": "개나리",
@@ -24179,7 +24179,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99701-3",
+    "id": "개나-프리미엄_99701-3",
     "code": "99701-3",
     "name": "99701-3",
     "brand": "개나리",
@@ -24199,7 +24199,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99702-1",
+    "id": "개나-프리미엄_99702-1",
     "code": "99702-1",
     "name": "99702-1",
     "brand": "개나리",
@@ -24219,7 +24219,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99702-2",
+    "id": "개나-프리미엄_99702-2",
     "code": "99702-2",
     "name": "99702-2",
     "brand": "개나리",
@@ -24239,7 +24239,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99703-1",
+    "id": "개나-프리미엄_99703-1",
     "code": "99703-1",
     "name": "99703-1",
     "brand": "개나리",
@@ -24259,7 +24259,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99703-2",
+    "id": "개나-프리미엄_99703-2",
     "code": "99703-2",
     "name": "99703-2",
     "brand": "개나리",
@@ -24279,7 +24279,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99703-3",
+    "id": "개나-프리미엄_99703-3",
     "code": "99703-3",
     "name": "99703-3",
     "brand": "개나리",
@@ -24299,7 +24299,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99704-1",
+    "id": "개나-프리미엄_99704-1",
     "code": "99704-1",
     "name": "99704-1",
     "brand": "개나리",
@@ -24319,7 +24319,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99704-2",
+    "id": "개나-프리미엄_99704-2",
     "code": "99704-2",
     "name": "99704-2",
     "brand": "개나리",
@@ -24339,7 +24339,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99704-3",
+    "id": "개나-프리미엄_99704-3",
     "code": "99704-3",
     "name": "99704-3",
     "brand": "개나리",
@@ -24359,7 +24359,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99705-1",
+    "id": "개나-프리미엄_99705-1",
     "code": "99705-1",
     "name": "99705-1",
     "brand": "개나리",
@@ -24379,7 +24379,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99705-2",
+    "id": "개나-프리미엄_99705-2",
     "code": "99705-2",
     "name": "99705-2",
     "brand": "개나리",
@@ -24399,7 +24399,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99705-3",
+    "id": "개나-프리미엄_99705-3",
     "code": "99705-3",
     "name": "99705-3",
     "brand": "개나리",
@@ -24419,7 +24419,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-99705-4",
+    "id": "개나-프리미엄_99705-4",
     "code": "99705-4",
     "name": "99705-4",
     "brand": "개나리",
@@ -24439,7 +24439,7 @@ export const materials = [
     }
   },
   {
-    "id": "개나-25097-1",
+    "id": "개나-합지(소폭)_25097-1",
     "code": "25097-1",
     "name": "25097-1",
     "brand": "개나리",
@@ -24453,7 +24453,7 @@ export const materials = [
     "materialType": "합지(소폭)"
   },
   {
-    "id": "개나-25112-1",
+    "id": "개나-합지(소폭)_25112-1",
     "code": "25112-1",
     "name": "25112-1",
     "brand": "개나리",
@@ -24467,7 +24467,7 @@ export const materials = [
     "materialType": "합지(소폭)"
   },
   {
-    "id": "개나-25112-3",
+    "id": "개나-합지(소폭)_25112-3",
     "code": "25112-3",
     "name": "25112-3",
     "brand": "개나리",
@@ -24481,7 +24481,7 @@ export const materials = [
     "materialType": "합지(소폭)"
   },
   {
-    "id": "개나-25112-4",
+    "id": "개나-합지(소폭)_25112-4",
     "code": "25112-4",
     "name": "25112-4",
     "brand": "개나리",
@@ -24495,7 +24495,7 @@ export const materials = [
     "materialType": "합지(소폭)"
   },
   {
-    "id": "개나-25115-3",
+    "id": "개나-합지(소폭)_25115-3",
     "code": "25115-3",
     "name": "25115-3",
     "brand": "개나리",
@@ -24509,7 +24509,7 @@ export const materials = [
     "materialType": "합지(소폭)"
   },
   {
-    "id": "개나-25115-4",
+    "id": "개나-합지(소폭)_25115-4",
     "code": "25115-4",
     "name": "25115-4",
     "brand": "개나리",
@@ -24523,7 +24523,7 @@ export const materials = [
     "materialType": "합지(소폭)"
   },
   {
-    "id": "개나-25120-1",
+    "id": "개나-합지(소폭)_25120-1",
     "code": "25120-1",
     "name": "25120-1",
     "brand": "개나리",
@@ -24537,7 +24537,7 @@ export const materials = [
     "materialType": "합지(소폭)"
   },
   {
-    "id": "개나-25120-2",
+    "id": "개나-합지(소폭)_25120-2",
     "code": "25120-2",
     "name": "25120-2",
     "brand": "개나리",
@@ -24551,7 +24551,7 @@ export const materials = [
     "materialType": "합지(소폭)"
   },
   {
-    "id": "개나-25121-1",
+    "id": "개나-합지(소폭)_25121-1",
     "code": "25121-1",
     "name": "25121-1",
     "brand": "개나리",
@@ -24565,7 +24565,7 @@ export const materials = [
     "materialType": "합지(소폭)"
   },
   {
-    "id": "개나-25121-3",
+    "id": "개나-합지(소폭)_25121-3",
     "code": "25121-3",
     "name": "25121-3",
     "brand": "개나리",
@@ -24579,7 +24579,7 @@ export const materials = [
     "materialType": "합지(소폭)"
   },
   {
-    "id": "개나-25126-1",
+    "id": "개나-합지(소폭)_25126-1",
     "code": "25126-1",
     "name": "25126-1",
     "brand": "개나리",
@@ -24593,7 +24593,7 @@ export const materials = [
     "materialType": "합지(소폭)"
   },
   {
-    "id": "개나-25126-2",
+    "id": "개나-합지(소폭)_25126-2",
     "code": "25126-2",
     "name": "25126-2",
     "brand": "개나리",
@@ -24607,7 +24607,7 @@ export const materials = [
     "materialType": "합지(소폭)"
   },
   {
-    "id": "개나-25126-3",
+    "id": "개나-합지(소폭)_25126-3",
     "code": "25126-3",
     "name": "25126-3",
     "brand": "개나리",
@@ -24621,7 +24621,7 @@ export const materials = [
     "materialType": "합지(소폭)"
   },
   {
-    "id": "개나-25127-1",
+    "id": "개나-합지(소폭)_25127-1",
     "code": "25127-1",
     "name": "25127-1",
     "brand": "개나리",
@@ -24635,7 +24635,7 @@ export const materials = [
     "materialType": "합지(소폭)"
   },
   {
-    "id": "개나-25127-2",
+    "id": "개나-합지(소폭)_25127-2",
     "code": "25127-2",
     "name": "25127-2",
     "brand": "개나리",
@@ -24649,7 +24649,7 @@ export const materials = [
     "materialType": "합지(소폭)"
   },
   {
-    "id": "개나-25127-4",
+    "id": "개나-합지(소폭)_25127-4",
     "code": "25127-4",
     "name": "25127-4",
     "brand": "개나리",
@@ -24663,7 +24663,7 @@ export const materials = [
     "materialType": "합지(소폭)"
   },
   {
-    "id": "개나-25127-5",
+    "id": "개나-합지(소폭)_25127-5",
     "code": "25127-5",
     "name": "25127-5",
     "brand": "개나리",
@@ -24677,7 +24677,7 @@ export const materials = [
     "materialType": "합지(소폭)"
   },
   {
-    "id": "개나-28336-1",
+    "id": "개나-합지(장폭)_28336-1",
     "code": "28336-1",
     "name": "28336-1",
     "brand": "개나리",
@@ -24691,7 +24691,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28336-2",
+    "id": "개나-합지(장폭)_28336-2",
     "code": "28336-2",
     "name": "28336-2",
     "brand": "개나리",
@@ -24705,7 +24705,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28348-2",
+    "id": "개나-합지(장폭)_28348-2",
     "code": "28348-2",
     "name": "28348-2",
     "brand": "개나리",
@@ -24719,7 +24719,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28348-3",
+    "id": "개나-합지(장폭)_28348-3",
     "code": "28348-3",
     "name": "28348-3",
     "brand": "개나리",
@@ -24733,7 +24733,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28349-1",
+    "id": "개나-합지(장폭)_28349-1",
     "code": "28349-1",
     "name": "28349-1",
     "brand": "개나리",
@@ -24747,7 +24747,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28349-2",
+    "id": "개나-합지(장폭)_28349-2",
     "code": "28349-2",
     "name": "28349-2",
     "brand": "개나리",
@@ -24761,7 +24761,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28349-7",
+    "id": "개나-합지(장폭)_28349-7",
     "code": "28349-7",
     "name": "28349-7",
     "brand": "개나리",
@@ -24775,7 +24775,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28352-1",
+    "id": "개나-합지(장폭)_28352-1",
     "code": "28352-1",
     "name": "28352-1",
     "brand": "개나리",
@@ -24789,7 +24789,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28352-2",
+    "id": "개나-합지(장폭)_28352-2",
     "code": "28352-2",
     "name": "28352-2",
     "brand": "개나리",
@@ -24803,7 +24803,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28352-3",
+    "id": "개나-합지(장폭)_28352-3",
     "code": "28352-3",
     "name": "28352-3",
     "brand": "개나리",
@@ -24817,7 +24817,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28352-4",
+    "id": "개나-합지(장폭)_28352-4",
     "code": "28352-4",
     "name": "28352-4",
     "brand": "개나리",
@@ -24831,7 +24831,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28352-5",
+    "id": "개나-합지(장폭)_28352-5",
     "code": "28352-5",
     "name": "28352-5",
     "brand": "개나리",
@@ -24845,7 +24845,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28352-6",
+    "id": "개나-합지(장폭)_28352-6",
     "code": "28352-6",
     "name": "28352-6",
     "brand": "개나리",
@@ -24859,7 +24859,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28363-1",
+    "id": "개나-합지(장폭)_28363-1",
     "code": "28363-1",
     "name": "28363-1",
     "brand": "개나리",
@@ -24873,7 +24873,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28363-2",
+    "id": "개나-합지(장폭)_28363-2",
     "code": "28363-2",
     "name": "28363-2",
     "brand": "개나리",
@@ -24887,7 +24887,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28363-3",
+    "id": "개나-합지(장폭)_28363-3",
     "code": "28363-3",
     "name": "28363-3",
     "brand": "개나리",
@@ -24901,7 +24901,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28363-4",
+    "id": "개나-합지(장폭)_28363-4",
     "code": "28363-4",
     "name": "28363-4",
     "brand": "개나리",
@@ -24915,7 +24915,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28364-1",
+    "id": "개나-합지(장폭)_28364-1",
     "code": "28364-1",
     "name": "28364-1",
     "brand": "개나리",
@@ -24929,7 +24929,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28364-2",
+    "id": "개나-합지(장폭)_28364-2",
     "code": "28364-2",
     "name": "28364-2",
     "brand": "개나리",
@@ -24943,7 +24943,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28364-3",
+    "id": "개나-합지(장폭)_28364-3",
     "code": "28364-3",
     "name": "28364-3",
     "brand": "개나리",
@@ -24957,7 +24957,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28364-5",
+    "id": "개나-합지(장폭)_28364-5",
     "code": "28364-5",
     "name": "28364-5",
     "brand": "개나리",
@@ -24971,7 +24971,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28364-6",
+    "id": "개나-합지(장폭)_28364-6",
     "code": "28364-6",
     "name": "28364-6",
     "brand": "개나리",
@@ -24985,7 +24985,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28365-1",
+    "id": "개나-합지(장폭)_28365-1",
     "code": "28365-1",
     "name": "28365-1",
     "brand": "개나리",
@@ -24999,7 +24999,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28365-2",
+    "id": "개나-합지(장폭)_28365-2",
     "code": "28365-2",
     "name": "28365-2",
     "brand": "개나리",
@@ -25013,7 +25013,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28365-3",
+    "id": "개나-합지(장폭)_28365-3",
     "code": "28365-3",
     "name": "28365-3",
     "brand": "개나리",
@@ -25027,7 +25027,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28365-5",
+    "id": "개나-합지(장폭)_28365-5",
     "code": "28365-5",
     "name": "28365-5",
     "brand": "개나리",
@@ -25041,7 +25041,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28366-1",
+    "id": "개나-합지(장폭)_28366-1",
     "code": "28366-1",
     "name": "28366-1",
     "brand": "개나리",
@@ -25055,7 +25055,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28366-2",
+    "id": "개나-합지(장폭)_28366-2",
     "code": "28366-2",
     "name": "28366-2",
     "brand": "개나리",
@@ -25069,7 +25069,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28366-3",
+    "id": "개나-합지(장폭)_28366-3",
     "code": "28366-3",
     "name": "28366-3",
     "brand": "개나리",
@@ -25083,7 +25083,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28366-4",
+    "id": "개나-합지(장폭)_28366-4",
     "code": "28366-4",
     "name": "28366-4",
     "brand": "개나리",
@@ -25097,7 +25097,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28370-1",
+    "id": "개나-합지(장폭)_28370-1",
     "code": "28370-1",
     "name": "28370-1",
     "brand": "개나리",
@@ -25111,7 +25111,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28370-2",
+    "id": "개나-합지(장폭)_28370-2",
     "code": "28370-2",
     "name": "28370-2",
     "brand": "개나리",
@@ -25125,7 +25125,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28370-5",
+    "id": "개나-합지(장폭)_28370-5",
     "code": "28370-5",
     "name": "28370-5",
     "brand": "개나리",
@@ -25139,7 +25139,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28371-1",
+    "id": "개나-합지(장폭)_28371-1",
     "code": "28371-1",
     "name": "28371-1",
     "brand": "개나리",
@@ -25153,7 +25153,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28371-2",
+    "id": "개나-합지(장폭)_28371-2",
     "code": "28371-2",
     "name": "28371-2",
     "brand": "개나리",
@@ -25167,7 +25167,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28371-3",
+    "id": "개나-합지(장폭)_28371-3",
     "code": "28371-3",
     "name": "28371-3",
     "brand": "개나리",
@@ -25181,7 +25181,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28371-4",
+    "id": "개나-합지(장폭)_28371-4",
     "code": "28371-4",
     "name": "28371-4",
     "brand": "개나리",
@@ -25195,7 +25195,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28371-5",
+    "id": "개나-합지(장폭)_28371-5",
     "code": "28371-5",
     "name": "28371-5",
     "brand": "개나리",
@@ -25209,7 +25209,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28371-9",
+    "id": "개나-합지(장폭)_28371-9",
     "code": "28371-9",
     "name": "28371-9",
     "brand": "개나리",
@@ -25223,7 +25223,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28372-1",
+    "id": "개나-합지(장폭)_28372-1",
     "code": "28372-1",
     "name": "28372-1",
     "brand": "개나리",
@@ -25237,7 +25237,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28372-2",
+    "id": "개나-합지(장폭)_28372-2",
     "code": "28372-2",
     "name": "28372-2",
     "brand": "개나리",
@@ -25251,7 +25251,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28372-3",
+    "id": "개나-합지(장폭)_28372-3",
     "code": "28372-3",
     "name": "28372-3",
     "brand": "개나리",
@@ -25265,7 +25265,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28372-4",
+    "id": "개나-합지(장폭)_28372-4",
     "code": "28372-4",
     "name": "28372-4",
     "brand": "개나리",
@@ -25279,7 +25279,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28372-5",
+    "id": "개나-합지(장폭)_28372-5",
     "code": "28372-5",
     "name": "28372-5",
     "brand": "개나리",
@@ -25293,7 +25293,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28372-6",
+    "id": "개나-합지(장폭)_28372-6",
     "code": "28372-6",
     "name": "28372-6",
     "brand": "개나리",
@@ -25307,7 +25307,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-28372-7",
+    "id": "개나-합지(장폭)_28372-7",
     "code": "28372-7",
     "name": "28372-7",
     "brand": "개나리",
@@ -25321,7 +25321,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-29080-1",
+    "id": "개나-합지(장폭)_29080-1",
     "code": "29080-1",
     "name": "29080-1",
     "brand": "개나리",
@@ -25335,7 +25335,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-29080-2",
+    "id": "개나-합지(장폭)_29080-2",
     "code": "29080-2",
     "name": "29080-2",
     "brand": "개나리",
@@ -25349,7 +25349,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39034-1",
+    "id": "개나-합지(장폭)_39034-1",
     "code": "39034-1",
     "name": "39034-1",
     "brand": "개나리",
@@ -25363,7 +25363,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39369-1",
+    "id": "개나-합지(장폭)_39369-1",
     "code": "39369-1",
     "name": "39369-1",
     "brand": "개나리",
@@ -25377,7 +25377,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39369-2",
+    "id": "개나-합지(장폭)_39369-2",
     "code": "39369-2",
     "name": "39369-2",
     "brand": "개나리",
@@ -25391,7 +25391,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39369-3",
+    "id": "개나-합지(장폭)_39369-3",
     "code": "39369-3",
     "name": "39369-3",
     "brand": "개나리",
@@ -25405,7 +25405,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39369-5",
+    "id": "개나-합지(장폭)_39369-5",
     "code": "39369-5",
     "name": "39369-5",
     "brand": "개나리",
@@ -25419,7 +25419,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39369-6",
+    "id": "개나-합지(장폭)_39369-6",
     "code": "39369-6",
     "name": "39369-6",
     "brand": "개나리",
@@ -25433,7 +25433,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39371-1",
+    "id": "개나-합지(장폭)_39371-1",
     "code": "39371-1",
     "name": "39371-1",
     "brand": "개나리",
@@ -25447,7 +25447,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39371-2",
+    "id": "개나-합지(장폭)_39371-2",
     "code": "39371-2",
     "name": "39371-2",
     "brand": "개나리",
@@ -25461,7 +25461,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39371-3",
+    "id": "개나-합지(장폭)_39371-3",
     "code": "39371-3",
     "name": "39371-3",
     "brand": "개나리",
@@ -25475,7 +25475,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39371-4",
+    "id": "개나-합지(장폭)_39371-4",
     "code": "39371-4",
     "name": "39371-4",
     "brand": "개나리",
@@ -25489,7 +25489,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39371-6",
+    "id": "개나-합지(장폭)_39371-6",
     "code": "39371-6",
     "name": "39371-6",
     "brand": "개나리",
@@ -25503,7 +25503,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39371-7",
+    "id": "개나-합지(장폭)_39371-7",
     "code": "39371-7",
     "name": "39371-7",
     "brand": "개나리",
@@ -25517,7 +25517,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39371-8",
+    "id": "개나-합지(장폭)_39371-8",
     "code": "39371-8",
     "name": "39371-8",
     "brand": "개나리",
@@ -25531,7 +25531,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39371-9",
+    "id": "개나-합지(장폭)_39371-9",
     "code": "39371-9",
     "name": "39371-9",
     "brand": "개나리",
@@ -25545,7 +25545,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39372-1",
+    "id": "개나-합지(장폭)_39372-1",
     "code": "39372-1",
     "name": "39372-1",
     "brand": "개나리",
@@ -25559,7 +25559,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39372-2",
+    "id": "개나-합지(장폭)_39372-2",
     "code": "39372-2",
     "name": "39372-2",
     "brand": "개나리",
@@ -25573,7 +25573,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39372-3",
+    "id": "개나-합지(장폭)_39372-3",
     "code": "39372-3",
     "name": "39372-3",
     "brand": "개나리",
@@ -25587,7 +25587,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39374-1",
+    "id": "개나-합지(장폭)_39374-1",
     "code": "39374-1",
     "name": "39374-1",
     "brand": "개나리",
@@ -25601,7 +25601,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39374-2",
+    "id": "개나-합지(장폭)_39374-2",
     "code": "39374-2",
     "name": "39374-2",
     "brand": "개나리",
@@ -25615,7 +25615,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39374-3",
+    "id": "개나-합지(장폭)_39374-3",
     "code": "39374-3",
     "name": "39374-3",
     "brand": "개나리",
@@ -25629,7 +25629,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39374-4",
+    "id": "개나-합지(장폭)_39374-4",
     "code": "39374-4",
     "name": "39374-4",
     "brand": "개나리",
@@ -25643,7 +25643,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39374-6",
+    "id": "개나-합지(장폭)_39374-6",
     "code": "39374-6",
     "name": "39374-6",
     "brand": "개나리",
@@ -25657,7 +25657,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39374-7",
+    "id": "개나-합지(장폭)_39374-7",
     "code": "39374-7",
     "name": "39374-7",
     "brand": "개나리",
@@ -25671,7 +25671,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39375-1",
+    "id": "개나-합지(장폭)_39375-1",
     "code": "39375-1",
     "name": "39375-1",
     "brand": "개나리",
@@ -25685,7 +25685,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39375-2",
+    "id": "개나-합지(장폭)_39375-2",
     "code": "39375-2",
     "name": "39375-2",
     "brand": "개나리",
@@ -25699,7 +25699,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39376-1",
+    "id": "개나-합지(장폭)_39376-1",
     "code": "39376-1",
     "name": "39376-1",
     "brand": "개나리",
@@ -25713,7 +25713,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39377-1",
+    "id": "개나-합지(장폭)_39377-1",
     "code": "39377-1",
     "name": "39377-1",
     "brand": "개나리",
@@ -25727,7 +25727,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39377-2",
+    "id": "개나-합지(장폭)_39377-2",
     "code": "39377-2",
     "name": "39377-2",
     "brand": "개나리",
@@ -25741,7 +25741,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39378-1",
+    "id": "개나-합지(장폭)_39378-1",
     "code": "39378-1",
     "name": "39378-1",
     "brand": "개나리",
@@ -25755,7 +25755,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39378-2",
+    "id": "개나-합지(장폭)_39378-2",
     "code": "39378-2",
     "name": "39378-2",
     "brand": "개나리",
@@ -25769,7 +25769,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39379-1",
+    "id": "개나-합지(장폭)_39379-1",
     "code": "39379-1",
     "name": "39379-1",
     "brand": "개나리",
@@ -25783,7 +25783,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39379-2",
+    "id": "개나-합지(장폭)_39379-2",
     "code": "39379-2",
     "name": "39379-2",
     "brand": "개나리",
@@ -25797,7 +25797,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39381-1",
+    "id": "개나-합지(장폭)_39381-1",
     "code": "39381-1",
     "name": "39381-1",
     "brand": "개나리",
@@ -25811,7 +25811,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39381-2",
+    "id": "개나-합지(장폭)_39381-2",
     "code": "39381-2",
     "name": "39381-2",
     "brand": "개나리",
@@ -25825,7 +25825,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39382-1",
+    "id": "개나-합지(장폭)_39382-1",
     "code": "39382-1",
     "name": "39382-1",
     "brand": "개나리",
@@ -25839,7 +25839,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39382-2",
+    "id": "개나-합지(장폭)_39382-2",
     "code": "39382-2",
     "name": "39382-2",
     "brand": "개나리",
@@ -25853,7 +25853,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39382-3",
+    "id": "개나-합지(장폭)_39382-3",
     "code": "39382-3",
     "name": "39382-3",
     "brand": "개나리",
@@ -25867,7 +25867,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39382-4",
+    "id": "개나-합지(장폭)_39382-4",
     "code": "39382-4",
     "name": "39382-4",
     "brand": "개나리",
@@ -25881,7 +25881,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39382-5",
+    "id": "개나-합지(장폭)_39382-5",
     "code": "39382-5",
     "name": "39382-5",
     "brand": "개나리",
@@ -25895,7 +25895,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39383-1",
+    "id": "개나-합지(장폭)_39383-1",
     "code": "39383-1",
     "name": "39383-1",
     "brand": "개나리",
@@ -25909,7 +25909,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39383-2",
+    "id": "개나-합지(장폭)_39383-2",
     "code": "39383-2",
     "name": "39383-2",
     "brand": "개나리",
@@ -25923,7 +25923,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39383-3",
+    "id": "개나-합지(장폭)_39383-3",
     "code": "39383-3",
     "name": "39383-3",
     "brand": "개나리",
@@ -25937,7 +25937,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39383-4",
+    "id": "개나-합지(장폭)_39383-4",
     "code": "39383-4",
     "name": "39383-4",
     "brand": "개나리",
@@ -25951,7 +25951,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39383-5",
+    "id": "개나-합지(장폭)_39383-5",
     "code": "39383-5",
     "name": "39383-5",
     "brand": "개나리",
@@ -25965,7 +25965,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39385-1",
+    "id": "개나-합지(장폭)_39385-1",
     "code": "39385-1",
     "name": "39385-1",
     "brand": "개나리",
@@ -25979,7 +25979,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39385-2",
+    "id": "개나-합지(장폭)_39385-2",
     "code": "39385-2",
     "name": "39385-2",
     "brand": "개나리",
@@ -25993,7 +25993,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39385-3",
+    "id": "개나-합지(장폭)_39385-3",
     "code": "39385-3",
     "name": "39385-3",
     "brand": "개나리",
@@ -26007,7 +26007,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39385-4",
+    "id": "개나-합지(장폭)_39385-4",
     "code": "39385-4",
     "name": "39385-4",
     "brand": "개나리",
@@ -26021,7 +26021,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39386-1",
+    "id": "개나-합지(장폭)_39386-1",
     "code": "39386-1",
     "name": "39386-1",
     "brand": "개나리",
@@ -26035,7 +26035,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39386-2",
+    "id": "개나-합지(장폭)_39386-2",
     "code": "39386-2",
     "name": "39386-2",
     "brand": "개나리",
@@ -26049,7 +26049,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39386-3",
+    "id": "개나-합지(장폭)_39386-3",
     "code": "39386-3",
     "name": "39386-3",
     "brand": "개나리",
@@ -26063,7 +26063,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39386-4",
+    "id": "개나-합지(장폭)_39386-4",
     "code": "39386-4",
     "name": "39386-4",
     "brand": "개나리",
@@ -26077,7 +26077,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39386-5",
+    "id": "개나-합지(장폭)_39386-5",
     "code": "39386-5",
     "name": "39386-5",
     "brand": "개나리",
@@ -26091,7 +26091,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39386-6",
+    "id": "개나-합지(장폭)_39386-6",
     "code": "39386-6",
     "name": "39386-6",
     "brand": "개나리",
@@ -26105,7 +26105,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39388-1",
+    "id": "개나-합지(장폭)_39388-1",
     "code": "39388-1",
     "name": "39388-1",
     "brand": "개나리",
@@ -26119,7 +26119,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39389-1",
+    "id": "개나-합지(장폭)_39389-1",
     "code": "39389-1",
     "name": "39389-1",
     "brand": "개나리",
@@ -26133,7 +26133,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39389-2",
+    "id": "개나-합지(장폭)_39389-2",
     "code": "39389-2",
     "name": "39389-2",
     "brand": "개나리",
@@ -26147,7 +26147,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39389-3",
+    "id": "개나-합지(장폭)_39389-3",
     "code": "39389-3",
     "name": "39389-3",
     "brand": "개나리",
@@ -26161,7 +26161,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39390-1",
+    "id": "개나-합지(장폭)_39390-1",
     "code": "39390-1",
     "name": "39390-1",
     "brand": "개나리",
@@ -26175,7 +26175,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39390-2",
+    "id": "개나-합지(장폭)_39390-2",
     "code": "39390-2",
     "name": "39390-2",
     "brand": "개나리",
@@ -26189,7 +26189,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39390-3",
+    "id": "개나-합지(장폭)_39390-3",
     "code": "39390-3",
     "name": "39390-3",
     "brand": "개나리",
@@ -26203,7 +26203,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39390-4",
+    "id": "개나-합지(장폭)_39390-4",
     "code": "39390-4",
     "name": "39390-4",
     "brand": "개나리",
@@ -26217,7 +26217,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39391-1",
+    "id": "개나-합지(장폭)_39391-1",
     "code": "39391-1",
     "name": "39391-1",
     "brand": "개나리",
@@ -26231,7 +26231,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39391-2",
+    "id": "개나-합지(장폭)_39391-2",
     "code": "39391-2",
     "name": "39391-2",
     "brand": "개나리",
@@ -26245,7 +26245,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39391-3",
+    "id": "개나-합지(장폭)_39391-3",
     "code": "39391-3",
     "name": "39391-3",
     "brand": "개나리",
@@ -26259,7 +26259,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39391-4",
+    "id": "개나-합지(장폭)_39391-4",
     "code": "39391-4",
     "name": "39391-4",
     "brand": "개나리",
@@ -26273,7 +26273,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39391-5",
+    "id": "개나-합지(장폭)_39391-5",
     "code": "39391-5",
     "name": "39391-5",
     "brand": "개나리",
@@ -26287,7 +26287,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39392-1",
+    "id": "개나-합지(장폭)_39392-1",
     "code": "39392-1",
     "name": "39392-1",
     "brand": "개나리",
@@ -26301,7 +26301,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39392-2",
+    "id": "개나-합지(장폭)_39392-2",
     "code": "39392-2",
     "name": "39392-2",
     "brand": "개나리",
@@ -26315,7 +26315,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39392-3",
+    "id": "개나-합지(장폭)_39392-3",
     "code": "39392-3",
     "name": "39392-3",
     "brand": "개나리",
@@ -26329,7 +26329,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39392-4",
+    "id": "개나-합지(장폭)_39392-4",
     "code": "39392-4",
     "name": "39392-4",
     "brand": "개나리",
@@ -26343,7 +26343,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39392-5",
+    "id": "개나-합지(장폭)_39392-5",
     "code": "39392-5",
     "name": "39392-5",
     "brand": "개나리",
@@ -26357,7 +26357,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39393-1",
+    "id": "개나-합지(장폭)_39393-1",
     "code": "39393-1",
     "name": "39393-1",
     "brand": "개나리",
@@ -26371,7 +26371,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39393-2",
+    "id": "개나-합지(장폭)_39393-2",
     "code": "39393-2",
     "name": "39393-2",
     "brand": "개나리",
@@ -26385,7 +26385,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39393-3",
+    "id": "개나-합지(장폭)_39393-3",
     "code": "39393-3",
     "name": "39393-3",
     "brand": "개나리",
@@ -26399,7 +26399,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39393-4",
+    "id": "개나-합지(장폭)_39393-4",
     "code": "39393-4",
     "name": "39393-4",
     "brand": "개나리",
@@ -26413,7 +26413,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39393-5",
+    "id": "개나-합지(장폭)_39393-5",
     "code": "39393-5",
     "name": "39393-5",
     "brand": "개나리",
@@ -26427,7 +26427,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39393-6",
+    "id": "개나-합지(장폭)_39393-6",
     "code": "39393-6",
     "name": "39393-6",
     "brand": "개나리",
@@ -26441,7 +26441,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39393-7",
+    "id": "개나-합지(장폭)_39393-7",
     "code": "39393-7",
     "name": "39393-7",
     "brand": "개나리",
@@ -26455,7 +26455,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39394-1",
+    "id": "개나-합지(장폭)_39394-1",
     "code": "39394-1",
     "name": "39394-1",
     "brand": "개나리",
@@ -26469,7 +26469,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39394-2",
+    "id": "개나-합지(장폭)_39394-2",
     "code": "39394-2",
     "name": "39394-2",
     "brand": "개나리",
@@ -26483,7 +26483,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39394-3",
+    "id": "개나-합지(장폭)_39394-3",
     "code": "39394-3",
     "name": "39394-3",
     "brand": "개나리",
@@ -26497,7 +26497,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39394-4",
+    "id": "개나-합지(장폭)_39394-4",
     "code": "39394-4",
     "name": "39394-4",
     "brand": "개나리",
@@ -26511,7 +26511,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39394-5",
+    "id": "개나-합지(장폭)_39394-5",
     "code": "39394-5",
     "name": "39394-5",
     "brand": "개나리",
@@ -26525,7 +26525,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "개나-39394-6",
+    "id": "개나-합지(장폭)_39394-6",
     "code": "39394-6",
     "name": "39394-6",
     "brand": "개나리",
@@ -26539,7 +26539,7 @@ export const materials = [
     "materialType": "합지(장폭)"
   },
   {
-    "id": "서울-1000-1",
+    "id": "서울-방염_1000-1",
     "code": "1000-1",
     "name": "1000-1",
     "brand": "서울",
@@ -26553,7 +26553,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-1000-2",
+    "id": "서울-방염_1000-2",
     "code": "1000-2",
     "name": "1000-2",
     "brand": "서울",
@@ -26567,7 +26567,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-1001-1",
+    "id": "서울-방염_1001-1",
     "code": "1001-1",
     "name": "1001-1",
     "brand": "서울",
@@ -26581,7 +26581,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-1001-2",
+    "id": "서울-방염_1001-2",
     "code": "1001-2",
     "name": "1001-2",
     "brand": "서울",
@@ -26595,7 +26595,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-1002-1",
+    "id": "서울-방염_1002-1",
     "code": "1002-1",
     "name": "1002-1",
     "brand": "서울",
@@ -26609,7 +26609,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-1002-2",
+    "id": "서울-방염_1002-2",
     "code": "1002-2",
     "name": "1002-2",
     "brand": "서울",
@@ -26623,7 +26623,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2259-2",
+    "id": "서울-방염_2259-2",
     "code": "2259-2",
     "name": "2259-2",
     "brand": "서울",
@@ -26637,7 +26637,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2259-3",
+    "id": "서울-방염_2259-3",
     "code": "2259-3",
     "name": "2259-3",
     "brand": "서울",
@@ -26651,7 +26651,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2259-4",
+    "id": "서울-방염_2259-4",
     "code": "2259-4",
     "name": "2259-4",
     "brand": "서울",
@@ -26665,7 +26665,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2259-5",
+    "id": "서울-방염_2259-5",
     "code": "2259-5",
     "name": "2259-5",
     "brand": "서울",
@@ -26679,7 +26679,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2277-1",
+    "id": "서울-방염_2277-1",
     "code": "2277-1",
     "name": "2277-1",
     "brand": "서울",
@@ -26693,7 +26693,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2277-2",
+    "id": "서울-방염_2277-2",
     "code": "2277-2",
     "name": "2277-2",
     "brand": "서울",
@@ -26707,7 +26707,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2277-3",
+    "id": "서울-방염_2277-3",
     "code": "2277-3",
     "name": "2277-3",
     "brand": "서울",
@@ -26721,7 +26721,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2277-6",
+    "id": "서울-방염_2277-6",
     "code": "2277-6",
     "name": "2277-6",
     "brand": "서울",
@@ -26735,7 +26735,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2277-7",
+    "id": "서울-방염_2277-7",
     "code": "2277-7",
     "name": "2277-7",
     "brand": "서울",
@@ -26749,7 +26749,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2290-1",
+    "id": "서울-방염_2290-1",
     "code": "2290-1",
     "name": "2290-1",
     "brand": "서울",
@@ -26763,7 +26763,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2290-2",
+    "id": "서울-방염_2290-2",
     "code": "2290-2",
     "name": "2290-2",
     "brand": "서울",
@@ -26777,7 +26777,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2290-3",
+    "id": "서울-방염_2290-3",
     "code": "2290-3",
     "name": "2290-3",
     "brand": "서울",
@@ -26791,7 +26791,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2290-4",
+    "id": "서울-방염_2290-4",
     "code": "2290-4",
     "name": "2290-4",
     "brand": "서울",
@@ -26805,7 +26805,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2290-6",
+    "id": "서울-방염_2290-6",
     "code": "2290-6",
     "name": "2290-6",
     "brand": "서울",
@@ -26819,7 +26819,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2290-9",
+    "id": "서울-방염_2290-9",
     "code": "2290-9",
     "name": "2290-9",
     "brand": "서울",
@@ -26833,7 +26833,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2291-1",
+    "id": "서울-방염_2291-1",
     "code": "2291-1",
     "name": "2291-1",
     "brand": "서울",
@@ -26847,7 +26847,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2291-2",
+    "id": "서울-방염_2291-2",
     "code": "2291-2",
     "name": "2291-2",
     "brand": "서울",
@@ -26861,7 +26861,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2291-3",
+    "id": "서울-방염_2291-3",
     "code": "2291-3",
     "name": "2291-3",
     "brand": "서울",
@@ -26875,7 +26875,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2291-4",
+    "id": "서울-방염_2291-4",
     "code": "2291-4",
     "name": "2291-4",
     "brand": "서울",
@@ -26889,7 +26889,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2292-1",
+    "id": "서울-방염_2292-1",
     "code": "2292-1",
     "name": "2292-1",
     "brand": "서울",
@@ -26903,7 +26903,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2292-2",
+    "id": "서울-방염_2292-2",
     "code": "2292-2",
     "name": "2292-2",
     "brand": "서울",
@@ -26917,7 +26917,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2292-3",
+    "id": "서울-방염_2292-3",
     "code": "2292-3",
     "name": "2292-3",
     "brand": "서울",
@@ -26931,7 +26931,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2297-1",
+    "id": "서울-방염_2297-1",
     "code": "2297-1",
     "name": "2297-1",
     "brand": "서울",
@@ -26945,7 +26945,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2297-2",
+    "id": "서울-방염_2297-2",
     "code": "2297-2",
     "name": "2297-2",
     "brand": "서울",
@@ -26959,7 +26959,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2297-3",
+    "id": "서울-방염_2297-3",
     "code": "2297-3",
     "name": "2297-3",
     "brand": "서울",
@@ -26973,7 +26973,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2297-4",
+    "id": "서울-방염_2297-4",
     "code": "2297-4",
     "name": "2297-4",
     "brand": "서울",
@@ -26987,7 +26987,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2302-1",
+    "id": "서울-방염_2302-1",
     "code": "2302-1",
     "name": "2302-1",
     "brand": "서울",
@@ -27001,7 +27001,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2302-2",
+    "id": "서울-방염_2302-2",
     "code": "2302-2",
     "name": "2302-2",
     "brand": "서울",
@@ -27015,7 +27015,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2302-3",
+    "id": "서울-방염_2302-3",
     "code": "2302-3",
     "name": "2302-3",
     "brand": "서울",
@@ -27029,7 +27029,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2302-5",
+    "id": "서울-방염_2302-5",
     "code": "2302-5",
     "name": "2302-5",
     "brand": "서울",
@@ -27043,7 +27043,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2327-1",
+    "id": "서울-방염_2327-1",
     "code": "2327-1",
     "name": "2327-1",
     "brand": "서울",
@@ -27057,7 +27057,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2327-2",
+    "id": "서울-방염_2327-2",
     "code": "2327-2",
     "name": "2327-2",
     "brand": "서울",
@@ -27071,7 +27071,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2327-3",
+    "id": "서울-방염_2327-3",
     "code": "2327-3",
     "name": "2327-3",
     "brand": "서울",
@@ -27085,7 +27085,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2327-4",
+    "id": "서울-방염_2327-4",
     "code": "2327-4",
     "name": "2327-4",
     "brand": "서울",
@@ -27099,7 +27099,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-2327-5",
+    "id": "서울-방염_2327-5",
     "code": "2327-5",
     "name": "2327-5",
     "brand": "서울",
@@ -27113,7 +27113,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-318-12",
+    "id": "서울-방염_318-12",
     "code": "318-12",
     "name": "318-12",
     "brand": "서울",
@@ -27127,7 +27127,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-318-2",
+    "id": "서울-방염_318-2",
     "code": "318-2",
     "name": "318-2",
     "brand": "서울",
@@ -27141,7 +27141,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-318-3",
+    "id": "서울-방염_318-3",
     "code": "318-3",
     "name": "318-3",
     "brand": "서울",
@@ -27155,7 +27155,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-318-5",
+    "id": "서울-방염_318-5",
     "code": "318-5",
     "name": "318-5",
     "brand": "서울",
@@ -27169,7 +27169,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-338-1",
+    "id": "서울-방염_338-1",
     "code": "338-1",
     "name": "338-1",
     "brand": "서울",
@@ -27183,7 +27183,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-338-3",
+    "id": "서울-방염_338-3",
     "code": "338-3",
     "name": "338-3",
     "brand": "서울",
@@ -27197,7 +27197,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-338-6",
+    "id": "서울-방염_338-6",
     "code": "338-6",
     "name": "338-6",
     "brand": "서울",
@@ -27211,7 +27211,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-346-1",
+    "id": "서울-방염_346-1",
     "code": "346-1",
     "name": "346-1",
     "brand": "서울",
@@ -27225,7 +27225,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-346-12",
+    "id": "서울-방염_346-12",
     "code": "346-12",
     "name": "346-12",
     "brand": "서울",
@@ -27239,7 +27239,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-346-2",
+    "id": "서울-방염_346-2",
     "code": "346-2",
     "name": "346-2",
     "brand": "서울",
@@ -27253,7 +27253,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-346-3",
+    "id": "서울-방염_346-3",
     "code": "346-3",
     "name": "346-3",
     "brand": "서울",
@@ -27267,7 +27267,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-346-5",
+    "id": "서울-방염_346-5",
     "code": "346-5",
     "name": "346-5",
     "brand": "서울",
@@ -27281,7 +27281,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-346-9",
+    "id": "서울-방염_346-9",
     "code": "346-9",
     "name": "346-9",
     "brand": "서울",
@@ -27295,7 +27295,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-354-1",
+    "id": "서울-방염_354-1",
     "code": "354-1",
     "name": "354-1",
     "brand": "서울",
@@ -27309,7 +27309,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-354-10",
+    "id": "서울-방염_354-10",
     "code": "354-10",
     "name": "354-10",
     "brand": "서울",
@@ -27323,7 +27323,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-354-8",
+    "id": "서울-방염_354-8",
     "code": "354-8",
     "name": "354-8",
     "brand": "서울",
@@ -27337,7 +27337,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-354-9",
+    "id": "서울-방염_354-9",
     "code": "354-9",
     "name": "354-9",
     "brand": "서울",
@@ -27351,7 +27351,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-385-1",
+    "id": "서울-방염_385-1",
     "code": "385-1",
     "name": "385-1",
     "brand": "서울",
@@ -27365,7 +27365,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-385-10",
+    "id": "서울-방염_385-10",
     "code": "385-10",
     "name": "385-10",
     "brand": "서울",
@@ -27379,7 +27379,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-385-11",
+    "id": "서울-방염_385-11",
     "code": "385-11",
     "name": "385-11",
     "brand": "서울",
@@ -27393,7 +27393,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-385-2",
+    "id": "서울-방염_385-2",
     "code": "385-2",
     "name": "385-2",
     "brand": "서울",
@@ -27407,7 +27407,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-385-3",
+    "id": "서울-방염_385-3",
     "code": "385-3",
     "name": "385-3",
     "brand": "서울",
@@ -27421,7 +27421,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-385-4",
+    "id": "서울-방염_385-4",
     "code": "385-4",
     "name": "385-4",
     "brand": "서울",
@@ -27435,7 +27435,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-385-5",
+    "id": "서울-방염_385-5",
     "code": "385-5",
     "name": "385-5",
     "brand": "서울",
@@ -27449,7 +27449,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-385-9",
+    "id": "서울-방염_385-9",
     "code": "385-9",
     "name": "385-9",
     "brand": "서울",
@@ -27463,7 +27463,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-403-1",
+    "id": "서울-방염_403-1",
     "code": "403-1",
     "name": "403-1",
     "brand": "서울",
@@ -27477,7 +27477,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-403-3",
+    "id": "서울-방염_403-3",
     "code": "403-3",
     "name": "403-3",
     "brand": "서울",
@@ -27491,7 +27491,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-403-4",
+    "id": "서울-방염_403-4",
     "code": "403-4",
     "name": "403-4",
     "brand": "서울",
@@ -27505,7 +27505,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-403-6",
+    "id": "서울-방염_403-6",
     "code": "403-6",
     "name": "403-6",
     "brand": "서울",
@@ -27519,7 +27519,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-403-8",
+    "id": "서울-방염_403-8",
     "code": "403-8",
     "name": "403-8",
     "brand": "서울",
@@ -27533,7 +27533,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-422-1",
+    "id": "서울-방염_422-1",
     "code": "422-1",
     "name": "422-1",
     "brand": "서울",
@@ -27547,7 +27547,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-422-2",
+    "id": "서울-방염_422-2",
     "code": "422-2",
     "name": "422-2",
     "brand": "서울",
@@ -27561,7 +27561,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-422-3",
+    "id": "서울-방염_422-3",
     "code": "422-3",
     "name": "422-3",
     "brand": "서울",
@@ -27575,7 +27575,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-429-1",
+    "id": "서울-방염_429-1",
     "code": "429-1",
     "name": "429-1",
     "brand": "서울",
@@ -27589,7 +27589,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-429-2",
+    "id": "서울-방염_429-2",
     "code": "429-2",
     "name": "429-2",
     "brand": "서울",
@@ -27603,7 +27603,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-429-3",
+    "id": "서울-방염_429-3",
     "code": "429-3",
     "name": "429-3",
     "brand": "서울",
@@ -27617,7 +27617,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-429-4",
+    "id": "서울-방염_429-4",
     "code": "429-4",
     "name": "429-4",
     "brand": "서울",
@@ -27631,7 +27631,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-429-5",
+    "id": "서울-방염_429-5",
     "code": "429-5",
     "name": "429-5",
     "brand": "서울",
@@ -27645,7 +27645,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "서울-1000-1",
+    "id": "서울-실크_1000-1",
     "code": "1000-1",
     "name": "1000-1",
     "brand": "서울",
@@ -27665,7 +27665,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-1000-2",
+    "id": "서울-실크_1000-2",
     "code": "1000-2",
     "name": "1000-2",
     "brand": "서울",
@@ -27685,7 +27685,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-1000-3",
+    "id": "서울-실크_1000-3",
     "code": "1000-3",
     "name": "1000-3",
     "brand": "서울",
@@ -27705,7 +27705,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-1001-1",
+    "id": "서울-실크_1001-1",
     "code": "1001-1",
     "name": "1001-1",
     "brand": "서울",
@@ -27725,7 +27725,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-1001-2",
+    "id": "서울-실크_1001-2",
     "code": "1001-2",
     "name": "1001-2",
     "brand": "서울",
@@ -27745,7 +27745,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-1002-1",
+    "id": "서울-실크_1002-1",
     "code": "1002-1",
     "name": "1002-1",
     "brand": "서울",
@@ -27765,7 +27765,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-1002-2",
+    "id": "서울-실크_1002-2",
     "code": "1002-2",
     "name": "1002-2",
     "brand": "서울",
@@ -27785,7 +27785,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2106-1",
+    "id": "서울-실크_2106-1",
     "code": "2106-1",
     "name": "2106-1",
     "brand": "서울",
@@ -27805,7 +27805,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2278-1",
+    "id": "서울-실크_2278-1",
     "code": "2278-1",
     "name": "2278-1",
     "brand": "서울",
@@ -27825,7 +27825,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2281-1",
+    "id": "서울-실크_2281-1",
     "code": "2281-1",
     "name": "2281-1",
     "brand": "서울",
@@ -27845,7 +27845,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2295-1",
+    "id": "서울-실크_2295-1",
     "code": "2295-1",
     "name": "2295-1",
     "brand": "서울",
@@ -27865,7 +27865,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2296-1",
+    "id": "서울-실크_2296-1",
     "code": "2296-1",
     "name": "2296-1",
     "brand": "서울",
@@ -27885,7 +27885,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2296-2",
+    "id": "서울-실크_2296-2",
     "code": "2296-2",
     "name": "2296-2",
     "brand": "서울",
@@ -27905,7 +27905,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2296-3",
+    "id": "서울-실크_2296-3",
     "code": "2296-3",
     "name": "2296-3",
     "brand": "서울",
@@ -27925,7 +27925,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2296-4",
+    "id": "서울-실크_2296-4",
     "code": "2296-4",
     "name": "2296-4",
     "brand": "서울",
@@ -27945,7 +27945,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2296-5",
+    "id": "서울-실크_2296-5",
     "code": "2296-5",
     "name": "2296-5",
     "brand": "서울",
@@ -27965,7 +27965,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2298-1",
+    "id": "서울-실크_2298-1",
     "code": "2298-1",
     "name": "2298-1",
     "brand": "서울",
@@ -27985,7 +27985,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2298-2",
+    "id": "서울-실크_2298-2",
     "code": "2298-2",
     "name": "2298-2",
     "brand": "서울",
@@ -28005,7 +28005,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2302-1",
+    "id": "서울-실크_2302-1",
     "code": "2302-1",
     "name": "2302-1",
     "brand": "서울",
@@ -28025,7 +28025,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2302-2",
+    "id": "서울-실크_2302-2",
     "code": "2302-2",
     "name": "2302-2",
     "brand": "서울",
@@ -28045,7 +28045,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2302-3",
+    "id": "서울-실크_2302-3",
     "code": "2302-3",
     "name": "2302-3",
     "brand": "서울",
@@ -28065,7 +28065,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2307-1",
+    "id": "서울-실크_2307-1",
     "code": "2307-1",
     "name": "2307-1",
     "brand": "서울",
@@ -28085,7 +28085,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2311-1",
+    "id": "서울-실크_2311-1",
     "code": "2311-1",
     "name": "2311-1",
     "brand": "서울",
@@ -28105,7 +28105,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2319-1",
+    "id": "서울-실크_2319-1",
     "code": "2319-1",
     "name": "2319-1",
     "brand": "서울",
@@ -28125,7 +28125,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2319-2",
+    "id": "서울-실크_2319-2",
     "code": "2319-2",
     "name": "2319-2",
     "brand": "서울",
@@ -28145,7 +28145,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2319-4",
+    "id": "서울-실크_2319-4",
     "code": "2319-4",
     "name": "2319-4",
     "brand": "서울",
@@ -28165,7 +28165,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2319-7",
+    "id": "서울-실크_2319-7",
     "code": "2319-7",
     "name": "2319-7",
     "brand": "서울",
@@ -28185,7 +28185,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2319-8",
+    "id": "서울-실크_2319-8",
     "code": "2319-8",
     "name": "2319-8",
     "brand": "서울",
@@ -28205,7 +28205,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2319-9",
+    "id": "서울-실크_2319-9",
     "code": "2319-9",
     "name": "2319-9",
     "brand": "서울",
@@ -28225,7 +28225,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2323-1",
+    "id": "서울-실크_2323-1",
     "code": "2323-1",
     "name": "2323-1",
     "brand": "서울",
@@ -28245,7 +28245,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2323-2",
+    "id": "서울-실크_2323-2",
     "code": "2323-2",
     "name": "2323-2",
     "brand": "서울",
@@ -28265,7 +28265,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2323-3",
+    "id": "서울-실크_2323-3",
     "code": "2323-3",
     "name": "2323-3",
     "brand": "서울",
@@ -28285,7 +28285,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2323-5",
+    "id": "서울-실크_2323-5",
     "code": "2323-5",
     "name": "2323-5",
     "brand": "서울",
@@ -28305,7 +28305,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2324-1",
+    "id": "서울-실크_2324-1",
     "code": "2324-1",
     "name": "2324-1",
     "brand": "서울",
@@ -28325,7 +28325,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2324-2",
+    "id": "서울-실크_2324-2",
     "code": "2324-2",
     "name": "2324-2",
     "brand": "서울",
@@ -28345,7 +28345,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2324-3",
+    "id": "서울-실크_2324-3",
     "code": "2324-3",
     "name": "2324-3",
     "brand": "서울",
@@ -28365,7 +28365,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2326-1",
+    "id": "서울-실크_2326-1",
     "code": "2326-1",
     "name": "2326-1",
     "brand": "서울",
@@ -28385,7 +28385,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2326-2",
+    "id": "서울-실크_2326-2",
     "code": "2326-2",
     "name": "2326-2",
     "brand": "서울",
@@ -28405,7 +28405,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2326-3",
+    "id": "서울-실크_2326-3",
     "code": "2326-3",
     "name": "2326-3",
     "brand": "서울",
@@ -28425,7 +28425,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2326-4",
+    "id": "서울-실크_2326-4",
     "code": "2326-4",
     "name": "2326-4",
     "brand": "서울",
@@ -28445,7 +28445,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2326-5",
+    "id": "서울-실크_2326-5",
     "code": "2326-5",
     "name": "2326-5",
     "brand": "서울",
@@ -28465,7 +28465,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2326-6",
+    "id": "서울-실크_2326-6",
     "code": "2326-6",
     "name": "2326-6",
     "brand": "서울",
@@ -28485,7 +28485,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2327-1",
+    "id": "서울-실크_2327-1",
     "code": "2327-1",
     "name": "2327-1",
     "brand": "서울",
@@ -28505,7 +28505,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2327-2",
+    "id": "서울-실크_2327-2",
     "code": "2327-2",
     "name": "2327-2",
     "brand": "서울",
@@ -28525,7 +28525,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2327-3",
+    "id": "서울-실크_2327-3",
     "code": "2327-3",
     "name": "2327-3",
     "brand": "서울",
@@ -28545,7 +28545,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2327-4",
+    "id": "서울-실크_2327-4",
     "code": "2327-4",
     "name": "2327-4",
     "brand": "서울",
@@ -28565,7 +28565,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2328-1",
+    "id": "서울-실크_2328-1",
     "code": "2328-1",
     "name": "2328-1",
     "brand": "서울",
@@ -28585,7 +28585,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2328-10",
+    "id": "서울-실크_2328-10",
     "code": "2328-10",
     "name": "2328-10",
     "brand": "서울",
@@ -28605,7 +28605,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2328-11",
+    "id": "서울-실크_2328-11",
     "code": "2328-11",
     "name": "2328-11",
     "brand": "서울",
@@ -28625,7 +28625,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2328-2",
+    "id": "서울-실크_2328-2",
     "code": "2328-2",
     "name": "2328-2",
     "brand": "서울",
@@ -28645,7 +28645,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2328-3",
+    "id": "서울-실크_2328-3",
     "code": "2328-3",
     "name": "2328-3",
     "brand": "서울",
@@ -28665,7 +28665,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2328-9",
+    "id": "서울-실크_2328-9",
     "code": "2328-9",
     "name": "2328-9",
     "brand": "서울",
@@ -28685,7 +28685,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2329-1",
+    "id": "서울-실크_2329-1",
     "code": "2329-1",
     "name": "2329-1",
     "brand": "서울",
@@ -28705,7 +28705,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2329-2",
+    "id": "서울-실크_2329-2",
     "code": "2329-2",
     "name": "2329-2",
     "brand": "서울",
@@ -28725,7 +28725,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2330-1",
+    "id": "서울-실크_2330-1",
     "code": "2330-1",
     "name": "2330-1",
     "brand": "서울",
@@ -28745,7 +28745,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2331-1",
+    "id": "서울-실크_2331-1",
     "code": "2331-1",
     "name": "2331-1",
     "brand": "서울",
@@ -28765,7 +28765,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2332-1",
+    "id": "서울-실크_2332-1",
     "code": "2332-1",
     "name": "2332-1",
     "brand": "서울",
@@ -28785,7 +28785,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2333-1",
+    "id": "서울-실크_2333-1",
     "code": "2333-1",
     "name": "2333-1",
     "brand": "서울",
@@ -28805,7 +28805,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2334-1",
+    "id": "서울-실크_2334-1",
     "code": "2334-1",
     "name": "2334-1",
     "brand": "서울",
@@ -28825,7 +28825,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2335-1",
+    "id": "서울-실크_2335-1",
     "code": "2335-1",
     "name": "2335-1",
     "brand": "서울",
@@ -28845,7 +28845,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2335-2",
+    "id": "서울-실크_2335-2",
     "code": "2335-2",
     "name": "2335-2",
     "brand": "서울",
@@ -28865,7 +28865,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2336-1",
+    "id": "서울-실크_2336-1",
     "code": "2336-1",
     "name": "2336-1",
     "brand": "서울",
@@ -28885,7 +28885,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2336-2",
+    "id": "서울-실크_2336-2",
     "code": "2336-2",
     "name": "2336-2",
     "brand": "서울",
@@ -28905,7 +28905,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2336-3",
+    "id": "서울-실크_2336-3",
     "code": "2336-3",
     "name": "2336-3",
     "brand": "서울",
@@ -28925,7 +28925,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2336-4",
+    "id": "서울-실크_2336-4",
     "code": "2336-4",
     "name": "2336-4",
     "brand": "서울",
@@ -28945,7 +28945,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2337-1",
+    "id": "서울-실크_2337-1",
     "code": "2337-1",
     "name": "2337-1",
     "brand": "서울",
@@ -28965,7 +28965,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2337-2",
+    "id": "서울-실크_2337-2",
     "code": "2337-2",
     "name": "2337-2",
     "brand": "서울",
@@ -28985,7 +28985,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2337-3",
+    "id": "서울-실크_2337-3",
     "code": "2337-3",
     "name": "2337-3",
     "brand": "서울",
@@ -29005,7 +29005,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2337-4",
+    "id": "서울-실크_2337-4",
     "code": "2337-4",
     "name": "2337-4",
     "brand": "서울",
@@ -29025,7 +29025,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2337-5",
+    "id": "서울-실크_2337-5",
     "code": "2337-5",
     "name": "2337-5",
     "brand": "서울",
@@ -29045,7 +29045,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2337-6",
+    "id": "서울-실크_2337-6",
     "code": "2337-6",
     "name": "2337-6",
     "brand": "서울",
@@ -29065,7 +29065,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2338-1",
+    "id": "서울-실크_2338-1",
     "code": "2338-1",
     "name": "2338-1",
     "brand": "서울",
@@ -29085,7 +29085,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2338-2",
+    "id": "서울-실크_2338-2",
     "code": "2338-2",
     "name": "2338-2",
     "brand": "서울",
@@ -29105,7 +29105,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2338-3",
+    "id": "서울-실크_2338-3",
     "code": "2338-3",
     "name": "2338-3",
     "brand": "서울",
@@ -29125,7 +29125,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2338-4",
+    "id": "서울-실크_2338-4",
     "code": "2338-4",
     "name": "2338-4",
     "brand": "서울",
@@ -29145,7 +29145,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2338-5",
+    "id": "서울-실크_2338-5",
     "code": "2338-5",
     "name": "2338-5",
     "brand": "서울",
@@ -29165,7 +29165,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2338-6",
+    "id": "서울-실크_2338-6",
     "code": "2338-6",
     "name": "2338-6",
     "brand": "서울",
@@ -29185,7 +29185,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2338-7",
+    "id": "서울-실크_2338-7",
     "code": "2338-7",
     "name": "2338-7",
     "brand": "서울",
@@ -29205,7 +29205,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2339-1",
+    "id": "서울-실크_2339-1",
     "code": "2339-1",
     "name": "2339-1",
     "brand": "서울",
@@ -29225,7 +29225,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2339-2",
+    "id": "서울-실크_2339-2",
     "code": "2339-2",
     "name": "2339-2",
     "brand": "서울",
@@ -29245,7 +29245,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2339-3",
+    "id": "서울-실크_2339-3",
     "code": "2339-3",
     "name": "2339-3",
     "brand": "서울",
@@ -29265,7 +29265,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2339-4",
+    "id": "서울-실크_2339-4",
     "code": "2339-4",
     "name": "2339-4",
     "brand": "서울",
@@ -29285,7 +29285,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2339-5",
+    "id": "서울-실크_2339-5",
     "code": "2339-5",
     "name": "2339-5",
     "brand": "서울",
@@ -29305,7 +29305,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2339-6",
+    "id": "서울-실크_2339-6",
     "code": "2339-6",
     "name": "2339-6",
     "brand": "서울",
@@ -29325,7 +29325,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2339-7",
+    "id": "서울-실크_2339-7",
     "code": "2339-7",
     "name": "2339-7",
     "brand": "서울",
@@ -29345,7 +29345,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2340-1",
+    "id": "서울-실크_2340-1",
     "code": "2340-1",
     "name": "2340-1",
     "brand": "서울",
@@ -29365,7 +29365,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2340-2",
+    "id": "서울-실크_2340-2",
     "code": "2340-2",
     "name": "2340-2",
     "brand": "서울",
@@ -29385,7 +29385,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2340-3",
+    "id": "서울-실크_2340-3",
     "code": "2340-3",
     "name": "2340-3",
     "brand": "서울",
@@ -29405,7 +29405,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2340-4",
+    "id": "서울-실크_2340-4",
     "code": "2340-4",
     "name": "2340-4",
     "brand": "서울",
@@ -29425,7 +29425,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2340-5",
+    "id": "서울-실크_2340-5",
     "code": "2340-5",
     "name": "2340-5",
     "brand": "서울",
@@ -29445,7 +29445,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2340-6",
+    "id": "서울-실크_2340-6",
     "code": "2340-6",
     "name": "2340-6",
     "brand": "서울",
@@ -29465,7 +29465,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2340-7",
+    "id": "서울-실크_2340-7",
     "code": "2340-7",
     "name": "2340-7",
     "brand": "서울",
@@ -29485,7 +29485,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2341-1",
+    "id": "서울-실크_2341-1",
     "code": "2341-1",
     "name": "2341-1",
     "brand": "서울",
@@ -29505,7 +29505,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2341-2",
+    "id": "서울-실크_2341-2",
     "code": "2341-2",
     "name": "2341-2",
     "brand": "서울",
@@ -29525,7 +29525,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2341-3",
+    "id": "서울-실크_2341-3",
     "code": "2341-3",
     "name": "2341-3",
     "brand": "서울",
@@ -29545,7 +29545,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2341-4",
+    "id": "서울-실크_2341-4",
     "code": "2341-4",
     "name": "2341-4",
     "brand": "서울",
@@ -29565,7 +29565,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2341-5",
+    "id": "서울-실크_2341-5",
     "code": "2341-5",
     "name": "2341-5",
     "brand": "서울",
@@ -29585,7 +29585,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2341-6",
+    "id": "서울-실크_2341-6",
     "code": "2341-6",
     "name": "2341-6",
     "brand": "서울",
@@ -29605,7 +29605,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2342-1",
+    "id": "서울-실크_2342-1",
     "code": "2342-1",
     "name": "2342-1",
     "brand": "서울",
@@ -29625,7 +29625,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2342-2",
+    "id": "서울-실크_2342-2",
     "code": "2342-2",
     "name": "2342-2",
     "brand": "서울",
@@ -29645,7 +29645,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2343-1",
+    "id": "서울-실크_2343-1",
     "code": "2343-1",
     "name": "2343-1",
     "brand": "서울",
@@ -29665,7 +29665,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2343-2",
+    "id": "서울-실크_2343-2",
     "code": "2343-2",
     "name": "2343-2",
     "brand": "서울",
@@ -29685,7 +29685,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2344-1",
+    "id": "서울-실크_2344-1",
     "code": "2344-1",
     "name": "2344-1",
     "brand": "서울",
@@ -29705,7 +29705,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2344-2",
+    "id": "서울-실크_2344-2",
     "code": "2344-2",
     "name": "2344-2",
     "brand": "서울",
@@ -29725,7 +29725,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2344-3",
+    "id": "서울-실크_2344-3",
     "code": "2344-3",
     "name": "2344-3",
     "brand": "서울",
@@ -29745,7 +29745,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2344-4",
+    "id": "서울-실크_2344-4",
     "code": "2344-4",
     "name": "2344-4",
     "brand": "서울",
@@ -29765,7 +29765,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2344-5",
+    "id": "서울-실크_2344-5",
     "code": "2344-5",
     "name": "2344-5",
     "brand": "서울",
@@ -29785,7 +29785,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2345-1",
+    "id": "서울-실크_2345-1",
     "code": "2345-1",
     "name": "2345-1",
     "brand": "서울",
@@ -29805,7 +29805,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2345-2",
+    "id": "서울-실크_2345-2",
     "code": "2345-2",
     "name": "2345-2",
     "brand": "서울",
@@ -29825,7 +29825,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2345-3",
+    "id": "서울-실크_2345-3",
     "code": "2345-3",
     "name": "2345-3",
     "brand": "서울",
@@ -29845,7 +29845,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2345-4",
+    "id": "서울-실크_2345-4",
     "code": "2345-4",
     "name": "2345-4",
     "brand": "서울",
@@ -29865,7 +29865,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2346-1",
+    "id": "서울-실크_2346-1",
     "code": "2346-1",
     "name": "2346-1",
     "brand": "서울",
@@ -29885,7 +29885,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2346-2",
+    "id": "서울-실크_2346-2",
     "code": "2346-2",
     "name": "2346-2",
     "brand": "서울",
@@ -29905,7 +29905,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2346-3",
+    "id": "서울-실크_2346-3",
     "code": "2346-3",
     "name": "2346-3",
     "brand": "서울",
@@ -29925,7 +29925,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2346-4",
+    "id": "서울-실크_2346-4",
     "code": "2346-4",
     "name": "2346-4",
     "brand": "서울",
@@ -29945,7 +29945,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2346-5",
+    "id": "서울-실크_2346-5",
     "code": "2346-5",
     "name": "2346-5",
     "brand": "서울",
@@ -29965,7 +29965,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2347-1",
+    "id": "서울-실크_2347-1",
     "code": "2347-1",
     "name": "2347-1",
     "brand": "서울",
@@ -29985,7 +29985,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2347-2",
+    "id": "서울-실크_2347-2",
     "code": "2347-2",
     "name": "2347-2",
     "brand": "서울",
@@ -30005,7 +30005,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2347-3",
+    "id": "서울-실크_2347-3",
     "code": "2347-3",
     "name": "2347-3",
     "brand": "서울",
@@ -30025,7 +30025,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2347-4",
+    "id": "서울-실크_2347-4",
     "code": "2347-4",
     "name": "2347-4",
     "brand": "서울",
@@ -30045,7 +30045,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2347-5",
+    "id": "서울-실크_2347-5",
     "code": "2347-5",
     "name": "2347-5",
     "brand": "서울",
@@ -30065,7 +30065,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2347-6",
+    "id": "서울-실크_2347-6",
     "code": "2347-6",
     "name": "2347-6",
     "brand": "서울",
@@ -30085,7 +30085,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2348-1",
+    "id": "서울-실크_2348-1",
     "code": "2348-1",
     "name": "2348-1",
     "brand": "서울",
@@ -30105,7 +30105,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2348-2",
+    "id": "서울-실크_2348-2",
     "code": "2348-2",
     "name": "2348-2",
     "brand": "서울",
@@ -30125,7 +30125,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2348-3",
+    "id": "서울-실크_2348-3",
     "code": "2348-3",
     "name": "2348-3",
     "brand": "서울",
@@ -30145,7 +30145,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2348-4",
+    "id": "서울-실크_2348-4",
     "code": "2348-4",
     "name": "2348-4",
     "brand": "서울",
@@ -30165,7 +30165,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2349-1",
+    "id": "서울-실크_2349-1",
     "code": "2349-1",
     "name": "2349-1",
     "brand": "서울",
@@ -30185,7 +30185,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2349-2",
+    "id": "서울-실크_2349-2",
     "code": "2349-2",
     "name": "2349-2",
     "brand": "서울",
@@ -30205,7 +30205,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-2349-3",
+    "id": "서울-실크_2349-3",
     "code": "2349-3",
     "name": "2349-3",
     "brand": "서울",
@@ -30225,7 +30225,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-346-1",
+    "id": "서울-실크_346-1",
     "code": "346-1",
     "name": "346-1",
     "brand": "서울",
@@ -30245,7 +30245,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-346-10",
+    "id": "서울-실크_346-10",
     "code": "346-10",
     "name": "346-10",
     "brand": "서울",
@@ -30265,7 +30265,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-346-14",
+    "id": "서울-실크_346-14",
     "code": "346-14",
     "name": "346-14",
     "brand": "서울",
@@ -30285,7 +30285,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-346-2",
+    "id": "서울-실크_346-2",
     "code": "346-2",
     "name": "346-2",
     "brand": "서울",
@@ -30305,7 +30305,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-346-3",
+    "id": "서울-실크_346-3",
     "code": "346-3",
     "name": "346-3",
     "brand": "서울",
@@ -30325,7 +30325,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-365-1",
+    "id": "서울-실크_365-1",
     "code": "365-1",
     "name": "365-1",
     "brand": "서울",
@@ -30345,7 +30345,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-365-3",
+    "id": "서울-실크_365-3",
     "code": "365-3",
     "name": "365-3",
     "brand": "서울",
@@ -30365,7 +30365,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-365-4",
+    "id": "서울-실크_365-4",
     "code": "365-4",
     "name": "365-4",
     "brand": "서울",
@@ -30385,7 +30385,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-370-1",
+    "id": "서울-실크_370-1",
     "code": "370-1",
     "name": "370-1",
     "brand": "서울",
@@ -30405,7 +30405,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-370-2",
+    "id": "서울-실크_370-2",
     "code": "370-2",
     "name": "370-2",
     "brand": "서울",
@@ -30425,7 +30425,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-377-1",
+    "id": "서울-실크_377-1",
     "code": "377-1",
     "name": "377-1",
     "brand": "서울",
@@ -30445,7 +30445,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-377-2",
+    "id": "서울-실크_377-2",
     "code": "377-2",
     "name": "377-2",
     "brand": "서울",
@@ -30465,7 +30465,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-377-4",
+    "id": "서울-실크_377-4",
     "code": "377-4",
     "name": "377-4",
     "brand": "서울",
@@ -30485,7 +30485,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-377-5",
+    "id": "서울-실크_377-5",
     "code": "377-5",
     "name": "377-5",
     "brand": "서울",
@@ -30505,7 +30505,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-384-1",
+    "id": "서울-실크_384-1",
     "code": "384-1",
     "name": "384-1",
     "brand": "서울",
@@ -30525,7 +30525,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-384-10",
+    "id": "서울-실크_384-10",
     "code": "384-10",
     "name": "384-10",
     "brand": "서울",
@@ -30545,7 +30545,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-384-11",
+    "id": "서울-실크_384-11",
     "code": "384-11",
     "name": "384-11",
     "brand": "서울",
@@ -30565,7 +30565,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-384-12",
+    "id": "서울-실크_384-12",
     "code": "384-12",
     "name": "384-12",
     "brand": "서울",
@@ -30585,7 +30585,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-384-2",
+    "id": "서울-실크_384-2",
     "code": "384-2",
     "name": "384-2",
     "brand": "서울",
@@ -30605,7 +30605,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-390-1",
+    "id": "서울-실크_390-1",
     "code": "390-1",
     "name": "390-1",
     "brand": "서울",
@@ -30625,7 +30625,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-390-2",
+    "id": "서울-실크_390-2",
     "code": "390-2",
     "name": "390-2",
     "brand": "서울",
@@ -30645,7 +30645,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-390-3",
+    "id": "서울-실크_390-3",
     "code": "390-3",
     "name": "390-3",
     "brand": "서울",
@@ -30665,7 +30665,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-392-1",
+    "id": "서울-실크_392-1",
     "code": "392-1",
     "name": "392-1",
     "brand": "서울",
@@ -30685,7 +30685,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-392-2",
+    "id": "서울-실크_392-2",
     "code": "392-2",
     "name": "392-2",
     "brand": "서울",
@@ -30705,7 +30705,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-392-3",
+    "id": "서울-실크_392-3",
     "code": "392-3",
     "name": "392-3",
     "brand": "서울",
@@ -30725,7 +30725,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-392-4",
+    "id": "서울-실크_392-4",
     "code": "392-4",
     "name": "392-4",
     "brand": "서울",
@@ -30745,7 +30745,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-392-5",
+    "id": "서울-실크_392-5",
     "code": "392-5",
     "name": "392-5",
     "brand": "서울",
@@ -30765,7 +30765,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-392-6",
+    "id": "서울-실크_392-6",
     "code": "392-6",
     "name": "392-6",
     "brand": "서울",
@@ -30785,7 +30785,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-395-1",
+    "id": "서울-실크_395-1",
     "code": "395-1",
     "name": "395-1",
     "brand": "서울",
@@ -30805,7 +30805,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-395-2",
+    "id": "서울-실크_395-2",
     "code": "395-2",
     "name": "395-2",
     "brand": "서울",
@@ -30825,7 +30825,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-395-3",
+    "id": "서울-실크_395-3",
     "code": "395-3",
     "name": "395-3",
     "brand": "서울",
@@ -30845,7 +30845,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-395-4",
+    "id": "서울-실크_395-4",
     "code": "395-4",
     "name": "395-4",
     "brand": "서울",
@@ -30865,7 +30865,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-420-1",
+    "id": "서울-실크_420-1",
     "code": "420-1",
     "name": "420-1",
     "brand": "서울",
@@ -30885,7 +30885,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-420-2",
+    "id": "서울-실크_420-2",
     "code": "420-2",
     "name": "420-2",
     "brand": "서울",
@@ -30905,7 +30905,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-420-3",
+    "id": "서울-실크_420-3",
     "code": "420-3",
     "name": "420-3",
     "brand": "서울",
@@ -30925,7 +30925,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-425-1",
+    "id": "서울-실크_425-1",
     "code": "425-1",
     "name": "425-1",
     "brand": "서울",
@@ -30945,7 +30945,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-425-2",
+    "id": "서울-실크_425-2",
     "code": "425-2",
     "name": "425-2",
     "brand": "서울",
@@ -30965,7 +30965,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-425-4",
+    "id": "서울-실크_425-4",
     "code": "425-4",
     "name": "425-4",
     "brand": "서울",
@@ -30985,7 +30985,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-425-5",
+    "id": "서울-실크_425-5",
     "code": "425-5",
     "name": "425-5",
     "brand": "서울",
@@ -31005,7 +31005,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-425-6",
+    "id": "서울-실크_425-6",
     "code": "425-6",
     "name": "425-6",
     "brand": "서울",
@@ -31025,7 +31025,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-427-1",
+    "id": "서울-실크_427-1",
     "code": "427-1",
     "name": "427-1",
     "brand": "서울",
@@ -31045,7 +31045,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-427-2",
+    "id": "서울-실크_427-2",
     "code": "427-2",
     "name": "427-2",
     "brand": "서울",
@@ -31065,7 +31065,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-427-3",
+    "id": "서울-실크_427-3",
     "code": "427-3",
     "name": "427-3",
     "brand": "서울",
@@ -31085,7 +31085,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-427-4",
+    "id": "서울-실크_427-4",
     "code": "427-4",
     "name": "427-4",
     "brand": "서울",
@@ -31105,7 +31105,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-427-5",
+    "id": "서울-실크_427-5",
     "code": "427-5",
     "name": "427-5",
     "brand": "서울",
@@ -31125,7 +31125,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-428-1",
+    "id": "서울-실크_428-1",
     "code": "428-1",
     "name": "428-1",
     "brand": "서울",
@@ -31145,7 +31145,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-428-2",
+    "id": "서울-실크_428-2",
     "code": "428-2",
     "name": "428-2",
     "brand": "서울",
@@ -31165,7 +31165,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-428-5",
+    "id": "서울-실크_428-5",
     "code": "428-5",
     "name": "428-5",
     "brand": "서울",
@@ -31185,7 +31185,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-428-6",
+    "id": "서울-실크_428-6",
     "code": "428-6",
     "name": "428-6",
     "brand": "서울",
@@ -31205,7 +31205,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-429-1",
+    "id": "서울-실크_429-1",
     "code": "429-1",
     "name": "429-1",
     "brand": "서울",
@@ -31225,7 +31225,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-429-2",
+    "id": "서울-실크_429-2",
     "code": "429-2",
     "name": "429-2",
     "brand": "서울",
@@ -31245,7 +31245,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-429-3",
+    "id": "서울-실크_429-3",
     "code": "429-3",
     "name": "429-3",
     "brand": "서울",
@@ -31265,7 +31265,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-429-4",
+    "id": "서울-실크_429-4",
     "code": "429-4",
     "name": "429-4",
     "brand": "서울",
@@ -31285,7 +31285,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-429-5",
+    "id": "서울-실크_429-5",
     "code": "429-5",
     "name": "429-5",
     "brand": "서울",
@@ -31305,7 +31305,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-429-7",
+    "id": "서울-실크_429-7",
     "code": "429-7",
     "name": "429-7",
     "brand": "서울",
@@ -31325,7 +31325,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-430-1",
+    "id": "서울-실크_430-1",
     "code": "430-1",
     "name": "430-1",
     "brand": "서울",
@@ -31345,7 +31345,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-430-2",
+    "id": "서울-실크_430-2",
     "code": "430-2",
     "name": "430-2",
     "brand": "서울",
@@ -31365,7 +31365,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-430-3",
+    "id": "서울-실크_430-3",
     "code": "430-3",
     "name": "430-3",
     "brand": "서울",
@@ -31385,7 +31385,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-430-4",
+    "id": "서울-실크_430-4",
     "code": "430-4",
     "name": "430-4",
     "brand": "서울",
@@ -31405,7 +31405,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-430-5",
+    "id": "서울-실크_430-5",
     "code": "430-5",
     "name": "430-5",
     "brand": "서울",
@@ -31425,7 +31425,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-430-6",
+    "id": "서울-실크_430-6",
     "code": "430-6",
     "name": "430-6",
     "brand": "서울",
@@ -31445,7 +31445,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-430-7",
+    "id": "서울-실크_430-7",
     "code": "430-7",
     "name": "430-7",
     "brand": "서울",
@@ -31465,7 +31465,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-431-1",
+    "id": "서울-실크_431-1",
     "code": "431-1",
     "name": "431-1",
     "brand": "서울",
@@ -31485,7 +31485,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-431-2",
+    "id": "서울-실크_431-2",
     "code": "431-2",
     "name": "431-2",
     "brand": "서울",
@@ -31505,7 +31505,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-431-3",
+    "id": "서울-실크_431-3",
     "code": "431-3",
     "name": "431-3",
     "brand": "서울",
@@ -31525,7 +31525,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-431-4",
+    "id": "서울-실크_431-4",
     "code": "431-4",
     "name": "431-4",
     "brand": "서울",
@@ -31545,7 +31545,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-431-5",
+    "id": "서울-실크_431-5",
     "code": "431-5",
     "name": "431-5",
     "brand": "서울",
@@ -31565,7 +31565,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-431-6",
+    "id": "서울-실크_431-6",
     "code": "431-6",
     "name": "431-6",
     "brand": "서울",
@@ -31585,7 +31585,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-432-1",
+    "id": "서울-실크_432-1",
     "code": "432-1",
     "name": "432-1",
     "brand": "서울",
@@ -31605,7 +31605,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-432-2",
+    "id": "서울-실크_432-2",
     "code": "432-2",
     "name": "432-2",
     "brand": "서울",
@@ -31625,7 +31625,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-432-3",
+    "id": "서울-실크_432-3",
     "code": "432-3",
     "name": "432-3",
     "brand": "서울",
@@ -31645,7 +31645,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-432-4",
+    "id": "서울-실크_432-4",
     "code": "432-4",
     "name": "432-4",
     "brand": "서울",
@@ -31665,7 +31665,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-433-1",
+    "id": "서울-실크_433-1",
     "code": "433-1",
     "name": "433-1",
     "brand": "서울",
@@ -31685,7 +31685,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-433-2",
+    "id": "서울-실크_433-2",
     "code": "433-2",
     "name": "433-2",
     "brand": "서울",
@@ -31705,7 +31705,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-433-3",
+    "id": "서울-실크_433-3",
     "code": "433-3",
     "name": "433-3",
     "brand": "서울",
@@ -31725,7 +31725,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-433-4",
+    "id": "서울-실크_433-4",
     "code": "433-4",
     "name": "433-4",
     "brand": "서울",
@@ -31745,7 +31745,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-433-5",
+    "id": "서울-실크_433-5",
     "code": "433-5",
     "name": "433-5",
     "brand": "서울",
@@ -31765,7 +31765,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-433-6",
+    "id": "서울-실크_433-6",
     "code": "433-6",
     "name": "433-6",
     "brand": "서울",
@@ -31785,7 +31785,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-434-1",
+    "id": "서울-실크_434-1",
     "code": "434-1",
     "name": "434-1",
     "brand": "서울",
@@ -31805,7 +31805,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-434-2",
+    "id": "서울-실크_434-2",
     "code": "434-2",
     "name": "434-2",
     "brand": "서울",
@@ -31825,7 +31825,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-434-3",
+    "id": "서울-실크_434-3",
     "code": "434-3",
     "name": "434-3",
     "brand": "서울",
@@ -31845,7 +31845,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-434-4",
+    "id": "서울-실크_434-4",
     "code": "434-4",
     "name": "434-4",
     "brand": "서울",
@@ -31865,7 +31865,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-434-5",
+    "id": "서울-실크_434-5",
     "code": "434-5",
     "name": "434-5",
     "brand": "서울",
@@ -31885,7 +31885,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-434-6",
+    "id": "서울-실크_434-6",
     "code": "434-6",
     "name": "434-6",
     "brand": "서울",
@@ -31905,7 +31905,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-435-1",
+    "id": "서울-실크_435-1",
     "code": "435-1",
     "name": "435-1",
     "brand": "서울",
@@ -31925,7 +31925,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-435-2",
+    "id": "서울-실크_435-2",
     "code": "435-2",
     "name": "435-2",
     "brand": "서울",
@@ -31945,7 +31945,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-435-3",
+    "id": "서울-실크_435-3",
     "code": "435-3",
     "name": "435-3",
     "brand": "서울",
@@ -31965,7 +31965,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-436-1",
+    "id": "서울-실크_436-1",
     "code": "436-1",
     "name": "436-1",
     "brand": "서울",
@@ -31985,7 +31985,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-436-2",
+    "id": "서울-실크_436-2",
     "code": "436-2",
     "name": "436-2",
     "brand": "서울",
@@ -32005,7 +32005,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-436-3",
+    "id": "서울-실크_436-3",
     "code": "436-3",
     "name": "436-3",
     "brand": "서울",
@@ -32025,7 +32025,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-436-4",
+    "id": "서울-실크_436-4",
     "code": "436-4",
     "name": "436-4",
     "brand": "서울",
@@ -32045,7 +32045,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-436-5",
+    "id": "서울-실크_436-5",
     "code": "436-5",
     "name": "436-5",
     "brand": "서울",
@@ -32065,7 +32065,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-436-6",
+    "id": "서울-실크_436-6",
     "code": "436-6",
     "name": "436-6",
     "brand": "서울",
@@ -32085,7 +32085,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-437-1",
+    "id": "서울-실크_437-1",
     "code": "437-1",
     "name": "437-1",
     "brand": "서울",
@@ -32105,7 +32105,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-437-2",
+    "id": "서울-실크_437-2",
     "code": "437-2",
     "name": "437-2",
     "brand": "서울",
@@ -32125,7 +32125,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-437-3",
+    "id": "서울-실크_437-3",
     "code": "437-3",
     "name": "437-3",
     "brand": "서울",
@@ -32145,7 +32145,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-437-4",
+    "id": "서울-실크_437-4",
     "code": "437-4",
     "name": "437-4",
     "brand": "서울",
@@ -32165,7 +32165,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-437-5",
+    "id": "서울-실크_437-5",
     "code": "437-5",
     "name": "437-5",
     "brand": "서울",
@@ -32185,7 +32185,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-437-6",
+    "id": "서울-실크_437-6",
     "code": "437-6",
     "name": "437-6",
     "brand": "서울",
@@ -32205,7 +32205,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-438-1",
+    "id": "서울-실크_438-1",
     "code": "438-1",
     "name": "438-1",
     "brand": "서울",
@@ -32225,7 +32225,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-438-2",
+    "id": "서울-실크_438-2",
     "code": "438-2",
     "name": "438-2",
     "brand": "서울",
@@ -32245,7 +32245,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-438-3",
+    "id": "서울-실크_438-3",
     "code": "438-3",
     "name": "438-3",
     "brand": "서울",
@@ -32265,7 +32265,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-438-4",
+    "id": "서울-실크_438-4",
     "code": "438-4",
     "name": "438-4",
     "brand": "서울",
@@ -32285,7 +32285,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-438-5",
+    "id": "서울-실크_438-5",
     "code": "438-5",
     "name": "438-5",
     "brand": "서울",
@@ -32305,7 +32305,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-439-1",
+    "id": "서울-실크_439-1",
     "code": "439-1",
     "name": "439-1",
     "brand": "서울",
@@ -32325,7 +32325,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-439-2",
+    "id": "서울-실크_439-2",
     "code": "439-2",
     "name": "439-2",
     "brand": "서울",
@@ -32345,7 +32345,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-439-3",
+    "id": "서울-실크_439-3",
     "code": "439-3",
     "name": "439-3",
     "brand": "서울",
@@ -32365,7 +32365,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-439-4",
+    "id": "서울-실크_439-4",
     "code": "439-4",
     "name": "439-4",
     "brand": "서울",
@@ -32385,7 +32385,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-439-5",
+    "id": "서울-실크_439-5",
     "code": "439-5",
     "name": "439-5",
     "brand": "서울",
@@ -32405,7 +32405,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-439-6",
+    "id": "서울-실크_439-6",
     "code": "439-6",
     "name": "439-6",
     "brand": "서울",
@@ -32425,7 +32425,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-440-1",
+    "id": "서울-실크_440-1",
     "code": "440-1",
     "name": "440-1",
     "brand": "서울",
@@ -32445,7 +32445,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-440-2",
+    "id": "서울-실크_440-2",
     "code": "440-2",
     "name": "440-2",
     "brand": "서울",
@@ -32465,7 +32465,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-440-3",
+    "id": "서울-실크_440-3",
     "code": "440-3",
     "name": "440-3",
     "brand": "서울",
@@ -32485,7 +32485,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-440-4",
+    "id": "서울-실크_440-4",
     "code": "440-4",
     "name": "440-4",
     "brand": "서울",
@@ -32505,7 +32505,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-440-5",
+    "id": "서울-실크_440-5",
     "code": "440-5",
     "name": "440-5",
     "brand": "서울",
@@ -32525,7 +32525,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-440-6",
+    "id": "서울-실크_440-6",
     "code": "440-6",
     "name": "440-6",
     "brand": "서울",
@@ -32545,7 +32545,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6502-1",
+    "id": "서울-프리미엄_6502-1",
     "code": "6502-1",
     "name": "6502-1",
     "brand": "서울",
@@ -32565,7 +32565,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6502-2",
+    "id": "서울-프리미엄_6502-2",
     "code": "6502-2",
     "name": "6502-2",
     "brand": "서울",
@@ -32585,7 +32585,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6502-3",
+    "id": "서울-프리미엄_6502-3",
     "code": "6502-3",
     "name": "6502-3",
     "brand": "서울",
@@ -32605,7 +32605,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6502-4",
+    "id": "서울-프리미엄_6502-4",
     "code": "6502-4",
     "name": "6502-4",
     "brand": "서울",
@@ -32625,7 +32625,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6503-1",
+    "id": "서울-프리미엄_6503-1",
     "code": "6503-1",
     "name": "6503-1",
     "brand": "서울",
@@ -32645,7 +32645,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6503-2",
+    "id": "서울-프리미엄_6503-2",
     "code": "6503-2",
     "name": "6503-2",
     "brand": "서울",
@@ -32665,7 +32665,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6503-3",
+    "id": "서울-프리미엄_6503-3",
     "code": "6503-3",
     "name": "6503-3",
     "brand": "서울",
@@ -32685,7 +32685,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6504-1",
+    "id": "서울-프리미엄_6504-1",
     "code": "6504-1",
     "name": "6504-1",
     "brand": "서울",
@@ -32705,7 +32705,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6504-2",
+    "id": "서울-프리미엄_6504-2",
     "code": "6504-2",
     "name": "6504-2",
     "brand": "서울",
@@ -32725,7 +32725,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6504-3",
+    "id": "서울-프리미엄_6504-3",
     "code": "6504-3",
     "name": "6504-3",
     "brand": "서울",
@@ -32745,7 +32745,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6505-1",
+    "id": "서울-프리미엄_6505-1",
     "code": "6505-1",
     "name": "6505-1",
     "brand": "서울",
@@ -32765,7 +32765,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6505-2",
+    "id": "서울-프리미엄_6505-2",
     "code": "6505-2",
     "name": "6505-2",
     "brand": "서울",
@@ -32785,7 +32785,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6505-3",
+    "id": "서울-프리미엄_6505-3",
     "code": "6505-3",
     "name": "6505-3",
     "brand": "서울",
@@ -32805,7 +32805,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6505-4",
+    "id": "서울-프리미엄_6505-4",
     "code": "6505-4",
     "name": "6505-4",
     "brand": "서울",
@@ -32825,7 +32825,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6506-1",
+    "id": "서울-프리미엄_6506-1",
     "code": "6506-1",
     "name": "6506-1",
     "brand": "서울",
@@ -32845,7 +32845,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6506-2",
+    "id": "서울-프리미엄_6506-2",
     "code": "6506-2",
     "name": "6506-2",
     "brand": "서울",
@@ -32865,7 +32865,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6506-3",
+    "id": "서울-프리미엄_6506-3",
     "code": "6506-3",
     "name": "6506-3",
     "brand": "서울",
@@ -32885,7 +32885,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6506-4",
+    "id": "서울-프리미엄_6506-4",
     "code": "6506-4",
     "name": "6506-4",
     "brand": "서울",
@@ -32905,7 +32905,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6506-5",
+    "id": "서울-프리미엄_6506-5",
     "code": "6506-5",
     "name": "6506-5",
     "brand": "서울",
@@ -32925,7 +32925,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6507-1",
+    "id": "서울-프리미엄_6507-1",
     "code": "6507-1",
     "name": "6507-1",
     "brand": "서울",
@@ -32945,7 +32945,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6507-2",
+    "id": "서울-프리미엄_6507-2",
     "code": "6507-2",
     "name": "6507-2",
     "brand": "서울",
@@ -32965,7 +32965,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6507-3",
+    "id": "서울-프리미엄_6507-3",
     "code": "6507-3",
     "name": "6507-3",
     "brand": "서울",
@@ -32985,7 +32985,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6507-4",
+    "id": "서울-프리미엄_6507-4",
     "code": "6507-4",
     "name": "6507-4",
     "brand": "서울",
@@ -33005,7 +33005,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6508-1",
+    "id": "서울-프리미엄_6508-1",
     "code": "6508-1",
     "name": "6508-1",
     "brand": "서울",
@@ -33025,7 +33025,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6508-2",
+    "id": "서울-프리미엄_6508-2",
     "code": "6508-2",
     "name": "6508-2",
     "brand": "서울",
@@ -33045,7 +33045,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6508-3",
+    "id": "서울-프리미엄_6508-3",
     "code": "6508-3",
     "name": "6508-3",
     "brand": "서울",
@@ -33065,7 +33065,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6508-4",
+    "id": "서울-프리미엄_6508-4",
     "code": "6508-4",
     "name": "6508-4",
     "brand": "서울",
@@ -33085,7 +33085,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6508-5",
+    "id": "서울-프리미엄_6508-5",
     "code": "6508-5",
     "name": "6508-5",
     "brand": "서울",
@@ -33105,7 +33105,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6509-1",
+    "id": "서울-프리미엄_6509-1",
     "code": "6509-1",
     "name": "6509-1",
     "brand": "서울",
@@ -33125,7 +33125,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6510-1",
+    "id": "서울-프리미엄_6510-1",
     "code": "6510-1",
     "name": "6510-1",
     "brand": "서울",
@@ -33145,7 +33145,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6510-2",
+    "id": "서울-프리미엄_6510-2",
     "code": "6510-2",
     "name": "6510-2",
     "brand": "서울",
@@ -33165,7 +33165,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6510-3",
+    "id": "서울-프리미엄_6510-3",
     "code": "6510-3",
     "name": "6510-3",
     "brand": "서울",
@@ -33185,7 +33185,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6511-1",
+    "id": "서울-프리미엄_6511-1",
     "code": "6511-1",
     "name": "6511-1",
     "brand": "서울",
@@ -33205,7 +33205,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6511-2",
+    "id": "서울-프리미엄_6511-2",
     "code": "6511-2",
     "name": "6511-2",
     "brand": "서울",
@@ -33225,7 +33225,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6511-3",
+    "id": "서울-프리미엄_6511-3",
     "code": "6511-3",
     "name": "6511-3",
     "brand": "서울",
@@ -33245,7 +33245,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6511-4",
+    "id": "서울-프리미엄_6511-4",
     "code": "6511-4",
     "name": "6511-4",
     "brand": "서울",
@@ -33265,7 +33265,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6511-5",
+    "id": "서울-프리미엄_6511-5",
     "code": "6511-5",
     "name": "6511-5",
     "brand": "서울",
@@ -33285,7 +33285,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6512-1",
+    "id": "서울-프리미엄_6512-1",
     "code": "6512-1",
     "name": "6512-1",
     "brand": "서울",
@@ -33305,7 +33305,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6512-10",
+    "id": "서울-프리미엄_6512-10",
     "code": "6512-10",
     "name": "6512-10",
     "brand": "서울",
@@ -33325,7 +33325,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6512-11",
+    "id": "서울-프리미엄_6512-11",
     "code": "6512-11",
     "name": "6512-11",
     "brand": "서울",
@@ -33345,7 +33345,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6512-2",
+    "id": "서울-프리미엄_6512-2",
     "code": "6512-2",
     "name": "6512-2",
     "brand": "서울",
@@ -33365,7 +33365,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6512-3",
+    "id": "서울-프리미엄_6512-3",
     "code": "6512-3",
     "name": "6512-3",
     "brand": "서울",
@@ -33385,7 +33385,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6512-4",
+    "id": "서울-프리미엄_6512-4",
     "code": "6512-4",
     "name": "6512-4",
     "brand": "서울",
@@ -33405,7 +33405,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6512-5",
+    "id": "서울-프리미엄_6512-5",
     "code": "6512-5",
     "name": "6512-5",
     "brand": "서울",
@@ -33425,7 +33425,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6512-6",
+    "id": "서울-프리미엄_6512-6",
     "code": "6512-6",
     "name": "6512-6",
     "brand": "서울",
@@ -33445,7 +33445,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6512-7",
+    "id": "서울-프리미엄_6512-7",
     "code": "6512-7",
     "name": "6512-7",
     "brand": "서울",
@@ -33465,7 +33465,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6512-8",
+    "id": "서울-프리미엄_6512-8",
     "code": "6512-8",
     "name": "6512-8",
     "brand": "서울",
@@ -33485,7 +33485,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6512-9",
+    "id": "서울-프리미엄_6512-9",
     "code": "6512-9",
     "name": "6512-9",
     "brand": "서울",
@@ -33505,7 +33505,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6513-1",
+    "id": "서울-프리미엄_6513-1",
     "code": "6513-1",
     "name": "6513-1",
     "brand": "서울",
@@ -33525,7 +33525,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6513-2",
+    "id": "서울-프리미엄_6513-2",
     "code": "6513-2",
     "name": "6513-2",
     "brand": "서울",
@@ -33545,7 +33545,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6513-3",
+    "id": "서울-프리미엄_6513-3",
     "code": "6513-3",
     "name": "6513-3",
     "brand": "서울",
@@ -33565,7 +33565,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6514-1",
+    "id": "서울-프리미엄_6514-1",
     "code": "6514-1",
     "name": "6514-1",
     "brand": "서울",
@@ -33585,7 +33585,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6514-2",
+    "id": "서울-프리미엄_6514-2",
     "code": "6514-2",
     "name": "6514-2",
     "brand": "서울",
@@ -33605,7 +33605,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6515-1",
+    "id": "서울-프리미엄_6515-1",
     "code": "6515-1",
     "name": "6515-1",
     "brand": "서울",
@@ -33625,7 +33625,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6515-2",
+    "id": "서울-프리미엄_6515-2",
     "code": "6515-2",
     "name": "6515-2",
     "brand": "서울",
@@ -33645,7 +33645,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6515-3",
+    "id": "서울-프리미엄_6515-3",
     "code": "6515-3",
     "name": "6515-3",
     "brand": "서울",
@@ -33665,7 +33665,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6515-4",
+    "id": "서울-프리미엄_6515-4",
     "code": "6515-4",
     "name": "6515-4",
     "brand": "서울",
@@ -33685,7 +33685,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6516-1",
+    "id": "서울-프리미엄_6516-1",
     "code": "6516-1",
     "name": "6516-1",
     "brand": "서울",
@@ -33705,7 +33705,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6516-2",
+    "id": "서울-프리미엄_6516-2",
     "code": "6516-2",
     "name": "6516-2",
     "brand": "서울",
@@ -33725,7 +33725,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6517-1",
+    "id": "서울-프리미엄_6517-1",
     "code": "6517-1",
     "name": "6517-1",
     "brand": "서울",
@@ -33745,7 +33745,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6517-2",
+    "id": "서울-프리미엄_6517-2",
     "code": "6517-2",
     "name": "6517-2",
     "brand": "서울",
@@ -33765,7 +33765,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6518-1",
+    "id": "서울-프리미엄_6518-1",
     "code": "6518-1",
     "name": "6518-1",
     "brand": "서울",
@@ -33785,7 +33785,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-6518-2",
+    "id": "서울-프리미엄_6518-2",
     "code": "6518-2",
     "name": "6518-2",
     "brand": "서울",
@@ -33805,7 +33805,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-100-1",
+    "id": "서울-합지_100-1",
     "code": "100-1",
     "name": "100-1",
     "brand": "서울",
@@ -33825,7 +33825,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-100-2",
+    "id": "서울-합지_100-2",
     "code": "100-2",
     "name": "100-2",
     "brand": "서울",
@@ -33845,7 +33845,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-101-1",
+    "id": "서울-합지_101-1",
     "code": "101-1",
     "name": "101-1",
     "brand": "서울",
@@ -33865,7 +33865,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-101-2",
+    "id": "서울-합지_101-2",
     "code": "101-2",
     "name": "101-2",
     "brand": "서울",
@@ -33885,7 +33885,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-110-1",
+    "id": "서울-합지_110-1",
     "code": "110-1",
     "name": "110-1",
     "brand": "서울",
@@ -33905,7 +33905,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-110-2",
+    "id": "서울-합지_110-2",
     "code": "110-2",
     "name": "110-2",
     "brand": "서울",
@@ -33925,7 +33925,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-110-3",
+    "id": "서울-합지_110-3",
     "code": "110-3",
     "name": "110-3",
     "brand": "서울",
@@ -33945,7 +33945,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-111-1",
+    "id": "서울-합지_111-1",
     "code": "111-1",
     "name": "111-1",
     "brand": "서울",
@@ -33965,7 +33965,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-111-2",
+    "id": "서울-합지_111-2",
     "code": "111-2",
     "name": "111-2",
     "brand": "서울",
@@ -33985,7 +33985,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-111-3",
+    "id": "서울-합지_111-3",
     "code": "111-3",
     "name": "111-3",
     "brand": "서울",
@@ -34005,7 +34005,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-111-4",
+    "id": "서울-합지_111-4",
     "code": "111-4",
     "name": "111-4",
     "brand": "서울",
@@ -34025,7 +34025,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-112-1",
+    "id": "서울-합지_112-1",
     "code": "112-1",
     "name": "112-1",
     "brand": "서울",
@@ -34045,7 +34045,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-113-1",
+    "id": "서울-합지_113-1",
     "code": "113-1",
     "name": "113-1",
     "brand": "서울",
@@ -34065,7 +34065,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-113-2",
+    "id": "서울-합지_113-2",
     "code": "113-2",
     "name": "113-2",
     "brand": "서울",
@@ -34085,7 +34085,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-113-3",
+    "id": "서울-합지_113-3",
     "code": "113-3",
     "name": "113-3",
     "brand": "서울",
@@ -34105,7 +34105,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-113-4",
+    "id": "서울-합지_113-4",
     "code": "113-4",
     "name": "113-4",
     "brand": "서울",
@@ -34125,7 +34125,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-113-5",
+    "id": "서울-합지_113-5",
     "code": "113-5",
     "name": "113-5",
     "brand": "서울",
@@ -34145,7 +34145,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-113-7",
+    "id": "서울-합지_113-7",
     "code": "113-7",
     "name": "113-7",
     "brand": "서울",
@@ -34165,7 +34165,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-113-8",
+    "id": "서울-합지_113-8",
     "code": "113-8",
     "name": "113-8",
     "brand": "서울",
@@ -34185,7 +34185,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-114-1",
+    "id": "서울-합지_114-1",
     "code": "114-1",
     "name": "114-1",
     "brand": "서울",
@@ -34205,7 +34205,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-114-2",
+    "id": "서울-합지_114-2",
     "code": "114-2",
     "name": "114-2",
     "brand": "서울",
@@ -34225,7 +34225,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-114-3",
+    "id": "서울-합지_114-3",
     "code": "114-3",
     "name": "114-3",
     "brand": "서울",
@@ -34245,7 +34245,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-114-4",
+    "id": "서울-합지_114-4",
     "code": "114-4",
     "name": "114-4",
     "brand": "서울",
@@ -34265,7 +34265,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-115-1",
+    "id": "서울-합지_115-1",
     "code": "115-1",
     "name": "115-1",
     "brand": "서울",
@@ -34285,7 +34285,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-115-2",
+    "id": "서울-합지_115-2",
     "code": "115-2",
     "name": "115-2",
     "brand": "서울",
@@ -34305,7 +34305,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-116-1",
+    "id": "서울-합지_116-1",
     "code": "116-1",
     "name": "116-1",
     "brand": "서울",
@@ -34325,7 +34325,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-116-2",
+    "id": "서울-합지_116-2",
     "code": "116-2",
     "name": "116-2",
     "brand": "서울",
@@ -34345,7 +34345,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-116-3",
+    "id": "서울-합지_116-3",
     "code": "116-3",
     "name": "116-3",
     "brand": "서울",
@@ -34365,7 +34365,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-117-1",
+    "id": "서울-합지_117-1",
     "code": "117-1",
     "name": "117-1",
     "brand": "서울",
@@ -34385,7 +34385,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-117-2",
+    "id": "서울-합지_117-2",
     "code": "117-2",
     "name": "117-2",
     "brand": "서울",
@@ -34405,7 +34405,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-117-3",
+    "id": "서울-합지_117-3",
     "code": "117-3",
     "name": "117-3",
     "brand": "서울",
@@ -34425,7 +34425,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-117-4",
+    "id": "서울-합지_117-4",
     "code": "117-4",
     "name": "117-4",
     "brand": "서울",
@@ -34445,7 +34445,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-117-5",
+    "id": "서울-합지_117-5",
     "code": "117-5",
     "name": "117-5",
     "brand": "서울",
@@ -34465,7 +34465,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-119-1",
+    "id": "서울-합지_119-1",
     "code": "119-1",
     "name": "119-1",
     "brand": "서울",
@@ -34485,7 +34485,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-119-2",
+    "id": "서울-합지_119-2",
     "code": "119-2",
     "name": "119-2",
     "brand": "서울",
@@ -34505,7 +34505,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-119-3",
+    "id": "서울-합지_119-3",
     "code": "119-3",
     "name": "119-3",
     "brand": "서울",
@@ -34525,7 +34525,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-120-1",
+    "id": "서울-합지_120-1",
     "code": "120-1",
     "name": "120-1",
     "brand": "서울",
@@ -34545,7 +34545,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-120-2",
+    "id": "서울-합지_120-2",
     "code": "120-2",
     "name": "120-2",
     "brand": "서울",
@@ -34565,7 +34565,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-120-3",
+    "id": "서울-합지_120-3",
     "code": "120-3",
     "name": "120-3",
     "brand": "서울",
@@ -34585,7 +34585,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-125-1",
+    "id": "서울-합지_125-1",
     "code": "125-1",
     "name": "125-1",
     "brand": "서울",
@@ -34605,7 +34605,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-125-2",
+    "id": "서울-합지_125-2",
     "code": "125-2",
     "name": "125-2",
     "brand": "서울",
@@ -34625,7 +34625,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-125-3",
+    "id": "서울-합지_125-3",
     "code": "125-3",
     "name": "125-3",
     "brand": "서울",
@@ -34645,7 +34645,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-125-4",
+    "id": "서울-합지_125-4",
     "code": "125-4",
     "name": "125-4",
     "brand": "서울",
@@ -34665,7 +34665,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-126-1",
+    "id": "서울-합지_126-1",
     "code": "126-1",
     "name": "126-1",
     "brand": "서울",
@@ -34685,7 +34685,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-127-1",
+    "id": "서울-합지_127-1",
     "code": "127-1",
     "name": "127-1",
     "brand": "서울",
@@ -34705,7 +34705,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-127-3",
+    "id": "서울-합지_127-3",
     "code": "127-3",
     "name": "127-3",
     "brand": "서울",
@@ -34725,7 +34725,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-128-1",
+    "id": "서울-합지_128-1",
     "code": "128-1",
     "name": "128-1",
     "brand": "서울",
@@ -34745,7 +34745,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-128-2",
+    "id": "서울-합지_128-2",
     "code": "128-2",
     "name": "128-2",
     "brand": "서울",
@@ -34765,7 +34765,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-129-1",
+    "id": "서울-합지_129-1",
     "code": "129-1",
     "name": "129-1",
     "brand": "서울",
@@ -34785,7 +34785,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-129-2",
+    "id": "서울-합지_129-2",
     "code": "129-2",
     "name": "129-2",
     "brand": "서울",
@@ -34805,7 +34805,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-130-1",
+    "id": "서울-합지_130-1",
     "code": "130-1",
     "name": "130-1",
     "brand": "서울",
@@ -34825,7 +34825,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-130-2",
+    "id": "서울-합지_130-2",
     "code": "130-2",
     "name": "130-2",
     "brand": "서울",
@@ -34845,7 +34845,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-131-1",
+    "id": "서울-합지_131-1",
     "code": "131-1",
     "name": "131-1",
     "brand": "서울",
@@ -34865,7 +34865,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-135-1",
+    "id": "서울-합지_135-1",
     "code": "135-1",
     "name": "135-1",
     "brand": "서울",
@@ -34885,7 +34885,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-138-1",
+    "id": "서울-합지_138-1",
     "code": "138-1",
     "name": "138-1",
     "brand": "서울",
@@ -34905,7 +34905,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-138-2",
+    "id": "서울-합지_138-2",
     "code": "138-2",
     "name": "138-2",
     "brand": "서울",
@@ -34925,7 +34925,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-138-3",
+    "id": "서울-합지_138-3",
     "code": "138-3",
     "name": "138-3",
     "brand": "서울",
@@ -34945,7 +34945,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-141-1",
+    "id": "서울-합지_141-1",
     "code": "141-1",
     "name": "141-1",
     "brand": "서울",
@@ -34965,7 +34965,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-141-3",
+    "id": "서울-합지_141-3",
     "code": "141-3",
     "name": "141-3",
     "brand": "서울",
@@ -34985,7 +34985,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-141-4",
+    "id": "서울-합지_141-4",
     "code": "141-4",
     "name": "141-4",
     "brand": "서울",
@@ -35005,7 +35005,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-143-1",
+    "id": "서울-합지_143-1",
     "code": "143-1",
     "name": "143-1",
     "brand": "서울",
@@ -35025,7 +35025,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-143-2",
+    "id": "서울-합지_143-2",
     "code": "143-2",
     "name": "143-2",
     "brand": "서울",
@@ -35045,7 +35045,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-143-3",
+    "id": "서울-합지_143-3",
     "code": "143-3",
     "name": "143-3",
     "brand": "서울",
@@ -35065,7 +35065,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-143-5",
+    "id": "서울-합지_143-5",
     "code": "143-5",
     "name": "143-5",
     "brand": "서울",
@@ -35085,7 +35085,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-144-1",
+    "id": "서울-합지_144-1",
     "code": "144-1",
     "name": "144-1",
     "brand": "서울",
@@ -35105,7 +35105,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-144-2",
+    "id": "서울-합지_144-2",
     "code": "144-2",
     "name": "144-2",
     "brand": "서울",
@@ -35125,7 +35125,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-145-1",
+    "id": "서울-합지_145-1",
     "code": "145-1",
     "name": "145-1",
     "brand": "서울",
@@ -35145,7 +35145,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-145-2",
+    "id": "서울-합지_145-2",
     "code": "145-2",
     "name": "145-2",
     "brand": "서울",
@@ -35165,7 +35165,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-145-3",
+    "id": "서울-합지_145-3",
     "code": "145-3",
     "name": "145-3",
     "brand": "서울",
@@ -35185,7 +35185,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-145-4",
+    "id": "서울-합지_145-4",
     "code": "145-4",
     "name": "145-4",
     "brand": "서울",
@@ -35205,7 +35205,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-146-1",
+    "id": "서울-합지_146-1",
     "code": "146-1",
     "name": "146-1",
     "brand": "서울",
@@ -35225,7 +35225,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-146-2",
+    "id": "서울-합지_146-2",
     "code": "146-2",
     "name": "146-2",
     "brand": "서울",
@@ -35245,7 +35245,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-146-6",
+    "id": "서울-합지_146-6",
     "code": "146-6",
     "name": "146-6",
     "brand": "서울",
@@ -35265,7 +35265,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-147-1",
+    "id": "서울-합지_147-1",
     "code": "147-1",
     "name": "147-1",
     "brand": "서울",
@@ -35285,7 +35285,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-147-2",
+    "id": "서울-합지_147-2",
     "code": "147-2",
     "name": "147-2",
     "brand": "서울",
@@ -35305,7 +35305,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-147-3",
+    "id": "서울-합지_147-3",
     "code": "147-3",
     "name": "147-3",
     "brand": "서울",
@@ -35325,7 +35325,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-147-4",
+    "id": "서울-합지_147-4",
     "code": "147-4",
     "name": "147-4",
     "brand": "서울",
@@ -35345,7 +35345,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-147-5",
+    "id": "서울-합지_147-5",
     "code": "147-5",
     "name": "147-5",
     "brand": "서울",
@@ -35365,7 +35365,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-148-1",
+    "id": "서울-합지_148-1",
     "code": "148-1",
     "name": "148-1",
     "brand": "서울",
@@ -35385,7 +35385,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-148-2",
+    "id": "서울-합지_148-2",
     "code": "148-2",
     "name": "148-2",
     "brand": "서울",
@@ -35405,7 +35405,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-148-3",
+    "id": "서울-합지_148-3",
     "code": "148-3",
     "name": "148-3",
     "brand": "서울",
@@ -35425,7 +35425,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-148-4",
+    "id": "서울-합지_148-4",
     "code": "148-4",
     "name": "148-4",
     "brand": "서울",
@@ -35445,7 +35445,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-149-1",
+    "id": "서울-합지_149-1",
     "code": "149-1",
     "name": "149-1",
     "brand": "서울",
@@ -35465,7 +35465,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-149-2",
+    "id": "서울-합지_149-2",
     "code": "149-2",
     "name": "149-2",
     "brand": "서울",
@@ -35485,7 +35485,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-150-1",
+    "id": "서울-합지_150-1",
     "code": "150-1",
     "name": "150-1",
     "brand": "서울",
@@ -35505,7 +35505,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-150-2",
+    "id": "서울-합지_150-2",
     "code": "150-2",
     "name": "150-2",
     "brand": "서울",
@@ -35525,7 +35525,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-150-3",
+    "id": "서울-합지_150-3",
     "code": "150-3",
     "name": "150-3",
     "brand": "서울",
@@ -35545,7 +35545,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-150-4",
+    "id": "서울-합지_150-4",
     "code": "150-4",
     "name": "150-4",
     "brand": "서울",
@@ -35565,7 +35565,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-151-1",
+    "id": "서울-합지_151-1",
     "code": "151-1",
     "name": "151-1",
     "brand": "서울",
@@ -35585,7 +35585,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-151-2",
+    "id": "서울-합지_151-2",
     "code": "151-2",
     "name": "151-2",
     "brand": "서울",
@@ -35605,7 +35605,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-152-1",
+    "id": "서울-합지_152-1",
     "code": "152-1",
     "name": "152-1",
     "brand": "서울",
@@ -35625,7 +35625,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-152-2",
+    "id": "서울-합지_152-2",
     "code": "152-2",
     "name": "152-2",
     "brand": "서울",
@@ -35645,7 +35645,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-153-1",
+    "id": "서울-합지_153-1",
     "code": "153-1",
     "name": "153-1",
     "brand": "서울",
@@ -35665,7 +35665,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-154-1",
+    "id": "서울-합지_154-1",
     "code": "154-1",
     "name": "154-1",
     "brand": "서울",
@@ -35685,7 +35685,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-155-1",
+    "id": "서울-합지_155-1",
     "code": "155-1",
     "name": "155-1",
     "brand": "서울",
@@ -35705,7 +35705,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-155-2",
+    "id": "서울-합지_155-2",
     "code": "155-2",
     "name": "155-2",
     "brand": "서울",
@@ -35725,7 +35725,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-155-3",
+    "id": "서울-합지_155-3",
     "code": "155-3",
     "name": "155-3",
     "brand": "서울",
@@ -35745,7 +35745,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-155-4",
+    "id": "서울-합지_155-4",
     "code": "155-4",
     "name": "155-4",
     "brand": "서울",
@@ -35765,7 +35765,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-156-1",
+    "id": "서울-합지_156-1",
     "code": "156-1",
     "name": "156-1",
     "brand": "서울",
@@ -35785,7 +35785,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-156-2",
+    "id": "서울-합지_156-2",
     "code": "156-2",
     "name": "156-2",
     "brand": "서울",
@@ -35805,7 +35805,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-156-3",
+    "id": "서울-합지_156-3",
     "code": "156-3",
     "name": "156-3",
     "brand": "서울",
@@ -35825,7 +35825,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-156-4",
+    "id": "서울-합지_156-4",
     "code": "156-4",
     "name": "156-4",
     "brand": "서울",
@@ -35845,7 +35845,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-156-5",
+    "id": "서울-합지_156-5",
     "code": "156-5",
     "name": "156-5",
     "brand": "서울",
@@ -35865,7 +35865,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-157-1",
+    "id": "서울-합지_157-1",
     "code": "157-1",
     "name": "157-1",
     "brand": "서울",
@@ -35885,7 +35885,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-157-2",
+    "id": "서울-합지_157-2",
     "code": "157-2",
     "name": "157-2",
     "brand": "서울",
@@ -35905,7 +35905,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-157-3",
+    "id": "서울-합지_157-3",
     "code": "157-3",
     "name": "157-3",
     "brand": "서울",
@@ -35925,7 +35925,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-157-4",
+    "id": "서울-합지_157-4",
     "code": "157-4",
     "name": "157-4",
     "brand": "서울",
@@ -35945,7 +35945,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-157-5",
+    "id": "서울-합지_157-5",
     "code": "157-5",
     "name": "157-5",
     "brand": "서울",
@@ -35965,7 +35965,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-158-1",
+    "id": "서울-합지_158-1",
     "code": "158-1",
     "name": "158-1",
     "brand": "서울",
@@ -35985,7 +35985,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-158-2",
+    "id": "서울-합지_158-2",
     "code": "158-2",
     "name": "158-2",
     "brand": "서울",
@@ -36005,7 +36005,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-158-3",
+    "id": "서울-합지_158-3",
     "code": "158-3",
     "name": "158-3",
     "brand": "서울",
@@ -36025,7 +36025,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-158-4",
+    "id": "서울-합지_158-4",
     "code": "158-4",
     "name": "158-4",
     "brand": "서울",
@@ -36045,7 +36045,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-159-1",
+    "id": "서울-합지_159-1",
     "code": "159-1",
     "name": "159-1",
     "brand": "서울",
@@ -36065,7 +36065,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-159-2",
+    "id": "서울-합지_159-2",
     "code": "159-2",
     "name": "159-2",
     "brand": "서울",
@@ -36085,7 +36085,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-159-3",
+    "id": "서울-합지_159-3",
     "code": "159-3",
     "name": "159-3",
     "brand": "서울",
@@ -36105,7 +36105,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-159-4",
+    "id": "서울-합지_159-4",
     "code": "159-4",
     "name": "159-4",
     "brand": "서울",
@@ -36125,7 +36125,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-160-1",
+    "id": "서울-합지_160-1",
     "code": "160-1",
     "name": "160-1",
     "brand": "서울",
@@ -36145,7 +36145,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-160-2",
+    "id": "서울-합지_160-2",
     "code": "160-2",
     "name": "160-2",
     "brand": "서울",
@@ -36165,7 +36165,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-160-3",
+    "id": "서울-합지_160-3",
     "code": "160-3",
     "name": "160-3",
     "brand": "서울",
@@ -36185,7 +36185,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-160-4",
+    "id": "서울-합지_160-4",
     "code": "160-4",
     "name": "160-4",
     "brand": "서울",
@@ -36205,7 +36205,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-161-1",
+    "id": "서울-합지_161-1",
     "code": "161-1",
     "name": "161-1",
     "brand": "서울",
@@ -36225,7 +36225,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-161-2",
+    "id": "서울-합지_161-2",
     "code": "161-2",
     "name": "161-2",
     "brand": "서울",
@@ -36245,7 +36245,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-161-3",
+    "id": "서울-합지_161-3",
     "code": "161-3",
     "name": "161-3",
     "brand": "서울",
@@ -36265,7 +36265,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-161-4",
+    "id": "서울-합지_161-4",
     "code": "161-4",
     "name": "161-4",
     "brand": "서울",
@@ -36285,7 +36285,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-161-5",
+    "id": "서울-합지_161-5",
     "code": "161-5",
     "name": "161-5",
     "brand": "서울",
@@ -36305,7 +36305,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-161-6",
+    "id": "서울-합지_161-6",
     "code": "161-6",
     "name": "161-6",
     "brand": "서울",
@@ -36325,7 +36325,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-162-1",
+    "id": "서울-합지_162-1",
     "code": "162-1",
     "name": "162-1",
     "brand": "서울",
@@ -36345,7 +36345,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-162-2",
+    "id": "서울-합지_162-2",
     "code": "162-2",
     "name": "162-2",
     "brand": "서울",
@@ -36365,7 +36365,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-162-3",
+    "id": "서울-합지_162-3",
     "code": "162-3",
     "name": "162-3",
     "brand": "서울",
@@ -36385,7 +36385,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-162-4",
+    "id": "서울-합지_162-4",
     "code": "162-4",
     "name": "162-4",
     "brand": "서울",
@@ -36405,7 +36405,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-163-1",
+    "id": "서울-합지_163-1",
     "code": "163-1",
     "name": "163-1",
     "brand": "서울",
@@ -36425,7 +36425,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-163-2",
+    "id": "서울-합지_163-2",
     "code": "163-2",
     "name": "163-2",
     "brand": "서울",
@@ -36445,7 +36445,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-163-3",
+    "id": "서울-합지_163-3",
     "code": "163-3",
     "name": "163-3",
     "brand": "서울",
@@ -36465,7 +36465,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-163-4",
+    "id": "서울-합지_163-4",
     "code": "163-4",
     "name": "163-4",
     "brand": "서울",
@@ -36485,7 +36485,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-163-5",
+    "id": "서울-합지_163-5",
     "code": "163-5",
     "name": "163-5",
     "brand": "서울",
@@ -36505,7 +36505,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-163-6",
+    "id": "서울-합지_163-6",
     "code": "163-6",
     "name": "163-6",
     "brand": "서울",
@@ -36525,7 +36525,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-200-1",
+    "id": "서울-합지_200-1",
     "code": "200-1",
     "name": "200-1",
     "brand": "서울",
@@ -36545,7 +36545,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-200-2",
+    "id": "서울-합지_200-2",
     "code": "200-2",
     "name": "200-2",
     "brand": "서울",
@@ -36565,7 +36565,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9115-1",
+    "id": "서울-합지_9115-1",
     "code": "9115-1",
     "name": "9115-1",
     "brand": "서울",
@@ -36585,7 +36585,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9119-1",
+    "id": "서울-합지_9119-1",
     "code": "9119-1",
     "name": "9119-1",
     "brand": "서울",
@@ -36605,7 +36605,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9122-1",
+    "id": "서울-합지_9122-1",
     "code": "9122-1",
     "name": "9122-1",
     "brand": "서울",
@@ -36625,7 +36625,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9130-1",
+    "id": "서울-합지_9130-1",
     "code": "9130-1",
     "name": "9130-1",
     "brand": "서울",
@@ -36645,7 +36645,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9146-1",
+    "id": "서울-합지_9146-1",
     "code": "9146-1",
     "name": "9146-1",
     "brand": "서울",
@@ -36665,7 +36665,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9151-1",
+    "id": "서울-합지_9151-1",
     "code": "9151-1",
     "name": "9151-1",
     "brand": "서울",
@@ -36685,7 +36685,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9151-3",
+    "id": "서울-합지_9151-3",
     "code": "9151-3",
     "name": "9151-3",
     "brand": "서울",
@@ -36705,7 +36705,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9152-1",
+    "id": "서울-합지_9152-1",
     "code": "9152-1",
     "name": "9152-1",
     "brand": "서울",
@@ -36725,7 +36725,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9160-1",
+    "id": "서울-합지_9160-1",
     "code": "9160-1",
     "name": "9160-1",
     "brand": "서울",
@@ -36745,7 +36745,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9165-1",
+    "id": "서울-합지_9165-1",
     "code": "9165-1",
     "name": "9165-1",
     "brand": "서울",
@@ -36765,7 +36765,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9165-2",
+    "id": "서울-합지_9165-2",
     "code": "9165-2",
     "name": "9165-2",
     "brand": "서울",
@@ -36785,7 +36785,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9171-1",
+    "id": "서울-합지_9171-1",
     "code": "9171-1",
     "name": "9171-1",
     "brand": "서울",
@@ -36805,7 +36805,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9171-3",
+    "id": "서울-합지_9171-3",
     "code": "9171-3",
     "name": "9171-3",
     "brand": "서울",
@@ -36825,7 +36825,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9172-1",
+    "id": "서울-합지_9172-1",
     "code": "9172-1",
     "name": "9172-1",
     "brand": "서울",
@@ -36845,7 +36845,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9176-1",
+    "id": "서울-합지_9176-1",
     "code": "9176-1",
     "name": "9176-1",
     "brand": "서울",
@@ -36865,7 +36865,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9176-2",
+    "id": "서울-합지_9176-2",
     "code": "9176-2",
     "name": "9176-2",
     "brand": "서울",
@@ -36885,7 +36885,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9176-3",
+    "id": "서울-합지_9176-3",
     "code": "9176-3",
     "name": "9176-3",
     "brand": "서울",
@@ -36905,7 +36905,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9176-4",
+    "id": "서울-합지_9176-4",
     "code": "9176-4",
     "name": "9176-4",
     "brand": "서울",
@@ -36925,7 +36925,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9176-5",
+    "id": "서울-합지_9176-5",
     "code": "9176-5",
     "name": "9176-5",
     "brand": "서울",
@@ -36945,7 +36945,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9177-1",
+    "id": "서울-합지_9177-1",
     "code": "9177-1",
     "name": "9177-1",
     "brand": "서울",
@@ -36965,7 +36965,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9177-5",
+    "id": "서울-합지_9177-5",
     "code": "9177-5",
     "name": "9177-5",
     "brand": "서울",
@@ -36985,7 +36985,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9178-1",
+    "id": "서울-합지_9178-1",
     "code": "9178-1",
     "name": "9178-1",
     "brand": "서울",
@@ -37005,7 +37005,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9178-2",
+    "id": "서울-합지_9178-2",
     "code": "9178-2",
     "name": "9178-2",
     "brand": "서울",
@@ -37025,7 +37025,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9178-3",
+    "id": "서울-합지_9178-3",
     "code": "9178-3",
     "name": "9178-3",
     "brand": "서울",
@@ -37045,7 +37045,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9179-1",
+    "id": "서울-합지_9179-1",
     "code": "9179-1",
     "name": "9179-1",
     "brand": "서울",
@@ -37065,7 +37065,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9179-2",
+    "id": "서울-합지_9179-2",
     "code": "9179-2",
     "name": "9179-2",
     "brand": "서울",
@@ -37085,7 +37085,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9180-1",
+    "id": "서울-합지_9180-1",
     "code": "9180-1",
     "name": "9180-1",
     "brand": "서울",
@@ -37105,7 +37105,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9180-2",
+    "id": "서울-합지_9180-2",
     "code": "9180-2",
     "name": "9180-2",
     "brand": "서울",
@@ -37125,7 +37125,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9181-1",
+    "id": "서울-합지_9181-1",
     "code": "9181-1",
     "name": "9181-1",
     "brand": "서울",
@@ -37145,7 +37145,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9181-2",
+    "id": "서울-합지_9181-2",
     "code": "9181-2",
     "name": "9181-2",
     "brand": "서울",
@@ -37165,7 +37165,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9182-1",
+    "id": "서울-합지_9182-1",
     "code": "9182-1",
     "name": "9182-1",
     "brand": "서울",
@@ -37185,7 +37185,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9182-2",
+    "id": "서울-합지_9182-2",
     "code": "9182-2",
     "name": "9182-2",
     "brand": "서울",
@@ -37205,7 +37205,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9182-3",
+    "id": "서울-합지_9182-3",
     "code": "9182-3",
     "name": "9182-3",
     "brand": "서울",
@@ -37225,7 +37225,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9182-4",
+    "id": "서울-합지_9182-4",
     "code": "9182-4",
     "name": "9182-4",
     "brand": "서울",
@@ -37245,7 +37245,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9182-5",
+    "id": "서울-합지_9182-5",
     "code": "9182-5",
     "name": "9182-5",
     "brand": "서울",
@@ -37265,7 +37265,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9182-6",
+    "id": "서울-합지_9182-6",
     "code": "9182-6",
     "name": "9182-6",
     "brand": "서울",
@@ -37285,7 +37285,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9183-1",
+    "id": "서울-합지_9183-1",
     "code": "9183-1",
     "name": "9183-1",
     "brand": "서울",
@@ -37305,7 +37305,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9183-2",
+    "id": "서울-합지_9183-2",
     "code": "9183-2",
     "name": "9183-2",
     "brand": "서울",
@@ -37325,7 +37325,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9183-3",
+    "id": "서울-합지_9183-3",
     "code": "9183-3",
     "name": "9183-3",
     "brand": "서울",
@@ -37345,7 +37345,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9183-4",
+    "id": "서울-합지_9183-4",
     "code": "9183-4",
     "name": "9183-4",
     "brand": "서울",
@@ -37365,7 +37365,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9183-5",
+    "id": "서울-합지_9183-5",
     "code": "9183-5",
     "name": "9183-5",
     "brand": "서울",
@@ -37385,7 +37385,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9184-1",
+    "id": "서울-합지_9184-1",
     "code": "9184-1",
     "name": "9184-1",
     "brand": "서울",
@@ -37405,7 +37405,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9184-2",
+    "id": "서울-합지_9184-2",
     "code": "9184-2",
     "name": "9184-2",
     "brand": "서울",
@@ -37425,7 +37425,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9184-3",
+    "id": "서울-합지_9184-3",
     "code": "9184-3",
     "name": "9184-3",
     "brand": "서울",
@@ -37445,7 +37445,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9184-4",
+    "id": "서울-합지_9184-4",
     "code": "9184-4",
     "name": "9184-4",
     "brand": "서울",
@@ -37465,7 +37465,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9184-5",
+    "id": "서울-합지_9184-5",
     "code": "9184-5",
     "name": "9184-5",
     "brand": "서울",
@@ -37485,7 +37485,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9185-1",
+    "id": "서울-합지_9185-1",
     "code": "9185-1",
     "name": "9185-1",
     "brand": "서울",
@@ -37505,7 +37505,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9185-2",
+    "id": "서울-합지_9185-2",
     "code": "9185-2",
     "name": "9185-2",
     "brand": "서울",
@@ -37525,7 +37525,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9185-3",
+    "id": "서울-합지_9185-3",
     "code": "9185-3",
     "name": "9185-3",
     "brand": "서울",
@@ -37545,7 +37545,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9185-4",
+    "id": "서울-합지_9185-4",
     "code": "9185-4",
     "name": "9185-4",
     "brand": "서울",
@@ -37565,7 +37565,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9185-5",
+    "id": "서울-합지_9185-5",
     "code": "9185-5",
     "name": "9185-5",
     "brand": "서울",
@@ -37585,7 +37585,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9186-1",
+    "id": "서울-합지_9186-1",
     "code": "9186-1",
     "name": "9186-1",
     "brand": "서울",
@@ -37605,7 +37605,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9186-2",
+    "id": "서울-합지_9186-2",
     "code": "9186-2",
     "name": "9186-2",
     "brand": "서울",
@@ -37625,7 +37625,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9186-3",
+    "id": "서울-합지_9186-3",
     "code": "9186-3",
     "name": "9186-3",
     "brand": "서울",
@@ -37645,7 +37645,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9186-4",
+    "id": "서울-합지_9186-4",
     "code": "9186-4",
     "name": "9186-4",
     "brand": "서울",
@@ -37665,7 +37665,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9186-5",
+    "id": "서울-합지_9186-5",
     "code": "9186-5",
     "name": "9186-5",
     "brand": "서울",
@@ -37685,7 +37685,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9187-1",
+    "id": "서울-합지_9187-1",
     "code": "9187-1",
     "name": "9187-1",
     "brand": "서울",
@@ -37705,7 +37705,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9187-2",
+    "id": "서울-합지_9187-2",
     "code": "9187-2",
     "name": "9187-2",
     "brand": "서울",
@@ -37725,7 +37725,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9187-3",
+    "id": "서울-합지_9187-3",
     "code": "9187-3",
     "name": "9187-3",
     "brand": "서울",
@@ -37745,7 +37745,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9187-4",
+    "id": "서울-합지_9187-4",
     "code": "9187-4",
     "name": "9187-4",
     "brand": "서울",
@@ -37765,7 +37765,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9187-5",
+    "id": "서울-합지_9187-5",
     "code": "9187-5",
     "name": "9187-5",
     "brand": "서울",
@@ -37785,7 +37785,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9187-6",
+    "id": "서울-합지_9187-6",
     "code": "9187-6",
     "name": "9187-6",
     "brand": "서울",
@@ -37805,7 +37805,7 @@ export const materials = [
     }
   },
   {
-    "id": "서울-9187-7",
+    "id": "서울-합지_9187-7",
     "code": "9187-7",
     "name": "9187-7",
     "brand": "서울",
@@ -37825,7 +37825,7 @@ export const materials = [
     }
   },
   {
-    "id": "신한-방염_F15053-1",
+    "id": "신한-방염_신한벽지_방염_방염_F15053-1",
     "code": "방염_F15053-1",
     "name": "방염_F15053-1 조용한 사색",
     "brand": "신한(KCC)",
@@ -37839,7 +37839,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F15053-2",
+    "id": "신한-방염_신한벽지_방염_방염_F15053-2",
     "code": "방염_F15053-2",
     "name": "방염_F15053-2 조용한 사색",
     "brand": "신한(KCC)",
@@ -37853,7 +37853,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F15087-5",
+    "id": "신한-방염_신한벽지_방염_방염_F15087-5",
     "code": "방염_F15087-5",
     "name": "방염_F15087-5 봄날의 열매",
     "brand": "신한(KCC)",
@@ -37867,7 +37867,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F15087-7",
+    "id": "신한-방염_신한벽지_방염_방염_F15087-7",
     "code": "방염_F15087-7",
     "name": "방염_F15087-7 봄날의 열매",
     "brand": "신한(KCC)",
@@ -37881,7 +37881,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F15094-2",
+    "id": "신한-방염_신한벽지_방염_방염_F15094-2",
     "code": "방염_F15094-2",
     "name": "방염_F15094-2 서울의 야경",
     "brand": "신한(KCC)",
@@ -37895,7 +37895,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F15094-3",
+    "id": "신한-방염_신한벽지_방염_방염_F15094-3",
     "code": "방염_F15094-3",
     "name": "방염_F15094-3 서울의 야경",
     "brand": "신한(KCC)",
@@ -37909,7 +37909,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F15094-4",
+    "id": "신한-방염_신한벽지_방염_방염_F15094-4",
     "code": "방염_F15094-4",
     "name": "방염_F15094-4 서울의 야경",
     "brand": "신한(KCC)",
@@ -37923,7 +37923,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F15099-1",
+    "id": "신한-방염_신한벽지_방염_방염_F15099-1",
     "code": "방염_F15099-1",
     "name": "방염_F15099-1 신비로운 새벽",
     "brand": "신한(KCC)",
@@ -37937,7 +37937,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F15099-2",
+    "id": "신한-방염_신한벽지_방염_방염_F15099-2",
     "code": "방염_F15099-2",
     "name": "방염_F15099-2 신비로운 새벽",
     "brand": "신한(KCC)",
@@ -37951,7 +37951,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F15099-3",
+    "id": "신한-방염_신한벽지_방염_방염_F15099-3",
     "code": "방염_F15099-3",
     "name": "방염_F15099-3 신비로운 새벽",
     "brand": "신한(KCC)",
@@ -37965,7 +37965,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F15099-4",
+    "id": "신한-방염_신한벽지_방염_방염_F15099-4",
     "code": "방염_F15099-4",
     "name": "방염_F15099-4 신비로운 새벽",
     "brand": "신한(KCC)",
@@ -37979,7 +37979,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F15099-8",
+    "id": "신한-방염_신한벽지_방염_방염_F15099-8",
     "code": "방염_F15099-8",
     "name": "방염_F15099-8 신비로운 새벽",
     "brand": "신한(KCC)",
@@ -37993,7 +37993,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F15099-9",
+    "id": "신한-방염_신한벽지_방염_방염_F15099-9",
     "code": "방염_F15099-9",
     "name": "방염_F15099-9 신비로운 새벽",
     "brand": "신한(KCC)",
@@ -38007,7 +38007,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F15102-1",
+    "id": "신한-방염_신한벽지_방염_방염_F15102-1",
     "code": "방염_F15102-1",
     "name": "방염_F15102-1 소소한 기다림",
     "brand": "신한(KCC)",
@@ -38021,7 +38021,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F15102-3",
+    "id": "신한-방염_신한벽지_방염_방염_F15102-3",
     "code": "방염_F15102-3",
     "name": "방염_F15102-3 소소한 기다림",
     "brand": "신한(KCC)",
@@ -38035,7 +38035,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F15102-4",
+    "id": "신한-방염_신한벽지_방염_방염_F15102-4",
     "code": "방염_F15102-4",
     "name": "방염_F15102-4 소소한 기다림",
     "brand": "신한(KCC)",
@@ -38049,7 +38049,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F15102-6",
+    "id": "신한-방염_신한벽지_방염_방염_F15102-6",
     "code": "방염_F15102-6",
     "name": "방염_F15102-6 소소한 기다림",
     "brand": "신한(KCC)",
@@ -38063,7 +38063,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F15102-7",
+    "id": "신한-방염_신한벽지_방염_방염_F15102-7",
     "code": "방염_F15102-7",
     "name": "방염_F15102-7 소소한 기다림",
     "brand": "신한(KCC)",
@@ -38077,7 +38077,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F15102-8",
+    "id": "신한-방염_신한벽지_방염_방염_F15102-8",
     "code": "방염_F15102-8",
     "name": "방염_F15102-8 소소한 기다림",
     "brand": "신한(KCC)",
@@ -38091,7 +38091,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F15103-1",
+    "id": "신한-방염_신한벽지_방염_방염_F15103-1",
     "code": "방염_F15103-1",
     "name": "방염_F15103-1 비밀이야기",
     "brand": "신한(KCC)",
@@ -38105,7 +38105,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F15103-2",
+    "id": "신한-방염_신한벽지_방염_방염_F15103-2",
     "code": "방염_F15103-2",
     "name": "방염_F15103-2 비밀이야기",
     "brand": "신한(KCC)",
@@ -38119,7 +38119,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F15103-3",
+    "id": "신한-방염_신한벽지_방염_방염_F15103-3",
     "code": "방염_F15103-3",
     "name": "방염_F15103-3 비밀이야기",
     "brand": "신한(KCC)",
@@ -38133,7 +38133,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F15103-4",
+    "id": "신한-방염_신한벽지_방염_방염_F15103-4",
     "code": "방염_F15103-4",
     "name": "방염_F15103-4 비밀이야기",
     "brand": "신한(KCC)",
@@ -38147,7 +38147,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F15105-1",
+    "id": "신한-방염_신한벽지_방염_방염_F15105-1",
     "code": "방염_F15105-1",
     "name": "방염_F15105-1 그날의 약속",
     "brand": "신한(KCC)",
@@ -38161,7 +38161,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F15105-2",
+    "id": "신한-방염_신한벽지_방염_방염_F15105-2",
     "code": "방염_F15105-2",
     "name": "방염_F15105-2 그날의 약속",
     "brand": "신한(KCC)",
@@ -38175,7 +38175,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F15105-3",
+    "id": "신한-방염_신한벽지_방염_방염_F15105-3",
     "code": "방염_F15105-3",
     "name": "방염_F15105-3 그날의 약속",
     "brand": "신한(KCC)",
@@ -38189,7 +38189,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F15105-4",
+    "id": "신한-방염_신한벽지_방염_방염_F15105-4",
     "code": "방염_F15105-4",
     "name": "방염_F15105-4 그날의 약속",
     "brand": "신한(KCC)",
@@ -38203,7 +38203,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70180-3",
+    "id": "신한-방염_신한벽지_방염_방염_F70180-3",
     "code": "방염_F70180-3",
     "name": "방염_F70180-3 노출콘크리트",
     "brand": "신한(KCC)",
@@ -38217,7 +38217,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70199-2",
+    "id": "신한-방염_신한벽지_방염_방염_F70199-2",
     "code": "방염_F70199-2",
     "name": "방염_F70199-2 이솝",
     "brand": "신한(KCC)",
@@ -38231,7 +38231,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70199-3",
+    "id": "신한-방염_신한벽지_방염_방염_F70199-3",
     "code": "방염_F70199-3",
     "name": "방염_F70199-3 이솝",
     "brand": "신한(KCC)",
@@ -38245,7 +38245,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70213-10",
+    "id": "신한-방염_신한벽지_방염_방염_F70213-10",
     "code": "방염_F70213-10",
     "name": "방염_F70213-10 플레인",
     "brand": "신한(KCC)",
@@ -38259,7 +38259,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70220-1",
+    "id": "신한-방염_신한벽지_방염_방염_F70220-1",
     "code": "방염_F70220-1",
     "name": "방염_F70220-1 뷰글라스",
     "brand": "신한(KCC)",
@@ -38273,7 +38273,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70220-2",
+    "id": "신한-방염_신한벽지_방염_방염_F70220-2",
     "code": "방염_F70220-2",
     "name": "방염_F70220-2 뷰글라스",
     "brand": "신한(KCC)",
@@ -38287,7 +38287,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70220-4",
+    "id": "신한-방염_신한벽지_방염_방염_F70220-4",
     "code": "방염_F70220-4",
     "name": "방염_F70220-4 뷰글라스",
     "brand": "신한(KCC)",
@@ -38301,7 +38301,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70226-1",
+    "id": "신한-방염_신한벽지_방염_방염_F70226-1",
     "code": "방염_F70226-1",
     "name": "방염_F70226-1 브람스",
     "brand": "신한(KCC)",
@@ -38315,7 +38315,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70226-2",
+    "id": "신한-방염_신한벽지_방염_방염_F70226-2",
     "code": "방염_F70226-2",
     "name": "방염_F70226-2 브람스",
     "brand": "신한(KCC)",
@@ -38329,7 +38329,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70227-1",
+    "id": "신한-방염_신한벽지_방염_방염_F70227-1",
     "code": "방염_F70227-1",
     "name": "방염_F70227-1 던",
     "brand": "신한(KCC)",
@@ -38343,7 +38343,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70231-1",
+    "id": "신한-방염_신한벽지_방염_방염_F70231-1",
     "code": "방염_F70231-1",
     "name": "방염_F70231-1 바흐",
     "brand": "신한(KCC)",
@@ -38357,7 +38357,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70231-2",
+    "id": "신한-방염_신한벽지_방염_방염_F70231-2",
     "code": "방염_F70231-2",
     "name": "방염_F70231-2 바흐",
     "brand": "신한(KCC)",
@@ -38371,7 +38371,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70231-3",
+    "id": "신한-방염_신한벽지_방염_방염_F70231-3",
     "code": "방염_F70231-3",
     "name": "방염_F70231-3 바흐",
     "brand": "신한(KCC)",
@@ -38385,7 +38385,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70249-1",
+    "id": "신한-방염_신한벽지_방염_방염_F70249-1",
     "code": "방염_F70249-1",
     "name": "방염_F70249-1 텐더",
     "brand": "신한(KCC)",
@@ -38399,7 +38399,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70249-2",
+    "id": "신한-방염_신한벽지_방염_방염_F70249-2",
     "code": "방염_F70249-2",
     "name": "방염_F70249-2 텐더",
     "brand": "신한(KCC)",
@@ -38413,7 +38413,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70249-3",
+    "id": "신한-방염_신한벽지_방염_방염_F70249-3",
     "code": "방염_F70249-3",
     "name": "방염_F70249-3 텐더",
     "brand": "신한(KCC)",
@@ -38427,7 +38427,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70249-4",
+    "id": "신한-방염_신한벽지_방염_방염_F70249-4",
     "code": "방염_F70249-4",
     "name": "방염_F70249-4 텐더",
     "brand": "신한(KCC)",
@@ -38441,7 +38441,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70249-6",
+    "id": "신한-방염_신한벽지_방염_방염_F70249-6",
     "code": "방염_F70249-6",
     "name": "방염_F70249-6 텐더",
     "brand": "신한(KCC)",
@@ -38455,7 +38455,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70252-1",
+    "id": "신한-방염_신한벽지_방염_방염_F70252-1",
     "code": "방염_F70252-1",
     "name": "방염_F70252-1 르메르",
     "brand": "신한(KCC)",
@@ -38469,7 +38469,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70252-2",
+    "id": "신한-방염_신한벽지_방염_방염_F70252-2",
     "code": "방염_F70252-2",
     "name": "방염_F70252-2 르메르",
     "brand": "신한(KCC)",
@@ -38483,7 +38483,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70252-3",
+    "id": "신한-방염_신한벽지_방염_방염_F70252-3",
     "code": "방염_F70252-3",
     "name": "방염_F70252-3 르메르",
     "brand": "신한(KCC)",
@@ -38497,7 +38497,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70254-1",
+    "id": "신한-방염_신한벽지_방염_방염_F70254-1",
     "code": "방염_F70254-1",
     "name": "방염_F70254-1 제프리",
     "brand": "신한(KCC)",
@@ -38511,7 +38511,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70254-2",
+    "id": "신한-방염_신한벽지_방염_방염_F70254-2",
     "code": "방염_F70254-2",
     "name": "방염_F70254-2 제프리",
     "brand": "신한(KCC)",
@@ -38525,7 +38525,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70254-3",
+    "id": "신한-방염_신한벽지_방염_방염_F70254-3",
     "code": "방염_F70254-3",
     "name": "방염_F70254-3 제프리",
     "brand": "신한(KCC)",
@@ -38539,7 +38539,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70254-4",
+    "id": "신한-방염_신한벽지_방염_방염_F70254-4",
     "code": "방염_F70254-4",
     "name": "방염_F70254-4 제프리",
     "brand": "신한(KCC)",
@@ -38553,7 +38553,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70254-5",
+    "id": "신한-방염_신한벽지_방염_방염_F70254-5",
     "code": "방염_F70254-5",
     "name": "방염_F70254-5 제프리",
     "brand": "신한(KCC)",
@@ -38567,7 +38567,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70254-6",
+    "id": "신한-방염_신한벽지_방염_방염_F70254-6",
     "code": "방염_F70254-6",
     "name": "방염_F70254-6 제프리",
     "brand": "신한(KCC)",
@@ -38581,7 +38581,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70255-1",
+    "id": "신한-방염_신한벽지_방염_방염_F70255-1",
     "code": "방염_F70255-1",
     "name": "방염_F70255-1 센터",
     "brand": "신한(KCC)",
@@ -38595,7 +38595,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70255-2",
+    "id": "신한-방염_신한벽지_방염_방염_F70255-2",
     "code": "방염_F70255-2",
     "name": "방염_F70255-2 센터",
     "brand": "신한(KCC)",
@@ -38609,7 +38609,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_F70255-3",
+    "id": "신한-방염_신한벽지_방염_방염_F70255-3",
     "code": "방염_F70255-3",
     "name": "방염_F70255-3 센터",
     "brand": "신한(KCC)",
@@ -38623,7 +38623,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_FC8052-1",
+    "id": "신한-방염_신한벽지_방염_방염_FC8052-1",
     "code": "방염_FC8052-1",
     "name": "방염_FC8052-1 알토",
     "brand": "신한(KCC)",
@@ -38637,7 +38637,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_FC8052-3",
+    "id": "신한-방염_신한벽지_방염_방염_FC8052-3",
     "code": "방염_FC8052-3",
     "name": "방염_FC8052-3 알토",
     "brand": "신한(KCC)",
@@ -38651,7 +38651,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_FC9643-10",
+    "id": "신한-방염_신한벽지_방염_방염_FC9643-10",
     "code": "방염_FC9643-10",
     "name": "방염_FC9643-10 스타",
     "brand": "신한(KCC)",
@@ -38665,7 +38665,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_FC9643-11",
+    "id": "신한-방염_신한벽지_방염_방염_FC9643-11",
     "code": "방염_FC9643-11",
     "name": "방염_FC9643-11 스타",
     "brand": "신한(KCC)",
@@ -38679,7 +38679,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_FK0007-1",
+    "id": "신한-방염_신한벽지_방염_방염_FK0007-1",
     "code": "방염_FK0007-1",
     "name": "방염_FK0007-1 파브",
     "brand": "신한(KCC)",
@@ -38693,7 +38693,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_FK0007-2",
+    "id": "신한-방염_신한벽지_방염_방염_FK0007-2",
     "code": "방염_FK0007-2",
     "name": "방염_FK0007-2 파브",
     "brand": "신한(KCC)",
@@ -38707,7 +38707,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_FK0007-4",
+    "id": "신한-방염_신한벽지_방염_방염_FK0007-4",
     "code": "방염_FK0007-4",
     "name": "방염_FK0007-4 파브",
     "brand": "신한(KCC)",
@@ -38721,7 +38721,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_FK0010-1",
+    "id": "신한-방염_신한벽지_방염_방염_FK0010-1",
     "code": "방염_FK0010-1",
     "name": "방염_FK0010-1 그릴",
     "brand": "신한(KCC)",
@@ -38735,7 +38735,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_FK0010-2",
+    "id": "신한-방염_신한벽지_방염_방염_FK0010-2",
     "code": "방염_FK0010-2",
     "name": "방염_FK0010-2 그릴",
     "brand": "신한(KCC)",
@@ -38749,7 +38749,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_FK0010-3",
+    "id": "신한-방염_신한벽지_방염_방염_FK0010-3",
     "code": "방염_FK0010-3",
     "name": "방염_FK0010-3 그릴",
     "brand": "신한(KCC)",
@@ -38763,7 +38763,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_FK0010-4",
+    "id": "신한-방염_신한벽지_방염_방염_FK0010-4",
     "code": "방염_FK0010-4",
     "name": "방염_FK0010-4 그릴",
     "brand": "신한(KCC)",
@@ -38777,7 +38777,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_FK0014-1",
+    "id": "신한-방염_신한벽지_방염_방염_FK0014-1",
     "code": "방염_FK0014-1",
     "name": "방염_FK0014-1 리얼터치",
     "brand": "신한(KCC)",
@@ -38791,7 +38791,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_FK0014-2",
+    "id": "신한-방염_신한벽지_방염_방염_FK0014-2",
     "code": "방염_FK0014-2",
     "name": "방염_FK0014-2 리얼터치",
     "brand": "신한(KCC)",
@@ -38805,7 +38805,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_FK0014-3",
+    "id": "신한-방염_신한벽지_방염_방염_FK0014-3",
     "code": "방염_FK0014-3",
     "name": "방염_FK0014-3 리얼터치",
     "brand": "신한(KCC)",
@@ -38819,7 +38819,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_FK0014-4",
+    "id": "신한-방염_신한벽지_방염_방염_FK0014-4",
     "code": "방염_FK0014-4",
     "name": "방염_FK0014-4 리얼터치",
     "brand": "신한(KCC)",
@@ -38833,7 +38833,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_FK0018-1",
+    "id": "신한-방염_신한벽지_방염_방염_FK0018-1",
     "code": "방염_FK0018-1",
     "name": "방염_FK0018-1 스톤베이스",
     "brand": "신한(KCC)",
@@ -38847,7 +38847,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_FK0018-2",
+    "id": "신한-방염_신한벽지_방염_방염_FK0018-2",
     "code": "방염_FK0018-2",
     "name": "방염_FK0018-2 스톤베이스",
     "brand": "신한(KCC)",
@@ -38861,7 +38861,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_FK0018-3",
+    "id": "신한-방염_신한벽지_방염_방염_FK0018-3",
     "code": "방염_FK0018-3",
     "name": "방염_FK0018-3 스톤베이스",
     "brand": "신한(KCC)",
@@ -38875,7 +38875,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_FK0019-1",
+    "id": "신한-방염_신한벽지_방염_방염_FK0019-1",
     "code": "방염_FK0019-1",
     "name": "방염_FK0019-1 와일드터치",
     "brand": "신한(KCC)",
@@ -38889,7 +38889,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_FK0025-1",
+    "id": "신한-방염_신한벽지_방염_방염_FK0025-1",
     "code": "방염_FK0025-1",
     "name": "방염_FK0025-1 티모시",
     "brand": "신한(KCC)",
@@ -38903,7 +38903,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_FK0025-2",
+    "id": "신한-방염_신한벽지_방염_방염_FK0025-2",
     "code": "방염_FK0025-2",
     "name": "방염_FK0025-2 티모시",
     "brand": "신한(KCC)",
@@ -38917,7 +38917,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_FK0025-3",
+    "id": "신한-방염_신한벽지_방염_방염_FK0025-3",
     "code": "방염_FK0025-3",
     "name": "방염_FK0025-3 티모시",
     "brand": "신한(KCC)",
@@ -38931,7 +38931,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-방염_FK0025-4",
+    "id": "신한-방염_신한벽지_방염_방염_FK0025-4",
     "code": "방염_FK0025-4",
     "name": "방염_FK0025-4 티모시",
     "brand": "신한(KCC)",
@@ -38945,7 +38945,7 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "신한-70287-1",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70287-1",
     "code": "70287-1",
     "name": "70287-1 블로시아",
     "brand": "신한(KCC)",
@@ -38959,7 +38959,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70288-1",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70288-1",
     "code": "70288-1",
     "name": "70288-1 빈티지 가든",
     "brand": "신한(KCC)",
@@ -38973,7 +38973,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70288-2",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70288-2",
     "code": "70288-2",
     "name": "70288-2 빈티지 가든",
     "brand": "신한(KCC)",
@@ -38987,7 +38987,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70289-1",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70289-1",
     "code": "70289-1",
     "name": "70289-1 리토월",
     "brand": "신한(KCC)",
@@ -39001,7 +39001,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70290-1",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70290-1",
     "code": "70290-1",
     "name": "70290-1 마블스",
     "brand": "신한(KCC)",
@@ -39015,7 +39015,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70290-2",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70290-2",
     "code": "70290-2",
     "name": "70290-2 마블스",
     "brand": "신한(KCC)",
@@ -39029,7 +39029,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70291-1",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70291-1",
     "code": "70291-1",
     "name": "70291-1 트리프",
     "brand": "신한(KCC)",
@@ -39043,7 +39043,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70291-2",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70291-2",
     "code": "70291-2",
     "name": "70291-2 트리프",
     "brand": "신한(KCC)",
@@ -39057,7 +39057,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70292-1",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70292-1",
     "code": "70292-1",
     "name": "70292-1 그레인월",
     "brand": "신한(KCC)",
@@ -39071,7 +39071,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70292-2",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70292-2",
     "code": "70292-2",
     "name": "70292-2 그레인월",
     "brand": "신한(KCC)",
@@ -39085,7 +39085,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70292-3",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70292-3",
     "code": "70292-3",
     "name": "70292-3 그레인월",
     "brand": "신한(KCC)",
@@ -39099,7 +39099,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70293-1",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70293-1",
     "code": "70293-1",
     "name": "70293-1 울네프",
     "brand": "신한(KCC)",
@@ -39113,7 +39113,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70293-2",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70293-2",
     "code": "70293-2",
     "name": "70293-2 울네프",
     "brand": "신한(KCC)",
@@ -39127,7 +39127,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70293-3",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70293-3",
     "code": "70293-3",
     "name": "70293-3 울네프",
     "brand": "신한(KCC)",
@@ -39141,7 +39141,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70293-4",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70293-4",
     "code": "70293-4",
     "name": "70293-4 울네프",
     "brand": "신한(KCC)",
@@ -39155,7 +39155,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70294-1",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70294-1",
     "code": "70294-1",
     "name": "70294-1 오브위브",
     "brand": "신한(KCC)",
@@ -39169,7 +39169,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70294-2",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70294-2",
     "code": "70294-2",
     "name": "70294-2 오브위브",
     "brand": "신한(KCC)",
@@ -39183,7 +39183,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70294-3",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70294-3",
     "code": "70294-3",
     "name": "70294-3 오브위브",
     "brand": "신한(KCC)",
@@ -39197,7 +39197,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70294-4",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70294-4",
     "code": "70294-4",
     "name": "70294-4 오브위브",
     "brand": "신한(KCC)",
@@ -39211,7 +39211,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70294-5",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70294-5",
     "code": "70294-5",
     "name": "70294-5 오브위브",
     "brand": "신한(KCC)",
@@ -39225,7 +39225,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70295-1",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70295-1",
     "code": "70295-1",
     "name": "70295-1 바클",
     "brand": "신한(KCC)",
@@ -39239,7 +39239,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70295-2",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70295-2",
     "code": "70295-2",
     "name": "70295-2 바클",
     "brand": "신한(KCC)",
@@ -39253,7 +39253,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70295-3",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70295-3",
     "code": "70295-3",
     "name": "70295-3 바클",
     "brand": "신한(KCC)",
@@ -39267,7 +39267,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70295-4",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70295-4",
     "code": "70295-4",
     "name": "70295-4 바클",
     "brand": "신한(KCC)",
@@ -39281,7 +39281,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70295-5",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70295-5",
     "code": "70295-5",
     "name": "70295-5 바클",
     "brand": "신한(KCC)",
@@ -39295,7 +39295,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70296-1",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70296-1",
     "code": "70296-1",
     "name": "70296-1 클레이어",
     "brand": "신한(KCC)",
@@ -39309,7 +39309,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70296-2",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70296-2",
     "code": "70296-2",
     "name": "70296-2 클레이어",
     "brand": "신한(KCC)",
@@ -39323,7 +39323,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70296-3",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70296-3",
     "code": "70296-3",
     "name": "70296-3 클레이어",
     "brand": "신한(KCC)",
@@ -39337,7 +39337,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70296-4",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70296-4",
     "code": "70296-4",
     "name": "70296-4 클레이어",
     "brand": "신한(KCC)",
@@ -39351,7 +39351,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70296-5",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70296-5",
     "code": "70296-5",
     "name": "70296-5 클레이어",
     "brand": "신한(KCC)",
@@ -39365,7 +39365,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70296-6",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70296-6",
     "code": "70296-6",
     "name": "70296-6 클레이어",
     "brand": "신한(KCC)",
@@ -39379,7 +39379,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70296-7",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70296-7",
     "code": "70296-7",
     "name": "70296-7 클레이어",
     "brand": "신한(KCC)",
@@ -39393,7 +39393,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70296-8",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70296-8",
     "code": "70296-8",
     "name": "70296-8 클레이어",
     "brand": "신한(KCC)",
@@ -39407,7 +39407,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70296-9",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70296-9",
     "code": "70296-9",
     "name": "70296-9 클레이어",
     "brand": "신한(KCC)",
@@ -39421,7 +39421,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70297-1",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70297-1",
     "code": "70297-1",
     "name": "70297-1 듀라월",
     "brand": "신한(KCC)",
@@ -39435,7 +39435,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70297-2",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70297-2",
     "code": "70297-2",
     "name": "70297-2 듀라월",
     "brand": "신한(KCC)",
@@ -39449,7 +39449,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70297-3",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70297-3",
     "code": "70297-3",
     "name": "70297-3 듀라월",
     "brand": "신한(KCC)",
@@ -39463,7 +39463,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70297-4",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70297-4",
     "code": "70297-4",
     "name": "70297-4 듀라월",
     "brand": "신한(KCC)",
@@ -39477,7 +39477,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70297-5",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70297-5",
     "code": "70297-5",
     "name": "70297-5 듀라월",
     "brand": "신한(KCC)",
@@ -39491,7 +39491,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70298-1",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70298-1",
     "code": "70298-1",
     "name": "70298-1 스톤 그리드",
     "brand": "신한(KCC)",
@@ -39505,7 +39505,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70298-2",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70298-2",
     "code": "70298-2",
     "name": "70298-2 스톤 그리드",
     "brand": "신한(KCC)",
@@ -39519,7 +39519,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70298-3",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70298-3",
     "code": "70298-3",
     "name": "70298-3 스톤 그리드",
     "brand": "신한(KCC)",
@@ -39533,7 +39533,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70298-4",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70298-4",
     "code": "70298-4",
     "name": "70298-4 스톤 그리드",
     "brand": "신한(KCC)",
@@ -39547,7 +39547,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70299-1",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70299-1",
     "code": "70299-1",
     "name": "70299-1 누벨스톤",
     "brand": "신한(KCC)",
@@ -39561,7 +39561,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70299-2",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70299-2",
     "code": "70299-2",
     "name": "70299-2 누벨스톤",
     "brand": "신한(KCC)",
@@ -39575,7 +39575,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70299-3",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70299-3",
     "code": "70299-3",
     "name": "70299-3 누벨스톤",
     "brand": "신한(KCC)",
@@ -39589,7 +39589,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70299-4",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70299-4",
     "code": "70299-4",
     "name": "70299-4 누벨스톤",
     "brand": "신한(KCC)",
@@ -39603,7 +39603,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70299-5",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70299-5",
     "code": "70299-5",
     "name": "70299-5 누벨스톤",
     "brand": "신한(KCC)",
@@ -39617,7 +39617,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70300-1",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70300-1",
     "code": "70300-1",
     "name": "70300-1 하드데코",
     "brand": "신한(KCC)",
@@ -39631,7 +39631,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70300-2",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70300-2",
     "code": "70300-2",
     "name": "70300-2 하드데코",
     "brand": "신한(KCC)",
@@ -39645,7 +39645,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70300-3",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70300-3",
     "code": "70300-3",
     "name": "70300-3 하드데코",
     "brand": "신한(KCC)",
@@ -39659,7 +39659,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70300-4",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70300-4",
     "code": "70300-4",
     "name": "70300-4 하드데코",
     "brand": "신한(KCC)",
@@ -39673,7 +39673,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70300-5",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70300-5",
     "code": "70300-5",
     "name": "70300-5 하드데코",
     "brand": "신한(KCC)",
@@ -39687,7 +39687,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70300-6",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70300-6",
     "code": "70300-6",
     "name": "70300-6 하드데코",
     "brand": "신한(KCC)",
@@ -39701,7 +39701,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70301-1",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70301-1",
     "code": "70301-1",
     "name": "70301-1 피노스톤",
     "brand": "신한(KCC)",
@@ -39715,7 +39715,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70301-2",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70301-2",
     "code": "70301-2",
     "name": "70301-2 피노스톤",
     "brand": "신한(KCC)",
@@ -39729,7 +39729,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70301-3",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70301-3",
     "code": "70301-3",
     "name": "70301-3 피노스톤",
     "brand": "신한(KCC)",
@@ -39743,7 +39743,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70301-4",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70301-4",
     "code": "70301-4",
     "name": "70301-4 피노스톤",
     "brand": "신한(KCC)",
@@ -39757,7 +39757,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70301-5",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70301-5",
     "code": "70301-5",
     "name": "70301-5 피노스톤",
     "brand": "신한(KCC)",
@@ -39771,7 +39771,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70301-6",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70301-6",
     "code": "70301-6",
     "name": "70301-6 피노스톤",
     "brand": "신한(KCC)",
@@ -39785,7 +39785,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70302-1",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70302-1",
     "code": "70302-1",
     "name": "70302-1 프라임 스톤",
     "brand": "신한(KCC)",
@@ -39799,7 +39799,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70302-2",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70302-2",
     "code": "70302-2",
     "name": "70302-2 프라임 스톤",
     "brand": "신한(KCC)",
@@ -39813,7 +39813,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70302-3",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70302-3",
     "code": "70302-3",
     "name": "70302-3 프라임 스톤",
     "brand": "신한(KCC)",
@@ -39827,7 +39827,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70302-4",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70302-4",
     "code": "70302-4",
     "name": "70302-4 프라임 스톤",
     "brand": "신한(KCC)",
@@ -39841,7 +39841,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70302-5",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70302-5",
     "code": "70302-5",
     "name": "70302-5 프라임 스톤",
     "brand": "신한(KCC)",
@@ -39855,7 +39855,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70302-6",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70302-6",
     "code": "70302-6",
     "name": "70302-6 프라임 스톤",
     "brand": "신한(KCC)",
@@ -39869,7 +39869,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70302-7",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70302-7",
     "code": "70302-7",
     "name": "70302-7 프라임 스톤",
     "brand": "신한(KCC)",
@@ -39883,7 +39883,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-70302-8",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_70302-8",
     "code": "70302-8",
     "name": "70302-8 프라임 스톤",
     "brand": "신한(KCC)",
@@ -39897,7 +39897,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-C8123-1",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_C8123-1",
     "code": "C8123-1",
     "name": "C8123-1 테너",
     "brand": "신한(KCC)",
@@ -39911,7 +39911,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-C8123-2",
+    "id": "신한-실크_신한벽지_리빙(LIVING)_C8123-2",
     "code": "C8123-2",
     "name": "C8123-2 테너",
     "brand": "신한(KCC)",
@@ -39925,7 +39925,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15120-1",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15120-1",
     "code": "15120-1",
     "name": "15120-1 아트 테라조",
     "brand": "신한(KCC)",
@@ -39939,7 +39939,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15120-2",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15120-2",
     "code": "15120-2",
     "name": "15120-2 아트 테라조",
     "brand": "신한(KCC)",
@@ -39953,7 +39953,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15120-3",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15120-3",
     "code": "15120-3",
     "name": "15120-3 아트 테라조",
     "brand": "신한(KCC)",
@@ -39967,7 +39967,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15121-1",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15121-1",
     "code": "15121-1",
     "name": "15121-1 스페셜 페인트",
     "brand": "신한(KCC)",
@@ -39981,7 +39981,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15121-2",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15121-2",
     "code": "15121-2",
     "name": "15121-2 스페셜 페인트",
     "brand": "신한(KCC)",
@@ -39995,7 +39995,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15121-3",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15121-3",
     "code": "15121-3",
     "name": "15121-3 스페셜 페인트",
     "brand": "신한(KCC)",
@@ -40009,7 +40009,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15121-4",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15121-4",
     "code": "15121-4",
     "name": "15121-4 스페셜 페인트",
     "brand": "신한(KCC)",
@@ -40023,7 +40023,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15122-1",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15122-1",
     "code": "15122-1",
     "name": "15122-1 화려한 시선",
     "brand": "신한(KCC)",
@@ -40037,7 +40037,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15122-2",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15122-2",
     "code": "15122-2",
     "name": "15122-2 화려한 시선",
     "brand": "신한(KCC)",
@@ -40051,7 +40051,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15122-3",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15122-3",
     "code": "15122-3",
     "name": "15122-3 화려한 시선",
     "brand": "신한(KCC)",
@@ -40065,7 +40065,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15122-4",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15122-4",
     "code": "15122-4",
     "name": "15122-4 화려한 시선",
     "brand": "신한(KCC)",
@@ -40079,7 +40079,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15122-5",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15122-5",
     "code": "15122-5",
     "name": "15122-5 화려한 시선",
     "brand": "신한(KCC)",
@@ -40093,7 +40093,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15122-6",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15122-6",
     "code": "15122-6",
     "name": "15122-6 화려한 시선",
     "brand": "신한(KCC)",
@@ -40107,7 +40107,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15123-1",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15123-1",
     "code": "15123-1",
     "name": "15123-1 부드러운 촉감",
     "brand": "신한(KCC)",
@@ -40121,7 +40121,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15123-2",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15123-2",
     "code": "15123-2",
     "name": "15123-2 부드러운 촉감",
     "brand": "신한(KCC)",
@@ -40135,7 +40135,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15123-3",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15123-3",
     "code": "15123-3",
     "name": "15123-3 부드러운 촉감",
     "brand": "신한(KCC)",
@@ -40149,7 +40149,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15123-4",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15123-4",
     "code": "15123-4",
     "name": "15123-4 부드러운 촉감",
     "brand": "신한(KCC)",
@@ -40163,7 +40163,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15123-5",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15123-5",
     "code": "15123-5",
     "name": "15123-5 부드러운 촉감",
     "brand": "신한(KCC)",
@@ -40177,7 +40177,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15123-6",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15123-6",
     "code": "15123-6",
     "name": "15123-6 부드러운 촉감",
     "brand": "신한(KCC)",
@@ -40191,7 +40191,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15124-1",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15124-1",
     "code": "15124-1",
     "name": "15124-1 색다른 느낌",
     "brand": "신한(KCC)",
@@ -40205,7 +40205,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15124-2",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15124-2",
     "code": "15124-2",
     "name": "15124-2 색다른 느낌",
     "brand": "신한(KCC)",
@@ -40219,7 +40219,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15124-3",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15124-3",
     "code": "15124-3",
     "name": "15124-3 색다른 느낌",
     "brand": "신한(KCC)",
@@ -40233,7 +40233,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15124-4",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15124-4",
     "code": "15124-4",
     "name": "15124-4 색다른 느낌",
     "brand": "신한(KCC)",
@@ -40247,7 +40247,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15124-5",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15124-5",
     "code": "15124-5",
     "name": "15124-5 색다른 느낌",
     "brand": "신한(KCC)",
@@ -40261,7 +40261,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15125-1",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15125-1",
     "code": "15125-1",
     "name": "15125-1 러프 쉐이드",
     "brand": "신한(KCC)",
@@ -40275,7 +40275,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15125-2",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15125-2",
     "code": "15125-2",
     "name": "15125-2 러프 쉐이드",
     "brand": "신한(KCC)",
@@ -40289,7 +40289,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15125-3",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15125-3",
     "code": "15125-3",
     "name": "15125-3 러프 쉐이드",
     "brand": "신한(KCC)",
@@ -40303,7 +40303,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15125-4",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15125-4",
     "code": "15125-4",
     "name": "15125-4 러프 쉐이드",
     "brand": "신한(KCC)",
@@ -40317,7 +40317,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15126-1",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15126-1",
     "code": "15126-1",
     "name": "15126-1 딥스톤",
     "brand": "신한(KCC)",
@@ -40331,7 +40331,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15126-2",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15126-2",
     "code": "15126-2",
     "name": "15126-2 딥스톤",
     "brand": "신한(KCC)",
@@ -40345,7 +40345,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15126-3",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15126-3",
     "code": "15126-3",
     "name": "15126-3 딥스톤",
     "brand": "신한(KCC)",
@@ -40359,7 +40359,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15126-4",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15126-4",
     "code": "15126-4",
     "name": "15126-4 딥스톤",
     "brand": "신한(KCC)",
@@ -40373,7 +40373,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15126-5",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15126-5",
     "code": "15126-5",
     "name": "15126-5 딥스톤",
     "brand": "신한(KCC)",
@@ -40387,7 +40387,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15126-6",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15126-6",
     "code": "15126-6",
     "name": "15126-6 딥스톤",
     "brand": "신한(KCC)",
@@ -40401,7 +40401,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15126-7",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15126-7",
     "code": "15126-7",
     "name": "15126-7 딥스톤",
     "brand": "신한(KCC)",
@@ -40415,7 +40415,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15127-1",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15127-1",
     "code": "15127-1",
     "name": "15127-1 컬러블룸",
     "brand": "신한(KCC)",
@@ -40429,7 +40429,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15127-2",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15127-2",
     "code": "15127-2",
     "name": "15127-2 컬러블룸",
     "brand": "신한(KCC)",
@@ -40443,7 +40443,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15127-3",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15127-3",
     "code": "15127-3",
     "name": "15127-3 컬러블룸",
     "brand": "신한(KCC)",
@@ -40457,7 +40457,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15127-4",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15127-4",
     "code": "15127-4",
     "name": "15127-4 컬러블룸",
     "brand": "신한(KCC)",
@@ -40471,7 +40471,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15127-5",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15127-5",
     "code": "15127-5",
     "name": "15127-5 컬러블룸",
     "brand": "신한(KCC)",
@@ -40485,7 +40485,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15127-6",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15127-6",
     "code": "15127-6",
     "name": "15127-6 컬러블룸",
     "brand": "신한(KCC)",
@@ -40499,7 +40499,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15127-7",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15127-7",
     "code": "15127-7",
     "name": "15127-7 컬러블룸",
     "brand": "신한(KCC)",
@@ -40513,7 +40513,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15128-1",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15128-1",
     "code": "15128-1",
     "name": "15128-1 페블스톤",
     "brand": "신한(KCC)",
@@ -40527,7 +40527,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15128-2",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15128-2",
     "code": "15128-2",
     "name": "15128-2 페블스톤",
     "brand": "신한(KCC)",
@@ -40541,7 +40541,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15128-3",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15128-3",
     "code": "15128-3",
     "name": "15128-3 페블스톤",
     "brand": "신한(KCC)",
@@ -40555,7 +40555,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15128-4",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15128-4",
     "code": "15128-4",
     "name": "15128-4 페블스톤",
     "brand": "신한(KCC)",
@@ -40569,7 +40569,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15128-5",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15128-5",
     "code": "15128-5",
     "name": "15128-5 페블스톤",
     "brand": "신한(KCC)",
@@ -40583,7 +40583,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15128-6",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15128-6",
     "code": "15128-6",
     "name": "15128-6 페블스톤",
     "brand": "신한(KCC)",
@@ -40597,7 +40597,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15128-7",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15128-7",
     "code": "15128-7",
     "name": "15128-7 페블스톤",
     "brand": "신한(KCC)",
@@ -40611,7 +40611,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15128-8",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15128-8",
     "code": "15128-8",
     "name": "15128-8 페블스톤",
     "brand": "신한(KCC)",
@@ -40625,7 +40625,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15129-1",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15129-1",
     "code": "15129-1",
     "name": "15129-1 도톰한 코튼",
     "brand": "신한(KCC)",
@@ -40639,7 +40639,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15129-2",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15129-2",
     "code": "15129-2",
     "name": "15129-2 도톰한 코튼",
     "brand": "신한(KCC)",
@@ -40653,7 +40653,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15129-3",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15129-3",
     "code": "15129-3",
     "name": "15129-3 도톰한 코튼",
     "brand": "신한(KCC)",
@@ -40667,7 +40667,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15129-4",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15129-4",
     "code": "15129-4",
     "name": "15129-4 도톰한 코튼",
     "brand": "신한(KCC)",
@@ -40681,7 +40681,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15129-5",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15129-5",
     "code": "15129-5",
     "name": "15129-5 도톰한 코튼",
     "brand": "신한(KCC)",
@@ -40695,7 +40695,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15129-6",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15129-6",
     "code": "15129-6",
     "name": "15129-6 도톰한 코튼",
     "brand": "신한(KCC)",
@@ -40709,7 +40709,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15130-1",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15130-1",
     "code": "15130-1",
     "name": "15130-1 매트 피니시",
     "brand": "신한(KCC)",
@@ -40723,7 +40723,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15130-2",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15130-2",
     "code": "15130-2",
     "name": "15130-2 매트 피니시",
     "brand": "신한(KCC)",
@@ -40737,7 +40737,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15130-3",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15130-3",
     "code": "15130-3",
     "name": "15130-3 매트 피니시",
     "brand": "신한(KCC)",
@@ -40751,7 +40751,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15130-4",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15130-4",
     "code": "15130-4",
     "name": "15130-4 매트 피니시",
     "brand": "신한(KCC)",
@@ -40765,7 +40765,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15130-5",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15130-5",
     "code": "15130-5",
     "name": "15130-5 매트 피니시",
     "brand": "신한(KCC)",
@@ -40779,7 +40779,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15130-6",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15130-6",
     "code": "15130-6",
     "name": "15130-6 매트 피니시",
     "brand": "신한(KCC)",
@@ -40793,7 +40793,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15130-7",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15130-7",
     "code": "15130-7",
     "name": "15130-7 매트 피니시",
     "brand": "신한(KCC)",
@@ -40807,7 +40807,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15130-8",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15130-8",
     "code": "15130-8",
     "name": "15130-8 매트 피니시",
     "brand": "신한(KCC)",
@@ -40821,7 +40821,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15131-1",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15131-1",
     "code": "15131-1",
     "name": "15131-1 섬세한 직물",
     "brand": "신한(KCC)",
@@ -40835,7 +40835,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15131-2",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15131-2",
     "code": "15131-2",
     "name": "15131-2 섬세한 직물",
     "brand": "신한(KCC)",
@@ -40849,7 +40849,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15131-3",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15131-3",
     "code": "15131-3",
     "name": "15131-3 섬세한 직물",
     "brand": "신한(KCC)",
@@ -40863,7 +40863,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15131-4",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15131-4",
     "code": "15131-4",
     "name": "15131-4 섬세한 직물",
     "brand": "신한(KCC)",
@@ -40877,7 +40877,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15131-5",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15131-5",
     "code": "15131-5",
     "name": "15131-5 섬세한 직물",
     "brand": "신한(KCC)",
@@ -40891,7 +40891,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15131-6",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15131-6",
     "code": "15131-6",
     "name": "15131-6 섬세한 직물",
     "brand": "신한(KCC)",
@@ -40905,7 +40905,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15131-7",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15131-7",
     "code": "15131-7",
     "name": "15131-7 섬세한 직물",
     "brand": "신한(KCC)",
@@ -40919,7 +40919,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15131-8",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15131-8",
     "code": "15131-8",
     "name": "15131-8 섬세한 직물",
     "brand": "신한(KCC)",
@@ -40933,7 +40933,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15132-1",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15132-1",
     "code": "15132-1",
     "name": "15132-1 크랙스톤",
     "brand": "신한(KCC)",
@@ -40947,7 +40947,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15132-2",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15132-2",
     "code": "15132-2",
     "name": "15132-2 크랙스톤",
     "brand": "신한(KCC)",
@@ -40961,7 +40961,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15132-3",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15132-3",
     "code": "15132-3",
     "name": "15132-3 크랙스톤",
     "brand": "신한(KCC)",
@@ -40975,7 +40975,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15132-4",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15132-4",
     "code": "15132-4",
     "name": "15132-4 크랙스톤",
     "brand": "신한(KCC)",
@@ -40989,7 +40989,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15132-5",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15132-5",
     "code": "15132-5",
     "name": "15132-5 크랙스톤",
     "brand": "신한(KCC)",
@@ -41003,7 +41003,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-15132-6",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_15132-6",
     "code": "15132-6",
     "name": "15132-6 크랙스톤",
     "brand": "신한(KCC)",
@@ -41017,7 +41017,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-C9643-20",
+    "id": "신한-실크_신한벽지_스케치(SKETCH)_C9643-20",
     "code": "C9643-20",
     "name": "C9643-20 스타",
     "brand": "신한(KCC)",
@@ -41031,7 +41031,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2201-1",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2201-1",
     "code": "W2201-1",
     "name": "W2201-1 하드릭",
     "brand": "신한(KCC)",
@@ -41045,7 +41045,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2201-2",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2201-2",
     "code": "W2201-2",
     "name": "W2201-2 하드릭",
     "brand": "신한(KCC)",
@@ -41059,7 +41059,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2201-3",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2201-3",
     "code": "W2201-3",
     "name": "W2201-3 하드릭",
     "brand": "신한(KCC)",
@@ -41073,7 +41073,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2201-4",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2201-4",
     "code": "W2201-4",
     "name": "W2201-4 하드릭",
     "brand": "신한(KCC)",
@@ -41087,7 +41087,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2201-5",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2201-5",
     "code": "W2201-5",
     "name": "W2201-5 하드릭",
     "brand": "신한(KCC)",
@@ -41101,7 +41101,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2202-1",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2202-1",
     "code": "W2202-1",
     "name": "W2202-1 믹스톤",
     "brand": "신한(KCC)",
@@ -41115,7 +41115,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2202-10",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2202-10",
     "code": "W2202-10",
     "name": "W2202-10 믹스톤",
     "brand": "신한(KCC)",
@@ -41129,7 +41129,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2202-11",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2202-11",
     "code": "W2202-11",
     "name": "W2202-11 믹스톤",
     "brand": "신한(KCC)",
@@ -41143,7 +41143,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2202-2",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2202-2",
     "code": "W2202-2",
     "name": "W2202-2 믹스톤",
     "brand": "신한(KCC)",
@@ -41157,7 +41157,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2202-3",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2202-3",
     "code": "W2202-3",
     "name": "W2202-3 믹스톤",
     "brand": "신한(KCC)",
@@ -41171,7 +41171,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2202-4",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2202-4",
     "code": "W2202-4",
     "name": "W2202-4 믹스톤",
     "brand": "신한(KCC)",
@@ -41185,7 +41185,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2202-5",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2202-5",
     "code": "W2202-5",
     "name": "W2202-5 믹스톤",
     "brand": "신한(KCC)",
@@ -41199,7 +41199,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2202-6",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2202-6",
     "code": "W2202-6",
     "name": "W2202-6 믹스톤",
     "brand": "신한(KCC)",
@@ -41213,7 +41213,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2202-7",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2202-7",
     "code": "W2202-7",
     "name": "W2202-7 믹스톤",
     "brand": "신한(KCC)",
@@ -41227,7 +41227,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2202-8",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2202-8",
     "code": "W2202-8",
     "name": "W2202-8 믹스톤",
     "brand": "신한(KCC)",
@@ -41241,7 +41241,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2202-9",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2202-9",
     "code": "W2202-9",
     "name": "W2202-9 믹스톤",
     "brand": "신한(KCC)",
@@ -41255,7 +41255,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2203-1",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2203-1",
     "code": "W2203-1",
     "name": "W2203-1 러프트",
     "brand": "신한(KCC)",
@@ -41269,7 +41269,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2203-2",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2203-2",
     "code": "W2203-2",
     "name": "W2203-2 러프트",
     "brand": "신한(KCC)",
@@ -41283,7 +41283,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2203-3",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2203-3",
     "code": "W2203-3",
     "name": "W2203-3 러프트",
     "brand": "신한(KCC)",
@@ -41297,7 +41297,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2203-4",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2203-4",
     "code": "W2203-4",
     "name": "W2203-4 러프트",
     "brand": "신한(KCC)",
@@ -41311,7 +41311,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2204-1",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2204-1",
     "code": "W2204-1",
     "name": "W2204-1 콘크무드",
     "brand": "신한(KCC)",
@@ -41325,7 +41325,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2204-2",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2204-2",
     "code": "W2204-2",
     "name": "W2204-2 콘크무드",
     "brand": "신한(KCC)",
@@ -41339,7 +41339,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2204-3",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2204-3",
     "code": "W2204-3",
     "name": "W2204-3 콘크무드",
     "brand": "신한(KCC)",
@@ -41353,7 +41353,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2204-4",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2204-4",
     "code": "W2204-4",
     "name": "W2204-4 콘크무드",
     "brand": "신한(KCC)",
@@ -41367,7 +41367,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2205-1",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2205-1",
     "code": "W2205-1",
     "name": "W2205-1 소프톤",
     "brand": "신한(KCC)",
@@ -41381,7 +41381,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2205-2",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2205-2",
     "code": "W2205-2",
     "name": "W2205-2 소프톤",
     "brand": "신한(KCC)",
@@ -41395,7 +41395,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2205-3",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2205-3",
     "code": "W2205-3",
     "name": "W2205-3 소프톤",
     "brand": "신한(KCC)",
@@ -41409,7 +41409,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2205-4",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2205-4",
     "code": "W2205-4",
     "name": "W2205-4 소프톤",
     "brand": "신한(KCC)",
@@ -41423,7 +41423,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2205-5",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2205-5",
     "code": "W2205-5",
     "name": "W2205-5 소프톤",
     "brand": "신한(KCC)",
@@ -41437,7 +41437,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2206-1",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2206-1",
     "code": "W2206-1",
     "name": "W2206-1 엔티크월",
     "brand": "신한(KCC)",
@@ -41451,7 +41451,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2206-2",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2206-2",
     "code": "W2206-2",
     "name": "W2206-2 엔티크월",
     "brand": "신한(KCC)",
@@ -41465,7 +41465,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2207-1",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2207-1",
     "code": "W2207-1",
     "name": "W2207-1 매트슬랩",
     "brand": "신한(KCC)",
@@ -41479,7 +41479,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2207-2",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2207-2",
     "code": "W2207-2",
     "name": "W2207-2 매트슬랩",
     "brand": "신한(KCC)",
@@ -41493,7 +41493,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2207-3",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2207-3",
     "code": "W2207-3",
     "name": "W2207-3 매트슬랩",
     "brand": "신한(KCC)",
@@ -41507,7 +41507,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2207-4",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2207-4",
     "code": "W2207-4",
     "name": "W2207-4 매트슬랩",
     "brand": "신한(KCC)",
@@ -41521,7 +41521,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2208-1",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2208-1",
     "code": "W2208-1",
     "name": "W2208-1 샌디멘트",
     "brand": "신한(KCC)",
@@ -41535,7 +41535,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2208-2",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2208-2",
     "code": "W2208-2",
     "name": "W2208-2 샌디멘트",
     "brand": "신한(KCC)",
@@ -41549,7 +41549,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2208-3",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2208-3",
     "code": "W2208-3",
     "name": "W2208-3 샌디멘트",
     "brand": "신한(KCC)",
@@ -41563,7 +41563,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2208-4",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2208-4",
     "code": "W2208-4",
     "name": "W2208-4 샌디멘트",
     "brand": "신한(KCC)",
@@ -41577,7 +41577,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2208-5",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2208-5",
     "code": "W2208-5",
     "name": "W2208-5 샌디멘트",
     "brand": "신한(KCC)",
@@ -41591,7 +41591,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2208-6",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2208-6",
     "code": "W2208-6",
     "name": "W2208-6 샌디멘트",
     "brand": "신한(KCC)",
@@ -41605,7 +41605,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2208-7",
+    "id": "신한-실크_신한벽지_월가드(WALLGUARD)_W2208-7",
     "code": "W2208-7",
     "name": "W2208-7 샌디멘트",
     "brand": "신한(KCC)",
@@ -41619,7 +41619,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2001-1",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2001-1",
     "code": "2001-1",
     "name": "2001-1 로시니",
     "brand": "신한(KCC)",
@@ -41633,7 +41633,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2001-2",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2001-2",
     "code": "2001-2",
     "name": "2001-2 로시니",
     "brand": "신한(KCC)",
@@ -41647,7 +41647,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2002-1",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2002-1",
     "code": "2002-1",
     "name": "2002-1 피사로",
     "brand": "신한(KCC)",
@@ -41661,7 +41661,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2002-2",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2002-2",
     "code": "2002-2",
     "name": "2002-2 피사로",
     "brand": "신한(KCC)",
@@ -41675,7 +41675,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2002-3",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2002-3",
     "code": "2002-3",
     "name": "2002-3 피사로",
     "brand": "신한(KCC)",
@@ -41689,7 +41689,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2003-1",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2003-1",
     "code": "2003-1",
     "name": "2003-1 트래버틴",
     "brand": "신한(KCC)",
@@ -41703,7 +41703,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2003-2",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2003-2",
     "code": "2003-2",
     "name": "2003-2 트래버틴",
     "brand": "신한(KCC)",
@@ -41717,7 +41717,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2004-1",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2004-1",
     "code": "2004-1",
     "name": "2004-1 클로드",
     "brand": "신한(KCC)",
@@ -41731,7 +41731,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2004-2",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2004-2",
     "code": "2004-2",
     "name": "2004-2 클로드",
     "brand": "신한(KCC)",
@@ -41745,7 +41745,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2004-3",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2004-3",
     "code": "2004-3",
     "name": "2004-3 클로드",
     "brand": "신한(KCC)",
@@ -41759,7 +41759,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2004-4",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2004-4",
     "code": "2004-4",
     "name": "2004-4 클로드",
     "brand": "신한(KCC)",
@@ -41773,7 +41773,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2005-1",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2005-1",
     "code": "2005-1",
     "name": "2005-1 샤르댕",
     "brand": "신한(KCC)",
@@ -41787,7 +41787,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2005-2",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2005-2",
     "code": "2005-2",
     "name": "2005-2 샤르댕",
     "brand": "신한(KCC)",
@@ -41801,7 +41801,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2006-1",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2006-1",
     "code": "2006-1",
     "name": "2006-1 카를",
     "brand": "신한(KCC)",
@@ -41815,7 +41815,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2006-2",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2006-2",
     "code": "2006-2",
     "name": "2006-2 카를",
     "brand": "신한(KCC)",
@@ -41829,7 +41829,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2006-3",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2006-3",
     "code": "2006-3",
     "name": "2006-3 카를",
     "brand": "신한(KCC)",
@@ -41843,7 +41843,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2006-4",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2006-4",
     "code": "2006-4",
     "name": "2006-4 카를",
     "brand": "신한(KCC)",
@@ -41857,7 +41857,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2007-1",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2007-1",
     "code": "2007-1",
     "name": "2007-1 고야",
     "brand": "신한(KCC)",
@@ -41871,7 +41871,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2007-2",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2007-2",
     "code": "2007-2",
     "name": "2007-2 고야",
     "brand": "신한(KCC)",
@@ -41885,7 +41885,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2007-3",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2007-3",
     "code": "2007-3",
     "name": "2007-3 고야",
     "brand": "신한(KCC)",
@@ -41899,7 +41899,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2007-4",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2007-4",
     "code": "2007-4",
     "name": "2007-4 고야",
     "brand": "신한(KCC)",
@@ -41913,7 +41913,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2008-1",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2008-1",
     "code": "2008-1",
     "name": "2008-1 루벤스",
     "brand": "신한(KCC)",
@@ -41927,7 +41927,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2008-2",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2008-2",
     "code": "2008-2",
     "name": "2008-2 루벤스",
     "brand": "신한(KCC)",
@@ -41941,7 +41941,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2008-3",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2008-3",
     "code": "2008-3",
     "name": "2008-3 루벤스",
     "brand": "신한(KCC)",
@@ -41955,7 +41955,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2008-4",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2008-4",
     "code": "2008-4",
     "name": "2008-4 루벤스",
     "brand": "신한(KCC)",
@@ -41969,7 +41969,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2009-1",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2009-1",
     "code": "2009-1",
     "name": "2009-1 카미유",
     "brand": "신한(KCC)",
@@ -41983,7 +41983,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2010-1",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2010-1",
     "code": "2010-1",
     "name": "2010-1 프란츠",
     "brand": "신한(KCC)",
@@ -41997,7 +41997,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2010-2",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2010-2",
     "code": "2010-2",
     "name": "2010-2 프란츠",
     "brand": "신한(KCC)",
@@ -42011,7 +42011,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2010-3",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2010-3",
     "code": "2010-3",
     "name": "2010-3 프란츠",
     "brand": "신한(KCC)",
@@ -42025,7 +42025,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2011-1",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2011-1",
     "code": "2011-1",
     "name": "2011-1 에드가",
     "brand": "신한(KCC)",
@@ -42039,7 +42039,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2011-2",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2011-2",
     "code": "2011-2",
     "name": "2011-2 에드가",
     "brand": "신한(KCC)",
@@ -42053,7 +42053,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2011-3",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2011-3",
     "code": "2011-3",
     "name": "2011-3 에드가",
     "brand": "신한(KCC)",
@@ -42067,7 +42067,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2011-4",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2011-4",
     "code": "2011-4",
     "name": "2011-4 에드가",
     "brand": "신한(KCC)",
@@ -42081,7 +42081,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2012-1",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2012-1",
     "code": "2012-1",
     "name": "2012-1 바그너",
     "brand": "신한(KCC)",
@@ -42095,7 +42095,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2012-2",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2012-2",
     "code": "2012-2",
     "name": "2012-2 바그너",
     "brand": "신한(KCC)",
@@ -42109,7 +42109,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2012-3",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2012-3",
     "code": "2012-3",
     "name": "2012-3 바그너",
     "brand": "신한(KCC)",
@@ -42123,7 +42123,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2012-4",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2012-4",
     "code": "2012-4",
     "name": "2012-4 바그너",
     "brand": "신한(KCC)",
@@ -42137,7 +42137,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2012-5",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2012-5",
     "code": "2012-5",
     "name": "2012-5 바그너",
     "brand": "신한(KCC)",
@@ -42151,7 +42151,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2013-1",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2013-1",
     "code": "2013-1",
     "name": "2013-1 베르메르",
     "brand": "신한(KCC)",
@@ -42165,7 +42165,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2013-2",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2013-2",
     "code": "2013-2",
     "name": "2013-2 베르메르",
     "brand": "신한(KCC)",
@@ -42179,7 +42179,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2014-1",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2014-1",
     "code": "2014-1",
     "name": "2014-1 테라코타",
     "brand": "신한(KCC)",
@@ -42193,7 +42193,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2014-2",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2014-2",
     "code": "2014-2",
     "name": "2014-2 테라코타",
     "brand": "신한(KCC)",
@@ -42207,7 +42207,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2014-3",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2014-3",
     "code": "2014-3",
     "name": "2014-3 테라코타",
     "brand": "신한(KCC)",
@@ -42221,7 +42221,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2015-1",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2015-1",
     "code": "2015-1",
     "name": "2015-1 아그네스",
     "brand": "신한(KCC)",
@@ -42235,7 +42235,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2015-2",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2015-2",
     "code": "2015-2",
     "name": "2015-2 아그네스",
     "brand": "신한(KCC)",
@@ -42249,7 +42249,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2015-3",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2015-3",
     "code": "2015-3",
     "name": "2015-3 아그네스",
     "brand": "신한(KCC)",
@@ -42263,7 +42263,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2015-4",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2015-4",
     "code": "2015-4",
     "name": "2015-4 아그네스",
     "brand": "신한(KCC)",
@@ -42277,7 +42277,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2016-1",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2016-1",
     "code": "2016-1",
     "name": "2016-1 다빈치",
     "brand": "신한(KCC)",
@@ -42291,7 +42291,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2016-2",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2016-2",
     "code": "2016-2",
     "name": "2016-2 다빈치",
     "brand": "신한(KCC)",
@@ -42305,7 +42305,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2016-3",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2016-3",
     "code": "2016-3",
     "name": "2016-3 다빈치",
     "brand": "신한(KCC)",
@@ -42319,7 +42319,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2016-4",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2016-4",
     "code": "2016-4",
     "name": "2016-4 다빈치",
     "brand": "신한(KCC)",
@@ -42333,7 +42333,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2017-1",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2017-1",
     "code": "2017-1",
     "name": "2017-1 라파엘로",
     "brand": "신한(KCC)",
@@ -42347,7 +42347,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2017-2",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2017-2",
     "code": "2017-2",
     "name": "2017-2 라파엘로",
     "brand": "신한(KCC)",
@@ -42361,7 +42361,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2017-3",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2017-3",
     "code": "2017-3",
     "name": "2017-3 라파엘로",
     "brand": "신한(KCC)",
@@ -42375,7 +42375,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2018-1",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2018-1",
     "code": "2018-1",
     "name": "2018-1 샤갈",
     "brand": "신한(KCC)",
@@ -42389,7 +42389,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2018-2",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2018-2",
     "code": "2018-2",
     "name": "2018-2 샤갈",
     "brand": "신한(KCC)",
@@ -42403,7 +42403,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2018-3",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2018-3",
     "code": "2018-3",
     "name": "2018-3 샤갈",
     "brand": "신한(KCC)",
@@ -42417,7 +42417,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2018-4",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2018-4",
     "code": "2018-4",
     "name": "2018-4 샤갈",
     "brand": "신한(KCC)",
@@ -42431,7 +42431,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2018-5",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2018-5",
     "code": "2018-5",
     "name": "2018-5 샤갈",
     "brand": "신한(KCC)",
@@ -42445,7 +42445,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2019-1",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2019-1",
     "code": "2019-1",
     "name": "2019-1 티치아노",
     "brand": "신한(KCC)",
@@ -42459,7 +42459,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2019-2",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2019-2",
     "code": "2019-2",
     "name": "2019-2 티치아노",
     "brand": "신한(KCC)",
@@ -42473,7 +42473,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2019-3",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2019-3",
     "code": "2019-3",
     "name": "2019-3 티치아노",
     "brand": "신한(KCC)",
@@ -42487,7 +42487,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2019-4",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2019-4",
     "code": "2019-4",
     "name": "2019-4 티치아노",
     "brand": "신한(KCC)",
@@ -42501,7 +42501,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2020-1",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2020-1",
     "code": "2020-1",
     "name": "2020-1 마티스",
     "brand": "신한(KCC)",
@@ -42515,7 +42515,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2020-2",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2020-2",
     "code": "2020-2",
     "name": "2020-2 마티스",
     "brand": "신한(KCC)",
@@ -42529,7 +42529,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2020-3",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2020-3",
     "code": "2020-3",
     "name": "2020-3 마티스",
     "brand": "신한(KCC)",
@@ -42543,7 +42543,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2020-4",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2020-4",
     "code": "2020-4",
     "name": "2020-4 마티스",
     "brand": "신한(KCC)",
@@ -42557,7 +42557,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-2020-5",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_2020-5",
     "code": "2020-5",
     "name": "2020-5 마티스",
     "brand": "신한(KCC)",
@@ -42571,7 +42571,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2201-1",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_W2201-1",
     "code": "W2201-1",
     "name": "W2201-1 하드릭",
     "brand": "신한(KCC)",
@@ -42585,7 +42585,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2201-2",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_W2201-2",
     "code": "W2201-2",
     "name": "W2201-2 하드릭",
     "brand": "신한(KCC)",
@@ -42599,7 +42599,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2201-3",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_W2201-3",
     "code": "W2201-3",
     "name": "W2201-3 하드릭",
     "brand": "신한(KCC)",
@@ -42613,7 +42613,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2201-4",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_W2201-4",
     "code": "W2201-4",
     "name": "W2201-4 하드릭",
     "brand": "신한(KCC)",
@@ -42627,7 +42627,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2202-1",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_W2202-1",
     "code": "W2202-1",
     "name": "W2202-1 믹스톤",
     "brand": "신한(KCC)",
@@ -42641,7 +42641,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2202-2",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_W2202-2",
     "code": "W2202-2",
     "name": "W2202-2 믹스톤",
     "brand": "신한(KCC)",
@@ -42655,7 +42655,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2202-3",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_W2202-3",
     "code": "W2202-3",
     "name": "W2202-3 믹스톤",
     "brand": "신한(KCC)",
@@ -42669,7 +42669,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2202-4",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_W2202-4",
     "code": "W2202-4",
     "name": "W2202-4 믹스톤",
     "brand": "신한(KCC)",
@@ -42683,7 +42683,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2202-5",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_W2202-5",
     "code": "W2202-5",
     "name": "W2202-5 믹스톤",
     "brand": "신한(KCC)",
@@ -42697,7 +42697,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2203-1",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_W2203-1",
     "code": "W2203-1",
     "name": "W2203-1 러프트",
     "brand": "신한(KCC)",
@@ -42711,7 +42711,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2203-2",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_W2203-2",
     "code": "W2203-2",
     "name": "W2203-2 러프트",
     "brand": "신한(KCC)",
@@ -42725,7 +42725,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2203-3",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_W2203-3",
     "code": "W2203-3",
     "name": "W2203-3 러프트",
     "brand": "신한(KCC)",
@@ -42739,7 +42739,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-W2203-4",
+    "id": "신한-실크_신한벽지_파사드(FACADE)_W2203-4",
     "code": "W2203-4",
     "name": "W2203-4 러프트",
     "brand": "신한(KCC)",
@@ -42753,7 +42753,7 @@ export const materials = [
     "materialType": "실크"
   },
   {
-    "id": "신한-6875-1",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6875-1",
     "code": "6875-1",
     "name": "6875-1 슬릿",
     "brand": "신한(KCC)",
@@ -42767,7 +42767,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6875-2",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6875-2",
     "code": "6875-2",
     "name": "6875-2 슬릿",
     "brand": "신한(KCC)",
@@ -42781,7 +42781,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6876-1",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6876-1",
     "code": "6876-1",
     "name": "6876-1 큐티파이",
     "brand": "신한(KCC)",
@@ -42795,7 +42795,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6877-1",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6877-1",
     "code": "6877-1",
     "name": "6877-1 르끌레",
     "brand": "신한(KCC)",
@@ -42809,7 +42809,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6878-1",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6878-1",
     "code": "6878-1",
     "name": "6878-1 시티빌",
     "brand": "신한(KCC)",
@@ -42823,7 +42823,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6879-1",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6879-1",
     "code": "6879-1",
     "name": "6879-1 동양화",
     "brand": "신한(KCC)",
@@ -42837,7 +42837,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6880-1",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6880-1",
     "code": "6880-1",
     "name": "6880-1 텍톤",
     "brand": "신한(KCC)",
@@ -42851,7 +42851,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6880-2",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6880-2",
     "code": "6880-2",
     "name": "6880-2 텍톤",
     "brand": "신한(KCC)",
@@ -42865,7 +42865,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6880-3",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6880-3",
     "code": "6880-3",
     "name": "6880-3 텍톤",
     "brand": "신한(KCC)",
@@ -42879,7 +42879,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6881-1",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6881-1",
     "code": "6881-1",
     "name": "6881-1 미스틱",
     "brand": "신한(KCC)",
@@ -42893,7 +42893,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6882-1",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6882-1",
     "code": "6882-1",
     "name": "6882-1 크래터",
     "brand": "신한(KCC)",
@@ -42907,7 +42907,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6882-2",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6882-2",
     "code": "6882-2",
     "name": "6882-2 크래터",
     "brand": "신한(KCC)",
@@ -42921,7 +42921,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6882-3",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6882-3",
     "code": "6882-3",
     "name": "6882-3 크래터",
     "brand": "신한(KCC)",
@@ -42935,7 +42935,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6883-1",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6883-1",
     "code": "6883-1",
     "name": "6883-1 심스톤",
     "brand": "신한(KCC)",
@@ -42949,7 +42949,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6883-2",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6883-2",
     "code": "6883-2",
     "name": "6883-2 심스톤",
     "brand": "신한(KCC)",
@@ -42963,7 +42963,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6884-1",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6884-1",
     "code": "6884-1",
     "name": "6884-1 라플",
     "brand": "신한(KCC)",
@@ -42977,7 +42977,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6884-2",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6884-2",
     "code": "6884-2",
     "name": "6884-2 라플",
     "brand": "신한(KCC)",
@@ -42991,7 +42991,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6884-3",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6884-3",
     "code": "6884-3",
     "name": "6884-3 라플",
     "brand": "신한(KCC)",
@@ -43005,7 +43005,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6884-4",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6884-4",
     "code": "6884-4",
     "name": "6884-4 라플",
     "brand": "신한(KCC)",
@@ -43019,7 +43019,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6884-5",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6884-5",
     "code": "6884-5",
     "name": "6884-5 라플",
     "brand": "신한(KCC)",
@@ -43033,7 +43033,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6885-1",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6885-1",
     "code": "6885-1",
     "name": "6885-1 네슬",
     "brand": "신한(KCC)",
@@ -43047,7 +43047,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6885-2",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6885-2",
     "code": "6885-2",
     "name": "6885-2 네슬",
     "brand": "신한(KCC)",
@@ -43061,7 +43061,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6885-3",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6885-3",
     "code": "6885-3",
     "name": "6885-3 네슬",
     "brand": "신한(KCC)",
@@ -43075,7 +43075,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6885-4",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6885-4",
     "code": "6885-4",
     "name": "6885-4 네슬",
     "brand": "신한(KCC)",
@@ -43089,7 +43089,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6885-5",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6885-5",
     "code": "6885-5",
     "name": "6885-5 네슬",
     "brand": "신한(KCC)",
@@ -43103,7 +43103,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6886-1",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6886-1",
     "code": "6886-1",
     "name": "6886-1 체이프",
     "brand": "신한(KCC)",
@@ -43117,7 +43117,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6886-2",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6886-2",
     "code": "6886-2",
     "name": "6886-2 체이프",
     "brand": "신한(KCC)",
@@ -43131,7 +43131,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6886-3",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6886-3",
     "code": "6886-3",
     "name": "6886-3 체이프",
     "brand": "신한(KCC)",
@@ -43145,7 +43145,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6886-4",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6886-4",
     "code": "6886-4",
     "name": "6886-4 체이프",
     "brand": "신한(KCC)",
@@ -43159,7 +43159,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6887-1",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6887-1",
     "code": "6887-1",
     "name": "6887-1 스너그",
     "brand": "신한(KCC)",
@@ -43173,7 +43173,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6887-10",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6887-10",
     "code": "6887-10",
     "name": "6887-10 스너그",
     "brand": "신한(KCC)",
@@ -43187,7 +43187,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6887-2",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6887-2",
     "code": "6887-2",
     "name": "6887-2 스너그",
     "brand": "신한(KCC)",
@@ -43201,7 +43201,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6887-3",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6887-3",
     "code": "6887-3",
     "name": "6887-3 스너그",
     "brand": "신한(KCC)",
@@ -43215,7 +43215,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6887-4",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6887-4",
     "code": "6887-4",
     "name": "6887-4 스너그",
     "brand": "신한(KCC)",
@@ -43229,7 +43229,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6887-5",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6887-5",
     "code": "6887-5",
     "name": "6887-5 스너그",
     "brand": "신한(KCC)",
@@ -43243,7 +43243,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6887-6",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6887-6",
     "code": "6887-6",
     "name": "6887-6 스너그",
     "brand": "신한(KCC)",
@@ -43257,7 +43257,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6887-7",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6887-7",
     "code": "6887-7",
     "name": "6887-7 스너그",
     "brand": "신한(KCC)",
@@ -43271,7 +43271,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6887-8",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6887-8",
     "code": "6887-8",
     "name": "6887-8 스너그",
     "brand": "신한(KCC)",
@@ -43285,7 +43285,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6887-9",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6887-9",
     "code": "6887-9",
     "name": "6887-9 스너그",
     "brand": "신한(KCC)",
@@ -43299,7 +43299,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6888-1",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6888-1",
     "code": "6888-1",
     "name": "6888-1 펌블",
     "brand": "신한(KCC)",
@@ -43313,7 +43313,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6888-2",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6888-2",
     "code": "6888-2",
     "name": "6888-2 펌블",
     "brand": "신한(KCC)",
@@ -43327,7 +43327,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6888-3",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6888-3",
     "code": "6888-3",
     "name": "6888-3 펌블",
     "brand": "신한(KCC)",
@@ -43341,7 +43341,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6888-4",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6888-4",
     "code": "6888-4",
     "name": "6888-4 펌블",
     "brand": "신한(KCC)",
@@ -43355,7 +43355,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6888-5",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6888-5",
     "code": "6888-5",
     "name": "6888-5 펌블",
     "brand": "신한(KCC)",
@@ -43369,7 +43369,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6888-6",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6888-6",
     "code": "6888-6",
     "name": "6888-6 펌블",
     "brand": "신한(KCC)",
@@ -43383,7 +43383,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6889-1",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6889-1",
     "code": "6889-1",
     "name": "6889-1 바티스",
     "brand": "신한(KCC)",
@@ -43397,7 +43397,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6889-2",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6889-2",
     "code": "6889-2",
     "name": "6889-2 바티스",
     "brand": "신한(KCC)",
@@ -43411,7 +43411,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6889-3",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6889-3",
     "code": "6889-3",
     "name": "6889-3 바티스",
     "brand": "신한(KCC)",
@@ -43425,7 +43425,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6889-4",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6889-4",
     "code": "6889-4",
     "name": "6889-4 바티스",
     "brand": "신한(KCC)",
@@ -43439,7 +43439,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6889-5",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6889-5",
     "code": "6889-5",
     "name": "6889-5 바티스",
     "brand": "신한(KCC)",
@@ -43453,7 +43453,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6889-6",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6889-6",
     "code": "6889-6",
     "name": "6889-6 바티스",
     "brand": "신한(KCC)",
@@ -43467,7 +43467,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6890-1",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6890-1",
     "code": "6890-1",
     "name": "6890-1 샤드",
     "brand": "신한(KCC)",
@@ -43481,7 +43481,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6890-2",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6890-2",
     "code": "6890-2",
     "name": "6890-2 샤드",
     "brand": "신한(KCC)",
@@ -43495,7 +43495,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6890-3",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6890-3",
     "code": "6890-3",
     "name": "6890-3 샤드",
     "brand": "신한(KCC)",
@@ -43509,7 +43509,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6890-4",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6890-4",
     "code": "6890-4",
     "name": "6890-4 샤드",
     "brand": "신한(KCC)",
@@ -43523,7 +43523,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6890-5",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6890-5",
     "code": "6890-5",
     "name": "6890-5 샤드",
     "brand": "신한(KCC)",
@@ -43537,7 +43537,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6890-6",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6890-6",
     "code": "6890-6",
     "name": "6890-6 샤드",
     "brand": "신한(KCC)",
@@ -43551,7 +43551,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6891-1",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6891-1",
     "code": "6891-1",
     "name": "6891-1 크리즈",
     "brand": "신한(KCC)",
@@ -43565,7 +43565,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6891-2",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6891-2",
     "code": "6891-2",
     "name": "6891-2 크리즈",
     "brand": "신한(KCC)",
@@ -43579,7 +43579,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6891-3",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6891-3",
     "code": "6891-3",
     "name": "6891-3 크리즈",
     "brand": "신한(KCC)",
@@ -43593,7 +43593,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6891-4",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6891-4",
     "code": "6891-4",
     "name": "6891-4 크리즈",
     "brand": "신한(KCC)",
@@ -43607,7 +43607,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6891-5",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6891-5",
     "code": "6891-5",
     "name": "6891-5 크리즈",
     "brand": "신한(KCC)",
@@ -43621,7 +43621,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6892-1",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6892-1",
     "code": "6892-1",
     "name": "6892-1 코르델",
     "brand": "신한(KCC)",
@@ -43635,7 +43635,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6892-2",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6892-2",
     "code": "6892-2",
     "name": "6892-2 코르델",
     "brand": "신한(KCC)",
@@ -43649,7 +43649,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6892-3",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6892-3",
     "code": "6892-3",
     "name": "6892-3 코르델",
     "brand": "신한(KCC)",
@@ -43663,7 +43663,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6892-4",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6892-4",
     "code": "6892-4",
     "name": "6892-4 코르델",
     "brand": "신한(KCC)",
@@ -43677,7 +43677,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6892-5",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6892-5",
     "code": "6892-5",
     "name": "6892-5 코르델",
     "brand": "신한(KCC)",
@@ -43691,7 +43691,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6892-6",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6892-6",
     "code": "6892-6",
     "name": "6892-6 코르델",
     "brand": "신한(KCC)",
@@ -43705,7 +43705,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-6892-7",
+    "id": "신한-합지_신한벽지_아이리스(IRIS)_6892-7",
     "code": "6892-7",
     "name": "6892-7 코르델",
     "brand": "신한(KCC)",
@@ -43719,7 +43719,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4244-1",
+    "id": "신한-합지_신한벽지_파인하임_4244-1",
     "code": "4244-1",
     "name": "4244-1 터치터치",
     "brand": "신한(KCC)",
@@ -43733,7 +43733,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4249-1",
+    "id": "신한-합지_신한벽지_파인하임_4249-1",
     "code": "4249-1",
     "name": "4249-1 우븐베이스",
     "brand": "신한(KCC)",
@@ -43747,7 +43747,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4278-1",
+    "id": "신한-합지_신한벽지_파인하임_4278-1",
     "code": "4278-1",
     "name": "4278-1 꼬모텍스",
     "brand": "신한(KCC)",
@@ -43761,7 +43761,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4295-1",
+    "id": "신한-합지_신한벽지_파인하임_4295-1",
     "code": "4295-1",
     "name": "4295-1 루비나",
     "brand": "신한(KCC)",
@@ -43775,7 +43775,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4298-1",
+    "id": "신한-합지_신한벽지_파인하임_4298-1",
     "code": "4298-1",
     "name": "4298-1 라미",
     "brand": "신한(KCC)",
@@ -43789,7 +43789,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4298-2",
+    "id": "신한-합지_신한벽지_파인하임_4298-2",
     "code": "4298-2",
     "name": "4298-2 라미",
     "brand": "신한(KCC)",
@@ -43803,7 +43803,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4298-4",
+    "id": "신한-합지_신한벽지_파인하임_4298-4",
     "code": "4298-4",
     "name": "4298-4 라미",
     "brand": "신한(KCC)",
@@ -43817,7 +43817,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4298-5",
+    "id": "신한-합지_신한벽지_파인하임_4298-5",
     "code": "4298-5",
     "name": "4298-5 라미",
     "brand": "신한(KCC)",
@@ -43831,7 +43831,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4299-1",
+    "id": "신한-합지_신한벽지_파인하임_4299-1",
     "code": "4299-1",
     "name": "4299-1 샌더슨",
     "brand": "신한(KCC)",
@@ -43845,7 +43845,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4299-2",
+    "id": "신한-합지_신한벽지_파인하임_4299-2",
     "code": "4299-2",
     "name": "4299-2 샌더슨",
     "brand": "신한(KCC)",
@@ -43859,7 +43859,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4303-1",
+    "id": "신한-합지_신한벽지_파인하임_4303-1",
     "code": "4303-1",
     "name": "4303-1 덩크",
     "brand": "신한(KCC)",
@@ -43873,7 +43873,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4305-1",
+    "id": "신한-합지_신한벽지_파인하임_4305-1",
     "code": "4305-1",
     "name": "4305-1 설리반",
     "brand": "신한(KCC)",
@@ -43887,7 +43887,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4305-2",
+    "id": "신한-합지_신한벽지_파인하임_4305-2",
     "code": "4305-2",
     "name": "4305-2 설리반",
     "brand": "신한(KCC)",
@@ -43901,7 +43901,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4305-3",
+    "id": "신한-합지_신한벽지_파인하임_4305-3",
     "code": "4305-3",
     "name": "4305-3 설리반",
     "brand": "신한(KCC)",
@@ -43915,7 +43915,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4306-2",
+    "id": "신한-합지_신한벽지_파인하임_4306-2",
     "code": "4306-2",
     "name": "4306-2 피리아",
     "brand": "신한(KCC)",
@@ -43929,7 +43929,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4309-2",
+    "id": "신한-합지_신한벽지_파인하임_4309-2",
     "code": "4309-2",
     "name": "4309-2 베르가",
     "brand": "신한(KCC)",
@@ -43943,7 +43943,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4310-1",
+    "id": "신한-합지_신한벽지_파인하임_4310-1",
     "code": "4310-1",
     "name": "4310-1 누트",
     "brand": "신한(KCC)",
@@ -43957,7 +43957,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4310-2",
+    "id": "신한-합지_신한벽지_파인하임_4310-2",
     "code": "4310-2",
     "name": "4310-2 누트",
     "brand": "신한(KCC)",
@@ -43971,7 +43971,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4314-1",
+    "id": "신한-합지_신한벽지_파인하임_4314-1",
     "code": "4314-1",
     "name": "4314-1 킹스",
     "brand": "신한(KCC)",
@@ -43985,7 +43985,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4314-2",
+    "id": "신한-합지_신한벽지_파인하임_4314-2",
     "code": "4314-2",
     "name": "4314-2 킹스",
     "brand": "신한(KCC)",
@@ -43999,7 +43999,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4315-1",
+    "id": "신한-합지_신한벽지_파인하임_4315-1",
     "code": "4315-1",
     "name": "4315-1 캠퍼",
     "brand": "신한(KCC)",
@@ -44013,7 +44013,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4315-2",
+    "id": "신한-합지_신한벽지_파인하임_4315-2",
     "code": "4315-2",
     "name": "4315-2 캠퍼",
     "brand": "신한(KCC)",
@@ -44027,7 +44027,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4315-3",
+    "id": "신한-합지_신한벽지_파인하임_4315-3",
     "code": "4315-3",
     "name": "4315-3 캠퍼",
     "brand": "신한(KCC)",
@@ -44041,7 +44041,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4316-1",
+    "id": "신한-합지_신한벽지_파인하임_4316-1",
     "code": "4316-1",
     "name": "4316-1 월스",
     "brand": "신한(KCC)",
@@ -44055,7 +44055,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4316-2",
+    "id": "신한-합지_신한벽지_파인하임_4316-2",
     "code": "4316-2",
     "name": "4316-2 월스",
     "brand": "신한(KCC)",
@@ -44069,7 +44069,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4316-3",
+    "id": "신한-합지_신한벽지_파인하임_4316-3",
     "code": "4316-3",
     "name": "4316-3 월스",
     "brand": "신한(KCC)",
@@ -44083,7 +44083,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4317-1",
+    "id": "신한-합지_신한벽지_파인하임_4317-1",
     "code": "4317-1",
     "name": "4317-1 이프",
     "brand": "신한(KCC)",
@@ -44097,7 +44097,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4317-2",
+    "id": "신한-합지_신한벽지_파인하임_4317-2",
     "code": "4317-2",
     "name": "4317-2 이프",
     "brand": "신한(KCC)",
@@ -44111,7 +44111,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4317-3",
+    "id": "신한-합지_신한벽지_파인하임_4317-3",
     "code": "4317-3",
     "name": "4317-3 이프",
     "brand": "신한(KCC)",
@@ -44125,7 +44125,7 @@ export const materials = [
     "materialType": "합지"
   },
   {
-    "id": "신한-4317-4",
+    "id": "신한-합지_신한벽지_파인하임_4317-4",
     "code": "4317-4",
     "name": "4317-4 이프",
     "brand": "신한(KCC)",

@@ -527,14 +527,20 @@ function processDirectory(dirPath, category, brandFolder, lineFolder) {
             }
             
             // Build ID
-            let id = `${brandFolder ? brandFolder.slice(0, 2).toUpperCase() : 'XX'}-${finalCode}`;
+            let idPrefix = brandFolder ? brandFolder.slice(0, 2).toUpperCase() : 'XX';
+            let id = lineFolder ? `${idPrefix}-${lineFolder}_${finalCode}` : `${idPrefix}-${finalCode}`;
+            
             if (category === '데코타일') {
                 if (brandFolder.includes('dongshin')) id = `DS-${finalCode}`;
                 if (brandFolder.includes('KCC')) id = finalCode;
                 if (brandFolder.includes('LX')) id = `LX-${finalCode}`;
                 if (brandFolder.toLowerCase().includes('noksu')) id = `NOKSU-${finalCode}`;
             } else if (category === '벽지' && brandFolder.includes('LX')) {
-                id = `LXW-${finalCode}`;
+                id = lineFolder ? `LXW-${lineFolder}_${finalCode}` : `LXW-${finalCode}`;
+            } else if (category === '벽지' && brandFolder.includes('개나리')) {
+                id = lineFolder ? `개나-${lineFolder}_${finalCode}` : `개나-${finalCode}`;
+            } else if (category === '벽지' && brandFolder.includes('서울')) {
+                id = lineFolder ? `서울-${lineFolder}_${finalCode}` : `서울-${finalCode}`;
             }
 
             const activeLine = lineFolder || "";
