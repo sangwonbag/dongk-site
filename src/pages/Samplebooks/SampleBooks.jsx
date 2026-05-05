@@ -21,6 +21,7 @@ const CATEGORY_TABS = [
   { id: "마루", label: "마루" },
   { id: "벽지", label: "벽지" },
   { id: "카페트타일", label: "카페트타일" },
+  { id: "러버타일", label: "러버타일" },
 ];
 
 export default function SampleBooks() {
