@@ -1,6 +1,6 @@
 const { execSync } = require('child_process');
 
-const brands = ['서울', 'LX', '신한', '개나리', '제일'];
+const brands = ['서울', 'LX', '신한', '제일'];
 
 for (const brand of brands) {
   try {
