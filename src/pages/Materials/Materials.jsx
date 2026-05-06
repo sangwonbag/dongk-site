@@ -116,11 +116,12 @@ export default function Materials() {
         materialOk = (m.materialType === activeMaterialType);
       }
 
-      // 3-1) 라인 필터 (데코타일, 러버타일, 카페트타일)
+      // 3-1) 라인 필터 (데코타일, 러버타일, 카페트타일, 마루)
       let lineOk = true;
       if (
         ((activeTab === "데코타일" || activeTab === "러버타일") && (activeBrand === "녹수" || activeBrand === "현대")) ||
-        (activeTab === "카페트타일" && activeBrand === "스완")
+        (activeTab === "카페트타일" && activeBrand === "스완") ||
+        (activeTab === "마루" && activeBrand === "이건")
       ) {
         if (activeLine !== "all") {
           lineOk = (m.line || "").includes(activeLine);
@@ -168,15 +169,17 @@ export default function Materials() {
             ))}
           </div>
 
-          {/* ✅ 라인업 필터 (데코타일/러버타일/카페트타일 등 특정 브랜드 대상) */}
+          {/* ✅ 라인업 필터 (데코타일/러버타일/카페트타일/마루 등 특정 브랜드 대상) */}
           {(
             ((activeTab === "데코타일" || activeTab === "러버타일") && (activeBrand === "녹수" || activeBrand === "현대")) ||
-            (activeTab === "카페트타일" && activeBrand === "스완")
+            (activeTab === "카페트타일" && activeBrand === "스완") ||
+            (activeTab === "마루" && activeBrand === "이건")
           ) && (
             <div className="material-type-row">
               {(
                 activeTab === "러버타일" ? ["all", "COIN TILE", "SAFETY / SHEET", "MEGA CORK", "MEGA COIN", "MEGA EMBO"] :
                 activeTab === "카페트타일" ? ["all", "타일 카페트", "롤 카페트"] :
+                activeTab === "마루" ? ["all", "강마루", "원목마루", "천연마루"] :
                 activeBrand === "녹수" ? ["all", "세타그립", "프라임1500", "에코홈2000", "오키드3000"] : 
                 ["all", "골드타일", "디럭스"]
               ).map((lineName) => (
