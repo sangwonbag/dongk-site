@@ -170,7 +170,12 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                 }
             } else if (brand === '대진') {
                 thickness = "3.0T";
-                if (uCode.startsWith("DW") || uCode.match(/^HOU00[0-2]/)) {
+                if (uCode.startsWith("DOA")) {
+                    sizeLabel = "500x500mm";
+                    packing = "10pcs / 2.5㎡";
+                    thickness = "5.0T";
+                    type = "500";
+                } else if (uCode.startsWith("DW") || uCode.match(/^HOU00[0-2]/)) {
                     sizeLabel = "187x935mm";
                     packing = "19pcs / 3.32㎡";
                     type = "wood";
@@ -182,7 +187,7 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                     sizeLabel = "470x470mm";
                     packing = "15pcs / 3.31㎡";
                     type = "470";
-                } else if (uCode.match(/^(DT|DM|DC|DG)6/)) {
+                } else if (uCode.match(/^(DT|DM|DC)6[67]/)) {
                     sizeLabel = "600x600mm";
                     packing = "9pcs / 3.24㎡";
                     type = "600";

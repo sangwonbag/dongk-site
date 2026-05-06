@@ -6353,13 +6353,13 @@ export const materials = [
     "images": [
       "05245a1edfa40dd2631794375c65d445.jpg"
     ],
-    "type": "600",
+    "type": "470",
     "thickness": "3.0T",
     "specs": {
       "division": "",
       "thickness": "3.0T",
-      "size": "600x600mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
     }
   },
   {
@@ -6374,13 +6374,13 @@ export const materials = [
     "images": [
       "0c1802de2ea87fc27c7e6ce7523e3f12.jpg"
     ],
-    "type": "600",
+    "type": "470",
     "thickness": "3.0T",
     "specs": {
       "division": "",
       "thickness": "3.0T",
-      "size": "600x600mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
     }
   },
   {
@@ -6395,13 +6395,13 @@ export const materials = [
     "images": [
       "1744a3ec0b52025e0befba820aec60d6.jpg"
     ],
-    "type": "600",
+    "type": "470",
     "thickness": "3.0T",
     "specs": {
       "division": "",
       "thickness": "3.0T",
-      "size": "600x600mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
     }
   },
   {
