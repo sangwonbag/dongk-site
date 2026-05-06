@@ -2348,6 +2348,300 @@ export const materials = [
     }
   },
   {
+    "id": "LX-DLX081",
+    "code": "DLX081",
+    "name": "DLX081",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "디럭스",
+    "price": 0,
+    "thumbnail": "27cbf89b4d2c1837e7974c7a0cf65efa.jpg",
+    "images": [
+      "27cbf89b4d2c1837e7974c7a0cf65efa.jpg"
+    ],
+    "type": "deluxe",
+    "thickness": "2.0T / 3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "2.0T / 3.0T",
+      "size": "300x300mm / 450x450mm",
+      "packing": "2.0T: 55pcs(4.96㎡) / 3.0T: 37pcs(3.33㎡), 16pcs(3.24㎡)"
+    }
+  },
+  {
+    "id": "LX-DLX082",
+    "code": "DLX082",
+    "name": "DLX082",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "디럭스",
+    "price": 0,
+    "thumbnail": "c786794e65a011740d9e602cc49f60e0.jpg",
+    "images": [
+      "c786794e65a011740d9e602cc49f60e0.jpg"
+    ],
+    "type": "deluxe",
+    "thickness": "2.0T / 3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "2.0T / 3.0T",
+      "size": "300x300mm / 450x450mm",
+      "packing": "2.0T: 55pcs(4.96㎡) / 3.0T: 37pcs(3.33㎡), 16pcs(3.24㎡)"
+    }
+  },
+  {
+    "id": "LX-DLX083",
+    "code": "DLX083",
+    "name": "DLX083",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "디럭스",
+    "price": 0,
+    "thumbnail": "e648e88419623ae817e8c11dcbdce4f5.jpg",
+    "images": [
+      "e648e88419623ae817e8c11dcbdce4f5.jpg"
+    ],
+    "type": "deluxe",
+    "thickness": "2.0T / 3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "2.0T / 3.0T",
+      "size": "300x300mm / 450x450mm",
+      "packing": "2.0T: 55pcs(4.96㎡) / 3.0T: 37pcs(3.33㎡), 16pcs(3.24㎡)"
+    }
+  },
+  {
+    "id": "LX-DLX084",
+    "code": "DLX084",
+    "name": "DLX084",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "디럭스",
+    "price": 0,
+    "thumbnail": "8aa1693aa64d9aff5a982441481d18cb.jpg",
+    "images": [
+      "8aa1693aa64d9aff5a982441481d18cb.jpg"
+    ],
+    "type": "deluxe",
+    "thickness": "2.0T / 3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "2.0T / 3.0T",
+      "size": "300x300mm / 450x450mm",
+      "packing": "2.0T: 55pcs(4.96㎡) / 3.0T: 37pcs(3.33㎡), 16pcs(3.24㎡)"
+    }
+  },
+  {
+    "id": "LX-DLX085",
+    "code": "DLX085",
+    "name": "DLX085",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "디럭스",
+    "price": 0,
+    "thumbnail": "e885b5f51885f2d1878ce064fc1fa080.jpg",
+    "images": [
+      "e885b5f51885f2d1878ce064fc1fa080.jpg"
+    ],
+    "type": "deluxe",
+    "thickness": "2.0T / 3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "2.0T / 3.0T",
+      "size": "300x300mm / 450x450mm",
+      "packing": "2.0T: 55pcs(4.96㎡) / 3.0T: 37pcs(3.33㎡), 16pcs(3.24㎡)"
+    }
+  },
+  {
+    "id": "LX-DLX086",
+    "code": "DLX086",
+    "name": "DLX086",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "디럭스",
+    "price": 0,
+    "thumbnail": "c00fdebd77d19f87183e185e7a9d7b72.jpg",
+    "images": [
+      "c00fdebd77d19f87183e185e7a9d7b72.jpg"
+    ],
+    "type": "deluxe",
+    "thickness": "2.0T / 3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "2.0T / 3.0T",
+      "size": "300x300mm / 450x450mm",
+      "packing": "2.0T: 55pcs(4.96㎡) / 3.0T: 37pcs(3.33㎡), 16pcs(3.24㎡)"
+    }
+  },
+  {
+    "id": "LX-DLX087",
+    "code": "DLX087",
+    "name": "DLX087",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "디럭스",
+    "price": 0,
+    "thumbnail": "1b9fad4124d7dbeb17dbcdb222bc9df8.jpg",
+    "images": [
+      "1b9fad4124d7dbeb17dbcdb222bc9df8.jpg"
+    ],
+    "type": "deluxe",
+    "thickness": "2.0T / 3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "2.0T / 3.0T",
+      "size": "300x300mm / 450x450mm",
+      "packing": "2.0T: 55pcs(4.96㎡) / 3.0T: 37pcs(3.33㎡), 16pcs(3.24㎡)"
+    }
+  },
+  {
+    "id": "LX-DLX088",
+    "code": "DLX088",
+    "name": "DLX088",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "디럭스",
+    "price": 0,
+    "thumbnail": "b841c6b1c23bfb538e84fed88f793cc7.jpg",
+    "images": [
+      "b841c6b1c23bfb538e84fed88f793cc7.jpg"
+    ],
+    "type": "deluxe",
+    "thickness": "2.0T / 3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "2.0T / 3.0T",
+      "size": "300x300mm / 450x450mm",
+      "packing": "2.0T: 55pcs(4.96㎡) / 3.0T: 37pcs(3.33㎡), 16pcs(3.24㎡)"
+    }
+  },
+  {
+    "id": "LX-DLX090",
+    "code": "DLX090",
+    "name": "DLX090",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "디럭스",
+    "price": 0,
+    "thumbnail": "349c2b55dd8d1df1c9705059f05b56de.jpg",
+    "images": [
+      "349c2b55dd8d1df1c9705059f05b56de.jpg"
+    ],
+    "type": "deluxe",
+    "thickness": "2.0T / 3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "2.0T / 3.0T",
+      "size": "300x300mm / 450x450mm",
+      "packing": "2.0T: 55pcs(4.96㎡) / 3.0T: 37pcs(3.33㎡), 16pcs(3.24㎡)"
+    }
+  },
+  {
+    "id": "LX-DLX091",
+    "code": "DLX091",
+    "name": "DLX091",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "디럭스",
+    "price": 0,
+    "thumbnail": "7ca48faa09e38ec4e820ae74aace6958.jpg",
+    "images": [
+      "7ca48faa09e38ec4e820ae74aace6958.jpg"
+    ],
+    "type": "deluxe",
+    "thickness": "2.0T / 3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "2.0T / 3.0T",
+      "size": "300x300mm / 450x450mm",
+      "packing": "2.0T: 55pcs(4.96㎡) / 3.0T: 37pcs(3.33㎡), 16pcs(3.24㎡)"
+    }
+  },
+  {
+    "id": "LX-DLX092",
+    "code": "DLX092",
+    "name": "DLX092",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "디럭스",
+    "price": 0,
+    "thumbnail": "9faefc843430f37b8993f44b81008e2a.jpg",
+    "images": [
+      "9faefc843430f37b8993f44b81008e2a.jpg"
+    ],
+    "type": "deluxe",
+    "thickness": "2.0T / 3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "2.0T / 3.0T",
+      "size": "300x300mm / 450x450mm",
+      "packing": "2.0T: 55pcs(4.96㎡) / 3.0T: 37pcs(3.33㎡), 16pcs(3.24㎡)"
+    }
+  },
+  {
+    "id": "LX-DLX094",
+    "code": "DLX094",
+    "name": "DLX094",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "디럭스",
+    "price": 0,
+    "thumbnail": "007fbd83e2da36eba87e5e1af805c432.jpg",
+    "images": [
+      "007fbd83e2da36eba87e5e1af805c432.jpg"
+    ],
+    "type": "deluxe",
+    "thickness": "2.0T / 3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "2.0T / 3.0T",
+      "size": "300x300mm / 450x450mm",
+      "packing": "2.0T: 55pcs(4.96㎡) / 3.0T: 37pcs(3.33㎡), 16pcs(3.24㎡)"
+    }
+  },
+  {
+    "id": "LX-DLX095",
+    "code": "DLX095",
+    "name": "DLX095",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "디럭스",
+    "price": 0,
+    "thumbnail": "eaebef1106f6461818d48d8a15c3f4af.jpg",
+    "images": [
+      "eaebef1106f6461818d48d8a15c3f4af.jpg"
+    ],
+    "type": "deluxe",
+    "thickness": "2.0T / 3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "2.0T / 3.0T",
+      "size": "300x300mm / 450x450mm",
+      "packing": "2.0T: 55pcs(4.96㎡) / 3.0T: 37pcs(3.33㎡), 16pcs(3.24㎡)"
+    }
+  },
+  {
+    "id": "LX-DLX096",
+    "code": "DLX096",
+    "name": "DLX096",
+    "brand": "LX",
+    "category": "데코타일",
+    "line": "디럭스",
+    "price": 0,
+    "thumbnail": "a5306654dedb0d54fa8fa1d79bea4395.jpg",
+    "images": [
+      "a5306654dedb0d54fa8fa1d79bea4395.jpg"
+    ],
+    "type": "deluxe",
+    "thickness": "2.0T / 3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "2.0T / 3.0T",
+      "size": "300x300mm / 450x450mm",
+      "packing": "2.0T: 55pcs(4.96㎡) / 3.0T: 37pcs(3.33㎡), 16pcs(3.24㎡)"
+    }
+  },
+  {
     "id": "LX-DBT 3066",
     "code": "DBT 3066",
     "name": "DBT 3066",

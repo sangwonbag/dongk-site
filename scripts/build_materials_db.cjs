@@ -161,6 +161,12 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                         division = "우드";
                         type = "wood";
                     }
+                } else if (line.includes('디럭스')) {
+                    price = 0; // 단가표 미정
+                    thickness = "2.0T / 3.0T";
+                    sizeLabel = "300x300mm / 450x450mm";
+                    packing = "2.0T: 55pcs(4.96㎡) / 3.0T: 37pcs(3.33㎡), 16pcs(3.24㎡)";
+                    type = "deluxe";
                 }
             } else if (brand === '녹수') {
                 if (line.includes('프라임1500')) {
