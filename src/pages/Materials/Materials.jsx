@@ -116,10 +116,15 @@ export default function Materials() {
         materialOk = (m.materialType === activeMaterialType);
       }
 
-      // 3-1) 라인 필터 (데코타일, 러버타일)
+      // 3-1) 라인 필터 (데코타일, 러버타일, 카페트타일)
       let lineOk = true;
-      if ((activeTab === "데코타일" || activeTab === "러버타일") && (activeBrand === "녹수" || activeBrand === "현대") && activeLine !== "all") {
-        lineOk = (m.line || "").includes(activeLine);
+      if (
+        ((activeTab === "데코타일" || activeTab === "러버타일") && (activeBrand === "녹수" || activeBrand === "현대")) ||
+        (activeTab === "카페트타일" && activeBrand === "스완")
+      ) {
+        if (activeLine !== "all") {
+          lineOk = (m.line || "").includes(activeLine);
+        }
       }
 
       // 4) 검색 필터
@@ -163,11 +168,15 @@ export default function Materials() {
             ))}
           </div>
 
-          {/* ✅ 데코타일/러버타일 라인업 필터 (녹수, 현대 등) */}
-          {(activeTab === "데코타일" || activeTab === "러버타일") && (activeBrand === "녹수" || activeBrand === "현대") && (
+          {/* ✅ 라인업 필터 (데코타일/러버타일/카페트타일 등 특정 브랜드 대상) */}
+          {(
+            ((activeTab === "데코타일" || activeTab === "러버타일") && (activeBrand === "녹수" || activeBrand === "현대")) ||
+            (activeTab === "카페트타일" && activeBrand === "스완")
+          ) && (
             <div className="material-type-row">
               {(
                 activeTab === "러버타일" ? ["all", "COIN TILE", "SAFETY / SHEET", "MEGA CORK", "MEGA COIN", "MEGA EMBO"] :
+                activeTab === "카페트타일" ? ["all", "타일 카페트", "롤 카페트"] :
                 activeBrand === "녹수" ? ["all", "세타그립", "프라임1500", "에코홈2000", "오키드3000"] : 
                 ["all", "골드타일", "디럭스"]
               ).map((lineName) => (
