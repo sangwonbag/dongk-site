@@ -468,6 +468,14 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                     return { price, sizeLabel, packing, thickness, type, materialType, brand, division, overrideName, overrideLine };
                 }
             break;
+        case '카페트타일':
+            if (brand === '스완') {
+                if (uCode.startsWith('SK')) {
+                    sizeLabel = "500mm x 500mm";
+                    packing = "16pcs / 4m²";
+                }
+            }
+            break;
     }
 
     return { price, sizeLabel, packing, thickness, type, materialType, brand, division, overrideName: null, overrideLine: null };
