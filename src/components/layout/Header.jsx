@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo, useRef } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { Search, ShoppingCart, User, BookOpen, Layers } from "lucide-react";
 import { materials } from "../../data/materials.db";
-import { getSearchScore, RECOMMENDATIONS, normalizeSearchText, tokenizeSearchQuery } from "../../utils/searchUtils";
+import { getSearchScore, RECOMMENDATIONS, normalizeSearchText, tokenizeSearchQuery, handleSearchRedirect } from "../../utils/searchUtils";
 import { getSupabaseImageUrl } from "../../utils/getSupabaseImageUrl";
 import "./Header.css";
 
@@ -96,12 +96,11 @@ export default function Header() {
     return { type: "empty", items: [] };
   }, [debouncedQ]);
 
-  // Original onSearch for enter key -> navigates to /materials?search=...
   const onSearch = (e) => {
     e.preventDefault();
     const keyword = q.trim();
     if (!keyword) return;
-    nav(`/materials?search=${encodeURIComponent(keyword)}`);
+    handleSearchRedirect(keyword, nav);
     setIsFocused(false);
   };
 
@@ -112,10 +111,7 @@ export default function Header() {
   };
 
   const handleRecommendationClick = (rec) => {
-    if (rec.type === "brand") nav(`/materials?brand=${encodeURIComponent(rec.query)}`);
-    else if (rec.type === "size") nav(`/materials?search=${encodeURIComponent(rec.query)}`);
-    else if (rec.type === "pattern") nav(`/materials?search=${encodeURIComponent(rec.query)}`);
-    else nav(`/materials?search=${encodeURIComponent(rec.query)}`);
+    handleSearchRedirect(rec.query, nav);
     setIsFocused(false);
     setQ("");
   };
