@@ -1,114 +1,181 @@
-const BRAND_ALIASES = {
+const SYNONYMS = {
+  // Brands
   "lg": "lx",
   "엘지": "lx",
   "엘엑스": "lx",
   "케이씨씨": "kcc",
+  "현대": "현대",
+  "동신": "동신",
   "신한벽지": "신한",
+  "신한": "신한",
+  "개나리": "개나리",
   "디디": "디아이디",
-  "did": "디아이디"
+  "did": "디아이디",
+  
+  // Categories/Types
+  "디럭스": "디럭스타일",
+  "데코": "데코타일",
+  "데코타일": "데코타일",
+  "바닥타일": "데코타일",
+  "장판": "장판",
+  "모노륨": "장판",
+  "륨": "장판",
+  "실크": "실크벽지",
+  "합지": "합지벽지",
+  "방염": "방염벽지",
+  "카페트": "카페트타일",
+  "카펫": "카페트타일",
+  "타일카페트": "카페트타일",
+
+  // Sizes/Patterns
+  "450": "450각",
+  "450각": "450각",
+  "450square": "450각",
+  "600": "600각",
+  "600각": "600각",
+  "600square": "600각",
+  "우드": "우드",
+  "wood": "우드",
+  "나무": "우드",
+  "마블": "마블",
+  "marble": "마블",
+  "대리석": "마블",
+  "스톤": "스톤",
+  "stone": "스톤",
+  "콘크리트": "콘크리트",
+  "concrete": "콘크리트"
 };
+
+const SYNONYM_KEYS = Object.keys(SYNONYMS).sort((a, b) => b.length - a.length);
 
 export function normalizeSearchText(text) {
   if (!text) return "";
-  // 1. Convert to lowercase
   let t = text.toLowerCase();
-  
-  // 2. Remove spaces, hyphens, underscores, parentheses
   t = t.replace(/[\s\-_()]/g, "");
-  
-  // 3. Brand alias replacement
-  for (const [alias, realBrand] of Object.entries(BRAND_ALIASES)) {
-    if (t.includes(alias)) {
-      t = t.replace(new RegExp(alias, 'g'), realBrand.toLowerCase());
-    }
-  }
-  
   return t;
 }
 
 export function normalizeProductCode(code) {
   if (!code) return "";
   let pre = code.toLowerCase();
-  
-  // Match trailing _number or (number) or _text and remove it to clean up the base code
-  // Example: AR-502_1 -> AR-502, FO3305_1 -> FO3305, ar 502 (1) -> ar 502
   pre = pre.replace(/[_(]\d+[)]?$/, '');
-  
   return normalizeSearchText(pre);
 }
 
-export function getSearchScore(product, rawQuery) {
-  if (!product || !rawQuery) return Infinity; // No match
+// Tokenize query by spacing out known synonyms and then splitting
+export function tokenizeSearchQuery(query) {
+  if (!query) return [];
   
-  const query = normalizeSearchText(rawQuery);
-  if (!query) return Infinity;
+  let q = query.toLowerCase();
+  
+  // Insert spaces around known synonyms to break glued words (e.g. "현대디럭스" -> " 현대  디럭스 ")
+  for (const key of SYNONYM_KEYS) {
+    q = q.split(key).join(` ${key} `);
+  }
+  
+  // Split by any whitespace or delimiter
+  const tokens = q.split(/[\s\-_()]+/).filter(Boolean);
+  
+  // Deduplicate
+  return Array.from(new Set(tokens));
+}
 
-  const code = normalizeProductCode(product.code || "");
-  const name = normalizeSearchText(product.name || "");
+// Expand a list of raw tokens into their canonical forms
+export function expandSynonyms(tokens) {
+  return tokens.map(token => {
+    const norm = normalizeSearchText(token);
+    return SYNONYMS[norm] || norm;
+  });
+}
+
+// Builds a single massive normalized string containing all product attributes
+export function buildProductSearchText(product) {
+  if (!product) return "";
+  
+  const fields = [
+    product.code,
+    product.name,
+    product.brand,
+    product.category,
+    product.subCategory,
+    product.collection,
+    product.series,
+    product.type,
+    product.pattern,
+    product.specs?.size || product.sizeLabel,
+    product.specs?.thickness || product.thickness,
+    ...(product.tags || []),
+    ...(product.keywords || []),
+    product.description
+  ];
+
+  return normalizeSearchText(fields.filter(Boolean).join(" "));
+}
+
+export function getSearchScore(product, rawQuery) {
+  if (!product || !rawQuery) return 0;
+
+  const rawTokens = tokenizeSearchQuery(rawQuery);
+  const tokens = expandSynonyms(rawTokens);
+  
+  if (tokens.length === 0) return 0;
+
+  const fullText = buildProductSearchText(product);
+  
+  // All tokens must be present in fullText for a match (strict AND logic).
+  let matchCount = 0;
+  for (const token of tokens) {
+    if (fullText.includes(token)) {
+      matchCount++;
+    }
+  }
+
+  // If NOT ALL tokens match, return 0 (strict AND logic)
+  if (matchCount < tokens.length) return 0;
+
+  let score = 500; // Base score for matching all tokens
+
+  // Exact / Partial Product Code Matches
+  const productCode = normalizeProductCode(product.code || "");
+  const rawQueryNorm = normalizeSearchText(rawQuery);
+  const rawCodeQuery = normalizeProductCode(rawQuery);
+
+  if (productCode && (productCode === rawCodeQuery || productCode === rawQueryNorm)) {
+    score += 1000;
+  } else if (productCode && (productCode.includes(rawCodeQuery) || rawCodeQuery.includes(productCode))) {
+    score += 700;
+  }
+
+  // Evaluate specific fields for exact bonuses
   const brand = normalizeSearchText(product.brand || "");
   const category = normalizeSearchText(product.category || "");
-  const size = normalizeSearchText((product.specs?.size || product.sizeLabel || ""));
+  const series = normalizeSearchText(product.series || product.collection || "");
+  const size = normalizeSearchText(product.specs?.size || product.sizeLabel || "");
   const pattern = normalizeSearchText(product.pattern || "");
-  const desc = normalizeSearchText(product.description || "");
-  
-  // 1. Exact Product Code
-  if (code === query) return 10;
-  
-  // 2. Partial Product Code
-  if (code.includes(query)) return 20;
-  if (query.includes(code) && code.length > 2) return 25;
-  
-  // 3. Exact Brand Match
-  if (brand === query) return 30;
-  
-  // 4. Exact Category Match
-  if (category === query) return 40;
-  
-  // 5. Size / Pattern Exact Match
-  if (size === query || pattern === query) return 50;
-  
-  // 6. Name Includes
-  if (name.includes(query)) return 60;
-  
-  // 7. Brand / Category Includes
-  if (brand.includes(query)) return 65;
-  if (category.includes(query)) return 66;
+  const name = normalizeSearchText(product.name || "");
 
-  // 8. Size / Pattern Includes
-  if (size.includes(query) || pattern.includes(query)) return 70;
-  
-  // 9. Tags / Keywords / Collection
-  const tags = normalizeSearchText((product.tags || []).join("") + (product.keywords || []).join("") + (product.collection || ""));
-  if (tags.includes(query)) return 80;
-  
-  // 10. Description Includes
-  if (desc.includes(query)) return 90;
-  
-  return Infinity; // No match
+  for (const token of tokens) {
+    if (brand === token || SYNONYMS[brand] === token) score += 300;
+    if (category === token || SYNONYMS[category] === token) score += 250;
+    if (series === token || SYNONYMS[series] === token) score += 220;
+    if (size === token || SYNONYMS[size] === token || size.includes(token)) score += 200;
+    if (pattern === token || SYNONYMS[pattern] === token) score += 200;
+    if (name === token || name.includes(token)) score += 150;
+  }
+
+  return score;
 }
 
 export const RECOMMENDATIONS = [
   { trigger: "k", text: "KCC 데코타일", query: "KCC 데코타일", type: "brand" },
-  { trigger: "k", text: "KCC 장판", query: "KCC 장판", type: "brand" },
-  { trigger: "k", text: "KCC 벽지", query: "KCC 벽지", type: "brand" },
-  { trigger: "kc", text: "KCC 데코타일", query: "KCC 데코타일", type: "brand" },
-  { trigger: "kc", text: "KCC 장판", query: "KCC 장판", type: "brand" },
-  { trigger: "kc", text: "KCC 벽지", query: "KCC 벽지", type: "brand" },
   { trigger: "l", text: "LX 데코타일", query: "LX 데코타일", type: "brand" },
-  { trigger: "l", text: "LX 벽지", query: "LX 벽지", type: "brand" },
-  { trigger: "lx", text: "LX 데코타일", query: "LX 데코타일", type: "brand" },
-  { trigger: "lx", text: "LX 벽지", query: "LX 벽지", type: "brand" },
-  { trigger: "w", text: "우드", query: "우드", type: "pattern" },
-  { trigger: "wo", text: "wood", query: "wood", type: "pattern" },
-  { trigger: "woo", text: "우드", query: "우드", type: "pattern" },
-  { trigger: "woo", text: "wood", query: "wood", type: "pattern" },
-  { trigger: "woo", text: "wood plank", query: "wood plank", type: "pattern" },
+  { trigger: "현", text: "현대 디럭스", query: "현대 디럭스", type: "brand" },
+  { trigger: "현대", text: "현대 디럭스", query: "현대 디럭스", type: "brand" },
+  { trigger: "동", text: "동신 데코타일", query: "동신 데코타일", type: "brand" },
+  { trigger: "동신", text: "동신 데코타일", query: "동신 데코타일", type: "brand" },
   { trigger: "4", text: "450각", query: "450각", type: "size" },
   { trigger: "45", text: "450각", query: "450각", type: "size" },
-  { trigger: "45", text: "450 square", query: "450 square", type: "size" },
-  { trigger: "45", text: "450 우드", query: "450 우드", type: "size" },
-  { trigger: "450", text: "450각", query: "450각", type: "size" },
   { trigger: "6", text: "600각", query: "600각", type: "size" },
-  { trigger: "60", text: "600각", query: "600각", type: "size" },
-  { trigger: "600", text: "600각", query: "600각", type: "size" },
+  { trigger: "우", text: "우드 데코타일", query: "우드 데코타일", type: "pattern" },
+  { trigger: "우드", text: "우드 데코타일", query: "우드 데코타일", type: "pattern" },
 ];

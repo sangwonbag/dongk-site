@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo, useRef } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { Search, ShoppingCart, User, BookOpen, Layers } from "lucide-react";
 import { materials } from "../../data/materials.db";
-import { getSearchScore, RECOMMENDATIONS, normalizeSearchText } from "../../utils/searchUtils";
+import { getSearchScore, RECOMMENDATIONS, normalizeSearchText, tokenizeSearchQuery } from "../../utils/searchUtils";
 import { getSupabaseImageUrl } from "../../utils/getSupabaseImageUrl";
 import "./Header.css";
 
@@ -17,6 +17,30 @@ function useDebounce(value, delay) {
   }, [value, delay]);
   return debouncedValue;
 }
+
+// Simple highlighter component for search results
+const HighlightText = ({ text, highlight }) => {
+  if (!highlight || !text) return <>{text}</>;
+  const tokens = tokenizeSearchQuery(highlight);
+  if (tokens.length === 0) return <>{text}</>;
+
+  // Escape regex special chars
+  const escapeRegExp = (string) => string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const regex = new RegExp(`(${tokens.map(escapeRegExp).join('|')})`, 'gi');
+  
+  const parts = text.toString().split(regex);
+  return (
+    <>
+      {parts.map((part, i) =>
+        tokens.some(t => t.toLowerCase() === part.toLowerCase()) ? (
+          <b key={i} style={{ color: '#111', fontWeight: '900' }}>{part}</b>
+        ) : (
+          part
+        )
+      )}
+    </>
+  );
+};
 
 export default function Header() {
   const nav = useNavigate();
@@ -54,8 +78,8 @@ export default function Header() {
     if (materials && materials.length > 0) {
       scored = materials
         .map(m => ({ item: m, score: getSearchScore(m, query) }))
-        .filter(x => x.score < Infinity)
-        .sort((a, b) => a.score - b.score);
+        .filter(x => x.score > 0)
+        .sort((a, b) => b.score - a.score);
     }
 
     if (scored.length > 0) {
@@ -109,7 +133,7 @@ export default function Header() {
           <form onSubmit={onSearch}>
             <input
               type="text"
-              placeholder="제품번호, 브랜드, 규격, 자재명을 검색하세요"
+              placeholder="제품번호, 브랜드, 종류, 규격을 검색하세요"
               value={q}
               onChange={(e) => setQ(e.target.value)}
               onFocus={() => setIsFocused(true)}
@@ -130,8 +154,12 @@ export default function Header() {
                         <img src={getSupabaseImageUrl(item.thumbnail)} alt={item.name} />
                       </div>
                       <div className="search-info">
-                        <div className="search-code">{item.code || item.name}</div>
-                        <div className="search-meta">{item.brand} &gt; {item.category}</div>
+                        <div className="search-code">
+                          <HighlightText text={item.code || item.name} highlight={q} />
+                        </div>
+                        <div className="search-meta">
+                          <HighlightText text={`${item.brand} > ${item.category}`} highlight={q} />
+                        </div>
                       </div>
                     </div>
                   ))}

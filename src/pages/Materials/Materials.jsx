@@ -93,10 +93,20 @@ export default function Materials() {
     if (!materials) return [];
     const s = (searchText || "").trim();
 
-    let results = materials.filter((m) => {
+    // 1) 검색어가 있는 경우: 다른 모든 UI 필터를 무시하고 전체 데이터에서 검색 및 정렬
+    if (s) {
+      return materials
+        .map((m) => ({ item: m, score: getSearchScore(m, s) }))
+        .filter((x) => x.score > 0)
+        .sort((a, b) => b.score - a.score)
+        .map((x) => x.item);
+    }
+
+    // 2) 검색어가 없는 경우: 기존 UI 필터 적용
+    return materials.filter((m) => {
       if (!m) return false;
 
-      // 1) 탭(카테고리) 필터
+      // 탭(카테고리) 필터
       let tabOk = true;
       if (activeTab === "recommended") {
         tabOk = (m.brand === "동신" || m.brand === "KCC");
@@ -104,20 +114,20 @@ export default function Materials() {
         tabOk = (m.category === activeTab);
       }
 
-      // 2) 브랜드 필터
+      // 브랜드 필터
       const mComputedBrand = getComputedBrand(m);
       let brandOk =
         activeBrand === "all"
           ? true
           : mComputedBrand === activeBrand;
 
-      // 3) 재질 필터 (벽지일 때만 작동)
+      // 재질 필터 (벽지일 때만 작동)
       let materialOk = true;
       if (activeTab === "벽지" && activeMaterialType !== "all") {
         materialOk = (m.materialType === activeMaterialType);
       }
 
-      // 3-1) 라인 필터 (데코타일, 러버타일, 카페트타일, 마루)
+      // 라인 필터 (데코타일, 러버타일, 카페트타일, 마루)
       let lineOk = true;
       if (
         ((activeTab === "데코타일" || activeTab === "러버타일") && (activeBrand === "녹수" || activeBrand === "현대")) ||
@@ -131,17 +141,6 @@ export default function Materials() {
 
       return tabOk && brandOk && materialOk && lineOk;
     });
-
-    if (s) {
-      // 4) 고급 검색 필터 및 정렬
-      results = results
-        .map((m) => ({ item: m, score: getSearchScore(m, s) }))
-        .filter((x) => x.score < Infinity)
-        .sort((a, b) => a.score - b.score)
-        .map((x) => x.item);
-    }
-
-    return results;
   }, [activeTab, activeBrand, activeMaterialType, activeLine, searchText]);
 
   return (
