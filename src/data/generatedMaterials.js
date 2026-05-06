@@ -18,7 +18,8 @@ export const ALL_BRANDS = [
   "LX 3.2T",
   "LX 4.5T",
   "LX 2.2T",
-  "스완"
+  "스완",
+  "코오롱"
 ];
 
 export const BRANDS_BY_CATEGORY = {
@@ -53,7 +54,8 @@ export const BRANDS_BY_CATEGORY = {
     "LX 2.2T"
   ],
   "카페트타일": [
-    "스완"
+    "스완",
+    "코오롱"
   ]
 };
 
@@ -39597,5 +39599,665 @@ export const materials = [
     "images": [
       "4eafee81dae19565f45d0cdabd1c0ce2.jpg"
     ]
+  },
+  {
+    "id": "코오-DL6501HF",
+    "code": "DL6501HF",
+    "name": "DL6501HF",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "bd1cc0e773ea1953fd06a7d356832321.jpg",
+    "images": [
+      "bd1cc0e773ea1953fd06a7d356832321.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-DL6503HF",
+    "code": "DL6503HF",
+    "name": "DL6503HF",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "6019f9a01116e980c50a12b18f8c8336.jpg",
+    "images": [
+      "6019f9a01116e980c50a12b18f8c8336.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-DL6507HF",
+    "code": "DL6507HF",
+    "name": "DL6507HF",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "d0b31492ab3a1725bb4b7f90940fd6fa.jpg",
+    "images": [
+      "d0b31492ab3a1725bb4b7f90940fd6fa.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-DL6509HF",
+    "code": "DL6509HF",
+    "name": "DL6509HF",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "7f2b7ac7f7ec48dd296603e4e73b1bd7.jpg",
+    "images": [
+      "7f2b7ac7f7ec48dd296603e4e73b1bd7.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-DL6511HF",
+    "code": "DL6511HF",
+    "name": "DL6511HF",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "c2dabda77713547c79857355dbff9525.jpg",
+    "images": [
+      "c2dabda77713547c79857355dbff9525.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-DL6561HF",
+    "code": "DL6561HF",
+    "name": "DL6561HF",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "3555e83f49f1c99a9be3bc32b318d501.jpg",
+    "images": [
+      "3555e83f49f1c99a9be3bc32b318d501.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-DL6564HF",
+    "code": "DL6564HF",
+    "name": "DL6564HF",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "0f1617d44c219c2761cbc09bb9a8ec35.jpg",
+    "images": [
+      "0f1617d44c219c2761cbc09bb9a8ec35.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-DL6567HF",
+    "code": "DL6567HF",
+    "name": "DL6567HF",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "05fa1678c69eb66ad45be8c48f6d5aaa.jpg",
+    "images": [
+      "05fa1678c69eb66ad45be8c48f6d5aaa.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-NHM02",
+    "code": "NHM02",
+    "name": "NHM02",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "f4899f83451ee3b2675bef9ff99f41eb.jpg",
+    "images": [
+      "f4899f83451ee3b2675bef9ff99f41eb.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-NHM04",
+    "code": "NHM04",
+    "name": "NHM04",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "5620a131b8c4a7ef84cd6ac3ccdc7481.jpg",
+    "images": [
+      "5620a131b8c4a7ef84cd6ac3ccdc7481.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-NHM09",
+    "code": "NHM09",
+    "name": "NHM09",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "57f1448f263c3c0eb2e8330621e0ef92.jpg",
+    "images": [
+      "57f1448f263c3c0eb2e8330621e0ef92.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-NHM10",
+    "code": "NHM10",
+    "name": "NHM10",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "2a64b93225b3be720b8166662136b6e4.jpg",
+    "images": [
+      "2a64b93225b3be720b8166662136b6e4.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-NHM11",
+    "code": "NHM11",
+    "name": "NHM11",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "f0b1b0c6ec5663964102d17946bc5210.jpg",
+    "images": [
+      "f0b1b0c6ec5663964102d17946bc5210.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-NHM17",
+    "code": "NHM17",
+    "name": "NHM17",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "2d3d9e7ad82c67e1b0cb21421878b6b0.jpg",
+    "images": [
+      "2d3d9e7ad82c67e1b0cb21421878b6b0.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-NHM20",
+    "code": "NHM20",
+    "name": "NHM20",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "8f3c9f0ae56548ee27a6fcbe363fa9a1.jpg",
+    "images": [
+      "8f3c9f0ae56548ee27a6fcbe363fa9a1.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-SDK102",
+    "code": "SDK102",
+    "name": "SDK102",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "6ab31f994238e3670d57f47feb9613f0.jpg",
+    "images": [
+      "6ab31f994238e3670d57f47feb9613f0.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-SDK103",
+    "code": "SDK103",
+    "name": "SDK103",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "d2853c6d95c9ddbbcb9de4a138b2d592.jpg",
+    "images": [
+      "d2853c6d95c9ddbbcb9de4a138b2d592.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-SDK104",
+    "code": "SDK104",
+    "name": "SDK104",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "ecaf01ee415058088e808672e6aae680.jpg",
+    "images": [
+      "ecaf01ee415058088e808672e6aae680.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-SDK105",
+    "code": "SDK105",
+    "name": "SDK105",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "f80b373c008e845a8f37909d45e2ec72.jpg",
+    "images": [
+      "f80b373c008e845a8f37909d45e2ec72.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-SDK106",
+    "code": "SDK106",
+    "name": "SDK106",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "e0fdf7792f4ecfc5e9d4f0ba5f1f62a9.jpg",
+    "images": [
+      "e0fdf7792f4ecfc5e9d4f0ba5f1f62a9.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-SDK107",
+    "code": "SDK107",
+    "name": "SDK107",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "4a53e53a390a92bbbbc4ccf038e64bf3.jpg",
+    "images": [
+      "4a53e53a390a92bbbbc4ccf038e64bf3.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-SDK109",
+    "code": "SDK109",
+    "name": "SDK109",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "cca5480f0d0278d4073102712ce28e61.jpg",
+    "images": [
+      "cca5480f0d0278d4073102712ce28e61.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-SDK110",
+    "code": "SDK110",
+    "name": "SDK110",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "dc704d47b013bd30318c2abba613bf15.jpg",
+    "images": [
+      "dc704d47b013bd30318c2abba613bf15.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-SDK111",
+    "code": "SDK111",
+    "name": "SDK111",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "13297323747537e91b70908d2d4fd2ca.jpg",
+    "images": [
+      "13297323747537e91b70908d2d4fd2ca.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-SDK112",
+    "code": "SDK112",
+    "name": "SDK112",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "8fa23722f4c5ec579ef60d273f821087.jpg",
+    "images": [
+      "8fa23722f4c5ec579ef60d273f821087.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-SDK114",
+    "code": "SDK114",
+    "name": "SDK114",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "1b72c72d901676a2793783d7efc0ba98.jpg",
+    "images": [
+      "1b72c72d901676a2793783d7efc0ba98.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-SDK115",
+    "code": "SDK115",
+    "name": "SDK115",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "9775e60597570fb2854e00297617e5d2.jpg",
+    "images": [
+      "9775e60597570fb2854e00297617e5d2.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-SDK116",
+    "code": "SDK116",
+    "name": "SDK116",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "79964bfb14582dd4860ee87a27dbb38e.jpg",
+    "images": [
+      "79964bfb14582dd4860ee87a27dbb38e.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-SDK117",
+    "code": "SDK117",
+    "name": "SDK117",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "78c4644436a0917a022b186761dfdc8b.jpg",
+    "images": [
+      "78c4644436a0917a022b186761dfdc8b.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-TS1044",
+    "code": "TS1044",
+    "name": "TS1044",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "7570bd3e5b99673746db54205764f9f3.jpg",
+    "images": [
+      "7570bd3e5b99673746db54205764f9f3.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-TS1046",
+    "code": "TS1046",
+    "name": "TS1046",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "81f0a7f4924de185a82673d4a3a6674c.jpg",
+    "images": [
+      "81f0a7f4924de185a82673d4a3a6674c.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-TS1047",
+    "code": "TS1047",
+    "name": "TS1047",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "5eb7501bb1a391c62d9c848a13092af2.jpg",
+    "images": [
+      "5eb7501bb1a391c62d9c848a13092af2.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
+  },
+  {
+    "id": "코오-TS1049",
+    "code": "TS1049",
+    "name": "TS1049",
+    "brand": "코오롱",
+    "category": "카페트타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "7746eb59600794b00288058d185dda28.jpg",
+    "images": [
+      "7746eb59600794b00288058d185dda28.jpg"
+    ],
+    "thickness": "6.5mm(±0.3)",
+    "specs": {
+      "division": "",
+      "thickness": "6.5mm(±0.3)",
+      "size": "500x500mm",
+      "packing": "20pcs / 5m²"
+    }
   }
 ];

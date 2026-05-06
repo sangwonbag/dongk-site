@@ -179,3 +179,85 @@ export const RECOMMENDATIONS = [
   { trigger: "우", text: "우드 데코타일", query: "우드 데코타일", type: "pattern" },
   { trigger: "우드", text: "우드 데코타일", query: "우드 데코타일", type: "pattern" },
 ];
+
+const BRAND_DEFAULT_CATEGORY = {
+  "동신": "데코타일",
+  "녹수": "데코타일",
+  "재영": "데코타일",
+  "현대": "데코타일",
+  "kcc": "데코타일",
+  "lx": "데코타일",
+  "동화": "마루",
+  "구정": "마루",
+  "개나리": "벽지",
+  "서울": "벽지",
+  "제일": "벽지",
+  "디아이디": "벽지",
+  "신한": "벽지",
+  "스완": "카페트타일",
+  "아반": "카페트타일",
+  "코오롱": "카페트타일"
+};
+
+const CATEGORIES = ["데코타일", "장판", "마루", "벽지", "카페트타일", "러버타일"];
+
+export function getBrandCategoryMap() {
+  return BRAND_DEFAULT_CATEGORY;
+}
+
+export function detectCategory(tokens) {
+  const expanded = expandSynonyms(tokens);
+  for (const token of expanded) {
+    if (CATEGORIES.includes(token)) return token;
+  }
+  return null;
+}
+
+export function detectBrand(tokens) {
+  const expanded = expandSynonyms(tokens);
+  const brandKeys = Object.keys(BRAND_DEFAULT_CATEGORY);
+  for (const token of expanded) {
+    if (brandKeys.includes(token)) return token;
+  }
+  return null;
+}
+
+export function handleSearchRedirect(query, navFunction) {
+  if (!query) return false;
+  
+  const rawTokens = tokenizeSearchQuery(query);
+  const brand = detectBrand(rawTokens);
+  
+  if (brand) {
+    const category = detectCategory(rawTokens) || BRAND_DEFAULT_CATEGORY[brand];
+    const expandedTokens = expandSynonyms(rawTokens);
+    
+    const remainingRawTokens = rawTokens.filter((raw, i) => {
+      const exp = expandedTokens[i];
+      if (exp === brand || exp === category) return false;
+      if (raw === brand || raw === category) return false;
+      return true;
+    });
+    
+    const searchPart = remainingRawTokens.join(" ").trim();
+    
+    let url = `/materials?category=${encodeURIComponent(category)}`;
+    const formatBrand = (b) => {
+      if (b === 'lx') return 'LX';
+      if (b === 'kcc') return 'KCC';
+      return b;
+    };
+    
+    url += `&brand=${encodeURIComponent(formatBrand(brand))}`;
+    
+    if (searchPart) {
+      url += `&search=${encodeURIComponent(searchPart)}`;
+    }
+    
+    navFunction(url);
+    return true;
+  }
+  
+  navFunction(`/materials?search=${encodeURIComponent(query.trim())}`);
+  return false;
+}

@@ -483,6 +483,10 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                     sizeLabel = "500mm x 500mm";
                     packing = "16pcs / 4m²";
                 }
+            } else if (brand === '코오롱') {
+                thickness = "6.5mm(±0.3)";
+                sizeLabel = "500x500mm";
+                packing = "20pcs / 5m²";
             }
             break;
     }
