@@ -93,7 +93,16 @@ export default function Materials() {
     if (!materials) return [];
     const s = (searchText || "").trim();
 
-    // 1) UI 필터 강제 적용 (URL 기준)
+    // 1) 검색어가 있으면 모든 UI 필터 무시하고 전체 상품에서 검색
+    if (s) {
+      return materials
+        .map((m) => ({ item: m, score: getSearchScore(m, s) }))
+        .filter((x) => x.score > 0)
+        .sort((a, b) => b.score - a.score)
+        .map((x) => x.item);
+    }
+
+    // 2) 검색어가 없을 때만 UI 필터 강제 적용 (URL 기준)
     let results = materials.filter((m) => {
       if (!m) return false;
 
@@ -132,15 +141,6 @@ export default function Materials() {
 
       return tabOk && brandOk && materialOk && lineOk;
     });
-
-    // 2) 검색어가 있으면 필터링된 결과 내에서 스코어 매칭 및 정렬
-    if (s) {
-      results = results
-        .map((m) => ({ item: m, score: getSearchScore(m, s) }))
-        .filter((x) => x.score > 0)
-        .sort((a, b) => b.score - a.score)
-        .map((x) => x.item);
-    }
 
     return results;
   }, [activeTab, activeBrand, activeMaterialType, activeLine, searchText]);

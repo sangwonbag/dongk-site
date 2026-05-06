@@ -45,11 +45,25 @@ const HighlightText = ({ text, highlight }) => {
 export default function Header() {
   const nav = useNavigate();
   const location = useLocation();
-  const [q, setQ] = useState("");
+  const [q, setQ] = useState(() => {
+    const params = new URLSearchParams(location.search);
+    return params.get("search") || "";
+  });
   const [isFocused, setIsFocused] = useState(false);
   const dropdownRef = useRef(null);
 
   const debouncedQ = useDebounce(q, 300);
+
+  // Sync search input with URL
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const searchParam = params.get("search");
+    if (searchParam !== null && searchParam !== q) {
+      setQ(searchParam);
+    } else if (searchParam === null && q !== "") {
+      setQ("");
+    }
+  }, [location.search]);
 
   // Close dropdown when clicking outside or navigating
   useEffect(() => {
@@ -99,21 +113,72 @@ export default function Header() {
   const onSearch = (e) => {
     e.preventDefault();
     const keyword = q.trim();
-    if (!keyword) return;
-    handleSearchRedirect(keyword, nav);
+    if (!keyword) {
+      if (location.pathname === "/materials") {
+        const sp = new URLSearchParams(location.search);
+        sp.delete("search");
+        nav(`/materials?${sp.toString()}`);
+      }
+      setIsFocused(false);
+      return;
+    }
+    
+    // Find the best matching product synchronously to determine its category and brand
+    let topProduct = null;
+    if (materials && materials.length > 0) {
+      const scored = materials
+        .map(m => ({ item: m, score: getSearchScore(m, keyword) }))
+        .filter(x => x.score > 0)
+        .sort((a, b) => b.score - a.score);
+      
+      if (scored.length > 0) {
+        topProduct = scored[0].item;
+      }
+    }
+
+    const customNav = (url) => {
+      // If handleSearchRedirect returns a simple search URL
+      if (url.startsWith('/materials?search=')) {
+        const newParams = new URLSearchParams();
+        newParams.set('search', keyword);
+        
+        // Navigate to the exact category and brand of the top matching product
+        if (topProduct) {
+          if (topProduct.category) newParams.set('category', topProduct.category);
+          if (topProduct.brand) {
+            const b = topProduct.brand;
+            const brandFormat = b.toLowerCase() === 'lx' ? 'LX' : (b.toLowerCase() === 'kcc' ? 'KCC' : b);
+            newParams.set('brand', brandFormat);
+          }
+          if (topProduct.line) newParams.set('line', topProduct.line);
+          if (topProduct.materialType) newParams.set('type', topProduct.materialType);
+        } else if (location.pathname === '/materials') {
+          // Fallback: preserve existing params if no product found
+          const currentParams = new URLSearchParams(location.search);
+          if (currentParams.has('category')) newParams.set('category', currentParams.get('category'));
+          if (currentParams.has('brand')) newParams.set('brand', currentParams.get('brand'));
+          if (currentParams.has('line')) newParams.set('line', currentParams.get('line'));
+          if (currentParams.has('type')) newParams.set('type', currentParams.get('type'));
+        }
+        
+        nav(`/materials?${newParams.toString()}`);
+      } else {
+        nav(url);
+      }
+    };
+
+    handleSearchRedirect(keyword, customNav);
     setIsFocused(false);
   };
 
   const handleProductClick = (item) => {
     nav(`/materials/${item.id}`);
     setIsFocused(false);
-    setQ("");
   };
 
   const handleRecommendationClick = (rec) => {
     handleSearchRedirect(rec.query, nav);
     setIsFocused(false);
-    setQ("");
   };
 
   return (
@@ -131,7 +196,17 @@ export default function Header() {
               type="text"
               placeholder="제품번호, 브랜드, 종류, 규격을 검색하세요"
               value={q}
-              onChange={(e) => setQ(e.target.value)}
+              onChange={(e) => {
+                const val = e.target.value;
+                setQ(val);
+                if (val.trim() === "" && location.pathname === "/materials") {
+                  const sp = new URLSearchParams(location.search);
+                  if (sp.has("search")) {
+                    sp.delete("search");
+                    nav(`/materials?${sp.toString()}`);
+                  }
+                }
+              }}
               onFocus={() => setIsFocused(true)}
             />
             <button type="submit">
