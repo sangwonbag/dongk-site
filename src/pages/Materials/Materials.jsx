@@ -4,6 +4,7 @@ import MainLayout from "../../components/layout/MainLayout";
 import { materials } from "../../data/materials.db";
 import { CATEGORY_BRAND_MAP } from "../../data/categoryMap";
 import { getComputedBrand } from "../../utils/brandUtils";
+import { getSearchScore } from "../../utils/searchUtils";
 import MaterialCard from "../../components/material/MaterialCard";
 import "./Materials.css";
 import SampleBookPDF from "../../components/samplebook/SampleBookPDF";
@@ -90,9 +91,9 @@ export default function Materials() {
   /** ✅ 최종 필터링: (카테고리/추천) + (브랜드) + (재질) + (검색) */
   const filtered = useMemo(() => {
     if (!materials) return [];
-    const s = (searchText || "").trim().toLowerCase();
+    const s = (searchText || "").trim();
 
-    return materials.filter((m) => {
+    let results = materials.filter((m) => {
       if (!m) return false;
 
       // 1) 탭(카테고리) 필터
@@ -128,15 +129,19 @@ export default function Materials() {
         }
       }
 
-      // 4) 검색 필터
-      const searchOk = !s
-        ? true
-        : ((m.name || "").toLowerCase().includes(s) ||
-          (m.code || "").toLowerCase().includes(s) ||
-          mComputedBrand.toLowerCase().includes(s));
-
-      return tabOk && brandOk && materialOk && lineOk && searchOk;
+      return tabOk && brandOk && materialOk && lineOk;
     });
+
+    if (s) {
+      // 4) 고급 검색 필터 및 정렬
+      results = results
+        .map((m) => ({ item: m, score: getSearchScore(m, s) }))
+        .filter((x) => x.score < Infinity)
+        .sort((a, b) => a.score - b.score)
+        .map((x) => x.item);
+    }
+
+    return results;
   }, [activeTab, activeBrand, activeMaterialType, activeLine, searchText]);
 
   return (
