@@ -470,7 +470,10 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
             break;
         case '카페트타일':
             if (brand === '스완') {
-                if (uCode.startsWith('SK')) {
+                if (line.includes('롤 카페트') || line.includes('롤카페트')) {
+                    thickness = "9.0mm(±0.5mm)";
+                    sizeLabel = "폭 364cm ~ 366cm";
+                } else if (uCode.startsWith('SK')) {
                     sizeLabel = "500mm x 500mm";
                     packing = "16pcs / 4m²";
                 }

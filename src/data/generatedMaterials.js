@@ -35735,2061 +35735,2002 @@ export const materials = [
     }
   },
   {
-    "id": "스완-ct711",
-    "code": "ct711",
-    "name": "ct711",
+    "id": "스완-롤 카페트_AR502",
+    "code": "AR502",
+    "name": "AR502",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "a51690904e08973b117941c1cfc9f9f9.jpg",
+    "thumbnail": "e18a9308ef4fd26c480c27846d988ccf.jpg",
     "images": [
-      "a51690904e08973b117941c1cfc9f9f9.jpg"
-    ]
-  },
-  {
-    "id": "스완-ct712",
-    "code": "ct712",
-    "name": "ct712",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "1dbc4a4c2c7422cc865daeb465c3eec7.jpg",
-    "images": [
-      "1dbc4a4c2c7422cc865daeb465c3eec7.jpg"
-    ]
-  },
-  {
-    "id": "스완-ct713",
-    "code": "ct713",
-    "name": "ct713",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "c3352896cbfaf43d4cb28ab60f02d7bc.jpg",
-    "images": [
-      "c3352896cbfaf43d4cb28ab60f02d7bc.jpg"
-    ]
-  },
-  {
-    "id": "스완-ct715",
-    "code": "ct715",
-    "name": "ct715",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "dccaf46d0ce08623d2f292bf13b02b36.jpg",
-    "images": [
-      "dccaf46d0ce08623d2f292bf13b02b36.jpg"
-    ]
-  },
-  {
-    "id": "스완-ct716",
-    "code": "ct716",
-    "name": "ct716",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "bcd03ac1f741e91cb50d78585982f9f5.jpg",
-    "images": [
-      "bcd03ac1f741e91cb50d78585982f9f5.jpg"
-    ]
-  },
-  {
-    "id": "스완-ct717",
-    "code": "ct717",
-    "name": "ct717",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "ea519b080e8c06f7399368a982700d87.jpg",
-    "images": [
-      "ea519b080e8c06f7399368a982700d87.jpg"
-    ]
-  },
-  {
-    "id": "스완-FP401",
-    "code": "FP401",
-    "name": "FP401",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "eb9ad3358d6af866f51731f93d8c520f.jpg",
-    "images": [
-      "eb9ad3358d6af866f51731f93d8c520f.jpg"
-    ]
-  },
-  {
-    "id": "스완-fp401",
-    "code": "fp401",
-    "name": "fp401",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "3fe7e375cf4a1600f87bb92bdfa7bf87.jpg",
-    "images": [
-      "3fe7e375cf4a1600f87bb92bdfa7bf87.jpg"
-    ]
-  },
-  {
-    "id": "스완-FP402",
-    "code": "FP402",
-    "name": "FP402",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "f7260a68f00a7c91f255827a91cc3918.jpg",
-    "images": [
-      "f7260a68f00a7c91f255827a91cc3918.jpg"
-    ]
-  },
-  {
-    "id": "스완-fp402",
-    "code": "fp402",
-    "name": "fp402",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "cd996a7e11afc821d0f5973ddcd7a73d.jpg",
-    "images": [
-      "cd996a7e11afc821d0f5973ddcd7a73d.jpg"
-    ]
-  },
-  {
-    "id": "스완-FP403",
-    "code": "FP403",
-    "name": "FP403",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "5ef7df1bba51837fb17a2d8ff396e785.jpg",
-    "images": [
-      "5ef7df1bba51837fb17a2d8ff396e785.jpg"
-    ]
-  },
-  {
-    "id": "스완-fp403",
-    "code": "fp403",
-    "name": "fp403",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "df68c57b74d4dea50b38c9e4b8b3a29e.jpg",
-    "images": [
-      "df68c57b74d4dea50b38c9e4b8b3a29e.jpg"
-    ]
-  },
-  {
-    "id": "스완-FP411",
-    "code": "FP411",
-    "name": "FP411",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "d7f4af791839c45c433de1f8b0d10968.jpg",
-    "images": [
-      "d7f4af791839c45c433de1f8b0d10968.jpg"
-    ]
-  },
-  {
-    "id": "스완-fp411",
-    "code": "fp411",
-    "name": "fp411",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "78457361c3487e13fd5fd192d58c414c.jpg",
-    "images": [
-      "78457361c3487e13fd5fd192d58c414c.jpg"
-    ]
-  },
-  {
-    "id": "스완-FP412",
-    "code": "FP412",
-    "name": "FP412",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "b711062b8363755d168b4a4f48ee0be0.jpg",
-    "images": [
-      "b711062b8363755d168b4a4f48ee0be0.jpg"
-    ]
-  },
-  {
-    "id": "스완-fp412",
-    "code": "fp412",
-    "name": "fp412",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "a09be4806aacef0b420f41b1b07c4d28.jpg",
-    "images": [
-      "a09be4806aacef0b420f41b1b07c4d28.jpg"
-    ]
-  },
-  {
-    "id": "스완-FP413",
-    "code": "FP413",
-    "name": "FP413",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "8db343f60f6df525fc7a720c24e80a00.jpg",
-    "images": [
-      "8db343f60f6df525fc7a720c24e80a00.jpg"
-    ]
-  },
-  {
-    "id": "스완-fp413",
-    "code": "fp413",
-    "name": "fp413",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "e5b6495226910e4076f33d8c0fbcd034.jpg",
-    "images": [
-      "e5b6495226910e4076f33d8c0fbcd034.jpg"
-    ]
-  },
-  {
-    "id": "스완-FP414",
-    "code": "FP414",
-    "name": "FP414",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "569ee98ebb66b55391281d638bc193f6.jpg",
-    "images": [
-      "569ee98ebb66b55391281d638bc193f6.jpg"
-    ]
-  },
-  {
-    "id": "스완-fp414",
-    "code": "fp414",
-    "name": "fp414",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "4ad033cb24b693710a07417c9c1fea1e.jpg",
-    "images": [
-      "4ad033cb24b693710a07417c9c1fea1e.jpg"
-    ]
-  },
-  {
-    "id": "스완-FP415",
-    "code": "FP415",
-    "name": "FP415",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "6b0b4fe58ee0582ab3b3b27b1dae31ea.jpg",
-    "images": [
-      "6b0b4fe58ee0582ab3b3b27b1dae31ea.jpg"
-    ]
-  },
-  {
-    "id": "스완-fp415",
-    "code": "fp415",
-    "name": "fp415",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "ae3825df1176eb31b68f3f8206bf1287.jpg",
-    "images": [
-      "ae3825df1176eb31b68f3f8206bf1287.jpg"
-    ]
-  },
-  {
-    "id": "스완-FP416",
-    "code": "FP416",
-    "name": "FP416",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "bf766838fb5914e2159ff58c67baeb0e.jpg",
-    "images": [
-      "bf766838fb5914e2159ff58c67baeb0e.jpg"
-    ]
-  },
-  {
-    "id": "스완-fp416",
-    "code": "fp416",
-    "name": "fp416",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "a7a2ad5106866822099d91eafb312db6.jpg",
-    "images": [
-      "a7a2ad5106866822099d91eafb312db6.jpg"
-    ]
-  },
-  {
-    "id": "스완-FP441",
-    "code": "FP441",
-    "name": "FP441",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "c010b81d78b0eab3c3c6631075ba78c9.jpg",
-    "images": [
-      "c010b81d78b0eab3c3c6631075ba78c9.jpg"
-    ]
-  },
-  {
-    "id": "스완-fp441",
-    "code": "fp441",
-    "name": "fp441",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "5e15092f5801e306c0cf3f3dca8e74bd.jpg",
-    "images": [
-      "5e15092f5801e306c0cf3f3dca8e74bd.jpg"
-    ]
-  },
-  {
-    "id": "스완-FP442",
-    "code": "FP442",
-    "name": "FP442",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "9b4bdf6700bf8fa8531f06a183ea87dc.jpg",
-    "images": [
-      "9b4bdf6700bf8fa8531f06a183ea87dc.jpg"
-    ]
-  },
-  {
-    "id": "스완-fp442",
-    "code": "fp442",
-    "name": "fp442",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "4f626a31a63e7611fba076852467c1c8.jpg",
-    "images": [
-      "4f626a31a63e7611fba076852467c1c8.jpg"
-    ]
-  },
-  {
-    "id": "스완-fs301",
-    "code": "fs301",
-    "name": "fs301",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "f6f4aa24edbbd18c0fb58edea3e80493.jpg",
-    "images": [
-      "f6f4aa24edbbd18c0fb58edea3e80493.jpg"
-    ]
-  },
-  {
-    "id": "스완-fs303",
-    "code": "fs303",
-    "name": "fs303",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "4357fed359f76d160236835fb8d1795a.jpg",
-    "images": [
-      "4357fed359f76d160236835fb8d1795a.jpg"
-    ]
-  },
-  {
-    "id": "스완-fs314",
-    "code": "fs314",
-    "name": "fs314",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "bdf2a5a764bcb023dae29c9a1429962f.jpg",
-    "images": [
-      "bdf2a5a764bcb023dae29c9a1429962f.jpg"
-    ]
-  },
-  {
-    "id": "스완-fs326",
-    "code": "fs326",
-    "name": "fs326",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "554a733b06c3e065b9b17b3039685fdc.jpg",
-    "images": [
-      "554a733b06c3e065b9b17b3039685fdc.jpg"
-    ]
-  },
-  {
-    "id": "스완-fs329",
-    "code": "fs329",
-    "name": "fs329",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "1fdf52f72aa52c84caebe004c145b7fe.jpg",
-    "images": [
-      "1fdf52f72aa52c84caebe004c145b7fe.jpg"
-    ]
-  },
-  {
-    "id": "스완-fs330",
-    "code": "fs330",
-    "name": "fs330",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "87b2c6e1326c2d15b4ee8d4981eba6e9.jpg",
-    "images": [
-      "87b2c6e1326c2d15b4ee8d4981eba6e9.jpg"
-    ]
-  },
-  {
-    "id": "스완-fs331",
-    "code": "fs331",
-    "name": "fs331",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "3bf828a1bf0acfc1331987f08519dfc1.jpg",
-    "images": [
-      "3bf828a1bf0acfc1331987f08519dfc1.jpg"
-    ]
-  },
-  {
-    "id": "스완-fs334",
-    "code": "fs334",
-    "name": "fs334",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "800999bca36281422568260632d353da.jpg",
-    "images": [
-      "800999bca36281422568260632d353da.jpg"
-    ]
-  },
-  {
-    "id": "스완-fs335",
-    "code": "fs335",
-    "name": "fs335",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "e3e3b6ead30c7e67893540b006b02269.jpg",
-    "images": [
-      "e3e3b6ead30c7e67893540b006b02269.jpg"
-    ]
-  },
-  {
-    "id": "스완-fs341",
-    "code": "fs341",
-    "name": "fs341",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "0ebf47fea95ca2e40e49a48b1de61912.jpg",
-    "images": [
-      "0ebf47fea95ca2e40e49a48b1de61912.jpg"
-    ]
-  },
-  {
-    "id": "스완-fs342",
-    "code": "fs342",
-    "name": "fs342",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "11f1c03042646dd13e0c15ce64a9004d.jpg",
-    "images": [
-      "11f1c03042646dd13e0c15ce64a9004d.jpg"
-    ]
-  },
-  {
-    "id": "스완-fs343",
-    "code": "fs343",
-    "name": "fs343",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "731e8792fec41efdc65cc1a2208e0ecf.jpg",
-    "images": [
-      "731e8792fec41efdc65cc1a2208e0ecf.jpg"
-    ]
-  },
-  {
-    "id": "스완-fs373",
-    "code": "fs373",
-    "name": "fs373",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "d01732abcaa5594ff354f666c4d06c72.jpg",
-    "images": [
-      "d01732abcaa5594ff354f666c4d06c72.jpg"
-    ]
-  },
-  {
-    "id": "스완-fs374",
-    "code": "fs374",
-    "name": "fs374",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "31a6ff491032f166a90e7abf94604fff.jpg",
-    "images": [
-      "31a6ff491032f166a90e7abf94604fff.jpg"
-    ]
-  },
-  {
-    "id": "스완-fs375",
-    "code": "fs375",
-    "name": "fs375",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "1c9826a01baae52c0f4e545f88ff3724.jpg",
-    "images": [
-      "1c9826a01baae52c0f4e545f88ff3724.jpg"
-    ]
-  },
-  {
-    "id": "스완-fs376",
-    "code": "fs376",
-    "name": "fs376",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "612fdf33eb564576e7a92211eb99f83d.jpg",
-    "images": [
-      "612fdf33eb564576e7a92211eb99f83d.jpg"
-    ]
-  },
-  {
-    "id": "스완-fs377",
-    "code": "fs377",
-    "name": "fs377",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "6d3f0dafc6c2fb75ef194296773032ce.jpg",
-    "images": [
-      "6d3f0dafc6c2fb75ef194296773032ce.jpg"
-    ]
-  },
-  {
-    "id": "스완-fs391",
-    "code": "fs391",
-    "name": "fs391",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "53c79c7ad380cf25f2a2a1ed18138bb8.jpg",
-    "images": [
-      "53c79c7ad380cf25f2a2a1ed18138bb8.jpg"
-    ]
-  },
-  {
-    "id": "스완-fs392",
-    "code": "fs392",
-    "name": "fs392",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "9efcb78f479a48bc70f4c56659819961.jpg",
-    "images": [
-      "9efcb78f479a48bc70f4c56659819961.jpg"
-    ]
-  },
-  {
-    "id": "스완-fs393",
-    "code": "fs393",
-    "name": "fs393",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "d6f2bedd245893f1dbd66604e91f1ac3.jpg",
-    "images": [
-      "d6f2bedd245893f1dbd66604e91f1ac3.jpg"
-    ]
-  },
-  {
-    "id": "스완-fs394",
-    "code": "fs394",
-    "name": "fs394",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "4e5500dfc8b8f30375333c6db37c0cb6.jpg",
-    "images": [
-      "4e5500dfc8b8f30375333c6db37c0cb6.jpg"
-    ]
-  },
-  {
-    "id": "스완-fs395",
-    "code": "fs395",
-    "name": "fs395",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "3cc207a4b7ddc0d7ce0f83fb0d0e8bb7.jpg",
-    "images": [
-      "3cc207a4b7ddc0d7ce0f83fb0d0e8bb7.jpg"
-    ]
-  },
-  {
-    "id": "스완-fs396",
-    "code": "fs396",
-    "name": "fs396",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "a8a84a4bdde3d0bc19440593457c6540.jpg",
-    "images": [
-      "a8a84a4bdde3d0bc19440593457c6540.jpg"
-    ]
-  },
-  {
-    "id": "스완-fs397",
-    "code": "fs397",
-    "name": "fs397",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "60456ac253abafaf72b3bba2c39329d6.jpg",
-    "images": [
-      "60456ac253abafaf72b3bba2c39329d6.jpg"
-    ]
-  },
-  {
-    "id": "스완-fs398",
-    "code": "fs398",
-    "name": "fs398",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "0de4073c7d5cd809ec5787f79ba8788f.jpg",
-    "images": [
-      "0de4073c7d5cd809ec5787f79ba8788f.jpg"
-    ]
-  },
-  {
-    "id": "스완-gl904",
-    "code": "gl904",
-    "name": "gl904",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "2c0e05c6c6731df18394a87efd33a2e4.jpg",
-    "images": [
-      "2c0e05c6c6731df18394a87efd33a2e4.jpg"
-    ]
-  },
-  {
-    "id": "스완-gl905",
-    "code": "gl905",
-    "name": "gl905",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "2cdc0eed8671690892cdb3505ea2e54e.jpg",
-    "images": [
-      "2cdc0eed8671690892cdb3505ea2e54e.jpg"
-    ]
-  },
-  {
-    "id": "스완-gl910",
-    "code": "gl910",
-    "name": "gl910",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "57ffc4907968c255c6aa1e61e248cd4c.jpg",
-    "images": [
-      "57ffc4907968c255c6aa1e61e248cd4c.jpg"
-    ]
-  },
-  {
-    "id": "스완-gl913",
-    "code": "gl913",
-    "name": "gl913",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "db79b3edcc523150b18ac761ec9b9d65.jpg",
-    "images": [
-      "db79b3edcc523150b18ac761ec9b9d65.jpg"
-    ]
-  },
-  {
-    "id": "스완-gl920",
-    "code": "gl920",
-    "name": "gl920",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "21013fe3f3ae2d6601dca72cfe0745f9.jpg",
-    "images": [
-      "21013fe3f3ae2d6601dca72cfe0745f9.jpg"
-    ]
-  },
-  {
-    "id": "스완-gl921",
-    "code": "gl921",
-    "name": "gl921",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "36ccf72df3fbfa11aa3f8cad20064450.jpg",
-    "images": [
-      "36ccf72df3fbfa11aa3f8cad20064450.jpg"
-    ]
-  },
-  {
-    "id": "스완-gl932",
-    "code": "gl932",
-    "name": "gl932",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "03ff805c00646618c6b34d009ee2704b.jpg",
-    "images": [
-      "03ff805c00646618c6b34d009ee2704b.jpg"
-    ]
-  },
-  {
-    "id": "스완-gl933",
-    "code": "gl933",
-    "name": "gl933",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "bf140ee7db2cfda9d953bdee0f07fd1d.jpg",
-    "images": [
-      "bf140ee7db2cfda9d953bdee0f07fd1d.jpg"
-    ]
-  },
-  {
-    "id": "스완-gl934",
-    "code": "gl934",
-    "name": "gl934",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "830d2f1522a676e755fb8bafced53000.jpg",
-    "images": [
-      "830d2f1522a676e755fb8bafced53000.jpg"
-    ]
-  },
-  {
-    "id": "스완-gl935",
-    "code": "gl935",
-    "name": "gl935",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "27694cff35586423af66329d69b456a2.jpg",
-    "images": [
-      "27694cff35586423af66329d69b456a2.jpg"
-    ]
-  },
-  {
-    "id": "스완-gl936",
-    "code": "gl936",
-    "name": "gl936",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "f51897d2e42c4b4e2132b69739f32f20.jpg",
-    "images": [
-      "f51897d2e42c4b4e2132b69739f32f20.jpg"
-    ]
-  },
-  {
-    "id": "스완-gl937",
-    "code": "gl937",
-    "name": "gl937",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "af858daf2bf2888ab8813ea901384a77.jpg",
-    "images": [
-      "af858daf2bf2888ab8813ea901384a77.jpg"
-    ]
-  },
-  {
-    "id": "스완-gl941",
-    "code": "gl941",
-    "name": "gl941",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "3e7577747d638647657d53e9dbd7e3b8.jpg",
-    "images": [
-      "3e7577747d638647657d53e9dbd7e3b8.jpg"
-    ]
-  },
-  {
-    "id": "스완-gl942",
-    "code": "gl942",
-    "name": "gl942",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "b02bfd4039079dc1abfd6ca68c49f61d.jpg",
-    "images": [
-      "b02bfd4039079dc1abfd6ca68c49f61d.jpg"
-    ]
-  },
-  {
-    "id": "스완-gl943",
-    "code": "gl943",
-    "name": "gl943",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "d222b97357c70726b10f12605db9846c.jpg",
-    "images": [
-      "d222b97357c70726b10f12605db9846c.jpg"
-    ]
-  },
-  {
-    "id": "스완-gl944",
-    "code": "gl944",
-    "name": "gl944",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "250a39c629f5cc19f4b2d28830f6f787.jpg",
-    "images": [
-      "250a39c629f5cc19f4b2d28830f6f787.jpg"
-    ]
-  },
-  {
-    "id": "스완-gl945",
-    "code": "gl945",
-    "name": "gl945",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "f706fe1b6cc59318ed1c1c64ff46bfb1.jpg",
-    "images": [
-      "f706fe1b6cc59318ed1c1c64ff46bfb1.jpg"
-    ]
-  },
-  {
-    "id": "스완-gl946",
-    "code": "gl946",
-    "name": "gl946",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "af90c837fbd7d2133d8256f15f1dd071.jpg",
-    "images": [
-      "af90c837fbd7d2133d8256f15f1dd071.jpg"
-    ]
-  },
-  {
-    "id": "스완-gl947",
-    "code": "gl947",
-    "name": "gl947",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "eec81c79f6e45b07992f5963e977ddb0.jpg",
-    "images": [
-      "eec81c79f6e45b07992f5963e977ddb0.jpg"
-    ]
-  },
-  {
-    "id": "스완-gl948",
-    "code": "gl948",
-    "name": "gl948",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "e0ec2a3a9308c06f3e9e8cc52d5e33f4.jpg",
-    "images": [
-      "e0ec2a3a9308c06f3e9e8cc52d5e33f4.jpg"
-    ]
-  },
-  {
-    "id": "스완-gl949",
-    "code": "gl949",
-    "name": "gl949",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "3d75a18bc326cb2bae10eebb648b6601.jpg",
-    "images": [
-      "3d75a18bc326cb2bae10eebb648b6601.jpg"
-    ]
-  },
-  {
-    "id": "스완-GP641",
-    "code": "GP641",
-    "name": "GP641",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "ebd4d6c764fb95990c87de085de980af.jpg",
-    "images": [
-      "ebd4d6c764fb95990c87de085de980af.jpg"
-    ]
-  },
-  {
-    "id": "스완-gp641",
-    "code": "gp641",
-    "name": "gp641",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "7c1a9ce0f5e1c38c40562444c72786bf.jpg",
-    "images": [
-      "7c1a9ce0f5e1c38c40562444c72786bf.jpg"
-    ]
-  },
-  {
-    "id": "스완-GP642",
-    "code": "GP642",
-    "name": "GP642",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "33e49c4e92022f88a9d758660b1bbdad.jpg",
-    "images": [
-      "33e49c4e92022f88a9d758660b1bbdad.jpg"
-    ]
-  },
-  {
-    "id": "스완-gp642",
-    "code": "gp642",
-    "name": "gp642",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "54a8050519f6be214ad3e16f53970391.jpg",
-    "images": [
-      "54a8050519f6be214ad3e16f53970391.jpg"
-    ]
-  },
-  {
-    "id": "스완-GP643",
-    "code": "GP643",
-    "name": "GP643",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "b4f2dc4ccecabbb240e7ac35a314b753.jpg",
-    "images": [
-      "b4f2dc4ccecabbb240e7ac35a314b753.jpg"
-    ]
-  },
-  {
-    "id": "스완-gp643",
-    "code": "gp643",
-    "name": "gp643",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "a5f1dfab8d65de563b3ef2dcc71758fd.jpg",
-    "images": [
-      "a5f1dfab8d65de563b3ef2dcc71758fd.jpg"
-    ]
-  },
-  {
-    "id": "스완-gp673",
-    "code": "gp673",
-    "name": "gp673",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "9e1fb0c6343a5e7f820d6dd1141417ca.jpg",
-    "images": [
-      "9e1fb0c6343a5e7f820d6dd1141417ca.jpg"
-    ]
-  },
-  {
-    "id": "스완-mj801",
-    "code": "mj801",
-    "name": "mj801",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "18ddc22e6f84a6175585370ece9c3726.jpg",
-    "images": [
-      "18ddc22e6f84a6175585370ece9c3726.jpg"
-    ]
-  },
-  {
-    "id": "스완-mj803",
-    "code": "mj803",
-    "name": "mj803",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "63bb39dd139bd2b6b87da415ad8a7d61.jpg",
-    "images": [
-      "63bb39dd139bd2b6b87da415ad8a7d61.jpg"
-    ]
-  },
-  {
-    "id": "스완-mj804",
-    "code": "mj804",
-    "name": "mj804",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "c9ec21ad9c0a9318afa9cf1182a408fb.jpg",
-    "images": [
-      "c9ec21ad9c0a9318afa9cf1182a408fb.jpg"
-    ]
-  },
-  {
-    "id": "스완-mj809",
-    "code": "mj809",
-    "name": "mj809",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "6c358fe5246c40618a83d4da2fe496ab.jpg",
-    "images": [
-      "6c358fe5246c40618a83d4da2fe496ab.jpg"
-    ]
-  },
-  {
-    "id": "스완-mj810",
-    "code": "mj810",
-    "name": "mj810",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "c17c608d2642964d83cddb846d52df92.jpg",
-    "images": [
-      "c17c608d2642964d83cddb846d52df92.jpg"
-    ]
-  },
-  {
-    "id": "스완-mj811",
-    "code": "mj811",
-    "name": "mj811",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "0d186f92025815fbbe4e8024fab23dac.jpg",
-    "images": [
-      "0d186f92025815fbbe4e8024fab23dac.jpg"
-    ]
-  },
-  {
-    "id": "스완-mj816",
-    "code": "mj816",
-    "name": "mj816",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "e13570b50afb7a354cc07cc19a0353db.jpg",
-    "images": [
-      "e13570b50afb7a354cc07cc19a0353db.jpg"
-    ]
-  },
-  {
-    "id": "스완-mj817",
-    "code": "mj817",
-    "name": "mj817",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "39199278689c81ec53c468a58712b4f6.jpg",
-    "images": [
-      "39199278689c81ec53c468a58712b4f6.jpg"
-    ]
-  },
-  {
-    "id": "스완-mn251",
-    "code": "mn251",
-    "name": "mn251",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "ddae9d04230a105692d77bccb9004cd1.jpg",
-    "images": [
-      "ddae9d04230a105692d77bccb9004cd1.jpg"
-    ]
-  },
-  {
-    "id": "스완-mn252",
-    "code": "mn252",
-    "name": "mn252",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "b0bb651a306f73722e23c78607b973a7.jpg",
-    "images": [
-      "b0bb651a306f73722e23c78607b973a7.jpg"
-    ]
-  },
-  {
-    "id": "스완-mn253",
-    "code": "mn253",
-    "name": "mn253",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "66380c5df257ff95ceacac27aa20ed91.jpg",
-    "images": [
-      "66380c5df257ff95ceacac27aa20ed91.jpg"
-    ]
-  },
-  {
-    "id": "스완-mn254",
-    "code": "mn254",
-    "name": "mn254",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "bc9f4ce87b579694a7036622702e57cb.jpg",
-    "images": [
-      "bc9f4ce87b579694a7036622702e57cb.jpg"
-    ]
-  },
-  {
-    "id": "스완-mn255",
-    "code": "mn255",
-    "name": "mn255",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "6c2831735751ea1ba0f00f794f5a8ee5.jpg",
-    "images": [
-      "6c2831735751ea1ba0f00f794f5a8ee5.jpg"
-    ]
-  },
-  {
-    "id": "스완-mn256",
-    "code": "mn256",
-    "name": "mn256",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "4601b6cc0464ed76133cdf666572efa0.jpg",
-    "images": [
-      "4601b6cc0464ed76133cdf666572efa0.jpg"
-    ]
-  },
-  {
-    "id": "스완-mono_img2",
-    "code": "mono_img2",
-    "name": "mono_img2",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "f8115e83e0092a3c580e0b2525595bff.jpg",
-    "images": [
-      "f8115e83e0092a3c580e0b2525595bff.jpg"
-    ]
-  },
-  {
-    "id": "스완-mx095",
-    "code": "mx095",
-    "name": "mx095",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "8f0264f56548944b182eb42e8cb7f5a3.jpg",
-    "images": [
-      "8f0264f56548944b182eb42e8cb7f5a3.jpg"
-    ]
-  },
-  {
-    "id": "스완-mx816",
-    "code": "mx816",
-    "name": "mx816",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "d2dc07a056dde973882ae9b5a4d89189.jpg",
-    "images": [
-      "d2dc07a056dde973882ae9b5a4d89189.jpg"
-    ]
-  },
-  {
-    "id": "스완-mx834",
-    "code": "mx834",
-    "name": "mx834",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "2ac34cc559bca90c47394f17f2dcaff5.jpg",
-    "images": [
-      "2ac34cc559bca90c47394f17f2dcaff5.jpg"
-    ]
-  },
-  {
-    "id": "스완-mx849",
-    "code": "mx849",
-    "name": "mx849",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "2c2e0707144aad10180fe39de3697715.jpg",
-    "images": [
-      "2c2e0707144aad10180fe39de3697715.jpg"
-    ]
-  },
-  {
-    "id": "스완-mx853",
-    "code": "mx853",
-    "name": "mx853",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "a4898dbaec1a4c2525e8c5d3ede2c0a4.jpg",
-    "images": [
-      "a4898dbaec1a4c2525e8c5d3ede2c0a4.jpg"
-    ]
-  },
-  {
-    "id": "스완-mx854",
-    "code": "mx854",
-    "name": "mx854",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "189173f46e46680c25eae2b3957e5566.jpg",
-    "images": [
-      "189173f46e46680c25eae2b3957e5566.jpg"
-    ]
-  },
-  {
-    "id": "스완-mx855",
-    "code": "mx855",
-    "name": "mx855",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "9fa62e9fc3864cc93ede44988cb63dec.jpg",
-    "images": [
-      "9fa62e9fc3864cc93ede44988cb63dec.jpg"
-    ]
-  },
-  {
-    "id": "스완-mx871",
-    "code": "mx871",
-    "name": "mx871",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "6925db5a5ab013ce7f72d38a5dc12ac2.jpg",
-    "images": [
-      "6925db5a5ab013ce7f72d38a5dc12ac2.jpg"
-    ]
-  },
-  {
-    "id": "스완-sk751",
-    "code": "sk751",
-    "name": "sk751",
-    "brand": "스완",
-    "category": "카페트타일",
-    "line": "",
-    "price": 0,
-    "thumbnail": "e323b2d1e7ad52a4bae832dc0ddc6068.jpg",
-    "images": [
-      "e323b2d1e7ad52a4bae832dc0ddc6068.jpg"
+      "e18a9308ef4fd26c480c27846d988ccf.jpg"
     ],
+    "thickness": "9.0mm(±0.5mm)",
     "specs": {
       "division": "",
-      "thickness": "",
-      "size": "500mm x 500mm",
-      "packing": "16pcs / 4m²"
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
     }
   },
   {
-    "id": "스완-sk752",
-    "code": "sk752",
-    "name": "sk752",
+    "id": "스완-롤 카페트_AR508",
+    "code": "AR508",
+    "name": "AR508",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "80389f33fe6790f6e94555bf4e036e71.jpg",
+    "thumbnail": "f6ddea85eeb703c28d3bf5a1ee8f81bf.jpg",
     "images": [
-      "80389f33fe6790f6e94555bf4e036e71.jpg"
+      "f6ddea85eeb703c28d3bf5a1ee8f81bf.jpg"
     ],
+    "thickness": "9.0mm(±0.5mm)",
     "specs": {
       "division": "",
-      "thickness": "",
-      "size": "500mm x 500mm",
-      "packing": "16pcs / 4m²"
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
     }
   },
   {
-    "id": "스완-sk753",
-    "code": "sk753",
-    "name": "sk753",
+    "id": "스완-롤 카페트_AR511",
+    "code": "AR511",
+    "name": "AR511",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "4088ce324a5e4ed27470bfec363c4748.jpg",
+    "thumbnail": "a5f0bb68c54e4569f43c655f2b5261c9.jpg",
     "images": [
-      "4088ce324a5e4ed27470bfec363c4748.jpg"
+      "a5f0bb68c54e4569f43c655f2b5261c9.jpg"
     ],
+    "thickness": "9.0mm(±0.5mm)",
     "specs": {
       "division": "",
-      "thickness": "",
-      "size": "500mm x 500mm",
-      "packing": "16pcs / 4m²"
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
     }
   },
   {
-    "id": "스완-sk754",
-    "code": "sk754",
-    "name": "sk754",
+    "id": "스완-롤 카페트_AR516",
+    "code": "AR516",
+    "name": "AR516",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "147f843f0666d8df43b41ed3cd9ff181.jpg",
+    "thumbnail": "1eba8ebea12ac2fe2685e1278ba5f18f.jpg",
     "images": [
-      "147f843f0666d8df43b41ed3cd9ff181.jpg"
+      "1eba8ebea12ac2fe2685e1278ba5f18f.jpg"
     ],
+    "thickness": "9.0mm(±0.5mm)",
     "specs": {
       "division": "",
-      "thickness": "",
-      "size": "500mm x 500mm",
-      "packing": "16pcs / 4m²"
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
     }
   },
   {
-    "id": "스완-sketch_img2",
-    "code": "sketch_img2",
-    "name": "sketch_img2",
+    "id": "스완-롤 카페트_AR540",
+    "code": "AR540",
+    "name": "AR540",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "a045d780d46f87ba3f35889e0da66d61.jpg",
+    "thumbnail": "29045a7d8f5f34cfbfff8ab2d574a224.jpg",
     "images": [
-      "a045d780d46f87ba3f35889e0da66d61.jpg"
+      "29045a7d8f5f34cfbfff8ab2d574a224.jpg"
     ],
+    "thickness": "9.0mm(±0.5mm)",
     "specs": {
       "division": "",
-      "thickness": "",
-      "size": "500mm x 500mm",
-      "packing": "16pcs / 4m²"
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
     }
   },
   {
-    "id": "스완-sp505",
-    "code": "sp505",
-    "name": "sp505",
+    "id": "스완-롤 카페트_AR551",
+    "code": "AR551",
+    "name": "AR551",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "9ee4989710b25169e04dc0c12b302871.jpg",
+    "thumbnail": "37cc18aa08f97a646ae834775e684d37.jpg",
     "images": [
-      "9ee4989710b25169e04dc0c12b302871.jpg"
-    ]
+      "37cc18aa08f97a646ae834775e684d37.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
   },
   {
-    "id": "스완-sp507",
-    "code": "sp507",
-    "name": "sp507",
+    "id": "스완-롤 카페트_FO3305",
+    "code": "FO3305",
+    "name": "FO3305",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "2460265133cf0ce4badf243a4efeba2a.jpg",
+    "thumbnail": "5f67aa5012bd73bb49f3f4aa99742775.jpg",
     "images": [
-      "2460265133cf0ce4badf243a4efeba2a.jpg"
-    ]
+      "5f67aa5012bd73bb49f3f4aa99742775.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
   },
   {
-    "id": "스완-sp508",
-    "code": "sp508",
-    "name": "sp508",
+    "id": "스완-롤 카페트_FO3333",
+    "code": "FO3333",
+    "name": "FO3333",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "c3ab545e10142bb0709905f361c80f58.jpg",
+    "thumbnail": "b895cf07362f24c2a1a32e817260b072.jpg",
     "images": [
-      "c3ab545e10142bb0709905f361c80f58.jpg"
-    ]
+      "b895cf07362f24c2a1a32e817260b072.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
   },
   {
-    "id": "스완-sp522",
-    "code": "sp522",
-    "name": "sp522",
+    "id": "스완-롤 카페트_FO3340",
+    "code": "FO3340",
+    "name": "FO3340",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "836130421023494b3a5358b5dcb186c2.jpg",
+    "thumbnail": "3aea76ff64355c865e768f01b33e58b6.jpg",
     "images": [
-      "836130421023494b3a5358b5dcb186c2.jpg"
-    ]
+      "3aea76ff64355c865e768f01b33e58b6.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
   },
   {
-    "id": "스완-sp526",
-    "code": "sp526",
-    "name": "sp526",
+    "id": "스완-롤 카페트_FO3346",
+    "code": "FO3346",
+    "name": "FO3346",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "36e7f1ca1a97ba3ed52f6c230a600ea3.jpg",
+    "thumbnail": "8f0ed84e3da637ea7b10fa1fcd9ed7ae.jpg",
     "images": [
-      "36e7f1ca1a97ba3ed52f6c230a600ea3.jpg"
-    ]
+      "8f0ed84e3da637ea7b10fa1fcd9ed7ae.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
   },
   {
-    "id": "스완-sp601",
-    "code": "sp601",
-    "name": "sp601",
+    "id": "스완-롤 카페트_FO3351",
+    "code": "FO3351",
+    "name": "FO3351",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "7b89991d5b6d60aabfa83abb6d787197.jpg",
+    "thumbnail": "1ef16567507c92fec3b61eb9ba93f17e.jpg",
     "images": [
-      "7b89991d5b6d60aabfa83abb6d787197.jpg"
-    ]
+      "1ef16567507c92fec3b61eb9ba93f17e.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
   },
   {
-    "id": "스완-sp603",
-    "code": "sp603",
-    "name": "sp603",
+    "id": "스완-롤 카페트_FO3356",
+    "code": "FO3356",
+    "name": "FO3356",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "17a00d117ef2a16bbf678e74dbb57ddc.jpg",
+    "thumbnail": "bf5ccaba0cb52c6692b361707177be68.jpg",
     "images": [
-      "17a00d117ef2a16bbf678e74dbb57ddc.jpg"
-    ]
+      "bf5ccaba0cb52c6692b361707177be68.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
   },
   {
-    "id": "스완-sp604",
-    "code": "sp604",
-    "name": "sp604",
+    "id": "스완-롤 카페트_FO3357",
+    "code": "FO3357",
+    "name": "FO3357",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "240665b8efaf4cb262558e69bff01aa3.jpg",
+    "thumbnail": "14f2d54a3146a0d18415b10bde2163f3.jpg",
     "images": [
-      "240665b8efaf4cb262558e69bff01aa3.jpg"
-    ]
+      "14f2d54a3146a0d18415b10bde2163f3.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
   },
   {
-    "id": "스완-sp605",
-    "code": "sp605",
-    "name": "sp605",
+    "id": "스완-롤 카페트_FO3358",
+    "code": "FO3358",
+    "name": "FO3358",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "7451bc883f7fc197e1b7345d628a73ef.jpg",
+    "thumbnail": "365f54802026fd0ac8ab4ed16955cfb6.jpg",
     "images": [
-      "7451bc883f7fc197e1b7345d628a73ef.jpg"
-    ]
+      "365f54802026fd0ac8ab4ed16955cfb6.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
   },
   {
-    "id": "스완-space_img2",
-    "code": "space_img2",
-    "name": "space_img2",
+    "id": "스완-롤 카페트_FO3802",
+    "code": "FO3802",
+    "name": "FO3802",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "86a76d90d61c9733e0522dcd949a4a8a.jpg",
+    "thumbnail": "34309cb46ea0b072280e6b06faade00c.jpg",
     "images": [
-      "86a76d90d61c9733e0522dcd949a4a8a.jpg"
-    ]
+      "34309cb46ea0b072280e6b06faade00c.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
   },
   {
-    "id": "스완-sq206",
-    "code": "sq206",
-    "name": "sq206",
+    "id": "스완-롤 카페트_FO3803",
+    "code": "FO3803",
+    "name": "FO3803",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "9835a67efacb45883f6c00c8aa870701.jpg",
+    "thumbnail": "2603b8ab17893f2030c95aa6e6b3a9e6.jpg",
     "images": [
-      "9835a67efacb45883f6c00c8aa870701.jpg"
-    ]
+      "2603b8ab17893f2030c95aa6e6b3a9e6.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
   },
   {
-    "id": "스완-sq208",
-    "code": "sq208",
-    "name": "sq208",
+    "id": "스완-롤 카페트_FO3804",
+    "code": "FO3804",
+    "name": "FO3804",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "37a3fe247b7e3b43c1544fddb1b2963a.jpg",
+    "thumbnail": "a07fb82e676c21a7f0c8c81a35f27b00.jpg",
     "images": [
-      "37a3fe247b7e3b43c1544fddb1b2963a.jpg"
-    ]
+      "a07fb82e676c21a7f0c8c81a35f27b00.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
   },
   {
-    "id": "스완-sq212",
-    "code": "sq212",
-    "name": "sq212",
+    "id": "스완-롤 카페트_FO3806",
+    "code": "FO3806",
+    "name": "FO3806",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "bf27445c45e49f8904c3fe8e36271d51.jpg",
+    "thumbnail": "d9dac0ee218d6e189391827fe2096d6d.jpg",
     "images": [
-      "bf27445c45e49f8904c3fe8e36271d51.jpg"
-    ]
+      "d9dac0ee218d6e189391827fe2096d6d.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
   },
   {
-    "id": "스완-sq222",
-    "code": "sq222",
-    "name": "sq222",
+    "id": "스완-롤 카페트_FO3807",
+    "code": "FO3807",
+    "name": "FO3807",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "30001e9984e60a70a095bbeb0ccaecfc.jpg",
+    "thumbnail": "becaa0b5c8b1b5b04e4f17fbef4dd15e.jpg",
     "images": [
-      "30001e9984e60a70a095bbeb0ccaecfc.jpg"
-    ]
+      "becaa0b5c8b1b5b04e4f17fbef4dd15e.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
   },
   {
-    "id": "스완-sq226",
-    "code": "sq226",
-    "name": "sq226",
+    "id": "스완-롤 카페트_FO3808",
+    "code": "FO3808",
+    "name": "FO3808",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "0fedc3695c20e801776301eebf2adcbb.jpg",
+    "thumbnail": "08097697473fb7e77a18f0bbe8c0603c.jpg",
     "images": [
-      "0fedc3695c20e801776301eebf2adcbb.jpg"
-    ]
+      "08097697473fb7e77a18f0bbe8c0603c.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
   },
   {
-    "id": "스완-sqace_q_img",
-    "code": "sqace_q_img",
-    "name": "sqace_q_img",
+    "id": "스완-롤 카페트_FO3815",
+    "code": "FO3815",
+    "name": "FO3815",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "7a171ddd09b7a2813b1c796537d21669.jpg",
+    "thumbnail": "fe62497f22b31c7d58952d760ee52815.jpg",
     "images": [
-      "7a171ddd09b7a2813b1c796537d21669.jpg"
-    ]
+      "fe62497f22b31c7d58952d760ee52815.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
   },
   {
-    "id": "스완-tr101",
-    "code": "tr101",
-    "name": "tr101",
+    "id": "스완-롤 카페트_FO3816",
+    "code": "FO3816",
+    "name": "FO3816",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "495cb76a9982978c6dc707dee5a1515e.jpg",
+    "thumbnail": "9b3332c41fd22741e6a3235a38e9188e.jpg",
     "images": [
-      "495cb76a9982978c6dc707dee5a1515e.jpg"
-    ]
+      "9b3332c41fd22741e6a3235a38e9188e.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
   },
   {
-    "id": "스완-tr104",
-    "code": "tr104",
-    "name": "tr104",
+    "id": "스완-롤 카페트_FO3817",
+    "code": "FO3817",
+    "name": "FO3817",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "c2e0f87078a07707c3c011751c1a02a8.jpg",
+    "thumbnail": "08df9cbc26f4ccf90bfdc85d5c39e070.jpg",
     "images": [
-      "c2e0f87078a07707c3c011751c1a02a8.jpg"
-    ]
+      "08df9cbc26f4ccf90bfdc85d5c39e070.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
   },
   {
-    "id": "스완-tr107",
-    "code": "tr107",
-    "name": "tr107",
+    "id": "스완-롤 카페트_GM101",
+    "code": "GM101",
+    "name": "GM101",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "27460b6a8002c9aea2b3a59946869488.jpg",
+    "thumbnail": "32bb960be43c62a7de334dc0a5b05a1b.jpg",
     "images": [
-      "27460b6a8002c9aea2b3a59946869488.jpg"
-    ]
+      "32bb960be43c62a7de334dc0a5b05a1b.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
   },
   {
-    "id": "스완-tr108",
-    "code": "tr108",
-    "name": "tr108",
+    "id": "스완-롤 카페트_GM102",
+    "code": "GM102",
+    "name": "GM102",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "cee177b91004610e520bc018cb41115d.jpg",
+    "thumbnail": "49b2f038244292440cb211cdbbcdba59.jpg",
     "images": [
-      "cee177b91004610e520bc018cb41115d.jpg"
-    ]
+      "49b2f038244292440cb211cdbbcdba59.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
   },
   {
-    "id": "스완-tr109",
-    "code": "tr109",
-    "name": "tr109",
+    "id": "스완-롤 카페트_GM104",
+    "code": "GM104",
+    "name": "GM104",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "f95b9b47a051d1c4777f6070fcf160c0.jpg",
+    "thumbnail": "42d2e07ff17c4940822f5117887e2fe4.jpg",
     "images": [
-      "f95b9b47a051d1c4777f6070fcf160c0.jpg"
-    ]
+      "42d2e07ff17c4940822f5117887e2fe4.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
   },
   {
-    "id": "스완-tr110",
-    "code": "tr110",
-    "name": "tr110",
+    "id": "스완-롤 카페트_GM105",
+    "code": "GM105",
+    "name": "GM105",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "a740c1566523b754dcecd821fc0c7d15.jpg",
+    "thumbnail": "2d70fc103ad6865055cf8b52d526391e.jpg",
     "images": [
-      "a740c1566523b754dcecd821fc0c7d15.jpg"
-    ]
+      "2d70fc103ad6865055cf8b52d526391e.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
   },
   {
-    "id": "스완-tr112",
-    "code": "tr112",
-    "name": "tr112",
+    "id": "스완-롤 카페트_ME1305",
+    "code": "ME1305",
+    "name": "ME1305",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "aa726c990623cd5a55f9936c6a46dd4e.jpg",
+    "thumbnail": "b5a09d7f88d31d3accd6c5e8e515ca7c.jpg",
     "images": [
-      "aa726c990623cd5a55f9936c6a46dd4e.jpg"
-    ]
+      "b5a09d7f88d31d3accd6c5e8e515ca7c.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
   },
   {
-    "id": "스완-tr121",
-    "code": "tr121",
-    "name": "tr121",
+    "id": "스완-롤 카페트_ME1615",
+    "code": "ME1615",
+    "name": "ME1615",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "0d3daae34b35d677ef876e7daa786591.jpg",
+    "thumbnail": "878263a2c0dce204bb10fd16365869fb.jpg",
     "images": [
-      "0d3daae34b35d677ef876e7daa786591.jpg"
-    ]
+      "878263a2c0dce204bb10fd16365869fb.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
   },
   {
-    "id": "스완-tr122",
-    "code": "tr122",
-    "name": "tr122",
+    "id": "스완-롤 카페트_ME1616",
+    "code": "ME1616",
+    "name": "ME1616",
     "brand": "스완",
     "category": "카페트타일",
-    "line": "",
+    "line": "롤 카페트",
     "price": 0,
-    "thumbnail": "95622122a701eefd0b9350bed05fb902.jpg",
+    "thumbnail": "67c3fa16803f25b9021e81d04a81dce3.jpg",
     "images": [
-      "95622122a701eefd0b9350bed05fb902.jpg"
-    ]
+      "67c3fa16803f25b9021e81d04a81dce3.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
   },
   {
-    "id": "스완-타일 카페트_ba102",
-    "code": "ba102",
-    "name": "ba102",
+    "id": "스완-롤 카페트_ME1621",
+    "code": "ME1621",
+    "name": "ME1621",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "a142b86024d11bf42c4bc4f9e5ea0ddd.jpg",
+    "images": [
+      "a142b86024d11bf42c4bc4f9e5ea0ddd.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_ME1622",
+    "code": "ME1622",
+    "name": "ME1622",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "b201f4f30621d36c0a3be49a1de8fed5.jpg",
+    "images": [
+      "b201f4f30621d36c0a3be49a1de8fed5.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_ME1623",
+    "code": "ME1623",
+    "name": "ME1623",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "6a4452010b74e27df9b4d6d8a6e40f93.jpg",
+    "images": [
+      "6a4452010b74e27df9b4d6d8a6e40f93.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_ME1624",
+    "code": "ME1624",
+    "name": "ME1624",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "67f7edfe4c96d869540f792601a36dc6.jpg",
+    "images": [
+      "67f7edfe4c96d869540f792601a36dc6.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_ME1625",
+    "code": "ME1625",
+    "name": "ME1625",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "a71e8a9844d9dd2dec1987541d7b7567.jpg",
+    "images": [
+      "a71e8a9844d9dd2dec1987541d7b7567.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_ML2703",
+    "code": "ML2703",
+    "name": "ML2703",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "475a30c56580d8dbb7b7a345753a91f6.jpg",
+    "images": [
+      "475a30c56580d8dbb7b7a345753a91f6.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_ML2704",
+    "code": "ML2704",
+    "name": "ML2704",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "69d70b3ab4cfd28c9ef36c9e023e0ab3.jpg",
+    "images": [
+      "69d70b3ab4cfd28c9ef36c9e023e0ab3.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_ML2705",
+    "code": "ML2705",
+    "name": "ML2705",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "e8365cd53f97d8dc47a4cfd816017a49.jpg",
+    "images": [
+      "e8365cd53f97d8dc47a4cfd816017a49.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_ml3004",
+    "code": "ml3004",
+    "name": "ml3004",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "9d267ebd9eb0695b6fe289303c5368b0.jpg",
+    "images": [
+      "9d267ebd9eb0695b6fe289303c5368b0.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_ml3005",
+    "code": "ml3005",
+    "name": "ml3005",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "91f01c57c10283c0485156b06ba02713.jpg",
+    "images": [
+      "91f01c57c10283c0485156b06ba02713.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_ml3010",
+    "code": "ml3010",
+    "name": "ml3010",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "c39ba17ff80a20b2a07b5d72b56aa676.jpg",
+    "images": [
+      "c39ba17ff80a20b2a07b5d72b56aa676.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_ml3011",
+    "code": "ml3011",
+    "name": "ml3011",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "f7ab54f8aa27da9900d3a88ea2e01e0a.jpg",
+    "images": [
+      "f7ab54f8aa27da9900d3a88ea2e01e0a.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_ml3013",
+    "code": "ml3013",
+    "name": "ml3013",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "5c12ccdb2ea920f66dbf9cd34c176766.jpg",
+    "images": [
+      "5c12ccdb2ea920f66dbf9cd34c176766.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_ml3014",
+    "code": "ml3014",
+    "name": "ml3014",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "a9de74709cc747a1fd8ffb64a86035e2.jpg",
+    "images": [
+      "a9de74709cc747a1fd8ffb64a86035e2.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_ml3222",
+    "code": "ml3222",
+    "name": "ml3222",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "3cd6ae80c8031cb7970e230e0315f9f3.jpg",
+    "images": [
+      "3cd6ae80c8031cb7970e230e0315f9f3.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_PS3701",
+    "code": "PS3701",
+    "name": "PS3701",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "0a33251aa37e5b728f2935b0da5ff1bf.jpg",
+    "images": [
+      "0a33251aa37e5b728f2935b0da5ff1bf.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_PS3705",
+    "code": "PS3705",
+    "name": "PS3705",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "48e90f1616c5f6d4e93e438d878c7c62.jpg",
+    "images": [
+      "48e90f1616c5f6d4e93e438d878c7c62.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_PS3711",
+    "code": "PS3711",
+    "name": "PS3711",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "56249782b013ce8b5cfb733b9ac445e5.jpg",
+    "images": [
+      "56249782b013ce8b5cfb733b9ac445e5.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_PS3713",
+    "code": "PS3713",
+    "name": "PS3713",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "7f210004c56f922ae54c72f7668f21b0.jpg",
+    "images": [
+      "7f210004c56f922ae54c72f7668f21b0.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_PS3715",
+    "code": "PS3715",
+    "name": "PS3715",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "1bbb27236b45fdce4f2359b79e868ffc.jpg",
+    "images": [
+      "1bbb27236b45fdce4f2359b79e868ffc.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_RF050",
+    "code": "RF050",
+    "name": "RF050",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "3c1321c72bcf64c0e389099f48e5e612.jpg",
+    "images": [
+      "3c1321c72bcf64c0e389099f48e5e612.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_RF054",
+    "code": "RF054",
+    "name": "RF054",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "5c35d3a8cc5fa1632f0c9bc3a3545ec2.jpg",
+    "images": [
+      "5c35d3a8cc5fa1632f0c9bc3a3545ec2.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_RF055",
+    "code": "RF055",
+    "name": "RF055",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "1b0edcf160436f191eb6c1db17884c62.jpg",
+    "images": [
+      "1b0edcf160436f191eb6c1db17884c62.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_RF062",
+    "code": "RF062",
+    "name": "RF062",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "a93a08aa68d8fe15e497d0bacef33ce0.jpg",
+    "images": [
+      "a93a08aa68d8fe15e497d0bacef33ce0.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_RF253",
+    "code": "RF253",
+    "name": "RF253",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "f07ff77d40e6353beeadfea29f0c67eb.jpg",
+    "images": [
+      "f07ff77d40e6353beeadfea29f0c67eb.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_RQ005",
+    "code": "RQ005",
+    "name": "RQ005",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "a5d75fa7f2f65052a3b69b0e80df6395.jpg",
+    "images": [
+      "a5d75fa7f2f65052a3b69b0e80df6395.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_RQ014",
+    "code": "RQ014",
+    "name": "RQ014",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "5254aa30b462c4e23dc53b66a54bf7ba.jpg",
+    "images": [
+      "5254aa30b462c4e23dc53b66a54bf7ba.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_RQ016",
+    "code": "RQ016",
+    "name": "RQ016",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "791da0077d9748879416e22565bef12a.jpg",
+    "images": [
+      "791da0077d9748879416e22565bef12a.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_RQ026",
+    "code": "RQ026",
+    "name": "RQ026",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "f74a2e7cfd7ed8fd5992f908489ec925.jpg",
+    "images": [
+      "f74a2e7cfd7ed8fd5992f908489ec925.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_RQ027",
+    "code": "RQ027",
+    "name": "RQ027",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "cd115e2b2b7767dc49f6800f9ab716c8.jpg",
+    "images": [
+      "cd115e2b2b7767dc49f6800f9ab716c8.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_RQ032",
+    "code": "RQ032",
+    "name": "RQ032",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "29301d7f0fbd8cd228df0d9f5addbd10.jpg",
+    "images": [
+      "29301d7f0fbd8cd228df0d9f5addbd10.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_RQ034",
+    "code": "RQ034",
+    "name": "RQ034",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "6f90cc8ea95763e997ceab86fa744d68.jpg",
+    "images": [
+      "6f90cc8ea95763e997ceab86fa744d68.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_RQ049",
+    "code": "RQ049",
+    "name": "RQ049",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "7bfd402f803971a1619c66b7f4b00b64.jpg",
+    "images": [
+      "7bfd402f803971a1619c66b7f4b00b64.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_RQ054",
+    "code": "RQ054",
+    "name": "RQ054",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "65e76492623cc415def9040e5c9d5da9.jpg",
+    "images": [
+      "65e76492623cc415def9040e5c9d5da9.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_rq054",
+    "code": "rq054",
+    "name": "rq054",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "5d98afbd0b2b4a9a5bfb0244e1d096e5.jpg",
+    "images": [
+      "5d98afbd0b2b4a9a5bfb0244e1d096e5.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_RQ055",
+    "code": "RQ055",
+    "name": "RQ055",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "7f54f497ec4407e25bb15aed9b99f9c3.jpg",
+    "images": [
+      "7f54f497ec4407e25bb15aed9b99f9c3.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_RQ068",
+    "code": "RQ068",
+    "name": "RQ068",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "b802caf292c628bc3d055473add9468f.jpg",
+    "images": [
+      "b802caf292c628bc3d055473add9468f.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_RQ071",
+    "code": "RQ071",
+    "name": "RQ071",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "184eb2c5a0595578f4b18d5363287155.jpg",
+    "images": [
+      "184eb2c5a0595578f4b18d5363287155.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_RQ075",
+    "code": "RQ075",
+    "name": "RQ075",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "bd3d775b8258b4c67abbebf92b678429.jpg",
+    "images": [
+      "bd3d775b8258b4c67abbebf92b678429.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_RQ077",
+    "code": "RQ077",
+    "name": "RQ077",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "73d297361818ee3c54772cde11c9ff1c.jpg",
+    "images": [
+      "73d297361818ee3c54772cde11c9ff1c.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_RQ079",
+    "code": "RQ079",
+    "name": "RQ079",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "23ad1456125ac18882de87179dc80327.jpg",
+    "images": [
+      "23ad1456125ac18882de87179dc80327.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_RQ252",
+    "code": "RQ252",
+    "name": "RQ252",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "bedd682e07d991cc01e676b5c059fe6c.jpg",
+    "images": [
+      "bedd682e07d991cc01e676b5c059fe6c.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_RQ308",
+    "code": "RQ308",
+    "name": "RQ308",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "2026506709b402036c6407e080b2b2b1.jpg",
+    "images": [
+      "2026506709b402036c6407e080b2b2b1.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_RQ309",
+    "code": "RQ309",
+    "name": "RQ309",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "743ee18274f1a443acd12f54c908587a.jpg",
+    "images": [
+      "743ee18274f1a443acd12f54c908587a.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_RQ310",
+    "code": "RQ310",
+    "name": "RQ310",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "93635a59eac0697d9b1c4fab7a6ce69e.jpg",
+    "images": [
+      "93635a59eac0697d9b1c4fab7a6ce69e.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_TP1102",
+    "code": "TP1102",
+    "name": "TP1102",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "cf91ca835f7ff11c7d2fa11c5b5838d8.jpg",
+    "images": [
+      "cf91ca835f7ff11c7d2fa11c5b5838d8.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_TP1142",
+    "code": "TP1142",
+    "name": "TP1142",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "694f2b2dd30f6cc28343e6f163913803.jpg",
+    "images": [
+      "694f2b2dd30f6cc28343e6f163913803.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_TP1162",
+    "code": "TP1162",
+    "name": "TP1162",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "0d55226bb6760e27952f18cfe5ee3f7f.jpg",
+    "images": [
+      "0d55226bb6760e27952f18cfe5ee3f7f.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_TP1505",
+    "code": "TP1505",
+    "name": "TP1505",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "9ecdf6c365ce81b71be9638c06854dbf.jpg",
+    "images": [
+      "9ecdf6c365ce81b71be9638c06854dbf.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_TP1531",
+    "code": "TP1531",
+    "name": "TP1531",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "00c928dbf1b2d66e2aa8acdd580c3574.jpg",
+    "images": [
+      "00c928dbf1b2d66e2aa8acdd580c3574.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_TP1541",
+    "code": "TP1541",
+    "name": "TP1541",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "d1c81fe0bd2f5ff219c7b9fc168e0961.jpg",
+    "images": [
+      "d1c81fe0bd2f5ff219c7b9fc168e0961.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_TP1542",
+    "code": "TP1542",
+    "name": "TP1542",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "9c006519679caa1f100edcd119f69efd.jpg",
+    "images": [
+      "9c006519679caa1f100edcd119f69efd.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_TP1543",
+    "code": "TP1543",
+    "name": "TP1543",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "22dfc799c3abbc6e8fe5f2702d6dfe73.jpg",
+    "images": [
+      "22dfc799c3abbc6e8fe5f2702d6dfe73.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_TP1544",
+    "code": "TP1544",
+    "name": "TP1544",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "5145bf4a7e5a85581bc893c80aaac73b.jpg",
+    "images": [
+      "5145bf4a7e5a85581bc893c80aaac73b.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-롤 카페트_ㅢ2706",
+    "code": "ㅢ2706",
+    "name": "ㅢ2706",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "롤 카페트",
+    "price": 0,
+    "thumbnail": "29497c9c31e49e4e97ec8c8db762fc2e.jpg",
+    "images": [
+      "29497c9c31e49e4e97ec8c8db762fc2e.jpg"
+    ],
+    "thickness": "9.0mm(±0.5mm)",
+    "specs": {
+      "division": "",
+      "thickness": "9.0mm(±0.5mm)",
+      "size": "폭 364cm ~ 366cm",
+      "packing": ""
+    }
+  },
+  {
+    "id": "스완-타일 카페트_BA102",
+    "code": "BA102",
+    "name": "BA102",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "b79c8e61956864dd385b9f85108a1c89.jpg",
+    "thumbnail": "09475f73bf5e0211292024b7c3b97454.jpg",
     "images": [
-      "b79c8e61956864dd385b9f85108a1c89.jpg"
+      "09475f73bf5e0211292024b7c3b97454.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_ba103",
-    "code": "ba103",
-    "name": "ba103",
+    "id": "스완-타일 카페트_BA103",
+    "code": "BA103",
+    "name": "BA103",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "ee8cb114e22d36d02b1e1338c4466b84.jpg",
+    "thumbnail": "a6e6b725dd3077eef195f42cc14d30fa.jpg",
     "images": [
-      "ee8cb114e22d36d02b1e1338c4466b84.jpg"
+      "a6e6b725dd3077eef195f42cc14d30fa.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_ba104",
-    "code": "ba104",
-    "name": "ba104",
+    "id": "스완-타일 카페트_BA104",
+    "code": "BA104",
+    "name": "BA104",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "8320cf1034615ba61ac013f0bee63d54.jpg",
+    "thumbnail": "389913412c31598a45d00b7ea4245bea.jpg",
     "images": [
-      "8320cf1034615ba61ac013f0bee63d54.jpg"
+      "389913412c31598a45d00b7ea4245bea.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_ba146",
-    "code": "ba146",
-    "name": "ba146",
+    "id": "스완-타일 카페트_BA146",
+    "code": "BA146",
+    "name": "BA146",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "f56b999df65cc974a5e67dbfec98c728.jpg",
+    "thumbnail": "f1488d341e88b53894ab364c83ccdbb2.jpg",
     "images": [
-      "f56b999df65cc974a5e67dbfec98c728.jpg"
+      "f1488d341e88b53894ab364c83ccdbb2.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_ba151",
-    "code": "ba151",
-    "name": "ba151",
+    "id": "스완-타일 카페트_BA151",
+    "code": "BA151",
+    "name": "BA151",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "9f23b340853071d0322885e2dea85b08.jpg",
+    "thumbnail": "99ea122415baeeeea4ec279fe69d42d0.jpg",
     "images": [
-      "9f23b340853071d0322885e2dea85b08.jpg"
+      "99ea122415baeeeea4ec279fe69d42d0.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_ba201",
-    "code": "ba201",
-    "name": "ba201",
+    "id": "스완-타일 카페트_BA201",
+    "code": "BA201",
+    "name": "BA201",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "a9da53b3724fbbdd84a9cc2e9b387f04.jpg",
+    "thumbnail": "fe986decf167f410e1db8af32779e102.jpg",
     "images": [
-      "a9da53b3724fbbdd84a9cc2e9b387f04.jpg"
+      "fe986decf167f410e1db8af32779e102.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_ba202",
-    "code": "ba202",
-    "name": "ba202",
+    "id": "스완-타일 카페트_BA202",
+    "code": "BA202",
+    "name": "BA202",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "4a1723a4e3c4bd2e32fc4ba303e083c5.jpg",
+    "thumbnail": "771991e19baccaf6c0c39640b036ee24.jpg",
     "images": [
-      "4a1723a4e3c4bd2e32fc4ba303e083c5.jpg"
+      "771991e19baccaf6c0c39640b036ee24.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_ba203",
-    "code": "ba203",
-    "name": "ba203",
+    "id": "스완-타일 카페트_BA203",
+    "code": "BA203",
+    "name": "BA203",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "3f906d547041eaa0ba28b10f3a498f1d.jpg",
+    "thumbnail": "b06e558b0c30bdaf88ead51850fe0c9d.jpg",
     "images": [
-      "3f906d547041eaa0ba28b10f3a498f1d.jpg"
+      "b06e558b0c30bdaf88ead51850fe0c9d.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_bs301",
-    "code": "bs301",
-    "name": "bs301",
+    "id": "스완-타일 카페트_BS301",
+    "code": "BS301",
+    "name": "BS301",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "0bd25797fb8658d59eb11cab245a89cc.jpg",
+    "thumbnail": "aa358c034166e783f821587f3a501353.jpg",
     "images": [
-      "0bd25797fb8658d59eb11cab245a89cc.jpg"
+      "aa358c034166e783f821587f3a501353.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_bs303",
-    "code": "bs303",
-    "name": "bs303",
+    "id": "스완-타일 카페트_BS303",
+    "code": "BS303",
+    "name": "BS303",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "bf566a432b4dcb7a506c2d007f3db8a6.jpg",
+    "thumbnail": "9c7058b08ff2ffc96b671ac9d1df9152.jpg",
     "images": [
-      "bf566a432b4dcb7a506c2d007f3db8a6.jpg"
+      "9c7058b08ff2ffc96b671ac9d1df9152.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_bs305",
-    "code": "bs305",
-    "name": "bs305",
+    "id": "스완-타일 카페트_BS305",
+    "code": "BS305",
+    "name": "BS305",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "a94a5c598dc71a1b09694953f54dc3c1.jpg",
+    "thumbnail": "6c946cb5571268c0cbdcb0edcc08b0ac.jpg",
     "images": [
-      "a94a5c598dc71a1b09694953f54dc3c1.jpg"
+      "6c946cb5571268c0cbdcb0edcc08b0ac.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_bs309",
-    "code": "bs309",
-    "name": "bs309",
+    "id": "스완-타일 카페트_BS309",
+    "code": "BS309",
+    "name": "BS309",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "a9e4fe1661fc24ff6c8e88e22b6a1da2.jpg",
+    "thumbnail": "5ced27be04285afae0bbf5c4f426c2af.jpg",
     "images": [
-      "a9e4fe1661fc24ff6c8e88e22b6a1da2.jpg"
+      "5ced27be04285afae0bbf5c4f426c2af.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_bs312",
-    "code": "bs312",
-    "name": "bs312",
+    "id": "스완-타일 카페트_BS312",
+    "code": "BS312",
+    "name": "BS312",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "5d05a240704aa8b7a84fd881ab7d788c.jpg",
+    "thumbnail": "620717acee10872c101ab9e5fce7a68d.jpg",
     "images": [
-      "5d05a240704aa8b7a84fd881ab7d788c.jpg"
+      "620717acee10872c101ab9e5fce7a68d.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_bs315",
-    "code": "bs315",
-    "name": "bs315",
+    "id": "스완-타일 카페트_BS315",
+    "code": "BS315",
+    "name": "BS315",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "c9d44d459f7799778db289458b2bd802.jpg",
+    "thumbnail": "e3c41deca7714202fe8b355c87fcb1da.jpg",
     "images": [
-      "c9d44d459f7799778db289458b2bd802.jpg"
+      "e3c41deca7714202fe8b355c87fcb1da.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_bs333",
-    "code": "bs333",
-    "name": "bs333",
+    "id": "스완-타일 카페트_BS333",
+    "code": "BS333",
+    "name": "BS333",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "9bf72cc8d8f4e53106629f31a0960ba3.jpg",
+    "thumbnail": "df3b641795df8ddf2c1cd4b674282919.jpg",
     "images": [
-      "9bf72cc8d8f4e53106629f31a0960ba3.jpg"
+      "df3b641795df8ddf2c1cd4b674282919.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_bs335",
-    "code": "bs335",
-    "name": "bs335",
+    "id": "스완-타일 카페트_BS335",
+    "code": "BS335",
+    "name": "BS335",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "658082b3876b967f254a4c11746ea8bc.jpg",
+    "thumbnail": "d2675b2ed22dd6bf1dee4e8f6e53e040.jpg",
     "images": [
-      "658082b3876b967f254a4c11746ea8bc.jpg"
+      "d2675b2ed22dd6bf1dee4e8f6e53e040.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_bs337",
-    "code": "bs337",
-    "name": "bs337",
+    "id": "스완-타일 카페트_BS337",
+    "code": "BS337",
+    "name": "BS337",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "5adaba09e457c9b740532f20b36b4358.jpg",
+    "thumbnail": "dfdc4ff6a783954f5246019bd7fedafd.jpg",
     "images": [
-      "5adaba09e457c9b740532f20b36b4358.jpg"
+      "dfdc4ff6a783954f5246019bd7fedafd.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_bs340",
-    "code": "bs340",
-    "name": "bs340",
+    "id": "스완-타일 카페트_BS340",
+    "code": "BS340",
+    "name": "BS340",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "0665b8fa83deeedd6a4f37b4c043bda0.jpg",
+    "thumbnail": "44dbbe59594793a8916ab93658eea6e2.jpg",
     "images": [
-      "0665b8fa83deeedd6a4f37b4c043bda0.jpg"
+      "44dbbe59594793a8916ab93658eea6e2.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_bs341",
-    "code": "bs341",
-    "name": "bs341",
+    "id": "스완-타일 카페트_BS341",
+    "code": "BS341",
+    "name": "BS341",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "66d297db4a90dc22458717996b63d96f.jpg",
+    "thumbnail": "d97d3604fc6bcdcd6775d4e06d73dc48.jpg",
     "images": [
-      "66d297db4a90dc22458717996b63d96f.jpg"
+      "d97d3604fc6bcdcd6775d4e06d73dc48.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_bs346",
-    "code": "bs346",
-    "name": "bs346",
+    "id": "스완-타일 카페트_BS346",
+    "code": "BS346",
+    "name": "BS346",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "fe4c060d7b689c9b467c8ea4f332ba3e.jpg",
+    "thumbnail": "979a0d3217e2c98c893a4d108f04d258.jpg",
     "images": [
-      "fe4c060d7b689c9b467c8ea4f332ba3e.jpg"
+      "979a0d3217e2c98c893a4d108f04d258.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_bs351",
-    "code": "bs351",
-    "name": "bs351",
+    "id": "스완-타일 카페트_BS351",
+    "code": "BS351",
+    "name": "BS351",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "1d784cd6b2de0fedf57757161e0a08e3.jpg",
+    "thumbnail": "0b72c9fdae93bef8ee1bcc3c29c6df39.jpg",
     "images": [
-      "1d784cd6b2de0fedf57757161e0a08e3.jpg"
+      "0b72c9fdae93bef8ee1bcc3c29c6df39.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_bs352",
-    "code": "bs352",
-    "name": "bs352",
+    "id": "스완-타일 카페트_BS352",
+    "code": "BS352",
+    "name": "BS352",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "366c7278f557612ad9c83d8696f302eb.jpg",
+    "thumbnail": "0ffc9134dee562fa101d15a606f88ffe.jpg",
     "images": [
-      "366c7278f557612ad9c83d8696f302eb.jpg"
+      "0ffc9134dee562fa101d15a606f88ffe.jpg"
+    ]
+  },
+  {
+    "id": "스완-타일 카페트_BS353",
+    "code": "BS353",
+    "name": "BS353",
+    "brand": "스완",
+    "category": "카페트타일",
+    "line": "타일 카페트",
+    "price": 0,
+    "thumbnail": "ecfe393211572d5aa5c43c3e42383e78.jpg",
+    "images": [
+      "ecfe393211572d5aa5c43c3e42383e78.jpg"
     ]
   },
   {
@@ -37800,815 +37741,815 @@ export const materials = [
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "9318d27ae9d2c2709ba78a654c9e0ab5.jpg",
+    "thumbnail": "9b4e77e49919802667d340862401de55.jpg",
     "images": [
-      "9318d27ae9d2c2709ba78a654c9e0ab5.jpg"
+      "9b4e77e49919802667d340862401de55.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_bs356",
-    "code": "bs356",
-    "name": "bs356",
+    "id": "스완-타일 카페트_BS356",
+    "code": "BS356",
+    "name": "BS356",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "81e5b0182e33df2bfbea6ba53ad9a54d.jpg",
+    "thumbnail": "702765b7808a50a3421de5ca94b0cab1.jpg",
     "images": [
-      "81e5b0182e33df2bfbea6ba53ad9a54d.jpg"
+      "702765b7808a50a3421de5ca94b0cab1.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_bs357",
-    "code": "bs357",
-    "name": "bs357",
+    "id": "스완-타일 카페트_BS357",
+    "code": "BS357",
+    "name": "BS357",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "38d25a83db4f77c0ef819afc4cc87364.jpg",
+    "thumbnail": "9b44cff04f23029379d018cfa05e3c6c.jpg",
     "images": [
-      "38d25a83db4f77c0ef819afc4cc87364.jpg"
+      "9b44cff04f23029379d018cfa05e3c6c.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_bs358",
-    "code": "bs358",
-    "name": "bs358",
+    "id": "스완-타일 카페트_BS358",
+    "code": "BS358",
+    "name": "BS358",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "bbaee1d900f749ee5505dc42b8f02928.jpg",
+    "thumbnail": "5ed02ac3e0cda1d87fbcaf9959c28e3b.jpg",
     "images": [
-      "bbaee1d900f749ee5505dc42b8f02928.jpg"
+      "5ed02ac3e0cda1d87fbcaf9959c28e3b.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_ct711",
-    "code": "ct711",
-    "name": "ct711",
+    "id": "스완-타일 카페트_CT711",
+    "code": "CT711",
+    "name": "CT711",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "23fb06dbb9d38abab7f6919b41afbb0c.jpg",
+    "thumbnail": "1cf5ed3cc2f35059aa8e3c433cee5e49.jpg",
     "images": [
-      "23fb06dbb9d38abab7f6919b41afbb0c.jpg"
+      "1cf5ed3cc2f35059aa8e3c433cee5e49.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_ct712",
-    "code": "ct712",
-    "name": "ct712",
+    "id": "스완-타일 카페트_CT712",
+    "code": "CT712",
+    "name": "CT712",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "0fee3d4c931cc84c7adaa3758442b0e6.jpg",
+    "thumbnail": "b1dbcf10764ea79118e4fe2e2e92fa28.jpg",
     "images": [
-      "0fee3d4c931cc84c7adaa3758442b0e6.jpg"
+      "b1dbcf10764ea79118e4fe2e2e92fa28.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_ct713",
-    "code": "ct713",
-    "name": "ct713",
+    "id": "스완-타일 카페트_CT713",
+    "code": "CT713",
+    "name": "CT713",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "e1c732d0645adbd0d95e74f72368b51d.jpg",
+    "thumbnail": "3395faed2288068f5a2eff6c3051b88c.jpg",
     "images": [
-      "e1c732d0645adbd0d95e74f72368b51d.jpg"
+      "3395faed2288068f5a2eff6c3051b88c.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_ct715",
-    "code": "ct715",
-    "name": "ct715",
+    "id": "스완-타일 카페트_CT715",
+    "code": "CT715",
+    "name": "CT715",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "dadb5d001655100753794f1a27c63021.jpg",
+    "thumbnail": "18d749141b9b9c1aae2403cd3c0bd35c.jpg",
     "images": [
-      "dadb5d001655100753794f1a27c63021.jpg"
+      "18d749141b9b9c1aae2403cd3c0bd35c.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_ct716",
-    "code": "ct716",
-    "name": "ct716",
+    "id": "스완-타일 카페트_CT716",
+    "code": "CT716",
+    "name": "CT716",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "cab208214b9b1cf1c822e9000791a2b9.jpg",
+    "thumbnail": "1cb75d8e06bd730bd39a1109d84477f1.jpg",
     "images": [
-      "cab208214b9b1cf1c822e9000791a2b9.jpg"
+      "1cb75d8e06bd730bd39a1109d84477f1.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_ct717",
-    "code": "ct717",
-    "name": "ct717",
+    "id": "스완-타일 카페트_CT717",
+    "code": "CT717",
+    "name": "CT717",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "72196bb97610e29dbc0c4f7979492eb8.jpg",
+    "thumbnail": "ceb3f62027b83f0b3b4e3dd51340e640.jpg",
     "images": [
-      "72196bb97610e29dbc0c4f7979492eb8.jpg"
+      "ceb3f62027b83f0b3b4e3dd51340e640.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fp401",
-    "code": "fp401",
-    "name": "fp401",
+    "id": "스완-타일 카페트_FP401",
+    "code": "FP401",
+    "name": "FP401",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "7760579348e34852bc17b27a491e14ed.jpg",
+    "thumbnail": "4366249c5e4bfebc29da2d729690eddf.jpg",
     "images": [
-      "7760579348e34852bc17b27a491e14ed.jpg"
+      "4366249c5e4bfebc29da2d729690eddf.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fp402",
-    "code": "fp402",
-    "name": "fp402",
+    "id": "스완-타일 카페트_FP402",
+    "code": "FP402",
+    "name": "FP402",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "ce1e7686727c9a79714d94307d85a183.jpg",
+    "thumbnail": "034e4b8b63670e80f139e191394140f2.jpg",
     "images": [
-      "ce1e7686727c9a79714d94307d85a183.jpg"
+      "034e4b8b63670e80f139e191394140f2.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fp403",
-    "code": "fp403",
-    "name": "fp403",
+    "id": "스완-타일 카페트_FP403",
+    "code": "FP403",
+    "name": "FP403",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "36565911358af60fdaccdbf5bba45f88.jpg",
+    "thumbnail": "92daa3c99d166643158249d17666433d.jpg",
     "images": [
-      "36565911358af60fdaccdbf5bba45f88.jpg"
+      "92daa3c99d166643158249d17666433d.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fp411",
-    "code": "fp411",
-    "name": "fp411",
+    "id": "스완-타일 카페트_FP411",
+    "code": "FP411",
+    "name": "FP411",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "62cdea5630feba1b13d874429444292f.jpg",
+    "thumbnail": "255029372c81d7bd76cc1236099bcc60.jpg",
     "images": [
-      "62cdea5630feba1b13d874429444292f.jpg"
+      "255029372c81d7bd76cc1236099bcc60.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fp412",
-    "code": "fp412",
-    "name": "fp412",
+    "id": "스완-타일 카페트_FP412",
+    "code": "FP412",
+    "name": "FP412",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "885aad2a36bcc3b367dfc54daf572a4e.jpg",
+    "thumbnail": "83a910cbf94d9726950710a16374e89d.jpg",
     "images": [
-      "885aad2a36bcc3b367dfc54daf572a4e.jpg"
+      "83a910cbf94d9726950710a16374e89d.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fp413",
-    "code": "fp413",
-    "name": "fp413",
+    "id": "스완-타일 카페트_FP413",
+    "code": "FP413",
+    "name": "FP413",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "48d3f4a982f23430f75d1de4075119d8.jpg",
+    "thumbnail": "60c5f8707070d6c7d2d982dbc176f391.jpg",
     "images": [
-      "48d3f4a982f23430f75d1de4075119d8.jpg"
+      "60c5f8707070d6c7d2d982dbc176f391.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fp414",
-    "code": "fp414",
-    "name": "fp414",
+    "id": "스완-타일 카페트_FP414",
+    "code": "FP414",
+    "name": "FP414",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "200ed548b180d3619f834c49c69d22a9.jpg",
+    "thumbnail": "8de5014ba84f4bfd153eb684e851c142.jpg",
     "images": [
-      "200ed548b180d3619f834c49c69d22a9.jpg"
+      "8de5014ba84f4bfd153eb684e851c142.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fp415",
-    "code": "fp415",
-    "name": "fp415",
+    "id": "스완-타일 카페트_FP415",
+    "code": "FP415",
+    "name": "FP415",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "a8733acd83ca5b9fba070c4e86bcccaa.jpg",
+    "thumbnail": "9bbce8fbee39c51feae329448f1a9f8d.jpg",
     "images": [
-      "a8733acd83ca5b9fba070c4e86bcccaa.jpg"
+      "9bbce8fbee39c51feae329448f1a9f8d.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fp416",
-    "code": "fp416",
-    "name": "fp416",
+    "id": "스완-타일 카페트_FP416",
+    "code": "FP416",
+    "name": "FP416",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "49b61eeb1fa099e8236b4033a3891fd3.jpg",
+    "thumbnail": "fcddc2f3bb3c4a2dc604d10abb3a6219.jpg",
     "images": [
-      "49b61eeb1fa099e8236b4033a3891fd3.jpg"
+      "fcddc2f3bb3c4a2dc604d10abb3a6219.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fp441",
-    "code": "fp441",
-    "name": "fp441",
+    "id": "스완-타일 카페트_FP441",
+    "code": "FP441",
+    "name": "FP441",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "6878df5a2f5b4e730285e8b05d9cef85.jpg",
+    "thumbnail": "54a8e2b6b420446a37d573adcb322baf.jpg",
     "images": [
-      "6878df5a2f5b4e730285e8b05d9cef85.jpg"
+      "54a8e2b6b420446a37d573adcb322baf.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fp442",
-    "code": "fp442",
-    "name": "fp442",
+    "id": "스완-타일 카페트_FP442",
+    "code": "FP442",
+    "name": "FP442",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "d203960d4f6263b13671185d21d10db0.jpg",
+    "thumbnail": "1d37ddf707adaf3b1c63468621d14c9d.jpg",
     "images": [
-      "d203960d4f6263b13671185d21d10db0.jpg"
+      "1d37ddf707adaf3b1c63468621d14c9d.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fs301",
-    "code": "fs301",
-    "name": "fs301",
+    "id": "스완-타일 카페트_FS301",
+    "code": "FS301",
+    "name": "FS301",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "2f9c17914003291efec71196fd10b3f0.jpg",
+    "thumbnail": "083f35d6db1591bd6f0b2498f457a7db.jpg",
     "images": [
-      "2f9c17914003291efec71196fd10b3f0.jpg"
+      "083f35d6db1591bd6f0b2498f457a7db.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fs303",
-    "code": "fs303",
-    "name": "fs303",
+    "id": "스완-타일 카페트_FS303",
+    "code": "FS303",
+    "name": "FS303",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "d9d328a82aeb950f31d0a9dfdcfe2c1e.jpg",
+    "thumbnail": "ab467f4c4de4f28573ccf9070a3112e6.jpg",
     "images": [
-      "d9d328a82aeb950f31d0a9dfdcfe2c1e.jpg"
+      "ab467f4c4de4f28573ccf9070a3112e6.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fs314",
-    "code": "fs314",
-    "name": "fs314",
+    "id": "스완-타일 카페트_FS314",
+    "code": "FS314",
+    "name": "FS314",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "c8887c962cc02e638387971d35cab6ee.jpg",
+    "thumbnail": "492f915a515f8056c41bd384792ea720.jpg",
     "images": [
-      "c8887c962cc02e638387971d35cab6ee.jpg"
+      "492f915a515f8056c41bd384792ea720.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fs326",
-    "code": "fs326",
-    "name": "fs326",
+    "id": "스완-타일 카페트_FS326",
+    "code": "FS326",
+    "name": "FS326",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "a18e6129052aeba8a98437b82129dcdf.jpg",
+    "thumbnail": "a7cee8b63cd784bf960ed00b3c2d4e8a.jpg",
     "images": [
-      "a18e6129052aeba8a98437b82129dcdf.jpg"
+      "a7cee8b63cd784bf960ed00b3c2d4e8a.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fs329",
-    "code": "fs329",
-    "name": "fs329",
+    "id": "스완-타일 카페트_FS329",
+    "code": "FS329",
+    "name": "FS329",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "6a3be3a07fc472da8ba45e9806d4352f.jpg",
+    "thumbnail": "ab08333073fb1b231350c7e2012798a4.jpg",
     "images": [
-      "6a3be3a07fc472da8ba45e9806d4352f.jpg"
+      "ab08333073fb1b231350c7e2012798a4.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fs330",
-    "code": "fs330",
-    "name": "fs330",
+    "id": "스완-타일 카페트_FS330",
+    "code": "FS330",
+    "name": "FS330",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "3250105599bcc9f21cbf69efb688d605.jpg",
+    "thumbnail": "f8f8af78d40ce85e87758e461b4763a3.jpg",
     "images": [
-      "3250105599bcc9f21cbf69efb688d605.jpg"
+      "f8f8af78d40ce85e87758e461b4763a3.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fs331",
-    "code": "fs331",
-    "name": "fs331",
+    "id": "스완-타일 카페트_FS331",
+    "code": "FS331",
+    "name": "FS331",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "4bde549576846335aac502f0f51c15d9.jpg",
+    "thumbnail": "57bc6a6ede943e8ba0dec1b879f4cfbc.jpg",
     "images": [
-      "4bde549576846335aac502f0f51c15d9.jpg"
+      "57bc6a6ede943e8ba0dec1b879f4cfbc.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fs334",
-    "code": "fs334",
-    "name": "fs334",
+    "id": "스완-타일 카페트_FS334",
+    "code": "FS334",
+    "name": "FS334",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "19295a61bacaaa817a4441bb5ce06f7b.jpg",
+    "thumbnail": "d81c3eeae189742902a3b0581e6add86.jpg",
     "images": [
-      "19295a61bacaaa817a4441bb5ce06f7b.jpg"
+      "d81c3eeae189742902a3b0581e6add86.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fs335",
-    "code": "fs335",
-    "name": "fs335",
+    "id": "스완-타일 카페트_FS335",
+    "code": "FS335",
+    "name": "FS335",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "342d90dd196d28a0a8fec90b120a3316.jpg",
+    "thumbnail": "92bcec3f2d8ccc823c0255db9cae6a8c.jpg",
     "images": [
-      "342d90dd196d28a0a8fec90b120a3316.jpg"
+      "92bcec3f2d8ccc823c0255db9cae6a8c.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fs341",
-    "code": "fs341",
-    "name": "fs341",
+    "id": "스완-타일 카페트_FS341",
+    "code": "FS341",
+    "name": "FS341",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "627362afe4dcb4c15dd7f89e0ddfd138.jpg",
+    "thumbnail": "9f362483db47dfb86aae747b37175eb0.jpg",
     "images": [
-      "627362afe4dcb4c15dd7f89e0ddfd138.jpg"
+      "9f362483db47dfb86aae747b37175eb0.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fs342",
-    "code": "fs342",
-    "name": "fs342",
+    "id": "스완-타일 카페트_FS342",
+    "code": "FS342",
+    "name": "FS342",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "423b9be9fe52786b596a754558a573e9.jpg",
+    "thumbnail": "d3c3480230dbf792711c4ca5f91b0880.jpg",
     "images": [
-      "423b9be9fe52786b596a754558a573e9.jpg"
+      "d3c3480230dbf792711c4ca5f91b0880.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fs343",
-    "code": "fs343",
-    "name": "fs343",
+    "id": "스완-타일 카페트_FS343",
+    "code": "FS343",
+    "name": "FS343",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "537270855b1524040ca034e944a364da.jpg",
+    "thumbnail": "6aecd72781f167ac9018091917f03573.jpg",
     "images": [
-      "537270855b1524040ca034e944a364da.jpg"
+      "6aecd72781f167ac9018091917f03573.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fs375",
-    "code": "fs375",
-    "name": "fs375",
+    "id": "스완-타일 카페트_FS375",
+    "code": "FS375",
+    "name": "FS375",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "ba24359fcc9b12fe0ddc7bfcfa3bc59c.jpg",
+    "thumbnail": "341ecfdfd1cbc72e3225a86e6fedbff4.jpg",
     "images": [
-      "ba24359fcc9b12fe0ddc7bfcfa3bc59c.jpg"
+      "341ecfdfd1cbc72e3225a86e6fedbff4.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fs391",
-    "code": "fs391",
-    "name": "fs391",
+    "id": "스완-타일 카페트_FS391",
+    "code": "FS391",
+    "name": "FS391",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "95d8198b1b4b9dfa61dc211b69942382.jpg",
+    "thumbnail": "87e4a082e35d717535bda87b3c9d2390.jpg",
     "images": [
-      "95d8198b1b4b9dfa61dc211b69942382.jpg"
+      "87e4a082e35d717535bda87b3c9d2390.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fs392",
-    "code": "fs392",
-    "name": "fs392",
+    "id": "스완-타일 카페트_FS392",
+    "code": "FS392",
+    "name": "FS392",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "75e7fd9ecfbb182bfd665d188e5090ec.jpg",
+    "thumbnail": "5cd79250fcf1532b892ed494a00596ef.jpg",
     "images": [
-      "75e7fd9ecfbb182bfd665d188e5090ec.jpg"
+      "5cd79250fcf1532b892ed494a00596ef.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fs393",
-    "code": "fs393",
-    "name": "fs393",
+    "id": "스완-타일 카페트_FS393",
+    "code": "FS393",
+    "name": "FS393",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "a84b2d7f5c4de7f36ef63ce5c2a9f010.jpg",
+    "thumbnail": "89afc1036a25215e07d1d5b9abd4af08.jpg",
     "images": [
-      "a84b2d7f5c4de7f36ef63ce5c2a9f010.jpg"
+      "89afc1036a25215e07d1d5b9abd4af08.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fs394",
-    "code": "fs394",
-    "name": "fs394",
+    "id": "스완-타일 카페트_FS394",
+    "code": "FS394",
+    "name": "FS394",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "194226b954c9f136e30753906c193476.jpg",
+    "thumbnail": "17593b6978d7b8c78156479f00abab95.jpg",
     "images": [
-      "194226b954c9f136e30753906c193476.jpg"
+      "17593b6978d7b8c78156479f00abab95.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fs395",
-    "code": "fs395",
-    "name": "fs395",
+    "id": "스완-타일 카페트_FS395",
+    "code": "FS395",
+    "name": "FS395",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "2b0b0a5336a2a826848aaf2017889888.jpg",
+    "thumbnail": "889da0f7c42978f08452020fc1bb6ac1.jpg",
     "images": [
-      "2b0b0a5336a2a826848aaf2017889888.jpg"
+      "889da0f7c42978f08452020fc1bb6ac1.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fs396",
-    "code": "fs396",
-    "name": "fs396",
+    "id": "스완-타일 카페트_FS396",
+    "code": "FS396",
+    "name": "FS396",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "f6a60edb34735c5b886012618c20d02c.jpg",
+    "thumbnail": "c7b3508b87e6fc99cfa9e6ab17223f28.jpg",
     "images": [
-      "f6a60edb34735c5b886012618c20d02c.jpg"
+      "c7b3508b87e6fc99cfa9e6ab17223f28.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fs397",
-    "code": "fs397",
-    "name": "fs397",
+    "id": "스완-타일 카페트_FS397",
+    "code": "FS397",
+    "name": "FS397",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "1d7dd5ca51d0d444522ea9944ba390ed.jpg",
+    "thumbnail": "1f96b2905c9634a5d3427ca75b790a5b.jpg",
     "images": [
-      "1d7dd5ca51d0d444522ea9944ba390ed.jpg"
+      "1f96b2905c9634a5d3427ca75b790a5b.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_fs398",
-    "code": "fs398",
-    "name": "fs398",
+    "id": "스완-타일 카페트_FS398",
+    "code": "FS398",
+    "name": "FS398",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "1199068b51e9cda6e4541e30339f5cec.jpg",
+    "thumbnail": "514757ef408e41aee50d416c235ef82a.jpg",
     "images": [
-      "1199068b51e9cda6e4541e30339f5cec.jpg"
+      "514757ef408e41aee50d416c235ef82a.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_gl904",
-    "code": "gl904",
-    "name": "gl904",
+    "id": "스완-타일 카페트_GL904",
+    "code": "GL904",
+    "name": "GL904",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "04bd292d7794317f992b1476bd0df29a.jpg",
+    "thumbnail": "89012f9d61131c41a00796a8487c7bfd.jpg",
     "images": [
-      "04bd292d7794317f992b1476bd0df29a.jpg"
+      "89012f9d61131c41a00796a8487c7bfd.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_gl905",
-    "code": "gl905",
-    "name": "gl905",
+    "id": "스완-타일 카페트_GL905",
+    "code": "GL905",
+    "name": "GL905",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "2c688b573f8439d250fec93c348c0676.jpg",
+    "thumbnail": "fbfb253e3127f90abad7f7772074bc39.jpg",
     "images": [
-      "2c688b573f8439d250fec93c348c0676.jpg"
+      "fbfb253e3127f90abad7f7772074bc39.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_gl910",
-    "code": "gl910",
-    "name": "gl910",
+    "id": "스완-타일 카페트_GL910",
+    "code": "GL910",
+    "name": "GL910",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "ee5e99a8c42d01e067a92590df8061da.jpg",
+    "thumbnail": "b51fdfbb0eb6e44e8128c65dcd415536.jpg",
     "images": [
-      "ee5e99a8c42d01e067a92590df8061da.jpg"
+      "b51fdfbb0eb6e44e8128c65dcd415536.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_gl913",
-    "code": "gl913",
-    "name": "gl913",
+    "id": "스완-타일 카페트_GL913",
+    "code": "GL913",
+    "name": "GL913",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "edc37d5caeb3b139c3923670319f701f.jpg",
+    "thumbnail": "75146a3d95776bdb0f93fc6d41a40711.jpg",
     "images": [
-      "edc37d5caeb3b139c3923670319f701f.jpg"
+      "75146a3d95776bdb0f93fc6d41a40711.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_gl920",
-    "code": "gl920",
-    "name": "gl920",
+    "id": "스완-타일 카페트_GL920",
+    "code": "GL920",
+    "name": "GL920",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "c719320c6b8671d55149e48d0d5ee48b.jpg",
+    "thumbnail": "0e3963040b5df7ea8f384e0cbd9ecafb.jpg",
     "images": [
-      "c719320c6b8671d55149e48d0d5ee48b.jpg"
+      "0e3963040b5df7ea8f384e0cbd9ecafb.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_gl921",
-    "code": "gl921",
-    "name": "gl921",
+    "id": "스완-타일 카페트_GL921",
+    "code": "GL921",
+    "name": "GL921",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "16eeda1032ccf39ebf3fd02dd33485cd.jpg",
+    "thumbnail": "2caff9a689417d8226f4fc07e1d0a2e6.jpg",
     "images": [
-      "16eeda1032ccf39ebf3fd02dd33485cd.jpg"
+      "2caff9a689417d8226f4fc07e1d0a2e6.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_gl932",
-    "code": "gl932",
-    "name": "gl932",
+    "id": "스완-타일 카페트_GL932",
+    "code": "GL932",
+    "name": "GL932",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "bca1cf2e3bef345ca1b0cdd2934b4ab9.jpg",
+    "thumbnail": "c5e60171db5682f17287375c576ef110.jpg",
     "images": [
-      "bca1cf2e3bef345ca1b0cdd2934b4ab9.jpg"
+      "c5e60171db5682f17287375c576ef110.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_gl933",
-    "code": "gl933",
-    "name": "gl933",
+    "id": "스완-타일 카페트_GL933",
+    "code": "GL933",
+    "name": "GL933",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "6fb69be30b1458def5242c8d081f7bc7.jpg",
+    "thumbnail": "9e080c9f222562fe41df2745f9b29f0c.jpg",
     "images": [
-      "6fb69be30b1458def5242c8d081f7bc7.jpg"
+      "9e080c9f222562fe41df2745f9b29f0c.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_gl934",
-    "code": "gl934",
-    "name": "gl934",
+    "id": "스완-타일 카페트_GL934",
+    "code": "GL934",
+    "name": "GL934",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "7a05679ba169b6ffde4f60bfbb799e0e.jpg",
+    "thumbnail": "1d739b6eb76d406653459e432035b0fb.jpg",
     "images": [
-      "7a05679ba169b6ffde4f60bfbb799e0e.jpg"
+      "1d739b6eb76d406653459e432035b0fb.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_gl935",
-    "code": "gl935",
-    "name": "gl935",
+    "id": "스완-타일 카페트_GL935",
+    "code": "GL935",
+    "name": "GL935",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "fdb390c6773c3c1c140a3db10da41431.jpg",
+    "thumbnail": "ec4255f99aaa5210ebe1fb89157ab56b.jpg",
     "images": [
-      "fdb390c6773c3c1c140a3db10da41431.jpg"
+      "ec4255f99aaa5210ebe1fb89157ab56b.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_gl936",
-    "code": "gl936",
-    "name": "gl936",
+    "id": "스완-타일 카페트_GL936",
+    "code": "GL936",
+    "name": "GL936",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "dd3f202513e8a2e7f064eb45c8e1676d.jpg",
+    "thumbnail": "d29dc8a4e3c6f7567056998ea8a82f9a.jpg",
     "images": [
-      "dd3f202513e8a2e7f064eb45c8e1676d.jpg"
+      "d29dc8a4e3c6f7567056998ea8a82f9a.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_gl937",
-    "code": "gl937",
-    "name": "gl937",
+    "id": "스완-타일 카페트_GL937",
+    "code": "GL937",
+    "name": "GL937",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "526e25e33af1a993d867c7156bbdffb1.jpg",
+    "thumbnail": "9972affeae200066d3ad8d0c39fd2c57.jpg",
     "images": [
-      "526e25e33af1a993d867c7156bbdffb1.jpg"
+      "9972affeae200066d3ad8d0c39fd2c57.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_gl941",
-    "code": "gl941",
-    "name": "gl941",
+    "id": "스완-타일 카페트_GL941",
+    "code": "GL941",
+    "name": "GL941",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "b81d917c52e880fcc620b1def3e48afe.jpg",
+    "thumbnail": "cb05e9d391cb23a09ee6ccde9391c188.jpg",
     "images": [
-      "b81d917c52e880fcc620b1def3e48afe.jpg"
+      "cb05e9d391cb23a09ee6ccde9391c188.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_gl942",
-    "code": "gl942",
-    "name": "gl942",
+    "id": "스완-타일 카페트_GL942",
+    "code": "GL942",
+    "name": "GL942",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "1948cc3d0fb054a781f639a8edaf7b28.jpg",
+    "thumbnail": "015de883fb874a4b70426cfbc78bc6bd.jpg",
     "images": [
-      "1948cc3d0fb054a781f639a8edaf7b28.jpg"
+      "015de883fb874a4b70426cfbc78bc6bd.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_gl943",
-    "code": "gl943",
-    "name": "gl943",
+    "id": "스완-타일 카페트_GL943",
+    "code": "GL943",
+    "name": "GL943",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "b53ee130cfd273e0247d6fb2fd3c69c7.jpg",
+    "thumbnail": "1118b9d955335c4a9da0a5870eb4d426.jpg",
     "images": [
-      "b53ee130cfd273e0247d6fb2fd3c69c7.jpg"
+      "1118b9d955335c4a9da0a5870eb4d426.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_gl944",
-    "code": "gl944",
-    "name": "gl944",
+    "id": "스완-타일 카페트_GL944",
+    "code": "GL944",
+    "name": "GL944",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "706dc9000ecfb7d6d4702e838ae4234d.jpg",
+    "thumbnail": "9869ecd0dbde3c7de1e4cc3d0c92abd6.jpg",
     "images": [
-      "706dc9000ecfb7d6d4702e838ae4234d.jpg"
+      "9869ecd0dbde3c7de1e4cc3d0c92abd6.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_gl945",
-    "code": "gl945",
-    "name": "gl945",
+    "id": "스완-타일 카페트_GL945",
+    "code": "GL945",
+    "name": "GL945",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "dbf25ba0d4ba2c356578acdbebbe0279.jpg",
+    "thumbnail": "6e5cfef960a7afae587120e2ab3da12e.jpg",
     "images": [
-      "dbf25ba0d4ba2c356578acdbebbe0279.jpg"
+      "6e5cfef960a7afae587120e2ab3da12e.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_gl946",
-    "code": "gl946",
-    "name": "gl946",
+    "id": "스완-타일 카페트_GL946",
+    "code": "GL946",
+    "name": "GL946",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "1a0f5483c9097ba49192adf8503af74d.jpg",
+    "thumbnail": "7f39b065a0a41e7c17876a245fc07679.jpg",
     "images": [
-      "1a0f5483c9097ba49192adf8503af74d.jpg"
+      "7f39b065a0a41e7c17876a245fc07679.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_gl947",
-    "code": "gl947",
-    "name": "gl947",
+    "id": "스완-타일 카페트_GL947",
+    "code": "GL947",
+    "name": "GL947",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "f1a4b80378878c1b570c3cc2fb3982df.jpg",
+    "thumbnail": "b53f3ee136cdb4d3e28fb7998fdf626a.jpg",
     "images": [
-      "f1a4b80378878c1b570c3cc2fb3982df.jpg"
+      "b53f3ee136cdb4d3e28fb7998fdf626a.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_gl948",
-    "code": "gl948",
-    "name": "gl948",
+    "id": "스완-타일 카페트_GL948",
+    "code": "GL948",
+    "name": "GL948",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "36a2509c3139717c650e078db4c90160.jpg",
+    "thumbnail": "440f67838a2e39d3bbb3d0135130d9e2.jpg",
     "images": [
-      "36a2509c3139717c650e078db4c90160.jpg"
+      "440f67838a2e39d3bbb3d0135130d9e2.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_gl949",
-    "code": "gl949",
-    "name": "gl949",
+    "id": "스완-타일 카페트_GL949",
+    "code": "GL949",
+    "name": "GL949",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "def3d8cfe36e573908df097c10aab8f0.jpg",
+    "thumbnail": "bbb03e1a2b27ce1e18e0be9f7844ce19.jpg",
     "images": [
-      "def3d8cfe36e573908df097c10aab8f0.jpg"
+      "bbb03e1a2b27ce1e18e0be9f7844ce19.jpg"
     ]
   },
   {
@@ -38690,315 +38631,315 @@ export const materials = [
     ]
   },
   {
-    "id": "스완-타일 카페트_gp673",
-    "code": "gp673",
-    "name": "gp673",
+    "id": "스완-타일 카페트_GP673",
+    "code": "GP673",
+    "name": "GP673",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "b093a8de2056f33005ffb3989bfaaa7b.jpg",
+    "thumbnail": "748a0fbe222933c6b08b29cb2ce95a10.jpg",
     "images": [
-      "b093a8de2056f33005ffb3989bfaaa7b.jpg"
+      "748a0fbe222933c6b08b29cb2ce95a10.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_mj801",
-    "code": "mj801",
-    "name": "mj801",
+    "id": "스완-타일 카페트_MJ801",
+    "code": "MJ801",
+    "name": "MJ801",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "7e9d53718a28a9e2d2a48fa575486f8c.jpg",
+    "thumbnail": "f88551acb0d44d72ffc51765da2f4576.jpg",
     "images": [
-      "7e9d53718a28a9e2d2a48fa575486f8c.jpg"
+      "f88551acb0d44d72ffc51765da2f4576.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_mj803",
-    "code": "mj803",
-    "name": "mj803",
+    "id": "스완-타일 카페트_MJ803",
+    "code": "MJ803",
+    "name": "MJ803",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "04eab986023dad52ccd9bc2c9a5a574c.jpg",
+    "thumbnail": "1442ffa46fab7c6ed4c0099e6e0a6662.jpg",
     "images": [
-      "04eab986023dad52ccd9bc2c9a5a574c.jpg"
+      "1442ffa46fab7c6ed4c0099e6e0a6662.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_mj804",
-    "code": "mj804",
-    "name": "mj804",
+    "id": "스완-타일 카페트_MJ804",
+    "code": "MJ804",
+    "name": "MJ804",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "c6be26551c05370db1374d1885bc192a.jpg",
+    "thumbnail": "2126907872d601024522ef2f8d711d27.jpg",
     "images": [
-      "c6be26551c05370db1374d1885bc192a.jpg"
+      "2126907872d601024522ef2f8d711d27.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_mj809",
-    "code": "mj809",
-    "name": "mj809",
+    "id": "스완-타일 카페트_MJ809",
+    "code": "MJ809",
+    "name": "MJ809",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "84eb4d1483d5346464fc53eb1fa43ade.jpg",
+    "thumbnail": "f8b14a55ef60a31afa5cb952c23b4cad.jpg",
     "images": [
-      "84eb4d1483d5346464fc53eb1fa43ade.jpg"
+      "f8b14a55ef60a31afa5cb952c23b4cad.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_mj810",
-    "code": "mj810",
-    "name": "mj810",
+    "id": "스완-타일 카페트_MJ810",
+    "code": "MJ810",
+    "name": "MJ810",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "06f061d914a22396c6dfe1215d91597b.jpg",
+    "thumbnail": "635ec81e9a41f92698523aa3ab5f2945.jpg",
     "images": [
-      "06f061d914a22396c6dfe1215d91597b.jpg"
+      "635ec81e9a41f92698523aa3ab5f2945.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_mj811",
-    "code": "mj811",
-    "name": "mj811",
+    "id": "스완-타일 카페트_MJ811",
+    "code": "MJ811",
+    "name": "MJ811",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "7bc9c6dfc5197a87264fb057105df418.jpg",
+    "thumbnail": "4fc3099b0d51eba1b89e493dda11db73.jpg",
     "images": [
-      "7bc9c6dfc5197a87264fb057105df418.jpg"
+      "4fc3099b0d51eba1b89e493dda11db73.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_mj816",
-    "code": "mj816",
-    "name": "mj816",
+    "id": "스완-타일 카페트_MJ816",
+    "code": "MJ816",
+    "name": "MJ816",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "02760c0cdc8b4fe467d9939da21aedca.jpg",
+    "thumbnail": "17a67513b8adc2e5a584d89dc2bd728b.jpg",
     "images": [
-      "02760c0cdc8b4fe467d9939da21aedca.jpg"
+      "17a67513b8adc2e5a584d89dc2bd728b.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_mj817",
-    "code": "mj817",
-    "name": "mj817",
+    "id": "스완-타일 카페트_MJ817",
+    "code": "MJ817",
+    "name": "MJ817",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "9f407a9442a0bb28932e0da91043cda9.jpg",
+    "thumbnail": "69a519208d997278bb583b79bbd3a93d.jpg",
     "images": [
-      "9f407a9442a0bb28932e0da91043cda9.jpg"
+      "69a519208d997278bb583b79bbd3a93d.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_mn251",
-    "code": "mn251",
-    "name": "mn251",
+    "id": "스완-타일 카페트_MN251",
+    "code": "MN251",
+    "name": "MN251",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "568373bdb1d4c78d5177ffa9b470cf77.jpg",
+    "thumbnail": "00c49742bd7de862bdbeb25e57e588c6.jpg",
     "images": [
-      "568373bdb1d4c78d5177ffa9b470cf77.jpg"
+      "00c49742bd7de862bdbeb25e57e588c6.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_mn252",
-    "code": "mn252",
-    "name": "mn252",
+    "id": "스완-타일 카페트_MN252",
+    "code": "MN252",
+    "name": "MN252",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "f3be5db895c4fbd8618514c803b43a3d.jpg",
+    "thumbnail": "0c7b2eb2a12e9a373aa4f6d214689fe7.jpg",
     "images": [
-      "f3be5db895c4fbd8618514c803b43a3d.jpg"
+      "0c7b2eb2a12e9a373aa4f6d214689fe7.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_mn253",
-    "code": "mn253",
-    "name": "mn253",
+    "id": "스완-타일 카페트_MN253",
+    "code": "MN253",
+    "name": "MN253",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "f951c207de12ed64f93354547ad729f7.jpg",
+    "thumbnail": "6fbdf72a1065fe08a1d76f51441253b0.jpg",
     "images": [
-      "f951c207de12ed64f93354547ad729f7.jpg"
+      "6fbdf72a1065fe08a1d76f51441253b0.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_mn254",
-    "code": "mn254",
-    "name": "mn254",
+    "id": "스완-타일 카페트_MN254",
+    "code": "MN254",
+    "name": "MN254",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "4287a7b21e1098ba966b5f3c64871662.jpg",
+    "thumbnail": "6be70507ce1e917f963624f2c2e3741c.jpg",
     "images": [
-      "4287a7b21e1098ba966b5f3c64871662.jpg"
+      "6be70507ce1e917f963624f2c2e3741c.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_mn255",
-    "code": "mn255",
-    "name": "mn255",
+    "id": "스완-타일 카페트_MN255",
+    "code": "MN255",
+    "name": "MN255",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "36c64b9250237152fdbed99a33fd46ce.jpg",
+    "thumbnail": "de27f59c27f54e5cf03fb726b24b74f9.jpg",
     "images": [
-      "36c64b9250237152fdbed99a33fd46ce.jpg"
+      "de27f59c27f54e5cf03fb726b24b74f9.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_mn256",
-    "code": "mn256",
-    "name": "mn256",
+    "id": "스완-타일 카페트_MN256",
+    "code": "MN256",
+    "name": "MN256",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "91c40b8cbacd3f6fcac060c3b4ea6edb.jpg",
+    "thumbnail": "b8e6399d22cd68e10f3f70b1964f443c.jpg",
     "images": [
-      "91c40b8cbacd3f6fcac060c3b4ea6edb.jpg"
+      "b8e6399d22cd68e10f3f70b1964f443c.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_mx095",
-    "code": "mx095",
-    "name": "mx095",
+    "id": "스완-타일 카페트_MX095",
+    "code": "MX095",
+    "name": "MX095",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "2269f91d351adffdae56fc47d91080a3.jpg",
+    "thumbnail": "e5a6d8d61e269faec41ee7df8ba4ead6.jpg",
     "images": [
-      "2269f91d351adffdae56fc47d91080a3.jpg"
+      "e5a6d8d61e269faec41ee7df8ba4ead6.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_mx816",
-    "code": "mx816",
-    "name": "mx816",
+    "id": "스완-타일 카페트_MX816",
+    "code": "MX816",
+    "name": "MX816",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "9ba38074b55a203a1517ef2bcfa965e8.jpg",
+    "thumbnail": "60a2afb4351332fafeb5b0e1849e01cd.jpg",
     "images": [
-      "9ba38074b55a203a1517ef2bcfa965e8.jpg"
+      "60a2afb4351332fafeb5b0e1849e01cd.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_mx834",
-    "code": "mx834",
-    "name": "mx834",
+    "id": "스완-타일 카페트_MX834",
+    "code": "MX834",
+    "name": "MX834",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "5ac82e0e1e131e9ef770a5b755d757fc.jpg",
+    "thumbnail": "71fad87a25300aee9db8784dcf589a5f.jpg",
     "images": [
-      "5ac82e0e1e131e9ef770a5b755d757fc.jpg"
+      "71fad87a25300aee9db8784dcf589a5f.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_mx849",
-    "code": "mx849",
-    "name": "mx849",
+    "id": "스완-타일 카페트_MX849",
+    "code": "MX849",
+    "name": "MX849",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "4ce1c5b6e8e8673c67ac8ac3ff7d724f.jpg",
+    "thumbnail": "966d5846b1db78c90ca8d43f16f3f0e0.jpg",
     "images": [
-      "4ce1c5b6e8e8673c67ac8ac3ff7d724f.jpg"
+      "966d5846b1db78c90ca8d43f16f3f0e0.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_mx853",
-    "code": "mx853",
-    "name": "mx853",
+    "id": "스완-타일 카페트_MX853",
+    "code": "MX853",
+    "name": "MX853",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "50fd746d67262e51e147080b34910b2a.jpg",
+    "thumbnail": "7c51f6f1a3c4dd20b522e8c9f200f3d9.jpg",
     "images": [
-      "50fd746d67262e51e147080b34910b2a.jpg"
+      "7c51f6f1a3c4dd20b522e8c9f200f3d9.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_mx854",
-    "code": "mx854",
-    "name": "mx854",
+    "id": "스완-타일 카페트_MX854",
+    "code": "MX854",
+    "name": "MX854",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "4aab44bca6c0bc166cf9d43edec9cbb1.jpg",
+    "thumbnail": "b473115518a966163e3ba14a4ec3d124.jpg",
     "images": [
-      "4aab44bca6c0bc166cf9d43edec9cbb1.jpg"
+      "b473115518a966163e3ba14a4ec3d124.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_mx855",
-    "code": "mx855",
-    "name": "mx855",
+    "id": "스완-타일 카페트_MX855",
+    "code": "MX855",
+    "name": "MX855",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "273588bd9ea5a4a8d9624c6988204bb6.jpg",
+    "thumbnail": "3ff571f19fbe2f969d36266d142d1abf.jpg",
     "images": [
-      "273588bd9ea5a4a8d9624c6988204bb6.jpg"
+      "3ff571f19fbe2f969d36266d142d1abf.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_mx871",
-    "code": "mx871",
-    "name": "mx871",
+    "id": "스완-타일 카페트_MX871",
+    "code": "MX871",
+    "name": "MX871",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "3cf39630987dfade7e8093ee66d49d38.jpg",
+    "thumbnail": "33998383b9f90626cb1a6badf479c625.jpg",
     "images": [
-      "3cf39630987dfade7e8093ee66d49d38.jpg"
+      "33998383b9f90626cb1a6badf479c625.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_sk751",
-    "code": "sk751",
-    "name": "sk751",
+    "id": "스완-타일 카페트_SK751",
+    "code": "SK751",
+    "name": "SK751",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "74b89c12b61a1bace2ddeee83b352239.jpg",
+    "thumbnail": "387d71d27044224372db6deafaf7f431.jpg",
     "images": [
-      "74b89c12b61a1bace2ddeee83b352239.jpg"
+      "387d71d27044224372db6deafaf7f431.jpg"
     ],
     "specs": {
       "division": "",
@@ -39008,16 +38949,16 @@ export const materials = [
     }
   },
   {
-    "id": "스완-타일 카페트_sk752",
-    "code": "sk752",
-    "name": "sk752",
+    "id": "스완-타일 카페트_SK752",
+    "code": "SK752",
+    "name": "SK752",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "b2cf3535c55b488e648a9d2a499d59e8.jpg",
+    "thumbnail": "c24ac157d3a144c9d52692ecb7482b0d.jpg",
     "images": [
-      "b2cf3535c55b488e648a9d2a499d59e8.jpg"
+      "c24ac157d3a144c9d52692ecb7482b0d.jpg"
     ],
     "specs": {
       "division": "",
@@ -39027,16 +38968,16 @@ export const materials = [
     }
   },
   {
-    "id": "스완-타일 카페트_sk753",
-    "code": "sk753",
-    "name": "sk753",
+    "id": "스완-타일 카페트_SK753",
+    "code": "SK753",
+    "name": "SK753",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "0520d8ba4f39f472737a7993219e72fc.jpg",
+    "thumbnail": "695f1b033e96b965d2d651256c6f65d9.jpg",
     "images": [
-      "0520d8ba4f39f472737a7993219e72fc.jpg"
+      "695f1b033e96b965d2d651256c6f65d9.jpg"
     ],
     "specs": {
       "division": "",
@@ -39046,16 +38987,16 @@ export const materials = [
     }
   },
   {
-    "id": "스완-타일 카페트_sk754",
-    "code": "sk754",
-    "name": "sk754",
+    "id": "스완-타일 카페트_SK754",
+    "code": "SK754",
+    "name": "SK754",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "b2ccdd92b9af5ae33d31944d1a5f3d5c.jpg",
+    "thumbnail": "f41af0e615c2fd837dcf1c18ba02663f.jpg",
     "images": [
-      "b2ccdd92b9af5ae33d31944d1a5f3d5c.jpg"
+      "f41af0e615c2fd837dcf1c18ba02663f.jpg"
     ],
     "specs": {
       "division": "",
@@ -39065,302 +39006,302 @@ export const materials = [
     }
   },
   {
-    "id": "스완-타일 카페트_sp505",
-    "code": "sp505",
-    "name": "sp505",
+    "id": "스완-타일 카페트_SP505",
+    "code": "SP505",
+    "name": "SP505",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "ca73954ecbab78efb2cf2ec35c7059fd.jpg",
+    "thumbnail": "1e51a5881c61de96d2d0b795e57fe895.jpg",
     "images": [
-      "ca73954ecbab78efb2cf2ec35c7059fd.jpg"
+      "1e51a5881c61de96d2d0b795e57fe895.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_sp507",
-    "code": "sp507",
-    "name": "sp507",
+    "id": "스완-타일 카페트_SP507",
+    "code": "SP507",
+    "name": "SP507",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "8f48bd44987b7f6604f0c4ce2137d7d3.jpg",
+    "thumbnail": "3f879c71f6cb417e996c82a5f53413bd.jpg",
     "images": [
-      "8f48bd44987b7f6604f0c4ce2137d7d3.jpg"
+      "3f879c71f6cb417e996c82a5f53413bd.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_sp508",
-    "code": "sp508",
-    "name": "sp508",
+    "id": "스완-타일 카페트_SP508",
+    "code": "SP508",
+    "name": "SP508",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "38e0a5ad99eb99508c8b31ccf0132cd2.jpg",
+    "thumbnail": "1284c1234f42aa67693817023e9006cc.jpg",
     "images": [
-      "38e0a5ad99eb99508c8b31ccf0132cd2.jpg"
+      "1284c1234f42aa67693817023e9006cc.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_sp522",
-    "code": "sp522",
-    "name": "sp522",
+    "id": "스완-타일 카페트_SP522",
+    "code": "SP522",
+    "name": "SP522",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "84f17f864f7908bc3acfb90e6681c4fe.jpg",
+    "thumbnail": "35590dc368538e8334ce9320120d9d8f.jpg",
     "images": [
-      "84f17f864f7908bc3acfb90e6681c4fe.jpg"
+      "35590dc368538e8334ce9320120d9d8f.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_sp526",
-    "code": "sp526",
-    "name": "sp526",
+    "id": "스완-타일 카페트_SP526",
+    "code": "SP526",
+    "name": "SP526",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "3cdb4fd685c0d6e138cb18501c69a873.jpg",
+    "thumbnail": "c467764ff034b5865d5b6ce2461f63ca.jpg",
     "images": [
-      "3cdb4fd685c0d6e138cb18501c69a873.jpg"
+      "c467764ff034b5865d5b6ce2461f63ca.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_sp601",
-    "code": "sp601",
-    "name": "sp601",
+    "id": "스완-타일 카페트_SP601",
+    "code": "SP601",
+    "name": "SP601",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "70f07c4057d74febb3a0cad93ebd4d5a.jpg",
+    "thumbnail": "c3d678f420a066a0aa93acc32c48b121.jpg",
     "images": [
-      "70f07c4057d74febb3a0cad93ebd4d5a.jpg"
+      "c3d678f420a066a0aa93acc32c48b121.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_sp603",
-    "code": "sp603",
-    "name": "sp603",
+    "id": "스완-타일 카페트_SP603",
+    "code": "SP603",
+    "name": "SP603",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "3d8fe67af213e925d4a39b205333e194.jpg",
+    "thumbnail": "bc36b145b23c5bd208a9fa36f26d1aba.jpg",
     "images": [
-      "3d8fe67af213e925d4a39b205333e194.jpg"
+      "bc36b145b23c5bd208a9fa36f26d1aba.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_sp604",
-    "code": "sp604",
-    "name": "sp604",
+    "id": "스완-타일 카페트_SP604",
+    "code": "SP604",
+    "name": "SP604",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "2e7092240c521eda8ae463773049158d.jpg",
+    "thumbnail": "0a81c53d22d458a24b1395cdb39337e4.jpg",
     "images": [
-      "2e7092240c521eda8ae463773049158d.jpg"
+      "0a81c53d22d458a24b1395cdb39337e4.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_sp605",
-    "code": "sp605",
-    "name": "sp605",
+    "id": "스완-타일 카페트_SP605",
+    "code": "SP605",
+    "name": "SP605",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "60b6e3f380a4f6d705310ef39ff5e74c.jpg",
+    "thumbnail": "e5c2cec76b8213686a5c849829f6b9a3.jpg",
     "images": [
-      "60b6e3f380a4f6d705310ef39ff5e74c.jpg"
+      "e5c2cec76b8213686a5c849829f6b9a3.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_sq206",
-    "code": "sq206",
-    "name": "sq206",
+    "id": "스완-타일 카페트_SQ206",
+    "code": "SQ206",
+    "name": "SQ206",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "2b83c029da0b57386c5c3510c8998a31.jpg",
+    "thumbnail": "2331926a9832b25de16620c73cd7c71e.jpg",
     "images": [
-      "2b83c029da0b57386c5c3510c8998a31.jpg"
+      "2331926a9832b25de16620c73cd7c71e.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_sq208",
-    "code": "sq208",
-    "name": "sq208",
+    "id": "스완-타일 카페트_SQ208",
+    "code": "SQ208",
+    "name": "SQ208",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "8185dc0e557c5f73addcaf5083291973.jpg",
+    "thumbnail": "a4b551b5f1b1ee53130632634bf6ce4e.jpg",
     "images": [
-      "8185dc0e557c5f73addcaf5083291973.jpg"
+      "a4b551b5f1b1ee53130632634bf6ce4e.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_sq212",
-    "code": "sq212",
-    "name": "sq212",
+    "id": "스완-타일 카페트_SQ212",
+    "code": "SQ212",
+    "name": "SQ212",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "0f30ef5171620fda9263a4487e62293d.jpg",
+    "thumbnail": "88b67496d89635da4611b28370a6e798.jpg",
     "images": [
-      "0f30ef5171620fda9263a4487e62293d.jpg"
+      "88b67496d89635da4611b28370a6e798.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_sq222",
-    "code": "sq222",
-    "name": "sq222",
+    "id": "스완-타일 카페트_SQ222",
+    "code": "SQ222",
+    "name": "SQ222",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "4ec33d3ed850d0799c4e118dd3efdb89.jpg",
+    "thumbnail": "6df6005883ef75a07a8ea96e0633d649.jpg",
     "images": [
-      "4ec33d3ed850d0799c4e118dd3efdb89.jpg"
+      "6df6005883ef75a07a8ea96e0633d649.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_sq226",
-    "code": "sq226",
-    "name": "sq226",
+    "id": "스완-타일 카페트_SQ226",
+    "code": "SQ226",
+    "name": "SQ226",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "59cef35ec4c79b64ee16f6294119085d.jpg",
+    "thumbnail": "8381aadb2f763a2f00e0c6e2d8d29ad1.jpg",
     "images": [
-      "59cef35ec4c79b64ee16f6294119085d.jpg"
+      "8381aadb2f763a2f00e0c6e2d8d29ad1.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_tr101",
-    "code": "tr101",
-    "name": "tr101",
+    "id": "스완-타일 카페트_TR101",
+    "code": "TR101",
+    "name": "TR101",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "ba9c60925b5582a58f415236288120b5.jpg",
+    "thumbnail": "927c88a4e868410eb0d935195f2ebc45.jpg",
     "images": [
-      "ba9c60925b5582a58f415236288120b5.jpg"
+      "927c88a4e868410eb0d935195f2ebc45.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_tr104",
-    "code": "tr104",
-    "name": "tr104",
+    "id": "스완-타일 카페트_TR104",
+    "code": "TR104",
+    "name": "TR104",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "4ac7ff1ad84d3aae702ec10520b9797f.jpg",
+    "thumbnail": "079bc5b25b88f16b805b6b464c38e5ff.jpg",
     "images": [
-      "4ac7ff1ad84d3aae702ec10520b9797f.jpg"
+      "079bc5b25b88f16b805b6b464c38e5ff.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_tr107",
-    "code": "tr107",
-    "name": "tr107",
+    "id": "스완-타일 카페트_TR107",
+    "code": "TR107",
+    "name": "TR107",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "c148aac196f344f8a3a0d36cbab25925.jpg",
+    "thumbnail": "c6c5a8e7b6ea8757f2ab63c4106959a8.jpg",
     "images": [
-      "c148aac196f344f8a3a0d36cbab25925.jpg"
+      "c6c5a8e7b6ea8757f2ab63c4106959a8.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_tr108",
-    "code": "tr108",
-    "name": "tr108",
+    "id": "스완-타일 카페트_TR108",
+    "code": "TR108",
+    "name": "TR108",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "f2b55a93612846ffa61d05ca4c50c74b.jpg",
+    "thumbnail": "5b480d22fd34f918eb7c1437efbfb2f6.jpg",
     "images": [
-      "f2b55a93612846ffa61d05ca4c50c74b.jpg"
+      "5b480d22fd34f918eb7c1437efbfb2f6.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_tr109",
-    "code": "tr109",
-    "name": "tr109",
+    "id": "스완-타일 카페트_TR109",
+    "code": "TR109",
+    "name": "TR109",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "83a27c89481d5cb9717c977554b56cf4.jpg",
+    "thumbnail": "89d2bcdb134f067663b3169f501924c6.jpg",
     "images": [
-      "83a27c89481d5cb9717c977554b56cf4.jpg"
+      "89d2bcdb134f067663b3169f501924c6.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_tr110",
-    "code": "tr110",
-    "name": "tr110",
+    "id": "스완-타일 카페트_TR110",
+    "code": "TR110",
+    "name": "TR110",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "eb924a838e5fbfde6c46a424d428f044.jpg",
+    "thumbnail": "5a9edc53c4a05592e632eeff15082021.jpg",
     "images": [
-      "eb924a838e5fbfde6c46a424d428f044.jpg"
+      "5a9edc53c4a05592e632eeff15082021.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_tr112",
-    "code": "tr112",
-    "name": "tr112",
+    "id": "스완-타일 카페트_TR112",
+    "code": "TR112",
+    "name": "TR112",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "b7272585d260359ac0c55f7a13c5b0ba.jpg",
+    "thumbnail": "c0f87fa6eebb12eb242b2a88c5e27b71.jpg",
     "images": [
-      "b7272585d260359ac0c55f7a13c5b0ba.jpg"
+      "c0f87fa6eebb12eb242b2a88c5e27b71.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_tr121",
-    "code": "tr121",
-    "name": "tr121",
+    "id": "스완-타일 카페트_TR121",
+    "code": "TR121",
+    "name": "TR121",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "fb70e4260e7f7f4626d501a492e749b5.jpg",
+    "thumbnail": "4577bbbe51ee3e0bc7aa3677d8a00fc1.jpg",
     "images": [
-      "fb70e4260e7f7f4626d501a492e749b5.jpg"
+      "4577bbbe51ee3e0bc7aa3677d8a00fc1.jpg"
     ]
   },
   {
-    "id": "스완-타일 카페트_tr122",
-    "code": "tr122",
-    "name": "tr122",
+    "id": "스완-타일 카페트_TR122",
+    "code": "TR122",
+    "name": "TR122",
     "brand": "스완",
     "category": "카페트타일",
     "line": "타일 카페트",
     "price": 0,
-    "thumbnail": "479120ead6462837a4e4a75ac5fec8f8.jpg",
+    "thumbnail": "4eafee81dae19565f45d0cdabd1c0ce2.jpg",
     "images": [
-      "479120ead6462837a4e4a75ac5fec8f8.jpg"
+      "4eafee81dae19565f45d0cdabd1c0ce2.jpg"
     ]
   }
 ];
