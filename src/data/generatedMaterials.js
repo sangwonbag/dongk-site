@@ -5,6 +5,7 @@ export const ALL_BRANDS = [
   "LX",
   "녹수",
   "유성",
+  "대진",
   "현대",
   "동화",
   "이건",
@@ -29,6 +30,7 @@ export const BRANDS_BY_CATEGORY = {
     "LX",
     "녹수",
     "유성",
+    "대진",
     "현대"
   ],
   "러버타일": [
@@ -6190,6 +6192,1812 @@ export const materials = [
       "thickness": "3.0mm",
       "size": "180mm(W) x 920mm(L) x 3.0(T)",
       "packing": "20pcs/box (3.31㎡)"
+    }
+  },
+  {
+    "id": "대진-DC1517",
+    "code": "DC1517",
+    "name": "DC1517",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "0201984ee5647203ae053ed66fc597eb.jpg",
+    "images": [
+      "0201984ee5647203ae053ed66fc597eb.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DC1518",
+    "code": "DC1518",
+    "name": "DC1518",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "bf5c8ec3f5dbbf0a565e2bbe021f88db.jpg",
+    "images": [
+      "bf5c8ec3f5dbbf0a565e2bbe021f88db.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DC1541",
+    "code": "DC1541",
+    "name": "DC1541",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "b6b216d1048d711ecf588523e4d31cda.jpg",
+    "images": [
+      "b6b216d1048d711ecf588523e4d31cda.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DC1542",
+    "code": "DC1542",
+    "name": "DC1542",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "51128bbd583977d9253800bcc9fc5cbc.jpg",
+    "images": [
+      "51128bbd583977d9253800bcc9fc5cbc.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DC1543",
+    "code": "DC1543",
+    "name": "DC1543",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "c2e94d8b5437d4c28d3dbeda95995d4a.jpg",
+    "images": [
+      "c2e94d8b5437d4c28d3dbeda95995d4a.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DC409A",
+    "code": "DC409A",
+    "name": "DC409A",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "85f82d4803524777ee34b72c311a80e0.jpg",
+    "images": [
+      "85f82d4803524777ee34b72c311a80e0.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DC6621",
+    "code": "DC6621",
+    "name": "DC6621",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "1070b85cbdb940de22eecd380f95427a.jpg",
+    "images": [
+      "1070b85cbdb940de22eecd380f95427a.jpg"
+    ],
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
+  },
+  {
+    "id": "대진-DG604",
+    "code": "DG604",
+    "name": "DG604",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "05245a1edfa40dd2631794375c65d445.jpg",
+    "images": [
+      "05245a1edfa40dd2631794375c65d445.jpg"
+    ],
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
+  },
+  {
+    "id": "대진-DG607R",
+    "code": "DG607R",
+    "name": "DG607R",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "0c1802de2ea87fc27c7e6ce7523e3f12.jpg",
+    "images": [
+      "0c1802de2ea87fc27c7e6ce7523e3f12.jpg"
+    ],
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
+  },
+  {
+    "id": "대진-DG608",
+    "code": "DG608",
+    "name": "DG608",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "1744a3ec0b52025e0befba820aec60d6.jpg",
+    "images": [
+      "1744a3ec0b52025e0befba820aec60d6.jpg"
+    ],
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
+  },
+  {
+    "id": "대진-DGS 1369",
+    "code": "DGS 1369",
+    "name": "DGS1369",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "0af6ad955b416253a57ba5653344d66f.jpg",
+    "images": [
+      "0af6ad955b416253a57ba5653344d66f.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DM6641",
+    "code": "DM6641",
+    "name": "DM6641",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "b074385c6d26d387835ea0a753288716.jpg",
+    "images": [
+      "b074385c6d26d387835ea0a753288716.jpg"
+    ],
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
+  },
+  {
+    "id": "대진-DM6643",
+    "code": "DM6643",
+    "name": "DM6643",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "a9da56b78567de02d493d8b304263852.jpg",
+    "images": [
+      "a9da56b78567de02d493d8b304263852.jpg"
+    ],
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
+  },
+  {
+    "id": "대진-DM6644",
+    "code": "DM6644",
+    "name": "DM6644",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "99ac99ec3998ad82f3f9a54a08c1f046.jpg",
+    "images": [
+      "99ac99ec3998ad82f3f9a54a08c1f046.jpg"
+    ],
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
+  },
+  {
+    "id": "대진-DM6712",
+    "code": "DM6712",
+    "name": "DM6712",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "368a8323da5cb59f643c77d3df52de76.jpg",
+    "images": [
+      "368a8323da5cb59f643c77d3df52de76.jpg"
+    ],
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
+  },
+  {
+    "id": "대진-DM6713",
+    "code": "DM6713",
+    "name": "DM6713",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "ab8587ad6698153126338f62dd44934a.jpg",
+    "images": [
+      "ab8587ad6698153126338f62dd44934a.jpg"
+    ],
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
+  },
+  {
+    "id": "대진-DM6714",
+    "code": "DM6714",
+    "name": "DM6714",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "2211ffbce1e8913622ba1af11e7906f5.jpg",
+    "images": [
+      "2211ffbce1e8913622ba1af11e7906f5.jpg"
+    ],
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
+  },
+  {
+    "id": "대진-DM904",
+    "code": "DM904",
+    "name": "DM904",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "ab0942a9232568ea00fe026d49e3d47d.jpg",
+    "images": [
+      "ab0942a9232568ea00fe026d49e3d47d.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DM905",
+    "code": "DM905",
+    "name": "DM905",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "df98ae56ba3285891e8d4a59368f960e.jpg",
+    "images": [
+      "df98ae56ba3285891e8d4a59368f960e.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DM907",
+    "code": "DM907",
+    "name": "DM907",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "e775f9b41125e98e797b21df84afa204.jpg",
+    "images": [
+      "e775f9b41125e98e797b21df84afa204.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DMS261R",
+    "code": "DMS261R",
+    "name": "DMS261R",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "e9b2bf5e47d1749ab2ef2c5c438d5c1b.jpg",
+    "images": [
+      "e9b2bf5e47d1749ab2ef2c5c438d5c1b.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DMS262R",
+    "code": "DMS262R",
+    "name": "DMS262R",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "ed372e8d6ec18aebf3ebc33a6c1d348b.jpg",
+    "images": [
+      "ed372e8d6ec18aebf3ebc33a6c1d348b.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DMS263R",
+    "code": "DMS263R",
+    "name": "DMS263R",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "1312901c1a2704247b6b804953a5b7f8.jpg",
+    "images": [
+      "1312901c1a2704247b6b804953a5b7f8.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DMS264R",
+    "code": "DMS264R",
+    "name": "DMS264R",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "58df2a3706e944d90e7d9226d974f687.jpg",
+    "images": [
+      "58df2a3706e944d90e7d9226d974f687.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DMS266R",
+    "code": "DMS266R",
+    "name": "DMS266R",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "54be4905e744900a2c79dfd8ac5e70b3.jpg",
+    "images": [
+      "54be4905e744900a2c79dfd8ac5e70b3.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DMS916",
+    "code": "DMS916",
+    "name": "DMS916",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "7543d11da977b8264937b8e1493c3e58.jpg",
+    "images": [
+      "7543d11da977b8264937b8e1493c3e58.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DMT121",
+    "code": "DMT121",
+    "name": "DMT121",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "51a5770fd7c7477ece3300ecc0d9509b.jpg",
+    "images": [
+      "51a5770fd7c7477ece3300ecc0d9509b.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DMT131",
+    "code": "DMT131",
+    "name": "DMT131",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "8cac7b9bae30fd2dee3ba271891469e4.jpg",
+    "images": [
+      "8cac7b9bae30fd2dee3ba271891469e4.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DS817",
+    "code": "DS817",
+    "name": "DS817",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "7ae97a808ce4c07035ac981b568fafef.jpg",
+    "images": [
+      "7ae97a808ce4c07035ac981b568fafef.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DS908",
+    "code": "DS908",
+    "name": "DS908",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "b832bd8fe287ba60699140b5a479eb1e.jpg",
+    "images": [
+      "b832bd8fe287ba60699140b5a479eb1e.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DS909",
+    "code": "DS909",
+    "name": "DS909",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "50a1f596585370048233e0720e90c350.jpg",
+    "images": [
+      "50a1f596585370048233e0720e90c350.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DS910",
+    "code": "DS910",
+    "name": "DS910",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "70ae6a9c6ed19273016b4d6f904ce852.jpg",
+    "images": [
+      "70ae6a9c6ed19273016b4d6f904ce852.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DS911",
+    "code": "DS911",
+    "name": "DS911",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "391649486f07900452bd24f80911dd7f.jpg",
+    "images": [
+      "391649486f07900452bd24f80911dd7f.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DT6603",
+    "code": "DT6603",
+    "name": "DT6603",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "ceb5efb2f6c04b0566abbd7fb1779250.jpg",
+    "images": [
+      "ceb5efb2f6c04b0566abbd7fb1779250.jpg"
+    ],
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
+  },
+  {
+    "id": "대진-DT6604",
+    "code": "DT6604",
+    "name": "DT6604",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "db5aac0d3bf2c47b71908a80cc4b9466.jpg",
+    "images": [
+      "db5aac0d3bf2c47b71908a80cc4b9466.jpg"
+    ],
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
+  },
+  {
+    "id": "대진-DT6681",
+    "code": "DT6681",
+    "name": "DT6681",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "3a609a6938e0dd131c5d5835a233b390.jpg",
+    "images": [
+      "3a609a6938e0dd131c5d5835a233b390.jpg"
+    ],
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
+  },
+  {
+    "id": "대진-DT6683",
+    "code": "DT6683",
+    "name": "DT6683",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "b39d37dfd9927474d819ff4341fff579.jpg",
+    "images": [
+      "b39d37dfd9927474d819ff4341fff579.jpg"
+    ],
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
+  },
+  {
+    "id": "대진-DT6701",
+    "code": "DT6701",
+    "name": "DT6701",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "74fafdba89105cee135e9807e371de6a.jpg",
+    "images": [
+      "74fafdba89105cee135e9807e371de6a.jpg"
+    ],
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
+  },
+  {
+    "id": "대진-DT6703",
+    "code": "DT6703",
+    "name": "DT6703",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "89ba4b4063c085568ea46ed059e3109f.jpg",
+    "images": [
+      "89ba4b4063c085568ea46ed059e3109f.jpg"
+    ],
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
+  },
+  {
+    "id": "대진-DT6704",
+    "code": "DT6704",
+    "name": "DT6704",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "5f5c9e0f2717c706b714eab80d797480.jpg",
+    "images": [
+      "5f5c9e0f2717c706b714eab80d797480.jpg"
+    ],
+    "type": "600",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
+    }
+  },
+  {
+    "id": "대진-DT740",
+    "code": "DT740",
+    "name": "DT740",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "a0a18989b39c9a4241615102a1bd56bd.png",
+    "images": [
+      "a0a18989b39c9a4241615102a1bd56bd.png"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DT751",
+    "code": "DT751",
+    "name": "DT751",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "922573e2cb71e119602cf05ce651be0e.jpg",
+    "images": [
+      "922573e2cb71e119602cf05ce651be0e.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DT770",
+    "code": "DT770",
+    "name": "DT770",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "02ef402fbec0b93f8e623eb4d5422802.jpg",
+    "images": [
+      "02ef402fbec0b93f8e623eb4d5422802.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DT771",
+    "code": "DT771",
+    "name": "DT771",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "8b8445216109404fc1421903963a1edf.jpg",
+    "images": [
+      "8b8445216109404fc1421903963a1edf.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DT772",
+    "code": "DT772",
+    "name": "DT772",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "36650995ebc3ef4748bb065a19796421.jpg",
+    "images": [
+      "36650995ebc3ef4748bb065a19796421.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DT773",
+    "code": "DT773",
+    "name": "DT773",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "c4ccb043ba8f3c04139210bbd4465384.jpg",
+    "images": [
+      "c4ccb043ba8f3c04139210bbd4465384.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DT774",
+    "code": "DT774",
+    "name": "DT774",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "f59f9a63810643a1e7c72e076838eba9.jpg",
+    "images": [
+      "f59f9a63810643a1e7c72e076838eba9.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DT791",
+    "code": "DT791",
+    "name": "DT791",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "595ada5fc7d988a5feaa3b7881c09e06.jpg",
+    "images": [
+      "595ada5fc7d988a5feaa3b7881c09e06.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DT792",
+    "code": "DT792",
+    "name": "DT792",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "7570cef37e590a9169428b3b927aa2e0.jpg",
+    "images": [
+      "7570cef37e590a9169428b3b927aa2e0.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DT912",
+    "code": "DT912",
+    "name": "DT912",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "1f6b16f8af0d1696d3f9d88aceacdd0b.png",
+    "images": [
+      "1f6b16f8af0d1696d3f9d88aceacdd0b.png"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DT914",
+    "code": "DT914",
+    "name": "DT914",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "f9741bb459993d0fb04e04a6c4cb6136.jpg",
+    "images": [
+      "f9741bb459993d0fb04e04a6c4cb6136.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DT915",
+    "code": "DT915",
+    "name": "DT915",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "8ea20ebb14bd4c872e96f571141134f5.jpg",
+    "images": [
+      "8ea20ebb14bd4c872e96f571141134f5.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-DW1321",
+    "code": "DW1321",
+    "name": "DW1321",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "798ebc6dd54d07e490c0a44a011ece89.jpg",
+    "images": [
+      "798ebc6dd54d07e490c0a44a011ece89.jpg"
+    ],
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "187x935mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "대진-DW1331",
+    "code": "DW1331",
+    "name": "DW1331",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "b7771b3037996e4ba8e464dd06aca08a.jpg",
+    "images": [
+      "b7771b3037996e4ba8e464dd06aca08a.jpg"
+    ],
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "187x935mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "대진-DW1902R",
+    "code": "DW1902R",
+    "name": "DW1902R",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "bd45f55e6b3ebfd6110a0b505fe5e09b.jpg",
+    "images": [
+      "bd45f55e6b3ebfd6110a0b505fe5e09b.jpg"
+    ],
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "187x935mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "대진-DW1909R",
+    "code": "DW1909R",
+    "name": "DW1909R",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "cf91eec47da95be2a6e81f6b4b66df27.jpg",
+    "images": [
+      "cf91eec47da95be2a6e81f6b4b66df27.jpg"
+    ],
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "187x935mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "대진-DW2221",
+    "code": "DW2221",
+    "name": "DW2221",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "7cc112a0f270327e5d658882524031fe.jpg",
+    "images": [
+      "7cc112a0f270327e5d658882524031fe.jpg"
+    ],
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "187x935mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "대진-DW2225",
+    "code": "DW2225",
+    "name": "DW2225",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "668ad766d2edb4e904267803c8f9bd6f.jpg",
+    "images": [
+      "668ad766d2edb4e904267803c8f9bd6f.jpg"
+    ],
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "187x935mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "대진-DW2301R",
+    "code": "DW2301R",
+    "name": "DW2301R",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "193606ec72f8552449f498184f23c810.jpg",
+    "images": [
+      "193606ec72f8552449f498184f23c810.jpg"
+    ],
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "187x935mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "대진-DW3151R",
+    "code": "DW3151R",
+    "name": "DW3151R",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "24f6526d1e9b46af900ecd5925c88135.jpg",
+    "images": [
+      "24f6526d1e9b46af900ecd5925c88135.jpg"
+    ],
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "187x935mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "대진-DW3153",
+    "code": "DW3153",
+    "name": "DW3153",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "f6eadf6bec072adea968c36efc2766b4.jpg",
+    "images": [
+      "f6eadf6bec072adea968c36efc2766b4.jpg"
+    ],
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "187x935mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "대진-DW3171",
+    "code": "DW3171",
+    "name": "DW3171",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "516458bb850199403ccd140aadfbd9ba.jpg",
+    "images": [
+      "516458bb850199403ccd140aadfbd9ba.jpg"
+    ],
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "187x935mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "대진-DW3210",
+    "code": "DW3210",
+    "name": "DW3210",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "0ff85ffd0141f832d4115bd373015e72.jpg",
+    "images": [
+      "0ff85ffd0141f832d4115bd373015e72.jpg"
+    ],
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "187x935mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "대진-DW3212",
+    "code": "DW3212",
+    "name": "DW3212",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "116bed8a6d2d683679b30c33b79518e4.jpg",
+    "images": [
+      "116bed8a6d2d683679b30c33b79518e4.jpg"
+    ],
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "187x935mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "대진-DW3213",
+    "code": "DW3213",
+    "name": "DW3213",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "e1a4ae8b10ea73b919d9a367150f56a7.jpg",
+    "images": [
+      "e1a4ae8b10ea73b919d9a367150f56a7.jpg"
+    ],
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "187x935mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "대진-DW3330",
+    "code": "DW3330",
+    "name": "DW3330",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "6358f111a090976dbefbfc0cff8af3f0.jpg",
+    "images": [
+      "6358f111a090976dbefbfc0cff8af3f0.jpg"
+    ],
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "187x935mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "대진-DW3331",
+    "code": "DW3331",
+    "name": "DW3331",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "b6ff64cb7cb0d527905bfda2d9f80591.jpg",
+    "images": [
+      "b6ff64cb7cb0d527905bfda2d9f80591.jpg"
+    ],
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "187x935mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "대진-DW5301",
+    "code": "DW5301",
+    "name": "DW5301",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "2675e7fc11912bf84f20e315b48d913e.jpg",
+    "images": [
+      "2675e7fc11912bf84f20e315b48d913e.jpg"
+    ],
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "187x935mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "대진-DW5302",
+    "code": "DW5302",
+    "name": "DW5302",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "3103b5a5924952a90faae96d05264128.jpg",
+    "images": [
+      "3103b5a5924952a90faae96d05264128.jpg"
+    ],
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "187x935mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "대진-DW5303",
+    "code": "DW5303",
+    "name": "DW5303",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "b1708402fbb2f742dc005ae7fa769f93.jpg",
+    "images": [
+      "b1708402fbb2f742dc005ae7fa769f93.jpg"
+    ],
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "187x935mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "대진-DW5304",
+    "code": "DW5304",
+    "name": "DW5304",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "83b05f755fe266732fa7a6e4b0059ce9.jpg",
+    "images": [
+      "83b05f755fe266732fa7a6e4b0059ce9.jpg"
+    ],
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "187x935mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "대진-DW6812",
+    "code": "DW6812",
+    "name": "DW6812",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "b46e66b54e6ae38741c93ace9222b55b.jpg",
+    "images": [
+      "b46e66b54e6ae38741c93ace9222b55b.jpg"
+    ],
+    "type": "wood",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "187x935mm",
+      "packing": "19pcs / 3.32㎡"
+    }
+  },
+  {
+    "id": "대진-HOU 0001",
+    "code": "HOU 0001",
+    "name": "HOU0001",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "5cdd28c37b83919c5dc81eeb1985d518.jpg",
+    "images": [
+      "5cdd28c37b83919c5dc81eeb1985d518.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-HOU 0002",
+    "code": "HOU 0002",
+    "name": "HOU0002",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "f09f9035ab140f888db549bf10d50bd9.jpg",
+    "images": [
+      "f09f9035ab140f888db549bf10d50bd9.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-HOU 0004",
+    "code": "HOU 0004",
+    "name": "HOU0004",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "bede36a0e6faa3b1f613398dbbfb6ce2.jpg",
+    "images": [
+      "bede36a0e6faa3b1f613398dbbfb6ce2.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-HOU 0012",
+    "code": "HOU 0012",
+    "name": "HOU0012",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "f307294fb9b77bb2902d1980c6e0f7f0.jpg",
+    "images": [
+      "f307294fb9b77bb2902d1980c6e0f7f0.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-HOU 0021",
+    "code": "HOU 0021",
+    "name": "HOU0021",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "21b8edd9de363798dd057b1ff0c4f979.jpg",
+    "images": [
+      "21b8edd9de363798dd057b1ff0c4f979.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-HOU 0022",
+    "code": "HOU 0022",
+    "name": "HOU0022",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "8d0b442e2982b191c721e386e1af9eea.jpg",
+    "images": [
+      "8d0b442e2982b191c721e386e1af9eea.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-HOU 0023",
+    "code": "HOU 0023",
+    "name": "HOU0023",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "bc7a1f0ae8f7d4c5b98c598695c7c501.jpg",
+    "images": [
+      "bc7a1f0ae8f7d4c5b98c598695c7c501.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-HOU 0031",
+    "code": "HOU 0031",
+    "name": "HOU0031",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "5eb29a6b35c3a3445ef36b7dfdd3185f.png",
+    "images": [
+      "5eb29a6b35c3a3445ef36b7dfdd3185f.png"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-HOU 0032",
+    "code": "HOU 0032",
+    "name": "HOU0032",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "386b293f13bb0b1309e686bcda564b79.jpg",
+    "images": [
+      "386b293f13bb0b1309e686bcda564b79.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-HOU 0033",
+    "code": "HOU 0033",
+    "name": "HOU0033",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "43ec1c6cb1214f14331c33c46ca5392b.png",
+    "images": [
+      "43ec1c6cb1214f14331c33c46ca5392b.png"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-HOU 0034",
+    "code": "HOU 0034",
+    "name": "HOU0034",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "7c46286ab37459dea1c26d73bf311e89.png",
+    "images": [
+      "7c46286ab37459dea1c26d73bf311e89.png"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-HOU 0035",
+    "code": "HOU 0035",
+    "name": "HOU0035",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "22b179f46b0aab6f434aab61666f9486.jpg",
+    "images": [
+      "22b179f46b0aab6f434aab61666f9486.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-HOU 0036",
+    "code": "HOU 0036",
+    "name": "HOU0036",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "c8b4b0df56c66ccddeaa0ac900fec611.jpg",
+    "images": [
+      "c8b4b0df56c66ccddeaa0ac900fec611.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
+    }
+  },
+  {
+    "id": "대진-HOU 0037",
+    "code": "HOU 0037",
+    "name": "HOU0037",
+    "brand": "대진",
+    "category": "데코타일",
+    "line": "",
+    "price": 0,
+    "thumbnail": "9a1fe1114d01d944d0cfe8a0d46094a2.jpg",
+    "images": [
+      "9a1fe1114d01d944d0cfe8a0d46094a2.jpg"
+    ],
+    "type": "470",
+    "thickness": "3.0T",
+    "specs": {
+      "division": "",
+      "thickness": "3.0T",
+      "size": "470x470mm",
+      "packing": "15pcs / 3.31㎡"
     }
   },
   {

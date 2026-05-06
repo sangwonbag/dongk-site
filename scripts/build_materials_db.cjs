@@ -168,6 +168,29 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                     packing = "2.0T: 55pcs(4.96㎡) / 3.0T: 37pcs(3.33㎡), 16pcs(3.24㎡)";
                     type = "deluxe";
                 }
+            } else if (brand === '대진') {
+                thickness = "3.0T";
+                if (uCode.startsWith("DW") || uCode.match(/^HOU00[0-2]/)) {
+                    sizeLabel = "187x935mm";
+                    packing = "19pcs / 3.32㎡";
+                    type = "wood";
+                } else if (uCode.match(/^HOU003[5-8]/)) {
+                    sizeLabel = "314x625mm";
+                    packing = "17pcs / 3.3㎡";
+                    type = "rectangle";
+                } else if (uCode.startsWith("HOU")) {
+                    sizeLabel = "470x470mm";
+                    packing = "15pcs / 3.31㎡";
+                    type = "470";
+                } else if (uCode.match(/^(DT|DM|DC|DG)6/)) {
+                    sizeLabel = "600x600mm";
+                    packing = "9pcs / 3.24㎡";
+                    type = "600";
+                } else {
+                    sizeLabel = "470x470mm";
+                    packing = "15pcs / 3.31㎡";
+                    type = "470";
+                }
             } else if (brand === '녹수') {
                 if (line.includes('프라임1500')) {
                     price = 21500;

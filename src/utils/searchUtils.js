@@ -181,6 +181,7 @@ export const RECOMMENDATIONS = [
 ];
 
 const BRAND_DEFAULT_CATEGORY = {
+  "대진": "데코타일",
   "동신": "데코타일",
   "녹수": "데코타일",
   "재영": "데코타일",
