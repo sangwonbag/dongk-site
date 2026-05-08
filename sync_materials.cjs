@@ -5,7 +5,7 @@ const brands = ['서울', 'LX', '신한', '제일'];
 for (const brand of brands) {
   try {
     console.log(`Syncing ${brand}...`);
-    execSync(`robocopy "public/samplebooks/Thumnail_image/벽지/${brand}" "public/images/Thumbnail_Image/materials/벽지/${brand}" /E /PURGE`);
+    execSync(`robocopy "public/samplebooks/Thumbnail_image/벽지/${brand}" "public/images/Thumbnail_Image/materials/벽지/${brand}" /E /PURGE`);
   } catch (e) {
     if (e.status >= 8) console.error(`Error copying ${brand}`);
   }
