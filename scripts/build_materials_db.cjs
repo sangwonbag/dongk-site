@@ -442,6 +442,7 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                 }
             } else if (brand === '개나리') {
                 if (line.includes('프리미엄')) {
+                    price = 99000;
                     materialType = "프리미엄";
                     sizeLabel = "1.06m(W) x 15.6m(H) / Roll";
                     packing = "2 Roll";
