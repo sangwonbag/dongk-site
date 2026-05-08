@@ -1,7 +1,7 @@
 /* Floating Button */
 .chat-widget-container {
     position: fixed;
-    bottom: 20px;
+    bottom: 80px;
     right: 20px;
     z-index: 9999;
     font-family: 'Pretendard', -apple-system, sans-serif;
@@ -62,7 +62,7 @@
         border-radius: 0;
     }
     .chat-widget-container {
-        bottom: 16px;
+        bottom: 76px;
         right: 16px;
     }
 }
