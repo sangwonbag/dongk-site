@@ -3,7 +3,7 @@ import { Bot, X, Send, Phone, ClipboardList } from 'lucide-react';
 import ChatContactForm from './ChatContactForm';
 import { SYSTEM_PROMPT, getNextRuleBasedMessage } from '../../lib/chatLogic';
 
-const QUICK_ACTIONS = [
+const INITIAL_ACTIONS = [
     "장판 추천",
     "데코타일 추천",
     "벽지 상담",
@@ -17,6 +17,9 @@ export default function ChatWindow({ onClose, sessionId }) {
     const [inputValue, setInputValue] = useState('');
     const [isLoading, setIsLoading] = useState(false);
     const [showForm, setShowForm] = useState(false);
+    const [chatMode, setChatMode] = useState('idle');
+    const [options, setOptions] = useState(INITIAL_ACTIONS);
+    
     const messagesEndRef = useRef(null);
 
     useEffect(() => {
@@ -31,13 +34,62 @@ export default function ChatWindow({ onClose, sessionId }) {
 
     useEffect(() => {
         scrollToBottom();
-    }, [messages, showForm, isLoading]);
+    }, [messages, showForm, isLoading, options]);
 
     const scrollToBottom = () => {
         messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
     };
 
-    const handleSend = async (textOverride = null) => {
+    const handleQuickAction = (action) => {
+        if (action === "처음으로") {
+            setChatMode('idle');
+            setOptions(INITIAL_ACTIONS);
+            return;
+        }
+
+        let newMsg = "";
+        let newOptions = [];
+        let newMode = chatMode;
+
+        if (action === "데코타일 추천") {
+            newMode = "recommend_deco";
+            newMsg = "데코타일은 상가, 사무실, 원룸, 매장 바닥에 많이 쓰이는 자재입니다. 내구성이 좋고 관리가 편해서 많이 찾으세요.\n\n추천은 시공 공간에 따라 달라집니다. 어디에 시공하실 예정인가요?";
+            newOptions = ["주거공간", "상가/매장", "사무실", "원룸/임대", "기타", "처음으로"];
+        } else if (action === "장판 추천") {
+            newMode = "recommend_flooring";
+            newMsg = "장판은 주거공간, 원룸, 아파트에 많이 사용하는 바닥재입니다. 두께에 따라 가격, 쿠션감, 내구성이 달라집니다.\n\n어떤 공간에 시공하실 예정인가요?";
+            newOptions = ["아파트", "원룸", "빌라", "상가", "기타", "처음으로"];
+        } else if (action === "벽지 상담") {
+            newMode = "wallpaper";
+            newMsg = "벽지는 공간 분위기와 예산에 따라 선택이 달라집니다. 실크벽지, 합지벽지, 포인트벽지 등으로 나눠서 상담할 수 있습니다.\n\n벽지를 바꾸실 공간은 어디인가요?";
+            newOptions = ["거실", "방", "전체시공", "상가", "기타", "처음으로"];
+        } else if (action === "견적 문의") {
+            newMode = "estimate";
+            newMsg = "견적은 자재 종류, 평수, 현장 상태, 철거 여부에 따라 달라집니다. 정확한 견적은 상담이 필요하지만, 대략적인 안내를 위해 몇 가지를 확인하겠습니다.\n\n먼저 어떤 자재 견적이 필요하신가요?";
+            newOptions = ["장판", "데코타일", "마루", "벽지", "카페트타일", "처음으로"];
+        } else if (action === "제품번호 검색") {
+            newMode = "product_search";
+            newMsg = "제품번호나 브랜드명을 입력해주시면 관련 자재를 찾아드릴게요.\n\n예시:\nKCC, LX, 동신, 현대디럭스, 600각, AR502, FO3305 처럼 입력하시면 됩니다.";
+            newOptions = [];
+        } else if (action === "영업시간/위치") {
+            newMode = "business_info";
+            newMsg = "동경바닥재 위치와 운영시간입니다.\n\n주소: 경기 하남시 서하남로 37\n고객센터: 02-487-9775\n운영시간: 평일 07:00 - 18:00 / 주말 07:00 - 12:00\n\n급한 문의는 전화 상담을 이용하시면 빠릅니다.";
+            newOptions = ["처음으로"]; // "전화 상담", "온라인 상담 접수" are already in the footer
+        } else if (action === "온라인 상담 접수") {
+             setShowForm(true);
+             return;
+        } else {
+             // Sub-options selected. Echo user message and fall back to handleSendMessage
+             handleSendMessage(action);
+             return;
+        }
+
+        setChatMode(newMode);
+        setOptions(newOptions);
+        setMessages(prev => [...prev, { role: 'assistant', content: newMsg }]);
+    };
+
+    const handleSendMessage = async (textOverride = null) => {
         const text = textOverride || inputValue;
         if (!text.trim()) return;
 
@@ -47,7 +99,7 @@ export default function ChatWindow({ onClose, sessionId }) {
         setMessages(newHistory);
         setInputValue('');
         setIsLoading(true);
-        setShowForm(false); // Hide form if they type something else
+        setShowForm(false);
 
         try {
             const apiMessages = newHistory.map(m => ({ role: m.role, content: m.content }));
@@ -81,7 +133,7 @@ export default function ChatWindow({ onClose, sessionId }) {
     };
 
     const handleKeyDown = (e) => {
-        if (e.key === 'Enter') handleSend();
+        if (e.key === 'Enter') handleSendMessage();
     };
 
     return (
@@ -139,10 +191,10 @@ export default function ChatWindow({ onClose, sessionId }) {
                 )}
                 
                 {/* Quick Actions (only show at the end if not showing form and not loading) */}
-                {!isLoading && !showForm && (
+                {!isLoading && !showForm && options.length > 0 && (
                     <div className="quick-actions">
-                        {QUICK_ACTIONS.map(action => (
-                            <button key={action} className="quick-btn" onClick={() => handleSend(action)}>
+                        {options.map(action => (
+                            <button key={action} className="quick-btn" onClick={() => handleQuickAction(action)}>
                                 {action}
                             </button>
                         ))}
@@ -164,7 +216,7 @@ export default function ChatWindow({ onClose, sessionId }) {
                     />
                     <button 
                         className="send-btn" 
-                        onClick={() => handleSend()}
+                        onClick={() => handleSendMessage()}
                         disabled={isLoading || !inputValue.trim() || showForm}
                     >
                         <Send size={16} />
