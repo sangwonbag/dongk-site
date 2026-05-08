@@ -31,8 +31,13 @@ export const getAutoMatchedCover = (book) => {
     // 1. Manifest에서 ID 또는 제목으로 매칭 시도
     const keys = [book.id, book.title, book.name].filter(Boolean).map(normalize);
     for (const key of keys) {
-        if (imageManifest[key] && imageManifest[key].cover) {
-            return imageManifest[key].cover;
+        const entry = imageManifest[key];
+        if (entry) {
+            const path = entry.thumbnail || entry.cover;
+            if (path) {
+                if (path.startsWith('http') || path.startsWith('/')) return path;
+                return `https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/${path}`;
+            }
         }
     }
 
