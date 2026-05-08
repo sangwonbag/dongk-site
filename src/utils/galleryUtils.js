@@ -1,6 +1,6 @@
 import { imageManifest } from "../data/imageManifest";
 
-const normalize = (str) => str ? str.replace(/[^a-zA-Z0-9가-힣_-]/g, '').toUpperCase() : "";
+const normalize = (str) => str ? str.replace(/[^a-zA-Z0-9가-힣]/g, '').toUpperCase() : "";
 
 export const SUPABASE_PUBLIC_URL_PREFIX = "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/";
 

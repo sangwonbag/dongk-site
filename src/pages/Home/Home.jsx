@@ -13,7 +13,7 @@ export default function Home() {
 
   // Get random KCC recommended items
   const recommendedMaterials = useMemo(() => {
-    const normalize = (str) => str ? str.replace(/[^a-zA-Z0-9]/g, '').toUpperCase() : "";
+    const normalize = (str) => str ? str.replace(/[^a-zA-Z0-9가-힣]/g, '').toUpperCase() : "";
     
     // 1. Filter: 브랜드 KCC/동신 + 실이미지 존재 + 중복 코드 제외
     const seenCodes = new Set();
