@@ -264,13 +264,13 @@ export default function Header() {
 
         {/* Nav Icons */}
         <nav className="header-nav">
-          <button onClick={() => nav("/samplebooks")}>
-            <BookOpen size={20} />
-            <span>샘플북</span>
-          </button>
           <button onClick={() => nav("/materials")}>
             <Layers size={20} />
             <span>자재</span>
+          </button>
+          <button onClick={() => nav("/samplebooks")}>
+            <BookOpen size={20} />
+            <span>샘플북</span>
           </button>
           <button onClick={() => nav("/cart")}>
             <ShoppingCart size={20} />
