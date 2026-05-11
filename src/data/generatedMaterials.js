@@ -18451,16 +18451,16 @@ export const materials = [
     "materialType": "방염"
   },
   {
-    "id": "개나-실크_로하스_lohas_page1_full",
-    "code": "lohas_page1_full",
-    "name": "lohas_page1_full",
+    "id": "개나-실크_로하스_54013-1",
+    "code": "54013-1",
+    "name": "54013-1",
     "brand": "개나리",
     "category": "벽지",
     "line": "실크_로하스",
-    "price": 0,
-    "thumbnail": "876a03952113c2078a736c48fa2a6b85.png",
+    "price": 87000,
+    "thumbnail": "ea1d408d8d0a8cd65d5a41ed2a922062.jpg",
     "images": [
-      "876a03952113c2078a736c48fa2a6b85.png"
+      "ea1d408d8d0a8cd65d5a41ed2a922062.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -18471,16 +18471,5256 @@ export const materials = [
     }
   },
   {
-    "id": "개나-실크_아트북_artbook_page1_full",
-    "code": "artbook_page1_full",
-    "name": "artbook_page1_full",
+    "id": "개나-실크_로하스_54013-2",
+    "code": "54013-2",
+    "name": "54013-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "6f5a86050acc5618112c2d81fd33b5e0.jpg",
+    "images": [
+      "6f5a86050acc5618112c2d81fd33b5e0.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_54160-1",
+    "code": "54160-1",
+    "name": "54160-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "c7da418d701dba0ce5729970ac8c9cee.jpg",
+    "images": [
+      "c7da418d701dba0ce5729970ac8c9cee.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_54160-2",
+    "code": "54160-2",
+    "name": "54160-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "503ad99125e91d602f5dc662850fc302.jpg",
+    "images": [
+      "503ad99125e91d602f5dc662850fc302.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_54170-1",
+    "code": "54170-1",
+    "name": "54170-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "a0dccadf8cfccb327e6130ccca1f9f9a.jpg",
+    "images": [
+      "a0dccadf8cfccb327e6130ccca1f9f9a.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_54170-2",
+    "code": "54170-2",
+    "name": "54170-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "3870ee8fe1347ca201d9beedd1e66478.jpg",
+    "images": [
+      "3870ee8fe1347ca201d9beedd1e66478.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87440-1",
+    "code": "87440-1",
+    "name": "87440-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "1f3b7bc195aeb0ee8387754541dceacd.jpg",
+    "images": [
+      "1f3b7bc195aeb0ee8387754541dceacd.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87440-3",
+    "code": "87440-3",
+    "name": "87440-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "8962521fc3d5cf34f0eba479bd0fc011.jpg",
+    "images": [
+      "8962521fc3d5cf34f0eba479bd0fc011.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87444-1",
+    "code": "87444-1",
+    "name": "87444-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "15a60c492f983faad2ce185e73578415.jpg",
+    "images": [
+      "15a60c492f983faad2ce185e73578415.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87444-10",
+    "code": "87444-10",
+    "name": "87444-10",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "f60dc6896af8d64cd9b02806a17c82ac.jpg",
+    "images": [
+      "f60dc6896af8d64cd9b02806a17c82ac.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87444-2",
+    "code": "87444-2",
+    "name": "87444-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "fae2597d7f1ebef6b29fb26304ffd774.jpg",
+    "images": [
+      "fae2597d7f1ebef6b29fb26304ffd774.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87444-9",
+    "code": "87444-9",
+    "name": "87444-9",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "1767c3c9ed25e684ec2d752ad1788ae6.jpg",
+    "images": [
+      "1767c3c9ed25e684ec2d752ad1788ae6.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87450-1",
+    "code": "87450-1",
+    "name": "87450-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "965c39309b60c4f7a40ac7980af5b4dd.jpg",
+    "images": [
+      "965c39309b60c4f7a40ac7980af5b4dd.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87450-2",
+    "code": "87450-2",
+    "name": "87450-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "1f4c86ea1a09a4b3a694ab04a6c4616c.jpg",
+    "images": [
+      "1f4c86ea1a09a4b3a694ab04a6c4616c.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87450-3",
+    "code": "87450-3",
+    "name": "87450-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "ca6d4dd132a4162084b25ab1de6d66d7.jpg",
+    "images": [
+      "ca6d4dd132a4162084b25ab1de6d66d7.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87451-1",
+    "code": "87451-1",
+    "name": "87451-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "e93a21db5b849830270bd6255a840aa8.jpg",
+    "images": [
+      "e93a21db5b849830270bd6255a840aa8.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87451-2",
+    "code": "87451-2",
+    "name": "87451-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "ce6b3aa97f7124372dd2ddce9b61c580.jpg",
+    "images": [
+      "ce6b3aa97f7124372dd2ddce9b61c580.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87451-4",
+    "code": "87451-4",
+    "name": "87451-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "c47c62615af0d8cbdced2c4e16fb61f8.jpg",
+    "images": [
+      "c47c62615af0d8cbdced2c4e16fb61f8.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87451-5",
+    "code": "87451-5",
+    "name": "87451-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "feefed64a11d56dc66c772703521fd16.jpg",
+    "images": [
+      "feefed64a11d56dc66c772703521fd16.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87451-6",
+    "code": "87451-6",
+    "name": "87451-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "7815d3d3144c305c593cd565d770b935.jpg",
+    "images": [
+      "7815d3d3144c305c593cd565d770b935.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87451-7",
+    "code": "87451-7",
+    "name": "87451-7",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "f9e108ad43a3bb47aca93696b5fd4402.jpg",
+    "images": [
+      "f9e108ad43a3bb47aca93696b5fd4402.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87453-1",
+    "code": "87453-1",
+    "name": "87453-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "2144d83a483fd7b27f240a865544049c.png",
+    "images": [
+      "2144d83a483fd7b27f240a865544049c.png"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87453-2",
+    "code": "87453-2",
+    "name": "87453-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "87c9cd76ed0d46c378659b0267ebfb58.jpg",
+    "images": [
+      "87c9cd76ed0d46c378659b0267ebfb58.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87453-3",
+    "code": "87453-3",
+    "name": "87453-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "99e89f16414755977b72c63c89c9e03f.jpg",
+    "images": [
+      "99e89f16414755977b72c63c89c9e03f.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87453-6",
+    "code": "87453-6",
+    "name": "87453-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "dcd9b9c4f600043c603e933ccbc0e162.jpg",
+    "images": [
+      "dcd9b9c4f600043c603e933ccbc0e162.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87454-1",
+    "code": "87454-1",
+    "name": "87454-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "19f52640a1539a28e47e608deb5bb744.jpg",
+    "images": [
+      "19f52640a1539a28e47e608deb5bb744.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87454-2",
+    "code": "87454-2",
+    "name": "87454-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "4c28eed5246872c32ac7800fffd31d5c.jpg",
+    "images": [
+      "4c28eed5246872c32ac7800fffd31d5c.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87454-3",
+    "code": "87454-3",
+    "name": "87454-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "432aa3745ef279a0731518ab72d97b65.jpg",
+    "images": [
+      "432aa3745ef279a0731518ab72d97b65.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87454-4",
+    "code": "87454-4",
+    "name": "87454-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "5e8158c82646bfd0dd174e4877d0e0f2.jpg",
+    "images": [
+      "5e8158c82646bfd0dd174e4877d0e0f2.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87454-5",
+    "code": "87454-5",
+    "name": "87454-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "0f720e3224e89e7614c22cf981a29ca9.jpg",
+    "images": [
+      "0f720e3224e89e7614c22cf981a29ca9.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87456-1",
+    "code": "87456-1",
+    "name": "87456-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "0a0e8d2f2af4ca69b4d8bc3a4133b946.jpg",
+    "images": [
+      "0a0e8d2f2af4ca69b4d8bc3a4133b946.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87456-2",
+    "code": "87456-2",
+    "name": "87456-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "b6f9ac9545f5c63fb9ce12a95d299652.jpg",
+    "images": [
+      "b6f9ac9545f5c63fb9ce12a95d299652.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87456-3",
+    "code": "87456-3",
+    "name": "87456-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "8ae710f3cc5252c38c9c4a9e49d6971d.jpg",
+    "images": [
+      "8ae710f3cc5252c38c9c4a9e49d6971d.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87456-4",
+    "code": "87456-4",
+    "name": "87456-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "038764da3371543a824bf2f1e1d3975a.jpg",
+    "images": [
+      "038764da3371543a824bf2f1e1d3975a.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87456-5",
+    "code": "87456-5",
+    "name": "87456-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "bbb20fb578cd13a61c9fac4b5eb190e5.jpg",
+    "images": [
+      "bbb20fb578cd13a61c9fac4b5eb190e5.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87456-6",
+    "code": "87456-6",
+    "name": "87456-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "37beb54730a824dac46ac9087ebee97f.jpg",
+    "images": [
+      "37beb54730a824dac46ac9087ebee97f.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87456-7",
+    "code": "87456-7",
+    "name": "87456-7",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "129df975e764673f2cf344da7f658472.jpg",
+    "images": [
+      "129df975e764673f2cf344da7f658472.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87457-1",
+    "code": "87457-1",
+    "name": "87457-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "d3cd7d6944ffc98d9dff8da8a5ceb389.jpg",
+    "images": [
+      "d3cd7d6944ffc98d9dff8da8a5ceb389.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87457-2",
+    "code": "87457-2",
+    "name": "87457-2 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "df7fc80d7f1506ef61eb3675b1d690c1.jpg",
+    "images": [
+      "df7fc80d7f1506ef61eb3675b1d690c1.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87457-3",
+    "code": "87457-3",
+    "name": "87457-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "a83741ae5ff3b86a157ba988d773fd40.jpg",
+    "images": [
+      "a83741ae5ff3b86a157ba988d773fd40.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87457-4",
+    "code": "87457-4",
+    "name": "87457-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "64b6359bcbfeaf11c096adb4c17d67d1.jpg",
+    "images": [
+      "64b6359bcbfeaf11c096adb4c17d67d1.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87458-1",
+    "code": "87458-1",
+    "name": "87458-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "ac1ce84f9310b845dd9ed96c16f56efd.png",
+    "images": [
+      "ac1ce84f9310b845dd9ed96c16f56efd.png"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87459-1",
+    "code": "87459-1",
+    "name": "87459-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "f23a7ff904aefcf8ceceba96387dbe06.jpg",
+    "images": [
+      "f23a7ff904aefcf8ceceba96387dbe06.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87459-2",
+    "code": "87459-2",
+    "name": "87459-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "fe2e238679925ae9c771a597769e4526.jpg",
+    "images": [
+      "fe2e238679925ae9c771a597769e4526.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87459-3",
+    "code": "87459-3",
+    "name": "87459-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "ace04660e210c765314e8c2dc1dc188a.jpg",
+    "images": [
+      "ace04660e210c765314e8c2dc1dc188a.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87459-4",
+    "code": "87459-4",
+    "name": "87459-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "d1dc6b65ab583479f218ce798343bfe9.jpg",
+    "images": [
+      "d1dc6b65ab583479f218ce798343bfe9.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87459-5",
+    "code": "87459-5",
+    "name": "87459-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "8fe3af698b93a36f365ae984d3cf135d.jpg",
+    "images": [
+      "8fe3af698b93a36f365ae984d3cf135d.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87459-6",
+    "code": "87459-6",
+    "name": "87459-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "5f013e717c65b541d2b3e90cd54cf463.jpg",
+    "images": [
+      "5f013e717c65b541d2b3e90cd54cf463.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87460-1",
+    "code": "87460-1",
+    "name": "87460-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "301d3a0012dc3519b9005016a47c2c08.png",
+    "images": [
+      "301d3a0012dc3519b9005016a47c2c08.png"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87460-2",
+    "code": "87460-2",
+    "name": "87460-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "00ce25a9bfa4354b2b9e847f8336a963.jpg",
+    "images": [
+      "00ce25a9bfa4354b2b9e847f8336a963.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87460-3",
+    "code": "87460-3",
+    "name": "87460-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "9d53287721a254c7214eea4879e89c4b.jpg",
+    "images": [
+      "9d53287721a254c7214eea4879e89c4b.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87460-4",
+    "code": "87460-4",
+    "name": "87460-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "2f37fc03378c57a7483b3b7113fdc146.jpg",
+    "images": [
+      "2f37fc03378c57a7483b3b7113fdc146.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87460-5",
+    "code": "87460-5",
+    "name": "87460-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "5a033d5e9c32125b7b17f0286ac0227f.jpg",
+    "images": [
+      "5a033d5e9c32125b7b17f0286ac0227f.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87460-6",
+    "code": "87460-6",
+    "name": "87460-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "4669d3be7a44238eca08a0076578fc3f.jpg",
+    "images": [
+      "4669d3be7a44238eca08a0076578fc3f.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87460-7",
+    "code": "87460-7",
+    "name": "87460-7",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "1bba428695688182315e565a88e54ec1.jpg",
+    "images": [
+      "1bba428695688182315e565a88e54ec1.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87460-8",
+    "code": "87460-8",
+    "name": "87460-8",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "b9521c43221a5722b17fb6dd4bfb92bf.jpg",
+    "images": [
+      "b9521c43221a5722b17fb6dd4bfb92bf.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87461-1",
+    "code": "87461-1",
+    "name": "87461-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "b6a8368bb53575fc7ddc7aad9d5add43.png",
+    "images": [
+      "b6a8368bb53575fc7ddc7aad9d5add43.png"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87461-2",
+    "code": "87461-2",
+    "name": "87461-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "6c140ffe3c40d157899de92295e19260.jpg",
+    "images": [
+      "6c140ffe3c40d157899de92295e19260.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87461-3",
+    "code": "87461-3",
+    "name": "87461-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "91a827a8f5b33c86f5213c3fe418a575.jpg",
+    "images": [
+      "91a827a8f5b33c86f5213c3fe418a575.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87461-4",
+    "code": "87461-4",
+    "name": "87461-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "7aba1fe13f8f39e4afc4e3cc9684f659.jpg",
+    "images": [
+      "7aba1fe13f8f39e4afc4e3cc9684f659.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87461-5",
+    "code": "87461-5",
+    "name": "87461-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "141d8204331e89958b87b974cf7d20ad.jpg",
+    "images": [
+      "141d8204331e89958b87b974cf7d20ad.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87461-6",
+    "code": "87461-6",
+    "name": "87461-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "0d534c152d3f2d1aaee5d8feaf317569.jpg",
+    "images": [
+      "0d534c152d3f2d1aaee5d8feaf317569.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87461-7",
+    "code": "87461-7",
+    "name": "87461-7",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "509fcfe3fd0c619d1833b14a13463ac6.jpg",
+    "images": [
+      "509fcfe3fd0c619d1833b14a13463ac6.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87461-9",
+    "code": "87461-9",
+    "name": "87461-9",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "7bc7af07a947e2335cf067e3c333ed2f.jpg",
+    "images": [
+      "7bc7af07a947e2335cf067e3c333ed2f.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87462-1",
+    "code": "87462-1",
+    "name": "87462-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "06ce052e4cbfd085b8e56e1d85d09126.jpg",
+    "images": [
+      "06ce052e4cbfd085b8e56e1d85d09126.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87462-2",
+    "code": "87462-2",
+    "name": "87462-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "0e08922669326cd93dff69d4059654a6.jpg",
+    "images": [
+      "0e08922669326cd93dff69d4059654a6.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87463-1",
+    "code": "87463-1",
+    "name": "87463-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "01dd571b27df019027c7ca679fe94cc2.jpg",
+    "images": [
+      "01dd571b27df019027c7ca679fe94cc2.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87463-2",
+    "code": "87463-2",
+    "name": "87463-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "fcfb9d9db2901d545e6632d7d5ae61f1.jpg",
+    "images": [
+      "fcfb9d9db2901d545e6632d7d5ae61f1.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87463-3",
+    "code": "87463-3",
+    "name": "87463-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "b43c5fb167865b99c1be36948f177e88.jpg",
+    "images": [
+      "b43c5fb167865b99c1be36948f177e88.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87463-4",
+    "code": "87463-4",
+    "name": "87463-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "87de36fb37df09e4eeecab5e14b230ec.jpg",
+    "images": [
+      "87de36fb37df09e4eeecab5e14b230ec.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87463-5",
+    "code": "87463-5",
+    "name": "87463-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "09bbae07dfe47a144b6d24de671cd5fc.jpg",
+    "images": [
+      "09bbae07dfe47a144b6d24de671cd5fc.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87463-6",
+    "code": "87463-6",
+    "name": "87463-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "34cfdf2fa0b16c380b537db14e5d3982.jpg",
+    "images": [
+      "34cfdf2fa0b16c380b537db14e5d3982.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87464-1",
+    "code": "87464-1",
+    "name": "87464-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "54053d2a1129b6e6ed694f5b2366754c.jpg",
+    "images": [
+      "54053d2a1129b6e6ed694f5b2366754c.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87464-2",
+    "code": "87464-2",
+    "name": "87464-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "e0b0e18d918705c8050c2ff829a45e2f.jpg",
+    "images": [
+      "e0b0e18d918705c8050c2ff829a45e2f.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87464-3",
+    "code": "87464-3",
+    "name": "87464-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "ffbe9fab0abc8d1688a79d7cd18be761.jpg",
+    "images": [
+      "ffbe9fab0abc8d1688a79d7cd18be761.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87464-4",
+    "code": "87464-4",
+    "name": "87464-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "36d6215ec662d95be34dd4cf12708971.jpg",
+    "images": [
+      "36d6215ec662d95be34dd4cf12708971.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87465-1",
+    "code": "87465-1",
+    "name": "87465-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "1aeebbb8dae8e81e334a01e5592087c6.jpg",
+    "images": [
+      "1aeebbb8dae8e81e334a01e5592087c6.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87465-2",
+    "code": "87465-2",
+    "name": "87465-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "b8fa4ad01143d0185b862d0f40d87026.jpg",
+    "images": [
+      "b8fa4ad01143d0185b862d0f40d87026.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87465-3",
+    "code": "87465-3",
+    "name": "87465-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "306ac2f6c97b42cac460e11da8099515.jpg",
+    "images": [
+      "306ac2f6c97b42cac460e11da8099515.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87465-4",
+    "code": "87465-4",
+    "name": "87465-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "b118cc28f0e6ff2feb23781b09139eea.jpg",
+    "images": [
+      "b118cc28f0e6ff2feb23781b09139eea.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87466-1",
+    "code": "87466-1",
+    "name": "87466-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "372780902600e0fd29bcfc8b29b063c4.jpg",
+    "images": [
+      "372780902600e0fd29bcfc8b29b063c4.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87466-2",
+    "code": "87466-2",
+    "name": "87466-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "e06909284c34952b8b2d504cde9216e2.jpg",
+    "images": [
+      "e06909284c34952b8b2d504cde9216e2.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87467-1",
+    "code": "87467-1",
+    "name": "87467-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "b600f3a991d2a4deeaaacd090fac1a01.jpg",
+    "images": [
+      "b600f3a991d2a4deeaaacd090fac1a01.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87467-2",
+    "code": "87467-2",
+    "name": "87467-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "c9c4403e7c9a6ed7838f3e18ff0f6259.jpg",
+    "images": [
+      "c9c4403e7c9a6ed7838f3e18ff0f6259.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87467-3",
+    "code": "87467-3",
+    "name": "87467-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "d2c1f94bfc2bfc46cbd21293709b248b.jpg",
+    "images": [
+      "d2c1f94bfc2bfc46cbd21293709b248b.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87467-4",
+    "code": "87467-4",
+    "name": "87467-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "924602aef6e86d832108dfdbe996c27f.jpg",
+    "images": [
+      "924602aef6e86d832108dfdbe996c27f.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87467-5",
+    "code": "87467-5",
+    "name": "87467-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "eaf95fe3ed9a286db18c0b49c03a9584.jpg",
+    "images": [
+      "eaf95fe3ed9a286db18c0b49c03a9584.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87468-1",
+    "code": "87468-1",
+    "name": "87468-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "1f2231cb8aa8e6a9fb9e8142a7991475.jpg",
+    "images": [
+      "1f2231cb8aa8e6a9fb9e8142a7991475.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87468-2",
+    "code": "87468-2",
+    "name": "87468-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "eee1f53c358791a115d770758f13dbbd.jpg",
+    "images": [
+      "eee1f53c358791a115d770758f13dbbd.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87468-3",
+    "code": "87468-3",
+    "name": "87468-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "39578d5a466ba75c376629234b0dbacc.jpg",
+    "images": [
+      "39578d5a466ba75c376629234b0dbacc.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87468-4",
+    "code": "87468-4",
+    "name": "87468-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "625d964189017a8dfe9fbb27f1b9185e.jpg",
+    "images": [
+      "625d964189017a8dfe9fbb27f1b9185e.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87468-5",
+    "code": "87468-5",
+    "name": "87468-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "99e536d084004ec277beba6315c1211a.jpg",
+    "images": [
+      "99e536d084004ec277beba6315c1211a.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87468-6",
+    "code": "87468-6",
+    "name": "87468-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "9c239e599a2a6a13af2786b3d2a1b5fc.jpg",
+    "images": [
+      "9c239e599a2a6a13af2786b3d2a1b5fc.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87468-7",
+    "code": "87468-7",
+    "name": "87468-7",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "8d3d189e9b8ee1885dad1788b4ca6d46.jpg",
+    "images": [
+      "8d3d189e9b8ee1885dad1788b4ca6d46.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87469-1",
+    "code": "87469-1",
+    "name": "87469-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "96ee0212f4587dc6e00c6d1e746a009c.jpg",
+    "images": [
+      "96ee0212f4587dc6e00c6d1e746a009c.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87469-2",
+    "code": "87469-2",
+    "name": "87469-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "af93ef40ca33944ab9e4cde742aca572.jpg",
+    "images": [
+      "af93ef40ca33944ab9e4cde742aca572.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87469-3",
+    "code": "87469-3",
+    "name": "87469-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "bd850e92fa375fa609b6b596832c331e.jpg",
+    "images": [
+      "bd850e92fa375fa609b6b596832c331e.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87469-4",
+    "code": "87469-4",
+    "name": "87469-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "c8b4e59000c1bdcc033349ab40c9116a.jpg",
+    "images": [
+      "c8b4e59000c1bdcc033349ab40c9116a.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87469-5",
+    "code": "87469-5",
+    "name": "87469-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "83d8b1f81a16b79e2820e4027a101be4.jpg",
+    "images": [
+      "83d8b1f81a16b79e2820e4027a101be4.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87470-1",
+    "code": "87470-1",
+    "name": "87470-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "c5512172806b0af78c12de0fa32b0863.jpg",
+    "images": [
+      "c5512172806b0af78c12de0fa32b0863.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87470-2",
+    "code": "87470-2",
+    "name": "87470-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "240f93dab302fd8c307ef11d163af56e.jpg",
+    "images": [
+      "240f93dab302fd8c307ef11d163af56e.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87470-3",
+    "code": "87470-3",
+    "name": "87470-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "8e5f54a7850f666deaef376c99125b09.jpg",
+    "images": [
+      "8e5f54a7850f666deaef376c99125b09.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87470-4",
+    "code": "87470-4",
+    "name": "87470-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "10375bb7e45ad1e3e1c54b9952d3cbf9.jpg",
+    "images": [
+      "10375bb7e45ad1e3e1c54b9952d3cbf9.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87471-1",
+    "code": "87471-1",
+    "name": "87471-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "d1a9cb9f8a901d87789739a458a76faa.jpg",
+    "images": [
+      "d1a9cb9f8a901d87789739a458a76faa.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87471-2",
+    "code": "87471-2",
+    "name": "87471-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "4a98525810289766336e04d8eab8fce0.jpg",
+    "images": [
+      "4a98525810289766336e04d8eab8fce0.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87471-3",
+    "code": "87471-3",
+    "name": "87471-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "f4eed385928a45748426fad557bd9232.jpg",
+    "images": [
+      "f4eed385928a45748426fad557bd9232.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87471-4",
+    "code": "87471-4",
+    "name": "87471-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "a07268ecab66cdd15f17c3ec2d1be473.jpg",
+    "images": [
+      "a07268ecab66cdd15f17c3ec2d1be473.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87471-5",
+    "code": "87471-5",
+    "name": "87471-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "ef3134268c71e3fa0e7f57da128d056f.jpg",
+    "images": [
+      "ef3134268c71e3fa0e7f57da128d056f.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87472-1",
+    "code": "87472-1",
+    "name": "87472-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "940d1006230d1edc964a3e3366283865.jpg",
+    "images": [
+      "940d1006230d1edc964a3e3366283865.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87473-1",
+    "code": "87473-1",
+    "name": "87473-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "4951f32e9aeb0ff9abf33e16fb2c3c92.jpg",
+    "images": [
+      "4951f32e9aeb0ff9abf33e16fb2c3c92.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87473-2",
+    "code": "87473-2",
+    "name": "87473-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "62e2eceeaa93de4b613c4299ae416dc8.jpg",
+    "images": [
+      "62e2eceeaa93de4b613c4299ae416dc8.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87474-1",
+    "code": "87474-1",
+    "name": "87474-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "7ee06e1b55663c739b5f1a42ccd702cf.jpg",
+    "images": [
+      "7ee06e1b55663c739b5f1a42ccd702cf.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87474-2",
+    "code": "87474-2",
+    "name": "87474-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "5397c7f7fc3af10ad89feabfcb556a62.jpg",
+    "images": [
+      "5397c7f7fc3af10ad89feabfcb556a62.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87474-3",
+    "code": "87474-3",
+    "name": "87474-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "6a26a1398af92d65657f140cd5d02228.jpg",
+    "images": [
+      "6a26a1398af92d65657f140cd5d02228.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87474-4",
+    "code": "87474-4",
+    "name": "87474-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "01bebb3910c6fe0be941f620163d06af.jpg",
+    "images": [
+      "01bebb3910c6fe0be941f620163d06af.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87475-1",
+    "code": "87475-1",
+    "name": "87475-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "15c8e90f3e71afdd91b475677d54a44c.jpg",
+    "images": [
+      "15c8e90f3e71afdd91b475677d54a44c.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87475-2",
+    "code": "87475-2",
+    "name": "87475-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "1f1bd23fcac36aa0097681e79fa74c7e.jpg",
+    "images": [
+      "1f1bd23fcac36aa0097681e79fa74c7e.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87475-3",
+    "code": "87475-3",
+    "name": "87475-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "e0a7f04f44a7b869e01850477cce597d.jpg",
+    "images": [
+      "e0a7f04f44a7b869e01850477cce597d.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87475-4",
+    "code": "87475-4",
+    "name": "87475-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "5e6a26e630a6d1f1781e97dd7f57c3aa.jpg",
+    "images": [
+      "5e6a26e630a6d1f1781e97dd7f57c3aa.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87475-5",
+    "code": "87475-5",
+    "name": "87475-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "ca2e968652cd33dab4ff295b5a790393.jpg",
+    "images": [
+      "ca2e968652cd33dab4ff295b5a790393.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87476-1",
+    "code": "87476-1",
+    "name": "87476-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "e897853513f27faff5bed060406bb9a5.jpg",
+    "images": [
+      "e897853513f27faff5bed060406bb9a5.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87476-2",
+    "code": "87476-2",
+    "name": "87476-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "ac026dd7ac6d2ca52ca8d5ef5230e288.jpg",
+    "images": [
+      "ac026dd7ac6d2ca52ca8d5ef5230e288.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87476-3",
+    "code": "87476-3",
+    "name": "87476-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "5b3c045b6cafd7e13538d79bf4c78fd2.jpg",
+    "images": [
+      "5b3c045b6cafd7e13538d79bf4c78fd2.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87476-4",
+    "code": "87476-4",
+    "name": "87476-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "b04e371e3103fc82033fe647ce2e2ff7.jpg",
+    "images": [
+      "b04e371e3103fc82033fe647ce2e2ff7.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87476-5",
+    "code": "87476-5",
+    "name": "87476-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "a8886a410dec884185cc75ba6ad184dd.jpg",
+    "images": [
+      "a8886a410dec884185cc75ba6ad184dd.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87476-6",
+    "code": "87476-6",
+    "name": "87476-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "2bb9d372099bb6be5d034fdd040aa08b.jpg",
+    "images": [
+      "2bb9d372099bb6be5d034fdd040aa08b.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87477-1",
+    "code": "87477-1",
+    "name": "87477-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "9759569f91c76f114694ed6c137ed6e7.png",
+    "images": [
+      "9759569f91c76f114694ed6c137ed6e7.png"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87477-2",
+    "code": "87477-2",
+    "name": "87477-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "a67eb71a2c7543f0ee2896af92cdd2ec.jpg",
+    "images": [
+      "a67eb71a2c7543f0ee2896af92cdd2ec.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87477-3",
+    "code": "87477-3",
+    "name": "87477-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "298f7ba0a7b5ee14df140c14fe4b931c.jpg",
+    "images": [
+      "298f7ba0a7b5ee14df140c14fe4b931c.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_로하스_87477-4",
+    "code": "87477-4",
+    "name": "87477-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_로하스",
+    "price": 87000,
+    "thumbnail": "51c29c12555f476a74ca24996c962ec4.jpg",
+    "images": [
+      "51c29c12555f476a74ca24996c962ec4.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_54013-1",
+    "code": "54013-1",
+    "name": "54013-1",
     "brand": "개나리",
     "category": "벽지",
     "line": "실크_아트북",
-    "price": 0,
-    "thumbnail": "bb5e40751053524ce03e0b870a13f7cf.png",
+    "price": "57,000 / 54,000",
+    "thumbnail": "1a9b0bd769b73d6c90a228a20ed4f5e7.jpg",
     "images": [
-      "bb5e40751053524ce03e0b870a13f7cf.png"
+      "1a9b0bd769b73d6c90a228a20ed4f5e7.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_54013-2",
+    "code": "54013-2",
+    "name": "54013-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "ddb89a1fb51211081f0e6dfed965f717.jpg",
+    "images": [
+      "ddb89a1fb51211081f0e6dfed965f717.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_54160-1",
+    "code": "54160-1",
+    "name": "54160-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "cd549b174d12bf541c1561d171b0a791.jpg",
+    "images": [
+      "cd549b174d12bf541c1561d171b0a791.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_54160-2",
+    "code": "54160-2",
+    "name": "54160-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "c2fec0e7b4612f8c4668dea7c6810712.jpg",
+    "images": [
+      "c2fec0e7b4612f8c4668dea7c6810712.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_54170-1",
+    "code": "54170-1",
+    "name": "54170-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "6d6a6718a1820c7209aeab3f6c583448.jpg",
+    "images": [
+      "6d6a6718a1820c7209aeab3f6c583448.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_54170-2",
+    "code": "54170-2",
+    "name": "54170-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "78aded26fb2eb531e092d96655c24719.jpg",
+    "images": [
+      "78aded26fb2eb531e092d96655c24719.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57160-1",
+    "code": "57160-1",
+    "name": "57160-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "405c25824bb0a4f1ec42a9e7f205fef4.jpg",
+    "images": [
+      "405c25824bb0a4f1ec42a9e7f205fef4.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57160-28",
+    "code": "57160-28",
+    "name": "57160-28",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "301c556fe76d3bdf24e0d219fa01ebd5.jpg",
+    "images": [
+      "301c556fe76d3bdf24e0d219fa01ebd5.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57160-39",
+    "code": "57160-39",
+    "name": "57160-39",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "89fdec2509291df0c9ffc248ac865566.jpg",
+    "images": [
+      "89fdec2509291df0c9ffc248ac865566.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57160-40",
+    "code": "57160-40",
+    "name": "57160-40",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "b0607c87f23c12aece14e1c12b5e2dda.jpg",
+    "images": [
+      "b0607c87f23c12aece14e1c12b5e2dda.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57190-1",
+    "code": "57190-1",
+    "name": "57190-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "542f4f720e46e14d4d094d7f1ab32cd7.jpg",
+    "images": [
+      "542f4f720e46e14d4d094d7f1ab32cd7.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57190-2",
+    "code": "57190-2",
+    "name": "57190-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "e1720cd467fa7aea86a661c70174c95c.jpg",
+    "images": [
+      "e1720cd467fa7aea86a661c70174c95c.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57190-3",
+    "code": "57190-3",
+    "name": "57190-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "51b7b0918da634bbfeb3a431ae4faac5.jpg",
+    "images": [
+      "51b7b0918da634bbfeb3a431ae4faac5.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57190-5",
+    "code": "57190-5",
+    "name": "57190-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "a1ed90473232374f639b346858a79950.jpg",
+    "images": [
+      "a1ed90473232374f639b346858a79950.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57196-1",
+    "code": "57196-1",
+    "name": "57196-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "c95cd2feb537e601e1df465f0974d523.jpg",
+    "images": [
+      "c95cd2feb537e601e1df465f0974d523.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57196-2",
+    "code": "57196-2",
+    "name": "57196-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "fcc3021b83f2489b75b2f8195aee614a.jpg",
+    "images": [
+      "fcc3021b83f2489b75b2f8195aee614a.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57196-3",
+    "code": "57196-3",
+    "name": "57196-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "49b5e7460733c0523c446082ccb6fbcf.jpg",
+    "images": [
+      "49b5e7460733c0523c446082ccb6fbcf.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57196-6",
+    "code": "57196-6",
+    "name": "57196-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "f0f474c71c35762843a4973b3819fa3a.jpg",
+    "images": [
+      "f0f474c71c35762843a4973b3819fa3a.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57196-9",
+    "code": "57196-9",
+    "name": "57196-9",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "fbf063cc053bc8b98ad0964e38398645.jpg",
+    "images": [
+      "fbf063cc053bc8b98ad0964e38398645.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57198-1",
+    "code": "57198-1",
+    "name": "57198-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "c98e33621cf7f97779602ae8b477b076.jpg",
+    "images": [
+      "c98e33621cf7f97779602ae8b477b076.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57198-3",
+    "code": "57198-3",
+    "name": "57198-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "1f49a25c4ffa2a5c8de8bba386ed00cf.jpg",
+    "images": [
+      "1f49a25c4ffa2a5c8de8bba386ed00cf.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57205-1",
+    "code": "57205-1",
+    "name": "57205-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "65eb8af7d157f67123c03720d890dec9.jpg",
+    "images": [
+      "65eb8af7d157f67123c03720d890dec9.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57205-2",
+    "code": "57205-2",
+    "name": "57205-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "e34d48d9704d4c50e39b3468aa564d70.jpg",
+    "images": [
+      "e34d48d9704d4c50e39b3468aa564d70.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57205-3",
+    "code": "57205-3",
+    "name": "57205-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "2797c62f82278257c46d6392a2df6bfd.jpg",
+    "images": [
+      "2797c62f82278257c46d6392a2df6bfd.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57205-5",
+    "code": "57205-5",
+    "name": "57205-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "748fdc69306e5386c63b73591f395082.jpg",
+    "images": [
+      "748fdc69306e5386c63b73591f395082.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57206-1",
+    "code": "57206-1",
+    "name": "57206-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "86d002538abdeed500229f96d3a2787a.jpg",
+    "images": [
+      "86d002538abdeed500229f96d3a2787a.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57206-2",
+    "code": "57206-2",
+    "name": "57206-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "6f6b353a422f530822a4091fea719617.jpg",
+    "images": [
+      "6f6b353a422f530822a4091fea719617.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57206-3",
+    "code": "57206-3",
+    "name": "57206-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "2c6253b1b6cd8af3f74b6fa435a4da5e.jpg",
+    "images": [
+      "2c6253b1b6cd8af3f74b6fa435a4da5e.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57206-4",
+    "code": "57206-4",
+    "name": "57206-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "c0a18880ccd45e3066845c749087104f.jpg",
+    "images": [
+      "c0a18880ccd45e3066845c749087104f.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57206-6",
+    "code": "57206-6",
+    "name": "57206-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "87b64ca040651712037c967ec7bc060f.jpg",
+    "images": [
+      "87b64ca040651712037c967ec7bc060f.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57206-7",
+    "code": "57206-7",
+    "name": "57206-7",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "64772fd40aae536dc5561827bb22532e.jpg",
+    "images": [
+      "64772fd40aae536dc5561827bb22532e.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57210-1",
+    "code": "57210-1",
+    "name": "57210-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "9bca543c1f392e8221be73d7cbac4bb0.jpg",
+    "images": [
+      "9bca543c1f392e8221be73d7cbac4bb0.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57210-10",
+    "code": "57210-10",
+    "name": "57210-10",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "1a239475cb19b11ee7b7f762aa865eef.jpg",
+    "images": [
+      "1a239475cb19b11ee7b7f762aa865eef.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57210-2",
+    "code": "57210-2",
+    "name": "57210-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "a0f0577e437ef4cdf939434d2991d622.jpg",
+    "images": [
+      "a0f0577e437ef4cdf939434d2991d622.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57210-3",
+    "code": "57210-3",
+    "name": "57210-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "b4d99e54a6c4f3324a226e4f969f104a.jpg",
+    "images": [
+      "b4d99e54a6c4f3324a226e4f969f104a.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57210-6",
+    "code": "57210-6",
+    "name": "57210-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "2caae3a28b2994833202f7586e2feb4e.jpg",
+    "images": [
+      "2caae3a28b2994833202f7586e2feb4e.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57210-7",
+    "code": "57210-7",
+    "name": "57210-7",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "b5c47ba51ca1687a97c179635d31ea8e.jpg",
+    "images": [
+      "b5c47ba51ca1687a97c179635d31ea8e.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57210-8",
+    "code": "57210-8",
+    "name": "57210-8",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "7d8dba41124ebf5d8ba9ad8271455687.jpg",
+    "images": [
+      "7d8dba41124ebf5d8ba9ad8271455687.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57210-9",
+    "code": "57210-9",
+    "name": "57210-9",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "ad0e15425e141b23e2dcbef302f1d794.jpg",
+    "images": [
+      "ad0e15425e141b23e2dcbef302f1d794.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57215-1",
+    "code": "57215-1",
+    "name": "57215-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "8f6fc7337936d8177c395c476f7df2b1.jpg",
+    "images": [
+      "8f6fc7337936d8177c395c476f7df2b1.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57215-2",
+    "code": "57215-2",
+    "name": "57215-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "ea6f5849a5cd1d828f8a49b413eb792c.jpg",
+    "images": [
+      "ea6f5849a5cd1d828f8a49b413eb792c.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57215-4",
+    "code": "57215-4",
+    "name": "57215-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "6bf1610fd53f8257c210b495470a4223.jpg",
+    "images": [
+      "6bf1610fd53f8257c210b495470a4223.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57217-1",
+    "code": "57217-1",
+    "name": "57217-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "c7802cf886927a2479045cb96dee2ee3.jpg",
+    "images": [
+      "c7802cf886927a2479045cb96dee2ee3.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57217-2",
+    "code": "57217-2",
+    "name": "57217-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "21ba9725a98b526337eac789b7b79bc3.jpg",
+    "images": [
+      "21ba9725a98b526337eac789b7b79bc3.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57217-3",
+    "code": "57217-3",
+    "name": "57217-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "09e5e702d8ddba7888b3d473beabd5cd.jpg",
+    "images": [
+      "09e5e702d8ddba7888b3d473beabd5cd.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57217-4",
+    "code": "57217-4",
+    "name": "57217-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "bd0314d14025451a810c32ca1645ecbb.jpg",
+    "images": [
+      "bd0314d14025451a810c32ca1645ecbb.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57217-5",
+    "code": "57217-5",
+    "name": "57217-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "667b8dc40f65e0f9d6422823adfc3d7d.jpg",
+    "images": [
+      "667b8dc40f65e0f9d6422823adfc3d7d.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57217-6",
+    "code": "57217-6",
+    "name": "57217-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "b7d19c0d3fc0913ea8ea38343ea95935.jpg",
+    "images": [
+      "b7d19c0d3fc0913ea8ea38343ea95935.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57217-8",
+    "code": "57217-8",
+    "name": "57217-8",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "1f4b1ff275ec8b1af643a39f2590c9b4.jpg",
+    "images": [
+      "1f4b1ff275ec8b1af643a39f2590c9b4.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57218-1",
+    "code": "57218-1",
+    "name": "57218-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "7d99559155b05579edd43518333bbda4.jpg",
+    "images": [
+      "7d99559155b05579edd43518333bbda4.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57218-2",
+    "code": "57218-2",
+    "name": "57218-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "09fc40fcc8fc1c2201e78fa0e67ae9ca.jpg",
+    "images": [
+      "09fc40fcc8fc1c2201e78fa0e67ae9ca.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57218-3",
+    "code": "57218-3",
+    "name": "57218-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "cde30ebe87efc980f90ddbb5877aea09.jpg",
+    "images": [
+      "cde30ebe87efc980f90ddbb5877aea09.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57218-4",
+    "code": "57218-4",
+    "name": "57218-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "19799f60d5508c30b867580ef7c8e908.jpg",
+    "images": [
+      "19799f60d5508c30b867580ef7c8e908.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57218-5",
+    "code": "57218-5",
+    "name": "57218-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "fbd308cccf34b3b798b9b498ba60f168.jpg",
+    "images": [
+      "fbd308cccf34b3b798b9b498ba60f168.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57218-6",
+    "code": "57218-6",
+    "name": "57218-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "ffba9b90b280b7ad422557a2683dc869.jpg",
+    "images": [
+      "ffba9b90b280b7ad422557a2683dc869.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57218-7",
+    "code": "57218-7",
+    "name": "57218-7",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "8d406369d386308697f1c3d88616c646.jpg",
+    "images": [
+      "8d406369d386308697f1c3d88616c646.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57218-8",
+    "code": "57218-8",
+    "name": "57218-8",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "831dba31b80e5a223e3270294cb04c35.jpg",
+    "images": [
+      "831dba31b80e5a223e3270294cb04c35.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57219-1",
+    "code": "57219-1",
+    "name": "57219-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "4d0e2fce5be51c82cfee54e4e117a1c3.jpg",
+    "images": [
+      "4d0e2fce5be51c82cfee54e4e117a1c3.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57219-2",
+    "code": "57219-2",
+    "name": "57219-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "c3dd63139f73fb67d7d87d31aa0116eb.jpg",
+    "images": [
+      "c3dd63139f73fb67d7d87d31aa0116eb.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57219-3",
+    "code": "57219-3",
+    "name": "57219-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "8976715676f449e9f05be255702c3a9d.jpg",
+    "images": [
+      "8976715676f449e9f05be255702c3a9d.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57219-4",
+    "code": "57219-4",
+    "name": "57219-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "fe11e2a53d5e3f5ee39bca9b659cc006.jpg",
+    "images": [
+      "fe11e2a53d5e3f5ee39bca9b659cc006.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57219-5",
+    "code": "57219-5",
+    "name": "57219-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "42de5c9d540251fd8a66232f470e9faf.jpg",
+    "images": [
+      "42de5c9d540251fd8a66232f470e9faf.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57219-6",
+    "code": "57219-6",
+    "name": "57219-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "64e6b97b02393712eae92316787642cd.jpg",
+    "images": [
+      "64e6b97b02393712eae92316787642cd.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57219-7",
+    "code": "57219-7",
+    "name": "57219-7",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "dcb6d25eb62d8fe194fd348516dccdbc.jpg",
+    "images": [
+      "dcb6d25eb62d8fe194fd348516dccdbc.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57220-1",
+    "code": "57220-1",
+    "name": "57220-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "a75633449e58598d9925c974bd8727fa.jpg",
+    "images": [
+      "a75633449e58598d9925c974bd8727fa.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57220-2",
+    "code": "57220-2",
+    "name": "57220-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "dfc18b5f250ce75d848c03822ee47dd9.jpg",
+    "images": [
+      "dfc18b5f250ce75d848c03822ee47dd9.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57220-3",
+    "code": "57220-3",
+    "name": "57220-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "9b865375219c3b7e0ddc03502b67026f.jpg",
+    "images": [
+      "9b865375219c3b7e0ddc03502b67026f.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57220-4",
+    "code": "57220-4",
+    "name": "57220-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "9dc0fe60c4cb08beeb4416469b7f6f95.jpg",
+    "images": [
+      "9dc0fe60c4cb08beeb4416469b7f6f95.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57220-5",
+    "code": "57220-5",
+    "name": "57220-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "b3d153771fcb6bdf73fef0e2617c652a.jpg",
+    "images": [
+      "b3d153771fcb6bdf73fef0e2617c652a.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57221-1",
+    "code": "57221-1",
+    "name": "57221-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "ff12911488a85d36e225cceaea1f4593.png",
+    "images": [
+      "ff12911488a85d36e225cceaea1f4593.png"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57222-1",
+    "code": "57222-1",
+    "name": "57222-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "ce66afede343abb8c185b9512918aa9a.png",
+    "images": [
+      "ce66afede343abb8c185b9512918aa9a.png"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57223-1",
+    "code": "57223-1",
+    "name": "57223-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "2945614dfca4d5de3b3337025cd3fe5f.jpg",
+    "images": [
+      "2945614dfca4d5de3b3337025cd3fe5f.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57223-2",
+    "code": "57223-2",
+    "name": "57223-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "a61e4ca5e887d0a93249ba8445aed046.jpg",
+    "images": [
+      "a61e4ca5e887d0a93249ba8445aed046.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57223-3",
+    "code": "57223-3",
+    "name": "57223-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "c2dca2d19e41a4a8bb5156fbba798305.jpg",
+    "images": [
+      "c2dca2d19e41a4a8bb5156fbba798305.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57223-4",
+    "code": "57223-4",
+    "name": "57223-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "2e28006938252de082cbd31c00451ed6.jpg",
+    "images": [
+      "2e28006938252de082cbd31c00451ed6.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57224-1",
+    "code": "57224-1",
+    "name": "57224-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "543e55cc662959ceddff63dfb54502b0.jpg",
+    "images": [
+      "543e55cc662959ceddff63dfb54502b0.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57224-2",
+    "code": "57224-2",
+    "name": "57224-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "d3f3e65683432815f1bb633c358e0336.jpg",
+    "images": [
+      "d3f3e65683432815f1bb633c358e0336.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57224-3",
+    "code": "57224-3",
+    "name": "57224-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "75643de2648f08d3e8d6d7d8f9f3454b.jpg",
+    "images": [
+      "75643de2648f08d3e8d6d7d8f9f3454b.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57224-4",
+    "code": "57224-4",
+    "name": "57224-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "6404b00ad25ef72281b6f4590417461f.jpg",
+    "images": [
+      "6404b00ad25ef72281b6f4590417461f.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57224-5",
+    "code": "57224-5",
+    "name": "57224-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "6fca13dfd44650a5110725d82028c937.jpg",
+    "images": [
+      "6fca13dfd44650a5110725d82028c937.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57225-1",
+    "code": "57225-1",
+    "name": "57225-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "e910c3a0058b59e3b8c21738594e3e0c.jpg",
+    "images": [
+      "e910c3a0058b59e3b8c21738594e3e0c.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57225-2",
+    "code": "57225-2",
+    "name": "57225-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "4407ef53f2ff5febb86bc4f72920bed1.jpg",
+    "images": [
+      "4407ef53f2ff5febb86bc4f72920bed1.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57225-3",
+    "code": "57225-3",
+    "name": "57225-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "97cff413b799271d6f55002eda199da7.jpg",
+    "images": [
+      "97cff413b799271d6f55002eda199da7.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57225-4",
+    "code": "57225-4",
+    "name": "57225-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "27ec18484cda633c6a67d9d98d42becd.jpg",
+    "images": [
+      "27ec18484cda633c6a67d9d98d42becd.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57226-1",
+    "code": "57226-1",
+    "name": "57226-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "952b5064ef94f37031fea950a9f38498.jpg",
+    "images": [
+      "952b5064ef94f37031fea950a9f38498.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57226-2",
+    "code": "57226-2",
+    "name": "57226-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "e0579763a40e3c95bf31f3a1cd7e4c70.jpg",
+    "images": [
+      "e0579763a40e3c95bf31f3a1cd7e4c70.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57226-3",
+    "code": "57226-3",
+    "name": "57226-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "237a530049d1beff1596038b82f5a160.jpg",
+    "images": [
+      "237a530049d1beff1596038b82f5a160.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57226-4",
+    "code": "57226-4",
+    "name": "57226-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "a239ad05599a941aa3b01706fc5f7545.jpg",
+    "images": [
+      "a239ad05599a941aa3b01706fc5f7545.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57226-5",
+    "code": "57226-5",
+    "name": "57226-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "b270cfa74f33750061cf27e06072f533.jpg",
+    "images": [
+      "b270cfa74f33750061cf27e06072f533.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57226-6",
+    "code": "57226-6",
+    "name": "57226-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "d2da37897fd5edc22e95a0bc4b16f540.jpg",
+    "images": [
+      "d2da37897fd5edc22e95a0bc4b16f540.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57227-1",
+    "code": "57227-1",
+    "name": "57227-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "e0defcc372d125f1c64c072c035e9d2b.jpg",
+    "images": [
+      "e0defcc372d125f1c64c072c035e9d2b.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57227-2",
+    "code": "57227-2",
+    "name": "57227-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "54f614cc00624a9525f529310aa91e3e.jpg",
+    "images": [
+      "54f614cc00624a9525f529310aa91e3e.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57228-1",
+    "code": "57228-1",
+    "name": "57228-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "e61e4eb94c488b8075a1cdc0920be14a.jpg",
+    "images": [
+      "e61e4eb94c488b8075a1cdc0920be14a.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57228-2",
+    "code": "57228-2",
+    "name": "57228-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "5c882735e726320b9cc2cb29a6ff4c65.jpg",
+    "images": [
+      "5c882735e726320b9cc2cb29a6ff4c65.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57228-3",
+    "code": "57228-3",
+    "name": "57228-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "360ea29ea59453014acd8058c52194bb.jpg",
+    "images": [
+      "360ea29ea59453014acd8058c52194bb.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57228-4",
+    "code": "57228-4",
+    "name": "57228-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "47860d273e6263eb01635419e3054bb9.jpg",
+    "images": [
+      "47860d273e6263eb01635419e3054bb9.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57228-5",
+    "code": "57228-5",
+    "name": "57228-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "9b37eea21c385dcf409d7e771a58cf0f.jpg",
+    "images": [
+      "9b37eea21c385dcf409d7e771a58cf0f.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57229-1",
+    "code": "57229-1",
+    "name": "57229-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "ae47a6c7b7db41db9f61befad6d56058.jpg",
+    "images": [
+      "ae47a6c7b7db41db9f61befad6d56058.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57229-2",
+    "code": "57229-2",
+    "name": "57229-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "42d1f33134ed5d7cd2d90903ad600d0a.jpg",
+    "images": [
+      "42d1f33134ed5d7cd2d90903ad600d0a.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57229-3",
+    "code": "57229-3",
+    "name": "57229-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "2c651396217c28d431ee233a650ce55b.jpg",
+    "images": [
+      "2c651396217c28d431ee233a650ce55b.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57229-4",
+    "code": "57229-4",
+    "name": "57229-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "eca23667a0d4d9f2aa21efb4f3de31cf.jpg",
+    "images": [
+      "eca23667a0d4d9f2aa21efb4f3de31cf.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57229-5",
+    "code": "57229-5",
+    "name": "57229-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "340db5fa928537535dd5d00fb0674a79.jpg",
+    "images": [
+      "340db5fa928537535dd5d00fb0674a79.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57229-6",
+    "code": "57229-6",
+    "name": "57229-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "2dce687da82b2c4a7d72b6bf856f13f7.jpg",
+    "images": [
+      "2dce687da82b2c4a7d72b6bf856f13f7.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57230-1",
+    "code": "57230-1",
+    "name": "57230-1 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "5ed56ae86f11a2bb55e503f37295197a.jpg",
+    "images": [
+      "5ed56ae86f11a2bb55e503f37295197a.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57230-2",
+    "code": "57230-2",
+    "name": "57230-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "7bd58cae96b9170e0c1f1cb7c9b5484d.jpg",
+    "images": [
+      "7bd58cae96b9170e0c1f1cb7c9b5484d.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57230-3",
+    "code": "57230-3",
+    "name": "57230-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "b0355aa8a674bb1dfe048d85943b0282.jpg",
+    "images": [
+      "b0355aa8a674bb1dfe048d85943b0282.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57230-4",
+    "code": "57230-4",
+    "name": "57230-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "b6ca67cb2e2579983bbf2dd88e00ab97.jpg",
+    "images": [
+      "b6ca67cb2e2579983bbf2dd88e00ab97.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57230-5",
+    "code": "57230-5",
+    "name": "57230-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "33e58e39b8b28091d8a53093e0ee981b.jpg",
+    "images": [
+      "33e58e39b8b28091d8a53093e0ee981b.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57230-6",
+    "code": "57230-6",
+    "name": "57230-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "c9e78bf7cab8f9f9b06fb13a678bfabf.jpg",
+    "images": [
+      "c9e78bf7cab8f9f9b06fb13a678bfabf.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57231-1",
+    "code": "57231-1",
+    "name": "57231-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "09e8864b29fd9768c132a423cb98847c.jpg",
+    "images": [
+      "09e8864b29fd9768c132a423cb98847c.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57231-2",
+    "code": "57231-2",
+    "name": "57231-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "ef06dda929aab294c64159fd7e0cda40.jpg",
+    "images": [
+      "ef06dda929aab294c64159fd7e0cda40.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57231-3",
+    "code": "57231-3",
+    "name": "57231-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "3856492b7b66c48083342c579cf15423.jpg",
+    "images": [
+      "3856492b7b66c48083342c579cf15423.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57231-4",
+    "code": "57231-4",
+    "name": "57231-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "65d1f62e0ab9e0e76e8163a5a03b5f14.jpg",
+    "images": [
+      "65d1f62e0ab9e0e76e8163a5a03b5f14.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57231-5",
+    "code": "57231-5",
+    "name": "57231-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "15bdad8becf64af69b409025b17b3176.jpg",
+    "images": [
+      "15bdad8becf64af69b409025b17b3176.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57231-6",
+    "code": "57231-6",
+    "name": "57231-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "97b20e486a0990f4d70d61e4108f9289.jpg",
+    "images": [
+      "97b20e486a0990f4d70d61e4108f9289.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57231-7",
+    "code": "57231-7",
+    "name": "57231-7",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "3c3f7156bc2027d4f6861ebcb8c3c80e.jpg",
+    "images": [
+      "3c3f7156bc2027d4f6861ebcb8c3c80e.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57232-1",
+    "code": "57232-1",
+    "name": "57232-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "660eceff9ed8e61b0b422ba7fb2a6a8c.jpg",
+    "images": [
+      "660eceff9ed8e61b0b422ba7fb2a6a8c.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57232-2",
+    "code": "57232-2",
+    "name": "57232-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "5b69f127e494a2bafb6d1ab55173a8f6.jpg",
+    "images": [
+      "5b69f127e494a2bafb6d1ab55173a8f6.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57232-3",
+    "code": "57232-3",
+    "name": "57232-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "78e59183250a96f55d0ef39c5e9b28cc.jpg",
+    "images": [
+      "78e59183250a96f55d0ef39c5e9b28cc.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57232-5",
+    "code": "57232-5",
+    "name": "57232-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "3bac2c6db6feaa5699632d9461bb6cfc.jpg",
+    "images": [
+      "3bac2c6db6feaa5699632d9461bb6cfc.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57232-6",
+    "code": "57232-6",
+    "name": "57232-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "a0de6bb7f8cb898d0a658295a3eec678.jpg",
+    "images": [
+      "a0de6bb7f8cb898d0a658295a3eec678.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57233-1",
+    "code": "57233-1",
+    "name": "57233-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "3a10382ee4d6413ff7e0c04ed1fa9406.jpg",
+    "images": [
+      "3a10382ee4d6413ff7e0c04ed1fa9406.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57233-2",
+    "code": "57233-2",
+    "name": "57233-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "bcc0e33b223604f58ee1cedcec4e3eaf.jpg",
+    "images": [
+      "bcc0e33b223604f58ee1cedcec4e3eaf.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57233-3",
+    "code": "57233-3",
+    "name": "57233-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "8c2ec99b20635ba13dff60674761984c.jpg",
+    "images": [
+      "8c2ec99b20635ba13dff60674761984c.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57233-4",
+    "code": "57233-4",
+    "name": "57233-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "965836c258a7951c7d0a0e8b658f8c88.jpg",
+    "images": [
+      "965836c258a7951c7d0a0e8b658f8c88.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57233-5",
+    "code": "57233-5",
+    "name": "57233-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "8b21d48e76ed1c59a555f55ae3dc83a3.jpg",
+    "images": [
+      "8b21d48e76ed1c59a555f55ae3dc83a3.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57233-6",
+    "code": "57233-6",
+    "name": "57233-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "95ed953f4e43a8cfb6476ceba3425600.jpg",
+    "images": [
+      "95ed953f4e43a8cfb6476ceba3425600.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_57233-7",
+    "code": "57233-7",
+    "name": "57233-7",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "ca1a8ba8b40c659723c38a06e328569b.jpg",
+    "images": [
+      "ca1a8ba8b40c659723c38a06e328569b.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_83204-2",
+    "code": "83204-2",
+    "name": "83204-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "f0c0f90dffed0274b4e8d853b0867f37.jpg",
+    "images": [
+      "f0c0f90dffed0274b4e8d853b0867f37.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_83206-1",
+    "code": "83206-1",
+    "name": "83206-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "20136cd9b04d8db1b8316915c0a755fa.jpg",
+    "images": [
+      "20136cd9b04d8db1b8316915c0a755fa.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_83209-2",
+    "code": "83209-2",
+    "name": "83209-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "d6a4eb77921e260b9c91aecb77e244c9.jpg",
+    "images": [
+      "d6a4eb77921e260b9c91aecb77e244c9.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_83210-1",
+    "code": "83210-1",
+    "name": "83210-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "47377d689401b1c8ec20456f9f72fe4a.jpg",
+    "images": [
+      "47377d689401b1c8ec20456f9f72fe4a.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_83218-3",
+    "code": "83218-3",
+    "name": "83218-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "149e08dd78aaca08a956323f7684f5de.jpg",
+    "images": [
+      "149e08dd78aaca08a956323f7684f5de.jpg"
+    ],
+    "materialType": "실크",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
+      "packing": "4 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-실크_아트북_85",
+    "code": "85",
+    "name": "85",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "실크_아트북",
+    "price": "57,000 / 54,000",
+    "thumbnail": "073c7b605296566fa9302461bda84a19.jpg",
+    "images": [
+      "073c7b605296566fa9302461bda84a19.jpg"
     ],
     "materialType": "실크",
     "specs": {
@@ -20231,32 +25471,3204 @@ export const materials = [
     }
   },
   {
-    "id": "개나-합지(소폭)_story_page1_full",
-    "code": "story_page1_full",
-    "name": "story_page1_full",
+    "id": "개나-합지(소폭)_25097-1",
+    "code": "25097-1",
+    "name": "25097-1",
     "brand": "개나리",
     "category": "벽지",
     "line": "합지(소폭)",
-    "price": 0,
-    "thumbnail": "67ebbc9a8981c99bb5bdfccdfff4adef.png",
+    "price": 25000,
+    "thumbnail": "c025ab5e70dddb3d4e82dcc64f5bfc7d.jpg",
     "images": [
-      "67ebbc9a8981c99bb5bdfccdfff4adef.png"
+      "c025ab5e70dddb3d4e82dcc64f5bfc7d.jpg"
     ],
-    "materialType": "합지(소폭)"
+    "materialType": "합지(소폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.53m(W) x 12.5m(H) / Roll",
+      "packing": "20 Roll / Box"
+    }
   },
   {
-    "id": "개나-합지(장폭)_trendy_page1_full",
-    "code": "trendy_page1_full",
-    "name": "trendy_page1_full",
+    "id": "개나-합지(소폭)_25112-1",
+    "code": "25112-1",
+    "name": "25112-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(소폭)",
+    "price": 25000,
+    "thumbnail": "6671ca57a15b6ac870cd5b6d6f48ba46.jpg",
+    "images": [
+      "6671ca57a15b6ac870cd5b6d6f48ba46.jpg"
+    ],
+    "materialType": "합지(소폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.53m(W) x 12.5m(H) / Roll",
+      "packing": "20 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-합지(소폭)_25112-3",
+    "code": "25112-3",
+    "name": "25112-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(소폭)",
+    "price": 25000,
+    "thumbnail": "a41a8fd748396b82710acac10acf4f21.jpg",
+    "images": [
+      "a41a8fd748396b82710acac10acf4f21.jpg"
+    ],
+    "materialType": "합지(소폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.53m(W) x 12.5m(H) / Roll",
+      "packing": "20 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-합지(소폭)_25112-4",
+    "code": "25112-4",
+    "name": "25112-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(소폭)",
+    "price": 25000,
+    "thumbnail": "7812c6209e64f1e7f6a41c414e44c356.jpg",
+    "images": [
+      "7812c6209e64f1e7f6a41c414e44c356.jpg"
+    ],
+    "materialType": "합지(소폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.53m(W) x 12.5m(H) / Roll",
+      "packing": "20 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-합지(소폭)_25115-3",
+    "code": "25115-3",
+    "name": "25115-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(소폭)",
+    "price": 25000,
+    "thumbnail": "3dd5a916166f92f28851289a7f93fe8b.jpg",
+    "images": [
+      "3dd5a916166f92f28851289a7f93fe8b.jpg"
+    ],
+    "materialType": "합지(소폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.53m(W) x 12.5m(H) / Roll",
+      "packing": "20 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-합지(소폭)_25115-4",
+    "code": "25115-4",
+    "name": "25115-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(소폭)",
+    "price": 25000,
+    "thumbnail": "3abe80aba1463a9923cc30cf7da8f583.jpg",
+    "images": [
+      "3abe80aba1463a9923cc30cf7da8f583.jpg"
+    ],
+    "materialType": "합지(소폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.53m(W) x 12.5m(H) / Roll",
+      "packing": "20 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-합지(소폭)_25120-1",
+    "code": "25120-1",
+    "name": "25120-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(소폭)",
+    "price": 25000,
+    "thumbnail": "8991edd40073edbb7f3f575fc418bc48.png",
+    "images": [
+      "8991edd40073edbb7f3f575fc418bc48.png"
+    ],
+    "materialType": "합지(소폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.53m(W) x 12.5m(H) / Roll",
+      "packing": "20 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-합지(소폭)_25120-2",
+    "code": "25120-2",
+    "name": "25120-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(소폭)",
+    "price": 25000,
+    "thumbnail": "fe3416445e34291f985a110aef32511d.jpg",
+    "images": [
+      "fe3416445e34291f985a110aef32511d.jpg"
+    ],
+    "materialType": "합지(소폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.53m(W) x 12.5m(H) / Roll",
+      "packing": "20 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-합지(소폭)_25121-1",
+    "code": "25121-1",
+    "name": "25121-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(소폭)",
+    "price": 25000,
+    "thumbnail": "704b739aaf00f1f663d06653418c9dcc.jpg",
+    "images": [
+      "704b739aaf00f1f663d06653418c9dcc.jpg"
+    ],
+    "materialType": "합지(소폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.53m(W) x 12.5m(H) / Roll",
+      "packing": "20 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-합지(소폭)_25121-3",
+    "code": "25121-3",
+    "name": "25121-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(소폭)",
+    "price": 25000,
+    "thumbnail": "3e073a6a7f62ec2b908f7f24f69f5528.jpg",
+    "images": [
+      "3e073a6a7f62ec2b908f7f24f69f5528.jpg"
+    ],
+    "materialType": "합지(소폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.53m(W) x 12.5m(H) / Roll",
+      "packing": "20 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-합지(소폭)_25126-1",
+    "code": "25126-1",
+    "name": "25126-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(소폭)",
+    "price": 25000,
+    "thumbnail": "f2f31048999549d56ea615318577d856.png",
+    "images": [
+      "f2f31048999549d56ea615318577d856.png"
+    ],
+    "materialType": "합지(소폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.53m(W) x 12.5m(H) / Roll",
+      "packing": "20 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-합지(소폭)_25126-2",
+    "code": "25126-2",
+    "name": "25126-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(소폭)",
+    "price": 25000,
+    "thumbnail": "94ddf2876752c042155dee5f527a0d64.png",
+    "images": [
+      "94ddf2876752c042155dee5f527a0d64.png"
+    ],
+    "materialType": "합지(소폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.53m(W) x 12.5m(H) / Roll",
+      "packing": "20 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-합지(소폭)_25126-3",
+    "code": "25126-3",
+    "name": "25126-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(소폭)",
+    "price": 25000,
+    "thumbnail": "5fbb9e1e573720420c41d4fe6773f5c9.jpg",
+    "images": [
+      "5fbb9e1e573720420c41d4fe6773f5c9.jpg"
+    ],
+    "materialType": "합지(소폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.53m(W) x 12.5m(H) / Roll",
+      "packing": "20 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-합지(소폭)_25127-1",
+    "code": "25127-1",
+    "name": "25127-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(소폭)",
+    "price": 25000,
+    "thumbnail": "829c3bfc1c7f92be1f4fa99e934e5978.png",
+    "images": [
+      "829c3bfc1c7f92be1f4fa99e934e5978.png"
+    ],
+    "materialType": "합지(소폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.53m(W) x 12.5m(H) / Roll",
+      "packing": "20 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-합지(소폭)_25127-2",
+    "code": "25127-2",
+    "name": "25127-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(소폭)",
+    "price": 25000,
+    "thumbnail": "39716ba5f449de2119e8124e915581b7.png",
+    "images": [
+      "39716ba5f449de2119e8124e915581b7.png"
+    ],
+    "materialType": "합지(소폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.53m(W) x 12.5m(H) / Roll",
+      "packing": "20 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-합지(소폭)_25127-4",
+    "code": "25127-4",
+    "name": "25127-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(소폭)",
+    "price": 25000,
+    "thumbnail": "8e8df8a8bfd80c97b805a76b7430a108.png",
+    "images": [
+      "8e8df8a8bfd80c97b805a76b7430a108.png"
+    ],
+    "materialType": "합지(소폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.53m(W) x 12.5m(H) / Roll",
+      "packing": "20 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-합지(소폭)_25127-5",
+    "code": "25127-5",
+    "name": "25127-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(소폭)",
+    "price": 25000,
+    "thumbnail": "0b5bdf3c11876427636aca4e6bb8f847.jpg",
+    "images": [
+      "0b5bdf3c11876427636aca4e6bb8f847.jpg"
+    ],
+    "materialType": "합지(소폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.53m(W) x 12.5m(H) / Roll",
+      "packing": "20 Roll / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28336-1",
+    "code": "28336-1",
+    "name": "28336-1",
     "brand": "개나리",
     "category": "벽지",
     "line": "합지(장폭)",
-    "price": 0,
-    "thumbnail": "06743f083c483ccd6f32e3b99a14259d.png",
+    "price": 39000,
+    "thumbnail": "f2a5bdbe6527dc968ce30f07ca41004a.jpg",
     "images": [
-      "06743f083c483ccd6f32e3b99a14259d.png"
+      "f2a5bdbe6527dc968ce30f07ca41004a.jpg"
     ],
-    "materialType": "합지(장폭)"
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28336-2",
+    "code": "28336-2",
+    "name": "28336-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "01d5190c7aeac8dee0d25bdfdbeb4c32.jpg",
+    "images": [
+      "01d5190c7aeac8dee0d25bdfdbeb4c32.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28348-2",
+    "code": "28348-2",
+    "name": "28348-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "36150f8b24a1a1e08c12caa478a70769.jpg",
+    "images": [
+      "36150f8b24a1a1e08c12caa478a70769.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28348-3",
+    "code": "28348-3",
+    "name": "28348-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "1e519c15a8693a8ce6466b739db2f2bf.jpg",
+    "images": [
+      "1e519c15a8693a8ce6466b739db2f2bf.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28349-1",
+    "code": "28349-1",
+    "name": "28349-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "097eb7f18d21ad4985e0c99cbd0c79fa.jpg",
+    "images": [
+      "097eb7f18d21ad4985e0c99cbd0c79fa.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28349-2",
+    "code": "28349-2",
+    "name": "28349-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "febb141ed23d22a813634881375a0b78.jpg",
+    "images": [
+      "febb141ed23d22a813634881375a0b78.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28349-7",
+    "code": "28349-7",
+    "name": "28349-7",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "6de8e209aa39505290ccb4b6444596bb.jpg",
+    "images": [
+      "6de8e209aa39505290ccb4b6444596bb.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28352-1",
+    "code": "28352-1",
+    "name": "28352-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "d777baf70a9312d39b8421e67f6da3a8.jpg",
+    "images": [
+      "d777baf70a9312d39b8421e67f6da3a8.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28352-2",
+    "code": "28352-2",
+    "name": "28352-2 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "39de419fb28685995a6c36aa39811fc9.jpg",
+    "images": [
+      "39de419fb28685995a6c36aa39811fc9.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28352-3",
+    "code": "28352-3",
+    "name": "28352-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "6cbb6dfe0b01e4dc52b86e12f4fbec32.jpg",
+    "images": [
+      "6cbb6dfe0b01e4dc52b86e12f4fbec32.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28352-4",
+    "code": "28352-4",
+    "name": "28352-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "0d2f48e020ae83b45d9fde2fa23a334f.jpg",
+    "images": [
+      "0d2f48e020ae83b45d9fde2fa23a334f.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28352-5",
+    "code": "28352-5",
+    "name": "28352-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "90c61382ed6908d7af41ed822e526d8c.jpg",
+    "images": [
+      "90c61382ed6908d7af41ed822e526d8c.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28352-6",
+    "code": "28352-6",
+    "name": "28352-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "82cd6ca6531d5fd8e1d67e6217974e80.jpg",
+    "images": [
+      "82cd6ca6531d5fd8e1d67e6217974e80.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28363-1",
+    "code": "28363-1",
+    "name": "28363-1 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "6bda59202e4935b98d636db34d2d59f3.jpg",
+    "images": [
+      "6bda59202e4935b98d636db34d2d59f3.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28363-2",
+    "code": "28363-2",
+    "name": "28363-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "ea8685a69c256d269778e91b02ed0490.jpg",
+    "images": [
+      "ea8685a69c256d269778e91b02ed0490.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28363-3",
+    "code": "28363-3",
+    "name": "28363-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "8df8bfffc7d0479dee0a02628d49e6bb.jpg",
+    "images": [
+      "8df8bfffc7d0479dee0a02628d49e6bb.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28363-4",
+    "code": "28363-4",
+    "name": "28363-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "7bd67177a8242e4db4df6672f635fe7b.jpg",
+    "images": [
+      "7bd67177a8242e4db4df6672f635fe7b.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28364-1",
+    "code": "28364-1",
+    "name": "28364-1 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "2d97026fa192c42bf9f62f2e6be1ef96.jpg",
+    "images": [
+      "2d97026fa192c42bf9f62f2e6be1ef96.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28364-2",
+    "code": "28364-2",
+    "name": "28364-2 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "447ba525a8f6ab824faa6f381ac5e9f9.jpg",
+    "images": [
+      "447ba525a8f6ab824faa6f381ac5e9f9.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28364-3",
+    "code": "28364-3",
+    "name": "28364-3 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "d7be37206d3c3b91cf638bc0be2b9e6b.jpg",
+    "images": [
+      "d7be37206d3c3b91cf638bc0be2b9e6b.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28364-5",
+    "code": "28364-5",
+    "name": "28364-5 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "d4aa588d54e958062ea81041d6b2f95a.jpg",
+    "images": [
+      "d4aa588d54e958062ea81041d6b2f95a.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28364-6",
+    "code": "28364-6",
+    "name": "28364-6 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "6f555fc23b9edbb3899c78694c817005.jpg",
+    "images": [
+      "6f555fc23b9edbb3899c78694c817005.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28365-1",
+    "code": "28365-1",
+    "name": "28365-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "b8d2853e178c47e796a83129ea3f9d94.jpg",
+    "images": [
+      "b8d2853e178c47e796a83129ea3f9d94.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28365-2",
+    "code": "28365-2",
+    "name": "28365-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "f06015edfed162ecf8822f38934db05a.jpg",
+    "images": [
+      "f06015edfed162ecf8822f38934db05a.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28365-3",
+    "code": "28365-3",
+    "name": "28365-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "8cc57f8313d5daffefe139ca2c7a2eda.jpg",
+    "images": [
+      "8cc57f8313d5daffefe139ca2c7a2eda.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28365-5",
+    "code": "28365-5",
+    "name": "28365-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "b7faf71c31af7d3281456a5654f7fee7.jpg",
+    "images": [
+      "b7faf71c31af7d3281456a5654f7fee7.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28366-1",
+    "code": "28366-1",
+    "name": "28366-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "e98b6b6de1ea4ee077e9731721b8b0f4.jpg",
+    "images": [
+      "e98b6b6de1ea4ee077e9731721b8b0f4.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28366-2",
+    "code": "28366-2",
+    "name": "28366-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "e75775bf2a3916c93666ad47a96400e1.jpg",
+    "images": [
+      "e75775bf2a3916c93666ad47a96400e1.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28366-3",
+    "code": "28366-3",
+    "name": "28366-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "0d8b281246caa200b0316b69b937387a.jpg",
+    "images": [
+      "0d8b281246caa200b0316b69b937387a.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28366-4",
+    "code": "28366-4",
+    "name": "28366-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "ae68ef7798888ea000b3d7c26dca8653.jpg",
+    "images": [
+      "ae68ef7798888ea000b3d7c26dca8653.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28370-1",
+    "code": "28370-1",
+    "name": "28370-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "9b67540e83aa368797ad89f22358b118.jpg",
+    "images": [
+      "9b67540e83aa368797ad89f22358b118.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28370-2",
+    "code": "28370-2",
+    "name": "28370-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "03fb14da42fc7f4431b11dad55fa6e53.jpg",
+    "images": [
+      "03fb14da42fc7f4431b11dad55fa6e53.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28370-5",
+    "code": "28370-5",
+    "name": "28370-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "4dda4818034d2058d6156bb6c0e27be2.jpg",
+    "images": [
+      "4dda4818034d2058d6156bb6c0e27be2.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28371-1",
+    "code": "28371-1",
+    "name": "28371-1 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "1acb00eff0e2b0e55d24e150dd2cc03b.jpg",
+    "images": [
+      "1acb00eff0e2b0e55d24e150dd2cc03b.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28371-2",
+    "code": "28371-2",
+    "name": "28371-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "dee395707328c5eab4497e7a75c37f89.jpg",
+    "images": [
+      "dee395707328c5eab4497e7a75c37f89.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28371-3",
+    "code": "28371-3",
+    "name": "28371-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "729892a20c1cca6edfcb8ef1ee2b86df.jpg",
+    "images": [
+      "729892a20c1cca6edfcb8ef1ee2b86df.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28371-4",
+    "code": "28371-4",
+    "name": "28371-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "72589c2bf116b1c16b801b9c23e96947.jpg",
+    "images": [
+      "72589c2bf116b1c16b801b9c23e96947.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28371-5",
+    "code": "28371-5",
+    "name": "28371-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "e933ccfa6b4f3b1eb5bcab254aea3c9c.jpg",
+    "images": [
+      "e933ccfa6b4f3b1eb5bcab254aea3c9c.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28371-9",
+    "code": "28371-9",
+    "name": "28371-9 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "ac2733361e82921721646d5e41837085.jpg",
+    "images": [
+      "ac2733361e82921721646d5e41837085.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28372-1",
+    "code": "28372-1",
+    "name": "28372-1 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "da40af6e25ed0df1dfe5514cb3b79f1a.jpg",
+    "images": [
+      "da40af6e25ed0df1dfe5514cb3b79f1a.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28372-2",
+    "code": "28372-2",
+    "name": "28372-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "257ff629619abd683f36a22beab4401d.jpg",
+    "images": [
+      "257ff629619abd683f36a22beab4401d.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28372-3",
+    "code": "28372-3",
+    "name": "28372-3 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "351030e100d50376d4ceb004de879fab.jpg",
+    "images": [
+      "351030e100d50376d4ceb004de879fab.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28372-4",
+    "code": "28372-4",
+    "name": "28372-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "02e1b96b54eb7c16a2290a950ddbfc97.jpg",
+    "images": [
+      "02e1b96b54eb7c16a2290a950ddbfc97.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28372-5",
+    "code": "28372-5",
+    "name": "28372-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "762d7ea2c1fe20527441b6f9b4f40e7c.jpg",
+    "images": [
+      "762d7ea2c1fe20527441b6f9b4f40e7c.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28372-6",
+    "code": "28372-6",
+    "name": "28372-6 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "03d1567c488294c1709297ff45eb104d.jpg",
+    "images": [
+      "03d1567c488294c1709297ff45eb104d.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_28372-7",
+    "code": "28372-7",
+    "name": "28372-7 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "55e7663f0ace2dfe154521b7b7a676fa.jpg",
+    "images": [
+      "55e7663f0ace2dfe154521b7b7a676fa.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_29080-1",
+    "code": "29080-1",
+    "name": "29080-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "890a0e7315660d36702d25c8f06620c8.jpg",
+    "images": [
+      "890a0e7315660d36702d25c8f06620c8.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_29080-2",
+    "code": "29080-2",
+    "name": "29080-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "67c47430620c8ae0070b55100bdc8f06.jpg",
+    "images": [
+      "67c47430620c8ae0070b55100bdc8f06.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39034-1",
+    "code": "39034-1",
+    "name": "39034-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "68bec43f4e8d128ed9e3647ba3bc5ac3.jpg",
+    "images": [
+      "68bec43f4e8d128ed9e3647ba3bc5ac3.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39369-1",
+    "code": "39369-1",
+    "name": "39369-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "e62703590fefb6128ba57c531be7d29a.jpg",
+    "images": [
+      "e62703590fefb6128ba57c531be7d29a.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39369-2",
+    "code": "39369-2",
+    "name": "39369-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "7e06f635722d8477cdbbdf5354221dcd.jpg",
+    "images": [
+      "7e06f635722d8477cdbbdf5354221dcd.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39369-3",
+    "code": "39369-3",
+    "name": "39369-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "cf809dc8f214e0325b4287f2253c757a.jpg",
+    "images": [
+      "cf809dc8f214e0325b4287f2253c757a.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39369-5",
+    "code": "39369-5",
+    "name": "39369-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "8e603ff32c1953c122e7f6db0977d59e.jpg",
+    "images": [
+      "8e603ff32c1953c122e7f6db0977d59e.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39369-6",
+    "code": "39369-6",
+    "name": "39369-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "49c7c3d724464b64f3dd49f432d4315f.jpg",
+    "images": [
+      "49c7c3d724464b64f3dd49f432d4315f.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39371-1",
+    "code": "39371-1",
+    "name": "39371-1 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "783821c21dedc730ccc735a57abd8706.jpg",
+    "images": [
+      "783821c21dedc730ccc735a57abd8706.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39371-2",
+    "code": "39371-2",
+    "name": "39371-2 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "ddcf884176c5b47976fccb6ad4bef7be.jpg",
+    "images": [
+      "ddcf884176c5b47976fccb6ad4bef7be.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39371-3",
+    "code": "39371-3",
+    "name": "39371-3 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "ce2628321a1c49c71ec8258a9a9dc377.jpg",
+    "images": [
+      "ce2628321a1c49c71ec8258a9a9dc377.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39371-4",
+    "code": "39371-4",
+    "name": "39371-4 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "b44c8aa214230291dabec5ecc8ca9ed0.jpg",
+    "images": [
+      "b44c8aa214230291dabec5ecc8ca9ed0.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39371-6",
+    "code": "39371-6",
+    "name": "39371-6 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "db534c1fe5790082d6e674dff630aca4.jpg",
+    "images": [
+      "db534c1fe5790082d6e674dff630aca4.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39371-7",
+    "code": "39371-7",
+    "name": "39371-7 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "693524df10c65edcbba3eed754b17350.jpg",
+    "images": [
+      "693524df10c65edcbba3eed754b17350.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39371-8",
+    "code": "39371-8",
+    "name": "39371-8 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "46f939804bd9047e31691de99021dc5b.jpg",
+    "images": [
+      "46f939804bd9047e31691de99021dc5b.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39371-9",
+    "code": "39371-9",
+    "name": "39371-9 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "0037bbf4012c905594d318e641a360c4.jpg",
+    "images": [
+      "0037bbf4012c905594d318e641a360c4.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39372-1",
+    "code": "39372-1",
+    "name": "39372-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "34133a457ecfd1f6dce4aa667f254d0d.jpg",
+    "images": [
+      "34133a457ecfd1f6dce4aa667f254d0d.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39372-2",
+    "code": "39372-2",
+    "name": "39372-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "9fe68f97d675dc746d258412d1b64d4c.jpg",
+    "images": [
+      "9fe68f97d675dc746d258412d1b64d4c.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39372-3",
+    "code": "39372-3",
+    "name": "39372-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "eaf8914585730d006aa1237f85046ba7.jpg",
+    "images": [
+      "eaf8914585730d006aa1237f85046ba7.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39374-1",
+    "code": "39374-1",
+    "name": "39374-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "b4678b6977bf274902f099c3a6debb24.jpg",
+    "images": [
+      "b4678b6977bf274902f099c3a6debb24.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39374-2",
+    "code": "39374-2",
+    "name": "39374-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "d801c2a34a17f3977d20105cca90c60e.jpg",
+    "images": [
+      "d801c2a34a17f3977d20105cca90c60e.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39374-3",
+    "code": "39374-3",
+    "name": "39374-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "c4527da9e924aa0476b365e814f8d0e7.jpg",
+    "images": [
+      "c4527da9e924aa0476b365e814f8d0e7.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39374-4",
+    "code": "39374-4",
+    "name": "39374-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "3d2e661feb04880f1263af1a55d2a9f8.jpg",
+    "images": [
+      "3d2e661feb04880f1263af1a55d2a9f8.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39374-6",
+    "code": "39374-6",
+    "name": "39374-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "59dcdf96675377480b86cde57242ac9a.jpg",
+    "images": [
+      "59dcdf96675377480b86cde57242ac9a.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39374-7",
+    "code": "39374-7",
+    "name": "39374-7",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "a7b3c17beef8179e2b595db8054f2b28.jpg",
+    "images": [
+      "a7b3c17beef8179e2b595db8054f2b28.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39375-1",
+    "code": "39375-1",
+    "name": "39375-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "246d724672121bd60a7d13a92757a7a9.jpg",
+    "images": [
+      "246d724672121bd60a7d13a92757a7a9.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39375-2",
+    "code": "39375-2",
+    "name": "39375-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "8967d5e54b69b10ac92de131ebc040d5.jpg",
+    "images": [
+      "8967d5e54b69b10ac92de131ebc040d5.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39376-1",
+    "code": "39376-1",
+    "name": "39376-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "8879a1f64e18b0f2c7b05b5a3012a6d5.jpg",
+    "images": [
+      "8879a1f64e18b0f2c7b05b5a3012a6d5.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39377-1",
+    "code": "39377-1",
+    "name": "39377-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "b482b099097b94c494951900f9fd6969.jpg",
+    "images": [
+      "b482b099097b94c494951900f9fd6969.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39377-2",
+    "code": "39377-2",
+    "name": "39377-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "9b002d499ecd7bfc4cf040abb0b5f5ae.jpg",
+    "images": [
+      "9b002d499ecd7bfc4cf040abb0b5f5ae.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39378-1",
+    "code": "39378-1",
+    "name": "39378-1 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "dfb48497a70392561acdd31adacceea0.jpg",
+    "images": [
+      "dfb48497a70392561acdd31adacceea0.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39378-2",
+    "code": "39378-2",
+    "name": "39378-2 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "b7b3295b0fe2e5d4512e9709d0057065.jpg",
+    "images": [
+      "b7b3295b0fe2e5d4512e9709d0057065.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39379-1",
+    "code": "39379-1",
+    "name": "39379-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "77261e81a43015516e09b9f0d5955df3.jpg",
+    "images": [
+      "77261e81a43015516e09b9f0d5955df3.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39379-2",
+    "code": "39379-2",
+    "name": "39379-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "b4544ae7b0db0e413698adb6b82c8b26.jpg",
+    "images": [
+      "b4544ae7b0db0e413698adb6b82c8b26.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39381-1",
+    "code": "39381-1",
+    "name": "39381-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "9401454dfa161f9b1d98368253a7f979.jpg",
+    "images": [
+      "9401454dfa161f9b1d98368253a7f979.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39381-2",
+    "code": "39381-2",
+    "name": "39381-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "35f2d842a279bf442c1ee3954d6e3c25.jpg",
+    "images": [
+      "35f2d842a279bf442c1ee3954d6e3c25.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39382-1",
+    "code": "39382-1",
+    "name": "39382-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "604ee0cb53aa5f7153e198debff40bba.jpg",
+    "images": [
+      "604ee0cb53aa5f7153e198debff40bba.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39382-2",
+    "code": "39382-2",
+    "name": "39382-2 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "43e17d2ea129ac549e012490798ecbce.jpg",
+    "images": [
+      "43e17d2ea129ac549e012490798ecbce.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39382-3",
+    "code": "39382-3",
+    "name": "39382-3 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "5de8e2832425d8131adcb3b6b37aed62.jpg",
+    "images": [
+      "5de8e2832425d8131adcb3b6b37aed62.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39382-4",
+    "code": "39382-4",
+    "name": "39382-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "e1ab5d4e731a36a2573cbf09ab0d4c23.jpg",
+    "images": [
+      "e1ab5d4e731a36a2573cbf09ab0d4c23.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39382-5",
+    "code": "39382-5",
+    "name": "39382-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "baf5f035b1883d5a2b15787f6aa6a158.jpg",
+    "images": [
+      "baf5f035b1883d5a2b15787f6aa6a158.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39383",
+    "code": "39383",
+    "name": "39383 -5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "dc52f19bd22ddb9e6b4912d878b18487.jpg",
+    "images": [
+      "dc52f19bd22ddb9e6b4912d878b18487.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39383-1",
+    "code": "39383-1",
+    "name": "39383-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "1ee7f9d6bcc3d7eb27d2b572c90d3768.jpg",
+    "images": [
+      "1ee7f9d6bcc3d7eb27d2b572c90d3768.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39383-2",
+    "code": "39383-2",
+    "name": "39383-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "63de52550fc43d88edc1f953de306a6f.jpg",
+    "images": [
+      "63de52550fc43d88edc1f953de306a6f.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39383-3",
+    "code": "39383-3",
+    "name": "39383-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "57ef67fdbbcd442c7f7938a2467a954f.jpg",
+    "images": [
+      "57ef67fdbbcd442c7f7938a2467a954f.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39383-4",
+    "code": "39383-4",
+    "name": "39383-4 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "3411dc40eff0e1860f6a6120d52e8556.jpg",
+    "images": [
+      "3411dc40eff0e1860f6a6120d52e8556.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39383-5",
+    "code": "39383-5",
+    "name": "39383-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "b75471a249f614b47cba90a184e5979e.jpg",
+    "images": [
+      "b75471a249f614b47cba90a184e5979e.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39384-1",
+    "code": "39384-1",
+    "name": "39384-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "c7abec2be3caf6e723a7657a9d1d40d5.jpg",
+    "images": [
+      "c7abec2be3caf6e723a7657a9d1d40d5.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39385-1",
+    "code": "39385-1",
+    "name": "39385-1 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "33b0b07add24c20f67cb68c3dbd18a48.jpg",
+    "images": [
+      "33b0b07add24c20f67cb68c3dbd18a48.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39385-2",
+    "code": "39385-2",
+    "name": "39385-2 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "aae5efb6a9d013ca714c2f8fd139bca3.jpg",
+    "images": [
+      "aae5efb6a9d013ca714c2f8fd139bca3.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39385-3",
+    "code": "39385-3",
+    "name": "39385-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "a7884b6d56a4c331f0fb6afb662e0e12.jpg",
+    "images": [
+      "a7884b6d56a4c331f0fb6afb662e0e12.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39385-4",
+    "code": "39385-4",
+    "name": "39385-4 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "e3fab10be1660294434f2f60288e11d3.jpg",
+    "images": [
+      "e3fab10be1660294434f2f60288e11d3.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39386-1",
+    "code": "39386-1",
+    "name": "39386-1 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "5d08d7128b38ade4c8407fd0dacc1f40.jpg",
+    "images": [
+      "5d08d7128b38ade4c8407fd0dacc1f40.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39386-2",
+    "code": "39386-2",
+    "name": "39386-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "f6ac1030f3ee9e7dfa7d77b523f0ac80.jpg",
+    "images": [
+      "f6ac1030f3ee9e7dfa7d77b523f0ac80.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39386-3",
+    "code": "39386-3",
+    "name": "39386-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "fd8735940fe9a72c2e3488c389c0d095.jpg",
+    "images": [
+      "fd8735940fe9a72c2e3488c389c0d095.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39386-4",
+    "code": "39386-4",
+    "name": "39386-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "b2f59b4b06530dc2622783fc580c1e3b.jpg",
+    "images": [
+      "b2f59b4b06530dc2622783fc580c1e3b.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39386-5",
+    "code": "39386-5",
+    "name": "39386-5 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "790b1022743ea44953c17aef220cf222.jpg",
+    "images": [
+      "790b1022743ea44953c17aef220cf222.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39386-6",
+    "code": "39386-6",
+    "name": "39386-6 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "703d95e8109b1a128ff9385ef4de98c1.jpg",
+    "images": [
+      "703d95e8109b1a128ff9385ef4de98c1.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39387-1",
+    "code": "39387-1",
+    "name": "39387-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "f35d9f9b8f2289a9f7ff902b242ce76a.jpg",
+    "images": [
+      "f35d9f9b8f2289a9f7ff902b242ce76a.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39388-1",
+    "code": "39388-1",
+    "name": "39388-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "636fe6768a66e684e0005db965e4dcbc.jpg",
+    "images": [
+      "636fe6768a66e684e0005db965e4dcbc.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39388-2",
+    "code": "39388-2",
+    "name": "39388-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "1f622648d5a89b54fd9d620f2f89b345.jpg",
+    "images": [
+      "1f622648d5a89b54fd9d620f2f89b345.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39389-1",
+    "code": "39389-1",
+    "name": "39389-1 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "8a1df1d5c2b2dee06f92ccb8e8378d7e.jpg",
+    "images": [
+      "8a1df1d5c2b2dee06f92ccb8e8378d7e.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39389-2",
+    "code": "39389-2",
+    "name": "39389-2 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "78c47d94ea4173f792d5d26cf8681b58.jpg",
+    "images": [
+      "78c47d94ea4173f792d5d26cf8681b58.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39389-3",
+    "code": "39389-3",
+    "name": "39389-3",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "7f592bce07d170fdc0b4eb881564db6a.jpg",
+    "images": [
+      "7f592bce07d170fdc0b4eb881564db6a.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39390-1",
+    "code": "39390-1",
+    "name": "39390-1 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "79de3ade392b50ca66e4e9357d1b295a.jpg",
+    "images": [
+      "79de3ade392b50ca66e4e9357d1b295a.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39390-2",
+    "code": "39390-2",
+    "name": "39390-2 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "2c87383675523a36649afc8efb97ed2d.jpg",
+    "images": [
+      "2c87383675523a36649afc8efb97ed2d.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39390-3",
+    "code": "39390-3",
+    "name": "39390-3 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "1ef3e2a57d234f6f0186b21db6be6f6f.jpg",
+    "images": [
+      "1ef3e2a57d234f6f0186b21db6be6f6f.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39390-4",
+    "code": "39390-4",
+    "name": "39390-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "ab49d98dd3e456bbb4b8596344997f15.jpg",
+    "images": [
+      "ab49d98dd3e456bbb4b8596344997f15.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39391-1",
+    "code": "39391-1",
+    "name": "39391-1 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "7c93ebfa1a2eee85dafdfba2c1c99ab7.jpg",
+    "images": [
+      "7c93ebfa1a2eee85dafdfba2c1c99ab7.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39391-2",
+    "code": "39391-2",
+    "name": "39391-2 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "e2fd1ebe878aa3cf5e446775450caa7a.jpg",
+    "images": [
+      "e2fd1ebe878aa3cf5e446775450caa7a.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39391-3",
+    "code": "39391-3",
+    "name": "39391-3 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "832014d52052741839a9447ecaa2010d.jpg",
+    "images": [
+      "832014d52052741839a9447ecaa2010d.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39391-4",
+    "code": "39391-4",
+    "name": "39391-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "cffe7e0bb63a68df72da9d61927f11b6.jpg",
+    "images": [
+      "cffe7e0bb63a68df72da9d61927f11b6.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39391-5",
+    "code": "39391-5",
+    "name": "39391-5",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "1df6f59a307cdf1d0660feed52f693a8.jpg",
+    "images": [
+      "1df6f59a307cdf1d0660feed52f693a8.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39392-1",
+    "code": "39392-1",
+    "name": "39392-1 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "10f8cb485df35b8829f28c0b087acc7d.jpg",
+    "images": [
+      "10f8cb485df35b8829f28c0b087acc7d.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39392-2",
+    "code": "39392-2",
+    "name": "39392-2 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "44e0c49926745c390cecd9664823c43f.jpg",
+    "images": [
+      "44e0c49926745c390cecd9664823c43f.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39392-3",
+    "code": "39392-3",
+    "name": "39392-3 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "1e3b5dc285378f89ee27ec43eedc3a7d.jpg",
+    "images": [
+      "1e3b5dc285378f89ee27ec43eedc3a7d.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39392-4",
+    "code": "39392-4",
+    "name": "39392-4",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "3b8a4690516c844733170bd9ed658a3d.jpg",
+    "images": [
+      "3b8a4690516c844733170bd9ed658a3d.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39392-5",
+    "code": "39392-5",
+    "name": "39392-5 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "08ca305199ca5623165323f00cef38be.jpg",
+    "images": [
+      "08ca305199ca5623165323f00cef38be.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39393-1",
+    "code": "39393-1",
+    "name": "39393-1 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "12a0d0283973f112b4483b56191390dc.jpg",
+    "images": [
+      "12a0d0283973f112b4483b56191390dc.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39393-2",
+    "code": "39393-2",
+    "name": "39393-2 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "faf40a30a7a086dbe7475cc5cb88e577.jpg",
+    "images": [
+      "faf40a30a7a086dbe7475cc5cb88e577.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39393-3",
+    "code": "39393-3",
+    "name": "39393-3 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "edba5ca6c403f94b9c594507579eebc6.jpg",
+    "images": [
+      "edba5ca6c403f94b9c594507579eebc6.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39393-4",
+    "code": "39393-4",
+    "name": "39393-4 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "30d7f9c2108f5b3ab0f8c45f0a84d75f.jpg",
+    "images": [
+      "30d7f9c2108f5b3ab0f8c45f0a84d75f.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39393-5",
+    "code": "39393-5",
+    "name": "39393-5 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "d129424895203270d8011681f7cd038a.jpg",
+    "images": [
+      "d129424895203270d8011681f7cd038a.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39393-6",
+    "code": "39393-6",
+    "name": "39393-6",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "2c6bf525d1a5acae1c18aa4dfb9efd03.jpg",
+    "images": [
+      "2c6bf525d1a5acae1c18aa4dfb9efd03.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39393-7",
+    "code": "39393-7",
+    "name": "39393-7 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "e738d7957fac86896816de13beb762bd.jpg",
+    "images": [
+      "e738d7957fac86896816de13beb762bd.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39394-1",
+    "code": "39394-1",
+    "name": "39394-1 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "81034b09eb76bec1f7685d312b600480.jpg",
+    "images": [
+      "81034b09eb76bec1f7685d312b600480.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39394-2",
+    "code": "39394-2",
+    "name": "39394-2 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "ed392a0751ab62eccdef702b37946aa6.jpg",
+    "images": [
+      "ed392a0751ab62eccdef702b37946aa6.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39394-3",
+    "code": "39394-3",
+    "name": "39394-3 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "29a7e05e2bd7e938526a8de60aa6167c.jpg",
+    "images": [
+      "29a7e05e2bd7e938526a8de60aa6167c.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39394-4",
+    "code": "39394-4",
+    "name": "39394-4 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "bf084133b6e805b9479ffa20807c7c15.jpg",
+    "images": [
+      "bf084133b6e805b9479ffa20807c7c15.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39394-5",
+    "code": "39394-5",
+    "name": "39394-5 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "cf0dc432432690cf272745d8e5eb82b1.jpg",
+    "images": [
+      "cf0dc432432690cf272745d8e5eb82b1.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_39394-6",
+    "code": "39394-6",
+    "name": "39394-6 (2)",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "b07987a676885ca895c5f3a82902670d.jpg",
+    "images": [
+      "b07987a676885ca895c5f3a82902670d.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_64014-1",
+    "code": "64014-1",
+    "name": "64014-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "b1018bb1ea2d624459b2bfc2b3a41924.jpg",
+    "images": [
+      "b1018bb1ea2d624459b2bfc2b3a41924.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_64014-2",
+    "code": "64014-2",
+    "name": "64014-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "050338de8b165188eebfa298733b021c.jpg",
+    "images": [
+      "050338de8b165188eebfa298733b021c.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_64022-1",
+    "code": "64022-1",
+    "name": "64022-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "6822bfec18cefe326fcefac618d10ddc.png",
+    "images": [
+      "6822bfec18cefe326fcefac618d10ddc.png"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_64023-1",
+    "code": "64023-1",
+    "name": "64023-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "3ea95dca742f73ad4304354acee45d99.jpg",
+    "images": [
+      "3ea95dca742f73ad4304354acee45d99.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_64024-1",
+    "code": "64024-1",
+    "name": "64024-1",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "03abca548974e54e6b72c854d74ee986.png",
+    "images": [
+      "03abca548974e54e6b72c854d74ee986.png"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
+  },
+  {
+    "id": "개나-합지(장폭)_64024-2",
+    "code": "64024-2",
+    "name": "64024-2",
+    "brand": "개나리",
+    "category": "벽지",
+    "line": "합지(장폭)",
+    "price": 39000,
+    "thumbnail": "e2e312e5cc7800ca3f06dea7b4847eaa.jpg",
+    "images": [
+      "e2e312e5cc7800ca3f06dea7b4847eaa.jpg"
+    ],
+    "materialType": "합지(장폭)",
+    "specs": {
+      "division": "",
+      "thickness": "",
+      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
+      "packing": "6 R / Box"
+    }
   },
   {
     "id": "서울-방염_1000-1",

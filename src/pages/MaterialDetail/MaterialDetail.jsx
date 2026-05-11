@@ -157,7 +157,7 @@ export default function MaterialDetail() {
                             {item.price ? `${item.price.toLocaleString()}원 (VAT 별도)` : "가격문의"}
                         </div>
 
-                        {item.specs && (
+                        {item.specs && item.category !== '벽지' && (
                             <div className="specs-table">
                                 {item.specs.division && (
                                     <div className="spec-row">
@@ -165,18 +165,47 @@ export default function MaterialDetail() {
                                         <span className="spec-val">{item.specs.division}</span>
                                     </div>
                                 )}
-                                <div className="spec-row">
-                                    <span className="spec-key">두께</span>
-                                    <span className="spec-val">{item.specs.thickness}</span>
-                                </div>
-                                <div className="spec-row">
-                                    <span className="spec-key">규격</span>
-                                    <span className="spec-val">{item.specs.size}</span>
-                                </div>
-                                <div className="spec-row">
-                                    <span className="spec-key">포장</span>
-                                    <span className="spec-val">{item.specs.packing}</span>
-                                </div>
+                                {item.specs.thickness && (
+                                    <div className="spec-row">
+                                        <span className="spec-key">두께</span>
+                                        <span className="spec-val">{item.specs.thickness}</span>
+                                    </div>
+                                )}
+                                {item.specs.size && (
+                                    <div className="spec-row">
+                                        <span className="spec-key">규격</span>
+                                        <span className="spec-val">{item.specs.size}</span>
+                                    </div>
+                                )}
+                                {item.specs.packing && (
+                                    <div className="spec-row">
+                                        <span className="spec-key">포장</span>
+                                        <span className="spec-val">{item.specs.packing}</span>
+                                    </div>
+                                )}
+                            </div>
+                        )}
+
+                        {item.category === '벽지' && (
+                            <div className="specs-table">
+                                {item.specs?.size && (
+                                    <div className="spec-row">
+                                        <span className="spec-key">제품규격</span>
+                                        <span className="spec-val">{item.specs.size}</span>
+                                    </div>
+                                )}
+                                {(item.price || item.price === 0) && (
+                                    <div className="spec-row">
+                                        <span className="spec-key">제품단위</span>
+                                        <span className="spec-val">{item.price ? `${item.price.toLocaleString()}단위` : "가격문의"}</span>
+                                    </div>
+                                )}
+                                {item.specs?.packing && (
+                                    <div className="spec-row">
+                                        <span className="spec-key">포장단위</span>
+                                        <span className="spec-val">{item.specs.packing}</span>
+                                    </div>
+                                )}
                             </div>
                         )}
 
