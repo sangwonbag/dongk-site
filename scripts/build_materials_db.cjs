@@ -31,6 +31,7 @@ function extractBrand(folderName, category) {
     if (folderName.includes('아반')) return '아반';
     if (folderName.toLowerCase().includes('noksu')) return '녹수';
     if (folderName.includes('디아이디') || folderName.toLowerCase().includes('did')) return '디아이디';
+    if (folderName.toLowerCase().includes('jaeyoung') || folderName.includes('재영')) return '재영';
     return folderName;
 }
 
@@ -241,6 +242,43 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                     packing = "15pcs / 3.31㎡";
                     type = "470";
                     price = 25000;
+                }
+            } else if (brand === '재영') {
+                thickness = "3.0T";
+                if (line.includes('차음') || (brandFolder && brandFolder.includes('차음'))) {
+                    thickness = "4.0T";
+                    if (line.includes('457.2각') || line.includes('사각') || line.includes('450')) {
+                        sizeLabel = "457.2x457.2mm";
+                        packing = "16pcs / Box (3.34㎡)";
+                        type = "450";
+                    } else if (line.includes('우드')) {
+                        sizeLabel = "180x920mm";
+                        packing = "20pcs / Box (3.312㎡)";
+                        type = "wood";
+                    }
+                } else if (line.includes('600각')) {
+                    sizeLabel = "600x600mm";
+                    packing = "9pcs / Box (3.24㎡)";
+                    type = "600";
+                } else if (line.includes('세미와일드') || line.includes('사각') || line.includes('카펫')) {
+                    sizeLabel = "457.2x457.2mm";
+                    packing = "16pcs / Box (3.34㎡)";
+                    type = "450";
+                    if (line.includes('2T') || line.includes('2.0') || fileName.includes('2T') || fileName.includes('2.0') || (brandFolder && brandFolder.includes('2T'))) {
+                        thickness = "2.0T";
+                    }
+                } else if (line.includes('홈우드')) {
+                    sizeLabel = "180x920mm";
+                    packing = "20pcs / Box (3.312㎡)";
+                    thickness = "4.0T";
+                    type = "wood";
+                } else if (line.includes('우드') || (brandFolder && brandFolder.includes('우드'))) {
+                    sizeLabel = "180x920mm";
+                    packing = "20pcs / Box (3.312㎡)";
+                    type = "wood";
+                    if (line.includes('2T') || line.includes('2.0') || fileName.includes('2T') || fileName.includes('2.0') || (brandFolder && brandFolder.includes('2T'))) {
+                        thickness = "2.0T";
+                    }
                 }
             } else if (brand === '녹수') {
                 if (line.includes('프라임') || line.includes('1000') || line.includes('1500')) {
@@ -669,6 +707,7 @@ function processDirectory(dirPath, category, brandFolder, lineFolder) {
                 if (brandFolder.includes('KCC')) id = finalCode;
                 if (brandFolder.includes('LX')) id = `LX-${finalCode}`;
                 if (brandFolder.toLowerCase().includes('noksu')) id = `NOKSU-${finalCode}`;
+                if (brandFolder.toLowerCase().includes('jaeyoung') || brandFolder.includes('재영')) id = `JY-${finalCode}`;
             } else if (category === '벽지' && brandFolder.includes('LX')) {
                 id = lineFolder ? `LXW-${lineFolder}_${finalCode}` : `LXW-${finalCode}`;
             } else if (category === '벽지' && brandFolder.includes('개나리')) {

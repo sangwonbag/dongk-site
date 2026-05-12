@@ -1,8 +1,4 @@
-/**
- * auth.js
- * 임시 자체 로그인 및 권한 관리를 위한 유틸리티 함수.
- * 향후 Supabase Auth 연동 시 이 파일 내부 로직만 교체하면 됩니다.
- */
+import { supabase } from './supabaseClient';
 
 const AUTH_KEY = 'dk_auth_user';
 
@@ -17,44 +13,105 @@ export const getCurrentUser = () => {
   }
 };
 
-export const login = async (id, password) => {
-  // 환경변수에서 관리자 비밀번호 가져오기 (없으면 '1234'로 fallback)
-  // [주의] 운영 배포 전 반드시 환경 변수(VITE_ADMIN_PASSWORD)를 설정해야 합니다.
-  const adminPassword = import.meta.env.VITE_ADMIN_PASSWORD || '1234';
+// Simple SHA-256 hash function using Web Crypto API
+export const hashPassword = async (password) => {
+  const encoder = new TextEncoder();
+  const data = encoder.encode(password);
+  const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+  const hashArray = Array.from(new Uint8Array(hashBuffer));
+  const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+  return hashHex;
+};
 
-  if (id === 'dongk3089') {
-    if (password === adminPassword) {
-      const user = {
-        id: 'dongk3089',
-        role: 'admin',
-        isLoggedIn: true,
-      };
+export const checkDuplicateUsername = async (username) => {
+  if (!supabase) return { error: 'Supabase client not initialized' };
+  const { data, error } = await supabase
+    .from('users')
+    .select('id')
+    .eq('username', username)
+    .single();
+
+  if (error && error.code !== 'PGRST116') {
+    // PGRST116 means no rows returned, which means not duplicate
+    console.error('Error checking duplicate username:', error);
+    return { error: '서버 오류가 발생했습니다.' };
+  }
+  
+  return { isDuplicate: !!data };
+};
+
+export const signup = async (userData) => {
+  if (!supabase) return { success: false, message: '서버 연결에 실패했습니다. (Supabase 미설정)' };
+
+  try {
+    const hashedPassword = await hashPassword(userData.password);
+    
+    const { error } = await supabase.from('users').insert({
+      username: userData.username,
+      password: hashedPassword,
+      name: userData.name,
+      phone: userData.phone,
+      company_name: userData.company_name,
+      user_type: userData.user_type,
+      address: userData.address,
+      memo: userData.memo,
+      role: 'user'
+    });
+
+    if (error) {
+      console.error('Signup error:', error);
+      return { success: false, message: '회원가입 처리 중 오류가 발생했습니다.' };
+    }
+
+    return { success: true };
+  } catch (err) {
+    console.error('Signup exception:', err);
+    return { success: false, message: '서버 오류가 발생했습니다.' };
+  }
+};
+
+export const login = async (id, password) => {
+  if (!supabase) {
+    // Fallback for missing Supabase config - ONLY FOR DEVELOPMENT
+    console.warn("Supabase not connected. Using fallback auth.");
+    const adminPassword = import.meta.env.VITE_ADMIN_PASSWORD || '1234';
+    if (id === 'dongk3089' && password === adminPassword) {
+      const user = { id: 'dongk3089', username: 'dongk3089', role: 'admin', isLoggedIn: true };
       localStorage.setItem(AUTH_KEY, JSON.stringify(user));
       return { success: true, user };
-    } else {
+    }
+    return { success: false, message: '서버 연결에 실패했습니다. 잠시 후 다시 시도해주세요.' };
+  }
+
+  try {
+    const hashedPassword = await hashPassword(password);
+    const { data: userRow, error } = await supabase
+      .from('users')
+      .select('id, username, name, phone, company_name, user_type, role')
+      .eq('username', id)
+      .eq('password', hashedPassword)
+      .single();
+
+    if (error || !userRow) {
       return { success: false, message: '아이디 또는 비밀번호가 올바르지 않습니다.' };
     }
-  }
 
-  // 일반 사용자 로직 (추후 확장 가능)
-  // 현재는 임시로 아무 비밀번호나 입력하면 로그인 성공으로 처리
-  // (실제 서비스에서는 DB 대조 필요)
-  if (id.startsWith('user')) {
     const user = {
-      id: id,
-      role: 'user',
+      ...userRow,
       isLoggedIn: true,
     };
+    
     localStorage.setItem(AUTH_KEY, JSON.stringify(user));
     return { success: true, user };
-  }
 
-  return { success: false, message: '아이디 또는 비밀번호가 올바르지 않습니다.' };
+  } catch (err) {
+    console.error('Login exception:', err);
+    return { success: false, message: '로그인 처리 중 오류가 발생했습니다.' };
+  }
 };
 
 export const logout = () => {
   localStorage.removeItem(AUTH_KEY);
-  // Optional: Supabase 연동 시 await supabase.auth.signOut() 호출
 };
 
 export const isAdmin = () => {

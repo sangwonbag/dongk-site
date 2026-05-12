@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Routes, Route, Navigate, useNavigate } from "react-router-dom";
 import { useEstimateCart } from "../contexts/EstimateCartContext";
 // Pages
@@ -8,6 +8,8 @@ import Materials from "../pages/Materials/Materials";
 import MaterialDetail from "../pages/MaterialDetail/MaterialDetail";
 import Cart from "../pages/Cart/Cart";
 import Login from "../pages/Login/Login";
+import Signup from "../pages/Signup/Signup";
+import MyPage from "../pages/MyPage/MyPage";
 import Inquiries from "../pages/Admin/Inquiries";
 import EstimateRequest from "../pages/Estimate/EstimateRequest";
 import AdminDashboard from "../pages/Admin/Dashboard/AdminDashboard";
@@ -17,13 +19,16 @@ import AdminRoute from "../components/auth/AdminRoute";
 
 // Global Components
 import AIChatWidget from "../components/chat/AIChatWidget";
+import IntroSplash from "../components/layout/IntroSplash";
 
 export default function App() {
   const { toast, hideToast } = useEstimateCart();
   const navigate = useNavigate();
+  const [showIntro, setShowIntro] = useState(true);
 
   return (
     <>
+      {showIntro && <IntroSplash onFinish={() => setShowIntro(false)} />}
       {toast.visible && (
         <div className="estimate-toast">
           <span>{toast.message}</span>
@@ -44,6 +49,8 @@ export default function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="/estimate/request" element={<EstimateRequest />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/mypage" element={<MyPage />} />
         
         {/* Admin Protected Routes */}
         <Route path="/admin" element={<AdminRoute><AdminDashboard /></AdminRoute>} />

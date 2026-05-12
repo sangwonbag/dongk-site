@@ -70,6 +70,13 @@ export default function Login() {
                         >
                             홈으로 돌아가기
                         </button>
+                        <button 
+                            type="button" 
+                            className="btn-go-home" 
+                            onClick={() => nav("/signup")}
+                        >
+                            회원가입
+                        </button>
                     </form>
                 </div>
             </div>

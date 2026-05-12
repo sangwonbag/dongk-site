@@ -302,6 +302,10 @@ export default function Header() {
                   <span>관리</span>
                 </button>
               )}
+              <button onClick={() => nav("/mypage")}>
+                <User size={20} />
+                <span>마이페이지</span>
+              </button>
               <button onClick={handleLogout}>
                 <LogOut size={20} />
                 <span>로그아웃</span>
