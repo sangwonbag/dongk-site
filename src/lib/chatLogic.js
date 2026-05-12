@@ -35,7 +35,7 @@ export const getNextRuleBasedMessage = (history, userInput) => {
         options = ["아파트/빌라/주택", "상가", "사무실", "병원/학원/매장", "원룸/오피스텔"];
     } else if (step === 2) {
         text = "시공하실 평수 또는 대략적인 면적을 알려주세요.";
-        options = ["잘 모름"];
+        options = ["상담후결정", "처음으로"];
     } else if (step === 3) {
         text = "원하시는 분위기나 스타일이 있나요?";
         options = ["우드", "대리석", "화이트/심플", "고급형", "저렴/실용적", "내구성 우선"];

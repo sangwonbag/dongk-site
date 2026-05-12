@@ -1,0 +1,139 @@
+.search-modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  padding: 16px;
+}
+
+.search-modal {
+  background: #fff;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 600px;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.search-modal-header {
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-modal-header h2 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.btn-close-modal {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #666;
+}
+
+.search-modal-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow-y: auto;
+}
+
+.search-modal-input {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-modal-input .search-icon {
+  position: absolute;
+  left: 12px;
+  color: #999;
+}
+
+.search-modal-input input {
+  width: 100%;
+  padding: 12px 12px 12px 40px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.search-modal-input input:focus {
+  outline: none;
+  border-color: #111;
+}
+
+.search-modal-results {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.search-item-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
+
+.search-item-thumb {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid #f0f0f0;
+}
+
+.search-item-info {
+  flex: 1;
+}
+
+.search-item-meta {
+  font-size: 0.75rem;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.search-item-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #111;
+}
+
+.search-item-code {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.btn-add-item {
+  background: #111;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-add-item:hover {
+  background: #333;
+}
+
+.no-results, .search-guide {
+  text-align: center;
+  color: #666;
+  padding: 40px 0;
+}

@@ -4,6 +4,9 @@ import { Search, ShoppingCart, User, BookOpen, Layers } from "lucide-react";
 import { materials } from "../../data/materials.db";
 import { getSearchScore, RECOMMENDATIONS, normalizeSearchText, tokenizeSearchQuery, handleSearchRedirect } from "../../utils/searchUtils";
 import { getSupabaseImageUrl } from "../../utils/getSupabaseImageUrl";
+import { useEstimateCart } from "../../contexts/EstimateCartContext";
+import { FileText, Settings, LogOut } from "lucide-react";
+import { getCurrentUser, logout } from "../../lib/auth";
 import "./Header.css";
 
 // Debounce hook
@@ -51,6 +54,15 @@ export default function Header() {
   });
   const [isFocused, setIsFocused] = useState(false);
   const dropdownRef = useRef(null);
+  const { cartItems } = useEstimateCart();
+  const estimateCount = cartItems.length;
+
+  const currentUser = getCurrentUser();
+
+  const handleLogout = () => {
+    logout();
+    nav('/');
+  };
 
   const debouncedQ = useDebounce(q, 300);
 
@@ -276,10 +288,31 @@ export default function Header() {
             <ShoppingCart size={20} />
             <span>장바구니</span>
           </button>
-          <button onClick={() => nav("/login")}>
-            <User size={20} />
-            <span>로그인</span>
+          <button onClick={() => nav("/estimate/request")} style={{ position: 'relative' }}>
+            <FileText size={20} />
+            <span>견적요청</span>
+            {estimateCount > 0 && <span className="estimate-badge">{estimateCount}</span>}
           </button>
+          
+          {currentUser ? (
+            <>
+              {currentUser.role === 'admin' && (
+                <button onClick={() => nav("/admin")}>
+                  <Settings size={20} />
+                  <span>관리</span>
+                </button>
+              )}
+              <button onClick={handleLogout}>
+                <LogOut size={20} />
+                <span>로그아웃</span>
+              </button>
+            </>
+          ) : (
+            <button onClick={() => nav("/login")}>
+              <User size={20} />
+              <span>로그인</span>
+            </button>
+          )}
         </nav>
       </div>
     </header>

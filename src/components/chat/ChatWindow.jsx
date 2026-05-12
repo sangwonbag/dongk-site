@@ -75,9 +75,13 @@ export default function ChatWindow({ onClose, sessionId }) {
             newMode = "business_info";
             newMsg = "동경바닥재 위치와 운영시간입니다.\n\n주소: 경기 하남시 서하남로 37\n고객센터: 02-487-9775\n운영시간: 평일 07:00 - 18:00 / 주말 07:00 - 12:00\n\n급한 문의는 전화 상담을 이용하시면 빠릅니다.";
             newOptions = ["처음으로"]; // "전화 상담", "온라인 상담 접수" are already in the footer
-        } else if (action === "온라인 상담 접수") {
+        } else if (action === "온라인 상담 접수" || action === "상담후결정") {
              setShowForm(true);
              return;
+        } else if (["주거공간", "상가/매장", "사무실", "원룸/임대", "아파트", "원룸", "빌라", "상가", "기타", "거실", "방", "전체시공"].includes(action)) {
+            newMode = "ask_area";
+            newMsg = "시공하실 평수 또는 대략적인 면적을 알려주세요.";
+            newOptions = ["상담후결정", "처음으로"];
         } else {
              // Sub-options selected. Echo user message and fall back to handleSendMessage
              handleSendMessage(action);
@@ -98,6 +102,7 @@ export default function ChatWindow({ onClose, sessionId }) {
         
         setMessages(newHistory);
         setInputValue('');
+        setOptions(['처음으로']);
         setIsLoading(true);
         setShowForm(false);
 
@@ -124,6 +129,9 @@ export default function ChatWindow({ onClose, sessionId }) {
             
             setTimeout(() => {
                 setMessages([...newHistory, fallbackMsg]);
+                if (fallbackMsg.options && fallbackMsg.options.length > 0) {
+                    setOptions(fallbackMsg.options);
+                }
                 setIsLoading(false);
             }, 600);
             return;

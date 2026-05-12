@@ -149,10 +149,26 @@ export const sampleBooks = [
         title: "2025 동신 아트하우스",
         brand: "동신",
         category: "데코타일",
-        pdf: "/samplebooks/데코타일/동신/dsarthouse_sample.pdf",
+        pdf: "/samplebooks/데코타일/동신/동신하우스/dsarthouse_sample.pdf",
         cover: "/samplebooks/Thumbnail_image/데코타일/동신/dsarthouse_page1.png",
         description: "동신포리마 주거용 데코타일",
         isRecommended: true
+    },
+    {
+        id: "dongshin-oa-tile-2023",
+        title: "2023 동신 아트 OA타일",
+        brand: "동신",
+        category: "데코타일",
+        pdf: "/samplebooks/데코타일/동신/동신OA타일/동신포리마 2023 아트OA타일 E-Catalog.pdf",
+        description: "동신포리마 OA타일 컬렉션"
+    },
+    {
+        id: "dongshin-art-eco-sound-2024",
+        title: "2024 동신 아트에코차음",
+        brand: "동신",
+        category: "데코타일",
+        pdf: "/samplebooks/데코타일/동신/동신차음바닥재/동신포리마 2024 아트에코차음 E-Catalog.pdf",
+        description: "동신포리마 차음바닥재 컬렉션"
     },
 
     // 녹수
@@ -429,7 +445,7 @@ export const sampleBooks = [
         category: "벽지",
         materialType: "실크",
         pdf: "/samplebooks/벽지/신한/실크/리빙/book.pdf",
-        cover: "/samplebooks/벽지/신한/실크/리빙/리빙썸네일.png",
+        cover: "/samplebooks/Thumbnail_image/벽지/신한/실크/신한벽지_리빙(LIVING)/신한벽지리빙.png",
         description: "신한 리빙 실크 벽지 샘플북"
     },
     {
@@ -439,7 +455,7 @@ export const sampleBooks = [
         category: "벽지",
         materialType: "실크",
         pdf: "/samplebooks/벽지/신한/실크/스케치/book.pdf",
-        cover: "/samplebooks/벽지/신한/실크/스케치/스케치썸네일.png",
+        cover: "/samplebooks/Thumbnail_image/벽지/신한/실크/신한벽지_스케치(SKETCH)/신한벽지스케치.png",
         description: "신한 스케치 실크 벽지 샘플북"
     },
     {
@@ -449,7 +465,7 @@ export const sampleBooks = [
         category: "벽지",
         materialType: "실크",
         pdf: "/samplebooks/벽지/신한/실크/월가드/book.pdf",
-        cover: "/samplebooks/벽지/신한/실크/월가드/월가드썸네일.png",
+        cover: "/samplebooks/Thumbnail_image/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/신한벽지월가드 썸네일.png",
         description: "신한 월가드 실크 벽지 샘플북"
     },
     {
@@ -459,7 +475,7 @@ export const sampleBooks = [
         category: "벽지",
         materialType: "실크",
         pdf: "/samplebooks/벽지/신한/실크/파사드/book.pdf",
-        cover: "/samplebooks/벽지/신한/실크/파사드/파사드썸네일.png",
+        cover: "/samplebooks/Thumbnail_image/벽지/신한/실크/신한벽지_파사드(FACADE)/신한벽지파사드.png",
         description: "신한 파사드 실크 벽지 샘플북"
     },
     // 구정마루
@@ -658,6 +674,7 @@ export const sampleBooks = [
         brand: "스완",
         category: "카페트타일",
         pdf: "/samplebooks/카페트타일/스완카페트타일.pdf",
+        cover: "/samplebooks/Thumbnail_image/카페트타일/스완/0.jpg",
         description: "스완 카페트타일 토탈 컬렉션",
         isRecommended: true
     }

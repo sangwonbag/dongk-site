@@ -3,12 +3,14 @@ import { useParams, useNavigate } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import MainLayout from "../../components/layout/MainLayout";
 import { materials } from "../../data/materials.db";
+import { useEstimateCart } from "../../contexts/EstimateCartContext";
 import { getValidGalleryImages, getDetailImage, getThumbnailImage } from "../../utils/galleryUtils";
 import "./MaterialDetail.css";
 
 export default function MaterialDetail() {
     const { id: rawId } = useParams();
     const navigate = useNavigate();
+    const { addToCart } = useEstimateCart();
 
     // Decode ID to handle encoded chars like %20
     const id = decodeURIComponent(rawId || "");
@@ -97,6 +99,17 @@ export default function MaterialDetail() {
             return;
         }
         alert("장바구니에 담았습니다.");
+    };
+
+    const handleEstimate = () => {
+        if (!isOptionSelected) {
+            alert("옵션을 선택해주세요.");
+            return;
+        }
+        addToCart({
+            ...item,
+            quantity: qty,
+        });
     };
 
     const handleBackInfo = () => {
@@ -252,6 +265,13 @@ export default function MaterialDetail() {
                                 onClick={handleCart}
                             >
                                 장바구니
+                            </button>
+                            <button
+                                className={`btn-buy ${!isOptionSelected ? "disabled" : ""}`}
+                                onClick={handleEstimate}
+                                style={{ backgroundColor: '#28a745', color: '#fff' }}
+                            >
+                                견적요청
                             </button>
                             <button
                                 className={`btn-buy ${!isOptionSelected ? "disabled" : ""}`}

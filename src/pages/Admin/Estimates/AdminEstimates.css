@@ -1,0 +1,141 @@
+.admin-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  border-bottom: 2px solid #111;
+  padding-bottom: 16px;
+}
+
+.admin-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.admin-filters {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+  background: #f9f9f9;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 8px 12px;
+  flex: 1;
+  max-width: 400px;
+}
+
+.filter-group .filter-icon {
+  color: #888;
+}
+
+.filter-group input, .filter-group select {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  font-size: 0.95rem;
+}
+
+.admin-table-wrapper {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.admin-table th {
+  background: #f4f4f4;
+  padding: 14px 16px;
+  text-align: left;
+  font-weight: 600;
+  color: #444;
+  border-bottom: 1px solid #ddd;
+}
+
+.admin-table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #eee;
+  vertical-align: middle;
+}
+
+.admin-table tbody tr:hover {
+  background: #fdfdfd;
+}
+
+.td-no {
+  font-weight: bold;
+  color: #333;
+}
+
+.td-addr {
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-gray {
+  color: #888;
+}
+
+/* Status Badges */
+.status-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.st-new { background: #e3f2fd; color: #1976d2; }
+.st-progress { background: #fff3e0; color: #f57c00; }
+.st-done { background: #e8f5e9; color: #388e3c; }
+.st-hold { background: #f3e5f5; color: #7b1fa2; }
+.st-cancel { background: #ffebee; color: #d32f2f; }
+
+.btn-sm {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  border-radius: 4px;
+}
+.btn-outline {
+  background: transparent;
+  border: 1px solid #111;
+  color: #111;
+  cursor: pointer;
+}
+.btn-outline:hover {
+  background: #111;
+  color: #fff;
+}
+
+.empty-row {
+  text-align: center;
+  padding: 40px !important;
+  color: #888;
+}
+.admin-loading {
+  text-align: center;
+  padding: 60px;
+  color: #666;
+}

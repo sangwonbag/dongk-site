@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { ShoppingCart } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import { useEstimateCart } from '../../contexts/EstimateCartContext';
 import { getThumbnailImage } from '../../utils/galleryUtils';
 import { getComputedBrand } from '../../utils/brandUtils';
 import './MaterialCard.css';
 
 const MaterialCard = ({ material }) => {
     const navigate = useNavigate();
+    const { addToCart } = useEstimateCart();
     const [coverUrl, setCoverUrl] = useState("");
 
     useEffect(() => {
@@ -21,7 +23,10 @@ const MaterialCard = ({ material }) => {
 
     const handleInquiry = (e) => {
         e.stopPropagation();
-        navigate('/inquiry'); // Or open modal
+        addToCart({
+            ...material,
+            quantity: 1, // Default to 1
+        });
     };
 
     const handleGoDetail = (e) => {

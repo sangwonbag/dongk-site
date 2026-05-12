@@ -58,9 +58,8 @@ export default function SampleBooks() {
   /** ✅ 해당 카테고리에 속한 브랜드 목록 (자재 페이지와 동일하게) */
   const brands = useMemo(() => {
     if (activeTab === "recommended") {
-      // 추천 탭인 경우 중복 제거된 전체 브랜드 목록 표시
-      const uniqueBrands = [...new Set(Object.values(CATEGORY_BRAND_MAP).flat())];
-      return ["all", ...uniqueBrands];
+      // 추천 탭인 경우 KCC, 동신, 유성만 표시
+      return ["all", "KCC", "동신", "유성"];
     }
     // 자재 데이터의 브랜드 목록 사용
     let categoryBrands = [...(CATEGORY_BRAND_MAP[activeTab] || [])];
@@ -72,13 +71,13 @@ export default function SampleBooks() {
   const filtered = useMemo(() => {
     return sampleBooks.filter(sb => {
       let categoryOk = false;
+      let sbComputedBrand = getComputedBrand(sb);
       if (activeTab === "recommended") {
-        categoryOk = sb.isRecommended === true;
+        categoryOk = (sbComputedBrand === "KCC" || sbComputedBrand === "동신" || sbComputedBrand === "유성");
       } else {
         categoryOk = sb.category === activeTab;
       }
 
-      let sbComputedBrand = getComputedBrand(sb);
       let brandOk = false;
 
       if (selectedBrand === "all") {

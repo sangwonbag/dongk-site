@@ -81,7 +81,7 @@ export default function Materials() {
 
   /** ✅ 브랜드 목록: 카테고리에 맞춰 가공 (요구사항 반영) */
   const visibleBrands = useMemo(() => {
-    if (activeTab === "recommended") return ["all", "동신", "KCC"];
+    if (activeTab === "recommended") return ["all", "KCC", "동신", "유성"];
     return ["all", ...(CATEGORY_BRAND_MAP[activeTab] || [])];
   }, [activeTab]);
 
@@ -109,7 +109,7 @@ export default function Materials() {
       // 탭(카테고리) 필터
       let tabOk = true;
       if (activeTab === "recommended") {
-        tabOk = (m.brand === "동신" || m.brand === "KCC");
+        tabOk = (m.brand === "KCC" || m.brand === "동신" || m.brand === "유성");
       } else {
         tabOk = (m.category === activeTab);
       }
