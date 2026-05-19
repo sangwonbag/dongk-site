@@ -34070,7 +34070,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b8dee19cb8416b20c95985bee7beadf3.png",
     "images": [
       "b8dee19cb8416b20c95985bee7beadf3.png"
@@ -34090,7 +34090,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "12e531c0f64e2280ff71977682b69264.png",
     "images": [
       "12e531c0f64e2280ff71977682b69264.png"
@@ -34110,7 +34110,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e2dd5406764c47f938eb8acaf9a26ac5.png",
     "images": [
       "e2dd5406764c47f938eb8acaf9a26ac5.png"
@@ -34130,7 +34130,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ba8ecc530d5dec6adf6a52518edd3ee6.png",
     "images": [
       "ba8ecc530d5dec6adf6a52518edd3ee6.png"
@@ -34150,7 +34150,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c6bee9e8ac44f1e07d6cbdb45701e780.png",
     "images": [
       "c6bee9e8ac44f1e07d6cbdb45701e780.png"
@@ -34170,7 +34170,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8a21599ee3d5093f6fa971b52eaf0236.png",
     "images": [
       "8a21599ee3d5093f6fa971b52eaf0236.png"
@@ -34190,7 +34190,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ad8b7e8cef80d763cb5102ec42ba2831.png",
     "images": [
       "ad8b7e8cef80d763cb5102ec42ba2831.png"
@@ -34210,7 +34210,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "30f0da1e7ca13eba8d47bfe2c47233da.png",
     "images": [
       "30f0da1e7ca13eba8d47bfe2c47233da.png"
@@ -34230,7 +34230,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e89db59fdb21422b95ec74a02351cd30.png",
     "images": [
       "e89db59fdb21422b95ec74a02351cd30.png"
@@ -34250,7 +34250,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d1ec120887b4b5ffd222264a18d517b2.png",
     "images": [
       "d1ec120887b4b5ffd222264a18d517b2.png"
@@ -34270,7 +34270,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ec1a2d0b3fc35f9887bb13d25ef9da50.png",
     "images": [
       "ec1a2d0b3fc35f9887bb13d25ef9da50.png"
@@ -34290,7 +34290,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ee06fec8f85347f0a532d5f931b29cf7.png",
     "images": [
       "ee06fec8f85347f0a532d5f931b29cf7.png"
@@ -34310,7 +34310,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ada5264e6da8d0347d2904c6d3001328.png",
     "images": [
       "ada5264e6da8d0347d2904c6d3001328.png"
@@ -34330,7 +34330,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4c9e76e1b6a043a624142ff61799bb99.png",
     "images": [
       "4c9e76e1b6a043a624142ff61799bb99.png"
@@ -34350,7 +34350,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "bd08a1cdbcd429b79178751b407fa6f7.png",
     "images": [
       "bd08a1cdbcd429b79178751b407fa6f7.png"
@@ -34370,7 +34370,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8398eb8fd18471f3361da4a79c9d0e1e.png",
     "images": [
       "8398eb8fd18471f3361da4a79c9d0e1e.png"
@@ -34390,7 +34390,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9ebd9d39fe9ab74d8a974f9801651499.png",
     "images": [
       "9ebd9d39fe9ab74d8a974f9801651499.png"
@@ -34410,7 +34410,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c7389d88b82d762c8d7c71790804fef0.png",
     "images": [
       "c7389d88b82d762c8d7c71790804fef0.png"
@@ -34430,7 +34430,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9643c42fa8f34e1ac06baec24622c227.png",
     "images": [
       "9643c42fa8f34e1ac06baec24622c227.png"
@@ -34450,7 +34450,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d54e364cdb1aa1ef6323543106377b30.png",
     "images": [
       "d54e364cdb1aa1ef6323543106377b30.png"
@@ -34470,7 +34470,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c81a26bf24d9e1e2904c03eb77044922.png",
     "images": [
       "c81a26bf24d9e1e2904c03eb77044922.png"
@@ -34490,7 +34490,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "97a1c870dfa14b19898eb2b224626ab7.png",
     "images": [
       "97a1c870dfa14b19898eb2b224626ab7.png"
@@ -34510,7 +34510,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8c70e1f942631142ccc2a41474028b14.png",
     "images": [
       "8c70e1f942631142ccc2a41474028b14.png"
@@ -34530,7 +34530,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e6af4ee9da9f93239d845c7340571829.png",
     "images": [
       "e6af4ee9da9f93239d845c7340571829.png"
@@ -34550,7 +34550,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c035253c4782e12ab335beb45ff631d9.png",
     "images": [
       "c035253c4782e12ab335beb45ff631d9.png"
@@ -34570,7 +34570,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5579e49436035300167099dde24d07ea.png",
     "images": [
       "5579e49436035300167099dde24d07ea.png"
@@ -34590,7 +34590,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "590415f97607a55d9d0bd677ae239e6b.png",
     "images": [
       "590415f97607a55d9d0bd677ae239e6b.png"
@@ -34610,7 +34610,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c8c1828491e8079d59d97b4efef9c6af.png",
     "images": [
       "c8c1828491e8079d59d97b4efef9c6af.png"
@@ -34630,7 +34630,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "30449a668c244543e618b0fe51777829.png",
     "images": [
       "30449a668c244543e618b0fe51777829.png"
@@ -34650,7 +34650,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b8cdf7c3cd7efa4f5c2816b1d40404fd.png",
     "images": [
       "b8cdf7c3cd7efa4f5c2816b1d40404fd.png"
@@ -34670,7 +34670,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "23f7e51af5a7b727cb1f8b226587b0e1.png",
     "images": [
       "23f7e51af5a7b727cb1f8b226587b0e1.png"
@@ -34690,7 +34690,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "80f40e1897c9ca5436a9a368e7404329.png",
     "images": [
       "80f40e1897c9ca5436a9a368e7404329.png"
@@ -34710,7 +34710,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d2f0355c56f9550d6d104955c92cc7a8.png",
     "images": [
       "d2f0355c56f9550d6d104955c92cc7a8.png"
@@ -34730,7 +34730,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "12d66c070c7b3fa655d7df2adc64e2e6.png",
     "images": [
       "12d66c070c7b3fa655d7df2adc64e2e6.png"
@@ -34750,7 +34750,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a60f4c18265601b885261d14917d2ef4.png",
     "images": [
       "a60f4c18265601b885261d14917d2ef4.png"
@@ -34770,7 +34770,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2f3b9334e9ad2d6ad335b60c9e34025d.png",
     "images": [
       "2f3b9334e9ad2d6ad335b60c9e34025d.png"
@@ -34790,7 +34790,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "64806866564d0e0be27bbb5f428d3c10.png",
     "images": [
       "64806866564d0e0be27bbb5f428d3c10.png"
@@ -34810,7 +34810,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f6b74773b028b7f709ffba7ed0906c1b.png",
     "images": [
       "f6b74773b028b7f709ffba7ed0906c1b.png"
@@ -34830,7 +34830,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "488410725f880c029c711cdc675ec667.png",
     "images": [
       "488410725f880c029c711cdc675ec667.png"
@@ -34850,7 +34850,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "eebedca4500631714ce5a109413ab84b.png",
     "images": [
       "eebedca4500631714ce5a109413ab84b.png"
@@ -34870,7 +34870,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b6fef76607de44cb03393aa17efdad98.png",
     "images": [
       "b6fef76607de44cb03393aa17efdad98.png"
@@ -34890,7 +34890,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4364ba7280348fed5f3d10b3a6e1b284.png",
     "images": [
       "4364ba7280348fed5f3d10b3a6e1b284.png"
@@ -34910,7 +34910,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e8564bb5b757452d1d720479425d597e.png",
     "images": [
       "e8564bb5b757452d1d720479425d597e.png"
@@ -34930,7 +34930,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "da7039aa125611e5e188f347af7ed902.png",
     "images": [
       "da7039aa125611e5e188f347af7ed902.png"
@@ -34950,7 +34950,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "45642efb22e6c2e02a194cac2c161112.png",
     "images": [
       "45642efb22e6c2e02a194cac2c161112.png"
@@ -34970,7 +34970,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ce81787d8af2075b086902a3e6d0cc71.png",
     "images": [
       "ce81787d8af2075b086902a3e6d0cc71.png"
@@ -34990,7 +34990,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "053fdae37c608e67cf8f435b3ee3a300.png",
     "images": [
       "053fdae37c608e67cf8f435b3ee3a300.png"
@@ -35010,7 +35010,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "3f75dc3a39cb08bcf0ab3a33820a246a.png",
     "images": [
       "3f75dc3a39cb08bcf0ab3a33820a246a.png"
@@ -35030,7 +35030,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a4a777dbeefde5de804cb307c0a0658b.png",
     "images": [
       "a4a777dbeefde5de804cb307c0a0658b.png"
@@ -35050,7 +35050,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "07bd115c715f4c85fd1b7ab08a06ca4b.png",
     "images": [
       "07bd115c715f4c85fd1b7ab08a06ca4b.png"
@@ -35070,7 +35070,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ce1f0b4d007d0b77e96f2d431d98d6c5.png",
     "images": [
       "ce1f0b4d007d0b77e96f2d431d98d6c5.png"
@@ -35090,7 +35090,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "1fbbe34351f3651dba5e1a44c8f47871.png",
     "images": [
       "1fbbe34351f3651dba5e1a44c8f47871.png"
@@ -35110,7 +35110,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b8e4337e0dbc2272fed98b7a4688db40.png",
     "images": [
       "b8e4337e0dbc2272fed98b7a4688db40.png"
@@ -35130,7 +35130,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ff70bb134b5b88f06ada67f095b2ea2d.png",
     "images": [
       "ff70bb134b5b88f06ada67f095b2ea2d.png"
@@ -35150,7 +35150,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9d1dd2c46267fa250c4f9665c31b9b1e.png",
     "images": [
       "9d1dd2c46267fa250c4f9665c31b9b1e.png"
@@ -35170,7 +35170,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "21fe2ee73b05666397e202923c3fdbce.png",
     "images": [
       "21fe2ee73b05666397e202923c3fdbce.png"
@@ -35190,7 +35190,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "1f2625176f3f1cda0b0a855bd2e3f215.png",
     "images": [
       "1f2625176f3f1cda0b0a855bd2e3f215.png"
@@ -35210,7 +35210,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "96f5d66400cc5b33e65f9443e3051aab.png",
     "images": [
       "96f5d66400cc5b33e65f9443e3051aab.png"
@@ -35230,7 +35230,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9807c9cd853e90c9eb68c81b5a13e4f9.png",
     "images": [
       "9807c9cd853e90c9eb68c81b5a13e4f9.png"
@@ -35250,7 +35250,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "71283cbed8414ac3837f73811c04828f.png",
     "images": [
       "71283cbed8414ac3837f73811c04828f.png"
@@ -35270,7 +35270,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "3f93e01a482bf7e09d237c5eb31c7a47.png",
     "images": [
       "3f93e01a482bf7e09d237c5eb31c7a47.png"
@@ -35290,7 +35290,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "506c4f81b5765b3f2fcac615454990c5.png",
     "images": [
       "506c4f81b5765b3f2fcac615454990c5.png"
@@ -35310,7 +35310,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "58ce62ca8bc20fd322d6750520c96d83.png",
     "images": [
       "58ce62ca8bc20fd322d6750520c96d83.png"
@@ -35330,7 +35330,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5bda2e0c1a2ebbde60448e1945532557.png",
     "images": [
       "5bda2e0c1a2ebbde60448e1945532557.png"
@@ -35350,7 +35350,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c7c9a9227de94d1f14f3f912f2616b02.png",
     "images": [
       "c7c9a9227de94d1f14f3f912f2616b02.png"
@@ -35370,7 +35370,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5473ab84dcc26aabeb4c626fe5ad15ff.png",
     "images": [
       "5473ab84dcc26aabeb4c626fe5ad15ff.png"
@@ -35390,7 +35390,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8176be57510567fb3aa5587b12ad89ae.png",
     "images": [
       "8176be57510567fb3aa5587b12ad89ae.png"
@@ -35410,7 +35410,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b95ec48daedfc2bf347e2fd1013a5dd1.png",
     "images": [
       "b95ec48daedfc2bf347e2fd1013a5dd1.png"
@@ -35430,7 +35430,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8c934769b18d4f7e7de093d150e3fd16.png",
     "images": [
       "8c934769b18d4f7e7de093d150e3fd16.png"
@@ -35450,7 +35450,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "dc756c643a41f2cd69e8cc0453561f18.png",
     "images": [
       "dc756c643a41f2cd69e8cc0453561f18.png"
@@ -35470,7 +35470,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "fe1ce313c332f8f327deb0a48b63e7df.png",
     "images": [
       "fe1ce313c332f8f327deb0a48b63e7df.png"
@@ -35490,7 +35490,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "bdbc4e72c76f274b9a9c8571b2140c7c.png",
     "images": [
       "bdbc4e72c76f274b9a9c8571b2140c7c.png"
@@ -35510,7 +35510,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "03d1035b007d9287a71b4e447169af4e.png",
     "images": [
       "03d1035b007d9287a71b4e447169af4e.png"
@@ -35530,7 +35530,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "eed462fbb103201ec7297bdc69cf7fb9.png",
     "images": [
       "eed462fbb103201ec7297bdc69cf7fb9.png"
@@ -35550,7 +35550,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "14d5c0f20c5a3d4fbf30e9832058d199.png",
     "images": [
       "14d5c0f20c5a3d4fbf30e9832058d199.png"
@@ -35570,7 +35570,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6ba2531c0c51c9bfe2e6238d7e491d0c.png",
     "images": [
       "6ba2531c0c51c9bfe2e6238d7e491d0c.png"
@@ -35590,7 +35590,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "706bf03f52999b3d72a9ee3664eaca25.png",
     "images": [
       "706bf03f52999b3d72a9ee3664eaca25.png"
@@ -35610,7 +35610,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "19a7af1c4710627da72b9f7e92bda47b.png",
     "images": [
       "19a7af1c4710627da72b9f7e92bda47b.png"
@@ -35630,7 +35630,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5881d432c58a1489c3aa7ba85c48095f.png",
     "images": [
       "5881d432c58a1489c3aa7ba85c48095f.png"
@@ -35650,7 +35650,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "897a0465db97cb475ca9b7cff93ae641.png",
     "images": [
       "897a0465db97cb475ca9b7cff93ae641.png"
@@ -35670,7 +35670,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "36161acf66633e92e233c73cab1bf3ea.png",
     "images": [
       "36161acf66633e92e233c73cab1bf3ea.png"
@@ -35690,7 +35690,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ff7adcf9d1d76db7d534a687e814b217.png",
     "images": [
       "ff7adcf9d1d76db7d534a687e814b217.png"
@@ -35710,7 +35710,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7156a0e783904337c43bfe821993b78f.png",
     "images": [
       "7156a0e783904337c43bfe821993b78f.png"
@@ -35730,7 +35730,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "87aeab0d1c1e57a1bd9659a0a5a73086.png",
     "images": [
       "87aeab0d1c1e57a1bd9659a0a5a73086.png"
@@ -35750,7 +35750,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8d903f15d289b7ede44308df8e9e0465.png",
     "images": [
       "8d903f15d289b7ede44308df8e9e0465.png"
@@ -35770,7 +35770,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "03eabf890d8dd07d654a7b9979a32279.png",
     "images": [
       "03eabf890d8dd07d654a7b9979a32279.png"
@@ -35790,7 +35790,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e5affe8d52ec5dc2774428a09d637055.png",
     "images": [
       "e5affe8d52ec5dc2774428a09d637055.png"
@@ -35810,7 +35810,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4fdcabab18d895956f19f9c1c7ae3ab2.png",
     "images": [
       "4fdcabab18d895956f19f9c1c7ae3ab2.png"
@@ -35830,7 +35830,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "19cce61af485ce0f6552669441142f3e.png",
     "images": [
       "19cce61af485ce0f6552669441142f3e.png"
@@ -35850,7 +35850,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c139fe6f10abc5e3d713e4ef25d63192.png",
     "images": [
       "c139fe6f10abc5e3d713e4ef25d63192.png"
@@ -35870,7 +35870,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "de594a6383c5508ad564a213e682a6d7.png",
     "images": [
       "de594a6383c5508ad564a213e682a6d7.png"
@@ -35890,7 +35890,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ee0b400c4b989ee4b1bd3632bec12d6a.png",
     "images": [
       "ee0b400c4b989ee4b1bd3632bec12d6a.png"
@@ -35910,7 +35910,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "09f00b1ec3189bffd3970906b6200788.png",
     "images": [
       "09f00b1ec3189bffd3970906b6200788.png"
@@ -35930,7 +35930,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e4bc145400a0c52c44dfdd8519a9bff7.png",
     "images": [
       "e4bc145400a0c52c44dfdd8519a9bff7.png"
@@ -35950,7 +35950,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "01c99a59bf6528a529285f5d01ec731f.png",
     "images": [
       "01c99a59bf6528a529285f5d01ec731f.png"
@@ -35970,7 +35970,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "3d7bd43f4daa32a6cbccfe59df23eeb4.png",
     "images": [
       "3d7bd43f4daa32a6cbccfe59df23eeb4.png"
@@ -35990,7 +35990,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9a828f01b7aeb1b0c0dfc6c8966ace71.png",
     "images": [
       "9a828f01b7aeb1b0c0dfc6c8966ace71.png"
@@ -36010,7 +36010,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "52e078a7b07d8ff007b805f84ae0cbcd.png",
     "images": [
       "52e078a7b07d8ff007b805f84ae0cbcd.png"
@@ -36030,7 +36030,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f4a91a3ab91c57c66fe99dd0e7abc856.png",
     "images": [
       "f4a91a3ab91c57c66fe99dd0e7abc856.png"
@@ -36050,7 +36050,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e2f489ca86d2aeec1cb70d03fe097748.png",
     "images": [
       "e2f489ca86d2aeec1cb70d03fe097748.png"
@@ -36070,7 +36070,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ce981d87e3d867e9ad0f679c506a08d3.png",
     "images": [
       "ce981d87e3d867e9ad0f679c506a08d3.png"
@@ -36090,7 +36090,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "fdb78089de007e97d5ab9091a25219c4.png",
     "images": [
       "fdb78089de007e97d5ab9091a25219c4.png"
@@ -36110,7 +36110,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2c8c1d887d38fae7b7e4bc1c14c8230a.png",
     "images": [
       "2c8c1d887d38fae7b7e4bc1c14c8230a.png"
@@ -36130,7 +36130,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5e41761137793c7963c41833a314a7e0.png",
     "images": [
       "5e41761137793c7963c41833a314a7e0.png"
@@ -36150,7 +36150,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d28fba73f99eff5520fe65b3cb59b33c.png",
     "images": [
       "d28fba73f99eff5520fe65b3cb59b33c.png"
@@ -36170,7 +36170,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "76eaaf71ccff39beb3bf071599ab4802.png",
     "images": [
       "76eaaf71ccff39beb3bf071599ab4802.png"
@@ -36190,7 +36190,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "593d058ad5d2f6097a576170654d3362.png",
     "images": [
       "593d058ad5d2f6097a576170654d3362.png"
@@ -36210,7 +36210,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "66608d6aef8a6667d4daed543d055d8d.png",
     "images": [
       "66608d6aef8a6667d4daed543d055d8d.png"
@@ -36230,7 +36230,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "23eb5928d466ad1b30f4addd13e70447.png",
     "images": [
       "23eb5928d466ad1b30f4addd13e70447.png"
@@ -36250,7 +36250,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "63e76750370d6f861f23a1b92bf78b64.png",
     "images": [
       "63e76750370d6f861f23a1b92bf78b64.png"
@@ -36270,7 +36270,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d3e0e5ba2034598679dbb42c26076e17.png",
     "images": [
       "d3e0e5ba2034598679dbb42c26076e17.png"
@@ -36290,7 +36290,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f7d48d89f6899e6f005185d7c9c08876.png",
     "images": [
       "f7d48d89f6899e6f005185d7c9c08876.png"
@@ -36310,7 +36310,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8c745091f80a03bcd55bb509b68ac548.png",
     "images": [
       "8c745091f80a03bcd55bb509b68ac548.png"
@@ -36330,7 +36330,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5271a0beb9b295feff0d8d9a21a21bd2.png",
     "images": [
       "5271a0beb9b295feff0d8d9a21a21bd2.png"
@@ -36350,7 +36350,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "cdba9f58f98044e1cbc7f90173073158.png",
     "images": [
       "cdba9f58f98044e1cbc7f90173073158.png"
@@ -36370,7 +36370,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f7bf8ddc5107d55391dc61ce5a7e0e1c.png",
     "images": [
       "f7bf8ddc5107d55391dc61ce5a7e0e1c.png"
@@ -36390,7 +36390,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d732581b6fe4a71ed163597316aa1899.png",
     "images": [
       "d732581b6fe4a71ed163597316aa1899.png"
@@ -36410,7 +36410,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "86b94d6498a0b67b582ec95f5e6f30c1.png",
     "images": [
       "86b94d6498a0b67b582ec95f5e6f30c1.png"
@@ -36430,7 +36430,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.5",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2e0405466f4e5ee502a5147e48f6df3e.png",
     "images": [
       "2e0405466f4e5ee502a5147e48f6df3e.png"
@@ -36450,7 +36450,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8ef424cbed5a0fe2036205cab627fd8f.png",
     "images": [
       "8ef424cbed5a0fe2036205cab627fd8f.png"
@@ -36470,7 +36470,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "20cb4443be8294e8d116934d22c000e6.png",
     "images": [
       "20cb4443be8294e8d116934d22c000e6.png"
@@ -36490,7 +36490,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "27b8f7316519641845ea36e136661368.png",
     "images": [
       "27b8f7316519641845ea36e136661368.png"
@@ -36510,7 +36510,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d9134176f1d59cffde123cd6efa53266.png",
     "images": [
       "d9134176f1d59cffde123cd6efa53266.png"
@@ -36530,7 +36530,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8a9f8c5daba1178cbf79fc73fa1c0925.png",
     "images": [
       "8a9f8c5daba1178cbf79fc73fa1c0925.png"
@@ -36550,7 +36550,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "fe3c5212a9af1108253d6fa73905085d.png",
     "images": [
       "fe3c5212a9af1108253d6fa73905085d.png"
@@ -36570,7 +36570,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a68a6da7d1dc117fb4ec485f667bdca5.png",
     "images": [
       "a68a6da7d1dc117fb4ec485f667bdca5.png"
@@ -36590,7 +36590,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "400edde022647224f100afd3668b591f.png",
     "images": [
       "400edde022647224f100afd3668b591f.png"
@@ -36610,7 +36610,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "3c0b4834e06c89c8939f38325c0b34ff.png",
     "images": [
       "3c0b4834e06c89c8939f38325c0b34ff.png"
@@ -36630,7 +36630,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c88cda9c3e45850212a0272982f71934.png",
     "images": [
       "c88cda9c3e45850212a0272982f71934.png"
@@ -36650,7 +36650,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c1d4543de2b1751c1db353b7f222cbf1.png",
     "images": [
       "c1d4543de2b1751c1db353b7f222cbf1.png"
@@ -36670,7 +36670,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8802697b26bb5967ffa4e66043d6bc87.png",
     "images": [
       "8802697b26bb5967ffa4e66043d6bc87.png"
@@ -36690,7 +36690,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "357a3adc9d9a4eac4c1720e0a5d161f7.png",
     "images": [
       "357a3adc9d9a4eac4c1720e0a5d161f7.png"
@@ -36710,7 +36710,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "44a13bd0c7a9f702bd56392034ac2e7a.png",
     "images": [
       "44a13bd0c7a9f702bd56392034ac2e7a.png"
@@ -36730,7 +36730,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0a6b2e88358ba86a539ef947a56b94bc.png",
     "images": [
       "0a6b2e88358ba86a539ef947a56b94bc.png"
@@ -36750,7 +36750,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "90c6561e35e31a5e46b297dad0b547c0.png",
     "images": [
       "90c6561e35e31a5e46b297dad0b547c0.png"
@@ -36770,7 +36770,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4883b0d08f39b710774b14c7bc0a1d34.png",
     "images": [
       "4883b0d08f39b710774b14c7bc0a1d34.png"
@@ -36790,7 +36790,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "13bf06ddef184f677aa133a0f8dacb7d.png",
     "images": [
       "13bf06ddef184f677aa133a0f8dacb7d.png"
@@ -36810,7 +36810,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "20d49214851800e339b768f40b497678.png",
     "images": [
       "20d49214851800e339b768f40b497678.png"
@@ -36830,7 +36830,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9ef31fc2368e0127c7451309b21e763f.png",
     "images": [
       "9ef31fc2368e0127c7451309b21e763f.png"
@@ -36850,7 +36850,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8e6ae0abc22f29dafe9aea63f335492d.png",
     "images": [
       "8e6ae0abc22f29dafe9aea63f335492d.png"
@@ -36870,7 +36870,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f56e0cc0b8573f3ed53360c24e9e4e0b.png",
     "images": [
       "f56e0cc0b8573f3ed53360c24e9e4e0b.png"
@@ -36890,7 +36890,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2b62102362efded565373d7b40d49815.png",
     "images": [
       "2b62102362efded565373d7b40d49815.png"
@@ -36910,7 +36910,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5593c0e50bf8521e3d9774a4ddda2963.png",
     "images": [
       "5593c0e50bf8521e3d9774a4ddda2963.png"
@@ -36930,7 +36930,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6cfad96852734b8629fa5310dfda6d30.png",
     "images": [
       "6cfad96852734b8629fa5310dfda6d30.png"
@@ -36950,7 +36950,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "cede90ee81cf485800dc228c35d7cfda.png",
     "images": [
       "cede90ee81cf485800dc228c35d7cfda.png"
@@ -36970,7 +36970,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "378a6c5b291b91e5ce5941bce6493fd3.png",
     "images": [
       "378a6c5b291b91e5ce5941bce6493fd3.png"
@@ -36990,7 +36990,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0e8694e66884e7fd1a95c98f41c23feb.png",
     "images": [
       "0e8694e66884e7fd1a95c98f41c23feb.png"
@@ -37010,7 +37010,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8f27ac513f72b2f1d487fe8a6dde015e.png",
     "images": [
       "8f27ac513f72b2f1d487fe8a6dde015e.png"
@@ -37030,7 +37030,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7b484c701bae3c4d6265fe93aaf642f3.png",
     "images": [
       "7b484c701bae3c4d6265fe93aaf642f3.png"
@@ -37050,7 +37050,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "92bb4fd27d588d4087d77d1356912ae4.png",
     "images": [
       "92bb4fd27d588d4087d77d1356912ae4.png"
@@ -37070,7 +37070,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0332912207158485e4d5781b9586110c.png",
     "images": [
       "0332912207158485e4d5781b9586110c.png"
@@ -37090,7 +37090,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "404e69d25eead12230ca06685ab7cb4f.png",
     "images": [
       "404e69d25eead12230ca06685ab7cb4f.png"
@@ -37110,7 +37110,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2af5c8fe776552b0ebc39703207a28a9.png",
     "images": [
       "2af5c8fe776552b0ebc39703207a28a9.png"
@@ -37130,7 +37130,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e961a63c243958628982a27e2295f203.png",
     "images": [
       "e961a63c243958628982a27e2295f203.png"
@@ -37150,7 +37150,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "06feb6867d262ac5ac427c121ed15ada.png",
     "images": [
       "06feb6867d262ac5ac427c121ed15ada.png"
@@ -37170,7 +37170,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9ff4b7aee8016492b2ab68215fa904bd.png",
     "images": [
       "9ff4b7aee8016492b2ab68215fa904bd.png"
@@ -37190,7 +37190,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0df1b46b94e4ab7f0bbdb289bc7ae921.png",
     "images": [
       "0df1b46b94e4ab7f0bbdb289bc7ae921.png"
@@ -37210,7 +37210,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "361f7d2e8c2714ff5a657a0cb8685cf2.png",
     "images": [
       "361f7d2e8c2714ff5a657a0cb8685cf2.png"
@@ -37230,7 +37230,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "68b9c21c3ce86fafd188e41d24bfcf9e.png",
     "images": [
       "68b9c21c3ce86fafd188e41d24bfcf9e.png"
@@ -37250,7 +37250,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "cf0504693fcaf86a120ac88203355cc2.png",
     "images": [
       "cf0504693fcaf86a120ac88203355cc2.png"
@@ -37270,7 +37270,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "bff940b9dcc6fada94c9255f1af81590.png",
     "images": [
       "bff940b9dcc6fada94c9255f1af81590.png"
@@ -37290,7 +37290,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c4428337f092856488f5ea21c807ef97.png",
     "images": [
       "c4428337f092856488f5ea21c807ef97.png"
@@ -37310,7 +37310,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "3d5d61bb255ae5fd9d7a605a0cb79f68.png",
     "images": [
       "3d5d61bb255ae5fd9d7a605a0cb79f68.png"
@@ -37330,7 +37330,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "07ed06eb335fcf072cb5d7092f54f0c8.png",
     "images": [
       "07ed06eb335fcf072cb5d7092f54f0c8.png"
@@ -37350,7 +37350,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "fef15b5a66165c77af33476f6026de98.png",
     "images": [
       "fef15b5a66165c77af33476f6026de98.png"
@@ -37370,7 +37370,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0ee7fb5b206a5df7bfadc1bbae5b0e84.png",
     "images": [
       "0ee7fb5b206a5df7bfadc1bbae5b0e84.png"
@@ -37390,7 +37390,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0b5918b3cf608950a0cee8b6f62c23af.png",
     "images": [
       "0b5918b3cf608950a0cee8b6f62c23af.png"
@@ -37410,7 +37410,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ce1e57265a8f270b709bb575722f5862.png",
     "images": [
       "ce1e57265a8f270b709bb575722f5862.png"
@@ -37430,7 +37430,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b06d1fda71dd7627c4197b5a7a345934.png",
     "images": [
       "b06d1fda71dd7627c4197b5a7a345934.png"
@@ -37450,7 +37450,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c4d6d3347e264937d4ca90d9c1cebba8.png",
     "images": [
       "c4d6d3347e264937d4ca90d9c1cebba8.png"
@@ -37470,7 +37470,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "555d54993565fe5c57c93fbeadf3b06d.png",
     "images": [
       "555d54993565fe5c57c93fbeadf3b06d.png"
@@ -37490,7 +37490,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ee9f7afc767cdb77a3b5a0b700f0ba26.png",
     "images": [
       "ee9f7afc767cdb77a3b5a0b700f0ba26.png"
@@ -37510,7 +37510,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "29fcaa6778f9d9604800aa2c1910cf10.png",
     "images": [
       "29fcaa6778f9d9604800aa2c1910cf10.png"
@@ -37530,7 +37530,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "1e8f320ab8e566561034df442ec8d05a.png",
     "images": [
       "1e8f320ab8e566561034df442ec8d05a.png"
@@ -37550,7 +37550,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ffe4e2edeb23df691d8189b67607c6a4.png",
     "images": [
       "ffe4e2edeb23df691d8189b67607c6a4.png"
@@ -37570,7 +37570,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7c95c8896b2360995058fbf718410530.png",
     "images": [
       "7c95c8896b2360995058fbf718410530.png"
@@ -37590,7 +37590,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "09b39881a329f6cac9136c8d56ca32fd.png",
     "images": [
       "09b39881a329f6cac9136c8d56ca32fd.png"
@@ -37610,7 +37610,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "409aa1297800b69cd6415a25b315609b.png",
     "images": [
       "409aa1297800b69cd6415a25b315609b.png"
@@ -37630,7 +37630,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b39071e2376b0326e4cef8fcf8503aa9.png",
     "images": [
       "b39071e2376b0326e4cef8fcf8503aa9.png"
@@ -37650,7 +37650,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "da7eca4c821aa3fb0e43501c04344e09.png",
     "images": [
       "da7eca4c821aa3fb0e43501c04344e09.png"
@@ -37670,7 +37670,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6bff5543ce7d7516bc0ea865de32de3f.png",
     "images": [
       "6bff5543ce7d7516bc0ea865de32de3f.png"
@@ -37690,7 +37690,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "48e52f369cc48fd018b40f1f97398890.png",
     "images": [
       "48e52f369cc48fd018b40f1f97398890.png"
@@ -37710,7 +37710,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8cb30ff614b21da93e622963beae8f62.png",
     "images": [
       "8cb30ff614b21da93e622963beae8f62.png"
@@ -37730,7 +37730,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e63baf7bc0540ae452d653e01b6b75a3.png",
     "images": [
       "e63baf7bc0540ae452d653e01b6b75a3.png"
@@ -37750,7 +37750,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e1ade4c61d96428fa447a08e1f07024d.png",
     "images": [
       "e1ade4c61d96428fa447a08e1f07024d.png"
@@ -37770,7 +37770,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a36b80480fed86dabf4960888eeefec2.png",
     "images": [
       "a36b80480fed86dabf4960888eeefec2.png"
@@ -37790,7 +37790,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a2a5572dc0bb652ec03c391064093068.png",
     "images": [
       "a2a5572dc0bb652ec03c391064093068.png"
@@ -37810,7 +37810,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "eb0c3af672c82e7244b453036bda8d63.png",
     "images": [
       "eb0c3af672c82e7244b453036bda8d63.png"
@@ -37830,7 +37830,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f7958cb58ad3f0e707ef1adaaa499b3e.png",
     "images": [
       "f7958cb58ad3f0e707ef1adaaa499b3e.png"
@@ -37850,7 +37850,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f71eb6c490689e329fe60cb983433d73.png",
     "images": [
       "f71eb6c490689e329fe60cb983433d73.png"
@@ -37870,7 +37870,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9b5c65c6d8f44fecf6f08b42d160c35f.png",
     "images": [
       "9b5c65c6d8f44fecf6f08b42d160c35f.png"
@@ -37890,7 +37890,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "3b8546cc7a915e44206f52ed0d864c5d.png",
     "images": [
       "3b8546cc7a915e44206f52ed0d864c5d.png"
@@ -37910,7 +37910,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c7d4ed9ded6b3b1593d8238f85e6e4bc.png",
     "images": [
       "c7d4ed9ded6b3b1593d8238f85e6e4bc.png"
@@ -37930,7 +37930,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "29c77f7fa7ee6f9501843a73750c6661.png",
     "images": [
       "29c77f7fa7ee6f9501843a73750c6661.png"
@@ -37950,7 +37950,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e33b002a22e7a0f084414c5d054954d4.png",
     "images": [
       "e33b002a22e7a0f084414c5d054954d4.png"
@@ -37970,7 +37970,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0adf683ae5d12086c1e712f25b0d78af.png",
     "images": [
       "0adf683ae5d12086c1e712f25b0d78af.png"
@@ -37990,7 +37990,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b010e73ca5eaed4b563710f12735ccb8.png",
     "images": [
       "b010e73ca5eaed4b563710f12735ccb8.png"
@@ -38010,7 +38010,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f18e41637c093fbe7144a200f02f5635.png",
     "images": [
       "f18e41637c093fbe7144a200f02f5635.png"
@@ -38030,7 +38030,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "229898fb66bdbe292656c7deab27f433.png",
     "images": [
       "229898fb66bdbe292656c7deab27f433.png"
@@ -38050,7 +38050,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c27c0603339a1cb913ffa9c5f4d66b51.png",
     "images": [
       "c27c0603339a1cb913ffa9c5f4d66b51.png"
@@ -38070,7 +38070,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "12059a578ed1afd4e816943b5c61dbcb.png",
     "images": [
       "12059a578ed1afd4e816943b5c61dbcb.png"
@@ -38090,7 +38090,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d84e4c764875a2bbb874497d951a5bcf.png",
     "images": [
       "d84e4c764875a2bbb874497d951a5bcf.png"
@@ -38110,7 +38110,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "dd3c06f7c3c697f5aa71868d0583b2f0.png",
     "images": [
       "dd3c06f7c3c697f5aa71868d0583b2f0.png"
@@ -38130,7 +38130,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6b742021999205f4315022cbc9d6c103.png",
     "images": [
       "6b742021999205f4315022cbc9d6c103.png"
@@ -38150,7 +38150,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ac19539233701a1e01a3817bb77f8bf2.png",
     "images": [
       "ac19539233701a1e01a3817bb77f8bf2.png"
@@ -38170,7 +38170,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a7ac22fec1db6e2ec46baa4aaac616da.png",
     "images": [
       "a7ac22fec1db6e2ec46baa4aaac616da.png"
@@ -38190,7 +38190,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8c0c5e8d72b2f881d0382efb3b7ae684.png",
     "images": [
       "8c0c5e8d72b2f881d0382efb3b7ae684.png"
@@ -38210,7 +38210,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f756c09ca5ffb7ea11456ee6f9c6865b.png",
     "images": [
       "f756c09ca5ffb7ea11456ee6f9c6865b.png"
@@ -38230,7 +38230,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6a58142804ed414c6d89de9c74336b7e.png",
     "images": [
       "6a58142804ed414c6d89de9c74336b7e.png"
@@ -38250,7 +38250,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d67b06b9a779bb78f433ac7d7901ae85.png",
     "images": [
       "d67b06b9a779bb78f433ac7d7901ae85.png"
@@ -38270,7 +38270,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e4b10bfeef9cd571db8af2b4212e4755.png",
     "images": [
       "e4b10bfeef9cd571db8af2b4212e4755.png"
@@ -38290,7 +38290,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "42430e8b44bc81b3f3a7136521b762dd.png",
     "images": [
       "42430e8b44bc81b3f3a7136521b762dd.png"
@@ -38310,7 +38310,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9da4b082724875eda8b0d5c5849ba80e.png",
     "images": [
       "9da4b082724875eda8b0d5c5849ba80e.png"
@@ -38330,7 +38330,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d78d95203d52aaf266377c9e6130cb9c.png",
     "images": [
       "d78d95203d52aaf266377c9e6130cb9c.png"
@@ -38350,7 +38350,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "3bd849e19bfd7fb5dc444bc6b9d2285f.png",
     "images": [
       "3bd849e19bfd7fb5dc444bc6b9d2285f.png"
@@ -38370,7 +38370,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d3fbce9322ca7ddb8b0ef7a7d73a4ccd.png",
     "images": [
       "d3fbce9322ca7ddb8b0ef7a7d73a4ccd.png"
@@ -38390,7 +38390,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a7a0946a2445b708d09a9eec129d458a.png",
     "images": [
       "a7a0946a2445b708d09a9eec129d458a.png"
@@ -38410,7 +38410,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "605abd0c2bdfd2e2e383d86160abaad4.png",
     "images": [
       "605abd0c2bdfd2e2e383d86160abaad4.png"
@@ -38430,7 +38430,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "273144b464b6ca9bfd6cc6ef300a5c21.png",
     "images": [
       "273144b464b6ca9bfd6cc6ef300a5c21.png"
@@ -38450,7 +38450,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c9a64a0f105a2f8fda2a78277623a04a.png",
     "images": [
       "c9a64a0f105a2f8fda2a78277623a04a.png"
@@ -38470,7 +38470,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "1dbed1fe16108c4b3ffd7098104e4056.png",
     "images": [
       "1dbed1fe16108c4b3ffd7098104e4056.png"
@@ -38490,7 +38490,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "fb6c61dc390a033944819f8044be5ad7.png",
     "images": [
       "fb6c61dc390a033944819f8044be5ad7.png"
@@ -38510,7 +38510,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e3b00b7b0a5f36ae42f59121c640292b.png",
     "images": [
       "e3b00b7b0a5f36ae42f59121c640292b.png"
@@ -38530,7 +38530,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "541016b18f418ac77ee66e71e7fa919c.png",
     "images": [
       "541016b18f418ac77ee66e71e7fa919c.png"
@@ -38550,7 +38550,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "dc2688fec63a719f713d1a78cc258edf.png",
     "images": [
       "dc2688fec63a719f713d1a78cc258edf.png"
@@ -38570,7 +38570,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "aeb701729f63d3c0583a0320084f73a7.png",
     "images": [
       "aeb701729f63d3c0583a0320084f73a7.png"
@@ -38590,7 +38590,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a09fd0218344f609b0ce54bba8315a2a.png",
     "images": [
       "a09fd0218344f609b0ce54bba8315a2a.png"
@@ -38610,7 +38610,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6112f487007b124b13459e2905b6c35a.png",
     "images": [
       "6112f487007b124b13459e2905b6c35a.png"
@@ -38630,7 +38630,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "44caa84364d981dae257af1833247711.png",
     "images": [
       "44caa84364d981dae257af1833247711.png"
@@ -38650,7 +38650,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "875dd68efd6b79c9ceda1a922863c4f1.png",
     "images": [
       "875dd68efd6b79c9ceda1a922863c4f1.png"
@@ -38670,7 +38670,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0e5dfa5bf3f18197f7c5350887cb89d4.png",
     "images": [
       "0e5dfa5bf3f18197f7c5350887cb89d4.png"
@@ -38690,7 +38690,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "89ec27c9b1779957240a3c30d98656d9.png",
     "images": [
       "89ec27c9b1779957240a3c30d98656d9.png"
@@ -38710,7 +38710,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f2035c28646c14ec08adbb45613e1c73.png",
     "images": [
       "f2035c28646c14ec08adbb45613e1c73.png"
@@ -38730,7 +38730,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b483e4dc984688bde5956eb890044ca3.png",
     "images": [
       "b483e4dc984688bde5956eb890044ca3.png"
@@ -38750,7 +38750,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6a7da1639aee8ccd0036bcbb936ac240.png",
     "images": [
       "6a7da1639aee8ccd0036bcbb936ac240.png"
@@ -38770,7 +38770,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "117d73c88c39504bc7feb10c8d692d9c.png",
     "images": [
       "117d73c88c39504bc7feb10c8d692d9c.png"
@@ -38790,7 +38790,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9a30033b22c800257c12269a3e090af9.png",
     "images": [
       "9a30033b22c800257c12269a3e090af9.png"
@@ -38810,7 +38810,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "27aab5d8cab8551250a7c1fa3726788e.png",
     "images": [
       "27aab5d8cab8551250a7c1fa3726788e.png"
@@ -38830,7 +38830,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5447a5891124f07bc32e17394ed3eb77.png",
     "images": [
       "5447a5891124f07bc32e17394ed3eb77.png"
@@ -38850,7 +38850,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.7",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5bed8c8fcd31ccca0eda5576f59e8aac.png",
     "images": [
       "5bed8c8fcd31ccca0eda5576f59e8aac.png"
@@ -38870,7 +38870,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "8f1bb5068fd4d4bdeb0485cf84093052.png",
     "images": [
       "8f1bb5068fd4d4bdeb0485cf84093052.png"
@@ -38890,7 +38890,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "f58c4012197ac306410a12417c59caa7.png",
     "images": [
       "f58c4012197ac306410a12417c59caa7.png"
@@ -38910,7 +38910,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "78f06ea04930179d5de1260d4f15d597.png",
     "images": [
       "78f06ea04930179d5de1260d4f15d597.png"
@@ -38930,7 +38930,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "f9d402d5bed76c4a791396962cb2a0d3.png",
     "images": [
       "f9d402d5bed76c4a791396962cb2a0d3.png"
@@ -38950,7 +38950,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "b47800f34179ca64fcad4d0a2dd65627.png",
     "images": [
       "b47800f34179ca64fcad4d0a2dd65627.png"
@@ -38970,7 +38970,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "43c4ced08646248b1477948d85367a33.png",
     "images": [
       "43c4ced08646248b1477948d85367a33.png"
@@ -38990,7 +38990,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "11a4b2372d465c140d6e97782a70b77e.png",
     "images": [
       "11a4b2372d465c140d6e97782a70b77e.png"
@@ -39010,7 +39010,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "9083b3a13a43b4431791fd12f6ac0999.png",
     "images": [
       "9083b3a13a43b4431791fd12f6ac0999.png"
@@ -39030,7 +39030,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "550617ba420a096f9e891e863449f759.png",
     "images": [
       "550617ba420a096f9e891e863449f759.png"
@@ -39050,7 +39050,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "8e4bb00bf4430681cc5c9bf5a7066954.png",
     "images": [
       "8e4bb00bf4430681cc5c9bf5a7066954.png"
@@ -39070,7 +39070,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "2c4b315c2b18b4bc9ac1e89b67ba7d9c.png",
     "images": [
       "2c4b315c2b18b4bc9ac1e89b67ba7d9c.png"
@@ -39090,7 +39090,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "60536266a8052aed2d57220a0e4e118a.png",
     "images": [
       "60536266a8052aed2d57220a0e4e118a.png"
@@ -39110,7 +39110,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "763089b6f124838fbd3ad5f4c496bbbd.png",
     "images": [
       "763089b6f124838fbd3ad5f4c496bbbd.png"
@@ -39130,7 +39130,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "db4e13e8e4ec4f32fae2de19f2931733.png",
     "images": [
       "db4e13e8e4ec4f32fae2de19f2931733.png"
@@ -39150,7 +39150,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "130586f77b29e42bda3b4ab770ab74bb.png",
     "images": [
       "130586f77b29e42bda3b4ab770ab74bb.png"
@@ -39170,7 +39170,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "a3f47db88e9bbe795a154afd815d8bdd.png",
     "images": [
       "a3f47db88e9bbe795a154afd815d8bdd.png"
@@ -39190,7 +39190,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "2d9847b0ea3fde7c631e26d22d6f8af2.png",
     "images": [
       "2d9847b0ea3fde7c631e26d22d6f8af2.png"
@@ -39210,7 +39210,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "d33127c7f9c802e83e9d3ce5e5529439.png",
     "images": [
       "d33127c7f9c802e83e9d3ce5e5529439.png"
@@ -39230,7 +39230,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "c83ba14925d2fc4c09754b11930d0789.png",
     "images": [
       "c83ba14925d2fc4c09754b11930d0789.png"
@@ -39250,7 +39250,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "edc9c67137d78398448d4acdb9f2cda9.png",
     "images": [
       "edc9c67137d78398448d4acdb9f2cda9.png"
@@ -39270,7 +39270,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "1217967e86edf8bf017009bdf24216e7.png",
     "images": [
       "1217967e86edf8bf017009bdf24216e7.png"
@@ -39290,7 +39290,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "4708a54d71c0895df434fbd7be6ba5b6.png",
     "images": [
       "4708a54d71c0895df434fbd7be6ba5b6.png"
@@ -39310,7 +39310,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "a7a719f4d430115b6750a3d0cb1af974.png",
     "images": [
       "a7a719f4d430115b6750a3d0cb1af974.png"
@@ -39330,7 +39330,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "b889e747c4875c13a3e9580a54ec62ae.png",
     "images": [
       "b889e747c4875c13a3e9580a54ec62ae.png"
@@ -39350,7 +39350,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "b52457f1e42087d928e18cb2c2194030.png",
     "images": [
       "b52457f1e42087d928e18cb2c2194030.png"
@@ -39370,7 +39370,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "ddf61205170738ae4087e07908f462a3.png",
     "images": [
       "ddf61205170738ae4087e07908f462a3.png"
@@ -39390,7 +39390,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "0f371752cbd1ec56334258425ad0b594.png",
     "images": [
       "0f371752cbd1ec56334258425ad0b594.png"
@@ -39410,7 +39410,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "f31483a42d774c02bc6d057aa94b13d5.png",
     "images": [
       "f31483a42d774c02bc6d057aa94b13d5.png"
@@ -39430,7 +39430,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "7d8e2e64e09d88b9ac3f55ff9016b117.png",
     "images": [
       "7d8e2e64e09d88b9ac3f55ff9016b117.png"
@@ -39450,7 +39450,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "4774c6181e039ef143ac48de12c1110e.png",
     "images": [
       "4774c6181e039ef143ac48de12c1110e.png"
@@ -39470,7 +39470,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "fa4580d207fc39b10d99fa658937f7db.png",
     "images": [
       "fa4580d207fc39b10d99fa658937f7db.png"
@@ -39490,7 +39490,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "73cac592f3b267b6f5008fa7d1608cb6.png",
     "images": [
       "73cac592f3b267b6f5008fa7d1608cb6.png"
@@ -39510,7 +39510,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "a0f4d6004383fee93efd11aae19288db.png",
     "images": [
       "a0f4d6004383fee93efd11aae19288db.png"
@@ -39530,7 +39530,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "18da4a0b556ffb34585b5ab636462636.png",
     "images": [
       "18da4a0b556ffb34585b5ab636462636.png"
@@ -39550,7 +39550,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "7a5db4a45318dbd8166077a8280c1ff3.png",
     "images": [
       "7a5db4a45318dbd8166077a8280c1ff3.png"
@@ -39570,7 +39570,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "afc9002998224c9c8e69081f2f667a89.png",
     "images": [
       "afc9002998224c9c8e69081f2f667a89.png"
@@ -39590,7 +39590,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "3a4763cc188a4b35414a24376d6293ea.png",
     "images": [
       "3a4763cc188a4b35414a24376d6293ea.png"
@@ -39610,7 +39610,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "e3060bd5d2e5169799de64e30c486792.png",
     "images": [
       "e3060bd5d2e5169799de64e30c486792.png"
@@ -39630,7 +39630,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "f22271d88ac1cddb7ec7a8002a2b7f79.png",
     "images": [
       "f22271d88ac1cddb7ec7a8002a2b7f79.png"
@@ -39650,7 +39650,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "7e7448e5595ef7459ba0b2377d157cb2.png",
     "images": [
       "7e7448e5595ef7459ba0b2377d157cb2.png"
@@ -39670,7 +39670,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "4a815bdbd19a6d07483b8a732e620dc7.png",
     "images": [
       "4a815bdbd19a6d07483b8a732e620dc7.png"
@@ -39690,7 +39690,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "db23f97620e7fe6c662bd5a07f450211.png",
     "images": [
       "db23f97620e7fe6c662bd5a07f450211.png"
@@ -39710,7 +39710,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "5e383d2dd5a0b3b7e780909ef18ab163.png",
     "images": [
       "5e383d2dd5a0b3b7e780909ef18ab163.png"
@@ -39730,7 +39730,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "628d2467259c24b81ba4a188e8edb83f.png",
     "images": [
       "628d2467259c24b81ba4a188e8edb83f.png"
@@ -39750,7 +39750,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "0c5b1c85bb96e24d6cb6c8b9bb3ebb02.png",
     "images": [
       "0c5b1c85bb96e24d6cb6c8b9bb3ebb02.png"
@@ -39770,7 +39770,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "179448069db9c12d75c50cb2ca282652.png",
     "images": [
       "179448069db9c12d75c50cb2ca282652.png"
@@ -39790,7 +39790,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "3dc5532cbc16e50a7685ff1a8f30760b.png",
     "images": [
       "3dc5532cbc16e50a7685ff1a8f30760b.png"
@@ -39810,7 +39810,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "26d1ac1e7fc18817633a081b4f5ffc56.png",
     "images": [
       "26d1ac1e7fc18817633a081b4f5ffc56.png"
@@ -39830,7 +39830,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "9525480da277a0e1094bdeb266f7fef0.png",
     "images": [
       "9525480da277a0e1094bdeb266f7fef0.png"
@@ -39850,7 +39850,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "6869286856ea40d78d813944effef933.png",
     "images": [
       "6869286856ea40d78d813944effef933.png"
@@ -39870,7 +39870,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "a1bef97a1f3e913629d86bda846f1d3c.png",
     "images": [
       "a1bef97a1f3e913629d86bda846f1d3c.png"
@@ -39890,7 +39890,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "7490ba4567b55609d870593614534b3a.png",
     "images": [
       "7490ba4567b55609d870593614534b3a.png"
@@ -39910,7 +39910,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "a296321185983db5693a5f1221b270aa.png",
     "images": [
       "a296321185983db5693a5f1221b270aa.png"
@@ -39930,7 +39930,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "7d3c4a6141526be9e903b41734fa3789.png",
     "images": [
       "7d3c4a6141526be9e903b41734fa3789.png"
@@ -39950,7 +39950,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "d6db4b9d57673565334e5fe327d019f7.png",
     "images": [
       "d6db4b9d57673565334e5fe327d019f7.png"
@@ -39970,7 +39970,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "053bdceef5aeddbcc722532700825733.png",
     "images": [
       "053bdceef5aeddbcc722532700825733.png"
@@ -39990,7 +39990,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "ef4ae1e27f23298d53c65205bf67d5d0.png",
     "images": [
       "ef4ae1e27f23298d53c65205bf67d5d0.png"
@@ -40010,7 +40010,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "72ac654d441535ada0eac1e421cbcd66.png",
     "images": [
       "72ac654d441535ada0eac1e421cbcd66.png"
@@ -40030,7 +40030,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "1162ee2634e46cc4a764b2fc97c3f906.png",
     "images": [
       "1162ee2634e46cc4a764b2fc97c3f906.png"
@@ -40050,7 +40050,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "54fd3c7160336b9ab0305f2bcb27979e.png",
     "images": [
       "54fd3c7160336b9ab0305f2bcb27979e.png"
@@ -40070,7 +40070,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "0d9c97989212107fed168e6c28850a64.png",
     "images": [
       "0d9c97989212107fed168e6c28850a64.png"
@@ -40090,7 +40090,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "15852a1abaca2f310016aba53b39eebe.png",
     "images": [
       "15852a1abaca2f310016aba53b39eebe.png"
@@ -40110,7 +40110,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "07ae302a184cd2431dd96ab0313f0683.png",
     "images": [
       "07ae302a184cd2431dd96ab0313f0683.png"
@@ -40130,7 +40130,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "ce9ffa8742c4847a1ebc9ccaee7f4eaf.png",
     "images": [
       "ce9ffa8742c4847a1ebc9ccaee7f4eaf.png"
@@ -40150,7 +40150,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "4e47348c229a5067e26321c5ce364f0c.png",
     "images": [
       "4e47348c229a5067e26321c5ce364f0c.png"
@@ -40170,7 +40170,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "8a514f4df4a993ade535441c3eda038f.png",
     "images": [
       "8a514f4df4a993ade535441c3eda038f.png"
@@ -40190,7 +40190,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "0b8944d6b603d3e9ce1a7277c6819969.png",
     "images": [
       "0b8944d6b603d3e9ce1a7277c6819969.png"
@@ -40210,7 +40210,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "1d8891ce95b46015d10cc5052dc5ae24.png",
     "images": [
       "1d8891ce95b46015d10cc5052dc5ae24.png"
@@ -40230,7 +40230,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "087bc9607761a5c8a4d0659b51e1ff6e.png",
     "images": [
       "087bc9607761a5c8a4d0659b51e1ff6e.png"
@@ -40250,7 +40250,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "8872500e3489f9f6e9a9474d6c97d203.png",
     "images": [
       "8872500e3489f9f6e9a9474d6c97d203.png"
@@ -40270,7 +40270,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "eb16089ba810010434217c782172e804.png",
     "images": [
       "eb16089ba810010434217c782172e804.png"
@@ -40290,7 +40290,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "c3ca8154354ef017031b8d81614b3f40.png",
     "images": [
       "c3ca8154354ef017031b8d81614b3f40.png"
@@ -40310,7 +40310,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "a796ef3cc3ff6cf3a0306db72c002507.png",
     "images": [
       "a796ef3cc3ff6cf3a0306db72c002507.png"
@@ -40330,7 +40330,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "955ac4a1be2df7bab216ab7ecc8cf837.png",
     "images": [
       "955ac4a1be2df7bab216ab7ecc8cf837.png"
@@ -40350,7 +40350,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "d185b296babce6b2a14d9f1e4f2f59ae.png",
     "images": [
       "d185b296babce6b2a14d9f1e4f2f59ae.png"
@@ -40370,7 +40370,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "5777b10d08d324c826008902225cf505.png",
     "images": [
       "5777b10d08d324c826008902225cf505.png"
@@ -40390,7 +40390,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "e0f88b124aaf69a4f6bf3950a2d6e6a0.png",
     "images": [
       "e0f88b124aaf69a4f6bf3950a2d6e6a0.png"
@@ -40410,7 +40410,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "319a259fdec8db07afc9322f1aee6597.png",
     "images": [
       "319a259fdec8db07afc9322f1aee6597.png"
@@ -40430,7 +40430,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "c709b5bb3a8fea11593039a8b4650755.png",
     "images": [
       "c709b5bb3a8fea11593039a8b4650755.png"
@@ -40450,7 +40450,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "5cb68204f9bb44f5a75892845f5c6a64.png",
     "images": [
       "5cb68204f9bb44f5a75892845f5c6a64.png"
@@ -40470,7 +40470,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "10307fba8feba736179be8344ab58955.png",
     "images": [
       "10307fba8feba736179be8344ab58955.png"
@@ -40490,7 +40490,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "e641c853be92876af350046415ba11e7.png",
     "images": [
       "e641c853be92876af350046415ba11e7.png"
@@ -40510,7 +40510,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "cdd70f4495bb62334c4315fd204d9bec.png",
     "images": [
       "cdd70f4495bb62334c4315fd204d9bec.png"
@@ -40530,7 +40530,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "d60227d373b5b84188d2c6a104d8d0bf.png",
     "images": [
       "d60227d373b5b84188d2c6a104d8d0bf.png"
@@ -40550,7 +40550,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "cd0c60b1d77493c98847f0e85261dad1.png",
     "images": [
       "cd0c60b1d77493c98847f0e85261dad1.png"
@@ -40570,7 +40570,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "f4f20952f61192c3d8735c9b938f11a8.png",
     "images": [
       "f4f20952f61192c3d8735c9b938f11a8.png"
@@ -40590,7 +40590,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "9b3582b3a08ef054b19a05fcf5d8f3f1.png",
     "images": [
       "9b3582b3a08ef054b19a05fcf5d8f3f1.png"
@@ -40610,7 +40610,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "b5ce5b3e0e893dcd17bb9477b23e474b.png",
     "images": [
       "b5ce5b3e0e893dcd17bb9477b23e474b.png"
@@ -40630,7 +40630,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "36a0862ec3333fbdf1e1e6ef564f9e67.png",
     "images": [
       "36a0862ec3333fbdf1e1e6ef564f9e67.png"
@@ -40650,7 +40650,7 @@ export const materials = [
     "brand": "디아이디",
     "category": "벽지",
     "line": "실크_NO.9",
-    "price": 0,
+    "price": 62000,
     "thumbnail": "636b1efc2ac3ab3a8886606d1112ed6b.png",
     "images": [
       "636b1efc2ac3ab3a8886606d1112ed6b.png"
@@ -43430,7 +43430,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "e5c848d766c4fede6253319c5734d8a8.jpg",
     "images": [
       "e5c848d766c4fede6253319c5734d8a8.jpg"
@@ -43450,7 +43450,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "a367ee6ca24c33c33c0140e109bb46bb.jpg",
     "images": [
       "a367ee6ca24c33c33c0140e109bb46bb.jpg"
@@ -43470,7 +43470,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "001858a1aae4d46b799491f04fb1288e.jpg",
     "images": [
       "001858a1aae4d46b799491f04fb1288e.jpg"
@@ -43490,7 +43490,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "383fa338eda11e80b0f7d5bfded5d701.jpg",
     "images": [
       "383fa338eda11e80b0f7d5bfded5d701.jpg"
@@ -43510,7 +43510,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "c6d20518e37416ff8bfbc6b8ceb28952.jpg",
     "images": [
       "c6d20518e37416ff8bfbc6b8ceb28952.jpg"
@@ -43530,7 +43530,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "cf358899d6dfe024e5111cbe2972b829.jpg",
     "images": [
       "cf358899d6dfe024e5111cbe2972b829.jpg"
@@ -43550,7 +43550,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "9d69a0980da45e550116ebc243ae577e.jpg",
     "images": [
       "9d69a0980da45e550116ebc243ae577e.jpg"
@@ -43570,7 +43570,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "ddee66a47f53ac4972aef8dcba86b127.jpg",
     "images": [
       "ddee66a47f53ac4972aef8dcba86b127.jpg"
@@ -43590,7 +43590,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "e3a0ee35d81cf73986bfa1dc85394b28.jpg",
     "images": [
       "e3a0ee35d81cf73986bfa1dc85394b28.jpg"
@@ -43610,7 +43610,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "c150ea69f800a689706e51a81590c1ef.jpg",
     "images": [
       "c150ea69f800a689706e51a81590c1ef.jpg"
@@ -43630,7 +43630,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "a05258db57ddf39e94b449569d763c7c.jpg",
     "images": [
       "a05258db57ddf39e94b449569d763c7c.jpg"
@@ -43650,7 +43650,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "5517dedf310778dac47314fc28e23a61.jpg",
     "images": [
       "5517dedf310778dac47314fc28e23a61.jpg"
@@ -43670,7 +43670,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "74d2304aac3be80a3469813d66d712f5.jpg",
     "images": [
       "74d2304aac3be80a3469813d66d712f5.jpg"
@@ -43690,7 +43690,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "d5f9590fff38a923be5105a310a91474.jpg",
     "images": [
       "d5f9590fff38a923be5105a310a91474.jpg"
@@ -43710,7 +43710,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "939ffbd3fe69f6362da93d4b8455198a.jpg",
     "images": [
       "939ffbd3fe69f6362da93d4b8455198a.jpg"
@@ -43730,7 +43730,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "db015bed6d06557f859a6d2d4a0cd286.jpg",
     "images": [
       "db015bed6d06557f859a6d2d4a0cd286.jpg"
@@ -43750,7 +43750,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "532a2b4b9b3773c23e60563bbb79e77d.jpg",
     "images": [
       "532a2b4b9b3773c23e60563bbb79e77d.jpg"
@@ -43770,7 +43770,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "a11677d72dadbfb440ca0b70d5bcb586.jpg",
     "images": [
       "a11677d72dadbfb440ca0b70d5bcb586.jpg"
@@ -43790,7 +43790,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "a7319c681dd82e161e9d9a380c1b8e66.jpg",
     "images": [
       "a7319c681dd82e161e9d9a380c1b8e66.jpg"
@@ -43810,7 +43810,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "457edb4e53c4b5ad477b9c4e35f3d14f.jpg",
     "images": [
       "457edb4e53c4b5ad477b9c4e35f3d14f.jpg"
@@ -43830,7 +43830,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "e3a08ea59907a0d9d12c4a72de2fd26b.jpg",
     "images": [
       "e3a08ea59907a0d9d12c4a72de2fd26b.jpg"
@@ -43850,7 +43850,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "0671bfd78d5874bffc7283fee054c043.jpg",
     "images": [
       "0671bfd78d5874bffc7283fee054c043.jpg"
@@ -43870,7 +43870,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "c4b89d1cf2bae38c8c39b7331fdcc114.jpg",
     "images": [
       "c4b89d1cf2bae38c8c39b7331fdcc114.jpg"
@@ -43890,7 +43890,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "e03b8e76ee914c7802282c463a9c6434.jpg",
     "images": [
       "e03b8e76ee914c7802282c463a9c6434.jpg"
@@ -43910,7 +43910,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "357f8071c692bdbf0bf6391cfd1fbde4.jpg",
     "images": [
       "357f8071c692bdbf0bf6391cfd1fbde4.jpg"
@@ -43930,7 +43930,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "5d92fe85658938079a57272e114aa5e2.jpg",
     "images": [
       "5d92fe85658938079a57272e114aa5e2.jpg"
@@ -43950,7 +43950,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "542a01d3692cc60692127ddd47f07186.jpg",
     "images": [
       "542a01d3692cc60692127ddd47f07186.jpg"
@@ -43970,7 +43970,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "f5d0aa09826a0a4b1096a87205205fe4.jpg",
     "images": [
       "f5d0aa09826a0a4b1096a87205205fe4.jpg"
@@ -43990,7 +43990,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "d04dcbd9c9b2a4f2222ad6ba7c9fc8b1.jpg",
     "images": [
       "d04dcbd9c9b2a4f2222ad6ba7c9fc8b1.jpg"
@@ -44010,7 +44010,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "40f55c268428cdc38ea820c310254b4c.jpg",
     "images": [
       "40f55c268428cdc38ea820c310254b4c.jpg"
@@ -44030,7 +44030,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "e057945b2619d8d82284a81ec8661f56.jpg",
     "images": [
       "e057945b2619d8d82284a81ec8661f56.jpg"
@@ -44050,7 +44050,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "38019076fed19786922fdfb21501ed74.jpg",
     "images": [
       "38019076fed19786922fdfb21501ed74.jpg"
@@ -44070,7 +44070,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "cee26012b1fc706386e068207a723c21.jpg",
     "images": [
       "cee26012b1fc706386e068207a723c21.jpg"
@@ -44090,7 +44090,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "b2d6f9e4b83087cae2fbf5f365012cd9.jpg",
     "images": [
       "b2d6f9e4b83087cae2fbf5f365012cd9.jpg"
@@ -44110,7 +44110,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "db26a6446f73a33987db667cdf5a3def.jpg",
     "images": [
       "db26a6446f73a33987db667cdf5a3def.jpg"
@@ -44130,7 +44130,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "7d8aecaa1fa314d6f1b644c60eba0061.jpg",
     "images": [
       "7d8aecaa1fa314d6f1b644c60eba0061.jpg"
@@ -44150,7 +44150,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "9d3fea15354034a2540215203c7cbb26.jpg",
     "images": [
       "9d3fea15354034a2540215203c7cbb26.jpg"
@@ -44170,7 +44170,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "cd2e0860ec94393cfe371332c729d44c.jpg",
     "images": [
       "cd2e0860ec94393cfe371332c729d44c.jpg"
@@ -44190,7 +44190,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "10013c4d69e0f11f9bb270c2b087f5e5.jpg",
     "images": [
       "10013c4d69e0f11f9bb270c2b087f5e5.jpg"
@@ -44210,7 +44210,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "4540dc6e6145eceba46893ad7a6a5c79.jpg",
     "images": [
       "4540dc6e6145eceba46893ad7a6a5c79.jpg"
@@ -44230,7 +44230,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "bf9ebe9b33ca6dc2a55b229457b88aa1.jpg",
     "images": [
       "bf9ebe9b33ca6dc2a55b229457b88aa1.jpg"
@@ -44250,7 +44250,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "d35291a77ff1ff06023c5864f42b420d.jpg",
     "images": [
       "d35291a77ff1ff06023c5864f42b420d.jpg"
@@ -44270,7 +44270,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "64de6ec5b8c44cfe24550ed65698008d.jpg",
     "images": [
       "64de6ec5b8c44cfe24550ed65698008d.jpg"
@@ -44290,7 +44290,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "50d7431b10a39e02eef8a9c5487001af.jpg",
     "images": [
       "50d7431b10a39e02eef8a9c5487001af.jpg"
@@ -44310,7 +44310,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "4183af78de85b9bdd3eda211c7a0315d.jpg",
     "images": [
       "4183af78de85b9bdd3eda211c7a0315d.jpg"
@@ -44330,7 +44330,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "c24af1af8009bcc07adc022249a67919.jpg",
     "images": [
       "c24af1af8009bcc07adc022249a67919.jpg"
@@ -44350,7 +44350,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "71e9bddb04ee6699ba056e30cec72bc5.jpg",
     "images": [
       "71e9bddb04ee6699ba056e30cec72bc5.jpg"
@@ -44370,7 +44370,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "d9f75544c08f800debc51d4bd031ba71.jpg",
     "images": [
       "d9f75544c08f800debc51d4bd031ba71.jpg"
@@ -44390,7 +44390,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "4c45e206cd273a37210f3713009f4ec2.jpg",
     "images": [
       "4c45e206cd273a37210f3713009f4ec2.jpg"
@@ -44410,7 +44410,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "63e6bc5503691a1456773b44b5dff99a.jpg",
     "images": [
       "63e6bc5503691a1456773b44b5dff99a.jpg"
@@ -44430,7 +44430,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "5077f94ebc741b307b24a7d73af30b56.jpg",
     "images": [
       "5077f94ebc741b307b24a7d73af30b56.jpg"
@@ -44450,7 +44450,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "f878b2756f577e70055bc3352e997ddc.jpg",
     "images": [
       "f878b2756f577e70055bc3352e997ddc.jpg"
@@ -44470,7 +44470,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "e37a62f8929a7073094cf1b7ea752496.jpg",
     "images": [
       "e37a62f8929a7073094cf1b7ea752496.jpg"
@@ -44490,7 +44490,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "3aa2ef078d77707746c1553e1388bc4a.jpg",
     "images": [
       "3aa2ef078d77707746c1553e1388bc4a.jpg"
@@ -44510,7 +44510,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "401c578f24e651d2ca94f821d9f2cf97.jpg",
     "images": [
       "401c578f24e651d2ca94f821d9f2cf97.jpg"
@@ -44530,7 +44530,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "a94d702c2f54dc7f77e58dfee206261c.jpg",
     "images": [
       "a94d702c2f54dc7f77e58dfee206261c.jpg"
@@ -44550,7 +44550,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "0cc69d84c865aff7e2e90603756ed623.jpg",
     "images": [
       "0cc69d84c865aff7e2e90603756ed623.jpg"
@@ -44570,7 +44570,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "dad42cbdaea4e36f42385f25bacf6dba.jpg",
     "images": [
       "dad42cbdaea4e36f42385f25bacf6dba.jpg"
@@ -44590,7 +44590,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "f103af2758f1351b8e52a21c12c2e428.jpg",
     "images": [
       "f103af2758f1351b8e52a21c12c2e428.jpg"
@@ -44610,7 +44610,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "fabc97b7a6d4e71f974e7eaf20bb883d.jpg",
     "images": [
       "fabc97b7a6d4e71f974e7eaf20bb883d.jpg"
@@ -44630,7 +44630,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "30bba0c96faaf5c751ba67b7a95fa271.jpg",
     "images": [
       "30bba0c96faaf5c751ba67b7a95fa271.jpg"
@@ -44650,7 +44650,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "072af260567a6f4ecfb3f81d420a4bda.jpg",
     "images": [
       "072af260567a6f4ecfb3f81d420a4bda.jpg"
@@ -44670,7 +44670,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "a8de5a49ed33899f5e2c4dfe7da8ada3.jpg",
     "images": [
       "a8de5a49ed33899f5e2c4dfe7da8ada3.jpg"
@@ -44690,7 +44690,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "059ee36c8d2f3ff16d0aea0f0398b3da.jpg",
     "images": [
       "059ee36c8d2f3ff16d0aea0f0398b3da.jpg"
@@ -44710,7 +44710,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "fc30e1f536588e6fcb6a77d9bd6154e7.jpg",
     "images": [
       "fc30e1f536588e6fcb6a77d9bd6154e7.jpg"
@@ -44730,7 +44730,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "4dd12e843adb80932f15cabe760686b7.jpg",
     "images": [
       "4dd12e843adb80932f15cabe760686b7.jpg"
@@ -44750,7 +44750,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "459a0e3322cfed38a82097fc11a63d54.jpg",
     "images": [
       "459a0e3322cfed38a82097fc11a63d54.jpg"
@@ -44770,7 +44770,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "a5cc6a2b9edd0f180c863713aab97d7c.jpg",
     "images": [
       "a5cc6a2b9edd0f180c863713aab97d7c.jpg"
@@ -44790,7 +44790,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "9ecd0cc14af457de7380481e6d400791.jpg",
     "images": [
       "9ecd0cc14af457de7380481e6d400791.jpg"
@@ -44810,7 +44810,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "9d0e38908fde160c7b657308da3640ab.jpg",
     "images": [
       "9d0e38908fde160c7b657308da3640ab.jpg"
@@ -44830,7 +44830,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "d5c8a27c4cb76e3458c7c37662920184.jpg",
     "images": [
       "d5c8a27c4cb76e3458c7c37662920184.jpg"
@@ -44850,7 +44850,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "f161901a9861b387baeea767a8a73c5d.jpg",
     "images": [
       "f161901a9861b387baeea767a8a73c5d.jpg"
@@ -44870,7 +44870,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "437e4803d8bdb8fb5b37daa996ee1578.jpg",
     "images": [
       "437e4803d8bdb8fb5b37daa996ee1578.jpg"
@@ -44890,7 +44890,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "8ea92293f0788cc1f301d060a1de93d1.jpg",
     "images": [
       "8ea92293f0788cc1f301d060a1de93d1.jpg"
@@ -44910,7 +44910,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "a2b60d58e78520f3459b297927375f82.jpg",
     "images": [
       "a2b60d58e78520f3459b297927375f82.jpg"
@@ -44930,7 +44930,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "f4c7eb911e63b2e69a44a7e762b493e2.jpg",
     "images": [
       "f4c7eb911e63b2e69a44a7e762b493e2.jpg"
@@ -44950,7 +44950,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "58d90ac2621ffad90722c08d0ec157fb.jpg",
     "images": [
       "58d90ac2621ffad90722c08d0ec157fb.jpg"
@@ -44970,7 +44970,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "74b095833215ccb9acd6747ec5b97ac8.jpg",
     "images": [
       "74b095833215ccb9acd6747ec5b97ac8.jpg"
@@ -44990,7 +44990,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "b84572e50be828478fc5060a6e044112.jpg",
     "images": [
       "b84572e50be828478fc5060a6e044112.jpg"
@@ -45010,7 +45010,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "be96e309fd2ce65899903e3708014420.jpg",
     "images": [
       "be96e309fd2ce65899903e3708014420.jpg"
@@ -45030,7 +45030,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "66ed492c8e59c3974502dbdca69264ab.jpg",
     "images": [
       "66ed492c8e59c3974502dbdca69264ab.jpg"
@@ -45050,7 +45050,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0d5965dbed6435a0cb76c23536cea17d.jpg",
     "images": [
       "0d5965dbed6435a0cb76c23536cea17d.jpg"
@@ -45070,7 +45070,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4294e93438d50c5d8ecab5f602d0f72f.jpg",
     "images": [
       "4294e93438d50c5d8ecab5f602d0f72f.jpg"
@@ -45090,7 +45090,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "40114d545c1b653c8121afc3b1a362ac.jpg",
     "images": [
       "40114d545c1b653c8121afc3b1a362ac.jpg"
@@ -45110,7 +45110,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "36a0b33b5fa6b68fd236cbecec8fbce1.jpg",
     "images": [
       "36a0b33b5fa6b68fd236cbecec8fbce1.jpg"
@@ -45130,7 +45130,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "624366f42ff9cc378f91efc264472896.jpg",
     "images": [
       "624366f42ff9cc378f91efc264472896.jpg"
@@ -45150,7 +45150,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "1c45efe2f91e0e086b01897fc44249fb.jpg",
     "images": [
       "1c45efe2f91e0e086b01897fc44249fb.jpg"
@@ -45170,7 +45170,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "399239da2d7c389296881bd4abaf5f49.jpg",
     "images": [
       "399239da2d7c389296881bd4abaf5f49.jpg"
@@ -45190,7 +45190,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "63289dfe16549ce0a328dbe87d91629c.jpg",
     "images": [
       "63289dfe16549ce0a328dbe87d91629c.jpg"
@@ -45210,7 +45210,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4ead11c7f4d2fef950cb3e0c84bfe380.jpg",
     "images": [
       "4ead11c7f4d2fef950cb3e0c84bfe380.jpg"
@@ -45230,7 +45230,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ecba84b723ac60580a7783a69027022b.jpg",
     "images": [
       "ecba84b723ac60580a7783a69027022b.jpg"
@@ -45250,7 +45250,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8796bebb2ab7713a343d60e6c2f4ec89.jpg",
     "images": [
       "8796bebb2ab7713a343d60e6c2f4ec89.jpg"
@@ -45270,7 +45270,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6176bcc221cfeb3968db85a605b94251.jpg",
     "images": [
       "6176bcc221cfeb3968db85a605b94251.jpg"
@@ -45290,7 +45290,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "06fb8fc21965216ac64f09b3695c516f.jpg",
     "images": [
       "06fb8fc21965216ac64f09b3695c516f.jpg"
@@ -45310,7 +45310,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7456b4e733bf1346d6afc4a30fd22f8f.jpg",
     "images": [
       "7456b4e733bf1346d6afc4a30fd22f8f.jpg"
@@ -45330,7 +45330,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "95a8f10cf106c13a5f9cc90f5d16ab62.jpg",
     "images": [
       "95a8f10cf106c13a5f9cc90f5d16ab62.jpg"
@@ -45350,7 +45350,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2df5dc44d154e159c1f88681958b49c1.jpg",
     "images": [
       "2df5dc44d154e159c1f88681958b49c1.jpg"
@@ -45370,7 +45370,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "cd57767de374ad28b23ae1dfc0839d3f.jpg",
     "images": [
       "cd57767de374ad28b23ae1dfc0839d3f.jpg"
@@ -45390,7 +45390,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "00cb2a731c3190300381aa02e10e74a5.jpg",
     "images": [
       "00cb2a731c3190300381aa02e10e74a5.jpg"
@@ -45410,7 +45410,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8d387839b93376881f18b523ae356c4e.jpg",
     "images": [
       "8d387839b93376881f18b523ae356c4e.jpg"
@@ -45430,7 +45430,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "df3c6eac8a9228e655b0b20f6b009a19.jpg",
     "images": [
       "df3c6eac8a9228e655b0b20f6b009a19.jpg"
@@ -45450,7 +45450,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4b7f84d46ed672de3d3be78c169ab3dc.jpg",
     "images": [
       "4b7f84d46ed672de3d3be78c169ab3dc.jpg"
@@ -45470,7 +45470,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "39d99d031cbb429c22a8212f32b94ea1.jpg",
     "images": [
       "39d99d031cbb429c22a8212f32b94ea1.jpg"
@@ -45490,7 +45490,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f7ad812716adc9e2e89f5fae55f48659.jpg",
     "images": [
       "f7ad812716adc9e2e89f5fae55f48659.jpg"
@@ -45510,7 +45510,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a7b6514a114af244ed7627ae223aba83.jpg",
     "images": [
       "a7b6514a114af244ed7627ae223aba83.jpg"
@@ -45530,7 +45530,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "861e30cf37097c50453182b0a633c92d.jpg",
     "images": [
       "861e30cf37097c50453182b0a633c92d.jpg"
@@ -45550,7 +45550,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "048cf8389cfca79dd97eec2a5d502ae4.jpg",
     "images": [
       "048cf8389cfca79dd97eec2a5d502ae4.jpg"
@@ -45570,7 +45570,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "90081675151f69d9ba703d7640890e4a.jpg",
     "images": [
       "90081675151f69d9ba703d7640890e4a.jpg"
@@ -45590,7 +45590,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "327178697de9eb40af402edff3e6c35a.jpg",
     "images": [
       "327178697de9eb40af402edff3e6c35a.jpg"
@@ -45610,7 +45610,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "69331bfa91eb685ed16226cd13e84612.jpg",
     "images": [
       "69331bfa91eb685ed16226cd13e84612.jpg"
@@ -45630,7 +45630,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "1346e1b6d22f37464947bcbe2057f315.jpg",
     "images": [
       "1346e1b6d22f37464947bcbe2057f315.jpg"
@@ -45650,7 +45650,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "aca4cf05e0dee2649df4db34a5d10763.jpg",
     "images": [
       "aca4cf05e0dee2649df4db34a5d10763.jpg"
@@ -45670,7 +45670,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "1f76baf3069bc8fa4565b1c3ab7bdbba.jpg",
     "images": [
       "1f76baf3069bc8fa4565b1c3ab7bdbba.jpg"
@@ -45690,7 +45690,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "83cdb71e5c286c63997f68dce2ea772c.jpg",
     "images": [
       "83cdb71e5c286c63997f68dce2ea772c.jpg"
@@ -45710,7 +45710,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "68566e47a91eea3fef0ff46a0831cfe7.jpg",
     "images": [
       "68566e47a91eea3fef0ff46a0831cfe7.jpg"
@@ -45730,7 +45730,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9429a64d80c912fef93b907c30c6b75e.jpg",
     "images": [
       "9429a64d80c912fef93b907c30c6b75e.jpg"
@@ -45750,7 +45750,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "90abfd9985b7ef884926bce8a71974a2.jpg",
     "images": [
       "90abfd9985b7ef884926bce8a71974a2.jpg"
@@ -45770,7 +45770,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0c70c7efb2caa3a1b470726db3c2e2f2.jpg",
     "images": [
       "0c70c7efb2caa3a1b470726db3c2e2f2.jpg"
@@ -45790,7 +45790,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "451ab3fadcc2117b9724b705c2ca593f.jpg",
     "images": [
       "451ab3fadcc2117b9724b705c2ca593f.jpg"
@@ -45810,7 +45810,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "be15732c4fee808a4277bff030731f98.jpg",
     "images": [
       "be15732c4fee808a4277bff030731f98.jpg"
@@ -45830,7 +45830,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c322a65bb632f37bab45aa17dd417db9.jpg",
     "images": [
       "c322a65bb632f37bab45aa17dd417db9.jpg"
@@ -45850,7 +45850,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "cc618f0f0f78c64ac399456c9c94509a.jpg",
     "images": [
       "cc618f0f0f78c64ac399456c9c94509a.jpg"
@@ -45870,7 +45870,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "82224513346c70c35fef03270188a33c.jpg",
     "images": [
       "82224513346c70c35fef03270188a33c.jpg"
@@ -45890,7 +45890,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2a7b307ecd803cbeb9dea7b251e9ecee.jpg",
     "images": [
       "2a7b307ecd803cbeb9dea7b251e9ecee.jpg"
@@ -45910,7 +45910,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f5cc9ad9e8866234a5bd031d4bae7feb.jpg",
     "images": [
       "f5cc9ad9e8866234a5bd031d4bae7feb.jpg"
@@ -45930,7 +45930,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ae38aff8812f6807460cd6471b8a5dc4.jpg",
     "images": [
       "ae38aff8812f6807460cd6471b8a5dc4.jpg"
@@ -45950,7 +45950,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8e96ad623cd4324e6c3664f3a968b10c.jpg",
     "images": [
       "8e96ad623cd4324e6c3664f3a968b10c.jpg"
@@ -45970,7 +45970,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "eb2caf1681f41e57175b02fe8e608182.jpg",
     "images": [
       "eb2caf1681f41e57175b02fe8e608182.jpg"
@@ -45990,7 +45990,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c652aa97bbbf03af9c300c86eb4bb4e0.jpg",
     "images": [
       "c652aa97bbbf03af9c300c86eb4bb4e0.jpg"
@@ -46010,7 +46010,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9a533b1d4f2d7a3a15dbfac43b2c1065.jpg",
     "images": [
       "9a533b1d4f2d7a3a15dbfac43b2c1065.jpg"
@@ -46030,7 +46030,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "283794b7ef0ea77dc8fb96c132dd748b.jpg",
     "images": [
       "283794b7ef0ea77dc8fb96c132dd748b.jpg"
@@ -46050,7 +46050,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "65be29fd85820a32c0b8834b43f37429.jpg",
     "images": [
       "65be29fd85820a32c0b8834b43f37429.jpg"
@@ -46070,7 +46070,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "37792cf26e53e4bd11dab1684d654ce5.jpg",
     "images": [
       "37792cf26e53e4bd11dab1684d654ce5.jpg"
@@ -46090,7 +46090,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "dbfda0cd99e6a88a3111d4ada1460530.jpg",
     "images": [
       "dbfda0cd99e6a88a3111d4ada1460530.jpg"
@@ -46110,7 +46110,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "3312157694580331eaa0090b3c2301e4.jpg",
     "images": [
       "3312157694580331eaa0090b3c2301e4.jpg"
@@ -46130,7 +46130,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "cf7d7c755199e6eb772a08f6680282a4.jpg",
     "images": [
       "cf7d7c755199e6eb772a08f6680282a4.jpg"
@@ -46150,7 +46150,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "42223cf0c99b0a562682e3d8eaaca9f7.jpg",
     "images": [
       "42223cf0c99b0a562682e3d8eaaca9f7.jpg"
@@ -46170,7 +46170,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "3b431209db49af2aadd4054c8eff0f6e.jpg",
     "images": [
       "3b431209db49af2aadd4054c8eff0f6e.jpg"
@@ -46190,7 +46190,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8ac6670133a72391cdb04cabf5a653c1.jpg",
     "images": [
       "8ac6670133a72391cdb04cabf5a653c1.jpg"
@@ -46210,7 +46210,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "931979d8ecda13c3662189df4c02e904.jpg",
     "images": [
       "931979d8ecda13c3662189df4c02e904.jpg"
@@ -46230,7 +46230,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7ee33bee1e252397c7e3e0e1d7ca6bd0.jpg",
     "images": [
       "7ee33bee1e252397c7e3e0e1d7ca6bd0.jpg"
@@ -46250,7 +46250,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ae82b5c2b3229a7d9597f72d2161c104.jpg",
     "images": [
       "ae82b5c2b3229a7d9597f72d2161c104.jpg"
@@ -46270,7 +46270,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "3bdbdbdc43a7eb387ea16d987de92e77.jpg",
     "images": [
       "3bdbdbdc43a7eb387ea16d987de92e77.jpg"
@@ -46290,7 +46290,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "1bf382f6e67ed8fedf434f3693dad1af.jpg",
     "images": [
       "1bf382f6e67ed8fedf434f3693dad1af.jpg"
@@ -46310,7 +46310,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a27c69eae21b4d9840ddf00c8a886c99.jpg",
     "images": [
       "a27c69eae21b4d9840ddf00c8a886c99.jpg"
@@ -46330,7 +46330,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7cfd403b0d2cdd0a9c65d3f87e52512d.jpg",
     "images": [
       "7cfd403b0d2cdd0a9c65d3f87e52512d.jpg"
@@ -46350,7 +46350,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "af24e571d3bd1adef229ee3a4c97e5d1.jpg",
     "images": [
       "af24e571d3bd1adef229ee3a4c97e5d1.jpg"
@@ -46370,7 +46370,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b641707a021521f957169b55bee8758b.jpg",
     "images": [
       "b641707a021521f957169b55bee8758b.jpg"
@@ -46390,7 +46390,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5423b7766c901b054640b26bf8821392.jpg",
     "images": [
       "5423b7766c901b054640b26bf8821392.jpg"
@@ -46410,7 +46410,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6a7e105027749976210338e654e1236d.jpg",
     "images": [
       "6a7e105027749976210338e654e1236d.jpg"
@@ -46430,7 +46430,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e20ea1851e715b2a467172be7f5ad6aa.jpg",
     "images": [
       "e20ea1851e715b2a467172be7f5ad6aa.jpg"
@@ -46450,7 +46450,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "18e17ded9801aa1bd35ef3412bc92ef0.jpg",
     "images": [
       "18e17ded9801aa1bd35ef3412bc92ef0.jpg"
@@ -46470,7 +46470,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "74d5c86f720749984c95599c2dbbe9d1.jpg",
     "images": [
       "74d5c86f720749984c95599c2dbbe9d1.jpg"
@@ -46490,7 +46490,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "33d10cd6f9618929eccb8c0f0165748c.jpg",
     "images": [
       "33d10cd6f9618929eccb8c0f0165748c.jpg"
@@ -46510,7 +46510,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "dd3f84d206f7354a933dc172abd7417d.jpg",
     "images": [
       "dd3f84d206f7354a933dc172abd7417d.jpg"
@@ -46530,7 +46530,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b241ec3baa7f6a467f1d58b10325d541.jpg",
     "images": [
       "b241ec3baa7f6a467f1d58b10325d541.jpg"
@@ -46550,7 +46550,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ccee1398d8ac4eab743a1243858fc2ec.jpg",
     "images": [
       "ccee1398d8ac4eab743a1243858fc2ec.jpg"
@@ -46570,7 +46570,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "cd2476a798ddb32f5be7c1ddb206acfb.jpg",
     "images": [
       "cd2476a798ddb32f5be7c1ddb206acfb.jpg"
@@ -46590,7 +46590,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8917706d91733f383d5a217f85d28d75.jpg",
     "images": [
       "8917706d91733f383d5a217f85d28d75.jpg"
@@ -46610,7 +46610,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "73dbdb31bec9d2cb4f778112b9ca6add.jpg",
     "images": [
       "73dbdb31bec9d2cb4f778112b9ca6add.jpg"
@@ -46630,7 +46630,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c6bc155825c06a9fc1914a6bb599a8ad.jpg",
     "images": [
       "c6bc155825c06a9fc1914a6bb599a8ad.jpg"
@@ -46650,7 +46650,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5ac1e560443f083e86731e14fb8cd1da.jpg",
     "images": [
       "5ac1e560443f083e86731e14fb8cd1da.jpg"
@@ -46670,7 +46670,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0ffe008cabf2e632e28e23c1054cd1ac.jpg",
     "images": [
       "0ffe008cabf2e632e28e23c1054cd1ac.jpg"
@@ -46690,7 +46690,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "be49984a0de66a7efcbb21faaa6130d9.jpg",
     "images": [
       "be49984a0de66a7efcbb21faaa6130d9.jpg"
@@ -46710,7 +46710,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "71052c9487c3d1eab44848176a69bbe6.jpg",
     "images": [
       "71052c9487c3d1eab44848176a69bbe6.jpg"
@@ -46730,7 +46730,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f1956f02833d20150664ac3582ecc565.jpg",
     "images": [
       "f1956f02833d20150664ac3582ecc565.jpg"
@@ -46750,7 +46750,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "734a8d5f51213b07e1e5f413e43d4f01.jpg",
     "images": [
       "734a8d5f51213b07e1e5f413e43d4f01.jpg"
@@ -46770,7 +46770,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5066544515797db6bff8902a7af7b80c.jpg",
     "images": [
       "5066544515797db6bff8902a7af7b80c.jpg"
@@ -46790,7 +46790,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5115199a4e1982caa1bf0e438776b207.jpg",
     "images": [
       "5115199a4e1982caa1bf0e438776b207.jpg"
@@ -46810,7 +46810,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9a643744ee36a7eb625183441aa7c4ab.jpg",
     "images": [
       "9a643744ee36a7eb625183441aa7c4ab.jpg"
@@ -46830,7 +46830,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "42059a06d00ec24b4ccbd8e476ed1fcc.jpg",
     "images": [
       "42059a06d00ec24b4ccbd8e476ed1fcc.jpg"
@@ -46850,7 +46850,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "70330a1224d3444aba627e40e704eef2.jpg",
     "images": [
       "70330a1224d3444aba627e40e704eef2.jpg"
@@ -46870,7 +46870,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7d071d8ebc17d76b96a9a6abe2ce1f3c.jpg",
     "images": [
       "7d071d8ebc17d76b96a9a6abe2ce1f3c.jpg"
@@ -46890,7 +46890,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "111b93724f9f9da8a481d3f1e9deabbf.jpg",
     "images": [
       "111b93724f9f9da8a481d3f1e9deabbf.jpg"
@@ -46910,7 +46910,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "dc748384f2a1589b1cb9b92d99eaf627.jpg",
     "images": [
       "dc748384f2a1589b1cb9b92d99eaf627.jpg"
@@ -46930,7 +46930,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4a8ac03c8e13f53b9919514698afa375.jpg",
     "images": [
       "4a8ac03c8e13f53b9919514698afa375.jpg"
@@ -46950,7 +46950,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5b14e1804b73636d07a7ae16413e5756.jpg",
     "images": [
       "5b14e1804b73636d07a7ae16413e5756.jpg"
@@ -46970,7 +46970,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "203e2985c4121cad6d4bd88784dec3f5.jpg",
     "images": [
       "203e2985c4121cad6d4bd88784dec3f5.jpg"
@@ -46990,7 +46990,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a31724d2ff1f58c71e31d69ce8864547.jpg",
     "images": [
       "a31724d2ff1f58c71e31d69ce8864547.jpg"
@@ -47010,7 +47010,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b5f590edcbd730aa1310736f0a30fc97.jpg",
     "images": [
       "b5f590edcbd730aa1310736f0a30fc97.jpg"
@@ -47030,7 +47030,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0d016336bceaf56de6a012a3cfaced58.jpg",
     "images": [
       "0d016336bceaf56de6a012a3cfaced58.jpg"
@@ -47050,7 +47050,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "eb2155caa687cb759023f29b24381bc3.jpg",
     "images": [
       "eb2155caa687cb759023f29b24381bc3.jpg"
@@ -47070,7 +47070,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "89d254b54a37f30b0d8b83a3e06b65a1.jpg",
     "images": [
       "89d254b54a37f30b0d8b83a3e06b65a1.jpg"
@@ -47090,7 +47090,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c0427edbca09115ecaa9051018d78595.jpg",
     "images": [
       "c0427edbca09115ecaa9051018d78595.jpg"
@@ -47110,7 +47110,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a8cf1addf3aa50b18071f5a62e883313.jpg",
     "images": [
       "a8cf1addf3aa50b18071f5a62e883313.jpg"
@@ -47130,7 +47130,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c5379400ff5989bd24e99504175810c0.jpg",
     "images": [
       "c5379400ff5989bd24e99504175810c0.jpg"
@@ -47150,7 +47150,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "779b49e1adb4b719ba06d8b85aa66689.jpg",
     "images": [
       "779b49e1adb4b719ba06d8b85aa66689.jpg"
@@ -47170,7 +47170,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5d5c58c78d28c14e80819121cccebe78.jpg",
     "images": [
       "5d5c58c78d28c14e80819121cccebe78.jpg"
@@ -47190,7 +47190,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2f18bcd07cdcbeb10aafb650d889bff3.jpg",
     "images": [
       "2f18bcd07cdcbeb10aafb650d889bff3.jpg"
@@ -47210,7 +47210,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4247047103176a7a1831151500f5cdaa.jpg",
     "images": [
       "4247047103176a7a1831151500f5cdaa.jpg"
@@ -47230,7 +47230,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "485bdd71bdba9d59a01d6ef399c024eb.jpg",
     "images": [
       "485bdd71bdba9d59a01d6ef399c024eb.jpg"
@@ -47250,7 +47250,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8e50b279cd5ad7195a6203c4b0ccae4f.jpg",
     "images": [
       "8e50b279cd5ad7195a6203c4b0ccae4f.jpg"
@@ -47270,7 +47270,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e20dfdfced6ed732f89a9734e872c492.jpg",
     "images": [
       "e20dfdfced6ed732f89a9734e872c492.jpg"
@@ -47290,7 +47290,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f4954bca829b3549131f4f91d0a5ad16.jpg",
     "images": [
       "f4954bca829b3549131f4f91d0a5ad16.jpg"
@@ -47310,7 +47310,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b7a6f96387412157a69164f3692d36e5.jpg",
     "images": [
       "b7a6f96387412157a69164f3692d36e5.jpg"
@@ -47330,7 +47330,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8865b0888aa6baa977eadd08b272c131.jpg",
     "images": [
       "8865b0888aa6baa977eadd08b272c131.jpg"
@@ -47350,7 +47350,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4f457e18f17d323c858f743d444df2e3.jpg",
     "images": [
       "4f457e18f17d323c858f743d444df2e3.jpg"
@@ -47370,7 +47370,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c899c534a036db43df7f294abfd2a198.jpg",
     "images": [
       "c899c534a036db43df7f294abfd2a198.jpg"
@@ -47390,7 +47390,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8f333b19334bfbf36b963271482c04e3.jpg",
     "images": [
       "8f333b19334bfbf36b963271482c04e3.jpg"
@@ -47410,7 +47410,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ed76ec5374998f47fe00e08acac74f81.jpg",
     "images": [
       "ed76ec5374998f47fe00e08acac74f81.jpg"
@@ -47430,7 +47430,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c10a7d64359f7e99c6952dd9f2f580d7.jpg",
     "images": [
       "c10a7d64359f7e99c6952dd9f2f580d7.jpg"
@@ -47450,7 +47450,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9bfa3a0b0dea0f4dd789e26d080519ae.jpg",
     "images": [
       "9bfa3a0b0dea0f4dd789e26d080519ae.jpg"
@@ -47470,7 +47470,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "62741945c42fa8f96883d0c60b54dbdc.jpg",
     "images": [
       "62741945c42fa8f96883d0c60b54dbdc.jpg"
@@ -47490,7 +47490,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4fa0c1cf1c9bde505ea1126c73f34315.jpg",
     "images": [
       "4fa0c1cf1c9bde505ea1126c73f34315.jpg"
@@ -47510,7 +47510,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a3a798d0315d62446048cd2b2a4084b2.jpg",
     "images": [
       "a3a798d0315d62446048cd2b2a4084b2.jpg"
@@ -47530,7 +47530,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6ff72a6700d4ad0b40f0d5a648ec23ad.jpg",
     "images": [
       "6ff72a6700d4ad0b40f0d5a648ec23ad.jpg"
@@ -47550,7 +47550,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "783f1bf77323a4ab2effd23972dc9654.jpg",
     "images": [
       "783f1bf77323a4ab2effd23972dc9654.jpg"
@@ -47570,7 +47570,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "99463ab66cf7698e1df44a3722917936.jpg",
     "images": [
       "99463ab66cf7698e1df44a3722917936.jpg"
@@ -47590,7 +47590,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e4fd827ce4074912cd3636b54eef8b8b.jpg",
     "images": [
       "e4fd827ce4074912cd3636b54eef8b8b.jpg"
@@ -47610,7 +47610,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "de3b8fe6d213a7a80845de87de13dcc5.jpg",
     "images": [
       "de3b8fe6d213a7a80845de87de13dcc5.jpg"
@@ -47630,7 +47630,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8a2004702a9eb7fb0efa8f2292d76839.jpg",
     "images": [
       "8a2004702a9eb7fb0efa8f2292d76839.jpg"
@@ -47650,7 +47650,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7939b273d5f2bd6cfca56bec7ac1e2b7.jpg",
     "images": [
       "7939b273d5f2bd6cfca56bec7ac1e2b7.jpg"
@@ -47670,7 +47670,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8818c615e3618586461c0b3ad6e45d61.jpg",
     "images": [
       "8818c615e3618586461c0b3ad6e45d61.jpg"
@@ -47690,7 +47690,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "31aed38c52349f2872c2a9706c41c287.jpg",
     "images": [
       "31aed38c52349f2872c2a9706c41c287.jpg"
@@ -47710,7 +47710,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0925205660b2337dac43bcaddf637e09.jpg",
     "images": [
       "0925205660b2337dac43bcaddf637e09.jpg"
@@ -47730,7 +47730,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "eea62d317695f28106154151019b03f0.jpg",
     "images": [
       "eea62d317695f28106154151019b03f0.jpg"
@@ -47750,7 +47750,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7424f9f452541df339e59eb9e9274437.jpg",
     "images": [
       "7424f9f452541df339e59eb9e9274437.jpg"
@@ -47770,7 +47770,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "75aff3129335986c6c711fa6ac38ba3c.jpg",
     "images": [
       "75aff3129335986c6c711fa6ac38ba3c.jpg"
@@ -47790,7 +47790,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "70af83bbf129de2ecda2994385987f30.jpg",
     "images": [
       "70af83bbf129de2ecda2994385987f30.jpg"
@@ -47810,7 +47810,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "cd1aefa8be60ba648f4dacfaba626675.jpg",
     "images": [
       "cd1aefa8be60ba648f4dacfaba626675.jpg"
@@ -47830,7 +47830,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "48a933c61a174aeda5405e9897786f3a.jpg",
     "images": [
       "48a933c61a174aeda5405e9897786f3a.jpg"
@@ -47850,7 +47850,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "302e03d9332bc63056854404ddcecbb9.jpg",
     "images": [
       "302e03d9332bc63056854404ddcecbb9.jpg"
@@ -47870,7 +47870,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2fdcb8a295ad0171065a446b00607dc1.jpg",
     "images": [
       "2fdcb8a295ad0171065a446b00607dc1.jpg"
@@ -47890,7 +47890,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ee9ded961d997e46c09f1286f4a4c098.jpg",
     "images": [
       "ee9ded961d997e46c09f1286f4a4c098.jpg"
@@ -47910,7 +47910,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "cfd79779863082686153a9924f017d2e.jpg",
     "images": [
       "cfd79779863082686153a9924f017d2e.jpg"
@@ -47930,7 +47930,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "719dafed6233170618b0d160ee936acd.jpg",
     "images": [
       "719dafed6233170618b0d160ee936acd.jpg"
@@ -47950,7 +47950,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7c983c7fe6f30e8d1492edf2f34b3ce1.jpg",
     "images": [
       "7c983c7fe6f30e8d1492edf2f34b3ce1.jpg"
@@ -47970,7 +47970,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2de14f9325ea00c05e74b897d7f05c57.jpg",
     "images": [
       "2de14f9325ea00c05e74b897d7f05c57.jpg"
@@ -47990,7 +47990,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5aebdcbdcb8750e673e904c9ac58d751.jpg",
     "images": [
       "5aebdcbdcb8750e673e904c9ac58d751.jpg"
@@ -48010,7 +48010,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b4cc5141cb9ccf68cb684b65a5f8deaa.jpg",
     "images": [
       "b4cc5141cb9ccf68cb684b65a5f8deaa.jpg"
@@ -48030,7 +48030,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "47a2f3c8d3d0550f25b8734461367ace.jpg",
     "images": [
       "47a2f3c8d3d0550f25b8734461367ace.jpg"
@@ -48050,7 +48050,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c1fe83af496940b991428f97d49c94e4.jpg",
     "images": [
       "c1fe83af496940b991428f97d49c94e4.jpg"
@@ -48070,7 +48070,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6a7ed53af815a0a0b87a539013680ca3.jpg",
     "images": [
       "6a7ed53af815a0a0b87a539013680ca3.jpg"
@@ -48090,7 +48090,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a5766fe0b355b2644f0e8085bd7ae0c7.jpg",
     "images": [
       "a5766fe0b355b2644f0e8085bd7ae0c7.jpg"
@@ -48110,7 +48110,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "546437b6eea5497235c77a321dbbc433.jpg",
     "images": [
       "546437b6eea5497235c77a321dbbc433.jpg"
@@ -48130,7 +48130,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "1744dd326f135fbebb5706d5443d2a32.jpg",
     "images": [
       "1744dd326f135fbebb5706d5443d2a32.jpg"
@@ -48150,7 +48150,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d3f694d96bd14379f1194f43589f9f69.jpg",
     "images": [
       "d3f694d96bd14379f1194f43589f9f69.jpg"
@@ -48170,7 +48170,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "1e203a284e559d8b8e6c9801e67aa038.jpg",
     "images": [
       "1e203a284e559d8b8e6c9801e67aa038.jpg"
@@ -48190,7 +48190,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9da1c2340b4a18f93baba36310ab2f7b.jpg",
     "images": [
       "9da1c2340b4a18f93baba36310ab2f7b.jpg"
@@ -48210,7 +48210,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d851f44bd67f119c6e0755bcace62750.jpg",
     "images": [
       "d851f44bd67f119c6e0755bcace62750.jpg"
@@ -48230,7 +48230,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "3873298332618d6507e802b13a064a3d.jpg",
     "images": [
       "3873298332618d6507e802b13a064a3d.jpg"
@@ -48250,7 +48250,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7ca3cf65b0162890e1beb514c4ca2140.jpg",
     "images": [
       "7ca3cf65b0162890e1beb514c4ca2140.jpg"
@@ -48270,7 +48270,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "55fc8e2a3ee4031586de892892d2afbb.jpg",
     "images": [
       "55fc8e2a3ee4031586de892892d2afbb.jpg"
@@ -48290,7 +48290,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "56e6bb124373b0d44f47e151a9ce7886.jpg",
     "images": [
       "56e6bb124373b0d44f47e151a9ce7886.jpg"
@@ -48310,7 +48310,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b443b6f7b9626c7bb2357bab1a71a4ca.jpg",
     "images": [
       "b443b6f7b9626c7bb2357bab1a71a4ca.jpg"
@@ -48330,7 +48330,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6144099abba9f13e99fc323b9a825a1e.jpg",
     "images": [
       "6144099abba9f13e99fc323b9a825a1e.jpg"
@@ -48350,7 +48350,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "18191a3dc70ecb01cf3b38b3e09a2e96.jpg",
     "images": [
       "18191a3dc70ecb01cf3b38b3e09a2e96.jpg"
@@ -48370,7 +48370,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6f0521ee28aaf1d65f9beec8ef3c009c.jpg",
     "images": [
       "6f0521ee28aaf1d65f9beec8ef3c009c.jpg"
@@ -48390,7 +48390,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a9c768b355d5d580e689f6ab701fa58e.jpg",
     "images": [
       "a9c768b355d5d580e689f6ab701fa58e.jpg"
@@ -48410,7 +48410,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "af550dfe30d888889fe042571f640f17.jpg",
     "images": [
       "af550dfe30d888889fe042571f640f17.jpg"
@@ -48430,7 +48430,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "bb94b08b696126d9728e0695c766c34c.jpg",
     "images": [
       "bb94b08b696126d9728e0695c766c34c.jpg"
@@ -48450,7 +48450,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c103dbf5555fd5b2c8bd81dfe0f12a99.jpg",
     "images": [
       "c103dbf5555fd5b2c8bd81dfe0f12a99.jpg"
@@ -48470,7 +48470,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "08108c8f2f706cdddb4d5542a6ba30f9.jpg",
     "images": [
       "08108c8f2f706cdddb4d5542a6ba30f9.jpg"
@@ -48490,7 +48490,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "36dd9ce89078c3683d6ee179f574ab80.jpg",
     "images": [
       "36dd9ce89078c3683d6ee179f574ab80.jpg"
@@ -48510,7 +48510,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4c394b4f8aba4574065c145668119154.jpg",
     "images": [
       "4c394b4f8aba4574065c145668119154.jpg"
@@ -48530,7 +48530,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "36971c1f4e300b91bf0cbfcf7926facb.jpg",
     "images": [
       "36971c1f4e300b91bf0cbfcf7926facb.jpg"
@@ -48550,7 +48550,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f79491e77dfc6cc54c0636aaadb2d193.jpg",
     "images": [
       "f79491e77dfc6cc54c0636aaadb2d193.jpg"
@@ -48570,7 +48570,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "657e44c2c93d2d218b2d09bf202dbc9e.jpg",
     "images": [
       "657e44c2c93d2d218b2d09bf202dbc9e.jpg"
@@ -48590,7 +48590,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b90953cb0b97d9b8587a16cc90e2eb89.jpg",
     "images": [
       "b90953cb0b97d9b8587a16cc90e2eb89.jpg"
@@ -48610,7 +48610,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "931fe259ba169ad27bd14a4b3ec5e85a.jpg",
     "images": [
       "931fe259ba169ad27bd14a4b3ec5e85a.jpg"
@@ -48630,7 +48630,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "00fc2e16ea120443b851713621443ccf.jpg",
     "images": [
       "00fc2e16ea120443b851713621443ccf.jpg"
@@ -48650,7 +48650,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8544feef38dec8c9580cfa2cdb0305d5.jpg",
     "images": [
       "8544feef38dec8c9580cfa2cdb0305d5.jpg"
@@ -48670,7 +48670,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a850430bf018fc55f673ba525e3f8ed9.jpg",
     "images": [
       "a850430bf018fc55f673ba525e3f8ed9.jpg"
@@ -48690,7 +48690,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c5912d230af75502a6a118ea4d10269e.jpg",
     "images": [
       "c5912d230af75502a6a118ea4d10269e.jpg"
@@ -48710,7 +48710,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "085a8c8c8cd1d292a5166353d1eebb10.jpg",
     "images": [
       "085a8c8c8cd1d292a5166353d1eebb10.jpg"
@@ -48730,7 +48730,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "eb06e342ce14e554daf739fce289bd7e.jpg",
     "images": [
       "eb06e342ce14e554daf739fce289bd7e.jpg"
@@ -48750,7 +48750,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "43d883dbc0e7229462ae67d04b2a4c90.jpg",
     "images": [
       "43d883dbc0e7229462ae67d04b2a4c90.jpg"
@@ -48770,7 +48770,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8b5623d9f42828bcb043fa52f427c8c6.jpg",
     "images": [
       "8b5623d9f42828bcb043fa52f427c8c6.jpg"
@@ -48790,7 +48790,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "14f8055c9a12ed64c96ae686d456666a.jpg",
     "images": [
       "14f8055c9a12ed64c96ae686d456666a.jpg"
@@ -48810,7 +48810,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f4e16a5c28b2361894820a8023627b83.jpg",
     "images": [
       "f4e16a5c28b2361894820a8023627b83.jpg"
@@ -48830,7 +48830,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a0fe9cf3474fe648555b1d2b68b66a3b.jpg",
     "images": [
       "a0fe9cf3474fe648555b1d2b68b66a3b.jpg"
@@ -48850,7 +48850,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2d173df32a6b9afbe5c37decc71db19b.jpg",
     "images": [
       "2d173df32a6b9afbe5c37decc71db19b.jpg"
@@ -48870,7 +48870,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "438baf9ee51533234ed96d0398d21c09.jpg",
     "images": [
       "438baf9ee51533234ed96d0398d21c09.jpg"
@@ -48890,7 +48890,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2a3e78448fe8463197aca4c40c3de9ac.jpg",
     "images": [
       "2a3e78448fe8463197aca4c40c3de9ac.jpg"
@@ -48910,7 +48910,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "906a0e397256f0419bf57b17c9d4d5fd.jpg",
     "images": [
       "906a0e397256f0419bf57b17c9d4d5fd.jpg"
@@ -48930,7 +48930,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "dcae551a6ab06502384e3e70787cb834.jpg",
     "images": [
       "dcae551a6ab06502384e3e70787cb834.jpg"
@@ -48950,7 +48950,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ef3791a018671f0487d47e145d043594.jpg",
     "images": [
       "ef3791a018671f0487d47e145d043594.jpg"
@@ -48970,7 +48970,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "61b1cae9d68420e0aa209ce8ad82d7a9.jpg",
     "images": [
       "61b1cae9d68420e0aa209ce8ad82d7a9.jpg"
@@ -48990,7 +48990,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6fc00a5d1d1b0cb8817286a708144a71.jpg",
     "images": [
       "6fc00a5d1d1b0cb8817286a708144a71.jpg"
@@ -49010,7 +49010,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f9a873d836355f2372556881537763f4.jpg",
     "images": [
       "f9a873d836355f2372556881537763f4.jpg"
@@ -49030,7 +49030,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "1d56d7d7ddde09ccc829bbf18f4cc27d.jpg",
     "images": [
       "1d56d7d7ddde09ccc829bbf18f4cc27d.jpg"
@@ -49050,7 +49050,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2670c72a6dc5b6096b1767b49269b109.jpg",
     "images": [
       "2670c72a6dc5b6096b1767b49269b109.jpg"
@@ -49070,7 +49070,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5b98e8df006e8d759452e72f34a9ad91.jpg",
     "images": [
       "5b98e8df006e8d759452e72f34a9ad91.jpg"
@@ -49090,7 +49090,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4c58950e87bf1b8f6ef008f38fe7960d.jpg",
     "images": [
       "4c58950e87bf1b8f6ef008f38fe7960d.jpg"
@@ -49110,7 +49110,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4998f54d706fd6c607a52a063bb9b850.jpg",
     "images": [
       "4998f54d706fd6c607a52a063bb9b850.jpg"
@@ -49130,7 +49130,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "00cb4ff1ac113696c8698023e4e4eee2.jpg",
     "images": [
       "00cb4ff1ac113696c8698023e4e4eee2.jpg"
@@ -49150,7 +49150,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8fa35e909bb8534080681aad1c401e03.jpg",
     "images": [
       "8fa35e909bb8534080681aad1c401e03.jpg"
@@ -49170,7 +49170,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4d97766f6ce4d2ba09500b2ac4b9a507.jpg",
     "images": [
       "4d97766f6ce4d2ba09500b2ac4b9a507.jpg"
@@ -49190,7 +49190,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "cf06e5ed6ab8044b0bb11043c9568c0b.jpg",
     "images": [
       "cf06e5ed6ab8044b0bb11043c9568c0b.jpg"
@@ -49210,7 +49210,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "25851c0152aa1cea76e26ad8746ad4a6.jpg",
     "images": [
       "25851c0152aa1cea76e26ad8746ad4a6.jpg"
@@ -49230,7 +49230,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6ea06de8f8a2a1a0d0ec94027da3447a.jpg",
     "images": [
       "6ea06de8f8a2a1a0d0ec94027da3447a.jpg"
@@ -49250,7 +49250,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "63bee96727a2a29d76bbcd97475d4187.jpg",
     "images": [
       "63bee96727a2a29d76bbcd97475d4187.jpg"
@@ -49270,7 +49270,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "10d8b796312818ca81c9d3708a4e4aec.jpg",
     "images": [
       "10d8b796312818ca81c9d3708a4e4aec.jpg"
@@ -49290,7 +49290,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "aaec2408a1ee82b862537ec429e2a064.jpg",
     "images": [
       "aaec2408a1ee82b862537ec429e2a064.jpg"
@@ -49310,7 +49310,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "02969cbb15cbc52816151bdeb5d7f88e.jpg",
     "images": [
       "02969cbb15cbc52816151bdeb5d7f88e.jpg"
@@ -49330,7 +49330,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "21f97b656643765b3d8e496e9907bd76.jpg",
     "images": [
       "21f97b656643765b3d8e496e9907bd76.jpg"
@@ -49350,7 +49350,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c1c3b69e5cb5be0dce3cb9b445eb6218.jpg",
     "images": [
       "c1c3b69e5cb5be0dce3cb9b445eb6218.jpg"
@@ -49370,7 +49370,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "64e71e481dfcd460e0d475506960ac65.jpg",
     "images": [
       "64e71e481dfcd460e0d475506960ac65.jpg"
@@ -49390,7 +49390,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c65dec12779cdb8a9ea01ce04c5798b1.jpg",
     "images": [
       "c65dec12779cdb8a9ea01ce04c5798b1.jpg"
@@ -49410,7 +49410,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "06b94415a16f8c98b0e7cdf3090ef241.jpg",
     "images": [
       "06b94415a16f8c98b0e7cdf3090ef241.jpg"
@@ -49430,7 +49430,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "cb833c734bcc1021c6e7975b9139db1a.jpg",
     "images": [
       "cb833c734bcc1021c6e7975b9139db1a.jpg"
@@ -49450,7 +49450,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "77bdd0668c22d688b5bc16cc15641690.jpg",
     "images": [
       "77bdd0668c22d688b5bc16cc15641690.jpg"
@@ -49470,7 +49470,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f014bc5dc67e4b055e6d0d2c9cfe8360.jpg",
     "images": [
       "f014bc5dc67e4b055e6d0d2c9cfe8360.jpg"
@@ -49490,7 +49490,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7fa0e3a99bf9f0a406881f79123ad230.jpg",
     "images": [
       "7fa0e3a99bf9f0a406881f79123ad230.jpg"
@@ -49510,7 +49510,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c09ae6c08eb5e6574da9481b3aec9ced.jpg",
     "images": [
       "c09ae6c08eb5e6574da9481b3aec9ced.jpg"
@@ -49530,7 +49530,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "da7a17d0ade55bf28b49245999cd6ead.jpg",
     "images": [
       "da7a17d0ade55bf28b49245999cd6ead.jpg"
@@ -49550,7 +49550,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "3aeabd1f025d627945373975ea62724b.jpg",
     "images": [
       "3aeabd1f025d627945373975ea62724b.jpg"
@@ -49570,7 +49570,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "59a6aa7b3d81213b9de3be166c87fe8c.jpg",
     "images": [
       "59a6aa7b3d81213b9de3be166c87fe8c.jpg"
@@ -49590,7 +49590,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "17d9aceebb5e7ad0a832e42122a784d7.jpg",
     "images": [
       "17d9aceebb5e7ad0a832e42122a784d7.jpg"
@@ -49610,7 +49610,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "01389662a196c1c7039d7a0b95b136e6.jpg",
     "images": [
       "01389662a196c1c7039d7a0b95b136e6.jpg"
@@ -49630,7 +49630,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "51a3a4950fe50d9408738e74ddcda49e.jpg",
     "images": [
       "51a3a4950fe50d9408738e74ddcda49e.jpg"
@@ -49650,7 +49650,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "238bcf1eff2a09149f0bbd50bb3c573b.jpg",
     "images": [
       "238bcf1eff2a09149f0bbd50bb3c573b.jpg"
@@ -49670,7 +49670,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b9bd54865b5e40ea3850e3a21161f176.jpg",
     "images": [
       "b9bd54865b5e40ea3850e3a21161f176.jpg"
@@ -49690,7 +49690,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "288fc2957c26810326ada8a770919bd2.jpg",
     "images": [
       "288fc2957c26810326ada8a770919bd2.jpg"
@@ -49710,7 +49710,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0fd095914d1538a51c48c87cacc1b7a9.jpg",
     "images": [
       "0fd095914d1538a51c48c87cacc1b7a9.jpg"
@@ -49730,7 +49730,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "388cb767cb0ee3c7c5d34d95035cb502.jpg",
     "images": [
       "388cb767cb0ee3c7c5d34d95035cb502.jpg"
@@ -49750,7 +49750,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "88a0ee9b4449b38f1cfdc793e2f887c2.jpg",
     "images": [
       "88a0ee9b4449b38f1cfdc793e2f887c2.jpg"
@@ -49770,7 +49770,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "424ea503dbc1c49a3005462614403e31.jpg",
     "images": [
       "424ea503dbc1c49a3005462614403e31.jpg"
@@ -49790,7 +49790,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5705f62bfdc1b3e7ae28d916dc5a03a3.jpg",
     "images": [
       "5705f62bfdc1b3e7ae28d916dc5a03a3.jpg"
@@ -49810,7 +49810,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "cf1c40777fc7c7d64928935a647050e4.jpg",
     "images": [
       "cf1c40777fc7c7d64928935a647050e4.jpg"
@@ -49830,7 +49830,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "01a194056e227ffee59d8f623726ea38.jpg",
     "images": [
       "01a194056e227ffee59d8f623726ea38.jpg"
@@ -49850,7 +49850,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "43d0f0a41ae3d47de0088b10d14c5aaa.jpg",
     "images": [
       "43d0f0a41ae3d47de0088b10d14c5aaa.jpg"
@@ -49870,7 +49870,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ebc9638bd7c337d44929c106a619cd80.jpg",
     "images": [
       "ebc9638bd7c337d44929c106a619cd80.jpg"
@@ -49890,7 +49890,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "실크",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "995328a95482923921b744bc8cd798e7.jpg",
     "images": [
       "995328a95482923921b744bc8cd798e7.jpg"
@@ -49910,7 +49910,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9d24b897517bd6362c4d251fb49a754e.jpg",
     "images": [
       "9d24b897517bd6362c4d251fb49a754e.jpg"
@@ -49930,7 +49930,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8f46b660214e0bba326edd0de60ed4cb.jpg",
     "images": [
       "8f46b660214e0bba326edd0de60ed4cb.jpg"
@@ -49950,7 +49950,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0decf0a83e232409515dddf628de68be.jpg",
     "images": [
       "0decf0a83e232409515dddf628de68be.jpg"
@@ -49970,7 +49970,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b945de874241225c2012d6c78adf274f.jpg",
     "images": [
       "b945de874241225c2012d6c78adf274f.jpg"
@@ -49990,7 +49990,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "3b271e1045f318645ddae7af0d5a1fca.jpg",
     "images": [
       "3b271e1045f318645ddae7af0d5a1fca.jpg"
@@ -50010,7 +50010,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "335c452760f7ed85dbf200daaf0052e0.jpg",
     "images": [
       "335c452760f7ed85dbf200daaf0052e0.jpg"
@@ -50030,7 +50030,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "bbc689db7712b1835ba70eed538d546b.jpg",
     "images": [
       "bbc689db7712b1835ba70eed538d546b.jpg"
@@ -50050,7 +50050,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6c0881b153c0441ef8d8caf95ea50be6.jpg",
     "images": [
       "6c0881b153c0441ef8d8caf95ea50be6.jpg"
@@ -50070,7 +50070,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b38e6bdebdf403bd9347a59949de586d.jpg",
     "images": [
       "b38e6bdebdf403bd9347a59949de586d.jpg"
@@ -50090,7 +50090,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e5f3bad22aed5cf4dd3a12d73f069f76.jpg",
     "images": [
       "e5f3bad22aed5cf4dd3a12d73f069f76.jpg"
@@ -50110,7 +50110,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "1010d2e537cc5b6f4266f70974099934.jpg",
     "images": [
       "1010d2e537cc5b6f4266f70974099934.jpg"
@@ -50130,7 +50130,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4677a816a569683f822e662db8671147.jpg",
     "images": [
       "4677a816a569683f822e662db8671147.jpg"
@@ -50150,7 +50150,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "1ad6537f62bf508ac27a1daad4155fb6.jpg",
     "images": [
       "1ad6537f62bf508ac27a1daad4155fb6.jpg"
@@ -50170,7 +50170,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8cf1b7061f78dcc6df76e246fb1f5307.jpg",
     "images": [
       "8cf1b7061f78dcc6df76e246fb1f5307.jpg"
@@ -50190,7 +50190,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5b30f7184a48d7ea41870bbffa4270c9.jpg",
     "images": [
       "5b30f7184a48d7ea41870bbffa4270c9.jpg"
@@ -50210,7 +50210,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "202342fd70a02999480ee34580318b5b.jpg",
     "images": [
       "202342fd70a02999480ee34580318b5b.jpg"
@@ -50230,7 +50230,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "bbca36a0c584e625d68187dbe88cb41f.jpg",
     "images": [
       "bbca36a0c584e625d68187dbe88cb41f.jpg"
@@ -50250,7 +50250,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "dfb101687a2b43b20d7241bab74ef6ba.jpg",
     "images": [
       "dfb101687a2b43b20d7241bab74ef6ba.jpg"
@@ -50270,7 +50270,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "344a577798c2db823354cb3c5bcb3ca7.jpg",
     "images": [
       "344a577798c2db823354cb3c5bcb3ca7.jpg"
@@ -50290,7 +50290,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "3c4a4ee4b188883e66100360fbae7859.jpg",
     "images": [
       "3c4a4ee4b188883e66100360fbae7859.jpg"
@@ -50310,7 +50310,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2e627b37a7cf65c9f35f993aeb5b29f5.jpg",
     "images": [
       "2e627b37a7cf65c9f35f993aeb5b29f5.jpg"
@@ -50330,7 +50330,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "432f4e0be5dff2ca4e39dd0fe796d5fd.jpg",
     "images": [
       "432f4e0be5dff2ca4e39dd0fe796d5fd.jpg"
@@ -50350,7 +50350,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "98559f526ee229da1587e7dd9ebcb718.jpg",
     "images": [
       "98559f526ee229da1587e7dd9ebcb718.jpg"
@@ -50370,7 +50370,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "1821de5e8ea0b52ca766f41c0d6c9a6d.jpg",
     "images": [
       "1821de5e8ea0b52ca766f41c0d6c9a6d.jpg"
@@ -50390,7 +50390,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "58f6fb9913246cf6678aa5dc43186739.jpg",
     "images": [
       "58f6fb9913246cf6678aa5dc43186739.jpg"
@@ -50410,7 +50410,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0a58e134c52715f66f928a64cfc096b0.jpg",
     "images": [
       "0a58e134c52715f66f928a64cfc096b0.jpg"
@@ -50430,7 +50430,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "44ff28e1904bc7fa7637d4054b80b40a.jpg",
     "images": [
       "44ff28e1904bc7fa7637d4054b80b40a.jpg"
@@ -50450,7 +50450,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ed4ec4540e41cc203406624423669179.jpg",
     "images": [
       "ed4ec4540e41cc203406624423669179.jpg"
@@ -50470,7 +50470,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7c378b1efb0b562d916ac583cbe43bd5.jpg",
     "images": [
       "7c378b1efb0b562d916ac583cbe43bd5.jpg"
@@ -50490,7 +50490,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "91f0357bdc8bc743961224abbd65fc09.jpg",
     "images": [
       "91f0357bdc8bc743961224abbd65fc09.jpg"
@@ -50510,7 +50510,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0dac8b2aa32bcfcb91c4f49387b26a75.jpg",
     "images": [
       "0dac8b2aa32bcfcb91c4f49387b26a75.jpg"
@@ -50530,7 +50530,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d7eb8d27175e08cdbf6be40e2be95374.jpg",
     "images": [
       "d7eb8d27175e08cdbf6be40e2be95374.jpg"
@@ -50550,7 +50550,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "868595eb3861e7dcbef71bd264cdc6f0.jpg",
     "images": [
       "868595eb3861e7dcbef71bd264cdc6f0.jpg"
@@ -50570,7 +50570,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "218a92883ed95f7602571ac951c32dd2.jpg",
     "images": [
       "218a92883ed95f7602571ac951c32dd2.jpg"
@@ -50590,7 +50590,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "06d306338ef2e05324ae84808c65936b.jpg",
     "images": [
       "06d306338ef2e05324ae84808c65936b.jpg"
@@ -50610,7 +50610,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "cec5924398311178a45f21c4fc2de51a.jpg",
     "images": [
       "cec5924398311178a45f21c4fc2de51a.jpg"
@@ -50630,7 +50630,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "bb6c9352eb4031b13680d45564e61cde.jpg",
     "images": [
       "bb6c9352eb4031b13680d45564e61cde.jpg"
@@ -50650,7 +50650,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "fcc7ec53e807e767b2735b6f78e7e4d5.jpg",
     "images": [
       "fcc7ec53e807e767b2735b6f78e7e4d5.jpg"
@@ -50670,7 +50670,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "fa61d5c24b70fa717cbb4384690ee38f.jpg",
     "images": [
       "fa61d5c24b70fa717cbb4384690ee38f.jpg"
@@ -50690,7 +50690,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f7d7a2c05ddbb7c6a0e353d450c653b1.jpg",
     "images": [
       "f7d7a2c05ddbb7c6a0e353d450c653b1.jpg"
@@ -50710,7 +50710,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5c9b75a31ec751343ffdbd05dc0e8449.jpg",
     "images": [
       "5c9b75a31ec751343ffdbd05dc0e8449.jpg"
@@ -50730,7 +50730,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0b7b1e5658025860417f01ae712c7e4a.jpg",
     "images": [
       "0b7b1e5658025860417f01ae712c7e4a.jpg"
@@ -50750,7 +50750,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9a623d32cec3b637031d5e226584905b.jpg",
     "images": [
       "9a623d32cec3b637031d5e226584905b.jpg"
@@ -50770,7 +50770,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "246e85c159487179b15ff4e019371436.jpg",
     "images": [
       "246e85c159487179b15ff4e019371436.jpg"
@@ -50790,7 +50790,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a5292ea06051b62a95782e6d4670fec6.jpg",
     "images": [
       "a5292ea06051b62a95782e6d4670fec6.jpg"
@@ -50810,7 +50810,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "fd84225aece2c3f1f3210b974dae27c3.jpg",
     "images": [
       "fd84225aece2c3f1f3210b974dae27c3.jpg"
@@ -50830,7 +50830,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c24f45b9c5685a1d96c36261424d5b1d.jpg",
     "images": [
       "c24f45b9c5685a1d96c36261424d5b1d.jpg"
@@ -50850,7 +50850,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "91cfb9d9d9e4ebc7130abde9076b7e52.jpg",
     "images": [
       "91cfb9d9d9e4ebc7130abde9076b7e52.jpg"
@@ -50870,7 +50870,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "540462fbf36486f251b73b7d1241843e.jpg",
     "images": [
       "540462fbf36486f251b73b7d1241843e.jpg"
@@ -50890,7 +50890,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2d04f11aafd973d7f24c5d1cce556c80.jpg",
     "images": [
       "2d04f11aafd973d7f24c5d1cce556c80.jpg"
@@ -50910,7 +50910,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0efca577fde4f5b6f5ae9c7498e51b86.jpg",
     "images": [
       "0efca577fde4f5b6f5ae9c7498e51b86.jpg"
@@ -50930,7 +50930,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ce188cfddae8d418983cfe2ae8fb7da8.jpg",
     "images": [
       "ce188cfddae8d418983cfe2ae8fb7da8.jpg"
@@ -50950,7 +50950,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6a6c56c4d8c172644759e76e20bb0b47.jpg",
     "images": [
       "6a6c56c4d8c172644759e76e20bb0b47.jpg"
@@ -50970,7 +50970,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d3f7387b2de76b0c198a785b1c3e89a5.jpg",
     "images": [
       "d3f7387b2de76b0c198a785b1c3e89a5.jpg"
@@ -50990,7 +50990,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6e3e5546b65a446218dedcec4f8c8141.jpg",
     "images": [
       "6e3e5546b65a446218dedcec4f8c8141.jpg"
@@ -51010,7 +51010,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e7770a329d6f8dd9374a79425333b8b5.jpg",
     "images": [
       "e7770a329d6f8dd9374a79425333b8b5.jpg"
@@ -51030,7 +51030,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0368c6e7404e529324d3a4f75ce7ad02.jpg",
     "images": [
       "0368c6e7404e529324d3a4f75ce7ad02.jpg"
@@ -51050,7 +51050,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8779827522f920e9e6d182158d111d94.jpg",
     "images": [
       "8779827522f920e9e6d182158d111d94.jpg"
@@ -51070,7 +51070,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9d9317f8724c72ed3db64f458688a6e3.jpg",
     "images": [
       "9d9317f8724c72ed3db64f458688a6e3.jpg"
@@ -51090,7 +51090,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "614a00fd814590de4588477ab37a5109.jpg",
     "images": [
       "614a00fd814590de4588477ab37a5109.jpg"
@@ -51110,7 +51110,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "44ba6a84bd87d956169412a4bdcae41b.jpg",
     "images": [
       "44ba6a84bd87d956169412a4bdcae41b.jpg"
@@ -51130,7 +51130,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "84dd983eb743ea863855f7b7570ec733.jpg",
     "images": [
       "84dd983eb743ea863855f7b7570ec733.jpg"
@@ -51150,7 +51150,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "프리미엄",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "1d9393a0464d0b33d23991bebe9d83d9.jpg",
     "images": [
       "1d9393a0464d0b33d23991bebe9d83d9.jpg"
@@ -51170,7 +51170,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "654f18b886ab56469ed7f4765f85635c.jpg",
     "images": [
       "654f18b886ab56469ed7f4765f85635c.jpg"
@@ -51190,7 +51190,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "e8922b2db23289a4384c400e29ab5020.jpg",
     "images": [
       "e8922b2db23289a4384c400e29ab5020.jpg"
@@ -51210,7 +51210,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "e55800f03878babe942f30c1682c307f.jpg",
     "images": [
       "e55800f03878babe942f30c1682c307f.jpg"
@@ -51230,7 +51230,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "91d4d5a8b9ce4683513c019dcf6b7593.jpg",
     "images": [
       "91d4d5a8b9ce4683513c019dcf6b7593.jpg"
@@ -51250,7 +51250,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "62ecc4d859fc5d4d7d4192d3eb9d2695.jpg",
     "images": [
       "62ecc4d859fc5d4d7d4192d3eb9d2695.jpg"
@@ -51270,7 +51270,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "23e174b47c277651b209bb82b8723d00.jpg",
     "images": [
       "23e174b47c277651b209bb82b8723d00.jpg"
@@ -51290,7 +51290,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "ae3b6f641f287f3b0e88b5f7bf88afdd.jpg",
     "images": [
       "ae3b6f641f287f3b0e88b5f7bf88afdd.jpg"
@@ -51310,7 +51310,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "e8103f42d0c4d352c24a4127e6b4553a.jpg",
     "images": [
       "e8103f42d0c4d352c24a4127e6b4553a.jpg"
@@ -51330,7 +51330,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "27265af3fcabb39044cebea06d5aeb9c.jpg",
     "images": [
       "27265af3fcabb39044cebea06d5aeb9c.jpg"
@@ -51350,7 +51350,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "8e70a7c6e466cde4fc322822583e99fc.jpg",
     "images": [
       "8e70a7c6e466cde4fc322822583e99fc.jpg"
@@ -51370,7 +51370,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "9b395414af1779dc9c55058ca9f72aa5.jpg",
     "images": [
       "9b395414af1779dc9c55058ca9f72aa5.jpg"
@@ -51390,7 +51390,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "b196db0e098ec6ad53ec55b81f01c9be.jpg",
     "images": [
       "b196db0e098ec6ad53ec55b81f01c9be.jpg"
@@ -51410,7 +51410,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "c236d8054e4a8ef2f2d3903b4de7eed1.jpg",
     "images": [
       "c236d8054e4a8ef2f2d3903b4de7eed1.jpg"
@@ -51430,7 +51430,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "7f5e663b6f9f789acb6bcdad5ae1fc08.jpg",
     "images": [
       "7f5e663b6f9f789acb6bcdad5ae1fc08.jpg"
@@ -51450,7 +51450,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "3859948cb8bf838d2a07e41725bd55aa.jpg",
     "images": [
       "3859948cb8bf838d2a07e41725bd55aa.jpg"
@@ -51470,7 +51470,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "3825fa6f6704cad4e7834dd0ca9764e1.jpg",
     "images": [
       "3825fa6f6704cad4e7834dd0ca9764e1.jpg"
@@ -51490,7 +51490,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "b48cf80865e683803d5964ef7bf374fa.jpg",
     "images": [
       "b48cf80865e683803d5964ef7bf374fa.jpg"
@@ -51510,7 +51510,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "ee34dfb60418695dfe7f8c5fe1ea5483.jpg",
     "images": [
       "ee34dfb60418695dfe7f8c5fe1ea5483.jpg"
@@ -51530,7 +51530,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "f326e7744150b2f2e18de94fec97bbca.jpg",
     "images": [
       "f326e7744150b2f2e18de94fec97bbca.jpg"
@@ -51550,7 +51550,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "4ac8b733051aa24ed7f462bc6d1e166f.jpg",
     "images": [
       "4ac8b733051aa24ed7f462bc6d1e166f.jpg"
@@ -51570,7 +51570,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "80d021023cb193d2a34e23e484e8b5a1.jpg",
     "images": [
       "80d021023cb193d2a34e23e484e8b5a1.jpg"
@@ -51590,7 +51590,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "87ee9e9d810b994c553ac837b1910e55.jpg",
     "images": [
       "87ee9e9d810b994c553ac837b1910e55.jpg"
@@ -51610,7 +51610,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "5592987c74f5b9c201b58b1302cd7a6c.jpg",
     "images": [
       "5592987c74f5b9c201b58b1302cd7a6c.jpg"
@@ -51630,7 +51630,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "814c9bb3f550dd22c46101ab79f91742.jpg",
     "images": [
       "814c9bb3f550dd22c46101ab79f91742.jpg"
@@ -51650,7 +51650,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "7283e10d4e53475b6480b04aa81b605e.jpg",
     "images": [
       "7283e10d4e53475b6480b04aa81b605e.jpg"
@@ -51670,7 +51670,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "29fe9eb2e45c3479511bec8593ebe233.jpg",
     "images": [
       "29fe9eb2e45c3479511bec8593ebe233.jpg"
@@ -51690,7 +51690,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "e7b213183c616bf6ae456bb3013aa26c.jpg",
     "images": [
       "e7b213183c616bf6ae456bb3013aa26c.jpg"
@@ -51710,7 +51710,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "6484b339c3dbfd8dd7c814d2443e5fd7.jpg",
     "images": [
       "6484b339c3dbfd8dd7c814d2443e5fd7.jpg"
@@ -51730,7 +51730,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "606875f75d05437ddb0f229acef107ac.jpg",
     "images": [
       "606875f75d05437ddb0f229acef107ac.jpg"
@@ -51750,7 +51750,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "7b7909225d031d45bfa5809ec81150bc.jpg",
     "images": [
       "7b7909225d031d45bfa5809ec81150bc.jpg"
@@ -51770,7 +51770,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "37da23a1d2790a5039ef40532fa19d0c.jpg",
     "images": [
       "37da23a1d2790a5039ef40532fa19d0c.jpg"
@@ -51790,7 +51790,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "3fa6b1b2242cfe2528b7ab20003584b3.jpg",
     "images": [
       "3fa6b1b2242cfe2528b7ab20003584b3.jpg"
@@ -51810,7 +51810,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "067b6d6250bfcadf69566260afd02494.jpg",
     "images": [
       "067b6d6250bfcadf69566260afd02494.jpg"
@@ -51830,7 +51830,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "54bb1d4ec13732f6bfde60e7a38dc66f.jpg",
     "images": [
       "54bb1d4ec13732f6bfde60e7a38dc66f.jpg"
@@ -51850,7 +51850,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "ee41e7d27c6675b1185cc9de0934c0c9.jpg",
     "images": [
       "ee41e7d27c6675b1185cc9de0934c0c9.jpg"
@@ -51870,7 +51870,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "af8e19c09303e0f947cbc688dd05fa0d.jpg",
     "images": [
       "af8e19c09303e0f947cbc688dd05fa0d.jpg"
@@ -51890,7 +51890,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "8c0f44d476c614ca9f4676667d3a905e.jpg",
     "images": [
       "8c0f44d476c614ca9f4676667d3a905e.jpg"
@@ -51910,7 +51910,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "5aa222ef89fa74e6bdf304547fed1ec1.jpg",
     "images": [
       "5aa222ef89fa74e6bdf304547fed1ec1.jpg"
@@ -51930,7 +51930,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "241706675496f29074955aac6c7b9897.jpg",
     "images": [
       "241706675496f29074955aac6c7b9897.jpg"
@@ -51950,7 +51950,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "6eceb26753bd3998c0411ccac7ea1d4f.jpg",
     "images": [
       "6eceb26753bd3998c0411ccac7ea1d4f.jpg"
@@ -51970,7 +51970,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "2d78ea795cbb5f9e708dad88a4570bd3.jpg",
     "images": [
       "2d78ea795cbb5f9e708dad88a4570bd3.jpg"
@@ -51990,7 +51990,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "6e33715c68f4f6973ff9c5818d52a415.jpg",
     "images": [
       "6e33715c68f4f6973ff9c5818d52a415.jpg"
@@ -52010,7 +52010,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "5e4f52fb74b1c197b335cc0956037d00.jpg",
     "images": [
       "5e4f52fb74b1c197b335cc0956037d00.jpg"
@@ -52030,7 +52030,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "d7cc44bb60ae0c02e0340035b12438f8.jpg",
     "images": [
       "d7cc44bb60ae0c02e0340035b12438f8.jpg"
@@ -52050,7 +52050,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "1fe8da585b2b1126c3054e28b8df8aba.jpg",
     "images": [
       "1fe8da585b2b1126c3054e28b8df8aba.jpg"
@@ -52070,7 +52070,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "4540389d15389913f36e700d88785af4.jpg",
     "images": [
       "4540389d15389913f36e700d88785af4.jpg"
@@ -52090,7 +52090,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "70ee579aca0bb56022bdd67881ae49a8.jpg",
     "images": [
       "70ee579aca0bb56022bdd67881ae49a8.jpg"
@@ -52110,7 +52110,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "62cc8e206a2659075825176075ea594d.jpg",
     "images": [
       "62cc8e206a2659075825176075ea594d.jpg"
@@ -52130,7 +52130,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "665a740b03d208ce84959a2749cf1196.jpg",
     "images": [
       "665a740b03d208ce84959a2749cf1196.jpg"
@@ -52150,7 +52150,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "1dc40a02aec4a802f2244a8ec431737f.jpg",
     "images": [
       "1dc40a02aec4a802f2244a8ec431737f.jpg"
@@ -52170,7 +52170,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "53e2a1dd5c3f4eac6bbe639b58b21287.jpg",
     "images": [
       "53e2a1dd5c3f4eac6bbe639b58b21287.jpg"
@@ -52190,7 +52190,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "e36e9371768feab353de28788603d97d.jpg",
     "images": [
       "e36e9371768feab353de28788603d97d.jpg"
@@ -52210,7 +52210,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "e314e449517c3e09c846bd3d2c4997c6.jpg",
     "images": [
       "e314e449517c3e09c846bd3d2c4997c6.jpg"
@@ -52230,7 +52230,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "8ca11441cc5cb28f4682069784a429b4.jpg",
     "images": [
       "8ca11441cc5cb28f4682069784a429b4.jpg"
@@ -52250,7 +52250,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "f05bbaf44d9bf13a285bff5c6d14f94d.jpg",
     "images": [
       "f05bbaf44d9bf13a285bff5c6d14f94d.jpg"
@@ -52270,7 +52270,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "eb62cfcc5131a63b2862b418f62429e2.jpg",
     "images": [
       "eb62cfcc5131a63b2862b418f62429e2.jpg"
@@ -52290,7 +52290,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "6f6c87a27da9947695942c9e102f9073.jpg",
     "images": [
       "6f6c87a27da9947695942c9e102f9073.jpg"
@@ -52310,7 +52310,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "ba10dbc6a1b1d6567cd6898399edd302.jpg",
     "images": [
       "ba10dbc6a1b1d6567cd6898399edd302.jpg"
@@ -52330,7 +52330,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "404d5215322c497ee978743ed3e938a9.jpg",
     "images": [
       "404d5215322c497ee978743ed3e938a9.jpg"
@@ -52350,7 +52350,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "ed0c06bb945a51ad707c6ae94167c457.jpg",
     "images": [
       "ed0c06bb945a51ad707c6ae94167c457.jpg"
@@ -52370,7 +52370,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "bfce87bd6bda7c8b84289dbc45638f5f.jpg",
     "images": [
       "bfce87bd6bda7c8b84289dbc45638f5f.jpg"
@@ -52390,7 +52390,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "185b819b6153e4e8de76a49a2391dc9e.jpg",
     "images": [
       "185b819b6153e4e8de76a49a2391dc9e.jpg"
@@ -52410,7 +52410,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "d425e755dfd86c5a206392cd760b2272.jpg",
     "images": [
       "d425e755dfd86c5a206392cd760b2272.jpg"
@@ -52430,7 +52430,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "adc877459067a429fbe3060c86e7239e.jpg",
     "images": [
       "adc877459067a429fbe3060c86e7239e.jpg"
@@ -52450,7 +52450,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "d0c0347a1de5eb15cecc3ef5f1652ec5.jpg",
     "images": [
       "d0c0347a1de5eb15cecc3ef5f1652ec5.jpg"
@@ -52470,7 +52470,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "8a14209a583fd49bc194f1cd411f416d.jpg",
     "images": [
       "8a14209a583fd49bc194f1cd411f416d.jpg"
@@ -52490,7 +52490,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "d2461c37812ec9addea47a7c87d80b65.jpg",
     "images": [
       "d2461c37812ec9addea47a7c87d80b65.jpg"
@@ -52510,7 +52510,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "7425c6fa3ccd031d3e799f752b603c43.jpg",
     "images": [
       "7425c6fa3ccd031d3e799f752b603c43.jpg"
@@ -52530,7 +52530,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "6a35e20dffc16e008a321f240adb9385.jpg",
     "images": [
       "6a35e20dffc16e008a321f240adb9385.jpg"
@@ -52550,7 +52550,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "77c04510ebc58c4c1d4da7ad14452a05.jpg",
     "images": [
       "77c04510ebc58c4c1d4da7ad14452a05.jpg"
@@ -52570,7 +52570,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "e3e26c1ff9c7c3bcaa866c515fbafd91.jpg",
     "images": [
       "e3e26c1ff9c7c3bcaa866c515fbafd91.jpg"
@@ -52590,7 +52590,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "8ca9a3833ba8be79f70c02c0d424989e.jpg",
     "images": [
       "8ca9a3833ba8be79f70c02c0d424989e.jpg"
@@ -52610,7 +52610,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "6c0d5c9e1bdc6447be7b15a539bac0e2.jpg",
     "images": [
       "6c0d5c9e1bdc6447be7b15a539bac0e2.jpg"
@@ -52630,7 +52630,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "c3e8cedcf35306bbfa7fbdbb479768e0.jpg",
     "images": [
       "c3e8cedcf35306bbfa7fbdbb479768e0.jpg"
@@ -52650,7 +52650,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "f5dfb7475ffbdda9c42a616cbe58977e.jpg",
     "images": [
       "f5dfb7475ffbdda9c42a616cbe58977e.jpg"
@@ -52670,7 +52670,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "8879cba0bd2f3a17fbd18877c9d2e49b.jpg",
     "images": [
       "8879cba0bd2f3a17fbd18877c9d2e49b.jpg"
@@ -52690,7 +52690,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "2286421199ed950f87a7f51d8b69ba95.jpg",
     "images": [
       "2286421199ed950f87a7f51d8b69ba95.jpg"
@@ -52710,7 +52710,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "99bc2691728c9055a1104057a06b56e7.jpg",
     "images": [
       "99bc2691728c9055a1104057a06b56e7.jpg"
@@ -52730,7 +52730,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "e601343eec50a97cc23dc15e91eeefa1.jpg",
     "images": [
       "e601343eec50a97cc23dc15e91eeefa1.jpg"
@@ -52750,7 +52750,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "245493ec101d4154aaa183556cf509e9.jpg",
     "images": [
       "245493ec101d4154aaa183556cf509e9.jpg"
@@ -52770,7 +52770,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "624053f1a841c50a17785e2703df0ca3.jpg",
     "images": [
       "624053f1a841c50a17785e2703df0ca3.jpg"
@@ -52790,7 +52790,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "5eb276b3dd37766dfc0d96b9090e465c.jpg",
     "images": [
       "5eb276b3dd37766dfc0d96b9090e465c.jpg"
@@ -52810,7 +52810,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "b644d5cee3f4ae54f33acfab96b5d6eb.jpg",
     "images": [
       "b644d5cee3f4ae54f33acfab96b5d6eb.jpg"
@@ -52830,7 +52830,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "0ea42acc4d4c654f22dc9e5ba2e0b7fb.jpg",
     "images": [
       "0ea42acc4d4c654f22dc9e5ba2e0b7fb.jpg"
@@ -52850,7 +52850,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "72e9721657ac065068f18ec4afff1b2d.jpg",
     "images": [
       "72e9721657ac065068f18ec4afff1b2d.jpg"
@@ -52870,7 +52870,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "5746e03e3337cd0a1ffd391366ef20fa.jpg",
     "images": [
       "5746e03e3337cd0a1ffd391366ef20fa.jpg"
@@ -52890,7 +52890,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "5e8750dddaf1c3484b84c652712e272b.jpg",
     "images": [
       "5e8750dddaf1c3484b84c652712e272b.jpg"
@@ -52910,7 +52910,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "91c8bc8fc332da348348ecb611228aba.jpg",
     "images": [
       "91c8bc8fc332da348348ecb611228aba.jpg"
@@ -52930,7 +52930,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "0ba250945d2ebd26f7434dddcb043783.jpg",
     "images": [
       "0ba250945d2ebd26f7434dddcb043783.jpg"
@@ -52950,7 +52950,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "001f5fec4abc86f6fcce5bddf2c65476.jpg",
     "images": [
       "001f5fec4abc86f6fcce5bddf2c65476.jpg"
@@ -52970,7 +52970,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "10f8dd704ddd806dce22f4ba6acce7ea.jpg",
     "images": [
       "10f8dd704ddd806dce22f4ba6acce7ea.jpg"
@@ -52990,7 +52990,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "6aab9c7a8efd898ce10cec459b3d1897.jpg",
     "images": [
       "6aab9c7a8efd898ce10cec459b3d1897.jpg"
@@ -53010,7 +53010,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "1e9be8affe5b6688da9e03c7ca6cdbd4.jpg",
     "images": [
       "1e9be8affe5b6688da9e03c7ca6cdbd4.jpg"
@@ -53030,7 +53030,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "d9254d8e206dc04f02eed6378adf21db.jpg",
     "images": [
       "d9254d8e206dc04f02eed6378adf21db.jpg"
@@ -53050,7 +53050,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "ae6c5cf64a798e52d32b5c192c45c2f7.jpg",
     "images": [
       "ae6c5cf64a798e52d32b5c192c45c2f7.jpg"
@@ -53070,7 +53070,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "6156583d064395c46f0da68ce08e7066.jpg",
     "images": [
       "6156583d064395c46f0da68ce08e7066.jpg"
@@ -53090,7 +53090,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "e4057fdb5194333c6dff2a2d32fdfb99.jpg",
     "images": [
       "e4057fdb5194333c6dff2a2d32fdfb99.jpg"
@@ -53110,7 +53110,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "9958ec9bc1cb05884b165896f20e0504.jpg",
     "images": [
       "9958ec9bc1cb05884b165896f20e0504.jpg"
@@ -53130,7 +53130,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "20faecd3bd33056a0b1a600f1343d0c3.jpg",
     "images": [
       "20faecd3bd33056a0b1a600f1343d0c3.jpg"
@@ -53150,7 +53150,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "46ba8e2c395feacebe4d8cc1d5b07ef8.jpg",
     "images": [
       "46ba8e2c395feacebe4d8cc1d5b07ef8.jpg"
@@ -53170,7 +53170,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "4a7dddaa82ca463393379f131747d7d9.jpg",
     "images": [
       "4a7dddaa82ca463393379f131747d7d9.jpg"
@@ -53190,7 +53190,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "d3b96a614378c4e9d9f7c1af772f1ffb.jpg",
     "images": [
       "d3b96a614378c4e9d9f7c1af772f1ffb.jpg"
@@ -53210,7 +53210,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "93a20f2f0383bf0f98dcc5d7563b7bb9.jpg",
     "images": [
       "93a20f2f0383bf0f98dcc5d7563b7bb9.jpg"
@@ -53230,7 +53230,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "27ed3ddff4a0f3fff8e89fb8bee84437.jpg",
     "images": [
       "27ed3ddff4a0f3fff8e89fb8bee84437.jpg"
@@ -53250,7 +53250,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "3e3ee961d876dcaee38b26933d100ac3.jpg",
     "images": [
       "3e3ee961d876dcaee38b26933d100ac3.jpg"
@@ -53270,7 +53270,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "7a46bd3ce17ca055f33c7360a82b1b1e.jpg",
     "images": [
       "7a46bd3ce17ca055f33c7360a82b1b1e.jpg"
@@ -53290,7 +53290,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "b3db1603e451f445211a612c4a81fd58.jpg",
     "images": [
       "b3db1603e451f445211a612c4a81fd58.jpg"
@@ -53310,7 +53310,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "9a45dc7cfdc6c83c3a4456b779356248.jpg",
     "images": [
       "9a45dc7cfdc6c83c3a4456b779356248.jpg"
@@ -53330,7 +53330,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "5b5af1c367f10b30832841311a27e94e.jpg",
     "images": [
       "5b5af1c367f10b30832841311a27e94e.jpg"
@@ -53350,7 +53350,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "02c03d3558cd5cb2e1fc94b1532ef2ee.jpg",
     "images": [
       "02c03d3558cd5cb2e1fc94b1532ef2ee.jpg"
@@ -53370,7 +53370,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "8dd0dd09c84146c03d52a7b1d79462f7.jpg",
     "images": [
       "8dd0dd09c84146c03d52a7b1d79462f7.jpg"
@@ -53390,7 +53390,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "9fd25b196e13b3e26717701da52598bb.jpg",
     "images": [
       "9fd25b196e13b3e26717701da52598bb.jpg"
@@ -53410,7 +53410,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "0cb3d52f1173e25bf56d030df48924d5.jpg",
     "images": [
       "0cb3d52f1173e25bf56d030df48924d5.jpg"
@@ -53430,7 +53430,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "8fa46f52df28d2dba4c6803c3bcb8212.jpg",
     "images": [
       "8fa46f52df28d2dba4c6803c3bcb8212.jpg"
@@ -53450,7 +53450,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "da1420ae0e3ae341bf494488777871d4.jpg",
     "images": [
       "da1420ae0e3ae341bf494488777871d4.jpg"
@@ -53470,7 +53470,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "11e0ed869f914ff9c7bc26499579b3e1.jpg",
     "images": [
       "11e0ed869f914ff9c7bc26499579b3e1.jpg"
@@ -53490,7 +53490,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "8f5cd73d2ef41bcd59996c797775abb9.jpg",
     "images": [
       "8f5cd73d2ef41bcd59996c797775abb9.jpg"
@@ -53510,7 +53510,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "b04f92ad9e77f71eee7be3ca8a7604d9.jpg",
     "images": [
       "b04f92ad9e77f71eee7be3ca8a7604d9.jpg"
@@ -53530,7 +53530,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "2acdc210d772142f7d32e0a77df24b08.jpg",
     "images": [
       "2acdc210d772142f7d32e0a77df24b08.jpg"
@@ -53550,7 +53550,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "7255be941cf54bbd87478208f1c25836.jpg",
     "images": [
       "7255be941cf54bbd87478208f1c25836.jpg"
@@ -53570,7 +53570,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "2dff9817f0fc017810b4798e1204ef89.jpg",
     "images": [
       "2dff9817f0fc017810b4798e1204ef89.jpg"
@@ -53590,7 +53590,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "d579bffa53f53d37959e0928c85704d5.jpg",
     "images": [
       "d579bffa53f53d37959e0928c85704d5.jpg"
@@ -53610,7 +53610,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "a23d53b249b561d66a3de6343ade2379.jpg",
     "images": [
       "a23d53b249b561d66a3de6343ade2379.jpg"
@@ -53630,7 +53630,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "93eed1ed48ef2a7402758f7798ee7e45.jpg",
     "images": [
       "93eed1ed48ef2a7402758f7798ee7e45.jpg"
@@ -53650,7 +53650,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "b783fcd231a647d4c5a8b3ecdbd12dcb.jpg",
     "images": [
       "b783fcd231a647d4c5a8b3ecdbd12dcb.jpg"
@@ -53670,7 +53670,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "047a0c4839578d71bc71e7469b5c768a.jpg",
     "images": [
       "047a0c4839578d71bc71e7469b5c768a.jpg"
@@ -53690,7 +53690,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "e52ecb058623519eb4476c57d0319030.jpg",
     "images": [
       "e52ecb058623519eb4476c57d0319030.jpg"
@@ -53710,7 +53710,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "5bf1012c68891c4e2886445073e5017a.jpg",
     "images": [
       "5bf1012c68891c4e2886445073e5017a.jpg"
@@ -53730,7 +53730,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "9cb3c268f0ddf84b7c79afe3c6d01d44.jpg",
     "images": [
       "9cb3c268f0ddf84b7c79afe3c6d01d44.jpg"
@@ -53750,7 +53750,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "3b9eb9eb17b3f59e36fc15b938f09068.jpg",
     "images": [
       "3b9eb9eb17b3f59e36fc15b938f09068.jpg"
@@ -53770,7 +53770,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "66702876b51744017c8263445d3eeb6b.jpg",
     "images": [
       "66702876b51744017c8263445d3eeb6b.jpg"
@@ -53790,7 +53790,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "5b17de05351909d4a8b0b6938266daa0.jpg",
     "images": [
       "5b17de05351909d4a8b0b6938266daa0.jpg"
@@ -53810,7 +53810,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "292d003bb35077bf01f667c5aaa9e7dc.jpg",
     "images": [
       "292d003bb35077bf01f667c5aaa9e7dc.jpg"
@@ -53830,7 +53830,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "d751dddbfd747c2d9e293c66da930f93.jpg",
     "images": [
       "d751dddbfd747c2d9e293c66da930f93.jpg"
@@ -53850,7 +53850,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "92c360e9c83e2ef791b6adeefd645f2b.jpg",
     "images": [
       "92c360e9c83e2ef791b6adeefd645f2b.jpg"
@@ -53870,7 +53870,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "1931241f43997d45aebc0ad8107fdca3.jpg",
     "images": [
       "1931241f43997d45aebc0ad8107fdca3.jpg"
@@ -53890,7 +53890,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "5282d4c369470525095c085d646de994.jpg",
     "images": [
       "5282d4c369470525095c085d646de994.jpg"
@@ -53910,7 +53910,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "096afde8ea4297d19fb332abccdfbc6b.jpg",
     "images": [
       "096afde8ea4297d19fb332abccdfbc6b.jpg"
@@ -53930,7 +53930,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "814a88216db685964aef88f06e953815.jpg",
     "images": [
       "814a88216db685964aef88f06e953815.jpg"
@@ -53950,7 +53950,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "27153ad33f33b11b9c50ad4e33022322.jpg",
     "images": [
       "27153ad33f33b11b9c50ad4e33022322.jpg"
@@ -53970,7 +53970,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "b31ec0bff17a4860761b189f3182971d.jpg",
     "images": [
       "b31ec0bff17a4860761b189f3182971d.jpg"
@@ -53990,7 +53990,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "b703842011f25b16b9c7b7c221916f77.jpg",
     "images": [
       "b703842011f25b16b9c7b7c221916f77.jpg"
@@ -54010,7 +54010,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "814f481a881f7d0a1f173295da62f12c.jpg",
     "images": [
       "814f481a881f7d0a1f173295da62f12c.jpg"
@@ -54030,7 +54030,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "45c851f5ef94d41cfa41e561ede63ad9.jpg",
     "images": [
       "45c851f5ef94d41cfa41e561ede63ad9.jpg"
@@ -54050,7 +54050,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "02f6a6bc5948b2626d539eb51fbe41ff.jpg",
     "images": [
       "02f6a6bc5948b2626d539eb51fbe41ff.jpg"
@@ -54070,7 +54070,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "7aef711778ac4cefc29073b6c3881b7d.jpg",
     "images": [
       "7aef711778ac4cefc29073b6c3881b7d.jpg"
@@ -54090,7 +54090,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "9b05f8097058368e76b9efc63162ab6c.jpg",
     "images": [
       "9b05f8097058368e76b9efc63162ab6c.jpg"
@@ -54110,7 +54110,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "5b2e1d9380fd06dac92168f24c7660e1.jpg",
     "images": [
       "5b2e1d9380fd06dac92168f24c7660e1.jpg"
@@ -54130,7 +54130,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "d45ac9f0ad968f2b7c9a4143fe44d85b.jpg",
     "images": [
       "d45ac9f0ad968f2b7c9a4143fe44d85b.jpg"
@@ -54150,7 +54150,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "e11f324d049ee0d90ade9c9b8db8e111.jpg",
     "images": [
       "e11f324d049ee0d90ade9c9b8db8e111.jpg"
@@ -54170,7 +54170,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "081f3eedb59cfad8d099150bae7722e6.jpg",
     "images": [
       "081f3eedb59cfad8d099150bae7722e6.jpg"
@@ -54190,7 +54190,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "aea70e9b31a057981e870f0a6e2d7ea5.jpg",
     "images": [
       "aea70e9b31a057981e870f0a6e2d7ea5.jpg"
@@ -54210,7 +54210,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "d274d714bab42a3b80b76224fe442bd5.jpg",
     "images": [
       "d274d714bab42a3b80b76224fe442bd5.jpg"
@@ -54230,7 +54230,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "4a6990fdc8415471bd1f8fc038c183cd.jpg",
     "images": [
       "4a6990fdc8415471bd1f8fc038c183cd.jpg"
@@ -54250,7 +54250,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "1f3bf39f743a975541e2e8276588f3d9.jpg",
     "images": [
       "1f3bf39f743a975541e2e8276588f3d9.jpg"
@@ -54270,7 +54270,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "45b85c86a733906125d43ec20fab2ec1.jpg",
     "images": [
       "45b85c86a733906125d43ec20fab2ec1.jpg"
@@ -54290,7 +54290,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "af4151cc3ecdd6a3c98ab88db5180574.jpg",
     "images": [
       "af4151cc3ecdd6a3c98ab88db5180574.jpg"
@@ -54310,7 +54310,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "618753c987ea4abe70d3ba82624c9b0f.jpg",
     "images": [
       "618753c987ea4abe70d3ba82624c9b0f.jpg"
@@ -54330,7 +54330,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "7c044401d2d5444fb0e337db6015ad38.jpg",
     "images": [
       "7c044401d2d5444fb0e337db6015ad38.jpg"
@@ -54350,7 +54350,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "1c4101e97b4eabfd90723cb11d958006.jpg",
     "images": [
       "1c4101e97b4eabfd90723cb11d958006.jpg"
@@ -54370,7 +54370,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "37acb96ae989b9d4ea2524237dc055d7.jpg",
     "images": [
       "37acb96ae989b9d4ea2524237dc055d7.jpg"
@@ -54390,7 +54390,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "943883d676cfe2c55b55ddfe242a824c.jpg",
     "images": [
       "943883d676cfe2c55b55ddfe242a824c.jpg"
@@ -54410,7 +54410,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "a7a11ee6e3086628e4edf76bdd4106c4.jpg",
     "images": [
       "a7a11ee6e3086628e4edf76bdd4106c4.jpg"
@@ -54430,7 +54430,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "7ea59dbe9d48895701bf38569015d48c.jpg",
     "images": [
       "7ea59dbe9d48895701bf38569015d48c.jpg"
@@ -54450,7 +54450,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "168e6a52631b40ee28ab377745b27676.jpg",
     "images": [
       "168e6a52631b40ee28ab377745b27676.jpg"
@@ -54470,7 +54470,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "09919b67ee11354fc47bbb2a677be7ad.jpg",
     "images": [
       "09919b67ee11354fc47bbb2a677be7ad.jpg"
@@ -54490,7 +54490,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "156d7fdbd7914fea4d0b63c023436b99.jpg",
     "images": [
       "156d7fdbd7914fea4d0b63c023436b99.jpg"
@@ -54510,7 +54510,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "3f44ed5ffb90829d4d48dd2925b1f735.jpg",
     "images": [
       "3f44ed5ffb90829d4d48dd2925b1f735.jpg"
@@ -54530,7 +54530,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "557106e5ad6d2280028deeefa4375615.jpg",
     "images": [
       "557106e5ad6d2280028deeefa4375615.jpg"
@@ -54550,7 +54550,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "11598a7b4e385b2a8754af2fd5fbcab5.jpg",
     "images": [
       "11598a7b4e385b2a8754af2fd5fbcab5.jpg"
@@ -54570,7 +54570,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "774c13ae7ba9974302ce0be6f591bc55.jpg",
     "images": [
       "774c13ae7ba9974302ce0be6f591bc55.jpg"
@@ -54590,7 +54590,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "8e471f1bb7266cb5a120bb254ec01046.jpg",
     "images": [
       "8e471f1bb7266cb5a120bb254ec01046.jpg"
@@ -54610,7 +54610,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "96e58481b624852eacd9ace5d58ab184.jpg",
     "images": [
       "96e58481b624852eacd9ace5d58ab184.jpg"
@@ -54630,7 +54630,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "31720bae9a54c1b9c20f56d1c9ac4b94.jpg",
     "images": [
       "31720bae9a54c1b9c20f56d1c9ac4b94.jpg"
@@ -54650,7 +54650,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "f0ba5b4d4908b732935120dd865efe74.jpg",
     "images": [
       "f0ba5b4d4908b732935120dd865efe74.jpg"
@@ -54670,7 +54670,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "7f2146bd89d923144f579b0297ce8570.jpg",
     "images": [
       "7f2146bd89d923144f579b0297ce8570.jpg"
@@ -54690,7 +54690,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "0df2fb6c72aa817a6adea02e0979381b.jpg",
     "images": [
       "0df2fb6c72aa817a6adea02e0979381b.jpg"
@@ -54710,7 +54710,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "fa99708bae03bccf839991034dc17118.jpg",
     "images": [
       "fa99708bae03bccf839991034dc17118.jpg"
@@ -54730,7 +54730,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "4e5dbcb02d5ae034afe1896db565a1f8.jpg",
     "images": [
       "4e5dbcb02d5ae034afe1896db565a1f8.jpg"
@@ -54750,7 +54750,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "6f4c7f06cf15140fba1478116b0f13a0.jpg",
     "images": [
       "6f4c7f06cf15140fba1478116b0f13a0.jpg"
@@ -54770,7 +54770,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "107f2cfc9f244ae917cacdd6176229dd.jpg",
     "images": [
       "107f2cfc9f244ae917cacdd6176229dd.jpg"
@@ -54790,7 +54790,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "45d4634868c115b4fe4195add93f9c46.jpg",
     "images": [
       "45d4634868c115b4fe4195add93f9c46.jpg"
@@ -54810,7 +54810,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "ae4f8457cfb9ad3a5af1232f41358b6d.jpg",
     "images": [
       "ae4f8457cfb9ad3a5af1232f41358b6d.jpg"
@@ -54830,7 +54830,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "bf2a299ebe1649c0ef5716fc4a6bafdd.jpg",
     "images": [
       "bf2a299ebe1649c0ef5716fc4a6bafdd.jpg"
@@ -54850,7 +54850,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "354fd5ee512576fc26d3bf9f87955c30.jpg",
     "images": [
       "354fd5ee512576fc26d3bf9f87955c30.jpg"
@@ -54870,7 +54870,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "be28cf2c43d366c50368302432de69e6.jpg",
     "images": [
       "be28cf2c43d366c50368302432de69e6.jpg"
@@ -54890,7 +54890,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "bed84629ede9780992015dfc1163e764.jpg",
     "images": [
       "bed84629ede9780992015dfc1163e764.jpg"
@@ -54910,7 +54910,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "56b6b8675416ee4751a29899837f800a.jpg",
     "images": [
       "56b6b8675416ee4751a29899837f800a.jpg"
@@ -54930,7 +54930,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "272d1b8e1c02cff2c9aaa4a5dc76222c.jpg",
     "images": [
       "272d1b8e1c02cff2c9aaa4a5dc76222c.jpg"
@@ -54950,7 +54950,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "af04e208772b22df89a1e43b37692028.jpg",
     "images": [
       "af04e208772b22df89a1e43b37692028.jpg"
@@ -54970,7 +54970,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "a947e371019e16621208304675540eee.jpg",
     "images": [
       "a947e371019e16621208304675540eee.jpg"
@@ -54990,7 +54990,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "2dc97d5b38a090125ed2ba1d4ded1c8c.jpg",
     "images": [
       "2dc97d5b38a090125ed2ba1d4ded1c8c.jpg"
@@ -55010,7 +55010,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "6e9332b2bbd26a38ea06ec558721d651.jpg",
     "images": [
       "6e9332b2bbd26a38ea06ec558721d651.jpg"
@@ -55030,7 +55030,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "976274f00aea5d981e3be0d84bf81ae0.jpg",
     "images": [
       "976274f00aea5d981e3be0d84bf81ae0.jpg"
@@ -55050,7 +55050,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "af80b6ceb718fe053339d26296472da6.jpg",
     "images": [
       "af80b6ceb718fe053339d26296472da6.jpg"
@@ -55070,7 +55070,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "3bcf8d62d4c86c5e31c58be8df74b9ec.jpg",
     "images": [
       "3bcf8d62d4c86c5e31c58be8df74b9ec.jpg"
@@ -55090,7 +55090,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "de3e5343ae0f40373ea2301580fb4b06.jpg",
     "images": [
       "de3e5343ae0f40373ea2301580fb4b06.jpg"
@@ -55110,7 +55110,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "cb4528120400b1db9f06d9990a4451ae.jpg",
     "images": [
       "cb4528120400b1db9f06d9990a4451ae.jpg"
@@ -55130,7 +55130,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "315ad6e81b58de81d8411ea57eb82ff1.jpg",
     "images": [
       "315ad6e81b58de81d8411ea57eb82ff1.jpg"
@@ -55150,7 +55150,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "3b46083a75b5e44c2005c9ca40779cea.jpg",
     "images": [
       "3b46083a75b5e44c2005c9ca40779cea.jpg"
@@ -55170,7 +55170,7 @@ export const materials = [
     "brand": "서울",
     "category": "벽지",
     "line": "합지",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "70b78e959e5e355d2d4f954491d15382.jpg",
     "images": [
       "70b78e959e5e355d2d4f954491d15382.jpg"
@@ -55190,7 +55190,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "57dc2a1d05990736098e24f6369c62c1.jpg",
     "images": [
       "57dc2a1d05990736098e24f6369c62c1.jpg"
@@ -55204,7 +55204,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "2c67a89d876b882eb19de56300885c92.jpg",
     "images": [
       "2c67a89d876b882eb19de56300885c92.jpg"
@@ -55218,7 +55218,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "153f323fe4876992612ad5bd11fd0517.jpg",
     "images": [
       "153f323fe4876992612ad5bd11fd0517.jpg"
@@ -55232,7 +55232,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "e093e4bbc534c77893d2f5de1ca2fd77.jpg",
     "images": [
       "e093e4bbc534c77893d2f5de1ca2fd77.jpg"
@@ -55246,7 +55246,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "acc7500f2acf0d56b503a41d79bd87ba.jpg",
     "images": [
       "acc7500f2acf0d56b503a41d79bd87ba.jpg"
@@ -55260,7 +55260,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "2f5b34d7f146d63fe191008d6a7e03d5.jpg",
     "images": [
       "2f5b34d7f146d63fe191008d6a7e03d5.jpg"
@@ -55274,7 +55274,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "ad7fb3422449e01a2d38b544f811c86b.jpg",
     "images": [
       "ad7fb3422449e01a2d38b544f811c86b.jpg"
@@ -55288,7 +55288,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "aa64e7a97e7ec69fe25fadff69aaebb4.jpg",
     "images": [
       "aa64e7a97e7ec69fe25fadff69aaebb4.jpg"
@@ -55302,7 +55302,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "65a8039d567132182848e330893dd235.jpg",
     "images": [
       "65a8039d567132182848e330893dd235.jpg"
@@ -55316,7 +55316,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "8dd38812f9a78751081c54698b3c3a98.jpg",
     "images": [
       "8dd38812f9a78751081c54698b3c3a98.jpg"
@@ -55330,7 +55330,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "14ae9b24b262d74c36d00270ba9b5b8f.jpg",
     "images": [
       "14ae9b24b262d74c36d00270ba9b5b8f.jpg"
@@ -55344,7 +55344,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "efa61e2c30735325c7f6d4cd2b993fb4.jpg",
     "images": [
       "efa61e2c30735325c7f6d4cd2b993fb4.jpg"
@@ -55358,7 +55358,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "e06fb996c000eb9269511e5983a1b4a4.jpg",
     "images": [
       "e06fb996c000eb9269511e5983a1b4a4.jpg"
@@ -55372,7 +55372,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "23f1f23b6cd7538b033af2650c9492ab.jpg",
     "images": [
       "23f1f23b6cd7538b033af2650c9492ab.jpg"
@@ -55386,7 +55386,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "1400ac3cfb63a04d47bce8cc46a8b36f.jpg",
     "images": [
       "1400ac3cfb63a04d47bce8cc46a8b36f.jpg"
@@ -55400,7 +55400,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "f1b3e1896af07ebd23c8fce1912a996e.jpg",
     "images": [
       "f1b3e1896af07ebd23c8fce1912a996e.jpg"
@@ -55414,7 +55414,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "256ac25cce8027395c658a84a9b049fd.jpg",
     "images": [
       "256ac25cce8027395c658a84a9b049fd.jpg"
@@ -55428,7 +55428,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "0c19e93818e1b8dd1eec27fe2675bb4d.jpg",
     "images": [
       "0c19e93818e1b8dd1eec27fe2675bb4d.jpg"
@@ -55442,7 +55442,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "f07c943a72836af503b45c22c39ef74a.jpg",
     "images": [
       "f07c943a72836af503b45c22c39ef74a.jpg"
@@ -55456,7 +55456,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "8524e28a268f10a53f0057c77f73b87f.jpg",
     "images": [
       "8524e28a268f10a53f0057c77f73b87f.jpg"
@@ -55470,7 +55470,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "31e8453b452c92d9eeed9278e30dfeec.jpg",
     "images": [
       "31e8453b452c92d9eeed9278e30dfeec.jpg"
@@ -55484,7 +55484,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "20f41710db354df4a477311260f6d50d.jpg",
     "images": [
       "20f41710db354df4a477311260f6d50d.jpg"
@@ -55498,7 +55498,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "310504cda86560b4bbe1bc2da387ee68.jpg",
     "images": [
       "310504cda86560b4bbe1bc2da387ee68.jpg"
@@ -55512,7 +55512,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "ba9a45f901c9846808557e488a514b4c.jpg",
     "images": [
       "ba9a45f901c9846808557e488a514b4c.jpg"
@@ -55526,7 +55526,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "9a029da18e34a0691d70347ee46e7bd1.jpg",
     "images": [
       "9a029da18e34a0691d70347ee46e7bd1.jpg"
@@ -55540,7 +55540,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "d6955015039fd3df89e2a563934ebcbe.jpg",
     "images": [
       "d6955015039fd3df89e2a563934ebcbe.jpg"
@@ -55554,7 +55554,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "4d3c2e492b3e1ee0433807d43f53dfaa.jpg",
     "images": [
       "4d3c2e492b3e1ee0433807d43f53dfaa.jpg"
@@ -55568,7 +55568,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "2695a48a068cc83901aac8c26375ca00.jpg",
     "images": [
       "2695a48a068cc83901aac8c26375ca00.jpg"
@@ -55582,7 +55582,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "abed3e48093f5e31b50293b8df4db82b.jpg",
     "images": [
       "abed3e48093f5e31b50293b8df4db82b.jpg"
@@ -55596,7 +55596,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "acc90672407aa7cc43ec152b29b35643.jpg",
     "images": [
       "acc90672407aa7cc43ec152b29b35643.jpg"
@@ -55610,7 +55610,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "98b450d597811e73d2193598934c66c5.jpg",
     "images": [
       "98b450d597811e73d2193598934c66c5.jpg"
@@ -55624,7 +55624,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "7044c21b52d62c7f43d0168f336ca6e9.jpg",
     "images": [
       "7044c21b52d62c7f43d0168f336ca6e9.jpg"
@@ -55638,7 +55638,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "05b94b2f313b779b42ddda23f9ae6fa0.jpg",
     "images": [
       "05b94b2f313b779b42ddda23f9ae6fa0.jpg"
@@ -55652,7 +55652,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "d7f35fe50bbb73b6474adc58b1ae48df.jpg",
     "images": [
       "d7f35fe50bbb73b6474adc58b1ae48df.jpg"
@@ -55666,7 +55666,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "d3cb64e4f4c396efca99ae48e57600ee.jpg",
     "images": [
       "d3cb64e4f4c396efca99ae48e57600ee.jpg"
@@ -55680,7 +55680,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "9771f46e8deccca27c6e5dcf4b913966.jpg",
     "images": [
       "9771f46e8deccca27c6e5dcf4b913966.jpg"
@@ -55694,7 +55694,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "7e2a29b1b950d2503d40a04d51699111.jpg",
     "images": [
       "7e2a29b1b950d2503d40a04d51699111.jpg"
@@ -55708,7 +55708,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "118613bf23d14bb58844f4d7aba024c5.jpg",
     "images": [
       "118613bf23d14bb58844f4d7aba024c5.jpg"
@@ -55722,7 +55722,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "73c6bbcc8f00de4838554a0f2e905b27.jpg",
     "images": [
       "73c6bbcc8f00de4838554a0f2e905b27.jpg"
@@ -55736,7 +55736,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "b2eb88f989c03583d979a9d25f02a6f2.jpg",
     "images": [
       "b2eb88f989c03583d979a9d25f02a6f2.jpg"
@@ -55750,7 +55750,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "eec851a89ac3693b5f98eb0b46a56728.jpg",
     "images": [
       "eec851a89ac3693b5f98eb0b46a56728.jpg"
@@ -55764,7 +55764,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "5a92f05508a2f0641c7619a1b2dc2425.jpg",
     "images": [
       "5a92f05508a2f0641c7619a1b2dc2425.jpg"
@@ -55778,7 +55778,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "b71c9ff82671bcf918d332b4df73b202.jpg",
     "images": [
       "b71c9ff82671bcf918d332b4df73b202.jpg"
@@ -55792,7 +55792,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "d1850efe3dd1d16c74eb3e7f11aa745b.jpg",
     "images": [
       "d1850efe3dd1d16c74eb3e7f11aa745b.jpg"
@@ -55806,7 +55806,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "cabd0343bfeac9f71c446252905ed04e.jpg",
     "images": [
       "cabd0343bfeac9f71c446252905ed04e.jpg"
@@ -55820,7 +55820,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "4bddc11d111489516af2a78b80396a66.jpg",
     "images": [
       "4bddc11d111489516af2a78b80396a66.jpg"
@@ -55834,7 +55834,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "9023ec37d4a480c68ec8cfa6bca080d7.jpg",
     "images": [
       "9023ec37d4a480c68ec8cfa6bca080d7.jpg"
@@ -55848,7 +55848,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "26c8307c3a1d64aefe9f9be7c1680e69.jpg",
     "images": [
       "26c8307c3a1d64aefe9f9be7c1680e69.jpg"
@@ -55862,7 +55862,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "e2aed7b6dab1b91b28775dc470a08b3c.jpg",
     "images": [
       "e2aed7b6dab1b91b28775dc470a08b3c.jpg"
@@ -55876,7 +55876,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "de37a7073530a4a088424b22d36381fb.jpg",
     "images": [
       "de37a7073530a4a088424b22d36381fb.jpg"
@@ -55890,7 +55890,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "14a93c77c8eb81739f5a0755ddca5455.jpg",
     "images": [
       "14a93c77c8eb81739f5a0755ddca5455.jpg"
@@ -55904,7 +55904,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "f2401a1635bd516aaefcb9909aba81eb.jpg",
     "images": [
       "f2401a1635bd516aaefcb9909aba81eb.jpg"
@@ -55918,7 +55918,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "f4185aba4bae7df30ffe13f1765185fd.jpg",
     "images": [
       "f4185aba4bae7df30ffe13f1765185fd.jpg"
@@ -55932,7 +55932,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "e3ca4e8e102da83ee15c1ba912312b87.jpg",
     "images": [
       "e3ca4e8e102da83ee15c1ba912312b87.jpg"
@@ -55946,7 +55946,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "c723b00318233ac5e2732d3f7b4a37e1.jpg",
     "images": [
       "c723b00318233ac5e2732d3f7b4a37e1.jpg"
@@ -55960,7 +55960,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "e7b60ee461129883156cd0f5728ae522.jpg",
     "images": [
       "e7b60ee461129883156cd0f5728ae522.jpg"
@@ -55974,7 +55974,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "625554b9b53ed8a2fb611ef5d114d7ad.jpg",
     "images": [
       "625554b9b53ed8a2fb611ef5d114d7ad.jpg"
@@ -55988,7 +55988,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "c98a29320fdd99c3c6184a5ad342812c.jpg",
     "images": [
       "c98a29320fdd99c3c6184a5ad342812c.jpg"
@@ -56002,7 +56002,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "fdaeefac48c3f38e3e74867fb03c94c6.jpg",
     "images": [
       "fdaeefac48c3f38e3e74867fb03c94c6.jpg"
@@ -56016,7 +56016,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "b3505b67ea6795e01306c2b50cbdfabe.jpg",
     "images": [
       "b3505b67ea6795e01306c2b50cbdfabe.jpg"
@@ -56030,7 +56030,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "ab1e67f5aeba6f68bd9bb6a00733b961.jpg",
     "images": [
       "ab1e67f5aeba6f68bd9bb6a00733b961.jpg"
@@ -56044,7 +56044,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "ed3f53ce613d33bbf2f806aa290f2cbf.jpg",
     "images": [
       "ed3f53ce613d33bbf2f806aa290f2cbf.jpg"
@@ -56058,7 +56058,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "af8fdfa74b08c0acf4d6019161d4f45e.jpg",
     "images": [
       "af8fdfa74b08c0acf4d6019161d4f45e.jpg"
@@ -56072,7 +56072,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "802b53bf5c955e6c5c4f1647a144d414.jpg",
     "images": [
       "802b53bf5c955e6c5c4f1647a144d414.jpg"
@@ -56086,7 +56086,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "c81256405de91fcfe11bfb9b9b935b55.jpg",
     "images": [
       "c81256405de91fcfe11bfb9b9b935b55.jpg"
@@ -56100,7 +56100,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "db3dcf300f0f9ca91dd170c3cfb5eb38.jpg",
     "images": [
       "db3dcf300f0f9ca91dd170c3cfb5eb38.jpg"
@@ -56114,7 +56114,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "3100dff7cda02c3ebf485c36900f69c0.jpg",
     "images": [
       "3100dff7cda02c3ebf485c36900f69c0.jpg"
@@ -56128,7 +56128,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "7ddd7aa3ee24675a1ea34ac716e7af68.jpg",
     "images": [
       "7ddd7aa3ee24675a1ea34ac716e7af68.jpg"
@@ -56142,7 +56142,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "f5b7a4a3f3a9c43267b2ecf86448c500.jpg",
     "images": [
       "f5b7a4a3f3a9c43267b2ecf86448c500.jpg"
@@ -56156,7 +56156,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "3365461f6eb35f29cf0e51f5da6dd783.jpg",
     "images": [
       "3365461f6eb35f29cf0e51f5da6dd783.jpg"
@@ -56170,7 +56170,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "c94a58384d49281e3952af66725dbb21.jpg",
     "images": [
       "c94a58384d49281e3952af66725dbb21.jpg"
@@ -56184,7 +56184,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "46eb25a904a98df0b00d48a56fda0783.jpg",
     "images": [
       "46eb25a904a98df0b00d48a56fda0783.jpg"
@@ -56198,7 +56198,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "946e2fc119b5c6088b51873f803f0c47.jpg",
     "images": [
       "946e2fc119b5c6088b51873f803f0c47.jpg"
@@ -56212,7 +56212,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "c41af56e01d06d67c92d9e6717200225.jpg",
     "images": [
       "c41af56e01d06d67c92d9e6717200225.jpg"
@@ -56226,7 +56226,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "87ebed783bef53838160fec4513cb877.jpg",
     "images": [
       "87ebed783bef53838160fec4513cb877.jpg"
@@ -56240,7 +56240,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "b402466f6c7e111abca930624a3b5be8.jpg",
     "images": [
       "b402466f6c7e111abca930624a3b5be8.jpg"
@@ -56254,7 +56254,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "67636c96fc981712983b60a2c8d63dcd.jpg",
     "images": [
       "67636c96fc981712983b60a2c8d63dcd.jpg"
@@ -56268,7 +56268,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "e7cd49d57cb6d08fdedf7405d65a2881.jpg",
     "images": [
       "e7cd49d57cb6d08fdedf7405d65a2881.jpg"
@@ -56282,7 +56282,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "4a720f25af900babf3124bbd3a1fc16e.jpg",
     "images": [
       "4a720f25af900babf3124bbd3a1fc16e.jpg"
@@ -56296,7 +56296,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "방염_신한벽지_방염",
-    "price": 0,
+    "price": 68000,
     "thumbnail": "dcc347406222238a4d0e3e7d6a3d1514.jpg",
     "images": [
       "dcc347406222238a4d0e3e7d6a3d1514.jpg"
@@ -56310,7 +56310,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6a6bfb11c7c7b79a1a489451cdc853ab.jpg",
     "images": [
       "6a6bfb11c7c7b79a1a489451cdc853ab.jpg"
@@ -56324,7 +56324,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0aaba35473b6b4c4eb016d92ef39dcff.jpg",
     "images": [
       "0aaba35473b6b4c4eb016d92ef39dcff.jpg"
@@ -56338,7 +56338,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f59399ada6f5a4ab1ddd2b1ee9602610.jpg",
     "images": [
       "f59399ada6f5a4ab1ddd2b1ee9602610.jpg"
@@ -56352,7 +56352,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "cca889fa22c0bdf9610b47fd8ff4ac81.jpg",
     "images": [
       "cca889fa22c0bdf9610b47fd8ff4ac81.jpg"
@@ -56366,7 +56366,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c1dec513133cb30f229489c1373a1c44.jpg",
     "images": [
       "c1dec513133cb30f229489c1373a1c44.jpg"
@@ -56380,7 +56380,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a2c255cfa6cef42a9807182ee77c63d8.jpg",
     "images": [
       "a2c255cfa6cef42a9807182ee77c63d8.jpg"
@@ -56394,7 +56394,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "525b8f3b910c7764d7861eac20ffdbb5.jpg",
     "images": [
       "525b8f3b910c7764d7861eac20ffdbb5.jpg"
@@ -56408,7 +56408,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f8f4f4e3c9297855bb3aaa8668a3dd94.jpg",
     "images": [
       "f8f4f4e3c9297855bb3aaa8668a3dd94.jpg"
@@ -56422,7 +56422,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2540ea9d9a8c1f1e611a8aee2c6077aa.jpg",
     "images": [
       "2540ea9d9a8c1f1e611a8aee2c6077aa.jpg"
@@ -56436,7 +56436,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "649233afd06c6e8283d9d1329e479333.jpg",
     "images": [
       "649233afd06c6e8283d9d1329e479333.jpg"
@@ -56450,7 +56450,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c0761f4d6a5d8a45f6a1ca7b726164a9.jpg",
     "images": [
       "c0761f4d6a5d8a45f6a1ca7b726164a9.jpg"
@@ -56464,7 +56464,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "bd2e92b556af7c8359f46baafb198ad2.jpg",
     "images": [
       "bd2e92b556af7c8359f46baafb198ad2.jpg"
@@ -56478,7 +56478,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "911485ef10707b5233eb9967b52d198a.jpg",
     "images": [
       "911485ef10707b5233eb9967b52d198a.jpg"
@@ -56492,7 +56492,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "41d43797b60619df04675c0053622f56.jpg",
     "images": [
       "41d43797b60619df04675c0053622f56.jpg"
@@ -56506,7 +56506,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "38a449d241062180f26c2a0290b6abc6.jpg",
     "images": [
       "38a449d241062180f26c2a0290b6abc6.jpg"
@@ -56520,7 +56520,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "34c9cbf4ac064adf69076118354d3c39.jpg",
     "images": [
       "34c9cbf4ac064adf69076118354d3c39.jpg"
@@ -56534,7 +56534,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "3d26deec0a74aee4835f015316905d1c.jpg",
     "images": [
       "3d26deec0a74aee4835f015316905d1c.jpg"
@@ -56548,7 +56548,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "22150985cd3f117bfee1ff43904de7e0.jpg",
     "images": [
       "22150985cd3f117bfee1ff43904de7e0.jpg"
@@ -56562,7 +56562,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4a680a775bb37d6d3b322a1bfed29d96.jpg",
     "images": [
       "4a680a775bb37d6d3b322a1bfed29d96.jpg"
@@ -56576,7 +56576,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9e387095f971245eb46ef248d7d30911.jpg",
     "images": [
       "9e387095f971245eb46ef248d7d30911.jpg"
@@ -56590,7 +56590,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "3afc56b91b9048f48d98734e8615f779.jpg",
     "images": [
       "3afc56b91b9048f48d98734e8615f779.jpg"
@@ -56604,7 +56604,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "bbfb968e4f375577d55a982ee9ecb132.jpg",
     "images": [
       "bbfb968e4f375577d55a982ee9ecb132.jpg"
@@ -56618,7 +56618,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "000bebcfed8d5f9b6dbd4bec4a7041fa.jpg",
     "images": [
       "000bebcfed8d5f9b6dbd4bec4a7041fa.jpg"
@@ -56632,7 +56632,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ae8f1ddbcd8a01583913bef510216437.jpg",
     "images": [
       "ae8f1ddbcd8a01583913bef510216437.jpg"
@@ -56646,7 +56646,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7c0cf9fb6eada013cb0cc7e33ff4d186.jpg",
     "images": [
       "7c0cf9fb6eada013cb0cc7e33ff4d186.jpg"
@@ -56660,7 +56660,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8c80af0caec490c5244496c0e5b5c225.jpg",
     "images": [
       "8c80af0caec490c5244496c0e5b5c225.jpg"
@@ -56674,7 +56674,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "38c4d9e2a5a2b0bc6ccde1b0f436a2df.jpg",
     "images": [
       "38c4d9e2a5a2b0bc6ccde1b0f436a2df.jpg"
@@ -56688,7 +56688,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "536c13538e6919ccc6918d122c56d3cd.jpg",
     "images": [
       "536c13538e6919ccc6918d122c56d3cd.jpg"
@@ -56702,7 +56702,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "da224f6130b612f192db32b7bbf62fe8.jpg",
     "images": [
       "da224f6130b612f192db32b7bbf62fe8.jpg"
@@ -56716,7 +56716,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6d69ba7d860a05ab59d238a92b23d67e.jpg",
     "images": [
       "6d69ba7d860a05ab59d238a92b23d67e.jpg"
@@ -56730,7 +56730,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7040067468be161ee87fb562da86244f.jpg",
     "images": [
       "7040067468be161ee87fb562da86244f.jpg"
@@ -56744,7 +56744,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f8879ce9011d66f58572ff8ed096d2bf.jpg",
     "images": [
       "f8879ce9011d66f58572ff8ed096d2bf.jpg"
@@ -56758,7 +56758,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "78d1504b2857a9b0d9a830151ea8467f.jpg",
     "images": [
       "78d1504b2857a9b0d9a830151ea8467f.jpg"
@@ -56772,7 +56772,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "11f02c07b67090de2846a3fc6cfa43dc.jpg",
     "images": [
       "11f02c07b67090de2846a3fc6cfa43dc.jpg"
@@ -56786,7 +56786,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c4ed18ef7b1eb37f297d85c25892e3c8.jpg",
     "images": [
       "c4ed18ef7b1eb37f297d85c25892e3c8.jpg"
@@ -56800,7 +56800,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "1a3155040d60cbca369e2334fcbaf4fb.jpg",
     "images": [
       "1a3155040d60cbca369e2334fcbaf4fb.jpg"
@@ -56814,7 +56814,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5129cf2ce0fbd4204b08da8d98d9fe9e.jpg",
     "images": [
       "5129cf2ce0fbd4204b08da8d98d9fe9e.jpg"
@@ -56828,7 +56828,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "34f40a40e8ed4989ab8c27fbe82c0554.jpg",
     "images": [
       "34f40a40e8ed4989ab8c27fbe82c0554.jpg"
@@ -56842,7 +56842,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c7713bac5a3e2714c1b1ca885a100df4.jpg",
     "images": [
       "c7713bac5a3e2714c1b1ca885a100df4.jpg"
@@ -56856,7 +56856,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0404eb324be36327dac84da397ca3ed3.jpg",
     "images": [
       "0404eb324be36327dac84da397ca3ed3.jpg"
@@ -56870,7 +56870,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4e9b61027927d814c635690d03f78f6b.jpg",
     "images": [
       "4e9b61027927d814c635690d03f78f6b.jpg"
@@ -56884,7 +56884,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "dbe5d1077b2ab9405b0bc410398da71b.jpg",
     "images": [
       "dbe5d1077b2ab9405b0bc410398da71b.jpg"
@@ -56898,7 +56898,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "bc8e5c68588025380da4d696ff85c91f.jpg",
     "images": [
       "bc8e5c68588025380da4d696ff85c91f.jpg"
@@ -56912,7 +56912,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4c32c9609a6be94b0a3d807be4075117.jpg",
     "images": [
       "4c32c9609a6be94b0a3d807be4075117.jpg"
@@ -56926,7 +56926,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7fcc10ab60ff1083997bc111a50c8112.jpg",
     "images": [
       "7fcc10ab60ff1083997bc111a50c8112.jpg"
@@ -56940,7 +56940,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6ffa5ba467049d5d0828da5e87e8102b.jpg",
     "images": [
       "6ffa5ba467049d5d0828da5e87e8102b.jpg"
@@ -56954,7 +56954,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "adfa6a1cec7276f1a6e000256c2d0125.jpg",
     "images": [
       "adfa6a1cec7276f1a6e000256c2d0125.jpg"
@@ -56968,7 +56968,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "cbc032caaf6ffec68cd030b8e3dfa4d9.jpg",
     "images": [
       "cbc032caaf6ffec68cd030b8e3dfa4d9.jpg"
@@ -56982,7 +56982,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "08b2750d60b1b30ab030ca3928ad242b.jpg",
     "images": [
       "08b2750d60b1b30ab030ca3928ad242b.jpg"
@@ -56996,7 +56996,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ee2d9cb17755d64903cb4dc7d9ca1d74.jpg",
     "images": [
       "ee2d9cb17755d64903cb4dc7d9ca1d74.jpg"
@@ -57010,7 +57010,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "00729c9b278d3ef7daea40612d71aedd.jpg",
     "images": [
       "00729c9b278d3ef7daea40612d71aedd.jpg"
@@ -57024,7 +57024,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "49a28276c93652ac237211ec283548b2.jpg",
     "images": [
       "49a28276c93652ac237211ec283548b2.jpg"
@@ -57038,7 +57038,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6eb631dfd93780233f381d3cacf58832.jpg",
     "images": [
       "6eb631dfd93780233f381d3cacf58832.jpg"
@@ -57052,7 +57052,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b1379d8f001110228a17ad03072f1de5.jpg",
     "images": [
       "b1379d8f001110228a17ad03072f1de5.jpg"
@@ -57066,7 +57066,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "1d7863ef489db3cf1b42555ad8c5a82a.jpg",
     "images": [
       "1d7863ef489db3cf1b42555ad8c5a82a.jpg"
@@ -57080,7 +57080,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a3b9fe436d02684e39a2c5d136a99a2e.jpg",
     "images": [
       "a3b9fe436d02684e39a2c5d136a99a2e.jpg"
@@ -57094,7 +57094,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "1fc7a3ba35623f21487540603d3124a1.jpg",
     "images": [
       "1fc7a3ba35623f21487540603d3124a1.jpg"
@@ -57108,7 +57108,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "207f879eae7a1d4fd7040a9dff817db1.jpg",
     "images": [
       "207f879eae7a1d4fd7040a9dff817db1.jpg"
@@ -57122,7 +57122,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9d583f94d946a0b4eff72d585a17d514.jpg",
     "images": [
       "9d583f94d946a0b4eff72d585a17d514.jpg"
@@ -57136,7 +57136,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9420d14dedd8fba3d0474750bfe15702.jpg",
     "images": [
       "9420d14dedd8fba3d0474750bfe15702.jpg"
@@ -57150,7 +57150,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5c6b906d0bc778539e6da230f4a90be9.jpg",
     "images": [
       "5c6b906d0bc778539e6da230f4a90be9.jpg"
@@ -57164,7 +57164,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "3ac8697dc61deadc6a0efb11475c43f6.jpg",
     "images": [
       "3ac8697dc61deadc6a0efb11475c43f6.jpg"
@@ -57178,7 +57178,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b0e1f0621ce2baffe1fc4f2b5484dd15.jpg",
     "images": [
       "b0e1f0621ce2baffe1fc4f2b5484dd15.jpg"
@@ -57192,7 +57192,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2040d6ce6c6a4808f145555aed94397f.jpg",
     "images": [
       "2040d6ce6c6a4808f145555aed94397f.jpg"
@@ -57206,7 +57206,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "97a78512c5da4da1edcaa02df0ace517.jpg",
     "images": [
       "97a78512c5da4da1edcaa02df0ace517.jpg"
@@ -57220,7 +57220,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8b85762ab55179f5d156c106a1e985c0.jpg",
     "images": [
       "8b85762ab55179f5d156c106a1e985c0.jpg"
@@ -57234,7 +57234,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a05dd9b274f29fdbb1e589826fbdb663.jpg",
     "images": [
       "a05dd9b274f29fdbb1e589826fbdb663.jpg"
@@ -57248,7 +57248,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "fa205c7935601af93110bdd7b38b32cc.jpg",
     "images": [
       "fa205c7935601af93110bdd7b38b32cc.jpg"
@@ -57262,7 +57262,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f3397b86eca17f9d4d8deb8299eb7169.jpg",
     "images": [
       "f3397b86eca17f9d4d8deb8299eb7169.jpg"
@@ -57276,7 +57276,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_리빙(LIVING)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "dee8a19626b4318ad8f548dff6a8b5d7.jpg",
     "images": [
       "dee8a19626b4318ad8f548dff6a8b5d7.jpg"
@@ -57290,7 +57290,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8a50db305a9d01c287bfee0465514419.jpg",
     "images": [
       "8a50db305a9d01c287bfee0465514419.jpg"
@@ -57304,7 +57304,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "035049224cbd732ef9c52af9cf875db7.jpg",
     "images": [
       "035049224cbd732ef9c52af9cf875db7.jpg"
@@ -57318,7 +57318,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c5388be380361e39224ce753d7ffdd3a.jpg",
     "images": [
       "c5388be380361e39224ce753d7ffdd3a.jpg"
@@ -57332,7 +57332,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7b906dd48da8af109a0972b598a831df.jpg",
     "images": [
       "7b906dd48da8af109a0972b598a831df.jpg"
@@ -57346,7 +57346,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0eb59dfb4f7257021a3d7f2fc682a352.jpg",
     "images": [
       "0eb59dfb4f7257021a3d7f2fc682a352.jpg"
@@ -57360,7 +57360,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "158de123de3bf8a05fc1560a0f69065c.jpg",
     "images": [
       "158de123de3bf8a05fc1560a0f69065c.jpg"
@@ -57374,7 +57374,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f1f54564b14c120742bcf45c2c066758.jpg",
     "images": [
       "f1f54564b14c120742bcf45c2c066758.jpg"
@@ -57388,7 +57388,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "49f37e7fcc0969394517f0339559c18a.jpg",
     "images": [
       "49f37e7fcc0969394517f0339559c18a.jpg"
@@ -57402,7 +57402,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9195bd9dbf51ee371f1f6593e46cfc20.jpg",
     "images": [
       "9195bd9dbf51ee371f1f6593e46cfc20.jpg"
@@ -57416,7 +57416,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "791cd328722e83158aa105ee61bfd31b.jpg",
     "images": [
       "791cd328722e83158aa105ee61bfd31b.jpg"
@@ -57430,7 +57430,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "df42a73f0d55b4137bfced06c5cddc6e.jpg",
     "images": [
       "df42a73f0d55b4137bfced06c5cddc6e.jpg"
@@ -57444,7 +57444,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2dc157b026f6dd9ba217f059afb421cc.jpg",
     "images": [
       "2dc157b026f6dd9ba217f059afb421cc.jpg"
@@ -57458,7 +57458,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e6937eb85d94cd1457a4d001931da8e1.jpg",
     "images": [
       "e6937eb85d94cd1457a4d001931da8e1.jpg"
@@ -57472,7 +57472,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "3f7677b5354b65098898bf4e8720f8f3.jpg",
     "images": [
       "3f7677b5354b65098898bf4e8720f8f3.jpg"
@@ -57486,7 +57486,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d17c090581bd9528c7be81aa2bb71b73.jpg",
     "images": [
       "d17c090581bd9528c7be81aa2bb71b73.jpg"
@@ -57500,7 +57500,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c4fc398492cade9fd6e889a4a9aaed84.jpg",
     "images": [
       "c4fc398492cade9fd6e889a4a9aaed84.jpg"
@@ -57514,7 +57514,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4bd9ffcf6492fb2e5de45175a444190c.jpg",
     "images": [
       "4bd9ffcf6492fb2e5de45175a444190c.jpg"
@@ -57528,7 +57528,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "abdb32ceea8222fb2b6b015967514a82.jpg",
     "images": [
       "abdb32ceea8222fb2b6b015967514a82.jpg"
@@ -57542,7 +57542,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "548fdf3227e7a285132e47a2fce141fd.jpg",
     "images": [
       "548fdf3227e7a285132e47a2fce141fd.jpg"
@@ -57556,7 +57556,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "36727fc517b8aeba304fc0f5943d74e7.jpg",
     "images": [
       "36727fc517b8aeba304fc0f5943d74e7.jpg"
@@ -57570,7 +57570,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "1b7bfddab4eba83b256b0916555c38ec.jpg",
     "images": [
       "1b7bfddab4eba83b256b0916555c38ec.jpg"
@@ -57584,7 +57584,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "cf897d33e8c79ae042d178a66a003464.jpg",
     "images": [
       "cf897d33e8c79ae042d178a66a003464.jpg"
@@ -57598,7 +57598,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f0ac1b40f58295872333a3129c41a531.jpg",
     "images": [
       "f0ac1b40f58295872333a3129c41a531.jpg"
@@ -57612,7 +57612,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8bf1cdbb0ec0b8912ebf886a0b819ea9.jpg",
     "images": [
       "8bf1cdbb0ec0b8912ebf886a0b819ea9.jpg"
@@ -57626,7 +57626,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "fbd985bc58d994633297e1344abbd4e2.jpg",
     "images": [
       "fbd985bc58d994633297e1344abbd4e2.jpg"
@@ -57640,7 +57640,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d8b04d548fa494e6f4a32a6fcb0d4d87.jpg",
     "images": [
       "d8b04d548fa494e6f4a32a6fcb0d4d87.jpg"
@@ -57654,7 +57654,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5b63405ed9e5c6d51ec77fb2787ac701.jpg",
     "images": [
       "5b63405ed9e5c6d51ec77fb2787ac701.jpg"
@@ -57668,7 +57668,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "411b9f2bfd3fb04877d9d83724a4e0a0.jpg",
     "images": [
       "411b9f2bfd3fb04877d9d83724a4e0a0.jpg"
@@ -57682,7 +57682,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5d77a882cb0dfdc4e3b4154268a7c44e.jpg",
     "images": [
       "5d77a882cb0dfdc4e3b4154268a7c44e.jpg"
@@ -57696,7 +57696,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8acee19348d595a48479c58995437a0e.jpg",
     "images": [
       "8acee19348d595a48479c58995437a0e.jpg"
@@ -57710,7 +57710,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f1c3fa9b5b9054281868406436ea8a6f.jpg",
     "images": [
       "f1c3fa9b5b9054281868406436ea8a6f.jpg"
@@ -57724,7 +57724,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "33ada27be15f74625a8aad4986d701c5.jpg",
     "images": [
       "33ada27be15f74625a8aad4986d701c5.jpg"
@@ -57738,7 +57738,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ed3cefdc6c2a0fe576f0972f057eb895.jpg",
     "images": [
       "ed3cefdc6c2a0fe576f0972f057eb895.jpg"
@@ -57752,7 +57752,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "cd38cada7885074e7d2f69fb6c665257.jpg",
     "images": [
       "cd38cada7885074e7d2f69fb6c665257.jpg"
@@ -57766,7 +57766,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a8b6e5e068cd90befa7ccd59b40d87ae.jpg",
     "images": [
       "a8b6e5e068cd90befa7ccd59b40d87ae.jpg"
@@ -57780,7 +57780,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5eb84434af93d5d2af01a5e047b372e0.jpg",
     "images": [
       "5eb84434af93d5d2af01a5e047b372e0.jpg"
@@ -57794,7 +57794,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8d55017f57b057b09a520ccda3dec398.jpg",
     "images": [
       "8d55017f57b057b09a520ccda3dec398.jpg"
@@ -57808,7 +57808,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2547857e8aa0e6a858750793c30eb13f.jpg",
     "images": [
       "2547857e8aa0e6a858750793c30eb13f.jpg"
@@ -57822,7 +57822,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "78c449b86d1aab9a0dc113275b5159ec.jpg",
     "images": [
       "78c449b86d1aab9a0dc113275b5159ec.jpg"
@@ -57836,7 +57836,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "060b390ea1c7eeaa11dd805765a357ca.jpg",
     "images": [
       "060b390ea1c7eeaa11dd805765a357ca.jpg"
@@ -57850,7 +57850,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "50ba27ad311111a12681c2ed3f18f33e.jpg",
     "images": [
       "50ba27ad311111a12681c2ed3f18f33e.jpg"
@@ -57864,7 +57864,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7ed32ee0fb1839c2eaf306720e723f3d.jpg",
     "images": [
       "7ed32ee0fb1839c2eaf306720e723f3d.jpg"
@@ -57878,7 +57878,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0ba8f53195189061130a3a046d61b5b4.jpg",
     "images": [
       "0ba8f53195189061130a3a046d61b5b4.jpg"
@@ -57892,7 +57892,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d1e30505ccf68d0bb9e3440e1d8abde7.jpg",
     "images": [
       "d1e30505ccf68d0bb9e3440e1d8abde7.jpg"
@@ -57906,7 +57906,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b749ce63b5d31921f16ba71f692b2e8a.jpg",
     "images": [
       "b749ce63b5d31921f16ba71f692b2e8a.jpg"
@@ -57920,7 +57920,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "bf1291bd3bba869d89d3ea6d7a868ef0.jpg",
     "images": [
       "bf1291bd3bba869d89d3ea6d7a868ef0.jpg"
@@ -57934,7 +57934,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f8fab26374c8225a98641ae7b166e3c7.jpg",
     "images": [
       "f8fab26374c8225a98641ae7b166e3c7.jpg"
@@ -57948,7 +57948,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2d96d8e20201e1bc66a93f7d501cf330.jpg",
     "images": [
       "2d96d8e20201e1bc66a93f7d501cf330.jpg"
@@ -57962,7 +57962,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "fac9936e126d16736c54dbd3db7caad2.jpg",
     "images": [
       "fac9936e126d16736c54dbd3db7caad2.jpg"
@@ -57976,7 +57976,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "781ae11a61f717ae725c7572f3723f7d.jpg",
     "images": [
       "781ae11a61f717ae725c7572f3723f7d.jpg"
@@ -57990,7 +57990,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d55a57ff5f5ca6c2cefed8fcc3568f39.jpg",
     "images": [
       "d55a57ff5f5ca6c2cefed8fcc3568f39.jpg"
@@ -58004,7 +58004,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7287e37a48d1d92f7887d29c31463400.jpg",
     "images": [
       "7287e37a48d1d92f7887d29c31463400.jpg"
@@ -58018,7 +58018,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "458e14d9d95b870191de44d54e8d7af0.jpg",
     "images": [
       "458e14d9d95b870191de44d54e8d7af0.jpg"
@@ -58032,7 +58032,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8fa7cb7dba143605010d86c0bbcd7383.jpg",
     "images": [
       "8fa7cb7dba143605010d86c0bbcd7383.jpg"
@@ -58046,7 +58046,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "257bffb40d02479232ecb476818e6dff.jpg",
     "images": [
       "257bffb40d02479232ecb476818e6dff.jpg"
@@ -58060,7 +58060,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5cc021425402036d9d5fa2b3978bb037.jpg",
     "images": [
       "5cc021425402036d9d5fa2b3978bb037.jpg"
@@ -58074,7 +58074,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "02b342f011bbf4fba1127713f7d9ee2a.jpg",
     "images": [
       "02b342f011bbf4fba1127713f7d9ee2a.jpg"
@@ -58088,7 +58088,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c3a07dd69c24d6005132ed71c41e07ba.jpg",
     "images": [
       "c3a07dd69c24d6005132ed71c41e07ba.jpg"
@@ -58102,7 +58102,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f1d56cd9d001ba84c7f8e89009bb4c2c.jpg",
     "images": [
       "f1d56cd9d001ba84c7f8e89009bb4c2c.jpg"
@@ -58116,7 +58116,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e933c631a844a1fd6d44097b4039df66.jpg",
     "images": [
       "e933c631a844a1fd6d44097b4039df66.jpg"
@@ -58130,7 +58130,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "895e8fd5393a4b99cdcfdaeda19289df.jpg",
     "images": [
       "895e8fd5393a4b99cdcfdaeda19289df.jpg"
@@ -58144,7 +58144,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "28343a04735d673a79c1c66ce92f3e10.jpg",
     "images": [
       "28343a04735d673a79c1c66ce92f3e10.jpg"
@@ -58158,7 +58158,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a79dca71b6c6f8fb66266efa790d6f42.jpg",
     "images": [
       "a79dca71b6c6f8fb66266efa790d6f42.jpg"
@@ -58172,7 +58172,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a8d95f737adcd04de691438cc4559e05.jpg",
     "images": [
       "a8d95f737adcd04de691438cc4559e05.jpg"
@@ -58186,7 +58186,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6b089a8a87434fc2e143687e0b088449.jpg",
     "images": [
       "6b089a8a87434fc2e143687e0b088449.jpg"
@@ -58200,7 +58200,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0d1c38e629f14c2d042860a84947b9a1.jpg",
     "images": [
       "0d1c38e629f14c2d042860a84947b9a1.jpg"
@@ -58214,7 +58214,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7000006df652ad79359982415c9ff6d7.jpg",
     "images": [
       "7000006df652ad79359982415c9ff6d7.jpg"
@@ -58228,7 +58228,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d4035e90b421881c695b74398fac130a.jpg",
     "images": [
       "d4035e90b421881c695b74398fac130a.jpg"
@@ -58242,7 +58242,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8666b28ec815e47952fba0a9c4ce03b9.jpg",
     "images": [
       "8666b28ec815e47952fba0a9c4ce03b9.jpg"
@@ -58256,7 +58256,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "1ecc81f31ad451d258e6e739a7b9f60a.jpg",
     "images": [
       "1ecc81f31ad451d258e6e739a7b9f60a.jpg"
@@ -58270,7 +58270,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "39c94f5ef3780a11a7d717d2d79ce112.jpg",
     "images": [
       "39c94f5ef3780a11a7d717d2d79ce112.jpg"
@@ -58284,7 +58284,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e0f694dc2b365ad029886df6c7b218ca.jpg",
     "images": [
       "e0f694dc2b365ad029886df6c7b218ca.jpg"
@@ -58298,7 +58298,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "cbc9151d81e55a3ef5069c2a59a65a74.jpg",
     "images": [
       "cbc9151d81e55a3ef5069c2a59a65a74.jpg"
@@ -58312,7 +58312,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "eb73409302376b79bb62384bbcefae48.jpg",
     "images": [
       "eb73409302376b79bb62384bbcefae48.jpg"
@@ -58326,7 +58326,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6fb14e428a8d3775eead936b066071e8.jpg",
     "images": [
       "6fb14e428a8d3775eead936b066071e8.jpg"
@@ -58340,7 +58340,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "de7a66fbc1ea45ade78a1fd2a8a048d3.jpg",
     "images": [
       "de7a66fbc1ea45ade78a1fd2a8a048d3.jpg"
@@ -58354,7 +58354,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8fd3a3b1e236f548e93c5bac1a1ab0eb.jpg",
     "images": [
       "8fd3a3b1e236f548e93c5bac1a1ab0eb.jpg"
@@ -58368,7 +58368,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "12eed7d857f0225436a639f3ee50b1d4.jpg",
     "images": [
       "12eed7d857f0225436a639f3ee50b1d4.jpg"
@@ -58382,7 +58382,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_스케치(SKETCH)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "87be9a45882c5f6d01223ff1761f31f1.jpg",
     "images": [
       "87be9a45882c5f6d01223ff1761f31f1.jpg"
@@ -58396,7 +58396,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "bc65d8aacd521b9729167cdea8bb57b6.jpg",
     "images": [
       "bc65d8aacd521b9729167cdea8bb57b6.jpg"
@@ -58410,7 +58410,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9b033d9f3ee93f5a2d5e9a3562a6abe8.jpg",
     "images": [
       "9b033d9f3ee93f5a2d5e9a3562a6abe8.jpg"
@@ -58424,7 +58424,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "dd9702e9cc61c5a5cf9efee01b0837d3.jpg",
     "images": [
       "dd9702e9cc61c5a5cf9efee01b0837d3.jpg"
@@ -58438,7 +58438,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "052df3e8c6f399ab8697ee61fdce2f33.jpg",
     "images": [
       "052df3e8c6f399ab8697ee61fdce2f33.jpg"
@@ -58452,7 +58452,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0b47a5cc583c0f7252cdd67f862d2df7.jpg",
     "images": [
       "0b47a5cc583c0f7252cdd67f862d2df7.jpg"
@@ -58466,7 +58466,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9759456c8fd733c94515676f5dd34460.jpg",
     "images": [
       "9759456c8fd733c94515676f5dd34460.jpg"
@@ -58480,7 +58480,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "450d534e66b7559dd2f45c139f9c71a3.jpg",
     "images": [
       "450d534e66b7559dd2f45c139f9c71a3.jpg"
@@ -58494,7 +58494,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "1f4199901dbc37fd3bfe114aaf4c4618.jpg",
     "images": [
       "1f4199901dbc37fd3bfe114aaf4c4618.jpg"
@@ -58508,7 +58508,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5068a3585e1dfc4d845de88d3092e9e5.jpg",
     "images": [
       "5068a3585e1dfc4d845de88d3092e9e5.jpg"
@@ -58522,7 +58522,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ddba5ddb9608e8bc75d31b34963b950d.jpg",
     "images": [
       "ddba5ddb9608e8bc75d31b34963b950d.jpg"
@@ -58536,7 +58536,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "771ff2dcbc6debbd96a9c7f2ddce744f.jpg",
     "images": [
       "771ff2dcbc6debbd96a9c7f2ddce744f.jpg"
@@ -58550,7 +58550,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b4872466d7e8ae9adcabcdeb4823aa3e.jpg",
     "images": [
       "b4872466d7e8ae9adcabcdeb4823aa3e.jpg"
@@ -58564,7 +58564,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4c2ab445e50e5e2f065365642b495577.jpg",
     "images": [
       "4c2ab445e50e5e2f065365642b495577.jpg"
@@ -58578,7 +58578,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "667a97f8833b2ad120546fd4693774e6.jpg",
     "images": [
       "667a97f8833b2ad120546fd4693774e6.jpg"
@@ -58592,7 +58592,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ac1312e32d7033338c68d20af3e14a02.jpg",
     "images": [
       "ac1312e32d7033338c68d20af3e14a02.jpg"
@@ -58606,7 +58606,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "99edb909a88f174d719fdf812acfba42.jpg",
     "images": [
       "99edb909a88f174d719fdf812acfba42.jpg"
@@ -58620,7 +58620,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f8000c86d8b64283dd7a460855bafcb5.jpg",
     "images": [
       "f8000c86d8b64283dd7a460855bafcb5.jpg"
@@ -58634,7 +58634,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "203fac747552282dfec8f9b45b59860b.jpg",
     "images": [
       "203fac747552282dfec8f9b45b59860b.jpg"
@@ -58648,7 +58648,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "197838a61e741f1541dd34b1f2eaed64.jpg",
     "images": [
       "197838a61e741f1541dd34b1f2eaed64.jpg"
@@ -58662,7 +58662,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "44926999df3d979b9c455bbed6c1ab26.jpg",
     "images": [
       "44926999df3d979b9c455bbed6c1ab26.jpg"
@@ -58676,7 +58676,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "cdbeb7117a0b0f4dc806338ebcac23cd.jpg",
     "images": [
       "cdbeb7117a0b0f4dc806338ebcac23cd.jpg"
@@ -58690,7 +58690,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2d2690e6f8b118937e20a5216332a1b4.jpg",
     "images": [
       "2d2690e6f8b118937e20a5216332a1b4.jpg"
@@ -58704,7 +58704,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "684becda201874daffa66c022ea59811.jpg",
     "images": [
       "684becda201874daffa66c022ea59811.jpg"
@@ -58718,7 +58718,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0ed2f3b7ab4685a26c63d51c8189aee8.jpg",
     "images": [
       "0ed2f3b7ab4685a26c63d51c8189aee8.jpg"
@@ -58732,7 +58732,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7da3a5916ad9598d79735ff1b6850058.jpg",
     "images": [
       "7da3a5916ad9598d79735ff1b6850058.jpg"
@@ -58746,7 +58746,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ad337e57bb11c536e58519e1963178fb.jpg",
     "images": [
       "ad337e57bb11c536e58519e1963178fb.jpg"
@@ -58760,7 +58760,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b4f49a26a9eb90e7c01035da709e41de.jpg",
     "images": [
       "b4f49a26a9eb90e7c01035da709e41de.jpg"
@@ -58774,7 +58774,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "52879ca0c1620eb1c0c4a8d14fc3f083.jpg",
     "images": [
       "52879ca0c1620eb1c0c4a8d14fc3f083.jpg"
@@ -58788,7 +58788,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "af0c6a22601e381d08f0089a113b7e5e.jpg",
     "images": [
       "af0c6a22601e381d08f0089a113b7e5e.jpg"
@@ -58802,7 +58802,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "21c701477687dee9a36f2befa6eb0dcf.jpg",
     "images": [
       "21c701477687dee9a36f2befa6eb0dcf.jpg"
@@ -58816,7 +58816,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d040a5473ed024b0ec80ad2eb203a53d.jpg",
     "images": [
       "d040a5473ed024b0ec80ad2eb203a53d.jpg"
@@ -58830,7 +58830,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e6ac56655d485c4ecd0c1dc496711cc5.jpg",
     "images": [
       "e6ac56655d485c4ecd0c1dc496711cc5.jpg"
@@ -58844,7 +58844,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d2798b06bb3caff62a3e2ba0e3fe4cf3.jpg",
     "images": [
       "d2798b06bb3caff62a3e2ba0e3fe4cf3.jpg"
@@ -58858,7 +58858,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ad4b21de23632790958db91c8fa7835d.jpg",
     "images": [
       "ad4b21de23632790958db91c8fa7835d.jpg"
@@ -58872,7 +58872,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7c0c97543c5bbb1aa7f93ea224f541a0.jpg",
     "images": [
       "7c0c97543c5bbb1aa7f93ea224f541a0.jpg"
@@ -58886,7 +58886,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9654cf164a808c3299da18c9fda14beb.jpg",
     "images": [
       "9654cf164a808c3299da18c9fda14beb.jpg"
@@ -58900,7 +58900,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9fdaea5cd33fa5c137f2a76236ac1faa.jpg",
     "images": [
       "9fdaea5cd33fa5c137f2a76236ac1faa.jpg"
@@ -58914,7 +58914,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "500a496d0a8b0272e447e65712be4cda.jpg",
     "images": [
       "500a496d0a8b0272e447e65712be4cda.jpg"
@@ -58928,7 +58928,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f84a8216ab0a53d3f610d36c9a040eab.jpg",
     "images": [
       "f84a8216ab0a53d3f610d36c9a040eab.jpg"
@@ -58942,7 +58942,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "648bce7f28dea2c9569f596a5105e086.jpg",
     "images": [
       "648bce7f28dea2c9569f596a5105e086.jpg"
@@ -58956,7 +58956,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "24ed3ccd41e4df70c64e753a3e16113c.jpg",
     "images": [
       "24ed3ccd41e4df70c64e753a3e16113c.jpg"
@@ -58970,7 +58970,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_월가드(WALLGUARD)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "aae30d9653b158deae87e87ce8c7ce50.jpg",
     "images": [
       "aae30d9653b158deae87e87ce8c7ce50.jpg"
@@ -58984,7 +58984,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9fe1bc3c0ea5de02f0701c505c991d7b.jpg",
     "images": [
       "9fe1bc3c0ea5de02f0701c505c991d7b.jpg"
@@ -58998,7 +58998,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "3b3c8ced0b941e9f431f04fc8da5607a.jpg",
     "images": [
       "3b3c8ced0b941e9f431f04fc8da5607a.jpg"
@@ -59012,7 +59012,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5ba50ff0d001aaf4c2bd325bedc964c2.jpg",
     "images": [
       "5ba50ff0d001aaf4c2bd325bedc964c2.jpg"
@@ -59026,7 +59026,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "313b7edf835232538e4837d77c73b515.jpg",
     "images": [
       "313b7edf835232538e4837d77c73b515.jpg"
@@ -59040,7 +59040,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "82b23d8770a2c2f5ac55b2a89e8d5569.jpg",
     "images": [
       "82b23d8770a2c2f5ac55b2a89e8d5569.jpg"
@@ -59054,7 +59054,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7af1bacbb6af56989f3ca61399ae8118.jpg",
     "images": [
       "7af1bacbb6af56989f3ca61399ae8118.jpg"
@@ -59068,7 +59068,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4d99a3196a2b2f19ba937c599cb880f4.jpg",
     "images": [
       "4d99a3196a2b2f19ba937c599cb880f4.jpg"
@@ -59082,7 +59082,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d5d801904c4b37f798dd567d1d175a79.jpg",
     "images": [
       "d5d801904c4b37f798dd567d1d175a79.jpg"
@@ -59096,7 +59096,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b3a75291134e36d9228996435a37a295.jpg",
     "images": [
       "b3a75291134e36d9228996435a37a295.jpg"
@@ -59110,7 +59110,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "27a709dfef333e9b6191393b0476e443.jpg",
     "images": [
       "27a709dfef333e9b6191393b0476e443.jpg"
@@ -59124,7 +59124,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a485f7fcd35603b468916fc41f7ddfcc.jpg",
     "images": [
       "a485f7fcd35603b468916fc41f7ddfcc.jpg"
@@ -59138,7 +59138,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "15d3e2a81c3117bebb73ab59688652d5.jpg",
     "images": [
       "15d3e2a81c3117bebb73ab59688652d5.jpg"
@@ -59152,7 +59152,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "06908374dd87eeaebe83cdb47af54817.jpg",
     "images": [
       "06908374dd87eeaebe83cdb47af54817.jpg"
@@ -59166,7 +59166,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2ed3f32c2e5d0c8ecd1903c2f549710a.jpg",
     "images": [
       "2ed3f32c2e5d0c8ecd1903c2f549710a.jpg"
@@ -59180,7 +59180,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a14dbde2818f3f9d2d23776ec0735828.jpg",
     "images": [
       "a14dbde2818f3f9d2d23776ec0735828.jpg"
@@ -59194,7 +59194,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a5cd126546002e1cbc5be4f475d604df.jpg",
     "images": [
       "a5cd126546002e1cbc5be4f475d604df.jpg"
@@ -59208,7 +59208,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "194a146d682a245018e93862c8d2cd63.jpg",
     "images": [
       "194a146d682a245018e93862c8d2cd63.jpg"
@@ -59222,7 +59222,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e6270b03e2bb849432c4986bcb8d830d.jpg",
     "images": [
       "e6270b03e2bb849432c4986bcb8d830d.jpg"
@@ -59236,7 +59236,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9be0de4fff44dee57e840c953e3f759e.jpg",
     "images": [
       "9be0de4fff44dee57e840c953e3f759e.jpg"
@@ -59250,7 +59250,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e59ec36e685d3fec21275b03a814c3ad.jpg",
     "images": [
       "e59ec36e685d3fec21275b03a814c3ad.jpg"
@@ -59264,7 +59264,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "cb3f70ba2b6cddf350057ae9340629a0.jpg",
     "images": [
       "cb3f70ba2b6cddf350057ae9340629a0.jpg"
@@ -59278,7 +59278,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f09b981390206a6817253e27566fe605.jpg",
     "images": [
       "f09b981390206a6817253e27566fe605.jpg"
@@ -59292,7 +59292,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "73f593514223c85ca6370d3a58965178.jpg",
     "images": [
       "73f593514223c85ca6370d3a58965178.jpg"
@@ -59306,7 +59306,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c7b3cf677e2a59bfdfd3f965b2f69a7e.jpg",
     "images": [
       "c7b3cf677e2a59bfdfd3f965b2f69a7e.jpg"
@@ -59320,7 +59320,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4bb410a6c63df42f9ff2b6e6a315b729.jpg",
     "images": [
       "4bb410a6c63df42f9ff2b6e6a315b729.jpg"
@@ -59334,7 +59334,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f1c370ecbcd99c1c0b6e11e834d4f2ee.jpg",
     "images": [
       "f1c370ecbcd99c1c0b6e11e834d4f2ee.jpg"
@@ -59348,7 +59348,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "fb2f024f710a299ecdf1a4ea844947d4.jpg",
     "images": [
       "fb2f024f710a299ecdf1a4ea844947d4.jpg"
@@ -59362,7 +59362,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4890ea8372bc852f37db4d7b77b5b643.jpg",
     "images": [
       "4890ea8372bc852f37db4d7b77b5b643.jpg"
@@ -59376,7 +59376,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "784268dd6fa8ec7421da9a6cbe1b2e4b.jpg",
     "images": [
       "784268dd6fa8ec7421da9a6cbe1b2e4b.jpg"
@@ -59390,7 +59390,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "aa6597b8ab57d09f82d70883e7503c86.jpg",
     "images": [
       "aa6597b8ab57d09f82d70883e7503c86.jpg"
@@ -59404,7 +59404,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6446689deb0b48c83e676bbe4020cd11.jpg",
     "images": [
       "6446689deb0b48c83e676bbe4020cd11.jpg"
@@ -59418,7 +59418,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "34a656dfcd2f635753a3a6127a6f5204.jpg",
     "images": [
       "34a656dfcd2f635753a3a6127a6f5204.jpg"
@@ -59432,7 +59432,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "49a8330a3309340252abb99c8a38d1c7.jpg",
     "images": [
       "49a8330a3309340252abb99c8a38d1c7.jpg"
@@ -59446,7 +59446,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "196a950994d6fede773bcb4f31f8f513.jpg",
     "images": [
       "196a950994d6fede773bcb4f31f8f513.jpg"
@@ -59460,7 +59460,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4c6a07074a49f03945f345148b603725.jpg",
     "images": [
       "4c6a07074a49f03945f345148b603725.jpg"
@@ -59474,7 +59474,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0fbb776f9fb9e333e6f75f1a23a0d8f5.jpg",
     "images": [
       "0fbb776f9fb9e333e6f75f1a23a0d8f5.jpg"
@@ -59488,7 +59488,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b7885eb83a57900b8f0e20b1daf0e95d.jpg",
     "images": [
       "b7885eb83a57900b8f0e20b1daf0e95d.jpg"
@@ -59502,7 +59502,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f83674df01481ec70f220c7dc489071a.jpg",
     "images": [
       "f83674df01481ec70f220c7dc489071a.jpg"
@@ -59516,7 +59516,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8ca910ebaa83110ddd1e615ab72e4606.jpg",
     "images": [
       "8ca910ebaa83110ddd1e615ab72e4606.jpg"
@@ -59530,7 +59530,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "1302c4ce188f67fc1b35a1817d0aba04.jpg",
     "images": [
       "1302c4ce188f67fc1b35a1817d0aba04.jpg"
@@ -59544,7 +59544,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d2747ace9281130fd452d74233ac0284.jpg",
     "images": [
       "d2747ace9281130fd452d74233ac0284.jpg"
@@ -59558,7 +59558,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a199c70e02b130c603b4e490e417866f.jpg",
     "images": [
       "a199c70e02b130c603b4e490e417866f.jpg"
@@ -59572,7 +59572,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "dafc54a8d6ecf648f090e7249b39c4b4.jpg",
     "images": [
       "dafc54a8d6ecf648f090e7249b39c4b4.jpg"
@@ -59586,7 +59586,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4d8dfa4d9e7a32677e0cd9ca22ffe7d6.jpg",
     "images": [
       "4d8dfa4d9e7a32677e0cd9ca22ffe7d6.jpg"
@@ -59600,7 +59600,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "fd52bbe619bee1c3ea3677586a3ccd44.jpg",
     "images": [
       "fd52bbe619bee1c3ea3677586a3ccd44.jpg"
@@ -59614,7 +59614,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4d40b5a5e4290a0a579566d987bc2624.jpg",
     "images": [
       "4d40b5a5e4290a0a579566d987bc2624.jpg"
@@ -59628,7 +59628,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6cf30f8b6464c36d0bf68a3bcb2ac13a.jpg",
     "images": [
       "6cf30f8b6464c36d0bf68a3bcb2ac13a.jpg"
@@ -59642,7 +59642,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "78e95e0e3461449361d40183dfad6d93.jpg",
     "images": [
       "78e95e0e3461449361d40183dfad6d93.jpg"
@@ -59656,7 +59656,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f542c8cec366231d368fc0eeb3f7402a.jpg",
     "images": [
       "f542c8cec366231d368fc0eeb3f7402a.jpg"
@@ -59670,7 +59670,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a2109c1a94fbd2d3b30d18ec98232c2a.jpg",
     "images": [
       "a2109c1a94fbd2d3b30d18ec98232c2a.jpg"
@@ -59684,7 +59684,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a0d9a08ac3f95e7230f01e0a2e47ccce.jpg",
     "images": [
       "a0d9a08ac3f95e7230f01e0a2e47ccce.jpg"
@@ -59698,7 +59698,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4e8596b9b20c8d8c1114947596c52250.jpg",
     "images": [
       "4e8596b9b20c8d8c1114947596c52250.jpg"
@@ -59712,7 +59712,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a16d65a01aa179a32c90c2895f17e158.jpg",
     "images": [
       "a16d65a01aa179a32c90c2895f17e158.jpg"
@@ -59726,7 +59726,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9188b41522c576b99b4fd8df7b5350f5.jpg",
     "images": [
       "9188b41522c576b99b4fd8df7b5350f5.jpg"
@@ -59740,7 +59740,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2cc184290046133b861f82b7d81be2fc.jpg",
     "images": [
       "2cc184290046133b861f82b7d81be2fc.jpg"
@@ -59754,7 +59754,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "07c1393b06d31bd5715bd356e0f5cfe3.jpg",
     "images": [
       "07c1393b06d31bd5715bd356e0f5cfe3.jpg"
@@ -59768,7 +59768,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0d4fbed9ec0a38884457af56be760ee4.jpg",
     "images": [
       "0d4fbed9ec0a38884457af56be760ee4.jpg"
@@ -59782,7 +59782,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "377b38843bef0854328a3ddf0f3c4290.jpg",
     "images": [
       "377b38843bef0854328a3ddf0f3c4290.jpg"
@@ -59796,7 +59796,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d515889593b285cad483ce18564a20fa.jpg",
     "images": [
       "d515889593b285cad483ce18564a20fa.jpg"
@@ -59810,7 +59810,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "3185fbfcc1f77555a076d367367d7067.jpg",
     "images": [
       "3185fbfcc1f77555a076d367367d7067.jpg"
@@ -59824,7 +59824,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "321201c89fd125b29949c2926813b1d2.jpg",
     "images": [
       "321201c89fd125b29949c2926813b1d2.jpg"
@@ -59838,7 +59838,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2dbee4f0b36f25ee62cf118ad0696ef2.jpg",
     "images": [
       "2dbee4f0b36f25ee62cf118ad0696ef2.jpg"
@@ -59852,7 +59852,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c8c3a41eade56ceaac053364743a4e76.jpg",
     "images": [
       "c8c3a41eade56ceaac053364743a4e76.jpg"
@@ -59866,7 +59866,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d312c744224aee9c0f9d32f09747e8c0.jpg",
     "images": [
       "d312c744224aee9c0f9d32f09747e8c0.jpg"
@@ -59880,7 +59880,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c03a30e94797d2f39a446bd51c14935e.jpg",
     "images": [
       "c03a30e94797d2f39a446bd51c14935e.jpg"
@@ -59894,7 +59894,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e471bb354881fd06512d9f00d632d537.jpg",
     "images": [
       "e471bb354881fd06512d9f00d632d537.jpg"
@@ -59908,7 +59908,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "686404404f9444bcf9d813d82f737412.jpg",
     "images": [
       "686404404f9444bcf9d813d82f737412.jpg"
@@ -59922,7 +59922,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "79dfb5c3e49499b59486f7f5f9de5985.jpg",
     "images": [
       "79dfb5c3e49499b59486f7f5f9de5985.jpg"
@@ -59936,7 +59936,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f2f2178e8deda34b3e03a9067f7844df.jpg",
     "images": [
       "f2f2178e8deda34b3e03a9067f7844df.jpg"
@@ -59950,7 +59950,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "78586e5822d1f5333a8b6fe52362aebb.jpg",
     "images": [
       "78586e5822d1f5333a8b6fe52362aebb.jpg"
@@ -59964,7 +59964,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "62c6ff0588b3e122c132ea1b2dc00623.jpg",
     "images": [
       "62c6ff0588b3e122c132ea1b2dc00623.jpg"
@@ -59978,7 +59978,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8f266cd6d6e06181bdfd1b2eecfe3f44.jpg",
     "images": [
       "8f266cd6d6e06181bdfd1b2eecfe3f44.jpg"
@@ -59992,7 +59992,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e703d3dbca4a5ed1a6004903f436851f.jpg",
     "images": [
       "e703d3dbca4a5ed1a6004903f436851f.jpg"
@@ -60006,7 +60006,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "1af5495588f22e8fd2b0220461106bc0.jpg",
     "images": [
       "1af5495588f22e8fd2b0220461106bc0.jpg"
@@ -60020,7 +60020,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "179fd6f8e7b30cad58d029dba8039916.jpg",
     "images": [
       "179fd6f8e7b30cad58d029dba8039916.jpg"
@@ -60034,7 +60034,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e205e0ec5d9c4828cac816bd03da2236.jpg",
     "images": [
       "e205e0ec5d9c4828cac816bd03da2236.jpg"
@@ -60048,7 +60048,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "73c48087bbc0acb55317a9ce084e82c5.jpg",
     "images": [
       "73c48087bbc0acb55317a9ce084e82c5.jpg"
@@ -60062,7 +60062,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f5fa7746a591fbea4b938910eaec62dd.jpg",
     "images": [
       "f5fa7746a591fbea4b938910eaec62dd.jpg"
@@ -60076,7 +60076,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b3ae2464eab7dd77b8613e5886cae30c.jpg",
     "images": [
       "b3ae2464eab7dd77b8613e5886cae30c.jpg"
@@ -60090,7 +60090,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "3b70e7f193a5a5e78731cf80d32ee487.jpg",
     "images": [
       "3b70e7f193a5a5e78731cf80d32ee487.jpg"
@@ -60104,7 +60104,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "실크_신한벽지_파사드(FACADE)",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0c45a2e4344d938d01de2b3b0eb00167.jpg",
     "images": [
       "0c45a2e4344d938d01de2b3b0eb00167.jpg"
@@ -60118,7 +60118,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "3de81c3281d787749bdcd2a26c38d916.jpg",
     "images": [
       "3de81c3281d787749bdcd2a26c38d916.jpg"
@@ -60132,7 +60132,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "c0201e2cbdcf4a3c0accbad29d9a827f.jpg",
     "images": [
       "c0201e2cbdcf4a3c0accbad29d9a827f.jpg"
@@ -60146,7 +60146,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "18f9a040497a6a5767c6d970ceda5a7f.jpg",
     "images": [
       "18f9a040497a6a5767c6d970ceda5a7f.jpg"
@@ -60160,7 +60160,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "792a5221bac5282ff2db16fd06a91d2a.jpg",
     "images": [
       "792a5221bac5282ff2db16fd06a91d2a.jpg"
@@ -60174,7 +60174,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "06cc2c8a0081bc2f0884b1b750a65cfd.jpg",
     "images": [
       "06cc2c8a0081bc2f0884b1b750a65cfd.jpg"
@@ -60188,7 +60188,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "f04b20b9c87a4ee84113bba2eb3ee8e3.jpg",
     "images": [
       "f04b20b9c87a4ee84113bba2eb3ee8e3.jpg"
@@ -60202,7 +60202,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "430d3e567716fbbc85a99623d8d36855.jpg",
     "images": [
       "430d3e567716fbbc85a99623d8d36855.jpg"
@@ -60216,7 +60216,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "97988a18b2713e8a9303266cb1afdfab.jpg",
     "images": [
       "97988a18b2713e8a9303266cb1afdfab.jpg"
@@ -60230,7 +60230,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "e65eebe6eadacdee888928cf007b86fe.jpg",
     "images": [
       "e65eebe6eadacdee888928cf007b86fe.jpg"
@@ -60244,7 +60244,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "f68612f07b562c66a4dd0e106f34190f.jpg",
     "images": [
       "f68612f07b562c66a4dd0e106f34190f.jpg"
@@ -60258,7 +60258,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "4edcce7d77dd44373c6143f4c212dc81.jpg",
     "images": [
       "4edcce7d77dd44373c6143f4c212dc81.jpg"
@@ -60272,7 +60272,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "772d946114ab9e4dfd30a63f2b0087c6.jpg",
     "images": [
       "772d946114ab9e4dfd30a63f2b0087c6.jpg"
@@ -60286,7 +60286,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "e14e93bcbecabf4ba011da9a53805ee6.jpg",
     "images": [
       "e14e93bcbecabf4ba011da9a53805ee6.jpg"
@@ -60300,7 +60300,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "d89fbcfbbb8f36ca4c31d5ff887272be.jpg",
     "images": [
       "d89fbcfbbb8f36ca4c31d5ff887272be.jpg"
@@ -60314,7 +60314,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "593a6bbf5af9d4c74f270367c3392048.jpg",
     "images": [
       "593a6bbf5af9d4c74f270367c3392048.jpg"
@@ -60328,7 +60328,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "0d66f3663e34f4c121eb97aee751b7fa.jpg",
     "images": [
       "0d66f3663e34f4c121eb97aee751b7fa.jpg"
@@ -60342,7 +60342,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "fef4b1da7c1723913ba3e4de2be4f9be.jpg",
     "images": [
       "fef4b1da7c1723913ba3e4de2be4f9be.jpg"
@@ -60356,7 +60356,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "47781aa5d6e00fa4b58e351ce88dd5ab.jpg",
     "images": [
       "47781aa5d6e00fa4b58e351ce88dd5ab.jpg"
@@ -60370,7 +60370,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "664fb7887bd8f26472baadae3c206bda.jpg",
     "images": [
       "664fb7887bd8f26472baadae3c206bda.jpg"
@@ -60384,7 +60384,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "9e663a37bcbef5959a09cd9911aa69ab.jpg",
     "images": [
       "9e663a37bcbef5959a09cd9911aa69ab.jpg"
@@ -60398,7 +60398,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "a632774c5e079f6c04f73afd479009c6.jpg",
     "images": [
       "a632774c5e079f6c04f73afd479009c6.jpg"
@@ -60412,7 +60412,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "458e2fcf1da93b39fce88440a62aa710.jpg",
     "images": [
       "458e2fcf1da93b39fce88440a62aa710.jpg"
@@ -60426,7 +60426,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "3145988a3addfc7ff590aac21ef15cd1.jpg",
     "images": [
       "3145988a3addfc7ff590aac21ef15cd1.jpg"
@@ -60440,7 +60440,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "d27be8728ac809125f383ac9f8d00aa8.jpg",
     "images": [
       "d27be8728ac809125f383ac9f8d00aa8.jpg"
@@ -60454,7 +60454,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "e0dd441c40d3a91ae7b8fec8c3117755.jpg",
     "images": [
       "e0dd441c40d3a91ae7b8fec8c3117755.jpg"
@@ -60468,7 +60468,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "accfc70144bb0e6ee2f599807adfc9c7.jpg",
     "images": [
       "accfc70144bb0e6ee2f599807adfc9c7.jpg"
@@ -60482,7 +60482,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "28c85fb4c3a8a8362e99c5de166f7850.jpg",
     "images": [
       "28c85fb4c3a8a8362e99c5de166f7850.jpg"
@@ -60496,7 +60496,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "6f5b6cc3c0c388e1e6a7e9db95d62fe1.jpg",
     "images": [
       "6f5b6cc3c0c388e1e6a7e9db95d62fe1.jpg"
@@ -60510,7 +60510,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "bb02900b25503d96847198e4faffb491.jpg",
     "images": [
       "bb02900b25503d96847198e4faffb491.jpg"
@@ -60524,7 +60524,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "89b0081fe6dd9bdcded3c51204dd7dbe.jpg",
     "images": [
       "89b0081fe6dd9bdcded3c51204dd7dbe.jpg"
@@ -60538,7 +60538,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "8eec108d63bc222a27f53cd64834aa22.jpg",
     "images": [
       "8eec108d63bc222a27f53cd64834aa22.jpg"
@@ -60552,7 +60552,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "a4f20392426177138feea71d2fc370c8.jpg",
     "images": [
       "a4f20392426177138feea71d2fc370c8.jpg"
@@ -60566,7 +60566,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "a4e1a67f756f8b5bc6a568532a870518.jpg",
     "images": [
       "a4e1a67f756f8b5bc6a568532a870518.jpg"
@@ -60580,7 +60580,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "50e4aa21b95433bd54bafdbe7b33dab6.jpg",
     "images": [
       "50e4aa21b95433bd54bafdbe7b33dab6.jpg"
@@ -60594,7 +60594,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "c95904daf1b809df8a34f4a7184ab25e.jpg",
     "images": [
       "c95904daf1b809df8a34f4a7184ab25e.jpg"
@@ -60608,7 +60608,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "0ac5086181cf86948ea88d2f073fd7f5.jpg",
     "images": [
       "0ac5086181cf86948ea88d2f073fd7f5.jpg"
@@ -60622,7 +60622,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "2bd327f83fff46e29e943992ea6fa6bf.jpg",
     "images": [
       "2bd327f83fff46e29e943992ea6fa6bf.jpg"
@@ -60636,7 +60636,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "bd6342858e7eb741133f0b5bb76a503b.jpg",
     "images": [
       "bd6342858e7eb741133f0b5bb76a503b.jpg"
@@ -60650,7 +60650,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "b453137721f73c49b57d05c4553edc52.jpg",
     "images": [
       "b453137721f73c49b57d05c4553edc52.jpg"
@@ -60664,7 +60664,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "a38fcfa4796569054ad1137e829647ba.jpg",
     "images": [
       "a38fcfa4796569054ad1137e829647ba.jpg"
@@ -60678,7 +60678,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "b74bd457991ee49a1ed8ec77b839124d.jpg",
     "images": [
       "b74bd457991ee49a1ed8ec77b839124d.jpg"
@@ -60692,7 +60692,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "c38b1a50620d189e5a743c7e23f433c0.jpg",
     "images": [
       "c38b1a50620d189e5a743c7e23f433c0.jpg"
@@ -60706,7 +60706,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "eab9dc1fc359729f95c2242abd50dc1c.jpg",
     "images": [
       "eab9dc1fc359729f95c2242abd50dc1c.jpg"
@@ -60720,7 +60720,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "5a8eaf5d5ed0fb3cc25a08f7825e95ff.jpg",
     "images": [
       "5a8eaf5d5ed0fb3cc25a08f7825e95ff.jpg"
@@ -60734,7 +60734,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "cb9fad3c22b48e071fc94dc889013507.jpg",
     "images": [
       "cb9fad3c22b48e071fc94dc889013507.jpg"
@@ -60748,7 +60748,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "970bf618a6a87852118a7344847fdda6.jpg",
     "images": [
       "970bf618a6a87852118a7344847fdda6.jpg"
@@ -60762,7 +60762,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "d64e50072a62cb91df89572ef9f80a52.jpg",
     "images": [
       "d64e50072a62cb91df89572ef9f80a52.jpg"
@@ -60776,7 +60776,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "8965697a11dbf90672f65ec1cf311483.jpg",
     "images": [
       "8965697a11dbf90672f65ec1cf311483.jpg"
@@ -60790,7 +60790,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "1850688c18258b05a94622bae48db5ef.jpg",
     "images": [
       "1850688c18258b05a94622bae48db5ef.jpg"
@@ -60804,7 +60804,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "920479421f6d083085271f2c3ce97b44.jpg",
     "images": [
       "920479421f6d083085271f2c3ce97b44.jpg"
@@ -60818,7 +60818,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "fa8d5f8eb0a99409392b50c54ccc2f20.jpg",
     "images": [
       "fa8d5f8eb0a99409392b50c54ccc2f20.jpg"
@@ -60832,7 +60832,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "705b29bfe7fc2d9a2f5a15761144b4aa.jpg",
     "images": [
       "705b29bfe7fc2d9a2f5a15761144b4aa.jpg"
@@ -60846,7 +60846,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "bb535dfcb3a550610731b87b1a9ed5e4.jpg",
     "images": [
       "bb535dfcb3a550610731b87b1a9ed5e4.jpg"
@@ -60860,7 +60860,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "f04a85ee0f4e33516b34b43090e9c6a4.jpg",
     "images": [
       "f04a85ee0f4e33516b34b43090e9c6a4.jpg"
@@ -60874,7 +60874,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "01e0aa0267953445de94f5892d9c710a.jpg",
     "images": [
       "01e0aa0267953445de94f5892d9c710a.jpg"
@@ -60888,7 +60888,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "2dc04974422377a6fe0016d5eded370e.jpg",
     "images": [
       "2dc04974422377a6fe0016d5eded370e.jpg"
@@ -60902,7 +60902,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "ab62d19b07bf92bea29dadd60111d8a3.jpg",
     "images": [
       "ab62d19b07bf92bea29dadd60111d8a3.jpg"
@@ -60916,7 +60916,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "499df0155bebaef80894d05ccf0368d5.jpg",
     "images": [
       "499df0155bebaef80894d05ccf0368d5.jpg"
@@ -60930,7 +60930,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "888415ed7e9949dc15c4bf83bdb83def.jpg",
     "images": [
       "888415ed7e9949dc15c4bf83bdb83def.jpg"
@@ -60944,7 +60944,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "c14cc56873f57cffadf9f2850f404b9b.jpg",
     "images": [
       "c14cc56873f57cffadf9f2850f404b9b.jpg"
@@ -60958,7 +60958,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "7e795a27e61d79c1d7e6e6556163bf7b.jpg",
     "images": [
       "7e795a27e61d79c1d7e6e6556163bf7b.jpg"
@@ -60972,7 +60972,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "b1cac81afafb2929d0e5ef3b1ba7fd5b.jpg",
     "images": [
       "b1cac81afafb2929d0e5ef3b1ba7fd5b.jpg"
@@ -60986,7 +60986,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "d89208d53e77ef7639ce1f7be5e319d8.jpg",
     "images": [
       "d89208d53e77ef7639ce1f7be5e319d8.jpg"
@@ -61000,7 +61000,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "27e46efc53be5d6c22d778e6b7183ad6.jpg",
     "images": [
       "27e46efc53be5d6c22d778e6b7183ad6.jpg"
@@ -61014,7 +61014,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "b716dfdc7dc33ef528f85dbd72391a2f.jpg",
     "images": [
       "b716dfdc7dc33ef528f85dbd72391a2f.jpg"
@@ -61028,7 +61028,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "8992581adbf1b39aec00f911435b7bfe.jpg",
     "images": [
       "8992581adbf1b39aec00f911435b7bfe.jpg"
@@ -61042,7 +61042,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "5dd852add3c878cc88c285158975cd80.jpg",
     "images": [
       "5dd852add3c878cc88c285158975cd80.jpg"
@@ -61056,7 +61056,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "88456558421ee9b05f2291224caaf0c2.jpg",
     "images": [
       "88456558421ee9b05f2291224caaf0c2.jpg"
@@ -61070,7 +61070,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_아이리스(IRIS)",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "b0c86e07958b9173a137a87a6082170d.jpg",
     "images": [
       "b0c86e07958b9173a137a87a6082170d.jpg"
@@ -61084,7 +61084,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "51d57e3a92718bcf699c7342c37bdb1b.jpg",
     "images": [
       "51d57e3a92718bcf699c7342c37bdb1b.jpg"
@@ -61098,7 +61098,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "8da4cbc2a5d0c544f0b677fa20b09467.jpg",
     "images": [
       "8da4cbc2a5d0c544f0b677fa20b09467.jpg"
@@ -61112,7 +61112,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "58173d2dec3e5dd22608324f7b16de61.jpg",
     "images": [
       "58173d2dec3e5dd22608324f7b16de61.jpg"
@@ -61126,7 +61126,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "236a09ca03a88653f114d1023224efcd.jpg",
     "images": [
       "236a09ca03a88653f114d1023224efcd.jpg"
@@ -61140,7 +61140,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "94b4def1e16a638228ef1d68dd693e09.jpg",
     "images": [
       "94b4def1e16a638228ef1d68dd693e09.jpg"
@@ -61154,7 +61154,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "370c23639b989ad7616de9ad498e501c.jpg",
     "images": [
       "370c23639b989ad7616de9ad498e501c.jpg"
@@ -61168,7 +61168,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "2ec030b1117c1a67706e28aae01be257.jpg",
     "images": [
       "2ec030b1117c1a67706e28aae01be257.jpg"
@@ -61182,7 +61182,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "74c5c3bdb9fa4fa0991af935babd3650.jpg",
     "images": [
       "74c5c3bdb9fa4fa0991af935babd3650.jpg"
@@ -61196,7 +61196,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "f194cf5e071a8bef5dc911a44bde2a10.jpg",
     "images": [
       "f194cf5e071a8bef5dc911a44bde2a10.jpg"
@@ -61210,7 +61210,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "16826d3608b3cbf0ecd0eb98f8d0b115.jpg",
     "images": [
       "16826d3608b3cbf0ecd0eb98f8d0b115.jpg"
@@ -61224,7 +61224,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "7a61a08558b35042efc27caecc29eacf.jpg",
     "images": [
       "7a61a08558b35042efc27caecc29eacf.jpg"
@@ -61238,7 +61238,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "d4de6b267e4a7392cadc63d90c6aa396.jpg",
     "images": [
       "d4de6b267e4a7392cadc63d90c6aa396.jpg"
@@ -61252,7 +61252,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "1bbcba9b64064f3b8f908c3184ddf7e5.jpg",
     "images": [
       "1bbcba9b64064f3b8f908c3184ddf7e5.jpg"
@@ -61266,7 +61266,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "463cc4c25f7de329bbe0d8270569b0e8.jpg",
     "images": [
       "463cc4c25f7de329bbe0d8270569b0e8.jpg"
@@ -61280,7 +61280,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "a5b69319b80b239e7cf1d47da8e736e7.jpg",
     "images": [
       "a5b69319b80b239e7cf1d47da8e736e7.jpg"
@@ -61294,7 +61294,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "76f19a467afa7ab3ef7c7dd01eb30e70.jpg",
     "images": [
       "76f19a467afa7ab3ef7c7dd01eb30e70.jpg"
@@ -61308,7 +61308,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "03608e1a1bfc0e951ec82fb8243c3df6.jpg",
     "images": [
       "03608e1a1bfc0e951ec82fb8243c3df6.jpg"
@@ -61322,7 +61322,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "db51cc9d335ccd78c7a2de959b11692c.jpg",
     "images": [
       "db51cc9d335ccd78c7a2de959b11692c.jpg"
@@ -61336,7 +61336,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "48550f7eaea2c37e762d349e9a883def.jpg",
     "images": [
       "48550f7eaea2c37e762d349e9a883def.jpg"
@@ -61350,7 +61350,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "58e21384ace812bf0ca0e4e970872444.jpg",
     "images": [
       "58e21384ace812bf0ca0e4e970872444.jpg"
@@ -61364,7 +61364,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "0e0ba65acdec46e009ea8509329f8b63.jpg",
     "images": [
       "0e0ba65acdec46e009ea8509329f8b63.jpg"
@@ -61378,7 +61378,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "b3769fbcd6a4023b2270f1fc3e296304.jpg",
     "images": [
       "b3769fbcd6a4023b2270f1fc3e296304.jpg"
@@ -61392,7 +61392,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "bd756aec18f23a57ae10996ea54d6c0f.jpg",
     "images": [
       "bd756aec18f23a57ae10996ea54d6c0f.jpg"
@@ -61406,7 +61406,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "dbf2ced4e5dca9377af183ba35970246.jpg",
     "images": [
       "dbf2ced4e5dca9377af183ba35970246.jpg"
@@ -61420,7 +61420,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "75f3c11777862167e1eae36f12c74b4d.jpg",
     "images": [
       "75f3c11777862167e1eae36f12c74b4d.jpg"
@@ -61434,7 +61434,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "86a3b7223d08462896bde0b66d7756bd.jpg",
     "images": [
       "86a3b7223d08462896bde0b66d7756bd.jpg"
@@ -61448,7 +61448,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "9dbfd1bd1a42ff513cc54a4b928f3837.jpg",
     "images": [
       "9dbfd1bd1a42ff513cc54a4b928f3837.jpg"
@@ -61462,7 +61462,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "8d0a9f2f13ce66f7af20a7257cebe763.jpg",
     "images": [
       "8d0a9f2f13ce66f7af20a7257cebe763.jpg"
@@ -61476,7 +61476,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "e855cfda2690c0f3ecaaa265735ce75d.jpg",
     "images": [
       "e855cfda2690c0f3ecaaa265735ce75d.jpg"
@@ -61490,7 +61490,7 @@ export const materials = [
     "brand": "신한(KCC)",
     "category": "벽지",
     "line": "합지_신한벽지_파인하임",
-    "price": 0,
+    "price": 23000,
     "thumbnail": "36d8adafb8dc1354bf44d1acf425344b.jpg",
     "images": [
       "36d8adafb8dc1354bf44d1acf425344b.jpg"
