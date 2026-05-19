@@ -515,12 +515,24 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                     price = 68000;
                 }
             } else if (brand === 'LX') {
-                if (line.includes('디아망') || uCode.startsWith('PR0') || uCode.startsWith('PRO') || uCode.startsWith('DF')) {
+                if (line.includes('방염') || (brandFolder && brandFolder.includes('방염')) || uCode.includes('방염')) {
+                    materialType = "방염";
+                } else if (line.includes('디아망') || uCode.startsWith('PR0') || uCode.startsWith('PRO') || uCode.startsWith('DF')) {
                     materialType = "디아망";
-                } else if (uCode.startsWith('4')) {
+                } else if (uCode.startsWith('4') || line.includes('합지')) {
                     materialType = "합지";
                 } else {
                     materialType = "실크";
+                }
+
+                if (materialType === "합지") {
+                    price = 23000;
+                } else if (materialType === "실크") {
+                    price = 45000;
+                } else if (materialType === "디아망") {
+                    price = 65000;
+                } else if (materialType === "방염") {
+                    price = 68000;
                 }
             } else if (brand === '제일') {
                 materialType = line.includes('실크') ? "실크" : "합지";

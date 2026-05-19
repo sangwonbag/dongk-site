@@ -15552,7 +15552,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "85328b5b1750780eb292a006302ef94a.jpg",
     "images": [
       "85328b5b1750780eb292a006302ef94a.jpg"
@@ -15566,7 +15566,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "48086db6936b84386bfa4e4ae3f41362.jpg",
     "images": [
       "48086db6936b84386bfa4e4ae3f41362.jpg"
@@ -15580,7 +15580,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "1d2888559d7135212f2cbc6fbbd13cd0.jpg",
     "images": [
       "1d2888559d7135212f2cbc6fbbd13cd0.jpg"
@@ -15594,7 +15594,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "8239776bf116fba2ea82bac421f304c3.jpg",
     "images": [
       "8239776bf116fba2ea82bac421f304c3.jpg"
@@ -15608,7 +15608,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "8bff27e8c6c2bf7d886c307270d364a6.jpg",
     "images": [
       "8bff27e8c6c2bf7d886c307270d364a6.jpg"
@@ -15622,7 +15622,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "70e2d64a514c8c4750025956972dc37d.jpg",
     "images": [
       "70e2d64a514c8c4750025956972dc37d.jpg"
@@ -15636,7 +15636,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "9140b0ca9c237cf1193ce4da7830b584.jpg",
     "images": [
       "9140b0ca9c237cf1193ce4da7830b584.jpg"
@@ -15650,7 +15650,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "5b2196b0f75ca58fee9f0e9a2782e08e.jpg",
     "images": [
       "5b2196b0f75ca58fee9f0e9a2782e08e.jpg"
@@ -15664,7 +15664,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "09d188af447322ae94ddae9248f2147d.jpg",
     "images": [
       "09d188af447322ae94ddae9248f2147d.jpg"
@@ -15678,7 +15678,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "8136812bced911711541fd73e4919d04.jpg",
     "images": [
       "8136812bced911711541fd73e4919d04.jpg"
@@ -15692,7 +15692,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "a73ae760a4c87da8b41c56cfb0db19f7.jpg",
     "images": [
       "a73ae760a4c87da8b41c56cfb0db19f7.jpg"
@@ -15706,7 +15706,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "037dda57cc3fcad5b5474382bbb5e055.jpg",
     "images": [
       "037dda57cc3fcad5b5474382bbb5e055.jpg"
@@ -15720,7 +15720,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "05c1736a368f304711a5ec6b5de5948f.jpg",
     "images": [
       "05c1736a368f304711a5ec6b5de5948f.jpg"
@@ -15734,7 +15734,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "692eab7f33266bf846602cb8388a9c72.jpg",
     "images": [
       "692eab7f33266bf846602cb8388a9c72.jpg"
@@ -15748,7 +15748,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "6aedd588f288dcfe8096da4e0a5c5965.jpg",
     "images": [
       "6aedd588f288dcfe8096da4e0a5c5965.jpg"
@@ -15762,7 +15762,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "cdba4bdcdb9a543fca6eec466a60ea95.jpg",
     "images": [
       "cdba4bdcdb9a543fca6eec466a60ea95.jpg"
@@ -15776,7 +15776,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "1626251ddf843fbf376cb52bd3f4f198.jpg",
     "images": [
       "1626251ddf843fbf376cb52bd3f4f198.jpg"
@@ -15790,7 +15790,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "674eb58596fee635e70e0e8f515e2b92.jpg",
     "images": [
       "674eb58596fee635e70e0e8f515e2b92.jpg"
@@ -15804,7 +15804,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "935d0eaababb6b9aa286d0ee6d3ea487.jpg",
     "images": [
       "935d0eaababb6b9aa286d0ee6d3ea487.jpg"
@@ -15818,7 +15818,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "d85edc15e4ca3334739a5062285db69a.jpg",
     "images": [
       "d85edc15e4ca3334739a5062285db69a.jpg"
@@ -15832,7 +15832,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "747ad0b71da687c23529bd979f08ba96.jpg",
     "images": [
       "747ad0b71da687c23529bd979f08ba96.jpg"
@@ -15846,7 +15846,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "2beb332256c42422f0d1bdeab12a5b76.jpg",
     "images": [
       "2beb332256c42422f0d1bdeab12a5b76.jpg"
@@ -15860,7 +15860,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "b91df187ce546ed0c87e4b68201575cd.jpg",
     "images": [
       "b91df187ce546ed0c87e4b68201575cd.jpg"
@@ -15874,7 +15874,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "0da93ba4fdfc43d432499b9bd1beda58.jpg",
     "images": [
       "0da93ba4fdfc43d432499b9bd1beda58.jpg"
@@ -15888,7 +15888,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "46699f0fef791882f1d6966beff21011.jpg",
     "images": [
       "46699f0fef791882f1d6966beff21011.jpg"
@@ -15902,7 +15902,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "82703eecb80f7bb92c35bc7d85ce69da.jpg",
     "images": [
       "82703eecb80f7bb92c35bc7d85ce69da.jpg"
@@ -15916,7 +15916,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "cd6435083a55c3af460cfdcb736ccd2e.jpg",
     "images": [
       "cd6435083a55c3af460cfdcb736ccd2e.jpg"
@@ -15930,7 +15930,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "cb7e43013e941e4be5b2a03e56030283.jpg",
     "images": [
       "cb7e43013e941e4be5b2a03e56030283.jpg"
@@ -15944,7 +15944,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "ce6f524311e70c16982cfd2022855c73.jpg",
     "images": [
       "ce6f524311e70c16982cfd2022855c73.jpg"
@@ -15958,7 +15958,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "c380be3341e3461c4a5c7a722a045b80.jpg",
     "images": [
       "c380be3341e3461c4a5c7a722a045b80.jpg"
@@ -15972,7 +15972,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "93c9fcf920e46ce5bc502a1b507b40bf.jpg",
     "images": [
       "93c9fcf920e46ce5bc502a1b507b40bf.jpg"
@@ -15986,7 +15986,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "aac627a1594067aee3b52e2cf1e82487.jpg",
     "images": [
       "aac627a1594067aee3b52e2cf1e82487.jpg"
@@ -16000,7 +16000,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "8cb2f5c4e0f47604bdd98a6409bfb3b2.jpg",
     "images": [
       "8cb2f5c4e0f47604bdd98a6409bfb3b2.jpg"
@@ -16014,7 +16014,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "5bf619e7425c72cd2b053d3af5c32cc5.jpg",
     "images": [
       "5bf619e7425c72cd2b053d3af5c32cc5.jpg"
@@ -16028,7 +16028,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "51f8e38829d99d89f2879810faeb42e3.jpg",
     "images": [
       "51f8e38829d99d89f2879810faeb42e3.jpg"
@@ -16042,7 +16042,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "85da8a6b5a5706e2a4996cf2e5f8b2f3.jpg",
     "images": [
       "85da8a6b5a5706e2a4996cf2e5f8b2f3.jpg"
@@ -16056,7 +16056,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "e246737f9fbafb739b1d8420b4bae02f.jpg",
     "images": [
       "e246737f9fbafb739b1d8420b4bae02f.jpg"
@@ -16070,7 +16070,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "1543000212162d784b71ee51c525d62f.jpg",
     "images": [
       "1543000212162d784b71ee51c525d62f.jpg"
@@ -16084,7 +16084,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "87b083e9dad2614d9ec623f02ffd222b.jpg",
     "images": [
       "87b083e9dad2614d9ec623f02ffd222b.jpg"
@@ -16098,7 +16098,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "3882afe7b423513f706041bf016e16d8.jpg",
     "images": [
       "3882afe7b423513f706041bf016e16d8.jpg"
@@ -16112,7 +16112,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "334db2ff778f8578a499105561b20e83.jpg",
     "images": [
       "334db2ff778f8578a499105561b20e83.jpg"
@@ -16126,7 +16126,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "04a661b2f9cbd8684941aada974844d6.jpg",
     "images": [
       "04a661b2f9cbd8684941aada974844d6.jpg"
@@ -16140,7 +16140,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "e6ba8443cdfd4c2eae0afb630707f18c.jpg",
     "images": [
       "e6ba8443cdfd4c2eae0afb630707f18c.jpg"
@@ -16154,7 +16154,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "ad100409453dfc69eb12d661bd9babef.jpg",
     "images": [
       "ad100409453dfc69eb12d661bd9babef.jpg"
@@ -16168,7 +16168,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "0f20a90b0828b89e9becd8cdcb708667.jpg",
     "images": [
       "0f20a90b0828b89e9becd8cdcb708667.jpg"
@@ -16182,7 +16182,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "bbb671595924089a53f1812455e04262.jpg",
     "images": [
       "bbb671595924089a53f1812455e04262.jpg"
@@ -16196,7 +16196,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "01f96a2413482eea56d2b8a66803795d.jpg",
     "images": [
       "01f96a2413482eea56d2b8a66803795d.jpg"
@@ -16210,7 +16210,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "5f4664576d1ef618e6f6e34cc95b503c.jpg",
     "images": [
       "5f4664576d1ef618e6f6e34cc95b503c.jpg"
@@ -16224,7 +16224,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "3c6ec55fc9b0fbdd52b4ac781c2931ab.jpg",
     "images": [
       "3c6ec55fc9b0fbdd52b4ac781c2931ab.jpg"
@@ -16238,7 +16238,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "c5d11ba916110da363e6df7438ca0304.jpg",
     "images": [
       "c5d11ba916110da363e6df7438ca0304.jpg"
@@ -16252,7 +16252,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "529556dd0832313ff6a0413ac77be3c5.jpg",
     "images": [
       "529556dd0832313ff6a0413ac77be3c5.jpg"
@@ -16266,7 +16266,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "833dd2ab506450edda12f7d35f614887.jpg",
     "images": [
       "833dd2ab506450edda12f7d35f614887.jpg"
@@ -16280,7 +16280,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "99a929a5e89adc78d3a91f8bfe393df8.jpg",
     "images": [
       "99a929a5e89adc78d3a91f8bfe393df8.jpg"
@@ -16294,7 +16294,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "756126beba81a20b03ef8247a0c256ff.jpg",
     "images": [
       "756126beba81a20b03ef8247a0c256ff.jpg"
@@ -16308,7 +16308,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "6c02a027c6f34357381336742e48aa4c.jpg",
     "images": [
       "6c02a027c6f34357381336742e48aa4c.jpg"
@@ -16322,7 +16322,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "e3f159a62a38b74c422c940713e3ade4.jpg",
     "images": [
       "e3f159a62a38b74c422c940713e3ade4.jpg"
@@ -16336,7 +16336,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "f952c65cd7a65be532ac386a7fc760e7.jpg",
     "images": [
       "f952c65cd7a65be532ac386a7fc760e7.jpg"
@@ -16350,7 +16350,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "b15580b0fe504697423a139e8fa3e9e9.jpg",
     "images": [
       "b15580b0fe504697423a139e8fa3e9e9.jpg"
@@ -16364,7 +16364,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "e4905e971717928e5073121c2e08d2a1.jpg",
     "images": [
       "e4905e971717928e5073121c2e08d2a1.jpg"
@@ -16378,7 +16378,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "1bd0baa404dde9e12e178264d64e74df.jpg",
     "images": [
       "1bd0baa404dde9e12e178264d64e74df.jpg"
@@ -16392,7 +16392,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "a44648ac4d61507dc4aaa8a72240a46f.jpg",
     "images": [
       "a44648ac4d61507dc4aaa8a72240a46f.jpg"
@@ -16406,7 +16406,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "3f7e0238910fdd1d0d45bc0499f2e0b3.jpg",
     "images": [
       "3f7e0238910fdd1d0d45bc0499f2e0b3.jpg"
@@ -16420,7 +16420,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "b2c46d4d7ed4a138861ceda57f86f6dd.jpg",
     "images": [
       "b2c46d4d7ed4a138861ceda57f86f6dd.jpg"
@@ -16434,7 +16434,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "e88acaa68f8bc8c2e87e01031ef3a828.jpg",
     "images": [
       "e88acaa68f8bc8c2e87e01031ef3a828.jpg"
@@ -16448,7 +16448,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "7fdc69babae2775405f13eec151e241c.jpg",
     "images": [
       "7fdc69babae2775405f13eec151e241c.jpg"
@@ -16462,7 +16462,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "e0c55302c4d5c96c6354c249eeaea8cf.jpg",
     "images": [
       "e0c55302c4d5c96c6354c249eeaea8cf.jpg"
@@ -16476,7 +16476,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "ed4b767df101776c303672b70db46d6c.jpg",
     "images": [
       "ed4b767df101776c303672b70db46d6c.jpg"
@@ -16490,7 +16490,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "1951aaf9179524ab867c285415a37c99.jpg",
     "images": [
       "1951aaf9179524ab867c285415a37c99.jpg"
@@ -16504,7 +16504,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "720e4174375281351af285945e3dfc47.jpg",
     "images": [
       "720e4174375281351af285945e3dfc47.jpg"
@@ -16518,7 +16518,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "d9b5ee221385754a873ca9d58521814e.jpg",
     "images": [
       "d9b5ee221385754a873ca9d58521814e.jpg"
@@ -16532,7 +16532,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "cdee4b0774231e060ac762b3eced06b0.jpg",
     "images": [
       "cdee4b0774231e060ac762b3eced06b0.jpg"
@@ -16546,7 +16546,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "fe3127fe53806e8c148385b298d45d29.jpg",
     "images": [
       "fe3127fe53806e8c148385b298d45d29.jpg"
@@ -16560,7 +16560,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "0b9dfb3d80cd566dbd35baaa93ff46b4.jpg",
     "images": [
       "0b9dfb3d80cd566dbd35baaa93ff46b4.jpg"
@@ -16574,7 +16574,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "7c53c99ab683479543a3221952cb41ea.jpg",
     "images": [
       "7c53c99ab683479543a3221952cb41ea.jpg"
@@ -16588,7 +16588,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "967c9db878c4e6774577f71c19263644.jpg",
     "images": [
       "967c9db878c4e6774577f71c19263644.jpg"
@@ -16602,7 +16602,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "1cd7ba8e596cf1496676afaf601fc292.jpg",
     "images": [
       "1cd7ba8e596cf1496676afaf601fc292.jpg"
@@ -16616,7 +16616,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "5c5b873f2bee7ffe47c425423d3d8b32.jpg",
     "images": [
       "5c5b873f2bee7ffe47c425423d3d8b32.jpg"
@@ -16630,7 +16630,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "69f29fab9c0e7b7b94efe1d8828c494c.jpg",
     "images": [
       "69f29fab9c0e7b7b94efe1d8828c494c.jpg"
@@ -16644,7 +16644,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "004a2efc361fcfeb59e21510c6edd32d.jpg",
     "images": [
       "004a2efc361fcfeb59e21510c6edd32d.jpg"
@@ -16658,7 +16658,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "0240a28945018d3ebfd0cebffcde84f3.jpg",
     "images": [
       "0240a28945018d3ebfd0cebffcde84f3.jpg"
@@ -16672,7 +16672,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "bbb516242b2f70b9d408c4d3062078c2.jpg",
     "images": [
       "bbb516242b2f70b9d408c4d3062078c2.jpg"
@@ -16686,7 +16686,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "e08a8a412b0a955abfd4a5e0ea631df7.jpg",
     "images": [
       "e08a8a412b0a955abfd4a5e0ea631df7.jpg"
@@ -16700,7 +16700,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "e506f7ed49bfa6a23cc8793838fbf45a.jpg",
     "images": [
       "e506f7ed49bfa6a23cc8793838fbf45a.jpg"
@@ -16714,7 +16714,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "b19c9b274b2529114da912285192c555.jpg",
     "images": [
       "b19c9b274b2529114da912285192c555.jpg"
@@ -16728,7 +16728,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "61b43f5ac66bacc1039e9228cbdc957c.jpg",
     "images": [
       "61b43f5ac66bacc1039e9228cbdc957c.jpg"
@@ -16742,7 +16742,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "2f190743f62f5bda78abfadba2c10b92.jpg",
     "images": [
       "2f190743f62f5bda78abfadba2c10b92.jpg"
@@ -16756,7 +16756,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "2ccd81e4959257f08cf1de4ebcf63e8e.jpg",
     "images": [
       "2ccd81e4959257f08cf1de4ebcf63e8e.jpg"
@@ -16770,7 +16770,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "26d62d694007594845fe3be8abdc1aeb.jpg",
     "images": [
       "26d62d694007594845fe3be8abdc1aeb.jpg"
@@ -16784,7 +16784,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "38da715e048eefe74dd1903b30c39449.jpg",
     "images": [
       "38da715e048eefe74dd1903b30c39449.jpg"
@@ -16798,7 +16798,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "543f5aada67aca76a1ea8fd6e05ea3a7.jpg",
     "images": [
       "543f5aada67aca76a1ea8fd6e05ea3a7.jpg"
@@ -16812,7 +16812,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "deffd1be823a914bbee1920cbc30cf9b.jpg",
     "images": [
       "deffd1be823a914bbee1920cbc30cf9b.jpg"
@@ -16826,7 +16826,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "2763aba8b5957adf0825cae84c0f35f2.jpg",
     "images": [
       "2763aba8b5957adf0825cae84c0f35f2.jpg"
@@ -16840,7 +16840,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "d028eb06c02cf5e312e3a32dabab595a.jpg",
     "images": [
       "d028eb06c02cf5e312e3a32dabab595a.jpg"
@@ -16854,7 +16854,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "a884ca23cca5e9301f784d3c08d68277.jpg",
     "images": [
       "a884ca23cca5e9301f784d3c08d68277.jpg"
@@ -16868,7 +16868,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "7261a88f7c7a0aedf20a059d2fb12632.jpg",
     "images": [
       "7261a88f7c7a0aedf20a059d2fb12632.jpg"
@@ -16882,7 +16882,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "da0dd3bf3319803dbf39e5136ef6c9c7.jpg",
     "images": [
       "da0dd3bf3319803dbf39e5136ef6c9c7.jpg"
@@ -16896,7 +16896,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "b01e9b583778f9a421b27f52be859920.jpg",
     "images": [
       "b01e9b583778f9a421b27f52be859920.jpg"
@@ -16910,7 +16910,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "5120471f0df8efdefebbea35d4151fab.jpg",
     "images": [
       "5120471f0df8efdefebbea35d4151fab.jpg"
@@ -16924,7 +16924,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "8597345d9d26a9f56f34316cdae56f69.jpg",
     "images": [
       "8597345d9d26a9f56f34316cdae56f69.jpg"
@@ -16938,7 +16938,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "8d8bf0f7461570a562551cfc97aa9c12.jpg",
     "images": [
       "8d8bf0f7461570a562551cfc97aa9c12.jpg"
@@ -16952,7 +16952,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "4e979627e89782a11ad7838c4ed99683.jpg",
     "images": [
       "4e979627e89782a11ad7838c4ed99683.jpg"
@@ -16966,7 +16966,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "43a52d14236a9d2fa8b0aa94ff34a1ad.jpg",
     "images": [
       "43a52d14236a9d2fa8b0aa94ff34a1ad.jpg"
@@ -16980,7 +16980,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "941087ca09d2a3e2478d8929a584983b.jpg",
     "images": [
       "941087ca09d2a3e2478d8929a584983b.jpg"
@@ -16994,7 +16994,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "192ba49207fa76396ae7774aadf70ac5.jpg",
     "images": [
       "192ba49207fa76396ae7774aadf70ac5.jpg"
@@ -17008,7 +17008,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "ff2fe70389a2955805a0610c2140921e.jpg",
     "images": [
       "ff2fe70389a2955805a0610c2140921e.jpg"
@@ -17022,7 +17022,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "be7843b6fe8d4d4bbef9235835714170.jpg",
     "images": [
       "be7843b6fe8d4d4bbef9235835714170.jpg"
@@ -17036,7 +17036,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "21179c4cd0a13689abbb2284b3abba16.jpg",
     "images": [
       "21179c4cd0a13689abbb2284b3abba16.jpg"
@@ -17050,7 +17050,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "e9fc1f4f5ceaaf3484452355c1dd9b35.jpg",
     "images": [
       "e9fc1f4f5ceaaf3484452355c1dd9b35.jpg"
@@ -17064,7 +17064,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "6faf999d92ab5c7439416e65a8db132b.jpg",
     "images": [
       "6faf999d92ab5c7439416e65a8db132b.jpg"
@@ -17078,7 +17078,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "72f2ebb3b66c0df84b6d74c91ea97ddd.jpg",
     "images": [
       "72f2ebb3b66c0df84b6d74c91ea97ddd.jpg"
@@ -17092,7 +17092,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "fe03e72bdf6d4d320befe294bdd3b585.jpg",
     "images": [
       "fe03e72bdf6d4d320befe294bdd3b585.jpg"
@@ -17106,7 +17106,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "28d307e8338f2ce31aa280821c7000ee.jpg",
     "images": [
       "28d307e8338f2ce31aa280821c7000ee.jpg"
@@ -17120,7 +17120,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "9bb6e0764f07a03afc1517078e6e9cf1.jpg",
     "images": [
       "9bb6e0764f07a03afc1517078e6e9cf1.jpg"
@@ -17134,7 +17134,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "fa34c1b18233df39c9ef48abe2415704.jpg",
     "images": [
       "fa34c1b18233df39c9ef48abe2415704.jpg"
@@ -17148,7 +17148,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "412dca9b343c78cc3cace18eef652271.jpg",
     "images": [
       "412dca9b343c78cc3cace18eef652271.jpg"
@@ -17162,7 +17162,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "44f735bafaf5971a98c92cbb3e90cae1.jpg",
     "images": [
       "44f735bafaf5971a98c92cbb3e90cae1.jpg"
@@ -17176,7 +17176,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "ac6f4af2e22e09aca0d0d952fb009dbb.jpg",
     "images": [
       "ac6f4af2e22e09aca0d0d952fb009dbb.jpg"
@@ -17190,7 +17190,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "31373342b8326855b60dbb55058b98f2.jpg",
     "images": [
       "31373342b8326855b60dbb55058b98f2.jpg"
@@ -17204,7 +17204,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "448ee5d3cd899745a77e370e2f301493.jpg",
     "images": [
       "448ee5d3cd899745a77e370e2f301493.jpg"
@@ -17218,7 +17218,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "a1b68124111b7655ca86435e2c0baf2b.jpg",
     "images": [
       "a1b68124111b7655ca86435e2c0baf2b.jpg"
@@ -17232,7 +17232,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "8629a80365d27ed2a8f92f6601575625.jpg",
     "images": [
       "8629a80365d27ed2a8f92f6601575625.jpg"
@@ -17246,7 +17246,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "3f1fb31393325b707fa9480e768d2b6b.jpg",
     "images": [
       "3f1fb31393325b707fa9480e768d2b6b.jpg"
@@ -17260,7 +17260,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "e0c57052bc03b87a363952f113e49a92.jpg",
     "images": [
       "e0c57052bc03b87a363952f113e49a92.jpg"
@@ -17274,7 +17274,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "691509dabe6f7ae46f772d2ba5d6473e.jpg",
     "images": [
       "691509dabe6f7ae46f772d2ba5d6473e.jpg"
@@ -17288,7 +17288,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "9d438b514d4507b06d1e8c2465506d3c.jpg",
     "images": [
       "9d438b514d4507b06d1e8c2465506d3c.jpg"
@@ -17302,7 +17302,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "c53b7af56fc7ba52924b88fe73b86124.jpg",
     "images": [
       "c53b7af56fc7ba52924b88fe73b86124.jpg"
@@ -17316,7 +17316,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "4eb25397e0866eea21585b10bc5c2b74.jpg",
     "images": [
       "4eb25397e0866eea21585b10bc5c2b74.jpg"
@@ -17330,7 +17330,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "e09ce7f33ce39a969b3774d71ae8a4e1.jpg",
     "images": [
       "e09ce7f33ce39a969b3774d71ae8a4e1.jpg"
@@ -17344,7 +17344,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "7d133483c8a7b606eee0a60ac0f9a66a.jpg",
     "images": [
       "7d133483c8a7b606eee0a60ac0f9a66a.jpg"
@@ -17358,7 +17358,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "ecf8f2f95fc959bdbe79e0a75cc0740c.jpg",
     "images": [
       "ecf8f2f95fc959bdbe79e0a75cc0740c.jpg"
@@ -17372,7 +17372,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "34c8bbb5b3b8480f2287c5d72d4daf6a.jpg",
     "images": [
       "34c8bbb5b3b8480f2287c5d72d4daf6a.jpg"
@@ -17386,7 +17386,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "66b6b69532a11fe9c510e543ee1ce170.jpg",
     "images": [
       "66b6b69532a11fe9c510e543ee1ce170.jpg"
@@ -17400,7 +17400,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "12beba90fcc49618716e7136a41d069e.jpg",
     "images": [
       "12beba90fcc49618716e7136a41d069e.jpg"
@@ -17414,7 +17414,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "c3b997c11dc5ceec6d82d7133ef4d3d8.jpg",
     "images": [
       "c3b997c11dc5ceec6d82d7133ef4d3d8.jpg"
@@ -17428,7 +17428,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "bbe1ca54bbcc4fbf7741ee4b3a25a35f.jpg",
     "images": [
       "bbe1ca54bbcc4fbf7741ee4b3a25a35f.jpg"
@@ -17442,7 +17442,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "d9e4fe075bc56f804614935f8fc78cfc.jpg",
     "images": [
       "d9e4fe075bc56f804614935f8fc78cfc.jpg"
@@ -17456,7 +17456,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "7c875a706c0e5fdb02ddba8950d4075a.jpg",
     "images": [
       "7c875a706c0e5fdb02ddba8950d4075a.jpg"
@@ -17470,7 +17470,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "f531b0d3903cccd8198e7dddbef08415.jpg",
     "images": [
       "f531b0d3903cccd8198e7dddbef08415.jpg"
@@ -17484,7 +17484,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "5592346f1f3d33ad1ef65ee632aceb9a.jpg",
     "images": [
       "5592346f1f3d33ad1ef65ee632aceb9a.jpg"
@@ -17498,7 +17498,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "1865209f9c6dbed27c87f06c71a25e5d.jpg",
     "images": [
       "1865209f9c6dbed27c87f06c71a25e5d.jpg"
@@ -17512,7 +17512,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "e3eea18c6ecef42d416fc290df5b0f26.jpg",
     "images": [
       "e3eea18c6ecef42d416fc290df5b0f26.jpg"
@@ -17526,7 +17526,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "7817f16b5ccb02b0279634d7a58e132c.jpg",
     "images": [
       "7817f16b5ccb02b0279634d7a58e132c.jpg"
@@ -17540,7 +17540,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "d05bd505a7e0366e1a8dba309833ef55.jpg",
     "images": [
       "d05bd505a7e0366e1a8dba309833ef55.jpg"
@@ -17554,7 +17554,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "디아망_LX_디아망포티스",
-    "price": 0,
+    "price": 65000,
     "thumbnail": "e95ef736d6d21fc75a839244365eeb34.jpg",
     "images": [
       "e95ef736d6d21fc75a839244365eeb34.jpg"
@@ -17568,7 +17568,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4868acc64c92cd4c203c6494e0090d0a.jpg",
     "images": [
       "4868acc64c92cd4c203c6494e0090d0a.jpg"
@@ -17582,7 +17582,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "515e6291fa8eeef4e7c0a30e8feeb6a5.jpg",
     "images": [
       "515e6291fa8eeef4e7c0a30e8feeb6a5.jpg"
@@ -17596,7 +17596,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5ae7bf1b28355b974a580d3aa53711bd.jpg",
     "images": [
       "5ae7bf1b28355b974a580d3aa53711bd.jpg"
@@ -17610,7 +17610,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5edbf2e0dbb03e2f7d7f487b56a37679.jpg",
     "images": [
       "5edbf2e0dbb03e2f7d7f487b56a37679.jpg"
@@ -17624,7 +17624,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c84f9f3d77715842c8ac06e648ce9fb0.jpg",
     "images": [
       "c84f9f3d77715842c8ac06e648ce9fb0.jpg"
@@ -17638,7 +17638,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d1140a1f457138c69e5a24d1cf834cb1.jpg",
     "images": [
       "d1140a1f457138c69e5a24d1cf834cb1.jpg"
@@ -17652,7 +17652,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b9b8c6aa53d4e6c7c0e81c0d9a47cdae.jpg",
     "images": [
       "b9b8c6aa53d4e6c7c0e81c0d9a47cdae.jpg"
@@ -17666,7 +17666,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9165b81381f7836ac2973f106b572b76.jpg",
     "images": [
       "9165b81381f7836ac2973f106b572b76.jpg"
@@ -17680,7 +17680,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "02de52155821c4ebeae3b93afe6c5356.jpg",
     "images": [
       "02de52155821c4ebeae3b93afe6c5356.jpg"
@@ -17694,7 +17694,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4c139beb683aa64474ac53bab441c0fa.jpg",
     "images": [
       "4c139beb683aa64474ac53bab441c0fa.jpg"
@@ -17708,7 +17708,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c53643e13c5f4bd34c05ac0dc22d0ebd.jpg",
     "images": [
       "c53643e13c5f4bd34c05ac0dc22d0ebd.jpg"
@@ -17722,7 +17722,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e43a705b90698c07f21a6f0d3e31ee2d.jpg",
     "images": [
       "e43a705b90698c07f21a6f0d3e31ee2d.jpg"
@@ -17736,7 +17736,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "07c2dec8cf7b22d426ec389739adb392.jpg",
     "images": [
       "07c2dec8cf7b22d426ec389739adb392.jpg"
@@ -17750,7 +17750,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4072db2cd91c7ad125e4a3a7f82da6b0.jpg",
     "images": [
       "4072db2cd91c7ad125e4a3a7f82da6b0.jpg"
@@ -17764,7 +17764,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "151330d19a729d273d6eda2d46367433.jpg",
     "images": [
       "151330d19a729d273d6eda2d46367433.jpg"
@@ -17778,7 +17778,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f0169ca487ce831a4d0a1912d3208095.jpg",
     "images": [
       "f0169ca487ce831a4d0a1912d3208095.jpg"
@@ -17792,7 +17792,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f50dbe3698cb62a7a12eeee307db0e02.jpg",
     "images": [
       "f50dbe3698cb62a7a12eeee307db0e02.jpg"
@@ -17806,7 +17806,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f2bb9746a3f28292464c49a0e75faab0.jpg",
     "images": [
       "f2bb9746a3f28292464c49a0e75faab0.jpg"
@@ -17820,7 +17820,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "469659f4c4dda6c67e15baf92c8c4f27.jpg",
     "images": [
       "469659f4c4dda6c67e15baf92c8c4f27.jpg"
@@ -17834,7 +17834,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "650657e18d7de6859edfec1f33c33fa4.jpg",
     "images": [
       "650657e18d7de6859edfec1f33c33fa4.jpg"
@@ -17848,7 +17848,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "75ee4777bc5174f284f6c27a2b5f65f1.jpg",
     "images": [
       "75ee4777bc5174f284f6c27a2b5f65f1.jpg"
@@ -17862,7 +17862,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "53af5274c8ab55ad406209ae246147c9.jpg",
     "images": [
       "53af5274c8ab55ad406209ae246147c9.jpg"
@@ -17876,7 +17876,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "20f056c04848717c27f538a5bce9586d.jpg",
     "images": [
       "20f056c04848717c27f538a5bce9586d.jpg"
@@ -17890,7 +17890,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "94e575392f59d55bb273a3d92448ca6f.jpg",
     "images": [
       "94e575392f59d55bb273a3d92448ca6f.jpg"
@@ -17904,7 +17904,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "15df958c27d70b741eef95166d9fe9f0.jpg",
     "images": [
       "15df958c27d70b741eef95166d9fe9f0.jpg"
@@ -17918,7 +17918,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "3e4ab12710397ce289ec836382229f60.jpg",
     "images": [
       "3e4ab12710397ce289ec836382229f60.jpg"
@@ -17932,7 +17932,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "467c45335baa716b402d598329142f33.jpg",
     "images": [
       "467c45335baa716b402d598329142f33.jpg"
@@ -17946,7 +17946,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2f3c99d64aa4fc7d0ea4afccc5270715.jpg",
     "images": [
       "2f3c99d64aa4fc7d0ea4afccc5270715.jpg"
@@ -17960,7 +17960,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2ab99136019d95296da2fde54a512e6c.jpg",
     "images": [
       "2ab99136019d95296da2fde54a512e6c.jpg"
@@ -17974,7 +17974,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "43061f77c7c049fbd43940becf703133.jpg",
     "images": [
       "43061f77c7c049fbd43940becf703133.jpg"
@@ -17988,7 +17988,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "427731413c6ade32f94e014426d4833f.jpg",
     "images": [
       "427731413c6ade32f94e014426d4833f.jpg"
@@ -18002,7 +18002,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "3f8664f07886af7653bc9ab0f3b9b986.jpg",
     "images": [
       "3f8664f07886af7653bc9ab0f3b9b986.jpg"
@@ -18016,7 +18016,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d1ce1656432b1e7897c10c7759ce6a02.jpg",
     "images": [
       "d1ce1656432b1e7897c10c7759ce6a02.jpg"
@@ -18030,7 +18030,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6dc7d6aa537b0c6652a23afb8bf3279a.jpg",
     "images": [
       "6dc7d6aa537b0c6652a23afb8bf3279a.jpg"
@@ -18044,7 +18044,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "542676a7212a556fd832686ae24f4843.jpg",
     "images": [
       "542676a7212a556fd832686ae24f4843.jpg"
@@ -18058,7 +18058,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4073f2abf618617c630c4b1c1edc21ff.jpg",
     "images": [
       "4073f2abf618617c630c4b1c1edc21ff.jpg"
@@ -18072,7 +18072,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b1e5e14ace0abf24049897c8cf0ed588.jpg",
     "images": [
       "b1e5e14ace0abf24049897c8cf0ed588.jpg"
@@ -18086,7 +18086,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9ced38dd97fb0a923cd9769f961f5d49.jpg",
     "images": [
       "9ced38dd97fb0a923cd9769f961f5d49.jpg"
@@ -18100,7 +18100,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6156658c064307929a59e81583922197.jpg",
     "images": [
       "6156658c064307929a59e81583922197.jpg"
@@ -18114,7 +18114,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7584943c3b0187f0b99a944bc7ee31c7.jpg",
     "images": [
       "7584943c3b0187f0b99a944bc7ee31c7.jpg"
@@ -18128,7 +18128,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "255ea74bc830966c3abe2a0626dcc5cf.jpg",
     "images": [
       "255ea74bc830966c3abe2a0626dcc5cf.jpg"
@@ -18142,7 +18142,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4d4a806ba4ca2b2c29413b3ed9749400.jpg",
     "images": [
       "4d4a806ba4ca2b2c29413b3ed9749400.jpg"
@@ -18156,7 +18156,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "db6fd7f989d6ab093ae166964a71dfd3.jpg",
     "images": [
       "db6fd7f989d6ab093ae166964a71dfd3.jpg"
@@ -18170,7 +18170,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "86e6f780f55bc69bb488472057c6c7c1.jpg",
     "images": [
       "86e6f780f55bc69bb488472057c6c7c1.jpg"
@@ -18184,7 +18184,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "568a367f3e4056028de9598dbb2eb2d9.jpg",
     "images": [
       "568a367f3e4056028de9598dbb2eb2d9.jpg"
@@ -18198,7 +18198,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "39a237bf80ee1bced8e930cd17e717d8.jpg",
     "images": [
       "39a237bf80ee1bced8e930cd17e717d8.jpg"
@@ -18212,7 +18212,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a8fbda8341cf9cb0d3d0e21c6e575f65.jpg",
     "images": [
       "a8fbda8341cf9cb0d3d0e21c6e575f65.jpg"
@@ -18226,7 +18226,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "438e8e119d5bd6f6e8cdcedc5b56c2c7.jpg",
     "images": [
       "438e8e119d5bd6f6e8cdcedc5b56c2c7.jpg"
@@ -18240,7 +18240,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a9c5d36290f9d34229e06af4003d91e2.jpg",
     "images": [
       "a9c5d36290f9d34229e06af4003d91e2.jpg"
@@ -18254,7 +18254,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "89cb05655db528352d37a3501fd30dd5.jpg",
     "images": [
       "89cb05655db528352d37a3501fd30dd5.jpg"
@@ -18268,7 +18268,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "db36da7b68809723ecf36917d98c226d.jpg",
     "images": [
       "db36da7b68809723ecf36917d98c226d.jpg"
@@ -18282,7 +18282,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f20577bc676a6e4323d2507ba1d8a7f0.jpg",
     "images": [
       "f20577bc676a6e4323d2507ba1d8a7f0.jpg"
@@ -18296,7 +18296,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "fe3474f911eaea2c1da8b14a304dca02.jpg",
     "images": [
       "fe3474f911eaea2c1da8b14a304dca02.jpg"
@@ -18310,7 +18310,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "900640dc480022f182d371e5bb0a6ee5.jpg",
     "images": [
       "900640dc480022f182d371e5bb0a6ee5.jpg"
@@ -18324,7 +18324,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c284ff70c96a9308a78084d0fd5e0bed.jpg",
     "images": [
       "c284ff70c96a9308a78084d0fd5e0bed.jpg"
@@ -18338,7 +18338,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "658ec3f28deb047e77efdab8c560b7f6.jpg",
     "images": [
       "658ec3f28deb047e77efdab8c560b7f6.jpg"
@@ -18352,7 +18352,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "55bb9bc2f3d598c53273dafff6aac86e.jpg",
     "images": [
       "55bb9bc2f3d598c53273dafff6aac86e.jpg"
@@ -18366,7 +18366,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a4ab4f75e1d0b82c14869169b7363dbe.jpg",
     "images": [
       "a4ab4f75e1d0b82c14869169b7363dbe.jpg"
@@ -18380,7 +18380,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "afad84e67c1c2ef91f6320e0a66842bb.jpg",
     "images": [
       "afad84e67c1c2ef91f6320e0a66842bb.jpg"
@@ -18394,7 +18394,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c642b2143f3b94cc5016e9db3498d063.jpg",
     "images": [
       "c642b2143f3b94cc5016e9db3498d063.jpg"
@@ -18408,7 +18408,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5ec84e6d39b85f98b4e0296074bda500.jpg",
     "images": [
       "5ec84e6d39b85f98b4e0296074bda500.jpg"
@@ -18422,7 +18422,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "92f197d21ca2d2dd290afd8786bcb073.jpg",
     "images": [
       "92f197d21ca2d2dd290afd8786bcb073.jpg"
@@ -18436,7 +18436,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "dba7f809429d369695ac5ce533118e64.jpg",
     "images": [
       "dba7f809429d369695ac5ce533118e64.jpg"
@@ -18450,7 +18450,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "de0677702e6047649e5ddf79dc6e4619.jpg",
     "images": [
       "de0677702e6047649e5ddf79dc6e4619.jpg"
@@ -18464,7 +18464,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "be9b17185021fd8c91d0b4f8378cbec8.jpg",
     "images": [
       "be9b17185021fd8c91d0b4f8378cbec8.jpg"
@@ -18478,7 +18478,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b661d8aba008fd8e447a85c930df8517.jpg",
     "images": [
       "b661d8aba008fd8e447a85c930df8517.jpg"
@@ -18492,7 +18492,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "dfd48009f99a72bb3fdc7741bb87926f.jpg",
     "images": [
       "dfd48009f99a72bb3fdc7741bb87926f.jpg"
@@ -18506,7 +18506,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "46acbf23926b3819c22284732bedac8d.jpg",
     "images": [
       "46acbf23926b3819c22284732bedac8d.jpg"
@@ -18520,7 +18520,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "36d51c61cbd8c8694df01a9274269cc4.jpg",
     "images": [
       "36d51c61cbd8c8694df01a9274269cc4.jpg"
@@ -18534,7 +18534,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "94c47cc35d2d8da39c0199718f31acd7.jpg",
     "images": [
       "94c47cc35d2d8da39c0199718f31acd7.jpg"
@@ -18548,7 +18548,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2dfeada1432f965d51d88dbc313d042f.jpg",
     "images": [
       "2dfeada1432f965d51d88dbc313d042f.jpg"
@@ -18562,7 +18562,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "da9648bdc26ef670544ae20f3e9e666a.jpg",
     "images": [
       "da9648bdc26ef670544ae20f3e9e666a.jpg"
@@ -18576,7 +18576,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "3ed0b1c513630b6df41be2324bcc4f54.jpg",
     "images": [
       "3ed0b1c513630b6df41be2324bcc4f54.jpg"
@@ -18590,7 +18590,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "688b0af8fb5905a836860ea9ecdaeac6.jpg",
     "images": [
       "688b0af8fb5905a836860ea9ecdaeac6.jpg"
@@ -18604,7 +18604,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f1a142bce285a6ca1aaaa2dd8c6640d7.jpg",
     "images": [
       "f1a142bce285a6ca1aaaa2dd8c6640d7.jpg"
@@ -18618,7 +18618,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ed331239273a8b77672b2e14560f660b.jpg",
     "images": [
       "ed331239273a8b77672b2e14560f660b.jpg"
@@ -18632,7 +18632,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0b19ec9517509a5d87b0cb37365b61fc.jpg",
     "images": [
       "0b19ec9517509a5d87b0cb37365b61fc.jpg"
@@ -18646,7 +18646,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f23ecfd0853409f96fc2136ed8d4d08d.jpg",
     "images": [
       "f23ecfd0853409f96fc2136ed8d4d08d.jpg"
@@ -18660,7 +18660,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "cddbba84b16fcbf5afdce27e0d75c546.jpg",
     "images": [
       "cddbba84b16fcbf5afdce27e0d75c546.jpg"
@@ -18674,7 +18674,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "429ecf486929b8ee085d04bff3374ef0.jpg",
     "images": [
       "429ecf486929b8ee085d04bff3374ef0.jpg"
@@ -18688,7 +18688,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "62b395d674f4a267b05f49110f740775.jpg",
     "images": [
       "62b395d674f4a267b05f49110f740775.jpg"
@@ -18702,7 +18702,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4ab775738be198c55f1910b7b9cb97e7.jpg",
     "images": [
       "4ab775738be198c55f1910b7b9cb97e7.jpg"
@@ -18716,7 +18716,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "33f9b496bb41770e3c80de11936eb171.jpg",
     "images": [
       "33f9b496bb41770e3c80de11936eb171.jpg"
@@ -18730,7 +18730,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "403eea5ed06be94d8be0fbc93f0b798d.jpg",
     "images": [
       "403eea5ed06be94d8be0fbc93f0b798d.jpg"
@@ -18744,7 +18744,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "80f5d119ad2db170581fc11daf0d7557.jpg",
     "images": [
       "80f5d119ad2db170581fc11daf0d7557.jpg"
@@ -18758,7 +18758,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "15266603bfc3308b7d23b8479ac6f1a5.jpg",
     "images": [
       "15266603bfc3308b7d23b8479ac6f1a5.jpg"
@@ -18772,7 +18772,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "09e26a0d92308901b01584073a8ad380.jpg",
     "images": [
       "09e26a0d92308901b01584073a8ad380.jpg"
@@ -18786,7 +18786,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e1e2ab9c035d2d37486ad5814775499d.jpg",
     "images": [
       "e1e2ab9c035d2d37486ad5814775499d.jpg"
@@ -18800,7 +18800,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "933ae7f8c8c91b3d11fdcd6bcfa5baac.jpg",
     "images": [
       "933ae7f8c8c91b3d11fdcd6bcfa5baac.jpg"
@@ -18814,7 +18814,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a3cfff3f2205cf655d73d8b3d5ce01b9.jpg",
     "images": [
       "a3cfff3f2205cf655d73d8b3d5ce01b9.jpg"
@@ -18828,7 +18828,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "60a5df927429f8d7f2138fa986da9027.jpg",
     "images": [
       "60a5df927429f8d7f2138fa986da9027.jpg"
@@ -18842,7 +18842,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9a6ab14b4a8efeb5c4e1279f2c3817b6.jpg",
     "images": [
       "9a6ab14b4a8efeb5c4e1279f2c3817b6.jpg"
@@ -18856,7 +18856,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b4a6f991500b36fc8ae63e2cf84fd4a7.jpg",
     "images": [
       "b4a6f991500b36fc8ae63e2cf84fd4a7.jpg"
@@ -18870,7 +18870,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6b828d9dfdcf145385522e8c0ae762d4.jpg",
     "images": [
       "6b828d9dfdcf145385522e8c0ae762d4.jpg"
@@ -18884,7 +18884,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "eb0536b6dac9e6e93505f7c20a4e8177.jpg",
     "images": [
       "eb0536b6dac9e6e93505f7c20a4e8177.jpg"
@@ -18898,7 +18898,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ac5159b5a262565dc9b100d878210dc2.jpg",
     "images": [
       "ac5159b5a262565dc9b100d878210dc2.jpg"
@@ -18912,7 +18912,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "bbd59ceead68e1dd6b48bae7f1f55d99.jpg",
     "images": [
       "bbd59ceead68e1dd6b48bae7f1f55d99.jpg"
@@ -18926,7 +18926,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "bb9dbfa6a9172a1080c4b723af7e63fa.jpg",
     "images": [
       "bb9dbfa6a9172a1080c4b723af7e63fa.jpg"
@@ -18940,7 +18940,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7179ec43373ca5b00a6b74ad2584fe11.jpg",
     "images": [
       "7179ec43373ca5b00a6b74ad2584fe11.jpg"
@@ -18954,7 +18954,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ad0ace58ad97d7c67a362d4ea34723f8.jpg",
     "images": [
       "ad0ace58ad97d7c67a362d4ea34723f8.jpg"
@@ -18968,7 +18968,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "17cd3b5496d050b139e3e2b1a1a57baf.jpg",
     "images": [
       "17cd3b5496d050b139e3e2b1a1a57baf.jpg"
@@ -18982,7 +18982,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "92bfa8657cbfb3be47525183d01fe6ed.jpg",
     "images": [
       "92bfa8657cbfb3be47525183d01fe6ed.jpg"
@@ -18996,7 +18996,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "67455757f5b57009403de3c837e9c11b.jpg",
     "images": [
       "67455757f5b57009403de3c837e9c11b.jpg"
@@ -19010,7 +19010,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8bbf4c253707b8bbe9ae9442b61f4211.jpg",
     "images": [
       "8bbf4c253707b8bbe9ae9442b61f4211.jpg"
@@ -19024,7 +19024,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "3c8dc219ca2e4e63ddce424bbde095f5.jpg",
     "images": [
       "3c8dc219ca2e4e63ddce424bbde095f5.jpg"
@@ -19038,7 +19038,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "65018ab19cde68e6ecbdd8d762f510ec.jpg",
     "images": [
       "65018ab19cde68e6ecbdd8d762f510ec.jpg"
@@ -19052,7 +19052,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ab092a2377b5a4d73d3eb4dc6b47114a.jpg",
     "images": [
       "ab092a2377b5a4d73d3eb4dc6b47114a.jpg"
@@ -19066,7 +19066,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b5119edaad6879e33284570df1ba10d6.jpg",
     "images": [
       "b5119edaad6879e33284570df1ba10d6.jpg"
@@ -19080,7 +19080,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b941ad9c2ca9fa7ca7260c581f14560c.jpg",
     "images": [
       "b941ad9c2ca9fa7ca7260c581f14560c.jpg"
@@ -19094,7 +19094,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0b0fbd76e713eb5e8433b06cca794276.jpg",
     "images": [
       "0b0fbd76e713eb5e8433b06cca794276.jpg"
@@ -19108,7 +19108,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "30977ddb21068856e67db325c1564b00.jpg",
     "images": [
       "30977ddb21068856e67db325c1564b00.jpg"
@@ -19122,7 +19122,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "1dd6d0022d56eb9d58353cff1e726ec6.jpg",
     "images": [
       "1dd6d0022d56eb9d58353cff1e726ec6.jpg"
@@ -19136,7 +19136,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6f84d6b59c75007f0a898dd82b050b68.jpg",
     "images": [
       "6f84d6b59c75007f0a898dd82b050b68.jpg"
@@ -19150,7 +19150,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "92aded863e3e73f9b2c525735dd2bdfa.jpg",
     "images": [
       "92aded863e3e73f9b2c525735dd2bdfa.jpg"
@@ -19164,7 +19164,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "75496d15c086895d4adc429b082dd84b.jpg",
     "images": [
       "75496d15c086895d4adc429b082dd84b.jpg"
@@ -19178,7 +19178,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6cb1970fe1bcdcba8c62d4f96ed98333.jpg",
     "images": [
       "6cb1970fe1bcdcba8c62d4f96ed98333.jpg"
@@ -19192,7 +19192,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ff7705f9b99e8e324c12558204817ef9.jpg",
     "images": [
       "ff7705f9b99e8e324c12558204817ef9.jpg"
@@ -19206,7 +19206,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c6dbbb4d75f9bdf67cb0d81177c2c7c7.jpg",
     "images": [
       "c6dbbb4d75f9bdf67cb0d81177c2c7c7.jpg"
@@ -19220,7 +19220,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f7d425dfc1d15f52cb92f53d52e08f4f.jpg",
     "images": [
       "f7d425dfc1d15f52cb92f53d52e08f4f.jpg"
@@ -19234,7 +19234,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "40ea37161525c1e2cd4a842706ab946d.jpg",
     "images": [
       "40ea37161525c1e2cd4a842706ab946d.jpg"
@@ -19248,7 +19248,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ae6d1c0012e81246f5363cab2d44bf50.jpg",
     "images": [
       "ae6d1c0012e81246f5363cab2d44bf50.jpg"
@@ -19262,7 +19262,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e24e823ad3c5e096934f8c6ac191a3d4.jpg",
     "images": [
       "e24e823ad3c5e096934f8c6ac191a3d4.jpg"
@@ -19276,7 +19276,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6012f50a4db21de6b5dff95e27ed4e8b.jpg",
     "images": [
       "6012f50a4db21de6b5dff95e27ed4e8b.jpg"
@@ -19290,7 +19290,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5780a9fcae10df0f85c6906667af321d.jpg",
     "images": [
       "5780a9fcae10df0f85c6906667af321d.jpg"
@@ -19304,7 +19304,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "80b91989290019b2568579b1e760f77b.jpg",
     "images": [
       "80b91989290019b2568579b1e760f77b.jpg"
@@ -19318,7 +19318,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f523ee434cc4820c32205ee1e69a1152.jpg",
     "images": [
       "f523ee434cc4820c32205ee1e69a1152.jpg"
@@ -19332,7 +19332,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "828b67b1d4c7464bad39510ab98588e1.jpg",
     "images": [
       "828b67b1d4c7464bad39510ab98588e1.jpg"
@@ -19346,7 +19346,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8effeb514e4145ae4016d1e3f76267c1.jpg",
     "images": [
       "8effeb514e4145ae4016d1e3f76267c1.jpg"
@@ -19360,7 +19360,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "80e55cf09b3152612b644b7a613aec61.jpg",
     "images": [
       "80e55cf09b3152612b644b7a613aec61.jpg"
@@ -19374,7 +19374,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "cfd74ea3712862860e3923d615181446.jpg",
     "images": [
       "cfd74ea3712862860e3923d615181446.jpg"
@@ -19388,7 +19388,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "feb3e285e17ea4e4d9784852c4e7b262.jpg",
     "images": [
       "feb3e285e17ea4e4d9784852c4e7b262.jpg"
@@ -19402,7 +19402,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "960a13ecffc5cb7b284a2cc36a562848.jpg",
     "images": [
       "960a13ecffc5cb7b284a2cc36a562848.jpg"
@@ -19416,7 +19416,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "43b7a650aa8c80ec767b91c040fadfe2.jpg",
     "images": [
       "43b7a650aa8c80ec767b91c040fadfe2.jpg"
@@ -19430,7 +19430,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "847f12ddf5496aaff613768727a9acd3.jpg",
     "images": [
       "847f12ddf5496aaff613768727a9acd3.jpg"
@@ -19444,7 +19444,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_베스트",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7647b6e91e0851a4fcaceccf046330ce.jpg",
     "images": [
       "7647b6e91e0851a4fcaceccf046330ce.jpg"
@@ -19458,7 +19458,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "fe02529bc4aacaf59508962c301907ef.jpg",
     "images": [
       "fe02529bc4aacaf59508962c301907ef.jpg"
@@ -19472,7 +19472,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "164083bcb16030ee13938dc66feaa4ea.jpg",
     "images": [
       "164083bcb16030ee13938dc66feaa4ea.jpg"
@@ -19486,7 +19486,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7985b4f43abc9c8cfba7d8700c451a93.jpg",
     "images": [
       "7985b4f43abc9c8cfba7d8700c451a93.jpg"
@@ -19500,7 +19500,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "29f3f67c2a56adc26019a6bc92431f6d.jpg",
     "images": [
       "29f3f67c2a56adc26019a6bc92431f6d.jpg"
@@ -19514,7 +19514,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4d9051e0ac8a1cb3c60f90b215d60fb4.jpg",
     "images": [
       "4d9051e0ac8a1cb3c60f90b215d60fb4.jpg"
@@ -19528,7 +19528,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5e331c3792868e86e69a5ebe5dfcb861.jpg",
     "images": [
       "5e331c3792868e86e69a5ebe5dfcb861.jpg"
@@ -19542,7 +19542,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c377d201e599c7ce3566ce5c23ebe56f.jpg",
     "images": [
       "c377d201e599c7ce3566ce5c23ebe56f.jpg"
@@ -19556,7 +19556,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "18f8fde1aafb3b5aa3f759253459552c.jpg",
     "images": [
       "18f8fde1aafb3b5aa3f759253459552c.jpg"
@@ -19570,7 +19570,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2f0bf7a1263de42e04fa1ed6d3642fae.jpg",
     "images": [
       "2f0bf7a1263de42e04fa1ed6d3642fae.jpg"
@@ -19584,7 +19584,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4b863bfd22a439135a6f17190d4a5280.jpg",
     "images": [
       "4b863bfd22a439135a6f17190d4a5280.jpg"
@@ -19598,7 +19598,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "dc022f0d1848a85db3f3dcceeca6ad31.jpg",
     "images": [
       "dc022f0d1848a85db3f3dcceeca6ad31.jpg"
@@ -19612,7 +19612,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f15b2a1f4ac5649bcfdc65699bf3d897.jpg",
     "images": [
       "f15b2a1f4ac5649bcfdc65699bf3d897.jpg"
@@ -19626,7 +19626,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a832dea292aed0e76d27d40ad2fe2091.jpg",
     "images": [
       "a832dea292aed0e76d27d40ad2fe2091.jpg"
@@ -19640,7 +19640,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "98cc78c7b96956d10e072373da00ecca.jpg",
     "images": [
       "98cc78c7b96956d10e072373da00ecca.jpg"
@@ -19654,7 +19654,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "024e6635b995bdbb2483b40bdea85077.jpg",
     "images": [
       "024e6635b995bdbb2483b40bdea85077.jpg"
@@ -19668,7 +19668,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d6f2b01ed3c9b98e1ecbf24b0142bfa2.jpg",
     "images": [
       "d6f2b01ed3c9b98e1ecbf24b0142bfa2.jpg"
@@ -19682,7 +19682,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "fb58d065e3b427e93c417b583098490d.jpg",
     "images": [
       "fb58d065e3b427e93c417b583098490d.jpg"
@@ -19696,7 +19696,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "55d4a935cb2de9fdb963312762170a09.jpg",
     "images": [
       "55d4a935cb2de9fdb963312762170a09.jpg"
@@ -19710,7 +19710,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ed5b3c2d06d529a3fe650106e149ee35.jpg",
     "images": [
       "ed5b3c2d06d529a3fe650106e149ee35.jpg"
@@ -19724,7 +19724,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "72d931fbe3d6550c151ce570cecd3c10.jpg",
     "images": [
       "72d931fbe3d6550c151ce570cecd3c10.jpg"
@@ -19738,7 +19738,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "1aad0e5d57ae42a79dc76002e99d98a1.jpg",
     "images": [
       "1aad0e5d57ae42a79dc76002e99d98a1.jpg"
@@ -19752,7 +19752,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "aeadac8eae252f320987b2a8d66630e2.jpg",
     "images": [
       "aeadac8eae252f320987b2a8d66630e2.jpg"
@@ -19766,7 +19766,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b62272eb92ab1459a4acb49c2135fc1e.jpg",
     "images": [
       "b62272eb92ab1459a4acb49c2135fc1e.jpg"
@@ -19780,7 +19780,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "09423219fe52a784c17b695c795801df.jpg",
     "images": [
       "09423219fe52a784c17b695c795801df.jpg"
@@ -19794,7 +19794,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9525895a4250514639c951f81a993fe1.jpg",
     "images": [
       "9525895a4250514639c951f81a993fe1.jpg"
@@ -19808,7 +19808,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9971f35526cf17ce01b28fb53f30be8c.jpg",
     "images": [
       "9971f35526cf17ce01b28fb53f30be8c.jpg"
@@ -19822,7 +19822,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5e6c712758b6e260ec51dc8a114c6763.jpg",
     "images": [
       "5e6c712758b6e260ec51dc8a114c6763.jpg"
@@ -19836,7 +19836,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c0eb5e75533b00ed87fcec17fc94ccbe.jpg",
     "images": [
       "c0eb5e75533b00ed87fcec17fc94ccbe.jpg"
@@ -19850,7 +19850,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "566ad5018491080fcf2bac598ca0b049.jpg",
     "images": [
       "566ad5018491080fcf2bac598ca0b049.jpg"
@@ -19864,7 +19864,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ba92c9f58d22e8bf43e146414296cfba.jpg",
     "images": [
       "ba92c9f58d22e8bf43e146414296cfba.jpg"
@@ -19878,7 +19878,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "31ddefafcfda608a2f13064f1ecdd1f4.jpg",
     "images": [
       "31ddefafcfda608a2f13064f1ecdd1f4.jpg"
@@ -19892,7 +19892,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "03edcbcf3f8e4545a7b7f4df4ab7d5c9.jpg",
     "images": [
       "03edcbcf3f8e4545a7b7f4df4ab7d5c9.jpg"
@@ -19906,7 +19906,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e382829c60160d9e3802c3327a56e7af.jpg",
     "images": [
       "e382829c60160d9e3802c3327a56e7af.jpg"
@@ -19920,7 +19920,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "898017f2e384398c503ab29a3d363f28.jpg",
     "images": [
       "898017f2e384398c503ab29a3d363f28.jpg"
@@ -19934,7 +19934,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0e57df239118e8b60da72c73d1d80f46.jpg",
     "images": [
       "0e57df239118e8b60da72c73d1d80f46.jpg"
@@ -19948,7 +19948,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "ae73ea62d80bb118885c99ce9865b68e.jpg",
     "images": [
       "ae73ea62d80bb118885c99ce9865b68e.jpg"
@@ -19962,7 +19962,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "7b9558bb882bddce855ff3fd068f6409.jpg",
     "images": [
       "7b9558bb882bddce855ff3fd068f6409.jpg"
@@ -19976,7 +19976,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c6c6218efba14d1ed0f42f1d60e60ca4.jpg",
     "images": [
       "c6c6218efba14d1ed0f42f1d60e60ca4.jpg"
@@ -19990,7 +19990,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9624f769091bc0556e3baee804f5475a.jpg",
     "images": [
       "9624f769091bc0556e3baee804f5475a.jpg"
@@ -20004,7 +20004,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8662130adb419449ca8a1ccb91abac85.jpg",
     "images": [
       "8662130adb419449ca8a1ccb91abac85.jpg"
@@ -20018,7 +20018,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "adc6c22a4748995bb3d5f986d0caf572.jpg",
     "images": [
       "adc6c22a4748995bb3d5f986d0caf572.jpg"
@@ -20032,7 +20032,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "152e849cc5e53dce3dfdbd73def80431.jpg",
     "images": [
       "152e849cc5e53dce3dfdbd73def80431.jpg"
@@ -20046,7 +20046,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d50cc46e2259de98f04dd03c2237b40e.jpg",
     "images": [
       "d50cc46e2259de98f04dd03c2237b40e.jpg"
@@ -20060,7 +20060,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9d8c64c14125d545007314043fc01c05.jpg",
     "images": [
       "9d8c64c14125d545007314043fc01c05.jpg"
@@ -20074,7 +20074,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "bd90c7107dedeae5255c627cae9a3d32.jpg",
     "images": [
       "bd90c7107dedeae5255c627cae9a3d32.jpg"
@@ -20088,7 +20088,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4b77c3f8e36c420c4eb6db89b1a2b6f8.jpg",
     "images": [
       "4b77c3f8e36c420c4eb6db89b1a2b6f8.jpg"
@@ -20102,7 +20102,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "db7541d5f7bcc0c1a1408968b1e0393a.jpg",
     "images": [
       "db7541d5f7bcc0c1a1408968b1e0393a.jpg"
@@ -20116,7 +20116,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "060fab4579075b46518fd592e159a078.jpg",
     "images": [
       "060fab4579075b46518fd592e159a078.jpg"
@@ -20130,7 +20130,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "818e63bb6b918fd25781d7e9d7a7bc75.jpg",
     "images": [
       "818e63bb6b918fd25781d7e9d7a7bc75.jpg"
@@ -20144,7 +20144,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9d624aca1ae00e4615c52f6d811aad49.jpg",
     "images": [
       "9d624aca1ae00e4615c52f6d811aad49.jpg"
@@ -20158,7 +20158,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "fbe9e25c6b1d6bcc38c81524c0eaf51b.jpg",
     "images": [
       "fbe9e25c6b1d6bcc38c81524c0eaf51b.jpg"
@@ -20172,7 +20172,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "9b27a5c196a27514640b1a0699b0b33b.jpg",
     "images": [
       "9b27a5c196a27514640b1a0699b0b33b.jpg"
@@ -20186,7 +20186,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d0e381fabfca82e41ee3d71cb56d79ca.jpg",
     "images": [
       "d0e381fabfca82e41ee3d71cb56d79ca.jpg"
@@ -20200,7 +20200,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "3751cc3bb7643e5b905d082f68694b39.jpg",
     "images": [
       "3751cc3bb7643e5b905d082f68694b39.jpg"
@@ -20214,7 +20214,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "bbab8669abab23cfe7b19aa8108f7210.jpg",
     "images": [
       "bbab8669abab23cfe7b19aa8108f7210.jpg"
@@ -20228,7 +20228,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2b582b977d67f0ab5d300cfc6373124e.jpg",
     "images": [
       "2b582b977d67f0ab5d300cfc6373124e.jpg"
@@ -20242,7 +20242,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a31ec408e228f8f309c5a06c98a7baad.jpg",
     "images": [
       "a31ec408e228f8f309c5a06c98a7baad.jpg"
@@ -20256,7 +20256,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "8eaaf1e58baa8afb1859a4af81d13429.jpg",
     "images": [
       "8eaaf1e58baa8afb1859a4af81d13429.jpg"
@@ -20270,7 +20270,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "3068abdeda86a0250aaf2f630e8ed0af.jpg",
     "images": [
       "3068abdeda86a0250aaf2f630e8ed0af.jpg"
@@ -20284,7 +20284,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "77f8ebfce6ae3777eef3877935e52fe2.jpg",
     "images": [
       "77f8ebfce6ae3777eef3877935e52fe2.jpg"
@@ -20298,7 +20298,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "6789596b05e81f6544c4dad915015073.jpg",
     "images": [
       "6789596b05e81f6544c4dad915015073.jpg"
@@ -20312,7 +20312,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "69336b01c05bcde9c80d589db7b8b562.jpg",
     "images": [
       "69336b01c05bcde9c80d589db7b8b562.jpg"
@@ -20326,7 +20326,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d98c91e3a26a29a0115fc148590c0295.jpg",
     "images": [
       "d98c91e3a26a29a0115fc148590c0295.jpg"
@@ -20340,7 +20340,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f56bd7407b755b7a89af8ec2248909b0.jpg",
     "images": [
       "f56bd7407b755b7a89af8ec2248909b0.jpg"
@@ -20354,7 +20354,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "bc0fe1d5ff6dfd4a87ff8b3ec0fe10ed.jpg",
     "images": [
       "bc0fe1d5ff6dfd4a87ff8b3ec0fe10ed.jpg"
@@ -20368,7 +20368,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e2a2ba90b7d116a0d5a9c5a967cc2555.jpg",
     "images": [
       "e2a2ba90b7d116a0d5a9c5a967cc2555.jpg"
@@ -20382,7 +20382,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "b4a23fa3459fc30e7d40ee9f8c32d942.jpg",
     "images": [
       "b4a23fa3459fc30e7d40ee9f8c32d942.jpg"
@@ -20396,7 +20396,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "fde43103e5d10682eb17b97a56974fd8.jpg",
     "images": [
       "fde43103e5d10682eb17b97a56974fd8.jpg"
@@ -20410,7 +20410,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "5180942028abb151facc3e485da1fea1.jpg",
     "images": [
       "5180942028abb151facc3e485da1fea1.jpg"
@@ -20424,7 +20424,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "dd1f366a346968af4050a1c6594b28b8.jpg",
     "images": [
       "dd1f366a346968af4050a1c6594b28b8.jpg"
@@ -20438,7 +20438,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "f3ca390c86e2008d4402958c03e8dcef.jpg",
     "images": [
       "f3ca390c86e2008d4402958c03e8dcef.jpg"
@@ -20452,7 +20452,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "81d2ae6d3b3aa245eb83942d6f717998.jpg",
     "images": [
       "81d2ae6d3b3aa245eb83942d6f717998.jpg"
@@ -20466,7 +20466,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2e9bcd973ef533fd2d254b868e5d477f.jpg",
     "images": [
       "2e9bcd973ef533fd2d254b868e5d477f.jpg"
@@ -20480,7 +20480,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "a9f2e49b7d7b9a8ff3e4c31fda95c5c0.jpg",
     "images": [
       "a9f2e49b7d7b9a8ff3e4c31fda95c5c0.jpg"
@@ -20494,7 +20494,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0a6c281417d728860f3d674624299e28.jpg",
     "images": [
       "0a6c281417d728860f3d674624299e28.jpg"
@@ -20508,7 +20508,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e6b983430366e8e02b49a79d0351b7b7.jpg",
     "images": [
       "e6b983430366e8e02b49a79d0351b7b7.jpg"
@@ -20522,7 +20522,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "dec3a403f0cbbbd0d98e476c2ebcbc52.jpg",
     "images": [
       "dec3a403f0cbbbd0d98e476c2ebcbc52.jpg"
@@ -20536,7 +20536,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "916e8d18dd41eafb652aeac4caa45729.jpg",
     "images": [
       "916e8d18dd41eafb652aeac4caa45729.jpg"
@@ -20550,7 +20550,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "2661c222ee8363ec4ba01e5a62445ae3.jpg",
     "images": [
       "2661c222ee8363ec4ba01e5a62445ae3.jpg"
@@ -20564,7 +20564,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "bee16456d932e6cb999d14caa4bf0fec.jpg",
     "images": [
       "bee16456d932e6cb999d14caa4bf0fec.jpg"
@@ -20578,7 +20578,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "c85a930e02f415df1db8b3454e4ece21.jpg",
     "images": [
       "c85a930e02f415df1db8b3454e4ece21.jpg"
@@ -20592,7 +20592,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "1f0f5d77189e7fd244edf0c729f665aa.jpg",
     "images": [
       "1f0f5d77189e7fd244edf0c729f665aa.jpg"
@@ -20606,7 +20606,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "63335e470b5f2f0cf96a306a07b2d369.jpg",
     "images": [
       "63335e470b5f2f0cf96a306a07b2d369.jpg"
@@ -20620,7 +20620,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "02e593be19a6c657bea5b25bd406514f.jpg",
     "images": [
       "02e593be19a6c657bea5b25bd406514f.jpg"
@@ -20634,7 +20634,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e549fa2f4a0a580d4b7289dc3cbe5840.jpg",
     "images": [
       "e549fa2f4a0a580d4b7289dc3cbe5840.jpg"
@@ -20648,7 +20648,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4815fd4d0589dbb897dca37debf5b7d8.jpg",
     "images": [
       "4815fd4d0589dbb897dca37debf5b7d8.jpg"
@@ -20662,7 +20662,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0159e6fb8530397918098a8181ba9400.jpg",
     "images": [
       "0159e6fb8530397918098a8181ba9400.jpg"
@@ -20676,7 +20676,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "534b8f835b96b0c9d0f5d3846fd1f258.jpg",
     "images": [
       "534b8f835b96b0c9d0f5d3846fd1f258.jpg"
@@ -20690,7 +20690,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e0cacdd1e32f309786309f70e9fac899.jpg",
     "images": [
       "e0cacdd1e32f309786309f70e9fac899.jpg"
@@ -20704,7 +20704,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "10f94b5594cbaf727ddf6dbfc421b606.jpg",
     "images": [
       "10f94b5594cbaf727ddf6dbfc421b606.jpg"
@@ -20718,7 +20718,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "e0a7caca5807b0b4f5188bb4f833fa2e.jpg",
     "images": [
       "e0a7caca5807b0b4f5188bb4f833fa2e.jpg"
@@ -20732,7 +20732,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "bea0f8cc9439fc2ec44886fc5de59922.jpg",
     "images": [
       "bea0f8cc9439fc2ec44886fc5de59922.jpg"
@@ -20746,7 +20746,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "56bd3ee42e1331c1534ea60a4cbfbf52.jpg",
     "images": [
       "56bd3ee42e1331c1534ea60a4cbfbf52.jpg"
@@ -20760,7 +20760,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "4a6deed97129f0ec1dd0d9359e93dec7.jpg",
     "images": [
       "4a6deed97129f0ec1dd0d9359e93dec7.jpg"
@@ -20774,7 +20774,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "bd18c2ed361dce02658a45c232d7862e.jpg",
     "images": [
       "bd18c2ed361dce02658a45c232d7862e.jpg"
@@ -20788,7 +20788,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "d10e63feb28ff234dd89ceafdfc7d4d2.jpg",
     "images": [
       "d10e63feb28ff234dd89ceafdfc7d4d2.jpg"
@@ -20802,7 +20802,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피___MACOSX",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "87b2eca78b2e09de2b53db53bee168d4.jpg",
     "images": [
       "87b2eca78b2e09de2b53db53bee168d4.jpg"
@@ -20816,7 +20816,7 @@ export const materials = [
     "brand": "LX",
     "category": "벽지",
     "line": "실크_LX_테라피___MACOSX",
-    "price": 0,
+    "price": 45000,
     "thumbnail": "0d7935fca0bb3e46aaf8fedaf6b5de75.jpg",
     "images": [
       "0d7935fca0bb3e46aaf8fedaf6b5de75.jpg"
