@@ -536,7 +536,7 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                 }
             } else if (brand === '개나리') {
                 if (line.includes('프리미엄')) {
-                    price = 99000;
+                    price = 45000;
                     materialType = "프리미엄";
                     sizeLabel = "1.06m(W) x 15.6m(H) / Roll";
                     packing = "2 Roll";
@@ -546,12 +546,12 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                     sizeLabel = "1.06m(W) x 15.6m(H) / Roll (16.43㎡)";
                     packing = "4 Roll";
                 } else if (line.includes('합지(소폭)')) {
-                    price = 25000;
+                    price = 23000;
                     materialType = "합지(소폭)";
                     sizeLabel = "0.53m(W) x 12.5m(H) / Roll";
                     packing = "20 Roll / Box";
                 } else if (line.includes('합지(장폭)')) {
-                    price = 39000;
+                    price = 23000;
                     materialType = "합지(장폭)";
                     sizeLabel = "0.93m(W) x 17.75m(H) / Roll (16.50㎡)";
                     packing = "6 R / Box";
@@ -563,10 +563,12 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                     sizeLabel = "1.06m(W) x 15.6m(H) / Roll (16.43㎡)";
                     packing = "4 Roll / Box";
                 } else if (line.includes('실크')) {
+                    price = 45000;
                     materialType = "실크";
                     sizeLabel = "1.06m(W) x 15.6m(H) / Roll (16.43㎡)";
                     packing = "4 Roll";
                 } else if (line.includes('방염')) {
+                    price = 45000;
                     materialType = "방염";
                     sizeLabel = "1.06m(W) x 15.6m(H) / Roll (16.43㎡)";
                     packing = "4 Roll";

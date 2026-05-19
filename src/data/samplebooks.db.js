@@ -150,7 +150,7 @@ export const sampleBooks = [
         brand: "동신",
         category: "데코타일",
         pdf: "/samplebooks/데코타일/동신/동신하우스/dsarthouse_sample.pdf",
-        cover: "/samplebooks/Thumbnail_image/데코타일/동신/dsarthouse_page1.png",
+        cover: "/samplebooks/Thumbnail_image/데코타일/동신/동신하우스/dsarthouse_page1.png",
         description: "동신포리마 주거용 데코타일",
         isRecommended: true
     },
@@ -160,6 +160,7 @@ export const sampleBooks = [
         brand: "동신",
         category: "데코타일",
         pdf: "/samplebooks/데코타일/동신/동신OA타일/동신포리마 2023 아트OA타일 E-Catalog.pdf",
+        cover: "/samplebooks/Thumbnail_image/데코타일/동신/동신OA타일/동신OA타일썸네일.png",
         description: "동신포리마 OA타일 컬렉션"
     },
     {
@@ -168,6 +169,7 @@ export const sampleBooks = [
         brand: "동신",
         category: "데코타일",
         pdf: "/samplebooks/데코타일/동신/동신차음바닥재/동신포리마 2024 아트에코차음 E-Catalog.pdf",
+        cover: "/samplebooks/Thumbnail_image/데코타일/동신/동신차음바닥재/동신에코차음바닥재.png",
         description: "동신포리마 차음바닥재 컬렉션"
     },
 

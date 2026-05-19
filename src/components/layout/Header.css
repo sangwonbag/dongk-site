@@ -97,7 +97,7 @@
     .header-search input {
         height: 40px;
         padding: 0 40px 0 15px;
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .header-search button {
@@ -110,6 +110,17 @@
 
     .header-nav {
         gap: 15px;
+    }
+
+    .search-dropdown {
+        position: fixed;
+        top: 60px;
+        left: 0;
+        width: 100vw;
+        max-height: calc(100vh - 60px);
+        border-radius: 0;
+        border-top: none;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
 }
 

@@ -24,7 +24,7 @@ import IntroSplash from "../components/layout/IntroSplash";
 export default function App() {
   const { toast, hideToast } = useEstimateCart();
   const navigate = useNavigate();
-  const [showIntro, setShowIntro] = useState(true);
+  const [showIntro, setShowIntro] = useState(false);
 
   return (
     <>

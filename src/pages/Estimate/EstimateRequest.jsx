@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import MainLayout from '../../components/layout/MainLayout';
 import { useEstimateCart } from '../../contexts/EstimateCartContext';
 import { supabase } from '../../lib/supabase';
+import { getCurrentUser } from '../../lib/auth';
 import { ArrowLeft, Trash2, Plus, Minus, CheckCircle } from 'lucide-react';
 import MaterialSearchModal from './MaterialSearchModal';
 import './EstimateRequest.css';
@@ -16,6 +17,7 @@ const WORK_TYPES = ['자재만 구매', '자재 + 시공', '철거 포함', '기
 export default function EstimateRequest() {
   const navigate = useNavigate();
   const { cartItems, updateQuantity, removeFromCart, clearCart } = useEstimateCart();
+  const currentUser = getCurrentUser();
   
   const [step, setStep] = useState(1);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -152,6 +154,21 @@ export default function EstimateRequest() {
       setIsSubmitting(false);
     }
   };
+
+  if (!currentUser) {
+    return (
+      <MainLayout>
+        <div className="container" style={{ padding: '100px 20px', textAlign: 'center' }}>
+          <h2>로그인 후 이용해주세요</h2>
+          <p style={{ marginTop: '20px', color: '#666' }}>견적요청은 로그인된 회원만 이용 가능합니다.</p>
+          <div style={{ marginTop: '40px', display: 'flex', gap: '10px', justifyContent: 'center', flexWrap: 'wrap' }}>
+            <button className="btn-secondary" onClick={() => navigate(-1)}>화면으로 돌아가기</button>
+            <button className="btn-primary" onClick={() => navigate('/login?redirect=/estimate/request')}>로그인 화면으로 가기</button>
+          </div>
+        </div>
+      </MainLayout>
+    );
+  }
 
   if (submitSuccess) {
     return (

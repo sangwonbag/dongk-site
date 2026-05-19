@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { login } from "../../lib/auth";
 import "./Login.css";
 
 export default function Login() {
     const nav = useNavigate();
+    const location = useLocation();
     const [userId, setUserId] = useState("");
     const [password, setPassword] = useState("");
     const [errorMsg, setErrorMsg] = useState("");
@@ -25,7 +26,9 @@ export default function Login() {
             if (result.user.role === "admin") {
                 nav("/admin");
             } else {
-                nav("/");
+                const searchParams = new URLSearchParams(location.search);
+                const redirectUrl = searchParams.get("redirect") || "/";
+                nav(redirectUrl);
             }
         } else {
             setErrorMsg(result.message);
