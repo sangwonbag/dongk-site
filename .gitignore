@@ -10,4 +10,9 @@ public/images/Thumbnail_Image/
 public/images/upload_target/
 .vercel
 
-.vercel
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
