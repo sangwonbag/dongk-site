@@ -593,17 +593,17 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                 const cleanLine = line.replace(/_$/, '');
                 if (cleanLine === '원목마루_라르고 솔레 150 T4') {
                     overrideLine = '라르고 솔레 150 T4';
-                    thickness = '11.5T';
+                    thickness = '11.5T(1.2)';
                     sizeLabel = '150x1200mm';
                     packing = '박스단위';
                 } else if (cleanLine === '원목마루_라르고 솔레 190 T1') {
                     overrideLine = '라르고 솔레 190 T1';
-                    thickness = '11.5T';
+                    thickness = '11.5T(1.2)';
                     sizeLabel = '190x1900mm';
                     packing = '박스단위';
                 } else if (cleanLine === '원목마루_라르고 솔레 190 T3') {
                     overrideLine = '라르고 솔레 190 T3';
-                    thickness = '14T';
+                    thickness = '14T(3)';
                     sizeLabel = '190x1900mm';
                     packing = '박스단위';
                 } else if (cleanLine === '강마루_세라_세라') {

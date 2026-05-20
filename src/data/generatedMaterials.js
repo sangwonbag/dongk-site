@@ -20288,10 +20288,10 @@ export const materials = [
     "images": [
       "6814810aeb7b4992a6512f16aefb9b2b.jpg"
     ],
-    "thickness": "11.5T",
+    "thickness": "11.5T(1.2)",
     "specs": {
       "division": "",
-      "thickness": "11.5T",
+      "thickness": "11.5T(1.2)",
       "size": "150x1200mm",
       "packing": "박스단위"
     }
@@ -20308,10 +20308,10 @@ export const materials = [
     "images": [
       "578d24ceddfb7776f07ea58dc745450f.jpg"
     ],
-    "thickness": "11.5T",
+    "thickness": "11.5T(1.2)",
     "specs": {
       "division": "",
-      "thickness": "11.5T",
+      "thickness": "11.5T(1.2)",
       "size": "150x1200mm",
       "packing": "박스단위"
     }
@@ -20328,10 +20328,10 @@ export const materials = [
     "images": [
       "88929871a329fd64a8fdb808bd245274.jpg"
     ],
-    "thickness": "11.5T",
+    "thickness": "11.5T(1.2)",
     "specs": {
       "division": "",
-      "thickness": "11.5T",
+      "thickness": "11.5T(1.2)",
       "size": "150x1200mm",
       "packing": "박스단위"
     }
@@ -20348,10 +20348,10 @@ export const materials = [
     "images": [
       "195a6e9d8df87a40255ffba4c26a2be2.jpg"
     ],
-    "thickness": "11.5T",
+    "thickness": "11.5T(1.2)",
     "specs": {
       "division": "",
-      "thickness": "11.5T",
+      "thickness": "11.5T(1.2)",
       "size": "150x1200mm",
       "packing": "박스단위"
     }
@@ -20368,10 +20368,10 @@ export const materials = [
     "images": [
       "8a2f717751e50edf8831be37bfc0549b.jpg"
     ],
-    "thickness": "11.5T",
+    "thickness": "11.5T(1.2)",
     "specs": {
       "division": "",
-      "thickness": "11.5T",
+      "thickness": "11.5T(1.2)",
       "size": "150x1200mm",
       "packing": "박스단위"
     }
@@ -20388,10 +20388,10 @@ export const materials = [
     "images": [
       "eadc8b2dda1dee811928bb542d93de3d.jpg"
     ],
-    "thickness": "11.5T",
+    "thickness": "11.5T(1.2)",
     "specs": {
       "division": "",
-      "thickness": "11.5T",
+      "thickness": "11.5T(1.2)",
       "size": "150x1200mm",
       "packing": "박스단위"
     }
@@ -20408,10 +20408,10 @@ export const materials = [
     "images": [
       "0171d85792c40fdad899f0ec072a93df.jpg"
     ],
-    "thickness": "11.5T",
+    "thickness": "11.5T(1.2)",
     "specs": {
       "division": "",
-      "thickness": "11.5T",
+      "thickness": "11.5T(1.2)",
       "size": "150x1200mm",
       "packing": "박스단위"
     }
@@ -20428,10 +20428,10 @@ export const materials = [
     "images": [
       "3c8aebfbc4dc2b60f6d8b2d6ce6f8917.jpg"
     ],
-    "thickness": "11.5T",
+    "thickness": "11.5T(1.2)",
     "specs": {
       "division": "",
-      "thickness": "11.5T",
+      "thickness": "11.5T(1.2)",
       "size": "190x1900mm",
       "packing": "박스단위"
     }
@@ -20448,10 +20448,10 @@ export const materials = [
     "images": [
       "9290bbbe2f42daf38ab439bdea7859d3.jpg"
     ],
-    "thickness": "11.5T",
+    "thickness": "11.5T(1.2)",
     "specs": {
       "division": "",
-      "thickness": "11.5T",
+      "thickness": "11.5T(1.2)",
       "size": "190x1900mm",
       "packing": "박스단위"
     }
@@ -20468,10 +20468,10 @@ export const materials = [
     "images": [
       "805cdaf3d3be278d61599d815830e022.jpg"
     ],
-    "thickness": "11.5T",
+    "thickness": "11.5T(1.2)",
     "specs": {
       "division": "",
-      "thickness": "11.5T",
+      "thickness": "11.5T(1.2)",
       "size": "190x1900mm",
       "packing": "박스단위"
     }
@@ -20488,10 +20488,10 @@ export const materials = [
     "images": [
       "d7272e93356fce950eb7763ac3804de3.jpg"
     ],
-    "thickness": "11.5T",
+    "thickness": "11.5T(1.2)",
     "specs": {
       "division": "",
-      "thickness": "11.5T",
+      "thickness": "11.5T(1.2)",
       "size": "190x1900mm",
       "packing": "박스단위"
     }
@@ -20508,10 +20508,10 @@ export const materials = [
     "images": [
       "3fcc5b07c3dd97a59252b2bf2cd709ec.jpg"
     ],
-    "thickness": "11.5T",
+    "thickness": "11.5T(1.2)",
     "specs": {
       "division": "",
-      "thickness": "11.5T",
+      "thickness": "11.5T(1.2)",
       "size": "190x1900mm",
       "packing": "박스단위"
     }
@@ -20528,70 +20528,10 @@ export const materials = [
     "images": [
       "ce636d8b3bc4e11ec127fd83c5ffc081.jpg"
     ],
-    "thickness": "11.5T",
+    "thickness": "11.5T(1.2)",
     "specs": {
       "division": "",
-      "thickness": "11.5T",
-      "size": "190x1900mm",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-원목마루_라르고 솔레 190 T3_35",
-    "code": "35",
-    "name": "35",
-    "brand": "이건",
-    "category": "마루",
-    "line": "라르고 솔레 190 T3",
-    "price": 0,
-    "thumbnail": "a5fc68e327e76e98787ded86abfa8a74.jpg",
-    "images": [
-      "a5fc68e327e76e98787ded86abfa8a74.jpg"
-    ],
-    "thickness": "14T",
-    "specs": {
-      "division": "",
-      "thickness": "14T",
-      "size": "190x1900mm",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-원목마루_라르고 솔레 190 T3_36",
-    "code": "36",
-    "name": "36",
-    "brand": "이건",
-    "category": "마루",
-    "line": "라르고 솔레 190 T3",
-    "price": 0,
-    "thumbnail": "3c8fa9f07ed397c56c5f3a4dd52f5b75.jpg",
-    "images": [
-      "3c8fa9f07ed397c56c5f3a4dd52f5b75.jpg"
-    ],
-    "thickness": "14T",
-    "specs": {
-      "division": "",
-      "thickness": "14T",
-      "size": "190x1900mm",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-원목마루_라르고 솔레 190 T3_99",
-    "code": "99",
-    "name": "99",
-    "brand": "이건",
-    "category": "마루",
-    "line": "라르고 솔레 190 T3",
-    "price": 0,
-    "thumbnail": "79e9bf21911738c8883d05fefa314b4a.jpg",
-    "images": [
-      "79e9bf21911738c8883d05fefa314b4a.jpg"
-    ],
-    "thickness": "14T",
-    "specs": {
-      "division": "",
-      "thickness": "14T",
+      "thickness": "11.5T(1.2)",
       "size": "190x1900mm",
       "packing": "박스단위"
     }
@@ -20608,10 +20548,10 @@ export const materials = [
     "images": [
       "9b29bbcb0b00fa62c2fe3fd43e5e5c6c.jpg"
     ],
-    "thickness": "14T",
+    "thickness": "14T(3)",
     "specs": {
       "division": "",
-      "thickness": "14T",
+      "thickness": "14T(3)",
       "size": "190x1900mm",
       "packing": "박스단위"
     }
@@ -20628,10 +20568,10 @@ export const materials = [
     "images": [
       "60a8178383a1071c3f6b8b3ed026a0be.jpg"
     ],
-    "thickness": "14T",
+    "thickness": "14T(3)",
     "specs": {
       "division": "",
-      "thickness": "14T",
+      "thickness": "14T(3)",
       "size": "190x1900mm",
       "packing": "박스단위"
     }
@@ -20648,10 +20588,10 @@ export const materials = [
     "images": [
       "9d7d0256f345ea7242233253ef28d36b.jpg"
     ],
-    "thickness": "14T",
+    "thickness": "14T(3)",
     "specs": {
       "division": "",
-      "thickness": "14T",
+      "thickness": "14T(3)",
       "size": "190x1900mm",
       "packing": "박스단위"
     }
@@ -20668,10 +20608,50 @@ export const materials = [
     "images": [
       "0b74f7b1659ad026679b9d997c97f96e.jpg"
     ],
-    "thickness": "14T",
+    "thickness": "14T(3)",
     "specs": {
       "division": "",
-      "thickness": "14T",
+      "thickness": "14T(3)",
+      "size": "190x1900mm",
+      "packing": "박스단위"
+    }
+  },
+  {
+    "id": "이건-원목마루_라르고 솔레 190 T3_오크 예스B",
+    "code": "오크 예스B",
+    "name": "오크 예스B",
+    "brand": "이건",
+    "category": "마루",
+    "line": "라르고 솔레 190 T3",
+    "price": 0,
+    "thumbnail": "463dfda6eac1297e7c1fe25aa06cc1f3.jpg",
+    "images": [
+      "463dfda6eac1297e7c1fe25aa06cc1f3.jpg"
+    ],
+    "thickness": "14T(3)",
+    "specs": {
+      "division": "",
+      "thickness": "14T(3)",
+      "size": "190x1900mm",
+      "packing": "박스단위"
+    }
+  },
+  {
+    "id": "이건-원목마루_라르고 솔레 190 T3_오크 예스HB",
+    "code": "오크 예스HB",
+    "name": "오크 예스HB",
+    "brand": "이건",
+    "category": "마루",
+    "line": "라르고 솔레 190 T3",
+    "price": 0,
+    "thumbnail": "02d70a469921019aeeac9dbb2fc823ff.jpg",
+    "images": [
+      "02d70a469921019aeeac9dbb2fc823ff.jpg"
+    ],
+    "thickness": "14T(3)",
+    "specs": {
+      "division": "",
+      "thickness": "14T(3)",
       "size": "190x1900mm",
       "packing": "박스단위"
     }
@@ -20688,10 +20668,10 @@ export const materials = [
     "images": [
       "3a4d4cbf6f044a84896de2e173091a7b.jpg"
     ],
-    "thickness": "14T",
+    "thickness": "14T(3)",
     "specs": {
       "division": "",
-      "thickness": "14T",
+      "thickness": "14T(3)",
       "size": "190x1900mm",
       "packing": "박스단위"
     }
