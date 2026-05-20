@@ -645,6 +645,41 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                     thickness = '10.5T';
                     sizeLabel = '190x1615mm';
                     packing = '박스단위';
+                } else if (cleanLine === '프리미엄 강마루_그린_그린 125') {
+                    overrideLine = '그린 125';
+                    thickness = '10.5T';
+                    sizeLabel = '125x800mm';
+                    packing = '박스단위';
+                } else if (cleanLine === '프리미엄 강마루_그린_그린 165') {
+                    overrideLine = '그린 165';
+                    thickness = '10.5T';
+                    sizeLabel = '165x1200mm';
+                    packing = '박스단위';
+                } else if (cleanLine === '프리미엄 강마루_그린_그린 190') {
+                    overrideLine = '그린 190';
+                    thickness = '10.5T';
+                    sizeLabel = '190x1615mm';
+                    packing = '박스단위';
+                } else if (cleanLine === '프리미엄 강마루_그린_그린 230') {
+                    overrideLine = '그린 230';
+                    thickness = '10.5T';
+                    sizeLabel = '230x2430mm';
+                    packing = '박스단위';
+                } else if (cleanLine === '프리미엄 강마루_그린_그린 스퀘어 395') {
+                    overrideLine = '그린 스퀘어 395';
+                    thickness = '10.5T';
+                    sizeLabel = '395x800mm';
+                    packing = '박스단위';
+                } else if (cleanLine === '프리미엄 강마루_그린_그린 스퀘어 597') {
+                    overrideLine = '그린 스퀘어 597';
+                    thickness = '10.5T';
+                    sizeLabel = '597x597mm';
+                    packing = '박스단위';
+                } else if (cleanLine === '프리미엄 강마루_그린') {
+                    overrideLine = '그린';
+                    thickness = '10.5T';
+                    sizeLabel = '규격별 상이';
+                    packing = '박스단위';
                 }
             }
             break;
