@@ -73,6 +73,13 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                     materialType = "동신 OA타일";
                     thickness = "5.0T";
                     price = 55000;
+                } else if (line.includes('동신아트타일') || line.includes('아트타일')) {
+                    sizeLabel = "457.2x457.2mm";
+                    packing = "16pcs / Box (3.34㎡)";
+                    type = "ds_450";
+                    materialType = "동신 아트타일";
+                    thickness = "3.0T";
+                    price = 24000;
                 } else if (uCode.startsWith("AH")) {
                     // AH = Art House
                     sizeLabel = uCode.includes("61") ? "600x600mm" : "450x450mm / 180x920mm";
