@@ -183,7 +183,7 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                     thickness = "3.0T";
                 } else if (line.includes('하우스스타일') || (brandFolder && brandFolder.includes('하우스스타일'))) {
                     thickness = "3.0T";
-                    price = 0; // Unspecified
+                    price = 44000;
                     if (uCode.startsWith("ZOT")) {
                         sizeLabel = "600x600mm";
                         packing = "9pcs / 3.24㎡";

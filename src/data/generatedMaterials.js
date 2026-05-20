@@ -1501,7 +1501,7 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스스타일",
-    "price": 0,
+    "price": 44000,
     "thumbnail": "b5727530fd5139a592ba53095f07c139.jpg",
     "images": [
       "b5727530fd5139a592ba53095f07c139.jpg"
@@ -1522,7 +1522,7 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스스타일",
-    "price": 0,
+    "price": 44000,
     "thumbnail": "41d44938fd0f710a1e7e465437746c96.jpg",
     "images": [
       "41d44938fd0f710a1e7e465437746c96.jpg"
@@ -1543,7 +1543,7 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스스타일",
-    "price": 0,
+    "price": 44000,
     "thumbnail": "4bb719192b3f337fee864d3d7430c513.jpg",
     "images": [
       "4bb719192b3f337fee864d3d7430c513.jpg"
@@ -1564,7 +1564,7 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스스타일",
-    "price": 0,
+    "price": 44000,
     "thumbnail": "03d9caf4809e6cf431da5ee04b581cad.jpg",
     "images": [
       "03d9caf4809e6cf431da5ee04b581cad.jpg"
@@ -1585,7 +1585,7 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스스타일",
-    "price": 0,
+    "price": 44000,
     "thumbnail": "446cc99363ff642df5eb2a6c9dff84de.jpg",
     "images": [
       "446cc99363ff642df5eb2a6c9dff84de.jpg"
@@ -1606,7 +1606,7 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스스타일",
-    "price": 0,
+    "price": 44000,
     "thumbnail": "bf5841ccc93a637bace7d97616efdbb8.jpg",
     "images": [
       "bf5841ccc93a637bace7d97616efdbb8.jpg"
@@ -1627,7 +1627,7 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스스타일",
-    "price": 0,
+    "price": 44000,
     "thumbnail": "c3820e3b35f844af6182f3574b75d9c4.jpg",
     "images": [
       "c3820e3b35f844af6182f3574b75d9c4.jpg"
@@ -1648,7 +1648,7 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스스타일",
-    "price": 0,
+    "price": 44000,
     "thumbnail": "a244cd4d18104369d0142461df9a31b2.jpg",
     "images": [
       "a244cd4d18104369d0142461df9a31b2.jpg"
@@ -1669,7 +1669,7 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스스타일",
-    "price": 0,
+    "price": 44000,
     "thumbnail": "f40b6fb6c56e056c6d31af9e14993d11.jpg",
     "images": [
       "f40b6fb6c56e056c6d31af9e14993d11.jpg"
@@ -1690,7 +1690,7 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스스타일",
-    "price": 0,
+    "price": 44000,
     "thumbnail": "d74373b89b0375dfd864558ffc01d873.jpg",
     "images": [
       "d74373b89b0375dfd864558ffc01d873.jpg"
@@ -1711,7 +1711,7 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스스타일",
-    "price": 0,
+    "price": 44000,
     "thumbnail": "9e4fd6ee09edb053a7866c91b98a476c.jpg",
     "images": [
       "9e4fd6ee09edb053a7866c91b98a476c.jpg"
@@ -1732,7 +1732,7 @@ export const materials = [
     "brand": "LX",
     "category": "데코타일",
     "line": "LX하우스스타일",
-    "price": 0,
+    "price": 44000,
     "thumbnail": "6354e5de7f1cc40d2500f3d83111b020.jpg",
     "images": [
       "6354e5de7f1cc40d2500f3d83111b020.jpg"
