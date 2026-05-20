@@ -44,6 +44,8 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
     let type = "";
     let materialType = "";
     let division = "";
+    let overrideName = null;
+    let overrideLine = null;
 
     // Regex helpers for code
     const uCode = code.toUpperCase();
@@ -505,6 +507,141 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                 thickness = "7.5T";
                 sizeLabel = "190x1615mm";
                 packing = "1박스 (1.84 m²)";
+            } else if (brand === '구정') {
+                const cleanLine = line.replace(/_$/, '');
+                if (cleanLine === '강마루') {
+                    thickness = '7.5T';
+                    if (fileName.includes('패턴마루')) {
+                        sizeLabel = '94x987mm';
+                        packing = '박스단위 (패턴)';
+                    } else {
+                        sizeLabel = '94x800mm';
+                        packing = '1박스 (44pcs / 3.31㎡)';
+                    }
+                } else if (cleanLine === '그랜드 텍스쳐') {
+                    overrideLine = '강마루 텍스쳐';
+                    thickness = '7.5T';
+                    sizeLabel = '165x1200mm';
+                    packing = '1박스 (10pcs / 1.98㎡)';
+                } else if (cleanLine === '노블레스') {
+                    thickness = '14T';
+                    sizeLabel = '190x1900mm';
+                    packing = '4pcs / Box (1.44㎡)';
+                } else if (cleanLine === '마뷸러스 듀스') {
+                    thickness = '8.7T';
+                    sizeLabel = '597x1210mm';
+                    packing = '8pcs / Box (5.78㎡)';
+                } else if (cleanLine === '마뷸러스 리브') {
+                    thickness = '7.7T';
+                    sizeLabel = '393x797mm';
+                    packing = '10pcs / Box (3.13㎡)';
+                } else if (cleanLine === '마뷸러스 뮤즈') {
+                    thickness = '8.7T';
+                    sizeLabel = '393x1200mm';
+                    packing = '6pcs / Box (2.83㎡)';
+                } else if (cleanLine === '마뷸러스 엘') {
+                    thickness = '8.7T';
+                    sizeLabel = '900x900mm';
+                    packing = '4pcs / Box (3.24㎡)';
+                } else if (cleanLine === '마뷸러스 젠') {
+                    thickness = '8.7T';
+                    sizeLabel = '597x597mm';
+                    packing = '9pcs / Box (3.2㎡)';
+                } else if (cleanLine === '모던강') {
+                    thickness = '6.5T';
+                    sizeLabel = '115x800mm';
+                    packing = '36pcs / Box (3.31㎡)';
+                } else if (cleanLine === '블론테') {
+                    thickness = '8.7T';
+                    sizeLabel = '230x2420mm';
+                    packing = '5pcs / Box (2.78㎡)';
+                } else if (cleanLine === '오브 월') {
+                    overrideLine = '오브월';
+                    thickness = '9T';
+                    sizeLabel = '590x2440mm / 1194x2440mm';
+                    packing = '박스단위';
+                } else if (cleanLine === '프레스티지&브러쉬_브러쉬') {
+                    overrideLine = '브러쉬골드';
+                    thickness = '7.5T';
+                    sizeLabel = '115x900mm';
+                    packing = '박스단위';
+                } else if (cleanLine === '프레스티지&브러쉬_프레스티지') {
+                    overrideLine = '프레스티지';
+                    thickness = '8.7T';
+                    sizeLabel = '142x1200mm';
+                    packing = '박스단위';
+                } else if (cleanLine === '프리미엄 텍스쳐_ROYAL') {
+                    overrideLine = '프리미엄 텍스쳐(ROYAL)';
+                    thickness = '7.5T';
+                    sizeLabel = '115x800mm';
+                    packing = '박스단위';
+                } else if (cleanLine === '프리미엄 텍스쳐_WIDE') {
+                    overrideLine = '프리미엄 텍스쳐(WIDE)';
+                    thickness = '7.5T';
+                    sizeLabel = '125x1200mm';
+                    packing = '박스단위';
+                } else if (cleanLine === '피안테') {
+                    thickness = '15T';
+                    sizeLabel = '242x2350mm';
+                    packing = '박스단위';
+                } else if (cleanLine === '헤리티지') {
+                    thickness = '10.5T';
+                    sizeLabel = '190x1900mm';
+                    packing = '6pcs / Box (2.166㎡)';
+                }
+            } else if (brand === '이건') {
+                const cleanLine = line.replace(/_$/, '');
+                if (cleanLine === '원목마루_라르고 솔레 150 T4') {
+                    overrideLine = '라르고 솔레 150 T4';
+                    thickness = '11.5T';
+                    sizeLabel = '150x1200mm';
+                    packing = '박스단위';
+                } else if (cleanLine === '원목마루_라르고 솔레 190 T1') {
+                    overrideLine = '라르고 솔레 190 T1';
+                    thickness = '11.5T';
+                    sizeLabel = '190x1900mm';
+                    packing = '박스단위';
+                } else if (cleanLine === '원목마루_라르고 솔레 190 T3') {
+                    overrideLine = '라르고 솔레 190 T3';
+                    thickness = '14T';
+                    sizeLabel = '190x1900mm';
+                    packing = '박스단위';
+                } else if (cleanLine === '강마루_세라_세라') {
+                    overrideLine = '세라';
+                    thickness = '7.5T';
+                    sizeLabel = '95x800mm';
+                    packing = '박스단위';
+                } else if (cleanLine === '강마루_세라_세라 플렉스S') {
+                    overrideLine = '세라 플렉스S';
+                    thickness = '7.5T';
+                    sizeLabel = '143x1200mm / 165x1200mm / 395x800mm';
+                    packing = '박스단위';
+                } else if (cleanLine === '강마루_세라_세라베이직') {
+                    overrideLine = '세라 베이직';
+                    thickness = '6.2T';
+                    sizeLabel = '115x800mm';
+                    packing = '박스단위';
+                } else if (cleanLine === '강마루_세라_세라블랜딩') {
+                    overrideLine = '세라 블렌딩';
+                    thickness = '7.5T';
+                    sizeLabel = '115x800mm';
+                    packing = '박스단위';
+                } else if (cleanLine === '천연마루_제나 내추럴') {
+                    overrideLine = '제나 내추럴';
+                    thickness = '7.5T';
+                    sizeLabel = '75x900mm';
+                    packing = '박스단위';
+                } else if (cleanLine === '천연마루_포레스타') {
+                    overrideLine = '포레스타';
+                    thickness = '10.5T';
+                    sizeLabel = '165x1200mm / 190x1900mm';
+                    packing = '박스단위';
+                } else if (cleanLine === '천연마루_포레스타 G') {
+                    overrideLine = '포레스타 G';
+                    thickness = '10.5T';
+                    sizeLabel = '190x1615mm';
+                    packing = '박스단위';
+                }
             }
             break;
 
@@ -686,7 +823,7 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
             break;
     }
 
-    return { price, sizeLabel, packing, thickness, type, materialType, brand, division, overrideName: null, overrideLine: null };
+    return { price, sizeLabel, packing, thickness, type, materialType, brand, division, overrideName, overrideLine };
 }
 
 function processDirectory(dirPath, category, brandFolder, lineFolder) {
@@ -723,6 +860,24 @@ function processDirectory(dirPath, category, brandFolder, lineFolder) {
                               .replace(/_\d{1,2}$/, '') // strip _0, _1, _2 up to 2 digits max
                               .replace(/_$/, ''); // strip trailing underscore
                               
+            // Custom cleanup for Gujeong (구정) & Eagon (이건) 마루
+            if (category === '마루' && brandFolder) {
+                if (brandFolder.includes('구정')) {
+                    // Strip leading numbers like 01_ or 06_
+                    cleanName = cleanName.replace(/^\d+_/, '');
+                    
+                    if (lineFolder === '강마루') {
+                        if (cleanName.includes('강마루_패턴마루_')) {
+                            cleanName = cleanName.replace(/^강마루_패턴마루_/, '') + ' (패턴)';
+                        } else if (cleanName.includes('강마루_일자마루_')) {
+                            cleanName = cleanName.replace(/^강마루_일자마루_/, '');
+                        }
+                    } else if (lineFolder === '그랜드 텍스쳐') {
+                        cleanName = cleanName.replace(/^그랜드_/, '').replace(/_\d+$/, '');
+                    }
+                }
+            }
+                              
             let words = cleanName.trim().split(/\s+/);
             let finalCode = words[0];
             if (words.length > 1 && /^\d+/.test(words[1])) {
@@ -740,6 +895,11 @@ function processDirectory(dirPath, category, brandFolder, lineFolder) {
             // For LX Decotiles, drop descriptive text and just use the spaced code as name
             if (category === '데코타일' && brandFolder && brandFolder.includes('LX')) {
                 cleanName = finalCode;
+            }
+
+            // For Maru (마루), use the full cleaned name as the code to prevent collisions and keep full color name
+            if (category === '마루') {
+                finalCode = cleanName;
             }
             
             // Build ID
