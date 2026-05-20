@@ -320,7 +320,7 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                         type = "wood";
                     }
                 } else if (line.includes('오키드3000') || line.includes('3000')) {
-                    price = 32000;
+                    price = 35000;
                     if (line.includes('우드450')) {
                         sizeLabel = "457.2x914.4mm";
                         packing = "8pcs/Box (3.34m²)";

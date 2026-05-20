@@ -2761,7 +2761,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_450각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "c6d8c9eb7b234d61d6bf6fb627c58bfd.jpg",
     "images": [
       "c6d8c9eb7b234d61d6bf6fb627c58bfd.jpg"
@@ -2782,7 +2782,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_450각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "a28fa10467288c0008bb78d89eb29714.jpg",
     "images": [
       "a28fa10467288c0008bb78d89eb29714.jpg"
@@ -2803,7 +2803,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_450각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "15c11f3764fa035ed4bad24c27399156.jpg",
     "images": [
       "15c11f3764fa035ed4bad24c27399156.jpg"
@@ -2824,7 +2824,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_450각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "e648cfe95c065f3c14af8407f12cc510.jpg",
     "images": [
       "e648cfe95c065f3c14af8407f12cc510.jpg"
@@ -2845,7 +2845,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_450각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "c922b2ee68dc24cf83ec3f57418c3627.jpg",
     "images": [
       "c922b2ee68dc24cf83ec3f57418c3627.jpg"
@@ -2866,7 +2866,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_450각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "8338f12b519394e628681cce7f604348.jpg",
     "images": [
       "8338f12b519394e628681cce7f604348.jpg"
@@ -2887,7 +2887,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_450각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "73134349e40a1c4a984f2714d3f27104.jpg",
     "images": [
       "73134349e40a1c4a984f2714d3f27104.jpg"
@@ -2908,7 +2908,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_450각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "1ebefd8e54c75468359d8b8f2138f4a7.jpg",
     "images": [
       "1ebefd8e54c75468359d8b8f2138f4a7.jpg"
@@ -2929,7 +2929,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_450각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "2f210a76b6cda1a60159a7417ed86f19.jpg",
     "images": [
       "2f210a76b6cda1a60159a7417ed86f19.jpg"
@@ -2950,7 +2950,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_450각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "36e7c695236209971931ad100385fbd1.jpg",
     "images": [
       "36e7c695236209971931ad100385fbd1.jpg"
@@ -2971,7 +2971,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_450각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "283ff92f310aba4e0b890de18f719130.jpg",
     "images": [
       "283ff92f310aba4e0b890de18f719130.jpg"
@@ -2992,7 +2992,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_450각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "2bcaa526c0c3fcf52c2f5a14c8566aa0.jpg",
     "images": [
       "2bcaa526c0c3fcf52c2f5a14c8566aa0.jpg"
@@ -3013,7 +3013,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_450각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "3922c32c9c31776fcc787ac42ed0622a.jpg",
     "images": [
       "3922c32c9c31776fcc787ac42ed0622a.jpg"
@@ -3034,7 +3034,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_450각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "46462604bef0f5fecfe9fb269a397961.jpg",
     "images": [
       "46462604bef0f5fecfe9fb269a397961.jpg"
@@ -3055,7 +3055,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_600각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "638a51685196d5ad32968f5364be4875.jpg",
     "images": [
       "638a51685196d5ad32968f5364be4875.jpg"
@@ -3076,7 +3076,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_600각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "5340cd6aa4be8fa9b3c0366c05b98f86.jpg",
     "images": [
       "5340cd6aa4be8fa9b3c0366c05b98f86.jpg"
@@ -3097,7 +3097,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_600각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "7d03fefc60661fed33aff3a5defa4e6f.jpg",
     "images": [
       "7d03fefc60661fed33aff3a5defa4e6f.jpg"
@@ -3118,7 +3118,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_600각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "6caa912c52bdae7d749b3a4c6cd73d1e.jpg",
     "images": [
       "6caa912c52bdae7d749b3a4c6cd73d1e.jpg"
@@ -3139,7 +3139,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_600각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "553260a898b9c3a8a3621feb1584643f.jpg",
     "images": [
       "553260a898b9c3a8a3621feb1584643f.jpg"
@@ -3160,7 +3160,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_600각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "6aff50f8916a0cbe7609e0644faff916.jpg",
     "images": [
       "6aff50f8916a0cbe7609e0644faff916.jpg"
@@ -3181,7 +3181,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_600각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "959dd9dd8b9ffdbb7ca1947cb9082b63.jpg",
     "images": [
       "959dd9dd8b9ffdbb7ca1947cb9082b63.jpg"
@@ -3202,7 +3202,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_600각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "5d8aad8abd80be7e432665e102cd65df.jpg",
     "images": [
       "5d8aad8abd80be7e432665e102cd65df.jpg"
@@ -3223,7 +3223,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_600각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "b184c61642b1a34392bdd3bb018b8c8e.jpg",
     "images": [
       "b184c61642b1a34392bdd3bb018b8c8e.jpg"
@@ -3244,7 +3244,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_600각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "5a9b6f03756079bebbf620ba59dab9fc.jpg",
     "images": [
       "5a9b6f03756079bebbf620ba59dab9fc.jpg"
@@ -3265,7 +3265,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_600각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "7e53edac494f33c2f0bbe92d1d066ea2.jpg",
     "images": [
       "7e53edac494f33c2f0bbe92d1d066ea2.jpg"
@@ -3286,7 +3286,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_600각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "d403a61a3d94ace5109faf73ad76fc9f.jpg",
     "images": [
       "d403a61a3d94ace5109faf73ad76fc9f.jpg"
@@ -3307,7 +3307,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_600각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "799a6874292e0361462e998b2d94c41b.jpg",
     "images": [
       "799a6874292e0361462e998b2d94c41b.jpg"
@@ -3328,7 +3328,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_600각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "ad2cfdcd3c4a40e0ae537ef2258c8a8e.jpg",
     "images": [
       "ad2cfdcd3c4a40e0ae537ef2258c8a8e.jpg"
@@ -3349,7 +3349,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_900각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "c1d87cb6631e31b703388f5a412b1b93.jpg",
     "images": [
       "c1d87cb6631e31b703388f5a412b1b93.jpg"
@@ -3370,7 +3370,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_900각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "d819ce18bcf78ffe9dcea49bf3acdfc5.jpg",
     "images": [
       "d819ce18bcf78ffe9dcea49bf3acdfc5.jpg"
@@ -3391,7 +3391,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_900각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "33a2f31bdb4beeefe5ae66a4e20b3575.jpg",
     "images": [
       "33a2f31bdb4beeefe5ae66a4e20b3575.jpg"
@@ -3412,7 +3412,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_900각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "d8d93af202178591a8a5076959847050.jpg",
     "images": [
       "d8d93af202178591a8a5076959847050.jpg"
@@ -3433,7 +3433,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_우드",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "8dc746a57619441a8e6879ed4ffcc0fd.jpg",
     "images": [
       "8dc746a57619441a8e6879ed4ffcc0fd.jpg"
@@ -3454,7 +3454,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_우드",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "d1a345c37b72d1b4ee7d48fe4050205a.jpg",
     "images": [
       "d1a345c37b72d1b4ee7d48fe4050205a.jpg"
@@ -3475,7 +3475,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_우드",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "abc258442ce4cc753c0659951dbd0b88.jpg",
     "images": [
       "abc258442ce4cc753c0659951dbd0b88.jpg"
@@ -3496,7 +3496,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_우드",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "f64969c7a7dd22d994a0585c364eea0f.jpg",
     "images": [
       "f64969c7a7dd22d994a0585c364eea0f.jpg"
@@ -3517,7 +3517,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_우드1200",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "240aea38c54fbfa1a691117d81e78548.jpg",
     "images": [
       "240aea38c54fbfa1a691117d81e78548.jpg"
@@ -3538,7 +3538,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_우드1200",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "21e960b30b34147374c129fb091af91f.jpg",
     "images": [
       "21e960b30b34147374c129fb091af91f.jpg"
@@ -3559,7 +3559,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_우드150",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "10e1358da21b6bb776acb5bc204e9714.jpg",
     "images": [
       "10e1358da21b6bb776acb5bc204e9714.jpg"
@@ -3580,7 +3580,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_우드450",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "15f745d12dd880d61ded7920277a79ba.jpg",
     "images": [
       "15f745d12dd880d61ded7920277a79ba.jpg"
@@ -3601,7 +3601,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_우드450",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "aec089295b131f8e681985d37a243b64.jpg",
     "images": [
       "aec089295b131f8e681985d37a243b64.jpg"
@@ -3622,7 +3622,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_우드450",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "8fa44fe0fe30df32d25cd795d7c186f7.jpg",
     "images": [
       "8fa44fe0fe30df32d25cd795d7c186f7.jpg"
@@ -3643,7 +3643,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_우드450",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "6968e134a28fb3793f5173bb5c4fef9f.jpg",
     "images": [
       "6968e134a28fb3793f5173bb5c4fef9f.jpg"
@@ -3664,7 +3664,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_프리미엄_450각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "4bd5d44dda7a2b82866dabe929e2d2b5.jpg",
     "images": [
       "4bd5d44dda7a2b82866dabe929e2d2b5.jpg"
@@ -3685,7 +3685,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_프리미엄_450각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "57e0e9dbb97018775aedb7840789d0d7.jpg",
     "images": [
       "57e0e9dbb97018775aedb7840789d0d7.jpg"
@@ -3706,7 +3706,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_프리미엄_450각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "632aad4b201b673f564930fa3ef8e505.jpg",
     "images": [
       "632aad4b201b673f564930fa3ef8e505.jpg"
@@ -3727,7 +3727,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_프리미엄_600각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "d79b3b18010e3189439e6147c70eda22.jpg",
     "images": [
       "d79b3b18010e3189439e6147c70eda22.jpg"
@@ -3748,7 +3748,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_프리미엄_600각",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "fe7df2719eb54f8eea57ca7bd65f0461.jpg",
     "images": [
       "fe7df2719eb54f8eea57ca7bd65f0461.jpg"
@@ -3769,7 +3769,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_프리미엄_우드",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "e8f9a905778a70abbeb81168880c6d8f.jpg",
     "images": [
       "e8f9a905778a70abbeb81168880c6d8f.jpg"
@@ -3790,7 +3790,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_프리미엄_우드",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "2128301473f69a230235a42f701c6518.jpg",
     "images": [
       "2128301473f69a230235a42f701c6518.jpg"
@@ -3811,7 +3811,7 @@ export const materials = [
     "brand": "녹수",
     "category": "데코타일",
     "line": "오키드3000_프리미엄_우드450",
-    "price": 32000,
+    "price": 35000,
     "thumbnail": "e4c8918ef597584800e1fc5b7e57c5ac.jpg",
     "images": [
       "e4c8918ef597584800e1fc5b7e57c5ac.jpg"
