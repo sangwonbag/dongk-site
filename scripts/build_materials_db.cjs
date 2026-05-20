@@ -629,12 +629,16 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                 } else if (cleanLine === '천연마루_제나 내추럴') {
                     overrideLine = '제나 내추럴';
                     thickness = '7.5T';
-                    sizeLabel = '75x900mm';
+                    if (code === '오크' || code === '티크') {
+                        sizeLabel = '90x900mm';
+                    } else {
+                        sizeLabel = '75x900mm';
+                    }
                     packing = '박스단위';
                 } else if (cleanLine === '천연마루_포레스타') {
                     overrideLine = '포레스타';
                     thickness = '10.5T';
-                    sizeLabel = '165x1200mm / 190x1900mm';
+                    sizeLabel = '165x1200mm';
                     packing = '박스단위';
                 } else if (cleanLine === '천연마루_포레스타 G') {
                     overrideLine = '포레스타 G';
