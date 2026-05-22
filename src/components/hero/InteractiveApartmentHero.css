@@ -1,0 +1,109 @@
+.interactive-hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 600px;
+  overflow: hidden;
+  background-color: #0f172a;
+}
+
+.hero-canvas-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+/* Fallback static view (used for rendering optimization or loading state) */
+.hero-fallback-static {
+  width: 100%;
+  height: 100%;
+  background-image: url('/images/hero_3d_bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Interactive Prompt (드래그 안내 UI) */
+.interactive-prompt {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 30px;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  pointer-events: none; /* Make sure users can drag right through this prompt if needed */
+  animation: floatPrompt 3s ease-in-out infinite, fadeInPrompt 1s ease-out;
+}
+
+.prompt-icon {
+  color: #c89666; /* Accent color */
+  animation: swingIcon 2s ease-in-out infinite;
+}
+
+/* Animations */
+@keyframes floatPrompt {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes fadeInPrompt {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes swingIcon {
+  0%, 100% {
+    transform: translateX(-3px);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .interactive-prompt {
+    bottom: 24px;
+    right: 50%;
+    transform: translateX(50%);
+    animation: floatPromptMobile 3s ease-in-out infinite;
+    font-size: 12px;
+    padding: 8px 16px;
+    white-space: nowrap;
+  }
+}
+
+@keyframes floatPromptMobile {
+  0%, 100% {
+    transform: translate(50%, 0);
+  }
+  50% {
+    transform: translate(50%, -6px);
+  }
+}

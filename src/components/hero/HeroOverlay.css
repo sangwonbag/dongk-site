@@ -1,0 +1,280 @@
+.hero-overlay-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  pointer-events: none; /* Let clicks pass through to 3D OrbitControls */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Elegant dark overlay behind text to maintain readability */
+.hero-text-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(15, 23, 42, 0.7) 0%,
+    rgba(15, 23, 42, 0.4) 50%,
+    rgba(15, 23, 42, 0.75) 100%
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+.hero-content-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 24px 80px 24px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.hero-main-content {
+  max-width: 750px;
+  text-align: left;
+  margin-top: auto;
+  margin-bottom: auto;
+  opacity: 0;
+  animation: fadeUpContent 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  pointer-events: auto; /* Enable clicks for buttons & text selection */
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: #c89666; /* Gold/wood tone */
+  background-color: rgba(200, 150, 102, 0.12);
+  padding: 6px 16px;
+  border-radius: 20px;
+  margin-bottom: 24px;
+  border: 1px solid rgba(200, 150, 102, 0.3);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.hero-title {
+  font-size: 54px;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.25;
+  margin: 0 0 20px 0;
+  letter-spacing: -1.5px;
+  word-break: keep-all;
+}
+
+.hero-sub {
+  font-size: 18px;
+  color: #d1d5db;
+  margin: 0 0 40px 0;
+  line-height: 1.6;
+  font-weight: 400;
+  max-width: 620px;
+  word-break: keep-all;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 16px;
+}
+
+.hero-btn {
+  padding: 0 36px;
+  height: 56px;
+  border-radius: 28px; /* Rounded pill shape */
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.hero-btn.primary {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  border: 1px solid #ffffff;
+  box-shadow: 0 4px 14px rgba(255, 255, 255, 0.15);
+}
+
+.hero-btn.primary:hover {
+  transform: translateY(-3px);
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 8px 24px rgba(255, 255, 255, 0.25);
+}
+
+.hero-btn.secondary {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.hero-btn.secondary:hover {
+  transform: translateY(-3px);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: #ffffff;
+}
+
+/* Floating Trust Badges */
+.hero-trust-badges {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  width: 100%;
+  opacity: 0;
+  animation: fadeUpContent 1s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards;
+  pointer-events: auto; /* Enable clicks/hovers for cards */
+}
+
+.badge-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.badge-card:hover {
+  background: rgba(255, 255, 255, 0.09);
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.badge-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background-color: rgba(200, 150, 102, 0.15);
+  border: 1px solid rgba(200, 150, 102, 0.2);
+  color: #c89666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+}
+
+.badge-card:hover .badge-icon {
+  background-color: #c89666;
+  color: #1a1a1a;
+  transform: scale(1.05);
+}
+
+.badge-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.badge-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 2px;
+}
+
+.badge-desc {
+  font-size: 12px;
+  color: #9ca3af;
+  line-height: 1.4;
+}
+
+/* Animations */
+@keyframes fadeUpContent {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile & Tablet Responsiveness */
+@media (max-width: 1024px) {
+  .hero-trust-badges {
+    gap: 16px;
+  }
+  .badge-card {
+    padding: 16px 18px;
+  }
+  .badge-title {
+    font-size: 15px;
+  }
+  .badge-desc {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-content-wrapper {
+    padding-top: 100px;
+    padding-bottom: 90px; /* Leave space for bottom prompt */
+  }
+
+  .hero-main-content {
+    text-align: center;
+    margin-bottom: auto;
+  }
+
+  .hero-badge {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-title {
+    font-size: 36px;
+    letter-spacing: -0.8px;
+  }
+
+  .hero-sub {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .hero-btn {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .hero-trust-badges {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-top: auto;
+  }
+
+  .badge-card {
+    padding: 14px 20px;
+  }
+}
