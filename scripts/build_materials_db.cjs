@@ -509,82 +509,82 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                 packing = "1박스 (1.84 m²)";
             } else if (brand === '구정') {
                 const cleanLine = line.replace(/_$/, '');
-                if (cleanLine === '강마루') {
+                if (cleanLine === '강마루' || cleanLine.endsWith('_강마루') || cleanLine.includes('_구정강')) {
                     thickness = '7.5T';
-                    if (fileName.includes('패턴마루')) {
+                    if (fileName.includes('패턴마루') || cleanLine.includes('패턴마루')) {
                         sizeLabel = '94x987mm';
                         packing = '박스단위 (패턴)';
                     } else {
                         sizeLabel = '94x800mm';
                         packing = '1박스 (44pcs / 3.31㎡)';
                     }
-                } else if (cleanLine === '그랜드 텍스쳐') {
+                } else if (cleanLine.includes('그랜드 텍스쳐')) {
                     overrideLine = '강마루 텍스쳐';
                     thickness = '7.5T';
                     sizeLabel = '165x1200mm';
                     packing = '1박스 (10pcs / 1.98㎡)';
-                } else if (cleanLine === '노블레스') {
+                } else if (cleanLine.includes('노블레스')) {
                     thickness = '14T';
                     sizeLabel = '190x1900mm';
                     packing = '4pcs / Box (1.44㎡)';
-                } else if (cleanLine === '마뷸러스 듀스') {
+                } else if (cleanLine.includes('마뷸러스 듀스')) {
                     thickness = '8.7T';
                     sizeLabel = '597x1210mm';
                     packing = '8pcs / Box (5.78㎡)';
-                } else if (cleanLine === '마뷸러스 리브') {
+                } else if (cleanLine.includes('마뷸러스 리브')) {
                     thickness = '7.7T';
                     sizeLabel = '393x797mm';
                     packing = '10pcs / Box (3.13㎡)';
-                } else if (cleanLine === '마뷸러스 뮤즈') {
+                } else if (cleanLine.includes('마뷸러스 뮤즈')) {
                     thickness = '8.7T';
                     sizeLabel = '393x1200mm';
                     packing = '6pcs / Box (2.83㎡)';
-                } else if (cleanLine === '마뷸러스 엘') {
+                } else if (cleanLine.includes('마뷸러스 엘')) {
                     thickness = '8.7T';
                     sizeLabel = '900x900mm';
                     packing = '4pcs / Box (3.24㎡)';
-                } else if (cleanLine === '마뷸러스 젠') {
+                } else if (cleanLine.includes('마뷸러스 젠')) {
                     thickness = '8.7T';
                     sizeLabel = '597x597mm';
                     packing = '9pcs / Box (3.2㎡)';
-                } else if (cleanLine === '모던강') {
+                } else if (cleanLine.includes('모던강')) {
                     thickness = '6.5T';
                     sizeLabel = '115x800mm';
                     packing = '36pcs / Box (3.31㎡)';
-                } else if (cleanLine === '블론테') {
+                } else if (cleanLine.includes('블론테')) {
                     thickness = '8.7T';
                     sizeLabel = '230x2420mm';
                     packing = '5pcs / Box (2.78㎡)';
-                } else if (cleanLine === '오브 월') {
+                } else if (cleanLine.includes('오브 월') || cleanLine.includes('오브월')) {
                     overrideLine = '오브월';
                     thickness = '9T';
                     sizeLabel = '590x2440mm / 1194x2440mm';
                     packing = '박스단위';
-                } else if (cleanLine === '프레스티지&브러쉬_브러쉬') {
+                } else if (cleanLine.includes('브러쉬')) {
                     overrideLine = '브러쉬골드';
                     thickness = '7.5T';
                     sizeLabel = '115x900mm';
                     packing = '박스단위';
-                } else if (cleanLine === '프레스티지&브러쉬_프레스티지') {
+                } else if (cleanLine.includes('프레스티지')) {
                     overrideLine = '프레스티지';
                     thickness = '8.7T';
                     sizeLabel = '142x1200mm';
                     packing = '박스단위';
-                } else if (cleanLine === '프리미엄 텍스쳐_ROYAL') {
+                } else if (cleanLine.includes('ROYAL')) {
                     overrideLine = '프리미엄 텍스쳐(ROYAL)';
                     thickness = '7.5T';
                     sizeLabel = '115x800mm';
                     packing = '박스단위';
-                } else if (cleanLine === '프리미엄 텍스쳐_WIDE') {
+                } else if (cleanLine.includes('WIDE')) {
                     overrideLine = '프리미엄 텍스쳐(WIDE)';
                     thickness = '7.5T';
                     sizeLabel = '125x1200mm';
                     packing = '박스단위';
-                } else if (cleanLine === '피안테') {
+                } else if (cleanLine.includes('피안테')) {
                     thickness = '15T';
                     sizeLabel = '242x2350mm';
                     packing = '박스단위';
-                } else if (cleanLine === '헤리티지') {
+                } else if (cleanLine.includes('헤리티지')) {
                     thickness = '10.5T';
                     sizeLabel = '190x1900mm';
                     packing = '6pcs / Box (2.166㎡)';

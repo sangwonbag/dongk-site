@@ -103,6 +103,12 @@ export default function Materials() {
                   line = parts[1];
                 }
               }
+            } else if (activeBrand === "구정") {
+              if (parts.length > 1) {
+                line = parts[1];
+              } else {
+                line = parts[0];
+              }
             } else {
               line = parts[0];
             }

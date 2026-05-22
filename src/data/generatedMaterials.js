@@ -15585,16 +15585,16 @@ export const materials = [
     ]
   },
   {
-    "id": "구정-강마루_스웨디쉬화이트 (패턴)",
-    "code": "스웨디쉬화이트 (패턴)",
-    "name": "스웨디쉬화이트 (패턴)",
+    "id": "구정-강마루_구정강_강마루_패턴마루_스웨디쉬화이트",
+    "code": "강마루_패턴마루_스웨디쉬화이트",
+    "name": "강마루_패턴마루_스웨디쉬화이트",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루",
+    "line": "강마루_구정강",
     "price": 0,
-    "thumbnail": "e9625763cf233486caa02ca4d138982d.png",
+    "thumbnail": "f74f2416035d5c9738e2e8d413a830db.png",
     "images": [
-      "e9625763cf233486caa02ca4d138982d.png"
+      "f74f2416035d5c9738e2e8d413a830db.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -15605,16 +15605,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-강마루_아이보리화이트 (패턴)",
-    "code": "아이보리화이트 (패턴)",
-    "name": "아이보리화이트 (패턴)",
+    "id": "구정-강마루_구정강_강마루_패턴마루_아이보리화이트",
+    "code": "강마루_패턴마루_아이보리화이트",
+    "name": "강마루_패턴마루_아이보리화이트",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루",
+    "line": "강마루_구정강",
     "price": 0,
-    "thumbnail": "e72c0e408c52d5f60665a1db220fa149.png",
+    "thumbnail": "9f6c90855ed8035ee8c033ca052dfb81.png",
     "images": [
-      "e72c0e408c52d5f60665a1db220fa149.png"
+      "9f6c90855ed8035ee8c033ca052dfb81.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -15625,16 +15625,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-강마루_오크뉴클래식 (패턴)",
-    "code": "오크뉴클래식 (패턴)",
-    "name": "오크뉴클래식 (패턴)",
+    "id": "구정-강마루_구정강_강마루_패턴마루_오크뉴클래식",
+    "code": "강마루_패턴마루_오크뉴클래식",
+    "name": "강마루_패턴마루_오크뉴클래식",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루",
+    "line": "강마루_구정강",
     "price": 0,
-    "thumbnail": "d01750ffe78e0937ab4bd64fd9f6201e.png",
+    "thumbnail": "f39d21aeaba09d922cb94149417f6b3f.png",
     "images": [
-      "d01750ffe78e0937ab4bd64fd9f6201e.png"
+      "f39d21aeaba09d922cb94149417f6b3f.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -15645,16 +15645,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-강마루_오크 (패턴)",
-    "code": "오크 (패턴)",
-    "name": "오크 (패턴)",
+    "id": "구정-강마루_구정강_강마루_패턴마루_오크",
+    "code": "강마루_패턴마루_오크",
+    "name": "강마루_패턴마루_오크",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루",
+    "line": "강마루_구정강",
     "price": 0,
-    "thumbnail": "98f054e36329a9f056349df94d742451.png",
+    "thumbnail": "bf5bbd7c19a2128d5d879081e2cfe899.png",
     "images": [
-      "98f054e36329a9f056349df94d742451.png"
+      "bf5bbd7c19a2128d5d879081e2cfe899.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -15665,16 +15665,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-강마루_허니티크 (패턴)",
-    "code": "허니티크 (패턴)",
-    "name": "허니티크 (패턴)",
+    "id": "구정-강마루_구정강_강마루_패턴마루_허니티크",
+    "code": "강마루_패턴마루_허니티크",
+    "name": "강마루_패턴마루_허니티크",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루",
+    "line": "강마루_구정강",
     "price": 0,
-    "thumbnail": "18dcfea5b5c1c92b228d217896dda1e1.png",
+    "thumbnail": "3ae14c4df5be73bc47e81fa2dc2a7f33.png",
     "images": [
-      "18dcfea5b5c1c92b228d217896dda1e1.png"
+      "3ae14c4df5be73bc47e81fa2dc2a7f33.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -15685,16 +15685,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-강마루_스웨디쉬화이트",
-    "code": "스웨디쉬화이트",
-    "name": "스웨디쉬화이트",
+    "id": "구정-강마루_구정강_강마루_일자마루_스웨디쉬화이트",
+    "code": "강마루_일자마루_스웨디쉬화이트",
+    "name": "강마루_일자마루_스웨디쉬화이트",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루",
+    "line": "강마루_구정강",
     "price": 0,
-    "thumbnail": "0b378a189a2c09296b5d8af9504c7ac6.png",
+    "thumbnail": "4d5bd86db6998d8ebec7010cbcaa84a9.png",
     "images": [
-      "0b378a189a2c09296b5d8af9504c7ac6.png"
+      "4d5bd86db6998d8ebec7010cbcaa84a9.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -15705,16 +15705,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-강마루_아이보리화이트",
-    "code": "아이보리화이트",
-    "name": "아이보리화이트",
+    "id": "구정-강마루_구정강_강마루_일자마루_아이보리화이트",
+    "code": "강마루_일자마루_아이보리화이트",
+    "name": "강마루_일자마루_아이보리화이트",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루",
+    "line": "강마루_구정강",
     "price": 0,
-    "thumbnail": "1f5ce845b00eca9aa5f49583034a4e9a.png",
+    "thumbnail": "aac38c54b23c7514abe9fe1982ad95e2.png",
     "images": [
-      "1f5ce845b00eca9aa5f49583034a4e9a.png"
+      "aac38c54b23c7514abe9fe1982ad95e2.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -15725,16 +15725,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-강마루_아이리쉬화이트",
-    "code": "아이리쉬화이트",
-    "name": "아이리쉬화이트",
+    "id": "구정-강마루_구정강_강마루_일자마루_아이리쉬화이트",
+    "code": "강마루_일자마루_아이리쉬화이트",
+    "name": "강마루_일자마루_아이리쉬화이트",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루",
+    "line": "강마루_구정강",
     "price": 0,
-    "thumbnail": "655a9cb5d0aead8ad878facb5f28add7.png",
+    "thumbnail": "36467edbbe96cc5d7dfea81f2d146e85.png",
     "images": [
-      "655a9cb5d0aead8ad878facb5f28add7.png"
+      "36467edbbe96cc5d7dfea81f2d146e85.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -15745,16 +15745,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-강마루_마일드그레이오크",
-    "code": "마일드그레이오크",
-    "name": "마일드그레이오크",
+    "id": "구정-강마루_구정강_강마루_일자마루_마일드그레이오크",
+    "code": "강마루_일자마루_마일드그레이오크",
+    "name": "강마루_일자마루_마일드그레이오크",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루",
+    "line": "강마루_구정강",
     "price": 0,
-    "thumbnail": "da44d514438d742b2dd7b5287da8675a.png",
+    "thumbnail": "d7309c4e4395a12e37470a342e9f064d.png",
     "images": [
-      "da44d514438d742b2dd7b5287da8675a.png"
+      "d7309c4e4395a12e37470a342e9f064d.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -15765,16 +15765,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-강마루_누크화이트",
-    "code": "누크화이트",
-    "name": "누크화이트",
+    "id": "구정-강마루_구정강_강마루_일자마루_누크화이트",
+    "code": "강마루_일자마루_누크화이트",
+    "name": "강마루_일자마루_누크화이트",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루",
+    "line": "강마루_구정강",
     "price": 0,
-    "thumbnail": "44f74946ab605badc5ab846210e3f2a0.png",
+    "thumbnail": "04ebcd444a9035bfe5c063c102417e06.png",
     "images": [
-      "44f74946ab605badc5ab846210e3f2a0.png"
+      "04ebcd444a9035bfe5c063c102417e06.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -15785,16 +15785,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-강마루_문라이트워시",
-    "code": "문라이트워시",
-    "name": "문라이트워시",
+    "id": "구정-강마루_구정강_강마루_일자마루_문라이트워시",
+    "code": "강마루_일자마루_문라이트워시",
+    "name": "강마루_일자마루_문라이트워시",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루",
+    "line": "강마루_구정강",
     "price": 0,
-    "thumbnail": "e2315f1afba814a7db0137227f0ac9d7.png",
+    "thumbnail": "15c1f5a58ff052deb3398e3a4fbd4928.png",
     "images": [
-      "e2315f1afba814a7db0137227f0ac9d7.png"
+      "15c1f5a58ff052deb3398e3a4fbd4928.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -15805,16 +15805,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-강마루_올란도화이트",
-    "code": "올란도화이트",
-    "name": "올란도화이트",
+    "id": "구정-강마루_구정강_강마루_일자마루_올란도화이트",
+    "code": "강마루_일자마루_올란도화이트",
+    "name": "강마루_일자마루_올란도화이트",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루",
+    "line": "강마루_구정강",
     "price": 0,
-    "thumbnail": "1c88d9027f4b183d8970b7116b03ec68.png",
+    "thumbnail": "b64d1e32fb370932922d4343e4c4a0ec.png",
     "images": [
-      "1c88d9027f4b183d8970b7116b03ec68.png"
+      "b64d1e32fb370932922d4343e4c4a0ec.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -15825,16 +15825,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-강마루_아이보리워시",
-    "code": "아이보리워시",
-    "name": "아이보리워시",
+    "id": "구정-강마루_구정강_강마루_일자마루_아이보리워시",
+    "code": "강마루_일자마루_아이보리워시",
+    "name": "강마루_일자마루_아이보리워시",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루",
+    "line": "강마루_구정강",
     "price": 0,
-    "thumbnail": "c37a2a0943d1be8d99a7f1232dfc9e4c.png",
+    "thumbnail": "54bdfcc187e0a51f7a4b4ca39dbf5b42.png",
     "images": [
-      "c37a2a0943d1be8d99a7f1232dfc9e4c.png"
+      "54bdfcc187e0a51f7a4b4ca39dbf5b42.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -15845,16 +15845,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-강마루_오크뉴클래식",
-    "code": "오크뉴클래식",
-    "name": "오크뉴클래식",
+    "id": "구정-강마루_구정강_강마루_일자마루_오크뉴클래식",
+    "code": "강마루_일자마루_오크뉴클래식",
+    "name": "강마루_일자마루_오크뉴클래식",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루",
+    "line": "강마루_구정강",
     "price": 0,
-    "thumbnail": "25a4990aa7d2f709300049db5ce4a537.png",
+    "thumbnail": "ec5ce9ef3bdf491f79cf349617a5932e.png",
     "images": [
-      "25a4990aa7d2f709300049db5ce4a537.png"
+      "ec5ce9ef3bdf491f79cf349617a5932e.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -15865,16 +15865,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-강마루_오크",
-    "code": "오크",
-    "name": "오크",
+    "id": "구정-강마루_구정강_강마루_일자마루_오크",
+    "code": "강마루_일자마루_오크",
+    "name": "강마루_일자마루_오크",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루",
+    "line": "강마루_구정강",
     "price": 0,
-    "thumbnail": "2f8241afca589da66fc3e94d8c954024.png",
+    "thumbnail": "2bfbd6aef4e2a4ed5245ae491ca68d71.png",
     "images": [
-      "2f8241afca589da66fc3e94d8c954024.png"
+      "2bfbd6aef4e2a4ed5245ae491ca68d71.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -15885,16 +15885,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-강마루_허니티크",
-    "code": "허니티크",
-    "name": "허니티크",
+    "id": "구정-강마루_구정강_강마루_일자마루_허니티크",
+    "code": "강마루_일자마루_허니티크",
+    "name": "강마루_일자마루_허니티크",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루",
+    "line": "강마루_구정강",
     "price": 0,
-    "thumbnail": "625eecfc8646ab932b1ea841342e3715.png",
+    "thumbnail": "8addf4683c8b8907c7c54756efc59b2f.png",
     "images": [
-      "625eecfc8646ab932b1ea841342e3715.png"
+      "8addf4683c8b8907c7c54756efc59b2f.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -15905,16 +15905,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-그랜드 텍스쳐_스웨디쉬",
-    "code": "스웨디쉬",
-    "name": "스웨디쉬",
+    "id": "구정-강마루_그랜드 텍스쳐_그랜드_스웨디쉬_165",
+    "code": "그랜드_스웨디쉬_165",
+    "name": "그랜드_스웨디쉬_165",
     "brand": "구정",
     "category": "마루",
     "line": "강마루 텍스쳐",
     "price": 0,
-    "thumbnail": "4f5fcf16e4841865144b1d3261112f6a.png",
+    "thumbnail": "a1acd73ce12511b9553e27477455b6ca.png",
     "images": [
-      "4f5fcf16e4841865144b1d3261112f6a.png"
+      "a1acd73ce12511b9553e27477455b6ca.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -15925,16 +15925,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-그랜드 텍스쳐_얼바인",
-    "code": "얼바인",
-    "name": "얼바인",
+    "id": "구정-강마루_그랜드 텍스쳐_그랜드_얼바인_165",
+    "code": "그랜드_얼바인_165",
+    "name": "그랜드_얼바인_165",
     "brand": "구정",
     "category": "마루",
     "line": "강마루 텍스쳐",
     "price": 0,
-    "thumbnail": "bc4bce767293e26f0149c5bb4c34196d.png",
+    "thumbnail": "2667209e5ac9400fc55e431255eaedc2.png",
     "images": [
-      "bc4bce767293e26f0149c5bb4c34196d.png"
+      "2667209e5ac9400fc55e431255eaedc2.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -15945,16 +15945,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-그랜드 텍스쳐_애버뉴",
-    "code": "애버뉴",
-    "name": "애버뉴",
+    "id": "구정-강마루_그랜드 텍스쳐_그랜드_애버뉴_165",
+    "code": "그랜드_애버뉴_165",
+    "name": "그랜드_애버뉴_165",
     "brand": "구정",
     "category": "마루",
     "line": "강마루 텍스쳐",
     "price": 0,
-    "thumbnail": "58e9642b36bf4489501e1a3e15706ac3.png",
+    "thumbnail": "b2a9b15a7329820dafdc646c73b00124.png",
     "images": [
-      "58e9642b36bf4489501e1a3e15706ac3.png"
+      "b2a9b15a7329820dafdc646c73b00124.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -15965,16 +15965,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-그랜드 텍스쳐_비비드",
-    "code": "비비드",
-    "name": "비비드",
+    "id": "구정-강마루_그랜드 텍스쳐_그랜드_비비드_165",
+    "code": "그랜드_비비드_165",
+    "name": "그랜드_비비드_165",
     "brand": "구정",
     "category": "마루",
     "line": "강마루 텍스쳐",
     "price": 0,
-    "thumbnail": "748d8e62ef80d0dfa5634f9c985f92eb.png",
+    "thumbnail": "8f1f705365a46ffaf0cbdcf5f299410a.png",
     "images": [
-      "748d8e62ef80d0dfa5634f9c985f92eb.png"
+      "8f1f705365a46ffaf0cbdcf5f299410a.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -15985,16 +15985,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-그랜드 텍스쳐_브라이트_오크",
-    "code": "브라이트_오크",
-    "name": "브라이트_오크",
+    "id": "구정-강마루_그랜드 텍스쳐_그랜드_브라이트_오크_165",
+    "code": "그랜드_브라이트_오크_165",
+    "name": "그랜드_브라이트_오크_165",
     "brand": "구정",
     "category": "마루",
     "line": "강마루 텍스쳐",
     "price": 0,
-    "thumbnail": "a4ed1f0b31bce277d560172094268e44.png",
+    "thumbnail": "144b05a0d004a58e0d7905651ea0cbb1.png",
     "images": [
-      "a4ed1f0b31bce277d560172094268e44.png"
+      "144b05a0d004a58e0d7905651ea0cbb1.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -16005,16 +16005,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-그랜드 텍스쳐_본_오크",
-    "code": "본_오크",
-    "name": "본_오크",
+    "id": "구정-강마루_그랜드 텍스쳐_그랜드_본_오크_165",
+    "code": "그랜드_본_오크_165",
+    "name": "그랜드_본_오크_165",
     "brand": "구정",
     "category": "마루",
     "line": "강마루 텍스쳐",
     "price": 0,
-    "thumbnail": "e9e4433f592d4f02c03ca30da583b994.png",
+    "thumbnail": "8e32798d8d8fa63b8719835a70402355.png",
     "images": [
-      "e9e4433f592d4f02c03ca30da583b994.png"
+      "8e32798d8d8fa63b8719835a70402355.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -16025,16 +16025,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-그랜드 텍스쳐_스테디",
-    "code": "스테디",
-    "name": "스테디",
+    "id": "구정-강마루_그랜드 텍스쳐_그랜드_스테디_165",
+    "code": "그랜드_스테디_165",
+    "name": "그랜드_스테디_165",
     "brand": "구정",
     "category": "마루",
     "line": "강마루 텍스쳐",
     "price": 0,
-    "thumbnail": "113035d3aa17581b1b1738d0a25fd52c.png",
+    "thumbnail": "5f4b3ccb3759063bbb5de6379581a5cc.png",
     "images": [
-      "113035d3aa17581b1b1738d0a25fd52c.png"
+      "5f4b3ccb3759063bbb5de6379581a5cc.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -16045,16 +16045,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-그랜드 텍스쳐_헤론_오크",
-    "code": "헤론_오크",
-    "name": "헤론_오크",
+    "id": "구정-강마루_그랜드 텍스쳐_그랜드_헤론_오크_165",
+    "code": "그랜드_헤론_오크_165",
+    "name": "그랜드_헤론_오크_165",
     "brand": "구정",
     "category": "마루",
     "line": "강마루 텍스쳐",
     "price": 0,
-    "thumbnail": "7fec9e959960c6811a6cea63cd6169d9.png",
+    "thumbnail": "35a44a9a25ebd4385939bd71c0e93b19.png",
     "images": [
-      "7fec9e959960c6811a6cea63cd6169d9.png"
+      "35a44a9a25ebd4385939bd71c0e93b19.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -16065,16 +16065,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-그랜드 텍스쳐_오크_뉴",
-    "code": "오크_뉴",
-    "name": "오크_뉴",
+    "id": "구정-강마루_그랜드 텍스쳐_그랜드_오크_뉴_165",
+    "code": "그랜드_오크_뉴_165",
+    "name": "그랜드_오크_뉴_165",
     "brand": "구정",
     "category": "마루",
     "line": "강마루 텍스쳐",
     "price": 0,
-    "thumbnail": "712db6c82ca0ccfc93ab4bb026b167af.png",
+    "thumbnail": "0aba161793742b7c10555123e7262cfc.png",
     "images": [
-      "712db6c82ca0ccfc93ab4bb026b167af.png"
+      "0aba161793742b7c10555123e7262cfc.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -16085,16 +16085,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-그랜드 텍스쳐_로그_브라운",
-    "code": "로그_브라운",
-    "name": "로그_브라운",
+    "id": "구정-강마루_그랜드 텍스쳐_그랜드_로그_브라운_165",
+    "code": "그랜드_로그_브라운_165",
+    "name": "그랜드_로그_브라운_165",
     "brand": "구정",
     "category": "마루",
     "line": "강마루 텍스쳐",
     "price": 0,
-    "thumbnail": "8b5d0e72b25f4e1bc57ff58b00f54ac7.png",
+    "thumbnail": "8e94a72d6d3c4132e7429bd66790fe06.png",
     "images": [
-      "8b5d0e72b25f4e1bc57ff58b00f54ac7.png"
+      "8e94a72d6d3c4132e7429bd66790fe06.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -16105,16 +16105,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-그랜드 텍스쳐_바이즈_티크",
-    "code": "바이즈_티크",
-    "name": "바이즈_티크",
+    "id": "구정-강마루_그랜드 텍스쳐_그랜드_바이즈_티크_165",
+    "code": "그랜드_바이즈_티크_165",
+    "name": "그랜드_바이즈_티크_165",
     "brand": "구정",
     "category": "마루",
     "line": "강마루 텍스쳐",
     "price": 0,
-    "thumbnail": "39c520df179d0369a42bad4bbd577579.png",
+    "thumbnail": "40787546e6889c58cc64aa60ee99daf6.png",
     "images": [
-      "39c520df179d0369a42bad4bbd577579.png"
+      "40787546e6889c58cc64aa60ee99daf6.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -16125,16 +16125,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-그랜드 텍스쳐_러스틱",
-    "code": "러스틱",
-    "name": "러스틱",
+    "id": "구정-강마루_그랜드 텍스쳐_그랜드_러스틱_165",
+    "code": "그랜드_러스틱_165",
+    "name": "그랜드_러스틱_165",
     "brand": "구정",
     "category": "마루",
     "line": "강마루 텍스쳐",
     "price": 0,
-    "thumbnail": "fc0e9e9d453e8f05649cfd32f5a532f8.png",
+    "thumbnail": "e471782783a45da6ca2cc95c2da463ef.png",
     "images": [
-      "fc0e9e9d453e8f05649cfd32f5a532f8.png"
+      "e471782783a45da6ca2cc95c2da463ef.png"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -16145,936 +16145,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-노블레스_리얼 블랙 오크",
-    "code": "리얼 블랙 오크",
-    "name": "리얼 블랙 오크",
-    "brand": "구정",
-    "category": "마루",
-    "line": "노블레스",
-    "price": 0,
-    "thumbnail": "b98adf8debb88a9355ed2ce4553e5139.png",
-    "images": [
-      "b98adf8debb88a9355ed2ce4553e5139.png"
-    ],
-    "thickness": "14T",
-    "specs": {
-      "division": "",
-      "thickness": "14T",
-      "size": "190x1900mm",
-      "packing": "4pcs / Box (1.44㎡)"
-    }
-  },
-  {
-    "id": "구정-노블레스_샌디 오크",
-    "code": "샌디 오크",
-    "name": "샌디 오크",
-    "brand": "구정",
-    "category": "마루",
-    "line": "노블레스",
-    "price": 0,
-    "thumbnail": "d94dbe2c84b43f06df8e731b8b6ac544.png",
-    "images": [
-      "d94dbe2c84b43f06df8e731b8b6ac544.png"
-    ],
-    "thickness": "14T",
-    "specs": {
-      "division": "",
-      "thickness": "14T",
-      "size": "190x1900mm",
-      "packing": "4pcs / Box (1.44㎡)"
-    }
-  },
-  {
-    "id": "구정-노블레스_소프트 애쉬",
-    "code": "소프트 애쉬",
-    "name": "소프트 애쉬",
-    "brand": "구정",
-    "category": "마루",
-    "line": "노블레스",
-    "price": 0,
-    "thumbnail": "b7a59da0012ac4e0357cb0dc1741317d.png",
-    "images": [
-      "b7a59da0012ac4e0357cb0dc1741317d.png"
-    ],
-    "thickness": "14T",
-    "specs": {
-      "division": "",
-      "thickness": "14T",
-      "size": "190x1900mm",
-      "packing": "4pcs / Box (1.44㎡)"
-    }
-  },
-  {
-    "id": "구정-노블레스_애쉬 브러쉬 내추럴",
-    "code": "애쉬 브러쉬 내추럴",
-    "name": "애쉬 브러쉬 내추럴",
-    "brand": "구정",
-    "category": "마루",
-    "line": "노블레스",
-    "price": 0,
-    "thumbnail": "1f0bf6083facce846355dcb48afdea65.png",
-    "images": [
-      "1f0bf6083facce846355dcb48afdea65.png"
-    ],
-    "thickness": "14T",
-    "specs": {
-      "division": "",
-      "thickness": "14T",
-      "size": "190x1900mm",
-      "packing": "4pcs / Box (1.44㎡)"
-    }
-  },
-  {
-    "id": "구정-노블레스_앤티크 오크 UV",
-    "code": "앤티크 오크 UV",
-    "name": "앤티크 오크 UV",
-    "brand": "구정",
-    "category": "마루",
-    "line": "노블레스",
-    "price": 0,
-    "thumbnail": "68f284a0353c6d4f64a12ffb21820bed.png",
-    "images": [
-      "68f284a0353c6d4f64a12ffb21820bed.png"
-    ],
-    "thickness": "14T",
-    "specs": {
-      "division": "",
-      "thickness": "14T",
-      "size": "190x1900mm",
-      "packing": "4pcs / Box (1.44㎡)"
-    }
-  },
-  {
-    "id": "구정-노블레스_오크 브러쉬 내추럴",
-    "code": "오크 브러쉬 내추럴",
-    "name": "오크 브러쉬 내추럴",
-    "brand": "구정",
-    "category": "마루",
-    "line": "노블레스",
-    "price": 0,
-    "thumbnail": "812da9f6255fca7bfcac26b9ffeb2516.png",
-    "images": [
-      "812da9f6255fca7bfcac26b9ffeb2516.png"
-    ],
-    "thickness": "14T",
-    "specs": {
-      "division": "",
-      "thickness": "14T",
-      "size": "190x1900mm",
-      "packing": "4pcs / Box (1.44㎡)"
-    }
-  },
-  {
-    "id": "구정-노블레스_오크 브러쉬 라이트",
-    "code": "오크 브러쉬 라이트",
-    "name": "오크 브러쉬 라이트",
-    "brand": "구정",
-    "category": "마루",
-    "line": "노블레스",
-    "price": 0,
-    "thumbnail": "36e5fda64948b5e63407ec8639aa3bec.png",
-    "images": [
-      "36e5fda64948b5e63407ec8639aa3bec.png"
-    ],
-    "thickness": "14T",
-    "specs": {
-      "division": "",
-      "thickness": "14T",
-      "size": "190x1900mm",
-      "packing": "4pcs / Box (1.44㎡)"
-    }
-  },
-  {
-    "id": "구정-노블레스_화이트 오크",
-    "code": "화이트 오크",
-    "name": "화이트 오크",
-    "brand": "구정",
-    "category": "마루",
-    "line": "노블레스",
-    "price": 0,
-    "thumbnail": "e4c754df7b76a1a234007411908f291b.png",
-    "images": [
-      "e4c754df7b76a1a234007411908f291b.png"
-    ],
-    "thickness": "14T",
-    "specs": {
-      "division": "",
-      "thickness": "14T",
-      "size": "190x1900mm",
-      "packing": "4pcs / Box (1.44㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 듀스_멜로우 베이지",
-    "code": "멜로우 베이지",
-    "name": "멜로우 베이지",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 듀스",
-    "price": 0,
-    "thumbnail": "32dd5461b1a97ed66afda57e9e7cb619.png",
-    "images": [
-      "32dd5461b1a97ed66afda57e9e7cb619.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "597x1210mm",
-      "packing": "8pcs / Box (5.78㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 듀스_모로칸 블러쉬",
-    "code": "모로칸 블러쉬",
-    "name": "모로칸 블러쉬",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 듀스",
-    "price": 0,
-    "thumbnail": "d4853da0f67bdc6f17d5faea2db0e4a2.png",
-    "images": [
-      "d4853da0f67bdc6f17d5faea2db0e4a2.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "597x1210mm",
-      "packing": "8pcs / Box (5.78㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 듀스_모슬린 화이트",
-    "code": "모슬린 화이트",
-    "name": "모슬린 화이트",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 듀스",
-    "price": 0,
-    "thumbnail": "8ff6cfd2527167cc0f8758c24676fa12.png",
-    "images": [
-      "8ff6cfd2527167cc0f8758c24676fa12.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "597x1210mm",
-      "packing": "8pcs / Box (5.78㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 듀스_솔티 스노우",
-    "code": "솔티 스노우",
-    "name": "솔티 스노우",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 듀스",
-    "price": 0,
-    "thumbnail": "b2e6065950fcd248130e87328b9ab384.png",
-    "images": [
-      "b2e6065950fcd248130e87328b9ab384.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "597x1210mm",
-      "packing": "8pcs / Box (5.78㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 듀스_시멘틱 그레이'",
-    "code": "시멘틱 그레이'",
-    "name": "시멘틱 그레이'",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 듀스",
-    "price": 0,
-    "thumbnail": "cd54c98a3027f79790fc4e13527fd0b6.png",
-    "images": [
-      "cd54c98a3027f79790fc4e13527fd0b6.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "597x1210mm",
-      "packing": "8pcs / Box (5.78㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 듀스_웜 브라이트",
-    "code": "웜 브라이트",
-    "name": "웜 브라이트",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 듀스",
-    "price": 0,
-    "thumbnail": "8ff33370e45f71afcc0c9f8d1a10f3a7.png",
-    "images": [
-      "8ff33370e45f71afcc0c9f8d1a10f3a7.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "597x1210mm",
-      "packing": "8pcs / Box (5.78㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 듀스_젠틑 라이트",
-    "code": "젠틑 라이트",
-    "name": "젠틑 라이트",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 듀스",
-    "price": 0,
-    "thumbnail": "5a0e9f743db3a8125e446de123d568ba.png",
-    "images": [
-      "5a0e9f743db3a8125e446de123d568ba.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "597x1210mm",
-      "packing": "8pcs / Box (5.78㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 듀스_클라우디 크림",
-    "code": "클라우디 크림",
-    "name": "클라우디 크림",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 듀스",
-    "price": 0,
-    "thumbnail": "9713137ef56935a99fcd62d19fe8cfa7.png",
-    "images": [
-      "9713137ef56935a99fcd62d19fe8cfa7.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "597x1210mm",
-      "packing": "8pcs / Box (5.78㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 리브_모로칸 크림",
-    "code": "모로칸 크림",
-    "name": "모로칸 크림",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 리브",
-    "price": 0,
-    "thumbnail": "23ae190e3b35862661dbadc7f653e085.png",
-    "images": [
-      "23ae190e3b35862661dbadc7f653e085.png"
-    ],
-    "thickness": "7.7T",
-    "specs": {
-      "division": "",
-      "thickness": "7.7T",
-      "size": "393x797mm",
-      "packing": "10pcs / Box (3.13㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 리브_셀럽 베이지",
-    "code": "셀럽 베이지",
-    "name": "셀럽 베이지",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 리브",
-    "price": 0,
-    "thumbnail": "77e669163429882b36d2195bab94932f.png",
-    "images": [
-      "77e669163429882b36d2195bab94932f.png"
-    ],
-    "thickness": "7.7T",
-    "specs": {
-      "division": "",
-      "thickness": "7.7T",
-      "size": "393x797mm",
-      "packing": "10pcs / Box (3.13㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 리브_스톤 그레이",
-    "code": "스톤 그레이",
-    "name": "스톤 그레이",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 리브",
-    "price": 0,
-    "thumbnail": "5e033787eecc7e7268b4abba77b86153.png",
-    "images": [
-      "5e033787eecc7e7268b4abba77b86153.png"
-    ],
-    "thickness": "7.7T",
-    "specs": {
-      "division": "",
-      "thickness": "7.7T",
-      "size": "393x797mm",
-      "packing": "10pcs / Box (3.13㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 리브_실버 문",
-    "code": "실버 문",
-    "name": "실버 문",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 리브",
-    "price": 0,
-    "thumbnail": "fa6535ca9a68c651888b405dfa5c3257.png",
-    "images": [
-      "fa6535ca9a68c651888b405dfa5c3257.png"
-    ],
-    "thickness": "7.7T",
-    "specs": {
-      "division": "",
-      "thickness": "7.7T",
-      "size": "393x797mm",
-      "packing": "10pcs / Box (3.13㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 리브_웜 브리즈",
-    "code": "웜 브리즈",
-    "name": "웜 브리즈",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 리브",
-    "price": 0,
-    "thumbnail": "019c335fcbf8c13b4627325c17e0328f.png",
-    "images": [
-      "019c335fcbf8c13b4627325c17e0328f.png"
-    ],
-    "thickness": "7.7T",
-    "specs": {
-      "division": "",
-      "thickness": "7.7T",
-      "size": "393x797mm",
-      "packing": "10pcs / Box (3.13㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 리브_젠틀 판타지",
-    "code": "젠틀 판타지",
-    "name": "젠틀 판타지",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 리브",
-    "price": 0,
-    "thumbnail": "c3d14af0905011ac66371fe41c8f391f.png",
-    "images": [
-      "c3d14af0905011ac66371fe41c8f391f.png"
-    ],
-    "thickness": "7.7T",
-    "specs": {
-      "division": "",
-      "thickness": "7.7T",
-      "size": "393x797mm",
-      "packing": "10pcs / Box (3.13㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 뮤즈_모로칸 크림",
-    "code": "모로칸 크림",
-    "name": "모로칸 크림",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 뮤즈",
-    "price": 0,
-    "thumbnail": "b491d45188edd9bb9d070a18f20ce377.png",
-    "images": [
-      "b491d45188edd9bb9d070a18f20ce377.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "393x1200mm",
-      "packing": "6pcs / Box (2.83㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 뮤즈_뮤지엄 그레이",
-    "code": "뮤지엄 그레이",
-    "name": "뮤지엄 그레이",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 뮤즈",
-    "price": 0,
-    "thumbnail": "9764972a6b7e7fd3b5f5c951d6f401b9.png",
-    "images": [
-      "9764972a6b7e7fd3b5f5c951d6f401b9.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "393x1200mm",
-      "packing": "6pcs / Box (2.83㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 뮤즈_셀럽 베이지",
-    "code": "셀럽 베이지",
-    "name": "셀럽 베이지",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 뮤즈",
-    "price": 0,
-    "thumbnail": "727de177e39e731921da4a270e0e53e4.png",
-    "images": [
-      "727de177e39e731921da4a270e0e53e4.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "393x1200mm",
-      "packing": "6pcs / Box (2.83㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 뮤즈_젠틀 판타지",
-    "code": "젠틀 판타지",
-    "name": "젠틀 판타지",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 뮤즈",
-    "price": 0,
-    "thumbnail": "c62890e5495179332f04ee0deae23ea0.png",
-    "images": [
-      "c62890e5495179332f04ee0deae23ea0.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "393x1200mm",
-      "packing": "6pcs / Box (2.83㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 엘_라이트 듄",
-    "code": "라이트 듄",
-    "name": "라이트 듄",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 엘",
-    "price": 0,
-    "thumbnail": "e4e0bf6aa40030014da4aa6665f5761e.png",
-    "images": [
-      "e4e0bf6aa40030014da4aa6665f5761e.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "900x900mm",
-      "packing": "4pcs / Box (3.24㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 엘_모로칸 크림",
-    "code": "모로칸 크림",
-    "name": "모로칸 크림",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 엘",
-    "price": 0,
-    "thumbnail": "2f9ef6be051903300d82c61df1508944.png",
-    "images": [
-      "2f9ef6be051903300d82c61df1508944.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "900x900mm",
-      "packing": "4pcs / Box (3.24㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 엘_문 더스트",
-    "code": "문 더스트",
-    "name": "문 더스트",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 엘",
-    "price": 0,
-    "thumbnail": "4fd804c8dc57abac500be93775bcadf7.png",
-    "images": [
-      "4fd804c8dc57abac500be93775bcadf7.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "900x900mm",
-      "packing": "4pcs / Box (3.24㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 엘_웜 브리즈",
-    "code": "웜 브리즈",
-    "name": "웜 브리즈",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 엘",
-    "price": 0,
-    "thumbnail": "5f073ee586d62a9833a4783ada5a9ef5.png",
-    "images": [
-      "5f073ee586d62a9833a4783ada5a9ef5.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "900x900mm",
-      "packing": "4pcs / Box (3.24㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 엘_젠틀 판타지",
-    "code": "젠틀 판타지",
-    "name": "젠틀 판타지",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 엘",
-    "price": 0,
-    "thumbnail": "5ef8e465d1a6c2c42301eeba1e7be9c7.png",
-    "images": [
-      "5ef8e465d1a6c2c42301eeba1e7be9c7.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "900x900mm",
-      "packing": "4pcs / Box (3.24㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 젠_그레이지",
-    "code": "그레이지",
-    "name": "그레이지",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 젠",
-    "price": 0,
-    "thumbnail": "7a8bd28aee13d202113046fd0492e055.png",
-    "images": [
-      "7a8bd28aee13d202113046fd0492e055.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "597x597mm",
-      "packing": "9pcs / Box (3.2㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 젠_뉴트럴 그레이",
-    "code": "뉴트럴 그레이",
-    "name": "뉴트럴 그레이",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 젠",
-    "price": 0,
-    "thumbnail": "0b51352e762d5c9384cab97a1da26de0.png",
-    "images": [
-      "0b51352e762d5c9384cab97a1da26de0.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "597x597mm",
-      "packing": "9pcs / Box (3.2㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 젠_리저브 스톤",
-    "code": "리저브 스톤",
-    "name": "리저브 스톤",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 젠",
-    "price": 0,
-    "thumbnail": "47e1d6139324adda8116bbf50393e4a9.png",
-    "images": [
-      "47e1d6139324adda8116bbf50393e4a9.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "597x597mm",
-      "packing": "9pcs / Box (3.2㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 젠_모로칸 크림",
-    "code": "모로칸 크림",
-    "name": "모로칸 크림",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 젠",
-    "price": 0,
-    "thumbnail": "368e772a0a59527cf9c5989effc7402b.png",
-    "images": [
-      "368e772a0a59527cf9c5989effc7402b.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "597x597mm",
-      "packing": "9pcs / Box (3.2㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 젠_무디 블랙",
-    "code": "무디 블랙",
-    "name": "무디 블랙",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 젠",
-    "price": 0,
-    "thumbnail": "baf419b824a098f104b576aee1c965a8.png",
-    "images": [
-      "baf419b824a098f104b576aee1c965a8.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "597x597mm",
-      "packing": "9pcs / Box (3.2㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 젠_새틴 화이트",
-    "code": "새틴 화이트",
-    "name": "새틴 화이트",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 젠",
-    "price": 0,
-    "thumbnail": "8df8c271299c183ed8782210ea3e922b.png",
-    "images": [
-      "8df8c271299c183ed8782210ea3e922b.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "597x597mm",
-      "packing": "9pcs / Box (3.2㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 젠_샌드 테라조",
-    "code": "샌드 테라조",
-    "name": "샌드 테라조",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 젠",
-    "price": 0,
-    "thumbnail": "76bc3aeec641dcdf3c47cf1efe90dd31.png",
-    "images": [
-      "76bc3aeec641dcdf3c47cf1efe90dd31.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "597x597mm",
-      "packing": "9pcs / Box (3.2㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 젠_쉐도우 그레이",
-    "code": "쉐도우 그레이",
-    "name": "쉐도우 그레이",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 젠",
-    "price": 0,
-    "thumbnail": "9a8c87a79d3b903b5cfcfaab3c2a7c62.png",
-    "images": [
-      "9a8c87a79d3b903b5cfcfaab3c2a7c62.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "597x597mm",
-      "packing": "9pcs / Box (3.2㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 젠_스톤 그레이",
-    "code": "스톤 그레이",
-    "name": "스톤 그레이",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 젠",
-    "price": 0,
-    "thumbnail": "02f03fa9c23a838aebe48039a2d392ad.png",
-    "images": [
-      "02f03fa9c23a838aebe48039a2d392ad.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "597x597mm",
-      "packing": "9pcs / Box (3.2㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 젠_스페이스 그레이",
-    "code": "스페이스 그레이",
-    "name": "스페이스 그레이",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 젠",
-    "price": 0,
-    "thumbnail": "ee13329e8e2f59d3b6dca8626bd6dfd8.png",
-    "images": [
-      "ee13329e8e2f59d3b6dca8626bd6dfd8.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "597x597mm",
-      "packing": "9pcs / Box (3.2㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 젠_실버 문",
-    "code": "실버 문",
-    "name": "실버 문",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 젠",
-    "price": 0,
-    "thumbnail": "51155b701b09b6ae562c1a552c857c0c.png",
-    "images": [
-      "51155b701b09b6ae562c1a552c857c0c.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "597x597mm",
-      "packing": "9pcs / Box (3.2㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 젠_웜 브리즈",
-    "code": "웜 브리즈",
-    "name": "웜 브리즈",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 젠",
-    "price": 0,
-    "thumbnail": "f51f8af0490165900a12bb2c27187c2e.png",
-    "images": [
-      "f51f8af0490165900a12bb2c27187c2e.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "597x597mm",
-      "packing": "9pcs / Box (3.2㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 젠_젠틀 판타지",
-    "code": "젠틀 판타지",
-    "name": "젠틀 판타지",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 젠",
-    "price": 0,
-    "thumbnail": "5bcd208bb3f7b6754f5f400f541b45bc.png",
-    "images": [
-      "5bcd208bb3f7b6754f5f400f541b45bc.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "597x597mm",
-      "packing": "9pcs / Box (3.2㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 젠_크림 브륄레",
-    "code": "크림 브륄레",
-    "name": "크림 브륄레",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 젠",
-    "price": 0,
-    "thumbnail": "73591ea5fca0e28f8b7a4c65f952bd1b.png",
-    "images": [
-      "73591ea5fca0e28f8b7a4c65f952bd1b.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "597x597mm",
-      "packing": "9pcs / Box (3.2㎡)"
-    }
-  },
-  {
-    "id": "구정-마뷸러스 젠_화이트 쇼어",
-    "code": "화이트 쇼어",
-    "name": "화이트 쇼어",
-    "brand": "구정",
-    "category": "마루",
-    "line": "마뷸러스 젠",
-    "price": 0,
-    "thumbnail": "0eaf1b3cb78a1215f9c3cadb5d5f9d66.png",
-    "images": [
-      "0eaf1b3cb78a1215f9c3cadb5d5f9d66.png"
-    ],
-    "thickness": "8.7T",
-    "specs": {
-      "division": "",
-      "thickness": "8.7T",
-      "size": "597x597mm",
-      "packing": "9pcs / Box (3.2㎡)"
-    }
-  },
-  {
-    "id": "구정-모던강_모던 노던 화이트",
+    "id": "구정-강마루_모던강_모던 노던 화이트",
     "code": "모던 노던 화이트",
     "name": "모던 노던 화이트",
     "brand": "구정",
     "category": "마루",
-    "line": "모던강",
+    "line": "강마루_모던강",
     "price": 0,
-    "thumbnail": "ffe1d7ae2d4373921005407914331756.png",
+    "thumbnail": "dcd8f1594b816769ef43140fda5d2249.png",
     "images": [
-      "ffe1d7ae2d4373921005407914331756.png"
+      "dcd8f1594b816769ef43140fda5d2249.png"
     ],
     "thickness": "6.5T",
     "specs": {
@@ -17085,16 +16165,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-모던강_모던 바닐라 크림",
+    "id": "구정-강마루_모던강_모던 바닐라 크림",
     "code": "모던 바닐라 크림",
     "name": "모던 바닐라 크림",
     "brand": "구정",
     "category": "마루",
-    "line": "모던강",
+    "line": "강마루_모던강",
     "price": 0,
-    "thumbnail": "a407366edb81bbf7572a4cf11cfdf480.png",
+    "thumbnail": "c9fb845dedd8c10d87dc8b38b833c5ed.png",
     "images": [
-      "a407366edb81bbf7572a4cf11cfdf480.png"
+      "c9fb845dedd8c10d87dc8b38b833c5ed.png"
     ],
     "thickness": "6.5T",
     "specs": {
@@ -17105,16 +16185,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-모던강_모던 본 내추럴",
+    "id": "구정-강마루_모던강_모던 본 내추럴",
     "code": "모던 본 내추럴",
     "name": "모던 본 내추럴",
     "brand": "구정",
     "category": "마루",
-    "line": "모던강",
+    "line": "강마루_모던강",
     "price": 0,
-    "thumbnail": "dff0d7764e87c9668c4dd29bc0bf09be.png",
+    "thumbnail": "1f39374b77f630bfc4872aeea68e5a61.png",
     "images": [
-      "dff0d7764e87c9668c4dd29bc0bf09be.png"
+      "1f39374b77f630bfc4872aeea68e5a61.png"
     ],
     "thickness": "6.5T",
     "specs": {
@@ -17125,16 +16205,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-모던강_모던 블랙",
+    "id": "구정-강마루_모던강_모던 블랙",
     "code": "모던 블랙",
     "name": "모던 블랙",
     "brand": "구정",
     "category": "마루",
-    "line": "모던강",
+    "line": "강마루_모던강",
     "price": 0,
-    "thumbnail": "e9840bb17fb8e61775f03875c83e5e28.png",
+    "thumbnail": "12a2bd09600eedb706da1e98cfe17c77.png",
     "images": [
-      "e9840bb17fb8e61775f03875c83e5e28.png"
+      "12a2bd09600eedb706da1e98cfe17c77.png"
     ],
     "thickness": "6.5T",
     "specs": {
@@ -17145,16 +16225,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-모던강_모던 오크",
+    "id": "구정-강마루_모던강_모던 오크",
     "code": "모던 오크",
     "name": "모던 오크",
     "brand": "구정",
     "category": "마루",
-    "line": "모던강",
+    "line": "강마루_모던강",
     "price": 0,
-    "thumbnail": "7979c6e4cfb526f87dbf3480a471a52a.png",
+    "thumbnail": "4b37e61410a1ac5603318adc2fad5a9b.png",
     "images": [
-      "7979c6e4cfb526f87dbf3480a471a52a.png"
+      "4b37e61410a1ac5603318adc2fad5a9b.png"
     ],
     "thickness": "6.5T",
     "specs": {
@@ -17165,16 +16245,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-모던강_모던 티크",
+    "id": "구정-강마루_모던강_모던 티크",
     "code": "모던 티크",
     "name": "모던 티크",
     "brand": "구정",
     "category": "마루",
-    "line": "모던강",
+    "line": "강마루_모던강",
     "price": 0,
-    "thumbnail": "76607d7a2dff0218e9b74726d7a1b2a6.png",
+    "thumbnail": "2d1d7a5abe464be0b8bfdb502a49bb86.png",
     "images": [
-      "76607d7a2dff0218e9b74726d7a1b2a6.png"
+      "2d1d7a5abe464be0b8bfdb502a49bb86.png"
     ],
     "thickness": "6.5T",
     "specs": {
@@ -17185,16 +16265,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-블론테_본 오크(마사)",
+    "id": "구정-강마루_블론테_본 오크(마사)",
     "code": "본 오크(마사)",
     "name": "본 오크(마사)",
     "brand": "구정",
     "category": "마루",
-    "line": "블론테",
+    "line": "강마루_블론테",
     "price": 0,
-    "thumbnail": "eab9f239d0a270b30563bb2e9b6bdcd6.jpg",
+    "thumbnail": "e1ce5140cd4346bc1ebddfdcc907eb9c.jpg",
     "images": [
-      "eab9f239d0a270b30563bb2e9b6bdcd6.jpg"
+      "e1ce5140cd4346bc1ebddfdcc907eb9c.jpg"
     ],
     "thickness": "8.7T",
     "specs": {
@@ -17205,16 +16285,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-블론테_본 오크(이다메)",
+    "id": "구정-강마루_블론테_본 오크(이다메)",
     "code": "본 오크(이다메)",
     "name": "본 오크(이다메)",
     "brand": "구정",
     "category": "마루",
-    "line": "블론테",
+    "line": "강마루_블론테",
     "price": 0,
-    "thumbnail": "1db6d6b5cc870c51632c2a68a807c0ae.jpg",
+    "thumbnail": "d6229513cb4fcf187ad485e328adb028.jpg",
     "images": [
-      "1db6d6b5cc870c51632c2a68a807c0ae.jpg"
+      "d6229513cb4fcf187ad485e328adb028.jpg"
     ],
     "thickness": "8.7T",
     "specs": {
@@ -17225,16 +16305,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-블론테_브라이트 오크(마사)",
+    "id": "구정-강마루_블론테_브라이트 오크(마사)",
     "code": "브라이트 오크(마사)",
     "name": "브라이트 오크(마사)",
     "brand": "구정",
     "category": "마루",
-    "line": "블론테",
+    "line": "강마루_블론테",
     "price": 0,
-    "thumbnail": "fad94de4cd09577bd58df2733fd7612a.jpg",
+    "thumbnail": "d3269429fc596a7889a049ef758e9d8d.jpg",
     "images": [
-      "fad94de4cd09577bd58df2733fd7612a.jpg"
+      "d3269429fc596a7889a049ef758e9d8d.jpg"
     ],
     "thickness": "8.7T",
     "specs": {
@@ -17245,16 +16325,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-블론테_브라이트 오크(이다메)",
+    "id": "구정-강마루_블론테_브라이트 오크(이다메)",
     "code": "브라이트 오크(이다메)",
     "name": "브라이트 오크(이다메)",
     "brand": "구정",
     "category": "마루",
-    "line": "블론테",
+    "line": "강마루_블론테",
     "price": 0,
-    "thumbnail": "603972e4874590258d9648f045729bcc.jpg",
+    "thumbnail": "91b126c18bb54a993db9adb988ef148b.jpg",
     "images": [
-      "603972e4874590258d9648f045729bcc.jpg"
+      "91b126c18bb54a993db9adb988ef148b.jpg"
     ],
     "thickness": "8.7T",
     "specs": {
@@ -17265,16 +16345,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-블론테_어스틴 브라운(마사)",
+    "id": "구정-강마루_블론테_어스틴 브라운(마사)",
     "code": "어스틴 브라운(마사)",
     "name": "어스틴 브라운(마사)",
     "brand": "구정",
     "category": "마루",
-    "line": "블론테",
+    "line": "강마루_블론테",
     "price": 0,
-    "thumbnail": "60cae366909759f66659a8d016383c03.jpg",
+    "thumbnail": "bc524649ca1e490bd80667d55b901648.jpg",
     "images": [
-      "60cae366909759f66659a8d016383c03.jpg"
+      "bc524649ca1e490bd80667d55b901648.jpg"
     ],
     "thickness": "8.7T",
     "specs": {
@@ -17285,16 +16365,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-블론테_어스틴 브라운(이다메)",
+    "id": "구정-강마루_블론테_어스틴 브라운(이다메)",
     "code": "어스틴 브라운(이다메)",
     "name": "어스틴 브라운(이다메)",
     "brand": "구정",
     "category": "마루",
-    "line": "블론테",
+    "line": "강마루_블론테",
     "price": 0,
-    "thumbnail": "aeb2e50a80709292ac06e23478fa433b.jpg",
+    "thumbnail": "ab003e8c281a5168e1143fc8df4cb2f0.jpg",
     "images": [
-      "aeb2e50a80709292ac06e23478fa433b.jpg"
+      "ab003e8c281a5168e1143fc8df4cb2f0.jpg"
     ],
     "thickness": "8.7T",
     "specs": {
@@ -17305,16 +16385,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-블론테_엘리엇 오크(마사)",
+    "id": "구정-강마루_블론테_엘리엇 오크(마사)",
     "code": "엘리엇 오크(마사)",
     "name": "엘리엇 오크(마사)",
     "brand": "구정",
     "category": "마루",
-    "line": "블론테",
+    "line": "강마루_블론테",
     "price": 0,
-    "thumbnail": "09283e70cc10177bded186f4038b8dd5.jpg",
+    "thumbnail": "f40294d649579447966fcf4a64001ec8.jpg",
     "images": [
-      "09283e70cc10177bded186f4038b8dd5.jpg"
+      "f40294d649579447966fcf4a64001ec8.jpg"
     ],
     "thickness": "8.7T",
     "specs": {
@@ -17325,16 +16405,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-블론테_엘리엇 오크(이다메)",
+    "id": "구정-강마루_블론테_엘리엇 오크(이다메)",
     "code": "엘리엇 오크(이다메)",
     "name": "엘리엇 오크(이다메)",
     "brand": "구정",
     "category": "마루",
-    "line": "블론테",
+    "line": "강마루_블론테",
     "price": 0,
-    "thumbnail": "5e465128623f69d95f3c5c5d533c239d.jpg",
+    "thumbnail": "98659a72f55b9da686c3c9a47220f81b.jpg",
     "images": [
-      "5e465128623f69d95f3c5c5d533c239d.jpg"
+      "98659a72f55b9da686c3c9a47220f81b.jpg"
     ],
     "thickness": "8.7T",
     "specs": {
@@ -17342,6 +16422,226 @@ export const materials = [
       "thickness": "8.7T",
       "size": "230x2420mm",
       "packing": "5pcs / Box (2.78㎡)"
+    }
+  },
+  {
+    "id": "구정-강마루_프리미엄 텍스쳐_ROYAL_미스티 로즈",
+    "code": "미스티 로즈",
+    "name": "미스티 로즈",
+    "brand": "구정",
+    "category": "마루",
+    "line": "프리미엄 텍스쳐(ROYAL)",
+    "price": 0,
+    "thumbnail": "74dca621a172e3da6e23ff0b1373da49.png",
+    "images": [
+      "74dca621a172e3da6e23ff0b1373da49.png"
+    ],
+    "thickness": "7.5T",
+    "specs": {
+      "division": "",
+      "thickness": "7.5T",
+      "size": "115x800mm",
+      "packing": "박스단위"
+    }
+  },
+  {
+    "id": "구정-강마루_프리미엄 텍스쳐_ROYAL_블론드 오크",
+    "code": "블론드 오크",
+    "name": "블론드 오크",
+    "brand": "구정",
+    "category": "마루",
+    "line": "프리미엄 텍스쳐(ROYAL)",
+    "price": 0,
+    "thumbnail": "7f310a436d00f4eb9cf21d60fb7c5f34.png",
+    "images": [
+      "7f310a436d00f4eb9cf21d60fb7c5f34.png"
+    ],
+    "thickness": "7.5T",
+    "specs": {
+      "division": "",
+      "thickness": "7.5T",
+      "size": "115x800mm",
+      "packing": "박스단위"
+    }
+  },
+  {
+    "id": "구정-강마루_프리미엄 텍스쳐_ROYAL_샌드 오크",
+    "code": "샌드 오크",
+    "name": "샌드 오크",
+    "brand": "구정",
+    "category": "마루",
+    "line": "프리미엄 텍스쳐(ROYAL)",
+    "price": 0,
+    "thumbnail": "1f0a82a575a0abf6b0e62a106196c784.png",
+    "images": [
+      "1f0a82a575a0abf6b0e62a106196c784.png"
+    ],
+    "thickness": "7.5T",
+    "specs": {
+      "division": "",
+      "thickness": "7.5T",
+      "size": "115x800mm",
+      "packing": "박스단위"
+    }
+  },
+  {
+    "id": "구정-강마루_프리미엄 텍스쳐_ROYAL_카본 블랙",
+    "code": "카본 블랙",
+    "name": "카본 블랙",
+    "brand": "구정",
+    "category": "마루",
+    "line": "프리미엄 텍스쳐(ROYAL)",
+    "price": 0,
+    "thumbnail": "1a50d4d2ec08a7d3945d11254d2ac232.png",
+    "images": [
+      "1a50d4d2ec08a7d3945d11254d2ac232.png"
+    ],
+    "thickness": "7.5T",
+    "specs": {
+      "division": "",
+      "thickness": "7.5T",
+      "size": "115x800mm",
+      "packing": "박스단위"
+    }
+  },
+  {
+    "id": "구정-강마루_프리미엄 텍스쳐_ROYAL_카카오 브라운",
+    "code": "카카오 브라운",
+    "name": "카카오 브라운",
+    "brand": "구정",
+    "category": "마루",
+    "line": "프리미엄 텍스쳐(ROYAL)",
+    "price": 0,
+    "thumbnail": "ee5940ed91c398cf99a6cc52c88fb6eb.png",
+    "images": [
+      "ee5940ed91c398cf99a6cc52c88fb6eb.png"
+    ],
+    "thickness": "7.5T",
+    "specs": {
+      "division": "",
+      "thickness": "7.5T",
+      "size": "115x800mm",
+      "packing": "박스단위"
+    }
+  },
+  {
+    "id": "구정-강마루_프리미엄 텍스쳐_WIDE_골드 브릭",
+    "code": "골드 브릭",
+    "name": "골드 브릭",
+    "brand": "구정",
+    "category": "마루",
+    "line": "프리미엄 텍스쳐(WIDE)",
+    "price": 0,
+    "thumbnail": "b80f6b248d02f89e52b90bb41a0eb4d5.jpg",
+    "images": [
+      "b80f6b248d02f89e52b90bb41a0eb4d5.jpg"
+    ],
+    "thickness": "7.5T",
+    "specs": {
+      "division": "",
+      "thickness": "7.5T",
+      "size": "125x1200mm",
+      "packing": "박스단위"
+    }
+  },
+  {
+    "id": "구정-강마루_프리미엄 텍스쳐_WIDE_딥라인 오크",
+    "code": "딥라인 오크",
+    "name": "딥라인 오크",
+    "brand": "구정",
+    "category": "마루",
+    "line": "프리미엄 텍스쳐(WIDE)",
+    "price": 0,
+    "thumbnail": "1b2c35806bb1b3e9fb873a81e2c075b6.png",
+    "images": [
+      "1b2c35806bb1b3e9fb873a81e2c075b6.png"
+    ],
+    "thickness": "7.5T",
+    "specs": {
+      "division": "",
+      "thickness": "7.5T",
+      "size": "125x1200mm",
+      "packing": "박스단위"
+    }
+  },
+  {
+    "id": "구정-강마루_프리미엄 텍스쳐_WIDE_라일락 화이트",
+    "code": "라일락 화이트",
+    "name": "라일락 화이트",
+    "brand": "구정",
+    "category": "마루",
+    "line": "프리미엄 텍스쳐(WIDE)",
+    "price": 0,
+    "thumbnail": "1ad564d3e2bfdfc8a1c2a252bb1303ad.png",
+    "images": [
+      "1ad564d3e2bfdfc8a1c2a252bb1303ad.png"
+    ],
+    "thickness": "7.5T",
+    "specs": {
+      "division": "",
+      "thickness": "7.5T",
+      "size": "125x1200mm",
+      "packing": "박스단위"
+    }
+  },
+  {
+    "id": "구정-강마루_프리미엄 텍스쳐_WIDE_린넨 베이지",
+    "code": "린넨 베이지",
+    "name": "린넨 베이지",
+    "brand": "구정",
+    "category": "마루",
+    "line": "프리미엄 텍스쳐(WIDE)",
+    "price": 0,
+    "thumbnail": "377d918636e5b357947f6e345610e03c.png",
+    "images": [
+      "377d918636e5b357947f6e345610e03c.png"
+    ],
+    "thickness": "7.5T",
+    "specs": {
+      "division": "",
+      "thickness": "7.5T",
+      "size": "125x1200mm",
+      "packing": "박스단위"
+    }
+  },
+  {
+    "id": "구정-강마루_프리미엄 텍스쳐_WIDE_모카 브루",
+    "code": "모카 브루",
+    "name": "모카 브루",
+    "brand": "구정",
+    "category": "마루",
+    "line": "프리미엄 텍스쳐(WIDE)",
+    "price": 0,
+    "thumbnail": "35ad4e10d373a2fc49ddf86456dd5191.png",
+    "images": [
+      "35ad4e10d373a2fc49ddf86456dd5191.png"
+    ],
+    "thickness": "7.5T",
+    "specs": {
+      "division": "",
+      "thickness": "7.5T",
+      "size": "125x1200mm",
+      "packing": "박스단위"
+    }
+  },
+  {
+    "id": "구정-강마루_프리미엄 텍스쳐_WIDE_소프트 웨이브",
+    "code": "소프트 웨이브",
+    "name": "소프트 웨이브",
+    "brand": "구정",
+    "category": "마루",
+    "line": "프리미엄 텍스쳐(WIDE)",
+    "price": 0,
+    "thumbnail": "f84af686889c447c369aec5ae4233d18.png",
+    "images": [
+      "f84af686889c447c369aec5ae4233d18.png"
+    ],
+    "thickness": "7.5T",
+    "specs": {
+      "division": "",
+      "thickness": "7.5T",
+      "size": "125x1200mm",
+      "packing": "박스단위"
     }
   },
   {
@@ -17405,16 +16705,496 @@ export const materials = [
     }
   },
   {
-    "id": "구정-프레스티지&브러쉬_브러쉬_애쉬 스모키",
+    "id": "구정-원목마루_노블레스_리얼 블랙 오크",
+    "code": "리얼 블랙 오크",
+    "name": "리얼 블랙 오크",
+    "brand": "구정",
+    "category": "마루",
+    "line": "원목마루_노블레스",
+    "price": 0,
+    "thumbnail": "433acf2c16824c738aa587333df9d17f.png",
+    "images": [
+      "433acf2c16824c738aa587333df9d17f.png"
+    ],
+    "thickness": "14T",
+    "specs": {
+      "division": "",
+      "thickness": "14T",
+      "size": "190x1900mm",
+      "packing": "4pcs / Box (1.44㎡)"
+    }
+  },
+  {
+    "id": "구정-원목마루_노블레스_샌디 오크",
+    "code": "샌디 오크",
+    "name": "샌디 오크",
+    "brand": "구정",
+    "category": "마루",
+    "line": "원목마루_노블레스",
+    "price": 0,
+    "thumbnail": "b66564ce44e650e1f890d7997b70ac4a.png",
+    "images": [
+      "b66564ce44e650e1f890d7997b70ac4a.png"
+    ],
+    "thickness": "14T",
+    "specs": {
+      "division": "",
+      "thickness": "14T",
+      "size": "190x1900mm",
+      "packing": "4pcs / Box (1.44㎡)"
+    }
+  },
+  {
+    "id": "구정-원목마루_노블레스_소프트 애쉬",
+    "code": "소프트 애쉬",
+    "name": "소프트 애쉬",
+    "brand": "구정",
+    "category": "마루",
+    "line": "원목마루_노블레스",
+    "price": 0,
+    "thumbnail": "bf114e6f2bdf211384ed5c9aa1eeb3b8.png",
+    "images": [
+      "bf114e6f2bdf211384ed5c9aa1eeb3b8.png"
+    ],
+    "thickness": "14T",
+    "specs": {
+      "division": "",
+      "thickness": "14T",
+      "size": "190x1900mm",
+      "packing": "4pcs / Box (1.44㎡)"
+    }
+  },
+  {
+    "id": "구정-원목마루_노블레스_애쉬 브러쉬 내추럴",
+    "code": "애쉬 브러쉬 내추럴",
+    "name": "애쉬 브러쉬 내추럴",
+    "brand": "구정",
+    "category": "마루",
+    "line": "원목마루_노블레스",
+    "price": 0,
+    "thumbnail": "36b92d7c91d4771221f521d5126bdaa7.png",
+    "images": [
+      "36b92d7c91d4771221f521d5126bdaa7.png"
+    ],
+    "thickness": "14T",
+    "specs": {
+      "division": "",
+      "thickness": "14T",
+      "size": "190x1900mm",
+      "packing": "4pcs / Box (1.44㎡)"
+    }
+  },
+  {
+    "id": "구정-원목마루_노블레스_앤티크 오크 UV",
+    "code": "앤티크 오크 UV",
+    "name": "앤티크 오크 UV",
+    "brand": "구정",
+    "category": "마루",
+    "line": "원목마루_노블레스",
+    "price": 0,
+    "thumbnail": "579cf74925ff151656f5e0e5fc2c458f.png",
+    "images": [
+      "579cf74925ff151656f5e0e5fc2c458f.png"
+    ],
+    "thickness": "14T",
+    "specs": {
+      "division": "",
+      "thickness": "14T",
+      "size": "190x1900mm",
+      "packing": "4pcs / Box (1.44㎡)"
+    }
+  },
+  {
+    "id": "구정-원목마루_노블레스_오크 브러쉬 내추럴",
+    "code": "오크 브러쉬 내추럴",
+    "name": "오크 브러쉬 내추럴",
+    "brand": "구정",
+    "category": "마루",
+    "line": "원목마루_노블레스",
+    "price": 0,
+    "thumbnail": "6c580f3e0c50d765517439e461da18ba.png",
+    "images": [
+      "6c580f3e0c50d765517439e461da18ba.png"
+    ],
+    "thickness": "14T",
+    "specs": {
+      "division": "",
+      "thickness": "14T",
+      "size": "190x1900mm",
+      "packing": "4pcs / Box (1.44㎡)"
+    }
+  },
+  {
+    "id": "구정-원목마루_노블레스_오크 브러쉬 라이트",
+    "code": "오크 브러쉬 라이트",
+    "name": "오크 브러쉬 라이트",
+    "brand": "구정",
+    "category": "마루",
+    "line": "원목마루_노블레스",
+    "price": 0,
+    "thumbnail": "4f5a1a586f02ca9f8caf1f2cf55b4987.png",
+    "images": [
+      "4f5a1a586f02ca9f8caf1f2cf55b4987.png"
+    ],
+    "thickness": "14T",
+    "specs": {
+      "division": "",
+      "thickness": "14T",
+      "size": "190x1900mm",
+      "packing": "4pcs / Box (1.44㎡)"
+    }
+  },
+  {
+    "id": "구정-원목마루_노블레스_화이트 오크",
+    "code": "화이트 오크",
+    "name": "화이트 오크",
+    "brand": "구정",
+    "category": "마루",
+    "line": "원목마루_노블레스",
+    "price": 0,
+    "thumbnail": "43ce424654764fae07b3e55ca623b94e.png",
+    "images": [
+      "43ce424654764fae07b3e55ca623b94e.png"
+    ],
+    "thickness": "14T",
+    "specs": {
+      "division": "",
+      "thickness": "14T",
+      "size": "190x1900mm",
+      "packing": "4pcs / Box (1.44㎡)"
+    }
+  },
+  {
+    "id": "구정-원목마루_피안테_베키오",
+    "code": "베키오",
+    "name": "베키오",
+    "brand": "구정",
+    "category": "마루",
+    "line": "원목마루_피안테",
+    "price": 0,
+    "thumbnail": "2c6dfb7dabfd697ea7b0158e051b2ef9.png",
+    "images": [
+      "2c6dfb7dabfd697ea7b0158e051b2ef9.png"
+    ],
+    "thickness": "15T",
+    "specs": {
+      "division": "",
+      "thickness": "15T",
+      "size": "242x2350mm",
+      "packing": "박스단위"
+    }
+  },
+  {
+    "id": "구정-원목마루_피안테_볼로네티",
+    "code": "볼로네티",
+    "name": "볼로네티",
+    "brand": "구정",
+    "category": "마루",
+    "line": "원목마루_피안테",
+    "price": 0,
+    "thumbnail": "c849004e626d92c79873228d092bb371.png",
+    "images": [
+      "c849004e626d92c79873228d092bb371.png"
+    ],
+    "thickness": "15T",
+    "specs": {
+      "division": "",
+      "thickness": "15T",
+      "size": "242x2350mm",
+      "packing": "박스단위"
+    }
+  },
+  {
+    "id": "구정-원목마루_피안테_카멜로",
+    "code": "카멜로",
+    "name": "카멜로",
+    "brand": "구정",
+    "category": "마루",
+    "line": "원목마루_피안테",
+    "price": 0,
+    "thumbnail": "c48e6be39cb90cc038fffecc7ccf26ce.png",
+    "images": [
+      "c48e6be39cb90cc038fffecc7ccf26ce.png"
+    ],
+    "thickness": "15T",
+    "specs": {
+      "division": "",
+      "thickness": "15T",
+      "size": "242x2350mm",
+      "packing": "박스단위"
+    }
+  },
+  {
+    "id": "구정-원목마루_피안테_티에네",
+    "code": "티에네",
+    "name": "티에네",
+    "brand": "구정",
+    "category": "마루",
+    "line": "원목마루_피안테",
+    "price": 0,
+    "thumbnail": "9ef1c5c4e992f2bd63836659ed13c701.png",
+    "images": [
+      "9ef1c5c4e992f2bd63836659ed13c701.png"
+    ],
+    "thickness": "15T",
+    "specs": {
+      "division": "",
+      "thickness": "15T",
+      "size": "242x2350mm",
+      "packing": "박스단위"
+    }
+  },
+  {
+    "id": "구정-원목마루_피안테_포스티에라",
+    "code": "포스티에라",
+    "name": "포스티에라",
+    "brand": "구정",
+    "category": "마루",
+    "line": "원목마루_피안테",
+    "price": 0,
+    "thumbnail": "f2fd260da95350d232a30ce5ccd88ef2.png",
+    "images": [
+      "f2fd260da95350d232a30ce5ccd88ef2.png"
+    ],
+    "thickness": "15T",
+    "specs": {
+      "division": "",
+      "thickness": "15T",
+      "size": "242x2350mm",
+      "packing": "박스단위"
+    }
+  },
+  {
+    "id": "구정-원목마루_헤리티지_다크 브라운 애쉬",
+    "code": "다크 브라운 애쉬",
+    "name": "다크 브라운 애쉬",
+    "brand": "구정",
+    "category": "마루",
+    "line": "원목마루_헤리티지",
+    "price": 0,
+    "thumbnail": "9a2f638ec9eebae7f39066d2c5225a13.jpg",
+    "images": [
+      "9a2f638ec9eebae7f39066d2c5225a13.jpg"
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "",
+      "thickness": "10.5T",
+      "size": "190x1900mm",
+      "packing": "6pcs / Box (2.166㎡)"
+    }
+  },
+  {
+    "id": "구정-원목마루_헤리티지_다크 월넛",
+    "code": "다크 월넛",
+    "name": "다크 월넛",
+    "brand": "구정",
+    "category": "마루",
+    "line": "원목마루_헤리티지",
+    "price": 0,
+    "thumbnail": "894cbe4494a9ad0de822a94341f11053.jpg",
+    "images": [
+      "894cbe4494a9ad0de822a94341f11053.jpg"
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "",
+      "thickness": "10.5T",
+      "size": "190x1900mm",
+      "packing": "6pcs / Box (2.166㎡)"
+    }
+  },
+  {
+    "id": "구정-원목마루_헤리티지_라이트 카키 오크",
+    "code": "라이트 카키 오크",
+    "name": "라이트 카키 오크",
+    "brand": "구정",
+    "category": "마루",
+    "line": "원목마루_헤리티지",
+    "price": 0,
+    "thumbnail": "5a970112712eb7a4f176214ae9b1ea7c.jpg",
+    "images": [
+      "5a970112712eb7a4f176214ae9b1ea7c.jpg"
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "",
+      "thickness": "10.5T",
+      "size": "190x1900mm",
+      "packing": "6pcs / Box (2.166㎡)"
+    }
+  },
+  {
+    "id": "구정-원목마루_헤리티지_브라운 오크",
+    "code": "브라운 오크",
+    "name": "브라운 오크",
+    "brand": "구정",
+    "category": "마루",
+    "line": "원목마루_헤리티지",
+    "price": 0,
+    "thumbnail": "9e8dbe7bad70ae61b978ae64bb24ab39.jpg",
+    "images": [
+      "9e8dbe7bad70ae61b978ae64bb24ab39.jpg"
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "",
+      "thickness": "10.5T",
+      "size": "190x1900mm",
+      "packing": "6pcs / Box (2.166㎡)"
+    }
+  },
+  {
+    "id": "구정-원목마루_헤리티지_애쉬",
+    "code": "애쉬",
+    "name": "애쉬",
+    "brand": "구정",
+    "category": "마루",
+    "line": "원목마루_헤리티지",
+    "price": 0,
+    "thumbnail": "e99cb56ce9c4bb71432b77c5326babdb.jpg",
+    "images": [
+      "e99cb56ce9c4bb71432b77c5326babdb.jpg"
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "",
+      "thickness": "10.5T",
+      "size": "190x1900mm",
+      "packing": "6pcs / Box (2.166㎡)"
+    }
+  },
+  {
+    "id": "구정-원목마루_헤리티지_오크",
+    "code": "오크",
+    "name": "오크",
+    "brand": "구정",
+    "category": "마루",
+    "line": "원목마루_헤리티지",
+    "price": 0,
+    "thumbnail": "914ed9029f24574f79f4a5b9e9e71344.jpg",
+    "images": [
+      "914ed9029f24574f79f4a5b9e9e71344.jpg"
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "",
+      "thickness": "10.5T",
+      "size": "190x1900mm",
+      "packing": "6pcs / Box (2.166㎡)"
+    }
+  },
+  {
+    "id": "구정-원목마루_헤리티지_월넛",
+    "code": "월넛",
+    "name": "월넛",
+    "brand": "구정",
+    "category": "마루",
+    "line": "원목마루_헤리티지",
+    "price": 0,
+    "thumbnail": "a5eba41276073078bf6cd144283b0d58.jpg",
+    "images": [
+      "a5eba41276073078bf6cd144283b0d58.jpg"
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "",
+      "thickness": "10.5T",
+      "size": "190x1900mm",
+      "packing": "6pcs / Box (2.166㎡)"
+    }
+  },
+  {
+    "id": "구정-원목마루_헤리티지_젯 블랙",
+    "code": "젯 블랙",
+    "name": "젯 블랙",
+    "brand": "구정",
+    "category": "마루",
+    "line": "원목마루_헤리티지",
+    "price": 0,
+    "thumbnail": "3ab50c11ae9d3ceca06485a636293e55.jpg",
+    "images": [
+      "3ab50c11ae9d3ceca06485a636293e55.jpg"
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "",
+      "thickness": "10.5T",
+      "size": "190x1900mm",
+      "packing": "6pcs / Box (2.166㎡)"
+    }
+  },
+  {
+    "id": "구정-원목마루_헤리티지_탄화 오크",
+    "code": "탄화 오크",
+    "name": "탄화 오크",
+    "brand": "구정",
+    "category": "마루",
+    "line": "원목마루_헤리티지",
+    "price": 0,
+    "thumbnail": "f840dbb62182d0225b6804daaa94fb67.jpg",
+    "images": [
+      "f840dbb62182d0225b6804daaa94fb67.jpg"
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "",
+      "thickness": "10.5T",
+      "size": "190x1900mm",
+      "packing": "6pcs / Box (2.166㎡)"
+    }
+  },
+  {
+    "id": "구정-원목마루_헤리티지_티크",
+    "code": "티크",
+    "name": "티크",
+    "brand": "구정",
+    "category": "마루",
+    "line": "원목마루_헤리티지",
+    "price": 0,
+    "thumbnail": "3d7950fa51bb066681b1f74bdc8bd743.jpg",
+    "images": [
+      "3d7950fa51bb066681b1f74bdc8bd743.jpg"
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "",
+      "thickness": "10.5T",
+      "size": "190x1900mm",
+      "packing": "6pcs / Box (2.166㎡)"
+    }
+  },
+  {
+    "id": "구정-원목마루_헤리티지_화이트 오크",
+    "code": "화이트 오크",
+    "name": "화이트 오크",
+    "brand": "구정",
+    "category": "마루",
+    "line": "원목마루_헤리티지",
+    "price": 0,
+    "thumbnail": "1c8b3f2ef8fff8b53ee9c5671d6c36c2.jpg",
+    "images": [
+      "1c8b3f2ef8fff8b53ee9c5671d6c36c2.jpg"
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "",
+      "thickness": "10.5T",
+      "size": "190x1900mm",
+      "packing": "6pcs / Box (2.166㎡)"
+    }
+  },
+  {
+    "id": "구정-천연마루_프레스티지&브러쉬_브러쉬_애쉬 스모키",
     "code": "애쉬 스모키",
     "name": "애쉬 스모키",
     "brand": "구정",
     "category": "마루",
     "line": "브러쉬골드",
     "price": 0,
-    "thumbnail": "00c92f5a3fb694c0a97d5b5d995518da.jpg",
+    "thumbnail": "00b63d261155146869bf8d65ebdc7e67.jpg",
     "images": [
-      "00c92f5a3fb694c0a97d5b5d995518da.jpg"
+      "00b63d261155146869bf8d65ebdc7e67.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -17425,16 +17205,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-프레스티지&브러쉬_브러쉬_애쉬 아몬드",
+    "id": "구정-천연마루_프레스티지&브러쉬_브러쉬_애쉬 아몬드",
     "code": "애쉬 아몬드",
     "name": "애쉬 아몬드",
     "brand": "구정",
     "category": "마루",
     "line": "브러쉬골드",
     "price": 0,
-    "thumbnail": "bf1751fd30b0dbdb905e65bcd6fd3223.jpg",
+    "thumbnail": "952a4d806c5194ac46b5df5f258e9317.jpg",
     "images": [
-      "bf1751fd30b0dbdb905e65bcd6fd3223.jpg"
+      "952a4d806c5194ac46b5df5f258e9317.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -17445,16 +17225,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-프레스티지&브러쉬_브러쉬_오크 클래식",
+    "id": "구정-천연마루_프레스티지&브러쉬_브러쉬_오크 클래식",
     "code": "오크 클래식",
     "name": "오크 클래식",
     "brand": "구정",
     "category": "마루",
     "line": "브러쉬골드",
     "price": 0,
-    "thumbnail": "6f3b3cc6712a780ceafc117e04628d10.jpg",
+    "thumbnail": "a10285ff76b5ecf670d159ef1eeebbea.jpg",
     "images": [
-      "6f3b3cc6712a780ceafc117e04628d10.jpg"
+      "a10285ff76b5ecf670d159ef1eeebbea.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -17465,16 +17245,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-프레스티지&브러쉬_브러쉬_티크 러스틱",
+    "id": "구정-천연마루_프레스티지&브러쉬_브러쉬_티크 러스틱",
     "code": "티크 러스틱",
     "name": "티크 러스틱",
     "brand": "구정",
     "category": "마루",
     "line": "브러쉬골드",
     "price": 0,
-    "thumbnail": "beb39382acc3c3820041b6a1f5d42295.jpg",
+    "thumbnail": "5941da4aa4002259f0eab90fe1302af5.jpg",
     "images": [
-      "beb39382acc3c3820041b6a1f5d42295.jpg"
+      "5941da4aa4002259f0eab90fe1302af5.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -17485,16 +17265,16 @@ export const materials = [
     }
   },
   {
-    "id": "구정-프레스티지&브러쉬_브러쉬_티크 스카치",
+    "id": "구정-천연마루_프레스티지&브러쉬_브러쉬_티크 스카치",
     "code": "티크 스카치",
     "name": "티크 스카치",
     "brand": "구정",
     "category": "마루",
     "line": "브러쉬골드",
     "price": 0,
-    "thumbnail": "c612cfd01508d3a6010e1de961d4a8fe.jpg",
+    "thumbnail": "76499e36fbbc245ed7c15f85730d6dd8.jpg",
     "images": [
-      "c612cfd01508d3a6010e1de961d4a8fe.jpg"
+      "76499e36fbbc245ed7c15f85730d6dd8.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -17505,703 +17285,923 @@ export const materials = [
     }
   },
   {
-    "id": "구정-프레스티지&브러쉬_프레스티지_SH 오크",
+    "id": "구정-천연마루_프레스티지&브러쉬_프레스티지_SH 오크",
     "code": "SH 오크",
     "name": "SH 오크",
     "brand": "구정",
     "category": "마루",
-    "line": "프레스티지",
+    "line": "브러쉬골드",
     "price": 0,
-    "thumbnail": "86052ecda2732212359f8a4e8e5fc00f.jpg",
+    "thumbnail": "d46f513f9dd59a4ab82f25139f707fc0.jpg",
     "images": [
-      "86052ecda2732212359f8a4e8e5fc00f.jpg"
+      "d46f513f9dd59a4ab82f25139f707fc0.jpg"
     ],
-    "thickness": "8.7T",
+    "thickness": "7.5T",
     "specs": {
       "division": "",
-      "thickness": "8.7T",
-      "size": "142x1200mm",
+      "thickness": "7.5T",
+      "size": "115x900mm",
       "packing": "박스단위"
     }
   },
   {
-    "id": "구정-프레스티지&브러쉬_프레스티지_러스틱 월넛",
+    "id": "구정-천연마루_프레스티지&브러쉬_프레스티지_러스틱 월넛",
     "code": "러스틱 월넛",
     "name": "러스틱 월넛",
     "brand": "구정",
     "category": "마루",
-    "line": "프레스티지",
+    "line": "브러쉬골드",
     "price": 0,
-    "thumbnail": "71f76ab4fc5f6998c71ca1e4bd8f02a6.jpg",
+    "thumbnail": "3ff56b55e96f59e975b14c71efc76a7a.jpg",
     "images": [
-      "71f76ab4fc5f6998c71ca1e4bd8f02a6.jpg"
+      "3ff56b55e96f59e975b14c71efc76a7a.jpg"
     ],
-    "thickness": "8.7T",
+    "thickness": "7.5T",
     "specs": {
       "division": "",
-      "thickness": "8.7T",
-      "size": "142x1200mm",
+      "thickness": "7.5T",
+      "size": "115x900mm",
       "packing": "박스단위"
     }
   },
   {
-    "id": "구정-프레스티지&브러쉬_프레스티지_블랙오크",
+    "id": "구정-천연마루_프레스티지&브러쉬_프레스티지_블랙오크",
     "code": "블랙오크",
     "name": "블랙오크",
     "brand": "구정",
     "category": "마루",
-    "line": "프레스티지",
+    "line": "브러쉬골드",
     "price": 0,
-    "thumbnail": "252d42d1d6d8c4541cd72997191b2c42.jpg",
+    "thumbnail": "e865e9d63c46c665451c3fa814c98796.jpg",
     "images": [
-      "252d42d1d6d8c4541cd72997191b2c42.jpg"
+      "e865e9d63c46c665451c3fa814c98796.jpg"
     ],
-    "thickness": "8.7T",
+    "thickness": "7.5T",
     "specs": {
       "division": "",
-      "thickness": "8.7T",
-      "size": "142x1200mm",
+      "thickness": "7.5T",
+      "size": "115x900mm",
       "packing": "박스단위"
     }
   },
   {
-    "id": "구정-프레스티지&브러쉬_프레스티지_아메리카 오크",
+    "id": "구정-천연마루_프레스티지&브러쉬_프레스티지_아메리카 오크",
     "code": "아메리카 오크",
     "name": "아메리카 오크",
     "brand": "구정",
     "category": "마루",
-    "line": "프레스티지",
+    "line": "브러쉬골드",
     "price": 0,
-    "thumbnail": "8bf230337c12d39289e366c92ff5a68a.jpg",
+    "thumbnail": "581d0b0417183a5cd1b38b513b78a9df.jpg",
     "images": [
-      "8bf230337c12d39289e366c92ff5a68a.jpg"
+      "581d0b0417183a5cd1b38b513b78a9df.jpg"
     ],
-    "thickness": "8.7T",
+    "thickness": "7.5T",
     "specs": {
       "division": "",
-      "thickness": "8.7T",
-      "size": "142x1200mm",
+      "thickness": "7.5T",
+      "size": "115x900mm",
       "packing": "박스단위"
     }
   },
   {
-    "id": "구정-프레스티지&브러쉬_프레스티지_애쉬",
+    "id": "구정-천연마루_프레스티지&브러쉬_프레스티지_애쉬",
     "code": "애쉬",
     "name": "애쉬",
     "brand": "구정",
     "category": "마루",
-    "line": "프레스티지",
+    "line": "브러쉬골드",
     "price": 0,
-    "thumbnail": "55457cc98759bc1bcc7d3d2a4a2507b1.jpg",
+    "thumbnail": "f4bd640c5f15b1333abed357a2186fbb.jpg",
     "images": [
-      "55457cc98759bc1bcc7d3d2a4a2507b1.jpg"
+      "f4bd640c5f15b1333abed357a2186fbb.jpg"
     ],
-    "thickness": "8.7T",
+    "thickness": "7.5T",
     "specs": {
       "division": "",
-      "thickness": "8.7T",
-      "size": "142x1200mm",
+      "thickness": "7.5T",
+      "size": "115x900mm",
       "packing": "박스단위"
     }
   },
   {
-    "id": "구정-프레스티지&브러쉬_프레스티지_오크",
+    "id": "구정-천연마루_프레스티지&브러쉬_프레스티지_오크",
     "code": "오크",
     "name": "오크",
     "brand": "구정",
     "category": "마루",
-    "line": "프레스티지",
+    "line": "브러쉬골드",
     "price": 0,
-    "thumbnail": "010bf52393445fb0c670f2870ff2b983.jpg",
+    "thumbnail": "d2d1126c965d491071b2036c97a00fe0.jpg",
     "images": [
-      "010bf52393445fb0c670f2870ff2b983.jpg"
+      "d2d1126c965d491071b2036c97a00fe0.jpg"
     ],
-    "thickness": "8.7T",
+    "thickness": "7.5T",
     "specs": {
       "division": "",
-      "thickness": "8.7T",
-      "size": "142x1200mm",
+      "thickness": "7.5T",
+      "size": "115x900mm",
       "packing": "박스단위"
     }
   },
   {
-    "id": "구정-프레스티지&브러쉬_프레스티지_티크",
+    "id": "구정-천연마루_프레스티지&브러쉬_프레스티지_티크",
     "code": "티크",
     "name": "티크",
     "brand": "구정",
     "category": "마루",
-    "line": "프레스티지",
+    "line": "브러쉬골드",
     "price": 0,
-    "thumbnail": "ae9718842104573466af70f252786c88.jpg",
+    "thumbnail": "d945a14ca55509655bb7aad7de8177ca.jpg",
     "images": [
-      "ae9718842104573466af70f252786c88.jpg"
+      "d945a14ca55509655bb7aad7de8177ca.jpg"
     ],
-    "thickness": "8.7T",
+    "thickness": "7.5T",
     "specs": {
       "division": "",
-      "thickness": "8.7T",
-      "size": "142x1200mm",
+      "thickness": "7.5T",
+      "size": "115x900mm",
       "packing": "박스단위"
     }
   },
   {
-    "id": "구정-프레스티지&브러쉬_프레스티지_화이트 워시 오크",
+    "id": "구정-천연마루_프레스티지&브러쉬_프레스티지_화이트 워시 오크",
     "code": "화이트 워시 오크",
     "name": "화이트 워시 오크",
     "brand": "구정",
     "category": "마루",
-    "line": "프레스티지",
+    "line": "브러쉬골드",
     "price": 0,
-    "thumbnail": "f46074aafbee4d12b426046b740fbc55.jpg",
+    "thumbnail": "445b502ac9b2e3b9afcd59bf20f77bde.jpg",
     "images": [
-      "f46074aafbee4d12b426046b740fbc55.jpg"
+      "445b502ac9b2e3b9afcd59bf20f77bde.jpg"
+    ],
+    "thickness": "7.5T",
+    "specs": {
+      "division": "",
+      "thickness": "7.5T",
+      "size": "115x900mm",
+      "packing": "박스단위"
+    }
+  },
+  {
+    "id": "구정-타일마루_마뷸러스 듀스_멜로우 베이지",
+    "code": "멜로우 베이지",
+    "name": "멜로우 베이지",
+    "brand": "구정",
+    "category": "마루",
+    "line": "타일마루_마뷸러스 듀스",
+    "price": 0,
+    "thumbnail": "7a5b905cd6aa58679b8a41fdd08312cc.png",
+    "images": [
+      "7a5b905cd6aa58679b8a41fdd08312cc.png"
     ],
     "thickness": "8.7T",
     "specs": {
       "division": "",
       "thickness": "8.7T",
-      "size": "142x1200mm",
-      "packing": "박스단위"
+      "size": "597x1210mm",
+      "packing": "8pcs / Box (5.78㎡)"
     }
   },
   {
-    "id": "구정-프리미엄 텍스쳐_ROYAL_미스티 로즈",
-    "code": "미스티 로즈",
-    "name": "미스티 로즈",
+    "id": "구정-타일마루_마뷸러스 듀스_모로칸 블러쉬",
+    "code": "모로칸 블러쉬",
+    "name": "모로칸 블러쉬",
     "brand": "구정",
     "category": "마루",
-    "line": "프리미엄 텍스쳐(ROYAL)",
+    "line": "타일마루_마뷸러스 듀스",
     "price": 0,
-    "thumbnail": "4a8cc1e2a6243984d991b4facd8a1e04.png",
+    "thumbnail": "d3fe0d6c776bdd55b2bdcb2c39331f01.png",
     "images": [
-      "4a8cc1e2a6243984d991b4facd8a1e04.png"
+      "d3fe0d6c776bdd55b2bdcb2c39331f01.png"
     ],
-    "thickness": "7.5T",
+    "thickness": "8.7T",
     "specs": {
       "division": "",
-      "thickness": "7.5T",
-      "size": "115x800mm",
-      "packing": "박스단위"
+      "thickness": "8.7T",
+      "size": "597x1210mm",
+      "packing": "8pcs / Box (5.78㎡)"
     }
   },
   {
-    "id": "구정-프리미엄 텍스쳐_ROYAL_블론드 오크",
-    "code": "블론드 오크",
-    "name": "블론드 오크",
+    "id": "구정-타일마루_마뷸러스 듀스_모슬린 화이트",
+    "code": "모슬린 화이트",
+    "name": "모슬린 화이트",
     "brand": "구정",
     "category": "마루",
-    "line": "프리미엄 텍스쳐(ROYAL)",
+    "line": "타일마루_마뷸러스 듀스",
     "price": 0,
-    "thumbnail": "649d39919254c8e679ec658a02c10bb2.png",
+    "thumbnail": "a6befb2bfa196af09ddc2f29930f2c76.png",
     "images": [
-      "649d39919254c8e679ec658a02c10bb2.png"
+      "a6befb2bfa196af09ddc2f29930f2c76.png"
     ],
-    "thickness": "7.5T",
+    "thickness": "8.7T",
     "specs": {
       "division": "",
-      "thickness": "7.5T",
-      "size": "115x800mm",
-      "packing": "박스단위"
+      "thickness": "8.7T",
+      "size": "597x1210mm",
+      "packing": "8pcs / Box (5.78㎡)"
     }
   },
   {
-    "id": "구정-프리미엄 텍스쳐_ROYAL_샌드 오크",
-    "code": "샌드 오크",
-    "name": "샌드 오크",
+    "id": "구정-타일마루_마뷸러스 듀스_솔티 스노우",
+    "code": "솔티 스노우",
+    "name": "솔티 스노우",
     "brand": "구정",
     "category": "마루",
-    "line": "프리미엄 텍스쳐(ROYAL)",
+    "line": "타일마루_마뷸러스 듀스",
     "price": 0,
-    "thumbnail": "a6c09c9c0dd8d510a8f7a22b6c6989c2.png",
+    "thumbnail": "32c579cdf4c21fef2aff0b861f11615f.png",
     "images": [
-      "a6c09c9c0dd8d510a8f7a22b6c6989c2.png"
+      "32c579cdf4c21fef2aff0b861f11615f.png"
     ],
-    "thickness": "7.5T",
+    "thickness": "8.7T",
     "specs": {
       "division": "",
-      "thickness": "7.5T",
-      "size": "115x800mm",
-      "packing": "박스단위"
+      "thickness": "8.7T",
+      "size": "597x1210mm",
+      "packing": "8pcs / Box (5.78㎡)"
     }
   },
   {
-    "id": "구정-프리미엄 텍스쳐_ROYAL_카본 블랙",
-    "code": "카본 블랙",
-    "name": "카본 블랙",
+    "id": "구정-타일마루_마뷸러스 듀스_시멘틱 그레이'",
+    "code": "시멘틱 그레이'",
+    "name": "시멘틱 그레이'",
     "brand": "구정",
     "category": "마루",
-    "line": "프리미엄 텍스쳐(ROYAL)",
+    "line": "타일마루_마뷸러스 듀스",
     "price": 0,
-    "thumbnail": "ea26efb29b08c0c339e8aaa0a0815299.png",
+    "thumbnail": "dd2ed63ecc7e60949f09246808e23a0b.png",
     "images": [
-      "ea26efb29b08c0c339e8aaa0a0815299.png"
+      "dd2ed63ecc7e60949f09246808e23a0b.png"
     ],
-    "thickness": "7.5T",
+    "thickness": "8.7T",
     "specs": {
       "division": "",
-      "thickness": "7.5T",
-      "size": "115x800mm",
-      "packing": "박스단위"
+      "thickness": "8.7T",
+      "size": "597x1210mm",
+      "packing": "8pcs / Box (5.78㎡)"
     }
   },
   {
-    "id": "구정-프리미엄 텍스쳐_ROYAL_카카오 브라운",
-    "code": "카카오 브라운",
-    "name": "카카오 브라운",
+    "id": "구정-타일마루_마뷸러스 듀스_웜 브라이트",
+    "code": "웜 브라이트",
+    "name": "웜 브라이트",
     "brand": "구정",
     "category": "마루",
-    "line": "프리미엄 텍스쳐(ROYAL)",
+    "line": "타일마루_마뷸러스 듀스",
     "price": 0,
-    "thumbnail": "060ee81ec280234bacc328f5c5df9877.png",
+    "thumbnail": "4c02d873de9796a960429cd87cddcce2.png",
     "images": [
-      "060ee81ec280234bacc328f5c5df9877.png"
+      "4c02d873de9796a960429cd87cddcce2.png"
     ],
-    "thickness": "7.5T",
+    "thickness": "8.7T",
     "specs": {
       "division": "",
-      "thickness": "7.5T",
-      "size": "115x800mm",
-      "packing": "박스단위"
+      "thickness": "8.7T",
+      "size": "597x1210mm",
+      "packing": "8pcs / Box (5.78㎡)"
     }
   },
   {
-    "id": "구정-프리미엄 텍스쳐_WIDE_골드 브릭",
-    "code": "골드 브릭",
-    "name": "골드 브릭",
+    "id": "구정-타일마루_마뷸러스 듀스_젠틑 라이트",
+    "code": "젠틑 라이트",
+    "name": "젠틑 라이트",
     "brand": "구정",
     "category": "마루",
-    "line": "프리미엄 텍스쳐(WIDE)",
+    "line": "타일마루_마뷸러스 듀스",
     "price": 0,
-    "thumbnail": "f8f2fb550b12ab4e70136f85faafaaf4.jpg",
+    "thumbnail": "82c9e00541e1fbc7e3659d9f9ca87f70.png",
     "images": [
-      "f8f2fb550b12ab4e70136f85faafaaf4.jpg"
+      "82c9e00541e1fbc7e3659d9f9ca87f70.png"
     ],
-    "thickness": "7.5T",
+    "thickness": "8.7T",
     "specs": {
       "division": "",
-      "thickness": "7.5T",
-      "size": "125x1200mm",
-      "packing": "박스단위"
+      "thickness": "8.7T",
+      "size": "597x1210mm",
+      "packing": "8pcs / Box (5.78㎡)"
     }
   },
   {
-    "id": "구정-프리미엄 텍스쳐_WIDE_딥라인 오크",
-    "code": "딥라인 오크",
-    "name": "딥라인 오크",
+    "id": "구정-타일마루_마뷸러스 듀스_클라우디 크림",
+    "code": "클라우디 크림",
+    "name": "클라우디 크림",
     "brand": "구정",
     "category": "마루",
-    "line": "프리미엄 텍스쳐(WIDE)",
+    "line": "타일마루_마뷸러스 듀스",
     "price": 0,
-    "thumbnail": "5a6a83f5c2af78132c0ac814d72bbdfe.png",
+    "thumbnail": "fd4e284afcb90f0eb7c3df6a68c052d5.png",
     "images": [
-      "5a6a83f5c2af78132c0ac814d72bbdfe.png"
+      "fd4e284afcb90f0eb7c3df6a68c052d5.png"
     ],
-    "thickness": "7.5T",
+    "thickness": "8.7T",
     "specs": {
       "division": "",
-      "thickness": "7.5T",
-      "size": "125x1200mm",
-      "packing": "박스단위"
+      "thickness": "8.7T",
+      "size": "597x1210mm",
+      "packing": "8pcs / Box (5.78㎡)"
     }
   },
   {
-    "id": "구정-프리미엄 텍스쳐_WIDE_라일락 화이트",
-    "code": "라일락 화이트",
-    "name": "라일락 화이트",
+    "id": "구정-타일마루_마뷸러스 리브_모로칸 크림",
+    "code": "모로칸 크림",
+    "name": "모로칸 크림",
     "brand": "구정",
     "category": "마루",
-    "line": "프리미엄 텍스쳐(WIDE)",
+    "line": "타일마루_마뷸러스 리브",
     "price": 0,
-    "thumbnail": "f1af662fd878e3f3dac46d6a2f30de54.png",
+    "thumbnail": "aebfef3bfd609de5c19e5168dc1897f9.png",
     "images": [
-      "f1af662fd878e3f3dac46d6a2f30de54.png"
+      "aebfef3bfd609de5c19e5168dc1897f9.png"
     ],
-    "thickness": "7.5T",
+    "thickness": "7.7T",
     "specs": {
       "division": "",
-      "thickness": "7.5T",
-      "size": "125x1200mm",
-      "packing": "박스단위"
+      "thickness": "7.7T",
+      "size": "393x797mm",
+      "packing": "10pcs / Box (3.13㎡)"
     }
   },
   {
-    "id": "구정-프리미엄 텍스쳐_WIDE_린넨 베이지",
-    "code": "린넨 베이지",
-    "name": "린넨 베이지",
+    "id": "구정-타일마루_마뷸러스 리브_셀럽 베이지",
+    "code": "셀럽 베이지",
+    "name": "셀럽 베이지",
     "brand": "구정",
     "category": "마루",
-    "line": "프리미엄 텍스쳐(WIDE)",
+    "line": "타일마루_마뷸러스 리브",
     "price": 0,
-    "thumbnail": "54873932d114f6776035c6210d28d5b2.png",
+    "thumbnail": "011cca30d368e30b3c822cebf11b4166.png",
     "images": [
-      "54873932d114f6776035c6210d28d5b2.png"
+      "011cca30d368e30b3c822cebf11b4166.png"
     ],
-    "thickness": "7.5T",
+    "thickness": "7.7T",
     "specs": {
       "division": "",
-      "thickness": "7.5T",
-      "size": "125x1200mm",
-      "packing": "박스단위"
+      "thickness": "7.7T",
+      "size": "393x797mm",
+      "packing": "10pcs / Box (3.13㎡)"
     }
   },
   {
-    "id": "구정-프리미엄 텍스쳐_WIDE_모카 브루",
-    "code": "모카 브루",
-    "name": "모카 브루",
+    "id": "구정-타일마루_마뷸러스 리브_스톤 그레이",
+    "code": "스톤 그레이",
+    "name": "스톤 그레이",
     "brand": "구정",
     "category": "마루",
-    "line": "프리미엄 텍스쳐(WIDE)",
+    "line": "타일마루_마뷸러스 리브",
     "price": 0,
-    "thumbnail": "82c5445c4215c9853ade86e86c5ddb2f.png",
+    "thumbnail": "565b940af91feb41d6266d80be65dd39.png",
     "images": [
-      "82c5445c4215c9853ade86e86c5ddb2f.png"
+      "565b940af91feb41d6266d80be65dd39.png"
     ],
-    "thickness": "7.5T",
+    "thickness": "7.7T",
     "specs": {
       "division": "",
-      "thickness": "7.5T",
-      "size": "125x1200mm",
-      "packing": "박스단위"
+      "thickness": "7.7T",
+      "size": "393x797mm",
+      "packing": "10pcs / Box (3.13㎡)"
     }
   },
   {
-    "id": "구정-프리미엄 텍스쳐_WIDE_소프트 웨이브",
-    "code": "소프트 웨이브",
-    "name": "소프트 웨이브",
+    "id": "구정-타일마루_마뷸러스 리브_실버 문",
+    "code": "실버 문",
+    "name": "실버 문",
     "brand": "구정",
     "category": "마루",
-    "line": "프리미엄 텍스쳐(WIDE)",
+    "line": "타일마루_마뷸러스 리브",
     "price": 0,
-    "thumbnail": "dd3e375e4b105e130ae912251768d8bd.png",
+    "thumbnail": "dc0788403f5f8b46dc3d7017c41a08db.png",
     "images": [
-      "dd3e375e4b105e130ae912251768d8bd.png"
+      "dc0788403f5f8b46dc3d7017c41a08db.png"
     ],
-    "thickness": "7.5T",
+    "thickness": "7.7T",
     "specs": {
       "division": "",
-      "thickness": "7.5T",
-      "size": "125x1200mm",
-      "packing": "박스단위"
+      "thickness": "7.7T",
+      "size": "393x797mm",
+      "packing": "10pcs / Box (3.13㎡)"
     }
   },
   {
-    "id": "구정-피안테_베키오",
-    "code": "베키오",
-    "name": "베키오",
+    "id": "구정-타일마루_마뷸러스 리브_웜 브리즈",
+    "code": "웜 브리즈",
+    "name": "웜 브리즈",
     "brand": "구정",
     "category": "마루",
-    "line": "피안테",
+    "line": "타일마루_마뷸러스 리브",
     "price": 0,
-    "thumbnail": "7e941e6074be4441d33b9fe77c3b2df0.png",
+    "thumbnail": "970666de42e43d9d71e6a6735a496191.png",
     "images": [
-      "7e941e6074be4441d33b9fe77c3b2df0.png"
+      "970666de42e43d9d71e6a6735a496191.png"
     ],
-    "thickness": "15T",
+    "thickness": "7.7T",
     "specs": {
       "division": "",
-      "thickness": "15T",
-      "size": "242x2350mm",
-      "packing": "박스단위"
+      "thickness": "7.7T",
+      "size": "393x797mm",
+      "packing": "10pcs / Box (3.13㎡)"
     }
   },
   {
-    "id": "구정-피안테_볼로네티",
-    "code": "볼로네티",
-    "name": "볼로네티",
+    "id": "구정-타일마루_마뷸러스 리브_젠틀 판타지",
+    "code": "젠틀 판타지",
+    "name": "젠틀 판타지",
     "brand": "구정",
     "category": "마루",
-    "line": "피안테",
+    "line": "타일마루_마뷸러스 리브",
     "price": 0,
-    "thumbnail": "4da177f39a0ce66044ea740d1bfc11f0.png",
+    "thumbnail": "03acfeb3e265412f55431a29263a4588.png",
     "images": [
-      "4da177f39a0ce66044ea740d1bfc11f0.png"
+      "03acfeb3e265412f55431a29263a4588.png"
     ],
-    "thickness": "15T",
+    "thickness": "7.7T",
     "specs": {
       "division": "",
-      "thickness": "15T",
-      "size": "242x2350mm",
-      "packing": "박스단위"
+      "thickness": "7.7T",
+      "size": "393x797mm",
+      "packing": "10pcs / Box (3.13㎡)"
     }
   },
   {
-    "id": "구정-피안테_카멜로",
-    "code": "카멜로",
-    "name": "카멜로",
+    "id": "구정-타일마루_마뷸러스 뮤즈_모로칸 크림",
+    "code": "모로칸 크림",
+    "name": "모로칸 크림",
     "brand": "구정",
     "category": "마루",
-    "line": "피안테",
+    "line": "타일마루_마뷸러스 뮤즈",
     "price": 0,
-    "thumbnail": "09f342f17bf5e4faaea0dc518a879b01.png",
+    "thumbnail": "71e6d9186a80b76d86c3688b0442c2a3.png",
     "images": [
-      "09f342f17bf5e4faaea0dc518a879b01.png"
+      "71e6d9186a80b76d86c3688b0442c2a3.png"
     ],
-    "thickness": "15T",
+    "thickness": "8.7T",
     "specs": {
       "division": "",
-      "thickness": "15T",
-      "size": "242x2350mm",
-      "packing": "박스단위"
+      "thickness": "8.7T",
+      "size": "393x1200mm",
+      "packing": "6pcs / Box (2.83㎡)"
     }
   },
   {
-    "id": "구정-피안테_티에네",
-    "code": "티에네",
-    "name": "티에네",
+    "id": "구정-타일마루_마뷸러스 뮤즈_뮤지엄 그레이",
+    "code": "뮤지엄 그레이",
+    "name": "뮤지엄 그레이",
     "brand": "구정",
     "category": "마루",
-    "line": "피안테",
+    "line": "타일마루_마뷸러스 뮤즈",
     "price": 0,
-    "thumbnail": "2146ec0ab5709bedc0559d5c15475b18.png",
+    "thumbnail": "9a914db6b9d80377c7f3fd4dcbe2b63a.png",
     "images": [
-      "2146ec0ab5709bedc0559d5c15475b18.png"
+      "9a914db6b9d80377c7f3fd4dcbe2b63a.png"
     ],
-    "thickness": "15T",
+    "thickness": "8.7T",
     "specs": {
       "division": "",
-      "thickness": "15T",
-      "size": "242x2350mm",
-      "packing": "박스단위"
+      "thickness": "8.7T",
+      "size": "393x1200mm",
+      "packing": "6pcs / Box (2.83㎡)"
     }
   },
   {
-    "id": "구정-피안테_포스티에라",
-    "code": "포스티에라",
-    "name": "포스티에라",
+    "id": "구정-타일마루_마뷸러스 뮤즈_셀럽 베이지",
+    "code": "셀럽 베이지",
+    "name": "셀럽 베이지",
     "brand": "구정",
     "category": "마루",
-    "line": "피안테",
+    "line": "타일마루_마뷸러스 뮤즈",
     "price": 0,
-    "thumbnail": "514c7992c2b33de91d866d06972845d3.png",
+    "thumbnail": "e319dc0f755833431767ed6cf3237643.png",
     "images": [
-      "514c7992c2b33de91d866d06972845d3.png"
+      "e319dc0f755833431767ed6cf3237643.png"
     ],
-    "thickness": "15T",
+    "thickness": "8.7T",
     "specs": {
       "division": "",
-      "thickness": "15T",
-      "size": "242x2350mm",
-      "packing": "박스단위"
+      "thickness": "8.7T",
+      "size": "393x1200mm",
+      "packing": "6pcs / Box (2.83㎡)"
     }
   },
   {
-    "id": "구정-헤리티지_다크 브라운 애쉬",
-    "code": "다크 브라운 애쉬",
-    "name": "다크 브라운 애쉬",
+    "id": "구정-타일마루_마뷸러스 뮤즈_젠틀 판타지",
+    "code": "젠틀 판타지",
+    "name": "젠틀 판타지",
     "brand": "구정",
     "category": "마루",
-    "line": "헤리티지",
+    "line": "타일마루_마뷸러스 뮤즈",
     "price": 0,
-    "thumbnail": "1b52a9bcb517593e0f4020fe8a3ec413.jpg",
+    "thumbnail": "7caec595ce633e9f62e99759bc1229de.png",
     "images": [
-      "1b52a9bcb517593e0f4020fe8a3ec413.jpg"
+      "7caec595ce633e9f62e99759bc1229de.png"
     ],
-    "thickness": "10.5T",
+    "thickness": "8.7T",
     "specs": {
       "division": "",
-      "thickness": "10.5T",
-      "size": "190x1900mm",
-      "packing": "6pcs / Box (2.166㎡)"
+      "thickness": "8.7T",
+      "size": "393x1200mm",
+      "packing": "6pcs / Box (2.83㎡)"
     }
   },
   {
-    "id": "구정-헤리티지_다크 월넛",
-    "code": "다크 월넛",
-    "name": "다크 월넛",
+    "id": "구정-타일마루_마뷸러스 엘_라이트 듄",
+    "code": "라이트 듄",
+    "name": "라이트 듄",
     "brand": "구정",
     "category": "마루",
-    "line": "헤리티지",
+    "line": "타일마루_마뷸러스 엘",
     "price": 0,
-    "thumbnail": "5575156e49078c9c459a30696e15e6f5.jpg",
+    "thumbnail": "de953203e2e0d7690ad9996285125a55.png",
     "images": [
-      "5575156e49078c9c459a30696e15e6f5.jpg"
+      "de953203e2e0d7690ad9996285125a55.png"
     ],
-    "thickness": "10.5T",
+    "thickness": "8.7T",
     "specs": {
       "division": "",
-      "thickness": "10.5T",
-      "size": "190x1900mm",
-      "packing": "6pcs / Box (2.166㎡)"
+      "thickness": "8.7T",
+      "size": "900x900mm",
+      "packing": "4pcs / Box (3.24㎡)"
     }
   },
   {
-    "id": "구정-헤리티지_라이트 카키 오크",
-    "code": "라이트 카키 오크",
-    "name": "라이트 카키 오크",
+    "id": "구정-타일마루_마뷸러스 엘_모로칸 크림",
+    "code": "모로칸 크림",
+    "name": "모로칸 크림",
     "brand": "구정",
     "category": "마루",
-    "line": "헤리티지",
+    "line": "타일마루_마뷸러스 엘",
     "price": 0,
-    "thumbnail": "e70f3fef484a21ae622828d550f56b76.jpg",
+    "thumbnail": "daefc53822122a1d2959a34a393dea7f.png",
     "images": [
-      "e70f3fef484a21ae622828d550f56b76.jpg"
+      "daefc53822122a1d2959a34a393dea7f.png"
     ],
-    "thickness": "10.5T",
+    "thickness": "8.7T",
     "specs": {
       "division": "",
-      "thickness": "10.5T",
-      "size": "190x1900mm",
-      "packing": "6pcs / Box (2.166㎡)"
+      "thickness": "8.7T",
+      "size": "900x900mm",
+      "packing": "4pcs / Box (3.24㎡)"
     }
   },
   {
-    "id": "구정-헤리티지_브라운 오크",
-    "code": "브라운 오크",
-    "name": "브라운 오크",
+    "id": "구정-타일마루_마뷸러스 엘_문 더스트",
+    "code": "문 더스트",
+    "name": "문 더스트",
     "brand": "구정",
     "category": "마루",
-    "line": "헤리티지",
+    "line": "타일마루_마뷸러스 엘",
     "price": 0,
-    "thumbnail": "52f04b74919761e3a94cc3c45d227cdb.jpg",
+    "thumbnail": "df318079fe0465f283d470e5f5742706.png",
     "images": [
-      "52f04b74919761e3a94cc3c45d227cdb.jpg"
+      "df318079fe0465f283d470e5f5742706.png"
     ],
-    "thickness": "10.5T",
+    "thickness": "8.7T",
     "specs": {
       "division": "",
-      "thickness": "10.5T",
-      "size": "190x1900mm",
-      "packing": "6pcs / Box (2.166㎡)"
+      "thickness": "8.7T",
+      "size": "900x900mm",
+      "packing": "4pcs / Box (3.24㎡)"
     }
   },
   {
-    "id": "구정-헤리티지_애쉬",
-    "code": "애쉬",
-    "name": "애쉬",
+    "id": "구정-타일마루_마뷸러스 엘_웜 브리즈",
+    "code": "웜 브리즈",
+    "name": "웜 브리즈",
     "brand": "구정",
     "category": "마루",
-    "line": "헤리티지",
+    "line": "타일마루_마뷸러스 엘",
     "price": 0,
-    "thumbnail": "cf8085af928e990f98e8dd051906b524.jpg",
+    "thumbnail": "4fe02b2b262635d1304e8ef064fa3a61.png",
     "images": [
-      "cf8085af928e990f98e8dd051906b524.jpg"
+      "4fe02b2b262635d1304e8ef064fa3a61.png"
     ],
-    "thickness": "10.5T",
+    "thickness": "8.7T",
     "specs": {
       "division": "",
-      "thickness": "10.5T",
-      "size": "190x1900mm",
-      "packing": "6pcs / Box (2.166㎡)"
+      "thickness": "8.7T",
+      "size": "900x900mm",
+      "packing": "4pcs / Box (3.24㎡)"
     }
   },
   {
-    "id": "구정-헤리티지_오크",
-    "code": "오크",
-    "name": "오크",
+    "id": "구정-타일마루_마뷸러스 엘_젠틀 판타지",
+    "code": "젠틀 판타지",
+    "name": "젠틀 판타지",
     "brand": "구정",
     "category": "마루",
-    "line": "헤리티지",
+    "line": "타일마루_마뷸러스 엘",
     "price": 0,
-    "thumbnail": "ddedd791a5293292338a2bba0c233168.jpg",
+    "thumbnail": "6a264c49437c718507e8441ec61ff31f.png",
     "images": [
-      "ddedd791a5293292338a2bba0c233168.jpg"
+      "6a264c49437c718507e8441ec61ff31f.png"
     ],
-    "thickness": "10.5T",
+    "thickness": "8.7T",
     "specs": {
       "division": "",
-      "thickness": "10.5T",
-      "size": "190x1900mm",
-      "packing": "6pcs / Box (2.166㎡)"
+      "thickness": "8.7T",
+      "size": "900x900mm",
+      "packing": "4pcs / Box (3.24㎡)"
     }
   },
   {
-    "id": "구정-헤리티지_월넛",
-    "code": "월넛",
-    "name": "월넛",
+    "id": "구정-타일마루_마뷸러스 젠_그레이지",
+    "code": "그레이지",
+    "name": "그레이지",
     "brand": "구정",
     "category": "마루",
-    "line": "헤리티지",
+    "line": "타일마루_마뷸러스 젠",
     "price": 0,
-    "thumbnail": "2b02b8f3a27dd29682d262a5160abcbe.jpg",
+    "thumbnail": "215a1e0eb2d782173af1d838a37e1e2d.png",
     "images": [
-      "2b02b8f3a27dd29682d262a5160abcbe.jpg"
+      "215a1e0eb2d782173af1d838a37e1e2d.png"
     ],
-    "thickness": "10.5T",
+    "thickness": "8.7T",
     "specs": {
       "division": "",
-      "thickness": "10.5T",
-      "size": "190x1900mm",
-      "packing": "6pcs / Box (2.166㎡)"
+      "thickness": "8.7T",
+      "size": "597x597mm",
+      "packing": "9pcs / Box (3.2㎡)"
     }
   },
   {
-    "id": "구정-헤리티지_젯 블랙",
-    "code": "젯 블랙",
-    "name": "젯 블랙",
+    "id": "구정-타일마루_마뷸러스 젠_뉴트럴 그레이",
+    "code": "뉴트럴 그레이",
+    "name": "뉴트럴 그레이",
     "brand": "구정",
     "category": "마루",
-    "line": "헤리티지",
+    "line": "타일마루_마뷸러스 젠",
     "price": 0,
-    "thumbnail": "29e5136572bfd7a4c319748e15b1598c.jpg",
+    "thumbnail": "4bc1fd5ecdb6e8701d9917098767cd72.png",
     "images": [
-      "29e5136572bfd7a4c319748e15b1598c.jpg"
+      "4bc1fd5ecdb6e8701d9917098767cd72.png"
     ],
-    "thickness": "10.5T",
+    "thickness": "8.7T",
     "specs": {
       "division": "",
-      "thickness": "10.5T",
-      "size": "190x1900mm",
-      "packing": "6pcs / Box (2.166㎡)"
+      "thickness": "8.7T",
+      "size": "597x597mm",
+      "packing": "9pcs / Box (3.2㎡)"
     }
   },
   {
-    "id": "구정-헤리티지_탄화 오크",
-    "code": "탄화 오크",
-    "name": "탄화 오크",
+    "id": "구정-타일마루_마뷸러스 젠_리저브 스톤",
+    "code": "리저브 스톤",
+    "name": "리저브 스톤",
     "brand": "구정",
     "category": "마루",
-    "line": "헤리티지",
+    "line": "타일마루_마뷸러스 젠",
     "price": 0,
-    "thumbnail": "df718ea9b70e7929c28f864b85bad1a6.jpg",
+    "thumbnail": "0b73673c76a3a25dd74e024a676c163a.png",
     "images": [
-      "df718ea9b70e7929c28f864b85bad1a6.jpg"
+      "0b73673c76a3a25dd74e024a676c163a.png"
     ],
-    "thickness": "10.5T",
+    "thickness": "8.7T",
     "specs": {
       "division": "",
-      "thickness": "10.5T",
-      "size": "190x1900mm",
-      "packing": "6pcs / Box (2.166㎡)"
+      "thickness": "8.7T",
+      "size": "597x597mm",
+      "packing": "9pcs / Box (3.2㎡)"
     }
   },
   {
-    "id": "구정-헤리티지_티크",
-    "code": "티크",
-    "name": "티크",
+    "id": "구정-타일마루_마뷸러스 젠_모로칸 크림",
+    "code": "모로칸 크림",
+    "name": "모로칸 크림",
     "brand": "구정",
     "category": "마루",
-    "line": "헤리티지",
+    "line": "타일마루_마뷸러스 젠",
     "price": 0,
-    "thumbnail": "49f38d5e35dae1881bbbf145f6e721ec.jpg",
+    "thumbnail": "8544ba6305d2b5115b33e03495f0ce69.png",
     "images": [
-      "49f38d5e35dae1881bbbf145f6e721ec.jpg"
+      "8544ba6305d2b5115b33e03495f0ce69.png"
     ],
-    "thickness": "10.5T",
+    "thickness": "8.7T",
     "specs": {
       "division": "",
-      "thickness": "10.5T",
-      "size": "190x1900mm",
-      "packing": "6pcs / Box (2.166㎡)"
+      "thickness": "8.7T",
+      "size": "597x597mm",
+      "packing": "9pcs / Box (3.2㎡)"
     }
   },
   {
-    "id": "구정-헤리티지_화이트 오크",
-    "code": "화이트 오크",
-    "name": "화이트 오크",
+    "id": "구정-타일마루_마뷸러스 젠_무디 블랙",
+    "code": "무디 블랙",
+    "name": "무디 블랙",
     "brand": "구정",
     "category": "마루",
-    "line": "헤리티지",
+    "line": "타일마루_마뷸러스 젠",
     "price": 0,
-    "thumbnail": "14b67bdba5da6858622361184bfcec9b.jpg",
+    "thumbnail": "3768f9c6af991c7dd87fb6b3ff96c606.png",
     "images": [
-      "14b67bdba5da6858622361184bfcec9b.jpg"
+      "3768f9c6af991c7dd87fb6b3ff96c606.png"
     ],
-    "thickness": "10.5T",
+    "thickness": "8.7T",
     "specs": {
       "division": "",
-      "thickness": "10.5T",
-      "size": "190x1900mm",
-      "packing": "6pcs / Box (2.166㎡)"
+      "thickness": "8.7T",
+      "size": "597x597mm",
+      "packing": "9pcs / Box (3.2㎡)"
+    }
+  },
+  {
+    "id": "구정-타일마루_마뷸러스 젠_새틴 화이트",
+    "code": "새틴 화이트",
+    "name": "새틴 화이트",
+    "brand": "구정",
+    "category": "마루",
+    "line": "타일마루_마뷸러스 젠",
+    "price": 0,
+    "thumbnail": "1aeb59fe50b30ea807af07bdbf2c2129.png",
+    "images": [
+      "1aeb59fe50b30ea807af07bdbf2c2129.png"
+    ],
+    "thickness": "8.7T",
+    "specs": {
+      "division": "",
+      "thickness": "8.7T",
+      "size": "597x597mm",
+      "packing": "9pcs / Box (3.2㎡)"
+    }
+  },
+  {
+    "id": "구정-타일마루_마뷸러스 젠_샌드 테라조",
+    "code": "샌드 테라조",
+    "name": "샌드 테라조",
+    "brand": "구정",
+    "category": "마루",
+    "line": "타일마루_마뷸러스 젠",
+    "price": 0,
+    "thumbnail": "5afa7a136e6df6a01d2031f6f64df461.png",
+    "images": [
+      "5afa7a136e6df6a01d2031f6f64df461.png"
+    ],
+    "thickness": "8.7T",
+    "specs": {
+      "division": "",
+      "thickness": "8.7T",
+      "size": "597x597mm",
+      "packing": "9pcs / Box (3.2㎡)"
+    }
+  },
+  {
+    "id": "구정-타일마루_마뷸러스 젠_쉐도우 그레이",
+    "code": "쉐도우 그레이",
+    "name": "쉐도우 그레이",
+    "brand": "구정",
+    "category": "마루",
+    "line": "타일마루_마뷸러스 젠",
+    "price": 0,
+    "thumbnail": "81e8f6bb508c694b9dfebc7bcb511e77.png",
+    "images": [
+      "81e8f6bb508c694b9dfebc7bcb511e77.png"
+    ],
+    "thickness": "8.7T",
+    "specs": {
+      "division": "",
+      "thickness": "8.7T",
+      "size": "597x597mm",
+      "packing": "9pcs / Box (3.2㎡)"
+    }
+  },
+  {
+    "id": "구정-타일마루_마뷸러스 젠_스톤 그레이",
+    "code": "스톤 그레이",
+    "name": "스톤 그레이",
+    "brand": "구정",
+    "category": "마루",
+    "line": "타일마루_마뷸러스 젠",
+    "price": 0,
+    "thumbnail": "099652aea4c3f3f8c05699fcbe72bca0.png",
+    "images": [
+      "099652aea4c3f3f8c05699fcbe72bca0.png"
+    ],
+    "thickness": "8.7T",
+    "specs": {
+      "division": "",
+      "thickness": "8.7T",
+      "size": "597x597mm",
+      "packing": "9pcs / Box (3.2㎡)"
+    }
+  },
+  {
+    "id": "구정-타일마루_마뷸러스 젠_스페이스 그레이",
+    "code": "스페이스 그레이",
+    "name": "스페이스 그레이",
+    "brand": "구정",
+    "category": "마루",
+    "line": "타일마루_마뷸러스 젠",
+    "price": 0,
+    "thumbnail": "14006e2421e0ef63710c4e89ebf62f7d.png",
+    "images": [
+      "14006e2421e0ef63710c4e89ebf62f7d.png"
+    ],
+    "thickness": "8.7T",
+    "specs": {
+      "division": "",
+      "thickness": "8.7T",
+      "size": "597x597mm",
+      "packing": "9pcs / Box (3.2㎡)"
+    }
+  },
+  {
+    "id": "구정-타일마루_마뷸러스 젠_실버 문",
+    "code": "실버 문",
+    "name": "실버 문",
+    "brand": "구정",
+    "category": "마루",
+    "line": "타일마루_마뷸러스 젠",
+    "price": 0,
+    "thumbnail": "3112f5f68eafcc09a88a2301b58bb949.png",
+    "images": [
+      "3112f5f68eafcc09a88a2301b58bb949.png"
+    ],
+    "thickness": "8.7T",
+    "specs": {
+      "division": "",
+      "thickness": "8.7T",
+      "size": "597x597mm",
+      "packing": "9pcs / Box (3.2㎡)"
+    }
+  },
+  {
+    "id": "구정-타일마루_마뷸러스 젠_웜 브리즈",
+    "code": "웜 브리즈",
+    "name": "웜 브리즈",
+    "brand": "구정",
+    "category": "마루",
+    "line": "타일마루_마뷸러스 젠",
+    "price": 0,
+    "thumbnail": "d664c88494601fbe5be05961e41e54df.png",
+    "images": [
+      "d664c88494601fbe5be05961e41e54df.png"
+    ],
+    "thickness": "8.7T",
+    "specs": {
+      "division": "",
+      "thickness": "8.7T",
+      "size": "597x597mm",
+      "packing": "9pcs / Box (3.2㎡)"
+    }
+  },
+  {
+    "id": "구정-타일마루_마뷸러스 젠_젠틀 판타지",
+    "code": "젠틀 판타지",
+    "name": "젠틀 판타지",
+    "brand": "구정",
+    "category": "마루",
+    "line": "타일마루_마뷸러스 젠",
+    "price": 0,
+    "thumbnail": "ea984c7acc6e5a5b0706ca9b16bdaf8f.png",
+    "images": [
+      "ea984c7acc6e5a5b0706ca9b16bdaf8f.png"
+    ],
+    "thickness": "8.7T",
+    "specs": {
+      "division": "",
+      "thickness": "8.7T",
+      "size": "597x597mm",
+      "packing": "9pcs / Box (3.2㎡)"
+    }
+  },
+  {
+    "id": "구정-타일마루_마뷸러스 젠_크림 브륄레",
+    "code": "크림 브륄레",
+    "name": "크림 브륄레",
+    "brand": "구정",
+    "category": "마루",
+    "line": "타일마루_마뷸러스 젠",
+    "price": 0,
+    "thumbnail": "796b84760146960da36d4af5fba44a71.png",
+    "images": [
+      "796b84760146960da36d4af5fba44a71.png"
+    ],
+    "thickness": "8.7T",
+    "specs": {
+      "division": "",
+      "thickness": "8.7T",
+      "size": "597x597mm",
+      "packing": "9pcs / Box (3.2㎡)"
+    }
+  },
+  {
+    "id": "구정-타일마루_마뷸러스 젠_화이트 쇼어",
+    "code": "화이트 쇼어",
+    "name": "화이트 쇼어",
+    "brand": "구정",
+    "category": "마루",
+    "line": "타일마루_마뷸러스 젠",
+    "price": 0,
+    "thumbnail": "4fe54ad5b58ba986f66bb54e75796286.png",
+    "images": [
+      "4fe54ad5b58ba986f66bb54e75796286.png"
+    ],
+    "thickness": "8.7T",
+    "specs": {
+      "division": "",
+      "thickness": "8.7T",
+      "size": "597x597mm",
+      "packing": "9pcs / Box (3.2㎡)"
     }
   },
   {
