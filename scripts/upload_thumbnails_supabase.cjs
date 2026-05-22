@@ -110,7 +110,19 @@ async function main() {
   console.log(`  Supabase 클라이언트 초기화 완료`);
   console.log(`  업로드 시작 (동시 ${CONCURRENCY}개)...\n`);
 
+  let skipped = 0;
   const { ok, fail } = await runConcurrent(allFiles, async ({ fullPath, storageKey, relPath }, i) => {
+    const publicUrl = `${SUPABASE_URL}/storage/v1/object/public/${BUCKET}/${storageKey}`;
+    try {
+      const checkRes = await fetch(publicUrl, { method: "HEAD" });
+      if (checkRes.status === 200) {
+        skipped++;
+        return;
+      }
+    } catch (e) {
+      // Ignore check error, proceed to upload
+    }
+
     const fileBuffer = fs.readFileSync(fullPath);
     const { error } = await supabase.storage
       .from(BUCKET)
@@ -123,14 +135,16 @@ async function main() {
 
   console.log("\n═══════════════════════════════════════════");
   console.log("■ 업로드 결과");
-  console.log(`  성공: ${ok}개 / 전체: ${allFiles.length}개`);
+  console.log(`  성공(신규업로드): ${ok - skipped}개`);
+  console.log(`  스킵(이미존재): ${skipped}개`);
+  console.log(`  전체: ${allFiles.length}개`);
   console.log(`  실패: ${fail.length}개`);
   if (fail.length > 0) {
     console.log(`  실패 파일 (처음 20개):`);
     fail.slice(0, 20).forEach(f => console.log(`    - ${f.relPath} [${f.storageKey}]: ${f.error}`));
   }
   if (ok === allFiles.length) {
-    console.log("\n  ✅ 모든 파일 업로드 성공!");
+    console.log("\n  ✅ 모든 파일 업로드 완료 (또는 이미 완료됨)!");
     console.log("  다음 단계: node scripts/generate_manifest.cjs 실행 후 git push");
   }
   console.log("═══════════════════════════════════════════\n");

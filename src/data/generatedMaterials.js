@@ -18457,16 +18457,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라_159",
-    "code": "159",
-    "name": "159",
+    "id": "이건-강마루_세라_세라_N 오크",
+    "code": "N 오크",
+    "name": "N 오크",
     "brand": "이건",
     "category": "마루",
     "line": "세라",
     "price": 0,
-    "thumbnail": "2a1c2bde0435501c000cc634fe9e9242.jpg",
+    "thumbnail": "2ecb413abc020a9a030b4201f16d5d82.jpg",
     "images": [
-      "2a1c2bde0435501c000cc634fe9e9242.jpg"
+      "2ecb413abc020a9a030b4201f16d5d82.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -18477,16 +18477,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라_160",
-    "code": "160",
-    "name": "160",
+    "id": "이건-강마루_세라_세라_골드 티크",
+    "code": "골드 티크",
+    "name": "골드 티크",
     "brand": "이건",
     "category": "마루",
     "line": "세라",
     "price": 0,
-    "thumbnail": "2eb5328d4c980273c575d4c77d61c068.jpg",
+    "thumbnail": "f0c672e9b235998ae77ff163146a4a2d.jpg",
     "images": [
-      "2eb5328d4c980273c575d4c77d61c068.jpg"
+      "f0c672e9b235998ae77ff163146a4a2d.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -18497,16 +18497,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라_161",
-    "code": "161",
-    "name": "161",
+    "id": "이건-강마루_세라_세라_노르딕 화이트",
+    "code": "노르딕 화이트",
+    "name": "노르딕 화이트",
     "brand": "이건",
     "category": "마루",
     "line": "세라",
     "price": 0,
-    "thumbnail": "6070c88e6b091c487b0ad5e9006dddb0.jpg",
+    "thumbnail": "784cdf61e77778e2465b989f39b003f8.jpg",
     "images": [
-      "6070c88e6b091c487b0ad5e9006dddb0.jpg"
+      "784cdf61e77778e2465b989f39b003f8.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -18517,16 +18517,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라_162",
-    "code": "162",
-    "name": "162",
+    "id": "이건-강마루_세라_세라_리사 화이트",
+    "code": "리사 화이트",
+    "name": "리사 화이트",
     "brand": "이건",
     "category": "마루",
     "line": "세라",
     "price": 0,
-    "thumbnail": "1e91c659f8b6ca9176b2e9ae04f84576.jpg",
+    "thumbnail": "0b418ffc842d820553a9c57ec63cd923.jpg",
     "images": [
-      "1e91c659f8b6ca9176b2e9ae04f84576.jpg"
+      "0b418ffc842d820553a9c57ec63cd923.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -18537,16 +18537,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라_163",
-    "code": "163",
-    "name": "163",
+    "id": "이건-강마루_세라_세라_마일드 오크",
+    "code": "마일드 오크",
+    "name": "마일드 오크",
     "brand": "이건",
     "category": "마루",
     "line": "세라",
     "price": 0,
-    "thumbnail": "fbd2d472f75ad651b1466d37af95a2f9.jpg",
+    "thumbnail": "bb3f79c92ce8d8d95c20204fb9cd173b.jpg",
     "images": [
-      "fbd2d472f75ad651b1466d37af95a2f9.jpg"
+      "bb3f79c92ce8d8d95c20204fb9cd173b.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -18557,16 +18557,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라_164",
-    "code": "164",
-    "name": "164",
+    "id": "이건-강마루_세라_세라_브리티쉬 월넛",
+    "code": "브리티쉬 월넛",
+    "name": "브리티쉬 월넛",
     "brand": "이건",
     "category": "마루",
     "line": "세라",
     "price": 0,
-    "thumbnail": "51e2ca5eb4d51a11f4d058ac256af0dc.jpg",
+    "thumbnail": "906676b4662219fb05f5119c76a1f91c.jpg",
     "images": [
-      "51e2ca5eb4d51a11f4d058ac256af0dc.jpg"
+      "906676b4662219fb05f5119c76a1f91c.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -18577,16 +18577,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라_165",
-    "code": "165",
-    "name": "165",
+    "id": "이건-강마루_세라_세라_블랑 화이트",
+    "code": "블랑 화이트",
+    "name": "블랑 화이트",
     "brand": "이건",
     "category": "마루",
     "line": "세라",
     "price": 0,
-    "thumbnail": "33fff7c7d7cbc6d1a554457df4a8706d.jpg",
+    "thumbnail": "73de0f57326255d440a25c609638569d.jpg",
     "images": [
-      "33fff7c7d7cbc6d1a554457df4a8706d.jpg"
+      "73de0f57326255d440a25c609638569d.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -18597,16 +18597,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라_31",
-    "code": "31",
-    "name": "31",
+    "id": "이건-강마루_세라_세라_빈티지 오크",
+    "code": "빈티지 오크",
+    "name": "빈티지 오크",
     "brand": "이건",
     "category": "마루",
     "line": "세라",
     "price": 0,
-    "thumbnail": "67e0e29255c1ad1c83ca9032fb5aa647.jpg",
+    "thumbnail": "32fec728e7e46f89dece72426b8ff7fa.jpg",
     "images": [
-      "67e0e29255c1ad1c83ca9032fb5aa647.jpg"
+      "32fec728e7e46f89dece72426b8ff7fa.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -18617,16 +18617,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라_32",
-    "code": "32",
-    "name": "32",
+    "id": "이건-강마루_세라_세라_스노우 워시",
+    "code": "스노우 워시",
+    "name": "스노우 워시",
     "brand": "이건",
     "category": "마루",
     "line": "세라",
     "price": 0,
-    "thumbnail": "d9333982d75eff1b78ae1f76ee3ce7eb.png",
+    "thumbnail": "9d71010b688ee63d39e783ca6f5e7a22.jpg",
     "images": [
-      "d9333982d75eff1b78ae1f76ee3ce7eb.png"
+      "9d71010b688ee63d39e783ca6f5e7a22.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -18637,16 +18637,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라_33",
-    "code": "33",
-    "name": "33",
+    "id": "이건-강마루_세라_세라_스타일리쉬 화이트",
+    "code": "스타일리쉬 화이트",
+    "name": "스타일리쉬 화이트",
     "brand": "이건",
     "category": "마루",
     "line": "세라",
     "price": 0,
-    "thumbnail": "9a3b67a94232ee6b39686823c9b0840a.jpg",
+    "thumbnail": "bafad50e4cd23b042c016f7de863a57b.jpg",
     "images": [
-      "9a3b67a94232ee6b39686823c9b0840a.jpg"
+      "bafad50e4cd23b042c016f7de863a57b.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -18657,16 +18657,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라_34",
-    "code": "34",
-    "name": "34",
+    "id": "이건-강마루_세라_세라_시크 블랙",
+    "code": "시크 블랙",
+    "name": "시크 블랙",
     "brand": "이건",
     "category": "마루",
     "line": "세라",
     "price": 0,
-    "thumbnail": "5f0f547d976bb34d3d0a84f2f4eb7449.png",
+    "thumbnail": "c4881587f0b578bf75ed1bd32ff371c4.jpg",
     "images": [
-      "5f0f547d976bb34d3d0a84f2f4eb7449.png"
+      "c4881587f0b578bf75ed1bd32ff371c4.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -18677,16 +18677,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라_73",
-    "code": "73",
-    "name": "73",
+    "id": "이건-강마루_세라_세라_애쉬 그레이",
+    "code": "애쉬 그레이",
+    "name": "애쉬 그레이",
     "brand": "이건",
     "category": "마루",
     "line": "세라",
     "price": 0,
-    "thumbnail": "314e5724dfd506acb3652a934dbfdd72.jpg",
+    "thumbnail": "b020d86ad9b179e8d9b3d2cadac89a4b.jpg",
     "images": [
-      "314e5724dfd506acb3652a934dbfdd72.jpg"
+      "b020d86ad9b179e8d9b3d2cadac89a4b.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -18697,16 +18697,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라_74",
-    "code": "74",
-    "name": "74",
+    "id": "이건-강마루_세라_세라_오가닉 오크",
+    "code": "오가닉 오크",
+    "name": "오가닉 오크",
     "brand": "이건",
     "category": "마루",
     "line": "세라",
     "price": 0,
-    "thumbnail": "908b8f28670aa99fe2ba4f70c13016dc.png",
+    "thumbnail": "ca8242eb187bdcd84864f26bba9044bd.jpg",
     "images": [
-      "908b8f28670aa99fe2ba4f70c13016dc.png"
+      "ca8242eb187bdcd84864f26bba9044bd.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -18717,16 +18717,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라_75",
-    "code": "75",
-    "name": "75",
+    "id": "이건-강마루_세라_세라_오슬로 베이지",
+    "code": "오슬로 베이지",
+    "name": "오슬로 베이지",
     "brand": "이건",
     "category": "마루",
     "line": "세라",
     "price": 0,
-    "thumbnail": "4ef5cfc232de2e8691f39f77e9a3cd0a.jpg",
+    "thumbnail": "d7dd9fe648438abec1c7085952e21ee7.jpg",
     "images": [
-      "4ef5cfc232de2e8691f39f77e9a3cd0a.jpg"
+      "d7dd9fe648438abec1c7085952e21ee7.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -18737,16 +18737,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라_76",
-    "code": "76",
-    "name": "76",
+    "id": "이건-강마루_세라_세라_월넛",
+    "code": "월넛",
+    "name": "월넛",
     "brand": "이건",
     "category": "마루",
     "line": "세라",
     "price": 0,
-    "thumbnail": "472dd0f0572d6f57c8978457c0831ace.jpg",
+    "thumbnail": "97a6622368ad50efd190764cd63ebf6f.jpg",
     "images": [
-      "472dd0f0572d6f57c8978457c0831ace.jpg"
+      "97a6622368ad50efd190764cd63ebf6f.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -18757,16 +18757,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라_77",
-    "code": "77",
-    "name": "77",
+    "id": "이건-강마루_세라_세라_유러피안 오크",
+    "code": "유러피안 오크",
+    "name": "유러피안 오크",
     "brand": "이건",
     "category": "마루",
     "line": "세라",
     "price": 0,
-    "thumbnail": "79d0615dd8243c56c36e784ff9d6f9ed.jpg",
+    "thumbnail": "dfc459095c022ccdccc79a4947fb23c0.jpg",
     "images": [
-      "79d0615dd8243c56c36e784ff9d6f9ed.jpg"
+      "dfc459095c022ccdccc79a4947fb23c0.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -18777,16 +18777,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라_78",
-    "code": "78",
-    "name": "78",
+    "id": "이건-강마루_세라_세라_코지 그레이",
+    "code": "코지 그레이",
+    "name": "코지 그레이",
     "brand": "이건",
     "category": "마루",
     "line": "세라",
     "price": 0,
-    "thumbnail": "97224bf87dead51bfa8e12b308b32f73.jpg",
+    "thumbnail": "ea35c314fe80872cf2ef66de2975e51f.jpg",
     "images": [
-      "97224bf87dead51bfa8e12b308b32f73.jpg"
+      "ea35c314fe80872cf2ef66de2975e51f.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -18797,16 +18797,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라_79",
-    "code": "79",
-    "name": "79",
+    "id": "이건-강마루_세라_세라_코튼 화이트",
+    "code": "코튼 화이트",
+    "name": "코튼 화이트",
     "brand": "이건",
     "category": "마루",
     "line": "세라",
     "price": 0,
-    "thumbnail": "9531927d1e2a6fb62e441088bd861cab.jpg",
+    "thumbnail": "789682efefbd184d0135030e9a4fb247.jpg",
     "images": [
-      "9531927d1e2a6fb62e441088bd861cab.jpg"
+      "789682efefbd184d0135030e9a4fb247.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -18817,16 +18817,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라_80",
-    "code": "80",
-    "name": "80",
+    "id": "이건-강마루_세라_세라_크리미 오크",
+    "code": "크리미 오크",
+    "name": "크리미 오크",
     "brand": "이건",
     "category": "마루",
     "line": "세라",
     "price": 0,
-    "thumbnail": "442cbaf973c55bc350f92a872f32f1a2.png",
+    "thumbnail": "dfcbf694f2221bfcdd80b56c91b9c3e0.jpg",
     "images": [
-      "442cbaf973c55bc350f92a872f32f1a2.png"
+      "dfcbf694f2221bfcdd80b56c91b9c3e0.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -18837,16 +18837,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라_81",
-    "code": "81",
-    "name": "81",
+    "id": "이건-강마루_세라_세라_클래식 티크",
+    "code": "클래식 티크",
+    "name": "클래식 티크",
     "brand": "이건",
     "category": "마루",
     "line": "세라",
     "price": 0,
-    "thumbnail": "9b727c84d688ec8d5aafa8aa77dfe2e2.jpg",
+    "thumbnail": "0bb9010a19e241ce6a93b337be9f1874.jpg",
     "images": [
-      "9b727c84d688ec8d5aafa8aa77dfe2e2.jpg"
+      "0bb9010a19e241ce6a93b337be9f1874.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -18857,16 +18857,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라_82",
-    "code": "82",
-    "name": "82",
+    "id": "이건-강마루_세라_세라_티크",
+    "code": "티크",
+    "name": "티크",
     "brand": "이건",
     "category": "마루",
     "line": "세라",
     "price": 0,
-    "thumbnail": "8a67dfc47586f343f607f86fbbe3907b.jpg",
+    "thumbnail": "dd7b507d901eb775165150b3586a135d.jpg",
     "images": [
-      "8a67dfc47586f343f607f86fbbe3907b.jpg"
+      "dd7b507d901eb775165150b3586a135d.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -18877,16 +18877,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라_83",
-    "code": "83",
-    "name": "83",
+    "id": "이건-강마루_세라_세라_플로랄 화이트",
+    "code": "플로랄 화이트",
+    "name": "플로랄 화이트",
     "brand": "이건",
     "category": "마루",
     "line": "세라",
     "price": 0,
-    "thumbnail": "8e123792195182857cbd60071176d5b3.jpg",
+    "thumbnail": "bbbdabc7d512b830e94be404f5b4a322.jpg",
     "images": [
-      "8e123792195182857cbd60071176d5b3.jpg"
+      "bbbdabc7d512b830e94be404f5b4a322.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -18897,16 +18897,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라_84",
-    "code": "84",
-    "name": "84",
+    "id": "이건-강마루_세라_세라_화이트 애쉬",
+    "code": "화이트 애쉬",
+    "name": "화이트 애쉬",
     "brand": "이건",
     "category": "마루",
     "line": "세라",
     "price": 0,
-    "thumbnail": "9463136dd72ea1a466f4c32a0c968b7e.jpg",
+    "thumbnail": "061d99ca0a0654a35c3c07bfdae43b77.jpg",
     "images": [
-      "9463136dd72ea1a466f4c32a0c968b7e.jpg"
+      "061d99ca0a0654a35c3c07bfdae43b77.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -18917,16 +18917,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라_85",
-    "code": "85",
-    "name": "85",
+    "id": "이건-강마루_세라_세라_화이트 오크",
+    "code": "화이트 오크",
+    "name": "화이트 오크",
     "brand": "이건",
     "category": "마루",
     "line": "세라",
     "price": 0,
-    "thumbnail": "ed34eee1306317111b47736406352d92.jpg",
+    "thumbnail": "a3264b2256da74e60eb7dec31beb6a58.jpg",
     "images": [
-      "ed34eee1306317111b47736406352d92.jpg"
+      "a3264b2256da74e60eb7dec31beb6a58.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -18937,96 +18937,159 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라_86",
-    "code": "86",
-    "name": "86",
+    "id": "이건-강마루_세라_세라 플렉스S_세라 플렉스 143_노블리 화이트",
+    "code": "노블리 화이트",
+    "name": "노블리 화이트",
     "brand": "이건",
     "category": "마루",
-    "line": "세라",
+    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
     "price": 0,
-    "thumbnail": "1dd177d9ea89e90297f7869ccba1843a.jpg",
+    "thumbnail": "7eac5880123b8011d0cab7fecbdcd4ad.jpg",
     "images": [
-      "1dd177d9ea89e90297f7869ccba1843a.jpg"
-    ],
-    "thickness": "7.5T",
-    "specs": {
-      "division": "",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    }
+      "7eac5880123b8011d0cab7fecbdcd4ad.jpg"
+    ]
   },
   {
-    "id": "이건-강마루_세라_세라 플렉스S_96",
-    "code": "96",
-    "name": "96",
+    "id": "이건-강마루_세라_세라 플렉스S_세라 플렉스 143_데일리 오크",
+    "code": "데일리 오크",
+    "name": "데일리 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "세라 플렉스S",
+    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
     "price": 0,
-    "thumbnail": "71d210b6da96144863afef9dfd57160f.jpg",
+    "thumbnail": "8691ab19497b4c2e60b57fcf0067e0e7.jpg",
     "images": [
-      "71d210b6da96144863afef9dfd57160f.jpg"
-    ],
-    "thickness": "7.5T",
-    "specs": {
-      "division": "",
-      "thickness": "7.5T",
-      "size": "143x1200mm / 165x1200mm / 395x800mm",
-      "packing": "박스단위"
-    }
+      "8691ab19497b4c2e60b57fcf0067e0e7.jpg"
+    ]
   },
   {
-    "id": "이건-강마루_세라_세라 플렉스S_97",
-    "code": "97",
-    "name": "97",
+    "id": "이건-강마루_세라_세라 플렉스S_세라 플렉스 143_러블리 베이지",
+    "code": "러블리 베이지",
+    "name": "러블리 베이지",
     "brand": "이건",
     "category": "마루",
-    "line": "세라 플렉스S",
+    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
     "price": 0,
-    "thumbnail": "83c61b07f090651f5b26562669915af4.png",
+    "thumbnail": "08210e8623cead00bc0c77e25303acd7.jpg",
     "images": [
-      "83c61b07f090651f5b26562669915af4.png"
-    ],
-    "thickness": "7.5T",
-    "specs": {
-      "division": "",
-      "thickness": "7.5T",
-      "size": "143x1200mm / 165x1200mm / 395x800mm",
-      "packing": "박스단위"
-    }
+      "08210e8623cead00bc0c77e25303acd7.jpg"
+    ]
   },
   {
-    "id": "이건-강마루_세라_세라 플렉스S_98",
-    "code": "98",
-    "name": "98",
+    "id": "이건-강마루_세라_세라 플렉스S_세라 플렉스 143_리얼리 오크",
+    "code": "리얼리 오크",
+    "name": "리얼리 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "세라 플렉스S",
+    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
     "price": 0,
-    "thumbnail": "7d315680a1b4606e11c1e9ecd48958cb.png",
+    "thumbnail": "ea3dc0794eb33db7eb38c7d8afb21a8e.jpg",
     "images": [
-      "7d315680a1b4606e11c1e9ecd48958cb.png"
-    ],
-    "thickness": "7.5T",
-    "specs": {
-      "division": "",
-      "thickness": "7.5T",
-      "size": "143x1200mm / 165x1200mm / 395x800mm",
-      "packing": "박스단위"
-    }
+      "ea3dc0794eb33db7eb38c7d8afb21a8e.jpg"
+    ]
   },
   {
-    "id": "이건-강마루_세라_세라베이직_87",
-    "code": "87",
-    "name": "87",
+    "id": "이건-강마루_세라_세라 플렉스S_세라 플렉스 143_밀리 그레이",
+    "code": "밀리 그레이",
+    "name": "밀리 그레이",
+    "brand": "이건",
+    "category": "마루",
+    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
+    "price": 0,
+    "thumbnail": "af5345db7a6d7552ea9b4a4c2a69be89.jpg",
+    "images": [
+      "af5345db7a6d7552ea9b4a4c2a69be89.jpg"
+    ]
+  },
+  {
+    "id": "이건-강마루_세라_세라 플렉스S_세라 플렉스 143_심플리 화이트",
+    "code": "심플리 화이트",
+    "name": "심플리 화이트",
+    "brand": "이건",
+    "category": "마루",
+    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
+    "price": 0,
+    "thumbnail": "3d22cf52c1b090ac8e6ba09e775eafc5.jpg",
+    "images": [
+      "3d22cf52c1b090ac8e6ba09e775eafc5.jpg"
+    ]
+  },
+  {
+    "id": "이건-강마루_세라_세라 플렉스S_세라 플렉스 143_온리 블랙",
+    "code": "온리 블랙",
+    "name": "온리 블랙",
+    "brand": "이건",
+    "category": "마루",
+    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
+    "price": 0,
+    "thumbnail": "b16a28a60fe35fdc927b0cdc4a0e33ac.jpg",
+    "images": [
+      "b16a28a60fe35fdc927b0cdc4a0e33ac.jpg"
+    ]
+  },
+  {
+    "id": "이건-강마루_세라_세라 플렉스S_세라 플렉스 143_위클리 브라운",
+    "code": "위클리 브라운",
+    "name": "위클리 브라운",
+    "brand": "이건",
+    "category": "마루",
+    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
+    "price": 0,
+    "thumbnail": "f02875a0eafdc60f4d46844f87735e97.jpg",
+    "images": [
+      "f02875a0eafdc60f4d46844f87735e97.jpg"
+    ]
+  },
+  {
+    "id": "이건-강마루_세라_세라 플렉스S_세라 플렉스 143_젠틀리 티크",
+    "code": "젠틀리 티크",
+    "name": "젠틀리 티크",
+    "brand": "이건",
+    "category": "마루",
+    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
+    "price": 0,
+    "thumbnail": "4be05541e88610126a515cb941672ffc.jpg",
+    "images": [
+      "4be05541e88610126a515cb941672ffc.jpg"
+    ]
+  },
+  {
+    "id": "이건-강마루_세라_세라 플렉스S_세라 플렉스 143_카믈리 아이보리",
+    "code": "카믈리 아이보리",
+    "name": "카믈리 아이보리",
+    "brand": "이건",
+    "category": "마루",
+    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
+    "price": 0,
+    "thumbnail": "12dbc4150a5f981c2a55b27f7b3212de.jpg",
+    "images": [
+      "12dbc4150a5f981c2a55b27f7b3212de.jpg"
+    ]
+  },
+  {
+    "id": "이건-강마루_세라_세라 플렉스S_세라 플렉스 143_퓨얼리 오크",
+    "code": "퓨얼리 오크",
+    "name": "퓨얼리 오크",
+    "brand": "이건",
+    "category": "마루",
+    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
+    "price": 0,
+    "thumbnail": "e537093235236de047620765a7bb85bd.jpg",
+    "images": [
+      "e537093235236de047620765a7bb85bd.jpg"
+    ]
+  },
+  {
+    "id": "이건-강마루_세라_세라베이직_베이직 밀크",
+    "code": "베이직 밀크",
+    "name": "베이직 밀크",
     "brand": "이건",
     "category": "마루",
     "line": "세라 베이직",
     "price": 0,
-    "thumbnail": "258c85484be69b4bc6854eaadfe4ba83.jpg",
+    "thumbnail": "d0685d4404233669d9ff58c37c676470.jpg",
     "images": [
-      "258c85484be69b4bc6854eaadfe4ba83.jpg"
+      "d0685d4404233669d9ff58c37c676470.jpg"
     ],
     "thickness": "6.2T",
     "specs": {
@@ -19037,16 +19100,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라베이직_88",
-    "code": "88",
-    "name": "88",
+    "id": "이건-강마루_세라_세라베이직_베이직 바닐라",
+    "code": "베이직 바닐라",
+    "name": "베이직 바닐라",
     "brand": "이건",
     "category": "마루",
     "line": "세라 베이직",
     "price": 0,
-    "thumbnail": "30b180e935bfaef994c804985475995f.png",
+    "thumbnail": "ccc47dcba3b9bbc3f1a937830642557e.jpg",
     "images": [
-      "30b180e935bfaef994c804985475995f.png"
+      "ccc47dcba3b9bbc3f1a937830642557e.jpg"
     ],
     "thickness": "6.2T",
     "specs": {
@@ -19057,16 +19120,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라베이직_89",
-    "code": "89",
-    "name": "89",
+    "id": "이건-강마루_세라_세라베이직_베이직 버터",
+    "code": "베이직 버터",
+    "name": "베이직 버터",
     "brand": "이건",
     "category": "마루",
     "line": "세라 베이직",
     "price": 0,
-    "thumbnail": "87e3015481eefbe1c0b236bc89a196b9.png",
+    "thumbnail": "98ec20625dfcaaf9a764c034b31925ad.jpg",
     "images": [
-      "87e3015481eefbe1c0b236bc89a196b9.png"
+      "98ec20625dfcaaf9a764c034b31925ad.jpg"
     ],
     "thickness": "6.2T",
     "specs": {
@@ -19077,16 +19140,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라베이직_90",
-    "code": "90",
-    "name": "90",
+    "id": "이건-강마루_세라_세라베이직_베이직 슈가",
+    "code": "베이직 슈가",
+    "name": "베이직 슈가",
     "brand": "이건",
     "category": "마루",
     "line": "세라 베이직",
     "price": 0,
-    "thumbnail": "c5c689b5b309051a258bffc1561e798d.jpg",
+    "thumbnail": "84a7299b2f74204112dc9c1d84c4218e.jpg",
     "images": [
-      "c5c689b5b309051a258bffc1561e798d.jpg"
+      "84a7299b2f74204112dc9c1d84c4218e.jpg"
     ],
     "thickness": "6.2T",
     "specs": {
@@ -19097,16 +19160,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라베이직_91",
-    "code": "91",
-    "name": "91",
+    "id": "이건-강마루_세라_세라베이직_베이직 오크",
+    "code": "베이직 오크",
+    "name": "베이직 오크",
     "brand": "이건",
     "category": "마루",
     "line": "세라 베이직",
     "price": 0,
-    "thumbnail": "5462dd1592b754d1009f4c4de315ee47.jpg",
+    "thumbnail": "247756c0a4d49c7470e302e98f16ec6e.jpg",
     "images": [
-      "5462dd1592b754d1009f4c4de315ee47.jpg"
+      "247756c0a4d49c7470e302e98f16ec6e.jpg"
     ],
     "thickness": "6.2T",
     "specs": {
@@ -19117,16 +19180,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라베이직_92",
-    "code": "92",
-    "name": "92",
+    "id": "이건-강마루_세라_세라베이직_베이직 쿠키",
+    "code": "베이직 쿠키",
+    "name": "베이직 쿠키",
     "brand": "이건",
     "category": "마루",
     "line": "세라 베이직",
     "price": 0,
-    "thumbnail": "f9773910d1e4e8349b5aaff467ba5fff.jpg",
+    "thumbnail": "b863040857bb420f62b272f30b5e18cd.jpg",
     "images": [
-      "f9773910d1e4e8349b5aaff467ba5fff.jpg"
+      "b863040857bb420f62b272f30b5e18cd.jpg"
     ],
     "thickness": "6.2T",
     "specs": {
@@ -19137,16 +19200,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라베이직_93",
-    "code": "93",
-    "name": "93",
+    "id": "이건-강마루_세라_세라베이직_베이직 크림",
+    "code": "베이직 크림",
+    "name": "베이직 크림",
     "brand": "이건",
     "category": "마루",
     "line": "세라 베이직",
     "price": 0,
-    "thumbnail": "46d76cdb6470bd83e6880a4ee9e23162.jpg",
+    "thumbnail": "dfe4fea1d4949950d85d437d5a05655e.jpg",
     "images": [
-      "46d76cdb6470bd83e6880a4ee9e23162.jpg"
+      "dfe4fea1d4949950d85d437d5a05655e.jpg"
     ],
     "thickness": "6.2T",
     "specs": {
@@ -19157,16 +19220,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라베이직_94",
-    "code": "94",
-    "name": "94",
+    "id": "이건-강마루_세라_세라베이직_베이직 티크",
+    "code": "베이직 티크",
+    "name": "베이직 티크",
     "brand": "이건",
     "category": "마루",
     "line": "세라 베이직",
     "price": 0,
-    "thumbnail": "c17b3f2256115bbe640b8bae58aabefb.jpg",
+    "thumbnail": "d936b6b56cb186a54cf0b8200d13ff9c.jpg",
     "images": [
-      "c17b3f2256115bbe640b8bae58aabefb.jpg"
+      "d936b6b56cb186a54cf0b8200d13ff9c.jpg"
     ],
     "thickness": "6.2T",
     "specs": {
@@ -19177,36 +19240,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라베이직_95",
-    "code": "95",
-    "name": "95",
-    "brand": "이건",
-    "category": "마루",
-    "line": "세라 베이직",
-    "price": 0,
-    "thumbnail": "7b973675a57976ef8d1505ccbd41f1eb.jpg",
-    "images": [
-      "7b973675a57976ef8d1505ccbd41f1eb.jpg"
-    ],
-    "thickness": "6.2T",
-    "specs": {
-      "division": "",
-      "thickness": "6.2T",
-      "size": "115x800mm",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-강마루_세라_세라블랜딩_64",
-    "code": "64",
-    "name": "64",
+    "id": "이건-강마루_세라_세라블랜딩_그라노 오크",
+    "code": "그라노 오크",
+    "name": "그라노 오크",
     "brand": "이건",
     "category": "마루",
     "line": "세라 블렌딩",
     "price": 0,
-    "thumbnail": "b745c4850103e0ef2a4eb8f0e8b41237.jpg",
+    "thumbnail": "cc47610b85314e0197e04a597de4ea24.jpg",
     "images": [
-      "b745c4850103e0ef2a4eb8f0e8b41237.jpg"
+      "cc47610b85314e0197e04a597de4ea24.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -19217,16 +19260,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라블랜딩_65",
-    "code": "65",
-    "name": "65",
+    "id": "이건-강마루_세라_세라블랜딩_내추럴 오크",
+    "code": "내추럴 오크",
+    "name": "내추럴 오크",
     "brand": "이건",
     "category": "마루",
     "line": "세라 블렌딩",
     "price": 0,
-    "thumbnail": "e827c84b499ecd6e62594e386506ecc3.jpg",
+    "thumbnail": "a28d8be78850c3e6923881e4ea8482d2.jpg",
     "images": [
-      "e827c84b499ecd6e62594e386506ecc3.jpg"
+      "a28d8be78850c3e6923881e4ea8482d2.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -19237,16 +19280,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라블랜딩_66",
-    "code": "66",
-    "name": "66",
+    "id": "이건-강마루_세라_세라블랜딩_로맨틱 오크",
+    "code": "로맨틱 오크",
+    "name": "로맨틱 오크",
     "brand": "이건",
     "category": "마루",
     "line": "세라 블렌딩",
     "price": 0,
-    "thumbnail": "cd78dd39940e3ac259b6c7ce1d8a4aa5.png",
+    "thumbnail": "9365424e137fabd6b30b8fcf331d5739.jpg",
     "images": [
-      "cd78dd39940e3ac259b6c7ce1d8a4aa5.png"
+      "9365424e137fabd6b30b8fcf331d5739.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -19257,16 +19300,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라블랜딩_67",
-    "code": "67",
-    "name": "67",
+    "id": "이건-강마루_세라_세라블랜딩_브리티쉬 티크",
+    "code": "브리티쉬 티크",
+    "name": "브리티쉬 티크",
     "brand": "이건",
     "category": "마루",
     "line": "세라 블렌딩",
     "price": 0,
-    "thumbnail": "2a39274ca67ed64c14e287fb9ef07798.jpg",
+    "thumbnail": "aa26aa7ca225b67e423dec543cf25ff0.jpg",
     "images": [
-      "2a39274ca67ed64c14e287fb9ef07798.jpg"
+      "aa26aa7ca225b67e423dec543cf25ff0.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -19277,16 +19320,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라블랜딩_68",
-    "code": "68",
-    "name": "68",
+    "id": "이건-강마루_세라_세라블랜딩_비앙코",
+    "code": "비앙코",
+    "name": "비앙코",
     "brand": "이건",
     "category": "마루",
     "line": "세라 블렌딩",
     "price": 0,
-    "thumbnail": "c311c6f74f3d9992a4427eade607ade2.jpg",
+    "thumbnail": "8c26131107121be08b05dd2cf1cb2f73.jpg",
     "images": [
-      "c311c6f74f3d9992a4427eade607ade2.jpg"
+      "8c26131107121be08b05dd2cf1cb2f73.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -19297,16 +19340,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라블랜딩_69",
-    "code": "69",
-    "name": "69",
+    "id": "이건-강마루_세라_세라블랜딩_스톤 그레이",
+    "code": "스톤 그레이",
+    "name": "스톤 그레이",
     "brand": "이건",
     "category": "마루",
     "line": "세라 블렌딩",
     "price": 0,
-    "thumbnail": "b946d96edfa7100f04091f43fb056ffa.jpg",
+    "thumbnail": "b22465fae2653f9c6d6546b5ad56d533.jpg",
     "images": [
-      "b946d96edfa7100f04091f43fb056ffa.jpg"
+      "b22465fae2653f9c6d6546b5ad56d533.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -19317,16 +19360,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라블랜딩_70",
-    "code": "70",
-    "name": "70",
+    "id": "이건-강마루_세라_세라블랜딩_오프 화이트",
+    "code": "오프 화이트",
+    "name": "오프 화이트",
     "brand": "이건",
     "category": "마루",
     "line": "세라 블렌딩",
     "price": 0,
-    "thumbnail": "69904294fcfa4e2de6edf927ef310b4d.jpg",
+    "thumbnail": "a7fac8069631469394b0895e4e8507af.jpg",
     "images": [
-      "69904294fcfa4e2de6edf927ef310b4d.jpg"
+      "a7fac8069631469394b0895e4e8507af.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -19337,62 +19380,22 @@ export const materials = [
     }
   },
   {
-    "id": "이건-강마루_세라_세라블랜딩_71",
-    "code": "71",
-    "name": "71",
+    "id": "이건-강마루_세라_세라블랜딩_크래프트 오크",
+    "code": "크래프트 오크",
+    "name": "크래프트 오크",
     "brand": "이건",
     "category": "마루",
     "line": "세라 블렌딩",
     "price": 0,
-    "thumbnail": "ab2f3246f35d3f40d4208e0f119e4431.jpg",
+    "thumbnail": "53b433bc11471a48d4d4084cbd4b0c47.jpg",
     "images": [
-      "ab2f3246f35d3f40d4208e0f119e4431.jpg"
+      "53b433bc11471a48d4d4084cbd4b0c47.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
       "division": "",
       "thickness": "7.5T",
       "size": "115x800mm",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-강마루_세라_세라블랜딩_72",
-    "code": "72",
-    "name": "72",
-    "brand": "이건",
-    "category": "마루",
-    "line": "세라 블렌딩",
-    "price": 0,
-    "thumbnail": "b55f03670941a03e582df6e41301f558.jpg",
-    "images": [
-      "b55f03670941a03e582df6e41301f558.jpg"
-    ],
-    "thickness": "7.5T",
-    "specs": {
-      "division": "",
-      "thickness": "7.5T",
-      "size": "115x800mm",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-원목마루_라르고 솔레 150 T4_112",
-    "code": "112",
-    "name": "112",
-    "brand": "이건",
-    "category": "마루",
-    "line": "라르고 솔레 150 T4",
-    "price": 0,
-    "thumbnail": "6814810aeb7b4992a6512f16aefb9b2b.jpg",
-    "images": [
-      "6814810aeb7b4992a6512f16aefb9b2b.jpg"
-    ],
-    "thickness": "11.5T(1.2)",
-    "specs": {
-      "division": "",
-      "thickness": "11.5T(1.2)",
-      "size": "150x1200mm",
       "packing": "박스단위"
     }
   },
@@ -19477,16 +19480,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-원목마루_라르고 솔레 150 T4_오크 예스",
-    "code": "오크 예스",
-    "name": "오크 예스",
+    "id": "이건-원목마루_라르고 솔레 150 T4_오크 에스",
+    "code": "오크 에스",
+    "name": "오크 에스",
     "brand": "이건",
     "category": "마루",
     "line": "라르고 솔레 150 T4",
     "price": 0,
-    "thumbnail": "eadc8b2dda1dee811928bb542d93de3d.jpg",
+    "thumbnail": "77d801b7b2bcf1c057b46d5d2880a546.jpg",
     "images": [
-      "eadc8b2dda1dee811928bb542d93de3d.jpg"
+      "77d801b7b2bcf1c057b46d5d2880a546.jpg"
     ],
     "thickness": "11.5T(1.2)",
     "specs": {
@@ -19497,16 +19500,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-원목마루_라르고 솔레 150 T4_티크 예스",
-    "code": "티크 예스",
-    "name": "티크 예스",
+    "id": "이건-원목마루_라르고 솔레 150 T4_티크 에스",
+    "code": "티크 에스",
+    "name": "티크 에스",
     "brand": "이건",
     "category": "마루",
     "line": "라르고 솔레 150 T4",
     "price": 0,
-    "thumbnail": "0171d85792c40fdad899f0ec072a93df.jpg",
+    "thumbnail": "1e05d3e77cebf9c3201fcd08a28a5f68.jpg",
     "images": [
-      "0171d85792c40fdad899f0ec072a93df.jpg"
+      "1e05d3e77cebf9c3201fcd08a28a5f68.jpg"
     ],
     "thickness": "11.5T(1.2)",
     "specs": {
@@ -19557,16 +19560,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-원목마루_라르고 솔레 190 T1_오크 예스",
-    "code": "오크 예스",
-    "name": "오크 예스",
+    "id": "이건-원목마루_라르고 솔레 190 T1_오크 에스",
+    "code": "오크 에스",
+    "name": "오크 에스",
     "brand": "이건",
     "category": "마루",
     "line": "라르고 솔레 190 T1",
     "price": 0,
-    "thumbnail": "805cdaf3d3be278d61599d815830e022.jpg",
+    "thumbnail": "5aa9fca01b42a083ecf344f7f4a1ff92.jpg",
     "images": [
-      "805cdaf3d3be278d61599d815830e022.jpg"
+      "5aa9fca01b42a083ecf344f7f4a1ff92.jpg"
     ],
     "thickness": "11.5T(1.2)",
     "specs": {
@@ -19617,16 +19620,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-원목마루_라르고 솔레 190 T1_티크 예스",
-    "code": "티크 예스",
-    "name": "티크 예스",
+    "id": "이건-원목마루_라르고 솔레 190 T1_티크 에스",
+    "code": "티크 에스",
+    "name": "티크 에스",
     "brand": "이건",
     "category": "마루",
     "line": "라르고 솔레 190 T1",
     "price": 0,
-    "thumbnail": "ce636d8b3bc4e11ec127fd83c5ffc081.jpg",
+    "thumbnail": "443e60a9129a8138604edb810e4c57cc.jpg",
     "images": [
-      "ce636d8b3bc4e11ec127fd83c5ffc081.jpg"
+      "443e60a9129a8138604edb810e4c57cc.jpg"
     ],
     "thickness": "11.5T(1.2)",
     "specs": {
@@ -19717,16 +19720,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-원목마루_라르고 솔레 190 T3_오크 예스B",
-    "code": "오크 예스B",
-    "name": "오크 예스B",
+    "id": "이건-원목마루_라르고 솔레 190 T3_오크 에스",
+    "code": "오크 에스",
+    "name": "오크 에스",
     "brand": "이건",
     "category": "마루",
     "line": "라르고 솔레 190 T3",
     "price": 0,
-    "thumbnail": "463dfda6eac1297e7c1fe25aa06cc1f3.jpg",
+    "thumbnail": "1a958e615e19b33517135be6d73456fd.jpg",
     "images": [
-      "463dfda6eac1297e7c1fe25aa06cc1f3.jpg"
+      "1a958e615e19b33517135be6d73456fd.jpg"
     ],
     "thickness": "14T(3)",
     "specs": {
@@ -19737,36 +19740,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-원목마루_라르고 솔레 190 T3_오크 예스HB",
-    "code": "오크 예스HB",
-    "name": "오크 예스HB",
+    "id": "이건-원목마루_라르고 솔레 190 T3_티크 에스",
+    "code": "티크 에스",
+    "name": "티크 에스",
     "brand": "이건",
     "category": "마루",
     "line": "라르고 솔레 190 T3",
     "price": 0,
-    "thumbnail": "02d70a469921019aeeac9dbb2fc823ff.jpg",
+    "thumbnail": "0dc69035ef0c8ee7963c3b648eeebe8b.jpg",
     "images": [
-      "02d70a469921019aeeac9dbb2fc823ff.jpg"
-    ],
-    "thickness": "14T(3)",
-    "specs": {
-      "division": "",
-      "thickness": "14T(3)",
-      "size": "190x1900mm",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-원목마루_라르고 솔레 190 T3_티크 예스",
-    "code": "티크 예스",
-    "name": "티크 예스",
-    "brand": "이건",
-    "category": "마루",
-    "line": "라르고 솔레 190 T3",
-    "price": 0,
-    "thumbnail": "3a4d4cbf6f044a84896de2e173091a7b.jpg",
-    "images": [
-      "3a4d4cbf6f044a84896de2e173091a7b.jpg"
+      "0dc69035ef0c8ee7963c3b648eeebe8b.jpg"
     ],
     "thickness": "14T(3)",
     "specs": {
@@ -19937,16 +19920,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-천연마루_제나 내추럴_체리 에이",
-    "code": "체리 에이",
-    "name": "체리 에이",
+    "id": "이건-천연마루_제나 내추럴_체리 A",
+    "code": "체리 A",
+    "name": "체리 A",
     "brand": "이건",
     "category": "마루",
     "line": "제나 내추럴",
     "price": 0,
-    "thumbnail": "6b8d4d6a2d162367f46228677be0905c.jpg",
+    "thumbnail": "7858d633ffe6d6da45a85bb06cd006f9.jpg",
     "images": [
-      "6b8d4d6a2d162367f46228677be0905c.jpg"
+      "7858d633ffe6d6da45a85bb06cd006f9.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -19957,16 +19940,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-천연마루_제나 내추럴_체리 엠",
-    "code": "체리 엠",
-    "name": "체리 엠",
+    "id": "이건-천연마루_제나 내추럴_체리 M",
+    "code": "체리 M",
+    "name": "체리 M",
     "brand": "이건",
     "category": "마루",
     "line": "제나 내추럴",
     "price": 0,
-    "thumbnail": "d9e0ec399f0b7acfade817f58a9d635b.jpg",
+    "thumbnail": "d53bf59d88bbd9f350001258bcb6e5f3.jpg",
     "images": [
-      "d9e0ec399f0b7acfade817f58a9d635b.jpg"
+      "d53bf59d88bbd9f350001258bcb6e5f3.jpg"
     ],
     "thickness": "7.5T",
     "specs": {
@@ -20124,9 +20107,9 @@ export const materials = [
     "category": "마루",
     "line": "포레스타",
     "price": 0,
-    "thumbnail": "247360936e99f243288f4807810771ce.png",
+    "thumbnail": "5d61ede574a6183a82767e1c621ecf23.jpg",
     "images": [
-      "247360936e99f243288f4807810771ce.png"
+      "5d61ede574a6183a82767e1c621ecf23.jpg"
     ],
     "thickness": "10.5T",
     "specs": {
@@ -20297,564 +20280,381 @@ export const materials = [
     }
   },
   {
-    "id": "이건-프리미엄 강마루_그린_135",
-    "code": "135",
-    "name": "135",
-    "brand": "이건",
-    "category": "마루",
-    "line": "그린",
-    "price": 0,
-    "thumbnail": "7641065136dc7d9c8c34eedb179b0f41.png",
-    "images": [
-      "7641065136dc7d9c8c34eedb179b0f41.png"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "규격별 상이",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-프리미엄 강마루_그린_147",
-    "code": "147",
-    "name": "147",
-    "brand": "이건",
-    "category": "마루",
-    "line": "그린",
-    "price": 0,
-    "thumbnail": "d203f08d965758b05d672dc981b81bb4.png",
-    "images": [
-      "d203f08d965758b05d672dc981b81bb4.png"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "규격별 상이",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-프리미엄 강마루_그린_148",
-    "code": "148",
-    "name": "148",
-    "brand": "이건",
-    "category": "마루",
-    "line": "그린",
-    "price": 0,
-    "thumbnail": "2d5b1539fb92fa81f5f8ccde6519085a.png",
-    "images": [
-      "2d5b1539fb92fa81f5f8ccde6519085a.png"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "규격별 상이",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-프리미엄 강마루_그린_151",
-    "code": "151",
-    "name": "151",
-    "brand": "이건",
-    "category": "마루",
-    "line": "그린",
-    "price": 0,
-    "thumbnail": "734038f6ac2ac73d6d824636222cc256.png",
-    "images": [
-      "734038f6ac2ac73d6d824636222cc256.png"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "규격별 상이",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-프리미엄 강마루_그린_152",
-    "code": "152",
-    "name": "152",
-    "brand": "이건",
-    "category": "마루",
-    "line": "그린",
-    "price": 0,
-    "thumbnail": "1c73d5f553eff8a8b83d58ef60458132.jpg",
-    "images": [
-      "1c73d5f553eff8a8b83d58ef60458132.jpg"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "규격별 상이",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-프리미엄 강마루_그린_153",
-    "code": "153",
-    "name": "153",
-    "brand": "이건",
-    "category": "마루",
-    "line": "그린",
-    "price": 0,
-    "thumbnail": "2460251992cc0d098e8c1e6921f74192.jpg",
-    "images": [
-      "2460251992cc0d098e8c1e6921f74192.jpg"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "규격별 상이",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-프리미엄 강마루_그린_154",
-    "code": "154",
-    "name": "154",
-    "brand": "이건",
-    "category": "마루",
-    "line": "그린",
-    "price": 0,
-    "thumbnail": "7d7bb1eae38c50245810a9cedecbd1b2.png",
-    "images": [
-      "7d7bb1eae38c50245810a9cedecbd1b2.png"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "규격별 상이",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-프리미엄 강마루_그린_155",
-    "code": "155",
-    "name": "155",
-    "brand": "이건",
-    "category": "마루",
-    "line": "그린",
-    "price": 0,
-    "thumbnail": "dccbdfff9cd80bfbead715ae1ae44682.png",
-    "images": [
-      "dccbdfff9cd80bfbead715ae1ae44682.png"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "규격별 상이",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-프리미엄 강마루_그린_156",
-    "code": "156",
-    "name": "156",
-    "brand": "이건",
-    "category": "마루",
-    "line": "그린",
-    "price": 0,
-    "thumbnail": "59969065191f88c1ecc60fb5963d1f4f.jpg",
-    "images": [
-      "59969065191f88c1ecc60fb5963d1f4f.jpg"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "규격별 상이",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-프리미엄 강마루_그린_157",
-    "code": "157",
-    "name": "157",
-    "brand": "이건",
-    "category": "마루",
-    "line": "그린",
-    "price": 0,
-    "thumbnail": "c0a95bfcefa1473a067a2e23cbe9111e.png",
-    "images": [
-      "c0a95bfcefa1473a067a2e23cbe9111e.png"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "규격별 상이",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-프리미엄 강마루_그린_158",
-    "code": "158",
-    "name": "158",
-    "brand": "이건",
-    "category": "마루",
-    "line": "그린",
-    "price": 0,
-    "thumbnail": "b15eb04e65b7f867e99531dc8d10b14d.png",
-    "images": [
-      "b15eb04e65b7f867e99531dc8d10b14d.png"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "규격별 상이",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-프리미엄 강마루_그린_18",
-    "code": "18",
-    "name": "18",
-    "brand": "이건",
-    "category": "마루",
-    "line": "그린",
-    "price": 0,
-    "thumbnail": "45bb479d5d61bfb9150fe2d071ab431b.png",
-    "images": [
-      "45bb479d5d61bfb9150fe2d071ab431b.png"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "규격별 상이",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-프리미엄 강마루_그린_19",
-    "code": "19",
-    "name": "19",
-    "brand": "이건",
-    "category": "마루",
-    "line": "그린",
-    "price": 0,
-    "thumbnail": "55f17da1372dca8fafa1af4baaf1c8da.jpg",
-    "images": [
-      "55f17da1372dca8fafa1af4baaf1c8da.jpg"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "규격별 상이",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-프리미엄 강마루_그린_20",
-    "code": "20",
-    "name": "20",
-    "brand": "이건",
-    "category": "마루",
-    "line": "그린",
-    "price": 0,
-    "thumbnail": "6a6a597ab1ef0daf0092e967af178c21.jpg",
-    "images": [
-      "6a6a597ab1ef0daf0092e967af178c21.jpg"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "규격별 상이",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-프리미엄 강마루_그린_21",
-    "code": "21",
-    "name": "21",
-    "brand": "이건",
-    "category": "마루",
-    "line": "그린",
-    "price": 0,
-    "thumbnail": "3ffe555964c70285a77ac9a18a52f5f0.jpg",
-    "images": [
-      "3ffe555964c70285a77ac9a18a52f5f0.jpg"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "규격별 상이",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-프리미엄 강마루_그린_23",
-    "code": "23",
-    "name": "23",
-    "brand": "이건",
-    "category": "마루",
-    "line": "그린",
-    "price": 0,
-    "thumbnail": "14deee84cd482d4e167c825c0005fc98.png",
-    "images": [
-      "14deee84cd482d4e167c825c0005fc98.png"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "규격별 상이",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-프리미엄 강마루_그린_25",
-    "code": "25",
-    "name": "25",
-    "brand": "이건",
-    "category": "마루",
-    "line": "그린",
-    "price": 0,
-    "thumbnail": "3e7550dc1af3bf0e2f0e3b932ae662eb.jpg",
-    "images": [
-      "3e7550dc1af3bf0e2f0e3b932ae662eb.jpg"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "규격별 상이",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-프리미엄 강마루_그린_27",
-    "code": "27",
-    "name": "27",
-    "brand": "이건",
-    "category": "마루",
-    "line": "그린",
-    "price": 0,
-    "thumbnail": "e6f8bcbf866c1d0df42ca2fb5bb08bdd.jpg",
-    "images": [
-      "e6f8bcbf866c1d0df42ca2fb5bb08bdd.jpg"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "규격별 상이",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-프리미엄 강마루_그린_그린 190_마일드 화이트",
-    "code": "마일드 화이트",
-    "name": "마일드 화이트",
-    "brand": "이건",
-    "category": "마루",
-    "line": "그린 190",
-    "price": 0,
-    "thumbnail": "15c3a1127da7cf58f6e1709376f7a3c8.jpg",
-    "images": [
-      "15c3a1127da7cf58f6e1709376f7a3c8.jpg"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "190x1615mm",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-프리미엄 강마루_그린_그린 230_내추럴 다크 쏘우",
-    "code": "내추럴 다크 쏘우",
-    "name": "내추럴 다크 쏘우",
-    "brand": "이건",
-    "category": "마루",
-    "line": "그린 230",
-    "price": 0,
-    "thumbnail": "b24f9100959c9421ea5f65e14ece4e1f.jpg",
-    "images": [
-      "b24f9100959c9421ea5f65e14ece4e1f.jpg"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "230x2430mm",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-프리미엄 강마루_그린_그린 230_내추럴 샌드",
+    "id": "이건-프리미엄 강마루_그린_그린 125_내추럴_내추럴 샌드",
     "code": "내추럴 샌드",
     "name": "내추럴 샌드",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 230",
+    "line": "프리미엄 강마루_그린_그린 125_내추럴",
     "price": 0,
-    "thumbnail": "199ed81977bb37e04e79b895869a304f.jpg",
+    "thumbnail": "0b92218e1161c33abd847493290f2cd9.jpg",
     "images": [
-      "199ed81977bb37e04e79b895869a304f.jpg"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "230x2430mm",
-      "packing": "박스단위"
-    }
+      "0b92218e1161c33abd847493290f2cd9.jpg"
+    ]
   },
   {
-    "id": "이건-프리미엄 강마루_그린_그린 230_내추럴 오크",
+    "id": "이건-프리미엄 강마루_그린_그린 125_내추럴_내추럴 오크",
     "code": "내추럴 오크",
     "name": "내추럴 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 230",
+    "line": "프리미엄 강마루_그린_그린 125_내추럴",
     "price": 0,
-    "thumbnail": "25ca570bc3590866133bd1422fa11fca.jpg",
+    "thumbnail": "d7eb5f90d877522023799828d740e0e5.jpg",
     "images": [
-      "25ca570bc3590866133bd1422fa11fca.jpg"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "230x2430mm",
-      "packing": "박스단위"
-    }
+      "d7eb5f90d877522023799828d740e0e5.jpg"
+    ]
   },
   {
-    "id": "이건-프리미엄 강마루_그린_그린 230_러스틱 그래이",
-    "code": "러스틱 그래이",
-    "name": "러스틱 그래이",
+    "id": "이건-프리미엄 강마루_그린_그린 125_마일드_마일드 골드",
+    "code": "마일드 골드",
+    "name": "마일드 골드",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 230",
+    "line": "프리미엄 강마루_그린_그린 125_마일드",
     "price": 0,
-    "thumbnail": "7c16af0c131fa44fa74e847aacfc3ae6.jpg",
+    "thumbnail": "c0db5e1e38998c12ff3540dbcc7275fb.jpg",
     "images": [
-      "7c16af0c131fa44fa74e847aacfc3ae6.jpg"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "230x2430mm",
-      "packing": "박스단위"
-    }
+      "c0db5e1e38998c12ff3540dbcc7275fb.jpg"
+    ]
   },
   {
-    "id": "이건-프리미엄 강마루_그린_그린 230_러스틱 미스트",
-    "code": "러스틱 미스트",
-    "name": "러스틱 미스트",
+    "id": "이건-프리미엄 강마루_그린_그린 125_마일드_마일드 크림",
+    "code": "마일드 크림",
+    "name": "마일드 크림",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 230",
+    "line": "프리미엄 강마루_그린_그린 125_마일드",
     "price": 0,
-    "thumbnail": "cc3ade3b7f42ffae115ad716f6a904bd.jpg",
+    "thumbnail": "b207ff28b9213ee15781fc0d837badbf.jpg",
     "images": [
-      "cc3ade3b7f42ffae115ad716f6a904bd.jpg"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "230x2430mm",
-      "packing": "박스단위"
-    }
+      "b207ff28b9213ee15781fc0d837badbf.jpg"
+    ]
   },
   {
-    "id": "이건-프리미엄 강마루_그린_그린 230_러스틱 브라운",
+    "id": "이건-프리미엄 강마루_그린_그린 165_내추럴_내추럴 다크 쏘우",
+    "code": "내추럴 다크 쏘우",
+    "name": "내추럴 다크 쏘우",
+    "brand": "이건",
+    "category": "마루",
+    "line": "프리미엄 강마루_그린_그린 165_내추럴",
+    "price": 0,
+    "thumbnail": "8ea26b08a8f81f06ac015e7f29276ca9.jpg",
+    "images": [
+      "8ea26b08a8f81f06ac015e7f29276ca9.jpg"
+    ]
+  },
+  {
+    "id": "이건-프리미엄 강마루_그린_그린 165_내추럴_내추럴 샌드",
+    "code": "내추럴 샌드",
+    "name": "내추럴 샌드",
+    "brand": "이건",
+    "category": "마루",
+    "line": "프리미엄 강마루_그린_그린 165_내추럴",
+    "price": 0,
+    "thumbnail": "4c75f8aebfa7c4045dd768f7ed2a0c48.jpg",
+    "images": [
+      "4c75f8aebfa7c4045dd768f7ed2a0c48.jpg"
+    ]
+  },
+  {
+    "id": "이건-프리미엄 강마루_그린_그린 165_내추럴_내추럴 오크",
+    "code": "내추럴 오크",
+    "name": "내추럴 오크",
+    "brand": "이건",
+    "category": "마루",
+    "line": "프리미엄 강마루_그린_그린 165_내추럴",
+    "price": 0,
+    "thumbnail": "e3fcec223294c1ea9701185ba1ad4103.jpg",
+    "images": [
+      "e3fcec223294c1ea9701185ba1ad4103.jpg"
+    ]
+  },
+  {
+    "id": "이건-프리미엄 강마루_그린_그린 165_러스틱_러스틱 브라운",
     "code": "러스틱 브라운",
     "name": "러스틱 브라운",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 230",
+    "line": "프리미엄 강마루_그린_그린 165_러스틱",
     "price": 0,
-    "thumbnail": "adb43724703edc6e9c9903036ea7c2d7.jpg",
+    "thumbnail": "cf2f969fd9718fefb0cefc6c928219c9.jpg",
     "images": [
-      "adb43724703edc6e9c9903036ea7c2d7.jpg"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "230x2430mm",
-      "packing": "박스단위"
-    }
+      "cf2f969fd9718fefb0cefc6c928219c9.jpg"
+    ]
   },
   {
-    "id": "이건-프리미엄 강마루_그린_그린 230_러스틱 오크",
-    "code": "러스틱 오크",
-    "name": "러스틱 오크",
+    "id": "이건-프리미엄 강마루_그린_그린 165_마일드_마일드 베이지",
+    "code": "마일드 베이지",
+    "name": "마일드 베이지",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 230",
+    "line": "프리미엄 강마루_그린_그린 165_마일드",
     "price": 0,
-    "thumbnail": "86384d4dd4bb8bc55627eb2a929ff659.jpg",
+    "thumbnail": "46642b7107a0dd6ea07ed7f0ab0870c7.jpg",
     "images": [
-      "86384d4dd4bb8bc55627eb2a929ff659.jpg"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "230x2430mm",
-      "packing": "박스단위"
-    }
+      "46642b7107a0dd6ea07ed7f0ab0870c7.jpg"
+    ]
   },
   {
-    "id": "이건-프리미엄 강마루_그린_그린 230_마일드 오크",
+    "id": "이건-프리미엄 강마루_그린_그린 165_마일드_마일드 오크",
     "code": "마일드 오크",
     "name": "마일드 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 230",
+    "line": "프리미엄 강마루_그린_그린 165_마일드",
     "price": 0,
-    "thumbnail": "2fde7b6bf6cd5973a8949ba8625b2625.png",
+    "thumbnail": "cf9a6cc495ba1bab361dbcc806138156.jpg",
     "images": [
-      "2fde7b6bf6cd5973a8949ba8625b2625.png"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "230x2430mm",
-      "packing": "박스단위"
-    }
+      "cf9a6cc495ba1bab361dbcc806138156.jpg"
+    ]
   },
   {
-    "id": "이건-프리미엄 강마루_그린_그린 230_마일드 티크",
+    "id": "이건-프리미엄 강마루_그린_그린 165_마일드_마일드 크림",
+    "code": "마일드 크림",
+    "name": "마일드 크림",
+    "brand": "이건",
+    "category": "마루",
+    "line": "프리미엄 강마루_그린_그린 165_마일드",
+    "price": 0,
+    "thumbnail": "23a1a69ae845160fa9aa1941478b6f5a.jpg",
+    "images": [
+      "23a1a69ae845160fa9aa1941478b6f5a.jpg"
+    ]
+  },
+  {
+    "id": "이건-프리미엄 강마루_그린_그린 165_마일드_마일드 티크",
     "code": "마일드 티크",
     "name": "마일드 티크",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 230",
+    "line": "프리미엄 강마루_그린_그린 165_마일드",
     "price": 0,
-    "thumbnail": "ff8b9e625e119d47b20bdc80d8048348.jpg",
+    "thumbnail": "49b3eb015a5c671c9e9217981ff74aab.jpg",
     "images": [
-      "ff8b9e625e119d47b20bdc80d8048348.jpg"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "230x2430mm",
-      "packing": "박스단위"
-    }
+      "49b3eb015a5c671c9e9217981ff74aab.jpg"
+    ]
+  },
+  {
+    "id": "이건-프리미엄 강마루_그린_그린 190_내추럴_내추럴 샌드",
+    "code": "내추럴 샌드",
+    "name": "내추럴 샌드",
+    "brand": "이건",
+    "category": "마루",
+    "line": "프리미엄 강마루_그린_그린 190_내추럴",
+    "price": 0,
+    "thumbnail": "4ab1ca66eb6b4ea73d79e8d7a9a5d1b8.jpg",
+    "images": [
+      "4ab1ca66eb6b4ea73d79e8d7a9a5d1b8.jpg"
+    ]
+  },
+  {
+    "id": "이건-프리미엄 강마루_그린_그린 190_내추럴_내추럴 오크",
+    "code": "내추럴 오크",
+    "name": "내추럴 오크",
+    "brand": "이건",
+    "category": "마루",
+    "line": "프리미엄 강마루_그린_그린 190_내추럴",
+    "price": 0,
+    "thumbnail": "e97db21488046ca9857b5fe2779772ed.jpg",
+    "images": [
+      "e97db21488046ca9857b5fe2779772ed.jpg"
+    ]
+  },
+  {
+    "id": "이건-프리미엄 강마루_그린_그린 190_마일드_190 마일드 베이지",
+    "code": "190 마일드 베이지",
+    "name": "190 마일드 베이지",
+    "brand": "이건",
+    "category": "마루",
+    "line": "프리미엄 강마루_그린_그린 190_마일드",
+    "price": 0,
+    "thumbnail": "6d47c43c4c9cc2789bfe04d0f4fa0369.jpg",
+    "images": [
+      "6d47c43c4c9cc2789bfe04d0f4fa0369.jpg"
+    ]
+  },
+  {
+    "id": "이건-프리미엄 강마루_그린_그린 190_마일드_마일드 골드 ",
+    "code": "마일드 골드 ",
+    "name": "마일드 골드 ",
+    "brand": "이건",
+    "category": "마루",
+    "line": "프리미엄 강마루_그린_그린 190_마일드",
+    "price": 0,
+    "thumbnail": "4b846344eef7ec765cfab2b774627b99.jpg",
+    "images": [
+      "4b846344eef7ec765cfab2b774627b99.jpg"
+    ]
+  },
+  {
+    "id": "이건-프리미엄 강마루_그린_그린 190_마일드_마일드 오크",
+    "code": "마일드 오크",
+    "name": "마일드 오크",
+    "brand": "이건",
+    "category": "마루",
+    "line": "프리미엄 강마루_그린_그린 190_마일드",
+    "price": 0,
+    "thumbnail": "7a22140ac2233faf2aed1eac2b09acb8.jpg",
+    "images": [
+      "7a22140ac2233faf2aed1eac2b09acb8.jpg"
+    ]
+  },
+  {
+    "id": "이건-프리미엄 강마루_그린_그린 190_마일드_마일드 크림",
+    "code": "마일드 크림",
+    "name": "마일드 크림",
+    "brand": "이건",
+    "category": "마루",
+    "line": "프리미엄 강마루_그린_그린 190_마일드",
+    "price": 0,
+    "thumbnail": "00be25bb0b4a82ee47678313c28844fb.jpg",
+    "images": [
+      "00be25bb0b4a82ee47678313c28844fb.jpg"
+    ]
+  },
+  {
+    "id": "이건-프리미엄 강마루_그린_그린 190_마일드_마일드 화이트",
+    "code": "마일드 화이트",
+    "name": "마일드 화이트",
+    "brand": "이건",
+    "category": "마루",
+    "line": "프리미엄 강마루_그린_그린 190_마일드",
+    "price": 0,
+    "thumbnail": "870e0581eadf6dfaa6dd2b4b23dca3fe.jpg",
+    "images": [
+      "870e0581eadf6dfaa6dd2b4b23dca3fe.jpg"
+    ]
+  },
+  {
+    "id": "이건-프리미엄 강마루_그린_그린 230_내추럴_내추럴 다크 쏘우",
+    "code": "내추럴 다크 쏘우",
+    "name": "내추럴 다크 쏘우",
+    "brand": "이건",
+    "category": "마루",
+    "line": "프리미엄 강마루_그린_그린 230_내추럴",
+    "price": 0,
+    "thumbnail": "30d124b221fcdbca6453c318f7d9e06f.jpg",
+    "images": [
+      "30d124b221fcdbca6453c318f7d9e06f.jpg"
+    ]
+  },
+  {
+    "id": "이건-프리미엄 강마루_그린_그린 230_내추럴_내추럴 샌드 ",
+    "code": "내추럴 샌드 ",
+    "name": "내추럴 샌드 ",
+    "brand": "이건",
+    "category": "마루",
+    "line": "프리미엄 강마루_그린_그린 230_내추럴",
+    "price": 0,
+    "thumbnail": "7d34cf7e5c555f55f5264f431e0307db.jpg",
+    "images": [
+      "7d34cf7e5c555f55f5264f431e0307db.jpg"
+    ]
+  },
+  {
+    "id": "이건-프리미엄 강마루_그린_그린 230_내추럴_내추럴 오크",
+    "code": "내추럴 오크",
+    "name": "내추럴 오크",
+    "brand": "이건",
+    "category": "마루",
+    "line": "프리미엄 강마루_그린_그린 230_내추럴",
+    "price": 0,
+    "thumbnail": "c95fe85c07317640da8ae091f6fa6db1.jpg",
+    "images": [
+      "c95fe85c07317640da8ae091f6fa6db1.jpg"
+    ]
+  },
+  {
+    "id": "이건-프리미엄 강마루_그린_그린 230_러스틱_러스틱 그레이",
+    "code": "러스틱 그레이",
+    "name": "러스틱 그레이",
+    "brand": "이건",
+    "category": "마루",
+    "line": "프리미엄 강마루_그린_그린 230_러스틱",
+    "price": 0,
+    "thumbnail": "81443e685b63aeb3ae91a2e93f226cab.jpg",
+    "images": [
+      "81443e685b63aeb3ae91a2e93f226cab.jpg"
+    ]
+  },
+  {
+    "id": "이건-프리미엄 강마루_그린_그린 230_러스틱_러스틱 미스트",
+    "code": "러스틱 미스트",
+    "name": "러스틱 미스트",
+    "brand": "이건",
+    "category": "마루",
+    "line": "프리미엄 강마루_그린_그린 230_러스틱",
+    "price": 0,
+    "thumbnail": "975c189fb102b74cb4af038cf4bc1488.jpg",
+    "images": [
+      "975c189fb102b74cb4af038cf4bc1488.jpg"
+    ]
+  },
+  {
+    "id": "이건-프리미엄 강마루_그린_그린 230_러스틱_러스틱 브라운",
+    "code": "러스틱 브라운",
+    "name": "러스틱 브라운",
+    "brand": "이건",
+    "category": "마루",
+    "line": "프리미엄 강마루_그린_그린 230_러스틱",
+    "price": 0,
+    "thumbnail": "517572ab12dd03e3fa312720851294db.jpg",
+    "images": [
+      "517572ab12dd03e3fa312720851294db.jpg"
+    ]
+  },
+  {
+    "id": "이건-프리미엄 강마루_그린_그린 230_러스틱_러스틱 오크",
+    "code": "러스틱 오크",
+    "name": "러스틱 오크",
+    "brand": "이건",
+    "category": "마루",
+    "line": "프리미엄 강마루_그린_그린 230_러스틱",
+    "price": 0,
+    "thumbnail": "6b321301f86c1a258538d0581830c25e.jpg",
+    "images": [
+      "6b321301f86c1a258538d0581830c25e.jpg"
+    ]
+  },
+  {
+    "id": "이건-프리미엄 강마루_그린_그린 230_마일드_마일드 오크",
+    "code": "마일드 오크",
+    "name": "마일드 오크",
+    "brand": "이건",
+    "category": "마루",
+    "line": "프리미엄 강마루_그린_그린 230_마일드",
+    "price": 0,
+    "thumbnail": "deabf646a963ba138314f9e4e4c6861c.jpg",
+    "images": [
+      "deabf646a963ba138314f9e4e4c6861c.jpg"
+    ]
+  },
+  {
+    "id": "이건-프리미엄 강마루_그린_그린 230_마일드_마일드 크림 ",
+    "code": "마일드 크림 ",
+    "name": "마일드 크림 ",
+    "brand": "이건",
+    "category": "마루",
+    "line": "프리미엄 강마루_그린_그린 230_마일드",
+    "price": 0,
+    "thumbnail": "b465c4a4e77a0ab62b072767916b0629.jpg",
+    "images": [
+      "b465c4a4e77a0ab62b072767916b0629.jpg"
+    ]
+  },
+  {
+    "id": "이건-프리미엄 강마루_그린_그린 230_마일드_마일드 티크 ",
+    "code": "마일드 티크 ",
+    "name": "마일드 티크 ",
+    "brand": "이건",
+    "category": "마루",
+    "line": "프리미엄 강마루_그린_그린 230_마일드",
+    "price": 0,
+    "thumbnail": "00db41f80148060affed5687394a43f7.jpg",
+    "images": [
+      "00db41f80148060affed5687394a43f7.jpg"
+    ]
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 스퀘어 395_그램퍼스 블랙",
@@ -20864,9 +20664,49 @@ export const materials = [
     "category": "마루",
     "line": "그린 스퀘어 395",
     "price": 0,
-    "thumbnail": "71a7b7a844da0626ac2a8761b7d53fde.png",
+    "thumbnail": "f862407f6376b420f481517436d20abe.jpg",
     "images": [
-      "71a7b7a844da0626ac2a8761b7d53fde.png"
+      "f862407f6376b420f481517436d20abe.jpg"
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "",
+      "thickness": "10.5T",
+      "size": "395x800mm",
+      "packing": "박스단위"
+    }
+  },
+  {
+    "id": "이건-프리미엄 강마루_그린_그린 스퀘어 395_데저트 크림",
+    "code": "데저트 크림",
+    "name": "데저트 크림",
+    "brand": "이건",
+    "category": "마루",
+    "line": "그린 스퀘어 395",
+    "price": 0,
+    "thumbnail": "cf7a2649dffdfbf0c4cfbde727b4da1e.jpg",
+    "images": [
+      "cf7a2649dffdfbf0c4cfbde727b4da1e.jpg"
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "",
+      "thickness": "10.5T",
+      "size": "395x800mm",
+      "packing": "박스단위"
+    }
+  },
+  {
+    "id": "이건-프리미엄 강마루_그린_그린 스퀘어 395_라니 화이트",
+    "code": "라니 화이트",
+    "name": "라니 화이트",
+    "brand": "이건",
+    "category": "마루",
+    "line": "그린 스퀘어 395",
+    "price": 0,
+    "thumbnail": "cb4cbb0da892c097e9fe3fd05c805682.png",
+    "images": [
+      "cb4cbb0da892c097e9fe3fd05c805682.png"
     ],
     "thickness": "10.5T",
     "specs": {
@@ -20924,9 +20764,9 @@ export const materials = [
     "category": "마루",
     "line": "그린 스퀘어 395",
     "price": 0,
-    "thumbnail": "39e9a5c776dd785fea9b56306ff7b49e.png",
+    "thumbnail": "7734f65e43c691f4cb142203ed1fa59e.jpg",
     "images": [
-      "39e9a5c776dd785fea9b56306ff7b49e.png"
+      "7734f65e43c691f4cb142203ed1fa59e.jpg"
     ],
     "thickness": "10.5T",
     "specs": {
@@ -20944,9 +20784,9 @@ export const materials = [
     "category": "마루",
     "line": "그린 스퀘어 395",
     "price": 0,
-    "thumbnail": "19a71d7c7d79dcc1a855f657e32ab8ca.png",
+    "thumbnail": "0a21f3008b95d3ea7b29c07341392685.jpg",
     "images": [
-      "19a71d7c7d79dcc1a855f657e32ab8ca.png"
+      "0a21f3008b95d3ea7b29c07341392685.jpg"
     ],
     "thickness": "10.5T",
     "specs": {
@@ -20964,9 +20804,9 @@ export const materials = [
     "category": "마루",
     "line": "그린 스퀘어 395",
     "price": 0,
-    "thumbnail": "aa3f0624be571d23c12f9605b339cdf8.png",
+    "thumbnail": "cb5b557640812c91318e2f8306745f09.jpg",
     "images": [
-      "aa3f0624be571d23c12f9605b339cdf8.png"
+      "cb5b557640812c91318e2f8306745f09.jpg"
     ],
     "thickness": "10.5T",
     "specs": {
@@ -20984,9 +20824,9 @@ export const materials = [
     "category": "마루",
     "line": "그린 스퀘어 395",
     "price": 0,
-    "thumbnail": "5a576ba32824b0bc496525617e732f29.png",
+    "thumbnail": "6f5b5cd4f4bd3957348b8e50b66e8f4c.jpg",
     "images": [
-      "5a576ba32824b0bc496525617e732f29.png"
+      "6f5b5cd4f4bd3957348b8e50b66e8f4c.jpg"
     ],
     "thickness": "10.5T",
     "specs": {
@@ -21017,16 +20857,16 @@ export const materials = [
     }
   },
   {
-    "id": "이건-프리미엄 강마루_그린_그린 스퀘어 395_프리즈 실버",
-    "code": "프리즈 실버",
-    "name": "프리즈 실버",
+    "id": "이건-프리미엄 강마루_그린_그린 스퀘어 395_스텔라 라이트",
+    "code": "스텔라 라이트",
+    "name": "스텔라 라이트",
     "brand": "이건",
     "category": "마루",
     "line": "그린 스퀘어 395",
     "price": 0,
-    "thumbnail": "5d92b95c0458af7b0f9841799f715624.png",
+    "thumbnail": "168cd2fd321438a89b6690dac30ca39f.jpg",
     "images": [
-      "5d92b95c0458af7b0f9841799f715624.png"
+      "168cd2fd321438a89b6690dac30ca39f.jpg"
     ],
     "thickness": "10.5T",
     "specs": {
@@ -21037,164 +20877,161 @@ export const materials = [
     }
   },
   {
-    "id": "이건-프리미엄 강마루_그린_그린 스퀘어 597_그레인 오크",
-    "code": "그레인 오크",
-    "name": "그레인 오크",
+    "id": "이건-프리미엄 강마루_그린_그린 스퀘어 395_스파클 쉐도우",
+    "code": "스파클 쉐도우",
+    "name": "스파클 쉐도우",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 스퀘어 597",
+    "line": "그린 스퀘어 395",
     "price": 0,
-    "thumbnail": "90802a23a5a156b2f88b10c6c1596c65.jpg",
+    "thumbnail": "5beb6a56d11f2767c55046e5d12f9bcd.jpg",
     "images": [
-      "90802a23a5a156b2f88b10c6c1596c65.jpg"
+      "5beb6a56d11f2767c55046e5d12f9bcd.jpg"
     ],
     "thickness": "10.5T",
     "specs": {
       "division": "",
       "thickness": "10.5T",
-      "size": "597x597mm",
+      "size": "395x800mm",
       "packing": "박스단위"
     }
   },
   {
-    "id": "이건-프리미엄 강마루_그린_그린 스퀘어 597_글램 스톤",
+    "id": "이건-프리미엄 강마루_그린_그린 스퀘어 395_프리즈 실버",
+    "code": "프리즈 실버",
+    "name": "프리즈 실버",
+    "brand": "이건",
+    "category": "마루",
+    "line": "그린 스퀘어 395",
+    "price": 0,
+    "thumbnail": "ce0b715375061ab8fd02a76e6f533419.jpg",
+    "images": [
+      "ce0b715375061ab8fd02a76e6f533419.jpg"
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "",
+      "thickness": "10.5T",
+      "size": "395x800mm",
+      "packing": "박스단위"
+    }
+  },
+  {
+    "id": "이건-프리미엄 강마루_그린_그린 스퀘어 597_스톤_글램 스톤",
     "code": "글램 스톤",
     "name": "글램 스톤",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 스퀘어 597",
+    "line": "프리미엄 강마루_그린_그린 스퀘어 597_스톤",
     "price": 0,
-    "thumbnail": "35091dd4aeee327437dd2040b7b06dbf.png",
+    "thumbnail": "9a81d5fbd41ea26b2a5dae05b7e36129.jpg",
     "images": [
-      "35091dd4aeee327437dd2040b7b06dbf.png"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "597x597mm",
-      "packing": "박스단위"
-    }
+      "9a81d5fbd41ea26b2a5dae05b7e36129.jpg"
+    ]
   },
   {
-    "id": "이건-프리미엄 강마루_그린_그린 스퀘어 597_데저트 크림",
+    "id": "이건-프리미엄 강마루_그린_그린 스퀘어 597_스톤_데저트 크림",
     "code": "데저트 크림",
     "name": "데저트 크림",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 스퀘어 597",
+    "line": "프리미엄 강마루_그린_그린 스퀘어 597_스톤",
     "price": 0,
-    "thumbnail": "ab237d6fac7bd725c41f565ae91f1d18.png",
+    "thumbnail": "106f8cadde8b86a1251a8d9d2075b5b1.jpg",
     "images": [
-      "ab237d6fac7bd725c41f565ae91f1d18.png"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "597x597mm",
-      "packing": "박스단위"
-    }
+      "106f8cadde8b86a1251a8d9d2075b5b1.jpg"
+    ]
   },
   {
-    "id": "이건-프리미엄 강마루_그린_그린 스퀘어 597_문라이트 스모크",
+    "id": "이건-프리미엄 강마루_그린_그린 스퀘어 597_스톤_문라이트 스모크",
     "code": "문라이트 스모크",
     "name": "문라이트 스모크",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 스퀘어 597",
+    "line": "프리미엄 강마루_그린_그린 스퀘어 597_스톤",
     "price": 0,
-    "thumbnail": "6d43ede38e75150c209c773482042f44.jpg",
+    "thumbnail": "d28c671c42c9c9329d0087d4a797361b.jpg",
     "images": [
-      "6d43ede38e75150c209c773482042f44.jpg"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "597x597mm",
-      "packing": "박스단위"
-    }
+      "d28c671c42c9c9329d0087d4a797361b.jpg"
+    ]
   },
   {
-    "id": "이건-프리미엄 강마루_그린_그린 스퀘어 597_웨이브 월넛",
-    "code": "웨이브 월넛",
-    "name": "웨이브 월넛",
+    "id": "이건-프리미엄 강마루_그린_그린 스퀘어 597_스톤_브리즈 그레이",
+    "code": "브리즈 그레이",
+    "name": "브리즈 그레이",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 스퀘어 597",
+    "line": "프리미엄 강마루_그린_그린 스퀘어 597_스톤",
     "price": 0,
-    "thumbnail": "e769d57beeb27aeafd1de048255bd3f5.jpg",
+    "thumbnail": "bbcd615325d50c33272462c65978107e.jpg",
     "images": [
-      "e769d57beeb27aeafd1de048255bd3f5.jpg"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "597x597mm",
-      "packing": "박스단위"
-    }
+      "bbcd615325d50c33272462c65978107e.jpg"
+    ]
   },
   {
-    "id": "이건-프리미엄 강마루_그린_그린 스퀘어 597_코랄 클라우드",
+    "id": "이건-프리미엄 강마루_그린_그린 스퀘어 597_스톤_코랄 클라우드",
     "code": "코랄 클라우드",
     "name": "코랄 클라우드",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 스퀘어 597",
+    "line": "프리미엄 강마루_그린_그린 스퀘어 597_스톤",
     "price": 0,
-    "thumbnail": "9f34ec967d18d577862347b0c630bd4e.jpg",
+    "thumbnail": "3bd32ed2ce358aa4ad0228508eee2381.jpg",
     "images": [
-      "9f34ec967d18d577862347b0c630bd4e.jpg"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "597x597mm",
-      "packing": "박스단위"
-    }
+      "3bd32ed2ce358aa4ad0228508eee2381.jpg"
+    ]
   },
   {
-    "id": "이건-프리미엄 강마루_그린_그린 스퀘어 597_핀도스 솔트",
+    "id": "이건-프리미엄 강마루_그린_그린 스퀘어 597_우드_그레인 오크",
+    "code": "그레인 오크",
+    "name": "그레인 오크",
+    "brand": "이건",
+    "category": "마루",
+    "line": "프리미엄 강마루_그린_그린 스퀘어 597_우드",
+    "price": 0,
+    "thumbnail": "767b275ddd1dcfc149f3cb3855670fbb.jpg",
+    "images": [
+      "767b275ddd1dcfc149f3cb3855670fbb.jpg"
+    ]
+  },
+  {
+    "id": "이건-프리미엄 강마루_그린_그린 스퀘어 597_우드_마운틴 포그",
+    "code": "마운틴 포그",
+    "name": "마운틴 포그",
+    "brand": "이건",
+    "category": "마루",
+    "line": "프리미엄 강마루_그린_그린 스퀘어 597_우드",
+    "price": 0,
+    "thumbnail": "b38814e56df7c48d1f232faed8ba9d98.png",
+    "images": [
+      "b38814e56df7c48d1f232faed8ba9d98.png"
+    ]
+  },
+  {
+    "id": "이건-프리미엄 강마루_그린_그린 스퀘어 597_우드_웨이브 월넛",
+    "code": "웨이브 월넛",
+    "name": "웨이브 월넛",
+    "brand": "이건",
+    "category": "마루",
+    "line": "프리미엄 강마루_그린_그린 스퀘어 597_우드",
+    "price": 0,
+    "thumbnail": "a6541408eab89743bfccef887eaab77e.jpg",
+    "images": [
+      "a6541408eab89743bfccef887eaab77e.jpg"
+    ]
+  },
+  {
+    "id": "이건-프리미엄 강마루_그린_그린 스퀘어 597_유니크_핀도스 솔트",
     "code": "핀도스 솔트",
     "name": "핀도스 솔트",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 스퀘어 597",
+    "line": "프리미엄 강마루_그린_그린 스퀘어 597_유니크",
     "price": 0,
-    "thumbnail": "0061b09bceef7dcb5714fae2abfe625f.png",
+    "thumbnail": "fb061298c8c0cfbe18bedad3adb847fe.jpg",
     "images": [
-      "0061b09bceef7dcb5714fae2abfe625f.png"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "597x597mm",
-      "packing": "박스단위"
-    }
-  },
-  {
-    "id": "이건-프리미엄 강마루_그린_마일드오크",
-    "code": "마일드오크",
-    "name": "마일드오크",
-    "brand": "이건",
-    "category": "마루",
-    "line": "그린",
-    "price": 0,
-    "thumbnail": "3e7f9a79f55823a1c68fcd90a6f0d41a.png",
-    "images": [
-      "3e7f9a79f55823a1c68fcd90a6f0d41a.png"
-    ],
-    "thickness": "10.5T",
-    "specs": {
-      "division": "",
-      "thickness": "10.5T",
-      "size": "규격별 상이",
-      "packing": "박스단위"
-    }
+      "fb061298c8c0cfbe18bedad3adb847fe.jpg"
+    ]
   },
   {
     "id": "LXW-디아망_LX_디아망_PR002-01",
