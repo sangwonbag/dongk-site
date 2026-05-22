@@ -511,7 +511,7 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                 const cleanLine = line.replace(/_$/, '');
                 if (cleanLine === '강마루' || cleanLine.endsWith('_강마루') || cleanLine.includes('_구정강')) {
                     thickness = '7.5T';
-                    if (fileName.includes('패턴마루') || cleanLine.includes('패턴마루')) {
+                    if (fileName.includes('패턴') || cleanLine.includes('패턴마루')) {
                         sizeLabel = '94x987mm';
                         packing = '박스단위 (패턴)';
                     } else {
