@@ -16,3 +16,17 @@ public/images/upload_target/
 .env.development
 .env.test
 .env.production
+
+# Scratch folders
+scratch/
+temp_gen.js
+node_error.txt
+debug_output.log
+lint_output.txt
+output.txt
+seoul_dump.txt
+temp_materials.txt
+temp_debug.json
+shinhan_files_recovery.json
+*.pyc
+__pycache__/

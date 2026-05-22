@@ -22,10 +22,109 @@
 .hero-fallback-static {
   width: 100%;
   height: 100%;
-  background-image: url('/images/hero_3d_bg.png');
+  background-image: url('/images/panorama_entrance.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  filter: blur(8px) brightness(0.4);
+  transform: scale(1.05); /* Avoid white edges from blur */
+}
+
+
+/* 3D Portal Hotspot styles rendered inside Canvas via Html portal */
+.portal-hotspot {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  outline: none;
+  padding: 0;
+  pointer-events: auto; /* Ensure clickable */
+  transform: scale(1);
+  transition: transform 0.2s ease;
+}
+
+.portal-hotspot:hover {
+  transform: scale(1.1);
+}
+
+.hotspot-circle {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  background-color: rgba(200, 150, 102, 0.85);
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  transition: all 0.3s ease;
+}
+
+.portal-hotspot:hover .hotspot-circle {
+  background-color: #c89666;
+  box-shadow: 0 0 20px rgba(200, 150, 102, 0.8);
+  border-color: #ffffff;
+}
+
+.hotspot-circle::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hotspot-pulse {
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  border: 2px solid rgba(200, 150, 102, 0.6);
+  border-radius: 50%;
+  animation: hotspotPulse 2s infinite ease-out;
+  pointer-events: none;
+}
+
+@keyframes hotspotPulse {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+.hotspot-label {
+  background-color: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 5px 12px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+.portal-hotspot:hover .hotspot-label {
+  background-color: #1e293b;
+  border-color: #c89666;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  color: #c89666;
+  transform: translateY(-2px);
 }
 
 /* Interactive Prompt (드래그 안내 UI) */
@@ -87,7 +186,11 @@
 }
 
 /* Responsive adjustments */
+@media (max-width: 1024px) {
+}
+
 @media (max-width: 768px) {
+  
   .interactive-prompt {
     bottom: 24px;
     right: 50%;

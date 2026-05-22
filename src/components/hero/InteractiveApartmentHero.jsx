@@ -4,6 +4,7 @@ import HeroOverlay from "./HeroOverlay";
 import "./InteractiveApartmentHero.css";
 
 export default function InteractiveApartmentHero() {
+  const [currentScene, setCurrentScene] = useState("entrance"); // Starts at 현관 (Entrance) as requested
   const [autoRotate, setAutoRotate] = useState(true);
   const [isHeroVisible, setIsHeroVisible] = useState(true);
   const heroRef = useRef(null);
@@ -53,6 +54,8 @@ export default function InteractiveApartmentHero() {
       <div className="hero-canvas-container">
         {isHeroVisible ? (
           <ApartmentScene 
+            currentScene={currentScene}
+            onSceneChange={setCurrentScene}
             autoRotate={autoRotate} 
             onUserInteraction={handleUserInteraction} 
           />
@@ -81,8 +84,9 @@ export default function InteractiveApartmentHero() {
           <path d="M15 18l-6-6 6-6" />
           <path d="M9 18l6-6-6-6" />
         </svg>
-        <span className="prompt-text">좌우로 드래그하여 공간 둘러보기</span>
+        <span className="prompt-text">드레그해서 360도 공간 돌아보기</span>
       </div>
     </section>
   );
 }
+
