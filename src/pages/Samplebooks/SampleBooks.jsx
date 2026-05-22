@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo } from "react";
 import { useLocation } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { sampleBooks } from "../../data/samplebooks.db";
-import { CATEGORY_BRAND_MAP } from "../../data/categoryMap";
+import { BRANDS_BY_CATEGORY } from "../../data/materials.db";
 import { getComputedBrand } from "../../utils/brandUtils";
 import SampleBookViewer from "../../components/samplebook/SampleBookViewer";
 import SampleBookCard from "../../components/samplebook/SampleBookCard";
@@ -61,8 +61,8 @@ export default function SampleBooks() {
       // 추천 탭인 경우 KCC, 동신, 유성만 표시
       return ["all", "KCC", "동신", "유성"];
     }
-    // 자재 데이터의 브랜드 목록 사용
-    let categoryBrands = [...(CATEGORY_BRAND_MAP[activeTab] || [])];
+    // 자재 데이터의 브랜드 목록 사용 (동적 생성 반영)
+    let categoryBrands = [...(BRANDS_BY_CATEGORY[activeTab] || [])];
 
     return ["all", ...categoryBrands];
   }, [activeTab]);

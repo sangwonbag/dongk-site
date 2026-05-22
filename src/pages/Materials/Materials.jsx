@@ -1,8 +1,7 @@
 import React, { useMemo, useState, useEffect } from "react";
 import { useLocation, useSearchParams } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
-import { materials } from "../../data/materials.db";
-import { CATEGORY_BRAND_MAP } from "../../data/categoryMap";
+import { materials, BRANDS_BY_CATEGORY } from "../../data/materials.db";
 import { getComputedBrand } from "../../utils/brandUtils";
 import { getSearchScore } from "../../utils/searchUtils";
 import MaterialCard from "../../components/material/MaterialCard";
@@ -82,8 +81,53 @@ export default function Materials() {
   /** ✅ 브랜드 목록: 카테고리에 맞춰 가공 (요구사항 반영) */
   const visibleBrands = useMemo(() => {
     if (activeTab === "recommended") return ["all", "KCC", "동신", "유성"];
-    return ["all", ...(CATEGORY_BRAND_MAP[activeTab] || [])];
+    return ["all", ...(BRANDS_BY_CATEGORY[activeTab] || [])];
   }, [activeTab]);
+
+  /** ✅ 라인업 목록: 선택된 카테고리와 브랜드에 따라 동적으로 생성 (폴더 구조 반영) */
+  const visibleLines = useMemo(() => {
+    if (!materials || activeTab === "recommended" || activeBrand === "all") return [];
+    
+    const linesSet = new Set();
+    materials.forEach((m) => {
+      if (m && m.category === activeTab && getComputedBrand(m) === activeBrand && m.line) {
+        let line = m.line;
+        if (line.includes('_')) {
+          const parts = line.split('_').map(p => p.trim());
+          if (activeTab === "마루") {
+            if (activeBrand === "이건") {
+              if (parts[0] === '강마루' || parts[0] === '프리미엄 강마루' || parts[0] === '원목마루' || parts[0] === '천연마루') {
+                if (parts.length > 2) {
+                  line = parts[2];
+                } else if (parts.length > 1) {
+                  line = parts[1];
+                }
+              }
+            } else {
+              line = parts[0];
+            }
+          } else if (activeTab === "벽지") {
+            let colName = parts[parts.length - 1];
+            colName = colName.replace(/^(LX|신한벽지)_/, '');
+            line = colName;
+          } else if (activeTab === "데코타일") {
+            if (activeBrand === "KCC") {
+              line = parts[1] || parts[0];
+            } else if (activeBrand === "LX") {
+              line = parts[1] || parts[0];
+            } else if (activeBrand === "현대") {
+              line = parts[0];
+            } else if (activeBrand === "녹수" || activeBrand === "동신" || activeBrand === "재영" || activeBrand === "유성") {
+              line = parts[0];
+            }
+          }
+        }
+        linesSet.add(line);
+      }
+    });
+    
+    return ["all", ...Array.from(linesSet).sort()];
+  }, [activeTab, activeBrand]);
 
   /** ✅ 재질 목록 (벽지 전용) */
   const MATERIAL_TYPES = ["all", "프리미엄", "디아망", "합지(소폭)", "합지(장폭)", "합지", "실크", "방염"];
@@ -127,23 +171,17 @@ export default function Materials() {
         materialOk = (m.materialType === activeMaterialType);
       }
 
-      // 라인 필터 (데코타일, 러버타일, 카페트타일, 마루)
+      // 라인 필터 (동적 라인 적용 - 실제 라인이 2개 이상일 때만 필터 작동)
       let lineOk = true;
-      if (
-        ((activeTab === "데코타일" || activeTab === "러버타일") && (activeBrand === "녹수" || activeBrand === "현대")) ||
-        (activeTab === "카페트타일" && activeBrand === "스완") ||
-        (activeTab === "마루" && activeBrand === "이건")
-      ) {
-        if (activeLine !== "all") {
-          lineOk = (m.line || "").includes(activeLine);
-        }
+      if (activeLine !== "all" && visibleLines.length > 2) {
+        lineOk = (m.line || "").includes(activeLine);
       }
 
       return tabOk && brandOk && materialOk && lineOk;
     });
 
     return results;
-  }, [activeTab, activeBrand, activeMaterialType, activeLine, searchText]);
+  }, [activeTab, activeBrand, activeMaterialType, activeLine, searchText, visibleLines]);
 
   return (
     <MainLayout>
@@ -175,20 +213,10 @@ export default function Materials() {
             ))}
           </div>
 
-          {/* ✅ 라인업 필터 (데코타일/러버타일/카페트타일/마루 등 특정 브랜드 대상) */}
-          {(
-            ((activeTab === "데코타일" || activeTab === "러버타일") && (activeBrand === "녹수" || activeBrand === "현대")) ||
-            (activeTab === "카페트타일" && activeBrand === "스완") ||
-            (activeTab === "마루" && activeBrand === "이건")
-          ) && (
+          {/* ✅ 라인업 필터 (동적 라인 적용 - 실제 라인이 2개 이상일 때만 노출) */}
+          {visibleLines.length > 2 && (
             <div className="material-type-row">
-              {(
-                activeTab === "러버타일" ? ["all", "COIN TILE", "SAFETY / SHEET", "MEGA CORK", "MEGA COIN", "MEGA EMBO"] :
-                activeTab === "카페트타일" ? ["all", "타일 카페트", "롤 카페트"] :
-                activeTab === "마루" ? ["all", "강마루", "원목마루", "천연마루"] :
-                activeBrand === "녹수" ? ["all", "세타그립", "프라임1500", "에코홈2000", "오키드3000"] : 
-                ["all", "골드타일", "디럭스"]
-              ).map((lineName) => (
+              {visibleLines.map((lineName) => (
                 <button
                   key={lineName}
                   className={`material-type-chip ${activeLine === lineName ? "active" : ""}`}
