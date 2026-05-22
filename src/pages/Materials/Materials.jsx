@@ -95,23 +95,7 @@ export default function Materials() {
         if (line.includes('_')) {
           const parts = line.split('_').map(p => p.trim());
           if (activeTab === "마루") {
-            if (activeBrand === "이건") {
-              if (parts[0] === '강마루' || parts[0] === '프리미엄 강마루' || parts[0] === '원목마루' || parts[0] === '천연마루') {
-                if (parts.length > 2) {
-                  line = parts[2];
-                } else if (parts.length > 1) {
-                  line = parts[1];
-                }
-              }
-            } else if (activeBrand === "구정") {
-              if (parts.length > 1) {
-                line = parts[1];
-              } else {
-                line = parts[0];
-              }
-            } else {
-              line = parts[0];
-            }
+            line = parts[0];
           } else if (activeTab === "벽지") {
             let colName = parts[parts.length - 1];
             colName = colName.replace(/^(LX|신한벽지)_/, '');

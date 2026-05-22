@@ -15590,7 +15590,7 @@ export const materials = [
     "name": "누크화이트",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_구정강",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "705a777c7f7eeb1619ed4123c1b121a1.png",
     "images": [
@@ -15598,7 +15598,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "구정강",
       "thickness": "7.5T",
       "size": "94x800mm",
       "packing": "1박스 (44pcs / 3.31㎡)"
@@ -15610,7 +15610,7 @@ export const materials = [
     "name": "마일드그레이오크",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_구정강",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "02de6a05f0d8f988227e32547a171ab2.png",
     "images": [
@@ -15618,7 +15618,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "구정강",
       "thickness": "7.5T",
       "size": "94x800mm",
       "packing": "1박스 (44pcs / 3.31㎡)"
@@ -15630,7 +15630,7 @@ export const materials = [
     "name": "문라이트워시",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_구정강",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "489ad42daac4a7fc4f2804226d1daab7.png",
     "images": [
@@ -15638,7 +15638,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "구정강",
       "thickness": "7.5T",
       "size": "94x800mm",
       "packing": "1박스 (44pcs / 3.31㎡)"
@@ -15650,7 +15650,7 @@ export const materials = [
     "name": "스웨디쉬화이트 (패턴)",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_구정강",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "fdd1e5cf74afc36772723c3cb1afbde6.png",
     "images": [
@@ -15658,7 +15658,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "구정강",
       "thickness": "7.5T",
       "size": "94x987mm",
       "packing": "박스단위 (패턴)"
@@ -15670,7 +15670,7 @@ export const materials = [
     "name": "스웨디쉬화이트",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_구정강",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "1fd078df66fb765f3667618b8579d106.png",
     "images": [
@@ -15678,7 +15678,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "구정강",
       "thickness": "7.5T",
       "size": "94x800mm",
       "packing": "1박스 (44pcs / 3.31㎡)"
@@ -15690,7 +15690,7 @@ export const materials = [
     "name": "아이리쉬화이트",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_구정강",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "e0d8173eebfd015bb270c2307819acc4.png",
     "images": [
@@ -15698,7 +15698,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "구정강",
       "thickness": "7.5T",
       "size": "94x800mm",
       "packing": "1박스 (44pcs / 3.31㎡)"
@@ -15710,7 +15710,7 @@ export const materials = [
     "name": "아이보리워시",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_구정강",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "f1b44ff6d64789db7d8dabc76a558b38.png",
     "images": [
@@ -15718,7 +15718,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "구정강",
       "thickness": "7.5T",
       "size": "94x800mm",
       "packing": "1박스 (44pcs / 3.31㎡)"
@@ -15730,7 +15730,7 @@ export const materials = [
     "name": "아이보리화이트 (패턴)",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_구정강",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "35681e465e7fe3251eb9d8ba85aa3f74.png",
     "images": [
@@ -15738,7 +15738,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "구정강",
       "thickness": "7.5T",
       "size": "94x987mm",
       "packing": "박스단위 (패턴)"
@@ -15750,7 +15750,7 @@ export const materials = [
     "name": "아이보리화이트",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_구정강",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "3ff332d502e51e50bffa2a3528681a20.png",
     "images": [
@@ -15758,7 +15758,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "구정강",
       "thickness": "7.5T",
       "size": "94x800mm",
       "packing": "1박스 (44pcs / 3.31㎡)"
@@ -15770,7 +15770,7 @@ export const materials = [
     "name": "오크 (패턴)",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_구정강",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "f77864c0dd67a815b43b8bc55f968568.png",
     "images": [
@@ -15778,7 +15778,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "구정강",
       "thickness": "7.5T",
       "size": "94x987mm",
       "packing": "박스단위 (패턴)"
@@ -15790,7 +15790,7 @@ export const materials = [
     "name": "오크",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_구정강",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "20a705fc7d6bb576636c24f4b23da207.png",
     "images": [
@@ -15798,7 +15798,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "구정강",
       "thickness": "7.5T",
       "size": "94x800mm",
       "packing": "1박스 (44pcs / 3.31㎡)"
@@ -15810,7 +15810,7 @@ export const materials = [
     "name": "오크뉴클래식 (패턴)",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_구정강",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "91d5d8186b238efd0144a188f1cb964e.png",
     "images": [
@@ -15818,7 +15818,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "구정강",
       "thickness": "7.5T",
       "size": "94x987mm",
       "packing": "박스단위 (패턴)"
@@ -15830,7 +15830,7 @@ export const materials = [
     "name": "오크뉴클래식",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_구정강",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "dab878c5b7152732bf7dae6cd284119b.png",
     "images": [
@@ -15838,7 +15838,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "구정강",
       "thickness": "7.5T",
       "size": "94x800mm",
       "packing": "1박스 (44pcs / 3.31㎡)"
@@ -15850,7 +15850,7 @@ export const materials = [
     "name": "올란도화이트",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_구정강",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "80955348b5aa87c299abd3a2ccb6dfb2.png",
     "images": [
@@ -15858,7 +15858,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "구정강",
       "thickness": "7.5T",
       "size": "94x800mm",
       "packing": "1박스 (44pcs / 3.31㎡)"
@@ -15870,7 +15870,7 @@ export const materials = [
     "name": "허니티크 (패턴)",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_구정강",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "67383d81c3e1b589dd4e44f0c11f6654.png",
     "images": [
@@ -15878,7 +15878,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "구정강",
       "thickness": "7.5T",
       "size": "94x987mm",
       "packing": "박스단위 (패턴)"
@@ -15890,7 +15890,7 @@ export const materials = [
     "name": "허니티크",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_구정강",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "94e97aaf83beaac0be226dd31317a6e7.png",
     "images": [
@@ -15898,7 +15898,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "구정강",
       "thickness": "7.5T",
       "size": "94x800mm",
       "packing": "1박스 (44pcs / 3.31㎡)"
@@ -15910,7 +15910,7 @@ export const materials = [
     "name": "러스틱",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루 텍스쳐",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "c46127b4593a4346dde6d1bea13c0847.png",
     "images": [
@@ -15918,7 +15918,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "그랜드 텍스쳐",
       "thickness": "7.5T",
       "size": "165x1200mm",
       "packing": "1박스 (10pcs / 1.98㎡)"
@@ -15930,7 +15930,7 @@ export const materials = [
     "name": "로그 브라운",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루 텍스쳐",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "b3b5cb0891ba6e982b5f41ef8a100051.png",
     "images": [
@@ -15938,7 +15938,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "그랜드 텍스쳐",
       "thickness": "7.5T",
       "size": "165x1200mm",
       "packing": "1박스 (10pcs / 1.98㎡)"
@@ -15950,7 +15950,7 @@ export const materials = [
     "name": "바이즈 티크",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루 텍스쳐",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "899bc8bec570fe0016ee84ac06f61ffa.png",
     "images": [
@@ -15958,7 +15958,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "그랜드 텍스쳐",
       "thickness": "7.5T",
       "size": "165x1200mm",
       "packing": "1박스 (10pcs / 1.98㎡)"
@@ -15970,7 +15970,7 @@ export const materials = [
     "name": "본 오크",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루 텍스쳐",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "b78864f81f5c766c780bf583439ead7d.png",
     "images": [
@@ -15978,7 +15978,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "그랜드 텍스쳐",
       "thickness": "7.5T",
       "size": "165x1200mm",
       "packing": "1박스 (10pcs / 1.98㎡)"
@@ -15990,7 +15990,7 @@ export const materials = [
     "name": "브라이트 오크",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루 텍스쳐",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "aa4da79ec7a7bd1c7871e7285e4b7206.png",
     "images": [
@@ -15998,7 +15998,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "그랜드 텍스쳐",
       "thickness": "7.5T",
       "size": "165x1200mm",
       "packing": "1박스 (10pcs / 1.98㎡)"
@@ -16010,7 +16010,7 @@ export const materials = [
     "name": "비비드",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루 텍스쳐",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "2cf613e0fdee8c508339d8624bd40498.png",
     "images": [
@@ -16018,7 +16018,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "그랜드 텍스쳐",
       "thickness": "7.5T",
       "size": "165x1200mm",
       "packing": "1박스 (10pcs / 1.98㎡)"
@@ -16030,7 +16030,7 @@ export const materials = [
     "name": "스웨디쉬",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루 텍스쳐",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "cef2536834795c650040fb86f1978103.png",
     "images": [
@@ -16038,7 +16038,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "그랜드 텍스쳐",
       "thickness": "7.5T",
       "size": "165x1200mm",
       "packing": "1박스 (10pcs / 1.98㎡)"
@@ -16050,7 +16050,7 @@ export const materials = [
     "name": "스테디",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루 텍스쳐",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "0b9156a6826d2946d8b02fb3af8e9ac7.png",
     "images": [
@@ -16058,7 +16058,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "그랜드 텍스쳐",
       "thickness": "7.5T",
       "size": "165x1200mm",
       "packing": "1박스 (10pcs / 1.98㎡)"
@@ -16070,7 +16070,7 @@ export const materials = [
     "name": "애버뉴",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루 텍스쳐",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "e47cc221673f767715cf0d66eee36efa.png",
     "images": [
@@ -16078,7 +16078,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "그랜드 텍스쳐",
       "thickness": "7.5T",
       "size": "165x1200mm",
       "packing": "1박스 (10pcs / 1.98㎡)"
@@ -16090,7 +16090,7 @@ export const materials = [
     "name": "얼바인",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루 텍스쳐",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "87686ca9abc6abdb29dccd21b5f2806f.png",
     "images": [
@@ -16098,7 +16098,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "그랜드 텍스쳐",
       "thickness": "7.5T",
       "size": "165x1200mm",
       "packing": "1박스 (10pcs / 1.98㎡)"
@@ -16110,7 +16110,7 @@ export const materials = [
     "name": "오크 뉴",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루 텍스쳐",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "458ff191803a2bfe6b8f861027f52d51.png",
     "images": [
@@ -16118,7 +16118,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "그랜드 텍스쳐",
       "thickness": "7.5T",
       "size": "165x1200mm",
       "packing": "1박스 (10pcs / 1.98㎡)"
@@ -16130,7 +16130,7 @@ export const materials = [
     "name": "헤론 오크",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루 텍스쳐",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "573b8bf694f35244a6d232fa8c183265.png",
     "images": [
@@ -16138,7 +16138,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "그랜드 텍스쳐",
       "thickness": "7.5T",
       "size": "165x1200mm",
       "packing": "1박스 (10pcs / 1.98㎡)"
@@ -16150,7 +16150,7 @@ export const materials = [
     "name": "모던 노던 화이트",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_모던강",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "dcd8f1594b816769ef43140fda5d2249.png",
     "images": [
@@ -16158,7 +16158,7 @@ export const materials = [
     ],
     "thickness": "6.5T",
     "specs": {
-      "division": "",
+      "division": "모던강",
       "thickness": "6.5T",
       "size": "115x800mm",
       "packing": "36pcs / Box (3.31㎡)"
@@ -16170,7 +16170,7 @@ export const materials = [
     "name": "모던 바닐라 크림",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_모던강",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "c9fb845dedd8c10d87dc8b38b833c5ed.png",
     "images": [
@@ -16178,7 +16178,7 @@ export const materials = [
     ],
     "thickness": "6.5T",
     "specs": {
-      "division": "",
+      "division": "모던강",
       "thickness": "6.5T",
       "size": "115x800mm",
       "packing": "36pcs / Box (3.31㎡)"
@@ -16190,7 +16190,7 @@ export const materials = [
     "name": "모던 본 내추럴",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_모던강",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "1f39374b77f630bfc4872aeea68e5a61.png",
     "images": [
@@ -16198,7 +16198,7 @@ export const materials = [
     ],
     "thickness": "6.5T",
     "specs": {
-      "division": "",
+      "division": "모던강",
       "thickness": "6.5T",
       "size": "115x800mm",
       "packing": "36pcs / Box (3.31㎡)"
@@ -16210,7 +16210,7 @@ export const materials = [
     "name": "모던 블랙",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_모던강",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "12a2bd09600eedb706da1e98cfe17c77.png",
     "images": [
@@ -16218,7 +16218,7 @@ export const materials = [
     ],
     "thickness": "6.5T",
     "specs": {
-      "division": "",
+      "division": "모던강",
       "thickness": "6.5T",
       "size": "115x800mm",
       "packing": "36pcs / Box (3.31㎡)"
@@ -16230,7 +16230,7 @@ export const materials = [
     "name": "모던 오크",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_모던강",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "4b37e61410a1ac5603318adc2fad5a9b.png",
     "images": [
@@ -16238,7 +16238,7 @@ export const materials = [
     ],
     "thickness": "6.5T",
     "specs": {
-      "division": "",
+      "division": "모던강",
       "thickness": "6.5T",
       "size": "115x800mm",
       "packing": "36pcs / Box (3.31㎡)"
@@ -16250,7 +16250,7 @@ export const materials = [
     "name": "모던 티크",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_모던강",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "2d1d7a5abe464be0b8bfdb502a49bb86.png",
     "images": [
@@ -16258,7 +16258,7 @@ export const materials = [
     ],
     "thickness": "6.5T",
     "specs": {
-      "division": "",
+      "division": "모던강",
       "thickness": "6.5T",
       "size": "115x800mm",
       "packing": "36pcs / Box (3.31㎡)"
@@ -16270,7 +16270,7 @@ export const materials = [
     "name": "본 오크(마사)",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_블론테",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "e1ce5140cd4346bc1ebddfdcc907eb9c.jpg",
     "images": [
@@ -16278,7 +16278,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "블론테",
       "thickness": "8.7T",
       "size": "230x2420mm",
       "packing": "5pcs / Box (2.78㎡)"
@@ -16290,7 +16290,7 @@ export const materials = [
     "name": "본 오크(이다메)",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_블론테",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "d6229513cb4fcf187ad485e328adb028.jpg",
     "images": [
@@ -16298,7 +16298,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "블론테",
       "thickness": "8.7T",
       "size": "230x2420mm",
       "packing": "5pcs / Box (2.78㎡)"
@@ -16310,7 +16310,7 @@ export const materials = [
     "name": "브라이트 오크(마사)",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_블론테",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "d3269429fc596a7889a049ef758e9d8d.jpg",
     "images": [
@@ -16318,7 +16318,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "블론테",
       "thickness": "8.7T",
       "size": "230x2420mm",
       "packing": "5pcs / Box (2.78㎡)"
@@ -16330,7 +16330,7 @@ export const materials = [
     "name": "브라이트 오크(이다메)",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_블론테",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "91b126c18bb54a993db9adb988ef148b.jpg",
     "images": [
@@ -16338,7 +16338,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "블론테",
       "thickness": "8.7T",
       "size": "230x2420mm",
       "packing": "5pcs / Box (2.78㎡)"
@@ -16350,7 +16350,7 @@ export const materials = [
     "name": "어스틴 브라운(마사)",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_블론테",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "bc524649ca1e490bd80667d55b901648.jpg",
     "images": [
@@ -16358,7 +16358,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "블론테",
       "thickness": "8.7T",
       "size": "230x2420mm",
       "packing": "5pcs / Box (2.78㎡)"
@@ -16370,7 +16370,7 @@ export const materials = [
     "name": "어스틴 브라운(이다메)",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_블론테",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "ab003e8c281a5168e1143fc8df4cb2f0.jpg",
     "images": [
@@ -16378,7 +16378,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "블론테",
       "thickness": "8.7T",
       "size": "230x2420mm",
       "packing": "5pcs / Box (2.78㎡)"
@@ -16390,7 +16390,7 @@ export const materials = [
     "name": "엘리엇 오크(마사)",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_블론테",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "f40294d649579447966fcf4a64001ec8.jpg",
     "images": [
@@ -16398,7 +16398,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "블론테",
       "thickness": "8.7T",
       "size": "230x2420mm",
       "packing": "5pcs / Box (2.78㎡)"
@@ -16410,7 +16410,7 @@ export const materials = [
     "name": "엘리엇 오크(이다메)",
     "brand": "구정",
     "category": "마루",
-    "line": "강마루_블론테",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "98659a72f55b9da686c3c9a47220f81b.jpg",
     "images": [
@@ -16418,7 +16418,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "블론테",
       "thickness": "8.7T",
       "size": "230x2420mm",
       "packing": "5pcs / Box (2.78㎡)"
@@ -16430,7 +16430,7 @@ export const materials = [
     "name": "미스티 로즈",
     "brand": "구정",
     "category": "마루",
-    "line": "프리미엄 텍스쳐(ROYAL)",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "74dca621a172e3da6e23ff0b1373da49.png",
     "images": [
@@ -16438,7 +16438,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "프리미엄 텍스쳐(ROYAL)",
       "thickness": "7.5T",
       "size": "115x800mm",
       "packing": "박스단위"
@@ -16450,7 +16450,7 @@ export const materials = [
     "name": "블론드 오크",
     "brand": "구정",
     "category": "마루",
-    "line": "프리미엄 텍스쳐(ROYAL)",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "7f310a436d00f4eb9cf21d60fb7c5f34.png",
     "images": [
@@ -16458,7 +16458,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "프리미엄 텍스쳐(ROYAL)",
       "thickness": "7.5T",
       "size": "115x800mm",
       "packing": "박스단위"
@@ -16470,7 +16470,7 @@ export const materials = [
     "name": "샌드 오크",
     "brand": "구정",
     "category": "마루",
-    "line": "프리미엄 텍스쳐(ROYAL)",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "1f0a82a575a0abf6b0e62a106196c784.png",
     "images": [
@@ -16478,7 +16478,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "프리미엄 텍스쳐(ROYAL)",
       "thickness": "7.5T",
       "size": "115x800mm",
       "packing": "박스단위"
@@ -16490,7 +16490,7 @@ export const materials = [
     "name": "카본 블랙",
     "brand": "구정",
     "category": "마루",
-    "line": "프리미엄 텍스쳐(ROYAL)",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "1a50d4d2ec08a7d3945d11254d2ac232.png",
     "images": [
@@ -16498,7 +16498,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "프리미엄 텍스쳐(ROYAL)",
       "thickness": "7.5T",
       "size": "115x800mm",
       "packing": "박스단위"
@@ -16510,7 +16510,7 @@ export const materials = [
     "name": "카카오 브라운",
     "brand": "구정",
     "category": "마루",
-    "line": "프리미엄 텍스쳐(ROYAL)",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "ee5940ed91c398cf99a6cc52c88fb6eb.png",
     "images": [
@@ -16518,7 +16518,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "프리미엄 텍스쳐(ROYAL)",
       "thickness": "7.5T",
       "size": "115x800mm",
       "packing": "박스단위"
@@ -16530,7 +16530,7 @@ export const materials = [
     "name": "골드 브릭",
     "brand": "구정",
     "category": "마루",
-    "line": "프리미엄 텍스쳐(WIDE)",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "b80f6b248d02f89e52b90bb41a0eb4d5.jpg",
     "images": [
@@ -16538,7 +16538,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "프리미엄 텍스쳐(WIDE)",
       "thickness": "7.5T",
       "size": "125x1200mm",
       "packing": "박스단위"
@@ -16550,7 +16550,7 @@ export const materials = [
     "name": "딥라인 오크",
     "brand": "구정",
     "category": "마루",
-    "line": "프리미엄 텍스쳐(WIDE)",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "1b2c35806bb1b3e9fb873a81e2c075b6.png",
     "images": [
@@ -16558,7 +16558,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "프리미엄 텍스쳐(WIDE)",
       "thickness": "7.5T",
       "size": "125x1200mm",
       "packing": "박스단위"
@@ -16570,7 +16570,7 @@ export const materials = [
     "name": "라일락 화이트",
     "brand": "구정",
     "category": "마루",
-    "line": "프리미엄 텍스쳐(WIDE)",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "1ad564d3e2bfdfc8a1c2a252bb1303ad.png",
     "images": [
@@ -16578,7 +16578,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "프리미엄 텍스쳐(WIDE)",
       "thickness": "7.5T",
       "size": "125x1200mm",
       "packing": "박스단위"
@@ -16590,7 +16590,7 @@ export const materials = [
     "name": "린넨 베이지",
     "brand": "구정",
     "category": "마루",
-    "line": "프리미엄 텍스쳐(WIDE)",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "377d918636e5b357947f6e345610e03c.png",
     "images": [
@@ -16598,7 +16598,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "프리미엄 텍스쳐(WIDE)",
       "thickness": "7.5T",
       "size": "125x1200mm",
       "packing": "박스단위"
@@ -16610,7 +16610,7 @@ export const materials = [
     "name": "모카 브루",
     "brand": "구정",
     "category": "마루",
-    "line": "프리미엄 텍스쳐(WIDE)",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "35ad4e10d373a2fc49ddf86456dd5191.png",
     "images": [
@@ -16618,7 +16618,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "프리미엄 텍스쳐(WIDE)",
       "thickness": "7.5T",
       "size": "125x1200mm",
       "packing": "박스단위"
@@ -16630,7 +16630,7 @@ export const materials = [
     "name": "소프트 웨이브",
     "brand": "구정",
     "category": "마루",
-    "line": "프리미엄 텍스쳐(WIDE)",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "f84af686889c447c369aec5ae4233d18.png",
     "images": [
@@ -16638,7 +16638,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "프리미엄 텍스쳐(WIDE)",
       "thickness": "7.5T",
       "size": "125x1200mm",
       "packing": "박스단위"
@@ -16650,7 +16650,7 @@ export const materials = [
     "name": "모로칸 크림",
     "brand": "구정",
     "category": "마루",
-    "line": "오브월",
+    "line": "오브 월",
     "price": 0,
     "thumbnail": "36b2f2a15e582f56e5aba847e93f29e7.jpg",
     "images": [
@@ -16658,7 +16658,7 @@ export const materials = [
     ],
     "thickness": "9T",
     "specs": {
-      "division": "",
+      "division": "오브 월",
       "thickness": "9T",
       "size": "590x2440mm / 1194x2440mm",
       "packing": "박스단위"
@@ -16670,7 +16670,7 @@ export const materials = [
     "name": "웜 브리즈",
     "brand": "구정",
     "category": "마루",
-    "line": "오브월",
+    "line": "오브 월",
     "price": 0,
     "thumbnail": "ba3020a77d38a2bb4d276f05bdf95187.jpg",
     "images": [
@@ -16678,7 +16678,7 @@ export const materials = [
     ],
     "thickness": "9T",
     "specs": {
-      "division": "",
+      "division": "오브 월",
       "thickness": "9T",
       "size": "590x2440mm / 1194x2440mm",
       "packing": "박스단위"
@@ -16690,7 +16690,7 @@ export const materials = [
     "name": "젠틀판타지",
     "brand": "구정",
     "category": "마루",
-    "line": "오브월",
+    "line": "오브 월",
     "price": 0,
     "thumbnail": "982ed0dd34d5acc865dcdaeaf6b64611.jpg",
     "images": [
@@ -16698,7 +16698,7 @@ export const materials = [
     ],
     "thickness": "9T",
     "specs": {
-      "division": "",
+      "division": "오브 월",
       "thickness": "9T",
       "size": "590x2440mm / 1194x2440mm",
       "packing": "박스단위"
@@ -16710,7 +16710,7 @@ export const materials = [
     "name": "리얼 블랙 오크",
     "brand": "구정",
     "category": "마루",
-    "line": "원목마루_노블레스",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "433acf2c16824c738aa587333df9d17f.png",
     "images": [
@@ -16718,7 +16718,7 @@ export const materials = [
     ],
     "thickness": "14T",
     "specs": {
-      "division": "",
+      "division": "노블레스",
       "thickness": "14T",
       "size": "190x1900mm",
       "packing": "4pcs / Box (1.44㎡)"
@@ -16730,7 +16730,7 @@ export const materials = [
     "name": "샌디 오크",
     "brand": "구정",
     "category": "마루",
-    "line": "원목마루_노블레스",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "b66564ce44e650e1f890d7997b70ac4a.png",
     "images": [
@@ -16738,7 +16738,7 @@ export const materials = [
     ],
     "thickness": "14T",
     "specs": {
-      "division": "",
+      "division": "노블레스",
       "thickness": "14T",
       "size": "190x1900mm",
       "packing": "4pcs / Box (1.44㎡)"
@@ -16750,7 +16750,7 @@ export const materials = [
     "name": "소프트 애쉬",
     "brand": "구정",
     "category": "마루",
-    "line": "원목마루_노블레스",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "bf114e6f2bdf211384ed5c9aa1eeb3b8.png",
     "images": [
@@ -16758,7 +16758,7 @@ export const materials = [
     ],
     "thickness": "14T",
     "specs": {
-      "division": "",
+      "division": "노블레스",
       "thickness": "14T",
       "size": "190x1900mm",
       "packing": "4pcs / Box (1.44㎡)"
@@ -16770,7 +16770,7 @@ export const materials = [
     "name": "애쉬 브러쉬 내추럴",
     "brand": "구정",
     "category": "마루",
-    "line": "원목마루_노블레스",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "36b92d7c91d4771221f521d5126bdaa7.png",
     "images": [
@@ -16778,7 +16778,7 @@ export const materials = [
     ],
     "thickness": "14T",
     "specs": {
-      "division": "",
+      "division": "노블레스",
       "thickness": "14T",
       "size": "190x1900mm",
       "packing": "4pcs / Box (1.44㎡)"
@@ -16790,7 +16790,7 @@ export const materials = [
     "name": "앤티크 오크 UV",
     "brand": "구정",
     "category": "마루",
-    "line": "원목마루_노블레스",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "579cf74925ff151656f5e0e5fc2c458f.png",
     "images": [
@@ -16798,7 +16798,7 @@ export const materials = [
     ],
     "thickness": "14T",
     "specs": {
-      "division": "",
+      "division": "노블레스",
       "thickness": "14T",
       "size": "190x1900mm",
       "packing": "4pcs / Box (1.44㎡)"
@@ -16810,7 +16810,7 @@ export const materials = [
     "name": "오크 브러쉬 내추럴",
     "brand": "구정",
     "category": "마루",
-    "line": "원목마루_노블레스",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "6c580f3e0c50d765517439e461da18ba.png",
     "images": [
@@ -16818,7 +16818,7 @@ export const materials = [
     ],
     "thickness": "14T",
     "specs": {
-      "division": "",
+      "division": "노블레스",
       "thickness": "14T",
       "size": "190x1900mm",
       "packing": "4pcs / Box (1.44㎡)"
@@ -16830,7 +16830,7 @@ export const materials = [
     "name": "오크 브러쉬 라이트",
     "brand": "구정",
     "category": "마루",
-    "line": "원목마루_노블레스",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "4f5a1a586f02ca9f8caf1f2cf55b4987.png",
     "images": [
@@ -16838,7 +16838,7 @@ export const materials = [
     ],
     "thickness": "14T",
     "specs": {
-      "division": "",
+      "division": "노블레스",
       "thickness": "14T",
       "size": "190x1900mm",
       "packing": "4pcs / Box (1.44㎡)"
@@ -16850,7 +16850,7 @@ export const materials = [
     "name": "화이트 오크",
     "brand": "구정",
     "category": "마루",
-    "line": "원목마루_노블레스",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "43ce424654764fae07b3e55ca623b94e.png",
     "images": [
@@ -16858,7 +16858,7 @@ export const materials = [
     ],
     "thickness": "14T",
     "specs": {
-      "division": "",
+      "division": "노블레스",
       "thickness": "14T",
       "size": "190x1900mm",
       "packing": "4pcs / Box (1.44㎡)"
@@ -16870,7 +16870,7 @@ export const materials = [
     "name": "베키오",
     "brand": "구정",
     "category": "마루",
-    "line": "원목마루_피안테",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "2c6dfb7dabfd697ea7b0158e051b2ef9.png",
     "images": [
@@ -16878,7 +16878,7 @@ export const materials = [
     ],
     "thickness": "15T",
     "specs": {
-      "division": "",
+      "division": "피안테",
       "thickness": "15T",
       "size": "242x2350mm",
       "packing": "박스단위"
@@ -16890,7 +16890,7 @@ export const materials = [
     "name": "볼로네티",
     "brand": "구정",
     "category": "마루",
-    "line": "원목마루_피안테",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "c849004e626d92c79873228d092bb371.png",
     "images": [
@@ -16898,7 +16898,7 @@ export const materials = [
     ],
     "thickness": "15T",
     "specs": {
-      "division": "",
+      "division": "피안테",
       "thickness": "15T",
       "size": "242x2350mm",
       "packing": "박스단위"
@@ -16910,7 +16910,7 @@ export const materials = [
     "name": "카멜로",
     "brand": "구정",
     "category": "마루",
-    "line": "원목마루_피안테",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "c48e6be39cb90cc038fffecc7ccf26ce.png",
     "images": [
@@ -16918,7 +16918,7 @@ export const materials = [
     ],
     "thickness": "15T",
     "specs": {
-      "division": "",
+      "division": "피안테",
       "thickness": "15T",
       "size": "242x2350mm",
       "packing": "박스단위"
@@ -16930,7 +16930,7 @@ export const materials = [
     "name": "티에네",
     "brand": "구정",
     "category": "마루",
-    "line": "원목마루_피안테",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "9ef1c5c4e992f2bd63836659ed13c701.png",
     "images": [
@@ -16938,7 +16938,7 @@ export const materials = [
     ],
     "thickness": "15T",
     "specs": {
-      "division": "",
+      "division": "피안테",
       "thickness": "15T",
       "size": "242x2350mm",
       "packing": "박스단위"
@@ -16950,7 +16950,7 @@ export const materials = [
     "name": "포스티에라",
     "brand": "구정",
     "category": "마루",
-    "line": "원목마루_피안테",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "f2fd260da95350d232a30ce5ccd88ef2.png",
     "images": [
@@ -16958,7 +16958,7 @@ export const materials = [
     ],
     "thickness": "15T",
     "specs": {
-      "division": "",
+      "division": "피안테",
       "thickness": "15T",
       "size": "242x2350mm",
       "packing": "박스단위"
@@ -16970,7 +16970,7 @@ export const materials = [
     "name": "다크 브라운 애쉬",
     "brand": "구정",
     "category": "마루",
-    "line": "원목마루_헤리티지",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "9a2f638ec9eebae7f39066d2c5225a13.jpg",
     "images": [
@@ -16978,7 +16978,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "헤리티지",
       "thickness": "10.5T",
       "size": "190x1900mm",
       "packing": "6pcs / Box (2.166㎡)"
@@ -16990,7 +16990,7 @@ export const materials = [
     "name": "다크 월넛",
     "brand": "구정",
     "category": "마루",
-    "line": "원목마루_헤리티지",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "894cbe4494a9ad0de822a94341f11053.jpg",
     "images": [
@@ -16998,7 +16998,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "헤리티지",
       "thickness": "10.5T",
       "size": "190x1900mm",
       "packing": "6pcs / Box (2.166㎡)"
@@ -17010,7 +17010,7 @@ export const materials = [
     "name": "라이트 카키 오크",
     "brand": "구정",
     "category": "마루",
-    "line": "원목마루_헤리티지",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "5a970112712eb7a4f176214ae9b1ea7c.jpg",
     "images": [
@@ -17018,7 +17018,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "헤리티지",
       "thickness": "10.5T",
       "size": "190x1900mm",
       "packing": "6pcs / Box (2.166㎡)"
@@ -17030,7 +17030,7 @@ export const materials = [
     "name": "브라운 오크",
     "brand": "구정",
     "category": "마루",
-    "line": "원목마루_헤리티지",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "9e8dbe7bad70ae61b978ae64bb24ab39.jpg",
     "images": [
@@ -17038,7 +17038,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "헤리티지",
       "thickness": "10.5T",
       "size": "190x1900mm",
       "packing": "6pcs / Box (2.166㎡)"
@@ -17050,7 +17050,7 @@ export const materials = [
     "name": "애쉬",
     "brand": "구정",
     "category": "마루",
-    "line": "원목마루_헤리티지",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "e99cb56ce9c4bb71432b77c5326babdb.jpg",
     "images": [
@@ -17058,7 +17058,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "헤리티지",
       "thickness": "10.5T",
       "size": "190x1900mm",
       "packing": "6pcs / Box (2.166㎡)"
@@ -17070,7 +17070,7 @@ export const materials = [
     "name": "오크",
     "brand": "구정",
     "category": "마루",
-    "line": "원목마루_헤리티지",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "914ed9029f24574f79f4a5b9e9e71344.jpg",
     "images": [
@@ -17078,7 +17078,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "헤리티지",
       "thickness": "10.5T",
       "size": "190x1900mm",
       "packing": "6pcs / Box (2.166㎡)"
@@ -17090,7 +17090,7 @@ export const materials = [
     "name": "월넛",
     "brand": "구정",
     "category": "마루",
-    "line": "원목마루_헤리티지",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "a5eba41276073078bf6cd144283b0d58.jpg",
     "images": [
@@ -17098,7 +17098,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "헤리티지",
       "thickness": "10.5T",
       "size": "190x1900mm",
       "packing": "6pcs / Box (2.166㎡)"
@@ -17110,7 +17110,7 @@ export const materials = [
     "name": "젯 블랙",
     "brand": "구정",
     "category": "마루",
-    "line": "원목마루_헤리티지",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "3ab50c11ae9d3ceca06485a636293e55.jpg",
     "images": [
@@ -17118,7 +17118,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "헤리티지",
       "thickness": "10.5T",
       "size": "190x1900mm",
       "packing": "6pcs / Box (2.166㎡)"
@@ -17130,7 +17130,7 @@ export const materials = [
     "name": "탄화 오크",
     "brand": "구정",
     "category": "마루",
-    "line": "원목마루_헤리티지",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "f840dbb62182d0225b6804daaa94fb67.jpg",
     "images": [
@@ -17138,7 +17138,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "헤리티지",
       "thickness": "10.5T",
       "size": "190x1900mm",
       "packing": "6pcs / Box (2.166㎡)"
@@ -17150,7 +17150,7 @@ export const materials = [
     "name": "티크",
     "brand": "구정",
     "category": "마루",
-    "line": "원목마루_헤리티지",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "3d7950fa51bb066681b1f74bdc8bd743.jpg",
     "images": [
@@ -17158,7 +17158,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "헤리티지",
       "thickness": "10.5T",
       "size": "190x1900mm",
       "packing": "6pcs / Box (2.166㎡)"
@@ -17170,7 +17170,7 @@ export const materials = [
     "name": "화이트 오크",
     "brand": "구정",
     "category": "마루",
-    "line": "원목마루_헤리티지",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "1c8b3f2ef8fff8b53ee9c5671d6c36c2.jpg",
     "images": [
@@ -17178,7 +17178,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "헤리티지",
       "thickness": "10.5T",
       "size": "190x1900mm",
       "packing": "6pcs / Box (2.166㎡)"
@@ -17190,7 +17190,7 @@ export const materials = [
     "name": "애쉬 스모키",
     "brand": "구정",
     "category": "마루",
-    "line": "브러쉬골드",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "00b63d261155146869bf8d65ebdc7e67.jpg",
     "images": [
@@ -17198,7 +17198,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "브러쉬골드",
       "thickness": "7.5T",
       "size": "115x900mm",
       "packing": "박스단위"
@@ -17210,7 +17210,7 @@ export const materials = [
     "name": "애쉬 아몬드",
     "brand": "구정",
     "category": "마루",
-    "line": "브러쉬골드",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "952a4d806c5194ac46b5df5f258e9317.jpg",
     "images": [
@@ -17218,7 +17218,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "브러쉬골드",
       "thickness": "7.5T",
       "size": "115x900mm",
       "packing": "박스단위"
@@ -17230,7 +17230,7 @@ export const materials = [
     "name": "오크 클래식",
     "brand": "구정",
     "category": "마루",
-    "line": "브러쉬골드",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "a10285ff76b5ecf670d159ef1eeebbea.jpg",
     "images": [
@@ -17238,7 +17238,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "브러쉬골드",
       "thickness": "7.5T",
       "size": "115x900mm",
       "packing": "박스단위"
@@ -17250,7 +17250,7 @@ export const materials = [
     "name": "티크 러스틱",
     "brand": "구정",
     "category": "마루",
-    "line": "브러쉬골드",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "5941da4aa4002259f0eab90fe1302af5.jpg",
     "images": [
@@ -17258,7 +17258,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "브러쉬골드",
       "thickness": "7.5T",
       "size": "115x900mm",
       "packing": "박스단위"
@@ -17270,7 +17270,7 @@ export const materials = [
     "name": "티크 스카치",
     "brand": "구정",
     "category": "마루",
-    "line": "브러쉬골드",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "76499e36fbbc245ed7c15f85730d6dd8.jpg",
     "images": [
@@ -17278,7 +17278,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "브러쉬골드",
       "thickness": "7.5T",
       "size": "115x900mm",
       "packing": "박스단위"
@@ -17290,7 +17290,7 @@ export const materials = [
     "name": "SH 오크",
     "brand": "구정",
     "category": "마루",
-    "line": "브러쉬골드",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "d46f513f9dd59a4ab82f25139f707fc0.jpg",
     "images": [
@@ -17298,7 +17298,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "브러쉬골드",
       "thickness": "7.5T",
       "size": "115x900mm",
       "packing": "박스단위"
@@ -17310,7 +17310,7 @@ export const materials = [
     "name": "러스틱 월넛",
     "brand": "구정",
     "category": "마루",
-    "line": "브러쉬골드",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "3ff56b55e96f59e975b14c71efc76a7a.jpg",
     "images": [
@@ -17318,7 +17318,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "브러쉬골드",
       "thickness": "7.5T",
       "size": "115x900mm",
       "packing": "박스단위"
@@ -17330,7 +17330,7 @@ export const materials = [
     "name": "블랙오크",
     "brand": "구정",
     "category": "마루",
-    "line": "브러쉬골드",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "e865e9d63c46c665451c3fa814c98796.jpg",
     "images": [
@@ -17338,7 +17338,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "브러쉬골드",
       "thickness": "7.5T",
       "size": "115x900mm",
       "packing": "박스단위"
@@ -17350,7 +17350,7 @@ export const materials = [
     "name": "아메리카 오크",
     "brand": "구정",
     "category": "마루",
-    "line": "브러쉬골드",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "581d0b0417183a5cd1b38b513b78a9df.jpg",
     "images": [
@@ -17358,7 +17358,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "브러쉬골드",
       "thickness": "7.5T",
       "size": "115x900mm",
       "packing": "박스단위"
@@ -17370,7 +17370,7 @@ export const materials = [
     "name": "애쉬",
     "brand": "구정",
     "category": "마루",
-    "line": "브러쉬골드",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "f4bd640c5f15b1333abed357a2186fbb.jpg",
     "images": [
@@ -17378,7 +17378,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "브러쉬골드",
       "thickness": "7.5T",
       "size": "115x900mm",
       "packing": "박스단위"
@@ -17390,7 +17390,7 @@ export const materials = [
     "name": "오크",
     "brand": "구정",
     "category": "마루",
-    "line": "브러쉬골드",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "d2d1126c965d491071b2036c97a00fe0.jpg",
     "images": [
@@ -17398,7 +17398,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "브러쉬골드",
       "thickness": "7.5T",
       "size": "115x900mm",
       "packing": "박스단위"
@@ -17410,7 +17410,7 @@ export const materials = [
     "name": "티크",
     "brand": "구정",
     "category": "마루",
-    "line": "브러쉬골드",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "d945a14ca55509655bb7aad7de8177ca.jpg",
     "images": [
@@ -17418,7 +17418,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "브러쉬골드",
       "thickness": "7.5T",
       "size": "115x900mm",
       "packing": "박스단위"
@@ -17430,7 +17430,7 @@ export const materials = [
     "name": "화이트 워시 오크",
     "brand": "구정",
     "category": "마루",
-    "line": "브러쉬골드",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "445b502ac9b2e3b9afcd59bf20f77bde.jpg",
     "images": [
@@ -17438,7 +17438,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "브러쉬골드",
       "thickness": "7.5T",
       "size": "115x900mm",
       "packing": "박스단위"
@@ -17450,7 +17450,7 @@ export const materials = [
     "name": "멜로우 베이지",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 듀스",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "7a5b905cd6aa58679b8a41fdd08312cc.png",
     "images": [
@@ -17458,7 +17458,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 듀스",
       "thickness": "8.7T",
       "size": "597x1210mm",
       "packing": "8pcs / Box (5.78㎡)"
@@ -17470,7 +17470,7 @@ export const materials = [
     "name": "모로칸 블러쉬",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 듀스",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "d3fe0d6c776bdd55b2bdcb2c39331f01.png",
     "images": [
@@ -17478,7 +17478,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 듀스",
       "thickness": "8.7T",
       "size": "597x1210mm",
       "packing": "8pcs / Box (5.78㎡)"
@@ -17490,7 +17490,7 @@ export const materials = [
     "name": "모슬린 화이트",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 듀스",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "a6befb2bfa196af09ddc2f29930f2c76.png",
     "images": [
@@ -17498,7 +17498,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 듀스",
       "thickness": "8.7T",
       "size": "597x1210mm",
       "packing": "8pcs / Box (5.78㎡)"
@@ -17510,7 +17510,7 @@ export const materials = [
     "name": "솔티 스노우",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 듀스",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "32c579cdf4c21fef2aff0b861f11615f.png",
     "images": [
@@ -17518,7 +17518,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 듀스",
       "thickness": "8.7T",
       "size": "597x1210mm",
       "packing": "8pcs / Box (5.78㎡)"
@@ -17530,7 +17530,7 @@ export const materials = [
     "name": "시멘틱 그레이",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 듀스",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "684d4e7c2f94d39c17e790ad38f828dc.png",
     "images": [
@@ -17538,7 +17538,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 듀스",
       "thickness": "8.7T",
       "size": "597x1210mm",
       "packing": "8pcs / Box (5.78㎡)"
@@ -17550,7 +17550,7 @@ export const materials = [
     "name": "웜 브라이트",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 듀스",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "4c02d873de9796a960429cd87cddcce2.png",
     "images": [
@@ -17558,7 +17558,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 듀스",
       "thickness": "8.7T",
       "size": "597x1210mm",
       "packing": "8pcs / Box (5.78㎡)"
@@ -17570,7 +17570,7 @@ export const materials = [
     "name": "젠틑 라이트",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 듀스",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "82c9e00541e1fbc7e3659d9f9ca87f70.png",
     "images": [
@@ -17578,7 +17578,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 듀스",
       "thickness": "8.7T",
       "size": "597x1210mm",
       "packing": "8pcs / Box (5.78㎡)"
@@ -17590,7 +17590,7 @@ export const materials = [
     "name": "클라우디 크림",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 듀스",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "fd4e284afcb90f0eb7c3df6a68c052d5.png",
     "images": [
@@ -17598,7 +17598,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 듀스",
       "thickness": "8.7T",
       "size": "597x1210mm",
       "packing": "8pcs / Box (5.78㎡)"
@@ -17610,7 +17610,7 @@ export const materials = [
     "name": "모로칸 크림",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 리브",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "aebfef3bfd609de5c19e5168dc1897f9.png",
     "images": [
@@ -17618,7 +17618,7 @@ export const materials = [
     ],
     "thickness": "7.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 리브",
       "thickness": "7.7T",
       "size": "393x797mm",
       "packing": "10pcs / Box (3.13㎡)"
@@ -17630,7 +17630,7 @@ export const materials = [
     "name": "셀럽 베이지",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 리브",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "011cca30d368e30b3c822cebf11b4166.png",
     "images": [
@@ -17638,7 +17638,7 @@ export const materials = [
     ],
     "thickness": "7.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 리브",
       "thickness": "7.7T",
       "size": "393x797mm",
       "packing": "10pcs / Box (3.13㎡)"
@@ -17650,7 +17650,7 @@ export const materials = [
     "name": "스톤 그레이",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 리브",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "565b940af91feb41d6266d80be65dd39.png",
     "images": [
@@ -17658,7 +17658,7 @@ export const materials = [
     ],
     "thickness": "7.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 리브",
       "thickness": "7.7T",
       "size": "393x797mm",
       "packing": "10pcs / Box (3.13㎡)"
@@ -17670,7 +17670,7 @@ export const materials = [
     "name": "실버 문",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 리브",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "dc0788403f5f8b46dc3d7017c41a08db.png",
     "images": [
@@ -17678,7 +17678,7 @@ export const materials = [
     ],
     "thickness": "7.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 리브",
       "thickness": "7.7T",
       "size": "393x797mm",
       "packing": "10pcs / Box (3.13㎡)"
@@ -17690,7 +17690,7 @@ export const materials = [
     "name": "웜 브리즈",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 리브",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "970666de42e43d9d71e6a6735a496191.png",
     "images": [
@@ -17698,7 +17698,7 @@ export const materials = [
     ],
     "thickness": "7.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 리브",
       "thickness": "7.7T",
       "size": "393x797mm",
       "packing": "10pcs / Box (3.13㎡)"
@@ -17710,7 +17710,7 @@ export const materials = [
     "name": "젠틀 판타지",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 리브",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "03acfeb3e265412f55431a29263a4588.png",
     "images": [
@@ -17718,7 +17718,7 @@ export const materials = [
     ],
     "thickness": "7.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 리브",
       "thickness": "7.7T",
       "size": "393x797mm",
       "packing": "10pcs / Box (3.13㎡)"
@@ -17730,7 +17730,7 @@ export const materials = [
     "name": "모로칸 크림",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 뮤즈",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "71e6d9186a80b76d86c3688b0442c2a3.png",
     "images": [
@@ -17738,7 +17738,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 뮤즈",
       "thickness": "8.7T",
       "size": "393x1200mm",
       "packing": "6pcs / Box (2.83㎡)"
@@ -17750,7 +17750,7 @@ export const materials = [
     "name": "뮤지엄 그레이",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 뮤즈",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "9a914db6b9d80377c7f3fd4dcbe2b63a.png",
     "images": [
@@ -17758,7 +17758,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 뮤즈",
       "thickness": "8.7T",
       "size": "393x1200mm",
       "packing": "6pcs / Box (2.83㎡)"
@@ -17770,7 +17770,7 @@ export const materials = [
     "name": "셀럽 베이지",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 뮤즈",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "e319dc0f755833431767ed6cf3237643.png",
     "images": [
@@ -17778,7 +17778,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 뮤즈",
       "thickness": "8.7T",
       "size": "393x1200mm",
       "packing": "6pcs / Box (2.83㎡)"
@@ -17790,7 +17790,7 @@ export const materials = [
     "name": "젠틀 판타지",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 뮤즈",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "7caec595ce633e9f62e99759bc1229de.png",
     "images": [
@@ -17798,7 +17798,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 뮤즈",
       "thickness": "8.7T",
       "size": "393x1200mm",
       "packing": "6pcs / Box (2.83㎡)"
@@ -17810,7 +17810,7 @@ export const materials = [
     "name": "라이트 듄",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 엘",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "de953203e2e0d7690ad9996285125a55.png",
     "images": [
@@ -17818,7 +17818,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 엘",
       "thickness": "8.7T",
       "size": "900x900mm",
       "packing": "4pcs / Box (3.24㎡)"
@@ -17830,7 +17830,7 @@ export const materials = [
     "name": "모로칸 크림",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 엘",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "daefc53822122a1d2959a34a393dea7f.png",
     "images": [
@@ -17838,7 +17838,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 엘",
       "thickness": "8.7T",
       "size": "900x900mm",
       "packing": "4pcs / Box (3.24㎡)"
@@ -17850,7 +17850,7 @@ export const materials = [
     "name": "문 더스트",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 엘",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "df318079fe0465f283d470e5f5742706.png",
     "images": [
@@ -17858,7 +17858,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 엘",
       "thickness": "8.7T",
       "size": "900x900mm",
       "packing": "4pcs / Box (3.24㎡)"
@@ -17870,7 +17870,7 @@ export const materials = [
     "name": "웜 브리즈",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 엘",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "4fe02b2b262635d1304e8ef064fa3a61.png",
     "images": [
@@ -17878,7 +17878,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 엘",
       "thickness": "8.7T",
       "size": "900x900mm",
       "packing": "4pcs / Box (3.24㎡)"
@@ -17890,7 +17890,7 @@ export const materials = [
     "name": "젠틀 판타지",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 엘",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "6a264c49437c718507e8441ec61ff31f.png",
     "images": [
@@ -17898,7 +17898,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 엘",
       "thickness": "8.7T",
       "size": "900x900mm",
       "packing": "4pcs / Box (3.24㎡)"
@@ -17910,7 +17910,7 @@ export const materials = [
     "name": "그레이지",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 젠",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "215a1e0eb2d782173af1d838a37e1e2d.png",
     "images": [
@@ -17918,7 +17918,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 젠",
       "thickness": "8.7T",
       "size": "597x597mm",
       "packing": "9pcs / Box (3.2㎡)"
@@ -17930,7 +17930,7 @@ export const materials = [
     "name": "뉴트럴 그레이",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 젠",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "4bc1fd5ecdb6e8701d9917098767cd72.png",
     "images": [
@@ -17938,7 +17938,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 젠",
       "thickness": "8.7T",
       "size": "597x597mm",
       "packing": "9pcs / Box (3.2㎡)"
@@ -17950,7 +17950,7 @@ export const materials = [
     "name": "리저브 스톤",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 젠",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "0b73673c76a3a25dd74e024a676c163a.png",
     "images": [
@@ -17958,7 +17958,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 젠",
       "thickness": "8.7T",
       "size": "597x597mm",
       "packing": "9pcs / Box (3.2㎡)"
@@ -17970,7 +17970,7 @@ export const materials = [
     "name": "모로칸 크림",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 젠",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "8544ba6305d2b5115b33e03495f0ce69.png",
     "images": [
@@ -17978,7 +17978,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 젠",
       "thickness": "8.7T",
       "size": "597x597mm",
       "packing": "9pcs / Box (3.2㎡)"
@@ -17990,7 +17990,7 @@ export const materials = [
     "name": "무디 블랙",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 젠",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "3768f9c6af991c7dd87fb6b3ff96c606.png",
     "images": [
@@ -17998,7 +17998,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 젠",
       "thickness": "8.7T",
       "size": "597x597mm",
       "packing": "9pcs / Box (3.2㎡)"
@@ -18010,7 +18010,7 @@ export const materials = [
     "name": "새틴 화이트",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 젠",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "1aeb59fe50b30ea807af07bdbf2c2129.png",
     "images": [
@@ -18018,7 +18018,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 젠",
       "thickness": "8.7T",
       "size": "597x597mm",
       "packing": "9pcs / Box (3.2㎡)"
@@ -18030,7 +18030,7 @@ export const materials = [
     "name": "샌드 테라조",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 젠",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "5afa7a136e6df6a01d2031f6f64df461.png",
     "images": [
@@ -18038,7 +18038,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 젠",
       "thickness": "8.7T",
       "size": "597x597mm",
       "packing": "9pcs / Box (3.2㎡)"
@@ -18050,7 +18050,7 @@ export const materials = [
     "name": "쉐도우 그레이",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 젠",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "81e8f6bb508c694b9dfebc7bcb511e77.png",
     "images": [
@@ -18058,7 +18058,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 젠",
       "thickness": "8.7T",
       "size": "597x597mm",
       "packing": "9pcs / Box (3.2㎡)"
@@ -18070,7 +18070,7 @@ export const materials = [
     "name": "스톤 그레이",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 젠",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "099652aea4c3f3f8c05699fcbe72bca0.png",
     "images": [
@@ -18078,7 +18078,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 젠",
       "thickness": "8.7T",
       "size": "597x597mm",
       "packing": "9pcs / Box (3.2㎡)"
@@ -18090,7 +18090,7 @@ export const materials = [
     "name": "스페이스 그레이",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 젠",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "14006e2421e0ef63710c4e89ebf62f7d.png",
     "images": [
@@ -18098,7 +18098,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 젠",
       "thickness": "8.7T",
       "size": "597x597mm",
       "packing": "9pcs / Box (3.2㎡)"
@@ -18110,7 +18110,7 @@ export const materials = [
     "name": "실버 문",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 젠",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "3112f5f68eafcc09a88a2301b58bb949.png",
     "images": [
@@ -18118,7 +18118,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 젠",
       "thickness": "8.7T",
       "size": "597x597mm",
       "packing": "9pcs / Box (3.2㎡)"
@@ -18130,7 +18130,7 @@ export const materials = [
     "name": "웜 브리즈",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 젠",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "d664c88494601fbe5be05961e41e54df.png",
     "images": [
@@ -18138,7 +18138,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 젠",
       "thickness": "8.7T",
       "size": "597x597mm",
       "packing": "9pcs / Box (3.2㎡)"
@@ -18150,7 +18150,7 @@ export const materials = [
     "name": "젠틀 판타지",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 젠",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "ea984c7acc6e5a5b0706ca9b16bdaf8f.png",
     "images": [
@@ -18158,7 +18158,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 젠",
       "thickness": "8.7T",
       "size": "597x597mm",
       "packing": "9pcs / Box (3.2㎡)"
@@ -18170,7 +18170,7 @@ export const materials = [
     "name": "크림 브륄레",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 젠",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "796b84760146960da36d4af5fba44a71.png",
     "images": [
@@ -18178,7 +18178,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 젠",
       "thickness": "8.7T",
       "size": "597x597mm",
       "packing": "9pcs / Box (3.2㎡)"
@@ -18190,7 +18190,7 @@ export const materials = [
     "name": "화이트 쇼어",
     "brand": "구정",
     "category": "마루",
-    "line": "타일마루_마뷸러스 젠",
+    "line": "타일마루",
     "price": 0,
     "thumbnail": "4fe54ad5b58ba986f66bb54e75796286.png",
     "images": [
@@ -18198,7 +18198,7 @@ export const materials = [
     ],
     "thickness": "8.7T",
     "specs": {
-      "division": "",
+      "division": "마뷸러스 젠",
       "thickness": "8.7T",
       "size": "597x597mm",
       "packing": "9pcs / Box (3.2㎡)"
@@ -18219,7 +18219,7 @@ export const materials = [
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "진 오리진",
       "thickness": "7.5T",
       "size": "190x1615mm",
       "packing": "1박스 (1.84 m²)"
@@ -18240,7 +18240,7 @@ export const materials = [
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "진 오리진",
       "thickness": "7.5T",
       "size": "190x1615mm",
       "packing": "1박스 (1.84 m²)"
@@ -18261,7 +18261,7 @@ export const materials = [
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "진 오리진",
       "thickness": "7.5T",
       "size": "190x1615mm",
       "packing": "1박스 (1.84 m²)"
@@ -18282,7 +18282,7 @@ export const materials = [
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "진 오리진",
       "thickness": "7.5T",
       "size": "190x1615mm",
       "packing": "1박스 (1.84 m²)"
@@ -18303,7 +18303,7 @@ export const materials = [
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "진 오리진",
       "thickness": "7.5T",
       "size": "190x1615mm",
       "packing": "1박스 (1.84 m²)"
@@ -18324,7 +18324,7 @@ export const materials = [
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "진 오리진",
       "thickness": "7.5T",
       "size": "190x1615mm",
       "packing": "1박스 (1.84 m²)"
@@ -18345,7 +18345,7 @@ export const materials = [
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "진 오리진",
       "thickness": "7.5T",
       "size": "190x1615mm",
       "packing": "1박스 (1.84 m²)"
@@ -18366,7 +18366,7 @@ export const materials = [
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "진 오리진",
       "thickness": "7.5T",
       "size": "190x1615mm",
       "packing": "1박스 (1.84 m²)"
@@ -18387,7 +18387,7 @@ export const materials = [
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "진 오리진",
       "thickness": "7.5T",
       "size": "190x1615mm",
       "packing": "1박스 (1.84 m²)"
@@ -18408,7 +18408,7 @@ export const materials = [
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "진 오리진",
       "thickness": "7.5T",
       "size": "190x1615mm",
       "packing": "1박스 (1.84 m²)"
@@ -18429,7 +18429,7 @@ export const materials = [
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "진 오리진",
       "thickness": "7.5T",
       "size": "190x1615mm",
       "packing": "1박스 (1.84 m²)"
@@ -18450,7 +18450,7 @@ export const materials = [
     "materialType": "진 오리진",
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "진 오리진",
       "thickness": "7.5T",
       "size": "190x1615mm",
       "packing": "1박스 (1.84 m²)"
@@ -18462,7 +18462,7 @@ export const materials = [
     "name": "N 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "세라",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "2ecb413abc020a9a030b4201f16d5d82.jpg",
     "images": [
@@ -18470,7 +18470,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라",
       "thickness": "7.5T",
       "size": "95x800mm",
       "packing": "박스단위"
@@ -18482,7 +18482,7 @@ export const materials = [
     "name": "골드 티크",
     "brand": "이건",
     "category": "마루",
-    "line": "세라",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "f0c672e9b235998ae77ff163146a4a2d.jpg",
     "images": [
@@ -18490,7 +18490,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라",
       "thickness": "7.5T",
       "size": "95x800mm",
       "packing": "박스단위"
@@ -18502,7 +18502,7 @@ export const materials = [
     "name": "노르딕 화이트",
     "brand": "이건",
     "category": "마루",
-    "line": "세라",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "784cdf61e77778e2465b989f39b003f8.jpg",
     "images": [
@@ -18510,7 +18510,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라",
       "thickness": "7.5T",
       "size": "95x800mm",
       "packing": "박스단위"
@@ -18522,7 +18522,7 @@ export const materials = [
     "name": "리사 화이트",
     "brand": "이건",
     "category": "마루",
-    "line": "세라",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "0b418ffc842d820553a9c57ec63cd923.jpg",
     "images": [
@@ -18530,7 +18530,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라",
       "thickness": "7.5T",
       "size": "95x800mm",
       "packing": "박스단위"
@@ -18542,7 +18542,7 @@ export const materials = [
     "name": "마일드 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "세라",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "bb3f79c92ce8d8d95c20204fb9cd173b.jpg",
     "images": [
@@ -18550,7 +18550,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라",
       "thickness": "7.5T",
       "size": "95x800mm",
       "packing": "박스단위"
@@ -18562,7 +18562,7 @@ export const materials = [
     "name": "브리티쉬 월넛",
     "brand": "이건",
     "category": "마루",
-    "line": "세라",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "906676b4662219fb05f5119c76a1f91c.jpg",
     "images": [
@@ -18570,7 +18570,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라",
       "thickness": "7.5T",
       "size": "95x800mm",
       "packing": "박스단위"
@@ -18582,7 +18582,7 @@ export const materials = [
     "name": "블랑 화이트",
     "brand": "이건",
     "category": "마루",
-    "line": "세라",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "73de0f57326255d440a25c609638569d.jpg",
     "images": [
@@ -18590,7 +18590,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라",
       "thickness": "7.5T",
       "size": "95x800mm",
       "packing": "박스단위"
@@ -18602,7 +18602,7 @@ export const materials = [
     "name": "빈티지 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "세라",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "32fec728e7e46f89dece72426b8ff7fa.jpg",
     "images": [
@@ -18610,7 +18610,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라",
       "thickness": "7.5T",
       "size": "95x800mm",
       "packing": "박스단위"
@@ -18622,7 +18622,7 @@ export const materials = [
     "name": "스노우 워시",
     "brand": "이건",
     "category": "마루",
-    "line": "세라",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "9d71010b688ee63d39e783ca6f5e7a22.jpg",
     "images": [
@@ -18630,7 +18630,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라",
       "thickness": "7.5T",
       "size": "95x800mm",
       "packing": "박스단위"
@@ -18642,7 +18642,7 @@ export const materials = [
     "name": "스타일리쉬 화이트",
     "brand": "이건",
     "category": "마루",
-    "line": "세라",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "bafad50e4cd23b042c016f7de863a57b.jpg",
     "images": [
@@ -18650,7 +18650,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라",
       "thickness": "7.5T",
       "size": "95x800mm",
       "packing": "박스단위"
@@ -18662,7 +18662,7 @@ export const materials = [
     "name": "시크 블랙",
     "brand": "이건",
     "category": "마루",
-    "line": "세라",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "c4881587f0b578bf75ed1bd32ff371c4.jpg",
     "images": [
@@ -18670,7 +18670,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라",
       "thickness": "7.5T",
       "size": "95x800mm",
       "packing": "박스단위"
@@ -18682,7 +18682,7 @@ export const materials = [
     "name": "애쉬 그레이",
     "brand": "이건",
     "category": "마루",
-    "line": "세라",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "b020d86ad9b179e8d9b3d2cadac89a4b.jpg",
     "images": [
@@ -18690,7 +18690,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라",
       "thickness": "7.5T",
       "size": "95x800mm",
       "packing": "박스단위"
@@ -18702,7 +18702,7 @@ export const materials = [
     "name": "오가닉 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "세라",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "ca8242eb187bdcd84864f26bba9044bd.jpg",
     "images": [
@@ -18710,7 +18710,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라",
       "thickness": "7.5T",
       "size": "95x800mm",
       "packing": "박스단위"
@@ -18722,7 +18722,7 @@ export const materials = [
     "name": "오슬로 베이지",
     "brand": "이건",
     "category": "마루",
-    "line": "세라",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "d7dd9fe648438abec1c7085952e21ee7.jpg",
     "images": [
@@ -18730,7 +18730,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라",
       "thickness": "7.5T",
       "size": "95x800mm",
       "packing": "박스단위"
@@ -18742,7 +18742,7 @@ export const materials = [
     "name": "월넛",
     "brand": "이건",
     "category": "마루",
-    "line": "세라",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "97a6622368ad50efd190764cd63ebf6f.jpg",
     "images": [
@@ -18750,7 +18750,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라",
       "thickness": "7.5T",
       "size": "95x800mm",
       "packing": "박스단위"
@@ -18762,7 +18762,7 @@ export const materials = [
     "name": "유러피안 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "세라",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "dfc459095c022ccdccc79a4947fb23c0.jpg",
     "images": [
@@ -18770,7 +18770,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라",
       "thickness": "7.5T",
       "size": "95x800mm",
       "packing": "박스단위"
@@ -18782,7 +18782,7 @@ export const materials = [
     "name": "코지 그레이",
     "brand": "이건",
     "category": "마루",
-    "line": "세라",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "ea35c314fe80872cf2ef66de2975e51f.jpg",
     "images": [
@@ -18790,7 +18790,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라",
       "thickness": "7.5T",
       "size": "95x800mm",
       "packing": "박스단위"
@@ -18802,7 +18802,7 @@ export const materials = [
     "name": "코튼 화이트",
     "brand": "이건",
     "category": "마루",
-    "line": "세라",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "789682efefbd184d0135030e9a4fb247.jpg",
     "images": [
@@ -18810,7 +18810,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라",
       "thickness": "7.5T",
       "size": "95x800mm",
       "packing": "박스단위"
@@ -18822,7 +18822,7 @@ export const materials = [
     "name": "크리미 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "세라",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "dfcbf694f2221bfcdd80b56c91b9c3e0.jpg",
     "images": [
@@ -18830,7 +18830,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라",
       "thickness": "7.5T",
       "size": "95x800mm",
       "packing": "박스단위"
@@ -18842,7 +18842,7 @@ export const materials = [
     "name": "클래식 티크",
     "brand": "이건",
     "category": "마루",
-    "line": "세라",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "0bb9010a19e241ce6a93b337be9f1874.jpg",
     "images": [
@@ -18850,7 +18850,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라",
       "thickness": "7.5T",
       "size": "95x800mm",
       "packing": "박스단위"
@@ -18862,7 +18862,7 @@ export const materials = [
     "name": "티크",
     "brand": "이건",
     "category": "마루",
-    "line": "세라",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "dd7b507d901eb775165150b3586a135d.jpg",
     "images": [
@@ -18870,7 +18870,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라",
       "thickness": "7.5T",
       "size": "95x800mm",
       "packing": "박스단위"
@@ -18882,7 +18882,7 @@ export const materials = [
     "name": "플로랄 화이트",
     "brand": "이건",
     "category": "마루",
-    "line": "세라",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "bbbdabc7d512b830e94be404f5b4a322.jpg",
     "images": [
@@ -18890,7 +18890,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라",
       "thickness": "7.5T",
       "size": "95x800mm",
       "packing": "박스단위"
@@ -18902,7 +18902,7 @@ export const materials = [
     "name": "화이트 애쉬",
     "brand": "이건",
     "category": "마루",
-    "line": "세라",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "061d99ca0a0654a35c3c07bfdae43b77.jpg",
     "images": [
@@ -18910,7 +18910,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라",
       "thickness": "7.5T",
       "size": "95x800mm",
       "packing": "박스단위"
@@ -18922,7 +18922,7 @@ export const materials = [
     "name": "화이트 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "세라",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "a3264b2256da74e60eb7dec31beb6a58.jpg",
     "images": [
@@ -18930,7 +18930,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라",
       "thickness": "7.5T",
       "size": "95x800mm",
       "packing": "박스단위"
@@ -18942,12 +18942,19 @@ export const materials = [
     "name": "노블리 화이트",
     "brand": "이건",
     "category": "마루",
-    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "7eac5880123b8011d0cab7fecbdcd4ad.jpg",
     "images": [
       "7eac5880123b8011d0cab7fecbdcd4ad.jpg"
-    ]
+    ],
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 143",
+      "thickness": "7.5T",
+      "size": "143x1200mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-강마루_세라_세라 플렉스S_세라 플렉스 143_데일리 오크",
@@ -18955,12 +18962,19 @@ export const materials = [
     "name": "데일리 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "8691ab19497b4c2e60b57fcf0067e0e7.jpg",
     "images": [
       "8691ab19497b4c2e60b57fcf0067e0e7.jpg"
-    ]
+    ],
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 143",
+      "thickness": "7.5T",
+      "size": "143x1200mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-강마루_세라_세라 플렉스S_세라 플렉스 143_러블리 베이지",
@@ -18968,12 +18982,19 @@ export const materials = [
     "name": "러블리 베이지",
     "brand": "이건",
     "category": "마루",
-    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "08210e8623cead00bc0c77e25303acd7.jpg",
     "images": [
       "08210e8623cead00bc0c77e25303acd7.jpg"
-    ]
+    ],
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 143",
+      "thickness": "7.5T",
+      "size": "143x1200mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-강마루_세라_세라 플렉스S_세라 플렉스 143_리얼리 오크",
@@ -18981,12 +19002,19 @@ export const materials = [
     "name": "리얼리 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "ea3dc0794eb33db7eb38c7d8afb21a8e.jpg",
     "images": [
       "ea3dc0794eb33db7eb38c7d8afb21a8e.jpg"
-    ]
+    ],
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 143",
+      "thickness": "7.5T",
+      "size": "143x1200mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-강마루_세라_세라 플렉스S_세라 플렉스 143_밀리 그레이",
@@ -18994,12 +19022,19 @@ export const materials = [
     "name": "밀리 그레이",
     "brand": "이건",
     "category": "마루",
-    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "af5345db7a6d7552ea9b4a4c2a69be89.jpg",
     "images": [
       "af5345db7a6d7552ea9b4a4c2a69be89.jpg"
-    ]
+    ],
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 143",
+      "thickness": "7.5T",
+      "size": "143x1200mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-강마루_세라_세라 플렉스S_세라 플렉스 143_심플리 화이트",
@@ -19007,12 +19042,19 @@ export const materials = [
     "name": "심플리 화이트",
     "brand": "이건",
     "category": "마루",
-    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "3d22cf52c1b090ac8e6ba09e775eafc5.jpg",
     "images": [
       "3d22cf52c1b090ac8e6ba09e775eafc5.jpg"
-    ]
+    ],
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 143",
+      "thickness": "7.5T",
+      "size": "143x1200mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-강마루_세라_세라 플렉스S_세라 플렉스 143_온리 블랙",
@@ -19020,12 +19062,19 @@ export const materials = [
     "name": "온리 블랙",
     "brand": "이건",
     "category": "마루",
-    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "b16a28a60fe35fdc927b0cdc4a0e33ac.jpg",
     "images": [
       "b16a28a60fe35fdc927b0cdc4a0e33ac.jpg"
-    ]
+    ],
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 143",
+      "thickness": "7.5T",
+      "size": "143x1200mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-강마루_세라_세라 플렉스S_세라 플렉스 143_위클리 브라운",
@@ -19033,12 +19082,19 @@ export const materials = [
     "name": "위클리 브라운",
     "brand": "이건",
     "category": "마루",
-    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "f02875a0eafdc60f4d46844f87735e97.jpg",
     "images": [
       "f02875a0eafdc60f4d46844f87735e97.jpg"
-    ]
+    ],
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 143",
+      "thickness": "7.5T",
+      "size": "143x1200mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-강마루_세라_세라 플렉스S_세라 플렉스 143_젠틀리 티크",
@@ -19046,12 +19102,19 @@ export const materials = [
     "name": "젠틀리 티크",
     "brand": "이건",
     "category": "마루",
-    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "4be05541e88610126a515cb941672ffc.jpg",
     "images": [
       "4be05541e88610126a515cb941672ffc.jpg"
-    ]
+    ],
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 143",
+      "thickness": "7.5T",
+      "size": "143x1200mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-강마루_세라_세라 플렉스S_세라 플렉스 143_카믈리 아이보리",
@@ -19059,12 +19122,19 @@ export const materials = [
     "name": "카믈리 아이보리",
     "brand": "이건",
     "category": "마루",
-    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "12dbc4150a5f981c2a55b27f7b3212de.jpg",
     "images": [
       "12dbc4150a5f981c2a55b27f7b3212de.jpg"
-    ]
+    ],
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 143",
+      "thickness": "7.5T",
+      "size": "143x1200mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-강마루_세라_세라 플렉스S_세라 플렉스 143_퓨얼리 오크",
@@ -19072,12 +19142,19 @@ export const materials = [
     "name": "퓨얼리 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "e537093235236de047620765a7bb85bd.jpg",
     "images": [
       "e537093235236de047620765a7bb85bd.jpg"
-    ]
+    ],
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 143",
+      "thickness": "7.5T",
+      "size": "143x1200mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-강마루_세라_세라베이직_베이직 밀크",
@@ -19085,7 +19162,7 @@ export const materials = [
     "name": "베이직 밀크",
     "brand": "이건",
     "category": "마루",
-    "line": "세라 베이직",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "d0685d4404233669d9ff58c37c676470.jpg",
     "images": [
@@ -19093,7 +19170,7 @@ export const materials = [
     ],
     "thickness": "6.2T",
     "specs": {
-      "division": "",
+      "division": "세라 베이직",
       "thickness": "6.2T",
       "size": "115x800mm",
       "packing": "박스단위"
@@ -19105,7 +19182,7 @@ export const materials = [
     "name": "베이직 바닐라",
     "brand": "이건",
     "category": "마루",
-    "line": "세라 베이직",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "ccc47dcba3b9bbc3f1a937830642557e.jpg",
     "images": [
@@ -19113,7 +19190,7 @@ export const materials = [
     ],
     "thickness": "6.2T",
     "specs": {
-      "division": "",
+      "division": "세라 베이직",
       "thickness": "6.2T",
       "size": "115x800mm",
       "packing": "박스단위"
@@ -19125,7 +19202,7 @@ export const materials = [
     "name": "베이직 버터",
     "brand": "이건",
     "category": "마루",
-    "line": "세라 베이직",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "98ec20625dfcaaf9a764c034b31925ad.jpg",
     "images": [
@@ -19133,7 +19210,7 @@ export const materials = [
     ],
     "thickness": "6.2T",
     "specs": {
-      "division": "",
+      "division": "세라 베이직",
       "thickness": "6.2T",
       "size": "115x800mm",
       "packing": "박스단위"
@@ -19145,7 +19222,7 @@ export const materials = [
     "name": "베이직 슈가",
     "brand": "이건",
     "category": "마루",
-    "line": "세라 베이직",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "84a7299b2f74204112dc9c1d84c4218e.jpg",
     "images": [
@@ -19153,7 +19230,7 @@ export const materials = [
     ],
     "thickness": "6.2T",
     "specs": {
-      "division": "",
+      "division": "세라 베이직",
       "thickness": "6.2T",
       "size": "115x800mm",
       "packing": "박스단위"
@@ -19165,7 +19242,7 @@ export const materials = [
     "name": "베이직 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "세라 베이직",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "247756c0a4d49c7470e302e98f16ec6e.jpg",
     "images": [
@@ -19173,7 +19250,7 @@ export const materials = [
     ],
     "thickness": "6.2T",
     "specs": {
-      "division": "",
+      "division": "세라 베이직",
       "thickness": "6.2T",
       "size": "115x800mm",
       "packing": "박스단위"
@@ -19185,7 +19262,7 @@ export const materials = [
     "name": "베이직 쿠키",
     "brand": "이건",
     "category": "마루",
-    "line": "세라 베이직",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "b863040857bb420f62b272f30b5e18cd.jpg",
     "images": [
@@ -19193,7 +19270,7 @@ export const materials = [
     ],
     "thickness": "6.2T",
     "specs": {
-      "division": "",
+      "division": "세라 베이직",
       "thickness": "6.2T",
       "size": "115x800mm",
       "packing": "박스단위"
@@ -19205,7 +19282,7 @@ export const materials = [
     "name": "베이직 크림",
     "brand": "이건",
     "category": "마루",
-    "line": "세라 베이직",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "dfe4fea1d4949950d85d437d5a05655e.jpg",
     "images": [
@@ -19213,7 +19290,7 @@ export const materials = [
     ],
     "thickness": "6.2T",
     "specs": {
-      "division": "",
+      "division": "세라 베이직",
       "thickness": "6.2T",
       "size": "115x800mm",
       "packing": "박스단위"
@@ -19225,7 +19302,7 @@ export const materials = [
     "name": "베이직 티크",
     "brand": "이건",
     "category": "마루",
-    "line": "세라 베이직",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "d936b6b56cb186a54cf0b8200d13ff9c.jpg",
     "images": [
@@ -19233,7 +19310,7 @@ export const materials = [
     ],
     "thickness": "6.2T",
     "specs": {
-      "division": "",
+      "division": "세라 베이직",
       "thickness": "6.2T",
       "size": "115x800mm",
       "packing": "박스단위"
@@ -19245,7 +19322,7 @@ export const materials = [
     "name": "그라노 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "세라 블렌딩",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "cc47610b85314e0197e04a597de4ea24.jpg",
     "images": [
@@ -19253,7 +19330,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라 블렌딩",
       "thickness": "7.5T",
       "size": "115x800mm",
       "packing": "박스단위"
@@ -19265,7 +19342,7 @@ export const materials = [
     "name": "내추럴 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "세라 블렌딩",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "a28d8be78850c3e6923881e4ea8482d2.jpg",
     "images": [
@@ -19273,7 +19350,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라 블렌딩",
       "thickness": "7.5T",
       "size": "115x800mm",
       "packing": "박스단위"
@@ -19285,7 +19362,7 @@ export const materials = [
     "name": "로맨틱 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "세라 블렌딩",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "9365424e137fabd6b30b8fcf331d5739.jpg",
     "images": [
@@ -19293,7 +19370,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라 블렌딩",
       "thickness": "7.5T",
       "size": "115x800mm",
       "packing": "박스단위"
@@ -19305,7 +19382,7 @@ export const materials = [
     "name": "브리티쉬 티크",
     "brand": "이건",
     "category": "마루",
-    "line": "세라 블렌딩",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "aa26aa7ca225b67e423dec543cf25ff0.jpg",
     "images": [
@@ -19313,7 +19390,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라 블렌딩",
       "thickness": "7.5T",
       "size": "115x800mm",
       "packing": "박스단위"
@@ -19325,7 +19402,7 @@ export const materials = [
     "name": "비앙코",
     "brand": "이건",
     "category": "마루",
-    "line": "세라 블렌딩",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "8c26131107121be08b05dd2cf1cb2f73.jpg",
     "images": [
@@ -19333,7 +19410,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라 블렌딩",
       "thickness": "7.5T",
       "size": "115x800mm",
       "packing": "박스단위"
@@ -19345,7 +19422,7 @@ export const materials = [
     "name": "스톤 그레이",
     "brand": "이건",
     "category": "마루",
-    "line": "세라 블렌딩",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "b22465fae2653f9c6d6546b5ad56d533.jpg",
     "images": [
@@ -19353,7 +19430,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라 블렌딩",
       "thickness": "7.5T",
       "size": "115x800mm",
       "packing": "박스단위"
@@ -19365,7 +19442,7 @@ export const materials = [
     "name": "오프 화이트",
     "brand": "이건",
     "category": "마루",
-    "line": "세라 블렌딩",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "a7fac8069631469394b0895e4e8507af.jpg",
     "images": [
@@ -19373,7 +19450,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라 블렌딩",
       "thickness": "7.5T",
       "size": "115x800mm",
       "packing": "박스단위"
@@ -19385,7 +19462,7 @@ export const materials = [
     "name": "크래프트 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "세라 블렌딩",
+    "line": "강마루",
     "price": 0,
     "thumbnail": "53b433bc11471a48d4d4084cbd4b0c47.jpg",
     "images": [
@@ -19393,7 +19470,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "세라 블렌딩",
       "thickness": "7.5T",
       "size": "115x800mm",
       "packing": "박스단위"
@@ -19405,7 +19482,7 @@ export const materials = [
     "name": "미스트",
     "brand": "이건",
     "category": "마루",
-    "line": "라르고 솔레 150 T4",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "578d24ceddfb7776f07ea58dc745450f.jpg",
     "images": [
@@ -19413,7 +19490,7 @@ export const materials = [
     ],
     "thickness": "11.5T(1.2)",
     "specs": {
-      "division": "",
+      "division": "라르고 솔레 150 T4",
       "thickness": "11.5T(1.2)",
       "size": "150x1200mm",
       "packing": "박스단위"
@@ -19425,7 +19502,7 @@ export const materials = [
     "name": "샌드",
     "brand": "이건",
     "category": "마루",
-    "line": "라르고 솔레 150 T4",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "88929871a329fd64a8fdb808bd245274.jpg",
     "images": [
@@ -19433,7 +19510,7 @@ export const materials = [
     ],
     "thickness": "11.5T(1.2)",
     "specs": {
-      "division": "",
+      "division": "라르고 솔레 150 T4",
       "thickness": "11.5T(1.2)",
       "size": "150x1200mm",
       "packing": "박스단위"
@@ -19445,7 +19522,7 @@ export const materials = [
     "name": "썬라이즈",
     "brand": "이건",
     "category": "마루",
-    "line": "라르고 솔레 150 T4",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "195a6e9d8df87a40255ffba4c26a2be2.jpg",
     "images": [
@@ -19453,7 +19530,7 @@ export const materials = [
     ],
     "thickness": "11.5T(1.2)",
     "specs": {
-      "division": "",
+      "division": "라르고 솔레 150 T4",
       "thickness": "11.5T(1.2)",
       "size": "150x1200mm",
       "packing": "박스단위"
@@ -19465,7 +19542,7 @@ export const materials = [
     "name": "썬셋",
     "brand": "이건",
     "category": "마루",
-    "line": "라르고 솔레 150 T4",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "8a2f717751e50edf8831be37bfc0549b.jpg",
     "images": [
@@ -19473,7 +19550,7 @@ export const materials = [
     ],
     "thickness": "11.5T(1.2)",
     "specs": {
-      "division": "",
+      "division": "라르고 솔레 150 T4",
       "thickness": "11.5T(1.2)",
       "size": "150x1200mm",
       "packing": "박스단위"
@@ -19485,7 +19562,7 @@ export const materials = [
     "name": "오크 에스",
     "brand": "이건",
     "category": "마루",
-    "line": "라르고 솔레 150 T4",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "77d801b7b2bcf1c057b46d5d2880a546.jpg",
     "images": [
@@ -19493,7 +19570,7 @@ export const materials = [
     ],
     "thickness": "11.5T(1.2)",
     "specs": {
-      "division": "",
+      "division": "라르고 솔레 150 T4",
       "thickness": "11.5T(1.2)",
       "size": "150x1200mm",
       "packing": "박스단위"
@@ -19505,7 +19582,7 @@ export const materials = [
     "name": "티크 에스",
     "brand": "이건",
     "category": "마루",
-    "line": "라르고 솔레 150 T4",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "1e05d3e77cebf9c3201fcd08a28a5f68.jpg",
     "images": [
@@ -19513,7 +19590,7 @@ export const materials = [
     ],
     "thickness": "11.5T(1.2)",
     "specs": {
-      "division": "",
+      "division": "라르고 솔레 150 T4",
       "thickness": "11.5T(1.2)",
       "size": "150x1200mm",
       "packing": "박스단위"
@@ -19525,7 +19602,7 @@ export const materials = [
     "name": "샌드",
     "brand": "이건",
     "category": "마루",
-    "line": "라르고 솔레 190 T1",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "3c8aebfbc4dc2b60f6d8b2d6ce6f8917.jpg",
     "images": [
@@ -19533,7 +19610,7 @@ export const materials = [
     ],
     "thickness": "11.5T(1.2)",
     "specs": {
-      "division": "",
+      "division": "라르고 솔레 190 T1",
       "thickness": "11.5T(1.2)",
       "size": "190x1900mm",
       "packing": "박스단위"
@@ -19545,7 +19622,7 @@ export const materials = [
     "name": "썬라이즈",
     "brand": "이건",
     "category": "마루",
-    "line": "라르고 솔레 190 T1",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "9290bbbe2f42daf38ab439bdea7859d3.jpg",
     "images": [
@@ -19553,7 +19630,7 @@ export const materials = [
     ],
     "thickness": "11.5T(1.2)",
     "specs": {
-      "division": "",
+      "division": "라르고 솔레 190 T1",
       "thickness": "11.5T(1.2)",
       "size": "190x1900mm",
       "packing": "박스단위"
@@ -19565,7 +19642,7 @@ export const materials = [
     "name": "오크 에스",
     "brand": "이건",
     "category": "마루",
-    "line": "라르고 솔레 190 T1",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "5aa9fca01b42a083ecf344f7f4a1ff92.jpg",
     "images": [
@@ -19573,7 +19650,7 @@ export const materials = [
     ],
     "thickness": "11.5T(1.2)",
     "specs": {
-      "division": "",
+      "division": "라르고 솔레 190 T1",
       "thickness": "11.5T(1.2)",
       "size": "190x1900mm",
       "packing": "박스단위"
@@ -19585,7 +19662,7 @@ export const materials = [
     "name": "이클립스",
     "brand": "이건",
     "category": "마루",
-    "line": "라르고 솔레 190 T1",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "d7272e93356fce950eb7763ac3804de3.jpg",
     "images": [
@@ -19593,7 +19670,7 @@ export const materials = [
     ],
     "thickness": "11.5T(1.2)",
     "specs": {
-      "division": "",
+      "division": "라르고 솔레 190 T1",
       "thickness": "11.5T(1.2)",
       "size": "190x1900mm",
       "packing": "박스단위"
@@ -19605,7 +19682,7 @@ export const materials = [
     "name": "큐물러스",
     "brand": "이건",
     "category": "마루",
-    "line": "라르고 솔레 190 T1",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "3fcc5b07c3dd97a59252b2bf2cd709ec.jpg",
     "images": [
@@ -19613,7 +19690,7 @@ export const materials = [
     ],
     "thickness": "11.5T(1.2)",
     "specs": {
-      "division": "",
+      "division": "라르고 솔레 190 T1",
       "thickness": "11.5T(1.2)",
       "size": "190x1900mm",
       "packing": "박스단위"
@@ -19625,7 +19702,7 @@ export const materials = [
     "name": "티크 에스",
     "brand": "이건",
     "category": "마루",
-    "line": "라르고 솔레 190 T1",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "443e60a9129a8138604edb810e4c57cc.jpg",
     "images": [
@@ -19633,7 +19710,7 @@ export const materials = [
     ],
     "thickness": "11.5T(1.2)",
     "specs": {
-      "division": "",
+      "division": "라르고 솔레 190 T1",
       "thickness": "11.5T(1.2)",
       "size": "190x1900mm",
       "packing": "박스단위"
@@ -19645,7 +19722,7 @@ export const materials = [
     "name": "미스트",
     "brand": "이건",
     "category": "마루",
-    "line": "라르고 솔레 190 T3",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "9b29bbcb0b00fa62c2fe3fd43e5e5c6c.jpg",
     "images": [
@@ -19653,7 +19730,7 @@ export const materials = [
     ],
     "thickness": "14T(3)",
     "specs": {
-      "division": "",
+      "division": "라르고 솔레 190 T3",
       "thickness": "14T(3)",
       "size": "190x1900mm",
       "packing": "박스단위"
@@ -19665,7 +19742,7 @@ export const materials = [
     "name": "샌드",
     "brand": "이건",
     "category": "마루",
-    "line": "라르고 솔레 190 T3",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "60a8178383a1071c3f6b8b3ed026a0be.jpg",
     "images": [
@@ -19673,7 +19750,7 @@ export const materials = [
     ],
     "thickness": "14T(3)",
     "specs": {
-      "division": "",
+      "division": "라르고 솔레 190 T3",
       "thickness": "14T(3)",
       "size": "190x1900mm",
       "packing": "박스단위"
@@ -19685,7 +19762,7 @@ export const materials = [
     "name": "썬라이즈",
     "brand": "이건",
     "category": "마루",
-    "line": "라르고 솔레 190 T3",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "9d7d0256f345ea7242233253ef28d36b.jpg",
     "images": [
@@ -19693,7 +19770,7 @@ export const materials = [
     ],
     "thickness": "14T(3)",
     "specs": {
-      "division": "",
+      "division": "라르고 솔레 190 T3",
       "thickness": "14T(3)",
       "size": "190x1900mm",
       "packing": "박스단위"
@@ -19705,7 +19782,7 @@ export const materials = [
     "name": "썬셋",
     "brand": "이건",
     "category": "마루",
-    "line": "라르고 솔레 190 T3",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "0b74f7b1659ad026679b9d997c97f96e.jpg",
     "images": [
@@ -19713,7 +19790,7 @@ export const materials = [
     ],
     "thickness": "14T(3)",
     "specs": {
-      "division": "",
+      "division": "라르고 솔레 190 T3",
       "thickness": "14T(3)",
       "size": "190x1900mm",
       "packing": "박스단위"
@@ -19725,7 +19802,7 @@ export const materials = [
     "name": "오크 에스",
     "brand": "이건",
     "category": "마루",
-    "line": "라르고 솔레 190 T3",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "1a958e615e19b33517135be6d73456fd.jpg",
     "images": [
@@ -19733,7 +19810,7 @@ export const materials = [
     ],
     "thickness": "14T(3)",
     "specs": {
-      "division": "",
+      "division": "라르고 솔레 190 T3",
       "thickness": "14T(3)",
       "size": "190x1900mm",
       "packing": "박스단위"
@@ -19745,7 +19822,7 @@ export const materials = [
     "name": "티크 에스",
     "brand": "이건",
     "category": "마루",
-    "line": "라르고 솔레 190 T3",
+    "line": "원목마루",
     "price": 0,
     "thumbnail": "0dc69035ef0c8ee7963c3b648eeebe8b.jpg",
     "images": [
@@ -19753,7 +19830,7 @@ export const materials = [
     ],
     "thickness": "14T(3)",
     "specs": {
-      "division": "",
+      "division": "라르고 솔레 190 T3",
       "thickness": "14T(3)",
       "size": "190x1900mm",
       "packing": "박스단위"
@@ -19765,7 +19842,7 @@ export const materials = [
     "name": "메이플",
     "brand": "이건",
     "category": "마루",
-    "line": "제나 내추럴",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "aa3b18b7717fdbaf8ab29b4a6d45b14a.jpg",
     "images": [
@@ -19773,7 +19850,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "제나 내추럴",
       "thickness": "7.5T",
       "size": "75x900mm",
       "packing": "박스단위"
@@ -19785,7 +19862,7 @@ export const materials = [
     "name": "버찌",
     "brand": "이건",
     "category": "마루",
-    "line": "제나 내추럴",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "df94495d3c7d1ed4f4e5e2760cb919aa.jpg",
     "images": [
@@ -19793,7 +19870,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "제나 내추럴",
       "thickness": "7.5T",
       "size": "75x900mm",
       "packing": "박스단위"
@@ -19805,7 +19882,7 @@ export const materials = [
     "name": "비치",
     "brand": "이건",
     "category": "마루",
-    "line": "제나 내추럴",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "17d8be93621e668cd685e8a7a544f1df.jpg",
     "images": [
@@ -19813,7 +19890,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "제나 내추럴",
       "thickness": "7.5T",
       "size": "75x900mm",
       "packing": "박스단위"
@@ -19825,7 +19902,7 @@ export const materials = [
     "name": "스노우 워시",
     "brand": "이건",
     "category": "마루",
-    "line": "제나 내추럴",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "e8185fb8035b8b0f3a8bb30e805c583b.jpg",
     "images": [
@@ -19833,7 +19910,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "제나 내추럴",
       "thickness": "7.5T",
       "size": "75x900mm",
       "packing": "박스단위"
@@ -19845,7 +19922,7 @@ export const materials = [
     "name": "오크 화이트",
     "brand": "이건",
     "category": "마루",
-    "line": "제나 내추럴",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "ca49ae65bb22f866a129419decb03442.jpg",
     "images": [
@@ -19853,7 +19930,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "제나 내추럴",
       "thickness": "7.5T",
       "size": "75x900mm",
       "packing": "박스단위"
@@ -19865,7 +19942,7 @@ export const materials = [
     "name": "오크",
     "brand": "이건",
     "category": "마루",
-    "line": "제나 내추럴",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "9065b3544be8714ec2b2ed21dd0026b6.jpg",
     "images": [
@@ -19873,7 +19950,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "제나 내추럴",
       "thickness": "7.5T",
       "size": "90x900mm",
       "packing": "박스단위"
@@ -19885,7 +19962,7 @@ export const materials = [
     "name": "월넛",
     "brand": "이건",
     "category": "마루",
-    "line": "제나 내추럴",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "b7bd8df0892798a5fa50f2d635a98693.jpg",
     "images": [
@@ -19893,7 +19970,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "제나 내추럴",
       "thickness": "7.5T",
       "size": "75x900mm",
       "packing": "박스단위"
@@ -19905,7 +19982,7 @@ export const materials = [
     "name": "유로 화이트",
     "brand": "이건",
     "category": "마루",
-    "line": "제나 내추럴",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "fe7682bfe2b074b72dcda25257daa256.jpg",
     "images": [
@@ -19913,7 +19990,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "제나 내추럴",
       "thickness": "7.5T",
       "size": "75x900mm",
       "packing": "박스단위"
@@ -19925,7 +20002,7 @@ export const materials = [
     "name": "체리 A",
     "brand": "이건",
     "category": "마루",
-    "line": "제나 내추럴",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "7858d633ffe6d6da45a85bb06cd006f9.jpg",
     "images": [
@@ -19933,7 +20010,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "제나 내추럴",
       "thickness": "7.5T",
       "size": "75x900mm",
       "packing": "박스단위"
@@ -19945,7 +20022,7 @@ export const materials = [
     "name": "체리 M",
     "brand": "이건",
     "category": "마루",
-    "line": "제나 내추럴",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "d53bf59d88bbd9f350001258bcb6e5f3.jpg",
     "images": [
@@ -19953,7 +20030,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "제나 내추럴",
       "thickness": "7.5T",
       "size": "75x900mm",
       "packing": "박스단위"
@@ -19965,7 +20042,7 @@ export const materials = [
     "name": "티크",
     "brand": "이건",
     "category": "마루",
-    "line": "제나 내추럴",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "8db648994265b82a5142f6db0219415f.jpg",
     "images": [
@@ -19973,7 +20050,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "제나 내추럴",
       "thickness": "7.5T",
       "size": "90x900mm",
       "packing": "박스단위"
@@ -19985,7 +20062,7 @@ export const materials = [
     "name": "화이트 워시",
     "brand": "이건",
     "category": "마루",
-    "line": "제나 내추럴",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "f5574c735932b7c7fe32d6e8ebc0d162.jpg",
     "images": [
@@ -19993,7 +20070,7 @@ export const materials = [
     ],
     "thickness": "7.5T",
     "specs": {
-      "division": "",
+      "division": "제나 내추럴",
       "thickness": "7.5T",
       "size": "75x900mm",
       "packing": "박스단위"
@@ -20005,7 +20082,7 @@ export const materials = [
     "name": "도브 그레이",
     "brand": "이건",
     "category": "마루",
-    "line": "포레스타",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "a01184c62074e511c9eda2eacf8687ba.jpg",
     "images": [
@@ -20013,7 +20090,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "포레스타",
       "thickness": "10.5T",
       "size": "165x1200mm",
       "packing": "박스단위"
@@ -20025,7 +20102,7 @@ export const materials = [
     "name": "루나 블랙",
     "brand": "이건",
     "category": "마루",
-    "line": "포레스타",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "4eabaacf89452deee6592a6d23440320.jpg",
     "images": [
@@ -20033,7 +20110,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "포레스타",
       "thickness": "10.5T",
       "size": "165x1200mm",
       "packing": "박스단위"
@@ -20045,7 +20122,7 @@ export const materials = [
     "name": "스완 베이지",
     "brand": "이건",
     "category": "마루",
-    "line": "포레스타",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "7e130e16b84ec900446c56448507d6b1.jpg",
     "images": [
@@ -20053,7 +20130,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "포레스타",
       "thickness": "10.5T",
       "size": "165x1200mm",
       "packing": "박스단위"
@@ -20065,7 +20142,7 @@ export const materials = [
     "name": "애쉬 블론드",
     "brand": "이건",
     "category": "마루",
-    "line": "포레스타",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "820976909e28619ffb5085f4216618cb.jpg",
     "images": [
@@ -20073,7 +20150,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "포레스타",
       "thickness": "10.5T",
       "size": "165x1200mm",
       "packing": "박스단위"
@@ -20085,7 +20162,7 @@ export const materials = [
     "name": "어텀 브라운",
     "brand": "이건",
     "category": "마루",
-    "line": "포레스타",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "b6e0033befd442dbde922c97534bfd5e.jpg",
     "images": [
@@ -20093,7 +20170,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "포레스타",
       "thickness": "10.5T",
       "size": "165x1200mm",
       "packing": "박스단위"
@@ -20105,7 +20182,7 @@ export const materials = [
     "name": "오크 에스",
     "brand": "이건",
     "category": "마루",
-    "line": "포레스타",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "5d61ede574a6183a82767e1c621ecf23.jpg",
     "images": [
@@ -20113,7 +20190,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "포레스타",
       "thickness": "10.5T",
       "size": "165x1200mm",
       "packing": "박스단위"
@@ -20125,7 +20202,7 @@ export const materials = [
     "name": "오크 퓸",
     "brand": "이건",
     "category": "마루",
-    "line": "포레스타",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "3edbb4d4b92707f15660789b8aaa69b2.jpg",
     "images": [
@@ -20133,7 +20210,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "포레스타",
       "thickness": "10.5T",
       "size": "165x1200mm",
       "packing": "박스단위"
@@ -20145,7 +20222,7 @@ export const materials = [
     "name": "티크 에스",
     "brand": "이건",
     "category": "마루",
-    "line": "포레스타",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "ec9358784b25dc56bb8a68ffcbc38c94.jpg",
     "images": [
@@ -20153,7 +20230,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "포레스타",
       "thickness": "10.5T",
       "size": "165x1200mm",
       "packing": "박스단위"
@@ -20165,7 +20242,7 @@ export const materials = [
     "name": "매리골드",
     "brand": "이건",
     "category": "마루",
-    "line": "포레스타 G",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "a812ddbf535d8d02d8c170b33443a48a.jpg",
     "images": [
@@ -20173,7 +20250,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "포레스타 G",
       "thickness": "10.5T",
       "size": "190x1615mm",
       "packing": "박스단위"
@@ -20185,7 +20262,7 @@ export const materials = [
     "name": "아몬드 옐로우",
     "brand": "이건",
     "category": "마루",
-    "line": "포레스타 G",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "00fd3f9f6d2dc2c04656fc3ef1c853ae.jpg",
     "images": [
@@ -20193,7 +20270,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "포레스타 G",
       "thickness": "10.5T",
       "size": "190x1615mm",
       "packing": "박스단위"
@@ -20205,7 +20282,7 @@ export const materials = [
     "name": "오닉스 블랙",
     "brand": "이건",
     "category": "마루",
-    "line": "포레스타 G",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "358c613d3259ce298d03a5b4d69498ca.jpg",
     "images": [
@@ -20213,7 +20290,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "포레스타 G",
       "thickness": "10.5T",
       "size": "190x1615mm",
       "packing": "박스단위"
@@ -20225,7 +20302,7 @@ export const materials = [
     "name": "캐시미어 화이트",
     "brand": "이건",
     "category": "마루",
-    "line": "포레스타 G",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "3c78e2a6123b28242502dec9d0ec00e7.jpg",
     "images": [
@@ -20233,7 +20310,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "포레스타 G",
       "thickness": "10.5T",
       "size": "190x1615mm",
       "packing": "박스단위"
@@ -20245,7 +20322,7 @@ export const materials = [
     "name": "포그 그레이",
     "brand": "이건",
     "category": "마루",
-    "line": "포레스타 G",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "6f137b5ce9a90d3d37de57c940c9b311.jpg",
     "images": [
@@ -20253,7 +20330,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "포레스타 G",
       "thickness": "10.5T",
       "size": "190x1615mm",
       "packing": "박스단위"
@@ -20265,7 +20342,7 @@ export const materials = [
     "name": "허스크 베이지",
     "brand": "이건",
     "category": "마루",
-    "line": "포레스타 G",
+    "line": "천연마루",
     "price": 0,
     "thumbnail": "cf6296ac4990883a702eb4fc1521e544.jpg",
     "images": [
@@ -20273,7 +20350,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "포레스타 G",
       "thickness": "10.5T",
       "size": "190x1615mm",
       "packing": "박스단위"
@@ -20285,12 +20362,19 @@ export const materials = [
     "name": "내추럴 샌드",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 125_내추럴",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "0b92218e1161c33abd847493290f2cd9.jpg",
     "images": [
       "0b92218e1161c33abd847493290f2cd9.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 125",
+      "thickness": "10.5T",
+      "size": "125x800mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 125_내추럴_내추럴 오크",
@@ -20298,12 +20382,19 @@ export const materials = [
     "name": "내추럴 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 125_내추럴",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "d7eb5f90d877522023799828d740e0e5.jpg",
     "images": [
       "d7eb5f90d877522023799828d740e0e5.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 125",
+      "thickness": "10.5T",
+      "size": "125x800mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 125_마일드_마일드 골드",
@@ -20311,12 +20402,19 @@ export const materials = [
     "name": "마일드 골드",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 125_마일드",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "c0db5e1e38998c12ff3540dbcc7275fb.jpg",
     "images": [
       "c0db5e1e38998c12ff3540dbcc7275fb.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 125",
+      "thickness": "10.5T",
+      "size": "125x800mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 125_마일드_마일드 크림",
@@ -20324,12 +20422,19 @@ export const materials = [
     "name": "마일드 크림",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 125_마일드",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "b207ff28b9213ee15781fc0d837badbf.jpg",
     "images": [
       "b207ff28b9213ee15781fc0d837badbf.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 125",
+      "thickness": "10.5T",
+      "size": "125x800mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 165_내추럴_내추럴 다크 쏘우",
@@ -20337,12 +20442,19 @@ export const materials = [
     "name": "내추럴 다크 쏘우",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 165_내추럴",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "8ea26b08a8f81f06ac015e7f29276ca9.jpg",
     "images": [
       "8ea26b08a8f81f06ac015e7f29276ca9.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 165",
+      "thickness": "10.5T",
+      "size": "165x1200mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 165_내추럴_내추럴 샌드",
@@ -20350,12 +20462,19 @@ export const materials = [
     "name": "내추럴 샌드",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 165_내추럴",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "4c75f8aebfa7c4045dd768f7ed2a0c48.jpg",
     "images": [
       "4c75f8aebfa7c4045dd768f7ed2a0c48.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 165",
+      "thickness": "10.5T",
+      "size": "165x1200mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 165_내추럴_내추럴 오크",
@@ -20363,12 +20482,19 @@ export const materials = [
     "name": "내추럴 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 165_내추럴",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "e3fcec223294c1ea9701185ba1ad4103.jpg",
     "images": [
       "e3fcec223294c1ea9701185ba1ad4103.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 165",
+      "thickness": "10.5T",
+      "size": "165x1200mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 165_러스틱_러스틱 브라운",
@@ -20376,12 +20502,19 @@ export const materials = [
     "name": "러스틱 브라운",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 165_러스틱",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "cf2f969fd9718fefb0cefc6c928219c9.jpg",
     "images": [
       "cf2f969fd9718fefb0cefc6c928219c9.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 165",
+      "thickness": "10.5T",
+      "size": "165x1200mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 165_마일드_마일드 베이지",
@@ -20389,12 +20522,19 @@ export const materials = [
     "name": "마일드 베이지",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 165_마일드",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "46642b7107a0dd6ea07ed7f0ab0870c7.jpg",
     "images": [
       "46642b7107a0dd6ea07ed7f0ab0870c7.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 165",
+      "thickness": "10.5T",
+      "size": "165x1200mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 165_마일드_마일드 오크",
@@ -20402,12 +20542,19 @@ export const materials = [
     "name": "마일드 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 165_마일드",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "cf9a6cc495ba1bab361dbcc806138156.jpg",
     "images": [
       "cf9a6cc495ba1bab361dbcc806138156.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 165",
+      "thickness": "10.5T",
+      "size": "165x1200mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 165_마일드_마일드 크림",
@@ -20415,12 +20562,19 @@ export const materials = [
     "name": "마일드 크림",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 165_마일드",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "23a1a69ae845160fa9aa1941478b6f5a.jpg",
     "images": [
       "23a1a69ae845160fa9aa1941478b6f5a.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 165",
+      "thickness": "10.5T",
+      "size": "165x1200mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 165_마일드_마일드 티크",
@@ -20428,12 +20582,19 @@ export const materials = [
     "name": "마일드 티크",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 165_마일드",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "49b3eb015a5c671c9e9217981ff74aab.jpg",
     "images": [
       "49b3eb015a5c671c9e9217981ff74aab.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 165",
+      "thickness": "10.5T",
+      "size": "165x1200mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 190_내추럴_내추럴 샌드",
@@ -20441,12 +20602,19 @@ export const materials = [
     "name": "내추럴 샌드",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 190_내추럴",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "4ab1ca66eb6b4ea73d79e8d7a9a5d1b8.jpg",
     "images": [
       "4ab1ca66eb6b4ea73d79e8d7a9a5d1b8.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 190",
+      "thickness": "10.5T",
+      "size": "190x1615mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 190_내추럴_내추럴 오크",
@@ -20454,12 +20622,19 @@ export const materials = [
     "name": "내추럴 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 190_내추럴",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "e97db21488046ca9857b5fe2779772ed.jpg",
     "images": [
       "e97db21488046ca9857b5fe2779772ed.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 190",
+      "thickness": "10.5T",
+      "size": "190x1615mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 190_마일드_마일드 골드",
@@ -20467,12 +20642,19 @@ export const materials = [
     "name": "마일드 골드",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 190_마일드",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "886e4bf5d797a11c664b8ffb5e44d88a.jpg",
     "images": [
       "886e4bf5d797a11c664b8ffb5e44d88a.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 190",
+      "thickness": "10.5T",
+      "size": "190x1615mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 190_마일드_마일드 베이지",
@@ -20480,12 +20662,19 @@ export const materials = [
     "name": "마일드 베이지",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 190_마일드",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "623e0929c0443759d753155061269d35.jpg",
     "images": [
       "623e0929c0443759d753155061269d35.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 190",
+      "thickness": "10.5T",
+      "size": "190x1615mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 190_마일드_마일드 오크",
@@ -20493,12 +20682,19 @@ export const materials = [
     "name": "마일드 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 190_마일드",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "7a22140ac2233faf2aed1eac2b09acb8.jpg",
     "images": [
       "7a22140ac2233faf2aed1eac2b09acb8.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 190",
+      "thickness": "10.5T",
+      "size": "190x1615mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 190_마일드_마일드 크림",
@@ -20506,12 +20702,19 @@ export const materials = [
     "name": "마일드 크림",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 190_마일드",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "00be25bb0b4a82ee47678313c28844fb.jpg",
     "images": [
       "00be25bb0b4a82ee47678313c28844fb.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 190",
+      "thickness": "10.5T",
+      "size": "190x1615mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 190_마일드_마일드 화이트",
@@ -20519,12 +20722,19 @@ export const materials = [
     "name": "마일드 화이트",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 190_마일드",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "870e0581eadf6dfaa6dd2b4b23dca3fe.jpg",
     "images": [
       "870e0581eadf6dfaa6dd2b4b23dca3fe.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 190",
+      "thickness": "10.5T",
+      "size": "190x1615mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 230_내추럴_내추럴 다크 쏘우",
@@ -20532,12 +20742,19 @@ export const materials = [
     "name": "내추럴 다크 쏘우",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 230_내추럴",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "30d124b221fcdbca6453c318f7d9e06f.jpg",
     "images": [
       "30d124b221fcdbca6453c318f7d9e06f.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 230",
+      "thickness": "10.5T",
+      "size": "230x2430mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 230_내추럴_내추럴 샌드",
@@ -20545,12 +20762,19 @@ export const materials = [
     "name": "내추럴 샌드",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 230_내추럴",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "6179393186331381c39553cc78901ea9.jpg",
     "images": [
       "6179393186331381c39553cc78901ea9.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 230",
+      "thickness": "10.5T",
+      "size": "230x2430mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 230_내추럴_내추럴 오크",
@@ -20558,12 +20782,19 @@ export const materials = [
     "name": "내추럴 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 230_내추럴",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "c95fe85c07317640da8ae091f6fa6db1.jpg",
     "images": [
       "c95fe85c07317640da8ae091f6fa6db1.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 230",
+      "thickness": "10.5T",
+      "size": "230x2430mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 230_러스틱_러스틱 그레이",
@@ -20571,12 +20802,19 @@ export const materials = [
     "name": "러스틱 그레이",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 230_러스틱",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "81443e685b63aeb3ae91a2e93f226cab.jpg",
     "images": [
       "81443e685b63aeb3ae91a2e93f226cab.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 230",
+      "thickness": "10.5T",
+      "size": "230x2430mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 230_러스틱_러스틱 미스트",
@@ -20584,12 +20822,19 @@ export const materials = [
     "name": "러스틱 미스트",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 230_러스틱",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "975c189fb102b74cb4af038cf4bc1488.jpg",
     "images": [
       "975c189fb102b74cb4af038cf4bc1488.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 230",
+      "thickness": "10.5T",
+      "size": "230x2430mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 230_러스틱_러스틱 브라운",
@@ -20597,12 +20842,19 @@ export const materials = [
     "name": "러스틱 브라운",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 230_러스틱",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "517572ab12dd03e3fa312720851294db.jpg",
     "images": [
       "517572ab12dd03e3fa312720851294db.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 230",
+      "thickness": "10.5T",
+      "size": "230x2430mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 230_러스틱_러스틱 오크",
@@ -20610,12 +20862,19 @@ export const materials = [
     "name": "러스틱 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 230_러스틱",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "6b321301f86c1a258538d0581830c25e.jpg",
     "images": [
       "6b321301f86c1a258538d0581830c25e.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 230",
+      "thickness": "10.5T",
+      "size": "230x2430mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 230_마일드_마일드 오크",
@@ -20623,12 +20882,19 @@ export const materials = [
     "name": "마일드 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 230_마일드",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "deabf646a963ba138314f9e4e4c6861c.jpg",
     "images": [
       "deabf646a963ba138314f9e4e4c6861c.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 230",
+      "thickness": "10.5T",
+      "size": "230x2430mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 230_마일드_마일드 크림",
@@ -20636,12 +20902,19 @@ export const materials = [
     "name": "마일드 크림",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 230_마일드",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "cc27d04baf6fbd91a3e569e7b7fe8bfc.jpg",
     "images": [
       "cc27d04baf6fbd91a3e569e7b7fe8bfc.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 230",
+      "thickness": "10.5T",
+      "size": "230x2430mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 230_마일드_마일드 티크",
@@ -20649,12 +20922,19 @@ export const materials = [
     "name": "마일드 티크",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 230_마일드",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "7f370694c8a9568cd414e9bbb30fd0e1.jpg",
     "images": [
       "7f370694c8a9568cd414e9bbb30fd0e1.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 230",
+      "thickness": "10.5T",
+      "size": "230x2430mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 스퀘어 395_그램퍼스 블랙",
@@ -20662,7 +20942,7 @@ export const materials = [
     "name": "그램퍼스 블랙",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 스퀘어 395",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "f862407f6376b420f481517436d20abe.jpg",
     "images": [
@@ -20670,7 +20950,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "그린 스퀘어 395",
       "thickness": "10.5T",
       "size": "395x800mm",
       "packing": "박스단위"
@@ -20682,7 +20962,7 @@ export const materials = [
     "name": "데저트 크림",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 스퀘어 395",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "cf7a2649dffdfbf0c4cfbde727b4da1e.jpg",
     "images": [
@@ -20690,7 +20970,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "그린 스퀘어 395",
       "thickness": "10.5T",
       "size": "395x800mm",
       "packing": "박스단위"
@@ -20702,7 +20982,7 @@ export const materials = [
     "name": "라니 화이트",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 스퀘어 395",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "cb4cbb0da892c097e9fe3fd05c805682.png",
     "images": [
@@ -20710,7 +20990,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "그린 스퀘어 395",
       "thickness": "10.5T",
       "size": "395x800mm",
       "packing": "박스단위"
@@ -20722,7 +21002,7 @@ export const materials = [
     "name": "루미너스 브라운",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 스퀘어 395",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "45f5e77033ca620af701e4e3b8feec87.jpg",
     "images": [
@@ -20730,7 +21010,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "그린 스퀘어 395",
       "thickness": "10.5T",
       "size": "395x800mm",
       "packing": "박스단위"
@@ -20742,7 +21022,7 @@ export const materials = [
     "name": "리플 스노우",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 스퀘어 395",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "a11c859351869529211a29d4b708268f.png",
     "images": [
@@ -20750,7 +21030,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "그린 스퀘어 395",
       "thickness": "10.5T",
       "size": "395x800mm",
       "packing": "박스단위"
@@ -20762,7 +21042,7 @@ export const materials = [
     "name": "문라이트 스모크",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 스퀘어 395",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "7734f65e43c691f4cb142203ed1fa59e.jpg",
     "images": [
@@ -20770,7 +21050,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "그린 스퀘어 395",
       "thickness": "10.5T",
       "size": "395x800mm",
       "packing": "박스단위"
@@ -20782,7 +21062,7 @@ export const materials = [
     "name": "미스티 샌드",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 스퀘어 395",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "0a21f3008b95d3ea7b29c07341392685.jpg",
     "images": [
@@ -20790,7 +21070,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "그린 스퀘어 395",
       "thickness": "10.5T",
       "size": "395x800mm",
       "packing": "박스단위"
@@ -20802,7 +21082,7 @@ export const materials = [
     "name": "밀키웨이 다크",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 스퀘어 395",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "cb5b557640812c91318e2f8306745f09.jpg",
     "images": [
@@ -20810,7 +21090,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "그린 스퀘어 395",
       "thickness": "10.5T",
       "size": "395x800mm",
       "packing": "박스단위"
@@ -20822,7 +21102,7 @@ export const materials = [
     "name": "브리즈 그레이",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 스퀘어 395",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "6f5b5cd4f4bd3957348b8e50b66e8f4c.jpg",
     "images": [
@@ -20830,7 +21110,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "그린 스퀘어 395",
       "thickness": "10.5T",
       "size": "395x800mm",
       "packing": "박스단위"
@@ -20842,7 +21122,7 @@ export const materials = [
     "name": "세레나 포그",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 스퀘어 395",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "5563fc7ddf26061646d04142e354cc96.png",
     "images": [
@@ -20850,7 +21130,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "그린 스퀘어 395",
       "thickness": "10.5T",
       "size": "395x800mm",
       "packing": "박스단위"
@@ -20862,7 +21142,7 @@ export const materials = [
     "name": "스텔라 라이트",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 스퀘어 395",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "168cd2fd321438a89b6690dac30ca39f.jpg",
     "images": [
@@ -20870,7 +21150,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "그린 스퀘어 395",
       "thickness": "10.5T",
       "size": "395x800mm",
       "packing": "박스단위"
@@ -20882,7 +21162,7 @@ export const materials = [
     "name": "스파클 쉐도우",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 스퀘어 395",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "5beb6a56d11f2767c55046e5d12f9bcd.jpg",
     "images": [
@@ -20890,7 +21170,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "그린 스퀘어 395",
       "thickness": "10.5T",
       "size": "395x800mm",
       "packing": "박스단위"
@@ -20902,7 +21182,7 @@ export const materials = [
     "name": "프리즈 실버",
     "brand": "이건",
     "category": "마루",
-    "line": "그린 스퀘어 395",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "ce0b715375061ab8fd02a76e6f533419.jpg",
     "images": [
@@ -20910,7 +21190,7 @@ export const materials = [
     ],
     "thickness": "10.5T",
     "specs": {
-      "division": "",
+      "division": "그린 스퀘어 395",
       "thickness": "10.5T",
       "size": "395x800mm",
       "packing": "박스단위"
@@ -20922,12 +21202,19 @@ export const materials = [
     "name": "글램 스톤",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 597_스톤",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "9a81d5fbd41ea26b2a5dae05b7e36129.jpg",
     "images": [
       "9a81d5fbd41ea26b2a5dae05b7e36129.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 스퀘어 597",
+      "thickness": "10.5T",
+      "size": "597x597mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 스퀘어 597_스톤_데저트 크림",
@@ -20935,12 +21222,19 @@ export const materials = [
     "name": "데저트 크림",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 597_스톤",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "106f8cadde8b86a1251a8d9d2075b5b1.jpg",
     "images": [
       "106f8cadde8b86a1251a8d9d2075b5b1.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 스퀘어 597",
+      "thickness": "10.5T",
+      "size": "597x597mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 스퀘어 597_스톤_문라이트 스모크",
@@ -20948,12 +21242,19 @@ export const materials = [
     "name": "문라이트 스모크",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 597_스톤",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "d28c671c42c9c9329d0087d4a797361b.jpg",
     "images": [
       "d28c671c42c9c9329d0087d4a797361b.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 스퀘어 597",
+      "thickness": "10.5T",
+      "size": "597x597mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 스퀘어 597_스톤_브리즈 그레이",
@@ -20961,12 +21262,19 @@ export const materials = [
     "name": "브리즈 그레이",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 597_스톤",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "bbcd615325d50c33272462c65978107e.jpg",
     "images": [
       "bbcd615325d50c33272462c65978107e.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 스퀘어 597",
+      "thickness": "10.5T",
+      "size": "597x597mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 스퀘어 597_스톤_코랄 클라우드",
@@ -20974,12 +21282,19 @@ export const materials = [
     "name": "코랄 클라우드",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 597_스톤",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "3bd32ed2ce358aa4ad0228508eee2381.jpg",
     "images": [
       "3bd32ed2ce358aa4ad0228508eee2381.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 스퀘어 597",
+      "thickness": "10.5T",
+      "size": "597x597mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 스퀘어 597_우드_그레인 오크",
@@ -20987,12 +21302,19 @@ export const materials = [
     "name": "그레인 오크",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 597_우드",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "767b275ddd1dcfc149f3cb3855670fbb.jpg",
     "images": [
       "767b275ddd1dcfc149f3cb3855670fbb.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 스퀘어 597",
+      "thickness": "10.5T",
+      "size": "597x597mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 스퀘어 597_우드_마운틴 포그",
@@ -21000,12 +21322,19 @@ export const materials = [
     "name": "마운틴 포그",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 597_우드",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "b38814e56df7c48d1f232faed8ba9d98.png",
     "images": [
       "b38814e56df7c48d1f232faed8ba9d98.png"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 스퀘어 597",
+      "thickness": "10.5T",
+      "size": "597x597mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 스퀘어 597_우드_웨이브 월넛",
@@ -21013,12 +21342,19 @@ export const materials = [
     "name": "웨이브 월넛",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 597_우드",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "a6541408eab89743bfccef887eaab77e.jpg",
     "images": [
       "a6541408eab89743bfccef887eaab77e.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 스퀘어 597",
+      "thickness": "10.5T",
+      "size": "597x597mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "이건-프리미엄 강마루_그린_그린 스퀘어 597_유니크_핀도스 솔트",
@@ -21026,12 +21362,19 @@ export const materials = [
     "name": "핀도스 솔트",
     "brand": "이건",
     "category": "마루",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 597_유니크",
+    "line": "프리미엄 강마루",
     "price": 0,
     "thumbnail": "fb061298c8c0cfbe18bedad3adb847fe.jpg",
     "images": [
       "fb061298c8c0cfbe18bedad3adb847fe.jpg"
-    ]
+    ],
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 스퀘어 597",
+      "thickness": "10.5T",
+      "size": "597x597mm",
+      "packing": "박스단위"
+    }
   },
   {
     "id": "LXW-디아망_LX_디아망_PR002-01",
