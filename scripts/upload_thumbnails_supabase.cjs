@@ -16,12 +16,15 @@ const path = require("path");
 const crypto = require("crypto");
 const { createClient } = require("@supabase/supabase-js");
 
+// .env.local 파일 로드
+require("dotenv").config({ path: ".env.local" });
+
 // ─── 설정 ─────────────────────────────────────────────────────────────────────
-const SUPABASE_URL = "https://ymoshkaiwvnmhhcglpjj.supabase.co";
-const SUPABASE_ANON_KEY = "sb_publishable_bvEH85EF1ihAExThm4kIeA_lDvrPrlK";
+const SUPABASE_URL = process.env.VITE_SUPABASE_URL || "https://ymoshkaiwvnmhhcglpjj.supabase.co";
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE || process.env.VITE_SUPABASE_ANON_KEY || "sb_publishable_bvEH85EF1ihAExThm4kIeA_lDvrPrlK";
 const BUCKET = "materials";
 const DRY_RUN = process.argv.includes("--dry-run");
-const CONCURRENCY = 5;
+const CONCURRENCY = 10; // increase concurrency for faster uploading since there are 4,189 files
 
 const SOURCE_DIR = path.join(process.cwd(), "public", "images", "Thumbnail_Image", "materials");
 
@@ -106,8 +109,8 @@ async function main() {
     return;
   }
 
-  const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-  console.log(`  Supabase 클라이언트 초기화 완료`);
+  const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+  console.log(`  Supabase 클라이언트 초기화 완료 (Service Role 사용)`);
   console.log(`  업로드 시작 (동시 ${CONCURRENCY}개)...\n`);
 
   let skipped = 0;
