@@ -319,14 +319,14 @@ export default function Header() {
             <BookOpen size={20} />
             <span>샘플북</span>
           </button>
-          <button onClick={() => nav("/cart")}>
+          <button onClick={() => nav("/cart")} style={{ position: 'relative' }}>
             <ShoppingCart size={20} />
             <span>장바구니</span>
+            {estimateCount > 0 && <span className="estimate-badge">{estimateCount}</span>}
           </button>
-          <button onClick={() => nav("/estimate/request")} style={{ position: 'relative' }}>
+          <button onClick={() => nav("/estimate/request")}>
             <FileText size={20} />
             <span>견적문의</span>
-            {estimateCount > 0 && <span className="estimate-badge">{estimateCount}</span>}
           </button>
           
           {currentUser ? (
