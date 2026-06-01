@@ -66,19 +66,28 @@ export default function Login() {
                         <button type="submit" className="btn-login">
                             로그인
                         </button>
+                        
+                        <div className="login-footer" style={{ marginTop: '16px', fontSize: '14px', color: '#666', textAlign: 'center' }}>
+                            아직 계정이 없으신가요?{" "}
+                            <span 
+                                onClick={() => {
+                                    const searchParams = new URLSearchParams(location.search);
+                                    const redirectUrl = searchParams.get("redirect");
+                                    nav(`/signup${redirectUrl ? '?redirect=' + encodeURIComponent(redirectUrl) : ''}`);
+                                }} 
+                                style={{ color: '#111', fontWeight: 'bold', cursor: 'pointer', textDecoration: 'underline', marginLeft: '6px' }}
+                            >
+                                회원가입
+                            </span>
+                        </div>
+
                         <button 
                             type="button" 
                             className="btn-go-home" 
                             onClick={() => nav("/")}
+                            style={{ marginTop: '12px' }}
                         >
                             홈으로 돌아가기
-                        </button>
-                        <button 
-                            type="button" 
-                            className="btn-go-home" 
-                            onClick={() => nav("/signup")}
-                        >
-                            회원가입
                         </button>
                     </form>
                 </div>

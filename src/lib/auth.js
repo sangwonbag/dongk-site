@@ -46,21 +46,49 @@ export const signup = async (userData) => {
   try {
     const hashedPassword = await hashPassword(userData.password);
     
-    const { error } = await supabase.from('users').insert({
+    // Try primary insert with all new fields
+    const { error: primaryError } = await supabase.from('users').insert({
       username: userData.username,
       password: hashedPassword,
       name: userData.name,
       phone: userData.phone,
-      company_name: userData.company_name,
+      company_name: userData.company_name || null,
       user_type: userData.user_type,
-      address: userData.address,
-      memo: userData.memo,
+      address: userData.address || null,
+      address_detail: userData.address_detail || null,
+      business_number: userData.business_number || null,
+      marketing_agree: userData.marketing_agree || false,
+      memo: userData.memo || null,
       role: 'user'
     });
 
-    if (error) {
-      console.error('Signup error:', error);
-      return { success: false, message: '회원가입 처리 중 오류가 발생했습니다.' };
+    if (primaryError) {
+      console.warn('Primary signup failed, trying fallback insert:', primaryError.message);
+      
+      const concatenatedAddress = userData.address 
+        ? `${userData.address} ${userData.address_detail || ''}`.trim() 
+        : null;
+        
+      const fallbackMemo = userData.business_number 
+        ? `사업자번호: ${userData.business_number}${userData.memo ? ' / 메모: ' + userData.memo : ''}`
+        : userData.memo || null;
+
+      const { error: fallbackError } = await supabase.from('users').insert({
+        username: userData.username,
+        password: hashedPassword,
+        name: userData.name,
+        phone: userData.phone,
+        company_name: userData.company_name || null,
+        user_type: userData.user_type,
+        address: concatenatedAddress,
+        memo: fallbackMemo,
+        role: 'user'
+      });
+
+      if (fallbackError) {
+        console.error('Fallback signup error:', fallbackError);
+        return { success: false, message: '회원가입 처리 중 오류가 발생했습니다.' };
+      }
     }
 
     return { success: true };
