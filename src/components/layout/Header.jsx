@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo, useRef } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { Search, ShoppingCart, User, BookOpen, Layers } from "lucide-react";
-import { materials } from "../../data/materials.db";
+import { fetchAllProducts } from "../../utils/supabaseFetcher";
 import { getSearchScore, RECOMMENDATIONS, normalizeSearchText, tokenizeSearchQuery, handleSearchRedirect } from "../../utils/searchUtils";
 import { getSupabaseImageUrl } from "../../utils/getSupabaseImageUrl";
 import { useEstimateCart } from "../../contexts/EstimateCartContext";
@@ -65,6 +65,15 @@ export default function Header() {
   };
 
   const debouncedQ = useDebounce(q, 300);
+  const [dbMaterials, setDbMaterials] = useState([]);
+
+  // Fetch materials from Supabase on search focus to keep it dynamic and fast
+  useEffect(() => {
+    if (isFocused && dbMaterials.length === 0) {
+      console.log("[Debug] Search input focused. Fetching materials for autocomplete...");
+      fetchAllProducts().then(setDbMaterials).catch(console.error);
+    }
+  }, [isFocused, dbMaterials.length]);
 
   // Sync search input with URL
   useEffect(() => {
@@ -101,8 +110,8 @@ export default function Header() {
     
     // Check if there are matching products
     let scored = [];
-    if (materials && materials.length > 0) {
-      scored = materials
+    if (dbMaterials && dbMaterials.length > 0) {
+      scored = dbMaterials
         .map(m => ({ item: m, score: getSearchScore(m, query) }))
         .filter(x => x.score > 0)
         .sort((a, b) => b.score - a.score);
@@ -120,7 +129,7 @@ export default function Header() {
     }
 
     return { type: "empty", items: [] };
-  }, [debouncedQ]);
+  }, [debouncedQ, dbMaterials]);
 
   const onSearch = (e) => {
     e.preventDefault();
@@ -137,8 +146,8 @@ export default function Header() {
     
     // Find the best matching product synchronously to determine its category and brand
     let topProduct = null;
-    if (materials && materials.length > 0) {
-      const scored = materials
+    if (dbMaterials && dbMaterials.length > 0) {
+      const scored = dbMaterials
         .map(m => ({ item: m, score: getSearchScore(m, keyword) }))
         .filter(x => x.score > 0)
         .sort((a, b) => b.score - a.score);

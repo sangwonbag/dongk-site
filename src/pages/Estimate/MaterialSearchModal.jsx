@@ -1,6 +1,6 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { X, Search } from 'lucide-react';
-import { materials } from '../../data/materials.db';
+import { fetchAllProducts } from '../../utils/supabaseFetcher';
 import { useEstimateCart } from '../../contexts/EstimateCartContext';
 import { getComputedBrand } from '../../utils/brandUtils';
 import { getSearchScore, normalizeSearchText } from '../../utils/searchUtils';
@@ -10,18 +10,24 @@ import './MaterialSearchModal.css';
 export default function MaterialSearchModal({ onClose }) {
   const { addToCart } = useEstimateCart();
   const [query, setQuery] = useState('');
-  
+  const [dbMaterials, setDbMaterials] = useState([]);
+
+  useEffect(() => {
+    console.log("[Debug] Search modal mounted. Pre-fetching all materials from Supabase...");
+    fetchAllProducts().then(setDbMaterials).catch(console.error);
+  }, []);
+
   const searchResults = useMemo(() => {
     const q = normalizeSearchText(query);
-    if (!q) return [];
+    if (!q || dbMaterials.length === 0) return [];
     
-    return materials
+    return dbMaterials
       .map(m => ({ item: m, score: getSearchScore(m, query) }))
       .filter(x => x.score > 0)
       .sort((a, b) => b.score - a.score)
       .slice(0, 30) // Top 30 results
       .map(x => x.item);
-  }, [query]);
+  }, [query, dbMaterials]);
 
   const handleAdd = (item) => {
     addToCart({ ...item, quantity: 1 });

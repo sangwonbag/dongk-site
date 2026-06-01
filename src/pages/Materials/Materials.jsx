@@ -1,15 +1,12 @@
 import React, { useMemo, useState, useEffect } from "react";
 import { useLocation, useSearchParams } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
-import { materials, BRANDS_BY_CATEGORY } from "../../data/materials.db";
+import { BRANDS_BY_CATEGORY } from "../../data/materials.db";
 import { getComputedBrand } from "../../utils/brandUtils";
 import { getSearchScore } from "../../utils/searchUtils";
 import MaterialCard from "../../components/material/MaterialCard";
+import { fetchAllProducts } from "../../utils/supabaseFetcher";
 import "./Materials.css";
-import SampleBookPDF from "../../components/samplebook/SampleBookPDF";
-// import DownloadPdfButton from "../components/DownloadPdfButton";
-
-// useQuery removed in favor of useSearchParams
 
 /** ✅ 상단 탭: 추천 + 카테고리 */
 const CATEGORY_TABS = [
@@ -25,6 +22,11 @@ const CATEGORY_TABS = [
 export default function Materials() {
   const [searchParams, setSearchParams] = useSearchParams();
 
+  // Supabase Data States
+  const [materialsList, setMaterialsList] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
   // Read state directly from URL query parameters
   const activeTab = searchParams.get("category") || "recommended";
   const activeBrand = searchParams.get("brand") || "all";
@@ -34,6 +36,30 @@ export default function Materials() {
 
   // Pagination state
   const [visibleCount, setVisibleCount] = useState(100);
+
+  // Fetch from Supabase on mount
+  useEffect(() => {
+    async function load() {
+      try {
+        setLoading(true);
+        setError(null);
+        console.log("[Debug] Fetching all materials from Supabase...");
+        
+        const data = await fetchAllProducts();
+        
+        console.log("[Debug] Supabase response data size:", data ? data.length : 0);
+        console.log("[Debug] Current filters state:", { activeTab, activeBrand, searchText });
+        
+        setMaterialsList(data);
+      } catch (err) {
+        console.error("[Debug] Supabase load error:", err);
+        setError(err.message || String(err));
+      } finally {
+        setLoading(false);
+      }
+    }
+    load();
+  }, []);
 
   // Reset pagination when filters change
   useEffect(() => {
@@ -86,10 +112,10 @@ export default function Materials() {
 
   /** ✅ 라인업 목록: 선택된 카테고리와 브랜드에 따라 동적으로 생성 (폴더 구조 반영) */
   const visibleLines = useMemo(() => {
-    if (!materials || activeTab === "recommended" || activeBrand === "all") return [];
+    if (!materialsList || materialsList.length === 0 || activeTab === "recommended" || activeBrand === "all") return [];
     
     const linesSet = new Set();
-    materials.forEach((m) => {
+    materialsList.forEach((m) => {
       if (m && m.category === activeTab && getComputedBrand(m) === activeBrand && m.line) {
         let line = m.line;
         if (line.includes('_')) {
@@ -117,27 +143,29 @@ export default function Materials() {
     });
     
     return ["all", ...Array.from(linesSet).sort()];
-  }, [activeTab, activeBrand]);
+  }, [materialsList, activeTab, activeBrand]);
 
   /** ✅ 재질 목록 (벽지 전용) */
   const MATERIAL_TYPES = ["all", "프리미엄", "디아망", "합지(소폭)", "합지(장폭)", "합지", "실크", "방염"];
 
   /** ✅ 최종 필터링: (카테고리/추천) + (브랜드) + (재질) + (검색) */
   const filtered = useMemo(() => {
-    if (!materials) return [];
+    if (!materialsList || materialsList.length === 0) return [];
     const s = (searchText || "").trim();
 
     // 1) 검색어가 있으면 모든 UI 필터 무시하고 전체 상품에서 검색
     if (s) {
-      return materials
+      const searched = materialsList
         .map((m) => ({ item: m, score: getSearchScore(m, s) }))
         .filter((x) => x.score > 0)
         .sort((a, b) => b.score - a.score)
         .map((x) => x.item);
+      console.log("[Debug] Search results:", { searchText: s, count: searched.length });
+      return searched;
     }
 
     // 2) 검색어가 없을 때만 UI 필터 강제 적용 (URL 기준)
-    let results = materials.filter((m) => {
+    let results = materialsList.filter((m) => {
       if (!m) return false;
 
       // 탭(카테고리) 필터
@@ -170,8 +198,52 @@ export default function Materials() {
       return tabOk && brandOk && materialOk && lineOk;
     });
 
+    console.log("[Debug] Filtering results:", { category: activeTab, brand: activeBrand, count: results.length });
     return results;
-  }, [activeTab, activeBrand, activeMaterialType, activeLine, searchText, visibleLines]);
+  }, [materialsList, activeTab, activeBrand, activeMaterialType, activeLine, searchText, visibleLines]);
+
+  // Loading View
+  if (loading) {
+    return (
+      <MainLayout>
+        <div className="container" style={{ padding: "100px 0", textAlign: "center", fontSize: "16px", color: "#6B6B6B" }}>
+          자료를 불러오는 중입니다.
+        </div>
+      </MainLayout>
+    );
+  }
+
+  // Error View with full diagnostic instructions
+  if (error) {
+    return (
+      <MainLayout>
+        <div className="container" style={{ padding: "100px 0", textAlign: "center", fontSize: "16px" }}>
+          <h2 style={{ color: "#d9534f" }}>자료를 불러오지 못했습니다.</h2>
+          <p style={{ marginTop: "10px", fontSize: "14px", color: "#6B6B6B" }}>
+            <strong>오류 내용:</strong> {error}
+          </p>
+          <div style={{ marginTop: "24px", display: "inline-block", background: "#f8d7da", border: "1px solid #f5c6cb", padding: "20px", borderRadius: "8px", color: "#721c24", textAlign: "left", fontSize: "14px", maxWidth: "600px", lineHeight: "1.6" }}>
+            <strong>💡 디버그 체크리스트:</strong><br />
+            1. <strong>환경변수 문제:</strong> <code>.env.local</code> 파일의 <code>VITE_SUPABASE_URL</code> 및 <code>VITE_SUPABASE_ANON_KEY</code>가 비어 있거나 올바르지 않은지 확인하십시오.<br />
+            2. <strong>테이블명 문제:</strong> 데이터베이스에 <code>public.products</code> 테이블이 존재하지 않거나 캐시 불일치가 발생했는지 확인하십시오.<br />
+            3. <strong>RLS 권한 문제:</strong> Supabase RLS 정책에서 anonymous 권한에 대한 SELECT를 비활성화했는지 확인하십시오.<br />
+            4. <strong>필터링 문제:</strong> 컬럼명 맵핑 또는 PostgREST join이 실패했는지 개발자 도구 콘솔 로그를 확인하십시오.
+          </div>
+        </div>
+      </MainLayout>
+    );
+  }
+
+  // No products in DB View
+  if (materialsList.length === 0) {
+    return (
+      <MainLayout>
+        <div className="container" style={{ padding: "100px 0", textAlign: "center", fontSize: "16px", color: "#6B6B6B" }}>
+          등록된 자재가 없습니다.
+        </div>
+      </MainLayout>
+    );
+  }
 
   return (
     <MainLayout>
@@ -239,18 +311,6 @@ export default function Materials() {
                 <span>
                   총 <strong>{filtered.length}</strong>개 상품
                 </span>
-              </div>
-              <div className="results-actions">
-                {/* <DownloadPdfButton
-                  doc={
-                    <SampleBookPDF
-                      coverImage={pdfCover}
-                      materials={filtered}
-                      title={`${activeBrand === "all" ? "전체 브랜드" : activeBrand} 샘플북`}
-                    />
-                  }
-                  fileName={pdfFileName}
-                /> */}
               </div>
             </div>
 

@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import MainLayout from "../../components/layout/MainLayout";
-import { materials } from "../../data/materials.db";
 import { useEstimateCart } from "../../contexts/EstimateCartContext";
 import { getValidGalleryImages, getDetailImage, getThumbnailImage } from "../../utils/galleryUtils";
+import { supabase } from "../../lib/supabaseClient";
 import "./MaterialDetail.css";
 
 export default function MaterialDetail() {
@@ -15,8 +15,9 @@ export default function MaterialDetail() {
     // Decode ID to handle encoded chars like %20
     const id = decodeURIComponent(rawId || "");
 
-    // Find material. Try ID match first, then Code match (if slug is code)
-    const item = materials.find(m => m.id === id || m.code === id);
+    const [item, setItem] = useState(null);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
 
     const [images, setImages] = useState([]); // Array of {thumbnail, detail} objects
     const [selectedImageObj, setSelectedImageObj] = useState(null); // The chosen {thumbnail, detail}
@@ -33,7 +34,88 @@ export default function MaterialDetail() {
         });
     };
 
-    // Initial Image Load
+    // 1. Fetch Product from Supabase
+    useEffect(() => {
+        if (!id) return;
+        
+        async function fetchItem() {
+            setLoading(true);
+            setError(null);
+            try {
+                if (!supabase) {
+                    throw new Error("Supabase client is not initialized.");
+                }
+
+                console.log(`[Debug] Fetching product detail from Supabase for ID/Code/Slug: ${id}`);
+                
+                const query = supabase
+                    .from('products')
+                    .select(`
+                        *,
+                        categories ( id, name ),
+                        brands ( id, name )
+                    `);
+                
+                let res;
+                if (/^\d+$/.test(id)) {
+                    res = await query.eq('id', parseInt(id, 10)).maybeSingle();
+                } else {
+                    res = await query.eq('slug', id).maybeSingle();
+                    if (!res.data) {
+                        res = await supabase
+                            .from('products')
+                            .select(`
+                                *,
+                                categories ( id, name ),
+                                brands ( id, name )
+                            `)
+                            .eq('product_code', id)
+                            .maybeSingle();
+                    }
+                }
+                
+                if (res.error) {
+                    throw res.error;
+                }
+
+                console.log("[Debug] Supabase single product raw data:", res.data);
+
+                if (!res.data) {
+                    setItem(null);
+                } else {
+                    const p = res.data;
+                    setItem({
+                        id: p.slug || String(p.id),
+                        code: p.product_code || "",
+                        name: p.name || "",
+                        brand: p.brands?.name || "",
+                        category: p.categories?.name || "",
+                        price: p.price || 0,
+                        thickness: p.thickness || "",
+                        specs: {
+                            thickness: p.thickness || "",
+                            size: p.size_text || "",
+                            packing: p.unit || ""
+                        },
+                        thumbnail: p.image_url || null,
+                        image: p.image_url || null,
+                        description: p.description || "",
+                        featured: p.is_featured || false,
+                        active: p.is_active ?? true
+                    });
+                }
+            } catch (err) {
+                console.error("[Debug] Failed to fetch product details:", err);
+                setError(err.message || String(err));
+            } finally {
+                setLoading(false);
+            }
+        }
+        
+        fetchItem();
+    }, [id]);
+
+    // 2. Image loader once item is fetched
     useEffect(() => {
         if (!item) return;
 
@@ -78,9 +160,38 @@ export default function MaterialDetail() {
         loadImages();
 
         return () => { alive = false; };
-    }, [item, id]);
+    }, [item]);
 
-    if (!item) return <MainLayout><div className="container">상품을 찾을 수 없습니다.</div></MainLayout>;
+    if (loading) {
+        return (
+            <MainLayout>
+                <div className="container" style={{ padding: "100px 0", textAlign: "center", fontSize: "16px", color: "#6B6B6B" }}>
+                    자료를 불러오는 중입니다...
+                </div>
+            </MainLayout>
+        );
+    }
+
+    if (error) {
+        return (
+            <MainLayout>
+                <div className="container" style={{ padding: "100px 0", textAlign: "center", fontSize: "16px", color: "#d9534f" }}>
+                    <h2>자료를 불러오지 못했습니다.</h2>
+                    <p style={{ marginTop: "10px" }}>{error}</p>
+                </div>
+            </MainLayout>
+        );
+    }
+
+    if (!item) {
+        return (
+            <MainLayout>
+                <div className="container" style={{ padding: "100px 0", textAlign: "center", fontSize: "16px", color: "#6B6B6B" }}>
+                    상품을 찾을 수 없습니다.
+                </div>
+            </MainLayout>
+        );
+    }
 
     const totalPrice = (item.price || 0) * qty;
     const isOptionSelected = !!selectedOption;
