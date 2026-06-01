@@ -1,319 +1,192 @@
-import React, { useMemo } from "react";
+import React from "react";
 import { useNavigate } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
-import { materials } from "../../data/materials.db";
-import { imageManifest } from "../../data/imageManifest";
-import MaterialCard from "../../components/material/MaterialCard";
-import InteractiveApartmentHero from "../../components/hero/InteractiveApartmentHero";
 import { 
-  MapPin, 
-  Phone, 
-  Clock, 
-  Home as HomeIcon, 
-  Store, 
-  Briefcase, 
-  Sparkles,
-  Layers,
-  FileText,
-  ChevronRight
+  ShieldCheck, 
+  Wrench, 
+  Truck, 
+  Award, 
+  ChevronRight 
 } from "lucide-react";
 import "./Home.css";
 
 export default function Home() {
   const nav = useNavigate();
 
-  // Get random KCC/Dongshin recommended items
-  const recommendedMaterials = useMemo(() => {
-    const normalize = (str) => str ? str.replace(/[^a-zA-Z0-9가-힣]/g, '').toUpperCase() : "";
-    
-    const seenCodes = new Set();
-    const pool = materials.filter(m => {
-      if (m.brand !== 'KCC' && m.brand !== '동신') return false;
-      if (seenCodes.has(m.code)) return false;
-      
-      const key = normalize(m.code);
-      const entry = imageManifest[key];
-      const hasImage = !!(entry?.thumbnail);
-      
-      if (hasImage) {
-        if (entry.thumbnail.includes("no-image") || entry.thumbnail.includes("placeholder")) return false;
-        seenCodes.add(m.code);
-        return true;
-      }
-      return false;
-    });
-
-    if (pool.length === 0) return [];
-
-    const weightedPool = pool.map(m => {
-      const key = normalize(m.code);
-      const hasSpace = (imageManifest[key]?.images?.length > 1) ? 2 : 1; 
-      const indexWeight = materials.indexOf(m) / materials.length; 
-      return { 
-        item: m, 
-        weight: (hasSpace * 10) + indexWeight
-      };
-    });
-
-    const shuffled = weightedPool
-      .sort((a, b) => (Math.random() * b.weight) - (Math.random() * a.weight))
-      .map(entry => entry.item);
-
-    return shuffled.slice(0, 9);
-  }, []);
+  // 6 main categories with images and paths
+  const categories = [
+    { name: "데코타일", image: "/images/deco_tile.png", path: "/materials?category=데코타일" },
+    { name: "장판", image: "/images/cross_section.png", path: "/materials?category=장판" },
+    { name: "마루", image: "/images/spc_flooring.png", path: "/materials?category=마루" },
+    { name: "벽지", image: "/images/premium_wallpaper.png", path: "/materials?category=벽지" },
+    { name: "카페트타일", image: "/images/carpet_tile.png", path: "/materials?category=카페트타일" },
+    { name: "부자재", image: "/images/interlocking_profile.png", path: "/materials?category=부자재" }
+  ];
 
   return (
     <MainLayout>
-      <div className="home-page">
+      <div className="home-page-container">
+        
         {/* ==========================================
-           1. Interactive 3D/Panorama Hero Section
+           1. Main Hero Section
            ========================================== */}
-        <InteractiveApartmentHero />
-
-        <div className="container">
-          {/* ==========================================
-             2. Major Construction Areas (주요 시공 분야)
-             ========================================== */}
-          <section className="home-section">
-            <div className="section-header-centered">
-              <span className="section-tag">Construction Areas</span>
-              <h2>주요 시공 분야</h2>
-              <p>동경바닥재는 각 현장의 목적과 환경에 특화된 다양한 공간 시공 노하우를 갖추고 있습니다.</p>
-            </div>
-
-            <div className="area-grid">
-              <div className="area-card">
-                <div className="area-icon-container">
-                  <HomeIcon size={28} />
-                </div>
-                <h3 className="area-title">주거 공간 시공</h3>
-                <p className="area-desc">
-                  아파트, 빌라, 단독주택을 위한 시공입니다. 친환경 강마루, 내구성이 뛰어난 소리잠 장판 등 가족의 안전과 편안함을 우선한 바닥 및 벽지를 제안합니다.
-                </p>
-              </div>
-
-              <div className="area-card">
-                <div className="area-icon-container">
-                  <Store size={28} />
-                </div>
-                <h3 className="area-title">상업 공간 시공</h3>
-                <p className="area-desc">
-                  카페, 식당, 매장, 학원 등 유동인구가 많은 상업 현장입니다. 통행 마찰에 강하고 트렌디한 디자인의 데코타일 및 빈티지 타일을 조화롭게 설계합니다.
-                </p>
-              </div>
-
-              <div className="area-card">
-                <div className="area-icon-container">
-                  <Briefcase size={28} />
-                </div>
-                <h3 className="area-title">사무 공간 시공</h3>
-                <p className="area-desc">
-                  일반 사무실, 지식산업센터, 오피스 빌딩입니다. 정전기 방지, 소음 차단, 부분 보수가 편리한 프리미엄 카페트타일 및 OA타일 위주로 쾌적한 오피스를 구축합니다.
-                </p>
-              </div>
-
-              <div className="area-card">
-                <div className="area-icon-container">
-                  <Sparkles size={28} />
-                </div>
-                <h3 className="area-title">의료 및 교육 시공</h3>
-                <p className="area-desc">
-                  병원, 요양원, 어린이집, 학교 등 엄격한 위생 기준이 적용되는 곳입니다. 항균 처리된 방염 장판과 벽지, 미끄럼 방지 안전 러버타일을 전문 시공합니다.
-                </p>
-              </div>
-            </div>
-          </section>
-
-          {/* ==========================================
-             3. Material Categories (자재 카테고리)
-             ========================================== */}
-          <section className="home-section">
-            <div className="section-header-centered">
-              <span className="section-tag">Materials</span>
-              <h2>취급 자재 카테고리</h2>
-              <p>동경바닥재에서 취급하는 고품질 자재 라인업을 카테고리별로 간편하게 살펴보실 수 있습니다.</p>
-            </div>
-
-            <div className="category-card-grid">
-              <div className="category-card" onClick={() => nav("/materials?category=데코타일")}>
-                <div className="cat-icon"><Layers size={32} /></div>
-                <span className="cat-name">데코타일</span>
-              </div>
-              <div className="category-card" onClick={() => nav("/materials?category=장판")}>
-                <div className="cat-icon"><Layers size={32} /></div>
-                <span className="cat-name">장판</span>
-              </div>
-              <div className="category-card" onClick={() => nav("/materials?category=마루")}>
-                <div className="cat-icon"><Layers size={32} /></div>
-                <span className="cat-name">마루</span>
-              </div>
-              <div className="category-card" onClick={() => nav("/materials?category=벽지")}>
-                <div className="cat-icon"><Layers size={32} /></div>
-                <span className="cat-name">벽지</span>
-              </div>
-              <div className="category-card" onClick={() => nav("/materials?category=카페트타일")}>
-                <div className="cat-icon"><Layers size={32} /></div>
-                <span className="cat-name">카페트타일</span>
-              </div>
-              <div className="category-card" onClick={() => nav("/materials?category=러버타일")}>
-                <div className="cat-icon"><Layers size={32} /></div>
-                <span className="cat-name">러버타일</span>
-              </div>
-            </div>
-          </section>
-
-          {/* ==========================================
-             4. Recommended Materials (추천 자재 - 기존 유지)
-             ========================================== */}
-          <section className="home-section recommended-section">
-            <div className="section-header">
-              <h2>동경 추천 자재</h2>
-              <button className="more-btn" onClick={() => nav("/materials")}>
-                전체 자재 보기 <ChevronRight size={16} style={{ verticalAlign: 'middle' }} />
-              </button>
-            </div>
-
-            <div className="product-grid">
-              {recommendedMaterials.map((m) => (
-                <MaterialCard key={m.id} material={m} />
-              ))}
-            </div>
-          </section>
-
-          {/* ==========================================
-             5. Construction Cases (시공 사례)
-             ========================================== */}
-          <section className="home-section">
-            <div className="section-header-centered">
-              <span className="section-tag">Portfolio</span>
-              <h2>최신 시공 사례</h2>
-              <p>동경바닥재 전문 시공팀이 직접 꼼꼼하게 마감한 실제 인테리어 현장 포트폴리오입니다.</p>
-            </div>
-
-            <div className="case-grid">
-              <div className="case-card">
-                <div className="case-image">
-                  <img src="/images/banner1.png" alt="마포 래미안 아파트 마루 시공" />
-                  <span className="case-tag">주거 시공</span>
-                </div>
-                <div className="case-info">
-                  <h3 className="case-title">마포 래미안 푸르지오 아파트</h3>
-                  <p className="case-desc">이건 강마루 세라 베이직 오크 자재 사용. 편안하고 자연스러운 친환경 거실 원목 무늬 바닥 완공.</p>
-                  <div className="case-meta">
-                    <span>규격: 112㎡ (34평형)</span>
-                    <span>시공: 이건 강마루</span>
-                  </div>
-                </div>
-              </div>
-
-              <div className="case-card">
-                <div className="case-image">
-                  <img src="/images/banner2.png" alt="성수동 베이커리 카페 데코타일 시공" />
-                  <span className="case-tag">상업 시공</span>
-                </div>
-                <div className="case-info">
-                  <h3 className="case-title">성수동 크리에이티브 베이커리 카페</h3>
-                  <p className="case-desc">동신 아트타일 600각 콘크리트 디자인 적용. 스크래치와 마모를 최소화하는 강화 코팅 공법 적용.</p>
-                  <div className="case-meta">
-                    <span>규격: 85㎡ (25평)</span>
-                    <span>시공: 동신 데코타일</span>
-                  </div>
-                </div>
-              </div>
-
-              <div className="case-card">
-                <div className="case-image">
-                  <img src="/images/banner3.png" alt="여의도 오피스 카페트타일 시공" />
-                  <span className="case-tag">사무 시공</span>
-                </div>
-                <div className="case-info">
-                  <h3 className="case-title">여의도 금융 핀테크 사무실 회의실</h3>
-                  <p className="case-desc">스완 롤카페트 및 사각 카페트타일 하이브리드 교차 시공. 업무 소음을 분산시키고 보행감이 매우 우수함.</p>
-                  <div className="case-meta">
-                    <span>규격: 150㎡ (45평)</span>
-                    <span>시공: 스완 카페트타일</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* ==========================================
-             6. Estimate CTA Banner (견적 요청 배너)
-             ========================================== */}
-          <section className="home-section">
-            <div className="estimate-cta-banner">
-              <div className="cta-content">
-                <h2>우리 현장 맞춤형 견적을 받아보세요</h2>
-                <p>
-                  아파트 거실부터 상가 빌딩 전체 리모델링까지, 전문 실측 가이드와 자재 스펙을 바탕으로 투명하고 직관적인 견적서를 무료로 빠르게 제공합니다.
-                </p>
-                <button className="btn-cta-estimate" onClick={() => nav("/estimate/request")}>
-                  <FileText size={20} style={{ marginRight: '8px' }} /> 무료 현장 견적 상담하기
+        <section className="premium-hero-section">
+          <div className="hero-content-row">
+            
+            {/* Left Content Column */}
+            <div className="hero-left-column">
+              <span className="hero-eyebrow-label">FLOORING & INTERIOR MATERIALS</span>
+              <h1 className="hero-main-title">
+                바닥재 시공,<br />
+                자재부터 현장까지 한 번에
+              </h1>
+              <p className="hero-description-paragraph">
+                동경바닥재는 장판 · 데코타일 · 마루 · 벽지 · 카페트타일을 전문 공급하며,<br />
+                전국의 시공 현장에 맞는 자재 제안과 시공 솔루션을 제공합니다.
+              </p>
+              
+              <div className="hero-action-buttons">
+                <button className="btn-hero-primary" onClick={() => nav("/estimate/request")}>
+                  견적 요청하기 <span className="arrow-icon">&gt;</span>
+                </button>
+                <button className="btn-hero-secondary" onClick={() => nav("/materials")}>
+                  자재 둘러보기 <span className="arrow-icon">&gt;</span>
                 </button>
               </div>
-            </div>
-          </section>
 
-          {/* ==========================================
-             7. Directions & Inquiry (오시는 길 / 상담 문의)
-             ========================================== */}
-          <section className="home-section">
-            <div className="section-header-centered">
-              <span className="section-tag">Location & Contact</span>
-              <h2>찾아오시는 길 & 상담 문의</h2>
-              <p>동경바닥재 사무실 방문 예약 및 전화/카카오톡을 통해 빠른 전문 견적 상담을 받아보세요.</p>
-            </div>
-
-            <div className="contact-grid">
-              <div className="contact-info-card">
-                <div className="info-item">
-                  <div className="info-icon">
-                    <MapPin size={20} />
+              {/* Feature Points inside Hero section */}
+              <div className="hero-feature-points-row">
+                <div className="feat-item">
+                  <div className="feat-icon-circle">
+                    <ShieldCheck size={18} />
                   </div>
-                  <div className="info-details">
-                    <h3>오시는 길 (본사/전시장)</h3>
-                    <p>경기도 고양시 덕양구 덕은동 (상세 주소는 방문 예약 시 안내)</p>
+                  <div className="feat-texts">
+                    <span className="feat-title">정품 자재 공급</span>
+                    <span className="feat-desc">검증된 브랜드 · 품질 보장</span>
                   </div>
                 </div>
 
-                <div className="info-item">
-                  <div className="info-icon">
-                    <Phone size={20} />
+                <div className="feat-item">
+                  <div className="feat-icon-circle">
+                    <Wrench size={18} />
                   </div>
-                  <div className="info-details">
-                    <h3>전화/팩스 상담</h3>
-                    <p>전화: <a href="tel:01055555555">010-XXXX-XXXX</a> / <a href="tel:0319999999">031-999-9999</a></p>
-                    <p>이메일: contact@dongkfloor.com</p>
+                  <div className="feat-texts">
+                    <span className="feat-title">전문 시공팀</span>
+                    <span className="feat-desc">경험 많은 시공 전문가</span>
                   </div>
                 </div>
 
-                <div className="info-item">
-                  <div className="info-icon">
-                    <Clock size={20} />
+                <div className="feat-item">
+                  <div className="feat-icon-circle">
+                    <Truck size={18} />
                   </div>
-                  <div className="info-details">
-                    <h3>상담 및 영업시간</h3>
-                    <p>평일: 09:00 ~ 18:00</p>
-                    <p>토요일: 09:00 ~ 13:00 (사전 방문 예약 필수)</p>
-                    <p>일요일 및 공휴일 휴무</p>
+                  <div className="feat-texts">
+                    <span className="feat-title">전국 시공 지원</span>
+                    <span className="feat-desc">전국 어디든 빠른 대응</span>
+                  </div>
+                </div>
+
+                <div className="feat-item">
+                  <div className="feat-icon-circle">
+                    <Award size={18} />
+                  </div>
+                  <div className="feat-texts">
+                    <span className="feat-title">맞춤 견적 서비스</span>
+                    <span className="feat-desc">현장 맞춤 · 합리적 견적</span>
                   </div>
                 </div>
               </div>
+            </div>
 
-              {/* Stylish Google Map embed placeholder pointing generally to Deogun-dong */}
-              <div className="map-placeholder">
-                <iframe 
-                  title="Dongkyung Flooring Location Map"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12651.986629910543!2d126.86616428616147!3d37.58550186981881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c994ad5e4dfa9%3A0xe5a3c5a63c6be1e6!2z6rK96riw64-EIOqzoOyWkey5nCDrjZXslpHqtawg642V7J2A64-Z!5e0!3m2!1sko!2skr!4v1716382000000!5m2!1sko!2skr"
-                  allowFullScreen="" 
-                  loading="lazy" 
-                  referrerPolicy="no-referrer-when-downgrade"
-                ></iframe>
+            {/* Right Visual Image Column */}
+            <div className="hero-right-column">
+              <div className="hero-image-frame">
+                <img 
+                  src="/images/premium_living_room.png" 
+                  alt="Premium interior living room finished with luxury wood flooring and clean minimalist decor" 
+                  className="hero-display-image"
+                />
               </div>
             </div>
-          </section>
-        </div>
+
+          </div>
+        </section>
+
+        {/* ==========================================
+           2. Main Category Section
+           ========================================== */}
+        <section className="premium-category-section">
+          <div className="category-layout-row">
+            
+            {/* Title block */}
+            <div className="category-title-block">
+              <h2 className="cat-section-title">주요 자재 카테고리</h2>
+              <p className="cat-section-desc">현장에 딱 맞는 자재를 빠르게 찾아보세요.</p>
+              <div className="cat-arrow-circle" onClick={() => nav("/materials")}>
+                <ChevronRight size={18} />
+              </div>
+            </div>
+
+            {/* Grid block */}
+            <div className="category-cards-grid">
+              {categories.map((cat, idx) => (
+                <div key={idx} className="category-card-item" onClick={() => nav(cat.path)}>
+                  <div className="cat-img-box">
+                    <img src={cat.image} alt={`${cat.name} material sample texture preview`} className="cat-bg-img" />
+                  </div>
+                  <div className="cat-card-info">
+                    <span className="cat-card-name">{cat.name}</span>
+                    <span className="cat-card-link">보기 &gt;</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+          </div>
+        </section>
+
+        {/* ==========================================
+           3. Brand Value Section
+           ========================================== */}
+        <section className="premium-value-section">
+          <div className="value-cards-row">
+            
+            <div className="value-card-box">
+              <div className="value-icon-wrapper">
+                <Truck size={24} />
+              </div>
+              <h3 className="value-card-title">자재 직공급</h3>
+              <p className="value-card-desc">
+                LX, KCC 등 주요 브랜드<br />
+                신뢰할 수 있는 정품 자재만 공급
+              </p>
+            </div>
+
+            <div className="value-card-box">
+              <div className="value-icon-wrapper">
+                <Wrench size={24} />
+              </div>
+              <h3 className="value-card-title">전문 시공팀</h3>
+              <p className="value-card-desc">
+                경력 10년 이상의 베테랑<br />
+                체계적인 시공으로 완성도 높은 결과 제공
+              </p>
+            </div>
+
+            <div className="value-card-box">
+              <div className="value-icon-wrapper">
+                <ShieldCheck size={24} />
+              </div>
+              <h3 className="value-card-title">현장 맞춤 견적</h3>
+              <p className="value-card-desc">
+                수도권 무료 방문 실측 및<br />
+                투명한 견적 시스템
+              </p>
+            </div>
+
+          </div>
+        </section>
+
       </div>
     </MainLayout>
   );

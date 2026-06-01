@@ -194,12 +194,31 @@ export default function Header() {
   };
 
   return (
-    <header className="mall-header">
-      <div className="container header-row">
-        {/* Logo */}
-        <div className="header-logo" onClick={() => nav("/")}>
-          DK Floor
+    <div className="header-wrapper">
+      {/* Top Notice Bar */}
+      <div className="top-notice-bar">
+        <div className="container notice-row">
+          <div className="notice-left">
+            <span className="speaker-icon">📢</span>
+            <span>전문 시공팀과 함께 자재 공급부터 시공까지 원스톱 서비스를 제공합니다.</span>
+          </div>
+          <div className="notice-links">
+            <span className="notice-link" onClick={() => nav("/")}>회사소개</span>
+            <span className="notice-separator">|</span>
+            <span className="notice-link" onClick={() => nav("/materials")}>시공사례</span>
+            <span className="notice-separator">|</span>
+            <span className="notice-link" onClick={() => nav("/estimate/request")}>고객센터</span>
+          </div>
         </div>
+      </div>
+
+      <header className="mall-header">
+        <div className="container header-row">
+          {/* Logo */}
+          <div className="header-logo" onClick={() => nav("/")}>
+            <span className="logo-title">DK Floor</span>
+            <span className="logo-subtitle">동경바닥재</span>
+          </div>
 
         {/* Search */}
         <div className="header-search" ref={dropdownRef}>
@@ -319,6 +338,7 @@ export default function Header() {
           )}
         </nav>
       </div>
-    </header>
+      </header>
+    </div>
   );
 }
