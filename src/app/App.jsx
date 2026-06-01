@@ -48,6 +48,11 @@ export default function App() {
         <Route path="/materials/:id" element={<MaterialDetail />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/estimate/request" element={<EstimateRequest />} />
+        <Route path="/estimate" element={<EstimateRequest />} />
+        <Route path="/quote" element={<EstimateRequest />} />
+        <Route path="/company" element={<Home />} />
+        <Route path="/cases" element={<Materials />} />
+        <Route path="/customer-center" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/mypage" element={<MyPage />} />

@@ -162,8 +162,14 @@ export default function EstimateRequest() {
           <h2>로그인 후 이용해주세요</h2>
           <p style={{ marginTop: '20px', color: '#666' }}>견적요청은 로그인된 회원만 이용 가능합니다.</p>
           <div style={{ marginTop: '40px', display: 'flex', gap: '10px', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <button className="btn-secondary" onClick={() => navigate(-1)}>화면으로 돌아가기</button>
-            <button className="btn-primary" onClick={() => navigate('/login?redirect=/estimate/request')}>로그인 화면으로 가기</button>
+            <button className="btn-secondary" onClick={() => {
+              if (window.history.length > 1) {
+                navigate(-1);
+              } else {
+                navigate('/');
+              }
+            }}>이전 화면으로 돌아가기</button>
+            <button className="btn-primary" onClick={() => navigate(`/login?redirect=${encodeURIComponent(window.location.pathname + window.location.search)}`)}>로그인하기</button>
           </div>
         </div>
       </MainLayout>

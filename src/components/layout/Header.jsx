@@ -48,6 +48,13 @@ const HighlightText = ({ text, highlight }) => {
 export default function Header() {
   const nav = useNavigate();
   const location = useLocation();
+
+  const scrollToFooter = () => {
+    const footer = document.querySelector('footer');
+    if (footer) {
+      footer.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   const [q, setQ] = useState(() => {
     const params = new URLSearchParams(location.search);
     return params.get("search") || "";
@@ -216,7 +223,7 @@ export default function Header() {
             <span className="notice-separator">|</span>
             <span className="notice-link" onClick={() => nav("/materials")}>시공사례</span>
             <span className="notice-separator">|</span>
-            <span className="notice-link" onClick={() => nav("/estimate/request")}>고객센터</span>
+            <span className="notice-link" onClick={scrollToFooter}>고객센터</span>
           </div>
         </div>
       </div>
@@ -318,7 +325,7 @@ export default function Header() {
           </button>
           <button onClick={() => nav("/estimate/request")} style={{ position: 'relative' }}>
             <FileText size={20} />
-            <span>견적요청</span>
+            <span>견적문의</span>
             {estimateCount > 0 && <span className="estimate-badge">{estimateCount}</span>}
           </button>
           
