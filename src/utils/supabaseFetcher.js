@@ -1,4 +1,5 @@
 import { supabase } from '../lib/supabaseClient';
+import { materials } from '../data/materials.db'; // Local fallback data
 
 let cachedProducts = null;
 
@@ -7,28 +8,61 @@ export async function fetchAllProducts(forceRefresh = false) {
     return cachedProducts;
   }
 
-  if (!supabase) {
-    throw new Error("Supabase client is not initialized. Please verify VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY in .env.local.");
+  let data = null;
+  let fetchError = null;
+
+  if (supabase) {
+    console.log("Fetching all products from Supabase DB...");
+    try {
+      const res = await supabase
+        .from('products')
+        .select(`
+          *,
+          categories ( id, name ),
+          brands ( id, name )
+        `);
+      data = res.data;
+      fetchError = res.error;
+    } catch (e) {
+      console.error("Supabase fetch failed with exception:", e);
+      fetchError = e;
+    }
+  } else {
+    console.warn("Supabase client is not initialized. Using local fallback data.");
   }
 
-  console.log("Fetching all products from Supabase DB...");
-  const { data, error } = await supabase
-    .from('products')
-    .select(`
-      *,
-      categories ( id, name ),
-      brands ( id, name )
-    `);
+  if (fetchError || !data || data.length === 0) {
+    console.warn("Supabase load failed or returned no data. Falling back to local materials database...", fetchError);
+    
+    // Map local materials to the frontend product structure
+    cachedProducts = (materials || []).map(m => ({
+      id: m.id || m.code,
+      code: m.code || "",
+      name: m.name || "",
+      brand: m.brand || "",
+      category: m.category || "",
+      price: m.price || 0,
+      thickness: m.thickness || "",
+      specs: m.specs || {
+        thickness: m.thickness || "",
+        size: "",
+        packing: ""
+      },
+      thumbnail: m.thumbnail || null,
+      images: m.images || [],
+      line: m.line || "",
+      type: m.type || "",
+      active: m.active ?? true
+    }));
 
-  if (error) {
-    console.error("Supabase SELECT products error:", error);
-    throw error;
+    console.log("Successfully loaded local fallback materials:", cachedProducts.length);
+    return cachedProducts;
   }
 
-  console.log("Supabase response raw rows count:", data ? data.length : 0);
+  console.log("Supabase response raw rows count:", data.length);
 
   // Map database columns to the frontend object structure safely
-  cachedProducts = (data || []).map(p => ({
+  cachedProducts = data.map(p => ({
     id: p.slug || String(p.id),
     code: p.product_code || "",
     name: p.name || "",
@@ -48,7 +82,7 @@ export async function fetchAllProducts(forceRefresh = false) {
     active: p.is_active ?? true
   }));
 
-  console.log("Successfully loaded and mapped products:", cachedProducts.length);
+  console.log("Successfully loaded and mapped products from Supabase:", cachedProducts.length);
   return cachedProducts;
 }
 

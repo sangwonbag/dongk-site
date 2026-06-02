@@ -210,7 +210,10 @@ items.forEach(code => {
     const seenHashes = new Set();
     const uniqueGallery = [];
 
-    for (const m of fileMatches) {
+    // Sort fileMatches by index so that _0, _1, _2 are in order
+    const sortedFileMatches = [...fileMatches].sort((a, b) => a.index - b.index);
+
+    for (const m of sortedFileMatches) {
         const publicPath = convertToPublicPath(m.path);
         try {
             const hash = crypto.createHash('md5').update(fs.readFileSync(m.path)).digest('hex');

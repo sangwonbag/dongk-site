@@ -18205,16 +18205,16 @@ export const materials = [
     }
   },
   {
-    "id": "동화-진 오리진_어반내추럴",
-    "code": "어반내추럴",
-    "name": "어반내추럴",
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_까사 내추럴",
+    "code": "까사 내추럴",
+    "name": "까사 내추럴",
     "brand": "동화",
     "category": "마루",
-    "line": "진 오리진",
+    "line": "강마루",
     "price": 0,
-    "thumbnail": "71b8dff3c935b3ef6e425deecf65e9e5.png",
+    "thumbnail": "0c0c034ff3d1ab5a7ff4d8a53b5c93ff.png",
     "images": [
-      "71b8dff3c935b3ef6e425deecf65e9e5.png"
+      "0c0c034ff3d1ab5a7ff4d8a53b5c93ff.png"
     ],
     "materialType": "진 오리진",
     "thickness": "7.5T",
@@ -18226,16 +18226,16 @@ export const materials = [
     }
   },
   {
-    "id": "동화-진 오리진_어반밀크티",
-    "code": "어반밀크티",
-    "name": "어반밀크티",
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_까사 브라운 ",
+    "code": "까사 브라운 ",
+    "name": "까사 브라운 ",
     "brand": "동화",
     "category": "마루",
-    "line": "진 오리진",
+    "line": "강마루",
     "price": 0,
-    "thumbnail": "2b432ec7a7d25f258e4520dd9b7de54b.png",
+    "thumbnail": "fc2b532a5758698e3e533f1f79c9994f.png",
     "images": [
-      "2b432ec7a7d25f258e4520dd9b7de54b.png"
+      "fc2b532a5758698e3e533f1f79c9994f.png"
     ],
     "materialType": "진 오리진",
     "thickness": "7.5T",
@@ -18247,16 +18247,16 @@ export const materials = [
     }
   },
   {
-    "id": "동화-진 오리진_어반샌디에고",
-    "code": "어반샌디에고",
-    "name": "어반샌디에고",
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_까사 크레마 (2)",
+    "code": "까사 크레마 (2)",
+    "name": "까사 크레마 (2)",
     "brand": "동화",
     "category": "마루",
-    "line": "진 오리진",
+    "line": "강마루",
     "price": 0,
-    "thumbnail": "29bca9ac33aa1d79ce1031e6e0be90c2.png",
+    "thumbnail": "2813f3d450fe6103f0893b564d55d1ac.png",
     "images": [
-      "29bca9ac33aa1d79ce1031e6e0be90c2.png"
+      "2813f3d450fe6103f0893b564d55d1ac.png"
     ],
     "materialType": "진 오리진",
     "thickness": "7.5T",
@@ -18268,16 +18268,16 @@ export const materials = [
     }
   },
   {
-    "id": "동화-진 오리진_어반화이트",
-    "code": "어반화이트",
-    "name": "어반화이트",
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_까사 크레마",
+    "code": "까사 크레마",
+    "name": "까사 크레마",
     "brand": "동화",
     "category": "마루",
-    "line": "진 오리진",
+    "line": "강마루",
     "price": 0,
-    "thumbnail": "b47cd88a7138d9d160b85a19f87d55b4.png",
+    "thumbnail": "7bc1616f65f8edbf08393c62faa85d0f.png",
     "images": [
-      "b47cd88a7138d9d160b85a19f87d55b4.png"
+      "7bc1616f65f8edbf08393c62faa85d0f.png"
     ],
     "materialType": "진 오리진",
     "thickness": "7.5T",
@@ -18289,16 +18289,16 @@ export const materials = [
     }
   },
   {
-    "id": "동화-진 오리진_퓨어그레이",
-    "code": "퓨어그레이",
-    "name": "퓨어그레이",
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_까사 탠 오크 (2)",
+    "code": "까사 탠 오크 (2)",
+    "name": "까사 탠 오크 (2)",
     "brand": "동화",
     "category": "마루",
-    "line": "진 오리진",
+    "line": "강마루",
     "price": 0,
-    "thumbnail": "3432b05f87e5f13ca64e5fbe0221ac75.png",
+    "thumbnail": "2a31815205f61a6d5daca80f2683b3ce.png",
     "images": [
-      "3432b05f87e5f13ca64e5fbe0221ac75.png"
+      "2a31815205f61a6d5daca80f2683b3ce.png"
     ],
     "materialType": "진 오리진",
     "thickness": "7.5T",
@@ -18310,16 +18310,16 @@ export const materials = [
     }
   },
   {
-    "id": "동화-진 오리진_퓨어베이지",
-    "code": "퓨어베이지",
-    "name": "퓨어베이지",
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_까사 탠 오크",
+    "code": "까사 탠 오크",
+    "name": "까사 탠 오크",
     "brand": "동화",
     "category": "마루",
-    "line": "진 오리진",
+    "line": "강마루",
     "price": 0,
-    "thumbnail": "bf07156a308f39d0e4170fa2b631cbc5.png",
+    "thumbnail": "150af8a9778eaeadae77d9b3b63f68fb.png",
     "images": [
-      "bf07156a308f39d0e4170fa2b631cbc5.png"
+      "150af8a9778eaeadae77d9b3b63f68fb.png"
     ],
     "materialType": "진 오리진",
     "thickness": "7.5T",
@@ -18331,16 +18331,16 @@ export const materials = [
     }
   },
   {
-    "id": "동화-진 오리진_퓨어브라운",
-    "code": "퓨어브라운",
-    "name": "퓨어브라운",
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_돌체 브라운",
+    "code": "돌체 브라운",
+    "name": "돌체 브라운",
     "brand": "동화",
     "category": "마루",
-    "line": "진 오리진",
+    "line": "강마루",
     "price": 0,
-    "thumbnail": "cef14563cccbc37a04c7060bce030cea.png",
+    "thumbnail": "e43937c42788c65e6a05db5a81790a65.png",
     "images": [
-      "cef14563cccbc37a04c7060bce030cea.png"
+      "e43937c42788c65e6a05db5a81790a65.png"
     ],
     "materialType": "진 오리진",
     "thickness": "7.5T",
@@ -18352,16 +18352,16 @@ export const materials = [
     }
   },
   {
-    "id": "동화-진 오리진_퓨어샌디",
-    "code": "퓨어샌디",
-    "name": "퓨어샌디",
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_리네아 내추럴",
+    "code": "리네아 내추럴",
+    "name": "리네아 내추럴",
     "brand": "동화",
     "category": "마루",
-    "line": "진 오리진",
+    "line": "강마루",
     "price": 0,
-    "thumbnail": "9a2ff9bf405f9cce02e03b71aeb31078.png",
+    "thumbnail": "f879fdae27ce68aa09b46921c517aef0.png",
     "images": [
-      "9a2ff9bf405f9cce02e03b71aeb31078.png"
+      "f879fdae27ce68aa09b46921c517aef0.png"
     ],
     "materialType": "진 오리진",
     "thickness": "7.5T",
@@ -18373,16 +18373,16 @@ export const materials = [
     }
   },
   {
-    "id": "동화-진 오리진_퓨어실버",
-    "code": "퓨어실버",
-    "name": "퓨어실버",
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_리네아 라이트",
+    "code": "리네아 라이트",
+    "name": "리네아 라이트",
     "brand": "동화",
     "category": "마루",
-    "line": "진 오리진",
+    "line": "강마루",
     "price": 0,
-    "thumbnail": "1bb0a4191c0c93611cd77d11165e0c87.png",
+    "thumbnail": "f71f90cb11eda64237c41d5e1fea8151.png",
     "images": [
-      "1bb0a4191c0c93611cd77d11165e0c87.png"
+      "f71f90cb11eda64237c41d5e1fea8151.png"
     ],
     "materialType": "진 오리진",
     "thickness": "7.5T",
@@ -18394,16 +18394,16 @@ export const materials = [
     }
   },
   {
-    "id": "동화-진 오리진_퓨어아이보리",
-    "code": "퓨어아이보리",
-    "name": "퓨어아이보리",
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_멜란지 그레이",
+    "code": "멜란지 그레이",
+    "name": "멜란지 그레이",
     "brand": "동화",
     "category": "마루",
-    "line": "진 오리진",
+    "line": "강마루",
     "price": 0,
-    "thumbnail": "c36f3a4568bb82403f42e1e5f98b397d.png",
+    "thumbnail": "175c00d18cf303b5fa49228bccd78499.png",
     "images": [
-      "c36f3a4568bb82403f42e1e5f98b397d.png"
+      "175c00d18cf303b5fa49228bccd78499.png"
     ],
     "materialType": "진 오리진",
     "thickness": "7.5T",
@@ -18415,16 +18415,16 @@ export const materials = [
     }
   },
   {
-    "id": "동화-진 오리진_퓨어옐로우",
-    "code": "퓨어옐로우",
-    "name": "퓨어옐로우",
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_멜란지 베이지",
+    "code": "멜란지 베이지",
+    "name": "멜란지 베이지",
     "brand": "동화",
     "category": "마루",
-    "line": "진 오리진",
+    "line": "강마루",
     "price": 0,
-    "thumbnail": "0ab4497de02f7a3b49d19b9064c2da8b.png",
+    "thumbnail": "7fdaf1b9994b61e8268b4aefc49e9350.png",
     "images": [
-      "0ab4497de02f7a3b49d19b9064c2da8b.png"
+      "7fdaf1b9994b61e8268b4aefc49e9350.png"
     ],
     "materialType": "진 오리진",
     "thickness": "7.5T",
@@ -18436,16 +18436,3145 @@ export const materials = [
     }
   },
   {
-    "id": "동화-진 오리진_퓨어크림",
-    "code": "퓨어크림",
-    "name": "퓨어크림",
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_멜란지 화이트",
+    "code": "멜란지 화이트",
+    "name": "멜란지 화이트",
     "brand": "동화",
     "category": "마루",
-    "line": "진 오리진",
+    "line": "강마루",
     "price": 0,
-    "thumbnail": "8a7601868539721bb7e96b434d5042a2.png",
+    "thumbnail": "64888f9648c5ee2cf593301054437b91.png",
     "images": [
-      "8a7601868539721bb7e96b434d5042a2.png"
+      "64888f9648c5ee2cf593301054437b91.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_모데나 오크 (2)",
+    "code": "모데나 오크 (2)",
+    "name": "모데나 오크 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "060dc324c202990393b867a19d2ac281.png",
+    "images": [
+      "060dc324c202990393b867a19d2ac281.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_모데나 오크",
+    "code": "모데나 오크",
+    "name": "모데나 오크",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "5345c5cd3a2f9662d2f151545944503e.png",
+    "images": [
+      "5345c5cd3a2f9662d2f151545944503e.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_블론디 오크",
+    "code": "블론디 오크",
+    "name": "블론디 오크",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "983e531f2abd7ffd2a48c97d4ba1de65.png",
+    "images": [
+      "983e531f2abd7ffd2a48c97d4ba1de65.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_소프트 카모마일 (2)",
+    "code": "소프트 카모마일 (2)",
+    "name": "소프트 카모마일 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "42de32fb9fb73b0a5fc68d7cbf05d317.png",
+    "images": [
+      "42de32fb9fb73b0a5fc68d7cbf05d317.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_소프트 카모마일",
+    "code": "소프트 카모마일",
+    "name": "소프트 카모마일",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "5d3fcc7f4ab9c6dd1ba8bc69d7813a00.png",
+    "images": [
+      "5d3fcc7f4ab9c6dd1ba8bc69d7813a00.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_스모크 블랙",
+    "code": "스모크 블랙",
+    "name": "스모크 블랙",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "b467116556e19174f05f7a058ed0a21c.png",
+    "images": [
+      "b467116556e19174f05f7a058ed0a21c.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_에센스 뮤트 (2)",
+    "code": "에센스 뮤트 (2)",
+    "name": "에센스 뮤트 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "d35dd1b2c71ce72a43da04331b6c5508.png",
+    "images": [
+      "d35dd1b2c71ce72a43da04331b6c5508.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_에센스 뮤트",
+    "code": "에센스 뮤트",
+    "name": "에센스 뮤트",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "381ec421904a34bf4b2e3b3cec69badd.png",
+    "images": [
+      "381ec421904a34bf4b2e3b3cec69badd.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_에센스 오크 (2)",
+    "code": "에센스 오크 (2)",
+    "name": "에센스 오크 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "e608eea4777337dc2c87f4f1ada2fd6a.png",
+    "images": [
+      "e608eea4777337dc2c87f4f1ada2fd6a.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_에센스 오크",
+    "code": "에센스 오크",
+    "name": "에센스 오크",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "ff4cc0506b385beaa309a371c88fe2d3.png",
+    "images": [
+      "ff4cc0506b385beaa309a371c88fe2d3.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_포르토 내추럴 (2)",
+    "code": "포르토 내추럴 (2)",
+    "name": "포르토 내추럴 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "58a23466767feedc8e8b70c805b2caf0.png",
+    "images": [
+      "58a23466767feedc8e8b70c805b2caf0.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_포르토 내추럴",
+    "code": "포르토 내추럴",
+    "name": "포르토 내추럴",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "b8f945c00889f8059423e52341093469.png",
+    "images": [
+      "b8f945c00889f8059423e52341093469.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_프렌치 시에나",
+    "code": "프렌치 시에나",
+    "name": "프렌치 시에나",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "10fe22ef90769bf10725fbd278bd1124.png",
+    "images": [
+      "10fe22ef90769bf10725fbd278bd1124.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_프렌치 오크",
+    "code": "프렌치 오크",
+    "name": "프렌치 오크",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "336675552b12be1f51aabb5e383e9c04.png",
+    "images": [
+      "336675552b12be1f51aabb5e383e9c04.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_화이트 가드니아 (2)",
+    "code": "화이트 가드니아 (2)",
+    "name": "화이트 가드니아 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "b7b67687f1ace6c2a93fef1854c3a25d.png",
+    "images": [
+      "b7b67687f1ace6c2a93fef1854c3a25d.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE_화이트 가드니아",
+    "code": "화이트 가드니아",
+    "name": "화이트 가드니아",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "3d01b21ebfba15c7b0c85496d16c3390.png",
+    "images": [
+      "3d01b21ebfba15c7b0c85496d16c3390.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE MAX_돌체 내추럴",
+    "code": "돌체 내추럴",
+    "name": "돌체 내추럴",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "2d7f45d9ddde4217a597aaa1c4986661.png",
+    "images": [
+      "2d7f45d9ddde4217a597aaa1c4986661.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE MAX_돌체 브라운",
+    "code": "돌체 브라운",
+    "name": "돌체 브라운",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "702cb4e26e95a06766019d94aae78bf0.png",
+    "images": [
+      "702cb4e26e95a06766019d94aae78bf0.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE MAX_브램튼 내추럴",
+    "code": "브램튼 내추럴",
+    "name": "브램튼 내추럴",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "359398d4a3aa16e524120cb1e6c93fd4.png",
+    "images": [
+      "359398d4a3aa16e524120cb1e6c93fd4.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE MAX_브램튼 새들",
+    "code": "브램튼 새들",
+    "name": "브램튼 새들",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "7a805c808c96842506545ec39300f64e.png",
+    "images": [
+      "7a805c808c96842506545ec39300f64e.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_DUO TEXTURE MAX_사비아 라이트",
+    "code": "사비아 라이트",
+    "name": "사비아 라이트",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "09a6c48cb3ce8abbc3973109b92f4fce.png",
+    "images": [
+      "09a6c48cb3ce8abbc3973109b92f4fce.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_DUO · KANG TEXTUR_돌체 내추럴",
+    "code": "돌체 내추럴",
+    "name": "돌체 내추럴",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "88cb716cb2a617271572afa72a7625b9.png",
+    "images": [
+      "88cb716cb2a617271572afa72a7625b9.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_DUO · KANG TEXTUR_돌체 브라운",
+    "code": "돌체 브라운",
+    "name": "돌체 브라운",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "fa25bf8cef6d7ee26b64c414fb4c5018.png",
+    "images": [
+      "fa25bf8cef6d7ee26b64c414fb4c5018.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_DUO · KANG TEXTUR_브램튼 내추럴",
+    "code": "브램튼 내추럴",
+    "name": "브램튼 내추럴",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "1fe1ccf0db36b1197c0dfb6c073374d5.png",
+    "images": [
+      "1fe1ccf0db36b1197c0dfb6c073374d5.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_DUO · KANG TEXTUR_브램튼 새들",
+    "code": "브램튼 새들",
+    "name": "브램튼 새들",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "f514ec5366e3c175d212b38e4f0396dc.png",
+    "images": [
+      "f514ec5366e3c175d212b38e4f0396dc.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_DUO · KANG TEXTUR_사비아 라이트",
+    "code": "사비아 라이트",
+    "name": "사비아 라이트",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "f897bec09b95857774d582f858a2867b.png",
+    "images": [
+      "f897bec09b95857774d582f858a2867b.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_KANG TEXTURE_까사 내추럴",
+    "code": "까사 내추럴",
+    "name": "까사 내추럴",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "70d0434247ba5b336b5353880ecc01eb.png",
+    "images": [
+      "70d0434247ba5b336b5353880ecc01eb.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_KANG TEXTURE_까사 브라운",
+    "code": "까사 브라운",
+    "name": "까사 브라운",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "58d2593c39954591a83b53de4963a033.png",
+    "images": [
+      "58d2593c39954591a83b53de4963a033.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_KANG TEXTURE_돌체 브라운",
+    "code": "돌체 브라운",
+    "name": "돌체 브라운",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "b15b8b2ca58441a57022cba679ddc88c.png",
+    "images": [
+      "b15b8b2ca58441a57022cba679ddc88c.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_KANG TEXTURE_리네아 내추럴",
+    "code": "리네아 내추럴",
+    "name": "리네아 내추럴",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "b39c9ec00b29f002f1eb489efefcc562.png",
+    "images": [
+      "b39c9ec00b29f002f1eb489efefcc562.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_KANG TEXTURE_리네아 라이트",
+    "code": "리네아 라이트",
+    "name": "리네아 라이트",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "e9d69e873ffcc13512ff14f9afe5737b.png",
+    "images": [
+      "e9d69e873ffcc13512ff14f9afe5737b.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_KANG TEXTURE_멜란지 그레이",
+    "code": "멜란지 그레이",
+    "name": "멜란지 그레이",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "566c8540b6434b0f9479a219d5025198.png",
+    "images": [
+      "566c8540b6434b0f9479a219d5025198.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_KANG TEXTURE_멜란지 베이지",
+    "code": "멜란지 베이지",
+    "name": "멜란지 베이지",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "34a28aa012d26e9eab9abc6a03e84b4a.png",
+    "images": [
+      "34a28aa012d26e9eab9abc6a03e84b4a.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_KANG TEXTURE_멜란지 화이트",
+    "code": "멜란지 화이트",
+    "name": "멜란지 화이트",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "c2f9ba907b7e0b3f9694c9561f8e43d3.png",
+    "images": [
+      "c2f9ba907b7e0b3f9694c9561f8e43d3.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_KANG TEXTURE_블론디 오크",
+    "code": "블론디 오크",
+    "name": "블론디 오크",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "a3215b1eed0419a05de8d6555b1ab8e8.png",
+    "images": [
+      "a3215b1eed0419a05de8d6555b1ab8e8.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_KANG TEXTURE_스모크 블랙",
+    "code": "스모크 블랙",
+    "name": "스모크 블랙",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "793dc5b5e0fa17962bdf491ef515dc44.png",
+    "images": [
+      "793dc5b5e0fa17962bdf491ef515dc44.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_KANG TEXTURE_프렌치 시에나",
+    "code": "프렌치 시에나",
+    "name": "프렌치 시에나",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "e0e405626f6d65e7499693b63bfe13fd.png",
+    "images": [
+      "e0e405626f6d65e7499693b63bfe13fd.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_듀오텍스쳐_KANG TEXTURE_프렌치 오크",
+    "code": "프렌치 오크",
+    "name": "프렌치 오크",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "32313835e5b0952884da4cb073006b03.png",
+    "images": [
+      "32313835e5b0952884da4cb073006b03.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진그란데_레이크 그레이",
+    "code": "레이크 그레이",
+    "name": "레이크 그레이",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "5b5608134d5fd46cf13dddd78386152a.jpg",
+    "images": [
+      "5b5608134d5fd46cf13dddd78386152a.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진그란데_몬테 그레이",
+    "code": "몬테 그레이",
+    "name": "몬테 그레이",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "0fb41a4fc3dca4c0b4a097192d8400d3.jpg",
+    "images": [
+      "0fb41a4fc3dca4c0b4a097192d8400d3.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진그란데_몬테 화이트",
+    "code": "몬테 화이트",
+    "name": "몬테 화이트",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "16e27e0ed4d1854ff6b2e16f86e25a9b.jpg",
+    "images": [
+      "16e27e0ed4d1854ff6b2e16f86e25a9b.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진그란데_사하라 라이트",
+    "code": "사하라 라이트",
+    "name": "사하라 라이트",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "c9a7a57bb3803c10d233ae725435f270.jpg",
+    "images": [
+      "c9a7a57bb3803c10d233ae725435f270.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진그란데_솔트 베이지",
+    "code": "솔트 베이지",
+    "name": "솔트 베이지",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "158c93c4fcac4b10485217f062f46c4f.jpg",
+    "images": [
+      "158c93c4fcac4b10485217f062f46c4f.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진그란데_슬레이트 모티프",
+    "code": "슬레이트 모티프",
+    "name": "슬레이트 모티프",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "cc57e13bc339bbbd3a1212889c01d6ac.jpg",
+    "images": [
+      "cc57e13bc339bbbd3a1212889c01d6ac.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진그란데_슬레이트 스틸",
+    "code": "슬레이트 스틸",
+    "name": "슬레이트 스틸",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "2f40fed3e3a2ed06ca2bc29f6e03132f.jpg",
+    "images": [
+      "2f40fed3e3a2ed06ca2bc29f6e03132f.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진그란데_이모션 블랑",
+    "code": "이모션 블랑",
+    "name": "이모션 블랑",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "01b98d03510ece502919c6f5b0a5edd6.jpg",
+    "images": [
+      "01b98d03510ece502919c6f5b0a5edd6.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진그란데_코지 그레이",
+    "code": "코지 그레이",
+    "name": "코지 그레이",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "86f1f4f475b5b0ac8a73f6b5813a204b.jpg",
+    "images": [
+      "86f1f4f475b5b0ac8a73f6b5813a204b.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진그란데_코지 쉐도우",
+    "code": "코지 쉐도우",
+    "name": "코지 쉐도우",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "7abf35422a42b923d280220db8ef0395.jpg",
+    "images": [
+      "7abf35422a42b923d280220db8ef0395.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진그란데_콰이엇 웨이브",
+    "code": "콰이엇 웨이브",
+    "name": "콰이엇 웨이브",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "8a5da0d4fd60102fede896e456f9774a.jpg",
+    "images": [
+      "8a5da0d4fd60102fede896e456f9774a.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진그란데_테살로 화이트",
+    "code": "테살로 화이트",
+    "name": "테살로 화이트",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "9d8bcfc1141eac1d287b95610a0ad61e.jpg",
+    "images": [
+      "9d8bcfc1141eac1d287b95610a0ad61e.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진그란데_포틀랜드 모티프",
+    "code": "포틀랜드 모티프",
+    "name": "포틀랜드 모티프",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "30ed575e6772513314beaf2cc8fcf6d6.jpg",
+    "images": [
+      "30ed575e6772513314beaf2cc8fcf6d6.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진그란데_포틀랜드 스틸",
+    "code": "포틀랜드 스틸",
+    "name": "포틀랜드 스틸",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "d3919f9db7087402043b3cdcd6d89614.jpg",
+    "images": [
+      "d3919f9db7087402043b3cdcd6d89614.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진그란데_플레인 그레이",
+    "code": "플레인 그레이",
+    "name": "플레인 그레이",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "3c0ac606c9d005fe9ed42065235a648b.jpg",
+    "images": [
+      "3c0ac606c9d005fe9ed42065235a648b.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진그란데_플로쏘",
+    "code": "플로쏘",
+    "name": "플로쏘",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "4dccf737389206045b667586692c94af.jpg",
+    "images": [
+      "4dccf737389206045b667586692c94af.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진오리진_어반 내추럴 (2)",
+    "code": "어반 내추럴 (2)",
+    "name": "어반 내추럴 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "7dee89fd99406ce32e2dbd42babe9d77.jpg",
+    "images": [
+      "7dee89fd99406ce32e2dbd42babe9d77.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진오리진_어반 내추럴",
+    "code": "어반 내추럴",
+    "name": "어반 내추럴",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "6c70737f95c97af0908c6c4528318c42.jpg",
+    "images": [
+      "6c70737f95c97af0908c6c4528318c42.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진오리진_어반 밀크티 (2)",
+    "code": "어반 밀크티 (2)",
+    "name": "어반 밀크티 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "dba996f207d67ad38ffd4e9e8f0d8762.jpg",
+    "images": [
+      "dba996f207d67ad38ffd4e9e8f0d8762.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진오리진_어반 밀크티",
+    "code": "어반 밀크티",
+    "name": "어반 밀크티",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "6a05a1fb7720bde656f2329d6a79283c.jpg",
+    "images": [
+      "6a05a1fb7720bde656f2329d6a79283c.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진오리진_어반 샌디에고 (2)",
+    "code": "어반 샌디에고 (2)",
+    "name": "어반 샌디에고 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "985e66c5469d806a7c3900cc7c60e167.jpg",
+    "images": [
+      "985e66c5469d806a7c3900cc7c60e167.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진오리진_어반 샌디에고",
+    "code": "어반 샌디에고",
+    "name": "어반 샌디에고",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "efca5e08fc9f6cd3fc254551e280647a.jpg",
+    "images": [
+      "efca5e08fc9f6cd3fc254551e280647a.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진오리진_어반 화이트 (2)",
+    "code": "어반 화이트 (2)",
+    "name": "어반 화이트 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "ae335627abf037b01bb03b152a3583dd.jpg",
+    "images": [
+      "ae335627abf037b01bb03b152a3583dd.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진오리진_어반 화이트",
+    "code": "어반 화이트",
+    "name": "어반 화이트",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "e92c26709c3399fea27a7ad8907dfc59.jpg",
+    "images": [
+      "e92c26709c3399fea27a7ad8907dfc59.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진오리진_퓨어 그레이 (2)",
+    "code": "퓨어 그레이 (2)",
+    "name": "퓨어 그레이 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "27dc2895c1fb54720bbc2c307661afc0.jpg",
+    "images": [
+      "27dc2895c1fb54720bbc2c307661afc0.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진오리진_퓨어 그레이",
+    "code": "퓨어 그레이",
+    "name": "퓨어 그레이",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "0fa041cc9137d2b77040696c1b751a3c.jpg",
+    "images": [
+      "0fa041cc9137d2b77040696c1b751a3c.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진오리진_퓨어 베이지 (2)",
+    "code": "퓨어 베이지 (2)",
+    "name": "퓨어 베이지 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "4e7f8d5c71bcddc34699047837090601.jpg",
+    "images": [
+      "4e7f8d5c71bcddc34699047837090601.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진오리진_퓨어 베이지",
+    "code": "퓨어 베이지",
+    "name": "퓨어 베이지",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "b917f90902d4e5871196f8632a683c99.jpg",
+    "images": [
+      "b917f90902d4e5871196f8632a683c99.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진오리진_퓨어 브라운 (2)",
+    "code": "퓨어 브라운 (2)",
+    "name": "퓨어 브라운 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "200e72a1fe93749ea64f7b462a5a5bc6.jpg",
+    "images": [
+      "200e72a1fe93749ea64f7b462a5a5bc6.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진오리진_퓨어 브라운",
+    "code": "퓨어 브라운",
+    "name": "퓨어 브라운",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "bb0ffc307af1d2bfdafbb7527981fcf2.jpg",
+    "images": [
+      "bb0ffc307af1d2bfdafbb7527981fcf2.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진오리진_퓨어 샌디 (2)",
+    "code": "퓨어 샌디 (2)",
+    "name": "퓨어 샌디 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "f75c05332a90bd7f41f052d28977f375.jpg",
+    "images": [
+      "f75c05332a90bd7f41f052d28977f375.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진오리진_퓨어 샌디",
+    "code": "퓨어 샌디",
+    "name": "퓨어 샌디",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "aeab26a816258caee2e52f27a8bd39c7.jpg",
+    "images": [
+      "aeab26a816258caee2e52f27a8bd39c7.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진오리진_퓨어 실버 (2)",
+    "code": "퓨어 실버 (2)",
+    "name": "퓨어 실버 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "04e63870efde8175c3bb893aa74f1972.jpg",
+    "images": [
+      "04e63870efde8175c3bb893aa74f1972.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진오리진_퓨어 실버",
+    "code": "퓨어 실버",
+    "name": "퓨어 실버",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "264a4a693ab54368d1fc79a7e5b19e9f.jpg",
+    "images": [
+      "264a4a693ab54368d1fc79a7e5b19e9f.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진오리진_퓨어 아이보리 (2)",
+    "code": "퓨어 아이보리 (2)",
+    "name": "퓨어 아이보리 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "ceb7c3726ee577eed94d750ffb0753fa.jpg",
+    "images": [
+      "ceb7c3726ee577eed94d750ffb0753fa.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진오리진_퓨어 아이보리",
+    "code": "퓨어 아이보리",
+    "name": "퓨어 아이보리",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "d4846be7f798a3107966da0faba1c732.jpg",
+    "images": [
+      "d4846be7f798a3107966da0faba1c732.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진오리진_퓨어 옐로우 (2)",
+    "code": "퓨어 옐로우 (2)",
+    "name": "퓨어 옐로우 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "f64976cebadf93f253adf5e05c864fd9.jpg",
+    "images": [
+      "f64976cebadf93f253adf5e05c864fd9.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진오리진_퓨어 옐로우",
+    "code": "퓨어 옐로우",
+    "name": "퓨어 옐로우",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "222e6ab6e5294c3252efc608d04f49dc.jpg",
+    "images": [
+      "222e6ab6e5294c3252efc608d04f49dc.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진오리진_퓨어 크림 (2)",
+    "code": "퓨어 크림 (2)",
+    "name": "퓨어 크림 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "07524bbea1e0202945930894e2e02109.jpg",
+    "images": [
+      "07524bbea1e0202945930894e2e02109.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진오리진_퓨어 크림",
+    "code": "퓨어 크림",
+    "name": "퓨어 크림",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "b3c64191c4555ed2f3041cf5f6c9523f.jpg",
+    "images": [
+      "b3c64191c4555ed2f3041cf5f6c9523f.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_노르딕 화이트 (2)",
+    "code": "노르딕 화이트 (2)",
+    "name": "노르딕 화이트 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "8e8d063779289b9f1b2e78810f7381ed.jpg",
+    "images": [
+      "8e8d063779289b9f1b2e78810f7381ed.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_노르딕 화이트",
+    "code": "노르딕 화이트",
+    "name": "노르딕 화이트",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "49ce0c52caff80a35ca35a96bea26fc8.jpg",
+    "images": [
+      "49ce0c52caff80a35ca35a96bea26fc8.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_루미나 내추럴 (2)",
+    "code": "루미나 내추럴 (2)",
+    "name": "루미나 내추럴 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "171716694f7aa7ae15b4abdb82c7f236.jpg",
+    "images": [
+      "171716694f7aa7ae15b4abdb82c7f236.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_루미나 내추럴",
+    "code": "루미나 내추럴",
+    "name": "루미나 내추럴",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "d9579d079b600d0f13b052b8c94cf0b8.jpg",
+    "images": [
+      "d9579d079b600d0f13b052b8c94cf0b8.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_루미나 브라운 (2)",
+    "code": "루미나 브라운 (2)",
+    "name": "루미나 브라운 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "f4d1d7a8bdb20cf16a756f5f610e2fb3.jpg",
+    "images": [
+      "f4d1d7a8bdb20cf16a756f5f610e2fb3.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_루미나 브라운",
+    "code": "루미나 브라운",
+    "name": "루미나 브라운",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "4c7ca7057cd9110331a4cc83783b79d7.jpg",
+    "images": [
+      "4c7ca7057cd9110331a4cc83783b79d7.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_모나 내추럴 (2)",
+    "code": "모나 내추럴 (2)",
+    "name": "모나 내추럴 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "c26fc938c88a8ef85e8c344fb887ef89.jpg",
+    "images": [
+      "c26fc938c88a8ef85e8c344fb887ef89.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_모나 내추럴",
+    "code": "모나 내추럴",
+    "name": "모나 내추럴",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "64073308e49404fc8541e5e0a3847603.jpg",
+    "images": [
+      "64073308e49404fc8541e5e0a3847603.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_모나 엠버 (2)",
+    "code": "모나 엠버 (2)",
+    "name": "모나 엠버 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "95ce1a4ac3c8b68b0e3c4500bc4f9d8c.jpg",
+    "images": [
+      "95ce1a4ac3c8b68b0e3c4500bc4f9d8c.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_모나 엠버",
+    "code": "모나 엠버",
+    "name": "모나 엠버",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "d501fefe36a92b52f1e96aa294f91102.jpg",
+    "images": [
+      "d501fefe36a92b52f1e96aa294f91102.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_바닐라 (2)",
+    "code": "바닐라 (2)",
+    "name": "바닐라 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "38f1fcc9707377a12682cccaff411e1b.jpg",
+    "images": [
+      "38f1fcc9707377a12682cccaff411e1b.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_바닐라",
+    "code": "바닐라",
+    "name": "바닐라",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "c27e5a85fa9d26b38d44537b2f200818.jpg",
+    "images": [
+      "c27e5a85fa9d26b38d44537b2f200818.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_보타니 내추럴 (2)",
+    "code": "보타니 내추럴 (2)",
+    "name": "보타니 내추럴 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "e6cdbdaf29b3bfb4397ae7ac83b38306.jpg",
+    "images": [
+      "e6cdbdaf29b3bfb4397ae7ac83b38306.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_보타니 내추럴",
+    "code": "보타니 내추럴",
+    "name": "보타니 내추럴",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "fdb700087074e21438791c0e9c685941.jpg",
+    "images": [
+      "fdb700087074e21438791c0e9c685941.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_보타니 라이트 (2)",
+    "code": "보타니 라이트 (2)",
+    "name": "보타니 라이트 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "41fa02d8476ea9c096e9adf196fdc996.jpg",
+    "images": [
+      "41fa02d8476ea9c096e9adf196fdc996.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_보타니 라이트",
+    "code": "보타니 라이트",
+    "name": "보타니 라이트",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "7e2eea9c91d5918538064fb693d19ead.jpg",
+    "images": [
+      "7e2eea9c91d5918538064fb693d19ead.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_보타니 엠버 (2)",
+    "code": "보타니 엠버 (2)",
+    "name": "보타니 엠버 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "1924dc9772ccb51300366db966bbdc54.jpg",
+    "images": [
+      "1924dc9772ccb51300366db966bbdc54.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_보타니 엠버",
+    "code": "보타니 엠버",
+    "name": "보타니 엠버",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "b1c526a657224548030abd02412dbb2d.jpg",
+    "images": [
+      "b1c526a657224548030abd02412dbb2d.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_보타니 화이트 (2)",
+    "code": "보타니 화이트 (2)",
+    "name": "보타니 화이트 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "7ae9949c2b6e51a074932a53b17c421f.jpg",
+    "images": [
+      "7ae9949c2b6e51a074932a53b17c421f.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_보타니 화이트",
+    "code": "보타니 화이트",
+    "name": "보타니 화이트",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "6b65476885548466b2e3e78f33184580.jpg",
+    "images": [
+      "6b65476885548466b2e3e78f33184580.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_블랙빈 (2)",
+    "code": "블랙빈 (2)",
+    "name": "블랙빈 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "fb3d663199ae4a4bca5c94391a4acd01.jpg",
+    "images": [
+      "fb3d663199ae4a4bca5c94391a4acd01.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_블랙빈",
+    "code": "블랙빈",
+    "name": "블랙빈",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "ab89d7901a9150fc563f9c2766861d60.jpg",
+    "images": [
+      "ab89d7901a9150fc563f9c2766861d60.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_아몬드 (2)",
+    "code": "아몬드 (2)",
+    "name": "아몬드 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "ee93b090ad0b93ba1afb4b9430a275ea.jpg",
+    "images": [
+      "ee93b090ad0b93ba1afb4b9430a275ea.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_아몬드",
+    "code": "아몬드",
+    "name": "아몬드",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "64f178915e0b0c1d14f6320776046cac.jpg",
+    "images": [
+      "64f178915e0b0c1d14f6320776046cac.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_오프 화이트 (2)",
+    "code": "오프 화이트 (2)",
+    "name": "오프 화이트 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "676a71f366f8dcabb8552ce78c2d22e5.jpg",
+    "images": [
+      "676a71f366f8dcabb8552ce78c2d22e5.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_오프 화이트",
+    "code": "오프 화이트",
+    "name": "오프 화이트",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "00f3f6c6c4bbb68322073f006a4b353d.jpg",
+    "images": [
+      "00f3f6c6c4bbb68322073f006a4b353d.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_캐러멜 (2)",
+    "code": "캐러멜 (2)",
+    "name": "캐러멜 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "d6e6d6a069e21dfd52b8fc70cbf54c03.jpg",
+    "images": [
+      "d6e6d6a069e21dfd52b8fc70cbf54c03.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_캐러멜",
+    "code": "캐러멜",
+    "name": "캐러멜",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "20690cbe76dccf0ba9b2cc993987001e.jpg",
+    "images": [
+      "20690cbe76dccf0ba9b2cc993987001e.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_피치 (2)",
+    "code": "피치 (2)",
+    "name": "피치 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "1ab7d77746a5bfa0a58dfd7146d021ba.jpg",
+    "images": [
+      "1ab7d77746a5bfa0a58dfd7146d021ba.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_피치",
+    "code": "피치",
+    "name": "피치",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "f5fd731c9fa7730db9fc52026b32fbea.jpg",
+    "images": [
+      "f5fd731c9fa7730db9fc52026b32fbea.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_허니 (2)",
+    "code": "허니 (2)",
+    "name": "허니 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "912c9bd21d926cf00f9677de856f0ef6.jpg",
+    "images": [
+      "912c9bd21d926cf00f9677de856f0ef6.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라_허니",
+    "code": "허니",
+    "name": "허니",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "4e7acd52197ee237b51af005c2d7d352.jpg",
+    "images": [
+      "4e7acd52197ee237b51af005c2d7d352.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라 맥스_내추럴 (2)",
+    "code": "내추럴 (2)",
+    "name": "내추럴 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "25b50bad24214ab90c230c28c7ad7813.jpg",
+    "images": [
+      "25b50bad24214ab90c230c28c7ad7813.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라 맥스_내추럴",
+    "code": "내추럴",
+    "name": "내추럴",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "639ebee927d80a2870ab65466586e69f.jpg",
+    "images": [
+      "639ebee927d80a2870ab65466586e69f.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라 맥스_베이지 (2)",
+    "code": "베이지 (2)",
+    "name": "베이지 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "bdec3b225727d714f8b31b97f8a54dfd.jpg",
+    "images": [
+      "bdec3b225727d714f8b31b97f8a54dfd.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라 맥스_베이지",
+    "code": "베이지",
+    "name": "베이지",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "db67c3d73a8624110c83d567f4d01e18.jpg",
+    "images": [
+      "db67c3d73a8624110c83d567f4d01e18.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라 맥스_브라운 (2)",
+    "code": "브라운 (2)",
+    "name": "브라운 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "24ef15151a7aadafcacce3a2f20509b1.jpg",
+    "images": [
+      "24ef15151a7aadafcacce3a2f20509b1.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라 맥스_브라운",
+    "code": "브라운",
+    "name": "브라운",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "3a61aab1be73fc28892e99c524b92ee4.jpg",
+    "images": [
+      "3a61aab1be73fc28892e99c524b92ee4.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라 맥스_오리진 (2)",
+    "code": "오리진 (2)",
+    "name": "오리진 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "ec07ed26596a3a25b6b11e3435a83faf.jpg",
+    "images": [
+      "ec07ed26596a3a25b6b11e3435a83faf.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라 맥스_오리진",
+    "code": "오리진",
+    "name": "오리진",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "405ae1bbfcc4d11511bed5f9419b75f8.jpg",
+    "images": [
+      "405ae1bbfcc4d11511bed5f9419b75f8.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라 맥스_클레이 (2)",
+    "code": "클레이 (2)",
+    "name": "클레이 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "a1a6a0fae2c68eab1b6f2ebf7ccdfebe.jpg",
+    "images": [
+      "a1a6a0fae2c68eab1b6f2ebf7ccdfebe.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라 맥스_클레이",
+    "code": "클레이",
+    "name": "클레이",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "8e2e442f035ac2c7d571f134ab9caeca.jpg",
+    "images": [
+      "8e2e442f035ac2c7d571f134ab9caeca.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라 맥스_화이트 (2)",
+    "code": "화이트 (2)",
+    "name": "화이트 (2)",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "5774bfd75eff4963aeedeaf513263c2e.jpg",
+    "images": [
+      "5774bfd75eff4963aeedeaf513263c2e.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강마루_진테라_진 테라 맥스_화이트",
+    "code": "화이트",
+    "name": "화이트",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강마루",
+    "price": 0,
+    "thumbnail": "bbab703abaa172da035f62df40c2060c.jpg",
+    "images": [
+      "bbab703abaa172da035f62df40c2060c.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강화마루_클릭_스톤_스톤 사하라",
+    "code": "스톤 사하라",
+    "name": "스톤 사하라",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강화마루",
+    "price": 0,
+    "thumbnail": "9933a5820d58636a6493f051ec55739e.jpg",
+    "images": [
+      "9933a5820d58636a6493f051ec55739e.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강화마루_클릭_스톤_스톤 웨이브",
+    "code": "스톤 웨이브",
+    "name": "스톤 웨이브",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강화마루",
+    "price": 0,
+    "thumbnail": "e63bf2593cfe5b1ccbaeb84061bb1677.jpg",
+    "images": [
+      "e63bf2593cfe5b1ccbaeb84061bb1677.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강화마루_클릭_크로젠_크로젠 오크1",
+    "code": "크로젠 오크1",
+    "name": "크로젠 오크1",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강화마루",
+    "price": 0,
+    "thumbnail": "03bf8df41f382b4f6b6fea0e0003235a.jpg",
+    "images": [
+      "03bf8df41f382b4f6b6fea0e0003235a.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강화마루_클릭_크로젠_크로젠 오크2",
+    "code": "크로젠 오크2",
+    "name": "크로젠 오크2",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강화마루",
+    "price": 0,
+    "thumbnail": "0b3dd06cda852b2e95ae6ab4484ccd72.jpg",
+    "images": [
+      "0b3dd06cda852b2e95ae6ab4484ccd72.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강화마루_클릭_크로젠_크로젠 오크3",
+    "code": "크로젠 오크3",
+    "name": "크로젠 오크3",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강화마루",
+    "price": 0,
+    "thumbnail": "08b642830e180da45ee73c23473dc09f.png",
+    "images": [
+      "08b642830e180da45ee73c23473dc09f.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강화마루_클릭_크로젠_크로젠 오크4",
+    "code": "크로젠 오크4",
+    "name": "크로젠 오크4",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강화마루",
+    "price": 0,
+    "thumbnail": "470e58d66a3787c347f6b7150acae73c.jpg",
+    "images": [
+      "470e58d66a3787c347f6b7150acae73c.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강화마루_클릭_크로젠_크로젠 오크5",
+    "code": "크로젠 오크5",
+    "name": "크로젠 오크5",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강화마루",
+    "price": 0,
+    "thumbnail": "baeb8f0a08b556167aa925f255dc6731.png",
+    "images": [
+      "baeb8f0a08b556167aa925f255dc6731.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강화마루_클릭_크로젠_크로젠 오크6",
+    "code": "크로젠 오크6",
+    "name": "크로젠 오크6",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강화마루",
+    "price": 0,
+    "thumbnail": "57763e346d68bd02df0d7e2c644418cb.jpg",
+    "images": [
+      "57763e346d68bd02df0d7e2c644418cb.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강화마루_클릭_크로젠_크로젠 월넛",
+    "code": "크로젠 월넛",
+    "name": "크로젠 월넛",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강화마루",
+    "price": 0,
+    "thumbnail": "9f7bec47ad224fd01d04e02fb0353dcd.jpg",
+    "images": [
+      "9f7bec47ad224fd01d04e02fb0353dcd.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강화마루_클릭_클릭_클릭 그레이 쏘컷",
+    "code": "클릭 그레이 쏘컷",
+    "name": "클릭 그레이 쏘컷",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강화마루",
+    "price": 0,
+    "thumbnail": "f6a5e12ac48df1328bcc92c9ba66c15a.jpg",
+    "images": [
+      "f6a5e12ac48df1328bcc92c9ba66c15a.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강화마루_클릭_클릭_클릭 내추럴 오크",
+    "code": "클릭 내추럴 오크",
+    "name": "클릭 내추럴 오크",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강화마루",
+    "price": 0,
+    "thumbnail": "83b6daf19ef51c7f9dd0f8afbc88e68f.jpg",
+    "images": [
+      "83b6daf19ef51c7f9dd0f8afbc88e68f.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강화마루_클릭_클릭_클릭 마호가니",
+    "code": "클릭 마호가니",
+    "name": "클릭 마호가니",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강화마루",
+    "price": 0,
+    "thumbnail": "b16250f40e1bd56f638137bb4011e06b.jpg",
+    "images": [
+      "b16250f40e1bd56f638137bb4011e06b.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강화마루_클릭_클릭_클릭 스위트 오크",
+    "code": "클릭 스위트 오크",
+    "name": "클릭 스위트 오크",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강화마루",
+    "price": 0,
+    "thumbnail": "50d86278d866a4313e363b38d8643964.jpg",
+    "images": [
+      "50d86278d866a4313e363b38d8643964.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강화마루_클릭_클릭_클릭 오크 스트립",
+    "code": "클릭 오크 스트립",
+    "name": "클릭 오크 스트립",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강화마루",
+    "price": 0,
+    "thumbnail": "af6684bc181022f260a906eb54da2f2e.jpg",
+    "images": [
+      "af6684bc181022f260a906eb54da2f2e.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강화마루_클릭_클릭_클릭 워시 오크 스트립",
+    "code": "클릭 워시 오크 스트립",
+    "name": "클릭 워시 오크 스트립",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강화마루",
+    "price": 0,
+    "thumbnail": "6bf7742a45e0bcb10122094bc1b16480.png",
+    "images": [
+      "6bf7742a45e0bcb10122094bc1b16480.png"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강화마루_클릭_클릭_클릭 체스트넛",
+    "code": "클릭 체스트넛",
+    "name": "클릭 체스트넛",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강화마루",
+    "price": 0,
+    "thumbnail": "0ad33a6405679465e665be1f4e10ef4c.jpg",
+    "images": [
+      "0ad33a6405679465e665be1f4e10ef4c.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강화마루_클릭_클릭_클릭 히코리",
+    "code": "클릭 히코리",
+    "name": "클릭 히코리",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강화마루",
+    "price": 0,
+    "thumbnail": "189352c4103fe0b6931836ea9dbad95d.jpg",
+    "images": [
+      "189352c4103fe0b6931836ea9dbad95d.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강화마루_클릭_클릭-s_클릭S 메이플",
+    "code": "클릭S 메이플",
+    "name": "클릭S 메이플",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강화마루",
+    "price": 0,
+    "thumbnail": "2867938acfb528571ad7a4e46649c90f.jpg",
+    "images": [
+      "2867938acfb528571ad7a4e46649c90f.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강화마루_클릭_클릭-s_클릭S 아카시아1",
+    "code": "클릭S 아카시아1",
+    "name": "클릭S 아카시아1",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강화마루",
+    "price": 0,
+    "thumbnail": "33f068ce8588685d83fda4ba7db1a282.jpg",
+    "images": [
+      "33f068ce8588685d83fda4ba7db1a282.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강화마루_클릭_클릭-s_클릭S 애쉬1",
+    "code": "클릭S 애쉬1",
+    "name": "클릭S 애쉬1",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강화마루",
+    "price": 0,
+    "thumbnail": "2ac7febc2af78b35b40ad247e2e3b9a5.jpg",
+    "images": [
+      "2ac7febc2af78b35b40ad247e2e3b9a5.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강화마루_클릭_클릭-s_클릭S 오크1",
+    "code": "클릭S 오크1",
+    "name": "클릭S 오크1",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강화마루",
+    "price": 0,
+    "thumbnail": "88a37c866e5ad8d8424733416aed8f04.jpg",
+    "images": [
+      "88a37c866e5ad8d8424733416aed8f04.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강화마루_클릭_클릭-s_클릭S 오크2",
+    "code": "클릭S 오크2",
+    "name": "클릭S 오크2",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강화마루",
+    "price": 0,
+    "thumbnail": "78e7b853faea1e91ec03981a4a06412f.jpg",
+    "images": [
+      "78e7b853faea1e91ec03981a4a06412f.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강화마루_클릭_클릭-s_클릭S 오크3",
+    "code": "클릭S 오크3",
+    "name": "클릭S 오크3",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강화마루",
+    "price": 0,
+    "thumbnail": "c943cc9dbd99c46376a3e23e83a4889a.jpg",
+    "images": [
+      "c943cc9dbd99c46376a3e23e83a4889a.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강화마루_클릭_클릭-s_클릭S 오크5",
+    "code": "클릭S 오크5",
+    "name": "클릭S 오크5",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강화마루",
+    "price": 0,
+    "thumbnail": "be0098e71ae2704b6635ee167f16b52f.jpg",
+    "images": [
+      "be0098e71ae2704b6635ee167f16b52f.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강화마루_클릭_클릭-s_클릭S 오크6",
+    "code": "클릭S 오크6",
+    "name": "클릭S 오크6",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강화마루",
+    "price": 0,
+    "thumbnail": "cc64fc25516f0e0f434b4efe3f5a0bc4.jpg",
+    "images": [
+      "cc64fc25516f0e0f434b4efe3f5a0bc4.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강화마루_클릭_클릭-s_클릭S 월넛",
+    "code": "클릭S 월넛",
+    "name": "클릭S 월넛",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강화마루",
+    "price": 0,
+    "thumbnail": "f9b7c5416230f38bcf604995a8b3136d.jpg",
+    "images": [
+      "f9b7c5416230f38bcf604995a8b3136d.jpg"
+    ],
+    "materialType": "진 오리진",
+    "thickness": "7.5T",
+    "specs": {
+      "division": "진 오리진",
+      "thickness": "7.5T",
+      "size": "190x1615mm",
+      "packing": "1박스 (1.84 m²)"
+    }
+  },
+  {
+    "id": "동화-강화마루_클릭_클릭-s_클릭S 파인2",
+    "code": "클릭S 파인2",
+    "name": "클릭S 파인2",
+    "brand": "동화",
+    "category": "마루",
+    "line": "강화마루",
+    "price": 0,
+    "thumbnail": "004c24dc26bebe9c85c10c313ec942b9.jpg",
+    "images": [
+      "004c24dc26bebe9c85c10c313ec942b9.jpg"
     ],
     "materialType": "진 오리진",
     "thickness": "7.5T",

@@ -3,14 +3,35 @@ const SYNONYMS = {
   "lg": "lx",
   "엘지": "lx",
   "엘엑스": "lx",
+  "lx": "lx",
+  "kcc": "kcc",
   "케이씨씨": "kcc",
   "현대": "현대",
+  "hyundai": "현대",
   "동신": "동신",
+  "dongshin": "동신",
+  "유성": "유성",
+  "yousung": "유성",
+  "재영": "재영",
+  "jaeyoung": "재영",
+  "녹수": "녹수",
+  "noksu": "녹수",
+  "대진": "대진",
+  "daejin": "대진",
+  "동화": "동화",
+  "dongwha": "동화",
+  "구정": "구정",
+  "kujung": "구정",
   "신한벽지": "신한",
   "신한": "신한",
   "개나리": "개나리",
   "디디": "디아이디",
   "did": "디아이디",
+  "디아이디": "디아이디",
+  "스완": "스완",
+  "swan": "스완",
+  "코오롱": "코오롱",
+  "kolon": "코오롱",
   
   // Categories/Types
   "디럭스": "디럭스타일",
@@ -120,20 +141,37 @@ export function getSearchScore(product, rawQuery) {
   
   if (tokens.length === 0) return 0;
 
+  const brand = normalizeSearchText(product.brand || "");
+  const category = normalizeSearchText(product.category || "");
+  const code = normalizeProductCode(product.code || "");
+  const name = normalizeSearchText(product.name || "");
   const fullText = buildProductSearchText(product);
   
-  // All tokens must be present in fullText for a match (strict AND logic).
+  // 브랜드명, 카테고리명, 상품번호, 상품명 중 하나라도 포함하는 토큰이 있는지 체크
   let matchCount = 0;
+  let coreMatch = false;
+
   for (const token of tokens) {
-    if (fullText.includes(token)) {
+    const isBrand = brand.includes(token) || (SYNONYMS[brand] && SYNONYMS[brand] === token);
+    const isCategory = category.includes(token) || (SYNONYMS[category] && SYNONYMS[category] === token);
+    const isCode = code.includes(token);
+    const isName = name.includes(token);
+
+    if (isBrand || isCategory || isCode || isName || fullText.includes(token)) {
       matchCount++;
+      if (isBrand || isCategory || isCode || isName) {
+        coreMatch = true;
+      }
     }
   }
 
-  // If NOT ALL tokens match, return 0 (strict AND logic)
-  if (matchCount < tokens.length) return 0;
+  // 1개 이상의 매치가 있고, 코어 매치(브랜드, 카테고리, 코드, 상품명 중 하나)가 발생했다면 노출 대상으로 삼음
+  // (또는 모든 토큰이 fullText에 포함될 때도 매칭 대상으로 삼음)
+  if (matchCount === 0 || (!coreMatch && matchCount < tokens.length)) {
+    return 0;
+  }
 
-  let score = 500; // Base score for matching all tokens
+  let score = 100 * matchCount; // Base score proportional to matchCount
 
   // Exact / Partial Product Code Matches
   const productCode = normalizeProductCode(product.code || "");
@@ -147,12 +185,9 @@ export function getSearchScore(product, rawQuery) {
   }
 
   // Evaluate specific fields for exact bonuses
-  const brand = normalizeSearchText(product.brand || "");
-  const category = normalizeSearchText(product.category || "");
   const series = normalizeSearchText(product.series || product.collection || "");
   const size = normalizeSearchText(product.specs?.size || product.sizeLabel || "");
   const pattern = normalizeSearchText(product.pattern || "");
-  const name = normalizeSearchText(product.name || "");
 
   for (const token of tokens) {
     if (brand === token || SYNONYMS[brand] === token) score += 300;

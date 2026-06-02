@@ -5,6 +5,7 @@ import MainLayout from "../../components/layout/MainLayout";
 import { useEstimateCart } from "../../contexts/EstimateCartContext";
 import { getValidGalleryImages, getDetailImage, getThumbnailImage } from "../../utils/galleryUtils";
 import { supabase } from "../../lib/supabaseClient";
+import { materials } from "../../data/materials.db"; // Local fallback data
 import "./MaterialDetail.css";
 
 export default function MaterialDetail() {
@@ -41,75 +42,104 @@ export default function MaterialDetail() {
         async function fetchItem() {
             setLoading(true);
             setError(null);
-            try {
-                if (!supabase) {
-                    throw new Error("Supabase client is not initialized.");
-                }
+            let productData = null;
+            let queryError = null;
 
-                console.log(`[Debug] Fetching product detail from Supabase for ID/Code/Slug: ${id}`);
-                
-                const query = supabase
-                    .from('products')
-                    .select(`
-                        *,
-                        categories ( id, name ),
-                        brands ( id, name )
-                    `);
-                
-                let res;
-                if (/^\d+$/.test(id)) {
-                    res = await query.eq('id', parseInt(id, 10)).maybeSingle();
-                } else {
-                    res = await query.eq('slug', id).maybeSingle();
-                    if (!res.data) {
-                        res = await supabase
-                            .from('products')
-                            .select(`
-                                *,
-                                categories ( id, name ),
-                                brands ( id, name )
-                            `)
-                            .eq('product_code', id)
-                            .maybeSingle();
+            try {
+                if (supabase) {
+                    console.log(`[Debug] Fetching product detail from Supabase for ID/Code/Slug: ${id}`);
+                    const query = supabase
+                        .from('products')
+                        .select(`
+                            *,
+                            categories ( id, name ),
+                            brands ( id, name )
+                        `);
+                    
+                    let res;
+                    if (/^\d+$/.test(id)) {
+                        res = await query.eq('id', parseInt(id, 10)).maybeSingle();
+                    } else {
+                        res = await query.eq('slug', id).maybeSingle();
+                        if (!res.data) {
+                            res = await supabase
+                                .from('products')
+                                .select(`
+                                    *,
+                                    categories ( id, name ),
+                                    brands ( id, name )
+                                `)
+                                .eq('product_code', id)
+                                .maybeSingle();
+                        }
+                    }
+                    if (res.error) {
+                        queryError = res.error;
+                    } else {
+                        productData = res.data;
                     }
                 }
-                
-                if (res.error) {
-                    throw res.error;
-                }
-
-                console.log("[Debug] Supabase single product raw data:", res.data);
-
-                if (!res.data) {
-                    setItem(null);
-                } else {
-                    const p = res.data;
-                    setItem({
-                        id: p.slug || String(p.id),
-                        code: p.product_code || "",
-                        name: p.name || "",
-                        brand: p.brands?.name || "",
-                        category: p.categories?.name || "",
-                        price: p.price || 0,
-                        thickness: p.thickness || "",
-                        specs: {
-                            thickness: p.thickness || "",
-                            size: p.size_text || "",
-                            packing: p.unit || ""
-                        },
-                        thumbnail: p.image_url || null,
-                        image: p.image_url || null,
-                        description: p.description || "",
-                        featured: p.is_featured || false,
-                        active: p.is_active ?? true
-                    });
-                }
             } catch (err) {
-                console.error("[Debug] Failed to fetch product details:", err);
-                setError(err.message || String(err));
-            } finally {
-                setLoading(false);
+                console.error("[Debug] Supabase fetch exception:", err);
+                queryError = err;
             }
+
+            // Fallback to local database if Supabase search failed or returned nothing
+            if (queryError || !productData) {
+                console.warn("[Debug] Supabase lookup failed or returned no data. Falling back to local database...", queryError);
+                const localItem = materials.find(m => m.id === id || m.code === id);
+                if (localItem) {
+                    console.log("[Debug] Found matching local item:", localItem);
+                    setItem({
+                        id: localItem.id || localItem.code,
+                        code: localItem.code || "",
+                        name: localItem.name || "",
+                        brand: localItem.brand || "",
+                        category: localItem.category || "",
+                        price: localItem.price || 0,
+                        thickness: localItem.thickness || "",
+                        specs: localItem.specs || {
+                            thickness: localItem.thickness || "",
+                            size: "",
+                            packing: ""
+                        },
+                        thumbnail: localItem.thumbnail || null,
+                        image: localItem.thumbnail || null,
+                        images: localItem.images || [],
+                        description: "",
+                        featured: false,
+                        active: localItem.active ?? true
+                    });
+                    setLoading(false);
+                    return;
+                }
+            }
+
+            if (!productData) {
+                setItem(null);
+            } else {
+                const p = productData;
+                setItem({
+                    id: p.slug || String(p.id),
+                    code: p.product_code || "",
+                    name: p.name || "",
+                    brand: p.brands?.name || "",
+                    category: p.categories?.name || "",
+                    price: p.price || 0,
+                    thickness: p.thickness || "",
+                    specs: {
+                        thickness: p.thickness || "",
+                        size: p.size_text || "",
+                        packing: p.unit || ""
+                    },
+                    thumbnail: p.image_url || null,
+                    image: p.image_url || null,
+                    description: p.description || "",
+                    featured: p.is_featured || false,
+                    active: p.is_active ?? true
+                });
+            }
+            setLoading(false);
         }
         
         fetchItem();
