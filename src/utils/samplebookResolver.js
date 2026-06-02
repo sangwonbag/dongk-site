@@ -6,17 +6,14 @@ import { imageManifest } from "../data/imageManifest";
 
 const normalize = (str) => str ? str.replace(/[^a-zA-Z0-9]/g, '').toUpperCase() : "";
 
-// public/samplebooks 폴더의 이미지들을 재귀적으로 eager 로딩 (Thumbnail_image 폴더 제외)
-const sampleBookImages = import.meta.glob(['/public/samplebooks/**/*.{jpg,jpeg,png,webp}', '!/public/samplebooks/Thumbnail_image/**'], { eager: true });
+// samplebooks 폴더의 이미지들을 재귀적으로 eager 로딩 (Thumbnail_Image 폴더 제외)
+const sampleBookImages = import.meta.glob(['/samplebooks/**/*.{jpg,jpeg,png,webp}', '!/samplebooks/Thumbnail_Image/**'], { eager: true });
 
 // 이미지 파일명 목록 추출
 const imageFiles = Object.entries(sampleBookImages).map(([path]) => {
-    const publicPath = path.replace('/public', '');
-    const filename = path.split('/').pop();
-
     return {
-        path: publicPath,
-        filename: filename
+        path: path,
+        filename: path.split('/').pop()
     };
 });
 
