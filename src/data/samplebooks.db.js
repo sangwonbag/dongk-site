@@ -138,7 +138,7 @@ export const sampleBooks = [
         brand: "KCC",
         category: "데코타일",
         pdf: "/samplebooks/데코타일/KCC/센스타일 트랜디_카탈로그_KCC글라스.pdf",
-        cover: "/samplebooks/Thumbnail_Image/데코타일/KCC/senstyle_trendy_page1.png",
+        cover: "/samplebooks/Thumbnail_image/데코타일/KCC/senstyle_trendy_page1.png",
         description: "KCC 글라스 대표 데코타일",
         isRecommended: true
     },
@@ -150,7 +150,7 @@ export const sampleBooks = [
         brand: "동신",
         category: "데코타일",
         pdf: "/samplebooks/데코타일/동신/동신하우스/dsarthouse_sample.pdf",
-        cover: "/samplebooks/Thumbnail_Image/데코타일/동신/동신하우스/dsarthouse_page1.png",
+        cover: "/samplebooks/Thumbnail_image/데코타일/동신/동신하우스/dsarthouse_page1.png",
         description: "동신포리마 주거용 데코타일",
         isRecommended: true
     },
@@ -160,7 +160,7 @@ export const sampleBooks = [
         brand: "동신",
         category: "데코타일",
         pdf: "/samplebooks/데코타일/동신/동신OA타일/동신포리마 2023 아트OA타일 E-Catalog.pdf",
-        cover: "/samplebooks/Thumbnail_Image/데코타일/동신/동신OA타일/동신OA타일썸네일.png",
+        cover: "/samplebooks/Thumbnail_image/데코타일/동신/동신OA타일/동신OA타일썸네일.png",
         description: "동신포리마 OA타일 컬렉션"
     },
     {
@@ -169,7 +169,7 @@ export const sampleBooks = [
         brand: "동신",
         category: "데코타일",
         pdf: "/samplebooks/데코타일/동신/동신차음바닥재/동신포리마 2024 아트에코차음 E-Catalog.pdf",
-        cover: "/samplebooks/Thumbnail_Image/데코타일/동신/동신차음바닥재/동신에코차음바닥재.png",
+        cover: "/samplebooks/Thumbnail_image/데코타일/동신/동신차음바닥재/동신에코차음바닥재.png",
         description: "동신포리마 차음바닥재 컬렉션"
     },
 
@@ -180,7 +180,7 @@ export const sampleBooks = [
         brand: "녹수",
         category: "데코타일",
         pdf: "/samplebooks/데코타일/녹수/에코홈2000.pdf",
-        cover: "/samplebooks/Thumbnail_Image/데코타일/녹수/에코홈2000/ecohome2000_page1.png",
+        cover: "/samplebooks/Thumbnail_image/데코타일/녹수/에코홈2000/ecohome2000_page1.png",
         description: "녹수 에코홈 2000 데코타일 샘플북"
     },
     {
@@ -189,7 +189,7 @@ export const sampleBooks = [
         brand: "녹수",
         category: "데코타일",
         pdf: "/samplebooks/데코타일/녹수/오키드3000.pdf",
-        cover: "/samplebooks/Thumbnail_Image/데코타일/녹수/오키드3000/orchid3000_page1.png",
+        cover: "/samplebooks/Thumbnail_image/데코타일/녹수/오키드3000/orchid3000_page1.png",
         description: "녹수 오키드 3000 데코타일 샘플북"
     },
     {
@@ -198,7 +198,7 @@ export const sampleBooks = [
         brand: "녹수",
         category: "데코타일",
         pdf: "/samplebooks/데코타일/녹수/프라임1500.pdf",
-        cover: "/samplebooks/Thumbnail_Image/데코타일/녹수/프라임1500/prime1500_page1.png",
+        cover: "/samplebooks/Thumbnail_image/데코타일/녹수/프라임1500/prime1500_page1.png",
         description: "녹수 프라임 1500 데코타일 샘플북"
     },
 
@@ -209,7 +209,7 @@ export const sampleBooks = [
         brand: "현대",
         category: "데코타일",
         pdf: "/samplebooks/데코타일/현대/골드타일 클래식.pdf",
-        cover: "/samplebooks/Thumbnail_Image/데코타일/현대/골드타일 클래식/goldtile_classic_page1.png",
+        cover: "/samplebooks/Thumbnail_image/데코타일/현대/골드타일 클래식/goldtile_classic_page1.png",
         description: "현대 골드타일 클래식 데코타일 샘플북"
     },
     {
@@ -218,7 +218,7 @@ export const sampleBooks = [
         brand: "현대",
         category: "데코타일",
         pdf: "/samplebooks/데코타일/현대/골드타일 마스터.pdf",
-        cover: "/samplebooks/Thumbnail_Image/데코타일/현대/골드타일마스터/골드타일마스터썸네일.png",
+        cover: "/samplebooks/Thumbnail_image/데코타일/현대/골드타일 마스터/골드타일마스터썸네일.png",
         description: "현대 골드타일 마스터 데코타일 샘플북"
     },
     {
@@ -227,7 +227,7 @@ export const sampleBooks = [
         brand: "현대",
         category: "데코타일",
         pdf: "/samplebooks/데코타일/현대/디럭스타일.pdf",
-        cover: "/samplebooks/Thumbnail_Image/데코타일/현대/디럭스타일/deluxe_style_page1.png",
+        cover: "/samplebooks/Thumbnail_image/데코타일/현대/디럭스타일/deluxe_style_page1.png",
         description: "현대 디럭스타일 샘플북"
     },
     {
@@ -236,7 +236,7 @@ export const sampleBooks = [
         brand: "현대",
         category: "데코타일",
         pdf: "/samplebooks/데코타일/현대/골드타일 레릭.pdf",
-        cover: "/samplebooks/Thumbnail_Image/데코타일/현대/골드타일 레릭/goldtile_relic_page1.png",
+        cover: "/samplebooks/Thumbnail_image/데코타일/현대/골드타일 레릭/goldtile_relic_page1.png",
         description: "현대 골드타일 레릭 데코타일 샘플북"
     },
     {
@@ -245,7 +245,7 @@ export const sampleBooks = [
         brand: "현대",
         category: "데코타일",
         pdf: "/samplebooks/데코타일/현대/노블타일.pdf",
-        cover: "/samplebooks/Thumbnail_Image/데코타일/현대/노블타일/노블타일썸네일.jpg",
+        cover: "/samplebooks/Thumbnail_image/데코타일/현대/노블타일/노블타일썸네일.jpg",
         description: "현대 노블타일 데코타일 샘플북"
     },
     {
@@ -254,7 +254,7 @@ export const sampleBooks = [
         brand: "현대",
         category: "카페트타일",
         pdf: "/samplebooks/데코타일/현대/카펫타일.pdf",
-        cover: "/samplebooks/Thumbnail_Image/데코타일/현대/카펫타일/carpet_tile_page1.png",
+        cover: "/samplebooks/Thumbnail_image/데코타일/현대/카펫타일/carpet_tile_page1.png",
         description: "현대 카펫타일 샘플북"
     },
 
@@ -294,7 +294,7 @@ export const sampleBooks = [
         category: "벽지",
         materialType: "실크",
         pdf: "/samplebooks/벽지/개나리/실크/로하스.pdf",
-        cover: "/samplebooks/Thumbnail_Image/벽지/개나리/실크/로하스/lohas_page1_full.png",
+        cover: "/samplebooks/Thumbnail_image/벽지/개나리/실크/로하스/lohas_page1_full.png",
         description: "개나리 대표 실크 벽지 로하스"
     },
     {
@@ -304,7 +304,7 @@ export const sampleBooks = [
         category: "벽지",
         materialType: "실크",
         pdf: "/samplebooks/벽지/개나리/실크/아트북.pdf",
-        cover: "/samplebooks/Thumbnail_Image/벽지/개나리/실크/아트북/artbook_page1_full.png",
+        cover: "/samplebooks/Thumbnail_image/벽지/개나리/실크/아트북/artbook_page1_full.png",
         description: "개나리 트렌디 실크 벽지 아트북"
     },
     {
@@ -314,7 +314,7 @@ export const sampleBooks = [
         category: "벽지",
         materialType: "합지",
         pdf: "/samplebooks/벽지/개나리/합지/스토리(소폭합지).pdf",
-        cover: "/samplebooks/Thumbnail_Image/벽지/개나리/합지(소폭)/story_page1_full.png",
+        cover: "/samplebooks/Thumbnail_image/벽지/개나리/합지(소폭)/story_page1_full.png",
         description: "개나리 실속형 소폭 합지 벽지"
     },
     {
@@ -324,7 +324,7 @@ export const sampleBooks = [
         category: "벽지",
         materialType: "합지",
         pdf: "/samplebooks/벽지/개나리/합지/트랜디(고급장폭).pdf",
-        cover: "/samplebooks/Thumbnail_Image/벽지/개나리/합지(장폭)/trendy_page1_full.png",
+        cover: "/samplebooks/Thumbnail_image/벽지/개나리/합지(장폭)/trendy_page1_full.png",
         description: "개나리 고급 장폭 합지 벽지 트랜디"
     },
     {
@@ -334,7 +334,7 @@ export const sampleBooks = [
         category: "벽지",
         materialType: "방염",
         pdf: "/samplebooks/벽지/개나리/방염/방염.pdf",
-        cover: "/samplebooks/Thumbnail_Image/벽지/개나리/방염/방염썸네일.png",
+        cover: "/samplebooks/Thumbnail_image/벽지/개나리/방염/방염썸네일.png",
         description: "개나리 안전 방염 벽지"
     },
     {
@@ -344,7 +344,7 @@ export const sampleBooks = [
         category: "벽지",
         materialType: "프리미엄",
         pdf: "/samplebooks/벽지/개나리/프리미엄/프리모.pdf",
-        cover: "/samplebooks/Thumbnail_Image/벽지/개나리/프리미엄/primo_page1_full.png",
+        cover: "/samplebooks/Thumbnail_image/벽지/개나리/프리미엄/primo_page1_full.png",
         description: "개나리 프리미엄 벽지 컬렉션"
     },
     {
@@ -447,7 +447,7 @@ export const sampleBooks = [
         category: "벽지",
         materialType: "실크",
         pdf: "/samplebooks/벽지/신한/실크/리빙/book.pdf",
-        cover: "/samplebooks/Thumbnail_Image/벽지/신한/실크/신한벽지_리빙(LIVING)/신한벽지리빙.png",
+        cover: "/samplebooks/Thumbnail_image/벽지/신한/실크/신한벽지_리빙(LIVING)/신한벽지리빙.png",
         description: "신한 리빙 실크 벽지 샘플북"
     },
     {
@@ -457,7 +457,7 @@ export const sampleBooks = [
         category: "벽지",
         materialType: "실크",
         pdf: "/samplebooks/벽지/신한/실크/스케치/book.pdf",
-        cover: "/samplebooks/Thumbnail_Image/벽지/신한/실크/신한벽지_스케치(SKETCH)/신한벽지스케치.png",
+        cover: "/samplebooks/Thumbnail_image/벽지/신한/실크/신한벽지_스케치(SKETCH)/신한벽지스케치.png",
         description: "신한 스케치 실크 벽지 샘플북"
     },
     {
@@ -467,7 +467,7 @@ export const sampleBooks = [
         category: "벽지",
         materialType: "실크",
         pdf: "/samplebooks/벽지/신한/실크/월가드/book.pdf",
-        cover: "/samplebooks/Thumbnail_Image/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/신한벽지월가드 썸네일.png",
+        cover: "/samplebooks/Thumbnail_image/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/신한벽지월가드 썸네일.png",
         description: "신한 월가드 실크 벽지 샘플북"
     },
     {
@@ -477,7 +477,7 @@ export const sampleBooks = [
         category: "벽지",
         materialType: "실크",
         pdf: "/samplebooks/벽지/신한/실크/파사드/book.pdf",
-        cover: "/samplebooks/Thumbnail_Image/벽지/신한/실크/신한벽지_파사드(FACADE)/신한벽지파사드.png",
+        cover: "/samplebooks/Thumbnail_image/벽지/신한/실크/신한벽지_파사드(FACADE)/신한벽지파사드.png",
         description: "신한 파사드 실크 벽지 샘플북"
     },
     // 구정마루
@@ -676,7 +676,7 @@ export const sampleBooks = [
         brand: "스완",
         category: "카페트타일",
         pdf: "/samplebooks/카페트타일/스완카페트타일.pdf",
-        cover: "/samplebooks/Thumbnail_Image/카페트타일/스완/0.jpg",
+        cover: "/samplebooks/Thumbnail_image/카페트타일/스완/0.jpg",
         description: "스완 카페트타일 토탈 컬렉션",
         isRecommended: true
     }

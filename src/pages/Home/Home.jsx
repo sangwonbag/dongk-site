@@ -23,7 +23,7 @@ const featuredMaterials = [
     name: "뉴청맥 오크 (1.8T)",
     brand: "LX하우시스",
     specs: "1.8T | 두께 1.8mm",
-    image: "/images/Thumbnail_Image/materials/장판/LX하우시스_뉴청맥_1.8T/CM21882.jpg",
+    image: "/images/Thumbnail_image/materials/장판/LX하우시스_뉴청맥_1.8T/CM21882.jpg",
     desc: "보행감이 우수하고 열전도율이 높은 한국 실속형 베스트셀러 장판"
   },
   {
@@ -31,7 +31,7 @@ const featuredMaterials = [
     name: "이건 세라 오크",
     brand: "이건마루",
     specs: "7.5T | 95mm x 800mm",
-    image: "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라-N-오크.jpg",
+    image: "/images/Thumbnail_image/materials/마루/이건/강마루/세라/세라-N-오크.jpg",
     desc: "자연스러운 나뭇결과 뛰어난 표면 내구성을 자랑하는 친환경 이건 강마루"
   },
   {
@@ -39,7 +39,7 @@ const featuredMaterials = [
     name: "스완 롤 카페트 RQ054",
     brand: "스완카페트",
     specs: "롤 형태 | 폭 3.66m",
-    image: "/images/Thumbnail_Image/materials/카페트타일/스완/롤-carpet/RQ054.jpg",
+    image: "/images/Thumbnail_image/materials/카페트타일/스완/롤-carpet/RQ054.jpg",
     desc: "정숙한 오피스 및 상업용 공간에 최적화된 방음 및 쿠션의 루프식 카페트"
   },
   {
@@ -47,7 +47,7 @@ const featuredMaterials = [
     name: "로하스 에비뉴 화이트",
     brand: "개나리벽지",
     specs: "실크 벽지 | 폭 1.06m",
-    image: "/samplebooks/Thumbnail_Image/벽지/개나리/실크/로하스/lohas_page1_full.png",
+    image: "/samplebooks/Thumbnail_image/벽지/개나리/실크/로하스/lohas_page1_full.png",
     desc: "화사하고 넓은 공간을 연출하는 프리미엄 친환경 실크 벽지"
   }
 ];
