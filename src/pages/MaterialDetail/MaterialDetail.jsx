@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from "react";
-import { useParams, useNavigate, useLocation } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { useParams, useNavigate } from "react-router-dom";
 import { 
   ArrowLeft, 
   Phone, 
@@ -114,7 +114,6 @@ const getVirtualSpaceExamples = (product, galleryImages) => {
 export default function MaterialDetail() {
   const { id: rawId } = useParams();
   const navigate = useNavigate();
-  const location = useLocation();
   const { addToCart } = useEstimateCart();
   const currentUser = getCurrentUser();
 
@@ -361,7 +360,7 @@ export default function MaterialDetail() {
     async function fetchRelated() {
       try {
         if (supabase) {
-          const { data, error } = await supabase
+          const { data } = await supabase
             .from('products')
             .select(`
               *,
@@ -732,7 +731,10 @@ export default function MaterialDetail() {
                           src={ex.image} 
                           alt={ex.title} 
                           className="space-card-img"
-                          onError={(e) => { e.target.src = item.thumbnail || "/images/no-image.jpg"; }}
+                          onError={(e) => { 
+                            e.target.onerror = null; 
+                            e.target.src = item.thumbnail || "/images/no-image.svg"; 
+                          }}
                         />
                         <div className="space-card-overlay"></div>
                         <div className="space-card-info">

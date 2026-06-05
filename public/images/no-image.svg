@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="100%" height="100%" fill="#FAF7F5"/>
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#E6E0DA" stroke-width="1" stroke-dasharray="6 4" rx="8"/>
+  <circle cx="200" cy="130" r="32" fill="#EBE4DE"/>
+  <!-- Image outline symbol -->
+  <rect x="185" y="118" width="30" height="24" rx="2" fill="none" stroke="#8E8076" stroke-width="2"/>
+  <circle cx="192" cy="125" r="2" fill="#8E8076"/>
+  <path d="M187 138 L195 130 L201 135 L208 127 L213 138" fill="none" stroke="#8E8076" stroke-width="2"/>
+  <text x="50%" y="200" dominant-baseline="middle" text-anchor="middle" font-family="'Outfit', 'Inter', 'Noto Sans KR', sans-serif" font-size="14" font-weight="500" fill="#8E8076">이미지 준비 중</text>
+  <text x="50%" y="222" dominant-baseline="middle" text-anchor="middle" font-family="'Outfit', 'Inter', 'Noto Sans KR', sans-serif" font-size="11" fill="#B5A9A0">DK Floor · 동경바닥재</text>
+</svg>

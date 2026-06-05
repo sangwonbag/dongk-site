@@ -65,7 +65,7 @@ export default function MaterialSearchModal({ onClose }) {
                     src={getSupabaseImageUrl(item.thumbnail)} 
                     alt={item.name} 
                     className="search-item-thumb"
-                    onError={(e) => { e.target.src = "/images/no-image.jpg"; }}
+                    onError={(e) => { e.target.onerror = null; e.target.src = "/images/no-image.svg"; }}
                   />
                   <div className="search-item-info">
                     <div className="search-item-meta">{item.category} &gt; {getComputedBrand(item)}</div>

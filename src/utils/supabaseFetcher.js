@@ -103,6 +103,7 @@ export async function fetchAllProducts(forceRefresh = false) {
     },
     thumbnail: p.image_url || null,
     image: p.image_url || null,
+    line: p.description || "",
     description: p.description || "",
     featured: p.is_featured || false,
     active: p.is_active ?? true

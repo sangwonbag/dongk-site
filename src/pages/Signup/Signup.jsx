@@ -94,8 +94,6 @@ export default function Signup() {
     const [submitError, setSubmitError] = useState("");
 
     // Setup redirect path
-    const searchParams = new URLSearchParams(location.search);
-    const redirectUrl = searchParams.get("redirect") || "/login";
 
     // Auto format phone number: supports mobile (010-XXXX-XXXX) and landline (02-XXX-XXXX / 031-XXX-XXXX)
     const formatPhoneNumber = (value) => {
@@ -190,7 +188,7 @@ export default function Signup() {
             } else {
                 setUsernameSuccess("사용 가능한 아이디입니다.");
             }
-        } catch (e) {
+        } catch {
             setUsernameError("중복 확인에 실패했습니다.");
         } finally {
             setIsCheckingUsername(false);
@@ -400,7 +398,7 @@ export default function Signup() {
             } else {
                 setSubmitError(res.message || "회원가입 처리 중 실패했습니다.");
             }
-        } catch (err) {
+        } catch {
             setSubmitError("서버 에러가 발생했습니다. 잠시 후 다시 시도해주세요.");
         } finally {
             setIsSubmitting(false);

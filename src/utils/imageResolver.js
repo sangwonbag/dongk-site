@@ -49,6 +49,7 @@ export function handleImageError(e, fallbackSrc) {
         return;
     }
 
-    img.src = "/images/no-image.jpg";
+    img.onerror = null;
+    img.src = "/images/no-image.svg";
     img.setAttribute("data-fallback-step", "2");
 }

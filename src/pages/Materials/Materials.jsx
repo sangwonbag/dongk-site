@@ -1,5 +1,5 @@
 import React, { useMemo, useState, useEffect } from "react";
-import { useLocation, useSearchParams } from "react-router-dom";
+import { useSearchParams } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { BRANDS_BY_CATEGORY } from "../../data/materials.db";
 import { getComputedBrand } from "../../utils/brandUtils";
@@ -141,12 +141,13 @@ export default function Materials() {
     
     const linesSet = new Set();
     materialsList.forEach((m) => {
+      if (!m) return;
       const matchesBrand =
         getComputedBrand(m) === activeBrand ||
         m.brand === activeBrand ||
         (activeBrand === "LX하우시스" && (m.brand === "LX" || m.brand === "LX하우시스"));
       
-      if (m && m.category === activeTab && matchesBrand && m.line) {
+      if (m.category === activeTab && matchesBrand && m.line) {
         let line = m.line;
         if (line.includes('_')) {
           const parts = line.split('_').map(p => p.trim());

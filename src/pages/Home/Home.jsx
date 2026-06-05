@@ -170,9 +170,6 @@ const SpaceFinderSection = () => {
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
-  const currentSpace = spaceSections[activeIndex];
-
   return (
     <section className="showroom-space-finder-v2" ref={parentRef}>
       {/* Desktop Sticky View */}

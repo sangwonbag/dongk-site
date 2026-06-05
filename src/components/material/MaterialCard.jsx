@@ -42,9 +42,9 @@ const MaterialCard = ({ material }) => {
             <div className="card-thumb">
                 <img
                     className="material-thumb"
-                    src={coverUrl || "/images/no-image.jpg"}
+                    src={coverUrl || "/images/no-image.svg"}
                     alt={material.name || material.code}
-                    onError={(e) => { e.target.src = "/images/no-image.jpg"; }}
+                    onError={(e) => { e.target.onerror = null; e.target.src = "/images/no-image.svg"; }}
                 />
 
                 {material.isNew && <span className="badge-new">NEW</span>}
