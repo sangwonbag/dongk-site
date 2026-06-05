@@ -231,6 +231,33 @@ const SpaceFinderSection = () => {
                   />
                 ))}
               </div>
+              
+              {/* Dot Navigation Indicators */}
+              <div className="space-finder-dots">
+                {spaceSections.map((_, idx) => (
+                  <button
+                    key={idx}
+                    className={`space-finder-dot ${idx === activeIndex ? "active" : ""}`}
+                    onClick={() => {
+                      if (parentRef.current) {
+                        const rect = parentRef.current.getBoundingClientRect();
+                        const elementHeight = rect.height;
+                        const stickyTopOffset = 80;
+                        const stickyHeight = window.innerHeight - stickyTopOffset;
+                        const totalScrollable = elementHeight - stickyHeight;
+                        
+                        const parentDocTop = window.scrollY + rect.top;
+                        const targetScroll = parentDocTop - stickyTopOffset + (idx / 4) * totalScrollable;
+                        window.scrollTo({
+                          top: targetScroll,
+                          behavior: "smooth"
+                        });
+                      }
+                    }}
+                    aria-label={`Go to slide ${idx + 1}`}
+                  />
+                ))}
+              </div>
             </div>
 
           </div>
