@@ -61,6 +61,7 @@ export const sampleBooks = [
         title: "2025 LX 보타닉",
         brand: "LX",
         category: "데코타일",
+        cover: "/samplebooks/Thumbnail_image/데코타일/LX/2025 보타닉/cover.png",
         pdf: "/samplebooks/데코타일/LX/2025 보타닉.pdf",
         description: "친환경 주거용 바닥재"
     },
@@ -78,6 +79,7 @@ export const sampleBooks = [
         title: "2025 LX 에코노플러스",
         brand: "LX",
         category: "데코타일",
+        cover: "/samplebooks/Thumbnail_image/데코타일/LX/2025 에코노플러스/cover.png",
         pdf: "/samplebooks/데코타일/LX/2025 에코노플러스.pdf",
         description: "LX 상업용/주거용 데코타일"
     },
@@ -102,6 +104,7 @@ export const sampleBooks = [
         title: "2025 LX 하우스스타일",
         brand: "LX",
         category: "데코타일",
+        cover: "/samplebooks/Thumbnail_image/데코타일/LX/2025 하우스스타일/cover.png",
         pdf: "/samplebooks/데코타일/LX/2025 하우스스타일.pdf",
         description: "LX 하우스스타일 컬렉션"
     },
@@ -119,6 +122,7 @@ export const sampleBooks = [
         title: "2025 LX OA타일",
         brand: "LX",
         category: "데코타일",
+        cover: "/samplebooks/Thumbnail_image/데코타일/LX/2025 OA타일/cover.png",
         pdf: "/samplebooks/데코타일/LX/2025 OA타일.pdf",
         description: "Looselay 스탠다드 OA 타일"
     },
