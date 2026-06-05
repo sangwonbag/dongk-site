@@ -1,12 +1,33 @@
 /* SampleBooks Layout */
+.samplebooks-page {
+    padding-top: 145px !important;
+}
+
+@media (max-width: 768px) {
+    .samplebooks-page {
+        padding-top: 115px !important;
+    }
+}
+
 .samplebooks-container {
     display: block;
     width: 100%;
     max-width: 1280px;
-    margin: 0 auto;
+    margin: 0 auto !important;
+    margin-top: 0 !important;
     padding: 0 40px;
     padding-bottom: 80px;
-    padding-top: 20px;
+    padding-top: 0 !important;
+}
+
+.samplebooks-filter-section {
+    margin-top: 0 !important;
+    margin-bottom: 28px !important;
+}
+
+.samplebooks-count {
+    margin-top: 24px !important;
+    margin-bottom: 24px !important;
 }
 
 .sb-content {

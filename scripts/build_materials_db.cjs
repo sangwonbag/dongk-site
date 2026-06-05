@@ -25,7 +25,7 @@ function extractBrand(folderName, category) {
     if (folderName.includes('이건')) return '이건';
     if (folderName.includes('개나리')) return '개나리';
     if (folderName.includes('서울')) return '서울';
-    if (folderName.includes('신한')) return '신한(KCC)';
+    if (folderName.includes('신한')) return '신한';
     if (folderName.includes('제일')) return '제일';
     if (folderName.includes('스완')) return '스완';
     if (folderName.includes('아반')) return '아반';
@@ -489,13 +489,10 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                     packing = "20m / Roll";
                 }
                 let tMatch = thicknessSource.match(/(\d\.\d)T/i);
-                if (tMatch) {
-                    thickness = tMatch[0].toUpperCase();
-                    brand = `LX ${thickness}`;
-                } else {
-                    thickness = "1.8T"; // default
-                    brand = `LX 1.8T`;
-                }
+                thickness = tMatch ? tMatch[0].toUpperCase() : "1.8T";
+                brand = 'LX하우시스';
+                let lineName = thicknessSource.replace('LX하우시스_', '').replace('LX_', '').split('_')[0] || thicknessSource.replace('LX하우시스_', '').replace('LX_', '').replace(/_\d\.\dT/i, '');
+                overrideLine = lineName;
                 if (!sizeLabel) sizeLabel = "1.83m x 롤단위";
                 if (!packing) packing = "m 단위 절단 판매";
             }

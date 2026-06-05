@@ -36,7 +36,7 @@ const HighlightText = ({ text, highlight }) => {
     <>
       {parts.map((part, i) =>
         tokens.some(t => t.toLowerCase() === part.toLowerCase()) ? (
-          <b key={i} style={{ color: '#111', fontWeight: '900' }}>{part}</b>
+          <b key={i} style={{ color: '#00e676', fontWeight: '900' }}>{part}</b>
         ) : (
           part
         )
@@ -55,6 +55,7 @@ export default function Header() {
       footer.scrollIntoView({ behavior: 'smooth' });
     }
   };
+
   const [q, setQ] = useState(() => {
     const params = new URLSearchParams(location.search);
     return params.get("search") || "";
@@ -70,6 +71,35 @@ export default function Header() {
     logout();
     nav('/');
   };
+
+  // Scroll responsive styling states
+  const isHome = location.pathname === "/";
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  useEffect(() => {
+    if (!isHome) {
+      setIsScrolled(true);
+      return;
+    }
+
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    handleScroll();
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [isHome]);
+
+  // Close mobile menu on path changes
+  useEffect(() => {
+    setMobileMenuOpen(false);
+  }, [location.pathname]);
 
   const debouncedQ = useDebounce(q, 300);
   const [dbMaterials, setDbMaterials] = useState([]);
@@ -165,12 +195,10 @@ export default function Header() {
     }
 
     const customNav = (url) => {
-      // If handleSearchRedirect returns a simple search URL
       if (url.startsWith('/materials?search=')) {
         const newParams = new URLSearchParams();
         newParams.set('search', keyword);
         
-        // Navigate to the exact category and brand of the top matching product
         if (topProduct) {
           if (topProduct.category) newParams.set('category', topProduct.category);
           if (topProduct.brand) {
@@ -181,7 +209,6 @@ export default function Header() {
           if (topProduct.line) newParams.set('line', topProduct.line);
           if (topProduct.materialType) newParams.set('type', topProduct.materialType);
         } else if (location.pathname === '/materials') {
-          // Fallback: preserve existing params if no product found
           const currentParams = new URLSearchParams(location.search);
           if (currentParams.has('category')) newParams.set('category', currentParams.get('category'));
           if (currentParams.has('brand')) newParams.set('brand', currentParams.get('brand'));
@@ -210,23 +237,25 @@ export default function Header() {
   };
 
   return (
-    <div className="header-wrapper">
-      {/* Top Notice Bar */}
-      <div className="top-notice-bar">
-        <div className="container notice-row">
-          <div className="notice-left">
-            <span className="speaker-icon">📢</span>
-            <span>전문 시공팀과 함께 자재 공급부터 시공까지 원스톱 서비스를 제공합니다.</span>
-          </div>
-          <div className="notice-links">
-            <span className="notice-link" onClick={() => nav("/")}>회사소개</span>
-            <span className="notice-separator">|</span>
-            <span className="notice-link" onClick={() => nav("/materials")}>시공사례</span>
-            <span className="notice-separator">|</span>
-            <span className="notice-link" onClick={scrollToFooter}>고객센터</span>
+    <div className={`header-wrapper ${isHome ? "is-home" : ""} ${isScrolled ? "is-scrolled" : "is-transparent"}`}>
+      {/* Top Notice Bar - Hidden on homepage when transparent for full immersion */}
+      {!(isHome && !isScrolled) && (
+        <div className="top-notice-bar">
+          <div className="container notice-row">
+            <div className="notice-left">
+              <span className="speaker-icon">📢</span>
+              <span>전문 시공팀과 함께 자재 공급부터 시공까지 원스톱 서비스를 제공합니다.</span>
+            </div>
+            <div className="notice-links">
+              <span className="notice-link" onClick={() => nav("/")}>회사소개</span>
+              <span className="notice-separator">|</span>
+              <span className="notice-link" onClick={() => nav("/cases")}>시공사례</span>
+              <span className="notice-separator">|</span>
+              <span className="notice-link" onClick={scrollToFooter}>고객센터</span>
+            </div>
           </div>
         </div>
-      </div>
+      )}
 
       <header className="mall-header">
         <div className="container header-row">
@@ -236,125 +265,161 @@ export default function Header() {
             <span className="logo-subtitle">동경바닥재</span>
           </div>
 
-        {/* Search */}
-        <div className="header-search" ref={dropdownRef}>
-          <form onSubmit={onSearch}>
-            <input
-              type="text"
-              placeholder="제품번호, 브랜드, 종류, 규격을 검색하세요"
-              value={q}
-              onChange={(e) => {
-                const val = e.target.value;
-                setQ(val);
-                if (val.trim() === "" && location.pathname === "/materials") {
-                  const sp = new URLSearchParams(location.search);
-                  if (sp.has("search")) {
-                    sp.delete("search");
-                    nav(`/materials?${sp.toString()}`);
+          {/* Desktop Navigation Links */}
+          <nav className="header-menu-links">
+            <span className={`menu-link ${location.pathname === '/' ? 'active' : ''}`} onClick={() => nav("/")}>홈</span>
+            <span className={`menu-link ${location.pathname === '/materials' ? 'active' : ''}`} onClick={() => nav("/materials")}>자재찾기</span>
+            <span className={`menu-link ${location.pathname === '/samplebooks' ? 'active' : ''}`} onClick={() => nav("/samplebooks")}>샘플북</span>
+            <span className={`menu-link ${location.pathname === '/cases' ? 'active' : ''}`} onClick={() => nav("/cases")}>시공사례</span>
+            <span className={`menu-link ${location.pathname === '/estimate/request' || location.pathname === '/estimate' ? 'active' : ''}`} onClick={() => nav("/estimate/request")}>견적문의</span>
+          </nav>
+
+          {/* Search Bar */}
+          <div className="header-search" ref={dropdownRef}>
+            <form onSubmit={onSearch}>
+              <input
+                type="text"
+                placeholder="제품번호, 브랜드, 규격 검색"
+                value={q}
+                onChange={(e) => {
+                  const val = e.target.value;
+                  setQ(val);
+                  if (val.trim() === "" && location.pathname === "/materials") {
+                    const sp = new URLSearchParams(location.search);
+                    if (sp.has("search")) {
+                      sp.delete("search");
+                      nav(`/materials?${sp.toString()}`);
+                    }
                   }
-                }
-              }}
-              onFocus={() => setIsFocused(true)}
-            />
-            <button type="submit">
-              <Search size={20} />
+                }}
+                onFocus={() => setIsFocused(true)}
+              />
+              <button type="submit">
+                <Search size={18} />
+              </button>
+            </form>
+
+            {/* Autocomplete Dropdown */}
+            {isFocused && q.trim().length > 0 && (
+              <div className="search-dropdown">
+                {searchResults.type === "products" && (
+                  <div className="search-results-list">
+                    {searchResults.items.map(item => (
+                      <div key={item.id} className="search-result-item" onClick={() => handleProductClick(item)}>
+                        <div className="search-thumb">
+                          <img src={getSupabaseImageUrl(item.thumbnail)} alt={item.name} />
+                        </div>
+                        <div className="search-info">
+                          <div className="search-code">
+                            <HighlightText text={item.code || item.name} highlight={q} />
+                          </div>
+                          <div className="search-meta">
+                            <HighlightText text={`${item.brand} > ${item.category}`} highlight={q} />
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
+
+                {searchResults.type === "recommendations" && (
+                  <div className="search-recommendations-list">
+                    <div className="search-recommendation-title">추천 검색어</div>
+                    {searchResults.items.map((rec, i) => (
+                      <div key={i} className="search-recommendation-item" onClick={() => handleRecommendationClick(rec)}>
+                        <Search size={14} /> <span>{rec.text}</span>
+                      </div>
+                    ))}
+                  </div>
+                )}
+
+                {searchResults.type === "empty" && debouncedQ === q && (
+                  <div className="search-empty">
+                    검색 결과가 없습니다.
+                  </div>
+                )}
+                {searchResults.type === "empty" && debouncedQ !== q && (
+                  <div className="search-empty loading">
+                    검색 중...
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+
+          {/* Desktop Nav Icons / Account Controls */}
+          <nav className="header-nav">
+            <button className="cart-nav-btn" onClick={() => nav("/cart")} style={{ position: 'relative' }}>
+              <ShoppingCart size={20} />
+              <span>장바구니</span>
+              {estimateCount > 0 && <span className="estimate-badge">{estimateCount}</span>}
             </button>
-          </form>
+            
+            {currentUser ? (
+              <>
+                {currentUser.role === 'admin' && (
+                  <button onClick={() => nav("/admin")}>
+                    <Settings size={20} />
+                    <span>관리</span>
+                  </button>
+                )}
+                <button onClick={() => nav("/mypage")}>
+                  <User size={20} />
+                  <span>마이페이지</span>
+                </button>
+                <button onClick={handleLogout}>
+                  <LogOut size={20} />
+                  <span>로그아웃</span>
+                </button>
+              </>
+            ) : (
+              <button className="login-nav-btn" onClick={() => nav("/login")}>
+                <User size={20} />
+                <span>로그인</span>
+              </button>
+            )}
+          </nav>
 
-          {/* Autocomplete Dropdown */}
-          {isFocused && q.trim().length > 0 && (
-            <div className="search-dropdown">
-              {searchResults.type === "products" && (
-                <div className="search-results-list">
-                  {searchResults.items.map(item => (
-                    <div key={item.id} className="search-result-item" onClick={() => handleProductClick(item)}>
-                      <div className="search-thumb">
-                        <img src={getSupabaseImageUrl(item.thumbnail)} alt={item.name} />
-                      </div>
-                      <div className="search-info">
-                        <div className="search-code">
-                          <HighlightText text={item.code || item.name} highlight={q} />
-                        </div>
-                        <div className="search-meta">
-                          <HighlightText text={`${item.brand} > ${item.category}`} highlight={q} />
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              )}
+          {/* Hamburger menu for mobile */}
+          <button 
+            className={`mobile-menu-toggle ${mobileMenuOpen ? 'open' : ''}`} 
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label="Toggle Navigation Menu"
+          >
+            <span className="hamburger-line"></span>
+            <span className="hamburger-line"></span>
+            <span className="hamburger-line"></span>
+          </button>
+        </div>
+      </header>
 
-              {searchResults.type === "recommendations" && (
-                <div className="search-recommendations-list">
-                  <div className="search-recommendation-title">추천 검색어</div>
-                  {searchResults.items.map((rec, i) => (
-                    <div key={i} className="search-recommendation-item" onClick={() => handleRecommendationClick(rec)}>
-                      <Search size={14} /> <span>{rec.text}</span>
-                    </div>
-                  ))}
-                </div>
+      {/* Mobile Navigation Drawer */}
+      <div className={`mobile-nav-drawer ${mobileMenuOpen ? 'open' : ''}`}>
+        <div className="drawer-menu-links">
+          <span className="drawer-link" onClick={() => { nav("/"); setMobileMenuOpen(false); }}>홈</span>
+          <span className="drawer-link" onClick={() => { nav("/materials"); setMobileMenuOpen(false); }}>자재찾기</span>
+          <span className="drawer-link" onClick={() => { nav("/samplebooks"); setMobileMenuOpen(false); }}>샘플북</span>
+          <span className="drawer-link" onClick={() => { nav("/cases"); setMobileMenuOpen(false); }}>시공사례</span>
+          <span className="drawer-link" onClick={() => { nav("/estimate/request"); setMobileMenuOpen(false); }}>견적문의</span>
+        </div>
+        <div className="drawer-actions">
+          <button className="drawer-cart-btn" onClick={() => { nav("/cart"); setMobileMenuOpen(false); }}>
+            <ShoppingCart size={18} style={{ marginRight: '6px' }} />
+            장바구니 ({estimateCount})
+          </button>
+          {currentUser ? (
+            <div className="drawer-account-group">
+              {currentUser.role === 'admin' && (
+                <button onClick={() => { nav("/admin"); setMobileMenuOpen(false); }}>관리자 패널</button>
               )}
-
-              {searchResults.type === "empty" && debouncedQ === q && (
-                <div className="search-empty">
-                  검색 결과가 없습니다. 제품번호 또는 브랜드명을 다시 확인해주세요.
-                </div>
-              )}
-              {searchResults.type === "empty" && debouncedQ !== q && (
-                <div className="search-empty loading">
-                  검색 중...
-                </div>
-              )}
+              <button onClick={() => { nav("/mypage"); setMobileMenuOpen(false); }}>마이페이지</button>
+              <button className="drawer-logout-btn" onClick={() => { handleLogout(); setMobileMenuOpen(false); }}>로그아웃</button>
             </div>
+          ) : (
+            <button className="drawer-login-btn" onClick={() => { nav("/login"); setMobileMenuOpen(false); }}>로그인</button>
           )}
         </div>
-
-        {/* Nav Icons */}
-        <nav className="header-nav">
-          <button onClick={() => nav("/materials")}>
-            <Layers size={20} />
-            <span>자재</span>
-          </button>
-          <button onClick={() => nav("/samplebooks")}>
-            <BookOpen size={20} />
-            <span>샘플북</span>
-          </button>
-          <button onClick={() => nav("/cart")} style={{ position: 'relative' }}>
-            <ShoppingCart size={20} />
-            <span>장바구니</span>
-            {estimateCount > 0 && <span className="estimate-badge">{estimateCount}</span>}
-          </button>
-          <button onClick={() => nav("/estimate/request")}>
-            <FileText size={20} />
-            <span>견적문의</span>
-          </button>
-          
-          {currentUser ? (
-            <>
-              {currentUser.role === 'admin' && (
-                <button onClick={() => nav("/admin")}>
-                  <Settings size={20} />
-                  <span>관리</span>
-                </button>
-              )}
-              <button onClick={() => nav("/mypage")}>
-                <User size={20} />
-                <span>마이페이지</span>
-              </button>
-              <button onClick={handleLogout}>
-                <LogOut size={20} />
-                <span>로그아웃</span>
-              </button>
-            </>
-          ) : (
-            <button onClick={() => nav("/login")}>
-              <User size={20} />
-              <span>로그인</span>
-            </button>
-          )}
-        </nav>
       </div>
-      </header>
     </div>
   );
 }

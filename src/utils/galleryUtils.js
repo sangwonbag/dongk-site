@@ -1,4 +1,5 @@
 import { imageManifest } from "../data/imageManifest";
+import { materials } from "../data/materials.db";
 
 const normalize = (str) => str ? str.replace(/[^a-zA-Z0-9가-힣]/g, '').toUpperCase() : "";
 
@@ -17,6 +18,16 @@ export async function getThumbnailImage(item) {
     // 1. Try direct thumbnail property first
     if (item.thumbnail) return toFullUrl(item.thumbnail);
     if (item.cover) return toFullUrl(item.cover); // Fallback to cover if old db format
+
+    // 2. Try looking up in local materials database
+    const localProduct = (materials || []).find(m => 
+        m.category === item.category && 
+        m.brand === item.brand && 
+        m.code === item.code
+    );
+    if (localProduct && (localProduct.thumbnail || localProduct.image)) {
+        return toFullUrl(localProduct.thumbnail || localProduct.image);
+    }
 
     // 2. Fallback to code/name lookup in manifest
     const keys = [item.code, item.name].filter(Boolean).map(normalize);
@@ -79,6 +90,19 @@ export async function getValidGalleryImages(item) {
 
     if (item.images && Array.isArray(item.images)) {
         return item.images.map(str => ({
+            thumbnail: toFullUrl(str),
+            detail: toFullUrl(str)
+        }));
+    }
+
+    // 2. Try looking up in local materials database
+    const localProduct = (materials || []).find(m => 
+        m.category === item.category && 
+        m.brand === item.brand && 
+        m.code === item.code
+    );
+    if (localProduct && localProduct.images && Array.isArray(localProduct.images)) {
+        return localProduct.images.map(str => ({
             thumbnail: toFullUrl(str),
             detail: toFullUrl(str)
         }));

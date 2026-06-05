@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import MainLayout from '../../components/layout/MainLayout';
 import { useEstimateCart } from '../../contexts/EstimateCartContext';
 import { supabase } from '../../lib/supabase';
@@ -16,6 +16,7 @@ const WORK_TYPES = ['자재만 구매', '자재 + 시공', '철거 포함', '기
 
 export default function EstimateRequest() {
   const navigate = useNavigate();
+  const location = useLocation();
   const { cartItems, updateQuantity, removeFromCart, clearCart } = useEstimateCart();
   const currentUser = getCurrentUser();
   
@@ -27,9 +28,16 @@ export default function EstimateRequest() {
   // Modal state
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  // Form states
-  const [customer, setCustomer] = useState({
-    type: '일반 소비자', name: '', phone: '', email: '', consultation: '전화 상담'
+  // Form states - Pre-filled from logged in user
+  const [customer, setCustomer] = useState(() => {
+    const user = getCurrentUser();
+    return {
+      type: '일반 소비자',
+      name: user ? user.name || user.email?.split('@')[0] || '' : '',
+      phone: user ? user.phone || '' : '',
+      email: user ? user.email || '' : '',
+      consultation: '전화 상담'
+    };
   });
   const [site, setSite] = useState({
     address: '', detailAddress: '', preferredDate: '', type: '아파트',
@@ -197,6 +205,28 @@ export default function EstimateRequest() {
           <h1>견적요청</h1>
           <p>현장 정보와 필요한 자재를 입력해주시면 확인 후 연락드리겠습니다.</p>
         </div>
+
+        {location.state?.selectedProduct && (
+          <div className="product-prefill-banner" style={{
+            backgroundColor: '#e6f4ea',
+            border: '1.5px solid #137333',
+            color: '#137333',
+            padding: '16px 20px',
+            borderRadius: '12px',
+            marginBottom: '30px',
+            fontSize: '14.5px',
+            fontWeight: '600',
+            lineHeight: '1.5',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '10px'
+          }}>
+            <CheckCircle size={20} style={{ flexShrink: 0 }} />
+            <div>
+              선택하신 자재 <strong>[{location.state.selectedProduct.brand}] {location.state.selectedProduct.name} ({location.state.selectedProduct.code})</strong> 정보가 견적서에 자동 추가되었습니다. 연락처와 주소 등 기본 사항만 채우시면 간편하게 접수하실 수 있습니다.
+            </div>
+          </div>
+        )}
 
         {/* Steps */}
         <div className="est-stepper">

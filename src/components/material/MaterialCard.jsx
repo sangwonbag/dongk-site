@@ -51,8 +51,32 @@ const MaterialCard = ({ material }) => {
             </div>
 
             <div className="card-info">
-                <div className="card-brand-cat">{getComputedBrand(material)}</div>
+                <div className="card-brand-cat">
+                    <span className="card-brand">{getComputedBrand(material)}</span>
+                    {material.category && <span className="card-cat-divider">|</span>}
+                    <span className="card-category">{material.category}</span>
+                </div>
                 <div className="card-name">{material.name}</div>
+                
+                <div className="card-meta">
+                    {material.code && (
+                        <div className="card-meta-item">
+                            <span className="meta-label">코드</span>
+                            <span className="meta-value">{material.code}</span>
+                        </div>
+                    )}
+                    {((material.specs && (material.specs.thickness || material.specs.size || material.specs.packing)) || material.thickness) && (
+                        <div className="card-meta-item">
+                            <span className="meta-label">규격</span>
+                            <span className="meta-value">
+                                {material.specs
+                                    ? [material.specs.thickness, material.specs.size, material.specs.packing].filter(Boolean).join(' · ')
+                                    : material.thickness}
+                            </span>
+                        </div>
+                    )}
+                </div>
+
                 <div className="card-price-row">
                     <div className="card-price">
                         {material.price ? `₩${material.price.toLocaleString()}원` : "가격문의"}
@@ -61,7 +85,7 @@ const MaterialCard = ({ material }) => {
 
                 <div className="card-actions">
                     <button className="btn-detail" onClick={handleGoDetail}>
-                        상세보기
+                        자세히 보기
                     </button>
                     <button className="btn-quote" onClick={handleInquiry}>
                         견적요청

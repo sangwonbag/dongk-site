@@ -1,21 +1,23 @@
 .material-card {
-    border: 1px solid #eee;
-    background: #fff;
+    border: 1px solid #E6E2D8;
+    background: #ffffff;
     cursor: pointer;
     transition: transform 0.2s, box-shadow 0.2s;
     display: flex;
     flex-direction: column;
+    border-radius: 4px;
 }
 
 .material-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(31, 36, 33, 0.06);
+    border-color: #ECD06F;
 }
 
 .card-thumb {
     width: 100%;
     aspect-ratio: 1 / 1;
-    background: #f8f8f8;
+    background: #FAF8F2;
     position: relative;
     overflow: hidden;
 }
@@ -24,7 +26,7 @@
     width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 4px 4px 0 0;
 }
 
 .thumb-placeholder {
@@ -69,16 +71,63 @@
     font-size: 11px;
     color: #888;
     margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.card-brand {
+    font-weight: 600;
+    color: #1F2421;
+}
+
+.card-cat-divider {
+    color: #e6e2d8;
+    font-size: 9px;
+}
+
+.card-category {
+    color: #777;
+}
+
+.card-meta {
+    margin: 8px 0;
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border-top: 1px dashed #e6e2d8;
+    padding-top: 8px;
+}
+
+.card-meta-item {
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+}
+
+.meta-label {
+    color: #999;
+    font-weight: 500;
+    min-width: 28px;
+}
+
+.meta-value {
+    color: #444;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .card-price-row {
-    margin-top: 4px;
+    margin-top: auto;
     margin-bottom: 8px;
+    padding-top: 4px;
 }
 
 .card-price {
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 600;
     color: #111;
 }
 
@@ -92,28 +141,34 @@
 .btn-detail,
 .btn-quote {
     flex: 1;
-    padding: 8px 0;
-    font-size: 12px;
+    padding: 9px 0;
+    font-size: 11px;
+    font-weight: 550;
     cursor: pointer;
-    border: 1px solid #333;
-    transition: all 0.2s;
+    border-radius: 2px;
+    transition: all 0.2s ease;
     text-align: center;
 }
 
 .btn-detail {
-    background: #333;
-    color: white;
+    background: #1F2421;
+    color: #ffffff;
+    border: 1px solid #1F2421;
 }
 
 .btn-detail:hover {
-    background: #555;
+    background: #ECD06F;
+    color: #1F2421;
+    border-color: #ECD06F;
 }
 
 .btn-quote {
-    background: white;
-    color: #333;
+    background: #FAF8F2;
+    color: #1F2421;
+    border: 1px solid #E6E2D8;
 }
 
 .btn-quote:hover {
-    background: #f0f0f0;
+    background: #ffffff;
+    border-color: #1F2421;
 }

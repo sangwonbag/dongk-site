@@ -8,9 +8,8 @@ import MaterialCard from "../../components/material/MaterialCard";
 import { fetchAllProducts } from "../../utils/supabaseFetcher";
 import "./Materials.css";
 
-/** ✅ 상단 탭: 추천 + 카테고리 */
 const CATEGORY_TABS = [
-  { id: "recommended", label: "추천 자재" },
+  { id: "all", label: "전체보기" },
   { id: "데코타일", label: "데코타일" },
   { id: "장판", label: "장판" },
   { id: "마루", label: "마루" },
@@ -28,7 +27,7 @@ export default function Materials() {
   const [error, setError] = useState(null);
 
   // Read state directly from URL query parameters
-  const activeTab = searchParams.get("category") || "recommended";
+  const activeTab = searchParams.get("category") || "all";
   const activeBrand = searchParams.get("brand") || "all";
   const activeMaterialType = searchParams.get("type") || "all";
   const activeLine = searchParams.get("line") || "all";
@@ -61,6 +60,24 @@ export default function Materials() {
     load();
   }, []);
 
+  // Debugging logs requested by the user
+  useEffect(() => {
+    if (materialsList && materialsList.length > 0) {
+      const jangpan = materialsList.filter(m => m.category === "장판");
+      const lxJangpan = materialsList.filter(m => m.category === "장판" && (m.brand === "LX하우시스" || m.brand === "LX"));
+      const firstJangpan = jangpan[0];
+
+      console.log("=== [Debug materials stats] ===");
+      console.log("전체 상품 개수 (from fetcher):", materialsList.length);
+      console.log("장판 상품 개수:", jangpan.length);
+      console.log("LX하우시스 장판 상품 개수:", lxJangpan.length);
+      console.log("첫 번째 장판 상품 이미지 경로:", firstJangpan ? (firstJangpan.thumbnail || firstJangpan.image) : "없음");
+      console.log("현재 URL query category:", activeTab);
+      console.log("현재 URL query brand:", activeBrand);
+      console.log("===============================");
+    }
+  }, [materialsList, activeTab, activeBrand]);
+
   // Reset pagination when filters change
   useEffect(() => {
     setVisibleCount(100);
@@ -82,7 +99,7 @@ export default function Materials() {
   };
 
   const setActiveTab = (tab) => {
-    if (tab === "recommended") {
+    if (tab === "all") {
       updateParams({ category: null, brand: null, type: null, line: null }); // Default view
     } else {
       updateParams({ category: tab, brand: null, type: null, line: null });
@@ -106,17 +123,30 @@ export default function Materials() {
 
   /** ✅ 브랜드 목록: 카테고리에 맞춰 가공 (요구사항 반영) */
   const visibleBrands = useMemo(() => {
-    if (activeTab === "recommended") return ["all", "KCC", "동신", "유성"];
+    if (activeTab === "all") {
+      const allUniqueBrands = new Set();
+      Object.values(BRANDS_BY_CATEGORY).forEach((brandsList) => {
+        if (Array.isArray(brandsList)) {
+          brandsList.forEach((b) => allUniqueBrands.add(b));
+        }
+      });
+      return ["all", ...Array.from(allUniqueBrands)];
+    }
     return ["all", ...(BRANDS_BY_CATEGORY[activeTab] || [])];
   }, [activeTab]);
 
   /** ✅ 라인업 목록: 선택된 카테고리와 브랜드에 따라 동적으로 생성 (폴더 구조 반영) */
   const visibleLines = useMemo(() => {
-    if (!materialsList || materialsList.length === 0 || activeTab === "recommended" || activeBrand === "all") return [];
+    if (!materialsList || materialsList.length === 0 || activeTab === "all" || activeBrand === "all") return [];
     
     const linesSet = new Set();
     materialsList.forEach((m) => {
-      if (m && m.category === activeTab && getComputedBrand(m) === activeBrand && m.line) {
+      const matchesBrand =
+        getComputedBrand(m) === activeBrand ||
+        m.brand === activeBrand ||
+        (activeBrand === "LX하우시스" && (m.brand === "LX" || m.brand === "LX하우시스"));
+      
+      if (m && m.category === activeTab && matchesBrand && m.line) {
         let line = m.line;
         if (line.includes('_')) {
           const parts = line.split('_').map(p => p.trim());
@@ -170,9 +200,7 @@ export default function Materials() {
 
       // 탭(카테고리) 필터
       let tabOk = true;
-      if (activeTab === "recommended") {
-        tabOk = (m.brand === "KCC" || m.brand === "동신" || m.brand === "유성");
-      } else {
+      if (activeTab !== "all") {
         tabOk = (m.category === activeTab);
       }
 
@@ -181,7 +209,9 @@ export default function Materials() {
       let brandOk =
         activeBrand === "all"
           ? true
-          : mComputedBrand === activeBrand;
+          : (mComputedBrand === activeBrand ||
+             m.brand === activeBrand ||
+             (activeBrand === "LX하우시스" && (m.brand === "LX" || m.brand === "LX하우시스")));
 
       // 재질 필터 (벽지일 때만 작동)
       let materialOk = true;

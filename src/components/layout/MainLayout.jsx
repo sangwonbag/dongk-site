@@ -5,11 +5,11 @@ import FloatingPhoneButton from "../ui/FloatingPhoneButton";
 import RightFloatingBox from "../ui/RightFloatingBox";
 import "./MainLayout.css";
 
-export default function MainLayout({ children }) {
+export default function MainLayout({ children, className = "" }) {
     return (
         <div className="main-layout">
             <Header />
-            <main className="main-content">
+            <main className={`main-content ${className}`}>
                 {children}
             </main>
             <Footer />

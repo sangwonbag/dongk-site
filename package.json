@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "upload:supabase": "node scripts/upload_supabase_all.cjs"
+    "upload:supabase": "node scripts/upload_supabase_all.cjs",
+    "generate:materials": "node scripts/generateMaterials.js"
   },
   "dependencies": {
     "@react-pdf/renderer": "^4.3.2",

@@ -12,17 +12,43 @@ export async function fetchAllProducts(forceRefresh = false) {
   let fetchError = null;
 
   if (supabase) {
-    console.log("Fetching all products from Supabase DB...");
+    console.log("Fetching all products from Supabase DB with pagination...");
     try {
-      const res = await supabase
-        .from('products')
-        .select(`
-          *,
-          categories ( id, name ),
-          brands ( id, name )
-        `);
-      data = res.data;
-      fetchError = res.error;
+      let allProducts = [];
+      let page = 0;
+      const pageSize = 1000;
+      let hasMore = true;
+
+      while (hasMore) {
+        const { data: chunk, error } = await supabase
+          .from('products')
+          .select(`
+            *,
+            categories ( id, name ),
+            brands ( id, name )
+          `)
+          .range(page * pageSize, (page + 1) * pageSize - 1);
+
+        if (error) {
+          fetchError = error;
+          break;
+        }
+
+        if (!chunk || chunk.length === 0) {
+          hasMore = false;
+        } else {
+          allProducts = allProducts.concat(chunk);
+          if (chunk.length < pageSize) {
+            hasMore = false;
+          } else {
+            page++;
+          }
+        }
+      }
+
+      if (!fetchError) {
+        data = allProducts;
+      }
     } catch (e) {
       console.error("Supabase fetch failed with exception:", e);
       fetchError = e;

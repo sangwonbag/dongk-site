@@ -83,7 +83,10 @@ export default function SampleBooks() {
       if (selectedBrand === "all") {
         brandOk = true;
       } else {
-        brandOk = sbComputedBrand === selectedBrand;
+        brandOk =
+          sbComputedBrand === selectedBrand ||
+          sb.brand === selectedBrand ||
+          (selectedBrand === "LX하우시스" && (sb.brand === "LX" || sb.brand === "LX하우시스"));
       }
 
       let materialOk = false;
@@ -110,51 +113,53 @@ export default function SampleBooks() {
   };
 
   return (
-    <MainLayout>
+    <MainLayout className="samplebooks-page">
       <div className="samplebooks-container">
         <main className="sb-content full">
-          {/* ✅ 상단 카테고리 탭 */}
-          <div className="samplebooks-tabs">
-            {CATEGORY_TABS.map((tab) => (
-              <button
-                key={tab.id}
-                className={`sb-tab ${activeTab === tab.id ? "active" : ""}`}
-                onClick={() => setActiveTab(tab.id)}
-              >
-                {tab.label}
-              </button>
-            ))}
-          </div>
-
-          {/* ✅ 브랜드 필터 (칩 형태) */}
-          <div className="brand-filter-row">
-            {brands.map((b) => (
-              <button
-                key={b}
-                className={`brand-chip ${selectedBrand === b ? "active" : ""}`}
-                onClick={() => setSelectedBrand(b)}
-              >
-                {b === "all" ? "전체 브랜드" : b}
-              </button>
-            ))}
-          </div>
-
-          {/* ✅ 벽지인 경우 재질 필터 추가 */}
-          {activeTab === "벽지" && (
-            <div className="brand-filter-row material-type-row">
-              {(selectedBrand === "all" ? ["all"] : selectedBrand === "개나리" ? ["all", "프리미엄", "합지(소폭)", "합지(장폭)", "실크", "방염"] : selectedBrand === "LX" ? ["all", "디아망", "합지", "실크", "방염"] : selectedBrand === "서울" ? ["all", "프리미엄", "합지", "실크", "방염"] : ["all", "합지", "실크", "방염"]).map((t) => (
+          <div className="samplebooks-filter-section">
+            {/* ✅ 상단 카테고리 탭 */}
+            <div className="samplebooks-tabs">
+              {CATEGORY_TABS.map((tab) => (
                 <button
-                  key={t}
-                  className={`brand-chip material-chip ${selectedMaterialType === t ? "active" : ""}`}
-                  onClick={() => setSelectedMaterialType(t)}
+                  key={tab.id}
+                  className={`sb-tab ${activeTab === tab.id ? "active" : ""}`}
+                  onClick={() => setActiveTab(tab.id)}
                 >
-                  {t === "all" ? "전체 재질" : t}
+                  {tab.label}
                 </button>
               ))}
             </div>
-          )}
 
-          <div className="results-header">
+            {/* ✅ 브랜드 필터 (칩 형태) */}
+            <div className="brand-filter-row">
+              {brands.map((b) => (
+                <button
+                  key={b}
+                  className={`brand-chip ${selectedBrand === b ? "active" : ""}`}
+                  onClick={() => setSelectedBrand(b)}
+                >
+                  {b === "all" ? "전체 브랜드" : b}
+                </button>
+              ))}
+            </div>
+
+            {/* ✅ 벽지인 경우 재질 필터 추가 */}
+            {activeTab === "벽지" && (
+              <div className="brand-filter-row material-type-row">
+                {(selectedBrand === "all" ? ["all"] : selectedBrand === "개나리" ? ["all", "프리미엄", "합지(소폭)", "합지(장폭)", "실크", "방염"] : selectedBrand === "LX" ? ["all", "디아망", "합지", "실크", "방염"] : selectedBrand === "서울" ? ["all", "프리미엄", "합지", "실크", "방염"] : ["all", "합지", "실크", "방염"]).map((t) => (
+                  <button
+                    key={t}
+                    className={`brand-chip material-chip ${selectedMaterialType === t ? "active" : ""}`}
+                    onClick={() => setSelectedMaterialType(t)}
+                  >
+                    {t === "all" ? "전체 재질" : t}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+
+          <div className="results-header samplebooks-count">
             <div className="results-info">
               <span>총 <strong>{filtered.length}</strong>권</span>
             </div>

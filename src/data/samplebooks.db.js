@@ -5,7 +5,7 @@ export const sampleBooks = [
         title: "2025 LX 뉴청맥(1.8T)",
         brand: "LX",
         category: "장판",
-        cover: "/images/Thumbnail_Image/samplebooks/LX장판_1.8T.jpg",
+        cover: "/samplebooks/Thumbnail_image/장판/LX/LX장판_1.8T/LX장판_1.8T.png",
         pdf: "/samplebooks/장판/2025 뉴청맥(1.8T).pdf",
         description: "LX 실속형 장판 컬렉션",
         isRecommended: true
@@ -15,7 +15,7 @@ export const sampleBooks = [
         title: "2025 LX 엑스컴포트(5.0T)",
         brand: "LX",
         category: "장판",
-        cover: "/images/Thumbnail_Image/samplebooks/LX장판_5.0T.jpg",
+        cover: "/samplebooks/Thumbnail_image/장판/LX/LX장판_5.0T/LX장판_5.0T.png",
         pdf: "/samplebooks/장판/2025 엑스컴포트(5.0T).pdf",
         description: "고급 안심 매트 장판"
     },
@@ -24,7 +24,7 @@ export const sampleBooks = [
         title: "2025 LX 은행목(2.0T)",
         brand: "LX",
         category: "장판",
-        cover: "/images/Thumbnail_Image/samplebooks/LX장판_2.0T.jpg",
+        cover: "/samplebooks/Thumbnail_image/장판/LX/LX장판_2.0T/LX장판_2.0T.png",
         pdf: "/samplebooks/장판/2025 은행목(2.0T).pdf",
         description: "LX 실용적인 바닥재"
     },
@@ -33,7 +33,7 @@ export const sampleBooks = [
         title: "2025 LX 지아사랑애(3.2T/2.7T)",
         brand: "LX",
         category: "장판",
-        cover: "/images/Thumbnail_Image/samplebooks/LX장판_2.7T_3.2T.jpg",
+        cover: "/samplebooks/Thumbnail_image/장판/LX/LX장판_2.7T_3.2T/LX장판_2.7T_3.2T.png",
         pdf: "/samplebooks/장판/2025 지아사랑애(3.2T,2.7T).pdf",
         description: "친환경 지아(ZIA) 컬렉션"
     },
@@ -50,7 +50,7 @@ export const sampleBooks = [
         title: "2026 LX 지아자연애(2.2T)",
         brand: "LX",
         category: "장판",
-        cover: "/images/Thumbnail_Image/samplebooks/LX장판_2.2T.jpg",
+        cover: "/samplebooks/Thumbnail_image/장판/LX/LX장판_2.2T/LX장판_2.2T.png",
         pdf: "/samplebooks/장판/2026 지아자연애(2.2T).pdf",
         description: "트렌디한 디자인의 바닥재"
     },
