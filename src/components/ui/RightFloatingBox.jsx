@@ -8,7 +8,7 @@ export default function RightFloatingBox({ hideOnPaths = [] }) {
     const nav = useNavigate();
     const [isMobileExpanded, setIsMobileExpanded] = useState(false);
 
-    const hidden = hideOnPaths.some((p) => loc.pathname.startsWith(p));
+    const hidden = hideOnPaths.some((p) => loc.pathname.startsWith(p)) || loc.pathname === "/";
     if (hidden) return null;
 
     return (

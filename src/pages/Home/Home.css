@@ -48,7 +48,9 @@
    ========================================== */
 .showroom-hero-v2 {
   position: relative;
-  height: 90vh;
+  height: 80vh;
+  min-height: 720px;
+  max-height: 820px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -69,6 +71,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center center;
 }
 
 .hero-v2-overlay {
@@ -77,16 +80,29 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, rgba(248, 246, 241, 0.95) 30%, rgba(248, 246, 241, 0.4) 70%, rgba(248, 246, 241, 0.1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(248, 246, 241, 0.92) 0%,
+    rgba(248, 246, 241, 0.72) 36%,
+    rgba(248, 246, 241, 0.18) 70%,
+    rgba(248, 246, 241, 0.02) 100%
+  );
   z-index: 2;
 }
 
-.hero-v2-content {
+.hero-v2-container-grid {
+  display: grid;
+  grid-template-columns: 1.25fr 0.75fr;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
   position: relative;
   z-index: 3;
+}
+
+.hero-v2-content {
   width: 100%;
   max-width: 680px;
-  padding: 0 40px;
   animation: heroFadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
@@ -102,10 +118,10 @@
 }
 
 .hero-v2-eyebrow {
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
   color: var(--point-gold);
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   margin-bottom: 20px;
   display: block;
 }
@@ -121,7 +137,7 @@
 
 .hero-v2-subtitle {
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.65;
   color: var(--text-muted);
   margin: 0 0 40px 0;
   word-break: keep-all;
@@ -131,6 +147,209 @@
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
+}
+
+/* Specific Hero Buttons */
+.btn-hero-primary {
+  background-color: #111111;
+  color: #ffffff;
+  border: 1px solid #111111;
+  padding: 14px 28px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-hero-primary:hover {
+  background-color: #333333;
+  border-color: #333333;
+  transform: translateY(-2px);
+}
+
+.btn-hero-secondary {
+  background-color: var(--point-gold);
+  color: #ffffff;
+  border: 1px solid var(--point-gold);
+  padding: 14px 28px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-hero-secondary:hover {
+  background-color: var(--point-gold-hover, #cbb593);
+  border-color: var(--point-gold-hover, #cbb593);
+  transform: translateY(-2px);
+}
+
+.btn-hero-outline {
+  background-color: #ffffff;
+  color: #111111;
+  border: 1px solid #111111;
+  padding: 14px 28px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-hero-outline:hover {
+  background-color: #f7f7f7;
+  transform: translateY(-2px);
+}
+
+/* Contact Card (Inside Hero) */
+.hero-v2-contact-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 320px;
+  margin-left: auto;
+  animation: heroFadeIn 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.hero-card-section {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: left;
+}
+
+.hero-card-title {
+  font-size: 12.5px;
+  font-weight: 800;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 4px 0;
+}
+
+.hero-card-phone {
+  font-size: 22px;
+  font-weight: 900;
+  color: var(--point-gold);
+  text-decoration: none;
+  margin-bottom: 4px;
+}
+
+.hero-card-info {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.hero-card-info.email a {
+  color: var(--text);
+  text-decoration: underline;
+}
+
+.hero-card-bank {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0;
+}
+
+.hero-card-account {
+  font-size: 16px;
+  font-weight: 900;
+  color: var(--text);
+  margin: 2px 0;
+}
+
+.hero-card-info.info-depositor {
+  font-weight: 700;
+  color: var(--text);
+}
+
+.hero-card-divider {
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.08);
+  width: 100%;
+}
+
+/* Mobile Contact Box */
+.hero-v2-mobile-contact-container {
+  display: none;
+  padding: 0 20px;
+}
+
+/* ==========================================
+   1.5 Trust Points Bar (Showroom Highlights)
+   ========================================== */
+.showroom-trust-bar {
+  background-color: #ffffff;
+  border-bottom: 1px solid var(--border);
+  padding: 30px 0;
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.01);
+}
+
+.trust-bar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.trust-bar-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+}
+
+.trust-bar-icon-wrap {
+  width: 44px;
+  height: 44px;
+  background-color: var(--gray);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--point-gold);
+  flex-shrink: 0;
+}
+
+.trust-bar-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: left;
+}
+
+.trust-bar-item-title {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0;
+}
+
+.trust-bar-item-desc {
+  font-size: 11.5px;
+  color: var(--text-muted);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.trust-bar-divider {
+  width: 1px;
+  height: 40px;
+  background-color: var(--border);
 }
 
 /* Reusable buttons styles */
@@ -1074,9 +1293,53 @@
 
 @media (max-width: 900px) {
   .showroom-hero-v2 {
-    height: 85vh;
+    height: auto;
+    min-height: 620px;
+    padding: 120px 0 80px 0;
   }
-  
+
+  .hero-v2-bg-img {
+    object-position: 35% center;
+  }
+
+  .hero-v2-overlay {
+    background: linear-gradient(
+      180deg,
+      rgba(248, 246, 241, 0.95) 0%,
+      rgba(248, 246, 241, 0.85) 50%,
+      rgba(248, 246, 241, 0.4) 100%
+    );
+  }
+
+  .hero-v2-container-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .hero-v2-contact-card {
+    display: none;
+  }
+
+  .hero-v2-mobile-contact-container {
+    display: block;
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+
+  .mobile-only-card {
+    display: flex !important;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+    border: 1px solid var(--border);
+  }
+
+  .hero-v2-content {
+    text-align: left;
+    padding: 0 20px;
+  }
+
   .hero-v2-title {
     font-size: 32px;
   }

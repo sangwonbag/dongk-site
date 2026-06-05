@@ -7,7 +7,12 @@ import {
   Phone, 
   ArrowRight, 
   BookOpen,
-  Download
+  Download,
+  Award,
+  ShieldCheck,
+  FileText,
+  CheckCircle,
+  Users
 } from "lucide-react";
 import "./Home.css";
 
@@ -434,32 +439,133 @@ export default function Home() {
         <section className="showroom-hero-v2">
           <div className="hero-v2-bg-frame">
             <img 
-              src="/images/home-interior/korea-apt-living-01.png" 
+              src="/images/home/main-hero-interior.png" 
               alt="Premium Living Room Interior" 
               className="hero-v2-bg-img"
             />
             <div className="hero-v2-overlay"></div>
           </div>
           
-          <div className="hero-v2-content container">
-            <span className="hero-v2-eyebrow">PREMIUM FLOORING & WALLCOVERING SHOWROOM</span>
-            <h1 className="hero-v2-title">
-              공간의 분위기는<br />
-              바닥과 벽에서 시작됩니다.
-            </h1>
-            <p className="hero-v2-subtitle">
-              동경바닥재는 바닥재·벽지 판매부터 시공 상담까지 한 번에 도와드립니다.
-            </p>
-            <div className="hero-v2-buttons">
-              <button className="btn-v2-primary" onClick={() => nav("/materials")}>
-                자재 찾기
-              </button>
-              <button className="btn-v2-secondary" onClick={() => nav("/samplebooks")}>
-                샘플북 보기
-              </button>
-              <button className="btn-v2-outline" onClick={() => nav("/estimate/request")}>
-                견적 문의
-              </button>
+          <div className="hero-v2-container-grid container">
+            <div className="hero-v2-content">
+              <span className="hero-v2-eyebrow">바닥재 · 벽지 판매 및 시공 전문</span>
+              <h1 className="hero-v2-title">
+                공간의 분위기는<br />
+                바닥과 벽에서 시작됩니다.
+              </h1>
+              <p className="hero-v2-subtitle">
+                동경바닥재는 바닥재·벽지 판매부터 시공 상담까지<br />
+                현장에 맞는 자재 선택을 도와드립니다.
+              </p>
+              <div className="hero-v2-buttons">
+                <button className="btn-hero-primary" onClick={() => nav("/materials")}>
+                  자재 찾기
+                </button>
+                <button className="btn-hero-secondary" onClick={() => nav("/samplebooks")}>
+                  샘플북 보기
+                </button>
+                <button className="btn-hero-outline" onClick={() => nav("/estimate/request")}>
+                  견적 문의
+                </button>
+              </div>
+            </div>
+
+            {/* Right Card (Customer info - Desktop only via CSS) */}
+            <div className="hero-v2-contact-card">
+              <div className="hero-card-section">
+                <h3 className="hero-card-title">고객센터</h3>
+                <a href="tel:02-487-9775" className="hero-card-phone">02-487-9775</a>
+                <p className="hero-card-info">평일 07:00 - 18:00</p>
+                <p className="hero-card-info">주말 07:00 - 12:00</p>
+                <p className="hero-card-info email">이메일: <a href="mailto:dongk3089@naver.com">dongk3089@naver.com</a></p>
+              </div>
+              <div className="hero-card-divider"></div>
+              <div className="hero-card-section">
+                <h3 className="hero-card-title">무통장 입금</h3>
+                <p className="hero-card-bank">농협</p>
+                <p className="hero-card-account">301-0298-9197-81</p>
+                <p className="hero-card-info depositor">예금주: 동경바닥재</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Mobile Contact Box (Only visible on screens <= 900px via CSS) */}
+        <div className="hero-v2-mobile-contact-container container">
+          <div className="hero-v2-contact-card mobile-only-card">
+            <div className="hero-card-section">
+              <h3 className="hero-card-title">고객센터</h3>
+              <a href="tel:02-487-9775" className="hero-card-phone">02-487-9775</a>
+              <p className="hero-card-info">평일 07:00 - 18:00 / 주말 07:00 - 12:00</p>
+              <p className="hero-card-info email">이메일: <a href="mailto:dongk3089@naver.com">dongk3089@naver.com</a></p>
+            </div>
+            <div className="hero-card-divider"></div>
+            <div className="hero-card-section">
+              <h3 className="hero-card-title">무통장 입금</h3>
+              <p className="hero-card-bank">농협</p>
+              <p className="hero-card-account">301-0298-9197-81</p>
+              <p className="hero-card-info depositor">예금주: 동경바닥재</p>
+            </div>
+          </div>
+        </div>
+
+        {/* ==========================================
+           1.5 Trust Points Bar / 신뢰 포인트 바
+           ========================================== */}
+        <section className="showroom-trust-bar">
+          <div className="trust-bar-container container">
+            <div className="trust-bar-item">
+              <div className="trust-bar-icon-wrap">
+                <Award size={20} />
+              </div>
+              <div className="trust-bar-text">
+                <h4 className="trust-bar-item-title">20년 이상 시공 경험</h4>
+                <p className="trust-bar-item-desc">오직 바닥과 벽만 다져온 노하우</p>
+              </div>
+            </div>
+            <div className="trust-bar-divider"></div>
+            
+            <div className="trust-bar-item">
+              <div className="trust-bar-icon-wrap">
+                <ShieldCheck size={20} />
+              </div>
+              <div className="trust-bar-text">
+                <h4 className="trust-bar-item-title">주요 브랜드 취급</h4>
+                <p className="trust-bar-item-desc">KCC, LX, 동신 등 정품 자재</p>
+              </div>
+            </div>
+            <div className="trust-bar-divider"></div>
+
+            <div className="trust-bar-item">
+              <div className="trust-bar-icon-wrap">
+                <FileText size={20} />
+              </div>
+              <div className="trust-bar-text">
+                <h4 className="trust-bar-item-title">맞춤 상담 & 견적</h4>
+                <p className="trust-bar-item-desc">현장 특성에 맞춘 자재 추천</p>
+              </div>
+            </div>
+            <div className="trust-bar-divider"></div>
+
+            <div className="trust-bar-item">
+              <div className="trust-bar-icon-wrap">
+                <CheckCircle size={20} />
+              </div>
+              <div className="trust-bar-text">
+                <h4 className="trust-bar-item-title">정직한 자재 & 시공</h4>
+                <p className="trust-bar-item-desc">정량 자재 사용과 책임 AS 보증</p>
+              </div>
+            </div>
+            <div className="trust-bar-divider"></div>
+
+            <div className="trust-bar-item">
+              <div className="trust-bar-icon-wrap">
+                <Users size={20} />
+              </div>
+              <div className="trust-bar-text">
+                <h4 className="trust-bar-item-title">업자/현장 상담 가능</h4>
+                <p className="trust-bar-item-desc">대량 납품 및 전문 시공 지원</p>
+              </div>
             </div>
           </div>
         </section>
