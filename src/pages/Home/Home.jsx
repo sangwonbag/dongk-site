@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState, useEffect, useMemo, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { sampleBooks } from "../../data/samplebooks.db";
@@ -82,6 +82,213 @@ const projects = [
     image: "/images/home-interior/korea-bedroom-01.png"
   }
 ];
+
+// Space Finder sections data
+const spaceSections = [
+  {
+    id: 'residential',
+    label: '01',
+    category: '주거공간',
+    title: '매일 머무는 집, 바닥과 벽부터 편안하게',
+    description: '거실, 방, 주방까지 생활감과 관리 편의성을 고려한 바닥재와 벽지를 추천합니다.',
+    materials: ['장판', '마루', '벽지'],
+    filterParams: { category: '장판', brand: 'all' },
+    image: '/images/spaces/space-residential.jpg'
+  },
+  {
+    id: 'apartment',
+    label: '02',
+    category: '아파트 / 오피스텔',
+    title: '아파트와 오피스텔에 맞는 실용적인 선택',
+    description: '공간 크기와 생활 패턴에 따라 장판, 데코타일, 벽지를 균형 있게 제안합니다.',
+    materials: ['장판', '데코타일', '실크벽지'],
+    filterParams: { category: '장판', brand: 'all' },
+    image: '/images/spaces/space-apartment.jpg'
+  },
+  {
+    id: 'commercial',
+    label: '03',
+    category: '상업공간',
+    title: '매장 분위기를 완성하는 바닥재',
+    description: '카페, 음식점, 매장처럼 유동 인구가 많은 공간에는 내구성과 분위기를 함께 고려해야 합니다.',
+    materials: ['데코타일', '러버타일', '방염벽지'],
+    filterParams: { category: '데코타일', brand: 'all' },
+    image: '/images/spaces/space-commercial.jpg'
+  },
+  {
+    id: 'office',
+    label: '04',
+    category: '사무실 / 오피스',
+    title: '업무공간은 깔끔하고 오래가야 합니다',
+    description: '오피스, 사무실, 회의실에는 관리가 쉽고 안정감 있는 바닥재 구성이 중요합니다.',
+    materials: ['카페트타일', '데코타일', '벽지'],
+    filterParams: { category: '카페트타일', brand: 'all' },
+    image: '/images/spaces/space-office.jpg'
+  },
+  {
+    id: 'public',
+    label: '05',
+    category: '학원 / 병원 / 공공공간',
+    title: '많은 사람이 오가는 공간에는 내구성이 필요합니다',
+    description: '학원, 병원, 공공시설은 청소와 유지관리가 쉬운 자재를 중심으로 추천합니다.',
+    materials: ['데코타일', '장판', '방염벽지', '부자재'],
+    filterParams: { category: '데코타일', brand: 'all' },
+    image: '/images/spaces/space-public.jpg'
+  }
+];
+
+// Space Finder Scroll Section component
+const SpaceFinderSection = () => {
+  const nav = useNavigate();
+  const parentRef = useRef(null);
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!parentRef.current) return;
+      const rect = parentRef.current.getBoundingClientRect();
+      const elementHeight = rect.height;
+      const scrollTop = -rect.top;
+      const scrollHeight = elementHeight - window.innerHeight;
+
+      if (scrollTop < 0) {
+        setActiveIndex(0);
+        return;
+      }
+      if (scrollTop > scrollHeight) {
+        setActiveIndex(4);
+        return;
+      }
+
+      const pct = scrollTop / scrollHeight;
+      const index = Math.min(4, Math.max(0, Math.floor(pct * 5)));
+      setActiveIndex(index);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const currentSpace = spaceSections[activeIndex];
+
+  return (
+    <section className="showroom-space-finder-v2" ref={parentRef}>
+      {/* Desktop Sticky View */}
+      <div className="space-finder-desktop">
+        <div className="space-finder-sticky-wrapper">
+          <div className="space-finder-container container">
+            
+            {/* Left Content Area */}
+            <div className="space-finder-content-left">
+              <span className="space-finder-label">SPACE FINDER</span>
+              <div className="space-finder-slides-container">
+                {spaceSections.map((sect, idx) => (
+                  <div 
+                    key={sect.id} 
+                    className={`space-finder-text-slide ${idx === activeIndex ? "active" : ""}`}
+                  >
+                    <div className="space-finder-index">
+                      <strong>{sect.label}</strong> / 05
+                    </div>
+                    <span className="space-finder-category-tag">{sect.category}</span>
+                    <h2 className="space-finder-title">{sect.title}</h2>
+                    <p className="space-finder-description">{sect.description}</p>
+                    
+                    <div className="space-finder-materials">
+                      <span className="materials-label">추천 자재 :</span>
+                      <div className="materials-tags-row">
+                        {sect.materials.map((mat, i) => (
+                          <span key={i} className="space-material-tag-badge">{mat}</span>
+                        ))}
+                      </div>
+                    </div>
+
+                    <div className="space-finder-buttons">
+                      <button 
+                        className="btn-v2-primary" 
+                        onClick={() => nav(`/materials?category=${sect.filterParams.category}`)}
+                      >
+                        이 공간 자재 보기
+                      </button>
+                      <button 
+                        className="btn-v2-outline" 
+                        onClick={() => nav("/estimate/request")}
+                      >
+                        견적 문의하기
+                      </button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Right Image Frame */}
+            <div className="space-finder-img-right">
+              <div className="space-finder-img-box">
+                {spaceSections.map((sect, idx) => (
+                  <img
+                    key={sect.id}
+                    src={sect.image}
+                    alt={sect.title}
+                    className={`space-finder-img-slide ${idx === activeIndex ? "active" : ""}`}
+                  />
+                ))}
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      {/* Mobile Stacked View */}
+      <div className="space-finder-mobile container">
+        <div className="space-finder-mobile-header">
+          <span className="space-finder-label">SPACE FINDER</span>
+          <h2 className="space-finder-mobile-heading">공간별 자재 추천</h2>
+        </div>
+        <div className="space-finder-mobile-list">
+          {spaceSections.map((sect) => (
+            <div key={sect.id} className="space-finder-mobile-card">
+              <div className="mobile-card-img-wrap">
+                <img src={sect.image} alt={sect.title} className="mobile-card-img" />
+                <span className="mobile-card-index">{sect.label}</span>
+              </div>
+              <div className="mobile-card-body">
+                <span className="mobile-card-cat">{sect.category}</span>
+                <h3 className="mobile-card-title">{sect.title}</h3>
+                <p className="mobile-card-desc">{sect.description}</p>
+                
+                <div className="mobile-card-materials">
+                  <span className="mobile-materials-lbl">추천 자재:</span>
+                  <div className="mobile-materials-tags">
+                    {sect.materials.map((mat, i) => (
+                      <span key={i} className="mobile-mat-badge">{mat}</span>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="mobile-card-buttons">
+                  <button 
+                    className="btn-v2-primary" 
+                    onClick={() => nav(`/materials?category=${sect.filterParams.category}`)}
+                  >
+                    이 공간 자재 보기
+                  </button>
+                  <button 
+                    className="btn-v2-outline" 
+                    onClick={() => nav("/estimate/request")}
+                  >
+                    견적 문의하기
+                  </button>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
 
 // Helper component for category card image with loading skeleton and error fallback
 const CategoryCardImage = ({ src, fallback, alt }) => {
@@ -232,6 +439,9 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Space Finder (공간별 자재 추천) Scroll Section */}
+        <SpaceFinderSection />
 
         {/* ==========================================
            2. Category Showcase Section
