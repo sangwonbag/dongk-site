@@ -2,41 +2,94 @@ import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { signup, checkDuplicateUsername } from "../../lib/auth";
-import { Check, Search, MapPin } from "lucide-react";
+import { Check } from "lucide-react";
 import "./Signup.css";
+
+const TERMS_CONTENT = {
+    terms: {
+        title: "이용약관 동의",
+        text: `제1조 목적
+본 약관은 동경바닥재가 제공하는 자재 주문, 견적 문의, 샘플북 열람, 시공 관련 서비스 이용에 관한 조건과 절차를 정함을 목적으로 합니다.
+
+제2조 회원가입
+회원은 사업자등록증에 기재된 정보를 기준으로 가입해야 하며, 허위 정보를 입력한 경우 서비스 이용이 제한될 수 있습니다.
+
+제3조 서비스 이용
+회원은 동경바닥재 사이트를 통해 바닥재, 벽지, 부자재 등 자재 정보를 확인하고 견적 문의 및 주문 관련 서비스를 이용할 수 있습니다.
+
+제4조 주문 및 견적
+사이트에 표시된 자재 정보와 견적 내용은 실제 재고, 현장 조건, 배송 조건에 따라 변경될 수 있습니다.
+
+제5조 책임 제한
+동경바닥재는 천재지변, 시스템 장애, 통신 오류 등 불가항력으로 인한 서비스 이용 장애에 대해 책임을 지지 않습니다.
+
+제6조 약관 변경
+본 약관은 서비스 운영 상황에 따라 변경될 수 있으며, 변경 시 사이트 공지 또는 별도 안내를 통해 고지합니다.`
+    },
+    privacy: {
+        title: "개인정보 수집 및 이용 동의",
+        text: `동경바닥재는 회원가입 및 서비스 제공을 위해 다음 개인정보를 수집합니다.
+
+수집 항목:
+아이디, 비밀번호, 상호명, 대표자명, 사업자등록번호, 사업장 소재지, 업태, 종목, 대표 전화번호, 이메일
+
+수집 목적:
+회원 식별, 사업자 확인, 자재 주문 및 견적 상담, 고객 응대, 배송 및 거래 관리
+
+보유 기간:
+회원 탈퇴 시까지 보관하며, 관련 법령에 따라 보관이 필요한 경우 해당 기간 동안 보관합니다.
+
+동의하지 않을 경우 회원가입이 제한될 수 있습니다.`
+    },
+    marketing: {
+        title: "마케팅 정보 수신 동의",
+        text: `동경바닥재는 신제품 안내, 자재 입고 소식, 할인 정보, 시공 사례, 이벤트 안내 등을 위해 이메일 또는 문자로 정보를 발송할 수 있습니다.
+
+해당 동의는 선택 사항이며, 동의하지 않아도 회원가입 및 기본 서비스 이용에는 제한이 없습니다.`
+    }
+};
 
 export default function Signup() {
     const nav = useNavigate();
     const location = useLocation();
     
-    // Form states
-    const [userType, setUserType] = useState("인테리어 업체"); // Default: 인테리어 업체
+    // Form fields
     const [username, setUsername] = useState("");
-    const [name, setName] = useState("");
-    const [companyName, setCompanyName] = useState("");
-    const [phone, setPhone] = useState("");
-    const [otpCode, setOtpCode] = useState("");
     const [password, setPassword] = useState("");
     const [passwordConfirm, setPasswordConfirm] = useState("");
-    const [address, setAddress] = useState("");
-    const [addressDetail, setAddressDetail] = useState("");
+    const [companyName, setCompanyName] = useState("");
+    const [ownerName, setOwnerName] = useState("");
     const [businessNumber, setBusinessNumber] = useState("");
-    
-    // Agreements state
+    const [businessAddress, setBusinessAddress] = useState("");
+    const [businessAddressDetail, setBusinessAddressDetail] = useState("");
+    const [businessType, setBusinessType] = useState("");
+    const [businessItem, setBusinessItem] = useState("");
+    const [phone, setPhone] = useState("");
+    const [email, setEmail] = useState("");
+
+    // Agreement checkbox states
     const [agreeAll, setAgreeAll] = useState(false);
     const [agreeTerms, setAgreeTerms] = useState(false);
     const [agreePrivacy, setAgreePrivacy] = useState(false);
     const [agreeMarketing, setAgreeMarketing] = useState(false);
 
-    // Verification states
-    const [otpSent, setOtpSent] = useState(false);
-    const [isPhoneVerified, setIsPhoneVerified] = useState(false);
+    // Modal state for viewing terms
+    const [modalOpen, setModalOpen] = useState(false);
+    const [modalTitle, setModalTitle] = useState("");
+    const [modalContent, setModalContent] = useState("");
+
+    // Verification & duplicate check states
     const [isCheckingUsername, setIsCheckingUsername] = useState(false);
     const [usernameError, setUsernameError] = useState("");
     const [usernameSuccess, setUsernameSuccess] = useState("");
 
-    // Form errors
-    const [errors, setErrors] = useState({});
+    // Individual input error states
+    const [passwordError, setPasswordError] = useState("");
+    const [passwordConfirmError, setPasswordConfirmError] = useState("");
+    const [businessNumberError, setBusinessNumberError] = useState("");
+    const [phoneError, setPhoneError] = useState("");
+    const [emailError, setEmailError] = useState("");
+
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [submitError, setSubmitError] = useState("");
 
@@ -44,31 +97,39 @@ export default function Signup() {
     const searchParams = new URLSearchParams(location.search);
     const redirectUrl = searchParams.get("redirect") || "/login";
 
-    // Auto format phone number: 010-XXXX-XXXX
+    // Auto format phone number: supports mobile (010-XXXX-XXXX) and landline (02-XXX-XXXX / 031-XXX-XXXX)
     const formatPhoneNumber = (value) => {
         const cleaned = value.replace(/\D/g, "");
-        if (cleaned.length <= 3) return cleaned;
-        if (cleaned.length <= 7) return `${cleaned.slice(0, 3)}-${cleaned.slice(3)}`;
-        return `${cleaned.slice(0, 3)}-${cleaned.slice(3, 7)}-${cleaned.slice(7, 11)}`;
+        if (cleaned.length <= 2) {
+            return cleaned;
+        }
+        if (cleaned.startsWith("02")) {
+            if (cleaned.length <= 5) return `${cleaned.slice(0, 2)}-${cleaned.slice(2)}`;
+            if (cleaned.length <= 9) return `${cleaned.slice(0, 2)}-${cleaned.slice(2, 5)}-${cleaned.slice(5)}`;
+            return `${cleaned.slice(0, 2)}-${cleaned.slice(2, 6)}-${cleaned.slice(6, 10)}`;
+        } else {
+            if (cleaned.length <= 6) return `${cleaned.slice(0, 3)}-${cleaned.slice(3)}`;
+            if (cleaned.length <= 10) return `${cleaned.slice(0, 3)}-${cleaned.slice(3, 6)}-${cleaned.slice(6)}`;
+            return `${cleaned.slice(0, 3)}-${cleaned.slice(3, 7)}-${cleaned.slice(7, 11)}`;
+        }
     };
 
     const handlePhoneChange = (e) => {
         const formatted = formatPhoneNumber(e.target.value);
         setPhone(formatted);
-        
-        // Reset verification if phone changes
-        if (otpSent || isPhoneVerified) {
-            setOtpSent(false);
-            setIsPhoneVerified(false);
-            setOtpCode("");
-        }
-        
-        if (errors.phone) {
-            setErrors(prev => ({ ...prev, phone: "" }));
+        setPhoneError("");
+    };
+
+    const handlePhoneBlur = () => {
+        const cleaned = phone.replace(/\D/g, "");
+        if (cleaned.length < 9) {
+            setPhoneError("대표 전화번호를 정확히 입력해주세요.");
+        } else {
+            setPhoneError("");
         }
     };
 
-    // Auto format business number: XXX-XX-XXXXX
+    // Auto format business number: XXX-XX-XXXXX (strip non-numbers)
     const formatBusinessNumber = (value) => {
         const cleaned = value.replace(/\D/g, "");
         if (cleaned.length <= 3) return cleaned;
@@ -79,21 +140,39 @@ export default function Signup() {
     const handleBusinessNumberChange = (e) => {
         const formatted = formatBusinessNumber(e.target.value);
         setBusinessNumber(formatted);
-        if (errors.businessNumber) {
-            setErrors(prev => ({ ...prev, businessNumber: "" }));
+        setBusinessNumberError("");
+    };
+
+    const handleBusinessNumberBlur = () => {
+        const cleaned = businessNumber.replace(/\D/g, "");
+        if (cleaned.length !== 10) {
+            setBusinessNumberError("사업자등록번호 10자리를 입력해주세요.");
+        } else {
+            setBusinessNumberError("");
         }
     };
 
-    // Username duplicate check (debounce or direct checking)
-    const handleUsernameBlur = async () => {
-        const val = username.trim();
+    // Username validation check
+    const validateUsername = (val) => {
+        const hasLetter = /[a-zA-Z]/.test(val);
+        const hasNumber = /[0-9]/.test(val);
+        const hasNoKoreanOrSpecial = /^[a-zA-Z0-9]+$/.test(val);
+
         if (!val) {
             setUsernameError("아이디를 입력해주세요.");
-            setUsernameSuccess("");
-            return;
+            return false;
         }
-        if (val.length < 4) {
-            setUsernameError("아이디는 4자 이상 입력해주세요.");
+        if (!hasLetter || !hasNumber || val.length < 4 || !hasNoKoreanOrSpecial) {
+            setUsernameError("아이디는 영문과 숫자를 조합해서 입력해주세요.");
+            return false;
+        }
+        setUsernameError("");
+        return true;
+    };
+
+    const handleUsernameBlur = async () => {
+        const val = username.trim();
+        if (!validateUsername(val)) {
             setUsernameSuccess("");
             return;
         }
@@ -119,93 +198,81 @@ export default function Signup() {
     };
 
     const handleUsernameChange = (e) => {
-        setUsername(e.target.value.replace(/[^a-zA-Z0-9]/g, "")); // Limit to alphanumeric
+        // Remove spaces, Korean, and special characters instantly
+        const val = e.target.value.replace(/[^a-zA-Z0-9]/g, "");
+        setUsername(val);
         setUsernameError("");
         setUsernameSuccess("");
     };
 
-    // Simulated Phone OTP Send
-    const handleSendOtp = () => {
-        const cleanedPhone = phone.replace(/\D/g, "");
-        if (cleanedPhone.length !== 11 || !phone.startsWith("010")) {
-            setErrors(prev => ({ ...prev, phone: "올바른 휴대폰 번호(010으로 시작하는 11자리 숫자)를 입력해주세요." }));
-            return;
-        }
-
-        setErrors(prev => ({ ...prev, phone: "" }));
-        setOtpSent(true);
-        alert("인증번호가 발송되었습니다. (테스트 인증번호: 123456)");
+    // Password validation check
+    const handlePasswordChange = (e) => {
+        const val = e.target.value;
+        setPassword(val);
+        setPasswordError("");
         
-        /* 
-        실제 Supabase OTP 인증 연동 코드 예시:
-        
-        try {
-            const { data, error } = await supabase.auth.signInWithOtp({
-                phone: `+82${cleanedPhone.slice(1)}` // +821012345678 형식
-            });
-            if (error) throw error;
-            setOtpSent(true);
-        } catch (e) {
-            setErrors(prev => ({ ...prev, phone: "인증번호 발송 실패: " + e.message }));
+        if (passwordConfirm && val !== passwordConfirm) {
+            setPasswordConfirmError("비밀번호가 일치하지 않습니다.");
+        } else {
+            setPasswordConfirmError("");
         }
-        */
     };
 
-    // Simulated Phone OTP Verify
-    const handleVerifyOtp = () => {
-        if (otpCode === "123456") {
-            setIsPhoneVerified(true);
-            setErrors(prev => ({ ...prev, otpCode: "" }));
-            alert("휴대폰 인증이 성공적으로 완료되었습니다.");
-        } else {
-            setErrors(prev => ({ ...prev, otpCode: "인증번호가 일치하지 않습니다. 다시 확인해주세요." }));
+    const handlePasswordBlur = () => {
+        if (!password) {
+            setPasswordError("비밀번호를 입력해주세요.");
+            return;
         }
-
-        /*
-        실제 Supabase OTP 검증 연동 코드 예시:
+        const hasLetter = /[a-zA-Z]/.test(password);
+        const hasNumber = /[0-9]/.test(password);
+        const hasSpecial = /[!@#$%^&*?_]/.test(password);
         
-        try {
-            const cleanedPhone = phone.replace(/\D/g, "");
-            const { data, error } = await supabase.auth.verifyOtp({
-                phone: `+82${cleanedPhone.slice(1)}`,
-                token: otpCode,
-                type: 'sms'
-            });
-            if (error) throw error;
-            setIsPhoneVerified(true);
-        } catch (e) {
-            setErrors(prev => ({ ...prev, otpCode: "인증 실패: " + e.message }));
+        if (!hasLetter || !hasNumber || !hasSpecial || password.length < 8) {
+            setPasswordError("비밀번호는 영문, 숫자, 특수문자를 모두 포함해야 합니다.");
+        } else {
+            setPasswordError("");
         }
-        */
+    };
+
+    // Password Confirm check
+    const handlePasswordConfirmChange = (e) => {
+        const val = e.target.value;
+        setPasswordConfirm(val);
+        setPasswordConfirmError("");
+    };
+
+    const handlePasswordConfirmBlur = () => {
+        if (!passwordConfirm) {
+            setPasswordConfirmError("비밀번호 확인을 입력해주세요.");
+            return;
+        }
+        if (password !== passwordConfirm) {
+            setPasswordConfirmError("비밀번호가 일치하지 않습니다.");
+        } else {
+            setPasswordConfirmError("");
+        }
+    };
+
+    // Email validation check
+    const handleEmailBlur = () => {
+        if (!email) {
+            setEmailError("이메일을 입력해주세요.");
+            return;
+        }
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) {
+            setEmailError("올바른 이메일 형식을 입력해주세요.");
+        } else {
+            setEmailError("");
+        }
     };
 
     // Fake Address Search popup
     const handleAddressSearch = () => {
-        // Create simple window prompt for mockup address search
-        const mockAddress = prompt("검색할 주소를 입력하세요 (예: 서울 강동구 천호대로 100):");
+        const mockAddress = prompt("검색할 사업장 주소를 입력하세요 (예: 서울 강동구 천호대로 100):");
         if (mockAddress) {
-            setAddress(mockAddress);
+            setBusinessAddress(mockAddress);
         }
-        
-        /*
-        향후 Daum 우편번호 서비스(Postcode API) 연동 계획:
-        
-        new window.daum.Postcode({
-            oncomplete: function(data) {
-                let fullAddr = data.address;
-                let extraAddr = '';
-                
-                if (data.addressType === 'R') {
-                    if (data.bname !== '') extraAddr += data.bname;
-                    if (data.buildingName !== '') extraAddr += (extraAddr !== '' ? ', ' + data.buildingName : data.buildingName);
-                    fullAddr += (extraAddr !== '' ? ' ('+ extraAddr +')' : '');
-                }
-                
-                setAddress(fullAddr);
-                document.getElementById('addressDetail').focus();
-            }
-        }).open();
-        */
     };
 
     // Agreement group control
@@ -225,34 +292,49 @@ export default function Signup() {
         }
     }, [agreeTerms, agreePrivacy, agreeMarketing]);
 
+    // Open terms modal helper
+    const openTermsModal = (key) => {
+        const termsObj = TERMS_CONTENT[key];
+        if (termsObj) {
+            setModalTitle(termsObj.title);
+            setModalContent(termsObj.text);
+            setModalOpen(true);
+        }
+    };
+
     // Validation for Signup Button activation
     const isFormValid = () => {
         const cleanedPhone = phone.replace(/\D/g, "");
         const cleanedBiz = businessNumber.replace(/\D/g, "");
 
-        const isUserTypeOk = !!userType;
         const isUsernameOk = username.trim().length >= 4 && !usernameError && usernameSuccess;
-        const isNameOk = name.trim().length >= 1;
-        const isPhoneOk = cleanedPhone.length === 11 && isPhoneVerified;
-        const isPasswordOk = password.length >= 8 && /[a-zA-Z]/.test(password) && /[0-9]/.test(password);
-        const isPasswordConfirmOk = password === passwordConfirm;
+        const isPasswordOk = password.length >= 8 && !passwordError;
+        const isPasswordConfirmOk = password === passwordConfirm && !passwordConfirmError;
+        
+        const isCompanyNameOk = companyName.trim().length >= 1;
+        const isOwnerNameOk = ownerName.trim().length >= 1;
+        const isBusinessNumberOk = cleanedBiz.length === 10 && !businessNumberError;
+        const isBusinessAddressOk = businessAddress.trim().length >= 1;
+        const isBusinessTypeOk = businessType.trim().length >= 1;
+        const isBusinessItemOk = businessItem.trim().length >= 1;
+        
+        const isPhoneOk = cleanedPhone.length >= 9 && !phoneError;
+        const isEmailOk = email.trim().length >= 1 && !emailError;
         const isRequiredAgreementsOk = agreeTerms && agreePrivacy;
 
-        // Conditional validation based on user type
-        let isBizOk = true;
-        if (userType === "인테리어 업체") {
-            isBizOk = cleanedBiz.length === 10;
-        }
-
         return (
-            isUserTypeOk &&
             isUsernameOk &&
-            isNameOk &&
-            isPhoneOk &&
             isPasswordOk &&
             isPasswordConfirmOk &&
-            isRequiredAgreementsOk &&
-            isBizOk
+            isCompanyNameOk &&
+            isOwnerNameOk &&
+            isBusinessNumberOk &&
+            isBusinessAddressOk &&
+            isBusinessTypeOk &&
+            isBusinessItemOk &&
+            isPhoneOk &&
+            isEmailOk &&
+            isRequiredAgreementsOk
         );
     };
 
@@ -260,7 +342,6 @@ export default function Signup() {
         e.preventDefault();
         setSubmitError("");
 
-        // Final sanity checks
         if (!isFormValid()) {
             setSubmitError("모든 필수 입력 필드를 채우고 형식에 맞게 입력해 주세요.");
             return;
@@ -271,22 +352,51 @@ export default function Signup() {
         const dataToSave = {
             username: username.trim(),
             password: password,
-            name: name.trim(),
-            phone: phone,
-            company_name: userType !== "일반 고객" ? companyName.trim() : "",
-            user_type: userType,
-            address: address.trim(),
-            address_detail: addressDetail.trim(),
-            business_number: userType === "인테리어 업체" ? businessNumber : "",
+            name: ownerName.trim(), // 대표자명
+            phone: phone, // 대표 전화번호
+            company_name: companyName.trim(), // 상호명
+            user_type: "인테리어 업체", // Unified B2B value
+            address: businessAddress.trim(), // 사업장 소재지
+            address_detail: businessAddressDetail.trim(),
+            business_number: businessNumber,
             marketing_agree: agreeMarketing,
-            memo: `주소 상세: ${addressDetail}. 가입 시 메모`
+            memo: `대표자명: ${ownerName.trim()} | 업태: ${businessType.trim()} | 종목: ${businessItem.trim()} | 이메일: ${email.trim()}`
         };
 
         try {
+            // Save to database (Supabase)
             const res = await signup(dataToSave);
+            
+            // Save complete B2B partner object to localStorage mock database
+            try {
+                const b2bUsersStr = localStorage.getItem("dk_b2b_users") || "[]";
+                const b2bUsers = JSON.parse(b2bUsersStr);
+                const newB2BUser = {
+                    id: username.trim(),
+                    password: password, // plain password for mock reference
+                    companyName: companyName.trim(),
+                    ownerName: ownerName.trim(),
+                    businessNumber: businessNumber,
+                    businessAddress: businessAddress.trim(),
+                    businessAddressDetail: businessAddressDetail.trim(),
+                    businessType: businessType.trim(),
+                    businessItem: businessItem.trim(),
+                    phone: phone,
+                    email: email.trim(),
+                    agreeTerms: agreeTerms,
+                    agreePrivacy: agreePrivacy,
+                    agreeMarketing: agreeMarketing,
+                    createdAt: new Date().toISOString()
+                };
+                b2bUsers.push(newB2BUser);
+                localStorage.setItem("dk_b2b_users", JSON.stringify(b2bUsers));
+            } catch (storageErr) {
+                console.error("Local mock storage failed:", storageErr);
+            }
+
             if (res.success) {
-                alert("회원가입이 완료되었습니다. 새로운 계정으로 로그인해 주세요!");
-                nav(`/login${location.search}`); // Carry forward redirect query parameter
+                alert("B2B 회원가입이 완료되었습니다. 승인 및 로그인 화면으로 이동합니다.");
+                nav(`/login${location.search}`);
             } else {
                 setSubmitError(res.message || "회원가입 처리 중 실패했습니다.");
             }
@@ -305,47 +415,25 @@ export default function Signup() {
                     <div className="signup-header">
                         <div className="logo-area" onClick={() => nav("/")}>
                             <span className="logo-main">DK Floor</span>
-                            <span className="logo-sub">동경바닥재</span>
+                            <span className="logo-sub">동경바닥재 B2B</span>
                         </div>
-                        <h2>회원가입</h2>
+                        <h2>B2B 회원가입</h2>
                         <p className="description">
-                            자재 주문, 견적문의, 샘플북 이용을 위해 회원가입을 진행해주세요.
+                            자재 주문, 도매 견적 문의, 샘플북 열람을 위한 인테리어/시공 파트너 회원가입입니다.
                         </p>
                     </div>
 
                     <form onSubmit={handleSignupSubmit} className="signup-korean-form">
                         
-                        {/* 1. 회원 구분 (Tab buttons) */}
+                        {/* 1. 아이디 */}
                         <div className="form-group-korean">
-                            <label className="korean-label">회원 유형 <span className="red-star">*</span></label>
-                            <div className="user-type-tabs">
-                                {["인테리어 업체", "시공 기사", "일반 고객"].map((type) => (
-                                    <button
-                                        key={type}
-                                        type="button"
-                                        className={`tab-btn ${userType === type ? "active" : ""}`}
-                                        onClick={() => {
-                                            setUserType(type);
-                                            // Reset company info if general user
-                                            if (type === "일반 고객") {
-                                                setCompanyName("");
-                                                setBusinessNumber("");
-                                            }
-                                        }}
-                                    >
-                                        {type}
-                                    </button>
-                                ))}
-                            </div>
-                        </div>
-
-                        {/* 2. 아이디 (Login username) */}
-                        <div className="form-group-korean">
-                            <label className="korean-label" htmlFor="username">아이디 <span className="red-star">*</span></label>
+                            <label className="korean-label" htmlFor="username">
+                                아이디 <span className="red-star">*</span>
+                            </label>
                             <input
                                 type="text"
                                 id="username"
-                                placeholder="아이디를 입력해주세요 (영문/숫자 4자 이상)"
+                                placeholder="영문+숫자 조합으로 입력해주세요"
                                 value={username}
                                 onChange={handleUsernameChange}
                                 onBlur={handleUsernameBlur}
@@ -357,153 +445,102 @@ export default function Signup() {
                             {usernameSuccess && <span className="success-text">{usernameSuccess}</span>}
                         </div>
 
-                        {/* 3. 이름 / 담당자명 */}
+                        {/* 2. 비밀번호 */}
                         <div className="form-group-korean">
-                            <label className="korean-label" htmlFor="name">이름 / 담당자명 <span className="red-star">*</span></label>
-                            <input
-                                type="text"
-                                id="name"
-                                placeholder="이름 또는 담당자명을 입력해주세요"
-                                value={name}
-                                onChange={(e) => setName(e.target.value)}
-                                className="korean-input"
-                                maxLength={30}
-                            />
-                        </div>
-
-                        {/* 4. 업체명 (일반 고객 아닐 때만 표시) */}
-                        {userType !== "일반 고객" && (
-                            <div className="form-group-korean">
-                                <label className="korean-label" htmlFor="companyName">업체명 <span className="red-star">*</span></label>
-                                <input
-                                    type="text"
-                                    id="companyName"
-                                    placeholder="업체명을 입력해주세요"
-                                    value={companyName}
-                                    onChange={(e) => setCompanyName(e.target.value)}
-                                    className="korean-input"
-                                    maxLength={50}
-                                />
-                            </div>
-                        )}
-
-                        {/* 5. 사업자등록번호 (인테리어 업체만 표시) */}
-                        {userType === "인테리어 업체" && (
-                            <div className="form-group-korean">
-                                <label className="korean-label" htmlFor="businessNumber">사업자등록번호 <span className="red-star">*</span></label>
-                                <input
-                                    type="text"
-                                    id="businessNumber"
-                                    placeholder="000-00-00000"
-                                    value={businessNumber}
-                                    onChange={handleBusinessNumberChange}
-                                    className={`korean-input ${businessNumber && businessNumber.replace(/\D/g, "").length !== 10 ? "error" : ""}`}
-                                    maxLength={12}
-                                />
-                                {businessNumber && businessNumber.replace(/\D/g, "").length !== 10 && (
-                                    <span className="error-text">사업자등록번호 10자리를 정확히 입력해주세요.</span>
-                                )}
-                            </div>
-                        )}
-
-                        {/* 6. 전화번호 & OTP */}
-                        <div className="form-group-korean">
-                            <label className="korean-label" htmlFor="phone">전화번호 인증 <span className="red-star">*</span></label>
-                            <div className="input-with-btn">
-                                <input
-                                    type="tel"
-                                    id="phone"
-                                    placeholder="010-0000-0000"
-                                    value={phone}
-                                    onChange={handlePhoneChange}
-                                    className={`korean-input ${errors.phone ? "error" : ""} ${isPhoneVerified ? "verified" : ""}`}
-                                    disabled={isPhoneVerified}
-                                    maxLength={13}
-                                />
-                                <button
-                                    type="button"
-                                    className="action-btn"
-                                    onClick={handleSendOtp}
-                                    disabled={isPhoneVerified || phone.replace(/\D/g, "").length < 10}
-                                >
-                                    {otpSent ? "재전송" : "인증요청"}
-                                </button>
-                            </div>
-                            {errors.phone && <span className="error-text">{errors.phone}</span>}
-
-                            {/* OTP 입력란 */}
-                            {otpSent && !isPhoneVerified && (
-                                <div className="input-with-btn" style={{ marginTop: "10px" }}>
-                                    <input
-                                        type="text"
-                                        placeholder="인증번호 6자리 입력 (123456)"
-                                        value={otpCode}
-                                        onChange={(e) => setOtpCode(e.target.value.replace(/\D/g, ""))}
-                                        className={`korean-input ${errors.otpCode ? "error" : ""}`}
-                                        maxLength={6}
-                                    />
-                                    <button
-                                        type="button"
-                                        className="action-btn verify-btn"
-                                        onClick={handleVerifyOtp}
-                                        disabled={otpCode.length !== 6}
-                                    >
-                                        확인
-                                    </button>
-                                </div>
-                            )}
-                            {errors.otpCode && <span className="error-text">{errors.otpCode}</span>}
-
-                            {isPhoneVerified && (
-                                <div className="verified-success-msg">
-                                    <Check size={16} />
-                                    <span>전화번호 인증이 완료되었습니다.</span>
-                                </div>
-                            )}
-                        </div>
-
-                        {/* 7. 비밀번호 */}
-                        <div className="form-group-korean">
-                            <label className="korean-label" htmlFor="password">비밀번호 <span className="red-star">*</span></label>
+                            <label className="korean-label" htmlFor="password">
+                                비밀번호 <span className="red-star">*</span>
+                            </label>
                             <input
                                 type="password"
                                 id="password"
-                                placeholder="8자 이상 영문, 숫자 조합"
+                                placeholder="영문+숫자+특수문자 포함 8자 이상"
                                 value={password}
-                                onChange={(e) => setPassword(e.target.value)}
-                                className={`korean-input ${password && (password.length < 8 || !/[a-zA-Z]/.test(password) || !/[0-9]/.test(password)) ? "error" : ""}`}
+                                onChange={handlePasswordChange}
+                                onBlur={handlePasswordBlur}
+                                className={`korean-input ${passwordError ? "error" : ""}`}
                                 maxLength={30}
                             />
-                            {password && (password.length < 8 || !/[a-zA-Z]/.test(password) || !/[0-9]/.test(password)) && (
-                                <span className="error-text">비밀번호는 최소 8자 이상, 영문자와 숫자를 모두 포함해야 합니다.</span>
-                            )}
+                            {passwordError && <span className="error-text">{passwordError}</span>}
                         </div>
 
-                        {/* 8. 비밀번호 확인 */}
+                        {/* 3. 비밀번호 확인 */}
                         <div className="form-group-korean">
-                            <label className="korean-label" htmlFor="passwordConfirm">비밀번호 확인 <span className="red-star">*</span></label>
+                            <label className="korean-label" htmlFor="passwordConfirm">
+                                비밀번호 확인 <span className="red-star">*</span>
+                            </label>
                             <input
                                 type="password"
                                 id="passwordConfirm"
                                 placeholder="비밀번호를 한 번 더 입력해주세요"
                                 value={passwordConfirm}
-                                onChange={(e) => setPasswordConfirm(e.target.value)}
-                                className={`korean-input ${passwordConfirm && password !== passwordConfirm ? "error" : ""}`}
+                                onChange={handlePasswordConfirmChange}
+                                onBlur={handlePasswordConfirmBlur}
+                                className={`korean-input ${passwordConfirmError ? "error" : ""}`}
                                 maxLength={30}
                             />
-                            {passwordConfirm && password !== passwordConfirm && (
-                                <span className="error-text">비밀번호가 일치하지 않습니다.</span>
-                            )}
+                            {passwordConfirmError && <span className="error-text">{passwordConfirmError}</span>}
                         </div>
 
-                        {/* 9. 주소 입력 */}
+                        {/* 4. 상호명 */}
                         <div className="form-group-korean">
-                            <label className="korean-label">주소</label>
+                            <label className="korean-label" htmlFor="companyName">
+                                상호명 <span className="red-star">*</span>
+                            </label>
+                            <input
+                                type="text"
+                                id="companyName"
+                                placeholder="사업자등록증의 상호를 입력해주세요"
+                                value={companyName}
+                                onChange={(e) => setCompanyName(e.target.value)}
+                                className="korean-input"
+                                maxLength={50}
+                            />
+                        </div>
+
+                        {/* 5. 대표자명 */}
+                        <div className="form-group-korean">
+                            <label className="korean-label" htmlFor="ownerName">
+                                대표자명 <span className="red-star">*</span>
+                            </label>
+                            <input
+                                type="text"
+                                id="ownerName"
+                                placeholder="사업자등록증의 대표자명을 입력해주세요"
+                                value={ownerName}
+                                onChange={(e) => setOwnerName(e.target.value)}
+                                className="korean-input"
+                                maxLength={30}
+                            />
+                        </div>
+
+                        {/* 6. 사업자등록번호 */}
+                        <div className="form-group-korean">
+                            <label className="korean-label" htmlFor="businessNumber">
+                                사업자등록번호 <span className="red-star">*</span>
+                            </label>
+                            <input
+                                type="text"
+                                id="businessNumber"
+                                placeholder="000-00-00000"
+                                value={businessNumber}
+                                onChange={handleBusinessNumberChange}
+                                onBlur={handleBusinessNumberBlur}
+                                className={`korean-input ${businessNumberError ? "error" : ""}`}
+                                maxLength={12}
+                            />
+                            {businessNumberError && <span className="error-text">{businessNumberError}</span>}
+                        </div>
+
+                        {/* 7. 사업장 소재지 */}
+                        <div className="form-group-korean">
+                            <label className="korean-label">
+                                사업장 소재지 <span className="red-star">*</span>
+                            </label>
                             <div className="input-with-btn">
                                 <input
                                     type="text"
-                                    placeholder="주소를 검색해주세요"
-                                    value={address}
+                                    placeholder="사업자등록증의 사업장 주소를 입력해주세요"
+                                    value={businessAddress}
                                     readOnly
                                     className="korean-input read-only-addr"
                                     onClick={handleAddressSearch}
@@ -520,16 +557,84 @@ export default function Signup() {
                                 type="text"
                                 id="addressDetail"
                                 placeholder="상세주소를 입력해주세요"
-                                value={addressDetail}
-                                onChange={(e) => setAddressDetail(e.target.value)}
+                                value={businessAddressDetail}
+                                onChange={(e) => setBusinessAddressDetail(e.target.value)}
                                 className="korean-input"
                                 style={{ marginTop: "10px" }}
                                 maxLength={100}
-                                disabled={!address}
+                                disabled={!businessAddress}
                             />
                         </div>
 
-                        {/* 10. 약관동의 영역 */}
+                        {/* 8. 업태 */}
+                        <div className="form-group-korean">
+                            <label className="korean-label" htmlFor="businessType">
+                                업태 <span className="red-star">*</span>
+                            </label>
+                            <input
+                                type="text"
+                                id="businessType"
+                                placeholder="예: 도매 및 소매업, 건설업"
+                                value={businessType}
+                                onChange={(e) => setBusinessType(e.target.value)}
+                                className="korean-input"
+                                maxLength={40}
+                            />
+                        </div>
+
+                        {/* 9. 종목 */}
+                        <div className="form-group-korean">
+                            <label className="korean-label" htmlFor="businessItem">
+                                종목 <span className="red-star">*</span>
+                            </label>
+                            <input
+                                type="text"
+                                id="businessItem"
+                                placeholder="예: 바닥재, 인테리어, 장판, 벽지"
+                                value={businessItem}
+                                onChange={(e) => setBusinessItem(e.target.value)}
+                                className="korean-input"
+                                maxLength={40}
+                            />
+                        </div>
+
+                        {/* 10. 대표 전화번호 */}
+                        <div className="form-group-korean">
+                            <label className="korean-label" htmlFor="phone">
+                                대표 전화번호 <span className="red-star">*</span>
+                            </label>
+                            <input
+                                type="tel"
+                                id="phone"
+                                placeholder="010-0000-0000 또는 02-000-0000"
+                                value={phone}
+                                onChange={handlePhoneChange}
+                                onBlur={handlePhoneBlur}
+                                className={`korean-input ${phoneError ? "error" : ""}`}
+                                maxLength={13}
+                            />
+                            {phoneError && <span className="error-text">{phoneError}</span>}
+                        </div>
+
+                        {/* 11. 이메일 */}
+                        <div className="form-group-korean">
+                            <label className="korean-label" htmlFor="email">
+                                이메일 <span className="red-star">*</span>
+                            </label>
+                            <input
+                                type="email"
+                                id="email"
+                                placeholder="example@email.com"
+                                value={email}
+                                onChange={(e) => { setEmail(e.target.value); setEmailError(""); }}
+                                onBlur={handleEmailBlur}
+                                className={`korean-input ${emailError ? "error" : ""}`}
+                                maxLength={50}
+                            />
+                            {emailError && <span className="error-text">{emailError}</span>}
+                        </div>
+
+                        {/* 12. 약관동의 영역 */}
                         <div className="agreements-section">
                             <label className="korean-label">약관 동의</label>
                             
@@ -554,7 +659,7 @@ export default function Signup() {
                                         />
                                         <span>[필수] 이용약관 동의</span>
                                     </label>
-                                    <span className="view-terms-link">보기</span>
+                                    <span className="view-terms-link" onClick={() => openTermsModal("terms")}>보기</span>
                                 </div>
 
                                 <div className="agree-item">
@@ -566,7 +671,7 @@ export default function Signup() {
                                         />
                                         <span>[필수] 개인정보 수집 및 이용 동의</span>
                                     </label>
-                                    <span className="view-terms-link">보기</span>
+                                    <span className="view-terms-link" onClick={() => openTermsModal("privacy")}>보기</span>
                                 </div>
 
                                 <div className="agree-item">
@@ -578,7 +683,7 @@ export default function Signup() {
                                         />
                                         <span>[선택] 마케팅 정보 수신 동의</span>
                                     </label>
-                                    <span className="view-terms-link">보기</span>
+                                    <span className="view-terms-link" onClick={() => openTermsModal("marketing")}>보기</span>
                                 </div>
                             </div>
                         </div>
@@ -604,6 +709,36 @@ export default function Signup() {
                     </div>
                 </div>
             </div>
+
+            {/* Terms Modal Overlay */}
+            {modalOpen && (
+                <div className="terms-modal-overlay" onClick={() => setModalOpen(false)}>
+                    <div className="terms-modal-card" onClick={(e) => e.stopPropagation()}>
+                        <div className="terms-modal-header">
+                            <h3>{modalTitle}</h3>
+                            <button 
+                                type="button" 
+                                className="terms-modal-close-btn" 
+                                onClick={() => setModalOpen(false)}
+                            >
+                                ✕
+                            </button>
+                        </div>
+                        <div className="terms-modal-body">
+                            <pre className="terms-modal-text">{modalContent}</pre>
+                        </div>
+                        <div className="terms-modal-footer">
+                            <button 
+                                type="button" 
+                                className="terms-modal-action-close" 
+                                onClick={() => setModalOpen(false)}
+                            >
+                                닫기
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            )}
         </MainLayout>
     );
 }
