@@ -147,25 +147,22 @@ const SpaceFinderSection = () => {
     const handleScroll = () => {
       if (!parentRef.current) return;
       const rect = parentRef.current.getBoundingClientRect();
-      const elementHeight = rect.height;
-      const scrollTop = -rect.top;
-      const scrollHeight = elementHeight - window.innerHeight;
+      const stickyTopOffset = 80;
+      const stickyHeight = window.innerHeight - stickyTopOffset;
+      const totalScrollable = rect.height - stickyHeight;
+      const scrolled = Math.min(Math.max(stickyTopOffset - rect.top, 0), totalScrollable);
+      const progress = totalScrollable > 0 ? scrolled / totalScrollable : 0;
 
-      if (scrollTop < 0) {
-        setActiveIndex(0);
-        return;
-      }
-      if (scrollTop > scrollHeight) {
-        setActiveIndex(4);
-        return;
-      }
-
-      const pct = scrollTop / scrollHeight;
-      const index = Math.min(4, Math.max(0, Math.floor(pct * 5)));
-      setActiveIndex(index);
+      const nextIndex = Math.min(
+        spaceSections.length - 1,
+        Math.floor(progress * spaceSections.length)
+      );
+      setActiveIndex(nextIndex);
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    handleScroll();
+
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 

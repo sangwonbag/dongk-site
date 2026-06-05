@@ -199,6 +199,7 @@
 
 .space-finder-desktop {
   display: block;
+  height: 100%;
 }
 
 .space-finder-mobile {
