@@ -1,12 +1,15 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
 
 :root {
-  --primary: #111;
-  --bg: #FAFAFA;
-  --intro-bg: #f9f7f3;
-  --text: #333;
-  --gray: #f5f5f5;
-  --border: #e0e0e0;
+  --primary: #111111;
+  --bg: #F8F6F1;
+  --intro-bg: #F8F6F1;
+  --text: #111111;
+  --text-muted: #666666;
+  --gray: #f2efe9;
+  --border: #e6dfd3;
+  --point-gold: #b89865;
+  --point-gold-hover: #9c7f51;
 }
 
 * {
