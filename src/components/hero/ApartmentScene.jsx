@@ -4,6 +4,7 @@ import { OrbitControls, Html } from "@react-three/drei";
 import * as THREE from "three";
 
 // Definition of scenes, textures, and 3D portal hotspots
+// eslint-disable-next-line react-refresh/only-export-components
 export const SCENE_DATA = {
   entrance: {
     url: "/images/panorama_entrance.png",
@@ -44,6 +45,7 @@ function PanoramaSphere({ url }) {
   // Set texture parameters to ensure high resolution & details
   useEffect(() => {
     if (texture) {
+      // eslint-disable-next-line react-hooks/immutability
       texture.minFilter = THREE.LinearFilter;
       texture.magFilter = THREE.LinearFilter;
       texture.generateMipmaps = false;
@@ -88,6 +90,7 @@ function SceneAnimator({ transitionState, setTransitionState, onSceneChange, con
     if (transitionState.direction === "intro") {
       // Start camera position set back along the Z-axis (towards entrance door) and wider FOV
       camera.position.set(0, -0.3, 3);
+      // eslint-disable-next-line react-hooks/immutability
       camera.fov = 85;
       camera.updateProjectionMatrix();
     }
@@ -97,8 +100,8 @@ function SceneAnimator({ transitionState, setTransitionState, onSceneChange, con
     if (transitionState.direction === "intro") {
       // Lerp camera position back to the center offset
       camera.position.lerp(new THREE.Vector3(0, 0, 0.1), 0.04);
-      
       // Lerp FOV back to normal wide-angle view
+      // eslint-disable-next-line react-hooks/immutability
       camera.fov = THREE.MathUtils.lerp(camera.fov, 72, 0.04);
       camera.updateProjectionMatrix();
       

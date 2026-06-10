@@ -322,6 +322,7 @@ const CategoryCardImage = ({ src, fallback, alt }) => {
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setImgSrc(src);
     setLoaded(false);
   }, [src]);

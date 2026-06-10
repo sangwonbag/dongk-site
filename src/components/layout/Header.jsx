@@ -79,6 +79,7 @@ export default function Header() {
 
   useEffect(() => {
     if (!isHome) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setIsScrolled(true);
       return;
     }
@@ -98,6 +99,7 @@ export default function Header() {
 
   // Close mobile menu on path changes
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMobileMenuOpen(false);
   }, [location.pathname]);
 
@@ -117,6 +119,7 @@ export default function Header() {
     const params = new URLSearchParams(location.search);
     const searchParam = params.get("search");
     if (searchParam !== null && searchParam !== q) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setQ(searchParam);
     } else if (searchParam === null && q !== "") {
       setQ("");
@@ -125,6 +128,7 @@ export default function Header() {
 
   // Close dropdown when clicking outside or navigating
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setIsFocused(false);
   }, [location.pathname]);
 

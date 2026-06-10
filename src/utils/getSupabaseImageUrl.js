@@ -8,9 +8,14 @@ export function getSupabaseImageUrl(path, bucket = 'materials') {
     return path
   }
 
+  if (!supabase) {
+    return `https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/${bucket}/${path}`;
+  }
+
   const { data } = supabase.storage
     .from(bucket)
     .getPublicUrl(path)
 
   return data?.publicUrl || ''
 }
+

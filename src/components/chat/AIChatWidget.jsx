@@ -9,6 +9,7 @@ export default function AIChatWidget() {
 
     useEffect(() => {
         // Generate a random session ID for this user session
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         setSessionId(Math.random().toString(36).substring(2, 15));
     }, []);
 

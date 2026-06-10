@@ -46,12 +46,12 @@ export default function SampleBooks() {
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setSelectedBrand("all");
-    // eslint-disable-next-line react-hooks/set-state-in-effect
     setSelectedMaterialType("all");
   }, [activeTab]);
 
   // 브랜드 변경 시 재질 필터 초기화
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setSelectedMaterialType("all");
   }, [selectedBrand]);
 

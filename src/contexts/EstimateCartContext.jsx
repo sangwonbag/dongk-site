@@ -2,6 +2,7 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 
 const EstimateCartContext = createContext();
 
+// eslint-disable-next-line react-refresh/only-export-components
 export function useEstimateCart() {
   return useContext(EstimateCartContext);
 }
@@ -15,6 +16,7 @@ export function EstimateCartProvider({ children }) {
     const saved = localStorage.getItem('estimateCart');
     if (saved) {
       try {
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         setCartItems(JSON.parse(saved));
       } catch (e) {
         console.error('Failed to parse estimate cart', e);

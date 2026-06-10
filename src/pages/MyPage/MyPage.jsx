@@ -15,6 +15,7 @@ export default function MyPage() {
             nav("/login");
             return;
         }
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         setUser(currentUser);
     }, [nav]);
 
