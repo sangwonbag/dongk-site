@@ -10,6 +10,8 @@ import Cart from "../pages/Cart/Cart";
 import Login from "../pages/Login/Login";
 import Signup from "../pages/Signup/Signup";
 import MyPage from "../pages/MyPage/MyPage";
+import PrivacyPolicy from "../pages/PrivacyPolicy/PrivacyPolicy";
+import TermsOfService from "../pages/TermsOfService/TermsOfService";
 import Inquiries from "../pages/Admin/Inquiries";
 import EstimateRequest from "../pages/Estimate/EstimateRequest";
 import AdminDashboard from "../pages/Admin/Dashboard/AdminDashboard";
@@ -56,6 +58,8 @@ export default function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/mypage" element={<MyPage />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-of-service" element={<TermsOfService />} />
         
         {/* Admin Protected Routes */}
         <Route path="/admin" element={<AdminRoute><AdminDashboard /></AdminRoute>} />

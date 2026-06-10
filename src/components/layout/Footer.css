@@ -58,3 +58,31 @@
     padding-top: 20px;
     margin-top: 20px;
 }
+
+.footer-links {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    font-size: 13px;
+}
+
+.footer-links a {
+    color: #90a4ae;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+}
+
+.footer-links .privacy-policy-link {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.footer-link-divider {
+    color: rgba(255, 255, 255, 0.15);
+    font-size: 11px;
+}

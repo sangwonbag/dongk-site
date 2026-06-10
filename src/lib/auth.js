@@ -58,6 +58,10 @@ export const signup = async (userData) => {
       address_detail: userData.address_detail || null,
       business_number: userData.business_number || null,
       marketing_agree: userData.marketing_agree || false,
+      marketing_agreed: userData.marketing_agreed ?? userData.marketing_agree ?? false,
+      terms_agreed_at: userData.terms_agreed_at || null,
+      privacy_agreed_at: userData.privacy_agreed_at || null,
+      age_confirmed_at: userData.age_confirmed_at || null,
       memo: userData.memo || null,
       role: 'user'
     });
@@ -69,9 +73,18 @@ export const signup = async (userData) => {
         ? `${userData.address} ${userData.address_detail || ''}`.trim() 
         : null;
         
-      const fallbackMemo = userData.business_number 
-        ? `사업자번호: ${userData.business_number}${userData.memo ? ' / 메모: ' + userData.memo : ''}`
-        : userData.memo || null;
+      const agreementLogs = [
+        userData.terms_agreed_at ? `이용약관동의(${userData.terms_agreed_at})` : '이용약관동의(미동의)',
+        userData.privacy_agreed_at ? `개인정보수집동의(${userData.privacy_agreed_at})` : '개인정보수집동의(미동의)',
+        userData.age_confirmed_at ? `만14세확인(${userData.age_confirmed_at})` : '만14세확인(미동의)',
+        (userData.marketing_agreed ?? userData.marketing_agree) ? `마케팅수신동의(동의)` : '마케팅수신동의(미동의)'
+      ].join(' | ');
+
+      const fallbackMemo = [
+        userData.business_number ? `사업자번호: ${userData.business_number}` : null,
+        userData.memo ? `기타메모: ${userData.memo}` : null,
+        `[약관동의이력] ${agreementLogs}`
+      ].filter(Boolean).join(' / ');
 
       const { error: fallbackError } = await supabase.from('users').insert({
         username: userData.username,

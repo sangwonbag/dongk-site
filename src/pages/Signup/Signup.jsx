@@ -5,49 +5,10 @@ import { signup, checkDuplicateUsername } from "../../lib/auth";
 import { Check } from "lucide-react";
 import "./Signup.css";
 
-const TERMS_CONTENT = {
-    terms: {
-        title: "이용약관 동의",
-        text: `제1조 목적
-본 약관은 동경바닥재가 제공하는 자재 주문, 견적 문의, 샘플북 열람, 시공 관련 서비스 이용에 관한 조건과 절차를 정함을 목적으로 합니다.
+import { COMPANY_CONFIG } from "../../data/companyConfig";
+import { getTermsContent } from "../../data/termsText";
 
-제2조 회원가입
-회원은 사업자등록증에 기재된 정보를 기준으로 가입해야 하며, 허위 정보를 입력한 경우 서비스 이용이 제한될 수 있습니다.
-
-제3조 서비스 이용
-회원은 동경바닥재 사이트를 통해 바닥재, 벽지, 부자재 등 자재 정보를 확인하고 견적 문의 및 주문 관련 서비스를 이용할 수 있습니다.
-
-제4조 주문 및 견적
-사이트에 표시된 자재 정보와 견적 내용은 실제 재고, 현장 조건, 배송 조건에 따라 변경될 수 있습니다.
-
-제5조 책임 제한
-동경바닥재는 천재지변, 시스템 장애, 통신 오류 등 불가항력으로 인한 서비스 이용 장애에 대해 책임을 지지 않습니다.
-
-제6조 약관 변경
-본 약관은 서비스 운영 상황에 따라 변경될 수 있으며, 변경 시 사이트 공지 또는 별도 안내를 통해 고지합니다.`
-    },
-    privacy: {
-        title: "개인정보 수집 및 이용 동의",
-        text: `동경바닥재는 회원가입 및 서비스 제공을 위해 다음 개인정보를 수집합니다.
-
-수집 항목:
-아이디, 비밀번호, 상호명, 대표자명, 사업자등록번호, 사업장 소재지, 업태, 종목, 대표 전화번호, 이메일
-
-수집 목적:
-회원 식별, 사업자 확인, 자재 주문 및 견적 상담, 고객 응대, 배송 및 거래 관리
-
-보유 기간:
-회원 탈퇴 시까지 보관하며, 관련 법령에 따라 보관이 필요한 경우 해당 기간 동안 보관합니다.
-
-동의하지 않을 경우 회원가입이 제한될 수 있습니다.`
-    },
-    marketing: {
-        title: "마케팅 정보 수신 동의",
-        text: `동경바닥재는 신제품 안내, 자재 입고 소식, 할인 정보, 시공 사례, 이벤트 안내 등을 위해 이메일 또는 문자로 정보를 발송할 수 있습니다.
-
-해당 동의는 선택 사항이며, 동의하지 않아도 회원가입 및 기본 서비스 이용에는 제한이 없습니다.`
-    }
-};
+const TERMS_CONTENT = getTermsContent(COMPANY_CONFIG);
 
 export default function Signup() {
     const nav = useNavigate();
@@ -71,7 +32,13 @@ export default function Signup() {
     const [agreeAll, setAgreeAll] = useState(false);
     const [agreeTerms, setAgreeTerms] = useState(false);
     const [agreePrivacy, setAgreePrivacy] = useState(false);
+    const [agreeAge, setAgreeAge] = useState(false);
     const [agreeMarketing, setAgreeMarketing] = useState(false);
+
+    // Agreement error states
+    const [agreeTermsError, setAgreeTermsError] = useState("");
+    const [agreePrivacyError, setAgreePrivacyError] = useState("");
+    const [agreeAgeError, setAgreeAgeError] = useState("");
 
     // Modal state for viewing terms
     const [modalOpen, setModalOpen] = useState(false);
@@ -279,16 +246,38 @@ export default function Signup() {
         setAgreeAll(val);
         setAgreeTerms(val);
         setAgreePrivacy(val);
+        setAgreeAge(val);
         setAgreeMarketing(val);
+
+        if (val) {
+            setAgreeTermsError("");
+            setAgreePrivacyError("");
+            setAgreeAgeError("");
+        }
+    };
+
+    const handleAgreeTermsChange = (checked) => {
+        setAgreeTerms(checked);
+        if (checked) setAgreeTermsError("");
+    };
+
+    const handleAgreePrivacyChange = (checked) => {
+        setAgreePrivacy(checked);
+        if (checked) setAgreePrivacyError("");
+    };
+
+    const handleAgreeAgeChange = (checked) => {
+        setAgreeAge(checked);
+        if (checked) setAgreeAgeError("");
     };
 
     useEffect(() => {
-        if (agreeTerms && agreePrivacy && agreeMarketing) {
+        if (agreeTerms && agreePrivacy && agreeAge && agreeMarketing) {
             setAgreeAll(true);
         } else {
             setAgreeAll(false);
         }
-    }, [agreeTerms, agreePrivacy, agreeMarketing]);
+    }, [agreeTerms, agreePrivacy, agreeAge, agreeMarketing]);
 
     // Open terms modal helper
     const openTermsModal = (key) => {
@@ -300,7 +289,7 @@ export default function Signup() {
         }
     };
 
-    // Validation for Signup Button activation
+    // Validation for Signup Button activation (Checks inputs only, agreements checked on submit)
     const isFormValid = () => {
         const cleanedPhone = phone.replace(/\D/g, "");
         const cleanedBiz = businessNumber.replace(/\D/g, "");
@@ -318,7 +307,6 @@ export default function Signup() {
         
         const isPhoneOk = cleanedPhone.length >= 9 && !phoneError;
         const isEmailOk = email.trim().length >= 1 && !emailError;
-        const isRequiredAgreementsOk = agreeTerms && agreePrivacy;
 
         return (
             isUsernameOk &&
@@ -331,14 +319,36 @@ export default function Signup() {
             isBusinessTypeOk &&
             isBusinessItemOk &&
             isPhoneOk &&
-            isEmailOk &&
-            isRequiredAgreementsOk
+            isEmailOk
         );
     };
 
     const handleSignupSubmit = async (e) => {
         e.preventDefault();
         setSubmitError("");
+        setAgreeTermsError("");
+        setAgreePrivacyError("");
+        setAgreeAgeError("");
+
+        // Check agreements first to display errors inline
+        let hasAgreementError = false;
+        if (!agreeTerms) {
+            setAgreeTermsError("이용약관에 동의해주세요.");
+            hasAgreementError = true;
+        }
+        if (!agreePrivacy) {
+            setAgreePrivacyError("개인정보 수집 및 이용에 동의해주세요.");
+            hasAgreementError = true;
+        }
+        if (!agreeAge) {
+            setAgreeAgeError("만 14세 이상 확인에 동의해주세요.");
+            hasAgreementError = true;
+        }
+
+        if (hasAgreementError) {
+            setSubmitError("필수 약관에 동의해야 회원가입이 가능합니다.");
+            return;
+        }
 
         if (!isFormValid()) {
             setSubmitError("모든 필수 입력 필드를 채우고 형식에 맞게 입력해 주세요.");
@@ -347,6 +357,7 @@ export default function Signup() {
 
         setIsSubmitting(true);
 
+        const now = new Date().toISOString();
         const dataToSave = {
             username: username.trim(),
             password: password,
@@ -358,6 +369,11 @@ export default function Signup() {
             address_detail: businessAddressDetail.trim(),
             business_number: businessNumber,
             marketing_agree: agreeMarketing,
+            // 추가 약관 동의 데이터 필드 준비
+            marketing_agreed: agreeMarketing,
+            terms_agreed_at: now,
+            privacy_agreed_at: now,
+            age_confirmed_at: now,
             memo: `대표자명: ${ownerName.trim()} | 업태: ${businessType.trim()} | 종목: ${businessItem.trim()} | 이메일: ${email.trim()}`
         };
 
@@ -383,8 +399,12 @@ export default function Signup() {
                     email: email.trim(),
                     agreeTerms: agreeTerms,
                     agreePrivacy: agreePrivacy,
+                    agreeAge: agreeAge,
                     agreeMarketing: agreeMarketing,
-                    createdAt: new Date().toISOString()
+                    termsAgreedAt: now,
+                    privacyAgreedAt: now,
+                    ageConfirmedAt: now,
+                    createdAt: now
                 };
                 b2bUsers.push(newB2BUser);
                 localStorage.setItem("dk_b2b_users", JSON.stringify(b2bUsers));
@@ -648,40 +668,65 @@ export default function Signup() {
                                 
                                 <div className="divider-line" />
 
-                                <div className="agree-item">
-                                    <label className="check-label-sub">
-                                        <input
-                                            type="checkbox"
-                                            checked={agreeTerms}
-                                            onChange={(e) => setAgreeTerms(e.target.checked)}
-                                        />
-                                        <span>[필수] 이용약관 동의</span>
-                                    </label>
-                                    <span className="view-terms-link" onClick={() => openTermsModal("terms")}>보기</span>
-                                </div>
+                                <div className="agree-wrapper">
+                                    <div className="agree-item-container">
+                                        <div className="agree-item">
+                                            <label className="check-label-sub">
+                                                <input
+                                                    type="checkbox"
+                                                    checked={agreeTerms}
+                                                    onChange={(e) => handleAgreeTermsChange(e.target.checked)}
+                                                />
+                                                <span><span className="required-txt">[필수]</span> 이용약관 동의</span>
+                                            </label>
+                                            <button type="button" className="view-terms-btn" onClick={() => openTermsModal("terms")}>보기</button>
+                                        </div>
+                                        {agreeTermsError && <div className="agree-error-text">{agreeTermsError}</div>}
+                                    </div>
 
-                                <div className="agree-item">
-                                    <label className="check-label-sub">
-                                        <input
-                                            type="checkbox"
-                                            checked={agreePrivacy}
-                                            onChange={(e) => setAgreePrivacy(e.target.checked)}
-                                        />
-                                        <span>[필수] 개인정보 수집 및 이용 동의</span>
-                                    </label>
-                                    <span className="view-terms-link" onClick={() => openTermsModal("privacy")}>보기</span>
-                                </div>
+                                    <div className="agree-item-container">
+                                        <div className="agree-item">
+                                            <label className="check-label-sub">
+                                                <input
+                                                    type="checkbox"
+                                                    checked={agreePrivacy}
+                                                    onChange={(e) => handleAgreePrivacyChange(e.target.checked)}
+                                                />
+                                                <span><span className="required-txt">[필수]</span> 개인정보 수집 및 이용 동의</span>
+                                            </label>
+                                            <button type="button" className="view-terms-btn" onClick={() => openTermsModal("privacy")}>보기</button>
+                                        </div>
+                                        {agreePrivacyError && <div className="agree-error-text">{agreePrivacyError}</div>}
+                                    </div>
 
-                                <div className="agree-item">
-                                    <label className="check-label-sub">
-                                        <input
-                                            type="checkbox"
-                                            checked={agreeMarketing}
-                                            onChange={(e) => setAgreeMarketing(e.target.checked)}
-                                        />
-                                        <span>[선택] 마케팅 정보 수신 동의</span>
-                                    </label>
-                                    <span className="view-terms-link" onClick={() => openTermsModal("marketing")}>보기</span>
+                                    <div className="agree-item-container">
+                                        <div className="agree-item">
+                                            <label className="check-label-sub">
+                                                <input
+                                                    type="checkbox"
+                                                    checked={agreeAge}
+                                                    onChange={(e) => handleAgreeAgeChange(e.target.checked)}
+                                                />
+                                                <span><span className="required-txt">[필수]</span> 만 14세 이상입니다</span>
+                                            </label>
+                                            <button type="button" className="view-terms-btn" onClick={() => openTermsModal("age")}>보기</button>
+                                        </div>
+                                        {agreeAgeError && <div className="agree-error-text">{agreeAgeError}</div>}
+                                    </div>
+
+                                    <div className="agree-item-container">
+                                        <div className="agree-item">
+                                            <label className="check-label-sub">
+                                                <input
+                                                    type="checkbox"
+                                                    checked={agreeMarketing}
+                                                    onChange={(e) => setAgreeMarketing(e.target.checked)}
+                                                />
+                                                <span><span className="optional-txt">[선택]</span> 마케팅 정보 수신 동의</span>
+                                            </label>
+                                            <button type="button" className="view-terms-btn" onClick={() => openTermsModal("marketing")}>보기</button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
