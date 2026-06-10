@@ -48,8 +48,8 @@
    ========================================== */
 .showroom-hero-v2 {
   position: relative;
-  height: 100vh;
-  min-height: 100vh;
+  height: calc(100vh - 100px);
+  min-height: calc(100vh - 100px);
   max-height: none;
   display: flex;
   align-items: center;
@@ -294,7 +294,9 @@
 .showroom-trust-bar {
   background-color: #ffffff;
   border-bottom: 1px solid var(--border);
-  padding: 30px 0;
+  height: 100px;
+  display: flex;
+  align-items: center;
   position: relative;
   z-index: 10;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.01);
@@ -1519,5 +1521,32 @@
   
   .contact-v2-heading {
     font-size: 28px;
+  }
+}
+
+/* Trust Bar Mobile & Tablet Responsiveness */
+@media (max-width: 900px) {
+  .showroom-trust-bar {
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .trust-bar-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 20px;
+  }
+
+  .trust-bar-item {
+    flex: none;
+    width: calc(50% - 15px);
+    min-width: 220px;
+  }
+}
+
+@media (max-width: 600px) {
+  .trust-bar-item {
+    width: 100%;
+    justify-content: flex-start;
   }
 }
