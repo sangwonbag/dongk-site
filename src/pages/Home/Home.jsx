@@ -142,128 +142,135 @@ const spaceSections = [
   }
 ];
 
-// Space Finder Scroll Section component
+// Space Finder Section component (Redesigned: Alternating stack list with floating navigation)
 const SpaceFinderSection = () => {
   const nav = useNavigate();
-  const parentRef = useRef(null);
+  const containerRef = useRef(null);
+  const sectionRefs = useRef([]);
   const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
-    const handleScroll = () => {
-      if (!parentRef.current) return;
-      const rect = parentRef.current.getBoundingClientRect();
-      const stickyTopOffset = 80;
-      const stickyHeight = window.innerHeight - stickyTopOffset;
-      const totalScrollable = rect.height - stickyHeight;
-      const scrolled = Math.min(Math.max(stickyTopOffset - rect.top, 0), totalScrollable);
-      const progress = totalScrollable > 0 ? scrolled / totalScrollable : 0;
-
-      const nextIndex = Math.min(
-        spaceSections.length - 1,
-        Math.floor(progress * spaceSections.length)
-      );
-      setActiveIndex(nextIndex);
+    const observerOptions = {
+      root: null,
+      rootMargin: "-25% 0px -40% 0px", // Trigger when the item is in the main viewing zone
+      threshold: 0.1
     };
 
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    handleScroll();
+    const observerCallback = (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const index = parseInt(entry.target.getAttribute("data-index"), 10);
+          if (!isNaN(index)) {
+            setActiveIndex(index);
+          }
+        }
+      });
+    };
 
-    return () => window.removeEventListener("scroll", handleScroll);
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+    sectionRefs.current.forEach((ref) => {
+      if (ref) observer.observe(ref);
+    });
+
+    return () => {
+      observer.disconnect();
+    };
   }, []);
-  return (
-    <section className="showroom-space-finder-v2" ref={parentRef}>
-      {/* Desktop Sticky View */}
-      <div className="space-finder-desktop">
-        <div className="space-finder-sticky-wrapper">
-          <div className="space-finder-container container">
-            
-            {/* Left Content Area */}
-            <div className="space-finder-content-left">
-              <span className="space-finder-label">SPACE FINDER</span>
-              <div className="space-finder-slides-container">
-                {spaceSections.map((sect, idx) => (
-                  <div 
-                    key={sect.id} 
-                    className={`space-finder-text-slide ${idx === activeIndex ? "active" : ""}`}
-                  >
-                    <div className="space-finder-index">
-                      <strong>{sect.label}</strong> / 05
-                    </div>
-                    <span className="space-finder-category-tag">{sect.category}</span>
-                    <h2 className="space-finder-title">{sect.title}</h2>
-                    <p className="space-finder-description">{sect.description}</p>
-                    
-                    <div className="space-finder-materials">
-                      <span className="materials-label">추천 자재 :</span>
-                      <div className="materials-tags-row">
-                        {sect.materials.map((mat, i) => (
-                          <span key={i} className="space-material-tag-badge">{mat}</span>
-                        ))}
-                      </div>
-                    </div>
 
-                    <div className="space-finder-buttons">
-                      <button 
-                        className="btn-v2-primary" 
-                        onClick={() => nav(`/materials?category=${sect.filterParams.category}`)}
-                      >
-                        이 공간 자재 보기
-                      </button>
-                      <button 
-                        className="btn-v2-outline" 
-                        onClick={() => nav("/estimate/request")}
-                      >
-                        견적 문의하기
-                      </button>
+  const handleDotClick = (idx) => {
+    const targetElement = sectionRefs.current[idx];
+    if (targetElement) {
+      const yOffset = -90; // Offset to clear the header
+      const y = targetElement.getBoundingClientRect().top + window.scrollY + yOffset;
+      window.scrollTo({
+        top: y,
+        behavior: "smooth"
+      });
+    }
+  };
+
+  return (
+    <section className="showroom-space-finder-v2" ref={containerRef}>
+      {/* Title Header */}
+      <div className="section-header-v2 container reveal">
+        <span className="section-subtitle-v2">SPACE FINDER</span>
+        <h2 className="section-title-v2">공간별 자재 추천</h2>
+        <p className="section-desc-v2">
+          주거부터 상업, 공공기관까지 공간의 특성과 활용 목적에 맞는 최적의 바닥재와 벽지를 추천해 드립니다.
+        </p>
+      </div>
+
+      {/* Desktop Alternating List View */}
+      <div className="space-finder-desktop-list">
+        {spaceSections.map((sect, idx) => {
+          const isEven = idx % 2 === 0;
+          return (
+            <div
+              key={sect.id}
+              className={`space-finder-row-item reveal ${isEven ? "layout-normal" : "layout-reversed"}`}
+              ref={(el) => (sectionRefs.current[idx] = el)}
+              data-index={idx}
+            >
+              <div className="space-finder-item-container container">
+                {/* Content block */}
+                <div className="space-finder-item-content">
+                  <div className="space-finder-index">
+                    <strong>{sect.label}</strong> / 05
+                  </div>
+                  <span className="space-finder-category-tag">{sect.category}</span>
+                  <h3 className="space-finder-title">{sect.title}</h3>
+                  <p className="space-finder-description">{sect.description}</p>
+                  
+                  <div className="space-finder-materials">
+                    <span className="materials-label">추천 자재 :</span>
+                    <div className="materials-tags-row">
+                      {sect.materials.map((mat, i) => (
+                        <span key={i} className="space-material-tag-badge">{mat}</span>
+                      ))}
                     </div>
                   </div>
-                ))}
+
+                  <div className="space-finder-buttons">
+                    <button 
+                      className="btn-v2-primary" 
+                      onClick={() => nav(`/materials?category=${sect.filterParams.category}`)}
+                    >
+                      이 공간 자재 보기
+                    </button>
+                    <button 
+                      className="btn-v2-outline" 
+                      onClick={() => nav("/estimate/request")}
+                    >
+                      견적 문의하기
+                    </button>
+                  </div>
+                </div>
+
+                {/* Image block */}
+                <div className="space-finder-item-img-wrap">
+                  <div className="space-finder-item-img-box">
+                    <img src={sect.image} alt={sect.title} className="space-finder-item-img" />
+                  </div>
+                </div>
               </div>
             </div>
+          );
+        })}
+      </div>
 
-            {/* Right Image Frame */}
-            <div className="space-finder-img-right">
-              <div className="space-finder-img-box">
-                {spaceSections.map((sect, idx) => (
-                  <img
-                    key={sect.id}
-                    src={sect.image}
-                    alt={sect.title}
-                    className={`space-finder-img-slide ${idx === activeIndex ? "active" : ""}`}
-                  />
-                ))}
-              </div>
-              
-              {/* Dot Navigation Indicators */}
-              <div className="space-finder-dots">
-                {spaceSections.map((_, idx) => (
-                  <button
-                    key={idx}
-                    className={`space-finder-dot ${idx === activeIndex ? "active" : ""}`}
-                    onClick={() => {
-                      if (parentRef.current) {
-                        const rect = parentRef.current.getBoundingClientRect();
-                        const elementHeight = rect.height;
-                        const stickyTopOffset = 80;
-                        const stickyHeight = window.innerHeight - stickyTopOffset;
-                        const totalScrollable = elementHeight - stickyHeight;
-                        
-                        const parentDocTop = window.scrollY + rect.top;
-                        const targetScroll = parentDocTop - stickyTopOffset + (idx / 4) * totalScrollable;
-                        window.scrollTo({
-                          top: targetScroll,
-                          behavior: "smooth"
-                        });
-                      }
-                    }}
-                    aria-label={`Go to slide ${idx + 1}`}
-                  />
-                ))}
-              </div>
-            </div>
-
-          </div>
-        </div>
+      {/* Floating Dot Indicators on the Right (Desktop only) */}
+      <div className="space-finder-floating-dots">
+        {spaceSections.map((sect, idx) => (
+          <button
+            key={idx}
+            className={`space-finder-floating-dot ${idx === activeIndex ? "active" : ""}`}
+            onClick={() => handleDotClick(idx)}
+            aria-label={`Go to section ${idx + 1}`}
+          >
+            <span className="dot-hover-label">{sect.category}</span>
+          </button>
+        ))}
       </div>
 
       {/* Mobile Stacked View */}
