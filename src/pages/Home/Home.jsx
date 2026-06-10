@@ -575,8 +575,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Space Finder (공간별 자재 추천) Scroll Section */}
-        <SpaceFinderSection />
+
 
         {/* ==========================================
            2. Category Showcase Section
