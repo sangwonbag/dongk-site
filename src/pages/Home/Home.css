@@ -48,13 +48,14 @@
    ========================================== */
 .showroom-hero-v2 {
   position: relative;
-  height: 80vh;
-  min-height: 720px;
-  max-height: 820px;
+  height: 100vh;
+  min-height: 100vh;
+  max-height: none;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   padding-top: 80px; /* Header offset */
+  box-sizing: border-box;
   overflow: hidden;
 }
 
