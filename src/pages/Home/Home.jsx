@@ -2,6 +2,8 @@ import React, { useState, useEffect, useMemo, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { sampleBooks } from "../../data/samplebooks.db";
+import { materials } from "../../data/materials.db";
+import { getThumbnailImage } from "../../utils/galleryUtils";
 import { 
   ChevronRight, 
   Phone, 
@@ -16,41 +18,64 @@ import {
 } from "lucide-react";
 import "./Home.css";
 
-// Curated featured materials array
-const featuredMaterials = [
-  {
-    id: "장판-lx하우시스-cm21882",
-    name: "뉴청맥 오크 (1.8T)",
-    brand: "LX하우시스",
-    specs: "1.8T | 두께 1.8mm",
-    image: "/images/Thumbnail_image/materials/장판/LX하우시스_뉴청맥_1.8T/CM21882.jpg",
-    desc: "보행감이 우수하고 열전도율이 높은 한국 실속형 베스트셀러 장판"
-  },
-  {
-    id: "마루-이건-강마루_세라_세라-n-오크",
-    name: "이건 세라 오크",
-    brand: "이건마루",
-    specs: "7.5T | 95mm x 800mm",
-    image: "/images/Thumbnail_image/materials/마루/이건/강마루/세라/세라-N-오크.jpg",
-    desc: "자연스러운 나뭇결과 뛰어난 표면 내구성을 자랑하는 친환경 이건 강마루"
-  },
-  {
-    id: "카페트타일-스완-롤-carpet-rq054",
-    name: "스완 롤 카페트 RQ054",
-    brand: "스완카페트",
-    specs: "롤 형태 | 폭 3.66m",
-    image: "/images/Thumbnail_image/materials/카페트타일/스완/롤-carpet/RQ054.jpg",
-    desc: "정숙한 오피스 및 상업용 공간에 최적화된 방음 및 쿠션의 루프식 카페트"
-  },
-  {
-    id: "벽지-개나리-실크-로하스_87424-1-에비뉴-화이트",
-    name: "로하스 에비뉴 화이트",
-    brand: "개나리벽지",
-    specs: "실크 벽지 | 폭 1.06m",
-    image: "/samplebooks/Thumbnail_image/벽지/개나리/실크/로하스/lohas_page1_full.png",
-    desc: "화사하고 넓은 공간을 연출하는 프리미엄 친환경 실크 벽지"
-  }
-];
+// Dynamic featured material card component with asynchronous thumbnail resolver
+const FeaturedCard = ({ mat }) => {
+  const navigate = useNavigate();
+  const [imgUrl, setImgUrl] = useState("/images/no-image.svg");
+
+  useEffect(() => {
+    let isMounted = true;
+    getThumbnailImage(mat).then((url) => {
+      if (isMounted && url) {
+        setImgUrl(url);
+      }
+    });
+    return () => { isMounted = false; };
+  }, [mat]);
+
+  const formattedSpecs = mat.specs
+    ? [mat.specs.thickness, mat.specs.size, mat.specs.packing].filter(Boolean).join(" · ")
+    : mat.thickness || "";
+
+  const desc = (() => {
+    const lineStr = mat.line ? ` [${mat.line}]` : "";
+    if (mat.brand === 'KCC') {
+      return `KCC의 고품격 기술력이 담긴${lineStr} 데코타일 바닥재입니다.`;
+    }
+    if (mat.brand === '동신') {
+      return `내마모성과 내오염성이 뛰어난 친환경 동신${lineStr} 데코타일입니다.`;
+    }
+    if (mat.brand === '유성') {
+      return `세련된 패턴과 치수 안정성을 갖춘 유성${lineStr} 데코타일입니다.`;
+    }
+    return `${mat.brand}의 정품 ${mat.category} 자재입니다.`;
+  })();
+
+  return (
+    <div 
+      className="featured-v2-card"
+      onClick={() => navigate(`/materials/${mat.id}`)}
+    >
+      <div className="featured-v2-img-frame">
+        <img 
+          src={imgUrl} 
+          alt={mat.name} 
+          className="featured-v2-img" 
+          onError={(e) => { e.target.onerror = null; e.target.src = "/images/no-image.svg"; }}
+        />
+      </div>
+      <div className="featured-v2-body">
+        <div className="featured-v2-meta">
+          <span className="featured-v2-brand">{mat.brand}</span>
+          {formattedSpecs && <span className="featured-v2-specs">{formattedSpecs}</span>}
+        </div>
+        <h3 className="featured-v2-name">{mat.name}</h3>
+        <p className="featured-v2-desc">{desc}</p>
+        <span className="featured-v2-more-link">자재 상세정보 보기 <ArrowRight size={14} /></span>
+      </div>
+    </div>
+  );
+};
 
 // Curated realistic construction projects array
 const projects = [
@@ -355,6 +380,15 @@ const CategoryCardImage = ({ src, fallback, alt }) => {
 
 export default function Home() {
   const nav = useNavigate();
+  const [featuredItems, setFeaturedItems] = useState([]);
+
+  useEffect(() => {
+    const candidates = (materials || []).filter(m => ['KCC', '동신', '유성'].includes(m.brand));
+    if (candidates.length > 0) {
+      const shuffled = [...candidates].sort(() => 0.5 - Math.random());
+      setFeaturedItems(shuffled.slice(0, 4));
+    }
+  }, []);
 
   // 6 Material categories
   const categories = [
@@ -680,25 +714,8 @@ export default function Home() {
           </div>
 
           <div className="featured-v2-grid container">
-            {featuredMaterials.map((mat) => (
-              <div 
-                key={mat.id} 
-                className="featured-v2-card"
-                onClick={() => nav(`/materials/${mat.id}`)}
-              >
-                <div className="featured-v2-img-frame">
-                  <img src={mat.image} alt={mat.name} className="featured-v2-img" />
-                </div>
-                <div className="featured-v2-body">
-                  <div className="featured-v2-meta">
-                    <span className="featured-v2-brand">{mat.brand}</span>
-                    <span className="featured-v2-specs">{mat.specs}</span>
-                  </div>
-                  <h3 className="featured-v2-name">{mat.name}</h3>
-                  <p className="featured-v2-desc">{mat.desc}</p>
-                  <span className="featured-v2-more-link">자재 상세정보 보기 <ArrowRight size={14} /></span>
-                </div>
-              </div>
+            {featuredItems.map((mat) => (
+              <FeaturedCard key={mat.id} mat={mat} />
             ))}
           </div>
         </section>
