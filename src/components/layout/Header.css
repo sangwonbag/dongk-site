@@ -88,7 +88,7 @@
 }
 
 .notice-link:hover {
-    color: #c9a42f; /* Mustard yellow hover */
+    color: var(--point-gold); /* Gold hover */
 }
 
 .notice-separator {
@@ -144,11 +144,11 @@
 }
 
 .menu-link:hover {
-    color: #c9a42f;
+    color: var(--point-gold);
 }
 
 .menu-link.active {
-    color: #c9a42f;
+    color: var(--point-gold);
     font-weight: 700;
 }
 
@@ -159,8 +159,8 @@
     left: 0;
     width: 100%;
     height: 2.5px;
-    background-color: #ECD06F;
-    box-shadow: 0 1px 4px rgba(236, 208, 111, 0.5);
+    background-color: var(--point-gold);
+    box-shadow: 0 1px 4px rgba(184, 152, 101, 0.4);
     border-radius: 2px;
 }
 
@@ -215,7 +215,7 @@
 }
 
 .header-search button:hover {
-    color: #c9a42f;
+    color: var(--point-gold);
 }
 
 /* Desktop Utility Icons & Accounts */
@@ -356,7 +356,7 @@
 
 .search-recommendation-item:hover {
     background: #FAF8F2;
-    color: #c9a42f;
+    color: var(--point-gold);
 }
 
 .search-empty {
@@ -447,7 +447,7 @@
 }
 
 .drawer-link:hover {
-    color: #c9a42f;
+    color: var(--point-gold);
 }
 
 .drawer-actions {

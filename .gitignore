@@ -1,4 +1,7 @@
-public/samplebooks/
+public/samplebooks/*
+!public/samplebooks/Thumbnail_image/
+!public/samplebooks/dsArtHouseCover.jpg
+!public/samplebooks/iris-cover.jpg
 *.pdf
 *.zip
 node_modules

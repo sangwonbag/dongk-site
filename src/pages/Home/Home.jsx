@@ -1,420 +1,23 @@
-import React, { useState, useEffect, useMemo, useRef } from "react";
+import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
-import { sampleBooks } from "../../data/samplebooks.db";
 import { 
   ChevronRight, 
   Phone, 
   ArrowRight, 
   BookOpen,
-  Download,
-  Award,
-  ShieldCheck,
   FileText,
   CheckCircle,
-  Users
+  Layers,
+  Inbox,
+  Briefcase
 } from "lucide-react";
 import "./Home.css";
-
-// Curated featured materials array
-const featuredMaterials = [
-  {
-    id: "장판-lx하우시스-cm21882",
-    name: "뉴청맥 오크 (1.8T)",
-    brand: "LX하우시스",
-    specs: "1.8T | 두께 1.8mm",
-    image: "/images/Thumbnail_image/materials/장판/LX하우시스_뉴청맥_1.8T/CM21882.jpg",
-    desc: "보행감이 우수하고 열전도율이 높은 한국 실속형 베스트셀러 장판"
-  },
-  {
-    id: "마루-이건-강마루_세라_세라-n-오크",
-    name: "이건 세라 오크",
-    brand: "이건마루",
-    specs: "7.5T | 95mm x 800mm",
-    image: "/images/Thumbnail_image/materials/마루/이건/강마루/세라/세라-N-오크.jpg",
-    desc: "자연스러운 나뭇결과 뛰어난 표면 내구성을 자랑하는 친환경 이건 강마루"
-  },
-  {
-    id: "카페트타일-스완-롤-carpet-rq054",
-    name: "스완 롤 카페트 RQ054",
-    brand: "스완카페트",
-    specs: "롤 형태 | 폭 3.66m",
-    image: "/images/Thumbnail_image/materials/카페트타일/스완/롤-carpet/RQ054.jpg",
-    desc: "정숙한 오피스 및 상업용 공간에 최적화된 방음 및 쿠션의 루프식 카페트"
-  },
-  {
-    id: "벽지-개나리-실크-로하스_87424-1-에비뉴-화이트",
-    name: "로하스 에비뉴 화이트",
-    brand: "개나리벽지",
-    specs: "실크 벽지 | 폭 1.06m",
-    image: "/samplebooks/Thumbnail_image/벽지/개나리/실크/로하스/lohas_page1_full.png",
-    desc: "화사하고 넓은 공간을 연출하는 프리미엄 친환경 실크 벽지"
-  }
-];
-
-// Curated realistic construction projects array
-const projects = [
-  {
-    id: 1,
-    title: "마포구 아파트 거실 장판 시공",
-    category: "주거공간",
-    range: "거실 및 방 전면 시공",
-    material: "LX하우시스 지아자연애 2.2T",
-    image: "/images/home-interior/korea-apt-living-01.png"
-  },
-  {
-    id: 2,
-    title: "강남구 오피스 카페트타일 시공",
-    category: "사무공간",
-    range: "회의실 및 개방형 사무실 전체",
-    material: "스완카페트 고급 롤/타일 카페트",
-    image: "/images/home-interior/korea-office-01.png"
-  },
-  {
-    id: 3,
-    title: "성동구 매장 데코타일 시공",
-    category: "상업공간",
-    range: "쇼룸 전시실 및 로비 바닥",
-    material: "녹수 프리미엄 스톤 데코타일",
-    image: "/images/home-interior/korea-store-01.png"
-  },
-  {
-    id: 4,
-    title: "용산구 주거공간 벽지 시공",
-    category: "주거공간",
-    range: "침실 3개소 전체 벽면",
-    material: "개나리 로하스 실크 벽지 (에비뉴 화이트)",
-    image: "/images/home-interior/korea-bedroom-01.png"
-  }
-];
-
-// Space Finder sections data
-const spaceSections = [
-  {
-    id: 'residential',
-    label: '01',
-    category: '주거공간',
-    title: '매일 머무는 집, 바닥과 벽부터 편안하게',
-    description: '거실, 방, 주방까지 생활감과 관리 편의성을 고려한 바닥재와 벽지를 추천합니다.',
-    materials: ['장판', '마루', '벽지'],
-    filterParams: { category: '장판', brand: 'all' },
-    image: '/images/spaces/space-residential.jpg'
-  },
-  {
-    id: 'apartment',
-    label: '02',
-    category: '아파트 / 오피스텔',
-    title: '아파트와 오피스텔에 맞는 실용적인 선택',
-    description: '공간 크기와 생활 패턴에 따라 장판, 데코타일, 벽지를 균형 있게 제안합니다.',
-    materials: ['장판', '데코타일', '실크벽지'],
-    filterParams: { category: '장판', brand: 'all' },
-    image: '/images/spaces/space-apartment.jpg'
-  },
-  {
-    id: 'commercial',
-    label: '03',
-    category: '상업공간',
-    title: '매장 분위기를 완성하는 바닥재',
-    description: '카페, 음식점, 매장처럼 유동 인구가 많은 공간에는 내구성과 분위기를 함께 고려해야 합니다.',
-    materials: ['데코타일', '러버타일', '방염벽지'],
-    filterParams: { category: '데코타일', brand: 'all' },
-    image: '/images/spaces/space-commercial.jpg'
-  },
-  {
-    id: 'office',
-    label: '04',
-    category: '사무실 / 오피스',
-    title: '업무공간은 깔끔하고 오래가야 합니다',
-    description: '오피스, 사무실, 회의실에는 관리가 쉽고 안정감 있는 바닥재 구성이 중요합니다.',
-    materials: ['카페트타일', '데코타일', '벽지'],
-    filterParams: { category: '카페트타일', brand: 'all' },
-    image: '/images/spaces/space-office.jpg'
-  },
-  {
-    id: 'public',
-    label: '05',
-    category: '학원 / 병원 / 공공공간',
-    title: '많은 사람이 오가는 공간에는 내구성이 필요합니다',
-    description: '학원, 병원, 공공시설은 청소와 유지관리가 쉬운 자재를 중심으로 추천합니다.',
-    materials: ['데코타일', '장판', '방염벽지', '부자재'],
-    filterParams: { category: '데코타일', brand: 'all' },
-    image: '/images/spaces/space-public.jpg'
-  }
-];
-
-// Space Finder Section component (Redesigned: Alternating stack list with floating navigation)
-const SpaceFinderSection = () => {
-  const nav = useNavigate();
-  const containerRef = useRef(null);
-  const sectionRefs = useRef([]);
-  const [activeIndex, setActiveIndex] = useState(0);
-
-  useEffect(() => {
-    const observerOptions = {
-      root: null,
-      rootMargin: "-25% 0px -40% 0px", // Trigger when the item is in the main viewing zone
-      threshold: 0.1
-    };
-
-    const observerCallback = (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          const index = parseInt(entry.target.getAttribute("data-index"), 10);
-          if (!isNaN(index)) {
-            setActiveIndex(index);
-          }
-        }
-      });
-    };
-
-    const observer = new IntersectionObserver(observerCallback, observerOptions);
-
-    sectionRefs.current.forEach((ref) => {
-      if (ref) observer.observe(ref);
-    });
-
-    return () => {
-      observer.disconnect();
-    };
-  }, []);
-
-  const handleDotClick = (idx) => {
-    const targetElement = sectionRefs.current[idx];
-    if (targetElement) {
-      const yOffset = -90; // Offset to clear the header
-      const y = targetElement.getBoundingClientRect().top + window.scrollY + yOffset;
-      window.scrollTo({
-        top: y,
-        behavior: "smooth"
-      });
-    }
-  };
-
-  return (
-    <section className="showroom-space-finder-v2" ref={containerRef}>
-      {/* Title Header */}
-      <div className="section-header-v2 container reveal">
-        <span className="section-subtitle-v2">SPACE FINDER</span>
-        <h2 className="section-title-v2">공간별 자재 추천</h2>
-        <p className="section-desc-v2">
-          주거부터 상업, 공공기관까지 공간의 특성과 활용 목적에 맞는 최적의 바닥재와 벽지를 추천해 드립니다.
-        </p>
-      </div>
-
-      {/* Desktop Alternating List View */}
-      <div className="space-finder-desktop-list">
-        {spaceSections.map((sect, idx) => {
-          const isEven = idx % 2 === 0;
-          return (
-            <div
-              key={sect.id}
-              className={`space-finder-row-item reveal ${isEven ? "layout-normal" : "layout-reversed"}`}
-              ref={(el) => (sectionRefs.current[idx] = el)}
-              data-index={idx}
-            >
-              <div className="space-finder-item-container container">
-                {/* Content block */}
-                <div className="space-finder-item-content">
-                  <div className="space-finder-index">
-                    <strong>{sect.label}</strong> / 05
-                  </div>
-                  <span className="space-finder-category-tag">{sect.category}</span>
-                  <h3 className="space-finder-title">{sect.title}</h3>
-                  <p className="space-finder-description">{sect.description}</p>
-                  
-                  <div className="space-finder-materials">
-                    <span className="materials-label">추천 자재 :</span>
-                    <div className="materials-tags-row">
-                      {sect.materials.map((mat, i) => (
-                        <span key={i} className="space-material-tag-badge">{mat}</span>
-                      ))}
-                    </div>
-                  </div>
-
-                  <div className="space-finder-buttons">
-                    <button 
-                      className="btn-v2-primary" 
-                      onClick={() => nav(`/materials?category=${sect.filterParams.category}`)}
-                    >
-                      이 공간 자재 보기
-                    </button>
-                    <button 
-                      className="btn-v2-outline" 
-                      onClick={() => nav("/estimate/request")}
-                    >
-                      견적 문의하기
-                    </button>
-                  </div>
-                </div>
-
-                {/* Image block */}
-                <div className="space-finder-item-img-wrap">
-                  <div className="space-finder-item-img-box">
-                    <img src={sect.image} alt={sect.title} className="space-finder-item-img" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          );
-        })}
-      </div>
-
-      {/* Floating Dot Indicators on the Right (Desktop only) */}
-      <div className="space-finder-floating-dots">
-        {spaceSections.map((sect, idx) => (
-          <button
-            key={idx}
-            className={`space-finder-floating-dot ${idx === activeIndex ? "active" : ""}`}
-            onClick={() => handleDotClick(idx)}
-            aria-label={`Go to section ${idx + 1}`}
-          >
-            <span className="dot-hover-label">{sect.category}</span>
-          </button>
-        ))}
-      </div>
-
-      {/* Mobile Stacked View */}
-      <div className="space-finder-mobile container">
-        <div className="space-finder-mobile-header">
-          <span className="space-finder-label">SPACE FINDER</span>
-          <h2 className="space-finder-mobile-heading">공간별 자재 추천</h2>
-        </div>
-        <div className="space-finder-mobile-list">
-          {spaceSections.map((sect) => (
-            <div key={sect.id} className="space-finder-mobile-card">
-              <div className="mobile-card-img-wrap">
-                <img src={sect.image} alt={sect.title} className="mobile-card-img" />
-                <span className="mobile-card-index">{sect.label}</span>
-              </div>
-              <div className="mobile-card-body">
-                <span className="mobile-card-cat">{sect.category}</span>
-                <h3 className="mobile-card-title">{sect.title}</h3>
-                <p className="mobile-card-desc">{sect.description}</p>
-                
-                <div className="mobile-card-materials">
-                  <span className="mobile-materials-lbl">추천 자재:</span>
-                  <div className="mobile-materials-tags">
-                    {sect.materials.map((mat, i) => (
-                      <span key={i} className="mobile-mat-badge">{mat}</span>
-                    ))}
-                  </div>
-                </div>
-
-                <div className="mobile-card-buttons">
-                  <button 
-                    className="btn-v2-primary" 
-                    onClick={() => nav(`/materials?category=${sect.filterParams.category}`)}
-                  >
-                    이 공간 자재 보기
-                  </button>
-                  <button 
-                    className="btn-v2-outline" 
-                    onClick={() => nav("/estimate/request")}
-                  >
-                    견적 문의하기
-                  </button>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-};
-
-// Helper component for category card image with loading skeleton and error fallback
-const CategoryCardImage = ({ src, fallback, alt }) => {
-  const [imgSrc, setImgSrc] = useState(src);
-  const [loaded, setLoaded] = useState(false);
-
-  useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setImgSrc(src);
-    setLoaded(false);
-  }, [src]);
-
-  return (
-    <div className="category-img-container">
-      {!loaded && <div className="category-img-skeleton" />}
-      <img
-        src={imgSrc}
-        alt={alt}
-        className="card-thumb-img"
-        onLoad={() => setLoaded(true)}
-        onError={() => {
-          if (imgSrc !== fallback) {
-            setImgSrc(fallback);
-          }
-        }}
-        style={{ opacity: loaded ? 1 : 0, transition: "opacity 0.3s ease" }}
-      />
-    </div>
-  );
-};
 
 export default function Home() {
   const nav = useNavigate();
 
-  // 6 Material categories
-  const categories = [
-    { 
-      name: "데코타일", 
-      engName: "DECO TILE", 
-      desc: "상업공간과 주거공간 모두에 어울리는 실용적인 바닥재", 
-      image: "/images/categories/category-deco-tile.png", 
-      fallbackImage: "/images/deco_tile.png",
-      path: "/materials?category=데코타일" 
-    },
-    { 
-      name: "장판", 
-      engName: "CUSHION FLOOR", 
-      desc: "생활감과 편안함을 고려한 주거용 바닥재", 
-      image: "/images/categories/category-cushion-floor.png", 
-      fallbackImage: "/images/cross_section.png",
-      path: "/materials?category=장판" 
-    },
-    { 
-      name: "마루", 
-      engName: "WOOD FLOORING", 
-      desc: "공간에 따뜻한 결을 더하는 프리미엄 목질 바닥재", 
-      image: "/images/categories/category-wood-flooring.png", 
-      fallbackImage: "/images/spc_flooring.png",
-      path: "/materials?category=마루" 
-    },
-    { 
-      name: "벽지", 
-      engName: "PREMIUM WALLPAPER", 
-      desc: "벽면의 분위기를 완성하는 다양한 패턴과 질감", 
-      image: "/images/categories/category-wallpaper.png", 
-      fallbackImage: "/images/premium_wallpaper.png",
-      path: "/materials?category=벽지" 
-    },
-    { 
-      name: "카페트타일", 
-      engName: "CARPET TILE", 
-      desc: "오피스와 상업공간에 적합한 모듈형 바닥재", 
-      image: "/images/categories/category-carpet-tile.png", 
-      fallbackImage: "/images/carpet_tile.png",
-      path: "/materials?category=카페트타일" 
-    },
-    { 
-      name: "부자재", 
-      engName: "ACCESSORIES", 
-      desc: "시공 완성도를 높이는 필수 부자재", 
-      image: "/images/categories/category-accessories.png", 
-      fallbackImage: "/images/interlocking_profile.png",
-      path: "/materials?category=부자재" 
-    }
-  ];
-
-  // Select 4 major brand samplebooks for home feature
-  const homeSampleBooks = useMemo(() => {
-    const targets = ["lx-new-chungmac-2025", "dongshin-arthouse-2025", "kcc-senstyle-trendy-2025", "gaenari-artbook"];
-    return sampleBooks.filter(b => targets.includes(b.id));
-  }, []);
-
-  // Scroll Reveal Observer
+  // Scroll Reveal Observer for Premium Micro-Animations
   useEffect(() => {
     const reveals = document.querySelectorAll(".reveal");
     const observer = new IntersectionObserver(
@@ -425,7 +28,7 @@ export default function Home() {
           }
         });
       },
-      { threshold: 0.1 }
+      { threshold: 0.1, rootMargin: "0px 0px -50px 0px" }
     );
 
     reveals.forEach((el) => observer.observe(el));
@@ -434,375 +37,338 @@ export default function Home() {
     };
   }, []);
 
+  // Section D. Categories Data
+  const categories = [
+    { 
+      name: "데코타일", 
+      desc: "450각, 600각, 우드, 사각 제품", 
+      path: "/materials?category=데코타일" 
+    },
+    { 
+      name: "장판", 
+      desc: "주거공간에 많이 쓰이는 PVC 바닥재", 
+      path: "/materials?category=장판" 
+    },
+    { 
+      name: "마루", 
+      desc: "강마루, 강화마루, 원목 느낌 바닥재", 
+      path: "/materials?category=마루" 
+    },
+    { 
+      name: "벽지", 
+      desc: "실크벽지, 합지, 프리미엄 벽지", 
+      path: "/materials?category=벽지" 
+    },
+    { 
+      name: "카페트타일", 
+      desc: "상업공간, 사무실 바닥재", 
+      path: "/materials?category=카페트타일" 
+    },
+    { 
+      name: "부자재", 
+      desc: "본드, 실리콘, 걸레받이, 분리대", 
+      path: "/materials?category=부자재" 
+    }
+  ];
+
+  // Section E. Recommendations Data
+  const recommendations = [
+    {
+      brand: "KCC",
+      type: "데코타일",
+      name: "KCC 데코타일 센스타일",
+      desc: "우수한 충격 흡수와 내마모성을 갖춘 고내구형 상업용 데코타일",
+      path: "/materials?category=데코타일&brand=KCC"
+    },
+    {
+      brand: "동신",
+      type: "데코타일",
+      name: "동신 데코타일 아코하우스",
+      desc: "자연스러운 질감과 변형 없는 안정을 자랑하는 친환경 주거용 데코타일",
+      path: "/materials?category=데코타일&brand=동신"
+    },
+    {
+      brand: "유성",
+      type: "데코타일",
+      name: "유성 데코타일 피오네",
+      desc: "대리석 느낌의 모던한 공간을 연출하는 프리미엄 사각 데코타일",
+      path: "/materials?category=데코타일&brand=유성"
+    },
+    {
+      brand: "LX하우시스",
+      type: "벽지",
+      name: "LX 벽지 지아패브릭",
+      desc: "옥수수 유래 식물성 수지를 코팅한 친환경 프리미엄 실크벽지",
+      path: "/materials?category=벽지&brand=LX"
+    },
+    {
+      brand: "LX하우시스 (디아망)",
+      type: "벽지",
+      name: "디아망 벽지 프리미엄",
+      desc: "입체적인 엠보가 살아있어 도장벽 같은 우아함을 주는 하이엔드 실크벽지",
+      path: "/materials?category=벽지&brand=LX&line=디아망_LX_디아망"
+    },
+    {
+      brand: "LX하우시스 (디아망)",
+      type: "벽지",
+      name: "디아망포티스 벽지",
+      desc: "긁힘과 충격에 강한 특수 코팅이 추가된 프리미엄 디아망 벽지",
+      path: "/materials?category=벽지&brand=LX"
+    }
+  ];
+
   return (
     <MainLayout>
       <div className="showroom-home-layout">
         
         {/* ==========================================
-           1. Hero Section (Luxury Minimal Reinterpretation)
+           A. Hero Section & B. Hero 우측 비주얼
            ========================================== */}
-        <section className="showroom-hero-v2">
-          <div className="hero-v2-bg-frame">
-            <img 
-              src="/images/home/main-hero-interior.png" 
-              alt="Premium Living Room Interior" 
-              className="hero-v2-bg-img"
-            />
-            <div className="hero-v2-overlay"></div>
-          </div>
-          
-          <div className="hero-v2-container-grid container">
-            <div className="hero-v2-content">
-              <span className="hero-v2-eyebrow">바닥재 · 벽지 판매 및 시공 전문</span>
-              <h1 className="hero-v2-title">
-                공간의 분위기는<br />
-                바닥과 벽에서 시작됩니다.
+        <section className="showroom-hero-v4">
+          <div className="hero-v4-container container">
+            
+            {/* Left Content Col */}
+            <div className="hero-v4-content-col">
+              <span className="hero-v4-eyebrow">DONGKYUNG FLOORING</span>
+              <h1 className="hero-v4-title">
+                공간을 바꾸는<br />
+                바닥재·벽지 솔루션
               </h1>
-              <p className="hero-v2-subtitle">
-                동경바닥재는 바닥재·벽지 판매부터 시공 상담까지<br />
-                현장에 맞는 자재 선택을 도와드립니다.
+              <p className="hero-v4-subtitle">
+                동경바닥재는 데코타일, 장판, 마루, 벽지, 카페트타일 자재 판매부터 시공 상담까지 한 번에 연결합니다.
               </p>
-              <div className="hero-v2-buttons">
-                <button className="btn-hero-primary" onClick={() => nav("/materials")}>
-                  자재 찾기
+              <p className="hero-v4-emphasis">
+                20년 이상 현장 경험을 바탕으로 업자와 시공 현장에 맞는 자재를 빠르게 찾을 수 있습니다.
+              </p>
+              <div className="hero-v4-buttons">
+                <button className="btn-hero-v4-dark" onClick={() => nav("/materials")}>
+                  자재찾기
                 </button>
-                <button className="btn-hero-secondary" onClick={() => nav("/samplebooks")}>
+                <button className="btn-hero-v4-beige" onClick={() => nav("/samplebooks")}>
                   샘플북 보기
                 </button>
-                <button className="btn-hero-outline" onClick={() => nav("/estimate/request")}>
-                  견적 문의
+                <button className="btn-hero-v4-white" onClick={() => nav("/estimate/request")}>
+                  자동견적 요청
                 </button>
               </div>
             </div>
 
-            {/* Right Card (Customer info - Desktop only via CSS) */}
-            <div className="hero-v2-contact-card">
-              <div className="hero-card-section">
-                <h3 className="hero-card-title">고객센터</h3>
-                <a href="tel:02-487-9775" className="hero-card-phone">02-487-9775</a>
-                <p className="hero-card-info">평일 07:00 - 18:00</p>
-                <p className="hero-card-info">주말 07:00 - 12:00</p>
-                <p className="hero-card-info email">이메일: <a href="mailto:dongk3089@naver.com">dongk3089@naver.com</a></p>
+            {/* Right Visual Col (B - CSS-only elegant interior board panels) */}
+            <div className="hero-v4-visual-col">
+              <div className="interior-mood-board">
+                <div className="board-decor-circle"></div>
+                
+                {/* Board 1: Deco Tile Board */}
+                <div className="mood-panel deco-panel">
+                  <span className="panel-badge">Deco Tile</span>
+                  <div className="panel-texture tile-texture"></div>
+                  <div className="panel-meta">
+                    <h5>Modern Concrete Grey</h5>
+                    <span>600 x 600 mm</span>
+                  </div>
+                </div>
+
+                {/* Board 2: Wood Flooring Board */}
+                <div className="mood-panel wood-panel">
+                  <span className="panel-badge">Wood Floor</span>
+                  <div className="panel-texture wood-texture"></div>
+                  <div className="panel-meta">
+                    <h5>Natural Oak Classic</h5>
+                    <span>7.5T | Premium Wood</span>
+                  </div>
+                </div>
+
+                {/* Board 3: Wallpaper Board */}
+                <div className="mood-panel wallpaper-panel">
+                  <span className="panel-badge gold-badge">Wallpaper</span>
+                  <div className="panel-texture paper-texture"></div>
+                  <div className="panel-meta">
+                    <h5>Cream Plaster Silk</h5>
+                    <span>Premium Diadem Line</span>
+                  </div>
+                </div>
               </div>
-              <div className="hero-card-divider"></div>
-              <div className="hero-card-section">
-                <h3 className="hero-card-title">무통장 입금</h3>
-                <p className="hero-card-bank">농협</p>
-                <p className="hero-card-account">301-0298-9197-81</p>
-                <p className="hero-card-info depositor">예금주: 동경바닥재</p>
+            </div>
+
+          </div>
+        </section>
+
+        {/* ==========================================
+           C. Hero 하단 핵심 카드 3개
+           ========================================== */}
+        <section className="hero-bottom-cards container">
+          <div className="bottom-cards-grid">
+            <div className="bottom-card reveal">
+              <div className="bottom-card-icon-box">
+                <Layers size={22} />
               </div>
+              <h3 className="bottom-card-title">자재 판매</h3>
+              <p className="bottom-card-desc">데코타일, 장판, 마루, 벽지, 카페트타일을 현장에 맞게 확인할 수 있습니다.</p>
+            </div>
+
+            <div className="bottom-card reveal">
+              <div className="bottom-card-icon-box">
+                <BookOpen size={22} />
+              </div>
+              <h3 className="bottom-card-title">샘플북 확인</h3>
+              <p className="bottom-card-desc">브랜드별 PDF 샘플북으로 색상과 제품 번호를 빠르게 비교합니다.</p>
+            </div>
+
+            <div className="bottom-card reveal">
+              <div className="bottom-card-icon-box">
+                <Briefcase size={22} />
+              </div>
+              <h3 className="bottom-card-title">시공 상담</h3>
+              <p className="bottom-card-desc">현장 조건, 평수, 일정에 맞춰 자재와 시공 방향을 정리합니다.</p>
             </div>
           </div>
         </section>
 
-        {/* Mobile Contact Box (Only visible on screens <= 900px via CSS) */}
-        <div className="hero-v2-mobile-contact-container container">
-          <div className="hero-v2-contact-card mobile-only-card">
-            <div className="hero-card-section">
-              <h3 className="hero-card-title">고객센터</h3>
-              <a href="tel:02-487-9775" className="hero-card-phone">02-487-9775</a>
-              <p className="hero-card-info">평일 07:00 - 18:00 / 주말 07:00 - 12:00</p>
-              <p className="hero-card-info email">이메일: <a href="mailto:dongk3089@naver.com">dongk3089@naver.com</a></p>
-            </div>
-            <div className="hero-card-divider"></div>
-            <div className="hero-card-section">
-              <h3 className="hero-card-title">무통장 입금</h3>
-              <p className="hero-card-bank">농협</p>
-              <p className="hero-card-account">301-0298-9197-81</p>
-              <p className="hero-card-info depositor">예금주: 동경바닥재</p>
-            </div>
-          </div>
-        </div>
-
         {/* ==========================================
-           1.5 Trust Points Bar / 신뢰 포인트 바
+           D. 자재 카테고리 섹션
            ========================================== */}
-        <section className="showroom-trust-bar">
-          <div className="trust-bar-container container">
-            <div className="trust-bar-item">
-              <div className="trust-bar-icon-wrap">
-                <Award size={20} />
-              </div>
-              <div className="trust-bar-text">
-                <h4 className="trust-bar-item-title">20년 이상 시공 경험</h4>
-                <p className="trust-bar-item-desc">오직 바닥과 벽만 다져온 노하우</p>
-              </div>
-            </div>
-            <div className="trust-bar-divider"></div>
-            
-            <div className="trust-bar-item">
-              <div className="trust-bar-icon-wrap">
-                <ShieldCheck size={20} />
-              </div>
-              <div className="trust-bar-text">
-                <h4 className="trust-bar-item-title">주요 브랜드 취급</h4>
-                <p className="trust-bar-item-desc">KCC, LX, 동신 등 정품 자재</p>
-              </div>
-            </div>
-            <div className="trust-bar-divider"></div>
-
-            <div className="trust-bar-item">
-              <div className="trust-bar-icon-wrap">
-                <FileText size={20} />
-              </div>
-              <div className="trust-bar-text">
-                <h4 className="trust-bar-item-title">맞춤 상담 & 견적</h4>
-                <p className="trust-bar-item-desc">현장 특성에 맞춘 자재 추천</p>
-              </div>
-            </div>
-            <div className="trust-bar-divider"></div>
-
-            <div className="trust-bar-item">
-              <div className="trust-bar-icon-wrap">
-                <CheckCircle size={20} />
-              </div>
-              <div className="trust-bar-text">
-                <h4 className="trust-bar-item-title">정직한 자재 & 시공</h4>
-                <p className="trust-bar-item-desc">정량 자재 사용과 책임 AS 보증</p>
-              </div>
-            </div>
-            <div className="trust-bar-divider"></div>
-
-            <div className="trust-bar-item">
-              <div className="trust-bar-icon-wrap">
-                <Users size={20} />
-              </div>
-              <div className="trust-bar-text">
-                <h4 className="trust-bar-item-title">업자/현장 상담 가능</h4>
-                <p className="trust-bar-item-desc">대량 납품 및 전문 시공 지원</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-
-
-        {/* ==========================================
-           2. Category Showcase Section
-           ========================================== */}
-        <section className="showroom-category-v2 reveal">
-          <div className="section-header-v2 container">
-            <span className="section-subtitle-v2">COLLECTIONS</span>
-            <h2 className="section-title-v2">주요 자재 카테고리</h2>
-            <p className="section-desc-v2">
-              상가, 오피스, 아파트 등 용도에 맞추어 구성된 전문 컬렉션입니다.
+        <section className="home-category-section reveal">
+          <div className="section-header-v4 container">
+            <h2 className="section-title-v4">자재 카테고리</h2>
+            <p className="section-desc-v4">
+              현장에서 자주 찾는 바닥재와 벽지 자재를 빠르게 확인하세요.
             </p>
           </div>
 
-          <div className="category-v2-grid container">
+          <div className="category-grid-v4 container">
             {categories.map((cat, idx) => (
               <div 
                 key={idx} 
-                className="category-v2-card" 
+                className="category-card-v4" 
                 onClick={() => nav(cat.path)}
               >
-                <div className="category-v2-card-img-wrap">
-                  <CategoryCardImage 
-                    src={cat.image} 
-                    fallback={cat.fallbackImage} 
-                    alt={cat.name} 
-                  />
+                <div className="category-card-header">
+                  <span className="category-card-num">0{idx + 1}</span>
+                  <h3 className="category-card-title">{cat.name}</h3>
                 </div>
-                <div className="category-v2-card-body">
-                  <span className="category-v2-card-eng">{cat.engName}</span>
-                  <h3 className="category-v2-card-title">{cat.name}</h3>
-                  <p className="category-v2-card-desc">{cat.desc}</p>
-                  <span className="category-v2-card-link">
-                    자재 보기 <ChevronRight size={14} />
-                  </span>
-                </div>
+                <p className="category-card-desc">{cat.desc}</p>
+                <span className="category-card-link">
+                  자재 바로가기 <ChevronRight size={13} />
+                </span>
               </div>
             ))}
           </div>
         </section>
 
         {/* ==========================================
-           3. Sample Book Section (Catalog Layout)
+           E. 추천 자재 섹션
            ========================================== */}
-        <section className="showroom-samplebooks-v2 reveal">
-          <div className="section-header-v2 container">
-            <span className="section-subtitle-v2">DIGITAL CATALOG</span>
-            <h2 className="section-title-v2">브랜드별 샘플북</h2>
-            <p className="section-desc-v2">
-              KCC, LX, 동신, 개나리 등 주요 브랜드의 샘플북을 한눈에 확인하세요.
+        <section className="home-recommend-section reveal">
+          <div className="section-header-v4 container">
+            <h2 className="section-title-v4">오늘의 추천 자재</h2>
+            <p className="section-desc-v4">
+              동경바닥재에서 자주 찾는 브랜드와 제품군입니다.
             </p>
           </div>
 
-          <div className="samplebooks-v2-grid container">
-            {homeSampleBooks.map((book) => (
+          <div className="recommend-grid-v4 container">
+            {recommendations.map((rec, idx) => (
               <div 
-                key={book.id} 
-                className="samplebook-v2-card"
-                onClick={() => {
-                  if (book.openInNewTab) {
-                    window.open(book.pdf || "#", "_blank", "noopener,noreferrer");
-                  } else {
-                    nav(`/samplebooks?bookId=${book.id}`);
-                  }
-                }}
+                key={idx} 
+                className="recommend-card-v4"
+                onClick={() => nav(rec.path)}
               >
-                <div className="samplebook-v2-cover-frame">
-                  <img src={book.cover || "/images/cross_section.png"} alt={book.title} className="samplebook-v2-cover-img" />
-                  <div className="samplebook-v2-overlay-btn">
-                    <BookOpen size={16} /> <span>샘플북 열기</span>
-                  </div>
+                <div className="recommend-card-header">
+                  <span className="recommend-card-brand">{rec.brand}</span>
+                  <span className="recommend-card-type">{rec.type}</span>
                 </div>
-                <div className="samplebook-v2-info">
-                  <span className="samplebook-v2-brand">{book.brand}</span>
-                  <h3 className="samplebook-v2-title">{book.title}</h3>
-                  <p className="samplebook-v2-desc">{book.description}</p>
-                  {book.pdf && (
-                    <a 
-                      href={book.pdf} 
-                      download 
-                      onClick={(e) => e.stopPropagation()} 
-                      className="samplebook-v2-download-btn"
-                    >
-                      <Download size={13} /> <span>PDF 다운로드</span>
-                    </a>
-                  )}
-                </div>
+                <h3 className="recommend-card-name">{rec.name}</h3>
+                <p className="recommend-card-desc">{rec.desc}</p>
+                <button className="btn-recommend-card-link">
+                  자세히 보기 <ArrowRight size={13} />
+                </button>
               </div>
             ))}
           </div>
         </section>
 
         {/* ==========================================
-           4. Featured Materials Section (Curation Grid)
+           F. 동경바닥재 소개 섹션
            ========================================== */}
-        <section className="showroom-featured-v2 reveal">
-          <div className="section-header-v2 container">
-            <span className="section-subtitle-v2">CURATED LIST</span>
-            <h2 className="section-title-v2">추천 자재</h2>
-            <p className="section-desc-v2">
-              현장에서 가장 선호도가 높고 시공 퀄리티가 검증된 자재들을 소개합니다.
-            </p>
-          </div>
-
-          <div className="featured-v2-grid container">
-            {featuredMaterials.map((mat) => (
-              <div 
-                key={mat.id} 
-                className="featured-v2-card"
-                onClick={() => nav(`/materials/${mat.id}`)}
-              >
-                <div className="featured-v2-img-frame">
-                  <img src={mat.image} alt={mat.name} className="featured-v2-img" />
-                </div>
-                <div className="featured-v2-body">
-                  <div className="featured-v2-meta">
-                    <span className="featured-v2-brand">{mat.brand}</span>
-                    <span className="featured-v2-specs">{mat.specs}</span>
-                  </div>
-                  <h3 className="featured-v2-name">{mat.name}</h3>
-                  <p className="featured-v2-desc">{mat.desc}</p>
-                  <span className="featured-v2-more-link">자재 상세정보 보기 <ArrowRight size={14} /></span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* ==========================================
-           5. Project / 시공사례 Section
-           ========================================== */}
-        <section className="showroom-projects-v2 reveal">
-          <div className="section-header-v2 container">
-            <span className="section-subtitle-v2">PORTFOLIO</span>
-            <h2 className="section-title-v2">시공사례</h2>
-            <p className="section-desc-v2">
-              주거공간, 상업공간, 오피스 현장에서 완성된 바닥과 벽의 완벽한 조화
-            </p>
-          </div>
-
-          <div className="projects-v2-grid container">
-            {projects.map((proj) => (
-              <div key={proj.id} className="project-v2-card">
-                <div className="project-v2-img-frame">
-                  <img src={proj.image} alt={proj.title} className="project-v2-img" />
-                </div>
-                <div className="project-v2-body">
-                  <span className="project-v2-cat">{proj.category}</span>
-                  <h3 className="project-v2-title">{proj.title}</h3>
-                  <div className="project-v2-details">
-                    <div className="project-v2-detail-item">
-                      <span className="detail-lbl">사용 자재</span>
-                      <span className="detail-val">{proj.material}</span>
-                    </div>
-                    <div className="project-v2-detail-item">
-                      <span className="detail-lbl">시공 범위</span>
-                      <span className="detail-val">{proj.range}</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* ==========================================
-           6. Trust Section (Highlights & Numbers)
-           ========================================== */}
-        <section className="showroom-trust-v2 reveal">
-          <div className="trust-v2-container container">
-            <div className="trust-v2-grid">
-              <div className="trust-v2-item">
-                <span className="trust-v2-num">20+</span>
-                <h4 className="trust-v2-title">시공 경험</h4>
-                <p className="trust-v2-desc">20년 이상 오직 바닥재와 벽지 한 분야만을 전문으로 다져온 신뢰와 기술력</p>
-              </div>
-              <div className="trust-v2-item">
-                <span className="trust-v2-num">1,000+</span>
-                <h4 className="trust-v2-title">누적 시공 현장</h4>
-                <p className="trust-v2-desc">아파트, 주택, 사무실, 쇼룸, 상가 등 다양한 규모와 환경의 완벽한 시공 경험</p>
-              </div>
-              <div className="trust-v2-item">
-                <span className="trust-v2-num">100%</span>
-                <h4 className="trust-v2-title">정품 자재 시공</h4>
-                <p className="trust-v2-desc">KCC, LX, 동신, 개나리 등 국내 최고 브랜드의 공식 대리점 정품만을 사용</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* ==========================================
-           7. Contact / 견적문의 Section
-           ========================================== */}
-        <section className="showroom-contact-v2 reveal">
-          <div className="contact-v2-box container">
-            <div className="contact-v2-content">
-              <span className="contact-v2-tag">CONSULTING & ESTIMATE</span>
-              <h2 className="contact-v2-heading">자재 선택이 어렵다면<br />동경바닥재가 도와드립니다.</h2>
-              <p className="contact-v2-subheading">
-                현장 용도, 평수, 브랜드, 예산에 맞춰 적합한 바닥재와 벽지를 제안합니다.<br />
-                수도권 무료 방문 실측 및 자재 샘플 상담을 지금 바로 받아보세요.
+        <section className="home-about-section reveal">
+          <div className="about-container-v4 container">
+            
+            {/* Left intro text block */}
+            <div className="about-text-col">
+              <h2 className="about-title-v4">동경바닥재가<br />현장에 맞게 도와드립니다.</h2>
+              <p className="about-desc-v4">
+                자재 선택부터 시공 일정, 현장 조건 확인까지 바닥재와 벽지 작업에 필요한 과정을 더 쉽고 빠르게 정리합니다. 업자와 시공 현장에서 바로 사용할 수 있는 실용적인 구조를 목표로 합니다.
               </p>
-              
-              <div className="contact-v2-info-row">
-                <div className="contact-v2-info-item">
-                  <span className="info-lbl">대표 문의 번호</span>
-                  <a href="tel:02-487-9775" className="info-val-phone">02-487-9775</a>
+            </div>
+
+            {/* Right checklist highlights block */}
+            <div className="about-points-col">
+              <div className="about-point-item">
+                <div className="about-point-icon">
+                  <CheckCircle size={20} />
                 </div>
-                <div className="contact-v2-info-item">
-                  <span className="info-lbl">운영 시간</span>
-                  <span className="info-val-text">평일 07:00 ~ 18:00 / 주말 07:00 ~ 12:00</span>
-                </div>
+                <span className="about-point-text">20년 이상 시공 경험</span>
               </div>
 
-              <div className="contact-v2-buttons">
-                <a href="tel:02-487-9775" className="btn-contact-v2-primary">
-                  전화 상담하기
-                </a>
-                <button className="btn-contact-v2-secondary" onClick={() => nav("/estimate/request")}>
-                  온라인 견적 문의
-                </button>
-                <button className="btn-contact-v2-outline" onClick={() => nav("/materials")}>
-                  자재 찾아보기
-                </button>
+              <div className="about-point-item">
+                <div className="about-point-icon">
+                  <CheckCircle size={20} />
+                </div>
+                <span className="about-point-text">브랜드별 자재 비교</span>
+              </div>
+
+              <div className="about-point-item">
+                <div className="about-point-icon">
+                  <CheckCircle size={20} />
+                </div>
+                <span className="about-point-text">샘플북 PDF 확인</span>
+              </div>
+
+              <div className="about-point-item">
+                <div className="about-point-icon">
+                  <CheckCircle size={20} />
+                </div>
+                <span className="about-point-text">빠른 견적 요청</span>
+              </div>
+
+              <div className="about-point-item">
+                <div className="about-point-icon">
+                  <CheckCircle size={20} />
+                </div>
+                <span className="about-point-text">현장 중심 상담</span>
               </div>
             </div>
+
           </div>
         </section>
+
+        {/* ==========================================
+           G. 우측 고정 상담 박스 (Quick Floating Consult Box)
+           ========================================== */}
+        <div className="floating-consult-box-v4">
+          <div className="floating-box-header">
+            <h4>동경바닥재 상담</h4>
+          </div>
+          <div className="floating-box-body">
+            <div className="consult-quick-links">
+              <div className="quick-link-item">
+                <span className="quick-bullet"></span>
+                <span>자재 문의</span>
+              </div>
+              <div className="quick-link-item" onClick={() => nav("/samplebooks")}>
+                <span className="quick-bullet"></span>
+                <span className="clickable-link">샘플북 확인</span>
+              </div>
+              <div className="quick-link-item" onClick={() => nav("/estimate/request")}>
+                <span className="quick-bullet"></span>
+                <span className="clickable-link">자동견적 요청</span>
+              </div>
+            </div>
+            <button className="btn-floating-action" onClick={() => nav("/estimate/request")}>
+              견적 요청하기
+            </button>
+          </div>
+        </div>
 
       </div>
     </MainLayout>
