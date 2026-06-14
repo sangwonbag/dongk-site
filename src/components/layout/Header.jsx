@@ -56,20 +56,6 @@ export default function Header() {
     }
   };
 
-  const handleInquiryClick = () => {
-    if (location.pathname === "/") {
-      const contactSection = document.getElementById("home-contact-section");
-      if (contactSection) {
-        contactSection.scrollIntoView({ behavior: 'smooth' });
-        return;
-      }
-    }
-    const footer = document.querySelector('footer');
-    if (footer) {
-      footer.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   const [q, setQ] = useState(() => {
     const params = new URLSearchParams(location.search);
     return params.get("search") || "";
@@ -279,7 +265,8 @@ export default function Header() {
         <div className="container header-row">
           {/* Logo */}
           <div className="header-logo" onClick={() => nav("/")}>
-            <span className="logo-title">동경바닥재</span>
+            <span className="logo-title">DK Floor</span>
+            <span className="logo-subtitle">동경바닥재</span>
           </div>
 
           {/* Desktop Navigation Links */}
@@ -287,8 +274,8 @@ export default function Header() {
             <span className={`menu-link ${location.pathname === '/' ? 'active' : ''}`} onClick={() => nav("/")}>홈</span>
             <span className={`menu-link ${location.pathname === '/materials' ? 'active' : ''}`} onClick={() => nav("/materials")}>자재찾기</span>
             <span className={`menu-link ${location.pathname === '/samplebooks' ? 'active' : ''}`} onClick={() => nav("/samplebooks")}>샘플북</span>
-            <span className={`menu-link ${location.pathname === '/estimate/request' || location.pathname === '/estimate' || location.pathname === '/quote' ? 'active' : ''}`} onClick={() => nav("/estimate/request")}>자동견적</span>
-            <span className="menu-link" onClick={handleInquiryClick}>문의</span>
+            <span className={`menu-link ${location.pathname === '/cases' ? 'active' : ''}`} onClick={() => nav("/cases")}>시공사례</span>
+            <span className={`menu-link ${location.pathname === '/estimate/request' || location.pathname === '/estimate' ? 'active' : ''}`} onClick={() => nav("/estimate/request")}>견적문의</span>
           </nav>
 
           {/* Search Bar */}
@@ -416,8 +403,8 @@ export default function Header() {
           <span className="drawer-link" onClick={() => { nav("/"); setMobileMenuOpen(false); }}>홈</span>
           <span className="drawer-link" onClick={() => { nav("/materials"); setMobileMenuOpen(false); }}>자재찾기</span>
           <span className="drawer-link" onClick={() => { nav("/samplebooks"); setMobileMenuOpen(false); }}>샘플북</span>
-          <span className="drawer-link" onClick={() => { nav("/estimate/request"); setMobileMenuOpen(false); }}>자동견적</span>
-          <span className="drawer-link" onClick={() => { handleInquiryClick(); setMobileMenuOpen(false); }}>문의</span>
+          <span className="drawer-link" onClick={() => { nav("/cases"); setMobileMenuOpen(false); }}>시공사례</span>
+          <span className="drawer-link" onClick={() => { nav("/estimate/request"); setMobileMenuOpen(false); }}>견적문의</span>
         </div>
         <div className="drawer-actions">
           <button className="drawer-cart-btn" onClick={() => { nav("/cart"); setMobileMenuOpen(false); }}>
