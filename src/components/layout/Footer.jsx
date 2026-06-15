@@ -29,7 +29,7 @@ export default function Footer() {
                     </p>
                 </div>
                 <p className="footer-copyright">
-                    Copyright © 2026 {COMPANY_CONFIG.serviceName}. All rights reserved.
+                    ⓒ 2025 DongKyung Flooring. All rights reserved.
                 </p>
             </div>
         </footer>
