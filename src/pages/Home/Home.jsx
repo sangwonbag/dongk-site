@@ -4,6 +4,7 @@ import MainLayout from "../../components/layout/MainLayout";
 import { sampleBooks } from "../../data/samplebooks.db";
 import { materials } from "../../data/materials.db";
 import { getThumbnailImage } from "../../utils/galleryUtils";
+import { fetchAllProducts } from "../../utils/supabaseFetcher";
 import { 
   ChevronRight, 
   Phone, 
@@ -24,14 +25,21 @@ const FeaturedCard = ({ mat }) => {
   const [imgUrl, setImgUrl] = useState("/images/no-image.svg");
 
   useEffect(() => {
+    if (!mat) return;
     let isMounted = true;
     getThumbnailImage(mat).then((url) => {
-      if (isMounted && url) {
-        setImgUrl(url);
+      if (isMounted) {
+        setImgUrl(url || "/images/no-image.svg");
+      }
+    }).catch(() => {
+      if (isMounted) {
+        setImgUrl("/images/no-image.svg");
       }
     });
     return () => { isMounted = false; };
   }, [mat]);
+
+  if (!mat) return null;
 
   const formattedSpecs = mat.specs
     ? [mat.specs.thickness, mat.specs.size, mat.specs.packing].filter(Boolean).join(" · ")
@@ -58,7 +66,7 @@ const FeaturedCard = ({ mat }) => {
     >
       <div className="featured-v2-img-frame">
         <img 
-          src={imgUrl} 
+          src={imgUrl || "/images/no-image.svg"} 
           alt={mat.name} 
           className="featured-v2-img" 
           onError={(e) => { e.target.onerror = null; e.target.src = "/images/no-image.svg"; }}
@@ -383,11 +391,47 @@ export default function Home() {
   const [featuredItems, setFeaturedItems] = useState([]);
 
   useEffect(() => {
-    const candidates = (materials || []).filter(m => ['KCC', '동신', '유성'].includes(m.brand));
-    if (candidates.length > 0) {
-      const shuffled = [...candidates].sort(() => 0.5 - Math.random());
-      setFeaturedItems(shuffled.slice(0, 4));
-    }
+    let isMounted = true;
+    fetchAllProducts().then((data) => {
+      if (!isMounted) return;
+      const kcc = (data || []).filter(m => m.brand === 'KCC');
+      const dongshin = (data || []).filter(m => m.brand === '동신');
+      const yuseong = (data || []).filter(m => m.brand === '유성');
+
+      const selected = [];
+      if (kcc.length > 0) selected.push(kcc[Math.floor(Math.random() * kcc.length)]);
+      if (dongshin.length > 0) selected.push(dongshin[Math.floor(Math.random() * dongshin.length)]);
+      if (yuseong.length > 0) selected.push(yuseong[Math.floor(Math.random() * yuseong.length)]);
+
+      const remaining = (data || []).filter(m => ['KCC', '동신', '유성'].includes(m.brand) && !selected.map(s => s.id).includes(m.id));
+      if (remaining.length > 0 && selected.length < 4) {
+        const shuffledRemaining = [...remaining].sort(() => 0.5 - Math.random());
+        selected.push(...shuffledRemaining.slice(0, 4 - selected.length));
+      }
+
+      const finalShuffled = [...selected].sort(() => 0.5 - Math.random());
+      setFeaturedItems(finalShuffled);
+    }).catch(err => {
+      console.error("Failed to load featured items:", err);
+      // Fallback local
+      const kcc = (materials || []).filter(m => m.brand === 'KCC');
+      const dongshin = (materials || []).filter(m => m.brand === '동신');
+      const yuseong = (materials || []).filter(m => m.brand === '유성');
+
+      const selected = [];
+      if (kcc.length > 0) selected.push(kcc[Math.floor(Math.random() * kcc.length)]);
+      if (dongshin.length > 0) selected.push(dongshin[Math.floor(Math.random() * dongshin.length)]);
+      if (yuseong.length > 0) selected.push(yuseong[Math.floor(Math.random() * yuseong.length)]);
+
+      const remaining = (materials || []).filter(m => ['KCC', '동신', '유성'].includes(m.brand) && !selected.map(s => s.id).includes(m.id));
+      if (remaining.length > 0 && selected.length < 4) {
+        const shuffledRemaining = [...remaining].sort(() => 0.5 - Math.random());
+        selected.push(...shuffledRemaining.slice(0, 4 - selected.length));
+      }
+      const finalShuffled = [...selected].sort(() => 0.5 - Math.random());
+      setFeaturedItems(finalShuffled);
+    });
+    return () => { isMounted = false; };
   }, []);
 
   // 6 Material categories
@@ -444,7 +488,7 @@ export default function Home() {
 
   // Select 4 major brand samplebooks for home feature
   const homeSampleBooks = useMemo(() => {
-    const targets = ["lx-new-chungmac-2025", "dongshin-arthouse-2025", "kcc-senstyle-trendy-2025", "gaenari-artbook"];
+    const targets = ["lx-new-chungmac-2025", "dongshin-polyma-samplebook", "kcc-senstyle-trendy-2025", "gaenari-artbook"];
     return sampleBooks.filter(b => targets.includes(b.id));
   }, []);
 

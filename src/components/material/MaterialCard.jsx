@@ -56,26 +56,47 @@ const MaterialCard = ({ material }) => {
                     {material.category && <span className="card-cat-divider">|</span>}
                     <span className="card-category">{material.category}</span>
                 </div>
-                <div className="card-name">{material.name}</div>
+                <div className="card-name">{material.brand === '동신' && material.category === '데코타일' && ['아트타일', '아트하우스', '아트에코차음'].includes(material.line) ? material.code : material.name}</div>
                 
-                <div className="card-meta">
-                    {material.code && (
+                {material.brand === '동신' && material.category === '데코타일' && ['아트타일', '아트하우스', '아트에코차음'].includes(material.line) ? (
+                    <div className="card-meta">
                         <div className="card-meta-item">
-                            <span className="meta-label">코드</span>
-                            <span className="meta-value">{material.code}</span>
+                            <span className="meta-label">라인업</span>
+                            <span className="meta-value">{material.line}</span>
                         </div>
-                    )}
-                    {((material.specs && (material.specs.thickness || material.specs.size || material.specs.packing)) || material.thickness) && (
+                        <div className="card-meta-item">
+                            <span className="meta-label">시리즈</span>
+                            <span className="meta-value">{material.series}</span>
+                        </div>
                         <div className="card-meta-item">
                             <span className="meta-label">규격</span>
-                            <span className="meta-value">
-                                {material.specs
-                                    ? [material.specs.thickness, material.specs.size, material.specs.packing].filter(Boolean).join(' · ')
-                                    : material.thickness}
-                            </span>
+                            <span className="meta-value">{material.specs?.size || material.spec}</span>
                         </div>
-                    )}
-                </div>
+                        <div className="card-meta-item">
+                            <span className="meta-label">포장</span>
+                            <span className="meta-value">{material.specs?.packing || material.package}</span>
+                        </div>
+                    </div>
+                ) : (
+                    <div className="card-meta">
+                        {material.code && (
+                            <div className="card-meta-item">
+                                <span className="meta-label">코드</span>
+                                <span className="meta-value">{material.code}</span>
+                            </div>
+                        )}
+                        {((material.specs && (material.specs.thickness || material.specs.size || material.specs.packing)) || material.thickness) && (
+                            <div className="card-meta-item">
+                                <span className="meta-label">규격</span>
+                                <span className="meta-value">
+                                    {material.specs
+                                        ? [material.specs.thickness, material.specs.size, material.specs.packing].filter(Boolean).join(' · ')
+                                        : material.thickness}
+                                </span>
+                            </div>
+                        )}
+                    </div>
+                )}
 
                 <div className="card-price-row">
                     <div className="card-price">

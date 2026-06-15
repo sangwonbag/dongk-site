@@ -21,6 +21,7 @@ import { supabase } from "../../lib/supabaseClient";
 import { getCurrentUser } from "../../lib/auth";
 import { materials } from "../../data/materials.db"; // Local fallback data
 import { getComputedBrand } from "../../utils/brandUtils";
+import { dongshinPolymer2026 } from "../../data/dongshinPolymer2026.js";
 import "./MaterialDetail.css";
 
 // Helper function to infer brand from code prefix if missing
@@ -215,10 +216,14 @@ export default function MaterialDetail() {
             category: inferredCategory
           });
 
+          const dongshinMatch = (inferredBrand === '동신' && inferredCategory === '데코타일')
+            ? dongshinPolymer2026.find(d => d.code.toUpperCase() === itemCode.toUpperCase())
+            : null;
+
           setItem({
             id: localItem.id || localItem.code,
             code: itemCode,
-            name: localItem.name || "",
+            name: dongshinMatch ? dongshinMatch.code : (localItem.name || ""),
             brand: inferredBrand,
             category: inferredCategory,
             price: localItem.price || 0,
@@ -233,7 +238,11 @@ export default function MaterialDetail() {
             images: localItem.images || [],
             description: localItem.description || "",
             features: localItem.features || [],
-            recommendedSpaces: localItem.recommendedSpaces || []
+            recommendedSpaces: localItem.recommendedSpaces || [],
+            line: dongshinMatch ? dongshinMatch.line : (localItem.line || ""),
+            collection: dongshinMatch ? dongshinMatch.collection : (localItem.collection || null),
+            series: dongshinMatch ? dongshinMatch.series : (localItem.series || null),
+            catalog: dongshinMatch ? dongshinMatch.catalog : (localItem.catalog || null)
           });
           setLoading(false);
           return;
@@ -280,10 +289,14 @@ export default function MaterialDetail() {
           category: inferredCategory
         });
 
+        const dongshinMatch = (inferredBrand === '동신' && inferredCategory === '데코타일')
+          ? dongshinPolymer2026.find(d => d.code.toUpperCase() === itemCode.toUpperCase())
+          : null;
+
         setItem({
           id: p.slug || String(p.id),
           code: itemCode,
-          name: p.name || "",
+          name: dongshinMatch ? dongshinMatch.code : (p.name || ""),
           brand: inferredBrand,
           category: inferredCategory,
           price: p.price || 0,
@@ -297,7 +310,11 @@ export default function MaterialDetail() {
           image: p.image_url || null,
           description: p.description || "",
           features: p.features || [],
-          recommendedSpaces: p.recommended_spaces || []
+          recommendedSpaces: p.recommended_spaces || [],
+          line: dongshinMatch ? dongshinMatch.line : (p.description || ""),
+          collection: dongshinMatch ? dongshinMatch.collection : null,
+          series: dongshinMatch ? dongshinMatch.series : null,
+          catalog: dongshinMatch ? dongshinMatch.catalog : null
         });
       }
       setLoading(false);
@@ -504,6 +521,11 @@ export default function MaterialDetail() {
 
   const spaceExamples = getVirtualSpaceExamples(item, images);
 
+  const detailContentImg = (() => {
+    if (!item || getComputedBrand(item) !== "동신") return null;
+    return "/images/dongshin_tile_detail.jpg";
+  })();
+
   return (
     <MainLayout className="product-detail-page">
       <div className="showroom-detail-bg">
@@ -689,34 +711,86 @@ export default function MaterialDetail() {
                 <div className="spec-table-frame">
                   <table className="tech-spec-table">
                     <tbody>
-                      <tr>
-                        <th>제조 브랜드</th>
-                        <td>{getComputedBrand(item)}</td>
-                        <th>카테고리</th>
-                        <td>{item.category || "자재"}</td>
-                      </tr>
-                      <tr>
-                        <th>자재 식별 코드</th>
-                        <td>{item.code || "코드 정보 없음"}</td>
-                        <th>두께 규격</th>
-                        <td>{item.specs?.thickness || item.thickness || "표준 규격"}</td>
-                      </tr>
-                      <tr>
-                        <th>제품 가로세로 규격</th>
-                        <td>{item.specs?.size || "규격 확인 필요"}</td>
-                        <th>포장 패킹 단위</th>
-                        <td>{item.specs?.packing || "상담 확인 필요"}</td>
-                      </tr>
-                      <tr>
-                        <th>판매 단위</th>
-                        <td>평 (자재 1박스는 약 1평 면적을 마감합니다)</td>
-                        <th>권장 접착 자재</th>
-                        <td>친환경 전용 에폭시/본드</td>
-                      </tr>
+                      {item.brand === '동신' && item.category === '데코타일' && ['아트타일', '아트하우스', '아트에코차음'].includes(item.line) ? (
+                        <>
+                          <tr>
+                            <th>제조 브랜드</th>
+                            <td>{getComputedBrand(item)}</td>
+                            <th>카테고리</th>
+                            <td>{item.category || "자재"}</td>
+                          </tr>
+                          <tr>
+                            <th>라인업</th>
+                            <td>{item.line}</td>
+                            <th>컬렉션</th>
+                            <td>{item.collection || "Art Tile"}</td>
+                          </tr>
+                          <tr>
+                            <th>시리즈</th>
+                            <td>{item.series}</td>
+                            <th>자재 식별 코드</th>
+                            <td>{item.code || "코드 정보 없음"}</td>
+                          </tr>
+                          <tr>
+                            <th>제품 가로세로 규격</th>
+                            <td>{item.specs?.size || "규격 확인 필요"}</td>
+                            <th>포장 패킹 단위</th>
+                            <td>{item.specs?.packing || "상담 확인 필요"}</td>
+                          </tr>
+                          <tr>
+                            <th>카탈로그</th>
+                            <td>{item.catalog || "동신포리마 2026 E-Catalog"}</td>
+                            <th>권장 접착 자재</th>
+                            <td>친환경 전용 에폭시/본드</td>
+                          </tr>
+                        </>
+                      ) : (
+                        <>
+                          <tr>
+                            <th>제조 브랜드</th>
+                            <td>{getComputedBrand(item)}</td>
+                            <th>카테고리</th>
+                            <td>{item.category || "자재"}</td>
+                          </tr>
+                          <tr>
+                            <th>자재 식별 코드</th>
+                            <td>{item.code || "코드 정보 없음"}</td>
+                            <th>두께 규격</th>
+                            <td>{item.specs?.thickness || item.thickness || "표준 규격"}</td>
+                          </tr>
+                          <tr>
+                            <th>제품 가로세로 규격</th>
+                            <td>{item.specs?.size || "규격 확인 필요"}</td>
+                            <th>포장 패킹 단위</th>
+                            <td>{item.specs?.packing || "상담 확인 필요"}</td>
+                          </tr>
+                          <tr>
+                            <th>판매 단위</th>
+                            <td>평 (자재 1박스는 약 1평 면적을 마감합니다)</td>
+                            <th>권장 접착 자재</th>
+                            <td>친환경 전용 에폭시/본드</td>
+                          </tr>
+                        </>
+                      )}
                     </tbody>
                   </table>
                 </div>
               </section>
+
+              {/* 제품 상세 정보 이미지 (상세페이지 내용) */}
+              {detailContentImg && (
+                <section className="detail-doc-section detail-page-content-image">
+                  <h2 className="doc-section-title">제품 상세 정보</h2>
+                  <div className="doc-accent-bar"></div>
+                  <div className="detail-content-img-frame" style={{ marginTop: '24px', width: '100%', display: 'flex', justifyContent: 'center', background: '#fcfcfc', padding: '20px', borderRadius: '12px', border: '1px solid var(--border)' }}>
+                    <img 
+                      src={detailContentImg} 
+                      alt={`${item.name} 상세 정보`} 
+                      style={{ maxWidth: '100%', height: 'auto', display: 'block', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }} 
+                    />
+                  </div>
+                </section>
+              )}
 
               {/* Dynamic Virtual Space Showroom Section */}
               <section className="detail-doc-section">

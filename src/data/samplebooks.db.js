@@ -149,32 +149,14 @@ export const sampleBooks = [
 
     // 동신 포리마
     {
-        id: "dongshin-arthouse-2025",
-        title: "2025 동신 아트하우스",
+        id: "dongshin-polyma-samplebook",
+        title: "동신포리마 2026 E-Catalog",
         brand: "동신",
         category: "데코타일",
-        pdf: "/samplebooks/데코타일/동신/동신하우스/dsarthouse_sample.pdf",
-        cover: "/samplebooks/Thumbnail_image/데코타일/동신/동신하우스/dsarthouse_page1.png",
-        description: "동신포리마 주거용 데코타일",
+        pdf: "/samplebooks/데코타일/동신/동신포리마샘플북.pdf",
+        cover: "/samplebooks/Thumbnail_image/데코타일/동신/동신아트타일_cover.jpg",
+        description: "동신포리마 2026 E-Catalog 종합 샘플북",
         isRecommended: true
-    },
-    {
-        id: "dongshin-oa-tile-2023",
-        title: "2023 동신 아트 OA타일",
-        brand: "동신",
-        category: "데코타일",
-        pdf: "/samplebooks/데코타일/동신/동신OA타일/동신포리마 2023 아트OA타일 E-Catalog.pdf",
-        cover: "/samplebooks/Thumbnail_image/데코타일/동신/동신OA타일/동신OA타일썸네일.png",
-        description: "동신포리마 OA타일 컬렉션"
-    },
-    {
-        id: "dongshin-art-eco-sound-2024",
-        title: "2024 동신 아트에코차음",
-        brand: "동신",
-        category: "데코타일",
-        pdf: "/samplebooks/데코타일/동신/동신차음바닥재/동신포리마 2024 아트에코차음 E-Catalog.pdf",
-        cover: "/samplebooks/Thumbnail_image/데코타일/동신/동신차음바닥재/동신에코차음바닥재.png",
-        description: "동신포리마 차음바닥재 컬렉션"
     },
 
     // 녹수

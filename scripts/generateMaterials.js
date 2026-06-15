@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { dongshinPolymer2026 } from '../src/data/dongshinPolymer2026.js';
 
 const SOURCE_DIR = path.resolve(process.cwd(), 'public/images/Thumbnail_Image/materials');
 const OUTPUT_FILE = path.resolve(process.cwd(), 'src/data/generatedMaterials.js');
@@ -163,6 +164,11 @@ groups.forEach((group, key) => {
     x.code === code
   );
   
+  // Search in dongshinPolymer2026 for brand "동신" and category "데코타일"
+  const dongshinMatch = (brand === '동신' && category === '데코타일') 
+    ? dongshinPolymer2026.find(d => d.code.toUpperCase() === code.toUpperCase())
+    : null;
+
   let price = 0;
   let size = "";
   let unit = "";
@@ -170,7 +176,16 @@ groups.forEach((group, key) => {
   let description = line;
   let name = code;
 
-  if (existing) {
+  if (dongshinMatch) {
+    price = dongshinMatch.price;
+    size = dongshinMatch.spec;
+    unit = dongshinMatch.package;
+    // Extract thickness from spec: "600 x 600 x 3.0mm" -> "3.0mm"
+    const tParts = dongshinMatch.spec.split('x');
+    thickness = tParts.length > 0 ? tParts[tParts.length - 1].trim() : "3.0mm";
+    description = dongshinMatch.line;
+    name = dongshinMatch.code;
+  } else if (existing) {
     price = existing.price || 0;
     thickness = existing.thickness || "";
     description = existing.description || line;
@@ -222,7 +237,7 @@ groups.forEach((group, key) => {
     }
   }
 
-  products.push({
+  const productObj = {
     id,
     category,
     brand,
@@ -242,7 +257,16 @@ groups.forEach((group, key) => {
       packing: unit
     },
     description
-  });
+  };
+
+  if (dongshinMatch) {
+    productObj.collection = dongshinMatch.collection;
+    productObj.series = dongshinMatch.series;
+    productObj.catalog = dongshinMatch.catalog;
+    productObj.productName = dongshinMatch.productName;
+  }
+
+  products.push(productObj);
 });
 
 // 5. Generate outputs
