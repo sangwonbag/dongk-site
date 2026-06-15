@@ -2,11 +2,9 @@ import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { signup, checkDuplicateUsername } from "../../lib/auth";
-import { Check } from "lucide-react";
 import "./Signup.css";
-
-import { COMPANY_CONFIG } from "../../data/companyConfig";
 import { getTermsContent } from "../../data/termsText";
+import { COMPANY_CONFIG } from "../../data/companyConfig";
 
 const TERMS_CONTENT = getTermsContent(COMPANY_CONFIG);
 
@@ -18,13 +16,9 @@ export default function Signup() {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
     const [passwordConfirm, setPasswordConfirm] = useState("");
-    const [companyName, setCompanyName] = useState("");
-    const [ownerName, setOwnerName] = useState("");
-    const [businessNumber, setBusinessNumber] = useState("");
-    const [businessAddress, setBusinessAddress] = useState("");
-    const [businessAddressDetail, setBusinessAddressDetail] = useState("");
-    const [businessType, setBusinessType] = useState("");
-    const [businessItem, setBusinessItem] = useState("");
+    const [name, setName] = useState("");
+    const [address, setAddress] = useState("");
+    const [addressDetail, setAddressDetail] = useState("");
     const [phone, setPhone] = useState("");
     const [email, setEmail] = useState("");
 
@@ -32,13 +26,11 @@ export default function Signup() {
     const [agreeAll, setAgreeAll] = useState(false);
     const [agreeTerms, setAgreeTerms] = useState(false);
     const [agreePrivacy, setAgreePrivacy] = useState(false);
-    const [agreeAge, setAgreeAge] = useState(false);
     const [agreeMarketing, setAgreeMarketing] = useState(false);
 
     // Agreement error states
     const [agreeTermsError, setAgreeTermsError] = useState("");
     const [agreePrivacyError, setAgreePrivacyError] = useState("");
-    const [agreeAgeError, setAgreeAgeError] = useState("");
 
     // Modal state for viewing terms
     const [modalOpen, setModalOpen] = useState(false);
@@ -53,30 +45,18 @@ export default function Signup() {
     // Individual input error states
     const [passwordError, setPasswordError] = useState("");
     const [passwordConfirmError, setPasswordConfirmError] = useState("");
-    const [businessNumberError, setBusinessNumberError] = useState("");
     const [phoneError, setPhoneError] = useState("");
     const [emailError, setEmailError] = useState("");
 
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [submitError, setSubmitError] = useState("");
 
-    // Setup redirect path
-
-    // Auto format phone number: supports mobile (010-XXXX-XXXX) and landline (02-XXX-XXXX / 031-XXX-XXXX)
+    // Auto format phone number
     const formatPhoneNumber = (value) => {
         const cleaned = value.replace(/\D/g, "");
-        if (cleaned.length <= 2) {
-            return cleaned;
-        }
-        if (cleaned.startsWith("02")) {
-            if (cleaned.length <= 5) return `${cleaned.slice(0, 2)}-${cleaned.slice(2)}`;
-            if (cleaned.length <= 9) return `${cleaned.slice(0, 2)}-${cleaned.slice(2, 5)}-${cleaned.slice(5)}`;
-            return `${cleaned.slice(0, 2)}-${cleaned.slice(2, 6)}-${cleaned.slice(6, 10)}`;
-        } else {
-            if (cleaned.length <= 6) return `${cleaned.slice(0, 3)}-${cleaned.slice(3)}`;
-            if (cleaned.length <= 10) return `${cleaned.slice(0, 3)}-${cleaned.slice(3, 6)}-${cleaned.slice(6)}`;
-            return `${cleaned.slice(0, 3)}-${cleaned.slice(3, 7)}-${cleaned.slice(7, 11)}`;
-        }
+        if (cleaned.length <= 3) return cleaned;
+        if (cleaned.length <= 7) return `${cleaned.slice(0, 3)}-${cleaned.slice(3)}`;
+        return `${cleaned.slice(0, 3)}-${cleaned.slice(3, 7)}-${cleaned.slice(7, 11)}`;
     };
 
     const handlePhoneChange = (e) => {
@@ -87,33 +67,10 @@ export default function Signup() {
 
     const handlePhoneBlur = () => {
         const cleaned = phone.replace(/\D/g, "");
-        if (cleaned.length < 9) {
-            setPhoneError("대표 전화번호를 정확히 입력해주세요.");
+        if (cleaned.length < 10) {
+            setPhoneError("휴대전화 번호를 정확히 입력해주세요.");
         } else {
             setPhoneError("");
-        }
-    };
-
-    // Auto format business number: XXX-XX-XXXXX (strip non-numbers)
-    const formatBusinessNumber = (value) => {
-        const cleaned = value.replace(/\D/g, "");
-        if (cleaned.length <= 3) return cleaned;
-        if (cleaned.length <= 5) return `${cleaned.slice(0, 3)}-${cleaned.slice(3)}`;
-        return `${cleaned.slice(0, 3)}-${cleaned.slice(3, 5)}-${cleaned.slice(5, 10)}`;
-    };
-
-    const handleBusinessNumberChange = (e) => {
-        const formatted = formatBusinessNumber(e.target.value);
-        setBusinessNumber(formatted);
-        setBusinessNumberError("");
-    };
-
-    const handleBusinessNumberBlur = () => {
-        const cleaned = businessNumber.replace(/\D/g, "");
-        if (cleaned.length !== 10) {
-            setBusinessNumberError("사업자등록번호 10자리를 입력해주세요.");
-        } else {
-            setBusinessNumberError("");
         }
     };
 
@@ -128,7 +85,7 @@ export default function Signup() {
             return false;
         }
         if (!hasLetter || !hasNumber || val.length < 4 || !hasNoKoreanOrSpecial) {
-            setUsernameError("아이디는 영문과 숫자를 조합해서 입력해주세요.");
+            setUsernameError("아이디는 영문과 숫자를 조합해서 4자 이상 입력해주세요.");
             return false;
         }
         setUsernameError("");
@@ -163,7 +120,6 @@ export default function Signup() {
     };
 
     const handleUsernameChange = (e) => {
-        // Remove spaces, Korean, and special characters instantly
         const val = e.target.value.replace(/[^a-zA-Z0-9]/g, "");
         setUsername(val);
         setUsernameError("");
@@ -188,12 +144,8 @@ export default function Signup() {
             setPasswordError("비밀번호를 입력해주세요.");
             return;
         }
-        const hasLetter = /[a-zA-Z]/.test(password);
-        const hasNumber = /[0-9]/.test(password);
-        const hasSpecial = /[!@#$%^&*?_]/.test(password);
-        
-        if (!hasLetter || !hasNumber || !hasSpecial || password.length < 8) {
-            setPasswordError("비밀번호는 영문, 숫자, 특수문자를 모두 포함해야 합니다.");
+        if (password.length < 4) {
+            setPasswordError("비밀번호는 4자 이상 입력해주세요.");
         } else {
             setPasswordError("");
         }
@@ -221,7 +173,7 @@ export default function Signup() {
     // Email validation check
     const handleEmailBlur = () => {
         if (!email) {
-            setEmailError("이메일을 입력해주세요.");
+            setEmailError("");
             return;
         }
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -232,11 +184,11 @@ export default function Signup() {
         }
     };
 
-    // Fake Address Search popup
+    // Address Search popup
     const handleAddressSearch = () => {
-        const mockAddress = prompt("검색할 사업장 주소를 입력하세요 (예: 서울 강동구 천호대로 100):");
+        const mockAddress = prompt("검색할 주소를 입력하세요 (예: 서울 강남구 테헤란로 123):");
         if (mockAddress) {
-            setBusinessAddress(mockAddress);
+            setAddress(mockAddress);
         }
     };
 
@@ -246,13 +198,11 @@ export default function Signup() {
         setAgreeAll(val);
         setAgreeTerms(val);
         setAgreePrivacy(val);
-        setAgreeAge(val);
         setAgreeMarketing(val);
 
         if (val) {
             setAgreeTermsError("");
             setAgreePrivacyError("");
-            setAgreeAgeError("");
         }
     };
 
@@ -266,18 +216,13 @@ export default function Signup() {
         if (checked) setAgreePrivacyError("");
     };
 
-    const handleAgreeAgeChange = (checked) => {
-        setAgreeAge(checked);
-        if (checked) setAgreeAgeError("");
-    };
-
     useEffect(() => {
-        if (agreeTerms && agreePrivacy && agreeAge && agreeMarketing) {
+        if (agreeTerms && agreePrivacy && agreeMarketing) {
             setAgreeAll(true);
         } else {
             setAgreeAll(false);
         }
-    }, [agreeTerms, agreePrivacy, agreeAge, agreeMarketing]);
+    }, [agreeTerms, agreePrivacy, agreeMarketing]);
 
     // Open terms modal helper
     const openTermsModal = (key) => {
@@ -289,35 +234,22 @@ export default function Signup() {
         }
     };
 
-    // Validation for Signup Button activation (Checks inputs only, agreements checked on submit)
+    // Validation check
     const isFormValid = () => {
         const cleanedPhone = phone.replace(/\D/g, "");
-        const cleanedBiz = businessNumber.replace(/\D/g, "");
 
         const isUsernameOk = username.trim().length >= 4 && !usernameError && usernameSuccess;
-        const isPasswordOk = password.length >= 8 && !passwordError;
+        const isPasswordOk = password.length >= 4 && !passwordError;
         const isPasswordConfirmOk = password === passwordConfirm && !passwordConfirmError;
-        
-        const isCompanyNameOk = companyName.trim().length >= 1;
-        const isOwnerNameOk = ownerName.trim().length >= 1;
-        const isBusinessNumberOk = cleanedBiz.length === 10 && !businessNumberError;
-        const isBusinessAddressOk = businessAddress.trim().length >= 1;
-        const isBusinessTypeOk = businessType.trim().length >= 1;
-        const isBusinessItemOk = businessItem.trim().length >= 1;
-        
-        const isPhoneOk = cleanedPhone.length >= 9 && !phoneError;
-        const isEmailOk = email.trim().length >= 1 && !emailError;
+        const isNameOk = name.trim().length >= 1;
+        const isPhoneOk = cleanedPhone.length >= 10 && !phoneError;
+        const isEmailOk = !email.trim() || !emailError;
 
         return (
             isUsernameOk &&
             isPasswordOk &&
             isPasswordConfirmOk &&
-            isCompanyNameOk &&
-            isOwnerNameOk &&
-            isBusinessNumberOk &&
-            isBusinessAddressOk &&
-            isBusinessTypeOk &&
-            isBusinessItemOk &&
+            isNameOk &&
             isPhoneOk &&
             isEmailOk
         );
@@ -328,9 +260,7 @@ export default function Signup() {
         setSubmitError("");
         setAgreeTermsError("");
         setAgreePrivacyError("");
-        setAgreeAgeError("");
 
-        // Check agreements first to display errors inline
         let hasAgreementError = false;
         if (!agreeTerms) {
             setAgreeTermsError("이용약관에 동의해주세요.");
@@ -340,10 +270,6 @@ export default function Signup() {
             setAgreePrivacyError("개인정보 수집 및 이용에 동의해주세요.");
             hasAgreementError = true;
         }
-        if (!agreeAge) {
-            setAgreeAgeError("만 14세 이상 확인에 동의해주세요.");
-            hasAgreementError = true;
-        }
 
         if (hasAgreementError) {
             setSubmitError("필수 약관에 동의해야 회원가입이 가능합니다.");
@@ -351,7 +277,7 @@ export default function Signup() {
         }
 
         if (!isFormValid()) {
-            setSubmitError("모든 필수 입력 필드를 채우고 형식에 맞게 입력해 주세요.");
+            setSubmitError("모든 필수 입력 필드를 정확히 입력해 주세요.");
             return;
         }
 
@@ -361,59 +287,26 @@ export default function Signup() {
         const dataToSave = {
             username: username.trim(),
             password: password,
-            name: ownerName.trim(), // 대표자명
-            phone: phone, // 대표 전화번호
-            company_name: companyName.trim(), // 상호명
-            user_type: "인테리어 업체", // Unified B2B value
-            address: businessAddress.trim(), // 사업장 소재지
-            address_detail: businessAddressDetail.trim(),
-            business_number: businessNumber,
+            name: name.trim(),
+            phone: phone,
+            company_name: null,
+            user_type: "일반",
+            address: address.trim() || null,
+            address_detail: addressDetail.trim() || null,
+            business_number: null,
             marketing_agree: agreeMarketing,
-            // 추가 약관 동의 데이터 필드 준비
             marketing_agreed: agreeMarketing,
             terms_agreed_at: now,
             privacy_agreed_at: now,
             age_confirmed_at: now,
-            memo: `대표자명: ${ownerName.trim()} | 업태: ${businessType.trim()} | 종목: ${businessItem.trim()} | 이메일: ${email.trim()}`
+            memo: email.trim() ? `이메일: ${email.trim()}` : null,
+            role: 'user'
         };
 
         try {
-            // Save to database (Supabase)
             const res = await signup(dataToSave);
-            
-            // Save complete B2B partner object to localStorage mock database
-            try {
-                const b2bUsersStr = localStorage.getItem("dk_b2b_users") || "[]";
-                const b2bUsers = JSON.parse(b2bUsersStr);
-                const newB2BUser = {
-                    id: username.trim(),
-                    password: password, // plain password for mock reference
-                    companyName: companyName.trim(),
-                    ownerName: ownerName.trim(),
-                    businessNumber: businessNumber,
-                    businessAddress: businessAddress.trim(),
-                    businessAddressDetail: businessAddressDetail.trim(),
-                    businessType: businessType.trim(),
-                    businessItem: businessItem.trim(),
-                    phone: phone,
-                    email: email.trim(),
-                    agreeTerms: agreeTerms,
-                    agreePrivacy: agreePrivacy,
-                    agreeAge: agreeAge,
-                    agreeMarketing: agreeMarketing,
-                    termsAgreedAt: now,
-                    privacyAgreedAt: now,
-                    ageConfirmedAt: now,
-                    createdAt: now
-                };
-                b2bUsers.push(newB2BUser);
-                localStorage.setItem("dk_b2b_users", JSON.stringify(b2bUsers));
-            } catch (storageErr) {
-                console.error("Local mock storage failed:", storageErr);
-            }
-
             if (res.success) {
-                alert("B2B 회원가입이 완료되었습니다. 승인 및 로그인 화면으로 이동합니다.");
+                alert("회원가입이 완료되었습니다. 로그인 화면으로 이동합니다.");
                 nav(`/login${location.search}`);
             } else {
                 setSubmitError(res.message || "회원가입 처리 중 실패했습니다.");
@@ -433,11 +326,11 @@ export default function Signup() {
                     <div className="signup-header">
                         <div className="logo-area" onClick={() => nav("/")}>
                             <span className="logo-main">DK Floor</span>
-                            <span className="logo-sub">동경바닥재 B2B</span>
+                            <span className="logo-sub">동경바닥재</span>
                         </div>
-                        <h2>B2B 회원가입</h2>
+                        <h2>회원가입</h2>
                         <p className="description">
-                            자재 주문, 도매 견적 문의, 샘플북 열람을 위한 인테리어/시공 파트너 회원가입입니다.
+                            동경바닥재 회원가입을 통해 편리한 온라인 주문 서비스를 이용해보세요.
                         </p>
                     </div>
 
@@ -451,7 +344,7 @@ export default function Signup() {
                             <input
                                 type="text"
                                 id="username"
-                                placeholder="영문+숫자 조합으로 입력해주세요"
+                                placeholder="영문+숫자 조합 4자 이상"
                                 value={username}
                                 onChange={handleUsernameChange}
                                 onBlur={handleUsernameBlur}
@@ -471,7 +364,7 @@ export default function Signup() {
                             <input
                                 type="password"
                                 id="password"
-                                placeholder="영문+숫자+특수문자 포함 8자 이상"
+                                placeholder="비밀번호 4자 이상"
                                 value={password}
                                 onChange={handlePasswordChange}
                                 onBlur={handlePasswordBlur}
@@ -489,7 +382,7 @@ export default function Signup() {
                             <input
                                 type="password"
                                 id="passwordConfirm"
-                                placeholder="비밀번호를 한 번 더 입력해주세요"
+                                placeholder="비밀번호 재입력"
                                 value={passwordConfirm}
                                 onChange={handlePasswordConfirmChange}
                                 onBlur={handlePasswordConfirmBlur}
@@ -499,66 +392,32 @@ export default function Signup() {
                             {passwordConfirmError && <span className="error-text">{passwordConfirmError}</span>}
                         </div>
 
-                        {/* 4. 상호명 */}
+                        {/* 4. 이름 */}
                         <div className="form-group-korean">
-                            <label className="korean-label" htmlFor="companyName">
-                                상호명 <span className="red-star">*</span>
+                            <label className="korean-label" htmlFor="name">
+                                이름 <span className="red-star">*</span>
                             </label>
                             <input
                                 type="text"
-                                id="companyName"
-                                placeholder="사업자등록증의 상호를 입력해주세요"
-                                value={companyName}
-                                onChange={(e) => setCompanyName(e.target.value)}
-                                className="korean-input"
-                                maxLength={50}
-                            />
-                        </div>
-
-                        {/* 5. 대표자명 */}
-                        <div className="form-group-korean">
-                            <label className="korean-label" htmlFor="ownerName">
-                                대표자명 <span className="red-star">*</span>
-                            </label>
-                            <input
-                                type="text"
-                                id="ownerName"
-                                placeholder="사업자등록증의 대표자명을 입력해주세요"
-                                value={ownerName}
-                                onChange={(e) => setOwnerName(e.target.value)}
+                                id="name"
+                                placeholder="실명을 입력해주세요"
+                                value={name}
+                                onChange={(e) => setName(e.target.value)}
                                 className="korean-input"
                                 maxLength={30}
                             />
                         </div>
 
-                        {/* 6. 사업자등록번호 */}
-                        <div className="form-group-korean">
-                            <label className="korean-label" htmlFor="businessNumber">
-                                사업자등록번호 <span className="red-star">*</span>
-                            </label>
-                            <input
-                                type="text"
-                                id="businessNumber"
-                                placeholder="000-00-00000"
-                                value={businessNumber}
-                                onChange={handleBusinessNumberChange}
-                                onBlur={handleBusinessNumberBlur}
-                                className={`korean-input ${businessNumberError ? "error" : ""}`}
-                                maxLength={12}
-                            />
-                            {businessNumberError && <span className="error-text">{businessNumberError}</span>}
-                        </div>
-
-                        {/* 7. 사업장 소재지 */}
+                        {/* 5. 주소 */}
                         <div className="form-group-korean">
                             <label className="korean-label">
-                                사업장 소재지 <span className="red-star">*</span>
+                                주소 <span className="opt">(선택)</span>
                             </label>
                             <div className="input-with-btn">
                                 <input
                                     type="text"
-                                    placeholder="사업자등록증의 사업장 주소를 입력해주세요"
-                                    value={businessAddress}
+                                    placeholder="주소를 입력해주세요"
+                                    value={address}
                                     readOnly
                                     className="korean-input read-only-addr"
                                     onClick={handleAddressSearch}
@@ -575,56 +434,24 @@ export default function Signup() {
                                 type="text"
                                 id="addressDetail"
                                 placeholder="상세주소를 입력해주세요"
-                                value={businessAddressDetail}
-                                onChange={(e) => setBusinessAddressDetail(e.target.value)}
+                                value={addressDetail}
+                                onChange={(e) => setAddressDetail(e.target.value)}
                                 className="korean-input"
                                 style={{ marginTop: "10px" }}
                                 maxLength={100}
-                                disabled={!businessAddress}
+                                disabled={!address}
                             />
                         </div>
 
-                        {/* 8. 업태 */}
-                        <div className="form-group-korean">
-                            <label className="korean-label" htmlFor="businessType">
-                                업태 <span className="red-star">*</span>
-                            </label>
-                            <input
-                                type="text"
-                                id="businessType"
-                                placeholder="예: 도매 및 소매업, 건설업"
-                                value={businessType}
-                                onChange={(e) => setBusinessType(e.target.value)}
-                                className="korean-input"
-                                maxLength={40}
-                            />
-                        </div>
-
-                        {/* 9. 종목 */}
-                        <div className="form-group-korean">
-                            <label className="korean-label" htmlFor="businessItem">
-                                종목 <span className="red-star">*</span>
-                            </label>
-                            <input
-                                type="text"
-                                id="businessItem"
-                                placeholder="예: 바닥재, 인테리어, 장판, 벽지"
-                                value={businessItem}
-                                onChange={(e) => setBusinessItem(e.target.value)}
-                                className="korean-input"
-                                maxLength={40}
-                            />
-                        </div>
-
-                        {/* 10. 대표 전화번호 */}
+                        {/* 6. 휴대전화 */}
                         <div className="form-group-korean">
                             <label className="korean-label" htmlFor="phone">
-                                대표 전화번호 <span className="red-star">*</span>
+                                휴대전화 <span className="red-star">*</span>
                             </label>
                             <input
                                 type="tel"
                                 id="phone"
-                                placeholder="010-0000-0000 또는 02-000-0000"
+                                placeholder="예: 010-1234-5678"
                                 value={phone}
                                 onChange={handlePhoneChange}
                                 onBlur={handlePhoneBlur}
@@ -634,10 +461,10 @@ export default function Signup() {
                             {phoneError && <span className="error-text">{phoneError}</span>}
                         </div>
 
-                        {/* 11. 이메일 */}
+                        {/* 7. 이메일 */}
                         <div className="form-group-korean">
                             <label className="korean-label" htmlFor="email">
-                                이메일 <span className="red-star">*</span>
+                                이메일 <span className="opt">(선택)</span>
                             </label>
                             <input
                                 type="email"
@@ -652,7 +479,7 @@ export default function Signup() {
                             {emailError && <span className="error-text">{emailError}</span>}
                         </div>
 
-                        {/* 12. 약관동의 영역 */}
+                        {/* 8. 약관동의 영역 */}
                         <div className="agreements-section">
                             <label className="korean-label">약관 동의</label>
                             
@@ -697,21 +524,6 @@ export default function Signup() {
                                             <button type="button" className="view-terms-btn" onClick={() => openTermsModal("privacy")}>보기</button>
                                         </div>
                                         {agreePrivacyError && <div className="agree-error-text">{agreePrivacyError}</div>}
-                                    </div>
-
-                                    <div className="agree-item-container">
-                                        <div className="agree-item">
-                                            <label className="check-label-sub">
-                                                <input
-                                                    type="checkbox"
-                                                    checked={agreeAge}
-                                                    onChange={(e) => handleAgreeAgeChange(e.target.checked)}
-                                                />
-                                                <span><span className="required-txt">[필수]</span> 만 14세 이상입니다</span>
-                                            </label>
-                                            <button type="button" className="view-terms-btn" onClick={() => openTermsModal("age")}>보기</button>
-                                        </div>
-                                        {agreeAgeError && <div className="agree-error-text">{agreeAgeError}</div>}
                                     </div>
 
                                     <div className="agree-item-container">

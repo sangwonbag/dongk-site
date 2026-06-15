@@ -1,0 +1,286 @@
+/* Auth Modal Overlay */
+.auth-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2100;
+  animation: fadeIn 0.2s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Modal Card */
+.auth-modal-card {
+  background-color: #ffffff;
+  width: 90%;
+  max-width: 480px;
+  border-radius: 12px;
+  border: 1px solid #E8E2D8;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  max-height: 90vh;
+  animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Header */
+.auth-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+  border-bottom: 1px solid #E8E2D8;
+}
+
+.auth-modal-header h2 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #1B1B1B;
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+
+.auth-modal-close {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #8A8A8A;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.auth-modal-close:hover {
+  color: #1B1B1B;
+  background-color: #FAFAF8;
+}
+
+/* Tabs */
+.auth-modal-tabs {
+  display: flex;
+  border-bottom: 1px solid #E8E2D8;
+  background-color: #FAFAF8;
+}
+
+.auth-tab-btn {
+  flex: 1;
+  padding: 14px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  background: transparent;
+  color: #6B6B6B;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.auth-tab-btn:hover {
+  color: #1B1B1B;
+  background-color: #F3F1EC;
+}
+
+.auth-tab-btn.active {
+  color: #1B1B1B;
+  background-color: #ffffff;
+  font-weight: 700;
+}
+
+.auth-tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #1B1B1B;
+}
+
+/* Body & Forms */
+.auth-modal-body {
+  padding: 24px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.scrollable-form {
+  max-height: 55vh;
+  padding-right: 4px;
+}
+
+/* Scrollbar styling for modal */
+.scrollable-form::-webkit-scrollbar {
+  width: 6px;
+}
+.scrollable-form::-webkit-scrollbar-track {
+  background: #FAFAF8;
+}
+.scrollable-form::-webkit-scrollbar-thumb {
+  background: #E8E2D8;
+  border-radius: 3px;
+}
+.scrollable-form::-webkit-scrollbar-thumb:hover {
+  background: #C5A46D;
+}
+
+.auth-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.auth-form-group label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #1B1B1B;
+}
+
+.auth-form-group label .req {
+  color: #e53935;
+  margin-left: 2px;
+}
+
+.auth-form-group input {
+  height: 44px;
+  border: 1px solid #DADADA;
+  border-radius: 6px;
+  padding: 0 12px;
+  font-size: 14px;
+  color: #1B1B1B;
+  background-color: #fff;
+  outline: none;
+  box-sizing: border-box;
+  transition: all 0.2s;
+}
+
+.auth-form-group input:focus {
+  border-color: #C5A46D;
+  box-shadow: 0 0 0 3px rgba(197, 164, 109, 0.1);
+}
+
+.auth-form-group input::placeholder {
+  color: #a8a8a8;
+  font-size: 13px;
+}
+
+/* Type Selector */
+.auth-type-selector {
+  display: flex;
+  gap: 8px;
+}
+
+.type-btn {
+  flex: 1;
+  height: 38px;
+  border: 1px solid #DADADA;
+  background-color: #fff;
+  color: #6B6B6B;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.type-btn:hover {
+  background-color: #FAFAF8;
+  color: #1B1B1B;
+}
+
+.type-btn.active {
+  border-color: #1B1B1B;
+  background-color: #1B1B1B;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Terms Checkbox */
+.auth-terms-checkbox {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 8px;
+}
+
+.auth-terms-checkbox label {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  color: #4A4A4A;
+  line-height: 1.4;
+}
+
+.auth-terms-checkbox input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: #1B1B1B;
+  cursor: pointer;
+  margin-top: 2px;
+}
+
+/* Errors */
+.auth-error-msg {
+  background-color: #FDF2F2;
+  color: #e53935;
+  border: 1px solid #FDE8E8;
+  border-radius: 6px;
+  padding: 10px 12px;
+  font-size: 13px;
+  text-align: center;
+}
+
+/* Submit Button */
+.btn-auth-submit {
+  height: 48px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1B1B1B;
+  color: #fff;
+  font-size: 14.5px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-top: 10px;
+}
+
+.btn-auth-submit:hover:not(:disabled) {
+  background-color: #333;
+}
+
+.btn-auth-submit:disabled {
+  background-color: #E0E0E0;
+  color: #9E9E9E;
+  cursor: not-allowed;
+}

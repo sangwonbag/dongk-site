@@ -110,15 +110,16 @@ export default function Cart() {
               </div>
             </div>
 
-            <div className="est-actions" style={{ marginTop: "30px", display: "flex", gap: "16px" }}>
+            <div className="est-actions" style={{ marginTop: "30px", display: "flex", gap: "12px", flexWrap: "wrap" }}>
               <button
                 type="button"
                 className="btn-secondary"
                 onClick={() => nav("/materials")}
                 style={{
                   flex: 1,
+                  minWidth: "120px",
                   padding: "16px",
-                  fontSize: "1.05rem",
+                  fontSize: "1rem",
                   fontWeight: "bold",
                   borderRadius: "8px",
                   border: "1px solid #ddd",
@@ -131,12 +132,32 @@ export default function Cart() {
               </button>
               <button
                 type="button"
-                className="btn-primary"
+                className="btn-secondary"
                 onClick={() => nav("/estimate/request")}
                 style={{
-                  flex: 1,
+                  flex: 1.2,
+                  minWidth: "150px",
                   padding: "16px",
-                  fontSize: "1.05rem",
+                  fontSize: "1rem",
+                  fontWeight: "bold",
+                  borderRadius: "8px",
+                  border: "1px solid #111",
+                  background: "#fff",
+                  cursor: "pointer",
+                  color: "#111"
+                }}
+              >
+                견적요청서 작성하기
+              </button>
+              <button
+                type="button"
+                className="btn-primary"
+                onClick={() => nav("/checkout")}
+                style={{
+                  flex: 1.2,
+                  minWidth: "150px",
+                  padding: "16px",
+                  fontSize: "1rem",
                   fontWeight: "bold",
                   borderRadius: "8px",
                   border: "none",
@@ -145,7 +166,7 @@ export default function Cart() {
                   color: "#fff"
                 }}
               >
-                견적요청서 작성하기
+                주문하기
               </button>
             </div>
           </div>

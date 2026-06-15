@@ -67,6 +67,11 @@ export const signup = async (userData) => {
     });
 
     if (primaryError) {
+      // UNIQUE VIOLATION check
+      if (primaryError.code === '23505' || primaryError.message?.includes('duplicate')) {
+        return { success: false, message: '이미 사용 중인 아이디입니다.' };
+      }
+
       console.warn('Primary signup failed, trying fallback insert:', primaryError.message);
       
       const concatenatedAddress = userData.address 
@@ -100,6 +105,9 @@ export const signup = async (userData) => {
 
       if (fallbackError) {
         console.error('Fallback signup error:', fallbackError);
+        if (fallbackError.code === '23505' || fallbackError.message?.includes('duplicate')) {
+          return { success: false, message: '이미 사용 중인 아이디입니다.' };
+        }
         return { success: false, message: '회원가입 처리 중 오류가 발생했습니다.' };
       }
     }

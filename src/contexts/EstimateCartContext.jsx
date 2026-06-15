@@ -8,21 +8,18 @@ export function useEstimateCart() {
 }
 
 export function EstimateCartProvider({ children }) {
-  const [cartItems, setCartItems] = useState([]);
-  const [toast, setToast] = useState({ visible: false, message: '' });
-
-  // Load initial cart from localStorage
-  useEffect(() => {
+  const [cartItems, setCartItems] = useState(() => {
     const saved = localStorage.getItem('estimateCart');
     if (saved) {
       try {
-        // eslint-disable-next-line react-hooks/set-state-in-effect
-        setCartItems(JSON.parse(saved));
+        return JSON.parse(saved);
       } catch (e) {
         console.error('Failed to parse estimate cart', e);
       }
     }
-  }, []);
+    return [];
+  });
+  const [toast, setToast] = useState({ visible: false, message: '' });
 
   // Save to localStorage whenever cart changes
   useEffect(() => {

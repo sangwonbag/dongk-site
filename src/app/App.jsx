@@ -19,6 +19,12 @@ import AdminEstimates from "../pages/Admin/Estimates/AdminEstimates";
 import AdminEstimateDetail from "../pages/Admin/Estimates/AdminEstimateDetail";
 import AdminRoute from "../components/auth/AdminRoute";
 
+// New Order Flow Pages
+import Checkout from "../pages/Cart/Checkout";
+import OrderComplete from "../pages/Cart/OrderComplete";
+import OrderHistory from "../pages/Cart/OrderHistory";
+import AdminOrders from "../pages/Admin/Orders/AdminOrders";
+
 // Global Components
 import AIChatWidget from "../components/chat/AIChatWidget";
 import IntroSplash from "../components/layout/IntroSplash";
@@ -27,6 +33,21 @@ export default function App() {
   const { toast, hideToast } = useEstimateCart();
   const navigate = useNavigate();
   const [showIntro, setShowIntro] = useState(false);
+
+  // Hash route support (#orders, #admin-orders)
+  React.useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash;
+      if (hash === "#orders" || hash === "#/orders") {
+        navigate("/orders");
+      } else if (hash === "#admin-orders" || hash === "#/admin-orders") {
+        navigate("/admin-orders");
+      }
+    };
+    handleHashChange();
+    window.addEventListener("hashchange", handleHashChange);
+    return () => window.removeEventListener("hashchange", handleHashChange);
+  }, [navigate]);
 
   return (
     <>
@@ -69,6 +90,12 @@ export default function App() {
         {/* Placeholder for products and materials */}
         <Route path="/admin/products" element={<AdminRoute><div style={{padding: '100px', textAlign: 'center'}}>상품 관리 준비 중</div></AdminRoute>} />
         <Route path="/admin/materials" element={<AdminRoute><div style={{padding: '100px', textAlign: 'center'}}>자재 관리 준비 중</div></AdminRoute>} />
+        
+        {/* Actual Ordering Routes */}
+        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/order-complete" element={<OrderComplete />} />
+        <Route path="/orders" element={<OrderHistory />} />
+        <Route path="/admin-orders" element={<AdminRoute><AdminOrders /></AdminRoute>} />
         
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
