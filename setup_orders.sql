@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS public.orders (
     id uuid NOT NULL DEFAULT gen_random_uuid(),
     -- 주문번호: ORD-YYYYMMDD-XXXXX 형식으로 자동 생성 (5자리 난수)
     order_no text NOT NULL DEFAULT ('ORD-' || to_char(now(), 'YYYYMMDD') || '-' || lpad(floor(random() * 100000)::text, 5, '0')),
-    user_id uuid REFERENCES public.users(id) ON DELETE SET NULL,
+    user_id uuid REFERENCES public.profiles(id) ON DELETE SET NULL,
     customer_name text NOT NULL,
     company_name text,
     phone text NOT NULL,

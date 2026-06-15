@@ -26,7 +26,7 @@ export const hashPassword = async (password) => {
 export const checkDuplicateUsername = async (username) => {
   if (!supabase) return { error: 'Supabase client not initialized' };
   const { data, error } = await supabase
-    .from('users')
+    .from('profiles')
     .select('id')
     .eq('username', username)
     .single();
@@ -47,7 +47,7 @@ export const signup = async (userData) => {
     const hashedPassword = await hashPassword(userData.password);
     
     // Try primary insert with all new fields
-    const { error: primaryError } = await supabase.from('users').insert({
+    const { error: primaryError } = await supabase.from('profiles').insert({
       username: userData.username,
       password: hashedPassword,
       name: userData.name,
@@ -91,7 +91,7 @@ export const signup = async (userData) => {
         `[약관동의이력] ${agreementLogs}`
       ].filter(Boolean).join(' / ');
 
-      const { error: fallbackError } = await supabase.from('users').insert({
+      const { error: fallbackError } = await supabase.from('profiles').insert({
         username: userData.username,
         password: hashedPassword,
         name: userData.name,
@@ -135,7 +135,7 @@ export const login = async (id, password) => {
   try {
     const hashedPassword = await hashPassword(password);
     const { data: userRow, error } = await supabase
-      .from('users')
+      .from('profiles')
       .select('id, username, name, phone, company_name, user_type, role')
       .eq('username', id)
       .eq('password', hashedPassword)
@@ -165,5 +165,5 @@ export const logout = () => {
 
 export const isAdmin = () => {
   const user = getCurrentUser();
-  return user && user.isLoggedIn && user.role === 'admin';
+  return user && user.isLoggedIn && (user.role === 'admin' || user.role === 'staff');
 };

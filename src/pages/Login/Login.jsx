@@ -23,7 +23,7 @@ export default function Login() {
         const result = await login(userId, password);
 
         if (result.success) {
-            if (result.user.role === "admin") {
+            if (result.user.role === "admin" || result.user.role === "staff") {
                 nav("/admin");
             } else {
                 const searchParams = new URLSearchParams(location.search);
