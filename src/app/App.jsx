@@ -28,7 +28,6 @@ import OrderHistory from "../pages/Cart/OrderHistory";
 import AdminOrders from "../pages/Admin/Orders/AdminOrders";
 
 // Global Components
-import AIChatWidget from "../components/chat/AIChatWidget";
 import IntroSplash from "../components/layout/IntroSplash";
 
 export default function App() {
@@ -108,10 +107,10 @@ export default function App() {
         <Route path="/order-complete" element={<OrderComplete />} />
         <Route path="/orders" element={<OrderHistory />} />
         <Route path="/admin-orders" element={<AdminRoute><AdminOrders /></AdminRoute>} />
+        <Route path="/admin/orders" element={<AdminRoute><AdminOrders /></AdminRoute>} />
         
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
-      <AIChatWidget />
     </>
   );
 }

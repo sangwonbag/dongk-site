@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import MainLayout from '../../../components/layout/MainLayout';
 import { logout } from '../../../lib/auth';
-import { FileText, Package, Layers, MessageSquare, LogOut } from 'lucide-react';
+import { FileText, Package, Layers, MessageSquare, LogOut, Clipboard } from 'lucide-react';
 import './AdminDashboard.css';
 
 export default function AdminDashboard() {
@@ -22,6 +22,12 @@ export default function AdminDashboard() {
         </div>
 
         <div className="dashboard-menu-grid">
+          <button className="dashboard-card" onClick={() => navigate('/admin-orders')}>
+            <Clipboard size={40} className="card-icon text-indigo" />
+            <div className="card-title">자재주문 관리</div>
+            <div className="card-desc">고객이 접수한 주문 목록 조회 및 상태 변경</div>
+          </button>
+
           <button className="dashboard-card" onClick={() => navigate('/admin/estimates')}>
             <FileText size={40} className="card-icon text-blue" />
             <div className="card-title">견적요청 관리</div>
