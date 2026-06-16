@@ -29,6 +29,49 @@ const MaterialCard = ({ material }) => {
         });
     };
 
+    const parsePrice = (priceVal) => {
+        if (priceVal === undefined || priceVal === null) return null;
+        if (typeof priceVal === 'number') return priceVal;
+        
+        const cleanStr = String(priceVal).replace(/[^\d]/g, '');
+        const parsed = parseInt(cleanStr, 10);
+        return isNaN(parsed) ? null : parsed;
+    };
+
+    const handleAddToCart = (e) => {
+        e.stopPropagation();
+        
+        const price = parsePrice(material.price);
+        if (price === null || price <= 0) {
+            alert("가격 확인이 필요한 상품입니다. 견적요청을 이용해주세요.");
+            return;
+        }
+
+        const displayName = material.brand === '동신' && material.category === '데코타일' && ['아트타일', '아트하우스', '아트에코차음'].includes(material.line) ? material.code : material.name;
+
+        const cartItem = {
+            id: material.id,
+            product_id: material.id,
+            thumbnail: coverUrl || "/images/no-image.svg",
+            image: coverUrl || "/images/no-image.svg",
+            brand: getComputedBrand(material),
+            category: material.category || null,
+            name: displayName || "",
+            product_name: displayName || "",
+            code: material.code || null,
+            product_code: material.code || null,
+            spec: material.specs?.size || material.spec || "표준규격",
+            specs: material.specs || null,
+            packing: material.specs?.packing || material.package || "1박스 단위 판매",
+            price: price,
+            unit_price: price,
+            quantity: 1,
+            amount: price
+        };
+
+        addToCart(cartItem);
+    };
+
     const handleGoDetail = (e) => {
         if (e) e.stopPropagation();
         sessionStorage.setItem("materialsScrollY", window.scrollY.toString());
@@ -105,8 +148,8 @@ const MaterialCard = ({ material }) => {
                 </div>
 
                 <div className="card-actions">
-                    <button className="btn-detail" onClick={handleGoDetail}>
-                        자세히 보기
+                    <button className="btn-detail btn-cart-add" onClick={handleAddToCart}>
+                        장바구니 담기
                     </button>
                     <button className="btn-quote" onClick={handleInquiry}>
                         견적요청
