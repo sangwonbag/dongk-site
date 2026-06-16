@@ -3,192 +3,278 @@ import { useNavigate } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { useEstimateCart } from "../../contexts/EstimateCartContext";
 import { useAuth } from "../../contexts/AuthContext";
-import { Trash2, Plus, Minus } from "lucide-react";
-import "../Estimate/EstimateRequest.css";
+import { Trash2, Plus, Minus, ArrowLeft, ShoppingBag } from "lucide-react";
+import "./Cart.css";
 
 export default function Cart() {
   const nav = useNavigate();
   const { cartItems, updateQuantity, removeFromCart, clearCart } = useEstimateCart();
   const { user: currentUser, openLoginModal } = useAuth();
 
+  // Helper to parse price string/number cleanly
+  const parsePrice = (priceVal) => {
+    if (priceVal === undefined || priceVal === null) return 0;
+    if (typeof priceVal === 'number') return priceVal;
+    
+    const cleanStr = String(priceVal).replace(/[^0-9]/g, "");
+    const parsed = parseInt(cleanStr, 10);
+    return isNaN(parsed) ? 0 : parsed;
+  };
+
+  // Calculation states
+  const totalItemsCount = cartItems.length;
+  
+  const totalQuantity = cartItems.reduce((sum, item) => {
+    return sum + (parseInt(item.quantity) || 1);
+  }, 0);
+
   const calculateSubtotal = () => {
-    return cartItems.reduce((sum, item) => sum + (item.price || 0) * (item.quantity || 1), 0);
+    return cartItems.reduce((sum, item) => {
+      const price = parsePrice(item.price);
+      const qty = parseInt(item.quantity) || 1;
+      return sum + (price * qty);
+    }, 0);
+  };
+
+  // Flag if any item requires consulting (price is 0 or null)
+  const hasUnpricedItems = cartItems.some(item => {
+    const price = parsePrice(item.price);
+    return price <= 0;
+  });
+
+  // Action handlers
+  const handleProceedOrder = () => {
+    if (!currentUser) {
+      openLoginModal();
+      return;
+    }
+
+    if (hasUnpricedItems) {
+      alert("장바구니에 가격 확인이 필요한 자재가 포함되어 있습니다.\n고객센터로 문의하시거나 견적 요청을 진행해 주세요.");
+      return;
+    }
+
+    nav("/checkout");
+  };
+
+  const handleProceedEstimate = () => {
+    if (!currentUser) {
+      openLoginModal();
+      return;
+    }
+
+    // Navigates to estimate request, passing the current cart items in history state (for future extensions)
+    nav("/estimate/request", { state: { fromCart: true, cartItems } });
+  };
+
+  const handleDeleteItem = (id, name) => {
+    if (window.confirm(`“${name}” 상품을 장바구니에서 삭제할까요?`)) {
+      removeFromCart(id);
+    }
+  };
+
+  const handleClearCart = () => {
+    if (window.confirm("장바구니를 모두 비울까요?")) {
+      clearCart();
+    }
   };
 
   return (
     <MainLayout>
-      <div className="est-page" style={{ maxWidth: 800, margin: "0 auto", padding: "40px 16px" }}>
-        <div className="est-header">
+      <div className="cart-page-container">
+        {/* 장바구니 헤더 */}
+        <div className="cart-header">
           <h1>장바구니</h1>
-          <p>견적을 요청하실 자재 목록을 확인하고 수정하실 수 있습니다.</p>
+          <p>선택하신 자재를 확인하고 견적요청 또는 간편 주문을 진행해 보세요.</p>
         </div>
 
-        {cartItems.length === 0 ? (
-          <div className="empty-cart-msg" style={{ padding: "80px 20px", background: "#fbfbfa", borderRadius: "12px", border: "1px solid #e8e2d8", textAlign: "center" }}>
-            <p style={{ fontSize: "1.1rem", color: "#666", marginBottom: "20px" }}>장바구니에 담긴 자재가 없습니다.</p>
-            <button
-              onClick={() => nav("/materials")}
-              style={{
-                padding: "12px 24px",
-                borderRadius: "8px",
-                border: "1px solid #111",
-                background: "#111",
-                color: "#fff",
-                fontWeight: "bold",
-                cursor: "pointer",
-              }}
-            >
-              자재 둘러보기
+        {totalItemsCount === 0 ? (
+          /* 빈 장바구니 화면 */
+          <div className="empty-cart-container">
+            <div className="empty-cart-icon">
+              <ShoppingBag size={64} strokeWidth={1.2} />
+            </div>
+            <h2 className="empty-cart-title">장바구니에 담긴 자재가 없습니다.</h2>
+            <p className="empty-cart-desc">다양한 규격의 데코타일 및 친환경 바닥재를 담아보세요.</p>
+            <button className="btn-go-shopping" onClick={() => nav("/materials")}>
+              자재 보러가기
             </button>
           </div>
         ) : (
-          <div className="est-form" style={{ padding: "30px", border: "1px solid #e8e2d8", borderRadius: "12px" }}>
-            <div className="section-header-row">
-              <h3>선택된 자재 ({cartItems.length})</h3>
-              <button
-                type="button"
-                className="btn-secondary btn-sm"
-                onClick={clearCart}
-                style={{
-                  padding: "6px 12px",
-                  borderRadius: "6px",
-                  border: "1px solid #ddd",
-                  background: "#fff",
-                  cursor: "pointer",
-                  fontSize: "0.85rem",
-                  color: "#666"
-                }}
-              >
-                장바구니 비우기
-              </button>
-            </div>
-
-             <div className="est-items" style={{ marginTop: "20px" }}>
-              {cartItems.map((item) => (
-                <div key={item.id} className="est-item-card" style={{ position: "relative" }}>
-                  <div className="est-item-info">
-                    <span className="item-brand-label" style={{ fontSize: "0.85rem", color: "#888", fontWeight: "600", display: "block" }}>[{item.brand}]</span>
-                    <strong style={{ fontSize: "1.05rem", display: "block", margin: "4px 0" }}>{item.name}</strong>
-                    <div className="item-spec-details" style={{ fontSize: "0.85rem", color: "#666", marginTop: "4px" }}>
-                      <span style={{ marginRight: "12px" }}>코드: {item.code || "-"}</span>
-                      <span>규격: {item.specs?.size || item.specs?.thickness || item.spec || "표준규격"}</span>
-                    </div>
-                  </div>
-                  <div className="est-item-qty">
-                    <button
-                      type="button"
-                      onClick={() => updateQuantity(item.id, Math.max(1, item.quantity - 1))}
-                    >
-                      <Minus size={14} />
-                    </button>
-                    <input
-                      type="number"
-                      value={item.quantity}
-                      onChange={(e) => updateQuantity(item.id, Math.max(1, parseInt(e.target.value) || 1))}
-                    />
-                    <button
-                      type="button"
-                      onClick={() => updateQuantity(item.id, item.quantity + 1)}
-                    >
-                      <Plus size={14} />
-                    </button>
-                  </div>
-                  <div className="est-item-price-info" style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "120px", textAlign: "right" }}>
-                    <div style={{ fontSize: "0.85rem", color: "#777" }}>
-                      단가: {item.price ? `${item.price.toLocaleString()}원` : "가격문의"}
-                    </div>
-                    <div style={{ fontSize: "1rem", fontWeight: "bold", color: "#111" }}>
-                      합계: {item.price ? `${(item.price * item.quantity).toLocaleString()}원` : "상담 후 안내"}
-                    </div>
-                  </div>
-                  <button
-                    type="button"
-                    className="btn-delete-item"
-                    onClick={() => removeFromCart(item.id)}
-                  >
-                    <Trash2 size={18} />
-                  </button>
-                </div>
-              ))}
-
-              <div className="est-subtotal">
-                <span>자재 합계 (단가 없는 항목 제외)</span>
-                <strong>{calculateSubtotal().toLocaleString()}원</strong>
+          <>
+            {/* 상단 요약 바 */}
+            <div className="cart-header-summary">
+              <div className="summary-stats">
+                선택 상품 <strong>{totalItemsCount}개</strong>
+                <span className="divider-bar">|</span>
+                총 수량 <strong>{totalQuantity}박스(M)</strong>
+                <span className="divider-bar">|</span>
+                상품금액 <strong>{calculateSubtotal().toLocaleString()}원</strong>
+              </div>
+              <div className="summary-actions-top">
+                <button className="btn-shopping-continue" onClick={() => nav("/materials")}>
+                  계속 쇼핑하기
+                </button>
+                <button 
+                  className="btn-cart-clear-all" 
+                  onClick={handleClearCart}
+                  disabled={totalItemsCount === 0}
+                >
+                  전체 비우기
+                </button>
               </div>
             </div>
 
-            <div className="est-actions" style={{ marginTop: "30px", display: "flex", gap: "12px", flexWrap: "wrap" }}>
-              <button
-                type="button"
-                className="btn-secondary"
-                onClick={() => nav("/materials")}
-                style={{
-                  flex: 1,
-                  minWidth: "120px",
-                  padding: "16px",
-                  fontSize: "1rem",
-                  fontWeight: "bold",
-                  borderRadius: "8px",
-                  border: "1px solid #ddd",
-                  background: "#fff",
-                  cursor: "pointer",
-                  color: "#333"
-                }}
-              >
-                자재 추가하기
-              </button>
-              <button
-                type="button"
-                className="btn-secondary"
-                onClick={() => {
-                  if (!currentUser) {
-                    openLoginModal();
-                    return;
-                  }
-                  nav("/estimate/request");
-                }}
-                style={{
-                  flex: 1.2,
-                  minWidth: "150px",
-                  padding: "16px",
-                  fontSize: "1rem",
-                  fontWeight: "bold",
-                  borderRadius: "8px",
-                  border: "1px solid #111",
-                  background: "#fff",
-                  cursor: "pointer",
-                  color: "#111"
-                }}
-              >
-                견적요청서 작성하기
-              </button>
-              <button
-                type="button"
-                className="btn-primary"
-                onClick={() => {
-                  if (!currentUser) {
-                    openLoginModal();
-                    return;
-                  }
-                  nav("/checkout");
-                }}
-                style={{
-                  flex: 1.2,
-                  minWidth: "150px",
-                  padding: "16px",
-                  fontSize: "1rem",
-                  fontWeight: "bold",
-                  borderRadius: "8px",
-                  border: "none",
-                  background: "#111",
-                  cursor: "pointer",
-                  color: "#fff"
-                }}
-              >
-                주문하기
-              </button>
+            {/* 가격 확인 필요 알림 배너 */}
+            {hasUnpricedItems && (
+              <div className="price-warning-banner">
+                <strong>⚠️ 안내:</strong> 장바구니에 단가 미정("가격문의") 자재가 포함되어 있습니다. 
+                해당 자재는 최종 금액 계산에 합산되지 않으며, 즉시 주문 진행이 불가합니다. 
+                가격을 문의하시려면 <strong>견적 요청하기</strong>를 이용해 주시기 바랍니다.
+              </div>
+            )}
+
+            {/* 메인 장바구니 스플릿 레이아웃 */}
+            <div className="cart-layout">
+              {/* 왼쪽: 상품 리스트 */}
+              <div className="cart-left-section">
+                <div className="cart-item-list">
+                  {cartItems.map((item) => {
+                    const price = parsePrice(item.price);
+                    const qty = parseInt(item.quantity) || 1;
+                    const itemSpec = item.spec || item.specs?.size || "표준규격";
+                    const itemPacking = item.packing || item.specs?.packing || "1박스 단위";
+                    
+                    return (
+                      <div key={item.id} className="cart-item-card">
+                        {/* 상품 이미지 */}
+                        <div className="cart-item-img-wrapper">
+                          <img 
+                            className="cart-item-img"
+                            src={item.thumbnail || item.image || "/images/no-image.svg"} 
+                            alt={item.name}
+                            onError={(e) => { e.target.onerror = null; e.target.src = "/images/no-image.svg"; }}
+                          />
+                        </div>
+
+                        {/* 상세 내용 */}
+                        <div className="cart-item-details">
+                          <div className="cart-item-badge-row">
+                            {item.brand && <span className="badge-brand">{item.brand}</span>}
+                            {item.category && <span className="badge-category">{item.category}</span>}
+                          </div>
+                          <h4 className="cart-item-name">{item.name}</h4>
+                          <div className="cart-item-meta">
+                            {item.code && <span>코드: <strong>{item.code}</strong></span>}
+                            <span>규격: <strong>{itemSpec}</strong></span>
+                            <span>구성: <strong>{itemPacking}</strong></span>
+                          </div>
+                        </div>
+
+                        {/* 수량 조절기 및 가격 표시 (모바일 대응 묶음 행) */}
+                        <div className="cart-item-card-row-mobile">
+                          {/* 수량 조절 */}
+                          <div className="qty-control-box">
+                            <button 
+                              type="button" 
+                              className="qty-btn"
+                              onClick={() => updateQuantity(item.id, Math.max(1, qty - 1))}
+                            >
+                              <Minus size={14} />
+                            </button>
+                            <input 
+                              type="number"
+                              className="qty-input"
+                              value={qty}
+                              onChange={(e) => updateQuantity(item.id, Math.max(1, parseInt(e.target.value) || 1))}
+                            />
+                            <button 
+                              type="button" 
+                              className="qty-btn"
+                              onClick={() => updateQuantity(item.id, qty + 1)}
+                            >
+                              <Plus size={14} />
+                            </button>
+                          </div>
+
+                          {/* 단가 및 상품별 합계금액 */}
+                          <div className="cart-item-price-section">
+                            {price > 0 ? (
+                              <>
+                                <div className="price-unit-label">단가 ₩{price.toLocaleString()}원</div>
+                                <div className="price-total-label">₩{(price * qty).toLocaleString()}원</div>
+                              </>
+                            ) : (
+                              <div className="price-inquiry-needed">가격문의 (상담필요)</div>
+                            )}
+                          </div>
+                        </div>
+
+                        {/* 개별 삭제 버튼 */}
+                        <button 
+                          type="button"
+                          className="btn-delete-cart-item"
+                          onClick={() => handleDeleteItem(item.id, item.name)}
+                        >
+                          <Trash2 size={18} />
+                        </button>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/* 오른쪽: 주문 요약 및 진행 박스 */}
+              <div className="cart-right-section">
+                <div className="cart-summary-sticky-card">
+                  <h3>주문 요약</h3>
+                  <div className="summary-rows">
+                    <div className="summary-row-item">
+                      <span>상품 종류</span>
+                      <strong>{totalItemsCount}종</strong>
+                    </div>
+                    <div className="summary-row-item">
+                      <span>총 수량</span>
+                      <strong>{totalQuantity}박스(M)</strong>
+                    </div>
+                    <div className="summary-row-item">
+                      <span>배송비</span>
+                      <strong>별도 안내 (화물착불)</strong>
+                    </div>
+                    <div className="summary-divider"></div>
+                    <div className="summary-row-total">
+                      <span>최종 예상금액</span>
+                      <strong>{calculateSubtotal().toLocaleString()}원</strong>
+                    </div>
+                    <p className="summary-vat-notice">* 부가세(VAT) 10% 별도 청구됩니다.<br />* 현장 거리 및 물량에 따라 화물 운임비가 책정됩니다.</p>
+                  </div>
+
+                  <div className="bank-transfer-info-box">
+                    <strong>💳 무통장 입금 계좌</strong>
+                    국민은행 752601-04-269229<br />
+                    예금주: 주식회사 동경상사
+                  </div>
+
+                  <div className="summary-buttons">
+                    <button 
+                      className="btn-proceed-order"
+                      onClick={handleProceedOrder}
+                      disabled={totalItemsCount === 0}
+                    >
+                      주문 진행하기
+                    </button>
+                    <button 
+                      className="btn-proceed-estimate"
+                      onClick={handleProceedEstimate}
+                      disabled={totalItemsCount === 0}
+                    >
+                      견적 요청하기
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
+          </>
         )}
       </div>
     </MainLayout>

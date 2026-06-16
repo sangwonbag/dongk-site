@@ -1045,346 +1045,451 @@ export const materials = [
     "id": "데코타일-lx-lx하우스-hot-0065-라임-스톤-미스트",
     "category": "데코타일",
     "brand": "LX",
-    "line": "LX하우스",
-    "subLine": "LX하우스",
-    "name": "HOT 0065 라임 스톤 미스트",
-    "code": "HOT 0065 라임 스톤 미스트",
+    "line": "하우스",
+    "subLine": "하우스",
+    "name": "라임 스톤 미스트",
+    "code": "HOT 0065",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200065%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4%20%EB%AF%B8%EC%8A%A4%ED%8A%B8.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200065%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4%20%EB%AF%B8%EC%8A%A4%ED%8A%B8.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200065%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4%20%EB%AF%B8%EC%8A%A4%ED%8A%B8.jpg"
     ],
     "price": 24000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "LX하우스",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "division": "하우스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
     },
-    "description": "LX하우스"
+    "description": "하우스",
+    "collection": "House",
+    "series": "Stone",
+    "productName": "LX 하우스 HOT 0065 라임 스톤 미스트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "catalog": "하우스 타일 베이직(하우스)",
+    "note": "표면 무광 효과"
   },
   {
     "id": "데코타일-lx-lx하우스-hot-0066-라임-스톤-그레이",
     "category": "데코타일",
     "brand": "LX",
-    "line": "LX하우스",
-    "subLine": "LX하우스",
-    "name": "HOT 0066 라임 스톤 그레이",
-    "code": "HOT 0066 라임 스톤 그레이",
+    "line": "하우스",
+    "subLine": "하우스",
+    "name": "라임 스톤 그레이",
+    "code": "HOT 0066",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200066%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200066%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200066%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
     ],
     "price": 24000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "LX하우스",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "division": "하우스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
     },
-    "description": "LX하우스"
+    "description": "하우스",
+    "collection": "House",
+    "series": "Stone",
+    "productName": "LX 하우스 HOT 0066 라임 스톤 그레이",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "catalog": "하우스 타일 베이직(하우스)",
+    "note": "표면 무광 효과"
   },
   {
     "id": "데코타일-lx-lx하우스-hot-0067-라임-스톤-크림",
     "category": "데코타일",
     "brand": "LX",
-    "line": "LX하우스",
-    "subLine": "LX하우스",
-    "name": "HOT 0067 라임 스톤 크림",
-    "code": "HOT 0067 라임 스톤 크림",
+    "line": "하우스",
+    "subLine": "하우스",
+    "name": "라임 스톤 크림",
+    "code": "HOT 0067",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200067%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4%20%ED%81%AC%EB%A6%BC.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200067%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4%20%ED%81%AC%EB%A6%BC.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200067%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4%20%ED%81%AC%EB%A6%BC.jpg"
     ],
     "price": 24000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "LX하우스",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "division": "하우스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
     },
-    "description": "LX하우스"
+    "description": "하우스",
+    "collection": "House",
+    "series": "Stone",
+    "productName": "LX 하우스 HOT 0067 라임 스톤 크림",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "catalog": "하우스 타일 베이직(하우스)",
+    "note": "표면 무광 효과"
   },
   {
     "id": "데코타일-lx-lx하우스-hot-0068-라임-스톤-베이지",
     "category": "데코타일",
     "brand": "LX",
-    "line": "LX하우스",
-    "subLine": "LX하우스",
-    "name": "HOT 0068 라임 스톤 베이지",
-    "code": "HOT 0068 라임 스톤 베이지",
+    "line": "하우스",
+    "subLine": "하우스",
+    "name": "라임 스톤 베이지",
+    "code": "HOT 0068",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200068%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200068%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200068%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg"
     ],
     "price": 24000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "LX하우스",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "division": "하우스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
     },
-    "description": "LX하우스"
+    "description": "하우스",
+    "collection": "House",
+    "series": "Stone",
+    "productName": "LX 하우스 HOT 0068 라임 스톤 베이지",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "catalog": "하우스 타일 베이직(하우스)",
+    "note": "표면 무광 효과"
   },
   {
     "id": "데코타일-lx-lx하우스-hot-0069-오셔너스-스노우",
     "category": "데코타일",
     "brand": "LX",
-    "line": "LX하우스",
-    "subLine": "LX하우스",
-    "name": "HOT 0069 오셔너스 스노우",
-    "code": "HOT 0069 오셔너스 스노우",
+    "line": "하우스",
+    "subLine": "하우스",
+    "name": "오셔너스 스노우",
+    "code": "HOT 0069",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200069%20%EC%98%A4%EC%85%94%EB%84%88%EC%8A%A4%20%EC%8A%A4%EB%85%B8%EC%9A%B0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200069%20%EC%98%A4%EC%85%94%EB%84%88%EC%8A%A4%20%EC%8A%A4%EB%85%B8%EC%9A%B0.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200069%20%EC%98%A4%EC%85%94%EB%84%88%EC%8A%A4%20%EC%8A%A4%EB%85%B8%EC%9A%B0.jpg"
     ],
     "price": 24000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "LX하우스",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "division": "하우스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
     },
-    "description": "LX하우스"
+    "description": "하우스",
+    "collection": "House",
+    "series": "Stone",
+    "productName": "LX 하우스 HOT 0069 오셔너스 스노우",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "catalog": "하우스 타일 베이직(하우스)",
+    "note": "표면 무광 효과"
   },
   {
     "id": "데코타일-lx-lx하우스-hot-0070-오셔너스-쿨-그레이",
     "category": "데코타일",
     "brand": "LX",
-    "line": "LX하우스",
-    "subLine": "LX하우스",
-    "name": "HOT 0070 오셔너스 쿨 그레이",
-    "code": "HOT 0070 오셔너스 쿨 그레이",
+    "line": "하우스",
+    "subLine": "하우스",
+    "name": "오셔너스 쿨 그레이",
+    "code": "HOT 0070",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200070%20%EC%98%A4%EC%85%94%EB%84%88%EC%8A%A4%20%EC%BF%A8%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200070%20%EC%98%A4%EC%85%94%EB%84%88%EC%8A%A4%20%EC%BF%A8%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200070%20%EC%98%A4%EC%85%94%EB%84%88%EC%8A%A4%20%EC%BF%A8%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
     ],
     "price": 24000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "LX하우스",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "division": "하우스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
     },
-    "description": "LX하우스"
+    "description": "하우스",
+    "collection": "House",
+    "series": "Stone",
+    "productName": "LX 하우스 HOT 0070 오셔너스 쿨 그레이",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "catalog": "하우스 타일 베이직(하우스)",
+    "note": "표면 무광 효과"
   },
   {
     "id": "데코타일-lx-lx하우스-hot-0071-오셔너스-블랙",
     "category": "데코타일",
     "brand": "LX",
-    "line": "LX하우스",
-    "subLine": "LX하우스",
-    "name": "HOT 0071 오셔너스 블랙",
-    "code": "HOT 0071 오셔너스 블랙",
+    "line": "하우스",
+    "subLine": "하우스",
+    "name": "오셔너스 블랙",
+    "code": "HOT 0071",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200071%20%EC%98%A4%EC%85%94%EB%84%88%EC%8A%A4%20%EB%B8%94%EB%9E%99.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200071%20%EC%98%A4%EC%85%94%EB%84%88%EC%8A%A4%20%EB%B8%94%EB%9E%99.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200071%20%EC%98%A4%EC%85%94%EB%84%88%EC%8A%A4%20%EB%B8%94%EB%9E%99.jpg"
     ],
     "price": 24000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "LX하우스",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "division": "하우스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
     },
-    "description": "LX하우스"
+    "description": "하우스",
+    "collection": "House",
+    "series": "Stone",
+    "productName": "LX 하우스 HOT 0071 오셔너스 블랙",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "catalog": "하우스 타일 베이직(하우스)",
+    "note": "표면 무광 효과"
   },
   {
     "id": "데코타일-lx-lx하우스-hot-0072-퍼실-화이트",
     "category": "데코타일",
     "brand": "LX",
-    "line": "LX하우스",
-    "subLine": "LX하우스",
-    "name": "HOT 0072 퍼실 화이트",
-    "code": "HOT 0072 퍼실 화이트",
+    "line": "하우스",
+    "subLine": "하우스",
+    "name": "퍼실 화이트",
+    "code": "HOT 0072",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200072%20%ED%8D%BC%EC%8B%A4%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200072%20%ED%8D%BC%EC%8B%A4%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200072%20%ED%8D%BC%EC%8B%A4%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg"
     ],
     "price": 24000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "LX하우스",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "division": "하우스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
     },
-    "description": "LX하우스"
+    "description": "하우스",
+    "collection": "House",
+    "series": "Stone",
+    "productName": "LX 하우스 HOT 0072 퍼실 화이트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "catalog": "하우스 타일 베이직(하우스)",
+    "note": "표면 무광 효과"
   },
   {
     "id": "데코타일-lx-lx하우스-hot-0073-카사-베이직",
     "category": "데코타일",
     "brand": "LX",
-    "line": "LX하우스",
-    "subLine": "LX하우스",
-    "name": "HOT 0073 카사 베이직",
-    "code": "HOT 0073 카사 베이직",
+    "line": "하우스",
+    "subLine": "하우스",
+    "name": "카사 베이직",
+    "code": "HOT 0073",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200073%20%EC%B9%B4%EC%82%AC%20%EB%B2%A0%EC%9D%B4%EC%A7%81.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200073%20%EC%B9%B4%EC%82%AC%20%EB%B2%A0%EC%9D%B4%EC%A7%81.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200073%20%EC%B9%B4%EC%82%AC%20%EB%B2%A0%EC%9D%B4%EC%A7%81.jpg"
     ],
     "price": 24000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "LX하우스",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "division": "하우스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
     },
-    "description": "LX하우스"
+    "description": "하우스",
+    "collection": "House",
+    "series": "Stone",
+    "productName": "LX 하우스 HOT 0073 카사 베이직",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "catalog": "하우스 타일 베이직(하우스)",
+    "note": "표면 무광 효과"
   },
   {
     "id": "데코타일-lx-lx하우스-how-0032-오크-라이트",
     "category": "데코타일",
     "brand": "LX",
-    "line": "LX하우스",
-    "subLine": "LX하우스",
-    "name": "HOW 0032 오크 라이트",
-    "code": "HOW 0032 오크 라이트",
+    "line": "하우스",
+    "subLine": "하우스",
+    "name": "오크 라이트",
+    "code": "HOW 0032",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200032%20%EC%98%A4%ED%81%AC%20%EB%9D%BC%EC%9D%B4%ED%8A%B8.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200032%20%EC%98%A4%ED%81%AC%20%EB%9D%BC%EC%9D%B4%ED%8A%B8.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200032%20%EC%98%A4%ED%81%AC%20%EB%9D%BC%EC%9D%B4%ED%8A%B8.jpg"
     ],
     "price": 24000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "LX하우스",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "division": "하우스",
+      "thickness": "3.0T",
+      "size": "150 x 920mm",
+      "packing": "24pcs / Box / 3.31㎡"
     },
-    "description": "LX하우스"
+    "description": "하우스",
+    "collection": "House",
+    "series": "Wood",
+    "productName": "LX 하우스 HOW 0032 오크 라이트",
+    "spec": "3.0T x 150 x 920mm",
+    "package": "24pcs / Box / 3.31㎡",
+    "catalog": "하우스 타일 베이직(하우스)",
+    "note": "표면 무광 효과"
   },
   {
     "id": "데코타일-lx-lx하우스-how-0033-오크-내추럴",
     "category": "데코타일",
     "brand": "LX",
-    "line": "LX하우스",
-    "subLine": "LX하우스",
-    "name": "HOW 0033 오크 내추럴",
-    "code": "HOW 0033 오크 내추럴",
+    "line": "하우스",
+    "subLine": "하우스",
+    "name": "오크 내추럴",
+    "code": "HOW 0033",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200033%20%EC%98%A4%ED%81%AC%20%EB%82%B4%EC%B6%94%EB%9F%B4.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200033%20%EC%98%A4%ED%81%AC%20%EB%82%B4%EC%B6%94%EB%9F%B4.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200033%20%EC%98%A4%ED%81%AC%20%EB%82%B4%EC%B6%94%EB%9F%B4.jpg"
     ],
     "price": 24000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "LX하우스",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "division": "하우스",
+      "thickness": "3.0T",
+      "size": "150 x 920mm",
+      "packing": "24pcs / Box / 3.31㎡"
     },
-    "description": "LX하우스"
+    "description": "하우스",
+    "collection": "House",
+    "series": "Wood",
+    "productName": "LX 하우스 HOW 0033 오크 내추럴",
+    "spec": "3.0T x 150 x 920mm",
+    "package": "24pcs / Box / 3.31㎡",
+    "catalog": "하우스 타일 베이직(하우스)",
+    "note": "표면 무광 효과"
   },
   {
     "id": "데코타일-lx-lx하우스-how-0034-오크-스노우",
     "category": "데코타일",
     "brand": "LX",
-    "line": "LX하우스",
-    "subLine": "LX하우스",
-    "name": "HOW 0034 오크 스노우",
-    "code": "HOW 0034 오크 스노우",
+    "line": "하우스",
+    "subLine": "하우스",
+    "name": "오크 스노우",
+    "code": "HOW 0034",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200034%20%EC%98%A4%ED%81%AC%20%EC%8A%A4%EB%85%B8%EC%9A%B0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200034%20%EC%98%A4%ED%81%AC%20%EC%8A%A4%EB%85%B8%EC%9A%B0.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200034%20%EC%98%A4%ED%81%AC%20%EC%8A%A4%EB%85%B8%EC%9A%B0.jpg"
     ],
     "price": 24000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "LX하우스",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "division": "하우스",
+      "thickness": "3.0T",
+      "size": "150 x 920mm",
+      "packing": "24pcs / Box / 3.31㎡"
     },
-    "description": "LX하우스"
+    "description": "하우스",
+    "collection": "House",
+    "series": "Wood",
+    "productName": "LX 하우스 HOW 0034 오크 스노우",
+    "spec": "3.0T x 150 x 920mm",
+    "package": "24pcs / Box / 3.31㎡",
+    "catalog": "하우스 타일 베이직(하우스)",
+    "note": "표면 무광 효과"
   },
   {
     "id": "데코타일-lx-lx하우스-how-0035-오크-베이지",
     "category": "데코타일",
     "brand": "LX",
-    "line": "LX하우스",
-    "subLine": "LX하우스",
-    "name": "HOW 0035 오크 베이지",
-    "code": "HOW 0035 오크 베이지",
+    "line": "하우스",
+    "subLine": "하우스",
+    "name": "오크 베이지",
+    "code": "HOW 0035",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200035%20%EC%98%A4%ED%81%AC%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200035%20%EC%98%A4%ED%81%AC%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200035%20%EC%98%A4%ED%81%AC%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg"
     ],
     "price": 24000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "LX하우스",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "division": "하우스",
+      "thickness": "3.0T",
+      "size": "150 x 920mm",
+      "packing": "24pcs / Box / 3.31㎡"
     },
-    "description": "LX하우스"
+    "description": "하우스",
+    "collection": "House",
+    "series": "Wood",
+    "productName": "LX 하우스 HOW 0035 오크 베이지",
+    "spec": "3.0T x 150 x 920mm",
+    "package": "24pcs / Box / 3.31㎡",
+    "catalog": "하우스 타일 베이직(하우스)",
+    "note": "표면 무광 효과"
   },
   {
     "id": "데코타일-lx-lx하우스-how-0036-애쉬-라떼",
     "category": "데코타일",
     "brand": "LX",
-    "line": "LX하우스",
-    "subLine": "LX하우스",
-    "name": "HOW 0036 애쉬 라떼",
-    "code": "HOW 0036 애쉬 라떼",
+    "line": "하우스",
+    "subLine": "하우스",
+    "name": "애쉬 라떼",
+    "code": "HOW 0036",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200036%20%EC%95%A0%EC%89%AC%20%EB%9D%BC%EB%96%BC.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200036%20%EC%95%A0%EC%89%AC%20%EB%9D%BC%EB%96%BC.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200036%20%EC%95%A0%EC%89%AC%20%EB%9D%BC%EB%96%BC.jpg"
     ],
     "price": 24000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "LX하우스",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "division": "하우스",
+      "thickness": "3.0T",
+      "size": "150 x 920mm",
+      "packing": "24pcs / Box / 3.31㎡"
     },
-    "description": "LX하우스"
+    "description": "하우스",
+    "collection": "House",
+    "series": "Wood",
+    "productName": "LX 하우스 HOW 0036 애쉬 라떼",
+    "spec": "3.0T x 150 x 920mm",
+    "package": "24pcs / Box / 3.31㎡",
+    "catalog": "하우스 타일 베이직(하우스)",
+    "note": "표면 무광 효과"
   },
   {
     "id": "데코타일-lx-lx하우스-how-0037-애쉬-그레이",
     "category": "데코타일",
     "brand": "LX",
-    "line": "LX하우스",
-    "subLine": "LX하우스",
-    "name": "HOW 0037 애쉬 그레이",
-    "code": "HOW 0037 애쉬 그레이",
+    "line": "하우스",
+    "subLine": "하우스",
+    "name": "애쉬 그레이",
+    "code": "HOW 0037",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200037%20%EC%95%A0%EC%89%AC%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200037%20%EC%95%A0%EC%89%AC%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200037%20%EC%95%A0%EC%89%AC%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
     ],
     "price": 24000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "LX하우스",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "division": "하우스",
+      "thickness": "3.0T",
+      "size": "150 x 920mm",
+      "packing": "24pcs / Box / 3.31㎡"
     },
-    "description": "LX하우스"
+    "description": "하우스",
+    "collection": "House",
+    "series": "Wood",
+    "productName": "LX 하우스 HOW 0037 애쉬 그레이",
+    "spec": "3.0T x 150 x 920mm",
+    "package": "24pcs / Box / 3.31㎡",
+    "catalog": "하우스 타일 베이직(하우스)",
+    "note": "표면 무광 효과"
   },
   {
     "id": "데코타일-lx-lx하우스_데코레이s-내지_데코_dlt-3300",
@@ -1735,9 +1840,9 @@ export const materials = [
     "id": "데코타일-lx-lx하우스스타일-zot-0761",
     "category": "데코타일",
     "brand": "LX",
-    "line": "LX하우스스타일",
-    "subLine": "LX하우스스타일",
-    "name": "ZOT 0761",
+    "line": "하우스 스타일",
+    "subLine": "하우스 스타일",
+    "name": "화이트 베실리우스",
     "code": "ZOT 0761",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200761.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200761.jpg",
@@ -1747,20 +1852,27 @@ export const materials = [
     "price": 44000,
     "thickness": "3.0T",
     "specs": {
-      "division": "LX하우스스타일",
+      "division": "하우스 스타일",
       "thickness": "3.0T",
-      "size": "600x600mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
     },
-    "description": "LX하우스스타일"
+    "description": "하우스 스타일",
+    "collection": "House Style",
+    "series": "Stone",
+    "productName": "LX 하우스 스타일 ZOT 0761 화이트 베실리우스",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "catalog": "하우스 타일 스탠다드(하우스 스타일)",
+    "note": ""
   },
   {
     "id": "데코타일-lx-lx하우스스타일-zot-0762",
     "category": "데코타일",
     "brand": "LX",
-    "line": "LX하우스스타일",
-    "subLine": "LX하우스스타일",
-    "name": "ZOT 0762",
+    "line": "하우스 스타일",
+    "subLine": "하우스 스타일",
+    "name": "크림 임페리얼",
     "code": "ZOT 0762",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200762.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200762.jpg",
@@ -1770,20 +1882,27 @@ export const materials = [
     "price": 44000,
     "thickness": "3.0T",
     "specs": {
-      "division": "LX하우스스타일",
+      "division": "하우스 스타일",
       "thickness": "3.0T",
-      "size": "600x600mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
     },
-    "description": "LX하우스스타일"
+    "description": "하우스 스타일",
+    "collection": "House Style",
+    "series": "Stone",
+    "productName": "LX 하우스 스타일 ZOT 0762 크림 임페리얼",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "catalog": "하우스 타일 스탠다드(하우스 스타일)",
+    "note": ""
   },
   {
     "id": "데코타일-lx-lx하우스스타일-zot-0767",
     "category": "데코타일",
     "brand": "LX",
-    "line": "LX하우스스타일",
-    "subLine": "LX하우스스타일",
-    "name": "ZOT 0767",
+    "line": "하우스 스타일",
+    "subLine": "하우스 스타일",
+    "name": "그레이 크리트",
     "code": "ZOT 0767",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200767.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200767.jpg",
@@ -1793,20 +1912,27 @@ export const materials = [
     "price": 44000,
     "thickness": "3.0T",
     "specs": {
-      "division": "LX하우스스타일",
+      "division": "하우스 스타일",
       "thickness": "3.0T",
-      "size": "600x600mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
     },
-    "description": "LX하우스스타일"
+    "description": "하우스 스타일",
+    "collection": "House Style",
+    "series": "Stone",
+    "productName": "LX 하우스 스타일 ZOT 0767 그레이 크리트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "catalog": "하우스 타일 스탠다드(하우스 스타일)",
+    "note": ""
   },
   {
     "id": "데코타일-lx-lx하우스스타일-zot-0768",
     "category": "데코타일",
     "brand": "LX",
-    "line": "LX하우스스타일",
-    "subLine": "LX하우스스타일",
-    "name": "ZOT 0768",
+    "line": "하우스 스타일",
+    "subLine": "하우스 스타일",
+    "name": "소프트 마블 화이트",
     "code": "ZOT 0768",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200768.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200768.jpg",
@@ -1816,20 +1942,27 @@ export const materials = [
     "price": 44000,
     "thickness": "3.0T",
     "specs": {
-      "division": "LX하우스스타일",
+      "division": "하우스 스타일",
       "thickness": "3.0T",
-      "size": "600x600mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
     },
-    "description": "LX하우스스타일"
+    "description": "하우스 스타일",
+    "collection": "House Style",
+    "series": "Stone",
+    "productName": "LX 하우스 스타일 ZOT 0768 소프트 마블 화이트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "catalog": "하우스 타일 스탠다드(하우스 스타일)",
+    "note": ""
   },
   {
     "id": "데코타일-lx-lx하우스스타일-zot-0769",
     "category": "데코타일",
     "brand": "LX",
-    "line": "LX하우스스타일",
-    "subLine": "LX하우스스타일",
-    "name": "ZOT 0769",
+    "line": "하우스 스타일",
+    "subLine": "하우스 스타일",
+    "name": "소프트 마블 그레이",
     "code": "ZOT 0769",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200769.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200769.jpg",
@@ -1839,20 +1972,27 @@ export const materials = [
     "price": 44000,
     "thickness": "3.0T",
     "specs": {
-      "division": "LX하우스스타일",
+      "division": "하우스 스타일",
       "thickness": "3.0T",
-      "size": "600x600mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
     },
-    "description": "LX하우스스타일"
+    "description": "하우스 스타일",
+    "collection": "House Style",
+    "series": "Stone",
+    "productName": "LX 하우스 스타일 ZOT 0769 소프트 마블 그레이",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "catalog": "하우스 타일 스탠다드(하우스 스타일)",
+    "note": ""
   },
   {
     "id": "데코타일-lx-lx하우스스타일-zot-0770",
     "category": "데코타일",
     "brand": "LX",
-    "line": "LX하우스스타일",
-    "subLine": "LX하우스스타일",
-    "name": "ZOT 0770",
+    "line": "하우스 스타일",
+    "subLine": "하우스 스타일",
+    "name": "클라우드 베이지",
     "code": "ZOT 0770",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200770.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200770.jpg",
@@ -1862,20 +2002,27 @@ export const materials = [
     "price": 44000,
     "thickness": "3.0T",
     "specs": {
-      "division": "LX하우스스타일",
+      "division": "하우스 스타일",
       "thickness": "3.0T",
-      "size": "600x600mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
     },
-    "description": "LX하우스스타일"
+    "description": "하우스 스타일",
+    "collection": "House Style",
+    "series": "Stone",
+    "productName": "LX 하우스 스타일 ZOT 0770 클라우드 베이지",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "catalog": "하우스 타일 스탠다드(하우스 스타일)",
+    "note": ""
   },
   {
     "id": "데코타일-lx-lx하우스스타일-zot-0771",
     "category": "데코타일",
     "brand": "LX",
-    "line": "LX하우스스타일",
-    "subLine": "LX하우스스타일",
-    "name": "ZOT 0771",
+    "line": "하우스 스타일",
+    "subLine": "하우스 스타일",
+    "name": "클라우드 밀크",
     "code": "ZOT 0771",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200771.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200771.jpg",
@@ -1885,20 +2032,27 @@ export const materials = [
     "price": 44000,
     "thickness": "3.0T",
     "specs": {
-      "division": "LX하우스스타일",
+      "division": "하우스 스타일",
       "thickness": "3.0T",
-      "size": "600x600mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
     },
-    "description": "LX하우스스타일"
+    "description": "하우스 스타일",
+    "collection": "House Style",
+    "series": "Stone",
+    "productName": "LX 하우스 스타일 ZOT 0771 클라우드 밀크",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "catalog": "하우스 타일 스탠다드(하우스 스타일)",
+    "note": ""
   },
   {
     "id": "데코타일-lx-lx하우스스타일-zow-0712",
     "category": "데코타일",
     "brand": "LX",
-    "line": "LX하우스스타일",
-    "subLine": "LX하우스스타일",
-    "name": "ZOW 0712",
+    "line": "하우스 스타일",
+    "subLine": "하우스 스타일",
+    "name": "크림 오크",
     "code": "ZOW 0712",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200712.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200712.jpg",
@@ -1908,20 +2062,27 @@ export const materials = [
     "price": 44000,
     "thickness": "3.0T",
     "specs": {
-      "division": "LX하우스스타일",
+      "division": "하우스 스타일",
       "thickness": "3.0T",
-      "size": "150x1200mm",
-      "packing": "18pcs / 3.24㎡"
+      "size": "150 x 1200mm",
+      "packing": "18pcs / Box / 3.24㎡"
     },
-    "description": "LX하우스스타일"
+    "description": "하우스 스타일",
+    "collection": "House Style",
+    "series": "Wood",
+    "productName": "LX 하우스 스타일 ZOW 0712 크림 오크",
+    "spec": "3.0T x 150 x 1200mm",
+    "package": "18pcs / Box / 3.24㎡",
+    "catalog": "하우스 타일 스탠다드(하우스 스타일)",
+    "note": "EIR 동조엠보"
   },
   {
     "id": "데코타일-lx-lx하우스스타일-zow-0717",
     "category": "데코타일",
     "brand": "LX",
-    "line": "LX하우스스타일",
-    "subLine": "LX하우스스타일",
-    "name": "ZOW 0717",
+    "line": "하우스 스타일",
+    "subLine": "하우스 스타일",
+    "name": "진저 애쉬",
     "code": "ZOW 0717",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200717.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200717.jpg",
@@ -1931,20 +2092,27 @@ export const materials = [
     "price": 44000,
     "thickness": "3.0T",
     "specs": {
-      "division": "LX하우스스타일",
+      "division": "하우스 스타일",
       "thickness": "3.0T",
-      "size": "150x1200mm",
-      "packing": "18pcs / 3.24㎡"
+      "size": "150 x 1200mm",
+      "packing": "18pcs / Box / 3.24㎡"
     },
-    "description": "LX하우스스타일"
+    "description": "하우스 스타일",
+    "collection": "House Style",
+    "series": "Wood",
+    "productName": "LX 하우스 스타일 ZOW 0717 진저 애쉬",
+    "spec": "3.0T x 150 x 1200mm",
+    "package": "18pcs / Box / 3.24㎡",
+    "catalog": "하우스 타일 스탠다드(하우스 스타일)",
+    "note": "EIR 동조엠보"
   },
   {
     "id": "데코타일-lx-lx하우스스타일-zow-0718",
     "category": "데코타일",
     "brand": "LX",
-    "line": "LX하우스스타일",
-    "subLine": "LX하우스스타일",
-    "name": "ZOW 0718",
+    "line": "하우스 스타일",
+    "subLine": "하우스 스타일",
+    "name": "카라멜 애쉬",
     "code": "ZOW 0718",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200718.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200718.jpg",
@@ -1954,20 +2122,27 @@ export const materials = [
     "price": 44000,
     "thickness": "3.0T",
     "specs": {
-      "division": "LX하우스스타일",
+      "division": "하우스 스타일",
       "thickness": "3.0T",
-      "size": "150x1200mm",
-      "packing": "18pcs / 3.24㎡"
+      "size": "150 x 1200mm",
+      "packing": "18pcs / Box / 3.24㎡"
     },
-    "description": "LX하우스스타일"
+    "description": "하우스 스타일",
+    "collection": "House Style",
+    "series": "Wood",
+    "productName": "LX 하우스 스타일 ZOW 0718 카라멜 애쉬",
+    "spec": "3.0T x 150 x 1200mm",
+    "package": "18pcs / Box / 3.24㎡",
+    "catalog": "하우스 타일 스탠다드(하우스 스타일)",
+    "note": "EIR 동조엠보"
   },
   {
     "id": "데코타일-lx-lx하우스스타일-zow-0719",
     "category": "데코타일",
     "brand": "LX",
-    "line": "LX하우스스타일",
-    "subLine": "LX하우스스타일",
-    "name": "ZOW 0719",
+    "line": "하우스 스타일",
+    "subLine": "하우스 스타일",
+    "name": "허니 월넛",
     "code": "ZOW 0719",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200719.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200719.jpg",
@@ -1977,20 +2152,27 @@ export const materials = [
     "price": 44000,
     "thickness": "3.0T",
     "specs": {
-      "division": "LX하우스스타일",
+      "division": "하우스 스타일",
       "thickness": "3.0T",
-      "size": "150x1200mm",
-      "packing": "18pcs / 3.24㎡"
+      "size": "150 x 1200mm",
+      "packing": "18pcs / Box / 3.24㎡"
     },
-    "description": "LX하우스스타일"
+    "description": "하우스 스타일",
+    "collection": "House Style",
+    "series": "Wood",
+    "productName": "LX 하우스 스타일 ZOW 0719 허니 월넛",
+    "spec": "3.0T x 150 x 1200mm",
+    "package": "18pcs / Box / 3.24㎡",
+    "catalog": "하우스 타일 스탠다드(하우스 스타일)",
+    "note": "EIR 동조엠보"
   },
   {
     "id": "데코타일-lx-lx하우스스타일-zow-0720",
     "category": "데코타일",
     "brand": "LX",
-    "line": "LX하우스스타일",
-    "subLine": "LX하우스스타일",
-    "name": "ZOW 0720",
+    "line": "하우스 스타일",
+    "subLine": "하우스 스타일",
+    "name": "브론즈 월넛",
     "code": "ZOW 0720",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200720.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200720.jpg",
@@ -2000,12 +2182,19 @@ export const materials = [
     "price": 44000,
     "thickness": "3.0T",
     "specs": {
-      "division": "LX하우스스타일",
+      "division": "하우스 스타일",
       "thickness": "3.0T",
-      "size": "150x1200mm",
-      "packing": "18pcs / 3.24㎡"
+      "size": "150 x 1200mm",
+      "packing": "18pcs / Box / 3.24㎡"
     },
-    "description": "LX하우스스타일"
+    "description": "하우스 스타일",
+    "collection": "House Style",
+    "series": "Wood",
+    "productName": "LX 하우스 스타일 ZOW 0720 브론즈 월넛",
+    "spec": "3.0T x 150 x 1200mm",
+    "package": "18pcs / Box / 3.24㎡",
+    "catalog": "하우스 타일 스탠다드(하우스 스타일)",
+    "note": "EIR 동조엠보"
   },
   {
     "id": "데코타일-lx-디럭스-dlx081",
@@ -2335,22 +2524,29 @@ export const materials = [
     "brand": "LX",
     "line": "보타닉",
     "subLine": "보타닉",
-    "name": "DBT3066 카펫 그레이 450",
-    "code": "DBT3066 카펫 그레이 450",
+    "name": "카펫",
+    "code": "DBT 3066",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3066%20%EC%B9%B4%ED%8E%AB%20%EA%B7%B8%EB%A0%88%EC%9D%B4%20450.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3066%20%EC%B9%B4%ED%8E%AB%20%EA%B7%B8%EB%A0%88%EC%9D%B4%20450.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3066%20%EC%B9%B4%ED%8E%AB%20%EA%B7%B8%EB%A0%88%EC%9D%B4%20450.jpg"
     ],
     "price": 24000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
       "division": "보타닉",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
     },
-    "description": "보타닉"
+    "description": "보타닉",
+    "collection": "BOTANIC",
+    "series": "450 Square",
+    "productName": "LX 보타닉 DBT 3066 카펫",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용"
   },
   {
     "id": "데코타일-lx-보타닉-dbt3067-스톤-그레이지-450",
@@ -2358,22 +2554,29 @@ export const materials = [
     "brand": "LX",
     "line": "보타닉",
     "subLine": "보타닉",
-    "name": "DBT3067 스톤 그레이지 450",
-    "code": "DBT3067 스톤 그레이지 450",
+    "name": "마블",
+    "code": "DBT 3067",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3067%20%EC%8A%A4%ED%86%A4%20%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%A7%80%20450.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3067%20%EC%8A%A4%ED%86%A4%20%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%A7%80%20450.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3067%20%EC%8A%A4%ED%86%A4%20%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%A7%80%20450.jpg"
     ],
     "price": 24000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
       "division": "보타닉",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
     },
-    "description": "보타닉"
+    "description": "보타닉",
+    "collection": "BOTANIC",
+    "series": "450 Square",
+    "productName": "LX 보타닉 DBT 3067 마블",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용"
   },
   {
     "id": "데코타일-lx-보타닉-dbt3069-스톤-실버-450",
@@ -2381,22 +2584,29 @@ export const materials = [
     "brand": "LX",
     "line": "보타닉",
     "subLine": "보타닉",
-    "name": "DBT3069 스톤 실버 450",
-    "code": "DBT3069 스톤 실버 450",
+    "name": "그라니트",
+    "code": "DBT 3069",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3069%20%EC%8A%A4%ED%86%A4%20%EC%8B%A4%EB%B2%84%20450.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3069%20%EC%8A%A4%ED%86%A4%20%EC%8B%A4%EB%B2%84%20450.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3069%20%EC%8A%A4%ED%86%A4%20%EC%8B%A4%EB%B2%84%20450.jpg"
     ],
     "price": 24000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
       "division": "보타닉",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
     },
-    "description": "보타닉"
+    "description": "보타닉",
+    "collection": "BOTANIC",
+    "series": "450 Square",
+    "productName": "LX 보타닉 DBT 3069 그라니트",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용"
   },
   {
     "id": "데코타일-lx-보타닉-dbt3074-라임스톤-라이트그레이-450",
@@ -2404,22 +2614,29 @@ export const materials = [
     "brand": "LX",
     "line": "보타닉",
     "subLine": "보타닉",
-    "name": "DBT3074 라임스톤 라이트그레이 450",
-    "code": "DBT3074 라임스톤 라이트그레이 450",
+    "name": "라임스톤",
+    "code": "DBT 3074",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3074%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20450.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3074%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20450.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3074%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20450.jpg"
     ],
     "price": 24000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
       "division": "보타닉",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
     },
-    "description": "보타닉"
+    "description": "보타닉",
+    "collection": "BOTANIC",
+    "series": "450 Square",
+    "productName": "LX 보타닉 DBT 3074 라임스톤",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용"
   },
   {
     "id": "데코타일-lx-보타닉-dbt3075-라임스톤-라이트그레이-450",
@@ -2427,22 +2644,29 @@ export const materials = [
     "brand": "LX",
     "line": "보타닉",
     "subLine": "보타닉",
-    "name": "DBT3075 라임스톤 라이트그레이 450",
-    "code": "DBT3075 라임스톤 라이트그레이 450",
+    "name": "라임스톤",
+    "code": "DBT 3075",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3075%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20450.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3075%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20450.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3075%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20450.jpg"
     ],
     "price": 24000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
       "division": "보타닉",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
     },
-    "description": "보타닉"
+    "description": "보타닉",
+    "collection": "BOTANIC",
+    "series": "450 Square",
+    "productName": "LX 보타닉 DBT 3075 라임스톤",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용"
   },
   {
     "id": "데코타일-lx-보타닉-dbt3082-콘크리트-라이트그레이-600",
@@ -2450,22 +2674,29 @@ export const materials = [
     "brand": "LX",
     "line": "보타닉",
     "subLine": "보타닉",
-    "name": "DBT3082 콘크리트 라이트그레이 600",
-    "code": "DBT3082 콘크리트 라이트그레이 600",
+    "name": "콘크리트",
+    "code": "DBT 3082",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3082%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20600.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3082%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20600.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3082%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20600.jpg"
     ],
     "price": 25000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
       "division": "보타닉",
-      "thickness": "",
-      "size": "600x600mm",
-      "packing": "9pcs / 3.24㎡"
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
     },
-    "description": "보타닉"
+    "description": "보타닉",
+    "collection": "BOTANIC",
+    "series": "600 Square",
+    "productName": "LX 보타닉 DBT 3082 콘크리트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용"
   },
   {
     "id": "데코타일-lx-보타닉-dbt3090-샌드스톤-라이트그레이-600",
@@ -2473,22 +2704,29 @@ export const materials = [
     "brand": "LX",
     "line": "보타닉",
     "subLine": "보타닉",
-    "name": "DBT3090 샌드스톤 라이트그레이 600",
-    "code": "DBT3090 샌드스톤 라이트그레이 600",
+    "name": "샌드스톤",
+    "code": "DBT 3090",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3090%20%EC%83%8C%EB%93%9C%EC%8A%A4%ED%86%A4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20600.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3090%20%EC%83%8C%EB%93%9C%EC%8A%A4%ED%86%A4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20600.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3090%20%EC%83%8C%EB%93%9C%EC%8A%A4%ED%86%A4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20600.jpg"
     ],
     "price": 25000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
       "division": "보타닉",
-      "thickness": "",
-      "size": "600x600mm",
-      "packing": "9pcs / 3.24㎡"
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
     },
-    "description": "보타닉"
+    "description": "보타닉",
+    "collection": "BOTANIC",
+    "series": "600 Square",
+    "productName": "LX 보타닉 DBT 3090 샌드스톤",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용"
   },
   {
     "id": "데코타일-lx-보타닉-dbw3020-우드-브라운-180",
@@ -2496,22 +2734,29 @@ export const materials = [
     "brand": "LX",
     "line": "보타닉",
     "subLine": "보타닉",
-    "name": "DBW3020 우드 브라운 180",
-    "code": "DBW3020 우드 브라운 180",
+    "name": "엘레강스 오크",
+    "code": "DBW 3020",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3020%20%EC%9A%B0%EB%93%9C%20%EB%B8%8C%EB%9D%BC%EC%9A%B4%20180.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3020%20%EC%9A%B0%EB%93%9C%20%EB%B8%8C%EB%9D%BC%EC%9A%B4%20180.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3020%20%EC%9A%B0%EB%93%9C%20%EB%B8%8C%EB%9D%BC%EC%9A%B4%20180.jpg"
     ],
     "price": 24000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
       "division": "보타닉",
-      "thickness": "",
-      "size": "184x950mm",
-      "packing": "우드 규격 문의"
+      "thickness": "3.0T",
+      "size": "180 x 920mm",
+      "packing": "20pcs / Box / 3.31㎡"
     },
-    "description": "보타닉"
+    "description": "보타닉",
+    "collection": "BOTANIC",
+    "series": "180 Wood",
+    "productName": "LX 보타닉 DBW 3020 엘레강스 오크",
+    "spec": "3.0T x 180 x 920mm",
+    "package": "20pcs / Box / 3.31㎡",
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용"
   },
   {
     "id": "데코타일-lx-보타닉-dbw3022-우드-브라운-180",
@@ -2519,22 +2764,29 @@ export const materials = [
     "brand": "LX",
     "line": "보타닉",
     "subLine": "보타닉",
-    "name": "DBW3022 우드 브라운 180",
-    "code": "DBW3022 우드 브라운 180",
+    "name": "엘레강스 오크",
+    "code": "DBW 3022",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3022%20%EC%9A%B0%EB%93%9C%20%EB%B8%8C%EB%9D%BC%EC%9A%B4%20180.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3022%20%EC%9A%B0%EB%93%9C%20%EB%B8%8C%EB%9D%BC%EC%9A%B4%20180.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3022%20%EC%9A%B0%EB%93%9C%20%EB%B8%8C%EB%9D%BC%EC%9A%B4%20180.jpg"
     ],
     "price": 24000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
       "division": "보타닉",
-      "thickness": "",
-      "size": "184x950mm",
-      "packing": "우드 규격 문의"
+      "thickness": "3.0T",
+      "size": "180 x 920mm",
+      "packing": "20pcs / Box / 3.31㎡"
     },
-    "description": "보타닉"
+    "description": "보타닉",
+    "collection": "BOTANIC",
+    "series": "180 Wood",
+    "productName": "LX 보타닉 DBW 3022 엘레강스 오크",
+    "spec": "3.0T x 180 x 920mm",
+    "package": "20pcs / Box / 3.31㎡",
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용"
   },
   {
     "id": "데코타일-lx-보타닉-dbw3029-우드-라이트베이지-180",
@@ -2542,22 +2794,29 @@ export const materials = [
     "brand": "LX",
     "line": "보타닉",
     "subLine": "보타닉",
-    "name": "DBW3029 우드 라이트베이지 180",
-    "code": "DBW3029 우드 라이트베이지 180",
+    "name": "그린 오크",
+    "code": "DBW 3029",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3029%20%EC%9A%B0%EB%93%9C%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B2%A0%EC%9D%B4%EC%A7%80%20180.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3029%20%EC%9A%B0%EB%93%9C%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B2%A0%EC%9D%B4%EC%A7%80%20180.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3029%20%EC%9A%B0%EB%93%9C%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B2%A0%EC%9D%B4%EC%A7%80%20180.jpg"
     ],
     "price": 24000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
       "division": "보타닉",
-      "thickness": "",
-      "size": "184x950mm",
-      "packing": "우드 규격 문의"
+      "thickness": "3.0T",
+      "size": "180 x 920mm",
+      "packing": "20pcs / Box / 3.31㎡"
     },
-    "description": "보타닉"
+    "description": "보타닉",
+    "collection": "BOTANIC",
+    "series": "180 Wood",
+    "productName": "LX 보타닉 DBW 3029 그린 오크",
+    "spec": "3.0T x 180 x 920mm",
+    "package": "20pcs / Box / 3.31㎡",
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용"
   },
   {
     "id": "데코타일-lx-보타닉-dbw3037-우드-라이트베이지-180",
@@ -2565,22 +2824,29 @@ export const materials = [
     "brand": "LX",
     "line": "보타닉",
     "subLine": "보타닉",
-    "name": "DBW3037 우드 라이트베이지 180",
-    "code": "DBW3037 우드 라이트베이지 180",
+    "name": "워시 오크",
+    "code": "DBW 3037",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3037%20%EC%9A%B0%EB%93%9C%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B2%A0%EC%9D%B4%EC%A7%80%20180.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3037%20%EC%9A%B0%EB%93%9C%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B2%A0%EC%9D%B4%EC%A7%80%20180.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3037%20%EC%9A%B0%EB%93%9C%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B2%A0%EC%9D%B4%EC%A7%80%20180.jpg"
     ],
     "price": 24000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
       "division": "보타닉",
-      "thickness": "",
-      "size": "184x950mm",
-      "packing": "우드 규격 문의"
+      "thickness": "3.0T",
+      "size": "180 x 920mm",
+      "packing": "20pcs / Box / 3.31㎡"
     },
-    "description": "보타닉"
+    "description": "보타닉",
+    "collection": "BOTANIC",
+    "series": "180 Wood",
+    "productName": "LX 보타닉 DBW 3037 워시 오크",
+    "spec": "3.0T x 180 x 920mm",
+    "package": "20pcs / Box / 3.31㎡",
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용"
   },
   {
     "id": "데코타일-lx-보타닉-dbw3038-우드-베이지-180",
@@ -2588,22 +2854,29 @@ export const materials = [
     "brand": "LX",
     "line": "보타닉",
     "subLine": "보타닉",
-    "name": "DBW3038 우드 베이지 180",
-    "code": "DBW3038 우드 베이지 180",
+    "name": "워시 오크",
+    "code": "DBW 3038",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3038%20%EC%9A%B0%EB%93%9C%20%EB%B2%A0%EC%9D%B4%EC%A7%80%20180.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3038%20%EC%9A%B0%EB%93%9C%20%EB%B2%A0%EC%9D%B4%EC%A7%80%20180.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3038%20%EC%9A%B0%EB%93%9C%20%EB%B2%A0%EC%9D%B4%EC%A7%80%20180.jpg"
     ],
     "price": 24000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
       "division": "보타닉",
-      "thickness": "",
-      "size": "184x950mm",
-      "packing": "우드 규격 문의"
+      "thickness": "3.0T",
+      "size": "180 x 920mm",
+      "packing": "20pcs / Box / 3.31㎡"
     },
-    "description": "보타닉"
+    "description": "보타닉",
+    "collection": "BOTANIC",
+    "series": "180 Wood",
+    "productName": "LX 보타닉 DBW 3038 워시 오크",
+    "spec": "3.0T x 180 x 920mm",
+    "package": "20pcs / Box / 3.31㎡",
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용"
   },
   {
     "id": "데코타일-lx-보타닉-dbw3042-우드-라이트브라운-180",
@@ -2611,22 +2884,29 @@ export const materials = [
     "brand": "LX",
     "line": "보타닉",
     "subLine": "보타닉",
-    "name": "DBW3042 우드 라이트브라운 180",
-    "code": "DBW3042 우드 라이트브라운 180",
+    "name": "유러피안 오크",
+    "code": "DBW 3042",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3042%20%EC%9A%B0%EB%93%9C%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B8%8C%EB%9D%BC%EC%9A%B4%20180.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3042%20%EC%9A%B0%EB%93%9C%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B8%8C%EB%9D%BC%EC%9A%B4%20180.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3042%20%EC%9A%B0%EB%93%9C%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B8%8C%EB%9D%BC%EC%9A%B4%20180.jpg"
     ],
     "price": 24000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
       "division": "보타닉",
-      "thickness": "",
-      "size": "184x950mm",
-      "packing": "우드 규격 문의"
+      "thickness": "3.0T",
+      "size": "180 x 920mm",
+      "packing": "20pcs / Box / 3.31㎡"
     },
-    "description": "보타닉"
+    "description": "보타닉",
+    "collection": "BOTANIC",
+    "series": "180 Wood",
+    "productName": "LX 보타닉 DBW 3042 유러피안 오크",
+    "spec": "3.0T x 180 x 920mm",
+    "package": "20pcs / Box / 3.31㎡",
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용"
   },
   {
     "id": "데코타일-녹수-세타그립_450각-sgt-4011",
@@ -89823,5 +90103,4745 @@ export const materials = [
       "packing": "20pcs / 5m²"
     },
     "description": ""
+  },
+  {
+    "id": "데코타일-lx-프레스티지-ptt6952",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "프레스티지",
+    "subLine": "프레스티지",
+    "collection": "PRESTG",
+    "series": "Sand / Lime 600",
+    "code": "PTT6952",
+    "name": "샌드 베이지",
+    "productName": "LX 프레스티지 PTT6952 샌드 베이지",
+    "spec": "5.0T x 600 x 600mm",
+    "package": "5pcs / Box / 1.80㎡",
+    "price": null,
+    "catalog": "LVT 프리미엄 5T (프레스티지)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6952%20%EC%83%8C%EB%93%9C%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6952%20%EC%83%8C%EB%93%9C%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6952%20%EC%83%8C%EB%93%9C%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "프레스티지",
+      "thickness": "5.0T",
+      "size": "600 x 600mm",
+      "packing": "5pcs / Box / 1.80㎡"
+    },
+    "description": "프레스티지"
+  },
+  {
+    "id": "데코타일-lx-프레스티지-ptt6953",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "프레스티지",
+    "subLine": "프레스티지",
+    "collection": "PRESTG",
+    "series": "Sand / Lime 600",
+    "code": "PTT6953",
+    "name": "솔리드 칩",
+    "productName": "LX 프레스티지 PTT6953 솔리드 칩",
+    "spec": "5.0T x 600 x 600mm",
+    "package": "5pcs / Box / 1.80㎡",
+    "price": null,
+    "catalog": "LVT 프리미엄 5T (프레스티지)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6953%20%EC%86%94%EB%A6%AC%EB%93%9C%20%EC%B9%A9.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6953%20%EC%86%94%EB%A6%AC%EB%93%9C%20%EC%B9%A9.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6953%20%EC%86%94%EB%A6%AC%EB%93%9C%20%EC%B9%A9.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "프레스티지",
+      "thickness": "5.0T",
+      "size": "600 x 600mm",
+      "packing": "5pcs / Box / 1.80㎡"
+    },
+    "description": "프레스티지"
+  },
+  {
+    "id": "데코타일-lx-프레스티지-ptt6950",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "프레스티지",
+    "subLine": "프레스티지",
+    "collection": "PRESTG",
+    "series": "Concrete 600",
+    "code": "PTT6950",
+    "name": "미스티 콘크리트",
+    "productName": "LX 프레스티지 PTT6950 미스티 콘크리트",
+    "spec": "5.0T x 600 x 600mm",
+    "package": "5pcs / Box / 1.80㎡",
+    "price": null,
+    "catalog": "LVT 프리미엄 5T (프레스티지)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6950%20%EB%AF%B8%EC%8A%A4%ED%8B%B0%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6950%20%EB%AF%B8%EC%8A%A4%ED%8B%B0%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6950%20%EB%AF%B8%EC%8A%A4%ED%8B%B0%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "프레스티지",
+      "thickness": "5.0T",
+      "size": "600 x 600mm",
+      "packing": "5pcs / Box / 1.80㎡"
+    },
+    "description": "프레스티지"
+  },
+  {
+    "id": "데코타일-lx-프레스티지-ptt6913",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "프레스티지",
+    "subLine": "프레스티지",
+    "collection": "PRESTG",
+    "series": "Concrete 600",
+    "code": "PTT6913",
+    "name": "펄 콘크리트",
+    "productName": "LX 프레스티지 PTT6913 펄 콘크리트",
+    "spec": "5.0T x 600 x 600mm",
+    "package": "5pcs / Box / 1.80㎡",
+    "price": null,
+    "catalog": "LVT 프리미엄 5T (프레스티지)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6913%20%ED%8E%84%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6913%20%ED%8E%84%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6913%20%ED%8E%84%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "프레스티지",
+      "thickness": "5.0T",
+      "size": "600 x 600mm",
+      "packing": "5pcs / Box / 1.80㎡"
+    },
+    "description": "프레스티지"
+  },
+  {
+    "id": "데코타일-lx-프레스티지-ptt6910",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "프레스티지",
+    "subLine": "프레스티지",
+    "collection": "PRESTG",
+    "series": "Concrete 600",
+    "code": "PTT6910",
+    "name": "메탈",
+    "productName": "LX 프레스티지 PTT6910 메탈",
+    "spec": "5.0T x 600 x 600mm",
+    "package": "5pcs / Box / 1.80㎡",
+    "price": null,
+    "catalog": "LVT 프리미엄 5T (프레스티지)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6910%20%EB%A9%94%ED%83%88.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6910%20%EB%A9%94%ED%83%88.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6910%20%EB%A9%94%ED%83%88.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "프레스티지",
+      "thickness": "5.0T",
+      "size": "600 x 600mm",
+      "packing": "5pcs / Box / 1.80㎡"
+    },
+    "description": "프레스티지"
+  },
+  {
+    "id": "데코타일-lx-프레스티지-ptt6912",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "프레스티지",
+    "subLine": "프레스티지",
+    "collection": "PRESTG",
+    "series": "Concrete 600",
+    "code": "PTT6912",
+    "name": "메탈",
+    "productName": "LX 프레스티지 PTT6912 메탈",
+    "spec": "5.0T x 600 x 600mm",
+    "package": "5pcs / Box / 1.80㎡",
+    "price": null,
+    "catalog": "LVT 프리미엄 5T (프레스티지)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6912%20%EB%A9%94%ED%83%88.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6912%20%EB%A9%94%ED%83%88.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6912%20%EB%A9%94%ED%83%88.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "프레스티지",
+      "thickness": "5.0T",
+      "size": "600 x 600mm",
+      "packing": "5pcs / Box / 1.80㎡"
+    },
+    "description": "프레스티지"
+  },
+  {
+    "id": "데코타일-lx-프레스티지-ptt6951",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "프레스티지",
+    "subLine": "프레스티지",
+    "collection": "PRESTG",
+    "series": "Marble 600",
+    "code": "PTT6951",
+    "name": "모던 그레이",
+    "productName": "LX 프레스티지 PTT6951 모던 그레이",
+    "spec": "5.0T x 600 x 600mm",
+    "package": "5pcs / Box / 1.80㎡",
+    "price": null,
+    "catalog": "LVT 프리미엄 5T (프레스티지)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6951%20%EB%AA%A8%EB%8D%98%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6951%20%EB%AA%A8%EB%8D%98%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6951%20%EB%AA%A8%EB%8D%98%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "프레스티지",
+      "thickness": "5.0T",
+      "size": "600 x 600mm",
+      "packing": "5pcs / Box / 1.80㎡"
+    },
+    "description": "프레스티지"
+  },
+  {
+    "id": "데코타일-lx-프레스티지-ptt6917",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "프레스티지",
+    "subLine": "프레스티지",
+    "collection": "PRESTG",
+    "series": "Marble 600",
+    "code": "PTT6917",
+    "name": "비안코",
+    "productName": "LX 프레스티지 PTT6917 비안코",
+    "spec": "5.0T x 600 x 600mm",
+    "package": "5pcs / Box / 1.80㎡",
+    "price": null,
+    "catalog": "LVT 프리미엄 5T (프레스티지)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6917%20%EB%B9%84%EC%95%88%EC%BD%94.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6917%20%EB%B9%84%EC%95%88%EC%BD%94.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6917%20%EB%B9%84%EC%95%88%EC%BD%94.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "프레스티지",
+      "thickness": "5.0T",
+      "size": "600 x 600mm",
+      "packing": "5pcs / Box / 1.80㎡"
+    },
+    "description": "프레스티지"
+  },
+  {
+    "id": "데코타일-lx-프레스티지-ptt8696",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "프레스티지",
+    "subLine": "프레스티지",
+    "collection": "PRESTG",
+    "series": "Stone 457.2 x 914.4",
+    "code": "PTT8696",
+    "name": "아이스 골드",
+    "productName": "LX 프레스티지 PTT8696 아이스 골드",
+    "spec": "5.0T x 457.2 x 914.4mm",
+    "package": "5pcs / Box / 2.09㎡",
+    "price": null,
+    "catalog": "LVT 프리미엄 5T (프레스티지)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT8696%20%EC%95%84%EC%9D%B4%EC%8A%A4%20%EA%B3%A8%EB%93%9C.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT8696%20%EC%95%84%EC%9D%B4%EC%8A%A4%20%EA%B3%A8%EB%93%9C.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT8696%20%EC%95%84%EC%9D%B4%EC%8A%A4%20%EA%B3%A8%EB%93%9C.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "프레스티지",
+      "thickness": "5.0T",
+      "size": "457.2 x 914.4mm",
+      "packing": "5pcs / Box / 2.09㎡"
+    },
+    "description": "프레스티지"
+  },
+  {
+    "id": "데코타일-lx-프레스티지-ptt8698",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "프레스티지",
+    "subLine": "프레스티지",
+    "collection": "PRESTG",
+    "series": "Stone 457.2 x 914.4",
+    "code": "PTT8698",
+    "name": "더스크 브론즈",
+    "productName": "LX 프레스티지 PTT8698 더스크 브론즈",
+    "spec": "5.0T x 457.2 x 914.4mm",
+    "package": "5pcs / Box / 2.09㎡",
+    "price": null,
+    "catalog": "LVT 프리미엄 5T (프레스티지)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT8698%20%EB%8D%94%EC%8A%A4%ED%81%AC%20%EB%B8%8C%EB%A1%A0%EC%A6%88.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT8698%20%EB%8D%94%EC%8A%A4%ED%81%AC%20%EB%B8%8C%EB%A1%A0%EC%A6%88.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT8698%20%EB%8D%94%EC%8A%A4%ED%81%AC%20%EB%B8%8C%EB%A1%A0%EC%A6%88.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "프레스티지",
+      "thickness": "5.0T",
+      "size": "457.2 x 914.4mm",
+      "packing": "5pcs / Box / 2.09㎡"
+    },
+    "description": "프레스티지"
+  },
+  {
+    "id": "데코타일-lx-프레스티지-ptw7902",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "프레스티지",
+    "subLine": "프레스티지",
+    "collection": "PRESTG",
+    "series": "Wood",
+    "code": "PTW7902",
+    "name": "솔트 오크",
+    "productName": "LX 프레스티지 PTW7902 솔트 오크",
+    "spec": "5.0T x 228.6 x 1523mm",
+    "package": "6pcs / Box / 2.09㎡",
+    "price": null,
+    "catalog": "LVT 프리미엄 5T (프레스티지)",
+    "note": "EIR 동조엠보",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7902%20%EC%86%94%ED%8A%B8%20%EC%98%A4%ED%81%AC.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7902%20%EC%86%94%ED%8A%B8%20%EC%98%A4%ED%81%AC.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7902%20%EC%86%94%ED%8A%B8%20%EC%98%A4%ED%81%AC.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "프레스티지",
+      "thickness": "5.0T",
+      "size": "228.6 x 1523mm",
+      "packing": "6pcs / Box / 2.09㎡"
+    },
+    "description": "프레스티지"
+  },
+  {
+    "id": "데코타일-lx-프레스티지-ptw7904",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "프레스티지",
+    "subLine": "프레스티지",
+    "collection": "PRESTG",
+    "series": "Wood",
+    "code": "PTW7904",
+    "name": "파인",
+    "productName": "LX 프레스티지 PTW7904 파인",
+    "spec": "5.0T x 228.6 x 1523mm",
+    "package": "6pcs / Box / 2.09㎡",
+    "price": null,
+    "catalog": "LVT 프리미엄 5T (프레스티지)",
+    "note": "EIR 동조엠보",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7904%20%ED%8C%8C%EC%9D%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7904%20%ED%8C%8C%EC%9D%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7904%20%ED%8C%8C%EC%9D%B8.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "프레스티지",
+      "thickness": "5.0T",
+      "size": "228.6 x 1523mm",
+      "packing": "6pcs / Box / 2.09㎡"
+    },
+    "description": "프레스티지"
+  },
+  {
+    "id": "데코타일-lx-프레스티지-ptw7961",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "프레스티지",
+    "subLine": "프레스티지",
+    "collection": "PRESTG",
+    "series": "Wood",
+    "code": "PTW7961",
+    "name": "어반 사하라",
+    "productName": "LX 프레스티지 PTW7961 어반 사하라",
+    "spec": "5.0T x 228.6 x 1523mm",
+    "package": "6pcs / Box / 2.09㎡",
+    "price": null,
+    "catalog": "LVT 프리미엄 5T (프레스티지)",
+    "note": "EIR 동조엠보",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7961%20%EC%96%B4%EB%B0%98%20%EC%82%AC%ED%95%98%EB%9D%BC.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7961%20%EC%96%B4%EB%B0%98%20%EC%82%AC%ED%95%98%EB%9D%BC.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7961%20%EC%96%B4%EB%B0%98%20%EC%82%AC%ED%95%98%EB%9D%BC.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "프레스티지",
+      "thickness": "5.0T",
+      "size": "228.6 x 1523mm",
+      "packing": "6pcs / Box / 2.09㎡"
+    },
+    "description": "프레스티지"
+  },
+  {
+    "id": "데코타일-lx-프레스티지-ptw7964",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "프레스티지",
+    "subLine": "프레스티지",
+    "collection": "PRESTG",
+    "series": "Wood",
+    "code": "PTW7964",
+    "name": "아메리칸 오크",
+    "productName": "LX 프레스티지 PTW7964 아메리칸 오크",
+    "spec": "5.0T x 228.6 x 1523mm",
+    "package": "6pcs / Box / 2.09㎡",
+    "price": null,
+    "catalog": "LVT 프리미엄 5T (프레스티지)",
+    "note": "EIR 동조엠보",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7964%20%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B8%20%EC%98%A4%ED%81%AC.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7964%20%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B8%20%EC%98%A4%ED%81%AC.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7964%20%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B8%20%EC%98%A4%ED%81%AC.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "프레스티지",
+      "thickness": "5.0T",
+      "size": "228.6 x 1523mm",
+      "packing": "6pcs / Box / 2.09㎡"
+    },
+    "description": "프레스티지"
+  },
+  {
+    "id": "데코타일-lx-하우스스타일-zow0714",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "하우스 스타일",
+    "subLine": "하우스 스타일",
+    "collection": "House Style",
+    "series": "Wood",
+    "code": "ZOW 0714",
+    "name": "프렌치 애쉬",
+    "productName": "LX 하우스 스타일 ZOW 0714 프렌치 애쉬",
+    "spec": "3.0T x 150 x 1200mm",
+    "package": "18pcs / Box / 3.24㎡",
+    "price": 44000,
+    "catalog": "하우스 타일 스탠다드(하우스 스타일)",
+    "note": "EIR 동조엠보",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOW%200714%20%ED%94%84%EB%A0%8C%EC%B9%98%20%EC%95%A0%EC%89%AC.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOW%200714%20%ED%94%84%EB%A0%8C%EC%B9%98%20%EC%95%A0%EC%89%AC.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOW%200714%20%ED%94%84%EB%A0%8C%EC%B9%98%20%EC%95%A0%EC%89%AC.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "하우스 스타일",
+      "thickness": "3.0T",
+      "size": "150 x 1200mm",
+      "packing": "18pcs / Box / 3.24㎡"
+    },
+    "description": "하우스 스타일"
+  },
+  {
+    "id": "데코타일-lx-oa타일-oap6562",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "OA타일",
+    "subLine": "OA타일",
+    "collection": "Looselay Standard OA",
+    "series": "Stone",
+    "code": "OAP 6562",
+    "name": "라임스톤 샌드",
+    "productName": "LX OA타일 OAP 6562 라임스톤 샌드",
+    "spec": "5.0T x 500 x 500mm",
+    "package": "12pcs / Box / 3.00㎡",
+    "price": null,
+    "catalog": "Looselay 스탠다드 OA (OA타일)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206562%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EC%83%8C%EB%93%9C.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206562%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EC%83%8C%EB%93%9C.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206562%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EC%83%8C%EB%93%9C.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "OA타일",
+      "thickness": "5.0T",
+      "size": "500 x 500mm",
+      "packing": "12pcs / Box / 3.00㎡"
+    },
+    "description": "OA타일"
+  },
+  {
+    "id": "데코타일-lx-oa타일-oap6561",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "OA타일",
+    "subLine": "OA타일",
+    "collection": "Looselay Standard OA",
+    "series": "Stone",
+    "code": "OAP 6561",
+    "name": "라임스톤 그레이",
+    "productName": "LX OA타일 OAP 6561 라임스톤 그레이",
+    "spec": "5.0T x 500 x 500mm",
+    "package": "12pcs / Box / 3.00㎡",
+    "price": null,
+    "catalog": "Looselay 스탠다드 OA (OA타일)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206561%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206561%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206561%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "OA타일",
+      "thickness": "5.0T",
+      "size": "500 x 500mm",
+      "packing": "12pcs / Box / 3.00㎡"
+    },
+    "description": "OA타일"
+  },
+  {
+    "id": "데코타일-lx-oa타일-oap6550",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "OA타일",
+    "subLine": "OA타일",
+    "collection": "Looselay Standard OA",
+    "series": "Stone",
+    "code": "OAP 6550",
+    "name": "콘크리트 그레이",
+    "productName": "LX OA타일 OAP 6550 콘크리트 그레이",
+    "spec": "5.0T x 500 x 500mm",
+    "package": "12pcs / Box / 3.00㎡",
+    "price": null,
+    "catalog": "Looselay 스탠다드 OA (OA타일)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206550%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206550%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206550%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "OA타일",
+      "thickness": "5.0T",
+      "size": "500 x 500mm",
+      "packing": "12pcs / Box / 3.00㎡"
+    },
+    "description": "OA타일"
+  },
+  {
+    "id": "데코타일-lx-oa타일-oap6552",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "OA타일",
+    "subLine": "OA타일",
+    "collection": "Looselay Standard OA",
+    "series": "Stone",
+    "code": "OAP 6552",
+    "name": "콘크리트 다크그레이",
+    "productName": "LX OA타일 OAP 6552 콘크리트 다크그레이",
+    "spec": "5.0T x 500 x 500mm",
+    "package": "12pcs / Box / 3.00㎡",
+    "price": null,
+    "catalog": "Looselay 스탠다드 OA (OA타일)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206552%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8%20%EB%8B%A4%ED%81%AC%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206552%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8%20%EB%8B%A4%ED%81%AC%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206552%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8%20%EB%8B%A4%ED%81%AC%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "OA타일",
+      "thickness": "5.0T",
+      "size": "500 x 500mm",
+      "packing": "12pcs / Box / 3.00㎡"
+    },
+    "description": "OA타일"
+  },
+  {
+    "id": "데코타일-lx-oa타일-oap0061",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "OA타일",
+    "subLine": "OA타일",
+    "collection": "Looselay Standard OA",
+    "series": "Stone",
+    "code": "OAP 0061",
+    "name": "마블 라이트",
+    "productName": "LX OA타일 OAP 0061 마블 라이트",
+    "spec": "5.0T x 500 x 500mm",
+    "package": "12pcs / Box / 3.00㎡",
+    "price": null,
+    "catalog": "Looselay 스탠다드 OA (OA타일)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200061%20%EB%A7%88%EB%B8%94%20%EB%9D%BC%EC%9D%B4%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200061%20%EB%A7%88%EB%B8%94%20%EB%9D%BC%EC%9D%B4%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200061%20%EB%A7%88%EB%B8%94%20%EB%9D%BC%EC%9D%B4%ED%8A%B8.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "OA타일",
+      "thickness": "5.0T",
+      "size": "500 x 500mm",
+      "packing": "12pcs / Box / 3.00㎡"
+    },
+    "description": "OA타일"
+  },
+  {
+    "id": "데코타일-lx-oa타일-oap0052",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "OA타일",
+    "subLine": "OA타일",
+    "collection": "Looselay Standard OA",
+    "series": "Stone",
+    "code": "OAP 0052",
+    "name": "마블 그레이",
+    "productName": "LX OA타일 OAP 0052 마블 그레이",
+    "spec": "5.0T x 500 x 500mm",
+    "package": "12pcs / Box / 3.00㎡",
+    "price": null,
+    "catalog": "Looselay 스탠다드 OA (OA타일)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200052%20%EB%A7%88%EB%B8%94%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200052%20%EB%A7%88%EB%B8%94%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200052%20%EB%A7%88%EB%B8%94%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "OA타일",
+      "thickness": "5.0T",
+      "size": "500 x 500mm",
+      "packing": "12pcs / Box / 3.00㎡"
+    },
+    "description": "OA타일"
+  },
+  {
+    "id": "데코타일-lx-oa타일-oap6571",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "OA타일",
+    "subLine": "OA타일",
+    "collection": "Looselay Standard OA",
+    "series": "Stone",
+    "code": "OAP 6571",
+    "name": "테라조 그레이",
+    "productName": "LX OA타일 OAP 6571 테라조 그레이",
+    "spec": "5.0T x 500 x 500mm",
+    "package": "12pcs / Box / 3.00㎡",
+    "price": null,
+    "catalog": "Looselay 스탠다드 OA (OA타일)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206571%20%ED%85%8C%EB%9D%BC%EC%A1%B0%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206571%20%ED%85%8C%EB%9D%BC%EC%A1%B0%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206571%20%ED%85%8C%EB%9D%BC%EC%A1%B0%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "OA타일",
+      "thickness": "5.0T",
+      "size": "500 x 500mm",
+      "packing": "12pcs / Box / 3.00㎡"
+    },
+    "description": "OA타일"
+  },
+  {
+    "id": "데코타일-lx-oa타일-oap0563",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "OA타일",
+    "subLine": "OA타일",
+    "collection": "Looselay Standard OA",
+    "series": "Carpet",
+    "code": "OAP 0563",
+    "name": "솔리드카펫 그레이",
+    "productName": "LX OA타일 OAP 0563 솔리드카펫 그레이",
+    "spec": "5.0T x 500 x 500mm",
+    "package": "12pcs / Box / 3.00㎡",
+    "price": null,
+    "catalog": "Looselay 스탠다드 OA (OA타일)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200563%20%EC%86%94%EB%A6%AC%EB%93%9C%EC%B9%B4%ED%8E%AB%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200563%20%EC%86%94%EB%A6%AC%EB%93%9C%EC%B9%B4%ED%8E%AB%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200563%20%EC%86%94%EB%A6%AC%EB%93%9C%EC%B9%B4%ED%8E%AB%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "OA타일",
+      "thickness": "5.0T",
+      "size": "500 x 500mm",
+      "packing": "12pcs / Box / 3.00㎡"
+    },
+    "description": "OA타일"
+  },
+  {
+    "id": "데코타일-lx-oa타일-oap0564",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "OA타일",
+    "subLine": "OA타일",
+    "collection": "Looselay Standard OA",
+    "series": "Carpet",
+    "code": "OAP 0564",
+    "name": "솔리드카펫 다크그레이",
+    "productName": "LX OA타일 OAP 0564 솔리드카펫 다크그레이",
+    "spec": "5.0T x 500 x 500mm",
+    "package": "12pcs / Box / 3.00㎡",
+    "price": null,
+    "catalog": "Looselay 스탠다드 OA (OA타일)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200564%20%EC%86%94%EB%A6%AC%EB%93%9C%EC%B9%B4%ED%8E%AB%20%EB%8B%A4%ED%81%AC%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200564%20%EC%86%94%EB%A6%AC%EB%93%9C%EC%B9%B4%ED%8E%AB%20%EB%8B%A4%ED%81%AC%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200564%20%EC%86%94%EB%A6%AC%EB%93%9C%EC%B9%B4%ED%8E%AB%20%EB%8B%A4%ED%81%AC%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "OA타일",
+      "thickness": "5.0T",
+      "size": "500 x 500mm",
+      "packing": "12pcs / Box / 3.00㎡"
+    },
+    "description": "OA타일"
+  },
+  {
+    "id": "데코타일-lx-oa타일-oap0521",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "OA타일",
+    "subLine": "OA타일",
+    "collection": "Looselay Standard OA",
+    "series": "Carpet",
+    "code": "OAP 0521",
+    "name": "솔리드카펫 베이지",
+    "productName": "LX OA타일 OAP 0521 솔리드카펫 베이지",
+    "spec": "5.0T x 500 x 500mm",
+    "package": "12pcs / Box / 3.00㎡",
+    "price": null,
+    "catalog": "Looselay 스탠다드 OA (OA타일)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200521%20%EC%86%94%EB%A6%AC%EB%93%9C%EC%B9%B4%ED%8E%AB%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200521%20%EC%86%94%EB%A6%AC%EB%93%9C%EC%B9%B4%ED%8E%AB%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200521%20%EC%86%94%EB%A6%AC%EB%93%9C%EC%B9%B4%ED%8E%AB%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "OA타일",
+      "thickness": "5.0T",
+      "size": "500 x 500mm",
+      "packing": "12pcs / Box / 3.00㎡"
+    },
+    "description": "OA타일"
+  },
+  {
+    "id": "데코타일-lx-oa타일-oap0504",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "OA타일",
+    "subLine": "OA타일",
+    "collection": "Looselay Standard OA",
+    "series": "Carpet",
+    "code": "OAP 0504",
+    "name": "블럭카펫 다크",
+    "productName": "LX OA타일 OAP 0504 블럭카펫 다크",
+    "spec": "5.0T x 500 x 500mm",
+    "package": "12pcs / Box / 3.00㎡",
+    "price": null,
+    "catalog": "Looselay 스탠다드 OA (OA타일)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200504%20%EB%B8%94%EB%9F%AD%EC%B9%B4%ED%8E%AB%20%EB%8B%A4%ED%81%AC.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200504%20%EB%B8%94%EB%9F%AD%EC%B9%B4%ED%8E%AB%20%EB%8B%A4%ED%81%AC.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200504%20%EB%B8%94%EB%9F%AD%EC%B9%B4%ED%8E%AB%20%EB%8B%A4%ED%81%AC.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "OA타일",
+      "thickness": "5.0T",
+      "size": "500 x 500mm",
+      "packing": "12pcs / Box / 3.00㎡"
+    },
+    "description": "OA타일"
+  },
+  {
+    "id": "데코타일-lx-oa타일-oap0511",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "OA타일",
+    "subLine": "OA타일",
+    "collection": "Looselay Standard OA",
+    "series": "Carpet",
+    "code": "OAP 0511",
+    "name": "버티컬카펫 베이지",
+    "productName": "LX OA타일 OAP 0511 버티컬카펫 베이지",
+    "spec": "5.0T x 500 x 500mm",
+    "package": "12pcs / Box / 3.00㎡",
+    "price": null,
+    "catalog": "Looselay 스탠다드 OA (OA타일)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200511%20%EB%B2%84%ED%8B%B0%EC%BB%AC%EC%B9%B4%ED%8E%AB%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200511%20%EB%B2%84%ED%8B%B0%EC%BB%AC%EC%B9%B4%ED%8E%AB%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200511%20%EB%B2%84%ED%8B%B0%EC%BB%AC%EC%B9%B4%ED%8E%AB%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "OA타일",
+      "thickness": "5.0T",
+      "size": "500 x 500mm",
+      "packing": "12pcs / Box / 3.00㎡"
+    },
+    "description": "OA타일"
+  },
+  {
+    "id": "데코타일-lx-oa타일-oap0512",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "OA타일",
+    "subLine": "OA타일",
+    "collection": "Looselay Standard OA",
+    "series": "Carpet",
+    "code": "OAP 0512",
+    "name": "버티컬카펫 그레이",
+    "productName": "LX OA타일 OAP 0512 버티컬카펫 그레이",
+    "spec": "5.0T x 500 x 500mm",
+    "package": "12pcs / Box / 3.00㎡",
+    "price": null,
+    "catalog": "Looselay 스탠다드 OA (OA타일)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200512%20%EB%B2%84%ED%8B%B0%EC%BB%AC%EC%B9%B4%ED%8E%AB%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200512%20%EB%B2%84%ED%8B%B0%EC%BB%AC%EC%B9%B4%ED%8E%AB%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200512%20%EB%B2%84%ED%8B%B0%EC%BB%AC%EC%B9%B4%ED%8E%AB%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "OA타일",
+      "thickness": "5.0T",
+      "size": "500 x 500mm",
+      "packing": "12pcs / Box / 3.00㎡"
+    },
+    "description": "OA타일"
+  },
+  {
+    "id": "데코타일-lx-oa타일-oap0542",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "OA타일",
+    "subLine": "OA타일",
+    "collection": "Looselay Standard OA",
+    "series": "Carpet",
+    "code": "OAP 0542",
+    "name": "우븐 다크그레이",
+    "productName": "LX OA타일 OAP 0542 우븐 다크그레이",
+    "spec": "5.0T x 500 x 500mm",
+    "package": "12pcs / Box / 3.00㎡",
+    "price": null,
+    "catalog": "Looselay 스탠다드 OA (OA타일)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200542%20%EC%9A%B0%EB%B8%90%20%EB%8B%A4%ED%81%AC%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200542%20%EC%9A%B0%EB%B8%90%20%EB%8B%A4%ED%81%AC%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200542%20%EC%9A%B0%EB%B8%90%20%EB%8B%A4%ED%81%AC%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
+    ],
+    "thickness": "5.0T",
+    "specs": {
+      "division": "OA타일",
+      "thickness": "5.0T",
+      "size": "500 x 500mm",
+      "packing": "12pcs / Box / 3.00㎡"
+    },
+    "description": "OA타일"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3085",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "보타닉",
+    "subLine": "보타닉",
+    "collection": "BOTANIC",
+    "series": "600 Square",
+    "code": "DBT 3085",
+    "name": "카펫",
+    "productName": "LX 보타닉 DBT 3085 카펫",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 28000,
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203085%20%EC%B9%B4%ED%8E%AB.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203085%20%EC%B9%B4%ED%8E%AB.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203085%20%EC%B9%B4%ED%8E%AB.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "보타닉",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "보타닉"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3080",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "보타닉",
+    "subLine": "보타닉",
+    "collection": "BOTANIC",
+    "series": "600 Square",
+    "code": "DBT 3080",
+    "name": "콘크리트",
+    "productName": "LX 보타닉 DBT 3080 콘크리트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 28000,
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203080%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203080%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203080%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "보타닉",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "보타닉"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3087",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "보타닉",
+    "subLine": "보타닉",
+    "collection": "BOTANIC",
+    "series": "600 Square",
+    "code": "DBT 3087",
+    "name": "콘크리트",
+    "productName": "LX 보타닉 DBT 3087 콘크리트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 28000,
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203087%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203087%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203087%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "보타닉",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "보타닉"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3084",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "보타닉",
+    "subLine": "보타닉",
+    "collection": "BOTANIC",
+    "series": "600 Square",
+    "code": "DBT 3084",
+    "name": "샌드스톤",
+    "productName": "LX 보타닉 DBT 3084 샌드스톤",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 28000,
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203084%20%EC%83%8C%EB%93%9C%EC%8A%A4%ED%86%A4.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203084%20%EC%83%8C%EB%93%9C%EC%8A%A4%ED%86%A4.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203084%20%EC%83%8C%EB%93%9C%EC%8A%A4%ED%86%A4.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "보타닉",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "보타닉"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3089",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "보타닉",
+    "subLine": "보타닉",
+    "collection": "BOTANIC",
+    "series": "600 Square",
+    "code": "DBT 3089",
+    "name": "콘크리트",
+    "productName": "LX 보타닉 DBT 3089 콘크리트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 28000,
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203089%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203089%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203089%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "보타닉",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "보타닉"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3086",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "보타닉",
+    "subLine": "보타닉",
+    "collection": "BOTANIC",
+    "series": "600 Square",
+    "code": "DBT 3086",
+    "name": "콘크리트",
+    "productName": "LX 보타닉 DBT 3086 콘크리트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 28000,
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203086%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203086%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203086%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "보타닉",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "보타닉"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3088",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "보타닉",
+    "subLine": "보타닉",
+    "collection": "BOTANIC",
+    "series": "600 Square",
+    "code": "DBT 3088",
+    "name": "콘크리트",
+    "productName": "LX 보타닉 DBT 3088 콘크리트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 28000,
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203088%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203088%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203088%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "보타닉",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "보타닉"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3083",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "보타닉",
+    "subLine": "보타닉",
+    "collection": "BOTANIC",
+    "series": "600 Square",
+    "code": "DBT 3083",
+    "name": "라임스톤",
+    "productName": "LX 보타닉 DBT 3083 라임스톤",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 28000,
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203083%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203083%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203083%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "보타닉",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "보타닉"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3091",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "보타닉",
+    "subLine": "보타닉",
+    "collection": "BOTANIC",
+    "series": "600 Square",
+    "code": "DBT 3091",
+    "name": "테라조",
+    "productName": "LX 보타닉 DBT 3091 테라조",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 28000,
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203091%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203091%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203091%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "보타닉",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "보타닉"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3081",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "보타닉",
+    "subLine": "보타닉",
+    "collection": "BOTANIC",
+    "series": "600 Square",
+    "code": "DBT 3081",
+    "name": "콘크리트",
+    "productName": "LX 보타닉 DBT 3081 콘크리트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 28000,
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203081%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203081%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203081%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "보타닉",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "보타닉"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3076",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "보타닉",
+    "subLine": "보타닉",
+    "collection": "BOTANIC",
+    "series": "450 Square",
+    "code": "DBT 3076",
+    "name": "라임스톤",
+    "productName": "LX 보타닉 DBT 3076 라임스톤",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "price": 28000,
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203076%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203076%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203076%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "보타닉",
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
+    },
+    "description": "보타닉"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3077",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "보타닉",
+    "subLine": "보타닉",
+    "collection": "BOTANIC",
+    "series": "450 Square",
+    "code": "DBT 3077",
+    "name": "콘크리트",
+    "productName": "LX 보타닉 DBT 3077 콘크리트",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "price": 28000,
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203077%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203077%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203077%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "보타닉",
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
+    },
+    "description": "보타닉"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3078",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "보타닉",
+    "subLine": "보타닉",
+    "collection": "BOTANIC",
+    "series": "450 Square",
+    "code": "DBT 3078",
+    "name": "콘크리트",
+    "productName": "LX 보타닉 DBT 3078 콘크리트",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "price": 28000,
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203078%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203078%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203078%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "보타닉",
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
+    },
+    "description": "보타닉"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3079",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "보타닉",
+    "subLine": "보타닉",
+    "collection": "BOTANIC",
+    "series": "450 Square",
+    "code": "DBT 3079",
+    "name": "콘크리트",
+    "productName": "LX 보타닉 DBT 3079 콘크리트",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "price": 28000,
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203079%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203079%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203079%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "보타닉",
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
+    },
+    "description": "보타닉"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3060",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "보타닉",
+    "subLine": "보타닉",
+    "collection": "BOTANIC",
+    "series": "450 Square",
+    "code": "DBT 3060",
+    "name": "패턴 콘크리트",
+    "productName": "LX 보타닉 DBT 3060 패턴 콘크리트",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "price": 28000,
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203060%20%ED%8C%A8%ED%84%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203060%20%ED%8C%A8%ED%84%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203060%20%ED%8C%A8%ED%84%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "보타닉",
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
+    },
+    "description": "보타닉"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3061",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "보타닉",
+    "subLine": "보타닉",
+    "collection": "BOTANIC",
+    "series": "450 Square",
+    "code": "DBT 3061",
+    "name": "패턴 콘크리트",
+    "productName": "LX 보타닉 DBT 3061 패턴 콘크리트",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "price": 28000,
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203061%20%ED%8C%A8%ED%84%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203061%20%ED%8C%A8%ED%84%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203061%20%ED%8C%A8%ED%84%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "보타닉",
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
+    },
+    "description": "보타닉"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3062",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "보타닉",
+    "subLine": "보타닉",
+    "collection": "BOTANIC",
+    "series": "450 Square",
+    "code": "DBT 3062",
+    "name": "패턴 콘크리트",
+    "productName": "LX 보타닉 DBT 3062 패턴 콘크리트",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "price": 28000,
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203062%20%ED%8C%A8%ED%84%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203062%20%ED%8C%A8%ED%84%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203062%20%ED%8C%A8%ED%84%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "보타닉",
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
+    },
+    "description": "보타닉"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3059",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "보타닉",
+    "subLine": "보타닉",
+    "collection": "BOTANIC",
+    "series": "450 Square",
+    "code": "DBT 3059",
+    "name": "마블",
+    "productName": "LX 보타닉 DBT 3059 마블",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "price": 28000,
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203059%20%EB%A7%88%EB%B8%94.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203059%20%EB%A7%88%EB%B8%94.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203059%20%EB%A7%88%EB%B8%94.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "보타닉",
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
+    },
+    "description": "보타닉"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3068",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "보타닉",
+    "subLine": "보타닉",
+    "collection": "BOTANIC",
+    "series": "450 Square",
+    "code": "DBT 3068",
+    "name": "마블",
+    "productName": "LX 보타닉 DBT 3068 마블",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "price": 28000,
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203068%20%EB%A7%88%EB%B8%94.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203068%20%EB%A7%88%EB%B8%94.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203068%20%EB%A7%88%EB%B8%94.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "보타닉",
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
+    },
+    "description": "보타닉"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3051",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "보타닉",
+    "subLine": "보타닉",
+    "collection": "BOTANIC",
+    "series": "450 Square",
+    "code": "DBT 3051",
+    "name": "마블",
+    "productName": "LX 보타닉 DBT 3051 마블",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "price": 28000,
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203051%20%EB%A7%88%EB%B8%94.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203051%20%EB%A7%88%EB%B8%94.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203051%20%EB%A7%88%EB%B8%94.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "보타닉",
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
+    },
+    "description": "보타닉"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3065",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "보타닉",
+    "subLine": "보타닉",
+    "collection": "BOTANIC",
+    "series": "450 Square",
+    "code": "DBT 3065",
+    "name": "카펫",
+    "productName": "LX 보타닉 DBT 3065 카펫",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "price": 28000,
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203065%20%EC%B9%B4%ED%8E%AB.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203065%20%EC%B9%B4%ED%8E%AB.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203065%20%EC%B9%B4%ED%8E%AB.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "보타닉",
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
+    },
+    "description": "보타닉"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbw3045",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "보타닉",
+    "subLine": "보타닉",
+    "collection": "BOTANIC",
+    "series": "180 Wood",
+    "code": "DBW 3045",
+    "name": "화이트 오크",
+    "productName": "LX 보타닉 DBW 3045 화이트 오크",
+    "spec": "3.0T x 180 x 920mm",
+    "package": "20pcs / Box / 3.31㎡",
+    "price": 28000,
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW%203045%20%ED%99%94%EC%9D%B4%ED%8A%B8%20%EC%98%A4%ED%81%AC.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW%203045%20%ED%99%94%EC%9D%B4%ED%8A%B8%20%EC%98%A4%ED%81%AC.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW%203045%20%ED%99%94%EC%9D%B4%ED%8A%B8%20%EC%98%A4%ED%81%AC.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "보타닉",
+      "thickness": "3.0T",
+      "size": "180 x 920mm",
+      "packing": "20pcs / Box / 3.31㎡"
+    },
+    "description": "보타닉"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbw3046",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "보타닉",
+    "subLine": "보타닉",
+    "collection": "BOTANIC",
+    "series": "180 Wood",
+    "code": "DBW 3046",
+    "name": "오크",
+    "productName": "LX 보타닉 DBW 3046 오크",
+    "spec": "3.0T x 180 x 920mm",
+    "package": "20pcs / Box / 3.31㎡",
+    "price": 28000,
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW%203046%20%EC%98%A4%ED%81%AC.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW%203046%20%EC%98%A4%ED%81%AC.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW%203046%20%EC%98%A4%ED%81%AC.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "보타닉",
+      "thickness": "3.0T",
+      "size": "180 x 920mm",
+      "packing": "20pcs / Box / 3.31㎡"
+    },
+    "description": "보타닉"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbw3040",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "보타닉",
+    "subLine": "보타닉",
+    "collection": "BOTANIC",
+    "series": "180 Wood",
+    "code": "DBW 3040",
+    "name": "소프트 파인",
+    "productName": "LX 보타닉 DBW 3040 소프트 파인",
+    "spec": "3.0T x 180 x 920mm",
+    "package": "20pcs / Box / 3.31㎡",
+    "price": 28000,
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW%203040%20%EC%86%8C%ED%94%84%ED%8A%B8%20%ED%8C%8C%EC%9D%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW%203040%20%EC%86%8C%ED%94%84%ED%8A%B8%20%ED%8C%8C%EC%9D%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW%203040%20%EC%86%8C%ED%94%84%ED%8A%B8%20%ED%8C%8C%EC%9D%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "보타닉",
+      "thickness": "3.0T",
+      "size": "180 x 920mm",
+      "packing": "20pcs / Box / 3.31㎡"
+    },
+    "description": "보타닉"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbw3019",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "보타닉",
+    "subLine": "보타닉",
+    "collection": "BOTANIC",
+    "series": "180 Wood",
+    "code": "DBW 3019",
+    "name": "엘레강스 오크",
+    "productName": "LX 보타닉 DBW 3019 엘레강스 오크",
+    "spec": "3.0T x 180 x 920mm",
+    "package": "20pcs / Box / 3.31㎡",
+    "price": 28000,
+    "catalog": "LVT 베이직 3T (보타닉)",
+    "note": "비주거용, 비온돌용",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW%203019%20%EC%97%98%EB%A0%88%EA%B0%95%EC%8A%A4%20%EC%98%A4%ED%81%AC.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW%203019%20%EC%97%98%EB%A0%88%EA%B0%95%EC%8A%A4%20%EC%98%A4%ED%81%AC.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW%203019%20%EC%97%98%EB%A0%88%EA%B0%95%EC%8A%A4%20%EC%98%A4%ED%81%AC.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "보타닉",
+      "thickness": "3.0T",
+      "size": "180 x 920mm",
+      "packing": "20pcs / Box / 3.31㎡"
+    },
+    "description": "보타닉"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6251",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Concrete 600",
+    "code": "DET 6251",
+    "name": "노출 콘크리트",
+    "productName": "LX 에코노플러스 DET 6251 노출 콘크리트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206251%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206251%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206251%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6252",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Concrete 600",
+    "code": "DET 6252",
+    "name": "노출 콘크리트",
+    "productName": "LX 에코노플러스 DET 6252 노출 콘크리트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206252%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206252%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206252%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6238",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Concrete 600",
+    "code": "DET 6238",
+    "name": "노출 콘크리트",
+    "productName": "LX 에코노플러스 DET 6238 노출 콘크리트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206238%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206238%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206238%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6237",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Concrete 600",
+    "code": "DET 6237",
+    "name": "노출 콘크리트",
+    "productName": "LX 에코노플러스 DET 6237 노출 콘크리트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206237%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206237%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206237%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6242",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Concrete 600",
+    "code": "DET 6242",
+    "name": "메탈 콘크리트",
+    "productName": "LX 에코노플러스 DET 6242 메탈 콘크리트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206242%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206242%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206242%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6243",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Concrete 600",
+    "code": "DET 6243",
+    "name": "메탈 콘크리트",
+    "productName": "LX 에코노플러스 DET 6243 메탈 콘크리트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206243%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206243%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206243%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6244",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Concrete 600",
+    "code": "DET 6244",
+    "name": "메탈 콘크리트",
+    "productName": "LX 에코노플러스 DET 6244 메탈 콘크리트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206244%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206244%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206244%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6235",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Concrete 600",
+    "code": "DET 6235",
+    "name": "메탈 콘크리트",
+    "productName": "LX 에코노플러스 DET 6235 메탈 콘크리트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206235%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206235%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206235%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6236",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Concrete 600",
+    "code": "DET 6236",
+    "name": "메탈 콘크리트",
+    "productName": "LX 에코노플러스 DET 6236 메탈 콘크리트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206236%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206236%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206236%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6558",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Concrete 600",
+    "code": "DET 6558",
+    "name": "내추럴 콘크리트",
+    "productName": "LX 에코노플러스 DET 6558 내추럴 콘크리트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206558%20%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206558%20%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206558%20%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6559",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Concrete 600",
+    "code": "DET 6559",
+    "name": "내추럴 콘크리트",
+    "productName": "LX 에코노플러스 DET 6559 내추럴 콘크리트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206559%20%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206559%20%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206559%20%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6550",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Concrete 600",
+    "code": "DET 6550",
+    "name": "어반 콘크리트",
+    "productName": "LX 에코노플러스 DET 6550 어반 콘크리트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206550%20%EC%96%B4%EB%B0%98%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206550%20%EC%96%B4%EB%B0%98%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206550%20%EC%96%B4%EB%B0%98%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6551",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Concrete 600",
+    "code": "DET 6551",
+    "name": "어반 콘크리트",
+    "productName": "LX 에코노플러스 DET 6551 어반 콘크리트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206551%20%EC%96%B4%EB%B0%98%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206551%20%EC%96%B4%EB%B0%98%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206551%20%EC%96%B4%EB%B0%98%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6552",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Concrete 600",
+    "code": "DET 6552",
+    "name": "어반 콘크리트",
+    "productName": "LX 에코노플러스 DET 6552 어반 콘크리트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206552%20%EC%96%B4%EB%B0%98%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206552%20%EC%96%B4%EB%B0%98%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206552%20%EC%96%B4%EB%B0%98%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6557",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Concrete 600",
+    "code": "DET 6557",
+    "name": "내추럴 콘크리트",
+    "productName": "LX 에코노플러스 DET 6557 내추럴 콘크리트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206557%20%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206557%20%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206557%20%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6553",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Concrete 600",
+    "code": "DET 6553",
+    "name": "클레이 콘크리트",
+    "productName": "LX 에코노플러스 DET 6553 클레이 콘크리트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206553%20%ED%81%B4%EB%A0%88%EC%9D%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206553%20%ED%81%B4%EB%A0%88%EC%9D%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206553%20%ED%81%B4%EB%A0%88%EC%9D%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6554",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Concrete 600",
+    "code": "DET 6554",
+    "name": "클레이 콘크리트",
+    "productName": "LX 에코노플러스 DET 6554 클레이 콘크리트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206554%20%ED%81%B4%EB%A0%88%EC%9D%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206554%20%ED%81%B4%EB%A0%88%EC%9D%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206554%20%ED%81%B4%EB%A0%88%EC%9D%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6555",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Concrete 600",
+    "code": "DET 6555",
+    "name": "클레이 콘크리트",
+    "productName": "LX 에코노플러스 DET 6555 클레이 콘크리트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206555%20%ED%81%B4%EB%A0%88%EC%9D%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206555%20%ED%81%B4%EB%A0%88%EC%9D%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206555%20%ED%81%B4%EB%A0%88%EC%9D%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6556",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Concrete 600",
+    "code": "DET 6556",
+    "name": "클레이 콘크리트",
+    "productName": "LX 에코노플러스 DET 6556 클레이 콘크리트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206556%20%ED%81%B4%EB%A0%88%EC%9D%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206556%20%ED%81%B4%EB%A0%88%EC%9D%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206556%20%ED%81%B4%EB%A0%88%EC%9D%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6292",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Granite 600",
+    "code": "DET 6292",
+    "name": "그라니트",
+    "productName": "LX 에코노플러스 DET 6292 그라니트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206292%20%EA%B7%B8%EB%9D%BC%EB%8B%88%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206292%20%EA%B7%B8%EB%9D%BC%EB%8B%88%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206292%20%EA%B7%B8%EB%9D%BC%EB%8B%88%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6312",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Granite 600",
+    "code": "DET 6312",
+    "name": "에이지드 스틸",
+    "productName": "LX 에코노플러스 DET 6312 에이지드 스틸",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206312%20%EC%97%90%EC%9D%B4%EC%A7%80%EB%93%9C%20%EC%8A%A4%ED%8B%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206312%20%EC%97%90%EC%9D%B4%EC%A7%80%EB%93%9C%20%EC%8A%A4%ED%8B%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206312%20%EC%97%90%EC%9D%B4%EC%A7%80%EB%93%9C%20%EC%8A%A4%ED%8B%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6291",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Granite 600",
+    "code": "DET 6291",
+    "name": "그라니트",
+    "productName": "LX 에코노플러스 DET 6291 그라니트",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206291%20%EA%B7%B8%EB%9D%BC%EB%8B%88%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206291%20%EA%B7%B8%EB%9D%BC%EB%8B%88%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206291%20%EA%B7%B8%EB%9D%BC%EB%8B%88%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6203",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Marble 600",
+    "code": "DET 6203",
+    "name": "비안코",
+    "productName": "LX 에코노플러스 DET 6203 비안코",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206203%20%EB%B9%84%EC%95%88%EC%BD%94.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206203%20%EB%B9%84%EC%95%88%EC%BD%94.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206203%20%EB%B9%84%EC%95%88%EC%BD%94.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6204",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Marble 600",
+    "code": "DET 6204",
+    "name": "비안코",
+    "productName": "LX 에코노플러스 DET 6204 비안코",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206204%20%EB%B9%84%EC%95%88%EC%BD%94.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206204%20%EB%B9%84%EC%95%88%EC%BD%94.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206204%20%EB%B9%84%EC%95%88%EC%BD%94.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6258",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Marble 600",
+    "code": "DET 6258",
+    "name": "크랙 마블",
+    "productName": "LX 에코노플러스 DET 6258 크랙 마블",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206258%20%ED%81%AC%EB%9E%99%20%EB%A7%88%EB%B8%94.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206258%20%ED%81%AC%EB%9E%99%20%EB%A7%88%EB%B8%94.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206258%20%ED%81%AC%EB%9E%99%20%EB%A7%88%EB%B8%94.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6256",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Marble 600",
+    "code": "DET 6256",
+    "name": "크랙 마블",
+    "productName": "LX 에코노플러스 DET 6256 크랙 마블",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206256%20%ED%81%AC%EB%9E%99%20%EB%A7%88%EB%B8%94.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206256%20%ED%81%AC%EB%9E%99%20%EB%A7%88%EB%B8%94.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206256%20%ED%81%AC%EB%9E%99%20%EB%A7%88%EB%B8%94.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6257",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Marble 600",
+    "code": "DET 6257",
+    "name": "크랙 마블",
+    "productName": "LX 에코노플러스 DET 6257 크랙 마블",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206257%20%ED%81%AC%EB%9E%99%20%EB%A7%88%EB%B8%94.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206257%20%ED%81%AC%EB%9E%99%20%EB%A7%88%EB%B8%94.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206257%20%ED%81%AC%EB%9E%99%20%EB%A7%88%EB%B8%94.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6272",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Marble 600",
+    "code": "DET 6272",
+    "name": "마블",
+    "productName": "LX 에코노플러스 DET 6272 마블",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206272%20%EB%A7%88%EB%B8%94.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206272%20%EB%A7%88%EB%B8%94.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206272%20%EB%A7%88%EB%B8%94.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6273",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Marble 600",
+    "code": "DET 6273",
+    "name": "마블",
+    "productName": "LX 에코노플러스 DET 6273 마블",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206273%20%EB%A7%88%EB%B8%94.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206273%20%EB%A7%88%EB%B8%94.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206273%20%EB%A7%88%EB%B8%94.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6271",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Marble 600",
+    "code": "DET 6271",
+    "name": "마블",
+    "productName": "LX 에코노플러스 DET 6271 마블",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206271%20%EB%A7%88%EB%B8%94.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206271%20%EB%A7%88%EB%B8%94.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206271%20%EB%A7%88%EB%B8%94.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6229",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Marble 600",
+    "code": "DET 6229",
+    "name": "마블",
+    "productName": "LX 에코노플러스 DET 6229 마블",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206229%20%EB%A7%88%EB%B8%94.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206229%20%EB%A7%88%EB%B8%94.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206229%20%EB%A7%88%EB%B8%94.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6208",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Marble 600",
+    "code": "DET 6208",
+    "name": "피렌체 마블",
+    "productName": "LX 에코노플러스 DET 6208 피렌체 마블",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206208%20%ED%94%BC%EB%A0%8C%EC%B2%B4%20%EB%A7%88%EB%B8%94.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206208%20%ED%94%BC%EB%A0%8C%EC%B2%B4%20%EB%A7%88%EB%B8%94.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206208%20%ED%94%BC%EB%A0%8C%EC%B2%B4%20%EB%A7%88%EB%B8%94.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6207",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Marble 600",
+    "code": "DET 6207",
+    "name": "피렌체 마블",
+    "productName": "LX 에코노플러스 DET 6207 피렌체 마블",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206207%20%ED%94%BC%EB%A0%8C%EC%B2%B4%20%EB%A7%88%EB%B8%94.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206207%20%ED%94%BC%EB%A0%8C%EC%B2%B4%20%EB%A7%88%EB%B8%94.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206207%20%ED%94%BC%EB%A0%8C%EC%B2%B4%20%EB%A7%88%EB%B8%94.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6566",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Marble 600",
+    "code": "DET 6566",
+    "name": "컴포트 마블",
+    "productName": "LX 에코노플러스 DET 6566 컴포트 마블",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206566%20%EC%BB%B4%ED%8F%AC%ED%8A%B8%20%EB%A7%88%EB%B8%94.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206566%20%EC%BB%B4%ED%8F%AC%ED%8A%B8%20%EB%A7%88%EB%B8%94.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206566%20%EC%BB%B4%ED%8F%AC%ED%8A%B8%20%EB%A7%88%EB%B8%94.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6567",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Marble 600",
+    "code": "DET 6567",
+    "name": "컴포트 마블",
+    "productName": "LX 에코노플러스 DET 6567 컴포트 마블",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206567%20%EC%BB%B4%ED%8F%AC%ED%8A%B8%20%EB%A7%88%EB%B8%94.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206567%20%EC%BB%B4%ED%8F%AC%ED%8A%B8%20%EB%A7%88%EB%B8%94.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206567%20%EC%BB%B4%ED%8F%AC%ED%8A%B8%20%EB%A7%88%EB%B8%94.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6568",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Marble 600",
+    "code": "DET 6568",
+    "name": "컴포트 마블",
+    "productName": "LX 에코노플러스 DET 6568 컴포트 마블",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206568%20%EC%BB%B4%ED%8F%AC%ED%8A%B8%20%EB%A7%88%EB%B8%94.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206568%20%EC%BB%B4%ED%8F%AC%ED%8A%B8%20%EB%A7%88%EB%B8%94.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206568%20%EC%BB%B4%ED%8F%AC%ED%8A%B8%20%EB%A7%88%EB%B8%94.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6281",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Terrazzo 600",
+    "code": "DET 6281",
+    "name": "테라조",
+    "productName": "LX 에코노플러스 DET 6281 테라조",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206281%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206281%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206281%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6282",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Terrazzo 600",
+    "code": "DET 6282",
+    "name": "테라조",
+    "productName": "LX 에코노플러스 DET 6282 테라조",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206282%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206282%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206282%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6571",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Terrazzo 600",
+    "code": "DET 6571",
+    "name": "베이직 테라조",
+    "productName": "LX 에코노플러스 DET 6571 베이직 테라조",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206571%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206571%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206571%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6569",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Terrazzo 600",
+    "code": "DET 6569",
+    "name": "베이직 테라조",
+    "productName": "LX 에코노플러스 DET 6569 베이직 테라조",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206569%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206569%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206569%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6570",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Terrazzo 600",
+    "code": "DET 6570",
+    "name": "베이직 테라조",
+    "productName": "LX 에코노플러스 DET 6570 베이직 테라조",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206570%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206570%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206570%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6574",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Terrazzo 600",
+    "code": "DET 6574",
+    "name": "비안코 테라조",
+    "productName": "LX 에코노플러스 DET 6574 비안코 테라조",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206574%20%EB%B9%84%EC%95%88%EC%BD%94%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206574%20%EB%B9%84%EC%95%88%EC%BD%94%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206574%20%EB%B9%84%EC%95%88%EC%BD%94%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6573",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Terrazzo 600",
+    "code": "DET 6573",
+    "name": "비안코 테라조",
+    "productName": "LX 에코노플러스 DET 6573 비안코 테라조",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206573%20%EB%B9%84%EC%95%88%EC%BD%94%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206573%20%EB%B9%84%EC%95%88%EC%BD%94%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206573%20%EB%B9%84%EC%95%88%EC%BD%94%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6572",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Terrazzo 600",
+    "code": "DET 6572",
+    "name": "비안코 테라조",
+    "productName": "LX 에코노플러스 DET 6572 비안코 테라조",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206572%20%EB%B9%84%EC%95%88%EC%BD%94%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206572%20%EB%B9%84%EC%95%88%EC%BD%94%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206572%20%EB%B9%84%EC%95%88%EC%BD%94%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6563",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Sand / Lime 600",
+    "code": "DET 6563",
+    "name": "칩 세라믹",
+    "productName": "LX 에코노플러스 DET 6563 칩 세라믹",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206563%20%EC%B9%A9%20%EC%84%B8%EB%9D%BC%EB%AF%B9.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206563%20%EC%B9%A9%20%EC%84%B8%EB%9D%BC%EB%AF%B9.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206563%20%EC%B9%A9%20%EC%84%B8%EB%9D%BC%EB%AF%B9.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6564",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Sand / Lime 600",
+    "code": "DET 6564",
+    "name": "칩 세라믹",
+    "productName": "LX 에코노플러스 DET 6564 칩 세라믹",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206564%20%EC%B9%A9%20%EC%84%B8%EB%9D%BC%EB%AF%B9.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206564%20%EC%B9%A9%20%EC%84%B8%EB%9D%BC%EB%AF%B9.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206564%20%EC%B9%A9%20%EC%84%B8%EB%9D%BC%EB%AF%B9.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6565",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Sand / Lime 600",
+    "code": "DET 6565",
+    "name": "칩 세라믹",
+    "productName": "LX 에코노플러스 DET 6565 칩 세라믹",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206565%20%EC%B9%A9%20%EC%84%B8%EB%9D%BC%EB%AF%B9.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206565%20%EC%B9%A9%20%EC%84%B8%EB%9D%BC%EB%AF%B9.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206565%20%EC%B9%A9%20%EC%84%B8%EB%9D%BC%EB%AF%B9.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6562",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Sand / Lime 600",
+    "code": "DET 6562",
+    "name": "라임 스톤",
+    "productName": "LX 에코노플러스 DET 6562 라임 스톤",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206562%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206562%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206562%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6561",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Sand / Lime 600",
+    "code": "DET 6561",
+    "name": "라임 스톤",
+    "productName": "LX 에코노플러스 DET 6561 라임 스톤",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206561%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206561%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206561%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6560",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Sand / Lime 600",
+    "code": "DET 6560",
+    "name": "라임 스톤",
+    "productName": "LX 에코노플러스 DET 6560 라임 스톤",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206560%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206560%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206560%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6008",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Carpet 600",
+    "code": "DET 6008",
+    "name": "솔리드 카펫",
+    "productName": "LX 에코노플러스 DET 6008 솔리드 카펫",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206008%20%EC%86%94%EB%A6%AC%EB%93%9C%20%EC%B9%B4%ED%8E%AB.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206008%20%EC%86%94%EB%A6%AC%EB%93%9C%20%EC%B9%B4%ED%8E%AB.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206008%20%EC%86%94%EB%A6%AC%EB%93%9C%20%EC%B9%B4%ED%8E%AB.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6014",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Carpet 600",
+    "code": "DET 6014",
+    "name": "솔리드 카펫",
+    "productName": "LX 에코노플러스 DET 6014 솔리드 카펫",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206014%20%EC%86%94%EB%A6%AC%EB%93%9C%20%EC%B9%B4%ED%8E%AB.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206014%20%EC%86%94%EB%A6%AC%EB%93%9C%20%EC%B9%B4%ED%8E%AB.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206014%20%EC%86%94%EB%A6%AC%EB%93%9C%20%EC%B9%B4%ED%8E%AB.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6076",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Carpet 600",
+    "code": "DET 6076",
+    "name": "패턴 카펫",
+    "productName": "LX 에코노플러스 DET 6076 패턴 카펫",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206076%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206076%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206076%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6075",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Carpet 600",
+    "code": "DET 6075",
+    "name": "패턴 카펫",
+    "productName": "LX 에코노플러스 DET 6075 패턴 카펫",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206075%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206075%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206075%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6064",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Carpet 600",
+    "code": "DET 6064",
+    "name": "패턴 카펫",
+    "productName": "LX 에코노플러스 DET 6064 패턴 카펫",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206064%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206064%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206064%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6576",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Carpet 600",
+    "code": "DET 6576",
+    "name": "베이직 카펫",
+    "productName": "LX 에코노플러스 DET 6576 베이직 카펫",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206576%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EC%B9%B4%ED%8E%AB.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206576%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EC%B9%B4%ED%8E%AB.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206576%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EC%B9%B4%ED%8E%AB.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6575",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Carpet 600",
+    "code": "DET 6575",
+    "name": "베이직 카펫",
+    "productName": "LX 에코노플러스 DET 6575 베이직 카펫",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206575%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EC%B9%B4%ED%8E%AB.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206575%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EC%B9%B4%ED%8E%AB.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206575%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EC%B9%B4%ED%8E%AB.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6578",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Carpet 600",
+    "code": "DET 6578",
+    "name": "마운틴 카펫",
+    "productName": "LX 에코노플러스 DET 6578 마운틴 카펫",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206578%20%EB%A7%88%EC%9A%B4%ED%8B%B4%20%EC%B9%B4%ED%8E%AB.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206578%20%EB%A7%88%EC%9A%B4%ED%8B%B4%20%EC%B9%B4%ED%8E%AB.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206578%20%EB%A7%88%EC%9A%B4%ED%8B%B4%20%EC%B9%B4%ED%8E%AB.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6577",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Carpet 600",
+    "code": "DET 6577",
+    "name": "마운틴 카펫",
+    "productName": "LX 에코노플러스 DET 6577 마운틴 카펫",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206577%20%EB%A7%88%EC%9A%B4%ED%8B%B4%20%EC%B9%B4%ED%8E%AB.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206577%20%EB%A7%88%EC%9A%B4%ED%8B%B4%20%EC%B9%B4%ED%8E%AB.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206577%20%EB%A7%88%EC%9A%B4%ED%8B%B4%20%EC%B9%B4%ED%8E%AB.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6580",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Carpet 600",
+    "code": "DET 6580",
+    "name": "아트 러그",
+    "productName": "LX 에코노플러스 DET 6580 아트 러그",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206580%20%EC%95%84%ED%8A%B8%20%EB%9F%AC%EA%B7%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206580%20%EC%95%84%ED%8A%B8%20%EB%9F%AC%EA%B7%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206580%20%EC%95%84%ED%8A%B8%20%EB%9F%AC%EA%B7%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6579",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Carpet 600",
+    "code": "DET 6579",
+    "name": "아트 러그",
+    "productName": "LX 에코노플러스 DET 6579 아트 러그",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206579%20%EC%95%84%ED%8A%B8%20%EB%9F%AC%EA%B7%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206579%20%EC%95%84%ED%8A%B8%20%EB%9F%AC%EA%B7%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206579%20%EC%95%84%ED%8A%B8%20%EB%9F%AC%EA%B7%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det2981",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Woven 600",
+    "code": "DET 2981",
+    "name": "패브릭",
+    "productName": "LX 에코노플러스 DET 2981 패브릭",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202981%20%ED%8C%A8%EB%B8%8C%EB%A6%AD.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202981%20%ED%8C%A8%EB%B8%8C%EB%A6%AD.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202981%20%ED%8C%A8%EB%B8%8C%EB%A6%AD.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det2992",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Woven 600",
+    "code": "DET 2992",
+    "name": "패브릭",
+    "productName": "LX 에코노플러스 DET 2992 패브릭",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202992%20%ED%8C%A8%EB%B8%8C%EB%A6%AD.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202992%20%ED%8C%A8%EB%B8%8C%EB%A6%AD.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202992%20%ED%8C%A8%EB%B8%8C%EB%A6%AD.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det2991",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Woven 600",
+    "code": "DET 2991",
+    "name": "패브릭",
+    "productName": "LX 에코노플러스 DET 2991 패브릭",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202991%20%ED%8C%A8%EB%B8%8C%EB%A6%AD.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202991%20%ED%8C%A8%EB%B8%8C%EB%A6%AD.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202991%20%ED%8C%A8%EB%B8%8C%EB%A6%AD.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det2983",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Woven 600",
+    "code": "DET 2983",
+    "name": "패브릭",
+    "productName": "LX 에코노플러스 DET 2983 패브릭",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202983%20%ED%8C%A8%EB%B8%8C%EB%A6%AD.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202983%20%ED%8C%A8%EB%B8%8C%EB%A6%AD.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202983%20%ED%8C%A8%EB%B8%8C%EB%A6%AD.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6330",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Woven 600",
+    "code": "DET 6330",
+    "name": "우븐",
+    "productName": "LX 에코노플러스 DET 6330 우븐",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206330%20%EC%9A%B0%EB%B8%90.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206330%20%EC%9A%B0%EB%B8%90.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206330%20%EC%9A%B0%EB%B8%90.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6326",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Woven 600",
+    "code": "DET 6326",
+    "name": "우븐",
+    "productName": "LX 에코노플러스 DET 6326 우븐",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206326%20%EC%9A%B0%EB%B8%90.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206326%20%EC%9A%B0%EB%B8%90.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206326%20%EC%9A%B0%EB%B8%90.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6325",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Woven 600",
+    "code": "DET 6325",
+    "name": "우븐",
+    "productName": "LX 에코노플러스 DET 6325 우븐",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206325%20%EC%9A%B0%EB%B8%90.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206325%20%EC%9A%B0%EB%B8%90.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206325%20%EC%9A%B0%EB%B8%90.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6341",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Woven 600",
+    "code": "DET 6341",
+    "name": "라인 우븐",
+    "productName": "LX 에코노플러스 DET 6341 라인 우븐",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206341%20%EB%9D%BC%EC%9D%B8%20%EC%9A%B0%EB%B8%90.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206341%20%EB%9D%BC%EC%9D%B8%20%EC%9A%B0%EB%B8%90.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206341%20%EB%9D%BC%EC%9D%B8%20%EC%9A%B0%EB%B8%90.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6340",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Woven 600",
+    "code": "DET 6340",
+    "name": "라인 우븐",
+    "productName": "LX 에코노플러스 DET 6340 라인 우븐",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206340%20%EB%9D%BC%EC%9D%B8%20%EC%9A%B0%EB%B8%90.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206340%20%EB%9D%BC%EC%9D%B8%20%EC%9A%B0%EB%B8%90.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206340%20%EB%9D%BC%EC%9D%B8%20%EC%9A%B0%EB%B8%90.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6523",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Wood 600",
+    "code": "DET 6523",
+    "name": "파켓 우드",
+    "productName": "LX 에코노플러스 DET 6523 파켓 우드",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206523%20%ED%8C%8C%EC%BC%93%20%EC%9A%B0%EB%93%9C.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206523%20%ED%8C%8C%EC%BC%93%20%EC%9A%B0%EB%93%9C.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206523%20%ED%8C%8C%EC%BC%93%20%EC%9A%B0%EB%93%9C.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6263",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Wood 600",
+    "code": "DET 6263",
+    "name": "모던",
+    "productName": "LX 에코노플러스 DET 6263 모던",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206263%20%EB%AA%A8%EB%8D%98.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206263%20%EB%AA%A8%EB%8D%98.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206263%20%EB%AA%A8%EB%8D%98.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6262",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Wood 600",
+    "code": "DET 6262",
+    "name": "모던",
+    "productName": "LX 에코노플러스 DET 6262 모던",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206262%20%EB%AA%A8%EB%8D%98.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206262%20%EB%AA%A8%EB%8D%98.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206262%20%EB%AA%A8%EB%8D%98.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-dew4608",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Wood",
+    "code": "DEW 4608",
+    "name": "워시드 오크",
+    "productName": "LX 에코노플러스 DEW 4608 워시드 오크",
+    "spec": "3.0T x 180 x 1200mm",
+    "package": "15pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204608%20%EC%9B%8C%EC%8B%9C%EB%93%9C%20%EC%98%A4%ED%81%AC.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204608%20%EC%9B%8C%EC%8B%9C%EB%93%9C%20%EC%98%A4%ED%81%AC.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204608%20%EC%9B%8C%EC%8B%9C%EB%93%9C%20%EC%98%A4%ED%81%AC.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "180 x 1200mm",
+      "packing": "15pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-dew4206",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Wood",
+    "code": "DEW 4206",
+    "name": "오크",
+    "productName": "LX 에코노플러스 DEW 4206 오크",
+    "spec": "3.0T x 180 x 1200mm",
+    "package": "15pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204206%20%EC%98%A4%ED%81%AC.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204206%20%EC%98%A4%ED%81%AC.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204206%20%EC%98%A4%ED%81%AC.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "180 x 1200mm",
+      "packing": "15pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-dew4707",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Wood",
+    "code": "DEW 4707",
+    "name": "워시드 오크",
+    "productName": "LX 에코노플러스 DEW 4707 워시드 오크",
+    "spec": "3.0T x 180 x 1200mm",
+    "package": "15pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204707%20%EC%9B%8C%EC%8B%9C%EB%93%9C%20%EC%98%A4%ED%81%AC.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204707%20%EC%9B%8C%EC%8B%9C%EB%93%9C%20%EC%98%A4%ED%81%AC.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204707%20%EC%9B%8C%EC%8B%9C%EB%93%9C%20%EC%98%A4%ED%81%AC.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "180 x 1200mm",
+      "packing": "15pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-dew4709",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Wood",
+    "code": "DEW 4709",
+    "name": "체리",
+    "productName": "LX 에코노플러스 DEW 4709 체리",
+    "spec": "3.0T x 180 x 1200mm",
+    "package": "15pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204709%20%EC%B2%B4%EB%A6%AC.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204709%20%EC%B2%B4%EB%A6%AC.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204709%20%EC%B2%B4%EB%A6%AC.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "180 x 1200mm",
+      "packing": "15pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-dew4792",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Wood",
+    "code": "DEW 4792",
+    "name": "티크",
+    "productName": "LX 에코노플러스 DEW 4792 티크",
+    "spec": "3.0T x 180 x 1200mm",
+    "package": "15pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204792%20%ED%8B%B0%ED%81%AC.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204792%20%ED%8B%B0%ED%81%AC.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204792%20%ED%8B%B0%ED%81%AC.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "180 x 1200mm",
+      "packing": "15pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-dew4752",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Wood",
+    "code": "DEW 4752",
+    "name": "티크",
+    "productName": "LX 에코노플러스 DEW 4752 티크",
+    "spec": "3.0T x 180 x 1200mm",
+    "package": "15pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204752%20%ED%8B%B0%ED%81%AC.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204752%20%ED%8B%B0%ED%81%AC.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204752%20%ED%8B%B0%ED%81%AC.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "180 x 1200mm",
+      "packing": "15pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-dew2672",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Wood",
+    "code": "DEW 2672",
+    "name": "카빙 오크",
+    "productName": "LX 에코노플러스 DEW 2672 카빙 오크",
+    "spec": "3.0T x 180 x 1200mm",
+    "package": "15pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202672%20%EC%B9%B4%EB%B9%99%20%EC%98%A4%ED%81%AC.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202672%20%EC%B9%B4%EB%B9%99%20%EC%98%A4%ED%81%AC.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202672%20%EC%B9%B4%EB%B9%99%20%EC%98%A4%ED%81%AC.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "180 x 1200mm",
+      "packing": "15pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-dew2671",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Wood",
+    "code": "DEW 2671",
+    "name": "카빙 오크",
+    "productName": "LX 에코노플러스 DEW 2671 카빙 오크",
+    "spec": "3.0T x 180 x 1200mm",
+    "package": "15pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202671%20%EC%B9%B4%EB%B9%99%20%EC%98%A4%ED%81%AC.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202671%20%EC%B9%B4%EB%B9%99%20%EC%98%A4%ED%81%AC.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202671%20%EC%B9%B4%EB%B9%99%20%EC%98%A4%ED%81%AC.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "180 x 1200mm",
+      "packing": "15pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-dew2632",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Wood",
+    "code": "DEW 2632",
+    "name": "허니 오크",
+    "productName": "LX 에코노플러스 DEW 2632 허니 오크",
+    "spec": "3.0T x 180 x 1200mm",
+    "package": "15pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202632%20%ED%97%88%EB%8B%88%20%EC%98%A4%ED%81%AC.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202632%20%ED%97%88%EB%8B%88%20%EC%98%A4%ED%81%AC.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202632%20%ED%97%88%EB%8B%88%20%EC%98%A4%ED%81%AC.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "180 x 1200mm",
+      "packing": "15pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-dew2631",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Wood",
+    "code": "DEW 2631",
+    "name": "허니 오크",
+    "productName": "LX 에코노플러스 DEW 2631 허니 오크",
+    "spec": "3.0T x 180 x 1200mm",
+    "package": "15pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202631%20%ED%97%88%EB%8B%88%20%EC%98%A4%ED%81%AC.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202631%20%ED%97%88%EB%8B%88%20%EC%98%A4%ED%81%AC.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202631%20%ED%97%88%EB%8B%88%20%EC%98%A4%ED%81%AC.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "180 x 1200mm",
+      "packing": "15pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-dew2620",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Wood",
+    "code": "DEW 2620",
+    "name": "켄트 엘름",
+    "productName": "LX 에코노플러스 DEW 2620 켄트 엘름",
+    "spec": "3.0T x 180 x 1200mm",
+    "package": "15pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202620%20%EC%BC%84%ED%8A%B8%20%EC%97%98%EB%A6%84.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202620%20%EC%BC%84%ED%8A%B8%20%EC%97%98%EB%A6%84.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202620%20%EC%BC%84%ED%8A%B8%20%EC%97%98%EB%A6%84.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "180 x 1200mm",
+      "packing": "15pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det2904",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Stone 450",
+    "code": "DET 2904",
+    "name": "노출 콘크리트",
+    "productName": "LX 에코노플러스 DET 2904 노출 콘크리트",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202904%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202904%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202904%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det2493",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Stone 450",
+    "code": "DET 2493",
+    "name": "노출 콘크리트",
+    "productName": "LX 에코노플러스 DET 2493 노출 콘크리트",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202493%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202493%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202493%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det2905",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Stone 450",
+    "code": "DET 2905",
+    "name": "노출 콘크리트",
+    "productName": "LX 에코노플러스 DET 2905 노출 콘크리트",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202905%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202905%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202905%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det2494",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Stone 450",
+    "code": "DET 2494",
+    "name": "노출 콘크리트",
+    "productName": "LX 에코노플러스 DET 2494 노출 콘크리트",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202494%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202494%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202494%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det2251",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Stone 450",
+    "code": "DET 2251",
+    "name": "마블",
+    "productName": "LX 에코노플러스 DET 2251 마블",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202251%20%EB%A7%88%EB%B8%94.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202251%20%EB%A7%88%EB%B8%94.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202251%20%EB%A7%88%EB%B8%94.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6240",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Stone 450",
+    "code": "DET 6240",
+    "name": "마블",
+    "productName": "LX 에코노플러스 DET 6240 마블",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206240%20%EB%A7%88%EB%B8%94.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206240%20%EB%A7%88%EB%B8%94.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206240%20%EB%A7%88%EB%B8%94.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6239",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Stone 450",
+    "code": "DET 6239",
+    "name": "마블",
+    "productName": "LX 에코노플러스 DET 6239 마블",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206239%20%EB%A7%88%EB%B8%94.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206239%20%EB%A7%88%EB%B8%94.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206239%20%EB%A7%88%EB%B8%94.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det2125",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Stone 450",
+    "code": "DET 2125",
+    "name": "그라니트",
+    "productName": "LX 에코노플러스 DET 2125 그라니트",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202125%20%EA%B7%B8%EB%9D%BC%EB%8B%88%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202125%20%EA%B7%B8%EB%9D%BC%EB%8B%88%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202125%20%EA%B7%B8%EB%9D%BC%EB%8B%88%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det2116",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Stone 450",
+    "code": "DET 2116",
+    "name": "그라니트",
+    "productName": "LX 에코노플러스 DET 2116 그라니트",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202116%20%EA%B7%B8%EB%9D%BC%EB%8B%88%ED%8A%B8.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202116%20%EA%B7%B8%EB%9D%BC%EB%8B%88%ED%8A%B8.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202116%20%EA%B7%B8%EB%9D%BC%EB%8B%88%ED%8A%B8.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det2407",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Stone 450",
+    "code": "DET 2407",
+    "name": "세라믹",
+    "productName": "LX 에코노플러스 DET 2407 세라믹",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202407%20%EC%84%B8%EB%9D%BC%EB%AF%B9.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202407%20%EC%84%B8%EB%9D%BC%EB%AF%B9.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202407%20%EC%84%B8%EB%9D%BC%EB%AF%B9.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det2870",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Carpet 450",
+    "code": "DET 2870",
+    "name": "올 오버 카펫",
+    "productName": "LX 에코노플러스 DET 2870 올 오버 카펫",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202870%20%EC%98%AC%20%EC%98%A4%EB%B2%84%20%EC%B9%B4%ED%8E%AB.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202870%20%EC%98%AC%20%EC%98%A4%EB%B2%84%20%EC%B9%B4%ED%8E%AB.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202870%20%EC%98%AC%20%EC%98%A4%EB%B2%84%20%EC%B9%B4%ED%8E%AB.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det2872",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Carpet 450",
+    "code": "DET 2872",
+    "name": "올 오버 카펫",
+    "productName": "LX 에코노플러스 DET 2872 올 오버 카펫",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202872%20%EC%98%AC%20%EC%98%A4%EB%B2%84%20%EC%B9%B4%ED%8E%AB.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202872%20%EC%98%AC%20%EC%98%A4%EB%B2%84%20%EC%B9%B4%ED%8E%AB.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202872%20%EC%98%AC%20%EC%98%A4%EB%B2%84%20%EC%B9%B4%ED%8E%AB.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det2871",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Carpet 450",
+    "code": "DET 2871",
+    "name": "올 오버 카펫",
+    "productName": "LX 에코노플러스 DET 2871 올 오버 카펫",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202871%20%EC%98%AC%20%EC%98%A4%EB%B2%84%20%EC%B9%B4%ED%8E%AB.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202871%20%EC%98%AC%20%EC%98%A4%EB%B2%84%20%EC%B9%B4%ED%8E%AB.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202871%20%EC%98%AC%20%EC%98%A4%EB%B2%84%20%EC%B9%B4%ED%8E%AB.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det2862",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Carpet 450",
+    "code": "DET 2862",
+    "name": "패턴 카펫",
+    "productName": "LX 에코노플러스 DET 2862 패턴 카펫",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202862%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202862%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202862%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det2823",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Carpet 450",
+    "code": "DET 2823",
+    "name": "패턴 카펫",
+    "productName": "LX 에코노플러스 DET 2823 패턴 카펫",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202823%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202823%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202823%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det2821",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Carpet 450",
+    "code": "DET 2821",
+    "name": "패턴 카펫",
+    "productName": "LX 에코노플러스 DET 2821 패턴 카펫",
+    "spec": "3.0T x 450 x 450mm",
+    "package": "16pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202821%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202821%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202821%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "450 x 450mm",
+      "packing": "16pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6247",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Metal Sparkling 600",
+    "code": "DET 6247",
+    "name": "스파클링 메탈",
+    "productName": "LX 에코노플러스 DET 6247 스파클링 메탈",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206247%20%EC%8A%A4%ED%8C%8C%ED%81%B4%EB%A7%81%20%EB%A9%94%ED%83%88.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206247%20%EC%8A%A4%ED%8C%8C%ED%81%B4%EB%A7%81%20%EB%A9%94%ED%83%88.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206247%20%EC%8A%A4%ED%8C%8C%ED%81%B4%EB%A7%81%20%EB%A9%94%ED%83%88.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6248",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Metal Sparkling 600",
+    "code": "DET 6248",
+    "name": "스파클링 메탈",
+    "productName": "LX 에코노플러스 DET 6248 스파클링 메탈",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206248%20%EC%8A%A4%ED%8C%8C%ED%81%B4%EB%A7%81%20%EB%A9%94%ED%83%88.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206248%20%EC%8A%A4%ED%8C%8C%ED%81%B4%EB%A7%81%20%EB%A9%94%ED%83%88.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206248%20%EC%8A%A4%ED%8C%8C%ED%81%B4%EB%A7%81%20%EB%A9%94%ED%83%88.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6245",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Metal Sparkling 600",
+    "code": "DET 6245",
+    "name": "스파클링 메탈",
+    "productName": "LX 에코노플러스 DET 6245 스파클링 메탈",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206245%20%EC%8A%A4%ED%8C%8C%ED%81%B4%EB%A7%81%20%EB%A9%94%ED%83%88.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206245%20%EC%8A%A4%ED%8C%8C%ED%81%B4%EB%A7%81%20%EB%A9%94%ED%83%88.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206245%20%EC%8A%A4%ED%8C%8C%ED%81%B4%EB%A7%81%20%EB%A9%94%ED%83%88.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
+  },
+  {
+    "id": "데코타일-lx-에코노플러스-det6246",
+    "category": "데코타일",
+    "brand": "LX",
+    "line": "에코노플러스",
+    "subLine": "에코노플러스",
+    "collection": "ECONO PLUS",
+    "series": "Metal Sparkling 600",
+    "code": "DET 6246",
+    "name": "스파클링 메탈",
+    "productName": "LX 에코노플러스 DET 6246 스파클링 메탈",
+    "spec": "3.0T x 600 x 600mm",
+    "package": "9pcs / Box / 3.24㎡",
+    "price": 35000,
+    "catalog": "LVT 스탠다드 3T (에코노플러스)",
+    "note": "",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206246%20%EC%8A%A4%ED%8C%8C%ED%81%B4%EB%A7%81%20%EB%A9%94%ED%83%88.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206246%20%EC%8A%A4%ED%8C%8C%ED%81%B4%EB%A7%81%20%EB%A9%94%ED%83%88.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206246%20%EC%8A%A4%ED%8C%8C%ED%81%B4%EB%A7%81%20%EB%A9%94%ED%83%88.jpg"
+    ],
+    "thickness": "3.0T",
+    "specs": {
+      "division": "에코노플러스",
+      "thickness": "3.0T",
+      "size": "600 x 600mm",
+      "packing": "9pcs / Box / 3.24㎡"
+    },
+    "description": "에코노플러스"
   }
 ];

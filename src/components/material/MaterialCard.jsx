@@ -11,6 +11,23 @@ const MaterialCard = ({ material }) => {
     const { addToCart } = useEstimateCart();
     const [coverUrl, setCoverUrl] = useState("");
 
+    // Compute standard display name for cards and cart items
+    const displayName = (() => {
+        if (!material) return "";
+        if (material.brand === '동신' && material.category === '데코타일' && ['아트타일', '아트하우스', '아트에코차음'].includes(material.line)) {
+            return material.code;
+        }
+        if (material.brand === 'LX' && material.category === '데코타일') {
+            const cleanCode = (material.code || "").replace(/\s+/g, "").toLowerCase();
+            const cleanName = (material.name || "").replace(/\s+/g, "").toLowerCase();
+            if (cleanCode && cleanName.includes(cleanCode)) {
+                return material.name;
+            }
+            return `${material.code} ${material.name}`;
+        }
+        return material.name;
+    })();
+
     useEffect(() => {
         let isMounted = true;
         getThumbnailImage(material).then((url) => {
@@ -41,13 +58,7 @@ const MaterialCard = ({ material }) => {
     const handleAddToCart = (e) => {
         e.stopPropagation();
         
-        const price = parsePrice(material.price);
-        if (price === null || price <= 0) {
-            alert("가격 확인이 필요한 상품입니다. 견적요청을 이용해주세요.");
-            return;
-        }
-
-        const displayName = material.brand === '동신' && material.category === '데코타일' && ['아트타일', '아트하우스', '아트에코차음'].includes(material.line) ? material.code : material.name;
+        const price = parsePrice(material.price) || 0;
 
         const cartItem = {
             id: material.id,
@@ -99,9 +110,9 @@ const MaterialCard = ({ material }) => {
                     {material.category && <span className="card-cat-divider">|</span>}
                     <span className="card-category">{material.category}</span>
                 </div>
-                <div className="card-name">{material.brand === '동신' && material.category === '데코타일' && ['아트타일', '아트하우스', '아트에코차음'].includes(material.line) ? material.code : material.name}</div>
+                <div className="card-name">{displayName}</div>
                 
-                {material.brand === '동신' && material.category === '데코타일' && ['아트타일', '아트하우스', '아트에코차음'].includes(material.line) ? (
+                {((material.brand === '동신' && material.category === '데코타일' && ['아트타일', '아트하우스', '아트에코차음'].includes(material.line)) || (material.brand === 'LX' && material.category === '데코타일')) ? (
                     <div className="card-meta">
                         <div className="card-meta-item">
                             <span className="meta-label">라인업</span>

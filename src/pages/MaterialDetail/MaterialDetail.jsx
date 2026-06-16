@@ -294,10 +294,14 @@ export default function MaterialDetail() {
           ? dongshinPolymer2026.find(d => d.code.toUpperCase() === itemCode.toUpperCase())
           : null;
 
+        const lxMatch = (inferredBrand === 'LX' && inferredCategory === '데코타일')
+          ? materials.find(m => m.brand === 'LX' && m.category === '데코타일' && m.code && m.code.replace(/\s+/g, '').toLowerCase() === itemCode.replace(/\s+/g, '').toLowerCase())
+          : null;
+
         setItem({
           id: p.slug || String(p.id),
           code: itemCode,
-          name: dongshinMatch ? dongshinMatch.code : (p.name || ""),
+          name: dongshinMatch ? dongshinMatch.code : (lxMatch ? lxMatch.name : (p.name || "")),
           brand: inferredBrand,
           category: inferredCategory,
           price: p.price || 0,
@@ -312,10 +316,11 @@ export default function MaterialDetail() {
           description: p.description || "",
           features: p.features || [],
           recommendedSpaces: p.recommended_spaces || [],
-          line: dongshinMatch ? dongshinMatch.line : (p.description || ""),
-          collection: dongshinMatch ? dongshinMatch.collection : null,
-          series: dongshinMatch ? dongshinMatch.series : null,
-          catalog: dongshinMatch ? dongshinMatch.catalog : null
+          line: dongshinMatch ? dongshinMatch.line : (lxMatch ? lxMatch.line : (p.description || "")),
+          collection: dongshinMatch ? dongshinMatch.collection : (lxMatch ? lxMatch.collection : null),
+          series: dongshinMatch ? dongshinMatch.series : (lxMatch ? lxMatch.series : null),
+          catalog: dongshinMatch ? dongshinMatch.catalog : (lxMatch ? lxMatch.catalog : null),
+          note: lxMatch ? lxMatch.note : ""
         });
       }
       setLoading(false);
@@ -487,6 +492,23 @@ export default function MaterialDetail() {
     });
   };
 
+  // Compute standard display name for LX / Dongshin products
+  const displayName = (() => {
+    if (!item) return "";
+    if (item.brand === '동신' && item.category === '데코타일' && ['아트타일', '아트하우스', '아트에코차음'].includes(item.line)) {
+      return item.code;
+    }
+    if (item.brand === 'LX' && item.category === '데코타일') {
+      const cleanCode = (item.code || "").replace(/\s+/g, "").toLowerCase();
+      const cleanName = (item.name || "").replace(/\s+/g, "").toLowerCase();
+      if (cleanCode && cleanName.includes(cleanCode)) {
+        return item.name;
+      }
+      return `${item.code} ${item.name}`;
+    }
+    return item.name;
+  })();
+
   const handleAddToCart = () => {
     let itemPrice = item.price;
     if (typeof itemPrice === 'string') {
@@ -504,8 +526,8 @@ export default function MaterialDetail() {
       image: item.thumbnail,
       brand: getComputedBrand(item),
       category: item.category,
-      name: item.name,
-      product_name: item.name,
+      name: displayName,
+      product_name: displayName,
       code: item.code,
       product_code: item.code,
       spec: item.specs?.size || item.spec || "표준규격",
@@ -530,6 +552,11 @@ export default function MaterialDetail() {
       itemPrice = 0;
     }
 
+    if (itemPrice <= 0) {
+      alert("가격 확인이 필요한 자재입니다. 견적 요청을 이용해 주세요.");
+      return;
+    }
+
     const directOrderItem = {
       id: item.id,
       product_id: item.id,
@@ -537,8 +564,8 @@ export default function MaterialDetail() {
       image: item.thumbnail,
       brand: getComputedBrand(item),
       category: item.category,
-      name: item.name,
-      product_name: item.name,
+      name: displayName,
+      product_name: displayName,
       code: item.code,
       product_code: item.code,
       spec: item.specs?.size || item.spec || "표준규격",
@@ -650,7 +677,7 @@ export default function MaterialDetail() {
                 <span className="category-name">{item.category}</span>
               </div>
 
-              <h1 className="showroom-product-title">{item.name}</h1>
+              <h1 className="showroom-product-title">{displayName}</h1>
               <div className="showroom-product-code">
                 <span>상품코드:</span> <strong>{item.code}</strong>
               </div>
@@ -785,7 +812,7 @@ export default function MaterialDetail() {
                 <div className="spec-table-frame">
                   <table className="tech-spec-table">
                     <tbody>
-                      {item.brand === '동신' && item.category === '데코타일' && ['아트타일', '아트하우스', '아트에코차음'].includes(item.line) ? (
+                      {(item.brand === '동신' && item.category === '데코타일' && ['아트타일', '아트하우스', '아트에코차음'].includes(item.line)) || (item.brand === 'LX' && item.category === '데코타일') ? (
                         <>
                           <tr>
                             <th>제조 브랜드</th>
@@ -933,7 +960,7 @@ export default function MaterialDetail() {
             <aside className="showroom-sticky-widget">
               <div className="sticky-consulting-card">
                 <span className="sticky-badge">DK FLOOR SHOWROOM</span>
-                <h4 className="sticky-product-name">{item.name}</h4>
+                <h4 className="sticky-product-name">{displayName}</h4>
                 <div className="sticky-product-code">자재코드: {item.code}</div>
                 
                 <div className="sticky-contact-number">
