@@ -4,6 +4,7 @@ import MainLayout from "../../components/layout/MainLayout";
 import { useEstimateCart } from "../../contexts/EstimateCartContext";
 import { useAuth } from "../../contexts/AuthContext";
 import { createOrder } from "../../services/orderService";
+import { sendOrderNotification } from "../../services/notificationService";
 import "./Checkout.css";
 
 export default function Checkout() {
@@ -128,6 +129,16 @@ export default function Checkout() {
         localStorage.removeItem("pendingDirectOrder");
       } else {
         clearCart();
+      }
+
+      // 비동기 알림 발송 (주문 성공 플로우에 지장을 주지 않도록 격리)
+      try {
+        const notifResult = await sendOrderNotification(orderData);
+        if (!notifResult.success) {
+          console.warn("[Checkout Warning] 주문 접수 완료 알림 전송 실패:", notifResult.error);
+        }
+      } catch (notifErr) {
+        console.warn("[Checkout Exception] 주문 접수 완료 알림 전송 중 오류:", notifErr);
       }
 
       // 주문 완료 화면으로 이동
