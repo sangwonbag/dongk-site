@@ -33,6 +33,16 @@ export default function Checkout() {
   const [loading, setLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState("");
 
+  // Helper to parse price string/number cleanly
+  const parsePrice = (priceVal) => {
+    if (priceVal === undefined || priceVal === null) return 0;
+    if (typeof priceVal === 'number') return priceVal;
+    
+    const cleanStr = String(priceVal).replace(/[^0-9]/g, "");
+    const parsed = parseInt(cleanStr, 10);
+    return isNaN(parsed) ? 0 : parsed;
+  };
+
   // 페이지 진입 시 사용자 및 장바구니 정보 확인
   useEffect(() => {
     const pendingDirect = localStorage.getItem("pendingDirectOrder");
@@ -54,15 +64,27 @@ export default function Checkout() {
       isDirect = false;
     }
 
-    setCheckoutItems(targetItems);
-    setIsDirectOrder(isDirect);
-
     // 주문 대상 품목이 없다면 리다이렉트
     if (!targetItems || targetItems.length === 0) {
       alert("주문할 대상 상품이 없습니다.");
       navigate("/cart");
       return;
     }
+
+    // 가격 확인 필요 상품 검사 및 차단
+    const hasUnpriced = targetItems.some(item => {
+      const price = parsePrice(item.price || item.unit_price);
+      return price <= 0;
+    });
+
+    if (hasUnpriced) {
+      alert("장바구니에 가격 확인이 필요한 자재가 포함되어 있어 주문 진행이 불가합니다.\n해당 상품을 제외하시거나 견적 요청을 진행해 주세요.");
+      navigate("/cart");
+      return;
+    }
+
+    setCheckoutItems(targetItems);
+    setIsDirectOrder(isDirect);
 
     // 로그인하지 않은 사용자라면 로그인 모달 유도
     if (!user) {
@@ -87,10 +109,16 @@ export default function Checkout() {
   const calculateTotal = () => {
     return checkoutItems.reduce((sum, item) => {
       const qty = Math.max(1, parseInt(item.quantity) || 1);
-      const price = Math.max(0, parseFloat(item.price || item.unit_price) || 0);
+      const price = parsePrice(item.price || item.unit_price);
       return sum + (price * qty);
     }, 0);
   };
+
+  const totalTypesCount = checkoutItems.length;
+
+  const totalQuantitySum = checkoutItems.reduce((sum, item) => {
+    return sum + (parseInt(item.quantity) || 1);
+  }, 0);
 
   // 주문 실행
   const handleOrderSubmit = async (e) => {
@@ -105,7 +133,7 @@ export default function Checkout() {
 
     // 필수값 검사
     if (!customer.name.trim()) {
-      setErrorMsg("주문자명을 입력해주세요.");
+      setErrorMsg("받는 사람 이름을 입력해주세요.");
       return;
     }
     if (!customer.phone.trim()) {
@@ -113,7 +141,34 @@ export default function Checkout() {
       return;
     }
     if (!customer.address.trim()) {
-      setErrorMsg("주소를 입력해주세요.");
+      setErrorMsg("배송주소를 입력해주세요.");
+      return;
+    }
+
+    // 연락처 형식 검사 (최소 10자리 숫자 이상)
+    const digitsOnly = customer.phone.replace(/[^0-9]/g, "");
+    if (digitsOnly.length < 10) {
+      setErrorMsg("연락처는 최소 10자리 이상의 숫자로 입력해 주세요.");
+      return;
+    }
+
+    // 이메일 유효성 검사 (입력된 경우에만 진행)
+    if (customer.email && customer.email.trim() !== "") {
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(customer.email.trim())) {
+        setErrorMsg("올바른 이메일 형식을 입력해 주세요.");
+        return;
+      }
+    }
+
+    // 가격 미정 상품 재검사
+    const hasUnpriced = checkoutItems.some(item => {
+      const price = parsePrice(item.price || item.unit_price);
+      return price <= 0;
+    });
+
+    if (hasUnpriced) {
+      setErrorMsg("가격 확인이 필요한 자재가 포함되어 있어 주문 진행이 불가합니다.");
       return;
     }
 
@@ -170,16 +225,22 @@ export default function Checkout() {
   return (
     <MainLayout>
       <div className="checkout-page-container">
+        {/* 주문서 헤더 */}
         <div className="checkout-header">
+          {isDirectOrder ? (
+            <span className="order-type-badge direct-buy">⚡ 바로구매 주문</span>
+          ) : (
+            <span className="order-type-badge">📦 장바구니 주문</span>
+          )}
           <h1>주문서 작성</h1>
-          <p>고객님의 주문 정보를 작성하고 주문을 완료해 주세요.</p>
+          <p>배송 정보와 요청사항을 확인한 뒤 주문을 접수해주세요.</p>
         </div>
 
-        <form onSubmit={handleOrderSubmit} className="checkout-layout">
+        <form onSubmit={handleOrderSubmit} className="checkout-layout" noValidate>
           {/* 1. 왼쪽: 주문자 정보 입력 폼 */}
           <div className="checkout-left-section">
             <div className="checkout-card">
-              <h3>주문 정보 입력</h3>
+              <h3>배송 정보 입력</h3>
               
               {!user && (
                 <div className="non-member-banner">
@@ -196,11 +257,11 @@ export default function Checkout() {
 
               <div className="checkout-form-grid">
                 <div className="form-group-checkout">
-                  <label htmlFor="customer_name">주문자명 <span className="req">*</span></label>
+                  <label htmlFor="customer_name">받는 사람 / 주문자명 <span className="req">*</span></label>
                   <input
                     id="customer_name"
                     type="text"
-                    placeholder="주문하시는 분의 성함을 입력하세요"
+                    placeholder="받는 분 성함 또는 주문자명을 입력해 주세요"
                     value={customer.name}
                     onChange={(e) => setCustomer({ ...customer, name: e.target.value })}
                     required
@@ -223,7 +284,7 @@ export default function Checkout() {
                   <input
                     id="customer_phone"
                     type="tel"
-                    placeholder="연락 가능한 전화번호를 입력하세요"
+                    placeholder="받는 분 연락처를 입력해 주세요 (숫자 10자리 이상)"
                     value={customer.phone}
                     onChange={(e) => setCustomer({ ...customer, phone: e.target.value })}
                     required
@@ -235,18 +296,18 @@ export default function Checkout() {
                   <input
                     id="customer_email"
                     type="email"
-                    placeholder="주문 접수 확인 메일을 받으실 이메일 주소"
+                    placeholder="주문 확인용 이메일 주소를 입력해 주세요"
                     value={customer.email || ""}
                     onChange={(e) => setCustomer({ ...customer, email: e.target.value })}
                   />
                 </div>
 
                 <div className="form-group-checkout">
-                  <label htmlFor="customer_address">주소 <span className="req">*</span></label>
+                  <label htmlFor="customer_address">배송주소 <span className="req">*</span></label>
                   <input
                     id="customer_address"
                     type="text"
-                    placeholder="주소를 입력하세요"
+                    placeholder="배송 받으실 주소를 입력해 주세요"
                     value={customer.address}
                     onChange={(e) => setCustomer({ ...customer, address: e.target.value })}
                     required
@@ -258,14 +319,14 @@ export default function Checkout() {
                   <input
                     id="customer_address_detail"
                     type="text"
-                    placeholder="상세주소를 입력하세요"
+                    placeholder="상세 호수 및 상세 정보를 입력해 주세요"
                     value={customer.address_detail}
                     onChange={(e) => setCustomer({ ...customer, address_detail: e.target.value })}
                   />
                 </div>
 
                 <div className="form-group-checkout">
-                  <label htmlFor="customer_delivery_date">희망 배송/시공일 <span className="opt">(선택)</span></label>
+                  <label htmlFor="customer_delivery_date">희망배송일 <span className="opt">(선택)</span></label>
                   <input
                     id="customer_delivery_date"
                     type="date"
@@ -288,7 +349,7 @@ export default function Checkout() {
             </div>
 
             {/* 결제방식 선택 카드 */}
-            <div className="checkout-card" style={{ marginTop: "20px" }}>
+            <div className="checkout-card">
               <h3>결제 방식</h3>
               <div className="payment-method-selector">
                 <label className={`payment-option ${paymentMethod === "무통장입금" ? "active" : ""}`}>
@@ -301,7 +362,7 @@ export default function Checkout() {
                   />
                   <div className="payment-option-desc">
                     <strong>무통장입금</strong>
-                    <span>주문 완료 후 계좌로 입금해 주세요. (가장 빠른 접수 가능)</span>
+                    <span>주문 완료 후 아래 계좌로 입금해 주세요. (가장 빠른 접수 가능)</span>
                   </div>
                 </label>
 
@@ -321,33 +382,57 @@ export default function Checkout() {
               </div>
             </div>
           </div>
+
           {/* 2. 오른쪽: 주문상품 요약 */}
           <div className="checkout-right-section">
             <div className="summary-sticky-card">
               <h3>주문 자재 요약</h3>
               
+              {/* 카드 형태로 개선한 주문 자재 리스트 */}
               <div className="summary-item-list">
                 {checkoutItems.map((item) => {
                   const qty = Math.max(1, parseInt(item.quantity) || 1);
-                  const price = Math.max(0, parseFloat(item.price || item.unit_price) || 0);
-                  const hasPrice = (item.price || item.unit_price) !== undefined && (item.price || item.unit_price) !== null;
+                  const price = parsePrice(item.price || item.unit_price);
+                  const hasPrice = price > 0;
+                  const itemSpec = item.spec || item.specs?.size || "표준규격";
+                  const itemPacking = item.packing || item.specs?.packing || "1박스 단위";
 
                   return (
-                    <div key={item.id} className="summary-item-row">
+                    <div key={item.id} className="summary-item-card">
+                      {/* 썸네일 */}
+                      <div className="summary-item-thumb-wrapper">
+                        <img 
+                          className="summary-item-thumb"
+                          src={item.thumbnail || item.image || "/images/no-image.svg"} 
+                          alt={item.name || item.product_name}
+                          onError={(e) => { e.target.onerror = null; e.target.src = "/images/no-image.svg"; }}
+                        />
+                      </div>
+                      
+                      {/* 사양 */}
                       <div className="summary-item-info">
-                        <span className="summary-item-brand">[{item.brand}]</span>
+                        <div className="summary-item-brand-row">
+                          {item.brand && <span className="summary-item-brand">{item.brand}</span>}
+                          {item.category && <span className="summary-item-category">{item.category}</span>}
+                        </div>
                         <span className="summary-item-name">{item.name || item.product_name}</span>
                         <div className="summary-item-details">
                           <span>코드: {item.code || item.product_code || "-"}</span>
-                          <span>규격: {item.spec || "-"}</span>
-                          <span>수량: {qty}{item.unit || "평"}</span>
+                          <span>규격: {itemSpec}</span>
+                          <span>구성: {itemPacking}</span>
+                          <span>단가: {hasPrice ? `${price.toLocaleString()}원` : "가격문의"}</span>
                         </div>
                       </div>
-                      <div className="summary-item-price">
+
+                      {/* 단가 및 소계 */}
+                      <div className="summary-item-price-side">
+                        <div className="summary-item-price-qty">{qty}박스(M)</div>
                         {hasPrice ? (
-                          `${(price * qty).toLocaleString()}원`
+                          <div className="summary-item-price-total">
+                            ₩{(price * qty).toLocaleString()}원
+                          </div>
                         ) : (
-                          <span className="consult-text">상담 필요</span>
+                          <div className="summary-item-price-total consult-text">상담 필요</div>
                         )}
                       </div>
                     </div>
@@ -355,13 +440,57 @@ export default function Checkout() {
                 })}
               </div>
 
+              <div className="summary-detail-rows">
+                <div className="summary-detail-row">
+                  <span>상품 종류 수</span>
+                  <span>{totalTypesCount}종</span>
+                </div>
+                <div className="summary-detail-row">
+                  <span>총 수량</span>
+                  <span>{totalQuantitySum.toLocaleString()}박스(M)</span>
+                </div>
+                <div className="summary-detail-row">
+                  <span>상품금액</span>
+                  <span>{calculateTotal().toLocaleString()}원</span>
+                </div>
+                <div className="summary-detail-row">
+                  <span>배송비</span>
+                  <span>별도 협의 (또는 0원)</span>
+                </div>
+              </div>
+
               <div className="summary-total-section">
                 <div className="total-row">
-                  <span>총 주문금액</span>
+                  <span>최종 주문금액</span>
                   <strong>{calculateTotal().toLocaleString()}원</strong>
                 </div>
                 <p className="vat-notice">* 배송비 및 부가세는 별도로 안내됩니다.</p>
               </div>
+
+              {/* 무통장 입금 안내 카드박스 */}
+              {paymentMethod === "무통장입금" && (
+                <div className="checkout-bank-transfer-box">
+                  <strong>💳 무통장 입금 정보</strong>
+                  <div className="bank-info-grid">
+                    <div className="bank-info-row">
+                      <span className="bank-info-label">은행명</span>
+                      <span className="bank-info-val">농협은행</span>
+                    </div>
+                    <div className="bank-info-row">
+                      <span className="bank-info-label">계좌번호</span>
+                      <span className="bank-info-val">301-0298-9197-81</span>
+                    </div>
+                    <div className="bank-info-row">
+                      <span className="bank-info-label">예금주</span>
+                      <span className="bank-info-val">동경바닥재</span>
+                    </div>
+                  </div>
+                  <div className="bank-guideline">
+                    • 실제 주문금액과 입금금액이 정확히 일치해야 자동 입금 확인 처리가 가능합니다.<br />
+                    • 입금 확인 후 주문 접수가 완료되며, 담당자가 개별 유선 연락을 드립니다.
+                  </div>
+                </div>
+              )}
 
               {errorMsg && <div className="checkout-error-banner">{errorMsg}</div>}
 
@@ -370,7 +499,7 @@ export default function Checkout() {
                 className="btn-order-submit" 
                 disabled={loading}
               >
-                {loading ? "주문 처리 중..." : "주문하기"}
+                {loading ? "주문 접수 중..." : "최종 주문하기"}
               </button>
               
               <button 
