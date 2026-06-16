@@ -9,9 +9,11 @@ import { getCurrentUser } from '../lib/auth';
 // 한글 -> 영문 매핑
 const STATUS_KO_TO_EN = {
   "접수완료": "submitted",
-  "확인": "confirmed",
+  "확인중": "confirmed",
+  "확인": "confirmed", // 하위 호환
   "준비중": "preparing",
-  "배송중": "delivering",
+  "출고/배송중": "delivering",
+  "배송중": "delivering", // 하위 호환
   "시공중/시공완료": "installed",
   "완료": "completed",
   "취소": "cancelled"
@@ -32,9 +34,9 @@ const PAYMENT_STATUS_KO_TO_EN = {
 // 영문 -> 한글 매핑 (UI 복원용)
 const STATUS_EN_TO_KO = {
   "submitted": "접수완료",
-  "confirmed": "확인",
+  "confirmed": "확인중",
   "preparing": "준비중",
-  "delivering": "배송중",
+  "delivering": "출고/배송중",
   "installed": "시공중/시공완료",
   "completed": "완료",
   "cancelled": "취소"
@@ -52,14 +54,29 @@ const PAYMENT_STATUS_EN_TO_KO = {
   "refunded": "환불"
 };
 
-// DB 영문 데이터를 한글 데이터로 변환하는 헬퍼 함수
+// DB 영문 데이터를 한글 데이터로 변환하는 헬퍼 함수 (관리자 메모 하이브리드 파싱 포함)
 const mapOrderToKo = (order) => {
   if (!order) return null;
+  
+  let adminMemoText = order.admin_memo || '';
+  let memoText = order.memo || '';
+
+  // 만약 admin_memo 컬럼이 없어서 memo에 [관리자 메모]를 합쳐서 보관한 경우, 이를 분리해서 노출
+  if (!order.admin_memo && memoText) {
+    const match = memoText.match(/(?:\r?\n)?\[관리자 메모\]\s*(.*)$/s);
+    if (match) {
+      adminMemoText = match[1].trim();
+      memoText = memoText.substring(0, match.index).trim();
+    }
+  }
+
   return {
     ...order,
     status: STATUS_EN_TO_KO[order.status] || order.status,
     payment_method: PAYMENT_METHOD_EN_TO_KO[order.payment_method] || order.payment_method,
     payment_status: PAYMENT_STATUS_EN_TO_KO[order.payment_status] || order.payment_status,
+    memo: memoText,
+    admin_memo: adminMemoText
   };
 };
 
@@ -272,6 +289,74 @@ export const updatePaymentStatus = async (orderId, paymentStatus) => {
 
   if (error) {
     return handleSupabaseError(error, '결제 상태 변경에 실패했습니다.');
+  }
+
+  return mapOrderToKo(data);
+};
+
+/**
+ * 6. 관리자 주문 정보 일괄 업데이트 (상태, 결제상태, 관리자메모)
+ * - admin_memo 컬럼이 실존하는지 동적 확인하여 분기 처리하는 하이브리드 로직을 내장합니다.
+ */
+export const updateOrderAdminFields = async (orderId, { status, paymentStatus, adminMemo }) => {
+  if (!supabase) {
+    throw new Error('Supabase 클라이언트가 초기화되지 않았습니다.');
+  }
+
+  const engStatus = STATUS_KO_TO_EN[status] || status;
+  const engPaymentStatus = PAYMENT_STATUS_KO_TO_EN[paymentStatus] || paymentStatus;
+
+  // 1. admin_memo 컬럼 존재 여부 판단
+  let hasAdminMemoColumn = false;
+  try {
+    const { error: columnError } = await supabase
+      .from('orders')
+      .select('admin_memo')
+      .limit(1);
+    if (!columnError) {
+      hasAdminMemoColumn = true;
+    }
+  } catch (err) {
+    console.warn('[OrderService] admin_memo column check failed:', err);
+  }
+
+  let updatePayload = {
+    status: engStatus,
+    payment_status: engPaymentStatus
+  };
+
+  if (hasAdminMemoColumn) {
+    updatePayload.admin_memo = adminMemo || null;
+  } else {
+    // admin_memo 컬럼이 없는 경우, 기존 memo 컬럼에 가공하여 보관
+    const { data: orderData } = await supabase
+      .from('orders')
+      .select('memo')
+      .eq('id', orderId)
+      .maybeSingle();
+    
+    let originalMemo = orderData?.memo || '';
+    const match = originalMemo.match(/(?:\r?\n)?\[관리자 메모\].*$/s);
+    if (match) {
+      originalMemo = originalMemo.substring(0, match.index).trim();
+    }
+    
+    if (adminMemo && adminMemo.trim() !== '') {
+      updatePayload.memo = `${originalMemo}\n[관리자 메모] ${adminMemo.trim()}`.trim();
+    } else {
+      updatePayload.memo = originalMemo || null;
+    }
+  }
+
+  const { data, error } = await supabase
+    .from('orders')
+    .update(updatePayload)
+    .eq('id', orderId)
+    .select()
+    .single();
+
+  if (error) {
+    return handleSupabaseError(error, '주문 정보 저장에 실패했습니다.');
   }
 
   return mapOrderToKo(data);
