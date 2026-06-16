@@ -2,12 +2,14 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { useEstimateCart } from "../../contexts/EstimateCartContext";
+import { useAuth } from "../../contexts/AuthContext";
 import { Trash2, Plus, Minus } from "lucide-react";
 import "../Estimate/EstimateRequest.css";
 
 export default function Cart() {
   const nav = useNavigate();
   const { cartItems, updateQuantity, removeFromCart, clearCart } = useEstimateCart();
+  const { user: currentUser, openLoginModal } = useAuth();
 
   const calculateSubtotal = () => {
     return cartItems.reduce((sum, item) => sum + (item.price || 0) * (item.quantity || 1), 0);
@@ -61,12 +63,16 @@ export default function Cart() {
               </button>
             </div>
 
-            <div className="est-items" style={{ marginTop: "20px" }}>
+             <div className="est-items" style={{ marginTop: "20px" }}>
               {cartItems.map((item) => (
                 <div key={item.id} className="est-item-card" style={{ position: "relative" }}>
                   <div className="est-item-info">
-                    <strong>[{item.brand}] {item.name}</strong>
-                    <span className="est-item-code">{item.code}</span>
+                    <span className="item-brand-label" style={{ fontSize: "0.85rem", color: "#888", fontWeight: "600", display: "block" }}>[{item.brand}]</span>
+                    <strong style={{ fontSize: "1.05rem", display: "block", margin: "4px 0" }}>{item.name}</strong>
+                    <div className="item-spec-details" style={{ fontSize: "0.85rem", color: "#666", marginTop: "4px" }}>
+                      <span style={{ marginRight: "12px" }}>코드: {item.code || "-"}</span>
+                      <span>규격: {item.specs?.size || item.specs?.thickness || item.spec || "표준규격"}</span>
+                    </div>
                   </div>
                   <div className="est-item-qty">
                     <button
@@ -78,7 +84,7 @@ export default function Cart() {
                     <input
                       type="number"
                       value={item.quantity}
-                      onChange={(e) => updateQuantity(item.id, parseInt(e.target.value) || 1)}
+                      onChange={(e) => updateQuantity(item.id, Math.max(1, parseInt(e.target.value) || 1))}
                     />
                     <button
                       type="button"
@@ -87,12 +93,13 @@ export default function Cart() {
                       <Plus size={14} />
                     </button>
                   </div>
-                  <div className="est-item-price">
-                    {item.price ? (
-                      `${(item.price * item.quantity).toLocaleString()}원`
-                    ) : (
-                      <span className="consult-price">상담 후 안내</span>
-                    )}
+                  <div className="est-item-price-info" style={{ display: "flex", flexDirection: "column", gap: "4px", minWidth: "120px", textAlign: "right" }}>
+                    <div style={{ fontSize: "0.85rem", color: "#777" }}>
+                      단가: {item.price ? `${item.price.toLocaleString()}원` : "가격문의"}
+                    </div>
+                    <div style={{ fontSize: "1rem", fontWeight: "bold", color: "#111" }}>
+                      합계: {item.price ? `${(item.price * item.quantity).toLocaleString()}원` : "상담 후 안내"}
+                    </div>
                   </div>
                   <button
                     type="button"
@@ -133,7 +140,13 @@ export default function Cart() {
               <button
                 type="button"
                 className="btn-secondary"
-                onClick={() => nav("/estimate/request")}
+                onClick={() => {
+                  if (!currentUser) {
+                    openLoginModal();
+                    return;
+                  }
+                  nav("/estimate/request");
+                }}
                 style={{
                   flex: 1.2,
                   minWidth: "150px",
@@ -152,7 +165,13 @@ export default function Cart() {
               <button
                 type="button"
                 className="btn-primary"
-                onClick={() => nav("/checkout")}
+                onClick={() => {
+                  if (!currentUser) {
+                    openLoginModal();
+                    return;
+                  }
+                  nav("/checkout");
+                }}
                 style={{
                   flex: 1.2,
                   minWidth: "150px",

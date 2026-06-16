@@ -18,7 +18,7 @@ import MainLayout from "../../components/layout/MainLayout";
 import { useEstimateCart } from "../../contexts/EstimateCartContext";
 import { getValidGalleryImages, getDetailImage, getThumbnailImage } from "../../utils/galleryUtils";
 import { supabase } from "../../lib/supabaseClient";
-import { getCurrentUser } from "../../lib/auth";
+import { useAuth } from "../../contexts/AuthContext";
 import { materials } from "../../data/materials.db"; // Local fallback data
 import { getComputedBrand } from "../../utils/brandUtils";
 import { dongshinPolymer2026 } from "../../data/dongshinPolymer2026.js";
@@ -116,7 +116,7 @@ export default function MaterialDetail() {
   const { id: rawId } = useParams();
   const navigate = useNavigate();
   const { addToCart } = useEstimateCart();
-  const currentUser = getCurrentUser();
+  const { user: currentUser, openLoginModal } = useAuth();
 
   const id = decodeURIComponent(rawId || "");
 
@@ -128,6 +128,7 @@ export default function MaterialDetail() {
   const [selectedImageObj, setSelectedImageObj] = useState(null); 
   const [qty, setQty] = useState(1);
   const [relatedItems, setRelatedItems] = useState([]);
+  const [showCartModal, setShowCartModal] = useState(false);
 
   // Scroll to top on id change
   useEffect(() => {
@@ -453,6 +454,10 @@ export default function MaterialDetail() {
 
   // Auto-fill and Redirection Handler
   const handleEstimate = () => {
+    if (!currentUser) {
+      openLoginModal();
+      return;
+    }
     // 1. Add item to cart
     addToCart({
       id: item.id,
@@ -483,17 +488,76 @@ export default function MaterialDetail() {
   };
 
   const handleAddToCart = () => {
+    let itemPrice = item.price;
+    if (typeof itemPrice === 'string') {
+      itemPrice = parseInt(itemPrice.replace(/[^0-9]/g, ""), 10) || 0;
+    } else if (typeof itemPrice === 'number') {
+      itemPrice = Math.max(0, itemPrice);
+    } else {
+      itemPrice = 0;
+    }
+
     addToCart({
       id: item.id,
-      code: item.code,
-      name: item.name,
-      brand: item.brand,
-      category: item.category,
-      specs: item.specs,
-      price: item.price,
+      product_id: item.id,
       thumbnail: item.thumbnail,
-      quantity: qty
+      image: item.thumbnail,
+      brand: getComputedBrand(item),
+      category: item.category,
+      name: item.name,
+      product_name: item.name,
+      code: item.code,
+      product_code: item.code,
+      spec: item.specs?.size || item.spec || "표준규격",
+      specs: item.specs,
+      packing: item.specs?.packing || "1박스 단위 판매",
+      price: itemPrice,
+      unit_price: itemPrice,
+      quantity: qty,
+      amount: itemPrice * qty
     });
+
+    setShowCartModal(true);
+  };
+
+  const handleDirectBuy = () => {
+    let itemPrice = item.price;
+    if (typeof itemPrice === 'string') {
+      itemPrice = parseInt(itemPrice.replace(/[^0-9]/g, ""), 10) || 0;
+    } else if (typeof itemPrice === 'number') {
+      itemPrice = Math.max(0, itemPrice);
+    } else {
+      itemPrice = 0;
+    }
+
+    const directOrderItem = {
+      id: item.id,
+      product_id: item.id,
+      thumbnail: item.thumbnail,
+      image: item.thumbnail,
+      brand: getComputedBrand(item),
+      category: item.category,
+      name: item.name,
+      product_name: item.name,
+      code: item.code,
+      product_code: item.code,
+      spec: item.specs?.size || item.spec || "표준규격",
+      specs: item.specs,
+      packing: item.specs?.packing || "1박스 단위 판매",
+      price: itemPrice,
+      unit_price: itemPrice,
+      quantity: qty,
+      amount: itemPrice * qty
+    };
+
+    localStorage.setItem("pendingDirectOrder", JSON.stringify(directOrderItem));
+
+    if (!currentUser) {
+      openLoginModal();
+      return;
+    }
+
+    navigate("/checkout", { state: { isDirect: true, directOrderItem } });
   };
 
   const handleBack = () => {
@@ -650,21 +714,31 @@ export default function MaterialDetail() {
                 </div>
               </div>
 
-              <div className="showroom-action-buttons">
+              {/* 1줄 메인 버튼: 장바구니 담기, 바로구매 */}
+              <div className="showroom-main-actions">
+                <button className="btn-main-cart" onClick={handleAddToCart}>
+                  <ShoppingCart size={18} style={{ marginRight: '6px' }} /> 장바구니 담기
+                </button>
+                <button className="btn-main-buy" onClick={handleDirectBuy}>
+                  바로구매
+                </button>
+              </div>
+
+              {/* 2줄 보조 버튼: 견적 요청하기, 전화 문의하기 */}
+              <div className="showroom-action-buttons" style={{ marginTop: '12px' }}>
                 <button className="btn-showroom-quote" onClick={handleEstimate}>
-                  <FileText size={18} /> 견적 요청하기
+                  <FileText size={16} /> 견적 요청하기
                 </button>
                 <a href="tel:02-487-9775" className="btn-showroom-phone">
-                  <Phone size={18} /> 전화 문의하기
+                  <Phone size={16} /> 전화 문의하기
                 </a>
               </div>
 
-              <div className="showroom-sub-actions">
-                <button className="btn-sub-utility" onClick={handleAddToCart}>
-                  <ShoppingCart size={15} /> 견적 바구니 담기
-                </button>
-                <button className="btn-sub-utility" onClick={() => navigate("/samplebooks")}>
-                  <BookOpen size={15} /> 자재 샘플북 요청
+              {/* 3줄 보조 버튼/링크: 자재 샘플북 요청 */}
+              <div className="showroom-sub-actions-single" style={{ marginTop: '16px', textAlign: 'center' }}>
+                <button className="btn-sub-utility-link" onClick={() => navigate("/samplebooks")}>
+                  <BookOpen size={14} style={{ marginRight: '4px', verticalAlign: 'middle' }} /> 
+                  <span style={{ verticalAlign: 'middle' }}>자재 샘플북 요청</span>
                 </button>
               </div>
 
@@ -948,6 +1022,26 @@ export default function MaterialDetail() {
         </button>
       </div>
 
+      {/* 장바구니 담기 완료 팝업 모달 */}
+      {showCartModal && (
+        <div className="cart-confirm-modal-overlay">
+          <div className="cart-confirm-modal">
+            <h3>장바구니에 담았습니다.</h3>
+            <p>선택하신 자재가 장바구니에 정상적으로 보관되었습니다.</p>
+            <div className="modal-actions">
+              <button className="btn-modal-shopping" onClick={() => setShowCartModal(false)}>
+                계속 쇼핑하기
+              </button>
+              <button className="btn-modal-cart" onClick={() => {
+                setShowCartModal(false);
+                navigate("/cart");
+              }}>
+                장바구니로 이동
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </MainLayout>
   );
 }

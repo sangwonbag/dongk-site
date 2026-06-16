@@ -3,7 +3,7 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import MainLayout from '../../components/layout/MainLayout';
 import { useEstimateCart } from '../../contexts/EstimateCartContext';
 import { supabase } from '../../lib/supabase';
-import { getCurrentUser } from '../../lib/auth';
+import { useAuth } from '../../contexts/AuthContext';
 import { ArrowLeft, Trash2, Plus, Minus, CheckCircle } from 'lucide-react';
 import MaterialSearchModal from './MaterialSearchModal';
 import './EstimateRequest.css';
@@ -18,7 +18,7 @@ export default function EstimateRequest() {
   const navigate = useNavigate();
   const location = useLocation();
   const { cartItems, updateQuantity, removeFromCart, clearCart } = useEstimateCart();
-  const currentUser = getCurrentUser();
+  const { user: currentUser, openLoginModal } = useAuth();
   
   const [step, setStep] = useState(1);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -29,16 +29,27 @@ export default function EstimateRequest() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   // Form states - Pre-filled from logged in user
-  const [customer, setCustomer] = useState(() => {
-    const user = getCurrentUser();
-    return {
-      type: '일반 소비자',
-      name: user ? user.name || user.email?.split('@')[0] || '' : '',
-      phone: user ? user.phone || '' : '',
-      email: user ? user.email || '' : '',
-      consultation: '전화 상담'
-    };
+  const [customer, setCustomer] = useState({
+    type: '일반 소비자',
+    name: '',
+    phone: '',
+    email: '',
+    consultation: '전화 상담'
   });
+
+  // Open login modal if not logged in
+  useEffect(() => {
+    if (!currentUser) {
+      openLoginModal();
+    } else {
+      setCustomer(prev => ({
+        ...prev,
+        name: currentUser.name || prev.name,
+        phone: currentUser.phone || prev.phone,
+        email: currentUser.email || prev.email,
+      }));
+    }
+  }, [currentUser, openLoginModal]);
   const [site, setSite] = useState({
     address: '', detailAddress: '', preferredDate: '', type: '아파트',
     workType: '상담 후 결정', areaPyeong: '', hasElevator: false, parkingAvailable: false
@@ -177,7 +188,7 @@ export default function EstimateRequest() {
                 navigate('/');
               }
             }}>이전 화면으로 돌아가기</button>
-            <button className="btn-primary" onClick={() => navigate(`/login?redirect=${encodeURIComponent(window.location.pathname + window.location.search)}`)}>로그인하기</button>
+            <button className="btn-primary" onClick={openLoginModal}>로그인하기</button>
           </div>
         </div>
       </MainLayout>

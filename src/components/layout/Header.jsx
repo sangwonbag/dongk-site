@@ -6,7 +6,7 @@ import { getSearchScore, RECOMMENDATIONS, normalizeSearchText, tokenizeSearchQue
 import { getSupabaseImageUrl } from "../../utils/getSupabaseImageUrl";
 import { useEstimateCart } from "../../contexts/EstimateCartContext";
 import { FileText, Settings, LogOut } from "lucide-react";
-import { getCurrentUser, logout } from "../../lib/auth";
+import { useAuth } from "../../contexts/AuthContext";
 import "./Header.css";
 
 // Debounce hook
@@ -65,10 +65,10 @@ export default function Header() {
   const { cartItems } = useEstimateCart();
   const estimateCount = cartItems.length;
 
-  const currentUser = getCurrentUser();
+  const { user: currentUser, logout: authLogout, openLoginModal } = useAuth();
 
   const handleLogout = () => {
-    logout();
+    authLogout();
     nav('/');
   };
 
@@ -377,7 +377,7 @@ export default function Header() {
                 </button>
               </>
             ) : (
-              <button className="login-nav-btn" onClick={() => nav("/login")}>
+              <button className="login-nav-btn" onClick={openLoginModal}>
                 <User size={20} />
                 <span>로그인</span>
               </button>
@@ -420,7 +420,7 @@ export default function Header() {
               <button className="drawer-logout-btn" onClick={() => { handleLogout(); setMobileMenuOpen(false); }}>로그아웃</button>
             </div>
           ) : (
-            <button className="drawer-login-btn" onClick={() => { nav("/login"); setMobileMenuOpen(false); }}>로그인</button>
+            <button className="drawer-login-btn" onClick={() => { openLoginModal(); setMobileMenuOpen(false); }}>로그인</button>
           )}
         </div>
       </div>

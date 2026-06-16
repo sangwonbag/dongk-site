@@ -1089,3 +1089,177 @@
     gap: 16px;
   }
 }
+
+/* ==========================================
+   5. New Shopping Cart & Direct Buy Actions
+   ========================================== */
+.showroom-main-actions {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.btn-main-cart {
+  flex: 1;
+  height: 54px;
+  background-color: #ffffff;
+  color: #141615;
+  border: 1.5px solid #141615;
+  border-radius: 8px;
+  font-size: 15.5px;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s ease;
+}
+
+.btn-main-cart:hover {
+  background-color: #f5f5f5;
+  border-color: #0a4c37;
+  color: #0a4c37;
+}
+
+.btn-main-buy {
+  flex: 1;
+  height: 54px;
+  background-color: #141615;
+  color: #ffffff;
+  border: 1px solid #141615;
+  border-radius: 8px;
+  font-size: 15.5px;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s ease;
+}
+
+.btn-main-buy:hover {
+  background-color: #0a4c37;
+  border-color: #0a4c37;
+  box-shadow: 0 4px 12px rgba(10, 76, 55, 0.2);
+}
+
+.btn-sub-utility-link {
+  background: transparent;
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: #546e7a;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 4px 8px;
+  transition: color 0.2s;
+}
+
+.btn-sub-utility-link:hover {
+  color: #141615;
+}
+
+/* Local Cart Confirm Modal styling */
+.cart-confirm-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(20, 22, 21, 0.4);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeIn 0.25s ease-out;
+}
+
+.cart-confirm-modal {
+  background-color: #ffffff;
+  border: 1px solid var(--border-showroom-light);
+  border-radius: 16px;
+  padding: 32px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  animation: scaleUp 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.cart-confirm-modal h3 {
+  font-size: 19px;
+  font-weight: 800;
+  color: #141615;
+  margin: 0 0 10px 0;
+}
+
+.cart-confirm-modal p {
+  font-size: 14px;
+  color: #546e7a;
+  margin: 0 0 24px 0;
+  line-height: 1.5;
+}
+
+.cart-confirm-modal .modal-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.btn-modal-shopping {
+  flex: 1;
+  height: 44px;
+  background-color: #ffffff;
+  color: #546e7a;
+  border: 1px solid var(--border-showroom-medium);
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-modal-shopping:hover {
+  background-color: #fafaf9;
+  color: #141615;
+}
+
+.btn-modal-cart {
+  flex: 1;
+  height: 44px;
+  background-color: #141615;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-modal-cart:hover {
+  background-color: #0a4c37;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scaleUp {
+  from { transform: scale(0.95); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+/* Mobile Responsive stacking for main actions */
+@media (max-width: 768px) {
+  .showroom-main-actions {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .btn-main-cart, .btn-main-buy {
+    width: 100%;
+  }
+}

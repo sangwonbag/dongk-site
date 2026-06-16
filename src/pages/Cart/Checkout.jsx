@@ -1,19 +1,20 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { useEstimateCart } from "../../contexts/EstimateCartContext";
-import { getCurrentUser } from "../../lib/auth";
+import { useAuth } from "../../contexts/AuthContext";
 import { createOrder } from "../../services/orderService";
-import AuthModal from "../../components/auth/AuthModal";
 import "./Checkout.css";
 
 export default function Checkout() {
   const navigate = useNavigate();
-  const { cartItems, clearCart } = useEstimateCart();
-  const [user, setUser] = useState(null);
-  
-  // 로그인 모달 오픈 여부
-  const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
+  const location = useLocation();
+  const { cartItems: globalCartItems, clearCart } = useEstimateCart();
+  const { user, openLoginModal } = useAuth();
+
+  // 바로구매용 임시 품목 상태 결정
+  const [checkoutItems, setCheckoutItems] = useState([]);
+  const [isDirectOrder, setIsDirectOrder] = useState(false);
 
   // 주문자 입력 정보
   const [customer, setCustomer] = useState({
@@ -32,46 +33,56 @@ export default function Checkout() {
 
   // 페이지 진입 시 사용자 및 장바구니 정보 확인
   useEffect(() => {
-    const currentUser = getCurrentUser();
-    setUser(currentUser);
-    
-    // 장바구니에 품목이 없다면 장바구니로 리다이렉트
-    if (!cartItems || cartItems.length === 0) {
-      alert("장바구니가 비어 있습니다.");
+    const pendingDirect = localStorage.getItem("pendingDirectOrder");
+    let targetItems = [];
+    let isDirect = false;
+
+    if (location.state?.isDirect && location.state?.directOrderItem) {
+      targetItems = [location.state.directOrderItem];
+      isDirect = true;
+    } else if (pendingDirect) {
+      try {
+        targetItems = [JSON.parse(pendingDirect)];
+        isDirect = true;
+      } catch (e) {
+        console.error("Failed to parse pending direct order", e);
+      }
+    } else {
+      targetItems = globalCartItems;
+      isDirect = false;
+    }
+
+    setCheckoutItems(targetItems);
+    setIsDirectOrder(isDirect);
+
+    // 주문 대상 품목이 없다면 리다이렉트
+    if (!targetItems || targetItems.length === 0) {
+      alert("주문할 대상 상품이 없습니다.");
       navigate("/cart");
       return;
     }
 
-    // 로그인되어 있다면 폼 자동 완성
-    if (currentUser) {
-      setCustomer({
-        name: currentUser.name || "",
-        company_name: currentUser.company_name || "",
-        phone: currentUser.phone || "",
-        address: currentUser.address || "",
-        address_detail: currentUser.address_detail || "",
-        delivery_date: "",
-        memo: "",
-      });
+    // 로그인하지 않은 사용자라면 로그인 모달 유도
+    if (!user) {
+      openLoginModal();
+      return;
     }
-  }, [cartItems, navigate]);
 
-  // 로그인 모달에서 정상적으로 로그인/회원가입 완료 시 처리
-  const handleAuthSuccess = (loggedInUser) => {
-    setUser(loggedInUser);
-    setCustomer(prev => ({
-      ...prev,
-      name: loggedInUser.name || prev.name,
-      company_name: loggedInUser.company_name || prev.company_name,
-      phone: loggedInUser.phone || prev.phone,
-      address: loggedInUser.address || prev.address,
-      address_detail: loggedInUser.address_detail || prev.address_detail,
-    }));
-  };
+    // 로그인되어 있다면 폼 자동 완성
+    setCustomer({
+      name: user.name || "",
+      company_name: user.company_name || "",
+      phone: user.phone || "",
+      address: user.address || "",
+      address_detail: user.address_detail || "",
+      delivery_date: "",
+      memo: "",
+    });
+  }, [globalCartItems, navigate, user, openLoginModal, location.state]);
 
   // 총액 자동 계산
   const calculateTotal = () => {
-    return cartItems.reduce((sum, item) => {
+    return checkoutItems.reduce((sum, item) => {
       const qty = Math.max(1, parseInt(item.quantity) || 1);
       const price = Math.max(0, parseFloat(item.price || item.unit_price) || 0);
       return sum + (price * qty);
@@ -84,9 +95,8 @@ export default function Checkout() {
     setErrorMsg("");
 
     // 로그인 여부 검사
-    const currentUser = getCurrentUser();
-    if (!currentUser) {
-      setIsAuthModalOpen(true);
+    if (!user) {
+      openLoginModal();
       return;
     }
 
@@ -108,13 +118,17 @@ export default function Checkout() {
     try {
       // 주문 생성 API 호출
       const orderData = await createOrder({
-        cartItems,
+        cartItems: checkoutItems,
         customer,
         paymentMethod
       });
 
-      // 장바구니 비우기
-      clearCart();
+      // 장바구니 비우기 분기 처리
+      if (isDirectOrder) {
+        localStorage.removeItem("pendingDirectOrder");
+      } else {
+        clearCart();
+      }
 
       // 주문 완료 화면으로 이동
       navigate("/order-complete", { state: { order: orderData } });
@@ -147,7 +161,7 @@ export default function Checkout() {
                   <button 
                     type="button" 
                     className="btn-auth-trigger"
-                    onClick={() => setIsAuthModalOpen(true)}
+                    onClick={openLoginModal}
                   >
                     로그인 / 회원가입 하기
                   </button>
@@ -270,14 +284,13 @@ export default function Checkout() {
               </div>
             </div>
           </div>
-
           {/* 2. 오른쪽: 주문상품 요약 */}
           <div className="checkout-right-section">
             <div className="summary-sticky-card">
               <h3>주문 자재 요약</h3>
               
               <div className="summary-item-list">
-                {cartItems.map((item) => {
+                {checkoutItems.map((item) => {
                   const qty = Math.max(1, parseInt(item.quantity) || 1);
                   const price = Math.max(0, parseFloat(item.price || item.unit_price) || 0);
                   const hasPrice = (item.price || item.unit_price) !== undefined && (item.price || item.unit_price) !== null;
@@ -335,12 +348,6 @@ export default function Checkout() {
           </div>
         </form>
       </div>
-
-      <AuthModal
-        isOpen={isAuthModalOpen}
-        onClose={() => setIsAuthModalOpen(false)}
-        onSuccess={handleAuthSuccess}
-      />
     </MainLayout>
   );
 }

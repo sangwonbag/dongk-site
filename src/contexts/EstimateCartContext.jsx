@@ -41,7 +41,7 @@ export function EstimateCartProvider({ children }) {
     });
 
     // Show toast
-    setToast({ visible: true, message: '견적요청에 담겼습니다' });
+    setToast({ visible: true, message: '장바구니에 담겼습니다.' });
     
     // Auto-hide toast after 5 seconds
     setTimeout(() => {

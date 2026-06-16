@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import { X } from "lucide-react";
-import { login, signup } from "../../lib/auth";
+import { useAuth } from "../../contexts/AuthContext";
 import "./AuthModal.css";
 
 export default function AuthModal({ isOpen, onClose, onSuccess }) {
   if (!isOpen) return null;
 
+  const { login: authLogin, signup: authSignup } = useAuth();
   const [activeTab, setActiveTab] = useState("login"); // "login" | "signup"
   
   // 로그인 상태
@@ -20,8 +21,6 @@ export default function AuthModal({ isOpen, onClose, onSuccess }) {
     confirmPassword: "",
     name: "",
     phone: "",
-    company_name: "",
-    user_type: "일반", // 일반 | 사업자
   });
   const [agreeTerms, setAgreeTerms] = useState(false);
   const [signUpError, setSignUpError] = useState("");
@@ -38,9 +37,9 @@ export default function AuthModal({ isOpen, onClose, onSuccess }) {
 
     setLoading(true);
     try {
-      const res = await login(loginId.trim(), loginPw);
+      const res = await authLogin(loginId.trim(), loginPw);
       if (res.success) {
-        onSuccess(res.user);
+        if (onSuccess) onSuccess(res.user);
         onClose();
       } else {
         setLoginError(res.message || "로그인에 실패했습니다.");
@@ -57,7 +56,7 @@ export default function AuthModal({ isOpen, onClose, onSuccess }) {
     e.preventDefault();
     setSignUpError("");
 
-    const { username, password, confirmPassword, name, phone, company_name, user_type } = signUpData;
+    const { username, password, confirmPassword, name, phone } = signUpData;
 
     if (!username.trim() || !password || !confirmPassword || !name.trim() || !phone.trim()) {
       setSignUpError("필수 항목(*)을 모두 입력해주세요.");
@@ -77,13 +76,13 @@ export default function AuthModal({ isOpen, onClose, onSuccess }) {
     setLoading(true);
     try {
       const nowStr = new Date().toISOString();
-      const res = await signup({
+      const res = await authSignup({
         username: username.trim(),
         password: password,
         name: name.trim(),
         phone: phone.trim(),
-        company_name: company_name.trim() || null,
-        user_type: user_type,
+        company_name: null,
+        user_type: "일반",
         marketing_agree: false,
         terms_agreed_at: nowStr,
         privacy_agreed_at: nowStr,
@@ -92,9 +91,9 @@ export default function AuthModal({ isOpen, onClose, onSuccess }) {
 
       if (res.success) {
         // 가입 성공 시 자동 로그인 시도
-        const loginRes = await login(username.trim(), password);
+        const loginRes = await authLogin(username.trim(), password);
         if (loginRes.success) {
-          onSuccess(loginRes.user);
+          if (onSuccess) onSuccess(loginRes.user);
           onClose();
         } else {
           // 가입은 성공했으나 자동 로그인 실패 시 로그인 탭으로 전환
@@ -177,26 +176,6 @@ export default function AuthModal({ isOpen, onClose, onSuccess }) {
           ) : (
             <form onSubmit={handleSignUpSubmit} className="auth-form scrollable-form">
               <div className="auth-form-group">
-                <label>가입 구분</label>
-                <div className="auth-type-selector">
-                  <button
-                    type="button"
-                    className={`type-btn ${signUpData.user_type === "일반" ? "active" : ""}`}
-                    onClick={() => setSignUpData({ ...signUpData, user_type: "일반" })}
-                  >
-                    일반 개인
-                  </button>
-                  <button
-                    type="button"
-                    className={`type-btn ${signUpData.user_type === "사업자" ? "active" : ""}`}
-                    onClick={() => setSignUpData({ ...signUpData, user_type: "사업자" })}
-                  >
-                    사업자/시공업체
-                  </button>
-                </div>
-              </div>
-
-              <div className="auth-form-group">
                 <label>아이디 <span className="req">*</span></label>
                 <input
                   type="text"
@@ -251,17 +230,6 @@ export default function AuthModal({ isOpen, onClose, onSuccess }) {
                 />
               </div>
 
-              <div className="auth-form-group">
-                <label>업체명 {signUpData.user_type === "사업자" && <span className="req">*</span>}</label>
-                <input
-                  type="text"
-                  placeholder="업체명을 입력하세요 (선택)"
-                  value={signUpData.company_name}
-                  onChange={(e) => setSignUpData({ ...signUpData, company_name: e.target.value })}
-                  disabled={loading}
-                />
-              </div>
-
               <div className="auth-terms-checkbox">
                 <label>
                   <input
@@ -277,7 +245,7 @@ export default function AuthModal({ isOpen, onClose, onSuccess }) {
               {signUpError && <div className="auth-error-msg">{signUpError}</div>}
 
               <button type="submit" className="btn-auth-submit" disabled={loading}>
-                {loading ? "가입 중..." : "회원가입 및 로그인"}
+                {loading ? "가입 중..." : "회원가입 완료"}
               </button>
             </form>
           )}

@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
-import { signup, checkDuplicateUsername } from "../../lib/auth";
+import { checkDuplicateUsername } from "../../lib/auth";
+import { useAuth } from "../../contexts/AuthContext";
 import "./Signup.css";
 import { getTermsContent } from "../../data/termsText";
 import { COMPANY_CONFIG } from "../../data/companyConfig";
@@ -11,6 +12,7 @@ const TERMS_CONTENT = getTermsContent(COMPANY_CONFIG);
 export default function Signup() {
     const nav = useNavigate();
     const location = useLocation();
+    const { signup } = useAuth();
     
     // Form fields
     const [username, setUsername] = useState("");

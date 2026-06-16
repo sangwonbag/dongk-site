@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Routes, Route, Navigate, useNavigate } from "react-router-dom";
 import { useEstimateCart } from "../contexts/EstimateCartContext";
+import { useAuth } from "../contexts/AuthContext";
+import AuthModal from "../components/auth/AuthModal";
 // Pages
 import Home from "../pages/Home/Home";
 import SampleBooks from "../pages/Samplebooks/SampleBooks";
@@ -31,6 +33,7 @@ import IntroSplash from "../components/layout/IntroSplash";
 
 export default function App() {
   const { toast, hideToast } = useEstimateCart();
+  const { isLoginModalOpen, closeLoginModal } = useAuth();
   const navigate = useNavigate();
   const [showIntro, setShowIntro] = useState(false);
 
@@ -49,9 +52,18 @@ export default function App() {
     return () => window.removeEventListener("hashchange", handleHashChange);
   }, [navigate]);
 
+  const handleAuthSuccess = (u) => {
+    console.log('Auth success', u);
+    const pending = localStorage.getItem("pendingDirectOrder");
+    if (pending) {
+      navigate("/checkout");
+    }
+  };
+
   return (
     <>
       {showIntro && <IntroSplash onFinish={() => setShowIntro(false)} />}
+      <AuthModal isOpen={isLoginModalOpen} onClose={closeLoginModal} onSuccess={handleAuthSuccess} />
       {toast.visible && (
         <div className="estimate-toast">
           <span>{toast.message}</span>
@@ -59,8 +71,8 @@ export default function App() {
             <button className="btn-secondary" onClick={hideToast}>계속 둘러보기</button>
             <button className="btn-primary" onClick={() => {
               hideToast();
-              navigate('/estimate/request');
-            }}>견적요청 작성하기</button>
+              navigate('/cart');
+            }}>장바구니 보기</button>
           </div>
         </div>
       )}

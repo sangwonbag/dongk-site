@@ -69,13 +69,13 @@ export default function OrderComplete() {
 
             <div className="receipt-row">
               <span className="label">주문 상태</span>
-              <span className="status-badge">{order.status || "접수"}</span>
+              <span className="status-badge">{order.status || "접수완료"}</span>
             </div>
           </div>
 
           <div className="bank-transfer-info">
             <h4>무통장 입금 계좌 안내</h4>
-            <p>우리은행 1005-401-447012 (예금주: 주식회사 동경바닥재)</p>
+            <p>농협 301-0298-9197-81 (예금주: 동경바닥재)</p>
             <span className="bank-notice">* 입금자명은 주문자명 혹은 업체명과 동일하게 입금해 주시기 바랍니다.</span>
           </div>
 

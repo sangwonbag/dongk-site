@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS public.orders (
     memo text,
     payment_method text NOT NULL, -- '무통장입금', '전화확인'
     payment_status text NOT NULL DEFAULT '미입금', -- '미입금', '입금완료', '부분입금', '환불'
-    status text NOT NULL DEFAULT '접수', -- '접수', '확인', '준비중', '배송중', '시공중/시공완료', '완료', '취소'
+    status text NOT NULL DEFAULT '접수완료', -- '접수완료', '확인', '준비중', '배송중', '시공중/시공완료', '완료', '취소'
     total_amount numeric NOT NULL DEFAULT 0,
     created_at timestamp with time zone NOT NULL DEFAULT now(),
     CONSTRAINT orders_pkey PRIMARY KEY (id),
@@ -71,3 +71,11 @@ CREATE POLICY "Allow public update for order_items" ON public.order_items
 -- SELECT 및 UPDATE 시 auth.uid() = user_id 등 사용자 기반 매핑을 구성할 수 있으나
 -- 현재 프로젝트의 커스텀 인증 방식(users 테이블에 수동 해시 비밀번호 대조하여 로그인 처리 및 localStorage 보존)에 따라 
 -- 클라이언트 anon key CRUD를 허용하기 위해 public 오픈 정책으로 설정합니다.
+
+-- ==========================================
+-- [추가 패치] 만약 orders.user_id 외래키가 auth.users를 참조하여 인서트 에러가 발생한다면
+-- 아래 구문을 실행하여 외래키가 public.profiles를 참조하도록 재설정해주시기 바랍니다.
+-- ==========================================
+-- ALTER TABLE public.orders DROP CONSTRAINT IF EXISTS orders_user_id_fkey;
+-- ALTER TABLE public.orders ADD CONSTRAINT orders_user_id_fkey FOREIGN KEY (user_id) REFERENCES public.profiles(id) ON DELETE SET NULL;
+

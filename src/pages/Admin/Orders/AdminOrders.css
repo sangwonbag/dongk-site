@@ -315,7 +315,8 @@
 }
 
 /* Custom styled status classes for dropdowns */
-.status-select.select-접수 { border-color: #C5A46D; color: #8C6A35; background-color: #FAF4EB; }
+.status-select.select-접수,
+.status-select.select-접수완료 { border-color: #C5A46D; color: #8C6A35; background-color: #FAF4EB; }
 .status-select.select-확인 { border-color: #1B1B1B; color: #1B1B1B; background-color: #EAEAEA; }
 .status-select.select-준비중 { border-color: #555; color: #555; background-color: #F0F0F0; }
 .status-select.select-배송중 { border-color: #3A6073; color: #3A6073; background-color: #E2F0F9; }

@@ -108,14 +108,14 @@ export const signup = async (userData) => {
         if (fallbackError.code === '23505' || fallbackError.message?.includes('duplicate')) {
           return { success: false, message: '이미 사용 중인 아이디입니다.' };
         }
-        return { success: false, message: '회원가입 처리 중 오류가 발생했습니다.' };
+        return { success: false, message: `회원가입 처리 중 오류가 발생했습니다. (상세: ${fallbackError.message || fallbackError.code})` };
       }
     }
 
     return { success: true };
   } catch (err) {
     console.error('Signup exception:', err);
-    return { success: false, message: '서버 오류가 발생했습니다.' };
+    return { success: false, message: `서버 오류가 발생했습니다. (상세: ${err.message || err.toString()})` };
   }
 };
 
@@ -141,8 +141,17 @@ export const login = async (id, password) => {
       .eq('password', hashedPassword)
       .single();
 
-    if (error || !userRow) {
-      return { success: false, message: '아이디 또는 비밀번호가 올바르지 않습니다.' };
+    if (error) {
+      console.error('Database query error during login:', error);
+      if (error.code === 'PGRST116') {
+        // No rows returned
+        return { success: false, message: '아이디 또는 비밀번호를 확인해주세요' };
+      }
+      return { success: false, message: `로그인 처리 중 서버 오류가 발생했습니다. (상세: ${error.message || error.code})` };
+    }
+
+    if (!userRow) {
+      return { success: false, message: '아이디 또는 비밀번호를 확인해주세요' };
     }
 
     const user = {
@@ -155,7 +164,7 @@ export const login = async (id, password) => {
 
   } catch (err) {
     console.error('Login exception:', err);
-    return { success: false, message: '로그인 처리 중 오류가 발생했습니다.' };
+    return { success: false, message: `로그인 처리 중 예외가 발생했습니다. (상세: ${err.message || err.toString()})` };
   }
 };
 
@@ -165,5 +174,5 @@ export const logout = () => {
 
 export const isAdmin = () => {
   const user = getCurrentUser();
-  return user && user.isLoggedIn && (user.role === 'admin' || user.role === 'staff');
+  return user && user.isLoggedIn && user.role === 'admin';
 };

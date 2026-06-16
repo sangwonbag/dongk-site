@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import MainLayout from "../../../components/layout/MainLayout";
-import { getCurrentUser } from "../../../lib/auth";
+import { useAuth } from "../../../contexts/AuthContext";
 import { 
   getAdminOrders, 
   updateOrderStatus, 
@@ -12,6 +12,7 @@ import "./AdminOrders.css";
 
 export default function AdminOrders() {
   const navigate = useNavigate();
+  const { user, loading: authLoading } = useAuth();
   const [isAdminUser, setIsAdminUser] = useState(false);
   const [orders, setOrders] = useState([]);
   const [filteredOrders, setFilteredOrders] = useState([]);
@@ -29,7 +30,7 @@ export default function AdminOrders() {
 
   // 주문 상태 옵션
   const orderStatusOptions = [
-    "접수", "확인", "준비중", "배송중", "시공중/시공완료", "완료", "취소"
+    "접수완료", "확인", "준비중", "배송중", "시공중/시공완료", "완료", "취소"
   ];
 
   // 결제 상태 옵션
@@ -39,15 +40,16 @@ export default function AdminOrders() {
 
   // 권한 검사 및 초기 데이터 패치
   useEffect(() => {
-    const user = getCurrentUser();
-    if (!user || (user.role !== "admin" && user.role !== "staff")) {
+    if (authLoading) return;
+
+    if (!user || user.role !== "admin") {
       setIsAdminUser(false);
       setLoading(false);
       return;
     }
     setIsAdminUser(true);
     fetchAdminOrders();
-  }, []);
+  }, [user, authLoading]);
 
   // 검색/필터 필터링 로직
   useEffect(() => {
@@ -147,6 +149,17 @@ export default function AdminOrders() {
     return `${date.getFullYear()}.${String(date.getMonth() + 1).padStart(2, '0')}.${String(date.getDate()).padStart(2, '0')} ${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`;
   };
 
+  // 권한 정보 확인 중 로딩 화면
+  if (authLoading) {
+    return (
+      <MainLayout>
+        <div className="admin-orders-loading">
+          <p>권한 정보를 확인하는 중입니다...</p>
+        </div>
+      </MainLayout>
+    );
+  }
+
   // 비권한자 차단 화면
   if (!loading && !isAdminUser) {
     return (
@@ -155,7 +168,7 @@ export default function AdminOrders() {
           <div className="unauth-card">
             <AlertTriangle size={48} className="warn-icon" />
             <h2>접근 권한이 없습니다.</h2>
-            <p>관리자 혹은 스태프 계정으로 로그인 후 이용해 주시기 바랍니다.</p>
+            <p>관리자 계정으로 로그인 후 이용해 주시기 바랍니다.</p>
             <button onClick={() => navigate("/")} className="btn-unauth-home">
               홈으로 돌아가기
             </button>

@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
-import { login } from "../../lib/auth";
+import { useAuth } from "../../contexts/AuthContext";
 import "./Login.css";
 
 export default function Login() {
     const nav = useNavigate();
     const location = useLocation();
+    const { login } = useAuth();
     const [userId, setUserId] = useState("");
     const [password, setPassword] = useState("");
     const [errorMsg, setErrorMsg] = useState("");
@@ -26,9 +27,14 @@ export default function Login() {
             if (result.user.role === "admin" || result.user.role === "staff") {
                 nav("/admin");
             } else {
-                const searchParams = new URLSearchParams(location.search);
-                const redirectUrl = searchParams.get("redirect") || "/";
-                nav(redirectUrl);
+                const pending = localStorage.getItem("pendingDirectOrder");
+                if (pending) {
+                    nav("/checkout");
+                } else {
+                    const searchParams = new URLSearchParams(location.search);
+                    const redirectUrl = searchParams.get("redirect") || "/";
+                    nav(redirectUrl);
+                }
             }
         } else {
             setErrorMsg(result.message);
