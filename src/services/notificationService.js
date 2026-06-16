@@ -3,7 +3,7 @@
  * Vercel Serverless Function (/api/send-order-email)을 비동기 호출합니다.
  */
 
-export const sendOrderNotification = async (orderData) => {
+export const sendOrderNotification = async (orderData, type = "admin") => {
   try {
     if (!orderData) {
       return { success: false, error: '전송할 주문 정보가 누락되었습니다.' };
@@ -15,6 +15,8 @@ export const sendOrderNotification = async (orderData) => {
       customer_name,
       company_name,
       phone,
+      email,
+      customer_email,
       address,
       address_detail,
       memo,
@@ -26,6 +28,9 @@ export const sendOrderNotification = async (orderData) => {
       order_items,
       created_at
     } = orderData;
+
+    // 고객 이메일 주소 추출
+    const targetEmail = email || customer_email || orderData.customer?.email || '';
 
     // 상세 품목 구조 매핑
     const items = (order_items || []).map(item => ({
@@ -46,6 +51,8 @@ export const sendOrderNotification = async (orderData) => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
+        type, // "admin" 또는 "customer"
+        recipient_email: targetEmail,
         order_no,
         customer_name,
         company_name,

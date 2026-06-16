@@ -116,24 +116,53 @@ export const createOrder = async ({ cartItems, customer, paymentMethod }) => {
     ? `[희망배송일: ${customer.delivery_date}] ${customer.memo || ''}`.trim()
     : customer.memo || null;
 
+  // 이메일 컬럼명 동적 판별 (customer_email 또는 email)
+  let emailColName = null;
+  try {
+    const { error: colError1 } = await supabase
+      .from('orders')
+      .select('customer_email')
+      .limit(1);
+    if (!colError1) {
+      emailColName = 'customer_email';
+    } else {
+      const { error: colError2 } = await supabase
+        .from('orders')
+        .select('email')
+        .limit(1);
+      if (!colError2) {
+        emailColName = 'email';
+      }
+    }
+  } catch (e) {
+    console.warn('[OrderService] Email column dynamic scan warning:', e);
+  }
+
+  const insertPayload = {
+    user_id: userId,
+    customer_name: customer.name,
+    company_name: customer.company_name || null,
+    phone: customer.phone,
+    address: customer.address,
+    address_detail: customer.address_detail || null,
+    memo: finalMemo,
+    subtotal: totalAmount,
+    shipping_fee: 0,
+    total_amount: totalAmount,
+    status: 'submitted', // 접수완료
+    payment_method: PAYMENT_METHOD_KO_TO_EN[paymentMethod] || 'bank_transfer',
+    payment_status: 'unpaid' // 미입금
+  };
+
+  // 이메일 컬럼이 실존하고 입력값이 있을 시 페이로드에 동적 가산
+  if (emailColName && customer.email) {
+    insertPayload[emailColName] = customer.email;
+  }
+
   // 1. orders 테이블 insert
   const { data: orderData, error: orderError } = await supabase
     .from('orders')
-    .insert({
-      user_id: userId,
-      customer_name: customer.name,
-      company_name: customer.company_name || null,
-      phone: customer.phone,
-      address: customer.address,
-      address_detail: customer.address_detail || null,
-      memo: finalMemo,
-      subtotal: totalAmount,
-      shipping_fee: 0,
-      total_amount: totalAmount,
-      status: 'submitted', // 접수완료
-      payment_method: PAYMENT_METHOD_KO_TO_EN[paymentMethod] || 'bank_transfer',
-      payment_status: 'unpaid' // 미입금
-    })
+    .insert(insertPayload)
     .select('*')
     .single();
 
@@ -186,7 +215,12 @@ export const createOrder = async ({ cartItems, customer, paymentMethod }) => {
     return handleSupabaseError(itemsError, '주문 상품 등록에 실패하여 주문이 취소되었습니다.');
   }
 
-  return mapOrderToKo(orderData);
+  const mappedOrder = mapOrderToKo(orderData);
+  mappedOrder.order_items = itemsToInsert;
+  if (customer.email) {
+    mappedOrder.email = customer.email;
+  }
+  return mappedOrder;
 };
 
 /**

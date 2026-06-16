@@ -19,6 +19,8 @@ export default async function handler(req, res) {
 
   // 3. 바디 데이터 추출 및 필수값 검증
   const { 
+    type, // "admin" | "customer"
+    recipient_email,
     order_no, 
     customer_name, 
     company_name, 
@@ -39,6 +41,17 @@ export default async function handler(req, res) {
     return res.status(400).json({ 
       success: false, 
       error: '필수 주문 정보(주문번호, 고객명, 연락처, 금액, 상품목록)가 누락되었습니다.' 
+    });
+  }
+
+  // 수신처 설정 및 검증
+  const isCustomerType = type === 'customer';
+  const targetRecipient = isCustomerType ? recipient_email : adminEmail;
+
+  if (isCustomerType && (!targetRecipient || targetRecipient.trim() === '')) {
+    return res.status(400).json({
+      success: false,
+      error: '고객용 이메일 발송을 위한 수신 주소(recipient_email)가 비어있습니다.'
     });
   }
 
@@ -82,22 +95,70 @@ export default async function handler(req, res) {
     `;
   }).join('');
 
+  // 템플릿 조건부 텍스트 매핑
+  let headerTitle = "동경바닥재 - 신규 주문 접수";
+  let subHeaderTitle = "본 메일은 동경바닥재 관리자용 자동 주문 알림 메일입니다.";
+  let noticeMessageHtml = "";
+  let ctaHtml = `
+    <a href="https://dk-floor.vercel.app/admin-orders" target="_blank" style="display: inline-block; background-color: #141615; color: #ffffff; text-decoration: none; padding: 12px 28px; border-radius: 8px; font-size: 14.5px; font-weight: 700; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
+      관리자 주문관리 바로가기
+    </a>
+    <p style="font-size: 11px; color: #78909C; margin: 12px 0 0 0;">(Vercel 서버 호스팅 주소에 따라 상세 이동이 지원됩니다)</p>
+  `;
+
+  if (isCustomerType) {
+    headerTitle = "동경바닥재 - 주문 접수 확인";
+    subHeaderTitle = "고객님께서 신청하신 주문이 안전하게 접수되었습니다.";
+    noticeMessageHtml = `
+      <div style="background-color: #E8F5E9; border: 1px solid #C8E6C9; padding: 16px; border-radius: 8px; margin-bottom: 24px; font-size: 14px; color: #2E7D32; line-height: 1.5; font-weight: bold; word-break: keep-all;">
+        주문이 정상 접수되었습니다. 입금 확인 후 담당자가 순차적으로 확인하여 연락드리겠습니다.
+      </div>
+      
+      <!-- 무통장 입금 안내 -->
+      <div style="background-color: #FFF3E0; border: 1px solid #FFE0B2; padding: 16px; border-radius: 8px; margin-bottom: 24px;">
+        <h4 style="margin: 0 0 8px 0; color: #E65100; font-size: 14px; font-weight: 800;">무통장 입금 계좌 안내</h4>
+        <table style="width: 100%; border-collapse: collapse; font-size: 13.5px; line-height: 1.5;">
+          <tr>
+            <td style="color: #78909C; width: 80px; padding: 4px 0;">은행명</td>
+            <td style="color: #141615; font-weight: bold; padding: 4px 0;">농협은행</td>
+          </tr>
+          <tr>
+            <td style="color: #78909C; padding: 4px 0;">계좌번호</td>
+            <td style="color: #0A4C37; font-weight: bold; font-size: 14.5px; padding: 4px 0;">301-0298-9197-81</td>
+          </tr>
+          <tr>
+            <td style="color: #78909C; padding: 4px 0;">예금주</td>
+            <td style="color: #141615; font-weight: bold; padding: 4px 0;">(주) 동경바닥재</td>
+          </tr>
+        </table>
+      </div>
+    `;
+    ctaHtml = `
+      <a href="https://dk-floor.vercel.app/mypage" target="_blank" style="display: inline-block; background-color: #0A4C37; color: #ffffff; text-decoration: none; padding: 12px 28px; border-radius: 8px; font-size: 14.5px; font-weight: 700; box-shadow: 0 4px 10px rgba(10, 76, 55, 0.15);">
+        마이페이지 주문내역 확인하기
+      </a>
+      <p style="font-size: 11px; color: #78909C; margin: 12px 0 0 0;">(주문 배송 상태 추적 및 매칭 현황을 볼 수 있습니다)</p>
+    `;
+  }
+
   const htmlContent = `
     <!DOCTYPE html>
     <html>
     <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>신규 주문 접수 알림</title>
+      <title>${isCustomerType ? '주문 접수 확인' : '신규 주문 접수 알림'}</title>
     </head>
     <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #141615; margin: 0; padding: 20px; background-color: #FAFAF9;">
       <div style="max-width: 600px; margin: 0 auto; background-color: #ffffff; padding: 30px; border-radius: 12px; border: 1px solid #ECEFF1; box-sizing: border-box;">
         
         <!-- Header -->
         <div style="border-bottom: 3px solid #0A4C37; padding-bottom: 16px; margin-bottom: 24px;">
-          <h2 style="margin: 0; color: #0A4C37; font-size: 20px; font-weight: 800; letter-spacing: -0.5px;">동경바닥재 - 신규 주문 접수</h2>
-          <span style="font-size: 12px; color: #78909C;">본 메일은 동경바닥재 관리자용 자동 주문 알림 메일입니다.</span>
+          <h2 style="margin: 0; color: #0A4C37; font-size: 20px; font-weight: 800; letter-spacing: -0.5px;">${headerTitle}</h2>
+          <span style="font-size: 12px; color: #78909C;">${subHeaderTitle}</span>
         </div>
+
+        ${noticeMessageHtml}
 
         <!-- Summary -->
         <div style="background-color: #FAFAF9; border: 1px solid #ECEFF1; padding: 20px; border-radius: 8px; margin-bottom: 24px;">
@@ -169,16 +230,17 @@ export default async function handler(req, res) {
 
         <!-- Call to Action -->
         <div style="text-align: center; border-top: 1px solid #ECEFF1; padding-top: 24px; margin-top: 20px;">
-          <a href="https://dk-floor.vercel.app/admin-orders" target="_blank" style="display: inline-block; background-color: #141615; color: #ffffff; text-decoration: none; padding: 12px 28px; border-radius: 8px; font-size: 14.5px; font-weight: 700; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
-            관리자 주문관리 바로가기
-          </a>
-          <p style="font-size: 11px; color: #78909C; margin: 12px 0 0 0;">(Vercel 서버 호스팅 주소에 따라 상세 이동이 지원됩니다)</p>
+          ${ctaHtml}
         </div>
 
       </div>
     </body>
     </html>
   `;
+
+  const subject = isCustomerType
+    ? `[동경바닥재] 주문이 접수되었습니다 - ${order_no}`
+    : `[동경바닥재] 신규 주문 접수 - ${order_no}`;
 
   // 5. API Key 형식 식별을 통한 이메일 전송 분기 (Resend vs SendGrid)
   const isSendGrid = apiKey.startsWith('SG.');
@@ -194,9 +256,9 @@ export default async function handler(req, res) {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          personalizations: [{ to: [{ email: adminEmail }] }],
+          personalizations: [{ to: [{ email: targetRecipient }] }],
           from: { email: emailFrom, name: '동경바닥재' },
-          subject: `[동경바닥재] 신규 주문 접수 - ${order_no}`,
+          subject: subject,
           content: [{ type: 'text/html', value: htmlContent }]
         })
       });
@@ -210,8 +272,8 @@ export default async function handler(req, res) {
         },
         body: JSON.stringify({
           from: emailFrom,
-          to: adminEmail,
-          subject: `[동경바닥재] 신규 주문 접수 - ${order_no}`,
+          to: targetRecipient,
+          subject: subject,
           html: htmlContent
         })
       });
@@ -222,11 +284,11 @@ export default async function handler(req, res) {
       throw new Error(`Email gateway returned status ${emailResponse.status}: ${errorText}`);
     }
 
-    console.log(`[Email Service] Success sending order mail for: ${order_no}`);
+    console.log(`[Email Service] Success sending ${type} mail for: ${order_no}`);
     return res.status(200).json({ success: true });
 
   } catch (err) {
-    console.error('[Email Service Exception]:', err);
+    console.error(`[Email Service Exception] Failed sending ${type} mail:`, err);
     return res.status(502).json({ 
       success: false, 
       error: `이메일 게이트웨이 전송 중 오류가 발생했습니다: ${err.message}` 

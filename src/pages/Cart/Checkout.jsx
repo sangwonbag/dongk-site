@@ -22,6 +22,7 @@ export default function Checkout() {
     name: "",
     company_name: "",
     phone: "",
+    email: "",
     address: "",
     address_detail: "",
     delivery_date: "",
@@ -74,6 +75,7 @@ export default function Checkout() {
       name: user.name || "",
       company_name: user.company_name || "",
       phone: user.phone || "",
+      email: user.email || "",
       address: user.address || "",
       address_detail: user.address_detail || "",
       delivery_date: "",
@@ -132,13 +134,26 @@ export default function Checkout() {
       }
 
       // 비동기 알림 발송 (주문 성공 플로우에 지장을 주지 않도록 격리)
+      // 1. 관리자 알림 발송
       try {
-        const notifResult = await sendOrderNotification(orderData);
-        if (!notifResult.success) {
-          console.warn("[Checkout Warning] 주문 접수 완료 알림 전송 실패:", notifResult.error);
+        const adminNotif = await sendOrderNotification(orderData, "admin");
+        if (!adminNotif.success) {
+          console.warn("[Checkout Warning] 관리자 주문 접수 알림 전송 실패:", adminNotif.error);
         }
       } catch (notifErr) {
-        console.warn("[Checkout Exception] 주문 접수 완료 알림 전송 중 오류:", notifErr);
+        console.warn("[Checkout Exception] 관리자 주문 접수 알림 전송 중 오류:", notifErr);
+      }
+
+      // 2. 고객 알림 발송 (이메일 주소가 기입된 경우에만 진행)
+      if (customer.email && customer.email.trim() !== "") {
+        try {
+          const customerNotif = await sendOrderNotification(orderData, "customer");
+          if (!customerNotif.success) {
+            console.warn("[Checkout Warning] 고객 주문 확인 이메일 전송 실패:", customerNotif.error);
+          }
+        } catch (notifErr) {
+          console.warn("[Checkout Exception] 고객 주문 확인 이메일 전송 중 오류:", notifErr);
+        }
       }
 
       // 주문 완료 화면으로 이동
@@ -212,6 +227,17 @@ export default function Checkout() {
                     value={customer.phone}
                     onChange={(e) => setCustomer({ ...customer, phone: e.target.value })}
                     required
+                  />
+                </div>
+
+                <div className="form-group-checkout">
+                  <label htmlFor="customer_email">이메일 <span className="opt">(선택)</span></label>
+                  <input
+                    id="customer_email"
+                    type="email"
+                    placeholder="주문 접수 확인 메일을 받으실 이메일 주소"
+                    value={customer.email || ""}
+                    onChange={(e) => setCustomer({ ...customer, email: e.target.value })}
                   />
                 </div>
 
