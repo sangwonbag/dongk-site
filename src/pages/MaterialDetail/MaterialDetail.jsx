@@ -17,6 +17,7 @@ import {
 import MainLayout from "../../components/layout/MainLayout";
 import { useEstimateCart } from "../../contexts/EstimateCartContext";
 import { getValidGalleryImages, getDetailImage, getThumbnailImage } from "../../utils/galleryUtils";
+import { getMaterialImagePath } from "../../utils/materialImageResolver";
 import { supabase } from "../../lib/supabaseClient";
 import { useAuth } from "../../contexts/AuthContext";
 import { materials } from "../../data/materials.db"; // Local fallback data
@@ -395,16 +396,19 @@ export default function MaterialDetail() {
             .limit(4);
           
           if (data && data.length > 0) {
-            setRelatedItems(data.map(p => ({
-              id: p.slug || String(p.id),
-              code: p.product_code || "",
-              name: p.name || "",
-              brand: p.brands?.name || "",
-              category: p.categories?.name || "",
-              price: p.price || 0,
-              thumbnail: p.image_url || null,
-              size: p.size_text || ""
-            })));
+            setRelatedItems(data.map(p => {
+              const mapped = {
+                id: p.slug || String(p.id),
+                code: p.product_code || "",
+                name: p.name || "",
+                brand: p.brands?.name || "",
+                category: p.categories?.name || "",
+                price: p.price || 0,
+                size: p.size_text || ""
+              };
+              mapped.thumbnail = getMaterialImagePath(mapped);
+              return mapped;
+            }));
             return;
           }
         }
@@ -416,16 +420,19 @@ export default function MaterialDetail() {
       const localRelated = materials
         .filter(m => (m.category === item.category || m.brand === item.brand) && m.code !== item.code)
         .slice(0, 4)
-        .map(m => ({
-          id: m.id || m.code,
-          code: m.code || "",
-          name: m.name || "",
-          brand: m.brand || "",
-          category: m.category || "",
-          price: m.price || 0,
-          thumbnail: m.thumbnail || null,
-          size: m.specs?.size || m.specs?.thickness || ""
-        }));
+        .map(m => {
+          const mapped = {
+            id: m.id || m.code,
+            code: m.code || "",
+            name: m.name || "",
+            brand: m.brand || "",
+            category: m.category || "",
+            price: m.price || 0,
+            size: m.specs?.size || m.specs?.thickness || ""
+          };
+          mapped.thumbnail = getMaterialImagePath(mapped);
+          return mapped;
+        });
       setRelatedItems(localRelated);
     }
 
@@ -472,7 +479,7 @@ export default function MaterialDetail() {
       category: item.category,
       specs: item.specs,
       price: item.price,
-      thumbnail: item.thumbnail,
+      thumbnail: getMaterialImagePath(item),
       quantity: qty
     });
 
@@ -519,11 +526,12 @@ export default function MaterialDetail() {
       itemPrice = 0;
     }
 
+    const imgPath = getMaterialImagePath(item);
     addToCart({
       id: item.id,
       product_id: item.id,
-      thumbnail: item.thumbnail,
-      image: item.thumbnail,
+      thumbnail: imgPath,
+      image: imgPath,
       brand: getComputedBrand(item),
       category: item.category,
       name: displayName,
@@ -557,11 +565,12 @@ export default function MaterialDetail() {
       return;
     }
 
+    const imgPath = getMaterialImagePath(item);
     const directOrderItem = {
       id: item.id,
       product_id: item.id,
-      thumbnail: item.thumbnail,
-      image: item.thumbnail,
+      thumbnail: imgPath,
+      image: imgPath,
       brand: getComputedBrand(item),
       category: item.category,
       name: displayName,

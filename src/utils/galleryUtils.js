@@ -1,3 +1,4 @@
+import { getMaterialImagePath } from "./materialImageResolver";
 import { imageManifest } from "../data/imageManifest";
 import { materials } from "../data/materials.db";
 
@@ -14,6 +15,12 @@ function toFullUrl(path) {
 
 export async function getThumbnailImage(item) {
     if (!item) return "";
+
+    // Try code-matching material image resolver first
+    const resolvedLocalPath = getMaterialImagePath(item);
+    if (resolvedLocalPath && resolvedLocalPath !== '/images/no-image.svg') {
+        return resolvedLocalPath;
+    }
 
     // 1. Try manifest lookup first to get the Supabase Storage hash
     const keys = [item.code, item.name].filter(Boolean).map(normalize);
