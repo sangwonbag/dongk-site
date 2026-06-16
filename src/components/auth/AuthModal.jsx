@@ -4,11 +4,9 @@ import { useAuth } from "../../contexts/AuthContext";
 import "./AuthModal.css";
 
 export default function AuthModal({ isOpen, onClose, onSuccess }) {
-  if (!isOpen) return null;
-
   const { login: authLogin, signup: authSignup } = useAuth();
   const [activeTab, setActiveTab] = useState("login"); // "login" | "signup"
-  
+
   // 로그인 상태
   const [loginId, setLoginId] = useState("");
   const [loginPw, setLoginPw] = useState("");
@@ -25,6 +23,8 @@ export default function AuthModal({ isOpen, onClose, onSuccess }) {
   const [agreeTerms, setAgreeTerms] = useState(false);
   const [signUpError, setSignUpError] = useState("");
   const [loading, setLoading] = useState(false);
+
+  if (!isOpen) return null;
 
   const handleLoginSubmit = async (e) => {
     e.preventDefault();

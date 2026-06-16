@@ -177,7 +177,6 @@ export default function AdminOrders() {
   };
 
   // 요약 통계 정보 연산
-  const totalCount = orders.length;
   const newCount = orders.filter(o => o.status === "접수완료").length;
   const uncheckedCount = orders.filter(isUnchecked).length;
   const unpaidCount = orders.filter(o => o.payment_status === "미입금").length;

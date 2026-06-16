@@ -9,7 +9,6 @@ import "./OrderHistory.css";
 export default function OrderHistory() {
   const navigate = useNavigate();
   const location = useLocation();
-  const [user, setUser] = useState(null);
   const [orders, setOrders] = useState([]);
   const [loading, setLoading] = useState(true);
   const [errorMsg, setErrorMsg] = useState("");
@@ -25,7 +24,6 @@ export default function OrderHistory() {
       navigate("/login?redirect=" + encodeURIComponent(location.pathname + location.hash));
       return;
     }
-    setUser(currentUser);
     fetchOrders();
   }, [location.pathname, location.hash, navigate]);
 

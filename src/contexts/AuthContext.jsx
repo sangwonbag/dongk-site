@@ -1,19 +1,13 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
+/* eslint-disable react-refresh/only-export-components */
+import React, { createContext, useContext, useState } from 'react';
 import { getCurrentUser, login as authLogin, logout as authLogout, signup as authSignup } from '../lib/auth';
 
 const AuthContext = createContext(null);
 
 export function AuthProvider({ children }) {
-  const [user, setUser] = useState(null);
+  const [user, setUser] = useState(() => getCurrentUser());
   const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
-  const [loading, setLoading] = useState(true);
-
-  // Initialize user status on mount
-  useEffect(() => {
-    const initializedUser = getCurrentUser();
-    setUser(initializedUser);
-    setLoading(false);
-  }, []);
+  const [loading] = useState(false);
 
   const login = async (id, password) => {
     try {
