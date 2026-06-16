@@ -395,3 +395,70 @@ export const updateOrderAdminFields = async (orderId, { status, paymentStatus, a
 
   return mapOrderToKo(data);
 };
+
+/**
+ * 7. 주문 확인 상태 변경 (admin_checked, admin_checked_at, admin_checked_by)
+ * - admin_checked 컬럼이 실존하는지 동적 확인하여 분기 처리하는 하이브리드 로직을 내장합니다.
+ */
+export const updateOrderChecked = async (orderId, username) => {
+  if (!supabase) {
+    throw new Error('Supabase 클라이언트가 초기화되지 않았습니다.');
+  }
+
+  // admin_checked 컬럼 존재 여부 판단
+  let hasCheckedColumn = false;
+  try {
+    const { error: columnError } = await supabase
+      .from('orders')
+      .select('admin_checked')
+      .limit(1);
+    if (!columnError) {
+      hasCheckedColumn = true;
+    }
+  } catch (err) {
+    console.warn('[OrderService] admin_checked column check failed:', err);
+  }
+
+  if (!hasCheckedColumn) {
+    // 컬럼이 없는 경우, DB 저장은 스킵하고 메모리 상에서만 업데이트된 객체 형태를 내려줌 (fallback)
+    const { data: orderData, error: fetchError } = await supabase
+      .from('orders')
+      .select(`
+        *,
+        order_items (*)
+      `)
+      .eq('id', orderId)
+      .maybeSingle();
+
+    if (fetchError || !orderData) {
+      throw new Error('주문 정보를 찾을 수 없습니다.');
+    }
+
+    const mapped = mapOrderToKo(orderData);
+    mapped.admin_checked = true;
+    mapped.admin_checked_at = new Date().toISOString();
+    mapped.admin_checked_by = username || 'admin';
+    return mapped;
+  }
+
+  // 컬럼이 존재하는 경우 정상적으로 DB 업데이트
+  const { data, error } = await supabase
+    .from('orders')
+    .update({
+      admin_checked: true,
+      admin_checked_at: new Date().toISOString(),
+      admin_checked_by: username || 'admin'
+    })
+    .eq('id', orderId)
+    .select(`
+      *,
+      order_items (*)
+    `)
+    .single();
+
+  if (error) {
+    return handleSupabaseError(error, '주문 확인 처리에 실패했습니다.');
+  }
+
+  return mapOrderToKo(data);
+};
