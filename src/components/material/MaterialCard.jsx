@@ -3,13 +3,19 @@ import { ShoppingCart } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useEstimateCart } from '../../contexts/EstimateCartContext';
 import { getThumbnailImage } from '../../utils/galleryUtils';
+import { getMaterialImagePath } from '../../utils/materialImageResolver';
 import { getComputedBrand } from '../../utils/brandUtils';
 import './MaterialCard.css';
 
 const MaterialCard = ({ material }) => {
     const navigate = useNavigate();
     const { addToCart } = useEstimateCart();
-    const [coverUrl, setCoverUrl] = useState("");
+    
+    // Hybrid local-sync / Supabase-async resolver to eliminate render flickering
+    const [coverUrl, setCoverUrl] = useState(() => {
+        const localPath = getMaterialImagePath(material);
+        return localPath !== "/images/no-image.svg" ? localPath : "";
+    });
 
     // Compute standard display name for cards and cart items
     const displayName = (() => {
@@ -30,6 +36,14 @@ const MaterialCard = ({ material }) => {
 
     useEffect(() => {
         let isMounted = true;
+        const localPath = getMaterialImagePath(material);
+        if (localPath !== "/images/no-image.svg") {
+            Promise.resolve().then(() => {
+                if (isMounted) setCoverUrl(localPath);
+            });
+            return;
+        }
+
         getThumbnailImage(material).then((url) => {
             if (isMounted && url) {
                 setCoverUrl(url);
