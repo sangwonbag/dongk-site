@@ -358,7 +358,7 @@ export default function Header() {
             <button className="cart-nav-btn" onClick={() => nav("/cart")} style={{ position: 'relative' }}>
               <ShoppingCart size={20} />
               <span>장바구니</span>
-              {estimateCount > 0 && <span className="estimate-badge">{estimateCount}</span>}
+              {currentUser && estimateCount > 0 && <span className="estimate-badge">{estimateCount}</span>}
             </button>
             
             {currentUser ? (
@@ -411,7 +411,7 @@ export default function Header() {
         <div className="drawer-actions">
           <button className="drawer-cart-btn" onClick={() => { nav("/cart"); setMobileMenuOpen(false); }}>
             <ShoppingCart size={18} style={{ marginRight: '6px' }} />
-            장바구니 ({estimateCount})
+            장바구니 ({currentUser ? estimateCount : 0})
           </button>
           {currentUser ? (
             <div className="drawer-account-group">

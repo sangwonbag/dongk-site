@@ -584,6 +584,10 @@ export default function MaterialDetail() {
   const currentPacking = selectedOption ? (selectedOption.package || "1박스 단위 판매") : (item.specs?.packing || "1박스 단위 판매");
 
   const handleAddToCart = () => {
+    if (!currentUser) {
+      openLoginModal();
+      return;
+    }
     let itemPrice = item.price;
     if (typeof itemPrice === 'string') {
       itemPrice = parseInt(itemPrice.replace(/[^0-9]/g, ""), 10) || 0;
@@ -639,6 +643,11 @@ export default function MaterialDetail() {
       return;
     }
 
+    if (!currentUser) {
+      openLoginModal();
+      return;
+    }
+
     const imgPath = getMaterialImagePath(item);
     const directOrderItem = {
       id: selectedOption ? `${item.id}-${selectedOption.label}` : item.id,
@@ -668,12 +677,6 @@ export default function MaterialDetail() {
     };
 
     setPendingDirectOrder(directOrderItem);
-
-    if (!currentUser) {
-      openLoginModal();
-      return;
-    }
-
     navigate("/checkout", { state: { isDirect: true, directOrderItem } });
   };
 

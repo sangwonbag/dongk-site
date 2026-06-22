@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { ShoppingCart } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useEstimateCart } from '../../contexts/EstimateCartContext';
+import { useAuth } from '../../contexts/AuthContext';
 import { getThumbnailImage } from '../../utils/galleryUtils';
 import { getMaterialImagePath } from '../../utils/materialImageResolver';
 import { getComputedBrand } from '../../utils/brandUtils';
@@ -10,6 +11,7 @@ import './MaterialCard.css';
 const MaterialCard = ({ material }) => {
     const navigate = useNavigate();
     const { addToCart } = useEstimateCart();
+    const { user: currentUser, openLoginModal } = useAuth();
     
     // Hybrid local-sync / Supabase-async resolver to eliminate render flickering
     const [coverUrl, setCoverUrl] = useState(() => {
@@ -84,6 +86,10 @@ const MaterialCard = ({ material }) => {
 
     const handleInquiry = (e) => {
         e.stopPropagation();
+        if (!currentUser) {
+            openLoginModal();
+            return;
+        }
         
         const price = parsePrice(material.price) || 0;
         
@@ -119,6 +125,10 @@ const MaterialCard = ({ material }) => {
 
     const handleAddToCart = (e) => {
         e.stopPropagation();
+        if (!currentUser) {
+            openLoginModal();
+            return;
+        }
         
         const price = parsePrice(material.price) || 0;
 

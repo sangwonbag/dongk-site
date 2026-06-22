@@ -17,18 +17,20 @@ export function EstimateCartProvider({ children }) {
   };
 
   const [cartItems, setCartItems] = useState(() => {
-    // Determine initial key on mount
+    // If there is no authenticated user on app mount, initialize cart as empty
     const savedUserStr = localStorage.getItem('dk_auth_user');
+    if (!savedUserStr) {
+      return [];
+    }
+
     let initialKey = 'estimateCart_guest';
-    if (savedUserStr) {
-      try {
-        const parsed = JSON.parse(savedUserStr);
-        if (parsed && parsed.id) {
-          initialKey = `estimateCart_${parsed.id}`;
-        }
-      } catch (e) {
-        console.error('Failed to parse user on initial cart load', e);
+    try {
+      const parsed = JSON.parse(savedUserStr);
+      if (parsed && parsed.id) {
+        initialKey = `estimateCart_${parsed.id}`;
       }
+    } catch (e) {
+      console.error('Failed to parse user on initial cart load', e);
     }
 
     const saved = localStorage.getItem(initialKey);
@@ -37,21 +39,6 @@ export function EstimateCartProvider({ children }) {
         return JSON.parse(saved);
       } catch (e) {
         console.error('Failed to parse estimate cart', e);
-      }
-    }
-
-    // Try fallback to legacy key if guest and guest key has no data
-    if (initialKey === 'estimateCart_guest') {
-      const legacy = localStorage.getItem('estimateCart');
-      if (legacy) {
-        try {
-          const parsedLegacy = JSON.parse(legacy);
-          localStorage.setItem('estimateCart_guest', legacy);
-          localStorage.removeItem('estimateCart');
-          return parsedLegacy;
-        } catch (e) {
-          // ignore
-        }
       }
     }
     return [];
@@ -81,6 +68,47 @@ export function EstimateCartProvider({ children }) {
     localStorage.removeItem('directOrder');
     sessionStorage.removeItem('directOrder');
   };
+
+  const clearAllCartStorage = () => {
+    const keysToRemove = [];
+    for (let i = 0; i < localStorage.length; i += 1) {
+      const key = localStorage.key(i);
+      if (
+        key === 'estimateCart' ||
+        key === 'estimateCart_guest' ||
+        key === 'pendingDirectOrder' ||
+        key === 'checkoutItems' ||
+        key === 'checkoutDraft' ||
+        key === 'directOrder' ||
+        key === 'cartItems' ||
+        key === 'dongk_cart' ||
+        key === 'dongk_estimate_cart' ||
+        (key && key.startsWith('estimateCart_'))
+      ) {
+        keysToRemove.push(key);
+      }
+    }
+    keysToRemove.forEach((key) => localStorage.removeItem(key));
+
+    // Clear session storage as well
+    sessionStorage.removeItem('pendingDirectOrder');
+    sessionStorage.removeItem('directOrder');
+    sessionStorage.removeItem('checkoutItems');
+    sessionStorage.removeItem('checkoutDraft');
+
+    window.dispatchEvent(new CustomEvent('dongk-cart-cleared'));
+    window.dispatchEvent(new StorageEvent('storage', { key: 'estimateCart' }));
+  };
+
+  // If no user is authenticated on initial load, ensure all cart keys are cleared
+  useEffect(() => {
+    const savedUserStr = localStorage.getItem('dk_auth_user');
+    if (!savedUserStr) {
+      console.log("[CartContext] Initial mount: No authenticated user. Purging cart storage.");
+      setCartItems([]);
+      clearAllCartStorage();
+    }
+  }, []);
 
   // Legacy local storage keys cleanup
   useEffect(() => {
@@ -157,10 +185,7 @@ export function EstimateCartProvider({ children }) {
     // Case 2: Logged In -> Logged Out
     else if (prevUser && !user) {
       setCartItems([]);
-      localStorage.removeItem('estimateCart_guest');
-      localStorage.removeItem(`estimateCart_${prevUser.id}`);
-      localStorage.removeItem('estimateCart');
-      removePendingDirectOrder();
+      clearAllCartStorage();
     }
   }, [user]);
 
@@ -237,22 +262,7 @@ export function EstimateCartProvider({ children }) {
   const clearCart = async (options = {}) => {
     setCartItems([]);
     if (options.clearAll) {
-      const currentUserId = user ? user.id : null;
-      localStorage.removeItem('estimateCart_guest');
-      localStorage.removeItem('estimateCart');
-      localStorage.removeItem('cart');
-      localStorage.removeItem('cartItems');
-      localStorage.removeItem('dk-cart');
-      localStorage.removeItem('dongk-cart');
-      if (currentUserId) {
-        localStorage.removeItem(`estimateCart_${currentUserId}`);
-      }
-      Object.keys(localStorage).forEach(key => {
-        if (key.startsWith('estimateCart_')) {
-          localStorage.removeItem(key);
-        }
-      });
-      removePendingDirectOrder();
+      clearAllCartStorage();
       window.dispatchEvent(new Event('cart:cleared'));
     } else {
       const key = getCartKey(user);
@@ -276,6 +286,7 @@ export function EstimateCartProvider({ children }) {
       removeFromCart,
       updateQuantity,
       clearCart,
+      clearAllCartStorage,
       getPendingDirectOrder,
       setPendingDirectOrder,
       removePendingDirectOrder,

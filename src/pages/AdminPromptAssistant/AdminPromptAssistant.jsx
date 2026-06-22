@@ -135,15 +135,16 @@ export default function AdminPromptAssistant() {
     const newPromptItem = {
       id: Date.now().toString(),
       title: computedTitle,
+      targetType: outputTarget, // targetType (Antigravity/Codex)
       taskType,
       customTaskType,
-      taskPurpose,
-      currentIssue,
+      goal: taskPurpose, // goal
+      currentProblem: currentIssue, // currentProblem
       desiredResult,
       nonTouchParts,
       styleNote,
-      outputTarget,
       additionalMemo,
+      affectedFiles: estimateAffectedFiles ? estimateAffectedFiles(taskType) : [], // affectedFiles array
       generatedPrompt: promptData.fullText,
       createdAt: timestamp,
       updatedAt: timestamp
@@ -157,12 +158,12 @@ export default function AdminPromptAssistant() {
   const handleLoadPrompt = (item) => {
     setTaskType(item.taskType || '사이트 디자인 수정');
     setCustomTaskType(item.customTaskType || '');
-    setTaskPurpose(item.taskPurpose || '');
-    setCurrentIssue(item.currentIssue || '');
+    setTaskPurpose(item.goal || item.taskPurpose || ''); // Load goal or fallback
+    setCurrentIssue(item.currentProblem || item.currentIssue || ''); // Load currentProblem or fallback
     setDesiredResult(item.desiredResult || '');
     setNonTouchParts(item.nonTouchParts || '');
     setStyleNote(item.styleNote || '');
-    setOutputTarget(item.outputTarget || 'antigravity');
+    setOutputTarget(item.targetType || item.outputTarget || 'antigravity'); // Load targetType or fallback
     setAdditionalMemo(item.additionalMemo || '');
     
     showToast('프롬프트를 불러왔습니다.');
@@ -415,7 +416,7 @@ export default function AdminPromptAssistant() {
                         {item.taskType === '기타 직접 입력' ? (item.customTaskType || '기타') : item.taskType}
                       </span>
                       <span className="badge badge-target">
-                        {getTargetLabel(item.outputTarget)}
+                        {getTargetLabel(item.targetType || item.outputTarget)}
                       </span>
                     </div>
                     
