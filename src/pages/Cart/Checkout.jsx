@@ -123,6 +123,7 @@ export default function Checkout() {
   // 주문 실행
   const handleOrderSubmit = async (e) => {
     e.preventDefault();
+    if (loading) return;
     setErrorMsg("");
 
     // 로그인 여부 검사
@@ -181,12 +182,9 @@ export default function Checkout() {
         paymentMethod
       });
 
-      // 장바구니 비우기 분기 처리
-      if (isDirectOrder) {
-        localStorage.removeItem("pendingDirectOrder");
-      } else {
-        clearCart();
-      }
+      // 장바구니 및 바로구매 임시 정보 완전 초기화
+      clearCart();
+      localStorage.removeItem("pendingDirectOrder");
 
       // 비동기 알림 발송 (주문 성공 플로우에 지장을 주지 않도록 격리)
       // 1. 관리자 알림 발송
@@ -211,8 +209,8 @@ export default function Checkout() {
         }
       }
 
-      // 주문 완료 화면으로 이동
-      navigate("/order-complete", { state: { order: orderData } });
+      // 주문 완료 화면으로 이동 (뒤로가기 방지를 위해 replace: true 추가)
+      navigate("/order-complete", { state: { order: orderData }, replace: true });
     } catch (err) {
       console.error("[Checkout Error]", err);
       setErrorMsg(err.message || "주문 처리 중 에러가 발생했습니다. 다시 시도해 주세요.");
@@ -405,7 +403,7 @@ export default function Checkout() {
                           className="summary-item-thumb"
                           src={item.thumbnail || item.image || "/images/no-image.svg"} 
                           alt={item.name || item.product_name}
-                          onError={(e) => { e.target.onerror = null; e.target.src = "/images/no-image.svg"; }}
+                          onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = "/images/placeholder-material.jpg"; }}
                         />
                       </div>
                       
@@ -415,9 +413,12 @@ export default function Checkout() {
                           {item.brand && <span className="summary-item-brand">{item.brand}</span>}
                           {item.category && <span className="summary-item-category">{item.category}</span>}
                         </div>
-                        <span className="summary-item-name">{item.name || item.product_name}</span>
+                        <span className="summary-item-name">
+                          {item.name || item.product_name}
+                          {item.selectedSize && ` / ${item.selectedSize}`}
+                        </span>
                         <div className="summary-item-details">
-                          <span>코드: {item.code || item.product_code || "-"}</span>
+                          {item.code && item.code !== "" && <span>코드: {item.code}</span>}
                           <span>규격: {itemSpec}</span>
                           <span>구성: {itemPacking}</span>
                           <span>단가: {hasPrice ? `${price.toLocaleString()}원` : "가격문의"}</span>

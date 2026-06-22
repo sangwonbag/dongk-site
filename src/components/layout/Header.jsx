@@ -62,13 +62,14 @@ export default function Header() {
   });
   const [isFocused, setIsFocused] = useState(false);
   const dropdownRef = useRef(null);
-  const { cartItems } = useEstimateCart();
+  const { cartItems, clearCart } = useEstimateCart();
   const estimateCount = cartItems.length;
 
   const { user: currentUser, logout: authLogout, openLoginModal } = useAuth();
 
   const handleLogout = () => {
     authLogout();
+    clearCart();
     nav('/');
   };
 

@@ -1,4 +1,5 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext, useState, useEffect, useRef } from 'react';
+import { useAuth } from './AuthContext';
 
 const EstimateCartContext = createContext();
 
@@ -8,8 +9,29 @@ export function useEstimateCart() {
 }
 
 export function EstimateCartProvider({ children }) {
+  const { user } = useAuth();
+
+  // Helper to determine active cart key based on user session
+  const getCartKey = (currentUser) => {
+    return currentUser ? `estimateCart_${currentUser.id}` : 'estimateCart_guest';
+  };
+
   const [cartItems, setCartItems] = useState(() => {
-    const saved = localStorage.getItem('estimateCart');
+    // Determine initial key on mount
+    const savedUserStr = localStorage.getItem('dk_auth_user');
+    let initialKey = 'estimateCart_guest';
+    if (savedUserStr) {
+      try {
+        const parsed = JSON.parse(savedUserStr);
+        if (parsed && parsed.id) {
+          initialKey = `estimateCart_${parsed.id}`;
+        }
+      } catch (e) {
+        console.error('Failed to parse user on initial cart load', e);
+      }
+    }
+
+    const saved = localStorage.getItem(initialKey);
     if (saved) {
       try {
         return JSON.parse(saved);
@@ -17,14 +39,83 @@ export function EstimateCartProvider({ children }) {
         console.error('Failed to parse estimate cart', e);
       }
     }
+
+    // Try fallback to legacy key if guest and guest key has no data
+    if (initialKey === 'estimateCart_guest') {
+      const legacy = localStorage.getItem('estimateCart');
+      if (legacy) {
+        try {
+          const parsedLegacy = JSON.parse(legacy);
+          localStorage.setItem('estimateCart_guest', legacy);
+          localStorage.removeItem('estimateCart');
+          return parsedLegacy;
+        } catch (e) {
+          // ignore
+        }
+      }
+    }
     return [];
   });
   const [toast, setToast] = useState({ visible: false, message: '' });
 
-  // Save to localStorage whenever cart changes
+  const prevUserRef = useRef(user);
+
+  // Sync state with storage when user session changes (Login / Logout)
   useEffect(() => {
-    localStorage.setItem('estimateCart', JSON.stringify(cartItems));
-  }, [cartItems]);
+    const prevUser = prevUserRef.current;
+    prevUserRef.current = user;
+
+    // Case 1: Guest -> Logged In
+    if (!prevUser && user) {
+      const guestKey = 'estimateCart_guest';
+      const userKey = `estimateCart_${user.id}`;
+
+      const guestCartStr = localStorage.getItem(guestKey);
+      const userCartStr = localStorage.getItem(userKey);
+
+      let guestCart = [];
+      let userCart = [];
+
+      try {
+        if (guestCartStr) guestCart = JSON.parse(guestCartStr);
+      } catch (e) { console.error('Failed to parse guest cart on login', e); }
+
+      try {
+        if (userCartStr) userCart = JSON.parse(userCartStr);
+      } catch (e) { console.error('Failed to parse user cart on login', e); }
+
+      if (guestCart.length > 0) {
+        // Merge guest items into user cart
+        const mergedCart = [...userCart];
+        guestCart.forEach(gItem => {
+          const existing = mergedCart.find(uItem => uItem.id === gItem.id);
+          if (existing) {
+            existing.quantity = (existing.quantity || 1) + (gItem.quantity || 1);
+          } else {
+            mergedCart.push(gItem);
+          }
+        });
+        setCartItems(mergedCart);
+        localStorage.setItem(userKey, JSON.stringify(mergedCart));
+        localStorage.removeItem(guestKey);
+      } else {
+        setCartItems(userCart);
+      }
+    }
+    // Case 2: Logged In -> Logged Out
+    else if (prevUser && !user) {
+      setCartItems([]);
+      localStorage.removeItem('estimateCart_guest');
+      localStorage.removeItem(`estimateCart_${prevUser.id}`);
+      localStorage.removeItem('estimateCart'); // clear legacy key too
+    }
+  }, [user]);
+
+  // Save to active storage key whenever cart items change
+  useEffect(() => {
+    const key = getCartKey(user);
+    localStorage.setItem(key, JSON.stringify(cartItems));
+  }, [cartItems, user]);
 
   const addToCart = (item) => {
     setCartItems(prev => {
@@ -59,6 +150,9 @@ export function EstimateCartProvider({ children }) {
 
   const clearCart = () => {
     setCartItems([]);
+    const key = getCartKey(user);
+    localStorage.removeItem(key);
+    localStorage.removeItem('estimateCart');
   };
 
   const hideToast = () => {
@@ -79,3 +173,4 @@ export function EstimateCartProvider({ children }) {
     </EstimateCartContext.Provider>
   );
 }
+
