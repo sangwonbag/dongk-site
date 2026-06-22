@@ -60,6 +60,58 @@ export function EstimateCartProvider({ children }) {
 
   const prevUserRef = useRef(user);
 
+  // Helper getters/setters for pending direct orders to completely encapsulate local storage
+  const getPendingDirectOrder = () => {
+    try {
+      const item = localStorage.getItem('pendingDirectOrder');
+      return item ? JSON.parse(item) : null;
+    } catch (e) {
+      console.error('Failed to parse pending direct order', e);
+      return null;
+    }
+  };
+
+  const setPendingDirectOrder = (item) => {
+    localStorage.setItem('pendingDirectOrder', JSON.stringify(item));
+  };
+
+  const removePendingDirectOrder = () => {
+    localStorage.removeItem('pendingDirectOrder');
+    sessionStorage.removeItem('pendingDirectOrder');
+    localStorage.removeItem('directOrder');
+    sessionStorage.removeItem('directOrder');
+  };
+
+  // Legacy local storage keys cleanup
+  useEffect(() => {
+    const keysToRemove = ['estimateCart', 'cart', 'cartItems', 'dk-cart', 'dongk-cart'];
+    keysToRemove.forEach(k => localStorage.removeItem(k));
+
+    // Validate estimateCart_guest structure
+    const guestCart = localStorage.getItem('estimateCart_guest');
+    if (guestCart) {
+      try {
+        const parsed = JSON.parse(guestCart);
+        if (!Array.isArray(parsed)) {
+          localStorage.removeItem('estimateCart_guest');
+        }
+      } catch (e) {
+        localStorage.removeItem('estimateCart_guest');
+      }
+    }
+
+    // Clean up inactive user cart keys
+    const currentUserId = user ? user.id : null;
+    Object.keys(localStorage).forEach(key => {
+      if (key.startsWith('estimateCart_') && key !== 'estimateCart_guest') {
+        const userIdFromKey = key.replace('estimateCart_', '');
+        if (userIdFromKey !== currentUserId) {
+          localStorage.removeItem(key);
+        }
+      }
+    });
+  }, [user]);
+
   // Sync state with storage when user session changes (Login / Logout)
   useEffect(() => {
     const prevUser = prevUserRef.current;
@@ -107,7 +159,8 @@ export function EstimateCartProvider({ children }) {
       setCartItems([]);
       localStorage.removeItem('estimateCart_guest');
       localStorage.removeItem(`estimateCart_${prevUser.id}`);
-      localStorage.removeItem('estimateCart'); // clear legacy key too
+      localStorage.removeItem('estimateCart');
+      removePendingDirectOrder();
     }
   }, [user]);
 
@@ -116,6 +169,39 @@ export function EstimateCartProvider({ children }) {
     const key = getCartKey(user);
     localStorage.setItem(key, JSON.stringify(cartItems));
   }, [cartItems, user]);
+
+  // Storage event listener to sync state across same/different tabs
+  useEffect(() => {
+    const handleStorageChange = (e) => {
+      const activeKey = getCartKey(user);
+      if (e.key === activeKey) {
+        if (e.newValue) {
+          try {
+            setCartItems(JSON.parse(e.newValue));
+          } catch (err) {
+            console.error('Failed to parse storage synced cart', err);
+          }
+        } else {
+          setCartItems([]);
+        }
+      }
+      if (e.key === 'dk_auth_user' && !e.newValue) {
+        setCartItems([]);
+      }
+    };
+
+    window.addEventListener('storage', handleStorageChange);
+    return () => window.removeEventListener('storage', handleStorageChange);
+  }, [user]);
+
+  // Add custom event listener for cart:cleared event to sync state immediately
+  useEffect(() => {
+    const handleCartCleared = () => {
+      setCartItems([]);
+    };
+    window.addEventListener('cart:cleared', handleCartCleared);
+    return () => window.removeEventListener('cart:cleared', handleCartCleared);
+  }, []);
 
   const addToCart = (item) => {
     setCartItems(prev => {
@@ -148,24 +234,51 @@ export function EstimateCartProvider({ children }) {
     setCartItems(prev => prev.map(i => i.id === id ? { ...i, quantity } : i));
   };
 
-  const clearCart = () => {
+  const clearCart = async (options = {}) => {
     setCartItems([]);
-    const key = getCartKey(user);
-    localStorage.removeItem(key);
-    localStorage.removeItem('estimateCart');
+    if (options.clearAll) {
+      const currentUserId = user ? user.id : null;
+      localStorage.removeItem('estimateCart_guest');
+      localStorage.removeItem('estimateCart');
+      localStorage.removeItem('cart');
+      localStorage.removeItem('cartItems');
+      localStorage.removeItem('dk-cart');
+      localStorage.removeItem('dongk-cart');
+      if (currentUserId) {
+        localStorage.removeItem(`estimateCart_${currentUserId}`);
+      }
+      Object.keys(localStorage).forEach(key => {
+        if (key.startsWith('estimateCart_')) {
+          localStorage.removeItem(key);
+        }
+      });
+      removePendingDirectOrder();
+      window.dispatchEvent(new Event('cart:cleared'));
+    } else {
+      const key = getCartKey(user);
+      localStorage.removeItem(key);
+      localStorage.removeItem('estimateCart');
+    }
   };
 
   const hideToast = () => {
     setToast(prev => ({ ...prev, visible: false }));
   };
 
+  // Provide unified cartCount (length of distinct items in cart)
+  const cartCount = cartItems.length;
+
   return (
     <EstimateCartContext.Provider value={{
       cartItems,
+      cartCount,
       addToCart,
       removeFromCart,
       updateQuantity,
       clearCart,
+      getPendingDirectOrder,
+      setPendingDirectOrder,
+      removePendingDirectOrder,
       toast,
       hideToast
     }}>
@@ -173,4 +286,3 @@ export function EstimateCartProvider({ children }) {
     </EstimateCartContext.Provider>
   );
 }
-

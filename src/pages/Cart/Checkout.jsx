@@ -10,7 +10,12 @@ import "./Checkout.css";
 export default function Checkout() {
   const navigate = useNavigate();
   const location = useLocation();
-  const { cartItems: globalCartItems, clearCart } = useEstimateCart();
+  const { 
+    cartItems: globalCartItems, 
+    clearCart, 
+    getPendingDirectOrder, 
+    removePendingDirectOrder 
+  } = useEstimateCart();
   const { user, openLoginModal } = useAuth();
 
   // 바로구매용 임시 품목 상태 결정
@@ -32,6 +37,7 @@ export default function Checkout() {
   const [paymentMethod, setPaymentMethod] = useState("무통장입금"); // 무통장입금 | 전화확인
   const [loading, setLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState("");
+  const [isOrderSuccess, setIsOrderSuccess] = useState(false);
 
   // Helper to parse price string/number cleanly
   const parsePrice = (priceVal) => {
@@ -45,7 +51,8 @@ export default function Checkout() {
 
   // 페이지 진입 시 사용자 및 장바구니 정보 확인
   useEffect(() => {
-    const pendingDirect = localStorage.getItem("pendingDirectOrder");
+    if (loading || isOrderSuccess) return;
+    const pendingDirect = getPendingDirectOrder();
     let targetItems = [];
     let isDirect = false;
 
@@ -53,12 +60,8 @@ export default function Checkout() {
       targetItems = [location.state.directOrderItem];
       isDirect = true;
     } else if (pendingDirect) {
-      try {
-        targetItems = [JSON.parse(pendingDirect)];
-        isDirect = true;
-      } catch (e) {
-        console.error("Failed to parse pending direct order", e);
-      }
+      targetItems = [pendingDirect];
+      isDirect = true;
     } else {
       targetItems = globalCartItems;
       isDirect = false;
@@ -103,7 +106,7 @@ export default function Checkout() {
       delivery_date: "",
       memo: "",
     });
-  }, [globalCartItems, navigate, user, openLoginModal, location.state]);
+  }, [globalCartItems, navigate, user, openLoginModal, location.state, getPendingDirectOrder, isOrderSuccess, loading]);
 
   // 총액 자동 계산
   const calculateTotal = () => {
@@ -182,9 +185,11 @@ export default function Checkout() {
         paymentMethod
       });
 
+      setIsOrderSuccess(true);
+
       // 장바구니 및 바로구매 임시 정보 완전 초기화
-      clearCart();
-      localStorage.removeItem("pendingDirectOrder");
+      await clearCart({ clearAll: true });
+      removePendingDirectOrder();
 
       // 비동기 알림 발송 (주문 성공 플로우에 지장을 주지 않도록 격리)
       // 1. 관리자 알림 발송

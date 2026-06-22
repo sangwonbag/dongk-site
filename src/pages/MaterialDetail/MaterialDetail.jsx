@@ -25,6 +25,25 @@ import { getComputedBrand } from "../../utils/brandUtils";
 import { dongshinPolymer2026 } from "../../data/dongshinPolymer2026.js";
 import "./MaterialDetail.css";
 
+const normalizeText = (value = "") =>
+  String(value).replace(/\s+/g, "").toLowerCase().trim();
+
+const getMaterialMatchKey = (item) => {
+  if (!item) return "";
+  const brand = normalizeText(item.brand);
+  const category = normalizeText(item.category);
+  const line = normalizeText(item.line);
+  const name = normalizeText(item.name || item.productName);
+
+  // 제품코드가 있는 브랜드는 code 기준
+  if (item.code) {
+    return `${brand}_${category}_${normalizeText(item.code)}`;
+  }
+
+  // 이건마루처럼 code가 없는 제품은 line + name 기준
+  return `${brand}_${category}_${line}_${name}`;
+};
+
 // Helper function to infer brand from code prefix if missing
 const inferBrandFromCode = (code) => {
   if (!code) return null;
@@ -116,7 +135,7 @@ const getVirtualSpaceExamples = (product, galleryImages) => {
 export default function MaterialDetail() {
   const { id: rawId } = useParams();
   const navigate = useNavigate();
-  const { addToCart } = useEstimateCart();
+  const { addToCart, setPendingDirectOrder } = useEstimateCart();
   const { user: currentUser, openLoginModal } = useAuth();
 
   const id = decodeURIComponent(rawId || "");
@@ -130,6 +149,16 @@ export default function MaterialDetail() {
   const [qty, setQty] = useState(1);
   const [relatedItems, setRelatedItems] = useState([]);
   const [showCartModal, setShowCartModal] = useState(false);
+
+  const [selectedOption, setSelectedOption] = useState(null);
+
+  useEffect(() => {
+    if (item && item.sizeOptions && item.sizeOptions.length > 0) {
+      setSelectedOption(item.sizeOptions[0]);
+    } else {
+      setSelectedOption(null);
+    }
+  }, [item]);
 
   // Scroll to top on id change
   useEffect(() => {
@@ -244,7 +273,9 @@ export default function MaterialDetail() {
             line: dongshinMatch ? dongshinMatch.line : (localItem.line || ""),
             collection: dongshinMatch ? dongshinMatch.collection : (localItem.collection || null),
             series: dongshinMatch ? dongshinMatch.series : (localItem.series || null),
-            catalog: dongshinMatch ? dongshinMatch.catalog : (localItem.catalog || null)
+            catalog: dongshinMatch ? dongshinMatch.catalog : (localItem.catalog || null),
+            note: localItem.note || "",
+            sizeOptions: localItem.sizeOptions || undefined
           });
           setLoading(false);
           return;
@@ -299,6 +330,16 @@ export default function MaterialDetail() {
           ? materials.find(m => m.brand === 'LX' && m.category === '데코타일' && m.code && m.code.replace(/\s+/g, '').toLowerCase() === itemCode.replace(/\s+/g, '').toLowerCase())
           : null;
 
+        const dbItem = {
+          brand: inferredBrand,
+          category: inferredCategory,
+          line: p.description || "",
+          name: p.name || "",
+          code: p.product_code || null
+        };
+        const dbKey = getMaterialMatchKey(dbItem);
+        const localMatch = materials.find(m => getMaterialMatchKey(m) === dbKey);
+
         setItem({
           id: p.slug || String(p.id),
           code: itemCode,
@@ -317,11 +358,12 @@ export default function MaterialDetail() {
           description: p.description || "",
           features: p.features || [],
           recommendedSpaces: p.recommended_spaces || [],
-          line: dongshinMatch ? dongshinMatch.line : (lxMatch ? lxMatch.line : (p.description || "")),
-          collection: dongshinMatch ? dongshinMatch.collection : (lxMatch ? lxMatch.collection : null),
-          series: dongshinMatch ? dongshinMatch.series : (lxMatch ? lxMatch.series : null),
-          catalog: dongshinMatch ? dongshinMatch.catalog : (lxMatch ? lxMatch.catalog : null),
-          note: lxMatch ? lxMatch.note : ""
+          line: dongshinMatch ? dongshinMatch.line : (lxMatch ? lxMatch.line : (localMatch ? localMatch.line : (p.description || ""))),
+          collection: dongshinMatch ? dongshinMatch.collection : (lxMatch ? lxMatch.collection : (localMatch ? localMatch.collection : null)),
+          series: dongshinMatch ? dongshinMatch.series : (lxMatch ? lxMatch.series : (localMatch ? localMatch.series : null)),
+          catalog: dongshinMatch ? dongshinMatch.catalog : (lxMatch ? lxMatch.catalog : (localMatch ? localMatch.catalog : null)),
+          note: lxMatch ? lxMatch.note : (localMatch ? localMatch.note : ""),
+          sizeOptions: localMatch ? localMatch.sizeOptions : undefined
         });
       }
       setLoading(false);
@@ -472,15 +514,25 @@ export default function MaterialDetail() {
     }
     // 1. Add item to cart
     addToCart({
-      id: item.id,
+      id: selectedOption ? `${item.id}-${selectedOption.label}` : item.id,
+      product_id: item.id,
+      productId: item.id,
       code: item.code,
-      name: item.name,
+      name: displayName,
       brand: item.brand,
       category: item.category,
-      specs: item.specs,
+      line: item.line || "",
+      spec: selectedOption ? selectedOption.spec : (item.specs?.size || item.spec || "표준규격"),
+      specs: selectedOption ? {
+        thickness: selectedOption.thickness,
+        size: selectedOption.spec,
+        packing: selectedOption.package || ""
+      } : (item.specs || null),
+      packing: selectedOption ? (selectedOption.package || "") : (item.specs?.packing || "1박스 단위 판매"),
       price: item.price,
       thumbnail: getMaterialImagePath(item),
-      quantity: qty
+      quantity: qty,
+      selectedSize: selectedOption ? selectedOption.label : undefined
     });
 
     // 2. Navigate with state
@@ -488,20 +540,32 @@ export default function MaterialDetail() {
       state: {
         fromProduct: true,
         selectedProduct: {
-          id: item.id,
+          id: selectedOption ? `${item.id}-${selectedOption.label}` : item.id,
+          product_id: item.id,
+          productId: item.id,
           brand: item.brand,
-          name: item.name,
+          name: displayName,
           code: item.code,
           category: item.category,
-          specs: item.specs
+          line: item.line || "",
+          spec: selectedOption ? selectedOption.spec : (item.specs?.size || item.spec || "표준규격"),
+          specs: selectedOption ? {
+            thickness: selectedOption.thickness,
+            size: selectedOption.spec,
+            packing: selectedOption.package || ""
+          } : (item.specs || null),
+          selectedSize: selectedOption ? selectedOption.label : undefined
         }
       }
     });
   };
 
-  // Compute standard display name for LX / Dongshin products
+  // Compute standard display name for LX / Dongshin / Eagon products
   const displayName = (() => {
     if (!item) return "";
+    if (item.brand === '이건' && item.category === '마루') {
+      return item.productName || `${item.name}_${item.line}`;
+    }
     if (item.brand === '동신' && item.category === '데코타일' && ['아트타일', '아트하우스', '아트에코차음'].includes(item.line)) {
       return item.code;
     }
@@ -516,6 +580,9 @@ export default function MaterialDetail() {
     return item.name;
   })();
 
+  const currentSpec = selectedOption ? selectedOption.spec : (item.specs?.size || item.spec || "");
+  const currentPacking = selectedOption ? (selectedOption.package || "1박스 단위 판매") : (item.specs?.packing || "1박스 단위 판매");
+
   const handleAddToCart = () => {
     let itemPrice = item.price;
     if (typeof itemPrice === 'string') {
@@ -528,23 +595,30 @@ export default function MaterialDetail() {
 
     const imgPath = getMaterialImagePath(item);
     addToCart({
-      id: item.id,
+      id: selectedOption ? `${item.id}-${selectedOption.label}` : item.id,
       product_id: item.id,
+      productId: item.id,
       thumbnail: imgPath,
       image: imgPath,
       brand: getComputedBrand(item),
       category: item.category,
+      line: item.line || "",
       name: displayName,
       product_name: displayName,
       code: item.code,
       product_code: item.code,
-      spec: item.specs?.size || item.spec || "표준규격",
-      specs: item.specs,
-      packing: item.specs?.packing || "1박스 단위 판매",
+      spec: selectedOption ? selectedOption.spec : (item.specs?.size || item.spec || "표준규격"),
+      specs: selectedOption ? {
+        thickness: selectedOption.thickness,
+        size: selectedOption.spec,
+        packing: selectedOption.package || ""
+      } : (item.specs || null),
+      packing: selectedOption ? (selectedOption.package || "") : (item.specs?.packing || "1박스 단위 판매"),
       price: itemPrice,
       unit_price: itemPrice,
       quantity: qty,
-      amount: itemPrice * qty
+      amount: itemPrice * qty,
+      selectedSize: selectedOption ? selectedOption.label : undefined
     });
 
     setShowCartModal(true);
@@ -567,26 +641,33 @@ export default function MaterialDetail() {
 
     const imgPath = getMaterialImagePath(item);
     const directOrderItem = {
-      id: item.id,
+      id: selectedOption ? `${item.id}-${selectedOption.label}` : item.id,
       product_id: item.id,
+      productId: item.id,
       thumbnail: imgPath,
       image: imgPath,
       brand: getComputedBrand(item),
       category: item.category,
+      line: item.line || "",
       name: displayName,
       product_name: displayName,
       code: item.code,
       product_code: item.code,
-      spec: item.specs?.size || item.spec || "표준규격",
-      specs: item.specs,
-      packing: item.specs?.packing || "1박스 단위 판매",
+      spec: selectedOption ? selectedOption.spec : (item.specs?.size || item.spec || "표준규격"),
+      specs: selectedOption ? {
+        thickness: selectedOption.thickness,
+        size: selectedOption.spec,
+        packing: selectedOption.package || ""
+      } : (item.specs || null),
+      packing: selectedOption ? (selectedOption.package || "") : (item.specs?.packing || "1박스 단위 판매"),
       price: itemPrice,
       unit_price: itemPrice,
       quantity: qty,
-      amount: itemPrice * qty
+      amount: itemPrice * qty,
+      selectedSize: selectedOption ? selectedOption.label : undefined
     };
 
-    localStorage.setItem("pendingDirectOrder", JSON.stringify(directOrderItem));
+    setPendingDirectOrder(directOrderItem);
 
     if (!currentUser) {
       openLoginModal();
@@ -687,9 +768,11 @@ export default function MaterialDetail() {
               </div>
 
               <h1 className="showroom-product-title">{displayName}</h1>
-              <div className="showroom-product-code">
-                <span>상품코드:</span> <strong>{item.code}</strong>
-              </div>
+              {item.code && (
+                <div className="showroom-product-code">
+                  <span>상품코드:</span> <strong>{item.code}</strong>
+                </div>
+              )}
 
               {/* Price display (visible to admin or shows consulting guide) */}
               <div className="showroom-price-card">
@@ -726,11 +809,11 @@ export default function MaterialDetail() {
               <div className="quick-tech-specs">
                 <div className="tech-spec-item">
                   <span className="tech-label">규격</span>
-                  <span className="tech-value">{item.specs?.size || "상담 확인 필요"}</span>
+                  <span className="tech-value">{currentSpec || "상담 확인 필요"}</span>
                 </div>
                 <div className="tech-spec-item">
                   <span className="tech-label">박스 구성</span>
-                  <span className="tech-value">{item.specs?.packing || "1박스 단위 판매"}</span>
+                  <span className="tech-value">{currentPacking}</span>
                 </div>
                 <div className="tech-spec-item">
                   <span className="tech-label">시공 면적</span>
@@ -739,6 +822,36 @@ export default function MaterialDetail() {
                   </span>
                 </div>
               </div>
+
+              {/* Size Options Selector */}
+              {item.sizeOptions && item.sizeOptions.length >= 2 && (
+                <div className="detail-size-options" style={{ marginBottom: '20px' }}>
+                  <span className="qty-label" style={{ display: 'block', marginBottom: '8px', fontWeight: '600' }}>규격 선택</span>
+                  <div className="detail-option-chips" style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
+                    {item.sizeOptions.map(opt => (
+                      <button
+                        key={opt.label}
+                        type="button"
+                        className={`detail-option-chip ${selectedOption?.label === opt.label ? 'active' : ''}`}
+                        onClick={() => setSelectedOption(opt)}
+                        style={{
+                          padding: '8px 16px',
+                          fontSize: '12px',
+                          border: '1px solid #E6E2D8',
+                          background: selectedOption?.label === opt.label ? '#1F2421' : '#FAF8F2',
+                          color: selectedOption?.label === opt.label ? '#ffffff' : '#444',
+                          cursor: 'pointer',
+                          borderRadius: '4px',
+                          fontWeight: '500',
+                          transition: 'all 0.2s ease'
+                        }}
+                      >
+                        {opt.label}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {/* Quantity Counter & Action Buttons */}
               <div className="showroom-qty-selector">

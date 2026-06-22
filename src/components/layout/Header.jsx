@@ -62,15 +62,16 @@ export default function Header() {
   });
   const [isFocused, setIsFocused] = useState(false);
   const dropdownRef = useRef(null);
-  const { cartItems, clearCart } = useEstimateCart();
-  const estimateCount = cartItems.length;
+  const { cartItems, cartCount, clearCart } = useEstimateCart();
+  const estimateCount = cartCount;
 
   const { user: currentUser, logout: authLogout, openLoginModal } = useAuth();
 
-  const handleLogout = () => {
+  const handleLogout = async () => {
+    await clearCart({ clearAll: true });
     authLogout();
-    clearCart();
     nav('/');
+    window.location.reload();
   };
 
   // Scroll responsive styling states

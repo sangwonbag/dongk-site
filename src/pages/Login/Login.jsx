@@ -2,12 +2,14 @@ import React, { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { useAuth } from "../../contexts/AuthContext";
+import { useEstimateCart } from "../../contexts/EstimateCartContext";
 import "./Login.css";
 
 export default function Login() {
     const nav = useNavigate();
     const location = useLocation();
     const { login } = useAuth();
+    const { getPendingDirectOrder } = useEstimateCart();
     const [userId, setUserId] = useState("");
     const [password, setPassword] = useState("");
     const [errorMsg, setErrorMsg] = useState("");
@@ -27,7 +29,7 @@ export default function Login() {
             if (result.user.role === "admin" || result.user.role === "staff") {
                 nav("/admin");
             } else {
-                const pending = localStorage.getItem("pendingDirectOrder");
+                const pending = getPendingDirectOrder();
                 if (pending) {
                     nav("/checkout");
                 } else {
