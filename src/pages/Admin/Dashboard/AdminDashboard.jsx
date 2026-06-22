@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import MainLayout from '../../../components/layout/MainLayout';
 import { logout } from '../../../lib/auth';
-import { FileText, Package, Layers, MessageSquare, LogOut, Clipboard } from 'lucide-react';
+import { FileText, Package, Layers, MessageSquare, LogOut, Clipboard, Wand2 } from 'lucide-react';
 import './AdminDashboard.css';
 
 export default function AdminDashboard() {
@@ -56,6 +56,12 @@ export default function AdminDashboard() {
             <MessageSquare size={40} className="card-icon text-orange" />
             <div className="card-title">고객 문의 관리</div>
             <div className="card-desc">1:1 문의 및 상담 내역 확인</div>
+          </button>
+
+          <button className="dashboard-card" onClick={() => navigate('/admin/prompt-assistant')}>
+            <Wand2 size={40} className="card-icon" style={{ color: '#673ab7' }} />
+            <div className="card-title">작업 프롬프트 비서</div>
+            <div className="card-desc">디자인/오류 수정용 고품질 작업 지시서 작성 및 복사</div>
           </button>
         </div>
 

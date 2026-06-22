@@ -20,6 +20,7 @@ import AdminDashboard from "../pages/Admin/Dashboard/AdminDashboard";
 import AdminEstimates from "../pages/Admin/Estimates/AdminEstimates";
 import AdminEstimateDetail from "../pages/Admin/Estimates/AdminEstimateDetail";
 import AdminEstimateInquiries from "../pages/Admin/Estimates/AdminEstimateInquiries";
+import AdminPromptAssistant from "../pages/AdminPromptAssistant/AdminPromptAssistant";
 import AdminRoute from "../components/auth/AdminRoute";
 
 // New Order Flow Pages
@@ -100,6 +101,7 @@ export default function App() {
         <Route path="/admin/estimates" element={<AdminRoute><AdminEstimates /></AdminRoute>} />
         <Route path="/admin/estimates/:id" element={<AdminRoute><AdminEstimateDetail /></AdminRoute>} />
         <Route path="/admin/estimate-inquiries" element={<AdminRoute><AdminEstimateInquiries /></AdminRoute>} />
+        <Route path="/admin/prompt-assistant" element={<AdminRoute><AdminPromptAssistant /></AdminRoute>} />
         {/* Placeholder for products and materials */}
         <Route path="/admin/products" element={<AdminRoute><div style={{padding: '100px', textAlign: 'center'}}>상품 관리 준비 중</div></AdminRoute>} />
         <Route path="/admin/materials" element={<AdminRoute><div style={{padding: '100px', textAlign: 'center'}}>자재 관리 준비 중</div></AdminRoute>} />
