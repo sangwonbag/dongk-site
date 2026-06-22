@@ -15,10 +15,8 @@ public/images/upload_target/
 
 # Environment variables
 .env
-.env.local
-.env.development
-.env.test
-.env.production
+.env.*
+!.env.example
 
 # Scratch folders
 scratch/

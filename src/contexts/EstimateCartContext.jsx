@@ -1,7 +1,6 @@
 import React, { createContext, useContext, useState, useEffect, useRef } from 'react';
 import { useAuth } from './AuthContext';
 
-// Vercel Auto-Deployment Auto-Verification Check - 2026-06-22
 const EstimateCartContext = createContext();
 
 // eslint-disable-next-line react-refresh/only-export-components
