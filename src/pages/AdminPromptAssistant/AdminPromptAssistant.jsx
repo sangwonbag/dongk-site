@@ -1,14 +1,14 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import MainLayout from '../../components/layout/MainLayout';
-import { ArrowLeft, Copy, FileText, CheckSquare } from 'lucide-react';
+import { ArrowLeft, Copy, FileText, CheckSquare, Save, Trash2, RefreshCw } from 'lucide-react';
 import { generatePrompt, TASK_PLACEHOLDERS } from './promptAssistantUtils';
 import './AdminPromptAssistant.css';
 
 export default function AdminPromptAssistant() {
   const navigate = useNavigate();
 
-  // State definitions
+  // Input states
   const [taskType, setTaskType] = useState('사이트 디자인 수정');
   const [customTaskType, setCustomTaskType] = useState('');
   const [taskPurpose, setTaskPurpose] = useState('');
@@ -19,8 +19,28 @@ export default function AdminPromptAssistant() {
   const [outputTarget, setOutputTarget] = useState('antigravity');
   const [additionalMemo, setAdditionalMemo] = useState('');
   
+  // Prompt history state loaded from local storage
+  const [promptHistory, setPromptHistory] = useState(() => {
+    try {
+      const stored = localStorage.getItem('dongk_prompt_history');
+      return stored ? JSON.parse(stored) : [];
+    } catch (err) {
+      console.error('Failed to parse prompt history:', err);
+      return [];
+    }
+  });
+
   // Toast notification state
   const [toastMessage, setToastMessage] = useState(null);
+
+  // Sync prompt history with local storage
+  useEffect(() => {
+    try {
+      localStorage.setItem('dongk_prompt_history', JSON.stringify(promptHistory));
+    } catch (err) {
+      console.error('Failed to save prompt history:', err);
+    }
+  }, [promptHistory]);
 
   // Get current placeholders dynamically based on task type
   const currentPlaceholders = useMemo(() => {
@@ -94,6 +114,102 @@ export default function AdminPromptAssistant() {
       showToast('복사에 실패했습니다.');
     }
     document.body.removeChild(textarea);
+  };
+
+  // Save prompt history item
+  const handleSavePrompt = () => {
+    // Validation check: taskPurpose or currentIssue must have content
+    if (!taskPurpose.trim() && !currentIssue.trim()) {
+      showToast('작업 목적 또는 문제 내용을 입력해주세요.');
+      return;
+    }
+
+    const timestamp = new Date().toISOString();
+    
+    // Generate dynamic fallback title
+    const actualTaskType = taskType === '기타 직접 입력' ? (customTaskType || '기타 작업') : taskType;
+    const computedTitle = taskPurpose.trim() 
+      ? taskPurpose.trim() 
+      : `${actualTaskType} - ${new Date().toLocaleString('ko-KR')}`;
+
+    const newPromptItem = {
+      id: Date.now().toString(),
+      title: computedTitle,
+      taskType,
+      customTaskType,
+      taskPurpose,
+      currentIssue,
+      desiredResult,
+      nonTouchParts,
+      styleNote,
+      outputTarget,
+      additionalMemo,
+      generatedPrompt: promptData.fullText,
+      createdAt: timestamp,
+      updatedAt: timestamp
+    };
+
+    setPromptHistory(prev => [newPromptItem, ...prev]);
+    showToast('프롬프트가 저장되었습니다.');
+  };
+
+  // Load prompt history item into form states
+  const handleLoadPrompt = (item) => {
+    setTaskType(item.taskType || '사이트 디자인 수정');
+    setCustomTaskType(item.customTaskType || '');
+    setTaskPurpose(item.taskPurpose || '');
+    setCurrentIssue(item.currentIssue || '');
+    setDesiredResult(item.desiredResult || '');
+    setNonTouchParts(item.nonTouchParts || '');
+    setStyleNote(item.styleNote || '');
+    setOutputTarget(item.outputTarget || 'antigravity');
+    setAdditionalMemo(item.additionalMemo || '');
+    
+    showToast('프롬프트를 불러왔습니다.');
+  };
+
+  // Delete single prompt history item
+  const handleDeletePrompt = (id, event) => {
+    event.stopPropagation();
+    if (window.confirm('이 저장된 프롬프트를 삭제할까요?')) {
+      setPromptHistory(prev => prev.filter(item => item.id !== id));
+      showToast('저장된 프롬프트를 삭제했습니다.');
+    }
+  };
+
+  // Clear all prompt history items
+  const handleClearAllPrompts = () => {
+    if (window.confirm('저장된 프롬프트 이력을 모두 삭제할까요?')) {
+      setPromptHistory([]);
+      showToast('저장된 프롬프트를 삭제했습니다.');
+    }
+  };
+
+  // Format timestamp for displaying
+  const formatDateTime = (isoString) => {
+    try {
+      const d = new Date(isoString);
+      const year = d.getFullYear();
+      const month = String(d.getMonth() + 1).padStart(2, '0');
+      const day = String(d.getDate()).padStart(2, '0');
+      const hours = String(d.getHours()).padStart(2, '0');
+      const minutes = String(d.getMinutes()).padStart(2, '0');
+      return `${year}-${month}-${day} ${hours}:${minutes}`;
+    } catch (e) {
+      return '';
+    }
+  };
+
+  // Translate target codes to human readable labels
+  const getTargetLabel = (targetCode) => {
+    switch (targetCode) {
+      case 'antigravity': return 'Antigravity';
+      case 'codex': return 'Codex';
+      case 'developer': return '개발자';
+      case 'designer': return '디자이너';
+      case 'qa': return 'QA/검수';
+      default: return targetCode;
+    }
   };
 
   return (
@@ -228,7 +344,7 @@ export default function AdminPromptAssistant() {
           <div className="assistant-output-card">
             <h2>생성된 프롬프트 결과</h2>
 
-            {/* Quick Actions for copy operations */}
+            {/* Quick Actions for copy & save operations */}
             <div className="output-actions-grid">
               <button 
                 className="btn-copy-action"
@@ -237,6 +353,16 @@ export default function AdminPromptAssistant() {
                 <Copy size={16} />
                 전체 프롬프트 복사
               </button>
+              
+              <button 
+                className="btn-copy-action btn-save-action"
+                onClick={handleSavePrompt}
+                style={{ backgroundColor: '#4caf50', borderColor: '#4caf50' }}
+              >
+                <Save size={16} />
+                프롬프트 저장
+              </button>
+
               <button 
                 className="btn-copy-action btn-secondary-action"
                 onClick={() => handleCopyText(promptData.checklist, '검수 체크리스트')}
@@ -244,6 +370,7 @@ export default function AdminPromptAssistant() {
                 <CheckSquare size={16} />
                 체크리스트만 복사
               </button>
+              
               <button 
                 className="btn-copy-action btn-secondary-action"
                 onClick={() => handleCopyText(promptData.instructions, '개발 지시사항')}
@@ -260,6 +387,76 @@ export default function AdminPromptAssistant() {
               </pre>
             </div>
           </div>
+        </div>
+
+        {/* Bottom panel: Saved Prompts List */}
+        <div className="prompt-history-container" style={{ marginTop: '40px' }}>
+          <div className="history-header">
+            <h2>저장된 프롬프트 이력 ({promptHistory.length}개)</h2>
+            {promptHistory.length > 0 && (
+              <button className="btn-clear-all" onClick={handleClearAllPrompts}>
+                <Trash2 size={15} />
+                전체 이력 삭제
+              </button>
+            )}
+          </div>
+
+          {promptHistory.length === 0 ? (
+            <div className="history-empty">
+              저장된 프롬프트 이력이 없습니다. 상단 폼을 입력하고 '프롬프트 저장'을 눌러 이력을 남겨보세요.
+            </div>
+          ) : (
+            <div className="history-list-wrapper">
+              <div className="history-card-grid">
+                {promptHistory.map(item => (
+                  <div key={item.id} className="history-item-card">
+                    <div className="item-card-header">
+                      <span className="badge badge-task">
+                        {item.taskType === '기타 직접 입력' ? (item.customTaskType || '기타') : item.taskType}
+                      </span>
+                      <span className="badge badge-target">
+                        {getTargetLabel(item.outputTarget)}
+                      </span>
+                    </div>
+                    
+                    <h3 className="item-card-title" title={item.title}>
+                      {item.title}
+                    </h3>
+                    
+                    <div className="item-card-date">
+                      {formatDateTime(item.createdAt)}
+                    </div>
+                    
+                    <div className="item-card-actions">
+                      <button 
+                        className="btn-item-action btn-load" 
+                        onClick={() => handleLoadPrompt(item)}
+                      >
+                        <RefreshCw size={13} />
+                        불러오기
+                      </button>
+                      
+                      <button 
+                        className="btn-item-action btn-copy" 
+                        onClick={() => handleCopyText(item.generatedPrompt, '프롬프트')}
+                      >
+                        <Copy size={13} />
+                        복사
+                      </button>
+                      
+                      <button 
+                        className="btn-item-action btn-delete" 
+                        onClick={(e) => handleDeletePrompt(item.id, e)}
+                      >
+                        <Trash2 size={13} />
+                        삭제
+                      </button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </div>
 
