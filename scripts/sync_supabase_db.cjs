@@ -135,20 +135,24 @@ async function sync() {
     seenSlugs.add(slug);
 
     // Code collision resolution (to satisfy unique constraint on product_code)
-    let code = m.code || "";
-    let codeCounter = 1;
-    if (seenCodes.has(code)) {
-      const lineClean = (m.line || "").split('_').pop() || "";
-      if (lineClean) {
-        code = `${m.code} (${lineClean})`;
+    let code = m.code;
+    if (code !== null && code !== undefined && code !== "") {
+      let codeCounter = 1;
+      if (seenCodes.has(code)) {
+        const lineClean = (m.line || "").split('_').pop() || "";
+        if (lineClean) {
+          code = `${m.code} (${lineClean})`;
+        }
+        
+        while (seenCodes.has(code)) {
+          code = `${m.code} (${codeCounter})`;
+          codeCounter++;
+        }
       }
-      
-      while (seenCodes.has(code)) {
-        code = `${m.code} (${codeCounter})`;
-        codeCounter++;
-      }
+      seenCodes.add(code);
+    } else {
+      code = null;
     }
-    seenCodes.add(code);
 
     return {
       category_id: cat.id,

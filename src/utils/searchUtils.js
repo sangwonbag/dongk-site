@@ -117,6 +117,17 @@ export function expandSynonyms(tokens) {
 export function buildProductSearchText(product) {
   if (!product) return "";
   
+  const sizeOptionFields = [];
+  if (product.sizeOptions && Array.isArray(product.sizeOptions)) {
+    product.sizeOptions.forEach(opt => {
+      if (opt.label) sizeOptionFields.push(opt.label);
+      if (opt.spec) sizeOptionFields.push(opt.spec);
+      if (opt.thickness) sizeOptionFields.push(opt.thickness);
+      if (opt.width) sizeOptionFields.push(opt.width);
+      if (opt.length) sizeOptionFields.push(opt.length);
+    });
+  }
+  
   const fields = [
     product.code,
     product.name,
@@ -131,7 +142,8 @@ export function buildProductSearchText(product) {
     product.specs?.thickness || product.thickness,
     ...(product.tags || []),
     ...(product.keywords || []),
-    product.description
+    product.description,
+    ...sizeOptionFields
   ];
 
   return normalizeSearchText(fields.filter(Boolean).join(" "));
@@ -200,6 +212,19 @@ export function getSearchScore(product, rawQuery) {
     if (size === token || SYNONYMS[size] === token || size.includes(token)) score += 200;
     if (pattern === token || SYNONYMS[pattern] === token) score += 200;
     if (name === token || name.includes(token)) score += 150;
+
+    let sizeOptionMatch = false;
+    if (product.sizeOptions && Array.isArray(product.sizeOptions)) {
+      for (const opt of product.sizeOptions) {
+        const optLabel = normalizeSearchText(opt.label || "");
+        const optSpec = normalizeSearchText(opt.spec || "");
+        if (optLabel === token || optSpec === token || optSpec.includes(token)) {
+          sizeOptionMatch = true;
+          break;
+        }
+      }
+    }
+    if (sizeOptionMatch) score += 200;
   }
 
   return score;

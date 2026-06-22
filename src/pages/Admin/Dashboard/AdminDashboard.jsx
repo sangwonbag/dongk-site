@@ -34,6 +34,12 @@ export default function AdminDashboard() {
             <div className="card-desc">고객이 접수한 견적요청 확인 및 견적서 출력</div>
           </button>
 
+          <button className="dashboard-card" onClick={() => navigate('/admin/estimate-inquiries')}>
+            <FileText size={40} className="card-icon text-teal" style={{ color: '#008080' }} />
+            <div className="card-title">견적문의 관리</div>
+            <div className="card-desc">고객이 접수한 견적문의(상담) 목록 조회 및 상태 변경</div>
+          </button>
+
           <button className="dashboard-card" onClick={() => navigate('/admin/products')}>
             <Package size={40} className="card-icon text-green" />
             <div className="card-title">상품 관리</div>

@@ -153,7 +153,7 @@ export default function Cart() {
                             className="cart-item-img"
                             src={item.thumbnail || item.image || "/images/no-image.svg"} 
                             alt={item.name}
-                            onError={(e) => { e.target.onerror = null; e.target.src = "/images/no-image.svg"; }}
+                            onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = "/images/placeholder-material.jpg"; }}
                           />
                         </div>
 
@@ -163,9 +163,12 @@ export default function Cart() {
                             {item.brand && <span className="badge-brand">{item.brand}</span>}
                             {item.category && <span className="badge-category">{item.category}</span>}
                           </div>
-                          <h4 className="cart-item-name">{item.name}</h4>
+                          <h4 className="cart-item-name">
+                            {item.name}
+                            {item.selectedSize && ` / ${item.selectedSize}`}
+                          </h4>
                           <div className="cart-item-meta">
-                            {item.code && <span>코드: <strong>{item.code}</strong></span>}
+                            {item.code && item.code !== "" && <span>코드: <strong>{item.code}</strong></span>}
                             <span>규격: <strong>{itemSpec}</strong></span>
                             <span>구성: <strong>{itemPacking}</strong></span>
                           </div>

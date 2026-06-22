@@ -18,6 +18,32 @@ const CATEGORY_TABS = [
   { id: "러버타일", label: "러버타일" },
 ];
 
+const getNormalizedLine = (m, activeTab, activeBrand) => {
+  if (!m || !m.line) return "";
+  let line = m.line;
+  if (line.includes('_')) {
+    const parts = line.split('_').map(p => p.trim());
+    if (activeTab === "마루") {
+      line = parts[0];
+    } else if (activeTab === "벽지") {
+      let colName = parts[parts.length - 1];
+      colName = colName.replace(/^(LX|신한벽지)_/, '');
+      line = colName;
+    } else if (activeTab === "데코타일") {
+      if (activeBrand === "KCC") {
+        line = parts[1] || parts[0];
+      } else if (activeBrand === "LX") {
+        line = parts[1] || parts[0];
+      } else if (activeBrand === "현대") {
+        line = parts[0];
+      } else if (activeBrand === "녹수" || activeBrand === "동신" || activeBrand === "재영" || activeBrand === "유성") {
+        line = parts[0];
+      }
+    }
+  }
+  return line;
+};
+
 export default function Materials() {
   const [searchParams, setSearchParams] = useSearchParams();
 
@@ -148,28 +174,10 @@ export default function Materials() {
         (activeBrand === "LX하우시스" && (m.brand === "LX" || m.brand === "LX하우시스"));
       
       if (m.category === activeTab && matchesBrand && m.line) {
-        let line = m.line;
-        if (line.includes('_')) {
-          const parts = line.split('_').map(p => p.trim());
-          if (activeTab === "마루") {
-            line = parts[0];
-          } else if (activeTab === "벽지") {
-            let colName = parts[parts.length - 1];
-            colName = colName.replace(/^(LX|신한벽지)_/, '');
-            line = colName;
-          } else if (activeTab === "데코타일") {
-            if (activeBrand === "KCC") {
-              line = parts[1] || parts[0];
-            } else if (activeBrand === "LX") {
-              line = parts[1] || parts[0];
-            } else if (activeBrand === "현대") {
-              line = parts[0];
-            } else if (activeBrand === "녹수" || activeBrand === "동신" || activeBrand === "재영" || activeBrand === "유성") {
-              line = parts[0];
-            }
-          }
+        const line = getNormalizedLine(m, activeTab, activeBrand);
+        if (line) {
+          linesSet.add(line);
         }
-        linesSet.add(line);
       }
     });
     
@@ -223,7 +231,8 @@ export default function Materials() {
       // 라인 필터 (동적 라인 적용 - 실제 라인이 2개 이상일 때만 필터 작동)
       let lineOk = true;
       if (activeLine !== "all" && visibleLines.length > 2) {
-        lineOk = (m.line || "").includes(activeLine);
+        const line = getNormalizedLine(m, activeTab, activeBrand);
+        lineOk = (line === activeLine);
       }
 
       return tabOk && brandOk && materialOk && lineOk;

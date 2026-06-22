@@ -81,6 +81,10 @@ allFiles.forEach(fullPath => {
   const folderBrand = parts[1];
   const brand = getNormalizedBrand(folderBrand, category);
   
+  if (category === '마루' && brand === '이건') {
+    return;
+  }
+  
   let line = parts.slice(2, parts.length - 1).join('_') || "";
   let subLine = parts[parts.length - 2] || "";
   
@@ -268,6 +272,317 @@ groups.forEach((group, key) => {
 
   products.push(productObj);
 });
+
+// === Eagon Floor Static Data Insertion ===
+const EAGON_LINEUPS = [
+  {
+    line: "라르고 솔레 240 T4",
+    collection: "LARGO",
+    series: "원목마루",
+    spec: "T14(4) x W240 x L2,200mm",
+    note: "원목마루 / 4mm 원목 / 240mm 하이엔드 사이즈",
+    products: [
+      { name: "뉴 큐뮬러스", eng: "New Cumulus" },
+      { name: "뉴 샌드", eng: "New Sand" },
+      { name: "뉴 오크 에스", eng: "New Oak S" },
+      { name: "뉴 썬라이즈", eng: "New Sunrise" },
+      { name: "뉴 이클립스", eng: "New Eclipse" }
+    ]
+  },
+  {
+    line: "라르고 솔레 190 T3",
+    collection: "LARGO",
+    series: "원목마루",
+    spec: "T14(3) x W190 x L1,900mm",
+    note: "원목마루 / 3mm 원목 / 190mm 광폭",
+    products: [
+      { name: "미스트", eng: "Mist" },
+      { name: "샌드", eng: "Sand" },
+      { name: "썬라이즈", eng: "Sunrise" },
+      { name: "썬셋", eng: "Sunset" },
+      { name: "티크 에스", eng: "Teak S" },
+      { name: "오크 에스", eng: "Oak S" }
+    ]
+  },
+  {
+    line: "라르고 솔레 190 T1",
+    collection: "LARGO",
+    series: "원목마루",
+    spec: "T12(1.2) x W190 x L1,900mm",
+    note: "원목마루 / 1.2mm 원목 / 190mm 광폭",
+    products: [
+      { name: "뉴 큐뮬러스", eng: "New Cumulus" },
+      { name: "뉴 샌드", eng: "New Sand" },
+      { name: "뉴 오크 에스", eng: "New Oak S" },
+      { name: "뉴 썬라이즈", eng: "New Sunrise" },
+      { name: "뉴 이클립스", eng: "New Eclipse" }
+    ]
+  },
+  {
+    line: "포레스타 G",
+    collection: "FORESTA G",
+    series: "천연마루",
+    spec: "T11 x W190 x L1,900mm",
+    note: "천연마루 / 11T / 광폭",
+    products: [
+      { name: "뉴 캐시미어 화이트", eng: "New Cashmere White" },
+      { name: "뉴 허스크 베이지", eng: "New Husk Beige" },
+      { name: "뉴 매리골드", eng: "New Marigold" },
+      { name: "뉴 오닉스 블랙", eng: "New Onix Black" },
+      { name: "뉴 아몬드 옐로우", eng: "New Almond Yellow" }
+    ]
+  },
+  {
+    line: "포레스타",
+    collection: "FORESTA",
+    series: "천연마루",
+    spec: "T10.5 x W165 x L1,200mm",
+    note: "천연마루",
+    products: [
+      { name: "오크 라이트", eng: "Oak Light" },
+      { name: "오크 내추럴", eng: "Oak Natural" },
+      { name: "오크 베이지", eng: "Oak Beige" },
+      { name: "아몬드 브라운", eng: "Almond Brown" },
+      { name: "허니 옐로우", eng: "Honey Yellow" },
+      { name: "순수 베이지", eng: "Sunsu Beige" },
+      { name: "모카 그레이", eng: "Mocha Grey" }
+    ]
+  },
+  {
+    line: "그린",
+    collection: "GRIN",
+    series: "강마루",
+    note: "프리미엄 강마루 / 10.5T / 4개 규격",
+    specs: {
+      "230": "T10.5 x W230 x L2,430mm",
+      "190": "T10.5 x W190 x L1,615mm",
+      "165": "T10.5 x W165 x L1,200mm",
+      "125": "T10.5 x W125 x L800mm"
+    },
+    products: [
+      { name: "마일드 크림", eng: "Mild Cream", options: ["230", "190", "165", "125"] },
+      { name: "마일드 베이지", eng: "Mild Beige", options: ["190", "165", "125"] },
+      { name: "마일드 아이보리_카믈리", eng: "Mild Ivory_Calmly", options: ["165"] },
+      { name: "마일드 오크", eng: "Mild Oak", options: ["230", "190", "165", "125"] },
+      { name: "마일드 오크_데일리", eng: "Mild Oak_Daily", options: ["165"] },
+      { name: "마일드 오크_퓨얼리", eng: "Mild Oak_Purely", options: ["165"] },
+      { name: "마일드 골드", eng: "Mild Gold", options: ["190", "125"] },
+      { name: "마일드 티크", eng: "Mild Teak", options: ["230", "165"] },
+      { name: "마일드 화이트", eng: "Mild White", options: ["190", "125"] },
+      { name: "마일드 화이트_심플리", eng: "Mild White_Simply", options: ["165"] },
+      { name: "러스틱 미스트", eng: "Rustic Mist", options: ["230"] },
+      { name: "러스틱 그레이", eng: "Rustic Grey", options: ["230"] },
+      { name: "러스틱 오크", eng: "Rustic Oak", options: ["230"] },
+      { name: "러스틱 브라운", eng: "Rustic Brown", options: ["230", "165"] },
+      { name: "내추럴 샌드", eng: "Natural Sand", options: ["230", "190", "165", "125"] },
+      { name: "내추럴 오크", eng: "Natural Oak", options: ["230", "190", "165", "125"] },
+      { name: "내추럴 다크 쏘우", eng: "Natural Dark Saw", options: ["230", "165"] }
+    ]
+  },
+  {
+    line: "그린 스퀘어",
+    collection: "GRIN SQUARE",
+    series: "강마루",
+    note: "프리미엄 사각 강마루 / 10.5T",
+    specs: {
+      "597": "T10.5 x W597 x L597mm",
+      "395": "T10.5 x W395 x L800mm"
+    },
+    products: [
+      { name: "데저트 크림", eng: "Desert Cream", options: ["597", "395"] },
+      { name: "브리즈 그레이", eng: "Breeze Grey", options: ["597", "395"] },
+      { name: "글램 스톤", eng: "Glam Stone", options: ["597"] },
+      { name: "코랄 클라우드", eng: "Coral Cloud", options: ["597"] },
+      { name: "세레나 포그", eng: "Serena Fog", options: ["395"] },
+      { name: "밀키웨이 다크", eng: "Milkyway Dark", options: ["395"] }
+    ]
+  },
+  {
+    line: "세라 플렉스 S",
+    collection: "SERA Flex S",
+    series: "강마루",
+    note: "강마루 / 우드 & 스톤 디자인",
+    specs: {
+      "395": "T7.5 x W395 x L800mm",
+      "165": "T7.5 x W165 x L1,200mm"
+    },
+    products: [
+      { name: "브루니아 크림", eng: "Brunia Cream", options: ["395"] },
+      { name: "셀리나 샌드", eng: "Celina Sand", options: ["395"] },
+      { name: "윌로우 그레이", eng: "Willow Grey", options: ["395"] },
+      { name: "메테오 스톤", eng: "Meteor Stone", options: ["395"] },
+      { name: "무드 화이트", eng: "Mood White", options: ["165"] },
+      { name: "모먼트 크림", eng: "Moment Cream", options: ["165"] },
+      { name: "미스티 그레이", eng: "Misty Grey", options: ["165"] },
+      { name: "블러쉬 샌드", eng: "Blush Sand", options: ["165"] },
+      { name: "디어 베이지", eng: "Dear Beige", options: ["165"] },
+      { name: "멜로우 골드", eng: "Mellow Gold", options: ["165"] },
+      { name: "노블 티크", eng: "Noble Teak", options: ["165"] },
+      { name: "데일리 오크", eng: "Daily Oak", options: ["165"] },
+      { name: "카믈리 아이보리", eng: "Calmly Ivory", options: ["165"] },
+      { name: "허밍 오크", eng: "Humming Oak", options: ["165"] },
+      { name: "러블리 베이지", eng: "Lovely Beige", options: ["165"] },
+      { name: "퓨얼리 오크", eng: "Purely Oak", options: ["165"] },
+      { name: "심플리 화이트", eng: "Simply White", options: ["165"] },
+      { name: "젠틀리 티크", eng: "Gently Teak", options: ["165"] }
+    ]
+  },
+  {
+    line: "세라 블렌딩",
+    collection: "SERA Blending",
+    series: "강마루",
+    spec: "T7.5 x W115 x L800mm",
+    note: "회화적 표면 디자인 / 고강도 HPM",
+    products: [
+      { name: "비앙코", eng: "Bianco" },
+      { name: "오프 화이트", eng: "Off White" },
+      { name: "스톤 그레이", eng: "Stone Grey" },
+      { name: "그라노 오크", eng: "Grano Oak" },
+      { name: "크래프트 오크", eng: "Craft Oak" },
+      { name: "내추럴 오크", eng: "Natural Oak" },
+      { name: "로맨틱 오크", eng: "Romantic Oak" },
+      { name: "브리티시 티크", eng: "British Teak" }
+    ]
+  },
+  {
+    line: "세라",
+    collection: "SERA",
+    series: "강마루",
+    spec: "T7.5 x W95 x L800mm",
+    note: "강마루 / 18종 디자인 / 고강도 HPM",
+    products: [
+      { name: "코지 그레이", eng: "Cozy Grey" },
+      { name: "애쉬 그레이", eng: "Ash Grey" },
+      { name: "크리미 오크", eng: "Creamy Oak" },
+      { name: "골드 티크", eng: "Gold Teak" },
+      { name: "브리티시 월넛", eng: "British Walnut" },
+      { name: "티크", eng: "Teak" },
+      { name: "화이트 오크", eng: "White Oak" },
+      { name: "N 오크", eng: "N Oak" },
+      { name: "마일드 오크", eng: "Mild Oak" },
+      { name: "오가닉 오크", eng: "Organic Oak" },
+      { name: "오슬로 베이지", eng: "Oslo Beige" },
+      { name: "화이트 애쉬", eng: "White Ash" },
+      { name: "코튼 화이트", eng: "Cotton White" },
+      { name: "노르딕 화이트", eng: "Nordic White" },
+      { name: "리사 화이트", eng: "Lisa White" },
+      { name: "플로랄 화이트", eng: "Floral White" },
+      { name: "스타일리쉬 화이트", eng: "Stylish White" },
+      { name: "스노우 워시", eng: "Snow Wash" }
+    ]
+  },
+  {
+    line: "세라 베이직",
+    collection: "SERA Basic",
+    series: "강마루",
+    spec: "T6.2 x W115 x L800mm",
+    note: "강마루 / 3D 엠보싱 / 고강도 HPM",
+    products: [
+      { name: "베이직 슈가", eng: "Basic Sugar" },
+      { name: "베이직 밀크", eng: "Basic Milk" },
+      { name: "베이직 크림", eng: "Basic Cream" },
+      { name: "베이직 바닐라", eng: "Basic Vanilla" },
+      { name: "베이직 버터", eng: "Basic Butter" },
+      { name: "베이직 오크", eng: "Basic Oak" },
+      { name: "베이직 티크", eng: "Basic Teak" },
+      { name: "베이직 쿠키", eng: "Basic Cookie" }
+    ]
+  }
+];
+
+function buildEagonProducts() {
+  const eagonProducts = [];
+  EAGON_LINEUPS.forEach(lineup => {
+    lineup.products.forEach(p => {
+      // Create unique slug ID
+      const LINE_SLUGS = {
+        "라르고 솔레 240 T4": "largo-sole-240-t4",
+        "라르고 솔레 190 T3": "largo-sole-190-t3",
+        "라르고 솔레 190 T1": "largo-sole-190-t1",
+        "포레스타 G": "foresta-g",
+        "포레스타": "foresta",
+        "그린": "grin",
+        "그린 스퀘어": "grin-square",
+        "세라 플렉스 S": "sera-flex-s",
+        "세라 블렌딩": "sera-blending",
+        "세라": "sera",
+        "세라 베이직": "sera-basic"
+      };
+      const lineSlug = LINE_SLUGS[lineup.line] || lineup.line.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+      const nameSlug = p.eng.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+      const id = `eagon-${lineSlug}-${nameSlug}`;
+
+      // Build sizeOptions
+      let sizeOptions = undefined;
+      let defaultSpec = lineup.spec || "";
+      if (lineup.specs && p.options) {
+        sizeOptions = p.options.map(optKey => {
+          const specStr = lineup.specs[optKey];
+          // Parse thickness, width, length using regex
+          const tMatch = specStr.match(/T(\d+(?:\.\d+)?)/);
+          const wMatch = specStr.match(/W(\d+)/);
+          const lMatch = specStr.match(/L([\d,]+)/);
+          
+          return {
+            label: optKey,
+            spec: specStr,
+            thickness: tMatch ? tMatch[1] + "T" : "",
+            width: wMatch ? wMatch[1] + "mm" : "",
+            length: lMatch ? lMatch[1] + "mm" : "",
+            package: "",
+            price: null
+          };
+        });
+        defaultSpec = sizeOptions[0].spec; // representative spec is the first option
+      }
+
+      // Infer image path
+      const folderName = "이건" + lineup.line.replace(/\s+/g, "");
+      const imageName = p.name;
+      const expectedImagePath = `/images/Thumbnail_Image/materials/마루/이건/${folderName}/${imageName}.jpg`;
+
+      const tMatch = defaultSpec.match(/T(\d+(?:\.\d+)?)/);
+      const defaultThickness = tMatch ? tMatch[1] + "T" : "";
+
+      const productObj = {
+        id,
+        category: "마루",
+        brand: "이건",
+        line: lineup.line,
+        subLine: lineup.line,
+        name: p.name,
+        productName: `${p.name}_${lineup.line}`,
+        code: null,
+        collection: lineup.collection,
+        series: lineup.series,
+        thumbnail: expectedImagePath,
+        image: expectedImagePath,
+        images: [expectedImagePath],
+        price: null,
+        thickness: defaultThickness,
+        specs: {
+          division: lineup.line,
+          thickness: defaultThickness,
+          size: defaultSpec,
+          packing: ""
+        },
+        description: lineup.line,
+        note: lineup.note,
+        catalog: "EAGON FLOORING GUIDE ver.26"
+      };
+
+      if (sizeOptions) {
+        productObj.sizeOptions = sizeOptions;
+      }
+
+      eagonProducts.push(productObj);
+    });
+  });
+  return eagonProducts;
+}
+
+// push Eagon products
+products.push(...buildEagonProducts());
 
 // 5. Generate outputs
 const BRANDS_BY_CATEGORY = {

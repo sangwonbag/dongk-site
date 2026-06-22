@@ -1045,451 +1045,346 @@ export const materials = [
     "id": "데코타일-lx-lx하우스-hot-0065-라임-스톤-미스트",
     "category": "데코타일",
     "brand": "LX",
-    "line": "하우스",
-    "subLine": "하우스",
-    "name": "라임 스톤 미스트",
-    "code": "HOT 0065",
+    "line": "LX하우스",
+    "subLine": "LX하우스",
+    "name": "HOT 0065 라임 스톤 미스트",
+    "code": "HOT 0065 라임 스톤 미스트",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200065%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4%20%EB%AF%B8%EC%8A%A4%ED%8A%B8.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200065%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4%20%EB%AF%B8%EC%8A%A4%ED%8A%B8.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200065%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4%20%EB%AF%B8%EC%8A%A4%ED%8A%B8.jpg"
     ],
     "price": 24000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
-      "division": "하우스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
+      "division": "LX하우스",
+      "thickness": "",
+      "size": "457.2x457.2mm",
+      "packing": "16pcs / 3.34㎡"
     },
-    "description": "하우스",
-    "collection": "House",
-    "series": "Stone",
-    "productName": "LX 하우스 HOT 0065 라임 스톤 미스트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "catalog": "하우스 타일 베이직(하우스)",
-    "note": "표면 무광 효과"
+    "description": "LX하우스"
   },
   {
     "id": "데코타일-lx-lx하우스-hot-0066-라임-스톤-그레이",
     "category": "데코타일",
     "brand": "LX",
-    "line": "하우스",
-    "subLine": "하우스",
-    "name": "라임 스톤 그레이",
-    "code": "HOT 0066",
+    "line": "LX하우스",
+    "subLine": "LX하우스",
+    "name": "HOT 0066 라임 스톤 그레이",
+    "code": "HOT 0066 라임 스톤 그레이",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200066%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200066%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200066%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
     ],
     "price": 24000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
-      "division": "하우스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
+      "division": "LX하우스",
+      "thickness": "",
+      "size": "457.2x457.2mm",
+      "packing": "16pcs / 3.34㎡"
     },
-    "description": "하우스",
-    "collection": "House",
-    "series": "Stone",
-    "productName": "LX 하우스 HOT 0066 라임 스톤 그레이",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "catalog": "하우스 타일 베이직(하우스)",
-    "note": "표면 무광 효과"
+    "description": "LX하우스"
   },
   {
     "id": "데코타일-lx-lx하우스-hot-0067-라임-스톤-크림",
     "category": "데코타일",
     "brand": "LX",
-    "line": "하우스",
-    "subLine": "하우스",
-    "name": "라임 스톤 크림",
-    "code": "HOT 0067",
+    "line": "LX하우스",
+    "subLine": "LX하우스",
+    "name": "HOT 0067 라임 스톤 크림",
+    "code": "HOT 0067 라임 스톤 크림",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200067%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4%20%ED%81%AC%EB%A6%BC.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200067%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4%20%ED%81%AC%EB%A6%BC.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200067%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4%20%ED%81%AC%EB%A6%BC.jpg"
     ],
     "price": 24000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
-      "division": "하우스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
+      "division": "LX하우스",
+      "thickness": "",
+      "size": "457.2x457.2mm",
+      "packing": "16pcs / 3.34㎡"
     },
-    "description": "하우스",
-    "collection": "House",
-    "series": "Stone",
-    "productName": "LX 하우스 HOT 0067 라임 스톤 크림",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "catalog": "하우스 타일 베이직(하우스)",
-    "note": "표면 무광 효과"
+    "description": "LX하우스"
   },
   {
     "id": "데코타일-lx-lx하우스-hot-0068-라임-스톤-베이지",
     "category": "데코타일",
     "brand": "LX",
-    "line": "하우스",
-    "subLine": "하우스",
-    "name": "라임 스톤 베이지",
-    "code": "HOT 0068",
+    "line": "LX하우스",
+    "subLine": "LX하우스",
+    "name": "HOT 0068 라임 스톤 베이지",
+    "code": "HOT 0068 라임 스톤 베이지",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200068%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200068%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200068%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg"
     ],
     "price": 24000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
-      "division": "하우스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
+      "division": "LX하우스",
+      "thickness": "",
+      "size": "457.2x457.2mm",
+      "packing": "16pcs / 3.34㎡"
     },
-    "description": "하우스",
-    "collection": "House",
-    "series": "Stone",
-    "productName": "LX 하우스 HOT 0068 라임 스톤 베이지",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "catalog": "하우스 타일 베이직(하우스)",
-    "note": "표면 무광 효과"
+    "description": "LX하우스"
   },
   {
     "id": "데코타일-lx-lx하우스-hot-0069-오셔너스-스노우",
     "category": "데코타일",
     "brand": "LX",
-    "line": "하우스",
-    "subLine": "하우스",
-    "name": "오셔너스 스노우",
-    "code": "HOT 0069",
+    "line": "LX하우스",
+    "subLine": "LX하우스",
+    "name": "HOT 0069 오셔너스 스노우",
+    "code": "HOT 0069 오셔너스 스노우",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200069%20%EC%98%A4%EC%85%94%EB%84%88%EC%8A%A4%20%EC%8A%A4%EB%85%B8%EC%9A%B0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200069%20%EC%98%A4%EC%85%94%EB%84%88%EC%8A%A4%20%EC%8A%A4%EB%85%B8%EC%9A%B0.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200069%20%EC%98%A4%EC%85%94%EB%84%88%EC%8A%A4%20%EC%8A%A4%EB%85%B8%EC%9A%B0.jpg"
     ],
     "price": 24000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
-      "division": "하우스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
+      "division": "LX하우스",
+      "thickness": "",
+      "size": "457.2x457.2mm",
+      "packing": "16pcs / 3.34㎡"
     },
-    "description": "하우스",
-    "collection": "House",
-    "series": "Stone",
-    "productName": "LX 하우스 HOT 0069 오셔너스 스노우",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "catalog": "하우스 타일 베이직(하우스)",
-    "note": "표면 무광 효과"
+    "description": "LX하우스"
   },
   {
     "id": "데코타일-lx-lx하우스-hot-0070-오셔너스-쿨-그레이",
     "category": "데코타일",
     "brand": "LX",
-    "line": "하우스",
-    "subLine": "하우스",
-    "name": "오셔너스 쿨 그레이",
-    "code": "HOT 0070",
+    "line": "LX하우스",
+    "subLine": "LX하우스",
+    "name": "HOT 0070 오셔너스 쿨 그레이",
+    "code": "HOT 0070 오셔너스 쿨 그레이",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200070%20%EC%98%A4%EC%85%94%EB%84%88%EC%8A%A4%20%EC%BF%A8%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200070%20%EC%98%A4%EC%85%94%EB%84%88%EC%8A%A4%20%EC%BF%A8%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200070%20%EC%98%A4%EC%85%94%EB%84%88%EC%8A%A4%20%EC%BF%A8%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
     ],
     "price": 24000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
-      "division": "하우스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
+      "division": "LX하우스",
+      "thickness": "",
+      "size": "457.2x457.2mm",
+      "packing": "16pcs / 3.34㎡"
     },
-    "description": "하우스",
-    "collection": "House",
-    "series": "Stone",
-    "productName": "LX 하우스 HOT 0070 오셔너스 쿨 그레이",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "catalog": "하우스 타일 베이직(하우스)",
-    "note": "표면 무광 효과"
+    "description": "LX하우스"
   },
   {
     "id": "데코타일-lx-lx하우스-hot-0071-오셔너스-블랙",
     "category": "데코타일",
     "brand": "LX",
-    "line": "하우스",
-    "subLine": "하우스",
-    "name": "오셔너스 블랙",
-    "code": "HOT 0071",
+    "line": "LX하우스",
+    "subLine": "LX하우스",
+    "name": "HOT 0071 오셔너스 블랙",
+    "code": "HOT 0071 오셔너스 블랙",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200071%20%EC%98%A4%EC%85%94%EB%84%88%EC%8A%A4%20%EB%B8%94%EB%9E%99.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200071%20%EC%98%A4%EC%85%94%EB%84%88%EC%8A%A4%20%EB%B8%94%EB%9E%99.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200071%20%EC%98%A4%EC%85%94%EB%84%88%EC%8A%A4%20%EB%B8%94%EB%9E%99.jpg"
     ],
     "price": 24000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
-      "division": "하우스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
+      "division": "LX하우스",
+      "thickness": "",
+      "size": "457.2x457.2mm",
+      "packing": "16pcs / 3.34㎡"
     },
-    "description": "하우스",
-    "collection": "House",
-    "series": "Stone",
-    "productName": "LX 하우스 HOT 0071 오셔너스 블랙",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "catalog": "하우스 타일 베이직(하우스)",
-    "note": "표면 무광 효과"
+    "description": "LX하우스"
   },
   {
     "id": "데코타일-lx-lx하우스-hot-0072-퍼실-화이트",
     "category": "데코타일",
     "brand": "LX",
-    "line": "하우스",
-    "subLine": "하우스",
-    "name": "퍼실 화이트",
-    "code": "HOT 0072",
+    "line": "LX하우스",
+    "subLine": "LX하우스",
+    "name": "HOT 0072 퍼실 화이트",
+    "code": "HOT 0072 퍼실 화이트",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200072%20%ED%8D%BC%EC%8B%A4%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200072%20%ED%8D%BC%EC%8B%A4%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200072%20%ED%8D%BC%EC%8B%A4%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg"
     ],
     "price": 24000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
-      "division": "하우스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
+      "division": "LX하우스",
+      "thickness": "",
+      "size": "457.2x457.2mm",
+      "packing": "16pcs / 3.34㎡"
     },
-    "description": "하우스",
-    "collection": "House",
-    "series": "Stone",
-    "productName": "LX 하우스 HOT 0072 퍼실 화이트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "catalog": "하우스 타일 베이직(하우스)",
-    "note": "표면 무광 효과"
+    "description": "LX하우스"
   },
   {
     "id": "데코타일-lx-lx하우스-hot-0073-카사-베이직",
     "category": "데코타일",
     "brand": "LX",
-    "line": "하우스",
-    "subLine": "하우스",
-    "name": "카사 베이직",
-    "code": "HOT 0073",
+    "line": "LX하우스",
+    "subLine": "LX하우스",
+    "name": "HOT 0073 카사 베이직",
+    "code": "HOT 0073 카사 베이직",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200073%20%EC%B9%B4%EC%82%AC%20%EB%B2%A0%EC%9D%B4%EC%A7%81.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200073%20%EC%B9%B4%EC%82%AC%20%EB%B2%A0%EC%9D%B4%EC%A7%81.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200073%20%EC%B9%B4%EC%82%AC%20%EB%B2%A0%EC%9D%B4%EC%A7%81.jpg"
     ],
     "price": 24000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
-      "division": "하우스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
+      "division": "LX하우스",
+      "thickness": "",
+      "size": "457.2x457.2mm",
+      "packing": "16pcs / 3.34㎡"
     },
-    "description": "하우스",
-    "collection": "House",
-    "series": "Stone",
-    "productName": "LX 하우스 HOT 0073 카사 베이직",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "catalog": "하우스 타일 베이직(하우스)",
-    "note": "표면 무광 효과"
+    "description": "LX하우스"
   },
   {
     "id": "데코타일-lx-lx하우스-how-0032-오크-라이트",
     "category": "데코타일",
     "brand": "LX",
-    "line": "하우스",
-    "subLine": "하우스",
-    "name": "오크 라이트",
-    "code": "HOW 0032",
+    "line": "LX하우스",
+    "subLine": "LX하우스",
+    "name": "HOW 0032 오크 라이트",
+    "code": "HOW 0032 오크 라이트",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200032%20%EC%98%A4%ED%81%AC%20%EB%9D%BC%EC%9D%B4%ED%8A%B8.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200032%20%EC%98%A4%ED%81%AC%20%EB%9D%BC%EC%9D%B4%ED%8A%B8.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200032%20%EC%98%A4%ED%81%AC%20%EB%9D%BC%EC%9D%B4%ED%8A%B8.jpg"
     ],
     "price": 24000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
-      "division": "하우스",
-      "thickness": "3.0T",
-      "size": "150 x 920mm",
-      "packing": "24pcs / Box / 3.31㎡"
+      "division": "LX하우스",
+      "thickness": "",
+      "size": "457.2x457.2mm",
+      "packing": "16pcs / 3.34㎡"
     },
-    "description": "하우스",
-    "collection": "House",
-    "series": "Wood",
-    "productName": "LX 하우스 HOW 0032 오크 라이트",
-    "spec": "3.0T x 150 x 920mm",
-    "package": "24pcs / Box / 3.31㎡",
-    "catalog": "하우스 타일 베이직(하우스)",
-    "note": "표면 무광 효과"
+    "description": "LX하우스"
   },
   {
     "id": "데코타일-lx-lx하우스-how-0033-오크-내추럴",
     "category": "데코타일",
     "brand": "LX",
-    "line": "하우스",
-    "subLine": "하우스",
-    "name": "오크 내추럴",
-    "code": "HOW 0033",
+    "line": "LX하우스",
+    "subLine": "LX하우스",
+    "name": "HOW 0033 오크 내추럴",
+    "code": "HOW 0033 오크 내추럴",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200033%20%EC%98%A4%ED%81%AC%20%EB%82%B4%EC%B6%94%EB%9F%B4.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200033%20%EC%98%A4%ED%81%AC%20%EB%82%B4%EC%B6%94%EB%9F%B4.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200033%20%EC%98%A4%ED%81%AC%20%EB%82%B4%EC%B6%94%EB%9F%B4.jpg"
     ],
     "price": 24000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
-      "division": "하우스",
-      "thickness": "3.0T",
-      "size": "150 x 920mm",
-      "packing": "24pcs / Box / 3.31㎡"
+      "division": "LX하우스",
+      "thickness": "",
+      "size": "457.2x457.2mm",
+      "packing": "16pcs / 3.34㎡"
     },
-    "description": "하우스",
-    "collection": "House",
-    "series": "Wood",
-    "productName": "LX 하우스 HOW 0033 오크 내추럴",
-    "spec": "3.0T x 150 x 920mm",
-    "package": "24pcs / Box / 3.31㎡",
-    "catalog": "하우스 타일 베이직(하우스)",
-    "note": "표면 무광 효과"
+    "description": "LX하우스"
   },
   {
     "id": "데코타일-lx-lx하우스-how-0034-오크-스노우",
     "category": "데코타일",
     "brand": "LX",
-    "line": "하우스",
-    "subLine": "하우스",
-    "name": "오크 스노우",
-    "code": "HOW 0034",
+    "line": "LX하우스",
+    "subLine": "LX하우스",
+    "name": "HOW 0034 오크 스노우",
+    "code": "HOW 0034 오크 스노우",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200034%20%EC%98%A4%ED%81%AC%20%EC%8A%A4%EB%85%B8%EC%9A%B0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200034%20%EC%98%A4%ED%81%AC%20%EC%8A%A4%EB%85%B8%EC%9A%B0.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200034%20%EC%98%A4%ED%81%AC%20%EC%8A%A4%EB%85%B8%EC%9A%B0.jpg"
     ],
     "price": 24000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
-      "division": "하우스",
-      "thickness": "3.0T",
-      "size": "150 x 920mm",
-      "packing": "24pcs / Box / 3.31㎡"
+      "division": "LX하우스",
+      "thickness": "",
+      "size": "457.2x457.2mm",
+      "packing": "16pcs / 3.34㎡"
     },
-    "description": "하우스",
-    "collection": "House",
-    "series": "Wood",
-    "productName": "LX 하우스 HOW 0034 오크 스노우",
-    "spec": "3.0T x 150 x 920mm",
-    "package": "24pcs / Box / 3.31㎡",
-    "catalog": "하우스 타일 베이직(하우스)",
-    "note": "표면 무광 효과"
+    "description": "LX하우스"
   },
   {
     "id": "데코타일-lx-lx하우스-how-0035-오크-베이지",
     "category": "데코타일",
     "brand": "LX",
-    "line": "하우스",
-    "subLine": "하우스",
-    "name": "오크 베이지",
-    "code": "HOW 0035",
+    "line": "LX하우스",
+    "subLine": "LX하우스",
+    "name": "HOW 0035 오크 베이지",
+    "code": "HOW 0035 오크 베이지",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200035%20%EC%98%A4%ED%81%AC%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200035%20%EC%98%A4%ED%81%AC%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200035%20%EC%98%A4%ED%81%AC%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg"
     ],
     "price": 24000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
-      "division": "하우스",
-      "thickness": "3.0T",
-      "size": "150 x 920mm",
-      "packing": "24pcs / Box / 3.31㎡"
+      "division": "LX하우스",
+      "thickness": "",
+      "size": "457.2x457.2mm",
+      "packing": "16pcs / 3.34㎡"
     },
-    "description": "하우스",
-    "collection": "House",
-    "series": "Wood",
-    "productName": "LX 하우스 HOW 0035 오크 베이지",
-    "spec": "3.0T x 150 x 920mm",
-    "package": "24pcs / Box / 3.31㎡",
-    "catalog": "하우스 타일 베이직(하우스)",
-    "note": "표면 무광 효과"
+    "description": "LX하우스"
   },
   {
     "id": "데코타일-lx-lx하우스-how-0036-애쉬-라떼",
     "category": "데코타일",
     "brand": "LX",
-    "line": "하우스",
-    "subLine": "하우스",
-    "name": "애쉬 라떼",
-    "code": "HOW 0036",
+    "line": "LX하우스",
+    "subLine": "LX하우스",
+    "name": "HOW 0036 애쉬 라떼",
+    "code": "HOW 0036 애쉬 라떼",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200036%20%EC%95%A0%EC%89%AC%20%EB%9D%BC%EB%96%BC.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200036%20%EC%95%A0%EC%89%AC%20%EB%9D%BC%EB%96%BC.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200036%20%EC%95%A0%EC%89%AC%20%EB%9D%BC%EB%96%BC.jpg"
     ],
     "price": 24000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
-      "division": "하우스",
-      "thickness": "3.0T",
-      "size": "150 x 920mm",
-      "packing": "24pcs / Box / 3.31㎡"
+      "division": "LX하우스",
+      "thickness": "",
+      "size": "457.2x457.2mm",
+      "packing": "16pcs / 3.34㎡"
     },
-    "description": "하우스",
-    "collection": "House",
-    "series": "Wood",
-    "productName": "LX 하우스 HOW 0036 애쉬 라떼",
-    "spec": "3.0T x 150 x 920mm",
-    "package": "24pcs / Box / 3.31㎡",
-    "catalog": "하우스 타일 베이직(하우스)",
-    "note": "표면 무광 효과"
+    "description": "LX하우스"
   },
   {
     "id": "데코타일-lx-lx하우스-how-0037-애쉬-그레이",
     "category": "데코타일",
     "brand": "LX",
-    "line": "하우스",
-    "subLine": "하우스",
-    "name": "애쉬 그레이",
-    "code": "HOW 0037",
+    "line": "LX하우스",
+    "subLine": "LX하우스",
+    "name": "HOW 0037 애쉬 그레이",
+    "code": "HOW 0037 애쉬 그레이",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200037%20%EC%95%A0%EC%89%AC%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200037%20%EC%95%A0%EC%89%AC%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOW%200037%20%EC%95%A0%EC%89%AC%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
     ],
     "price": 24000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
-      "division": "하우스",
-      "thickness": "3.0T",
-      "size": "150 x 920mm",
-      "packing": "24pcs / Box / 3.31㎡"
+      "division": "LX하우스",
+      "thickness": "",
+      "size": "457.2x457.2mm",
+      "packing": "16pcs / 3.34㎡"
     },
-    "description": "하우스",
-    "collection": "House",
-    "series": "Wood",
-    "productName": "LX 하우스 HOW 0037 애쉬 그레이",
-    "spec": "3.0T x 150 x 920mm",
-    "package": "24pcs / Box / 3.31㎡",
-    "catalog": "하우스 타일 베이직(하우스)",
-    "note": "표면 무광 효과"
+    "description": "LX하우스"
   },
   {
     "id": "데코타일-lx-lx하우스_데코레이s-내지_데코_dlt-3300",
@@ -1840,8 +1735,8 @@ export const materials = [
     "id": "데코타일-lx-lx하우스스타일-zot-0761",
     "category": "데코타일",
     "brand": "LX",
-    "line": "하우스 스타일",
-    "subLine": "하우스 스타일",
+    "line": "LX하우스스타일",
+    "subLine": "LX하우스스타일",
     "name": "화이트 베실리우스",
     "code": "ZOT 0761",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200761.jpg",
@@ -1852,26 +1747,19 @@ export const materials = [
     "price": 44000,
     "thickness": "3.0T",
     "specs": {
-      "division": "하우스 스타일",
+      "division": "LX하우스스타일",
       "thickness": "3.0T",
       "size": "600 x 600mm",
       "packing": "9pcs / Box / 3.24㎡"
     },
-    "description": "하우스 스타일",
-    "collection": "House Style",
-    "series": "Stone",
-    "productName": "LX 하우스 스타일 ZOT 0761 화이트 베실리우스",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "catalog": "하우스 타일 스탠다드(하우스 스타일)",
-    "note": ""
+    "description": "하우스 스타일"
   },
   {
     "id": "데코타일-lx-lx하우스스타일-zot-0762",
     "category": "데코타일",
     "brand": "LX",
-    "line": "하우스 스타일",
-    "subLine": "하우스 스타일",
+    "line": "LX하우스스타일",
+    "subLine": "LX하우스스타일",
     "name": "크림 임페리얼",
     "code": "ZOT 0762",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200762.jpg",
@@ -1882,26 +1770,19 @@ export const materials = [
     "price": 44000,
     "thickness": "3.0T",
     "specs": {
-      "division": "하우스 스타일",
+      "division": "LX하우스스타일",
       "thickness": "3.0T",
       "size": "600 x 600mm",
       "packing": "9pcs / Box / 3.24㎡"
     },
-    "description": "하우스 스타일",
-    "collection": "House Style",
-    "series": "Stone",
-    "productName": "LX 하우스 스타일 ZOT 0762 크림 임페리얼",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "catalog": "하우스 타일 스탠다드(하우스 스타일)",
-    "note": ""
+    "description": "하우스 스타일"
   },
   {
     "id": "데코타일-lx-lx하우스스타일-zot-0767",
     "category": "데코타일",
     "brand": "LX",
-    "line": "하우스 스타일",
-    "subLine": "하우스 스타일",
+    "line": "LX하우스스타일",
+    "subLine": "LX하우스스타일",
     "name": "그레이 크리트",
     "code": "ZOT 0767",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200767.jpg",
@@ -1912,26 +1793,19 @@ export const materials = [
     "price": 44000,
     "thickness": "3.0T",
     "specs": {
-      "division": "하우스 스타일",
+      "division": "LX하우스스타일",
       "thickness": "3.0T",
       "size": "600 x 600mm",
       "packing": "9pcs / Box / 3.24㎡"
     },
-    "description": "하우스 스타일",
-    "collection": "House Style",
-    "series": "Stone",
-    "productName": "LX 하우스 스타일 ZOT 0767 그레이 크리트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "catalog": "하우스 타일 스탠다드(하우스 스타일)",
-    "note": ""
+    "description": "하우스 스타일"
   },
   {
     "id": "데코타일-lx-lx하우스스타일-zot-0768",
     "category": "데코타일",
     "brand": "LX",
-    "line": "하우스 스타일",
-    "subLine": "하우스 스타일",
+    "line": "LX하우스스타일",
+    "subLine": "LX하우스스타일",
     "name": "소프트 마블 화이트",
     "code": "ZOT 0768",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200768.jpg",
@@ -1942,26 +1816,19 @@ export const materials = [
     "price": 44000,
     "thickness": "3.0T",
     "specs": {
-      "division": "하우스 스타일",
+      "division": "LX하우스스타일",
       "thickness": "3.0T",
       "size": "600 x 600mm",
       "packing": "9pcs / Box / 3.24㎡"
     },
-    "description": "하우스 스타일",
-    "collection": "House Style",
-    "series": "Stone",
-    "productName": "LX 하우스 스타일 ZOT 0768 소프트 마블 화이트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "catalog": "하우스 타일 스탠다드(하우스 스타일)",
-    "note": ""
+    "description": "하우스 스타일"
   },
   {
     "id": "데코타일-lx-lx하우스스타일-zot-0769",
     "category": "데코타일",
     "brand": "LX",
-    "line": "하우스 스타일",
-    "subLine": "하우스 스타일",
+    "line": "LX하우스스타일",
+    "subLine": "LX하우스스타일",
     "name": "소프트 마블 그레이",
     "code": "ZOT 0769",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200769.jpg",
@@ -1972,26 +1839,19 @@ export const materials = [
     "price": 44000,
     "thickness": "3.0T",
     "specs": {
-      "division": "하우스 스타일",
+      "division": "LX하우스스타일",
       "thickness": "3.0T",
       "size": "600 x 600mm",
       "packing": "9pcs / Box / 3.24㎡"
     },
-    "description": "하우스 스타일",
-    "collection": "House Style",
-    "series": "Stone",
-    "productName": "LX 하우스 스타일 ZOT 0769 소프트 마블 그레이",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "catalog": "하우스 타일 스탠다드(하우스 스타일)",
-    "note": ""
+    "description": "하우스 스타일"
   },
   {
     "id": "데코타일-lx-lx하우스스타일-zot-0770",
     "category": "데코타일",
     "brand": "LX",
-    "line": "하우스 스타일",
-    "subLine": "하우스 스타일",
+    "line": "LX하우스스타일",
+    "subLine": "LX하우스스타일",
     "name": "클라우드 베이지",
     "code": "ZOT 0770",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200770.jpg",
@@ -2002,26 +1862,19 @@ export const materials = [
     "price": 44000,
     "thickness": "3.0T",
     "specs": {
-      "division": "하우스 스타일",
+      "division": "LX하우스스타일",
       "thickness": "3.0T",
       "size": "600 x 600mm",
       "packing": "9pcs / Box / 3.24㎡"
     },
-    "description": "하우스 스타일",
-    "collection": "House Style",
-    "series": "Stone",
-    "productName": "LX 하우스 스타일 ZOT 0770 클라우드 베이지",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "catalog": "하우스 타일 스탠다드(하우스 스타일)",
-    "note": ""
+    "description": "하우스 스타일"
   },
   {
     "id": "데코타일-lx-lx하우스스타일-zot-0771",
     "category": "데코타일",
     "brand": "LX",
-    "line": "하우스 스타일",
-    "subLine": "하우스 스타일",
+    "line": "LX하우스스타일",
+    "subLine": "LX하우스스타일",
     "name": "클라우드 밀크",
     "code": "ZOT 0771",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200771.jpg",
@@ -2032,26 +1885,19 @@ export const materials = [
     "price": 44000,
     "thickness": "3.0T",
     "specs": {
-      "division": "하우스 스타일",
+      "division": "LX하우스스타일",
       "thickness": "3.0T",
       "size": "600 x 600mm",
       "packing": "9pcs / Box / 3.24㎡"
     },
-    "description": "하우스 스타일",
-    "collection": "House Style",
-    "series": "Stone",
-    "productName": "LX 하우스 스타일 ZOT 0771 클라우드 밀크",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "catalog": "하우스 타일 스탠다드(하우스 스타일)",
-    "note": ""
+    "description": "하우스 스타일"
   },
   {
     "id": "데코타일-lx-lx하우스스타일-zow-0712",
     "category": "데코타일",
     "brand": "LX",
-    "line": "하우스 스타일",
-    "subLine": "하우스 스타일",
+    "line": "LX하우스스타일",
+    "subLine": "LX하우스스타일",
     "name": "크림 오크",
     "code": "ZOW 0712",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200712.jpg",
@@ -2062,26 +1908,19 @@ export const materials = [
     "price": 44000,
     "thickness": "3.0T",
     "specs": {
-      "division": "하우스 스타일",
+      "division": "LX하우스스타일",
       "thickness": "3.0T",
       "size": "150 x 1200mm",
       "packing": "18pcs / Box / 3.24㎡"
     },
-    "description": "하우스 스타일",
-    "collection": "House Style",
-    "series": "Wood",
-    "productName": "LX 하우스 스타일 ZOW 0712 크림 오크",
-    "spec": "3.0T x 150 x 1200mm",
-    "package": "18pcs / Box / 3.24㎡",
-    "catalog": "하우스 타일 스탠다드(하우스 스타일)",
-    "note": "EIR 동조엠보"
+    "description": "하우스 스타일"
   },
   {
     "id": "데코타일-lx-lx하우스스타일-zow-0717",
     "category": "데코타일",
     "brand": "LX",
-    "line": "하우스 스타일",
-    "subLine": "하우스 스타일",
+    "line": "LX하우스스타일",
+    "subLine": "LX하우스스타일",
     "name": "진저 애쉬",
     "code": "ZOW 0717",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200717.jpg",
@@ -2092,26 +1931,19 @@ export const materials = [
     "price": 44000,
     "thickness": "3.0T",
     "specs": {
-      "division": "하우스 스타일",
+      "division": "LX하우스스타일",
       "thickness": "3.0T",
       "size": "150 x 1200mm",
       "packing": "18pcs / Box / 3.24㎡"
     },
-    "description": "하우스 스타일",
-    "collection": "House Style",
-    "series": "Wood",
-    "productName": "LX 하우스 스타일 ZOW 0717 진저 애쉬",
-    "spec": "3.0T x 150 x 1200mm",
-    "package": "18pcs / Box / 3.24㎡",
-    "catalog": "하우스 타일 스탠다드(하우스 스타일)",
-    "note": "EIR 동조엠보"
+    "description": "하우스 스타일"
   },
   {
     "id": "데코타일-lx-lx하우스스타일-zow-0718",
     "category": "데코타일",
     "brand": "LX",
-    "line": "하우스 스타일",
-    "subLine": "하우스 스타일",
+    "line": "LX하우스스타일",
+    "subLine": "LX하우스스타일",
     "name": "카라멜 애쉬",
     "code": "ZOW 0718",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200718.jpg",
@@ -2122,26 +1954,19 @@ export const materials = [
     "price": 44000,
     "thickness": "3.0T",
     "specs": {
-      "division": "하우스 스타일",
+      "division": "LX하우스스타일",
       "thickness": "3.0T",
       "size": "150 x 1200mm",
       "packing": "18pcs / Box / 3.24㎡"
     },
-    "description": "하우스 스타일",
-    "collection": "House Style",
-    "series": "Wood",
-    "productName": "LX 하우스 스타일 ZOW 0718 카라멜 애쉬",
-    "spec": "3.0T x 150 x 1200mm",
-    "package": "18pcs / Box / 3.24㎡",
-    "catalog": "하우스 타일 스탠다드(하우스 스타일)",
-    "note": "EIR 동조엠보"
+    "description": "하우스 스타일"
   },
   {
     "id": "데코타일-lx-lx하우스스타일-zow-0719",
     "category": "데코타일",
     "brand": "LX",
-    "line": "하우스 스타일",
-    "subLine": "하우스 스타일",
+    "line": "LX하우스스타일",
+    "subLine": "LX하우스스타일",
     "name": "허니 월넛",
     "code": "ZOW 0719",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200719.jpg",
@@ -2152,26 +1977,19 @@ export const materials = [
     "price": 44000,
     "thickness": "3.0T",
     "specs": {
-      "division": "하우스 스타일",
+      "division": "LX하우스스타일",
       "thickness": "3.0T",
       "size": "150 x 1200mm",
       "packing": "18pcs / Box / 3.24㎡"
     },
-    "description": "하우스 스타일",
-    "collection": "House Style",
-    "series": "Wood",
-    "productName": "LX 하우스 스타일 ZOW 0719 허니 월넛",
-    "spec": "3.0T x 150 x 1200mm",
-    "package": "18pcs / Box / 3.24㎡",
-    "catalog": "하우스 타일 스탠다드(하우스 스타일)",
-    "note": "EIR 동조엠보"
+    "description": "하우스 스타일"
   },
   {
     "id": "데코타일-lx-lx하우스스타일-zow-0720",
     "category": "데코타일",
     "brand": "LX",
-    "line": "하우스 스타일",
-    "subLine": "하우스 스타일",
+    "line": "LX하우스스타일",
+    "subLine": "LX하우스스타일",
     "name": "브론즈 월넛",
     "code": "ZOW 0720",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200720.jpg",
@@ -2182,19 +2000,12 @@ export const materials = [
     "price": 44000,
     "thickness": "3.0T",
     "specs": {
-      "division": "하우스 스타일",
+      "division": "LX하우스스타일",
       "thickness": "3.0T",
       "size": "150 x 1200mm",
       "packing": "18pcs / Box / 3.24㎡"
     },
-    "description": "하우스 스타일",
-    "collection": "House Style",
-    "series": "Wood",
-    "productName": "LX 하우스 스타일 ZOW 0720 브론즈 월넛",
-    "spec": "3.0T x 150 x 1200mm",
-    "package": "18pcs / Box / 3.24㎡",
-    "catalog": "하우스 타일 스탠다드(하우스 스타일)",
-    "note": "EIR 동조엠보"
+    "description": "하우스 스타일"
   },
   {
     "id": "데코타일-lx-디럭스-dlx081",
@@ -2524,29 +2335,22 @@ export const materials = [
     "brand": "LX",
     "line": "보타닉",
     "subLine": "보타닉",
-    "name": "카펫",
-    "code": "DBT 3066",
+    "name": "DBT3066 카펫 그레이 450",
+    "code": "DBT3066 카펫 그레이 450",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3066%20%EC%B9%B4%ED%8E%AB%20%EA%B7%B8%EB%A0%88%EC%9D%B4%20450.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3066%20%EC%B9%B4%ED%8E%AB%20%EA%B7%B8%EB%A0%88%EC%9D%B4%20450.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3066%20%EC%B9%B4%ED%8E%AB%20%EA%B7%B8%EB%A0%88%EC%9D%B4%20450.jpg"
     ],
     "price": 24000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
       "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
+      "thickness": "",
+      "size": "457.2x457.2mm",
+      "packing": "16pcs / 3.34㎡"
     },
-    "description": "보타닉",
-    "collection": "BOTANIC",
-    "series": "450 Square",
-    "productName": "LX 보타닉 DBT 3066 카펫",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용"
+    "description": "보타닉"
   },
   {
     "id": "데코타일-lx-보타닉-dbt3067-스톤-그레이지-450",
@@ -2554,29 +2358,22 @@ export const materials = [
     "brand": "LX",
     "line": "보타닉",
     "subLine": "보타닉",
-    "name": "마블",
-    "code": "DBT 3067",
+    "name": "DBT3067 스톤 그레이지 450",
+    "code": "DBT3067 스톤 그레이지 450",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3067%20%EC%8A%A4%ED%86%A4%20%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%A7%80%20450.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3067%20%EC%8A%A4%ED%86%A4%20%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%A7%80%20450.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3067%20%EC%8A%A4%ED%86%A4%20%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%A7%80%20450.jpg"
     ],
     "price": 24000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
       "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
+      "thickness": "",
+      "size": "457.2x457.2mm",
+      "packing": "16pcs / 3.34㎡"
     },
-    "description": "보타닉",
-    "collection": "BOTANIC",
-    "series": "450 Square",
-    "productName": "LX 보타닉 DBT 3067 마블",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용"
+    "description": "보타닉"
   },
   {
     "id": "데코타일-lx-보타닉-dbt3069-스톤-실버-450",
@@ -2584,29 +2381,22 @@ export const materials = [
     "brand": "LX",
     "line": "보타닉",
     "subLine": "보타닉",
-    "name": "그라니트",
-    "code": "DBT 3069",
+    "name": "DBT3069 스톤 실버 450",
+    "code": "DBT3069 스톤 실버 450",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3069%20%EC%8A%A4%ED%86%A4%20%EC%8B%A4%EB%B2%84%20450.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3069%20%EC%8A%A4%ED%86%A4%20%EC%8B%A4%EB%B2%84%20450.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3069%20%EC%8A%A4%ED%86%A4%20%EC%8B%A4%EB%B2%84%20450.jpg"
     ],
     "price": 24000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
       "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
+      "thickness": "",
+      "size": "457.2x457.2mm",
+      "packing": "16pcs / 3.34㎡"
     },
-    "description": "보타닉",
-    "collection": "BOTANIC",
-    "series": "450 Square",
-    "productName": "LX 보타닉 DBT 3069 그라니트",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용"
+    "description": "보타닉"
   },
   {
     "id": "데코타일-lx-보타닉-dbt3074-라임스톤-라이트그레이-450",
@@ -2614,29 +2404,22 @@ export const materials = [
     "brand": "LX",
     "line": "보타닉",
     "subLine": "보타닉",
-    "name": "라임스톤",
-    "code": "DBT 3074",
+    "name": "DBT3074 라임스톤 라이트그레이 450",
+    "code": "DBT3074 라임스톤 라이트그레이 450",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3074%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20450.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3074%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20450.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3074%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20450.jpg"
     ],
     "price": 24000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
       "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
+      "thickness": "",
+      "size": "457.2x457.2mm",
+      "packing": "16pcs / 3.34㎡"
     },
-    "description": "보타닉",
-    "collection": "BOTANIC",
-    "series": "450 Square",
-    "productName": "LX 보타닉 DBT 3074 라임스톤",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용"
+    "description": "보타닉"
   },
   {
     "id": "데코타일-lx-보타닉-dbt3075-라임스톤-라이트그레이-450",
@@ -2644,29 +2427,22 @@ export const materials = [
     "brand": "LX",
     "line": "보타닉",
     "subLine": "보타닉",
-    "name": "라임스톤",
-    "code": "DBT 3075",
+    "name": "DBT3075 라임스톤 라이트그레이 450",
+    "code": "DBT3075 라임스톤 라이트그레이 450",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3075%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20450.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3075%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20450.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3075%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20450.jpg"
     ],
     "price": 24000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
       "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
+      "thickness": "",
+      "size": "457.2x457.2mm",
+      "packing": "16pcs / 3.34㎡"
     },
-    "description": "보타닉",
-    "collection": "BOTANIC",
-    "series": "450 Square",
-    "productName": "LX 보타닉 DBT 3075 라임스톤",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용"
+    "description": "보타닉"
   },
   {
     "id": "데코타일-lx-보타닉-dbt3082-콘크리트-라이트그레이-600",
@@ -2674,29 +2450,22 @@ export const materials = [
     "brand": "LX",
     "line": "보타닉",
     "subLine": "보타닉",
-    "name": "콘크리트",
-    "code": "DBT 3082",
+    "name": "DBT3082 콘크리트 라이트그레이 600",
+    "code": "DBT3082 콘크리트 라이트그레이 600",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3082%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20600.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3082%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20600.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3082%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20600.jpg"
     ],
     "price": 25000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
       "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
+      "thickness": "",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
     },
-    "description": "보타닉",
-    "collection": "BOTANIC",
-    "series": "600 Square",
-    "productName": "LX 보타닉 DBT 3082 콘크리트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용"
+    "description": "보타닉"
   },
   {
     "id": "데코타일-lx-보타닉-dbt3090-샌드스톤-라이트그레이-600",
@@ -2704,29 +2473,22 @@ export const materials = [
     "brand": "LX",
     "line": "보타닉",
     "subLine": "보타닉",
-    "name": "샌드스톤",
-    "code": "DBT 3090",
+    "name": "DBT3090 샌드스톤 라이트그레이 600",
+    "code": "DBT3090 샌드스톤 라이트그레이 600",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3090%20%EC%83%8C%EB%93%9C%EC%8A%A4%ED%86%A4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20600.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3090%20%EC%83%8C%EB%93%9C%EC%8A%A4%ED%86%A4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20600.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3090%20%EC%83%8C%EB%93%9C%EC%8A%A4%ED%86%A4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20600.jpg"
     ],
     "price": 25000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
       "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
+      "thickness": "",
+      "size": "600x600mm",
+      "packing": "9pcs / 3.24㎡"
     },
-    "description": "보타닉",
-    "collection": "BOTANIC",
-    "series": "600 Square",
-    "productName": "LX 보타닉 DBT 3090 샌드스톤",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용"
+    "description": "보타닉"
   },
   {
     "id": "데코타일-lx-보타닉-dbw3020-우드-브라운-180",
@@ -2734,29 +2496,22 @@ export const materials = [
     "brand": "LX",
     "line": "보타닉",
     "subLine": "보타닉",
-    "name": "엘레강스 오크",
-    "code": "DBW 3020",
+    "name": "DBW3020 우드 브라운 180",
+    "code": "DBW3020 우드 브라운 180",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3020%20%EC%9A%B0%EB%93%9C%20%EB%B8%8C%EB%9D%BC%EC%9A%B4%20180.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3020%20%EC%9A%B0%EB%93%9C%20%EB%B8%8C%EB%9D%BC%EC%9A%B4%20180.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3020%20%EC%9A%B0%EB%93%9C%20%EB%B8%8C%EB%9D%BC%EC%9A%B4%20180.jpg"
     ],
     "price": 24000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
       "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "180 x 920mm",
-      "packing": "20pcs / Box / 3.31㎡"
+      "thickness": "",
+      "size": "184x950mm",
+      "packing": "우드 규격 문의"
     },
-    "description": "보타닉",
-    "collection": "BOTANIC",
-    "series": "180 Wood",
-    "productName": "LX 보타닉 DBW 3020 엘레강스 오크",
-    "spec": "3.0T x 180 x 920mm",
-    "package": "20pcs / Box / 3.31㎡",
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용"
+    "description": "보타닉"
   },
   {
     "id": "데코타일-lx-보타닉-dbw3022-우드-브라운-180",
@@ -2764,29 +2519,22 @@ export const materials = [
     "brand": "LX",
     "line": "보타닉",
     "subLine": "보타닉",
-    "name": "엘레강스 오크",
-    "code": "DBW 3022",
+    "name": "DBW3022 우드 브라운 180",
+    "code": "DBW3022 우드 브라운 180",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3022%20%EC%9A%B0%EB%93%9C%20%EB%B8%8C%EB%9D%BC%EC%9A%B4%20180.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3022%20%EC%9A%B0%EB%93%9C%20%EB%B8%8C%EB%9D%BC%EC%9A%B4%20180.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3022%20%EC%9A%B0%EB%93%9C%20%EB%B8%8C%EB%9D%BC%EC%9A%B4%20180.jpg"
     ],
     "price": 24000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
       "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "180 x 920mm",
-      "packing": "20pcs / Box / 3.31㎡"
+      "thickness": "",
+      "size": "184x950mm",
+      "packing": "우드 규격 문의"
     },
-    "description": "보타닉",
-    "collection": "BOTANIC",
-    "series": "180 Wood",
-    "productName": "LX 보타닉 DBW 3022 엘레강스 오크",
-    "spec": "3.0T x 180 x 920mm",
-    "package": "20pcs / Box / 3.31㎡",
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용"
+    "description": "보타닉"
   },
   {
     "id": "데코타일-lx-보타닉-dbw3029-우드-라이트베이지-180",
@@ -2794,29 +2542,22 @@ export const materials = [
     "brand": "LX",
     "line": "보타닉",
     "subLine": "보타닉",
-    "name": "그린 오크",
-    "code": "DBW 3029",
+    "name": "DBW3029 우드 라이트베이지 180",
+    "code": "DBW3029 우드 라이트베이지 180",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3029%20%EC%9A%B0%EB%93%9C%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B2%A0%EC%9D%B4%EC%A7%80%20180.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3029%20%EC%9A%B0%EB%93%9C%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B2%A0%EC%9D%B4%EC%A7%80%20180.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3029%20%EC%9A%B0%EB%93%9C%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B2%A0%EC%9D%B4%EC%A7%80%20180.jpg"
     ],
     "price": 24000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
       "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "180 x 920mm",
-      "packing": "20pcs / Box / 3.31㎡"
+      "thickness": "",
+      "size": "184x950mm",
+      "packing": "우드 규격 문의"
     },
-    "description": "보타닉",
-    "collection": "BOTANIC",
-    "series": "180 Wood",
-    "productName": "LX 보타닉 DBW 3029 그린 오크",
-    "spec": "3.0T x 180 x 920mm",
-    "package": "20pcs / Box / 3.31㎡",
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용"
+    "description": "보타닉"
   },
   {
     "id": "데코타일-lx-보타닉-dbw3037-우드-라이트베이지-180",
@@ -2824,29 +2565,22 @@ export const materials = [
     "brand": "LX",
     "line": "보타닉",
     "subLine": "보타닉",
-    "name": "워시 오크",
-    "code": "DBW 3037",
+    "name": "DBW3037 우드 라이트베이지 180",
+    "code": "DBW3037 우드 라이트베이지 180",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3037%20%EC%9A%B0%EB%93%9C%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B2%A0%EC%9D%B4%EC%A7%80%20180.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3037%20%EC%9A%B0%EB%93%9C%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B2%A0%EC%9D%B4%EC%A7%80%20180.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3037%20%EC%9A%B0%EB%93%9C%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B2%A0%EC%9D%B4%EC%A7%80%20180.jpg"
     ],
     "price": 24000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
       "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "180 x 920mm",
-      "packing": "20pcs / Box / 3.31㎡"
+      "thickness": "",
+      "size": "184x950mm",
+      "packing": "우드 규격 문의"
     },
-    "description": "보타닉",
-    "collection": "BOTANIC",
-    "series": "180 Wood",
-    "productName": "LX 보타닉 DBW 3037 워시 오크",
-    "spec": "3.0T x 180 x 920mm",
-    "package": "20pcs / Box / 3.31㎡",
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용"
+    "description": "보타닉"
   },
   {
     "id": "데코타일-lx-보타닉-dbw3038-우드-베이지-180",
@@ -2854,29 +2588,22 @@ export const materials = [
     "brand": "LX",
     "line": "보타닉",
     "subLine": "보타닉",
-    "name": "워시 오크",
-    "code": "DBW 3038",
+    "name": "DBW3038 우드 베이지 180",
+    "code": "DBW3038 우드 베이지 180",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3038%20%EC%9A%B0%EB%93%9C%20%EB%B2%A0%EC%9D%B4%EC%A7%80%20180.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3038%20%EC%9A%B0%EB%93%9C%20%EB%B2%A0%EC%9D%B4%EC%A7%80%20180.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3038%20%EC%9A%B0%EB%93%9C%20%EB%B2%A0%EC%9D%B4%EC%A7%80%20180.jpg"
     ],
     "price": 24000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
       "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "180 x 920mm",
-      "packing": "20pcs / Box / 3.31㎡"
+      "thickness": "",
+      "size": "184x950mm",
+      "packing": "우드 규격 문의"
     },
-    "description": "보타닉",
-    "collection": "BOTANIC",
-    "series": "180 Wood",
-    "productName": "LX 보타닉 DBW 3038 워시 오크",
-    "spec": "3.0T x 180 x 920mm",
-    "package": "20pcs / Box / 3.31㎡",
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용"
+    "description": "보타닉"
   },
   {
     "id": "데코타일-lx-보타닉-dbw3042-우드-라이트브라운-180",
@@ -2884,29 +2611,22 @@ export const materials = [
     "brand": "LX",
     "line": "보타닉",
     "subLine": "보타닉",
-    "name": "유러피안 오크",
-    "code": "DBW 3042",
+    "name": "DBW3042 우드 라이트브라운 180",
+    "code": "DBW3042 우드 라이트브라운 180",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3042%20%EC%9A%B0%EB%93%9C%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B8%8C%EB%9D%BC%EC%9A%B4%20180.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3042%20%EC%9A%B0%EB%93%9C%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B8%8C%EB%9D%BC%EC%9A%B4%20180.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3042%20%EC%9A%B0%EB%93%9C%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B8%8C%EB%9D%BC%EC%9A%B4%20180.jpg"
     ],
     "price": 24000,
-    "thickness": "3.0T",
+    "thickness": "",
     "specs": {
       "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "180 x 920mm",
-      "packing": "20pcs / Box / 3.31㎡"
+      "thickness": "",
+      "size": "184x950mm",
+      "packing": "우드 규격 문의"
     },
-    "description": "보타닉",
-    "collection": "BOTANIC",
-    "series": "180 Wood",
-    "productName": "LX 보타닉 DBW 3042 유러피안 오크",
-    "spec": "3.0T x 180 x 920mm",
-    "package": "20pcs / Box / 3.31㎡",
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용"
+    "description": "보타닉"
   },
   {
     "id": "데코타일-녹수-세타그립_450각-sgt-4011",
@@ -25101,3364 +24821,6 @@ export const materials = [
       "packing": "1박스 (1.84 m²)"
     },
     "description": "강화마루_클릭_클릭-s"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-n-오크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라",
-    "subLine": "세라",
-    "name": "N 오크",
-    "code": "N 오크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/N%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/N%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/N%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-골드-티크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라",
-    "subLine": "세라",
-    "name": "골드 티크",
-    "code": "골드 티크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EA%B3%A8%EB%93%9C%20%ED%8B%B0%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EA%B3%A8%EB%93%9C%20%ED%8B%B0%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EA%B3%A8%EB%93%9C%20%ED%8B%B0%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-노르딕-화이트",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라",
-    "subLine": "세라",
-    "name": "노르딕 화이트",
-    "code": "노르딕 화이트",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EB%85%B8%EB%A5%B4%EB%94%95%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EB%85%B8%EB%A5%B4%EB%94%95%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EB%85%B8%EB%A5%B4%EB%94%95%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-리사-화이트",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라",
-    "subLine": "세라",
-    "name": "리사 화이트",
-    "code": "리사 화이트",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EB%A6%AC%EC%82%AC%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EB%A6%AC%EC%82%AC%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EB%A6%AC%EC%82%AC%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-마일드-오크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라",
-    "subLine": "세라",
-    "name": "마일드 오크",
-    "code": "마일드 오크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EB%A7%88%EC%9D%BC%EB%93%9C%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EB%A7%88%EC%9D%BC%EB%93%9C%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EB%A7%88%EC%9D%BC%EB%93%9C%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-브리티쉬-월넛",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라",
-    "subLine": "세라",
-    "name": "브리티쉬 월넛",
-    "code": "브리티쉬 월넛",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EB%B8%8C%EB%A6%AC%ED%8B%B0%EC%89%AC%20%EC%9B%94%EB%84%9B.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EB%B8%8C%EB%A6%AC%ED%8B%B0%EC%89%AC%20%EC%9B%94%EB%84%9B.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EB%B8%8C%EB%A6%AC%ED%8B%B0%EC%89%AC%20%EC%9B%94%EB%84%9B.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-블랑-화이트",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라",
-    "subLine": "세라",
-    "name": "블랑 화이트",
-    "code": "블랑 화이트",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EB%B8%94%EB%9E%91%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EB%B8%94%EB%9E%91%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EB%B8%94%EB%9E%91%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-빈티지-오크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라",
-    "subLine": "세라",
-    "name": "빈티지 오크",
-    "code": "빈티지 오크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EB%B9%88%ED%8B%B0%EC%A7%80%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EB%B9%88%ED%8B%B0%EC%A7%80%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EB%B9%88%ED%8B%B0%EC%A7%80%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-스노우-워시",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라",
-    "subLine": "세라",
-    "name": "스노우 워시",
-    "code": "스노우 워시",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%8A%A4%EB%85%B8%EC%9A%B0%20%EC%9B%8C%EC%8B%9C.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%8A%A4%EB%85%B8%EC%9A%B0%20%EC%9B%8C%EC%8B%9C.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%8A%A4%EB%85%B8%EC%9A%B0%20%EC%9B%8C%EC%8B%9C.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-스타일리쉬-화이트",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라",
-    "subLine": "세라",
-    "name": "스타일리쉬 화이트",
-    "code": "스타일리쉬 화이트",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%8A%A4%ED%83%80%EC%9D%BC%EB%A6%AC%EC%89%AC%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%8A%A4%ED%83%80%EC%9D%BC%EB%A6%AC%EC%89%AC%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%8A%A4%ED%83%80%EC%9D%BC%EB%A6%AC%EC%89%AC%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-시크-블랙",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라",
-    "subLine": "세라",
-    "name": "시크 블랙",
-    "code": "시크 블랙",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%8B%9C%ED%81%AC%20%EB%B8%94%EB%9E%99.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%8B%9C%ED%81%AC%20%EB%B8%94%EB%9E%99.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%8B%9C%ED%81%AC%20%EB%B8%94%EB%9E%99.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-애쉬-그레이",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라",
-    "subLine": "세라",
-    "name": "애쉬 그레이",
-    "code": "애쉬 그레이",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%95%A0%EC%89%AC%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%95%A0%EC%89%AC%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%95%A0%EC%89%AC%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-오가닉-오크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라",
-    "subLine": "세라",
-    "name": "오가닉 오크",
-    "code": "오가닉 오크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%98%A4%EA%B0%80%EB%8B%89%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%98%A4%EA%B0%80%EB%8B%89%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%98%A4%EA%B0%80%EB%8B%89%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-오슬로-베이지",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라",
-    "subLine": "세라",
-    "name": "오슬로 베이지",
-    "code": "오슬로 베이지",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%98%A4%EC%8A%AC%EB%A1%9C%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%98%A4%EC%8A%AC%EB%A1%9C%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%98%A4%EC%8A%AC%EB%A1%9C%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-월넛",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라",
-    "subLine": "세라",
-    "name": "월넛",
-    "code": "월넛",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%9B%94%EB%84%9B.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%9B%94%EB%84%9B.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%9B%94%EB%84%9B.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-유러피안-오크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라",
-    "subLine": "세라",
-    "name": "유러피안 오크",
-    "code": "유러피안 오크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%9C%A0%EB%9F%AC%ED%94%BC%EC%95%88%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%9C%A0%EB%9F%AC%ED%94%BC%EC%95%88%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%9C%A0%EB%9F%AC%ED%94%BC%EC%95%88%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-코지-그레이",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라",
-    "subLine": "세라",
-    "name": "코지 그레이",
-    "code": "코지 그레이",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%BD%94%EC%A7%80%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%BD%94%EC%A7%80%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%BD%94%EC%A7%80%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-코튼-화이트",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라",
-    "subLine": "세라",
-    "name": "코튼 화이트",
-    "code": "코튼 화이트",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%BD%94%ED%8A%BC%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%BD%94%ED%8A%BC%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%EC%BD%94%ED%8A%BC%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-크리미-오크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라",
-    "subLine": "세라",
-    "name": "크리미 오크",
-    "code": "크리미 오크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%ED%81%AC%EB%A6%AC%EB%AF%B8%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%ED%81%AC%EB%A6%AC%EB%AF%B8%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%ED%81%AC%EB%A6%AC%EB%AF%B8%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-클래식-티크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라",
-    "subLine": "세라",
-    "name": "클래식 티크",
-    "code": "클래식 티크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%ED%81%B4%EB%9E%98%EC%8B%9D%20%ED%8B%B0%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%ED%81%B4%EB%9E%98%EC%8B%9D%20%ED%8B%B0%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%ED%81%B4%EB%9E%98%EC%8B%9D%20%ED%8B%B0%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-티크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라",
-    "subLine": "세라",
-    "name": "티크",
-    "code": "티크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%ED%8B%B0%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%ED%8B%B0%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%ED%8B%B0%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-플로랄-화이트",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라",
-    "subLine": "세라",
-    "name": "플로랄 화이트",
-    "code": "플로랄 화이트",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%ED%94%8C%EB%A1%9C%EB%9E%84%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%ED%94%8C%EB%A1%9C%EB%9E%84%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%ED%94%8C%EB%A1%9C%EB%9E%84%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-화이트-애쉬",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라",
-    "subLine": "세라",
-    "name": "화이트 애쉬",
-    "code": "화이트 애쉬",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%ED%99%94%EC%9D%B4%ED%8A%B8%20%EC%95%A0%EC%89%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%ED%99%94%EC%9D%B4%ED%8A%B8%20%EC%95%A0%EC%89%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%ED%99%94%EC%9D%B4%ED%8A%B8%20%EC%95%A0%EC%89%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-화이트-오크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라",
-    "subLine": "세라",
-    "name": "화이트 오크",
-    "code": "화이트 오크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%ED%99%94%EC%9D%B4%ED%8A%B8%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%ED%99%94%EC%9D%B4%ED%8A%B8%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC/%ED%99%94%EC%9D%B4%ED%8A%B8%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-플렉스s_세라-플렉스-143-노블리-화이트",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
-    "subLine": "세라 플렉스 143",
-    "name": "노블리 화이트",
-    "code": "노블리 화이트",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EB%85%B8%EB%B8%94%EB%A6%AC%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EB%85%B8%EB%B8%94%EB%A6%AC%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EB%85%B8%EB%B8%94%EB%A6%AC%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라 플렉스 143",
-      "thickness": "7.5T",
-      "size": "143x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라 플렉스S_세라 플렉스 143"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-플렉스s_세라-플렉스-143-데일리-오크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
-    "subLine": "세라 플렉스 143",
-    "name": "데일리 오크",
-    "code": "데일리 오크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EB%8D%B0%EC%9D%BC%EB%A6%AC%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EB%8D%B0%EC%9D%BC%EB%A6%AC%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EB%8D%B0%EC%9D%BC%EB%A6%AC%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라 플렉스 143",
-      "thickness": "7.5T",
-      "size": "143x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라 플렉스S_세라 플렉스 143"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-플렉스s_세라-플렉스-143-러블리-베이지",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
-    "subLine": "세라 플렉스 143",
-    "name": "러블리 베이지",
-    "code": "러블리 베이지",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EB%9F%AC%EB%B8%94%EB%A6%AC%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EB%9F%AC%EB%B8%94%EB%A6%AC%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EB%9F%AC%EB%B8%94%EB%A6%AC%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라 플렉스 143",
-      "thickness": "7.5T",
-      "size": "143x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라 플렉스S_세라 플렉스 143"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-플렉스s_세라-플렉스-143-리얼리-오크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
-    "subLine": "세라 플렉스 143",
-    "name": "리얼리 오크",
-    "code": "리얼리 오크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EB%A6%AC%EC%96%BC%EB%A6%AC%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EB%A6%AC%EC%96%BC%EB%A6%AC%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EB%A6%AC%EC%96%BC%EB%A6%AC%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라 플렉스 143",
-      "thickness": "7.5T",
-      "size": "143x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라 플렉스S_세라 플렉스 143"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-플렉스s_세라-플렉스-143-밀리-그레이",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
-    "subLine": "세라 플렉스 143",
-    "name": "밀리 그레이",
-    "code": "밀리 그레이",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EB%B0%80%EB%A6%AC%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EB%B0%80%EB%A6%AC%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EB%B0%80%EB%A6%AC%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라 플렉스 143",
-      "thickness": "7.5T",
-      "size": "143x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라 플렉스S_세라 플렉스 143"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-플렉스s_세라-플렉스-143-심플리-화이트",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
-    "subLine": "세라 플렉스 143",
-    "name": "심플리 화이트",
-    "code": "심플리 화이트",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EC%8B%AC%ED%94%8C%EB%A6%AC%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EC%8B%AC%ED%94%8C%EB%A6%AC%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EC%8B%AC%ED%94%8C%EB%A6%AC%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라 플렉스 143",
-      "thickness": "7.5T",
-      "size": "143x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라 플렉스S_세라 플렉스 143"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-플렉스s_세라-플렉스-143-온리-블랙",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
-    "subLine": "세라 플렉스 143",
-    "name": "온리 블랙",
-    "code": "온리 블랙",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EC%98%A8%EB%A6%AC%20%EB%B8%94%EB%9E%99.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EC%98%A8%EB%A6%AC%20%EB%B8%94%EB%9E%99.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EC%98%A8%EB%A6%AC%20%EB%B8%94%EB%9E%99.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라 플렉스 143",
-      "thickness": "7.5T",
-      "size": "143x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라 플렉스S_세라 플렉스 143"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-플렉스s_세라-플렉스-143-위클리-브라운",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
-    "subLine": "세라 플렉스 143",
-    "name": "위클리 브라운",
-    "code": "위클리 브라운",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EC%9C%84%ED%81%B4%EB%A6%AC%20%EB%B8%8C%EB%9D%BC%EC%9A%B4.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EC%9C%84%ED%81%B4%EB%A6%AC%20%EB%B8%8C%EB%9D%BC%EC%9A%B4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EC%9C%84%ED%81%B4%EB%A6%AC%20%EB%B8%8C%EB%9D%BC%EC%9A%B4.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라 플렉스 143",
-      "thickness": "7.5T",
-      "size": "143x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라 플렉스S_세라 플렉스 143"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-플렉스s_세라-플렉스-143-젠틀리-티크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
-    "subLine": "세라 플렉스 143",
-    "name": "젠틀리 티크",
-    "code": "젠틀리 티크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EC%A0%A0%ED%8B%80%EB%A6%AC%20%ED%8B%B0%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EC%A0%A0%ED%8B%80%EB%A6%AC%20%ED%8B%B0%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EC%A0%A0%ED%8B%80%EB%A6%AC%20%ED%8B%B0%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라 플렉스 143",
-      "thickness": "7.5T",
-      "size": "143x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라 플렉스S_세라 플렉스 143"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-플렉스s_세라-플렉스-143-카믈리-아이보리",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
-    "subLine": "세라 플렉스 143",
-    "name": "카믈리 아이보리",
-    "code": "카믈리 아이보리",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EC%B9%B4%EB%AF%88%EB%A6%AC%20%EC%95%84%EC%9D%B4%EB%B3%B4%EB%A6%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EC%B9%B4%EB%AF%88%EB%A6%AC%20%EC%95%84%EC%9D%B4%EB%B3%B4%EB%A6%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%EC%B9%B4%EB%AF%88%EB%A6%AC%20%EC%95%84%EC%9D%B4%EB%B3%B4%EB%A6%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라 플렉스 143",
-      "thickness": "7.5T",
-      "size": "143x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라 플렉스S_세라 플렉스 143"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라-플렉스s_세라-플렉스-143-퓨얼리-오크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라 플렉스S_세라 플렉스 143",
-    "subLine": "세라 플렉스 143",
-    "name": "퓨얼리 오크",
-    "code": "퓨얼리 오크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%ED%93%A8%EC%96%BC%EB%A6%AC%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%ED%93%A8%EC%96%BC%EB%A6%AC%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4S/%EC%84%B8%EB%9D%BC%20%ED%94%8C%EB%A0%89%EC%8A%A4%20143/%ED%93%A8%EC%96%BC%EB%A6%AC%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라 플렉스 143",
-      "thickness": "7.5T",
-      "size": "143x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라 플렉스S_세라 플렉스 143"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라베이직-베이직-밀크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라베이직",
-    "subLine": "세라베이직",
-    "name": "베이직 밀크",
-    "code": "베이직 밀크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B2%A0%EC%9D%B4%EC%A7%81/%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EB%B0%80%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B2%A0%EC%9D%B4%EC%A7%81/%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EB%B0%80%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B2%A0%EC%9D%B4%EC%A7%81/%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EB%B0%80%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "6.2T",
-    "specs": {
-      "division": "세라베이직",
-      "thickness": "6.2T",
-      "size": "115x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라베이직"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라베이직-베이직-바닐라",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라베이직",
-    "subLine": "세라베이직",
-    "name": "베이직 바닐라",
-    "code": "베이직 바닐라",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B2%A0%EC%9D%B4%EC%A7%81/%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EB%B0%94%EB%8B%90%EB%9D%BC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B2%A0%EC%9D%B4%EC%A7%81/%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EB%B0%94%EB%8B%90%EB%9D%BC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B2%A0%EC%9D%B4%EC%A7%81/%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EB%B0%94%EB%8B%90%EB%9D%BC.jpg"
-    ],
-    "price": 0,
-    "thickness": "6.2T",
-    "specs": {
-      "division": "세라베이직",
-      "thickness": "6.2T",
-      "size": "115x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라베이직"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라베이직-베이직-버터",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라베이직",
-    "subLine": "세라베이직",
-    "name": "베이직 버터",
-    "code": "베이직 버터",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B2%A0%EC%9D%B4%EC%A7%81/%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EB%B2%84%ED%84%B0.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B2%A0%EC%9D%B4%EC%A7%81/%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EB%B2%84%ED%84%B0.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B2%A0%EC%9D%B4%EC%A7%81/%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EB%B2%84%ED%84%B0.jpg"
-    ],
-    "price": 0,
-    "thickness": "6.2T",
-    "specs": {
-      "division": "세라베이직",
-      "thickness": "6.2T",
-      "size": "115x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라베이직"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라베이직-베이직-슈가",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라베이직",
-    "subLine": "세라베이직",
-    "name": "베이직 슈가",
-    "code": "베이직 슈가",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B2%A0%EC%9D%B4%EC%A7%81/%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EC%8A%88%EA%B0%80.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B2%A0%EC%9D%B4%EC%A7%81/%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EC%8A%88%EA%B0%80.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B2%A0%EC%9D%B4%EC%A7%81/%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EC%8A%88%EA%B0%80.jpg"
-    ],
-    "price": 0,
-    "thickness": "6.2T",
-    "specs": {
-      "division": "세라베이직",
-      "thickness": "6.2T",
-      "size": "115x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라베이직"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라베이직-베이직-오크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라베이직",
-    "subLine": "세라베이직",
-    "name": "베이직 오크",
-    "code": "베이직 오크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B2%A0%EC%9D%B4%EC%A7%81/%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B2%A0%EC%9D%B4%EC%A7%81/%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B2%A0%EC%9D%B4%EC%A7%81/%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "6.2T",
-    "specs": {
-      "division": "세라베이직",
-      "thickness": "6.2T",
-      "size": "115x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라베이직"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라베이직-베이직-쿠키",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라베이직",
-    "subLine": "세라베이직",
-    "name": "베이직 쿠키",
-    "code": "베이직 쿠키",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B2%A0%EC%9D%B4%EC%A7%81/%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EC%BF%A0%ED%82%A4.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B2%A0%EC%9D%B4%EC%A7%81/%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EC%BF%A0%ED%82%A4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B2%A0%EC%9D%B4%EC%A7%81/%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EC%BF%A0%ED%82%A4.jpg"
-    ],
-    "price": 0,
-    "thickness": "6.2T",
-    "specs": {
-      "division": "세라베이직",
-      "thickness": "6.2T",
-      "size": "115x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라베이직"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라베이직-베이직-크림",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라베이직",
-    "subLine": "세라베이직",
-    "name": "베이직 크림",
-    "code": "베이직 크림",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B2%A0%EC%9D%B4%EC%A7%81/%EB%B2%A0%EC%9D%B4%EC%A7%81%20%ED%81%AC%EB%A6%BC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B2%A0%EC%9D%B4%EC%A7%81/%EB%B2%A0%EC%9D%B4%EC%A7%81%20%ED%81%AC%EB%A6%BC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B2%A0%EC%9D%B4%EC%A7%81/%EB%B2%A0%EC%9D%B4%EC%A7%81%20%ED%81%AC%EB%A6%BC.jpg"
-    ],
-    "price": 0,
-    "thickness": "6.2T",
-    "specs": {
-      "division": "세라베이직",
-      "thickness": "6.2T",
-      "size": "115x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라베이직"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라베이직-베이직-티크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라베이직",
-    "subLine": "세라베이직",
-    "name": "베이직 티크",
-    "code": "베이직 티크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B2%A0%EC%9D%B4%EC%A7%81/%EB%B2%A0%EC%9D%B4%EC%A7%81%20%ED%8B%B0%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B2%A0%EC%9D%B4%EC%A7%81/%EB%B2%A0%EC%9D%B4%EC%A7%81%20%ED%8B%B0%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B2%A0%EC%9D%B4%EC%A7%81/%EB%B2%A0%EC%9D%B4%EC%A7%81%20%ED%8B%B0%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "6.2T",
-    "specs": {
-      "division": "세라베이직",
-      "thickness": "6.2T",
-      "size": "115x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라베이직"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라블랜딩-그라노-오크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라블랜딩",
-    "subLine": "세라블랜딩",
-    "name": "그라노 오크",
-    "code": "그라노 오크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B8%94%EB%9E%9C%EB%94%A9/%EA%B7%B8%EB%9D%BC%EB%85%B8%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B8%94%EB%9E%9C%EB%94%A9/%EA%B7%B8%EB%9D%BC%EB%85%B8%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B8%94%EB%9E%9C%EB%94%A9/%EA%B7%B8%EB%9D%BC%EB%85%B8%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라블랜딩",
-      "thickness": "7.5T",
-      "size": "115x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라블랜딩"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라블랜딩-내추럴-오크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라블랜딩",
-    "subLine": "세라블랜딩",
-    "name": "내추럴 오크",
-    "code": "내추럴 오크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B8%94%EB%9E%9C%EB%94%A9/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B8%94%EB%9E%9C%EB%94%A9/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B8%94%EB%9E%9C%EB%94%A9/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라블랜딩",
-      "thickness": "7.5T",
-      "size": "115x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라블랜딩"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라블랜딩-로맨틱-오크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라블랜딩",
-    "subLine": "세라블랜딩",
-    "name": "로맨틱 오크",
-    "code": "로맨틱 오크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B8%94%EB%9E%9C%EB%94%A9/%EB%A1%9C%EB%A7%A8%ED%8B%B1%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B8%94%EB%9E%9C%EB%94%A9/%EB%A1%9C%EB%A7%A8%ED%8B%B1%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B8%94%EB%9E%9C%EB%94%A9/%EB%A1%9C%EB%A7%A8%ED%8B%B1%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라블랜딩",
-      "thickness": "7.5T",
-      "size": "115x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라블랜딩"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라블랜딩-브리티쉬-티크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라블랜딩",
-    "subLine": "세라블랜딩",
-    "name": "브리티쉬 티크",
-    "code": "브리티쉬 티크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B8%94%EB%9E%9C%EB%94%A9/%EB%B8%8C%EB%A6%AC%ED%8B%B0%EC%89%AC%20%ED%8B%B0%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B8%94%EB%9E%9C%EB%94%A9/%EB%B8%8C%EB%A6%AC%ED%8B%B0%EC%89%AC%20%ED%8B%B0%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B8%94%EB%9E%9C%EB%94%A9/%EB%B8%8C%EB%A6%AC%ED%8B%B0%EC%89%AC%20%ED%8B%B0%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라블랜딩",
-      "thickness": "7.5T",
-      "size": "115x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라블랜딩"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라블랜딩-비앙코",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라블랜딩",
-    "subLine": "세라블랜딩",
-    "name": "비앙코",
-    "code": "비앙코",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B8%94%EB%9E%9C%EB%94%A9/%EB%B9%84%EC%95%99%EC%BD%94.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B8%94%EB%9E%9C%EB%94%A9/%EB%B9%84%EC%95%99%EC%BD%94.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B8%94%EB%9E%9C%EB%94%A9/%EB%B9%84%EC%95%99%EC%BD%94.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라블랜딩",
-      "thickness": "7.5T",
-      "size": "115x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라블랜딩"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라블랜딩-스톤-그레이",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라블랜딩",
-    "subLine": "세라블랜딩",
-    "name": "스톤 그레이",
-    "code": "스톤 그레이",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B8%94%EB%9E%9C%EB%94%A9/%EC%8A%A4%ED%86%A4%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B8%94%EB%9E%9C%EB%94%A9/%EC%8A%A4%ED%86%A4%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B8%94%EB%9E%9C%EB%94%A9/%EC%8A%A4%ED%86%A4%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라블랜딩",
-      "thickness": "7.5T",
-      "size": "115x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라블랜딩"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라블랜딩-오프-화이트",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라블랜딩",
-    "subLine": "세라블랜딩",
-    "name": "오프 화이트",
-    "code": "오프 화이트",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B8%94%EB%9E%9C%EB%94%A9/%EC%98%A4%ED%94%84%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B8%94%EB%9E%9C%EB%94%A9/%EC%98%A4%ED%94%84%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B8%94%EB%9E%9C%EB%94%A9/%EC%98%A4%ED%94%84%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라블랜딩",
-      "thickness": "7.5T",
-      "size": "115x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라블랜딩"
-  },
-  {
-    "id": "마루-이건-강마루_세라_세라블랜딩-크래프트-오크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "강마루_세라_세라블랜딩",
-    "subLine": "세라블랜딩",
-    "name": "크래프트 오크",
-    "code": "크래프트 오크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B8%94%EB%9E%9C%EB%94%A9/%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B8%94%EB%9E%9C%EB%94%A9/%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EA%B0%95%EB%A7%88%EB%A3%A8/%EC%84%B8%EB%9D%BC/%EC%84%B8%EB%9D%BC%EB%B8%94%EB%9E%9C%EB%94%A9/%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "세라블랜딩",
-      "thickness": "7.5T",
-      "size": "115x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라블랜딩"
-  },
-  {
-    "id": "마루-이건-원목마루_라르고-솔레-150-t4-미스트",
-    "category": "마루",
-    "brand": "이건",
-    "line": "원목마루_라르고 솔레 150 T4",
-    "subLine": "라르고 솔레 150 T4",
-    "name": "미스트",
-    "code": "미스트",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20150%20T4/%EB%AF%B8%EC%8A%A4%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20150%20T4/%EB%AF%B8%EC%8A%A4%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20150%20T4/%EB%AF%B8%EC%8A%A4%ED%8A%B8.jpg"
-    ],
-    "price": 0,
-    "thickness": "11.5T(1.2)",
-    "specs": {
-      "division": "라르고 솔레 150 T4",
-      "thickness": "11.5T(1.2)",
-      "size": "150x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "원목마루_라르고 솔레 150 T4"
-  },
-  {
-    "id": "마루-이건-원목마루_라르고-솔레-150-t4-샌드",
-    "category": "마루",
-    "brand": "이건",
-    "line": "원목마루_라르고 솔레 150 T4",
-    "subLine": "라르고 솔레 150 T4",
-    "name": "샌드",
-    "code": "샌드",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20150%20T4/%EC%83%8C%EB%93%9C.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20150%20T4/%EC%83%8C%EB%93%9C.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20150%20T4/%EC%83%8C%EB%93%9C.jpg"
-    ],
-    "price": 0,
-    "thickness": "11.5T(1.2)",
-    "specs": {
-      "division": "라르고 솔레 150 T4",
-      "thickness": "11.5T(1.2)",
-      "size": "150x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "원목마루_라르고 솔레 150 T4"
-  },
-  {
-    "id": "마루-이건-원목마루_라르고-솔레-150-t4-썬라이즈",
-    "category": "마루",
-    "brand": "이건",
-    "line": "원목마루_라르고 솔레 150 T4",
-    "subLine": "라르고 솔레 150 T4",
-    "name": "썬라이즈",
-    "code": "썬라이즈",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20150%20T4/%EC%8D%AC%EB%9D%BC%EC%9D%B4%EC%A6%88.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20150%20T4/%EC%8D%AC%EB%9D%BC%EC%9D%B4%EC%A6%88.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20150%20T4/%EC%8D%AC%EB%9D%BC%EC%9D%B4%EC%A6%88.jpg"
-    ],
-    "price": 0,
-    "thickness": "11.5T(1.2)",
-    "specs": {
-      "division": "라르고 솔레 150 T4",
-      "thickness": "11.5T(1.2)",
-      "size": "150x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "원목마루_라르고 솔레 150 T4"
-  },
-  {
-    "id": "마루-이건-원목마루_라르고-솔레-150-t4-썬셋",
-    "category": "마루",
-    "brand": "이건",
-    "line": "원목마루_라르고 솔레 150 T4",
-    "subLine": "라르고 솔레 150 T4",
-    "name": "썬셋",
-    "code": "썬셋",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20150%20T4/%EC%8D%AC%EC%85%8B.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20150%20T4/%EC%8D%AC%EC%85%8B.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20150%20T4/%EC%8D%AC%EC%85%8B.jpg"
-    ],
-    "price": 0,
-    "thickness": "11.5T(1.2)",
-    "specs": {
-      "division": "라르고 솔레 150 T4",
-      "thickness": "11.5T(1.2)",
-      "size": "150x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "원목마루_라르고 솔레 150 T4"
-  },
-  {
-    "id": "마루-이건-원목마루_라르고-솔레-150-t4-오크-에스",
-    "category": "마루",
-    "brand": "이건",
-    "line": "원목마루_라르고 솔레 150 T4",
-    "subLine": "라르고 솔레 150 T4",
-    "name": "오크 에스",
-    "code": "오크 에스",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20150%20T4/%EC%98%A4%ED%81%AC%20%EC%97%90%EC%8A%A4.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20150%20T4/%EC%98%A4%ED%81%AC%20%EC%97%90%EC%8A%A4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20150%20T4/%EC%98%A4%ED%81%AC%20%EC%97%90%EC%8A%A4.jpg"
-    ],
-    "price": 0,
-    "thickness": "11.5T(1.2)",
-    "specs": {
-      "division": "라르고 솔레 150 T4",
-      "thickness": "11.5T(1.2)",
-      "size": "150x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "원목마루_라르고 솔레 150 T4"
-  },
-  {
-    "id": "마루-이건-원목마루_라르고-솔레-150-t4-티크-에스",
-    "category": "마루",
-    "brand": "이건",
-    "line": "원목마루_라르고 솔레 150 T4",
-    "subLine": "라르고 솔레 150 T4",
-    "name": "티크 에스",
-    "code": "티크 에스",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20150%20T4/%ED%8B%B0%ED%81%AC%20%EC%97%90%EC%8A%A4.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20150%20T4/%ED%8B%B0%ED%81%AC%20%EC%97%90%EC%8A%A4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20150%20T4/%ED%8B%B0%ED%81%AC%20%EC%97%90%EC%8A%A4.jpg"
-    ],
-    "price": 0,
-    "thickness": "11.5T(1.2)",
-    "specs": {
-      "division": "라르고 솔레 150 T4",
-      "thickness": "11.5T(1.2)",
-      "size": "150x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "원목마루_라르고 솔레 150 T4"
-  },
-  {
-    "id": "마루-이건-원목마루_라르고-솔레-190-t1-샌드",
-    "category": "마루",
-    "brand": "이건",
-    "line": "원목마루_라르고 솔레 190 T1",
-    "subLine": "라르고 솔레 190 T1",
-    "name": "샌드",
-    "code": "샌드",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T1/%EC%83%8C%EB%93%9C.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T1/%EC%83%8C%EB%93%9C.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T1/%EC%83%8C%EB%93%9C.jpg"
-    ],
-    "price": 0,
-    "thickness": "11.5T(1.2)",
-    "specs": {
-      "division": "라르고 솔레 190 T1",
-      "thickness": "11.5T(1.2)",
-      "size": "150x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "원목마루_라르고 솔레 150 T4"
-  },
-  {
-    "id": "마루-이건-원목마루_라르고-솔레-190-t1-썬라이즈",
-    "category": "마루",
-    "brand": "이건",
-    "line": "원목마루_라르고 솔레 190 T1",
-    "subLine": "라르고 솔레 190 T1",
-    "name": "썬라이즈",
-    "code": "썬라이즈",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T1/%EC%8D%AC%EB%9D%BC%EC%9D%B4%EC%A6%88.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T1/%EC%8D%AC%EB%9D%BC%EC%9D%B4%EC%A6%88.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T1/%EC%8D%AC%EB%9D%BC%EC%9D%B4%EC%A6%88.jpg"
-    ],
-    "price": 0,
-    "thickness": "11.5T(1.2)",
-    "specs": {
-      "division": "라르고 솔레 190 T1",
-      "thickness": "11.5T(1.2)",
-      "size": "150x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "원목마루_라르고 솔레 150 T4"
-  },
-  {
-    "id": "마루-이건-원목마루_라르고-솔레-190-t1-오크-에스",
-    "category": "마루",
-    "brand": "이건",
-    "line": "원목마루_라르고 솔레 190 T1",
-    "subLine": "라르고 솔레 190 T1",
-    "name": "오크 에스",
-    "code": "오크 에스",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T1/%EC%98%A4%ED%81%AC%20%EC%97%90%EC%8A%A4.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T1/%EC%98%A4%ED%81%AC%20%EC%97%90%EC%8A%A4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T1/%EC%98%A4%ED%81%AC%20%EC%97%90%EC%8A%A4.jpg"
-    ],
-    "price": 0,
-    "thickness": "11.5T(1.2)",
-    "specs": {
-      "division": "라르고 솔레 190 T1",
-      "thickness": "11.5T(1.2)",
-      "size": "150x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "원목마루_라르고 솔레 150 T4"
-  },
-  {
-    "id": "마루-이건-원목마루_라르고-솔레-190-t1-이클립스",
-    "category": "마루",
-    "brand": "이건",
-    "line": "원목마루_라르고 솔레 190 T1",
-    "subLine": "라르고 솔레 190 T1",
-    "name": "이클립스",
-    "code": "이클립스",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T1/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T1/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T1/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4.jpg"
-    ],
-    "price": 0,
-    "thickness": "11.5T(1.2)",
-    "specs": {
-      "division": "라르고 솔레 190 T1",
-      "thickness": "11.5T(1.2)",
-      "size": "190x1900mm",
-      "packing": "박스단위"
-    },
-    "description": "원목마루_라르고 솔레 190 T1"
-  },
-  {
-    "id": "마루-이건-원목마루_라르고-솔레-190-t1-큐물러스",
-    "category": "마루",
-    "brand": "이건",
-    "line": "원목마루_라르고 솔레 190 T1",
-    "subLine": "라르고 솔레 190 T1",
-    "name": "큐물러스",
-    "code": "큐물러스",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T1/%ED%81%90%EB%AC%BC%EB%9F%AC%EC%8A%A4.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T1/%ED%81%90%EB%AC%BC%EB%9F%AC%EC%8A%A4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T1/%ED%81%90%EB%AC%BC%EB%9F%AC%EC%8A%A4.jpg"
-    ],
-    "price": 0,
-    "thickness": "11.5T(1.2)",
-    "specs": {
-      "division": "라르고 솔레 190 T1",
-      "thickness": "11.5T(1.2)",
-      "size": "190x1900mm",
-      "packing": "박스단위"
-    },
-    "description": "원목마루_라르고 솔레 190 T1"
-  },
-  {
-    "id": "마루-이건-원목마루_라르고-솔레-190-t1-티크-에스",
-    "category": "마루",
-    "brand": "이건",
-    "line": "원목마루_라르고 솔레 190 T1",
-    "subLine": "라르고 솔레 190 T1",
-    "name": "티크 에스",
-    "code": "티크 에스",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T1/%ED%8B%B0%ED%81%AC%20%EC%97%90%EC%8A%A4.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T1/%ED%8B%B0%ED%81%AC%20%EC%97%90%EC%8A%A4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T1/%ED%8B%B0%ED%81%AC%20%EC%97%90%EC%8A%A4.jpg"
-    ],
-    "price": 0,
-    "thickness": "11.5T(1.2)",
-    "specs": {
-      "division": "라르고 솔레 190 T1",
-      "thickness": "11.5T(1.2)",
-      "size": "150x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "원목마루_라르고 솔레 150 T4"
-  },
-  {
-    "id": "마루-이건-원목마루_라르고-솔레-190-t3-미스트",
-    "category": "마루",
-    "brand": "이건",
-    "line": "원목마루_라르고 솔레 190 T3",
-    "subLine": "라르고 솔레 190 T3",
-    "name": "미스트",
-    "code": "미스트",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T3/%EB%AF%B8%EC%8A%A4%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T3/%EB%AF%B8%EC%8A%A4%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T3/%EB%AF%B8%EC%8A%A4%ED%8A%B8.jpg"
-    ],
-    "price": 0,
-    "thickness": "11.5T(1.2)",
-    "specs": {
-      "division": "라르고 솔레 190 T3",
-      "thickness": "11.5T(1.2)",
-      "size": "150x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "원목마루_라르고 솔레 150 T4"
-  },
-  {
-    "id": "마루-이건-원목마루_라르고-솔레-190-t3-샌드",
-    "category": "마루",
-    "brand": "이건",
-    "line": "원목마루_라르고 솔레 190 T3",
-    "subLine": "라르고 솔레 190 T3",
-    "name": "샌드",
-    "code": "샌드",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T3/%EC%83%8C%EB%93%9C.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T3/%EC%83%8C%EB%93%9C.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T3/%EC%83%8C%EB%93%9C.jpg"
-    ],
-    "price": 0,
-    "thickness": "11.5T(1.2)",
-    "specs": {
-      "division": "라르고 솔레 190 T3",
-      "thickness": "11.5T(1.2)",
-      "size": "150x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "원목마루_라르고 솔레 150 T4"
-  },
-  {
-    "id": "마루-이건-원목마루_라르고-솔레-190-t3-썬라이즈",
-    "category": "마루",
-    "brand": "이건",
-    "line": "원목마루_라르고 솔레 190 T3",
-    "subLine": "라르고 솔레 190 T3",
-    "name": "썬라이즈",
-    "code": "썬라이즈",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T3/%EC%8D%AC%EB%9D%BC%EC%9D%B4%EC%A6%88.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T3/%EC%8D%AC%EB%9D%BC%EC%9D%B4%EC%A6%88.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T3/%EC%8D%AC%EB%9D%BC%EC%9D%B4%EC%A6%88.jpg"
-    ],
-    "price": 0,
-    "thickness": "11.5T(1.2)",
-    "specs": {
-      "division": "라르고 솔레 190 T3",
-      "thickness": "11.5T(1.2)",
-      "size": "150x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "원목마루_라르고 솔레 150 T4"
-  },
-  {
-    "id": "마루-이건-원목마루_라르고-솔레-190-t3-썬셋",
-    "category": "마루",
-    "brand": "이건",
-    "line": "원목마루_라르고 솔레 190 T3",
-    "subLine": "라르고 솔레 190 T3",
-    "name": "썬셋",
-    "code": "썬셋",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T3/%EC%8D%AC%EC%85%8B.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T3/%EC%8D%AC%EC%85%8B.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T3/%EC%8D%AC%EC%85%8B.jpg"
-    ],
-    "price": 0,
-    "thickness": "11.5T(1.2)",
-    "specs": {
-      "division": "라르고 솔레 190 T3",
-      "thickness": "11.5T(1.2)",
-      "size": "150x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "원목마루_라르고 솔레 150 T4"
-  },
-  {
-    "id": "마루-이건-원목마루_라르고-솔레-190-t3-오크-에스",
-    "category": "마루",
-    "brand": "이건",
-    "line": "원목마루_라르고 솔레 190 T3",
-    "subLine": "라르고 솔레 190 T3",
-    "name": "오크 에스",
-    "code": "오크 에스",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T3/%EC%98%A4%ED%81%AC%20%EC%97%90%EC%8A%A4.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T3/%EC%98%A4%ED%81%AC%20%EC%97%90%EC%8A%A4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T3/%EC%98%A4%ED%81%AC%20%EC%97%90%EC%8A%A4.jpg"
-    ],
-    "price": 0,
-    "thickness": "11.5T(1.2)",
-    "specs": {
-      "division": "라르고 솔레 190 T3",
-      "thickness": "11.5T(1.2)",
-      "size": "150x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "원목마루_라르고 솔레 150 T4"
-  },
-  {
-    "id": "마루-이건-원목마루_라르고-솔레-190-t3-티크-에스",
-    "category": "마루",
-    "brand": "이건",
-    "line": "원목마루_라르고 솔레 190 T3",
-    "subLine": "라르고 솔레 190 T3",
-    "name": "티크 에스",
-    "code": "티크 에스",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T3/%ED%8B%B0%ED%81%AC%20%EC%97%90%EC%8A%A4.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T3/%ED%8B%B0%ED%81%AC%20%EC%97%90%EC%8A%A4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%9D%BC%EB%A5%B4%EA%B3%A0%20%EC%86%94%EB%A0%88%20190%20T3/%ED%8B%B0%ED%81%AC%20%EC%97%90%EC%8A%A4.jpg"
-    ],
-    "price": 0,
-    "thickness": "11.5T(1.2)",
-    "specs": {
-      "division": "라르고 솔레 190 T3",
-      "thickness": "11.5T(1.2)",
-      "size": "150x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "원목마루_라르고 솔레 150 T4"
-  },
-  {
-    "id": "마루-이건-천연마루_제나-내추럴-메이플",
-    "category": "마루",
-    "brand": "이건",
-    "line": "천연마루_제나 내추럴",
-    "subLine": "제나 내추럴",
-    "name": "메이플",
-    "code": "메이플",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%A9%94%EC%9D%B4%ED%94%8C.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%A9%94%EC%9D%B4%ED%94%8C.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%A9%94%EC%9D%B4%ED%94%8C.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "제나 내추럴",
-      "thickness": "7.5T",
-      "size": "75x900mm",
-      "packing": "박스단위"
-    },
-    "description": "천연마루_제나 내추럴"
-  },
-  {
-    "id": "마루-이건-천연마루_제나-내추럴-버찌",
-    "category": "마루",
-    "brand": "이건",
-    "line": "천연마루_제나 내추럴",
-    "subLine": "제나 내추럴",
-    "name": "버찌",
-    "code": "버찌",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%B2%84%EC%B0%8C.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%B2%84%EC%B0%8C.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%B2%84%EC%B0%8C.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "제나 내추럴",
-      "thickness": "7.5T",
-      "size": "75x900mm",
-      "packing": "박스단위"
-    },
-    "description": "천연마루_제나 내추럴"
-  },
-  {
-    "id": "마루-이건-천연마루_제나-내추럴-비치",
-    "category": "마루",
-    "brand": "이건",
-    "line": "천연마루_제나 내추럴",
-    "subLine": "제나 내추럴",
-    "name": "비치",
-    "code": "비치",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%B9%84%EC%B9%98.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%B9%84%EC%B9%98.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%B9%84%EC%B9%98.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "제나 내추럴",
-      "thickness": "7.5T",
-      "size": "75x900mm",
-      "packing": "박스단위"
-    },
-    "description": "천연마루_제나 내추럴"
-  },
-  {
-    "id": "마루-이건-천연마루_제나-내추럴-스노우-워시",
-    "category": "마루",
-    "brand": "이건",
-    "line": "천연마루_제나 내추럴",
-    "subLine": "제나 내추럴",
-    "name": "스노우 워시",
-    "code": "스노우 워시",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EC%8A%A4%EB%85%B8%EC%9A%B0%20%EC%9B%8C%EC%8B%9C.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EC%8A%A4%EB%85%B8%EC%9A%B0%20%EC%9B%8C%EC%8B%9C.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EC%8A%A4%EB%85%B8%EC%9A%B0%20%EC%9B%8C%EC%8B%9C.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "제나 내추럴",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-천연마루_제나-내추럴-오크-화이트",
-    "category": "마루",
-    "brand": "이건",
-    "line": "천연마루_제나 내추럴",
-    "subLine": "제나 내추럴",
-    "name": "오크 화이트",
-    "code": "오크 화이트",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EC%98%A4%ED%81%AC%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EC%98%A4%ED%81%AC%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EC%98%A4%ED%81%AC%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "제나 내추럴",
-      "thickness": "7.5T",
-      "size": "75x900mm",
-      "packing": "박스단위"
-    },
-    "description": "천연마루_제나 내추럴"
-  },
-  {
-    "id": "마루-이건-천연마루_제나-내추럴-오크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "천연마루_제나 내추럴",
-    "subLine": "제나 내추럴",
-    "name": "오크",
-    "code": "오크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "제나 내추럴",
-      "thickness": "7.5T",
-      "size": "90x900mm",
-      "packing": "박스단위"
-    },
-    "description": "천연마루_제나 내추럴"
-  },
-  {
-    "id": "마루-이건-천연마루_제나-내추럴-월넛",
-    "category": "마루",
-    "brand": "이건",
-    "line": "천연마루_제나 내추럴",
-    "subLine": "제나 내추럴",
-    "name": "월넛",
-    "code": "월넛",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EC%9B%94%EB%84%9B.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EC%9B%94%EB%84%9B.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EC%9B%94%EB%84%9B.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "제나 내추럴",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-천연마루_제나-내추럴-유로-화이트",
-    "category": "마루",
-    "brand": "이건",
-    "line": "천연마루_제나 내추럴",
-    "subLine": "제나 내추럴",
-    "name": "유로 화이트",
-    "code": "유로 화이트",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EC%9C%A0%EB%A1%9C%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EC%9C%A0%EB%A1%9C%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EC%9C%A0%EB%A1%9C%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "제나 내추럴",
-      "thickness": "7.5T",
-      "size": "75x900mm",
-      "packing": "박스단위"
-    },
-    "description": "천연마루_제나 내추럴"
-  },
-  {
-    "id": "마루-이건-천연마루_제나-내추럴-체리-a",
-    "category": "마루",
-    "brand": "이건",
-    "line": "천연마루_제나 내추럴",
-    "subLine": "제나 내추럴",
-    "name": "체리 A",
-    "code": "체리 A",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EC%B2%B4%EB%A6%AC%20A.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EC%B2%B4%EB%A6%AC%20A.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EC%B2%B4%EB%A6%AC%20A.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "제나 내추럴",
-      "thickness": "7.5T",
-      "size": "75x900mm",
-      "packing": "박스단위"
-    },
-    "description": "천연마루_제나 내추럴"
-  },
-  {
-    "id": "마루-이건-천연마루_제나-내추럴-체리-m",
-    "category": "마루",
-    "brand": "이건",
-    "line": "천연마루_제나 내추럴",
-    "subLine": "제나 내추럴",
-    "name": "체리 M",
-    "code": "체리 M",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EC%B2%B4%EB%A6%AC%20M.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EC%B2%B4%EB%A6%AC%20M.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%EC%B2%B4%EB%A6%AC%20M.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "제나 내추럴",
-      "thickness": "7.5T",
-      "size": "75x900mm",
-      "packing": "박스단위"
-    },
-    "description": "천연마루_제나 내추럴"
-  },
-  {
-    "id": "마루-이건-천연마루_제나-내추럴-티크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "천연마루_제나 내추럴",
-    "subLine": "제나 내추럴",
-    "name": "티크",
-    "code": "티크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%ED%8B%B0%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%ED%8B%B0%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%ED%8B%B0%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "제나 내추럴",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-천연마루_제나-내추럴-화이트-워시",
-    "category": "마루",
-    "brand": "이건",
-    "line": "천연마루_제나 내추럴",
-    "subLine": "제나 내추럴",
-    "name": "화이트 워시",
-    "code": "화이트 워시",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%ED%99%94%EC%9D%B4%ED%8A%B8%20%EC%9B%8C%EC%8B%9C.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%ED%99%94%EC%9D%B4%ED%8A%B8%20%EC%9B%8C%EC%8B%9C.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%EC%A0%9C%EB%82%98%20%EB%82%B4%EC%B6%94%EB%9F%B4/%ED%99%94%EC%9D%B4%ED%8A%B8%20%EC%9B%8C%EC%8B%9C.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "제나 내추럴",
-      "thickness": "7.5T",
-      "size": "75x900mm",
-      "packing": "박스단위"
-    },
-    "description": "천연마루_제나 내추럴"
-  },
-  {
-    "id": "마루-이건-천연마루_포레스타-도브-그레이",
-    "category": "마루",
-    "brand": "이건",
-    "line": "천연마루_포레스타",
-    "subLine": "포레스타",
-    "name": "도브 그레이",
-    "code": "도브 그레이",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80/%EB%8F%84%EB%B8%8C%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80/%EB%8F%84%EB%B8%8C%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80/%EB%8F%84%EB%B8%8C%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "포레스타",
-      "thickness": "10.5T",
-      "size": "165x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "천연마루_포레스타"
-  },
-  {
-    "id": "마루-이건-천연마루_포레스타-루나-블랙",
-    "category": "마루",
-    "brand": "이건",
-    "line": "천연마루_포레스타",
-    "subLine": "포레스타",
-    "name": "루나 블랙",
-    "code": "루나 블랙",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80/%EB%A3%A8%EB%82%98%20%EB%B8%94%EB%9E%99.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80/%EB%A3%A8%EB%82%98%20%EB%B8%94%EB%9E%99.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80/%EB%A3%A8%EB%82%98%20%EB%B8%94%EB%9E%99.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "포레스타",
-      "thickness": "10.5T",
-      "size": "165x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "천연마루_포레스타"
-  },
-  {
-    "id": "마루-이건-천연마루_포레스타-스완-베이지",
-    "category": "마루",
-    "brand": "이건",
-    "line": "천연마루_포레스타",
-    "subLine": "포레스타",
-    "name": "스완 베이지",
-    "code": "스완 베이지",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80/%EC%8A%A4%EC%99%84%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80/%EC%8A%A4%EC%99%84%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80/%EC%8A%A4%EC%99%84%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "포레스타",
-      "thickness": "10.5T",
-      "size": "165x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "천연마루_포레스타"
-  },
-  {
-    "id": "마루-이건-천연마루_포레스타-애쉬-블론드",
-    "category": "마루",
-    "brand": "이건",
-    "line": "천연마루_포레스타",
-    "subLine": "포레스타",
-    "name": "애쉬 블론드",
-    "code": "애쉬 블론드",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80/%EC%95%A0%EC%89%AC%20%EB%B8%94%EB%A1%A0%EB%93%9C.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80/%EC%95%A0%EC%89%AC%20%EB%B8%94%EB%A1%A0%EB%93%9C.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80/%EC%95%A0%EC%89%AC%20%EB%B8%94%EB%A1%A0%EB%93%9C.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "포레스타",
-      "thickness": "10.5T",
-      "size": "165x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "천연마루_포레스타"
-  },
-  {
-    "id": "마루-이건-천연마루_포레스타-어텀-브라운",
-    "category": "마루",
-    "brand": "이건",
-    "line": "천연마루_포레스타",
-    "subLine": "포레스타",
-    "name": "어텀 브라운",
-    "code": "어텀 브라운",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80/%EC%96%B4%ED%85%80%20%EB%B8%8C%EB%9D%BC%EC%9A%B4.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80/%EC%96%B4%ED%85%80%20%EB%B8%8C%EB%9D%BC%EC%9A%B4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80/%EC%96%B4%ED%85%80%20%EB%B8%8C%EB%9D%BC%EC%9A%B4.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "포레스타",
-      "thickness": "10.5T",
-      "size": "165x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "천연마루_포레스타"
-  },
-  {
-    "id": "마루-이건-천연마루_포레스타-오크-에스",
-    "category": "마루",
-    "brand": "이건",
-    "line": "천연마루_포레스타",
-    "subLine": "포레스타",
-    "name": "오크 에스",
-    "code": "오크 에스",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80/%EC%98%A4%ED%81%AC%20%EC%97%90%EC%8A%A4.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80/%EC%98%A4%ED%81%AC%20%EC%97%90%EC%8A%A4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80/%EC%98%A4%ED%81%AC%20%EC%97%90%EC%8A%A4.jpg"
-    ],
-    "price": 0,
-    "thickness": "11.5T(1.2)",
-    "specs": {
-      "division": "포레스타",
-      "thickness": "11.5T(1.2)",
-      "size": "150x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "원목마루_라르고 솔레 150 T4"
-  },
-  {
-    "id": "마루-이건-천연마루_포레스타-오크-퓸",
-    "category": "마루",
-    "brand": "이건",
-    "line": "천연마루_포레스타",
-    "subLine": "포레스타",
-    "name": "오크 퓸",
-    "code": "오크 퓸",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80/%EC%98%A4%ED%81%AC%20%ED%93%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80/%EC%98%A4%ED%81%AC%20%ED%93%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80/%EC%98%A4%ED%81%AC%20%ED%93%B8.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "포레스타",
-      "thickness": "10.5T",
-      "size": "165x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "천연마루_포레스타"
-  },
-  {
-    "id": "마루-이건-천연마루_포레스타-티크-에스",
-    "category": "마루",
-    "brand": "이건",
-    "line": "천연마루_포레스타",
-    "subLine": "포레스타",
-    "name": "티크 에스",
-    "code": "티크 에스",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80/%ED%8B%B0%ED%81%AC%20%EC%97%90%EC%8A%A4.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80/%ED%8B%B0%ED%81%AC%20%EC%97%90%EC%8A%A4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80/%ED%8B%B0%ED%81%AC%20%EC%97%90%EC%8A%A4.jpg"
-    ],
-    "price": 0,
-    "thickness": "11.5T(1.2)",
-    "specs": {
-      "division": "포레스타",
-      "thickness": "11.5T(1.2)",
-      "size": "150x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "원목마루_라르고 솔레 150 T4"
-  },
-  {
-    "id": "마루-이건-천연마루_포레스타-g-매리골드",
-    "category": "마루",
-    "brand": "이건",
-    "line": "천연마루_포레스타 G",
-    "subLine": "포레스타 G",
-    "name": "매리골드",
-    "code": "매리골드",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80%20G/%EB%A7%A4%EB%A6%AC%EA%B3%A8%EB%93%9C.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80%20G/%EB%A7%A4%EB%A6%AC%EA%B3%A8%EB%93%9C.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80%20G/%EB%A7%A4%EB%A6%AC%EA%B3%A8%EB%93%9C.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "포레스타 G",
-      "thickness": "10.5T",
-      "size": "190x1615mm",
-      "packing": "박스단위"
-    },
-    "description": "천연마루_포레스타 G"
-  },
-  {
-    "id": "마루-이건-천연마루_포레스타-g-아몬드-옐로우",
-    "category": "마루",
-    "brand": "이건",
-    "line": "천연마루_포레스타 G",
-    "subLine": "포레스타 G",
-    "name": "아몬드 옐로우",
-    "code": "아몬드 옐로우",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80%20G/%EC%95%84%EB%AA%AC%EB%93%9C%20%EC%98%90%EB%A1%9C%EC%9A%B0.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80%20G/%EC%95%84%EB%AA%AC%EB%93%9C%20%EC%98%90%EB%A1%9C%EC%9A%B0.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80%20G/%EC%95%84%EB%AA%AC%EB%93%9C%20%EC%98%90%EB%A1%9C%EC%9A%B0.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "포레스타 G",
-      "thickness": "10.5T",
-      "size": "190x1615mm",
-      "packing": "박스단위"
-    },
-    "description": "천연마루_포레스타 G"
-  },
-  {
-    "id": "마루-이건-천연마루_포레스타-g-오닉스-블랙",
-    "category": "마루",
-    "brand": "이건",
-    "line": "천연마루_포레스타 G",
-    "subLine": "포레스타 G",
-    "name": "오닉스 블랙",
-    "code": "오닉스 블랙",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80%20G/%EC%98%A4%EB%8B%89%EC%8A%A4%20%EB%B8%94%EB%9E%99.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80%20G/%EC%98%A4%EB%8B%89%EC%8A%A4%20%EB%B8%94%EB%9E%99.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80%20G/%EC%98%A4%EB%8B%89%EC%8A%A4%20%EB%B8%94%EB%9E%99.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "포레스타 G",
-      "thickness": "10.5T",
-      "size": "190x1615mm",
-      "packing": "박스단위"
-    },
-    "description": "천연마루_포레스타 G"
-  },
-  {
-    "id": "마루-이건-천연마루_포레스타-g-캐시미어-화이트",
-    "category": "마루",
-    "brand": "이건",
-    "line": "천연마루_포레스타 G",
-    "subLine": "포레스타 G",
-    "name": "캐시미어 화이트",
-    "code": "캐시미어 화이트",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80%20G/%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80%20G/%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80%20G/%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "포레스타 G",
-      "thickness": "10.5T",
-      "size": "190x1615mm",
-      "packing": "박스단위"
-    },
-    "description": "천연마루_포레스타 G"
-  },
-  {
-    "id": "마루-이건-천연마루_포레스타-g-포그-그레이",
-    "category": "마루",
-    "brand": "이건",
-    "line": "천연마루_포레스타 G",
-    "subLine": "포레스타 G",
-    "name": "포그 그레이",
-    "code": "포그 그레이",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80%20G/%ED%8F%AC%EA%B7%B8%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80%20G/%ED%8F%AC%EA%B7%B8%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80%20G/%ED%8F%AC%EA%B7%B8%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "포레스타 G",
-      "thickness": "10.5T",
-      "size": "190x1615mm",
-      "packing": "박스단위"
-    },
-    "description": "천연마루_포레스타 G"
-  },
-  {
-    "id": "마루-이건-천연마루_포레스타-g-허스크-베이지",
-    "category": "마루",
-    "brand": "이건",
-    "line": "천연마루_포레스타 G",
-    "subLine": "포레스타 G",
-    "name": "허스크 베이지",
-    "code": "허스크 베이지",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80%20G/%ED%97%88%EC%8A%A4%ED%81%AC%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80%20G/%ED%97%88%EC%8A%A4%ED%81%AC%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%EC%B2%9C%EC%97%B0%EB%A7%88%EB%A3%A8/%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%83%80%20G/%ED%97%88%EC%8A%A4%ED%81%AC%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "포레스타 G",
-      "thickness": "10.5T",
-      "size": "190x1615mm",
-      "packing": "박스단위"
-    },
-    "description": "천연마루_포레스타 G"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-125_내추럴-내추럴-샌드",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 125_내추럴",
-    "subLine": "내추럴",
-    "name": "내추럴 샌드",
-    "code": "내추럴 샌드",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20125/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%83%8C%EB%93%9C.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20125/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%83%8C%EB%93%9C.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20125/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%83%8C%EB%93%9C.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "내추럴",
-      "thickness": "10.5T",
-      "size": "125x800mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 125_내추럴"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-125_내추럴-내추럴-오크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 125_내추럴",
-    "subLine": "내추럴",
-    "name": "내추럴 오크",
-    "code": "내추럴 오크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20125/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20125/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20125/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "내추럴",
-      "thickness": "7.5T",
-      "size": "115x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라블랜딩"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-125_마일드-마일드-골드",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 125_마일드",
-    "subLine": "마일드",
-    "name": "마일드 골드",
-    "code": "마일드 골드",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20125/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%EA%B3%A8%EB%93%9C.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20125/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%EA%B3%A8%EB%93%9C.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20125/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%EA%B3%A8%EB%93%9C.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "마일드",
-      "thickness": "10.5T",
-      "size": "125x800mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 125_마일드"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-125_마일드-마일드-크림",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 125_마일드",
-    "subLine": "마일드",
-    "name": "마일드 크림",
-    "code": "마일드 크림",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20125/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%ED%81%AC%EB%A6%BC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20125/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%ED%81%AC%EB%A6%BC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20125/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%ED%81%AC%EB%A6%BC.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "마일드",
-      "thickness": "10.5T",
-      "size": "125x800mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 125_마일드"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-165_내추럴-내추럴-다크-쏘우",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 165_내추럴",
-    "subLine": "내추럴",
-    "name": "내추럴 다크 쏘우",
-    "code": "내추럴 다크 쏘우",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20165/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EB%8B%A4%ED%81%AC%20%EC%8F%98%EC%9A%B0.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20165/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EB%8B%A4%ED%81%AC%20%EC%8F%98%EC%9A%B0.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20165/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EB%8B%A4%ED%81%AC%20%EC%8F%98%EC%9A%B0.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "내추럴",
-      "thickness": "10.5T",
-      "size": "165x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 165_내추럴"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-165_내추럴-내추럴-샌드",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 165_내추럴",
-    "subLine": "내추럴",
-    "name": "내추럴 샌드",
-    "code": "내추럴 샌드",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20165/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%83%8C%EB%93%9C.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20165/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%83%8C%EB%93%9C.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20165/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%83%8C%EB%93%9C.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "내추럴",
-      "thickness": "10.5T",
-      "size": "125x800mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 125_내추럴"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-165_내추럴-내추럴-오크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 165_내추럴",
-    "subLine": "내추럴",
-    "name": "내추럴 오크",
-    "code": "내추럴 오크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20165/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20165/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20165/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "내추럴",
-      "thickness": "7.5T",
-      "size": "115x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라블랜딩"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-165_러스틱-러스틱-브라운",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 165_러스틱",
-    "subLine": "러스틱",
-    "name": "러스틱 브라운",
-    "code": "러스틱 브라운",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20165/%EB%9F%AC%EC%8A%A4%ED%8B%B1/%EB%9F%AC%EC%8A%A4%ED%8B%B1%20%EB%B8%8C%EB%9D%BC%EC%9A%B4.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20165/%EB%9F%AC%EC%8A%A4%ED%8B%B1/%EB%9F%AC%EC%8A%A4%ED%8B%B1%20%EB%B8%8C%EB%9D%BC%EC%9A%B4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20165/%EB%9F%AC%EC%8A%A4%ED%8B%B1/%EB%9F%AC%EC%8A%A4%ED%8B%B1%20%EB%B8%8C%EB%9D%BC%EC%9A%B4.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "러스틱",
-      "thickness": "10.5T",
-      "size": "165x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 165_러스틱"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-165_마일드-마일드-베이지",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 165_마일드",
-    "subLine": "마일드",
-    "name": "마일드 베이지",
-    "code": "마일드 베이지",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20165/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20165/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20165/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "마일드",
-      "thickness": "10.5T",
-      "size": "165x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 165_마일드"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-165_마일드-마일드-오크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 165_마일드",
-    "subLine": "마일드",
-    "name": "마일드 오크",
-    "code": "마일드 오크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20165/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20165/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20165/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "마일드",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-165_마일드-마일드-크림",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 165_마일드",
-    "subLine": "마일드",
-    "name": "마일드 크림",
-    "code": "마일드 크림",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20165/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%ED%81%AC%EB%A6%BC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20165/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%ED%81%AC%EB%A6%BC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20165/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%ED%81%AC%EB%A6%BC.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "마일드",
-      "thickness": "10.5T",
-      "size": "125x800mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 125_마일드"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-165_마일드-마일드-티크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 165_마일드",
-    "subLine": "마일드",
-    "name": "마일드 티크",
-    "code": "마일드 티크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20165/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%ED%8B%B0%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20165/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%ED%8B%B0%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20165/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%ED%8B%B0%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "마일드",
-      "thickness": "10.5T",
-      "size": "165x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 165_마일드"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-190_내추럴-내추럴-샌드",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 190_내추럴",
-    "subLine": "내추럴",
-    "name": "내추럴 샌드",
-    "code": "내추럴 샌드",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20190/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%83%8C%EB%93%9C.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20190/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%83%8C%EB%93%9C.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20190/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%83%8C%EB%93%9C.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "내추럴",
-      "thickness": "10.5T",
-      "size": "125x800mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 125_내추럴"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-190_내추럴-내추럴-오크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 190_내추럴",
-    "subLine": "내추럴",
-    "name": "내추럴 오크",
-    "code": "내추럴 오크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20190/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20190/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20190/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "내추럴",
-      "thickness": "7.5T",
-      "size": "115x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라블랜딩"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-190_마일드-마일드-골드",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 190_마일드",
-    "subLine": "마일드",
-    "name": "마일드 골드",
-    "code": "마일드 골드",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20190/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%EA%B3%A8%EB%93%9C.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20190/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%EA%B3%A8%EB%93%9C.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20190/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%EA%B3%A8%EB%93%9C.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "마일드",
-      "thickness": "10.5T",
-      "size": "125x800mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 125_마일드"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-190_마일드-마일드-베이지",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 190_마일드",
-    "subLine": "마일드",
-    "name": "마일드 베이지",
-    "code": "마일드 베이지",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20190/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20190/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20190/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "마일드",
-      "thickness": "10.5T",
-      "size": "165x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 165_마일드"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-190_마일드-마일드-오크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 190_마일드",
-    "subLine": "마일드",
-    "name": "마일드 오크",
-    "code": "마일드 오크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20190/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20190/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20190/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "마일드",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-190_마일드-마일드-크림",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 190_마일드",
-    "subLine": "마일드",
-    "name": "마일드 크림",
-    "code": "마일드 크림",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20190/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%ED%81%AC%EB%A6%BC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20190/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%ED%81%AC%EB%A6%BC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20190/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%ED%81%AC%EB%A6%BC.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "마일드",
-      "thickness": "10.5T",
-      "size": "125x800mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 125_마일드"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-190_마일드-마일드-화이트",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 190_마일드",
-    "subLine": "마일드",
-    "name": "마일드 화이트",
-    "code": "마일드 화이트",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20190/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20190/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20190/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%ED%99%94%EC%9D%B4%ED%8A%B8.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "마일드",
-      "thickness": "10.5T",
-      "size": "190x1615mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 190_마일드"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-230_내추럴-내추럴-다크-쏘우",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 230_내추럴",
-    "subLine": "내추럴",
-    "name": "내추럴 다크 쏘우",
-    "code": "내추럴 다크 쏘우",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EB%8B%A4%ED%81%AC%20%EC%8F%98%EC%9A%B0.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EB%8B%A4%ED%81%AC%20%EC%8F%98%EC%9A%B0.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EB%8B%A4%ED%81%AC%20%EC%8F%98%EC%9A%B0.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "내추럴",
-      "thickness": "10.5T",
-      "size": "165x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 165_내추럴"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-230_내추럴-내추럴-샌드",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 230_내추럴",
-    "subLine": "내추럴",
-    "name": "내추럴 샌드",
-    "code": "내추럴 샌드",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%83%8C%EB%93%9C.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%83%8C%EB%93%9C.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%83%8C%EB%93%9C.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "내추럴",
-      "thickness": "10.5T",
-      "size": "125x800mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 125_내추럴"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-230_내추럴-내추럴-오크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 230_내추럴",
-    "subLine": "내추럴",
-    "name": "내추럴 오크",
-    "code": "내추럴 오크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%82%B4%EC%B6%94%EB%9F%B4/%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "내추럴",
-      "thickness": "7.5T",
-      "size": "115x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라블랜딩"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-230_러스틱-러스틱-그레이",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 230_러스틱",
-    "subLine": "러스틱",
-    "name": "러스틱 그레이",
-    "code": "러스틱 그레이",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%9F%AC%EC%8A%A4%ED%8B%B1/%EB%9F%AC%EC%8A%A4%ED%8B%B1%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%9F%AC%EC%8A%A4%ED%8B%B1/%EB%9F%AC%EC%8A%A4%ED%8B%B1%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%9F%AC%EC%8A%A4%ED%8B%B1/%EB%9F%AC%EC%8A%A4%ED%8B%B1%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "러스틱",
-      "thickness": "10.5T",
-      "size": "230x2430mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 230_러스틱"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-230_러스틱-러스틱-미스트",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 230_러스틱",
-    "subLine": "러스틱",
-    "name": "러스틱 미스트",
-    "code": "러스틱 미스트",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%9F%AC%EC%8A%A4%ED%8B%B1/%EB%9F%AC%EC%8A%A4%ED%8B%B1%20%EB%AF%B8%EC%8A%A4%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%9F%AC%EC%8A%A4%ED%8B%B1/%EB%9F%AC%EC%8A%A4%ED%8B%B1%20%EB%AF%B8%EC%8A%A4%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%9F%AC%EC%8A%A4%ED%8B%B1/%EB%9F%AC%EC%8A%A4%ED%8B%B1%20%EB%AF%B8%EC%8A%A4%ED%8A%B8.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "러스틱",
-      "thickness": "10.5T",
-      "size": "230x2430mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 230_러스틱"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-230_러스틱-러스틱-브라운",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 230_러스틱",
-    "subLine": "러스틱",
-    "name": "러스틱 브라운",
-    "code": "러스틱 브라운",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%9F%AC%EC%8A%A4%ED%8B%B1/%EB%9F%AC%EC%8A%A4%ED%8B%B1%20%EB%B8%8C%EB%9D%BC%EC%9A%B4.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%9F%AC%EC%8A%A4%ED%8B%B1/%EB%9F%AC%EC%8A%A4%ED%8B%B1%20%EB%B8%8C%EB%9D%BC%EC%9A%B4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%9F%AC%EC%8A%A4%ED%8B%B1/%EB%9F%AC%EC%8A%A4%ED%8B%B1%20%EB%B8%8C%EB%9D%BC%EC%9A%B4.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "러스틱",
-      "thickness": "10.5T",
-      "size": "165x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 165_러스틱"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-230_러스틱-러스틱-오크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 230_러스틱",
-    "subLine": "러스틱",
-    "name": "러스틱 오크",
-    "code": "러스틱 오크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%9F%AC%EC%8A%A4%ED%8B%B1/%EB%9F%AC%EC%8A%A4%ED%8B%B1%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%9F%AC%EC%8A%A4%ED%8B%B1/%EB%9F%AC%EC%8A%A4%ED%8B%B1%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%9F%AC%EC%8A%A4%ED%8B%B1/%EB%9F%AC%EC%8A%A4%ED%8B%B1%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "러스틱",
-      "thickness": "10.5T",
-      "size": "230x2430mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 230_러스틱"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-230_마일드-마일드-오크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 230_마일드",
-    "subLine": "마일드",
-    "name": "마일드 오크",
-    "code": "마일드 오크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "7.5T",
-    "specs": {
-      "division": "마일드",
-      "thickness": "7.5T",
-      "size": "95x800mm",
-      "packing": "박스단위"
-    },
-    "description": "강마루_세라_세라"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-230_마일드-마일드-크림",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 230_마일드",
-    "subLine": "마일드",
-    "name": "마일드 크림",
-    "code": "마일드 크림",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%ED%81%AC%EB%A6%BC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%ED%81%AC%EB%A6%BC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%ED%81%AC%EB%A6%BC.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "마일드",
-      "thickness": "10.5T",
-      "size": "125x800mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 125_마일드"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-230_마일드-마일드-티크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 230_마일드",
-    "subLine": "마일드",
-    "name": "마일드 티크",
-    "code": "마일드 티크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%ED%8B%B0%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%ED%8B%B0%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20230/%EB%A7%88%EC%9D%BC%EB%93%9C/%EB%A7%88%EC%9D%BC%EB%93%9C%20%ED%8B%B0%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "마일드",
-      "thickness": "10.5T",
-      "size": "165x1200mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 165_마일드"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-스퀘어-395-그램퍼스-블랙",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 395",
-    "subLine": "그린 스퀘어 395",
-    "name": "그램퍼스 블랙",
-    "code": "그램퍼스 블랙",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EA%B7%B8%EB%9E%A8%ED%8D%BC%EC%8A%A4%20%EB%B8%94%EB%9E%99.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EA%B7%B8%EB%9E%A8%ED%8D%BC%EC%8A%A4%20%EB%B8%94%EB%9E%99.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EA%B7%B8%EB%9E%A8%ED%8D%BC%EC%8A%A4%20%EB%B8%94%EB%9E%99.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "그린 스퀘어 395",
-      "thickness": "10.5T",
-      "size": "395x800mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 스퀘어 395"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-스퀘어-395-데저트-크림",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 395",
-    "subLine": "그린 스퀘어 395",
-    "name": "데저트 크림",
-    "code": "데저트 크림",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EB%8D%B0%EC%A0%80%ED%8A%B8%20%ED%81%AC%EB%A6%BC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EB%8D%B0%EC%A0%80%ED%8A%B8%20%ED%81%AC%EB%A6%BC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EB%8D%B0%EC%A0%80%ED%8A%B8%20%ED%81%AC%EB%A6%BC.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "그린 스퀘어 395",
-      "thickness": "10.5T",
-      "size": "395x800mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 스퀘어 395"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-스퀘어-395-라니-화이트",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 395",
-    "subLine": "그린 스퀘어 395",
-    "name": "라니 화이트",
-    "code": "라니 화이트",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EB%9D%BC%EB%8B%88%20%ED%99%94%EC%9D%B4%ED%8A%B8.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EB%9D%BC%EB%8B%88%20%ED%99%94%EC%9D%B4%ED%8A%B8.png",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EB%9D%BC%EB%8B%88%20%ED%99%94%EC%9D%B4%ED%8A%B8.png"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "그린 스퀘어 395",
-      "thickness": "10.5T",
-      "size": "395x800mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 스퀘어 395"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-스퀘어-395-루미너스-브라운",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 395",
-    "subLine": "그린 스퀘어 395",
-    "name": "루미너스 브라운",
-    "code": "루미너스 브라운",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EB%A3%A8%EB%AF%B8%EB%84%88%EC%8A%A4%20%EB%B8%8C%EB%9D%BC%EC%9A%B4.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EB%A3%A8%EB%AF%B8%EB%84%88%EC%8A%A4%20%EB%B8%8C%EB%9D%BC%EC%9A%B4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EB%A3%A8%EB%AF%B8%EB%84%88%EC%8A%A4%20%EB%B8%8C%EB%9D%BC%EC%9A%B4.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "그린 스퀘어 395",
-      "thickness": "10.5T",
-      "size": "395x800mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 스퀘어 395"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-스퀘어-395-리플-스노우",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 395",
-    "subLine": "그린 스퀘어 395",
-    "name": "리플 스노우",
-    "code": "리플 스노우",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EB%A6%AC%ED%94%8C%20%EC%8A%A4%EB%85%B8%EC%9A%B0.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EB%A6%AC%ED%94%8C%20%EC%8A%A4%EB%85%B8%EC%9A%B0.png",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EB%A6%AC%ED%94%8C%20%EC%8A%A4%EB%85%B8%EC%9A%B0.png"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "그린 스퀘어 395",
-      "thickness": "10.5T",
-      "size": "395x800mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 스퀘어 395"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-스퀘어-395-문라이트-스모크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 395",
-    "subLine": "그린 스퀘어 395",
-    "name": "문라이트 스모크",
-    "code": "문라이트 스모크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EB%AC%B8%EB%9D%BC%EC%9D%B4%ED%8A%B8%20%EC%8A%A4%EB%AA%A8%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EB%AC%B8%EB%9D%BC%EC%9D%B4%ED%8A%B8%20%EC%8A%A4%EB%AA%A8%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EB%AC%B8%EB%9D%BC%EC%9D%B4%ED%8A%B8%20%EC%8A%A4%EB%AA%A8%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "그린 스퀘어 395",
-      "thickness": "10.5T",
-      "size": "395x800mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 스퀘어 395"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-스퀘어-395-미스티-샌드",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 395",
-    "subLine": "그린 스퀘어 395",
-    "name": "미스티 샌드",
-    "code": "미스티 샌드",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EB%AF%B8%EC%8A%A4%ED%8B%B0%20%EC%83%8C%EB%93%9C.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EB%AF%B8%EC%8A%A4%ED%8B%B0%20%EC%83%8C%EB%93%9C.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EB%AF%B8%EC%8A%A4%ED%8B%B0%20%EC%83%8C%EB%93%9C.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "그린 스퀘어 395",
-      "thickness": "10.5T",
-      "size": "395x800mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 스퀘어 395"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-스퀘어-395-밀키웨이-다크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 395",
-    "subLine": "그린 스퀘어 395",
-    "name": "밀키웨이 다크",
-    "code": "밀키웨이 다크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EB%B0%80%ED%82%A4%EC%9B%A8%EC%9D%B4%20%EB%8B%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EB%B0%80%ED%82%A4%EC%9B%A8%EC%9D%B4%20%EB%8B%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EB%B0%80%ED%82%A4%EC%9B%A8%EC%9D%B4%20%EB%8B%A4%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "그린 스퀘어 395",
-      "thickness": "10.5T",
-      "size": "395x800mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 스퀘어 395"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-스퀘어-395-브리즈-그레이",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 395",
-    "subLine": "그린 스퀘어 395",
-    "name": "브리즈 그레이",
-    "code": "브리즈 그레이",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EB%B8%8C%EB%A6%AC%EC%A6%88%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EB%B8%8C%EB%A6%AC%EC%A6%88%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EB%B8%8C%EB%A6%AC%EC%A6%88%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "그린 스퀘어 395",
-      "thickness": "10.5T",
-      "size": "395x800mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 스퀘어 395"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-스퀘어-395-세레나-포그",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 395",
-    "subLine": "그린 스퀘어 395",
-    "name": "세레나 포그",
-    "code": "세레나 포그",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EC%84%B8%EB%A0%88%EB%82%98%20%ED%8F%AC%EA%B7%B8.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EC%84%B8%EB%A0%88%EB%82%98%20%ED%8F%AC%EA%B7%B8.png",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EC%84%B8%EB%A0%88%EB%82%98%20%ED%8F%AC%EA%B7%B8.png"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "그린 스퀘어 395",
-      "thickness": "10.5T",
-      "size": "395x800mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 스퀘어 395"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-스퀘어-395-스텔라-라이트",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 395",
-    "subLine": "그린 스퀘어 395",
-    "name": "스텔라 라이트",
-    "code": "스텔라 라이트",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EC%8A%A4%ED%85%94%EB%9D%BC%20%EB%9D%BC%EC%9D%B4%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EC%8A%A4%ED%85%94%EB%9D%BC%20%EB%9D%BC%EC%9D%B4%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EC%8A%A4%ED%85%94%EB%9D%BC%20%EB%9D%BC%EC%9D%B4%ED%8A%B8.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "그린 스퀘어 395",
-      "thickness": "10.5T",
-      "size": "395x800mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 스퀘어 395"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-스퀘어-395-스파클-쉐도우",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 395",
-    "subLine": "그린 스퀘어 395",
-    "name": "스파클 쉐도우",
-    "code": "스파클 쉐도우",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EC%8A%A4%ED%8C%8C%ED%81%B4%20%EC%89%90%EB%8F%84%EC%9A%B0.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EC%8A%A4%ED%8C%8C%ED%81%B4%20%EC%89%90%EB%8F%84%EC%9A%B0.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%EC%8A%A4%ED%8C%8C%ED%81%B4%20%EC%89%90%EB%8F%84%EC%9A%B0.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "그린 스퀘어 395",
-      "thickness": "10.5T",
-      "size": "395x800mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 스퀘어 395"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-스퀘어-395-프리즈-실버",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 395",
-    "subLine": "그린 스퀘어 395",
-    "name": "프리즈 실버",
-    "code": "프리즈 실버",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%ED%94%84%EB%A6%AC%EC%A6%88%20%EC%8B%A4%EB%B2%84.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%ED%94%84%EB%A6%AC%EC%A6%88%20%EC%8B%A4%EB%B2%84.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20395/%ED%94%84%EB%A6%AC%EC%A6%88%20%EC%8B%A4%EB%B2%84.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "그린 스퀘어 395",
-      "thickness": "10.5T",
-      "size": "395x800mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 스퀘어 395"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-스퀘어-597_스톤-글램-스톤",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 597_스톤",
-    "subLine": "스톤",
-    "name": "글램 스톤",
-    "code": "글램 스톤",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20597/%EC%8A%A4%ED%86%A4/%EA%B8%80%EB%9E%A8%20%EC%8A%A4%ED%86%A4.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20597/%EC%8A%A4%ED%86%A4/%EA%B8%80%EB%9E%A8%20%EC%8A%A4%ED%86%A4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20597/%EC%8A%A4%ED%86%A4/%EA%B8%80%EB%9E%A8%20%EC%8A%A4%ED%86%A4.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "스톤",
-      "thickness": "10.5T",
-      "size": "597x597mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 스퀘어 597_스톤"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-스퀘어-597_스톤-데저트-크림",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 597_스톤",
-    "subLine": "스톤",
-    "name": "데저트 크림",
-    "code": "데저트 크림",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20597/%EC%8A%A4%ED%86%A4/%EB%8D%B0%EC%A0%80%ED%8A%B8%20%ED%81%AC%EB%A6%BC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20597/%EC%8A%A4%ED%86%A4/%EB%8D%B0%EC%A0%80%ED%8A%B8%20%ED%81%AC%EB%A6%BC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20597/%EC%8A%A4%ED%86%A4/%EB%8D%B0%EC%A0%80%ED%8A%B8%20%ED%81%AC%EB%A6%BC.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "스톤",
-      "thickness": "10.5T",
-      "size": "395x800mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 스퀘어 395"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-스퀘어-597_스톤-문라이트-스모크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 597_스톤",
-    "subLine": "스톤",
-    "name": "문라이트 스모크",
-    "code": "문라이트 스모크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20597/%EC%8A%A4%ED%86%A4/%EB%AC%B8%EB%9D%BC%EC%9D%B4%ED%8A%B8%20%EC%8A%A4%EB%AA%A8%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20597/%EC%8A%A4%ED%86%A4/%EB%AC%B8%EB%9D%BC%EC%9D%B4%ED%8A%B8%20%EC%8A%A4%EB%AA%A8%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20597/%EC%8A%A4%ED%86%A4/%EB%AC%B8%EB%9D%BC%EC%9D%B4%ED%8A%B8%20%EC%8A%A4%EB%AA%A8%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "스톤",
-      "thickness": "10.5T",
-      "size": "395x800mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 스퀘어 395"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-스퀘어-597_스톤-브리즈-그레이",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 597_스톤",
-    "subLine": "스톤",
-    "name": "브리즈 그레이",
-    "code": "브리즈 그레이",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20597/%EC%8A%A4%ED%86%A4/%EB%B8%8C%EB%A6%AC%EC%A6%88%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20597/%EC%8A%A4%ED%86%A4/%EB%B8%8C%EB%A6%AC%EC%A6%88%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20597/%EC%8A%A4%ED%86%A4/%EB%B8%8C%EB%A6%AC%EC%A6%88%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "스톤",
-      "thickness": "10.5T",
-      "size": "395x800mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 스퀘어 395"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-스퀘어-597_스톤-코랄-클라우드",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 597_스톤",
-    "subLine": "스톤",
-    "name": "코랄 클라우드",
-    "code": "코랄 클라우드",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20597/%EC%8A%A4%ED%86%A4/%EC%BD%94%EB%9E%84%20%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20597/%EC%8A%A4%ED%86%A4/%EC%BD%94%EB%9E%84%20%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20597/%EC%8A%A4%ED%86%A4/%EC%BD%94%EB%9E%84%20%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "스톤",
-      "thickness": "10.5T",
-      "size": "597x597mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 스퀘어 597_스톤"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-스퀘어-597_우드-그레인-오크",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 597_우드",
-    "subLine": "우드",
-    "name": "그레인 오크",
-    "code": "그레인 오크",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20597/%EC%9A%B0%EB%93%9C/%EA%B7%B8%EB%A0%88%EC%9D%B8%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20597/%EC%9A%B0%EB%93%9C/%EA%B7%B8%EB%A0%88%EC%9D%B8%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20597/%EC%9A%B0%EB%93%9C/%EA%B7%B8%EB%A0%88%EC%9D%B8%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "우드",
-      "thickness": "10.5T",
-      "size": "597x597mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 스퀘어 597_우드"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-스퀘어-597_우드-마운틴-포그",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 597_우드",
-    "subLine": "우드",
-    "name": "마운틴 포그",
-    "code": "마운틴 포그",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20597/%EC%9A%B0%EB%93%9C/%EB%A7%88%EC%9A%B4%ED%8B%B4%20%ED%8F%AC%EA%B7%B8.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20597/%EC%9A%B0%EB%93%9C/%EB%A7%88%EC%9A%B4%ED%8B%B4%20%ED%8F%AC%EA%B7%B8.png",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20597/%EC%9A%B0%EB%93%9C/%EB%A7%88%EC%9A%B4%ED%8B%B4%20%ED%8F%AC%EA%B7%B8.png"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "우드",
-      "thickness": "10.5T",
-      "size": "597x597mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 스퀘어 597_우드"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-스퀘어-597_우드-웨이브-월넛",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 597_우드",
-    "subLine": "우드",
-    "name": "웨이브 월넛",
-    "code": "웨이브 월넛",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20597/%EC%9A%B0%EB%93%9C/%EC%9B%A8%EC%9D%B4%EB%B8%8C%20%EC%9B%94%EB%84%9B.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20597/%EC%9A%B0%EB%93%9C/%EC%9B%A8%EC%9D%B4%EB%B8%8C%20%EC%9B%94%EB%84%9B.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20597/%EC%9A%B0%EB%93%9C/%EC%9B%A8%EC%9D%B4%EB%B8%8C%20%EC%9B%94%EB%84%9B.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "우드",
-      "thickness": "10.5T",
-      "size": "597x597mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 스퀘어 597_우드"
-  },
-  {
-    "id": "마루-이건-프리미엄-강마루_그린_그린-스퀘어-597_유니크-핀도스-솔트",
-    "category": "마루",
-    "brand": "이건",
-    "line": "프리미엄 강마루_그린_그린 스퀘어 597_유니크",
-    "subLine": "유니크",
-    "name": "핀도스 솔트",
-    "code": "핀도스 솔트",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20597/%EC%9C%A0%EB%8B%88%ED%81%AC/%ED%95%80%EB%8F%84%EC%8A%A4%20%EC%86%94%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20597/%EC%9C%A0%EB%8B%88%ED%81%AC/%ED%95%80%EB%8F%84%EC%8A%A4%20%EC%86%94%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EC%9D%B4%EA%B1%B4/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%A6%B0/%EA%B7%B8%EB%A6%B0%20%EC%8A%A4%ED%80%98%EC%96%B4%20597/%EC%9C%A0%EB%8B%88%ED%81%AC/%ED%95%80%EB%8F%84%EC%8A%A4%20%EC%86%94%ED%8A%B8.jpg"
-    ],
-    "price": 0,
-    "thickness": "10.5T",
-    "specs": {
-      "division": "유니크",
-      "thickness": "10.5T",
-      "size": "597x597mm",
-      "packing": "박스단위"
-    },
-    "description": "프리미엄 강마루_그린_그린 스퀘어 597_유니크"
   },
   {
     "id": "벽지-lx-디아망_lx_디아망-pr002-01",
@@ -90105,4743 +86467,3527 @@ export const materials = [
     "description": ""
   },
   {
-    "id": "데코타일-lx-프레스티지-ptt6952",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "프레스티지",
-    "subLine": "프레스티지",
-    "collection": "PRESTG",
-    "series": "Sand / Lime 600",
-    "code": "PTT6952",
-    "name": "샌드 베이지",
-    "productName": "LX 프레스티지 PTT6952 샌드 베이지",
-    "spec": "5.0T x 600 x 600mm",
-    "package": "5pcs / Box / 1.80㎡",
+    "id": "eagon-largo-sole-240-t4-new-cumulus",
+    "category": "마루",
+    "brand": "이건",
+    "line": "라르고 솔레 240 T4",
+    "subLine": "라르고 솔레 240 T4",
+    "name": "뉴 큐뮬러스",
+    "productName": "뉴 큐뮬러스_라르고 솔레 240 T4",
+    "code": null,
+    "collection": "LARGO",
+    "series": "원목마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 큐뮬러스.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 큐뮬러스.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 큐뮬러스.jpg"
+    ],
     "price": null,
-    "catalog": "LVT 프리미엄 5T (프레스티지)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6952%20%EC%83%8C%EB%93%9C%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6952%20%EC%83%8C%EB%93%9C%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6952%20%EC%83%8C%EB%93%9C%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "14T",
     "specs": {
-      "division": "프레스티지",
-      "thickness": "5.0T",
-      "size": "600 x 600mm",
-      "packing": "5pcs / Box / 1.80㎡"
+      "division": "라르고 솔레 240 T4",
+      "thickness": "14T",
+      "size": "T14(4) x W240 x L2,200mm",
+      "packing": ""
     },
-    "description": "프레스티지"
+    "description": "라르고 솔레 240 T4",
+    "note": "원목마루 / 4mm 원목 / 240mm 하이엔드 사이즈",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-프레스티지-ptt6953",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "프레스티지",
-    "subLine": "프레스티지",
-    "collection": "PRESTG",
-    "series": "Sand / Lime 600",
-    "code": "PTT6953",
-    "name": "솔리드 칩",
-    "productName": "LX 프레스티지 PTT6953 솔리드 칩",
-    "spec": "5.0T x 600 x 600mm",
-    "package": "5pcs / Box / 1.80㎡",
+    "id": "eagon-largo-sole-240-t4-new-sand",
+    "category": "마루",
+    "brand": "이건",
+    "line": "라르고 솔레 240 T4",
+    "subLine": "라르고 솔레 240 T4",
+    "name": "뉴 샌드",
+    "productName": "뉴 샌드_라르고 솔레 240 T4",
+    "code": null,
+    "collection": "LARGO",
+    "series": "원목마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 샌드.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 샌드.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 샌드.jpg"
+    ],
     "price": null,
-    "catalog": "LVT 프리미엄 5T (프레스티지)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6953%20%EC%86%94%EB%A6%AC%EB%93%9C%20%EC%B9%A9.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6953%20%EC%86%94%EB%A6%AC%EB%93%9C%20%EC%B9%A9.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6953%20%EC%86%94%EB%A6%AC%EB%93%9C%20%EC%B9%A9.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "14T",
     "specs": {
-      "division": "프레스티지",
-      "thickness": "5.0T",
-      "size": "600 x 600mm",
-      "packing": "5pcs / Box / 1.80㎡"
+      "division": "라르고 솔레 240 T4",
+      "thickness": "14T",
+      "size": "T14(4) x W240 x L2,200mm",
+      "packing": ""
     },
-    "description": "프레스티지"
+    "description": "라르고 솔레 240 T4",
+    "note": "원목마루 / 4mm 원목 / 240mm 하이엔드 사이즈",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-프레스티지-ptt6950",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "프레스티지",
-    "subLine": "프레스티지",
-    "collection": "PRESTG",
-    "series": "Concrete 600",
-    "code": "PTT6950",
-    "name": "미스티 콘크리트",
-    "productName": "LX 프레스티지 PTT6950 미스티 콘크리트",
-    "spec": "5.0T x 600 x 600mm",
-    "package": "5pcs / Box / 1.80㎡",
+    "id": "eagon-largo-sole-240-t4-new-oak-s",
+    "category": "마루",
+    "brand": "이건",
+    "line": "라르고 솔레 240 T4",
+    "subLine": "라르고 솔레 240 T4",
+    "name": "뉴 오크 에스",
+    "productName": "뉴 오크 에스_라르고 솔레 240 T4",
+    "code": null,
+    "collection": "LARGO",
+    "series": "원목마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 오크 에스.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 오크 에스.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 오크 에스.jpg"
+    ],
     "price": null,
-    "catalog": "LVT 프리미엄 5T (프레스티지)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6950%20%EB%AF%B8%EC%8A%A4%ED%8B%B0%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6950%20%EB%AF%B8%EC%8A%A4%ED%8B%B0%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6950%20%EB%AF%B8%EC%8A%A4%ED%8B%B0%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "14T",
     "specs": {
-      "division": "프레스티지",
-      "thickness": "5.0T",
-      "size": "600 x 600mm",
-      "packing": "5pcs / Box / 1.80㎡"
+      "division": "라르고 솔레 240 T4",
+      "thickness": "14T",
+      "size": "T14(4) x W240 x L2,200mm",
+      "packing": ""
     },
-    "description": "프레스티지"
+    "description": "라르고 솔레 240 T4",
+    "note": "원목마루 / 4mm 원목 / 240mm 하이엔드 사이즈",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-프레스티지-ptt6913",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "프레스티지",
-    "subLine": "프레스티지",
-    "collection": "PRESTG",
-    "series": "Concrete 600",
-    "code": "PTT6913",
-    "name": "펄 콘크리트",
-    "productName": "LX 프레스티지 PTT6913 펄 콘크리트",
-    "spec": "5.0T x 600 x 600mm",
-    "package": "5pcs / Box / 1.80㎡",
+    "id": "eagon-largo-sole-240-t4-new-sunrise",
+    "category": "마루",
+    "brand": "이건",
+    "line": "라르고 솔레 240 T4",
+    "subLine": "라르고 솔레 240 T4",
+    "name": "뉴 썬라이즈",
+    "productName": "뉴 썬라이즈_라르고 솔레 240 T4",
+    "code": null,
+    "collection": "LARGO",
+    "series": "원목마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 썬라이즈.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 썬라이즈.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 썬라이즈.jpg"
+    ],
     "price": null,
-    "catalog": "LVT 프리미엄 5T (프레스티지)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6913%20%ED%8E%84%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6913%20%ED%8E%84%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6913%20%ED%8E%84%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "14T",
     "specs": {
-      "division": "프레스티지",
-      "thickness": "5.0T",
-      "size": "600 x 600mm",
-      "packing": "5pcs / Box / 1.80㎡"
+      "division": "라르고 솔레 240 T4",
+      "thickness": "14T",
+      "size": "T14(4) x W240 x L2,200mm",
+      "packing": ""
     },
-    "description": "프레스티지"
+    "description": "라르고 솔레 240 T4",
+    "note": "원목마루 / 4mm 원목 / 240mm 하이엔드 사이즈",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-프레스티지-ptt6910",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "프레스티지",
-    "subLine": "프레스티지",
-    "collection": "PRESTG",
-    "series": "Concrete 600",
-    "code": "PTT6910",
-    "name": "메탈",
-    "productName": "LX 프레스티지 PTT6910 메탈",
-    "spec": "5.0T x 600 x 600mm",
-    "package": "5pcs / Box / 1.80㎡",
+    "id": "eagon-largo-sole-240-t4-new-eclipse",
+    "category": "마루",
+    "brand": "이건",
+    "line": "라르고 솔레 240 T4",
+    "subLine": "라르고 솔레 240 T4",
+    "name": "뉴 이클립스",
+    "productName": "뉴 이클립스_라르고 솔레 240 T4",
+    "code": null,
+    "collection": "LARGO",
+    "series": "원목마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 이클립스.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 이클립스.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 이클립스.jpg"
+    ],
     "price": null,
-    "catalog": "LVT 프리미엄 5T (프레스티지)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6910%20%EB%A9%94%ED%83%88.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6910%20%EB%A9%94%ED%83%88.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6910%20%EB%A9%94%ED%83%88.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "14T",
     "specs": {
-      "division": "프레스티지",
-      "thickness": "5.0T",
-      "size": "600 x 600mm",
-      "packing": "5pcs / Box / 1.80㎡"
+      "division": "라르고 솔레 240 T4",
+      "thickness": "14T",
+      "size": "T14(4) x W240 x L2,200mm",
+      "packing": ""
     },
-    "description": "프레스티지"
+    "description": "라르고 솔레 240 T4",
+    "note": "원목마루 / 4mm 원목 / 240mm 하이엔드 사이즈",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-프레스티지-ptt6912",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "프레스티지",
-    "subLine": "프레스티지",
-    "collection": "PRESTG",
-    "series": "Concrete 600",
-    "code": "PTT6912",
-    "name": "메탈",
-    "productName": "LX 프레스티지 PTT6912 메탈",
-    "spec": "5.0T x 600 x 600mm",
-    "package": "5pcs / Box / 1.80㎡",
+    "id": "eagon-largo-sole-190-t3-mist",
+    "category": "마루",
+    "brand": "이건",
+    "line": "라르고 솔레 190 T3",
+    "subLine": "라르고 솔레 190 T3",
+    "name": "미스트",
+    "productName": "미스트_라르고 솔레 190 T3",
+    "code": null,
+    "collection": "LARGO",
+    "series": "원목마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/미스트.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/미스트.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/미스트.jpg"
+    ],
     "price": null,
-    "catalog": "LVT 프리미엄 5T (프레스티지)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6912%20%EB%A9%94%ED%83%88.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6912%20%EB%A9%94%ED%83%88.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6912%20%EB%A9%94%ED%83%88.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "14T",
     "specs": {
-      "division": "프레스티지",
-      "thickness": "5.0T",
-      "size": "600 x 600mm",
-      "packing": "5pcs / Box / 1.80㎡"
+      "division": "라르고 솔레 190 T3",
+      "thickness": "14T",
+      "size": "T14(3) x W190 x L1,900mm",
+      "packing": ""
     },
-    "description": "프레스티지"
+    "description": "라르고 솔레 190 T3",
+    "note": "원목마루 / 3mm 원목 / 190mm 광폭",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-프레스티지-ptt6951",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "프레스티지",
-    "subLine": "프레스티지",
-    "collection": "PRESTG",
-    "series": "Marble 600",
-    "code": "PTT6951",
-    "name": "모던 그레이",
-    "productName": "LX 프레스티지 PTT6951 모던 그레이",
-    "spec": "5.0T x 600 x 600mm",
-    "package": "5pcs / Box / 1.80㎡",
+    "id": "eagon-largo-sole-190-t3-sand",
+    "category": "마루",
+    "brand": "이건",
+    "line": "라르고 솔레 190 T3",
+    "subLine": "라르고 솔레 190 T3",
+    "name": "샌드",
+    "productName": "샌드_라르고 솔레 190 T3",
+    "code": null,
+    "collection": "LARGO",
+    "series": "원목마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/샌드.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/샌드.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/샌드.jpg"
+    ],
     "price": null,
-    "catalog": "LVT 프리미엄 5T (프레스티지)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6951%20%EB%AA%A8%EB%8D%98%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6951%20%EB%AA%A8%EB%8D%98%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6951%20%EB%AA%A8%EB%8D%98%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "14T",
     "specs": {
-      "division": "프레스티지",
-      "thickness": "5.0T",
-      "size": "600 x 600mm",
-      "packing": "5pcs / Box / 1.80㎡"
+      "division": "라르고 솔레 190 T3",
+      "thickness": "14T",
+      "size": "T14(3) x W190 x L1,900mm",
+      "packing": ""
     },
-    "description": "프레스티지"
+    "description": "라르고 솔레 190 T3",
+    "note": "원목마루 / 3mm 원목 / 190mm 광폭",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-프레스티지-ptt6917",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "프레스티지",
-    "subLine": "프레스티지",
-    "collection": "PRESTG",
-    "series": "Marble 600",
-    "code": "PTT6917",
-    "name": "비안코",
-    "productName": "LX 프레스티지 PTT6917 비안코",
-    "spec": "5.0T x 600 x 600mm",
-    "package": "5pcs / Box / 1.80㎡",
+    "id": "eagon-largo-sole-190-t3-sunrise",
+    "category": "마루",
+    "brand": "이건",
+    "line": "라르고 솔레 190 T3",
+    "subLine": "라르고 솔레 190 T3",
+    "name": "썬라이즈",
+    "productName": "썬라이즈_라르고 솔레 190 T3",
+    "code": null,
+    "collection": "LARGO",
+    "series": "원목마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/썬라이즈.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/썬라이즈.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/썬라이즈.jpg"
+    ],
     "price": null,
-    "catalog": "LVT 프리미엄 5T (프레스티지)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6917%20%EB%B9%84%EC%95%88%EC%BD%94.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6917%20%EB%B9%84%EC%95%88%EC%BD%94.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6917%20%EB%B9%84%EC%95%88%EC%BD%94.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "14T",
     "specs": {
-      "division": "프레스티지",
-      "thickness": "5.0T",
-      "size": "600 x 600mm",
-      "packing": "5pcs / Box / 1.80㎡"
+      "division": "라르고 솔레 190 T3",
+      "thickness": "14T",
+      "size": "T14(3) x W190 x L1,900mm",
+      "packing": ""
     },
-    "description": "프레스티지"
+    "description": "라르고 솔레 190 T3",
+    "note": "원목마루 / 3mm 원목 / 190mm 광폭",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-프레스티지-ptt8696",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "프레스티지",
-    "subLine": "프레스티지",
-    "collection": "PRESTG",
-    "series": "Stone 457.2 x 914.4",
-    "code": "PTT8696",
-    "name": "아이스 골드",
-    "productName": "LX 프레스티지 PTT8696 아이스 골드",
-    "spec": "5.0T x 457.2 x 914.4mm",
-    "package": "5pcs / Box / 2.09㎡",
+    "id": "eagon-largo-sole-190-t3-sunset",
+    "category": "마루",
+    "brand": "이건",
+    "line": "라르고 솔레 190 T3",
+    "subLine": "라르고 솔레 190 T3",
+    "name": "썬셋",
+    "productName": "썬셋_라르고 솔레 190 T3",
+    "code": null,
+    "collection": "LARGO",
+    "series": "원목마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/썬셋.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/썬셋.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/썬셋.jpg"
+    ],
     "price": null,
-    "catalog": "LVT 프리미엄 5T (프레스티지)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT8696%20%EC%95%84%EC%9D%B4%EC%8A%A4%20%EA%B3%A8%EB%93%9C.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT8696%20%EC%95%84%EC%9D%B4%EC%8A%A4%20%EA%B3%A8%EB%93%9C.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT8696%20%EC%95%84%EC%9D%B4%EC%8A%A4%20%EA%B3%A8%EB%93%9C.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "14T",
     "specs": {
-      "division": "프레스티지",
-      "thickness": "5.0T",
-      "size": "457.2 x 914.4mm",
-      "packing": "5pcs / Box / 2.09㎡"
+      "division": "라르고 솔레 190 T3",
+      "thickness": "14T",
+      "size": "T14(3) x W190 x L1,900mm",
+      "packing": ""
     },
-    "description": "프레스티지"
+    "description": "라르고 솔레 190 T3",
+    "note": "원목마루 / 3mm 원목 / 190mm 광폭",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-프레스티지-ptt8698",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "프레스티지",
-    "subLine": "프레스티지",
-    "collection": "PRESTG",
-    "series": "Stone 457.2 x 914.4",
-    "code": "PTT8698",
-    "name": "더스크 브론즈",
-    "productName": "LX 프레스티지 PTT8698 더스크 브론즈",
-    "spec": "5.0T x 457.2 x 914.4mm",
-    "package": "5pcs / Box / 2.09㎡",
+    "id": "eagon-largo-sole-190-t3-teak-s",
+    "category": "마루",
+    "brand": "이건",
+    "line": "라르고 솔레 190 T3",
+    "subLine": "라르고 솔레 190 T3",
+    "name": "티크 에스",
+    "productName": "티크 에스_라르고 솔레 190 T3",
+    "code": null,
+    "collection": "LARGO",
+    "series": "원목마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/티크 에스.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/티크 에스.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/티크 에스.jpg"
+    ],
     "price": null,
-    "catalog": "LVT 프리미엄 5T (프레스티지)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT8698%20%EB%8D%94%EC%8A%A4%ED%81%AC%20%EB%B8%8C%EB%A1%A0%EC%A6%88.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT8698%20%EB%8D%94%EC%8A%A4%ED%81%AC%20%EB%B8%8C%EB%A1%A0%EC%A6%88.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT8698%20%EB%8D%94%EC%8A%A4%ED%81%AC%20%EB%B8%8C%EB%A1%A0%EC%A6%88.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "14T",
     "specs": {
-      "division": "프레스티지",
-      "thickness": "5.0T",
-      "size": "457.2 x 914.4mm",
-      "packing": "5pcs / Box / 2.09㎡"
+      "division": "라르고 솔레 190 T3",
+      "thickness": "14T",
+      "size": "T14(3) x W190 x L1,900mm",
+      "packing": ""
     },
-    "description": "프레스티지"
+    "description": "라르고 솔레 190 T3",
+    "note": "원목마루 / 3mm 원목 / 190mm 광폭",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-프레스티지-ptw7902",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "프레스티지",
-    "subLine": "프레스티지",
-    "collection": "PRESTG",
-    "series": "Wood",
-    "code": "PTW7902",
-    "name": "솔트 오크",
-    "productName": "LX 프레스티지 PTW7902 솔트 오크",
-    "spec": "5.0T x 228.6 x 1523mm",
-    "package": "6pcs / Box / 2.09㎡",
+    "id": "eagon-largo-sole-190-t3-oak-s",
+    "category": "마루",
+    "brand": "이건",
+    "line": "라르고 솔레 190 T3",
+    "subLine": "라르고 솔레 190 T3",
+    "name": "오크 에스",
+    "productName": "오크 에스_라르고 솔레 190 T3",
+    "code": null,
+    "collection": "LARGO",
+    "series": "원목마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/오크 에스.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/오크 에스.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/오크 에스.jpg"
+    ],
     "price": null,
-    "catalog": "LVT 프리미엄 5T (프레스티지)",
-    "note": "EIR 동조엠보",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7902%20%EC%86%94%ED%8A%B8%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7902%20%EC%86%94%ED%8A%B8%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7902%20%EC%86%94%ED%8A%B8%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "14T",
     "specs": {
-      "division": "프레스티지",
-      "thickness": "5.0T",
-      "size": "228.6 x 1523mm",
-      "packing": "6pcs / Box / 2.09㎡"
+      "division": "라르고 솔레 190 T3",
+      "thickness": "14T",
+      "size": "T14(3) x W190 x L1,900mm",
+      "packing": ""
     },
-    "description": "프레스티지"
+    "description": "라르고 솔레 190 T3",
+    "note": "원목마루 / 3mm 원목 / 190mm 광폭",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-프레스티지-ptw7904",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "프레스티지",
-    "subLine": "프레스티지",
-    "collection": "PRESTG",
-    "series": "Wood",
-    "code": "PTW7904",
-    "name": "파인",
-    "productName": "LX 프레스티지 PTW7904 파인",
-    "spec": "5.0T x 228.6 x 1523mm",
-    "package": "6pcs / Box / 2.09㎡",
+    "id": "eagon-largo-sole-190-t1-new-cumulus",
+    "category": "마루",
+    "brand": "이건",
+    "line": "라르고 솔레 190 T1",
+    "subLine": "라르고 솔레 190 T1",
+    "name": "뉴 큐뮬러스",
+    "productName": "뉴 큐뮬러스_라르고 솔레 190 T1",
+    "code": null,
+    "collection": "LARGO",
+    "series": "원목마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 큐뮬러스.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 큐뮬러스.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 큐뮬러스.jpg"
+    ],
     "price": null,
-    "catalog": "LVT 프리미엄 5T (프레스티지)",
-    "note": "EIR 동조엠보",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7904%20%ED%8C%8C%EC%9D%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7904%20%ED%8C%8C%EC%9D%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7904%20%ED%8C%8C%EC%9D%B8.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "12T",
     "specs": {
-      "division": "프레스티지",
-      "thickness": "5.0T",
-      "size": "228.6 x 1523mm",
-      "packing": "6pcs / Box / 2.09㎡"
+      "division": "라르고 솔레 190 T1",
+      "thickness": "12T",
+      "size": "T12(1.2) x W190 x L1,900mm",
+      "packing": ""
     },
-    "description": "프레스티지"
+    "description": "라르고 솔레 190 T1",
+    "note": "원목마루 / 1.2mm 원목 / 190mm 광폭",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-프레스티지-ptw7961",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "프레스티지",
-    "subLine": "프레스티지",
-    "collection": "PRESTG",
-    "series": "Wood",
-    "code": "PTW7961",
-    "name": "어반 사하라",
-    "productName": "LX 프레스티지 PTW7961 어반 사하라",
-    "spec": "5.0T x 228.6 x 1523mm",
-    "package": "6pcs / Box / 2.09㎡",
+    "id": "eagon-largo-sole-190-t1-new-sand",
+    "category": "마루",
+    "brand": "이건",
+    "line": "라르고 솔레 190 T1",
+    "subLine": "라르고 솔레 190 T1",
+    "name": "뉴 샌드",
+    "productName": "뉴 샌드_라르고 솔레 190 T1",
+    "code": null,
+    "collection": "LARGO",
+    "series": "원목마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 샌드.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 샌드.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 샌드.jpg"
+    ],
     "price": null,
-    "catalog": "LVT 프리미엄 5T (프레스티지)",
-    "note": "EIR 동조엠보",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7961%20%EC%96%B4%EB%B0%98%20%EC%82%AC%ED%95%98%EB%9D%BC.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7961%20%EC%96%B4%EB%B0%98%20%EC%82%AC%ED%95%98%EB%9D%BC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7961%20%EC%96%B4%EB%B0%98%20%EC%82%AC%ED%95%98%EB%9D%BC.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "12T",
     "specs": {
-      "division": "프레스티지",
-      "thickness": "5.0T",
-      "size": "228.6 x 1523mm",
-      "packing": "6pcs / Box / 2.09㎡"
+      "division": "라르고 솔레 190 T1",
+      "thickness": "12T",
+      "size": "T12(1.2) x W190 x L1,900mm",
+      "packing": ""
     },
-    "description": "프레스티지"
+    "description": "라르고 솔레 190 T1",
+    "note": "원목마루 / 1.2mm 원목 / 190mm 광폭",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-프레스티지-ptw7964",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "프레스티지",
-    "subLine": "프레스티지",
-    "collection": "PRESTG",
-    "series": "Wood",
-    "code": "PTW7964",
-    "name": "아메리칸 오크",
-    "productName": "LX 프레스티지 PTW7964 아메리칸 오크",
-    "spec": "5.0T x 228.6 x 1523mm",
-    "package": "6pcs / Box / 2.09㎡",
+    "id": "eagon-largo-sole-190-t1-new-oak-s",
+    "category": "마루",
+    "brand": "이건",
+    "line": "라르고 솔레 190 T1",
+    "subLine": "라르고 솔레 190 T1",
+    "name": "뉴 오크 에스",
+    "productName": "뉴 오크 에스_라르고 솔레 190 T1",
+    "code": null,
+    "collection": "LARGO",
+    "series": "원목마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 오크 에스.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 오크 에스.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 오크 에스.jpg"
+    ],
     "price": null,
-    "catalog": "LVT 프리미엄 5T (프레스티지)",
-    "note": "EIR 동조엠보",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7964%20%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B8%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7964%20%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B8%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7964%20%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B8%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "12T",
     "specs": {
-      "division": "프레스티지",
-      "thickness": "5.0T",
-      "size": "228.6 x 1523mm",
-      "packing": "6pcs / Box / 2.09㎡"
+      "division": "라르고 솔레 190 T1",
+      "thickness": "12T",
+      "size": "T12(1.2) x W190 x L1,900mm",
+      "packing": ""
     },
-    "description": "프레스티지"
+    "description": "라르고 솔레 190 T1",
+    "note": "원목마루 / 1.2mm 원목 / 190mm 광폭",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-하우스스타일-zow0714",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "하우스 스타일",
-    "subLine": "하우스 스타일",
-    "collection": "House Style",
-    "series": "Wood",
-    "code": "ZOW 0714",
-    "name": "프렌치 애쉬",
-    "productName": "LX 하우스 스타일 ZOW 0714 프렌치 애쉬",
-    "spec": "3.0T x 150 x 1200mm",
-    "package": "18pcs / Box / 3.24㎡",
-    "price": 44000,
-    "catalog": "하우스 타일 스탠다드(하우스 스타일)",
-    "note": "EIR 동조엠보",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOW%200714%20%ED%94%84%EB%A0%8C%EC%B9%98%20%EC%95%A0%EC%89%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOW%200714%20%ED%94%84%EB%A0%8C%EC%B9%98%20%EC%95%A0%EC%89%AC.jpg",
+    "id": "eagon-largo-sole-190-t1-new-sunrise",
+    "category": "마루",
+    "brand": "이건",
+    "line": "라르고 솔레 190 T1",
+    "subLine": "라르고 솔레 190 T1",
+    "name": "뉴 썬라이즈",
+    "productName": "뉴 썬라이즈_라르고 솔레 190 T1",
+    "code": null,
+    "collection": "LARGO",
+    "series": "원목마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 썬라이즈.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 썬라이즈.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOW%200714%20%ED%94%84%EB%A0%8C%EC%B9%98%20%EC%95%A0%EC%89%AC.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 썬라이즈.jpg"
     ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "하우스 스타일",
-      "thickness": "3.0T",
-      "size": "150 x 1200mm",
-      "packing": "18pcs / Box / 3.24㎡"
-    },
-    "description": "하우스 스타일"
-  },
-  {
-    "id": "데코타일-lx-oa타일-oap6562",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "OA타일",
-    "subLine": "OA타일",
-    "collection": "Looselay Standard OA",
-    "series": "Stone",
-    "code": "OAP 6562",
-    "name": "라임스톤 샌드",
-    "productName": "LX OA타일 OAP 6562 라임스톤 샌드",
-    "spec": "5.0T x 500 x 500mm",
-    "package": "12pcs / Box / 3.00㎡",
     "price": null,
-    "catalog": "Looselay 스탠다드 OA (OA타일)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206562%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EC%83%8C%EB%93%9C.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206562%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EC%83%8C%EB%93%9C.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206562%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EC%83%8C%EB%93%9C.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "12T",
     "specs": {
-      "division": "OA타일",
-      "thickness": "5.0T",
-      "size": "500 x 500mm",
-      "packing": "12pcs / Box / 3.00㎡"
+      "division": "라르고 솔레 190 T1",
+      "thickness": "12T",
+      "size": "T12(1.2) x W190 x L1,900mm",
+      "packing": ""
     },
-    "description": "OA타일"
+    "description": "라르고 솔레 190 T1",
+    "note": "원목마루 / 1.2mm 원목 / 190mm 광폭",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-oa타일-oap6561",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "OA타일",
-    "subLine": "OA타일",
-    "collection": "Looselay Standard OA",
-    "series": "Stone",
-    "code": "OAP 6561",
-    "name": "라임스톤 그레이",
-    "productName": "LX OA타일 OAP 6561 라임스톤 그레이",
-    "spec": "5.0T x 500 x 500mm",
-    "package": "12pcs / Box / 3.00㎡",
+    "id": "eagon-largo-sole-190-t1-new-eclipse",
+    "category": "마루",
+    "brand": "이건",
+    "line": "라르고 솔레 190 T1",
+    "subLine": "라르고 솔레 190 T1",
+    "name": "뉴 이클립스",
+    "productName": "뉴 이클립스_라르고 솔레 190 T1",
+    "code": null,
+    "collection": "LARGO",
+    "series": "원목마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 이클립스.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 이클립스.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 이클립스.jpg"
+    ],
     "price": null,
-    "catalog": "Looselay 스탠다드 OA (OA타일)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206561%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206561%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206561%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "12T",
     "specs": {
-      "division": "OA타일",
-      "thickness": "5.0T",
-      "size": "500 x 500mm",
-      "packing": "12pcs / Box / 3.00㎡"
+      "division": "라르고 솔레 190 T1",
+      "thickness": "12T",
+      "size": "T12(1.2) x W190 x L1,900mm",
+      "packing": ""
     },
-    "description": "OA타일"
+    "description": "라르고 솔레 190 T1",
+    "note": "원목마루 / 1.2mm 원목 / 190mm 광폭",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-oa타일-oap6550",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "OA타일",
-    "subLine": "OA타일",
-    "collection": "Looselay Standard OA",
-    "series": "Stone",
-    "code": "OAP 6550",
-    "name": "콘크리트 그레이",
-    "productName": "LX OA타일 OAP 6550 콘크리트 그레이",
-    "spec": "5.0T x 500 x 500mm",
-    "package": "12pcs / Box / 3.00㎡",
+    "id": "eagon-foresta-g-new-cashmere-white",
+    "category": "마루",
+    "brand": "이건",
+    "line": "포레스타 G",
+    "subLine": "포레스타 G",
+    "name": "뉴 캐시미어 화이트",
+    "productName": "뉴 캐시미어 화이트_포레스타 G",
+    "code": null,
+    "collection": "FORESTA G",
+    "series": "천연마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 캐시미어 화이트.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 캐시미어 화이트.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 캐시미어 화이트.jpg"
+    ],
     "price": null,
-    "catalog": "Looselay 스탠다드 OA (OA타일)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206550%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206550%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206550%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "11T",
     "specs": {
-      "division": "OA타일",
-      "thickness": "5.0T",
-      "size": "500 x 500mm",
-      "packing": "12pcs / Box / 3.00㎡"
+      "division": "포레스타 G",
+      "thickness": "11T",
+      "size": "T11 x W190 x L1,900mm",
+      "packing": ""
     },
-    "description": "OA타일"
+    "description": "포레스타 G",
+    "note": "천연마루 / 11T / 광폭",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-oa타일-oap6552",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "OA타일",
-    "subLine": "OA타일",
-    "collection": "Looselay Standard OA",
-    "series": "Stone",
-    "code": "OAP 6552",
-    "name": "콘크리트 다크그레이",
-    "productName": "LX OA타일 OAP 6552 콘크리트 다크그레이",
-    "spec": "5.0T x 500 x 500mm",
-    "package": "12pcs / Box / 3.00㎡",
+    "id": "eagon-foresta-g-new-husk-beige",
+    "category": "마루",
+    "brand": "이건",
+    "line": "포레스타 G",
+    "subLine": "포레스타 G",
+    "name": "뉴 허스크 베이지",
+    "productName": "뉴 허스크 베이지_포레스타 G",
+    "code": null,
+    "collection": "FORESTA G",
+    "series": "천연마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 허스크 베이지.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 허스크 베이지.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 허스크 베이지.jpg"
+    ],
     "price": null,
-    "catalog": "Looselay 스탠다드 OA (OA타일)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206552%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8%20%EB%8B%A4%ED%81%AC%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206552%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8%20%EB%8B%A4%ED%81%AC%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206552%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8%20%EB%8B%A4%ED%81%AC%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "11T",
     "specs": {
-      "division": "OA타일",
-      "thickness": "5.0T",
-      "size": "500 x 500mm",
-      "packing": "12pcs / Box / 3.00㎡"
+      "division": "포레스타 G",
+      "thickness": "11T",
+      "size": "T11 x W190 x L1,900mm",
+      "packing": ""
     },
-    "description": "OA타일"
+    "description": "포레스타 G",
+    "note": "천연마루 / 11T / 광폭",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-oa타일-oap0061",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "OA타일",
-    "subLine": "OA타일",
-    "collection": "Looselay Standard OA",
-    "series": "Stone",
-    "code": "OAP 0061",
-    "name": "마블 라이트",
-    "productName": "LX OA타일 OAP 0061 마블 라이트",
-    "spec": "5.0T x 500 x 500mm",
-    "package": "12pcs / Box / 3.00㎡",
+    "id": "eagon-foresta-g-new-marigold",
+    "category": "마루",
+    "brand": "이건",
+    "line": "포레스타 G",
+    "subLine": "포레스타 G",
+    "name": "뉴 매리골드",
+    "productName": "뉴 매리골드_포레스타 G",
+    "code": null,
+    "collection": "FORESTA G",
+    "series": "천연마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 매리골드.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 매리골드.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 매리골드.jpg"
+    ],
     "price": null,
-    "catalog": "Looselay 스탠다드 OA (OA타일)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200061%20%EB%A7%88%EB%B8%94%20%EB%9D%BC%EC%9D%B4%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200061%20%EB%A7%88%EB%B8%94%20%EB%9D%BC%EC%9D%B4%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200061%20%EB%A7%88%EB%B8%94%20%EB%9D%BC%EC%9D%B4%ED%8A%B8.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "11T",
     "specs": {
-      "division": "OA타일",
-      "thickness": "5.0T",
-      "size": "500 x 500mm",
-      "packing": "12pcs / Box / 3.00㎡"
+      "division": "포레스타 G",
+      "thickness": "11T",
+      "size": "T11 x W190 x L1,900mm",
+      "packing": ""
     },
-    "description": "OA타일"
+    "description": "포레스타 G",
+    "note": "천연마루 / 11T / 광폭",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-oa타일-oap0052",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "OA타일",
-    "subLine": "OA타일",
-    "collection": "Looselay Standard OA",
-    "series": "Stone",
-    "code": "OAP 0052",
-    "name": "마블 그레이",
-    "productName": "LX OA타일 OAP 0052 마블 그레이",
-    "spec": "5.0T x 500 x 500mm",
-    "package": "12pcs / Box / 3.00㎡",
+    "id": "eagon-foresta-g-new-onix-black",
+    "category": "마루",
+    "brand": "이건",
+    "line": "포레스타 G",
+    "subLine": "포레스타 G",
+    "name": "뉴 오닉스 블랙",
+    "productName": "뉴 오닉스 블랙_포레스타 G",
+    "code": null,
+    "collection": "FORESTA G",
+    "series": "천연마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 오닉스 블랙.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 오닉스 블랙.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 오닉스 블랙.jpg"
+    ],
     "price": null,
-    "catalog": "Looselay 스탠다드 OA (OA타일)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200052%20%EB%A7%88%EB%B8%94%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200052%20%EB%A7%88%EB%B8%94%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200052%20%EB%A7%88%EB%B8%94%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "11T",
     "specs": {
-      "division": "OA타일",
-      "thickness": "5.0T",
-      "size": "500 x 500mm",
-      "packing": "12pcs / Box / 3.00㎡"
+      "division": "포레스타 G",
+      "thickness": "11T",
+      "size": "T11 x W190 x L1,900mm",
+      "packing": ""
     },
-    "description": "OA타일"
+    "description": "포레스타 G",
+    "note": "천연마루 / 11T / 광폭",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-oa타일-oap6571",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "OA타일",
-    "subLine": "OA타일",
-    "collection": "Looselay Standard OA",
-    "series": "Stone",
-    "code": "OAP 6571",
-    "name": "테라조 그레이",
-    "productName": "LX OA타일 OAP 6571 테라조 그레이",
-    "spec": "5.0T x 500 x 500mm",
-    "package": "12pcs / Box / 3.00㎡",
+    "id": "eagon-foresta-g-new-almond-yellow",
+    "category": "마루",
+    "brand": "이건",
+    "line": "포레스타 G",
+    "subLine": "포레스타 G",
+    "name": "뉴 아몬드 옐로우",
+    "productName": "뉴 아몬드 옐로우_포레스타 G",
+    "code": null,
+    "collection": "FORESTA G",
+    "series": "천연마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 아몬드 옐로우.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 아몬드 옐로우.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 아몬드 옐로우.jpg"
+    ],
     "price": null,
-    "catalog": "Looselay 스탠다드 OA (OA타일)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206571%20%ED%85%8C%EB%9D%BC%EC%A1%B0%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206571%20%ED%85%8C%EB%9D%BC%EC%A1%B0%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%206571%20%ED%85%8C%EB%9D%BC%EC%A1%B0%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "11T",
     "specs": {
-      "division": "OA타일",
-      "thickness": "5.0T",
-      "size": "500 x 500mm",
-      "packing": "12pcs / Box / 3.00㎡"
+      "division": "포레스타 G",
+      "thickness": "11T",
+      "size": "T11 x W190 x L1,900mm",
+      "packing": ""
     },
-    "description": "OA타일"
+    "description": "포레스타 G",
+    "note": "천연마루 / 11T / 광폭",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-oa타일-oap0563",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "OA타일",
-    "subLine": "OA타일",
-    "collection": "Looselay Standard OA",
-    "series": "Carpet",
-    "code": "OAP 0563",
-    "name": "솔리드카펫 그레이",
-    "productName": "LX OA타일 OAP 0563 솔리드카펫 그레이",
-    "spec": "5.0T x 500 x 500mm",
-    "package": "12pcs / Box / 3.00㎡",
+    "id": "eagon-foresta-oak-light",
+    "category": "마루",
+    "brand": "이건",
+    "line": "포레스타",
+    "subLine": "포레스타",
+    "name": "오크 라이트",
+    "productName": "오크 라이트_포레스타",
+    "code": null,
+    "collection": "FORESTA",
+    "series": "천연마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/오크 라이트.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/오크 라이트.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/오크 라이트.jpg"
+    ],
     "price": null,
-    "catalog": "Looselay 스탠다드 OA (OA타일)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200563%20%EC%86%94%EB%A6%AC%EB%93%9C%EC%B9%B4%ED%8E%AB%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200563%20%EC%86%94%EB%A6%AC%EB%93%9C%EC%B9%B4%ED%8E%AB%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200563%20%EC%86%94%EB%A6%AC%EB%93%9C%EC%B9%B4%ED%8E%AB%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "10.5T",
     "specs": {
-      "division": "OA타일",
-      "thickness": "5.0T",
-      "size": "500 x 500mm",
-      "packing": "12pcs / Box / 3.00㎡"
+      "division": "포레스타",
+      "thickness": "10.5T",
+      "size": "T10.5 x W165 x L1,200mm",
+      "packing": ""
     },
-    "description": "OA타일"
+    "description": "포레스타",
+    "note": "천연마루",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-oa타일-oap0564",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "OA타일",
-    "subLine": "OA타일",
-    "collection": "Looselay Standard OA",
-    "series": "Carpet",
-    "code": "OAP 0564",
-    "name": "솔리드카펫 다크그레이",
-    "productName": "LX OA타일 OAP 0564 솔리드카펫 다크그레이",
-    "spec": "5.0T x 500 x 500mm",
-    "package": "12pcs / Box / 3.00㎡",
+    "id": "eagon-foresta-oak-natural",
+    "category": "마루",
+    "brand": "이건",
+    "line": "포레스타",
+    "subLine": "포레스타",
+    "name": "오크 내추럴",
+    "productName": "오크 내추럴_포레스타",
+    "code": null,
+    "collection": "FORESTA",
+    "series": "천연마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/오크 내추럴.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/오크 내추럴.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/오크 내추럴.jpg"
+    ],
     "price": null,
-    "catalog": "Looselay 스탠다드 OA (OA타일)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200564%20%EC%86%94%EB%A6%AC%EB%93%9C%EC%B9%B4%ED%8E%AB%20%EB%8B%A4%ED%81%AC%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200564%20%EC%86%94%EB%A6%AC%EB%93%9C%EC%B9%B4%ED%8E%AB%20%EB%8B%A4%ED%81%AC%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200564%20%EC%86%94%EB%A6%AC%EB%93%9C%EC%B9%B4%ED%8E%AB%20%EB%8B%A4%ED%81%AC%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "10.5T",
     "specs": {
-      "division": "OA타일",
-      "thickness": "5.0T",
-      "size": "500 x 500mm",
-      "packing": "12pcs / Box / 3.00㎡"
+      "division": "포레스타",
+      "thickness": "10.5T",
+      "size": "T10.5 x W165 x L1,200mm",
+      "packing": ""
     },
-    "description": "OA타일"
+    "description": "포레스타",
+    "note": "천연마루",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-oa타일-oap0521",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "OA타일",
-    "subLine": "OA타일",
-    "collection": "Looselay Standard OA",
-    "series": "Carpet",
-    "code": "OAP 0521",
-    "name": "솔리드카펫 베이지",
-    "productName": "LX OA타일 OAP 0521 솔리드카펫 베이지",
-    "spec": "5.0T x 500 x 500mm",
-    "package": "12pcs / Box / 3.00㎡",
+    "id": "eagon-foresta-oak-beige",
+    "category": "마루",
+    "brand": "이건",
+    "line": "포레스타",
+    "subLine": "포레스타",
+    "name": "오크 베이지",
+    "productName": "오크 베이지_포레스타",
+    "code": null,
+    "collection": "FORESTA",
+    "series": "천연마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/오크 베이지.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/오크 베이지.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/오크 베이지.jpg"
+    ],
     "price": null,
-    "catalog": "Looselay 스탠다드 OA (OA타일)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200521%20%EC%86%94%EB%A6%AC%EB%93%9C%EC%B9%B4%ED%8E%AB%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200521%20%EC%86%94%EB%A6%AC%EB%93%9C%EC%B9%B4%ED%8E%AB%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200521%20%EC%86%94%EB%A6%AC%EB%93%9C%EC%B9%B4%ED%8E%AB%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "10.5T",
     "specs": {
-      "division": "OA타일",
-      "thickness": "5.0T",
-      "size": "500 x 500mm",
-      "packing": "12pcs / Box / 3.00㎡"
+      "division": "포레스타",
+      "thickness": "10.5T",
+      "size": "T10.5 x W165 x L1,200mm",
+      "packing": ""
     },
-    "description": "OA타일"
+    "description": "포레스타",
+    "note": "천연마루",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-oa타일-oap0504",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "OA타일",
-    "subLine": "OA타일",
-    "collection": "Looselay Standard OA",
-    "series": "Carpet",
-    "code": "OAP 0504",
-    "name": "블럭카펫 다크",
-    "productName": "LX OA타일 OAP 0504 블럭카펫 다크",
-    "spec": "5.0T x 500 x 500mm",
-    "package": "12pcs / Box / 3.00㎡",
+    "id": "eagon-foresta-almond-brown",
+    "category": "마루",
+    "brand": "이건",
+    "line": "포레스타",
+    "subLine": "포레스타",
+    "name": "아몬드 브라운",
+    "productName": "아몬드 브라운_포레스타",
+    "code": null,
+    "collection": "FORESTA",
+    "series": "천연마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/아몬드 브라운.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/아몬드 브라운.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/아몬드 브라운.jpg"
+    ],
     "price": null,
-    "catalog": "Looselay 스탠다드 OA (OA타일)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200504%20%EB%B8%94%EB%9F%AD%EC%B9%B4%ED%8E%AB%20%EB%8B%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200504%20%EB%B8%94%EB%9F%AD%EC%B9%B4%ED%8E%AB%20%EB%8B%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200504%20%EB%B8%94%EB%9F%AD%EC%B9%B4%ED%8E%AB%20%EB%8B%A4%ED%81%AC.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "10.5T",
     "specs": {
-      "division": "OA타일",
-      "thickness": "5.0T",
-      "size": "500 x 500mm",
-      "packing": "12pcs / Box / 3.00㎡"
+      "division": "포레스타",
+      "thickness": "10.5T",
+      "size": "T10.5 x W165 x L1,200mm",
+      "packing": ""
     },
-    "description": "OA타일"
+    "description": "포레스타",
+    "note": "천연마루",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-oa타일-oap0511",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "OA타일",
-    "subLine": "OA타일",
-    "collection": "Looselay Standard OA",
-    "series": "Carpet",
-    "code": "OAP 0511",
-    "name": "버티컬카펫 베이지",
-    "productName": "LX OA타일 OAP 0511 버티컬카펫 베이지",
-    "spec": "5.0T x 500 x 500mm",
-    "package": "12pcs / Box / 3.00㎡",
+    "id": "eagon-foresta-honey-yellow",
+    "category": "마루",
+    "brand": "이건",
+    "line": "포레스타",
+    "subLine": "포레스타",
+    "name": "허니 옐로우",
+    "productName": "허니 옐로우_포레스타",
+    "code": null,
+    "collection": "FORESTA",
+    "series": "천연마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/허니 옐로우.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/허니 옐로우.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/허니 옐로우.jpg"
+    ],
     "price": null,
-    "catalog": "Looselay 스탠다드 OA (OA타일)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200511%20%EB%B2%84%ED%8B%B0%EC%BB%AC%EC%B9%B4%ED%8E%AB%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200511%20%EB%B2%84%ED%8B%B0%EC%BB%AC%EC%B9%B4%ED%8E%AB%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200511%20%EB%B2%84%ED%8B%B0%EC%BB%AC%EC%B9%B4%ED%8E%AB%20%EB%B2%A0%EC%9D%B4%EC%A7%80.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "10.5T",
     "specs": {
-      "division": "OA타일",
-      "thickness": "5.0T",
-      "size": "500 x 500mm",
-      "packing": "12pcs / Box / 3.00㎡"
+      "division": "포레스타",
+      "thickness": "10.5T",
+      "size": "T10.5 x W165 x L1,200mm",
+      "packing": ""
     },
-    "description": "OA타일"
+    "description": "포레스타",
+    "note": "천연마루",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-oa타일-oap0512",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "OA타일",
-    "subLine": "OA타일",
-    "collection": "Looselay Standard OA",
-    "series": "Carpet",
-    "code": "OAP 0512",
-    "name": "버티컬카펫 그레이",
-    "productName": "LX OA타일 OAP 0512 버티컬카펫 그레이",
-    "spec": "5.0T x 500 x 500mm",
-    "package": "12pcs / Box / 3.00㎡",
+    "id": "eagon-foresta-sunsu-beige",
+    "category": "마루",
+    "brand": "이건",
+    "line": "포레스타",
+    "subLine": "포레스타",
+    "name": "순수 베이지",
+    "productName": "순수 베이지_포레스타",
+    "code": null,
+    "collection": "FORESTA",
+    "series": "천연마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/순수 베이지.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/순수 베이지.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/순수 베이지.jpg"
+    ],
     "price": null,
-    "catalog": "Looselay 스탠다드 OA (OA타일)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200512%20%EB%B2%84%ED%8B%B0%EC%BB%AC%EC%B9%B4%ED%8E%AB%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200512%20%EB%B2%84%ED%8B%B0%EC%BB%AC%EC%B9%B4%ED%8E%AB%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200512%20%EB%B2%84%ED%8B%B0%EC%BB%AC%EC%B9%B4%ED%8E%AB%20%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "10.5T",
     "specs": {
-      "division": "OA타일",
-      "thickness": "5.0T",
-      "size": "500 x 500mm",
-      "packing": "12pcs / Box / 3.00㎡"
+      "division": "포레스타",
+      "thickness": "10.5T",
+      "size": "T10.5 x W165 x L1,200mm",
+      "packing": ""
     },
-    "description": "OA타일"
+    "description": "포레스타",
+    "note": "천연마루",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-oa타일-oap0542",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "OA타일",
-    "subLine": "OA타일",
-    "collection": "Looselay Standard OA",
-    "series": "Carpet",
-    "code": "OAP 0542",
-    "name": "우븐 다크그레이",
-    "productName": "LX OA타일 OAP 0542 우븐 다크그레이",
-    "spec": "5.0T x 500 x 500mm",
-    "package": "12pcs / Box / 3.00㎡",
+    "id": "eagon-foresta-mocha-grey",
+    "category": "마루",
+    "brand": "이건",
+    "line": "포레스타",
+    "subLine": "포레스타",
+    "name": "모카 그레이",
+    "productName": "모카 그레이_포레스타",
+    "code": null,
+    "collection": "FORESTA",
+    "series": "천연마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/모카 그레이.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/모카 그레이.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/모카 그레이.jpg"
+    ],
     "price": null,
-    "catalog": "Looselay 스탠다드 OA (OA타일)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200542%20%EC%9A%B0%EB%B8%90%20%EB%8B%A4%ED%81%AC%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200542%20%EC%9A%B0%EB%B8%90%20%EB%8B%A4%ED%81%AC%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/OA타일/OAP%200542%20%EC%9A%B0%EB%B8%90%20%EB%8B%A4%ED%81%AC%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg"
-    ],
-    "thickness": "5.0T",
+    "thickness": "10.5T",
     "specs": {
-      "division": "OA타일",
-      "thickness": "5.0T",
-      "size": "500 x 500mm",
-      "packing": "12pcs / Box / 3.00㎡"
+      "division": "포레스타",
+      "thickness": "10.5T",
+      "size": "T10.5 x W165 x L1,200mm",
+      "packing": ""
     },
-    "description": "OA타일"
+    "description": "포레스타",
+    "note": "천연마루",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3085",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "보타닉",
-    "subLine": "보타닉",
-    "collection": "BOTANIC",
-    "series": "600 Square",
-    "code": "DBT 3085",
-    "name": "카펫",
-    "productName": "LX 보타닉 DBT 3085 카펫",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 28000,
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203085%20%EC%B9%B4%ED%8E%AB.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203085%20%EC%B9%B4%ED%8E%AB.jpg",
+    "id": "eagon-grin-mild-cream",
+    "category": "마루",
+    "brand": "이건",
+    "line": "그린",
+    "subLine": "그린",
+    "name": "마일드 크림",
+    "productName": "마일드 크림_그린",
+    "code": null,
+    "collection": "GRIN",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 크림.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 크림.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203085%20%EC%B9%B4%ED%8E%AB.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 크림.jpg"
     ],
-    "thickness": "3.0T",
+    "price": null,
+    "thickness": "10.5T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
+      "division": "그린",
+      "thickness": "10.5T",
+      "size": "T10.5 x W230 x L2,430mm",
+      "packing": ""
     },
-    "description": "보타닉"
+    "description": "그린",
+    "note": "프리미엄 강마루 / 10.5T / 4개 규격",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "230",
+        "spec": "T10.5 x W230 x L2,430mm",
+        "thickness": "10.5T",
+        "width": "230mm",
+        "length": "2,430mm",
+        "package": "",
+        "price": null
+      },
+      {
+        "label": "190",
+        "spec": "T10.5 x W190 x L1,615mm",
+        "thickness": "10.5T",
+        "width": "190mm",
+        "length": "1,615mm",
+        "package": "",
+        "price": null
+      },
+      {
+        "label": "165",
+        "spec": "T10.5 x W165 x L1,200mm",
+        "thickness": "10.5T",
+        "width": "165mm",
+        "length": "1,200mm",
+        "package": "",
+        "price": null
+      },
+      {
+        "label": "125",
+        "spec": "T10.5 x W125 x L800mm",
+        "thickness": "10.5T",
+        "width": "125mm",
+        "length": "800mm",
+        "package": "",
+        "price": null
+      }
+    ]
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3080",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "보타닉",
-    "subLine": "보타닉",
-    "collection": "BOTANIC",
-    "series": "600 Square",
-    "code": "DBT 3080",
-    "name": "콘크리트",
-    "productName": "LX 보타닉 DBT 3080 콘크리트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 28000,
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203080%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203080%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "id": "eagon-grin-mild-beige",
+    "category": "마루",
+    "brand": "이건",
+    "line": "그린",
+    "subLine": "그린",
+    "name": "마일드 베이지",
+    "productName": "마일드 베이지_그린",
+    "code": null,
+    "collection": "GRIN",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 베이지.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 베이지.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203080%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 베이지.jpg"
     ],
-    "thickness": "3.0T",
+    "price": null,
+    "thickness": "10.5T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
+      "division": "그린",
+      "thickness": "10.5T",
+      "size": "T10.5 x W190 x L1,615mm",
+      "packing": ""
     },
-    "description": "보타닉"
+    "description": "그린",
+    "note": "프리미엄 강마루 / 10.5T / 4개 규격",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "190",
+        "spec": "T10.5 x W190 x L1,615mm",
+        "thickness": "10.5T",
+        "width": "190mm",
+        "length": "1,615mm",
+        "package": "",
+        "price": null
+      },
+      {
+        "label": "165",
+        "spec": "T10.5 x W165 x L1,200mm",
+        "thickness": "10.5T",
+        "width": "165mm",
+        "length": "1,200mm",
+        "package": "",
+        "price": null
+      },
+      {
+        "label": "125",
+        "spec": "T10.5 x W125 x L800mm",
+        "thickness": "10.5T",
+        "width": "125mm",
+        "length": "800mm",
+        "package": "",
+        "price": null
+      }
+    ]
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3087",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "보타닉",
-    "subLine": "보타닉",
-    "collection": "BOTANIC",
-    "series": "600 Square",
-    "code": "DBT 3087",
-    "name": "콘크리트",
-    "productName": "LX 보타닉 DBT 3087 콘크리트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 28000,
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203087%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203087%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "id": "eagon-grin-mild-ivory-calmly",
+    "category": "마루",
+    "brand": "이건",
+    "line": "그린",
+    "subLine": "그린",
+    "name": "마일드 아이보리_카믈리",
+    "productName": "마일드 아이보리_카믈리_그린",
+    "code": null,
+    "collection": "GRIN",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 아이보리_카믈리.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 아이보리_카믈리.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203087%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 아이보리_카믈리.jpg"
     ],
-    "thickness": "3.0T",
+    "price": null,
+    "thickness": "10.5T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
+      "division": "그린",
+      "thickness": "10.5T",
+      "size": "T10.5 x W165 x L1,200mm",
+      "packing": ""
     },
-    "description": "보타닉"
+    "description": "그린",
+    "note": "프리미엄 강마루 / 10.5T / 4개 규격",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "165",
+        "spec": "T10.5 x W165 x L1,200mm",
+        "thickness": "10.5T",
+        "width": "165mm",
+        "length": "1,200mm",
+        "package": "",
+        "price": null
+      }
+    ]
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3084",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "보타닉",
-    "subLine": "보타닉",
-    "collection": "BOTANIC",
-    "series": "600 Square",
-    "code": "DBT 3084",
-    "name": "샌드스톤",
-    "productName": "LX 보타닉 DBT 3084 샌드스톤",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 28000,
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203084%20%EC%83%8C%EB%93%9C%EC%8A%A4%ED%86%A4.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203084%20%EC%83%8C%EB%93%9C%EC%8A%A4%ED%86%A4.jpg",
+    "id": "eagon-grin-mild-oak",
+    "category": "마루",
+    "brand": "이건",
+    "line": "그린",
+    "subLine": "그린",
+    "name": "마일드 오크",
+    "productName": "마일드 오크_그린",
+    "code": null,
+    "collection": "GRIN",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 오크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203084%20%EC%83%8C%EB%93%9C%EC%8A%A4%ED%86%A4.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 오크.jpg"
     ],
-    "thickness": "3.0T",
+    "price": null,
+    "thickness": "10.5T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
+      "division": "그린",
+      "thickness": "10.5T",
+      "size": "T10.5 x W230 x L2,430mm",
+      "packing": ""
     },
-    "description": "보타닉"
+    "description": "그린",
+    "note": "프리미엄 강마루 / 10.5T / 4개 규격",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "230",
+        "spec": "T10.5 x W230 x L2,430mm",
+        "thickness": "10.5T",
+        "width": "230mm",
+        "length": "2,430mm",
+        "package": "",
+        "price": null
+      },
+      {
+        "label": "190",
+        "spec": "T10.5 x W190 x L1,615mm",
+        "thickness": "10.5T",
+        "width": "190mm",
+        "length": "1,615mm",
+        "package": "",
+        "price": null
+      },
+      {
+        "label": "165",
+        "spec": "T10.5 x W165 x L1,200mm",
+        "thickness": "10.5T",
+        "width": "165mm",
+        "length": "1,200mm",
+        "package": "",
+        "price": null
+      },
+      {
+        "label": "125",
+        "spec": "T10.5 x W125 x L800mm",
+        "thickness": "10.5T",
+        "width": "125mm",
+        "length": "800mm",
+        "package": "",
+        "price": null
+      }
+    ]
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3089",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "보타닉",
-    "subLine": "보타닉",
-    "collection": "BOTANIC",
-    "series": "600 Square",
-    "code": "DBT 3089",
-    "name": "콘크리트",
-    "productName": "LX 보타닉 DBT 3089 콘크리트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 28000,
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203089%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203089%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "id": "eagon-grin-mild-oak-daily",
+    "category": "마루",
+    "brand": "이건",
+    "line": "그린",
+    "subLine": "그린",
+    "name": "마일드 오크_데일리",
+    "productName": "마일드 오크_데일리_그린",
+    "code": null,
+    "collection": "GRIN",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 오크_데일리.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 오크_데일리.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203089%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 오크_데일리.jpg"
     ],
-    "thickness": "3.0T",
+    "price": null,
+    "thickness": "10.5T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
+      "division": "그린",
+      "thickness": "10.5T",
+      "size": "T10.5 x W165 x L1,200mm",
+      "packing": ""
     },
-    "description": "보타닉"
+    "description": "그린",
+    "note": "프리미엄 강마루 / 10.5T / 4개 규격",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "165",
+        "spec": "T10.5 x W165 x L1,200mm",
+        "thickness": "10.5T",
+        "width": "165mm",
+        "length": "1,200mm",
+        "package": "",
+        "price": null
+      }
+    ]
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3086",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "보타닉",
-    "subLine": "보타닉",
-    "collection": "BOTANIC",
-    "series": "600 Square",
-    "code": "DBT 3086",
-    "name": "콘크리트",
-    "productName": "LX 보타닉 DBT 3086 콘크리트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 28000,
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203086%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203086%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "id": "eagon-grin-mild-oak-purely",
+    "category": "마루",
+    "brand": "이건",
+    "line": "그린",
+    "subLine": "그린",
+    "name": "마일드 오크_퓨얼리",
+    "productName": "마일드 오크_퓨얼리_그린",
+    "code": null,
+    "collection": "GRIN",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 오크_퓨얼리.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 오크_퓨얼리.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203086%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 오크_퓨얼리.jpg"
     ],
-    "thickness": "3.0T",
+    "price": null,
+    "thickness": "10.5T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
+      "division": "그린",
+      "thickness": "10.5T",
+      "size": "T10.5 x W165 x L1,200mm",
+      "packing": ""
     },
-    "description": "보타닉"
+    "description": "그린",
+    "note": "프리미엄 강마루 / 10.5T / 4개 규격",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "165",
+        "spec": "T10.5 x W165 x L1,200mm",
+        "thickness": "10.5T",
+        "width": "165mm",
+        "length": "1,200mm",
+        "package": "",
+        "price": null
+      }
+    ]
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3088",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "보타닉",
-    "subLine": "보타닉",
-    "collection": "BOTANIC",
-    "series": "600 Square",
-    "code": "DBT 3088",
-    "name": "콘크리트",
-    "productName": "LX 보타닉 DBT 3088 콘크리트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 28000,
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203088%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203088%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "id": "eagon-grin-mild-gold",
+    "category": "마루",
+    "brand": "이건",
+    "line": "그린",
+    "subLine": "그린",
+    "name": "마일드 골드",
+    "productName": "마일드 골드_그린",
+    "code": null,
+    "collection": "GRIN",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 골드.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 골드.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203088%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 골드.jpg"
     ],
-    "thickness": "3.0T",
+    "price": null,
+    "thickness": "10.5T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
+      "division": "그린",
+      "thickness": "10.5T",
+      "size": "T10.5 x W190 x L1,615mm",
+      "packing": ""
     },
-    "description": "보타닉"
+    "description": "그린",
+    "note": "프리미엄 강마루 / 10.5T / 4개 규격",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "190",
+        "spec": "T10.5 x W190 x L1,615mm",
+        "thickness": "10.5T",
+        "width": "190mm",
+        "length": "1,615mm",
+        "package": "",
+        "price": null
+      },
+      {
+        "label": "125",
+        "spec": "T10.5 x W125 x L800mm",
+        "thickness": "10.5T",
+        "width": "125mm",
+        "length": "800mm",
+        "package": "",
+        "price": null
+      }
+    ]
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3083",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "보타닉",
-    "subLine": "보타닉",
-    "collection": "BOTANIC",
-    "series": "600 Square",
-    "code": "DBT 3083",
-    "name": "라임스톤",
-    "productName": "LX 보타닉 DBT 3083 라임스톤",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 28000,
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203083%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203083%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4.jpg",
+    "id": "eagon-grin-mild-teak",
+    "category": "마루",
+    "brand": "이건",
+    "line": "그린",
+    "subLine": "그린",
+    "name": "마일드 티크",
+    "productName": "마일드 티크_그린",
+    "code": null,
+    "collection": "GRIN",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 티크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 티크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203083%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 티크.jpg"
     ],
-    "thickness": "3.0T",
+    "price": null,
+    "thickness": "10.5T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
+      "division": "그린",
+      "thickness": "10.5T",
+      "size": "T10.5 x W230 x L2,430mm",
+      "packing": ""
     },
-    "description": "보타닉"
+    "description": "그린",
+    "note": "프리미엄 강마루 / 10.5T / 4개 규격",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "230",
+        "spec": "T10.5 x W230 x L2,430mm",
+        "thickness": "10.5T",
+        "width": "230mm",
+        "length": "2,430mm",
+        "package": "",
+        "price": null
+      },
+      {
+        "label": "165",
+        "spec": "T10.5 x W165 x L1,200mm",
+        "thickness": "10.5T",
+        "width": "165mm",
+        "length": "1,200mm",
+        "package": "",
+        "price": null
+      }
+    ]
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3091",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "보타닉",
-    "subLine": "보타닉",
-    "collection": "BOTANIC",
-    "series": "600 Square",
-    "code": "DBT 3091",
-    "name": "테라조",
-    "productName": "LX 보타닉 DBT 3091 테라조",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 28000,
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203091%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203091%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
+    "id": "eagon-grin-mild-white",
+    "category": "마루",
+    "brand": "이건",
+    "line": "그린",
+    "subLine": "그린",
+    "name": "마일드 화이트",
+    "productName": "마일드 화이트_그린",
+    "code": null,
+    "collection": "GRIN",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 화이트.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 화이트.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203091%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 화이트.jpg"
     ],
-    "thickness": "3.0T",
+    "price": null,
+    "thickness": "10.5T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
+      "division": "그린",
+      "thickness": "10.5T",
+      "size": "T10.5 x W190 x L1,615mm",
+      "packing": ""
     },
-    "description": "보타닉"
+    "description": "그린",
+    "note": "프리미엄 강마루 / 10.5T / 4개 규격",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "190",
+        "spec": "T10.5 x W190 x L1,615mm",
+        "thickness": "10.5T",
+        "width": "190mm",
+        "length": "1,615mm",
+        "package": "",
+        "price": null
+      },
+      {
+        "label": "125",
+        "spec": "T10.5 x W125 x L800mm",
+        "thickness": "10.5T",
+        "width": "125mm",
+        "length": "800mm",
+        "package": "",
+        "price": null
+      }
+    ]
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3081",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "보타닉",
-    "subLine": "보타닉",
-    "collection": "BOTANIC",
-    "series": "600 Square",
-    "code": "DBT 3081",
-    "name": "콘크리트",
-    "productName": "LX 보타닉 DBT 3081 콘크리트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 28000,
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203081%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203081%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "id": "eagon-grin-mild-white-simply",
+    "category": "마루",
+    "brand": "이건",
+    "line": "그린",
+    "subLine": "그린",
+    "name": "마일드 화이트_심플리",
+    "productName": "마일드 화이트_심플리_그린",
+    "code": null,
+    "collection": "GRIN",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 화이트_심플리.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 화이트_심플리.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203081%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 화이트_심플리.jpg"
     ],
-    "thickness": "3.0T",
+    "price": null,
+    "thickness": "10.5T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
+      "division": "그린",
+      "thickness": "10.5T",
+      "size": "T10.5 x W165 x L1,200mm",
+      "packing": ""
     },
-    "description": "보타닉"
+    "description": "그린",
+    "note": "프리미엄 강마루 / 10.5T / 4개 규격",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "165",
+        "spec": "T10.5 x W165 x L1,200mm",
+        "thickness": "10.5T",
+        "width": "165mm",
+        "length": "1,200mm",
+        "package": "",
+        "price": null
+      }
+    ]
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3076",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "보타닉",
-    "subLine": "보타닉",
-    "collection": "BOTANIC",
-    "series": "450 Square",
-    "code": "DBT 3076",
-    "name": "라임스톤",
-    "productName": "LX 보타닉 DBT 3076 라임스톤",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "price": 28000,
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203076%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203076%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4.jpg",
+    "id": "eagon-grin-rustic-mist",
+    "category": "마루",
+    "brand": "이건",
+    "line": "그린",
+    "subLine": "그린",
+    "name": "러스틱 미스트",
+    "productName": "러스틱 미스트_그린",
+    "code": null,
+    "collection": "GRIN",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/러스틱 미스트.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/러스틱 미스트.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203076%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/이건그린/러스틱 미스트.jpg"
     ],
-    "thickness": "3.0T",
+    "price": null,
+    "thickness": "10.5T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
+      "division": "그린",
+      "thickness": "10.5T",
+      "size": "T10.5 x W230 x L2,430mm",
+      "packing": ""
     },
-    "description": "보타닉"
+    "description": "그린",
+    "note": "프리미엄 강마루 / 10.5T / 4개 규격",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "230",
+        "spec": "T10.5 x W230 x L2,430mm",
+        "thickness": "10.5T",
+        "width": "230mm",
+        "length": "2,430mm",
+        "package": "",
+        "price": null
+      }
+    ]
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3077",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "보타닉",
-    "subLine": "보타닉",
-    "collection": "BOTANIC",
-    "series": "450 Square",
-    "code": "DBT 3077",
-    "name": "콘크리트",
-    "productName": "LX 보타닉 DBT 3077 콘크리트",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "price": 28000,
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203077%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203077%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "id": "eagon-grin-rustic-grey",
+    "category": "마루",
+    "brand": "이건",
+    "line": "그린",
+    "subLine": "그린",
+    "name": "러스틱 그레이",
+    "productName": "러스틱 그레이_그린",
+    "code": null,
+    "collection": "GRIN",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/러스틱 그레이.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/러스틱 그레이.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203077%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/이건그린/러스틱 그레이.jpg"
     ],
-    "thickness": "3.0T",
+    "price": null,
+    "thickness": "10.5T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
+      "division": "그린",
+      "thickness": "10.5T",
+      "size": "T10.5 x W230 x L2,430mm",
+      "packing": ""
     },
-    "description": "보타닉"
+    "description": "그린",
+    "note": "프리미엄 강마루 / 10.5T / 4개 규격",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "230",
+        "spec": "T10.5 x W230 x L2,430mm",
+        "thickness": "10.5T",
+        "width": "230mm",
+        "length": "2,430mm",
+        "package": "",
+        "price": null
+      }
+    ]
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3078",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "보타닉",
-    "subLine": "보타닉",
-    "collection": "BOTANIC",
-    "series": "450 Square",
-    "code": "DBT 3078",
-    "name": "콘크리트",
-    "productName": "LX 보타닉 DBT 3078 콘크리트",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "price": 28000,
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203078%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203078%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "id": "eagon-grin-rustic-oak",
+    "category": "마루",
+    "brand": "이건",
+    "line": "그린",
+    "subLine": "그린",
+    "name": "러스틱 오크",
+    "productName": "러스틱 오크_그린",
+    "code": null,
+    "collection": "GRIN",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/러스틱 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/러스틱 오크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203078%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/이건그린/러스틱 오크.jpg"
     ],
-    "thickness": "3.0T",
+    "price": null,
+    "thickness": "10.5T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
+      "division": "그린",
+      "thickness": "10.5T",
+      "size": "T10.5 x W230 x L2,430mm",
+      "packing": ""
     },
-    "description": "보타닉"
+    "description": "그린",
+    "note": "프리미엄 강마루 / 10.5T / 4개 규격",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "230",
+        "spec": "T10.5 x W230 x L2,430mm",
+        "thickness": "10.5T",
+        "width": "230mm",
+        "length": "2,430mm",
+        "package": "",
+        "price": null
+      }
+    ]
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3079",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "보타닉",
-    "subLine": "보타닉",
-    "collection": "BOTANIC",
-    "series": "450 Square",
-    "code": "DBT 3079",
-    "name": "콘크리트",
-    "productName": "LX 보타닉 DBT 3079 콘크리트",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "price": 28000,
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203079%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203079%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "id": "eagon-grin-rustic-brown",
+    "category": "마루",
+    "brand": "이건",
+    "line": "그린",
+    "subLine": "그린",
+    "name": "러스틱 브라운",
+    "productName": "러스틱 브라운_그린",
+    "code": null,
+    "collection": "GRIN",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/러스틱 브라운.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/러스틱 브라운.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203079%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/이건그린/러스틱 브라운.jpg"
     ],
-    "thickness": "3.0T",
+    "price": null,
+    "thickness": "10.5T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
+      "division": "그린",
+      "thickness": "10.5T",
+      "size": "T10.5 x W230 x L2,430mm",
+      "packing": ""
     },
-    "description": "보타닉"
+    "description": "그린",
+    "note": "프리미엄 강마루 / 10.5T / 4개 규격",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "230",
+        "spec": "T10.5 x W230 x L2,430mm",
+        "thickness": "10.5T",
+        "width": "230mm",
+        "length": "2,430mm",
+        "package": "",
+        "price": null
+      },
+      {
+        "label": "165",
+        "spec": "T10.5 x W165 x L1,200mm",
+        "thickness": "10.5T",
+        "width": "165mm",
+        "length": "1,200mm",
+        "package": "",
+        "price": null
+      }
+    ]
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3060",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "보타닉",
-    "subLine": "보타닉",
-    "collection": "BOTANIC",
-    "series": "450 Square",
-    "code": "DBT 3060",
-    "name": "패턴 콘크리트",
-    "productName": "LX 보타닉 DBT 3060 패턴 콘크리트",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "price": 28000,
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203060%20%ED%8C%A8%ED%84%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203060%20%ED%8C%A8%ED%84%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "id": "eagon-grin-natural-sand",
+    "category": "마루",
+    "brand": "이건",
+    "line": "그린",
+    "subLine": "그린",
+    "name": "내추럴 샌드",
+    "productName": "내추럴 샌드_그린",
+    "code": null,
+    "collection": "GRIN",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/내추럴 샌드.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/내추럴 샌드.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203060%20%ED%8C%A8%ED%84%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/이건그린/내추럴 샌드.jpg"
     ],
-    "thickness": "3.0T",
+    "price": null,
+    "thickness": "10.5T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
+      "division": "그린",
+      "thickness": "10.5T",
+      "size": "T10.5 x W230 x L2,430mm",
+      "packing": ""
     },
-    "description": "보타닉"
+    "description": "그린",
+    "note": "프리미엄 강마루 / 10.5T / 4개 규격",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "230",
+        "spec": "T10.5 x W230 x L2,430mm",
+        "thickness": "10.5T",
+        "width": "230mm",
+        "length": "2,430mm",
+        "package": "",
+        "price": null
+      },
+      {
+        "label": "190",
+        "spec": "T10.5 x W190 x L1,615mm",
+        "thickness": "10.5T",
+        "width": "190mm",
+        "length": "1,615mm",
+        "package": "",
+        "price": null
+      },
+      {
+        "label": "165",
+        "spec": "T10.5 x W165 x L1,200mm",
+        "thickness": "10.5T",
+        "width": "165mm",
+        "length": "1,200mm",
+        "package": "",
+        "price": null
+      },
+      {
+        "label": "125",
+        "spec": "T10.5 x W125 x L800mm",
+        "thickness": "10.5T",
+        "width": "125mm",
+        "length": "800mm",
+        "package": "",
+        "price": null
+      }
+    ]
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3061",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "보타닉",
-    "subLine": "보타닉",
-    "collection": "BOTANIC",
-    "series": "450 Square",
-    "code": "DBT 3061",
-    "name": "패턴 콘크리트",
-    "productName": "LX 보타닉 DBT 3061 패턴 콘크리트",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "price": 28000,
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203061%20%ED%8C%A8%ED%84%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203061%20%ED%8C%A8%ED%84%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "id": "eagon-grin-natural-oak",
+    "category": "마루",
+    "brand": "이건",
+    "line": "그린",
+    "subLine": "그린",
+    "name": "내추럴 오크",
+    "productName": "내추럴 오크_그린",
+    "code": null,
+    "collection": "GRIN",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/내추럴 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/내추럴 오크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203061%20%ED%8C%A8%ED%84%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/이건그린/내추럴 오크.jpg"
     ],
-    "thickness": "3.0T",
+    "price": null,
+    "thickness": "10.5T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
+      "division": "그린",
+      "thickness": "10.5T",
+      "size": "T10.5 x W230 x L2,430mm",
+      "packing": ""
     },
-    "description": "보타닉"
+    "description": "그린",
+    "note": "프리미엄 강마루 / 10.5T / 4개 규격",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "230",
+        "spec": "T10.5 x W230 x L2,430mm",
+        "thickness": "10.5T",
+        "width": "230mm",
+        "length": "2,430mm",
+        "package": "",
+        "price": null
+      },
+      {
+        "label": "190",
+        "spec": "T10.5 x W190 x L1,615mm",
+        "thickness": "10.5T",
+        "width": "190mm",
+        "length": "1,615mm",
+        "package": "",
+        "price": null
+      },
+      {
+        "label": "165",
+        "spec": "T10.5 x W165 x L1,200mm",
+        "thickness": "10.5T",
+        "width": "165mm",
+        "length": "1,200mm",
+        "package": "",
+        "price": null
+      },
+      {
+        "label": "125",
+        "spec": "T10.5 x W125 x L800mm",
+        "thickness": "10.5T",
+        "width": "125mm",
+        "length": "800mm",
+        "package": "",
+        "price": null
+      }
+    ]
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3062",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "보타닉",
-    "subLine": "보타닉",
-    "collection": "BOTANIC",
-    "series": "450 Square",
-    "code": "DBT 3062",
-    "name": "패턴 콘크리트",
-    "productName": "LX 보타닉 DBT 3062 패턴 콘크리트",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "price": 28000,
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203062%20%ED%8C%A8%ED%84%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203062%20%ED%8C%A8%ED%84%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
+    "id": "eagon-grin-natural-dark-saw",
+    "category": "마루",
+    "brand": "이건",
+    "line": "그린",
+    "subLine": "그린",
+    "name": "내추럴 다크 쏘우",
+    "productName": "내추럴 다크 쏘우_그린",
+    "code": null,
+    "collection": "GRIN",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/내추럴 다크 쏘우.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/내추럴 다크 쏘우.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203062%20%ED%8C%A8%ED%84%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/이건그린/내추럴 다크 쏘우.jpg"
     ],
-    "thickness": "3.0T",
+    "price": null,
+    "thickness": "10.5T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
+      "division": "그린",
+      "thickness": "10.5T",
+      "size": "T10.5 x W230 x L2,430mm",
+      "packing": ""
     },
-    "description": "보타닉"
+    "description": "그린",
+    "note": "프리미엄 강마루 / 10.5T / 4개 규격",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "230",
+        "spec": "T10.5 x W230 x L2,430mm",
+        "thickness": "10.5T",
+        "width": "230mm",
+        "length": "2,430mm",
+        "package": "",
+        "price": null
+      },
+      {
+        "label": "165",
+        "spec": "T10.5 x W165 x L1,200mm",
+        "thickness": "10.5T",
+        "width": "165mm",
+        "length": "1,200mm",
+        "package": "",
+        "price": null
+      }
+    ]
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3059",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "보타닉",
-    "subLine": "보타닉",
-    "collection": "BOTANIC",
-    "series": "450 Square",
-    "code": "DBT 3059",
-    "name": "마블",
-    "productName": "LX 보타닉 DBT 3059 마블",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "price": 28000,
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203059%20%EB%A7%88%EB%B8%94.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203059%20%EB%A7%88%EB%B8%94.jpg",
+    "id": "eagon-grin-square-desert-cream",
+    "category": "마루",
+    "brand": "이건",
+    "line": "그린 스퀘어",
+    "subLine": "그린 스퀘어",
+    "name": "데저트 크림",
+    "productName": "데저트 크림_그린 스퀘어",
+    "code": null,
+    "collection": "GRIN SQUARE",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/데저트 크림.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/데저트 크림.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203059%20%EB%A7%88%EB%B8%94.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/데저트 크림.jpg"
     ],
-    "thickness": "3.0T",
+    "price": null,
+    "thickness": "10.5T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
+      "division": "그린 스퀘어",
+      "thickness": "10.5T",
+      "size": "T10.5 x W597 x L597mm",
+      "packing": ""
     },
-    "description": "보타닉"
+    "description": "그린 스퀘어",
+    "note": "프리미엄 사각 강마루 / 10.5T",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "597",
+        "spec": "T10.5 x W597 x L597mm",
+        "thickness": "10.5T",
+        "width": "597mm",
+        "length": "597mm",
+        "package": "",
+        "price": null
+      },
+      {
+        "label": "395",
+        "spec": "T10.5 x W395 x L800mm",
+        "thickness": "10.5T",
+        "width": "395mm",
+        "length": "800mm",
+        "package": "",
+        "price": null
+      }
+    ]
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3068",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "보타닉",
-    "subLine": "보타닉",
-    "collection": "BOTANIC",
-    "series": "450 Square",
-    "code": "DBT 3068",
-    "name": "마블",
-    "productName": "LX 보타닉 DBT 3068 마블",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "price": 28000,
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203068%20%EB%A7%88%EB%B8%94.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203068%20%EB%A7%88%EB%B8%94.jpg",
+    "id": "eagon-grin-square-breeze-grey",
+    "category": "마루",
+    "brand": "이건",
+    "line": "그린 스퀘어",
+    "subLine": "그린 스퀘어",
+    "name": "브리즈 그레이",
+    "productName": "브리즈 그레이_그린 스퀘어",
+    "code": null,
+    "collection": "GRIN SQUARE",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/브리즈 그레이.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/브리즈 그레이.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203068%20%EB%A7%88%EB%B8%94.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/브리즈 그레이.jpg"
     ],
-    "thickness": "3.0T",
+    "price": null,
+    "thickness": "10.5T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
+      "division": "그린 스퀘어",
+      "thickness": "10.5T",
+      "size": "T10.5 x W597 x L597mm",
+      "packing": ""
     },
-    "description": "보타닉"
+    "description": "그린 스퀘어",
+    "note": "프리미엄 사각 강마루 / 10.5T",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "597",
+        "spec": "T10.5 x W597 x L597mm",
+        "thickness": "10.5T",
+        "width": "597mm",
+        "length": "597mm",
+        "package": "",
+        "price": null
+      },
+      {
+        "label": "395",
+        "spec": "T10.5 x W395 x L800mm",
+        "thickness": "10.5T",
+        "width": "395mm",
+        "length": "800mm",
+        "package": "",
+        "price": null
+      }
+    ]
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3051",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "보타닉",
-    "subLine": "보타닉",
-    "collection": "BOTANIC",
-    "series": "450 Square",
-    "code": "DBT 3051",
-    "name": "마블",
-    "productName": "LX 보타닉 DBT 3051 마블",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "price": 28000,
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203051%20%EB%A7%88%EB%B8%94.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203051%20%EB%A7%88%EB%B8%94.jpg",
+    "id": "eagon-grin-square-glam-stone",
+    "category": "마루",
+    "brand": "이건",
+    "line": "그린 스퀘어",
+    "subLine": "그린 스퀘어",
+    "name": "글램 스톤",
+    "productName": "글램 스톤_그린 스퀘어",
+    "code": null,
+    "collection": "GRIN SQUARE",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/글램 스톤.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/글램 스톤.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203051%20%EB%A7%88%EB%B8%94.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/글램 스톤.jpg"
     ],
-    "thickness": "3.0T",
+    "price": null,
+    "thickness": "10.5T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
+      "division": "그린 스퀘어",
+      "thickness": "10.5T",
+      "size": "T10.5 x W597 x L597mm",
+      "packing": ""
     },
-    "description": "보타닉"
+    "description": "그린 스퀘어",
+    "note": "프리미엄 사각 강마루 / 10.5T",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "597",
+        "spec": "T10.5 x W597 x L597mm",
+        "thickness": "10.5T",
+        "width": "597mm",
+        "length": "597mm",
+        "package": "",
+        "price": null
+      }
+    ]
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3065",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "보타닉",
-    "subLine": "보타닉",
-    "collection": "BOTANIC",
-    "series": "450 Square",
-    "code": "DBT 3065",
-    "name": "카펫",
-    "productName": "LX 보타닉 DBT 3065 카펫",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "price": 28000,
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203065%20%EC%B9%B4%ED%8E%AB.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203065%20%EC%B9%B4%ED%8E%AB.jpg",
+    "id": "eagon-grin-square-coral-cloud",
+    "category": "마루",
+    "brand": "이건",
+    "line": "그린 스퀘어",
+    "subLine": "그린 스퀘어",
+    "name": "코랄 클라우드",
+    "productName": "코랄 클라우드_그린 스퀘어",
+    "code": null,
+    "collection": "GRIN SQUARE",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/코랄 클라우드.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/코랄 클라우드.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT%203065%20%EC%B9%B4%ED%8E%AB.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/코랄 클라우드.jpg"
     ],
-    "thickness": "3.0T",
+    "price": null,
+    "thickness": "10.5T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
+      "division": "그린 스퀘어",
+      "thickness": "10.5T",
+      "size": "T10.5 x W597 x L597mm",
+      "packing": ""
     },
-    "description": "보타닉"
+    "description": "그린 스퀘어",
+    "note": "프리미엄 사각 강마루 / 10.5T",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "597",
+        "spec": "T10.5 x W597 x L597mm",
+        "thickness": "10.5T",
+        "width": "597mm",
+        "length": "597mm",
+        "package": "",
+        "price": null
+      }
+    ]
   },
   {
-    "id": "데코타일-lx-보타닉-dbw3045",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "보타닉",
-    "subLine": "보타닉",
-    "collection": "BOTANIC",
-    "series": "180 Wood",
-    "code": "DBW 3045",
+    "id": "eagon-grin-square-serena-fog",
+    "category": "마루",
+    "brand": "이건",
+    "line": "그린 스퀘어",
+    "subLine": "그린 스퀘어",
+    "name": "세레나 포그",
+    "productName": "세레나 포그_그린 스퀘어",
+    "code": null,
+    "collection": "GRIN SQUARE",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/세레나 포그.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/세레나 포그.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/세레나 포그.jpg"
+    ],
+    "price": null,
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 스퀘어",
+      "thickness": "10.5T",
+      "size": "T10.5 x W395 x L800mm",
+      "packing": ""
+    },
+    "description": "그린 스퀘어",
+    "note": "프리미엄 사각 강마루 / 10.5T",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "395",
+        "spec": "T10.5 x W395 x L800mm",
+        "thickness": "10.5T",
+        "width": "395mm",
+        "length": "800mm",
+        "package": "",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "eagon-grin-square-milkyway-dark",
+    "category": "마루",
+    "brand": "이건",
+    "line": "그린 스퀘어",
+    "subLine": "그린 스퀘어",
+    "name": "밀키웨이 다크",
+    "productName": "밀키웨이 다크_그린 스퀘어",
+    "code": null,
+    "collection": "GRIN SQUARE",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/밀키웨이 다크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/밀키웨이 다크.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/밀키웨이 다크.jpg"
+    ],
+    "price": null,
+    "thickness": "10.5T",
+    "specs": {
+      "division": "그린 스퀘어",
+      "thickness": "10.5T",
+      "size": "T10.5 x W395 x L800mm",
+      "packing": ""
+    },
+    "description": "그린 스퀘어",
+    "note": "프리미엄 사각 강마루 / 10.5T",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "395",
+        "spec": "T10.5 x W395 x L800mm",
+        "thickness": "10.5T",
+        "width": "395mm",
+        "length": "800mm",
+        "package": "",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "eagon-sera-flex-s-brunia-cream",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 플렉스 S",
+    "subLine": "세라 플렉스 S",
+    "name": "브루니아 크림",
+    "productName": "브루니아 크림_세라 플렉스 S",
+    "code": null,
+    "collection": "SERA Flex S",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/브루니아 크림.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/브루니아 크림.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/브루니아 크림.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 S",
+      "thickness": "7.5T",
+      "size": "T7.5 x W395 x L800mm",
+      "packing": ""
+    },
+    "description": "세라 플렉스 S",
+    "note": "강마루 / 우드 & 스톤 디자인",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "395",
+        "spec": "T7.5 x W395 x L800mm",
+        "thickness": "7.5T",
+        "width": "395mm",
+        "length": "800mm",
+        "package": "",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "eagon-sera-flex-s-celina-sand",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 플렉스 S",
+    "subLine": "세라 플렉스 S",
+    "name": "셀리나 샌드",
+    "productName": "셀리나 샌드_세라 플렉스 S",
+    "code": null,
+    "collection": "SERA Flex S",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/셀리나 샌드.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/셀리나 샌드.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/셀리나 샌드.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 S",
+      "thickness": "7.5T",
+      "size": "T7.5 x W395 x L800mm",
+      "packing": ""
+    },
+    "description": "세라 플렉스 S",
+    "note": "강마루 / 우드 & 스톤 디자인",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "395",
+        "spec": "T7.5 x W395 x L800mm",
+        "thickness": "7.5T",
+        "width": "395mm",
+        "length": "800mm",
+        "package": "",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "eagon-sera-flex-s-willow-grey",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 플렉스 S",
+    "subLine": "세라 플렉스 S",
+    "name": "윌로우 그레이",
+    "productName": "윌로우 그레이_세라 플렉스 S",
+    "code": null,
+    "collection": "SERA Flex S",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/윌로우 그레이.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/윌로우 그레이.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/윌로우 그레이.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 S",
+      "thickness": "7.5T",
+      "size": "T7.5 x W395 x L800mm",
+      "packing": ""
+    },
+    "description": "세라 플렉스 S",
+    "note": "강마루 / 우드 & 스톤 디자인",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "395",
+        "spec": "T7.5 x W395 x L800mm",
+        "thickness": "7.5T",
+        "width": "395mm",
+        "length": "800mm",
+        "package": "",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "eagon-sera-flex-s-meteor-stone",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 플렉스 S",
+    "subLine": "세라 플렉스 S",
+    "name": "메테오 스톤",
+    "productName": "메테오 스톤_세라 플렉스 S",
+    "code": null,
+    "collection": "SERA Flex S",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/메테오 스톤.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/메테오 스톤.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/메테오 스톤.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 S",
+      "thickness": "7.5T",
+      "size": "T7.5 x W395 x L800mm",
+      "packing": ""
+    },
+    "description": "세라 플렉스 S",
+    "note": "강마루 / 우드 & 스톤 디자인",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "395",
+        "spec": "T7.5 x W395 x L800mm",
+        "thickness": "7.5T",
+        "width": "395mm",
+        "length": "800mm",
+        "package": "",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "eagon-sera-flex-s-mood-white",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 플렉스 S",
+    "subLine": "세라 플렉스 S",
+    "name": "무드 화이트",
+    "productName": "무드 화이트_세라 플렉스 S",
+    "code": null,
+    "collection": "SERA Flex S",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/무드 화이트.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/무드 화이트.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/무드 화이트.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 S",
+      "thickness": "7.5T",
+      "size": "T7.5 x W165 x L1,200mm",
+      "packing": ""
+    },
+    "description": "세라 플렉스 S",
+    "note": "강마루 / 우드 & 스톤 디자인",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "165",
+        "spec": "T7.5 x W165 x L1,200mm",
+        "thickness": "7.5T",
+        "width": "165mm",
+        "length": "1,200mm",
+        "package": "",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "eagon-sera-flex-s-moment-cream",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 플렉스 S",
+    "subLine": "세라 플렉스 S",
+    "name": "모먼트 크림",
+    "productName": "모먼트 크림_세라 플렉스 S",
+    "code": null,
+    "collection": "SERA Flex S",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/모먼트 크림.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/모먼트 크림.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/모먼트 크림.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 S",
+      "thickness": "7.5T",
+      "size": "T7.5 x W165 x L1,200mm",
+      "packing": ""
+    },
+    "description": "세라 플렉스 S",
+    "note": "강마루 / 우드 & 스톤 디자인",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "165",
+        "spec": "T7.5 x W165 x L1,200mm",
+        "thickness": "7.5T",
+        "width": "165mm",
+        "length": "1,200mm",
+        "package": "",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "eagon-sera-flex-s-misty-grey",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 플렉스 S",
+    "subLine": "세라 플렉스 S",
+    "name": "미스티 그레이",
+    "productName": "미스티 그레이_세라 플렉스 S",
+    "code": null,
+    "collection": "SERA Flex S",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/미스티 그레이.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/미스티 그레이.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/미스티 그레이.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 S",
+      "thickness": "7.5T",
+      "size": "T7.5 x W165 x L1,200mm",
+      "packing": ""
+    },
+    "description": "세라 플렉스 S",
+    "note": "강마루 / 우드 & 스톤 디자인",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "165",
+        "spec": "T7.5 x W165 x L1,200mm",
+        "thickness": "7.5T",
+        "width": "165mm",
+        "length": "1,200mm",
+        "package": "",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "eagon-sera-flex-s-blush-sand",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 플렉스 S",
+    "subLine": "세라 플렉스 S",
+    "name": "블러쉬 샌드",
+    "productName": "블러쉬 샌드_세라 플렉스 S",
+    "code": null,
+    "collection": "SERA Flex S",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/블러쉬 샌드.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/블러쉬 샌드.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/블러쉬 샌드.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 S",
+      "thickness": "7.5T",
+      "size": "T7.5 x W165 x L1,200mm",
+      "packing": ""
+    },
+    "description": "세라 플렉스 S",
+    "note": "강마루 / 우드 & 스톤 디자인",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "165",
+        "spec": "T7.5 x W165 x L1,200mm",
+        "thickness": "7.5T",
+        "width": "165mm",
+        "length": "1,200mm",
+        "package": "",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "eagon-sera-flex-s-dear-beige",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 플렉스 S",
+    "subLine": "세라 플렉스 S",
+    "name": "디어 베이지",
+    "productName": "디어 베이지_세라 플렉스 S",
+    "code": null,
+    "collection": "SERA Flex S",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/디어 베이지.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/디어 베이지.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/디어 베이지.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 S",
+      "thickness": "7.5T",
+      "size": "T7.5 x W165 x L1,200mm",
+      "packing": ""
+    },
+    "description": "세라 플렉스 S",
+    "note": "강마루 / 우드 & 스톤 디자인",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "165",
+        "spec": "T7.5 x W165 x L1,200mm",
+        "thickness": "7.5T",
+        "width": "165mm",
+        "length": "1,200mm",
+        "package": "",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "eagon-sera-flex-s-mellow-gold",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 플렉스 S",
+    "subLine": "세라 플렉스 S",
+    "name": "멜로우 골드",
+    "productName": "멜로우 골드_세라 플렉스 S",
+    "code": null,
+    "collection": "SERA Flex S",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/멜로우 골드.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/멜로우 골드.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/멜로우 골드.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 S",
+      "thickness": "7.5T",
+      "size": "T7.5 x W165 x L1,200mm",
+      "packing": ""
+    },
+    "description": "세라 플렉스 S",
+    "note": "강마루 / 우드 & 스톤 디자인",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "165",
+        "spec": "T7.5 x W165 x L1,200mm",
+        "thickness": "7.5T",
+        "width": "165mm",
+        "length": "1,200mm",
+        "package": "",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "eagon-sera-flex-s-noble-teak",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 플렉스 S",
+    "subLine": "세라 플렉스 S",
+    "name": "노블 티크",
+    "productName": "노블 티크_세라 플렉스 S",
+    "code": null,
+    "collection": "SERA Flex S",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/노블 티크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/노블 티크.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/노블 티크.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 S",
+      "thickness": "7.5T",
+      "size": "T7.5 x W165 x L1,200mm",
+      "packing": ""
+    },
+    "description": "세라 플렉스 S",
+    "note": "강마루 / 우드 & 스톤 디자인",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "165",
+        "spec": "T7.5 x W165 x L1,200mm",
+        "thickness": "7.5T",
+        "width": "165mm",
+        "length": "1,200mm",
+        "package": "",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "eagon-sera-flex-s-daily-oak",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 플렉스 S",
+    "subLine": "세라 플렉스 S",
+    "name": "데일리 오크",
+    "productName": "데일리 오크_세라 플렉스 S",
+    "code": null,
+    "collection": "SERA Flex S",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/데일리 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/데일리 오크.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/데일리 오크.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 S",
+      "thickness": "7.5T",
+      "size": "T7.5 x W165 x L1,200mm",
+      "packing": ""
+    },
+    "description": "세라 플렉스 S",
+    "note": "강마루 / 우드 & 스톤 디자인",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "165",
+        "spec": "T7.5 x W165 x L1,200mm",
+        "thickness": "7.5T",
+        "width": "165mm",
+        "length": "1,200mm",
+        "package": "",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "eagon-sera-flex-s-calmly-ivory",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 플렉스 S",
+    "subLine": "세라 플렉스 S",
+    "name": "카믈리 아이보리",
+    "productName": "카믈리 아이보리_세라 플렉스 S",
+    "code": null,
+    "collection": "SERA Flex S",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/카믈리 아이보리.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/카믈리 아이보리.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/카믈리 아이보리.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 S",
+      "thickness": "7.5T",
+      "size": "T7.5 x W165 x L1,200mm",
+      "packing": ""
+    },
+    "description": "세라 플렉스 S",
+    "note": "강마루 / 우드 & 스톤 디자인",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "165",
+        "spec": "T7.5 x W165 x L1,200mm",
+        "thickness": "7.5T",
+        "width": "165mm",
+        "length": "1,200mm",
+        "package": "",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "eagon-sera-flex-s-humming-oak",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 플렉스 S",
+    "subLine": "세라 플렉스 S",
+    "name": "허밍 오크",
+    "productName": "허밍 오크_세라 플렉스 S",
+    "code": null,
+    "collection": "SERA Flex S",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/허밍 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/허밍 오크.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/허밍 오크.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 S",
+      "thickness": "7.5T",
+      "size": "T7.5 x W165 x L1,200mm",
+      "packing": ""
+    },
+    "description": "세라 플렉스 S",
+    "note": "강마루 / 우드 & 스톤 디자인",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "165",
+        "spec": "T7.5 x W165 x L1,200mm",
+        "thickness": "7.5T",
+        "width": "165mm",
+        "length": "1,200mm",
+        "package": "",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "eagon-sera-flex-s-lovely-beige",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 플렉스 S",
+    "subLine": "세라 플렉스 S",
+    "name": "러블리 베이지",
+    "productName": "러블리 베이지_세라 플렉스 S",
+    "code": null,
+    "collection": "SERA Flex S",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/러블리 베이지.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/러블리 베이지.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/러블리 베이지.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 S",
+      "thickness": "7.5T",
+      "size": "T7.5 x W165 x L1,200mm",
+      "packing": ""
+    },
+    "description": "세라 플렉스 S",
+    "note": "강마루 / 우드 & 스톤 디자인",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "165",
+        "spec": "T7.5 x W165 x L1,200mm",
+        "thickness": "7.5T",
+        "width": "165mm",
+        "length": "1,200mm",
+        "package": "",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "eagon-sera-flex-s-purely-oak",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 플렉스 S",
+    "subLine": "세라 플렉스 S",
+    "name": "퓨얼리 오크",
+    "productName": "퓨얼리 오크_세라 플렉스 S",
+    "code": null,
+    "collection": "SERA Flex S",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/퓨얼리 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/퓨얼리 오크.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/퓨얼리 오크.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 S",
+      "thickness": "7.5T",
+      "size": "T7.5 x W165 x L1,200mm",
+      "packing": ""
+    },
+    "description": "세라 플렉스 S",
+    "note": "강마루 / 우드 & 스톤 디자인",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "165",
+        "spec": "T7.5 x W165 x L1,200mm",
+        "thickness": "7.5T",
+        "width": "165mm",
+        "length": "1,200mm",
+        "package": "",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "eagon-sera-flex-s-simply-white",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 플렉스 S",
+    "subLine": "세라 플렉스 S",
+    "name": "심플리 화이트",
+    "productName": "심플리 화이트_세라 플렉스 S",
+    "code": null,
+    "collection": "SERA Flex S",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/심플리 화이트.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/심플리 화이트.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/심플리 화이트.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 S",
+      "thickness": "7.5T",
+      "size": "T7.5 x W165 x L1,200mm",
+      "packing": ""
+    },
+    "description": "세라 플렉스 S",
+    "note": "강마루 / 우드 & 스톤 디자인",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "165",
+        "spec": "T7.5 x W165 x L1,200mm",
+        "thickness": "7.5T",
+        "width": "165mm",
+        "length": "1,200mm",
+        "package": "",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "eagon-sera-flex-s-gently-teak",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 플렉스 S",
+    "subLine": "세라 플렉스 S",
+    "name": "젠틀리 티크",
+    "productName": "젠틀리 티크_세라 플렉스 S",
+    "code": null,
+    "collection": "SERA Flex S",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/젠틀리 티크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/젠틀리 티크.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/젠틀리 티크.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 플렉스 S",
+      "thickness": "7.5T",
+      "size": "T7.5 x W165 x L1,200mm",
+      "packing": ""
+    },
+    "description": "세라 플렉스 S",
+    "note": "강마루 / 우드 & 스톤 디자인",
+    "catalog": "EAGON FLOORING GUIDE ver.26",
+    "sizeOptions": [
+      {
+        "label": "165",
+        "spec": "T7.5 x W165 x L1,200mm",
+        "thickness": "7.5T",
+        "width": "165mm",
+        "length": "1,200mm",
+        "package": "",
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "eagon-sera-blending-bianco",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 블렌딩",
+    "subLine": "세라 블렌딩",
+    "name": "비앙코",
+    "productName": "비앙코_세라 블렌딩",
+    "code": null,
+    "collection": "SERA Blending",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/비앙코.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/비앙코.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/비앙코.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 블렌딩",
+      "thickness": "7.5T",
+      "size": "T7.5 x W115 x L800mm",
+      "packing": ""
+    },
+    "description": "세라 블렌딩",
+    "note": "회화적 표면 디자인 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-blending-off-white",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 블렌딩",
+    "subLine": "세라 블렌딩",
+    "name": "오프 화이트",
+    "productName": "오프 화이트_세라 블렌딩",
+    "code": null,
+    "collection": "SERA Blending",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/오프 화이트.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/오프 화이트.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/오프 화이트.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 블렌딩",
+      "thickness": "7.5T",
+      "size": "T7.5 x W115 x L800mm",
+      "packing": ""
+    },
+    "description": "세라 블렌딩",
+    "note": "회화적 표면 디자인 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-blending-stone-grey",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 블렌딩",
+    "subLine": "세라 블렌딩",
+    "name": "스톤 그레이",
+    "productName": "스톤 그레이_세라 블렌딩",
+    "code": null,
+    "collection": "SERA Blending",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/스톤 그레이.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/스톤 그레이.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/스톤 그레이.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 블렌딩",
+      "thickness": "7.5T",
+      "size": "T7.5 x W115 x L800mm",
+      "packing": ""
+    },
+    "description": "세라 블렌딩",
+    "note": "회화적 표면 디자인 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-blending-grano-oak",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 블렌딩",
+    "subLine": "세라 블렌딩",
+    "name": "그라노 오크",
+    "productName": "그라노 오크_세라 블렌딩",
+    "code": null,
+    "collection": "SERA Blending",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/그라노 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/그라노 오크.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/그라노 오크.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 블렌딩",
+      "thickness": "7.5T",
+      "size": "T7.5 x W115 x L800mm",
+      "packing": ""
+    },
+    "description": "세라 블렌딩",
+    "note": "회화적 표면 디자인 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-blending-craft-oak",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 블렌딩",
+    "subLine": "세라 블렌딩",
+    "name": "크래프트 오크",
+    "productName": "크래프트 오크_세라 블렌딩",
+    "code": null,
+    "collection": "SERA Blending",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/크래프트 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/크래프트 오크.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/크래프트 오크.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 블렌딩",
+      "thickness": "7.5T",
+      "size": "T7.5 x W115 x L800mm",
+      "packing": ""
+    },
+    "description": "세라 블렌딩",
+    "note": "회화적 표면 디자인 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-blending-natural-oak",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 블렌딩",
+    "subLine": "세라 블렌딩",
+    "name": "내추럴 오크",
+    "productName": "내추럴 오크_세라 블렌딩",
+    "code": null,
+    "collection": "SERA Blending",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/내추럴 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/내추럴 오크.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/내추럴 오크.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 블렌딩",
+      "thickness": "7.5T",
+      "size": "T7.5 x W115 x L800mm",
+      "packing": ""
+    },
+    "description": "세라 블렌딩",
+    "note": "회화적 표면 디자인 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-blending-romantic-oak",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 블렌딩",
+    "subLine": "세라 블렌딩",
+    "name": "로맨틱 오크",
+    "productName": "로맨틱 오크_세라 블렌딩",
+    "code": null,
+    "collection": "SERA Blending",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/로맨틱 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/로맨틱 오크.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/로맨틱 오크.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 블렌딩",
+      "thickness": "7.5T",
+      "size": "T7.5 x W115 x L800mm",
+      "packing": ""
+    },
+    "description": "세라 블렌딩",
+    "note": "회화적 표면 디자인 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-blending-british-teak",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 블렌딩",
+    "subLine": "세라 블렌딩",
+    "name": "브리티시 티크",
+    "productName": "브리티시 티크_세라 블렌딩",
+    "code": null,
+    "collection": "SERA Blending",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/브리티시 티크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/브리티시 티크.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/브리티시 티크.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라 블렌딩",
+      "thickness": "7.5T",
+      "size": "T7.5 x W115 x L800mm",
+      "packing": ""
+    },
+    "description": "세라 블렌딩",
+    "note": "회화적 표면 디자인 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-cozy-grey",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라",
+    "subLine": "세라",
+    "name": "코지 그레이",
+    "productName": "코지 그레이_세라",
+    "code": null,
+    "collection": "SERA",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/코지 그레이.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/코지 그레이.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라/코지 그레이.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라",
+      "thickness": "7.5T",
+      "size": "T7.5 x W95 x L800mm",
+      "packing": ""
+    },
+    "description": "세라",
+    "note": "강마루 / 18종 디자인 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-ash-grey",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라",
+    "subLine": "세라",
+    "name": "애쉬 그레이",
+    "productName": "애쉬 그레이_세라",
+    "code": null,
+    "collection": "SERA",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/애쉬 그레이.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/애쉬 그레이.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라/애쉬 그레이.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라",
+      "thickness": "7.5T",
+      "size": "T7.5 x W95 x L800mm",
+      "packing": ""
+    },
+    "description": "세라",
+    "note": "강마루 / 18종 디자인 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-creamy-oak",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라",
+    "subLine": "세라",
+    "name": "크리미 오크",
+    "productName": "크리미 오크_세라",
+    "code": null,
+    "collection": "SERA",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/크리미 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/크리미 오크.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라/크리미 오크.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라",
+      "thickness": "7.5T",
+      "size": "T7.5 x W95 x L800mm",
+      "packing": ""
+    },
+    "description": "세라",
+    "note": "강마루 / 18종 디자인 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-gold-teak",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라",
+    "subLine": "세라",
+    "name": "골드 티크",
+    "productName": "골드 티크_세라",
+    "code": null,
+    "collection": "SERA",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/골드 티크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/골드 티크.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라/골드 티크.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라",
+      "thickness": "7.5T",
+      "size": "T7.5 x W95 x L800mm",
+      "packing": ""
+    },
+    "description": "세라",
+    "note": "강마루 / 18종 디자인 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-british-walnut",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라",
+    "subLine": "세라",
+    "name": "브리티시 월넛",
+    "productName": "브리티시 월넛_세라",
+    "code": null,
+    "collection": "SERA",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/브리티시 월넛.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/브리티시 월넛.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라/브리티시 월넛.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라",
+      "thickness": "7.5T",
+      "size": "T7.5 x W95 x L800mm",
+      "packing": ""
+    },
+    "description": "세라",
+    "note": "강마루 / 18종 디자인 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-teak",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라",
+    "subLine": "세라",
+    "name": "티크",
+    "productName": "티크_세라",
+    "code": null,
+    "collection": "SERA",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/티크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/티크.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라/티크.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라",
+      "thickness": "7.5T",
+      "size": "T7.5 x W95 x L800mm",
+      "packing": ""
+    },
+    "description": "세라",
+    "note": "강마루 / 18종 디자인 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-white-oak",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라",
+    "subLine": "세라",
     "name": "화이트 오크",
-    "productName": "LX 보타닉 DBW 3045 화이트 오크",
-    "spec": "3.0T x 180 x 920mm",
-    "package": "20pcs / Box / 3.31㎡",
-    "price": 28000,
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW%203045%20%ED%99%94%EC%9D%B4%ED%8A%B8%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW%203045%20%ED%99%94%EC%9D%B4%ED%8A%B8%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW%203045%20%ED%99%94%EC%9D%B4%ED%8A%B8%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "180 x 920mm",
-      "packing": "20pcs / Box / 3.31㎡"
-    },
-    "description": "보타닉"
-  },
-  {
-    "id": "데코타일-lx-보타닉-dbw3046",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "보타닉",
-    "subLine": "보타닉",
-    "collection": "BOTANIC",
-    "series": "180 Wood",
-    "code": "DBW 3046",
-    "name": "오크",
-    "productName": "LX 보타닉 DBW 3046 오크",
-    "spec": "3.0T x 180 x 920mm",
-    "package": "20pcs / Box / 3.31㎡",
-    "price": 28000,
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW%203046%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW%203046%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW%203046%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "180 x 920mm",
-      "packing": "20pcs / Box / 3.31㎡"
-    },
-    "description": "보타닉"
-  },
-  {
-    "id": "데코타일-lx-보타닉-dbw3040",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "보타닉",
-    "subLine": "보타닉",
-    "collection": "BOTANIC",
-    "series": "180 Wood",
-    "code": "DBW 3040",
-    "name": "소프트 파인",
-    "productName": "LX 보타닉 DBW 3040 소프트 파인",
-    "spec": "3.0T x 180 x 920mm",
-    "package": "20pcs / Box / 3.31㎡",
-    "price": 28000,
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW%203040%20%EC%86%8C%ED%94%84%ED%8A%B8%20%ED%8C%8C%EC%9D%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW%203040%20%EC%86%8C%ED%94%84%ED%8A%B8%20%ED%8C%8C%EC%9D%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW%203040%20%EC%86%8C%ED%94%84%ED%8A%B8%20%ED%8C%8C%EC%9D%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "180 x 920mm",
-      "packing": "20pcs / Box / 3.31㎡"
-    },
-    "description": "보타닉"
-  },
-  {
-    "id": "데코타일-lx-보타닉-dbw3019",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "보타닉",
-    "subLine": "보타닉",
-    "collection": "BOTANIC",
-    "series": "180 Wood",
-    "code": "DBW 3019",
-    "name": "엘레강스 오크",
-    "productName": "LX 보타닉 DBW 3019 엘레강스 오크",
-    "spec": "3.0T x 180 x 920mm",
-    "package": "20pcs / Box / 3.31㎡",
-    "price": 28000,
-    "catalog": "LVT 베이직 3T (보타닉)",
-    "note": "비주거용, 비온돌용",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW%203019%20%EC%97%98%EB%A0%88%EA%B0%95%EC%8A%A4%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW%203019%20%EC%97%98%EB%A0%88%EA%B0%95%EC%8A%A4%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW%203019%20%EC%97%98%EB%A0%88%EA%B0%95%EC%8A%A4%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "보타닉",
-      "thickness": "3.0T",
-      "size": "180 x 920mm",
-      "packing": "20pcs / Box / 3.31㎡"
-    },
-    "description": "보타닉"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6251",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Concrete 600",
-    "code": "DET 6251",
-    "name": "노출 콘크리트",
-    "productName": "LX 에코노플러스 DET 6251 노출 콘크리트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206251%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206251%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206251%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6252",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Concrete 600",
-    "code": "DET 6252",
-    "name": "노출 콘크리트",
-    "productName": "LX 에코노플러스 DET 6252 노출 콘크리트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206252%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206252%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206252%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6238",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Concrete 600",
-    "code": "DET 6238",
-    "name": "노출 콘크리트",
-    "productName": "LX 에코노플러스 DET 6238 노출 콘크리트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206238%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206238%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206238%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6237",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Concrete 600",
-    "code": "DET 6237",
-    "name": "노출 콘크리트",
-    "productName": "LX 에코노플러스 DET 6237 노출 콘크리트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206237%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206237%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206237%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6242",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Concrete 600",
-    "code": "DET 6242",
-    "name": "메탈 콘크리트",
-    "productName": "LX 에코노플러스 DET 6242 메탈 콘크리트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206242%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206242%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206242%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6243",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Concrete 600",
-    "code": "DET 6243",
-    "name": "메탈 콘크리트",
-    "productName": "LX 에코노플러스 DET 6243 메탈 콘크리트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206243%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206243%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206243%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6244",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Concrete 600",
-    "code": "DET 6244",
-    "name": "메탈 콘크리트",
-    "productName": "LX 에코노플러스 DET 6244 메탈 콘크리트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206244%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206244%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206244%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6235",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Concrete 600",
-    "code": "DET 6235",
-    "name": "메탈 콘크리트",
-    "productName": "LX 에코노플러스 DET 6235 메탈 콘크리트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206235%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206235%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206235%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6236",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Concrete 600",
-    "code": "DET 6236",
-    "name": "메탈 콘크리트",
-    "productName": "LX 에코노플러스 DET 6236 메탈 콘크리트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206236%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206236%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206236%20%EB%A9%94%ED%83%88%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6558",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Concrete 600",
-    "code": "DET 6558",
-    "name": "내추럴 콘크리트",
-    "productName": "LX 에코노플러스 DET 6558 내추럴 콘크리트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206558%20%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206558%20%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206558%20%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6559",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Concrete 600",
-    "code": "DET 6559",
-    "name": "내추럴 콘크리트",
-    "productName": "LX 에코노플러스 DET 6559 내추럴 콘크리트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206559%20%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206559%20%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206559%20%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6550",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Concrete 600",
-    "code": "DET 6550",
-    "name": "어반 콘크리트",
-    "productName": "LX 에코노플러스 DET 6550 어반 콘크리트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206550%20%EC%96%B4%EB%B0%98%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206550%20%EC%96%B4%EB%B0%98%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206550%20%EC%96%B4%EB%B0%98%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6551",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Concrete 600",
-    "code": "DET 6551",
-    "name": "어반 콘크리트",
-    "productName": "LX 에코노플러스 DET 6551 어반 콘크리트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206551%20%EC%96%B4%EB%B0%98%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206551%20%EC%96%B4%EB%B0%98%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206551%20%EC%96%B4%EB%B0%98%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6552",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Concrete 600",
-    "code": "DET 6552",
-    "name": "어반 콘크리트",
-    "productName": "LX 에코노플러스 DET 6552 어반 콘크리트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206552%20%EC%96%B4%EB%B0%98%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206552%20%EC%96%B4%EB%B0%98%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206552%20%EC%96%B4%EB%B0%98%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6557",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Concrete 600",
-    "code": "DET 6557",
-    "name": "내추럴 콘크리트",
-    "productName": "LX 에코노플러스 DET 6557 내추럴 콘크리트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206557%20%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206557%20%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206557%20%EB%82%B4%EC%B6%94%EB%9F%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6553",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Concrete 600",
-    "code": "DET 6553",
-    "name": "클레이 콘크리트",
-    "productName": "LX 에코노플러스 DET 6553 클레이 콘크리트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206553%20%ED%81%B4%EB%A0%88%EC%9D%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206553%20%ED%81%B4%EB%A0%88%EC%9D%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206553%20%ED%81%B4%EB%A0%88%EC%9D%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6554",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Concrete 600",
-    "code": "DET 6554",
-    "name": "클레이 콘크리트",
-    "productName": "LX 에코노플러스 DET 6554 클레이 콘크리트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206554%20%ED%81%B4%EB%A0%88%EC%9D%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206554%20%ED%81%B4%EB%A0%88%EC%9D%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206554%20%ED%81%B4%EB%A0%88%EC%9D%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6555",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Concrete 600",
-    "code": "DET 6555",
-    "name": "클레이 콘크리트",
-    "productName": "LX 에코노플러스 DET 6555 클레이 콘크리트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206555%20%ED%81%B4%EB%A0%88%EC%9D%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206555%20%ED%81%B4%EB%A0%88%EC%9D%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206555%20%ED%81%B4%EB%A0%88%EC%9D%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6556",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Concrete 600",
-    "code": "DET 6556",
-    "name": "클레이 콘크리트",
-    "productName": "LX 에코노플러스 DET 6556 클레이 콘크리트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206556%20%ED%81%B4%EB%A0%88%EC%9D%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206556%20%ED%81%B4%EB%A0%88%EC%9D%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206556%20%ED%81%B4%EB%A0%88%EC%9D%B4%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6292",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Granite 600",
-    "code": "DET 6292",
-    "name": "그라니트",
-    "productName": "LX 에코노플러스 DET 6292 그라니트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206292%20%EA%B7%B8%EB%9D%BC%EB%8B%88%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206292%20%EA%B7%B8%EB%9D%BC%EB%8B%88%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206292%20%EA%B7%B8%EB%9D%BC%EB%8B%88%ED%8A%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6312",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Granite 600",
-    "code": "DET 6312",
-    "name": "에이지드 스틸",
-    "productName": "LX 에코노플러스 DET 6312 에이지드 스틸",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206312%20%EC%97%90%EC%9D%B4%EC%A7%80%EB%93%9C%20%EC%8A%A4%ED%8B%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206312%20%EC%97%90%EC%9D%B4%EC%A7%80%EB%93%9C%20%EC%8A%A4%ED%8B%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206312%20%EC%97%90%EC%9D%B4%EC%A7%80%EB%93%9C%20%EC%8A%A4%ED%8B%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6291",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Granite 600",
-    "code": "DET 6291",
-    "name": "그라니트",
-    "productName": "LX 에코노플러스 DET 6291 그라니트",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206291%20%EA%B7%B8%EB%9D%BC%EB%8B%88%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206291%20%EA%B7%B8%EB%9D%BC%EB%8B%88%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206291%20%EA%B7%B8%EB%9D%BC%EB%8B%88%ED%8A%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6203",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Marble 600",
-    "code": "DET 6203",
-    "name": "비안코",
-    "productName": "LX 에코노플러스 DET 6203 비안코",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206203%20%EB%B9%84%EC%95%88%EC%BD%94.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206203%20%EB%B9%84%EC%95%88%EC%BD%94.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206203%20%EB%B9%84%EC%95%88%EC%BD%94.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6204",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Marble 600",
-    "code": "DET 6204",
-    "name": "비안코",
-    "productName": "LX 에코노플러스 DET 6204 비안코",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206204%20%EB%B9%84%EC%95%88%EC%BD%94.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206204%20%EB%B9%84%EC%95%88%EC%BD%94.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206204%20%EB%B9%84%EC%95%88%EC%BD%94.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6258",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Marble 600",
-    "code": "DET 6258",
-    "name": "크랙 마블",
-    "productName": "LX 에코노플러스 DET 6258 크랙 마블",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206258%20%ED%81%AC%EB%9E%99%20%EB%A7%88%EB%B8%94.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206258%20%ED%81%AC%EB%9E%99%20%EB%A7%88%EB%B8%94.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206258%20%ED%81%AC%EB%9E%99%20%EB%A7%88%EB%B8%94.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6256",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Marble 600",
-    "code": "DET 6256",
-    "name": "크랙 마블",
-    "productName": "LX 에코노플러스 DET 6256 크랙 마블",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206256%20%ED%81%AC%EB%9E%99%20%EB%A7%88%EB%B8%94.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206256%20%ED%81%AC%EB%9E%99%20%EB%A7%88%EB%B8%94.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206256%20%ED%81%AC%EB%9E%99%20%EB%A7%88%EB%B8%94.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6257",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Marble 600",
-    "code": "DET 6257",
-    "name": "크랙 마블",
-    "productName": "LX 에코노플러스 DET 6257 크랙 마블",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206257%20%ED%81%AC%EB%9E%99%20%EB%A7%88%EB%B8%94.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206257%20%ED%81%AC%EB%9E%99%20%EB%A7%88%EB%B8%94.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206257%20%ED%81%AC%EB%9E%99%20%EB%A7%88%EB%B8%94.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6272",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Marble 600",
-    "code": "DET 6272",
-    "name": "마블",
-    "productName": "LX 에코노플러스 DET 6272 마블",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206272%20%EB%A7%88%EB%B8%94.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206272%20%EB%A7%88%EB%B8%94.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206272%20%EB%A7%88%EB%B8%94.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6273",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Marble 600",
-    "code": "DET 6273",
-    "name": "마블",
-    "productName": "LX 에코노플러스 DET 6273 마블",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206273%20%EB%A7%88%EB%B8%94.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206273%20%EB%A7%88%EB%B8%94.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206273%20%EB%A7%88%EB%B8%94.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6271",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Marble 600",
-    "code": "DET 6271",
-    "name": "마블",
-    "productName": "LX 에코노플러스 DET 6271 마블",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206271%20%EB%A7%88%EB%B8%94.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206271%20%EB%A7%88%EB%B8%94.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206271%20%EB%A7%88%EB%B8%94.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6229",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Marble 600",
-    "code": "DET 6229",
-    "name": "마블",
-    "productName": "LX 에코노플러스 DET 6229 마블",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206229%20%EB%A7%88%EB%B8%94.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206229%20%EB%A7%88%EB%B8%94.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206229%20%EB%A7%88%EB%B8%94.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6208",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Marble 600",
-    "code": "DET 6208",
-    "name": "피렌체 마블",
-    "productName": "LX 에코노플러스 DET 6208 피렌체 마블",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206208%20%ED%94%BC%EB%A0%8C%EC%B2%B4%20%EB%A7%88%EB%B8%94.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206208%20%ED%94%BC%EB%A0%8C%EC%B2%B4%20%EB%A7%88%EB%B8%94.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206208%20%ED%94%BC%EB%A0%8C%EC%B2%B4%20%EB%A7%88%EB%B8%94.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6207",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Marble 600",
-    "code": "DET 6207",
-    "name": "피렌체 마블",
-    "productName": "LX 에코노플러스 DET 6207 피렌체 마블",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206207%20%ED%94%BC%EB%A0%8C%EC%B2%B4%20%EB%A7%88%EB%B8%94.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206207%20%ED%94%BC%EB%A0%8C%EC%B2%B4%20%EB%A7%88%EB%B8%94.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206207%20%ED%94%BC%EB%A0%8C%EC%B2%B4%20%EB%A7%88%EB%B8%94.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6566",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Marble 600",
-    "code": "DET 6566",
-    "name": "컴포트 마블",
-    "productName": "LX 에코노플러스 DET 6566 컴포트 마블",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206566%20%EC%BB%B4%ED%8F%AC%ED%8A%B8%20%EB%A7%88%EB%B8%94.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206566%20%EC%BB%B4%ED%8F%AC%ED%8A%B8%20%EB%A7%88%EB%B8%94.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206566%20%EC%BB%B4%ED%8F%AC%ED%8A%B8%20%EB%A7%88%EB%B8%94.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6567",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Marble 600",
-    "code": "DET 6567",
-    "name": "컴포트 마블",
-    "productName": "LX 에코노플러스 DET 6567 컴포트 마블",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206567%20%EC%BB%B4%ED%8F%AC%ED%8A%B8%20%EB%A7%88%EB%B8%94.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206567%20%EC%BB%B4%ED%8F%AC%ED%8A%B8%20%EB%A7%88%EB%B8%94.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206567%20%EC%BB%B4%ED%8F%AC%ED%8A%B8%20%EB%A7%88%EB%B8%94.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6568",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Marble 600",
-    "code": "DET 6568",
-    "name": "컴포트 마블",
-    "productName": "LX 에코노플러스 DET 6568 컴포트 마블",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206568%20%EC%BB%B4%ED%8F%AC%ED%8A%B8%20%EB%A7%88%EB%B8%94.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206568%20%EC%BB%B4%ED%8F%AC%ED%8A%B8%20%EB%A7%88%EB%B8%94.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206568%20%EC%BB%B4%ED%8F%AC%ED%8A%B8%20%EB%A7%88%EB%B8%94.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6281",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Terrazzo 600",
-    "code": "DET 6281",
-    "name": "테라조",
-    "productName": "LX 에코노플러스 DET 6281 테라조",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206281%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206281%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206281%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6282",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Terrazzo 600",
-    "code": "DET 6282",
-    "name": "테라조",
-    "productName": "LX 에코노플러스 DET 6282 테라조",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206282%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206282%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206282%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6571",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Terrazzo 600",
-    "code": "DET 6571",
-    "name": "베이직 테라조",
-    "productName": "LX 에코노플러스 DET 6571 베이직 테라조",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206571%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206571%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206571%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6569",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Terrazzo 600",
-    "code": "DET 6569",
-    "name": "베이직 테라조",
-    "productName": "LX 에코노플러스 DET 6569 베이직 테라조",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206569%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206569%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206569%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6570",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Terrazzo 600",
-    "code": "DET 6570",
-    "name": "베이직 테라조",
-    "productName": "LX 에코노플러스 DET 6570 베이직 테라조",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206570%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206570%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206570%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6574",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Terrazzo 600",
-    "code": "DET 6574",
-    "name": "비안코 테라조",
-    "productName": "LX 에코노플러스 DET 6574 비안코 테라조",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206574%20%EB%B9%84%EC%95%88%EC%BD%94%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206574%20%EB%B9%84%EC%95%88%EC%BD%94%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206574%20%EB%B9%84%EC%95%88%EC%BD%94%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6573",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Terrazzo 600",
-    "code": "DET 6573",
-    "name": "비안코 테라조",
-    "productName": "LX 에코노플러스 DET 6573 비안코 테라조",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206573%20%EB%B9%84%EC%95%88%EC%BD%94%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206573%20%EB%B9%84%EC%95%88%EC%BD%94%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206573%20%EB%B9%84%EC%95%88%EC%BD%94%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6572",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Terrazzo 600",
-    "code": "DET 6572",
-    "name": "비안코 테라조",
-    "productName": "LX 에코노플러스 DET 6572 비안코 테라조",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206572%20%EB%B9%84%EC%95%88%EC%BD%94%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206572%20%EB%B9%84%EC%95%88%EC%BD%94%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206572%20%EB%B9%84%EC%95%88%EC%BD%94%20%ED%85%8C%EB%9D%BC%EC%A1%B0.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6563",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Sand / Lime 600",
-    "code": "DET 6563",
-    "name": "칩 세라믹",
-    "productName": "LX 에코노플러스 DET 6563 칩 세라믹",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206563%20%EC%B9%A9%20%EC%84%B8%EB%9D%BC%EB%AF%B9.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206563%20%EC%B9%A9%20%EC%84%B8%EB%9D%BC%EB%AF%B9.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206563%20%EC%B9%A9%20%EC%84%B8%EB%9D%BC%EB%AF%B9.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6564",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Sand / Lime 600",
-    "code": "DET 6564",
-    "name": "칩 세라믹",
-    "productName": "LX 에코노플러스 DET 6564 칩 세라믹",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206564%20%EC%B9%A9%20%EC%84%B8%EB%9D%BC%EB%AF%B9.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206564%20%EC%B9%A9%20%EC%84%B8%EB%9D%BC%EB%AF%B9.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206564%20%EC%B9%A9%20%EC%84%B8%EB%9D%BC%EB%AF%B9.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6565",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Sand / Lime 600",
-    "code": "DET 6565",
-    "name": "칩 세라믹",
-    "productName": "LX 에코노플러스 DET 6565 칩 세라믹",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206565%20%EC%B9%A9%20%EC%84%B8%EB%9D%BC%EB%AF%B9.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206565%20%EC%B9%A9%20%EC%84%B8%EB%9D%BC%EB%AF%B9.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206565%20%EC%B9%A9%20%EC%84%B8%EB%9D%BC%EB%AF%B9.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6562",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Sand / Lime 600",
-    "code": "DET 6562",
-    "name": "라임 스톤",
-    "productName": "LX 에코노플러스 DET 6562 라임 스톤",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206562%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206562%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206562%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6561",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Sand / Lime 600",
-    "code": "DET 6561",
-    "name": "라임 스톤",
-    "productName": "LX 에코노플러스 DET 6561 라임 스톤",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206561%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206561%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206561%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6560",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Sand / Lime 600",
-    "code": "DET 6560",
-    "name": "라임 스톤",
-    "productName": "LX 에코노플러스 DET 6560 라임 스톤",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206560%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206560%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206560%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6008",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Carpet 600",
-    "code": "DET 6008",
-    "name": "솔리드 카펫",
-    "productName": "LX 에코노플러스 DET 6008 솔리드 카펫",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206008%20%EC%86%94%EB%A6%AC%EB%93%9C%20%EC%B9%B4%ED%8E%AB.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206008%20%EC%86%94%EB%A6%AC%EB%93%9C%20%EC%B9%B4%ED%8E%AB.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206008%20%EC%86%94%EB%A6%AC%EB%93%9C%20%EC%B9%B4%ED%8E%AB.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6014",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Carpet 600",
-    "code": "DET 6014",
-    "name": "솔리드 카펫",
-    "productName": "LX 에코노플러스 DET 6014 솔리드 카펫",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206014%20%EC%86%94%EB%A6%AC%EB%93%9C%20%EC%B9%B4%ED%8E%AB.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206014%20%EC%86%94%EB%A6%AC%EB%93%9C%20%EC%B9%B4%ED%8E%AB.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206014%20%EC%86%94%EB%A6%AC%EB%93%9C%20%EC%B9%B4%ED%8E%AB.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6076",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Carpet 600",
-    "code": "DET 6076",
-    "name": "패턴 카펫",
-    "productName": "LX 에코노플러스 DET 6076 패턴 카펫",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206076%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206076%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206076%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6075",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Carpet 600",
-    "code": "DET 6075",
-    "name": "패턴 카펫",
-    "productName": "LX 에코노플러스 DET 6075 패턴 카펫",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206075%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206075%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206075%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6064",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Carpet 600",
-    "code": "DET 6064",
-    "name": "패턴 카펫",
-    "productName": "LX 에코노플러스 DET 6064 패턴 카펫",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206064%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206064%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206064%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6576",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Carpet 600",
-    "code": "DET 6576",
-    "name": "베이직 카펫",
-    "productName": "LX 에코노플러스 DET 6576 베이직 카펫",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206576%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EC%B9%B4%ED%8E%AB.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206576%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EC%B9%B4%ED%8E%AB.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206576%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EC%B9%B4%ED%8E%AB.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6575",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Carpet 600",
-    "code": "DET 6575",
-    "name": "베이직 카펫",
-    "productName": "LX 에코노플러스 DET 6575 베이직 카펫",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206575%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EC%B9%B4%ED%8E%AB.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206575%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EC%B9%B4%ED%8E%AB.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206575%20%EB%B2%A0%EC%9D%B4%EC%A7%81%20%EC%B9%B4%ED%8E%AB.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6578",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Carpet 600",
-    "code": "DET 6578",
-    "name": "마운틴 카펫",
-    "productName": "LX 에코노플러스 DET 6578 마운틴 카펫",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206578%20%EB%A7%88%EC%9A%B4%ED%8B%B4%20%EC%B9%B4%ED%8E%AB.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206578%20%EB%A7%88%EC%9A%B4%ED%8B%B4%20%EC%B9%B4%ED%8E%AB.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206578%20%EB%A7%88%EC%9A%B4%ED%8B%B4%20%EC%B9%B4%ED%8E%AB.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6577",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Carpet 600",
-    "code": "DET 6577",
-    "name": "마운틴 카펫",
-    "productName": "LX 에코노플러스 DET 6577 마운틴 카펫",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206577%20%EB%A7%88%EC%9A%B4%ED%8B%B4%20%EC%B9%B4%ED%8E%AB.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206577%20%EB%A7%88%EC%9A%B4%ED%8B%B4%20%EC%B9%B4%ED%8E%AB.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206577%20%EB%A7%88%EC%9A%B4%ED%8B%B4%20%EC%B9%B4%ED%8E%AB.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6580",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Carpet 600",
-    "code": "DET 6580",
-    "name": "아트 러그",
-    "productName": "LX 에코노플러스 DET 6580 아트 러그",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206580%20%EC%95%84%ED%8A%B8%20%EB%9F%AC%EA%B7%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206580%20%EC%95%84%ED%8A%B8%20%EB%9F%AC%EA%B7%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206580%20%EC%95%84%ED%8A%B8%20%EB%9F%AC%EA%B7%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6579",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Carpet 600",
-    "code": "DET 6579",
-    "name": "아트 러그",
-    "productName": "LX 에코노플러스 DET 6579 아트 러그",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206579%20%EC%95%84%ED%8A%B8%20%EB%9F%AC%EA%B7%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206579%20%EC%95%84%ED%8A%B8%20%EB%9F%AC%EA%B7%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206579%20%EC%95%84%ED%8A%B8%20%EB%9F%AC%EA%B7%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det2981",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Woven 600",
-    "code": "DET 2981",
-    "name": "패브릭",
-    "productName": "LX 에코노플러스 DET 2981 패브릭",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202981%20%ED%8C%A8%EB%B8%8C%EB%A6%AD.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202981%20%ED%8C%A8%EB%B8%8C%EB%A6%AD.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202981%20%ED%8C%A8%EB%B8%8C%EB%A6%AD.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det2992",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Woven 600",
-    "code": "DET 2992",
-    "name": "패브릭",
-    "productName": "LX 에코노플러스 DET 2992 패브릭",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202992%20%ED%8C%A8%EB%B8%8C%EB%A6%AD.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202992%20%ED%8C%A8%EB%B8%8C%EB%A6%AD.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202992%20%ED%8C%A8%EB%B8%8C%EB%A6%AD.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det2991",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Woven 600",
-    "code": "DET 2991",
-    "name": "패브릭",
-    "productName": "LX 에코노플러스 DET 2991 패브릭",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202991%20%ED%8C%A8%EB%B8%8C%EB%A6%AD.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202991%20%ED%8C%A8%EB%B8%8C%EB%A6%AD.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202991%20%ED%8C%A8%EB%B8%8C%EB%A6%AD.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det2983",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Woven 600",
-    "code": "DET 2983",
-    "name": "패브릭",
-    "productName": "LX 에코노플러스 DET 2983 패브릭",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202983%20%ED%8C%A8%EB%B8%8C%EB%A6%AD.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202983%20%ED%8C%A8%EB%B8%8C%EB%A6%AD.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202983%20%ED%8C%A8%EB%B8%8C%EB%A6%AD.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6330",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Woven 600",
-    "code": "DET 6330",
-    "name": "우븐",
-    "productName": "LX 에코노플러스 DET 6330 우븐",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206330%20%EC%9A%B0%EB%B8%90.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206330%20%EC%9A%B0%EB%B8%90.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206330%20%EC%9A%B0%EB%B8%90.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6326",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Woven 600",
-    "code": "DET 6326",
-    "name": "우븐",
-    "productName": "LX 에코노플러스 DET 6326 우븐",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206326%20%EC%9A%B0%EB%B8%90.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206326%20%EC%9A%B0%EB%B8%90.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206326%20%EC%9A%B0%EB%B8%90.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6325",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Woven 600",
-    "code": "DET 6325",
-    "name": "우븐",
-    "productName": "LX 에코노플러스 DET 6325 우븐",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206325%20%EC%9A%B0%EB%B8%90.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206325%20%EC%9A%B0%EB%B8%90.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206325%20%EC%9A%B0%EB%B8%90.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6341",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Woven 600",
-    "code": "DET 6341",
-    "name": "라인 우븐",
-    "productName": "LX 에코노플러스 DET 6341 라인 우븐",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206341%20%EB%9D%BC%EC%9D%B8%20%EC%9A%B0%EB%B8%90.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206341%20%EB%9D%BC%EC%9D%B8%20%EC%9A%B0%EB%B8%90.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206341%20%EB%9D%BC%EC%9D%B8%20%EC%9A%B0%EB%B8%90.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6340",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Woven 600",
-    "code": "DET 6340",
-    "name": "라인 우븐",
-    "productName": "LX 에코노플러스 DET 6340 라인 우븐",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206340%20%EB%9D%BC%EC%9D%B8%20%EC%9A%B0%EB%B8%90.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206340%20%EB%9D%BC%EC%9D%B8%20%EC%9A%B0%EB%B8%90.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206340%20%EB%9D%BC%EC%9D%B8%20%EC%9A%B0%EB%B8%90.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6523",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Wood 600",
-    "code": "DET 6523",
-    "name": "파켓 우드",
-    "productName": "LX 에코노플러스 DET 6523 파켓 우드",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206523%20%ED%8C%8C%EC%BC%93%20%EC%9A%B0%EB%93%9C.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206523%20%ED%8C%8C%EC%BC%93%20%EC%9A%B0%EB%93%9C.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206523%20%ED%8C%8C%EC%BC%93%20%EC%9A%B0%EB%93%9C.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6263",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Wood 600",
-    "code": "DET 6263",
-    "name": "모던",
-    "productName": "LX 에코노플러스 DET 6263 모던",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206263%20%EB%AA%A8%EB%8D%98.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206263%20%EB%AA%A8%EB%8D%98.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206263%20%EB%AA%A8%EB%8D%98.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6262",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Wood 600",
-    "code": "DET 6262",
-    "name": "모던",
-    "productName": "LX 에코노플러스 DET 6262 모던",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206262%20%EB%AA%A8%EB%8D%98.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206262%20%EB%AA%A8%EB%8D%98.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206262%20%EB%AA%A8%EB%8D%98.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-dew4608",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Wood",
-    "code": "DEW 4608",
-    "name": "워시드 오크",
-    "productName": "LX 에코노플러스 DEW 4608 워시드 오크",
-    "spec": "3.0T x 180 x 1200mm",
-    "package": "15pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204608%20%EC%9B%8C%EC%8B%9C%EB%93%9C%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204608%20%EC%9B%8C%EC%8B%9C%EB%93%9C%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204608%20%EC%9B%8C%EC%8B%9C%EB%93%9C%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "180 x 1200mm",
-      "packing": "15pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-dew4206",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Wood",
-    "code": "DEW 4206",
-    "name": "오크",
-    "productName": "LX 에코노플러스 DEW 4206 오크",
-    "spec": "3.0T x 180 x 1200mm",
-    "package": "15pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204206%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204206%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204206%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "180 x 1200mm",
-      "packing": "15pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-dew4707",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Wood",
-    "code": "DEW 4707",
-    "name": "워시드 오크",
-    "productName": "LX 에코노플러스 DEW 4707 워시드 오크",
-    "spec": "3.0T x 180 x 1200mm",
-    "package": "15pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204707%20%EC%9B%8C%EC%8B%9C%EB%93%9C%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204707%20%EC%9B%8C%EC%8B%9C%EB%93%9C%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204707%20%EC%9B%8C%EC%8B%9C%EB%93%9C%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "180 x 1200mm",
-      "packing": "15pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-dew4709",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Wood",
-    "code": "DEW 4709",
-    "name": "체리",
-    "productName": "LX 에코노플러스 DEW 4709 체리",
-    "spec": "3.0T x 180 x 1200mm",
-    "package": "15pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204709%20%EC%B2%B4%EB%A6%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204709%20%EC%B2%B4%EB%A6%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204709%20%EC%B2%B4%EB%A6%AC.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "180 x 1200mm",
-      "packing": "15pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-dew4792",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Wood",
-    "code": "DEW 4792",
-    "name": "티크",
-    "productName": "LX 에코노플러스 DEW 4792 티크",
-    "spec": "3.0T x 180 x 1200mm",
-    "package": "15pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204792%20%ED%8B%B0%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204792%20%ED%8B%B0%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204792%20%ED%8B%B0%ED%81%AC.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "180 x 1200mm",
-      "packing": "15pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-dew4752",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Wood",
-    "code": "DEW 4752",
-    "name": "티크",
-    "productName": "LX 에코노플러스 DEW 4752 티크",
-    "spec": "3.0T x 180 x 1200mm",
-    "package": "15pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204752%20%ED%8B%B0%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204752%20%ED%8B%B0%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%204752%20%ED%8B%B0%ED%81%AC.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "180 x 1200mm",
-      "packing": "15pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-dew2672",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Wood",
-    "code": "DEW 2672",
-    "name": "카빙 오크",
-    "productName": "LX 에코노플러스 DEW 2672 카빙 오크",
-    "spec": "3.0T x 180 x 1200mm",
-    "package": "15pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202672%20%EC%B9%B4%EB%B9%99%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202672%20%EC%B9%B4%EB%B9%99%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202672%20%EC%B9%B4%EB%B9%99%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "180 x 1200mm",
-      "packing": "15pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-dew2671",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Wood",
-    "code": "DEW 2671",
-    "name": "카빙 오크",
-    "productName": "LX 에코노플러스 DEW 2671 카빙 오크",
-    "spec": "3.0T x 180 x 1200mm",
-    "package": "15pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202671%20%EC%B9%B4%EB%B9%99%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202671%20%EC%B9%B4%EB%B9%99%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202671%20%EC%B9%B4%EB%B9%99%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "180 x 1200mm",
-      "packing": "15pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-dew2632",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Wood",
-    "code": "DEW 2632",
-    "name": "허니 오크",
-    "productName": "LX 에코노플러스 DEW 2632 허니 오크",
-    "spec": "3.0T x 180 x 1200mm",
-    "package": "15pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202632%20%ED%97%88%EB%8B%88%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202632%20%ED%97%88%EB%8B%88%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202632%20%ED%97%88%EB%8B%88%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "180 x 1200mm",
-      "packing": "15pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-dew2631",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Wood",
-    "code": "DEW 2631",
-    "name": "허니 오크",
-    "productName": "LX 에코노플러스 DEW 2631 허니 오크",
-    "spec": "3.0T x 180 x 1200mm",
-    "package": "15pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202631%20%ED%97%88%EB%8B%88%20%EC%98%A4%ED%81%AC.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202631%20%ED%97%88%EB%8B%88%20%EC%98%A4%ED%81%AC.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202631%20%ED%97%88%EB%8B%88%20%EC%98%A4%ED%81%AC.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "180 x 1200mm",
-      "packing": "15pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-dew2620",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Wood",
-    "code": "DEW 2620",
-    "name": "켄트 엘름",
-    "productName": "LX 에코노플러스 DEW 2620 켄트 엘름",
-    "spec": "3.0T x 180 x 1200mm",
-    "package": "15pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202620%20%EC%BC%84%ED%8A%B8%20%EC%97%98%EB%A6%84.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202620%20%EC%BC%84%ED%8A%B8%20%EC%97%98%EB%A6%84.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DEW%202620%20%EC%BC%84%ED%8A%B8%20%EC%97%98%EB%A6%84.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "180 x 1200mm",
-      "packing": "15pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det2904",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Stone 450",
-    "code": "DET 2904",
-    "name": "노출 콘크리트",
-    "productName": "LX 에코노플러스 DET 2904 노출 콘크리트",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202904%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202904%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202904%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det2493",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Stone 450",
-    "code": "DET 2493",
-    "name": "노출 콘크리트",
-    "productName": "LX 에코노플러스 DET 2493 노출 콘크리트",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202493%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202493%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202493%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det2905",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Stone 450",
-    "code": "DET 2905",
-    "name": "노출 콘크리트",
-    "productName": "LX 에코노플러스 DET 2905 노출 콘크리트",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202905%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202905%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202905%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det2494",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Stone 450",
-    "code": "DET 2494",
-    "name": "노출 콘크리트",
-    "productName": "LX 에코노플러스 DET 2494 노출 콘크리트",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202494%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202494%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202494%20%EB%85%B8%EC%B6%9C%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det2251",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Stone 450",
-    "code": "DET 2251",
-    "name": "마블",
-    "productName": "LX 에코노플러스 DET 2251 마블",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202251%20%EB%A7%88%EB%B8%94.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202251%20%EB%A7%88%EB%B8%94.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202251%20%EB%A7%88%EB%B8%94.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6240",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Stone 450",
-    "code": "DET 6240",
-    "name": "마블",
-    "productName": "LX 에코노플러스 DET 6240 마블",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206240%20%EB%A7%88%EB%B8%94.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206240%20%EB%A7%88%EB%B8%94.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206240%20%EB%A7%88%EB%B8%94.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6239",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Stone 450",
-    "code": "DET 6239",
-    "name": "마블",
-    "productName": "LX 에코노플러스 DET 6239 마블",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206239%20%EB%A7%88%EB%B8%94.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206239%20%EB%A7%88%EB%B8%94.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206239%20%EB%A7%88%EB%B8%94.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det2125",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Stone 450",
-    "code": "DET 2125",
-    "name": "그라니트",
-    "productName": "LX 에코노플러스 DET 2125 그라니트",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202125%20%EA%B7%B8%EB%9D%BC%EB%8B%88%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202125%20%EA%B7%B8%EB%9D%BC%EB%8B%88%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202125%20%EA%B7%B8%EB%9D%BC%EB%8B%88%ED%8A%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det2116",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Stone 450",
-    "code": "DET 2116",
-    "name": "그라니트",
-    "productName": "LX 에코노플러스 DET 2116 그라니트",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202116%20%EA%B7%B8%EB%9D%BC%EB%8B%88%ED%8A%B8.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202116%20%EA%B7%B8%EB%9D%BC%EB%8B%88%ED%8A%B8.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202116%20%EA%B7%B8%EB%9D%BC%EB%8B%88%ED%8A%B8.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det2407",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Stone 450",
-    "code": "DET 2407",
-    "name": "세라믹",
-    "productName": "LX 에코노플러스 DET 2407 세라믹",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202407%20%EC%84%B8%EB%9D%BC%EB%AF%B9.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202407%20%EC%84%B8%EB%9D%BC%EB%AF%B9.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202407%20%EC%84%B8%EB%9D%BC%EB%AF%B9.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det2870",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Carpet 450",
-    "code": "DET 2870",
-    "name": "올 오버 카펫",
-    "productName": "LX 에코노플러스 DET 2870 올 오버 카펫",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202870%20%EC%98%AC%20%EC%98%A4%EB%B2%84%20%EC%B9%B4%ED%8E%AB.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202870%20%EC%98%AC%20%EC%98%A4%EB%B2%84%20%EC%B9%B4%ED%8E%AB.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202870%20%EC%98%AC%20%EC%98%A4%EB%B2%84%20%EC%B9%B4%ED%8E%AB.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det2872",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Carpet 450",
-    "code": "DET 2872",
-    "name": "올 오버 카펫",
-    "productName": "LX 에코노플러스 DET 2872 올 오버 카펫",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202872%20%EC%98%AC%20%EC%98%A4%EB%B2%84%20%EC%B9%B4%ED%8E%AB.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202872%20%EC%98%AC%20%EC%98%A4%EB%B2%84%20%EC%B9%B4%ED%8E%AB.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202872%20%EC%98%AC%20%EC%98%A4%EB%B2%84%20%EC%B9%B4%ED%8E%AB.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det2871",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Carpet 450",
-    "code": "DET 2871",
-    "name": "올 오버 카펫",
-    "productName": "LX 에코노플러스 DET 2871 올 오버 카펫",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202871%20%EC%98%AC%20%EC%98%A4%EB%B2%84%20%EC%B9%B4%ED%8E%AB.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202871%20%EC%98%AC%20%EC%98%A4%EB%B2%84%20%EC%B9%B4%ED%8E%AB.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202871%20%EC%98%AC%20%EC%98%A4%EB%B2%84%20%EC%B9%B4%ED%8E%AB.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det2862",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Carpet 450",
-    "code": "DET 2862",
-    "name": "패턴 카펫",
-    "productName": "LX 에코노플러스 DET 2862 패턴 카펫",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202862%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202862%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202862%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det2823",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Carpet 450",
-    "code": "DET 2823",
-    "name": "패턴 카펫",
-    "productName": "LX 에코노플러스 DET 2823 패턴 카펫",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202823%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202823%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202823%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det2821",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Carpet 450",
-    "code": "DET 2821",
-    "name": "패턴 카펫",
-    "productName": "LX 에코노플러스 DET 2821 패턴 카펫",
-    "spec": "3.0T x 450 x 450mm",
-    "package": "16pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202821%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202821%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%202821%20%ED%8C%A8%ED%84%B4%20%EC%B9%B4%ED%8E%AB.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "450 x 450mm",
-      "packing": "16pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6247",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Metal Sparkling 600",
-    "code": "DET 6247",
-    "name": "스파클링 메탈",
-    "productName": "LX 에코노플러스 DET 6247 스파클링 메탈",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206247%20%EC%8A%A4%ED%8C%8C%ED%81%B4%EB%A7%81%20%EB%A9%94%ED%83%88.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206247%20%EC%8A%A4%ED%8C%8C%ED%81%B4%EB%A7%81%20%EB%A9%94%ED%83%88.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206247%20%EC%8A%A4%ED%8C%8C%ED%81%B4%EB%A7%81%20%EB%A9%94%ED%83%88.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6248",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Metal Sparkling 600",
-    "code": "DET 6248",
-    "name": "스파클링 메탈",
-    "productName": "LX 에코노플러스 DET 6248 스파클링 메탈",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206248%20%EC%8A%A4%ED%8C%8C%ED%81%B4%EB%A7%81%20%EB%A9%94%ED%83%88.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206248%20%EC%8A%A4%ED%8C%8C%ED%81%B4%EB%A7%81%20%EB%A9%94%ED%83%88.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206248%20%EC%8A%A4%ED%8C%8C%ED%81%B4%EB%A7%81%20%EB%A9%94%ED%83%88.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6245",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Metal Sparkling 600",
-    "code": "DET 6245",
-    "name": "스파클링 메탈",
-    "productName": "LX 에코노플러스 DET 6245 스파클링 메탈",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206245%20%EC%8A%A4%ED%8C%8C%ED%81%B4%EB%A7%81%20%EB%A9%94%ED%83%88.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206245%20%EC%8A%A4%ED%8C%8C%ED%81%B4%EB%A7%81%20%EB%A9%94%ED%83%88.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206245%20%EC%8A%A4%ED%8C%8C%ED%81%B4%EB%A7%81%20%EB%A9%94%ED%83%88.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
-  },
-  {
-    "id": "데코타일-lx-에코노플러스-det6246",
-    "category": "데코타일",
-    "brand": "LX",
-    "line": "에코노플러스",
-    "subLine": "에코노플러스",
-    "collection": "ECONO PLUS",
-    "series": "Metal Sparkling 600",
-    "code": "DET 6246",
-    "name": "스파클링 메탈",
-    "productName": "LX 에코노플러스 DET 6246 스파클링 메탈",
-    "spec": "3.0T x 600 x 600mm",
-    "package": "9pcs / Box / 3.24㎡",
-    "price": 35000,
-    "catalog": "LVT 스탠다드 3T (에코노플러스)",
-    "note": "",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206246%20%EC%8A%A4%ED%8C%8C%ED%81%B4%EB%A7%81%20%EB%A9%94%ED%83%88.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206246%20%EC%8A%A4%ED%8C%8C%ED%81%B4%EB%A7%81%20%EB%A9%94%ED%83%88.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/DET%206246%20%EC%8A%A4%ED%8C%8C%ED%81%B4%EB%A7%81%20%EB%A9%94%ED%83%88.jpg"
-    ],
-    "thickness": "3.0T",
-    "specs": {
-      "division": "에코노플러스",
-      "thickness": "3.0T",
-      "size": "600 x 600mm",
-      "packing": "9pcs / Box / 3.24㎡"
-    },
-    "description": "에코노플러스"
+    "productName": "화이트 오크_세라",
+    "code": null,
+    "collection": "SERA",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/화이트 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/화이트 오크.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라/화이트 오크.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라",
+      "thickness": "7.5T",
+      "size": "T7.5 x W95 x L800mm",
+      "packing": ""
+    },
+    "description": "세라",
+    "note": "강마루 / 18종 디자인 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-n-oak",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라",
+    "subLine": "세라",
+    "name": "N 오크",
+    "productName": "N 오크_세라",
+    "code": null,
+    "collection": "SERA",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/N 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/N 오크.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라/N 오크.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라",
+      "thickness": "7.5T",
+      "size": "T7.5 x W95 x L800mm",
+      "packing": ""
+    },
+    "description": "세라",
+    "note": "강마루 / 18종 디자인 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-mild-oak",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라",
+    "subLine": "세라",
+    "name": "마일드 오크",
+    "productName": "마일드 오크_세라",
+    "code": null,
+    "collection": "SERA",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/마일드 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/마일드 오크.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라/마일드 오크.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라",
+      "thickness": "7.5T",
+      "size": "T7.5 x W95 x L800mm",
+      "packing": ""
+    },
+    "description": "세라",
+    "note": "강마루 / 18종 디자인 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-organic-oak",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라",
+    "subLine": "세라",
+    "name": "오가닉 오크",
+    "productName": "오가닉 오크_세라",
+    "code": null,
+    "collection": "SERA",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/오가닉 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/오가닉 오크.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라/오가닉 오크.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라",
+      "thickness": "7.5T",
+      "size": "T7.5 x W95 x L800mm",
+      "packing": ""
+    },
+    "description": "세라",
+    "note": "강마루 / 18종 디자인 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-oslo-beige",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라",
+    "subLine": "세라",
+    "name": "오슬로 베이지",
+    "productName": "오슬로 베이지_세라",
+    "code": null,
+    "collection": "SERA",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/오슬로 베이지.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/오슬로 베이지.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라/오슬로 베이지.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라",
+      "thickness": "7.5T",
+      "size": "T7.5 x W95 x L800mm",
+      "packing": ""
+    },
+    "description": "세라",
+    "note": "강마루 / 18종 디자인 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-white-ash",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라",
+    "subLine": "세라",
+    "name": "화이트 애쉬",
+    "productName": "화이트 애쉬_세라",
+    "code": null,
+    "collection": "SERA",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/화이트 애쉬.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/화이트 애쉬.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라/화이트 애쉬.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라",
+      "thickness": "7.5T",
+      "size": "T7.5 x W95 x L800mm",
+      "packing": ""
+    },
+    "description": "세라",
+    "note": "강마루 / 18종 디자인 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-cotton-white",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라",
+    "subLine": "세라",
+    "name": "코튼 화이트",
+    "productName": "코튼 화이트_세라",
+    "code": null,
+    "collection": "SERA",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/코튼 화이트.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/코튼 화이트.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라/코튼 화이트.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라",
+      "thickness": "7.5T",
+      "size": "T7.5 x W95 x L800mm",
+      "packing": ""
+    },
+    "description": "세라",
+    "note": "강마루 / 18종 디자인 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-nordic-white",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라",
+    "subLine": "세라",
+    "name": "노르딕 화이트",
+    "productName": "노르딕 화이트_세라",
+    "code": null,
+    "collection": "SERA",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/노르딕 화이트.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/노르딕 화이트.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라/노르딕 화이트.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라",
+      "thickness": "7.5T",
+      "size": "T7.5 x W95 x L800mm",
+      "packing": ""
+    },
+    "description": "세라",
+    "note": "강마루 / 18종 디자인 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-lisa-white",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라",
+    "subLine": "세라",
+    "name": "리사 화이트",
+    "productName": "리사 화이트_세라",
+    "code": null,
+    "collection": "SERA",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/리사 화이트.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/리사 화이트.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라/리사 화이트.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라",
+      "thickness": "7.5T",
+      "size": "T7.5 x W95 x L800mm",
+      "packing": ""
+    },
+    "description": "세라",
+    "note": "강마루 / 18종 디자인 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-floral-white",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라",
+    "subLine": "세라",
+    "name": "플로랄 화이트",
+    "productName": "플로랄 화이트_세라",
+    "code": null,
+    "collection": "SERA",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/플로랄 화이트.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/플로랄 화이트.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라/플로랄 화이트.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라",
+      "thickness": "7.5T",
+      "size": "T7.5 x W95 x L800mm",
+      "packing": ""
+    },
+    "description": "세라",
+    "note": "강마루 / 18종 디자인 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-stylish-white",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라",
+    "subLine": "세라",
+    "name": "스타일리쉬 화이트",
+    "productName": "스타일리쉬 화이트_세라",
+    "code": null,
+    "collection": "SERA",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/스타일리쉬 화이트.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/스타일리쉬 화이트.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라/스타일리쉬 화이트.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라",
+      "thickness": "7.5T",
+      "size": "T7.5 x W95 x L800mm",
+      "packing": ""
+    },
+    "description": "세라",
+    "note": "강마루 / 18종 디자인 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-snow-wash",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라",
+    "subLine": "세라",
+    "name": "스노우 워시",
+    "productName": "스노우 워시_세라",
+    "code": null,
+    "collection": "SERA",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/스노우 워시.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/스노우 워시.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라/스노우 워시.jpg"
+    ],
+    "price": null,
+    "thickness": "7.5T",
+    "specs": {
+      "division": "세라",
+      "thickness": "7.5T",
+      "size": "T7.5 x W95 x L800mm",
+      "packing": ""
+    },
+    "description": "세라",
+    "note": "강마루 / 18종 디자인 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-basic-basic-sugar",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 베이직",
+    "subLine": "세라 베이직",
+    "name": "베이직 슈가",
+    "productName": "베이직 슈가_세라 베이직",
+    "code": null,
+    "collection": "SERA Basic",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 슈가.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 슈가.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 슈가.jpg"
+    ],
+    "price": null,
+    "thickness": "6.2T",
+    "specs": {
+      "division": "세라 베이직",
+      "thickness": "6.2T",
+      "size": "T6.2 x W115 x L800mm",
+      "packing": ""
+    },
+    "description": "세라 베이직",
+    "note": "강마루 / 3D 엠보싱 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-basic-basic-milk",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 베이직",
+    "subLine": "세라 베이직",
+    "name": "베이직 밀크",
+    "productName": "베이직 밀크_세라 베이직",
+    "code": null,
+    "collection": "SERA Basic",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 밀크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 밀크.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 밀크.jpg"
+    ],
+    "price": null,
+    "thickness": "6.2T",
+    "specs": {
+      "division": "세라 베이직",
+      "thickness": "6.2T",
+      "size": "T6.2 x W115 x L800mm",
+      "packing": ""
+    },
+    "description": "세라 베이직",
+    "note": "강마루 / 3D 엠보싱 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-basic-basic-cream",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 베이직",
+    "subLine": "세라 베이직",
+    "name": "베이직 크림",
+    "productName": "베이직 크림_세라 베이직",
+    "code": null,
+    "collection": "SERA Basic",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 크림.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 크림.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 크림.jpg"
+    ],
+    "price": null,
+    "thickness": "6.2T",
+    "specs": {
+      "division": "세라 베이직",
+      "thickness": "6.2T",
+      "size": "T6.2 x W115 x L800mm",
+      "packing": ""
+    },
+    "description": "세라 베이직",
+    "note": "강마루 / 3D 엠보싱 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-basic-basic-vanilla",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 베이직",
+    "subLine": "세라 베이직",
+    "name": "베이직 바닐라",
+    "productName": "베이직 바닐라_세라 베이직",
+    "code": null,
+    "collection": "SERA Basic",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 바닐라.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 바닐라.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 바닐라.jpg"
+    ],
+    "price": null,
+    "thickness": "6.2T",
+    "specs": {
+      "division": "세라 베이직",
+      "thickness": "6.2T",
+      "size": "T6.2 x W115 x L800mm",
+      "packing": ""
+    },
+    "description": "세라 베이직",
+    "note": "강마루 / 3D 엠보싱 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-basic-basic-butter",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 베이직",
+    "subLine": "세라 베이직",
+    "name": "베이직 버터",
+    "productName": "베이직 버터_세라 베이직",
+    "code": null,
+    "collection": "SERA Basic",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 버터.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 버터.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 버터.jpg"
+    ],
+    "price": null,
+    "thickness": "6.2T",
+    "specs": {
+      "division": "세라 베이직",
+      "thickness": "6.2T",
+      "size": "T6.2 x W115 x L800mm",
+      "packing": ""
+    },
+    "description": "세라 베이직",
+    "note": "강마루 / 3D 엠보싱 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-basic-basic-oak",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 베이직",
+    "subLine": "세라 베이직",
+    "name": "베이직 오크",
+    "productName": "베이직 오크_세라 베이직",
+    "code": null,
+    "collection": "SERA Basic",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 오크.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 오크.jpg"
+    ],
+    "price": null,
+    "thickness": "6.2T",
+    "specs": {
+      "division": "세라 베이직",
+      "thickness": "6.2T",
+      "size": "T6.2 x W115 x L800mm",
+      "packing": ""
+    },
+    "description": "세라 베이직",
+    "note": "강마루 / 3D 엠보싱 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-basic-basic-teak",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 베이직",
+    "subLine": "세라 베이직",
+    "name": "베이직 티크",
+    "productName": "베이직 티크_세라 베이직",
+    "code": null,
+    "collection": "SERA Basic",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 티크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 티크.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 티크.jpg"
+    ],
+    "price": null,
+    "thickness": "6.2T",
+    "specs": {
+      "division": "세라 베이직",
+      "thickness": "6.2T",
+      "size": "T6.2 x W115 x L800mm",
+      "packing": ""
+    },
+    "description": "세라 베이직",
+    "note": "강마루 / 3D 엠보싱 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
+  },
+  {
+    "id": "eagon-sera-basic-basic-cookie",
+    "category": "마루",
+    "brand": "이건",
+    "line": "세라 베이직",
+    "subLine": "세라 베이직",
+    "name": "베이직 쿠키",
+    "productName": "베이직 쿠키_세라 베이직",
+    "code": null,
+    "collection": "SERA Basic",
+    "series": "강마루",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 쿠키.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 쿠키.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 쿠키.jpg"
+    ],
+    "price": null,
+    "thickness": "6.2T",
+    "specs": {
+      "division": "세라 베이직",
+      "thickness": "6.2T",
+      "size": "T6.2 x W115 x L800mm",
+      "packing": ""
+    },
+    "description": "세라 베이직",
+    "note": "강마루 / 3D 엠보싱 / 고강도 HPM",
+    "catalog": "EAGON FLOORING GUIDE ver.26"
   }
 ];

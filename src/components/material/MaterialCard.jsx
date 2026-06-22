@@ -17,9 +17,30 @@ const MaterialCard = ({ material }) => {
         return localPath !== "/images/no-image.svg" ? localPath : "";
     });
 
+    const hasOptions = material.sizeOptions && material.sizeOptions.length >= 2;
+    const [selectedOption, setSelectedOption] = useState(() => {
+        if (material.sizeOptions && material.sizeOptions.length > 0) {
+            return material.sizeOptions[0];
+        }
+        return null;
+    });
+
+    useEffect(() => {
+        if (material.sizeOptions && material.sizeOptions.length > 0) {
+            setSelectedOption(material.sizeOptions[0]);
+        } else {
+            setSelectedOption(null);
+        }
+    }, [material]);
+
+    const currentSpec = selectedOption ? selectedOption.spec : (material.specs?.size || material.spec || "");
+
     // Compute standard display name for cards and cart items
     const displayName = (() => {
         if (!material) return "";
+        if (material.brand === '이건' && material.category === '마루') {
+            return material.productName || `${material.name}_${material.line}`;
+        }
         if (material.brand === '동신' && material.category === '데코타일' && ['아트타일', '아트하우스', '아트에코차음'].includes(material.line)) {
             return material.code;
         }
@@ -52,14 +73,6 @@ const MaterialCard = ({ material }) => {
         return () => { isMounted = false; };
     }, [material]);
 
-    const handleInquiry = (e) => {
-        e.stopPropagation();
-        addToCart({
-            ...material,
-            quantity: 1, // Default to 1
-        });
-    };
-
     const parsePrice = (priceVal) => {
         if (priceVal === undefined || priceVal === null) return null;
         if (typeof priceVal === 'number') return priceVal;
@@ -69,29 +82,71 @@ const MaterialCard = ({ material }) => {
         return isNaN(parsed) ? null : parsed;
     };
 
+    const handleInquiry = (e) => {
+        e.stopPropagation();
+        
+        const price = parsePrice(material.price) || 0;
+        
+        const cartItem = {
+            id: selectedOption ? `${material.id}-${selectedOption.label}` : material.id,
+            product_id: material.id,
+            productId: material.id,
+            brand: getComputedBrand(material),
+            category: material.category || null,
+            line: material.line || "",
+            name: displayName || "",
+            product_name: displayName || "",
+            code: material.code || null,
+            product_code: material.code || null,
+            spec: selectedOption ? selectedOption.spec : (material.specs?.size || material.spec || "표준규격"),
+            specs: selectedOption ? {
+                thickness: selectedOption.thickness,
+                size: selectedOption.spec,
+                packing: selectedOption.package || ""
+            } : (material.specs || null),
+            packing: selectedOption ? (selectedOption.package || "") : (material.specs?.packing || material.package || "1박스 단위 판매"),
+            price: price,
+            unit_price: price,
+            quantity: 1,
+            amount: price,
+            selectedSize: selectedOption ? selectedOption.label : undefined,
+            thumbnail: coverUrl || "/images/no-image.svg",
+            image: coverUrl || "/images/no-image.svg"
+        };
+
+        addToCart(cartItem);
+    };
+
     const handleAddToCart = (e) => {
         e.stopPropagation();
         
         const price = parsePrice(material.price) || 0;
 
         const cartItem = {
-            id: material.id,
+            id: selectedOption ? `${material.id}-${selectedOption.label}` : material.id,
             product_id: material.id,
-            thumbnail: coverUrl || "/images/no-image.svg",
-            image: coverUrl || "/images/no-image.svg",
+            productId: material.id,
             brand: getComputedBrand(material),
             category: material.category || null,
+            line: material.line || "",
             name: displayName || "",
             product_name: displayName || "",
             code: material.code || null,
             product_code: material.code || null,
-            spec: material.specs?.size || material.spec || "표준규격",
-            specs: material.specs || null,
-            packing: material.specs?.packing || material.package || "1박스 단위 판매",
+            spec: selectedOption ? selectedOption.spec : (material.specs?.size || material.spec || "표준규격"),
+            specs: selectedOption ? {
+                thickness: selectedOption.thickness,
+                size: selectedOption.spec,
+                packing: selectedOption.package || ""
+            } : (material.specs || null),
+            packing: selectedOption ? (selectedOption.package || "") : (material.specs?.packing || material.package || "1박스 단위 판매"),
             price: price,
             unit_price: price,
             quantity: 1,
-            amount: price
+            amount: price,
+            selectedSize: selectedOption ? selectedOption.label : undefined,
+            thumbnail: coverUrl || "/images/no-image.svg",
+            image: coverUrl || "/images/no-image.svg"
         };
 
         addToCart(cartItem);
@@ -112,7 +167,7 @@ const MaterialCard = ({ material }) => {
                     className="material-thumb"
                     src={coverUrl || "/images/no-image.svg"}
                     alt={material.name || material.code}
-                    onError={(e) => { e.target.onerror = null; e.target.src = "/images/no-image.svg"; }}
+                    onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = "/images/placeholder-material.jpg"; }}
                 />
 
                 {material.isNew && <span className="badge-new">NEW</span>}
@@ -126,7 +181,47 @@ const MaterialCard = ({ material }) => {
                 </div>
                 <div className="card-name">{displayName}</div>
                 
-                {((material.brand === '동신' && material.category === '데코타일' && ['아트타일', '아트하우스', '아트에코차음'].includes(material.line)) || (material.brand === 'LX' && material.category === '데코타일')) ? (
+                {material.brand === '이건' && material.category === '마루' ? (
+                    <div className="card-meta">
+                        <div className="card-meta-item">
+                            <span className="meta-label">라인업</span>
+                            <span className="meta-value">{material.line}</span>
+                        </div>
+                        {material.collection && (
+                            <div className="card-meta-item">
+                                <span className="meta-label">제품군</span>
+                                <span className="meta-value">{material.collection}</span>
+                            </div>
+                        )}
+                        {material.series && (
+                            <div className="card-meta-item">
+                                <span className="meta-label">시리즈</span>
+                                <span className="meta-value">{material.series}</span>
+                            </div>
+                        )}
+                        {hasOptions && (
+                            <div className="card-meta-item option-selector-item" onClick={(e) => e.stopPropagation()}>
+                                <span className="meta-label">규격 선택</span>
+                                <div className="card-option-chips">
+                                    {material.sizeOptions.map(opt => (
+                                        <button
+                                            key={opt.label}
+                                            type="button"
+                                            className={`option-chip ${selectedOption?.label === opt.label ? 'active' : ''}`}
+                                            onClick={() => setSelectedOption(opt)}
+                                        >
+                                            {opt.label}
+                                        </button>
+                                    ))}
+                                </div>
+                            </div>
+                        )}
+                        <div className="card-meta-item">
+                            <span className="meta-label">규격</span>
+                            <span className="meta-value">{currentSpec}</span>
+                        </div>
+                    </div>
+                ) : ((material.brand === '동신' && material.category === '데코타일' && ['아트타일', '아트하우스', '아트에코차음'].includes(material.line)) || (material.brand === 'LX' && material.category === '데코타일')) ? (
                     <div className="card-meta">
                         <div className="card-meta-item">
                             <span className="meta-label">라인업</span>

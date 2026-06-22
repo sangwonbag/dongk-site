@@ -2,6 +2,25 @@ import { supabase } from '../lib/supabaseClient';
 import { materials } from '../data/materials.db'; // Local fallback data
 import { dongshinPolymer2026 } from '../data/dongshinPolymer2026.js';
 
+const normalizeText = (value = "") =>
+  String(value).replace(/\s+/g, "").toLowerCase().trim();
+
+const getMaterialMatchKey = (item) => {
+  if (!item) return "";
+  const brand = normalizeText(item.brand);
+  const category = normalizeText(item.category);
+  const line = normalizeText(item.line);
+  const name = normalizeText(item.name || item.productName);
+
+  // 제품코드가 있는 브랜드는 code 기준
+  if (item.code) {
+    return `${brand}_${category}_${normalizeText(item.code)}`;
+  }
+
+  // 이건마루처럼 code가 없는 제품은 line + name 기준
+  return `${brand}_${category}_${line}_${name}`;
+};
+
 let cachedProducts = null;
 
 export async function fetchAllProducts(forceRefresh = false) {
@@ -108,6 +127,16 @@ export async function fetchAllProducts(forceRefresh = false) {
       ? dongshinPolymer2026.find(d => d.code.toUpperCase() === code.toUpperCase())
       : null;
 
+    const dbItem = {
+      brand: brandName,
+      category: categoryName,
+      line: p.description || "",
+      name: p.name || "",
+      code: p.product_code || null
+    };
+    const dbKey = getMaterialMatchKey(dbItem);
+    const localMatch = materials.find(m => getMaterialMatchKey(m) === dbKey);
+
     const mapped = {
       id: p.slug || String(p.id),
       code: code,
@@ -138,10 +167,47 @@ export async function fetchAllProducts(forceRefresh = false) {
       mapped.name = dongshinMatch.code;
     }
 
+    if (localMatch) {
+      mapped.collection = localMatch.collection;
+      mapped.series = localMatch.series;
+      mapped.note = localMatch.note;
+      mapped.catalog = localMatch.catalog;
+      mapped.productName = localMatch.productName;
+      if (localMatch.sizeOptions) {
+        mapped.sizeOptions = localMatch.sizeOptions;
+      }
+    }
+
     return mapped;
   });
 
-  console.log("Successfully loaded and mapped products from Supabase:", cachedProducts.length);
+  // Deduplicate products based on brand + category + line + name (Requirement 6)
+  const seenProducts = new Map();
+  const deduplicatedProducts = [];
+
+  for (const m of cachedProducts) {
+    const brand = normalizeText(m.brand);
+    const category = normalizeText(m.category);
+    const line = normalizeText(m.line);
+    const name = normalizeText(m.name || m.productName);
+    const key = `${brand}_${category}_${line}_${name}`;
+
+    if (seenProducts.has(key)) {
+      const existing = seenProducts.get(key);
+      if (m.sizeOptions && m.sizeOptions.length > 0) {
+        if (!existing.sizeOptions || existing.sizeOptions.length < m.sizeOptions.length) {
+          existing.sizeOptions = m.sizeOptions;
+        }
+      }
+    } else {
+      seenProducts.set(key, m);
+      deduplicatedProducts.push(m);
+    }
+  }
+
+  cachedProducts = deduplicatedProducts;
+
+  console.log("Successfully loaded and mapped products from Supabase (deduplicated):", cachedProducts.length);
   return cachedProducts;
 }
 

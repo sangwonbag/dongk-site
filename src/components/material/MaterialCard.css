@@ -172,3 +172,40 @@
     background: #ffffff;
     border-color: #1F2421;
 }
+
+/* Size options selection styling */
+.card-option-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 2px;
+}
+
+.option-chip {
+    background: #FAF8F2;
+    border: 1px solid #E6E2D8;
+    color: #444;
+    padding: 2px 6px;
+    font-size: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-weight: 500;
+}
+
+.option-chip:hover {
+    border-color: #1F2421;
+    background: #ffffff;
+}
+
+.option-chip.active {
+    background: #1F2421;
+    color: #ffffff;
+    border-color: #1F2421;
+}
+
+.option-selector-item {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 2px !important;
+}
