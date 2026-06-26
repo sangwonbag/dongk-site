@@ -1,25 +1,29 @@
+/* ==========================================================================
+   Dongkyung Flooring (동경바닥재) - Redesigned SampleBookViewer CSS
+   ========================================================================== */
+
 .sb-viewer-overlay {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(15, 23, 42, 0.95);
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 2000;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
 
 .sb-viewer-content {
     position: relative;
-    /* Full Screen Override */
     width: 100%;
     height: 100%;
     max-width: none;
     border-radius: 0;
-    background: #111;
+    background: #0f172a;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -27,36 +31,32 @@
 
 .sb-close-btn {
     position: absolute;
-    top: 20px;
-    right: 20px;
-    background: rgba(0, 0, 0, 0.5);
-    /* Use dark bg for visibility on PDF */
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    color: #fff;
-    font-size: 24px;
+    top: 24px;
+    right: 24px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    font-size: 20px;
     width: 44px;
     height: 44px;
-    border-radius: 50%;
+    border-radius: var(--radius-full);
     cursor: pointer;
     z-index: 100;
-    /* Ensure on top of iframe */
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.2s;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: var(--transition);
 }
 
 .sb-close-btn:hover {
-    background: rgba(0, 0, 0, 0.8);
-    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
 }
 
 .sb-pdf-container {
     width: 100%;
     height: 100%;
-    /* Take full height of content */
-    background: #f0f0f0;
+    background: #1e293b;
 }
 
 .sb-slider-container {
@@ -79,41 +79,43 @@
 }
 
 .sb-slide img {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 90%;
+    max-height: 90%;
     object-fit: contain;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    border-radius: var(--radius-sm);
 }
 
 .sb-nav-btn {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.5);
-    border: none;
-    color: #fff;
-    font-size: 32px;
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    font-size: 24px;
+    width: 52px;
+    height: 52px;
+    border-radius: var(--radius-full);
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.2s;
+    transition: var(--transition);
     z-index: 50;
 }
 
 .sb-nav-btn:hover {
-    background: rgba(0, 0, 0, 0.8);
-    transform: translateY(-50%) scale(1.1);
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-50%) scale(1.05);
 }
 
 .sb-nav-btn.prev {
-    left: 20px;
+    left: 24px;
 }
 
 .sb-nav-btn.next {
-    right: 20px;
+    right: 24px;
 }
 
 .sb-indicators {
@@ -122,24 +124,24 @@
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-    gap: 12px;
+    gap: 10px;
     z-index: 50;
     padding: 8px 16px;
-    background: rgba(0, 0, 0, 0.3);
-    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: var(--radius-full);
 }
 
 .sb-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.4);
+    width: 8px;
+    height: 8px;
+    border-radius: var(--radius-full);
+    background-color: rgba(255, 255, 255, 0.35);
     cursor: pointer;
-    transition: all 0.2s;
+    transition: var(--transition);
 }
 
 .sb-dot.active {
-    background-color: #fff;
+    background-color: var(--point-gold);
     transform: scale(1.2);
 }
 
@@ -149,6 +151,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #888;
-    font-size: 16px;
+    color: var(--text-light);
+    font-size: 15px;
+}
+
+@media (max-width: 768px) {
+    .sb-nav-btn {
+        width: 44px;
+        height: 44px;
+        font-size: 18px;
+    }
+    .sb-nav-btn.prev { left: 12px; }
+    .sb-nav-btn.next { right: 12px; }
 }

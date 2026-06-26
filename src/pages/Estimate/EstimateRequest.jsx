@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import MainLayout from '../../components/layout/MainLayout';
 import { useEstimateCart } from '../../contexts/EstimateCartContext';
@@ -38,10 +38,15 @@ export default function EstimateRequest() {
     consultation: '전화 상담'
   });
 
+  const hasAutoOpened = useRef(false);
+
   // Open login modal if not logged in
   useEffect(() => {
     if (!currentUser) {
-      openLoginModal();
+      if (!hasAutoOpened.current) {
+        hasAutoOpened.current = true;
+        openLoginModal();
+      }
     } else {
       setCustomer(prev => ({
         ...prev,

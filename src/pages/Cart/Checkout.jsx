@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { useEstimateCart } from "../../contexts/EstimateCartContext";
@@ -17,6 +17,8 @@ export default function Checkout() {
     removePendingDirectOrder 
   } = useEstimateCart();
   const { user, openLoginModal } = useAuth();
+
+  const hasAutoOpened = useRef(false);
 
   // 바로구매용 임시 품목 상태 결정
   const [checkoutItems, setCheckoutItems] = useState([]);
@@ -91,7 +93,10 @@ export default function Checkout() {
 
     // 로그인하지 않은 사용자라면 로그인 모달 유도
     if (!user) {
-      openLoginModal();
+      if (!hasAutoOpened.current) {
+        hasAutoOpened.current = true;
+        openLoginModal();
+      }
       return;
     }
 

@@ -1,65 +1,53 @@
-/* SampleBooks Layout */
+/* ==========================================================================
+   Dongkyung Flooring (동경바닥재) - Redesigned SampleBooks CSS
+   ========================================================================== */
+
 .samplebooks-page {
-    padding-top: 145px !important;
+    padding-top: 140px !important;
 }
 
 @media (max-width: 768px) {
     .samplebooks-page {
-        padding-top: 115px !important;
+        padding-top: 100px !important;
     }
 }
 
 .samplebooks-container {
-    display: block;
-    width: 100%;
-    max-width: 1280px;
+    max-width: var(--container-width);
     margin: 0 auto !important;
-    margin-top: 0 !important;
-    padding: 0 40px;
-    padding-bottom: 80px;
-    padding-top: 0 !important;
+    padding: 0 24px 80px;
 }
 
 .samplebooks-filter-section {
-    margin-top: 0 !important;
     margin-bottom: 28px !important;
 }
 
-.samplebooks-count {
-    margin-top: 24px !important;
-    margin-bottom: 24px !important;
-}
-
-.sb-content {
-    width: 100%;
-}
-
-.sb-content.full {
-    padding-left: 0;
-}
-
-/* Tabs */
+/* Category Filter Tabs */
 .samplebooks-tabs {
     display: flex;
-    gap: 30px;
-    border-bottom: 1px solid #eee;
-    margin-bottom: 20px;
+    gap: 32px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 24px;
 }
 
 .sb-tab {
     padding: 12px 0;
     font-size: 15px;
-    font-weight: 500;
-    color: #888;
+    font-weight: 600;
+    color: var(--text-muted);
     background: none;
     border: none;
     cursor: pointer;
     position: relative;
-    transition: color 0.2s;
+    transition: var(--transition);
+}
+
+.sb-tab:hover {
+    color: var(--primary);
 }
 
 .sb-tab.active {
-    color: #111;
+    color: var(--point-gold);
     font-weight: 700;
 }
 
@@ -70,196 +58,254 @@
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #111;
+    background-color: var(--point-gold);
 }
 
-/* Brand Filter Row */
+/* Brand Filter Chips Row */
 .brand-filter-row {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    margin: 12px 0 16px;
+    gap: 8px;
+    margin: 12px 0 20px;
 }
 
 .brand-chip {
-    border: 1px solid #e6e6e6;
-    background: #fff;
-    padding: 8px 14px;
-    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: #ffffff;
+    padding: 8px 16px;
+    border-radius: var(--radius-full);
     font-size: 13px;
+    font-weight: 600;
+    color: var(--text-muted);
     cursor: pointer;
-    transition: all .15s ease;
+    transition: var(--transition);
 }
 
 .brand-chip:hover {
-    border-color: #111;
+    border-color: var(--border-hover);
+    color: var(--primary);
+    background-color: var(--bg-alt);
 }
 
 .brand-chip.active {
-    background: #111;
-    color: #fff;
-    border-color: #111;
+    background: var(--point-gold);
+    color: #ffffff;
+    border-color: var(--point-gold);
 }
 
 .material-chip.active {
-    background: #7d2ae8;
-    border-color: #7d2ae8;
+    background: var(--primary);
+    border-color: var(--primary);
 }
 
 .material-type-row {
-    border-top: 1px dashed #eee;
-    padding-top: 10px;
+    border-top: 1px dashed var(--border);
+    padding-top: 14px;
     margin-top: 0;
 }
 
 .results-header {
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
 .results-info {
-    font-size: 13px;
-    color: #666;
+    font-size: 14px;
+    color: var(--text-muted);
 }
 
-/* Grid - 4 Columns */
+.results-info strong {
+    color: var(--point-gold);
+    font-weight: 700;
+}
+
+/* Grid Layout (4 Columns) */
 .sb-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 24px;
     width: 100%;
-    align-content: start;
-}
-
-/* Responsive */
-@media (max-width: 1400px) {
-    .samplebooks-container {
-        max-width: 1100px;
-    }
-}
-
-@media (max-width: 1200px) {
-    .sb-grid {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-}
-
-@media (max-width: 900px) {
-    .sb-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .samplebooks-container {
-        flex-direction: column;
-        gap: 20px;
-    }
 }
 
 .no-results {
-    padding: 60px 0;
+    padding: 80px 0;
     text-align: center;
-    color: #999;
+    color: var(--text-light);
+    font-size: 14.5px;
+    background-color: var(--bg-alt);
+    border-radius: var(--radius-lg);
+    border: 1px dashed var(--border);
 }
 
+/* Sample book cards */
 .sb-card {
-    border: 1px solid #eee;
-    border-radius: 12px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
     overflow: hidden;
     cursor: pointer;
-    transition: transform 0.2s, box-shadow 0.2s;
-    background: #fff;
+    transition: var(--transition);
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: var(--shadow-sm);
 }
 
 .sb-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--point-gold);
 }
 
 .sb-card-cover {
     width: 100%;
     aspect-ratio: 1 / 1.4;
-    /* Standard A4ish ratio */
-    background-color: #f5f5f5;
+    background-color: var(--bg-alt);
     position: relative;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px solid var(--border);
 }
 
 .sb-card-cover img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: var(--transition);
+}
+
+.sb-card:hover .sb-card-cover img {
+    transform: scale(1.03);
 }
 
 .sb-cover-placeholder {
     width: 100%;
     height: 100%;
-    background-color: #eee;
+    background-color: var(--bg-alt);
     display: flex;
-    /* Centering */
     align-items: center;
     justify-content: center;
-    color: #888;
+    color: var(--text-light);
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .sb-badge-new {
     position: absolute;
     top: 12px;
     left: 12px;
-    background-color: #111;
-    color: #fff;
-    font-size: 11px;
+    background-color: var(--danger);
+    color: #ffffff;
+    font-size: 10px;
     font-weight: 700;
-    padding: 4px 8px;
-    border-radius: 4px;
+    padding: 3px 8px;
+    border-radius: var(--radius-sm);
+    text-transform: uppercase;
 }
 
 .sb-card-info {
-    padding: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 .sb-brand-tag {
-    font-size: 12px;
-    color: #666;
+    font-size: 11px;
+    color: var(--point-gold);
     font-weight: 700;
     margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .sb-card-title {
-    font-size: 16px;
+    font-size: 15.5px;
     font-weight: 700;
     margin-bottom: 6px;
     line-height: 1.4;
-    color: #111;
+    color: var(--primary);
 }
 
 .sb-card-desc {
-    font-size: 13px;
-    color: #888;
-    line-height: 1.4;
+    font-size: 12.5px;
+    color: var(--text-muted);
+    line-height: 1.5;
 }
 
+/* Responsiveness adjustments */
+@media (max-width: 1199px) {
+    .sb-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
 
-
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .sb-grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 12px;
+    }
+    
+    .samplebooks-container {
+        padding: 0 16px 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .samplebooks-tabs {
+        overflow-x: auto !important;
+        white-space: nowrap !important;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        gap: 16px;
+        margin-bottom: 16px;
+        padding-bottom: 4px;
+    }
+    .samplebooks-tabs::-webkit-scrollbar {
+        display: none;
+    }
+    .sb-tab {
+        flex: 0 0 auto !important;
+        padding: 8px 4px;
+        font-size: 13.5px;
+    }
+    
+    .brand-filter-row {
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+        white-space: nowrap !important;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        padding-bottom: 4px;
+        margin-bottom: 12px;
+    }
+    .brand-filter-row::-webkit-scrollbar {
+        display: none;
+    }
+    .brand-chip {
+        flex: 0 0 auto !important;
+        padding: 6px 12px;
+        font-size: 12px;
+        border-radius: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+    .sb-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
     }
 
     .sb-card-cover {
-        height: 200px;
-        /* Smaller on mobile */
+        height: auto;
+        aspect-ratio: 1 / 1.3;
     }
 
     .sb-card-info {
-        padding: 12px;
+        padding: 10px;
     }
 
     .sb-card-title {
-        font-size: 15px;
+        font-size: 13.5px;
     }
 }

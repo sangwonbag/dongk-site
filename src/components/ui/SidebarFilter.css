@@ -1,7 +1,10 @@
+/* ==========================================================================
+   Dongkyung Flooring (동경바닥재) - Redesigned Sidebar Filter CSS
+   ========================================================================== */
+
 .sidebar-filter {
     width: 100%;
     padding-right: 20px;
-    font-family: 'Pretendard', sans-serif;
     box-sizing: border-box;
 }
 
@@ -10,32 +13,36 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
 }
 
 .filter-title {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
-    color: #333;
+    color: var(--primary);
     margin: 0;
 }
 
 .reset-button {
-    font-size: 13px;
-    color: #888;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--text-light);
     background: none;
     border: none;
     cursor: pointer;
     text-decoration: underline;
     padding: 0;
+    transition: var(--transition);
 }
 
 .reset-button:hover {
-    color: #333;
+    color: var(--point-gold);
 }
 
 .filter-group {
     margin-bottom: 8px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--border-light);
 }
 
 .filter-group:last-child {
@@ -48,15 +55,15 @@
     align-items: center;
     padding: 12px 0;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 14.5px;
     font-weight: 600;
-    color: #333;
-    transition: color 0.2s;
+    color: var(--text);
+    transition: var(--transition);
 }
 
 .filter-group-header:hover,
 .filter-group-header.active {
-    color: #000;
+    color: var(--point-gold);
 }
 
 .toggle-icon-btn {
@@ -64,10 +71,11 @@
     border: none;
     padding: 4px;
     cursor: pointer;
-    color: #666;
+    color: var(--text-muted);
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: var(--transition);
 }
 
 .brand-list {
@@ -78,20 +86,20 @@
 
 .brand-item {
     padding: 8px 12px;
-    font-size: 14px;
-    color: #666;
+    font-size: 13.5px;
+    color: var(--text-muted);
     cursor: pointer;
-    transition: all 0.2s;
-    border-radius: 4px;
+    transition: var(--transition);
+    border-radius: var(--radius-sm);
 }
 
 .brand-item:hover {
-    background-color: #f5f5f5;
-    color: #333;
+    background-color: var(--bg-alt);
+    color: var(--primary);
 }
 
 .brand-item.active {
-    background-color: #eee;
-    color: #000;
-    font-weight: 600;
+    background-color: var(--point-gold-light);
+    color: var(--point-gold);
+    font-weight: 700;
 }

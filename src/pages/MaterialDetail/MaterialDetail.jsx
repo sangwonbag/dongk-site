@@ -1166,12 +1166,22 @@ export default function MaterialDetail() {
          4. Fixed Bottom CTA Bar (Mobile Viewports Only)
          ========================================== */}
       <div className="mobile-cta-fixed-bar">
-        <a href="tel:02-487-9775" className="mobile-cta-btn mobile-phone-btn">
-          <Phone size={16} /> 전화상담
-        </a>
-        <button className="mobile-cta-btn mobile-quote-btn" onClick={handleEstimate}>
-          <FileText size={16} /> 견적 요청하기
-        </button>
+        <div className="mobile-cta-sub-row">
+          <button className="mobile-cta-sub-btn" onClick={handleEstimate}>
+            <FileText size={14} /> 견적 요청하기
+          </button>
+          <a href="tel:02-487-9775" className="mobile-cta-sub-btn">
+            <Phone size={14} /> 전화 문의하기
+          </a>
+        </div>
+        <div className="mobile-cta-main-row">
+          <button className="mobile-cta-main-btn btn-cart" onClick={handleAddToCart}>
+            장바구니 담기
+          </button>
+          <button className="mobile-cta-main-btn btn-buy" onClick={handleDirectBuy}>
+            바로구매
+          </button>
+        </div>
       </div>
 
       {/* 장바구니 담기 완료 팝업 모달 */}

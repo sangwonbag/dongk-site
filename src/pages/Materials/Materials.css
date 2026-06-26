@@ -1,390 +1,252 @@
-.sticky-tabs-container {
-    position: sticky;
-    top: 80px;
-    /* Header height */
-    z-index: 90;
-    background-color: #fff;
-    border-bottom: 1px solid #eee;
-    padding: 0 0 10px 0;
+/* ==========================================================================
+   Dongkyung Flooring (동경바닥재) - Redesigned Materials List CSS
+   ========================================================================== */
+
+.materials-container {
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
 
-.category-tabs {
-    display: flex;
-    gap: 8px;
-    overflow-x: auto;
-    white-space: nowrap;
-    padding: 10px 0;
-    -ms-overflow-style: none;
-    /* Hide scrollbar IE/Edge */
-    scrollbar-width: none;
-    /* Hide scrollbar Firefox */
-}
-
-.category-tabs::-webkit-scrollbar {
-    display: none;
-}
-
-.category-tabs button {
-    border: 1px solid #ddd;
-    background: #fff;
-    padding: 8px 16px;
-    border-radius: 20px;
-    font-size: 14px;
-    color: #555;
-    cursor: pointer;
-    transition: all 0.2s;
-}
-
-.category-tabs button.active {
-    background: #111;
-    color: #fff;
-    border-color: #111;
-    font-weight: 700;
-}
-
-/* Materials Page Layout */
-/* Materials Page Layout */
-
-
+/* Category Tabs (Segmented Control style) */
 .materials-tabs {
     display: flex;
     gap: 8px;
     margin-bottom: 24px;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 1px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 12px;
     overflow-x: auto;
     white-space: nowrap;
-    -ms-overflow-style: none;
-    /* IE and Edge */
     scrollbar-width: none;
-    /* Firefox */
+    -ms-overflow-style: none;
 }
 
 .materials-tabs::-webkit-scrollbar {
     display: none;
-    /* Chrome, Safari and Opera */
 }
 
 .mat-tab {
-    padding: 12px 20px;
+    padding: 10px 20px;
     background: none;
     border: none;
-    border-bottom: 3px solid transparent;
-    font-size: 16px;
-    font-weight: 500;
-    color: #888;
+    border-bottom: 2px solid transparent;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text-muted);
     cursor: pointer;
-    transition: all 0.2s;
+    transition: var(--transition);
 }
 
 .mat-tab:hover {
-    color: #1F2421;
+    color: var(--primary);
 }
 
 .mat-tab.active {
-    color: #1F2421;
+    color: var(--point-gold);
     font-weight: 700;
-    border-bottom-color: #ECD06F;
+    border-bottom: 2px solid var(--point-gold);
 }
 
-.premium-banner {
-    background-color: #f8f9fa;
-    border: 1px solid #eee;
-    padding: 20px;
-    text-align: center;
-    color: #333;
-    font-weight: 500;
-    margin-bottom: 30px;
-    border-radius: 8px;
-    font-size: 15px;
-    line-height: 1.5;
+/* Brand Filter Chips */
+.brand-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 16px;
+    padding: 2px 0;
 }
 
-.materials-wrapper {
-    width: 100%;
+.brand-chip {
+    padding: 8px 16px;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--text-muted);
+    background-color: var(--bg-alt);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-full);
+    cursor: pointer;
+    transition: var(--transition);
 }
 
-
-/* Materials Page Layout */
-.materials-container.container {
-    display: block;
-    width: 100%;
-    max-width: 1280px !important;
-    margin: 0 auto;
-    padding: 0 40px;
-    padding-bottom: 80px;
-    padding-top: 145px; /* Offset for fixed header (approx 116px) + 29px breathing room */
+.brand-chip:hover {
+    color: var(--primary);
+    border-color: var(--border-hover);
+    background-color: var(--gray);
 }
 
-@media (max-width: 768px) {
-    .materials-container.container {
-        padding-top: 115px; /* Offset for smaller mobile header (approx 96px) + 19px breathing room */
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+.brand-chip.active {
+    color: #ffffff;
+    background-color: var(--point-gold);
+    border-color: var(--point-gold);
 }
 
-/* Main Content */
-.materials-content {
-    width: 100%;
+/* Lineup & Material Type Chips */
+.material-type-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 20px;
+    padding: 12px 16px;
+    background-color: var(--bg-alt);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
 }
 
-/* Grid Layout - Spacious 4 Columns */
+.material-type-chip {
+    padding: 6px 12px;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--text-muted);
+    background-color: #ffffff;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.material-type-chip:hover {
+    color: var(--primary);
+    border-color: var(--border-hover);
+}
+
+.material-type-chip.active {
+    color: var(--point-gold);
+    border-color: var(--point-gold);
+    background-color: var(--point-gold-light);
+}
+
+/* Results Information Header */
+.results-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+}
+
+.results-info {
+    font-size: 14.5px;
+    color: var(--text);
+}
+
+.results-info strong {
+    color: var(--point-gold);
+    font-weight: 700;
+}
+
+/* Products Layout Grid */
 .materials-grid {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 24px;
-    width: 100%;
-    align-content: start;
 }
 
-/* Responsive Breakpoints */
-@media (max-width: 1200px) {
+/* Load More Area */
+.load-more-container {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.load-more-btn {
+    padding: 12px 32px;
+    background-color: #ffffff;
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: var(--transition);
+    box-shadow: var(--shadow-sm);
+}
+
+.load-more-btn:hover {
+    border-color: var(--point-gold);
+    color: var(--point-gold);
+    box-shadow: var(--shadow-md);
+}
+
+.no-results {
+    padding: 80px 0;
+    text-align: center;
+    color: var(--text-light);
+    font-size: 15px;
+    background-color: var(--bg-alt);
+    border-radius: var(--radius-lg);
+    border: 1px dashed var(--border);
+}
+
+/* ==========================================
+   Mobile & Tablet Responsive Styling
+   ========================================== */
+@media (max-width: 1199px) {
     .materials-grid {
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
     }
 }
 
-@media (max-width: 900px) {
-    .materials-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 16px;
+@media (max-width: 768px) {
+    .materials-container {
+        padding-top: 20px;
+        padding-bottom: 60px;
     }
-}
-
-@media (max-width: 600px) {
-    .materials-grid {
-        grid-template-columns: 1fr;
-        gap: 16px;
+    
+    .materials-tabs {
+        margin-bottom: 12px;
     }
-}
-
-.brand-row {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
-}
-
-.brand-chip {
-    padding: 8px 20px;
-    border-radius: 4px;
-    border: 1px solid #E6E2D8;
-    background: #ffffff;
-    font-size: 14px;
-    color: #666;
-    cursor: pointer;
-    transition: all 0.2s;
-}
-
-.brand-chip:hover {
-    background: #FAF8F2;
-    border-color: #ECD06F;
-    color: #1F2421;
-}
-
-.brand-chip.active {
-    background: #1F2421;
-    color: #ffffff;
-    border-color: #1F2421;
-    font-weight: 700;
-}
-
-.material-type-row {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
-    padding-top: 10px;
-    border-top: 1px dashed #eee;
-}
-
-.material-type-chip {
-    padding: 6px 16px;
-    border-radius: 4px;
-    border: 1px solid #E6E2D8;
-    background: #ffffff;
-    font-size: 13px;
-    color: #777;
-    cursor: pointer;
-    transition: all 0.2s;
-}
-
-.material-type-chip:hover {
-    background: #FAF8F2;
-    border-color: #ECD06F;
-    color: #1F2421;
-}
-
-.material-type-chip.active {
-    background: #ECD06F;
-    color: #1F2421;
-    border-color: #ECD06F;
-    font-weight: 600;
-}
-
-.results-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-    padding-bottom: 12px;
-    border-bottom: 1px solid #eee;
-}
-
-.results-info {
-    font-size: 14px;
-    color: #666;
-}
-
-.results-actions {
-    display: flex;
-    gap: 12px;
-}
-
-.results-sort select {
-    border: 1px solid #ddd;
-    padding: 4px 8px;
-    border-radius: 4px;
-    outline: none;
-}
-
-.mat-card {
-    border: 1px solid #eee;
-    border-radius: 8px;
-    overflow: hidden;
-    cursor: pointer;
-    transition: all 0.2s;
-}
-
-.mat-card:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    transform: translateY(-2px);
-}
-
-.mat-img-wrap {
-    height: 180px;
-    background-color: #f9f9f9;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.mat-img-placeholder {
-    font-weight: 700;
-    color: #ccc;
-    font-size: 20px;
-}
-
-.mat-info {
-    padding: 16px;
-}
-
-.mat-brand-cat {
-    font-size: 11px;
-    color: #888;
-    margin-bottom: 4px;
-}
-
-.mat-name {
-    font-size: 15px;
-    font-weight: 700;
-    margin-bottom: 4px;
-    line-height: 1.3;
-}
-
-.badge-new {
-    font-size: 10px;
-    color: #7d2ae8;
-    /* Iris-like color maybe? */
-    border: 1px solid #7d2ae8;
-    padding: 1px 4px;
-    border-radius: 2px;
-    margin-right: 4px;
-    vertical-align: middle;
-}
-
-.mat-specs {
-    font-size: 12px;
-    color: #666;
-    margin-bottom: 12px;
-}
-
-.mat-price-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.mat-price {
-    font-size: 16px;
-    font-weight: 800;
-    color: #111;
-}
-
-.mat-cart-btn {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    border: 1px solid #ddd;
-    background: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.mat-cart-btn:hover {
-    border-color: #111;
-    color: #111;
-}
-
-@media (max-width: 900px) {
-    .materials-layout {
-        display: block;
-        /* Stack layout on mobile */
+    
+    .mat-tab {
+        padding: 8px 12px;
+        font-size: 13.5px;
     }
-
-    .materials-sidebar {
+    
+    .brand-row {
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+        white-space: nowrap !important;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        gap: 6px;
+        margin-bottom: 12px;
+        padding-bottom: 4px;
+    }
+    .brand-row::-webkit-scrollbar {
         display: none;
-        /* Hide sidebar on mobile for now, ideally toggle */
     }
-
-    .mat-grid {
-        grid-template-columns: repeat(2, 1fr);
+    
+    .brand-chip {
+        flex: 0 0 auto !important;
+        padding: 6px 12px;
+        font-size: 12px;
+        border-radius: 12px;
     }
-
-    .sticky-tabs-container {
-        top: 60px;
-        /* Mobile header height */
+    
+    .material-type-row {
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+        white-space: nowrap !important;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        padding: 8px;
+        margin-bottom: 12px;
+        gap: 6px;
+    }
+    .material-type-row::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .material-type-chip {
+        flex: 0 0 auto !important;
+        padding: 6px 12px;
+        font-size: 11.5px;
+        border-radius: 8px;
+    }
+    
+    .materials-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 10px !important;
     }
 }
-/* Load More Button */
-.load-more-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-}
-
-.load-more-btn {
-    padding: 14px 40px;
-    background-color: #FAF8F2;
-    border: 1px solid #E6E2D8;
-    border-radius: 4px;
-    font-size: 14px;
-    font-weight: 600;
-    color: #1F2421;
-    cursor: pointer;
-    transition: all 0.2s;
-    box-shadow: 0 2px 8px rgba(31, 36, 33, 0.02);
-}
-
-.load-more-btn:hover {
-    background-color: #ffffff;
-    border-color: #1F2421;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(31, 36, 33, 0.06);
-}
-

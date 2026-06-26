@@ -522,7 +522,7 @@ export default function Home() {
         <section className="showroom-hero-v2">
           <div className="hero-v2-bg-frame">
             <img 
-              src="/images/home/main-hero-interior.png" 
+              src="/images/home/home-hero-bg.png" 
               alt="Premium Living Room Interior" 
               className="hero-v2-bg-img"
             />
@@ -531,15 +531,8 @@ export default function Home() {
           
           <div className="hero-v2-container-grid container">
             <div className="hero-v2-content">
-              <span className="hero-v2-eyebrow">바닥재 · 벽지 판매 및 시공 전문</span>
-              <h1 className="hero-v2-title">
-                공간의 분위기는<br />
-                바닥과 벽에서 시작됩니다.
-              </h1>
-              <p className="hero-v2-subtitle">
-                동경바닥재는 바닥재·벽지 판매부터 시공 상담까지<br />
-                현장에 맞는 자재 선택을 도와드립니다.
-              </p>
+              <h1 className="hero-v2-title">공간을 완성하다</h1>
+              <p className="hero-v2-subtitle">바닥재 벽지 판매 시공은 동경바닥재</p>
               <div className="hero-v2-buttons">
                 <button className="btn-hero-primary" onClick={() => nav("/materials")}>
                   자재 찾기
@@ -591,6 +584,28 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* Mobile Quick Menu Section */}
+        <section className="mobile-quick-menu-section container">
+          <div className="mobile-quick-menu-grid">
+            <div className="quick-menu-card" onClick={() => nav("/materials")}>
+              <span className="quick-menu-icon">🧱</span>
+              <span className="quick-menu-label">자재찾기</span>
+            </div>
+            <div className="quick-menu-card" onClick={() => nav("/samplebooks")}>
+              <span className="quick-menu-icon">📖</span>
+              <span className="quick-menu-label">샘플북</span>
+            </div>
+            <div className="quick-menu-card" onClick={() => nav("/estimate/request")}>
+              <span className="quick-menu-icon">📝</span>
+              <span className="quick-menu-label">견적문의</span>
+            </div>
+            <div className="quick-menu-card" onClick={() => nav("/cases")}>
+              <span className="quick-menu-icon">🏢</span>
+              <span className="quick-menu-label">시공사례</span>
+            </div>
+          </div>
+        </section>
 
         {/* ==========================================
            1.5 Trust Points Bar / 신뢰 포인트 바

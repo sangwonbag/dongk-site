@@ -1,8 +1,11 @@
+/* ==========================================================================
+   Dongkyung Flooring (동경바닥재) - Redesigned Order History CSS
+   ========================================================================== */
+
 .orders-page-container {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 40px 16px;
-  background-color: #FAFAF8;
+  padding: 40px 24px;
   min-height: 80vh;
 }
 
@@ -14,49 +17,55 @@
 .orders-header h1 {
   font-size: 28px;
   font-weight: 800;
-  color: #1B1B1B;
-  margin: 0 0 10px 0;
+  color: var(--primary);
+  margin-bottom: 8px;
 }
 
 .orders-header p {
-  font-size: 15px;
-  color: #6B6B6B;
-  margin: 0;
+  font-size: 14.5px;
+  color: var(--text-muted);
 }
 
-/* Loading & Empty state */
+/* Loading & error states */
 .orders-loading {
   text-align: center;
-  padding: 100px 20px;
-  font-size: 16px;
-  color: #6B6B6B;
+  padding: 80px 24px;
+  font-size: 15px;
+  color: var(--text-muted);
 }
 
 .orders-error-card {
   text-align: center;
-  padding: 50px 20px;
-  background-color: #FDF2F2;
-  border: 1px solid #FDE8E8;
-  border-radius: 8px;
-  color: #e53935;
+  padding: 40px 24px;
+  background-color: rgba(239, 68, 68, 0.05);
+  border: 1px solid rgba(239, 68, 68, 0.15);
+  border-radius: var(--radius-md);
+  color: var(--danger);
+  font-weight: 600;
 }
 
 .btn-retry {
   margin-top: 12px;
-  padding: 8px 16px;
-  background-color: #e53935;
-  color: white;
+  padding: 8px 20px;
+  background-color: var(--danger);
+  color: #ffffff;
   border: none;
-  border-radius: 4px;
+  border-radius: var(--radius-md);
+  font-weight: 600;
   cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn-retry:hover {
+  background-color: #dc2626;
 }
 
 .orders-empty-state {
   text-align: center;
-  padding: 80px 20px;
-  background-color: #ffffff;
-  border: 1px solid #E8E2D8;
-  border-radius: 12px;
+  padding: 80px 24px;
+  background-color: var(--bg-alt);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-lg);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,78 +73,77 @@
 }
 
 .empty-icon {
-  color: #DADADA;
+  color: var(--text-light);
 }
 
 .orders-empty-state p {
-  font-size: 16px;
-  color: #6B6B6B;
-  margin: 0;
+  font-size: 15px;
+  color: var(--text-muted);
 }
 
 .btn-shop-link {
-  padding: 12px 24px;
-  background-color: #1B1B1B;
+  padding: 12px 28px;
+  background-color: var(--primary);
   color: #ffffff;
   border: none;
-  border-radius: 6px;
+  border-radius: var(--radius-md);
   font-weight: 700;
   cursor: pointer;
-  transition: background-color 0.2s;
+  transition: var(--transition);
 }
 
 .btn-shop-link:hover {
-  background-color: #C5A46D;
+  background-color: var(--primary-hover);
 }
 
-/* List */
+/* Order Cards List */
 .orders-list {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 16px;
 }
 
 .order-card-wrapper {
   background-color: #ffffff;
-  border: 1px solid #E8E2D8;
-  border-radius: 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
   overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.01);
-  transition: all 0.2s;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
 }
 
 .order-card-wrapper:hover {
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.03);
-  border-color: #C5A46D;
+  box-shadow: var(--shadow-md);
+  border-color: var(--point-gold);
 }
 
-/* Accordion Header */
+/* Accordion Header bar */
 .order-card-header {
-  padding: 24px 30px;
+  padding: 20px 24px;
   cursor: pointer;
   position: relative;
-  transition: background-color 0.2s;
+  transition: var(--transition);
   user-select: none;
 }
 
 .order-card-header:hover {
-  background-color: #FCFAF7;
+  background-color: var(--bg-alt);
 }
 
 .order-card-header.open {
-  border-bottom: 1px solid #E8E2D8;
+  border-bottom: 1px solid var(--border);
 }
 
 .order-header-primary {
   display: flex;
   gap: 16px;
-  font-size: 13px;
-  color: #8A8A8A;
-  margin-bottom: 10px;
+  font-size: 12.5px;
+  color: var(--text-light);
+  margin-bottom: 8px;
 }
 
 .order-date-text {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .order-no-text {
@@ -146,7 +154,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 30px; /* Space for the arrow icon */
+  padding-right: 32px;
 }
 
 .order-title-summary {
@@ -156,12 +164,12 @@
 }
 
 .summary-icon {
-  color: #6B6B6B;
+  color: var(--text-muted);
 }
 
 .order-title-summary strong {
-  font-size: 16px;
-  color: #1B1B1B;
+  font-size: 15.5px;
+  color: var(--primary);
   font-weight: 700;
 }
 
@@ -172,9 +180,9 @@
 }
 
 .order-total-amount {
-  font-size: 18px;
+  font-size: 16.5px;
   font-weight: 800;
-  color: #1B1B1B;
+  color: var(--primary);
 }
 
 .badges-wrapper {
@@ -183,103 +191,102 @@
 }
 
 .order-status-badge {
-  font-size: 11px;
+  font-size: 10.5px;
   font-weight: 700;
-  padding: 4px 10px;
-  border-radius: 4px;
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
   white-space: nowrap;
 }
 
-/* Badge colors (status) */
+/* Accordion status badges */
 .order-status-badge.status-접수 {
-  background-color: #FAF4EB;
-  color: #C5A46D;
-  border: 1px solid #F3ECE2;
+  background-color: var(--point-gold-light);
+  color: var(--point-gold);
+  border: 1px solid rgba(179, 146, 95, 0.15);
 }
 
-.order-status-badge.status-확인 {
-  background-color: #EAEAEA;
-  color: #1B1B1B;
-}
-
+.order-status-badge.status-확인,
 .order-status-badge.status-준비중 {
-  background-color: #F0F0F0;
-  color: #555555;
+  background-color: var(--bg-alt);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
 }
 
-.order-status-badge.status-배송중 {
-  background-color: #E2F0F9;
-  color: #3A6073;
-}
-
+.order-status-badge.status-배송중,
 .order-status-badge.status-시공중,
 .order-status-badge.status-시공중\/시공완료 {
-  background-color: #E6F3FF;
-  color: #3A7BD5;
+  background-color: rgba(59, 130, 246, 0.05);
+  color: var(--info);
+  border: 1px solid rgba(59, 130, 246, 0.15);
 }
 
 .order-status-badge.status-완료 {
-  background-color: #E6F4EA;
-  color: #137333;
+  background-color: rgba(16, 185, 129, 0.05);
+  color: var(--success);
+  border: 1px solid rgba(16, 185, 129, 0.15);
 }
 
 .order-status-badge.status-취소 {
-  background-color: #FCE8E6;
-  color: #C5221F;
+  background-color: rgba(239, 68, 68, 0.05);
+  color: var(--danger);
+  border: 1px solid rgba(239, 68, 68, 0.15);
 }
 
-/* Badge colors (payment) */
 .order-status-badge.payment-미입금 {
-  background-color: #FCE8E6;
-  color: #C5221F;
+  background-color: rgba(239, 68, 68, 0.05);
+  color: var(--danger);
+  border: 1px solid rgba(239, 68, 68, 0.15);
 }
 
 .order-status-badge.payment-입금완료 {
-  background-color: #E6F4EA;
-  color: #137333;
+  background-color: rgba(16, 185, 129, 0.05);
+  color: var(--success);
+  border: 1px solid rgba(16, 185, 129, 0.15);
 }
 
 .order-status-badge.payment-부분입금 {
-  background-color: #FAF4EB;
-  color: #8C6A35;
+  background-color: var(--point-gold-light);
+  color: var(--point-gold);
+  border: 1px solid rgba(179, 146, 95, 0.15);
 }
 
 .order-status-badge.payment-환불 {
-  background-color: #F1F3F4;
-  color: #5F6368;
+  background-color: var(--bg-alt);
+  color: var(--text-light);
+  border: 1px solid var(--border);
 }
 
 .accordion-toggle-arrow {
   position: absolute;
-  right: 30px;
+  right: 20px;
   top: 50%;
   transform: translateY(-50%);
-  color: #8A8A8A;
+  color: var(--text-light);
 }
 
-/* Accordion Details Body */
+/* Detail view accordion body */
 .order-card-details {
-  padding: 30px;
-  background-color: #FAFAF8;
+  padding: 24px;
+  background-color: var(--bg-alt);
   border-top: none;
-  animation: slideDown 0.2s ease-out forwards;
+  animation: slideDown 0.25s ease-out forwards;
 }
 
 @keyframes slideDown {
-  from { opacity: 0; transform: translateY(-10px); }
+  from { opacity: 0; transform: translateY(-8px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
 .details-section-info {
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 }
 
 .details-section-info h4,
 .details-section-items h4 {
-  font-size: 15px;
+  font-size: 14.5px;
   font-weight: 700;
-  color: #1B1B1B;
-  margin: 0 0 16px 0;
+  color: var(--primary);
+  margin: 0 0 14px 0;
   position: relative;
   padding-left: 10px;
 }
@@ -292,7 +299,7 @@
   top: 3px;
   bottom: 3px;
   width: 3px;
-  background-color: #C5A46D;
+  background-color: var(--point-gold);
 }
 
 .info-grid {
@@ -300,9 +307,9 @@
   grid-template-columns: 1fr 1fr;
   gap: 12px 24px;
   background-color: #ffffff;
-  border: 1px solid #E8E2D8;
-  border-radius: 8px;
-  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
 }
 
 .info-row {
@@ -316,52 +323,52 @@
 }
 
 .info-row .label {
-  width: 120px;
-  color: #8A8A8A;
-  font-weight: 500;
+  width: 110px;
+  color: var(--text-muted);
+  font-weight: 600;
   flex-shrink: 0;
 }
 
 .info-row .val {
-  color: #1B1B1B;
-  font-weight: 600;
+  color: var(--primary);
+  font-weight: 700;
 }
 
 .info-row .memo-val {
   font-weight: 400;
-  color: #4A4A4A;
+  color: var(--text-muted);
   white-space: pre-wrap;
 }
 
 /* Items details table */
 .details-section-items {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .items-table-header {
   display: grid;
   grid-template-columns: 2.5fr 1fr 1fr 1.2fr;
   padding: 10px 16px;
-  background-color: #F3F1EC;
-  border-top: 1px solid #E8E2D8;
-  border-bottom: 1px solid #E8E2D8;
+  background-color: var(--gray);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
   font-size: 12px;
   font-weight: 700;
-  color: #6B6B6B;
+  color: var(--text-muted);
 }
 
 .items-table-body {
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
-  border-bottom: 1px solid #E8E2D8;
+  border-bottom: 1px solid var(--border);
 }
 
 .items-table-row {
   display: grid;
   grid-template-columns: 2.5fr 1fr 1fr 1.2fr;
-  padding: 16px;
-  border-bottom: 1px solid #F3F1EC;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border-light);
   align-items: center;
 }
 
@@ -376,43 +383,43 @@
 }
 
 .item-thumbnail {
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 40px;
   object-fit: cover;
-  border-radius: 4px;
-  border: 1px solid #E8E2D8;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
 }
 
 .item-txt-info {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 1px;
 }
 
 .brand-label {
-  font-size: 10.5px;
-  color: #C5A46D;
+  font-size: 10px;
+  color: var(--point-gold);
   font-weight: 700;
 }
 
 .product-name {
-  font-size: 13.5px;
-  color: #1B1B1B;
-  font-weight: 600;
+  font-size: 13px;
+  color: var(--primary);
+  font-weight: 700;
 }
 
 .item-sub-specs {
   display: flex;
   gap: 8px;
   font-size: 11px;
-  color: #8A8A8A;
+  color: var(--text-light);
 }
 
 .item-qty-cell,
 .item-price-cell,
 .item-total-cell {
   font-size: 13px;
-  color: #1B1B1B;
+  color: var(--primary);
 }
 
 .item-total-cell {
@@ -427,35 +434,35 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 20px;
-  padding: 20px 16px;
+  gap: 16px;
+  padding: 16px 20px;
   background-color: #ffffff;
-  border-bottom: 1px solid #E8E2D8;
+  border-bottom: 1px solid var(--border);
 }
 
 .details-total-summary span {
   font-size: 13.5px;
-  color: #6B6B6B;
+  color: var(--text-muted);
   font-weight: 600;
 }
 
 .details-total-summary strong {
-  font-size: 18px;
-  color: #1B1B1B;
+  font-size: 17px;
+  color: var(--point-gold);
   font-weight: 800;
 }
 
-/* Responsive */
+/* Responsive Adaptive */
 @media (max-width: 900px) {
   .order-card-header {
-    padding: 20px;
+    padding: 16px;
   }
   
   .order-header-secondary {
     flex-direction: column;
     align-items: flex-start;
-    gap: 12px;
-    padding-right: 15px;
+    gap: 8px;
+    padding-right: 16px;
   }
   
   .order-meta-info {
@@ -464,12 +471,12 @@
   }
   
   .order-card-details {
-    padding: 20px 12px;
+    padding: 16px 12px;
   }
   
   .info-grid {
     grid-template-columns: 1fr;
-    padding: 16px;
+    padding: 14px;
   }
   
   .info-row.full-width {
@@ -477,34 +484,34 @@
   }
   
   .items-table-header {
-    display: none; /* Hide header on mobile for card view style */
+    display: none;
   }
   
   .items-table-row {
     grid-template-columns: 1fr;
     gap: 8px;
-    padding: 14px 10px;
+    padding: 12px 10px;
   }
   
   .item-qty-cell,
   .item-price-cell,
   .item-total-cell {
     text-align: left;
-    font-size: 12.5px;
+    font-size: 12px;
     display: flex;
     justify-content: space-between;
   }
   
   .item-qty-cell::before {
     content: '수량: ';
-    color: #8A8A8A;
+    color: var(--text-light);
   }
   .item-price-cell::before {
     content: '단가: ';
-    color: #8A8A8A;
+    color: var(--text-light);
   }
   .item-total-cell::before {
     content: '금액: ';
-    color: #8A8A8A;
+    color: var(--text-light);
   }
 }

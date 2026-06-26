@@ -1,9 +1,13 @@
+/* ==========================================================================
+   Dongkyung Flooring (동경바닥재) - Redesigned Order Complete CSS
+   ========================================================================== */
+
 .order-complete-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 60px 16px;
-  background-color: #FAFAF8;
+  padding: 60px 24px;
+  background-color: var(--bg-alt);
   min-height: 75vh;
 }
 
@@ -15,13 +19,13 @@
 .complete-card,
 .error-card {
   background-color: #ffffff;
-  border: 1px solid #E8E2D8;
-  border-radius: 12px;
-  max-width: 540px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  max-width: 500px;
   width: 100%;
   padding: 40px;
   text-align: center;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+  box-shadow: var(--shadow-lg);
 }
 
 .success-icon-wrapper {
@@ -31,31 +35,31 @@
 }
 
 .success-icon {
-  color: #C5A46D; /* Elegant Gold */
+  color: var(--point-gold);
 }
 
 .complete-title {
   font-size: 22px;
   font-weight: 800;
-  color: #1B1B1B;
+  color: var(--primary);
   margin: 0 0 12px 0;
   letter-spacing: -0.5px;
 }
 
 .complete-desc {
   font-size: 14px;
-  color: #6B6B6B;
+  color: var(--text-muted);
   line-height: 1.6;
-  margin: 0 0 35px 0;
+  margin: 0 0 32px 0;
 }
 
 /* Receipt Details */
 .receipt-details {
-  background-color: #FAFAF8;
-  border: 1px solid #E8E2D8;
-  border-radius: 8px;
+  background-color: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
   padding: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -67,7 +71,7 @@
   justify-content: space-between;
   align-items: center;
   font-size: 13.5px;
-  border-bottom: 1px dashed #E8E2D8;
+  border-bottom: 1px dashed var(--border);
   padding-bottom: 8px;
 }
 
@@ -77,62 +81,60 @@
 }
 
 .receipt-row .label {
-  color: #6B6B6B;
+  color: var(--text-muted);
   font-weight: 500;
 }
 
 .receipt-row .value {
-  color: #1B1B1B;
-  font-weight: 600;
-}
-
-.receipt-row .value.order-no {
-  color: #C5A46D;
-  letter-spacing: 0.5px;
-}
-
-.receipt-row .value.price {
-  font-size: 16px;
-  color: #1B1B1B;
+  color: var(--primary);
   font-weight: 700;
 }
 
+.receipt-row .value.order-no {
+  color: var(--point-gold);
+}
+
+.receipt-row .value.price {
+  font-size: 15.5px;
+  color: var(--primary);
+}
+
 .status-badge {
-  background-color: #1B1B1B;
+  background-color: var(--primary);
   color: #ffffff;
-  padding: 3px 10px;
-  border-radius: 4px;
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
   font-size: 11px;
   font-weight: 700;
 }
 
 /* Bank info box */
 .bank-transfer-info {
-  background-color: #FDF9F3; /* Soft light gold/beige background */
-  border: 1px solid #F3ECE2;
-  border-radius: 8px;
+  background-color: var(--point-gold-light);
+  border: 1px solid rgba(179, 146, 95, 0.2);
+  border-radius: var(--radius-md);
   padding: 18px;
-  margin-bottom: 35px;
+  margin-bottom: 32px;
   text-align: center;
 }
 
 .bank-transfer-info h4 {
-  font-size: 14px;
+  font-size: 13.5px;
   font-weight: 700;
-  color: #8C6A35;
-  margin: 0 0 8px 0;
+  color: var(--point-gold-hover);
+  margin: 0 0 6px 0;
 }
 
 .bank-transfer-info p {
   font-size: 15px;
   font-weight: 700;
-  color: #1B1B1B;
+  color: var(--primary);
   margin: 0 0 6px 0;
 }
 
 .bank-notice {
   font-size: 11px;
-  color: #8A8A8A;
+  color: var(--text-muted);
 }
 
 /* Actions buttons */
@@ -144,41 +146,43 @@
 .btn-complete-action {
   flex: 1;
   height: 48px;
-  border-radius: 6px;
+  border-radius: var(--radius-md);
   font-size: 14px;
   font-weight: 700;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: var(--transition);
 }
 
 .btn-complete-action.primary {
-  background-color: #1B1B1B;
+  background-color: var(--primary);
   color: #ffffff;
   border: none;
 }
 
 .btn-complete-action.primary:hover {
-  background-color: #333333;
+  background-color: var(--primary-hover);
 }
 
 .btn-complete-action.secondary {
   background-color: transparent;
-  color: #1B1B1B;
-  border: 1px solid #1B1B1B;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
 }
 
 .btn-complete-action.secondary:hover {
-  background-color: #FAFAF8;
+  background-color: var(--bg-alt);
+  border-color: var(--border-hover);
+  color: var(--primary);
 }
 
 /* Responsive */
 @media (max-width: 600px) {
   .order-complete-container {
-    padding: 30px 12px;
+    padding: 30px 16px;
   }
   
   .complete-card {
-    padding: 30px 16px;
+    padding: 24px 16px;
   }
   
   .complete-actions {

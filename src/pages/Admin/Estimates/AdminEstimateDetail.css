@@ -1,71 +1,94 @@
+/* ==========================================================================
+   Dongkyung Flooring (동경바닥재) - Redesigned Admin Estimate Detail CSS
+   ========================================================================== */
+
 .est-print-container {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 40px 24px;
 }
 
 .est-control-panel {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 24px;
-  padding: 16px;
-  background: #f9f9f9;
-  border-radius: 8px;
-  border: 1px solid #ddd;
+  margin-bottom: 32px;
+  padding: 16px 20px;
+  background: var(--bg-alt);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
 .control-left, .control-right {
   display: flex;
-  gap: 12px;
+  gap: 10px;
   align-items: center;
 }
 
 .btn-icon {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 6px;
   padding: 8px 16px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-  background: #fff;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: #ffffff;
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 13px;
   cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn-icon:hover {
+  border-color: var(--border-hover);
+  color: var(--primary);
 }
 
 .btn-primary.btn-icon {
-  background: #111;
-  color: #fff;
+  background: var(--primary);
+  color: #ffffff;
   border: none;
+}
+
+.btn-primary.btn-icon:hover {
+  background-color: var(--primary-hover);
 }
 
 .status-select {
   padding: 8px 12px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-  font-weight: bold;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  font-weight: 700;
+  color: var(--primary);
+  background-color: #ffffff;
+  outline: none;
 }
 
 /* Document Paper */
 .paper-document {
-  background: #fff;
-  padding: 40px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background: #ffffff;
+  padding: 50px;
+  box-shadow: var(--shadow-lg);
   min-height: 297mm; /* A4 */
   width: 210mm;
   margin: 0 auto;
-  color: #000;
-  font-family: "Malgun Gothic", "Dotum", sans-serif;
+  color: #111111;
+  font-family: 'Pretendard', sans-serif;
+  border: 1px solid var(--border);
 }
 
 .doc-title {
   text-align: center;
-  font-size: 2.5rem;
-  font-weight: 900;
-  letter-spacing: 20px;
-  border-bottom: 3px double #000;
-  padding-bottom: 10px;
-  margin-bottom: 30px;
-  margin-left: 20px; /* Offset for letter spacing visual centering */
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: 12px;
+  border-bottom: 3px double #111111;
+  padding-bottom: 8px;
+  margin-bottom: 36px;
+  margin-left: 12px;
 }
 
 .doc-info-section {
@@ -81,31 +104,39 @@
 .meta-table, .company-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.9rem;
+  font-size: 13px;
 }
 
 .meta-table th, .meta-table td, 
 .company-table th, .company-table td {
   padding: 6px 8px;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #111111;
 }
 
 .meta-table th {
   text-align: left;
   width: 80px;
+  color: #555555;
+  font-weight: 600;
+}
+
+.meta-table td {
+  color: #111111;
+  font-weight: 700;
 }
 
 .company-table {
-  border: 2px solid #000;
+  border: 2px solid #111111;
 }
 
 .company-table th, .company-table td {
-  border: 1px solid #000;
+  border: 1px solid #111111;
   text-align: center;
 }
 
 .company-table th {
-  background-color: #f0f0f0;
+  background-color: var(--bg-alt);
+  font-weight: 700;
 }
 
 .vertical-th {
@@ -114,39 +145,41 @@
 }
 
 .company-no {
-  font-weight: bold;
-  font-size: 1.1rem;
-  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 1.5px;
 }
 
 .greeting-text {
   margin-top: 30px;
-  font-size: 1.1rem;
-  font-weight: bold;
+  font-size: 15px;
+  font-weight: 700;
+  color: #111111;
 }
 
 .contact-info {
   display: flex;
   justify-content: space-around;
   margin-top: 10px;
-  font-weight: bold;
-  font-size: 0.9rem;
+  font-weight: 700;
+  font-size: 13px;
+  color: #333333;
 }
 
 .total-amount-box {
-  border: 2px solid #000;
+  border: 2px solid #111111;
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
-  font-size: 1.2rem;
-  font-weight: bold;
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-weight: 700;
   position: relative;
 }
 
 .amount-label {
-  background: #f0f0f0;
+  background: var(--bg-alt);
   padding: 12px 20px;
-  border-right: 2px solid #000;
+  border-right: 2px solid #111111;
 }
 
 .amount-kor {
@@ -156,22 +189,24 @@
 
 .amount-num {
   padding: 12px 20px;
-  font-size: 1.4rem;
+  font-size: 18px;
 }
 
 .vat-selector {
   position: absolute;
-  top: -25px;
+  top: -24px;
   right: 0;
 }
 
 .vat-label {
   position: absolute;
-  top: -25px;
+  top: -24px;
   right: 0;
-  font-size: 0.9rem;
-  font-weight: normal;
+  font-size: 12.5px;
+  font-weight: 500;
+  color: var(--text-muted);
 }
+
 .print-only {
   display: none;
 }
@@ -179,26 +214,27 @@
 .items-table {
   width: 100%;
   border-collapse: collapse;
-  border: 2px solid #000;
-  margin-bottom: 20px;
+  border: 2px solid #111111;
+  margin-bottom: 24px;
 }
 
 .items-table th, .items-table td {
-  border: 1px solid #000;
-  padding: 8px;
-  font-size: 0.9rem;
+  border: 1px solid #111111;
+  padding: 10px 8px;
+  font-size: 13px;
 }
 
 .items-table th {
-  background: #f0f0f0;
+  background: var(--bg-alt);
   text-align: center;
+  font-weight: 700;
 }
 
 .text-center { text-align: center; }
 .text-right { text-align: right; }
-.bg-gray { background: #f9f9f9; }
-.font-bold { font-weight: bold; }
-.text-lg { font-size: 1.1rem; }
+.bg-gray { background: var(--bg-alt); }
+.font-bold { font-weight: 700; }
+.text-lg { font-size: 14.5px; }
 .vertical-align-top { vertical-align: top; }
 .w-full { width: 100%; box-sizing: border-box; }
 .mt-2 { margin-top: 8px; }
@@ -209,89 +245,117 @@
   font-family: inherit;
   font-size: inherit;
   outline: none;
+  width: 100%;
 }
+
 .edit-input:focus {
-  border-bottom: 1px dashed #999;
+  border-bottom: 1px dashed var(--point-gold);
 }
 
 .btn-del {
   background: none;
   border: none;
-  color: #e53935;
+  color: var(--danger);
   cursor: pointer;
 }
 
 .btn-add-row {
   background: transparent;
-  border: 1px dashed #999;
+  border: 1px dashed var(--border-hover);
+  border-radius: var(--radius-sm);
   width: 100%;
-  padding: 8px;
+  padding: 10px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
-  color: #666;
+  color: var(--text-muted);
+  font-size: 13px;
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.btn-add-row:hover {
+  background-color: var(--bg-alt);
+  color: var(--primary);
+  border-color: var(--point-gold);
 }
 
 .memo-box {
-  font-size: 0.85rem;
+  font-size: 12.5px;
+  color: var(--text-muted);
 }
 
 .extra-costs {
   display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  margin-bottom: 40px;
-  padding: 16px;
-  background: #f5f5f5;
-  border-radius: 8px;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 32px;
+  padding: 16px 20px;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
 }
 
 .cost-row {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 12px;
+  font-size: 13.5px;
+  flex-wrap: wrap;
 }
 
 .cost-row input {
-  padding: 6px;
-  border: 1px solid #ccc;
-  width: 120px;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  width: 130px;
+  outline: none;
+}
+
+.cost-row input:focus {
+  border-color: var(--point-gold);
 }
 
 .cost-row textarea {
   width: 100%;
   height: 60px;
-  padding: 8px;
-  border: 1px solid #ccc;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  outline: none;
   resize: vertical;
+}
+
+.cost-row textarea:focus {
+  border-color: var(--point-gold);
 }
 
 .doc-footer {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-top: 50px;
-  border-top: 1px solid #000;
-  padding-top: 10px;
+  margin-top: 40px;
+  border-top: 1px solid #111111;
+  padding-top: 12px;
 }
 
 .bank-info {
-  font-size: 0.9rem;
+  font-size: 13px;
 }
+
 .bank-title {
-  font-weight: bold;
+  font-weight: 700;
   margin-bottom: 4px;
 }
 
 /* Print Styles */
 @media print {
   body {
-    background: #fff;
+    background: #ffffff;
   }
   
-  /* Hide all generic app UI elements */
   header, footer, .mall-header, .no-print, .ai-chat-widget {
     display: none !important;
   }
@@ -300,21 +364,19 @@
     display: block !important;
   }
 
-  /* Remove box shadows and margins to fit page perfectly */
   .paper-document {
     box-shadow: none;
     margin: 0;
     padding: 0;
     width: 100%;
+    border: none;
   }
 
-  /* Inputs look like plain text */
   .edit-input {
     border: none !important;
     pointer-events: none;
   }
   
-  /* For precise page breaks if needed */
   @page {
     size: A4 portrait;
     margin: 15mm;

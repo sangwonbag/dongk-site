@@ -18,6 +18,10 @@ export default function AdminPromptAssistant() {
   const [styleNote, setStyleNote] = useState('');
   const [outputTarget, setOutputTarget] = useState('antigravity');
   const [additionalMemo, setAdditionalMemo] = useState('');
+  const [urgency, setUrgency] = useState('보통');
+  const [forbiddenFiles, setForbiddenFiles] = useState('');
+  const [requiredFeatures, setRequiredFeatures] = useState('');
+  const [workMode, setWorkMode] = useState('계획서만 작성');
   
   // Prompt history state loaded from local storage
   const [promptHistory, setPromptHistory] = useState(() => {
@@ -58,7 +62,11 @@ export default function AdminPromptAssistant() {
       nonTouchParts,
       styleNote,
       outputTarget,
-      additionalMemo
+      additionalMemo,
+      urgency,
+      forbiddenFiles,
+      requiredFeatures,
+      workMode
     });
   }, [
     taskType,
@@ -69,7 +77,11 @@ export default function AdminPromptAssistant() {
     nonTouchParts,
     styleNote,
     outputTarget,
-    additionalMemo
+    additionalMemo,
+    urgency,
+    forbiddenFiles,
+    requiredFeatures,
+    workMode
   ]);
 
   // Display toast feedback
@@ -144,6 +156,10 @@ export default function AdminPromptAssistant() {
       nonTouchParts,
       styleNote,
       additionalMemo,
+      urgency,
+      forbiddenFiles,
+      requiredFeatures,
+      workMode,
       affectedFiles: estimateAffectedFiles ? estimateAffectedFiles(taskType) : [], // affectedFiles array
       generatedPrompt: promptData.fullText,
       createdAt: timestamp,
@@ -165,6 +181,10 @@ export default function AdminPromptAssistant() {
     setStyleNote(item.styleNote || '');
     setOutputTarget(item.targetType || item.outputTarget || 'antigravity'); // Load targetType or fallback
     setAdditionalMemo(item.additionalMemo || '');
+    setUrgency(item.urgency || '보통');
+    setForbiddenFiles(item.forbiddenFiles || '');
+    setRequiredFeatures(item.requiredFeatures || '');
+    setWorkMode(item.workMode || '계획서만 작성');
     
     showToast('프롬프트를 불러왔습니다.');
   };
@@ -245,6 +265,8 @@ export default function AdminPromptAssistant() {
                 setTaskPurpose('');
                 setCurrentIssue('');
                 setDesiredResult('');
+                setForbiddenFiles('');
+                setRequiredFeatures('');
               }}>
                 <option value="사이트 디자인 수정">사이트 디자인 수정</option>
                 <option value="홈 화면 수정">홈 화면 수정</option>
@@ -283,6 +305,28 @@ export default function AdminPromptAssistant() {
               </select>
             </div>
 
+            <div className="form-row-double">
+              <div className="form-field">
+                <label>작업 긴급도</label>
+                <select value={urgency} onChange={e => setUrgency(e.target.value)}>
+                  <option value="낮음">낮음</option>
+                  <option value="보통">보통</option>
+                  <option value="높음">높음</option>
+                  <option value="긴급">긴급</option>
+                </select>
+              </div>
+
+              <div className="form-field">
+                <label>작업 실행 모드</label>
+                <select value={workMode} onChange={e => setWorkMode(e.target.value)}>
+                  <option value="계획서만 작성">계획서만 작성</option>
+                  <option value="코드 수정까지 진행">코드 수정까지 진행</option>
+                  <option value="코드 수정 후 빌드 검증까지 진행">코드 수정 후 빌드 검증까지 진행</option>
+                  <option value="코드 수정, 빌드, 커밋 메시지 제안까지 진행">코드 수정, 빌드, 커밋 메시지 제안까지 진행</option>
+                </select>
+              </div>
+            </div>
+
             <div className="form-field">
               <label>작업 목적</label>
               <input 
@@ -318,6 +362,26 @@ export default function AdminPromptAssistant() {
                 placeholder="예: 주문 DB 저장 로직 및 장바구니 Context 핵심 흐름" 
                 value={nonTouchParts} 
                 onChange={e => setNonTouchParts(e.target.value)} 
+              />
+            </div>
+
+            <div className="form-field">
+              <label>수정 금지 파일 (선택, 쉼표 또는 줄바꿈으로 구분)</label>
+              <textarea 
+                placeholder="예: src/services/orderService.js, src/contexts/EstimateCartContext.jsx" 
+                value={forbiddenFiles} 
+                onChange={e => setForbiddenFiles(e.target.value)} 
+                rows={2}
+              />
+            </div>
+
+            <div className="form-field">
+              <label>반드시 유지해야 할 기존 기능 (선택, 쉼표 또는 줄바꿈으로 구분)</label>
+              <textarea 
+                placeholder="예: 관리자 로그인, 장바구니 수량 표시, 주문관리 상태 저장, 모바일 반응형 레이아웃" 
+                value={requiredFeatures} 
+                onChange={e => setRequiredFeatures(e.target.value)} 
+                rows={2}
               />
             </div>
 

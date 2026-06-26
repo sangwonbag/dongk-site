@@ -1,32 +1,44 @@
+/* ==========================================================================
+   Dongkyung Flooring (동경바닥재) - Redesigned Material Card CSS
+   ========================================================================== */
+
 .material-card {
-    border: 1px solid #E6E2D8;
+    border: 1px solid var(--border);
     background: #ffffff;
     cursor: pointer;
-    transition: transform 0.2s, box-shadow 0.2s;
+    transition: var(--transition);
     display: flex;
     flex-direction: column;
-    border-radius: 4px;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
 }
 
 .material-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 8px 24px rgba(31, 36, 33, 0.06);
-    border-color: #ECD06F;
+    box-shadow: var(--shadow-lg);
+    border-color: var(--point-gold);
 }
 
+/* Card Thumbnail */
 .card-thumb {
     width: 100%;
     aspect-ratio: 1 / 1;
-    background: #FAF8F2;
+    background: var(--bg-alt);
     position: relative;
     overflow: hidden;
+    border-bottom: 1px solid var(--border);
 }
 
 .material-thumb {
     width: 100%;
-    aspect-ratio: 1 / 1;
+    height: 100%;
     object-fit: cover;
-    border-radius: 4px 4px 0 0;
+    transition: var(--transition);
+}
+
+.material-card:hover .material-thumb {
+    transform: scale(1.03);
 }
 
 .thumb-placeholder {
@@ -35,177 +47,236 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #ccc;
-    font-size: 14px;
+    color: var(--text-light);
+    font-size: 13px;
+    font-weight: 500;
 }
 
 .badge-new {
     position: absolute;
-    top: 8px;
-    left: 8px;
-    background: #ff5a5a;
-    color: white;
+    top: 10px;
+    left: 10px;
+    background: var(--danger);
+    color: #ffffff;
     font-size: 10px;
-    padding: 2px 6px;
-    border-radius: 4px;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: var(--radius-sm);
+    text-transform: uppercase;
 }
 
+/* Card Info Body */
 .card-info {
-    padding: 12px;
+    padding: 16px;
     display: flex;
     flex-direction: column;
-    gap: 4px;
-}
-
-.card-name {
-    font-size: 14px;
-    font-weight: 500;
-    color: #333;
-    margin-bottom: 2px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    gap: 6px;
+    flex-grow: 1;
 }
 
 .card-brand-cat {
     font-size: 11px;
-    color: #888;
-    margin-bottom: 4px;
     display: flex;
     align-items: center;
     gap: 6px;
+    margin-bottom: 2px;
 }
 
 .card-brand {
-    font-weight: 600;
-    color: #1F2421;
+    font-weight: 700;
+    color: var(--point-gold);
+    text-transform: uppercase;
 }
 
 .card-cat-divider {
-    color: #e6e2d8;
-    font-size: 9px;
+    color: var(--border);
+    font-size: 8px;
 }
 
 .card-category {
-    color: #777;
+    color: var(--text-muted);
+    font-weight: 500;
 }
 
+.card-name {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--primary);
+    line-height: 1.4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 4px;
+}
+
+/* Specs & Metadata */
 .card-meta {
-    margin: 8px 0;
-    font-size: 11px;
     display: flex;
     flex-direction: column;
     gap: 4px;
-    border-top: 1px dashed #e6e2d8;
-    padding-top: 8px;
+    border-top: 1px dashed var(--border);
+    padding-top: 10px;
+    margin-bottom: 12px;
 }
 
 .card-meta-item {
     display: flex;
     gap: 8px;
     align-items: baseline;
+    font-size: 12px;
 }
 
 .meta-label {
-    color: #999;
-    font-weight: 500;
-    min-width: 28px;
+    color: var(--text-light);
+    font-weight: 600;
+    min-width: 32px;
 }
 
 .meta-value {
-    color: #444;
+    color: var(--text-muted);
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    font-weight: 500;
 }
 
+/* Pricing Section */
 .card-price-row {
     margin-top: auto;
-    margin-bottom: 8px;
-    padding-top: 4px;
+    margin-bottom: 12px;
 }
 
 .card-price {
-    font-size: 14px;
-    font-weight: 600;
-    color: #111;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--primary);
 }
 
-/* Actions logic */
+/* Options/Chips */
+.card-option-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 12px;
+}
+
+.option-chip {
+    background: var(--bg-alt);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    padding: 3px 8px;
+    font-size: 11px;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: var(--transition);
+    font-weight: 600;
+}
+
+.option-chip:hover {
+    border-color: var(--border-hover);
+    color: var(--primary);
+}
+
+.option-chip.active {
+    background: var(--primary);
+    color: #ffffff;
+    border-color: var(--primary);
+}
+
+.option-selector-item {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 4px !important;
+}
+
+/* Action Buttons */
 .card-actions {
     display: flex;
-    gap: 6px;
+    gap: 8px;
     margin-top: auto;
 }
 
 .btn-detail,
 .btn-quote {
     flex: 1;
-    padding: 9px 0;
-    font-size: 11px;
-    font-weight: 550;
+    padding: 10px 0;
+    font-size: 12px;
+    font-weight: 700;
     cursor: pointer;
-    border-radius: 2px;
-    transition: all 0.2s ease;
+    border-radius: var(--radius-md);
+    transition: var(--transition);
     text-align: center;
+    border: 1px solid transparent;
 }
 
 .btn-detail {
-    background: #1F2421;
+    background: var(--primary);
     color: #ffffff;
-    border: 1px solid #1F2421;
 }
 
 .btn-detail:hover {
-    background: #ECD06F;
-    color: #1F2421;
-    border-color: #ECD06F;
+    background: var(--primary-hover);
 }
 
 .btn-quote {
-    background: #FAF8F2;
-    color: #1F2421;
-    border: 1px solid #E6E2D8;
+    background: #ffffff;
+    color: var(--text);
+    border-color: var(--border);
 }
 
 .btn-quote:hover {
-    background: #ffffff;
-    border-color: #1F2421;
+    border-color: var(--point-gold);
+    color: var(--point-gold);
+    background-color: var(--point-gold-light);
 }
 
-/* Size options selection styling */
-.card-option-chips {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4px;
-    margin-top: 2px;
-}
-
-.option-chip {
-    background: #FAF8F2;
-    border: 1px solid #E6E2D8;
-    color: #444;
-    padding: 2px 6px;
-    font-size: 10px;
-    border-radius: 2px;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    font-weight: 500;
-}
-
-.option-chip:hover {
-    border-color: #1F2421;
-    background: #ffffff;
-}
-
-.option-chip.active {
-    background: #1F2421;
-    color: #ffffff;
-    border-color: #1F2421;
-}
-
-.option-selector-item {
-    flex-direction: column !important;
-    align-items: flex-start !important;
-    gap: 2px !important;
+@media (max-width: 768px) {
+    .card-info {
+        padding: 10px !important;
+        gap: 4px !important;
+    }
+    
+    .card-name {
+        font-size: 13.5px !important;
+        margin-bottom: 2px !important;
+    }
+    
+    .card-meta {
+        padding-top: 6px !important;
+        margin-bottom: 8px !important;
+        gap: 2px !important;
+    }
+    
+    .card-meta-item {
+        font-size: 11px !important;
+        gap: 4px !important;
+    }
+    
+    .meta-label {
+        min-width: 28px !important;
+    }
+    
+    .card-price-row {
+        margin-bottom: 8px !important;
+    }
+    
+    .card-price {
+        font-size: 13.5px !important;
+    }
+    
+    .card-actions {
+        flex-direction: column !important;
+        gap: 4px !important;
+    }
+    
+    .btn-detail,
+    .btn-quote {
+        padding: 8px 0 !important;
+        font-size: 11px !important;
+        min-height: 44px !important;
+        border-radius: var(--radius-md) !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }

@@ -36,7 +36,7 @@ const HighlightText = ({ text, highlight }) => {
     <>
       {parts.map((part, i) =>
         tokens.some(t => t.toLowerCase() === part.toLowerCase()) ? (
-          <b key={i} style={{ color: '#00e676', fontWeight: '900' }}>{part}</b>
+          <b key={i} style={{ color: 'var(--point-gold)', fontWeight: '700' }}>{part}</b>
         ) : (
           part
         )

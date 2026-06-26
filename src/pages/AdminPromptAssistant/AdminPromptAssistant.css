@@ -344,3 +344,16 @@
 .back-to-dashboard:hover {
   color: #111;
 }
+
+.form-row-double {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+@media (max-width: 600px) {
+  .form-row-double {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
