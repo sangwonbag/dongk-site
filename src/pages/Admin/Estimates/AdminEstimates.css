@@ -176,3 +176,21 @@
   }
 }
 
+/* Real-time New Estimate Row Highlight Pulse */
+.admin-table tbody tr.highlighted-row-pulse {
+  background-color: var(--point-gold-light) !important;
+  outline: 2px solid var(--point-gold);
+  animation: highlightRowPulse 2.5s ease-in-out infinite alternate !important;
+}
+
+@keyframes highlightRowPulse {
+  0% {
+    background-color: rgba(212, 163, 89, 0.1);
+    outline-color: rgba(212, 163, 89, 0.4);
+  }
+  100% {
+    background-color: rgba(79, 70, 229, 0.08);
+    outline-color: rgba(79, 70, 229, 0.6);
+  }
+}
+

@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
+import { supabase } from "../../lib/supabaseClient";
 import { sampleBooks } from "../../data/samplebooks.db";
 import { materials } from "../../data/materials.db";
 import { getThumbnailImage } from "../../utils/galleryUtils";
@@ -413,6 +414,38 @@ export default function Home() {
   const nav = useNavigate();
   const [featuredItems, setFeaturedItems] = useState([]);
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [dbProjects, setDbProjects] = useState([]);
+
+  // Fetch portfolio cases from Supabase
+  useEffect(() => {
+    async function loadProjects() {
+      try {
+        if (!supabase) return;
+        const { data, error } = await supabase
+          .from('construction_cases')
+          .select('*')
+          .eq('is_active', true)
+          .order('sort_order', { ascending: true })
+          .order('created_at', { ascending: false })
+          .limit(4);
+
+        if (!error && data && data.length > 0) {
+          const mapped = data.map(item => ({
+            id: item.id,
+            title: item.title,
+            category: item.category || '시공사례',
+            range: item.location || '현장 시공',
+            material: item.material_summary || '동경바닥재 자재',
+            image: item.main_image_url || '/images/home-interior/korea-apt-living-01.png'
+          }));
+          setDbProjects(mapped);
+        }
+      } catch (err) {
+        console.warn('[Home] Failed to load projects from Supabase:', err);
+      }
+    }
+    loadProjects();
+  }, []);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -810,7 +843,7 @@ export default function Home() {
           </div>
 
           <div className="projects-v2-grid container">
-            {projects.map((proj) => (
+            {(dbProjects.length > 0 ? dbProjects : projects).map((proj) => (
               <div key={proj.id} className="project-v2-card">
                 <div className="project-v2-img-frame">
                   <img src={proj.image} alt={proj.title} className="project-v2-img" />

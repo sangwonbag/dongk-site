@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import MainLayout from '../../../components/layout/MainLayout';
 import { supabase } from '../../../lib/supabase';
 import { Search, Filter, FileText } from 'lucide-react';
@@ -7,6 +7,9 @@ import './AdminEstimates.css';
 
 export default function AdminEstimates() {
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
+  const highlightId = searchParams.get('highlight');
+  
   const [estimates, setEstimates] = useState([]);
   const [loading, setLoading] = useState(true);
   
@@ -14,9 +17,30 @@ export default function AdminEstimates() {
   const [searchQuery, setSearchQuery] = useState('');
   const [statusFilter, setStatusFilter] = useState('all');
 
+  // Reset filters if highlighted item is requested
+  useEffect(() => {
+    if (highlightId) {
+      setSearchQuery('');
+      setStatusFilter('all');
+    }
+  }, [highlightId]);
+
   useEffect(() => {
     fetchEstimates();
   }, []);
+
+  // Scroll to highlighted row when estimates list completes rendering
+  useEffect(() => {
+    if (highlightId && estimates.length > 0) {
+      const timer = setTimeout(() => {
+        const row = document.getElementById(`estimate-row-${highlightId}`);
+        if (row) {
+          row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      }, 300);
+      return () => clearTimeout(timer);
+    }
+  }, [highlightId, estimates]);
 
   const fetchEstimates = async () => {
     setLoading(true);
@@ -118,7 +142,11 @@ export default function AdminEstimates() {
                   </tr>
                 ) : (
                   filtered.map(est => (
-                    <tr key={est.id}>
+                    <tr 
+                      key={est.id} 
+                      id={`estimate-row-${est.id}`}
+                      className={highlightId === est.id ? 'highlighted-row-pulse' : ''}
+                    >
                       <td className="td-no">{est.estimate_no}</td>
                       <td><span className={`status-badge ${getStatusClass(est.status)}`}>{est.status}</span></td>
                       <td>{new Date(est.created_at).toLocaleString('ko-KR')}</td>

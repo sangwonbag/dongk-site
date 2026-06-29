@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import MainLayout from "../../../components/layout/MainLayout";
 import { useAuth } from "../../../contexts/AuthContext";
 import { 
@@ -80,6 +80,8 @@ const sortOrders = (ordersList) => {
 
 export default function AdminOrders() {
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
+  const highlightId = searchParams.get('highlight');
   const { user, loading: authLoading } = useAuth();
   const [isAdminUser, setIsAdminUser] = useState(false);
   const [orders, setOrders] = useState([]);
@@ -175,6 +177,14 @@ export default function AdminOrders() {
   const handleOrderSaveSuccess = (updatedOrder) => {
     setOrders(prev => prev.map(o => o.id === updatedOrder.id ? updatedOrder : o));
   };
+
+  // If highlight ID is provided, automatically reset active filter and search text to ensure it's visible
+  useEffect(() => {
+    if (highlightId) {
+      setActiveFilter("전체");
+      setSearchTerm("");
+    }
+  }, [highlightId]);
 
   // 요약 통계 정보 연산
   const newCount = orders.filter(o => o.status === "접수완료").length;
@@ -340,6 +350,7 @@ export default function AdminOrders() {
                 order={order} 
                 currentUser={user}
                 onSaveSuccess={handleOrderSaveSuccess}
+                highlight={highlightId === order.id}
               />
             ))}
           </div>
@@ -353,8 +364,8 @@ export default function AdminOrders() {
    자식 컴포넌트: AdminOrderCard
    각 카드별로 로컬 상태 및 개별 복사/저장 액션 관리
    ========================================================== */
-function AdminOrderCard({ order, currentUser, onSaveSuccess }) {
-  const [isExpanded, setIsExpanded] = useState(false);
+function AdminOrderCard({ order, currentUser, onSaveSuccess, highlight }) {
+  const [isExpanded, setIsExpanded] = useState(highlight || false);
   const [status, setStatus] = useState(order.status);
   const [paymentStatus, setPaymentStatus] = useState(order.payment_status);
   const [adminMemo, setAdminMemo] = useState(order.admin_memo || "");
@@ -370,6 +381,20 @@ function AdminOrderCard({ order, currentUser, onSaveSuccess }) {
     setPaymentStatus(order.payment_status);
     setAdminMemo(order.admin_memo || "");
   }, [order]);
+
+  // Handle auto-expanding and smooth scrolling for highlight
+  useEffect(() => {
+    if (highlight) {
+      setIsExpanded(true);
+      const timer = setTimeout(() => {
+        const el = document.getElementById(`order-card-${order.id}`);
+        if (el) {
+          el.scrollIntoView({ behavior: "smooth", block: "center" });
+        }
+      }, 200);
+      return () => clearTimeout(timer);
+    }
+  }, [highlight, order.id]);
 
   const { cleanMemo, deliveryDate } = extractDeliveryDate(order.memo);
   const displayDeliveryDate = order.delivery_request_date || deliveryDate;
@@ -485,7 +510,7 @@ ${itemsDetailText}
   };
 
   return (
-    <div className={`admin-order-card-v2 ${isExpanded ? "expanded" : ""} ${isUnchecked(order) ? "unchecked-highlight" : ""}`}>
+    <div id={`order-card-${order.id}`} className={`admin-order-card-v2 ${isExpanded ? "expanded" : ""} ${isUnchecked(order) ? "unchecked-highlight" : ""} ${highlight ? "highlight-pulse" : ""}`}>
       {/* 카드 상단 요약 영역 (그리드 최적화) */}
       <div className="card-summary-row" onClick={() => setIsExpanded(!isExpanded)}>
         <div className="summary-grid">

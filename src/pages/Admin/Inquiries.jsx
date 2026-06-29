@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import MainLayout from '../../components/layout/MainLayout';
+import { ArrowLeft } from 'lucide-react';
 import { supabase } from '../../lib/supabase';
 import './Inquiries.css';
 
 export default function Inquiries() {
+    const navigate = useNavigate();
     const [inquiries, setInquiries] = useState([]);
     const [loading, setLoading] = useState(true);
 
@@ -47,10 +51,23 @@ export default function Inquiries() {
 
     const STATUS_OPTIONS = ['신규', '상담중', '견적완료', '시공완료', '보류'];
 
-    if (loading) return <div className="admin-container"><p>로딩 중...</p></div>;
+    if (loading) {
+        return (
+            <MainLayout>
+                <div className="admin-container" style={{ padding: '80px 20px', textAlign: 'center', color: '#64748b' }}>
+                    <p>로딩 중...</p>
+                </div>
+            </MainLayout>
+        );
+    }
 
     return (
-        <div className="admin-container">
+        <MainLayout>
+            <div className="admin-container">
+                <span className="back-to-dashboard" onClick={() => navigate('/admin')} style={{ cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: '6px', color: '#6366f1', fontSize: '0.9rem', marginBottom: '20px', fontWeight: '500', transition: 'color 0.2s' }}>
+                    <ArrowLeft size={16} />
+                    관리자 대시보드로 돌아가기
+                </span>
             <h2>AI 상담 접수 목록</h2>
             
             <div className="inquiries-list">
@@ -99,6 +116,7 @@ export default function Inquiries() {
                     </div>
                 )}
             </div>
-        </div>
+            </div>
+        </MainLayout>
     );
 }

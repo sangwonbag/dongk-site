@@ -2,7 +2,7 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import MainLayout from '../../components/layout/MainLayout';
 import { ArrowLeft, Copy, FileText, CheckSquare, Save, Trash2, RefreshCw } from 'lucide-react';
-import { generatePrompt, TASK_PLACEHOLDERS } from './promptAssistantUtils';
+import { generatePrompt, TASK_PLACEHOLDERS, estimateAffectedFiles } from './promptAssistantUtils';
 import './AdminPromptAssistant.css';
 
 export default function AdminPromptAssistant() {

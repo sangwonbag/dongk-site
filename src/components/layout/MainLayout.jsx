@@ -3,6 +3,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import FloatingPhoneButton from "../ui/FloatingPhoneButton";
 import RightFloatingBox from "../ui/RightFloatingBox";
+import AdminOrderNotifier from "../admin/AdminOrderNotifier";
 import "./MainLayout.css";
 
 export default function MainLayout({ children, className = "" }) {
@@ -15,6 +16,7 @@ export default function MainLayout({ children, className = "" }) {
             <Footer />
             <FloatingPhoneButton />
             <RightFloatingBox />
+            <AdminOrderNotifier />
         </div>
     );
 }

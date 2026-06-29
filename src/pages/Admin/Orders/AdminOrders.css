@@ -817,3 +817,21 @@
     padding-top: 10px;
   }
 }
+
+/* Real-time New Order Highlight Pulse */
+.admin-order-card-v2.highlight-pulse {
+  border: 2px solid var(--point-gold) !important;
+  box-shadow: 0 0 15px rgba(212, 163, 89, 0.4) !important;
+  animation: highlightBorderPulse 2s ease-in-out infinite alternate !important;
+}
+
+@keyframes highlightBorderPulse {
+  0% {
+    border-color: var(--point-gold);
+    box-shadow: 0 0 8px rgba(212, 163, 89, 0.2);
+  }
+  100% {
+    border-color: #4f46e5;
+    box-shadow: 0 0 22px rgba(79, 70, 229, 0.5);
+  }
+}

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Routes, Route, Navigate, useNavigate } from "react-router-dom";
+import { Routes, Route, Navigate, useNavigate, useLocation } from "react-router-dom";
 import { useEstimateCart } from "../contexts/EstimateCartContext";
 import { useAuth } from "../contexts/AuthContext";
 import AuthModal from "../components/auth/AuthModal";
@@ -8,6 +8,7 @@ import Home from "../pages/Home/Home";
 import SampleBooks from "../pages/Samplebooks/SampleBooks";
 import Materials from "../pages/Materials/Materials";
 import MaterialDetail from "../pages/MaterialDetail/MaterialDetail";
+import Cases from "../pages/Cases/Cases";
 import Cart from "../pages/Cart/Cart";
 import Login from "../pages/Login/Login";
 import Signup from "../pages/Signup/Signup";
@@ -22,6 +23,9 @@ import AdminEstimateDetail from "../pages/Admin/Estimates/AdminEstimateDetail";
 import AdminEstimateInquiries from "../pages/Admin/Estimates/AdminEstimateInquiries";
 import AdminPromptAssistant from "../pages/AdminPromptAssistant/AdminPromptAssistant";
 import AdminRoute from "../components/auth/AdminRoute";
+import AdminAnalytics from "../pages/AdminAnalytics/AdminAnalytics";
+import AdminConstructionCases from "../pages/AdminConstructionCases/AdminConstructionCases";
+import AdminMaterials from "../pages/AdminMaterials/AdminMaterials";
 
 // New Order Flow Pages
 import Checkout from "../pages/Cart/Checkout";
@@ -31,12 +35,19 @@ import AdminOrders from "../pages/Admin/Orders/AdminOrders";
 
 // Global Components
 import IntroSplash from "../components/layout/IntroSplash";
+import { logPageView } from "../lib/analytics";
 
 export default function App() {
   const { toast, hideToast, getPendingDirectOrder } = useEstimateCart();
   const { isLoginModalOpen, closeLoginModal } = useAuth();
   const navigate = useNavigate();
+  const location = useLocation();
   const [showIntro, setShowIntro] = useState(false);
+
+  // Track page views dynamically
+  React.useEffect(() => {
+    logPageView(location.pathname);
+  }, [location.pathname]);
 
   // Hash route support (#orders, #admin-orders)
   React.useEffect(() => {
@@ -87,7 +98,7 @@ export default function App() {
         <Route path="/estimate" element={<EstimateRequest />} />
         <Route path="/quote" element={<EstimateRequest />} />
         <Route path="/company" element={<Home />} />
-        <Route path="/cases" element={<Materials />} />
+        <Route path="/cases" element={<Cases />} />
         <Route path="/customer-center" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
@@ -102,9 +113,11 @@ export default function App() {
         <Route path="/admin/estimates/:id" element={<AdminRoute><AdminEstimateDetail /></AdminRoute>} />
         <Route path="/admin/estimate-inquiries" element={<AdminRoute><AdminEstimateInquiries /></AdminRoute>} />
         <Route path="/admin/prompt-assistant" element={<AdminRoute><AdminPromptAssistant /></AdminRoute>} />
+        <Route path="/admin/analytics" element={<AdminRoute><AdminAnalytics /></AdminRoute>} />
+        <Route path="/admin/construction-cases" element={<AdminRoute><AdminConstructionCases /></AdminRoute>} />
         {/* Placeholder for products and materials */}
         <Route path="/admin/products" element={<AdminRoute><div style={{padding: '100px', textAlign: 'center'}}>상품 관리 준비 중</div></AdminRoute>} />
-        <Route path="/admin/materials" element={<AdminRoute><div style={{padding: '100px', textAlign: 'center'}}>자재 관리 준비 중</div></AdminRoute>} />
+        <Route path="/admin/materials" element={<AdminRoute><AdminMaterials /></AdminRoute>} />
         
         {/* Actual Ordering Routes */}
         <Route path="/checkout" element={<Checkout />} />
