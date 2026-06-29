@@ -1,22 +1,34 @@
 import React, { useMemo, useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
-import { BRANDS_BY_CATEGORY } from "../../data/materials.db";
 import { getComputedBrand } from "../../utils/brandUtils";
 import { getSearchScore } from "../../utils/searchUtils";
 import MaterialCard from "../../components/material/MaterialCard";
 import { fetchAllProducts } from "../../utils/supabaseFetcher";
 import "./Materials.css";
 
-const CATEGORY_TABS = [
-  { id: "all", label: "전체보기" },
-  { id: "데코타일", label: "데코타일" },
-  { id: "장판", label: "장판" },
-  { id: "마루", label: "마루" },
-  { id: "벽지", label: "벽지" },
-  { id: "카페트타일", label: "카페트타일" },
-  { id: "러버타일", label: "러버타일" },
-];
+// 1. Categories specified by the user
+const CATEGORIES = ["데코타일", "장판", "마루", "벽지", "카페트타일", "부자재"];
+
+// 2. Brands specified by the user
+const BRANDS_BY_CATEGORY = {
+  데코타일: ["KCC", "동신", "재영", "우성", "LX", "녹수", "현대"],
+  장판: ["LX"],
+  마루: ["이건", "동화", "구정"],
+  벽지: ["LX", "개나리", "서울", "제일", "DID", "신한", "현대벽지"],
+  카페트타일: ["스완", "어반"],
+  부자재: []
+};
+
+// Default brand selection for each category to prevent empty listings when tabs switch
+const DEFAULT_BRAND_BY_CATEGORY = {
+  데코타일: "KCC",
+  장판: "LX",
+  마루: "이건",
+  벽지: "LX",
+  카페트타일: "스완",
+  부자재: "all"
+};
 
 const getNormalizedLine = (m, activeTab, activeBrand) => {
   if (!m || !m.line) return "";
@@ -30,13 +42,10 @@ const getNormalizedLine = (m, activeTab, activeBrand) => {
       colName = colName.replace(/^(LX|신한벽지)_/, '');
       line = colName;
     } else if (activeTab === "데코타일") {
-      if (activeBrand === "KCC") {
+      const b = activeBrand.toUpperCase();
+      if (b === "KCC" || b === "LX") {
         line = parts[1] || parts[0];
-      } else if (activeBrand === "LX") {
-        line = parts[1] || parts[0];
-      } else if (activeBrand === "현대") {
-        line = parts[0];
-      } else if (activeBrand === "녹수" || activeBrand === "동신" || activeBrand === "재영" || activeBrand === "유성") {
+      } else {
         line = parts[0];
       }
     }
@@ -52,9 +61,14 @@ export default function Materials() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // Read state directly from URL query parameters
-  const activeTab = searchParams.get("category") || "all";
-  const activeBrand = searchParams.get("brand") || "all";
+  // Read state directly from URL query parameters (or default)
+  const activeTab = searchParams.get("category") || "데코타일";
+  
+  // If there's an explicit category query, but no brand query: default to "all" (to show all brands).
+  // If there's no category query either (first load): default to "KCC".
+  const defaultBrand = searchParams.get("category") ? "all" : "KCC";
+  const activeBrand = searchParams.get("brand") || defaultBrand;
+  
   const activeMaterialType = searchParams.get("type") || "all";
   const activeLine = searchParams.get("line") || "all";
   const searchText = searchParams.get("search") || "";
@@ -69,12 +83,7 @@ export default function Materials() {
         setLoading(true);
         setError(null);
         console.log("[Debug] Fetching all materials from Supabase...");
-        
         const data = await fetchAllProducts();
-        
-        console.log("[Debug] Supabase response data size:", data ? data.length : 0);
-        console.log("[Debug] Current filters state:", { activeTab, activeBrand, searchText });
-        
         setMaterialsList(data);
       } catch (err) {
         console.error("[Debug] Supabase load error:", err);
@@ -85,24 +94,6 @@ export default function Materials() {
     }
     load();
   }, []);
-
-  // Debugging logs requested by the user
-  useEffect(() => {
-    if (materialsList && materialsList.length > 0) {
-      const jangpan = materialsList.filter(m => m.category === "장판");
-      const lxJangpan = materialsList.filter(m => m.category === "장판" && (m.brand === "LX하우시스" || m.brand === "LX"));
-      const firstJangpan = jangpan[0];
-
-      console.log("=== [Debug materials stats] ===");
-      console.log("전체 상품 개수 (from fetcher):", materialsList.length);
-      console.log("장판 상품 개수:", jangpan.length);
-      console.log("LX하우시스 장판 상품 개수:", lxJangpan.length);
-      console.log("첫 번째 장판 상품 이미지 경로:", firstJangpan ? (firstJangpan.thumbnail || firstJangpan.image) : "없음");
-      console.log("현재 URL query category:", activeTab);
-      console.log("현재 URL query brand:", activeBrand);
-      console.log("===============================");
-    }
-  }, [materialsList, activeTab, activeBrand]);
 
   // Reset pagination when filters change
   useEffect(() => {
@@ -124,12 +115,10 @@ export default function Materials() {
     }, { replace: true });
   };
 
-  const setActiveTab = (tab) => {
-    if (tab === "all") {
-      updateParams({ category: null, brand: null, type: null, line: null }); // Default view
-    } else {
-      updateParams({ category: tab, brand: null, type: null, line: null });
-    }
+  const handleCategoryChange = (category) => {
+    // Switch category and reset brand to its default corresponding brand
+    const defaultBrand = DEFAULT_BRAND_BY_CATEGORY[category] || "all";
+    updateParams({ category, brand: defaultBrand, type: null, line: null });
   };
 
   const setActiveBrand = (brand) => updateParams({ brand, type: null, line: null });
@@ -140,38 +129,46 @@ export default function Materials() {
   useEffect(() => {
     const savedScroll = sessionStorage.getItem("materialsScrollY");
     if (savedScroll) {
-      setTimeout(() => { // slight delay to allow rendering
+      setTimeout(() => {
         window.scrollTo(0, parseInt(savedScroll, 10));
         sessionStorage.removeItem("materialsScrollY");
       }, 50);
     }
   }, []);
 
-  /** ✅ 브랜드 목록: 카테고리에 맞춰 가공 (요구사항 반영) */
+  // Visible brands based on current category tab selection
   const visibleBrands = useMemo(() => {
-    if (activeTab === "all") {
-      const allUniqueBrands = new Set();
-      Object.values(BRANDS_BY_CATEGORY).forEach((brandsList) => {
-        if (Array.isArray(brandsList)) {
-          brandsList.forEach((b) => allUniqueBrands.add(b));
-        }
-      });
-      return ["all", ...Array.from(allUniqueBrands)];
-    }
-    return ["all", ...(BRANDS_BY_CATEGORY[activeTab] || [])];
+    const list = BRANDS_BY_CATEGORY[activeTab] || [];
+    return ["all", ...list];
   }, [activeTab]);
 
-  /** ✅ 라인업 목록: 선택된 카테고리와 브랜드에 따라 동적으로 생성 (폴더 구조 반영) */
+  // Visible lineups based on current category and brand selection
   const visibleLines = useMemo(() => {
     if (!materialsList || materialsList.length === 0 || activeTab === "all" || activeBrand === "all") return [];
     
     const linesSet = new Set();
     materialsList.forEach((m) => {
       if (!m) return;
-      const matchesBrand =
-        getComputedBrand(m) === activeBrand ||
-        m.brand === activeBrand ||
-        (activeBrand === "LX하우시스" && (m.brand === "LX" || m.brand === "LX하우시스"));
+      
+      const mComputedBrand = getComputedBrand(m);
+      const b = activeBrand.toUpperCase();
+      const itemBrand = (m.brand || "").toUpperCase();
+      const compBrand = mComputedBrand.toUpperCase();
+      
+      let matchesBrand = false;
+      if (b === "LX") {
+        matchesBrand = itemBrand.includes("LX") || itemBrand.includes("LG") || compBrand.includes("LX");
+      } else if (b === "DID") {
+        matchesBrand = itemBrand.includes("DID") || itemBrand.includes("디아이디");
+      } else if (b === "신한") {
+        matchesBrand = itemBrand.includes("신한");
+      } else if (b === "현대벽지" || b === "현대") {
+        matchesBrand = itemBrand.includes("현대");
+      } else if (b === "어반") {
+        matchesBrand = itemBrand.includes("어반") || itemBrand.includes("URBAN");
+      } else {
+        matchesBrand = itemBrand === b || compBrand === b || itemBrand.includes(b) || compBrand.includes(b);
+      }
       
       if (m.category === activeTab && matchesBrand && m.line) {
         const line = getNormalizedLine(m, activeTab, activeBrand);
@@ -184,51 +181,62 @@ export default function Materials() {
     return ["all", ...Array.from(linesSet).sort()];
   }, [materialsList, activeTab, activeBrand]);
 
-  /** ✅ 재질 목록 (벽지 전용) */
+  // Wall paper material types
   const MATERIAL_TYPES = ["all", "프리미엄", "디아망", "합지(소폭)", "합지(장폭)", "합지", "실크", "방염"];
 
-  /** ✅ 최종 필터링: (카테고리/추천) + (브랜드) + (재질) + (검색) */
+  // Filter items
   const filtered = useMemo(() => {
     if (!materialsList || materialsList.length === 0) return [];
     const s = (searchText || "").trim();
 
-    // 1) 검색어가 있으면 모든 UI 필터 무시하고 전체 상품에서 검색
     if (s) {
+      // If search text exists, ignore UI tab filters and search globally
       const searched = materialsList
         .map((m) => ({ item: m, score: getSearchScore(m, s) }))
         .filter((x) => x.score > 0)
         .sort((a, b) => b.score - a.score)
         .map((x) => x.item);
-      console.log("[Debug] Search results:", { searchText: s, count: searched.length });
       return searched;
     }
 
-    // 2) 검색어가 없을 때만 UI 필터 강제 적용 (URL 기준)
-    let results = materialsList.filter((m) => {
+    return materialsList.filter((m) => {
       if (!m) return false;
 
-      // 탭(카테고리) 필터
-      let tabOk = true;
-      if (activeTab !== "all") {
-        tabOk = (m.category === activeTab);
+      // Category tab check
+      const tabOk = (m.category === activeTab);
+
+      // Brand check with normalization rules
+      let brandOk = false;
+      if (activeBrand === "all") {
+        brandOk = true;
+      } else {
+        const b = activeBrand.toUpperCase();
+        const itemBrand = (m.brand || "").toUpperCase();
+        const mComputedBrand = getComputedBrand(m);
+        const compBrand = mComputedBrand.toUpperCase();
+        
+        if (b === "LX") {
+          brandOk = itemBrand.includes("LX") || itemBrand.includes("LG") || compBrand.includes("LX");
+        } else if (b === "DID") {
+          brandOk = itemBrand.includes("DID") || itemBrand.includes("디아이디");
+        } else if (b === "신한") {
+          brandOk = itemBrand.includes("신한");
+        } else if (b === "현대벽지" || b === "현대") {
+          brandOk = itemBrand.includes("현대");
+        } else if (b === "어반") {
+          brandOk = itemBrand.includes("어반") || itemBrand.includes("URBAN");
+        } else {
+          brandOk = itemBrand === b || compBrand === b || itemBrand.includes(b) || compBrand.includes(b);
+        }
       }
 
-      // 브랜드 필터
-      const mComputedBrand = getComputedBrand(m);
-      let brandOk =
-        activeBrand === "all"
-          ? true
-          : (mComputedBrand === activeBrand ||
-             m.brand === activeBrand ||
-             (activeBrand === "LX하우시스" && (m.brand === "LX" || m.brand === "LX하우시스")));
-
-      // 재질 필터 (벽지일 때만 작동)
+      // Material type check (Wallpaper only)
       let materialOk = true;
       if (activeTab === "벽지" && activeMaterialType !== "all") {
         materialOk = (m.materialType === activeMaterialType);
       }
 
-      // 라인 필터 (동적 라인 적용 - 실제 라인이 2개 이상일 때만 필터 작동)
+      // Line check
       let lineOk = true;
       if (activeLine !== "all" && visibleLines.length > 2) {
         const line = getNormalizedLine(m, activeTab, activeBrand);
@@ -237,9 +245,6 @@ export default function Materials() {
 
       return tabOk && brandOk && materialOk && lineOk;
     });
-
-    console.log("[Debug] Filtering results:", { category: activeTab, brand: activeBrand, count: results.length });
-    return results;
   }, [materialsList, activeTab, activeBrand, activeMaterialType, activeLine, searchText, visibleLines]);
 
   // Loading View
@@ -253,7 +258,7 @@ export default function Materials() {
     );
   }
 
-  // Error View with full diagnostic instructions
+  // Error View
   if (error) {
     return (
       <MainLayout>
@@ -262,19 +267,12 @@ export default function Materials() {
           <p style={{ marginTop: "10px", fontSize: "14px", color: "#6B6B6B" }}>
             <strong>오류 내용:</strong> {error}
           </p>
-          <div style={{ marginTop: "24px", display: "inline-block", background: "#f8d7da", border: "1px solid #f5c6cb", padding: "20px", borderRadius: "8px", color: "#721c24", textAlign: "left", fontSize: "14px", maxWidth: "600px", lineHeight: "1.6" }}>
-            <strong>💡 디버그 체크리스트:</strong><br />
-            1. <strong>환경변수 문제:</strong> <code>.env.local</code> 파일의 <code>VITE_SUPABASE_URL</code> 및 <code>VITE_SUPABASE_ANON_KEY</code>가 비어 있거나 올바르지 않은지 확인하십시오.<br />
-            2. <strong>테이블명 문제:</strong> 데이터베이스에 <code>public.products</code> 테이블이 존재하지 않거나 캐시 불일치가 발생했는지 확인하십시오.<br />
-            3. <strong>RLS 권한 문제:</strong> Supabase RLS 정책에서 anonymous 권한에 대한 SELECT를 비활성화했는지 확인하십시오.<br />
-            4. <strong>필터링 문제:</strong> 컬럼명 맵핑 또는 PostgREST join이 실패했는지 개발자 도구 콘솔 로그를 확인하십시오.
-          </div>
         </div>
       </MainLayout>
     );
   }
 
-  // No products in DB View
+  // No products fallback
   if (materialsList.length === 0) {
     return (
       <MainLayout>
@@ -289,33 +287,40 @@ export default function Materials() {
     <MainLayout>
       <div className="materials-container container">
         <main className="materials-content full">
-          {/* ✅ 상단 카테고리 탭 */}
-          <div className="materials-tabs">
-            {CATEGORY_TABS.map((tab) => (
-              <button
-                key={tab.id}
-                className={`mat-tab ${activeTab === tab.id ? "active" : ""}`}
-                onClick={() => setActiveTab(tab.id)}
-              >
-                {tab.label}
-              </button>
-            ))}
+          
+          {/* ✅ 1. Category and Brand Filter Section */}
+          <div className="material-filter-section">
+            
+            {/* Category tabs */}
+            <div className="material-filter-row">
+              {CATEGORIES.map((category) => (
+                <button
+                  key={category}
+                  className={`material-filter-chip ${activeTab === category ? "active" : ""}`}
+                  onClick={() => handleCategoryChange(category)}
+                >
+                  {category}
+                </button>
+              ))}
+            </div>
+
+            {/* Brand tabs (visible brands filter rows) */}
+            {visibleBrands.length > 1 && (
+              <div className="material-brand-row">
+                {visibleBrands.map((brand) => (
+                  <button
+                    key={brand}
+                    className={`material-brand-chip ${activeBrand === brand ? "active" : ""}`}
+                    onClick={() => setActiveBrand(brand)}
+                  >
+                    {brand === "all" ? "전체" : brand}
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
 
-          {/* ✅ 브랜드 필터 (칩 형태) */}
-          <div className="brand-row">
-            {visibleBrands.map((b) => (
-              <button
-                key={b}
-                className={`brand-chip ${activeBrand === b ? "active" : ""}`}
-                onClick={() => setActiveBrand(b)}
-              >
-                {b === "all" ? "전체 브랜드" : b}
-              </button>
-            ))}
-          </div>
-
-          {/* ✅ 라인업 필터 (동적 라인 적용 - 실제 라인이 2개 이상일 때만 노출) */}
+          {/* ✅ 2. Lineup Filter (Dynamic - Shows only when multiple lines are loaded) */}
           {visibleLines.length > 2 && (
             <div className="material-type-row">
               {visibleLines.map((lineName) => (
@@ -330,7 +335,7 @@ export default function Materials() {
             </div>
           )}
 
-          {/* ✅ 재질 필터 (벽지일 때 브랜드가 선택된 경우 혹은 전체일 때 노출) */}
+          {/* ✅ 3. Wallpaper Material Type Filter */}
           {activeTab === "벽지" && (
             <div className="material-type-row">
               {(activeBrand === "all" ? ["all"] : activeBrand === "개나리" ? ["all", "프리미엄", "합지(소폭)", "합지(장폭)", "실크", "방염"] : activeBrand === "LX" ? ["all", "디아망", "합지", "실크", "방염"] : activeBrand === "서울" ? ["all", "프리미엄", "합지", "실크", "방염"] : ["all", "합지", "실크", "방염"]).map((t) => (
@@ -345,6 +350,7 @@ export default function Materials() {
             </div>
           )}
 
+          {/* ✅ 4. Products grid display wrapper */}
           <div className="materials-wrapper">
             <div className="results-header">
               <div className="results-info">

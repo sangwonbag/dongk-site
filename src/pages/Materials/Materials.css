@@ -3,80 +3,65 @@
    ========================================================================== */
 
 .materials-container {
-    padding-top: 40px;
+    padding-top: 140px !important;
     padding-bottom: 80px;
 }
 
-/* Category Tabs (Segmented Control style) */
-.materials-tabs {
-    display: flex;
-    gap: 8px;
-    margin-bottom: 24px;
-    border-bottom: 1px solid var(--border);
-    padding-bottom: 12px;
-    overflow-x: auto;
-    white-space: nowrap;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
+/* Category & Brand Filter Section */
+.material-filter-section {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto 24px;
+  padding: 18px 0 8px;
+  background: #fff;
+  box-sizing: border-box;
 }
 
-.materials-tabs::-webkit-scrollbar {
-    display: none;
+.material-filter-row,
+.material-brand-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  width: 100%;
+  min-height: 38px;
+  overflow: visible;
 }
 
-.mat-tab {
-    padding: 10px 20px;
-    background: none;
-    border: none;
-    border-bottom: 2px solid transparent;
-    font-size: 15px;
-    font-weight: 600;
-    color: var(--text-muted);
-    cursor: pointer;
-    transition: var(--transition);
+.material-filter-chip,
+.material-brand-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 34px;
+  padding: 8px 14px;
+  border: 1px solid #d8dee8;
+  border-radius: 999px;
+  background: #fff;
+  color: #172033;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: var(--transition);
 }
 
-.mat-tab:hover {
-    color: var(--primary);
+.material-filter-chip:hover,
+.material-brand-chip:hover {
+  border-color: var(--border-hover);
+  background-color: var(--bg-alt);
 }
 
-.mat-tab.active {
-    color: var(--point-gold);
-    font-weight: 700;
-    border-bottom: 2px solid var(--point-gold);
+.material-filter-chip.active,
+.material-brand-chip.active {
+  border-color: #c28a3a;
+  background: #fff7ed;
+  color: #9a5b10;
 }
 
-/* Brand Filter Chips */
-.brand-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-bottom: 16px;
-    padding: 2px 0;
-}
-
-.brand-chip {
-    padding: 8px 16px;
-    font-size: 13.5px;
-    font-weight: 600;
-    color: var(--text-muted);
-    background-color: var(--bg-alt);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-full);
-    cursor: pointer;
-    transition: var(--transition);
-}
-
-.brand-chip:hover {
-    color: var(--primary);
-    border-color: var(--border-hover);
-    background-color: var(--gray);
-}
-
-.brand-chip.active {
-    color: #ffffff;
-    background-color: var(--point-gold);
-    border-color: var(--point-gold);
+.material-brand-row {
+  margin-top: 10px;
 }
 
 /* Lineup & Material Type Chips */
@@ -190,38 +175,37 @@
 
 @media (max-width: 768px) {
     .materials-container {
-        padding-top: 20px;
+        padding-top: 170px !important;
         padding-bottom: 60px;
     }
     
-    .materials-tabs {
-        margin-bottom: 12px;
+    .material-filter-section {
+        padding: 12px 16px;
+        margin-bottom: 16px;
     }
-    
-    .mat-tab {
-        padding: 8px 12px;
-        font-size: 13.5px;
-    }
-    
-    .brand-row {
-        flex-wrap: nowrap !important;
-        overflow-x: auto !important;
-        white-space: nowrap !important;
+
+    .material-filter-row,
+    .material-brand-row {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 4px;
         scrollbar-width: none;
         -ms-overflow-style: none;
         gap: 6px;
-        margin-bottom: 12px;
-        padding-bottom: 4px;
-    }
-    .brand-row::-webkit-scrollbar {
-        display: none;
     }
     
-    .brand-chip {
-        flex: 0 0 auto !important;
-        padding: 6px 12px;
-        font-size: 12px;
-        border-radius: 12px;
+    .material-filter-row::-webkit-scrollbar,
+    .material-brand-row::-webkit-scrollbar {
+        display: none;
+    }
+
+    .material-filter-chip,
+    .material-brand-chip {
+        flex: 0 0 auto;
+        font-size: 13px;
+        min-height: 32px;
+        padding: 7px 12px;
     }
     
     .material-type-row {
@@ -234,6 +218,7 @@
         margin-bottom: 12px;
         gap: 6px;
     }
+    
     .material-type-row::-webkit-scrollbar {
         display: none;
     }
