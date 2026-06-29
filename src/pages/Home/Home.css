@@ -55,44 +55,46 @@
 /* ==========================================
    1. Hero Section (V3 - Premium Wide Slider Centered)
    ========================================== */
-.showroom-hero-v3 {
-  padding: 120px 0 24px 0 !important; /* Top padding clears fixed header */
+.showroom-hero {
+  width: 100%;
+  padding: 120px 24px 48px !important; /* 120px clears our 80px fixed header nicely */
+  box-sizing: border-box;
   border-bottom: none !important;
 }
 
-.hero-v3-image-wrapper {
+.showroom-hero-visual,
+.showroom-hero-slider {
   position: relative;
-  width: 100%;
-  max-width: 1280px;
+  width: min(1280px, 100%);
   height: 480px;
   margin: 0 auto;
-  border-radius: var(--radius-xl);
   overflow: hidden;
+  border-radius: var(--radius-xl); /* Rounded corners as per luxury feel */
+  background: #f4f1eb;
   box-shadow: var(--shadow-lg);
-  background-color: var(--bg-alt);
 }
 
-.hero-v3-slide {
+.showroom-hero-slide {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  inset: 0;
   opacity: 0;
-  transition: opacity 1.2s ease-in-out;
+  visibility: hidden;
+  transition: opacity 0.8s ease;
   z-index: 1;
 }
 
-.hero-v3-slide.active {
+.showroom-hero-slide.is-active {
   opacity: 1;
+  visibility: visible;
   z-index: 2;
 }
 
-.hero-v3-img {
+.showroom-hero-image {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center bottom; /* Shows floor clearly */
+  object-position: center bottom;
 }
 
 /* Caption overlay inside image frame */
@@ -1109,7 +1111,8 @@
   .featured-v2-grid {
     grid-template-columns: repeat(3, 1fr);
   }
-  .hero-v3-image-wrapper {
+  .showroom-hero-visual,
+  .showroom-hero-slider {
     height: 420px;
   }
   .hero-v3-title {
@@ -1118,7 +1121,8 @@
 }
 
 @media (max-width: 991px) {
-  .hero-v3-image-wrapper {
+  .showroom-hero-visual,
+  .showroom-hero-slider {
     height: 360px;
     border-radius: var(--radius-lg);
   }
@@ -1262,12 +1266,16 @@
 }
 
 @media (max-width: 767px) {
-  .showroom-hero-v3 {
-    padding: 100px 0 16px 0 !important;
+  .showroom-hero {
+    padding: 72px 12px 28px !important;
   }
-  .hero-v3-image-wrapper {
+  .showroom-hero-visual,
+  .showroom-hero-slider {
     height: 300px;
     border-radius: 0;
+  }
+  .showroom-hero-image {
+    object-position: center bottom;
   }
   .hero-v3-title {
     font-size: 22px;

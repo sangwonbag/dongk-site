@@ -550,24 +550,27 @@ export default function Home() {
         {/* ==========================================
            1. Hero Section (Luxury Wide Image Centered)
            ========================================== */}
-        <section className="showroom-hero-v3 container">
-          <div className="hero-v3-image-wrapper">
-            {HERO_SLIDES.map((slide, idx) => (
-              <div 
-                key={idx}
-                className={`hero-v3-slide ${idx === currentSlide ? "active" : ""}`}
-              >
-                <img 
-                  src={slide.image} 
-                  alt={slide.title} 
-                  className="hero-v3-img"
-                />
-                <div className="hero-v3-caption-overlay">
-                  <span className="hero-v3-tag">{slide.tag}</span>
-                  <h1 className="hero-v3-title">{slide.title}</h1>
+        <section className="showroom-hero">
+          <div className="showroom-hero-visual">
+            <div className="showroom-hero-slider">
+              {HERO_SLIDES.map((slide, idx) => (
+                <div 
+                  key={slide.image}
+                  className={`showroom-hero-slide ${idx === currentSlide ? "is-active" : ""}`}
+                >
+                  <img 
+                    src={slide.image} 
+                    alt={slide.title || "동경바닥재 바닥 시공 이미지"} 
+                    className="showroom-hero-image"
+                    loading={idx === 0 ? "eager" : "lazy"}
+                  />
+                  <div className="hero-v3-caption-overlay">
+                    <span className="hero-v3-tag">{slide.tag}</span>
+                    <h1 className="hero-v3-title">{slide.title}</h1>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
             
             {/* Slide dots at bottom center */}
             <div className="hero-v3-dots">
