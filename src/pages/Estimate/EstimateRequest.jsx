@@ -260,18 +260,6 @@ export default function EstimateRequest() {
           {step === 1 && (
             <div className="form-section">
               <h3>기본 정보 입력</h3>
-              
-              <div className="form-group">
-                <label>사용자 유형 <span className="req">*</span></label>
-                <div className="radio-group">
-                  {CUSTOMER_TYPES.map(t => (
-                    <label key={t} className="radio-label">
-                      <input type="radio" checked={customer.type === t} onChange={() => setCustomer({...customer, type: t})} />
-                      {t}
-                    </label>
-                  ))}
-                </div>
-              </div>
 
               <div className="form-group">
                 <label>이름 또는 업체명 <span className="req">*</span></label>
@@ -448,7 +436,7 @@ export default function EstimateRequest() {
 
               <div className="review-box">
                 <h4>최종 확인</h4>
-                <div className="review-row"><span>고객명:</span> {customer.name} ({customer.type})</div>
+                <div className="review-row"><span>고객명:</span> {customer.name}</div>
                 <div className="review-row"><span>연락처:</span> {customer.phone}</div>
                 <div className="review-row"><span>현장:</span> {site.address} {site.detailAddress}</div>
                 <div className="review-row"><span>자재:</span> {cartItems.length}종 담김</div>
