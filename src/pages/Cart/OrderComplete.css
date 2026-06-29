@@ -2,191 +2,695 @@
    Dongkyung Flooring (동경바닥재) - Redesigned Order Complete CSS
    ========================================================================== */
 
-.order-complete-container {
+.order-complete-page-wrapper {
+  background-color: #f5f6f8;
+  min-height: 75vh;
+  padding: 40px 0 80px 0;
+  font-family: inherit;
+}
+
+/* 1. Progress Steps Stage Indicator */
+.order-complete-progress-bar {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 60px 24px;
-  background-color: var(--bg-alt);
-  min-height: 75vh;
+  margin-bottom: 40px;
+  padding: 0 16px;
+  width: 100%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.order-complete-container.empty {
-  min-height: 60vh;
+.progress-step-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
 }
 
-/* Card */
-.complete-card,
-.error-card {
+.progress-step-item .step-circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-muted);
+  transition: all 0.3s ease;
+}
+
+.progress-step-item .step-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-muted);
+  transition: all 0.3s ease;
+}
+
+/* Done state styling */
+.progress-step-item.done .step-circle {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+
+.progress-step-item.done .step-label {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+/* Active state styling */
+.progress-step-item.active .step-circle {
+  background-color: var(--point-gold);
+  color: #ffffff;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(184, 150, 110, 0.3);
+}
+
+.progress-step-item.active .step-label {
+  color: var(--point-gold);
+  font-weight: 700;
+}
+
+/* Connections Line */
+.progress-step-line {
+  height: 2px;
+  flex-grow: 1;
+  max-width: 120px;
+  background-color: #e2e8f0;
+  margin: 0 16px;
+  transition: all 0.3s ease;
+}
+
+.progress-step-line.done {
+  background-color: var(--primary);
+}
+
+.progress-step-line.active {
+  background-color: var(--point-gold);
+}
+
+/* 2. Main content area */
+.order-complete-main-content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Success Banner */
+.order-complete-success-banner {
   background-color: #ffffff;
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  max-width: 500px;
+  padding: 40px 24px;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+}
+
+.success-check-icon-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.success-check-icon {
+  color: var(--point-gold);
+}
+
+.success-banner-title {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--primary);
+  margin: 0 0 8px 0;
+  letter-spacing: -0.5px;
+}
+
+.success-banner-desc {
+  font-size: 14.5px;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin: 0 0 32px 0;
+}
+
+.success-banner-meta {
+  background-color: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 16px 32px;
+  display: inline-flex;
+  gap: 48px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.success-banner-meta .meta-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.success-banner-meta .meta-label {
+  font-size: 13.5px;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.success-banner-meta .meta-value {
+  font-size: 14.5px;
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.success-banner-meta .meta-value.order-no {
+  color: var(--point-gold);
+}
+
+/* 3. Redesigned Card Containers */
+.order-complete-card-v3 {
+  background-color: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.order-complete-card-v3.flex-column {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+}
+
+/* Collapsible Items Card */
+.items-collapse-card {
+  padding: 0;
+  overflow: hidden;
+}
+
+.card-collapse-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  cursor: pointer;
+  user-select: none;
+  background-color: #ffffff;
+  transition: background-color 0.2s ease;
+}
+
+.card-collapse-header:hover {
+  background-color: var(--bg-alt);
+}
+
+.card-collapse-header .header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.card-collapse-header .header-icon {
+  font-size: 20px;
+}
+
+.card-collapse-header .card-section-title {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--primary);
+  margin: 0;
+}
+
+.items-count-badge {
+  background-color: var(--bg-alt);
+  border: 1px solid var(--border);
+  color: var(--point-gold);
+  font-size: 11.5px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+}
+
+.btn-collapse-toggle {
+  background: none;
+  border: none;
+  color: var(--primary);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+  transition: background-color 0.2s ease;
+}
+
+.btn-collapse-toggle:hover {
+  background-color: rgba(15, 23, 42, 0.05);
+}
+
+.card-collapse-body {
+  border-top: 1px solid var(--border);
+  padding: 24px;
+  background-color: #ffffff;
+}
+
+.items-table-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.item-row-card {
+  display: flex;
+  gap: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.item-row-card:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.item-img-container {
+  width: 72px;
+  height: 72px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  flex-shrink: 0;
+  background-color: var(--bg-alt);
+}
+
+.item-row-img {
   width: 100%;
-  padding: 40px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item-row-details {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-row-brand {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--point-gold);
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.item-row-name {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 0 0 4px 0;
+}
+
+.item-row-spec {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin: 0 0 8px 0;
+}
+
+.item-row-pricing {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13.5px;
+}
+
+.item-row-qty {
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.item-row-price-unit {
+  color: var(--text-muted);
+}
+
+.item-row-total {
+  margin-left: auto;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+/* 4. 2-Column Split Layout */
+.order-complete-grid-v3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.card-section-title {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--primary);
+  margin: 0;
+}
+
+.card-section-title.border-bottom {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 16px;
+  margin-bottom: 24px;
+}
+
+.card-details-table {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.details-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 13.5px;
+  padding-bottom: 12px;
+  border-bottom: 1px dashed var(--border);
+}
+
+.details-row:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.details-row.total-amount-row {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 16px;
+  margin-bottom: 4px;
+}
+
+.details-lbl {
+  color: var(--text-muted);
+  font-weight: 500;
+  min-width: 100px;
+}
+
+.details-val {
+  color: var(--primary);
+  font-weight: 600;
+  text-align: right;
+  word-break: break-all;
+}
+
+.details-val.text-blue {
+  color: var(--point-gold);
+  font-weight: 700;
+}
+
+.details-val.price-highlight {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--primary);
+}
+
+.payment-status-badge {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  display: inline-block;
+}
+
+.payment-status-badge.unpaid {
+  background-color: #fef3c7;
+  color: #d97706;
+}
+
+.payment-status-badge.paid {
+  background-color: #d1fae5;
+  color: #059669;
+}
+
+/* Bank Account box */
+.order-complete-bank-box {
+  background-color: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 20px;
+  margin-top: 24px;
+}
+
+.bank-box-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--point-gold);
+  text-transform: uppercase;
+  margin: 0 0 12px 0;
+  letter-spacing: 0.5px;
+}
+
+.bank-account-details {
+  font-size: 14px;
+  color: var(--primary);
+  line-height: 1.6;
+}
+
+.bank-account-details .bank-name {
+  font-weight: 700;
+  margin: 0;
+}
+
+.bank-account-details .bank-number {
+  font-size: 17px;
+  font-weight: 800;
+  color: var(--primary);
+  margin: 2px 0 4px 0;
+  letter-spacing: -0.3px;
+}
+
+.bank-account-details .bank-holder {
+  margin: 0;
+}
+
+.bank-box-notice {
+  font-size: 11px;
+  color: var(--text-muted);
+  display: block;
+  margin-top: 10px;
+  line-height: 1.4;
+}
+
+/* 5. Button Actions Row */
+.order-complete-actions-v3 {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.btn-action-complete {
+  padding: 14px 28px;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.25s ease;
+  min-width: 160px;
+}
+
+.btn-action-complete.primary {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+
+.btn-action-complete.primary:hover {
+  background-color: var(--primary-hover);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-action-complete.outline {
+  background-color: #ffffff;
+  border-color: var(--border);
+  color: var(--primary);
+}
+
+.btn-action-complete.outline:hover {
+  background-color: var(--bg-alt);
+  transform: translateY(-2px);
+}
+
+/* 6. Error & Empty State style */
+.order-complete-error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 24px;
+  background-color: #f5f6f8;
+  min-height: 60vh;
+}
+
+.order-complete-error-box {
+  background-color: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  max-width: 480px;
+  width: 100%;
+  padding: 40px 32px;
   text-align: center;
   box-shadow: var(--shadow-lg);
 }
 
-.success-icon-wrapper {
-  margin-bottom: 24px;
-  display: flex;
-  justify-content: center;
-}
-
-.success-icon {
-  color: var(--point-gold);
-}
-
-.complete-title {
-  font-size: 22px;
+.order-complete-error-box .error-title {
+  font-size: 20px;
   font-weight: 800;
   color: var(--primary);
   margin: 0 0 12px 0;
-  letter-spacing: -0.5px;
 }
 
-.complete-desc {
+.order-complete-error-box .error-desc {
   font-size: 14px;
   color: var(--text-muted);
   line-height: 1.6;
   margin: 0 0 32px 0;
 }
 
-/* Receipt Details */
-.receipt-details {
-  background-color: var(--bg-alt);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  padding: 20px;
-  margin-bottom: 24px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  text-align: left;
-}
-
-.receipt-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 13.5px;
-  border-bottom: 1px dashed var(--border);
-  padding-bottom: 8px;
-}
-
-.receipt-row:last-child {
-  border-bottom: none;
-  padding-bottom: 0;
-}
-
-.receipt-row .label {
-  color: var(--text-muted);
-  font-weight: 500;
-}
-
-.receipt-row .value {
-  color: var(--primary);
-  font-weight: 700;
-}
-
-.receipt-row .value.order-no {
-  color: var(--point-gold);
-}
-
-.receipt-row .value.price {
-  font-size: 15.5px;
-  color: var(--primary);
-}
-
-.status-badge {
-  background-color: var(--primary);
-  color: #ffffff;
-  padding: 3px 8px;
-  border-radius: var(--radius-sm);
-  font-size: 11px;
-  font-weight: 700;
-}
-
-/* Bank info box */
-.bank-transfer-info {
-  background-color: var(--point-gold-light);
-  border: 1px solid rgba(179, 146, 95, 0.2);
-  border-radius: var(--radius-md);
-  padding: 18px;
-  margin-bottom: 32px;
-  text-align: center;
-}
-
-.bank-transfer-info h4 {
-  font-size: 13.5px;
-  font-weight: 700;
-  color: var(--point-gold-hover);
-  margin: 0 0 6px 0;
-}
-
-.bank-transfer-info p {
-  font-size: 15px;
-  font-weight: 700;
-  color: var(--primary);
-  margin: 0 0 6px 0;
-}
-
-.bank-notice {
-  font-size: 11px;
-  color: var(--text-muted);
-}
-
-/* Actions buttons */
-.complete-actions {
+.order-complete-error-box .error-actions {
   display: flex;
   gap: 12px;
+  justify-content: center;
 }
 
-.btn-complete-action {
+.order-complete-error-box .error-actions button {
   flex: 1;
-  height: 48px;
-  border-radius: var(--radius-md);
+  padding: 12px;
   font-size: 14px;
   font-weight: 700;
+  border-radius: var(--radius-md);
   cursor: pointer;
-  transition: var(--transition);
+  transition: all 0.2s ease;
 }
 
-.btn-complete-action.primary {
+.order-complete-error-box .btn-error-primary {
   background-color: var(--primary);
   color: #ffffff;
   border: none;
 }
 
-.btn-complete-action.primary:hover {
+.order-complete-error-box .btn-error-primary:hover {
   background-color: var(--primary-hover);
 }
 
-.btn-complete-action.secondary {
-  background-color: transparent;
-  color: var(--text-muted);
+.order-complete-error-box .btn-error-outline {
+  background-color: #ffffff;
   border: 1px solid var(--border);
-}
-
-.btn-complete-action.secondary:hover {
-  background-color: var(--bg-alt);
-  border-color: var(--border-hover);
   color: var(--primary);
 }
 
-/* Responsive */
-@media (max-width: 600px) {
-  .order-complete-container {
-    padding: 30px 16px;
+.order-complete-error-box .btn-error-outline:hover {
+  background-color: var(--bg-alt);
+}
+
+/* ==========================================================================
+   Responsive Query Styling
+   ========================================================================== */
+@media (max-width: 991px) {
+  .order-complete-page-wrapper {
+    padding: 32px 0 60px 0;
   }
   
-  .complete-card {
-    padding: 24px 16px;
+  .order-complete-success-banner {
+    padding: 32px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .order-complete-grid-v3 {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
   
-  .complete-actions {
+  .progress-step-line {
+    margin: 0 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .order-complete-progress-bar {
+    margin-bottom: 28px;
+  }
+  
+  .progress-step-item .step-circle {
+    width: 30px;
+    height: 30px;
+    font-size: 11px;
+  }
+  
+  .progress-step-item .step-label {
+    font-size: 11px;
+  }
+  
+  .progress-step-line {
+    margin: 0 4px;
+  }
+  
+  .success-banner-title {
+    font-size: 22px;
+  }
+  
+  .success-banner-desc {
+    font-size: 13.5px;
+    margin-bottom: 24px;
+  }
+  
+  .success-banner-meta {
+    padding: 12px 16px;
+    gap: 16px;
     flex-direction: column;
-    gap: 8px;
+    align-items: center;
+  }
+  
+  .order-complete-card-v3.flex-column {
+    padding: 20px 16px;
+  }
+  
+  .card-collapse-header {
+    padding: 16px;
+  }
+  
+  .card-collapse-body {
+    padding: 16px;
+  }
+  
+  .item-row-card {
+    gap: 12px;
+  }
+  
+  .item-img-container {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .item-row-name {
+    font-size: 13.5px;
+  }
+  
+  .item-row-pricing {
+    font-size: 12.5px;
+  }
+  
+  .item-row-total {
+    font-size: 14px;
+  }
+  
+  .details-val.price-highlight {
+    font-size: 17px;
+  }
+  
+  .order-complete-actions-v3 {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .btn-action-complete {
+    width: 100%;
+    min-width: 0;
+    padding: 12px;
   }
 }

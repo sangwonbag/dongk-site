@@ -220,6 +220,11 @@ export default function Checkout() {
       }
 
       // 주문 완료 화면으로 이동 (뒤로가기 방지를 위해 replace: true 추가)
+      try {
+        localStorage.setItem("last_completed_order", JSON.stringify(orderData));
+      } catch (storageErr) {
+        console.warn("[Checkout Warning] localStorage 저장 실패:", storageErr);
+      }
       navigate("/order-complete", { state: { order: orderData }, replace: true });
     } catch (err) {
       console.error("[Checkout Error]", err);
