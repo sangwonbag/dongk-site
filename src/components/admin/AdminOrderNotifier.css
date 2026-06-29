@@ -26,6 +26,28 @@
   gap: 8px;
 }
 
+.unread-inquiries-badge-indicator {
+  font-size: 0.75rem;
+  color: #ef4444;
+  font-weight: 600;
+  border-right: 1px solid #e2e8f0;
+  padding-right: 8px;
+  margin-right: 4px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.unread-inquiries-badge-indicator:hover {
+  opacity: 0.8;
+}
+
+.unread-inquiries-badge-indicator strong {
+  font-weight: 800;
+}
+
 .toggle-label {
   display: flex;
   align-items: center;
@@ -223,4 +245,15 @@
   .toast-alert-card {
     width: auto;
   }
+}
+
+/* Inquiry-specific toast styling */
+.toast-alert-card.inquiry::before {
+  background-color: #f97316; /* Orange highlight for inquiries */
+}
+
+.toast-type-badge.inquiry {
+  background-color: #fff7ed;
+  color: #c2410c;
+  border: 1px solid #ffedd5;
 }

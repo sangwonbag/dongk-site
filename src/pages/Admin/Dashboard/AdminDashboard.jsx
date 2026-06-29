@@ -117,7 +117,7 @@ export default function AdminDashboard() {
       ).length;
 
       const newEstimates = estimateRows.filter(e => e.status === '접수' || e.status === '신규').length;
-      const newInquiries = inquiryRows.filter(i => i.status === '신규').length;
+      const newInquiries = inquiryRows.filter(i => i.status === 'new' || i.status === '신규').length;
 
       const totalProducts = productRows.length;
       const activeProducts = productRows.filter(p => p.is_active).length;
@@ -240,7 +240,7 @@ export default function AdminDashboard() {
 
           <button className="dashboard-card" onClick={() => navigate('/admin/estimate-inquiries')}>
             <FileText size={32} className="card-icon text-emerald" />
-            <div className="card-title">견적문의 관리</div>
+            <div className="card-title">상세견적 접수 관리</div>
             <div className="card-desc">상세 견적문의 및 상담 접수 현황 처리</div>
           </button>
 
@@ -258,7 +258,7 @@ export default function AdminDashboard() {
 
           <button className="dashboard-card" onClick={() => navigate('/admin/inquiries')}>
             <MessageSquare size={32} className="card-icon text-orange" />
-            <div className="card-title">고객 문의 관리</div>
+            <div className="card-title">견적문의 관리</div>
             <div className="card-desc">일반 고객 문의 내역 확인 및 상담 상태 제어</div>
           </button>
 

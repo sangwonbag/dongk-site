@@ -136,8 +136,8 @@
 }
 
 @keyframes fadeOutSplash {
-  0% { opacity: 1; visibility: visible; }
-  100% { opacity: 0; visibility: hidden; }
+  0% { opacity: 1; visibility: visible; pointer-events: none; }
+  100% { opacity: 0; visibility: hidden; pointer-events: none; }
 }
 
 /* 모바일 대응 */

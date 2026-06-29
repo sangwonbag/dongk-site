@@ -1021,6 +1021,124 @@
 }
 
 /* ==========================================
+   2.8 Today's Recommended Category Banner (Randomized)
+   ========================================== */
+.showroom-random-banner {
+  padding: 40px 0 !important;
+}
+
+.random-banner-card {
+  position: relative;
+  background-color: var(--primary);
+  border-radius: var(--radius-xl);
+  height: 360px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  box-shadow: var(--shadow-xl);
+}
+
+.random-banner-img-wrap {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.random-banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.random-banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(15, 23, 42, 0.9) 0%, rgba(15, 23, 42, 0.6) 50%, rgba(15, 23, 42, 0.3) 100%);
+  z-index: 2;
+}
+
+.random-banner-content {
+  position: relative;
+  z-index: 3;
+  padding: 48px 60px;
+  max-width: 600px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.random-banner-tag {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--point-gold);
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.random-banner-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 12px 0;
+  letter-spacing: -0.01em;
+}
+
+.random-banner-desc {
+  font-size: 15px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.85);
+  margin: 0 0 28px 0;
+}
+
+.btn-random-banner-go {
+  background-color: var(--point-gold);
+  color: #ffffff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: 0 4px 14px rgba(179, 146, 95, 0.25);
+}
+
+.btn-random-banner-go:hover {
+  background-color: var(--point-gold-hover);
+  box-shadow: 0 4px 14px rgba(179, 146, 95, 0.4);
+}
+
+@media (max-width: 768px) {
+  .random-banner-card {
+    height: auto;
+    min-height: 280px;
+    padding: 32px 20px;
+  }
+  .random-banner-overlay {
+    background: rgba(15, 23, 42, 0.8);
+  }
+  .random-banner-content {
+    padding: 0;
+    max-width: 100%;
+  }
+  .random-banner-title {
+    font-size: 24px;
+  }
+  .random-banner-desc {
+    font-size: 13.5px;
+    margin-bottom: 20px;
+  }
+  .btn-random-banner-go {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+}
+
+/* ==========================================
    6.5 Support Info Section (V3)
    ========================================== */
 .showroom-support-info-v3 {

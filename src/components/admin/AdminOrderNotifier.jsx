@@ -2,18 +2,16 @@ import React, { useEffect, useState, useRef } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { supabase } from '../../lib/supabaseClient';
 import { useAuth } from '../../contexts/AuthContext';
-import { Bell, BellOff, X, ExternalLink, Calendar, Phone, DollarSign, FileText } from 'lucide-react';
+import { Bell, BellOff, X, ExternalLink, Calendar, Phone, DollarSign, MessageSquare } from 'lucide-react';
 import './AdminOrderNotifier.css';
 
 const LOCAL_STORAGE_KEY = 'dongk_notified_ids';
 const MUTE_STORAGE_KEY = 'dongk_notifier_muted';
 
-// Audio chime using Web Audio API to avoid requiring external assets
+// Audio chime using Web Audio API
 const playChime = () => {
   try {
     const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-    
-    // Play a gentle two-tone chime
     const playNote = (freq, startTime, duration) => {
       const osc = audioCtx.createOscillator();
       const gain = audioCtx.createGain();
@@ -31,7 +29,6 @@ const playChime = () => {
       osc.stop(startTime + duration);
     };
     
-    // Play Note 1 (E5) and Note 2 (A5)
     playNote(659.25, audioCtx.currentTime, 0.4);
     playNote(880.00, audioCtx.currentTime + 0.12, 0.5);
   } catch (e) {
@@ -39,7 +36,7 @@ const playChime = () => {
   }
 };
 
-// Mask phone number for privacy (e.g. 010-1234-5678 -> 010-****-5678)
+// Mask phone number for privacy
 const maskPhone = (phone) => {
   if (!phone) return '';
   const cleaned = phone.replace(/[^0-9]/g, '');
@@ -67,17 +64,17 @@ export default function AdminOrderNotifier() {
     }
   });
 
+  const [unreadInquiriesCount, setUnreadInquiriesCount] = useState(0);
+
   const stateRef = useRef({ toasts, isMuted });
   
   useEffect(() => {
     stateRef.current = { toasts, isMuted };
   }, [toasts, isMuted]);
 
-  // Check if current user is admin and viewing admin page
   const isAdminPage = location.pathname.startsWith('/admin') || location.pathname.startsWith('/admin-orders');
   const isUserAdmin = user && user.isLoggedIn && user.role === 'admin';
 
-  // Retrieve notified IDs from localStorage
   const getNotifiedIds = () => {
     try {
       const stored = localStorage.getItem(LOCAL_STORAGE_KEY);
@@ -87,7 +84,6 @@ export default function AdminOrderNotifier() {
     }
   };
 
-  // Add notified ID to localStorage (keep max 100 entries to avoid overflow)
   const addNotifiedId = (id) => {
     try {
       const ids = getNotifiedIds();
@@ -100,7 +96,23 @@ export default function AdminOrderNotifier() {
     }
   };
 
-  // Triggered when a new record is discovered
+  // Fetch count of inquiries with is_read = false
+  const fetchUnreadCount = async () => {
+    try {
+      if (!supabase) return;
+      const { count, error } = await supabase
+        .from('inquiries')
+        .select('*', { count: 'exact', head: true })
+        .eq('is_read', false);
+
+      if (!error) {
+        setUnreadInquiriesCount(count || 0);
+      }
+    } catch (e) {
+      console.warn('[Notifier] Failed to load unread count:', e);
+    }
+  };
+
   const triggerNotification = (item, type) => {
     const ids = getNotifiedIds();
     if (ids.includes(item.id)) return; // prevent duplicate
@@ -112,27 +124,55 @@ export default function AdminOrderNotifier() {
       playChime();
     }
 
+    // Refresh unread count if it's a new inquiry
+    if (type === 'inquiry') {
+      setUnreadInquiriesCount(prev => prev + 1);
+    }
+
     // Map item properties to uniform toast layout
     const isOrder = type === 'order';
+    const isEstimate = type === 'estimate';
+    const isInquiry = type === 'inquiry';
+    
+    let title = '';
+    let link = '';
+    let number = '';
+    let amount = 0;
+    
+    if (isOrder) {
+      title = '새 주문이 접수되었습니다';
+      link = `/admin-orders?highlight=${item.id}`;
+      number = item.order_no;
+      amount = item.total_amount;
+    } else if (isEstimate) {
+      title = '새 견적요청이 등록되었습니다';
+      link = `/admin/estimates?highlight=${item.id}`;
+      number = item.estimate_no;
+      amount = item.total || 0;
+    } else {
+      title = '새 견적문의가 들어왔어요';
+      link = '/admin/inquiries';
+      number = item.id.substring(0, 8).toUpperCase();
+      amount = 0;
+    }
+
     const toastItem = {
       id: item.id,
       type,
-      title: isOrder ? '새 주문이 접수되었습니다' : '새 견적요청이 등록되었습니다',
-      number: isOrder ? item.order_no : item.estimate_no,
-      customer: item.customer_name || '비회원',
+      title,
+      number,
+      customer: item.customer_name || item.name || '비회원',
       phone: maskPhone(item.phone),
-      amount: isOrder ? item.total_amount : (item.total || 0),
+      amount,
       time: item.created_at,
-      link: isOrder ? `/admin-orders?highlight=${item.id}` : `/admin/estimates?highlight=${item.id}`
+      link
     };
 
     setToasts(prev => {
-      // Limit toast stack to max 3 items (drop oldest)
       const list = [toastItem, ...prev];
       return list.slice(0, 3);
     });
 
-    // Auto-remove after 9 seconds
     setTimeout(() => {
       setToasts(prev => prev.filter(t => t.id !== item.id));
     }, 9000);
@@ -142,6 +182,7 @@ export default function AdminOrderNotifier() {
     if (!isUserAdmin || !isAdminPage || !supabase) return;
 
     console.log('[Notifier] Admin notifications listener starting...');
+    fetchUnreadCount();
 
     // -- 1. Supabase Realtime Channels --
     const orderChannel = supabase
@@ -160,10 +201,20 @@ export default function AdminOrderNotifier() {
       })
       .subscribe();
 
-    // -- 2. Polling Fallback Interval (Checks every 20 seconds) --
+    const inquiryChannel = supabase
+      .channel('admin-realtime-inquiries')
+      .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'inquiries' }, payload => {
+        console.log('[Notifier] Realtime Inquiry Inserted:', payload.new);
+        triggerNotification(payload.new, 'inquiry');
+      })
+      .subscribe();
+
+    // -- 2. Polling Fallback Interval --
     const pollingInterval = setInterval(async () => {
       try {
-        // Query latest 1 order
+        fetchUnreadCount();
+
+        // Query latest order
         const { data: latestOrder, error: oErr } = await supabase
           .from('orders')
           .select('*')
@@ -173,10 +224,7 @@ export default function AdminOrderNotifier() {
         if (!oErr && latestOrder && latestOrder.length > 0) {
           const item = latestOrder[0];
           const ids = getNotifiedIds();
-          
-          // Only trigger if not already in localStorage
           if (!ids.includes(item.id)) {
-            // Also ensure it is a recently created order (e.g. within past 10 minutes) to avoid triggering on old db rows during init
             const ageMs = Date.now() - new Date(item.created_at).getTime();
             if (ageMs < 10 * 60 * 1000) {
               triggerNotification(item, 'order');
@@ -184,7 +232,7 @@ export default function AdminOrderNotifier() {
           }
         }
 
-        // Query latest 1 estimate
+        // Query latest estimate
         const { data: latestEstimate, error: eErr } = await supabase
           .from('estimates')
           .select('*')
@@ -201,21 +249,38 @@ export default function AdminOrderNotifier() {
             }
           }
         }
+
+        // Query latest inquiry
+        const { data: latestInquiry, error: iErr } = await supabase
+          .from('inquiries')
+          .select('*')
+          .order('created_at', { ascending: false })
+          .limit(1);
+
+        if (!iErr && latestInquiry && latestInquiry.length > 0) {
+          const item = latestInquiry[0];
+          const ids = getNotifiedIds();
+          if (!ids.includes(item.id)) {
+            const ageMs = Date.now() - new Date(item.created_at).getTime();
+            if (ageMs < 10 * 60 * 1000) {
+              triggerNotification(item, 'inquiry');
+            }
+          }
+        }
       } catch (err) {
         console.warn('[Notifier] Polling failure:', err);
       }
     }, 20000);
 
-    // Clean up connections on unmount or route change
     return () => {
-      console.log('[Notifier] Cleaning up listeners and channels...');
+      console.log('[Notifier] Cleaning up listeners...');
       clearInterval(pollingInterval);
       supabase.removeChannel(orderChannel);
       supabase.removeChannel(estimateChannel);
+      supabase.removeChannel(inquiryChannel);
     };
-  }, [isUserAdmin, isAdminPage]);
+  }, [isUserAdmin, isAdminPage, location.pathname]);
 
-  // Handle click on audio toggle checkbox
   const toggleMute = () => {
     const newVal = !isMuted;
     setIsMuted(newVal);
@@ -234,13 +299,21 @@ export default function AdminOrderNotifier() {
     navigate(link);
   };
 
-  // Do not render anything if not an admin page or not admin user
   if (!isUserAdmin || !isAdminPage) return null;
 
   return (
     <div className="admin-notifier-fixed-box">
-      {/* Sound Controller Toggle */}
+      {/* Sound Controller & Unread Count Badge */}
       <div className="notifier-sound-toggle-card">
+        {unreadInquiriesCount > 0 && (
+          <div 
+            className="unread-inquiries-badge-indicator" 
+            onClick={() => navigate('/admin/inquiries')}
+            title="미처리 견적문의 확인하기"
+          >
+            안읽은 문의: <strong>{unreadInquiriesCount}</strong>건
+          </div>
+        )}
         <label className="toggle-label" title={isMuted ? "알림음 켜기" : "알림음 끄기"}>
           <input
             type="checkbox"
@@ -261,7 +334,7 @@ export default function AdminOrderNotifier() {
           <div key={toast.id} className={`toast-alert-card ${toast.type}`}>
             <div className="toast-top-row">
               <span className={`toast-type-badge ${toast.type}`}>
-                {toast.type === 'order' ? '주문' : '견적'}
+                {toast.type === 'order' ? '주문' : toast.type === 'estimate' ? '견적' : '문의'}
               </span>
               <button className="btn-close-toast" onClick={() => removeToast(toast.id)}>
                 <X size={14} />
@@ -272,17 +345,19 @@ export default function AdminOrderNotifier() {
             
             <div className="toast-meta-grid">
               <div className="meta-item">
-                <span className="lbl">접수번호</span>
+                <span className="lbl">접수정보</span>
                 <span className="val font-mono">{toast.number}</span>
               </div>
               <div className="meta-item">
                 <span className="lbl">고객 정보</span>
                 <span className="val">{toast.customer} ({toast.phone})</span>
               </div>
-              <div className="meta-item">
-                <span className="lbl">결제금액</span>
-                <span className="val price">{(toast.amount || 0).toLocaleString()}원</span>
-              </div>
+              {toast.type !== 'inquiry' && (
+                <div className="meta-item">
+                  <span className="lbl">결제금액</span>
+                  <span className="val price">{(toast.amount || 0).toLocaleString()}원</span>
+                </div>
+              )}
             </div>
 
             <button 

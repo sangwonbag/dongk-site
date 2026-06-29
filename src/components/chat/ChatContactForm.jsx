@@ -26,9 +26,17 @@ export default function ChatContactForm({ sessionId, onCancel, onSuccess }) {
             const { error } = await supabase
                 .from('inquiries')
                 .insert([{
-                    session_id: sessionId,
-                    ...formData,
-                    status: '신규'
+                    session_id: sessionId || null,
+                    customer_name: formData.name,
+                    phone: formData.phone,
+                    address: formData.address || null,
+                    space_size: formData.area || null,
+                    product_name: formData.material_of_interest || null,
+                    message: formData.inquiry_details || null,
+                    status: 'new',
+                    is_read: false,
+                    request_type: 'estimate',
+                    source_page: window.location.pathname
                 }]);
 
             if (error) throw error;

@@ -410,11 +410,58 @@ const HERO_SLIDES = [
   }
 ];
 
+const RANDOM_CATEGORIES = [
+  {
+    name: '데코타일',
+    desc: '공간에 실용성과 디자인을 더하는 데코타일',
+    image: '/images/categories/category-deco-tile.png',
+    fallback: '/images/deco_tile.png',
+    path: '/materials?category=데코타일'
+  },
+  {
+    name: '마루',
+    desc: '공간의 가치를 높이는 프리미엄 마루',
+    image: '/images/categories/category-wood-flooring.png',
+    fallback: '/images/spc_flooring.png',
+    path: '/materials?category=마루'
+  },
+  {
+    name: '벽지',
+    desc: '공간 분위기를 완성하는 감각적인 벽지',
+    image: '/images/categories/category-wallpaper.png',
+    fallback: '/images/premium_wallpaper.png',
+    path: '/materials?category=벽지'
+  },
+  {
+    name: '카페트타일',
+    desc: '상업공간에 어울리는 모던 카페트타일',
+    image: '/images/categories/category-carpet-tile.png',
+    fallback: '/images/carpet_tile.png',
+    path: '/materials?category=카페트타일'
+  }
+];
+
 export default function Home() {
   const nav = useNavigate();
   const [featuredItems, setFeaturedItems] = useState([]);
   const [currentSlide, setCurrentSlide] = useState(0);
   const [dbProjects, setDbProjects] = useState([]);
+
+  // Randomized category selection (persisted during the browser session)
+  const [randomCategory] = useState(() => {
+    try {
+      const cached = sessionStorage.getItem('dk_home_random_category');
+      if (cached) {
+        const found = RANDOM_CATEGORIES.find(c => c.name === cached);
+        if (found) return found;
+      }
+      const selected = RANDOM_CATEGORIES[Math.floor(Math.random() * RANDOM_CATEGORIES.length)];
+      sessionStorage.setItem('dk_home_random_category', selected.name);
+      return selected;
+    } catch {
+      return RANDOM_CATEGORIES[0];
+    }
+  });
 
   // Fetch portfolio cases from Supabase
   useEffect(() => {
@@ -757,6 +804,40 @@ export default function Home() {
                 </div>
               </div>
             ))}
+          </div>
+        </section>
+
+        {/* ==========================================
+           2.8 Today's Recommended Category Banner (Randomized)
+           ========================================== */}
+        <section className="showroom-random-banner reveal">
+          <div className="random-banner-container container">
+            <div className="random-banner-card">
+              <div className="random-banner-img-wrap">
+                <img 
+                  src={randomCategory.image} 
+                  alt={randomCategory.name} 
+                  className="random-banner-img"
+                  onError={(e) => {
+                    e.target.onerror = null;
+                    e.target.src = randomCategory.fallback;
+                  }}
+                  loading="lazy"
+                />
+                <div className="random-banner-overlay"></div>
+              </div>
+              <div className="random-banner-content">
+                <span className="random-banner-tag">TODAY'S SELECTION</span>
+                <h2 className="random-banner-title">{randomCategory.name}</h2>
+                <p className="random-banner-desc">{randomCategory.desc}</p>
+                <button 
+                  className="btn-random-banner-go" 
+                  onClick={() => nav(randomCategory.path)}
+                >
+                  자재 보러가기
+                </button>
+              </div>
+            </div>
           </div>
         </section>
 

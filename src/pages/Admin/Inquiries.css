@@ -251,6 +251,27 @@
   background-color: #f8fafc;
 }
 
+/* Highlight new/unread inquiry */
+.admin-inquiries-table tbody tr.new-inquiry-row {
+  background-color: #f5f3ff; /* Soft violet background for unread */
+}
+
+.admin-inquiries-table tbody tr.new-inquiry-row:hover {
+  background-color: #ede9fe;
+}
+
+.new-tag {
+  display: inline-block;
+  background-color: #ef4444;
+  color: #ffffff;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 1px 5px;
+  border-radius: 4px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+
 .date-cell {
   white-space: nowrap;
 }
@@ -258,6 +279,10 @@
 .phone-cell {
   white-space: nowrap;
   font-family: monospace;
+}
+
+.email-cell {
+  white-space: nowrap;
 }
 
 .addr-cell {
@@ -302,9 +327,28 @@
 
 .status-badge-lbl.badge-new { background-color: #ffebee; color: #ef4444; border: 1px solid #fca5a5; }
 .status-badge-lbl.badge-checking { background-color: #fff3e0; color: #f97316; border: 1px solid #fed7aa; }
-.status-badge-lbl.badge-answered { background-color: #e8f5e9; color: #10b981; border: 1px solid #a7f3d0; }
-.status-badge-lbl.badge-onhold { background-color: #f1f5f9; color: #64748b; border: 1px solid #cbd5e1; }
-.status-badge-lbl.badge-closed { background-color: #f1f5f9; color: #94a3b8; border: 1px solid #e2e8f0; }
+.status-badge-lbl.badge-answered { background-color: #e0f2fe; color: #0284c7; border: 1px solid #bae6fd; }
+.status-badge-lbl.badge-onhold { background-color: #e8f5e9; color: #10b981; border: 1px solid #a7f3d0; }
+.status-badge-lbl.badge-closed { background-color: #f1f5f9; color: #64748b; border: 1px solid #cbd5e1; }
+
+/* Read/Unread indicators */
+.read-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.read-badge.unread {
+  background-color: #fff1f2;
+  color: #ef4444;
+}
+
+.read-badge.read {
+  background-color: #f1f5f9;
+  color: #94a3b8;
+}
 
 /* Modal layout details */
 .inquiry-detail-modal-card {
@@ -473,9 +517,9 @@
 
 .modal-status-select.status-신규 { background-color: #ffebee; color: #ef4444; border: 1px solid #fca5a5; }
 .modal-status-select.status-확인중 { background-color: #fff3e0; color: #f97316; border: 1px solid #fed7aa; }
-.modal-status-select.status-답변완료 { background-color: #e8f5e9; color: #10b981; border: 1px solid #a7f3d0; }
-.modal-status-select.status-보류 { background-color: #f1f5f9; color: #64748b; border: 1px solid #cbd5e1; }
-.modal-status-select.status-종료 { background-color: #f1f5f9; color: #94a3b8; border: 1px solid #e2e8f0; }
+.modal-status-select.status-견적완료 { background-color: #e0f2fe; color: #0284c7; border: 1px solid #bae6fd; }
+.modal-status-select.status-처리완료 { background-color: #e8f5e9; color: #10b981; border: 1px solid #a7f3d0; }
+.modal-status-select.status-취소 { background-color: #f1f5f9; color: #64748b; border: 1px solid #cbd5e1; }
 
 .memo-form textarea {
   width: 100%;

@@ -1,6 +1,20 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css');
 
+/* ==========================================================================
+   z-index Architecture Guide
+   --------------------------------------------------------------------------
+   Decorative Background / Reveal:     0 (or pointer-events: none)
+   Header Wrapper:                     1000
+   Floating CTA / Phone Button:        1000
+   Mobile Navigation Drawer:           999 (offscreen right: -100%)
+   Admin / Cart Sticky Action Bar:     1000
+   Admin Realtime Order Notifier:      9999 (pointer-events: none on container)
+   Intro Splash Overlay:               9999
+   Estimate Cart Toast:                9999
+   Modals & Overlays (Terms/Search):  10000
+   ========================================================================== */
+
 :root {
   /* Color Tokens */
   --primary: #0f172a; /* 딥 네이비 / 차콜 */
