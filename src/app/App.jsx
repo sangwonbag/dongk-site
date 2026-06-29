@@ -26,6 +26,7 @@ import AdminRoute from "../components/auth/AdminRoute";
 import AdminAnalytics from "../pages/AdminAnalytics/AdminAnalytics";
 import AdminConstructionCases from "../pages/AdminConstructionCases/AdminConstructionCases";
 import AdminMaterials from "../pages/AdminMaterials/AdminMaterials";
+import AdminProducts from "../pages/AdminProducts/AdminProducts";
 
 // New Order Flow Pages
 import Checkout from "../pages/Cart/Checkout";
@@ -116,7 +117,7 @@ export default function App() {
         <Route path="/admin/analytics" element={<AdminRoute><AdminAnalytics /></AdminRoute>} />
         <Route path="/admin/construction-cases" element={<AdminRoute><AdminConstructionCases /></AdminRoute>} />
         {/* Placeholder for products and materials */}
-        <Route path="/admin/products" element={<AdminRoute><div style={{padding: '100px', textAlign: 'center'}}>상품 관리 준비 중</div></AdminRoute>} />
+        <Route path="/admin/products" element={<AdminRoute><AdminProducts /></AdminRoute>} />
         <Route path="/admin/materials" element={<AdminRoute><AdminMaterials /></AdminRoute>} />
         
         {/* Actual Ordering Routes */}

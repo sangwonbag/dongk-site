@@ -38,11 +38,23 @@ ALTER TABLE public.construction_cases ADD COLUMN IF NOT EXISTS image_urls text[]
 ALTER TABLE public.construction_cases ADD COLUMN IF NOT EXISTS category text;
 ALTER TABLE public.construction_cases ADD COLUMN IF NOT EXISTS sort_order integer DEFAULT 0;
 
--- 3. 자재 테이블 (products) 필드 보강
 -- 기존 products 테이블에 매입가, 매출가, 정렬순서 컬럼 추가
 ALTER TABLE public.products ADD COLUMN IF NOT EXISTS cost_price numeric DEFAULT 0;
 ALTER TABLE public.products ADD COLUMN IF NOT EXISTS retail_price numeric DEFAULT 0;
 ALTER TABLE public.products ADD COLUMN IF NOT EXISTS sort_order integer DEFAULT 0;
+
+-- 3-1. 주문 테이블 (orders) 필드 보강
+-- 관리자 확인 플래그, 확인 일시, 확인자, 어드민 전용 업무 메모 컬럼 추가
+ALTER TABLE public.orders ADD COLUMN IF NOT EXISTS admin_checked boolean DEFAULT false;
+ALTER TABLE public.orders ADD COLUMN IF NOT EXISTS admin_checked_at timestamp with time zone;
+ALTER TABLE public.orders ADD COLUMN IF NOT EXISTS admin_checked_by text;
+ALTER TABLE public.orders ADD COLUMN IF NOT EXISTS admin_memo text;
+
+-- 3-2. AI 고객문의 테이블 (inquiries) 필드 보강
+-- 관리자 전용 업무 메모 및 상태 필드, 갱신 일자 컬럼 추가
+ALTER TABLE public.inquiries ADD COLUMN IF NOT EXISTS admin_memo text;
+ALTER TABLE public.inquiries ADD COLUMN IF NOT EXISTS status text DEFAULT '신규';
+ALTER TABLE public.inquiries ADD COLUMN IF NOT EXISTS updated_at timestamp with time zone DEFAULT now();
 
 -- 4. 성능 최적화를 위한 인덱스 생성
 CREATE INDEX IF NOT EXISTS visitor_logs_session_created_idx ON public.visitor_logs (session_id, created_at);
