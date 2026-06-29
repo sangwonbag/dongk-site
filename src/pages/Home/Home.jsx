@@ -386,9 +386,40 @@ const CategoryCardImage = ({ src, fallback, alt }) => {
   );
 };
 
+const HERO_SLIDES = [
+  {
+    image: "/images/home/main-hero-interior.png",
+    tag: "PREMIUM WOOD FLOORING",
+    title: "공간의 가치를 높이는 프리미엄 마루"
+  },
+  {
+    image: "/images/home-interior/korea-home-living-01.png",
+    tag: "LUXURY DECO TILE",
+    title: "트렌디한 감각의 고품격 데코타일"
+  },
+  {
+    image: "/images/home-interior/korea-kitchen-living-01.png",
+    tag: "CUSHION FLOOR",
+    title: "보행감이 편안한 친환경 장판"
+  },
+  {
+    image: "/images/home-interior/korea-apt-living-01.png",
+    tag: "MODERN WALLPAPER",
+    title: "벽면의 분위기를 살리는 고급 벽지"
+  }
+];
+
 export default function Home() {
   const nav = useNavigate();
   const [featuredItems, setFeaturedItems] = useState([]);
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % HERO_SLIDES.length);
+    }, 5000);
+    return () => clearInterval(timer);
+  }, []);
 
   useEffect(() => {
     let isMounted = true;
@@ -517,92 +548,76 @@ export default function Home() {
       <div className="showroom-home-layout">
         
         {/* ==========================================
-           1. Hero Section (Luxury Minimal Reinterpretation)
+           1. Hero Section (Luxury Wide Image Centered)
            ========================================== */}
-        <section className="showroom-hero-v2">
-          <div className="hero-v2-bg-frame">
-            <img 
-              src="/images/home/home-hero-bg.png" 
-              alt="Premium Living Room Interior" 
-              className="hero-v2-bg-img"
-            />
-            <div className="hero-v2-overlay"></div>
-          </div>
-          
-          <div className="hero-v2-container-grid container">
-            <div className="hero-v2-content">
-              <h1 className="hero-v2-title">공간을 완성하다</h1>
-              <p className="hero-v2-subtitle">바닥재 벽지 판매 시공은 동경바닥재</p>
-              <div className="hero-v2-buttons">
-                <button className="btn-hero-primary" onClick={() => nav("/materials")}>
-                  자재 찾기
-                </button>
-                <button className="btn-hero-secondary" onClick={() => nav("/samplebooks")}>
-                  샘플북 보기
-                </button>
-                <button className="btn-hero-outline" onClick={() => nav("/estimate/request")}>
-                  견적 문의
-                </button>
+        <section className="showroom-hero-v3 container">
+          <div className="hero-v3-image-wrapper">
+            {HERO_SLIDES.map((slide, idx) => (
+              <div 
+                key={idx}
+                className={`hero-v3-slide ${idx === currentSlide ? "active" : ""}`}
+              >
+                <img 
+                  src={slide.image} 
+                  alt={slide.title} 
+                  className="hero-v3-img"
+                />
+                <div className="hero-v3-caption-overlay">
+                  <span className="hero-v3-tag">{slide.tag}</span>
+                  <h1 className="hero-v3-title">{slide.title}</h1>
+                </div>
               </div>
-            </div>
-
-            {/* Right Card (Customer info - Desktop only via CSS) */}
-            <div className="hero-v2-contact-card">
-              <div className="hero-card-section">
-                <h3 className="hero-card-title">고객센터</h3>
-                <a href="tel:02-487-9775" className="hero-card-phone">02-487-9775</a>
-                <p className="hero-card-info">평일 07:00 - 18:00</p>
-                <p className="hero-card-info">주말 07:00 - 12:00</p>
-                <p className="hero-card-info email">이메일: <a href="mailto:dongk3089@naver.com">dongk3089@naver.com</a></p>
-              </div>
-              <div className="hero-card-divider"></div>
-              <div className="hero-card-section">
-                <h3 className="hero-card-title">무통장 입금</h3>
-                <p className="hero-card-bank">농협</p>
-                <p className="hero-card-account">301-0298-9197-81</p>
-                <p className="hero-card-info depositor">예금주: 동경바닥재</p>
-              </div>
+            ))}
+            
+            {/* Slide dots at bottom center */}
+            <div className="hero-v3-dots">
+              {HERO_SLIDES.map((_, idx) => (
+                <span 
+                  key={idx}
+                  className={`hero-dot ${idx === currentSlide ? "active" : ""}`}
+                  onClick={() => setCurrentSlide(idx)}
+                ></span>
+              ))}
             </div>
           </div>
         </section>
 
-        {/* Mobile Contact Box (Only visible on screens <= 900px via CSS) */}
-        <div className="hero-v2-mobile-contact-container container">
-          <div className="hero-v2-contact-card mobile-only-card">
-            <div className="hero-card-section">
-              <h3 className="hero-card-title">고객센터</h3>
-              <a href="tel:02-487-9775" className="hero-card-phone">02-487-9775</a>
-              <p className="hero-card-info">평일 07:00 - 18:00 / 주말 07:00 - 12:00</p>
-              <p className="hero-card-info email">이메일: <a href="mailto:dongk3089@naver.com">dongk3089@naver.com</a></p>
+        {/* ==========================================
+           2. Quick Navigation Section (Directly under Hero)
+           ========================================== */}
+        <section className="showroom-quick-menu-v3 container">
+          <div className="quick-menu-v3-grid">
+            <div className="quick-menu-v3-card" onClick={() => nav("/materials")}>
+              <div className="quick-menu-v3-icon-wrap">🧱</div>
+              <div className="quick-menu-v3-text">
+                <span className="quick-menu-v3-label">자재 보러가기</span>
+                <span className="quick-menu-v3-sub">다양한 바닥재 라인업</span>
+              </div>
+              <ChevronRight size={16} className="quick-menu-arrow" />
             </div>
-            <div className="hero-card-divider"></div>
-            <div className="hero-card-section">
-              <h3 className="hero-card-title">무통장 입금</h3>
-              <p className="hero-card-bank">농협</p>
-              <p className="hero-card-account">301-0298-9197-81</p>
-              <p className="hero-card-info depositor">예금주: 동경바닥재</p>
+            <div className="quick-menu-v3-card" onClick={() => nav("/samplebooks")}>
+              <div className="quick-menu-v3-icon-wrap">📖</div>
+              <div className="quick-menu-v3-text">
+                <span className="quick-menu-v3-label">샘플북 보기</span>
+                <span className="quick-menu-v3-sub">브랜드별 디지털 카탈로그</span>
+              </div>
+              <ChevronRight size={16} className="quick-menu-arrow" />
             </div>
-          </div>
-        </div>
-
-        {/* Mobile Quick Menu Section */}
-        <section className="mobile-quick-menu-section container">
-          <div className="mobile-quick-menu-grid">
-            <div className="quick-menu-card" onClick={() => nav("/materials")}>
-              <span className="quick-menu-icon">🧱</span>
-              <span className="quick-menu-label">자재찾기</span>
+            <div className="quick-menu-v3-card" onClick={() => nav("/estimate/request")}>
+              <div className="quick-menu-v3-icon-wrap">📝</div>
+              <div className="quick-menu-v3-text">
+                <span className="quick-menu-v3-label">견적문의</span>
+                <span className="quick-menu-v3-sub">수도권 무료 방문 실측</span>
+              </div>
+              <ChevronRight size={16} className="quick-menu-arrow" />
             </div>
-            <div className="quick-menu-card" onClick={() => nav("/samplebooks")}>
-              <span className="quick-menu-icon">📖</span>
-              <span className="quick-menu-label">샘플북</span>
-            </div>
-            <div className="quick-menu-card" onClick={() => nav("/estimate/request")}>
-              <span className="quick-menu-icon">📝</span>
-              <span className="quick-menu-label">견적문의</span>
-            </div>
-            <div className="quick-menu-card" onClick={() => nav("/cases")}>
-              <span className="quick-menu-icon">🏢</span>
-              <span className="quick-menu-label">시공사례</span>
+            <div className="quick-menu-v3-card" onClick={() => nav("/cases")}>
+              <div className="quick-menu-v3-icon-wrap">🏢</div>
+              <div className="quick-menu-v3-text">
+                <span className="quick-menu-v3-label">시공사례</span>
+                <span className="quick-menu-v3-sub">검증된 완벽한 결과물</span>
+              </div>
+              <ChevronRight size={16} className="quick-menu-arrow" />
             </div>
           </div>
         </section>
@@ -837,6 +852,27 @@ export default function Home() {
                 <h4 className="trust-v2-title">정품 자재 시공</h4>
                 <p className="trust-v2-desc">KCC, LX, 동신, 개나리 등 국내 최고 브랜드의 공식 대리점 정품만을 사용</p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ==========================================
+           6.5 Customer Support & Bank Info Section
+           ========================================== */}
+        <section className="showroom-support-info-v3 container reveal">
+          <div className="support-info-v3-grid">
+            <div className="support-info-card">
+              <h3 className="support-card-title">고객센터 안내</h3>
+              <a href="tel:02-487-9775" className="support-card-phone">02-487-9775</a>
+              <p className="support-card-info"><strong>평일</strong> 07:00 - 18:00</p>
+              <p className="support-card-info"><strong>주말</strong> 07:00 - 12:00</p>
+              <p className="support-card-info email">이메일: <a href="mailto:dongk3089@naver.com">dongk3089@naver.com</a></p>
+            </div>
+            <div className="support-info-card">
+              <h3 className="support-card-title">무통장 입금 계좌</h3>
+              <p className="support-card-bank">농협은행 (NH Bank)</p>
+              <p className="support-card-account">301-0298-9197-81</p>
+              <p className="support-card-info depositor">예금주: 동경바닥재</p>
             </div>
           </div>
         </section>
