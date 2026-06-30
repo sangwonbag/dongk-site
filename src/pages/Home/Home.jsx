@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo, useRef } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { supabase } from "../../lib/supabaseClient";
 import { sampleBooks } from "../../data/samplebooks.db";
@@ -463,6 +463,8 @@ export default function Home() {
       return RANDOM_CATEGORIES[0];
     }
   });
+
+  const [estimateImg, setEstimateImg] = useState("/images/home/consulting-estimate.png");
 
   // Fetch portfolio cases from Supabase
   useEffect(() => {
@@ -1001,11 +1003,11 @@ export default function Home() {
         </section>
 
         {/* ==========================================
-           7. Contact / 견적문의 Section
+           7. Contact / 견적문의 Section (V2 Revamped)
            ========================================== */}
         <section className="showroom-contact-v2 reveal">
-          <div className="contact-v2-box container">
-            <div className="contact-v2-content">
+          <div className="contact-v2-container container">
+            <div className="contact-v2-content-pane">
               <span className="contact-v2-tag">CONSULTING & ESTIMATE</span>
               <h2 className="contact-v2-heading">자재 선택이 어렵다면<br />동경바닥재가 도와드립니다.</h2>
               <p className="contact-v2-subheading">
@@ -1025,16 +1027,26 @@ export default function Home() {
               </div>
 
               <div className="contact-v2-buttons">
-                <a href="tel:02-487-9775" className="btn-contact-v2-primary">
+                <a href="tel:02-487-9775" className="btn-contact-v2 btn-contact-v2-primary">
                   전화 상담하기
                 </a>
-                <button className="btn-contact-v2-secondary" onClick={() => nav("/estimate/request")}>
+                <Link to="/estimate/request" className="btn-contact-v2 btn-contact-v2-secondary">
                   온라인 견적 문의
-                </button>
-                <button className="btn-contact-v2-outline" onClick={() => nav("/materials")}>
+                </Link>
+                <Link to="/materials" className="btn-contact-v2 btn-contact-v2-outline">
                   자재 찾아보기
-                </button>
+                </Link>
               </div>
+            </div>
+
+            <div className="contact-v2-image-pane">
+              <img 
+                src={estimateImg} 
+                alt="동경바닥재 바닥재 및 벽지 상담 이미지" 
+                className="contact-v2-image"
+                onError={() => setEstimateImg("/images/home-interior/korea-home-living-01.png")}
+                loading="lazy"
+              />
             </div>
           </div>
         </section>
