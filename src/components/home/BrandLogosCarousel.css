@@ -43,6 +43,8 @@
   -ms-overflow-style: none; /* Hide scrollbar IE */
   display: flex;
   padding: 10px 0;
+  -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 8%, rgba(0,0,0,1) 92%, rgba(0,0,0,0) 100%);
+  mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 8%, rgba(0,0,0,1) 92%, rgba(0,0,0,0) 100%);
 }
 
 .brand-logos-viewport::-webkit-scrollbar {
@@ -134,9 +136,28 @@
   .brand-logo-card {
     height: 100px;
     padding: 16px 12px;
+    transition: none; /* Disable transitions on mobile for rendering speed */
+    box-shadow: var(--shadow-sm);
+  }
+  .brand-logo-card:hover {
+    transform: none; /* Remove liftoff effect */
+    box-shadow: var(--shadow-sm);
+    border-color: var(--border);
+  }
+  .brand-logo-card:hover .brand-logo-img {
+    transform: none;
+    filter: grayscale(0%);
+    opacity: 0.8;
+  }
+  .brand-logo-card:hover .brand-logo-name {
+    opacity: 0;
+    transform: none;
   }
   .brand-logo-img {
     max-width: 90px;
     max-height: 40px;
+    transition: none;
+    filter: grayscale(0%); /* Keep brand logos legible on mobile without hover */
+    opacity: 0.8;
   }
 }

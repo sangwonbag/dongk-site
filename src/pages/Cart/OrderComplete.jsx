@@ -30,19 +30,44 @@ export default function OrderComplete() {
   const handleGoOrders = () => navigate("/orders");
   const handleGoCart = () => navigate("/cart");
 
-  // Parse delivery date and memo text if stored in finalMemo format: [희망배송일: YYYY-MM-DD] Memo
+  // Parse delivery date, time and memo text if stored in finalMemo format: [희망배송일: YYYY-MM-DD] [희망시간: HH:mm] Memo
   let deliveryDate = "";
+  let deliveryTime = "";
   let memoText = "";
   if (order && order.memo) {
     memoText = order.memo;
-    if (order.memo.includes("[희망배송일:")) {
-      const match = order.memo.match(/\[희망배송일:\s*([^\]]+)\]/);
+    if (memoText.includes("[희망배송일:")) {
+      const match = memoText.match(/\[희망배송일:\s*([^\]]+)\]/);
       if (match) {
         deliveryDate = match[1];
-        memoText = order.memo.replace(/\[희망배송일:\s*[^\]]+\]/, "").trim();
+        memoText = memoText.replace(/\[희망배송일:\s*[^\]]+\]/, "").trim();
+      }
+    }
+    if (memoText.includes("[희망시간:")) {
+      const match = memoText.match(/\[희망시간:\s*([^\]]+)\]/);
+      if (match) {
+        deliveryTime = match[1];
+        memoText = memoText.replace(/\[희망시간:\s*[^\]]+\]/, "").trim();
       }
     }
   }
+
+  // Format YYYY-MM-DD and HH:mm to Korean display date
+  const formatKoreanDateTime = (dateStr, timeStr) => {
+    if (!dateStr) return "";
+    let formattedDate = dateStr;
+    const dateMatch = dateStr.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    if (dateMatch) {
+      const year = parseInt(dateMatch[1]);
+      const month = parseInt(dateMatch[2]);
+      const day = parseInt(dateMatch[3]);
+      formattedDate = `${year}년 ${month}월 ${day}일`;
+    }
+    if (!timeStr) {
+      return `${formattedDate} (시간 미지정)`;
+    }
+    return `${formattedDate} ${timeStr}`;
+  };
 
   // Fallback / Empty state
   if (!order) {
@@ -180,8 +205,10 @@ export default function OrderComplete() {
                 </div>
                 {deliveryDate && (
                   <div className="details-row">
-                    <span className="details-lbl">희망 배송일</span>
-                    <strong className="details-val text-blue">{deliveryDate}</strong>
+                    <span className="details-lbl">희망 배송일시</span>
+                    <strong className="details-val text-blue">
+                      {formatKoreanDateTime(deliveryDate, deliveryTime)}
+                    </strong>
                   </div>
                 )}
                 <div className="details-row">

@@ -22,14 +22,33 @@ export default function BrandLogosCarousel() {
   const [scrollLeft, setScrollLeft] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
   const requestRef = useRef(null);
+  const [isIntersecting, setIsIntersecting] = useState(false);
 
   // Triple the items to make infinite scroll seamless
   const displayBrands = [...BRANDS, ...BRANDS, ...BRANDS];
 
-  // Auto-scroll loop
+  // Set up IntersectionObserver to check if the viewport contains the carousel
   useEffect(() => {
     const container = containerRef.current;
     if (!container) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsIntersecting(entry.isIntersecting);
+      },
+      { threshold: 0.05 }
+    );
+
+    observer.observe(container);
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
+  // Auto-scroll loop - only runs when the component is intersecting (visible)
+  useEffect(() => {
+    const container = containerRef.current;
+    if (!container || !isIntersecting) return;
 
     let lastTime = performance.now();
 
@@ -52,8 +71,12 @@ export default function BrandLogosCarousel() {
     };
 
     requestRef.current = requestAnimationFrame(animate);
-    return () => cancelAnimationFrame(requestRef.current);
-  }, [isHovered, isDragging]);
+    return () => {
+      if (requestRef.current) {
+        cancelAnimationFrame(requestRef.current);
+      }
+    };
+  }, [isHovered, isDragging, isIntersecting]);
 
   // Handle Drag Start
   const handleStart = (e) => {
@@ -99,9 +122,9 @@ export default function BrandLogosCarousel() {
     <section className="brand-logos-section reveal">
       <div className="container">
         <div className="brand-logos-header">
-          <span className="brand-logos-tag">OFFICIAL PARTNERS</span>
-          <h2 className="brand-logos-title">동경바닥재 공식 파트너 브랜드</h2>
-          <p className="brand-logos-desc">국내외 최고 품질의 친환경 바닥재 및 벽지 정품 브랜드만을 취급합니다.</p>
+          <span className="brand-logos-tag">BRANDS</span>
+          <h2 className="brand-logos-title">동경바닥재 취급 브랜드</h2>
+          <p className="brand-logos-desc">국내 주요 바닥재·벽지 브랜드 제품을 카테고리별로 확인할 수 있습니다.</p>
         </div>
         
         <div 

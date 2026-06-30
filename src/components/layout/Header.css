@@ -376,6 +376,7 @@
     padding: 0;
     z-index: 1001;
     outline: none;
+    position: relative;
 }
 
 .hamburger-line {
@@ -412,12 +413,16 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
-    transition: right 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+    transition: right 0.45s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.45s;
     padding: 40px 24px;
+    pointer-events: none;
+    visibility: hidden;
 }
 
 .mobile-nav-drawer.open {
     right: 0;
+    pointer-events: auto;
+    visibility: visible;
 }
 
 .drawer-menu-links {

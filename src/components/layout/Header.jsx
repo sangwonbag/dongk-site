@@ -86,16 +86,24 @@ export default function Header() {
       return;
     }
 
+    let ticking = false;
+
     const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          if (window.scrollY > 50) {
+            setIsScrolled(true);
+          } else {
+            setIsScrolled(false);
+          }
+          ticking = false;
+        });
+        ticking = true;
       }
     };
 
     handleScroll();
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, [isHome]);
 
@@ -285,7 +293,7 @@ export default function Header() {
             <form onSubmit={onSearch}>
               <input
                 type="text"
-                placeholder="제품번호, 브랜드, 규격 검색"
+                placeholder="제품번호, 브랜드, 자재명 검색"
                 value={q}
                 onChange={(e) => {
                   const val = e.target.value;

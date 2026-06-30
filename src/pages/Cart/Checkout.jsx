@@ -7,6 +7,12 @@ import { createOrder } from "../../services/orderService";
 import { sendOrderNotification } from "../../services/notificationService";
 import "./Checkout.css";
 
+const DELIVERY_TIME_OPTIONS = [
+  "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00",
+  "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30",
+  "16:00", "16:30", "17:00", "17:30", "18:00"
+];
+
 export default function Checkout() {
   const navigate = useNavigate();
   const location = useLocation();
@@ -33,6 +39,7 @@ export default function Checkout() {
     address: "",
     address_detail: "",
     delivery_date: "",
+    delivery_time: "",
     memo: "",
   });
 
@@ -109,6 +116,7 @@ export default function Checkout() {
       address: user.address || "",
       address_detail: user.address_detail || "",
       delivery_date: "",
+      delivery_time: "",
       memo: "",
     });
   }, [globalCartItems, navigate, user, openLoginModal, location.state, getPendingDirectOrder, isOrderSuccess, loading]);
@@ -117,12 +125,41 @@ export default function Checkout() {
   const postcodeContainerRef = useRef(null);
 
   const handleAddressSearch = () => {
-    const kakao = window.kakao;
-    if (!kakao?.Postcode) {
-      alert("주소검색 서비스를 불러오지 못했습니다. 잠시 후 다시 시도해주세요.");
+    if (window.kakao?.Postcode) {
+      setShowPostcodeLayer(true);
       return;
     }
-    setShowPostcodeLayer(true);
+
+    const scriptId = "kakao-postcode-script";
+    let script = document.getElementById(scriptId);
+
+    if (!script) {
+      script = document.createElement("script");
+      script.id = scriptId;
+      script.src = "https://t1.kakaocdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js";
+      script.async = true;
+      script.onload = () => {
+        if (window.kakao?.Postcode) {
+          setShowPostcodeLayer(true);
+        } else {
+          alert("주소검색 서비스를 불러오지 못했습니다. 잠시 후 다시 시도해주세요.");
+        }
+      };
+      script.onerror = () => {
+        alert("주소검색 서비스를 불러오는 중 오류가 발생했습니다.");
+      };
+      document.body.appendChild(script);
+    } else {
+      if (window.kakao?.Postcode) {
+        setShowPostcodeLayer(true);
+      } else {
+        script.addEventListener("load", () => {
+          if (window.kakao?.Postcode) {
+            setShowPostcodeLayer(true);
+          }
+        });
+      }
+    }
   };
 
   useEffect(() => {
@@ -189,6 +226,12 @@ export default function Checkout() {
     }
     if (!customer.address.trim()) {
       setErrorMsg("배송주소를 입력해주세요.");
+      return;
+    }
+
+    // 희망배송일 지정 시 시간 선택 필수 검사
+    if (customer.delivery_date && !customer.delivery_time) {
+      setErrorMsg("희망 배송 시간을 선택해주세요.");
       return;
     }
 
@@ -386,14 +429,39 @@ export default function Checkout() {
                   />
                 </div>
 
-                <div className="form-group-checkout">
-                  <label htmlFor="customer_delivery_date">희망배송일 <span className="opt">(선택)</span></label>
-                  <input
-                    id="customer_delivery_date"
-                    type="date"
-                    value={customer.delivery_date}
-                    onChange={(e) => setCustomer({ ...customer, delivery_date: e.target.value })}
-                  />
+                <div className="form-group-checkout-datetime">
+                  <div className="datetime-field">
+                    <label htmlFor="customer_delivery_date">희망배송일 <span className="opt">(선택)</span></label>
+                    <input
+                      id="customer_delivery_date"
+                      type="date"
+                      value={customer.delivery_date}
+                      onChange={(e) => {
+                        const newDate = e.target.value;
+                        setCustomer({ 
+                          ...customer, 
+                          delivery_date: newDate,
+                          delivery_time: newDate ? customer.delivery_time : "" 
+                        });
+                      }}
+                    />
+                  </div>
+                  <div className="datetime-field">
+                    <label htmlFor="customer_delivery_time">희망시간 {customer.delivery_date && <span className="req">*</span>}</label>
+                    <select
+                      id="customer_delivery_time"
+                      value={customer.delivery_time || ""}
+                      onChange={(e) => setCustomer({ ...customer, delivery_time: e.target.value })}
+                      disabled={!customer.delivery_date}
+                    >
+                      <option value="">시간 선택</option>
+                      {DELIVERY_TIME_OPTIONS.map((time) => (
+                        <option key={time} value={time}>
+                          {time}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
                 </div>
 
                 <div className="form-group-checkout full-width">

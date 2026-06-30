@@ -22,6 +22,7 @@ export default function AdminMaterials() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategoryName, setSelectedCategoryName] = useState('전체');
   const [selectedBrandName, setSelectedBrandName] = useState('전체');
+  const [selectedStatus, setSelectedStatus] = useState('전체');
   const [visibleCount, setVisibleCount] = useState(50); // pagination in admin grid
 
   // Form Modal States
@@ -76,24 +77,37 @@ export default function AdminMaterials() {
       if (force) {
         clearProductCache();
       }
-      const data = await fetchAllProducts(force);
-      // Wait, fetchAllProducts returns mapped objects. Let's load the raw database rows 
-      // if we want to get the direct keys (like cost_price, retail_price) or keep it mapped.
-      // Since fetchAllProducts returns mapped items, but we added new columns (cost_price, retail_price, sort_order) 
-      // we can fetch directly from Supabase products for the admin panel to ensure all raw DB fields are retrieved accurately.
       if (!supabase) throw new Error('Supabase client is not initialized.');
       
-      const { data: dbProducts, error: dbErr } = await supabase
-        .from('products')
-        .select(`
-          *,
-          categories ( id, name ),
-          brands ( id, name )
-        `)
-        .order('id', { ascending: false });
+      let allProducts = [];
+      let page = 0;
+      const pageSize = 1000;
+      let hasMore = true;
 
-      if (dbErr) throw dbErr;
-      setProducts(dbProducts || []);
+      while (hasMore) {
+        const { data: pageProducts, error: dbErr } = await supabase
+          .from('products')
+          .select(`
+            *,
+            categories ( id, name ),
+            brands ( id, name )
+          `)
+          .order('id', { ascending: false })
+          .range(page * pageSize, (page + 1) * pageSize - 1);
+
+        if (dbErr) throw dbErr;
+        
+        if (pageProducts && pageProducts.length > 0) {
+          allProducts = [...allProducts, ...pageProducts];
+          page++;
+        }
+        
+        if (!pageProducts || pageProducts.length < pageSize) {
+          hasMore = false;
+        }
+      }
+
+      setProducts(allProducts);
     } catch (err) {
       console.error('[AdminMaterials Fetch Error]', err);
       setErrorMsg(err.message || '자재 목록을 가져오는데 실패했습니다.');
@@ -116,7 +130,7 @@ export default function AdminMaterials() {
   // Reset pagination when filter changes
   useEffect(() => {
     setVisibleCount(50);
-  }, [searchTerm, selectedCategoryName, selectedBrandName]);
+  }, [searchTerm, selectedCategoryName, selectedBrandName, selectedStatus]);
 
   // Dynamically filter brands based on selected category in the form
   const formAvailableBrands = useMemo(() => {
@@ -140,11 +154,18 @@ export default function AdminMaterials() {
 
   // Filter products list for display
   const filteredProducts = useMemo(() => {
+    const term = searchTerm.trim().toLowerCase();
     return products.filter(p => {
-      const matchSearch =
-        p.name?.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        p.product_code?.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        p.description?.toLowerCase().includes(searchTerm.toLowerCase());
+      const matchSearch = !term ? true : (
+        (p.name && p.name.toLowerCase().includes(term)) ||
+        (p.product_code && p.product_code.toLowerCase().includes(term)) ||
+        (p.description && p.description.toLowerCase().includes(term)) ||
+        (p.brands?.name && p.brands.name.toLowerCase().includes(term)) ||
+        (p.categories?.name && p.categories.name.toLowerCase().includes(term)) ||
+        (p.thickness && p.thickness.toLowerCase().includes(term)) ||
+        (p.size_text && p.size_text.toLowerCase().includes(term)) ||
+        (p.unit && p.unit.toLowerCase().includes(term))
+      );
 
       const matchCategory =
         selectedCategoryName === '전체' ||
@@ -154,9 +175,23 @@ export default function AdminMaterials() {
         selectedBrandName === '전체' ||
         p.brands?.name === selectedBrandName;
 
-      return matchSearch && matchCategory && matchBrand;
+      const matchStatus =
+        selectedStatus === '전체' ||
+        (selectedStatus === '노출' && p.is_active === true) ||
+        (selectedStatus === '숨김' && p.is_active === false);
+
+      return matchSearch && matchCategory && matchBrand && matchStatus;
     });
-  }, [products, searchTerm, selectedCategoryName, selectedBrandName]);
+  }, [products, searchTerm, selectedCategoryName, selectedBrandName, selectedStatus]);
+
+  // Calculate statistics for each category
+  const categoryStats = useMemo(() => {
+    const stats = {};
+    categories.forEach(c => {
+      stats[c.name] = products.filter(p => p.category_id === c.id).length;
+    });
+    return stats;
+  }, [categories, products]);
 
   // Brands list for filtering in the toolbar (corresponds to selected category)
   const filterToolbarBrands = useMemo(() => {
@@ -176,6 +211,14 @@ export default function AdminMaterials() {
       setSelectedBrandName('전체');
     }
   }, [selectedCategoryName, filterToolbarBrands, selectedBrandName]);
+
+  const handleResetFilters = () => {
+    setSearchTerm('');
+    setSelectedCategoryName('전체');
+    setSelectedBrandName('전체');
+    setSelectedStatus('전체');
+    setVisibleCount(50);
+  };
 
   // Modal open handlers
   const openAddModal = () => {
@@ -398,6 +441,36 @@ export default function AdminMaterials() {
 
         {errorMsg && <div className="materials-error-banner">{errorMsg}</div>}
 
+        {/* Statistics Dashboard */}
+        {!loading && products.length > 0 && (
+          <div className="admin-materials-stats-dashboard">
+            <div className="stats-card total">
+              <span className="stats-label">전체 자재</span>
+              <span className="stats-value">{products.length.toLocaleString()}개</span>
+              <span className="stats-sub">노출 {products.filter(p => p.is_active).length} / 숨김 {products.filter(p => !p.is_active).length}</span>
+            </div>
+            
+            <div className="stats-card filtered">
+              <span className="stats-label">현재 검색/필터 결과</span>
+              <span className="stats-value">{filteredProducts.length.toLocaleString()}개</span>
+              <span className="stats-sub highlight">매칭 항목 수</span>
+            </div>
+
+            {categories.map(c => {
+              const count = categoryStats[c.name] || 0;
+              return (
+                <div key={c.id} className="stats-card category-stat">
+                  <span className="stats-label">{c.name}</span>
+                  <span className="stats-value">{count.toLocaleString()}개</span>
+                  <span className="stats-sub">
+                    노출 {products.filter(p => p.category_id === c.id && p.is_active).length} / 숨김 {products.filter(p => p.category_id === c.id && !p.is_active).length}
+                  </span>
+                </div>
+              );
+            })}
+          </div>
+        )}
+
         {/* Filters and Search Row */}
         <div className="admin-materials-filters-card">
           <div className="filters-grid">
@@ -423,6 +496,18 @@ export default function AdminMaterials() {
               </select>
             </div>
 
+            <div className="filter-group">
+              <label>노출 상태</label>
+              <select
+                value={selectedStatus}
+                onChange={(e) => setSelectedStatus(e.target.value)}
+              >
+                <option value="전체">전체 상태</option>
+                <option value="노출">노출 중</option>
+                <option value="숨김">숨김</option>
+              </select>
+            </div>
+
             <div className="filter-group search">
               <label>검색</label>
               <div className="search-input-box">
@@ -434,6 +519,13 @@ export default function AdminMaterials() {
                   onChange={(e) => setSearchTerm(e.target.value)}
                 />
               </div>
+            </div>
+
+            <div className="filter-group reset-btn-group">
+              <label>&nbsp;</label>
+              <button type="button" className="btn-filter-reset" onClick={handleResetFilters}>
+                필터 초기화
+              </button>
             </div>
           </div>
         </div>

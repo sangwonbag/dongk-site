@@ -111,10 +111,12 @@ export const createOrder = async ({ cartItems, customer, paymentMethod }) => {
     return sum + (price * qty);
   }, 0);
 
-  // 희망배송일(delivery_date)이 존재한다면 memo에 기록
-  const finalMemo = customer.delivery_date
-    ? `[희망배송일: ${customer.delivery_date}] ${customer.memo || ''}`.trim()
-    : customer.memo || null;
+  // 희망배송일(delivery_date) 및 희망시간(delivery_time)이 존재한다면 memo에 기록
+  let finalMemo = customer.memo || null;
+  if (customer.delivery_date) {
+    const timeTag = customer.delivery_time ? ` [희망시간: ${customer.delivery_time}]` : "";
+    finalMemo = `[희망배송일: ${customer.delivery_date}]${timeTag} ${customer.memo || ''}`.trim();
+  }
 
   // 이메일 컬럼명 동적 판별 (customer_email 또는 email)
   let emailColName = null;
@@ -145,6 +147,7 @@ export const createOrder = async ({ cartItems, customer, paymentMethod }) => {
     phone: customer.phone,
     address: customer.address,
     address_detail: customer.address_detail || null,
+    delivery_request_date: customer.delivery_date || null,
     memo: finalMemo,
     subtotal: totalAmount,
     shipping_fee: 0,

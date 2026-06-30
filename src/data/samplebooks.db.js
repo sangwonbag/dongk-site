@@ -194,7 +194,7 @@ export const sampleBooks = [
         title: "현대 골드타일 클래식",
         brand: "현대",
         category: "데코타일",
-        pdf: "/samplebooks/데코타일/현대/골드타일 클래식.pdf",
+        pdf: "/samplebooks/데코타일/현대/골드타일 클래식/골드타일 클래식.pdf",
         cover: "/samplebooks/Thumbnail_image/데코타일/현대/골드타일 클래식/goldtile_classic_page1.png",
         description: "현대 골드타일 클래식 데코타일 샘플북"
     },
@@ -203,7 +203,7 @@ export const sampleBooks = [
         title: "현대 골드타일 마스터",
         brand: "현대",
         category: "데코타일",
-        pdf: "/samplebooks/데코타일/현대/골드타일 마스터.pdf",
+        pdf: "/samplebooks/데코타일/현대/골드타일 마스터/골드타일 마스터.pdf",
         cover: "/samplebooks/Thumbnail_image/데코타일/현대/골드타일 마스터/골드타일마스터썸네일.png",
         description: "현대 골드타일 마스터 데코타일 샘플북"
     },
@@ -212,7 +212,7 @@ export const sampleBooks = [
         title: "현대 디럭스타일",
         brand: "현대",
         category: "데코타일",
-        pdf: "/samplebooks/데코타일/현대/디럭스타일.pdf",
+        pdf: "/samplebooks/데코타일/현대/디럭스타일/디럭스타일.pdf",
         cover: "/samplebooks/Thumbnail_image/데코타일/현대/디럭스타일/deluxe_style_page1.png",
         description: "현대 디럭스타일 샘플북"
     },
@@ -221,7 +221,7 @@ export const sampleBooks = [
         title: "현대 골드타일 레릭",
         brand: "현대",
         category: "데코타일",
-        pdf: "/samplebooks/데코타일/현대/골드타일 레릭.pdf",
+        pdf: "/samplebooks/데코타일/현대/골드타일 레릭/골드타일 레릭.pdf",
         cover: "/samplebooks/Thumbnail_image/데코타일/현대/골드타일 레릭/goldtile_relic_page1.png",
         description: "현대 골드타일 레릭 데코타일 샘플북"
     },
@@ -230,7 +230,7 @@ export const sampleBooks = [
         title: "현대 노블타일",
         brand: "현대",
         category: "데코타일",
-        pdf: "/samplebooks/데코타일/현대/노블타일.pdf",
+        pdf: "/samplebooks/데코타일/현대/노블타일/노블타일.pdf",
         cover: "/samplebooks/Thumbnail_image/데코타일/현대/노블타일/노블타일썸네일.jpg",
         description: "현대 노블타일 데코타일 샘플북"
     },
@@ -239,7 +239,7 @@ export const sampleBooks = [
         title: "현대 카펫타일",
         brand: "현대",
         category: "카페트타일",
-        pdf: "/samplebooks/데코타일/현대/카펫타일.pdf",
+        pdf: "/samplebooks/데코타일/현대/카펫타일/카펫타일.pdf",
         cover: "/samplebooks/Thumbnail_image/데코타일/현대/카펫타일/carpet_tile_page1.png",
         description: "현대 카펫타일 샘플북"
     },

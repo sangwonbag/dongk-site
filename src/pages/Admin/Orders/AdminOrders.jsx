@@ -30,16 +30,26 @@ import {
 } from "lucide-react";
 import "./AdminOrders.css";
 
-// 헬퍼 함수: memo에서 희망배송일 추출
-const extractDeliveryDate = (memo) => {
-  if (!memo) return { cleanMemo: "", deliveryDate: "" };
-  const match = memo.match(/\[희망배송일:\s*([^\]]+)\]/);
-  if (match) {
-    const deliveryDate = match[1];
-    const cleanMemo = memo.replace(/\[희망배송일:\s*[^\]]+\]/, "").trim();
-    return { cleanMemo, deliveryDate };
+// 헬퍼 함수: memo에서 희망배송일 및 시간 추출
+const extractDeliveryDateAndTime = (memo) => {
+  if (!memo) return { cleanMemo: "", deliveryDate: "", deliveryTime: "" };
+  let deliveryDate = "";
+  let deliveryTime = "";
+  let cleanMemo = memo;
+
+  const dateMatch = cleanMemo.match(/\[희망배송일:\s*([^\]]+)\]/);
+  if (dateMatch) {
+    deliveryDate = dateMatch[1];
+    cleanMemo = cleanMemo.replace(/\[희망배송일:\s*[^\]]+\]/, "").trim();
   }
-  return { cleanMemo: memo, deliveryDate: "" };
+
+  const timeMatch = cleanMemo.match(/\[희망시간:\s*([^\]]+)\]/);
+  if (timeMatch) {
+    deliveryTime = timeMatch[1];
+    cleanMemo = cleanMemo.replace(/\[희망시간:\s*[^\]]+\]/, "").trim();
+  }
+
+  return { cleanMemo, deliveryDate, deliveryTime };
 };
 
 // 헬퍼 함수: 미확인 여부 확인 (status가 "접수완료"이면서 admin_checked가 true가 아닌 경우)
@@ -396,8 +406,24 @@ function AdminOrderCard({ order, currentUser, onSaveSuccess, highlight }) {
     }
   }, [highlight, order.id]);
 
-  const { cleanMemo, deliveryDate } = extractDeliveryDate(order.memo);
+  const { cleanMemo, deliveryDate, deliveryTime } = extractDeliveryDateAndTime(order.memo);
   const displayDeliveryDate = order.delivery_request_date || deliveryDate;
+
+  const formatKoreanDateTime = (dateStr, timeStr) => {
+    if (!dateStr) return "";
+    let formattedDate = dateStr;
+    const dateMatch = dateStr.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    if (dateMatch) {
+      const year = parseInt(dateMatch[1]);
+      const month = parseInt(dateMatch[2]);
+      const day = parseInt(dateMatch[3]);
+      formattedDate = `${year}년 ${month}월 ${day}일`;
+    }
+    if (!timeStr) {
+      return `${formattedDate} (시간 미지정)`;
+    }
+    return `${formattedDate} ${timeStr}`;
+  };
 
   // 상품 요약 텍스트 연산
   const itemsCount = order.order_items?.length || 0;
@@ -621,8 +647,8 @@ ${itemsDetailText}
                 {displayDeliveryDate && (
                   <div className="info-item highlight-delivery">
                     <CalendarCheck size={14} className="icon" />
-                    <span className="label">희망 배송일</span>
-                    <span className="value font-bold">{displayDeliveryDate}</span>
+                    <span className="label">희망 배송일시</span>
+                    <span className="value font-bold">{formatKoreanDateTime(displayDeliveryDate, deliveryTime)}</span>
                   </div>
                 )}
                 {cleanMemo && (

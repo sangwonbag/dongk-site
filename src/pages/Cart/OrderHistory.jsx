@@ -62,6 +62,45 @@ export default function OrderHistory() {
     return `${date.getFullYear()}.${String(date.getMonth() + 1).padStart(2, '0')}.${String(date.getDate()).padStart(2, '0')} ${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`;
   };
 
+  // Parse delivery date, time and memo text if stored in finalMemo format: [희망배송일: YYYY-MM-DD] [희망시간: HH:mm] Memo
+  const extractDeliveryDateAndTime = (memo) => {
+    if (!memo) return { cleanMemo: "", deliveryDate: "", deliveryTime: "" };
+    let deliveryDate = "";
+    let deliveryTime = "";
+    let cleanMemo = memo;
+
+    const dateMatch = cleanMemo.match(/\[희망배송일:\s*([^\]]+)\]/);
+    if (dateMatch) {
+      deliveryDate = dateMatch[1];
+      cleanMemo = cleanMemo.replace(/\[희망배송일:\s*[^\]]+\]/, "").trim();
+    }
+
+    const timeMatch = cleanMemo.match(/\[희망시간:\s*([^\]]+)\]/);
+    if (timeMatch) {
+      deliveryTime = timeMatch[1];
+      cleanMemo = cleanMemo.replace(/\[희망시간:\s*[^\]]+\]/, "").trim();
+    }
+
+    return { cleanMemo, deliveryDate, deliveryTime };
+  };
+
+  // Format YYYY-MM-DD and HH:mm to Korean display date
+  const formatKoreanDateTime = (dateStr, timeStr) => {
+    if (!dateStr) return "";
+    let formattedDate = dateStr;
+    const dateMatch = dateStr.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    if (dateMatch) {
+      const year = parseInt(dateMatch[1]);
+      const month = parseInt(dateMatch[2]);
+      const day = parseInt(dateMatch[3]);
+      formattedDate = `${year}년 ${month}월 ${day}일`;
+    }
+    if (!timeStr) {
+      return `${formattedDate} (시간 미지정)`;
+    }
+    return `${formattedDate} ${timeStr}`;
+  };
+
   // 상품명 요약 생성 (예: "자재A 외 2건")
   const getProductSummary = (order) => {
     if (!order.order_items || order.order_items.length === 0) return "상품 정보 없음";
@@ -98,6 +137,8 @@ export default function OrderHistory() {
           <div className="orders-list">
             {orders.map((order) => {
               const isExpanded = expandedOrders.has(order.id);
+              const { cleanMemo, deliveryDate, deliveryTime } = extractDeliveryDateAndTime(order.memo);
+              const displayDeliveryDate = order.delivery_request_date || deliveryDate;
               return (
                 <div key={order.id} className="order-card-wrapper">
                   {/* 주문 카드 메인 헤더 */}
@@ -159,10 +200,12 @@ export default function OrderHistory() {
                             <span className="label">배송/시공 주소</span>
                             <span className="val">{order.address} {order.address_detail || ""}</span>
                           </div>
-                          {order.delivery_request_date && (
+                          {displayDeliveryDate && (
                             <div className="info-row">
-                              <span className="label">희망 배송/시공일</span>
-                              <span className="val">{order.delivery_request_date}</span>
+                              <span className="label">희망 배송일시</span>
+                              <span className="val text-blue font-bold">
+                                {formatKoreanDateTime(displayDeliveryDate, deliveryTime)}
+                              </span>
                             </div>
                           )}
                           <div className="info-row">
@@ -172,10 +215,10 @@ export default function OrderHistory() {
                               {order.payment_method}
                             </span>
                           </div>
-                          {order.memo && (
+                          {cleanMemo && (
                             <div className="info-row full-width">
                               <span className="label">요청사항</span>
-                              <span className="val memo-val">{order.memo}</span>
+                              <span className="val memo-val">{cleanMemo}</span>
                             </div>
                           )}
                         </div>
