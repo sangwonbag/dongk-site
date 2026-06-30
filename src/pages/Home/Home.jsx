@@ -19,6 +19,7 @@ import {
   Users
 } from "lucide-react";
 import "./Home.css";
+import BrandLogosCarousel from "../../components/home/BrandLogosCarousel";
 
 // Dynamic featured material card component with asynchronous thumbnail resolver
 const FeaturedCard = ({ mat }) => {
@@ -947,6 +948,11 @@ export default function Home() {
             ))}
           </div>
         </section>
+
+        {/* ==========================================
+           5.5 Official Partner Brands Carousel (Draggable)
+           ========================================== */}
+        <BrandLogosCarousel />
 
         {/* ==========================================
            6. Trust Section (Highlights & Numbers)

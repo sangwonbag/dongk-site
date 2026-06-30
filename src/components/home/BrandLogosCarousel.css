@@ -1,0 +1,142 @@
+.brand-logos-section {
+  padding: 80px 0 !important;
+  background-color: var(--bg-alt);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  overflow: hidden;
+}
+
+.brand-logos-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.brand-logos-tag {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--point-gold);
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.brand-logos-title {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--primary);
+  margin-bottom: 12px;
+  letter-spacing: -0.02em;
+}
+
+.brand-logos-desc {
+  font-size: 14.5px;
+  color: var(--text-muted);
+}
+
+.brand-logos-viewport {
+  width: 100%;
+  overflow-x: auto;
+  cursor: grab;
+  user-select: none;
+  scrollbar-width: none; /* Hide scrollbar Firefox */
+  -ms-overflow-style: none; /* Hide scrollbar IE */
+  display: flex;
+  padding: 10px 0;
+}
+
+.brand-logos-viewport::-webkit-scrollbar {
+  display: none; /* Hide scrollbar Chrome/Safari */
+}
+
+.brand-logos-viewport.grabbing {
+  cursor: grabbing;
+}
+
+.brand-logos-track {
+  display: flex;
+  gap: 24px;
+}
+
+.brand-logo-item {
+  flex: 0 0 180px;
+  width: 180px;
+}
+
+.brand-logo-card {
+  background-color: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px 16px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s ease;
+  box-shadow: var(--shadow-sm);
+}
+
+.brand-logo-img {
+  max-width: 120px;
+  max-height: 50px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.65;
+  transition: filter 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1), transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.brand-logo-name {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--point-gold);
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1), transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  white-space: nowrap;
+}
+
+/* Hover & Interactive States */
+.brand-logo-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: var(--shadow-xl);
+  border-color: var(--point-gold);
+}
+
+.brand-logo-card:hover .brand-logo-img {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: translateY(-4px);
+}
+
+.brand-logo-card:hover .brand-logo-name {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .brand-logos-section {
+    padding: 50px 0 !important;
+  }
+  .brand-logos-title {
+    font-size: 22px;
+  }
+  .brand-logos-desc {
+    font-size: 13px;
+  }
+  .brand-logo-item {
+    flex: 0 0 140px;
+    width: 140px;
+  }
+  .brand-logo-card {
+    height: 100px;
+    padding: 16px 12px;
+  }
+  .brand-logo-img {
+    max-width: 90px;
+    max-height: 40px;
+  }
+}
