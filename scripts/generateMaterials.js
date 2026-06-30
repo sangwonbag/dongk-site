@@ -222,13 +222,13 @@ groups.forEach((group, key) => {
       const thicknessMatch = (line + '_' + code + '_' + subLine).match(/(\d+(?:\.\d+)?)T/i);
       const t = thicknessMatch ? thicknessMatch[1] + "T" : "";
       thickness = t;
-      if (t === '1.8T') { size = '1.8mm(T) x 1,830mm(W)'; unit = '35m / Roll'; price = 11000; }
-      else if (t === '2.0T') { size = '2.0mm(T) x 1,830mm(W)'; unit = '30m / Roll'; price = 17000; }
-      else if (t === '2.2T') { size = '2.2mm(T) x 1,830mm(W)'; unit = '30m / Roll'; price = 22000; }
-      else if (t === '2.7T') { size = '2.7mm(T) x 1,830mm(W)'; unit = '25m / Roll'; price = 32000; }
-      else if (t === '3.2T') { size = '3.2mm(T) x 1,830mm(W)'; unit = '23m / Roll'; price = 36000; }
-      else if (t === '4.5T') { size = '4.5mm(T) x 1,830mm(W)'; unit = '20m / Roll'; price = 44000; }
-      else if (t === '5.0T') { size = '5.0mm(T) x 1,830mm(W)'; unit = '20m / Roll'; price = 50000; }
+      if (t === '1.8T') { size = '1.8mm(T) x 1,830mm(W)'; unit = '35m / Roll'; price = 12000; }
+      else if (t === '2.0T') { size = '2.0mm(T) x 1,830mm(W)'; unit = '30m / Roll'; price = 18000; }
+      else if (t === '2.2T') { size = '2.2mm(T) x 1,830mm(W)'; unit = '30m / Roll'; price = 23000; }
+      else if (t === '2.7T') { size = '2.7mm(T) x 1,830mm(W)'; unit = '25m / Roll'; price = 34000; }
+      else if (t === '3.2T') { size = '3.2mm(T) x 1,830mm(W)'; unit = '23m / Roll'; price = 38000; }
+      else if (t === '4.5T') { size = '4.5mm(T) x 1,830mm(W)'; unit = '20m / Roll'; price = 47000; }
+      else if (t === '5.0T') { size = '5.0mm(T) x 1,830mm(W)'; unit = '20m / Roll'; price = 53000; }
       else { size = '두께별 상이'; unit = 'Roll 단위'; price = 0; }
     } else if (category === '벽지') {
       size = '롤 단위';
@@ -239,6 +239,19 @@ groups.forEach((group, key) => {
       unit = 'Box 단위';
       price = 0;
     }
+  }
+
+  // Override '장판' price for both existing and new products based on thickness
+  if (category === '장판') {
+    const thicknessMatch = (line + '_' + code + '_' + subLine).match(/(\d+(?:\.\d+)?)T/i);
+    const t = thicknessMatch ? thicknessMatch[1] + "T" : (thickness || "");
+    if (t === '1.8T') price = 12000;
+    else if (t === '2.0T') price = 18000;
+    else if (t === '2.2T') price = 23000;
+    else if (t === '2.7T') price = 34000;
+    else if (t === '3.2T') price = 38000;
+    else if (t === '4.5T') price = 47000;
+    else if (t === '5.0T') price = 53000;
   }
 
   const productObj = {

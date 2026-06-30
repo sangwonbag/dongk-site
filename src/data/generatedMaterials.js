@@ -78544,7 +78544,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM21882.jpg"
     ],
-    "price": 11000,
+    "price": 12000,
     "thickness": "1.8T",
     "specs": {
       "division": "LX하우시스_뉴청맥_1.8T",
@@ -78567,7 +78567,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM22771.jpg"
     ],
-    "price": 11000,
+    "price": 12000,
     "thickness": "1.8T",
     "specs": {
       "division": "LX하우시스_뉴청맥_1.8T",
@@ -78590,7 +78590,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM23691.jpg"
     ],
-    "price": 11000,
+    "price": 12000,
     "thickness": "1.8T",
     "specs": {
       "division": "LX하우시스_뉴청맥_1.8T",
@@ -78613,7 +78613,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM23692.jpg"
     ],
-    "price": 11000,
+    "price": 12000,
     "thickness": "1.8T",
     "specs": {
       "division": "LX하우시스_뉴청맥_1.8T",
@@ -78636,7 +78636,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24081.jpg"
     ],
-    "price": 11000,
+    "price": 12000,
     "thickness": "1.8T",
     "specs": {
       "division": "LX하우시스_뉴청맥_1.8T",
@@ -78659,7 +78659,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24083.jpg"
     ],
-    "price": 11000,
+    "price": 12000,
     "thickness": "1.8T",
     "specs": {
       "division": "LX하우시스_뉴청맥_1.8T",
@@ -78682,7 +78682,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24131.jpg"
     ],
-    "price": 11000,
+    "price": 12000,
     "thickness": "1.8T",
     "specs": {
       "division": "LX하우시스_뉴청맥_1.8T",
@@ -78705,7 +78705,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24133.jpg"
     ],
-    "price": 11000,
+    "price": 12000,
     "thickness": "1.8T",
     "specs": {
       "division": "LX하우시스_뉴청맥_1.8T",
@@ -78728,7 +78728,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24711.jpg"
     ],
-    "price": 11000,
+    "price": 12000,
     "thickness": "1.8T",
     "specs": {
       "division": "LX하우시스_뉴청맥_1.8T",
@@ -78751,7 +78751,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24713.jpg"
     ],
-    "price": 11000,
+    "price": 12000,
     "thickness": "1.8T",
     "specs": {
       "division": "LX하우시스_뉴청맥_1.8T",
@@ -78774,7 +78774,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24722.jpg"
     ],
-    "price": 11000,
+    "price": 12000,
     "thickness": "1.8T",
     "specs": {
       "division": "LX하우시스_뉴청맥_1.8T",
@@ -78797,7 +78797,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24731.jpg"
     ],
-    "price": 11000,
+    "price": 12000,
     "thickness": "1.8T",
     "specs": {
       "division": "LX하우시스_뉴청맥_1.8T",
@@ -78820,7 +78820,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24741.jpg"
     ],
-    "price": 11000,
+    "price": 12000,
     "thickness": "1.8T",
     "specs": {
       "division": "LX하우시스_뉴청맥_1.8T",
@@ -78843,7 +78843,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3441.jpg"
     ],
-    "price": 50000,
+    "price": 53000,
     "thickness": "5.0T",
     "specs": {
       "division": "LX하우시스_엑스컴포트_5.0T",
@@ -78866,7 +78866,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3442.jpg"
     ],
-    "price": 50000,
+    "price": 53000,
     "thickness": "5.0T",
     "specs": {
       "division": "LX하우시스_엑스컴포트_5.0T",
@@ -78889,7 +78889,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3451.jpg"
     ],
-    "price": 50000,
+    "price": 53000,
     "thickness": "5.0T",
     "specs": {
       "division": "LX하우시스_엑스컴포트_5.0T",
@@ -78912,7 +78912,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3612.jpg"
     ],
-    "price": 50000,
+    "price": 53000,
     "thickness": "5.0T",
     "specs": {
       "division": "LX하우시스_엑스컴포트_5.0T",
@@ -78935,7 +78935,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3621.jpg"
     ],
-    "price": 50000,
+    "price": 53000,
     "thickness": "5.0T",
     "specs": {
       "division": "LX하우시스_엑스컴포트_5.0T",
@@ -78958,7 +78958,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3622.jpg"
     ],
-    "price": 50000,
+    "price": 53000,
     "thickness": "5.0T",
     "specs": {
       "division": "LX하우시스_엑스컴포트_5.0T",
@@ -78981,7 +78981,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4023.jpg"
     ],
-    "price": 50000,
+    "price": 53000,
     "thickness": "5.0T",
     "specs": {
       "division": "LX하우시스_엑스컴포트_5.0T",
@@ -79004,7 +79004,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4043.jpg"
     ],
-    "price": 50000,
+    "price": 53000,
     "thickness": "5.0T",
     "specs": {
       "division": "LX하우시스_엑스컴포트_5.0T",
@@ -79027,7 +79027,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4481.jpg"
     ],
-    "price": 50000,
+    "price": 53000,
     "thickness": "5.0T",
     "specs": {
       "division": "LX하우시스_엑스컴포트_5.0T",
@@ -79050,7 +79050,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4482.jpg"
     ],
-    "price": 50000,
+    "price": 53000,
     "thickness": "5.0T",
     "specs": {
       "division": "LX하우시스_엑스컴포트_5.0T",
@@ -79073,7 +79073,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4531.jpg"
     ],
-    "price": 50000,
+    "price": 53000,
     "thickness": "5.0T",
     "specs": {
       "division": "LX하우시스_엑스컴포트_5.0T",
@@ -79096,7 +79096,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4541.jpg"
     ],
-    "price": 50000,
+    "price": 53000,
     "thickness": "5.0T",
     "specs": {
       "division": "LX하우시스_엑스컴포트_5.0T",
@@ -79119,7 +79119,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCFS011.jpg"
     ],
-    "price": 50000,
+    "price": 53000,
     "thickness": "5.0T",
     "specs": {
       "division": "LX하우시스_엑스컴포트_5.0T",
@@ -79142,7 +79142,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCFS012.jpg"
     ],
-    "price": 50000,
+    "price": 53000,
     "thickness": "5.0T",
     "specs": {
       "division": "LX하우시스_엑스컴포트_5.0T",
@@ -79165,7 +79165,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCFW011.jpg"
     ],
-    "price": 50000,
+    "price": 53000,
     "thickness": "5.0T",
     "specs": {
       "division": "LX하우시스_엑스컴포트_5.0T",
@@ -79188,7 +79188,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH12071.jpg"
     ],
-    "price": 17000,
+    "price": 18000,
     "thickness": "2.0T",
     "specs": {
       "division": "LX하우시스_은행목_2.0T",
@@ -79211,7 +79211,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH12121.jpg"
     ],
-    "price": 17000,
+    "price": 18000,
     "thickness": "2.0T",
     "specs": {
       "division": "LX하우시스_은행목_2.0T",
@@ -79234,7 +79234,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH13712%20.jpg"
     ],
-    "price": 17000,
+    "price": 18000,
     "thickness": "2.0T",
     "specs": {
       "division": "LX하우시스_은행목_2.0T",
@@ -79257,7 +79257,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH13713.jpg"
     ],
-    "price": 17000,
+    "price": 18000,
     "thickness": "2.0T",
     "specs": {
       "division": "LX하우시스_은행목_2.0T",
@@ -79280,7 +79280,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14092.jpg"
     ],
-    "price": 17000,
+    "price": 18000,
     "thickness": "2.0T",
     "specs": {
       "division": "LX하우시스_은행목_2.0T",
@@ -79303,7 +79303,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14101.jpg"
     ],
-    "price": 17000,
+    "price": 18000,
     "thickness": "2.0T",
     "specs": {
       "division": "LX하우시스_은행목_2.0T",
@@ -79326,7 +79326,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14121.jpg"
     ],
-    "price": 17000,
+    "price": 18000,
     "thickness": "2.0T",
     "specs": {
       "division": "LX하우시스_은행목_2.0T",
@@ -79349,7 +79349,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14712.jpg"
     ],
-    "price": 17000,
+    "price": 18000,
     "thickness": "2.0T",
     "specs": {
       "division": "LX하우시스_은행목_2.0T",
@@ -79372,7 +79372,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14721.jpg"
     ],
-    "price": 17000,
+    "price": 18000,
     "thickness": "2.0T",
     "specs": {
       "division": "LX하우시스_은행목_2.0T",
@@ -79395,7 +79395,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14732.jpg"
     ],
-    "price": 17000,
+    "price": 18000,
     "thickness": "2.0T",
     "specs": {
       "division": "LX하우시스_은행목_2.0T",
@@ -79418,7 +79418,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/50011.jpg"
     ],
-    "price": 32000,
+    "price": 34000,
     "thickness": "2.7T",
     "specs": {
       "division": "LX하우시스_지아사랑애_2.7T",
@@ -79441,7 +79441,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/50061.jpg"
     ],
-    "price": 32000,
+    "price": 34000,
     "thickness": "2.7T",
     "specs": {
       "division": "LX하우시스_지아사랑애_2.7T",
@@ -79464,7 +79464,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/53351.jpg"
     ],
-    "price": 32000,
+    "price": 34000,
     "thickness": "2.7T",
     "specs": {
       "division": "LX하우시스_지아사랑애_2.7T",
@@ -79487,7 +79487,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/54211.jpg"
     ],
-    "price": 32000,
+    "price": 34000,
     "thickness": "2.7T",
     "specs": {
       "division": "LX하우시스_지아사랑애_2.7T",
@@ -79510,7 +79510,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/54231.jpg"
     ],
-    "price": 32000,
+    "price": 34000,
     "thickness": "2.7T",
     "specs": {
       "division": "LX하우시스_지아사랑애_2.7T",
@@ -79533,7 +79533,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60071.jpg"
     ],
-    "price": 36000,
+    "price": 38000,
     "thickness": "3.2T",
     "specs": {
       "division": "LX하우시스_지아사랑애_3.2T",
@@ -79556,7 +79556,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60081.jpg"
     ],
-    "price": 36000,
+    "price": 38000,
     "thickness": "3.2T",
     "specs": {
       "division": "LX하우시스_지아사랑애_3.2T",
@@ -79579,7 +79579,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60151.jpg"
     ],
-    "price": 36000,
+    "price": 38000,
     "thickness": "3.2T",
     "specs": {
       "division": "LX하우시스_지아사랑애_3.2T",
@@ -79602,7 +79602,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60161.jpg"
     ],
-    "price": 36000,
+    "price": 38000,
     "thickness": "3.2T",
     "specs": {
       "division": "LX하우시스_지아사랑애_3.2T",
@@ -79625,7 +79625,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/63312.jpg"
     ],
-    "price": 36000,
+    "price": 38000,
     "thickness": "3.2T",
     "specs": {
       "division": "LX하우시스_지아사랑애_3.2T",
@@ -79648,7 +79648,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/63391.jpg"
     ],
-    "price": 36000,
+    "price": 38000,
     "thickness": "3.2T",
     "specs": {
       "division": "LX하우시스_지아사랑애_3.2T",
@@ -79671,7 +79671,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/63693.jpg"
     ],
-    "price": 36000,
+    "price": 38000,
     "thickness": "3.2T",
     "specs": {
       "division": "LX하우시스_지아사랑애_3.2T",
@@ -79694,7 +79694,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64221%20.jpg"
     ],
-    "price": 36000,
+    "price": 38000,
     "thickness": "3.2T",
     "specs": {
       "division": "LX하우시스_지아사랑애_3.2T",
@@ -79717,7 +79717,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64223.jpg"
     ],
-    "price": 36000,
+    "price": 38000,
     "thickness": "3.2T",
     "specs": {
       "division": "LX하우시스_지아사랑애_3.2T",
@@ -79740,7 +79740,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64281.jpg"
     ],
-    "price": 36000,
+    "price": 38000,
     "thickness": "3.2T",
     "specs": {
       "division": "LX하우시스_지아사랑애_3.2T",
@@ -79763,7 +79763,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS80021-11.jpg"
     ],
-    "price": 44000,
+    "price": 47000,
     "thickness": "4.5T",
     "specs": {
       "division": "LX하우시스_지아소리잠_4.5T",
@@ -79786,7 +79786,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS80071-11.jpg"
     ],
-    "price": 44000,
+    "price": 47000,
     "thickness": "4.5T",
     "specs": {
       "division": "LX하우시스_지아소리잠_4.5T",
@@ -79809,7 +79809,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS83081-11.jpg"
     ],
-    "price": 44000,
+    "price": 47000,
     "thickness": "4.5T",
     "specs": {
       "division": "LX하우시스_지아소리잠_4.5T",
@@ -79832,7 +79832,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84011-11.jpg"
     ],
-    "price": 44000,
+    "price": 47000,
     "thickness": "4.5T",
     "specs": {
       "division": "LX하우시스_지아소리잠_4.5T",
@@ -79855,7 +79855,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84012-11.jpg"
     ],
-    "price": 44000,
+    "price": 47000,
     "thickness": "4.5T",
     "specs": {
       "division": "LX하우시스_지아소리잠_4.5T",
@@ -79878,7 +79878,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84021-11.jpg"
     ],
-    "price": 44000,
+    "price": 47000,
     "thickness": "4.5T",
     "specs": {
       "division": "LX하우시스_지아소리잠_4.5T",
@@ -79901,7 +79901,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84022-11.jpg"
     ],
-    "price": 44000,
+    "price": 47000,
     "thickness": "4.5T",
     "specs": {
       "division": "LX하우시스_지아소리잠_4.5T",
@@ -79924,7 +79924,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84031-11.jpg"
     ],
-    "price": 44000,
+    "price": 47000,
     "thickness": "4.5T",
     "specs": {
       "division": "LX하우시스_지아소리잠_4.5T",
@@ -79947,7 +79947,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84032-11.jpg"
     ],
-    "price": 44000,
+    "price": 47000,
     "thickness": "4.5T",
     "specs": {
       "division": "LX하우시스_지아소리잠_4.5T",
@@ -79970,7 +79970,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84041-11.jpg"
     ],
-    "price": 44000,
+    "price": 47000,
     "thickness": "4.5T",
     "specs": {
       "division": "LX하우시스_지아소리잠_4.5T",
@@ -79993,7 +79993,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ32981-11.jpg"
     ],
-    "price": 22000,
+    "price": 23000,
     "thickness": "2.2T",
     "specs": {
       "division": "LX하우시스_지아자연애_2.2T",
@@ -80016,7 +80016,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33561-11.jpg"
     ],
-    "price": 22000,
+    "price": 23000,
     "thickness": "2.2T",
     "specs": {
       "division": "LX하우시스_지아자연애_2.2T",
@@ -80039,7 +80039,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33562-11.jpg"
     ],
-    "price": 22000,
+    "price": 23000,
     "thickness": "2.2T",
     "specs": {
       "division": "LX하우시스_지아자연애_2.2T",
@@ -80062,7 +80062,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33763-11.jpg"
     ],
-    "price": 22000,
+    "price": 23000,
     "thickness": "2.2T",
     "specs": {
       "division": "LX하우시스_지아자연애_2.2T",
@@ -80085,7 +80085,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33871-1.jpg"
     ],
-    "price": 22000,
+    "price": 23000,
     "thickness": "2.2T",
     "specs": {
       "division": "LX하우시스_지아자연애_2.2T",
@@ -80108,7 +80108,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33872-11.jpg"
     ],
-    "price": 22000,
+    "price": 23000,
     "thickness": "2.2T",
     "specs": {
       "division": "LX하우시스_지아자연애_2.2T",
@@ -80131,7 +80131,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34331-11.jpg"
     ],
-    "price": 22000,
+    "price": 23000,
     "thickness": "2.2T",
     "specs": {
       "division": "LX하우시스_지아자연애_2.2T",
@@ -80154,7 +80154,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34371-11.jpg"
     ],
-    "price": 22000,
+    "price": 23000,
     "thickness": "2.2T",
     "specs": {
       "division": "LX하우시스_지아자연애_2.2T",
@@ -80177,7 +80177,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34841-11.jpg"
     ],
-    "price": 22000,
+    "price": 23000,
     "thickness": "2.2T",
     "specs": {
       "division": "LX하우시스_지아자연애_2.2T",
@@ -80200,7 +80200,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34842-11.jpg"
     ],
-    "price": 22000,
+    "price": 23000,
     "thickness": "2.2T",
     "specs": {
       "division": "LX하우시스_지아자연애_2.2T",
@@ -80223,7 +80223,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34851-11.jpg"
     ],
-    "price": 22000,
+    "price": 23000,
     "thickness": "2.2T",
     "specs": {
       "division": "LX하우시스_지아자연애_2.2T",
@@ -80246,7 +80246,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ43601-22.jpg"
     ],
-    "price": 22000,
+    "price": 23000,
     "thickness": "2.2T",
     "specs": {
       "division": "LX하우시스_지아자연애_2.2T",
@@ -80269,7 +80269,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ43841-22.jpg"
     ],
-    "price": 22000,
+    "price": 23000,
     "thickness": "2.2T",
     "specs": {
       "division": "LX하우시스_지아자연애_2.2T",
@@ -80292,7 +80292,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ43893-22.jpg"
     ],
-    "price": 22000,
+    "price": 23000,
     "thickness": "2.2T",
     "specs": {
       "division": "LX하우시스_지아자연애_2.2T",
@@ -80315,7 +80315,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44093-22.jpg"
     ],
-    "price": 22000,
+    "price": 23000,
     "thickness": "2.2T",
     "specs": {
       "division": "LX하우시스_지아자연애_2.2T",
@@ -80338,7 +80338,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44241-22.jpg"
     ],
-    "price": 22000,
+    "price": 23000,
     "thickness": "2.2T",
     "specs": {
       "division": "LX하우시스_지아자연애_2.2T",
@@ -80361,7 +80361,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44351-22.jpg"
     ],
-    "price": 22000,
+    "price": 23000,
     "thickness": "2.2T",
     "specs": {
       "division": "LX하우시스_지아자연애_2.2T",
@@ -80384,7 +80384,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44821-22.jpg"
     ],
-    "price": 22000,
+    "price": 23000,
     "thickness": "2.2T",
     "specs": {
       "division": "LX하우시스_지아자연애_2.2T",
@@ -80407,7 +80407,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44822-22.jpg"
     ],
-    "price": 22000,
+    "price": 23000,
     "thickness": "2.2T",
     "specs": {
       "division": "LX하우시스_지아자연애_2.2T",
@@ -80430,7 +80430,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44831-22.jpg"
     ],
-    "price": 22000,
+    "price": 23000,
     "thickness": "2.2T",
     "specs": {
       "division": "LX하우시스_지아자연애_2.2T",
@@ -80453,7 +80453,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44861-22.jpg"
     ],
-    "price": 22000,
+    "price": 23000,
     "thickness": "2.2T",
     "specs": {
       "division": "LX하우시스_지아자연애_2.2T",
@@ -80476,7 +80476,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44871-22.jpg"
     ],
-    "price": 22000,
+    "price": 23000,
     "thickness": "2.2T",
     "specs": {
       "division": "LX하우시스_지아자연애_2.2T",
