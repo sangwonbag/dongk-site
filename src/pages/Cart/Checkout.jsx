@@ -113,6 +113,44 @@ export default function Checkout() {
     });
   }, [globalCartItems, navigate, user, openLoginModal, location.state, getPendingDirectOrder, isOrderSuccess, loading]);
 
+  const [showPostcodeLayer, setShowPostcodeLayer] = useState(false);
+  const postcodeContainerRef = useRef(null);
+
+  const handleAddressSearch = () => {
+    const kakao = window.kakao;
+    if (!kakao?.Postcode) {
+      alert("주소검색 서비스를 불러오지 못했습니다. 잠시 후 다시 시도해주세요.");
+      return;
+    }
+    setShowPostcodeLayer(true);
+  };
+
+  useEffect(() => {
+    if (!showPostcodeLayer || !postcodeContainerRef.current) return;
+
+    const kakao = window.kakao;
+    new kakao.Postcode({
+      oncomplete: function (data) {
+        const fullAddress =
+          data.userSelectedType === "R" ? data.roadAddress : data.jibunAddress;
+
+        setCustomer((prev) => ({
+          ...prev,
+          address: `(${data.zonecode}) ${fullAddress}`,
+          address_detail: "",
+        }));
+
+        setShowPostcodeLayer(false);
+
+        setTimeout(() => {
+          document.getElementById("customer_address_detail")?.focus();
+        }, 50);
+      },
+      width: "100%",
+      height: "100%",
+    }).embed(postcodeContainerRef.current);
+  }, [showPostcodeLayer]);
+
   // 총액 자동 계산
   const calculateTotal = () => {
     return checkoutItems.reduce((sum, item) => {
@@ -317,14 +355,24 @@ export default function Checkout() {
 
                 <div className="form-group-checkout">
                   <label htmlFor="customer_address">배송주소 <span className="req">*</span></label>
-                  <input
-                    id="customer_address"
-                    type="text"
-                    placeholder="배송 받으실 주소를 입력해 주세요"
-                    value={customer.address}
-                    onChange={(e) => setCustomer({ ...customer, address: e.target.value })}
-                    required
-                  />
+                  <div className="checkout-address-search-row">
+                    <input
+                      id="customer_address"
+                      type="text"
+                      placeholder="우측 '주소 검색' 버튼을 클릭해 주세요"
+                      value={customer.address}
+                      onClick={handleAddressSearch}
+                      readOnly
+                      required
+                    />
+                    <button 
+                      type="button" 
+                      className="btn-checkout-address-search"
+                      onClick={handleAddressSearch}
+                    >
+                      주소 검색
+                    </button>
+                  </div>
                 </div>
 
                 <div className="form-group-checkout">
@@ -530,6 +578,25 @@ export default function Checkout() {
           </div>
         </form>
       </div>
+
+      {showPostcodeLayer && (
+        <div className="checkout-postcode-overlay" onClick={() => setShowPostcodeLayer(false)}>
+          <div className="checkout-postcode-modal" onClick={(e) => e.stopPropagation()}>
+            <div className="postcode-modal-header">
+              <h3>주소 검색</h3>
+              <button 
+                type="button" 
+                className="btn-close-postcode" 
+                onClick={() => setShowPostcodeLayer(false)}
+                aria-label="닫기"
+              >
+                &times;
+              </button>
+            </div>
+            <div ref={postcodeContainerRef} className="postcode-embed-container"></div>
+          </div>
+        </div>
+      )}
     </MainLayout>
   );
 }

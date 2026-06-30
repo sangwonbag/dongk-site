@@ -553,3 +553,131 @@
     padding: 10px;
   }
 }
+
+/* ==========================================
+   Kakao Postcode Address Search
+   ========================================== */
+.checkout-address-search-row {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+
+.checkout-address-search-row input {
+  flex: 1;
+}
+
+.btn-checkout-address-search {
+  padding: 0 20px;
+  background-color: var(--primary);
+  color: #ffffff;
+  border: none;
+  border-radius: var(--radius-md);
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: var(--transition);
+  height: 48px;
+}
+
+.btn-checkout-address-search:hover {
+  background-color: var(--primary-hover);
+}
+
+.btn-checkout-address-search:focus-visible {
+  outline: 2px solid var(--point-gold);
+  outline-offset: 2px;
+}
+
+/* Postcode Modal Overlay */
+.checkout-postcode-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(15, 23, 42, 0.4);
+  backdrop-filter: blur(4px);
+  z-index: 1500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.checkout-postcode-modal {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 500px;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-2xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  animation: modalFadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.postcode-modal-header {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postcode-modal-header h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--primary);
+}
+
+.btn-close-postcode {
+  background: none;
+  border: none;
+  font-size: 28px;
+  line-height: 1;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 4px;
+  transition: var(--transition);
+}
+
+.btn-close-postcode:hover {
+  color: var(--primary);
+}
+
+.btn-close-postcode:focus-visible {
+  outline: 2px solid var(--point-gold);
+}
+
+.postcode-embed-container {
+  width: 100%;
+  height: 480px;
+}
+
+@media (max-width: 768px) {
+  .checkout-address-search-row {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .btn-checkout-address-search {
+    width: 100%;
+    height: 44px;
+  }
+  .postcode-embed-container {
+    height: 400px;
+  }
+}
