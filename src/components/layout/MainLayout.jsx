@@ -4,12 +4,14 @@ import Footer from "./Footer";
 import FloatingPhoneButton from "../ui/FloatingPhoneButton";
 import RightFloatingBox from "../ui/RightFloatingBox";
 import AdminOrderNotifier from "../admin/AdminOrderNotifier";
+import ScrollRevealMenu from "./ScrollRevealMenu";
 import "./MainLayout.css";
 
 export default function MainLayout({ children, className = "" }) {
     return (
         <div className="main-layout">
             <Header />
+            <ScrollRevealMenu />
             <main className={`main-content ${className}`}>
                 {children}
             </main>
