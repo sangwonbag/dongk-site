@@ -29,9 +29,9 @@ ALTER TABLE public.profiles ALTER COLUMN phone DROP NOT NULL;
 
 3. **Web 플랫폼 등록:**
    - 생성한 애플리케이션의 **앱 설정** > **플랫폼**으로 이동합니다.
-   - **Web** 항목에서 **플랫폼 등록**을 클릭하고 서비스 사이트 도메인을 입력합니다:
-     - 로컬 개발 환경: `http://localhost:5173` (또는 실제 실행 중인 로컬 포트)
-     - 운영 환경: Vercel 배포 도메인 (예: `https://dongk-site.vercel.app` 등)
+   - **Web** 항목에서 **플랫폼 등록**을 클릭하고 서비스 사이트 도메인을 아래와 같이 입력합니다:
+     - 로컬 개발 환경: `http://localhost:5175`
+     - 실제 운영 환경: `https://dkfloor.co.kr`
      - *주의: 도메인은 줄바꿈으로 여러 개 등록할 수 있습니다.*
 
 4. **카카오 로그인 활성화:**
@@ -40,8 +40,12 @@ ALTER TABLE public.profiles ALTER COLUMN phone DROP NOT NULL;
 
 5. **Redirect URI 등록:**
    - 동일한 화면 하단의 **Redirect URI** 항목에서 **등록**을 클릭합니다.
-   - Supabase Dashboard의 Kakao Provider 설정 화면에서 제공하는 **Callback URL**을 이곳에 등록합니다.
-     - 형태 예시: `https://[your-supabase-project-ref].supabase.co/auth/v1/callback`
+   - 아래의 **Supabase Callback URL**을 복사하여 정확하게 등록합니다:
+     - 등록 주소: `https://ymoshkaiwvnmhhcglpjj.supabase.co/auth/v1/callback`
+   - > [!CAUTION]
+     > **절대 주의 (KOE004/KOE006 에러 주범)**
+     > 프론트엔드 콜백 경로인 `https://dkfloor.co.kr/login-callback` 이나 `http://localhost:5175/login-callback` 을 **Kakao Developers Redirect URI에 등록하면 안 됩니다.** 
+     > Kakao Developers Redirect URI에는 오직 위의 **Supabase Callback URL**(`https://ymoshkaiwvnmhhcglpjj.supabase.co/auth/v1/callback`)만 한 줄 등록해야 합니다.
 
 6. **Client Secret 보안 활성화:**
    - **제품 설정** > **카카오 로그인** > **보안** 메뉴로 이동합니다.
@@ -59,7 +63,7 @@ ALTER TABLE public.profiles ALTER COLUMN phone DROP NOT NULL;
 ## 3. Supabase Dashboard 설정
 
 1. **Supabase 콘솔 접속:**
-   - [Supabase Dashboard](https://supabase.com/dashboard)에 접속하여 프로젝트를 선택합니다.
+   - [Supabase Dashboard](https://supabase.com/dashboard)에 접속하여 프로젝트(`ymoshkaiwvnmhhcglpjj`)를 선택합니다.
 
 2. **Authentication Provider 설정:**
    - 좌측 메뉴에서 **Authentication** > **Providers**로 이동합니다.
@@ -68,13 +72,13 @@ ALTER TABLE public.profiles ALTER COLUMN phone DROP NOT NULL;
 3. **API 키 정보 입력:**
    - **Client ID**: Kakao Developers 애플리케이션의 **앱 키** > **REST API 키** 값을 입력합니다.
    - **Client Secret**: Kakao Developers **보안** 메뉴에서 활성화했던 **Client Secret 코드** 값을 입력합니다.
-   - **Redirect URL (또는 Callback URL)**: Supabase 화면에 노출되는 Callback URL을 복사하여 위 `2-5` 단계의 Kakao Developers Redirect URI 항목에 똑같이 등록해 줍니다.
+   - **Redirect URL (또는 Callback URL)**: `https://ymoshkaiwvnmhhcglpjj.supabase.co/auth/v1/callback` 주소를 복사하여 위 `2-5` 단계의 Kakao Developers Redirect URI 항목에 등록해 줍니다.
 
 4. **Supabase Redirect URLs (허용된 리디렉션 주소 목록) 등록:**
    - Supabase Dashboard의 **Authentication** > **URL Configuration** 메뉴로 이동합니다.
    - **Redirect URLs** 항목에서 **Add URL**을 눌러 다음 프론트엔드 콜백 주소들을 등록합니다:
-     - 로컬 개발 환경용: `http://localhost:5173/login-callback`
-     - 운영 환경용: Vercel 배포 도메인 주소 (예: `https://dongk-site.vercel.app/login-callback` 등)
+     - 로컬 개발 환경용: `http://localhost:5175/login-callback`
+     - 실제 서비스 운영용: `https://dkfloor.co.kr/login-callback`
    - *이 설정을 빠뜨리면 카카오 인증이 완료된 후 프론트엔드의 콜백 화면(`/login-callback`)으로 되돌아가지 못하고 리디렉션이 차단될 수 있습니다.*
 
 5. **변경사항 저장:**
@@ -86,3 +90,18 @@ ALTER TABLE public.profiles ALTER COLUMN phone DROP NOT NULL;
 
 - 프론트엔드 환경 변수(`.env.local` 등)에 **Supabase anon key**와 **URL**이 올바르게 들어가 있는지 확인하십시오. 
 - *주의: Kakao Client Secret 이나 Supabase Service Role Key 등 민감 정보는 절대로 프론트엔드 `.env` 파일이나 프론트 소스코드에 입력해서는 안 됩니다. 해당 값들은 오직 Supabase 대시보드 내부 설정으로만 보호되어야 합니다.*
+
+---
+
+## 5. 카카오 로그인 에러 코드 설명 및 대처 방안
+
+카카오 로그인 도중 다음과 같은 에러가 발생하는 경우의 원인과 해결 조치 가이드라인입니다.
+
+### KOE004 (Invalid Redirect URI)
+- **원인:** 카카오 로그인 사용 설정이 **OFF** 상태이거나, 애플리케이션의 로그인 활성화 설정이 완료되지 않았습니다.
+- **조치:** [Kakao Developers](https://developers.kakao.com/) > 내 애플리케이션 > 제품 설정 > 카카오 로그인 메뉴로 이동하여 **카카오 로그인 활성화 상태를 ON**으로 활성화하십시오.
+
+### KOE006 (Redirect URI Mismatch)
+- **원인:** 카카오 디벨로퍼스에 등록된 Redirect URI와 실제 인증 시 요청한 주소가 일치하지 않거나 누락되었습니다.
+- **조치:** [Kakao Developers](https://developers.kakao.com/) > 카카오 로그인 > **Redirect URI** 항목에 Supabase Callback URL인 `https://ymoshkaiwvnmhhcglpjj.supabase.co/auth/v1/callback`을 1글자도 다르지 않게 똑같이 등록하십시오.
+- *주의: 이곳에 프론트엔드 URL(/login-callback)을 등록하게 되면 인증 시점에 KOE006 불일치 오류가 무조건 발생합니다.*

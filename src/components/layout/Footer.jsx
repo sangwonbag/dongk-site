@@ -10,7 +10,7 @@ export default function Footer() {
                 <div className="footer-links">
                     <Link to="/terms-of-service">서비스 이용약관</Link>
                     <span className="footer-link-divider">|</span>
-                    <Link to="/privacy-policy" className="privacy-policy-link">개인정보처리방침</Link>
+                    <Link to="/privacy" className="privacy-policy-link">개인정보처리방침</Link>
                 </div>
                 <div className="footer-info">
                     <p className="footer-corp">{COMPANY_CONFIG.serviceName}</p>

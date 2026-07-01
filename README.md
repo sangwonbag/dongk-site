@@ -23,7 +23,7 @@ npm run dev
 npm run build
 ```
 
-- 로컬 개발 서버 접속 주소: **`http://localhost:5173`**
+- 로컬 개발 서버 접속 주소: **`http://localhost:5175`**
 - 프로덕션 빌드 결과물 경로: **`dist/`**
 
 ---

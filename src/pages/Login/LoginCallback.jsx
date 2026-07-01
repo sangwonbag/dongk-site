@@ -53,20 +53,25 @@ export default function LoginCallback() {
           setStatusMsg("새로운 프로필을 생성하고 있습니다...");
           
           const customUsername = `kakao_${user.id.substring(0, 8)}`;
-          const displayName = userMetadata.full_name || userMetadata.name || "카카오 사용자";
+          const displayName = userMetadata.full_name || userMetadata.name || userMetadata.nickname || "카카오 사용자";
           const rawPhone = userMetadata.phone_number || "";
           
-          // Normalize phone number if present
-          let normalizedPhone = rawPhone.replace(/\+82\s?/, "0").replace(/[-\s]/g, "");
-          if (normalizedPhone && !normalizedPhone.startsWith("0")) {
-            normalizedPhone = "0" + normalizedPhone;
+          // Normalize phone number if present, otherwise store null
+          let normalizedPhone = null;
+          if (rawPhone) {
+            let cleanPhone = rawPhone.replace(/\+82\s?/, "0").replace(/[-\s]/g, "");
+            if (cleanPhone && !cleanPhone.startsWith("0")) {
+              cleanPhone = "0" + cleanPhone;
+            }
+            normalizedPhone = cleanPhone || null;
           }
 
           const newProfile = {
             id: user.id, // Match auth.users.id
             username: customUsername,
             name: displayName,
-            phone: normalizedPhone || "010-0000-0000",
+            phone: normalizedPhone,
+            password: null, // Explicitly save password as null for OAuth
             user_type: "일반",
             role: "user"
           };
@@ -84,7 +89,7 @@ export default function LoginCallback() {
             id: user.id,
             username: customUsername,
             name: displayName,
-            phone: normalizedPhone || "010-0000-0000",
+            phone: normalizedPhone,
             user_type: "일반",
             role: "user"
           };

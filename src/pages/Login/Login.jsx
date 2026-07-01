@@ -127,6 +127,12 @@ export default function Login() {
                             </span>
                         </div>
 
+                        <div style={{ marginTop: '24px', fontSize: '12px', color: '#9ca3af', textAlign: 'center', display: 'flex', justifyContent: 'center', gap: '12px' }}>
+                            <span onClick={() => nav("/terms-of-service")} style={{ cursor: 'pointer', textDecoration: 'underline' }}>이용약관</span>
+                            <span>|</span>
+                            <span onClick={() => nav("/privacy")} style={{ cursor: 'pointer', fontWeight: '700', color: '#4b5563', textDecoration: 'underline' }}>개인정보처리방침</span>
+                        </div>
+
                         <button 
                             type="button" 
                             className="btn-go-home" 
