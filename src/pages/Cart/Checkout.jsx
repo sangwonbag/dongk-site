@@ -44,6 +44,8 @@ export default function Checkout() {
   });
 
   const [paymentMethod, setPaymentMethod] = useState("무통장입금"); // 무통장입금 | 전화확인
+  const [hasElevator, setHasElevator] = useState("yes"); // yes | no
+  const [needCarry, setNeedCarry] = useState("no"); // yes | no
   const [loading, setLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState("");
   const [isOrderSuccess, setIsOrderSuccess] = useState(false);
@@ -264,10 +266,16 @@ export default function Checkout() {
 
     setLoading(true);
     try {
+      const siteInfo = `[현장정보] 엘리베이터: ${hasElevator === "yes" ? "있음" : "없음"} / 양중(계단운반): ${needCarry === "yes" ? "필요(운임협의)" : "불필요(1층하차)"}`;
+      const finalMemo = customer.memo ? `${siteInfo}\n[요청사항] ${customer.memo}` : siteInfo;
+
       // 주문 생성 API 호출
       const orderData = await createOrder({
         cartItems: checkoutItems,
-        customer,
+        customer: {
+          ...customer,
+          memo: finalMemo
+        },
         paymentMethod
       });
 
@@ -461,6 +469,61 @@ export default function Checkout() {
                         </option>
                       ))}
                     </select>
+                  </div>
+                </div>
+
+                {/* 🏗️ B2B 현장 배송 조건 입력 필드 */}
+                <div className="form-group-checkout-radio-row">
+                  <div className="radio-field">
+                    <label>엘리베이터 유무 <span className="req">*</span></label>
+                    <div className="checkout-radio-group">
+                      <label className={`checkout-radio-label ${hasElevator === "yes" ? "active" : ""}`}>
+                        <input
+                          type="radio"
+                          name="elevator"
+                          value="yes"
+                          checked={hasElevator === "yes"}
+                          onChange={() => setHasElevator("yes")}
+                        />
+                        있음 (사용 가능)
+                      </label>
+                      <label className={`checkout-radio-label ${hasElevator === "no" ? "active" : ""}`}>
+                        <input
+                          type="radio"
+                          name="elevator"
+                          value="no"
+                          checked={hasElevator === "no"}
+                          onChange={() => setHasElevator("no")}
+                        />
+                        없음 (계단 이동)
+                      </label>
+                    </div>
+                  </div>
+
+                  <div className="radio-field">
+                    <label>양중 작업(계단 운반) <span className="req">*</span></label>
+                    <div className="checkout-radio-group">
+                      <label className={`checkout-radio-label ${needCarry === "no" ? "active" : ""}`}>
+                        <input
+                          type="radio"
+                          name="carry"
+                          value="no"
+                          checked={needCarry === "no"}
+                          onChange={() => setNeedCarry("no")}
+                        />
+                        불필요 (1층 하차)
+                      </label>
+                      <label className={`checkout-radio-label ${needCarry === "yes" ? "active" : ""}`}>
+                        <input
+                          type="radio"
+                          name="carry"
+                          value="yes"
+                          checked={needCarry === "yes"}
+                          onChange={() => setNeedCarry("yes")}
+                        />
+                        필요 (운임 협의)
+                      </label>
+                    </div>
                   </div>
                 </div>
 

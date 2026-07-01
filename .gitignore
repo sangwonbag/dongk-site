@@ -8,8 +8,6 @@ node_modules
 dist
 public/images/detail/
 public/images/samplebooks/
-# 이미지는 Supabase Storage에만 보관 (GitHub 용량 초과 방지)
-public/images/Thumbnail_Image/
 public/images/upload_target/
 .vercel
 

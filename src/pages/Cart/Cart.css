@@ -605,7 +605,7 @@
         width: 100%;
         background-color: #ffffff;
         border-top: 1px solid var(--border);
-        padding: 10px 16px;
+        padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
         z-index: 1000;
         display: flex;
         flex-direction: row !important;
@@ -615,7 +615,7 @@
     
     .btn-proceed-order, .btn-proceed-estimate {
         flex: 1;
-        min-height: 46px;
+        min-height: 48px;
         font-size: 13.5px;
         padding: 0;
         display: flex;
@@ -628,5 +628,51 @@
         padding: 16px;
         border-radius: var(--radius-md);
     }
+}
+
+/* Shipping Notice Card & Highlights */
+.cart-shipping-notice-card {
+    margin-top: 24px;
+    background-color: var(--bg-alt);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 20px 24px;
+}
+.cart-shipping-notice-card h4 {
+    font-size: 14.5px;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 12px;
+}
+.cart-shipping-notice-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.cart-shipping-notice-card li {
+    font-size: 12.5px;
+    color: var(--text-muted);
+    line-height: 1.5;
+    position: relative;
+    padding-left: 14px;
+}
+.cart-shipping-notice-card li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--point-gold);
+    font-weight: bold;
+}
+.unit-conversion-lbl {
+    margin-top: 4px;
+    padding-top: 4px;
+    border-top: 1px dashed var(--border);
+}
+.text-highlight {
+    color: var(--point-gold);
+    font-weight: 700;
 }
 

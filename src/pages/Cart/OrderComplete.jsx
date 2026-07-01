@@ -257,9 +257,10 @@ export default function OrderComplete() {
                   <p className="bank-number">301-0298-9197-81</p>
                   <p className="bank-holder">예금주: 동경바닥재</p>
                 </div>
-                <span className="bank-box-notice">
-                  * 입금 시 입금자명을 주문자명 또는 회사명과 동일하게 설정해 주세요.
-                </span>
+                <div className="bank-box-notice" style={{ marginTop: '10px', display: 'flex', flexDirection: 'column', gap: '4px', fontSize: '11.5px', color: 'var(--text-muted)' }}>
+                  <span>* 입금 시 입금자명을 주문자명 또는 회사명과 동일하게 설정해 주세요.</span>
+                  <span style={{ color: 'var(--point-gold)', fontWeight: '600' }}>* 입금 확인 완료 즉시 담당자가 연락을 드려 자재 출고 일정과 현장 배송 편을 확정해 드립니다.</span>
+                </div>
               </div>
             </div>
 
@@ -270,6 +271,9 @@ export default function OrderComplete() {
             <button className="btn-action-complete outline" onClick={handleGoOrders}>
               주문내역 확인하기
             </button>
+            <a href="tel:02-487-9775" className="btn-action-complete tel-consult">
+              📞 전화 상담 (02-487-9775)
+            </a>
             <button className="btn-action-complete primary" onClick={handleGoHome}>
               쇼핑 계속하기
             </button>

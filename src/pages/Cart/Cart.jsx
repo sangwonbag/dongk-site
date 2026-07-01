@@ -24,9 +24,19 @@ export default function Cart() {
   // Calculation states
   const totalItemsCount = cartItems.length;
   
-  const totalQuantity = cartItems.reduce((sum, item) => {
-    return sum + (parseInt(item.quantity) || 1);
-  }, 0);
+  const getDisplayTotalQtyText = () => {
+    const tileOrFloorQty = cartItems
+      .filter(item => item.category !== "장판" && item.category !== "벽지")
+      .reduce((sum, item) => sum + (parseInt(item.quantity) || 1), 0);
+    const rollOrMQty = cartItems
+      .filter(item => item.category === "장판" || item.category === "벽지")
+      .reduce((sum, item) => sum + (parseInt(item.quantity) || 1), 0);
+    
+    const parts = [];
+    if (tileOrFloorQty > 0) parts.push(`${tileOrFloorQty}박스(약 ${tileOrFloorQty}평)`);
+    if (rollOrMQty > 0) parts.push(`${rollOrMQty}M`);
+    return parts.join(" / ") || "0박스";
+  };
 
   const calculateSubtotal = () => {
     return cartItems.reduce((sum, item) => {
@@ -107,7 +117,7 @@ export default function Cart() {
               <div className="summary-stats">
                 선택 상품 <strong>{totalItemsCount}개</strong>
                 <span className="divider-bar">|</span>
-                총 수량 <strong>{totalQuantity}박스(M)</strong>
+                총 수량 <strong>{getDisplayTotalQtyText()}</strong>
                 <span className="divider-bar">|</span>
                 상품금액 <strong>{calculateSubtotal().toLocaleString()}원</strong>
               </div>
@@ -145,6 +155,9 @@ export default function Cart() {
                     const itemSpec = item.spec || item.specs?.size || "표준규격";
                     const itemPacking = item.packing || item.specs?.packing || "1박스 단위";
                     
+                    const isRollOrM = item.category === "장판" || item.category === "벽지";
+                    const itemQtyDesc = isRollOrM ? `${qty}M` : `${qty}박스 (약 ${qty}평 시공용)`;
+
                     return (
                       <div key={item.id} className="cart-item-card">
                         {/* 상품 이미지 */}
@@ -171,6 +184,7 @@ export default function Cart() {
                             {item.code && item.code !== "" && <span>코드: <strong>{item.code}</strong></span>}
                             <span>규격: <strong>{itemSpec}</strong></span>
                             <span>구성: <strong>{itemPacking}</strong></span>
+                            <span className="unit-conversion-lbl">소요량: <strong className="text-highlight">{itemQtyDesc}</strong></span>
                           </div>
                         </div>
 
@@ -225,6 +239,16 @@ export default function Cart() {
                     );
                   })}
                 </div>
+
+                {/* 🚚 B2B 화물 및 배송 조건 안내 배너 */}
+                <div className="cart-shipping-notice-card">
+                  <h4>🚚 B2B 자재 화물 및 배송 조건 안내</h4>
+                  <ul>
+                    <li><strong>출고지 기준:</strong> 모든 바닥재 및 벽지 자재는 <strong>경기 하남 물류창고</strong>에서 직출고됩니다.</li>
+                    <li><strong>배송 운임:</strong> 자재의 무게 및 거리에 따라 운임비가 상이하므로, <strong>화물 착불(대신화물 또는 경동화물, 용달배송)</strong>을 기본 원칙으로 합니다.</li>
+                    <li><strong>현장 하차 기준:</strong> 화물 차량 운송은 1층 하차가 기준이며, 현장 양중 작업 및 고층 엘리베이터 이동이 필요한 경우 시공팀 또는 현장 인력을 사전에 확보해 주셔야 합니다.</li>
+                  </ul>
+                </div>
               </div>
 
               {/* 오른쪽: 주문 요약 및 진행 박스 */}
@@ -237,12 +261,12 @@ export default function Cart() {
                       <strong>{totalItemsCount}종</strong>
                     </div>
                     <div className="summary-row-item">
-                      <span>총 수량</span>
-                      <strong>{totalQuantity}박스(M)</strong>
+                      <span>총 수량 / 평수</span>
+                      <strong>{getDisplayTotalQtyText()}</strong>
                     </div>
                     <div className="summary-row-item">
                       <span>배송비</span>
-                      <strong>별도 안내 (화물착불)</strong>
+                      <strong>별도 착불 청구</strong>
                     </div>
                     <div className="summary-divider"></div>
                     <div className="summary-row-total">

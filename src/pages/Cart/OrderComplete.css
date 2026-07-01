@@ -694,3 +694,19 @@
     padding: 12px;
   }
 }
+
+.btn-action-complete.tel-consult {
+  background-color: #ffffff;
+  border: 1.5px solid var(--point-gold);
+  color: var(--point-gold);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-action-complete.tel-consult:hover {
+  background-color: var(--point-gold-light);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
