@@ -84,3 +84,53 @@
 .btn-go-home:hover {
   background-color: #f9f9f9;
 }
+
+/* Divider styled specifically for login page */
+.login-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #aaa;
+  font-size: 0.85rem;
+  margin: 8px 0;
+}
+
+.login-divider::before,
+.login-divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #eee;
+}
+
+.login-divider span {
+  padding: 0 10px;
+}
+
+/* Kakao Login Button styled using Kakao Design Guidelines */
+.btn-kakao-login {
+  width: 100%;
+  padding: 14px;
+  background-color: #FEE500; /* Kakao Signature Yellow */
+  color: #191919; /* Kakao Signature Charcoal */
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.btn-kakao-login:hover {
+  background-color: #FADA0A; /* Slightly darker yellow on hover */
+}
+
+.btn-kakao-login:active {
+  transform: scale(0.995);
+}
+
+.kakao-icon {
+  flex-shrink: 0;
+}

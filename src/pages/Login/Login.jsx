@@ -3,6 +3,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { useAuth } from "../../contexts/AuthContext";
 import { useEstimateCart } from "../../contexts/EstimateCartContext";
+import { supabase } from "../../lib/supabaseClient";
 import "./Login.css";
 
 export default function Login() {
@@ -13,6 +14,28 @@ export default function Login() {
     const [userId, setUserId] = useState("");
     const [password, setPassword] = useState("");
     const [errorMsg, setErrorMsg] = useState("");
+
+    const handleKakaoLogin = async () => {
+        try {
+            setErrorMsg("");
+            const searchParams = new URLSearchParams(location.search);
+            const redirectUrl = searchParams.get("redirect") || "/";
+            
+            if (!supabase) {
+                throw new Error("Supabase 클라이언트가 초기화되지 않았습니다.");
+            }
+
+            await supabase.auth.signInWithOAuth({
+                provider: "kakao",
+                options: {
+                    redirectTo: `${window.location.origin}/login-callback?redirect=${encodeURIComponent(redirectUrl)}`
+                }
+            });
+        } catch (err) {
+            console.error("Kakao login request error:", err);
+            setErrorMsg(`카카오 로그인 연결 중 오류가 발생했습니다. (${err.message || err.toString()})`);
+        }
+    };
 
     const handleLogin = async (e) => {
         e.preventDefault();
@@ -73,6 +96,21 @@ export default function Login() {
 
                         <button type="submit" className="btn-login">
                             로그인
+                        </button>
+
+                        <div className="login-divider">
+                            <span>또는</span>
+                        </div>
+
+                        <button 
+                            type="button" 
+                            className="btn-kakao-login" 
+                            onClick={handleKakaoLogin}
+                        >
+                            <svg className="kakao-icon" viewBox="0 0 24 24" width="18" height="18" style={{ marginRight: '8px' }}>
+                                <path fill="currentColor" d="M12 3c-4.97 0-9 3.185-9 7.115 0 2.558 1.707 4.8 4.27 6.054-.189.656-.68 2.361-.778 2.756-.122.499.182.493.385.357.16-.107 2.508-1.56 3.53-2.254.512.071 1.04.11 1.58.11 4.97 0 9-3.186 9-7.115C21 6.185 16.97 3 12 3z"/>
+                            </svg>
+                            카카오로 로그인
                         </button>
                         
                         <div className="login-footer" style={{ marginTop: '16px', fontSize: '14px', color: '#666', textAlign: 'center' }}>

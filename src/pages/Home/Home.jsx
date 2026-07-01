@@ -22,7 +22,7 @@ import "./Home.css";
 import BrandLogosCarousel from "../../components/home/BrandLogosCarousel";
 
 // Dynamic featured material card component with asynchronous thumbnail resolver
-const FeaturedCard = ({ mat }) => {
+const FeaturedCard = ({ mat, idx }) => {
   const navigate = useNavigate();
   const [imgUrl, setImgUrl] = useState("/images/no-image.svg");
 
@@ -63,7 +63,8 @@ const FeaturedCard = ({ mat }) => {
 
   return (
     <div 
-      className="featured-v2-card"
+      className="featured-v2-card reveal"
+      style={{ '--delay': `${idx * 80}ms` }}
       onClick={() => navigate(`/materials/${mat.id}`)}
     >
       <div className="featured-v2-img-frame">
@@ -72,6 +73,7 @@ const FeaturedCard = ({ mat }) => {
           alt={mat.name} 
           className="featured-v2-img" 
           onError={(e) => { e.target.onerror = null; e.target.src = "/images/no-image.svg"; }}
+          loading="lazy"
         />
       </div>
       <div className="featured-v2-body">
@@ -507,45 +509,79 @@ export default function Home() {
 
   useEffect(() => {
     let isMounted = true;
-    fetchAllProducts().then((data) => {
-      if (!isMounted) return;
-      const kcc = (data || []).filter(m => m.brand === 'KCC');
-      const dongshin = (data || []).filter(m => m.brand === '동신');
-      const yuseong = (data || []).filter(m => m.brand === '유성');
+
+    async function loadFeatured() {
+      // 1. If Supabase is active, query a tiny subset (limit 20) instead of fetching 4000+ items
+      if (supabase) {
+        try {
+          console.log("[Home] Fetching a light subset of active products for recommend section...");
+          const { data: rawChunk, error } = await supabase
+            .from("products")
+            .select(`
+              *,
+              categories ( id, name ),
+              brands ( id, name )
+            `)
+            .eq("is_active", true)
+            .limit(20);
+
+          if (!error && rawChunk && rawChunk.length > 0) {
+            const mapped = rawChunk.map(p => ({
+              id: p.slug || String(p.id),
+              code: p.product_code || "",
+              name: p.name || "",
+              brand: p.brands?.name || "",
+              category: p.categories?.name || "",
+              price: p.price || 0,
+              thickness: p.thickness || "",
+              specs: {
+                thickness: p.thickness || "",
+                size: p.size_text || "",
+                packing: p.unit || ""
+              },
+              thumbnail: p.image_url || null,
+              image: p.image_url || null,
+              line: p.description || "",
+              description: p.description || "",
+              featured: p.is_featured || false,
+              active: p.is_active ?? true
+            }));
+
+            if (isMounted) {
+              const shuffled = [...mapped].sort(() => 0.5 - Math.random());
+              setFeaturedItems(shuffled.slice(0, 4));
+              return;
+            }
+          }
+        } catch (e) {
+          console.warn("[Home] Fast featured query failed, falling back to local database:", e);
+        }
+      }
+
+      // 2. Local fallback: Query instantly from materials.db
+      console.log("[Home] Instantly resolving featured items from local database...");
+      const kcc = (materials || []).filter(m => m.brand === "KCC");
+      const dongshin = (materials || []).filter(m => m.brand === "동신");
+      const yuseong = (materials || []).filter(m => m.brand === "유성");
 
       const selected = [];
       if (kcc.length > 0) selected.push(kcc[Math.floor(Math.random() * kcc.length)]);
       if (dongshin.length > 0) selected.push(dongshin[Math.floor(Math.random() * dongshin.length)]);
       if (yuseong.length > 0) selected.push(yuseong[Math.floor(Math.random() * yuseong.length)]);
 
-      const remaining = (data || []).filter(m => ['KCC', '동신', '유성'].includes(m.brand) && !selected.map(s => s.id).includes(m.id));
+      const remaining = (materials || []).filter(m => ["KCC", "동신", "유성"].includes(m.brand) && !selected.map(s => s.id).includes(m.id));
       if (remaining.length > 0 && selected.length < 4) {
         const shuffledRemaining = [...remaining].sort(() => 0.5 - Math.random());
         selected.push(...shuffledRemaining.slice(0, 4 - selected.length));
       }
 
       const finalShuffled = [...selected].sort(() => 0.5 - Math.random());
-      setFeaturedItems(finalShuffled);
-    }).catch(err => {
-      console.error("Failed to load featured items:", err);
-      // Fallback local
-      const kcc = (materials || []).filter(m => m.brand === 'KCC');
-      const dongshin = (materials || []).filter(m => m.brand === '동신');
-      const yuseong = (materials || []).filter(m => m.brand === '유성');
-
-      const selected = [];
-      if (kcc.length > 0) selected.push(kcc[Math.floor(Math.random() * kcc.length)]);
-      if (dongshin.length > 0) selected.push(dongshin[Math.floor(Math.random() * dongshin.length)]);
-      if (yuseong.length > 0) selected.push(yuseong[Math.floor(Math.random() * yuseong.length)]);
-
-      const remaining = (materials || []).filter(m => ['KCC', '동신', '유성'].includes(m.brand) && !selected.map(s => s.id).includes(m.id));
-      if (remaining.length > 0 && selected.length < 4) {
-        const shuffledRemaining = [...remaining].sort(() => 0.5 - Math.random());
-        selected.push(...shuffledRemaining.slice(0, 4 - selected.length));
+      if (isMounted) {
+        setFeaturedItems(finalShuffled);
       }
-      const finalShuffled = [...selected].sort(() => 0.5 - Math.random());
-      setFeaturedItems(finalShuffled);
-    });
+    }
+
+    loadFeatured();
     return () => { isMounted = false; };
   }, []);
 
@@ -607,7 +643,14 @@ export default function Home() {
     return sampleBooks.filter(b => targets.includes(b.id));
   }, []);
 
-  // Scroll Reveal Observer
+  const [heroActive, setHeroActive] = useState(false);
+
+  // Trigger Hero Intro immediately on mount
+  useEffect(() => {
+    setHeroActive(true);
+  }, []);
+
+  // Scroll Reveal Observer (High Performance, unobserves once active)
   useEffect(() => {
     const reveals = document.querySelectorAll(".reveal");
     const observer = new IntersectionObserver(
@@ -615,15 +658,17 @@ export default function Home() {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add("active");
+            observer.unobserve(entry.target); // Stop tracking once animated to save resources
           }
         });
       },
-      { threshold: 0.1 }
+      { threshold: 0.12, rootMargin: "0px 0px -8% 0px" }
     );
 
     reveals.forEach((el) => observer.observe(el));
     return () => {
       reveals.forEach((el) => observer.unobserve(el));
+      observer.disconnect();
     };
   }, []);
 
@@ -634,7 +679,11 @@ export default function Home() {
         {/* ==========================================
            1. Hero Section (B2B Redesigned: Two Column Layout)
            ========================================== */}
-        <section className="showroom-hero-b2b">
+        <section className={`showroom-hero-b2b ${heroActive ? "hero-active" : ""}`}>
+          <div className="hero-b2b-bg-wrapper">
+            <div className="hero-b2b-bg" />
+            <div className="hero-b2b-overlay" />
+          </div>
           <div className="hero-b2b-container container">
             {/* Left Content Column */}
             <div className="hero-b2b-content">
@@ -703,8 +752,8 @@ export default function Home() {
         {/* ==========================================
            2. B2B Material Categories (B단계)
            ========================================== */}
-        <section className="showroom-category-v2 reveal">
-          <div className="section-header-v2 container">
+        <section className="showroom-category-v2">
+          <div className="section-header-v2 container reveal">
             <span className="section-subtitle-v2">MATERIAL CATEGORIES</span>
             <h2 className="section-title-v2">취급 자재 카테고리</h2>
             <p className="section-desc-v2">
@@ -716,7 +765,8 @@ export default function Home() {
             {categories.map((cat, idx) => (
               <div 
                 key={idx} 
-                className="category-v2-card" 
+                className="category-v2-card reveal" 
+                style={{ "--delay": `${idx * 80}ms` }}
                 onClick={() => nav(cat.path)}
               >
                 <div className="category-v2-card-img-wrap">
@@ -742,8 +792,8 @@ export default function Home() {
         {/* ==========================================
            2.8 Today's Recommended Category Banner (Randomized)
            ========================================== */}
-        <section className="showroom-random-banner reveal">
-          <div className="random-banner-container container">
+        <section className="showroom-random-banner">
+          <div className="random-banner-container container reveal">
             <div className="random-banner-card">
               <div className="random-banner-img-wrap">
                 <img 
@@ -776,8 +826,8 @@ export default function Home() {
         {/* ==========================================
            3. Sample Book Section (Catalog Layout)
            ========================================== */}
-        <section className="showroom-samplebooks-v2 reveal">
-          <div className="section-header-v2 container">
+        <section className="showroom-samplebooks-v2">
+          <div className="section-header-v2 container reveal">
             <span className="section-subtitle-v2">DIGITAL CATALOG</span>
             <h2 className="section-title-v2">브랜드별 샘플북</h2>
             <p className="section-desc-v2">
@@ -786,10 +836,11 @@ export default function Home() {
           </div>
 
           <div className="samplebooks-v2-grid container">
-            {homeSampleBooks.map((book) => (
+            {homeSampleBooks.map((book, idx) => (
               <div 
                 key={book.id} 
-                className="samplebook-v2-card"
+                className="samplebook-v2-card reveal"
+                style={{ "--delay": `${idx * 80}ms` }}
                 onClick={() => {
                   if (book.openInNewTab) {
                     window.open(book.pdf || "#", "_blank", "noopener,noreferrer");
@@ -827,8 +878,8 @@ export default function Home() {
         {/* ==========================================
            4. Featured Materials Section (Curation Grid)
            ========================================== */}
-        <section className="showroom-featured-v2 reveal">
-          <div className="section-header-v2 container">
+        <section className="showroom-featured-v2">
+          <div className="section-header-v2 container reveal">
             <span className="section-subtitle-v2">CURATED LIST</span>
             <h2 className="section-title-v2">추천 자재</h2>
             <p className="section-desc-v2">
@@ -837,8 +888,8 @@ export default function Home() {
           </div>
 
           <div className="featured-v2-grid container">
-            {featuredItems.map((mat) => (
-              <FeaturedCard key={mat.id} mat={mat} />
+            {featuredItems.map((mat, idx) => (
+              <FeaturedCard key={mat.id} mat={mat} idx={idx} />
             ))}
           </div>
         </section>
@@ -846,8 +897,8 @@ export default function Home() {
         {/* ==========================================
            5. Project / 시공사례 Section
            ========================================== */}
-        <section className="showroom-projects-v2 reveal">
-          <div className="section-header-v2 container">
+        <section className="showroom-projects-v2">
+          <div className="section-header-v2 container reveal">
             <span className="section-subtitle-v2">PORTFOLIO</span>
             <h2 className="section-title-v2">주요 시공사례</h2>
             <p className="section-desc-v2">
@@ -856,8 +907,12 @@ export default function Home() {
           </div>
 
           <div className="projects-v2-grid container">
-            {(dbProjects.length > 0 ? dbProjects : projects).map((proj) => (
-              <div key={proj.id} className="project-v2-card">
+            {(dbProjects.length > 0 ? dbProjects : projects).map((proj, idx) => (
+              <div 
+                key={proj.id} 
+                className="project-v2-card reveal"
+                style={{ "--delay": `${idx * 80}ms` }}
+              >
                 <div className="project-v2-img-frame">
                   <img src={proj.image} alt={proj.title} className="project-v2-img" />
                 </div>
@@ -886,27 +941,39 @@ export default function Home() {
         <BrandLogosCarousel />
 
         {/* ==========================================
+           5.8 Large Text Marquee Section (F단계)
+           ========================================== */}
+        <section className="showroom-marquee-section">
+          <div className="marquee-container">
+            <div className="marquee-inner">
+              <span>동경바닥재 B2B MATERIAL ORDER · SAMPLE BOOK · QUICK ESTIMATE · FLOORING MATERIAL · WALLPAPER · DECO TILE · </span>
+              <span>동경바닥재 B2B MATERIAL ORDER · SAMPLE BOOK · QUICK ESTIMATE · FLOORING MATERIAL · WALLPAPER · DECO TILE · </span>
+            </div>
+          </div>
+        </section>
+
+        {/* ==========================================
            6. B2B Trust Section (D단계 - 스탯 지표 수정)
            ========================================== */}
-        <section className="showroom-trust-v2 reveal">
+        <section className="showroom-trust-v2">
           <div className="trust-v2-container container">
             <div className="trust-v2-grid">
-              <div className="trust-v2-item">
+              <div className="trust-v2-item reveal" style={{ "--delay": "0ms" }}>
                 <span className="trust-v2-num">20+</span>
                 <h4 className="trust-v2-title">현장 실무 경력</h4>
                 <p className="trust-v2-desc">20년 이상 오직 바닥재와 벽지 한 분야만을 전문으로 다져온 기술력과 자재 선별 노하우</p>
               </div>
-              <div className="trust-v2-item">
+              <div className="trust-v2-item reveal" style={{ "--delay": "80ms" }}>
                 <span className="trust-v2-num">1,000+</span>
                 <h4 className="trust-v2-title">누적 시공·납품 현장</h4>
                 <p className="trust-v2-desc">아파트, 빌라, 상가, 사무실, 공공기관 등 다양한 규모와 환경의 성공적인 자재 납품 및 시공 레코드</p>
               </div>
-              <div className="trust-v2-item">
+              <div className="trust-v2-item reveal" style={{ "--delay": "160ms" }}>
                 <span className="trust-v2-num">주요 브랜드</span>
                 <h4 className="trust-v2-title">정품 자재 유통</h4>
                 <p className="trust-v2-desc">KCC글라스, LX하우시스, 동신포리마, 현대L&C 등 믿을 수 있는 국내 1군 브랜드 정품 취급</p>
               </div>
-              <div className="trust-v2-item">
+              <div className="trust-v2-item reveal" style={{ "--delay": "240ms" }}>
                 <span className="trust-v2-num">빠른 상담</span>
                 <h4 className="trust-v2-title">견적 및 자재 매칭</h4>
                 <p className="trust-v2-desc">상담 접수 시 현장 도면 및 사양 분석을 통해 가장 경제적이고 확실한 자재 선택을 지원</p>

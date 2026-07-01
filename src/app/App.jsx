@@ -12,6 +12,7 @@ import Cases from "../pages/Cases/Cases";
 import Cart from "../pages/Cart/Cart";
 import Login from "../pages/Login/Login";
 import Signup from "../pages/Signup/Signup";
+import LoginCallback from "../pages/Login/LoginCallback";
 import MyPage from "../pages/MyPage/MyPage";
 import PrivacyPolicy from "../pages/PrivacyPolicy/PrivacyPolicy";
 import TermsOfService from "../pages/TermsOfService/TermsOfService";
@@ -102,6 +103,7 @@ export default function App() {
         <Route path="/cases" element={<Cases />} />
         <Route path="/customer-center" element={<Home />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/login-callback" element={<LoginCallback />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/mypage" element={<MyPage />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />

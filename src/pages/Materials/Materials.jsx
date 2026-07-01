@@ -230,12 +230,6 @@ export default function Materials() {
         }
       }
 
-      // Material type check (Wallpaper only)
-      let materialOk = true;
-      if (activeTab === "벽지" && activeMaterialType !== "all") {
-        materialOk = (m.materialType === activeMaterialType);
-      }
-
       // Line check
       let lineOk = true;
       if (activeLine !== "all" && visibleLines.length > 2) {
@@ -243,7 +237,7 @@ export default function Materials() {
         lineOk = (line === activeLine);
       }
 
-      return tabOk && brandOk && materialOk && lineOk;
+      return tabOk && brandOk && lineOk;
     });
   }, [materialsList, activeTab, activeBrand, activeMaterialType, activeLine, searchText, visibleLines]);
 
@@ -335,20 +329,7 @@ export default function Materials() {
             </div>
           )}
 
-          {/* ✅ 3. Wallpaper Material Type Filter */}
-          {activeTab === "벽지" && (
-            <div className="material-type-row">
-              {(activeBrand === "all" ? ["all"] : activeBrand === "개나리" ? ["all", "프리미엄", "합지(소폭)", "합지(장폭)", "실크", "방염"] : activeBrand === "LX" ? ["all", "디아망", "합지", "실크", "방염"] : activeBrand === "서울" ? ["all", "프리미엄", "합지", "실크", "방염"] : ["all", "합지", "실크", "방염"]).map((t) => (
-                <button
-                  key={t}
-                  className={`material-type-chip ${activeMaterialType === t ? "active" : ""}`}
-                  onClick={() => setActiveMaterialType(t)}
-                >
-                  {t === "all" ? "전체 재질" : t}
-                </button>
-              ))}
-            </div>
-          )}
+
 
           {/* ✅ 4. Products grid display wrapper */}
           <div className="materials-wrapper">
