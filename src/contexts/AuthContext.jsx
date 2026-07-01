@@ -37,7 +37,10 @@ export function AuthProvider({ children }) {
     }
   }, []);
 
-  const openLoginModal = useCallback(() => setIsLoginModalOpen(true), []);
+  const openLoginModal = useCallback(() => {
+    const currentPath = window.location.pathname + window.location.search;
+    window.location.href = `/login?redirect=${encodeURIComponent(currentPath)}`;
+  }, []);
   const closeLoginModal = useCallback(() => setIsLoginModalOpen(false), []);
 
   const value = {
