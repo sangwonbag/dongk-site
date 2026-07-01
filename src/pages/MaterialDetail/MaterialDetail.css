@@ -958,7 +958,7 @@
   box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.08);
   z-index: 1000;
   display: none;
-  padding: 10px 16px;
+  padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
   flex-direction: column;
   gap: 8px;
 }
@@ -966,22 +966,29 @@
 .mobile-cta-sub-row {
   display: flex;
   justify-content: space-between;
-  gap: 12px;
+  gap: 10px;
 }
 
 .mobile-cta-sub-btn {
   flex: 1;
-  background: none;
-  border: none;
-  font-size: 12px;
+  background-color: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  font-size: 13px;
   font-weight: 600;
   color: var(--text-muted);
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 4px;
-  padding: 6px 0;
+  gap: 6px;
+  height: 44px;
+  min-height: 44px;
   cursor: pointer;
+  transition: var(--transition);
+}
+
+.mobile-cta-sub-btn:hover {
+  background-color: var(--bg-alt);
 }
 
 .mobile-cta-sub-btn svg {
@@ -995,9 +1002,10 @@
 
 .mobile-cta-main-btn {
   flex: 1;
-  height: 46px;
+  height: 48px;
+  min-height: 48px;
   border-radius: var(--radius-md);
-  font-size: 13.5px;
+  font-size: 14px;
   font-weight: 700;
   display: flex;
   align-items: center;

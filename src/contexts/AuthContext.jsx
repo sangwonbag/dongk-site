@@ -38,8 +38,11 @@ export function AuthProvider({ children }) {
   }, []);
 
   const openLoginModal = useCallback(() => {
-    const currentPath = window.location.pathname + window.location.search;
-    window.location.href = `/login?redirect=${encodeURIComponent(currentPath)}`;
+    const confirmLogin = window.confirm("로그인이 필요한 서비스입니다.\n로그인 페이지로 이동하시겠습니까?");
+    if (confirmLogin) {
+      const currentPath = window.location.pathname + window.location.search;
+      window.location.href = `/login?redirect=${encodeURIComponent(currentPath)}`;
+    }
   }, []);
   const closeLoginModal = useCallback(() => setIsLoginModalOpen(false), []);
 

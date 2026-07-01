@@ -1,7 +1,7 @@
 /* AdminMaterials.css - 어드민 자재 CRUD 스타일 */
 .admin-materials-container {
   padding: 40px 20px;
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
   font-family: 'Outfit', 'Pretendard', sans-serif;
 }
@@ -289,6 +289,8 @@
   border-bottom: 1px solid #f1f5f9;
   color: #475569;
   vertical-align: middle;
+  word-break: keep-all;
+  white-space: normal;
 }
 
 .admin-materials-table tr:last-child td {
@@ -298,10 +300,14 @@
 .code-cell {
   color: #64748b;
   font-size: 0.8rem;
+  white-space: nowrap;
 }
 
 .name-cell {
   color: #0f172a;
+  min-width: 220px;
+  word-break: keep-all;
+  white-space: normal;
 }
 
 .name-cell strong {

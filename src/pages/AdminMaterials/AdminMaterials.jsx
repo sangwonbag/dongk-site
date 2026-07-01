@@ -23,7 +23,7 @@ export default function AdminMaterials() {
   const [selectedCategoryName, setSelectedCategoryName] = useState('전체');
   const [selectedBrandName, setSelectedBrandName] = useState('전체');
   const [selectedStatus, setSelectedStatus] = useState('전체');
-  const [visibleCount, setVisibleCount] = useState(50); // pagination in admin grid
+  const [visibleCount, setVisibleCount] = useState(100); // pagination in admin grid
 
   // Form Modal States
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -129,7 +129,7 @@ export default function AdminMaterials() {
 
   // Reset pagination when filter changes
   useEffect(() => {
-    setVisibleCount(50);
+    setVisibleCount(100);
   }, [searchTerm, selectedCategoryName, selectedBrandName, selectedStatus]);
 
   // Dynamically filter brands based on selected category in the form
@@ -217,7 +217,7 @@ export default function AdminMaterials() {
     setSelectedCategoryName('전체');
     setSelectedBrandName('전체');
     setSelectedStatus('전체');
-    setVisibleCount(50);
+    setVisibleCount(100);
   };
 
   // Modal open handlers
@@ -616,7 +616,7 @@ export default function AdminMaterials() {
               <div className="load-more-box">
                 <button
                   className="btn-load-more"
-                  onClick={() => setVisibleCount(prev => prev + 50)}
+                  onClick={() => setVisibleCount(prev => prev + 100)}
                 >
                   더보기 ({Math.min(visibleCount, filteredProducts.length)} / {filteredProducts.length})
                 </button>

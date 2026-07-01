@@ -12,7 +12,7 @@ const CATEGORIES = ["데코타일", "장판", "마루", "벽지", "카페트타�
 
 // 2. Brands specified by the user
 const BRANDS_BY_CATEGORY = {
-  데코타일: ["KCC", "동신", "재영", "우성", "LX", "녹수", "현대"],
+  데코타일: ["KCC", "동신", "재영", "유성", "LX", "녹수", "현대"],
   장판: ["LX"],
   마루: ["이건", "동화", "구정"],
   벽지: ["LX", "개나리", "서울", "제일", "DID", "신한", "현대벽지"],
@@ -361,7 +361,9 @@ export default function Materials() {
                 )}
               </>
             ) : (
-              <div className="no-results">상품 준비중입니다.</div>
+              <div className="no-results">
+                {searchText ? `"${searchText}"에 대한 검색 결과가 없습니다.` : "선택하신 카테고리 및 브랜드의 상품이 준비 중입니다."}
+              </div>
             )}
           </div>
         </main>
