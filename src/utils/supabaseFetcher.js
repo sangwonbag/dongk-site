@@ -22,6 +22,7 @@ const getMaterialMatchKey = (item) => {
 };
 
 let cachedProducts = null;
+const filteredProductsCache = new Map();
 
 export async function fetchAllProducts(forceRefresh = false) {
   if (cachedProducts && !forceRefresh) {
@@ -117,75 +118,81 @@ export async function fetchAllProducts(forceRefresh = false) {
   console.log("Supabase response raw rows count:", data.length);
 
   // Map database columns to the frontend object structure safely
-  cachedProducts = data.map(p => {
-    const code = p.product_code || "";
-    const brandName = p.brands?.name || "";
-    const categoryName = p.categories?.name || "";
+  cachedProducts = deduplicateProducts(data.map(mapProductRow));
 
-    // Find matching Dongshin PDF product to enrich properties
-    const dongshinMatch = (brandName === '동신' && categoryName === '데코타일')
-      ? dongshinPolymer2026.find(d => d.code.toUpperCase() === code.toUpperCase())
-      : null;
+  console.log("Successfully loaded and mapped products from Supabase (deduplicated):", cachedProducts.length);
+  return cachedProducts;
+}
 
-    const dbItem = {
-      brand: brandName,
-      category: categoryName,
-      line: p.description || "",
-      name: p.name || "",
-      code: p.product_code || null
-    };
-    const dbKey = getMaterialMatchKey(dbItem);
-    const localMatch = materials.find(m => getMaterialMatchKey(m) === dbKey);
+export function mapProductRow(p) {
+  const code = p.product_code || "";
+  const brandName = p.brands?.name || "";
+  const categoryName = p.categories?.name || "";
 
-    const mapped = {
-      id: p.slug || String(p.id),
-      code: code,
-      name: p.name || "",
-      brand: brandName,
-      category: categoryName,
-      price: p.price || 0,
+  // Find matching Dongshin PDF product to enrich properties
+  const dongshinMatch = (brandName === '동신' && categoryName === '데코타일')
+    ? dongshinPolymer2026.find(d => d.code.toUpperCase() === code.toUpperCase())
+    : null;
+
+  const dbItem = {
+    brand: brandName,
+    category: categoryName,
+    line: p.description || "",
+    name: p.name || "",
+    code: p.product_code || null
+  };
+  const dbKey = getMaterialMatchKey(dbItem);
+  const localMatch = materials.find(m => getMaterialMatchKey(m) === dbKey);
+
+  const mapped = {
+    id: p.slug || String(p.id),
+    code: code,
+    name: p.name || "",
+    brand: brandName,
+    category: categoryName,
+    price: p.price || 0,
+    thickness: p.thickness || "",
+    specs: {
       thickness: p.thickness || "",
-      specs: {
-        thickness: p.thickness || "",
-        size: p.size_text || "",
-        packing: p.unit || ""
-      },
-      thumbnail: p.image_url || null,
-      image: p.image_url || null,
-      line: p.description || "",
-      description: p.description || "",
-      featured: p.is_featured || false,
-      active: p.is_active ?? true
-    };
+      size: p.size_text || "",
+      packing: p.unit || ""
+    },
+    thumbnail: p.image_url || null,
+    image: p.image_url || null,
+    line: p.description || "",
+    description: p.description || "",
+    featured: p.is_featured || false,
+    active: p.is_active ?? true
+  };
 
-    if (dongshinMatch) {
-      mapped.collection = dongshinMatch.collection;
-      mapped.series = dongshinMatch.series;
-      mapped.catalog = dongshinMatch.catalog;
-      mapped.productName = dongshinMatch.productName;
-      // Overwrite name to match code
-      mapped.name = dongshinMatch.code;
+  if (dongshinMatch) {
+    mapped.collection = dongshinMatch.collection;
+    mapped.series = dongshinMatch.series;
+    mapped.catalog = dongshinMatch.catalog;
+    mapped.productName = dongshinMatch.productName;
+    // Overwrite name to match code
+    mapped.name = dongshinMatch.code;
+  }
+
+  if (localMatch) {
+    mapped.collection = localMatch.collection;
+    mapped.series = localMatch.series;
+    mapped.note = localMatch.note;
+    mapped.catalog = localMatch.catalog;
+    mapped.productName = localMatch.productName;
+    if (localMatch.sizeOptions) {
+      mapped.sizeOptions = localMatch.sizeOptions;
     }
+  }
 
-    if (localMatch) {
-      mapped.collection = localMatch.collection;
-      mapped.series = localMatch.series;
-      mapped.note = localMatch.note;
-      mapped.catalog = localMatch.catalog;
-      mapped.productName = localMatch.productName;
-      if (localMatch.sizeOptions) {
-        mapped.sizeOptions = localMatch.sizeOptions;
-      }
-    }
+  return mapped;
+}
 
-    return mapped;
-  });
-
-  // Deduplicate products based on brand + category + line + name (Requirement 6)
+export function deduplicateProducts(productList) {
   const seenProducts = new Map();
   const deduplicatedProducts = [];
 
-  for (const m of cachedProducts) {
+  for (const m of productList) {
     const brand = normalizeText(m.brand);
     const category = normalizeText(m.category);
     const line = normalizeText(m.line);
@@ -205,12 +212,105 @@ export async function fetchAllProducts(forceRefresh = false) {
     }
   }
 
-  cachedProducts = deduplicatedProducts;
+  return deduplicatedProducts;
+}
 
-  console.log("Successfully loaded and mapped products from Supabase (deduplicated):", cachedProducts.length);
-  return cachedProducts;
+export async function fetchFilteredProducts({ category, brand, searchText }) {
+  if (!supabase) {
+    console.warn("Supabase client is not initialized. Using local fallback filtering.");
+    const all = await fetchAllProducts();
+    return filterLocalProducts(all, { category, brand, searchText });
+  }
+
+  const cacheKey = `${category || 'all'}:${brand || 'all'}:${searchText || ''}`;
+  if (filteredProductsCache.has(cacheKey)) {
+    return filteredProductsCache.get(cacheKey);
+  }
+
+  let query = supabase
+    .from('products')
+    .select(`
+      id, slug, name, product_code, price, thickness, size_text, unit, image_url, description, is_featured, is_active, sort_order,
+      categories!inner ( id, name ),
+      brands!inner ( id, name )
+    `)
+    .eq('is_active', true);
+
+  if (searchText) {
+    const s = searchText.trim();
+    query = query.or(`name.ilike.%${s}%,product_code.ilike.%${s}%,description.ilike.%${s}%`);
+  } else {
+    if (category && category !== 'all') {
+      query = query.eq('categories.name', category);
+    }
+    if (brand && brand !== 'all') {
+      const b = brand.toUpperCase();
+      if (b === 'LX') {
+        query = query.or('name.ilike.%LX%,name.ilike.%LG%', { foreignTable: 'brands' });
+      } else if (b === 'DID') {
+        query = query.or('name.ilike.%DID%,name.ilike.%디아이디%', { foreignTable: 'brands' });
+      } else if (b === '신한') {
+        query = query.like('brands.name', '%신한%');
+      } else if (b === '현대' || b === '현대벽지') {
+        query = query.like('brands.name', '%현대%');
+      } else if (b === '어반') {
+        query = query.or('name.ilike.%어반%,name.ilike.%URBAN%', { foreignTable: 'brands' });
+      } else {
+        query = query.ilike('brands.name', `%${brand}%`);
+      }
+    }
+  }
+
+  query = query.order('sort_order', { ascending: true }).order('id', { ascending: false });
+
+  const { data, error } = await query;
+  if (error) {
+    throw error;
+  }
+
+  const mapped = deduplicateProducts((data || []).map(mapProductRow));
+  filteredProductsCache.set(cacheKey, mapped);
+  return mapped;
+}
+
+function filterLocalProducts(list, { category, brand, searchText }) {
+  if (searchText) {
+    const s = searchText.trim().toLowerCase();
+    return list.filter(m => 
+      String(m.name).toLowerCase().includes(s) || 
+      String(m.code).toLowerCase().includes(s) || 
+      String(m.brand).toLowerCase().includes(s) ||
+      String(m.line).toLowerCase().includes(s)
+    );
+  }
+  return list.filter(m => {
+    const catOk = !category || category === 'all' || m.category === category;
+    let brandOk = false;
+    if (!brand || brand === 'all') {
+      brandOk = true;
+    } else {
+      const b = brand.toUpperCase();
+      const itemBrand = (m.brand || "").toUpperCase();
+      const compBrand = (m.computedBrand || "").toUpperCase();
+      if (b === 'LX') {
+        brandOk = itemBrand.includes("LX") || itemBrand.includes("LG") || compBrand.includes("LX");
+      } else if (b === 'DID') {
+        brandOk = itemBrand.includes("DID") || itemBrand.includes("디아이디");
+      } else if (b === '신한') {
+        brandOk = itemBrand.includes("신한");
+      } else if (b === '현대' || b === '현대벽지') {
+        brandOk = itemBrand.includes("현대");
+      } else if (b === '어반') {
+        brandOk = itemBrand.includes("어반") || itemBrand.includes("URBAN");
+      } else {
+        brandOk = itemBrand.includes(b) || compBrand.includes(b);
+      }
+    }
+    return catOk && brandOk;
+  });
 }
 
 export function clearProductCache() {
   cachedProducts = null;
+  filteredProductsCache.clear();
 }

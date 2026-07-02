@@ -4,7 +4,7 @@ import MainLayout from "../../components/layout/MainLayout";
 import { getComputedBrand } from "../../utils/brandUtils";
 import { getSearchScore } from "../../utils/searchUtils";
 import MaterialCard from "../../components/material/MaterialCard";
-import { fetchAllProducts } from "../../utils/supabaseFetcher";
+import { fetchFilteredProducts, fetchAllProducts } from "../../utils/supabaseFetcher";
 import "./Materials.css";
 import "./MaterialsPageSkeleton.css";
 
@@ -80,24 +80,38 @@ export default function Materials() {
   // Pagination state (Optimized default to 24 for faster render)
   const [visibleCount, setVisibleCount] = useState(24);
 
-  // Fetch from Supabase on mount
+  // Fetch from Supabase on mount/filter change
   useEffect(() => {
+    let isCurrent = true;
     async function load() {
       try {
         setLoading(true);
         setError(null);
-        console.log("[Debug] Fetching all materials from Supabase...");
-        const data = await fetchAllProducts();
-        setMaterialsList(data);
+        console.log(`[Debug] Fetching materials for: category=${activeTab}, brand=${activeBrand}, search=${searchText}`);
+        const data = await fetchFilteredProducts({
+          category: activeTab,
+          brand: activeBrand,
+          searchText: searchText
+        });
+        if (isCurrent) {
+          setMaterialsList(data);
+        }
       } catch (err) {
         console.error("[Debug] Supabase load error:", err);
-        setError(err.message || String(err));
+        if (isCurrent) {
+          setError(err.message || String(err));
+        }
       } finally {
-        setLoading(false);
+        if (isCurrent) {
+          setLoading(false);
+        }
       }
     }
     load();
-  }, []);
+    return () => {
+      isCurrent = false;
+    };
+  }, [activeTab, activeBrand, searchText]);
 
   // Sync search input state with URL search param changes
   useEffect(() => {
@@ -269,6 +283,35 @@ export default function Materials() {
           <p style={{ marginTop: "10px", fontSize: "14px", color: "#6B6B6B" }}>
             <strong>오류 내용:</strong> {error}
           </p>
+          <button 
+            onClick={() => {
+              setError(null);
+              setLoading(true);
+              fetchFilteredProducts({
+                category: activeTab,
+                brand: activeBrand,
+                searchText: searchText
+              }).then(data => {
+                setMaterialsList(data);
+                setLoading(false);
+              }).catch(err => {
+                setError(err.message || String(err));
+                setLoading(false);
+              });
+            }}
+            style={{
+              marginTop: "20px",
+              padding: "10px 20px",
+              backgroundColor: "#4f46e5",
+              color: "#ffffff",
+              border: "none",
+              borderRadius: "8px",
+              fontWeight: "600",
+              cursor: "pointer"
+            }}
+          >
+            다시 시도
+          </button>
         </div>
       </MainLayout>
     );
