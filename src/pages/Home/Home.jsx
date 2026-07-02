@@ -680,7 +680,7 @@ export default function Home() {
           <div className="hero-b2b-container container">
             {/* Left Content Column */}
             <div className="hero-b2b-content">
-              <span className="hero-b2b-badge">바닥재·벽지 자재 유통 전문</span>
+              <span className="hero-b2b-badge">바닥재·벽지 자재 유통·시공 전문</span>
               <h1 className="hero-b2b-title">
                 바닥재·벽지 자재 공급부터<br />
                 시공 연계까지 원스톱 해결
@@ -698,6 +698,19 @@ export default function Home() {
                 <button className="btn-b2b-hero outline" onClick={() => nav("/samplebooks")}>
                   샘플북 보기
                 </button>
+              </div>
+            </div>
+
+            {/* Right Work/Process Cards Column */}
+            <div className="hero-b2b-cards">
+              {/* Quick Contact & Logistics Card */}
+              <div className="b2b-info-card logistics">
+                <h3 className="card-lbl">배송 및 현장 시공 안내</h3>
+                <ul className="logistics-list">
+                  <li>🚚 <strong>전국 화물 배송:</strong> 대신/경동화물 지점 배송 및 현장 직송</li>
+                  <li>⚡ <strong>수도권 빠른 출고:</strong> 물류창고 재고 매칭 시 당일/익일 출고</li>
+                  <li>🔨 <strong>20년 전문 시공팀:</strong> 수도권 전역 책임 시공 및 AS 보증</li>
+                </ul>
               </div>
             </div>
           </div>
