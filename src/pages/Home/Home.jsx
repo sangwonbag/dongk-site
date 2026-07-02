@@ -62,6 +62,10 @@ const FeaturedCard = ({ mat, idx }) => {
     return `${mat.brand}의 정품 ${mat.category} 자재입니다.`;
   })();
 
+  const formattedPrice = mat.price && mat.price > 0 
+    ? `${mat.price.toLocaleString()}원/평` 
+    : "견적 문의";
+
   return (
     <div 
       className="featured-v2-card reveal"
@@ -76,19 +80,43 @@ const FeaturedCard = ({ mat, idx }) => {
           onError={(e) => { e.target.onerror = null; e.target.src = "/images/no-image.svg"; }}
           loading="lazy"
         />
+        <span className="featured-v2-brand-badge">{mat.brand}</span>
       </div>
       <div className="featured-v2-body">
-        <div className="featured-v2-meta">
-          <span className="featured-v2-brand">{mat.brand}</span>
-          {formattedSpecs && <span className="featured-v2-specs">{formattedSpecs}</span>}
-        </div>
+        <span className="featured-v2-cat-tag">{mat.category || "데코타일"}</span>
         <h3 className="featured-v2-name">{mat.name}</h3>
+        {formattedSpecs && <p className="featured-v2-specs">{formattedSpecs}</p>}
         <p className="featured-v2-desc">{desc}</p>
-        <span className="featured-v2-more-link">자재 상세정보 보기 <ArrowRight size={14} /></span>
+        
+        <div className="featured-v2-price-row">
+          <span className="featured-v2-price">{formattedPrice}</span>
+          <button className="featured-v2-btn" onClick={(e) => {
+            e.stopPropagation();
+            navigate(`/estimate/request?materialId=${mat.id}`);
+          }}>
+            견적 문의
+          </button>
+        </div>
       </div>
     </div>
   );
 };
+
+const SkeletonCard = () => (
+  <div className="featured-v2-card skeleton-loading">
+    <div className="featured-v2-img-frame skeleton-box"></div>
+    <div className="featured-v2-body">
+      <div className="skeleton-line" style={{ width: '40%', height: '12px', marginBottom: '8px' }}></div>
+      <div className="skeleton-line" style={{ width: '70%', height: '18px', marginBottom: '12px' }}></div>
+      <div className="skeleton-line" style={{ width: '90%', height: '14px', marginBottom: '6px' }}></div>
+      <div className="skeleton-line" style={{ width: '80%', height: '14px', marginBottom: '20px' }}></div>
+      <div className="featured-v2-price-row" style={{ marginTop: 'auto' }}>
+        <div className="skeleton-line" style={{ width: '50px', height: '18px' }}></div>
+        <div className="skeleton-line" style={{ width: '70px', height: '32px', borderRadius: '4px' }}></div>
+      </div>
+    </div>
+  </div>
+);
 
 // Curated realistic construction projects array
 const projects = [
@@ -448,9 +476,69 @@ const RANDOM_CATEGORIES = [
 
 export default function Home() {
   const nav = useNavigate();
-  const [featuredItems, setFeaturedItems] = useState([]);
+  const [featuredPool, setFeaturedPool] = useState([]);
+  const [isFeaturedLoading, setIsFeaturedLoading] = useState(true);
+  const [isFeaturedError, setIsFeaturedError] = useState(false);
   const [currentSlide, setCurrentSlide] = useState(0);
   const [dbProjects, setDbProjects] = useState([]);
+
+  // Balanced recommendation logic using useMemo to prevent infinite shuffle on render
+  const featuredItems = useMemo(() => {
+    if (!featuredPool || featuredPool.length === 0) return [];
+
+    // Group by brand to ensure diversity
+    const kccItems = featuredPool.filter(m => m.brand === "KCC");
+    const yuseongItems = featuredPool.filter(m => m.brand === "유성");
+    const dongshinItems = featuredPool.filter(m => m.brand === "동신");
+    const otherItems = featuredPool.filter(m => !["KCC", "유성", "동신"].includes(m.brand));
+
+    // Shuffle each group
+    const shuffledKcc = [...kccItems].sort(() => 0.5 - Math.random());
+    const shuffledYuseong = [...yuseongItems].sort(() => 0.5 - Math.random());
+    const shuffledDongshin = [...dongshinItems].sort(() => 0.5 - Math.random());
+
+    const selected = [];
+    
+    // Target 8 items balanced: 3 KCC, 3 동신, 2 유성
+    const targetKCC = 3;
+    const targetDongshin = 3;
+    const targetYuseong = 2;
+
+    const takeKCC = Math.min(targetKCC, shuffledKcc.length);
+    const takeDongshin = Math.min(targetDongshin, shuffledDongshin.length);
+    const takeYuseong = Math.min(targetYuseong, shuffledYuseong.length);
+
+    for (let i = 0; i < takeKCC; i++) selected.push(shuffledKcc[i]);
+    for (let i = 0; i < takeDongshin; i++) selected.push(shuffledDongshin[i]);
+    for (let i = 0; i < takeYuseong; i++) selected.push(shuffledYuseong[i]);
+
+    // Fill spots if some brands are lacking
+    const remainingKcc = shuffledKcc.slice(takeKCC);
+    const remainingDongshin = shuffledDongshin.slice(takeDongshin);
+    const remainingYuseong = shuffledYuseong.slice(takeYuseong);
+    const fillPool = [...remainingKcc, ...remainingDongshin, ...remainingYuseong, ...otherItems].sort(() => 0.5 - Math.random());
+
+    while (selected.length < 8 && fillPool.length > 0) {
+      const nextItem = fillPool.shift();
+      if (!selected.some(s => s.id === nextItem.id || s.code === nextItem.code)) {
+        selected.push(nextItem);
+      }
+    }
+
+    // Fallback to general pool if less than 8
+    if (selected.length < 8) {
+      const remainingFill = featuredPool
+        .filter(p => !selected.some(s => s.id === p.id || s.code === p.code))
+        .sort(() => 0.5 - Math.random());
+      
+      while (selected.length < 8 && remainingFill.length > 0) {
+        selected.push(remainingFill.shift());
+      }
+    }
+
+    // Shuffle the final 8 list so it mixes brand names
+    return selected.sort(() => 0.5 - Math.random());
+  }, [featuredPool]);
 
   // Randomized category selection (persisted during the browser session)
   const [randomCategory] = useState(() => {
@@ -510,12 +598,17 @@ export default function Home() {
 
   useEffect(() => {
     let isMounted = true;
+    setIsFeaturedLoading(true);
+    setIsFeaturedError(false);
 
     async function loadFeatured() {
-      // 1. If Supabase is active, query a tiny subset (limit 20) instead of fetching 4000+ items
+      let activeProducts = [];
+      let fetchErrorOccurred = false;
+
       if (supabase) {
         try {
-          console.log("[Home] Fetching a light subset of active products for recommend section...");
+          console.log("[Home] Fetching KCC, 동신, 유성 products from Supabase...");
+          // Brand IDs for KCC (1), 동신 (5), 유성 (6)
           const { data: rawChunk, error } = await supabase
             .from("products")
             .select(`
@@ -524,61 +617,99 @@ export default function Home() {
               brands ( id, name )
             `)
             .eq("is_active", true)
-            .limit(20);
+            .in("brand_id", [1, 5, 6])
+            .limit(100);
 
           if (!error && rawChunk && rawChunk.length > 0) {
-            const mapped = rawChunk.map(p => ({
-              id: p.slug || String(p.id),
-              code: p.product_code || "",
-              name: p.name || "",
-              brand: p.brands?.name || "",
-              category: p.categories?.name || "",
-              price: p.price || 0,
-              thickness: p.thickness || "",
-              specs: {
-                thickness: p.thickness || "",
-                size: p.size_text || "",
-                packing: p.unit || ""
-              },
-              thumbnail: p.image_url || null,
-              image: p.image_url || null,
-              line: p.description || "",
-              description: p.description || "",
-              featured: p.is_featured || false,
-              active: p.is_active ?? true
-            }));
+            activeProducts = rawChunk;
+          } else {
+            if (error) {
+              console.warn("[Home] Brand filtered Supabase query returned error:", error);
+              fetchErrorOccurred = true;
+            }
+            // If the filtered query returned nothing, try a generic query for active products
+            console.log("[Home] Trying general active products fetch from Supabase...");
+            const { data: fallbackChunk, error: fallbackError } = await supabase
+              .from("products")
+              .select(`
+                *,
+                categories ( id, name ),
+                brands ( id, name )
+              `)
+              .eq("is_active", true)
+              .limit(100);
 
-            if (isMounted) {
-              const shuffled = [...mapped].sort(() => 0.5 - Math.random());
-              setFeaturedItems(shuffled.slice(0, 4));
-              return;
+            if (!fallbackError && fallbackChunk && fallbackChunk.length > 0) {
+              activeProducts = fallbackChunk;
+            } else if (fallbackError) {
+              console.warn("[Home] General Supabase query returned error:", fallbackError);
+              fetchErrorOccurred = true;
             }
           }
         } catch (e) {
-          console.warn("[Home] Fast featured query failed, falling back to local database:", e);
+          console.warn("[Home] Fast featured query failed with exception, falling back to local database:", e);
+          fetchErrorOccurred = true;
         }
+      } else {
+        console.log("[Home] Supabase not available, using local database");
       }
 
-      // 2. Local fallback: Query instantly from materials.db
-      console.log("[Home] Instantly resolving featured items from local database...");
-      const kcc = (materials || []).filter(m => m.brand === "KCC");
-      const dongshin = (materials || []).filter(m => m.brand === "동신");
-      const yuseong = (materials || []).filter(m => m.brand === "유성");
-
-      const selected = [];
-      if (kcc.length > 0) selected.push(kcc[Math.floor(Math.random() * kcc.length)]);
-      if (dongshin.length > 0) selected.push(dongshin[Math.floor(Math.random() * dongshin.length)]);
-      if (yuseong.length > 0) selected.push(yuseong[Math.floor(Math.random() * yuseong.length)]);
-
-      const remaining = (materials || []).filter(m => ["KCC", "동신", "유성"].includes(m.brand) && !selected.map(s => s.id).includes(m.id));
-      if (remaining.length > 0 && selected.length < 4) {
-        const shuffledRemaining = [...remaining].sort(() => 0.5 - Math.random());
-        selected.push(...shuffledRemaining.slice(0, 4 - selected.length));
+      // Map to frontend structure
+      let mapped = [];
+      if (activeProducts && activeProducts.length > 0) {
+        mapped = activeProducts.map(p => ({
+          id: p.slug || String(p.id),
+          code: p.product_code || "",
+          name: p.name || "",
+          brand: p.brands?.name || p.brand || "",
+          category: p.categories?.name || p.category || "",
+          price: p.price || 0,
+          thickness: p.thickness || "",
+          specs: {
+            thickness: p.thickness || "",
+            size: p.size_text || "",
+            packing: p.unit || ""
+          },
+          thumbnail: p.image_url || null,
+          image: p.image_url || null,
+          line: p.description || "",
+          description: p.description || "",
+          featured: p.is_featured || false,
+          active: p.is_active ?? true
+        }));
       }
 
-      const finalShuffled = [...selected].sort(() => 0.5 - Math.random());
+      // Fallback to local materials if mapping is empty or if error occurred
+      if (mapped.length === 0) {
+        console.log("[Home] Resolving featured items from local materials database...");
+        mapped = (materials || []).map(m => ({
+          id: m.id || m.code,
+          code: m.code || "",
+          name: m.name || "",
+          brand: m.brand || "",
+          category: m.category || "",
+          price: m.price || 0,
+          thickness: m.thickness || "",
+          specs: m.specs || {
+            thickness: m.thickness || "",
+            size: "",
+            packing: ""
+          },
+          thumbnail: m.thumbnail || null,
+          image: m.image || null,
+          line: m.line || "",
+          description: m.description || "",
+          featured: m.featured || false,
+          active: m.active ?? true
+        }));
+      }
+
       if (isMounted) {
-        setFeaturedItems(finalShuffled);
+        setFeaturedPool(mapped);
+        setIsFeaturedLoading(false);
+        if (fetchErrorOccurred) {
+          setIsFeaturedError(true);
+        }
       }
     }
 
@@ -663,7 +794,7 @@ export default function Home() {
       reveals.forEach((el) => observer.unobserve(el));
       observer.disconnect();
     };
-  }, []);
+  }, [featuredItems, dbProjects]);
 
   return (
     <MainLayout>
@@ -680,20 +811,20 @@ export default function Home() {
           <div className="hero-b2b-container container">
             {/* Left Content Column */}
             <div className="hero-b2b-content">
-              <span className="hero-b2b-badge">바닥재·벽지 자재 유통·시공 전문</span>
+              <span className="hero-b2b-badge">B2B 전문 바닥재 유통 파트너</span>
               <h1 className="hero-b2b-title">
-                바닥재·벽지 자재 공급부터<br />
-                시공 연계까지 원스톱 해결
+                현장에 필요한 모든 바닥재,<br />
+                <strong>동경바닥재</strong> 하나로
               </h1>
               <p className="hero-b2b-subtitle">
-                데코타일, 장판, 마루, 벽지, 카페트타일 등 국내 주요 브랜드의 자재를 빠르게 확인하고 실시간 견적 문의와 발주를 한 번에 진행하세요.
+                국내 1군 브랜드 데코타일, 장판, 마루, 카페트타일을 대량 도매 단가로 신속하게 공급합니다. 실시간 도매 견적 문의부터 정밀 책임 시공까지 원스톱으로 확인하세요.
               </p>
               <div className="hero-b2b-actions">
-                <button className="btn-b2b-hero primary" onClick={() => nav("/materials")}>
-                  자재 보러가기
+                <button className="btn-b2b-hero primary" onClick={() => nav("/estimate/request")}>
+                  빠른 견적 요청
                 </button>
-                <button className="btn-b2b-hero secondary" onClick={() => nav("/estimate/request")}>
-                  견적 문의하기
+                <button className="btn-b2b-hero secondary" onClick={() => nav("/materials")}>
+                  자재 찾기
                 </button>
                 <button className="btn-b2b-hero outline" onClick={() => nav("/samplebooks")}>
                   샘플북 보기
@@ -701,16 +832,50 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Right Work/Process Cards Column */}
-            <div className="hero-b2b-cards">
-              {/* Quick Contact & Logistics Card */}
-              <div className="b2b-info-card logistics">
-                <h3 className="card-lbl">배송 및 현장 시공 안내</h3>
-                <ul className="logistics-list">
-                  <li>🚚 <strong>전국 화물 배송:</strong> 대신/경동화물 지점 배송 및 현장 직송</li>
-                  <li>⚡ <strong>수도권 빠른 출고:</strong> 물류창고 재고 매칭 시 당일/익일 출고</li>
-                  <li>🔨 <strong>20년 전문 시공팀:</strong> 수도권 전역 책임 시공 및 AS 보증</li>
-                </ul>
+            {/* Right Card-style Images Column */}
+            <div className="hero-b2b-visual">
+              <div className="b2b-visual-stack">
+                <div className="visual-card main-card">
+                  <img src="/images/living_room.png" alt="바닥 자재" className="visual-img" />
+                  <span className="visual-tag bg-gold">Premium Flooring</span>
+                </div>
+                <div className="visual-card sub-card">
+                  <img src="/images/home-interior/korea-store-01.png" alt="상업 공간 시공" className="visual-img" />
+                  <span className="visual-tag bg-dark">책임 시공 보증</span>
+                </div>
+                <div className="visual-floating-badge">
+                  <span className="badge-num">20+</span>
+                  <span className="badge-txt">년 유통 경력</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ==========================================
+           1.5 Black Stats Strip Section
+           ========================================== */}
+        <section className="showroom-stats-strip">
+          <div className="stats-strip-container container">
+            <div className="stats-strip-grid">
+              <div className="stats-strip-item">
+                <span className="stats-num">300평+</span>
+                <span className="stats-lbl">최대 현장 납품 경험</span>
+              </div>
+              <div className="stats-strip-divider" />
+              <div className="stats-strip-item">
+                <span className="stats-num">1,400+</span>
+                <span className="stats-lbl">가지 다양한 자재 라인업</span>
+              </div>
+              <div className="stats-strip-divider" />
+              <div className="stats-strip-item">
+                <span className="stats-num">KCC · 동신 · LX</span>
+                <span className="stats-lbl">국내 주요 브랜드 취급</span>
+              </div>
+              <div className="stats-strip-divider" />
+              <div className="stats-strip-item">
+                <span className="stats-num">실시간</span>
+                <span className="stats-lbl">빠른 견적 및 기술 상담</span>
               </div>
             </div>
           </div>
@@ -855,9 +1020,15 @@ export default function Home() {
           </div>
 
           <div className="featured-v2-grid container">
-            {featuredItems.map((mat, idx) => (
-              <FeaturedCard key={mat.id} mat={mat} idx={idx} />
-            ))}
+            {isFeaturedLoading ? (
+              Array.from({ length: 8 }).map((_, idx) => <SkeletonCard key={idx} />)
+            ) : featuredItems.length > 0 ? (
+              featuredItems.map((mat, idx) => (
+                <FeaturedCard key={mat.id || mat.code || idx} mat={mat} idx={idx} />
+              ))
+            ) : (
+              <div className="no-featured-items-msg">추천 자재를 불러오고 있습니다...</div>
+            )}
           </div>
         </section>
 
@@ -915,6 +1086,55 @@ export default function Home() {
             <div className="marquee-inner">
               <span>동경바닥재 MATERIAL ORDER · SAMPLE BOOK · QUICK ESTIMATE · FLOORING MATERIAL · WALLPAPER · DECO TILE · </span>
               <span>동경바닥재 MATERIAL ORDER · SAMPLE BOOK · QUICK ESTIMATE · FLOORING MATERIAL · WALLPAPER · DECO TILE · </span>
+            </div>
+          </div>
+        </section>
+
+        {/* ==========================================
+           5.9 B2B Order & Consultation Flow Section
+           ========================================== */}
+        <section className="showroom-process-v2">
+          <div className="section-header-v2 container reveal">
+            <span className="section-subtitle-v2">ORDER FLOW</span>
+            <h2 className="section-title-v2">주문/상담 흐름 안내</h2>
+            <p className="section-desc-v2">
+              동경바닥재의 신속하고 정확한 B2B 자재 공급 및 시공 프로세스입니다.
+            </p>
+          </div>
+
+          <div className="process-v2-grid container reveal">
+            <div className="process-v2-card" style={{ "--delay": "0ms" }}>
+              <div className="process-num">01</div>
+              <h3 className="process-title">자재 선택</h3>
+              <p className="process-desc">
+                간편하게 브랜드 샘플북과 추천 자재를 검색하고 원하시는 사양을 확인합니다.
+              </p>
+            </div>
+            <div className="process-v2-card" style={{ "--delay": "80ms" }}>
+              <div className="process-num">02</div>
+              <h3 className="process-title">견적 요청</h3>
+              <p className="process-desc">
+                원하시는 수량과 현장 주소를 입력해주시면 실시간 도매 가격을 산출하여 제안해 드립니다.
+              </p>
+            </div>
+            <div className="process-v2-card" style={{ "--delay": "160ms" }}>
+              <div className="process-num">03</div>
+              <h3 className="process-title">상담 및 납품/시공</h3>
+              <p className="process-desc">
+                단가 확정 시 신속 출고하여 지정 화물지점이나 현장으로 직송하며, 전문 시공 연계를 지원합니다.
+              </p>
+            </div>
+          </div>
+
+          <div className="process-v2-cta-container container reveal">
+            <div className="process-v2-cta-box">
+              <div className="cta-box-text">
+                <span className="cta-box-sub">B2B FAST DELIVERY</span>
+                <h3 className="cta-box-title">오늘 주문하면 내일 선별 현장에서 만나요</h3>
+              </div>
+              <button className="cta-box-btn" onClick={() => nav("/estimate/request")}>
+                빠른 견적 요청
+              </button>
             </div>
           </div>
         </section>
