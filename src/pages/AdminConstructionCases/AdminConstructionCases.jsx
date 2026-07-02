@@ -97,7 +97,7 @@ export default function AdminConstructionCases() {
     setMaterialSummary(item.material_summary || '');
     setDescription(item.description || '');
     setCategory(item.category || '주거공간');
-    setIsActive(item.is_active ?? true);
+    setIsActive(item.is_active ?? item.is_published ?? true);
     setIsFeatured(item.is_featured ?? false);
     setSortOrder(item.sort_order || 0);
     setMainImageUrl(item.main_image_url || '');
@@ -166,6 +166,7 @@ export default function AdminConstructionCases() {
         description: description || null,
         category,
         is_active: isActive,
+        is_published: isActive, // Maintain both fields dynamically
         is_featured: isFeatured,
         sort_order: sortOrder,
         main_image_url: mainImageUrl || null,

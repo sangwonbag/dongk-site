@@ -36,7 +36,9 @@ CREATE TABLE IF NOT EXISTS public.construction_cases (
 -- 다중 이미지 업로드 및 정렬/카테고리 저장을 위한 컬럼 추가
 ALTER TABLE public.construction_cases ADD COLUMN IF NOT EXISTS image_urls text[];
 ALTER TABLE public.construction_cases ADD COLUMN IF NOT EXISTS category text;
-ALTER TABLE public.construction_cases ADD COLUMN IF NOT EXISTS sort_order integer DEFAULT 0;
+ALTER TABLE public.construction_cases ADD COLUMN IF NOT EXISTS sort_order integer NOT NULL DEFAULT 0;
+ALTER TABLE public.construction_cases ADD COLUMN IF NOT EXISTS is_published boolean NOT NULL DEFAULT true;
+ALTER TABLE public.construction_cases ADD COLUMN IF NOT EXISTS updated_at timestamptz NOT NULL DEFAULT now();
 
 -- 기존 products 테이블에 매입가, 매출가, 정렬순서 컬럼 추가
 ALTER TABLE public.products ADD COLUMN IF NOT EXISTS cost_price numeric DEFAULT 0;

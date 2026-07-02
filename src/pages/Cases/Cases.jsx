@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { useAuth } from '../../contexts/AuthContext';
 import MainLayout from '../../components/layout/MainLayout';
 import { supabase } from '../../lib/supabaseClient';
-import { MapPin, Box, Calendar } from 'lucide-react';
+import { MapPin, Box, Calendar, Edit2, Trash2, Eye, EyeOff } from 'lucide-react';
 import './Cases.css';
 
 // Curated fallback portfolio cases
@@ -49,43 +51,88 @@ const STATIC_PROJECTS = [
 ];
 
 export default function Cases() {
+  const navigate = useNavigate();
+  const { user } = useAuth();
+  const isAdmin = user?.role === 'admin' || user?.role === 'staff';
+
   const [casesList, setCasesList] = useState([]);
   const [loading, setLoading] = useState(true);
   const [categoryFilter, setCategoryFilter] = useState('전체');
 
-  useEffect(() => {
-    async function loadCases() {
-      try {
-        setLoading(true);
-        if (!supabase) {
-          throw new Error('Supabase client not initialized');
-        }
-        
-        // Fetch only active/public cases sorted by sort_order
-        const { data, error } = await supabase
-          .from('construction_cases')
-          .select('*')
-          .eq('is_active', true)
-          .order('sort_order', { ascending: true })
-          .order('created_at', { ascending: false });
-
-        if (error) throw error;
-
-        if (data && data.length > 0) {
-          setCasesList(data);
-        } else {
-          // Use fallback
-          setCasesList(STATIC_PROJECTS);
-        }
-      } catch (err) {
-        console.warn('[Cases] Failed to fetch from Supabase. Falling back to static data.', err);
-        setCasesList(STATIC_PROJECTS);
-      } finally {
-        setLoading(false);
+  const loadCases = async () => {
+    try {
+      setLoading(true);
+      if (!supabase) {
+        throw new Error('Supabase client not initialized');
       }
+      
+      let query = supabase
+        .from('construction_cases')
+        .select('*');
+
+      // 일반 사용자에게는 노출된 사례만 표시
+      if (!isAdmin) {
+        query = query.eq('is_published', true);
+      }
+
+      const { data, error } = await query
+        .order('sort_order', { ascending: true })
+        .order('created_at', { ascending: false });
+
+      if (error) throw error;
+
+      if (data && data.length > 0) {
+        setCasesList(data);
+      } else {
+        // Use fallback
+        setCasesList(STATIC_PROJECTS);
+      }
+    } catch (err) {
+      console.warn('[Cases] Failed to fetch from Supabase. Falling back to static data.', err);
+      setCasesList(STATIC_PROJECTS);
+    } finally {
+      setLoading(false);
     }
+  };
+
+  useEffect(() => {
     loadCases();
-  }, []);
+  }, [isAdmin]);
+
+  const handleTogglePublish = async (id, currentStatus) => {
+    try {
+      const nextStatus = !currentStatus;
+      const { error } = await supabase
+        .from('construction_cases')
+        .update({ 
+          is_published: nextStatus,
+          is_active: nextStatus // Maintain both fields dynamically
+        })
+        .eq('id', id);
+      
+      if (error) throw error;
+      alert('노출 상태가 성공적으로 변경되었습니다.');
+      loadCases();
+    } catch (err) {
+      alert('상태 변경에 실패했습니다: ' + err.message);
+    }
+  };
+
+  const handleDeleteCase = async (id) => {
+    if (!window.confirm('이 시공사례를 정말 삭제하시겠습니까?')) return;
+    try {
+      const { error } = await supabase
+        .from('construction_cases')
+        .delete()
+        .eq('id', id);
+      
+      if (error) throw error;
+      alert('성공적으로 삭제되었습니다.');
+      loadCases();
+    } catch (err) {
+      alert('삭제에 실패했습니다: ' + err.message);
+    }
+  };
 
   // Filtering options
   const categories = ['전체', '주거공간', '사무공간', '상업공간'];
@@ -98,6 +145,18 @@ export default function Cases() {
   return (
     <MainLayout>
       <div className="cases-page-container container">
+        {/* Admin Quick Banner */}
+        {isAdmin && (
+          <div className="cases-admin-banner">
+            <div className="admin-banner-text">
+              🛡️ <strong>관리자 계정으로 로그인했습니다.</strong> 시공사례 노출 여부 관리 및 등록/수정/삭제를 인라인으로 처리하거나 관리자 패널로 진입할 수 있습니다.
+            </div>
+            <button className="btn-admin-manage" onClick={() => navigate('/admin/construction-cases')}>
+              시공사례 관리 패널 이동
+            </button>
+          </div>
+        )}
+
         {/* Banner Section */}
         <div className="cases-banner">
           <div className="banner-content">
@@ -136,6 +195,11 @@ export default function Cases() {
             {filteredCases.map(item => (
               <div key={item.id} className="case-portfolio-card">
                 <div className="case-img-wrapper">
+                  {isAdmin && (
+                    <span className={`case-admin-status-badge ${item.is_published ? 'published' : 'unpublished'}`}>
+                      {item.is_published ? '노출 중' : '비노출'}
+                    </span>
+                  )}
                   <img
                     src={item.main_image_url || "/images/no-image.svg"}
                     alt={item.title}
@@ -177,6 +241,42 @@ export default function Cases() {
                       </div>
                     )}
                   </div>
+
+                  {isAdmin && (
+                    <div className="case-admin-actions">
+                      <button 
+                        className="btn-admin-action edit"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          navigate('/admin/construction-cases');
+                        }}
+                        title="어드민에서 편집"
+                      >
+                        <Edit2 size={12} /> 편집
+                      </button>
+                      <button 
+                        className={`btn-admin-action toggle ${item.is_published ? 'hide' : 'show'}`}
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          handleTogglePublish(item.id, item.is_published ?? true);
+                        }}
+                        title={item.is_published ? "숨기기" : "노출하기"}
+                      >
+                        {item.is_published ? <EyeOff size={12} /> : <Eye size={12} />}
+                        {item.is_published ? '숨김' : '노출'}
+                      </button>
+                      <button 
+                        className="btn-admin-action delete"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          handleDeleteCase(item.id);
+                        }}
+                        title="삭제"
+                      >
+                        <Trash2 size={12} /> 삭제
+                      </button>
+                    </div>
+                  )}
                 </div>
               </div>
             ))}

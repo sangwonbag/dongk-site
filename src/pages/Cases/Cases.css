@@ -273,3 +273,132 @@
     margin-bottom: 32px;
   }
 }
+
+/* 어드민 퀵 매니지먼트 바 */
+.cases-admin-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 16px 24px;
+    border-radius: 12px;
+    margin-bottom: 32px;
+    font-size: 14px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.02);
+}
+
+.cases-admin-banner .admin-banner-text {
+    color: #334155;
+    line-height: 1.5;
+}
+
+.cases-admin-banner .btn-admin-manage {
+    background-color: #6366f1;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    white-space: nowrap;
+}
+
+.cases-admin-banner .btn-admin-manage:hover {
+    background-color: #4f46e5;
+}
+
+/* 카드 내 어드민 배지 */
+.case-admin-status-badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    z-index: 10;
+    padding: 4px 8px;
+    font-size: 11px;
+    font-weight: 700;
+    border-radius: 4px;
+    color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.case-admin-status-badge.published {
+    background-color: #10b981;
+}
+
+.case-admin-status-badge.unpublished {
+    background-color: #ef4444;
+}
+
+/* 카드 내 어드민 액션 버튼들 */
+.case-admin-actions {
+    display: flex;
+    gap: 6px;
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid #f1f5f9;
+}
+
+.btn-admin-action {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    flex: 1;
+    justify-content: center;
+}
+
+.btn-admin-action.edit {
+    background-color: #f1f5f9;
+    color: #334155;
+}
+
+.btn-admin-action.edit:hover {
+    background-color: #e2e8f0;
+}
+
+.btn-admin-action.toggle.hide {
+    background-color: #fffbeb;
+    color: #d97706;
+}
+
+.btn-admin-action.toggle.hide:hover {
+    background-color: #fef3c7;
+}
+
+.btn-admin-action.toggle.show {
+    background-color: #ecfdf5;
+    color: #059669;
+}
+
+.btn-admin-action.toggle.show:hover {
+    background-color: #d1fae5;
+}
+
+.btn-admin-action.delete {
+    background-color: #fef2f2;
+    color: #dc2626;
+}
+
+.btn-admin-action.delete:hover {
+    background-color: #fee2e2;
+}
+
+@media (max-width: 768px) {
+    .cases-admin-banner {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+        padding: 16px;
+        text-align: center;
+    }
+}
+

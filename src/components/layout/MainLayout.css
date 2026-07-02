@@ -6,4 +6,25 @@
 
 .main-content {
     flex: 1;
+    padding-top: 130px; /* Clear fixed top header and notice bar (118px total) */
+}
+
+.main-content.home-main-content {
+    padding-top: 0; /* Homepage transparent overlay header has no top gap */
+}
+
+.main-content.admin-main-content {
+    padding-top: 170px; /* Secure ample spacing for admin actions (>24px gap) */
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        padding-top: 110px;
+    }
+    .main-content.home-main-content {
+        padding-top: 0;
+    }
+    .main-content.admin-main-content {
+        padding-top: 130px;
+    }
 }
