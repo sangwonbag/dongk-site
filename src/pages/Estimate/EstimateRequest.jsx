@@ -163,38 +163,37 @@ export default function EstimateRequest() {
       }));
 
       const payload = {
+        customer_type: customer.type,
         customer_name: customer.name,
         phone: customer.phone,
-        address: `${site.address} ${site.detailAddress}`.trim(),
-        space_type: site.type,
+        email: customer.email || null,
+        site_address: site.address,
+        site_detail_address: site.detailAddress || null,
+        preferred_date: finalPreferredDate,
+        consultation_type: customer.consultation,
+        site_type: site.type,
+        work_type: site.workType,
         area_pyeong: site.areaPyeong ? Number(site.areaPyeong) : null,
-        elevator: site.hasElevator ? '있음' : '없음',
-        luggage: site.hasLuggage ? '있음' : '없음',
-        parking: site.parkingAvailable ? '가능' : '불가',
-        selected_items: selectedItems,
-        extra_options: {
-          customer_type: customer.type,
-          consultation_type: customer.consultation,
-          work_type: site.workType,
-          accessory_options: accessories,
-          extra_accessory_text: extraAccessory
-        },
-        demolition: site.demolition,
-        desired_date: finalPreferredDate,
-        memo: `[상담 방식: ${customer.consultation}]\n${requestMemo}`,
-        estimated_total: subtotal
+        has_elevator: site.hasElevator,
+        parking_available: site.parkingAvailable,
+        accessory_options: accessories,
+        extra_accessory_text: extraAccessory || null,
+        request_memo: `[상담 방식: ${customer.consultation}]\n${requestMemo}`,
+        subtotal: subtotal,
+        total: subtotal,
+        selected_items: selectedItems
       };
 
       const inquiryData = await createEstimateInquiry(payload);
 
-      setSubmittedNo(inquiryData.id.substring(0, 8).toUpperCase());
+      setSubmittedNo(inquiryData.estimate_no || inquiryData.id.substring(0, 8).toUpperCase());
       setSubmitSuccess(true);
       clearCart();
       window.scrollTo(0, 0);
 
     } catch (err) {
-      console.error(err);
-      setErrors(['견적 요청 중 오류가 발생했습니다. 잠시 후 다시 시도해주세요.']);
+      console.error('[EstimateRequest Submit Error]:', err);
+      setErrors(['견적요청 저장에 실패했습니다. 입력 정보를 확인 후 다시 시도해주세요.']);
     } finally {
       setIsSubmitting(false);
     }
@@ -224,33 +223,88 @@ export default function EstimateRequest() {
   if (submitSuccess) {
     return (
       <MainLayout>
-        <div className="container est-success">
-          <CheckCircle size={64} color="#28a745" />
-          <h2>견적요청이 접수되었습니다!</h2>
-          <p>접수번호: <strong>{submittedNo}</strong></p>
-          <p>내용을 확인한 후 빠른 시일 내에 연락드리겠습니다.</p>
-          <div style={{ display: 'flex', gap: '12px', marginTop: '20px', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <button className="btn-primary" onClick={() => navigate('/')}>홈으로 돌아가기</button>
-            <a 
-              href={KAKAO_CHAT_URL} 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="btn-secondary"
+        <div className="container est-success" style={{
+          maxWidth: '600px',
+          margin: '40px auto 60px',
+          padding: '40px 24px',
+          textAlign: 'center',
+          backgroundColor: '#ffffff',
+          borderRadius: '12px',
+          boxShadow: '0 4px 12px rgba(0,0,0,0.05)',
+          border: '1px solid #e2e8f0'
+        }}>
+          <CheckCircle size={64} color="#28a745" style={{ marginBottom: '20px' }} />
+          <h2 style={{ fontSize: '24px', fontWeight: '800', color: '#0f172a', marginBottom: '10px' }}>
+            견적요청이 완료되었습니다.
+          </h2>
+          <p style={{ color: '#475569', fontSize: '15px', marginBottom: '30px' }}>
+            담당자가 확인 후 선택하신 상담 방식으로 연락드리겠습니다.
+          </p>
+
+          <div style={{
+            backgroundColor: '#f8fafc',
+            border: '1px solid #e2e8f0',
+            borderRadius: '8px',
+            padding: '20px',
+            textAlign: 'left',
+            marginBottom: '24px',
+            fontSize: '14px',
+            lineHeight: '1.6'
+          }}>
+            <h4 style={{ margin: '0 0 12px 0', fontSize: '15px', fontWeight: '700', color: '#0f172a', borderBottom: '1px solid #e2e8f0', paddingBottom: '8px' }}>
+              📝 접수 요약
+            </h4>
+            <div style={{ display: 'flex', marginBottom: '6px' }}><span style={{ width: '100px', color: '#64748b', fontWeight: '500' }}>접수 번호:</span> <strong style={{ color: '#0f172a' }}>{submittedNo}</strong></div>
+            <div style={{ display: 'flex', marginBottom: '6px' }}><span style={{ width: '100px', color: '#64748b', fontWeight: '500' }}>고객명:</span> <span style={{ color: '#334155' }}>{customer.name}</span></div>
+            <div style={{ display: 'flex', marginBottom: '6px' }}><span style={{ width: '100px', color: '#64748b', fontWeight: '500' }}>연락처:</span> <span style={{ color: '#334155' }}>{customer.phone}</span></div>
+            <div style={{ display: 'flex', marginBottom: '6px' }}><span style={{ width: '100px', color: '#64748b', fontWeight: '500' }}>현장 주소:</span> <span style={{ color: '#334155', flex: 1 }}>{site.address} {site.detailAddress}</span></div>
+            <div style={{ display: 'flex' }}><span style={{ width: '100px', color: '#64748b', fontWeight: '500' }}>상담 방식:</span> <strong style={{ color: '#4f46e5' }}>{customer.consultation}</strong></div>
+          </div>
+
+          <div style={{ marginBottom: '32px' }}>
+            <ConsultationActionBox type={customer.consultation} isCompletedScreen={true} />
+          </div>
+
+          <div style={{
+            display: 'flex',
+            gap: '12px',
+            justifyContent: 'center',
+            flexWrap: 'wrap',
+            borderTop: '1px solid #f1f5f9',
+            paddingTop: '20px'
+          }}>
+            <button 
+              className="btn-secondary" 
+              onClick={() => navigate('/')}
               style={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                backgroundColor: '#FEE500',
-                color: '#191919',
-                border: 'none',
-                fontWeight: '600',
-                textDecoration: 'none',
                 padding: '12px 24px',
-                borderRadius: '8px'
+                borderRadius: '8px',
+                fontSize: '14px',
+                fontWeight: '600',
+                cursor: 'pointer',
+                border: '1px solid #cbd5e1',
+                backgroundColor: '#ffffff',
+                color: '#CBD5E1' ? '#334155' : ''
               }}
             >
-              💬 카톡으로 빠른 상담하기
-            </a>
+              🏠 홈으로 가기
+            </button>
+            <button 
+              className="btn-primary" 
+              onClick={() => navigate('/materials')}
+              style={{
+                padding: '12px 24px',
+                borderRadius: '8px',
+                fontSize: '14px',
+                fontWeight: '600',
+                cursor: 'pointer',
+                backgroundColor: '#0f172a',
+                color: '#ffffff',
+                border: 'none'
+              }}
+            >
+              📦 자재 더 보기
+            </button>
           </div>
         </div>
       </MainLayout>
@@ -536,8 +590,6 @@ export default function EstimateRequest() {
                   개인정보 수집 및 상담 목적 이용에 동의합니다. (필수)
                 </label>
               </div>
-
-              <ConsultationActionBox type={customer.consultation} />
             </div>
           )}
         </div>
@@ -568,19 +620,21 @@ export default function EstimateRequest() {
   );
 }
 
-function ConsultationActionBox({ type }) {
+function ConsultationActionBox({ type, isCompletedScreen = false }) {
   if (!type) return null;
 
   // Configuration object for guide and buttons
   const config = {
     '전화 상담': {
-      text: '전화 상담을 선택하셨습니다. 아래 버튼으로 바로 연락하실 수 있습니다.',
+      text: isCompletedScreen 
+        ? '전화 상담을 선택하셨습니다. 아래 버튼을 눌러 담당자에게 바로 전화를 거실 수 있습니다.'
+        : '전화 상담을 선택하셨습니다. 아래 번호로 바로 연락하실 수 있습니다.',
       bgColor: '#f8fafc',
       borderColor: '#e2e8f0',
       textColor: '#334155',
       buttons: [
         {
-          label: `📞 ${OFFICE_PHONE} 전화하기`,
+          label: isCompletedScreen ? '📞 전화 상담하기' : `📞 ${OFFICE_PHONE} 전화하기`,
           href: `tel:${OFFICE_PHONE}`,
           bgColor: '#0f172a',
           color: '#ffffff'
@@ -594,7 +648,7 @@ function ConsultationActionBox({ type }) {
       textColor: '#334155',
       buttons: [
         {
-          label: `✉️ ${SMS_PHONE} 문자 보내기`,
+          label: isCompletedScreen ? '✉️ 문자 보내기' : `✉️ ${SMS_PHONE} 문자 보내기`,
           href: `sms:${SMS_PHONE.replace(/-/g, '')}?body=${encodeURIComponent("동경바닥재 견적문의드립니다. 현장주소: / 평수: / 희망자재: ")}`,
           bgColor: '#0f172a',
           color: '#ffffff'
@@ -602,13 +656,15 @@ function ConsultationActionBox({ type }) {
       ]
     },
     '카카오톡 상담': {
-      text: '카카오톡 상담을 선택하셨습니다. 견적 내용을 제출한 뒤 카카오톡으로 빠르게 상담하실 수 있습니다.',
+      text: isCompletedScreen
+        ? '카카오톡 상담을 선택하셨습니다. 아래 버튼을 눌러 카카오톡 실시간 상담을 시작해주세요.'
+        : '카카오톡 상담을 선택하셨습니다. 견적 내용을 제출한 뒤 카카오톡으로 빠르게 상담하실 수 있습니다.',
       bgColor: '#fffbeb',
       borderColor: '#fef3c7',
       textColor: '#b45309',
       buttons: [
         {
-          label: '💬 동경바닥재 카카오톡 1:1 상담 열기',
+          label: '💬 카카오톡 1:1 상담 열기',
           href: KAKAO_CHAT_URL,
           target: '_blank',
           rel: 'noopener noreferrer',
@@ -623,22 +679,39 @@ function ConsultationActionBox({ type }) {
       bgColor: '#f8fafc',
       borderColor: '#e2e8f0',
       textColor: '#334155',
-      buttons: [
-        {
-          label: '📞 사무실 전화하기',
-          href: `tel:${OFFICE_PHONE}`,
-          bgColor: '#0f172a',
-          color: '#ffffff'
-        },
-        {
-          label: '🗺️ 지도에서 위치 보기',
-          href: NAVER_MAP_URL,
-          target: '_blank',
-          rel: 'noopener noreferrer',
-          bgColor: '#28a745',
-          color: '#ffffff'
-        }
-      ]
+      buttons: isCompletedScreen
+        ? [
+            {
+              label: '📞 방문 상담 안내',
+              href: `tel:${OFFICE_PHONE}`,
+              bgColor: '#0f172a',
+              color: '#ffffff'
+            },
+            {
+              label: '🗺️ 지도에서 위치 보기',
+              href: NAVER_MAP_URL,
+              target: '_blank',
+              rel: 'noopener noreferrer',
+              bgColor: '#28a745',
+              color: '#ffffff'
+            }
+          ]
+        : [
+            {
+              label: '📞 사무실 전화하기',
+              href: `tel:${OFFICE_PHONE}`,
+              bgColor: '#0f172a',
+              color: '#ffffff'
+            },
+            {
+              label: '🗺️ 지도에서 위치 보기',
+              href: NAVER_MAP_URL,
+              target: '_blank',
+              rel: 'noopener noreferrer',
+              bgColor: '#28a745',
+              color: '#ffffff'
+            }
+          ]
     }
   };
 
