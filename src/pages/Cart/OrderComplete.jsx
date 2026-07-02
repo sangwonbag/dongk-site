@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
+import { KAKAO_CHAT_URL } from "../../constants/contact";
 import { CheckCircle2 } from "lucide-react";
 import "./OrderComplete.css";
 
@@ -273,6 +274,23 @@ export default function OrderComplete() {
             </button>
             <a href="tel:02-487-9775" className="btn-action-complete tel-consult">
               📞 전화 상담 (02-487-9775)
+            </a>
+            <a 
+              href={KAKAO_CHAT_URL} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="btn-action-complete kakao-consult"
+              style={{
+                backgroundColor: '#FEE500',
+                color: '#191919',
+                textDecoration: 'none',
+                display: 'inline-flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                fontWeight: '600'
+              }}
+            >
+              💬 카카오톡 1:1 상담
             </a>
             <button className="btn-action-complete primary" onClick={handleGoHome}>
               쇼핑 계속하기

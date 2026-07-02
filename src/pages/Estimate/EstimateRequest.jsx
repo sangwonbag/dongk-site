@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import MainLayout from '../../components/layout/MainLayout';
+import { KAKAO_CHAT_URL } from '../../constants/contact';
 import { useEstimateCart } from '../../contexts/EstimateCartContext';
 import { supabase } from '../../lib/supabase';
 import { useAuth } from '../../contexts/AuthContext';
@@ -202,7 +203,29 @@ export default function EstimateRequest() {
           <h2>견적요청이 접수되었습니다!</h2>
           <p>접수번호: <strong>{submittedNo}</strong></p>
           <p>내용을 확인한 후 빠른 시일 내에 연락드리겠습니다.</p>
-          <button className="btn-primary" onClick={() => navigate('/')}>홈으로 돌아가기</button>
+          <div style={{ display: 'flex', gap: '12px', marginTop: '20px', justifyContent: 'center', flexWrap: 'wrap' }}>
+            <button className="btn-primary" onClick={() => navigate('/')}>홈으로 돌아가기</button>
+            <a 
+              href={KAKAO_CHAT_URL} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="btn-secondary"
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                backgroundColor: '#FEE500',
+                color: '#191919',
+                border: 'none',
+                fontWeight: '600',
+                textDecoration: 'none',
+                padding: '12px 24px',
+                borderRadius: '8px'
+              }}
+            >
+              💬 카톡으로 빠른 상담하기
+            </a>
+          </div>
         </div>
       </MainLayout>
     );
@@ -286,6 +309,38 @@ export default function EstimateRequest() {
                     </label>
                   ))}
                 </div>
+                {customer.consultation === '카카오톡 상담' && (
+                  <div style={{
+                    marginTop: '10px',
+                    backgroundColor: '#fffbeb',
+                    border: '1px solid #fef3c7',
+                    borderRadius: '8px',
+                    padding: '12px 16px',
+                    fontSize: '13.5px',
+                    color: '#b45309',
+                    lineHeight: '1.5'
+                  }}>
+                    💡 카카오톡 채널로 1:1 실시간 상담을 원하시면 아래 링크를 눌러 즉시 대화를 시작하실 수 있습니다.<br />
+                    <a 
+                      href={KAKAO_CHAT_URL} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      style={{
+                        display: 'inline-inline-flex',
+                        marginTop: '8px',
+                        backgroundColor: '#FEE500',
+                        color: '#191919',
+                        fontWeight: '700',
+                        padding: '8px 14px',
+                        borderRadius: '6px',
+                        textDecoration: 'none',
+                        fontSize: '13px'
+                      }}
+                    >
+                      💬 동경바닥재 카카오톡 1:1 상담 연결하기
+                    </a>
+                  </div>
+                )}
               </div>
             </div>
           )}

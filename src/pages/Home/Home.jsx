@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo, useRef } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
+import { KAKAO_CHAT_URL } from "../../constants/contact";
 import { supabase } from "../../lib/supabaseClient";
 import { sampleBooks } from "../../data/samplebooks.db";
 import { materials } from "../../data/materials.db";
@@ -1009,6 +1010,24 @@ export default function Home() {
                 <Link to="/estimate/request" className="btn-contact-v2 btn-contact-v2-secondary">
                   온라인 견적 문의
                 </Link>
+                <a 
+                  href={KAKAO_CHAT_URL} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="btn-contact-v2 btn-contact-v2-kakao"
+                  style={{
+                    backgroundColor: '#FEE500',
+                    color: '#191919',
+                    border: 'none',
+                    fontWeight: '700',
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    textDecoration: 'none'
+                  }}
+                >
+                  💬 카톡 상담하기
+                </a>
                 <Link to="/samplebooks" className="btn-contact-v2 btn-contact-v2-outline">
                   디지털 샘플북 확인
                 </Link>
