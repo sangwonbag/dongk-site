@@ -679,7 +679,7 @@ export default function Home() {
           <div className="hero-b2b-container container">
             {/* Left Content Column */}
             <div className="hero-b2b-content">
-              <span className="hero-b2b-badge">B2B 바닥재·벽지 자재 유통 전문</span>
+              <span className="hero-b2b-badge">바닥재·벽지 자재 유통 전문</span>
               <h1 className="hero-b2b-title">
                 바닥재·벽지 자재 공급부터<br />
                 시공 연계까지 원스톱 해결
@@ -704,7 +704,7 @@ export default function Home() {
             <div className="hero-b2b-cards">
               {/* Process Card */}
               <div className="b2b-info-card process">
-                <h3 className="card-lbl">B2B 거래 및 견적 흐름</h3>
+                <h3 className="card-lbl">거래 및 견적 흐름</h3>
                 <div className="b2b-steps">
                   <div className="b2b-step">
                     <span className="step-num">01</span>
@@ -938,8 +938,8 @@ export default function Home() {
         <section className="showroom-marquee-section">
           <div className="marquee-container">
             <div className="marquee-inner">
-              <span>동경바닥재 B2B MATERIAL ORDER · SAMPLE BOOK · QUICK ESTIMATE · FLOORING MATERIAL · WALLPAPER · DECO TILE · </span>
-              <span>동경바닥재 B2B MATERIAL ORDER · SAMPLE BOOK · QUICK ESTIMATE · FLOORING MATERIAL · WALLPAPER · DECO TILE · </span>
+              <span>동경바닥재 MATERIAL ORDER · SAMPLE BOOK · QUICK ESTIMATE · FLOORING MATERIAL · WALLPAPER · DECO TILE · </span>
+              <span>동경바닥재 MATERIAL ORDER · SAMPLE BOOK · QUICK ESTIMATE · FLOORING MATERIAL · WALLPAPER · DECO TILE · </span>
             </div>
           </div>
         </section>
@@ -981,7 +981,7 @@ export default function Home() {
           <div className="contact-v2-container container">
             <div className="contact-v2-content-pane">
               <span className="contact-v2-tag">CONSULTING & ESTIMATE</span>
-              <h2 className="contact-v2-heading">B2B 거래처 및 현장 맞춤 상담<br />도매 견적부터 현장 시공까지</h2>
+              <h2 className="contact-v2-heading">도매 거래처 및 현장 맞춤 상담<br />도매 견적부터 현장 시공까지</h2>
               <p className="contact-v2-subheading">
                 업자, 인테리어 설계사, 시공 현장 책임자분들의 대량 발주 및 시공 연계를 지원합니다.<br />
                 도면 송부 시 신속하게 자재별 물량 산출 및 도매 단가 견적을 제안해 드립니다.
@@ -1018,7 +1018,7 @@ export default function Home() {
             <div className="contact-v2-image-pane">
               <img 
                 src={estimateImg} 
-                alt="동경바닥재 B2B 자재 유통 및 상담 이미지" 
+                alt="동경바닥재 자재 유통 및 상담 이미지" 
                 className="contact-v2-image"
                 onError={() => setEstimateImg("/images/home-interior/korea-home-living-01.png")}
                 loading="lazy"

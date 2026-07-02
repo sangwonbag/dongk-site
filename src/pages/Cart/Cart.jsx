@@ -240,9 +240,9 @@ export default function Cart() {
                   })}
                 </div>
 
-                {/* 🚚 B2B 화물 및 배송 조건 안내 배너 */}
+                {/* 🚚 자재 화물 및 배송 조건 안내 배너 */}
                 <div className="cart-shipping-notice-card">
-                  <h4>🚚 B2B 자재 화물 및 배송 조건 안내</h4>
+                  <h4>🚚 자재 화물 및 배송 조건 안내</h4>
                   <ul>
                     <li><strong>출고지 기준:</strong> 모든 바닥재 및 벽지 자재는 <strong>경기 하남 물류창고</strong>에서 직출고됩니다.</li>
                     <li><strong>배송 운임:</strong> 자재의 무게 및 거리에 따라 운임비가 상이하므로, <strong>화물 착불(대신화물 또는 경동화물, 용달배송)</strong>을 기본 원칙으로 합니다.</li>
