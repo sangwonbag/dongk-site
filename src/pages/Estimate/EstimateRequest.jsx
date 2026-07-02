@@ -8,6 +8,7 @@ import { useAuth } from '../../contexts/AuthContext';
 import { ArrowLeft, Trash2, Plus, Minus, CheckCircle } from 'lucide-react';
 import MaterialSearchModal from './MaterialSearchModal';
 import { createEstimateInquiry } from '../../services/estimateInquiryService';
+import { loadDaumPostcode } from '../../utils/loadDaumPostcode';
 import './EstimateRequest.css';
 
 const ACCESSORY_OPTIONS = ['걸레받이', '본드', '실리콘', '논슬립', '마감재', '문턱/재료분리대'];
@@ -68,6 +69,31 @@ export default function EstimateRequest() {
   const [requestMemo, setRequestMemo] = useState('');
   const [agreePrivacy, setAgreePrivacy] = useState(false);
   const [errors, setErrors] = useState([]);
+  const detailAddressRef = useRef(null);
+
+  const handleAddressSearch = async () => {
+    try {
+      const Postcode = await loadDaumPostcode();
+      new Postcode({
+        oncomplete: (data) => {
+          const fullAddress = data.roadAddress || data.address;
+          setSite(prev => ({
+            ...prev,
+            address: fullAddress
+          }));
+          
+          setTimeout(() => {
+            if (detailAddressRef.current) {
+              detailAddressRef.current.focus();
+            }
+          }, 100);
+        }
+      }).open();
+    } catch (err) {
+      console.error(err);
+      alert('주소찾기 서비스를 불러오지 못했습니다. 직접 주소를 입력해주세요.');
+    }
+  };
 
   // Auto-recommend accessories based on cart items
   useEffect(() => {
@@ -320,8 +346,44 @@ export default function EstimateRequest() {
               
               <div className="form-group">
                 <label>현장 주소 <span className="req">*</span></label>
-                <input type="text" value={site.address} onChange={e => setSite({...site, address: e.target.value})} placeholder="시/도 구/군 동/면/리" />
-                <input type="text" value={site.detailAddress} onChange={e => setSite({...site, detailAddress: e.target.value})} placeholder="상세 주소 (선택)" style={{ marginTop: '8px' }} />
+                <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', marginBottom: '8px' }}>
+                  <input 
+                    type="text" 
+                    value={site.address} 
+                    onChange={e => setSite({...site, address: e.target.value})} 
+                    placeholder="시/도 구/군 동/면/리" 
+                    style={{ flex: 1, minWidth: '200px', margin: 0 }}
+                  />
+                  <button 
+                    type="button" 
+                    onClick={handleAddressSearch}
+                    style={{
+                      padding: '10px 18px',
+                      backgroundColor: '#0f172a',
+                      color: '#ffffff',
+                      border: 'none',
+                      borderRadius: '6px',
+                      fontSize: '13.5px',
+                      fontWeight: '600',
+                      cursor: 'pointer',
+                      whiteSpace: 'nowrap',
+                      minHeight: '42px',
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      justifyContent: 'center'
+                    }}
+                  >
+                    🔍 주소 찾기
+                  </button>
+                </div>
+                <input 
+                  type="text" 
+                  ref={detailAddressRef}
+                  value={site.detailAddress} 
+                  onChange={e => setSite({...site, detailAddress: e.target.value})} 
+                  placeholder="상세 주소 (선택)" 
+                  style={{ margin: 0 }}
+                />
               </div>
 
               <div className="form-group">
