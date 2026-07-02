@@ -700,45 +700,6 @@ export default function Home() {
                 </button>
               </div>
             </div>
-
-            {/* Right Work/Process Cards Column */}
-            <div className="hero-b2b-cards">
-              {/* Process Card */}
-              <div className="b2b-info-card process">
-                <h3 className="card-lbl">거래 및 견적 흐름</h3>
-                <div className="b2b-steps">
-                  <div className="b2b-step">
-                    <span className="step-num">01</span>
-                    <span className="step-txt">자재 검색 및 선택</span>
-                  </div>
-                  <div className="b2b-step-arrow">➔</div>
-                  <div className="b2b-step">
-                    <span className="step-num">02</span>
-                    <span className="step-txt">실시간 견적 문의</span>
-                  </div>
-                  <div className="b2b-step-arrow">➔</div>
-                  <div className="b2b-step">
-                    <span className="step-num">03</span>
-                    <span className="step-txt">재고 및 도매단가 확인</span>
-                  </div>
-                  <div className="b2b-step-arrow">➔</div>
-                  <div className="b2b-step">
-                    <span className="step-num">04</span>
-                    <span className="step-txt">화물 배송 및 시공 연계</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* Quick Contact & Logistics Card */}
-              <div className="b2b-info-card logistics">
-                <h3 className="card-lbl">배송 및 현장 시공 안내</h3>
-                <ul className="logistics-list">
-                  <li>🚚 <strong>전국 화물 배송:</strong> 대신/경동화물 지점 배송 및 현장 직송</li>
-                  <li>⚡ <strong>수도권 빠른 출고:</strong> 물류창고 재고 매칭 시 당일/익일 출고</li>
-                  <li>🔨 <strong>20년 전문 시공팀:</strong> 수도권 전역 책임 시공 및 AS 보증</li>
-                </ul>
-              </div>
-            </div>
           </div>
         </section>
 
