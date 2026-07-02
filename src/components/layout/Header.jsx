@@ -250,6 +250,10 @@ export default function Header() {
     setIsFocused(false);
   };
 
+  const prefetchMaterials = () => {
+    import("../../pages/Materials/Materials").catch(() => {});
+  };
+
   return (
     <div className={`header-wrapper ${isHome ? "is-home" : ""} ${isScrolled ? "is-scrolled" : "is-transparent"}`}>
       {/* Top Notice Bar - Hidden on homepage when transparent for full immersion */}
@@ -282,7 +286,14 @@ export default function Header() {
           {/* Desktop Navigation Links */}
           <nav className="header-menu-links">
             <span className={`menu-link ${location.pathname === '/' ? 'active' : ''}`} onClick={() => nav("/")}>홈</span>
-            <span className={`menu-link ${location.pathname === '/materials' ? 'active' : ''}`} onClick={() => nav("/materials")}>자재찾기</span>
+            <span 
+              className={`menu-link ${location.pathname === '/materials' ? 'active' : ''}`} 
+              onClick={() => nav("/materials")}
+              onMouseEnter={prefetchMaterials}
+              onTouchStart={prefetchMaterials}
+            >
+              자재찾기
+            </span>
             <span className={`menu-link ${location.pathname === '/samplebooks' ? 'active' : ''}`} onClick={() => nav("/samplebooks")}>샘플북</span>
             <span className={`menu-link ${location.pathname === '/cases' ? 'active' : ''}`} onClick={() => nav("/cases")}>시공사례</span>
             <span className={`menu-link ${location.pathname === '/estimate/request' || location.pathname === '/estimate' ? 'active' : ''}`} onClick={() => nav("/estimate/request")}>견적문의</span>
@@ -411,7 +422,13 @@ export default function Header() {
       <div className={`mobile-nav-drawer ${mobileMenuOpen ? 'open' : ''}`}>
         <div className="drawer-menu-links">
           <span className="drawer-link" onClick={() => { nav("/"); setMobileMenuOpen(false); }}>홈</span>
-          <span className="drawer-link" onClick={() => { nav("/materials"); setMobileMenuOpen(false); }}>자재찾기</span>
+          <span 
+            className="drawer-link" 
+            onClick={() => { nav("/materials"); setMobileMenuOpen(false); }}
+            onTouchStart={prefetchMaterials}
+          >
+            자재찾기
+          </span>
           <span className="drawer-link" onClick={() => { nav("/samplebooks"); setMobileMenuOpen(false); }}>샘플북</span>
           <span className="drawer-link" onClick={() => { nav("/cases"); setMobileMenuOpen(false); }}>시공사례</span>
           <span className="drawer-link" onClick={() => { nav("/estimate/request"); setMobileMenuOpen(false); }}>견적문의</span>

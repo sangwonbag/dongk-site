@@ -418,29 +418,29 @@ const RANDOM_CATEGORIES = [
   {
     name: '데코타일',
     desc: '공간에 실용성과 디자인을 더하는 데코타일',
-    image: '/images/categories/category-deco-tile.webp',
-    fallback: '/images/deco_tile.png',
+    image: '/images/categories/category-deco-tile.jpg',
+    fallback: '/images/categories/category-deco-tile.jpg',
     path: '/materials?category=데코타일'
   },
   {
     name: '마루',
     desc: '공간의 가치를 높이는 프리미엄 마루',
-    image: '/images/categories/category-wood-flooring.webp',
-    fallback: '/images/spc_flooring.png',
+    image: '/images/categories/category-wood-flooring.png',
+    fallback: '/images/categories/category-wood-flooring.png',
     path: '/materials?category=마루'
   },
   {
     name: '벽지',
     desc: '공간 분위기를 완성하는 감각적인 벽지',
-    image: '/images/categories/category-wallpaper.webp',
-    fallback: '/images/premium_wallpaper.png',
+    image: '/images/categories/category-wallpaper.png',
+    fallback: '/images/categories/category-wallpaper.png',
     path: '/materials?category=벽지'
   },
   {
     name: '카페트타일',
     desc: '상업공간에 어울리는 모던 카페트타일',
-    image: '/images/categories/category-carpet-tile.webp',
-    fallback: '/images/carpet_tile.png',
+    image: '/images/categories/category-carpet-tile.png',
+    fallback: '/images/categories/category-carpet-tile.png',
     path: '/materials?category=카페트타일'
   }
 ];
@@ -585,55 +585,47 @@ export default function Home() {
     return () => { isMounted = false; };
   }, []);
 
-  // 6 Material categories
+  // 5 Material categories
   const categories = [
     { 
       name: "데코타일", 
       engName: "DECO TILE", 
       desc: "상업공간과 주거공간 모두에 어울리는 실용적인 바닥재", 
-      image: "/images/categories/category-deco-tile.webp", 
-      fallbackImage: "/images/deco_tile.png",
+      image: "/images/categories/category-deco-tile.jpg", 
+      fallbackImage: "/images/categories/category-deco-tile.jpg",
       path: "/materials?category=데코타일" 
     },
     { 
       name: "장판", 
       engName: "CUSHION FLOOR", 
       desc: "생활감과 편안함을 고려한 주거용 바닥재", 
-      image: "/images/categories/category-cushion-floor.webp", 
-      fallbackImage: "/images/cross_section.png",
+      image: "/images/categories/category-cushion-floor.jpg", 
+      fallbackImage: "/images/categories/category-cushion-floor.jpg",
       path: "/materials?category=장판" 
     },
     { 
       name: "마루", 
       engName: "WOOD FLOORING", 
       desc: "공간에 따뜻한 결을 더하는 프리미엄 목질 바닥재", 
-      image: "/images/categories/category-wood-flooring.webp", 
-      fallbackImage: "/images/spc_flooring.png",
+      image: "/images/categories/category-wood-flooring.png", 
+      fallbackImage: "/images/categories/category-wood-flooring.png",
       path: "/materials?category=마루" 
     },
     { 
       name: "벽지", 
       engName: "PREMIUM WALLPAPER", 
-      desc: "벽면의 분위기를 완성하는 다양한 패턴과 질감", 
-      image: "/images/categories/category-wallpaper.webp", 
-      fallbackImage: "/images/premium_wallpaper.png",
+      desc: "벽면의 분위기를 완성하는 다양한 패턴 and 질감", 
+      image: "/images/categories/category-wallpaper.png", 
+      fallbackImage: "/images/categories/category-wallpaper.png",
       path: "/materials?category=벽지" 
     },
     { 
       name: "카페트타일", 
       engName: "CARPET TILE", 
       desc: "오피스와 상업공간에 적합한 모듈형 바닥재", 
-      image: "/images/categories/category-carpet-tile.webp", 
-      fallbackImage: "/images/carpet_tile.png",
+      image: "/images/categories/category-carpet-tile.png", 
+      fallbackImage: "/images/categories/category-carpet-tile.png",
       path: "/materials?category=카페트타일" 
-    },
-    { 
-      name: "부자재", 
-      engName: "ACCESSORIES", 
-      desc: "시공 완성도를 높이는 필수 부자재", 
-      image: "/images/categories/category-accessories.webp", 
-      fallbackImage: "/images/interlocking_profile.png",
-      path: "/materials?category=부자재" 
     }
   ];
 

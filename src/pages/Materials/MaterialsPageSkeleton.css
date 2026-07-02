@@ -1,0 +1,193 @@
+/* ==========================================================================
+   Dongkyung Flooring (동경바닥재) - Materials Page Skeleton CSS
+   ========================================================================== */
+
+/* Shimmer animation keyframe */
+@keyframes skeleton-shimmer-sweep {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton-shimmer {
+  background: linear-gradient(90deg, #f1f5f9 25%, #e2e8f0 37%, #f1f5f9 63%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer-sweep 1.4s ease-in-out infinite;
+  border-radius: 4px;
+}
+
+/* Header Skeleton */
+.materials-header-skeleton {
+  margin-bottom: 24px;
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto 24px;
+}
+
+.materials-header-skeleton .skeleton-title {
+  width: 180px;
+  height: 36px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+}
+
+.materials-header-skeleton .skeleton-desc {
+  width: 70%;
+  max-width: 500px;
+  height: 18px;
+  border-radius: 4px;
+}
+
+/* Search Bar Skeleton */
+.materials-search-skeleton {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto 28px;
+}
+
+.skeleton-search-input {
+  width: 100%;
+  height: 48px;
+  border-radius: 8px;
+}
+
+/* Filter Section Skeleton */
+.material-filter-skeleton-section {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.material-filter-skeleton-section .skeleton-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.material-filter-skeleton-section .skeleton-chip {
+  width: 80px;
+  height: 34px;
+  border-radius: 999px;
+}
+
+.material-filter-skeleton-section .skeleton-chip.brand {
+  width: 70px;
+  height: 34px;
+}
+
+/* Results Count Header Skeleton */
+.results-header-skeleton {
+  width: 100%;
+  max-width: 1180px;
+  margin: 32px auto 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.skeleton-text-short {
+  width: 90px;
+  height: 18px;
+  border-radius: 4px;
+}
+
+/* Card Skeleton */
+.material-card-skeleton {
+  border: 1px solid var(--border);
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  width: 100%;
+}
+
+.card-thumb-skeleton {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-bottom: 1px solid var(--border);
+}
+
+.card-info-skeleton {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex-grow: 1;
+}
+
+.skeleton-line-meta {
+  width: 50%;
+  height: 14px;
+  border-radius: 4px;
+}
+
+.skeleton-line-title {
+  width: 85%;
+  height: 18px;
+  border-radius: 4px;
+}
+
+.skeleton-line-spec {
+  width: 65%;
+  height: 14px;
+  border-radius: 4px;
+}
+
+.skeleton-line-price {
+  width: 40%;
+  height: 20px;
+  border-radius: 4px;
+  margin-top: 4px;
+}
+
+.skeleton-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.skeleton-button {
+  flex: 1;
+  height: 38px;
+  border-radius: var(--radius-md);
+}
+
+/* Shimmer style for image loader */
+.card-image-skeleton-loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #f1f5f9 25%, #e2e8f0 37%, #f1f5f9 63%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer-sweep 1.4s ease-in-out infinite;
+  z-index: 1;
+}
+
+/* Mobile Responsiveness for Skeleton */
+@media (max-width: 768px) {
+  .materials-header-skeleton .skeleton-desc {
+    width: 90%;
+  }
+
+  .material-filter-skeleton-section .skeleton-row {
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+
+  .skeleton-chip {
+    flex: 0 0 80px;
+  }
+
+  .skeleton-chip.brand {
+    flex: 0 0 70px;
+  }
+}

@@ -13,6 +13,9 @@ const MaterialCard = ({ material }) => {
     const { addToCart } = useEstimateCart();
     const { user: currentUser, openLoginModal } = useAuth();
     
+    // Track if the thumbnail image is fully loaded
+    const [imgLoaded, setImgLoaded] = useState(false);
+
     // Hybrid local-sync / Supabase-async resolver to eliminate render flickering
     const [coverUrl, setCoverUrl] = useState(() => {
         const localPath = getMaterialImagePath(material);
@@ -28,6 +31,7 @@ const MaterialCard = ({ material }) => {
     });
 
     useEffect(() => {
+        setImgLoaded(false);
         if (material.sizeOptions && material.sizeOptions.length > 0) {
             setSelectedOption(material.sizeOptions[0]);
         } else {
@@ -173,11 +177,19 @@ const MaterialCard = ({ material }) => {
     return (
         <div className="material-card" onClick={() => handleGoDetail()}>
             <div className="card-thumb">
+                {!imgLoaded && <div className="card-image-skeleton-loader skeleton-shimmer" />}
                 <img
                     className="material-thumb"
                     src={coverUrl || "/images/no-image.svg"}
-                    alt={material.name || material.code}
-                    onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = "/images/placeholder-material.jpg"; }}
+                    alt={displayName || material.code}
+                    loading="lazy"
+                    onLoad={() => setImgLoaded(true)}
+                    onError={(e) => { 
+                        e.currentTarget.onerror = null; 
+                        e.currentTarget.src = "/images/no-image.svg"; 
+                        setImgLoaded(true);
+                    }}
+                    style={{ opacity: imgLoaded ? 1 : 0, transition: "opacity 0.2s ease-in-out" }}
                 />
 
                 {material.isNew && <span className="badge-new">NEW</span>}
@@ -290,4 +302,5 @@ const MaterialCard = ({ material }) => {
     );
 };
 
-export default MaterialCard;
+const MemoizedMaterialCard = React.memo(MaterialCard);
+export default MemoizedMaterialCard;

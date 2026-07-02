@@ -6,8 +6,9 @@ import AuthModal from "../components/auth/AuthModal";
 // Pages
 import Home from "../pages/Home/Home";
 import SampleBooks from "../pages/Samplebooks/SampleBooks";
-import Materials from "../pages/Materials/Materials";
-import MaterialDetail from "../pages/MaterialDetail/MaterialDetail";
+const Materials = React.lazy(() => import("../pages/Materials/Materials"));
+const MaterialDetail = React.lazy(() => import("../pages/MaterialDetail/MaterialDetail"));
+import MaterialsPageSkeleton from "../pages/Materials/MaterialsPageSkeleton";
 import Cases from "../pages/Cases/Cases";
 import Cart from "../pages/Cart/Cart";
 import Login from "../pages/Login/Login";
@@ -93,8 +94,16 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/samplebooks" element={<SampleBooks />} />
-        <Route path="/materials" element={<Materials />} />
-        <Route path="/materials/:id" element={<MaterialDetail />} />
+        <Route path="/materials" element={
+          <React.Suspense fallback={<MaterialsPageSkeleton />}>
+            <Materials />
+          </React.Suspense>
+        } />
+        <Route path="/materials/:id" element={
+          <React.Suspense fallback={<MaterialsPageSkeleton />}>
+            <MaterialDetail />
+          </React.Suspense>
+        } />
         <Route path="/cart" element={<Cart />} />
         <Route path="/estimate/request" element={<EstimateRequest />} />
         <Route path="/estimate" element={<EstimateRequest />} />

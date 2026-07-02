@@ -25,11 +25,21 @@ export default function Login() {
                 throw new Error("Supabase 클라이언트가 초기화되지 않았습니다.");
             }
 
+            const isLocalhost = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+            const baseRedirectUrl = isLocalhost 
+                ? `${window.location.origin}/login-callback` 
+                : "https://dkfloor.co.kr/login-callback";
+
+            // account_email은 카카오 Developers 콘솔에서 비즈앱(Biz App) 전환 및 개인정보제공 동의항목 설정이 완료된 후에만 scope에 추가해야 합니다.
+            // 현재 설정되지 않은 동의항목으로 인한 KOE205 에러 발생을 방지하기 위해 profile_nickname과 profile_image만 scope로 요청합니다.
+            const oauthOptions = {
+                redirectTo: `${baseRedirectUrl}?redirect=${encodeURIComponent(redirectUrl)}`,
+                scopes: "profile_nickname profile_image"
+            };
+
             await supabase.auth.signInWithOAuth({
                 provider: "kakao",
-                options: {
-                    redirectTo: `${window.location.origin}/login-callback?redirect=${encodeURIComponent(redirectUrl)}`
-                }
+                options: oauthOptions
             });
         } catch (err) {
             console.error("Kakao login request error:", err);

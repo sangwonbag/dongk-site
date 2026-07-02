@@ -53,7 +53,7 @@ export default function LoginCallback() {
           setStatusMsg("새로운 프로필을 생성하고 있습니다...");
           
           const customUsername = `kakao_${user.id.substring(0, 8)}`;
-          const displayName = userMetadata.full_name || userMetadata.name || userMetadata.nickname || "카카오 사용자";
+          const displayName = userMetadata.full_name || userMetadata.name || userMetadata.nickname || userMetadata.profile_nickname || userMetadata.preferred_username || `카카오_${user.id.substring(0, 8)}`;
           const rawPhone = userMetadata.phone_number || "";
           
           // Normalize phone number if present, otherwise store null
@@ -98,6 +98,7 @@ export default function LoginCallback() {
         // 4. Bind profile to local dk_auth_user session
         const authData = {
           ...finalProfile,
+          email: user.email || userMetadata.email || null, // Defensive fallback for email if not provided in scopes
           isLoggedIn: true
         };
 
@@ -116,7 +117,7 @@ export default function LoginCallback() {
 
       } catch (err) {
         console.error("[Kakao OAuth Callback Exception]", err);
-        setErrorMsg(err.message || String(err));
+        setErrorMsg(`카카오 로그인 처리 중 오류가 발생했습니다. 카카오 로그인 설정(동의 항목 등)을 확인해주세요. (${err.message || String(err)})`);
       }
     }
 

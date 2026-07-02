@@ -6,6 +6,7 @@ import { getSearchScore } from "../../utils/searchUtils";
 import MaterialCard from "../../components/material/MaterialCard";
 import { fetchAllProducts } from "../../utils/supabaseFetcher";
 import "./Materials.css";
+import "./MaterialsPageSkeleton.css";
 
 // 1. Categories specified by the user
 const CATEGORIES = ["데코타일", "장판", "마루", "벽지", "카페트타일", "부자재"];
@@ -73,8 +74,11 @@ export default function Materials() {
   const activeLine = searchParams.get("line") || "all";
   const searchText = searchParams.get("search") || "";
 
-  // Pagination state
-  const [visibleCount, setVisibleCount] = useState(100);
+  // Local input state for the search bar (for responsiveness while typing)
+  const [searchInput, setSearchInput] = useState(searchText);
+
+  // Pagination state (Optimized default to 24 for faster render)
+  const [visibleCount, setVisibleCount] = useState(24);
 
   // Fetch from Supabase on mount
   useEffect(() => {
@@ -95,9 +99,24 @@ export default function Materials() {
     load();
   }, []);
 
+  // Sync search input state with URL search param changes
+  useEffect(() => {
+    setSearchInput(searchText);
+  }, [searchText]);
+
+  // Debounced search parameter update
+  useEffect(() => {
+    const handler = setTimeout(() => {
+      if (searchInput !== searchText) {
+        updateParams({ search: searchInput || null });
+      }
+    }, 300);
+    return () => clearTimeout(handler);
+  }, [searchInput, searchText]);
+
   // Reset pagination when filters change
   useEffect(() => {
-    setVisibleCount(100);
+    setVisibleCount(24);
   }, [activeTab, activeBrand, activeMaterialType, activeLine, searchText]);
 
   // Update query params helper
@@ -241,17 +260,6 @@ export default function Materials() {
     });
   }, [materialsList, activeTab, activeBrand, activeMaterialType, activeLine, searchText, visibleLines]);
 
-  // Loading View
-  if (loading) {
-    return (
-      <MainLayout>
-        <div className="container" style={{ padding: "100px 0", textAlign: "center", fontSize: "16px", color: "#6B6B6B" }}>
-          자료를 불러오는 중입니다.
-        </div>
-      </MainLayout>
-    );
-  }
-
   // Error View
   if (error) {
     return (
@@ -266,23 +274,37 @@ export default function Materials() {
     );
   }
 
-  // No products fallback
-  if (materialsList.length === 0) {
-    return (
-      <MainLayout>
-        <div className="container" style={{ padding: "100px 0", textAlign: "center", fontSize: "16px", color: "#6B6B6B" }}>
-          등록된 자재가 없습니다.
-        </div>
-      </MainLayout>
-    );
-  }
-
   return (
     <MainLayout>
       <div className="materials-container container">
         <main className="materials-content full">
           
-          {/* ✅ 1. Category and Brand Filter Section */}
+          {/* ✅ 1. Page Header (Title & Description) */}
+          <div className="materials-page-header">
+            <div className="header-text">
+              <h1 className="materials-title">자재찾기</h1>
+              <p className="materials-desc">
+                동경바닥재가 엄선한 고품격 바닥재 및 벽지 자재군을 쉽고 빠르게 검색하고 비교해 보세요.
+              </p>
+            </div>
+            {/* Search Box on the Page */}
+            <div className="materials-search-box">
+              <input
+                type="text"
+                placeholder="제품번호, 브랜드 또는 자재명 검색..."
+                value={searchInput}
+                onChange={(e) => setSearchInput(e.target.value)}
+                className="materials-search-input-field"
+              />
+              {searchInput && (
+                <button className="search-clear-btn" onClick={() => setSearchInput("")}>
+                  &times;
+                </button>
+              )}
+            </div>
+          </div>
+          
+          {/* ✅ 2. Category and Brand Filter Section */}
           <div className="material-filter-section">
             
             {/* Category tabs */}
@@ -314,8 +336,8 @@ export default function Materials() {
             )}
           </div>
 
-          {/* ✅ 2. Lineup Filter (Dynamic - Shows only when multiple lines are loaded) */}
-          {visibleLines.length > 2 && (
+          {/* ✅ 3. Lineup Filter (Dynamic - Shows only when multiple lines are loaded) */}
+          {!loading && visibleLines.length > 2 && (
             <div className="material-type-row">
               {visibleLines.map((lineName) => (
                 <button
@@ -329,19 +351,39 @@ export default function Materials() {
             </div>
           )}
 
-
-
           {/* ✅ 4. Products grid display wrapper */}
           <div className="materials-wrapper">
             <div className="results-header">
               <div className="results-info">
-                <span>
-                  총 <strong>{filtered.length}</strong>개 상품
-                </span>
+                {loading ? (
+                  <span>자재 정보를 불러오는 중입니다...</span>
+                ) : (
+                  <span>
+                    총 <strong>{filtered.length}</strong>개 상품
+                  </span>
+                )}
               </div>
             </div>
 
-            {filtered.length > 0 ? (
+            {loading ? (
+              <div className="materials-grid">
+                {Array.from({ length: 8 }).map((_, idx) => (
+                  <div key={idx} className="material-card-skeleton">
+                    <div className="card-thumb-skeleton skeleton-shimmer" />
+                    <div className="card-info-skeleton">
+                      <div className="skeleton-line-meta skeleton-shimmer" />
+                      <div className="skeleton-line-title skeleton-shimmer" />
+                      <div className="skeleton-line-spec skeleton-shimmer" />
+                      <div className="skeleton-line-price skeleton-shimmer" />
+                      <div className="skeleton-buttons">
+                        <div className="skeleton-button skeleton-shimmer" />
+                        <div className="skeleton-button skeleton-shimmer" />
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            ) : filtered.length > 0 ? (
               <>
                 <div className="materials-grid">
                   {filtered.slice(0, visibleCount).map((m) => (
@@ -353,7 +395,7 @@ export default function Materials() {
                   <div className="load-more-container">
                     <button 
                       className="load-more-btn" 
-                      onClick={() => setVisibleCount(prev => prev + 100)}
+                      onClick={() => setVisibleCount(prev => prev + 24)}
                     >
                       더보기 ({Math.min(visibleCount, filtered.length)} / {filtered.length})
                     </button>
