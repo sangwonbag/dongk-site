@@ -155,7 +155,7 @@ export default function EstimateRequest() {
         },
         demolition: site.demolition,
         desired_date: finalPreferredDate,
-        memo: requestMemo,
+        memo: `[상담 방식: ${customer.consultation}]\n${requestMemo}`,
         estimated_total: subtotal
       };
 
@@ -309,170 +309,7 @@ export default function EstimateRequest() {
                     </label>
                   ))}
                 </div>
-                {customer.consultation === '전화 상담' && (
-                  <div style={{
-                    marginTop: '10px',
-                    backgroundColor: '#f8fafc',
-                    border: '1px solid #e2e8f0',
-                    borderRadius: '8px',
-                    padding: '16px',
-                    fontSize: '13.5px',
-                    color: '#334155',
-                    lineHeight: '1.5'
-                  }}>
-                    📞 전화 상담을 선택하셨습니다. 아래 번호로 바로 연락하실 수 있습니다.
-                    <div style={{ marginTop: '10px' }}>
-                      <a 
-                        href={`tel:${OFFICE_PHONE}`}
-                        style={{
-                          display: 'inline-flex',
-                          alignItems: 'center',
-                          justifyContent: 'center',
-                          backgroundColor: '#0f172a',
-                          color: '#ffffff',
-                          fontWeight: '600',
-                          padding: '10px 20px',
-                          borderRadius: '8px',
-                          textDecoration: 'none',
-                          fontSize: '13.5px',
-                          cursor: 'pointer'
-                        }}
-                      >
-                        📞 {OFFICE_PHONE} 전화하기
-                      </a>
-                    </div>
-                  </div>
-                )}
-
-                {customer.consultation === '문자 상담' && (
-                  <div style={{
-                    marginTop: '10px',
-                    backgroundColor: '#f8fafc',
-                    border: '1px solid #e2e8f0',
-                    borderRadius: '8px',
-                    padding: '16px',
-                    fontSize: '13.5px',
-                    color: '#334155',
-                    lineHeight: '1.5'
-                  }}>
-                    💬 문자 상담을 선택하셨습니다. 아래 번호로 현장 주소, 평수, 희망 자재를 문자로 보내주세요.
-                    <div style={{ marginTop: '10px' }}>
-                      <a 
-                        href={`sms:${SMS_PHONE.replace(/-/g, '')}?body=${encodeURIComponent("동경바닥재 견적문의드립니다. 현장주소: / 평수: / 희망자재: ")}`}
-                        style={{
-                          display: 'inline-flex',
-                          alignItems: 'center',
-                          justifyContent: 'center',
-                          backgroundColor: '#0f172a',
-                          color: '#ffffff',
-                          fontWeight: '600',
-                          padding: '10px 20px',
-                          borderRadius: '8px',
-                          textDecoration: 'none',
-                          fontSize: '13.5px',
-                          cursor: 'pointer'
-                        }}
-                      >
-                        ✉️ {SMS_PHONE} 문자 보내기
-                      </a>
-                    </div>
-                  </div>
-                )}
-
-                {customer.consultation === '카카오톡 상담' && (
-                  <div style={{
-                    marginTop: '10px',
-                    backgroundColor: '#fffbeb',
-                    border: '1px solid #fef3c7',
-                    borderRadius: '8px',
-                    padding: '16px',
-                    fontSize: '13.5px',
-                    color: '#b45309',
-                    lineHeight: '1.5'
-                  }}>
-                    💬 카카오톡 채널로 1:1 상담을 요청하시면 빠르게 답변드리겠습니다.
-                    <div style={{ marginTop: '10px' }}>
-                      <a 
-                        href={KAKAO_CHAT_URL} 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        style={{
-                          display: 'inline-flex',
-                          alignItems: 'center',
-                          justifyContent: 'center',
-                          backgroundColor: '#FEE500',
-                          color: '#191919',
-                          fontWeight: '700',
-                          padding: '10px 20px',
-                          borderRadius: '8px',
-                          textDecoration: 'none',
-                          fontSize: '13.5px',
-                          cursor: 'pointer'
-                        }}
-                      >
-                        💬 동경바닥재 카카오톡 1:1 상담 열기
-                      </a>
-                    </div>
-                  </div>
-                )}
-
-                {customer.consultation === '방문 상담' && (
-                  <div style={{
-                    marginTop: '10px',
-                    backgroundColor: '#f8fafc',
-                    border: '1px solid #e2e8f0',
-                    borderRadius: '8px',
-                    padding: '16px',
-                    fontSize: '13.5px',
-                    color: '#334155',
-                    lineHeight: '1.5'
-                  }}>
-                    🏢 방문 상담을 선택하셨습니다. 사무실 방문 전 전화로 재고 및 상담 가능 시간을 확인해주세요.
-                    <div style={{ marginTop: '8px', fontWeight: '500', color: '#1e293b' }}>
-                      📍 사무실 주소: {OFFICE_ADDRESS}
-                    </div>
-                    <div style={{ display: 'flex', gap: '10px', marginTop: '12px', flexWrap: 'wrap' }}>
-                      <a 
-                        href={`tel:${OFFICE_PHONE}`}
-                        style={{
-                          display: 'inline-flex',
-                          alignItems: 'center',
-                          justifyContent: 'center',
-                          backgroundColor: '#0f172a',
-                          color: '#ffffff',
-                          fontWeight: '600',
-                          padding: '10px 20px',
-                          borderRadius: '8px',
-                          textDecoration: 'none',
-                          fontSize: '13.5px',
-                          cursor: 'pointer'
-                        }}
-                      >
-                        📞 사무실 전화하기
-                      </a>
-                      <a 
-                        href={NAVER_MAP_URL}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        style={{
-                          display: 'inline-flex',
-                          alignItems: 'center',
-                          justifyContent: 'center',
-                          backgroundColor: '#28a745',
-                          color: '#ffffff',
-                          fontWeight: '600',
-                          padding: '10px 20px',
-                          borderRadius: '8px',
-                          textDecoration: 'none',
-                          fontSize: '13.5px',
-                          cursor: 'pointer'
-                        }}
-                      >
-                        🗺️ 지도에서 위치 보기
-                      </a>
-                    </div>
-                  </div>
-                )}
+                <ConsultationActionBox type={customer.consultation} />
               </div>
             </div>
           )}
@@ -625,6 +462,7 @@ export default function EstimateRequest() {
                 <h4>최종 확인</h4>
                 <div className="review-row"><span>고객명:</span> {customer.name}</div>
                 <div className="review-row"><span>연락처:</span> {customer.phone}</div>
+                <div className="review-row"><span>상담 방식:</span> {customer.consultation}</div>
                 <div className="review-row"><span>현장:</span> {site.address} {site.detailAddress}</div>
                 <div className="review-row"><span>자재:</span> {cartItems.length}종 담김</div>
                 <div className="review-row"><span>자재 예상액:</span> {calculateSubtotal().toLocaleString()}원 (VAT 별도)</div>
@@ -636,6 +474,8 @@ export default function EstimateRequest() {
                   개인정보 수집 및 상담 목적 이용에 동의합니다. (필수)
                 </label>
               </div>
+
+              <ConsultationActionBox type={customer.consultation} />
             </div>
           )}
         </div>
@@ -663,5 +503,130 @@ export default function EstimateRequest() {
         <MaterialSearchModal onClose={() => setIsModalOpen(false)} />
       )}
     </MainLayout>
+  );
+}
+
+function ConsultationActionBox({ type }) {
+  if (!type) return null;
+
+  // Configuration object for guide and buttons
+  const config = {
+    '전화 상담': {
+      text: '전화 상담을 선택하셨습니다. 아래 버튼으로 바로 연락하실 수 있습니다.',
+      bgColor: '#f8fafc',
+      borderColor: '#e2e8f0',
+      textColor: '#334155',
+      buttons: [
+        {
+          label: `📞 ${OFFICE_PHONE} 전화하기`,
+          href: `tel:${OFFICE_PHONE}`,
+          bgColor: '#0f172a',
+          color: '#ffffff'
+        }
+      ]
+    },
+    '문자 상담': {
+      text: '문자 상담을 선택하셨습니다. 아래 버튼으로 현장 주소, 평수, 희망 자재를 문자로 보내주세요.',
+      bgColor: '#f8fafc',
+      borderColor: '#e2e8f0',
+      textColor: '#334155',
+      buttons: [
+        {
+          label: `✉️ ${SMS_PHONE} 문자 보내기`,
+          href: `sms:${SMS_PHONE.replace(/-/g, '')}?body=${encodeURIComponent("동경바닥재 견적문의드립니다. 현장주소: / 평수: / 희망자재: ")}`,
+          bgColor: '#0f172a',
+          color: '#ffffff'
+        }
+      ]
+    },
+    '카카오톡 상담': {
+      text: '카카오톡 상담을 선택하셨습니다. 견적 내용을 제출한 뒤 카카오톡으로 빠르게 상담하실 수 있습니다.',
+      bgColor: '#fffbeb',
+      borderColor: '#fef3c7',
+      textColor: '#b45309',
+      buttons: [
+        {
+          label: '💬 동경바닥재 카카오톡 1:1 상담 열기',
+          href: KAKAO_CHAT_URL,
+          target: '_blank',
+          rel: 'noopener noreferrer',
+          bgColor: '#FEE500',
+          color: '#191919',
+          fontWeight: '700'
+        }
+      ]
+    },
+    '방문 상담': {
+      text: `방문 상담을 선택하셨습니다. 사무실 방문 전 전화로 재고 및 상담 가능 시간을 확인해주세요.\n📍 사무실 주소: ${OFFICE_ADDRESS}`,
+      bgColor: '#f8fafc',
+      borderColor: '#e2e8f0',
+      textColor: '#334155',
+      buttons: [
+        {
+          label: '📞 사무실 전화하기',
+          href: `tel:${OFFICE_PHONE}`,
+          bgColor: '#0f172a',
+          color: '#ffffff'
+        },
+        {
+          label: '🗺️ 지도에서 위치 보기',
+          href: NAVER_MAP_URL,
+          target: '_blank',
+          rel: 'noopener noreferrer',
+          bgColor: '#28a745',
+          color: '#ffffff'
+        }
+      ]
+    }
+  };
+
+  const item = config[type];
+  if (!item) return null;
+
+  return (
+    <div style={{
+      marginTop: '16px',
+      backgroundColor: item.bgColor,
+      border: `1px solid ${item.borderColor}`,
+      borderRadius: '8px',
+      padding: '16px',
+      fontSize: '13.5px',
+      color: item.textColor,
+      lineHeight: '1.6',
+      textAlign: 'left'
+    }}>
+      <div style={{ whiteSpace: 'pre-line', fontWeight: '500' }}>{item.text}</div>
+      <div style={{ display: 'flex', gap: '10px', marginTop: '12px', flexWrap: 'wrap' }}>
+        {item.buttons.map((btn, index) => (
+          <a
+            key={index}
+            href={btn.href}
+            target={btn.target}
+            rel={btn.rel}
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              backgroundColor: btn.bgColor,
+              color: btn.color,
+              fontWeight: btn.fontWeight || '600',
+              padding: '12px 24px',
+              borderRadius: '8px',
+              textDecoration: 'none',
+              fontSize: '13.5px',
+              cursor: 'pointer',
+              border: 'none',
+              boxShadow: '0 1px 2px rgba(0, 0, 0, 0.05)',
+              minHeight: '44px',
+              flex: '1 1 auto',
+              maxWidth: '300px',
+              textAlign: 'center'
+            }}
+          >
+            {btn.label}
+          </a>
+        ))}
+      </div>
+    </div>
   );
 }
