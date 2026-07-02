@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import MainLayout from '../../components/layout/MainLayout';
-import { KAKAO_CHAT_URL } from '../../constants/contact';
+import { KAKAO_CHAT_URL, OFFICE_PHONE, SMS_PHONE, OFFICE_ADDRESS, NAVER_MAP_URL } from '../../constants/contact';
 import { useEstimateCart } from '../../contexts/EstimateCartContext';
 import { supabase } from '../../lib/supabase';
 import { useAuth } from '../../contexts/AuthContext';
@@ -309,36 +309,168 @@ export default function EstimateRequest() {
                     </label>
                   ))}
                 </div>
+                {customer.consultation === '전화 상담' && (
+                  <div style={{
+                    marginTop: '10px',
+                    backgroundColor: '#f8fafc',
+                    border: '1px solid #e2e8f0',
+                    borderRadius: '8px',
+                    padding: '16px',
+                    fontSize: '13.5px',
+                    color: '#334155',
+                    lineHeight: '1.5'
+                  }}>
+                    📞 전화 상담을 선택하셨습니다. 아래 번호로 바로 연락하실 수 있습니다.
+                    <div style={{ marginTop: '10px' }}>
+                      <a 
+                        href={`tel:${OFFICE_PHONE}`}
+                        style={{
+                          display: 'inline-flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          backgroundColor: '#0f172a',
+                          color: '#ffffff',
+                          fontWeight: '600',
+                          padding: '10px 20px',
+                          borderRadius: '8px',
+                          textDecoration: 'none',
+                          fontSize: '13.5px',
+                          cursor: 'pointer'
+                        }}
+                      >
+                        📞 {OFFICE_PHONE} 전화하기
+                      </a>
+                    </div>
+                  </div>
+                )}
+
+                {customer.consultation === '문자 상담' && (
+                  <div style={{
+                    marginTop: '10px',
+                    backgroundColor: '#f8fafc',
+                    border: '1px solid #e2e8f0',
+                    borderRadius: '8px',
+                    padding: '16px',
+                    fontSize: '13.5px',
+                    color: '#334155',
+                    lineHeight: '1.5'
+                  }}>
+                    💬 문자 상담을 선택하셨습니다. 아래 번호로 현장 주소, 평수, 희망 자재를 문자로 보내주세요.
+                    <div style={{ marginTop: '10px' }}>
+                      <a 
+                        href={`sms:${SMS_PHONE.replace(/-/g, '')}?body=${encodeURIComponent("동경바닥재 견적문의드립니다. 현장주소: / 평수: / 희망자재: ")}`}
+                        style={{
+                          display: 'inline-flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          backgroundColor: '#0f172a',
+                          color: '#ffffff',
+                          fontWeight: '600',
+                          padding: '10px 20px',
+                          borderRadius: '8px',
+                          textDecoration: 'none',
+                          fontSize: '13.5px',
+                          cursor: 'pointer'
+                        }}
+                      >
+                        ✉️ {SMS_PHONE} 문자 보내기
+                      </a>
+                    </div>
+                  </div>
+                )}
+
                 {customer.consultation === '카카오톡 상담' && (
                   <div style={{
                     marginTop: '10px',
                     backgroundColor: '#fffbeb',
                     border: '1px solid #fef3c7',
                     borderRadius: '8px',
-                    padding: '12px 16px',
+                    padding: '16px',
                     fontSize: '13.5px',
                     color: '#b45309',
                     lineHeight: '1.5'
                   }}>
-                    💡 카카오톡 채널로 1:1 실시간 상담을 원하시면 아래 링크를 눌러 즉시 대화를 시작하실 수 있습니다.<br />
-                    <a 
-                      href={KAKAO_CHAT_URL} 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      style={{
-                        display: 'inline-inline-flex',
-                        marginTop: '8px',
-                        backgroundColor: '#FEE500',
-                        color: '#191919',
-                        fontWeight: '700',
-                        padding: '8px 14px',
-                        borderRadius: '6px',
-                        textDecoration: 'none',
-                        fontSize: '13px'
-                      }}
-                    >
-                      💬 동경바닥재 카카오톡 1:1 상담 연결하기
-                    </a>
+                    💬 카카오톡 채널로 1:1 상담을 요청하시면 빠르게 답변드리겠습니다.
+                    <div style={{ marginTop: '10px' }}>
+                      <a 
+                        href={KAKAO_CHAT_URL} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        style={{
+                          display: 'inline-flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          backgroundColor: '#FEE500',
+                          color: '#191919',
+                          fontWeight: '700',
+                          padding: '10px 20px',
+                          borderRadius: '8px',
+                          textDecoration: 'none',
+                          fontSize: '13.5px',
+                          cursor: 'pointer'
+                        }}
+                      >
+                        💬 동경바닥재 카카오톡 1:1 상담 열기
+                      </a>
+                    </div>
+                  </div>
+                )}
+
+                {customer.consultation === '방문 상담' && (
+                  <div style={{
+                    marginTop: '10px',
+                    backgroundColor: '#f8fafc',
+                    border: '1px solid #e2e8f0',
+                    borderRadius: '8px',
+                    padding: '16px',
+                    fontSize: '13.5px',
+                    color: '#334155',
+                    lineHeight: '1.5'
+                  }}>
+                    🏢 방문 상담을 선택하셨습니다. 사무실 방문 전 전화로 재고 및 상담 가능 시간을 확인해주세요.
+                    <div style={{ marginTop: '8px', fontWeight: '500', color: '#1e293b' }}>
+                      📍 사무실 주소: {OFFICE_ADDRESS}
+                    </div>
+                    <div style={{ display: 'flex', gap: '10px', marginTop: '12px', flexWrap: 'wrap' }}>
+                      <a 
+                        href={`tel:${OFFICE_PHONE}`}
+                        style={{
+                          display: 'inline-flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          backgroundColor: '#0f172a',
+                          color: '#ffffff',
+                          fontWeight: '600',
+                          padding: '10px 20px',
+                          borderRadius: '8px',
+                          textDecoration: 'none',
+                          fontSize: '13.5px',
+                          cursor: 'pointer'
+                        }}
+                      >
+                        📞 사무실 전화하기
+                      </a>
+                      <a 
+                        href={NAVER_MAP_URL}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{
+                          display: 'inline-flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          backgroundColor: '#28a745',
+                          color: '#ffffff',
+                          fontWeight: '600',
+                          padding: '10px 20px',
+                          borderRadius: '8px',
+                          textDecoration: 'none',
+                          fontSize: '13.5px',
+                          cursor: 'pointer'
+                        }}
+                      >
+                        🗺️ 지도에서 위치 보기
+                      </a>
+                    </div>
                   </div>
                 )}
               </div>
