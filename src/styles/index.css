@@ -17,26 +17,32 @@
 
 :root {
   /* Color Tokens */
-  --primary: #0f172a; /* 딥 네이비 / 차콜 */
-  --primary-hover: #1e293b;
-  --bg: #ffffff; /* 화이트 기반 */
-  --bg-alt: #f8f9fa; /* 오프 화이트 */
-  --intro-bg: #0f172a; /* 인트로 스플래시는 프리미엄 딥 네이비 */
-  --text: #1e293b; /* 메인 텍스트 */
-  --text-muted: #64748b; /* 보조 텍스트 */
-  --text-light: #94a3b8; /* 비활성/플레이스홀더 */
-  --gray: #f1f5f9; /* 배경용 연그레이 */
-  --border: #e2e8f0; /* 경계선 */
-  --border-hover: #cbd5e1;
-  --point-gold: #b3925f; /* 프리미엄 골드/브론즈 */
-  --point-gold-hover: #997a4d;
-  --point-gold-light: #fbf8f3;
+  --primary: #0F172A; /* B2B 딥 네이비 */
+  --primary-hover: #1E293B;
+  --bg: #F7F8FA; /* 전체 배경: 연그레이 오프화이트 */
+  --bg-card: #FFFFFF; /* 카드 배경 */
+  --bg-alt: #F1F5F9; /* 보조 배경 */
+  --intro-bg: #0F172A;
+  --text: #1F2933; /* 메인 텍스트 */
+  --text-muted: #6B7280; /* 보조 텍스트 */
+  --text-light: #9CA3AF; /* 비활성/플레이스홀더 */
+  --gray: #F8FAFC; 
+  --border: #E5E7EB; /* 경계선/라인 */
+  --border-hover: #D1D5DB;
+  
+  --point-orange: #F97316; /* B2B 포인트 오렌지 */
+  --point-orange-hover: #EA580C;
+  --point-orange-light: #FFF7ED;
+  
+  --point-gold: var(--point-orange);
+  --point-gold-hover: var(--point-orange-hover);
+  --point-gold-light: var(--point-orange-light);
   
   /* Status Colors */
-  --success: #10b981;
-  --danger: #ef4444;
-  --warning: #f59e0b;
-  --info: #3b82f6;
+  --success: #16A34A; /* 성공/완료 */
+  --danger: #DC2626;
+  --warning: #F59E0B; /* 경고/주의 */
+  --info: #2563EB;
 
   /* Spacing & Layout */
   --container-width: 1200px;

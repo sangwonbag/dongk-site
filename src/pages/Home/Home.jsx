@@ -6,6 +6,7 @@ import { supabase } from "../../lib/supabaseClient";
 import { sampleBooks } from "../../data/samplebooks.db";
 import { materials } from "../../data/materials.db";
 import { getThumbnailImage } from "../../utils/galleryUtils";
+import { resolveMaterialImage } from "../../utils/materialImageResolver";
 import { fetchAllProducts } from "../../utils/supabaseFetcher";
 import { 
   ChevronRight, 
@@ -482,6 +483,39 @@ export default function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [dbProjects, setDbProjects] = useState([]);
 
+  // B2B Recommended Material Selection Logic
+  const todayRecommended = useMemo(() => {
+    if (!materials || materials.length === 0) return null;
+
+    // Filter candidates that meet the B2B criteria:
+    // 1. Has price
+    // 2. Has brand, name, code
+    // 3. Has a valid non-placeholder image matched in the image manifest!
+    const candidates = materials.filter(m => {
+      if (!m.name || !m.code || !m.price || m.price <= 0) return false;
+      const imgRes = resolveMaterialImage(m);
+      return imgRes && !imgRes.isPlaceholder;
+    });
+
+    if (candidates.length > 0) {
+      // We prefer LX 엑스컴포트 XCF4023 first
+      const premiumLx = candidates.find(p => p.brand === 'LX하우시스' && p.code === 'XCF4023');
+      if (premiumLx) return premiumLx;
+      
+      const xcomfort = candidates.find(p => p.name.includes('엑스컴포트'));
+      if (xcomfort) return xcomfort;
+      
+      const lxItem = candidates.find(p => p.brand === 'LX하우시스' || p.brand === 'LX');
+      if (lxItem) return lxItem;
+      
+      return candidates[0];
+    }
+    
+    // Fallback: XCF4023 manually
+    const fallbackItem = materials.find(m => m.code === 'XCF4023');
+    return fallbackItem || null;
+  }, []);
+
   // Balanced recommendation logic using useMemo to prevent infinite shuffle on render
   const featuredItems = useMemo(() => {
     if (!featuredPool || featuredPool.length === 0) return [];
@@ -796,6 +830,10 @@ export default function Home() {
     };
   }, [featuredItems, dbProjects]);
 
+  const recImageObj = todayRecommended ? resolveMaterialImage(todayRecommended) : null;
+  const recImgUrl = recImageObj?.src || '/images/no-image.svg';
+  const recImgAlt = recImageObj?.alt || '추천 자재 이미지';
+
   return (
     <MainLayout>
       <div className="showroom-home-layout">
@@ -832,20 +870,74 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Right Card-style Images Column */}
+            {/* Right B2B Recommendation Card */}
             <div className="hero-b2b-visual">
-              <div className="b2b-visual-stack">
-                <div className="visual-card main-card">
-                  <img src="/images/living_room.png" alt="바닥 자재" className="visual-img" />
-                  <span className="visual-tag bg-gold">Premium Flooring</span>
+              <div className="b2b-recommendation-card">
+                <div className="b2b-rec-header">
+                  <span className="b2b-rec-tag">🔥 오늘의 B2B 추천 자재</span>
+                  <span className="b2b-rec-delivery-badge">
+                    {todayRecommended?.category === '장판' ? "m 단위 절단 판매" : "50평 이상 무료배송"}
+                  </span>
                 </div>
-                <div className="visual-card sub-card">
-                  <img src="/images/home-interior/korea-store-01.png" alt="상업 공간 시공" className="visual-img" />
-                  <span className="visual-tag bg-dark">책임 시공 보증</span>
+                <div className="b2b-rec-image-box" style={{ position: 'relative' }}>
+                  <img 
+                    src={recImgUrl} 
+                    alt={recImgAlt} 
+                    className="b2b-rec-img"
+                    onError={(e) => { e.target.onerror = null; e.target.src = "/images/no-image.svg"; }}
+                  />
+                  {recImageObj?.isPlaceholder && (
+                    <div className="b2b-rec-img-placeholder-overlay" style={{
+                      position: 'absolute',
+                      top: 0,
+                      left: 0,
+                      width: 100 + '%',
+                      height: 100 + '%',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      backgroundColor: 'rgba(0,0,0,0.05)',
+                      color: 'var(--text-muted)',
+                      fontSize: '13px',
+                      fontWeight: '700'
+                    }}>
+                      <span>이미지 준비중</span>
+                    </div>
+                  )}
                 </div>
-                <div className="visual-floating-badge">
-                  <span className="badge-num">20+</span>
-                  <span className="badge-txt">년 유통 경력</span>
+                <div className="b2b-rec-info">
+                  <div className="b2b-rec-brand-row">
+                    <span className="b2b-rec-brand">{todayRecommended?.brand || "LX하우시스"}</span>
+                    {todayRecommended?.code && (
+                      <span className="b2b-rec-code">{todayRecommended.code}</span>
+                    )}
+                  </div>
+                  <h3 className="b2b-rec-title">{todayRecommended?.name || "엑스컴포트 5.0T"}</h3>
+                  <div className="b2b-rec-specs">
+                    <span>규격: {todayRecommended?.specs?.size || "5.0mm(T) x 1.83m x 롤단위"}</span>
+                    <span>구성: {todayRecommended?.specs?.packing || "m 단위 절단 판매"}</span>
+                  </div>
+                  <div className="b2b-rec-price-row">
+                    <span className="b2b-rec-price-label">도매가</span>
+                    <span className="b2b-rec-price">
+                      {todayRecommended?.price ? `${todayRecommended.price.toLocaleString()}원` : "가격문의"}
+                      <small> / 평</small>
+                    </span>
+                  </div>
+                  <div className="b2b-rec-actions">
+                    <button 
+                      className="btn-b2b-rec primary" 
+                      onClick={() => nav(`/estimate/request`, { state: { selectedProduct: todayRecommended } })}
+                    >
+                      실시간 견적요청
+                    </button>
+                    <button 
+                      className="btn-b2b-rec secondary" 
+                      onClick={() => nav(`/materials?category=${todayRecommended?.category || '장판'}&brand=${todayRecommended?.brand === 'LX하우시스' ? 'LX' : todayRecommended?.brand || ''}`)}
+                    >
+                      자재 더 보기
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -853,29 +945,38 @@ export default function Home() {
         </section>
 
         {/* ==========================================
-           1.5 Black Stats Strip Section
+           1.5 B2B Trust Grid Section
            ========================================== */}
         <section className="showroom-stats-strip">
-          <div className="stats-strip-container container">
-            <div className="stats-strip-grid">
-              <div className="stats-strip-item">
-                <span className="stats-num">300평+</span>
-                <span className="stats-lbl">최대 현장 납품 경험</span>
+          <div className="container">
+            <div className="b2b-trust-grid">
+              <div className="b2b-trust-card">
+                <div className="b2b-trust-icon">🏆</div>
+                <div className="b2b-trust-content">
+                  <h3 className="b2b-trust-title">20년+ 시공 경험</h3>
+                  <p className="b2b-trust-desc">바닥재 한 분야만 깊이 파온 정밀 책임 시공 노하우</p>
+                </div>
               </div>
-              <div className="stats-strip-divider" />
-              <div className="stats-strip-item">
-                <span className="stats-num">1,400+</span>
-                <span className="stats-lbl">가지 다양한 자재 라인업</span>
+              <div className="b2b-trust-card">
+                <div className="b2b-trust-icon">🚚</div>
+                <div className="b2b-trust-content">
+                  <h3 className="b2b-trust-title">50평 이상 무료배송</h3>
+                  <p className="b2b-trust-desc">대량 발주 시 현장 운송 비용 부담을 덜어드립니다</p>
+                </div>
               </div>
-              <div className="stats-strip-divider" />
-              <div className="stats-strip-item">
-                <span className="stats-num">KCC · 동신 · LX</span>
-                <span className="stats-lbl">국내 주요 브랜드 취급</span>
+              <div className="b2b-trust-card">
+                <div className="b2b-trust-icon">🛡️</div>
+                <div className="b2b-trust-content">
+                  <h3 className="b2b-trust-title">정품 브랜드 취급</h3>
+                  <p className="b2b-trust-desc">KCC, 동신, LX 등 제조사 인증 100% 정품 유통</p>
+                </div>
               </div>
-              <div className="stats-strip-divider" />
-              <div className="stats-strip-item">
-                <span className="stats-num">실시간</span>
-                <span className="stats-lbl">빠른 견적 및 기술 상담</span>
+              <div className="b2b-trust-card" onClick={() => window.open(KAKAO_CHAT_URL, '_blank')}>
+                <div className="b2b-trust-icon">💬</div>
+                <div className="b2b-trust-content">
+                  <h3 className="b2b-trust-title">카카오톡 빠른 상담</h3>
+                  <p className="b2b-trust-desc">견적 문의부터 현장 자재 매칭까지 신속하게 연결</p>
+                </div>
               </div>
             </div>
           </div>

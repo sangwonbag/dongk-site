@@ -44,8 +44,14 @@ const MaterialCard = ({ material }) => {
     // Compute standard display name for cards and cart items
     const displayName = (() => {
         if (!material) return "";
-        if (material.brand === '이건' && material.category === '마루') {
-            return material.productName || `${material.name}_${material.line}`;
+        if (material.category === '마루') {
+            const brandName = material.brand === '이건' ? '이건마루' : getComputedBrand(material);
+            const line = material.displayLine || material.line || "";
+            let name = material.name || "";
+            if (line && name.startsWith(line)) {
+                name = name.replace(line, "").trim();
+            }
+            return `${brandName} ${line} ${name}`.replace(/\s+/g, ' ').trim();
         }
         if (material.brand === '동신' && material.category === '데코타일' && ['아트타일', '아트하우스', '아트에코차음'].includes(material.line)) {
             return material.code;
@@ -191,15 +197,31 @@ const MaterialCard = ({ material }) => {
                     }}
                     style={{ opacity: imgLoaded ? 1 : 0, transition: "opacity 0.2s ease-in-out" }}
                 />
+                
+                {(!coverUrl || coverUrl === "/images/no-image.svg") && (
+                    <div className="card-image-placeholder-overlay">
+                        <span>이미지 준비중<br /><small style={{ fontSize: '10px', fontWeight: '500', opacity: 0.8 }}>상품코드 기준 이미지 확인 필요</small></span>
+                    </div>
+                )}
 
                 {material.isNew && <span className="badge-new">NEW</span>}
             </div>
 
             <div className="card-info">
                 <div className="card-brand-cat">
-                    <span className="card-brand">{getComputedBrand(material)}</span>
-                    {material.category && <span className="card-cat-divider">|</span>}
-                    <span className="card-category">{material.category}</span>
+                    {material.category === '마루' ? (
+                        <>
+                            <span className="card-brand">{getComputedBrand(material)}</span>
+                            <span className="card-cat-divider">·</span>
+                            <span className="card-category">{material.materialType || "강마루"}</span>
+                        </>
+                    ) : (
+                        <>
+                            <span className="card-brand">{getComputedBrand(material)}</span>
+                            {material.category && <span className="card-cat-divider">|</span>}
+                            <span className="card-category">{material.category}</span>
+                        </>
+                    )}
                 </div>
                 <div className="card-name">{displayName}</div>
                 
@@ -284,9 +306,15 @@ const MaterialCard = ({ material }) => {
                 )}
 
                 <div className="card-price-row">
-                    <div className="card-price">
-                        {material.price ? `₩${material.price.toLocaleString()}원` : "가격문의"}
+                    <div className="card-price-container">
+                        <span className="card-price">
+                            {material.price ? `${material.price.toLocaleString()}원` : "가격문의"}
+                        </span>
+                        {material.price && <span className="card-price-unit">/평</span>}
                     </div>
+                    <span className="card-delivery-badge">
+                        {material.category === '장판' ? "m 단위 절단" : "50평 이상 무료배송"}
+                    </span>
                 </div>
 
                 <div className="card-actions">

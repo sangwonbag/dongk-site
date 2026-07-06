@@ -1,6 +1,7 @@
 import { supabase } from '../lib/supabaseClient';
 import { materials } from '../data/materials.db'; // Local fallback data
 import { dongshinPolymer2026 } from '../data/dongshinPolymer2026.js';
+import { normalizeProductDetails } from './brandUtils';
 
 const normalizeText = (value = "") =>
   String(value).replace(/\s+/g, "").toLowerCase().trim();
@@ -105,10 +106,11 @@ export async function fetchAllProducts(forceRefresh = false) {
 
       if (m.collection) mapped.collection = m.collection;
       if (m.series) mapped.series = m.series;
+      if (m.subCategory) mapped.subCategory = m.subCategory;
       if (m.catalog) mapped.catalog = m.catalog;
       if (m.productName) mapped.productName = m.productName;
 
-      return mapped;
+      return normalizeProductDetails(mapped);
     });
 
     console.log("Successfully loaded local fallback materials:", cachedProducts.length);
@@ -180,12 +182,15 @@ export function mapProductRow(p) {
     mapped.note = localMatch.note;
     mapped.catalog = localMatch.catalog;
     mapped.productName = localMatch.productName;
+    if (localMatch.subCategory) {
+      mapped.subCategory = localMatch.subCategory;
+    }
     if (localMatch.sizeOptions) {
       mapped.sizeOptions = localMatch.sizeOptions;
     }
   }
 
-  return mapped;
+  return normalizeProductDetails(mapped);
 }
 
 export function deduplicateProducts(productList) {

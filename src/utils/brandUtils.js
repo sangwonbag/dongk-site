@@ -37,3 +37,84 @@ export const getComputedBrand = (item) => {
 
     return originalBrand;
 };
+
+/**
+ * 마루 카테고리 자재의 세부 분류(materialType)와 표시 라인(displayLine)을 표준화합니다.
+ */
+export function getMaterialTypeAndLine(m) {
+  if (!m) return { materialType: "강마루", displayLine: "" };
+  
+  let materialType = m.subCategory || m.materialType || "";
+  let displayLine = m.line || "";
+
+  if (m.brand === "이건") {
+    if (m.series) materialType = m.series;
+  }
+
+  // Parse based on underscores (e.g. 강마루_구정강)
+  if (displayLine && displayLine.includes('_')) {
+    const parts = displayLine.split('_').map(p => p.trim());
+    if (["강마루", "원목마루", "천연마루", "타일마루", "강화마루"].includes(parts[0])) {
+      materialType = parts[0];
+      
+      if (parts.length > 1) {
+        let linePart = parts.slice(1).join(' ');
+        
+        // Clean/normalize displayLine based on requested rules
+        const cleanLower = linePart.toLowerCase().replace(/\s+/g, '');
+        if (cleanLower === '듀오텍스쳐duotexture') {
+          displayLine = '듀오텍스쳐';
+        } else if (cleanLower === '듀오텍스쳐duotexturemax') {
+          displayLine = '듀오텍스쳐맥스';
+        } else if (cleanLower === '클릭스톤') {
+          displayLine = '클릭스톤';
+        } else if (cleanLower === '클릭그란데') {
+          displayLine = '클릭그란데';
+        } else if (cleanLower === '클릭') {
+          displayLine = '클릭';
+        } else if (cleanLower === '그란데') {
+          displayLine = '그란데';
+        } else if (cleanLower === '진오리진') {
+          displayLine = '진오리진';
+        } else if (cleanLower === '진테라') {
+          displayLine = '진테라';
+        } else {
+          // Remove English suffix and clean up
+          displayLine = linePart.replace(/_[a-zA-Z\s]+$/g, '').replace(/_/g, ' ').replace(/\s+/g, ' ').trim();
+        }
+      }
+    }
+  }
+
+  // Additional custom normalization for Dongwha lines
+  if (m.brand === "동화") {
+    const cleanLower = displayLine.toLowerCase().replace(/\s+/g, '');
+    if (cleanLower === '듀오스퀘어') {
+      displayLine = '듀오스퀘어';
+    } else if (cleanLower === '듀오텍스쳐맥스') {
+      displayLine = '듀오텍스쳐맥스';
+    } else if (cleanLower === '듀오텍스쳐') {
+      displayLine = '듀오텍스쳐';
+    } else if (cleanLower === '듀오오리진') {
+      displayLine = '듀오오리진';
+    }
+  }
+
+  if (!materialType && m.category === "마루") {
+    materialType = "강마루";
+  }
+
+  displayLine = displayLine.replace(/_/g, ' ').trim();
+
+  return { materialType, displayLine };
+}
+
+export function normalizeProductDetails(item) {
+  if (item && item.category === "마루") {
+    const { materialType, displayLine } = getMaterialTypeAndLine(item);
+    item.materialType = materialType;
+    item.displayLine = displayLine;
+  }
+  return item;
+}
+

@@ -233,7 +233,7 @@ export default function EstimateRequest() {
           boxShadow: '0 4px 12px rgba(0,0,0,0.05)',
           border: '1px solid #e2e8f0'
         }}>
-          <CheckCircle size={64} color="#28a745" style={{ marginBottom: '20px' }} />
+          <CheckCircle size={64} color="var(--success)" style={{ marginBottom: '20px' }} />
           <h2 style={{ fontSize: '24px', fontWeight: '800', color: '#0f172a', marginBottom: '10px' }}>
             견적요청이 완료되었습니다.
           </h2>
@@ -258,11 +258,39 @@ export default function EstimateRequest() {
             <div style={{ display: 'flex', marginBottom: '6px' }}><span style={{ width: '100px', color: '#64748b', fontWeight: '500' }}>고객명:</span> <span style={{ color: '#334155' }}>{customer.name}</span></div>
             <div style={{ display: 'flex', marginBottom: '6px' }}><span style={{ width: '100px', color: '#64748b', fontWeight: '500' }}>연락처:</span> <span style={{ color: '#334155' }}>{customer.phone}</span></div>
             <div style={{ display: 'flex', marginBottom: '6px' }}><span style={{ width: '100px', color: '#64748b', fontWeight: '500' }}>현장 주소:</span> <span style={{ color: '#334155', flex: 1 }}>{site.address} {site.detailAddress}</span></div>
-            <div style={{ display: 'flex' }}><span style={{ width: '100px', color: '#64748b', fontWeight: '500' }}>상담 방식:</span> <strong style={{ color: '#4f46e5' }}>{customer.consultation}</strong></div>
+            <div style={{ display: 'flex' }}><span style={{ width: '100px', color: '#64748b', fontWeight: '500' }}>상담 방식:</span> <strong style={{ color: 'var(--point-orange)' }}>{customer.consultation}</strong></div>
           </div>
 
-          <div style={{ marginBottom: '32px' }}>
+          <div style={{ marginBottom: '24px' }}>
             <ConsultationActionBox type={customer.consultation} isCompletedScreen={true} />
+            {customer.consultation !== '카카오톡 상담' && (
+              <div style={{ marginTop: '16px', borderTop: '1px dashed var(--border)', paddingTop: '16px', textAlign: 'left' }}>
+                <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginBottom: '8px', fontWeight: '600' }}>
+                  💬 빠른 상담 및 사양 매칭은 카카오톡으로 실시간 연락을 취하실 수 있습니다.
+                </p>
+                <a 
+                  href={KAKAO_CHAT_URL} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    padding: '12px 20px',
+                    borderRadius: '8px',
+                    backgroundColor: '#FEE500',
+                    color: '#191919',
+                    fontWeight: '700',
+                    fontSize: '14px',
+                    textDecoration: 'none',
+                    boxShadow: 'var(--shadow-sm)',
+                    transition: 'all 0.2s ease'
+                  }}
+                >
+                  💬 카카오톡 빠른 상담하기
+                </a>
+              </div>
+            )}
           </div>
 
           <div style={{
@@ -284,7 +312,7 @@ export default function EstimateRequest() {
                 cursor: 'pointer',
                 border: '1px solid #cbd5e1',
                 backgroundColor: '#ffffff',
-                color: '#CBD5E1' ? '#334155' : ''
+                color: '#334155'
               }}
             >
               🏠 홈으로 가기
@@ -298,7 +326,7 @@ export default function EstimateRequest() {
                 fontSize: '14px',
                 fontWeight: '600',
                 cursor: 'pointer',
-                backgroundColor: '#0f172a',
+                backgroundColor: 'var(--primary)',
                 color: '#ffffff',
                 border: 'none'
               }}
@@ -345,7 +373,7 @@ export default function EstimateRequest() {
         <div className="est-stepper">
           {[1, 2, 3, 4].map(num => (
             <div key={num} className={`step ${step === num ? 'active' : step > num ? 'completed' : ''}`}>
-              <div className="step-circle">{num}</div>
+              <div className="step-circle">{step > num ? '✓' : num}</div>
               <span>
                 {num === 1 ? '고객정보' : num === 2 ? '현장정보' : num === 3 ? '자재선택' : '확인/제출'}
               </span>

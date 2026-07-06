@@ -485,7 +485,10 @@ export default function Checkout() {
                           checked={hasElevator === "yes"}
                           onChange={() => setHasElevator("yes")}
                         />
-                        있음 (사용 가능)
+                        <div className="checkout-radio-text-box">
+                          <strong>있음</strong>
+                          <span>사용 가능</span>
+                        </div>
                       </label>
                       <label className={`checkout-radio-label ${hasElevator === "no" ? "active" : ""}`}>
                         <input
@@ -495,7 +498,10 @@ export default function Checkout() {
                           checked={hasElevator === "no"}
                           onChange={() => setHasElevator("no")}
                         />
-                        없음 (계단 이동)
+                        <div className="checkout-radio-text-box">
+                          <strong>없음</strong>
+                          <span>계단 이동</span>
+                        </div>
                       </label>
                     </div>
                   </div>
@@ -511,7 +517,10 @@ export default function Checkout() {
                           checked={needCarry === "no"}
                           onChange={() => setNeedCarry("no")}
                         />
-                        불필요 (1층 하차)
+                        <div className="checkout-radio-text-box">
+                          <strong>불필요</strong>
+                          <span>1층 하차</span>
+                        </div>
                       </label>
                       <label className={`checkout-radio-label ${needCarry === "yes" ? "active" : ""}`}>
                         <input
@@ -521,7 +530,10 @@ export default function Checkout() {
                           checked={needCarry === "yes"}
                           onChange={() => setNeedCarry("yes")}
                         />
-                        필요 (운임 협의)
+                        <div className="checkout-radio-text-box">
+                          <strong>필요</strong>
+                          <span>운임 협의</span>
+                        </div>
                       </label>
                     </div>
                   </div>

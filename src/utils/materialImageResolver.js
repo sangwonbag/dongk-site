@@ -1,5 +1,15 @@
 import { imageManifest } from '../data/materialImageManifest.generated.js';
 
+const SUPABASE_PUBLIC_URL_PREFIX = "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/";
+
+// Helper to clean paths and convert to full URL
+function toFullImageUrl(path) {
+  if (!path) return '';
+  if (path.startsWith('http')) return path;
+  if (path.startsWith('/')) return path;
+  return SUPABASE_PUBLIC_URL_PREFIX + path;
+}
+
 // Normalize codes and texts by stripping spaces, special chars, and capitalizing
 export function normalizeMaterialCode(code) {
   if (!code) return '';
@@ -54,86 +64,138 @@ function categoriesMatch(c1, c2) {
   return normalizeMaterialCode(c1) === normalizeMaterialCode(c2);
 }
 
-export function resolveMaterialImage(material) {
-  if (!material) return '/images/no-image.svg';
+// Helper to extract design name inside parentheses
+function extractDesignName(name) {
+  if (!name) return '';
+  const match = name.match(/\(([^)]+)\)/);
+  if (match) return match[1].trim();
+  return '';
+}
 
-  // 1st Priority: If product data has an existing non-empty image/thumbnail URL:
-  const fields = [
+export function resolveMaterialImage(material) {
+  const matBrand = material?.brand || '';
+  const matName = material?.name || '';
+  const matCode = material?.code || '';
+  const matCategory = material?.category || '';
+  
+  const altText = `${matBrand} ${matName} ${matCode}`.trim();
+
+  if (!material) {
+    return {
+      src: '/images/no-image.svg',
+      alt: '자재 이미지 준비중',
+      isPlaceholder: true,
+      isRepresentativeImage: false,
+      matchReason: 'null-input'
+    };
+  }
+
+  // 1st Priority: If product data has an existing non-empty image/thumbnail URL in DB
+  const dbFields = [
+    material.image_url,
+    material.thumbnail_url,
+    material.main_image_url,
     material.image,
     material.imageUrl,
     material.imagePath,
     material.thumbnail
   ].filter(Boolean);
 
-  for (const field of fields) {
-    const fieldStr = String(field);
-    if (fieldStr.startsWith('http')) {
-      return fieldStr;
-    }
-    
-    // Check if the path exists in the generated manifest
-    const normalizedField = decodeURIComponent(fieldStr).replace(/\\/g, '/').replace(/^\/?/, '/');
-    const matchedByPath = imageManifest.find(img => {
-      const decodedManifestPath = decodeURIComponent(img.fullPublicPath).replace(/^\/?/, '/');
-      return decodedManifestPath === normalizedField;
-    });
-    
-    if (matchedByPath) {
-      return matchedByPath.fullPublicPath;
+  for (const field of dbFields) {
+    const fieldStr = String(field).trim();
+    if (fieldStr && !fieldStr.includes('no-image.svg') && !fieldStr.includes('placeholder')) {
+      return {
+        src: toFullImageUrl(fieldStr),
+        alt: altText,
+        isPlaceholder: false,
+        isRepresentativeImage: false,
+        matchReason: 'db-url'
+      };
     }
   }
-
-  const matBrand = material.brand || '';
-  const matCategory = material.category || '';
 
   // Filter manifest by brand and category to restrict matching domain and prevent mismatch collisions
   const scopedImages = imageManifest.filter(img => 
     brandsMatch(img.brand, matBrand) && categoriesMatch(img.category, matCategory)
   );
 
-  // 2nd Priority: Match exact code (case insensitive, trimmed)
-  if (material.code) {
-    const targetCode = String(material.code).trim().toUpperCase();
+  // 2nd Priority: Match exact code (case insensitive, trimmed) in manifest
+  const normTargetCode = normalizeMaterialCode(matCode);
+  if (normTargetCode) {
     const matchedByCode = scopedImages.find(img => 
-      img.extractedCode && img.extractedCode.toUpperCase() === targetCode
+      normalizeMaterialCode(img.extractedCode) === normTargetCode
     );
     if (matchedByCode) {
-      return matchedByCode.fullPublicPath;
+      return {
+        src: matchedByCode.fullPublicPath,
+        alt: altText,
+        isPlaceholder: false,
+        isRepresentativeImage: false,
+        matchReason: 'exact-code'
+      };
     }
   }
 
-  // 3rd Priority: Match normalized code (ignoring whitespace and special characters)
-  if (material.code) {
-    const normCode = normalizeMaterialCode(material.code);
-    if (normCode) {
-      const matchedByNormCode = scopedImages.find(img => 
-        normalizeMaterialCode(img.extractedCode) === normCode
-      );
-      if (matchedByNormCode) {
-        return matchedByNormCode.fullPublicPath;
-      }
-    }
-  }
-
-  // 4th Priority: Match normalized name keyword (fuzzy matching)
-  if (material.name || material.code) {
-    const normName = normalizeMaterialCode(material.name || material.code);
-    if (normName) {
-      // Find files where filename contains normalized product name/code or vice versa
-      const matchedByName = scopedImages.find(img => 
-        img.normalizedFileName && 
-        (img.normalizedFileName.includes(normName) || normName.includes(img.normalizedFileName))
-      );
+  // 3rd Priority: Match exact name in manifest
+  if (matName) {
+    const normTargetName = normalizeMaterialCode(matName);
+    if (normTargetName) {
+      const matchedByName = scopedImages.find(img => {
+        const cleanFileName = normalizeMaterialCode(img.fileName.slice(0, img.fileName.lastIndexOf('.')));
+        return cleanFileName === normTargetName || cleanFileName.includes(normTargetName) || normTargetName.includes(cleanFileName);
+      });
       if (matchedByName) {
-        return matchedByName.fullPublicPath;
+        return {
+          src: matchedByName.fullPublicPath,
+          alt: altText,
+          isPlaceholder: false,
+          isRepresentativeImage: false,
+          matchReason: 'exact-name'
+        };
       }
+    }
+  }
+
+  // 4th Priority: Same brand + same lineup + same design name (representative image fallback)
+  const targetDesign = extractDesignName(matName);
+  const targetLine = material.line || '';
+  if (targetDesign) {
+    const normDesign = normalizeMaterialCode(targetDesign);
+    const matchedByDesign = scopedImages.find(img => {
+      const normFileName = normalizeMaterialCode(img.fileName);
+      const normSeries = normalizeMaterialCode(img.series);
+      
+      const designMatches = normFileName.includes(normDesign) || normSeries.includes(normDesign);
+      if (targetLine) {
+        const normLine = normalizeMaterialCode(targetLine);
+        const lineMatches = normFileName.includes(normLine) || normSeries.includes(normLine);
+        return designMatches && lineMatches;
+      }
+      return designMatches;
+    });
+
+    if (matchedByDesign) {
+      return {
+        src: matchedByDesign.fullPublicPath,
+        alt: `${altText} (대표 이미지)`,
+        isPlaceholder: false,
+        isRepresentativeImage: true,
+        matchReason: 'representative-design'
+      };
     }
   }
 
   // 5th Priority: Fallback to placeholder image
-  return '/images/no-image.svg';
+  return {
+    src: '/images/no-image.svg',
+    alt: `${altText} 이미지 준비중`,
+    isPlaceholder: true,
+    isRepresentativeImage: false,
+    matchReason: 'missing'
+  };
 }
 
 export function getMaterialImagePath(material) {
-  return resolveMaterialImage(material);
+  const result = resolveMaterialImage(material);
+  return result.src || '/images/no-image.svg';
 }

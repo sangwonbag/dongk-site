@@ -6,6 +6,12 @@ const PROJECT_ROOT = path.resolve(__dirname, '..');
 const MATERIALS_DIR = path.join(PROJECT_ROOT, 'public', 'images', 'Thumbnail_Image', 'materials');
 const OUTPUT_FILE = path.join(PROJECT_ROOT, 'src', 'data', 'generatedMaterials.js');
 
+const LX_NAMES_FILE = path.join(PROJECT_ROOT, 'src', 'data', 'lx_names.json');
+let lxNamesMap = {};
+if (fs.existsSync(LX_NAMES_FILE)) {
+    lxNamesMap = JSON.parse(fs.readFileSync(LX_NAMES_FILE, 'utf-8'));
+}
+
 function getMd5StorageKey(absPath) {
     const relPath = path.relative(MATERIALS_DIR, absPath).replace(/\\/g, '/');
     const hash = crypto.createHash('md5').update(relPath, 'utf8').digest('hex');
@@ -460,31 +466,31 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                 const thicknessSource = brandFolder || line;
                 
                 if (thicknessSource.includes('뉴청맥')) {
-                    price = 11000;
+                    price = 12000;
                     sizeLabel = "1.8mm(T) x 1,830mm(W)";
                     packing = "35m / Roll";
                 } else if (thicknessSource.includes('은행목')) {
-                    price = 17000;
+                    price = 18000;
                     sizeLabel = "2.0mm(T) x 1,830mm(W)";
                     packing = "30m / Roll";
                 } else if (thicknessSource.includes('지아자연애')) {
-                    price = 22000;
+                    price = 23000;
                     sizeLabel = "2.2mm(T) x 1,830mm(W)";
                     packing = "30m / Roll";
                 } else if (thicknessSource.includes('지아사랑애') && thicknessSource.includes('3.2')) {
-                    price = 36000;
+                    price = 38000;
                     sizeLabel = "3.2mm(T) x 1,830mm(W)";
                     packing = "23m / Roll";
                 } else if (thicknessSource.includes('지아사랑애') && thicknessSource.includes('2.7')) {
-                    price = 32000;
+                    price = 34000;
                     sizeLabel = "2.7mm(T) x 1,830mm(W)";
                     packing = "25m / Roll";
                 } else if (thicknessSource.includes('지아소리잠')) {
-                    price = 44000;
+                    price = 47000;
                     sizeLabel = "4.5mm(T) x 1,830mm(W)";
                     packing = "20m / 롤";
                 } else if (thicknessSource.includes('엑스컴포트')) {
-                    price = 50000;
+                    price = 53000;
                     sizeLabel = "5.0mm(T) x 1,830mm(W)";
                     packing = "20m / Roll";
                 }
@@ -495,6 +501,10 @@ function applyRules(category, brand, line, fileName, nameOnly, id, code, brandFo
                 overrideLine = lineName;
                 if (!sizeLabel) sizeLabel = "1.83m x 롤단위";
                 if (!packing) packing = "m 단위 절단 판매";
+
+                if (lxNamesMap && lxNamesMap[code]) {
+                    overrideName = lxNamesMap[code];
+                }
             }
             break;
 

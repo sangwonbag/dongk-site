@@ -16,12 +16,13 @@ import {
 } from "lucide-react";
 import MainLayout from "../../components/layout/MainLayout";
 import { useEstimateCart } from "../../contexts/EstimateCartContext";
+import { KAKAO_CHAT_URL } from "../../constants/contact";
 import { getValidGalleryImages, getDetailImage, getThumbnailImage } from "../../utils/galleryUtils";
 import { getMaterialImagePath } from "../../utils/materialImageResolver";
 import { supabase } from "../../lib/supabaseClient";
 import { useAuth } from "../../contexts/AuthContext";
 import { materials } from "../../data/materials.db"; // Local fallback data
-import { getComputedBrand } from "../../utils/brandUtils";
+import { getComputedBrand, normalizeProductDetails } from "../../utils/brandUtils";
 import { dongshinPolymer2026 } from "../../data/dongshinPolymer2026.js";
 import "./MaterialDetail.css";
 
@@ -65,6 +66,375 @@ const inferBrandFromCode = (code) => {
     return "LG";
   }
   return null;
+};
+
+// Eagon flooring sub-classification / upper category helper
+const getEagonUpperCategory = (line = "") => {
+  const norm = String(line).replace(/\s+/g, "").toLowerCase();
+  if (norm.includes("라르고")) return "원목마루";
+  if (norm.includes("포레스타") || norm.includes("제나")) return "천연마루";
+  if (norm.includes("그린")) return "프리미엄 강마루";
+  if (norm.includes("세라")) return "강마루";
+  return "마루";
+};
+
+const getEagonClassification = (line = "") => getEagonUpperCategory(line);
+
+// Eagon line-based directory folders helper
+const getEagonImageFolder = (line = "") => {
+  const norm = String(line).replace(/\s+/g, "").toLowerCase();
+  
+  if (norm.includes("라르고솔레190t1")) return "원목마루/라르고 솔레 190 T1";
+  if (norm.includes("라르고솔레190t3")) return "원목마루/라르고 솔레 190 T3";
+  if (norm.includes("라르고솔레150t4")) return "원목마루/라르고 솔레 150 T4";
+  if (norm.includes("라르고솔레240t4")) return "원목마루/라르고 솔레 240 T4";
+  if (norm.includes("라르고")) return "원목마루/라르고 솔레 190 T3";
+  
+  if (norm.includes("제나내추럴") || norm.includes("제나")) return "천연마루/제나 내추럴";
+  if (norm.includes("포레스타g")) return "천연마루/포레스타 G";
+  if (norm.includes("포레스타")) return "천연마루/포레스타";
+  
+  if (norm.includes("그린스퀘어")) return "프리미엄 강마루/그린";
+  if (norm.includes("그린")) return "프리미엄 강마루/그린";
+  
+  if (norm.includes("세라플렉스s") || norm.includes("세라플렉스")) return "강마루/세라";
+  if (norm.includes("세라베이직")) return "강마루/세라/세라베이직";
+  if (norm.includes("세라블렌딩") || norm.includes("세라블랜딩")) return "강마루/세라/세라블랜딩";
+  if (norm.includes("세라")) return "강마루/세라/세라";
+  
+  return null;
+};
+
+// Eagon image resolver helper matching file directories and naming patterns
+const resolveEagonProductImage = (mat) => {
+  if (!mat) return "/images/no-image.svg";
+  
+  const brandStr = mat.brand || "";
+  if (brandStr !== '이건') return "/images/no-image.svg";
+  
+  const line = mat.line || mat.description || "";
+  const folder = getEagonImageFolder(line);
+  if (!folder) return "/images/no-image.svg";
+  
+  const matName = mat.name || "";
+  
+  // Filter manifest to files under correct brand and series folder
+  const folderImages = imageManifest.filter(img => 
+    img.brand === '이건' && 
+    img.series.replace(/\\/g, '/').replace(/\s+/g, '').toLowerCase() === folder.replace(/\s+/g, '').toLowerCase()
+  );
+  
+  const cleanTerm = (term) => String(term).replace(/[^a-zA-Z0-9가-힣]/g, '').toLowerCase().trim();
+  
+  const normMatName = cleanTerm(matName);
+  const normMatNameNoNew = cleanTerm(matName.replace(/^뉴\s*/, ''));
+  
+  let found = folderImages.find(img => {
+    const lastDot = img.fileName.lastIndexOf('.');
+    const nameOnly = lastDot !== -1 ? img.fileName.slice(0, lastDot) : img.fileName;
+    const normFile = cleanTerm(nameOnly);
+    
+    return normFile === normMatName || 
+           normFile === normMatNameNoNew || 
+           normMatName.includes(normFile) || 
+           normFile.includes(normMatName);
+  });
+  
+  if (found) {
+    return found.fullPublicPath;
+  }
+  
+  // Try checking without folder restriction first, in case of folder mismatches
+  let looseFound = imageManifest.find(img => {
+    if (img.brand !== '이건') return false;
+    const lastDot = img.fileName.lastIndexOf('.');
+    const nameOnly = lastDot !== -1 ? img.fileName.slice(0, lastDot) : img.fileName;
+    const normFile = cleanTerm(nameOnly);
+    
+    return normFile === normMatName || normFile === normMatNameNoNew;
+  });
+  
+  if (looseFound) {
+    return looseFound.fullPublicPath;
+  }
+  
+  // Fallbacks:
+  // A. Same product line folder first image
+  if (folderImages.length > 0) {
+    return folderImages[0].fullPublicPath;
+  }
+  
+  // B. Same upper category first image
+  const upperCat = getEagonUpperCategory(line);
+  const upperCatImages = imageManifest.filter(img => 
+    img.brand === '이건' && 
+    getEagonUpperCategory(img.series || img.line) === upperCat
+  );
+  if (upperCatImages.length > 0) {
+    return upperCatImages[0].fullPublicPath;
+  }
+  
+  // C. Placeholder
+  return "/images/placeholders/material-placeholder.jpg";
+};
+
+const resolveMaterialImageWithEagon = (mat) => resolveEagonProductImage(mat);
+
+// Eagon product specification mappings helper
+const getEagonInfo = (line = "") => {
+  const normLine = String(line).replace(/\s+/g, "").toLowerCase();
+
+  // 1. 원목마루 / 라르고
+  if (normLine.includes("라르고")) {
+    let thickness = "14T, 원목 4mm";
+    let size = "T14(4) × W240 × L2,200mm";
+    if (normLine.includes("190t3")) {
+      thickness = "14T, 원목 3mm";
+      size = "T14(3) × W190 × L1,900mm";
+    } else if (normLine.includes("190t1")) {
+      thickness = "12T, 원목 1.2mm";
+      size = "T12(1.2) × W190 × L1,900mm";
+    } else if (normLine.includes("150t4")) {
+      thickness = "14T, 원목 4mm";
+      size = "상담 확인 필요";
+    }
+    
+    return {
+      classification: "원목마루",
+      features: [
+        "천연 원목 표면의 프리미엄 원목마루",
+        "시간이 흐를수록 원목 특유의 깊고 중후한 멋이 더해지는 고급 마루",
+        "최고급 내수 합판 사용",
+        "친환경 최우수 SE0 등급",
+        "프리미엄 절삭 방식 적용",
+        "고급 주거공간, 넓은 거실, 고급 인테리어 현장에 적합"
+      ],
+      spaces: ["고급 주거공간", "넓은 거실", "프리미엄 아파트", "고급 빌라", "쇼룸"],
+      thickness,
+      size,
+      packing: "상담 확인 필요",
+      spaceExamples: [
+        { title: "프리미엄 거실 적용 예시", subtitle: "넓은 공간에 어울리는 고급 원목 질감" },
+        { title: "고급 주택 침실 적용 예시", subtitle: "차분하고 자연스러운 원목 분위기" },
+        { title: "쇼룸·상업공간 적용 예시", subtitle: "품격 있는 프리미엄 공간 연출" }
+      ]
+    };
+  }
+
+  // 2. 천연마루 / 제나 내추럴 or 포레스타
+  if (normLine.includes("제나")) {
+    return {
+      classification: "천연마루",
+      features: [
+        "천연 원목 무늬목을 적용한 프리미엄 천연마루",
+        "숲의 사계절을 담은 자연스러운 색감과 질감",
+        "최고급 내수 합판 사용",
+        "친환경 최우수 SE0 등급",
+        "주거공간, 거실, 침실, 프리미엄 리모델링 현장에 적합"
+      ],
+      spaces: ["아파트 거실", "침실", "주거 리모델링", "고급 주택", "아이방"],
+      thickness: "상담 확인 필요",
+      size: "상담 확인 필요",
+      packing: "상담 확인 필요",
+      spaceExamples: [
+        { title: "아파트 거실 적용 예시", subtitle: "자연스러운 천연 무늬목 분위기" },
+        { title: "침실 적용 예시", subtitle: "따뜻하고 편안한 우드톤" },
+        { title: "리모델링 공간 적용 예시", subtitle: "밝고 고급스러운 마루 연출" }
+      ]
+    };
+  }
+
+  if (normLine.includes("포레스타")) {
+    const isG = normLine.includes("포레스타g");
+    return {
+      classification: "천연마루",
+      features: [
+        "천연 원목 무늬목을 적용한 프리미엄 천연마루",
+        "숲의 사계절을 담은 자연스러운 색감과 질감",
+        "최고급 내수 합판 사용",
+        "친환경 최우수 SE0 등급",
+        "주거공간, 거실, 침실, 프리미엄 리모델링 현장에 적합"
+      ],
+      spaces: ["아파트 거실", "침실", "주거 리모델링", "고급 주택", "아이방"],
+      thickness: isG ? "11T" : "10.5T",
+      size: isG ? "T11 × W190 × L1,900mm" : "T10.5 × W165 × L1,200mm",
+      packing: "상담 확인 필요",
+      spaceExamples: [
+        { title: "아파트 거실 적용 예시", subtitle: "자연스러운 천연 무늬목 분위기" },
+        { title: "침실 적용 예시", subtitle: "따뜻하고 편안한 우드톤" },
+        { title: "리모델링 공간 적용 예시", subtitle: "밝고 고급스러운 마루 연출" }
+      ]
+    };
+  }
+
+  // 3. 프리미엄 강마루 / 그린 스퀘어
+  if (normLine.includes("그린스퀘어")) {
+    let size = "T10.5 × W597 × L597mm";
+    if (normLine.includes("395")) size = "T10.5 × W395 × L800mm";
+    
+    return {
+      classification: "프리미엄 강마루",
+      features: [
+        "천연 스톤 디자인 사각 강마루",
+        "10.5mm 프리미엄 강마루",
+        "3D 엠보싱과 고강도 HPM 적용",
+        "최고급 내수 합판 사용",
+        "거실, 상업공간, 쇼룸, 카페 등에 적합"
+      ],
+      spaces: ["거실 포인트", "상업공간", "카페", "쇼룸", "스톤 분위기 공간"],
+      thickness: "10.5T",
+      size: size,
+      packing: "상담 확인 필요",
+      spaceExamples: [
+        { title: "거실 포인트 적용 예시", subtitle: "스톤 디자인 사각 패턴" },
+        { title: "카페·상가 적용 예시", subtitle: "감각적인 바닥 포인트" },
+        { title: "쇼룸 적용 예시", subtitle: "넓은 공간에 어울리는 석재 느낌" }
+      ]
+    };
+  }
+
+  // 4. 프리미엄 강마루 / 그린
+  if (normLine.includes("그린")) {
+    let size = "T10.5 × W165 × L1,200mm";
+    if (normLine.includes("230")) size = "T10.5 × W230 × L2,430mm";
+    else if (normLine.includes("190")) size = "T10.5 × W190 × L1,615mm";
+    else if (normLine.includes("125")) size = "T10.5 × W125 × L800mm";
+    
+    return {
+      classification: "프리미엄 강마루",
+      features: [
+        "10.5mm 프리미엄 강마루",
+        "3D 엠보싱과 고강도 HPM 적용",
+        "최고급 내수 합판 사용",
+        "친환경 최우수 SE0 등급",
+        "우드 디자인과 스톤 디자인을 함께 제공",
+        "아파트, 주거공간, 상업공간 모두에 적합"
+      ],
+      spaces: ["아파트 전체 시공", "거실", "주방", "상업공간", "사무실", "카페"],
+      thickness: "10.5T",
+      size: size,
+      packing: "상담 확인 필요",
+      spaceExamples: [
+        { title: "아파트 전체 시공 예시", subtitle: "내구성과 디자인을 함께 고려한 강마루" },
+        { title: "거실·주방 적용 예시", subtitle: "생활 공간에 어울리는 안정적인 표면" },
+        { title: "상업공간 적용 예시", subtitle: "고강도 HPM으로 관리가 쉬운 공간" }
+      ]
+    };
+  }
+
+  // 5. 강마루 / 세라 플렉스 S
+  if (normLine.includes("세라플렉스s") || normLine.includes("플렉스")) {
+    let size = "T7.5 × W165 × L1,200mm";
+    if (normLine.includes("395")) size = "T7.5 × W395 × L800mm";
+    
+    return {
+      classification: "강마루",
+      features: [
+        "우드 & 스톤 디자인 강마루",
+        "3D 엠보싱과 고강도 HPM 적용",
+        "친환경 내수 합판 사용",
+        "친환경 최우수 SE0 등급",
+        "합리적인 가격대의 프리미엄 강마루 라인"
+      ],
+      spaces: ["아파트", "거실", "침실", "오피스", "상가"],
+      thickness: "7.5T",
+      size: size,
+      packing: "상담 확인 필요",
+      spaceExamples: [
+        { title: "아파트 전체 시공 예시", subtitle: "실용성과 고급스러운 분위기 연출" },
+        { title: "침실 적용 예시", subtitle: "부담 없고 차분한 바닥 톤" },
+        { title: "상가·오피스 적용 예시", subtitle: "스크래치 걱정 없는 강한 표면 강마루" }
+      ]
+    };
+  }
+
+  // 6. 강마루 / 세라 블렌딩
+  if (normLine.includes("세라블렌딩") || normLine.includes("블렌딩")) {
+    return {
+      classification: "강마루",
+      features: [
+        "회화적인 표면 디자인",
+        "고강도 HPM 적용",
+        "친환경 내수 합판 사용",
+        "친환경 최우수 SE0 등급",
+        "감각적인 인테리어 공간에 적합"
+      ],
+      spaces: ["아파트 거실", "침실", "방", "원룸", "임대 주택", "실속형 리모델링"],
+      thickness: "7.5T",
+      size: "T7.5 × W115 × L800mm",
+      packing: "상담 확인 필요",
+      spaceExamples: [
+        { title: "아파트 전체 시공 예시", subtitle: "회화적인 표면 질감 연출" },
+        { title: "침실 적용 예시", subtitle: "따뜻하고 아늑한 침실 바닥" },
+        { title: "임대 주택 적용 예시", subtitle: "오래 쓸 수 있는 단단하고 깔끔한 마루" }
+      ]
+    };
+  }
+
+  // 7. 강마루 / 세라 베이직
+  if (normLine.includes("세라베이직")) {
+    return {
+      classification: "강마루",
+      features: [
+        "6.2T 실속형 강마루",
+        "3D 엠보싱과 고강도 HPM 적용",
+        "친환경 내수 합판 사용",
+        "친환경 최우수 SE0 등급",
+        "합리적인 예산의 주거 시공에 적합"
+      ],
+      spaces: ["아파트 거실", "침실", "방", "원룸", "임대 주택", "실속형 리모델링"],
+      thickness: "6.2T",
+      size: "T6.2 × W115 × L800mm",
+      packing: "상담 확인 필요",
+      spaceExamples: [
+        { title: "아파트 전체 시공 예시", subtitle: "합리적인 실속형 강마루" },
+        { title: "침실 적용 예시", subtitle: "부담 없는 우드톤 공간" },
+        { title: "원룸·임대 주택 적용 예시", subtitle: "관리가 쉬운 실용적인 마루" }
+      ]
+    };
+  }
+
+  // 8. 강마루 / 세라
+  if (normLine.includes("세라")) {
+    return {
+      classification: "강마루",
+      features: [
+        "다양한 우드 컬러를 갖춘 기본 강마루",
+        "고강도 HPM 적용",
+        "친환경 내수 합판 사용",
+        "친환경 최우수 SE0 등급",
+        "아파트, 빌라, 주거 리모델링에 적합"
+      ],
+      spaces: ["아파트 거실", "침실", "방", "원룸", "임대 주택", "실속형 리모델링"],
+      thickness: "7.5T",
+      size: "T7.5 × W95 × L800mm",
+      packing: "상담 확인 필요",
+      spaceExamples: [
+        { title: "아파트 전체 시공 예시", subtitle: "합리적인 실속형 강마루" },
+        { title: "침실 적용 예시", subtitle: "부담 없는 우드톤 공간" },
+        { title: "원룸·임대 주택 적용 예시", subtitle: "관리가 쉬운 실용적인 마루" }
+      ]
+    };
+  }
+
+  return {
+    classification: "마루",
+    features: [
+      "이건마루의 정품 친환경 마루 제품입니다.",
+      "최고급 내수 합판을 사용하여 온도/습도 변화에 뛰어난 안정성 보유",
+      "친환경 최우수 SE0 등급 자재로 새집증후군 걱정 해소",
+      "고강도 내마모 표면 설계로 스크래치와 찍힘에 강합니다."
+    ],
+    spaces: ["아파트", "빌라", "거실", "방", "상업공간"],
+    thickness: "두께 확인 필요",
+    size: "규격 확인 필요",
+    packing: "상담 확인 필요",
+    spaceExamples: [
+      { title: "공간 전체 시공 예시", subtitle: "아늑하고 자연스러운 마루 분위기 연출" },
+      { title: "방/침실 시공 예시", subtitle: "차분하고 편안한 공간 톤" },
+      { title: "상업 시설 시공 예시", subtitle: "관리와 청소가 편리한 실용적인 연출" }
+    ]
+  };
 };
 
 // Helper function to generate virtual space examples dynamically based on category and product images
@@ -251,6 +621,8 @@ export default function MaterialDetail() {
             ? dongshinPolymer2026.find(d => d.code.toUpperCase() === itemCode.toUpperCase())
             : null;
 
+          const eagonInfo = inferredBrand === '이건' ? getEagonInfo(localItem.line || localItem.description || "") : null;
+
           setItem({
             id: localItem.id || localItem.code,
             code: itemCode,
@@ -258,18 +630,18 @@ export default function MaterialDetail() {
             brand: inferredBrand,
             category: inferredCategory,
             price: localItem.price || 0,
-            thickness: localItem.thickness || "",
+            thickness: eagonInfo ? eagonInfo.thickness : (localItem.thickness || ""),
             specs: {
-              thickness: localItem.thickness || "",
-              size: localItem.specs?.size || "",
-              packing: localItem.specs?.packing || ""
+              thickness: eagonInfo ? eagonInfo.thickness : (localItem.thickness || ""),
+              size: eagonInfo ? eagonInfo.size : (localItem.specs?.size || ""),
+              packing: eagonInfo ? eagonInfo.packing : (localItem.specs?.packing || "")
             },
             thumbnail: localItem.thumbnail || null,
             image: localItem.thumbnail || null,
             images: localItem.images || [],
             description: localItem.description || "",
-            features: localItem.features || [],
-            recommendedSpaces: localItem.recommendedSpaces || [],
+            features: eagonInfo ? eagonInfo.features : (localItem.features || []),
+            recommendedSpaces: eagonInfo ? eagonInfo.spaces : (localItem.recommendedSpaces || []),
             line: dongshinMatch ? dongshinMatch.line : (localItem.line || ""),
             collection: dongshinMatch ? dongshinMatch.collection : (localItem.collection || null),
             series: dongshinMatch ? dongshinMatch.series : (localItem.series || null),
@@ -340,6 +712,8 @@ export default function MaterialDetail() {
         const dbKey = getMaterialMatchKey(dbItem);
         const localMatch = materials.find(m => getMaterialMatchKey(m) === dbKey);
 
+        const eagonInfo = inferredBrand === '이건' ? getEagonInfo(p.description || p.name || "") : null;
+
         setItem({
           id: p.slug || String(p.id),
           code: itemCode,
@@ -347,17 +721,17 @@ export default function MaterialDetail() {
           brand: inferredBrand,
           category: inferredCategory,
           price: p.price || 0,
-          thickness: p.thickness || "",
+          thickness: eagonInfo ? eagonInfo.thickness : (p.thickness || ""),
           specs: {
-            thickness: p.thickness || "",
-            size: p.size_text || "",
-            packing: p.unit || ""
+            thickness: eagonInfo ? eagonInfo.thickness : (p.thickness || ""),
+            size: eagonInfo ? eagonInfo.size : (p.size_text || ""),
+            packing: eagonInfo ? eagonInfo.packing : (p.unit || "")
           },
           thumbnail: p.image_url || null,
           image: p.image_url || null,
           description: p.description || "",
-          features: p.features || [],
-          recommendedSpaces: p.recommended_spaces || [],
+          features: eagonInfo ? eagonInfo.features : (p.features || []),
+          recommendedSpaces: eagonInfo ? eagonInfo.spaces : (p.recommended_spaces || []),
           line: dongshinMatch ? dongshinMatch.line : (lxMatch ? lxMatch.line : (localMatch ? localMatch.line : (p.description || ""))),
           collection: dongshinMatch ? dongshinMatch.collection : (lxMatch ? lxMatch.collection : (localMatch ? localMatch.collection : null)),
           series: dongshinMatch ? dongshinMatch.series : (lxMatch ? lxMatch.series : (localMatch ? localMatch.series : null)),
@@ -379,9 +753,18 @@ export default function MaterialDetail() {
     let alive = true;
 
     async function loadImages() {
-      const detailStr = await getDetailImage(item);
-      const thumbStr = await getThumbnailImage(item);
+      let detailStr = await getDetailImage(item);
+      let thumbStr = await getThumbnailImage(item);
       const galleryObjs = await getValidGalleryImages(item);
+
+      if (item.brand === '이건') {
+        if (!detailStr || detailStr === "/images/no-image.svg") {
+          detailStr = resolveMaterialImageWithEagon(item);
+        }
+        if (!thumbStr || thumbStr === "/images/no-image.svg") {
+          thumbStr = resolveMaterialImageWithEagon(item);
+        }
+      }
 
       if (!alive) return;
 
@@ -424,33 +807,83 @@ export default function MaterialDetail() {
     if (!item) return;
 
     async function fetchRelated() {
+      const getScore = (p) => {
+        const pBrand = p.brand || "";
+        const pLine = p.line || "";
+        const itemBrand = item.brand;
+        const itemLine = item.line;
+        
+        if (pBrand === itemBrand) {
+          if (pLine === itemLine) {
+            return 100; // Same brand + same line
+          }
+          if (itemBrand === '이건') {
+            const pClass = getEagonClassification(pLine);
+            const itemClass = getEagonClassification(itemLine);
+            if (pClass === itemClass) {
+              return 80; // Same brand + same classification
+            }
+          }
+          return 50; // Same brand + different line
+        }
+        return 10; // Different brand
+      };
+
       try {
         if (supabase) {
-          const { data } = await supabase
-            .from('products')
-            .select(`
-              *,
-              categories ( id, name ),
-              brands ( id, name )
-            `)
-            .eq('category_id', item.category_id || 1) // default or dynamic category_id match
-            .neq('product_code', item.code)
-            .limit(4);
+          let data = [];
+          if (item.brand === '이건') {
+            const res = await supabase
+              .from('products')
+              .select(`
+                *,
+                categories ( id, name ),
+                brands ( id, name )
+              `)
+              .eq('brand_id', 12)
+              .neq('product_code', item.code);
+            if (res.data) {
+              data = res.data;
+            }
+          } else {
+            const res = await supabase
+              .from('products')
+              .select(`
+                *,
+                categories ( id, name ),
+                brands ( id, name )
+              `)
+              .eq('category_id', item.category_id || 1)
+              .neq('product_code', item.code)
+              .limit(20);
+            if (res.data) {
+              data = res.data;
+            }
+          }
           
           if (data && data.length > 0) {
-            setRelatedItems(data.map(p => {
+            const mappedList = data.map(p => {
               const mapped = {
                 id: p.slug || String(p.id),
                 code: p.product_code || "",
                 name: p.name || "",
-                brand: p.brands?.name || "",
-                category: p.categories?.name || "",
+                brand: p.brands?.name || p.brand || "",
+                category: p.categories?.name || p.category || "",
+                line: p.description || p.line || "",
                 price: p.price || 0,
                 size: p.size_text || ""
               };
-              mapped.thumbnail = getMaterialImagePath(mapped);
-              return mapped;
-            }));
+              normalizeProductDetails(mapped);
+              mapped.thumbnail = resolveMaterialImageWithEagon(mapped);
+              return {
+                item: mapped,
+                score: getScore(mapped)
+              };
+            });
+
+            mappedList.sort((a, b) => b.score - a.score);
+            const top4 = mappedList.slice(0, 4).map(x => x.item);
+            setRelatedItems(top4);
             return;
           }
         }
@@ -460,8 +893,7 @@ export default function MaterialDetail() {
 
       // Fallback local related
       const localRelated = materials
-        .filter(m => (m.category === item.category || m.brand === item.brand) && m.code !== item.code)
-        .slice(0, 4)
+        .filter(m => m.code !== item.code && m.id !== item.id)
         .map(m => {
           const mapped = {
             id: m.id || m.code,
@@ -469,13 +901,21 @@ export default function MaterialDetail() {
             name: m.name || "",
             brand: m.brand || "",
             category: m.category || "",
+            line: m.line || m.description || "",
             price: m.price || 0,
             size: m.specs?.size || m.specs?.thickness || ""
           };
-          mapped.thumbnail = getMaterialImagePath(mapped);
-          return mapped;
+          normalizeProductDetails(mapped);
+          mapped.thumbnail = resolveMaterialImageWithEagon(mapped);
+          return {
+            item: mapped,
+            score: getScore(mapped)
+          };
         });
-      setRelatedItems(localRelated);
+
+      localRelated.sort((a, b) => b.score - a.score);
+      const fallbackTop4 = localRelated.slice(0, 4).map(x => x.item);
+      setRelatedItems(fallbackTop4);
     }
 
     fetchRelated();
@@ -563,8 +1003,14 @@ export default function MaterialDetail() {
   // Compute standard display name for LX / Dongshin / Eagon products
   const displayName = (() => {
     if (!item) return "";
-    if (item.brand === '이건' && item.category === '마루') {
-      return item.productName || `${item.name}_${item.line}`;
+    if (item.category === '마루') {
+      const brandName = item.brand === '이건' ? '이건마루' : getComputedBrand(item);
+      const line = item.displayLine || item.line || "";
+      let name = item.name || "";
+      if (line && name.startsWith(line)) {
+        name = name.replace(line, "").trim();
+      }
+      return `${brandName} ${line} ${name}`.replace(/\s+/g, ' ').trim();
     }
     if (item.brand === '동신' && item.category === '데코타일' && ['아트타일', '아트하우스', '아트에코차음'].includes(item.line)) {
       return item.code;
@@ -703,7 +1149,38 @@ export default function MaterialDetail() {
   const displayFeatures = item.features && item.features.length > 0 ? item.features : defaultFeatures;
   const displaySpaces = item.recommendedSpaces && item.recommendedSpaces.length > 0 ? item.recommendedSpaces : defaultSpaces;
 
-  const spaceExamples = getVirtualSpaceExamples(item, images);
+  const eagonInfo = item?.brand === '이건' ? getEagonInfo(item.line) : null;
+
+  const spaceExamples = (() => {
+    if (!item) return [];
+    if (item.brand === '이건' && eagonInfo) {
+      const mainImage = resolveEagonProductImage(item);
+      
+      // Get other images from the same Eagon product line folder in the manifest
+      const folder = getEagonImageFolder(item.line);
+      let lineImages = [];
+      if (folder) {
+        lineImages = imageManifest
+          .filter(img => 
+            img.brand === '이건' && 
+            img.series.replace(/\\/g, '/').replace(/\s+/g, '').toLowerCase() === folder.replace(/\s+/g, '').toLowerCase() &&
+            img.fullPublicPath !== mainImage
+          )
+          .map(img => img.fullPublicPath);
+      }
+      
+      const img1 = mainImage;
+      const img2 = lineImages[0] || "/images/placeholders/material-placeholder.jpg";
+      const img3 = lineImages[1] || lineImages[0] || "/images/placeholders/material-placeholder.jpg";
+      
+      return eagonInfo.spaceExamples.map((ex, idx) => ({
+        title: ex.title,
+        subtitle: ex.subtitle,
+        image: idx === 0 ? img1 : idx === 1 ? img2 : img3
+      }));
+    }
+    return getVirtualSpaceExamples(item, images);
+  })();
 
   const detailContentImg = (() => {
     if (!item || getComputedBrand(item) !== "동신") return null;
@@ -727,8 +1204,8 @@ export default function MaterialDetail() {
             
             {/* Left Column: Big Images & Thumbnails */}
             <div className="showroom-visuals">
-              <div className="showroom-main-frame">
-                {selectedImageObj && selectedImageObj.detail ? (
+              <div className="showroom-main-frame" style={{ position: 'relative' }}>
+                {selectedImageObj && selectedImageObj.detail && selectedImageObj.detail !== "/images/no-image.svg" && !selectedImageObj.detail.includes("deco_tile.png") ? (
                   <img 
                     src={`${selectedImageObj.detail}?v=2`} 
                     alt={`${item.name} main`} 
@@ -736,8 +1213,22 @@ export default function MaterialDetail() {
                     className="showroom-main-img"
                   />
                 ) : (
-                  <div className="showroom-img-placeholder">
-                    <span>{item.name}</span>
+                  <div className="showroom-img-placeholder" style={{
+                    width: '100%',
+                    height: '100%',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    backgroundColor: 'rgba(0,0,0,0.03)',
+                    color: 'var(--text-muted)',
+                    fontSize: '15px',
+                    fontWeight: '700',
+                    textAlign: 'center',
+                    padding: '20px'
+                  }}>
+                    <span>이미지 준비중</span>
+                    <span style={{ fontSize: '11px', fontWeight: '500', opacity: 0.8, marginTop: '6px' }}>상품코드 기준 이미지 확인 필요</span>
                   </div>
                 )}
               </div>
@@ -765,9 +1256,47 @@ export default function MaterialDetail() {
             {/* Right Column: Info & Options */}
             <div className="showroom-meta-data">
               <div className="product-brand-badge">
-                <span className="brand-name">{getComputedBrand(item)}</span>
-                <span className="divider">·</span>
-                <span className="category-name">{item.category}</span>
+                {item.brand === '동화' || item.brand === '구정' ? (
+                  <>
+                    <span className="category-name">{item.category}</span>
+                    <span className="divider" style={{ margin: '0 6px', color: '#94a3b8' }}>&gt;</span>
+                    <span className="brand-name">{getComputedBrand(item)}</span>
+                    <span className="divider" style={{ margin: '0 6px', color: '#94a3b8' }}>&gt;</span>
+                    <span className="sub-category">{item.subCategory || "강마루"}</span>
+                    {item.series && (
+                      <>
+                        <span className="divider" style={{ margin: '0 6px', color: '#94a3b8' }}>&gt;</span>
+                        <span className="series-name">{item.series}</span>
+                      </>
+                    )}
+                    {item.line && (
+                      <>
+                        <span className="divider" style={{ margin: '0 6px', color: '#94a3b8' }}>&gt;</span>
+                        <span className="line-name">{item.line}</span>
+                      </>
+                    )}
+                  </>
+                ) : item.brand === '이건' ? (
+                  <>
+                    <span className="brand-name">이건마루</span>
+                    <span className="divider">·</span>
+                    <span className="category-name">
+                      {`${item.category} (${getEagonClassification(item.line)})`}
+                    </span>
+                    {item.line && (
+                      <>
+                        <span className="divider">·</span>
+                        <span className="line-name">{item.line}</span>
+                      </>
+                    )}
+                  </>
+                ) : (
+                  <>
+                    <span className="brand-name">{getComputedBrand(item)}</span>
+                    <span className="divider">·</span>
+                    <span className="category-name">{item.category}</span>
+                  </>
+                )}
               </div>
 
               <h1 className="showroom-product-title">{displayName}</h1>
@@ -824,8 +1353,14 @@ export default function MaterialDetail() {
                     {item.category === '장판' ? "M 단위 소요량 측정" : "1박스당 1평(약 3.3㎡) 내외 시공"}
                   </span>
                 </div>
+                <div className="tech-spec-item">
+                  <span className="tech-label">배송 조건</span>
+                  <span className="tech-value">
+                    {item.category === '장판' ? "m 단위 절단 배송" : "50평 이상 주문 시 무료배송"}
+                  </span>
+                </div>
               </div>
-
+ 
               {/* Size Options Selector */}
               {item.sizeOptions && item.sizeOptions.length >= 2 && (
                 <div className="detail-size-options" style={{ marginBottom: '20px' }}>
@@ -841,11 +1376,11 @@ export default function MaterialDetail() {
                           padding: '8px 16px',
                           fontSize: '12px',
                           border: '1px solid #E6E2D8',
-                          background: selectedOption?.label === opt.label ? '#1F2421' : '#FAF8F2',
+                          background: selectedOption?.label === opt.label ? 'var(--point-orange)' : '#FAF8F2',
                           color: selectedOption?.label === opt.label ? '#ffffff' : '#444',
                           cursor: 'pointer',
                           borderRadius: '4px',
-                          fontWeight: '500',
+                          fontWeight: '700',
                           transition: 'all 0.2s ease'
                         }}
                       >
@@ -855,7 +1390,7 @@ export default function MaterialDetail() {
                   </div>
                 </div>
               )}
-
+ 
               {/* Quantity Counter & Action Buttons */}
               <div className="showroom-qty-selector">
                 <span className="qty-label">소요량 산정 (박스/단위)</span>
@@ -865,24 +1400,24 @@ export default function MaterialDetail() {
                   <button onClick={() => setQty(qty + 1)} className="qty-btn">+</button>
                 </div>
               </div>
-
-              {/* 1줄 메인 버튼: 장바구니 담기, 바로구매 */}
+ 
+              {/* B2B Primary CTA Actions */}
               <div className="showroom-main-actions">
                 <button className="btn-main-cart" onClick={handleAddToCart}>
                   <ShoppingCart size={18} style={{ marginRight: '6px' }} /> 장바구니 담기
                 </button>
-                <button className="btn-main-buy" onClick={handleDirectBuy}>
-                  바로구매
+                <button className="btn-main-buy" onClick={handleEstimate} style={{ backgroundColor: 'var(--point-orange)', borderColor: 'var(--point-orange)' }}>
+                  <FileText size={18} style={{ marginRight: '6px' }} /> 바로 견적요청
                 </button>
               </div>
-
-              {/* 2줄 보조 버튼: 견적 요청하기, 전화 문의하기 */}
+ 
+              {/* B2B Secondary Actions: Kakao, Phone */}
               <div className="showroom-action-buttons" style={{ marginTop: '12px' }}>
-                <button className="btn-showroom-quote" onClick={handleEstimate}>
-                  <FileText size={16} /> 견적 요청하기
-                </button>
+                <a href={KAKAO_CHAT_URL} target="_blank" rel="noopener noreferrer" className="btn-showroom-quote text-center btn-kakao-action" style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#FEE500', color: '#191919', border: 'none', fontWeight: '700' }}>
+                  💬 카카오톡 1:1 상담
+                </a>
                 <a href="tel:02-487-9775" className="btn-showroom-phone">
-                  <Phone size={16} /> 전화 문의하기
+                  <Phone size={16} /> 전화 상담문의
                 </a>
               </div>
 
@@ -970,6 +1505,39 @@ export default function MaterialDetail() {
                             <td>친환경 전용 에폭시/본드</td>
                           </tr>
                         </>
+                      ) : item.brand === '이건' ? (
+                        <>
+                          <tr>
+                            <th>제조 브랜드</th>
+                            <td>이건마루</td>
+                            <th>카테고리</th>
+                            <td>{item.category || "마루"} ({eagonInfo?.classification || "마루"})</td>
+                          </tr>
+                          <tr>
+                            <th>제품군</th>
+                            <td>{item.line || "이건마루 라인"}</td>
+                            <th>자재 식별 코드</th>
+                            <td>{item.code || "코드 정보 없음"}</td>
+                          </tr>
+                          <tr>
+                            <th>두께 규격</th>
+                            <td>{eagonInfo?.thickness || "상담 확인 필요"}</td>
+                            <th>제품 기본 규격</th>
+                            <td>{eagonInfo?.size || "상담 확인 필요"}</td>
+                          </tr>
+                          <tr>
+                            <th>포장 패킹 단위</th>
+                            <td>{eagonInfo?.packing || "상담 확인 필요"}</td>
+                            <th>판매 단위</th>
+                            <td>평 (현장 실측 기준 소요량 산정)</td>
+                          </tr>
+                          <tr>
+                            <th>권장 접착 자재</th>
+                            <td>이건마루 친환경 황토풀 / 전용 마루 본드</td>
+                            <th>포장/입수</th>
+                            <td>상담 확인 필요</td>
+                          </tr>
+                        </>
                       ) : (
                         <>
                           <tr>
@@ -1053,29 +1621,77 @@ export default function MaterialDetail() {
                 <h2 className="doc-section-title">시공 전 유의 사항 안내</h2>
                 <div className="doc-accent-bar"></div>
                 <div className="guidelines-card-list">
-                  <div className="guide-card-item">
-                    <AlertTriangle className="guide-card-icon text-warn" />
-                    <div className="guide-card-text">
-                      <h5>현장 실측 및 추가 비용 변동성</h5>
-                      <p>기존 바닥 수평 불균형이 극심한 경우, 평탄화 작업(보수 및 샌딩)으로 인한 부가 공사비용이 별도 청구될 수 있습니다.</p>
-                    </div>
-                  </div>
-                  
-                  <div className="guide-card-item">
-                    <HelpCircle className="guide-card-icon text-info" />
-                    <div className="guide-card-text">
-                      <h5>기존 바닥 철거 여부 체크</h5>
-                      <p>마루나 장판 등 기존 바닥 위에 덧방 시공이 불가한 심한 오염/습기 상태일 경우, 기존 바닥의 선철거 공정이 반드시 필요합니다.</p>
-                    </div>
-                  </div>
+                  {item.brand === '이건' ? (
+                    <>
+                      <div className="guide-card-item">
+                        <AlertTriangle className="guide-card-icon text-warn" />
+                        <div className="guide-card-text">
+                          <h5>현장 실측 및 추가 비용 변동성</h5>
+                          <p>기존 바닥 수평, 걸레받이, 문턱, 철거 상태, 양중 조건에 따라 추가 공사 비용이 발생할 수 있습니다.</p>
+                        </div>
+                      </div>
+                      
+                      <div className="guide-card-item">
+                        <HelpCircle className="guide-card-icon text-info" />
+                        <div className="guide-card-text">
+                          <h5>기존 바닥 철거 여부 체크</h5>
+                          <p>마루 시공 전 기존 바닥 위에 덧방 시공이 가능한지, 철거가 필요한지 현장 확인이 필요합니다.</p>
+                        </div>
+                      </div>
 
-                  <div className="guide-card-item">
-                    <ShieldCheck className="guide-card-icon text-success" />
-                    <div className="guide-card-text">
-                      <h5>양중 및 엘리베이터 환경</h5>
-                      <p>고층 빌딩/아파트 시공 시 화물 엘리베이터 미확보 또는 사다리차 접근 불가 시 계단 운반(양중비)이 발생하게 됩니다.</p>
-                    </div>
-                  </div>
+                      <div className="guide-card-item">
+                        <ShieldCheck className="guide-card-icon text-success" />
+                        <div className="guide-card-text">
+                          <h5>양중 및 엘리베이터 환경</h5>
+                          <p>고층 빌딩, 아파트 시공 시 엘리베이터 미확보 또는 사다리차 접근 불가 시 별도 운반비가 발생할 수 있습니다.</p>
+                        </div>
+                      </div>
+
+                      {(String(item.line).includes("라르고") || String(item.line).includes("포레스타")) && (
+                        <div className="guide-card-item">
+                          <AlertTriangle className="guide-card-icon text-warn" style={{ color: '#d97706' }} />
+                          <div className="guide-card-text">
+                            <h5>천연 원목 제품 색상 차이</h5>
+                            <p>라르고/포레스타 같은 천연 원목 제품은 심재와 변재 차이로 밝은색, 중간색, 어두운색이 자연스럽게 혼합될 수 있습니다.</p>
+                          </div>
+                        </div>
+                      )}
+
+                      <div className="guide-card-item">
+                        <HelpCircle className="guide-card-icon text-info" />
+                        <div className="guide-card-text">
+                          <h5>실물 샘플 확인 권장</h5>
+                          <p>모니터와 조명 환경에 따라 색상이 다르게 보일 수 있으므로 최종 선택 전 샘플 확인을 권장합니다.</p>
+                        </div>
+                      </div>
+                    </>
+                  ) : (
+                    <>
+                      <div className="guide-card-item">
+                        <AlertTriangle className="guide-card-icon text-warn" />
+                        <div className="guide-card-text">
+                          <h5>현장 실측 및 추가 비용 변동성</h5>
+                          <p>기존 바닥 수평 불균형이 극심한 경우, 평탄화 작업(보수 및 샌딩)으로 인한 부가 공사비용이 별도 청구될 수 있습니다.</p>
+                        </div>
+                      </div>
+                      
+                      <div className="guide-card-item">
+                        <HelpCircle className="guide-card-icon text-info" />
+                        <div className="guide-card-text">
+                          <h5>기존 바닥 철거 여부 체크</h5>
+                          <p>마루나 장판 등 기존 바닥 위에 덧방 시공이 불가한 심한 오염/습기 상태일 경우, 기존 바닥의 선철거 공정이 반드시 필요합니다.</p>
+                        </div>
+                      </div>
+
+                      <div className="guide-card-item">
+                        <ShieldCheck className="guide-card-icon text-success" />
+                        <div className="guide-card-text">
+                          <h5>양중 및 엘리베이터 환경</h5>
+                          <p>고층 빌딩/아파트 시공 시 화물 엘리베이터 미확보 또는 사다리차 접근 불가 시 계단 운반(양중비)이 발생하게 됩니다.</p>
+                        </div>
+                      </div>
+                    </>
+                  )}
                 </div>
               </section>
 
@@ -1135,26 +1751,49 @@ export default function MaterialDetail() {
               </div>
 
               <div className="related-materials-grid">
-                {relatedItems.map((rItem, idx) => (
-                  <div 
-                    key={rItem.id || idx} 
-                    className="related-item-card"
-                    onClick={() => navigate(`/materials/${rItem.id}`)}
-                  >
-                    <div className="related-thumb-box">
-                      <img src={rItem.thumbnail || "/images/deco_tile.png"} alt={rItem.name} className="related-thumb-img" />
-                    </div>
-                    <div className="related-info-box">
-                      <span className="related-brand">{rItem.brand}</span>
-                      <h4 className="related-name">{rItem.name}</h4>
-                      <p className="related-code">{rItem.code}</p>
-                      <p className="related-specs">{rItem.size || "규격 별도문의"}</p>
-                      <div className="btn-related-link">
-                        자세히 보기 <ChevronRight size={14} />
+                {relatedItems.map((rItem, idx) => {
+                  let rLine = rItem.line || "";
+                  let rColor = rItem.name || "";
+                  if (rColor.startsWith(rLine)) {
+                    rColor = rColor.replace(rLine, "").trim();
+                  }
+                  const rDisplayName = rItem.brand === '이건'
+                    ? `이건마루 ${rLine} ${rColor}`.replace(/\s+/g, ' ').trim()
+                    : rItem.name;
+
+                  return (
+                    <div 
+                      key={rItem.id || idx} 
+                      className="related-item-card"
+                      onClick={() => navigate(`/materials/${rItem.id}`)}
+                    >
+                      <div className="related-thumb-box">
+                        <img 
+                          src={rItem.thumbnail || "/images/deco_tile.png"} 
+                          alt={rItem.name} 
+                          className="related-thumb-img"
+                          onError={(e) => {
+                            e.target.onerror = null;
+                            e.target.src = "/images/no-image.svg";
+                          }}
+                        />
+                      </div>
+                      <div className="related-info-box">
+                        <span className="related-brand">{rItem.brand === '이건' ? '이건마루' : rItem.brand}</span>
+                        <h4 className="related-name">{rDisplayName}</h4>
+                        {rItem.brand === '이건' ? (
+                          <p className="related-line" style={{ fontSize: '11px', color: 'var(--point-gold)', fontWeight: '600', margin: '4px 0' }}>{rItem.line}</p>
+                        ) : (
+                          <p className="related-code">{rItem.code}</p>
+                        )}
+                        <p className="related-specs">{rItem.size || "규격 별도문의"}</p>
+                        <div className="btn-related-link">
+                          자세히 보기 <ChevronRight size={14} />
+                        </div>
                       </div>
                     </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </section>
           )}

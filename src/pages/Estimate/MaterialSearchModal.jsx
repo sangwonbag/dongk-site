@@ -68,7 +68,12 @@ export default function MaterialSearchModal({ onClose }) {
                     onError={(e) => { e.target.onerror = null; e.target.src = "/images/no-image.svg"; }}
                   />
                   <div className="search-item-info">
-                    <div className="search-item-meta">{item.category} &gt; {getComputedBrand(item)}</div>
+                    <div className="search-item-meta">
+                      {item.brand === '동화' || item.brand === '구정' 
+                        ? `${item.category} > ${getComputedBrand(item)} > ${item.subCategory || '강마루'}${item.series ? ` > ${item.series}` : ''} > ${item.line}` 
+                        : `${item.category} > ${getComputedBrand(item)}`
+                      }
+                    </div>
                     <div className="search-item-name">{item.name}</div>
                     <div className="search-item-code">{item.code}</div>
                   </div>
