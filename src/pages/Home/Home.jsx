@@ -482,6 +482,15 @@ export default function Home() {
   const [isFeaturedError, setIsFeaturedError] = useState(false);
   const [currentSlide, setCurrentSlide] = useState(0);
   const [dbProjects, setDbProjects] = useState([]);
+  const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+    setPrefersReducedMotion(mediaQuery.matches);
+    const listener = (e) => setPrefersReducedMotion(e.matches);
+    mediaQuery.addEventListener("change", listener);
+    return () => mediaQuery.removeEventListener("change", listener);
+  }, []);
 
   // B2B Recommended Material Selection Logic
   const todayRecommended = useMemo(() => {
@@ -843,7 +852,16 @@ export default function Home() {
            ========================================== */}
         <section className={`showroom-hero-b2b ${heroActive ? "hero-active" : ""}`}>
           <div className="hero-b2b-bg-wrapper">
-            <div className="hero-b2b-bg" />
+            <video
+              className="hero-b2b-video"
+              autoPlay={!prefersReducedMotion}
+              muted
+              loop
+              playsInline
+              poster="/videos/hero-animation-poster.jpg"
+            >
+              <source src="/videos/hero-animation.mp4" type="video/mp4" />
+            </video>
             <div className="hero-b2b-overlay" />
           </div>
           <div className="hero-b2b-container container">
