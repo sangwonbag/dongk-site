@@ -319,3 +319,199 @@ export function clearProductCache() {
   cachedProducts = null;
   filteredProductsCache.clear();
 }
+
+let cachedBrands = [];
+export async function fetchBrands() {
+  if (cachedBrands.length > 0) return cachedBrands;
+  if (!supabase) return [];
+  try {
+    const { data, error } = await supabase.from('brands').select('id, name').eq('is_active', true);
+    if (error) {
+      console.error('[fetchBrands Error]:', error);
+      return [];
+    }
+    cachedBrands = data || [];
+    return cachedBrands;
+  } catch (err) {
+    console.error('[fetchBrands Exception]:', err);
+    return [];
+  }
+}
+
+export async function searchProductsServer(queryText, signal) {
+  if (!supabase) {
+    console.warn("Supabase client not initialized. Falling back to local search.");
+    const all = await fetchAllProducts();
+    const s = queryText.toLowerCase().trim();
+    if (!s) return [];
+    return all.filter(m => 
+      String(m.name).toLowerCase().includes(s) || 
+      String(m.code).toLowerCase().includes(s) || 
+      String(m.brand).toLowerCase().includes(s) ||
+      String(m.description || m.line).toLowerCase().includes(s)
+    );
+  }
+
+  const s = queryText.trim();
+  if (!s) return [];
+
+  try {
+    const brandsList = await fetchBrands();
+    const tokens = s.toLowerCase().split(/[\s\-_()]+/).filter(Boolean);
+
+    let matchedBrand = null;
+    const remainingTokens = [];
+
+    for (const token of tokens) {
+      const found = brandsList.find(b => 
+        b.name.toLowerCase() === token || 
+        (token === 'lg' && b.name.toLowerCase() === 'lx') ||
+        (token === '엘지' && b.name.toLowerCase() === 'lx')
+      );
+      if (found && !matchedBrand) {
+        matchedBrand = found;
+      } else {
+        remainingTokens.push(token);
+      }
+    }
+
+    const searchVal = remainingTokens.join(' ').trim();
+    const queries = [];
+
+    // Prioritized sub-queries to prevent truncation of exact/prefix matches:
+    
+    // Query 1: Exact matches on product code or name (highest priority)
+    let q1 = supabase
+      .from('products')
+      .select(`
+        id, slug, name, product_code, price, thickness, size_text, unit, image_url, description, is_active,
+        categories ( id, name ),
+        brands ( id, name )
+      `)
+      .eq('is_active', true);
+    if (matchedBrand) q1 = q1.eq('brand_id', matchedBrand.id);
+    if (searchVal) q1 = q1.or(`product_code.eq.${searchVal},name.eq.${searchVal}`);
+    if (signal) q1 = q1.abortSignal(signal);
+    queries.push(q1.limit(20));
+
+    if (searchVal) {
+      // Query 2: Product code prefix match
+      let q2 = supabase
+        .from('products')
+        .select(`
+          id, slug, name, product_code, price, thickness, size_text, unit, image_url, description, is_active,
+          categories ( id, name ),
+          brands ( id, name )
+        `)
+        .eq('is_active', true);
+      if (matchedBrand) q2 = q2.eq('brand_id', matchedBrand.id);
+      q2 = q2.ilike('product_code', `${searchVal}%`);
+      if (signal) q2 = q2.abortSignal(signal);
+      queries.push(q2.limit(20));
+
+      // Query 3: Product name prefix match
+      let q3 = supabase
+        .from('products')
+        .select(`
+          id, slug, name, product_code, price, thickness, size_text, unit, image_url, description, is_active,
+          categories ( id, name ),
+          brands ( id, name )
+        `)
+        .eq('is_active', true);
+      if (matchedBrand) q3 = q3.eq('brand_id', matchedBrand.id);
+      q3 = q3.ilike('name', `${searchVal}%`);
+      if (signal) q3 = q3.abortSignal(signal);
+      queries.push(q3.limit(20));
+
+      // Query 4: Contains matches on product code, name, or description
+      let q4 = supabase
+        .from('products')
+        .select(`
+          id, slug, name, product_code, price, thickness, size_text, unit, image_url, description, is_active,
+          categories ( id, name ),
+          brands ( id, name )
+        `)
+        .eq('is_active', true);
+      if (matchedBrand) q4 = q4.eq('brand_id', matchedBrand.id);
+      q4 = q4.or(`product_code.ilike.%${searchVal}%,name.ilike.%${searchVal}%,description.ilike.%${searchVal}%`);
+      if (signal) q4 = q4.abortSignal(signal);
+      queries.push(q4.limit(20));
+    }
+
+    const results = await Promise.all(queries);
+    const merged = [];
+    const seenIds = new Set();
+
+    for (const res of results) {
+      if (res.error) {
+        if (res.error.message && res.error.message.includes('aborted')) {
+          const abortErr = new Error('aborted');
+          abortErr.name = 'AbortError';
+          throw abortErr;
+        }
+        console.error('[searchProductsServer Subquery Error]:', res.error);
+        continue;
+      }
+      if (res.data) {
+        for (const rawItem of res.data) {
+          const item = mapProductRow(rawItem);
+          if (!seenIds.has(item.id)) {
+            seenIds.add(item.id);
+            merged.push(item);
+          }
+        }
+      }
+    }
+
+    const deduplicated = deduplicateProducts(merged);
+
+    const getMatchTier = (item, queryStr) => {
+      const code = (item.code || "").toLowerCase().trim();
+      const name = (item.name || "").toLowerCase().trim();
+      const brand = (item.brand || "").toLowerCase().trim();
+      const q = queryStr.toLowerCase().trim();
+      const qClean = q.replace(/[\s\-_()]/g, "");
+      const codeClean = code.replace(/[\s\-_()]/g, "");
+      const nameClean = name.replace(/[\s\-_()]/g, "");
+
+      // 1. 상품코드 완전 일치
+      if (code === q) return 1;
+      // 2. 상품코드 공백·하이픈 제거 후 완전 일치
+      if (codeClean === qClean) return 2;
+      // 3. 상품코드 시작 일치
+      if (code.startsWith(q) || codeClean.startsWith(qClean)) return 3;
+      // 4. 상품명 완전 일치
+      if (name === q || nameClean === qClean) return 4;
+      // 5. 상품명 시작 일치
+      if (name.startsWith(q) || nameClean.startsWith(qClean)) return 5;
+      // 6. 상품코드 포함
+      if (code.includes(q) || codeClean.includes(qClean)) return 6;
+      // 7. 상품명 포함
+      if (name.includes(q) || nameClean.includes(qClean)) return 7;
+      // 8. 브랜드 일치
+      if (brand === q) return 8;
+      
+      return 9; // 기타
+    };
+
+    return deduplicated
+      .sort((a, b) => {
+        const tierA = getMatchTier(a, s);
+        const tierB = getMatchTier(b, s);
+        if (tierA !== tierB) {
+          return tierA - tierB;
+        }
+        return (a.code || "").localeCompare(b.code || "", 'ko');
+      })
+      .slice(0, 20);
+
+  } catch (err) {
+    if (err.name === 'AbortError' || err.message === 'aborted') {
+      console.log('Search query aborted securely');
+      throw err;
+    }
+    console.error('[searchProductsServer Exception]:', err);
+    return [];
+  }
+}
+

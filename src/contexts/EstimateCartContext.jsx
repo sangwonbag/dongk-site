@@ -255,8 +255,21 @@ export function EstimateCartProvider({ children }) {
     setCartItems(prev => prev.filter(i => i.id !== id));
   };
 
-  const updateQuantity = (id, quantity) => {
-    setCartItems(prev => prev.map(i => i.id === id ? { ...i, quantity } : i));
+  const updateQuantity = (id, quantity, options = {}) => {
+    setCartItems(prev => prev.map(i => i.id === id ? { 
+      ...i, 
+      quantity, 
+      isManualQty: options.isManual !== undefined ? options.isManual : true 
+    } : i));
+  };
+
+  const syncAutomaticQuantities = (areaPyeong) => {
+    const pyeongVal = parseFloat(areaPyeong);
+    const defaultQty = (!isNaN(pyeongVal) && pyeongVal > 0) ? pyeongVal : 1;
+    setCartItems(prev => prev.map(item => {
+      if (item.isManualQty) return item;
+      return { ...item, quantity: defaultQty };
+    }));
   };
 
   const clearCart = async (options = {}) => {
@@ -285,6 +298,7 @@ export function EstimateCartProvider({ children }) {
       addToCart,
       removeFromCart,
       updateQuantity,
+      syncAutomaticQuantities,
       clearCart,
       clearAllCartStorage,
       getPendingDirectOrder,
@@ -296,4 +310,6 @@ export function EstimateCartProvider({ children }) {
       {children}
     </EstimateCartContext.Provider>
   );
+
+
 }

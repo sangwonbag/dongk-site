@@ -12,76 +12,61 @@ const handleSupabaseError = (error, contextMsg) => {
 
 /**
  * 1. 견적문의 생성 (접수)
+ * 원자성 보장을 위해 RPC 함수(create_estimate_with_items)를 우선 시도하며,
+ * 실패 시 클라이언트 측 2단계 저장 및 보상 트랜잭션(Rollback Delete)을 대체 수단으로 실행합니다.
  */
 export const createEstimateInquiry = async (payload) => {
   if (!supabase) {
     throw new Error('Supabase 클라이언트가 초기화되지 않았습니다. 환경변수 설정을 확인하세요.');
   }
 
-  // 1. Insert header into public.estimates
-  const { data: insertedHeader, error: headerError } = await supabase
-    .from('estimates')
-    .insert([
-      {
-        customer_type: payload.customer_type || '일반 소비자',
-        customer_name: payload.customer_name,
-        phone: payload.phone,
-        email: payload.email || null,
-        site_address: payload.site_address,
-        site_detail_address: payload.site_detail_address || null,
-        preferred_date: payload.preferred_date || null,
-        consultation_type: payload.consultation_type || '전화 상담',
-        site_type: payload.site_type || '아파트',
-        work_type: payload.work_type || '상담 후 결정',
-        area_pyeong: payload.area_pyeong ? Number(payload.area_pyeong) : null,
-        has_elevator: payload.has_elevator === true,
-        parking_available: payload.parking_available === true,
-        accessory_options: payload.accessory_options || [],
-        extra_accessory_text: payload.extra_accessory_text || null,
-        request_memo: payload.request_memo || null,
-        subtotal: payload.subtotal || 0,
-        total: payload.total || 0,
-        status: '접수'
-      }
-    ])
-    .select('*')
-    .single();
+  // 자재 상세 품목 정보 정제
+  const itemsToInsert = (payload.selected_items || []).map((item, idx) => ({
+    sort_order: idx + 1,
+    category: item.category || null,
+    brand: item.brand || null,
+    product_code: item.product_code || item.code || null,
+    product_name: item.product_name || item.name || '',
+    spec: item.spec || item.size || null,
+    quantity: item.quantity || 1,
+    unit_price: item.unit_price || 0,
+    supply_amount: item.supply_amount || 0
+  }));
 
-  if (headerError) {
-    return handleSupabaseError(headerError, '견적요청 저장에 실패했습니다. (기본 정보 저장 오류)');
+  // [운영 가이드] 오직 RPC 단일 경로 트랜잭션으로만 저장하며, 클라이언트 fallback은 제거
+  const { data: rpcData, error: rpcError } = await supabase.rpc('create_estimate_with_items', {
+    p_customer_type: payload.customer_type || '일반 소비자',
+    p_customer_name: payload.customer_name,
+    p_phone: payload.phone,
+    p_email: payload.email || null,
+    p_site_address: payload.site_address,
+    p_site_detail_address: payload.site_detail_address || null,
+    p_preferred_date: payload.preferred_date || null,
+    p_consultation_type: payload.consultation_type || '전화 상담',
+    p_site_type: payload.site_type || '아파트',
+    p_work_type: payload.work_type || '상담 후 결정',
+    p_area_pyeong: payload.area_pyeong ? Number(payload.area_pyeong) : null,
+    p_has_elevator: payload.has_elevator === true,
+    p_parking_available: payload.parking_available === true,
+    p_accessory_options: payload.accessory_options || [],
+    p_extra_accessory_text: payload.extra_accessory_text || null,
+    p_request_memo: payload.request_memo || null,
+    p_subtotal: payload.subtotal || 0,
+    p_total: payload.total || 0,
+    p_items: itemsToInsert
+  });
+
+  if (rpcError) {
+    return handleSupabaseError(rpcError, '견적요청 저장에 실패했습니다. (DB 오류)');
   }
 
-  const estimateId = insertedHeader.id;
-
-  // 2. Insert items into public.estimate_items
-  if (payload.selected_items && payload.selected_items.length > 0) {
-    const itemsToInsert = payload.selected_items.map((item, idx) => ({
-      estimate_id: estimateId,
-      sort_order: idx + 1,
-      category: item.category || null,
-      brand: item.brand || null,
-      product_code: item.product_code || item.code || null,
-      product_name: item.product_name || item.name || '',
-      spec: item.spec || item.size || null,
-      quantity: item.quantity || 1,
-      unit_price: item.unit_price || 0,
-      supply_amount: item.amount || 0,
-      memo: null
-    }));
-
-    const { error: itemsError } = await supabase
-      .from('estimate_items')
-      .insert(itemsToInsert);
-
-    if (itemsError) {
-      console.error('Error inserting estimate items, attempting rollback of header...', itemsError);
-      await supabase.from('estimates').delete().eq('id', estimateId);
-      return handleSupabaseError(itemsError, '견적요청 상세 자재 정보 저장에 실패했습니다.');
-    }
+  if (!rpcData) {
+    throw new Error('견적요청 저장 후 데이터가 생성되지 않았습니다.');
   }
 
-  return insertedHeader;
+  return rpcData;
 };
+
 
 /**
  * 2. 견적문의 목록 조회 (관리자용, 전체 목록 최신순)

@@ -146,8 +146,12 @@ export function buildProductSearchText(product) {
     ...sizeOptionFields
   ];
 
-  return normalizeSearchText(fields.filter(Boolean).join(" "));
+  return fields
+    .filter(Boolean)
+    .map(f => normalizeSearchText(f))
+    .join(" ");
 }
+
 
 export function getSearchScore(product, rawQuery) {
   if (!product || !rawQuery) return 0;

@@ -628,3 +628,273 @@
     box-shadow: var(--shadow-sm);
   }
 }
+
+/* ==========================================================================
+   Estimate Request Success Screen & Consultation Cards
+   ========================================================================== */
+
+.est-success-card {
+  max-width: 650px;
+  margin: 40px auto 60px;
+  padding: 40px 30px;
+  background-color: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: var(--shadow-lg);
+  text-align: center;
+}
+
+.success-icon-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgba(40, 167, 69, 0.1);
+  color: #28a745;
+  margin-bottom: 24px;
+}
+
+.success-title {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--primary);
+  margin-bottom: 12px;
+}
+
+.success-subtitle {
+  font-size: 15px;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+.success-receipt {
+  display: inline-block;
+  background-color: var(--bg-alt);
+  border: 1.5px solid var(--border);
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 35px;
+}
+
+.consult-section-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 20px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 10px;
+}
+
+.consult-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.consult-card {
+  background-color: #ffffff;
+  border: 2px solid var(--border);
+  border-radius: 10px;
+  padding: 20px 14px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+}
+
+.consult-card:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(15, 23, 42, 0.1);
+}
+
+.consult-card:hover {
+  border-color: var(--border-hover);
+  background-color: var(--bg-alt);
+}
+
+.consult-card.active {
+  border-color: var(--point-gold);
+  background-color: rgba(179, 146, 95, 0.05);
+}
+
+.consult-card.active .card-icon {
+  color: var(--point-gold);
+}
+
+.consult-card .card-icon {
+  color: var(--text-light);
+  transition: color 0.2s;
+}
+
+.consult-card-title {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.consult-card-desc {
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+.active-details-box {
+  background-color: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 30px 24px;
+  text-align: left;
+  margin-bottom: 35px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.details-header {
+  margin-bottom: 20px;
+}
+
+.details-title-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.details-title-row h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.details-desc {
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.details-content-list {
+  margin: 15px 0 20px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.details-content-item {
+  display: flex;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.details-content-item .label {
+  width: 100px;
+  font-weight: 700;
+  color: var(--text-light);
+}
+
+.details-content-item .value {
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.details-action-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.details-action-buttons a, .details-action-buttons button {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 20px;
+  border-radius: 8px;
+  font-size: 14.5px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  min-height: 48px;
+  transition: all 0.15s ease-in-out;
+  text-align: center;
+}
+
+.btn-detail-phone {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+
+.btn-detail-phone:hover {
+  background-color: var(--primary-hover);
+}
+
+.btn-detail-kakao {
+  background-color: #FEE500;
+  color: #191919 !important;
+}
+
+.btn-detail-kakao:hover {
+  background-color: #FADA0A;
+}
+
+.btn-detail-map {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+.btn-detail-map:hover {
+  background-color: #218838;
+}
+
+.success-footer-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  border-top: 1px solid var(--border);
+  padding-top: 25px;
+}
+
+.success-footer-actions button {
+  padding: 12px 30px;
+  font-size: 14.5px;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+  min-width: 130px;
+}
+
+@media (max-width: 768px) {
+  .consult-cards-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  
+  .details-action-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .success-footer-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+

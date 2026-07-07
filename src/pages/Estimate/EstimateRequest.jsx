@@ -1,11 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import MainLayout from '../../components/layout/MainLayout';
-import { KAKAO_CHAT_URL, OFFICE_PHONE, SMS_PHONE, OFFICE_ADDRESS, NAVER_MAP_URL } from '../../constants/contact';
+import { KAKAO_CHAT_URL, OFFICE_PHONE, OFFICE_ADDRESS, NAVER_MAP_URL } from '../../constants/contact';
 import { useEstimateCart } from '../../contexts/EstimateCartContext';
-import { supabase } from '../../lib/supabase';
 import { useAuth } from '../../contexts/AuthContext';
-import { ArrowLeft, Trash2, Plus, Minus, CheckCircle } from 'lucide-react';
+import { ArrowLeft, Trash2, Plus, Minus, CheckCircle, Phone, MessageSquare, MapPin } from 'lucide-react';
 import MaterialSearchModal from './MaterialSearchModal';
 import { createEstimateInquiry } from '../../services/estimateInquiryService';
 import { loadDaumPostcode } from '../../utils/loadDaumPostcode';
@@ -13,14 +12,14 @@ import './EstimateRequest.css';
 
 const ACCESSORY_OPTIONS = ['걸레받이', '본드', '실리콘', '논슬립', '마감재', '문턱/재료분리대'];
 const CUSTOMER_TYPES = ['일반 소비자', '인테리어/시공 업자', '건설사/업체', '기타'];
-const CONSULTATION_TYPES = ['전화 상담', '문자 상담', '카카오톡 상담', '방문 상담'];
 const SITE_TYPES = ['아파트', '빌라', '상가', '사무실', '병원/학원', '공장', '기타'];
 const WORK_TYPES = ['자재만 구매', '자재 + 시공', '철거 포함', '기존 바닥 위 시공', '상담 후 결정'];
+const CONSULTATION_TYPES = ['전화 상담', '카카오톡 1:1 상담', '방문 상담'];
 
 export default function EstimateRequest() {
   const navigate = useNavigate();
   const location = useLocation();
-  const { cartItems, updateQuantity, removeFromCart, clearCart } = useEstimateCart();
+  const { cartItems, updateQuantity, syncAutomaticQuantities, removeFromCart, clearCart } = useEstimateCart();
   const { user: currentUser, openLoginModal } = useAuth();
   
   const [step, setStep] = useState(1);
@@ -58,6 +57,14 @@ export default function EstimateRequest() {
       }));
     }
   }, [currentUser, openLoginModal]);
+
+  // Backward compatibility: Map '문자 상담' or '카카오톡 상담' to '카카오톡 1:1 상담'
+  useEffect(() => {
+    if (customer.consultation === '문자 상담' || customer.consultation === '카카오톡 상담') {
+      setCustomer(prev => ({ ...prev, consultation: '카카오톡 1:1 상담' }));
+    }
+  }, [customer.consultation]);
+
   const [site, setSite] = useState({
     address: '', detailAddress: '', preferredDate: '', type: '아파트',
     workType: '상담 후 결정', areaPyeong: '', hasElevator: false, parkingAvailable: false,
@@ -70,6 +77,18 @@ export default function EstimateRequest() {
   const [agreePrivacy, setAgreePrivacy] = useState(false);
   const [errors, setErrors] = useState([]);
   const detailAddressRef = useRef(null);
+
+  const [activeTab, setActiveTab] = useState('전화 상담');
+
+  useEffect(() => {
+    if (submitSuccess) {
+      let initialTab = customer.consultation;
+      if (initialTab === '문자 상담' || initialTab === '카카오톡 상담') {
+        initialTab = '카카오톡 1:1 상담';
+      }
+      setActiveTab(initialTab || '전화 상담');
+    }
+  }, [submitSuccess, customer.consultation]);
 
   const handleAddressSearch = async () => {
     try {
@@ -114,6 +133,12 @@ export default function EstimateRequest() {
     return cartItems.reduce((sum, item) => sum + (item.price || 0) * (item.quantity || 1), 0);
   };
 
+  const handleQtyChange = (itemId, newQty) => {
+    let qty = parseFloat(newQty);
+    if (isNaN(qty)) qty = 0; // Temporarily allow 0 while typing
+    updateQuantity(itemId, qty, { isManual: true });
+  };
+
   const handleNext = () => {
     const errs = [];
     if (step === 1) {
@@ -121,6 +146,15 @@ export default function EstimateRequest() {
       if (!customer.phone.trim()) errs.push('연락처를 입력해주세요.');
     } else if (step === 2) {
       if (!site.address.trim()) errs.push('현장 주소를 입력해주세요.');
+      
+      if (site.areaPyeong) {
+        const pyeongVal = parseFloat(site.areaPyeong);
+        if (isNaN(pyeongVal) || pyeongVal <= 0) {
+          errs.push('예상 평수는 0보다 큰 숫자여야 합니다.');
+        } else if (pyeongVal > 1000) {
+          errs.push('예상 평수는 최대 1000평까지만 입력 가능합니다.');
+        }
+      }
     }
     
     if (errs.length > 0) {
@@ -129,6 +163,12 @@ export default function EstimateRequest() {
       return;
     }
     setErrors([]);
+
+    // Step 2 -> 3 transition: Sync automatic quantities
+    if (step === 2) {
+      syncAutomaticQuantities(site.areaPyeong);
+    }
+
     setStep(s => s + 1);
     window.scrollTo(0, 0);
   };
@@ -145,7 +185,7 @@ export default function EstimateRequest() {
     try {
       let finalPreferredDate = site.preferredDate;
       if (!finalPreferredDate) {
-        finalPreferredDate = null; // Ensure empty string becomes null for date column
+        finalPreferredDate = null;
       }
       const subtotal = calculateSubtotal();
 
@@ -153,14 +193,16 @@ export default function EstimateRequest() {
         product_id: item.productId || item.product_id || item.id,
         category: item.category || null,
         brand: item.brand || null,
-        name: item.name || "",
+        product_code: item.code || null,
         code: item.code || null,
-        size: item.selectedSize || item.spec || null,
+        product_name: item.name || "",
+        spec: item.selectedSize || item.spec || null,
         quantity: item.quantity || 1,
         unit_price: item.price || 0,
-        amount: (item.price || 0) * (item.quantity || 1),
-        thumbnail_url: item.thumbnail || item.image || null
+        supply_amount: Math.round((item.price || 0) * (item.quantity || 1))
       }));
+
+      const mappedConsultation = customer.consultation === '문자 상담' ? '카카오톡 1:1 상담' : customer.consultation;
 
       const payload = {
         customer_type: customer.type,
@@ -170,7 +212,7 @@ export default function EstimateRequest() {
         site_address: site.address,
         site_detail_address: site.detailAddress || null,
         preferred_date: finalPreferredDate,
-        consultation_type: customer.consultation,
+        consultation_type: mappedConsultation,
         site_type: site.type,
         work_type: site.workType,
         area_pyeong: site.areaPyeong ? Number(site.areaPyeong) : null,
@@ -178,9 +220,9 @@ export default function EstimateRequest() {
         parking_available: site.parkingAvailable,
         accessory_options: accessories,
         extra_accessory_text: extraAccessory || null,
-        request_memo: `[상담 방식: ${customer.consultation}]\n${requestMemo}`,
-        subtotal: subtotal,
-        total: subtotal,
+        request_memo: `[상담 방식: ${mappedConsultation}]\n${requestMemo}`,
+        subtotal: Math.round(subtotal),
+        total: Math.round(subtotal),
         selected_items: selectedItems
       };
 
@@ -192,7 +234,16 @@ export default function EstimateRequest() {
       window.scrollTo(0, 0);
 
     } catch (err) {
-      console.error('[EstimateRequest Submit Error]:', err);
+      console.error('[EstimateRequest Submit Error Details]:', {
+        message: err.message,
+        stack: err.stack,
+        customer,
+        site,
+        cartItems,
+        accessories,
+        extraAccessory,
+        requestMemo
+      });
       setErrors(['견적요청 저장에 실패했습니다. 입력 정보를 확인 후 다시 시도해주세요.']);
     } finally {
       setIsSubmitting(false);
@@ -223,121 +274,196 @@ export default function EstimateRequest() {
   if (submitSuccess) {
     return (
       <MainLayout>
-        <div className="container est-success" style={{
-          maxWidth: '600px',
-          margin: '40px auto 60px',
-          padding: '40px 24px',
-          textAlign: 'center',
-          backgroundColor: '#ffffff',
-          borderRadius: '12px',
-          boxShadow: '0 4px 12px rgba(0,0,0,0.05)',
-          border: '1px solid #e2e8f0'
-        }}>
-          <CheckCircle size={64} color="var(--success)" style={{ marginBottom: '20px' }} />
-          <h2 style={{ fontSize: '24px', fontWeight: '800', color: '#0f172a', marginBottom: '10px' }}>
-            견적요청이 완료되었습니다.
-          </h2>
-          <p style={{ color: '#475569', fontSize: '15px', marginBottom: '30px' }}>
-            담당자가 확인 후 선택하신 상담 방식으로 연락드리겠습니다.
-          </p>
+        <div className="container" style={{ paddingBottom: '100px' }}>
+          <div className="est-success-card">
+            <div className="success-icon-wrapper">
+              <CheckCircle size={40} />
+            </div>
+            <h2 className="success-title">견적요청이 완료되었습니다</h2>
+            <p className="success-subtitle">
+              담당자가 요청 내용을 확인한 후 연락드리겠습니다.
+            </p>
+            <div className="success-receipt">
+              접수번호: {submittedNo}
+            </div>
 
-          <div style={{
-            backgroundColor: '#f8fafc',
-            border: '1px solid #e2e8f0',
-            borderRadius: '8px',
-            padding: '20px',
-            textAlign: 'left',
-            marginBottom: '24px',
-            fontSize: '14px',
-            lineHeight: '1.6'
-          }}>
-            <h4 style={{ margin: '0 0 12px 0', fontSize: '15px', fontWeight: '700', color: '#0f172a', borderBottom: '1px solid #e2e8f0', paddingBottom: '8px' }}>
-              📝 접수 요약
-            </h4>
-            <div style={{ display: 'flex', marginBottom: '6px' }}><span style={{ width: '100px', color: '#64748b', fontWeight: '500' }}>접수 번호:</span> <strong style={{ color: '#0f172a' }}>{submittedNo}</strong></div>
-            <div style={{ display: 'flex', marginBottom: '6px' }}><span style={{ width: '100px', color: '#64748b', fontWeight: '500' }}>고객명:</span> <span style={{ color: '#334155' }}>{customer.name}</span></div>
-            <div style={{ display: 'flex', marginBottom: '6px' }}><span style={{ width: '100px', color: '#64748b', fontWeight: '500' }}>연락처:</span> <span style={{ color: '#334155' }}>{customer.phone}</span></div>
-            <div style={{ display: 'flex', marginBottom: '6px' }}><span style={{ width: '100px', color: '#64748b', fontWeight: '500' }}>현장 주소:</span> <span style={{ color: '#334155', flex: 1 }}>{site.address} {site.detailAddress}</span></div>
-            <div style={{ display: 'flex' }}><span style={{ width: '100px', color: '#64748b', fontWeight: '500' }}>상담 방식:</span> <strong style={{ color: 'var(--point-orange)' }}>{customer.consultation}</strong></div>
-          </div>
+            <div className="consult-section-title">상담 방법 선택 및 안내</div>
 
-          <div style={{ marginBottom: '24px' }}>
-            <ConsultationActionBox type={customer.consultation} isCompletedScreen={true} />
-            {customer.consultation !== '카카오톡 상담' && (
-              <div style={{ marginTop: '16px', borderTop: '1px dashed var(--border)', paddingTop: '16px', textAlign: 'left' }}>
-                <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginBottom: '8px', fontWeight: '600' }}>
-                  💬 빠른 상담 및 사양 매칭은 카카오톡으로 실시간 연락을 취하실 수 있습니다.
-                </p>
-                <a 
-                  href={KAKAO_CHAT_URL} 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    padding: '12px 20px',
-                    borderRadius: '8px',
-                    backgroundColor: '#FEE500',
-                    color: '#191919',
-                    fontWeight: '700',
-                    fontSize: '14px',
-                    textDecoration: 'none',
-                    boxShadow: 'var(--shadow-sm)',
-                    transition: 'all 0.2s ease'
-                  }}
-                >
-                  💬 카카오톡 빠른 상담하기
-                </a>
+            <div className="consult-cards-grid">
+              <div 
+                className={`consult-card ${activeTab === '전화 상담' ? 'active' : ''}`}
+                onClick={() => setActiveTab('전화 상담')}
+                tabIndex={0}
+                onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') setActiveTab('전화 상담'); }}
+                role="button"
+                aria-pressed={activeTab === '전화 상담'}
+              >
+                <Phone className="card-icon" size={24} />
+                <span className="consult-card-title">전화 상담</span>
+                <span className="consult-card-desc">빠르고 직관적인 유선 상담</span>
               </div>
-            )}
-          </div>
 
-          <div style={{
-            display: 'flex',
-            gap: '12px',
-            justifyContent: 'center',
-            flexWrap: 'wrap',
-            borderTop: '1px solid #f1f5f9',
-            paddingTop: '20px'
-          }}>
-            <button 
-              className="btn-secondary" 
-              onClick={() => navigate('/')}
-              style={{
-                padding: '12px 24px',
-                borderRadius: '8px',
-                fontSize: '14px',
-                fontWeight: '600',
-                cursor: 'pointer',
-                border: '1px solid #cbd5e1',
-                backgroundColor: '#ffffff',
-                color: '#334155'
-              }}
-            >
-              🏠 홈으로 가기
-            </button>
-            <button 
-              className="btn-primary" 
-              onClick={() => navigate('/materials')}
-              style={{
-                padding: '12px 24px',
-                borderRadius: '8px',
-                fontSize: '14px',
-                fontWeight: '600',
-                cursor: 'pointer',
-                backgroundColor: 'var(--primary)',
-                color: '#ffffff',
-                border: 'none'
-              }}
-            >
-              📦 자재 더 보기
-            </button>
+              <div 
+                className={`consult-card ${activeTab === '카카오톡 1:1 상담' ? 'active' : ''}`}
+                onClick={() => setActiveTab('카카오톡 1:1 상담')}
+                tabIndex={0}
+                onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') setActiveTab('카카오톡 1:1 상담'); }}
+                role="button"
+                aria-pressed={activeTab === '카카오톡 1:1 상담'}
+              >
+                <MessageSquare className="card-icon" size={24} />
+                <span className="consult-card-title">카카오톡 1:1 상담</span>
+                <span className="consult-card-desc">실시간 메신저 채팅 상담</span>
+              </div>
+
+              <div 
+                className={`consult-card ${activeTab === '방문 상담' ? 'active' : ''}`}
+                onClick={() => setActiveTab('방문 상담')}
+                tabIndex={0}
+                onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') setActiveTab('방문 상담'); }}
+                role="button"
+                aria-pressed={activeTab === '방문 상담'}
+              >
+                <MapPin className="card-icon" size={24} />
+                <span className="consult-card-title">방문 상담</span>
+                <span className="consult-card-desc">사무실 직접 방문 및 대면 상담</span>
+              </div>
+            </div>
+
+            <div className="active-details-box">
+              {activeTab === '전화 상담' && (
+                <>
+                  <div className="details-header">
+                    <div className="details-title-row">
+                      <Phone size={20} color="var(--primary)" />
+                      <h4>전화 상담</h4>
+                    </div>
+                    <p className="details-desc">동경바닥재 담당자와 전화로 상담할 수 있습니다.</p>
+                  </div>
+                  <ul className="details-content-list">
+                    <li className="details-content-item">
+                      <span className="label">전화번호</span>
+                      <span className="value" style={{ fontSize: '16px', fontWeight: '700', color: 'var(--point-orange)' }}>{OFFICE_PHONE}</span>
+                    </li>
+                  </ul>
+                  <div className="details-action-buttons">
+                    <a href={`tel:${OFFICE_PHONE}`} className="btn-detail-phone">
+                      📞 동경바닥재 전화하기
+                    </a>
+                  </div>
+                </>
+              )}
+
+              {activeTab === '카카오톡 1:1 상담' && (
+                <>
+                  <div className="details-header">
+                    <div className="details-title-row">
+                      <MessageSquare size={20} color="#FEE500" style={{ fill: '#FEE500' }} />
+                      <h4>카카오톡 1:1 상담</h4>
+                    </div>
+                    <p className="details-desc">접수된 견적요청 내용을 기준으로 카카오톡에서 빠르게 상담받을 수 있습니다.</p>
+                  </div>
+                  <ul className="details-content-list">
+                    <li className="details-content-item">
+                      <span className="label">채널명</span>
+                      <span className="value">동경바닥재</span>
+                    </li>
+                    <li className="details-content-item">
+                      <span className="label">채널 주소</span>
+                      <span className="value">https://pf.kakao.com/_hbxkPX</span>
+                    </li>
+                  </ul>
+                  <div className="details-action-buttons">
+                    <a 
+                      href={KAKAO_CHAT_URL} 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="btn-detail-kakao"
+                    >
+                      💬 동경바닥재 카카오톡 1:1 상담
+                    </a>
+                  </div>
+                </>
+              )}
+
+              {activeTab === '방문 상담' && (
+                <>
+                  <div className="details-header">
+                    <div className="details-title-row">
+                      <MapPin size={20} color="var(--point-gold)" />
+                      <h4>방문 상담</h4>
+                    </div>
+                    <p className="details-desc">방문 상담을 선택하셨습니다. 사무실 방문 전 전화로 재고 및 상담 가능 시간을 확인해 주세요.</p>
+                  </div>
+                  <ul className="details-content-list">
+                    <li className="details-content-item">
+                      <span className="label">주소</span>
+                      <span className="value">{OFFICE_ADDRESS}</span>
+                    </li>
+                    <li className="details-content-item">
+                      <span className="label">대표전화</span>
+                      <span className="value">{OFFICE_PHONE}</span>
+                    </li>
+                  </ul>
+                  <div className="details-action-buttons">
+                    <a href={`tel:${OFFICE_PHONE}`} className="btn-detail-phone">
+                      📞 사무실 전화하기
+                    </a>
+                    <a 
+                      href={NAVER_MAP_URL} 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="btn-detail-map"
+                    >
+                      🗺️ 지도에서 위치 보기
+                    </a>
+                  </div>
+                </>
+              )}
+            </div>
+
+            <div className="success-footer-actions">
+              <button 
+                className="btn-secondary" 
+                onClick={() => navigate('/')}
+                style={{
+                  padding: '12px 24px',
+                  borderRadius: '8px',
+                  fontSize: '14px',
+                  fontWeight: '600',
+                  cursor: 'pointer',
+                  border: '1px solid #cbd5e1',
+                  backgroundColor: '#ffffff',
+                  color: '#334155'
+                }}
+              >
+                🏠 홈으로 가기
+              </button>
+              <button 
+                className="btn-primary" 
+                onClick={() => navigate('/materials')}
+                style={{
+                  padding: '12px 24px',
+                  borderRadius: '8px',
+                  fontSize: '14px',
+                  fontWeight: '600',
+                  cursor: 'pointer',
+                  backgroundColor: 'var(--primary)',
+                  color: '#ffffff',
+                  border: 'none'
+                }}
+              >
+                📦 자재 더 보기
+              </button>
+            </div>
           </div>
         </div>
       </MainLayout>
     );
   }
+
+  const pyeongVal = parseFloat(site.areaPyeong);
+  const defaultQuantity = (!isNaN(pyeongVal) && pyeongVal > 0) ? (pyeongVal > 1000 ? 1000 : pyeongVal) : 1;
 
   return (
     <MainLayout>
@@ -417,7 +543,6 @@ export default function EstimateRequest() {
                     </label>
                   ))}
                 </div>
-                <ConsultationActionBox type={customer.consultation} />
               </div>
             </div>
           )}
@@ -491,7 +616,7 @@ export default function EstimateRequest() {
               <div className="form-group">
                 <label>예상 평수 (선택)</label>
                 <div className="input-with-unit">
-                  <input type="number" value={site.areaPyeong} onChange={e => setSite({...site, areaPyeong: e.target.value})} placeholder="0" />
+                  <input type="number" step="any" value={site.areaPyeong} onChange={e => setSite({...site, areaPyeong: e.target.value})} placeholder="0" />
                   <span>평</span>
                 </div>
               </div>
@@ -555,13 +680,35 @@ export default function EstimateRequest() {
                           <span>규격: {item.spec || item.specs?.size || '표준규격'}</span>
                         </div>
                       </div>
-                      <div className="est-item-qty">
-                        <button type="button" onClick={() => updateQuantity(item.id, Math.max(1, item.quantity - 1))}><Minus size={14}/></button>
-                        <input type="number" value={item.quantity} onChange={(e) => updateQuantity(item.id, parseInt(e.target.value) || 1)} />
-                        <button type="button" onClick={() => updateQuantity(item.id, item.quantity + 1)}><Plus size={14}/></button>
+                      
+                      <div className="est-item-qty-container" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                        <div className="est-item-qty" style={{ margin: 0 }}>
+                          <button type="button" onClick={() => handleQtyChange(item.id, Math.max(1, (item.quantity || 1) - 1))}><Minus size={14}/></button>
+                          <input 
+                            type="number" 
+                            step="any" 
+                            value={item.quantity === 0 ? '' : item.quantity} 
+                            onChange={(e) => handleQtyChange(item.id, e.target.value)} 
+                            onBlur={(e) => {
+                              let val = parseFloat(e.target.value);
+                              if (isNaN(val) || val <= 0) {
+                                val = 1;
+                              } else if (val > 1000) {
+                                val = 1000;
+                                alert('수량은 최대 1000평까지 입력 가능합니다.');
+                              } else {
+                                val = Math.round(val * 100) / 100;
+                              }
+                              handleQtyChange(item.id, val);
+                            }}
+                          />
+                          <button type="button" onClick={() => handleQtyChange(item.id, (item.quantity || 1) + 1)}><Plus size={14}/></button>
+                        </div>
+                        <span className="qty-unit" style={{ fontSize: '13.5px', fontWeight: '700', color: 'var(--text-muted)' }}>평</span>
                       </div>
+
                       <div className="est-item-price">
-                        {item.price ? `${((item.price) * item.quantity).toLocaleString()}원` : <span className="consult-price">상담 후 안내</span>}
+                        {item.price ? `${Math.round((item.price) * item.quantity).toLocaleString()}원` : <span className="consult-price">상담 후 안내</span>}
                       </div>
                       <button type="button" className="btn-delete-item" onClick={() => removeFromCart(item.id)}>
                         <Trash2 size={18} />
@@ -570,7 +717,7 @@ export default function EstimateRequest() {
                   ))}
                   <div className="est-subtotal">
                     <span>자재 합계 (단가 없는 항목 제외)</span>
-                    <strong>{calculateSubtotal().toLocaleString()}원</strong>
+                    <strong>{Math.round(calculateSubtotal()).toLocaleString()}원</strong>
                   </div>
                 </div>
               )}
@@ -606,10 +753,10 @@ export default function EstimateRequest() {
                 <h4>최종 확인</h4>
                 <div className="review-row"><span>고객명:</span> {customer.name}</div>
                 <div className="review-row"><span>연락처:</span> {customer.phone}</div>
-                <div className="review-row"><span>상담 방식:</span> {customer.consultation}</div>
+                <div className="review-row"><span>상담 방식:</span> {customer.consultation === '문자 상담' ? '카카오톡 1:1 상담' : customer.consultation}</div>
                 <div className="review-row"><span>현장:</span> {site.address} {site.detailAddress}</div>
                 <div className="review-row"><span>자재:</span> {cartItems.length}종 담김</div>
-                <div className="review-row"><span>자재 예상액:</span> {calculateSubtotal().toLocaleString()}원 (VAT 별도)</div>
+                <div className="review-row"><span>자재 예상액:</span> {Math.round(calculateSubtotal()).toLocaleString()}원 (VAT 별도)</div>
               </div>
 
               <div className="privacy-consent">
@@ -642,154 +789,11 @@ export default function EstimateRequest() {
       </div>
 
       {isModalOpen && (
-        <MaterialSearchModal onClose={() => setIsModalOpen(false)} />
+        <MaterialSearchModal 
+          onClose={() => setIsModalOpen(false)} 
+          defaultQuantity={defaultQuantity}
+        />
       )}
     </MainLayout>
-  );
-}
-
-function ConsultationActionBox({ type, isCompletedScreen = false }) {
-  if (!type) return null;
-
-  // Configuration object for guide and buttons
-  const config = {
-    '전화 상담': {
-      text: isCompletedScreen 
-        ? '전화 상담을 선택하셨습니다. 아래 버튼을 눌러 담당자에게 바로 전화를 거실 수 있습니다.'
-        : '전화 상담을 선택하셨습니다. 아래 번호로 바로 연락하실 수 있습니다.',
-      bgColor: '#f8fafc',
-      borderColor: '#e2e8f0',
-      textColor: '#334155',
-      buttons: [
-        {
-          label: isCompletedScreen ? '📞 전화 상담하기' : `📞 ${OFFICE_PHONE} 전화하기`,
-          href: `tel:${OFFICE_PHONE}`,
-          bgColor: '#0f172a',
-          color: '#ffffff'
-        }
-      ]
-    },
-    '문자 상담': {
-      text: '문자 상담을 선택하셨습니다. 아래 버튼으로 현장 주소, 평수, 희망 자재를 문자로 보내주세요.',
-      bgColor: '#f8fafc',
-      borderColor: '#e2e8f0',
-      textColor: '#334155',
-      buttons: [
-        {
-          label: isCompletedScreen ? '✉️ 문자 보내기' : `✉️ ${SMS_PHONE} 문자 보내기`,
-          href: `sms:${SMS_PHONE.replace(/-/g, '')}?body=${encodeURIComponent("동경바닥재 견적문의드립니다. 현장주소: / 평수: / 희망자재: ")}`,
-          bgColor: '#0f172a',
-          color: '#ffffff'
-        }
-      ]
-    },
-    '카카오톡 상담': {
-      text: isCompletedScreen
-        ? '카카오톡 상담을 선택하셨습니다. 아래 버튼을 눌러 카카오톡 실시간 상담을 시작해주세요.'
-        : '카카오톡 상담을 선택하셨습니다. 견적 내용을 제출한 뒤 카카오톡으로 빠르게 상담하실 수 있습니다.',
-      bgColor: '#fffbeb',
-      borderColor: '#fef3c7',
-      textColor: '#b45309',
-      buttons: [
-        {
-          label: '💬 카카오톡 1:1 상담 열기',
-          href: KAKAO_CHAT_URL,
-          target: '_blank',
-          rel: 'noopener noreferrer',
-          bgColor: '#FEE500',
-          color: '#191919',
-          fontWeight: '700'
-        }
-      ]
-    },
-    '방문 상담': {
-      text: `방문 상담을 선택하셨습니다. 사무실 방문 전 전화로 재고 및 상담 가능 시간을 확인해주세요.\n📍 사무실 주소: ${OFFICE_ADDRESS}`,
-      bgColor: '#f8fafc',
-      borderColor: '#e2e8f0',
-      textColor: '#334155',
-      buttons: isCompletedScreen
-        ? [
-            {
-              label: '📞 방문 상담 안내',
-              href: `tel:${OFFICE_PHONE}`,
-              bgColor: '#0f172a',
-              color: '#ffffff'
-            },
-            {
-              label: '🗺️ 지도에서 위치 보기',
-              href: NAVER_MAP_URL,
-              target: '_blank',
-              rel: 'noopener noreferrer',
-              bgColor: '#28a745',
-              color: '#ffffff'
-            }
-          ]
-        : [
-            {
-              label: '📞 사무실 전화하기',
-              href: `tel:${OFFICE_PHONE}`,
-              bgColor: '#0f172a',
-              color: '#ffffff'
-            },
-            {
-              label: '🗺️ 지도에서 위치 보기',
-              href: NAVER_MAP_URL,
-              target: '_blank',
-              rel: 'noopener noreferrer',
-              bgColor: '#28a745',
-              color: '#ffffff'
-            }
-          ]
-    }
-  };
-
-  const item = config[type];
-  if (!item) return null;
-
-  return (
-    <div style={{
-      marginTop: '16px',
-      backgroundColor: item.bgColor,
-      border: `1px solid ${item.borderColor}`,
-      borderRadius: '8px',
-      padding: '16px',
-      fontSize: '13.5px',
-      color: item.textColor,
-      lineHeight: '1.6',
-      textAlign: 'left'
-    }}>
-      <div style={{ whiteSpace: 'pre-line', fontWeight: '500' }}>{item.text}</div>
-      <div style={{ display: 'flex', gap: '10px', marginTop: '12px', flexWrap: 'wrap' }}>
-        {item.buttons.map((btn, index) => (
-          <a
-            key={index}
-            href={btn.href}
-            target={btn.target}
-            rel={btn.rel}
-            style={{
-              display: 'inline-flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              backgroundColor: btn.bgColor,
-              color: btn.color,
-              fontWeight: btn.fontWeight || '600',
-              padding: '12px 24px',
-              borderRadius: '8px',
-              textDecoration: 'none',
-              fontSize: '13.5px',
-              cursor: 'pointer',
-              border: 'none',
-              boxShadow: '0 1px 2px rgba(0, 0, 0, 0.05)',
-              minHeight: '44px',
-              flex: '1 1 auto',
-              maxWidth: '300px',
-              textAlign: 'center'
-            }}
-          >
-            {btn.label}
-          </a>
-        ))}
-      </div>
-    </div>
   );
 }
