@@ -254,14 +254,39 @@ groups.forEach((group, key) => {
     else if (t === '5.0T') price = 53000;
   }
 
+  // Override KCC Pro specifications based on code suffix rules
+  if (brand === 'KCC' && (line || "").includes('pro')) {
+    const lastChar = (code || "").slice(-1).toUpperCase();
+    if (lastChar === 'M') {
+      size = '600 x 600 x 3.0mm';
+      unit = '9pcs / 3.24㎡';
+      thickness = '3.0T';
+    } else if (lastChar === 'P') {
+      size = '457.2 x 457.2 x 3.0mm';
+      unit = '16pcs / 3.34㎡';
+      thickness = '3.0T';
+    } else if (lastChar === 'G') {
+      size = '184 x 950 x 3.0mm';
+      unit = '19pcs / 3.32㎡';
+      thickness = '3.0T';
+    } else if ((code || "").toUpperCase().startsWith('B') && lastChar === 'J') {
+      size = '457.2 x 914.4 x 5.0mm';
+      unit = '6pcs / 2.51㎡';
+      thickness = '5.0T';
+    }
+  }
+
   // Override '데코타일' price for both existing and new products based on the approved price list
   if (category === '데코타일') {
-    const is600 = (line || "").includes('600') || (code || "").includes('600') || (size || "").includes('600x600');
-    const isWood = (line || "").includes('우드') || (line || "").toLowerCase().includes('wood') || (code || "").includes('우드') || (code || "").toLowerCase().includes('wood') || (size || "").includes('187x935') || (size || "").includes('184x950');
+    const sizeClean = (size || "").replace(/\s+/g, '');
+    const is600 = (line || "").includes('600') || (code || "").includes('600') || sizeClean.includes('600x600');
+    const isWood = (line || "").includes('우드') || (line || "").toLowerCase().includes('wood') || (code || "").includes('우드') || (code || "").toLowerCase().includes('wood') || sizeClean.includes('187x935') || sizeClean.includes('184x950');
 
     if (brand === 'KCC') {
-      if ((line || "").includes('프로') || (code || "").startsWith('PS') || (code || "").startsWith('PW')) {
-        price = 35000;
+      if ((code || "").toUpperCase().startsWith('B') || (thickness || "").includes('5.0T') || (line || "").includes('센스레이')) {
+        price = 0; // 센스레이 5.0 (Loose lay) - 가격문의
+      } else if ((line || "").includes('프로') || (line || "").includes('pro') || (code || "").startsWith('PS') || (code || "").startsWith('PW')) {
+        price = 35000; // 프로 - 35,000원
       } else {
         price = is600 ? 28000 : 27000;
       }
@@ -280,17 +305,21 @@ groups.forEach((group, key) => {
         price = 26000;
       } else if ((line || "").includes('에코노플러스') || (line || "").includes('에코너')) {
         price = 35000;
-      } else if ((line || "").includes('지아마루')) {
+      } else if ((line || "").includes('지아마루') || (line || "").includes('하우스스타일') || (line || "").includes('지아')) {
         price = 48000;
       } else if ((line || "").includes('프레스티지') || (line || "").includes('프레시티지')) {
         price = (code || "").toUpperCase().startsWith('PTW') ? 86000 : 81000;
       } else if ((line || "").includes('데코레이')) {
         price = 0;
-      } else if ((line || "").includes('하우스스타일') || (line || "").includes('하우스')) {
+      } else if ((line || "").includes('하우스')) {
         price = 40000;
       }
     } else if (brand === '재영') {
-      price = is600 ? 28000 : 26000;
+      if ((line || "").includes('차음') || (line || "").includes('홈우드')) {
+        price = 0;
+      } else {
+        price = is600 ? 28000 : 26000;
+      }
     } else if (brand === '대진') {
       if ((line || "").includes('하우스')) {
         price = 40000;
