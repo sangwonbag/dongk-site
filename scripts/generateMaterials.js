@@ -254,6 +254,74 @@ groups.forEach((group, key) => {
     else if (t === '5.0T') price = 53000;
   }
 
+  // Override '데코타일' price for both existing and new products based on the approved price list
+  if (category === '데코타일') {
+    const is600 = (line || "").includes('600') || (code || "").includes('600') || (size || "").includes('600x600');
+    const isWood = (line || "").includes('우드') || (line || "").toLowerCase().includes('wood') || (code || "").includes('우드') || (code || "").toLowerCase().includes('wood') || (size || "").includes('187x935') || (size || "").includes('184x950');
+
+    if (brand === 'KCC') {
+      if ((line || "").includes('프로') || (code || "").startsWith('PS') || (code || "").startsWith('PW')) {
+        price = 35000;
+      } else {
+        price = is600 ? 28000 : 27000;
+      }
+    } else if (brand === '동신') {
+      if ((line || "").includes('OA타일') || (line || "").includes('O/A') || (code || "").toUpperCase().startsWith('OA')) {
+        price = 56000;
+      } else if ((line || "").includes('차음') || (line || "").includes('아트에코차음')) {
+        price = 56000;
+      } else if ((line || "").includes('아트하우스') || (line || "").includes('하우스')) {
+        price = 37000;
+      } else {
+        price = is600 ? 26000 : 25000;
+      }
+    } else if (brand === 'LX') {
+      if ((line || "").includes('보타닉')) {
+        price = 26000;
+      } else if ((line || "").includes('에코노플러스') || (line || "").includes('에코너')) {
+        price = 35000;
+      } else if ((line || "").includes('지아마루')) {
+        price = 48000;
+      } else if ((line || "").includes('프레스티지') || (line || "").includes('프레시티지')) {
+        price = (code || "").toUpperCase().startsWith('PTW') ? 86000 : 81000;
+      } else if ((line || "").includes('데코레이')) {
+        price = 0;
+      } else if ((line || "").includes('하우스스타일') || (line || "").includes('하우스')) {
+        price = 40000;
+      }
+    } else if (brand === '재영') {
+      price = is600 ? 28000 : 26000;
+    } else if (brand === '대진') {
+      if ((line || "").includes('하우스')) {
+        price = 40000;
+      } else {
+        price = is600 ? 29000 : 27000;
+      }
+    } else if (brand === '현대') {
+      if ((line || "").includes('클래식')) {
+        price = 35000;
+      } else if ((line || "").includes('마스터')) {
+        price = is600 ? 27000 : 26000;
+      } else if ((line || "").includes('디럭스')) {
+        const is3T = (thickness || "").includes('3.0T') || (thickness || "").includes('3T') || (code || "").includes('3T');
+        price = is3T ? 20000 : 26000;
+      }
+    } else if (brand === '유니') {
+      price = is600 ? 26000 : 25000;
+    } else if (brand === '녹수') {
+      if ((line || "").includes('에코홈2000') || (line || "").includes('2000')) {
+        price = 35000;
+      } else if ((line || "").includes('오키드3000') || (line || "").includes('3000')) {
+        price = 35000;
+      } else if ((line || "").includes('프라임1500') || (line || "").includes('1000') || (line || "").includes('1500')) {
+        price = 24000;
+      }
+    } else if (brand === '베스트') {
+      price = 23000;
+    }
+  }
+
+
   const productObj = {
     id,
     category,
