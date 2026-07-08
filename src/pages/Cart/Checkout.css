@@ -597,7 +597,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(15, 23, 42, 0.4);
+  background-color: rgba(44, 37, 32, 0.4);
   backdrop-filter: blur(4px);
   z-index: 1500;
   display: flex;
@@ -838,5 +838,464 @@
   .checkout-radio-label {
     min-height: 48px;
     height: auto;
+  }
+}
+
+/* --- Accessory Recommendations --- */
+.accessory-recommendation-card {
+  margin-top: 16px;
+  background-color: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  box-shadow: var(--shadow-sm);
+}
+
+.accessory-cat-section {
+  margin-bottom: 24px;
+  border-bottom: 1px dashed var(--border);
+  padding-bottom: 20px;
+}
+.accessory-cat-section:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.accessory-cat-section h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 14px;
+  padding-left: 8px;
+  border-left: 3px solid var(--point-gold);
+}
+
+.accessory-recommend-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.accessory-item-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-alt);
+  transition: var(--transition);
+  position: relative;
+}
+.accessory-item-card:hover {
+  border-color: var(--point-gold);
+}
+
+.accessory-thumb-box {
+  width: 100%;
+  height: 100px;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background-color: #ffffff;
+  margin-bottom: 8px;
+}
+.accessory-thumb-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.accessory-item-name {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 4px;
+  line-height: 1.35;
+}
+
+.accessory-item-price {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--point-gold);
+  margin-bottom: 8px;
+}
+
+.accessory-btn-group {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.btn-add-accessory-db {
+  width: 100%;
+  height: 32px;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: var(--primary);
+  color: #ffffff;
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.btn-add-accessory-db:hover {
+  background-color: var(--point-gold);
+}
+
+.btn-add-accessory-db.added {
+  background-color: var(--point-gold-light);
+  color: var(--point-gold-hover);
+  border: 1px solid var(--point-gold);
+  cursor: default;
+}
+
+.btn-request-consult-acc {
+  width: 100%;
+  height: 32px;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #ffffff;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.btn-request-consult-acc:hover {
+  border-color: var(--border-hover);
+  color: var(--primary);
+}
+
+.btn-request-consult-acc.active {
+  background-color: var(--point-gold-light);
+  border-color: var(--point-gold);
+  color: var(--point-gold-hover);
+}
+
+.acc-not-found-badge {
+  font-size: 11px;
+  background-color: #f3f4f6;
+  color: #6b7280;
+  border: 1px solid #e5e7eb;
+  padding: 4px 6px;
+  border-radius: var(--radius-sm);
+  text-align: center;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.accessory-skip-bar {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.btn-accessory-skip {
+  padding: 8px 16px;
+  background-color: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.btn-accessory-skip:hover {
+  border-color: var(--border-hover);
+  color: var(--primary);
+}
+
+
+/* --- Shipping Methods Grid --- */
+.delivery-methods-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.delivery-method-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 18px;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  text-align: left;
+}
+.delivery-method-card:hover:not(.disabled) {
+  border-color: var(--border-hover);
+  background-color: var(--bg-alt);
+}
+.delivery-method-card.active {
+  border-color: var(--point-gold);
+  background-color: var(--point-gold-light);
+  box-shadow: 0 0 0 1px var(--point-gold);
+}
+
+.delivery-method-card.disabled {
+  background-color: var(--bg-alt);
+  border-color: var(--border);
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.delivery-card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.delivery-card-header input[type="radio"] {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--point-gold);
+  cursor: inherit;
+}
+.delivery-card-header strong {
+  font-size: 15px;
+  color: var(--primary);
+}
+
+.delivery-card-body {
+  font-size: 12.5px;
+  color: var(--text-muted);
+  line-height: 1.45;
+}
+
+.delivery-card-badge {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+  align-self: flex-start;
+}
+.delivery-card-badge.gold { background-color: var(--point-gold); color: #ffffff; }
+.delivery-card-badge.gray { background-color: #6b7280; color: #ffffff; }
+.delivery-card-badge.info { background-color: var(--info); color: #ffffff; }
+
+.delivery-disabled-reason {
+  font-size: 11px;
+  color: var(--danger);
+  margin-top: 4px;
+  font-weight: 600;
+}
+
+
+/* --- Cargo Branch Selector --- */
+.freight-branch-selector-box {
+  margin-top: 14px;
+  border-top: 1px dashed var(--border);
+  padding-top: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.freight-branch-selector-box label {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--primary);
+}
+.freight-branch-inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.freight-branch-inputs.full {
+  grid-template-columns: 1fr;
+}
+.freight-branch-inputs input {
+  height: 38px !important;
+  font-size: 12.5px !important;
+}
+
+.btn-select-branch-trigger {
+  height: 38px;
+  background-color: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  color: var(--text-muted);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: var(--transition);
+}
+.btn-select-branch-trigger:hover {
+  border-color: var(--border-hover);
+  color: var(--primary);
+  background-color: var(--bg-alt);
+}
+
+.branch-selector-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.branch-selector-modal {
+  background-color: #ffffff;
+  border-radius: var(--radius-lg);
+  width: 100%;
+  max-width: 460px;
+  box-shadow: var(--shadow-xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.branch-modal-header {
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.branch-modal-header h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 0;
+}
+.btn-close-branch-modal {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  color: var(--text-light);
+}
+
+.branch-modal-body {
+  padding: 16px;
+  max-height: 380px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.branch-search-input {
+  height: 38px !important;
+  font-size: 13px !important;
+  margin-bottom: 10px;
+}
+
+.branch-option-item {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 12px;
+  background-color: var(--bg-alt);
+  cursor: pointer;
+  transition: var(--transition);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.branch-option-item:hover {
+  border-color: var(--point-gold);
+  background-color: #ffffff;
+}
+.branch-option-item strong {
+  font-size: 13.5px;
+  color: var(--primary);
+}
+.delivery-card-desc {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.delivery-info-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-bottom: 4px;
+  border-bottom: 1px dotted rgba(0,0,0,0.05);
+  padding-bottom: 4px;
+}
+
+.delivery-info-item .info-label {
+  color: var(--text-light);
+  font-weight: 500;
+}
+
+.delivery-info-item .info-val {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.delivery-info-item .info-val.text-free {
+  color: #10b981;
+}
+
+.delivery-info-item .info-val.text-warning {
+  color: #f59e0b;
+}
+
+.delivery-status-note {
+  font-size: 11px;
+  color: var(--text-light);
+  margin-top: 6px;
+  display: block;
+}
+
+.free-shipping-badge-box {
+  background-color: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: var(--radius-md);
+  padding: 8px 12px;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-align: left;
+}
+
+.free-shipping-badge-box .badge-title {
+  font-size: 11px;
+  font-weight: 700;
+  color: #15803d;
+}
+
+.free-shipping-badge-box .badge-text {
+  font-size: 11.5px;
+  color: #166534;
+  font-weight: 600;
+}
+
+.free-shipping-badge-box .badge-text.text-address {
+  font-size: 11px;
+  color: #15803d;
+  font-weight: 500;
+  margin-top: 2px;
+  border-top: 1px dashed rgba(22, 101, 52, 0.15);
+  padding-top: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 768px) {
+  .delivery-methods-grid {
+    grid-template-columns: 1fr;
+  }
+  .freight-branch-inputs {
+    grid-template-columns: 1fr;
   }
 }

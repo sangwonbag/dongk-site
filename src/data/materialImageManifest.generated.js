@@ -7921,33 +7921,6 @@ export const imageManifest = [
     "normalizedFileName": "소프트웨이브png"
   },
   {
-    "fileName": "모로칸 크림.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EA%B5%AC%EC%A0%95/%EC%98%A4%EB%B8%8C%20%EC%9B%94/%EB%AA%A8%EB%A1%9C%EC%B9%B8%20%ED%81%AC%EB%A6%BC.jpg",
-    "category": "마루",
-    "brand": "구정",
-    "series": "오브 월",
-    "extractedCode": "모로칸 크림",
-    "normalizedFileName": "모로칸크림jpg"
-  },
-  {
-    "fileName": "웜 브리즈.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EA%B5%AC%EC%A0%95/%EC%98%A4%EB%B8%8C%20%EC%9B%94/%EC%9B%9C%20%EB%B8%8C%EB%A6%AC%EC%A6%88.jpg",
-    "category": "마루",
-    "brand": "구정",
-    "series": "오브 월",
-    "extractedCode": "웜 브리즈",
-    "normalizedFileName": "웜브리즈jpg"
-  },
-  {
-    "fileName": "젠틀판타지.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EA%B5%AC%EC%A0%95/%EC%98%A4%EB%B8%8C%20%EC%9B%94/%EC%A0%A0%ED%8B%80%ED%8C%90%ED%83%80%EC%A7%80.jpg",
-    "category": "마루",
-    "brand": "구정",
-    "series": "오브 월",
-    "extractedCode": "젠틀판타지",
-    "normalizedFileName": "젠틀판타지jpg"
-  },
-  {
     "fileName": "리얼 블랙 오크.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EA%B5%AC%EC%A0%95/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%85%B8%EB%B8%94%EB%A0%88%EC%8A%A4/%EB%A6%AC%EC%96%BC%20%EB%B8%94%EB%9E%99%20%EC%98%A4%ED%81%AC.png",
     "category": "마루",

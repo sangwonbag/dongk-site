@@ -566,7 +566,7 @@ export default function EstimateRequest() {
                     onClick={handleAddressSearch}
                     style={{
                       padding: '10px 18px',
-                      backgroundColor: '#0f172a',
+                      backgroundColor: 'var(--primary)',
                       color: '#ffffff',
                       border: 'none',
                       borderRadius: '6px',

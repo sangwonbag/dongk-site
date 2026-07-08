@@ -49,7 +49,21 @@ const extractDeliveryDateAndTime = (memo) => {
     cleanMemo = cleanMemo.replace(/\[희망시간:\s*[^\]]+\]/, "").trim();
   }
 
+  const accessoryMatch = cleanMemo.match(/\[상담요청 부자재\]\s*([^\n]+)/);
+  if (accessoryMatch) {
+    cleanMemo = cleanMemo.replace(/\[상담요청 부자재\].*$/m, "").trim();
+  }
+
   return { cleanMemo, deliveryDate, deliveryTime };
+};
+
+const extractCustomAccessories = (memo) => {
+  if (!memo) return [];
+  const match = memo.match(/\[상담요청 부자재\]\s*([^\n]+)/);
+  if (match) {
+    return match[1].split(',').map(s => s.trim());
+  }
+  return [];
 };
 
 // 헬퍼 함수: 미확인 여부 확인 (status가 "접수완료"이면서 admin_checked가 true가 아닌 경우)
@@ -546,6 +560,11 @@ ${itemsDetailText}
             <span className="order-date">{formatDate(order.created_at)}</span>
             <div className="badges-row">
               {order.status === "접수완료" && <span className="badge-new-order">신규</span>}
+              <span className={`badge-delivery-method-summary ${order.delivery_method || 'cargo'}`}>
+                {order.delivery_method === "free_shipping" ? "무료배송" :
+                 order.delivery_method === "quick" ? "퀵 요청" :
+                 order.delivery_method === "pickup" ? "직접 수령" : "대신화물"}
+              </span>
               {isUnchecked(order) ? (
                 <span className="badge-unchecked-card">미확인</span>
               ) : (
@@ -695,6 +714,101 @@ ${itemsDetailText}
                     </div>
                   </div>
                 ))}
+              </div>
+            </div>
+ 
+            {/* 2.5 배송 방식 및 부자재 정보 */}
+            <div className="info-block-delivery-details">
+              <h4>배송 방식 및 부자재 정보</h4>
+              <div className="delivery-details-grid">
+                <div className="details-row">
+                  <span className="details-label">배송 방식</span>
+                  <span className="details-val">
+                    <span className={`badge-delivery-method-detail ${order.delivery_method || 'cargo'}`}>
+                      {order.delivery_method_label || "대신화물 지점 배송"}
+                    </span>
+                  </span>
+                </div>
+                
+                {order.delivery_method === "free_shipping" && (
+                  <div className="details-row highlight-green">
+                    <span className="details-label">무료배송 조건</span>
+                    <span className="details-val">
+                      동일 브랜드 데코타일 50평 이상 충족 (<strong>{order.free_shipping_brand || '기타'}</strong> 브랜드 합계 <strong>{order.free_shipping_area || 0}</strong>평)
+                    </span>
+                  </div>
+                )}
+
+                {order.delivery_method === "cargo" && (
+                  <div className="details-row highlight-orange">
+                    <span className="details-label">대신화물 지점</span>
+                    <span className="details-val">
+                      {order.freight_branch_name ? (
+                        <strong>{order.freight_branch_name} ({order.freight_branch_address} / 연락처: {order.freight_branch_phone})</strong>
+                      ) : (
+                        "지점 미선택 (가장 가까운 지점 자동 배정)"
+                      )}
+                    </span>
+                  </div>
+                )}
+
+                {order.delivery_method === "quick" && (
+                  <div className="details-row highlight-red">
+                    <span className="details-label">당일 퀵 요청</span>
+                    <span className="details-val">당일 퀵 배송 요청됨 (운임 비용 별도 안내 필요)</span>
+                  </div>
+                )}
+
+                {order.delivery_method === "pickup" && (
+                  <div className="details-row highlight-blue">
+                    <span className="details-label">방문 직접수령</span>
+                    <span className="details-val">하남 사무실 직접 방문 수령 예정</span>
+                  </div>
+                )}
+
+                <div className="details-row">
+                  <span className="details-label">배송지 주소</span>
+                  <span className="details-val">{order.shipping_address || order.address || "주소 없음"}</span>
+                </div>
+
+                <div className="details-row">
+                  <span className="details-label">부자재 안내</span>
+                  <span className="details-val">
+                    {order.accessory_recommendation_shown ? (
+                      order.accessory_recommendation_skipped ? (
+                        <span className="badge-acc-status skipped">부자재 추천 건너뜀 (부자재 없음)</span>
+                      ) : (
+                        <span className="badge-acc-status added">부자재 추천 노출 & 상품 확인 완료</span>
+                      )
+                    ) : (
+                      <span className="badge-acc-status not-shown">부자재 추천 미노출</span>
+                    )}
+                  </span>
+                </div>
+
+                {(() => {
+                  const customAccList = extractCustomAccessories(order.memo);
+                  const hasDbAcc = order.order_items?.some(item => item.category === "부자재");
+                  if (!hasDbAcc && customAccList.length === 0) return null;
+
+                  return (
+                    <div className="details-row">
+                      <span className="details-label">추가 부자재 목록</span>
+                      <div className="details-val accessory-badges-container">
+                        {order.order_items?.filter(item => item.category === "부자재").map(item => (
+                          <span key={item.id} className="badge-accessory-inline">
+                            {item.product_name} ({item.quantity}개)
+                          </span>
+                        ))}
+                        {customAccList.map(name => (
+                          <span key={name} className="badge-accessory-inline badge-accessory-consult" style={{ backgroundColor: '#fff7ed', color: '#ea580c', borderColor: '#ffedd5' }}>
+                            {name} (상담요청)
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  );
+                })()}
               </div>
             </div>
 

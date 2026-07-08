@@ -5,6 +5,7 @@ import { getComputedBrand, getMaterialTypeAndLine } from "../../utils/brandUtils
 import { getSearchScore } from "../../utils/searchUtils";
 import MaterialCard from "../../components/material/MaterialCard";
 import { fetchFilteredProducts, fetchAllProducts } from "../../utils/supabaseFetcher";
+import { Skeleton, EmptyState, ErrorState } from "../../components/ui";
 import "./Materials.css";
 import "./MaterialsPageSkeleton.css";
 
@@ -371,42 +372,31 @@ export default function Materials() {
 
   // Error View
   if (error) {
+    const handleRetry = () => {
+      setError(null);
+      setLoading(true);
+      fetchFilteredProducts({
+        category: activeTab,
+        brand: activeBrand,
+        searchText: searchText
+      }).then(data => {
+        setMaterialsList(data);
+        setLoading(false);
+      }).catch(err => {
+        setError(err.message || String(err));
+        setLoading(false);
+      });
+    };
+
     return (
       <MainLayout>
-        <div className="container" style={{ padding: "100px 0", textAlign: "center", fontSize: "16px" }}>
-          <h2 style={{ color: "#d9534f" }}>자료를 불러오지 못했습니다.</h2>
-          <p style={{ marginTop: "10px", fontSize: "14px", color: "#6B6B6B" }}>
-            <strong>오류 내용:</strong> {error}
-          </p>
-          <button 
-            onClick={() => {
-              setError(null);
-              setLoading(true);
-              fetchFilteredProducts({
-                category: activeTab,
-                brand: activeBrand,
-                searchText: searchText
-              }).then(data => {
-                setMaterialsList(data);
-                setLoading(false);
-              }).catch(err => {
-                setError(err.message || String(err));
-                setLoading(false);
-              });
-            }}
-            style={{
-              marginTop: "20px",
-              padding: "10px 20px",
-              backgroundColor: "#4f46e5",
-              color: "#ffffff",
-              border: "none",
-              borderRadius: "8px",
-              fontWeight: "600",
-              cursor: "pointer"
-            }}
-          >
-            다시 시도
-          </button>
+        <div className="container" style={{ padding: "100px 0" }}>
+          <ErrorState 
+            title="자료를 불러오지 못했습니다" 
+            message={error} 
+            retryLabel="다시 시도" 
+            onRetry={handleRetry} 
+          />
         </div>
       </MainLayout>
     );
@@ -564,16 +554,18 @@ export default function Materials() {
             {loading ? (
               <div className="materials-grid">
                 {Array.from({ length: 8 }).map((_, idx) => (
-                  <div key={idx} className="material-card-skeleton">
-                    <div className="card-thumb-skeleton skeleton-shimmer" />
-                    <div className="card-info-skeleton">
-                      <div className="skeleton-line-meta skeleton-shimmer" />
-                      <div className="skeleton-line-title skeleton-shimmer" />
-                      <div className="skeleton-line-spec skeleton-shimmer" />
-                      <div className="skeleton-line-price skeleton-shimmer" />
-                      <div className="skeleton-buttons">
-                        <div className="skeleton-button skeleton-shimmer" />
-                        <div className="skeleton-button skeleton-shimmer" />
+                  <div key={idx} className="material-card-skeleton" style={{ border: '1px solid var(--border)', borderRadius: 'var(--radius-md)', overflow: 'hidden' }}>
+                    <div className="card-thumb-skeleton" style={{ overflow: 'hidden', position: 'relative', height: '200px' }}>
+                      <Skeleton height="100%" />
+                    </div>
+                    <div className="card-info-skeleton" style={{ padding: '16px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                      <Skeleton width="40%" height="12px" />
+                      <Skeleton width="80%" height="18px" />
+                      <Skeleton width="60%" height="14px" />
+                      <Skeleton width="50%" height="16px" />
+                      <div className="skeleton-buttons" style={{ display: 'flex', gap: '8px', marginTop: '12px' }}>
+                        <Skeleton height="34px" />
+                        <Skeleton height="34px" />
                       </div>
                     </div>
                   </div>
@@ -599,9 +591,10 @@ export default function Materials() {
                 )}
               </>
             ) : (
-              <div className="no-results">
-                {searchText ? `"${searchText}"에 대한 검색 결과가 없습니다.` : "선택하신 카테고리 및 브랜드의 상품이 준비 중입니다."}
-              </div>
+              <EmptyState
+                title="검색 결과가 없습니다"
+                description={searchText ? `"${searchText}"에 부합하는 자재가 없거나 현재 준비 중입니다.` : "선택하신 분류 및 브랜드의 자재가 준비 중입니다."}
+              />
             )}
           </div>
         </main>

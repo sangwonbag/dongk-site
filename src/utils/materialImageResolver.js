@@ -156,34 +156,7 @@ export function resolveMaterialImage(material) {
     }
   }
 
-  // 4th Priority: Same brand + same lineup + same design name (representative image fallback)
-  const targetDesign = extractDesignName(matName);
-  const targetLine = material.line || '';
-  if (targetDesign) {
-    const normDesign = normalizeMaterialCode(targetDesign);
-    const matchedByDesign = scopedImages.find(img => {
-      const normFileName = normalizeMaterialCode(img.fileName);
-      const normSeries = normalizeMaterialCode(img.series);
-      
-      const designMatches = normFileName.includes(normDesign) || normSeries.includes(normDesign);
-      if (targetLine) {
-        const normLine = normalizeMaterialCode(targetLine);
-        const lineMatches = normFileName.includes(normLine) || normSeries.includes(normLine);
-        return designMatches && lineMatches;
-      }
-      return designMatches;
-    });
-
-    if (matchedByDesign) {
-      return {
-        src: matchedByDesign.fullPublicPath,
-        alt: `${altText} (대표 이미지)`,
-        isPlaceholder: false,
-        isRepresentativeImage: true,
-        matchReason: 'representative-design'
-      };
-    }
-  }
+  // 4th Priority: Fallback to placeholder image (representative fallback disabled per strict matching request)
 
   // 5th Priority: Fallback to placeholder image
   return {

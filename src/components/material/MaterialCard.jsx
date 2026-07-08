@@ -6,6 +6,7 @@ import { useAuth } from '../../contexts/AuthContext';
 import { getThumbnailImage } from '../../utils/galleryUtils';
 import { getMaterialImagePath } from '../../utils/materialImageResolver';
 import { getComputedBrand } from '../../utils/brandUtils';
+import { Skeleton, ImagePlaceholder } from '../ui';
 import './MaterialCard.css';
 
 const MaterialCard = ({ material }) => {
@@ -183,7 +184,11 @@ const MaterialCard = ({ material }) => {
     return (
         <div className="material-card" onClick={() => handleGoDetail()}>
             <div className="card-thumb">
-                {!imgLoaded && <div className="card-image-skeleton-loader skeleton-shimmer" />}
+                {!imgLoaded && (
+                    <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 1 }}>
+                        <Skeleton height="100%" radius="0" />
+                    </div>
+                )}
                 <img
                     className="material-thumb"
                     src={coverUrl || "/images/no-image.svg"}
@@ -199,8 +204,8 @@ const MaterialCard = ({ material }) => {
                 />
                 
                 {(!coverUrl || coverUrl === "/images/no-image.svg") && (
-                    <div className="card-image-placeholder-overlay">
-                        <span>이미지 준비중<br /><small style={{ fontSize: '10px', fontWeight: '500', opacity: 0.8 }}>상품코드 기준 이미지 확인 필요</small></span>
+                    <div className="card-image-placeholder-overlay" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}>
+                        <ImagePlaceholder />
                     </div>
                 )}
 

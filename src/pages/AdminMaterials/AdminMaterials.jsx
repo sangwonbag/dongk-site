@@ -5,6 +5,7 @@ import { supabase } from '../../lib/supabaseClient';
 import { fetchAllProducts, clearProductCache } from '../../utils/supabaseFetcher';
 import { useAuth } from '../../contexts/AuthContext';
 import { ArrowLeft, Plus, Search, Edit2, Trash2, Save, X, Upload, Layers, Image as ImageIcon, Loader2 } from 'lucide-react';
+import { LoadingSpinner, EmptyState } from '../../components/ui';
 import './AdminMaterials.css';
 
 export default function AdminMaterials() {
@@ -532,16 +533,12 @@ export default function AdminMaterials() {
 
         {/* Materials Table Grid */}
         {loading ? (
-          <div className="materials-loading">
-            <div className="spinner-loader"></div>
-            <p>자재 데이터베이스를 조회하고 있습니다...</p>
-          </div>
+          <LoadingSpinner message="자재 데이터베이스를 조회하고 있습니다..." />
         ) : filteredProducts.length === 0 ? (
-          <div className="materials-empty-state">
-            <ImageIcon size={40} className="icon-empty" />
-            <h3>등록된 자재가 없습니다.</h3>
-            <p>필터 조건을 확인하거나 우측 상단의 '자재 등록' 버튼을 눌러 첫 항목을 등록해보세요.</p>
-          </div>
+          <EmptyState 
+            title="등록된 자재가 없습니다" 
+            description="필터 조건을 확인하거나 우측 상단의 '자재 등록' 버튼을 눌러 첫 항목을 등록해보세요." 
+          />
         ) : (
           <div className="admin-materials-table-wrapper">
             <div className="table-header-info">

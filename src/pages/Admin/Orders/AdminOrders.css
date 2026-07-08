@@ -831,7 +831,166 @@
     box-shadow: 0 0 8px rgba(212, 163, 89, 0.2);
   }
   100% {
-    border-color: #4f46e5;
+    border-color: var(--primary);
     box-shadow: 0 0 22px rgba(79, 70, 229, 0.5);
+  }
+}
+
+/* Delivery Method Badges & Details */
+.badge-delivery-method-summary {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+}
+.badge-delivery-method-summary.free_shipping {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: var(--success);
+}
+.badge-delivery-method-summary.cargo {
+  background-color: rgba(245, 158, 11, 0.1);
+  color: var(--warning);
+}
+.badge-delivery-method-summary.quick {
+  background-color: rgba(239, 68, 68, 0.1);
+  color: var(--danger);
+}
+.badge-delivery-method-summary.pickup {
+  background-color: rgba(59, 130, 246, 0.1);
+  color: var(--info);
+}
+
+.badge-delivery-method-detail {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+}
+.badge-delivery-method-detail.free_shipping {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: var(--success);
+  border: 1px solid var(--success);
+}
+.badge-delivery-method-detail.cargo {
+  background-color: rgba(245, 158, 11, 0.1);
+  color: var(--warning);
+  border: 1px solid var(--warning);
+}
+.badge-delivery-method-detail.quick {
+  background-color: rgba(239, 68, 68, 0.1);
+  color: var(--danger);
+  border: 1px solid var(--danger);
+}
+.badge-delivery-method-detail.pickup {
+  background-color: rgba(59, 130, 246, 0.1);
+  color: var(--info);
+  border: 1px solid var(--info);
+}
+
+.info-block-delivery-details {
+  grid-column: span 3;
+  margin-top: 16px;
+  border-top: 1px solid var(--border);
+  padding-top: 20px;
+}
+
+.delivery-details-grid {
+  background-color: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.details-row {
+  display: flex;
+  font-size: 13px;
+  line-height: 1.5;
+  border-bottom: 1px solid var(--bg-alt);
+  padding-bottom: 8px;
+}
+.details-row:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.details-row.highlight-green {
+  background-color: rgba(16, 185, 129, 0.05);
+  border: 1px solid rgba(16, 185, 129, 0.15);
+  border-radius: var(--radius-sm);
+  padding: 8px 12px;
+}
+.details-row.highlight-orange {
+  background-color: rgba(245, 158, 11, 0.05);
+  border: 1px solid rgba(245, 158, 11, 0.15);
+  border-radius: var(--radius-sm);
+  padding: 8px 12px;
+}
+.details-row.highlight-red {
+  background-color: rgba(239, 68, 68, 0.05);
+  border: 1px solid rgba(239, 68, 68, 0.15);
+  border-radius: var(--radius-sm);
+  padding: 8px 12px;
+}
+.details-row.highlight-blue {
+  background-color: rgba(59, 130, 246, 0.05);
+  border: 1px solid rgba(59, 130, 246, 0.15);
+  border-radius: var(--radius-sm);
+  padding: 8px 12px;
+}
+
+.details-label {
+  width: 120px;
+  color: var(--text-muted);
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.details-val {
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.badge-acc-status {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+}
+.badge-acc-status.added {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: var(--success);
+}
+.badge-acc-status.skipped {
+  background-color: rgba(107, 114, 128, 0.1);
+  color: var(--text-muted);
+}
+.badge-acc-status.not-shown {
+  background-color: var(--bg-alt);
+  color: var(--text-light);
+}
+
+.accessory-badges-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.badge-accessory-inline {
+  background-color: var(--bg-alt);
+  border: 1px solid var(--border);
+  color: var(--primary);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+}
+
+@media (max-width: 991px) {
+  .info-block-delivery-details {
+    grid-column: span 1;
   }
 }

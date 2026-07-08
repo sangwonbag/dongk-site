@@ -33,7 +33,7 @@
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  background-color: #e2e8f0;
+  background-color: var(--border);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,7 +79,7 @@
   height: 2px;
   flex-grow: 1;
   max-width: 120px;
-  background-color: #e2e8f0;
+  background-color: var(--border);
   margin: 0 16px;
   transition: all 0.3s ease;
 }

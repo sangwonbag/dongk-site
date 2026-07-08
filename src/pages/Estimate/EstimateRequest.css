@@ -651,8 +651,8 @@
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  background-color: rgba(40, 167, 69, 0.1);
-  color: #28a745;
+  background-color: rgba(46, 125, 50, 0.1);
+  color: var(--success);
   margin-bottom: 24px;
 }
 

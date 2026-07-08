@@ -1,0 +1,37 @@
+.ui-empty-state-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 56px 24px;
+  background-color: var(--bg-card);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-lg);
+  max-width: 500px;
+  margin: 32px auto;
+}
+
+.ui-empty-icon-box {
+  margin-bottom: 16px;
+  opacity: 0.85;
+}
+
+.ui-empty-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 0 0 8px 0;
+}
+
+.ui-empty-desc {
+  font-size: 13.5px;
+  color: var(--text-muted);
+  margin: 0 0 20px 0;
+  line-height: 1.5;
+}
+
+.ui-empty-action-btn {
+  font-size: 13.5px;
+  padding: 8px 20px;
+}

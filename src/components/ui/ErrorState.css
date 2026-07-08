@@ -1,0 +1,41 @@
+.ui-error-banner-alert {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 20px;
+  background-color: rgba(198, 40, 40, 0.04);
+  border: 1px solid rgba(198, 40, 40, 0.15);
+  border-radius: var(--radius-md);
+  margin: 20px 0;
+  text-align: left;
+}
+
+.ui-error-icon-alert {
+  color: var(--danger);
+  flex-shrink: 0;
+}
+
+.ui-error-content-wrapper {
+  flex-grow: 1;
+}
+
+.ui-error-title-alert {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--danger);
+  margin: 0 0 2px 0;
+}
+
+.ui-error-message-alert {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.ui-error-retry-action-btn {
+  font-size: 12.5px;
+  padding: 6px 12px;
+  white-space: nowrap;
+  background-color: #ffffff;
+}

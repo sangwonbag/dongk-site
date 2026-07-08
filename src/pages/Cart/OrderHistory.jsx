@@ -4,6 +4,7 @@ import MainLayout from "../../components/layout/MainLayout";
 import { getCurrentUser } from "../../lib/auth";
 import { getMyOrders } from "../../services/orderService";
 import { ChevronDown, ChevronUp, Package, Calendar, CreditCard, ClipboardList } from "lucide-react";
+import { LoadingSpinner, ErrorState, EmptyState } from "../../components/ui";
 import "./OrderHistory.css";
 
 export default function OrderHistory() {
@@ -119,20 +120,21 @@ export default function OrderHistory() {
         </div>
 
         {loading ? (
-          <div className="orders-loading">주문 내역을 불러오고 있습니다...</div>
+          <LoadingSpinner message="주문 내역을 불러오고 있습니다..." />
         ) : errorMsg ? (
-          <div className="orders-error-card">
-            <p>{errorMsg}</p>
-            <button className="btn-retry" onClick={fetchOrders}>다시 시도</button>
-          </div>
+          <ErrorState 
+            title="주문 내역 로드 실패" 
+            message={errorMsg} 
+            retryLabel="다시 시도" 
+            onRetry={fetchOrders} 
+          />
         ) : orders.length === 0 ? (
-          <div className="orders-empty-state">
-            <ClipboardList size={48} className="empty-icon" />
-            <p>접수된 주문 내역이 없습니다.</p>
-            <button onClick={() => navigate("/materials")} className="btn-shop-link">
-              자재 보러가기
-            </button>
-          </div>
+          <EmptyState 
+            title="접수된 주문 내역이 없습니다" 
+            description="동경바닥재 자재 찾기 센터에서 원하시는 제품을 담아보세요." 
+            actionLabel="자재 보러가기"
+            onAction={() => navigate("/materials")}
+          />
         ) : (
           <div className="orders-list">
             {orders.map((order) => {

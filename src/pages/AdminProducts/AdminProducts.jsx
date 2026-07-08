@@ -8,6 +8,7 @@ import {
   ArrowLeft, Plus, Search, Edit2, Trash2, Save, X, Upload, 
   Eye, EyeOff, Star, StarOff, Image as ImageIcon, Loader2, RefreshCw
 } from 'lucide-react';
+import { LoadingSpinner, EmptyState } from '../../components/ui';
 import './AdminProducts.css';
 
 export default function AdminProducts() {
@@ -428,16 +429,12 @@ export default function AdminProducts() {
         </div>
 
         {loading ? (
-          <div className="products-loading">
-            <Loader2 className="spin" size={32} />
-            <p>상품 목록을 가져오고 있습니다...</p>
-          </div>
+          <LoadingSpinner message="상품 목록을 가져오고 있습니다..." />
         ) : filteredProducts.length === 0 ? (
-          <div className="products-empty-state">
-            <ImageIcon size={48} className="icon-empty" />
-            <h3>검색되거나 등록된 상품이 없습니다.</h3>
-            <p>필터 조건을 초기화하거나 우측 상단 '상품 등록'을 눌러 첫 판매 상품을 선적해 보세요.</p>
-          </div>
+          <EmptyState 
+            title="검색되거나 등록된 상품이 없습니다" 
+            description="필터 조건을 초기화하거나 우측 상단 '상품 등록'을 눌러 첫 판매 상품을 등록해 보세요." 
+          />
         ) : (
           <div className="admin-products-grid">
             {filteredProducts.slice(0, visibleCount).map(p => (

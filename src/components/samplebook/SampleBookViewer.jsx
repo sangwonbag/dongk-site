@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { PdfUnavailable } from "../ui";
 import "./SampleBookViewer.css";
 
 export default function SampleBookViewer({ book, onClose }) {
@@ -60,8 +61,11 @@ export default function SampleBookViewer({ book, onClose }) {
             )}
           </div>
         ) : (
-          <div className="sb-empty-state">
-            <p>이 샘플북은 미리보기 이미지가 없습니다.</p>
+          <div className="sb-empty-state" style={{ padding: '24px', display: 'flex', justifyContent: 'center' }}>
+            <PdfUnavailable 
+              title="미리보기 준비 중" 
+              message="해당 샘플북의 온라인 카탈로그/미리보기가 준비되지 않았습니다." 
+            />
           </div>
         )}
       </div>

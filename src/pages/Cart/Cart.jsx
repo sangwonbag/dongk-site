@@ -4,6 +4,7 @@ import MainLayout from "../../components/layout/MainLayout";
 import { useEstimateCart } from "../../contexts/EstimateCartContext";
 import { useAuth } from "../../contexts/AuthContext";
 import { Trash2, Plus, Minus, ArrowLeft, ShoppingBag } from "lucide-react";
+import { EmptyState } from "../../components/ui";
 import "./Cart.css";
 
 export default function Cart() {
@@ -99,17 +100,12 @@ export default function Cart() {
         </div>
 
         {totalItemsCount === 0 ? (
-          /* 빈 장바구니 화면 */
-          <div className="empty-cart-container">
-            <div className="empty-cart-icon">
-              <ShoppingBag size={64} strokeWidth={1.2} />
-            </div>
-            <h2 className="empty-cart-title">장바구니에 담긴 자재가 없습니다.</h2>
-            <p className="empty-cart-desc">다양한 규격의 데코타일 및 친환경 바닥재를 담아보세요.</p>
-            <button className="btn-go-shopping" onClick={() => nav("/materials")}>
-              자재 보러가기
-            </button>
-          </div>
+          <EmptyState 
+            title="장바구니에 담긴 자재가 없습니다" 
+            description="다양한 브랜드와 규격의 고품질 데코타일, 장판, 친환경 바닥재를 담아보세요." 
+            actionLabel="자재 보러가기"
+            onAction={() => nav("/materials")}
+          />
         ) : (
           <>
             {/* 상단 요약 바 */}

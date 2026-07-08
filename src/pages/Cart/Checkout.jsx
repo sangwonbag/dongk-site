@@ -5,6 +5,8 @@ import { useEstimateCart } from "../../contexts/EstimateCartContext";
 import { useAuth } from "../../contexts/AuthContext";
 import { createOrder } from "../../services/orderService";
 import { sendOrderNotification } from "../../services/notificationService";
+import { OFFICE_ADDRESS, OFFICE_PHONE } from "../../constants/contact";
+import { fetchAllProducts } from "../../utils/supabaseFetcher";
 import "./Checkout.css";
 
 const DELIVERY_TIME_OPTIONS = [
@@ -20,7 +22,8 @@ export default function Checkout() {
     cartItems: globalCartItems, 
     clearCart, 
     getPendingDirectOrder, 
-    removePendingDirectOrder 
+    removePendingDirectOrder,
+    addToCart
   } = useEstimateCart();
   const { user, openLoginModal } = useAuth();
 
@@ -49,6 +52,191 @@ export default function Checkout() {
   const [loading, setLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState("");
   const [isOrderSuccess, setIsOrderSuccess] = useState(false);
+
+  // --- B2B 배송 방식 및 부자재 추가 상태 ---
+  const CARGO_BRANCHES = [
+    { name: "대신화물 하남지점", address: "경기 하남시 서하남로 42", phone: "02-421-2321" },
+    { name: "대신화물 성남지점", address: "경기 성남시 중원구 둔촌대로 100", phone: "031-744-1212" },
+    { name: "대신화물 남양주지점", address: "경기 남양주시 일패동 15", phone: "031-591-3211" },
+    { name: "대신화물 일산지점", address: "경기 고양시 일산동구 99", phone: "031-901-2211" },
+    { name: "대신화물 인천지점", address: "인천 서구 백범로 200", phone: "032-581-9988" },
+    { name: "대신화물 부산사상지점", address: "부산 사상구 대동로 300", phone: "051-311-8844" },
+    { name: "대신화물 대구서구지점", address: "대구 서구 와룡로 500", phone: "053-561-3311" },
+    { name: "대신화물 대전대덕지점", address: "대전 대덕구 대화로 12", phone: "042-622-1212" },
+    { name: "대신화물 광주서구지점", address: "광주 서구 무진대로 23", phone: "062-361-9988" }
+  ];
+
+  const [allDbProducts, setAllDbProducts] = useState([]);
+  
+  // sessionStorage-backed states for persistence on refresh
+  const [deliveryMethod, setDeliveryMethod] = useState(() => {
+    return sessionStorage.getItem("checkout_delivery_method") || "cargo";
+  });
+  const [freightBranch, setFreightBranch] = useState(() => {
+    const saved = sessionStorage.getItem("checkout_freight_branch");
+    return saved ? JSON.parse(saved) : { name: "", address: "", phone: "" };
+  });
+  const [customAccessories, setCustomAccessories] = useState(() => {
+    const saved = sessionStorage.getItem("checkout_custom_accessories");
+    return saved ? JSON.parse(saved) : [];
+  });
+  
+  const [showBranchModal, setShowBranchModal] = useState(false);
+  const [branchSearch, setBranchSearch] = useState("");
+
+  // Sync sessionStorage whenever state changes
+  useEffect(() => {
+    sessionStorage.setItem("checkout_delivery_method", deliveryMethod);
+  }, [deliveryMethod]);
+
+  useEffect(() => {
+    sessionStorage.setItem("checkout_freight_branch", JSON.stringify(freightBranch));
+  }, [freightBranch]);
+
+  useEffect(() => {
+    sessionStorage.setItem("checkout_custom_accessories", JSON.stringify(customAccessories));
+  }, [customAccessories]);
+
+  // DB 부자재 상품 실시간 검색 적재
+  useEffect(() => {
+    async function loadDb() {
+      try {
+        const prod = await fetchAllProducts();
+        setAllDbProducts(prod || []);
+      } catch (e) {
+        console.warn("DB products load failed, falling back to local search:", e);
+      }
+    }
+    loadDb();
+  }, []);
+
+  // Helper to calculate actual pyeong based on packing unit, option specs, etc.
+  const getProductPyeong = (item) => {
+    if (!item) return 0;
+    
+    // Priority 1: Check if there's a stored pyeong or area property
+    if (item.pyeong !== undefined && item.pyeong !== null && !isNaN(parseFloat(item.pyeong))) {
+      return parseFloat(item.pyeong) * (parseInt(item.quantity) || 1);
+    }
+    if (item.area !== undefined && item.area !== null && !isNaN(parseFloat(item.area))) {
+      return parseFloat(item.area) * (parseInt(item.quantity) || 1);
+    }
+
+    // Priority 2: Extract from package or packing info (e.g. "12pcs / 3.15㎡" or "1박스당 1평(약 3.3㎡)")
+    const packingStr = item.packing || item.package || (item.specs && item.specs.packing) || "";
+    if (packingStr) {
+      // Look for ㎡ pattern (e.g., 3.15㎡, 3.3㎡)
+      const m2Match = packingStr.match(/(\d+(?:\.\d+)?)\s*㎡/);
+      if (m2Match) {
+        const m2Val = parseFloat(m2Match[1]);
+        if (!isNaN(m2Val) && m2Val > 0) {
+          const pyeongPerBox = m2Val * 0.3025;
+          return pyeongPerBox * (parseInt(item.quantity) || 1);
+        }
+      }
+
+      // Look for 평 pattern (e.g., "1평", "0.5평")
+      const pyMatch = packingStr.match(/(\d+(?:\.\d+)?)\s*평/);
+      if (pyMatch) {
+        const pyVal = parseFloat(pyMatch[1]);
+        if (!isNaN(pyVal) && pyVal > 0) {
+          return pyVal * (parseInt(item.quantity) || 1);
+        }
+      }
+    }
+
+    // Priority 3: Fallback to quantity directly (assuming 1 box = 1 pyeong for tiles/maru)
+    return parseInt(item.quantity) || 1;
+  };
+
+  // 1. 데코타일 무료배송 조건 계산
+  const checkDecotileFreeShipping = (items) => {
+    const decotileItems = items.filter(item => item.category === "데코타일");
+    const brandSums = {};
+    decotileItems.forEach(item => {
+      const brand = item.brand || "기타";
+      const pyeongVal = getProductPyeong(item);
+      brandSums[brand] = (brandSums[brand] || 0) + pyeongVal;
+    });
+
+    let eligible = false;
+    let eligibleBrand = "";
+    let eligibleArea = 0;
+
+    Object.entries(brandSums).forEach(([brand, sum]) => {
+      if (sum >= 50) {
+        eligible = true;
+        eligibleBrand = brand;
+        eligibleArea = sum;
+      }
+    });
+
+    return { eligible, eligibleBrand, eligibleArea, brandSums };
+  };
+
+  const freeShippingInfo = checkDecotileFreeShipping(checkoutItems);
+
+  // 무료배송 자격 변경 시 자동 배송 방식 전환
+  useEffect(() => {
+    if (freeShippingInfo.eligible) {
+      // If free shipping eligible, set to free shipping if not already set to custom options
+      const current = sessionStorage.getItem("checkout_delivery_method");
+      if (!current || current === "cargo") {
+        setDeliveryMethod("free_shipping");
+      }
+    } else {
+      if (deliveryMethod === "free_shipping") {
+        setDeliveryMethod("cargo");
+      }
+    }
+  }, [freeShippingInfo.eligible]);
+
+  // 2. 부자재 매칭 및 추가 핸들러
+  const findMatchingProduct = (name) => {
+    const normalizedTarget = name.replace(/\s+/g, "").toLowerCase();
+    return allDbProducts.find(p => {
+      const pName = p.name || p.productName || "";
+      const pCategory = p.category || "";
+      const pNormalized = pName.replace(/\s+/g, "").toLowerCase();
+      return pNormalized.includes(normalizedTarget) && pCategory.includes("부자재");
+    });
+  };
+
+  const handleAddAccessory = (accessoryName, matchedProduct) => {
+    if (matchedProduct) {
+      if (isDirectOrder) {
+        const exists = checkoutItems.some(item => item.id === matchedProduct.id);
+        if (exists) {
+          setCheckoutItems(prev => prev.map(item => 
+            item.id === matchedProduct.id 
+              ? { ...item, quantity: (parseInt(item.quantity) || 1) + 1 }
+              : item
+          ));
+        } else {
+          const newItem = {
+            ...matchedProduct,
+            quantity: 1,
+            unit: '개'
+          };
+          setCheckoutItems(prev => [...prev, newItem]);
+        }
+      } else {
+        addToCart({
+          ...matchedProduct,
+          quantity: 1,
+          unit: '개'
+        });
+      }
+    } else {
+      setCustomAccessories(prev => {
+        const updated = prev.includes(accessoryName)
+          ? prev.filter(a => a !== accessoryName)
+          : [...prev, accessoryName];
+        sessionStorage.setItem("checkout_custom_accessories", JSON.stringify(updated));
+        return updated;
+      });
+    }
+  };
 
   // Helper to parse price string/number cleanly
   const parsePrice = (priceVal) => {
@@ -266,16 +454,77 @@ export default function Checkout() {
 
     setLoading(true);
     try {
+      // Calculate delivery labels and metadata
+      let deliveryLabel = "대신화물 지점 배송";
+      let deliveryFee = "별도 안내";
+      let deliveryFeeStatus = "unconfirmed";
+
+      if (deliveryMethod === "free_shipping") {
+        deliveryLabel = "무료배송";
+        deliveryFee = "0원";
+        deliveryFeeStatus = "free";
+      } else if (deliveryMethod === "quick") {
+        deliveryLabel = "퀵 배송";
+        deliveryFee = "착불 (거리비례)";
+        deliveryFeeStatus = "cod";
+      } else if (deliveryMethod === "pickup") {
+        deliveryLabel = "직접 수령";
+        deliveryFee = "0원";
+        deliveryFeeStatus = "free";
+      }
+
+      // Check accessory recommendation shown/skipped
+      const hasDeco = checkoutItems.some(item => item.category === "데코타일");
+      const hasJangpan = checkoutItems.some(item => item.category === "장판");
+      const hasWallpaper = checkoutItems.some(item => item.category === "벽지");
+      const accShown = (hasDeco || hasJangpan || hasWallpaper);
+      const addedAccQty = checkoutItems.filter(item => item.category === "부자재").length;
+      const accSkipped = accShown && (addedAccQty === 0 && customAccessories.length === 0);
+
+      // We append requested custom accessories to the final memo
+      let customAccText = "";
+      if (customAccessories.length > 0) {
+        customAccText = `\n[상담요청 부자재] ${customAccessories.join(", ")}`;
+      }
+
       const siteInfo = `[현장정보] 엘리베이터: ${hasElevator === "yes" ? "있음" : "없음"} / 양중(계단운반): ${needCarry === "yes" ? "필요(운임협의)" : "불필요(1층하차)"}`;
-      const finalMemo = customer.memo ? `${siteInfo}\n[요청사항] ${customer.memo}` : siteInfo;
+      const finalMemo = `${siteInfo}\n[요청사항] ${customer.memo || "없음"}${customAccText}`;
+
+      // Assemble customer payload
+      const orderPayloadCustomer = {
+        ...customer,
+        memo: finalMemo,
+        
+        // Shipping fields
+        delivery_method: deliveryMethod,
+        delivery_method_label: deliveryLabel,
+        delivery_fee: deliveryFee,
+        delivery_fee_status: deliveryFeeStatus,
+        shipping_address: `${customer.address} ${customer.address_detail || ""}`.trim(),
+        
+        // Freight branch details
+        freight_branch_name: deliveryMethod === "cargo" ? (freightBranch.name || null) : null,
+        freight_branch_address: deliveryMethod === "cargo" ? (freightBranch.address || null) : null,
+        freight_branch_phone: deliveryMethod === "cargo" ? (freightBranch.phone || null) : null,
+
+        // Free shipping details
+        free_shipping_eligible: freeShippingInfo.eligible,
+        free_shipping_brand: freeShippingInfo.eligibleBrand || null,
+        free_shipping_area: freeShippingInfo.eligibleArea || 0,
+
+        // Quick / Pickup flags
+        quick_delivery_requested: deliveryMethod === "quick",
+        office_pickup_requested: deliveryMethod === "pickup",
+
+        // Accessory flags
+        accessory_recommendation_shown: accShown,
+        accessory_recommendation_skipped: accSkipped
+      };
 
       // 주문 생성 API 호출
       const orderData = await createOrder({
         cartItems: checkoutItems,
-        customer: {
-          ...customer,
-          memo: finalMemo
-        },
+        customer: orderPayloadCustomer,
         paymentMethod
       });
 
@@ -285,8 +534,12 @@ export default function Checkout() {
       await clearCart({ clearAll: true });
       removePendingDirectOrder();
 
-      // 비동기 알림 발송 (주문 성공 플로우에 지장을 주지 않도록 격리)
-      // 1. 관리자 알림 발송
+      // Clear session storage values
+      sessionStorage.removeItem("checkout_delivery_method");
+      sessionStorage.removeItem("checkout_freight_branch");
+      sessionStorage.removeItem("checkout_custom_accessories");
+
+      // 비동기 알림 발송
       try {
         const adminNotif = await sendOrderNotification(orderData, "admin");
         if (!adminNotif.success) {
@@ -296,7 +549,6 @@ export default function Checkout() {
         console.warn("[Checkout Exception] 관리자 주문 접수 알림 전송 중 오류:", notifErr);
       }
 
-      // 2. 고객 알림 발송 (이메일 주소가 기입된 경우에만 진행)
       if (customer.email && customer.email.trim() !== "") {
         try {
           const customerNotif = await sendOrderNotification(orderData, "customer");
@@ -308,7 +560,6 @@ export default function Checkout() {
         }
       }
 
-      // 주문 완료 화면으로 이동 (뒤로가기 방지를 위해 replace: true 추가)
       try {
         localStorage.setItem("last_completed_order", JSON.stringify(orderData));
       } catch (storageErr) {
@@ -322,6 +573,24 @@ export default function Checkout() {
     } finally {
       setLoading(false);
     }
+  };
+
+  const getSortedBranches = () => {
+    if (!customer.address) return CARGO_BRANCHES;
+    
+    // Extract words from address
+    const addressWords = customer.address.split(/\s+/).map(w => w.replace(/[^가-힣a-zA-Z0-9]/g, ''));
+    
+    return [...CARGO_BRANCHES].map(branch => {
+      let score = 0;
+      addressWords.forEach(word => {
+        if (word && word.length > 1) {
+          if (branch.address.includes(word)) score += 2;
+          if (branch.name.includes(word)) score += 1;
+        }
+      });
+      return { ...branch, score };
+    }).sort((a, b) => b.score - a.score);
   };
 
   return (
@@ -339,10 +608,255 @@ export default function Checkout() {
         </div>
 
         <form onSubmit={handleOrderSubmit} className="checkout-layout" noValidate>
-          {/* 1. 왼쪽: 주문자 정보 입력 폼 */}
+          {/* 1. 왼쪽: 주문 정보 및 배송지 입력 폼 */}
           <div className="checkout-left-section">
+            
+            {/* [단계 1] 주문 상품 확인 */}
             <div className="checkout-card">
-              <h3>배송 정보 입력</h3>
+              <h3>1. 주문 상품 확인</h3>
+              <div className="summary-item-list" style={{ maxHeight: 'none', overflowY: 'visible' }}>
+                {checkoutItems.map((item) => {
+                  const qty = Math.max(1, parseInt(item.quantity) || 1);
+                  const price = parsePrice(item.price || item.unit_price);
+                  const hasPrice = price > 0;
+                  const itemSpec = item.spec || item.specs?.size || "표준규격";
+                  const itemPacking = item.packing || item.specs?.packing || "1박스 단위";
+
+                  return (
+                    <div key={item.id} className="summary-item-card">
+                      {/* 썸네일 */}
+                      <div className="summary-item-thumb-wrapper">
+                        <img 
+                          className="summary-item-thumb"
+                          src={item.thumbnail || item.image || "/images/no-image.svg"} 
+                          alt={item.name || item.product_name}
+                          onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = "/images/no-image.svg"; }}
+                        />
+                      </div>
+                      
+                      {/* 사양 */}
+                      <div className="summary-item-info">
+                        <div className="summary-item-brand-row">
+                          {item.brand && <span className="summary-item-brand">{item.brand}</span>}
+                          {item.category && <span className="summary-item-category">{item.category}</span>}
+                        </div>
+                        <span className="summary-item-name">
+                          {item.name || item.product_name}
+                          {item.selectedSize && ` / ${item.selectedSize}`}
+                        </span>
+                        <div className="summary-item-details">
+                          {item.code && item.code !== "" && <span>코드: {item.code}</span>}
+                          <span>규격: {itemSpec}</span>
+                          <span>구성: {itemPacking}</span>
+                          <span>단가: {hasPrice ? `${price.toLocaleString()}원` : "가격문의"}</span>
+                        </div>
+                      </div>
+
+                      {/* 단가 및 소계 */}
+                      <div className="summary-item-price-side">
+                        <div className="summary-item-price-qty">{qty} {item.unit || "평"}</div>
+                        {hasPrice ? (
+                          <div className="summary-item-price-total">
+                            ₩{(price * qty).toLocaleString()}원
+                          </div>
+                        ) : (
+                          <div className="summary-item-price-total consult-text">상담 필요</div>
+                        )}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* [단계 2] 부자재 추천 영역 */}
+            {(() => {
+              const hasDeco = checkoutItems.some(item => item.category === "데코타일");
+              const hasJangpan = checkoutItems.some(item => item.category === "장판");
+              const hasWallpaper = checkoutItems.some(item => item.category === "벽지");
+              const hasMaru = checkoutItems.some(item => item.category === "마루");
+
+              // 마루만 있는 경우에는 부자재 추천 확인 단계를 표시하지 않고 건너뜀
+              const onlyMaru = hasMaru && !hasDeco && !hasJangpan && !hasWallpaper;
+              const hasRecommendation = hasDeco || hasJangpan || hasWallpaper;
+
+              if (!hasRecommendation || onlyMaru) return null;
+
+              return (
+                <div className="accessory-recommendation-card">
+                  <h3>2. 부자재는 챙기셨나요?</h3>
+                  <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginBottom: '20px' }}>
+                    시공에 필요한 부자재를 함께 확인해 보세요.
+                  </p>
+
+                  {hasDeco && (
+                    <div className="accessory-cat-section">
+                      <h4>[데코타일 시공 부자재]</h4>
+                      <p className="accessory-guide-txt" style={{ fontSize: '12.5px', color: 'var(--text-light)', marginBottom: '12px' }}>
+                        데코타일 부자재는 챙기셨나요? 시공 방식과 현장 마감에 따라 필요한 부자재를 함께 주문해 주세요.
+                      </p>
+                      <div className="accessory-recommend-list">
+                        {["본드", "분리대", "수지마감재", "돼지본드", "노본"].map(name => {
+                          const matched = findMatchingProduct(name);
+                          const inCart = matched ? checkoutItems.some(ci => ci.id === matched.id) : customAccessories.includes(name);
+                          return (
+                            <div key={name} className="accessory-item-card">
+                              {matched ? (
+                                <>
+                                  <div className="accessory-thumb-box">
+                                    <img src={matched.thumbnail || matched.image || "/images/no-image.svg"} alt={matched.name} />
+                                  </div>
+                                  <strong className="accessory-item-name">{matched.name}</strong>
+                                  <span className="accessory-item-price">{matched.price?.toLocaleString()}원</span>
+                                </>
+                              ) : (
+                                <>
+                                  <div className="acc-not-found-badge">등록된 상품 없음</div>
+                                  <strong className="accessory-item-name">{name}</strong>
+                                  <span className="accessory-item-price" style={{ color: 'var(--text-light)', fontSize: '11.5px' }}>상담 후 확정</span>
+                                </>
+                              )}
+                              <div className="accessory-btn-group">
+                                {matched ? (
+                                  <button 
+                                    type="button" 
+                                    className={`btn-add-accessory-db ${inCart ? 'added' : ''}`}
+                                    onClick={() => handleAddAccessory(name, matched)}
+                                    disabled={inCart}
+                                  >
+                                    {inCart ? "✓ 담김" : "+ 추가하기"}
+                                  </button>
+                                ) : (
+                                  <button 
+                                    type="button" 
+                                    className={`btn-request-consult-acc ${inCart ? 'active' : ''}`}
+                                    onClick={() => handleAddAccessory(name, null)}
+                                  >
+                                    {inCart ? "✓ 상담 요청됨" : "접수 시 상담 추가"}
+                                  </button>
+                                )}
+                              </div>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  )}
+
+                  {hasJangpan && (
+                    <div className="accessory-cat-section">
+                      <h4>[장판 시공 부자재]</h4>
+                      <p className="accessory-guide-txt" style={{ fontSize: '12.5px', color: 'var(--text-light)', marginBottom: '12px' }}>
+                        장판 부자재는 챙기셨나요? 장판 시공과 이음부 마감에 필요한 부자재를 함께 확인해 주세요.
+                      </p>
+                      <div className="accessory-recommend-list">
+                        {["륨본드", "용착제(시공구)세트", "수지마감재", "논슬립경보", "논슬립중보", "노본"].map(name => {
+                          const matched = findMatchingProduct(name);
+                          const inCart = matched ? checkoutItems.some(ci => ci.id === matched.id) : customAccessories.includes(name);
+                          return (
+                            <div key={name} className="accessory-item-card">
+                              {matched ? (
+                                <>
+                                  <div className="accessory-thumb-box">
+                                    <img src={matched.thumbnail || matched.image || "/images/no-image.svg"} alt={matched.name} />
+                                  </div>
+                                  <strong className="accessory-item-name">{matched.name}</strong>
+                                  <span className="accessory-item-price">{matched.price?.toLocaleString()}원</span>
+                                </>
+                              ) : (
+                                <>
+                                  <div className="acc-not-found-badge">등록된 상품 없음</div>
+                                  <strong className="accessory-item-name">{name}</strong>
+                                  <span className="accessory-item-price" style={{ color: 'var(--text-light)', fontSize: '11.5px' }}>상담 후 확정</span>
+                                </>
+                              )}
+                              <div className="accessory-btn-group">
+                                {matched ? (
+                                  <button 
+                                    type="button" 
+                                    className={`btn-add-accessory-db ${inCart ? 'added' : ''}`}
+                                    onClick={() => handleAddAccessory(name, matched)}
+                                    disabled={inCart}
+                                  >
+                                    {inCart ? "✓ 담김" : "+ 추가하기"}
+                                  </button>
+                                ) : (
+                                  <button 
+                                    type="button" 
+                                    className={`btn-request-consult-acc ${inCart ? 'active' : ''}`}
+                                    onClick={() => handleAddAccessory(name, null)}
+                                  >
+                                    {inCart ? "✓ 상담 요청됨" : "접수 시 상담 추가"}
+                                  </button>
+                                )}
+                              </div>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  )}
+
+                  {hasWallpaper && (
+                    <div className="accessory-cat-section">
+                      <h4>[벽지 시공 부자재]</h4>
+                      <p className="accessory-guide-txt" style={{ fontSize: '12.5px', color: 'var(--text-light)', marginBottom: '12px' }}>
+                        벽지 부자재는 챙기셨나요? 도배 작업과 벽면 보강에 필요한 부자재를 함께 확인해 주세요.
+                      </p>
+                      <div className="accessory-recommend-list">
+                        {["코너각대", "현장풀", "풀네바리", "도배실리콘", "운용지2절", "운용지3절", "부직포(110)", "부직포(120)", "바인다"].map(name => {
+                          const matched = findMatchingProduct(name);
+                          const inCart = matched ? checkoutItems.some(ci => ci.id === matched.id) : customAccessories.includes(name);
+                          return (
+                            <div key={name} className="accessory-item-card">
+                              {matched ? (
+                                <>
+                                  <div className="accessory-thumb-box">
+                                    <img src={matched.thumbnail || matched.image || "/images/no-image.svg"} alt={matched.name} />
+                                  </div>
+                                  <strong className="accessory-item-name">{matched.name}</strong>
+                                  <span className="accessory-item-price">{matched.price?.toLocaleString()}원</span>
+                                </>
+                              ) : (
+                                <>
+                                  <div className="acc-not-found-badge">등록된 상품 없음</div>
+                                  <strong className="accessory-item-name">{name}</strong>
+                                  <span className="accessory-item-price" style={{ color: 'var(--text-light)', fontSize: '11.5px' }}>상담 후 확정</span>
+                                </>
+                              )}
+                              <div className="accessory-btn-group">
+                                {matched ? (
+                                  <button 
+                                    type="button" 
+                                    className={`btn-add-accessory-db ${inCart ? 'added' : ''}`}
+                                    onClick={() => handleAddAccessory(name, matched)}
+                                    disabled={inCart}
+                                  >
+                                    {inCart ? "✓ 담김" : "+ 추가하기"}
+                                  </button>
+                                ) : (
+                                  <button 
+                                    type="button" 
+                                    className={`btn-request-consult-acc ${inCart ? 'active' : ''}`}
+                                    onClick={() => handleAddAccessory(name, null)}
+                                  >
+                                    {inCart ? "✓ 상담 요청됨" : "접수 시 상담 추가"}
+                                  </button>
+                                )}
+                              </div>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              );
+            })()}
+
+            {/* [단계 3] 배송 정보 입력 */}
+            <div className="checkout-card">
+              <h3>3. 배송 정보 입력</h3>
               
               {!user && (
                 <div className="non-member-banner">
@@ -552,9 +1066,190 @@ export default function Checkout() {
               </div>
             </div>
 
-            {/* 결제방식 선택 카드 */}
+            {/* [단계 4] 배송 방식 선택 */}
             <div className="checkout-card">
-              <h3>결제 방식</h3>
+              <h3>4. 배송 방식 선택</h3>
+              <div className="delivery-methods-grid">
+                
+                {/* 무료배송 카드 */}
+                <div 
+                  className={`delivery-method-card ${deliveryMethod === "free_shipping" ? "active" : ""} ${!freeShippingInfo.eligible ? "disabled" : ""}`}
+                  onClick={() => freeShippingInfo.eligible && setDeliveryMethod("free_shipping")}
+                >
+                  <div className="delivery-card-header">
+                    <input 
+                      type="radio" 
+                      name="delivery_method_select" 
+                      checked={deliveryMethod === "free_shipping"}
+                      disabled={!freeShippingInfo.eligible}
+                      onChange={() => freeShippingInfo.eligible && setDeliveryMethod("free_shipping")}
+                    />
+                    <strong>무료배송 (현장 배송)</strong>
+                  </div>
+                  <div className="delivery-card-body">
+                    <div className="delivery-card-desc">동일 브랜드 데코타일 50평 이상 주문 시 배송지 주소로 직접 배송됩니다.</div>
+                    <div className="delivery-info-item">
+                      <span className="info-label">수령 방식:</span>
+                      <span className="info-val">입력하신 배송지에서 직접 수령</span>
+                    </div>
+                    <div className="delivery-info-item">
+                      <span className="info-label">배송비:</span>
+                      <span className="info-val text-free">0원 (무료)</span>
+                    </div>
+                    {freeShippingInfo.eligible ? (
+                      <div className="free-shipping-badge-box">
+                        <span className="badge-title">무료배송 적용</span>
+                        <span className="badge-text">{freeShippingInfo.eligibleBrand} 데코타일 합계 {freeShippingInfo.eligibleArea.toFixed(2)}평</span>
+                        <span className="badge-text text-address">배송지: {customer.address ? `${customer.address} ${customer.address_detail || ""}`.trim() : "배송지 주소 미입력"}</span>
+                      </div>
+                    ) : (
+                      <span className="delivery-disabled-reason">
+                        * 선택 불가 (동일 브랜드 데코타일 50평 미만)
+                      </span>
+                    )}
+                  </div>
+                </div>
+
+                {/* 대신화물 배송 카드 */}
+                <div 
+                  className={`delivery-method-card ${deliveryMethod === "cargo" ? "active" : ""}`}
+                  onClick={() => setDeliveryMethod("cargo")}
+                >
+                  <div className="delivery-card-header">
+                    <input 
+                      type="radio" 
+                      name="delivery_method_select" 
+                      checked={deliveryMethod === "cargo"}
+                      onChange={() => setDeliveryMethod("cargo")}
+                    />
+                    <strong>대신화물 지점 배송</strong>
+                  </div>
+                  <div className="delivery-card-body">
+                    <div className="delivery-card-desc">데코타일 50평 미만 주문 시 기본 배송 방식입니다. 인근 대신화물 지점에서 수령합니다.</div>
+                    <div className="delivery-info-item">
+                      <span className="info-label">수령 방식:</span>
+                      <span className="info-val">대신화물 지점 직접 내방 수령</span>
+                    </div>
+                    <div className="delivery-info-item">
+                      <span className="info-label">배송비:</span>
+                      <span className="info-val text-warning">화물 비용 착불 (별도 안내)</span>
+                    </div>
+                    <span className="delivery-status-note">* 주문 확인 후 주소와 가장 가까운 지점으로 발송됩니다.</span>
+                  </div>
+                </div>
+
+                {/* 퀵 배송 카드 */}
+                <div 
+                  className={`delivery-method-card ${deliveryMethod === "quick" ? "active" : ""}`}
+                  onClick={() => setDeliveryMethod("quick")}
+                >
+                  <div className="delivery-card-header">
+                    <input 
+                      type="radio" 
+                      name="delivery_method_select" 
+                      checked={deliveryMethod === "quick"}
+                      onChange={() => setDeliveryMethod("quick")}
+                    />
+                    <strong>퀵 배송 (용달 화물)</strong>
+                  </div>
+                  <div className="delivery-card-body">
+                    <div className="delivery-card-desc">재고 및 주문 접수 시간을 확인한 후 화물 용달 차량으로 당일 배송해 드립니다.</div>
+                    <div className="delivery-info-item">
+                      <span className="info-label">수령 방식:</span>
+                      <span className="info-val">당일 용달 화물 수령 (재고/시간 확인 후 가능)</span>
+                    </div>
+                    <div className="delivery-info-item">
+                      <span className="info-label">배송비:</span>
+                      <span className="info-val text-warning">운임비 착불 (배송 거리 및 차종에 따라 책정)</span>
+                    </div>
+                    <span className="delivery-status-note">* 당일 발송 여부는 주문 확인 후 해피콜로 안내드립니다.</span>
+                  </div>
+                </div>
+
+                {/* 직접 수령 카드 */}
+                <div 
+                  className={`delivery-method-card ${deliveryMethod === "pickup" ? "active" : ""}`}
+                  onClick={() => setDeliveryMethod("pickup")}
+                >
+                  <div className="delivery-card-header">
+                    <input 
+                      type="radio" 
+                      name="delivery_method_select" 
+                      checked={deliveryMethod === "pickup"}
+                      onChange={() => setDeliveryMethod("pickup")}
+                    />
+                    <strong>사무실 직접 수령</strong>
+                  </div>
+                  <div className="delivery-card-body">
+                    <div className="delivery-card-desc">하남에 위치한 동경바닥재 사무실/물류센터에 직접 방문하여 수령하시는 방식입니다.</div>
+                    <div className="delivery-info-item">
+                      <span className="info-label">수령 위치:</span>
+                      <span className="info-val">경기 하남시 서하남로 37 (1층)</span>
+                    </div>
+                    <div className="delivery-info-item">
+                      <span className="info-label">배송비:</span>
+                      <span className="info-val text-free">0원 (없음)</span>
+                    </div>
+                    <span className="delivery-status-note" style={{ color: 'var(--primary)', fontWeight: '600' }}>* 방문 전 상품 준비 완료 여부 확인이 반드시 필요합니다.</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* 대신화물 수령지 선택 패널 */}
+              {deliveryMethod === "cargo" && (
+                <div className="freight-branch-selector-box">
+                  <label>대신화물 수령 지점 지정 <span className="opt">(선택)</span></label>
+                  <div style={{ display: 'flex', gap: '8px' }}>
+                    <input 
+                      type="text" 
+                      placeholder="도착을 희망하시는 대신화물 지점명 (주변 지점 확인을 이용해 검색해 보세요)"
+                      value={freightBranch.name}
+                      onChange={(e) => setFreightBranch({ ...freightBranch, name: e.target.value })}
+                      style={{ flex: 1, height: '42px', padding: '0 12px', fontSize: '13.5px', border: '1px solid var(--border)', borderRadius: 'var(--radius-md)', outline: 'none' }}
+                    />
+                    <button 
+                      type="button" 
+                      className="btn-select-branch-trigger"
+                      onClick={() => setShowBranchModal(true)}
+                      style={{ height: '42px', padding: '0 16px' }}
+                    >
+                      주변 지점 확인
+                    </button>
+                  </div>
+                  
+                  {freightBranch.name ? (
+                    <div className="freight-branch-inputs">
+                      <div className="form-group-checkout" style={{ gap: '4px' }}>
+                        <span style={{ fontSize: '11px', color: 'var(--text-light)' }}>지점 주소</span>
+                        <input 
+                          type="text" 
+                          value={freightBranch.address} 
+                          onChange={(e) => setFreightBranch({ ...freightBranch, address: e.target.value })}
+                          readOnly
+                        />
+                      </div>
+                      <div className="form-group-checkout" style={{ gap: '4px' }}>
+                        <span style={{ fontSize: '11px', color: 'var(--text-light)' }}>지점 연락처</span>
+                        <input 
+                          type="text" 
+                          value={freightBranch.phone} 
+                          onChange={(e) => setFreightBranch({ ...freightBranch, phone: e.target.value })}
+                          readOnly
+                        />
+                      </div>
+                    </div>
+                  ) : (
+                    <p style={{ margin: 0, fontSize: '12px', color: 'var(--text-light)', lineHeight: '1.4' }}>
+                      💡 지점을 선택하거나 입력하지 않으시면 주문서 주소를 확인하고 가장 가까운 지점을 임의 배정하여 전화 통화 시 안내 드립니다.
+                    </p>
+                  )}
+                </div>
+              )}
+            </div>
+
+            {/* [단계 5] 결제 방식 선택 */}
+            <div className="checkout-card">
+              <h3>5. 결제 방식 선택</h3>
               <div className="payment-method-selector">
                 <label className={`payment-option ${paymentMethod === "무통장입금" ? "active" : ""}`}>
                   <input
@@ -587,65 +1282,10 @@ export default function Checkout() {
             </div>
           </div>
 
-          {/* 2. 오른쪽: 주문상품 요약 */}
+          {/* 2. 오른쪽: 최종 결제 금액 요약 및 주문하기 버튼 */}
           <div className="checkout-right-section">
             <div className="summary-sticky-card">
-              <h3>주문 자재 요약</h3>
-              
-              {/* 카드 형태로 개선한 주문 자재 리스트 */}
-              <div className="summary-item-list">
-                {checkoutItems.map((item) => {
-                  const qty = Math.max(1, parseInt(item.quantity) || 1);
-                  const price = parsePrice(item.price || item.unit_price);
-                  const hasPrice = price > 0;
-                  const itemSpec = item.spec || item.specs?.size || "표준규격";
-                  const itemPacking = item.packing || item.specs?.packing || "1박스 단위";
-
-                  return (
-                    <div key={item.id} className="summary-item-card">
-                      {/* 썸네일 */}
-                      <div className="summary-item-thumb-wrapper">
-                        <img 
-                          className="summary-item-thumb"
-                          src={item.thumbnail || item.image || "/images/no-image.svg"} 
-                          alt={item.name || item.product_name}
-                          onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = "/images/placeholder-material.jpg"; }}
-                        />
-                      </div>
-                      
-                      {/* 사양 */}
-                      <div className="summary-item-info">
-                        <div className="summary-item-brand-row">
-                          {item.brand && <span className="summary-item-brand">{item.brand}</span>}
-                          {item.category && <span className="summary-item-category">{item.category}</span>}
-                        </div>
-                        <span className="summary-item-name">
-                          {item.name || item.product_name}
-                          {item.selectedSize && ` / ${item.selectedSize}`}
-                        </span>
-                        <div className="summary-item-details">
-                          {item.code && item.code !== "" && <span>코드: {item.code}</span>}
-                          <span>규격: {itemSpec}</span>
-                          <span>구성: {itemPacking}</span>
-                          <span>단가: {hasPrice ? `${price.toLocaleString()}원` : "가격문의"}</span>
-                        </div>
-                      </div>
-
-                      {/* 단가 및 소계 */}
-                      <div className="summary-item-price-side">
-                        <div className="summary-item-price-qty">{qty}박스(M)</div>
-                        {hasPrice ? (
-                          <div className="summary-item-price-total">
-                            ₩{(price * qty).toLocaleString()}원
-                          </div>
-                        ) : (
-                          <div className="summary-item-price-total consult-text">상담 필요</div>
-                        )}
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
+              <h3>결제 금액 확인</h3>
 
               <div className="summary-detail-rows">
                 <div className="summary-detail-row">
@@ -654,15 +1294,17 @@ export default function Checkout() {
                 </div>
                 <div className="summary-detail-row">
                   <span>총 수량</span>
-                  <span>{totalQuantitySum.toLocaleString()}박스(M)</span>
+                  <span>{totalQuantitySum.toLocaleString()} 평(박스/M)</span>
                 </div>
                 <div className="summary-detail-row">
-                  <span>상품금액</span>
+                  <span>상품합계 금액</span>
                   <span>{calculateTotal().toLocaleString()}원</span>
                 </div>
                 <div className="summary-detail-row">
                   <span>배송비</span>
-                  <span>별도 협의 (또는 0원)</span>
+                  <span style={{ color: (deliveryMethod === "free_shipping" || deliveryMethod === "pickup") ? 'var(--success)' : 'var(--danger)' }}>
+                    {deliveryMethod === "free_shipping" || deliveryMethod === "pickup" ? "0원 (무료)" : "별도 협의 (화물 착불)"}
+                  </span>
                 </div>
               </div>
 
@@ -693,8 +1335,7 @@ export default function Checkout() {
                     </div>
                   </div>
                   <div className="bank-guideline">
-                    • 실제 주문금액과 입금금액이 정확히 일치해야 자동 입금 확인 처리가 가능합니다.<br />
-                    • 입금 확인 후 주문 접수가 완료되며, 담당자가 개별 유선 연락을 드립니다.
+                    • 입금 완료 시점 기준으로 주문 접수가 최종 처리되며, 담당자가 화물 지점 및 운임 통화를 즉시 연결합니다.
                   </div>
                 </div>
               )}
@@ -721,6 +1362,59 @@ export default function Checkout() {
           </div>
         </form>
       </div>
+
+      {/* 대신화물 주변 지점 검색 모달 */}
+      {showBranchModal && (
+        <div className="branch-selector-overlay" onClick={() => setShowBranchModal(false)}>
+          <div className="branch-selector-modal" onClick={(e) => e.stopPropagation()}>
+            <div className="branch-modal-header">
+              <h3>대신화물 주변 지점 확인</h3>
+              <button type="button" className="btn-close-branch-modal" onClick={() => setShowBranchModal(false)}>
+                &times;
+              </button>
+            </div>
+            <div className="branch-modal-body">
+              <input 
+                type="text" 
+                placeholder="지점명이나 지역을 입력하세요 (예: 하남, 성남)"
+                value={branchSearch}
+                onChange={(e) => setBranchSearch(e.target.value)}
+                className="branch-search-input"
+                style={{ width: '100%', height: '38px', padding: '0 10px', fontSize: '13px', border: '1px solid var(--border)', borderRadius: 'var(--radius-md)', boxSizing: 'border-box' }}
+              />
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                {getSortedBranches().filter(b => 
+                  b.name.includes(branchSearch) || b.address.includes(branchSearch)
+                ).map(branch => (
+                  <div 
+                    key={branch.name} 
+                    className="branch-option-item"
+                    onClick={() => {
+                      setFreightBranch(branch);
+                      setShowBranchModal(false);
+                      setBranchSearch("");
+                    }}
+                    style={{ cursor: 'pointer', padding: '10px', border: '1px solid var(--border)', borderRadius: 'var(--radius-md)' }}
+                  >
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '4px' }}>
+                      <strong>{branch.name}</strong>
+                      {branch.score > 0 && (
+                        <span className="badge-nearby-branch" style={{ fontSize: '11px', color: 'var(--primary)', backgroundColor: '#f0f5ff', padding: '2px 6px', borderRadius: '4px', fontWeight: 'bold' }}>
+                          📍 추천 지점
+                        </span>
+                      )}
+                    </div>
+                    <div style={{ fontSize: '12px', color: 'var(--text-light)', display: 'flex', flexDirection: 'column', gap: '2px' }}>
+                      <span>주소: {branch.address}</span>
+                      <span>연락처: {branch.phone}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       {showPostcodeLayer && (
         <div className="checkout-postcode-overlay" onClick={() => setShowPostcodeLayer(false)}>

@@ -6,6 +6,7 @@ import { BRANDS_BY_CATEGORY } from "../../data/materials.db";
 import { getComputedBrand } from "../../utils/brandUtils";
 import SampleBookViewer from "../../components/samplebook/SampleBookViewer";
 import SampleBookCard from "../../components/samplebook/SampleBookCard";
+import { EmptyState } from "../../components/ui";
 import "./SampleBooks.css";
 
 function useQuery() {
@@ -176,7 +177,10 @@ export default function SampleBooks() {
               ))}
             </div>
           ) : (
-            <div className="no-results">상품 준비중입니다.</div>
+            <EmptyState 
+              title="샘플북이 준비 중입니다" 
+              description="선택하신 조건에 해당하는 브랜드 샘플북이 아직 준비되지 않았거나 업데이트 대기 중입니다." 
+            />
           )}
         </main>
       </div>

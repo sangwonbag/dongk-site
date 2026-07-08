@@ -8,6 +8,7 @@ import { materials } from "../../data/materials.db";
 import { getThumbnailImage } from "../../utils/galleryUtils";
 import { resolveMaterialImage } from "../../utils/materialImageResolver";
 import { fetchAllProducts } from "../../utils/supabaseFetcher";
+import { Skeleton } from "../../components/ui";
 import { 
   ChevronRight, 
   Phone, 
@@ -18,7 +19,10 @@ import {
   ShieldCheck,
   FileText,
   CheckCircle,
-  Users
+  Users,
+  MapPin,
+  Clock,
+  Mail
 } from "lucide-react";
 import "./Home.css";
 import BrandLogosCarousel from "../../components/home/BrandLogosCarousel";
@@ -105,15 +109,17 @@ const FeaturedCard = ({ mat, idx }) => {
 
 const SkeletonCard = () => (
   <div className="featured-v2-card skeleton-loading">
-    <div className="featured-v2-img-frame skeleton-box"></div>
-    <div className="featured-v2-body">
-      <div className="skeleton-line" style={{ width: '40%', height: '12px', marginBottom: '8px' }}></div>
-      <div className="skeleton-line" style={{ width: '70%', height: '18px', marginBottom: '12px' }}></div>
-      <div className="skeleton-line" style={{ width: '90%', height: '14px', marginBottom: '6px' }}></div>
-      <div className="skeleton-line" style={{ width: '80%', height: '14px', marginBottom: '20px' }}></div>
-      <div className="featured-v2-price-row" style={{ marginTop: 'auto' }}>
-        <div className="skeleton-line" style={{ width: '50px', height: '18px' }}></div>
-        <div className="skeleton-line" style={{ width: '70px', height: '32px', borderRadius: '4px' }}></div>
+    <div className="featured-v2-img-frame" style={{ overflow: 'hidden', position: 'relative' }}>
+      <Skeleton height="100%" />
+    </div>
+    <div className="featured-v2-body" style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+      <Skeleton width="40%" height="12px" />
+      <Skeleton width="70%" height="18px" />
+      <Skeleton width="90%" height="14px" />
+      <Skeleton width="80%" height="14px" />
+      <div className="featured-v2-price-row" style={{ marginTop: 'auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Skeleton width="50px" height="18px" />
+        <Skeleton width="70px" height="32px" radius="4px" />
       </div>
     </div>
   </div>
@@ -209,194 +215,12 @@ const spaceSections = [
   }
 ];
 
-// Space Finder Section component (Redesigned: Alternating stack list with floating navigation)
-const SpaceFinderSection = () => {
-  const nav = useNavigate();
-  const containerRef = useRef(null);
-  const sectionRefs = useRef([]);
-  const [activeIndex, setActiveIndex] = useState(0);
-
-  useEffect(() => {
-    const observerOptions = {
-      root: null,
-      rootMargin: "-25% 0px -40% 0px", // Trigger when the item is in the main viewing zone
-      threshold: 0.1
-    };
-
-    const observerCallback = (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          const index = parseInt(entry.target.getAttribute("data-index"), 10);
-          if (!isNaN(index)) {
-            setActiveIndex(index);
-          }
-        }
-      });
-    };
-
-    const observer = new IntersectionObserver(observerCallback, observerOptions);
-
-    sectionRefs.current.forEach((ref) => {
-      if (ref) observer.observe(ref);
-    });
-
-    return () => {
-      observer.disconnect();
-    };
-  }, []);
-
-  const handleDotClick = (idx) => {
-    const targetElement = sectionRefs.current[idx];
-    if (targetElement) {
-      const yOffset = -90; // Offset to clear the header
-      const y = targetElement.getBoundingClientRect().top + window.scrollY + yOffset;
-      window.scrollTo({
-        top: y,
-        behavior: "smooth"
-      });
-    }
-  };
-
-  return (
-    <section className="showroom-space-finder-v2" ref={containerRef}>
-      {/* Title Header */}
-      <div className="section-header-v2 container reveal">
-        <span className="section-subtitle-v2">SPACE FINDER</span>
-        <h2 className="section-title-v2">공간별 자재 추천</h2>
-        <p className="section-desc-v2">
-          주거부터 상업, 공공기관까지 공간의 특성과 활용 목적에 맞는 최적의 바닥재와 벽지를 추천해 드립니다.
-        </p>
-      </div>
-
-      {/* Desktop Alternating List View */}
-      <div className="space-finder-desktop-list">
-        {spaceSections.map((sect, idx) => {
-          const isEven = idx % 2 === 0;
-          return (
-            <div
-              key={sect.id}
-              className={`space-finder-row-item reveal ${isEven ? "layout-normal" : "layout-reversed"}`}
-              ref={(el) => (sectionRefs.current[idx] = el)}
-              data-index={idx}
-            >
-              <div className="space-finder-item-container container">
-                {/* Content block */}
-                <div className="space-finder-item-content">
-                  <div className="space-finder-index">
-                    <strong>{sect.label}</strong> / 05
-                  </div>
-                  <span className="space-finder-category-tag">{sect.category}</span>
-                  <h3 className="space-finder-title">{sect.title}</h3>
-                  <p className="space-finder-description">{sect.description}</p>
-                  
-                  <div className="space-finder-materials">
-                    <span className="materials-label">추천 자재 :</span>
-                    <div className="materials-tags-row">
-                      {sect.materials.map((mat, i) => (
-                        <span key={i} className="space-material-tag-badge">{mat}</span>
-                      ))}
-                    </div>
-                  </div>
-
-                  <div className="space-finder-buttons">
-                    <button 
-                      className="btn-v2-primary" 
-                      onClick={() => nav(`/materials?category=${sect.filterParams.category}`)}
-                    >
-                      이 공간 자재 보기
-                    </button>
-                    <button 
-                      className="btn-v2-outline" 
-                      onClick={() => nav("/estimate/request")}
-                    >
-                      견적 문의하기
-                    </button>
-                  </div>
-                </div>
-
-                {/* Image block */}
-                <div className="space-finder-item-img-wrap">
-                  <div className="space-finder-item-img-box">
-                    <img src={sect.image} alt={sect.title} className="space-finder-item-img" loading="lazy" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          );
-        })}
-      </div>
-
-      {/* Floating Dot Indicators on the Right (Desktop only) */}
-      <div className="space-finder-floating-dots">
-        {spaceSections.map((sect, idx) => (
-          <button
-            key={idx}
-            className={`space-finder-floating-dot ${idx === activeIndex ? "active" : ""}`}
-            onClick={() => handleDotClick(idx)}
-            aria-label={`Go to section ${idx + 1}`}
-          >
-            <span className="dot-hover-label">{sect.category}</span>
-          </button>
-        ))}
-      </div>
-
-      {/* Mobile Stacked View */}
-      <div className="space-finder-mobile container">
-        <div className="space-finder-mobile-header">
-          <span className="space-finder-label">SPACE FINDER</span>
-          <h2 className="space-finder-mobile-heading">공간별 자재 추천</h2>
-        </div>
-        <div className="space-finder-mobile-list">
-          {spaceSections.map((sect) => (
-            <div key={sect.id} className="space-finder-mobile-card">
-              <div className="mobile-card-img-wrap">
-                <img src={sect.image} alt={sect.title} className="mobile-card-img" loading="lazy" />
-                <span className="mobile-card-index">{sect.label}</span>
-              </div>
-              <div className="mobile-card-body">
-                <span className="mobile-card-cat">{sect.category}</span>
-                <h3 className="mobile-card-title">{sect.title}</h3>
-                <p className="mobile-card-desc">{sect.description}</p>
-                
-                <div className="mobile-card-materials">
-                  <span className="mobile-materials-lbl">추천 자재:</span>
-                  <div className="mobile-materials-tags">
-                    {sect.materials.map((mat, i) => (
-                      <span key={i} className="mobile-mat-badge">{mat}</span>
-                    ))}
-                  </div>
-                </div>
-
-                <div className="mobile-card-buttons">
-                  <button 
-                    className="btn-v2-primary" 
-                    onClick={() => nav(`/materials?category=${sect.filterParams.category}`)}
-                  >
-                    이 공간 자재 보기
-                  </button>
-                  <button 
-                    className="btn-v2-outline" 
-                    onClick={() => nav("/estimate/request")}
-                  >
-                    견적 문의하기
-                  </button>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-};
-
 // Helper component for category card image with loading skeleton and error fallback
 const CategoryCardImage = ({ src, fallback, alt }) => {
   const [imgSrc, setImgSrc] = useState(src);
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
     setImgSrc(src);
     setLoaded(false);
   }, [src]);
@@ -421,185 +245,80 @@ const CategoryCardImage = ({ src, fallback, alt }) => {
   );
 };
 
-const HERO_SLIDES = [
-  {
-    image: "/images/home/main-hero-interior.webp",
-    tag: "PREMIUM WOOD FLOORING",
-    title: "공간의 가치를 높이는 프리미엄 마루"
-  },
-  {
-    image: "/images/home-interior/korea-home-living-01.webp",
-    tag: "LUXURY DECO TILE",
-    title: "트렌디한 감각의 고품격 데코타일"
-  },
-  {
-    image: "/images/home-interior/korea-kitchen-living-01.webp",
-    tag: "CUSHION FLOOR",
-    title: "보행감이 편안한 친환경 장판"
-  },
-  {
-    image: "/images/home-interior/korea-apt-living-01.webp",
-    tag: "MODERN WALLPAPER",
-    title: "벽면의 분위기를 살리는 고급 벽지"
-  }
-];
+// Right Floating Quick Menu for Desktop & Bottom bar for Mobile
+const QuickMenu = ({ cartCount }) => {
+  const navigate = useNavigate();
+  
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
-const RANDOM_CATEGORIES = [
-  {
-    name: '데코타일',
-    desc: '공간에 실용성과 디자인을 더하는 데코타일',
-    image: '/images/categories/category-deco-tile.jpg',
-    fallback: '/images/categories/category-deco-tile.jpg',
-    path: '/materials?category=데코타일'
-  },
-  {
-    name: '마루',
-    desc: '공간의 가치를 높이는 프리미엄 마루',
-    image: '/images/categories/category-wood-flooring.png',
-    fallback: '/images/categories/category-wood-flooring.png',
-    path: '/materials?category=마루'
-  },
-  {
-    name: '벽지',
-    desc: '공간 분위기를 완성하는 감각적인 벽지',
-    image: '/images/categories/category-wallpaper.png',
-    fallback: '/images/categories/category-wallpaper.png',
-    path: '/materials?category=벽지'
-  },
-  {
-    name: '카페트타일',
-    desc: '상업공간에 어울리는 모던 카페트타일',
-    image: '/images/categories/category-carpet-tile.png',
-    fallback: '/images/categories/category-carpet-tile.png',
-    path: '/materials?category=카페트타일'
-  }
-];
+  return (
+    <>
+      <div className="desktop-quick-sidebar">
+        <button className="quick-side-btn" onClick={() => navigate("/estimate/request")}>
+          <span className="q-icon">📝</span>
+          <span className="q-txt">견적 요청</span>
+        </button>
+        <a href="tel:02-487-9775" className="quick-side-btn">
+          <span className="q-icon">📞</span>
+          <span className="q-txt">전화 상담</span>
+        </a>
+        <a href={KAKAO_CHAT_URL} target="_blank" rel="noopener noreferrer" className="quick-side-btn kakao-bg">
+          <span className="q-icon">💬</span>
+          <span className="q-txt">카톡 상담</span>
+        </a>
+        <button className="quick-side-btn" onClick={() => navigate("/cart")} style={{ position: 'relative' }}>
+          <span className="q-icon">🛒</span>
+          <span className="q-txt">장바구니</span>
+          {cartCount > 0 && <span className="quick-badge">{cartCount}</span>}
+        </button>
+        <button className="quick-side-btn scroll-top-btn" onClick={scrollToTop}>
+          <span className="q-icon">▲</span>
+          <span className="q-txt">맨 위로</span>
+        </button>
+      </div>
+
+      <div className="mobile-quick-bottom-bar">
+        <button className="mob-quick-btn" onClick={() => navigate("/estimate/request")}>
+          <span>📝 견적요청</span>
+        </button>
+        <a href="tel:02-487-9775" className="mob-quick-btn">
+          <span>📞 전화상담</span>
+        </a>
+        <a href={KAKAO_CHAT_URL} target="_blank" rel="noopener noreferrer" className="mob-quick-btn mob-kakao">
+          <span>💬 카톡상담</span>
+        </a>
+        <button className="mob-quick-btn" onClick={() => navigate("/cart")} style={{ position: 'relative' }}>
+          <span>🛒 장바구니 {cartCount > 0 && `(${cartCount})`}</span>
+        </button>
+      </div>
+    </>
+  );
+};
 
 export default function Home() {
   const nav = useNavigate();
   const [featuredPool, setFeaturedPool] = useState([]);
   const [isFeaturedLoading, setIsFeaturedLoading] = useState(true);
   const [isFeaturedError, setIsFeaturedError] = useState(false);
-  const [currentSlide, setCurrentSlide] = useState(0);
   const [dbProjects, setDbProjects] = useState([]);
-  const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
+  const [cartCount, setCartCount] = useState(0);
 
+  // Fetch cart count from sessionStorage or estimate cart
   useEffect(() => {
-    const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
-    setPrefersReducedMotion(mediaQuery.matches);
-    const listener = (e) => setPrefersReducedMotion(e.matches);
-    mediaQuery.addEventListener("change", listener);
-    return () => mediaQuery.removeEventListener("change", listener);
-  }, []);
-
-  // B2B Recommended Material Selection Logic
-  const todayRecommended = useMemo(() => {
-    if (!materials || materials.length === 0) return null;
-
-    // Filter candidates that meet the B2B criteria:
-    // 1. Has price
-    // 2. Has brand, name, code
-    // 3. Has a valid non-placeholder image matched in the image manifest!
-    const candidates = materials.filter(m => {
-      if (!m.name || !m.code || !m.price || m.price <= 0) return false;
-      const imgRes = resolveMaterialImage(m);
-      return imgRes && !imgRes.isPlaceholder;
-    });
-
-    if (candidates.length > 0) {
-      // We prefer LX 엑스컴포트 XCF4023 first
-      const premiumLx = candidates.find(p => p.brand === 'LX하우시스' && p.code === 'XCF4023');
-      if (premiumLx) return premiumLx;
-      
-      const xcomfort = candidates.find(p => p.name.includes('엑스컴포트'));
-      if (xcomfort) return xcomfort;
-      
-      const lxItem = candidates.find(p => p.brand === 'LX하우시스' || p.brand === 'LX');
-      if (lxItem) return lxItem;
-      
-      return candidates[0];
-    }
-    
-    // Fallback: XCF4023 manually
-    const fallbackItem = materials.find(m => m.code === 'XCF4023');
-    return fallbackItem || null;
-  }, []);
-
-  // Balanced recommendation logic using useMemo to prevent infinite shuffle on render
-  const featuredItems = useMemo(() => {
-    if (!featuredPool || featuredPool.length === 0) return [];
-
-    // Group by brand to ensure diversity
-    const kccItems = featuredPool.filter(m => m.brand === "KCC");
-    const yuseongItems = featuredPool.filter(m => m.brand === "유성");
-    const dongshinItems = featuredPool.filter(m => m.brand === "동신");
-    const otherItems = featuredPool.filter(m => !["KCC", "유성", "동신"].includes(m.brand));
-
-    // Shuffle each group
-    const shuffledKcc = [...kccItems].sort(() => 0.5 - Math.random());
-    const shuffledYuseong = [...yuseongItems].sort(() => 0.5 - Math.random());
-    const shuffledDongshin = [...dongshinItems].sort(() => 0.5 - Math.random());
-
-    const selected = [];
-    
-    // Target 8 items balanced: 3 KCC, 3 동신, 2 유성
-    const targetKCC = 3;
-    const targetDongshin = 3;
-    const targetYuseong = 2;
-
-    const takeKCC = Math.min(targetKCC, shuffledKcc.length);
-    const takeDongshin = Math.min(targetDongshin, shuffledDongshin.length);
-    const takeYuseong = Math.min(targetYuseong, shuffledYuseong.length);
-
-    for (let i = 0; i < takeKCC; i++) selected.push(shuffledKcc[i]);
-    for (let i = 0; i < takeDongshin; i++) selected.push(shuffledDongshin[i]);
-    for (let i = 0; i < takeYuseong; i++) selected.push(shuffledYuseong[i]);
-
-    // Fill spots if some brands are lacking
-    const remainingKcc = shuffledKcc.slice(takeKCC);
-    const remainingDongshin = shuffledDongshin.slice(takeDongshin);
-    const remainingYuseong = shuffledYuseong.slice(takeYuseong);
-    const fillPool = [...remainingKcc, ...remainingDongshin, ...remainingYuseong, ...otherItems].sort(() => 0.5 - Math.random());
-
-    while (selected.length < 8 && fillPool.length > 0) {
-      const nextItem = fillPool.shift();
-      if (!selected.some(s => s.id === nextItem.id || s.code === nextItem.code)) {
-        selected.push(nextItem);
-      }
-    }
-
-    // Fallback to general pool if less than 8
-    if (selected.length < 8) {
-      const remainingFill = featuredPool
-        .filter(p => !selected.some(s => s.id === p.id || s.code === p.code))
-        .sort(() => 0.5 - Math.random());
-      
-      while (selected.length < 8 && remainingFill.length > 0) {
-        selected.push(remainingFill.shift());
-      }
-    }
-
-    // Shuffle the final 8 list so it mixes brand names
-    return selected.sort(() => 0.5 - Math.random());
-  }, [featuredPool]);
-
-  // Randomized category selection (persisted during the browser session)
-  const [randomCategory] = useState(() => {
     try {
-      const cached = sessionStorage.getItem('dk_home_random_category');
-      if (cached) {
-        const found = RANDOM_CATEGORIES.find(c => c.name === cached);
-        if (found) return found;
+      const cartData = localStorage.getItem("estimate_cart_items");
+      if (cartData) {
+        const parsed = JSON.parse(cartData);
+        if (Array.isArray(parsed)) {
+          setCartCount(parsed.reduce((sum, item) => sum + (parseInt(item.quantity) || 1), 0));
+        }
       }
-      const selected = RANDOM_CATEGORIES[Math.floor(Math.random() * RANDOM_CATEGORIES.length)];
-      sessionStorage.setItem('dk_home_random_category', selected.name);
-      return selected;
-    } catch {
-      return RANDOM_CATEGORIES[0];
+    } catch (e) {
+      console.warn("Failed to parse cart items count:", e);
     }
-  });
-
-  const [estimateImg, setEstimateImg] = useState("/images/home/consulting-estimate.webp");
+  }, []);
 
   // Fetch portfolio cases from Supabase
   useEffect(() => {
@@ -632,13 +351,7 @@ export default function Home() {
     loadProjects();
   }, []);
 
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % HERO_SLIDES.length);
-    }, 5000);
-    return () => clearInterval(timer);
-  }, []);
-
+  // Fetch Featured materials from Supabase
   useEffect(() => {
     let isMounted = true;
     setIsFeaturedLoading(true);
@@ -650,8 +363,6 @@ export default function Home() {
 
       if (supabase) {
         try {
-          console.log("[Home] Fetching KCC, 동신, 유성 products from Supabase...");
-          // Brand IDs for KCC (1), 동신 (5), 유성 (6)
           const { data: rawChunk, error } = await supabase
             .from("products")
             .select(`
@@ -666,12 +377,7 @@ export default function Home() {
           if (!error && rawChunk && rawChunk.length > 0) {
             activeProducts = rawChunk;
           } else {
-            if (error) {
-              console.warn("[Home] Brand filtered Supabase query returned error:", error);
-              fetchErrorOccurred = true;
-            }
-            // If the filtered query returned nothing, try a generic query for active products
-            console.log("[Home] Trying general active products fetch from Supabase...");
+            if (error) fetchErrorOccurred = true;
             const { data: fallbackChunk, error: fallbackError } = await supabase
               .from("products")
               .select(`
@@ -685,19 +391,14 @@ export default function Home() {
             if (!fallbackError && fallbackChunk && fallbackChunk.length > 0) {
               activeProducts = fallbackChunk;
             } else if (fallbackError) {
-              console.warn("[Home] General Supabase query returned error:", fallbackError);
               fetchErrorOccurred = true;
             }
           }
         } catch (e) {
-          console.warn("[Home] Fast featured query failed with exception, falling back to local database:", e);
           fetchErrorOccurred = true;
         }
-      } else {
-        console.log("[Home] Supabase not available, using local database");
       }
 
-      // Map to frontend structure
       let mapped = [];
       if (activeProducts && activeProducts.length > 0) {
         mapped = activeProducts.map(p => ({
@@ -722,9 +423,7 @@ export default function Home() {
         }));
       }
 
-      // Fallback to local materials if mapping is empty or if error occurred
       if (mapped.length === 0) {
-        console.log("[Home] Resolving featured items from local materials database...");
         mapped = (materials || []).map(m => ({
           id: m.id || m.code,
           code: m.code || "",
@@ -760,64 +459,58 @@ export default function Home() {
     return () => { isMounted = false; };
   }, []);
 
-  // 5 Material categories
-  const categories = [
-    { 
-      name: "데코타일", 
-      engName: "DECO TILE", 
-      desc: "상업공간과 주거공간 모두에 어울리는 실용적인 바닥재", 
-      image: "/images/categories/category-deco-tile.jpg", 
-      fallbackImage: "/images/categories/category-deco-tile.jpg",
-      path: "/materials?category=데코타일" 
-    },
-    { 
-      name: "장판", 
-      engName: "CUSHION FLOOR", 
-      desc: "생활감과 편안함을 고려한 주거용 바닥재", 
-      image: "/images/categories/category-cushion-floor.jpg", 
-      fallbackImage: "/images/categories/category-cushion-floor.jpg",
-      path: "/materials?category=장판" 
-    },
-    { 
-      name: "마루", 
-      engName: "WOOD FLOORING", 
-      desc: "공간에 따뜻한 결을 더하는 프리미엄 목질 바닥재", 
-      image: "/images/categories/category-wood-flooring.png", 
-      fallbackImage: "/images/categories/category-wood-flooring.png",
-      path: "/materials?category=마루" 
-    },
-    { 
-      name: "벽지", 
-      engName: "PREMIUM WALLPAPER", 
-      desc: "벽면의 분위기를 완성하는 다양한 패턴 and 질감", 
-      image: "/images/categories/category-wallpaper.png", 
-      fallbackImage: "/images/categories/category-wallpaper.png",
-      path: "/materials?category=벽지" 
-    },
-    { 
-      name: "카페트타일", 
-      engName: "CARPET TILE", 
-      desc: "오피스와 상업공간에 적합한 모듈형 바닥재", 
-      image: "/images/categories/category-carpet-tile.png", 
-      fallbackImage: "/images/categories/category-carpet-tile.png",
-      path: "/materials?category=카페트타일" 
+  // Balanced recommendation pool
+  const featuredItems = useMemo(() => {
+    if (!featuredPool || featuredPool.length === 0) return [];
+    
+    const kccItems = featuredPool.filter(m => m.brand === "KCC");
+    const yuseongItems = featuredPool.filter(m => m.brand === "유성");
+    const dongshinItems = featuredPool.filter(m => m.brand === "동신");
+    const otherItems = featuredPool.filter(m => !["KCC", "유성", "동신"].includes(m.brand));
+
+    const shuffledKcc = [...kccItems].sort(() => 0.5 - Math.random());
+    const shuffledYuseong = [...yuseongItems].sort(() => 0.5 - Math.random());
+    const shuffledDongshin = [...dongshinItems].sort(() => 0.5 - Math.random());
+
+    const selected = [];
+    const targetKCC = 3;
+    const targetDongshin = 3;
+    const targetYuseong = 2;
+
+    const takeKCC = Math.min(targetKCC, shuffledKcc.length);
+    const takeDongshin = Math.min(targetDongshin, shuffledDongshin.length);
+    const takeYuseong = Math.min(targetYuseong, shuffledYuseong.length);
+
+    for (let i = 0; i < takeKCC; i++) selected.push(shuffledKcc[i]);
+    for (let i = 0; i < takeDongshin; i++) selected.push(shuffledDongshin[i]);
+    for (let i = 0; i < takeYuseong; i++) selected.push(shuffledYuseong[i]);
+
+    const remainingKcc = shuffledKcc.slice(takeKCC);
+    const remainingDongshin = shuffledDongshin.slice(takeDongshin);
+    const remainingYuseong = shuffledYuseong.slice(takeYuseong);
+    const fillPool = [...remainingKcc, ...remainingDongshin, ...remainingYuseong, ...otherItems].sort(() => 0.5 - Math.random());
+
+    while (selected.length < 8 && fillPool.length > 0) {
+      const nextItem = fillPool.shift();
+      if (!selected.some(s => s.id === nextItem.id || s.code === nextItem.code)) {
+        selected.push(nextItem);
+      }
     }
-  ];
 
-  // Select 4 major brand samplebooks for home feature
-  const homeSampleBooks = useMemo(() => {
-    const targets = ["lx-new-chungmac-2025", "dongshin-polyma-samplebook", "kcc-senstyle-trendy-2025", "gaenari-artbook"];
-    return sampleBooks.filter(b => targets.includes(b.id));
-  }, []);
+    if (selected.length < 8) {
+      const remainingFill = featuredPool
+        .filter(p => !selected.some(s => s.id === p.id || s.code === p.code))
+        .sort(() => 0.5 - Math.random());
+      
+      while (selected.length < 8 && remainingFill.length > 0) {
+        selected.push(remainingFill.shift());
+      }
+    }
 
-  const [heroActive, setHeroActive] = useState(false);
+    return selected.slice(0, 8).sort(() => 0.5 - Math.random());
+  }, [featuredPool]);
 
-  // Trigger Hero Intro immediately on mount
-  useEffect(() => {
-    setHeroActive(true);
-  }, []);
-
-  // Scroll Reveal Observer (High Performance, unobserves once active)
+  // Scroll Reveal Observer
   useEffect(() => {
     const reveals = document.querySelectorAll(".reveal");
     const observer = new IntersectionObserver(
@@ -825,11 +518,11 @@ export default function Home() {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add("active");
-            observer.unobserve(entry.target); // Stop tracking once animated to save resources
+            observer.unobserve(entry.target);
           }
         });
       },
-      { threshold: 0.12, rootMargin: "0px 0px -8% 0px" }
+      { threshold: 0.08, rootMargin: "0px 0px -5% 0px" }
     );
 
     reveals.forEach((el) => observer.observe(el));
@@ -839,525 +532,375 @@ export default function Home() {
     };
   }, [featuredItems, dbProjects]);
 
-  const recImageObj = todayRecommended ? resolveMaterialImage(todayRecommended) : null;
-  const recImgUrl = recImageObj?.src || '/images/no-image.svg';
-  const recImgAlt = recImageObj?.alt || '추천 자재 이미지';
-
   return (
     <MainLayout>
-      <div className="showroom-home-layout">
+      <div className="showroom-home-layout redesign-premium-theme">
         
-        {/* ==========================================
-           1. Hero Section (B2B Redesigned: Two Column Layout)
-           ========================================== */}
-        <section className={`showroom-hero-b2b ${heroActive ? "hero-active" : ""}`}>
-          <div className="hero-b2b-bg-wrapper">
-            <video
-              className="hero-b2b-video"
-              autoPlay={!prefersReducedMotion}
-              muted
-              loop
-              playsInline
-              poster="/videos/hero-animation-poster.jpg"
-            >
-              <source src="/videos/hero-animation.mp4" type="video/mp4" />
-            </video>
-            <div className="hero-b2b-overlay" />
+        {/* 1. 히어로 섹션 */}
+        <section className="showroom-hero-redesign">
+          <div className="hero-redesign-bg-wrapper">
+            <div className="hero-redesign-overlay" />
+            <img src="/images/home/main-hero-interior.webp" alt="동경바닥재 메인 비주얼" className="hero-redesign-img" onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = "/images/cross_section.png"; }} />
           </div>
-          <div className="hero-b2b-container container">
-            {/* Left Content Column */}
-            <div className="hero-b2b-content">
-              <span className="hero-b2b-badge">B2B 전문 바닥재 유통 파트너</span>
-              <h1 className="hero-b2b-title">
-                현장에 필요한 모든 바닥재,<br />
-                <strong>동경바닥재</strong> 하나로
+          <div className="hero-redesign-container container">
+            <div className="hero-redesign-content">
+              <span className="hero-redesign-badge">자재 공급 & 전문 시공 파트너</span>
+              <h1 className="hero-redesign-title">
+                자재 선택부터 전문 시공까지<br />
+                <strong>공간의 완성을 함께합니다.</strong>
               </h1>
-              <p className="hero-b2b-subtitle">
-                국내 1군 브랜드 데코타일, 장판, 마루, 카페트타일을 대량 도매 단가로 신속하게 공급합니다. 실시간 도매 견적 문의부터 정밀 책임 시공까지 원스톱으로 확인하세요.
+              <p className="hero-redesign-subtitle">
+                데코타일, 장판, 마루, 벽지부터 현장에 필요한 부자재까지<br />
+                정확한 제품 정보와 합리적인 자재 공급, 전문 시공 상담을 제공합니다.
               </p>
-              <div className="hero-b2b-actions">
-                <button className="btn-b2b-hero primary" onClick={() => nav("/estimate/request")}>
-                  빠른 견적 요청
+              <div className="hero-redesign-actions">
+                <button className="btn-hero-redesign primary" onClick={() => nav("/materials")}>
+                  자재 둘러보기
                 </button>
-                <button className="btn-b2b-hero secondary" onClick={() => nav("/materials")}>
-                  자재 찾기
-                </button>
-                <button className="btn-b2b-hero outline" onClick={() => nav("/samplebooks")}>
-                  샘플북 보기
+                <button className="btn-hero-redesign secondary" onClick={() => nav("/estimate/request")}>
+                  견적 요청하기
                 </button>
               </div>
-            </div>
-
-            {/* Right B2B Recommendation Card */}
-            <div className="hero-b2b-visual">
-              <div className="b2b-recommendation-card">
-                <div className="b2b-rec-header">
-                  <span className="b2b-rec-tag">🔥 오늘의 B2B 추천 자재</span>
-                  <span className="b2b-rec-delivery-badge">
-                    {todayRecommended?.category === '장판' ? "m 단위 절단 판매" : "50평 이상 무료배송"}
-                  </span>
-                </div>
-                <div className="b2b-rec-image-box" style={{ position: 'relative' }}>
-                  <img 
-                    src={recImgUrl} 
-                    alt={recImgAlt} 
-                    className="b2b-rec-img"
-                    onError={(e) => { e.target.onerror = null; e.target.src = "/images/no-image.svg"; }}
-                  />
-                  {recImageObj?.isPlaceholder && (
-                    <div className="b2b-rec-img-placeholder-overlay" style={{
-                      position: 'absolute',
-                      top: 0,
-                      left: 0,
-                      width: 100 + '%',
-                      height: 100 + '%',
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      backgroundColor: 'rgba(0,0,0,0.05)',
-                      color: 'var(--text-muted)',
-                      fontSize: '13px',
-                      fontWeight: '700'
-                    }}>
-                      <span>이미지 준비중</span>
-                    </div>
-                  )}
-                </div>
-                <div className="b2b-rec-info">
-                  <div className="b2b-rec-brand-row">
-                    <span className="b2b-rec-brand">{todayRecommended?.brand || "LX하우시스"}</span>
-                    {todayRecommended?.code && (
-                      <span className="b2b-rec-code">{todayRecommended.code}</span>
-                    )}
-                  </div>
-                  <h3 className="b2b-rec-title">{todayRecommended?.name || "엑스컴포트 5.0T"}</h3>
-                  <div className="b2b-rec-specs">
-                    <span>규격: {todayRecommended?.specs?.size || "5.0mm(T) x 1.83m x 롤단위"}</span>
-                    <span>구성: {todayRecommended?.specs?.packing || "m 단위 절단 판매"}</span>
-                  </div>
-                  <div className="b2b-rec-price-row">
-                    <span className="b2b-rec-price-label">도매가</span>
-                    <span className="b2b-rec-price">
-                      {todayRecommended?.price ? `${todayRecommended.price.toLocaleString()}원` : "가격문의"}
-                      <small> / 평</small>
-                    </span>
-                  </div>
-                  <div className="b2b-rec-actions">
-                    <button 
-                      className="btn-b2b-rec primary" 
-                      onClick={() => nav(`/estimate/request`, { state: { selectedProduct: todayRecommended } })}
-                    >
-                      실시간 견적요청
-                    </button>
-                    <button 
-                      className="btn-b2b-rec secondary" 
-                      onClick={() => nav(`/materials?category=${todayRecommended?.category || '장판'}&brand=${todayRecommended?.brand === 'LX하우시스' ? 'LX' : todayRecommended?.brand || ''}`)}
-                    >
-                      자재 더 보기
-                    </button>
-                  </div>
-                </div>
+              <div className="hero-redesign-subactions">
+                <span onClick={() => nav("/samplebooks")}>📖 샘플북 보기</span>
+                <span className="separator">|</span>
+                <a href="tel:02-487-9775" style={{ color: 'inherit', textDecoration: 'none' }}>📞 전화 상담 (02-487-9775)</a>
               </div>
             </div>
           </div>
         </section>
 
-        {/* ==========================================
-           1.5 B2B Trust Grid Section
-           ========================================== */}
-        <section className="showroom-stats-strip">
+        {/* 2. 핵심 신뢰 요소 섹션 */}
+        <section className="showroom-trust-redesign">
           <div className="container">
-            <div className="b2b-trust-grid">
-              <div className="b2b-trust-card">
-                <div className="b2b-trust-icon">🏆</div>
-                <div className="b2b-trust-content">
-                  <h3 className="b2b-trust-title">20년+ 시공 경험</h3>
-                  <p className="b2b-trust-desc">바닥재 한 분야만 깊이 파온 정밀 책임 시공 노하우</p>
-                </div>
+            <div className="trust-redesign-grid">
+              <div className="trust-redesign-card">
+                <div className="trust-card-icon-box">🏆</div>
+                <h3>20년 이상 현장 경험</h3>
+                <p>자재 이해와 풍부한 현장 노하우를 바탕으로 정확하게 상담합니다.</p>
               </div>
-              <div className="b2b-trust-card">
-                <div className="b2b-trust-icon">🚚</div>
-                <div className="b2b-trust-content">
-                  <h3 className="b2b-trust-title">50평 이상 무료배송</h3>
-                  <p className="b2b-trust-desc">대량 발주 시 현장 운송 비용 부담을 덜어드립니다</p>
-                </div>
+              <div className="trust-redesign-card">
+                <div className="trust-card-icon-box">📦</div>
+                <h3>전문 자재 유통</h3>
+                <p>주요 브랜드의 바닥재·벽지·부자재를 한곳에서 확인할 수 있습니다.</p>
               </div>
-              <div className="b2b-trust-card">
-                <div className="b2b-trust-icon">🛡️</div>
-                <div className="b2b-trust-content">
-                  <h3 className="b2b-trust-title">정품 브랜드 취급</h3>
-                  <p className="b2b-trust-desc">KCC, 동신, LX 등 제조사 인증 100% 정품 유통</p>
-                </div>
+              <div className="trust-redesign-card">
+                <div className="trust-card-icon-box">🚚</div>
+                <h3>50평 이상 무료배송</h3>
+                <p>동일 브랜드 데코타일 50평 이상 주문 시 배송 조건에 따라 무료배송이 가능합니다.</p>
+                <span className="trust-card-note">* 브랜드, 수량, 지역 및 배송조건에 따라 달라질 수 있음</span>
               </div>
-              <div className="b2b-trust-card" onClick={() => window.open(KAKAO_CHAT_URL, '_blank')}>
-                <div className="b2b-trust-icon">💬</div>
-                <div className="b2b-trust-content">
-                  <h3 className="b2b-trust-title">카카오톡 빠른 상담</h3>
-                  <p className="b2b-trust-desc">견적 문의부터 현장 자재 매칭까지 신속하게 연결</p>
-                </div>
+              <div className="trust-redesign-card">
+                <div className="trust-card-icon-box">🛠️</div>
+                <h3>자재 구매부터 시공까지</h3>
+                <p>자재만 구매하거나 시공을 포함한 전체 견적을 한 번에 요청할 수 있습니다.</p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* ==========================================
-           2. B2B Material Categories (B단계)
-           ========================================== */}
-        <section className="showroom-category-v2">
-          <div className="section-header-v2 container reveal">
-            <span className="section-subtitle-v2">MATERIAL CATEGORIES</span>
-            <h2 className="section-title-v2">취급 자재 카테고리</h2>
-            <p className="section-desc-v2">
-              업계에서 검증된 정품 자재군을 카테고리별로 신속하게 탐색하고 자재 도매 가격을 의뢰하세요.
-            </p>
-          </div>
-
-          <div className="category-v2-grid container">
-            {categories.map((cat, idx) => (
-              <div 
-                key={idx} 
-                className="category-v2-card reveal" 
-                style={{ "--delay": `${idx * 80}ms` }}
-                onClick={() => nav(cat.path)}
-              >
-                <div className="category-v2-card-img-wrap">
-                  <CategoryCardImage 
-                    src={cat.image} 
-                    fallback={cat.fallbackImage} 
-                    alt={cat.name} 
-                  />
-                </div>
-                <div className="category-v2-card-body">
-                  <span className="category-v2-card-eng">{cat.engName}</span>
-                  <h3 className="category-v2-card-title">{cat.name}</h3>
-                  <p className="category-v2-card-desc">{cat.desc}</p>
-                  <span className="category-v2-card-link">
-                    자재 보기 <ChevronRight size={14} />
-                  </span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* ==========================================
-           2.8 Today's Recommended Category Banner (Randomized)
-           ========================================== */}
-        <section className="showroom-random-banner">
-          <div className="random-banner-container container reveal">
-            <div className="random-banner-card">
-              <div className="random-banner-img-wrap">
-                <img 
-                  src={randomCategory.image} 
-                  alt={randomCategory.name} 
-                  className="random-banner-img"
-                  onError={(e) => {
-                    e.target.onerror = null;
-                    e.target.src = randomCategory.fallback;
-                  }}
-                  loading="lazy"
-                />
-                <div className="random-banner-overlay"></div>
-              </div>
-              <div className="random-banner-content">
-                <span className="random-banner-tag">TODAY'S SELECTION</span>
-                <h2 className="random-banner-title">{randomCategory.name}</h2>
-                <p className="random-banner-desc">{randomCategory.desc}</p>
-                <button 
-                  className="btn-random-banner-go" 
-                  onClick={() => nav(randomCategory.path)}
+        {/* 3. 빠른 카테고리 탐색 */}
+        <section className="showroom-quick-categories">
+          <div className="container">
+            <div className="section-header-redesign">
+              <span className="sec-sub">QUICK NAVIGATION</span>
+              <h2 className="sec-title">빠른 자재 탐색</h2>
+              <p className="sec-desc">공간과 용도에 맞춰 취급 자재 종류를 빠르게 둘러보세요.</p>
+            </div>
+            <div className="quick-categories-grid">
+              {[
+                { name: "데코타일", desc: "상업용/주거용 하이엔드 바닥재", img: "/images/categories/category-deco-tile.jpg", fallback: "/images/categories/category-deco-tile.jpg" },
+                { name: "장판", desc: "보행감이 아늑하고 안전한 시트 바닥재", img: "/images/categories/category-cushion-floor.jpg", fallback: "/images/categories/category-cushion-floor.jpg" },
+                { name: "마루", desc: "목재 특유의 내추럴한 프리미엄 바닥재", img: "/images/categories/category-wood-flooring.png", fallback: "/images/categories/category-wood-flooring.png" },
+                { name: "벽지", desc: "다양한 질감의 프리미엄 실크/합지 벽지", img: "/images/categories/category-wallpaper.png", fallback: "/images/categories/category-wallpaper.png" },
+                { name: "카페트타일", desc: "오피스/상업공간용 모듈형 바닥재", img: "/images/categories/category-carpet-tile.png", fallback: "/images/categories/category-carpet-tile.png" },
+                { name: "부자재", desc: "본드, 마감재 등 현장 필수 용품", img: "/images/categories/category-accessories.png", fallback: "/images/cross_section.png" }
+              ].map((cat) => (
+                <div 
+                  key={cat.name} 
+                  className="quick-cat-card"
+                  onClick={() => nav(`/materials?category=${cat.name}`)}
                 >
-                  자재 보러가기
-                </button>
-              </div>
+                  <div className="quick-cat-img-box">
+                    <CategoryCardImage src={cat.img} fallback={cat.fallback} alt={cat.name} />
+                  </div>
+                  <div className="quick-cat-body">
+                    <h3>{cat.name}</h3>
+                    <p>{cat.desc}</p>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </section>
 
-        {/* ==========================================
-           3. Sample Book Section (Catalog Layout)
-           ========================================== */}
-        <section className="showroom-samplebooks-v2">
-          <div className="section-header-v2 container reveal">
-            <span className="section-subtitle-v2">DIGITAL CATALOG</span>
-            <h2 className="section-title-v2">브랜드별 샘플북</h2>
-            <p className="section-desc-v2">
-              KCC, LX, 동신, 개나리 등 주요 브랜드의 샘플북을 온라인 카탈로그로 한눈에 확인하세요.
-            </p>
-          </div>
-
-          <div className="samplebooks-v2-grid container">
-            {homeSampleBooks.map((book, idx) => (
-              <div 
-                key={book.id} 
-                className="samplebook-v2-card reveal"
-                style={{ "--delay": `${idx * 80}ms` }}
-                onClick={() => {
-                  if (book.openInNewTab) {
-                    window.open(book.pdf || "#", "_blank", "noopener,noreferrer");
-                  } else {
-                    nav(`/samplebooks?bookId=${book.id}`);
-                  }
-                }}
-              >
-                <div className="samplebook-v2-cover-frame">
-                  <img src={book.cover || "/images/cross_section.png"} alt={book.title} className="samplebook-v2-cover-img" />
-                  <div className="samplebook-v2-overlay-btn">
-                    <BookOpen size={16} /> <span>샘플북 열기</span>
-                  </div>
+        {/* 4. 추천 자재 섹션 */}
+        <section className="showroom-recommended-materials">
+          <div className="container">
+            <div className="section-header-redesign">
+              <span className="sec-sub">RECOMMENDED MATERIALS</span>
+              <h2 className="sec-title">추천 자재</h2>
+              <p className="sec-desc">실제 현장에서 가장 선호도가 높고 사양이 입증된 제품들을 제안합니다.</p>
+            </div>
+            <div className="recommended-materials-grid">
+              {isFeaturedLoading ? (
+                Array.from({ length: 8 }).map((_, idx) => <SkeletonCard key={idx} />)
+              ) : featuredItems.length > 0 ? (
+                featuredItems.map((mat, idx) => (
+                  <FeaturedCard key={mat.id || mat.code || idx} mat={mat} idx={idx} />
+                ))
+              ) : (
+                <div className="recommended-empty-box">
+                  <p>추천 상품 정보를 확인하는 중입니다.</p>
+                  <button className="btn-go-materials" onClick={() => nav("/materials")}>자재 전체보기</button>
                 </div>
-                <div className="samplebook-v2-info">
-                  <span className="samplebook-v2-brand">{book.brand}</span>
-                  <h3 className="samplebook-v2-title">{book.title}</h3>
-                  <p className="samplebook-v2-desc">{book.description}</p>
-                  {book.pdf && (
-                    <a 
-                      href={book.pdf} 
-                      download 
-                      onClick={(e) => e.stopPropagation()} 
-                      className="samplebook-v2-download-btn"
-                    >
-                      <Download size={13} /> <span>PDF 다운로드</span>
-                    </a>
-                  )}
-                </div>
-              </div>
-            ))}
+              )}
+            </div>
           </div>
         </section>
 
-        {/* ==========================================
-           4. Featured Materials Section (Curation Grid)
-           ========================================== */}
-        <section className="showroom-featured-v2">
-          <div className="section-header-v2 container reveal">
-            <span className="section-subtitle-v2">CURATED LIST</span>
-            <h2 className="section-title-v2">추천 자재</h2>
-            <p className="section-desc-v2">
-              현장에서 선호도가 높고 품질과 시공 편의성이 검증된 도매 유통 자재군을 소개합니다.
-            </p>
-          </div>
-
-          <div className="featured-v2-grid container">
-            {isFeaturedLoading ? (
-              Array.from({ length: 8 }).map((_, idx) => <SkeletonCard key={idx} />)
-            ) : featuredItems.length > 0 ? (
-              featuredItems.map((mat, idx) => (
-                <FeaturedCard key={mat.id || mat.code || idx} mat={mat} idx={idx} />
-              ))
-            ) : (
-              <div className="no-featured-items-msg">추천 자재를 불러오고 있습니다...</div>
-            )}
-          </div>
-        </section>
-
-        {/* ==========================================
-           5. Project / 시공사례 Section
-           ========================================== */}
-        <section className="showroom-projects-v2">
-          <div className="section-header-v2 container reveal">
-            <span className="section-subtitle-v2">PORTFOLIO</span>
-            <h2 className="section-title-v2">주요 시공사례</h2>
-            <p className="section-desc-v2">
-              아파트, 상가, 오피스 등 다양한 현장에 공급된 바닥재 및 벽지 시공 사례를 소개합니다.
-            </p>
-          </div>
-
-          <div className="projects-v2-grid container">
-            {(dbProjects.length > 0 ? dbProjects : projects).map((proj, idx) => (
-              <div 
-                key={proj.id} 
-                className="project-v2-card reveal"
-                style={{ "--delay": `${idx * 80}ms` }}
-              >
-                <div className="project-v2-img-frame">
-                  <img src={proj.image} alt={proj.title} className="project-v2-img" />
-                </div>
-                <div className="project-v2-body">
-                  <span className="project-v2-cat">{proj.category}</span>
-                  <h3 className="project-v2-title">{proj.title}</h3>
-                  <div className="project-v2-details">
-                    <div className="project-v2-detail-item">
-                      <span className="detail-lbl">공급 자재</span>
-                      <span className="detail-val">{proj.material}</span>
-                    </div>
-                    <div className="project-v2-detail-item">
-                      <span className="detail-lbl">시공 범위</span>
-                      <span className="detail-val">{proj.range}</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* ==========================================
-           5.5 Official Partner Brands Carousel (Draggable)
-           ========================================== */}
+        {/* 5. 주요 브랜드 */}
         <BrandLogosCarousel />
 
-        {/* ==========================================
-           5.8 Large Text Marquee Section (F단계)
-           ========================================== */}
-        <section className="showroom-marquee-section">
-          <div className="marquee-container">
-            <div className="marquee-inner">
-              <span>동경바닥재 MATERIAL ORDER · SAMPLE BOOK · QUICK ESTIMATE · FLOORING MATERIAL · WALLPAPER · DECO TILE · </span>
-              <span>동경바닥재 MATERIAL ORDER · SAMPLE BOOK · QUICK ESTIMATE · FLOORING MATERIAL · WALLPAPER · DECO TILE · </span>
+        {/* 6. 배송 방식 안내 */}
+        <section className="showroom-delivery-info">
+          <div className="container">
+            <div className="section-header-redesign">
+              <span className="sec-sub">SHIPPING SERVICES</span>
+              <h2 className="sec-title">배송 방식 안내</h2>
+              <p className="sec-desc">현장 상황과 물량에 최적화된 신속하고 확실한 유통망을 통해 발송됩니다.</p>
+            </div>
+            <div className="delivery-info-grid">
+              <div className="delivery-info-card">
+                <div className="delivery-icon-title">
+                  <span className="d-icon">🚚</span>
+                  <h3>무료배송</h3>
+                </div>
+                <p className="d-desc">동일 브랜드 데코타일 50평 이상 주문 시 적용 가능하며, 입력하신 현장/배송지 주소로 직접 배송됩니다.</p>
+                <span className="d-caution">* 최종 적용 가능 여부는 브랜드, 지역, 제품별 주문 수량 조건에 따라 상담 후 조율됩니다.</span>
+              </div>
+              <div className="delivery-info-card">
+                <div className="delivery-icon-title">
+                  <span className="d-icon">🏢</span>
+                  <h3>대신화물 배송</h3>
+                </div>
+                <p className="d-desc">50평 미만 주문 시의 기본 배송 방식입니다. 입력한 배송지 인근 대신화물 영업소 지점으로 발송됩니다.</p>
+                <span className="d-caution">* 화물 비용은 지점 내방 수령 시 착불로 청구되며, 주문 검수 후 영업지점과 상세 비용이 안내됩니다.</span>
+              </div>
+              <div className="delivery-info-card">
+                <div className="delivery-icon-title">
+                  <span className="d-icon">⚡</span>
+                  <h3>퀵 배송</h3>
+                </div>
+                <p className="d-desc">현장 긴급 자재 수령이 필요한 경우, 재고 현황 및 주문 접수시간 조건에 따라 당일 배송해 드립니다.</p>
+                <span className="d-caution">* 배송 거리와 화물 톤수에 비례해 별도 운임(착불)이 책정되며 주문 확인 후 안내됩니다.</span>
+              </div>
+              <div className="delivery-info-card">
+                <div className="delivery-icon-title">
+                  <span className="d-icon">📦</span>
+                  <h3>직접 수령</h3>
+                </div>
+                <p className="d-desc">하남에 위치한 동경바닥재 물류창고/사무실에 고객님 또는 배송 기사가 직접 방문하여 인수받는 방식입니다.</p>
+                <span className="d-caution">* 방문 전 반드시 해당 자재의 재고 상황과 출고 준비 상태 확인이 사전에 이루어져야 합니다.</span>
+              </div>
             </div>
           </div>
         </section>
 
-        {/* ==========================================
-           5.9 B2B Order & Consultation Flow Section
-           ========================================== */}
-        <section className="showroom-process-v2">
-          <div className="section-header-v2 container reveal">
-            <span className="section-subtitle-v2">ORDER FLOW</span>
-            <h2 className="section-title-v2">주문/상담 흐름 안내</h2>
-            <p className="section-desc-v2">
-              동경바닥재의 신속하고 정확한 B2B 자재 공급 및 시공 프로세스입니다.
-            </p>
-          </div>
-
-          <div className="process-v2-grid container reveal">
-            <div className="process-v2-card" style={{ "--delay": "0ms" }}>
-              <div className="process-num">01</div>
-              <h3 className="process-title">자재 선택</h3>
-              <p className="process-desc">
-                간편하게 브랜드 샘플북과 추천 자재를 검색하고 원하시는 사양을 확인합니다.
-              </p>
+        {/* 7. 자재별 부자재 안내 */}
+        <section className="showroom-accessories-guide">
+          <div className="container">
+            <div className="section-header-redesign">
+              <span className="sec-sub">ACCESSORIES RECOMMENDATION</span>
+              <h2 className="sec-title">자재별 필수 부자재 안내</h2>
+              <p className="sec-desc">하자 없는 완벽한 시공을 위해 자재와 함께 꼭 준비해야 할 품목들입니다.</p>
             </div>
-            <div className="process-v2-card" style={{ "--delay": "80ms" }}>
-              <div className="process-num">02</div>
-              <h3 className="process-title">견적 요청</h3>
-              <p className="process-desc">
-                원하시는 수량과 현장 주소를 입력해주시면 실시간 도매 가격을 산출하여 제안해 드립니다.
-              </p>
-            </div>
-            <div className="process-v2-card" style={{ "--delay": "160ms" }}>
-              <div className="process-num">03</div>
-              <h3 className="process-title">상담 및 납품/시공</h3>
-              <p className="process-desc">
-                단가 확정 시 신속 출고하여 지정 화물지점이나 현장으로 직송하며, 전문 시공 연계를 지원합니다.
-              </p>
-            </div>
-          </div>
-
-          <div className="process-v2-cta-container container reveal">
-            <div className="process-v2-cta-box">
-              <div className="cta-box-text">
-                <span className="cta-box-sub">B2B FAST DELIVERY</span>
-                <h3 className="cta-box-title">오늘 주문하면 내일 선별 현장에서 만나요</h3>
+            <div className="accessories-guide-grid">
+              <div className="acc-guide-card">
+                <h4>데코타일 시공 부자재</h4>
+                <div className="acc-guide-items">
+                  {["본드", "분리대", "수지마감재", "돼지본드", "노본"].map(name => (
+                    <span key={name} className="acc-guide-tag">{name}</span>
+                  ))}
+                </div>
+                <p className="acc-guide-note">시공 방식 and 바닥 마감 재질에 적합한 본드와 마감재를 선택해 주세요.</p>
               </div>
-              <button className="cta-box-btn" onClick={() => nav("/estimate/request")}>
-                빠른 견적 요청
+              <div className="acc-guide-card">
+                <h4>장판 시공 부자재</h4>
+                <div className="acc-guide-items">
+                  {["륨본드", "용착제(시공구)세트", "수지마감재", "논슬립경보", "논슬립중보", "노본"].map(name => (
+                    <span key={name} className="acc-guide-tag">{name}</span>
+                  ))}
+                </div>
+                <p className="acc-guide-note">장판 이음부 융착제 시공과 계단/모서리 부분 논슬립 고정에 필수적입니다.</p>
+              </div>
+              <div className="acc-guide-card">
+                <h4>벽지 시공 부자재</h4>
+                <div className="acc-guide-items">
+                  {["코너각대", "현장풀", "풀네바리", "도배실리콘", "운용지2절", "운용지3절", "부직포(110)", "부직포(120)", "바인다"].map(name => (
+                    <span key={name} className="acc-guide-tag">{name}</span>
+                  ))}
+                </div>
+                <p className="acc-guide-note">초배지 및 코너각대 등 정교한 도배 품질과 벽체 보강에 필수적인 부자재 목록입니다.</p>
+              </div>
+            </div>
+            <div className="accessories-guide-footer">
+              <div className="acc-guide-footer-box">
+                <span className="info-badge">안내</span>
+                <p>마루는 별도 부자재 추천 단계를 거치지 않고 현장 사양과 공법에 따라 직접 안내해 드립니다.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 8. 시공사례 */}
+        <section className="showroom-portfolio">
+          <div className="container">
+            <div className="section-header-redesign">
+              <span className="sec-sub">PORTFOLIO CASE STUDY</span>
+              <h2 className="sec-title">주요 시공사례</h2>
+              <p className="sec-desc">전국 아파트, 상업공간, 오피스 빌딩 등에 전문 납품/시공된 실적입니다.</p>
+            </div>
+            <div className="portfolio-grid">
+              {(dbProjects.length > 0 ? dbProjects : projects).map((proj) => (
+                <div key={proj.id} className="portfolio-card">
+                  <div className="portfolio-img-box">
+                    <img src={proj.image} alt={proj.title} loading="lazy" />
+                    <span className="portfolio-cat-badge">{proj.category}</span>
+                  </div>
+                  <div className="portfolio-body">
+                    <h3>{proj.title}</h3>
+                    <div className="portfolio-details">
+                      <div className="p-detail">
+                        <span className="p-lbl">자재 정보:</span>
+                        <span className="p-val">{proj.material}</span>
+                      </div>
+                      <div className="p-detail">
+                        <span className="p-lbl">시공 범위:</span>
+                        <span className="p-val">{proj.range}</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className="portfolio-footer-action">
+              <button className="btn-portfolio-more" onClick={() => nav("/cases")}>시공사례 전체보기 <ChevronRight size={16} /></button>
+            </div>
+          </div>
+        </section>
+
+        {/* 9. 견적 요청 진행 과정 */}
+        <section className="showroom-est-steps">
+          <div className="container">
+            <div className="section-header-redesign">
+              <span className="sec-sub">ESTIMATION FLOW</span>
+              <h2 className="sec-title">견적 요청 진행 과정</h2>
+              <p className="sec-desc">몇 번의 선택만으로 정확하고 신속하게 맞춤형 도매 견적을 의뢰할 수 있습니다.</p>
+            </div>
+            <div className="est-steps-grid">
+              {[
+                { step: "01", name: "자재 또는 시공 종류 선택", desc: "데코타일, 장판, 마루 등 필요한 자재 종류 및 브랜드를 선택합니다." },
+                { step: "02", name: "평수와 현장 정보 입력", desc: "시공 범위 평수 및 현장 사양(엘리베이터 유무 등)을 작성합니다." },
+                { step: "03", name: "배송 및 부자재 선택", desc: "무료배송, 대신화물 지점 수령 여부 및 본드 등 부자재를 선택합니다." },
+                { step: "04", name: "상담 방식 선택", desc: "전화 상담, 온라인 메일 안내 등 희망하시는 상담 방식을 선택합니다." },
+                { step: "05", name: "견적 확인 및 연락", desc: "담당자 검토 후 신속하게 상세 도매 견적서 피드백을 전달해 드립니다." }
+              ].map(item => (
+                <div key={item.step} className="est-step-card">
+                  <div className="step-num">{item.step}</div>
+                  <h4>{item.name}</h4>
+                  <p>{item.desc}</p>
+                </div>
+              ))}
+            </div>
+            <div className="est-steps-action">
+              <button className="btn-est-flow-go" onClick={() => nav("/estimate/request")}>
+                온라인 견적 요청하기 <ArrowRight size={16} />
               </button>
             </div>
           </div>
         </section>
 
-        {/* ==========================================
-           6. B2B Trust Section (D단계 - 스탯 지표 수정)
-           ========================================== */}
-        <section className="showroom-trust-v2">
-          <div className="trust-v2-container container">
-            <div className="trust-v2-grid">
-              <div className="trust-v2-item reveal" style={{ "--delay": "0ms" }}>
-                <span className="trust-v2-num">20+</span>
-                <h4 className="trust-v2-title">현장 실무 경력</h4>
-                <p className="trust-v2-desc">20년 이상 오직 바닥재와 벽지 한 분야만을 전문으로 다져온 기술력과 자재 선별 노하우</p>
+        {/* 10. 전문 상담 및 시공 연결 */}
+        <section className="showroom-expert-consultation">
+          <div className="container">
+            <div className="expert-consultation-box">
+              <div className="expert-consult-text">
+                <h2>어떤 자재를 선택해야 할지 고민되시나요?</h2>
+                <p>공간 용도, 평수, 예산과 원하는 분위기를 알려주시면 자재 선택부터 필요한 부자재와 시공 상담까지 함께 안내해 드립니다.</p>
               </div>
-              <div className="trust-v2-item reveal" style={{ "--delay": "80ms" }}>
-                <span className="trust-v2-num">1,000+</span>
-                <h4 className="trust-v2-title">누적 시공·납품 현장</h4>
-                <p className="trust-v2-desc">아파트, 빌라, 상가, 사무실, 공공기관 등 다양한 규모와 환경의 성공적인 자재 납품 및 시공 레코드</p>
-              </div>
-              <div className="trust-v2-item reveal" style={{ "--delay": "160ms" }}>
-                <span className="trust-v2-num">주요 브랜드</span>
-                <h4 className="trust-v2-title">정품 자재 유통</h4>
-                <p className="trust-v2-desc">KCC글라스, LX하우시스, 동신포리마, 현대L&C 등 믿을 수 있는 국내 1군 브랜드 정품 취급</p>
-              </div>
-              <div className="trust-v2-item reveal" style={{ "--delay": "240ms" }}>
-                <span className="trust-v2-num">빠른 상담</span>
-                <h4 className="trust-v2-title">견적 및 자재 매칭</h4>
-                <p className="trust-v2-desc">상담 접수 시 현장 도면 및 사양 분석을 통해 가장 경제적이고 확실한 자재 선택을 지원</p>
+              <div className="expert-consult-buttons">
+                <button className="btn-expert-action primary" onClick={() => nav("/estimate/request")}>
+                  견적 상담 시작하기
+                </button>
+                <a href="tel:02-487-9775" className="btn-expert-action phone">
+                  <Phone size={16} /> 전화로 문의하기 (02-487-9775)
+                </a>
+                <a href={KAKAO_CHAT_URL} target="_blank" rel="noopener noreferrer" className="btn-expert-action kakao">
+                  💬 카카오톡 상담하기
+                </a>
               </div>
             </div>
           </div>
         </section>
 
-        {/* ==========================================
-           6.5 Customer Support, Contact, & Bank Info Section (E단계 결합)
-           ========================================== */}
-        <section className="showroom-contact-v2 reveal">
-          <div className="contact-v2-container container">
-            <div className="contact-v2-content-pane">
-              <span className="contact-v2-tag">CONSULTING & ESTIMATE</span>
-              <h2 className="contact-v2-heading">도매 거래처 및 현장 맞춤 상담<br />도매 견적부터 현장 시공까지</h2>
-              <p className="contact-v2-subheading">
-                업자, 인테리어 설계사, 시공 현장 책임자분들의 대량 발주 및 시공 연계를 지원합니다.<br />
-                도면 송부 시 신속하게 자재별 물량 산출 및 도매 단가 견적을 제안해 드립니다.
-              </p>
+        {/* 11. 오시는 길 및 회사 정보 */}
+        <section className="showroom-office-location">
+          <div className="container">
+            <div className="location-content-grid">
+              <div className="location-info-side">
+                <span className="loc-sub">OFFICE LOCATION</span>
+                <h2>동경바닥재 오시는 길</h2>
+                <p className="loc-desc">사무실 내방 및 직접 수령을 원하시는 고객께서는 방문 전에 출고 상태 확인을 부탁드립니다.</p>
+                
+                <div className="loc-details-list">
+                  <div className="loc-detail-item">
+                    <MapPin size={18} className="loc-icon" />
+                    <div className="loc-text-box">
+                      <strong>사무실 및 물류창고</strong>
+                      <span>경기 하남시 서하남로 37 (1층)</span>
+                    </div>
+                  </div>
+                  <div className="loc-detail-item">
+                    <Clock size={18} className="loc-icon" />
+                    <div className="loc-text-box">
+                      <strong>운영 시간</strong>
+                      <span>평일: 07:00 - 18:00 | 주말: 07:00 - 12:00</span>
+                    </div>
+                  </div>
+                  <div className="loc-detail-item">
+                    <Phone size={18} className="loc-icon" />
+                    <div className="loc-text-box">
+                      <strong>고객센터</strong>
+                      <span>전화: 02-487-9775 | 이메일: dongk3089@naver.com</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="loc-buttons">
+                  <a 
+                    href="https://map.kakao.com/?q=%EA%B2%BD%EA%B8%B0%20%ED%95%98%EB%82%A8%EC%8B%9C%20%EC%84%9C%ED%95%98%EB%82%A8%EB%A1%9C%2037" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="btn-loc-map-go"
+                  >
+                    🗺️ 카카오맵에서 길찾기
+                  </a>
+                </div>
+              </div>
               
-              {/* Combine Customer Center & Bank Info inside Contact Pane */}
-              <div className="b2b-contact-grid">
-                <div className="b2b-contact-info-card">
-                  <h4 className="info-card-lbl">고객센터 안내</h4>
-                  <a href="tel:02-487-9775" className="info-card-phone">02-487-9775</a>
-                  <p className="info-card-txt">평일 07:00 - 18:00 | 주말 07:00 - 12:00</p>
-                  <p className="info-card-txt font-mono">이메일: dongk3089@naver.com</p>
-                </div>
-                <div className="b2b-contact-info-card">
-                  <h4 className="info-card-lbl">무통장 입금 계좌</h4>
-                  <p className="info-card-txt font-mono"><strong>농협은행</strong> 301-0298-9197-81</p>
-                  <p className="info-card-txt">예금주: 동경바닥재</p>
+              <div className="location-visual-side">
+                <div className="location-visual-box">
+                  <img src="/images/home/consulting-estimate.webp" alt="동경바닥재 오피스 전경" className="loc-office-img" onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = "/images/cross_section.png"; }} />
+                  <div className="loc-office-tag">동경바닥재 하남 물류창고 / 사무실</div>
                 </div>
               </div>
-
-              <div className="contact-v2-buttons">
-                <a href="tel:02-487-9775" className="btn-contact-v2 btn-contact-v2-primary">
-                  전화 상담하기
-                </a>
-                <Link to="/estimate/request" className="btn-contact-v2 btn-contact-v2-secondary">
-                  온라인 견적 문의
-                </Link>
-                <a 
-                  href={KAKAO_CHAT_URL} 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="btn-contact-v2 btn-contact-v2-kakao"
-                  style={{
-                    backgroundColor: '#FEE500',
-                    color: '#191919',
-                    border: 'none',
-                    fontWeight: '700',
-                    display: 'inline-flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    textDecoration: 'none'
-                  }}
-                >
-                  💬 카톡 상담하기
-                </a>
-                <Link to="/samplebooks" className="btn-contact-v2 btn-contact-v2-outline">
-                  디지털 샘플북 확인
-                </Link>
-              </div>
-            </div>
-
-            <div className="contact-v2-image-pane">
-              <img 
-                src={estimateImg} 
-                alt="동경바닥재 자재 유통 및 상담 이미지" 
-                className="contact-v2-image"
-                onError={() => setEstimateImg("/images/home-interior/korea-home-living-01.png")}
-                loading="lazy"
-              />
             </div>
           </div>
         </section>
+
+        {/* 12. 우측 고정 퀵 메뉴 (데스크톱) / 하단 퀵바 (모바일) */}
+        <QuickMenu cartCount={cartCount} />
 
       </div>
     </MainLayout>

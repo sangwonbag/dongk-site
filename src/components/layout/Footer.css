@@ -7,7 +7,7 @@
     border-top: 1px solid var(--border);
     padding: 60px 0 40px 0;
     margin-top: 0;
-    color: #cbd5e1;
+    color: #D7D2C9; /* 따뜻한 라이트 그레이 */
     font-size: 13.5px;
     line-height: 1.6;
 }
@@ -52,7 +52,7 @@
 }
 
 .footer-copyright {
-    color: #546e7a;
+    color: #8C847C; /* 따뜻한 톤의 짙은 그레이 */
     font-size: 11.5px;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
     padding-top: 20px;
@@ -68,7 +68,7 @@
 }
 
 .footer-links a {
-    color: #90a4ae;
+    color: #A69E96; /* 따뜻한 중간 그레이 */
     text-decoration: none;
     transition: color 0.2s;
 }

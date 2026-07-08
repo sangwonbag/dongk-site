@@ -55,9 +55,9 @@
 
 .material-filter-chip.active,
 .material-brand-chip.active {
-  border-color: #c28a3a;
-  background: #fff7ed;
-  color: #9a5b10;
+  border-color: var(--point-gold);
+  background: var(--point-gold-light);
+  color: var(--point-gold-hover);
 }
 
 .material-brand-row {
@@ -397,9 +397,9 @@
 }
 
 .b2b-filter-tab.active {
-  background-color: var(--point-orange-light);
-  border-color: var(--point-orange);
-  color: var(--point-orange);
+  background-color: var(--point-gold-light);
+  border-color: var(--point-gold);
+  color: var(--point-gold-hover);
 }
 
 .b2b-search-filters-grid {
@@ -435,8 +435,8 @@
 }
 
 .b2b-field-input:focus {
-  border-color: var(--point-orange);
-  box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.12);
+  border-color: var(--point-gold);
+  box-shadow: 0 0 0 3px rgba(179, 146, 95, 0.12);
 }
 
 @media (max-width: 768px) {
