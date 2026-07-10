@@ -136,23 +136,75 @@ const convertToPublicPath = (absPath) => {
     return '/' + path.relative(PUBLIC_DIR, absPath).split(path.sep).join('/');
 };
 
+// Robust code extractor helper from filename
+function extractCodeFromFilename(filename) {
+    const ext = path.extname(filename);
+    const nameWithoutExt = filename.slice(0, -ext.length).trim();
+    
+    // 1. Remove suffix indices (e.g. "_0", "_1", " (2)", "_시공", "_installation")
+    let cleanName = nameWithoutExt
+        .replace(/_thumbnail$/i, '')
+        .replace(/_(\d+)$/, '')
+        .replace(/\s*\(\d+\)$/, '')
+        .replace(/_시공$/i, '')
+        .replace(/_installation$/i, '')
+        .trim();
+    
+    // 2. Try matching standard code patterns: [Letters 2-5] + [spaces?] + [Numbers 3-5] + [Letters?]
+    const codeRegex = /\b([A-Z]{2,5})\s*(\d{3,5}(?:-\d+)?)([A-Z]*)\b/i;
+    const match = cleanName.match(codeRegex);
+    if (match) {
+        return match[0].trim();
+    }
+    
+    // 3. Try matching numeric code patterns at the start (e.g. 90013-1, 25097-1)
+    const numericRegex = /^(\d{3,6}(?:-\d+)?)/;
+    const numMatch = cleanName.match(numericRegex);
+    if (numMatch) {
+        return numMatch[1];
+    }
+    
+    // 4. Try matching other patterns like OA 317 or DLT 3300
+    const looseMatch = cleanName.match(/([A-Z0-9]{2,6})\s+(\d{3,5})/i);
+    if (looseMatch) {
+        return looseMatch[0].trim();
+    }
+
+    return cleanName;
+}
+
 items.forEach(code => {
     const nCode = normalize(code);
     if (!nCode) return;
 
     // Find all files that might match this code
     const fileMatches = allFiles.filter(f => {
-        const nameOnly = path.parse(path.basename(f)).name;
+        const fileName = path.basename(f);
+        const nameOnly = path.parse(fileName).name;
         const nFile = normalize(nameOnly);
         
         // Exact match (normalized)
         if (nFile === nCode) return true;
         
-        // Code is contained in filename (e.g. "CM24731" in "1. CM24731 내추럴 화이트")
-        if (nFile.includes(nCode)) return true;
-        
-        // Filename is contained in code (less common but possible)
-        if (nCode.includes(nFile) && nFile.length >= 5) return true;
+        // Extract base code from filename and compare exactly
+        const extCode = extractCodeFromFilename(fileName);
+        const nExt = normalize(extCode);
+        if (nExt === nCode) return true;
+
+        // If the code is short or numeric, we do NOT allow loose matches
+        const isShortOrNumeric = /^\d+$/.test(nCode) || nCode.length <= 4;
+        if (!isShortOrNumeric) {
+            // Code is contained in filename (e.g. "CM24731" in "1. CM24731 내추럴 화이트")
+            const wordRegex = new RegExp(`\\b${nCode}\\b`, 'i');
+            if (wordRegex.test(nFile)) return true;
+            
+            if (nFile.includes(nCode)) {
+                const trailingChar = nFile.slice(nFile.indexOf(nCode) + nCode.length, nFile.indexOf(nCode) + nCode.length + 1);
+                if (!trailingChar || !/\d/.test(trailingChar)) {
+                    return true;
+                }
+            }
+        }
 
         return false;
     }).map(f => {

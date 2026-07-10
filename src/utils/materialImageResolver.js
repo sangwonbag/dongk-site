@@ -1,4 +1,5 @@
 import { imageManifest } from '../data/materialImageManifest.generated.js';
+import { imageManifest as imageManifestMap } from '../data/imageManifest.js';
 
 const SUPABASE_PUBLIC_URL_PREFIX = "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/";
 
@@ -172,3 +173,122 @@ export function getMaterialImagePath(material) {
   const result = resolveMaterialImage(material);
   return result.src || '/images/no-image.svg';
 }
+
+export function resolveProductImages(material) {
+  if (!material) return [];
+
+  const candidates = [];
+  const matBrand = material.brand || '';
+  const matName = material.name || '';
+  const matCode = material.code || '';
+  const matCategory = material.category || '';
+
+  // 1. Direct database fields
+  const dbFields = [
+    material.image_url,
+    material.thumbnail_url,
+    material.main_image_url,
+    material.image,
+    material.imageUrl,
+    material.imagePath,
+    material.thumbnail,
+    material.thumbnailImage,
+    material.mainImage
+  ].filter(Boolean);
+
+  for (const field of dbFields) {
+    const fieldStr = String(field).trim();
+    if (fieldStr && !fieldStr.includes('no-image.svg') && !fieldStr.includes('placeholder')) {
+      candidates.push(toFullImageUrl(fieldStr));
+    }
+  }
+
+  // 2. Lookup in imageManifestMap (code-to-images map from src/data/imageManifest.js)
+  const normTargetCode = normalizeMaterialCode(matCode);
+  const normTargetName = normalizeMaterialCode(matName);
+  
+  const lookupKeys = [normTargetCode, normTargetName].filter(Boolean);
+  for (const key of lookupKeys) {
+    const entry = imageManifestMap[key];
+    if (entry) {
+      if (Array.isArray(entry)) {
+        candidates.push(...entry.map(toFullImageUrl));
+      } else if (entry.images) {
+        candidates.push(...entry.images.map(toFullImageUrl));
+      } else if (entry.thumbnail) {
+        candidates.push(toFullImageUrl(entry.thumbnail));
+      } else if (entry.cover) {
+        candidates.push(toFullImageUrl(entry.cover));
+      }
+    }
+  }
+
+  // 3. Search in raw file manifest (materialImageManifest.generated.js)
+  // Check exact code match in the generated manifest list
+  if (normTargetCode) {
+    const scopedImages = imageManifest.filter(img => 
+      brandsMatch(img.brand, matBrand) && categoriesMatch(img.category, matCategory)
+    );
+    const matchedByCode = scopedImages.find(img => 
+      normalizeMaterialCode(img.extractedCode) === normTargetCode
+    );
+    if (matchedByCode && matchedByCode.fullPublicPath) {
+      candidates.push(toFullImageUrl(matchedByCode.fullPublicPath));
+    }
+  }
+
+  // 4. Object array fields
+  if (Array.isArray(material.images)) {
+    candidates.push(...material.images.map(toFullImageUrl));
+  }
+  if (Array.isArray(material.galleryImages)) {
+    candidates.push(...material.galleryImages.map(toFullImageUrl));
+  }
+  if (Array.isArray(material.detailImages)) {
+    candidates.push(...material.detailImages.map(toFullImageUrl));
+  }
+  if (Array.isArray(material.installationImages)) {
+    candidates.push(...material.installationImages.map(toFullImageUrl));
+  }
+
+  // Deduplicate and filter out placeholders
+  const uniqueList = [];
+  const seen = new Set();
+
+  for (const src of candidates) {
+    if (!src) continue;
+    const cleanSrc = String(src).trim();
+    const norm = cleanSrc.toLowerCase();
+
+    // Ignore placeholder URLs
+    if (norm.includes('no-image.svg') || norm.includes('deco_tile.png') || norm.includes('material-placeholder.jpg')) {
+      continue;
+    }
+
+    // Standardize directory slashes for key lookup
+    const urlKey = cleanSrc.replace(/\\/g, '/');
+    if (!seen.has(urlKey)) {
+      seen.add(urlKey);
+      uniqueList.push(cleanSrc);
+    }
+  }
+
+  return uniqueList;
+}
+
+export function resolveProductCardImage(material) {
+  const images = resolveProductImages(material);
+  
+  if (images.length > 0) {
+    return images[0];
+  }
+  
+  // Fallback to local image resolving logic
+  const localPath = getMaterialImagePath(material);
+  if (localPath && localPath !== '/images/no-image.svg') {
+    return localPath;
+  }
+  
+  return '/images/no-image.svg';
+}
+
