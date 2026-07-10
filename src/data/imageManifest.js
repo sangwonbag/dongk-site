@@ -12422,8 +12422,7 @@ export const imageManifest = {
     "thumbnail": "6d9f1d5c5fc22601dc166ae5736bb1d1.jpg",
     "images": [
       "6d9f1d5c5fc22601dc166ae5736bb1d1.jpg",
-      "488d557ea304d432b6163ebf85dbf3b2.jpg",
-      "43e96f0e042cf74b81068302ab3c3d69.jpg"
+      "488d557ea304d432b6163ebf85dbf3b2.jpg"
     ]
   },
   "TS5503P": {

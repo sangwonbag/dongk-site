@@ -208,13 +208,22 @@ export const imageManifest = [
     "normalizedFileName": "30201mpng"
   },
   {
-    "fileName": "30221P.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30221P.png",
+    "fileName": "30221P_0.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30221P_0.png",
     "category": "데코타일",
     "brand": "KCC",
     "series": "KCC_pro",
     "extractedCode": "30221",
-    "normalizedFileName": "30221ppng"
+    "normalizedFileName": "30221p0png"
+  },
+  {
+    "fileName": "30221P_1.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30221P_1.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "KCC_pro",
+    "extractedCode": "30221",
+    "normalizedFileName": "30221p1png"
   },
   {
     "fileName": "30222P.png",
@@ -226,6 +235,15 @@ export const imageManifest = [
     "normalizedFileName": "30222ppng"
   },
   {
+    "fileName": "30222P_1.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30222P_1.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "KCC_pro",
+    "extractedCode": "30222",
+    "normalizedFileName": "30222p1png"
+  },
+  {
     "fileName": "30223P.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30223P.png",
     "category": "데코타일",
@@ -233,6 +251,15 @@ export const imageManifest = [
     "series": "KCC_pro",
     "extractedCode": "30223",
     "normalizedFileName": "30223ppng"
+  },
+  {
+    "fileName": "30223P_1.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30223P_1.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "KCC_pro",
+    "extractedCode": "30223",
+    "normalizedFileName": "30223p1png"
   },
   {
     "fileName": "30224P.png",
@@ -244,6 +271,15 @@ export const imageManifest = [
     "normalizedFileName": "30224ppng"
   },
   {
+    "fileName": "30224P_1.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30224P_1.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "KCC_pro",
+    "extractedCode": "30224",
+    "normalizedFileName": "30224p1png"
+  },
+  {
     "fileName": "30225P.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30225P.png",
     "category": "데코타일",
@@ -253,13 +289,31 @@ export const imageManifest = [
     "normalizedFileName": "30225ppng"
   },
   {
-    "fileName": "30226P.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30226P.png",
+    "fileName": "30225P_1.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30225P_1.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "KCC_pro",
+    "extractedCode": "30225",
+    "normalizedFileName": "30225p1png"
+  },
+  {
+    "fileName": "30226P_0.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30226P_0.png",
     "category": "데코타일",
     "brand": "KCC",
     "series": "KCC_pro",
     "extractedCode": "30226",
-    "normalizedFileName": "30226ppng"
+    "normalizedFileName": "30226p0png"
+  },
+  {
+    "fileName": "30226P_1.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30226P_1.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "KCC_pro",
+    "extractedCode": "30226",
+    "normalizedFileName": "30226p1png"
   },
   {
     "fileName": "33011P.png",
@@ -1315,121 +1369,238 @@ export const imageManifest = [
     "normalizedFileName": "ts5552p1jpg"
   },
   {
-    "fileName": "TW 5102G.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205102G.png",
+    "fileName": "TW 5102G_0.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205102G_0.png",
     "category": "데코타일",
     "brand": "KCC",
     "series": "KCC_wood",
     "extractedCode": "TW 5102G",
-    "normalizedFileName": "tw5102gpng"
+    "normalizedFileName": "tw5102g0png"
   },
   {
-    "fileName": "TW 5103G.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205103G.png",
+    "fileName": "TW 5102G_1.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205102G_1.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "KCC_wood",
+    "extractedCode": "TW 5102G",
+    "normalizedFileName": "tw5102g1png"
+  },
+  {
+    "fileName": "TW 5103G_0.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205103G_0.png",
     "category": "데코타일",
     "brand": "KCC",
     "series": "KCC_wood",
     "extractedCode": "TW 5103G",
-    "normalizedFileName": "tw5103gpng"
+    "normalizedFileName": "tw5103g0png"
   },
   {
-    "fileName": "TW 5104G.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205104G.png",
+    "fileName": "TW 5103G_1.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205103G_1.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "KCC_wood",
+    "extractedCode": "TW 5103G",
+    "normalizedFileName": "tw5103g1png"
+  },
+  {
+    "fileName": "TW 5104G_0.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205104G_0.png",
     "category": "데코타일",
     "brand": "KCC",
     "series": "KCC_wood",
     "extractedCode": "TW 5104G",
-    "normalizedFileName": "tw5104gpng"
+    "normalizedFileName": "tw5104g0png"
   },
   {
-    "fileName": "TW 5105G.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205105G.png",
+    "fileName": "TW 5104G_1.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205104G_1.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "KCC_wood",
+    "extractedCode": "TW 5104G",
+    "normalizedFileName": "tw5104g1png"
+  },
+  {
+    "fileName": "TW 5105G_0.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205105G_0.png",
     "category": "데코타일",
     "brand": "KCC",
     "series": "KCC_wood",
     "extractedCode": "TW 5105G",
-    "normalizedFileName": "tw5105gpng"
+    "normalizedFileName": "tw5105g0png"
   },
   {
-    "fileName": "TW 5106G.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205106G.png",
+    "fileName": "TW 5105G_1.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205105G_1.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "KCC_wood",
+    "extractedCode": "TW 5105G",
+    "normalizedFileName": "tw5105g1png"
+  },
+  {
+    "fileName": "TW 5106G_0.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205106G_0.png",
     "category": "데코타일",
     "brand": "KCC",
     "series": "KCC_wood",
     "extractedCode": "TW 5106G",
-    "normalizedFileName": "tw5106gpng"
+    "normalizedFileName": "tw5106g0png"
   },
   {
-    "fileName": "TW 5107G.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205107G.png",
+    "fileName": "TW 5106G_1.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205106G_1.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "KCC_wood",
+    "extractedCode": "TW 5106G",
+    "normalizedFileName": "tw5106g1png"
+  },
+  {
+    "fileName": "TW 5107G_0.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205107G_0.png",
     "category": "데코타일",
     "brand": "KCC",
     "series": "KCC_wood",
     "extractedCode": "TW 5107G",
-    "normalizedFileName": "tw5107gpng"
+    "normalizedFileName": "tw5107g0png"
   },
   {
-    "fileName": "TW 5108G.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205108G.png",
+    "fileName": "TW 5107G_1.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205107G_1.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "KCC_wood",
+    "extractedCode": "TW 5107G",
+    "normalizedFileName": "tw5107g1png"
+  },
+  {
+    "fileName": "TW 5108G_0.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205108G_0.png",
     "category": "데코타일",
     "brand": "KCC",
     "series": "KCC_wood",
     "extractedCode": "TW 5108G",
-    "normalizedFileName": "tw5108gpng"
+    "normalizedFileName": "tw5108g0png"
   },
   {
-    "fileName": "TW 5109G.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205109G.png",
+    "fileName": "TW 5108G_1.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205108G_1.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "KCC_wood",
+    "extractedCode": "TW 5108G",
+    "normalizedFileName": "tw5108g1png"
+  },
+  {
+    "fileName": "TW 5109G_0.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205109G_0.png",
     "category": "데코타일",
     "brand": "KCC",
     "series": "KCC_wood",
     "extractedCode": "TW 5109G",
-    "normalizedFileName": "tw5109gpng"
+    "normalizedFileName": "tw5109g0png"
   },
   {
-    "fileName": "TW 5110G.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205110G.png",
+    "fileName": "TW 5109G_1.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205109G_1.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "KCC_wood",
+    "extractedCode": "TW 5109G",
+    "normalizedFileName": "tw5109g1png"
+  },
+  {
+    "fileName": "TW 5110G_0.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205110G_0.png",
     "category": "데코타일",
     "brand": "KCC",
     "series": "KCC_wood",
     "extractedCode": "TW 5110G",
-    "normalizedFileName": "tw5110gpng"
+    "normalizedFileName": "tw5110g0png"
   },
   {
-    "fileName": "TW 5111G.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205111G.png",
+    "fileName": "TW 5110G_1.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205110G_1.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "KCC_wood",
+    "extractedCode": "TW 5110G",
+    "normalizedFileName": "tw5110g1png"
+  },
+  {
+    "fileName": "TW 5111G_0.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205111G_0.png",
     "category": "데코타일",
     "brand": "KCC",
     "series": "KCC_wood",
     "extractedCode": "TW 5111G",
-    "normalizedFileName": "tw5111gpng"
+    "normalizedFileName": "tw5111g0png"
   },
   {
-    "fileName": "TW 5112G.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205112G.png",
+    "fileName": "TW 5111G_1.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205111G_1.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "KCC_wood",
+    "extractedCode": "TW 5111G",
+    "normalizedFileName": "tw5111g1png"
+  },
+  {
+    "fileName": "TW 5112G_0.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205112G_0.png",
     "category": "데코타일",
     "brand": "KCC",
     "series": "KCC_wood",
     "extractedCode": "TW 5112G",
-    "normalizedFileName": "tw5112gpng"
+    "normalizedFileName": "tw5112g0png"
   },
   {
-    "fileName": "TW 5119G.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205119G.png",
+    "fileName": "TW 5112G_1.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205112G_1.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "KCC_wood",
+    "extractedCode": "TW 5112G",
+    "normalizedFileName": "tw5112g1png"
+  },
+  {
+    "fileName": "TW 5119G_0.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205119G_0.png",
     "category": "데코타일",
     "brand": "KCC",
     "series": "KCC_wood",
     "extractedCode": "TW 5119G",
-    "normalizedFileName": "tw5119gpng"
+    "normalizedFileName": "tw5119g0png"
   },
   {
-    "fileName": "TW 5120G.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205120G.png",
+    "fileName": "TW 5119G_1.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205119G_1.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "KCC_wood",
+    "extractedCode": "TW 5119G",
+    "normalizedFileName": "tw5119g1png"
+  },
+  {
+    "fileName": "TW 5120G_0.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205120G_0.png",
     "category": "데코타일",
     "brand": "KCC",
     "series": "KCC_wood",
     "extractedCode": "TW 5120G",
-    "normalizedFileName": "tw5120gpng"
+    "normalizedFileName": "tw5120g0png"
+  },
+  {
+    "fileName": "TW 5120G_1.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205120G_1.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "KCC_wood",
+    "extractedCode": "TW 5120G",
+    "normalizedFileName": "tw5120g1png"
   },
   {
     "fileName": "HOT 0065 라임 스톤 미스트.jpg",
@@ -6284,1542 +6455,1704 @@ export const imageManifest = [
   },
   {
     "fileName": "RT-3201.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3201.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3201.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-3201",
     "normalizedFileName": "rt3201jpg"
   },
   {
     "fileName": "RT-3202.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3202.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3202.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-3202",
     "normalizedFileName": "rt3202jpg"
   },
   {
     "fileName": "RT-3203.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3203.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3203.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-3203",
     "normalizedFileName": "rt3203jpg"
   },
   {
     "fileName": "RT-3204.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3204.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3204.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-3204",
     "normalizedFileName": "rt3204jpg"
   },
   {
     "fileName": "RT-3205.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3205.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3205.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-3205",
     "normalizedFileName": "rt3205jpg"
   },
   {
     "fileName": "RT-3206.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3206.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3206.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-3206",
     "normalizedFileName": "rt3206jpg"
   },
   {
     "fileName": "RT-3207.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3207.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3207.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-3207",
     "normalizedFileName": "rt3207jpg"
   },
   {
     "fileName": "RT-3208.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3208.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3208.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-3208",
     "normalizedFileName": "rt3208jpg"
   },
   {
     "fileName": "RT-3209.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3209.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3209.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-3209",
     "normalizedFileName": "rt3209jpg"
   },
   {
     "fileName": "RT-5201.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5201.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5201.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-5201",
     "normalizedFileName": "rt5201jpg"
   },
   {
     "fileName": "RT-5202.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5202.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5202.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-5202",
     "normalizedFileName": "rt5202jpg"
   },
   {
     "fileName": "RT-5203.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5203.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5203.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-5203",
     "normalizedFileName": "rt5203jpg"
   },
   {
     "fileName": "RT-5204.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5204.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5204.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-5204",
     "normalizedFileName": "rt5204jpg"
   },
   {
     "fileName": "RT-5205.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5205.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5205.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-5205",
     "normalizedFileName": "rt5205jpg"
   },
   {
     "fileName": "RT-5206.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5206.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5206.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-5206",
     "normalizedFileName": "rt5206jpg"
   },
   {
     "fileName": "RT-5207.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5207.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5207.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-5207",
     "normalizedFileName": "rt5207jpg"
   },
   {
     "fileName": "RT-5208.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5208.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5208.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-5208",
     "normalizedFileName": "rt5208jpg"
   },
   {
     "fileName": "RT-6201.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6201.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6201.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-6201",
     "normalizedFileName": "rt6201jpg"
   },
   {
     "fileName": "RT-6202.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6202.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6202.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-6202",
     "normalizedFileName": "rt6202jpg"
   },
   {
     "fileName": "RT-6203.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6203.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6203.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-6203",
     "normalizedFileName": "rt6203jpg"
   },
   {
     "fileName": "RT-6204.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6204.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6204.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-6204",
     "normalizedFileName": "rt6204jpg"
   },
   {
     "fileName": "RT-6205.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6205.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6205.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-6205",
     "normalizedFileName": "rt6205jpg"
   },
   {
     "fileName": "RT-6206.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6206.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6206.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-6206",
     "normalizedFileName": "rt6206jpg"
   },
   {
     "fileName": "RT-6207.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6207.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6207.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-6207",
     "normalizedFileName": "rt6207jpg"
   },
   {
     "fileName": "RT-6208.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6208.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6208.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-6208",
     "normalizedFileName": "rt6208jpg"
   },
   {
     "fileName": "RT-6209.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6209.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6209.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-6209",
     "normalizedFileName": "rt6209jpg"
   },
   {
     "fileName": "RT-6210.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6210.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6210.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-6210",
     "normalizedFileName": "rt6210jpg"
   },
   {
     "fileName": "RT-6211.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6211.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6211.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-6211",
     "normalizedFileName": "rt6211jpg"
   },
   {
     "fileName": "RT-6212.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6212.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6212.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-6212",
     "normalizedFileName": "rt6212jpg"
   },
   {
     "fileName": "RT-6213.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6213.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6213.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-6213",
     "normalizedFileName": "rt6213jpg"
   },
   {
     "fileName": "RT-6214.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6214.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6214.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-6214",
     "normalizedFileName": "rt6214jpg"
   },
   {
     "fileName": "RT-6215.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6215.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6215.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-6215",
     "normalizedFileName": "rt6215jpg"
   },
   {
     "fileName": "RT-6216.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6216.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6216.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일레릭",
+    "series": "골드타일레릭",
     "extractedCode": "RT-6216",
     "normalizedFileName": "rt6216jpg"
   },
   {
     "fileName": "MTS4415.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4415.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4415.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS4415",
     "normalizedFileName": "mts4415jpg"
   },
   {
     "fileName": "MTS4417.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4417.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4417.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS4417",
     "normalizedFileName": "mts4417jpg"
   },
   {
     "fileName": "MTS4421.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4421.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4421.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS4421",
     "normalizedFileName": "mts4421jpg"
   },
   {
     "fileName": "MTS4422.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4422.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4422.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS4422",
     "normalizedFileName": "mts4422jpg"
   },
   {
     "fileName": "MTS4425.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4425.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4425.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS4425",
     "normalizedFileName": "mts4425jpg"
   },
   {
     "fileName": "MTS4433.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4433.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4433.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS4433",
     "normalizedFileName": "mts4433jpg"
   },
   {
     "fileName": "MTS4434.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4434.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4434.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS4434",
     "normalizedFileName": "mts4434jpg"
   },
   {
     "fileName": "MTS4435.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4435.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4435.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS4435",
     "normalizedFileName": "mts4435jpg"
   },
   {
     "fileName": "MTS5522.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5522.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5522.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS5522",
     "normalizedFileName": "mts5522jpg"
   },
   {
     "fileName": "MTS5523.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5523.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5523.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS5523",
     "normalizedFileName": "mts5523jpg"
   },
   {
     "fileName": "MTS5524.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5524.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5524.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS5524",
     "normalizedFileName": "mts5524jpg"
   },
   {
     "fileName": "MTS6011.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6011.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6011.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6011",
     "normalizedFileName": "mts6011jpg"
   },
   {
     "fileName": "MTS6012.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6012.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6012.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6012",
     "normalizedFileName": "mts6012jpg"
   },
   {
     "fileName": "MTS6013.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6013.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6013.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6013",
     "normalizedFileName": "mts6013jpg"
   },
   {
     "fileName": "MTS6021.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6021.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6021.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6021",
     "normalizedFileName": "mts6021jpg"
   },
   {
     "fileName": "MTS6022.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6022.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6022.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6022",
     "normalizedFileName": "mts6022jpg"
   },
   {
     "fileName": "MTS6023.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6023.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6023.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6023",
     "normalizedFileName": "mts6023jpg"
   },
   {
     "fileName": "MTS6024.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6024.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6024.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6024",
     "normalizedFileName": "mts6024jpg"
   },
   {
     "fileName": "MTS6025.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6025.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6025.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6025",
     "normalizedFileName": "mts6025jpg"
   },
   {
     "fileName": "MTS6026.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6026.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6026.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6026",
     "normalizedFileName": "mts6026jpg"
   },
   {
     "fileName": "MTS6031.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6031.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6031.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6031",
     "normalizedFileName": "mts6031jpg"
   },
   {
     "fileName": "MTS6032.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6032.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6032.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6032",
     "normalizedFileName": "mts6032jpg"
   },
   {
     "fileName": "MTS6033.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6033.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6033.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6033",
     "normalizedFileName": "mts6033jpg"
   },
   {
     "fileName": "MTS6051.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6051.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6051.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6051",
     "normalizedFileName": "mts6051jpg"
   },
   {
     "fileName": "MTS6053.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6053.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6053.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6053",
     "normalizedFileName": "mts6053jpg"
   },
   {
     "fileName": "MTS6062.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6062.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6062.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6062",
     "normalizedFileName": "mts6062jpg"
   },
   {
     "fileName": "MTS6063.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6063.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6063.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6063",
     "normalizedFileName": "mts6063jpg"
   },
   {
     "fileName": "MTS6111.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6111.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6111.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6111",
     "normalizedFileName": "mts6111jpg"
   },
   {
     "fileName": "MTS6112.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6112.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6112.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6112",
     "normalizedFileName": "mts6112jpg"
   },
   {
     "fileName": "MTS6131.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6131.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6131.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6131",
     "normalizedFileName": "mts6131jpg"
   },
   {
     "fileName": "MTS6132.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6132.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6132.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6132",
     "normalizedFileName": "mts6132jpg"
   },
   {
     "fileName": "MTS6141.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6141.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6141.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6141",
     "normalizedFileName": "mts6141jpg"
   },
   {
     "fileName": "MTS6142.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6142.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6142.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6142",
     "normalizedFileName": "mts6142jpg"
   },
   {
     "fileName": "MTS6143.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6143.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6143.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6143",
     "normalizedFileName": "mts6143jpg"
   },
   {
     "fileName": "MTS6144.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6144.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6144.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6144",
     "normalizedFileName": "mts6144jpg"
   },
   {
     "fileName": "MTS6151.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6151.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6151.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6151",
     "normalizedFileName": "mts6151jpg"
   },
   {
     "fileName": "MTS6152.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6152.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6152.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6152",
     "normalizedFileName": "mts6152jpg"
   },
   {
     "fileName": "MTS6153.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6153.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6153.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6153",
     "normalizedFileName": "mts6153jpg"
   },
   {
     "fileName": "MTS6154.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6154.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6154.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6154",
     "normalizedFileName": "mts6154jpg"
   },
   {
     "fileName": "MTS6161.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6161.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6161.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6161",
     "normalizedFileName": "mts6161jpg"
   },
   {
     "fileName": "MTS6162.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6162.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6162.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6162",
     "normalizedFileName": "mts6162jpg"
   },
   {
     "fileName": "MTS6163.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6163.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6163.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6163",
     "normalizedFileName": "mts6163jpg"
   },
   {
     "fileName": "MTS6164.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6164.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6164.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTS6164",
     "normalizedFileName": "mts6164jpg"
   },
   {
     "fileName": "MTW3011.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3011.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3011.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTW3011",
     "normalizedFileName": "mtw3011jpg"
   },
   {
     "fileName": "MTW3012.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3012.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3012.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTW3012",
     "normalizedFileName": "mtw3012jpg"
   },
   {
     "fileName": "MTW3021.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3021.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3021.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTW3021",
     "normalizedFileName": "mtw3021jpg"
   },
   {
     "fileName": "MTW3024.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3024.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3024.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTW3024",
     "normalizedFileName": "mtw3024jpg"
   },
   {
     "fileName": "MTW4463.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4463.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4463.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTW4463",
     "normalizedFileName": "mtw4463jpg"
   },
   {
     "fileName": "MTW4464.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4464.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4464.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTW4464",
     "normalizedFileName": "mtw4464jpg"
   },
   {
     "fileName": "MTW4481.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4481.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4481.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTW4481",
     "normalizedFileName": "mtw4481jpg"
   },
   {
     "fileName": "MTW4486.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4486.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4486.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTW4486",
     "normalizedFileName": "mtw4486jpg"
   },
   {
     "fileName": "MTW4487.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4487.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4487.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTW4487",
     "normalizedFileName": "mtw4487jpg"
   },
   {
     "fileName": "MTW4488.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4488.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4488.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일마스터",
+    "series": "골드타일마스터",
     "extractedCode": "MTW4488",
     "normalizedFileName": "mtw4488jpg"
   },
   {
-    "fileName": "3521.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/3521.jpg",
+    "fileName": "MTS4415_MTS4417_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS4415_MTS4417_%EC%8B%9C%EA%B3%B5.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일마스터/상세페이지",
+    "extractedCode": "MTS4415_MTS4417_시공",
+    "normalizedFileName": "mts4415mts4417시공jpg"
+  },
+  {
+    "fileName": "MTS4421_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS4421_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "데코타일",
+    "brand": "현대",
+    "series": "골드타일마스터/상세페이지",
+    "extractedCode": "MTS4421_시공",
+    "normalizedFileName": "mts4421시공jpg"
+  },
+  {
+    "fileName": "MTS4433_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS4433_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "데코타일",
+    "brand": "현대",
+    "series": "골드타일마스터/상세페이지",
+    "extractedCode": "MTS4433_시공",
+    "normalizedFileName": "mts4433시공jpg"
+  },
+  {
+    "fileName": "MTS5523_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS5523_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "데코타일",
+    "brand": "현대",
+    "series": "골드타일마스터/상세페이지",
+    "extractedCode": "MTS5523_시공",
+    "normalizedFileName": "mts5523시공jpg"
+  },
+  {
+    "fileName": "MTS6013_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6013_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "데코타일",
+    "brand": "현대",
+    "series": "골드타일마스터/상세페이지",
+    "extractedCode": "MTS6013_시공",
+    "normalizedFileName": "mts6013시공jpg"
+  },
+  {
+    "fileName": "MTS6022_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6022_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "데코타일",
+    "brand": "현대",
+    "series": "골드타일마스터/상세페이지",
+    "extractedCode": "MTS6022_시공",
+    "normalizedFileName": "mts6022시공jpg"
+  },
+  {
+    "fileName": "MTS6024_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6024_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "데코타일",
+    "brand": "현대",
+    "series": "골드타일마스터/상세페이지",
+    "extractedCode": "MTS6024_시공",
+    "normalizedFileName": "mts6024시공jpg"
+  },
+  {
+    "fileName": "MTS6033_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6033_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "데코타일",
+    "brand": "현대",
+    "series": "골드타일마스터/상세페이지",
+    "extractedCode": "MTS6033_시공",
+    "normalizedFileName": "mts6033시공jpg"
+  },
+  {
+    "fileName": "MTS6051_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6051_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "데코타일",
+    "brand": "현대",
+    "series": "골드타일마스터/상세페이지",
+    "extractedCode": "MTS6051_시공",
+    "normalizedFileName": "mts6051시공jpg"
+  },
+  {
+    "fileName": "MTS6062_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6062_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "데코타일",
+    "brand": "현대",
+    "series": "골드타일마스터/상세페이지",
+    "extractedCode": "MTS6062_시공",
+    "normalizedFileName": "mts6062시공jpg"
+  },
+  {
+    "fileName": "MTS6111_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6111_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "데코타일",
+    "brand": "현대",
+    "series": "골드타일마스터/상세페이지",
+    "extractedCode": "MTS6111_시공",
+    "normalizedFileName": "mts6111시공jpg"
+  },
+  {
+    "fileName": "MTS6131_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6131_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "데코타일",
+    "brand": "현대",
+    "series": "골드타일마스터/상세페이지",
+    "extractedCode": "MTS6131_시공",
+    "normalizedFileName": "mts6131시공jpg"
+  },
+  {
+    "fileName": "MTS6143_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6143_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "데코타일",
+    "brand": "현대",
+    "series": "골드타일마스터/상세페이지",
+    "extractedCode": "MTS6143_시공",
+    "normalizedFileName": "mts6143시공jpg"
+  },
+  {
+    "fileName": "MTS6154_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6154_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "데코타일",
+    "brand": "현대",
+    "series": "골드타일마스터/상세페이지",
+    "extractedCode": "MTS6154_시공",
+    "normalizedFileName": "mts6154시공jpg"
+  },
+  {
+    "fileName": "MTS6161_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6161_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "데코타일",
+    "brand": "현대",
+    "series": "골드타일마스터/상세페이지",
+    "extractedCode": "MTS6161_시공",
+    "normalizedFileName": "mts6161시공jpg"
+  },
+  {
+    "fileName": "MTW3021_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTW3021_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "데코타일",
+    "brand": "현대",
+    "series": "골드타일마스터/상세페이지",
+    "extractedCode": "MTW3021_시공",
+    "normalizedFileName": "mtw3021시공jpg"
+  },
+  {
+    "fileName": "MTW4464_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTW4464_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "데코타일",
+    "brand": "현대",
+    "series": "골드타일마스터/상세페이지",
+    "extractedCode": "MTW4464_시공",
+    "normalizedFileName": "mtw4464시공jpg"
+  },
+  {
+    "fileName": "MTW4487_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTW4487_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "데코타일",
+    "brand": "현대",
+    "series": "골드타일마스터/상세페이지",
+    "extractedCode": "MTW4487_시공",
+    "normalizedFileName": "mtw4487시공jpg"
+  },
+  {
+    "fileName": "3521.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/3521.jpg",
+    "category": "데코타일",
+    "brand": "현대",
+    "series": "골드타일클래식",
     "extractedCode": "3521",
     "normalizedFileName": "3521jpg"
   },
   {
     "fileName": "3522.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/3522.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/3522.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "3522",
     "normalizedFileName": "3522jpg"
   },
   {
     "fileName": "3532.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/3532.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/3532.png",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "3532",
     "normalizedFileName": "3532png"
   },
   {
     "fileName": "4901.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4901.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4901.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "4901",
     "normalizedFileName": "4901jpg"
   },
   {
     "fileName": "4902.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4902.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4902.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "4902",
     "normalizedFileName": "4902jpg"
   },
   {
     "fileName": "4974.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4974.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4974.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "4974",
     "normalizedFileName": "4974jpg"
   },
   {
     "fileName": "4975.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4975.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4975.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "4975",
     "normalizedFileName": "4975jpg"
   },
   {
     "fileName": "4982.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4982.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4982.png",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "4982",
     "normalizedFileName": "4982png"
   },
   {
     "fileName": "7401.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7401.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7401.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7401",
     "normalizedFileName": "7401jpg"
   },
   {
     "fileName": "7403.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7403.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7403.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7403",
     "normalizedFileName": "7403jpg"
   },
   {
     "fileName": "7406.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7406.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7406.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7406",
     "normalizedFileName": "7406jpg"
   },
   {
     "fileName": "7451.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7451.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7451.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7451",
     "normalizedFileName": "7451jpg"
   },
   {
     "fileName": "7452.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7452.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7452.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7452",
     "normalizedFileName": "7452jpg"
   },
   {
     "fileName": "7461.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7461.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7461.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7461",
     "normalizedFileName": "7461jpg"
   },
   {
     "fileName": "7462.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7462.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7462.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7462",
     "normalizedFileName": "7462jpg"
   },
   {
     "fileName": "7471.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7471.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7471.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7471",
     "normalizedFileName": "7471jpg"
   },
   {
     "fileName": "7473.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7473.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7473.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7473",
     "normalizedFileName": "7473jpg"
   },
   {
     "fileName": "7495.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7495.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7495.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7495",
     "normalizedFileName": "7495jpg"
   },
   {
     "fileName": "7497.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7497.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7497.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7497",
     "normalizedFileName": "7497jpg"
   },
   {
     "fileName": "7505.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7505.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7505.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7505",
     "normalizedFileName": "7505jpg"
   },
   {
     "fileName": "7506.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7506.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7506.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7506",
     "normalizedFileName": "7506jpg"
   },
   {
     "fileName": "7507.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7507.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7507.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7507",
     "normalizedFileName": "7507jpg"
   },
   {
     "fileName": "7511.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7511.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7511.png",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7511",
     "normalizedFileName": "7511png"
   },
   {
     "fileName": "7512.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7512.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7512.png",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7512",
     "normalizedFileName": "7512png"
   },
   {
     "fileName": "7513.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7513.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7513.png",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7513",
     "normalizedFileName": "7513png"
   },
   {
     "fileName": "7514.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7514.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7514.png",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7514",
     "normalizedFileName": "7514png"
   },
   {
     "fileName": "7521.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7521.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7521.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7521",
     "normalizedFileName": "7521jpg"
   },
   {
     "fileName": "7522.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7522.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7522.png",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7522",
     "normalizedFileName": "7522png"
   },
   {
     "fileName": "7523.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7523.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7523.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7523",
     "normalizedFileName": "7523jpg"
   },
   {
     "fileName": "7524.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7524.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7524.png",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7524",
     "normalizedFileName": "7524png"
   },
   {
     "fileName": "7531.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7531.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7531.png",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7531",
     "normalizedFileName": "7531png"
   },
   {
     "fileName": "7532.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7532.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7532.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7532",
     "normalizedFileName": "7532jpg"
   },
   {
     "fileName": "7533.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7533.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7533.png",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7533",
     "normalizedFileName": "7533png"
   },
   {
     "fileName": "7534.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7534.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7534.png",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7534",
     "normalizedFileName": "7534png"
   },
   {
     "fileName": "7541.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7541.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7541.png",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7541",
     "normalizedFileName": "7541png"
   },
   {
     "fileName": "7542.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7542.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7542.png",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7542",
     "normalizedFileName": "7542png"
   },
   {
     "fileName": "7543.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7543.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7543.png",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7543",
     "normalizedFileName": "7543png"
   },
   {
     "fileName": "7544.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7544.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7544.png",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7544",
     "normalizedFileName": "7544png"
   },
   {
     "fileName": "7551.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7551.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7551.png",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7551",
     "normalizedFileName": "7551png"
   },
   {
     "fileName": "7552.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7552.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7552.png",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7552",
     "normalizedFileName": "7552png"
   },
   {
     "fileName": "7553.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7553.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7553.png",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7553",
     "normalizedFileName": "7553png"
   },
   {
     "fileName": "7554.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7554.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7554.png",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "7554",
     "normalizedFileName": "7554png"
   },
   {
     "fileName": "9709.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9709.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9709.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "9709",
     "normalizedFileName": "9709jpg"
   },
   {
     "fileName": "9712.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9712.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9712.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "9712",
     "normalizedFileName": "9712jpg"
   },
   {
     "fileName": "9731.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9731.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9731.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "9731",
     "normalizedFileName": "9731jpg"
   },
   {
     "fileName": "9732.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9732.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9732.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "9732",
     "normalizedFileName": "9732jpg"
   },
   {
     "fileName": "9733.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9733.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9733.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "9733",
     "normalizedFileName": "9733jpg"
   },
   {
     "fileName": "9734.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9734.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9734.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "9734",
     "normalizedFileName": "9734jpg"
   },
   {
     "fileName": "9824.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9824.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9824.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "9824",
     "normalizedFileName": "9824jpg"
   },
   {
     "fileName": "9827.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9827.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9827.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "9827",
     "normalizedFileName": "9827jpg"
   },
   {
     "fileName": "9843.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9843.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9843.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "9843",
     "normalizedFileName": "9843jpg"
   },
   {
     "fileName": "9846.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9846.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9846.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "9846",
     "normalizedFileName": "9846jpg"
   },
   {
     "fileName": "9847.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9847.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9847.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "골드타일/골드타일클래식",
+    "series": "골드타일클래식",
     "extractedCode": "9847",
     "normalizedFileName": "9847jpg"
   },
   {
     "fileName": "1102.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1102.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1102.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "디럭스/BASIC",
+    "series": "디럭스",
     "extractedCode": "1102",
     "normalizedFileName": "1102jpg"
   },
   {
     "fileName": "1109.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1109.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1109.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "디럭스/BASIC",
+    "series": "디럭스",
     "extractedCode": "1109",
     "normalizedFileName": "1109jpg"
   },
   {
     "fileName": "1117.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1117.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1117.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "디럭스/BASIC",
+    "series": "디럭스",
     "extractedCode": "1117",
     "normalizedFileName": "1117jpg"
   },
   {
     "fileName": "1120.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1120.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1120.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "디럭스/BASIC",
+    "series": "디럭스",
     "extractedCode": "1120",
     "normalizedFileName": "1120jpg"
   },
   {
     "fileName": "1130.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1130.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1130.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "디럭스/BASIC",
+    "series": "디럭스",
     "extractedCode": "1130",
     "normalizedFileName": "1130jpg"
   },
   {
     "fileName": "1131.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1131.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1131.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "디럭스/BASIC",
+    "series": "디럭스",
     "extractedCode": "1131",
     "normalizedFileName": "1131jpg"
   },
   {
     "fileName": "1133.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1133.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1133.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "디럭스/BASIC",
+    "series": "디럭스",
     "extractedCode": "1133",
     "normalizedFileName": "1133jpg"
   },
   {
     "fileName": "1134.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1134.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1134.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "디럭스/BASIC",
+    "series": "디럭스",
     "extractedCode": "1134",
     "normalizedFileName": "1134jpg"
   },
   {
     "fileName": "1135.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1135.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1135.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "디럭스/BASIC",
+    "series": "디럭스",
     "extractedCode": "1135",
     "normalizedFileName": "1135jpg"
   },
   {
     "fileName": "1197.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1197.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1197.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "디럭스/BASIC",
+    "series": "디럭스",
     "extractedCode": "1197",
     "normalizedFileName": "1197jpg"
   },
   {
     "fileName": "1401.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1401.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1401.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "디럭스/BASIC",
+    "series": "디럭스",
     "extractedCode": "1401",
     "normalizedFileName": "1401jpg"
   },
   {
     "fileName": "1402.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1402.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1402.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "디럭스/BASIC",
+    "series": "디럭스",
     "extractedCode": "1402",
     "normalizedFileName": "1402jpg"
   },
   {
     "fileName": "1403.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1403.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1403.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "디럭스/BASIC",
+    "series": "디럭스",
     "extractedCode": "1403",
     "normalizedFileName": "1403jpg"
   },
   {
     "fileName": "154.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/154.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/154.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "디럭스/BASIC",
+    "series": "디럭스",
     "extractedCode": "154",
     "normalizedFileName": "154jpg"
   },
   {
     "fileName": "157.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/157.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/157.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "디럭스/BASIC",
+    "series": "디럭스",
     "extractedCode": "157",
     "normalizedFileName": "157jpg"
   },
   {
-    "fileName": "196.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/196.jpg",
-    "category": "데코타일",
-    "brand": "현대",
-    "series": "디럭스/BASIC",
-    "extractedCode": "196",
-    "normalizedFileName": "196jpg"
-  },
-  {
-    "fileName": "726.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/726.jpg",
-    "category": "데코타일",
-    "brand": "현대",
-    "series": "디럭스/DELUXE_GOLD",
-    "extractedCode": "726",
-    "normalizedFileName": "726jpg"
-  },
-  {
-    "fileName": "727.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/727.jpg",
-    "category": "데코타일",
-    "brand": "현대",
-    "series": "디럭스/DELUXE_GOLD",
-    "extractedCode": "727",
-    "normalizedFileName": "727jpg"
-  },
-  {
-    "fileName": "738.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/738.jpg",
-    "category": "데코타일",
-    "brand": "현대",
-    "series": "디럭스/DELUXE_GOLD",
-    "extractedCode": "738",
-    "normalizedFileName": "738jpg"
-  },
-  {
-    "fileName": "739.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/739.jpg",
-    "category": "데코타일",
-    "brand": "현대",
-    "series": "디럭스/DELUXE_GOLD",
-    "extractedCode": "739",
-    "normalizedFileName": "739jpg"
-  },
-  {
-    "fileName": "751.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/751.jpg",
-    "category": "데코타일",
-    "brand": "현대",
-    "series": "디럭스/DELUXE_GOLD",
-    "extractedCode": "751",
-    "normalizedFileName": "751jpg"
-  },
-  {
-    "fileName": "752.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/752.jpg",
-    "category": "데코타일",
-    "brand": "현대",
-    "series": "디럭스/DELUXE_GOLD",
-    "extractedCode": "752",
-    "normalizedFileName": "752jpg"
-  },
-  {
-    "fileName": "753.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/753.jpg",
-    "category": "데코타일",
-    "brand": "현대",
-    "series": "디럭스/DELUXE_GOLD",
-    "extractedCode": "753",
-    "normalizedFileName": "753jpg"
-  },
-  {
-    "fileName": "754.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/754.jpg",
-    "category": "데코타일",
-    "brand": "현대",
-    "series": "디럭스/DELUXE_GOLD",
-    "extractedCode": "754",
-    "normalizedFileName": "754jpg"
-  },
-  {
     "fileName": "1902.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1902.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1902.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "디럭스/REGENT",
+    "series": "디럭스",
     "extractedCode": "1902",
     "normalizedFileName": "1902jpg"
   },
   {
     "fileName": "1903.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1903.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1903.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "디럭스/REGENT",
+    "series": "디럭스",
     "extractedCode": "1903",
     "normalizedFileName": "1903jpg"
   },
   {
     "fileName": "1904.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1904.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1904.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "디럭스/REGENT",
+    "series": "디럭스",
     "extractedCode": "1904",
     "normalizedFileName": "1904jpg"
   },
   {
     "fileName": "1906.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1906.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1906.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "디럭스/REGENT",
+    "series": "디럭스",
     "extractedCode": "1906",
     "normalizedFileName": "1906jpg"
   },
   {
     "fileName": "1916.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1916.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1916.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "디럭스/REGENT",
+    "series": "디럭스",
     "extractedCode": "1916",
     "normalizedFileName": "1916jpg"
   },
   {
     "fileName": "1919.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1919.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1919.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "디럭스/REGENT",
+    "series": "디럭스",
     "extractedCode": "1919",
     "normalizedFileName": "1919jpg"
   },
   {
     "fileName": "1920.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1920.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1920.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "디럭스/REGENT",
+    "series": "디럭스",
     "extractedCode": "1920",
     "normalizedFileName": "1920jpg"
   },
   {
     "fileName": "1922.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1922.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1922.jpg",
     "category": "데코타일",
     "brand": "현대",
-    "series": "디럭스/REGENT",
+    "series": "디럭스",
     "extractedCode": "1922",
     "normalizedFileName": "1922jpg"
+  },
+  {
+    "fileName": "196.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/196.jpg",
+    "category": "데코타일",
+    "brand": "현대",
+    "series": "디럭스",
+    "extractedCode": "196",
+    "normalizedFileName": "196jpg"
+  },
+  {
+    "fileName": "726.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/726.jpg",
+    "category": "데코타일",
+    "brand": "현대",
+    "series": "디럭스",
+    "extractedCode": "726",
+    "normalizedFileName": "726jpg"
+  },
+  {
+    "fileName": "727.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/727.jpg",
+    "category": "데코타일",
+    "brand": "현대",
+    "series": "디럭스",
+    "extractedCode": "727",
+    "normalizedFileName": "727jpg"
+  },
+  {
+    "fileName": "738.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/738.jpg",
+    "category": "데코타일",
+    "brand": "현대",
+    "series": "디럭스",
+    "extractedCode": "738",
+    "normalizedFileName": "738jpg"
+  },
+  {
+    "fileName": "739.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/739.jpg",
+    "category": "데코타일",
+    "brand": "현대",
+    "series": "디럭스",
+    "extractedCode": "739",
+    "normalizedFileName": "739jpg"
+  },
+  {
+    "fileName": "751.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/751.jpg",
+    "category": "데코타일",
+    "brand": "현대",
+    "series": "디럭스",
+    "extractedCode": "751",
+    "normalizedFileName": "751jpg"
+  },
+  {
+    "fileName": "752.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/752.jpg",
+    "category": "데코타일",
+    "brand": "현대",
+    "series": "디럭스",
+    "extractedCode": "752",
+    "normalizedFileName": "752jpg"
+  },
+  {
+    "fileName": "753.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/753.jpg",
+    "category": "데코타일",
+    "brand": "현대",
+    "series": "디럭스",
+    "extractedCode": "753",
+    "normalizedFileName": "753jpg"
+  },
+  {
+    "fileName": "754.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/754.jpg",
+    "category": "데코타일",
+    "brand": "현대",
+    "series": "디럭스",
+    "extractedCode": "754",
+    "normalizedFileName": "754jpg"
   },
   {
     "fileName": "CT10.jpg",
@@ -33094,769 +33427,2308 @@ export const imageManifest = [
     "normalizedFileName": "43174이프jpg"
   },
   {
+    "fileName": "NP18-3543_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-3543_thumbnail.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "그린1.8",
+    "extractedCode": "NP18-3543",
+    "normalizedFileName": "np183543thumbnailjpg"
+  },
+  {
+    "fileName": "NP18-4123_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4123_thumbnail.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "그린1.8",
+    "extractedCode": "NP18-4123",
+    "normalizedFileName": "np184123thumbnailjpg"
+  },
+  {
+    "fileName": "NP18-4125_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4125_thumbnail.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "그린1.8",
+    "extractedCode": "NP18-4125",
+    "normalizedFileName": "np184125thumbnailjpg"
+  },
+  {
+    "fileName": "NP18-4681_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4681_thumbnail.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "그린1.8",
+    "extractedCode": "NP18-4681",
+    "normalizedFileName": "np184681thumbnailjpg"
+  },
+  {
+    "fileName": "NP18-4701_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4701_thumbnail.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "그린1.8",
+    "extractedCode": "NP18-4701",
+    "normalizedFileName": "np184701thumbnailjpg"
+  },
+  {
+    "fileName": "NP18-4703_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4703_thumbnail.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "그린1.8",
+    "extractedCode": "NP18-4703",
+    "normalizedFileName": "np184703thumbnailjpg"
+  },
+  {
+    "fileName": "NP18-4733_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4733_thumbnail.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "그린1.8",
+    "extractedCode": "NP18-4733",
+    "normalizedFileName": "np184733thumbnailjpg"
+  },
+  {
+    "fileName": "NP18-4863_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4863_thumbnail.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "그린1.8",
+    "extractedCode": "NP18-4863",
+    "normalizedFileName": "np184863thumbnailjpg"
+  },
+  {
+    "fileName": "NP18-4921_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4921_thumbnail.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "그린1.8",
+    "extractedCode": "NP18-4921",
+    "normalizedFileName": "np184921thumbnailjpg"
+  },
+  {
+    "fileName": "NP18-5021_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-5021_thumbnail.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "그린1.8",
+    "extractedCode": "NP18-5021",
+    "normalizedFileName": "np185021thumbnailjpg"
+  },
+  {
+    "fileName": "NP18-5031_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-5031_thumbnail.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "그린1.8",
+    "extractedCode": "NP18-5031",
+    "normalizedFileName": "np185031thumbnailjpg"
+  },
+  {
+    "fileName": "NJ27-4202.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4202.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_2.7",
+    "extractedCode": "NJ27-4202",
+    "normalizedFileName": "nj274202jpg"
+  },
+  {
+    "fileName": "NJ27-4583.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4583.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_2.7",
+    "extractedCode": "NJ27-4583",
+    "normalizedFileName": "nj274583jpg"
+  },
+  {
+    "fileName": "NJ27-4911.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4911.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_2.7",
+    "extractedCode": "NJ27-4911",
+    "normalizedFileName": "nj274911jpg"
+  },
+  {
+    "fileName": "NJ27-4965.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4965.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_2.7",
+    "extractedCode": "NJ27-4965",
+    "normalizedFileName": "nj274965png"
+  },
+  {
+    "fileName": "NJ27-5121.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-5121.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_2.7",
+    "extractedCode": "NJ27-5121",
+    "normalizedFileName": "nj275121jpg"
+  },
+  {
+    "fileName": "NJ27-5235.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-5235.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_2.7",
+    "extractedCode": "NJ27-5235",
+    "normalizedFileName": "nj275235jpg"
+  },
+  {
+    "fileName": "NJ27-5331.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-5331.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_2.7",
+    "extractedCode": "NJ27-5331",
+    "normalizedFileName": "nj275331png"
+  },
+  {
+    "fileName": "NJ27-4202_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NJ27-4202_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_2.7/시공이미지",
+    "extractedCode": "NJ27-4202_시공",
+    "normalizedFileName": "nj274202시공jpg"
+  },
+  {
+    "fileName": "NJ27-4583_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NJ27-4583_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_2.7/시공이미지",
+    "extractedCode": "NJ27-4583_시공",
+    "normalizedFileName": "nj274583시공jpg"
+  },
+  {
+    "fileName": "NJ27-4911_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NJ27-4911_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_2.7/시공이미지",
+    "extractedCode": "NJ27-4911_시공",
+    "normalizedFileName": "nj274911시공jpg"
+  },
+  {
+    "fileName": "NJ27-4965_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NJ27-4965_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_2.7/시공이미지",
+    "extractedCode": "NJ27-4965_시공",
+    "normalizedFileName": "nj274965시공jpg"
+  },
+  {
+    "fileName": "NJ27-5121_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NJ27-5121_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_2.7/시공이미지",
+    "extractedCode": "NJ27-5121_시공",
+    "normalizedFileName": "nj275121시공jpg"
+  },
+  {
+    "fileName": "NJ27-5235_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NJ27-5235_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_2.7/시공이미지",
+    "extractedCode": "NJ27-5235_시공",
+    "normalizedFileName": "nj275235시공jpg"
+  },
+  {
+    "fileName": "NJ27-5331_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NJ27-5331_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_2.7/시공이미지",
+    "extractedCode": "NJ27-5331_시공",
+    "normalizedFileName": "nj275331시공jpg"
+  },
+  {
+    "fileName": "NR32-4368.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4368.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_3.2",
+    "extractedCode": "NR32-4368",
+    "normalizedFileName": "nr324368jpg"
+  },
+  {
+    "fileName": "NR32-4368_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4368_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_3.2",
+    "extractedCode": "NR32-4368_시공",
+    "normalizedFileName": "nr324368시공jpg"
+  },
+  {
+    "fileName": "NR32-4791.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4791.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_3.2",
+    "extractedCode": "NR32-4791",
+    "normalizedFileName": "nr324791jpg"
+  },
+  {
+    "fileName": "NR32-4791_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4791_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_3.2",
+    "extractedCode": "NR32-4791_시공",
+    "normalizedFileName": "nr324791시공jpg"
+  },
+  {
+    "fileName": "NR32-4835.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4835.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_3.2",
+    "extractedCode": "NR32-4835",
+    "normalizedFileName": "nr324835jpg"
+  },
+  {
+    "fileName": "NR32-4835_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4835_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_3.2",
+    "extractedCode": "NR32-4835_시공",
+    "normalizedFileName": "nr324835시공jpg"
+  },
+  {
+    "fileName": "NR32-4901.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4901.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_3.2",
+    "extractedCode": "NR32-4901",
+    "normalizedFileName": "nr324901jpg"
+  },
+  {
+    "fileName": "NR32-4901_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4901_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_3.2",
+    "extractedCode": "NR32-4901_시공",
+    "normalizedFileName": "nr324901시공jpg"
+  },
+  {
+    "fileName": "NR32-4968.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4968.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_3.2",
+    "extractedCode": "NR32-4968",
+    "normalizedFileName": "nr324968png"
+  },
+  {
+    "fileName": "NR32-4968_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4968_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_3.2",
+    "extractedCode": "NR32-4968_시공",
+    "normalizedFileName": "nr324968시공jpg"
+  },
+  {
+    "fileName": "NR32-5103.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5103.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_3.2",
+    "extractedCode": "NR32-5103",
+    "normalizedFileName": "nr325103jpg"
+  },
+  {
+    "fileName": "NR32-5103_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5103_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_3.2",
+    "extractedCode": "NR32-5103_시공",
+    "normalizedFileName": "nr325103시공jpg"
+  },
+  {
+    "fileName": "NR32-5105.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5105.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_3.2",
+    "extractedCode": "NR32-5105",
+    "normalizedFileName": "nr325105jpg"
+  },
+  {
+    "fileName": "NR32-5105_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5105_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_3.2",
+    "extractedCode": "NR32-5105_시공",
+    "normalizedFileName": "nr325105시공jpg"
+  },
+  {
+    "fileName": "NR32-5111.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5111.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_3.2",
+    "extractedCode": "NR32-5111",
+    "normalizedFileName": "nr325111jpg"
+  },
+  {
+    "fileName": "NR32-5111_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5111_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_3.2",
+    "extractedCode": "NR32-5111_시공",
+    "normalizedFileName": "nr325111시공jpg"
+  },
+  {
+    "fileName": "NR32-5131.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5131.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_3.2",
+    "extractedCode": "NR32-5131",
+    "normalizedFileName": "nr325131jpg"
+  },
+  {
+    "fileName": "NR32-5131_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5131_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_3.2",
+    "extractedCode": "NR32-5131_시공",
+    "normalizedFileName": "nr325131시공jpg"
+  },
+  {
+    "fileName": "NR32-5165.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5165.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_3.2",
+    "extractedCode": "NR32-5165",
+    "normalizedFileName": "nr325165jpg"
+  },
+  {
+    "fileName": "NR32-5165_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5165_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_3.2",
+    "extractedCode": "NR32-5165_시공",
+    "normalizedFileName": "nr325165시공jpg"
+  },
+  {
+    "fileName": "NR32-5321.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5321.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_3.2",
+    "extractedCode": "NR32-5321",
+    "normalizedFileName": "nr325321jpg"
+  },
+  {
+    "fileName": "NR32-5321_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5321_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_3.2",
+    "extractedCode": "NR32-5321_시공",
+    "normalizedFileName": "nr325321시공jpg"
+  },
+  {
+    "fileName": "NR32-5323.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5323.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_3.2",
+    "extractedCode": "NR32-5323",
+    "normalizedFileName": "nr325323png"
+  },
+  {
+    "fileName": "NR32-5323_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5323_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "도담_3.2",
+    "extractedCode": "NR32-5323_시공",
+    "normalizedFileName": "nr325323시공jpg"
+  },
+  {
+    "fileName": "MN22-4151_detail.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4151_detail.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "숲 옥2.2",
+    "extractedCode": "MN22-4151_detail",
+    "normalizedFileName": "mn224151detailpng"
+  },
+  {
+    "fileName": "MN22-4162_detail.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4162_detail.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "숲 옥2.2",
+    "extractedCode": "MN22-4162_detail",
+    "normalizedFileName": "mn224162detailpng"
+  },
+  {
+    "fileName": "MN22-4383_detail.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4383_detail.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "숲 옥2.2",
+    "extractedCode": "MN22-4383_detail",
+    "normalizedFileName": "mn224383detailpng"
+  },
+  {
+    "fileName": "MN22-4581_detail.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4581_detail.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "숲 옥2.2",
+    "extractedCode": "MN22-4581_detail",
+    "normalizedFileName": "mn224581detailpng"
+  },
+  {
+    "fileName": "MN22-4591_detail.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4591_detail.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "숲 옥2.2",
+    "extractedCode": "MN22-4591_detail",
+    "normalizedFileName": "mn224591detailpng"
+  },
+  {
+    "fileName": "MN22-4811_detail.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4811_detail.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "숲 옥2.2",
+    "extractedCode": "MN22-4811_detail",
+    "normalizedFileName": "mn224811detailpng"
+  },
+  {
+    "fileName": "MN22-4821_detail.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4821_detail.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "숲 옥2.2",
+    "extractedCode": "MN22-4821_detail",
+    "normalizedFileName": "mn224821detailpng"
+  },
+  {
+    "fileName": "MN22-4823_detail.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4823_detail.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "숲 옥2.2",
+    "extractedCode": "MN22-4823_detail",
+    "normalizedFileName": "mn224823detailpng"
+  },
+  {
+    "fileName": "MN22-4831_detail.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4831_detail.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "숲 옥2.2",
+    "extractedCode": "MN22-4831_detail",
+    "normalizedFileName": "mn224831detailpng"
+  },
+  {
+    "fileName": "MN22-5051_detail.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5051_detail.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "숲 옥2.2",
+    "extractedCode": "MN22-5051_detail",
+    "normalizedFileName": "mn225051detailpng"
+  },
+  {
+    "fileName": "MN22-5061_detail.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5061_detail.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "숲 옥2.2",
+    "extractedCode": "MN22-5061_detail",
+    "normalizedFileName": "mn225061detailpng"
+  },
+  {
+    "fileName": "MN22-5071_detail.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5071_detail.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "숲 옥2.2",
+    "extractedCode": "MN22-5071_detail",
+    "normalizedFileName": "mn225071detailpng"
+  },
+  {
+    "fileName": "MN22-5091_detail.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5091_detail.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "숲 옥2.2",
+    "extractedCode": "MN22-5091_detail",
+    "normalizedFileName": "mn225091detailpng"
+  },
+  {
+    "fileName": "MN22-5191_detail.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5191_detail.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "숲 옥2.2",
+    "extractedCode": "MN22-5191_detail",
+    "normalizedFileName": "mn225191detailpng"
+  },
+  {
+    "fileName": "MN22-5201_detail.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5201_detail.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "숲 옥2.2",
+    "extractedCode": "MN22-5201_detail",
+    "normalizedFileName": "mn225201detailpng"
+  },
+  {
+    "fileName": "MN22-5203_detail.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5203_detail.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "숲 옥2.2",
+    "extractedCode": "MN22-5203_detail",
+    "normalizedFileName": "mn225203detailpng"
+  },
+  {
+    "fileName": "MN22-5211_detail.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5211_detail.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "숲 옥2.2",
+    "extractedCode": "MN22-5211_detail",
+    "normalizedFileName": "mn225211detailpng"
+  },
+  {
+    "fileName": "MN22-5221_detail.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5221_detail.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "숲 옥2.2",
+    "extractedCode": "MN22-5221_detail",
+    "normalizedFileName": "mn225221detailpng"
+  },
+  {
+    "fileName": "MN22-5231_detail.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5231_detail.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "숲 옥2.2",
+    "extractedCode": "MN22-5231_detail",
+    "normalizedFileName": "mn225231detailpng"
+  },
+  {
+    "fileName": "MN22-5233_detail.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5233_detail.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "숲 옥2.2",
+    "extractedCode": "MN22-5233_detail",
+    "normalizedFileName": "mn225233detailpng"
+  },
+  {
+    "fileName": "NC45-4232.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4232.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_4.5",
+    "extractedCode": "NC45-4232",
+    "normalizedFileName": "nc454232jpg"
+  },
+  {
+    "fileName": "NC45-4751.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4751.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_4.5",
+    "extractedCode": "NC45-4751",
+    "normalizedFileName": "nc454751jpg"
+  },
+  {
+    "fileName": "NC45-4761.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4761.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_4.5",
+    "extractedCode": "NC45-4761",
+    "normalizedFileName": "nc454761jpg"
+  },
+  {
+    "fileName": "NC45-4941.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4941.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_4.5",
+    "extractedCode": "NC45-4941",
+    "normalizedFileName": "nc454941jpg"
+  },
+  {
+    "fileName": "NC45-5151.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5151.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_4.5",
+    "extractedCode": "NC45-5151",
+    "normalizedFileName": "nc455151jpg"
+  },
+  {
+    "fileName": "NC45-5153.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5153.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_4.5",
+    "extractedCode": "NC45-5153",
+    "normalizedFileName": "nc455153jpg"
+  },
+  {
+    "fileName": "NC45-5161.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5161.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_4.5",
+    "extractedCode": "NC45-5161",
+    "normalizedFileName": "nc455161jpg"
+  },
+  {
+    "fileName": "NC45-5171.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5171.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_4.5",
+    "extractedCode": "NC45-5171",
+    "normalizedFileName": "nc455171jpg"
+  },
+  {
+    "fileName": "NC45-5181.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5181.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_4.5",
+    "extractedCode": "NC45-5181",
+    "normalizedFileName": "nc455181jpg"
+  },
+  {
+    "fileName": "NC45-4232_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NC45-4232_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_4.5/시공이미지",
+    "extractedCode": "NC45-4232_시공",
+    "normalizedFileName": "nc454232시공jpg"
+  },
+  {
+    "fileName": "NC45-4751_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NC45-4751_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_4.5/시공이미지",
+    "extractedCode": "NC45-4751_시공",
+    "normalizedFileName": "nc454751시공jpg"
+  },
+  {
+    "fileName": "NC45-4761_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NC45-4761_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_4.5/시공이미지",
+    "extractedCode": "NC45-4761_시공",
+    "normalizedFileName": "nc454761시공jpg"
+  },
+  {
+    "fileName": "NC45-4941_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NC45-4941_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_4.5/시공이미지",
+    "extractedCode": "NC45-4941_시공",
+    "normalizedFileName": "nc454941시공jpg"
+  },
+  {
+    "fileName": "NC45-5151_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NC45-5151_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_4.5/시공이미지",
+    "extractedCode": "NC45-5151_시공",
+    "normalizedFileName": "nc455151시공jpg"
+  },
+  {
+    "fileName": "NC45-5153_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NC45-5153_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_4.5/시공이미지",
+    "extractedCode": "NC45-5153_시공",
+    "normalizedFileName": "nc455153시공jpg"
+  },
+  {
+    "fileName": "NC45-5161_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NC45-5161_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_4.5/시공이미지",
+    "extractedCode": "NC45-5161_시공",
+    "normalizedFileName": "nc455161시공jpg"
+  },
+  {
+    "fileName": "NC45-5171_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NC45-5171_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_4.5/시공이미지",
+    "extractedCode": "NC45-5171_시공",
+    "normalizedFileName": "nc455171시공jpg"
+  },
+  {
+    "fileName": "NC45-5181_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NC45-5181_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_4.5/시공이미지",
+    "extractedCode": "NC45-5181_시공",
+    "normalizedFileName": "nc455181시공jpg"
+  },
+  {
+    "fileName": "NV50-4931.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-4931.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_5.0",
+    "extractedCode": "NV50-4931",
+    "normalizedFileName": "nv504931jpg"
+  },
+  {
+    "fileName": "NV50-4961.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-4961.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_5.0",
+    "extractedCode": "NV50-4961",
+    "normalizedFileName": "nv504961jpg"
+  },
+  {
+    "fileName": "NV50-4981.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-4981.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_5.0",
+    "extractedCode": "NV50-4981",
+    "normalizedFileName": "nv504981jpg"
+  },
+  {
+    "fileName": "NV50-5001.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5001.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_5.0",
+    "extractedCode": "NV50-5001",
+    "normalizedFileName": "nv505001jpg"
+  },
+  {
+    "fileName": "NV50-5003.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5003.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_5.0",
+    "extractedCode": "NV50-5003",
+    "normalizedFileName": "nv505003jpg"
+  },
+  {
+    "fileName": "NV50-5013.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5013.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_5.0",
+    "extractedCode": "NV50-5013",
+    "normalizedFileName": "nv505013jpg"
+  },
+  {
+    "fileName": "NV50-5163.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5163.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_5.0",
+    "extractedCode": "NV50-5163",
+    "normalizedFileName": "nv505163jpg"
+  },
+  {
+    "fileName": "NV50-4931_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NV50-4931_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_5.0/시공이미지",
+    "extractedCode": "NV50-4931_시공",
+    "normalizedFileName": "nv504931시공jpg"
+  },
+  {
+    "fileName": "NV50-4961_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NV50-4961_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_5.0/시공이미지",
+    "extractedCode": "NV50-4961_시공",
+    "normalizedFileName": "nv504961시공jpg"
+  },
+  {
+    "fileName": "NV50-4981_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NV50-4981_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_5.0/시공이미지",
+    "extractedCode": "NV50-4981_시공",
+    "normalizedFileName": "nv504981시공jpg"
+  },
+  {
+    "fileName": "NV50-5001_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NV50-5001_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_5.0/시공이미지",
+    "extractedCode": "NV50-5001_시공",
+    "normalizedFileName": "nv505001시공jpg"
+  },
+  {
+    "fileName": "NV50-5003_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NV50-5003_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_5.0/시공이미지",
+    "extractedCode": "NV50-5003_시공",
+    "normalizedFileName": "nv505003시공jpg"
+  },
+  {
+    "fileName": "NV50-5013_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NV50-5013_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_5.0/시공이미지",
+    "extractedCode": "NV50-5013_시공",
+    "normalizedFileName": "nv505013시공jpg"
+  },
+  {
+    "fileName": "NV50-5163_시공.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NV50-5163_%EC%8B%9C%EA%B3%B5.jpg",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "휴가온_5.0/시공이미지",
+    "extractedCode": "NV50-5163_시공",
+    "normalizedFileName": "nv505163시공jpg"
+  },
+  {
     "fileName": "CM21882.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM21882.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM21882.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_뉴청맥_1.8T",
     "extractedCode": "CM21882",
     "normalizedFileName": "cm21882jpg"
   },
   {
     "fileName": "CM22771.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM22771.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM22771.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_뉴청맥_1.8T",
     "extractedCode": "CM22771",
     "normalizedFileName": "cm22771jpg"
   },
   {
     "fileName": "CM23691.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM23691.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM23691.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_뉴청맥_1.8T",
     "extractedCode": "CM23691",
     "normalizedFileName": "cm23691jpg"
   },
   {
     "fileName": "CM23692.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM23692.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM23692.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_뉴청맥_1.8T",
     "extractedCode": "CM23692",
     "normalizedFileName": "cm23692jpg"
   },
   {
     "fileName": "CM24081.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24081.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24081.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_뉴청맥_1.8T",
     "extractedCode": "CM24081",
     "normalizedFileName": "cm24081jpg"
   },
   {
     "fileName": "CM24083.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24083.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24083.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_뉴청맥_1.8T",
     "extractedCode": "CM24083",
     "normalizedFileName": "cm24083jpg"
   },
   {
     "fileName": "CM24131.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24131.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24131.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_뉴청맥_1.8T",
     "extractedCode": "CM24131",
     "normalizedFileName": "cm24131jpg"
   },
   {
     "fileName": "CM24133.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24133.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24133.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_뉴청맥_1.8T",
     "extractedCode": "CM24133",
     "normalizedFileName": "cm24133jpg"
   },
   {
     "fileName": "CM24711.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24711.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24711.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_뉴청맥_1.8T",
     "extractedCode": "CM24711",
     "normalizedFileName": "cm24711jpg"
   },
   {
     "fileName": "CM24713.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24713.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24713.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_뉴청맥_1.8T",
     "extractedCode": "CM24713",
     "normalizedFileName": "cm24713jpg"
   },
   {
     "fileName": "CM24722.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24722.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24722.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_뉴청맥_1.8T",
     "extractedCode": "CM24722",
     "normalizedFileName": "cm24722jpg"
   },
   {
     "fileName": "CM24731.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24731.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24731.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_뉴청맥_1.8T",
     "extractedCode": "CM24731",
     "normalizedFileName": "cm24731jpg"
   },
   {
     "fileName": "CM24741.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24741.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24741.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_뉴청맥_1.8T",
     "extractedCode": "CM24741",
     "normalizedFileName": "cm24741jpg"
   },
   {
     "fileName": "XCF3441.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3441.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3441.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_엑스컴포트_5.0T",
     "extractedCode": "XCF3441",
     "normalizedFileName": "xcf3441jpg"
   },
   {
     "fileName": "XCF3442.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3442.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3442.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_엑스컴포트_5.0T",
     "extractedCode": "XCF3442",
     "normalizedFileName": "xcf3442jpg"
   },
   {
     "fileName": "XCF3451.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3451.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3451.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_엑스컴포트_5.0T",
     "extractedCode": "XCF3451",
     "normalizedFileName": "xcf3451jpg"
   },
   {
     "fileName": "XCF3612.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3612.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3612.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_엑스컴포트_5.0T",
     "extractedCode": "XCF3612",
     "normalizedFileName": "xcf3612jpg"
   },
   {
     "fileName": "XCF3621.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3621.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3621.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_엑스컴포트_5.0T",
     "extractedCode": "XCF3621",
     "normalizedFileName": "xcf3621jpg"
   },
   {
     "fileName": "XCF3622.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3622.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3622.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_엑스컴포트_5.0T",
     "extractedCode": "XCF3622",
     "normalizedFileName": "xcf3622jpg"
   },
   {
     "fileName": "XCF4023.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4023.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4023.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_엑스컴포트_5.0T",
     "extractedCode": "XCF4023",
     "normalizedFileName": "xcf4023jpg"
   },
   {
     "fileName": "XCF4043.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4043.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4043.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_엑스컴포트_5.0T",
     "extractedCode": "XCF4043",
     "normalizedFileName": "xcf4043jpg"
   },
   {
     "fileName": "XCF4481.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4481.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4481.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_엑스컴포트_5.0T",
     "extractedCode": "XCF4481",
     "normalizedFileName": "xcf4481jpg"
   },
   {
     "fileName": "XCF4482.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4482.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4482.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_엑스컴포트_5.0T",
     "extractedCode": "XCF4482",
     "normalizedFileName": "xcf4482jpg"
   },
   {
     "fileName": "XCF4531.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4531.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4531.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_엑스컴포트_5.0T",
     "extractedCode": "XCF4531",
     "normalizedFileName": "xcf4531jpg"
   },
   {
     "fileName": "XCF4541.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4541.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4541.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_엑스컴포트_5.0T",
     "extractedCode": "XCF4541",
     "normalizedFileName": "xcf4541jpg"
   },
   {
     "fileName": "XCFS011.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCFS011.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCFS011.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_엑스컴포트_5.0T",
     "extractedCode": "XCFS011",
     "normalizedFileName": "xcfs011jpg"
   },
   {
     "fileName": "XCFS012.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCFS012.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCFS012.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_엑스컴포트_5.0T",
     "extractedCode": "XCFS012",
     "normalizedFileName": "xcfs012jpg"
   },
   {
     "fileName": "XCFW011.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCFW011.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCFW011.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_엑스컴포트_5.0T",
     "extractedCode": "XCFW011",
     "normalizedFileName": "xcfw011jpg"
   },
   {
     "fileName": "EH12071.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH12071.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH12071.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_은행목_2.0T",
     "extractedCode": "EH12071",
     "normalizedFileName": "eh12071jpg"
   },
   {
     "fileName": "EH12121.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH12121.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH12121.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_은행목_2.0T",
     "extractedCode": "EH12121",
     "normalizedFileName": "eh12121jpg"
   },
   {
     "fileName": "EH13712 .jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH13712%20.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH13712%20.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_은행목_2.0T",
     "extractedCode": "EH13712",
     "normalizedFileName": "eh13712jpg"
   },
   {
     "fileName": "EH13713.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH13713.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH13713.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_은행목_2.0T",
     "extractedCode": "EH13713",
     "normalizedFileName": "eh13713jpg"
   },
   {
     "fileName": "EH14092.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14092.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14092.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_은행목_2.0T",
     "extractedCode": "EH14092",
     "normalizedFileName": "eh14092jpg"
   },
   {
     "fileName": "EH14101.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14101.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14101.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_은행목_2.0T",
     "extractedCode": "EH14101",
     "normalizedFileName": "eh14101jpg"
   },
   {
     "fileName": "EH14121.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14121.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14121.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_은행목_2.0T",
     "extractedCode": "EH14121",
     "normalizedFileName": "eh14121jpg"
   },
   {
     "fileName": "EH14712.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14712.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14712.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_은행목_2.0T",
     "extractedCode": "EH14712",
     "normalizedFileName": "eh14712jpg"
   },
   {
     "fileName": "EH14721.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14721.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14721.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_은행목_2.0T",
     "extractedCode": "EH14721",
     "normalizedFileName": "eh14721jpg"
   },
   {
     "fileName": "EH14732.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14732.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14732.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_은행목_2.0T",
     "extractedCode": "EH14732",
     "normalizedFileName": "eh14732jpg"
   },
   {
     "fileName": "50011.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/50011.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/50011.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아사랑애_2.7T",
     "extractedCode": "50011",
     "normalizedFileName": "50011jpg"
   },
   {
     "fileName": "50061.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/50061.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/50061.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아사랑애_2.7T",
     "extractedCode": "50061",
     "normalizedFileName": "50061jpg"
   },
   {
     "fileName": "53351.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/53351.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/53351.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아사랑애_2.7T",
     "extractedCode": "53351",
     "normalizedFileName": "53351jpg"
   },
   {
     "fileName": "54211.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/54211.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/54211.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아사랑애_2.7T",
     "extractedCode": "54211",
     "normalizedFileName": "54211jpg"
   },
   {
     "fileName": "54231.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/54231.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/54231.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아사랑애_2.7T",
     "extractedCode": "54231",
     "normalizedFileName": "54231jpg"
   },
   {
     "fileName": "60071.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60071.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60071.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아사랑애_3.2T",
     "extractedCode": "60071",
     "normalizedFileName": "60071jpg"
   },
   {
     "fileName": "60081.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60081.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60081.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아사랑애_3.2T",
     "extractedCode": "60081",
     "normalizedFileName": "60081jpg"
   },
   {
     "fileName": "60151.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60151.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60151.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아사랑애_3.2T",
     "extractedCode": "60151",
     "normalizedFileName": "60151jpg"
   },
   {
     "fileName": "60161.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60161.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60161.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아사랑애_3.2T",
     "extractedCode": "60161",
     "normalizedFileName": "60161jpg"
   },
   {
     "fileName": "63312.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/63312.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/63312.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아사랑애_3.2T",
     "extractedCode": "63312",
     "normalizedFileName": "63312jpg"
   },
   {
     "fileName": "63391.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/63391.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/63391.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아사랑애_3.2T",
     "extractedCode": "63391",
     "normalizedFileName": "63391jpg"
   },
   {
     "fileName": "63693.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/63693.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/63693.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아사랑애_3.2T",
     "extractedCode": "63693",
     "normalizedFileName": "63693jpg"
   },
   {
     "fileName": "64221 .jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64221%20.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64221%20.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아사랑애_3.2T",
     "extractedCode": "64221",
     "normalizedFileName": "64221jpg"
   },
   {
     "fileName": "64223.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64223.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64223.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아사랑애_3.2T",
     "extractedCode": "64223",
     "normalizedFileName": "64223jpg"
   },
   {
     "fileName": "64281.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64281.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64281.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아사랑애_3.2T",
     "extractedCode": "64281",
     "normalizedFileName": "64281jpg"
   },
   {
     "fileName": "ZS80021-11.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS80021-11.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS80021-11.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아소리잠_4.5T",
     "extractedCode": "ZS80021-11",
     "normalizedFileName": "zs8002111jpg"
   },
   {
     "fileName": "ZS80071-11.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS80071-11.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS80071-11.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아소리잠_4.5T",
     "extractedCode": "ZS80071-11",
     "normalizedFileName": "zs8007111jpg"
   },
   {
     "fileName": "ZS83081-11.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS83081-11.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS83081-11.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아소리잠_4.5T",
     "extractedCode": "ZS83081-11",
     "normalizedFileName": "zs8308111jpg"
   },
   {
     "fileName": "ZS84011-11.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84011-11.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84011-11.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아소리잠_4.5T",
     "extractedCode": "ZS84011-11",
     "normalizedFileName": "zs8401111jpg"
   },
   {
     "fileName": "ZS84012-11.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84012-11.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84012-11.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아소리잠_4.5T",
     "extractedCode": "ZS84012-11",
     "normalizedFileName": "zs8401211jpg"
   },
   {
     "fileName": "ZS84021-11.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84021-11.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84021-11.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아소리잠_4.5T",
     "extractedCode": "ZS84021-11",
     "normalizedFileName": "zs8402111jpg"
   },
   {
     "fileName": "ZS84022-11.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84022-11.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84022-11.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아소리잠_4.5T",
     "extractedCode": "ZS84022-11",
     "normalizedFileName": "zs8402211jpg"
   },
   {
     "fileName": "ZS84031-11.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84031-11.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84031-11.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아소리잠_4.5T",
     "extractedCode": "ZS84031-11",
     "normalizedFileName": "zs8403111jpg"
   },
   {
     "fileName": "ZS84032-11.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84032-11.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84032-11.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아소리잠_4.5T",
     "extractedCode": "ZS84032-11",
     "normalizedFileName": "zs8403211jpg"
   },
   {
     "fileName": "ZS84041-11.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84041-11.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84041-11.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아소리잠_4.5T",
     "extractedCode": "ZS84041-11",
     "normalizedFileName": "zs8404111jpg"
   },
   {
     "fileName": "ZJ32981-11.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ32981-11.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ32981-11.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아자연애_2.2T",
     "extractedCode": "ZJ32981-11",
     "normalizedFileName": "zj3298111jpg"
   },
   {
     "fileName": "ZJ33561-11.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33561-11.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33561-11.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아자연애_2.2T",
     "extractedCode": "ZJ33561-11",
     "normalizedFileName": "zj3356111jpg"
   },
   {
     "fileName": "ZJ33562-11.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33562-11.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33562-11.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아자연애_2.2T",
     "extractedCode": "ZJ33562-11",
     "normalizedFileName": "zj3356211jpg"
   },
   {
     "fileName": "ZJ33763-11.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33763-11.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33763-11.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아자연애_2.2T",
     "extractedCode": "ZJ33763-11",
     "normalizedFileName": "zj3376311jpg"
   },
   {
     "fileName": "ZJ33871-1.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33871-1.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33871-1.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아자연애_2.2T",
     "extractedCode": "ZJ33871-1",
     "normalizedFileName": "zj338711jpg"
   },
   {
     "fileName": "ZJ33872-11.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33872-11.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33872-11.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아자연애_2.2T",
     "extractedCode": "ZJ33872-11",
     "normalizedFileName": "zj3387211jpg"
   },
   {
     "fileName": "ZJ34331-11.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34331-11.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34331-11.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아자연애_2.2T",
     "extractedCode": "ZJ34331-11",
     "normalizedFileName": "zj3433111jpg"
   },
   {
     "fileName": "ZJ34371-11.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34371-11.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34371-11.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아자연애_2.2T",
     "extractedCode": "ZJ34371-11",
     "normalizedFileName": "zj3437111jpg"
   },
   {
     "fileName": "ZJ34841-11.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34841-11.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34841-11.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아자연애_2.2T",
     "extractedCode": "ZJ34841-11",
     "normalizedFileName": "zj3484111jpg"
   },
   {
     "fileName": "ZJ34842-11.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34842-11.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34842-11.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아자연애_2.2T",
     "extractedCode": "ZJ34842-11",
     "normalizedFileName": "zj3484211jpg"
   },
   {
     "fileName": "ZJ34851-11.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34851-11.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34851-11.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아자연애_2.2T",
     "extractedCode": "ZJ34851-11",
     "normalizedFileName": "zj3485111jpg"
   },
   {
     "fileName": "ZJ43601-22.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ43601-22.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ43601-22.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아자연애_2.2T",
     "extractedCode": "ZJ43601-22",
     "normalizedFileName": "zj4360122jpg"
   },
   {
     "fileName": "ZJ43841-22.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ43841-22.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ43841-22.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아자연애_2.2T",
     "extractedCode": "ZJ43841-22",
     "normalizedFileName": "zj4384122jpg"
   },
   {
     "fileName": "ZJ43893-22.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ43893-22.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ43893-22.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아자연애_2.2T",
     "extractedCode": "ZJ43893-22",
     "normalizedFileName": "zj4389322jpg"
   },
   {
     "fileName": "ZJ44093-22.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44093-22.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44093-22.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아자연애_2.2T",
     "extractedCode": "ZJ44093-22",
     "normalizedFileName": "zj4409322jpg"
   },
   {
     "fileName": "ZJ44241-22.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44241-22.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44241-22.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아자연애_2.2T",
     "extractedCode": "ZJ44241-22",
     "normalizedFileName": "zj4424122jpg"
   },
   {
     "fileName": "ZJ44351-22.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44351-22.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44351-22.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아자연애_2.2T",
     "extractedCode": "ZJ44351-22",
     "normalizedFileName": "zj4435122jpg"
   },
   {
     "fileName": "ZJ44821-22.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44821-22.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44821-22.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아자연애_2.2T",
     "extractedCode": "ZJ44821-22",
     "normalizedFileName": "zj4482122jpg"
   },
   {
     "fileName": "ZJ44822-22.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44822-22.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44822-22.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아자연애_2.2T",
     "extractedCode": "ZJ44822-22",
     "normalizedFileName": "zj4482222jpg"
   },
   {
     "fileName": "ZJ44831-22.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44831-22.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44831-22.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아자연애_2.2T",
     "extractedCode": "ZJ44831-22",
     "normalizedFileName": "zj4483122jpg"
   },
   {
     "fileName": "ZJ44861-22.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44861-22.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44861-22.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아자연애_2.2T",
     "extractedCode": "ZJ44861-22",
     "normalizedFileName": "zj4486122jpg"
   },
   {
     "fileName": "ZJ44871-22.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44871-22.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44871-22.jpg",
     "category": "장판",
     "brand": "LX하우시스",
-    "series": "",
+    "series": "LX하우시스_지아자연애_2.2T",
     "extractedCode": "ZJ44871-22",
     "normalizedFileName": "zj4487122jpg"
+  },
+  {
+    "fileName": "M3204_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3204_thumbnail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "더채움2.2",
+    "extractedCode": "M3204",
+    "normalizedFileName": "m3204thumbnailjpg"
+  },
+  {
+    "fileName": "M3205_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3205_thumbnail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "더채움2.2",
+    "extractedCode": "M3205",
+    "normalizedFileName": "m3205thumbnailjpg"
+  },
+  {
+    "fileName": "M3208_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3208_thumbnail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "더채움2.2",
+    "extractedCode": "M3208",
+    "normalizedFileName": "m3208thumbnailjpg"
+  },
+  {
+    "fileName": "M3221_thumbnail.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3221_thumbnail.png",
+    "category": "장판",
+    "brand": "현대",
+    "series": "더채움2.2",
+    "extractedCode": "M3221",
+    "normalizedFileName": "m3221thumbnailpng"
+  },
+  {
+    "fileName": "M3223_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3223_thumbnail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "더채움2.2",
+    "extractedCode": "M3223",
+    "normalizedFileName": "m3223thumbnailjpg"
+  },
+  {
+    "fileName": "M3232_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3232_thumbnail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "더채움2.2",
+    "extractedCode": "M3232",
+    "normalizedFileName": "m3232thumbnailjpg"
+  },
+  {
+    "fileName": "M3235_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3235_thumbnail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "더채움2.2",
+    "extractedCode": "M3235",
+    "normalizedFileName": "m3235thumbnailjpg"
+  },
+  {
+    "fileName": "M3236_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3236_thumbnail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "더채움2.2",
+    "extractedCode": "M3236",
+    "normalizedFileName": "m3236thumbnailjpg"
+  },
+  {
+    "fileName": "M3301_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3301_thumbnail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "더채움2.2",
+    "extractedCode": "M3301",
+    "normalizedFileName": "m3301thumbnailjpg"
+  },
+  {
+    "fileName": "M3302_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3302_thumbnail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "더채움2.2",
+    "extractedCode": "M3302",
+    "normalizedFileName": "m3302thumbnailjpg"
+  },
+  {
+    "fileName": "M3303_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3303_thumbnail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "더채움2.2",
+    "extractedCode": "M3303",
+    "normalizedFileName": "m3303thumbnailjpg"
+  },
+  {
+    "fileName": "M3306_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3306_thumbnail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "더채움2.2",
+    "extractedCode": "M3306",
+    "normalizedFileName": "m3306thumbnailjpg"
+  },
+  {
+    "fileName": "M3307_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3307_thumbnail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "더채움2.2",
+    "extractedCode": "M3307",
+    "normalizedFileName": "m3307thumbnailjpg"
+  },
+  {
+    "fileName": "M3311_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3311_thumbnail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "더채움2.2",
+    "extractedCode": "M3311",
+    "normalizedFileName": "m3311thumbnailjpg"
+  },
+  {
+    "fileName": "M3312_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3312_thumbnail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "더채움2.2",
+    "extractedCode": "M3312",
+    "normalizedFileName": "m3312thumbnailjpg"
+  },
+  {
+    "fileName": "M3313_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3313_thumbnail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "더채움2.2",
+    "extractedCode": "M3313",
+    "normalizedFileName": "m3313thumbnailjpg"
+  },
+  {
+    "fileName": "M3314_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3314_thumbnail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "더채움2.2",
+    "extractedCode": "M3314",
+    "normalizedFileName": "m3314thumbnailjpg"
+  },
+  {
+    "fileName": "M3315_thumbnail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3315_thumbnail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "더채움2.2",
+    "extractedCode": "M3315",
+    "normalizedFileName": "m3315thumbnailjpg"
+  },
+  {
+    "fileName": "A4301_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4301_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "아티움2.7",
+    "extractedCode": "A4301_detail",
+    "normalizedFileName": "a4301detailjpg"
+  },
+  {
+    "fileName": "A4302_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4302_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "아티움2.7",
+    "extractedCode": "A4302_detail",
+    "normalizedFileName": "a4302detailjpg"
+  },
+  {
+    "fileName": "A4303_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4303_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "아티움2.7",
+    "extractedCode": "A4303_detail",
+    "normalizedFileName": "a4303detailjpg"
+  },
+  {
+    "fileName": "A4304_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4304_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "아티움2.7",
+    "extractedCode": "A4304_detail",
+    "normalizedFileName": "a4304detailjpg"
+  },
+  {
+    "fileName": "A4305_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4305_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "아티움2.7",
+    "extractedCode": "A4305_detail",
+    "normalizedFileName": "a4305detailjpg"
+  },
+  {
+    "fileName": "A4306_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4306_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "아티움2.7",
+    "extractedCode": "A4306_detail",
+    "normalizedFileName": "a4306detailjpg"
+  },
+  {
+    "fileName": "A4307_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4307_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "아티움2.7",
+    "extractedCode": "A4307_detail",
+    "normalizedFileName": "a4307detailjpg"
+  },
+  {
+    "fileName": "A5301_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5301_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "아티움3.2",
+    "extractedCode": "A5301_detail",
+    "normalizedFileName": "a5301detailjpg"
+  },
+  {
+    "fileName": "A5302_detail.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5302_detail.png",
+    "category": "장판",
+    "brand": "현대",
+    "series": "아티움3.2",
+    "extractedCode": "A5302_detail",
+    "normalizedFileName": "a5302detailpng"
+  },
+  {
+    "fileName": "A5303_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5303_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "아티움3.2",
+    "extractedCode": "A5303_detail",
+    "normalizedFileName": "a5303detailjpg"
+  },
+  {
+    "fileName": "A5304_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5304_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "아티움3.2",
+    "extractedCode": "A5304_detail",
+    "normalizedFileName": "a5304detailjpg"
+  },
+  {
+    "fileName": "A5305_detail.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5305_detail.png",
+    "category": "장판",
+    "brand": "현대",
+    "series": "아티움3.2",
+    "extractedCode": "A5305_detail",
+    "normalizedFileName": "a5305detailpng"
+  },
+  {
+    "fileName": "A5306_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5306_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "아티움3.2",
+    "extractedCode": "A5306_detail",
+    "normalizedFileName": "a5306detailjpg"
+  },
+  {
+    "fileName": "A5307_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5307_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "아티움3.2",
+    "extractedCode": "A5307_detail",
+    "normalizedFileName": "a5307detailjpg"
+  },
+  {
+    "fileName": "A5308_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5308_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "아티움3.2",
+    "extractedCode": "A5308_detail",
+    "normalizedFileName": "a5308detailjpg"
+  },
+  {
+    "fileName": "A5309_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5309_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "아티움3.2",
+    "extractedCode": "A5309_detail",
+    "normalizedFileName": "a5309detailjpg"
+  },
+  {
+    "fileName": "C1152_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1152_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움1.8",
+    "extractedCode": "C1152_detail",
+    "normalizedFileName": "c1152detailjpg"
+  },
+  {
+    "fileName": "C1154_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1154_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움1.8",
+    "extractedCode": "C1154_detail",
+    "normalizedFileName": "c1154detailjpg"
+  },
+  {
+    "fileName": "C1161_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1161_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움1.8",
+    "extractedCode": "C1161_detail",
+    "normalizedFileName": "c1161detailjpg"
+  },
+  {
+    "fileName": "C1162_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1162_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움1.8",
+    "extractedCode": "C1162_detail",
+    "normalizedFileName": "c1162detailjpg"
+  },
+  {
+    "fileName": "C1171_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1171_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움1.8",
+    "extractedCode": "C1171_detail",
+    "normalizedFileName": "c1171detailjpg"
+  },
+  {
+    "fileName": "C1172_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1172_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움1.8",
+    "extractedCode": "C1172_detail",
+    "normalizedFileName": "c1172detailjpg"
+  },
+  {
+    "fileName": "C1173_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1173_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움1.8",
+    "extractedCode": "C1173_detail",
+    "normalizedFileName": "c1173detailjpg"
+  },
+  {
+    "fileName": "C1705_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1705_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움1.8",
+    "extractedCode": "C1705_detail",
+    "normalizedFileName": "c1705detailjpg"
+  },
+  {
+    "fileName": "C1706_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1706_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움1.8",
+    "extractedCode": "C1706_detail",
+    "normalizedFileName": "c1706detailjpg"
+  },
+  {
+    "fileName": "C1708_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1708_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움1.8",
+    "extractedCode": "C1708_detail",
+    "normalizedFileName": "c1708detailjpg"
+  },
+  {
+    "fileName": "C1712_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1712_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움1.8",
+    "extractedCode": "C1712_detail",
+    "normalizedFileName": "c1712detailjpg"
+  },
+  {
+    "fileName": "C1909_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1909_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움1.8",
+    "extractedCode": "C1909_detail",
+    "normalizedFileName": "c1909detailjpg"
+  },
+  {
+    "fileName": "C1152_installation.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1152_installation.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움1.8/상세페이지_시공사례",
+    "extractedCode": "C1152_installation",
+    "normalizedFileName": "c1152installationjpg"
+  },
+  {
+    "fileName": "C1154_installation.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1154_installation.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움1.8/상세페이지_시공사례",
+    "extractedCode": "C1154_installation",
+    "normalizedFileName": "c1154installationjpg"
+  },
+  {
+    "fileName": "C1161_installation.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1161_installation.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움1.8/상세페이지_시공사례",
+    "extractedCode": "C1161_installation",
+    "normalizedFileName": "c1161installationjpg"
+  },
+  {
+    "fileName": "C1162_installation.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1162_installation.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움1.8/상세페이지_시공사례",
+    "extractedCode": "C1162_installation",
+    "normalizedFileName": "c1162installationjpg"
+  },
+  {
+    "fileName": "C1171_installation.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1171_installation.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움1.8/상세페이지_시공사례",
+    "extractedCode": "C1171_installation",
+    "normalizedFileName": "c1171installationjpg"
+  },
+  {
+    "fileName": "C1172_installation.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1172_installation.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움1.8/상세페이지_시공사례",
+    "extractedCode": "C1172_installation",
+    "normalizedFileName": "c1172installationjpg"
+  },
+  {
+    "fileName": "C1173_installation.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1173_installation.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움1.8/상세페이지_시공사례",
+    "extractedCode": "C1173_installation",
+    "normalizedFileName": "c1173installationjpg"
+  },
+  {
+    "fileName": "C1705_installation.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1705_installation.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움1.8/상세페이지_시공사례",
+    "extractedCode": "C1705_installation",
+    "normalizedFileName": "c1705installationjpg"
+  },
+  {
+    "fileName": "C1706_installation.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1706_installation.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움1.8/상세페이지_시공사례",
+    "extractedCode": "C1706_installation",
+    "normalizedFileName": "c1706installationjpg"
+  },
+  {
+    "fileName": "C1708_installation.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1708_installation.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움1.8/상세페이지_시공사례",
+    "extractedCode": "C1708_installation",
+    "normalizedFileName": "c1708installationjpg"
+  },
+  {
+    "fileName": "C1712_installation.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1712_installation.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움1.8/상세페이지_시공사례",
+    "extractedCode": "C1712_installation",
+    "normalizedFileName": "c1712installationjpg"
+  },
+  {
+    "fileName": "C1909_installation.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1909_installation.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움1.8/상세페이지_시공사례",
+    "extractedCode": "C1909_installation",
+    "normalizedFileName": "c1909installationjpg"
+  },
+  {
+    "fileName": "M2151_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/M2151_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움2.0",
+    "extractedCode": "M2151_detail",
+    "normalizedFileName": "m2151detailjpg"
+  },
+  {
+    "fileName": "M2152_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/M2152_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움2.0",
+    "extractedCode": "M2152_detail",
+    "normalizedFileName": "m2152detailjpg"
+  },
+  {
+    "fileName": "M2157_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/M2157_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움2.0",
+    "extractedCode": "M2157_detail",
+    "normalizedFileName": "m2157detailjpg"
+  },
+  {
+    "fileName": "M2801_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/M2801_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움2.0",
+    "extractedCode": "M2801_detail",
+    "normalizedFileName": "m2801detailjpg"
+  },
+  {
+    "fileName": "M2803_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/M2803_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움2.0",
+    "extractedCode": "M2803_detail",
+    "normalizedFileName": "m2803detailjpg"
+  },
+  {
+    "fileName": "M2902_detail.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/M2902_detail.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움2.0",
+    "extractedCode": "M2902_detail",
+    "normalizedFileName": "m2902detailjpg"
+  },
+  {
+    "fileName": "M2151_installation.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2151_installation.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움2.0/상세페이지_시공사례",
+    "extractedCode": "M2151_installation",
+    "normalizedFileName": "m2151installationjpg"
+  },
+  {
+    "fileName": "M2152_installation.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2152_installation.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움2.0/상세페이지_시공사례",
+    "extractedCode": "M2152_installation",
+    "normalizedFileName": "m2152installationjpg"
+  },
+  {
+    "fileName": "M2157_installation.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2157_installation.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움2.0/상세페이지_시공사례",
+    "extractedCode": "M2157_installation",
+    "normalizedFileName": "m2157installationjpg"
+  },
+  {
+    "fileName": "M2801_installation.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2801_installation.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움2.0/상세페이지_시공사례",
+    "extractedCode": "M2801_installation",
+    "normalizedFileName": "m2801installationjpg"
+  },
+  {
+    "fileName": "M2803_installation.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2803_installation.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움2.0/상세페이지_시공사례",
+    "extractedCode": "M2803_installation",
+    "normalizedFileName": "m2803installationjpg"
+  },
+  {
+    "fileName": "M2902_installation.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2902_installation.jpg",
+    "category": "장판",
+    "brand": "현대",
+    "series": "참다움2.0/상세페이지_시공사례",
+    "extractedCode": "M2902_installation",
+    "normalizedFileName": "m2902installationjpg"
   },
   {
     "fileName": "AR502.jpg",

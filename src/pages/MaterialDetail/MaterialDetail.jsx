@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { 
   ArrowLeft, 
@@ -24,6 +24,8 @@ import { useAuth } from "../../contexts/AuthContext";
 import { materials } from "../../data/materials.db"; // Local fallback data
 import { getComputedBrand, normalizeProductDetails } from "../../utils/brandUtils";
 import { dongshinPolymer2026 } from "../../data/dongshinPolymer2026.js";
+import { imageManifest } from "../../data/materialImageManifest.generated";
+import { normalizeImagePath, getImageSrc, getUniqueProductImages } from "../../utils/galleryNormalizer";
 import "./MaterialDetail.css";
 
 const normalizeText = (value = "") =>
@@ -87,7 +89,7 @@ const getEagonImageFolder = (line = "") => {
   if (norm.includes("라르고솔레190t1")) return "원목마루/라르고 솔레 190 T1";
   if (norm.includes("라르고솔레190t3")) return "원목마루/라르고 솔레 190 T3";
   if (norm.includes("라르고솔레150t4")) return "원목마루/라르고 솔레 150 T4";
-  if (norm.includes("라르고솔레240t4")) return "원목마루/라르고 솔레 240 T4";
+  if (norm.includes("라르고솔레240t4")) return "원목마루/라르고 솔레 150 T4";
   if (norm.includes("라르고")) return "원목마루/라르고 솔레 190 T3";
   
   if (norm.includes("제나내추럴") || norm.includes("제나")) return "천연마루/제나 내추럴";
@@ -97,7 +99,7 @@ const getEagonImageFolder = (line = "") => {
   if (norm.includes("그린스퀘어")) return "프리미엄 강마루/그린";
   if (norm.includes("그린")) return "프리미엄 강마루/그린";
   
-  if (norm.includes("세라플렉스s") || norm.includes("세라플렉스")) return "강마루/세라";
+  if (norm.includes("세라플렉스s") || norm.includes("세라플렉스")) return "강마루/세라 플렉스S";
   if (norm.includes("세라베이직")) return "강마루/세라/세라베이직";
   if (norm.includes("세라블렌딩") || norm.includes("세라블랜딩")) return "강마루/세라/세라블랜딩";
   if (norm.includes("세라")) return "강마루/세라/세라";
@@ -124,7 +126,7 @@ const resolveEagonProductImage = (mat) => {
     img.series.replace(/\\/g, '/').replace(/\s+/g, '').toLowerCase() === folder.replace(/\s+/g, '').toLowerCase()
   );
   
-  const cleanTerm = (term) => String(term).replace(/[^a-zA-Z0-9가-힣]/g, '').toLowerCase().trim();
+  const cleanTerm = (term) => String(term).replace(/[^a-zA-Z0-9가-힣]/g, '').replace(/뮬/g, '물').toLowerCase().trim();
   
   const normMatName = cleanTerm(matName);
   const normMatNameNoNew = cleanTerm(matName.replace(/^뉴\s*/, ''));
@@ -178,7 +180,12 @@ const resolveEagonProductImage = (mat) => {
   return "/images/placeholders/material-placeholder.jpg";
 };
 
-const resolveMaterialImageWithEagon = (mat) => resolveEagonProductImage(mat);
+const resolveMaterialImageWithEagon = (mat) => {
+  if (mat && mat.brand === '이건') {
+    return resolveEagonProductImage(mat);
+  }
+  return getMaterialImagePath(mat);
+};
 
 // Eagon product specification mappings helper
 const getEagonInfo = (line = "") => {
@@ -442,8 +449,12 @@ const getVirtualSpaceExamples = (product, galleryImages) => {
   const category = product?.category;
   const mainImage = product?.image || product?.thumbnail || "/images/deco_tile.png";
   
-  // Extract simple URL strings from gallery images state (which has objects { thumbnail, detail })
-  const imageList = (galleryImages || []).map(img => img.detail).filter(Boolean);
+  // Extract simple URL strings from gallery images state (which can be objects or strings)
+  const imageList = (galleryImages || []).map(img => {
+    if (!img) return "";
+    if (typeof img === 'string') return img;
+    return img.detail || img.thumbnail || "";
+  }).filter(Boolean);
   
   const img1 = imageList[0] || mainImage;
   const img2 = imageList[1] || imageList[0] || mainImage;
@@ -514,8 +525,18 @@ export default function MaterialDetail() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const [images, setImages] = useState([]); 
-  const [selectedImageObj, setSelectedImageObj] = useState(null); 
+  const [rawImages, setRawImages] = useState({
+    detailStr: '',
+    thumbStr: '',
+    galleryObjs: [],
+    eagonImg: null,
+    itemImages: [],
+    itemGalleryImages: [],
+    itemDetailImages: [],
+    itemInstallationImages: []
+  });
+  const [brokenImages, setBrokenImages] = useState(new Set());
+  const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   const [qty, setQty] = useState(1);
   const [relatedItems, setRelatedItems] = useState([]);
   const [showCartModal, setShowCartModal] = useState(false);
@@ -535,13 +556,12 @@ export default function MaterialDetail() {
     window.scrollTo(0, 0);
   }, [id]);
 
-  const handleImageError = (brokenObj) => {
-    setImages(prev => {
-      const nextImages = prev.filter(img => img.detail !== brokenObj.detail);
-      if (selectedImageObj && selectedImageObj.detail === brokenObj.detail) {
-        setSelectedImageObj(nextImages.length > 0 ? nextImages[0] : null);
-      }
-      return nextImages;
+  const handleImageError = (brokenSrc) => {
+    if (!brokenSrc) return;
+    setBrokenImages(prev => {
+      const next = new Set(prev);
+      next.add(brokenSrc);
+      return next;
     });
   };
 
@@ -753,54 +773,118 @@ export default function MaterialDetail() {
     let alive = true;
 
     async function loadImages() {
-      let detailStr = await getDetailImage(item);
-      let thumbStr = await getThumbnailImage(item);
+      const detailStr = await getDetailImage(item);
+      const thumbStr = await getThumbnailImage(item);
       const galleryObjs = await getValidGalleryImages(item);
+      let eagonImg = null;
 
       if (item.brand === '이건') {
-        if (!detailStr || detailStr === "/images/no-image.svg") {
-          detailStr = resolveMaterialImageWithEagon(item);
-        }
-        if (!thumbStr || thumbStr === "/images/no-image.svg") {
-          thumbStr = resolveMaterialImageWithEagon(item);
-        }
+        eagonImg = resolveMaterialImageWithEagon(item);
       }
 
       if (!alive) return;
 
-      const firstImgObj = {
-        thumbnail: thumbStr || detailStr || "/images/deco_tile.png",
-        detail: detailStr || thumbStr || "/images/deco_tile.png"
-      };
-
-      const allImages = [];
-      const seenDetails = new Set();
-
-      if (firstImgObj.detail) {
-        seenDetails.add(firstImgObj.detail);
-        allImages.push(firstImgObj);
-      }
-
-      for (const go of galleryObjs) {
-        if (go.detail && !seenDetails.has(go.detail)) {
-          seenDetails.add(go.detail);
-          allImages.push(go);
-        }
-      }
-
-      if (allImages.length > 0) {
-        setImages(allImages);
-        setSelectedImageObj(allImages[0]);
-      } else {
-        const defaultObj = { thumbnail: "/images/deco_tile.png", detail: "/images/deco_tile.png" };
-        setImages([defaultObj]);
-        setSelectedImageObj(defaultObj);
-      }
+      setRawImages({
+        detailStr: detailStr || '',
+        thumbStr: thumbStr || '',
+        galleryObjs: galleryObjs || [],
+        eagonImg,
+        itemImages: item.images || [],
+        itemGalleryImages: item.galleryImages || [],
+        itemDetailImages: item.detailImages || [],
+        itemInstallationImages: item.installationImages || []
+      });
+      setBrokenImages(new Set());
+      setSelectedImageIndex(0);
     }
     loadImages();
 
     return () => { alive = false; };
   }, [item]);
+
+  // Generate finalized deduplicated images array
+  const productImages = useMemo(() => {
+    if (!item) return [];
+
+    const candidates = [];
+
+    // 1) 대표 제품 이미지 (mainImage, image, thumbnail, thumbnailImage, etc.)
+    if (item.brand === '이건' && rawImages.eagonImg) {
+      candidates.push(rawImages.eagonImg);
+    }
+    if (rawImages.detailStr) candidates.push(rawImages.detailStr);
+    if (rawImages.thumbStr) candidates.push(rawImages.thumbStr);
+    if (item.mainImage) candidates.push(item.mainImage);
+    if (item.image) candidates.push(item.image);
+    if (item.thumbnail) candidates.push(item.thumbnail);
+    if (item.thumbnailImage) candidates.push(item.thumbnailImage);
+
+    // 2) 추가 질감/패턴 이미지 (images)
+    if (Array.isArray(item.images)) {
+      candidates.push(...item.images);
+    }
+    if (Array.isArray(rawImages.itemImages)) {
+      candidates.push(...rawImages.itemImages);
+    }
+
+    // 3) 2x2 또는 4칸 패턴 이미지 (galleryImages, detailImages)
+    if (Array.isArray(rawImages.galleryObjs)) {
+      rawImages.galleryObjs.forEach(go => {
+        if (go.detail) candidates.push(go.detail);
+        if (go.thumbnail) candidates.push(go.thumbnail);
+      });
+    }
+    if (Array.isArray(item.galleryImages)) {
+      candidates.push(...item.galleryImages);
+    }
+    if (Array.isArray(rawImages.itemGalleryImages)) {
+      candidates.push(...rawImages.itemGalleryImages);
+    }
+    if (Array.isArray(item.detailImages)) {
+      candidates.push(...item.detailImages);
+    }
+    if (Array.isArray(rawImages.itemDetailImages)) {
+      candidates.push(...rawImages.itemDetailImages);
+    }
+
+    // 4) 시공 이미지 (installationImages)
+    if (Array.isArray(item.installationImages)) {
+      candidates.push(...item.installationImages);
+    }
+    if (Array.isArray(rawImages.itemInstallationImages)) {
+      candidates.push(...rawImages.itemInstallationImages);
+    }
+
+    // Deduplicate
+    const uniqueList = getUniqueProductImages(candidates);
+
+    // Filter out broken images and default placeholders
+    const filteredList = uniqueList.filter(src => {
+      if (!src || brokenImages.has(src)) return false;
+      const norm = src.toLowerCase();
+      return !norm.includes('no-image.svg') && !norm.includes('deco_tile.png') && !norm.includes('material-placeholder.jpg');
+    });
+
+    if (filteredList.length > 0) {
+      return filteredList;
+    }
+
+    // Fallback: Show a single valid placeholder or default
+    const firstValid = uniqueList.find(src => src && !brokenImages.has(src));
+    return [firstValid || "/images/no-image.svg"];
+  }, [item, rawImages, brokenImages]);
+
+  // Adjust selectedImageIndex if out of bounds
+  useEffect(() => {
+    if (selectedImageIndex >= productImages.length) {
+      setSelectedImageIndex(0);
+    }
+  }, [productImages.length, selectedImageIndex]);
+
+  // Reset selected image when product ID/code changes
+  useEffect(() => {
+    setSelectedImageIndex(0);
+  }, [item?.id, item?.code]);
 
   // 3. Fetch Related Products
   useEffect(() => {
@@ -1179,7 +1263,7 @@ export default function MaterialDetail() {
         image: idx === 0 ? img1 : idx === 1 ? img2 : img3
       }));
     }
-    return getVirtualSpaceExamples(item, images);
+    return getVirtualSpaceExamples(item, productImages);
   })();
 
   const detailContentImg = (() => {
@@ -1205,11 +1289,11 @@ export default function MaterialDetail() {
             {/* Left Column: Big Images & Thumbnails */}
             <div className="showroom-visuals">
               <div className="showroom-main-frame" style={{ position: 'relative' }}>
-                {selectedImageObj && selectedImageObj.detail && selectedImageObj.detail !== "/images/no-image.svg" && !selectedImageObj.detail.includes("deco_tile.png") ? (
+                {productImages[selectedImageIndex] && productImages[selectedImageIndex] !== "/images/no-image.svg" && !productImages[selectedImageIndex].includes("deco_tile.png") ? (
                   <img 
-                    src={`${selectedImageObj.detail}?v=2`} 
+                    src={`${productImages[selectedImageIndex]}?v=2`} 
                     alt={`${item.name} main`} 
-                    onError={() => handleImageError(selectedImageObj)} 
+                    onError={() => handleImageError(productImages[selectedImageIndex])} 
                     className="showroom-main-img"
                   />
                 ) : (
@@ -1233,22 +1317,25 @@ export default function MaterialDetail() {
                 )}
               </div>
 
-              {images.length > 1 && (
+              {productImages.length > 1 && (
                 <div className="showroom-thumb-strip">
-                  {images.map((imgObj, idx) => (
-                    <div 
-                      key={idx}
-                      className={`showroom-thumb-box ${selectedImageObj && selectedImageObj.detail === imgObj.detail ? "active" : ""}`}
-                      onClick={() => setSelectedImageObj(imgObj)}
-                    >
-                      <img
-                        src={`${imgObj.thumbnail}?v=2`}
-                        onError={() => handleImageError(imgObj)}
-                        alt={`thumbnail-${idx}`}
-                        className="showroom-thumb-img"
-                      />
-                    </div>
-                  ))}
+                  {productImages.map((src, idx) => {
+                    const key = normalizeImagePath(src);
+                    return (
+                      <div 
+                        key={key || src || idx}
+                        className={`showroom-thumb-box ${selectedImageIndex === idx ? "active" : ""}`}
+                        onClick={() => setSelectedImageIndex(idx)}
+                      >
+                        <img
+                          src={`${src}?v=2`}
+                          onError={() => handleImageError(src)}
+                          alt={`${item.name} thumbnail-${idx + 1}`}
+                          className="showroom-thumb-img"
+                        />
+                      </div>
+                    );
+                  })}
                 </div>
               )}
             </div>

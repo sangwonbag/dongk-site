@@ -45,7 +45,11 @@ console.log(`Found ${allFiles.length} image files in materials folder.`);
 const groups = new Map();
 
 function getNormalizedBrand(folderBrand, category) {
-  if (category === '장판') return 'LX하우시스';
+  if (category === '장판') {
+    if (folderBrand.includes('현대')) return '현대';
+    if (folderBrand.includes('KCC')) return 'KCC';
+    return 'LX하우시스';
+  }
   
   if (folderBrand.includes('KCC')) return 'KCC';
   if (folderBrand.includes('LX')) return 'LX';
@@ -85,23 +89,46 @@ allFiles.forEach(fullPath => {
     return;
   }
   
-  let line = parts.slice(2, parts.length - 1).join('_') || "";
   let subLine = parts[parts.length - 2] || "";
+  let isConstruction = false;
+  
+  if ((subLine === '시공이미지' || subLine === '상세페이지') && parts.length >= 4) {
+    subLine = parts[parts.length - 3] || "";
+    isConstruction = true;
+  }
+  
+  let line = parts.slice(2, parts.length - 1).join('_') || "";
+  if (parts.includes('시공이미지') || parts.includes('상세페이지')) {
+    const lineParts = parts.slice(2, parts.length - 1);
+    const filteredParts = lineParts.filter(p => p !== '시공이미지' && p !== '상세페이지');
+    line = filteredParts.join('_') || "";
+  }
   
   if (category === '장판') {
-    const subParts = folderBrand.split('_');
-    let rawLine = subParts[1] || subParts[0];
+    const subParts = subLine.split('_');
+    let rawLine = "";
+    if (subParts.length === 3) {
+      rawLine = subParts[1];
+    } else if (subParts.length === 2) {
+      rawLine = subParts[0];
+    } else {
+      rawLine = subParts[0];
+    }
     rawLine = rawLine.replace(/\d+(\.\d+)?T/i, ''); // Remove thickness suffix like 1.8T, 2T etc.
+    rawLine = rawLine.replace(/\d+(\.\d+)?$/, ''); // Remove trailing thickness numbers like 2.2 or 1.8
     line = rawLine.trim();
-    subLine = folderBrand;
   }
   
   const filename = parts[parts.length - 1];
   const ext = path.extname(filename);
   const nameWithoutExt = filename.slice(0, -ext.length).trim();
   
-  const suffixMatch = nameWithoutExt.match(/^(.+)_(\d+)$/);
-  let code = nameWithoutExt;
+  let code = nameWithoutExt.replace(/_thumbnail$/i, '').trim();
+  if (code.endsWith('_시공') || code.toLowerCase().endsWith('_installation')) {
+    code = code.replace(/_시공$/i, '').replace(/_installation$/i, '').trim();
+    isConstruction = true;
+  }
+  const suffixMatch = code.match(/^(.+)_(\d+)$/);
   let suffix = null;
   if (suffixMatch) {
     code = suffixMatch[1].trim();
@@ -122,7 +149,8 @@ allFiles.forEach(fullPath => {
   
   groups.get(groupKey).images.push({
     url: "/images/Thumbnail_Image/materials/" + encodeURI(relPath),
-    suffix: suffix
+    suffix: suffix,
+    isConstruction: isConstruction
   });
 });
 
@@ -135,8 +163,11 @@ const products = [];
 groups.forEach((group, key) => {
   const { category, brand, line, subLine, code, images } = group;
   
-  // Sort images so suffix 0 (or no suffix) is first
+  // Sort images so main images are first, and construction images are last
   images.sort((a, b) => {
+    if (a.isConstruction !== b.isConstruction) {
+      return a.isConstruction ? 1 : -1;
+    }
     const aSuf = a.suffix === null ? 0 : a.suffix;
     const bSuf = b.suffix === null ? 0 : b.suffix;
     return aSuf - bSuf;
@@ -192,8 +223,8 @@ groups.forEach((group, key) => {
   } else if (existing) {
     price = existing.price || 0;
     thickness = existing.thickness || "";
-    description = existing.description || line;
-    name = existing.name || code;
+    description = (brand === '현대') ? line : (existing.description || line);
+    name = (brand === '현대') ? code : (existing.name || code);
     if (existing.specs) {
       size = existing.specs.size || "";
       unit = existing.specs.packing || "";
@@ -219,10 +250,22 @@ groups.forEach((group, key) => {
         price = 24000;
       }
     } else if (category === '장판') {
-      const thicknessMatch = (line + '_' + code + '_' + subLine).match(/(\d+(?:\.\d+)?)T/i);
-      const t = thicknessMatch ? thicknessMatch[1] + "T" : "";
+      let t = "";
+      const thicknessMatch = (line + '_' + code + '_' + subLine).match(/(\d+(?:\.\d+)?)\s*T/i);
+      if (thicknessMatch) {
+        t = thicknessMatch[1] + "T";
+      } else {
+        const numMatch = subLine.match(/(\d+(?:\.\d+)?)$/);
+        if (numMatch) {
+          t = numMatch[1] + "T";
+        }
+      }
       thickness = t;
-      if (t === '1.8T') { size = '1.8mm(T) x 1,830mm(W)'; unit = '35m / Roll'; price = 12000; }
+      if (brand === '현대' || brand === 'KCC') {
+        size = '제품별 규격 문의';
+        unit = 'Roll 단위';
+        price = 0;
+      } else if (t === '1.8T') { size = '1.8mm(T) x 1,830mm(W)'; unit = '35m / Roll'; price = 12000; }
       else if (t === '2.0T') { size = '2.0mm(T) x 1,830mm(W)'; unit = '30m / Roll'; price = 18000; }
       else if (t === '2.2T') { size = '2.2mm(T) x 1,830mm(W)'; unit = '30m / Roll'; price = 23000; }
       else if (t === '2.7T') { size = '2.7mm(T) x 1,830mm(W)'; unit = '25m / Roll'; price = 34000; }
@@ -243,15 +286,27 @@ groups.forEach((group, key) => {
 
   // Override '장판' price for both existing and new products based on thickness
   if (category === '장판') {
-    const thicknessMatch = (line + '_' + code + '_' + subLine).match(/(\d+(?:\.\d+)?)T/i);
-    const t = thicknessMatch ? thicknessMatch[1] + "T" : (thickness || "");
-    if (t === '1.8T') price = 12000;
-    else if (t === '2.0T') price = 18000;
-    else if (t === '2.2T') price = 23000;
-    else if (t === '2.7T') price = 34000;
-    else if (t === '3.2T') price = 38000;
-    else if (t === '4.5T') price = 47000;
-    else if (t === '5.0T') price = 53000;
+    if (brand === '현대' || brand === 'KCC') {
+      price = 0;
+    } else {
+      let t = thickness || "";
+      const thicknessMatch = (line + '_' + code + '_' + subLine).match(/(\d+(?:\.\d+)?)\s*T/i);
+      if (thicknessMatch) {
+        t = thicknessMatch[1] + "T";
+      } else {
+        const numMatch = subLine.match(/(\d+(?:\.\d+)?)$/);
+        if (numMatch) {
+          t = numMatch[1] + "T";
+        }
+      }
+      if (t === '1.8T') price = 12000;
+      else if (t === '2.0T') price = 18000;
+      else if (t === '2.2T') price = 23000;
+      else if (t === '2.7T') price = 34000;
+      else if (t === '3.2T') price = 38000;
+      else if (t === '4.5T') price = 47000;
+      else if (t === '5.0T') price = 53000;
+    }
   }
 
   // Override KCC Pro specifications based on code suffix rules
@@ -315,11 +370,7 @@ groups.forEach((group, key) => {
         price = 40000;
       }
     } else if (brand === '재영') {
-      if ((line || "").includes('차음') || (line || "").includes('홈우드')) {
-        price = 0;
-      } else {
-        price = is600 ? 28000 : 26000;
-      }
+      price = is600 ? 28000 : 26000;
     } else if (brand === '대진') {
       if ((line || "").includes('하우스')) {
         price = 40000;
@@ -330,10 +381,15 @@ groups.forEach((group, key) => {
       if ((line || "").includes('클래식')) {
         price = 35000;
       } else if ((line || "").includes('마스터')) {
-        price = is600 ? 27000 : 26000;
+        price = 27000;
       } else if ((line || "").includes('디럭스')) {
-        const is3T = (thickness || "").includes('3.0T') || (thickness || "").includes('3T') || (code || "").includes('3T');
-        price = is3T ? 20000 : 26000;
+        price = 22000;
+      }
+    } else if (brand === '유성') {
+      if ((line || "").includes('디럭스')) {
+        price = 24000;
+      } else {
+        price = 25000;
       }
     } else if (brand === '유니') {
       price = is600 ? 26000 : 25000;
@@ -600,6 +656,40 @@ const EAGON_LINEUPS = [
   }
 ];
 
+function findEagonImagePath(line, productName) {
+  // Normalize search term
+  const cleanTerm = (term) => String(term).replace(/[^a-zA-Z0-9가-힣]/g, '').replace(/뮬/g, '물').toLowerCase().trim();
+  const normName = cleanTerm(productName);
+  const normNameNoNew = cleanTerm(productName.replace(/^뉴\s*/, ''));
+  const normLine = cleanTerm(line);
+
+  // Search in allFiles
+  let bestMatch = null;
+
+  for (const filePath of allFiles) {
+    const rel = path.relative(SOURCE_DIR, filePath).replace(/\\/g, '/');
+    if (!rel.includes('마루/이건')) continue;
+
+    const ext = path.extname(filePath);
+    const fileNameOnly = path.basename(filePath, ext);
+    const normFile = cleanTerm(fileNameOnly);
+
+    if (normFile === normName || normFile === normNameNoNew) {
+      // Check if path contains the line name for extra verification
+      const cleanPath = cleanTerm(rel);
+      if (cleanPath.includes(normLine) || (normLine.includes('240') && cleanPath.includes('150'))) {
+        return '/images/Thumbnail_Image/materials/' + rel;
+      }
+      if (!bestMatch) {
+        bestMatch = '/images/Thumbnail_Image/materials/' + rel;
+      }
+    }
+  }
+
+  // fallback template if not found on disk
+  return bestMatch || `/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/${productName}.jpg`;
+}
+
 function buildEagonProducts() {
   const eagonProducts = [];
   EAGON_LINEUPS.forEach(lineup => {
@@ -646,10 +736,8 @@ function buildEagonProducts() {
         defaultSpec = sizeOptions[0].spec; // representative spec is the first option
       }
 
-      // Infer image path
-      const folderName = "이건" + lineup.line.replace(/\s+/g, "");
-      const imageName = p.name;
-      const expectedImagePath = `/images/Thumbnail_Image/materials/마루/이건/${folderName}/${imageName}.jpg`;
+      // Resolve actual image path
+      const expectedImagePath = findEagonImagePath(lineup.line, p.name);
 
       const tMatch = defaultSpec.match(/T(\d+(?:\.\d+)?)/);
       const defaultThickness = tMatch ? tMatch[1] + "T" : "";
@@ -697,7 +785,7 @@ products.push(...buildEagonProducts());
 // 5. Generate outputs
 const BRANDS_BY_CATEGORY = {
   "데코타일": ["KCC", "LX", "녹수", "동신", "재영", "현대", "대진", "유성"],
-  "장판": ["LX하우시스"],
+  "장판": ["LX하우시스", "현대", "KCC"],
   "마루": ["구정", "동화", "이건"],
   "벽지": ["LX", "개나리", "디아이디", "서울", "신한"],
   "카페트타일": ["스완", "코오롱"],

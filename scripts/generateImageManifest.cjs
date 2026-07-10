@@ -27,7 +27,11 @@ function collectFiles(dir) {
 
 // Normalize brand names using the same rules as the materials generator
 function getNormalizedBrand(folderBrand, category) {
-  if (category === '장판') return 'LX하우시스';
+  if (category === '장판') {
+    if (folderBrand.includes('현대')) return '현대';
+    if (folderBrand.includes('KCC')) return 'KCC';
+    return 'LX하우시스';
+  }
   
   if (folderBrand.includes('KCC')) return 'KCC';
   if (folderBrand.includes('LX')) return 'LX';
@@ -57,7 +61,7 @@ function extractCode(filename) {
   const nameWithoutExt = filename.slice(0, -ext.length).trim();
   
   // 1. Remove suffix indices (e.g. "_0", "_1", " (2)")
-  let cleanName = nameWithoutExt.replace(/_(\d+)$/, '').replace(/\s*\(\d+\)$/, '').trim();
+  let cleanName = nameWithoutExt.replace(/_thumbnail$/i, '').replace(/_(\d+)$/, '').replace(/\s*\(\d+\)$/, '').trim();
   
   // 2. Try matching standard code patterns: [Letters 2-5] + [spaces?] + [Numbers 3-5] + [Letters?]
   // Examples: HOT 0065, TS5502P, OA 317, DBT3066, ZOT 0761, CM21882, ZS84011-11

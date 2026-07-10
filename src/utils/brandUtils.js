@@ -29,8 +29,13 @@ export const getComputedBrand = (item) => {
         const thickness = getThicknessToken(textToSearch) || item.thickness || "";
 
         if (thickness) {
-            // "1.8T" -> "LX1.8T"
             const cleanThickness = thickness.replace(/[()]/g, ""); // 괄호 제거
+            if (originalBrand.includes("현대") || originalBrand.includes("Hyundai")) {
+                return `현대 ${cleanThickness}`;
+            }
+            if (originalBrand.includes("KCC")) {
+                return `KCC ${cleanThickness}`;
+            }
             return `LX ${cleanThickness}`;
         }
     }

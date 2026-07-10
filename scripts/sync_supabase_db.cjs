@@ -32,6 +32,8 @@ const brands = [
   { id: 8, category_id: 1, name: '현대', slug: 'hyundai', sort_order: 8, is_active: true },
   
   { id: 9, category_id: 2, name: 'LX하우시스', slug: 'lx-hausys', sort_order: 1, is_active: true },
+  { id: 21, category_id: 2, name: '현대', slug: 'hyundai-jangpan', sort_order: 2, is_active: true },
+  { id: 22, category_id: 2, name: 'KCC', slug: 'kcc-jangpan', sort_order: 3, is_active: true },
   
   { id: 10, category_id: 3, name: '구정', slug: 'kujung', sort_order: 1, is_active: true },
   { id: 11, category_id: 3, name: '동화', slug: 'dongwha', sort_order: 2, is_active: true },

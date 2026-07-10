@@ -32,7 +32,9 @@ export const BRANDS_BY_CATEGORY = {
     "유성"
   ],
   "장판": [
-    "LX하우시스"
+    "LX하우시스",
+    "현대",
+    "KCC"
   ],
   "마루": [
     "구정",
@@ -1816,8 +1818,7 @@ export const materials = [
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5502P_0.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5502P_0.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5502P_1.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5502P_2.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5502P_1.jpg"
     ],
     "price": 27000,
     "thickness": "",
@@ -12300,7 +12301,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%EC%9C%A0%EC%84%B1_%EB%94%94%EB%9F%AD%EC%8A%A4_%EC%A0%9C%ED%92%88%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%BD%94%EB%93%9C%EB%AA%85/%ED%94%BC%EB%84%A4%EC%98%A4%EA%B3%A8%EB%93%9C/FG01_%ED%94%BC%EB%84%A4%EC%98%A4%EA%B3%A8%EB%93%9C.png"
     ],
-    "price": 26000,
+    "price": 24000,
     "thickness": "3.0mm",
     "specs": {
       "division": "피네오골드",
@@ -12323,7 +12324,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%EC%9C%A0%EC%84%B1_%EB%94%94%EB%9F%AD%EC%8A%A4_%EC%A0%9C%ED%92%88%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%BD%94%EB%93%9C%EB%AA%85/%ED%94%BC%EB%84%A4%EC%98%A4%EA%B3%A8%EB%93%9C/FG02_%ED%94%BC%EB%84%A4%EC%98%A4%EA%B3%A8%EB%93%9C.png"
     ],
-    "price": 26000,
+    "price": 24000,
     "thickness": "3.0mm",
     "specs": {
       "division": "피네오골드",
@@ -12346,7 +12347,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%EC%9C%A0%EC%84%B1_%EB%94%94%EB%9F%AD%EC%8A%A4_%EC%A0%9C%ED%92%88%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%BD%94%EB%93%9C%EB%AA%85/%ED%94%BC%EB%84%A4%EC%98%A4%EA%B3%A8%EB%93%9C/FG03_%ED%94%BC%EB%84%A4%EC%98%A4%EA%B3%A8%EB%93%9C.png"
     ],
-    "price": 26000,
+    "price": 24000,
     "thickness": "3.0mm",
     "specs": {
       "division": "피네오골드",
@@ -12369,7 +12370,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%EC%9C%A0%EC%84%B1_%EB%94%94%EB%9F%AD%EC%8A%A4_%EC%A0%9C%ED%92%88%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%BD%94%EB%93%9C%EB%AA%85/%ED%94%BC%EB%84%A4%EC%98%A4%EA%B3%A8%EB%93%9C/FG05_%ED%94%BC%EB%84%A4%EC%98%A4%EA%B3%A8%EB%93%9C.png"
     ],
-    "price": 26000,
+    "price": 24000,
     "thickness": "3.0mm",
     "specs": {
       "division": "피네오골드",
@@ -12392,7 +12393,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%EC%9C%A0%EC%84%B1_%EB%94%94%EB%9F%AD%EC%8A%A4_%EC%A0%9C%ED%92%88%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%BD%94%EB%93%9C%EB%AA%85/%ED%94%BC%EB%84%A4%EC%98%A4%EB%94%94%EB%9F%AD%EC%8A%A4/YD886_%ED%94%BC%EB%84%A4%EC%98%A4%EB%94%94%EB%9F%AD%EC%8A%A4.png"
     ],
-    "price": 21500,
+    "price": 24000,
     "thickness": "3.0mm",
     "specs": {
       "division": "피네오디럭스",
@@ -12415,7 +12416,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%EC%9C%A0%EC%84%B1_%EB%94%94%EB%9F%AD%EC%8A%A4_%EC%A0%9C%ED%92%88%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%BD%94%EB%93%9C%EB%AA%85/%ED%94%BC%EB%84%A4%EC%98%A4%EB%94%94%EB%9F%AD%EC%8A%A4/YD887_%ED%94%BC%EB%84%A4%EC%98%A4%EB%94%94%EB%9F%AD%EC%8A%A4.png"
     ],
-    "price": 21500,
+    "price": 24000,
     "thickness": "3.0mm",
     "specs": {
       "division": "피네오디럭스",
@@ -12438,7 +12439,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%EC%9C%A0%EC%84%B1_%EB%94%94%EB%9F%AD%EC%8A%A4_%EC%A0%9C%ED%92%88%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%BD%94%EB%93%9C%EB%AA%85/%ED%94%BC%EB%84%A4%EC%98%A4%EB%94%94%EB%9F%AD%EC%8A%A4/YD888_%ED%94%BC%EB%84%A4%EC%98%A4%EB%94%94%EB%9F%AD%EC%8A%A4.png"
     ],
-    "price": 21500,
+    "price": 24000,
     "thickness": "3.0mm",
     "specs": {
       "division": "피네오디럭스",
@@ -12461,7 +12462,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%EC%9C%A0%EC%84%B1_%EB%94%94%EB%9F%AD%EC%8A%A4_%EC%A0%9C%ED%92%88%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%BD%94%EB%93%9C%EB%AA%85/%ED%94%BC%EB%84%A4%EC%98%A4%EB%94%94%EB%9F%AD%EC%8A%A4/YD890_%ED%94%BC%EB%84%A4%EC%98%A4%EB%94%94%EB%9F%AD%EC%8A%A4.png"
     ],
-    "price": 21500,
+    "price": 24000,
     "thickness": "3.0mm",
     "specs": {
       "division": "피네오디럭스",
@@ -12484,7 +12485,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%EC%9C%A0%EC%84%B1_%EB%94%94%EB%9F%AD%EC%8A%A4_%EC%A0%9C%ED%92%88%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%BD%94%EB%93%9C%EB%AA%85/%ED%94%BC%EB%84%A4%EC%98%A4%EB%94%94%EB%9F%AD%EC%8A%A4/YD891_%ED%94%BC%EB%84%A4%EC%98%A4%EB%94%94%EB%9F%AD%EC%8A%A4.png"
     ],
-    "price": 21500,
+    "price": 24000,
     "thickness": "3.0mm",
     "specs": {
       "division": "피네오디럭스",
@@ -12507,7 +12508,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%EC%9C%A0%EC%84%B1_%EB%94%94%EB%9F%AD%EC%8A%A4_%EC%A0%9C%ED%92%88%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%BD%94%EB%93%9C%EB%AA%85/%ED%94%BC%EB%84%A4%EC%98%A4%EB%94%94%EB%9F%AD%EC%8A%A4/YD895_%ED%94%BC%EB%84%A4%EC%98%A4%EB%94%94%EB%9F%AD%EC%8A%A4.png"
     ],
-    "price": 21500,
+    "price": 24000,
     "thickness": "3.0mm",
     "specs": {
       "division": "피네오디럭스",
@@ -12530,7 +12531,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%EC%9C%A0%EC%84%B1_%EB%94%94%EB%9F%AD%EC%8A%A4_%EC%A0%9C%ED%92%88%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%BD%94%EB%93%9C%EB%AA%85/%ED%94%BC%EB%84%A4%EC%98%A4%EB%94%94%EB%9F%AD%EC%8A%A4/YD897_%ED%94%BC%EB%84%A4%EC%98%A4%EB%94%94%EB%9F%AD%EC%8A%A4.png"
     ],
-    "price": 21500,
+    "price": 24000,
     "thickness": "3.0mm",
     "specs": {
       "division": "피네오디럭스",
@@ -12553,7 +12554,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%EC%9C%A0%EC%84%B1_%EB%94%94%EB%9F%AD%EC%8A%A4_%EC%A0%9C%ED%92%88%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%BD%94%EB%93%9C%EB%AA%85/%ED%94%BC%EB%84%A4%EC%98%A4%EB%94%94%EB%9F%AD%EC%8A%A4/YD910_%ED%94%BC%EB%84%A4%EC%98%A4%EB%94%94%EB%9F%AD%EC%8A%A4.png"
     ],
-    "price": 21500,
+    "price": 24000,
     "thickness": "3.0mm",
     "specs": {
       "division": "피네오디럭스",
@@ -12576,7 +12577,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%EC%9C%A0%EC%84%B1_%EB%94%94%EB%9F%AD%EC%8A%A4_%EC%A0%9C%ED%92%88%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%BD%94%EB%93%9C%EB%AA%85/%ED%94%BC%EB%84%A4%EC%98%A4%EB%94%94%EB%9F%AD%EC%8A%A4/YD911_%ED%94%BC%EB%84%A4%EC%98%A4%EB%94%94%EB%9F%AD%EC%8A%A4.png"
     ],
-    "price": 21500,
+    "price": 24000,
     "thickness": "3.0mm",
     "specs": {
       "division": "피네오디럭스",
@@ -12599,7 +12600,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%EC%9C%A0%EC%84%B1_%EB%94%94%EB%9F%AD%EC%8A%A4_%EC%A0%9C%ED%92%88%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%BD%94%EB%93%9C%EB%AA%85/%ED%94%BC%EB%84%A4%EC%98%A4%EB%94%94%EB%9F%AD%EC%8A%A4/YD919_%ED%94%BC%EB%84%A4%EC%98%A4%EB%94%94%EB%9F%AD%EC%8A%A4.png"
     ],
-    "price": 21500,
+    "price": 24000,
     "thickness": "3.0mm",
     "specs": {
       "division": "피네오디럭스",
@@ -12622,7 +12623,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%EC%9C%A0%EC%84%B1_%EB%94%94%EB%9F%AD%EC%8A%A4_%EC%A0%9C%ED%92%88%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%BD%94%EB%93%9C%EB%AA%85/%ED%94%BC%EB%84%A4%EC%98%A4%EB%94%94%EB%9F%AD%EC%8A%A4/YD921_%ED%94%BC%EB%84%A4%EC%98%A4%EB%94%94%EB%9F%AD%EC%8A%A4.png"
     ],
-    "price": 21500,
+    "price": 24000,
     "thickness": "3.0mm",
     "specs": {
       "division": "피네오디럭스",
@@ -12645,7 +12646,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%EC%9C%A0%EC%84%B1_%EB%94%94%EB%9F%AD%EC%8A%A4_%EC%A0%9C%ED%92%88%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%BD%94%EB%93%9C%EB%AA%85/%ED%94%BC%EB%84%A4%EC%98%A4%EB%94%94%EB%9F%AD%EC%8A%A4/YD923_%ED%94%BC%EB%84%A4%EC%98%A4%EB%94%94%EB%9F%AD%EC%8A%A4.png"
     ],
-    "price": 21500,
+    "price": 24000,
     "thickness": "3.0mm",
     "specs": {
       "division": "피네오디럭스",
@@ -12668,7 +12669,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%EC%9C%A0%EC%84%B1_%EB%94%94%EB%9F%AD%EC%8A%A4_%EC%A0%9C%ED%92%88%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%BD%94%EB%93%9C%EB%AA%85/%ED%94%BC%EB%84%A4%EC%98%A4%EB%94%94%EB%9F%AD%EC%8A%A4/YD925_%ED%94%BC%EB%84%A4%EC%98%A4%EB%94%94%EB%9F%AD%EC%8A%A4.png"
     ],
-    "price": 21500,
+    "price": 24000,
     "thickness": "3.0mm",
     "specs": {
       "division": "피네오디럭스",
@@ -12783,7 +12784,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205101%20.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -12806,7 +12807,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205102%20.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -12829,7 +12830,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205103.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -12852,7 +12853,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205111.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -12875,7 +12876,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205112.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -12898,7 +12899,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205113.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -12921,7 +12922,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205121.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -12944,7 +12945,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205122.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -12967,7 +12968,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205123.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -12990,7 +12991,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205201.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13013,7 +13014,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205202.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13036,7 +13037,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205203.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13059,7 +13060,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205312.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13082,7 +13083,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205313.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13105,7 +13106,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205314.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13128,7 +13129,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205315.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13151,7 +13152,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205316.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13174,7 +13175,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205317.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13197,7 +13198,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205401.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13220,7 +13221,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205402.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13243,7 +13244,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205403.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13266,7 +13267,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205501.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13289,7 +13290,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205502.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13312,7 +13313,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205503.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13335,7 +13336,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205601.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13358,7 +13359,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205602%20.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13381,7 +13382,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205603.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13404,7 +13405,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205701.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13427,7 +13428,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205711.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13450,7 +13451,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205712.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13473,7 +13474,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205721.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13496,7 +13497,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205722.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13519,7 +13520,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205723.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13542,7 +13543,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%206001.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13565,7 +13566,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%206002.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13588,7 +13589,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%206003.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13611,7 +13612,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%206004.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13634,7 +13635,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%206201.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13657,7 +13658,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%206202.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각",
@@ -13680,7 +13681,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81%ED%8A%B8%EB%9E%9C%EB%93%9C/FSM%205801.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각트랜드",
@@ -13703,7 +13704,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81%ED%8A%B8%EB%9E%9C%EB%93%9C/FSM%205803.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각트랜드",
@@ -13726,7 +13727,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81%ED%8A%B8%EB%9E%9C%EB%93%9C/FWM%208801.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각트랜드",
@@ -13749,7 +13750,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81%ED%8A%B8%EB%9E%9C%EB%93%9C/FWM%208803.jpg"
     ],
-    "price": 21500,
+    "price": 25000,
     "thickness": "3.0mm",
     "specs": {
       "division": "600각트랜드",
@@ -15382,7 +15383,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9E%AC%EC%98%81/%EC%B0%A8%EC%9D%8C/457.2%EA%B0%81/T7701.jpg"
     ],
-    "price": 0,
+    "price": 26000,
     "thickness": "4.0T",
     "specs": {
       "division": "457.2각",
@@ -15405,7 +15406,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9E%AC%EC%98%81/%EC%B0%A8%EC%9D%8C/457.2%EA%B0%81/T7702.jpg"
     ],
-    "price": 0,
+    "price": 26000,
     "thickness": "4.0T",
     "specs": {
       "division": "457.2각",
@@ -15428,7 +15429,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9E%AC%EC%98%81/%EC%B0%A8%EC%9D%8C/457.2%EA%B0%81/T7704.jpg"
     ],
-    "price": 0,
+    "price": 26000,
     "thickness": "4.0T",
     "specs": {
       "division": "457.2각",
@@ -15451,7 +15452,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9E%AC%EC%98%81/%EC%B0%A8%EC%9D%8C/457.2%EA%B0%81/T7705.jpg"
     ],
-    "price": 0,
+    "price": 26000,
     "thickness": "4.0T",
     "specs": {
       "division": "457.2각",
@@ -15474,7 +15475,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9E%AC%EC%98%81/%EC%B0%A8%EC%9D%8C/%EC%9A%B0%EB%93%9C/P7151.jpg"
     ],
-    "price": 0,
+    "price": 26000,
     "thickness": "4.0T",
     "specs": {
       "division": "우드",
@@ -15497,7 +15498,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9E%AC%EC%98%81/%EC%B0%A8%EC%9D%8C/%EC%9A%B0%EB%93%9C/P7211.jpg"
     ],
-    "price": 0,
+    "price": 26000,
     "thickness": "4.0T",
     "specs": {
       "division": "우드",
@@ -15520,7 +15521,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9E%AC%EC%98%81/%EC%B0%A8%EC%9D%8C/%EC%9A%B0%EB%93%9C/P7215.jpg"
     ],
-    "price": 0,
+    "price": 26000,
     "thickness": "4.0T",
     "specs": {
       "division": "우드",
@@ -15543,7 +15544,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9E%AC%EC%98%81/%ED%99%88%EC%9A%B0%EB%93%9C/P3064.jpg"
     ],
-    "price": 0,
+    "price": 26000,
     "thickness": "4.0T",
     "specs": {
       "division": "홈우드",
@@ -15566,7 +15567,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9E%AC%EC%98%81/%ED%99%88%EC%9A%B0%EB%93%9C/P3301.jpg"
     ],
-    "price": 0,
+    "price": 26000,
     "thickness": "4.0T",
     "specs": {
       "division": "홈우드",
@@ -15589,7 +15590,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9E%AC%EC%98%81/%ED%99%88%EC%9A%B0%EB%93%9C/P3304.jpg"
     ],
-    "price": 0,
+    "price": 26000,
     "thickness": "4.0T",
     "specs": {
       "division": "홈우드",
@@ -15612,7 +15613,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9E%AC%EC%98%81/%ED%99%88%EC%9A%B0%EB%93%9C/P3308.jpg"
     ],
-    "price": 0,
+    "price": 26000,
     "thickness": "4.0T",
     "specs": {
       "division": "홈우드",
@@ -15623,17 +15624,17 @@ export const materials = [
     "description": "홈우드"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-3201",
+    "id": "데코타일-현대-골드타일레릭-rt-3201",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-3201",
     "code": "RT-3201",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3201.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3201.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3201.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3201.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3201.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3201.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -15643,20 +15644,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-3202",
+    "id": "데코타일-현대-골드타일레릭-rt-3202",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-3202",
     "code": "RT-3202",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3202.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3202.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3202.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3202.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3202.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3202.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -15666,20 +15667,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-3203",
+    "id": "데코타일-현대-골드타일레릭-rt-3203",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-3203",
     "code": "RT-3203",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3203.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3203.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3203.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3203.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3203.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3203.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -15689,20 +15690,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-3204",
+    "id": "데코타일-현대-골드타일레릭-rt-3204",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-3204",
     "code": "RT-3204",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3204.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3204.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3204.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3204.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3204.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3204.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -15712,20 +15713,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-3205",
+    "id": "데코타일-현대-골드타일레릭-rt-3205",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-3205",
     "code": "RT-3205",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3205.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3205.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3205.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3205.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3205.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3205.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -15735,20 +15736,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-3206",
+    "id": "데코타일-현대-골드타일레릭-rt-3206",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-3206",
     "code": "RT-3206",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3206.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3206.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3206.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3206.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3206.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3206.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -15758,20 +15759,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-3207",
+    "id": "데코타일-현대-골드타일레릭-rt-3207",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-3207",
     "code": "RT-3207",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3207.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3207.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3207.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3207.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3207.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3207.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -15781,20 +15782,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-3208",
+    "id": "데코타일-현대-골드타일레릭-rt-3208",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-3208",
     "code": "RT-3208",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3208.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3208.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3208.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3208.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3208.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3208.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -15804,20 +15805,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-3209",
+    "id": "데코타일-현대-골드타일레릭-rt-3209",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-3209",
     "code": "RT-3209",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3209.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3209.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3209.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3209.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3209.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-3209.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -15827,20 +15828,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-5201",
+    "id": "데코타일-현대-골드타일레릭-rt-5201",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-5201",
     "code": "RT-5201",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5201.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5201.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5201.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5201.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5201.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5201.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -15850,20 +15851,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-5202",
+    "id": "데코타일-현대-골드타일레릭-rt-5202",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-5202",
     "code": "RT-5202",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5202.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5202.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5202.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5202.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5202.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5202.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -15873,20 +15874,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-5203",
+    "id": "데코타일-현대-골드타일레릭-rt-5203",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-5203",
     "code": "RT-5203",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5203.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5203.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5203.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5203.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5203.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5203.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -15896,20 +15897,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-5204",
+    "id": "데코타일-현대-골드타일레릭-rt-5204",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-5204",
     "code": "RT-5204",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5204.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5204.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5204.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5204.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5204.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5204.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -15919,20 +15920,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-5205",
+    "id": "데코타일-현대-골드타일레릭-rt-5205",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-5205",
     "code": "RT-5205",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5205.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5205.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5205.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5205.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5205.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5205.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -15942,20 +15943,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-5206",
+    "id": "데코타일-현대-골드타일레릭-rt-5206",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-5206",
     "code": "RT-5206",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5206.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5206.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5206.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5206.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5206.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5206.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -15965,20 +15966,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-5207",
+    "id": "데코타일-현대-골드타일레릭-rt-5207",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-5207",
     "code": "RT-5207",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5207.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5207.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5207.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5207.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5207.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5207.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -15988,20 +15989,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-5208",
+    "id": "데코타일-현대-골드타일레릭-rt-5208",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-5208",
     "code": "RT-5208",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5208.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5208.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5208.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5208.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5208.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-5208.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -16011,20 +16012,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-6201",
+    "id": "데코타일-현대-골드타일레릭-rt-6201",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-6201",
     "code": "RT-6201",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6201.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6201.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6201.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6201.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6201.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6201.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -16034,20 +16035,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-6202",
+    "id": "데코타일-현대-골드타일레릭-rt-6202",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-6202",
     "code": "RT-6202",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6202.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6202.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6202.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6202.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6202.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6202.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -16057,20 +16058,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-6203",
+    "id": "데코타일-현대-골드타일레릭-rt-6203",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-6203",
     "code": "RT-6203",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6203.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6203.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6203.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6203.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6203.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6203.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -16080,20 +16081,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-6204",
+    "id": "데코타일-현대-골드타일레릭-rt-6204",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-6204",
     "code": "RT-6204",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6204.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6204.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6204.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6204.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6204.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6204.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -16103,20 +16104,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-6205",
+    "id": "데코타일-현대-골드타일레릭-rt-6205",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-6205",
     "code": "RT-6205",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6205.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6205.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6205.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6205.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6205.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6205.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -16126,20 +16127,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-6206",
+    "id": "데코타일-현대-골드타일레릭-rt-6206",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-6206",
     "code": "RT-6206",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6206.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6206.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6206.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6206.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6206.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6206.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -16149,20 +16150,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-6207",
+    "id": "데코타일-현대-골드타일레릭-rt-6207",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-6207",
     "code": "RT-6207",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6207.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6207.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6207.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6207.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6207.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6207.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -16172,20 +16173,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-6208",
+    "id": "데코타일-현대-골드타일레릭-rt-6208",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-6208",
     "code": "RT-6208",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6208.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6208.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6208.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6208.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6208.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6208.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -16195,20 +16196,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-6209",
+    "id": "데코타일-현대-골드타일레릭-rt-6209",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-6209",
     "code": "RT-6209",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6209.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6209.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6209.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6209.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6209.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6209.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -16218,20 +16219,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-6210",
+    "id": "데코타일-현대-골드타일레릭-rt-6210",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-6210",
     "code": "RT-6210",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6210.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6210.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6210.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6210.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6210.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6210.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -16241,20 +16242,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-6211",
+    "id": "데코타일-현대-골드타일레릭-rt-6211",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-6211",
     "code": "RT-6211",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6211.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6211.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6211.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6211.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6211.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6211.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -16264,20 +16265,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-6212",
+    "id": "데코타일-현대-골드타일레릭-rt-6212",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-6212",
     "code": "RT-6212",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6212.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6212.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6212.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6212.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6212.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6212.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -16287,20 +16288,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-6213",
+    "id": "데코타일-현대-골드타일레릭-rt-6213",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-6213",
     "code": "RT-6213",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6213.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6213.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6213.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6213.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6213.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6213.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -16310,20 +16311,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-6214",
+    "id": "데코타일-현대-골드타일레릭-rt-6214",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-6214",
     "code": "RT-6214",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6214.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6214.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6214.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6214.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6214.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6214.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -16333,20 +16334,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-6215",
+    "id": "데코타일-현대-골드타일레릭-rt-6215",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-6215",
     "code": "RT-6215",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6215.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6215.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6215.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6215.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6215.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6215.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -16356,20 +16357,20 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일레릭-rt-6216",
+    "id": "데코타일-현대-골드타일레릭-rt-6216",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일레릭",
+    "line": "골드타일레릭",
     "subLine": "골드타일레릭",
     "name": "RT-6216",
     "code": "RT-6216",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6216.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6216.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6216.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6216.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6216.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A0%88%EB%A6%AD/RT-6216.jpg"
     ],
     "price": 0,
     "thickness": "3.0T",
@@ -16379,22 +16380,22 @@ export const materials = [
       "size": "",
       "packing": ""
     },
-    "description": "골드타일_골드타일레릭"
+    "description": "골드타일레릭"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts4415",
+    "id": "데코타일-현대-골드타일마스터-mts4415",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS4415",
     "code": "MTS4415",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4415.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4415.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4415.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4415.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4415.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4415.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16402,22 +16403,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts4417",
+    "id": "데코타일-현대-골드타일마스터-mts4417",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS4417",
     "code": "MTS4417",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4417.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4417.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4417.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4417.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4417.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4417.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16425,22 +16426,23 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts4421",
+    "id": "데코타일-현대-골드타일마스터-mts4421",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS4421",
     "code": "MTS4421",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4421.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4421.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4421.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4421.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4421.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4421.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS4421_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16448,22 +16450,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts4422",
+    "id": "데코타일-현대-골드타일마스터-mts4422",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS4422",
     "code": "MTS4422",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4422.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4422.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4422.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4422.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4422.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4422.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16471,22 +16473,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts4425",
+    "id": "데코타일-현대-골드타일마스터-mts4425",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS4425",
     "code": "MTS4425",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4425.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4425.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4425.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4425.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4425.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4425.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16494,22 +16496,23 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts4433",
+    "id": "데코타일-현대-골드타일마스터-mts4433",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS4433",
     "code": "MTS4433",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4433.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4433.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4433.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4433.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4433.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4433.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS4433_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16517,22 +16520,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts4434",
+    "id": "데코타일-현대-골드타일마스터-mts4434",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS4434",
     "code": "MTS4434",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4434.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4434.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4434.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4434.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4434.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4434.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16540,22 +16543,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts4435",
+    "id": "데코타일-현대-골드타일마스터-mts4435",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS4435",
     "code": "MTS4435",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4435.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4435.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4435.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4435.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4435.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4435.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16563,22 +16566,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts5522",
+    "id": "데코타일-현대-골드타일마스터-mts5522",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS5522",
     "code": "MTS5522",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5522.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5522.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5522.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5522.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5522.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5522.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16586,22 +16589,23 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts5523",
+    "id": "데코타일-현대-골드타일마스터-mts5523",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS5523",
     "code": "MTS5523",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5523.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5523.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5523.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5523.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5523.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5523.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS5523_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16609,22 +16613,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts5524",
+    "id": "데코타일-현대-골드타일마스터-mts5524",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS5524",
     "code": "MTS5524",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5524.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5524.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5524.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5524.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5524.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5524.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16632,22 +16636,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6011",
+    "id": "데코타일-현대-골드타일마스터-mts6011",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6011",
     "code": "MTS6011",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6011.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6011.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6011.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6011.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6011.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6011.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16655,22 +16659,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6012",
+    "id": "데코타일-현대-골드타일마스터-mts6012",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6012",
     "code": "MTS6012",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6012.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6012.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6012.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6012.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6012.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6012.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16678,22 +16682,23 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6013",
+    "id": "데코타일-현대-골드타일마스터-mts6013",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6013",
     "code": "MTS6013",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6013.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6013.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6013.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6013.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6013.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6013.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6013_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16701,22 +16706,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6021",
+    "id": "데코타일-현대-골드타일마스터-mts6021",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6021",
     "code": "MTS6021",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6021.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6021.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6021.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6021.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6021.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6021.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16724,22 +16729,23 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6022",
+    "id": "데코타일-현대-골드타일마스터-mts6022",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6022",
     "code": "MTS6022",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6022.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6022.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6022.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6022.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6022.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6022.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6022_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16747,22 +16753,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6023",
+    "id": "데코타일-현대-골드타일마스터-mts6023",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6023",
     "code": "MTS6023",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6023.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6023.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6023.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6023.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6023.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6023.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16770,22 +16776,23 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6024",
+    "id": "데코타일-현대-골드타일마스터-mts6024",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6024",
     "code": "MTS6024",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6024.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6024.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6024.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6024.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6024.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6024.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6024_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16793,22 +16800,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6025",
+    "id": "데코타일-현대-골드타일마스터-mts6025",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6025",
     "code": "MTS6025",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6025.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6025.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6025.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6025.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6025.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6025.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16816,22 +16823,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6026",
+    "id": "데코타일-현대-골드타일마스터-mts6026",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6026",
     "code": "MTS6026",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6026.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6026.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6026.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6026.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6026.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6026.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16839,22 +16846,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6031",
+    "id": "데코타일-현대-골드타일마스터-mts6031",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6031",
     "code": "MTS6031",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6031.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6031.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6031.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6031.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6031.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6031.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16862,22 +16869,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6032",
+    "id": "데코타일-현대-골드타일마스터-mts6032",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6032",
     "code": "MTS6032",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6032.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6032.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6032.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6032.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6032.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6032.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16885,22 +16892,23 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6033",
+    "id": "데코타일-현대-골드타일마스터-mts6033",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6033",
     "code": "MTS6033",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6033.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6033.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6033.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6033.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6033.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6033.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6033_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16908,22 +16916,23 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6051",
+    "id": "데코타일-현대-골드타일마스터-mts6051",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6051",
     "code": "MTS6051",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6051.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6051.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6051.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6051.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6051.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6051.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6051_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16931,22 +16940,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6053",
+    "id": "데코타일-현대-골드타일마스터-mts6053",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6053",
     "code": "MTS6053",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6053.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6053.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6053.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6053.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6053.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6053.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16954,22 +16963,23 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6062",
+    "id": "데코타일-현대-골드타일마스터-mts6062",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6062",
     "code": "MTS6062",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6062.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6062.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6062.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6062.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6062.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6062.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6062_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16977,22 +16987,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6063",
+    "id": "데코타일-현대-골드타일마스터-mts6063",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6063",
     "code": "MTS6063",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6063.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6063.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6063.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6063.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6063.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6063.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17000,22 +17010,23 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6111",
+    "id": "데코타일-현대-골드타일마스터-mts6111",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6111",
     "code": "MTS6111",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6111.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6111.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6111.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6111.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6111.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6111.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6111_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17023,22 +17034,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6112",
+    "id": "데코타일-현대-골드타일마스터-mts6112",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6112",
     "code": "MTS6112",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6112.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6112.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6112.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6112.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6112.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6112.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17046,22 +17057,23 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6131",
+    "id": "데코타일-현대-골드타일마스터-mts6131",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6131",
     "code": "MTS6131",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6131.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6131.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6131.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6131.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6131.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6131.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6131_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17069,22 +17081,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6132",
+    "id": "데코타일-현대-골드타일마스터-mts6132",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6132",
     "code": "MTS6132",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6132.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6132.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6132.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6132.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6132.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6132.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17092,22 +17104,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6141",
+    "id": "데코타일-현대-골드타일마스터-mts6141",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6141",
     "code": "MTS6141",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6141.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6141.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6141.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6141.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6141.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6141.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17115,22 +17127,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6142",
+    "id": "데코타일-현대-골드타일마스터-mts6142",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6142",
     "code": "MTS6142",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6142.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6142.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6142.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6142.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6142.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6142.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17138,22 +17150,23 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6143",
+    "id": "데코타일-현대-골드타일마스터-mts6143",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6143",
     "code": "MTS6143",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6143.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6143.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6143.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6143.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6143.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6143.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6143_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17161,22 +17174,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6144",
+    "id": "데코타일-현대-골드타일마스터-mts6144",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6144",
     "code": "MTS6144",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6144.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6144.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6144.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6144.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6144.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6144.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17184,22 +17197,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6151",
+    "id": "데코타일-현대-골드타일마스터-mts6151",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6151",
     "code": "MTS6151",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6151.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6151.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6151.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6151.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6151.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6151.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17207,22 +17220,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6152",
+    "id": "데코타일-현대-골드타일마스터-mts6152",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6152",
     "code": "MTS6152",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6152.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6152.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6152.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6152.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6152.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6152.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17230,22 +17243,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6153",
+    "id": "데코타일-현대-골드타일마스터-mts6153",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6153",
     "code": "MTS6153",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6153.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6153.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6153.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6153.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6153.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6153.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17253,22 +17266,23 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6154",
+    "id": "데코타일-현대-골드타일마스터-mts6154",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6154",
     "code": "MTS6154",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6154.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6154.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6154.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6154.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6154.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6154.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6154_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17276,22 +17290,23 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6161",
+    "id": "데코타일-현대-골드타일마스터-mts6161",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6161",
     "code": "MTS6161",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6161.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6161.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6161.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6161.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6161.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6161.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6161_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17299,22 +17314,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6162",
+    "id": "데코타일-현대-골드타일마스터-mts6162",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6162",
     "code": "MTS6162",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6162.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6162.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6162.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6162.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6162.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6162.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17322,22 +17337,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6163",
+    "id": "데코타일-현대-골드타일마스터-mts6163",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6163",
     "code": "MTS6163",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6163.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6163.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6163.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6163.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6163.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6163.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17345,22 +17360,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mts6164",
+    "id": "데코타일-현대-골드타일마스터-mts6164",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTS6164",
     "code": "MTS6164",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6164.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6164.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6164.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6164.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6164.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6164.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17368,22 +17383,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mtw3011",
+    "id": "데코타일-현대-골드타일마스터-mtw3011",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTW3011",
     "code": "MTW3011",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3011.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3011.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3011.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3011.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3011.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3011.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17391,22 +17406,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mtw3012",
+    "id": "데코타일-현대-골드타일마스터-mtw3012",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTW3012",
     "code": "MTW3012",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3012.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3012.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3012.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3012.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3012.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3012.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17414,22 +17429,23 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mtw3021",
+    "id": "데코타일-현대-골드타일마스터-mtw3021",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTW3021",
     "code": "MTW3021",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3021.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3021.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3021.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3021.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3021.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3021.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTW3021_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17437,22 +17453,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mtw3024",
+    "id": "데코타일-현대-골드타일마스터-mtw3024",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTW3024",
     "code": "MTW3024",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3024.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3024.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3024.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3024.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3024.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3024.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17460,22 +17476,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mtw4463",
+    "id": "데코타일-현대-골드타일마스터-mtw4463",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTW4463",
     "code": "MTW4463",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4463.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4463.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4463.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4463.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4463.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4463.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17483,22 +17499,23 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mtw4464",
+    "id": "데코타일-현대-골드타일마스터-mtw4464",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTW4464",
     "code": "MTW4464",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4464.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4464.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4464.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4464.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4464.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4464.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTW4464_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17506,22 +17523,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mtw4481",
+    "id": "데코타일-현대-골드타일마스터-mtw4481",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTW4481",
     "code": "MTW4481",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4481.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4481.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4481.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4481.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4481.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4481.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17529,22 +17546,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mtw4486",
+    "id": "데코타일-현대-골드타일마스터-mtw4486",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTW4486",
     "code": "MTW4486",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4486.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4486.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4486.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4486.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4486.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4486.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17552,22 +17569,23 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mtw4487",
+    "id": "데코타일-현대-골드타일마스터-mtw4487",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTW4487",
     "code": "MTW4487",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4487.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4487.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4487.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4487.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4487.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4487.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTW4487_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17575,22 +17593,22 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일마스터-mtw4488",
+    "id": "데코타일-현대-골드타일마스터-mtw4488",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일마스터",
+    "line": "골드타일마스터",
     "subLine": "골드타일마스터",
     "name": "MTW4488",
     "code": "MTW4488",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4488.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4488.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4488.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4488.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4488.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4488.jpg"
     ],
-    "price": 26000,
+    "price": 27000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17598,20 +17616,43 @@ export const materials = [
       "size": "457.2x457.2mm",
       "packing": "16pcs / 3.34㎡"
     },
-    "description": "골드타일_골드타일마스터"
+    "description": "골드타일마스터"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-3521",
+    "id": "데코타일-현대-골드타일마스터-mts4415_mts4417",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일마스터",
+    "subLine": "골드타일마스터",
+    "name": "MTS4415_MTS4417",
+    "code": "MTS4415_MTS4417",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS4415_MTS4417_%EC%8B%9C%EA%B3%B5.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS4415_MTS4417_%EC%8B%9C%EA%B3%B5.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS4415_MTS4417_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 27000,
+    "thickness": "",
+    "specs": {
+      "division": "골드타일마스터",
+      "thickness": "",
+      "size": "457.2x457.2mm",
+      "packing": "16pcs / 3.34㎡"
+    },
+    "description": "골드타일마스터"
+  },
+  {
+    "id": "데코타일-현대-골드타일클래식-3521",
+    "category": "데코타일",
+    "brand": "현대",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "3521",
     "code": "3521",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/3521.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/3521.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/3521.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/3521.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/3521.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/3521.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -17621,20 +17662,20 @@ export const materials = [
       "size": "186x940mm",
       "packing": "19pcs / Box (3.32㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-3522",
+    "id": "데코타일-현대-골드타일클래식-3522",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "3522",
     "code": "3522",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/3522.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/3522.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/3522.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/3522.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/3522.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/3522.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -17644,20 +17685,20 @@ export const materials = [
       "size": "186x940mm",
       "packing": "19pcs / Box (3.32㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-3532",
+    "id": "데코타일-현대-골드타일클래식-3532",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "3532",
     "code": "3532",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/3532.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/3532.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/3532.png",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/3532.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/3532.png"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/3532.png"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -17667,20 +17708,20 @@ export const materials = [
       "size": "186x940mm",
       "packing": "19pcs / Box (3.32㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-4901",
+    "id": "데코타일-현대-골드타일클래식-4901",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "4901",
     "code": "4901",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4901.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4901.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4901.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4901.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4901.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4901.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -17690,20 +17731,20 @@ export const materials = [
       "size": "186x940mm",
       "packing": "19pcs / Box (3.32㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-4902",
+    "id": "데코타일-현대-골드타일클래식-4902",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "4902",
     "code": "4902",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4902.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4902.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4902.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4902.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4902.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4902.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -17713,20 +17754,20 @@ export const materials = [
       "size": "186x940mm",
       "packing": "19pcs / Box (3.32㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-4974",
+    "id": "데코타일-현대-골드타일클래식-4974",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "4974",
     "code": "4974",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4974.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4974.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4974.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4974.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4974.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4974.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -17736,20 +17777,20 @@ export const materials = [
       "size": "186x940mm",
       "packing": "19pcs / Box (3.32㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-4975",
+    "id": "데코타일-현대-골드타일클래식-4975",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "4975",
     "code": "4975",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4975.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4975.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4975.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4975.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4975.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4975.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -17759,20 +17800,20 @@ export const materials = [
       "size": "186x940mm",
       "packing": "19pcs / Box (3.32㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-4982",
+    "id": "데코타일-현대-골드타일클래식-4982",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "4982",
     "code": "4982",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4982.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4982.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4982.png",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4982.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4982.png"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/4982.png"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -17782,20 +17823,20 @@ export const materials = [
       "size": "186x940mm",
       "packing": "19pcs / Box (3.32㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7401",
+    "id": "데코타일-현대-골드타일클래식-7401",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7401",
     "code": "7401",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7401.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7401.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7401.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7401.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7401.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7401.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -17805,20 +17846,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7403",
+    "id": "데코타일-현대-골드타일클래식-7403",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7403",
     "code": "7403",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7403.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7403.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7403.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7403.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7403.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7403.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -17828,20 +17869,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7406",
+    "id": "데코타일-현대-골드타일클래식-7406",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7406",
     "code": "7406",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7406.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7406.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7406.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7406.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7406.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7406.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -17851,20 +17892,20 @@ export const materials = [
       "size": "500x500mm",
       "packing": "13pcs / Box (3.25㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7451",
+    "id": "데코타일-현대-골드타일클래식-7451",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7451",
     "code": "7451",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7451.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7451.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7451.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7451.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7451.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7451.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -17874,20 +17915,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7452",
+    "id": "데코타일-현대-골드타일클래식-7452",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7452",
     "code": "7452",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7452.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7452.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7452.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7452.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7452.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7452.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -17897,20 +17938,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7461",
+    "id": "데코타일-현대-골드타일클래식-7461",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7461",
     "code": "7461",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7461.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7461.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7461.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7461.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7461.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7461.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -17920,20 +17961,20 @@ export const materials = [
       "size": "500x500mm",
       "packing": "13pcs / Box (3.25㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7462",
+    "id": "데코타일-현대-골드타일클래식-7462",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7462",
     "code": "7462",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7462.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7462.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7462.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7462.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7462.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7462.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -17943,20 +17984,20 @@ export const materials = [
       "size": "500x500mm",
       "packing": "13pcs / Box (3.25㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7471",
+    "id": "데코타일-현대-골드타일클래식-7471",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7471",
     "code": "7471",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7471.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7471.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7471.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7471.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7471.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7471.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -17966,20 +18007,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7473",
+    "id": "데코타일-현대-골드타일클래식-7473",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7473",
     "code": "7473",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7473.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7473.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7473.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7473.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7473.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7473.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -17989,20 +18030,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7495",
+    "id": "데코타일-현대-골드타일클래식-7495",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7495",
     "code": "7495",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7495.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7495.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7495.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7495.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7495.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7495.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18012,20 +18053,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7497",
+    "id": "데코타일-현대-골드타일클래식-7497",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7497",
     "code": "7497",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7497.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7497.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7497.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7497.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7497.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7497.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18035,20 +18076,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7505",
+    "id": "데코타일-현대-골드타일클래식-7505",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7505",
     "code": "7505",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7505.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7505.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7505.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7505.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7505.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7505.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18058,20 +18099,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7506",
+    "id": "데코타일-현대-골드타일클래식-7506",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7506",
     "code": "7506",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7506.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7506.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7506.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7506.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7506.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7506.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18081,20 +18122,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7507",
+    "id": "데코타일-현대-골드타일클래식-7507",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7507",
     "code": "7507",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7507.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7507.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7507.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7507.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7507.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7507.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18104,20 +18145,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7511",
+    "id": "데코타일-현대-골드타일클래식-7511",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7511",
     "code": "7511",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7511.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7511.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7511.png",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7511.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7511.png"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7511.png"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18127,20 +18168,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7512",
+    "id": "데코타일-현대-골드타일클래식-7512",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7512",
     "code": "7512",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7512.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7512.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7512.png",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7512.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7512.png"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7512.png"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18150,20 +18191,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7513",
+    "id": "데코타일-현대-골드타일클래식-7513",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7513",
     "code": "7513",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7513.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7513.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7513.png",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7513.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7513.png"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7513.png"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18173,20 +18214,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7514",
+    "id": "데코타일-현대-골드타일클래식-7514",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7514",
     "code": "7514",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7514.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7514.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7514.png",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7514.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7514.png"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7514.png"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18196,20 +18237,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7521",
+    "id": "데코타일-현대-골드타일클래식-7521",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7521",
     "code": "7521",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7521.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7521.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7521.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7521.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7521.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7521.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18219,20 +18260,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7522",
+    "id": "데코타일-현대-골드타일클래식-7522",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7522",
     "code": "7522",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7522.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7522.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7522.png",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7522.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7522.png"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7522.png"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18242,20 +18283,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7523",
+    "id": "데코타일-현대-골드타일클래식-7523",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7523",
     "code": "7523",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7523.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7523.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7523.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7523.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7523.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7523.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18265,20 +18306,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7524",
+    "id": "데코타일-현대-골드타일클래식-7524",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7524",
     "code": "7524",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7524.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7524.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7524.png",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7524.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7524.png"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7524.png"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18288,20 +18329,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7531",
+    "id": "데코타일-현대-골드타일클래식-7531",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7531",
     "code": "7531",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7531.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7531.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7531.png",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7531.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7531.png"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7531.png"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18311,20 +18352,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7532",
+    "id": "데코타일-현대-골드타일클래식-7532",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7532",
     "code": "7532",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7532.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7532.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7532.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7532.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7532.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7532.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18334,20 +18375,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7533",
+    "id": "데코타일-현대-골드타일클래식-7533",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7533",
     "code": "7533",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7533.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7533.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7533.png",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7533.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7533.png"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7533.png"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18357,20 +18398,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7534",
+    "id": "데코타일-현대-골드타일클래식-7534",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7534",
     "code": "7534",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7534.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7534.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7534.png",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7534.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7534.png"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7534.png"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18380,20 +18421,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7541",
+    "id": "데코타일-현대-골드타일클래식-7541",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7541",
     "code": "7541",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7541.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7541.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7541.png",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7541.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7541.png"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7541.png"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18403,20 +18444,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7542",
+    "id": "데코타일-현대-골드타일클래식-7542",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7542",
     "code": "7542",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7542.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7542.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7542.png",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7542.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7542.png"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7542.png"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18426,20 +18467,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7543",
+    "id": "데코타일-현대-골드타일클래식-7543",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7543",
     "code": "7543",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7543.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7543.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7543.png",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7543.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7543.png"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7543.png"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18449,20 +18490,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7544",
+    "id": "데코타일-현대-골드타일클래식-7544",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7544",
     "code": "7544",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7544.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7544.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7544.png",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7544.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7544.png"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7544.png"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18472,20 +18513,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7551",
+    "id": "데코타일-현대-골드타일클래식-7551",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7551",
     "code": "7551",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7551.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7551.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7551.png",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7551.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7551.png"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7551.png"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18495,20 +18536,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7552",
+    "id": "데코타일-현대-골드타일클래식-7552",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7552",
     "code": "7552",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7552.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7552.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7552.png",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7552.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7552.png"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7552.png"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18518,20 +18559,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7553",
+    "id": "데코타일-현대-골드타일클래식-7553",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7553",
     "code": "7553",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7553.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7553.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7553.png",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7553.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7553.png"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7553.png"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18541,20 +18582,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-7554",
+    "id": "데코타일-현대-골드타일클래식-7554",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "7554",
     "code": "7554",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7554.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7554.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7554.png",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7554.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7554.png"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/7554.png"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18564,20 +18605,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-9709",
+    "id": "데코타일-현대-골드타일클래식-9709",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "9709",
     "code": "9709",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9709.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9709.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9709.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9709.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9709.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9709.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18587,20 +18628,20 @@ export const materials = [
       "size": "500x500mm",
       "packing": "13pcs / Box (3.25㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-9712",
+    "id": "데코타일-현대-골드타일클래식-9712",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "9712",
     "code": "9712",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9712.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9712.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9712.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9712.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9712.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9712.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18610,20 +18651,20 @@ export const materials = [
       "size": "500x500mm",
       "packing": "13pcs / Box (3.25㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-9731",
+    "id": "데코타일-현대-골드타일클래식-9731",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "9731",
     "code": "9731",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9731.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9731.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9731.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9731.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9731.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9731.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18633,20 +18674,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-9732",
+    "id": "데코타일-현대-골드타일클래식-9732",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "9732",
     "code": "9732",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9732.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9732.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9732.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9732.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9732.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9732.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18656,20 +18697,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-9733",
+    "id": "데코타일-현대-골드타일클래식-9733",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "9733",
     "code": "9733",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9733.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9733.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9733.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9733.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9733.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9733.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18679,20 +18720,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-9734",
+    "id": "데코타일-현대-골드타일클래식-9734",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "9734",
     "code": "9734",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9734.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9734.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9734.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9734.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9734.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9734.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18702,20 +18743,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-9824",
+    "id": "데코타일-현대-골드타일클래식-9824",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "9824",
     "code": "9824",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9824.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9824.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9824.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9824.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9824.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9824.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18725,20 +18766,20 @@ export const materials = [
       "size": "600x600mm",
       "packing": "9pcs / Box (3.24㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-9827",
+    "id": "데코타일-현대-골드타일클래식-9827",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "9827",
     "code": "9827",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9827.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9827.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9827.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9827.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9827.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9827.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18748,20 +18789,20 @@ export const materials = [
       "size": "500x500mm",
       "packing": "13pcs / Box (3.25㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-9843",
+    "id": "데코타일-현대-골드타일클래식-9843",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "9843",
     "code": "9843",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9843.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9843.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9843.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9843.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9843.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9843.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18771,20 +18812,20 @@ export const materials = [
       "size": "500x500mm",
       "packing": "13pcs / Box (3.25㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-9846",
+    "id": "데코타일-현대-골드타일클래식-9846",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "9846",
     "code": "9846",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9846.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9846.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9846.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9846.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9846.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9846.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18794,20 +18835,20 @@ export const materials = [
       "size": "500x500mm",
       "packing": "13pcs / Box (3.25㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-골드타일_골드타일클래식-9847",
+    "id": "데코타일-현대-골드타일클래식-9847",
     "category": "데코타일",
     "brand": "현대",
-    "line": "골드타일_골드타일클래식",
+    "line": "골드타일클래식",
     "subLine": "골드타일클래식",
     "name": "9847",
     "code": "9847",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9847.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9847.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9847.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9847.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9847.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%ED%81%B4%EB%9E%98%EC%8B%9D/9847.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -18817,743 +18858,743 @@ export const materials = [
       "size": "500x500mm",
       "packing": "13pcs / Box (3.25㎡)"
     },
-    "description": "골드타일_골드타일클래식"
+    "description": "골드타일클래식"
   },
   {
-    "id": "데코타일-현대-디럭스_basic-1102",
+    "id": "데코타일-현대-디럭스-1102",
     "category": "데코타일",
     "brand": "현대",
-    "line": "디럭스_BASIC",
-    "subLine": "BASIC",
-    "name": "디럭스 타일 1102",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "1102",
     "code": "1102",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1102.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1102.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1102.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1102.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1102.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1102.jpg"
     ],
-    "price": 20000,
+    "price": 22000,
     "thickness": "2.0T / 3.0T",
     "specs": {
-      "division": "BASIC",
+      "division": "디럭스",
       "thickness": "2.0T / 3.0T",
       "size": "300x300mm / 450x450mm",
       "packing": "두께 및 사이즈별 상이"
     },
-    "description": "디럭스_BASIC"
+    "description": "디럭스"
   },
   {
-    "id": "데코타일-현대-디럭스_basic-1109",
+    "id": "데코타일-현대-디럭스-1109",
     "category": "데코타일",
     "brand": "현대",
-    "line": "디럭스_BASIC",
-    "subLine": "BASIC",
-    "name": "디럭스 타일 1109",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "1109",
     "code": "1109",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1109.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1109.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1109.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1109.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1109.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1109.jpg"
     ],
-    "price": 20000,
+    "price": 22000,
     "thickness": "2.0T / 3.0T",
     "specs": {
-      "division": "BASIC",
+      "division": "디럭스",
       "thickness": "2.0T / 3.0T",
       "size": "300x300mm / 450x450mm",
       "packing": "두께 및 사이즈별 상이"
     },
-    "description": "디럭스_BASIC"
+    "description": "디럭스"
   },
   {
-    "id": "데코타일-현대-디럭스_basic-1117",
+    "id": "데코타일-현대-디럭스-1117",
     "category": "데코타일",
     "brand": "현대",
-    "line": "디럭스_BASIC",
-    "subLine": "BASIC",
-    "name": "디럭스 타일 1117",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "1117",
     "code": "1117",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1117.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1117.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1117.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1117.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1117.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1117.jpg"
     ],
-    "price": 20000,
+    "price": 22000,
     "thickness": "2.0T / 3.0T",
     "specs": {
-      "division": "BASIC",
+      "division": "디럭스",
       "thickness": "2.0T / 3.0T",
       "size": "300x300mm / 450x450mm",
       "packing": "두께 및 사이즈별 상이"
     },
-    "description": "디럭스_BASIC"
+    "description": "디럭스"
   },
   {
-    "id": "데코타일-현대-디럭스_basic-1120",
+    "id": "데코타일-현대-디럭스-1120",
     "category": "데코타일",
     "brand": "현대",
-    "line": "디럭스_BASIC",
-    "subLine": "BASIC",
-    "name": "디럭스 타일 1120",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "1120",
     "code": "1120",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1120.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1120.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1120.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1120.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1120.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1120.jpg"
     ],
-    "price": 20000,
+    "price": 22000,
     "thickness": "2.0T / 3.0T",
     "specs": {
-      "division": "BASIC",
+      "division": "디럭스",
       "thickness": "2.0T / 3.0T",
       "size": "300x300mm / 450x450mm",
       "packing": "두께 및 사이즈별 상이"
     },
-    "description": "디럭스_BASIC"
+    "description": "디럭스"
   },
   {
-    "id": "데코타일-현대-디럭스_basic-1130",
+    "id": "데코타일-현대-디럭스-1130",
     "category": "데코타일",
     "brand": "현대",
-    "line": "디럭스_BASIC",
-    "subLine": "BASIC",
-    "name": "디럭스 타일 1130",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "1130",
     "code": "1130",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1130.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1130.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1130.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1130.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1130.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1130.jpg"
     ],
-    "price": 20000,
+    "price": 22000,
     "thickness": "2.0T / 3.0T",
     "specs": {
-      "division": "BASIC",
+      "division": "디럭스",
       "thickness": "2.0T / 3.0T",
       "size": "300x300mm / 450x450mm",
       "packing": "두께 및 사이즈별 상이"
     },
-    "description": "디럭스_BASIC"
+    "description": "디럭스"
   },
   {
-    "id": "데코타일-현대-디럭스_basic-1131",
+    "id": "데코타일-현대-디럭스-1131",
     "category": "데코타일",
     "brand": "현대",
-    "line": "디럭스_BASIC",
-    "subLine": "BASIC",
-    "name": "디럭스 타일 1131",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "1131",
     "code": "1131",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1131.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1131.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1131.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1131.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1131.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1131.jpg"
     ],
-    "price": 20000,
+    "price": 22000,
     "thickness": "2.0T / 3.0T",
     "specs": {
-      "division": "BASIC",
+      "division": "디럭스",
       "thickness": "2.0T / 3.0T",
       "size": "300x300mm / 450x450mm",
       "packing": "두께 및 사이즈별 상이"
     },
-    "description": "디럭스_BASIC"
+    "description": "디럭스"
   },
   {
-    "id": "데코타일-현대-디럭스_basic-1133",
+    "id": "데코타일-현대-디럭스-1133",
     "category": "데코타일",
     "brand": "현대",
-    "line": "디럭스_BASIC",
-    "subLine": "BASIC",
-    "name": "디럭스 타일 1133",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "1133",
     "code": "1133",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1133.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1133.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1133.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1133.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1133.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1133.jpg"
     ],
-    "price": 20000,
+    "price": 22000,
     "thickness": "2.0T / 3.0T",
     "specs": {
-      "division": "BASIC",
+      "division": "디럭스",
       "thickness": "2.0T / 3.0T",
       "size": "300x300mm / 450x450mm",
       "packing": "두께 및 사이즈별 상이"
     },
-    "description": "디럭스_BASIC"
+    "description": "디럭스"
   },
   {
-    "id": "데코타일-현대-디럭스_basic-1134",
+    "id": "데코타일-현대-디럭스-1134",
     "category": "데코타일",
     "brand": "현대",
-    "line": "디럭스_BASIC",
-    "subLine": "BASIC",
-    "name": "디럭스 타일 1134",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "1134",
     "code": "1134",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1134.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1134.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1134.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1134.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1134.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1134.jpg"
     ],
-    "price": 20000,
+    "price": 22000,
     "thickness": "2.0T / 3.0T",
     "specs": {
-      "division": "BASIC",
+      "division": "디럭스",
       "thickness": "2.0T / 3.0T",
       "size": "300x300mm / 450x450mm",
       "packing": "두께 및 사이즈별 상이"
     },
-    "description": "디럭스_BASIC"
+    "description": "디럭스"
   },
   {
-    "id": "데코타일-현대-디럭스_basic-1135",
+    "id": "데코타일-현대-디럭스-1135",
     "category": "데코타일",
     "brand": "현대",
-    "line": "디럭스_BASIC",
-    "subLine": "BASIC",
-    "name": "디럭스 타일 1135",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "1135",
     "code": "1135",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1135.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1135.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1135.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1135.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1135.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1135.jpg"
     ],
-    "price": 20000,
+    "price": 22000,
     "thickness": "2.0T / 3.0T",
     "specs": {
-      "division": "BASIC",
+      "division": "디럭스",
       "thickness": "2.0T / 3.0T",
       "size": "300x300mm / 450x450mm",
       "packing": "두께 및 사이즈별 상이"
     },
-    "description": "디럭스_BASIC"
+    "description": "디럭스"
   },
   {
-    "id": "데코타일-현대-디럭스_basic-1197",
+    "id": "데코타일-현대-디럭스-1197",
     "category": "데코타일",
     "brand": "현대",
-    "line": "디럭스_BASIC",
-    "subLine": "BASIC",
-    "name": "디럭스 타일 1197",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "1197",
     "code": "1197",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1197.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1197.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1197.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1197.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1197.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1197.jpg"
     ],
-    "price": 20000,
+    "price": 22000,
     "thickness": "2.0T / 3.0T",
     "specs": {
-      "division": "BASIC",
+      "division": "디럭스",
       "thickness": "2.0T / 3.0T",
       "size": "300x300mm / 450x450mm",
       "packing": "두께 및 사이즈별 상이"
     },
-    "description": "디럭스_BASIC"
+    "description": "디럭스"
   },
   {
-    "id": "데코타일-현대-디럭스_basic-1401",
+    "id": "데코타일-현대-디럭스-1401",
     "category": "데코타일",
     "brand": "현대",
-    "line": "디럭스_BASIC",
-    "subLine": "BASIC",
-    "name": "디럭스 타일 1401",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "1401",
     "code": "1401",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1401.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1401.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1401.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1401.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1401.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1401.jpg"
     ],
-    "price": 20000,
+    "price": 22000,
     "thickness": "2.0T / 3.0T",
     "specs": {
-      "division": "BASIC",
+      "division": "디럭스",
       "thickness": "2.0T / 3.0T",
       "size": "300x300mm / 450x450mm",
       "packing": "두께 및 사이즈별 상이"
     },
-    "description": "디럭스_BASIC"
+    "description": "디럭스"
   },
   {
-    "id": "데코타일-현대-디럭스_basic-1402",
+    "id": "데코타일-현대-디럭스-1402",
     "category": "데코타일",
     "brand": "현대",
-    "line": "디럭스_BASIC",
-    "subLine": "BASIC",
-    "name": "디럭스 타일 1402",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "1402",
     "code": "1402",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1402.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1402.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1402.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1402.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1402.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1402.jpg"
     ],
-    "price": 20000,
+    "price": 22000,
     "thickness": "2.0T / 3.0T",
     "specs": {
-      "division": "BASIC",
+      "division": "디럭스",
       "thickness": "2.0T / 3.0T",
       "size": "300x300mm / 450x450mm",
       "packing": "두께 및 사이즈별 상이"
     },
-    "description": "디럭스_BASIC"
+    "description": "디럭스"
   },
   {
-    "id": "데코타일-현대-디럭스_basic-1403",
+    "id": "데코타일-현대-디럭스-1403",
     "category": "데코타일",
     "brand": "현대",
-    "line": "디럭스_BASIC",
-    "subLine": "BASIC",
-    "name": "디럭스 타일 1403",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "1403",
     "code": "1403",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1403.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1403.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1403.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1403.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/1403.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1403.jpg"
     ],
-    "price": 20000,
+    "price": 22000,
     "thickness": "2.0T / 3.0T",
     "specs": {
-      "division": "BASIC",
+      "division": "디럭스",
       "thickness": "2.0T / 3.0T",
       "size": "300x300mm / 450x450mm",
       "packing": "두께 및 사이즈별 상이"
     },
-    "description": "디럭스_BASIC"
+    "description": "디럭스"
   },
   {
-    "id": "데코타일-현대-디럭스_basic-154",
+    "id": "데코타일-현대-디럭스-154",
     "category": "데코타일",
     "brand": "현대",
-    "line": "디럭스_BASIC",
-    "subLine": "BASIC",
-    "name": "디럭스 타일 154",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "154",
     "code": "154",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/154.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/154.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/154.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/154.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/154.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/154.jpg"
     ],
-    "price": 20000,
+    "price": 22000,
     "thickness": "2.0T / 3.0T",
     "specs": {
-      "division": "BASIC",
+      "division": "디럭스",
       "thickness": "2.0T / 3.0T",
       "size": "300x300mm / 450x450mm",
       "packing": "두께 및 사이즈별 상이"
     },
-    "description": "디럭스_BASIC"
+    "description": "디럭스"
   },
   {
-    "id": "데코타일-현대-디럭스_basic-157",
+    "id": "데코타일-현대-디럭스-157",
     "category": "데코타일",
     "brand": "현대",
-    "line": "디럭스_BASIC",
-    "subLine": "BASIC",
-    "name": "디럭스 타일 157",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "157",
     "code": "157",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/157.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/157.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/157.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/157.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/157.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/157.jpg"
     ],
-    "price": 20000,
+    "price": 22000,
     "thickness": "2.0T / 3.0T",
     "specs": {
-      "division": "BASIC",
+      "division": "디럭스",
       "thickness": "2.0T / 3.0T",
       "size": "300x300mm / 450x450mm",
       "packing": "두께 및 사이즈별 상이"
     },
-    "description": "디럭스_BASIC"
+    "description": "디럭스"
   },
   {
-    "id": "데코타일-현대-디럭스_basic-196",
+    "id": "데코타일-현대-디럭스-1902",
     "category": "데코타일",
     "brand": "현대",
-    "line": "디럭스_BASIC",
-    "subLine": "BASIC",
-    "name": "디럭스 타일 196",
-    "code": "196",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/196.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/196.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/BASIC/196.jpg"
-    ],
-    "price": 20000,
-    "thickness": "2.0T / 3.0T",
-    "specs": {
-      "division": "BASIC",
-      "thickness": "2.0T / 3.0T",
-      "size": "300x300mm / 450x450mm",
-      "packing": "두께 및 사이즈별 상이"
-    },
-    "description": "디럭스_BASIC"
-  },
-  {
-    "id": "데코타일-현대-디럭스_deluxe_gold-726",
-    "category": "데코타일",
-    "brand": "현대",
-    "line": "디럭스_DELUXE_GOLD",
-    "subLine": "DELUXE_GOLD",
-    "name": "디럭스 타일 726",
-    "code": "726",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/726.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/726.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/726.jpg"
-    ],
-    "price": 20000,
-    "thickness": "3.0T",
-    "specs": {
-      "division": "DELUXE_GOLD",
-      "thickness": "3.0T",
-      "size": "450x450mm",
-      "packing": "16pcs / Box (3.24㎡)"
-    },
-    "description": "디럭스_DELUXE_GOLD"
-  },
-  {
-    "id": "데코타일-현대-디럭스_deluxe_gold-727",
-    "category": "데코타일",
-    "brand": "현대",
-    "line": "디럭스_DELUXE_GOLD",
-    "subLine": "DELUXE_GOLD",
-    "name": "디럭스 타일 727",
-    "code": "727",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/727.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/727.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/727.jpg"
-    ],
-    "price": 20000,
-    "thickness": "3.0T",
-    "specs": {
-      "division": "DELUXE_GOLD",
-      "thickness": "3.0T",
-      "size": "450x450mm",
-      "packing": "16pcs / Box (3.24㎡)"
-    },
-    "description": "디럭스_DELUXE_GOLD"
-  },
-  {
-    "id": "데코타일-현대-디럭스_deluxe_gold-738",
-    "category": "데코타일",
-    "brand": "현대",
-    "line": "디럭스_DELUXE_GOLD",
-    "subLine": "DELUXE_GOLD",
-    "name": "디럭스 타일 738",
-    "code": "738",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/738.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/738.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/738.jpg"
-    ],
-    "price": 20000,
-    "thickness": "3.0T",
-    "specs": {
-      "division": "DELUXE_GOLD",
-      "thickness": "3.0T",
-      "size": "450x450mm",
-      "packing": "16pcs / Box (3.24㎡)"
-    },
-    "description": "디럭스_DELUXE_GOLD"
-  },
-  {
-    "id": "데코타일-현대-디럭스_deluxe_gold-739",
-    "category": "데코타일",
-    "brand": "현대",
-    "line": "디럭스_DELUXE_GOLD",
-    "subLine": "DELUXE_GOLD",
-    "name": "디럭스 타일 739",
-    "code": "739",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/739.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/739.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/739.jpg"
-    ],
-    "price": 20000,
-    "thickness": "3.0T",
-    "specs": {
-      "division": "DELUXE_GOLD",
-      "thickness": "3.0T",
-      "size": "450x450mm",
-      "packing": "16pcs / Box (3.24㎡)"
-    },
-    "description": "디럭스_DELUXE_GOLD"
-  },
-  {
-    "id": "데코타일-현대-디럭스_deluxe_gold-751",
-    "category": "데코타일",
-    "brand": "현대",
-    "line": "디럭스_DELUXE_GOLD",
-    "subLine": "DELUXE_GOLD",
-    "name": "디럭스 타일 751",
-    "code": "751",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/751.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/751.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/751.jpg"
-    ],
-    "price": 20000,
-    "thickness": "3.0T",
-    "specs": {
-      "division": "DELUXE_GOLD",
-      "thickness": "3.0T",
-      "size": "450x450mm",
-      "packing": "16pcs / Box (3.24㎡)"
-    },
-    "description": "디럭스_DELUXE_GOLD"
-  },
-  {
-    "id": "데코타일-현대-디럭스_deluxe_gold-752",
-    "category": "데코타일",
-    "brand": "현대",
-    "line": "디럭스_DELUXE_GOLD",
-    "subLine": "DELUXE_GOLD",
-    "name": "디럭스 타일 752",
-    "code": "752",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/752.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/752.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/752.jpg"
-    ],
-    "price": 20000,
-    "thickness": "3.0T",
-    "specs": {
-      "division": "DELUXE_GOLD",
-      "thickness": "3.0T",
-      "size": "450x450mm",
-      "packing": "16pcs / Box (3.24㎡)"
-    },
-    "description": "디럭스_DELUXE_GOLD"
-  },
-  {
-    "id": "데코타일-현대-디럭스_deluxe_gold-753",
-    "category": "데코타일",
-    "brand": "현대",
-    "line": "디럭스_DELUXE_GOLD",
-    "subLine": "DELUXE_GOLD",
-    "name": "디럭스 타일 753",
-    "code": "753",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/753.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/753.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/753.jpg"
-    ],
-    "price": 20000,
-    "thickness": "3.0T",
-    "specs": {
-      "division": "DELUXE_GOLD",
-      "thickness": "3.0T",
-      "size": "450x450mm",
-      "packing": "16pcs / Box (3.24㎡)"
-    },
-    "description": "디럭스_DELUXE_GOLD"
-  },
-  {
-    "id": "데코타일-현대-디럭스_deluxe_gold-754",
-    "category": "데코타일",
-    "brand": "현대",
-    "line": "디럭스_DELUXE_GOLD",
-    "subLine": "DELUXE_GOLD",
-    "name": "디럭스 타일 754",
-    "code": "754",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/754.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/754.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/DELUXE_GOLD/754.jpg"
-    ],
-    "price": 20000,
-    "thickness": "3.0T",
-    "specs": {
-      "division": "DELUXE_GOLD",
-      "thickness": "3.0T",
-      "size": "450x450mm",
-      "packing": "16pcs / Box (3.24㎡)"
-    },
-    "description": "디럭스_DELUXE_GOLD"
-  },
-  {
-    "id": "데코타일-현대-디럭스_regent-1902",
-    "category": "데코타일",
-    "brand": "현대",
-    "line": "디럭스_REGENT",
-    "subLine": "REGENT",
-    "name": "디럭스 타일 1902",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "1902",
     "code": "1902",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1902.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1902.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1902.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1902.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1902.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1902.jpg"
     ],
-    "price": 20000,
+    "price": 22000,
     "thickness": "3.0T",
     "specs": {
-      "division": "REGENT",
+      "division": "디럭스",
       "thickness": "3.0T",
       "size": "450x450mm",
       "packing": "16pcs / Box (3.24㎡)"
     },
-    "description": "디럭스_REGENT"
+    "description": "디럭스"
   },
   {
-    "id": "데코타일-현대-디럭스_regent-1903",
+    "id": "데코타일-현대-디럭스-1903",
     "category": "데코타일",
     "brand": "현대",
-    "line": "디럭스_REGENT",
-    "subLine": "REGENT",
-    "name": "디럭스 타일 1903",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "1903",
     "code": "1903",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1903.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1903.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1903.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1903.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1903.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1903.jpg"
     ],
-    "price": 20000,
+    "price": 22000,
     "thickness": "3.0T",
     "specs": {
-      "division": "REGENT",
+      "division": "디럭스",
       "thickness": "3.0T",
       "size": "450x450mm",
       "packing": "16pcs / Box (3.24㎡)"
     },
-    "description": "디럭스_REGENT"
+    "description": "디럭스"
   },
   {
-    "id": "데코타일-현대-디럭스_regent-1904",
+    "id": "데코타일-현대-디럭스-1904",
     "category": "데코타일",
     "brand": "현대",
-    "line": "디럭스_REGENT",
-    "subLine": "REGENT",
-    "name": "디럭스 타일 1904",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "1904",
     "code": "1904",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1904.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1904.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1904.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1904.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1904.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1904.jpg"
     ],
-    "price": 20000,
+    "price": 22000,
     "thickness": "3.0T",
     "specs": {
-      "division": "REGENT",
+      "division": "디럭스",
       "thickness": "3.0T",
       "size": "450x450mm",
       "packing": "16pcs / Box (3.24㎡)"
     },
-    "description": "디럭스_REGENT"
+    "description": "디럭스"
   },
   {
-    "id": "데코타일-현대-디럭스_regent-1906",
+    "id": "데코타일-현대-디럭스-1906",
     "category": "데코타일",
     "brand": "현대",
-    "line": "디럭스_REGENT",
-    "subLine": "REGENT",
-    "name": "디럭스 타일 1906",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "1906",
     "code": "1906",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1906.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1906.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1906.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1906.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1906.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1906.jpg"
     ],
-    "price": 20000,
+    "price": 22000,
     "thickness": "3.0T",
     "specs": {
-      "division": "REGENT",
+      "division": "디럭스",
       "thickness": "3.0T",
       "size": "450x450mm",
       "packing": "16pcs / Box (3.24㎡)"
     },
-    "description": "디럭스_REGENT"
+    "description": "디럭스"
   },
   {
-    "id": "데코타일-현대-디럭스_regent-1916",
+    "id": "데코타일-현대-디럭스-1916",
     "category": "데코타일",
     "brand": "현대",
-    "line": "디럭스_REGENT",
-    "subLine": "REGENT",
-    "name": "디럭스 타일 1916",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "1916",
     "code": "1916",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1916.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1916.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1916.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1916.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1916.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1916.jpg"
     ],
-    "price": 20000,
+    "price": 22000,
     "thickness": "3.0T",
     "specs": {
-      "division": "REGENT",
+      "division": "디럭스",
       "thickness": "3.0T",
       "size": "450x450mm",
       "packing": "16pcs / Box (3.24㎡)"
     },
-    "description": "디럭스_REGENT"
+    "description": "디럭스"
   },
   {
-    "id": "데코타일-현대-디럭스_regent-1919",
+    "id": "데코타일-현대-디럭스-1919",
     "category": "데코타일",
     "brand": "현대",
-    "line": "디럭스_REGENT",
-    "subLine": "REGENT",
-    "name": "디럭스 타일 1919",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "1919",
     "code": "1919",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1919.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1919.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1919.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1919.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1919.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1919.jpg"
     ],
-    "price": 20000,
+    "price": 22000,
     "thickness": "3.0T",
     "specs": {
-      "division": "REGENT",
+      "division": "디럭스",
       "thickness": "3.0T",
       "size": "450x450mm",
       "packing": "16pcs / Box (3.24㎡)"
     },
-    "description": "디럭스_REGENT"
+    "description": "디럭스"
   },
   {
-    "id": "데코타일-현대-디럭스_regent-1920",
+    "id": "데코타일-현대-디럭스-1920",
     "category": "데코타일",
     "brand": "현대",
-    "line": "디럭스_REGENT",
-    "subLine": "REGENT",
-    "name": "디럭스 타일 1920",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "1920",
     "code": "1920",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1920.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1920.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1920.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1920.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1920.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1920.jpg"
     ],
-    "price": 20000,
+    "price": 22000,
     "thickness": "3.0T",
     "specs": {
-      "division": "REGENT",
+      "division": "디럭스",
       "thickness": "3.0T",
       "size": "450x450mm",
       "packing": "16pcs / Box (3.24㎡)"
     },
-    "description": "디럭스_REGENT"
+    "description": "디럭스"
   },
   {
-    "id": "데코타일-현대-디럭스_regent-1922",
+    "id": "데코타일-현대-디럭스-1922",
     "category": "데코타일",
     "brand": "현대",
-    "line": "디럭스_REGENT",
-    "subLine": "REGENT",
-    "name": "디럭스 타일 1922",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "1922",
     "code": "1922",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1922.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1922.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1922.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1922.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/REGENT/1922.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/1922.jpg"
     ],
-    "price": 20000,
+    "price": 22000,
     "thickness": "3.0T",
     "specs": {
-      "division": "REGENT",
+      "division": "디럭스",
       "thickness": "3.0T",
       "size": "450x450mm",
       "packing": "16pcs / Box (3.24㎡)"
     },
-    "description": "디럭스_REGENT"
+    "description": "디럭스"
+  },
+  {
+    "id": "데코타일-현대-디럭스-196",
+    "category": "데코타일",
+    "brand": "현대",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "196",
+    "code": "196",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/196.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/196.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/196.jpg"
+    ],
+    "price": 22000,
+    "thickness": "2.0T / 3.0T",
+    "specs": {
+      "division": "디럭스",
+      "thickness": "2.0T / 3.0T",
+      "size": "300x300mm / 450x450mm",
+      "packing": "두께 및 사이즈별 상이"
+    },
+    "description": "디럭스"
+  },
+  {
+    "id": "데코타일-현대-디럭스-726",
+    "category": "데코타일",
+    "brand": "현대",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "726",
+    "code": "726",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/726.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/726.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/726.jpg"
+    ],
+    "price": 22000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "디럭스",
+      "thickness": "3.0T",
+      "size": "450x450mm",
+      "packing": "16pcs / Box (3.24㎡)"
+    },
+    "description": "디럭스"
+  },
+  {
+    "id": "데코타일-현대-디럭스-727",
+    "category": "데코타일",
+    "brand": "현대",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "727",
+    "code": "727",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/727.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/727.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/727.jpg"
+    ],
+    "price": 22000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "디럭스",
+      "thickness": "3.0T",
+      "size": "450x450mm",
+      "packing": "16pcs / Box (3.24㎡)"
+    },
+    "description": "디럭스"
+  },
+  {
+    "id": "데코타일-현대-디럭스-738",
+    "category": "데코타일",
+    "brand": "현대",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "738",
+    "code": "738",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/738.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/738.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/738.jpg"
+    ],
+    "price": 22000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "디럭스",
+      "thickness": "3.0T",
+      "size": "450x450mm",
+      "packing": "16pcs / Box (3.24㎡)"
+    },
+    "description": "디럭스"
+  },
+  {
+    "id": "데코타일-현대-디럭스-739",
+    "category": "데코타일",
+    "brand": "현대",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "739",
+    "code": "739",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/739.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/739.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/739.jpg"
+    ],
+    "price": 22000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "디럭스",
+      "thickness": "3.0T",
+      "size": "450x450mm",
+      "packing": "16pcs / Box (3.24㎡)"
+    },
+    "description": "디럭스"
+  },
+  {
+    "id": "데코타일-현대-디럭스-751",
+    "category": "데코타일",
+    "brand": "현대",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "751",
+    "code": "751",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/751.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/751.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/751.jpg"
+    ],
+    "price": 22000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "디럭스",
+      "thickness": "3.0T",
+      "size": "450x450mm",
+      "packing": "16pcs / Box (3.24㎡)"
+    },
+    "description": "디럭스"
+  },
+  {
+    "id": "데코타일-현대-디럭스-752",
+    "category": "데코타일",
+    "brand": "현대",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "752",
+    "code": "752",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/752.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/752.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/752.jpg"
+    ],
+    "price": 22000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "디럭스",
+      "thickness": "3.0T",
+      "size": "450x450mm",
+      "packing": "16pcs / Box (3.24㎡)"
+    },
+    "description": "디럭스"
+  },
+  {
+    "id": "데코타일-현대-디럭스-753",
+    "category": "데코타일",
+    "brand": "현대",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "753",
+    "code": "753",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/753.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/753.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/753.jpg"
+    ],
+    "price": 22000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "디럭스",
+      "thickness": "3.0T",
+      "size": "450x450mm",
+      "packing": "16pcs / Box (3.24㎡)"
+    },
+    "description": "디럭스"
+  },
+  {
+    "id": "데코타일-현대-디럭스-754",
+    "category": "데코타일",
+    "brand": "현대",
+    "line": "디럭스",
+    "subLine": "디럭스",
+    "name": "754",
+    "code": "754",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/754.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/754.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EB%94%94%EB%9F%AD%EC%8A%A4/754.jpg"
+    ],
+    "price": 22000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "디럭스",
+      "thickness": "3.0T",
+      "size": "450x450mm",
+      "packing": "16pcs / Box (3.24㎡)"
+    },
+    "description": "디럭스"
   },
   {
     "id": "러버타일-현대-ct10",
@@ -19561,7 +19602,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 CT10",
+    "name": "CT10",
     "code": "CT10",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT10.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT10.jpg",
@@ -19584,7 +19625,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 CT101",
+    "name": "CT101",
     "code": "CT101",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT101.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT101.jpg",
@@ -19607,7 +19648,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 CT11",
+    "name": "CT11",
     "code": "CT11",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT11.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT11.jpg",
@@ -19630,7 +19671,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 CT23",
+    "name": "CT23",
     "code": "CT23",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT23.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT23.jpg",
@@ -19653,7 +19694,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 CT402",
+    "name": "CT402",
     "code": "CT402",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT402.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT402.jpg",
@@ -19676,7 +19717,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 CT43",
+    "name": "CT43",
     "code": "CT43",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT43.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT43.jpg",
@@ -19699,7 +19740,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 CT47",
+    "name": "CT47",
     "code": "CT47",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT47.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT47.jpg",
@@ -19722,7 +19763,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 CT52",
+    "name": "CT52",
     "code": "CT52",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT52.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT52.jpg",
@@ -19745,7 +19786,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 CT54",
+    "name": "CT54",
     "code": "CT54",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT54.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT54.jpg",
@@ -19768,7 +19809,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 CT56",
+    "name": "CT56",
     "code": "CT56",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT56.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT56.jpg",
@@ -19791,7 +19832,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 CT57",
+    "name": "CT57",
     "code": "CT57",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT57.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT57.jpg",
@@ -19814,7 +19855,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 CT806",
+    "name": "CT806",
     "code": "CT806",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT806.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT806.jpg",
@@ -19837,7 +19878,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 CT82",
+    "name": "CT82",
     "code": "CT82",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT82.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT82.jpg",
@@ -19860,7 +19901,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 CT83",
+    "name": "CT83",
     "code": "CT83",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT83.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT83.jpg",
@@ -19883,7 +19924,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 CT86",
+    "name": "CT86",
     "code": "CT86",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT86.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT86.jpg",
@@ -19906,7 +19947,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 CT91",
+    "name": "CT91",
     "code": "CT91",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT91.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT91.jpg",
@@ -19929,7 +19970,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 CT921",
+    "name": "CT921",
     "code": "CT921",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT921.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT921.jpg",
@@ -19952,7 +19993,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 CT93",
+    "name": "CT93",
     "code": "CT93",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT93.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT93.jpg",
@@ -19975,7 +20016,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 CT94",
+    "name": "CT94",
     "code": "CT94",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT94.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/CT94.jpg",
@@ -19998,7 +20039,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 NMC10",
+    "name": "NMC10",
     "code": "NMC10",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/NMC10.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/NMC10.jpg",
@@ -20021,7 +20062,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 NMC33",
+    "name": "NMC33",
     "code": "NMC33",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/NMC33.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/NMC33.jpg",
@@ -20044,7 +20085,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 NMC40",
+    "name": "NMC40",
     "code": "NMC40",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/NMC40.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/NMC40.jpg",
@@ -20067,7 +20108,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 NMH31",
+    "name": "NMH31",
     "code": "NMH31",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/NMH31.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/NMH31.jpg",
@@ -20090,7 +20131,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 NMH44",
+    "name": "NMH44",
     "code": "NMH44",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/NMH44.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/NMH44.jpg",
@@ -20113,7 +20154,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 NMH48",
+    "name": "NMH48",
     "code": "NMH48",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/NMH48.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/NMH48.jpg",
@@ -20136,7 +20177,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 NMH88",
+    "name": "NMH88",
     "code": "NMH88",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/NMH88.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/NMH88.jpg",
@@ -20159,7 +20200,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 NMH93",
+    "name": "NMH93",
     "code": "NMH93",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/NMH93.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/NMH93.jpg",
@@ -20182,7 +20223,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 NMR31",
+    "name": "NMR31",
     "code": "NMR31",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/NMR31.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/NMR31.jpg",
@@ -20205,7 +20246,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 NMR44",
+    "name": "NMR44",
     "code": "NMR44",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/NMR44.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/NMR44.jpg",
@@ -20228,7 +20269,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 NMR48",
+    "name": "NMR48",
     "code": "NMR48",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/NMR48.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/NMR48.jpg",
@@ -20251,7 +20292,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 NMR88",
+    "name": "NMR88",
     "code": "NMR88",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/NMR88.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/NMR88.jpg",
@@ -20274,7 +20315,7 @@ export const materials = [
     "brand": "현대",
     "line": "",
     "subLine": "현대",
-    "name": "러버타일 NMR93",
+    "name": "NMR93",
     "code": "NMR93",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/NMR93.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%9F%AC%EB%B2%84%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/NMR93.jpg",
@@ -80694,6 +80735,1559 @@ export const materials = [
     "description": "합지_신한벽지_파인하임"
   },
   {
+    "id": "장판-kcc-그린-np18-3543",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "그린",
+    "subLine": "그린1.8",
+    "name": "NP18-3543",
+    "code": "NP18-3543",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-3543_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-3543_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-3543_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "1.8T",
+    "specs": {
+      "division": "그린1.8",
+      "thickness": "1.8T",
+      "size": "1.8mm(T) x 1,830mm(W)",
+      "packing": "35m / Roll"
+    },
+    "description": "그린"
+  },
+  {
+    "id": "장판-kcc-그린-np18-4123",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "그린",
+    "subLine": "그린1.8",
+    "name": "NP18-4123",
+    "code": "NP18-4123",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4123_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4123_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4123_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "1.8T",
+    "specs": {
+      "division": "그린1.8",
+      "thickness": "1.8T",
+      "size": "1.8mm(T) x 1,830mm(W)",
+      "packing": "35m / Roll"
+    },
+    "description": "그린"
+  },
+  {
+    "id": "장판-kcc-그린-np18-4125",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "그린",
+    "subLine": "그린1.8",
+    "name": "NP18-4125",
+    "code": "NP18-4125",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4125_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4125_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4125_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "1.8T",
+    "specs": {
+      "division": "그린1.8",
+      "thickness": "1.8T",
+      "size": "1.8mm(T) x 1,830mm(W)",
+      "packing": "35m / Roll"
+    },
+    "description": "그린"
+  },
+  {
+    "id": "장판-kcc-그린-np18-4681",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "그린",
+    "subLine": "그린1.8",
+    "name": "NP18-4681",
+    "code": "NP18-4681",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4681_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4681_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4681_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "1.8T",
+    "specs": {
+      "division": "그린1.8",
+      "thickness": "1.8T",
+      "size": "1.8mm(T) x 1,830mm(W)",
+      "packing": "35m / Roll"
+    },
+    "description": "그린"
+  },
+  {
+    "id": "장판-kcc-그린-np18-4701",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "그린",
+    "subLine": "그린1.8",
+    "name": "NP18-4701",
+    "code": "NP18-4701",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4701_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4701_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4701_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "1.8T",
+    "specs": {
+      "division": "그린1.8",
+      "thickness": "1.8T",
+      "size": "1.8mm(T) x 1,830mm(W)",
+      "packing": "35m / Roll"
+    },
+    "description": "그린"
+  },
+  {
+    "id": "장판-kcc-그린-np18-4703",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "그린",
+    "subLine": "그린1.8",
+    "name": "NP18-4703",
+    "code": "NP18-4703",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4703_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4703_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4703_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "1.8T",
+    "specs": {
+      "division": "그린1.8",
+      "thickness": "1.8T",
+      "size": "1.8mm(T) x 1,830mm(W)",
+      "packing": "35m / Roll"
+    },
+    "description": "그린"
+  },
+  {
+    "id": "장판-kcc-그린-np18-4733",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "그린",
+    "subLine": "그린1.8",
+    "name": "NP18-4733",
+    "code": "NP18-4733",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4733_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4733_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4733_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "1.8T",
+    "specs": {
+      "division": "그린1.8",
+      "thickness": "1.8T",
+      "size": "1.8mm(T) x 1,830mm(W)",
+      "packing": "35m / Roll"
+    },
+    "description": "그린"
+  },
+  {
+    "id": "장판-kcc-그린-np18-4863",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "그린",
+    "subLine": "그린1.8",
+    "name": "NP18-4863",
+    "code": "NP18-4863",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4863_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4863_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4863_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "1.8T",
+    "specs": {
+      "division": "그린1.8",
+      "thickness": "1.8T",
+      "size": "1.8mm(T) x 1,830mm(W)",
+      "packing": "35m / Roll"
+    },
+    "description": "그린"
+  },
+  {
+    "id": "장판-kcc-그린-np18-4921",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "그린",
+    "subLine": "그린1.8",
+    "name": "NP18-4921",
+    "code": "NP18-4921",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4921_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4921_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4921_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "1.8T",
+    "specs": {
+      "division": "그린1.8",
+      "thickness": "1.8T",
+      "size": "1.8mm(T) x 1,830mm(W)",
+      "packing": "35m / Roll"
+    },
+    "description": "그린"
+  },
+  {
+    "id": "장판-kcc-그린-np18-5021",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "그린",
+    "subLine": "그린1.8",
+    "name": "NP18-5021",
+    "code": "NP18-5021",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-5021_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-5021_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-5021_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "1.8T",
+    "specs": {
+      "division": "그린1.8",
+      "thickness": "1.8T",
+      "size": "1.8mm(T) x 1,830mm(W)",
+      "packing": "35m / Roll"
+    },
+    "description": "그린"
+  },
+  {
+    "id": "장판-kcc-그린-np18-5031",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "그린",
+    "subLine": "그린1.8",
+    "name": "NP18-5031",
+    "code": "NP18-5031",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-5031_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-5031_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-5031_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "1.8T",
+    "specs": {
+      "division": "그린1.8",
+      "thickness": "1.8T",
+      "size": "1.8mm(T) x 1,830mm(W)",
+      "packing": "35m / Roll"
+    },
+    "description": "그린"
+  },
+  {
+    "id": "장판-kcc-도담-nj27-4202",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "도담",
+    "subLine": "도담_2.7",
+    "name": "NJ27-4202",
+    "code": "NJ27-4202",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4202.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4202.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4202.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NJ27-4202_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.7T",
+    "specs": {
+      "division": "도담_2.7",
+      "thickness": "2.7T",
+      "size": "2.7mm(T) x 1,830mm(W)",
+      "packing": "25m / Roll"
+    },
+    "description": "도담"
+  },
+  {
+    "id": "장판-kcc-도담-nj27-4583",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "도담",
+    "subLine": "도담_2.7",
+    "name": "NJ27-4583",
+    "code": "NJ27-4583",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4583.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4583.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4583.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NJ27-4583_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.7T",
+    "specs": {
+      "division": "도담_2.7",
+      "thickness": "2.7T",
+      "size": "2.7mm(T) x 1,830mm(W)",
+      "packing": "25m / Roll"
+    },
+    "description": "도담"
+  },
+  {
+    "id": "장판-kcc-도담-nj27-4911",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "도담",
+    "subLine": "도담_2.7",
+    "name": "NJ27-4911",
+    "code": "NJ27-4911",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4911.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4911.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4911.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NJ27-4911_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.7T",
+    "specs": {
+      "division": "도담_2.7",
+      "thickness": "2.7T",
+      "size": "2.7mm(T) x 1,830mm(W)",
+      "packing": "25m / Roll"
+    },
+    "description": "도담"
+  },
+  {
+    "id": "장판-kcc-도담-nj27-4965",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "도담",
+    "subLine": "도담_2.7",
+    "name": "NJ27-4965",
+    "code": "NJ27-4965",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4965.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4965.png",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4965.png",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NJ27-4965_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.7T",
+    "specs": {
+      "division": "도담_2.7",
+      "thickness": "2.7T",
+      "size": "2.7mm(T) x 1,830mm(W)",
+      "packing": "25m / Roll"
+    },
+    "description": "도담"
+  },
+  {
+    "id": "장판-kcc-도담-nj27-5121",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "도담",
+    "subLine": "도담_2.7",
+    "name": "NJ27-5121",
+    "code": "NJ27-5121",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-5121.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-5121.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-5121.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NJ27-5121_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.7T",
+    "specs": {
+      "division": "도담_2.7",
+      "thickness": "2.7T",
+      "size": "2.7mm(T) x 1,830mm(W)",
+      "packing": "25m / Roll"
+    },
+    "description": "도담"
+  },
+  {
+    "id": "장판-kcc-도담-nj27-5235",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "도담",
+    "subLine": "도담_2.7",
+    "name": "NJ27-5235",
+    "code": "NJ27-5235",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-5235.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-5235.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-5235.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NJ27-5235_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.7T",
+    "specs": {
+      "division": "도담_2.7",
+      "thickness": "2.7T",
+      "size": "2.7mm(T) x 1,830mm(W)",
+      "packing": "25m / Roll"
+    },
+    "description": "도담"
+  },
+  {
+    "id": "장판-kcc-도담-nj27-5331",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "도담",
+    "subLine": "도담_2.7",
+    "name": "NJ27-5331",
+    "code": "NJ27-5331",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-5331.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-5331.png",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-5331.png",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NJ27-5331_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.7T",
+    "specs": {
+      "division": "도담_2.7",
+      "thickness": "2.7T",
+      "size": "2.7mm(T) x 1,830mm(W)",
+      "packing": "25m / Roll"
+    },
+    "description": "도담"
+  },
+  {
+    "id": "장판-kcc-도담-nr32-4368",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "도담",
+    "subLine": "도담_3.2",
+    "name": "NR32-4368",
+    "code": "NR32-4368",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4368.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4368.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4368.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4368_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "3.2T",
+    "specs": {
+      "division": "도담_3.2",
+      "thickness": "3.2T",
+      "size": "3.2mm(T) x 1,830mm(W)",
+      "packing": "23m / Roll"
+    },
+    "description": "도담"
+  },
+  {
+    "id": "장판-kcc-도담-nr32-4791",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "도담",
+    "subLine": "도담_3.2",
+    "name": "NR32-4791",
+    "code": "NR32-4791",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4791.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4791.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4791.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4791_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "3.2T",
+    "specs": {
+      "division": "도담_3.2",
+      "thickness": "3.2T",
+      "size": "3.2mm(T) x 1,830mm(W)",
+      "packing": "23m / Roll"
+    },
+    "description": "도담"
+  },
+  {
+    "id": "장판-kcc-도담-nr32-4835",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "도담",
+    "subLine": "도담_3.2",
+    "name": "NR32-4835",
+    "code": "NR32-4835",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4835.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4835.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4835.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4835_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "3.2T",
+    "specs": {
+      "division": "도담_3.2",
+      "thickness": "3.2T",
+      "size": "3.2mm(T) x 1,830mm(W)",
+      "packing": "23m / Roll"
+    },
+    "description": "도담"
+  },
+  {
+    "id": "장판-kcc-도담-nr32-4901",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "도담",
+    "subLine": "도담_3.2",
+    "name": "NR32-4901",
+    "code": "NR32-4901",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4901.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4901.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4901.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4901_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "3.2T",
+    "specs": {
+      "division": "도담_3.2",
+      "thickness": "3.2T",
+      "size": "3.2mm(T) x 1,830mm(W)",
+      "packing": "23m / Roll"
+    },
+    "description": "도담"
+  },
+  {
+    "id": "장판-kcc-도담-nr32-4968",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "도담",
+    "subLine": "도담_3.2",
+    "name": "NR32-4968",
+    "code": "NR32-4968",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4968.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4968.png",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4968.png",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4968_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "3.2T",
+    "specs": {
+      "division": "도담_3.2",
+      "thickness": "3.2T",
+      "size": "3.2mm(T) x 1,830mm(W)",
+      "packing": "23m / Roll"
+    },
+    "description": "도담"
+  },
+  {
+    "id": "장판-kcc-도담-nr32-5103",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "도담",
+    "subLine": "도담_3.2",
+    "name": "NR32-5103",
+    "code": "NR32-5103",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5103.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5103.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5103.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5103_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "3.2T",
+    "specs": {
+      "division": "도담_3.2",
+      "thickness": "3.2T",
+      "size": "3.2mm(T) x 1,830mm(W)",
+      "packing": "23m / Roll"
+    },
+    "description": "도담"
+  },
+  {
+    "id": "장판-kcc-도담-nr32-5105",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "도담",
+    "subLine": "도담_3.2",
+    "name": "NR32-5105",
+    "code": "NR32-5105",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5105.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5105.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5105.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5105_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "3.2T",
+    "specs": {
+      "division": "도담_3.2",
+      "thickness": "3.2T",
+      "size": "3.2mm(T) x 1,830mm(W)",
+      "packing": "23m / Roll"
+    },
+    "description": "도담"
+  },
+  {
+    "id": "장판-kcc-도담-nr32-5111",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "도담",
+    "subLine": "도담_3.2",
+    "name": "NR32-5111",
+    "code": "NR32-5111",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5111.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5111.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5111.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5111_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "3.2T",
+    "specs": {
+      "division": "도담_3.2",
+      "thickness": "3.2T",
+      "size": "3.2mm(T) x 1,830mm(W)",
+      "packing": "23m / Roll"
+    },
+    "description": "도담"
+  },
+  {
+    "id": "장판-kcc-도담-nr32-5131",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "도담",
+    "subLine": "도담_3.2",
+    "name": "NR32-5131",
+    "code": "NR32-5131",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5131.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5131.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5131.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5131_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "3.2T",
+    "specs": {
+      "division": "도담_3.2",
+      "thickness": "3.2T",
+      "size": "3.2mm(T) x 1,830mm(W)",
+      "packing": "23m / Roll"
+    },
+    "description": "도담"
+  },
+  {
+    "id": "장판-kcc-도담-nr32-5165",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "도담",
+    "subLine": "도담_3.2",
+    "name": "NR32-5165",
+    "code": "NR32-5165",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5165.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5165.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5165.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5165_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "3.2T",
+    "specs": {
+      "division": "도담_3.2",
+      "thickness": "3.2T",
+      "size": "3.2mm(T) x 1,830mm(W)",
+      "packing": "23m / Roll"
+    },
+    "description": "도담"
+  },
+  {
+    "id": "장판-kcc-도담-nr32-5321",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "도담",
+    "subLine": "도담_3.2",
+    "name": "NR32-5321",
+    "code": "NR32-5321",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5321.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5321.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5321.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5321_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "3.2T",
+    "specs": {
+      "division": "도담_3.2",
+      "thickness": "3.2T",
+      "size": "3.2mm(T) x 1,830mm(W)",
+      "packing": "23m / Roll"
+    },
+    "description": "도담"
+  },
+  {
+    "id": "장판-kcc-도담-nr32-5323",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "도담",
+    "subLine": "도담_3.2",
+    "name": "NR32-5323",
+    "code": "NR32-5323",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5323.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5323.png",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5323.png",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5323_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "3.2T",
+    "specs": {
+      "division": "도담_3.2",
+      "thickness": "3.2T",
+      "size": "3.2mm(T) x 1,830mm(W)",
+      "packing": "23m / Roll"
+    },
+    "description": "도담"
+  },
+  {
+    "id": "장판-kcc-숲-옥-mn22-4151_detail",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "숲 옥",
+    "subLine": "숲 옥2.2",
+    "name": "MN22-4151_detail",
+    "code": "MN22-4151_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4151_detail.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4151_detail.png",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4151_detail.png"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "숲 옥2.2",
+      "thickness": "2.2T",
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
+    },
+    "description": "숲 옥"
+  },
+  {
+    "id": "장판-kcc-숲-옥-mn22-4162_detail",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "숲 옥",
+    "subLine": "숲 옥2.2",
+    "name": "MN22-4162_detail",
+    "code": "MN22-4162_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4162_detail.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4162_detail.png",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4162_detail.png"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "숲 옥2.2",
+      "thickness": "2.2T",
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
+    },
+    "description": "숲 옥"
+  },
+  {
+    "id": "장판-kcc-숲-옥-mn22-4383_detail",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "숲 옥",
+    "subLine": "숲 옥2.2",
+    "name": "MN22-4383_detail",
+    "code": "MN22-4383_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4383_detail.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4383_detail.png",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4383_detail.png"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "숲 옥2.2",
+      "thickness": "2.2T",
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
+    },
+    "description": "숲 옥"
+  },
+  {
+    "id": "장판-kcc-숲-옥-mn22-4581_detail",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "숲 옥",
+    "subLine": "숲 옥2.2",
+    "name": "MN22-4581_detail",
+    "code": "MN22-4581_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4581_detail.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4581_detail.png",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4581_detail.png"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "숲 옥2.2",
+      "thickness": "2.2T",
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
+    },
+    "description": "숲 옥"
+  },
+  {
+    "id": "장판-kcc-숲-옥-mn22-4591_detail",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "숲 옥",
+    "subLine": "숲 옥2.2",
+    "name": "MN22-4591_detail",
+    "code": "MN22-4591_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4591_detail.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4591_detail.png",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4591_detail.png"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "숲 옥2.2",
+      "thickness": "2.2T",
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
+    },
+    "description": "숲 옥"
+  },
+  {
+    "id": "장판-kcc-숲-옥-mn22-4811_detail",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "숲 옥",
+    "subLine": "숲 옥2.2",
+    "name": "MN22-4811_detail",
+    "code": "MN22-4811_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4811_detail.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4811_detail.png",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4811_detail.png"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "숲 옥2.2",
+      "thickness": "2.2T",
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
+    },
+    "description": "숲 옥"
+  },
+  {
+    "id": "장판-kcc-숲-옥-mn22-4821_detail",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "숲 옥",
+    "subLine": "숲 옥2.2",
+    "name": "MN22-4821_detail",
+    "code": "MN22-4821_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4821_detail.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4821_detail.png",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4821_detail.png"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "숲 옥2.2",
+      "thickness": "2.2T",
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
+    },
+    "description": "숲 옥"
+  },
+  {
+    "id": "장판-kcc-숲-옥-mn22-4823_detail",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "숲 옥",
+    "subLine": "숲 옥2.2",
+    "name": "MN22-4823_detail",
+    "code": "MN22-4823_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4823_detail.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4823_detail.png",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4823_detail.png"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "숲 옥2.2",
+      "thickness": "2.2T",
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
+    },
+    "description": "숲 옥"
+  },
+  {
+    "id": "장판-kcc-숲-옥-mn22-4831_detail",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "숲 옥",
+    "subLine": "숲 옥2.2",
+    "name": "MN22-4831_detail",
+    "code": "MN22-4831_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4831_detail.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4831_detail.png",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4831_detail.png"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "숲 옥2.2",
+      "thickness": "2.2T",
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
+    },
+    "description": "숲 옥"
+  },
+  {
+    "id": "장판-kcc-숲-옥-mn22-5051_detail",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "숲 옥",
+    "subLine": "숲 옥2.2",
+    "name": "MN22-5051_detail",
+    "code": "MN22-5051_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5051_detail.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5051_detail.png",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5051_detail.png"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "숲 옥2.2",
+      "thickness": "2.2T",
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
+    },
+    "description": "숲 옥"
+  },
+  {
+    "id": "장판-kcc-숲-옥-mn22-5061_detail",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "숲 옥",
+    "subLine": "숲 옥2.2",
+    "name": "MN22-5061_detail",
+    "code": "MN22-5061_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5061_detail.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5061_detail.png",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5061_detail.png"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "숲 옥2.2",
+      "thickness": "2.2T",
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
+    },
+    "description": "숲 옥"
+  },
+  {
+    "id": "장판-kcc-숲-옥-mn22-5071_detail",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "숲 옥",
+    "subLine": "숲 옥2.2",
+    "name": "MN22-5071_detail",
+    "code": "MN22-5071_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5071_detail.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5071_detail.png",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5071_detail.png"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "숲 옥2.2",
+      "thickness": "2.2T",
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
+    },
+    "description": "숲 옥"
+  },
+  {
+    "id": "장판-kcc-숲-옥-mn22-5091_detail",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "숲 옥",
+    "subLine": "숲 옥2.2",
+    "name": "MN22-5091_detail",
+    "code": "MN22-5091_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5091_detail.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5091_detail.png",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5091_detail.png"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "숲 옥2.2",
+      "thickness": "2.2T",
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
+    },
+    "description": "숲 옥"
+  },
+  {
+    "id": "장판-kcc-숲-옥-mn22-5191_detail",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "숲 옥",
+    "subLine": "숲 옥2.2",
+    "name": "MN22-5191_detail",
+    "code": "MN22-5191_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5191_detail.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5191_detail.png",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5191_detail.png"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "숲 옥2.2",
+      "thickness": "2.2T",
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
+    },
+    "description": "숲 옥"
+  },
+  {
+    "id": "장판-kcc-숲-옥-mn22-5201_detail",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "숲 옥",
+    "subLine": "숲 옥2.2",
+    "name": "MN22-5201_detail",
+    "code": "MN22-5201_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5201_detail.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5201_detail.png",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5201_detail.png"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "숲 옥2.2",
+      "thickness": "2.2T",
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
+    },
+    "description": "숲 옥"
+  },
+  {
+    "id": "장판-kcc-숲-옥-mn22-5203_detail",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "숲 옥",
+    "subLine": "숲 옥2.2",
+    "name": "MN22-5203_detail",
+    "code": "MN22-5203_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5203_detail.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5203_detail.png",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5203_detail.png"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "숲 옥2.2",
+      "thickness": "2.2T",
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
+    },
+    "description": "숲 옥"
+  },
+  {
+    "id": "장판-kcc-숲-옥-mn22-5211_detail",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "숲 옥",
+    "subLine": "숲 옥2.2",
+    "name": "MN22-5211_detail",
+    "code": "MN22-5211_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5211_detail.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5211_detail.png",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5211_detail.png"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "숲 옥2.2",
+      "thickness": "2.2T",
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
+    },
+    "description": "숲 옥"
+  },
+  {
+    "id": "장판-kcc-숲-옥-mn22-5221_detail",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "숲 옥",
+    "subLine": "숲 옥2.2",
+    "name": "MN22-5221_detail",
+    "code": "MN22-5221_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5221_detail.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5221_detail.png",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5221_detail.png"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "숲 옥2.2",
+      "thickness": "2.2T",
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
+    },
+    "description": "숲 옥"
+  },
+  {
+    "id": "장판-kcc-숲-옥-mn22-5231_detail",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "숲 옥",
+    "subLine": "숲 옥2.2",
+    "name": "MN22-5231_detail",
+    "code": "MN22-5231_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5231_detail.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5231_detail.png",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5231_detail.png"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "숲 옥2.2",
+      "thickness": "2.2T",
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
+    },
+    "description": "숲 옥"
+  },
+  {
+    "id": "장판-kcc-숲-옥-mn22-5233_detail",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "숲 옥",
+    "subLine": "숲 옥2.2",
+    "name": "MN22-5233_detail",
+    "code": "MN22-5233_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5233_detail.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5233_detail.png",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5233_detail.png"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "숲 옥2.2",
+      "thickness": "2.2T",
+      "size": "2.2mm(T) x 1,830mm(W)",
+      "packing": "30m / Roll"
+    },
+    "description": "숲 옥"
+  },
+  {
+    "id": "장판-kcc-휴가온-nc45-4232",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "휴가온",
+    "subLine": "휴가온_4.5",
+    "name": "NC45-4232",
+    "code": "NC45-4232",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4232.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4232.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4232.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NC45-4232_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "4.5T",
+    "specs": {
+      "division": "휴가온_4.5",
+      "thickness": "4.5T",
+      "size": "4.5mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
+    },
+    "description": "휴가온"
+  },
+  {
+    "id": "장판-kcc-휴가온-nc45-4751",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "휴가온",
+    "subLine": "휴가온_4.5",
+    "name": "NC45-4751",
+    "code": "NC45-4751",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4751.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4751.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4751.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NC45-4751_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "4.5T",
+    "specs": {
+      "division": "휴가온_4.5",
+      "thickness": "4.5T",
+      "size": "4.5mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
+    },
+    "description": "휴가온"
+  },
+  {
+    "id": "장판-kcc-휴가온-nc45-4761",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "휴가온",
+    "subLine": "휴가온_4.5",
+    "name": "NC45-4761",
+    "code": "NC45-4761",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4761.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4761.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4761.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NC45-4761_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "4.5T",
+    "specs": {
+      "division": "휴가온_4.5",
+      "thickness": "4.5T",
+      "size": "4.5mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
+    },
+    "description": "휴가온"
+  },
+  {
+    "id": "장판-kcc-휴가온-nc45-4941",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "휴가온",
+    "subLine": "휴가온_4.5",
+    "name": "NC45-4941",
+    "code": "NC45-4941",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4941.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4941.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4941.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NC45-4941_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "4.5T",
+    "specs": {
+      "division": "휴가온_4.5",
+      "thickness": "4.5T",
+      "size": "4.5mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
+    },
+    "description": "휴가온"
+  },
+  {
+    "id": "장판-kcc-휴가온-nc45-5151",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "휴가온",
+    "subLine": "휴가온_4.5",
+    "name": "NC45-5151",
+    "code": "NC45-5151",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5151.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5151.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5151.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NC45-5151_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "4.5T",
+    "specs": {
+      "division": "휴가온_4.5",
+      "thickness": "4.5T",
+      "size": "4.5mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
+    },
+    "description": "휴가온"
+  },
+  {
+    "id": "장판-kcc-휴가온-nc45-5153",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "휴가온",
+    "subLine": "휴가온_4.5",
+    "name": "NC45-5153",
+    "code": "NC45-5153",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5153.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5153.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5153.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NC45-5153_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "4.5T",
+    "specs": {
+      "division": "휴가온_4.5",
+      "thickness": "4.5T",
+      "size": "4.5mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
+    },
+    "description": "휴가온"
+  },
+  {
+    "id": "장판-kcc-휴가온-nc45-5161",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "휴가온",
+    "subLine": "휴가온_4.5",
+    "name": "NC45-5161",
+    "code": "NC45-5161",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5161.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5161.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5161.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NC45-5161_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "4.5T",
+    "specs": {
+      "division": "휴가온_4.5",
+      "thickness": "4.5T",
+      "size": "4.5mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
+    },
+    "description": "휴가온"
+  },
+  {
+    "id": "장판-kcc-휴가온-nc45-5171",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "휴가온",
+    "subLine": "휴가온_4.5",
+    "name": "NC45-5171",
+    "code": "NC45-5171",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5171.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5171.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5171.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NC45-5171_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "4.5T",
+    "specs": {
+      "division": "휴가온_4.5",
+      "thickness": "4.5T",
+      "size": "4.5mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
+    },
+    "description": "휴가온"
+  },
+  {
+    "id": "장판-kcc-휴가온-nc45-5181",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "휴가온",
+    "subLine": "휴가온_4.5",
+    "name": "NC45-5181",
+    "code": "NC45-5181",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5181.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5181.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5181.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NC45-5181_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "4.5T",
+    "specs": {
+      "division": "휴가온_4.5",
+      "thickness": "4.5T",
+      "size": "4.5mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
+    },
+    "description": "휴가온"
+  },
+  {
+    "id": "장판-kcc-휴가온-nv50-4931",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "휴가온",
+    "subLine": "휴가온_5.0",
+    "name": "NV50-4931",
+    "code": "NV50-4931",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-4931.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-4931.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-4931.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NV50-4931_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "5.0T",
+    "specs": {
+      "division": "휴가온_5.0",
+      "thickness": "5.0T",
+      "size": "5.0mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
+    },
+    "description": "휴가온"
+  },
+  {
+    "id": "장판-kcc-휴가온-nv50-4961",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "휴가온",
+    "subLine": "휴가온_5.0",
+    "name": "NV50-4961",
+    "code": "NV50-4961",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-4961.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-4961.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-4961.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NV50-4961_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "5.0T",
+    "specs": {
+      "division": "휴가온_5.0",
+      "thickness": "5.0T",
+      "size": "5.0mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
+    },
+    "description": "휴가온"
+  },
+  {
+    "id": "장판-kcc-휴가온-nv50-4981",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "휴가온",
+    "subLine": "휴가온_5.0",
+    "name": "NV50-4981",
+    "code": "NV50-4981",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-4981.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-4981.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-4981.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NV50-4981_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "5.0T",
+    "specs": {
+      "division": "휴가온_5.0",
+      "thickness": "5.0T",
+      "size": "5.0mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
+    },
+    "description": "휴가온"
+  },
+  {
+    "id": "장판-kcc-휴가온-nv50-5001",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "휴가온",
+    "subLine": "휴가온_5.0",
+    "name": "NV50-5001",
+    "code": "NV50-5001",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5001.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5001.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5001.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NV50-5001_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "5.0T",
+    "specs": {
+      "division": "휴가온_5.0",
+      "thickness": "5.0T",
+      "size": "5.0mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
+    },
+    "description": "휴가온"
+  },
+  {
+    "id": "장판-kcc-휴가온-nv50-5003",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "휴가온",
+    "subLine": "휴가온_5.0",
+    "name": "NV50-5003",
+    "code": "NV50-5003",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5003.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5003.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5003.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NV50-5003_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "5.0T",
+    "specs": {
+      "division": "휴가온_5.0",
+      "thickness": "5.0T",
+      "size": "5.0mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
+    },
+    "description": "휴가온"
+  },
+  {
+    "id": "장판-kcc-휴가온-nv50-5013",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "휴가온",
+    "subLine": "휴가온_5.0",
+    "name": "NV50-5013",
+    "code": "NV50-5013",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5013.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5013.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5013.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NV50-5013_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "5.0T",
+    "specs": {
+      "division": "휴가온_5.0",
+      "thickness": "5.0T",
+      "size": "5.0mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
+    },
+    "description": "휴가온"
+  },
+  {
+    "id": "장판-kcc-휴가온-nv50-5163",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "휴가온",
+    "subLine": "휴가온_5.0",
+    "name": "NV50-5163",
+    "code": "NV50-5163",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5163.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5163.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5163.jpg",
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NV50-5163_%EC%8B%9C%EA%B3%B5.jpg"
+    ],
+    "price": 0,
+    "thickness": "5.0T",
+    "specs": {
+      "division": "휴가온_5.0",
+      "thickness": "5.0T",
+      "size": "5.0mm(T) x 1,830mm(W)",
+      "packing": "20m / Roll"
+    },
+    "description": "휴가온"
+  },
+  {
     "id": "장판-lx하우시스-뉴청맥-cm21882",
     "category": "장판",
     "brand": "LX하우시스",
@@ -80701,10 +82295,10 @@ export const materials = [
     "subLine": "LX하우시스_뉴청맥_1.8T",
     "name": "뉴청맥 오크",
     "code": "CM21882",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM21882.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM21882.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM21882.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM21882.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM21882.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM21882.jpg"
     ],
     "price": 12000,
     "thickness": "1.8T",
@@ -80724,10 +82318,10 @@ export const materials = [
     "subLine": "LX하우시스_뉴청맥_1.8T",
     "name": "뉴청맥 오크",
     "code": "CM22771",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM22771.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM22771.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM22771.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM22771.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM22771.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM22771.jpg"
     ],
     "price": 12000,
     "thickness": "1.8T",
@@ -80747,10 +82341,10 @@ export const materials = [
     "subLine": "LX하우시스_뉴청맥_1.8T",
     "name": "뉴청맥 엘름",
     "code": "CM23691",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM23691.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM23691.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM23691.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM23691.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM23691.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM23691.jpg"
     ],
     "price": 12000,
     "thickness": "1.8T",
@@ -80770,10 +82364,10 @@ export const materials = [
     "subLine": "LX하우시스_뉴청맥_1.8T",
     "name": "뉴청맥 엘름",
     "code": "CM23692",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM23692.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM23692.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM23692.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM23692.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM23692.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM23692.jpg"
     ],
     "price": 12000,
     "thickness": "1.8T",
@@ -80793,10 +82387,10 @@ export const materials = [
     "subLine": "LX하우시스_뉴청맥_1.8T",
     "name": "뉴청맥 애쉬",
     "code": "CM24081",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24081.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24081.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24081.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24081.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24081.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24081.jpg"
     ],
     "price": 12000,
     "thickness": "1.8T",
@@ -80816,10 +82410,10 @@ export const materials = [
     "subLine": "LX하우시스_뉴청맥_1.8T",
     "name": "뉴청맥 애쉬",
     "code": "CM24083",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24083.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24083.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24083.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24083.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24083.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24083.jpg"
     ],
     "price": 12000,
     "thickness": "1.8T",
@@ -80839,10 +82433,10 @@ export const materials = [
     "subLine": "LX하우시스_뉴청맥_1.8T",
     "name": "뉴청맥 오크",
     "code": "CM24131",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24131.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24131.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24131.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24131.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24131.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24131.jpg"
     ],
     "price": 12000,
     "thickness": "1.8T",
@@ -80862,10 +82456,10 @@ export const materials = [
     "subLine": "LX하우시스_뉴청맥_1.8T",
     "name": "뉴청맥 오크",
     "code": "CM24133",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24133.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24133.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24133.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24133.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24133.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24133.jpg"
     ],
     "price": 12000,
     "thickness": "1.8T",
@@ -80885,10 +82479,10 @@ export const materials = [
     "subLine": "LX하우시스_뉴청맥_1.8T",
     "name": "뉴청맥 블랑 오크",
     "code": "CM24711",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24711.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24711.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24711.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24711.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24711.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24711.jpg"
     ],
     "price": 12000,
     "thickness": "1.8T",
@@ -80908,10 +82502,10 @@ export const materials = [
     "subLine": "LX하우시스_뉴청맥_1.8T",
     "name": "뉴청맥 크래프트 오크",
     "code": "CM24713",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24713.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24713.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24713.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24713.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24713.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24713.jpg"
     ],
     "price": 12000,
     "thickness": "1.8T",
@@ -80931,10 +82525,10 @@ export const materials = [
     "subLine": "LX하우시스_뉴청맥_1.8T",
     "name": "뉴청맥 마일드 스톤",
     "code": "CM24722",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24722.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24722.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24722.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24722.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24722.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24722.jpg"
     ],
     "price": 12000,
     "thickness": "1.8T",
@@ -80954,10 +82548,10 @@ export const materials = [
     "subLine": "LX하우시스_뉴청맥_1.8T",
     "name": "뉴청맥 내추럴 화이트",
     "code": "CM24731",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24731.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24731.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24731.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24731.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24731.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24731.jpg"
     ],
     "price": 12000,
     "thickness": "1.8T",
@@ -80977,10 +82571,10 @@ export const materials = [
     "subLine": "LX하우시스_뉴청맥_1.8T",
     "name": "뉴청맥 세라믹 스톤",
     "code": "CM24741",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24741.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24741.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24741.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24741.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24741.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EB%89%B4%EC%B2%AD%EB%A7%A5_1.8T/CM24741.jpg"
     ],
     "price": 12000,
     "thickness": "1.8T",
@@ -81000,10 +82594,10 @@ export const materials = [
     "subLine": "LX하우시스_엑스컴포트_5.0T",
     "name": "XCF3441",
     "code": "XCF3441",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3441.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3441.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3441.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3441.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3441.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3441.jpg"
     ],
     "price": 53000,
     "thickness": "5.0T",
@@ -81023,10 +82617,10 @@ export const materials = [
     "subLine": "LX하우시스_엑스컴포트_5.0T",
     "name": "XCF3442",
     "code": "XCF3442",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3442.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3442.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3442.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3442.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3442.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3442.jpg"
     ],
     "price": 53000,
     "thickness": "5.0T",
@@ -81046,10 +82640,10 @@ export const materials = [
     "subLine": "LX하우시스_엑스컴포트_5.0T",
     "name": "XCF3451",
     "code": "XCF3451",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3451.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3451.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3451.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3451.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3451.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3451.jpg"
     ],
     "price": 53000,
     "thickness": "5.0T",
@@ -81069,10 +82663,10 @@ export const materials = [
     "subLine": "LX하우시스_엑스컴포트_5.0T",
     "name": "XCF3612",
     "code": "XCF3612",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3612.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3612.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3612.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3612.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3612.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3612.jpg"
     ],
     "price": 53000,
     "thickness": "5.0T",
@@ -81092,10 +82686,10 @@ export const materials = [
     "subLine": "LX하우시스_엑스컴포트_5.0T",
     "name": "XCF3621",
     "code": "XCF3621",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3621.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3621.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3621.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3621.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3621.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3621.jpg"
     ],
     "price": 53000,
     "thickness": "5.0T",
@@ -81115,10 +82709,10 @@ export const materials = [
     "subLine": "LX하우시스_엑스컴포트_5.0T",
     "name": "XCF3622",
     "code": "XCF3622",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3622.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3622.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3622.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3622.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3622.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF3622.jpg"
     ],
     "price": 53000,
     "thickness": "5.0T",
@@ -81138,10 +82732,10 @@ export const materials = [
     "subLine": "LX하우시스_엑스컴포트_5.0T",
     "name": "XCF4023",
     "code": "XCF4023",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4023.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4023.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4023.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4023.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4023.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4023.jpg"
     ],
     "price": 53000,
     "thickness": "5.0T",
@@ -81161,10 +82755,10 @@ export const materials = [
     "subLine": "LX하우시스_엑스컴포트_5.0T",
     "name": "XCF4043",
     "code": "XCF4043",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4043.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4043.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4043.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4043.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4043.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4043.jpg"
     ],
     "price": 53000,
     "thickness": "5.0T",
@@ -81184,10 +82778,10 @@ export const materials = [
     "subLine": "LX하우시스_엑스컴포트_5.0T",
     "name": "XCF4481",
     "code": "XCF4481",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4481.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4481.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4481.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4481.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4481.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4481.jpg"
     ],
     "price": 53000,
     "thickness": "5.0T",
@@ -81207,10 +82801,10 @@ export const materials = [
     "subLine": "LX하우시스_엑스컴포트_5.0T",
     "name": "XCF4482",
     "code": "XCF4482",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4482.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4482.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4482.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4482.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4482.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4482.jpg"
     ],
     "price": 53000,
     "thickness": "5.0T",
@@ -81230,10 +82824,10 @@ export const materials = [
     "subLine": "LX하우시스_엑스컴포트_5.0T",
     "name": "XCF4531",
     "code": "XCF4531",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4531.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4531.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4531.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4531.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4531.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4531.jpg"
     ],
     "price": 53000,
     "thickness": "5.0T",
@@ -81253,10 +82847,10 @@ export const materials = [
     "subLine": "LX하우시스_엑스컴포트_5.0T",
     "name": "XCF4541",
     "code": "XCF4541",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4541.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4541.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4541.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4541.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4541.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCF4541.jpg"
     ],
     "price": 53000,
     "thickness": "5.0T",
@@ -81276,10 +82870,10 @@ export const materials = [
     "subLine": "LX하우시스_엑스컴포트_5.0T",
     "name": "엑스컴포트 솔티화이트",
     "code": "XCFS011",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCFS011.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCFS011.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCFS011.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCFS011.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCFS011.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCFS011.jpg"
     ],
     "price": 53000,
     "thickness": "5.0T",
@@ -81299,10 +82893,10 @@ export const materials = [
     "subLine": "LX하우시스_엑스컴포트_5.0T",
     "name": "엑스컴포트 솔티그레이지",
     "code": "XCFS012",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCFS012.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCFS012.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCFS012.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCFS012.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCFS012.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCFS012.jpg"
     ],
     "price": 53000,
     "thickness": "5.0T",
@@ -81322,10 +82916,10 @@ export const materials = [
     "subLine": "LX하우시스_엑스컴포트_5.0T",
     "name": "엑스컴포트 스노우우드",
     "code": "XCFW011",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCFW011.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCFW011.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCFW011.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCFW011.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCFW011.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%97%91%EC%8A%A4%EC%BB%B4%ED%8F%AC%ED%8A%B8_5.0T/XCFW011.jpg"
     ],
     "price": 53000,
     "thickness": "5.0T",
@@ -81345,10 +82939,10 @@ export const materials = [
     "subLine": "LX하우시스_은행목_2.0T",
     "name": "은행목 오크",
     "code": "EH12071",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH12071.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH12071.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH12071.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH12071.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH12071.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH12071.jpg"
     ],
     "price": 18000,
     "thickness": "2.0T",
@@ -81368,10 +82962,10 @@ export const materials = [
     "subLine": "LX하우시스_은행목_2.0T",
     "name": "은행목 오크",
     "code": "EH12121",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH12121.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH12121.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH12121.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH12121.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH12121.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH12121.jpg"
     ],
     "price": 18000,
     "thickness": "2.0T",
@@ -81391,10 +82985,10 @@ export const materials = [
     "subLine": "LX하우시스_은행목_2.0T",
     "name": "은행목 마곡 오크",
     "code": "EH13712",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH13712%20.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH13712%20.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH13712%20.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH13712%20.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH13712%20.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH13712%20.jpg"
     ],
     "price": 18000,
     "thickness": "2.0T",
@@ -81414,10 +83008,10 @@ export const materials = [
     "subLine": "LX하우시스_은행목_2.0T",
     "name": "은행목 미니멀 우드",
     "code": "EH13713",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH13713.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH13713.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH13713.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH13713.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH13713.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH13713.jpg"
     ],
     "price": 18000,
     "thickness": "2.0T",
@@ -81437,10 +83031,10 @@ export const materials = [
     "subLine": "LX하우시스_은행목_2.0T",
     "name": "은행목 실키 스톤",
     "code": "EH14092",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14092.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14092.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14092.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14092.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14092.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14092.jpg"
     ],
     "price": 18000,
     "thickness": "2.0T",
@@ -81460,10 +83054,10 @@ export const materials = [
     "subLine": "LX하우시스_은행목_2.0T",
     "name": "은행목 모노륨",
     "code": "EH14101",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14101.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14101.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14101.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14101.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14101.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14101.jpg"
     ],
     "price": 18000,
     "thickness": "2.0T",
@@ -81483,10 +83077,10 @@ export const materials = [
     "subLine": "LX하우시스_은행목_2.0T",
     "name": "은행목 캄 오크",
     "code": "EH14121",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14121.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14121.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14121.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14121.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14121.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14121.jpg"
     ],
     "price": 18000,
     "thickness": "2.0T",
@@ -81506,10 +83100,10 @@ export const materials = [
     "subLine": "LX하우시스_은행목_2.0T",
     "name": "은행목 피치 오크",
     "code": "EH14712",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14712.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14712.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14712.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14712.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14712.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14712.jpg"
     ],
     "price": 18000,
     "thickness": "2.0T",
@@ -81529,10 +83123,10 @@ export const materials = [
     "subLine": "LX하우시스_은행목_2.0T",
     "name": "은행목 클라우드 크림",
     "code": "EH14721",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14721.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14721.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14721.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14721.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14721.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14721.jpg"
     ],
     "price": 18000,
     "thickness": "2.0T",
@@ -81552,10 +83146,10 @@ export const materials = [
     "subLine": "LX하우시스_은행목_2.0T",
     "name": "은행목 내추럴 그레이",
     "code": "EH14732",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14732.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14732.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14732.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14732.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14732.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH14732.jpg"
     ],
     "price": 18000,
     "thickness": "2.0T",
@@ -81575,10 +83169,10 @@ export const materials = [
     "subLine": "LX하우시스_지아사랑애_2.7T",
     "name": "지아사랑애 오크",
     "code": "50011",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/50011.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/50011.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/50011.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/50011.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/50011.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/50011.jpg"
     ],
     "price": 34000,
     "thickness": "2.7T",
@@ -81598,10 +83192,10 @@ export const materials = [
     "subLine": "LX하우시스_지아사랑애_2.7T",
     "name": "지아사랑애 오크",
     "code": "50061",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/50061.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/50061.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/50061.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/50061.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/50061.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/50061.jpg"
     ],
     "price": 34000,
     "thickness": "2.7T",
@@ -81621,10 +83215,10 @@ export const materials = [
     "subLine": "LX하우시스_지아사랑애_2.7T",
     "name": "지아사랑애 보스톤오크",
     "code": "53351",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/53351.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/53351.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/53351.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/53351.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/53351.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/53351.jpg"
     ],
     "price": 34000,
     "thickness": "2.7T",
@@ -81644,10 +83238,10 @@ export const materials = [
     "subLine": "LX하우시스_지아사랑애_2.7T",
     "name": "지아사랑애 모카오크",
     "code": "54211",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/54211.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/54211.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/54211.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/54211.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/54211.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/54211.jpg"
     ],
     "price": 34000,
     "thickness": "2.7T",
@@ -81667,10 +83261,10 @@ export const materials = [
     "subLine": "LX하우시스_지아사랑애_2.7T",
     "name": "지아사랑애 페일오크",
     "code": "54231",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/54231.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/54231.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/54231.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/54231.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/54231.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_2.7T/54231.jpg"
     ],
     "price": 34000,
     "thickness": "2.7T",
@@ -81690,10 +83284,10 @@ export const materials = [
     "subLine": "LX하우시스_지아사랑애_3.2T",
     "name": "지아사랑애 아리아",
     "code": "60071",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60071.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60071.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60071.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60071.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60071.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60071.jpg"
     ],
     "price": 38000,
     "thickness": "3.2T",
@@ -81713,10 +83307,10 @@ export const materials = [
     "subLine": "LX하우시스_지아사랑애_3.2T",
     "name": "지아사랑애 노벰버레인",
     "code": "60081",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60081.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60081.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60081.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60081.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60081.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60081.jpg"
     ],
     "price": 38000,
     "thickness": "3.2T",
@@ -81736,10 +83330,10 @@ export const materials = [
     "subLine": "LX하우시스_지아사랑애_3.2T",
     "name": "지아사랑애 그레이타일",
     "code": "60151",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60151.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60151.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60151.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60151.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60151.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60151.jpg"
     ],
     "price": 38000,
     "thickness": "3.2T",
@@ -81759,10 +83353,10 @@ export const materials = [
     "subLine": "LX하우시스_지아사랑애_3.2T",
     "name": "지아사랑애 바닐라",
     "code": "60161",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60161.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60161.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60161.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60161.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60161.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/60161.jpg"
     ],
     "price": 38000,
     "thickness": "3.2T",
@@ -81782,10 +83376,10 @@ export const materials = [
     "subLine": "LX하우시스_지아사랑애_3.2T",
     "name": "지아사랑애 소프트오크",
     "code": "63312",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/63312.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/63312.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/63312.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/63312.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/63312.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/63312.jpg"
     ],
     "price": 38000,
     "thickness": "3.2T",
@@ -81805,10 +83399,10 @@ export const materials = [
     "subLine": "LX하우시스_지아사랑애_3.2T",
     "name": "지아사랑애 오닉스",
     "code": "63391",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/63391.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/63391.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/63391.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/63391.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/63391.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/63391.jpg"
     ],
     "price": 38000,
     "thickness": "3.2T",
@@ -81828,10 +83422,10 @@ export const materials = [
     "subLine": "LX하우시스_지아사랑애_3.2T",
     "name": "지아사랑애 비스크엘름",
     "code": "63693",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/63693.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/63693.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/63693.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/63693.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/63693.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/63693.jpg"
     ],
     "price": 38000,
     "thickness": "3.2T",
@@ -81851,10 +83445,10 @@ export const materials = [
     "subLine": "LX하우시스_지아사랑애_3.2T",
     "name": "지아사랑애 에버닌오크",
     "code": "64221",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64221%20.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64221%20.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64221%20.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64221%20.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64221%20.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64221%20.jpg"
     ],
     "price": 38000,
     "thickness": "3.2T",
@@ -81874,10 +83468,10 @@ export const materials = [
     "subLine": "LX하우시스_지아사랑애_3.2T",
     "name": "지아사랑애 위트오크",
     "code": "64223",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64223.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64223.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64223.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64223.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64223.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64223.jpg"
     ],
     "price": 38000,
     "thickness": "3.2T",
@@ -81897,10 +83491,10 @@ export const materials = [
     "subLine": "LX하우시스_지아사랑애_3.2T",
     "name": "지아사랑애 내추럴테라조",
     "code": "64281",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64281.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64281.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64281.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64281.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64281.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64281.jpg"
     ],
     "price": 38000,
     "thickness": "3.2T",
@@ -81920,10 +83514,10 @@ export const materials = [
     "subLine": "LX하우시스_지아소리잠_4.5T",
     "name": "지아소리잠 모던 오크",
     "code": "ZS80021-11",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS80021-11.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS80021-11.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS80021-11.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS80021-11.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS80021-11.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS80021-11.jpg"
     ],
     "price": 47000,
     "thickness": "4.5T",
@@ -81943,10 +83537,10 @@ export const materials = [
     "subLine": "LX하우시스_지아소리잠_4.5T",
     "name": "지아소리잠 화이트 오크",
     "code": "ZS80071-11",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS80071-11.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS80071-11.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS80071-11.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS80071-11.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS80071-11.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS80071-11.jpg"
     ],
     "price": 47000,
     "thickness": "4.5T",
@@ -81966,10 +83560,10 @@ export const materials = [
     "subLine": "LX하우시스_지아소리잠_4.5T",
     "name": "지아소리잠 비얀코 마블",
     "code": "ZS83081-11",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS83081-11.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS83081-11.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS83081-11.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS83081-11.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS83081-11.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS83081-11.jpg"
     ],
     "price": 47000,
     "thickness": "4.5T",
@@ -81989,10 +83583,10 @@ export const materials = [
     "subLine": "LX하우시스_지아소리잠_4.5T",
     "name": "지아소리잠 내츄럴 오크",
     "code": "ZS84011-11",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84011-11.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84011-11.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84011-11.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84011-11.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84011-11.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84011-11.jpg"
     ],
     "price": 47000,
     "thickness": "4.5T",
@@ -82012,10 +83606,10 @@ export const materials = [
     "subLine": "LX하우시스_지아소리잠_4.5T",
     "name": "지아소리잠 밸리 오크",
     "code": "ZS84012-11",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84012-11.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84012-11.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84012-11.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84012-11.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84012-11.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84012-11.jpg"
     ],
     "price": 47000,
     "thickness": "4.5T",
@@ -82035,10 +83629,10 @@ export const materials = [
     "subLine": "LX하우시스_지아소리잠_4.5T",
     "name": "지아소리잠 미스티 오크",
     "code": "ZS84021-11",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84021-11.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84021-11.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84021-11.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84021-11.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84021-11.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84021-11.jpg"
     ],
     "price": 47000,
     "thickness": "4.5T",
@@ -82058,10 +83652,10 @@ export const materials = [
     "subLine": "LX하우시스_지아소리잠_4.5T",
     "name": "지아소리잠 드로잉 오크",
     "code": "ZS84022-11",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84022-11.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84022-11.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84022-11.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84022-11.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84022-11.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84022-11.jpg"
     ],
     "price": 47000,
     "thickness": "4.5T",
@@ -82081,10 +83675,10 @@ export const materials = [
     "subLine": "LX하우시스_지아소리잠_4.5T",
     "name": "지아소리잠 소프트 포세린",
     "code": "ZS84031-11",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84031-11.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84031-11.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84031-11.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84031-11.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84031-11.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84031-11.jpg"
     ],
     "price": 47000,
     "thickness": "4.5T",
@@ -82104,10 +83698,10 @@ export const materials = [
     "subLine": "LX하우시스_지아소리잠_4.5T",
     "name": "지아소리잠 그레이 포세린",
     "code": "ZS84032-11",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84032-11.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84032-11.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84032-11.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84032-11.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84032-11.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84032-11.jpg"
     ],
     "price": 47000,
     "thickness": "4.5T",
@@ -82127,10 +83721,10 @@ export const materials = [
     "subLine": "LX하우시스_지아소리잠_4.5T",
     "name": "지아소리잠 클래식 오크",
     "code": "ZS84041-11",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84041-11.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84041-11.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84041-11.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84041-11.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84041-11.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS84041-11.jpg"
     ],
     "price": 47000,
     "thickness": "4.5T",
@@ -82150,10 +83744,10 @@ export const materials = [
     "subLine": "LX하우시스_지아자연애_2.2T",
     "name": "지아자연애 화이트 오크",
     "code": "ZJ32981-11",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ32981-11.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ32981-11.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ32981-11.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ32981-11.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ32981-11.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ32981-11.jpg"
     ],
     "price": 23000,
     "thickness": "2.2T",
@@ -82173,10 +83767,10 @@ export const materials = [
     "subLine": "LX하우시스_지아자연애_2.2T",
     "name": "지아자연애 오크",
     "code": "ZJ33561-11",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33561-11.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33561-11.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33561-11.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33561-11.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33561-11.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33561-11.jpg"
     ],
     "price": 23000,
     "thickness": "2.2T",
@@ -82196,10 +83790,10 @@ export const materials = [
     "subLine": "LX하우시스_지아자연애_2.2T",
     "name": "지아자연애 오크",
     "code": "ZJ33562-11",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33562-11.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33562-11.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33562-11.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33562-11.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33562-11.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33562-11.jpg"
     ],
     "price": 23000,
     "thickness": "2.2T",
@@ -82219,10 +83813,10 @@ export const materials = [
     "subLine": "LX하우시스_지아자연애_2.2T",
     "name": "지아자연애 브라운 오크",
     "code": "ZJ33763-11",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33763-11.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33763-11.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33763-11.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33763-11.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33763-11.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33763-11.jpg"
     ],
     "price": 23000,
     "thickness": "2.2T",
@@ -82242,10 +83836,10 @@ export const materials = [
     "subLine": "LX하우시스_지아자연애_2.2T",
     "name": "지아자연애 모던 오크",
     "code": "ZJ33871-1",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33871-1.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33871-1.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33871-1.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33871-1.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33871-1.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33871-1.jpg"
     ],
     "price": 23000,
     "thickness": "2.2T",
@@ -82265,10 +83859,10 @@ export const materials = [
     "subLine": "LX하우시스_지아자연애_2.2T",
     "name": "지아자연애 베이지 오크",
     "code": "ZJ33872-11",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33872-11.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33872-11.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33872-11.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33872-11.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33872-11.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ33872-11.jpg"
     ],
     "price": 23000,
     "thickness": "2.2T",
@@ -82288,10 +83882,10 @@ export const materials = [
     "subLine": "LX하우시스_지아자연애_2.2T",
     "name": "지아자연애 윈터 오크",
     "code": "ZJ34331-11",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34331-11.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34331-11.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34331-11.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34331-11.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34331-11.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34331-11.jpg"
     ],
     "price": 23000,
     "thickness": "2.2T",
@@ -82311,10 +83905,10 @@ export const materials = [
     "subLine": "LX하우시스_지아자연애_2.2T",
     "name": "지아자연애 시나몬 오크",
     "code": "ZJ34371-11",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34371-11.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34371-11.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34371-11.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34371-11.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34371-11.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34371-11.jpg"
     ],
     "price": 23000,
     "thickness": "2.2T",
@@ -82334,10 +83928,10 @@ export const materials = [
     "subLine": "LX하우시스_지아자연애_2.2T",
     "name": "지아자연애 아이보리 오크",
     "code": "ZJ34841-11",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34841-11.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34841-11.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34841-11.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34841-11.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34841-11.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34841-11.jpg"
     ],
     "price": 23000,
     "thickness": "2.2T",
@@ -82357,10 +83951,10 @@ export const materials = [
     "subLine": "LX하우시스_지아자연애_2.2T",
     "name": "지아자연애 토프 오크",
     "code": "ZJ34842-11",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34842-11.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34842-11.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34842-11.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34842-11.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34842-11.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34842-11.jpg"
     ],
     "price": 23000,
     "thickness": "2.2T",
@@ -82380,10 +83974,10 @@ export const materials = [
     "subLine": "LX하우시스_지아자연애_2.2T",
     "name": "지아자연애 피치 애쉬",
     "code": "ZJ34851-11",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34851-11.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34851-11.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34851-11.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34851-11.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34851-11.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ34851-11.jpg"
     ],
     "price": 23000,
     "thickness": "2.2T",
@@ -82403,10 +83997,10 @@ export const materials = [
     "subLine": "LX하우시스_지아자연애_2.2T",
     "name": "지아자연애 소프트 콘크리트",
     "code": "ZJ43601-22",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ43601-22.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ43601-22.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ43601-22.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ43601-22.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ43601-22.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ43601-22.jpg"
     ],
     "price": 23000,
     "thickness": "2.2T",
@@ -82426,10 +84020,10 @@ export const materials = [
     "subLine": "LX하우시스_지아자연애_2.2T",
     "name": "지아자연애 베이지 포세린",
     "code": "ZJ43841-22",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ43841-22.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ43841-22.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ43841-22.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ43841-22.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ43841-22.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ43841-22.jpg"
     ],
     "price": 23000,
     "thickness": "2.2T",
@@ -82449,10 +84043,10 @@ export const materials = [
     "subLine": "LX하우시스_지아자연애_2.2T",
     "name": "지아자연애 뉴 실버 마블",
     "code": "ZJ43893-22",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ43893-22.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ43893-22.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ43893-22.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ43893-22.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ43893-22.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ43893-22.jpg"
     ],
     "price": 23000,
     "thickness": "2.2T",
@@ -82472,10 +84066,10 @@ export const materials = [
     "subLine": "LX하우시스_지아자연애_2.2T",
     "name": "지아자연애 애쉬 베인 샌드",
     "code": "ZJ44093-22",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44093-22.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44093-22.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44093-22.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44093-22.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44093-22.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44093-22.jpg"
     ],
     "price": 23000,
     "thickness": "2.2T",
@@ -82495,10 +84089,10 @@ export const materials = [
     "subLine": "LX하우시스_지아자연애_2.2T",
     "name": "지아자연애 로즈 마블",
     "code": "ZJ44241-22",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44241-22.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44241-22.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44241-22.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44241-22.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44241-22.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44241-22.jpg"
     ],
     "price": 23000,
     "thickness": "2.2T",
@@ -82518,10 +84112,10 @@ export const materials = [
     "subLine": "LX하우시스_지아자연애_2.2T",
     "name": "지아자연애 그레이 콘크리트",
     "code": "ZJ44351-22",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44351-22.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44351-22.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44351-22.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44351-22.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44351-22.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44351-22.jpg"
     ],
     "price": 23000,
     "thickness": "2.2T",
@@ -82541,10 +84135,10 @@ export const materials = [
     "subLine": "LX하우시스_지아자연애_2.2T",
     "name": "지아자연애 베이지 샌드",
     "code": "ZJ44821-22",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44821-22.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44821-22.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44821-22.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44821-22.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44821-22.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44821-22.jpg"
     ],
     "price": 23000,
     "thickness": "2.2T",
@@ -82564,10 +84158,10 @@ export const materials = [
     "subLine": "LX하우시스_지아자연애_2.2T",
     "name": "지아자연애 오트 샌드",
     "code": "ZJ44822-22",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44822-22.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44822-22.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44822-22.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44822-22.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44822-22.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44822-22.jpg"
     ],
     "price": 23000,
     "thickness": "2.2T",
@@ -82587,10 +84181,10 @@ export const materials = [
     "subLine": "LX하우시스_지아자연애_2.2T",
     "name": "지아자연애 모하비 스톤",
     "code": "ZJ44831-22",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44831-22.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44831-22.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44831-22.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44831-22.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44831-22.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44831-22.jpg"
     ],
     "price": 23000,
     "thickness": "2.2T",
@@ -82610,10 +84204,10 @@ export const materials = [
     "subLine": "LX하우시스_지아자연애_2.2T",
     "name": "지아자연애 웜 브릭",
     "code": "ZJ44861-22",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44861-22.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44861-22.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44861-22.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44861-22.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44861-22.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44861-22.jpg"
     ],
     "price": 23000,
     "thickness": "2.2T",
@@ -82633,10 +84227,10 @@ export const materials = [
     "subLine": "LX하우시스_지아자연애_2.2T",
     "name": "지아자연애 스투코 그레이",
     "code": "ZJ44871-22",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44871-22.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44871-22.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44871-22.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44871-22.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44871-22.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%9E%90%EC%97%B0%EC%95%A0_2.2T/ZJ44871-22.jpg"
     ],
     "price": 23000,
     "thickness": "2.2T",
@@ -82647,6 +84241,1616 @@ export const materials = [
       "packing": "30m / Roll"
     },
     "description": "지아자연애"
+  },
+  {
+    "id": "장판-현대-더채움-m3204",
+    "category": "장판",
+    "brand": "현대",
+    "line": "더채움",
+    "subLine": "더채움2.2",
+    "name": "M3204",
+    "code": "M3204",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3204_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3204_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3204_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "더채움2.2",
+      "thickness": "2.2T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "더채움"
+  },
+  {
+    "id": "장판-현대-더채움-m3205",
+    "category": "장판",
+    "brand": "현대",
+    "line": "더채움",
+    "subLine": "더채움2.2",
+    "name": "M3205",
+    "code": "M3205",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3205_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3205_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3205_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "더채움2.2",
+      "thickness": "2.2T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "더채움"
+  },
+  {
+    "id": "장판-현대-더채움-m3208",
+    "category": "장판",
+    "brand": "현대",
+    "line": "더채움",
+    "subLine": "더채움2.2",
+    "name": "M3208",
+    "code": "M3208",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3208_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3208_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3208_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "더채움2.2",
+      "thickness": "2.2T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "더채움"
+  },
+  {
+    "id": "장판-현대-더채움-m3221",
+    "category": "장판",
+    "brand": "현대",
+    "line": "더채움",
+    "subLine": "더채움2.2",
+    "name": "M3221",
+    "code": "M3221",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3221_thumbnail.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3221_thumbnail.png",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3221_thumbnail.png"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "더채움2.2",
+      "thickness": "2.2T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "더채움"
+  },
+  {
+    "id": "장판-현대-더채움-m3223",
+    "category": "장판",
+    "brand": "현대",
+    "line": "더채움",
+    "subLine": "더채움2.2",
+    "name": "M3223",
+    "code": "M3223",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3223_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3223_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3223_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "더채움2.2",
+      "thickness": "2.2T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "더채움"
+  },
+  {
+    "id": "장판-현대-더채움-m3232",
+    "category": "장판",
+    "brand": "현대",
+    "line": "더채움",
+    "subLine": "더채움2.2",
+    "name": "M3232",
+    "code": "M3232",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3232_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3232_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3232_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "더채움2.2",
+      "thickness": "2.2T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "더채움"
+  },
+  {
+    "id": "장판-현대-더채움-m3235",
+    "category": "장판",
+    "brand": "현대",
+    "line": "더채움",
+    "subLine": "더채움2.2",
+    "name": "M3235",
+    "code": "M3235",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3235_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3235_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3235_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "더채움2.2",
+      "thickness": "2.2T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "더채움"
+  },
+  {
+    "id": "장판-현대-더채움-m3236",
+    "category": "장판",
+    "brand": "현대",
+    "line": "더채움",
+    "subLine": "더채움2.2",
+    "name": "M3236",
+    "code": "M3236",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3236_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3236_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3236_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "더채움2.2",
+      "thickness": "2.2T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "더채움"
+  },
+  {
+    "id": "장판-현대-더채움-m3301",
+    "category": "장판",
+    "brand": "현대",
+    "line": "더채움",
+    "subLine": "더채움2.2",
+    "name": "M3301",
+    "code": "M3301",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3301_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3301_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3301_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "더채움2.2",
+      "thickness": "2.2T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "더채움"
+  },
+  {
+    "id": "장판-현대-더채움-m3302",
+    "category": "장판",
+    "brand": "현대",
+    "line": "더채움",
+    "subLine": "더채움2.2",
+    "name": "M3302",
+    "code": "M3302",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3302_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3302_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3302_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "더채움2.2",
+      "thickness": "2.2T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "더채움"
+  },
+  {
+    "id": "장판-현대-더채움-m3303",
+    "category": "장판",
+    "brand": "현대",
+    "line": "더채움",
+    "subLine": "더채움2.2",
+    "name": "M3303",
+    "code": "M3303",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3303_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3303_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3303_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "더채움2.2",
+      "thickness": "2.2T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "더채움"
+  },
+  {
+    "id": "장판-현대-더채움-m3306",
+    "category": "장판",
+    "brand": "현대",
+    "line": "더채움",
+    "subLine": "더채움2.2",
+    "name": "M3306",
+    "code": "M3306",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3306_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3306_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3306_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "더채움2.2",
+      "thickness": "2.2T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "더채움"
+  },
+  {
+    "id": "장판-현대-더채움-m3307",
+    "category": "장판",
+    "brand": "현대",
+    "line": "더채움",
+    "subLine": "더채움2.2",
+    "name": "M3307",
+    "code": "M3307",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3307_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3307_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3307_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "더채움2.2",
+      "thickness": "2.2T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "더채움"
+  },
+  {
+    "id": "장판-현대-더채움-m3311",
+    "category": "장판",
+    "brand": "현대",
+    "line": "더채움",
+    "subLine": "더채움2.2",
+    "name": "M3311",
+    "code": "M3311",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3311_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3311_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3311_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "더채움2.2",
+      "thickness": "2.2T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "더채움"
+  },
+  {
+    "id": "장판-현대-더채움-m3312",
+    "category": "장판",
+    "brand": "현대",
+    "line": "더채움",
+    "subLine": "더채움2.2",
+    "name": "M3312",
+    "code": "M3312",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3312_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3312_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3312_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "더채움2.2",
+      "thickness": "2.2T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "더채움"
+  },
+  {
+    "id": "장판-현대-더채움-m3313",
+    "category": "장판",
+    "brand": "현대",
+    "line": "더채움",
+    "subLine": "더채움2.2",
+    "name": "M3313",
+    "code": "M3313",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3313_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3313_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3313_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "더채움2.2",
+      "thickness": "2.2T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "더채움"
+  },
+  {
+    "id": "장판-현대-더채움-m3314",
+    "category": "장판",
+    "brand": "현대",
+    "line": "더채움",
+    "subLine": "더채움2.2",
+    "name": "M3314",
+    "code": "M3314",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3314_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3314_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3314_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "더채움2.2",
+      "thickness": "2.2T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "더채움"
+  },
+  {
+    "id": "장판-현대-더채움-m3315",
+    "category": "장판",
+    "brand": "현대",
+    "line": "더채움",
+    "subLine": "더채움2.2",
+    "name": "M3315",
+    "code": "M3315",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3315_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3315_thumbnail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3315_thumbnail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.2T",
+    "specs": {
+      "division": "더채움2.2",
+      "thickness": "2.2T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "더채움"
+  },
+  {
+    "id": "장판-현대-아티움-a4301_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "아티움",
+    "subLine": "아티움2.7",
+    "name": "A4301_detail",
+    "code": "A4301_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4301_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4301_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4301_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.7T",
+    "specs": {
+      "division": "아티움2.7",
+      "thickness": "2.7T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "아티움"
+  },
+  {
+    "id": "장판-현대-아티움-a4302_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "아티움",
+    "subLine": "아티움2.7",
+    "name": "A4302_detail",
+    "code": "A4302_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4302_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4302_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4302_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.7T",
+    "specs": {
+      "division": "아티움2.7",
+      "thickness": "2.7T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "아티움"
+  },
+  {
+    "id": "장판-현대-아티움-a4303_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "아티움",
+    "subLine": "아티움2.7",
+    "name": "A4303_detail",
+    "code": "A4303_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4303_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4303_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4303_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.7T",
+    "specs": {
+      "division": "아티움2.7",
+      "thickness": "2.7T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "아티움"
+  },
+  {
+    "id": "장판-현대-아티움-a4304_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "아티움",
+    "subLine": "아티움2.7",
+    "name": "A4304_detail",
+    "code": "A4304_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4304_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4304_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4304_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.7T",
+    "specs": {
+      "division": "아티움2.7",
+      "thickness": "2.7T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "아티움"
+  },
+  {
+    "id": "장판-현대-아티움-a4305_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "아티움",
+    "subLine": "아티움2.7",
+    "name": "A4305_detail",
+    "code": "A4305_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4305_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4305_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4305_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.7T",
+    "specs": {
+      "division": "아티움2.7",
+      "thickness": "2.7T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "아티움"
+  },
+  {
+    "id": "장판-현대-아티움-a4306_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "아티움",
+    "subLine": "아티움2.7",
+    "name": "A4306_detail",
+    "code": "A4306_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4306_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4306_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4306_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.7T",
+    "specs": {
+      "division": "아티움2.7",
+      "thickness": "2.7T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "아티움"
+  },
+  {
+    "id": "장판-현대-아티움-a4307_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "아티움",
+    "subLine": "아티움2.7",
+    "name": "A4307_detail",
+    "code": "A4307_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4307_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4307_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%802.7/A4307_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.7T",
+    "specs": {
+      "division": "아티움2.7",
+      "thickness": "2.7T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "아티움"
+  },
+  {
+    "id": "장판-현대-아티움-a5301_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "아티움",
+    "subLine": "아티움3.2",
+    "name": "A5301_detail",
+    "code": "A5301_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5301_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5301_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5301_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "3.2T",
+    "specs": {
+      "division": "아티움3.2",
+      "thickness": "3.2T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "아티움"
+  },
+  {
+    "id": "장판-현대-아티움-a5302_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "아티움",
+    "subLine": "아티움3.2",
+    "name": "A5302_detail",
+    "code": "A5302_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5302_detail.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5302_detail.png",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5302_detail.png"
+    ],
+    "price": 0,
+    "thickness": "3.2T",
+    "specs": {
+      "division": "아티움3.2",
+      "thickness": "3.2T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "아티움"
+  },
+  {
+    "id": "장판-현대-아티움-a5303_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "아티움",
+    "subLine": "아티움3.2",
+    "name": "A5303_detail",
+    "code": "A5303_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5303_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5303_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5303_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "3.2T",
+    "specs": {
+      "division": "아티움3.2",
+      "thickness": "3.2T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "아티움"
+  },
+  {
+    "id": "장판-현대-아티움-a5304_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "아티움",
+    "subLine": "아티움3.2",
+    "name": "A5304_detail",
+    "code": "A5304_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5304_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5304_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5304_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "3.2T",
+    "specs": {
+      "division": "아티움3.2",
+      "thickness": "3.2T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "아티움"
+  },
+  {
+    "id": "장판-현대-아티움-a5305_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "아티움",
+    "subLine": "아티움3.2",
+    "name": "A5305_detail",
+    "code": "A5305_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5305_detail.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5305_detail.png",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5305_detail.png"
+    ],
+    "price": 0,
+    "thickness": "3.2T",
+    "specs": {
+      "division": "아티움3.2",
+      "thickness": "3.2T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "아티움"
+  },
+  {
+    "id": "장판-현대-아티움-a5306_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "아티움",
+    "subLine": "아티움3.2",
+    "name": "A5306_detail",
+    "code": "A5306_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5306_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5306_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5306_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "3.2T",
+    "specs": {
+      "division": "아티움3.2",
+      "thickness": "3.2T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "아티움"
+  },
+  {
+    "id": "장판-현대-아티움-a5307_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "아티움",
+    "subLine": "아티움3.2",
+    "name": "A5307_detail",
+    "code": "A5307_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5307_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5307_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5307_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "3.2T",
+    "specs": {
+      "division": "아티움3.2",
+      "thickness": "3.2T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "아티움"
+  },
+  {
+    "id": "장판-현대-아티움-a5308_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "아티움",
+    "subLine": "아티움3.2",
+    "name": "A5308_detail",
+    "code": "A5308_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5308_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5308_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5308_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "3.2T",
+    "specs": {
+      "division": "아티움3.2",
+      "thickness": "3.2T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "아티움"
+  },
+  {
+    "id": "장판-현대-아티움-a5309_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "아티움",
+    "subLine": "아티움3.2",
+    "name": "A5309_detail",
+    "code": "A5309_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5309_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5309_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%95%84%ED%8B%B0%EC%9B%803.2/A5309_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "3.2T",
+    "specs": {
+      "division": "아티움3.2",
+      "thickness": "3.2T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "아티움"
+  },
+  {
+    "id": "장판-현대-참다움-c1152_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "참다움",
+    "subLine": "참다움1.8",
+    "name": "C1152_detail",
+    "code": "C1152_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1152_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1152_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1152_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "1.8T",
+    "specs": {
+      "division": "참다움1.8",
+      "thickness": "1.8T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "참다움"
+  },
+  {
+    "id": "장판-현대-참다움-c1154_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "참다움",
+    "subLine": "참다움1.8",
+    "name": "C1154_detail",
+    "code": "C1154_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1154_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1154_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1154_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "1.8T",
+    "specs": {
+      "division": "참다움1.8",
+      "thickness": "1.8T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "참다움"
+  },
+  {
+    "id": "장판-현대-참다움-c1161_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "참다움",
+    "subLine": "참다움1.8",
+    "name": "C1161_detail",
+    "code": "C1161_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1161_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1161_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1161_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "1.8T",
+    "specs": {
+      "division": "참다움1.8",
+      "thickness": "1.8T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "참다움"
+  },
+  {
+    "id": "장판-현대-참다움-c1162_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "참다움",
+    "subLine": "참다움1.8",
+    "name": "C1162_detail",
+    "code": "C1162_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1162_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1162_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1162_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "1.8T",
+    "specs": {
+      "division": "참다움1.8",
+      "thickness": "1.8T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "참다움"
+  },
+  {
+    "id": "장판-현대-참다움-c1171_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "참다움",
+    "subLine": "참다움1.8",
+    "name": "C1171_detail",
+    "code": "C1171_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1171_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1171_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1171_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "1.8T",
+    "specs": {
+      "division": "참다움1.8",
+      "thickness": "1.8T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "참다움"
+  },
+  {
+    "id": "장판-현대-참다움-c1172_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "참다움",
+    "subLine": "참다움1.8",
+    "name": "C1172_detail",
+    "code": "C1172_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1172_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1172_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1172_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "1.8T",
+    "specs": {
+      "division": "참다움1.8",
+      "thickness": "1.8T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "참다움"
+  },
+  {
+    "id": "장판-현대-참다움-c1173_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "참다움",
+    "subLine": "참다움1.8",
+    "name": "C1173_detail",
+    "code": "C1173_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1173_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1173_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1173_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "1.8T",
+    "specs": {
+      "division": "참다움1.8",
+      "thickness": "1.8T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "참다움"
+  },
+  {
+    "id": "장판-현대-참다움-c1705_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "참다움",
+    "subLine": "참다움1.8",
+    "name": "C1705_detail",
+    "code": "C1705_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1705_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1705_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1705_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "1.8T",
+    "specs": {
+      "division": "참다움1.8",
+      "thickness": "1.8T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "참다움"
+  },
+  {
+    "id": "장판-현대-참다움-c1706_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "참다움",
+    "subLine": "참다움1.8",
+    "name": "C1706_detail",
+    "code": "C1706_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1706_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1706_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1706_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "1.8T",
+    "specs": {
+      "division": "참다움1.8",
+      "thickness": "1.8T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "참다움"
+  },
+  {
+    "id": "장판-현대-참다움-c1708_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "참다움",
+    "subLine": "참다움1.8",
+    "name": "C1708_detail",
+    "code": "C1708_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1708_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1708_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1708_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "1.8T",
+    "specs": {
+      "division": "참다움1.8",
+      "thickness": "1.8T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "참다움"
+  },
+  {
+    "id": "장판-현대-참다움-c1712_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "참다움",
+    "subLine": "참다움1.8",
+    "name": "C1712_detail",
+    "code": "C1712_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1712_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1712_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1712_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "1.8T",
+    "specs": {
+      "division": "참다움1.8",
+      "thickness": "1.8T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "참다움"
+  },
+  {
+    "id": "장판-현대-참다움-c1909_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "참다움",
+    "subLine": "참다움1.8",
+    "name": "C1909_detail",
+    "code": "C1909_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1909_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1909_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/C1909_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "1.8T",
+    "specs": {
+      "division": "참다움1.8",
+      "thickness": "1.8T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "참다움"
+  },
+  {
+    "id": "장판-현대-상세페이지-c1152",
+    "category": "장판",
+    "brand": "현대",
+    "line": "상세페이지",
+    "subLine": "상세페이지_시공사례",
+    "name": "C1152",
+    "code": "C1152",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1152_installation.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1152_installation.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1152_installation.jpg"
+    ],
+    "price": 0,
+    "thickness": "",
+    "specs": {
+      "division": "상세페이지_시공사례",
+      "thickness": "",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "상세페이지"
+  },
+  {
+    "id": "장판-현대-상세페이지-c1154",
+    "category": "장판",
+    "brand": "현대",
+    "line": "상세페이지",
+    "subLine": "상세페이지_시공사례",
+    "name": "C1154",
+    "code": "C1154",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1154_installation.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1154_installation.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1154_installation.jpg"
+    ],
+    "price": 0,
+    "thickness": "",
+    "specs": {
+      "division": "상세페이지_시공사례",
+      "thickness": "",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "상세페이지"
+  },
+  {
+    "id": "장판-현대-상세페이지-c1161",
+    "category": "장판",
+    "brand": "현대",
+    "line": "상세페이지",
+    "subLine": "상세페이지_시공사례",
+    "name": "C1161",
+    "code": "C1161",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1161_installation.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1161_installation.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1161_installation.jpg"
+    ],
+    "price": 0,
+    "thickness": "",
+    "specs": {
+      "division": "상세페이지_시공사례",
+      "thickness": "",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "상세페이지"
+  },
+  {
+    "id": "장판-현대-상세페이지-c1162",
+    "category": "장판",
+    "brand": "현대",
+    "line": "상세페이지",
+    "subLine": "상세페이지_시공사례",
+    "name": "C1162",
+    "code": "C1162",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1162_installation.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1162_installation.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1162_installation.jpg"
+    ],
+    "price": 0,
+    "thickness": "",
+    "specs": {
+      "division": "상세페이지_시공사례",
+      "thickness": "",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "상세페이지"
+  },
+  {
+    "id": "장판-현대-상세페이지-c1171",
+    "category": "장판",
+    "brand": "현대",
+    "line": "상세페이지",
+    "subLine": "상세페이지_시공사례",
+    "name": "C1171",
+    "code": "C1171",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1171_installation.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1171_installation.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1171_installation.jpg"
+    ],
+    "price": 0,
+    "thickness": "",
+    "specs": {
+      "division": "상세페이지_시공사례",
+      "thickness": "",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "상세페이지"
+  },
+  {
+    "id": "장판-현대-상세페이지-c1172",
+    "category": "장판",
+    "brand": "현대",
+    "line": "상세페이지",
+    "subLine": "상세페이지_시공사례",
+    "name": "C1172",
+    "code": "C1172",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1172_installation.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1172_installation.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1172_installation.jpg"
+    ],
+    "price": 0,
+    "thickness": "",
+    "specs": {
+      "division": "상세페이지_시공사례",
+      "thickness": "",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "상세페이지"
+  },
+  {
+    "id": "장판-현대-상세페이지-c1173",
+    "category": "장판",
+    "brand": "현대",
+    "line": "상세페이지",
+    "subLine": "상세페이지_시공사례",
+    "name": "C1173",
+    "code": "C1173",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1173_installation.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1173_installation.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1173_installation.jpg"
+    ],
+    "price": 0,
+    "thickness": "",
+    "specs": {
+      "division": "상세페이지_시공사례",
+      "thickness": "",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "상세페이지"
+  },
+  {
+    "id": "장판-현대-상세페이지-c1705",
+    "category": "장판",
+    "brand": "현대",
+    "line": "상세페이지",
+    "subLine": "상세페이지_시공사례",
+    "name": "C1705",
+    "code": "C1705",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1705_installation.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1705_installation.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1705_installation.jpg"
+    ],
+    "price": 0,
+    "thickness": "",
+    "specs": {
+      "division": "상세페이지_시공사례",
+      "thickness": "",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "상세페이지"
+  },
+  {
+    "id": "장판-현대-상세페이지-c1706",
+    "category": "장판",
+    "brand": "현대",
+    "line": "상세페이지",
+    "subLine": "상세페이지_시공사례",
+    "name": "C1706",
+    "code": "C1706",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1706_installation.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1706_installation.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1706_installation.jpg"
+    ],
+    "price": 0,
+    "thickness": "",
+    "specs": {
+      "division": "상세페이지_시공사례",
+      "thickness": "",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "상세페이지"
+  },
+  {
+    "id": "장판-현대-상세페이지-c1708",
+    "category": "장판",
+    "brand": "현대",
+    "line": "상세페이지",
+    "subLine": "상세페이지_시공사례",
+    "name": "C1708",
+    "code": "C1708",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1708_installation.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1708_installation.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1708_installation.jpg"
+    ],
+    "price": 0,
+    "thickness": "",
+    "specs": {
+      "division": "상세페이지_시공사례",
+      "thickness": "",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "상세페이지"
+  },
+  {
+    "id": "장판-현대-상세페이지-c1712",
+    "category": "장판",
+    "brand": "현대",
+    "line": "상세페이지",
+    "subLine": "상세페이지_시공사례",
+    "name": "C1712",
+    "code": "C1712",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1712_installation.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1712_installation.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1712_installation.jpg"
+    ],
+    "price": 0,
+    "thickness": "",
+    "specs": {
+      "division": "상세페이지_시공사례",
+      "thickness": "",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "상세페이지"
+  },
+  {
+    "id": "장판-현대-상세페이지-c1909",
+    "category": "장판",
+    "brand": "현대",
+    "line": "상세페이지",
+    "subLine": "상세페이지_시공사례",
+    "name": "C1909",
+    "code": "C1909",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1909_installation.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1909_installation.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1909_installation.jpg"
+    ],
+    "price": 0,
+    "thickness": "",
+    "specs": {
+      "division": "상세페이지_시공사례",
+      "thickness": "",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "상세페이지"
+  },
+  {
+    "id": "장판-현대-참다움-m2151_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "참다움",
+    "subLine": "참다움2.0",
+    "name": "M2151_detail",
+    "code": "M2151_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/M2151_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/M2151_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/M2151_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.0T",
+    "specs": {
+      "division": "참다움2.0",
+      "thickness": "2.0T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "참다움"
+  },
+  {
+    "id": "장판-현대-참다움-m2152_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "참다움",
+    "subLine": "참다움2.0",
+    "name": "M2152_detail",
+    "code": "M2152_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/M2152_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/M2152_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/M2152_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.0T",
+    "specs": {
+      "division": "참다움2.0",
+      "thickness": "2.0T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "참다움"
+  },
+  {
+    "id": "장판-현대-참다움-m2157_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "참다움",
+    "subLine": "참다움2.0",
+    "name": "M2157_detail",
+    "code": "M2157_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/M2157_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/M2157_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/M2157_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.0T",
+    "specs": {
+      "division": "참다움2.0",
+      "thickness": "2.0T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "참다움"
+  },
+  {
+    "id": "장판-현대-참다움-m2801_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "참다움",
+    "subLine": "참다움2.0",
+    "name": "M2801_detail",
+    "code": "M2801_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/M2801_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/M2801_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/M2801_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.0T",
+    "specs": {
+      "division": "참다움2.0",
+      "thickness": "2.0T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "참다움"
+  },
+  {
+    "id": "장판-현대-참다움-m2803_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "참다움",
+    "subLine": "참다움2.0",
+    "name": "M2803_detail",
+    "code": "M2803_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/M2803_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/M2803_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/M2803_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.0T",
+    "specs": {
+      "division": "참다움2.0",
+      "thickness": "2.0T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "참다움"
+  },
+  {
+    "id": "장판-현대-참다움-m2902_detail",
+    "category": "장판",
+    "brand": "현대",
+    "line": "참다움",
+    "subLine": "참다움2.0",
+    "name": "M2902_detail",
+    "code": "M2902_detail",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/M2902_detail.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/M2902_detail.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/M2902_detail.jpg"
+    ],
+    "price": 0,
+    "thickness": "2.0T",
+    "specs": {
+      "division": "참다움2.0",
+      "thickness": "2.0T",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "참다움"
+  },
+  {
+    "id": "장판-현대-상세페이지-m2151",
+    "category": "장판",
+    "brand": "현대",
+    "line": "상세페이지",
+    "subLine": "상세페이지_시공사례",
+    "name": "M2151",
+    "code": "M2151",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2151_installation.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2151_installation.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2151_installation.jpg"
+    ],
+    "price": 0,
+    "thickness": "",
+    "specs": {
+      "division": "상세페이지_시공사례",
+      "thickness": "",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "상세페이지"
+  },
+  {
+    "id": "장판-현대-상세페이지-m2152",
+    "category": "장판",
+    "brand": "현대",
+    "line": "상세페이지",
+    "subLine": "상세페이지_시공사례",
+    "name": "M2152",
+    "code": "M2152",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2152_installation.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2152_installation.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2152_installation.jpg"
+    ],
+    "price": 0,
+    "thickness": "",
+    "specs": {
+      "division": "상세페이지_시공사례",
+      "thickness": "",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "상세페이지"
+  },
+  {
+    "id": "장판-현대-상세페이지-m2157",
+    "category": "장판",
+    "brand": "현대",
+    "line": "상세페이지",
+    "subLine": "상세페이지_시공사례",
+    "name": "M2157",
+    "code": "M2157",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2157_installation.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2157_installation.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2157_installation.jpg"
+    ],
+    "price": 0,
+    "thickness": "",
+    "specs": {
+      "division": "상세페이지_시공사례",
+      "thickness": "",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "상세페이지"
+  },
+  {
+    "id": "장판-현대-상세페이지-m2801",
+    "category": "장판",
+    "brand": "현대",
+    "line": "상세페이지",
+    "subLine": "상세페이지_시공사례",
+    "name": "M2801",
+    "code": "M2801",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2801_installation.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2801_installation.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2801_installation.jpg"
+    ],
+    "price": 0,
+    "thickness": "",
+    "specs": {
+      "division": "상세페이지_시공사례",
+      "thickness": "",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "상세페이지"
+  },
+  {
+    "id": "장판-현대-상세페이지-m2803",
+    "category": "장판",
+    "brand": "현대",
+    "line": "상세페이지",
+    "subLine": "상세페이지_시공사례",
+    "name": "M2803",
+    "code": "M2803",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2803_installation.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2803_installation.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2803_installation.jpg"
+    ],
+    "price": 0,
+    "thickness": "",
+    "specs": {
+      "division": "상세페이지_시공사례",
+      "thickness": "",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "상세페이지"
+  },
+  {
+    "id": "장판-현대-상세페이지-m2902",
+    "category": "장판",
+    "brand": "현대",
+    "line": "상세페이지",
+    "subLine": "상세페이지_시공사례",
+    "name": "M2902",
+    "code": "M2902",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2902_installation.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2902_installation.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2902_installation.jpg"
+    ],
+    "price": 0,
+    "thickness": "",
+    "specs": {
+      "division": "상세페이지_시공사례",
+      "thickness": "",
+      "size": "제품별 규격 문의",
+      "packing": "Roll 단위"
+    },
+    "description": "상세페이지"
   },
   {
     "id": "카페트타일-스완-롤-카페트-ar502",
@@ -88639,10 +91843,10 @@ export const materials = [
     "code": null,
     "collection": "LARGO",
     "series": "원목마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 큐뮬러스.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 큐뮬러스.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T1/큐물러스.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T1/큐물러스.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 큐뮬러스.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T1/큐물러스.jpg"
     ],
     "price": null,
     "thickness": "14T",
@@ -88667,10 +91871,10 @@ export const materials = [
     "code": null,
     "collection": "LARGO",
     "series": "원목마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 샌드.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 샌드.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 150 T4/샌드.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 150 T4/샌드.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 샌드.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 150 T4/샌드.jpg"
     ],
     "price": null,
     "thickness": "14T",
@@ -88695,10 +91899,10 @@ export const materials = [
     "code": null,
     "collection": "LARGO",
     "series": "원목마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 오크 에스.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 오크 에스.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 150 T4/오크 에스.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 150 T4/오크 에스.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 오크 에스.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 150 T4/오크 에스.jpg"
     ],
     "price": null,
     "thickness": "14T",
@@ -88723,10 +91927,10 @@ export const materials = [
     "code": null,
     "collection": "LARGO",
     "series": "원목마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 썬라이즈.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 썬라이즈.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 150 T4/썬라이즈.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 150 T4/썬라이즈.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 썬라이즈.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 150 T4/썬라이즈.jpg"
     ],
     "price": null,
     "thickness": "14T",
@@ -88751,10 +91955,10 @@ export const materials = [
     "code": null,
     "collection": "LARGO",
     "series": "원목마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 이클립스.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 이클립스.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T1/이클립스.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T1/이클립스.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레240T4/뉴 이클립스.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T1/이클립스.jpg"
     ],
     "price": null,
     "thickness": "14T",
@@ -88779,10 +91983,10 @@ export const materials = [
     "code": null,
     "collection": "LARGO",
     "series": "원목마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/미스트.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/미스트.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T3/미스트.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T3/미스트.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/미스트.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T3/미스트.jpg"
     ],
     "price": null,
     "thickness": "14T",
@@ -88807,10 +92011,10 @@ export const materials = [
     "code": null,
     "collection": "LARGO",
     "series": "원목마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/샌드.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/샌드.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T3/샌드.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T3/샌드.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/샌드.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T3/샌드.jpg"
     ],
     "price": null,
     "thickness": "14T",
@@ -88835,10 +92039,10 @@ export const materials = [
     "code": null,
     "collection": "LARGO",
     "series": "원목마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/썬라이즈.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/썬라이즈.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T3/썬라이즈.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T3/썬라이즈.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/썬라이즈.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T3/썬라이즈.jpg"
     ],
     "price": null,
     "thickness": "14T",
@@ -88863,10 +92067,10 @@ export const materials = [
     "code": null,
     "collection": "LARGO",
     "series": "원목마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/썬셋.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/썬셋.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T3/썬셋.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T3/썬셋.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/썬셋.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T3/썬셋.jpg"
     ],
     "price": null,
     "thickness": "14T",
@@ -88891,10 +92095,10 @@ export const materials = [
     "code": null,
     "collection": "LARGO",
     "series": "원목마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/티크 에스.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/티크 에스.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T3/티크 에스.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T3/티크 에스.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/티크 에스.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T3/티크 에스.jpg"
     ],
     "price": null,
     "thickness": "14T",
@@ -88919,10 +92123,10 @@ export const materials = [
     "code": null,
     "collection": "LARGO",
     "series": "원목마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/오크 에스.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/오크 에스.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T3/오크 에스.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T3/오크 에스.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T3/오크 에스.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T3/오크 에스.jpg"
     ],
     "price": null,
     "thickness": "14T",
@@ -88947,10 +92151,10 @@ export const materials = [
     "code": null,
     "collection": "LARGO",
     "series": "원목마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 큐뮬러스.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 큐뮬러스.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T1/큐물러스.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T1/큐물러스.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 큐뮬러스.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T1/큐물러스.jpg"
     ],
     "price": null,
     "thickness": "12T",
@@ -88975,10 +92179,10 @@ export const materials = [
     "code": null,
     "collection": "LARGO",
     "series": "원목마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 샌드.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 샌드.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T1/샌드.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T1/샌드.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 샌드.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T1/샌드.jpg"
     ],
     "price": null,
     "thickness": "12T",
@@ -89003,10 +92207,10 @@ export const materials = [
     "code": null,
     "collection": "LARGO",
     "series": "원목마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 오크 에스.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 오크 에스.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T1/오크 에스.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T1/오크 에스.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 오크 에스.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T1/오크 에스.jpg"
     ],
     "price": null,
     "thickness": "12T",
@@ -89031,10 +92235,10 @@ export const materials = [
     "code": null,
     "collection": "LARGO",
     "series": "원목마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 썬라이즈.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 썬라이즈.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T1/썬라이즈.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T1/썬라이즈.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 썬라이즈.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T1/썬라이즈.jpg"
     ],
     "price": null,
     "thickness": "12T",
@@ -89059,10 +92263,10 @@ export const materials = [
     "code": null,
     "collection": "LARGO",
     "series": "원목마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 이클립스.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 이클립스.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T1/이클립스.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T1/이클립스.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건라르고솔레190T1/뉴 이클립스.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T1/이클립스.jpg"
     ],
     "price": null,
     "thickness": "12T",
@@ -89087,10 +92291,10 @@ export const materials = [
     "code": null,
     "collection": "FORESTA G",
     "series": "천연마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 캐시미어 화이트.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 캐시미어 화이트.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/천연마루/포레스타 G/캐시미어 화이트.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/천연마루/포레스타 G/캐시미어 화이트.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 캐시미어 화이트.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/천연마루/포레스타 G/캐시미어 화이트.jpg"
     ],
     "price": null,
     "thickness": "11T",
@@ -89115,10 +92319,10 @@ export const materials = [
     "code": null,
     "collection": "FORESTA G",
     "series": "천연마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 허스크 베이지.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 허스크 베이지.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/천연마루/포레스타 G/허스크 베이지.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/천연마루/포레스타 G/허스크 베이지.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 허스크 베이지.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/천연마루/포레스타 G/허스크 베이지.jpg"
     ],
     "price": null,
     "thickness": "11T",
@@ -89143,10 +92347,10 @@ export const materials = [
     "code": null,
     "collection": "FORESTA G",
     "series": "천연마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 매리골드.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 매리골드.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/천연마루/포레스타 G/매리골드.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/천연마루/포레스타 G/매리골드.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 매리골드.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/천연마루/포레스타 G/매리골드.jpg"
     ],
     "price": null,
     "thickness": "11T",
@@ -89171,10 +92375,10 @@ export const materials = [
     "code": null,
     "collection": "FORESTA G",
     "series": "천연마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 오닉스 블랙.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 오닉스 블랙.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/천연마루/포레스타 G/오닉스 블랙.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/천연마루/포레스타 G/오닉스 블랙.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 오닉스 블랙.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/천연마루/포레스타 G/오닉스 블랙.jpg"
     ],
     "price": null,
     "thickness": "11T",
@@ -89199,10 +92403,10 @@ export const materials = [
     "code": null,
     "collection": "FORESTA G",
     "series": "천연마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 아몬드 옐로우.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 아몬드 옐로우.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/천연마루/포레스타 G/아몬드 옐로우.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/천연마루/포레스타 G/아몬드 옐로우.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건포레스타G/뉴 아몬드 옐로우.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/천연마루/포레스타 G/아몬드 옐로우.jpg"
     ],
     "price": null,
     "thickness": "11T",
@@ -89227,10 +92431,10 @@ export const materials = [
     "code": null,
     "collection": "FORESTA",
     "series": "천연마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/오크 라이트.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/오크 라이트.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/오크 라이트.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/오크 라이트.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/오크 라이트.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/오크 라이트.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -89255,10 +92459,10 @@ export const materials = [
     "code": null,
     "collection": "FORESTA",
     "series": "천연마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/오크 내추럴.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/오크 내추럴.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/오크 내추럴.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/오크 내추럴.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/오크 내추럴.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/오크 내추럴.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -89283,10 +92487,10 @@ export const materials = [
     "code": null,
     "collection": "FORESTA",
     "series": "천연마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/오크 베이지.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/오크 베이지.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/오크 베이지.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/오크 베이지.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/오크 베이지.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/오크 베이지.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -89311,10 +92515,10 @@ export const materials = [
     "code": null,
     "collection": "FORESTA",
     "series": "천연마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/아몬드 브라운.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/아몬드 브라운.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/아몬드 브라운.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/아몬드 브라운.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/아몬드 브라운.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/아몬드 브라운.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -89339,10 +92543,10 @@ export const materials = [
     "code": null,
     "collection": "FORESTA",
     "series": "천연마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/허니 옐로우.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/허니 옐로우.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/허니 옐로우.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/허니 옐로우.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/허니 옐로우.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/허니 옐로우.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -89367,10 +92571,10 @@ export const materials = [
     "code": null,
     "collection": "FORESTA",
     "series": "천연마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/순수 베이지.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/순수 베이지.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/순수 베이지.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/순수 베이지.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/순수 베이지.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/순수 베이지.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -89395,10 +92599,10 @@ export const materials = [
     "code": null,
     "collection": "FORESTA",
     "series": "천연마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/모카 그레이.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/모카 그레이.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/모카 그레이.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/모카 그레이.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건포레스타/모카 그레이.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/모카 그레이.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -89423,10 +92627,10 @@ export const materials = [
     "code": null,
     "collection": "GRIN",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 크림.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 크림.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 125/마일드/마일드 크림.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 125/마일드/마일드 크림.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 크림.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 125/마일드/마일드 크림.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -89489,10 +92693,10 @@ export const materials = [
     "code": null,
     "collection": "GRIN",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 베이지.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 베이지.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 165/마일드/마일드 베이지.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 165/마일드/마일드 베이지.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 베이지.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 165/마일드/마일드 베이지.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -89546,10 +92750,10 @@ export const materials = [
     "code": null,
     "collection": "GRIN",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 아이보리_카믈리.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 아이보리_카믈리.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/마일드 아이보리_카믈리.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/마일드 아이보리_카믈리.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 아이보리_카믈리.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/마일드 아이보리_카믈리.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -89585,10 +92789,10 @@ export const materials = [
     "code": null,
     "collection": "GRIN",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 오크.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 오크.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 165/마일드/마일드 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 165/마일드/마일드 오크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 오크.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 165/마일드/마일드 오크.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -89651,10 +92855,10 @@ export const materials = [
     "code": null,
     "collection": "GRIN",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 오크_데일리.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 오크_데일리.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/마일드 오크_데일리.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/마일드 오크_데일리.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 오크_데일리.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/마일드 오크_데일리.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -89690,10 +92894,10 @@ export const materials = [
     "code": null,
     "collection": "GRIN",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 오크_퓨얼리.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 오크_퓨얼리.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/마일드 오크_퓨얼리.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/마일드 오크_퓨얼리.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 오크_퓨얼리.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/마일드 오크_퓨얼리.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -89729,10 +92933,10 @@ export const materials = [
     "code": null,
     "collection": "GRIN",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 골드.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 골드.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 125/마일드/마일드 골드.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 125/마일드/마일드 골드.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 골드.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 125/마일드/마일드 골드.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -89777,10 +92981,10 @@ export const materials = [
     "code": null,
     "collection": "GRIN",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 티크.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 티크.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 165/마일드/마일드 티크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 165/마일드/마일드 티크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 티크.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 165/마일드/마일드 티크.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -89825,10 +93029,10 @@ export const materials = [
     "code": null,
     "collection": "GRIN",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 화이트.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 화이트.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 190/마일드/마일드 화이트.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 190/마일드/마일드 화이트.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 화이트.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 190/마일드/마일드 화이트.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -89873,10 +93077,10 @@ export const materials = [
     "code": null,
     "collection": "GRIN",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 화이트_심플리.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 화이트_심플리.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/마일드 화이트_심플리.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/마일드 화이트_심플리.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건그린/마일드 화이트_심플리.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/마일드 화이트_심플리.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -89912,10 +93116,10 @@ export const materials = [
     "code": null,
     "collection": "GRIN",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/러스틱 미스트.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/러스틱 미스트.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 230/러스틱/러스틱 미스트.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 230/러스틱/러스틱 미스트.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건그린/러스틱 미스트.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 230/러스틱/러스틱 미스트.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -89951,10 +93155,10 @@ export const materials = [
     "code": null,
     "collection": "GRIN",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/러스틱 그레이.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/러스틱 그레이.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 230/러스틱/러스틱 그레이.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 230/러스틱/러스틱 그레이.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건그린/러스틱 그레이.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 230/러스틱/러스틱 그레이.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -89990,10 +93194,10 @@ export const materials = [
     "code": null,
     "collection": "GRIN",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/러스틱 오크.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/러스틱 오크.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 230/러스틱/러스틱 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 230/러스틱/러스틱 오크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건그린/러스틱 오크.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 230/러스틱/러스틱 오크.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -90029,10 +93233,10 @@ export const materials = [
     "code": null,
     "collection": "GRIN",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/러스틱 브라운.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/러스틱 브라운.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 165/러스틱/러스틱 브라운.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 165/러스틱/러스틱 브라운.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건그린/러스틱 브라운.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 165/러스틱/러스틱 브라운.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -90077,10 +93281,10 @@ export const materials = [
     "code": null,
     "collection": "GRIN",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/내추럴 샌드.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/내추럴 샌드.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 125/내추럴/내추럴 샌드.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 125/내추럴/내추럴 샌드.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건그린/내추럴 샌드.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 125/내추럴/내추럴 샌드.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -90143,10 +93347,10 @@ export const materials = [
     "code": null,
     "collection": "GRIN",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/내추럴 오크.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/내추럴 오크.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 125/내추럴/내추럴 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 125/내추럴/내추럴 오크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건그린/내추럴 오크.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 125/내추럴/내추럴 오크.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -90209,10 +93413,10 @@ export const materials = [
     "code": null,
     "collection": "GRIN",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린/내추럴 다크 쏘우.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린/내추럴 다크 쏘우.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 165/내추럴/내추럴 다크 쏘우.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 165/내추럴/내추럴 다크 쏘우.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건그린/내추럴 다크 쏘우.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 165/내추럴/내추럴 다크 쏘우.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -90257,10 +93461,10 @@ export const materials = [
     "code": null,
     "collection": "GRIN SQUARE",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/데저트 크림.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/데저트 크림.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 스퀘어 395/데저트 크림.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 스퀘어 395/데저트 크림.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/데저트 크림.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 스퀘어 395/데저트 크림.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -90305,10 +93509,10 @@ export const materials = [
     "code": null,
     "collection": "GRIN SQUARE",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/브리즈 그레이.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/브리즈 그레이.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 스퀘어 395/브리즈 그레이.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 스퀘어 395/브리즈 그레이.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/브리즈 그레이.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 스퀘어 395/브리즈 그레이.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -90353,10 +93557,10 @@ export const materials = [
     "code": null,
     "collection": "GRIN SQUARE",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/글램 스톤.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/글램 스톤.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 스퀘어 597/스톤/글램 스톤.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 스퀘어 597/스톤/글램 스톤.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/글램 스톤.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 스퀘어 597/스톤/글램 스톤.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -90392,10 +93596,10 @@ export const materials = [
     "code": null,
     "collection": "GRIN SQUARE",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/코랄 클라우드.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/코랄 클라우드.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 스퀘어 597/스톤/코랄 클라우드.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 스퀘어 597/스톤/코랄 클라우드.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/코랄 클라우드.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 스퀘어 597/스톤/코랄 클라우드.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -90431,10 +93635,10 @@ export const materials = [
     "code": null,
     "collection": "GRIN SQUARE",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/세레나 포그.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/세레나 포그.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 스퀘어 395/세레나 포그.png",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 스퀘어 395/세레나 포그.png",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/세레나 포그.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 스퀘어 395/세레나 포그.png"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -90470,10 +93674,10 @@ export const materials = [
     "code": null,
     "collection": "GRIN SQUARE",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/밀키웨이 다크.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/밀키웨이 다크.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 스퀘어 395/밀키웨이 다크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 스퀘어 395/밀키웨이 다크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건그린스퀘어/밀키웨이 다크.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 스퀘어 395/밀키웨이 다크.jpg"
     ],
     "price": null,
     "thickness": "10.5T",
@@ -90509,10 +93713,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Flex S",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/브루니아 크림.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/브루니아 크림.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/브루니아 크림.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/브루니아 크림.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/브루니아 크림.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/브루니아 크림.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -90548,10 +93752,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Flex S",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/셀리나 샌드.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/셀리나 샌드.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/셀리나 샌드.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/셀리나 샌드.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/셀리나 샌드.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/셀리나 샌드.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -90587,10 +93791,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Flex S",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/윌로우 그레이.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/윌로우 그레이.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/윌로우 그레이.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/윌로우 그레이.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/윌로우 그레이.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/윌로우 그레이.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -90626,10 +93830,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Flex S",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/메테오 스톤.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/메테오 스톤.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/메테오 스톤.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/메테오 스톤.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/메테오 스톤.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/메테오 스톤.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -90665,10 +93869,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Flex S",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/무드 화이트.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/무드 화이트.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/무드 화이트.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/무드 화이트.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/무드 화이트.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/무드 화이트.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -90704,10 +93908,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Flex S",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/모먼트 크림.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/모먼트 크림.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/모먼트 크림.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/모먼트 크림.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/모먼트 크림.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/모먼트 크림.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -90743,10 +93947,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Flex S",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/미스티 그레이.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/미스티 그레이.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/미스티 그레이.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/미스티 그레이.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/미스티 그레이.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/미스티 그레이.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -90782,10 +93986,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Flex S",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/블러쉬 샌드.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/블러쉬 샌드.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/블러쉬 샌드.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/블러쉬 샌드.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/블러쉬 샌드.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/블러쉬 샌드.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -90821,10 +94025,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Flex S",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/디어 베이지.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/디어 베이지.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/디어 베이지.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/디어 베이지.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/디어 베이지.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/디어 베이지.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -90860,10 +94064,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Flex S",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/멜로우 골드.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/멜로우 골드.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/멜로우 골드.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/멜로우 골드.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/멜로우 골드.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/멜로우 골드.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -90899,10 +94103,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Flex S",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/노블 티크.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/노블 티크.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/노블 티크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/노블 티크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/노블 티크.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/노블 티크.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -90938,10 +94142,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Flex S",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/데일리 오크.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/데일리 오크.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라 플렉스S/세라 플렉스 143/데일리 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라 플렉스S/세라 플렉스 143/데일리 오크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/데일리 오크.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라 플렉스S/세라 플렉스 143/데일리 오크.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -90977,10 +94181,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Flex S",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/카믈리 아이보리.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/카믈리 아이보리.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라 플렉스S/세라 플렉스 143/카믈리 아이보리.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라 플렉스S/세라 플렉스 143/카믈리 아이보리.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/카믈리 아이보리.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라 플렉스S/세라 플렉스 143/카믈리 아이보리.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91016,10 +94220,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Flex S",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/허밍 오크.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/허밍 오크.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/허밍 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/허밍 오크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/허밍 오크.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/허밍 오크.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91055,10 +94259,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Flex S",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/러블리 베이지.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/러블리 베이지.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라 플렉스S/세라 플렉스 143/러블리 베이지.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라 플렉스S/세라 플렉스 143/러블리 베이지.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/러블리 베이지.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라 플렉스S/세라 플렉스 143/러블리 베이지.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91094,10 +94298,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Flex S",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/퓨얼리 오크.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/퓨얼리 오크.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라 플렉스S/세라 플렉스 143/퓨얼리 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라 플렉스S/세라 플렉스 143/퓨얼리 오크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/퓨얼리 오크.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라 플렉스S/세라 플렉스 143/퓨얼리 오크.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91133,10 +94337,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Flex S",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/심플리 화이트.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/심플리 화이트.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라 플렉스S/세라 플렉스 143/심플리 화이트.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라 플렉스S/세라 플렉스 143/심플리 화이트.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/심플리 화이트.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라 플렉스S/세라 플렉스 143/심플리 화이트.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91172,10 +94376,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Flex S",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/젠틀리 티크.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/젠틀리 티크.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라 플렉스S/세라 플렉스 143/젠틀리 티크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라 플렉스S/세라 플렉스 143/젠틀리 티크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라플렉스S/젠틀리 티크.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라 플렉스S/세라 플렉스 143/젠틀리 티크.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91211,10 +94415,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Blending",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/비앙코.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/비앙코.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라블랜딩/비앙코.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라블랜딩/비앙코.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/비앙코.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라블랜딩/비앙코.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91239,10 +94443,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Blending",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/오프 화이트.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/오프 화이트.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라블랜딩/오프 화이트.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라블랜딩/오프 화이트.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/오프 화이트.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라블랜딩/오프 화이트.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91267,10 +94471,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Blending",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/스톤 그레이.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/스톤 그레이.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라블랜딩/스톤 그레이.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라블랜딩/스톤 그레이.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/스톤 그레이.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라블랜딩/스톤 그레이.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91295,10 +94499,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Blending",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/그라노 오크.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/그라노 오크.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라블랜딩/그라노 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라블랜딩/그라노 오크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/그라노 오크.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라블랜딩/그라노 오크.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91323,10 +94527,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Blending",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/크래프트 오크.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/크래프트 오크.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라블랜딩/크래프트 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라블랜딩/크래프트 오크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/크래프트 오크.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라블랜딩/크래프트 오크.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91351,10 +94555,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Blending",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/내추럴 오크.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/내추럴 오크.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라블랜딩/내추럴 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라블랜딩/내추럴 오크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/내추럴 오크.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라블랜딩/내추럴 오크.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91379,10 +94583,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Blending",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/로맨틱 오크.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/로맨틱 오크.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라블랜딩/로맨틱 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라블랜딩/로맨틱 오크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/로맨틱 오크.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라블랜딩/로맨틱 오크.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91407,10 +94611,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Blending",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/브리티시 티크.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/브리티시 티크.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/브리티시 티크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/브리티시 티크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라블렌딩/브리티시 티크.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/브리티시 티크.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91435,10 +94639,10 @@ export const materials = [
     "code": null,
     "collection": "SERA",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/코지 그레이.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/코지 그레이.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/코지 그레이.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/코지 그레이.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라/코지 그레이.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/코지 그레이.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91463,10 +94667,10 @@ export const materials = [
     "code": null,
     "collection": "SERA",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/애쉬 그레이.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/애쉬 그레이.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/애쉬 그레이.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/애쉬 그레이.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라/애쉬 그레이.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/애쉬 그레이.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91491,10 +94695,10 @@ export const materials = [
     "code": null,
     "collection": "SERA",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/크리미 오크.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/크리미 오크.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/크리미 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/크리미 오크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라/크리미 오크.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/크리미 오크.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91519,10 +94723,10 @@ export const materials = [
     "code": null,
     "collection": "SERA",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/골드 티크.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/골드 티크.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/골드 티크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/골드 티크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라/골드 티크.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/골드 티크.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91547,10 +94751,10 @@ export const materials = [
     "code": null,
     "collection": "SERA",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/브리티시 월넛.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/브리티시 월넛.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/브리티시 월넛.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/브리티시 월넛.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라/브리티시 월넛.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/브리티시 월넛.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91575,10 +94779,10 @@ export const materials = [
     "code": null,
     "collection": "SERA",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/티크.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/티크.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/티크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/티크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라/티크.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/티크.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91603,10 +94807,10 @@ export const materials = [
     "code": null,
     "collection": "SERA",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/화이트 오크.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/화이트 오크.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/화이트 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/화이트 오크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라/화이트 오크.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/화이트 오크.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91631,10 +94835,10 @@ export const materials = [
     "code": null,
     "collection": "SERA",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/N 오크.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/N 오크.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/N 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/N 오크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라/N 오크.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/N 오크.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91659,10 +94863,10 @@ export const materials = [
     "code": null,
     "collection": "SERA",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/마일드 오크.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/마일드 오크.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/마일드 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/마일드 오크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라/마일드 오크.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/마일드 오크.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91687,10 +94891,10 @@ export const materials = [
     "code": null,
     "collection": "SERA",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/오가닉 오크.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/오가닉 오크.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/오가닉 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/오가닉 오크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라/오가닉 오크.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/오가닉 오크.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91715,10 +94919,10 @@ export const materials = [
     "code": null,
     "collection": "SERA",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/오슬로 베이지.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/오슬로 베이지.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/오슬로 베이지.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/오슬로 베이지.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라/오슬로 베이지.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/오슬로 베이지.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91743,10 +94947,10 @@ export const materials = [
     "code": null,
     "collection": "SERA",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/화이트 애쉬.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/화이트 애쉬.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/화이트 애쉬.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/화이트 애쉬.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라/화이트 애쉬.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/화이트 애쉬.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91771,10 +94975,10 @@ export const materials = [
     "code": null,
     "collection": "SERA",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/코튼 화이트.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/코튼 화이트.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/코튼 화이트.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/코튼 화이트.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라/코튼 화이트.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/코튼 화이트.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91799,10 +95003,10 @@ export const materials = [
     "code": null,
     "collection": "SERA",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/노르딕 화이트.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/노르딕 화이트.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/노르딕 화이트.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/노르딕 화이트.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라/노르딕 화이트.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/노르딕 화이트.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91827,10 +95031,10 @@ export const materials = [
     "code": null,
     "collection": "SERA",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/리사 화이트.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/리사 화이트.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/리사 화이트.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/리사 화이트.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라/리사 화이트.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/리사 화이트.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91855,10 +95059,10 @@ export const materials = [
     "code": null,
     "collection": "SERA",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/플로랄 화이트.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/플로랄 화이트.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/플로랄 화이트.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/플로랄 화이트.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라/플로랄 화이트.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/플로랄 화이트.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91883,10 +95087,10 @@ export const materials = [
     "code": null,
     "collection": "SERA",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/스타일리쉬 화이트.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/스타일리쉬 화이트.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/스타일리쉬 화이트.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/스타일리쉬 화이트.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라/스타일리쉬 화이트.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/스타일리쉬 화이트.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91911,10 +95115,10 @@ export const materials = [
     "code": null,
     "collection": "SERA",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라/스노우 워시.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라/스노우 워시.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/스노우 워시.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/스노우 워시.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라/스노우 워시.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/스노우 워시.jpg"
     ],
     "price": null,
     "thickness": "7.5T",
@@ -91939,10 +95143,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Basic",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 슈가.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 슈가.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라베이직/베이직 슈가.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라베이직/베이직 슈가.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 슈가.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라베이직/베이직 슈가.jpg"
     ],
     "price": null,
     "thickness": "6.2T",
@@ -91967,10 +95171,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Basic",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 밀크.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 밀크.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라베이직/베이직 밀크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라베이직/베이직 밀크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 밀크.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라베이직/베이직 밀크.jpg"
     ],
     "price": null,
     "thickness": "6.2T",
@@ -91995,10 +95199,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Basic",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 크림.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 크림.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라베이직/베이직 크림.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라베이직/베이직 크림.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 크림.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라베이직/베이직 크림.jpg"
     ],
     "price": null,
     "thickness": "6.2T",
@@ -92023,10 +95227,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Basic",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 바닐라.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 바닐라.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라베이직/베이직 바닐라.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라베이직/베이직 바닐라.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 바닐라.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라베이직/베이직 바닐라.jpg"
     ],
     "price": null,
     "thickness": "6.2T",
@@ -92051,10 +95255,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Basic",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 버터.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 버터.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라베이직/베이직 버터.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라베이직/베이직 버터.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 버터.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라베이직/베이직 버터.jpg"
     ],
     "price": null,
     "thickness": "6.2T",
@@ -92079,10 +95283,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Basic",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 오크.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 오크.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라베이직/베이직 오크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라베이직/베이직 오크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 오크.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라베이직/베이직 오크.jpg"
     ],
     "price": null,
     "thickness": "6.2T",
@@ -92107,10 +95311,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Basic",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 티크.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 티크.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라베이직/베이직 티크.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라베이직/베이직 티크.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 티크.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라베이직/베이직 티크.jpg"
     ],
     "price": null,
     "thickness": "6.2T",
@@ -92135,10 +95339,10 @@ export const materials = [
     "code": null,
     "collection": "SERA Basic",
     "series": "강마루",
-    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 쿠키.jpg",
-    "image": "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 쿠키.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라베이직/베이직 쿠키.jpg",
+    "image": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라베이직/베이직 쿠키.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/마루/이건/이건세라베이직/베이직 쿠키.jpg"
+      "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라베이직/베이직 쿠키.jpg"
     ],
     "price": null,
     "thickness": "6.2T",

@@ -142,3 +142,11 @@
     display: none;
   }
 }
+
+/* Hide main header when scroll reveal menu is visible to prevent overlap */
+.scroll-reveal-menu.is-visible ~ .header-wrapper {
+  transform: translateY(-100%);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 0.24s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.24s ease;
+}

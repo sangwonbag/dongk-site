@@ -15,8 +15,8 @@ export default function MainLayout({ children, className = "" }) {
 
     return (
         <div className="main-layout">
-            <Header />
             <ScrollRevealMenu />
+            <Header />
             <main className={`main-content ${isHome ? "home-main-content" : ""} ${isAdminRoute ? "admin-main-content" : ""} ${className}`}>
                 {children}
             </main>
