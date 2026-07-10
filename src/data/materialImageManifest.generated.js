@@ -1180,15 +1180,6 @@ export const imageManifest = [
     "normalizedFileName": "ts5544p1jpg"
   },
   {
-    "fileName": "TS5545P_0.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5545P_0.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "KCC_square",
-    "extractedCode": "TS5545P",
-    "normalizedFileName": "ts5545p0jpg"
-  },
-  {
     "fileName": "TS5545P_1.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5545P_1.jpg",
     "category": "데코타일",
@@ -1250,15 +1241,6 @@ export const imageManifest = [
     "series": "KCC_square",
     "extractedCode": "TS5547P",
     "normalizedFileName": "ts5547p2jpg"
-  },
-  {
-    "fileName": "TS5548P_0.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5548P_0.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "KCC_square",
-    "extractedCode": "TS5548P",
-    "normalizedFileName": "ts5548p0jpg"
   },
   {
     "fileName": "TS5548P_1.jpg",

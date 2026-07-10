@@ -4,10 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predev": "node scripts/generateImageManifest.cjs",
-    "prebuild": "node scripts/generateImageManifest.cjs",
+    "predev": "node scripts/generateImageManifest.cjs && node scripts/generate-image-manifest.mjs",
+    "prebuild": "node scripts/generateImageManifest.cjs && node scripts/generate-image-manifest.mjs",
     "dev": "vite",
     "build": "vite build",
+    "generate:image-manifest": "node scripts/generate-image-manifest.mjs",
     "lint": "eslint .",
     "preview": "vite preview",
     "upload:supabase": "node scripts/upload_thumbnails_supabase.cjs",

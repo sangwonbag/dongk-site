@@ -874,17 +874,18 @@ export default function MaterialDetail() {
     return [firstValid || "/images/no-image.svg"];
   }, [item, rawImages, brokenImages]);
 
-  // Adjust selectedImageIndex if out of bounds
-  useEffect(() => {
-    if (selectedImageIndex >= productImages.length) {
-      setSelectedImageIndex(0);
-    }
-  }, [productImages.length, selectedImageIndex]);
-
-  // Reset selected image when product ID/code changes
   useEffect(() => {
     setSelectedImageIndex(0);
   }, [item?.id, item?.code]);
+
+  useEffect(() => {
+    if (
+      productImages.length === 0 ||
+      selectedImageIndex >= productImages.length
+    ) {
+      setSelectedImageIndex(0);
+    }
+  }, [productImages.length, selectedImageIndex]);
 
   // 3. Fetch Related Products
   useEffect(() => {
