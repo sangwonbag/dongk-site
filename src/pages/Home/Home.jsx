@@ -891,7 +891,7 @@ export default function Home() {
               
               <div className="location-visual-side">
                 <div className="location-visual-box">
-                  <img src="/images/home/consulting-estimate.webp" alt="동경바닥재 오피스 전경" className="loc-office-img" onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = "/images/cross_section.png"; }} />
+                  <img src="/images/home/storefront.jpg" alt="동경바닥재 오피스 전경" className="loc-office-img" onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = "/images/cross_section.png"; }} />
                   <div className="loc-office-tag">동경바닥재 하남 물류창고 / 사무실</div>
                 </div>
               </div>

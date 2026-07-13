@@ -19,6 +19,24 @@ export const imageManifest = [
     "normalizedFileName": "30102ppng"
   },
   {
+    "fileName": "30102P_1.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30102P_1.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "KCC_pro",
+    "extractedCode": "30102",
+    "normalizedFileName": "30102p1png"
+  },
+  {
+    "fileName": "30102P_2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30102P_2.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "KCC_pro",
+    "extractedCode": "30102",
+    "normalizedFileName": "30102p2png"
+  },
+  {
     "fileName": "30111P.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30111P.png",
     "category": "데코타일",
