@@ -12,6 +12,33 @@ export default function Cart() {
   const { cartItems, updateQuantity, removeFromCart, clearCart } = useEstimateCart();
   const { user: currentUser, openLoginModal } = useAuth();
 
+  const getKccDecotileSqmPerBox = (item) => {
+    if (!item || item.brand !== 'KCC' || item.category !== '데코타일') return 3.32;
+    const line = item.line || "";
+    const name = item.name || "";
+    const code = item.code || "";
+    if (line.includes('센스레이') || (code.toUpperCase().startsWith('B') && code.toUpperCase().endsWith('J'))) {
+      return 2.51;
+    } else if (name.includes('600각') || code.toUpperCase().endsWith('M')) {
+      return 3.24;
+    } else if (name.includes('450각') || code.toUpperCase().endsWith('P')) {
+      return 3.34;
+    }
+    return 3.32; // 우드
+  };
+
+  const getItemPyeong = (item) => {
+    const qty = parseInt(item.quantity) || 1;
+    if (item.brand === 'KCC' && item.category === '데코타일') {
+      const sqm = qty * getKccDecotileSqmPerBox(item);
+      return sqm / 3.3058;
+    }
+    if (item.brand === '스완' && item.category === '카페트타일') {
+      return qty * 1.21;
+    }
+    return qty; // Fallback to 1 box = 1 pyeong
+  };
+
   // Helper to parse price string/number cleanly
   const parsePrice = (priceVal) => {
     if (priceVal === undefined || priceVal === null) return 0;
@@ -32,17 +59,34 @@ export default function Cart() {
     const rollOrMQty = cartItems
       .filter(item => item.category === "장판" || item.category === "벽지")
       .reduce((sum, item) => sum + (parseInt(item.quantity) || 1), 0);
+      
+    const totalPyeong = cartItems
+      .filter(item => item.category !== "장판" && item.category !== "벽지")
+      .reduce((sum, item) => sum + getItemPyeong(item), 0);
     
     const parts = [];
-    if (tileOrFloorQty > 0) parts.push(`${tileOrFloorQty}박스(약 ${tileOrFloorQty}평)`);
+    if (tileOrFloorQty > 0) parts.push(`${tileOrFloorQty}박스(약 ${totalPyeong.toFixed(2)}평)`);
     if (rollOrMQty > 0) parts.push(`${rollOrMQty}M`);
     return parts.join(" / ") || "0박스";
   };
 
+  const getItemUnitPrice = (item, qty) => {
+    const basePrice = parsePrice(item.price);
+    const brand = item.brand || "";
+    const name = item.name || "";
+    const line = item.line || "";
+    const spec = item.spec || (item.specs && item.specs.size) || "";
+    const isSeoulCozyNarrow = brand === '서울' && (line.includes('소폭') || name.includes('소폭') || spec.includes('53'));
+    if (isSeoulCozyNarrow && qty >= 10) {
+      return 73000;
+    }
+    return basePrice;
+  };
+
   const calculateSubtotal = () => {
     return cartItems.reduce((sum, item) => {
-      const price = parsePrice(item.price);
       const qty = parseInt(item.quantity) || 1;
+      const price = getItemUnitPrice(item, qty);
       return sum + (price * qty);
     }, 0);
   };
@@ -146,13 +190,21 @@ export default function Cart() {
               <div className="cart-left-section">
                 <div className="cart-item-list">
                   {cartItems.map((item) => {
-                    const price = parsePrice(item.price);
                     const qty = parseInt(item.quantity) || 1;
+                    const price = getItemUnitPrice(item, qty);
                     const itemSpec = item.spec || item.specs?.size || "표준규격";
                     const itemPacking = item.packing || item.specs?.packing || "1박스 단위";
-                    
                     const isRollOrM = item.category === "장판" || item.category === "벽지";
-                    const itemQtyDesc = isRollOrM ? `${qty}M` : `${qty}박스 (약 ${qty}평 시공용)`;
+                    let itemQtyDesc = isRollOrM ? `${qty}M` : `${qty}박스 (약 ${qty}평 시공용)`;
+                    if (item.brand === 'KCC' && item.category === '데코타일') {
+                      const sqm = qty * getKccDecotileSqmPerBox(item);
+                      const pyeong = sqm / 3.3058;
+                      itemQtyDesc = `${qty}박스 (약 ${pyeong.toFixed(2)}평 / ${sqm.toFixed(2)}㎡ 시공용)`;
+                    } else if (item.brand === '스완' && item.category === '카페트타일') {
+                      const sqm = qty * 4;
+                      const pyeong = qty * 1.21;
+                      itemQtyDesc = `${qty}박스 (약 ${pyeong.toFixed(2)}평 / ${sqm.toFixed(2)}㎡ 시공용)`;
+                    }
 
                     return (
                       <div key={item.id} className="cart-item-card">
@@ -169,7 +221,15 @@ export default function Cart() {
                         {/* 상세 내용 */}
                         <div className="cart-item-details">
                           <div className="cart-item-badge-row">
-                            {item.brand && <span className="badge-brand">{item.brand}</span>}
+                            {item.brand && <span className="badge-brand">
+                              {(() => {
+                                const b = (item.brand || "").trim();
+                                return (b.includes("현대") || b.includes("Hyundai")) ? "현대" 
+                                     : (b.includes("KCC")) ? "KCC" 
+                                     : (b.includes("LX") || b.includes("LG") || b.includes("하우시스")) ? "LX" 
+                                     : b;
+                              })()}
+                            </span>}
                             {item.category && <span className="badge-category">{item.category}</span>}
                           </div>
                           <h4 className="cart-item-name">
@@ -178,6 +238,12 @@ export default function Cart() {
                           </h4>
                           <div className="cart-item-meta">
                             {item.code && item.code !== "" && <span>코드: <strong>{item.code}</strong></span>}
+                            {item.category === "장판" && (
+                              <>
+                                <span>라인업: <strong>{item.line || "정보 없음"}</strong></span>
+                                <span>두께: <strong>{item.thickness || item.specs?.thickness || "두께 정보 없음"}</strong></span>
+                              </>
+                            )}
                             <span>규격: <strong>{itemSpec}</strong></span>
                             <span>구성: <strong>{itemPacking}</strong></span>
                             <span className="unit-conversion-lbl">소요량: <strong className="text-highlight">{itemQtyDesc}</strong></span>

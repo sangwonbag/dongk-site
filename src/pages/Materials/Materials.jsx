@@ -66,7 +66,7 @@ export default function Materials() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // B2B Detailed Search Filters
+  // Detailed Search Filters
   const [nameFilter, setNameFilter] = useState("");
   const [codeFilter, setCodeFilter] = useState("");
   const [specFilter, setSpecFilter] = useState("");
@@ -80,7 +80,13 @@ export default function Materials() {
   const activeBrand = searchParams.get("brand") || defaultBrand;
   
   const activeMaterialType = searchParams.get("type") || "all";
-  const activeLine = searchParams.get("line") || "all";
+  let activeLine = searchParams.get("line") || "all";
+  if (activeLine && activeLine.toUpperCase().includes("MACOSX")) {
+    activeLine = "all";
+  }
+  const activeShape = searchParams.get("shape") || "all";
+  const activePattern = searchParams.get("pattern") || "all";
+  const activeThickness = searchParams.get("thickness") || "all";
   const searchText = searchParams.get("search") || "";
 
   // Local input state for the search bar (for responsiveness while typing)
@@ -88,6 +94,16 @@ export default function Materials() {
 
   // Pagination state (Optimized default to 24 for faster render)
   const [visibleCount, setVisibleCount] = useState(24);
+
+  // Redirect if line param contains MACOSX
+  useEffect(() => {
+    const lineParam = searchParams.get("line");
+    if (lineParam && lineParam.toUpperCase().includes("MACOSX")) {
+      const newParams = new URLSearchParams(searchParams);
+      newParams.delete("line");
+      setSearchParams(newParams, { replace: true });
+    }
+  }, [searchParams, setSearchParams]);
 
   // Fetch from Supabase on mount/filter change
   useEffect(() => {
@@ -140,7 +156,7 @@ export default function Materials() {
   // Reset pagination when filters change
   useEffect(() => {
     setVisibleCount(24);
-  }, [activeTab, activeBrand, activeMaterialType, activeLine, searchText]);
+  }, [activeTab, activeBrand, activeMaterialType, activeLine, activeShape, activePattern, activeThickness, searchText]);
 
   // Normalize legacy line parameters (e.g., line=강마루_듀오텍스쳐_DUO TEXTURE)
   useEffect(() => {
@@ -169,15 +185,17 @@ export default function Materials() {
   const handleCategoryChange = (category) => {
     // Switch category and reset brand to its default corresponding brand
     const defaultBrand = DEFAULT_BRAND_BY_CATEGORY[category] || "all";
-    updateParams({ category, brand: defaultBrand, type: null, line: null });
+    updateParams({ category, brand: defaultBrand, type: null, line: null, shape: null, pattern: null, thickness: null });
     setNameFilter("");
     setCodeFilter("");
     setSpecFilter("");
   };
 
-  const setActiveBrand = (brand) => updateParams({ brand, type: null, line: null });
+  const setActiveBrand = (brand) => updateParams({ brand, type: null, line: null, shape: null, pattern: null });
   const setActiveMaterialType = (type) => updateParams({ type });
   const setActiveLine = (line) => updateParams({ line });
+  const setActiveShape = (shape) => updateParams({ shape, pattern: null });
+  const setActivePattern = (pattern) => updateParams({ pattern });
 
   // Scroll restoration on return
   useEffect(() => {
@@ -196,6 +214,42 @@ export default function Materials() {
     return ["all", ...list];
   }, [activeTab]);
 
+  // Visible thicknesses based on active category tab & brand selection
+  const visibleThicknesses = useMemo(() => {
+    if (activeTab !== "장판" || !materialsList || materialsList.length === 0) return [];
+    
+    const thicknessSet = new Set();
+    materialsList.forEach((m) => {
+      if (!m || m.category !== "장판") return;
+      
+      const mComputedBrand = getComputedBrand(m);
+      const b = activeBrand.toUpperCase();
+      const itemBrand = (m.brand || "").toUpperCase();
+      const compBrand = mComputedBrand.toUpperCase();
+      
+      let matchesBrand = false;
+      if (b === "ALL") {
+        matchesBrand = true;
+      } else if (b === "LX") {
+        matchesBrand = itemBrand.includes("LX") || itemBrand.includes("LG") || compBrand.includes("LX");
+      } else {
+        matchesBrand = itemBrand === b || compBrand === b || itemBrand.includes(b) || compBrand.includes(b);
+      }
+      
+      if (matchesBrand && m.thickness && m.thickness !== "두께 정보 없음") {
+        thicknessSet.add(m.thickness);
+      }
+    });
+    
+    const sorted = Array.from(thicknessSet).sort((a, b) => {
+      const aNum = parseFloat(a);
+      const bNum = parseFloat(b);
+      return aNum - bNum;
+    });
+    
+    return ["all", ...sorted];
+  }, [materialsList, activeTab, activeBrand]);
+
   // Visible material types (subcategories) for 마루 category
   const visibleMaterialTypes = useMemo(() => {
     if (activeTab !== "마루" || !materialsList || materialsList.length === 0) return [];
@@ -210,7 +264,7 @@ export default function Materials() {
       const compBrand = mComputedBrand.toUpperCase();
       
       let matchesBrand = false;
-      if (b === "all") {
+      if (b === "ALL") {
         matchesBrand = true;
       } else if (b === "LX") {
         matchesBrand = itemBrand.includes("LX") || itemBrand.includes("LG") || compBrand.includes("LX");
@@ -248,7 +302,7 @@ export default function Materials() {
       const compBrand = mComputedBrand.toUpperCase();
       
       let matchesBrand = false;
-      if (b === "all") {
+      if (b === "ALL") {
         matchesBrand = true;
       } else if (b === "LX") {
         matchesBrand = itemBrand.includes("LX") || itemBrand.includes("LG") || compBrand.includes("LX");
@@ -268,6 +322,10 @@ export default function Materials() {
         if (activeTab === "마루" && activeMaterialType !== "all") {
           if (m.materialType !== activeMaterialType) return;
         }
+
+        if (activeTab === "장판" && activeThickness !== "all") {
+          if (m.thickness !== activeThickness) return;
+        }
         
         const line = activeTab === "마루" ? m.displayLine : getNormalizedLine(m, activeTab, activeBrand);
         if (line) {
@@ -277,7 +335,51 @@ export default function Materials() {
     });
     
     return ["all", ...Array.from(linesSet).sort()];
-  }, [materialsList, activeTab, activeBrand, activeMaterialType]);
+  }, [materialsList, activeTab, activeBrand, activeMaterialType, activeThickness]);
+
+  // Auto-reset activeThickness if it is not present in visibleThicknesses (on brand change)
+  useEffect(() => {
+    if (activeTab === "장판" && activeThickness !== "all" && visibleThicknesses.length > 0) {
+      if (!visibleThicknesses.includes(activeThickness)) {
+        updateParams({ thickness: null });
+      }
+    }
+  }, [activeBrand, visibleThicknesses, activeThickness, activeTab]);
+
+  // Auto-reset activeLine if it is not present in visibleLines (on thickness change)
+  useEffect(() => {
+    if (activeTab === "장판" && activeLine !== "all" && visibleLines.length > 0) {
+      if (!visibleLines.includes(activeLine)) {
+        updateParams({ line: null });
+      }
+    }
+  }, [activeThickness, visibleLines, activeLine, activeTab]);
+
+  // KCC Decotile specific options (Shape & Pattern)
+  const visibleShapes = useMemo(() => {
+    if (activeTab !== "데코타일" || activeBrand !== "KCC" || !materialsList) return [];
+    const shapes = new Set();
+    materialsList.forEach(m => {
+      if (m.brand === "KCC" && m.category === "데코타일" && m.shape) {
+        if (activeLine !== "all" && m.line !== activeLine) return;
+        shapes.add(m.shape);
+      }
+    });
+    return ["all", ...Array.from(shapes).sort()];
+  }, [materialsList, activeTab, activeBrand, activeLine]);
+
+  const visiblePatterns = useMemo(() => {
+    if (activeTab !== "데코타일" || activeBrand !== "KCC" || !materialsList) return [];
+    const patterns = new Set();
+    materialsList.forEach(m => {
+      if (m.brand === "KCC" && m.category === "데코타일" && m.pattern) {
+        if (activeLine !== "all" && m.line !== activeLine) return;
+        if (activeShape !== "all" && m.shape !== activeShape) return;
+        patterns.add(m.pattern);
+      }
+    });
+    return ["all", ...Array.from(patterns).sort()];
+  }, [materialsList, activeTab, activeBrand, activeLine, activeShape]);
 
   // Wall paper material types
   const MATERIAL_TYPES = ["all", "프리미엄", "디아망", "합지(소폭)", "합지(장폭)", "합지", "실크", "방염"];
@@ -345,11 +447,29 @@ export default function Materials() {
           }
         }
 
-        return tabOk && brandOk && typeOk && lineOk;
+        // Shape check (only for KCC decotiles)
+        let shapeOk = true;
+        if (activeTab === "데코타일" && activeBrand === "KCC" && activeShape !== "all") {
+          shapeOk = (m.shape === activeShape);
+        }
+
+        // Pattern check (only for KCC decotiles)
+        let patternOk = true;
+        if (activeTab === "데코타일" && activeBrand === "KCC" && activePattern !== "all") {
+          patternOk = (m.pattern === activePattern);
+        }
+
+        // Thickness check (only for 장판)
+        let thicknessOk = true;
+        if (activeTab === "장판" && activeThickness !== "all") {
+          thicknessOk = (m.thickness === activeThickness);
+        }
+
+        return tabOk && brandOk && typeOk && lineOk && shapeOk && patternOk && thicknessOk;
       });
     }
 
-    // Apply client-side B2B inputs on top of standard filters
+    // Apply client-side search inputs on top of standard filters
     if (nameFilter.trim()) {
       const q = nameFilter.trim().toLowerCase();
       result = result.filter(m => (m.name || "").toLowerCase().includes(q));
@@ -368,7 +488,7 @@ export default function Materials() {
     }
 
     return result;
-  }, [materialsList, activeTab, activeBrand, activeMaterialType, activeLine, searchText, visibleLines, nameFilter, codeFilter, specFilter]);
+  }, [materialsList, activeTab, activeBrand, activeMaterialType, activeLine, activeShape, activePattern, activeThickness, searchText, visibleLines, nameFilter, codeFilter, specFilter]);
 
   // Error View
   if (error) {
@@ -410,9 +530,9 @@ export default function Materials() {
           {/* ✅ 1. Page Header (Title & Description) */}
           <div className="materials-page-header">
             <div className="header-text">
-              <h1 className="materials-title">자재찾기 B2B 구매센터</h1>
+              <h1 className="materials-title">자재찾기</h1>
               <p className="materials-desc">
-                동경바닥재가 엄선한 국내 주요 제조사(KCC, 동신, LX 등) 정품 자재군을 상세한 규격 및 자재 코드별로 조회하여 즉시 발주/견적을 진행하십시오.
+                동경바닥재가 엄선한 국내 주요 제조사(KCC, 동신, LX 등)의 자재를 상품명 및 자재 코드별로 조회하여 바로 발주하거나 견적을 요청할 수 있습니다.
               </p>
             </div>
             {/* Search Box on the Page */}
@@ -432,17 +552,17 @@ export default function Materials() {
             </div>
           </div>
           
-          {/* ✅ 2. B2B Filter Panel */}
-          <div className="b2b-filter-panel">
+          {/* ✅ 2. Filter Panel */}
+          <div className="filter-panel">
             
             {/* Category tabs */}
-            <div className="b2b-filter-group">
-              <span className="b2b-filter-label">카테고리</span>
-              <div className="b2b-filter-options">
+            <div className="filter-group">
+              <span className="filter-label">카테고리</span>
+              <div className="filter-options">
                 {CATEGORIES.map((category) => (
                   <button
                     key={category}
-                    className={`b2b-filter-tab ${activeTab === category ? "active" : ""}`}
+                    className={`filter-tab ${activeTab === category ? "active" : ""}`}
                     onClick={() => handleCategoryChange(category)}
                   >
                     {category}
@@ -453,13 +573,13 @@ export default function Materials() {
  
             {/* Brand tabs */}
             {visibleBrands.length > 1 && (
-              <div className="b2b-filter-group">
-                <span className="b2b-filter-label">브랜드</span>
-                <div className="b2b-filter-options">
+              <div className="filter-group">
+                <span className="filter-label">브랜드</span>
+                <div className="filter-options">
                   {visibleBrands.map((brand) => (
                     <button
                       key={brand}
-                      className={`b2b-filter-tab ${activeBrand === brand ? "active" : ""}`}
+                      className={`filter-tab ${activeBrand === brand ? "active" : ""}`}
                       onClick={() => setActiveBrand(brand)}
                     >
                       {brand === "all" ? "전체" : brand}
@@ -468,16 +588,75 @@ export default function Materials() {
                 </div>
               </div>
             )}
- 
+
+            {/* Thickness tabs (only for 장판) */}
+            {activeTab === "장판" && visibleThicknesses.length > 1 && (
+              <div className="filter-group thickness-filter-group">
+                <span className="filter-label">두께</span>
+                <div className="filter-options thickness-filter-options" style={{ display: 'flex', flexWrap: 'nowrap', overflowX: 'auto', gap: '6px', paddingBottom: '4px' }}>
+                  {visibleThicknesses.map((t) => (
+                    <button
+                      key={t}
+                      className={`filter-tab ${activeThickness === t ? "active" : ""}`}
+                      onClick={() => updateParams({ thickness: t })}
+                      style={{ whiteSpace: 'nowrap', flexShrink: 0 }}
+                    >
+                      {t === "all" ? "전체 두께" : t}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* KCC Decotile specific filters: Shape & Pattern */}
+            {activeTab === "데코타일" && activeBrand === "KCC" && !loading && (
+              <>
+                {visibleShapes.length > 1 && (
+                  <div className="filter-group">
+                    <span className="filter-label">형태 분류</span>
+                    <div className="filter-options">
+                      {visibleShapes.map((shape) => (
+                        <button
+                          key={shape}
+                          className={`filter-tab ${activeShape === shape ? "active" : ""}`}
+                          onClick={() => setActiveShape(shape)}
+                        >
+                          {shape === "all" ? "전체 형태" : shape}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                
+                {visiblePatterns.length > 1 && (
+                  <div className="filter-group">
+                    <span className="filter-label">세부 패턴</span>
+                    <div className="filter-options" style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
+                      {visiblePatterns.map((pattern) => (
+                        <button
+                          key={pattern}
+                          className={`filter-tab ${activePattern === pattern ? "active" : ""}`}
+                          onClick={() => setActivePattern(pattern)}
+                          style={{ margin: '2px 0' }}
+                        >
+                          {pattern === "all" ? "전체 패턴" : pattern}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </>
+            )}
+
             {/* 마루 세부 분류 (Material Type) */}
             {activeTab === "마루" && visibleMaterialTypes.length > 2 && (
-              <div className="b2b-filter-group">
-                <span className="b2b-filter-label">세부 분류</span>
-                <div className="b2b-filter-options">
+              <div className="filter-group">
+                <span className="filter-label">세부 분류</span>
+                <div className="filter-options">
                   {visibleMaterialTypes.map((type) => (
                     <button
                       key={type}
-                      className={`b2b-filter-tab ${activeMaterialType === type ? "active" : ""}`}
+                      className={`filter-tab ${activeMaterialType === type ? "active" : ""}`}
                       onClick={() => setActiveMaterialType(type)}
                     >
                       {type === "all" ? "전체 세부 분류" : type}
@@ -487,36 +666,36 @@ export default function Materials() {
               </div>
             )}
  
-            {/* B2B detailed search inputs */}
-            <div className="b2b-search-filters-grid">
-              <div className="b2b-search-field">
-                <label className="b2b-field-label">제품명 검색</label>
+            {/* Detailed search inputs */}
+            <div className="search-filters-grid">
+              <div className="search-field">
+                <label className="field-label">제품명 검색</label>
                 <input
                   type="text"
                   placeholder="제품명 입력 (예: 오크, 타일)"
                   value={nameFilter}
                   onChange={(e) => setNameFilter(e.target.value)}
-                  className="b2b-field-input"
+                  className="field-input"
                 />
               </div>
-              <div className="b2b-search-field">
-                <label className="b2b-field-label">상품코드 검색</label>
+              <div className="search-field">
+                <label className="field-label">상품코드 검색</label>
                 <input
                   type="text"
                   placeholder="상품코드 입력 (예: CM21882)"
                   value={codeFilter}
                   onChange={(e) => setCodeFilter(e.target.value)}
-                  className="b2b-field-input"
+                  className="field-input"
                 />
               </div>
-              <div className="b2b-search-field">
-                <label className="b2b-field-label">규격/두께 검색</label>
+              <div className="search-field">
+                <label className="field-label">규격/두께 검색</label>
                 <input
                   type="text"
                   placeholder="규격/두께 입력 (예: 1.8T, 2.2mm)"
                   value={specFilter}
                   onChange={(e) => setSpecFilter(e.target.value)}
-                  className="b2b-field-input"
+                  className="field-input"
                 />
               </div>
             </div>
@@ -593,7 +772,13 @@ export default function Materials() {
             ) : (
               <EmptyState
                 title="검색 결과가 없습니다"
-                description={searchText ? `"${searchText}"에 부합하는 자재가 없거나 현재 준비 중입니다.` : "선택하신 분류 및 브랜드의 자재가 준비 중입니다."}
+                description={
+                  searchText 
+                    ? `"${searchText}"에 부합하는 자재가 없거나 현재 준비 중입니다.` 
+                    : (activeTab === "장판" && (activeBrand !== "all" || activeThickness !== "all"))
+                      ? "선택한 브랜드와 두께에 해당하는 상품이 없습니다."
+                      : "선택하신 분류 및 브랜드의 자재가 준비 중입니다."
+                }
               />
             )}
           </div>

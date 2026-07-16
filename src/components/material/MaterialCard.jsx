@@ -5,9 +5,45 @@ import { useEstimateCart } from '../../contexts/EstimateCartContext';
 import { useAuth } from '../../contexts/AuthContext';
 import { getThumbnailImage } from '../../utils/galleryUtils';
 import { getMaterialImagePath } from '../../utils/materialImageResolver';
-import { getComputedBrand } from '../../utils/brandUtils';
+import { getComputedBrand, getNormalizedThickness } from '../../utils/brandUtils';
 import { Skeleton, ImagePlaceholder } from '../ui';
 import './MaterialCard.css';
+
+const getProductUnit = (product) => {
+    if (!product) return '롤';
+    if (product.category === '데코타일') return 'BOX';
+    if (product.brand === '스완' && product.category === '카페트타일') return 'BOX';
+    const brand = product.brand || "";
+    const name = product.name || "";
+    const line = product.line || "";
+    const spec = product.spec || (product.specs && product.specs.size) || "";
+    if (brand === '서울' && (line.includes('소폭') || name.includes('소폭') || spec.includes('53'))) {
+      return 'BOX';
+    }
+    if (brand === '개나리' && (line.includes('소폭') || name.includes('소폭') || line.includes('스토리'))) {
+      return 'BOX';
+    }
+    if (brand === 'LX' && (line.includes('소폭') || name.includes('소폭') || spec.includes('53'))) {
+      return 'BOX';
+    }
+    return '롤';
+};
+
+const isDirectPricingCategory = (product) => {
+    if (!product) return false;
+    if (product.brand === 'KCC' && product.category === '데코타일') return true;
+    if (['LX', '개나리', '서울'].includes(product.brand) && product.category === '벽지') {
+      const lineClean = (product.line || "").replace(/\s+/g, '');
+      if (product.brand === '서울' && (lineClean.includes('프리미엄') || lineClean.includes('방염'))) {
+        return false;
+      }
+      return true;
+    }
+    if (product.brand === '스완' && product.category === '카페트타일' && (product.line || '').includes('타일') && (product.price || 0) > 0) {
+      return true;
+    }
+    return false;
+};
 
 const MaterialCard = ({ material }) => {
     const navigate = useNavigate();
@@ -109,6 +145,7 @@ const MaterialCard = ({ material }) => {
             product_id: material.id,
             productId: material.id,
             brand: getComputedBrand(material),
+            thickness: material.thickness || getNormalizedThickness(material),
             category: material.category || null,
             line: material.line || "",
             name: displayName || "",
@@ -148,6 +185,7 @@ const MaterialCard = ({ material }) => {
             product_id: material.id,
             productId: material.id,
             brand: getComputedBrand(material),
+            thickness: material.thickness || getNormalizedThickness(material),
             category: material.category || null,
             line: material.line || "",
             name: displayName || "",
@@ -171,6 +209,51 @@ const MaterialCard = ({ material }) => {
         };
 
         addToCart(cartItem);
+    };
+
+    const handleDirectBuy = (e) => {
+        e.stopPropagation();
+        if (!currentUser) {
+            openLoginModal();
+            return;
+        }
+        
+        const price = parsePrice(material.price) || 0;
+        if (price <= 0) {
+            alert("가격 확인이 필요한 자재입니다.");
+            return;
+        }
+
+        const cartItem = {
+            id: selectedOption ? `${material.id}-${selectedOption.label}` : material.id,
+            product_id: material.id,
+            productId: material.id,
+            brand: getComputedBrand(material),
+            thickness: material.thickness || getNormalizedThickness(material),
+            category: material.category || null,
+            line: material.line || "",
+            name: displayName || "",
+            product_name: displayName || "",
+            code: material.code || null,
+            product_code: material.code || null,
+            spec: selectedOption ? selectedOption.spec : (material.specs?.size || material.spec || "표준규격"),
+            specs: selectedOption ? {
+                thickness: selectedOption.thickness,
+                size: selectedOption.spec,
+                packing: selectedOption.package || ""
+            } : (material.specs || null),
+            packing: selectedOption ? (selectedOption.package || "") : (material.specs?.packing || material.package || "1박스 단위 판매"),
+            price: price,
+            unit_price: price,
+            quantity: 1,
+            amount: price,
+            selectedSize: selectedOption ? selectedOption.label : undefined,
+            thumbnail: coverUrl || "/images/no-image.svg",
+            image: coverUrl || "/images/no-image.svg"
+        };
+
+        addToCart(cartItem);
+        navigate("/checkout");
     };
 
     const handleGoDetail = (e) => {
@@ -220,6 +303,19 @@ const MaterialCard = ({ material }) => {
                             <span className="card-cat-divider">·</span>
                             <span className="card-category">{material.materialType || "강마루"}</span>
                         </>
+                    ) : material.category === '장판' ? (
+                        <>
+                            <span className="card-brand">
+                                {(() => {
+                                    const b = (material.brand || "").trim();
+                                    const brandDisplay = (b.includes("현대") || b.includes("Hyundai")) ? "현대" 
+                                                       : (b.includes("KCC")) ? "KCC" 
+                                                       : (b.includes("LX") || b.includes("LG") || b.includes("하우시스")) ? "LX" 
+                                                       : b;
+                                    return `${brandDisplay} · ${getNormalizedThickness(material)}`;
+                                })()}
+                            </span>
+                        </>
                     ) : (
                         <>
                             <span className="card-brand">{getComputedBrand(material)}</span>
@@ -230,7 +326,38 @@ const MaterialCard = ({ material }) => {
                 </div>
                 <div className="card-name">{displayName}</div>
                 
-                {material.brand === '이건' && material.category === '마루' ? (
+                {material.brand === 'KCC' && material.category === '데코타일' ? (
+                    <div className="card-meta">
+                        <div className="card-meta-item">
+                            <span className="meta-label">제품군</span>
+                            <span className="meta-value">{material.line}</span>
+                        </div>
+                        {material.pattern && (
+                            <div className="card-meta-item">
+                                <span className="meta-label">패턴명</span>
+                                <span className="meta-value">{material.pattern}</span>
+                            </div>
+                        )}
+                        <div className="card-meta-item">
+                            <span className="meta-label">코드</span>
+                            <span className="meta-value">{material.code}</span>
+                        </div>
+                        <div className="card-meta-item">
+                            <span className="meta-label">규격</span>
+                            <span className="meta-value">{material.specs?.size || material.spec}</span>
+                        </div>
+                        <div className="card-meta-item">
+                            <span className="meta-label">포장</span>
+                            <span className="meta-value">{material.specs?.packing || material.package}</span>
+                        </div>
+                        {material.specs?.area && (
+                            <div className="card-meta-item">
+                                <span className="meta-label">면적</span>
+                                <span className="meta-value">{material.specs.area} / BOX</span>
+                            </div>
+                        )}
+                    </div>
+                ) : material.brand === '이건' && material.category === '마루' ? (
                     <div className="card-meta">
                         <div className="card-meta-item">
                             <span className="meta-label">라인업</span>
@@ -315,7 +442,11 @@ const MaterialCard = ({ material }) => {
                         <span className="card-price">
                             {material.price ? `${material.price.toLocaleString()}원` : "가격문의"}
                         </span>
-                        {material.price && <span className="card-price-unit">/평</span>}
+                        {material.price && (
+                            <span className="card-price-unit">
+                                {`/${getProductUnit(material)}`}
+                            </span>
+                        )}
                     </div>
                     <span className="card-delivery-badge">
                         {material.category === '장판' ? "m 단위 절단" : "50평 이상 무료배송"}
@@ -326,9 +457,15 @@ const MaterialCard = ({ material }) => {
                     <button className="btn-detail btn-cart-add" onClick={handleAddToCart}>
                         장바구니 담기
                     </button>
-                    <button className="btn-quote" onClick={handleInquiry}>
-                        견적요청
-                    </button>
+                    {isDirectPricingCategory(material) ? (
+                        <button className="btn-quote" onClick={handleDirectBuy} style={{ backgroundColor: 'var(--point-orange)', borderColor: 'var(--point-orange)', color: '#fff' }}>
+                            바로구매
+                        </button>
+                    ) : (
+                        <button className="btn-quote" onClick={handleInquiry}>
+                            견적요청
+                        </button>
+                    )}
                 </div>
             </div>
         </div>

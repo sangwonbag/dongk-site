@@ -114,11 +114,59 @@ export function getMaterialTypeAndLine(m) {
   return { materialType, displayLine };
 }
 
+/**
+ * 장판 카테고리 자재의 두께를 추출하고 표준 포맷(예: 2.2T, 2T)으로 규격화합니다.
+ * @param {Object} item - 자재 객체
+ * @returns {string} - 규격화된 두께 (예: "2.2T", "2T", "두께 정보 없음")
+ */
+export const getNormalizedThickness = (item) => {
+  if (!item || item.category !== "장판") return "두께 정보 없음";
+
+  const tField = item.thickness || item.specs?.thickness || "";
+  const sField = item.spec || item.specs?.size || item.size_text || "";
+  const nameField = item.name || item.productName || "";
+  const codeField = item.code || item.product_code || "";
+  const lineField = item.line || item.description || "";
+
+  const textToSearch = [tField, sField, nameField, codeField, lineField].filter(Boolean).join(' ');
+
+  // Extract digits followed by T, t, mm, ㎜ or 두께
+  const pattern1 = /(\d+(?:\.\d+)?)\s*(?:T|t|mm|㎜)/gi;
+  const pattern2 = /두께\s*(\d+(?:\.\d+)?)/gi;
+  
+  const matches = [];
+  let match;
+  
+  while ((match = pattern1.exec(textToSearch)) !== null) {
+    const val = parseFloat(match[1]);
+    if (val <= 10.0) {
+      matches.push(val);
+    }
+  }
+
+  while ((match = pattern2.exec(textToSearch)) !== null) {
+    const val = parseFloat(match[1]);
+    if (val <= 10.0) {
+      matches.push(val);
+    }
+  }
+
+  if (matches.length > 0) {
+    const val = matches[0];
+    return `${val.toFixed(1).replace(/\.0$/, '')}T`;
+  }
+
+  return "두께 정보 없음";
+};
+
 export function normalizeProductDetails(item) {
   if (item && item.category === "마루") {
     const { materialType, displayLine } = getMaterialTypeAndLine(item);
     item.materialType = materialType;
     item.displayLine = displayLine;
+  }
+  if (item && item.category === "장판") {
+    item.thickness = getNormalizedThickness(item);
   }
   return item;
 }

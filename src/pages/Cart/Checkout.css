@@ -730,7 +730,7 @@
   }
 }
 
-/* Radio selection row for site info (B2B) */
+/* Radio selection row for site info */
 .form-group-checkout-radio-row {
   display: grid;
   grid-template-columns: 1fr 1fr;

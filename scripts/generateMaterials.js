@@ -2,6 +2,12 @@ import fs from 'fs';
 import path from 'path';
 import { dongshinPolymer2026 } from '../src/data/dongshinPolymer2026.js';
 
+const KCC_NEW_PRODUCTS_FILE = path.resolve(process.cwd(), 'src/data/kcc_new_products.json');
+let kccNewProducts = [];
+if (fs.existsSync(KCC_NEW_PRODUCTS_FILE)) {
+  kccNewProducts = JSON.parse(fs.readFileSync(KCC_NEW_PRODUCTS_FILE, 'utf-8'));
+}
+
 const SOURCE_DIR = path.resolve(process.cwd(), 'public/images/Thumbnail_Image/materials');
 const OUTPUT_FILE = path.resolve(process.cwd(), 'src/data/generatedMaterials.js');
 
@@ -81,6 +87,11 @@ allFiles.forEach(fullPath => {
     return;
   }
   
+  // Filter out MACOSX or __MACOSX directories and system metadata files
+  if (parts.some(p => p.toUpperCase().includes('MACOSX')) || parts[parts.length - 1].startsWith('._')) {
+    return;
+  }
+  
   const category = parts[0];
   const folderBrand = parts[1];
   const brand = getNormalizedBrand(folderBrand, category);
@@ -92,15 +103,15 @@ allFiles.forEach(fullPath => {
   let subLine = parts[parts.length - 2] || "";
   let isConstruction = false;
   
-  if ((subLine === '시공이미지' || subLine === '상세페이지') && parts.length >= 4) {
+  if ((subLine === '시공이미지' || subLine === '상세페이지' || subLine.includes('시공이미지') || subLine.includes('상세페이지')) && parts.length >= 4) {
     subLine = parts[parts.length - 3] || "";
     isConstruction = true;
   }
   
   let line = parts.slice(2, parts.length - 1).join('_') || "";
-  if (parts.includes('시공이미지') || parts.includes('상세페이지')) {
+  if (parts.some(p => p.includes('시공이미지') || p.includes('상세페이지'))) {
     const lineParts = parts.slice(2, parts.length - 1);
-    const filteredParts = lineParts.filter(p => p !== '시공이미지' && p !== '상세페이지');
+    const filteredParts = lineParts.filter(p => !p.includes('시공이미지') && !p.includes('상세페이지'));
     line = filteredParts.join('_') || "";
   }
   
@@ -161,7 +172,9 @@ const seenSlugs = new Set();
 const products = [];
 
 groups.forEach((group, key) => {
-  const { category, brand, line, subLine, code, images } = group;
+  const { category, brand, code, images } = group;
+  let line = group.line;
+  let subLine = group.subLine;
   
   // Sort images so main images are first, and construction images are last
   images.sort((a, b) => {
@@ -204,6 +217,11 @@ groups.forEach((group, key) => {
     ? dongshinPolymer2026.find(d => d.code.toUpperCase() === code.toUpperCase())
     : null;
 
+  // Search in kccNewProducts for brand "KCC" and category "데코타일"
+  const kccMatch = (brand === 'KCC' && category === '데코타일')
+    ? kccNewProducts.find(k => k.code.toUpperCase() === code.toUpperCase())
+    : null;
+
   let price = 0;
   let size = "";
   let unit = "";
@@ -211,7 +229,32 @@ groups.forEach((group, key) => {
   let description = line;
   let name = code;
 
-  if (dongshinMatch) {
+  // Pre-parse thickness for Jangpan category
+  let parsedThickness = "";
+  if (category === '장판') {
+    let t = "";
+    const thicknessMatch = (line + '_' + code + '_' + subLine).match(/(\d+(?:\.\d+)?)\s*T/i);
+    if (thicknessMatch) {
+      t = thicknessMatch[1] + "T";
+    } else {
+      const numMatch = subLine.match(/(\d+(?:\.\d+)?)$/);
+      if (numMatch) {
+        t = numMatch[1] + "T";
+      }
+    }
+    parsedThickness = t;
+  }
+
+  if (kccMatch) {
+    price = kccMatch.price;
+    size = kccMatch.spec;
+    unit = kccMatch.packing;
+    thickness = kccMatch.spec.startsWith('5T') ? '5.0T' : '3.0T';
+    description = kccMatch.line;
+    name = kccMatch.name;
+    line = kccMatch.line;
+    subLine = kccMatch.line;
+  } else if (dongshinMatch) {
     price = dongshinMatch.price;
     size = dongshinMatch.spec;
     unit = dongshinMatch.package;
@@ -222,13 +265,17 @@ groups.forEach((group, key) => {
     name = dongshinMatch.code;
   } else if (existing) {
     price = existing.price || 0;
-    thickness = existing.thickness || "";
+    thickness = existing.thickness || parsedThickness;
     description = (brand === '현대') ? line : (existing.description || line);
     name = (brand === '현대') ? code : (existing.name || code);
     if (existing.specs) {
       size = existing.specs.size || "";
       unit = existing.specs.packing || "";
-      if (existing.specs.thickness) thickness = existing.specs.thickness;
+      if (existing.specs.thickness) {
+        thickness = existing.specs.thickness;
+      } else if (parsedThickness) {
+        thickness = parsedThickness;
+      }
     }
   } else {
     // Default values
@@ -250,17 +297,8 @@ groups.forEach((group, key) => {
         price = 24000;
       }
     } else if (category === '장판') {
-      let t = "";
-      const thicknessMatch = (line + '_' + code + '_' + subLine).match(/(\d+(?:\.\d+)?)\s*T/i);
-      if (thicknessMatch) {
-        t = thicknessMatch[1] + "T";
-      } else {
-        const numMatch = subLine.match(/(\d+(?:\.\d+)?)$/);
-        if (numMatch) {
-          t = numMatch[1] + "T";
-        }
-      }
-      thickness = t;
+      thickness = parsedThickness;
+      const t = parsedThickness;
       if (brand === '현대' || brand === 'KCC') {
         size = '제품별 규격 문의';
         unit = 'Roll 단위';
@@ -310,7 +348,7 @@ groups.forEach((group, key) => {
   }
 
   // Override KCC Pro specifications based on code suffix rules
-  if (brand === 'KCC' && (line || "").includes('pro')) {
+  if (!kccMatch && brand === 'KCC' && (line || "").includes('pro')) {
     const lastChar = (code || "").slice(-1).toUpperCase();
     if (lastChar === 'M') {
       size = '600 x 600 x 3.0mm';
@@ -338,7 +376,11 @@ groups.forEach((group, key) => {
     const isWood = (line || "").includes('우드') || (line || "").toLowerCase().includes('wood') || (code || "").includes('우드') || (code || "").toLowerCase().includes('wood') || sizeClean.includes('187x935') || sizeClean.includes('184x950');
 
     if (brand === 'KCC') {
-      if ((code || "").toUpperCase().startsWith('B') || (thickness || "").includes('5.0T') || (line || "").includes('센스레이')) {
+      if (kccMatch) {
+        price = kccMatch.price;
+      } else if ((line || "").includes('센스하우스')) {
+        if (existing) price = existing.price || 0;
+      } else if ((code || "").toUpperCase().startsWith('B') || (thickness || "").includes('5.0T') || (line || "").includes('센스레이')) {
         price = 0; // 센스레이 5.0 (Loose lay) - 가격문의
       } else if ((line || "").includes('프로') || (line || "").includes('pro') || (code || "").startsWith('PS') || (code || "").startsWith('PW')) {
         price = 35000; // 프로 - 35,000원
@@ -349,7 +391,8 @@ groups.forEach((group, key) => {
       if ((line || "").includes('OA타일') || (line || "").includes('O/A') || (code || "").toUpperCase().startsWith('OA')) {
         price = 56000;
       } else if ((line || "").includes('차음') || (line || "").includes('아트에코차음')) {
-        price = 56000;
+        if (existing) price = existing.price || 56000;
+        else price = 56000;
       } else if ((line || "").includes('아트하우스') || (line || "").includes('하우스')) {
         price = 37000;
       } else {
@@ -358,12 +401,16 @@ groups.forEach((group, key) => {
     } else if (brand === 'LX') {
       if ((line || "").includes('보타닉')) {
         price = 26000;
-      } else if ((line || "").includes('에코노플러스') || (line || "").includes('에코너')) {
+      } else if ((line || "").includes('에코닉') || (line || "").includes('에코노') || (line || "").includes('에코너')) {
         price = 35000;
       } else if ((line || "").includes('지아마루') || (line || "").includes('하우스스타일') || (line || "").includes('지아')) {
         price = 48000;
       } else if ((line || "").includes('프레스티지') || (line || "").includes('프레시티지')) {
-        price = (code || "").toUpperCase().startsWith('PTW') ? 86000 : 81000;
+        if (isWood || (code || "").toUpperCase().startsWith('PTW')) {
+          price = 86000;
+        } else {
+          price = 81000;
+        }
       } else if ((line || "").includes('데코레이')) {
         price = 0;
       } else if ((line || "").includes('하우스')) {
@@ -378,10 +425,10 @@ groups.forEach((group, key) => {
         price = is600 ? 29000 : 27000;
       }
     } else if (brand === '현대') {
-      if ((line || "").includes('클래식')) {
+      if ((line || "").includes('클래식') || (line || "").includes('골드타일클래식')) {
         price = 35000;
-      } else if ((line || "").includes('마스터')) {
-        price = 27000;
+      } else if ((line || "").includes('마스터') || (line || "").includes('골드타일마스터')) {
+        price = is600 ? 27000 : 26000;
       } else if ((line || "").includes('디럭스')) {
         price = 22000;
       }
@@ -392,17 +439,253 @@ groups.forEach((group, key) => {
         price = 25000;
       }
     } else if (brand === '유니') {
-      price = is600 ? 26000 : 25000;
+      const isGlossy = (line || "").includes('유광') || (name || "").includes('유광') || (code || "").includes('유광');
+      price = (is600 || isGlossy) ? 26000 : 25000;
     } else if (brand === '녹수') {
-      if ((line || "").includes('에코홈2000') || (line || "").includes('2000')) {
+      if ((line || "").includes('2000')) {
         price = 35000;
-      } else if ((line || "").includes('오키드3000') || (line || "").includes('3000')) {
+      } else if ((line || "").includes('3000')) {
         price = 35000;
-      } else if ((line || "").includes('프라임1500') || (line || "").includes('1000') || (line || "").includes('1500')) {
+      } else if ((line || "").includes('1000') || (line || "").includes('1500') || (line || "").includes('프라임')) {
         price = 24000;
       }
     } else if (brand === '베스트') {
       price = 23000;
+    }
+  }
+
+  // Override '벽지' price based on the brand/line and specifications
+  if (category === '벽지') {
+    const lineClean = (line || "").replace(/\s+/g, '');
+    const nameClean = (name || "").replace(/\s+/g, '');
+    const codeClean = (code || "").toUpperCase();
+
+    if (brand === 'LX' || brand === 'LG') {
+      const getWallpaperWidth = (sizeStr, lineStr, codeStr) => {
+        const s = (sizeStr || "") + "_" + (lineStr || "") + "_" + (codeStr || "");
+        if (s.includes('106') || s.includes('1.06')) return 106;
+        if (s.includes('93') || s.includes('0.93')) return 93;
+        if (s.includes('53') || s.includes('0.53')) return 53;
+        return 106; // Default to 106cm
+      };
+
+      const isFDiamant = lineClean.includes('F디아망') || lineClean.includes('에프디아망') || (lineClean.startsWith('F') && lineClean.includes('디아망'));
+      const isFSilk = lineClean.includes('F실크') || lineClean.includes('에프실크') || (lineClean.startsWith('F') && lineClean.includes('실크'));
+      const isFCeiling = lineClean.includes('F천정지') || lineClean.includes('에프천정지') || (lineClean.startsWith('F') && lineClean.includes('천정지'));
+      const isDiamantFortis = lineClean.includes('디아망포티스') || lineClean.includes('포티스');
+      const isDiamant = !isFDiamant && !isDiamantFortis && lineClean.includes('디아망');
+      const isBesti = lineClean.includes('베스띠') || lineClean.includes('베스트');
+      const isTherapy = lineClean.includes('테라피');
+      const isMural = lineClean.includes('뮤럴');
+      
+      const isNarrow = lineClean.includes('소폭') || nameClean.includes('소폭') || codeClean.includes('소폭');
+      const isCeilingLaminated = lineClean.includes('합지천정지') || lineClean.includes('합지 천정지') || (lineClean.includes('천정지') && lineClean.includes('합지'));
+      const isCeilingSilk = !isFCeiling && !isCeilingLaminated && (lineClean.includes('실크천정지') || lineClean.includes('실크 천정지') || lineClean.includes('천정지'));
+      
+      const isHianceLaminated = lineClean.includes('휘앙세') || lineClean.includes('합지') || nameClean.includes('휘앙세') || nameClean.includes('합지');
+      const width = getWallpaperWidth(size, line, code);
+
+      if (isFDiamant) {
+        price = 100000;
+        size = '106cm × 15.5m';
+        unit = '1롤';
+      } else if (isFSilk) {
+        price = 73000;
+        size = '82.70㎡';
+        unit = '1롤';
+      } else if (isFCeiling) {
+        price = 95000;
+        size = '10평 / 1Roll';
+        unit = '1롤';
+      } else if (isDiamantFortis) {
+        price = 90000;
+        size = '106cm × 15.5m';
+        unit = '1롤';
+      } else if (isDiamant) {
+        price = 65000;
+        size = '106cm × 15.5m';
+        unit = '1롤';
+      } else if (isBesti) {
+        price = 45000;
+        size = '106cm × 15.5m';
+        unit = '1롤';
+      } else if (isTherapy) {
+        price = 45000;
+        size = '106cm × 15.5m';
+        unit = '1롤';
+      } else if (isCeilingSilk) {
+        price = 50000;
+        size = '106cm × 31m';
+        unit = '1롤';
+      } else if (isCeilingLaminated) {
+        price = 38000;
+        size = '93cm × 35.5m';
+        unit = '1롤';
+      } else if (isNarrow || width === 53) {
+        price = 88000;
+        size = '53cm × 12.5m';
+        unit = '20롤/박스';
+      } else if (isMural) {
+        price = 115000;
+        size = '100cm × 2.4m';
+        unit = '1폭';
+      } else if (isHianceLaminated) {
+        if (width === 93) {
+          price = 23000;
+          size = '93cm × 17.75m';
+          unit = '1롤';
+        } else {
+          price = 25000;
+          size = '106cm × 15.5m';
+          unit = '1롤';
+        }
+      }
+    } else if (brand === '개나리') {
+      const isPrimo = lineClean.includes('프리미엄') || lineClean.includes('프리모');
+      const isLohas = lineClean.includes('로하스');
+      const isArtbook = lineClean.includes('아트북');
+      const isNarrow = lineClean.includes('소폭') || nameClean.includes('소폭') || codeClean.includes('소폭');
+      const isLaminatedWide = lineClean.includes('장폭') || lineClean.includes('합지');
+      
+      const isFCeiling = lineClean.includes('천정지') && lineClean.includes('방염');
+      const isFSilk = !isFCeiling && lineClean.includes('방염') && (lineClean.includes('프리모') || codeClean.startsWith('99'));
+      const isFBangyeom = !isFCeiling && !isFSilk && lineClean.includes('방염');
+
+      const isCeilingSilk = !lineClean.includes('방염') && lineClean.includes('천정지') && (lineClean.includes('실크') || isLohas || isArtbook);
+      const isCeilingLaminated = !lineClean.includes('방염') && lineClean.includes('천정지') && (lineClean.includes('합지') || isLaminatedWide);
+
+      if (isFSilk) {
+        price = 105000;
+        size = '106cm × 15.5m';
+        unit = '1롤';
+      } else if (isFCeiling) {
+        price = 60000;
+        size = '106cm × 15.5m';
+        unit = '1롤';
+      } else if (isFBangyeom) {
+        price = 75000;
+        size = '106cm × 15.5m';
+        unit = '1롤';
+      } else if (isPrimo) {
+        price = 58000;
+        size = '106cm × 15.5m';
+        unit = '1롤';
+      } else if (isLohas) {
+        price = 47000;
+        size = '106cm × 15.5m';
+        unit = '1롤';
+      } else if (isArtbook) {
+        price = 41000;
+        size = '106cm × 15.5m';
+        unit = '1롤';
+      } else if (isCeilingSilk) {
+        price = 28000;
+        size = '106cm × 15.5m';
+        unit = '1롤';
+      } else if (isCeilingLaminated) {
+        price = 22000;
+        size = '93cm × 17.75m';
+        unit = '1롤';
+      } else if (isNarrow) {
+        price = 90000;
+        size = '53cm × 12.5m';
+        unit = '20롤/박스';
+      } else if (isLaminatedWide) {
+        if (lineClean.includes('타일') || nameClean.includes('타일') || codeClean.includes('타일')) {
+          price = 55000;
+          size = '106cm × 15.5m';
+          unit = '1롤';
+        } else {
+          price = 25000;
+          size = '93cm × 17.75m';
+          unit = '1롤';
+        }
+      }
+    } else if (brand === '서울') {
+      const isSilk = lineClean.includes('실크');
+      const isLaminated = lineClean.includes('합지') || lineClean.includes('소폭');
+      const isPremium = lineClean.includes('프리미엄');
+      const isCeiling = lineClean.includes('천정지') || lineClean.includes('천정');
+
+      if (isPremium) {
+        if (existing) price = existing.price || 0;
+      } else if (lineClean.includes('방염')) {
+        if (existing) price = existing.price || 0;
+      } else if (isSilk) {
+        if (isCeiling) {
+          price = 46000;
+          size = '106cm × 31m';
+          unit = '1롤';
+        } else {
+          const mainPart = codeClean.split('-')[0].replace(/[^0-9]/g, "");
+          if (mainPart.length === 3) {
+            price = 37000;
+            size = '106cm × 15.5m';
+            unit = '1롤';
+          } else {
+            price = 42000;
+            size = '106cm × 15.5m';
+            unit = '1롤';
+          }
+        }
+      } else if (isLaminated) {
+        const isNarrow = lineClean.includes('소폭') || nameClean.includes('소폭') || codeClean.includes('소폭');
+        if (isCeiling) {
+          price = 35000;
+          size = '91cm × 36.4m';
+          unit = '1롤';
+        } else if (isNarrow) {
+          price = 78000;
+          size = '53cm × 12.5m';
+          unit = '20롤/박스';
+        } else {
+          price = 23000;
+          size = '91cm × 18.2m';
+          unit = '1롤';
+        }
+      }
+    }
+  }
+
+  // Override '카페트타일' price for brand '스완'
+  if (category === '카페트타일') {
+    if (brand === '스완') {
+      const codeClean = (code || "").toUpperCase();
+      const lineClean = (line || "").replace(/\s+/g, '');
+
+      if (lineClean.includes('타일') || lineClean.includes('타일카페트')) {
+        if (codeClean.startsWith('BA')) {
+          price = 59000;
+        } else if (codeClean.startsWith('BS')) {
+          price = 59000;
+        } else if (codeClean.startsWith('RA')) {
+          price = 60000;
+        } else if (codeClean.startsWith('CT') || codeClean.startsWith('CITY')) {
+          price = 65000;
+        } else if (codeClean.startsWith('MJ')) {
+          price = 75000;
+        } else if (codeClean.startsWith('FS') || codeClean.startsWith('FP')) {
+          price = 88000;
+        } else if (codeClean.startsWith('SQ')) {
+          price = 90000;
+        } else if (codeClean.startsWith('SP')) {
+          price = 115000;
+        } else if (codeClean.startsWith('TR')) {
+          price = 115000;
+        } else if (codeClean.startsWith('GL') || codeClean.startsWith('GP')) {
+          price = 118000;
+        } else if (codeClean.startsWith('MX')) {
+          price = 190000;
+        } else {
+          price = 0;
+        }
+        size = '500mm x 500mm';
+        unit = '1박스 (4㎡)';
+      } else if (lineClean.includes('롤') || lineClean.includes('롤카페트')) {
+        price = 0;
+        size = '폭 3.64m ~ 3.66m';
+        unit = '1㎡';
+      }
     }
   }
 
@@ -428,6 +711,12 @@ groups.forEach((group, key) => {
     },
     description
   };
+
+  if (kccMatch) {
+    productObj.shape = kccMatch.shape;
+    productObj.pattern = kccMatch.pattern;
+    productObj.specs.area = kccMatch.area;
+  }
 
   if (dongshinMatch) {
     productObj.collection = dongshinMatch.collection;

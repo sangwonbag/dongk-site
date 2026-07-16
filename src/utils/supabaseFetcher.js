@@ -109,6 +109,12 @@ export async function fetchAllProducts(forceRefresh = false) {
       if (m.subCategory) mapped.subCategory = m.subCategory;
       if (m.catalog) mapped.catalog = m.catalog;
       if (m.productName) mapped.productName = m.productName;
+      if (m.shape) mapped.shape = m.shape;
+      if (m.pattern) mapped.pattern = m.pattern;
+      if (m.specs && m.specs.area) {
+        if (!mapped.specs) mapped.specs = {};
+        mapped.specs.area = m.specs.area;
+      }
 
       return normalizeProductDetails(mapped);
     });
@@ -187,6 +193,16 @@ export function mapProductRow(p) {
     }
     if (localMatch.sizeOptions) {
       mapped.sizeOptions = localMatch.sizeOptions;
+    }
+    if (localMatch.shape) {
+      mapped.shape = localMatch.shape;
+    }
+    if (localMatch.pattern) {
+      mapped.pattern = localMatch.pattern;
+    }
+    if (localMatch.specs && localMatch.specs.area) {
+      if (!mapped.specs) mapped.specs = {};
+      mapped.specs.area = localMatch.specs.area;
     }
   }
 

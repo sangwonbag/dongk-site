@@ -15751,24 +15751,6 @@ export const imageManifest = [
     "normalizedFileName": "h819401jpg"
   },
   {
-    "fileName": "._7043-01.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EC%8B%A4%ED%81%AC/LX_%ED%85%8C%EB%9D%BC%ED%94%BC/__MACOSX/._7043-01.jpg",
-    "category": "벽지",
-    "brand": "LX",
-    "series": "실크/LX_테라피/__MACOSX",
-    "extractedCode": "._7043-01",
-    "normalizedFileName": "704301jpg"
-  },
-  {
-    "fileName": "._7043-02.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EC%8B%A4%ED%81%AC/LX_%ED%85%8C%EB%9D%BC%ED%94%BC/__MACOSX/._7043-02.jpg",
-    "category": "벽지",
-    "brand": "LX",
-    "series": "실크/LX_테라피/__MACOSX",
-    "extractedCode": "._7043-02",
-    "normalizedFileName": "704302jpg"
-  },
-  {
     "fileName": "90013-1.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/90013-1.jpg",
     "category": "벽지",

@@ -13,6 +13,9 @@ function collectFiles(dir) {
   if (!fs.existsSync(dir)) return results;
   const list = fs.readdirSync(dir);
   list.forEach(file => {
+    if (file.toUpperCase().includes('MACOSX') || file.startsWith('._')) {
+      return;
+    }
     const fullPath = path.join(dir, file);
     const stat = fs.statSync(fullPath);
     if (stat.isDirectory()) {

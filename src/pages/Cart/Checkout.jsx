@@ -53,7 +53,7 @@ export default function Checkout() {
   const [errorMsg, setErrorMsg] = useState("");
   const [isOrderSuccess, setIsOrderSuccess] = useState(false);
 
-  // --- B2B 배송 방식 및 부자재 추가 상태 ---
+  // --- 현장 배송 방식 및 부자재 추가 상태 ---
   const CARGO_BRANCHES = [
     { name: "대신화물 하남지점", address: "경기 하남시 서하남로 42", phone: "02-421-2321" },
     { name: "대신화물 성남지점", address: "경기 성남시 중원구 둔촌대로 100", phone: "031-744-1212" },
@@ -113,6 +113,29 @@ export default function Checkout() {
   // Helper to calculate actual pyeong based on packing unit, option specs, etc.
   const getProductPyeong = (item) => {
     if (!item) return 0;
+
+    // Check if KCC Decotile
+    if (item.brand === 'KCC' && item.category === '데코타일') {
+      const line = item.line || "";
+      const name = item.name || "";
+      const code = item.code || "";
+      let sqmPerBox = 3.32; // Default wood
+      if (line.includes('센스레이') || (code.toUpperCase().startsWith('B') && code.toUpperCase().endsWith('J'))) {
+        sqmPerBox = 2.51;
+      } else if (name.includes('600각') || code.toUpperCase().endsWith('M')) {
+        sqmPerBox = 3.24;
+      } else if (name.includes('450각') || code.toUpperCase().endsWith('P')) {
+        sqmPerBox = 3.34;
+      }
+      const qty = parseInt(item.quantity) || 1;
+      const totalSqm = qty * sqmPerBox;
+      return totalSqm / 3.3058; // 1평 = 3.3058㎡
+    }
+
+    if (item.brand === '스완' && item.category === '카페트타일') {
+      const qty = parseInt(item.quantity) || 1;
+      return qty * 1.21;
+    }
     
     // Priority 1: Check if there's a stored pyeong or area property
     if (item.pyeong !== undefined && item.pyeong !== null && !isNaN(parseFloat(item.pyeong))) {
@@ -379,10 +402,23 @@ export default function Checkout() {
   }, [showPostcodeLayer]);
 
   // 총액 자동 계산
+  const getItemUnitPrice = (item, qty) => {
+    const basePrice = parsePrice(item.price || item.unit_price);
+    const brand = item.brand || "";
+    const name = item.name || "";
+    const line = item.line || "";
+    const spec = item.spec || (item.specs && item.specs.size) || "";
+    const isSeoulCozyNarrow = brand === '서울' && (line.includes('소폭') || name.includes('소폭') || spec.includes('53'));
+    if (isSeoulCozyNarrow && qty >= 10) {
+      return 73000;
+    }
+    return basePrice;
+  };
+
   const calculateTotal = () => {
     return checkoutItems.reduce((sum, item) => {
       const qty = Math.max(1, parseInt(item.quantity) || 1);
-      const price = parsePrice(item.price || item.unit_price);
+      const price = getItemUnitPrice(item, qty);
       return sum + (price * qty);
     }, 0);
   };
@@ -617,7 +653,7 @@ export default function Checkout() {
               <div className="summary-item-list" style={{ maxHeight: 'none', overflowY: 'visible' }}>
                 {checkoutItems.map((item) => {
                   const qty = Math.max(1, parseInt(item.quantity) || 1);
-                  const price = parsePrice(item.price || item.unit_price);
+                  const price = getItemUnitPrice(item, qty);
                   const hasPrice = price > 0;
                   const itemSpec = item.spec || item.specs?.size || "표준규격";
                   const itemPacking = item.packing || item.specs?.packing || "1박스 단위";
@@ -986,7 +1022,7 @@ export default function Checkout() {
                   </div>
                 </div>
 
-                {/* 🏗️ B2B 현장 배송 조건 입력 필드 */}
+                {/* 🏗️ 현장 배송 조건 입력 필드 */}
                 <div className="form-group-checkout-radio-row">
                   <div className="radio-field">
                     <label>엘리베이터 유무 <span className="req">*</span></label>

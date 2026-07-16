@@ -62,538 +62,609 @@ export const materials = [
     "id": "데코타일-kcc-kcc_pro-30082p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30082P",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 그란데 테라조 30082P",
     "code": "30082P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30082P.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30082P.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30082P.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "size": "3T×457.2×457.2mm",
+      "packing": "16PCS/BOX",
+      "area": "3.34㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "450각",
+    "pattern": "그란데 테라조"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30102p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30102P",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 믹스 쉐브론 30102P",
     "code": "30102P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30102P.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30102P.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30102P.png"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30102P.png",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30102P_1.png",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30102P_2.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "size": "3T×457.2×457.2mm",
+      "packing": "16PCS/BOX",
+      "area": "3.34㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "450각",
+    "pattern": "믹스 쉐브론"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30111p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30111P",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 텍스처 콘크리트 30111P",
     "code": "30111P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30111P.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30111P.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30111P.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "size": "3T×457.2×457.2mm",
+      "packing": "16PCS/BOX",
+      "area": "3.34㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "450각",
+    "pattern": "텍스처 콘크리트"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30112p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30112P",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 텍스처 콘크리트 30112P",
     "code": "30112P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30112P.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30112P.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30112P.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "size": "3T×457.2×457.2mm",
+      "packing": "16PCS/BOX",
+      "area": "3.34㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "450각",
+    "pattern": "텍스처 콘크리트"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30113p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30113P",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 텍스처 콘크리트 30113P",
     "code": "30113P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30113P.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30113P.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30113P.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "size": "3T×457.2×457.2mm",
+      "packing": "16PCS/BOX",
+      "area": "3.34㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "450각",
+    "pattern": "텍스처 콘크리트"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30114p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30114P",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 텍스처 콘크리트 30114P",
     "code": "30114P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30114P.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30114P.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30114P.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "size": "3T×457.2×457.2mm",
+      "packing": "16PCS/BOX",
+      "area": "3.34㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "450각",
+    "pattern": "텍스처 콘크리트"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30133p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30133P",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 트래버틴 30133P",
     "code": "30133P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30133P.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30133P.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30133P.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "size": "3T×457.2×457.2mm",
+      "packing": "16PCS/BOX",
+      "area": "3.34㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "450각",
+    "pattern": "트래버틴"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30141m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30141M",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 실키스톤 30141M",
     "code": "30141M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30141M.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30141M.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30141M.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "3T×600×600mm",
+      "packing": "9PCS/BOX",
+      "area": "3.24㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "600각",
+    "pattern": "실키스톤"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30142m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30142M",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 실키스톤 30142M",
     "code": "30142M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30142M.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30142M.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30142M.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "3T×600×600mm",
+      "packing": "9PCS/BOX",
+      "area": "3.24㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "600각",
+    "pattern": "실키스톤"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30151m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30151M",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 베이직 콘크리트 30151M",
     "code": "30151M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30151M.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30151M.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30151M.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "3T×600×600mm",
+      "packing": "9PCS/BOX",
+      "area": "3.24㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "600각",
+    "pattern": "베이직 콘크리트"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30152m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30152M",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 베이직 콘크리트 30152M",
     "code": "30152M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30152M.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30152M.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30152M.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "3T×600×600mm",
+      "packing": "9PCS/BOX",
+      "area": "3.24㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "600각",
+    "pattern": "베이직 콘크리트"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30153m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30153M",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 베이직 콘크리트 30153M",
     "code": "30153M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30153M.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30153M.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30153M.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "3T×600×600mm",
+      "packing": "9PCS/BOX",
+      "area": "3.24㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "600각",
+    "pattern": "베이직 콘크리트"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30154m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30154M",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 베이직 콘크리트 30154M",
     "code": "30154M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30154M.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30154M.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30154M.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "3T×600×600mm",
+      "packing": "9PCS/BOX",
+      "area": "3.24㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "600각",
+    "pattern": "베이직 콘크리트"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30161m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30161M",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 임페리얼 스톤 30161M",
     "code": "30161M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30161M.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30161M.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30161M.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "3T×600×600mm",
+      "packing": "9PCS/BOX",
+      "area": "3.24㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "600각",
+    "pattern": "임페리얼 스톤"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30162m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30162M",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 임페리얼 스톤 30162M",
     "code": "30162M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30162M.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30162M.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30162M.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "3T×600×600mm",
+      "packing": "9PCS/BOX",
+      "area": "3.24㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "600각",
+    "pattern": "임페리얼 스톤"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30163m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30163M",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 임페리얼 스톤 30163M",
     "code": "30163M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30163M.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30163M.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30163M.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "3T×600×600mm",
+      "packing": "9PCS/BOX",
+      "area": "3.24㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "600각",
+    "pattern": "임페리얼 스톤"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30171m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30171M",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 델리카토 30171M",
     "code": "30171M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30171M.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30171M.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30171M.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "3T×600×600mm",
+      "packing": "9PCS/BOX",
+      "area": "3.24㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "600각",
+    "pattern": "델리카토"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30181m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30181M",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 마이크로 테라조 30181M",
     "code": "30181M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30181M.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30181M.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30181M.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "3T×600×600mm",
+      "packing": "9PCS/BOX",
+      "area": "3.24㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "600각",
+    "pattern": "마이크로 테라조"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30182m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30182M",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 마이크로 테라조 30182M",
     "code": "30182M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30182M.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30182M.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30182M.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "3T×600×600mm",
+      "packing": "9PCS/BOX",
+      "area": "3.24㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "600각",
+    "pattern": "마이크로 테라조"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30191m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30191M",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 로만스톤 30191M",
     "code": "30191M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30191M.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30191M.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30191M.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "3T×600×600mm",
+      "packing": "9PCS/BOX",
+      "area": "3.24㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "600각",
+    "pattern": "로만스톤"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30192m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30192M",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 로만스톤 30192M",
     "code": "30192M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30192M.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30192M.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30192M.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "3T×600×600mm",
+      "packing": "9PCS/BOX",
+      "area": "3.24㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "600각",
+    "pattern": "로만스톤"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30193m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30193M",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 로만스톤 30193M",
     "code": "30193M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30193M.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30193M.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30193M.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "3T×600×600mm",
+      "packing": "9PCS/BOX",
+      "area": "3.24㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "600각",
+    "pattern": "로만스톤"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30201m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30201M",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 화이트 라이노 30201M",
     "code": "30201M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30201M.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30201M.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30201M.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "3T×600×600mm",
+      "packing": "9PCS/BOX",
+      "area": "3.24㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "600각",
+    "pattern": "화이트 라이노"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30221p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30221P",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 네오 패브릭 30221P",
     "code": "30221P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30221P_0.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30221P_0.png",
@@ -601,23 +672,26 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30221P_0.png",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30221P_1.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "size": "3T×457.2×457.2mm",
+      "packing": "16PCS/BOX",
+      "area": "3.34㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "450각",
+    "pattern": "네오 패브릭"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30222p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30222P",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 네오 패브릭 30222P",
     "code": "30222P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30222P.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30222P.png",
@@ -625,23 +699,26 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30222P.png",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30222P_1.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "size": "3T×457.2×457.2mm",
+      "packing": "16PCS/BOX",
+      "area": "3.34㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "450각",
+    "pattern": "네오 패브릭"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30223p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30223P",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 네오 패브릭 30223P",
     "code": "30223P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30223P.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30223P.png",
@@ -649,23 +726,26 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30223P.png",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30223P_1.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "size": "3T×457.2×457.2mm",
+      "packing": "16PCS/BOX",
+      "area": "3.34㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "450각",
+    "pattern": "네오 패브릭"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30224p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30224P",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 네오 패브릭 30224P",
     "code": "30224P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30224P.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30224P.png",
@@ -673,23 +753,26 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30224P.png",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30224P_1.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "size": "3T×457.2×457.2mm",
+      "packing": "16PCS/BOX",
+      "area": "3.34㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "450각",
+    "pattern": "네오 패브릭"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30225p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30225P",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 네오 패브릭 30225P",
     "code": "30225P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30225P.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30225P.png",
@@ -697,23 +780,26 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30225P.png",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30225P_1.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "size": "3T×457.2×457.2mm",
+      "packing": "16PCS/BOX",
+      "area": "3.34㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "450각",
+    "pattern": "네오 패브릭"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30226p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "30226P",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 네오 패브릭 30226P",
     "code": "30226P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30226P_0.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30226P_0.png",
@@ -721,1096 +807,1240 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30226P_0.png",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30226P_1.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "size": "3T×457.2×457.2mm",
+      "packing": "16PCS/BOX",
+      "area": "3.34㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "450각",
+    "pattern": "네오 패브릭"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33011p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "33011P",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 추상 33011P",
     "code": "33011P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33011P.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33011P.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33011P.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "size": "3T×457.2×457.2mm",
+      "packing": "16PCS/BOX",
+      "area": "3.34㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "450각",
+    "pattern": "추상"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33021m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "33021M",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 콘크리트 33021M",
     "code": "33021M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33021M.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33021M.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33021M.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "3T×600×600mm",
+      "packing": "9PCS/BOX",
+      "area": "3.24㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "600각",
+    "pattern": "콘크리트"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33022m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "33022M",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 콘크리트 33022M",
     "code": "33022M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33022M.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33022M.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33022M.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "3T×600×600mm",
+      "packing": "9PCS/BOX",
+      "area": "3.24㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "600각",
+    "pattern": "콘크리트"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33023m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "33023M",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 콘크리트 33023M",
     "code": "33023M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33023M.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33023M.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33023M.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "3T×600×600mm",
+      "packing": "9PCS/BOX",
+      "area": "3.24㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "600각",
+    "pattern": "콘크리트"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33031m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "33031M",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 사하라 누아르 33031M",
     "code": "33031M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33031M.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33031M.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33031M.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "3T×600×600mm",
+      "packing": "9PCS/BOX",
+      "area": "3.24㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "600각",
+    "pattern": "사하라 누아르"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33032m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "33032M",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 사하라 누아르 33032M",
     "code": "33032M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33032M.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33032M.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33032M.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "3T×600×600mm",
+      "packing": "9PCS/BOX",
+      "area": "3.24㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "600각",
+    "pattern": "사하라 누아르"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33101m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "33101M",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 카펫 33101M",
     "code": "33101M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33101M.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33101M.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33101M.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "3T×600×600mm",
+      "packing": "9PCS/BOX",
+      "area": "3.24㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "600각",
+    "pattern": "카펫"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33102m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "33102M",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 카펫 33102M",
     "code": "33102M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33102M.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33102M.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33102M.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "3T×600×600mm",
+      "packing": "9PCS/BOX",
+      "area": "3.24㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "600각",
+    "pattern": "카펫"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33121p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "33121P",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 스트라이프 카펫 33121P",
     "code": "33121P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33121P.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33121P.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33121P.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "size": "3T×457.2×457.2mm",
+      "packing": "16PCS/BOX",
+      "area": "3.34㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "450각",
+    "pattern": "스트라이프 카펫"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33122p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "33122P",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 스트라이프 카펫 33122P",
     "code": "33122P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33122P.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33122P.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33122P.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "size": "3T×457.2×457.2mm",
+      "packing": "16PCS/BOX",
+      "area": "3.34㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "450각",
+    "pattern": "스트라이프 카펫"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33151m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "33151M",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 헤라 콘크리트 33151M",
     "code": "33151M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33151M.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33151M.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33151M.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "3T×600×600mm",
+      "packing": "9PCS/BOX",
+      "area": "3.24㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "600각",
+    "pattern": "헤라 콘크리트"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33152m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "33152M",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 헤라 콘크리트 33152M",
     "code": "33152M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33152M.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33152M.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33152M.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "size": "3T×600×600mm",
+      "packing": "9PCS/BOX",
+      "area": "3.24㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "600각",
+    "pattern": "헤라 콘크리트"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33161p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "33161P",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 마블 33161P",
     "code": "33161P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33161P.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33161P.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33161P.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "size": "3T×457.2×457.2mm",
+      "packing": "16PCS/BOX",
+      "area": "3.34㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "450각",
+    "pattern": "마블"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33171p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "33171P",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 리버스톤 33171P",
     "code": "33171P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33171P.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33171P.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33171P.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "size": "3T×457.2×457.2mm",
+      "packing": "16PCS/BOX",
+      "area": "3.34㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "450각",
+    "pattern": "리버스톤"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33172p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "33172P",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 리버스톤 33172P",
     "code": "33172P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33172P.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33172P.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33172P.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "size": "3T×457.2×457.2mm",
+      "packing": "16PCS/BOX",
+      "area": "3.34㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "450각",
+    "pattern": "리버스톤"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33181p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "33181P",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 콘그레이 33181P",
     "code": "33181P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33181P.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33181P.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33181P.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "size": "3T×457.2×457.2mm",
+      "packing": "16PCS/BOX",
+      "area": "3.34㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "450각",
+    "pattern": "콘그레이"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33182p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "33182P",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 콘그레이 33182P",
     "code": "33182P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33182P.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33182P.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33182P.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "size": "3T×457.2×457.2mm",
+      "packing": "16PCS/BOX",
+      "area": "3.34㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "450각",
+    "pattern": "콘그레이"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33183p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "33183P",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 콘그레이 33183P",
     "code": "33183P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33183P.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33183P.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33183P.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "size": "3T×457.2×457.2mm",
+      "packing": "16PCS/BOX",
+      "area": "3.34㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "450각",
+    "pattern": "콘그레이"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33191p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "33191P",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 소프트 콘크리트 33191P",
     "code": "33191P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33191P.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33191P.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33191P.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "size": "3T×457.2×457.2mm",
+      "packing": "16PCS/BOX",
+      "area": "3.34㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "450각",
+    "pattern": "소프트 콘크리트"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33192p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "33192P",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 소프트 콘크리트 33192P",
     "code": "33192P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33192P.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33192P.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33192P.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "size": "3T×457.2×457.2mm",
+      "packing": "16PCS/BOX",
+      "area": "3.34㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "450각",
+    "pattern": "소프트 콘크리트"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33201p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "33201P",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 테라조 33201P",
     "code": "33201P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33201P.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33201P.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33201P.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "size": "3T×457.2×457.2mm",
+      "packing": "16PCS/BOX",
+      "area": "3.34㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "450각",
+    "pattern": "테라조"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33211p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "33211P",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 카펫 33211P",
     "code": "33211P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33211P.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33211P.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33211P.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "size": "3T×457.2×457.2mm",
+      "packing": "16PCS/BOX",
+      "area": "3.34㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "450각",
+    "pattern": "카펫"
   },
   {
     "id": "데코타일-kcc-kcc_pro-35001g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "35001G",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 앤틱 오크 35001G",
     "code": "35001G",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35001G.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35001G.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35001G.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "184 x 950 x 3.0mm",
-      "packing": "19pcs / 3.32㎡"
+      "size": "3T×184×950mm",
+      "packing": "19PCS/BOX",
+      "area": "3.32㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "우드",
+    "pattern": "앤틱 오크"
   },
   {
     "id": "데코타일-kcc-kcc_pro-35011g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "35011G",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 크랙 오크 35011G",
     "code": "35011G",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35011G.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35011G.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35011G.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "184 x 950 x 3.0mm",
-      "packing": "19pcs / 3.32㎡"
+      "size": "3T×184×950mm",
+      "packing": "19PCS/BOX",
+      "area": "3.32㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "우드",
+    "pattern": "크랙 오크"
   },
   {
     "id": "데코타일-kcc-kcc_pro-35022g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "35022G",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 노르딕 오크 35022G",
     "code": "35022G",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35022G.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35022G.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35022G.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "184 x 950 x 3.0mm",
-      "packing": "19pcs / 3.32㎡"
+      "size": "3T×184×950mm",
+      "packing": "19PCS/BOX",
+      "area": "3.32㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "우드",
+    "pattern": "노르딕 오크"
   },
   {
     "id": "데코타일-kcc-kcc_pro-35042g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "35042G",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 캐시드럴 오크 35042G",
     "code": "35042G",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35042G.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35042G.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35042G.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "184 x 950 x 3.0mm",
-      "packing": "19pcs / 3.32㎡"
+      "size": "3T×184×950mm",
+      "packing": "19PCS/BOX",
+      "area": "3.32㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "우드",
+    "pattern": "캐시드럴 오크"
   },
   {
     "id": "데코타일-kcc-kcc_pro-35043g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "35043G",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 캐시드럴 오크 35043G",
     "code": "35043G",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35043G.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35043G.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35043G.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "184 x 950 x 3.0mm",
-      "packing": "19pcs / 3.32㎡"
+      "size": "3T×184×950mm",
+      "packing": "19PCS/BOX",
+      "area": "3.32㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "우드",
+    "pattern": "캐시드럴 오크"
   },
   {
     "id": "데코타일-kcc-kcc_pro-35051g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "35051G",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 내추럴 오크 35051G",
     "code": "35051G",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35051G.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35051G.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35051G.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "184 x 950 x 3.0mm",
-      "packing": "19pcs / 3.32㎡"
+      "size": "3T×184×950mm",
+      "packing": "19PCS/BOX",
+      "area": "3.32㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "우드",
+    "pattern": "내추럴 오크"
   },
   {
     "id": "데코타일-kcc-kcc_pro-35052g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "35052G",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 내추럴 오크 35052G",
     "code": "35052G",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35052G.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35052G.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35052G.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "184 x 950 x 3.0mm",
-      "packing": "19pcs / 3.32㎡"
+      "size": "3T×184×950mm",
+      "packing": "19PCS/BOX",
+      "area": "3.32㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "우드",
+    "pattern": "내추럴 오크"
   },
   {
     "id": "데코타일-kcc-kcc_pro-35062g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "35062G",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 쏘우밀 오크 35062G",
     "code": "35062G",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35062G.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35062G.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35062G.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "184 x 950 x 3.0mm",
-      "packing": "19pcs / 3.32㎡"
+      "size": "3T×184×950mm",
+      "packing": "19PCS/BOX",
+      "area": "3.32㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "우드",
+    "pattern": "쏘우밀 오크"
   },
   {
     "id": "데코타일-kcc-kcc_pro-35064g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "35064G",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 쏘우밀 오크 35064G",
     "code": "35064G",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35064G.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35064G.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35064G.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "184 x 950 x 3.0mm",
-      "packing": "19pcs / 3.32㎡"
+      "size": "3T×184×950mm",
+      "packing": "19PCS/BOX",
+      "area": "3.32㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "우드",
+    "pattern": "쏘우밀 오크"
   },
   {
     "id": "데코타일-kcc-kcc_pro-38011g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "38011G",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 오크 38011G",
     "code": "38011G",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38011G.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38011G.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38011G.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "184 x 950 x 3.0mm",
-      "packing": "19pcs / 3.32㎡"
+      "size": "3T×184×950mm",
+      "packing": "19PCS/BOX",
+      "area": "3.32㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "우드",
+    "pattern": "오크"
   },
   {
     "id": "데코타일-kcc-kcc_pro-38021g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "38021G",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 오크 38021G",
     "code": "38021G",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38021G.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38021G.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38021G.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "184 x 950 x 3.0mm",
-      "packing": "19pcs / 3.32㎡"
+      "size": "3T×184×950mm",
+      "packing": "19PCS/BOX",
+      "area": "3.32㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "우드",
+    "pattern": "오크"
   },
   {
     "id": "데코타일-kcc-kcc_pro-38031g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "38031G",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 오크 38031G",
     "code": "38031G",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38031G.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38031G.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38031G.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "184 x 950 x 3.0mm",
-      "packing": "19pcs / 3.32㎡"
+      "size": "3T×184×950mm",
+      "packing": "19PCS/BOX",
+      "area": "3.32㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "우드",
+    "pattern": "오크"
   },
   {
     "id": "데코타일-kcc-kcc_pro-38141g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "38141G",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 오크 38141G",
     "code": "38141G",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38141G.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38141G.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38141G.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "184 x 950 x 3.0mm",
-      "packing": "19pcs / 3.32㎡"
+      "size": "3T×184×950mm",
+      "packing": "19PCS/BOX",
+      "area": "3.32㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "우드",
+    "pattern": "오크"
   },
   {
     "id": "데코타일-kcc-kcc_pro-38142g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "38142G",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 오크 38142G",
     "code": "38142G",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38142G.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38142G.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38142G.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "184 x 950 x 3.0mm",
-      "packing": "19pcs / 3.32㎡"
+      "size": "3T×184×950mm",
+      "packing": "19PCS/BOX",
+      "area": "3.32㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "우드",
+    "pattern": "오크"
   },
   {
     "id": "데코타일-kcc-kcc_pro-38191g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "38191G",
+    "line": "센스타일 프로",
+    "subLine": "센스타일 프로",
+    "name": "KCC 센스타일 프로 오크 38191G",
     "code": "38191G",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38191G.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38191G.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38191G.png"
     ],
-    "price": 35000,
+    "price": 48000,
     "thickness": "3.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스타일 프로",
       "thickness": "3.0T",
-      "size": "184 x 950 x 3.0mm",
-      "packing": "19pcs / 3.32㎡"
+      "size": "3T×184×950mm",
+      "packing": "19PCS/BOX",
+      "area": "3.32㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스타일 프로",
+    "shape": "우드",
+    "pattern": "오크"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b0111j",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "B0111J",
+    "line": "센스레이 5.0",
+    "subLine": "센스레이 5.0",
+    "name": "KCC 센스레이 텍스처 콘크리트 B0111J",
     "code": "B0111J",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0111J.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0111J.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0111J.png"
     ],
-    "price": 0,
+    "price": 48000,
     "thickness": "5.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스레이 5.0",
       "thickness": "5.0T",
-      "size": "457.2 x 914.4 x 5.0mm",
-      "packing": "6pcs / 2.51㎡"
+      "size": "5T×457.2×914.4mm",
+      "packing": "6PCS/BOX",
+      "area": "2.51㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스레이 5.0",
+    "shape": "직사각",
+    "pattern": "텍스처 콘크리트"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b0112j",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "B0112J",
+    "line": "센스레이 5.0",
+    "subLine": "센스레이 5.0",
+    "name": "KCC 센스레이 텍스처 콘크리트 B0112J",
     "code": "B0112J",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0112J.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0112J.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0112J.png"
     ],
-    "price": 0,
+    "price": 48000,
     "thickness": "5.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스레이 5.0",
       "thickness": "5.0T",
-      "size": "457.2 x 914.4 x 5.0mm",
-      "packing": "6pcs / 2.51㎡"
+      "size": "5T×457.2×914.4mm",
+      "packing": "6PCS/BOX",
+      "area": "2.51㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스레이 5.0",
+    "shape": "직사각",
+    "pattern": "텍스처 콘크리트"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b0113j",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "B0113J",
+    "line": "센스레이 5.0",
+    "subLine": "센스레이 5.0",
+    "name": "KCC 센스레이 텍스처 콘크리트 B0113J",
     "code": "B0113J",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0113J.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0113J.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0113J.png"
     ],
-    "price": 0,
+    "price": 48000,
     "thickness": "5.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스레이 5.0",
       "thickness": "5.0T",
-      "size": "457.2 x 914.4 x 5.0mm",
-      "packing": "6pcs / 2.51㎡"
+      "size": "5T×457.2×914.4mm",
+      "packing": "6PCS/BOX",
+      "area": "2.51㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스레이 5.0",
+    "shape": "직사각",
+    "pattern": "텍스처 콘크리트"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b0114j",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "B0114J",
+    "line": "센스레이 5.0",
+    "subLine": "센스레이 5.0",
+    "name": "KCC 센스레이 텍스처 콘크리트 B0114J",
     "code": "B0114J",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0114J.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0114J.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0114J.png"
     ],
-    "price": 0,
+    "price": 48000,
     "thickness": "5.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스레이 5.0",
       "thickness": "5.0T",
-      "size": "457.2 x 914.4 x 5.0mm",
-      "packing": "6pcs / 2.51㎡"
+      "size": "5T×457.2×914.4mm",
+      "packing": "6PCS/BOX",
+      "area": "2.51㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스레이 5.0",
+    "shape": "직사각",
+    "pattern": "텍스처 콘크리트"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b0122j",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "B0122J",
+    "line": "센스레이 5.0",
+    "subLine": "센스레이 5.0",
+    "name": "KCC 센스레이 어반 스톤 B0122J",
     "code": "B0122J",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0122J.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0122J.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0122J.png"
     ],
-    "price": 0,
+    "price": 48000,
     "thickness": "5.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스레이 5.0",
       "thickness": "5.0T",
-      "size": "457.2 x 914.4 x 5.0mm",
-      "packing": "6pcs / 2.51㎡"
+      "size": "5T×457.2×914.4mm",
+      "packing": "6PCS/BOX",
+      "area": "2.51㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스레이 5.0",
+    "shape": "직사각",
+    "pattern": "어반 스톤"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b3181j",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "B3181J",
+    "line": "센스레이 5.0",
+    "subLine": "센스레이 5.0",
+    "name": "KCC 센스레이 콘그레이 B3181J",
     "code": "B3181J",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3181J.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3181J.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3181J.png"
     ],
-    "price": 0,
+    "price": 48000,
     "thickness": "5.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스레이 5.0",
       "thickness": "5.0T",
-      "size": "457.2 x 914.4 x 5.0mm",
-      "packing": "6pcs / 2.51㎡"
+      "size": "5T×457.2×914.4mm",
+      "packing": "6PCS/BOX",
+      "area": "2.51㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스레이 5.0",
+    "shape": "직사각",
+    "pattern": "콘그레이"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b3182j",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "B3182J",
+    "line": "센스레이 5.0",
+    "subLine": "센스레이 5.0",
+    "name": "KCC 센스레이 콘그레이 B3182J",
     "code": "B3182J",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3182J.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3182J.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3182J.png"
     ],
-    "price": 0,
+    "price": 48000,
     "thickness": "5.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스레이 5.0",
       "thickness": "5.0T",
-      "size": "457.2 x 914.4 x 5.0mm",
-      "packing": "6pcs / 2.51㎡"
+      "size": "5T×457.2×914.4mm",
+      "packing": "6PCS/BOX",
+      "area": "2.51㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스레이 5.0",
+    "shape": "직사각",
+    "pattern": "콘그레이"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b3183j",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "B3183J",
+    "line": "센스레이 5.0",
+    "subLine": "센스레이 5.0",
+    "name": "KCC 센스레이 콘그레이 B3183J",
     "code": "B3183J",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3183J.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3183J.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3183J.png"
     ],
-    "price": 0,
+    "price": 48000,
     "thickness": "5.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스레이 5.0",
       "thickness": "5.0T",
-      "size": "457.2 x 914.4 x 5.0mm",
-      "packing": "6pcs / 2.51㎡"
+      "size": "5T×457.2×914.4mm",
+      "packing": "6PCS/BOX",
+      "area": "2.51㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스레이 5.0",
+    "shape": "직사각",
+    "pattern": "콘그레이"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b3191j",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "B3191J",
+    "line": "센스레이 5.0",
+    "subLine": "센스레이 5.0",
+    "name": "KCC 센스레이 소프트 콘크리트 B3191J",
     "code": "B3191J",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3191J.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3191J.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3191J.png"
     ],
-    "price": 0,
+    "price": 48000,
     "thickness": "5.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스레이 5.0",
       "thickness": "5.0T",
-      "size": "457.2 x 914.4 x 5.0mm",
-      "packing": "6pcs / 2.51㎡"
+      "size": "5T×457.2×914.4mm",
+      "packing": "6PCS/BOX",
+      "area": "2.51㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스레이 5.0",
+    "shape": "직사각",
+    "pattern": "소프트 콘크리트"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b3192j",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_pro",
-    "subLine": "KCC_pro",
-    "name": "B3192J",
+    "line": "센스레이 5.0",
+    "subLine": "센스레이 5.0",
+    "name": "KCC 센스레이 소프트 콘크리트 B3192J",
     "code": "B3192J",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3192J.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3192J.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3192J.png"
     ],
-    "price": 0,
+    "price": 48000,
     "thickness": "5.0T",
     "specs": {
-      "division": "KCC_pro",
+      "division": "센스레이 5.0",
       "thickness": "5.0T",
-      "size": "457.2 x 914.4 x 5.0mm",
-      "packing": "6pcs / 2.51㎡"
+      "size": "5T×457.2×914.4mm",
+      "packing": "6PCS/BOX",
+      "area": "2.51㎡"
     },
-    "description": "KCC_pro"
+    "description": "센스레이 5.0",
+    "shape": "직사각",
+    "pattern": "소프트 콘크리트"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5502p",
@@ -16413,7 +16643,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4415.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16436,7 +16666,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4417.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16460,7 +16690,7 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4421.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS4421_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16483,7 +16713,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4422.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16506,7 +16736,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4425.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16530,7 +16760,7 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4433.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS4433_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16553,7 +16783,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4434.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16576,7 +16806,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4435.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16599,7 +16829,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5522.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16623,7 +16853,7 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5523.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS5523_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16646,7 +16876,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5524.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16669,7 +16899,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6011.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16692,7 +16922,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6012.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16716,7 +16946,7 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6013.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6013_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16739,7 +16969,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6021.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16763,7 +16993,7 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6022.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6022_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16786,7 +17016,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6023.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16810,7 +17040,7 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6024.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6024_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16833,7 +17063,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6025.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16856,7 +17086,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6026.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16879,7 +17109,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6031.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16902,7 +17132,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6032.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16926,7 +17156,7 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6033.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6033_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16950,7 +17180,7 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6051.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6051_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16973,7 +17203,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6053.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -16997,7 +17227,7 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6062.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6062_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17020,7 +17250,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6063.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17044,7 +17274,7 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6111.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6111_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17067,7 +17297,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6112.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17091,7 +17321,7 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6131.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6131_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17114,7 +17344,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6132.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17137,7 +17367,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6141.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17160,7 +17390,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6142.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17184,7 +17414,7 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6143.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6143_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17207,7 +17437,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6144.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17230,7 +17460,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6151.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17253,7 +17483,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6152.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17276,7 +17506,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6153.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17300,7 +17530,7 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6154.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6154_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17324,7 +17554,7 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6161.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6161_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17347,7 +17577,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6162.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17370,7 +17600,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6163.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17393,7 +17623,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6164.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17416,7 +17646,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3011.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17439,7 +17669,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3012.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17463,7 +17693,7 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3021.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTW3021_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17486,7 +17716,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3024.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17509,7 +17739,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4463.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17533,7 +17763,7 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4464.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTW4464_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17556,7 +17786,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4481.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17579,7 +17809,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4486.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17603,7 +17833,7 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4487.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTW4487_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17626,7 +17856,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4488.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -17649,7 +17879,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS4415_MTS4417_%EC%8B%9C%EA%B3%B5.jpg"
     ],
-    "price": 27000,
+    "price": 26000,
     "thickness": "",
     "specs": {
       "division": "골드타일마스터",
@@ -27061,8 +27291,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27084,8 +27314,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27107,8 +27337,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27130,8 +27360,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27153,8 +27383,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27176,8 +27406,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27199,8 +27429,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27222,8 +27452,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27245,8 +27475,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27268,8 +27498,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27291,8 +27521,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27314,8 +27544,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27337,8 +27567,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27360,8 +27590,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27383,8 +27613,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27406,8 +27636,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27429,8 +27659,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27452,8 +27682,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27475,8 +27705,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27498,8 +27728,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27521,8 +27751,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27544,8 +27774,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27567,8 +27797,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27590,8 +27820,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27613,8 +27843,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27636,8 +27866,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27659,8 +27889,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27682,8 +27912,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27705,8 +27935,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27728,8 +27958,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27751,8 +27981,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27774,8 +28004,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27797,8 +28027,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27820,8 +28050,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27843,8 +28073,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27866,8 +28096,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27889,8 +28119,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27912,8 +28142,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27935,8 +28165,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27958,8 +28188,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -27981,8 +28211,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28004,8 +28234,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28027,8 +28257,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28050,8 +28280,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28073,8 +28303,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28096,8 +28326,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28119,8 +28349,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28142,8 +28372,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28165,8 +28395,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28188,8 +28418,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28211,8 +28441,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28234,8 +28464,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28257,8 +28487,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28280,8 +28510,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28303,8 +28533,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28326,8 +28556,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28349,8 +28579,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28372,8 +28602,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28395,8 +28625,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28418,8 +28648,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28441,8 +28671,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28464,8 +28694,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28487,8 +28717,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28510,8 +28740,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28533,8 +28763,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28556,8 +28786,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28579,8 +28809,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28602,8 +28832,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28625,8 +28855,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28648,8 +28878,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28671,8 +28901,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28694,8 +28924,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28717,8 +28947,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28740,8 +28970,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28763,8 +28993,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28786,8 +29016,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28809,8 +29039,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28832,8 +29062,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28855,8 +29085,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28878,8 +29108,8 @@ export const materials = [
     "specs": {
       "division": "LX_디아망",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망"
   },
@@ -28896,13 +29126,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF001-01.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -28919,13 +29149,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF001-02.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -28942,13 +29172,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF002-01.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -28965,13 +29195,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF002-02.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -28988,13 +29218,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF003-01.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29011,13 +29241,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF003-02.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29034,13 +29264,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF003-03.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29057,13 +29287,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF003-04.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29080,13 +29310,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF003-05.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29103,13 +29333,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF003-06.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29126,13 +29356,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF003-07.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29149,13 +29379,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF003-08.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29172,13 +29402,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF003-09.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29195,13 +29425,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF004-01.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29218,13 +29448,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF004-02.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29241,13 +29471,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF004-03.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29264,13 +29494,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF004-04.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29287,13 +29517,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF004-05.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29310,13 +29540,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF004-06.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29333,13 +29563,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF005-01.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29356,13 +29586,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF005-02.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29379,13 +29609,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF005-03.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29402,13 +29632,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF005-04.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29425,13 +29655,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF006-01.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29448,13 +29678,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF006-02.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29471,13 +29701,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF006-03.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29494,13 +29724,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF007-01.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29517,13 +29747,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF007-02.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29540,13 +29770,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF007-03.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29563,13 +29793,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF007-04.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29586,13 +29816,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF007-05.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29609,13 +29839,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF007-06.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29632,13 +29862,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF008-01.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29655,13 +29885,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF008-02.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29678,13 +29908,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF008-03.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29701,13 +29931,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF008-04.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29724,13 +29954,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF010-01.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29747,13 +29977,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF011-01.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29770,13 +30000,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF012-01.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29793,13 +30023,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF012-02.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29816,13 +30046,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF012-03.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29839,13 +30069,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF012-04.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29862,13 +30092,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF012-05.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29885,13 +30115,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF012-06.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29908,13 +30138,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF013-01.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29931,13 +30161,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF013-02.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29954,13 +30184,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF013-03.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -29977,13 +30207,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF013-04.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -30000,13 +30230,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF013-05.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -30023,13 +30253,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF014-01.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -30046,13 +30276,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF014-02.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -30069,13 +30299,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF014-03.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -30092,13 +30322,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF014-04.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -30115,13 +30345,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF014-05.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -30138,13 +30368,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF015-01.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -30161,13 +30391,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF015-02.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -30184,13 +30414,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF015-03.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -30207,13 +30437,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF015-04.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -30230,13 +30460,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF016-01.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -30253,13 +30483,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF017-01.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -30276,13 +30506,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF018-01.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -30299,13 +30529,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF018-02.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -30322,13 +30552,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF018-03.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -30345,13 +30575,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D%ED%8F%AC%ED%8B%B0%EC%8A%A4/DF018-04.jpg"
     ],
-    "price": 65000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "LX_디아망포티스",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "디아망_LX_디아망포티스"
   },
@@ -30373,8 +30603,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -30396,8 +30626,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -30419,8 +30649,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -30442,8 +30672,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -30465,8 +30695,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -30488,8 +30718,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -30511,8 +30741,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -30534,8 +30764,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -30557,8 +30787,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -30580,8 +30810,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -30603,8 +30833,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -30626,8 +30856,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -30649,8 +30879,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -30672,8 +30902,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -30695,8 +30925,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -30718,8 +30948,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -30741,8 +30971,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -30764,8 +30994,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -30787,8 +31017,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -30810,8 +31040,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -30833,8 +31063,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -30856,8 +31086,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -30879,8 +31109,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -30902,8 +31132,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -30925,8 +31155,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -30948,8 +31178,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -30971,8 +31201,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -30994,8 +31224,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31017,8 +31247,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31040,8 +31270,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31063,8 +31293,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31086,8 +31316,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31109,8 +31339,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31132,8 +31362,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31155,8 +31385,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31178,8 +31408,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31201,8 +31431,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31224,8 +31454,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31247,8 +31477,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31270,8 +31500,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31293,8 +31523,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31316,8 +31546,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31339,8 +31569,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31362,8 +31592,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31385,8 +31615,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31408,8 +31638,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31431,8 +31661,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31454,8 +31684,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31477,8 +31707,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31500,8 +31730,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31523,8 +31753,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31546,8 +31776,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31569,8 +31799,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31592,8 +31822,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31615,8 +31845,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31638,8 +31868,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31661,8 +31891,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31684,8 +31914,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31707,8 +31937,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31730,8 +31960,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31753,8 +31983,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31776,8 +32006,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31799,8 +32029,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31822,8 +32052,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31845,8 +32075,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31868,8 +32098,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31891,8 +32121,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31914,8 +32144,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31937,8 +32167,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31960,8 +32190,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -31983,8 +32213,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32006,8 +32236,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32029,8 +32259,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32052,8 +32282,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32075,8 +32305,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32098,8 +32328,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32121,8 +32351,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32144,8 +32374,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32167,8 +32397,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32190,8 +32420,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32213,8 +32443,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32236,8 +32466,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32259,8 +32489,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32282,8 +32512,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32305,8 +32535,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32328,8 +32558,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32351,8 +32581,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32374,8 +32604,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32397,8 +32627,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32420,8 +32650,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32443,8 +32673,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32466,8 +32696,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32489,8 +32719,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32512,8 +32742,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32535,8 +32765,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32558,8 +32788,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32581,8 +32811,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32604,8 +32834,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32627,8 +32857,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32650,8 +32880,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32673,8 +32903,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32696,8 +32926,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32719,8 +32949,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32742,8 +32972,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32765,8 +32995,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32788,8 +33018,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32811,8 +33041,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32834,8 +33064,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32857,8 +33087,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32880,8 +33110,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32903,8 +33133,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32926,8 +33156,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32949,8 +33179,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32972,8 +33202,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -32995,8 +33225,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -33018,8 +33248,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -33041,8 +33271,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -33064,8 +33294,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -33087,8 +33317,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -33110,8 +33340,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -33133,8 +33363,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -33156,8 +33386,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -33179,8 +33409,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -33202,8 +33432,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -33225,8 +33455,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -33248,8 +33478,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -33271,8 +33501,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -33294,8 +33524,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -33317,8 +33547,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -33340,8 +33570,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -33363,8 +33593,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -33386,8 +33616,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -33409,8 +33639,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -33432,8 +33662,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -33455,8 +33685,8 @@ export const materials = [
     "specs": {
       "division": "LX_베스트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -33478,8 +33708,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -33501,8 +33731,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -33524,8 +33754,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -33547,8 +33777,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -33570,8 +33800,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -33593,8 +33823,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -33616,8 +33846,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -33639,8 +33869,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -33662,8 +33892,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -33685,8 +33915,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -33708,8 +33938,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -33731,8 +33961,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -33754,8 +33984,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -33777,8 +34007,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -33800,8 +34030,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -33823,8 +34053,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -33846,8 +34076,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -33869,8 +34099,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -33892,8 +34122,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -33915,8 +34145,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -33938,8 +34168,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -33961,8 +34191,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -33984,8 +34214,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34007,8 +34237,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34030,8 +34260,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34053,8 +34283,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34076,8 +34306,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34099,8 +34329,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34122,8 +34352,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34145,8 +34375,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34168,8 +34398,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34191,8 +34421,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34214,8 +34444,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34237,8 +34467,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34260,8 +34490,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34283,8 +34513,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34306,8 +34536,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34329,8 +34559,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34352,8 +34582,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34375,8 +34605,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34398,8 +34628,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34421,8 +34651,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34444,8 +34674,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34467,8 +34697,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34490,8 +34720,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34513,8 +34743,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34536,8 +34766,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34559,8 +34789,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34582,8 +34812,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34605,8 +34835,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34628,8 +34858,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34651,8 +34881,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34674,8 +34904,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34697,8 +34927,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34720,8 +34950,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34743,8 +34973,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34766,8 +34996,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34789,8 +35019,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34812,8 +35042,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34835,8 +35065,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34858,8 +35088,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34881,8 +35111,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34904,8 +35134,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34927,8 +35157,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34950,8 +35180,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34973,8 +35203,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -34996,8 +35226,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -35019,8 +35249,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -35042,8 +35272,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -35065,8 +35295,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -35088,8 +35318,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -35111,8 +35341,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -35134,8 +35364,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -35157,8 +35387,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -35180,8 +35410,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -35203,8 +35433,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -35226,8 +35456,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -35249,8 +35479,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -35272,8 +35502,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -35295,8 +35525,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -35318,8 +35548,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -35341,8 +35571,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -35364,8 +35594,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -35387,8 +35617,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -35410,8 +35640,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -35433,8 +35663,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -35456,8 +35686,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -35479,8 +35709,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -35502,8 +35732,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -35525,8 +35755,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_테라피"
   },
@@ -35548,8 +35778,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -35571,8 +35801,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -35594,8 +35824,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -35617,8 +35847,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -35640,8 +35870,8 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
   },
@@ -35663,56 +35893,10 @@ export const materials = [
     "specs": {
       "division": "LX_테라피",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_LX_베스트"
-  },
-  {
-    "id": "벽지-lx-실크_lx_테라피___macosx-_7043-01",
-    "category": "벽지",
-    "brand": "LX",
-    "line": "실크_LX_테라피___MACOSX",
-    "subLine": "__MACOSX",
-    "name": "._7043-01",
-    "code": "._7043-01",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EC%8B%A4%ED%81%AC/LX_%ED%85%8C%EB%9D%BC%ED%94%BC/__MACOSX/._7043-01.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EC%8B%A4%ED%81%AC/LX_%ED%85%8C%EB%9D%BC%ED%94%BC/__MACOSX/._7043-01.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EC%8B%A4%ED%81%AC/LX_%ED%85%8C%EB%9D%BC%ED%94%BC/__MACOSX/._7043-01.jpg"
-    ],
-    "price": 45000,
-    "thickness": "",
-    "specs": {
-      "division": "__MACOSX",
-      "thickness": "",
-      "size": "",
-      "packing": ""
-    },
-    "description": "실크_LX_테라피___MACOSX"
-  },
-  {
-    "id": "벽지-lx-실크_lx_테라피___macosx-_7043-02",
-    "category": "벽지",
-    "brand": "LX",
-    "line": "실크_LX_테라피___MACOSX",
-    "subLine": "__MACOSX",
-    "name": "._7043-02",
-    "code": "._7043-02",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EC%8B%A4%ED%81%AC/LX_%ED%85%8C%EB%9D%BC%ED%94%BC/__MACOSX/._7043-02.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EC%8B%A4%ED%81%AC/LX_%ED%85%8C%EB%9D%BC%ED%94%BC/__MACOSX/._7043-02.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EC%8B%A4%ED%81%AC/LX_%ED%85%8C%EB%9D%BC%ED%94%BC/__MACOSX/._7043-02.jpg"
-    ],
-    "price": 45000,
-    "thickness": "",
-    "specs": {
-      "division": "__MACOSX",
-      "thickness": "",
-      "size": "",
-      "packing": ""
-    },
-    "description": "실크_LX_테라피___MACOSX"
   },
   {
     "id": "벽지-개나리-방염-90013-1",
@@ -35727,13 +35911,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/90013-1.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -35750,13 +35934,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/90138-1.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -35773,13 +35957,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/90139-1.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -35796,13 +35980,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/90139-3.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -35819,13 +36003,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/90139-4.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -35842,13 +36026,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/90141-1.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -35865,13 +36049,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/90141-2.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -35888,13 +36072,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/90142-1.png"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -35911,13 +36095,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/90142-2.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -35934,13 +36118,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/90142-3.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -35957,13 +36141,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/90160-1.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -35980,13 +36164,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/90170-1.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36003,13 +36187,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91051-1.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36026,13 +36210,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91054-1.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36049,13 +36233,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91180-1.png"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36072,13 +36256,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91180-4.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36095,13 +36279,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91181-1.png"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36118,13 +36302,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91181-2.png"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36141,13 +36325,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91182-1.png"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36164,13 +36348,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91182-2.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36187,13 +36371,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91182-3.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36210,13 +36394,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91185-1.png"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36233,13 +36417,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91185-2.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36256,13 +36440,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91185-4.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36279,13 +36463,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91186-1.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36302,13 +36486,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91186-3.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36325,13 +36509,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91187-1.png"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36348,13 +36532,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91187-2.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36371,13 +36555,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91187-4.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36394,13 +36578,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91187-5.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36417,13 +36601,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91190-1.png"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36440,13 +36624,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91190-2.png"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36463,13 +36647,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91193-1.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36486,13 +36670,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91193-2.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36509,13 +36693,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91193-3.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36532,13 +36716,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91194-1.png"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36555,13 +36739,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91194-2.png"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36578,13 +36762,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91196-1.png"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36601,13 +36785,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91196-2.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36624,13 +36808,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91196-3.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36647,13 +36831,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91197-1.png"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36670,13 +36854,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91197-2.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36693,13 +36877,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91197-3.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36716,13 +36900,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91197-4.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36739,13 +36923,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91198-1.png"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36762,13 +36946,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91198-2.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36785,13 +36969,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91198-3.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36808,13 +36992,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91198-4.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36831,13 +37015,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91198-5.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36854,13 +37038,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91199-1.png"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36877,13 +37061,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91199-2.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36900,13 +37084,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91199-3.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36923,13 +37107,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91200-1.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36946,13 +37130,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91200-2.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36969,13 +37153,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91200-3.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -36992,13 +37176,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91201-1.png"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -37015,13 +37199,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91201-2.png"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -37038,13 +37222,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91201-3.png"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -37061,13 +37245,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91202-2.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -37084,13 +37268,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91202-3.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -37107,13 +37291,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91203-1.png"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -37130,13 +37314,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91203-2.png"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -37153,13 +37337,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91203-3.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -37176,13 +37360,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91203-4.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -37199,13 +37383,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91204-1.png"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -37222,13 +37406,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91204-2.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -37245,13 +37429,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91204-3.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -37268,13 +37452,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91205-1.png"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -37291,13 +37475,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91205-2.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -37314,13 +37498,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91205-3.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -37337,13 +37521,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/91205-4.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -37360,13 +37544,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/92101-1.png"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -37383,13 +37567,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/92101-2.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -37406,13 +37590,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/92102-1.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -37429,13 +37613,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EB%B0%A9%EC%97%BC/92102-2.jpg"
     ],
-    "price": 45000,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "방염",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -37452,13 +37636,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/54013-1.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -37475,13 +37659,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/54013-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -37498,13 +37682,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/54160-1.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -37521,13 +37705,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/54160-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -37544,13 +37728,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/54170-1.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -37567,13 +37751,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/54170-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -37590,13 +37774,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87440-1.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -37613,13 +37797,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87440-3.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -37636,13 +37820,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87444-1.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -37659,13 +37843,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87444-10.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -37682,13 +37866,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87444-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -37705,13 +37889,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87444-9.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -37728,13 +37912,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87450-1.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -37751,13 +37935,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87450-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -37774,13 +37958,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87450-3.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -37797,13 +37981,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87451-1.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -37820,13 +38004,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87451-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -37843,13 +38027,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87451-4.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -37866,13 +38050,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87451-5.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -37889,13 +38073,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87451-6.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -37912,13 +38096,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87451-7.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -37935,13 +38119,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87453-1.png"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -37958,13 +38142,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87453-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -37981,13 +38165,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87453-3.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38004,13 +38188,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87453-6.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38027,13 +38211,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87454-1.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38050,13 +38234,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87454-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38073,13 +38257,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87454-3.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38096,13 +38280,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87454-4.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38119,13 +38303,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87454-5.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38142,13 +38326,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87456-1.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38165,13 +38349,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87456-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38188,13 +38372,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87456-3.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38211,13 +38395,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87456-4.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38234,13 +38418,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87456-5.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38257,13 +38441,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87456-6.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38280,13 +38464,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87456-7.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38303,13 +38487,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87457-1.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38326,12 +38510,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87457-2%20(2).jpg"
     ],
-    "price": 0,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "106cm × 15.5m",
       "packing": "1롤"
     },
     "description": "실크_로하스"
@@ -38349,13 +38533,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87457-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38372,13 +38556,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87457-3.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38395,13 +38579,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87457-4.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38418,13 +38602,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87458-1.png"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38441,13 +38625,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87459-1.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38464,13 +38648,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87459-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38487,13 +38671,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87459-3.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38510,13 +38694,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87459-4.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38533,13 +38717,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87459-5.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38556,13 +38740,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87459-6.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38579,13 +38763,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87460-1.png"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38602,13 +38786,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87460-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38625,13 +38809,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87460-3.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38648,13 +38832,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87460-4.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38671,13 +38855,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87460-5.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38694,13 +38878,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87460-6.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38717,13 +38901,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87460-7.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38740,13 +38924,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87460-8.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38763,13 +38947,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87461-1.png"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38786,13 +38970,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87461-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38809,13 +38993,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87461-3.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38832,13 +39016,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87461-4.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38855,13 +39039,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87461-5.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38878,13 +39062,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87461-6.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38901,13 +39085,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87461-7.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38924,13 +39108,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87461-9.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38947,13 +39131,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87462-1.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38970,13 +39154,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87462-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -38993,13 +39177,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87463-1.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39016,13 +39200,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87463-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39039,13 +39223,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87463-3.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39062,13 +39246,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87463-4.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39085,13 +39269,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87463-5.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39108,13 +39292,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87463-6.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39131,13 +39315,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87464-1.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39154,13 +39338,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87464-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39177,13 +39361,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87464-3.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39200,13 +39384,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87464-4.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39223,13 +39407,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87465-1.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39246,13 +39430,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87465-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39269,13 +39453,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87465-3.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39292,13 +39476,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87465-4.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39315,13 +39499,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87466-1.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39338,13 +39522,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87466-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39361,13 +39545,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87467-1.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39384,13 +39568,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87467-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39407,13 +39591,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87467-3.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39430,13 +39614,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87467-4.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39453,13 +39637,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87467-5.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39476,13 +39660,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87468-1.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39499,13 +39683,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87468-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39522,13 +39706,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87468-3.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39545,13 +39729,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87468-4.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39568,13 +39752,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87468-5.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39591,13 +39775,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87468-6.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39614,13 +39798,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87468-7.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39637,13 +39821,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87469-1.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39660,13 +39844,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87469-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39683,13 +39867,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87469-3.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39706,13 +39890,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87469-4.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39729,13 +39913,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87469-5.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39752,13 +39936,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87470-1.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39775,13 +39959,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87470-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39798,13 +39982,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87470-3.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39821,13 +40005,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87470-4.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39844,13 +40028,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87471-1.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39867,13 +40051,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87471-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39890,13 +40074,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87471-3.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39913,13 +40097,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87471-4.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39936,13 +40120,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87471-5.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39959,13 +40143,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87472-1.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -39982,13 +40166,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87473-1.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -40005,13 +40189,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87473-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -40028,13 +40212,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87474-1.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -40051,13 +40235,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87474-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -40074,13 +40258,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87474-3.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -40097,13 +40281,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87474-4.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -40120,13 +40304,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87475-1.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -40143,13 +40327,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87475-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -40166,13 +40350,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87475-3.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -40189,13 +40373,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87475-4.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -40212,13 +40396,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87475-5.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -40235,13 +40419,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87476-1.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -40258,13 +40442,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87476-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -40281,13 +40465,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87476-3.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -40304,13 +40488,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87476-4.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -40327,13 +40511,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87476-5.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -40350,13 +40534,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87476-6.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -40373,13 +40557,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87477-1.png"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -40396,13 +40580,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87477-2.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -40419,13 +40603,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87477-3.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -40442,13 +40626,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EB%A1%9C%ED%95%98%EC%8A%A4/87477-4.jpg"
     ],
-    "price": 87000,
+    "price": 47000,
     "thickness": "",
     "specs": {
       "division": "로하스",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -40465,13 +40649,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/54013-1.jpg"
     ],
-    "price": 87000,
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -40488,13 +40672,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/54013-2.jpg"
     ],
-    "price": 87000,
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -40511,13 +40695,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/54160-1.jpg"
     ],
-    "price": 87000,
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -40534,13 +40718,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/54160-2.jpg"
     ],
-    "price": 87000,
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -40557,13 +40741,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/54170-1.jpg"
     ],
-    "price": 87000,
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -40580,13 +40764,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/54170-2.jpg"
     ],
-    "price": 87000,
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_로하스"
   },
@@ -40603,13 +40787,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57160-1.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -40626,13 +40810,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57160-28.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -40649,13 +40833,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57160-39.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -40672,13 +40856,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57160-40.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -40695,13 +40879,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57190-1.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -40718,13 +40902,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57190-2.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -40741,13 +40925,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57190-3.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -40764,13 +40948,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57190-5.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -40787,13 +40971,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57196-1.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -40810,13 +40994,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57196-2.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -40833,13 +41017,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57196-3.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -40856,13 +41040,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57196-6.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -40879,13 +41063,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57196-9.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -40902,13 +41086,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57198-1.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -40925,13 +41109,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57198-3.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -40948,13 +41132,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57205-1.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -40971,13 +41155,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57205-2.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -40994,13 +41178,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57205-3.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41017,13 +41201,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57205-5.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41040,13 +41224,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57206-1.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41063,13 +41247,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57206-2.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41086,13 +41270,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57206-3.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41109,13 +41293,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57206-4.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41132,13 +41316,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57206-6.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41155,13 +41339,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57206-7.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41178,13 +41362,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57210-1.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41201,13 +41385,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57210-10.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41224,13 +41408,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57210-2.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41247,13 +41431,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57210-3.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41270,13 +41454,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57210-6.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41293,13 +41477,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57210-7.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41316,13 +41500,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57210-8.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41339,13 +41523,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57210-9.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41362,13 +41546,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57215-1.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41385,13 +41569,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57215-2.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41408,13 +41592,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57215-4.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41431,13 +41615,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57217-1.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41454,13 +41638,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57217-2.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41477,13 +41661,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57217-3.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41500,13 +41684,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57217-4.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41523,13 +41707,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57217-5.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41546,13 +41730,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57217-6.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41569,13 +41753,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57217-8.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41592,13 +41776,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57218-1.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41615,13 +41799,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57218-2.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41638,13 +41822,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57218-3.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41661,13 +41845,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57218-4.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41684,13 +41868,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57218-5.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41707,13 +41891,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57218-6.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41730,13 +41914,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57218-7.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41753,13 +41937,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57218-8.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41776,13 +41960,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57219-1.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41799,13 +41983,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57219-2.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41822,13 +42006,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57219-3.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41845,13 +42029,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57219-4.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41868,13 +42052,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57219-5.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41891,13 +42075,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57219-6.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41914,13 +42098,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57219-7.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41937,13 +42121,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57220-1.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41960,13 +42144,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57220-2.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -41983,13 +42167,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57220-3.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42006,13 +42190,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57220-4.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42029,13 +42213,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57220-5.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42052,13 +42236,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57221-1.png"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42075,13 +42259,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57222-1.png"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42098,13 +42282,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57223-1.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42121,13 +42305,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57223-2.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42144,13 +42328,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57223-3.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42167,13 +42351,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57223-4.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42190,13 +42374,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57224-1.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42213,13 +42397,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57224-2.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42236,13 +42420,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57224-3.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42259,13 +42443,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57224-4.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42282,13 +42466,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57224-5.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42305,13 +42489,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57225-1.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42328,13 +42512,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57225-2.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42351,13 +42535,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57225-3.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42374,13 +42558,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57225-4.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42397,13 +42581,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57226-1.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42420,13 +42604,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57226-2.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42443,13 +42627,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57226-3.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42466,13 +42650,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57226-4.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42489,13 +42673,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57226-5.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42512,13 +42696,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57226-6.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42535,13 +42719,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57227-1.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42558,13 +42742,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57227-2.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42581,13 +42765,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57228-1.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42604,13 +42788,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57228-2.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42627,13 +42811,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57228-3.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42650,13 +42834,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57228-4.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42673,13 +42857,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57228-5.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42696,13 +42880,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57229-1.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42719,13 +42903,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57229-2.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42742,13 +42926,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57229-3.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42765,13 +42949,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57229-4.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42788,13 +42972,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57229-5.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42811,13 +42995,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57229-6.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42834,12 +43018,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57230-1%20(2).jpg"
     ],
-    "price": 0,
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "106cm × 15.5m",
       "packing": "1롤"
     },
     "description": "실크_아트북"
@@ -42857,13 +43041,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57230-1.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42880,13 +43064,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57230-2.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42903,13 +43087,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57230-3.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42926,13 +43110,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57230-4.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42949,13 +43133,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57230-5.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42972,13 +43156,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57230-6.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -42995,13 +43179,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57231-1.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -43018,13 +43202,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57231-2.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -43041,13 +43225,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57231-3.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -43064,13 +43248,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57231-4.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -43087,13 +43271,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57231-5.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -43110,13 +43294,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57231-6.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -43133,13 +43317,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57231-7.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -43156,13 +43340,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57232-1.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -43179,13 +43363,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57232-2.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -43202,13 +43386,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57232-3.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -43225,13 +43409,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57232-5.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -43248,13 +43432,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57232-6.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -43271,13 +43455,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57233-1.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -43294,13 +43478,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57233-2.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -43317,13 +43501,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57233-3.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -43340,13 +43524,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57233-4.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -43363,13 +43547,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57233-5.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -43386,13 +43570,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57233-6.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -43409,13 +43593,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/57233-7.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -43432,13 +43616,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/83204-2.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -43455,13 +43639,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/83206-1.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -43478,13 +43662,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/83209-2.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -43501,13 +43685,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/83210-1.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -43524,13 +43708,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/83218-3.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -43547,13 +43731,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%EC%8B%A4%ED%81%AC/%EC%95%84%ED%8A%B8%EB%B6%81/85.jpg"
     ],
-    "price": "57,000 / 54,000",
+    "price": 41000,
     "thickness": "",
     "specs": {
       "division": "아트북",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll (16.43㎡)",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크_아트북"
   },
@@ -43570,13 +43754,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99104-1.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -43593,13 +43777,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99104-2.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -43616,13 +43800,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99105-1.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -43639,13 +43823,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99105-2.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -43662,13 +43846,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99105-5.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -43685,13 +43869,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99105-6.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -43708,13 +43892,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99106-1.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -43731,13 +43915,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99106-4.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -43754,13 +43938,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99106-6.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -43777,13 +43961,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99109-1.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -43800,13 +43984,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99110-2.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -43823,13 +44007,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99110-5.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -43846,13 +44030,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99112-1.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -43869,13 +44053,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99112-2.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -43892,13 +44076,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99112-3.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -43915,13 +44099,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99113-1.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -43938,13 +44122,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99113-2.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -43961,13 +44145,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99113-3.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -43984,13 +44168,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99113-4.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44007,13 +44191,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99115-1.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44030,13 +44214,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99115-2.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44053,13 +44237,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99115-3.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44076,13 +44260,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99115-4.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44099,13 +44283,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99115-5.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44122,13 +44306,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99116-1.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44145,13 +44329,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99116-2.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44168,13 +44352,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99116-3.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44191,13 +44375,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99116-4.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44214,13 +44398,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99116-5.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44237,13 +44421,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99117-1.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44260,13 +44444,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99117-2.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44283,13 +44467,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99117-3.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44306,13 +44490,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99117-4.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44329,13 +44513,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99117-5.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44352,13 +44536,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99118-1.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44375,13 +44559,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99118-2.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44398,13 +44582,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99119-1.png"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44421,13 +44605,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99119-2.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44444,13 +44628,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99119-3.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44467,13 +44651,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99119-4.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44490,13 +44674,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99120-1.png"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44513,13 +44697,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99120-2.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44536,13 +44720,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99120-3.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44559,13 +44743,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99120-4.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44582,13 +44766,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99121-1.png"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44605,13 +44789,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99121-2.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44628,13 +44812,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99121-3.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44651,13 +44835,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99123-1.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44674,13 +44858,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99123-2.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44697,13 +44881,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99124-1.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44720,13 +44904,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99124-2.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44743,13 +44927,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99125-1.png"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44766,13 +44950,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99125-2.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44789,13 +44973,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99125-3.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44812,13 +44996,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99125-4.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44835,13 +45019,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99126-1.png"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44858,13 +45042,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99126-2.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44881,13 +45065,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99126-3.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44904,13 +45088,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99126-4.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44927,13 +45111,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99126-5.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44950,13 +45134,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99126-6.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44973,13 +45157,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99127-1.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -44996,13 +45180,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99127-2.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -45019,13 +45203,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99127-3.png"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -45042,13 +45226,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99127-4.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -45065,13 +45249,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99127-5.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -45088,13 +45272,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99128-1.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -45112,13 +45296,13 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99128-2.jpg",
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99128-2.png"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -45135,13 +45319,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99128-3.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -45158,13 +45342,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99128-4.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -45181,13 +45365,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99128-5.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -45204,13 +45388,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99128-6.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -45227,13 +45411,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99701-1.png"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -45250,13 +45434,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99701-2.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -45273,13 +45457,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99701-3.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -45296,13 +45480,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99702-1.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -45319,13 +45503,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99702-2.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -45342,13 +45526,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99703-1.png"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -45365,13 +45549,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99703-2.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -45388,13 +45572,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99703-3.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -45411,13 +45595,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99704-1.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -45434,13 +45618,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99704-2.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -45457,13 +45641,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99704-3.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -45480,13 +45664,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99705-1.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -45503,13 +45687,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99705-2.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -45526,13 +45710,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99705-3.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -45549,13 +45733,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/99705-4.jpg"
     ],
-    "price": 45000,
+    "price": 58000,
     "thickness": "",
     "specs": {
       "division": "프리미엄",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "2 Roll"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "프리미엄"
   },
@@ -45572,13 +45756,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%86%8C%ED%8F%AD)/25097-1.jpg"
     ],
-    "price": 23000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "합지(소폭)",
       "thickness": "",
-      "size": "0.53m(W) x 12.5m(H) / Roll",
-      "packing": "20 Roll / Box"
+      "size": "53cm × 12.5m",
+      "packing": "20롤/박스"
     },
     "description": "합지(소폭)"
   },
@@ -45595,13 +45779,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%86%8C%ED%8F%AD)/25112-1.jpg"
     ],
-    "price": 23000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "합지(소폭)",
       "thickness": "",
-      "size": "0.53m(W) x 12.5m(H) / Roll",
-      "packing": "20 Roll / Box"
+      "size": "53cm × 12.5m",
+      "packing": "20롤/박스"
     },
     "description": "합지(소폭)"
   },
@@ -45618,13 +45802,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%86%8C%ED%8F%AD)/25112-3.jpg"
     ],
-    "price": 23000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "합지(소폭)",
       "thickness": "",
-      "size": "0.53m(W) x 12.5m(H) / Roll",
-      "packing": "20 Roll / Box"
+      "size": "53cm × 12.5m",
+      "packing": "20롤/박스"
     },
     "description": "합지(소폭)"
   },
@@ -45641,13 +45825,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%86%8C%ED%8F%AD)/25112-4.jpg"
     ],
-    "price": 23000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "합지(소폭)",
       "thickness": "",
-      "size": "0.53m(W) x 12.5m(H) / Roll",
-      "packing": "20 Roll / Box"
+      "size": "53cm × 12.5m",
+      "packing": "20롤/박스"
     },
     "description": "합지(소폭)"
   },
@@ -45664,13 +45848,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%86%8C%ED%8F%AD)/25115-3.jpg"
     ],
-    "price": 23000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "합지(소폭)",
       "thickness": "",
-      "size": "0.53m(W) x 12.5m(H) / Roll",
-      "packing": "20 Roll / Box"
+      "size": "53cm × 12.5m",
+      "packing": "20롤/박스"
     },
     "description": "합지(소폭)"
   },
@@ -45687,13 +45871,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%86%8C%ED%8F%AD)/25115-4.jpg"
     ],
-    "price": 23000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "합지(소폭)",
       "thickness": "",
-      "size": "0.53m(W) x 12.5m(H) / Roll",
-      "packing": "20 Roll / Box"
+      "size": "53cm × 12.5m",
+      "packing": "20롤/박스"
     },
     "description": "합지(소폭)"
   },
@@ -45710,13 +45894,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%86%8C%ED%8F%AD)/25120-1.png"
     ],
-    "price": 23000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "합지(소폭)",
       "thickness": "",
-      "size": "0.53m(W) x 12.5m(H) / Roll",
-      "packing": "20 Roll / Box"
+      "size": "53cm × 12.5m",
+      "packing": "20롤/박스"
     },
     "description": "합지(소폭)"
   },
@@ -45733,13 +45917,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%86%8C%ED%8F%AD)/25120-2.jpg"
     ],
-    "price": 23000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "합지(소폭)",
       "thickness": "",
-      "size": "0.53m(W) x 12.5m(H) / Roll",
-      "packing": "20 Roll / Box"
+      "size": "53cm × 12.5m",
+      "packing": "20롤/박스"
     },
     "description": "합지(소폭)"
   },
@@ -45756,13 +45940,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%86%8C%ED%8F%AD)/25121-1.jpg"
     ],
-    "price": 23000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "합지(소폭)",
       "thickness": "",
-      "size": "0.53m(W) x 12.5m(H) / Roll",
-      "packing": "20 Roll / Box"
+      "size": "53cm × 12.5m",
+      "packing": "20롤/박스"
     },
     "description": "합지(소폭)"
   },
@@ -45779,13 +45963,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%86%8C%ED%8F%AD)/25121-3.jpg"
     ],
-    "price": 23000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "합지(소폭)",
       "thickness": "",
-      "size": "0.53m(W) x 12.5m(H) / Roll",
-      "packing": "20 Roll / Box"
+      "size": "53cm × 12.5m",
+      "packing": "20롤/박스"
     },
     "description": "합지(소폭)"
   },
@@ -45802,13 +45986,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%86%8C%ED%8F%AD)/25126-1.png"
     ],
-    "price": 23000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "합지(소폭)",
       "thickness": "",
-      "size": "0.53m(W) x 12.5m(H) / Roll",
-      "packing": "20 Roll / Box"
+      "size": "53cm × 12.5m",
+      "packing": "20롤/박스"
     },
     "description": "합지(소폭)"
   },
@@ -45825,13 +46009,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%86%8C%ED%8F%AD)/25126-2.png"
     ],
-    "price": 23000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "합지(소폭)",
       "thickness": "",
-      "size": "0.53m(W) x 12.5m(H) / Roll",
-      "packing": "20 Roll / Box"
+      "size": "53cm × 12.5m",
+      "packing": "20롤/박스"
     },
     "description": "합지(소폭)"
   },
@@ -45848,13 +46032,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%86%8C%ED%8F%AD)/25126-3.jpg"
     ],
-    "price": 23000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "합지(소폭)",
       "thickness": "",
-      "size": "0.53m(W) x 12.5m(H) / Roll",
-      "packing": "20 Roll / Box"
+      "size": "53cm × 12.5m",
+      "packing": "20롤/박스"
     },
     "description": "합지(소폭)"
   },
@@ -45871,13 +46055,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%86%8C%ED%8F%AD)/25127-1.png"
     ],
-    "price": 23000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "합지(소폭)",
       "thickness": "",
-      "size": "0.53m(W) x 12.5m(H) / Roll",
-      "packing": "20 Roll / Box"
+      "size": "53cm × 12.5m",
+      "packing": "20롤/박스"
     },
     "description": "합지(소폭)"
   },
@@ -45894,13 +46078,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%86%8C%ED%8F%AD)/25127-2.png"
     ],
-    "price": 23000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "합지(소폭)",
       "thickness": "",
-      "size": "0.53m(W) x 12.5m(H) / Roll",
-      "packing": "20 Roll / Box"
+      "size": "53cm × 12.5m",
+      "packing": "20롤/박스"
     },
     "description": "합지(소폭)"
   },
@@ -45917,13 +46101,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%86%8C%ED%8F%AD)/25127-4.png"
     ],
-    "price": 23000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "합지(소폭)",
       "thickness": "",
-      "size": "0.53m(W) x 12.5m(H) / Roll",
-      "packing": "20 Roll / Box"
+      "size": "53cm × 12.5m",
+      "packing": "20롤/박스"
     },
     "description": "합지(소폭)"
   },
@@ -45940,13 +46124,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%86%8C%ED%8F%AD)/25127-5.jpg"
     ],
-    "price": 23000,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "합지(소폭)",
       "thickness": "",
-      "size": "0.53m(W) x 12.5m(H) / Roll",
-      "packing": "20 Roll / Box"
+      "size": "53cm × 12.5m",
+      "packing": "20롤/박스"
     },
     "description": "합지(소폭)"
   },
@@ -45963,13 +46147,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28336-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -45986,13 +46170,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28336-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46009,13 +46193,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28348-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46032,13 +46216,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28348-3.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46055,13 +46239,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28349-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46078,13 +46262,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28349-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46101,13 +46285,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28349-7.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46124,13 +46308,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28352-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46147,12 +46331,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28352-2%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -46170,13 +46354,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28352-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46193,13 +46377,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28352-3.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46216,13 +46400,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28352-4.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46239,13 +46423,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28352-5.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46262,13 +46446,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28352-6.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46285,12 +46469,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28363-1%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -46308,13 +46492,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28363-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46331,13 +46515,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28363-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46354,13 +46538,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28363-3.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46377,13 +46561,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28363-4.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46400,12 +46584,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28364-1%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -46423,13 +46607,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28364-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46446,12 +46630,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28364-2%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -46469,13 +46653,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28364-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46492,12 +46676,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28364-3%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -46515,13 +46699,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28364-3.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46538,12 +46722,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28364-5%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -46561,13 +46745,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28364-5.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46584,12 +46768,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28364-6%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -46607,13 +46791,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28364-6.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46630,13 +46814,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28365-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46653,13 +46837,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28365-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46676,13 +46860,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28365-3.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46699,13 +46883,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28365-5.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46722,13 +46906,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28366-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46745,13 +46929,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28366-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46768,13 +46952,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28366-3.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46791,13 +46975,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28366-4.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46814,13 +46998,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28370-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46837,13 +47021,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28370-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46860,13 +47044,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28370-5.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46883,12 +47067,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28371-1%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -46906,13 +47090,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28371-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46929,13 +47113,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28371-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46952,13 +47136,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28371-3.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46975,13 +47159,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28371-4.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -46998,13 +47182,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28371-5.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47021,12 +47205,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28371-9%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -47044,13 +47228,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28371-9.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47067,12 +47251,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28372-1%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -47090,13 +47274,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28372-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47113,13 +47297,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28372-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47136,12 +47320,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28372-3%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -47159,13 +47343,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28372-3.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47182,13 +47366,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28372-4.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47205,13 +47389,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28372-5.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47228,12 +47412,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28372-6%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -47251,13 +47435,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28372-6.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47274,12 +47458,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28372-7%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -47297,13 +47481,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/28372-7.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47320,13 +47504,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/29080-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47343,13 +47527,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/29080-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47366,13 +47550,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39034-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47389,13 +47573,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39369-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47412,13 +47596,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39369-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47435,13 +47619,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39369-3.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47458,13 +47642,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39369-5.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47481,13 +47665,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39369-6.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47504,12 +47688,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39371-1%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -47527,13 +47711,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39371-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47550,12 +47734,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39371-2%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -47573,13 +47757,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39371-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47596,12 +47780,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39371-3%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -47619,13 +47803,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39371-3.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47642,12 +47826,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39371-4%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -47665,13 +47849,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39371-4.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47688,12 +47872,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39371-6%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -47711,13 +47895,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39371-6.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47734,12 +47918,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39371-7%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -47757,13 +47941,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39371-7.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47780,12 +47964,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39371-8%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -47803,13 +47987,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39371-8.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47826,12 +48010,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39371-9%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -47849,13 +48033,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39371-9.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47872,13 +48056,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39372-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47895,13 +48079,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39372-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47918,13 +48102,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39372-3.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47941,13 +48125,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39374-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47964,13 +48148,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39374-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -47987,13 +48171,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39374-3.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48010,13 +48194,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39374-4.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48033,13 +48217,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39374-6.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48056,13 +48240,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39374-7.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48079,13 +48263,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39375-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48102,13 +48286,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39375-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48125,13 +48309,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39376-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48148,13 +48332,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39377-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48171,13 +48355,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39377-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48194,12 +48378,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39378-1%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -48217,13 +48401,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39378-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48240,12 +48424,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39378-2%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -48263,13 +48447,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39378-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48286,13 +48470,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39379-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48309,13 +48493,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39379-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48332,13 +48516,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39381-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48355,13 +48539,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39381-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48379,13 +48563,13 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39382-1.jpg",
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39382-1.png"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48402,12 +48586,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39382-2%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -48425,13 +48609,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39382-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48448,12 +48632,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39382-3%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -48471,13 +48655,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39382-3.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48494,13 +48678,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39382-4.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48517,13 +48701,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39382-5.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48540,12 +48724,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39383%20-5.jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -48563,13 +48747,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39383-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48586,13 +48770,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39383-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48609,13 +48793,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39383-3.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48632,12 +48816,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39383-4%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -48655,13 +48839,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39383-4.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48678,13 +48862,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39383-5.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48701,13 +48885,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39384-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48724,12 +48908,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39385-1%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -48747,13 +48931,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39385-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48770,12 +48954,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39385-2%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -48793,13 +48977,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39385-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48816,13 +49000,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39385-3.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48839,12 +49023,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39385-4%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -48862,13 +49046,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39385-4.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48885,12 +49069,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39386-1%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -48908,13 +49092,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39386-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48931,13 +49115,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39386-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48954,13 +49138,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39386-3.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -48977,13 +49161,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39386-4.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -49000,12 +49184,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39386-5%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -49023,13 +49207,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39386-5.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -49046,12 +49230,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39386-6%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -49069,13 +49253,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39386-6.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -49092,13 +49276,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39387-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -49115,13 +49299,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39388-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -49138,13 +49322,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39388-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -49161,12 +49345,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39389-1%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -49184,13 +49368,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39389-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -49207,12 +49391,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39389-2%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -49230,13 +49414,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39389-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -49253,13 +49437,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39389-3.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -49276,12 +49460,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39390-1%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -49299,13 +49483,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39390-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -49322,12 +49506,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39390-2%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -49345,13 +49529,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39390-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -49368,12 +49552,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39390-3%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -49391,13 +49575,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39390-3.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -49414,13 +49598,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39390-4.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -49437,12 +49621,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39391-1%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -49460,13 +49644,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39391-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -49483,12 +49667,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39391-2%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -49506,13 +49690,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39391-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -49529,12 +49713,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39391-3%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -49552,13 +49736,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39391-3.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -49575,13 +49759,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39391-4.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -49598,13 +49782,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39391-5.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -49621,12 +49805,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39392-1%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -49644,13 +49828,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39392-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -49667,12 +49851,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39392-2%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -49690,13 +49874,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39392-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -49713,12 +49897,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39392-3%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -49736,13 +49920,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39392-3.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -49759,13 +49943,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39392-4.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -49782,12 +49966,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39392-5%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -49805,13 +49989,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39392-5.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -49828,12 +50012,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39393-1%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -49851,13 +50035,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39393-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -49874,12 +50058,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39393-2%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -49897,12 +50081,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39393-3%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -49920,13 +50104,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39393-3.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -49943,12 +50127,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39393-4%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -49966,13 +50150,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39393-4.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -49989,12 +50173,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39393-5%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -50012,13 +50196,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39393-5.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -50035,13 +50219,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39393-6.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -50058,12 +50242,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39393-7%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -50081,13 +50265,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39393-7.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -50104,12 +50288,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39394-1%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -50127,13 +50311,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39394-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -50150,12 +50334,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39394-2%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -50173,13 +50357,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39394-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -50196,12 +50380,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39394-3%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -50219,13 +50403,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39394-3.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -50242,12 +50426,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39394-4%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -50265,13 +50449,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39394-4.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -50288,12 +50472,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39394-5%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -50311,13 +50495,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39394-5.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -50334,12 +50518,12 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39394-6%20(2).jpg"
     ],
-    "price": 0,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "롤 단위",
+      "size": "93cm × 17.75m",
       "packing": "1롤"
     },
     "description": "합지(장폭)"
@@ -50357,13 +50541,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/39394-6.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -50380,13 +50564,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/64014-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -50403,13 +50587,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/64014-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -50426,13 +50610,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/64022-1.png"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -50449,13 +50633,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/64023-1.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -50472,13 +50656,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/64024-1.png"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -50495,13 +50679,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EA%B0%9C%EB%82%98%EB%A6%AC/%ED%95%A9%EC%A7%80(%EC%9E%A5%ED%8F%AD)/64024-2.jpg"
     ],
-    "price": 23000,
+    "price": 25000,
     "thickness": "",
     "specs": {
       "division": "합지(장폭)",
       "thickness": "",
-      "size": "0.93m(W) x 17.75m(H) / Roll (16.50㎡)",
-      "packing": "6 R / Box"
+      "size": "93cm × 17.75m",
+      "packing": "1롤"
     },
     "description": "합지(장폭)"
   },
@@ -64849,13 +65033,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/1000-1.jpg"
     ],
-    "price": 68000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -64872,13 +65056,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/1000-2.jpg"
     ],
-    "price": 68000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -64895,13 +65079,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/1000-3.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -64918,13 +65102,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/1001-1.jpg"
     ],
-    "price": 68000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -64941,13 +65125,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/1001-2.jpg"
     ],
-    "price": 68000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -64964,13 +65148,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/1002-1.jpg"
     ],
-    "price": 68000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -64987,13 +65171,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/1002-2.jpg"
     ],
-    "price": 68000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -65010,13 +65194,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2106-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65033,13 +65217,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2278-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65056,13 +65240,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2281-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65079,13 +65263,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2295-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65102,13 +65286,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2296-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65125,13 +65309,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2296-2.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65148,13 +65332,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2296-3.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65171,13 +65355,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2296-4.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65194,13 +65378,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2296-5.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65217,13 +65401,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2298-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65240,13 +65424,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2298-2.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65263,13 +65447,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2302-1.jpg"
     ],
-    "price": 68000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -65286,13 +65470,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2302-2.jpg"
     ],
-    "price": 68000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -65309,13 +65493,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2302-3.jpg"
     ],
-    "price": 68000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -65332,13 +65516,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2307-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65355,13 +65539,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2311-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65378,13 +65562,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2319-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65401,13 +65585,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2319-2.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65424,13 +65608,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2319-4.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65447,13 +65631,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2319-7.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65470,13 +65654,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2319-8.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65493,13 +65677,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2319-9.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65516,13 +65700,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2323-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65539,13 +65723,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2323-2.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65562,13 +65746,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2323-3.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65585,13 +65769,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2323-5.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65608,13 +65792,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2324-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65631,13 +65815,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2324-2.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65654,13 +65838,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2324-3.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65677,13 +65861,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2326-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65700,13 +65884,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2326-2.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65723,13 +65907,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2326-3.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65746,13 +65930,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2326-4.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65769,13 +65953,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2326-5.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65792,13 +65976,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2326-6.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65815,13 +65999,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2327-1.jpg"
     ],
-    "price": 68000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -65838,13 +66022,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2327-2.jpg"
     ],
-    "price": 68000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -65861,13 +66045,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2327-3.jpg"
     ],
-    "price": 68000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -65884,13 +66068,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2327-4.jpg"
     ],
-    "price": 68000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -65907,13 +66091,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2328-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65930,13 +66114,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2328-10.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65953,13 +66137,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2328-11.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65976,13 +66160,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2328-2.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -65999,13 +66183,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2328-3.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66022,13 +66206,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2328-9.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66045,13 +66229,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2329-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66068,13 +66252,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2329-2.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66091,13 +66275,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2330-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66114,13 +66298,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2331-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66137,13 +66321,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2332-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66160,13 +66344,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2333-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66183,13 +66367,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2334-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66206,13 +66390,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2335-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66229,13 +66413,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2335-2.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66252,13 +66436,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2336-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66275,13 +66459,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2336-2.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66298,13 +66482,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2336-3.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66321,13 +66505,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2336-4.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66344,13 +66528,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2337-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66367,13 +66551,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2337-2.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66390,13 +66574,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2337-3.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66413,13 +66597,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2337-4.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66436,13 +66620,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2337-5.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66459,13 +66643,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2337-6.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66482,13 +66666,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2338-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66505,13 +66689,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2338-2.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66528,13 +66712,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2338-3.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66551,13 +66735,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2338-4.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66574,13 +66758,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2338-5.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66597,13 +66781,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2338-6.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66620,13 +66804,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2338-7.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66643,13 +66827,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2339-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66666,13 +66850,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2339-2.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66689,13 +66873,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2339-3.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66712,13 +66896,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2339-4.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66735,13 +66919,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2339-5.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66758,13 +66942,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2339-6.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66781,13 +66965,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2339-7.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66804,13 +66988,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2340-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66827,13 +67011,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2340-2.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66850,13 +67034,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2340-3.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66873,13 +67057,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2340-4.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66896,13 +67080,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2340-5.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66919,13 +67103,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2340-6.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66942,13 +67126,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2340-7.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66965,13 +67149,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2341-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -66988,13 +67172,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2341-2.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67011,13 +67195,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2341-3.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67034,13 +67218,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2341-4.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67057,13 +67241,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2341-5.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67080,13 +67264,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2341-6.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67103,13 +67287,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2342-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67126,13 +67310,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2342-2.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67149,13 +67333,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2343-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67172,13 +67356,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2343-2.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67195,13 +67379,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2344-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67218,13 +67402,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2344-2.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67241,13 +67425,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2344-3.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67264,13 +67448,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2344-4.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67287,13 +67471,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2344-5.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67310,13 +67494,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2345-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67333,13 +67517,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2345-2.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67356,13 +67540,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2345-3.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67379,13 +67563,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2345-4.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67402,13 +67586,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2346-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67425,13 +67609,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2346-2.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67448,13 +67632,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2346-3.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67471,13 +67655,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2346-4.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67494,13 +67678,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2346-5.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67517,13 +67701,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2347-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67540,13 +67724,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2347-2.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67563,13 +67747,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2347-3.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67586,13 +67770,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2347-4.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67609,13 +67793,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2347-5.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67632,13 +67816,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2347-6.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67655,13 +67839,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2348-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67678,13 +67862,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2348-2.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67701,13 +67885,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2348-3.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67724,13 +67908,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2348-4.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67747,13 +67931,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2349-1.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67770,13 +67954,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2349-2.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67793,13 +67977,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/2349-3.jpg"
     ],
-    "price": 45000,
+    "price": 42000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67816,13 +68000,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/346-1.jpg"
     ],
-    "price": 68000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -67839,13 +68023,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/346-10.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67862,13 +68046,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/346-14.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67885,13 +68069,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/346-2.jpg"
     ],
-    "price": 68000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -67908,13 +68092,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/346-3.jpg"
     ],
-    "price": 68000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -67931,13 +68115,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/365-1.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67954,13 +68138,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/365-3.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -67977,13 +68161,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/365-4.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68000,13 +68184,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/370-1.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68023,13 +68207,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/370-2.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68046,13 +68230,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/377-1.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68069,13 +68253,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/377-2.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68092,13 +68276,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/377-4.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68115,13 +68299,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/377-5.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68138,13 +68322,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/384-1.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68161,13 +68345,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/384-10.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68184,13 +68368,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/384-11.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68207,13 +68391,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/384-12.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68230,13 +68414,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/384-2.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68253,13 +68437,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/390-1.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68276,13 +68460,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/390-2.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68299,13 +68483,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/390-3.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68322,13 +68506,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/392-1.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68345,13 +68529,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/392-2.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68368,13 +68552,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/392-3.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68391,13 +68575,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/392-4.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68414,13 +68598,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/392-5.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68437,13 +68621,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/392-6.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68460,13 +68644,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/395-1.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68483,13 +68667,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/395-2.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68506,13 +68690,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/395-3.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68529,13 +68713,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/395-4.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68552,13 +68736,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/420-1.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68575,13 +68759,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/420-2.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68598,13 +68782,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/420-3.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68621,13 +68805,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/425-1.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68644,13 +68828,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/425-2.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68667,13 +68851,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/425-4.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68690,13 +68874,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/425-5.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68713,13 +68897,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/425-6.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68736,13 +68920,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/427-1.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68759,13 +68943,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/427-2.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68782,13 +68966,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/427-3.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68805,13 +68989,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/427-4.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68828,13 +69012,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/427-5.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68851,13 +69035,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/428-1.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68874,13 +69058,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/428-2.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68897,13 +69081,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/428-5.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68920,13 +69104,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/428-6.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -68943,13 +69127,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/429-1.jpg"
     ],
-    "price": 68000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -68966,13 +69150,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/429-2.jpg"
     ],
-    "price": 68000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -68989,13 +69173,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/429-3.jpg"
     ],
-    "price": 68000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -69012,13 +69196,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/429-4.jpg"
     ],
-    "price": 68000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -69035,13 +69219,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/429-5.jpg"
     ],
-    "price": 68000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "방염"
   },
@@ -69058,13 +69242,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/429-7.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69081,13 +69265,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/430-1.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69104,13 +69288,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/430-2.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69127,13 +69311,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/430-3.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69150,13 +69334,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/430-4.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69173,13 +69357,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/430-5.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69196,13 +69380,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/430-6.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69219,13 +69403,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/430-7.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69242,13 +69426,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/431-1.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69265,13 +69449,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/431-2.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69288,13 +69472,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/431-3.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69311,13 +69495,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/431-4.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69334,13 +69518,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/431-5.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69357,13 +69541,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/431-6.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69380,13 +69564,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/432-1.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69403,13 +69587,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/432-2.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69426,13 +69610,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/432-3.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69449,13 +69633,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/432-4.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69472,13 +69656,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/433-1.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69495,13 +69679,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/433-2.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69518,13 +69702,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/433-3.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69541,13 +69725,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/433-4.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69564,13 +69748,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/433-5.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69587,13 +69771,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/433-6.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69610,13 +69794,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/434-1.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69633,13 +69817,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/434-2.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69656,13 +69840,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/434-3.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69679,13 +69863,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/434-4.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69702,13 +69886,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/434-5.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69725,13 +69909,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/434-6.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69748,13 +69932,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/435-1.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69771,13 +69955,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/435-2.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69794,13 +69978,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/435-3.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69817,13 +70001,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/436-1.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69840,13 +70024,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/436-2.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69863,13 +70047,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/436-3.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69886,13 +70070,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/436-4.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69909,13 +70093,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/436-5.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69932,13 +70116,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/436-6.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69955,13 +70139,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/437-1.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -69978,13 +70162,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/437-2.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -70001,13 +70185,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/437-3.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -70024,13 +70208,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/437-4.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -70047,13 +70231,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/437-5.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -70070,13 +70254,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/437-6.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -70093,13 +70277,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/438-1.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -70116,13 +70300,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/438-2.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -70139,13 +70323,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/438-3.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -70162,13 +70346,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/438-4.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -70185,13 +70369,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/438-5.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -70208,13 +70392,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/439-1.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -70231,13 +70415,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/439-2.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -70254,13 +70438,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/439-3.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -70277,13 +70461,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/439-4.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -70300,13 +70484,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/439-5.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -70323,13 +70507,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/439-6.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -70346,13 +70530,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/440-1.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -70369,13 +70553,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/440-2.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -70392,13 +70576,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/440-3.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -70415,13 +70599,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/440-4.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -70438,13 +70622,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/440-5.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -70461,13 +70645,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EC%8B%A4%ED%81%AC/440-6.jpg"
     ],
-    "price": 45000,
+    "price": 37000,
     "thickness": "",
     "specs": {
       "division": "실크",
       "thickness": "",
-      "size": "1.06m(W) x 15.6m(H) / Roll",
-      "packing": "4 Roll / Box"
+      "size": "106cm × 15.5m",
+      "packing": "1롤"
     },
     "description": "실크"
   },
@@ -71938,8 +72122,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -71961,8 +72145,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -71984,8 +72168,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72007,8 +72191,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72030,8 +72214,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72053,8 +72237,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72076,8 +72260,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72099,8 +72283,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72122,8 +72306,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72145,8 +72329,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72168,8 +72352,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72191,8 +72375,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72214,8 +72398,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72237,8 +72421,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72260,8 +72444,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72283,8 +72467,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72306,8 +72490,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72329,8 +72513,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72352,8 +72536,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72375,8 +72559,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72398,8 +72582,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72421,8 +72605,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72444,8 +72628,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72467,8 +72651,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72490,8 +72674,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72513,8 +72697,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72536,8 +72720,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72559,8 +72743,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72582,8 +72766,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72605,8 +72789,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72628,8 +72812,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72651,8 +72835,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72674,8 +72858,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72697,8 +72881,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72720,8 +72904,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72743,8 +72927,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72766,8 +72950,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72789,8 +72973,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72812,8 +72996,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72835,8 +73019,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72858,8 +73042,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72881,8 +73065,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72904,8 +73088,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72927,8 +73111,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72950,8 +73134,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72973,8 +73157,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -72996,8 +73180,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73019,8 +73203,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73042,8 +73226,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73065,8 +73249,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73088,8 +73272,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73111,8 +73295,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73134,8 +73318,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73157,8 +73341,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73180,8 +73364,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73203,8 +73387,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73226,8 +73410,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73249,8 +73433,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73272,8 +73456,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73295,8 +73479,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73318,8 +73502,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73341,8 +73525,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73364,8 +73548,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73387,8 +73571,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73410,8 +73594,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73433,8 +73617,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73456,8 +73640,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73479,8 +73663,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73502,8 +73686,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73525,8 +73709,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73548,8 +73732,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73571,8 +73755,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73594,8 +73778,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73617,8 +73801,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73640,8 +73824,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73663,8 +73847,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73686,8 +73870,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73709,8 +73893,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73732,8 +73916,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73755,8 +73939,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73778,8 +73962,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73801,8 +73985,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73824,8 +74008,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73847,8 +74031,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73870,8 +74054,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73893,8 +74077,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73916,8 +74100,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73939,8 +74123,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73962,8 +74146,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -73985,8 +74169,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74008,8 +74192,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74031,8 +74215,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74054,8 +74238,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74077,8 +74261,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74100,8 +74284,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74123,8 +74307,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74146,8 +74330,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74169,8 +74353,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74192,8 +74376,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74215,8 +74399,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74238,8 +74422,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74261,8 +74445,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74284,8 +74468,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74307,8 +74491,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74330,8 +74514,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74353,8 +74537,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74376,8 +74560,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74399,8 +74583,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74422,8 +74606,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74445,8 +74629,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74468,8 +74652,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74491,8 +74675,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74514,8 +74698,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74537,8 +74721,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74560,8 +74744,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74583,8 +74767,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74606,8 +74790,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74629,8 +74813,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74652,8 +74836,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74675,8 +74859,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74698,8 +74882,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74721,8 +74905,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74744,8 +74928,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74767,8 +74951,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74790,8 +74974,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74813,8 +74997,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74836,8 +75020,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74859,8 +75043,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74882,8 +75066,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74905,8 +75089,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74928,8 +75112,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74951,8 +75135,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74974,8 +75158,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -74997,8 +75181,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75020,8 +75204,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75043,8 +75227,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75066,8 +75250,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75089,8 +75273,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75112,8 +75296,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75135,8 +75319,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75158,8 +75342,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75181,8 +75365,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75204,8 +75388,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75227,8 +75411,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75250,8 +75434,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75273,8 +75457,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75296,8 +75480,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75319,8 +75503,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75342,8 +75526,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75365,8 +75549,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75388,8 +75572,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75411,8 +75595,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75434,8 +75618,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75457,8 +75641,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75480,8 +75664,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75503,8 +75687,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75526,8 +75710,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75549,8 +75733,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75572,8 +75756,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75595,8 +75779,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75618,8 +75802,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75641,8 +75825,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75664,8 +75848,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75687,8 +75871,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75710,8 +75894,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75733,8 +75917,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75756,8 +75940,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75779,8 +75963,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75802,8 +75986,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75825,8 +76009,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75848,8 +76032,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75871,8 +76055,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75894,8 +76078,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75917,8 +76101,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75940,8 +76124,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75963,8 +76147,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -75986,8 +76170,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -76009,8 +76193,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -76032,8 +76216,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -76055,8 +76239,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -76078,8 +76262,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -76101,8 +76285,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -76124,8 +76308,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -76147,8 +76331,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -76170,8 +76354,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -76193,8 +76377,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -76216,8 +76400,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -76239,8 +76423,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -76262,8 +76446,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -76285,8 +76469,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -76308,8 +76492,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -76331,8 +76515,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -76354,8 +76538,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -76377,8 +76561,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -76400,8 +76584,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -76423,8 +76607,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -76446,8 +76630,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -76469,8 +76653,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -76492,8 +76676,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -76515,8 +76699,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -76538,8 +76722,8 @@ export const materials = [
     "specs": {
       "division": "합지",
       "thickness": "",
-      "size": "93cm(W) x 17.75m(H) / Roll",
-      "packing": "6 Roll / Box"
+      "size": "91cm × 18.2m",
+      "packing": "1롤"
     },
     "description": "합지"
   },
@@ -85319,11 +85503,11 @@ export const materials = [
     "description": "참다움"
   },
   {
-    "id": "장판-현대-상세페이지-c1152",
+    "id": "장판-현대-참다움-c1152",
     "category": "장판",
     "brand": "현대",
-    "line": "상세페이지",
-    "subLine": "상세페이지_시공사례",
+    "line": "참다움",
+    "subLine": "참다움1.8",
     "name": "C1152",
     "code": "C1152",
     "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1152_installation.jpg",
@@ -85332,21 +85516,21 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1152_installation.jpg"
     ],
     "price": 0,
-    "thickness": "",
+    "thickness": "1.8T",
     "specs": {
-      "division": "상세페이지_시공사례",
-      "thickness": "",
+      "division": "참다움1.8",
+      "thickness": "1.8T",
       "size": "제품별 규격 문의",
       "packing": "Roll 단위"
     },
-    "description": "상세페이지"
+    "description": "참다움"
   },
   {
-    "id": "장판-현대-상세페이지-c1154",
+    "id": "장판-현대-참다움-c1154",
     "category": "장판",
     "brand": "현대",
-    "line": "상세페이지",
-    "subLine": "상세페이지_시공사례",
+    "line": "참다움",
+    "subLine": "참다움1.8",
     "name": "C1154",
     "code": "C1154",
     "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1154_installation.jpg",
@@ -85355,21 +85539,21 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1154_installation.jpg"
     ],
     "price": 0,
-    "thickness": "",
+    "thickness": "1.8T",
     "specs": {
-      "division": "상세페이지_시공사례",
-      "thickness": "",
+      "division": "참다움1.8",
+      "thickness": "1.8T",
       "size": "제품별 규격 문의",
       "packing": "Roll 단위"
     },
-    "description": "상세페이지"
+    "description": "참다움"
   },
   {
-    "id": "장판-현대-상세페이지-c1161",
+    "id": "장판-현대-참다움-c1161",
     "category": "장판",
     "brand": "현대",
-    "line": "상세페이지",
-    "subLine": "상세페이지_시공사례",
+    "line": "참다움",
+    "subLine": "참다움1.8",
     "name": "C1161",
     "code": "C1161",
     "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1161_installation.jpg",
@@ -85378,21 +85562,21 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1161_installation.jpg"
     ],
     "price": 0,
-    "thickness": "",
+    "thickness": "1.8T",
     "specs": {
-      "division": "상세페이지_시공사례",
-      "thickness": "",
+      "division": "참다움1.8",
+      "thickness": "1.8T",
       "size": "제품별 규격 문의",
       "packing": "Roll 단위"
     },
-    "description": "상세페이지"
+    "description": "참다움"
   },
   {
-    "id": "장판-현대-상세페이지-c1162",
+    "id": "장판-현대-참다움-c1162",
     "category": "장판",
     "brand": "현대",
-    "line": "상세페이지",
-    "subLine": "상세페이지_시공사례",
+    "line": "참다움",
+    "subLine": "참다움1.8",
     "name": "C1162",
     "code": "C1162",
     "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1162_installation.jpg",
@@ -85401,21 +85585,21 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1162_installation.jpg"
     ],
     "price": 0,
-    "thickness": "",
+    "thickness": "1.8T",
     "specs": {
-      "division": "상세페이지_시공사례",
-      "thickness": "",
+      "division": "참다움1.8",
+      "thickness": "1.8T",
       "size": "제품별 규격 문의",
       "packing": "Roll 단위"
     },
-    "description": "상세페이지"
+    "description": "참다움"
   },
   {
-    "id": "장판-현대-상세페이지-c1171",
+    "id": "장판-현대-참다움-c1171",
     "category": "장판",
     "brand": "현대",
-    "line": "상세페이지",
-    "subLine": "상세페이지_시공사례",
+    "line": "참다움",
+    "subLine": "참다움1.8",
     "name": "C1171",
     "code": "C1171",
     "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1171_installation.jpg",
@@ -85424,21 +85608,21 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1171_installation.jpg"
     ],
     "price": 0,
-    "thickness": "",
+    "thickness": "1.8T",
     "specs": {
-      "division": "상세페이지_시공사례",
-      "thickness": "",
+      "division": "참다움1.8",
+      "thickness": "1.8T",
       "size": "제품별 규격 문의",
       "packing": "Roll 단위"
     },
-    "description": "상세페이지"
+    "description": "참다움"
   },
   {
-    "id": "장판-현대-상세페이지-c1172",
+    "id": "장판-현대-참다움-c1172",
     "category": "장판",
     "brand": "현대",
-    "line": "상세페이지",
-    "subLine": "상세페이지_시공사례",
+    "line": "참다움",
+    "subLine": "참다움1.8",
     "name": "C1172",
     "code": "C1172",
     "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1172_installation.jpg",
@@ -85447,21 +85631,21 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1172_installation.jpg"
     ],
     "price": 0,
-    "thickness": "",
+    "thickness": "1.8T",
     "specs": {
-      "division": "상세페이지_시공사례",
-      "thickness": "",
+      "division": "참다움1.8",
+      "thickness": "1.8T",
       "size": "제품별 규격 문의",
       "packing": "Roll 단위"
     },
-    "description": "상세페이지"
+    "description": "참다움"
   },
   {
-    "id": "장판-현대-상세페이지-c1173",
+    "id": "장판-현대-참다움-c1173",
     "category": "장판",
     "brand": "현대",
-    "line": "상세페이지",
-    "subLine": "상세페이지_시공사례",
+    "line": "참다움",
+    "subLine": "참다움1.8",
     "name": "C1173",
     "code": "C1173",
     "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1173_installation.jpg",
@@ -85470,21 +85654,21 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1173_installation.jpg"
     ],
     "price": 0,
-    "thickness": "",
+    "thickness": "1.8T",
     "specs": {
-      "division": "상세페이지_시공사례",
-      "thickness": "",
+      "division": "참다움1.8",
+      "thickness": "1.8T",
       "size": "제품별 규격 문의",
       "packing": "Roll 단위"
     },
-    "description": "상세페이지"
+    "description": "참다움"
   },
   {
-    "id": "장판-현대-상세페이지-c1705",
+    "id": "장판-현대-참다움-c1705",
     "category": "장판",
     "brand": "현대",
-    "line": "상세페이지",
-    "subLine": "상세페이지_시공사례",
+    "line": "참다움",
+    "subLine": "참다움1.8",
     "name": "C1705",
     "code": "C1705",
     "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1705_installation.jpg",
@@ -85493,21 +85677,21 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1705_installation.jpg"
     ],
     "price": 0,
-    "thickness": "",
+    "thickness": "1.8T",
     "specs": {
-      "division": "상세페이지_시공사례",
-      "thickness": "",
+      "division": "참다움1.8",
+      "thickness": "1.8T",
       "size": "제품별 규격 문의",
       "packing": "Roll 단위"
     },
-    "description": "상세페이지"
+    "description": "참다움"
   },
   {
-    "id": "장판-현대-상세페이지-c1706",
+    "id": "장판-현대-참다움-c1706",
     "category": "장판",
     "brand": "현대",
-    "line": "상세페이지",
-    "subLine": "상세페이지_시공사례",
+    "line": "참다움",
+    "subLine": "참다움1.8",
     "name": "C1706",
     "code": "C1706",
     "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1706_installation.jpg",
@@ -85516,21 +85700,21 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1706_installation.jpg"
     ],
     "price": 0,
-    "thickness": "",
+    "thickness": "1.8T",
     "specs": {
-      "division": "상세페이지_시공사례",
-      "thickness": "",
+      "division": "참다움1.8",
+      "thickness": "1.8T",
       "size": "제품별 규격 문의",
       "packing": "Roll 단위"
     },
-    "description": "상세페이지"
+    "description": "참다움"
   },
   {
-    "id": "장판-현대-상세페이지-c1708",
+    "id": "장판-현대-참다움-c1708",
     "category": "장판",
     "brand": "현대",
-    "line": "상세페이지",
-    "subLine": "상세페이지_시공사례",
+    "line": "참다움",
+    "subLine": "참다움1.8",
     "name": "C1708",
     "code": "C1708",
     "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1708_installation.jpg",
@@ -85539,21 +85723,21 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1708_installation.jpg"
     ],
     "price": 0,
-    "thickness": "",
+    "thickness": "1.8T",
     "specs": {
-      "division": "상세페이지_시공사례",
-      "thickness": "",
+      "division": "참다움1.8",
+      "thickness": "1.8T",
       "size": "제품별 규격 문의",
       "packing": "Roll 단위"
     },
-    "description": "상세페이지"
+    "description": "참다움"
   },
   {
-    "id": "장판-현대-상세페이지-c1712",
+    "id": "장판-현대-참다움-c1712",
     "category": "장판",
     "brand": "현대",
-    "line": "상세페이지",
-    "subLine": "상세페이지_시공사례",
+    "line": "참다움",
+    "subLine": "참다움1.8",
     "name": "C1712",
     "code": "C1712",
     "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1712_installation.jpg",
@@ -85562,21 +85746,21 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1712_installation.jpg"
     ],
     "price": 0,
-    "thickness": "",
+    "thickness": "1.8T",
     "specs": {
-      "division": "상세페이지_시공사례",
-      "thickness": "",
+      "division": "참다움1.8",
+      "thickness": "1.8T",
       "size": "제품별 규격 문의",
       "packing": "Roll 단위"
     },
-    "description": "상세페이지"
+    "description": "참다움"
   },
   {
-    "id": "장판-현대-상세페이지-c1909",
+    "id": "장판-현대-참다움-c1909",
     "category": "장판",
     "brand": "현대",
-    "line": "상세페이지",
-    "subLine": "상세페이지_시공사례",
+    "line": "참다움",
+    "subLine": "참다움1.8",
     "name": "C1909",
     "code": "C1909",
     "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1909_installation.jpg",
@@ -85585,14 +85769,14 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1909_installation.jpg"
     ],
     "price": 0,
-    "thickness": "",
+    "thickness": "1.8T",
     "specs": {
-      "division": "상세페이지_시공사례",
-      "thickness": "",
+      "division": "참다움1.8",
+      "thickness": "1.8T",
       "size": "제품별 규격 문의",
       "packing": "Roll 단위"
     },
-    "description": "상세페이지"
+    "description": "참다움"
   },
   {
     "id": "장판-현대-참다움-m2151_detail",
@@ -85733,11 +85917,11 @@ export const materials = [
     "description": "참다움"
   },
   {
-    "id": "장판-현대-상세페이지-m2151",
+    "id": "장판-현대-참다움-m2151",
     "category": "장판",
     "brand": "현대",
-    "line": "상세페이지",
-    "subLine": "상세페이지_시공사례",
+    "line": "참다움",
+    "subLine": "참다움2.0",
     "name": "M2151",
     "code": "M2151",
     "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2151_installation.jpg",
@@ -85746,21 +85930,21 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2151_installation.jpg"
     ],
     "price": 0,
-    "thickness": "",
+    "thickness": "2.0T",
     "specs": {
-      "division": "상세페이지_시공사례",
-      "thickness": "",
+      "division": "참다움2.0",
+      "thickness": "2.0T",
       "size": "제품별 규격 문의",
       "packing": "Roll 단위"
     },
-    "description": "상세페이지"
+    "description": "참다움"
   },
   {
-    "id": "장판-현대-상세페이지-m2152",
+    "id": "장판-현대-참다움-m2152",
     "category": "장판",
     "brand": "현대",
-    "line": "상세페이지",
-    "subLine": "상세페이지_시공사례",
+    "line": "참다움",
+    "subLine": "참다움2.0",
     "name": "M2152",
     "code": "M2152",
     "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2152_installation.jpg",
@@ -85769,21 +85953,21 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2152_installation.jpg"
     ],
     "price": 0,
-    "thickness": "",
+    "thickness": "2.0T",
     "specs": {
-      "division": "상세페이지_시공사례",
-      "thickness": "",
+      "division": "참다움2.0",
+      "thickness": "2.0T",
       "size": "제품별 규격 문의",
       "packing": "Roll 단위"
     },
-    "description": "상세페이지"
+    "description": "참다움"
   },
   {
-    "id": "장판-현대-상세페이지-m2157",
+    "id": "장판-현대-참다움-m2157",
     "category": "장판",
     "brand": "현대",
-    "line": "상세페이지",
-    "subLine": "상세페이지_시공사례",
+    "line": "참다움",
+    "subLine": "참다움2.0",
     "name": "M2157",
     "code": "M2157",
     "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2157_installation.jpg",
@@ -85792,21 +85976,21 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2157_installation.jpg"
     ],
     "price": 0,
-    "thickness": "",
+    "thickness": "2.0T",
     "specs": {
-      "division": "상세페이지_시공사례",
-      "thickness": "",
+      "division": "참다움2.0",
+      "thickness": "2.0T",
       "size": "제품별 규격 문의",
       "packing": "Roll 단위"
     },
-    "description": "상세페이지"
+    "description": "참다움"
   },
   {
-    "id": "장판-현대-상세페이지-m2801",
+    "id": "장판-현대-참다움-m2801",
     "category": "장판",
     "brand": "현대",
-    "line": "상세페이지",
-    "subLine": "상세페이지_시공사례",
+    "line": "참다움",
+    "subLine": "참다움2.0",
     "name": "M2801",
     "code": "M2801",
     "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2801_installation.jpg",
@@ -85815,21 +85999,21 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2801_installation.jpg"
     ],
     "price": 0,
-    "thickness": "",
+    "thickness": "2.0T",
     "specs": {
-      "division": "상세페이지_시공사례",
-      "thickness": "",
+      "division": "참다움2.0",
+      "thickness": "2.0T",
       "size": "제품별 규격 문의",
       "packing": "Roll 단위"
     },
-    "description": "상세페이지"
+    "description": "참다움"
   },
   {
-    "id": "장판-현대-상세페이지-m2803",
+    "id": "장판-현대-참다움-m2803",
     "category": "장판",
     "brand": "현대",
-    "line": "상세페이지",
-    "subLine": "상세페이지_시공사례",
+    "line": "참다움",
+    "subLine": "참다움2.0",
     "name": "M2803",
     "code": "M2803",
     "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2803_installation.jpg",
@@ -85838,21 +86022,21 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2803_installation.jpg"
     ],
     "price": 0,
-    "thickness": "",
+    "thickness": "2.0T",
     "specs": {
-      "division": "상세페이지_시공사례",
-      "thickness": "",
+      "division": "참다움2.0",
+      "thickness": "2.0T",
       "size": "제품별 규격 문의",
       "packing": "Roll 단위"
     },
-    "description": "상세페이지"
+    "description": "참다움"
   },
   {
-    "id": "장판-현대-상세페이지-m2902",
+    "id": "장판-현대-참다움-m2902",
     "category": "장판",
     "brand": "현대",
-    "line": "상세페이지",
-    "subLine": "상세페이지_시공사례",
+    "line": "참다움",
+    "subLine": "참다움2.0",
     "name": "M2902",
     "code": "M2902",
     "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2902_installation.jpg",
@@ -85861,14 +86045,14 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2902_installation.jpg"
     ],
     "price": 0,
-    "thickness": "",
+    "thickness": "2.0T",
     "specs": {
-      "division": "상세페이지_시공사례",
-      "thickness": "",
+      "division": "참다움2.0",
+      "thickness": "2.0T",
       "size": "제품별 규격 문의",
       "packing": "Roll 단위"
     },
-    "description": "상세페이지"
+    "description": "참다움"
   },
   {
     "id": "카페트타일-스완-롤-카페트-ar502",
@@ -85888,8 +86072,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -85911,8 +86095,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -85934,8 +86118,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -85957,8 +86141,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -85980,8 +86164,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86003,8 +86187,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86026,8 +86210,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86049,8 +86233,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86072,8 +86256,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86095,8 +86279,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86118,8 +86302,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86141,8 +86325,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86164,8 +86348,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86187,8 +86371,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86210,8 +86394,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86233,8 +86417,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86256,8 +86440,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86279,8 +86463,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86302,8 +86486,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86325,8 +86509,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86348,8 +86532,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86371,8 +86555,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86394,8 +86578,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86417,8 +86601,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86440,8 +86624,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86463,8 +86647,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86486,8 +86670,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86509,8 +86693,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86532,8 +86716,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86555,8 +86739,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86578,8 +86762,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86601,8 +86785,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86624,8 +86808,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86647,8 +86831,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86670,8 +86854,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86693,8 +86877,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86716,8 +86900,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86739,8 +86923,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86762,8 +86946,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86785,8 +86969,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86808,8 +86992,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86831,8 +87015,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86854,8 +87038,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86877,8 +87061,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86900,8 +87084,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86923,8 +87107,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86946,8 +87130,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86969,8 +87153,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -86992,8 +87176,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87015,8 +87199,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87038,8 +87222,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87061,8 +87245,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87084,8 +87268,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87107,8 +87291,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87130,8 +87314,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87153,8 +87337,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87176,8 +87360,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87199,8 +87383,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87222,8 +87406,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87245,8 +87429,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87268,8 +87452,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87291,8 +87475,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87314,8 +87498,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87337,8 +87521,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87360,8 +87544,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87383,8 +87567,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87406,8 +87590,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87429,8 +87613,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87452,8 +87636,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87475,8 +87659,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87498,8 +87682,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87521,8 +87705,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87544,8 +87728,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87567,8 +87751,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87590,8 +87774,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87613,8 +87797,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87636,8 +87820,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87659,8 +87843,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87682,8 +87866,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87705,8 +87889,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87728,8 +87912,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87751,8 +87935,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87774,8 +87958,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87797,8 +87981,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87820,8 +88004,8 @@ export const materials = [
     "specs": {
       "division": "롤 카페트",
       "thickness": "9.0mm(±0.5mm)",
-      "size": "폭 364cm ~ 366cm",
-      "packing": ""
+      "size": "폭 3.64m ~ 3.66m",
+      "packing": "1㎡"
     },
     "description": "롤 카페트"
   },
@@ -87838,13 +88022,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BA102.jpg"
     ],
-    "price": 0,
+    "price": 59000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -87861,13 +88045,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BA103.jpg"
     ],
-    "price": 0,
+    "price": 59000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -87884,13 +88068,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BA104.jpg"
     ],
-    "price": 0,
+    "price": 59000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -87907,13 +88091,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BA146.jpg"
     ],
-    "price": 0,
+    "price": 59000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -87930,13 +88114,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BA151.jpg"
     ],
-    "price": 0,
+    "price": 59000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -87953,13 +88137,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BA201.jpg"
     ],
-    "price": 0,
+    "price": 59000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -87976,13 +88160,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BA202.jpg"
     ],
-    "price": 0,
+    "price": 59000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -87999,13 +88183,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BA203.jpg"
     ],
-    "price": 0,
+    "price": 59000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88022,13 +88206,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BS301.jpg"
     ],
-    "price": 0,
+    "price": 59000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88045,13 +88229,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BS303.jpg"
     ],
-    "price": 0,
+    "price": 59000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88068,13 +88252,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BS305.jpg"
     ],
-    "price": 0,
+    "price": 59000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88091,13 +88275,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BS309.jpg"
     ],
-    "price": 0,
+    "price": 59000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88114,13 +88298,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BS312.jpg"
     ],
-    "price": 0,
+    "price": 59000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88137,13 +88321,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BS315.jpg"
     ],
-    "price": 0,
+    "price": 59000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88160,13 +88344,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BS333.jpg"
     ],
-    "price": 0,
+    "price": 59000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88183,13 +88367,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BS335.jpg"
     ],
-    "price": 0,
+    "price": 59000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88206,13 +88390,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BS337.jpg"
     ],
-    "price": 0,
+    "price": 59000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88229,13 +88413,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BS340.jpg"
     ],
-    "price": 0,
+    "price": 59000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88252,13 +88436,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BS341.jpg"
     ],
-    "price": 0,
+    "price": 59000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88275,13 +88459,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BS346.jpg"
     ],
-    "price": 0,
+    "price": 59000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88298,13 +88482,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BS351.jpg"
     ],
-    "price": 0,
+    "price": 59000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88321,13 +88505,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BS352.jpg"
     ],
-    "price": 0,
+    "price": 59000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88344,13 +88528,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BS353.jpg"
     ],
-    "price": 0,
+    "price": 59000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88367,13 +88551,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/bs353_2.jpg"
     ],
-    "price": 0,
+    "price": 59000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88390,13 +88574,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BS356.jpg"
     ],
-    "price": 0,
+    "price": 59000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88413,13 +88597,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BS357.jpg"
     ],
-    "price": 0,
+    "price": 59000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88436,13 +88620,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BS358.jpg"
     ],
-    "price": 0,
+    "price": 59000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88459,13 +88643,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/CT711.jpg"
     ],
-    "price": 0,
+    "price": 65000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88482,13 +88666,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/CT712.jpg"
     ],
-    "price": 0,
+    "price": 65000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88505,13 +88689,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/CT713.jpg"
     ],
-    "price": 0,
+    "price": 65000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88528,13 +88712,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/CT715.jpg"
     ],
-    "price": 0,
+    "price": 65000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88551,13 +88735,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/CT716.jpg"
     ],
-    "price": 0,
+    "price": 65000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88574,13 +88758,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/CT717.jpg"
     ],
-    "price": 0,
+    "price": 65000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88597,13 +88781,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FP401.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88620,13 +88804,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FP402.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88643,13 +88827,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FP403.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88666,13 +88850,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FP411.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88689,13 +88873,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FP412.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88712,13 +88896,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FP413.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88735,13 +88919,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FP414.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88758,13 +88942,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FP415.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88781,13 +88965,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FP416.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88804,13 +88988,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FP441.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88827,13 +89011,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FP442.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88850,13 +89034,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FS301.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88873,13 +89057,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FS303.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88896,13 +89080,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FS314.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88919,13 +89103,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FS326.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88942,13 +89126,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FS329.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88965,13 +89149,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FS330.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -88988,13 +89172,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FS331.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89011,13 +89195,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FS334.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89034,13 +89218,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FS335.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89057,13 +89241,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FS341.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89080,13 +89264,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FS342.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89103,13 +89287,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FS343.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89126,13 +89310,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FS375.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89149,13 +89333,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FS391.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89172,13 +89356,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FS392.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89195,13 +89379,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FS393.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89218,13 +89402,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FS394.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89241,13 +89425,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FS395.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89264,13 +89448,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FS396.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89287,13 +89471,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FS397.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89310,13 +89494,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/FS398.jpg"
     ],
-    "price": 0,
+    "price": 88000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89333,13 +89517,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GL904.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89356,13 +89540,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GL905.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89379,13 +89563,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GL910.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89402,13 +89586,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GL913.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89425,13 +89609,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GL920.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89448,13 +89632,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GL921.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89471,13 +89655,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GL932.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89494,13 +89678,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GL933.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89517,13 +89701,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GL934.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89540,13 +89724,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GL935.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89563,13 +89747,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GL936.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89586,13 +89770,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GL937.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89609,13 +89793,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GL941.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89632,13 +89816,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GL942.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89655,13 +89839,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GL943.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89678,13 +89862,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GL944.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89701,13 +89885,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GL945.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89724,13 +89908,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GL946.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89747,13 +89931,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GL947.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89770,13 +89954,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GL948.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89793,13 +89977,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GL949.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89816,13 +90000,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GP641.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89839,13 +90023,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/gp641_1.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89862,13 +90046,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GP642.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89885,13 +90069,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/gp642_1.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89908,13 +90092,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GP643.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89931,13 +90115,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/gp643_1.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89954,13 +90138,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GP673.jpg"
     ],
-    "price": 0,
+    "price": 118000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -89977,13 +90161,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/MJ801.jpg"
     ],
-    "price": 0,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90000,13 +90184,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/MJ803.jpg"
     ],
-    "price": 0,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90023,13 +90207,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/MJ804.jpg"
     ],
-    "price": 0,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90046,13 +90230,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/MJ809.jpg"
     ],
-    "price": 0,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90069,13 +90253,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/MJ810.jpg"
     ],
-    "price": 0,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90092,13 +90276,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/MJ811.jpg"
     ],
-    "price": 0,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90115,13 +90299,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/MJ816.jpg"
     ],
-    "price": 0,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90138,13 +90322,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/MJ817.jpg"
     ],
-    "price": 0,
+    "price": 75000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90166,8 +90350,8 @@ export const materials = [
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90189,8 +90373,8 @@ export const materials = [
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90212,8 +90396,8 @@ export const materials = [
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90235,8 +90419,8 @@ export const materials = [
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90258,8 +90442,8 @@ export const materials = [
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90281,8 +90465,8 @@ export const materials = [
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90299,13 +90483,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/MX095.jpg"
     ],
-    "price": 0,
+    "price": 190000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90322,13 +90506,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/MX816.jpg"
     ],
-    "price": 0,
+    "price": 190000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90345,13 +90529,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/MX834.jpg"
     ],
-    "price": 0,
+    "price": 190000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90368,13 +90552,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/MX849.jpg"
     ],
-    "price": 0,
+    "price": 190000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90391,13 +90575,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/MX853.jpg"
     ],
-    "price": 0,
+    "price": 190000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90414,13 +90598,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/MX854.jpg"
     ],
-    "price": 0,
+    "price": 190000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90437,13 +90621,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/MX855.jpg"
     ],
-    "price": 0,
+    "price": 190000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90460,13 +90644,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/MX871.jpg"
     ],
-    "price": 0,
+    "price": 190000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90489,7 +90673,7 @@ export const materials = [
       "division": "타일 카페트",
       "thickness": "",
       "size": "500mm x 500mm",
-      "packing": "16pcs / 4m²"
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90512,7 +90696,7 @@ export const materials = [
       "division": "타일 카페트",
       "thickness": "",
       "size": "500mm x 500mm",
-      "packing": "16pcs / 4m²"
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90535,7 +90719,7 @@ export const materials = [
       "division": "타일 카페트",
       "thickness": "",
       "size": "500mm x 500mm",
-      "packing": "16pcs / 4m²"
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90558,7 +90742,7 @@ export const materials = [
       "division": "타일 카페트",
       "thickness": "",
       "size": "500mm x 500mm",
-      "packing": "16pcs / 4m²"
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90575,13 +90759,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/SP505.jpg"
     ],
-    "price": 0,
+    "price": 115000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90598,13 +90782,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/SP507.jpg"
     ],
-    "price": 0,
+    "price": 115000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90621,13 +90805,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/SP508.jpg"
     ],
-    "price": 0,
+    "price": 115000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90644,13 +90828,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/SP522.jpg"
     ],
-    "price": 0,
+    "price": 115000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90667,13 +90851,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/SP526.jpg"
     ],
-    "price": 0,
+    "price": 115000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90690,13 +90874,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/SP601.jpg"
     ],
-    "price": 0,
+    "price": 115000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90713,13 +90897,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/SP603.jpg"
     ],
-    "price": 0,
+    "price": 115000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90736,13 +90920,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/SP604.jpg"
     ],
-    "price": 0,
+    "price": 115000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90759,13 +90943,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/SP605.jpg"
     ],
-    "price": 0,
+    "price": 115000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90782,13 +90966,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/SQ206.jpg"
     ],
-    "price": 0,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90805,13 +90989,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/SQ208.jpg"
     ],
-    "price": 0,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90828,13 +91012,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/SQ212.jpg"
     ],
-    "price": 0,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90851,13 +91035,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/SQ222.jpg"
     ],
-    "price": 0,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90874,13 +91058,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/SQ226.jpg"
     ],
-    "price": 0,
+    "price": 90000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90897,13 +91081,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/TR101.jpg"
     ],
-    "price": 0,
+    "price": 115000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90920,13 +91104,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/TR104.jpg"
     ],
-    "price": 0,
+    "price": 115000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90943,13 +91127,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/TR107.jpg"
     ],
-    "price": 0,
+    "price": 115000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90966,13 +91150,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/TR108.jpg"
     ],
-    "price": 0,
+    "price": 115000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -90989,13 +91173,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/TR109.jpg"
     ],
-    "price": 0,
+    "price": 115000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -91012,13 +91196,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/TR110.jpg"
     ],
-    "price": 0,
+    "price": 115000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -91035,13 +91219,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/TR112.jpg"
     ],
-    "price": 0,
+    "price": 115000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -91058,13 +91242,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/TR121.jpg"
     ],
-    "price": 0,
+    "price": 115000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },
@@ -91081,13 +91265,13 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/TR122.jpg"
     ],
-    "price": 0,
+    "price": 115000,
     "thickness": "",
     "specs": {
       "division": "타일 카페트",
       "thickness": "",
-      "size": "",
-      "packing": ""
+      "size": "500mm x 500mm",
+      "packing": "1박스 (4㎡)"
     },
     "description": "타일 카페트"
   },

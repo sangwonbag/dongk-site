@@ -52,299 +52,6 @@
   background-color: var(--bg-alt);
 }
 
-/* ==========================================
-   1. B2B Hero Section (Two Column Layout)
-   ========================================== */
-.showroom-hero-b2b {
-  width: 100%;
-  padding: 140px 24px 80px !important;
-  background-color: #ffffff;
-  border-bottom: 1px solid var(--border);
-  box-sizing: border-box;
-}
-
-.hero-b2b-container {
-  display: grid;
-  grid-template-columns: 1.2fr 1fr;
-  gap: 64px;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.hero-b2b-content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 20px;
-}
-
-.hero-b2b-badge {
-  background-color: rgba(15, 23, 42, 0.6);
-  color: var(--point-gold);
-  border: 1px solid var(--point-gold);
-  font-size: 12px;
-  font-weight: 700;
-  padding: 6px 16px;
-  border-radius: 9999px;
-  letter-spacing: 0.5px;
-}
-
-.hero-b2b-title {
-  font-size: 48px;
-  font-weight: 800;
-  color: #ffffff;
-  line-height: 1.25;
-  letter-spacing: -0.03em;
-  margin: 0;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-.hero-b2b-title strong {
-  color: var(--point-gold);
-  font-weight: 800;
-}
-
-.hero-b2b-subtitle {
-  font-size: 16.5px;
-  color: #e2e8f0;
-  line-height: 1.7;
-  margin: 0 0 16px 0;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-}
-
-.hero-b2b-actions {
-  display: flex;
-  gap: 14px;
-  flex-wrap: wrap;
-}
-
-.btn-b2b-hero {
-  padding: 14px 28px;
-  border-radius: var(--radius-md);
-  font-size: 15px;
-  font-weight: 700;
-  cursor: pointer;
-  transition: var(--transition);
-  white-space: nowrap;
-}
-
-.btn-b2b-hero.primary {
-  background-color: #ffffff;
-  color: #1a1a1a;
-  border: 1px solid #ffffff;
-}
-
-.btn-b2b-hero.primary:hover {
-  background-color: #f3f3f3;
-  border-color: #f3f3f3;
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
-}
-
-.btn-b2b-hero.secondary {
-  background-color: transparent;
-  color: #ffffff;
-  border: 2px solid #ffffff;
-}
-
-.btn-b2b-hero.secondary:hover {
-  background-color: #ffffff;
-  color: #0f172a;
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
-}
-
-.btn-b2b-hero.outline {
-  background-color: transparent;
-  color: #e2e8f0;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-.btn-b2b-hero.outline:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.5);
-  color: #ffffff;
-  transform: translateY(-2px);
-}
-
-/* B2B Hero Visual Card */
-.hero-b2b-visual {
-  position: relative;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.b2b-recommendation-card {
-  width: 100%;
-  max-width: 440px;
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-xl);
-  overflow: hidden;
-  transition: var(--transition);
-}
-
-.b2b-recommendation-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 24px -10px rgba(15, 23, 42, 0.15);
-}
-
-.b2b-rec-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 14px 20px;
-  background-color: var(--primary);
-  color: #ffffff;
-}
-
-.b2b-rec-tag {
-  font-size: 13px;
-  font-weight: 700;
-  color: #ffffff;
-}
-
-.b2b-rec-delivery-badge {
-  font-size: 11px;
-  font-weight: 700;
-  color: var(--point-gold);
-  background: rgba(179, 146, 95, 0.1);
-  padding: 3px 10px;
-  border-radius: 9999px;
-  border: 1px solid rgba(179, 146, 95, 0.2);
-}
-
-.b2b-rec-image-box {
-  width: 100%;
-  height: 220px;
-  overflow: hidden;
-  background-color: var(--bg-alt);
-}
-
-.b2b-rec-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s ease;
-}
-
-.b2b-recommendation-card:hover .b2b-rec-img {
-  transform: scale(1.03);
-}
-
-.b2b-rec-info {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.b2b-rec-brand-row {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-}
-
-.b2b-rec-brand {
-  font-size: 12px;
-  font-weight: 800;
-  color: var(--point-gold);
-  text-transform: uppercase;
-}
-
-.b2b-rec-code {
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--text-muted);
-  background-color: var(--bg-alt);
-  padding: 2px 8px;
-  border-radius: var(--radius-sm);
-}
-
-.b2b-rec-title {
-  font-size: 20px;
-  font-weight: 700;
-  color: var(--text);
-  margin: 0;
-}
-
-.b2b-rec-specs {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  font-size: 13px;
-  color: var(--text-muted);
-  border-bottom: 1px solid var(--border);
-  padding-bottom: 12px;
-}
-
-.b2b-rec-price-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 4px;
-}
-
-.b2b-rec-price-label {
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--text-muted);
-}
-
-.b2b-rec-price {
-  font-size: 22px;
-  font-weight: 800;
-  color: var(--primary);
-}
-
-.b2b-rec-price small {
-  font-size: 13px;
-  font-weight: 500;
-  color: var(--text-muted);
-}
-
-.b2b-rec-actions {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  margin-top: 8px;
-}
-
-.btn-b2b-rec {
-  padding: 11px;
-  border-radius: var(--radius-md);
-  font-size: 13.5px;
-  font-weight: 700;
-  cursor: pointer;
-  text-align: center;
-  transition: var(--transition);
-  border: 1px solid transparent;
-}
-
-.btn-b2b-rec.primary {
-  background-color: var(--primary);
-  color: #ffffff;
-}
-
-.btn-b2b-rec.primary:hover {
-  background-color: var(--primary-hover);
-}
-
-.btn-b2b-rec.secondary {
-  background-color: transparent;
-  color: var(--text);
-  border-color: var(--border);
-}
-
-.btn-b2b-rec.secondary:hover {
-  background-color: var(--bg-alt);
-  border-color: var(--border-hover);
-}
-
 @keyframes float {
   0% { transform: translateY(0px); }
   50% { transform: translateY(-10px); }
@@ -579,9 +286,6 @@
   background-color: var(--primary-hover);
 }
 
-/* ==========================================
-   5. Featured Materials (Redesigned B2B Cards)
-   ========================================== */
 .featured-v2-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -1301,9 +1005,6 @@
   }
 }
 
-/* ==========================================
-   6. B2B Trust Grid Section
-   ========================================== */
 .showroom-trust-v2 {
   padding: 80px 0 !important;
   background-color: #ffffff;
@@ -1359,59 +1060,6 @@
   margin: 0;
 }
 
-/* ==========================================
-   6.5 B2B Customer Support & Bank Info Card Styles
-   ========================================== */
-.b2b-contact-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
-  margin-bottom: 28px;
-  width: 100%;
-}
-
-.b2b-contact-info-card {
-  background-color: var(--bg-alt);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.b2b-contact-info-card .info-card-lbl {
-  font-size: 13px;
-  font-weight: 700;
-  color: var(--text-muted);
-  margin: 0 0 6px 0;
-  border-bottom: 1px dashed var(--border-hover);
-  padding-bottom: 6px;
-  text-transform: uppercase;
-}
-
-.b2b-contact-info-card .info-card-phone {
-  font-size: 24px;
-  font-weight: 800;
-  color: var(--point-gold);
-  text-decoration: none;
-  margin-bottom: 4px;
-}
-
-.b2b-contact-info-card .info-card-phone:hover {
-  color: var(--point-gold-hover);
-}
-
-.b2b-contact-info-card .info-card-txt {
-  font-size: 13px;
-  color: var(--text-muted);
-  margin: 0;
-  line-height: 1.5;
-}
-
-/* ==========================================
-   7. Contact / B2B Section
-   ========================================== */
 .showroom-contact-v2 {
   padding: 80px 0 !important;
   margin-bottom: 60px;
@@ -1585,11 +1233,6 @@
    Mobile & Tablet Responsive Styling
    ========================================== */
 @media (max-width: 1199px) {
-  .hero-b2b-container {
-    grid-template-columns: 1fr;
-    gap: 36px;
-    max-width: 800px;
-  }
   .category-v2-grid {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -1649,21 +1292,6 @@
   .contact-v2-image-pane {
     height: 200px;
   }
-  .showroom-hero-b2b {
-    padding: 120px 16px 60px !important;
-  }
-  .hero-b2b-title {
-    font-size: 32px;
-  }
-  .hero-b2b-subtitle {
-    font-size: 15px;
-    line-height: 1.6;
-  }
-  .btn-b2b-hero {
-    width: 100%;
-    padding: 12px 24px;
-    font-size: 0.95rem;
-  }
 }
 
 /* ==========================================================================
@@ -1682,109 +1310,9 @@
   transform: translateY(0);
 }
 
-/* 1. B2B Hero Section Animations */
-.showroom-hero-b2b {
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-}
-
-.hero-b2b-bg-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  pointer-events: none;
-  overflow: hidden;
-}
-
-.hero-b2b-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -2;
-}
-
-.hero-b2b-bg {
-  width: 100%;
-  height: 100%;
-  background: radial-gradient(circle at 85% 15%, #f1f5f9 0%, #f8fafc 100%);
-  opacity: 0.4;
-  filter: blur(8px);
-  transform: scale(1.05);
-  transition: opacity 1.1s cubic-bezier(0.16, 1, 0.3, 1), 
-              filter 1.1s cubic-bezier(0.16, 1, 0.3, 1), 
-              transform 1.1s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.hero-b2b-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    to bottom,
-    rgba(15, 23, 42, 0.55) 0%,
-    rgba(15, 23, 42, 0.4) 50%,
-    rgba(15, 23, 42, 0.65) 100%
-  );
-}
-
-.showroom-hero-b2b.hero-active .hero-b2b-bg {
-  opacity: 1;
-  filter: blur(0);
-  transform: scale(1);
-}
-
 /* Hero Content Staggered Entrance */
-.hero-b2b-content > * {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.85s cubic-bezier(0.16, 1, 0.3, 1), transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.showroom-hero-b2b.hero-active .hero-b2b-badge {
-  opacity: 1;
-  transform: translateY(0);
-  transition-delay: 100ms;
-}
-
-.showroom-hero-b2b.hero-active .hero-b2b-title {
-  opacity: 1;
-  transform: translateY(0);
-  transition-delay: 200ms;
-}
-
-.showroom-hero-b2b.hero-active .hero-b2b-subtitle {
-  opacity: 1;
-  transform: translateY(0);
-  transition-delay: 300ms;
-}
-
-.showroom-hero-b2b.hero-active .hero-b2b-actions {
-  opacity: 1;
-  transform: translateY(0);
-  transition-delay: 400ms;
-}
 
 /* Hero Cards Entrance */
-.hero-b2b-cards {
-  opacity: 0;
-  transform: translateY(24px);
-  transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1), transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
-  transition-delay: 350ms;
-}
-
-.showroom-hero-b2b.hero-active .hero-b2b-cards {
-  opacity: 1;
-  transform: translateY(0);
-}
 
 /* 2. Interactive Category & curating Cards */
 .category-v2-card,
@@ -1875,12 +1403,6 @@
     transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
   }
 
-  .hero-b2b-bg {
-    filter: none; /* Turn off heavy blur calculation on mobile */
-    transform: none;
-    opacity: 0.8;
-  }
-
   /* Disable hover transform behaviors to prevent tap sticky problems on mobile */
   .category-v2-card:hover,
   .samplebook-v2-card:hover,
@@ -1908,21 +1430,6 @@
 
 /* 6. OS Motion Reduction Setting Compatibility */
 @media (prefers-reduced-motion: reduce) {
-  .reveal,
-  .hero-b2b-bg,
-  .hero-b2b-video,
-  .hero-b2b-content > *,
-  .hero-b2b-cards,
-  .category-v2-card-img-wrap img,
-  .featured-v2-img-frame img,
-  .project-v2-img-frame img,
-  .project-v2-img {
-    opacity: 1 !important;
-    transform: none !important;
-    filter: none !important;
-    transition: none !important;
-    will-change: auto !important;
-  }
 
   .marquee-inner {
     animation: none !important;
@@ -1937,79 +1444,19 @@
 /* ==========================================
    1.5 Stats Strip styling
    ========================================== */
-/* ==========================================
-   1.5 B2B Trust Grid & Cards
-   ========================================== */
+
 .showroom-stats-strip {
   background-color: var(--bg);
   padding: 40px 0 !important;
   border-bottom: 1px solid var(--border) !important;
 }
 
-.b2b-trust-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-}
-
-.b2b-trust-card {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  padding: 20px;
-  display: flex;
-  align-items: flex-start;
-  gap: 16px;
-  box-shadow: var(--shadow-sm);
-  transition: var(--transition);
-}
-
-.b2b-trust-card:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
-  border-color: var(--point-orange);
-}
-
-.b2b-trust-icon {
-  font-size: 26px;
-  line-height: 1;
-}
-
-.b2b-trust-content {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.b2b-trust-title {
-  font-size: 15px;
-  font-weight: 700;
-  color: var(--text);
-  margin: 0;
-}
-
-.b2b-trust-desc {
-  font-size: 12.5px;
-  color: var(--text-muted);
-  line-height: 1.4;
-  margin: 0;
-}
-
 @media (max-width: 1024px) {
-  .b2b-trust-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 @media (max-width: 640px) {
-  .b2b-trust-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
-/* ==========================================
-   5.9 B2B Order & Consultation Flow Section styling
-   ========================================== */
 .showroom-process-v2 {
   background-color: #ffffff;
   padding: 100px 0;
@@ -2117,16 +1564,7 @@
   border-color: #ffffff;
 }
 
-/* Responsive updates for B2B layouts */
 @media (max-width: 1024px) {
-  .hero-b2b-container {
-    grid-template-columns: 1fr;
-    gap: 48px;
-  }
-  
-  .hero-b2b-visual {
-    height: 380px;
-  }
   
   .visual-card.main-card {
     width: 280px;
@@ -2149,25 +1587,6 @@
 }
 
 @media (max-width: 768px) {
-  .showroom-hero-b2b {
-    padding: 100px 16px 48px !important;
-  }
-
-  .hero-b2b-video {
-    object-fit: cover;
-  }
-
-  .hero-b2b-title {
-    font-size: 34px;
-  }
-
-  .hero-b2b-subtitle {
-    font-size: 15px;
-  }
-  
-  .hero-b2b-visual {
-    height: 300px;
-  }
 
   .visual-card.main-card {
     width: 220px;
@@ -2228,12 +1647,6 @@
 /* ==========================================
    Trust badges & Delivery Consulting layout
    ========================================== */
-.hero-b2b-trust-badges {
-  display: flex;
-  gap: 12px;
-  margin-bottom: 28px;
-  flex-wrap: wrap;
-}
 
 .trust-badge-item {
   display: inline-flex;
@@ -2328,10 +1741,6 @@
 }
 
 @media (max-width: 768px) {
-  .hero-b2b-trust-badges {
-    gap: 8px;
-    margin-bottom: 20px;
-  }
   
   .trust-badge-item {
     font-size: 12px;

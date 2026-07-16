@@ -521,6 +521,56 @@ export default function MaterialDetail() {
 
   const id = decodeURIComponent(rawId || "");
 
+  const getKccDecotileSqmPerBox = (product) => {
+    if (!product || product.brand !== 'KCC' || product.category !== '데코타일') return 3.32;
+    const line = product.line || "";
+    const shape = product.shape || "";
+    if (line.includes('센스레이') || shape === '직사각') {
+      return 2.51;
+    } else if (shape === '600각') {
+      return 3.24;
+    } else if (shape === '450각') {
+      return 3.34;
+    }
+    return 3.32; // 우드
+  };
+
+  const getProductUnit = (product) => {
+    if (!product) return '롤';
+    if (product.category === '데코타일') return 'BOX';
+    if (product.brand === '스완' && product.category === '카페트타일') return 'BOX';
+    const brand = product.brand || "";
+    const name = product.name || "";
+    const line = product.line || "";
+    const spec = product.spec || (product.specs && product.specs.size) || "";
+    if (brand === '서울' && (line.includes('소폭') || name.includes('소폭') || spec.includes('53'))) {
+      return 'BOX';
+    }
+    if (brand === '개나리' && (line.includes('소폭') || name.includes('소폭') || line.includes('스토리'))) {
+      return 'BOX';
+    }
+    if (brand === 'LX' && (line.includes('소폭') || name.includes('소폭') || spec.includes('53'))) {
+      return 'BOX';
+    }
+    return '롤';
+  };
+
+  const isDirectPricingCategory = (product) => {
+    if (!product) return false;
+    if (product.brand === 'KCC' && product.category === '데코타일') return true;
+    if (['LX', '개나리', '서울'].includes(product.brand) && product.category === '벽지') {
+      const lineClean = (product.line || "").replace(/\s+/g, '');
+      if (product.brand === '서울' && (lineClean.includes('프리미엄') || lineClean.includes('방염'))) {
+        return false;
+      }
+      return true;
+    }
+    if (product.brand === '스완' && product.category === '카페트타일' && (product.line || '').includes('타일') && (product.price || 0) > 0) {
+      return true;
+    }
+    return false;
+  };
+
   const [item, setItem] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -1045,6 +1095,7 @@ export default function MaterialDetail() {
       code: item.code,
       name: displayName,
       brand: item.brand,
+      thickness: item.thickness || (item.specs?.thickness) || "",
       category: item.category,
       line: item.line || "",
       spec: selectedOption ? selectedOption.spec : (item.specs?.size || item.spec || "표준규격"),
@@ -1136,6 +1187,7 @@ export default function MaterialDetail() {
       thumbnail: imgPath,
       image: imgPath,
       brand: getComputedBrand(item),
+      thickness: item.thickness || (item.specs?.thickness) || "",
       category: item.category,
       line: item.line || "",
       name: displayName,
@@ -1396,7 +1448,19 @@ export default function MaterialDetail() {
 
               {/* Price display (visible to admin or shows consulting guide) */}
               <div className="showroom-price-card">
-                {currentUser?.role === 'admin' ? (
+                {isDirectPricingCategory(item) ? (
+                  <div className="client-consulting-box kcc-price-box">
+                    <div className="showroom-detail-price" style={{ marginBottom: "12px", borderBottom: "1px solid var(--border-showroom-light)", paddingBottom: "12px" }}>
+                      <span style={{ fontSize: "14px", color: "var(--text-light-gray)", marginRight: "8px" }}>가격:</span>
+                      <strong style={{ fontSize: "22px", color: "var(--accent-showroom-green)" }}>
+                        {item.price ? `₩${item.price.toLocaleString()}원 / ${getProductUnit(item)}` : "가격문의"}
+                      </strong>
+                    </div>
+                    <span className="price-tag-label" style={{ fontSize: '12px', color: 'var(--text-light-gray)', display: 'block', marginBottom: '4px' }}>판매 단위</span>
+                    <strong className="price-num" style={{ fontSize: '18px', color: 'var(--text)', display: 'block', marginBottom: '8px' }}>1 {getProductUnit(item)}</strong>
+                    <span className="price-vat" style={{ fontSize: '11px', color: 'var(--text-muted)' }}>({getProductUnit(item)} 단위 판매 / VAT 10% 포함)</span>
+                  </div>
+                ) : currentUser?.role === 'admin' ? (
                   <div className="admin-price-box">
                     <div className="showroom-detail-price" style={{ marginBottom: "16px", borderBottom: "1px solid var(--border-showroom-light)", paddingBottom: "16px" }}>
                       <span style={{ fontSize: "14px", color: "var(--text-light-gray)", marginRight: "8px" }}>가격:</span>
@@ -1428,19 +1492,27 @@ export default function MaterialDetail() {
               {/* Technical Specifications Highlights */}
               <div className="quick-tech-specs">
                 <div className="tech-spec-item">
-                  <span className="tech-label">규격</span>
+                  <span className="tech-label">{item.brand === 'KCC' && item.category === '데코타일' ? "전체 규격" : "규격"}</span>
                   <span className="tech-value">{currentSpec || "상담 확인 필요"}</span>
                 </div>
                 <div className="tech-spec-item">
-                  <span className="tech-label">박스 구성</span>
+                  <span className="tech-label">{item.brand === 'KCC' && item.category === '데코타일' ? "포장 수량" : "박스 구성"}</span>
                   <span className="tech-value">{currentPacking}</span>
                 </div>
                 <div className="tech-spec-item">
-                  <span className="tech-label">시공 면적</span>
+                  <span className="tech-label">{item.brand === 'KCC' && item.category === '데코타일' ? "BOX당 시공면적" : "시공 면적"}</span>
                   <span className="tech-value">
-                    {item.category === '장판' ? "M 단위 소요량 측정" : "1박스당 1평(약 3.3㎡) 내외 시공"}
+                    {item.brand === 'KCC' && item.category === '데코타일' ? (
+                      item.specs?.area || "3.32㎡"
+                    ) : item.category === '장판' ? "M 단위 소요량 측정" : `1 ${getProductUnit(item)}당 시공 가능`}
                   </span>
                 </div>
+                {item.brand === 'KCC' && item.category === '데코타일' && item.pattern && (
+                  <div className="tech-spec-item">
+                    <span className="tech-label">패턴 분류</span>
+                    <span className="tech-value">{item.pattern}</span>
+                  </div>
+                )}
                 <div className="tech-spec-item">
                   <span className="tech-label">배송 조건</span>
                   <span className="tech-value">
@@ -1481,25 +1553,74 @@ export default function MaterialDetail() {
  
               {/* Quantity Counter & Action Buttons */}
               <div className="showroom-qty-selector">
-                <span className="qty-label">소요량 산정 (박스/단위)</span>
+                <span className="qty-label">소요량 산정 ({getProductUnit(item)} 단위)</span>
                 <div className="qty-counter-box">
                   <button onClick={() => setQty(Math.max(1, qty - 1))} className="qty-btn">-</button>
                   <input type="number" value={qty} onChange={(e) => setQty(Math.max(1, parseInt(e.target.value) || 1))} className="qty-input" />
                   <button onClick={() => setQty(qty + 1)} className="qty-btn">+</button>
                 </div>
               </div>
+
+              {isDirectPricingCategory(item) && (
+                <div className="kcc-calculation-summary" style={{
+                  background: '#FAF8F2',
+                  padding: '16px',
+                  borderRadius: 'var(--radius-md)',
+                  border: '1px solid #E6E2D8',
+                  marginBottom: '20px',
+                  fontSize: '13px',
+                  lineHeight: '1.6',
+                  color: 'var(--text)'
+                }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '6px' }}>
+                    <span style={{ color: 'var(--text-light-gray)' }}>주문 수량:</span>
+                    <strong>{qty} {getProductUnit(item)}</strong>
+                  </div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '6px' }}>
+                    <span style={{ color: 'var(--text-light-gray)' }}>총 시공면적:</span>
+                    <strong>
+                      {item.category === '데코타일' ? (
+                        `${(qty * getKccDecotileSqmPerBox(item)).toFixed(2)}㎡ (약 ${((qty * getKccDecotileSqmPerBox(item)) / 3.3058).toFixed(2)}평)`
+                      ) : item.category === '카페트타일' ? (
+                        `${(qty * 4).toFixed(2)}㎡ (약 ${(qty * 1.21).toFixed(2)}평)`
+                      ) : (
+                        getProductUnit(item) === 'BOX' ? `약 ${qty * 40}평 (20롤)` : `약 ${qty * 5}평`
+                      )}
+                    </strong>
+                  </div>
+                  {item.brand === '서울' && (item.line || '').includes('소폭') && (
+                    <div style={{ color: 'var(--accent-showroom-green)', fontSize: '11px', margin: '4px 0', fontWeight: 'bold' }}>
+                      * 10박스 이상 주문 시 ₩73,000원/박스로 자동 적용됩니다 (현재: {qty >= 10 ? '할인 적용됨' : '기본가 적용'}).
+                    </div>
+                  )}
+                  <div style={{ display: 'flex', justifyContent: 'space-between', borderTop: '1px dashed #E6E2D8', paddingTop: '8px', marginTop: '8px' }}>
+                    <span style={{ fontWeight: '600' }}>총 상품금액:</span>
+                    <strong style={{ color: 'var(--point-orange)', fontSize: '16px' }}>
+                      {(qty * (
+                        item.brand === '서울' && (item.line || '').includes('소폭') && qty >= 10 ? 73000 : (item.price || 0)
+                      )).toLocaleString()}원
+                    </strong>
+                  </div>
+                </div>
+              )}
  
-              {/* B2B Primary CTA Actions */}
+              {/* Primary CTA Actions */}
               <div className="showroom-main-actions">
                 <button className="btn-main-cart" onClick={handleAddToCart}>
                   <ShoppingCart size={18} style={{ marginRight: '6px' }} /> 장바구니 담기
                 </button>
-                <button className="btn-main-buy" onClick={handleEstimate} style={{ backgroundColor: 'var(--point-orange)', borderColor: 'var(--point-orange)' }}>
-                  <FileText size={18} style={{ marginRight: '6px' }} /> 바로 견적요청
-                </button>
+                {isDirectPricingCategory(item) ? (
+                  <button className="btn-main-buy" onClick={handleDirectBuy} style={{ backgroundColor: 'var(--point-orange)', borderColor: 'var(--point-orange)' }}>
+                    <CheckCircle size={18} style={{ marginRight: '6px' }} /> 바로구매
+                  </button>
+                ) : (
+                  <button className="btn-main-buy" onClick={handleEstimate} style={{ backgroundColor: 'var(--point-orange)', borderColor: 'var(--point-orange)' }}>
+                    <FileText size={18} style={{ marginRight: '6px' }} /> 바로 견적요청
+                  </button>
+                )}
               </div>
  
-              {/* B2B Secondary Actions: Kakao, Phone */}
+              {/* Secondary Actions: Kakao, Phone */}
               <div className="showroom-action-buttons" style={{ marginTop: '12px' }}>
                 <a href={KAKAO_CHAT_URL} target="_blank" rel="noopener noreferrer" className="btn-showroom-quote text-center btn-kakao-action" style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#FEE500', color: '#191919', border: 'none', fontWeight: '700' }}>
                   💬 카카오톡 1:1 상담
@@ -1624,6 +1745,39 @@ export default function MaterialDetail() {
                             <td>이건마루 친환경 황토풀 / 전용 마루 본드</td>
                             <th>포장/입수</th>
                             <td>상담 확인 필요</td>
+                          </tr>
+                        </>
+                      ) : item.category === '장판' ? (
+                        <>
+                          <tr>
+                            <th>브랜드</th>
+                            <td>{(() => {
+                                const b = (item.brand || "").trim();
+                                return (b.includes("현대") || b.includes("Hyundai")) ? "현대" 
+                                     : (b.includes("KCC")) ? "KCC" 
+                                     : (b.includes("LX") || b.includes("LG") || b.includes("하우시스")) ? "LX" 
+                                     : b;
+                            })()}</td>
+                            <th>라인업</th>
+                            <td>{item.line || item.description || "정보 없음"}</td>
+                          </tr>
+                          <tr>
+                            <th>두께 규격</th>
+                            <td>{item.thickness || "두께 정보 없음"}</td>
+                            <th>제품 가로세로 규격</th>
+                            <td>{item.specs?.size || item.spec || "제품별 규격 문의"}</td>
+                          </tr>
+                          <tr>
+                            <th>포장 패킹 단위</th>
+                            <td>{item.specs?.packing || item.packing || "Roll 단위"}</td>
+                            <th>판매 단위</th>
+                            <td>M (1M 단위 절단 판매 가능)</td>
+                          </tr>
+                          <tr>
+                            <th>자재 식별 코드</th>
+                            <td>{item.code || "코드 정보 없음"}</td>
+                            <th>권장 접착 자재</th>
+                            <td>장판 전용 웰딩 시공 / 본드</td>
                           </tr>
                         </>
                       ) : (
