@@ -22,7 +22,7 @@ import { getMaterialImagePath } from "../../utils/materialImageResolver";
 import { supabase } from "../../lib/supabaseClient";
 import { useAuth } from "../../contexts/AuthContext";
 import { materials } from "../../data/materials.db"; // Local fallback data
-import { getComputedBrand, normalizeProductDetails } from "../../utils/brandUtils";
+import { getComputedBrand, normalizeProductDetails, formatFlooringProductName, getProductUnit } from "../../utils/brandUtils";
 import { dongshinPolymer2026 } from "../../data/dongshinPolymer2026.js";
 import { imageManifest } from "../../data/materialImageManifest.generated";
 import { normalizeImagePath, getImageSrc, getUniqueProductImages } from "../../utils/galleryNormalizer";
@@ -535,28 +535,9 @@ export default function MaterialDetail() {
     return 3.32; // 우드
   };
 
-  const getProductUnit = (product) => {
-    if (!product) return '롤';
-    if (product.category === '데코타일') return 'BOX';
-    if (product.brand === '스완' && product.category === '카페트타일') return 'BOX';
-    const brand = product.brand || "";
-    const name = product.name || "";
-    const line = product.line || "";
-    const spec = product.spec || (product.specs && product.specs.size) || "";
-    if (brand === '서울' && (line.includes('소폭') || name.includes('소폭') || spec.includes('53'))) {
-      return 'BOX';
-    }
-    if (brand === '개나리' && (line.includes('소폭') || name.includes('소폭') || line.includes('스토리'))) {
-      return 'BOX';
-    }
-    if (brand === 'LX' && (line.includes('소폭') || name.includes('소폭') || spec.includes('53'))) {
-      return 'BOX';
-    }
-    return '롤';
-  };
-
   const isDirectPricingCategory = (product) => {
     if (!product) return false;
+    if (product.category === '부자재' && (product.price || 0) > 0) return true;
     if (product.brand === 'KCC' && product.category === '데코타일') return true;
     if (['LX', '개나리', '서울'].includes(product.brand) && product.category === '벽지') {
       const lineClean = (product.line || "").replace(/\s+/g, '');
@@ -1159,6 +1140,9 @@ export default function MaterialDetail() {
       }
       return `${item.code} ${item.name}`;
     }
+    if (item.category === '장판') {
+      return formatFlooringProductName(item);
+    }
     return item.name;
   })();
 
@@ -1187,7 +1171,7 @@ export default function MaterialDetail() {
       thumbnail: imgPath,
       image: imgPath,
       brand: getComputedBrand(item),
-      thickness: item.thickness || (item.specs?.thickness) || "",
+      thickness: item.thickness || (item.specs?.thickness) || getNormalizedThickness(item),
       category: item.category,
       line: item.line || "",
       name: displayName,
@@ -1203,6 +1187,7 @@ export default function MaterialDetail() {
       packing: selectedOption ? (selectedOption.package || "") : (item.specs?.packing || "1박스 단위 판매"),
       price: itemPrice,
       unit_price: itemPrice,
+      unit: getProductUnit(item),
       quantity: qty,
       amount: itemPrice * qty,
       selectedSize: selectedOption ? selectedOption.label : undefined
@@ -1239,6 +1224,7 @@ export default function MaterialDetail() {
       thumbnail: imgPath,
       image: imgPath,
       brand: getComputedBrand(item),
+      thickness: item.thickness || (item.specs?.thickness) || getNormalizedThickness(item),
       category: item.category,
       line: item.line || "",
       name: displayName,
@@ -1254,6 +1240,7 @@ export default function MaterialDetail() {
       packing: selectedOption ? (selectedOption.package || "") : (item.specs?.packing || "1박스 단위 판매"),
       price: itemPrice,
       unit_price: itemPrice,
+      unit: getProductUnit(item),
       quantity: qty,
       amount: itemPrice * qty,
       selectedSize: selectedOption ? selectedOption.label : undefined
@@ -1465,11 +1452,11 @@ export default function MaterialDetail() {
                     <div className="showroom-detail-price" style={{ marginBottom: "16px", borderBottom: "1px solid var(--border-showroom-light)", paddingBottom: "16px" }}>
                       <span style={{ fontSize: "14px", color: "var(--text-light-gray)", marginRight: "8px" }}>가격:</span>
                       <strong style={{ fontSize: "22px", color: "var(--accent-showroom-green)" }}>
-                        {item.price ? `₩${item.price.toLocaleString()}원` : "가격문의"}
+                        {item.price ? `₩${item.price.toLocaleString()}원${item.category === '장판' ? '/m' : ''}` : "가격문의"}
                       </strong>
                     </div>
                     <span className="price-tag-label">관리자 전용 대리점가</span>
-                    <strong className="price-num">{item.price ? `${item.price.toLocaleString()}원` : "단가 문의"}</strong>
+                    <strong className="price-num">{item.price ? `${item.price.toLocaleString()}원${item.category === '장판' ? '/m' : ''}` : "단가 문의"}</strong>
                     <span className="price-vat">(평당 단가 / VAT 10% 별도)</span>
                   </div>
                 ) : (
@@ -1477,7 +1464,7 @@ export default function MaterialDetail() {
                     <div className="showroom-detail-price" style={{ marginBottom: "16px", borderBottom: "1px solid var(--border-showroom-light)", paddingBottom: "16px" }}>
                       <span style={{ fontSize: "14px", color: "var(--text-light-gray)", marginRight: "8px" }}>가격:</span>
                       <strong style={{ fontSize: "22px", color: "var(--accent-showroom-green)" }}>
-                        {item.price ? `₩${item.price.toLocaleString()}원` : "가격문의"}
+                        {item.price ? `₩${item.price.toLocaleString()}원${item.category === '장판' ? '/m' : ''}` : "가격문의"}
                       </strong>
                     </div>
                     <span className="consulting-title">시공 견적 및 공급가 문의</span>

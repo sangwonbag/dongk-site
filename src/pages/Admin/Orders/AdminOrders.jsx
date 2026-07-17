@@ -28,6 +28,7 @@ import {
   Check,
   Clock
 } from "lucide-react";
+import { formatFlooringProductName } from "../../../utils/brandUtils";
 import "./AdminOrders.css";
 
 // 헬퍼 함수: memo에서 희망배송일 및 시간 추출
@@ -699,7 +700,7 @@ ${itemsDetailText}
                     <div className="item-meta-box">
                       <div className="item-header-meta">
                         <span className="item-brand-badge">[{item.brand || "자재"}]</span>
-                        <strong className="item-product-name">{item.product_name}</strong>
+                        <strong className="item-product-name">{formatFlooringProductName(item)}</strong>
                       </div>
                       <div className="item-specs-sub">
                         <span>코드: {item.product_code || "-"}</span>

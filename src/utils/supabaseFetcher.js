@@ -154,6 +154,8 @@ export function mapProductRow(p) {
 
   const mapped = {
     id: p.slug || String(p.id),
+    product_id: p.id,
+    sort_order: p.sort_order || 0,
     code: code,
     name: p.name || "",
     brand: brandName,

@@ -171,3 +171,56 @@ export function normalizeProductDetails(item) {
   return item;
 }
 
+export function formatFlooringProductName(product) {
+  if (!product) return "";
+  const name = product.name || product.product_name || "";
+  const category = product.category || "";
+  if (category !== "장판") return name;
+
+  const thickness = getNormalizedThickness(product);
+  if (thickness === "두께 정보 없음") return name;
+
+  const val = parseFloat(thickness);
+  if (isNaN(val)) return name;
+
+  const escapedVal = String(val).replace('.', '\\.');
+  let patternStr;
+  if (Number.isInteger(val)) {
+    patternStr = `(?:${val}|${val}\\.0+)`;
+  } else {
+    patternStr = escapedVal;
+  }
+  
+  const regex = new RegExp(`\\s*\\(?\\b${patternStr}\\s*(?:T|t|mm|㎜)\\)?`, 'gi');
+  if (regex.test(name)) {
+    return name.replace(regex, `(${thickness})`);
+  }
+  return `${name}(${thickness})`;
+}
+
+export const getProductUnit = (product) => {
+  if (!product) return '롤';
+  if (product.category === '장판') return 'm';
+  if (product.category === '데코타일') return 'BOX';
+  if (product.brand === '스완' && product.category === '카페트타일') return 'BOX';
+  
+  const brand = product.brand || "";
+  const name = product.name || product.product_name || "";
+  const line = product.line || "";
+  const spec = product.spec || (product.specs && product.specs.size) || "";
+  
+  const lineClean = line.replace(/\s+/g, '');
+  const nameClean = name.replace(/\s+/g, '');
+  
+  if (brand === '서울' && (lineClean.includes('소폭') || nameClean.includes('소폭') || spec.includes('53'))) {
+    return 'BOX';
+  }
+  if (brand === '개나리' && (lineClean.includes('소폭') || nameClean.includes('소폭') || lineClean.includes('스토리'))) {
+    return 'BOX';
+  }
+  if (brand === 'LX' && (lineClean.includes('소폭') || nameClean.includes('소폭') || spec.includes('53'))) {
+    return 'BOX';
+  }
+  return '롤';
+};
+

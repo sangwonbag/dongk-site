@@ -1,5 +1,6 @@
 import { supabase } from '../lib/supabaseClient';
 import { getCurrentUser } from '../lib/auth';
+import { formatFlooringProductName, getProductUnit } from '../utils/brandUtils';
 
 /**
  * 실제 주문 접수 기능을 담당하는 서비스입니다.
@@ -304,10 +305,10 @@ export const createOrder = async ({ cartItems, customer, paymentMethod }) => {
       product_id: productId,
       category: item.category || null,
       brand: item.brand || null,
-      product_name: (item.name || item.product_name || '이름 없음') + (item.selectedSize ? ` / ${item.selectedSize}` : ''),
+      product_name: (formatFlooringProductName(item) || '이름 없음') + (item.selectedSize ? ` / ${item.selectedSize}` : ''),
       product_code: item.code || item.product_code || null,
       spec: item.spec || item.specs?.size || item.specs?.thickness || null,
-      unit: item.unit || '평',
+      unit: item.unit || getProductUnit(item) || '평',
       quantity: quantity,
       unit_price: unitPrice,
       image_url: item.image_url || item.image || item.thumbnail || null

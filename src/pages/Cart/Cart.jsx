@@ -5,6 +5,7 @@ import { useEstimateCart } from "../../contexts/EstimateCartContext";
 import { useAuth } from "../../contexts/AuthContext";
 import { Trash2, Plus, Minus, ArrowLeft, ShoppingBag } from "lucide-react";
 import { EmptyState } from "../../components/ui";
+import { formatFlooringProductName } from "../../utils/brandUtils";
 import "./Cart.css";
 
 export default function Cart() {
@@ -233,7 +234,7 @@ export default function Cart() {
                             {item.category && <span className="badge-category">{item.category}</span>}
                           </div>
                           <h4 className="cart-item-name">
-                            {item.name}
+                            {formatFlooringProductName(item)}
                             {item.selectedSize && ` / ${item.selectedSize}`}
                           </h4>
                           <div className="cart-item-meta">
@@ -280,7 +281,7 @@ export default function Cart() {
                           <div className="cart-item-price-section">
                             {price > 0 ? (
                               <>
-                                <div className="price-unit-label">단가 ₩{price.toLocaleString()}원</div>
+                                <div className="price-unit-label">단가 ₩{price.toLocaleString()}원{item.category === '장판' ? '/m' : ''}</div>
                                 <div className="price-total-label">₩{(price * qty).toLocaleString()}원</div>
                               </>
                             ) : (

@@ -1,4 +1,5 @@
 import { supabase } from '../lib/supabaseClient';
+import { formatFlooringProductName } from '../utils/brandUtils';
 
 /**
  * 견적문의(Estimate Inquiry) 접수 및 관리를 담당하는 서비스입니다.
@@ -26,7 +27,7 @@ export const createEstimateInquiry = async (payload) => {
     category: item.category || null,
     brand: item.brand || null,
     product_code: item.product_code || item.code || null,
-    product_name: item.product_name || item.name || '',
+    product_name: formatFlooringProductName(item) || '',
     spec: item.spec || item.size || null,
     quantity: item.quantity || 1,
     unit_price: item.unit_price || 0,

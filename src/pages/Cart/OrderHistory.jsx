@@ -5,6 +5,7 @@ import { getCurrentUser } from "../../lib/auth";
 import { getMyOrders } from "../../services/orderService";
 import { ChevronDown, ChevronUp, Package, Calendar, CreditCard, ClipboardList } from "lucide-react";
 import { LoadingSpinner, ErrorState, EmptyState } from "../../components/ui";
+import { formatFlooringProductName } from "../../utils/brandUtils";
 import "./OrderHistory.css";
 
 export default function OrderHistory() {
@@ -252,7 +253,7 @@ export default function OrderHistory() {
                                   )}
                                   <div className="item-txt-info">
                                     <strong className="brand-label">[{item.brand}]</strong>
-                                    <span className="product-name">{item.product_name}</span>
+                                    <span className="product-name">{formatFlooringProductName(item)}</span>
                                     <div className="item-sub-specs">
                                       {item.product_code && <span>코드: {item.product_code}</span>}
                                       {item.spec && <span>규격: {item.spec}</span>}
@@ -260,10 +261,10 @@ export default function OrderHistory() {
                                   </div>
                                 </div>
                                 <div className="item-qty-cell text-right">
-                                  {item.quantity}{item.unit || "평"}
+                                  {item.quantity}{item.category === '장판' ? 'm' : (item.unit || "평")}
                                 </div>
                                 <div className="item-price-cell text-right">
-                                  {hasPrice ? `${item.unit_price?.toLocaleString()}원` : "상담 필요"}
+                                  {hasPrice ? `${item.unit_price?.toLocaleString()}원${item.category === '장판' ? '/m' : ''}` : "상담 필요"}
                                 </div>
                                 <div className="item-total-cell text-right">
                                   {hasPrice ? `${(item.unit_price * item.quantity).toLocaleString()}원` : "-"}

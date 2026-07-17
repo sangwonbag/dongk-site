@@ -6,6 +6,7 @@ import {
   ArrowLeft, Search, Filter, Trash2, FileText, User, Phone, 
   MapPin, Clipboard, CheckCircle, RefreshCw, X, MessageSquare, Mail 
 } from 'lucide-react';
+import { formatFlooringProductName } from '../../utils/brandUtils';
 import './Inquiries.css';
 
 const STATUS_OPTIONS = ['전체', '신규', '확인중', '견적완료', '처리완료', '취소'];
@@ -307,7 +308,7 @@ export default function Inquiries() {
                       <td className="email-cell">{inq.email || '-'}</td>
                       <td className="addr-cell" title={inq.address}>{inq.address || '-'}</td>
                       <td className="area-cell font-mono">{inq.space_size || inq.area ? `${inq.space_size || inq.area}` : '-'}</td>
-                      <td className="material-cell">{inq.product_name || inq.material_of_interest || '-'}</td>
+                      <td className="material-cell">{formatFlooringProductName({ ...inq, name: inq.product_name || inq.material_of_interest })}</td>
                       <td>
                         <span className={`status-badge-lbl ${getStatusBadgeClass(inq.status)}`}>
                           {statusKo}
@@ -383,7 +384,7 @@ export default function Inquiries() {
                         <div className="info-item">
                           <span className="lbl">관심 자재명 / 자재코드</span>
                           <span className="val">
-                            {selectedInquiry.product_name || selectedInquiry.material_of_interest || '-'}
+                            {formatFlooringProductName({ ...selectedInquiry, name: selectedInquiry.product_name || selectedInquiry.material_of_interest })}
                             {selectedInquiry.product_code ? ` (${selectedInquiry.product_code})` : ''}
                           </span>
                         </div>

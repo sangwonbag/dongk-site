@@ -5,32 +5,13 @@ import { useEstimateCart } from '../../contexts/EstimateCartContext';
 import { useAuth } from '../../contexts/AuthContext';
 import { getThumbnailImage } from '../../utils/galleryUtils';
 import { getMaterialImagePath } from '../../utils/materialImageResolver';
-import { getComputedBrand, getNormalizedThickness } from '../../utils/brandUtils';
+import { getComputedBrand, getNormalizedThickness, formatFlooringProductName, getProductUnit } from '../../utils/brandUtils';
 import { Skeleton, ImagePlaceholder } from '../ui';
 import './MaterialCard.css';
 
-const getProductUnit = (product) => {
-    if (!product) return '롤';
-    if (product.category === '데코타일') return 'BOX';
-    if (product.brand === '스완' && product.category === '카페트타일') return 'BOX';
-    const brand = product.brand || "";
-    const name = product.name || "";
-    const line = product.line || "";
-    const spec = product.spec || (product.specs && product.specs.size) || "";
-    if (brand === '서울' && (line.includes('소폭') || name.includes('소폭') || spec.includes('53'))) {
-      return 'BOX';
-    }
-    if (brand === '개나리' && (line.includes('소폭') || name.includes('소폭') || line.includes('스토리'))) {
-      return 'BOX';
-    }
-    if (brand === 'LX' && (line.includes('소폭') || name.includes('소폭') || spec.includes('53'))) {
-      return 'BOX';
-    }
-    return '롤';
-};
-
 const isDirectPricingCategory = (product) => {
     if (!product) return false;
+    if (product.category === '부자재' && (product.price || 0) > 0) return true;
     if (product.brand === 'KCC' && product.category === '데코타일') return true;
     if (['LX', '개나리', '서울'].includes(product.brand) && product.category === '벽지') {
       const lineClean = (product.line || "").replace(/\s+/g, '');
@@ -52,6 +33,7 @@ const MaterialCard = ({ material }) => {
     
     // Track if the thumbnail image is fully loaded
     const [imgLoaded, setImgLoaded] = useState(false);
+    const [qty, setQty] = useState(1);
 
     // Hybrid local-sync / Supabase-async resolver to eliminate render flickering
     const [coverUrl, setCoverUrl] = useState(() => {
@@ -69,6 +51,7 @@ const MaterialCard = ({ material }) => {
 
     useEffect(() => {
         setImgLoaded(false);
+        setQty(1);
         if (material.sizeOptions && material.sizeOptions.length > 0) {
             setSelectedOption(material.sizeOptions[0]);
         } else {
@@ -100,6 +83,9 @@ const MaterialCard = ({ material }) => {
                 return material.name;
             }
             return `${material.code} ${material.name}`;
+        }
+        if (material.category === '장판') {
+            return formatFlooringProductName(material);
         }
         return material.name;
     })();
@@ -161,8 +147,9 @@ const MaterialCard = ({ material }) => {
             packing: selectedOption ? (selectedOption.package || "") : (material.specs?.packing || material.package || "1박스 단위 판매"),
             price: price,
             unit_price: price,
-            quantity: 1,
-            amount: price,
+            unit: getProductUnit(material),
+            quantity: qty,
+            amount: price * qty,
             selectedSize: selectedOption ? selectedOption.label : undefined,
             thumbnail: coverUrl || "/images/no-image.svg",
             image: coverUrl || "/images/no-image.svg"
@@ -201,8 +188,9 @@ const MaterialCard = ({ material }) => {
             packing: selectedOption ? (selectedOption.package || "") : (material.specs?.packing || material.package || "1박스 단위 판매"),
             price: price,
             unit_price: price,
-            quantity: 1,
-            amount: price,
+            unit: getProductUnit(material),
+            quantity: qty,
+            amount: price * qty,
             selectedSize: selectedOption ? selectedOption.label : undefined,
             thumbnail: coverUrl || "/images/no-image.svg",
             image: coverUrl || "/images/no-image.svg"
@@ -245,8 +233,9 @@ const MaterialCard = ({ material }) => {
             packing: selectedOption ? (selectedOption.package || "") : (material.specs?.packing || material.package || "1박스 단위 판매"),
             price: price,
             unit_price: price,
-            quantity: 1,
-            amount: price,
+            unit: getProductUnit(material),
+            quantity: qty,
+            amount: price * qty,
             selectedSize: selectedOption ? selectedOption.label : undefined,
             thumbnail: coverUrl || "/images/no-image.svg",
             image: coverUrl || "/images/no-image.svg"
@@ -272,19 +261,21 @@ const MaterialCard = ({ material }) => {
                         <Skeleton height="100%" radius="0" />
                     </div>
                 )}
-                <img
-                    className="material-thumb"
-                    src={coverUrl || "/images/no-image.svg"}
-                    alt={displayName || material.code}
-                    loading="lazy"
-                    onLoad={() => setImgLoaded(true)}
-                    onError={(e) => { 
-                        e.currentTarget.onerror = null; 
-                        e.currentTarget.src = "/images/no-image.svg"; 
-                        setImgLoaded(true);
-                    }}
-                    style={{ opacity: imgLoaded ? 1 : 0, transition: "opacity 0.2s ease-in-out" }}
-                />
+                {coverUrl && coverUrl !== "/images/no-image.svg" && (
+                    <img
+                        className="material-thumb"
+                        src={coverUrl}
+                        alt={displayName || material.code}
+                        loading="lazy"
+                        onLoad={() => setImgLoaded(true)}
+                        onError={(e) => { 
+                            e.currentTarget.onerror = null; 
+                            e.currentTarget.src = "/images/no-image.svg"; 
+                            setImgLoaded(true);
+                        }}
+                        style={{ opacity: imgLoaded ? 1 : 0, transition: "opacity 0.2s ease-in-out" }}
+                    />
+                )}
                 
                 {(!coverUrl || coverUrl === "/images/no-image.svg") && (
                     <div className="card-image-placeholder-overlay" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}>
@@ -452,6 +443,29 @@ const MaterialCard = ({ material }) => {
                         {material.category === '장판' ? "m 단위 절단" : "50평 이상 무료배송"}
                     </span>
                 </div>
+
+                {material.category === '부자재' && (
+                    <div className="card-qty-selector" onClick={(e) => e.stopPropagation()} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '12px', padding: '4px 8px', border: '1px solid #E6E2D8', borderRadius: '4px', background: '#FAF8F2' }}>
+                        <span style={{ fontSize: '12px', fontWeight: '600', color: 'var(--text-light-gray)' }}>수량 선택</span>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                            <button 
+                                type="button" 
+                                onClick={(e) => { e.stopPropagation(); setQty(Math.max(1, qty - 1)); }}
+                                style={{ width: '24px', height: '24px', border: '1px solid #E6E2D8', background: '#fff', cursor: 'pointer', borderRadius: '3px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}
+                            >
+                                -
+                            </button>
+                            <span style={{ minWidth: '20px', textAlign: 'center', fontSize: '13px', fontWeight: '700' }}>{qty}</span>
+                            <button 
+                                type="button" 
+                                onClick={(e) => { e.stopPropagation(); setQty(qty + 1); }}
+                                style={{ width: '24px', height: '24px', border: '1px solid #E6E2D8', background: '#fff', cursor: 'pointer', borderRadius: '3px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}
+                            >
+                                +
+                            </button>
+                        </div>
+                    </div>
+                )}
 
                 <div className="card-actions">
                     <button className="btn-detail btn-cart-add" onClick={handleAddToCart}>
