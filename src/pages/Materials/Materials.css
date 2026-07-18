@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .materials-container {
-    padding-top: 140px !important;
+    padding-top: 138px !important;
     padding-bottom: 80px;
 }
 
@@ -69,8 +69,8 @@
     display: flex;
     flex-wrap: wrap;
     gap: 6px;
-    margin-bottom: 20px;
-    padding: 12px 16px;
+    margin-bottom: 12px;
+    padding: 8px 12px;
     background-color: var(--bg-alt);
     border: 1px solid var(--border);
     border-radius: var(--radius-md);
@@ -104,9 +104,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 32px;
-    margin-bottom: 20px;
-    padding-bottom: 12px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
     border-bottom: 1px solid var(--border);
 }
 
@@ -242,9 +242,9 @@
   justify-content: space-between;
   align-items: flex-end;
   gap: 24px;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
   border-bottom: 1px solid var(--border);
-  padding-bottom: 24px;
+  padding-bottom: 16px;
   max-width: 1180px;
   margin-left: auto;
   margin-right: auto;
@@ -342,15 +342,15 @@
 .filter-panel {
   width: 100%;
   max-width: 1180px;
-  margin: 0 auto 24px;
-  padding: 24px;
+  margin: 0 auto 12px;
+  padding: 16px;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 .filter-group {
@@ -358,7 +358,8 @@
   align-items: center;
   gap: 16px;
   border-bottom: 1px solid var(--border);
-  padding-bottom: 12px;
+  padding-bottom: 8px;
+  margin-bottom: 2px;
 }
 
 .filter-label {
@@ -405,8 +406,8 @@
 .search-filters-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-  margin-top: 8px;
+  gap: 12px;
+  margin-top: 4px;
 }
 
 .search-field {
@@ -423,7 +424,7 @@
 
 .field-input {
   width: 100%;
-  height: 40px;
+  height: 36px;
   padding: 8px 12px;
   border: 1px solid var(--border);
   border-radius: var(--radius-md);

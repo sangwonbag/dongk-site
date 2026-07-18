@@ -26,6 +26,7 @@ import { getComputedBrand, normalizeProductDetails, formatFlooringProductName, g
 import { dongshinPolymer2026 } from "../../data/dongshinPolymer2026.js";
 import { imageManifest } from "../../data/materialImageManifest.generated";
 import { normalizeImagePath, getImageSrc, getUniqueProductImages } from "../../utils/galleryNormalizer";
+import { getProductPyeong } from "../../utils/shippingUtils";
 import "./MaterialDetail.css";
 
 const normalizeText = (value = "") =>
@@ -521,19 +522,7 @@ export default function MaterialDetail() {
 
   const id = decodeURIComponent(rawId || "");
 
-  const getKccDecotileSqmPerBox = (product) => {
-    if (!product || product.brand !== 'KCC' || product.category !== '데코타일') return 3.32;
-    const line = product.line || "";
-    const shape = product.shape || "";
-    if (line.includes('센스레이') || shape === '직사각') {
-      return 2.51;
-    } else if (shape === '600각') {
-      return 3.24;
-    } else if (shape === '450각') {
-      return 3.34;
-    }
-    return 3.32; // 우드
-  };
+  // Utilized common getProductPyeong from shippingUtils
 
   const isDirectPricingCategory = (product) => {
     if (!product) return false;
@@ -1548,6 +1537,28 @@ export default function MaterialDetail() {
                 </div>
               </div>
 
+              {item.category === '데코타일' && (
+                <div className="detail-decotile-shipping-notice-box" style={{
+                  background: '#f8fafc',
+                  border: '1px solid #e2e8f0',
+                  borderRadius: 'var(--radius-md)',
+                  padding: '12px 16px',
+                  marginBottom: '16px',
+                  fontSize: '13px'
+                }}>
+                  <div style={{ fontWeight: '800', color: 'var(--primary)', marginBottom: '4px' }}>🚚 데코타일 50평 이상 무료배송</div>
+                  {getProductPyeong({ ...item, quantity: qty }) >= 50 ? (
+                    <div style={{ color: '#059669', fontWeight: '700', backgroundColor: '#ecfdf5', padding: '4px 8px', borderRadius: '4px', width: 'fit-content' }}>
+                      50평 이상 무료배송이 적용되었습니다.
+                    </div>
+                  ) : (
+                    <div style={{ color: '#d97706', fontWeight: '700', backgroundColor: '#fff7ed', padding: '4px 8px', borderRadius: '4px', width: 'fit-content' }}>
+                      무료배송까지 {(50 - getProductPyeong({ ...item, quantity: qty })).toFixed(2)}평 남았습니다.
+                    </div>
+                  )}
+                </div>
+              )}
+
               {isDirectPricingCategory(item) && (
                 <div className="kcc-calculation-summary" style={{
                   background: '#FAF8F2',
@@ -1567,7 +1578,7 @@ export default function MaterialDetail() {
                     <span style={{ color: 'var(--text-light-gray)' }}>총 시공면적:</span>
                     <strong>
                       {item.category === '데코타일' ? (
-                        `${(qty * getKccDecotileSqmPerBox(item)).toFixed(2)}㎡ (약 ${((qty * getKccDecotileSqmPerBox(item)) / 3.3058).toFixed(2)}평)`
+                        `${(getProductPyeong({ ...item, quantity: qty }) * 3.3058).toFixed(2)}㎡ (약 ${getProductPyeong({ ...item, quantity: qty }).toFixed(2)}평)`
                       ) : item.category === '카페트타일' ? (
                         `${(qty * 4).toFixed(2)}㎡ (약 ${(qty * 1.21).toFixed(2)}평)`
                       ) : (

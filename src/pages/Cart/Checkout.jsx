@@ -9,6 +9,7 @@ import { OFFICE_ADDRESS, OFFICE_PHONE } from "../../constants/contact";
 import { fetchAllProducts } from "../../utils/supabaseFetcher";
 import { formatFlooringProductName } from "../../utils/brandUtils";
 import { ImagePlaceholder } from "../../components/ui";
+import { getProductPyeong, calculateDecorTilePyeong } from "../../utils/shippingUtils";
 import "./Checkout.css";
 
 const DELIVERY_TIME_OPTIONS = [
@@ -116,94 +117,14 @@ export default function Checkout() {
     loadDb();
   }, []);
 
-  // Helper to calculate actual pyeong based on packing unit, option specs, etc.
-  const getProductPyeong = (item) => {
-    if (!item) return 0;
-
-    // Check if KCC Decotile
-    if (item.brand === 'KCC' && item.category === '데코타일') {
-      const line = item.line || "";
-      const name = item.name || "";
-      const code = item.code || "";
-      let sqmPerBox = 3.32; // Default wood
-      if (line.includes('센스레이') || (code.toUpperCase().startsWith('B') && code.toUpperCase().endsWith('J'))) {
-        sqmPerBox = 2.51;
-      } else if (name.includes('600각') || code.toUpperCase().endsWith('M')) {
-        sqmPerBox = 3.24;
-      } else if (name.includes('450각') || code.toUpperCase().endsWith('P')) {
-        sqmPerBox = 3.34;
-      }
-      const qty = parseInt(item.quantity) || 1;
-      const totalSqm = qty * sqmPerBox;
-      return totalSqm / 3.3058; // 1평 = 3.3058㎡
-    }
-
-    if (item.brand === '스완' && item.category === '카페트타일') {
-      const qty = parseInt(item.quantity) || 1;
-      return qty * 1.21;
-    }
-    
-    // Priority 1: Check if there's a stored pyeong or area property
-    if (item.pyeong !== undefined && item.pyeong !== null && !isNaN(parseFloat(item.pyeong))) {
-      return parseFloat(item.pyeong) * (parseInt(item.quantity) || 1);
-    }
-    if (item.area !== undefined && item.area !== null && !isNaN(parseFloat(item.area))) {
-      return parseFloat(item.area) * (parseInt(item.quantity) || 1);
-    }
-
-    // Priority 2: Extract from package or packing info (e.g. "12pcs / 3.15㎡" or "1박스당 1평(약 3.3㎡)")
-    const packingStr = item.packing || item.package || (item.specs && item.specs.packing) || "";
-    if (packingStr) {
-      // Look for ㎡ pattern (e.g., 3.15㎡, 3.3㎡)
-      const m2Match = packingStr.match(/(\d+(?:\.\d+)?)\s*㎡/);
-      if (m2Match) {
-        const m2Val = parseFloat(m2Match[1]);
-        if (!isNaN(m2Val) && m2Val > 0) {
-          const pyeongPerBox = m2Val * 0.3025;
-          return pyeongPerBox * (parseInt(item.quantity) || 1);
-        }
-      }
-
-      // Look for 평 pattern (e.g., "1평", "0.5평")
-      const pyMatch = packingStr.match(/(\d+(?:\.\d+)?)\s*평/);
-      if (pyMatch) {
-        const pyVal = parseFloat(pyMatch[1]);
-        if (!isNaN(pyVal) && pyVal > 0) {
-          return pyVal * (parseInt(item.quantity) || 1);
-        }
-      }
-    }
-
-    // Priority 3: Fallback to quantity directly (assuming 1 box = 1 pyeong for tiles/maru)
-    return parseInt(item.quantity) || 1;
-  };
-
-  // 1. 데코타일 무료배송 조건 계산
-  const checkDecotileFreeShipping = (items) => {
-    const decotileItems = items.filter(item => item.category === "데코타일");
-    const brandSums = {};
-    decotileItems.forEach(item => {
-      const brand = item.brand || "기타";
-      const pyeongVal = getProductPyeong(item);
-      brandSums[brand] = (brandSums[brand] || 0) + pyeongVal;
-    });
-
-    let eligible = false;
-    let eligibleBrand = "";
-    let eligibleArea = 0;
-
-    Object.entries(brandSums).forEach(([brand, sum]) => {
-      if (sum >= 50) {
-        eligible = true;
-        eligibleBrand = brand;
-        eligibleArea = sum;
-      }
-    });
-
-    return { eligible, eligibleBrand, eligibleArea, brandSums };
-  };
-
-  const freeShippingInfo = checkDecotileFreeShipping(checkoutItems);
+  const decotilePyeong = calculateDecorTilePyeong(checkoutItems);
+  const freeShippingInfo = useMemo(() => {
+    return {
+      eligible: decotilePyeong >= 50,
+      eligibleBrand: "데코타일",
+      eligibleArea: decotilePyeong
+    };
+  }, [decotilePyeong]);
 
   // 무료배송 자격 변경 시 자동 배송 방식 전환
   useEffect(() => {
@@ -218,7 +139,7 @@ export default function Checkout() {
         setDeliveryMethod("cargo");
       }
     }
-  }, [freeShippingInfo.eligible]);
+  }, [freeShippingInfo.eligible, deliveryMethod]);
 
   // 2. 부자재 목록 및 동적 매칭 유틸리티
   const allAccessories = useMemo(() => {
@@ -1115,7 +1036,7 @@ export default function Checkout() {
                     <strong>무료배송 (현장 배송)</strong>
                   </div>
                   <div className="delivery-card-body">
-                    <div className="delivery-card-desc">동일 브랜드 데코타일 50평 이상 주문 시 배송지 주소로 직접 배송됩니다.</div>
+                    <div className="delivery-card-desc">데코타일 50평 이상 주문 시 배송지 주소로 직접 배송됩니다.</div>
                     <div className="delivery-info-item">
                       <span className="info-label">수령 방식:</span>
                       <span className="info-val">입력하신 배송지에서 직접 수령</span>
@@ -1127,12 +1048,16 @@ export default function Checkout() {
                     {freeShippingInfo.eligible ? (
                       <div className="free-shipping-badge-box">
                         <span className="badge-title">무료배송 적용</span>
-                        <span className="badge-text">{freeShippingInfo.eligibleBrand} 데코타일 합계 {freeShippingInfo.eligibleArea.toFixed(2)}평</span>
+                        <span className="badge-text">데코타일 합계 {freeShippingInfo.eligibleArea.toFixed(2)}평</span>
                         <span className="badge-text text-address">배송지: {customer.address ? `${customer.address} ${customer.address_detail || ""}`.trim() : "배송지 주소 미입력"}</span>
                       </div>
                     ) : (
                       <span className="delivery-disabled-reason">
-                        * 선택 불가 (동일 브랜드 데코타일 50평 미만)
+                        {checkoutItems.some(item => item.category === "데코타일") ? (
+                          `* 선택 불가 (데코타일 50평 미만, 무료배송까지 ${(50 - decotilePyeong).toFixed(2)}평 남음)`
+                        ) : (
+                          "* 선택 불가 (데코타일 50평 이상 주문 시 적용)"
+                        )}
                       </span>
                     )}
                   </div>
