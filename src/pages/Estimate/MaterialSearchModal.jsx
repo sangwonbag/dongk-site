@@ -4,6 +4,7 @@ import { useEstimateCart } from '../../contexts/EstimateCartContext';
 import { getComputedBrand } from '../../utils/brandUtils';
 import { getSupabaseImageUrl } from '../../utils/getSupabaseImageUrl';
 import { searchProductsServer, fetchBrands } from '../../utils/supabaseFetcher';
+import { ProductImage } from '../../components/ui';
 import './MaterialSearchModal.css';
 
 // Client-side memory cache for search terms
@@ -121,12 +122,10 @@ export default function MaterialSearchModal({ onClose, defaultQuantity = 1 }) {
             ) : (
               results.map(item => (
                 <div key={item.id} className="search-item-card">
-                  <img 
+                  <ProductImage 
                     src={getSupabaseImageUrl(item.thumbnail)} 
                     alt={item.name} 
                     className="search-item-thumb"
-                    loading="lazy"
-                    onError={(e) => { e.target.onerror = null; e.target.src = "/images/no-image.svg"; }}
                   />
                   <div className="search-item-info">
                     <div className="search-item-meta">

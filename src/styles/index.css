@@ -78,8 +78,19 @@
   background: #A69E96;
 }
 
-* {
+html,
+body,
+#root {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
   box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
   margin: 0;
   padding: 0;
 }
@@ -91,6 +102,15 @@ body {
   line-height: 1.6;
   letter-spacing: -0.02em;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  overflow-x: clip;
+}
+
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
 }
 
 a {

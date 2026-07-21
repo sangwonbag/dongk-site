@@ -6,7 +6,7 @@ import { useAuth } from '../../contexts/AuthContext';
 import { getThumbnailImage } from '../../utils/galleryUtils';
 import { getMaterialImagePath } from '../../utils/materialImageResolver';
 import { getComputedBrand, getNormalizedThickness, formatFlooringProductName, getProductUnit } from '../../utils/brandUtils';
-import { Skeleton, ImagePlaceholder } from '../ui';
+import { Skeleton, ImagePlaceholder, ProductImage } from '../ui';
 import './MaterialCard.css';
 
 const isDirectPricingCategory = (product) => {
@@ -31,8 +31,6 @@ const MaterialCard = ({ material }) => {
     const { addToCart } = useEstimateCart();
     const { user: currentUser, openLoginModal } = useAuth();
     
-    // Track if the thumbnail image is fully loaded
-    const [imgLoaded, setImgLoaded] = useState(false);
     const [qty, setQty] = useState(1);
 
     // Hybrid local-sync / Supabase-async resolver to eliminate render flickering
@@ -50,7 +48,6 @@ const MaterialCard = ({ material }) => {
     });
 
     useEffect(() => {
-        setImgLoaded(false);
         setQty(1);
         if (material.sizeOptions && material.sizeOptions.length > 0) {
             setSelectedOption(material.sizeOptions[0]);
@@ -256,33 +253,11 @@ const MaterialCard = ({ material }) => {
     return (
         <div className="material-card" onClick={() => handleGoDetail()}>
             <div className="card-thumb">
-                {!imgLoaded && (
-                    <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 1 }}>
-                        <Skeleton height="100%" radius="0" />
-                    </div>
-                )}
-                {coverUrl && coverUrl !== "/images/no-image.svg" && (
-                    <img
-                        className="material-thumb"
-                        src={coverUrl}
-                        alt={displayName || material.code}
-                        loading="lazy"
-                        onLoad={() => setImgLoaded(true)}
-                        onError={(e) => { 
-                            e.currentTarget.onerror = null; 
-                            e.currentTarget.src = "/images/no-image.svg"; 
-                            setImgLoaded(true);
-                        }}
-                        style={{ opacity: imgLoaded ? 1 : 0, transition: "opacity 0.2s ease-in-out" }}
-                    />
-                )}
-                
-                {(!coverUrl || coverUrl === "/images/no-image.svg") && (
-                    <div className="card-image-placeholder-overlay" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}>
-                        <ImagePlaceholder />
-                    </div>
-                )}
-
+                <ProductImage
+                    src={coverUrl}
+                    alt={displayName || material.code}
+                    className="material-thumb"
+                />
                 {material.isNew && <span className="badge-new">NEW</span>}
             </div>
 

@@ -62,6 +62,9 @@ export default function Header() {
   });
   const [isFocused, setIsFocused] = useState(false);
   const dropdownRef = useRef(null);
+  const headerRef = useRef(null);
+  const mallHeaderRef = useRef(null);
+  const noticeRef = useRef(null);
   const { cartItems, cartCount, clearCart } = useEstimateCart();
   const estimateCount = cartCount;
 
@@ -176,6 +179,38 @@ export default function Header() {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, []);
 
+  // Measure header & notice heights dynamically and set CSS custom properties
+  useEffect(() => {
+    const updateHeights = () => {
+      const mallHeader = mallHeaderRef.current;
+      const noticeBar = noticeRef.current;
+
+      const headerHeight = mallHeader ? mallHeader.getBoundingClientRect().height : 80;
+      const noticeHeight = noticeBar ? noticeBar.getBoundingClientRect().height : 0;
+
+      document.documentElement.style.setProperty('--header-height', `${headerHeight}px`);
+      document.documentElement.style.setProperty('--notice-height', `${noticeHeight}px`);
+      
+      // Keep --mobile-header-height for backwards compatibility
+      document.documentElement.style.setProperty('--mobile-header-height', `${headerHeight + noticeHeight}px`);
+    };
+
+    updateHeights();
+
+    const observer = new ResizeObserver(updateHeights);
+    if (mallHeaderRef.current) observer.observe(mallHeaderRef.current);
+    if (noticeRef.current) observer.observe(noticeRef.current);
+
+    window.addEventListener("resize", updateHeights);
+    window.addEventListener("orientationchange", updateHeights);
+
+    return () => {
+      observer.disconnect();
+      window.removeEventListener("resize", updateHeights);
+      window.removeEventListener("orientationchange", updateHeights);
+    };
+  }, [mobileMenuOpen, isScrolled, isHome, location.pathname]);
+
   // Compute search results based on debounced query
   const searchResults = useMemo(() => {
     const query = debouncedQ.trim();
@@ -279,10 +314,10 @@ export default function Header() {
   };
 
   return (
-    <div className={`header-wrapper ${isHome ? "is-home" : ""} ${isScrolled ? "is-scrolled" : "is-transparent"}`}>
+    <div ref={headerRef} className={`header-wrapper ${isHome ? "is-home" : ""} ${isScrolled ? "is-scrolled" : "is-transparent"}`}>
       {/* Top Notice Bar - Hidden on homepage when transparent for full immersion */}
       {!(isHome && !isScrolled) && (
-        <div className="top-notice-bar">
+        <div ref={noticeRef} className="top-notice-bar">
           <div className="container notice-row">
             <div className="notice-left">
               <span className="speaker-icon">📢</span>
@@ -299,7 +334,7 @@ export default function Header() {
         </div>
       )}
 
-      <header className="mall-header">
+      <header ref={mallHeaderRef} className="mall-header">
         <div className="container header-row">
           {/* Logo */}
           <div className="header-logo" onClick={() => nav("/")}>

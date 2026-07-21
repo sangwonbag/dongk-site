@@ -71,7 +71,7 @@
 
 /* Collapsed mobile trigger button */
 .right-float-mobile.collapsed {
-    bottom: 20px;
+    bottom: 130px;
     right: 20px;
 }
 
@@ -98,7 +98,7 @@
 
 /* Expanded Mobile Drawer Card */
 .right-float-mobile.expanded {
-    bottom: 20px;
+    bottom: 130px;
     right: 20px;
     width: 280px;
     max-width: calc(100vw - 40px);
@@ -113,6 +113,11 @@
     display: flex;
     flex-direction: column;
     animation: slideUpMobileDrawer 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.rf-mobile-drawer-body-wrap {
+    max-height: calc(100vh - 120px);
+    max-height: calc(100dvh - 120px);
 }
 
 @keyframes slideUpMobileDrawer {
@@ -207,4 +212,26 @@
 
 .btn-mobile-action-estimate:hover {
     background-color: var(--point-gold);
+}
+
+/* Sibling-aware adjustments for product detail page to stack floating elements and prevent CTA overlap */
+@media (max-width: 991px) {
+    .main-content.product-detail-page ~ .right-float-mobile.collapsed,
+    .main-content.product-detail-page ~ .right-float-mobile.expanded {
+        bottom: calc(240px + env(safe-area-inset-bottom, 0px)) !important;
+        right: 16px !important;
+    }
+}
+
+@media (max-width: 374px) {
+    .right-float-mobile.collapsed,
+    .right-float-mobile.expanded {
+        right: 10px !important;
+    }
+    
+    .rf-mobile-trigger {
+        min-height: 48px;
+        padding: 10px 14px;
+        font-size: 13px;
+    }
 }

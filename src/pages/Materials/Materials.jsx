@@ -1,4 +1,4 @@
-import React, { useMemo, useState, useEffect } from "react";
+import React, { useMemo, useState, useEffect, useRef } from "react";
 import { useSearchParams } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { getComputedBrand, getMaterialTypeAndLine } from "../../utils/brandUtils";
@@ -60,6 +60,27 @@ const getNormalizedLine = (m, activeTab, activeBrand) => {
 
 export default function Materials() {
   const [searchParams, setSearchParams] = useSearchParams();
+  const searchBarRef = useRef(null);
+
+  // Track materials searchbar height dynamically for sticky offsets
+  useEffect(() => {
+    const updateHeights = () => {
+      const el = searchBarRef.current;
+      if (el) {
+        document.documentElement.style.setProperty('--searchbar-height', `${el.getBoundingClientRect().height}px`);
+      }
+    };
+    updateHeights();
+    const observer = new ResizeObserver(updateHeights);
+    if (searchBarRef.current) observer.observe(searchBarRef.current);
+    window.addEventListener("resize", updateHeights);
+    window.addEventListener("orientationchange", updateHeights);
+    return () => {
+      observer.disconnect();
+      window.removeEventListener("resize", updateHeights);
+      window.removeEventListener("orientationchange", updateHeights);
+    };
+  }, []);
 
   // Supabase Data States
   const [materialsList, setMaterialsList] = useState([]);
@@ -85,7 +106,6 @@ export default function Materials() {
     activeLine = "all";
   }
   const activeShape = searchParams.get("shape") || "all";
-  const activePattern = searchParams.get("pattern") || "all";
   const activeThickness = searchParams.get("thickness") || "all";
   const searchText = searchParams.get("search") || "";
 
@@ -156,7 +176,7 @@ export default function Materials() {
   // Reset pagination when filters change
   useEffect(() => {
     setVisibleCount(24);
-  }, [activeTab, activeBrand, activeMaterialType, activeLine, activeShape, activePattern, activeThickness, searchText]);
+  }, [activeTab, activeBrand, activeMaterialType, activeLine, activeShape, activeThickness, searchText]);
 
   // Normalize legacy line parameters (e.g., line=강마루_듀오텍스쳐_DUO TEXTURE)
   useEffect(() => {
@@ -185,17 +205,16 @@ export default function Materials() {
   const handleCategoryChange = (category) => {
     // Switch category and reset brand to its default corresponding brand
     const defaultBrand = DEFAULT_BRAND_BY_CATEGORY[category] || "all";
-    updateParams({ category, brand: defaultBrand, type: null, line: null, shape: null, pattern: null, thickness: null });
+    updateParams({ category, brand: defaultBrand, type: null, line: null, shape: null, thickness: null });
     setNameFilter("");
     setCodeFilter("");
     setSpecFilter("");
   };
 
-  const setActiveBrand = (brand) => updateParams({ brand, type: null, line: null, shape: null, pattern: null });
+  const setActiveBrand = (brand) => updateParams({ brand, type: null, line: null, shape: null });
   const setActiveMaterialType = (type) => updateParams({ type });
   const setActiveLine = (line) => updateParams({ line });
-  const setActiveShape = (shape) => updateParams({ shape, pattern: null });
-  const setActivePattern = (pattern) => updateParams({ pattern });
+  const setActiveShape = (shape) => updateParams({ shape });
 
   // Scroll restoration on return
   useEffect(() => {
@@ -368,18 +387,6 @@ export default function Materials() {
     return ["all", ...Array.from(shapes).sort()];
   }, [materialsList, activeTab, activeBrand, activeLine]);
 
-  const visiblePatterns = useMemo(() => {
-    if (activeTab !== "데코타일" || activeBrand !== "KCC" || !materialsList) return [];
-    const patterns = new Set();
-    materialsList.forEach(m => {
-      if (m.brand === "KCC" && m.category === "데코타일" && m.pattern) {
-        if (activeLine !== "all" && m.line !== activeLine) return;
-        if (activeShape !== "all" && m.shape !== activeShape) return;
-        patterns.add(m.pattern);
-      }
-    });
-    return ["all", ...Array.from(patterns).sort()];
-  }, [materialsList, activeTab, activeBrand, activeLine, activeShape]);
 
   // Wall paper material types
   const MATERIAL_TYPES = ["all", "프리미엄", "디아망", "합지(소폭)", "합지(장폭)", "합지", "실크", "방염"];
@@ -453,19 +460,13 @@ export default function Materials() {
           shapeOk = (m.shape === activeShape);
         }
 
-        // Pattern check (only for KCC decotiles)
-        let patternOk = true;
-        if (activeTab === "데코타일" && activeBrand === "KCC" && activePattern !== "all") {
-          patternOk = (m.pattern === activePattern);
-        }
-
         // Thickness check (only for 장판)
         let thicknessOk = true;
         if (activeTab === "장판" && activeThickness !== "all") {
           thicknessOk = (m.thickness === activeThickness);
         }
 
-        return tabOk && brandOk && typeOk && lineOk && shapeOk && patternOk && thicknessOk;
+        return tabOk && brandOk && typeOk && lineOk && shapeOk && thicknessOk;
       });
     }
 
@@ -488,7 +489,7 @@ export default function Materials() {
     }
 
     return result;
-  }, [materialsList, activeTab, activeBrand, activeMaterialType, activeLine, activeShape, activePattern, activeThickness, searchText, visibleLines, nameFilter, codeFilter, specFilter]);
+  }, [materialsList, activeTab, activeBrand, activeMaterialType, activeLine, activeShape, activeThickness, searchText, visibleLines, nameFilter, codeFilter, specFilter]);
 
   // Error View
   if (error) {
@@ -528,7 +529,7 @@ export default function Materials() {
         <main className="materials-content full">
           
           {/* ✅ 1. Page Header (Title & Description) */}
-          <div className="materials-page-header">
+          <div ref={searchBarRef} className="materials-page-header">
             <div className="header-text">
               <h1 className="materials-title">자재찾기</h1>
               <p className="materials-desc">
@@ -608,7 +609,7 @@ export default function Materials() {
               </div>
             )}
 
-            {/* KCC Decotile specific filters: Shape & Pattern */}
+            {/* KCC Decotile specific filters: Shape */}
             {activeTab === "데코타일" && activeBrand === "KCC" && !loading && (
               <>
                 {visibleShapes.length > 1 && (
@@ -622,24 +623,6 @@ export default function Materials() {
                           onClick={() => setActiveShape(shape)}
                         >
                           {shape === "all" ? "전체 형태" : shape}
-                        </button>
-                      ))}
-                    </div>
-                  </div>
-                )}
-                
-                {visiblePatterns.length > 1 && (
-                  <div className="filter-group">
-                    <span className="filter-label">세부 패턴</span>
-                    <div className="filter-options" style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
-                      {visiblePatterns.map((pattern) => (
-                        <button
-                          key={pattern}
-                          className={`filter-tab ${activePattern === pattern ? "active" : ""}`}
-                          onClick={() => setActivePattern(pattern)}
-                          style={{ margin: '2px 0' }}
-                        >
-                          {pattern === "all" ? "전체 패턴" : pattern}
                         </button>
                       ))}
                     </div>

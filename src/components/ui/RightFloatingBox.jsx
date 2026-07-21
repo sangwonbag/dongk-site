@@ -67,7 +67,7 @@ export default function RightFloatingBox({ hideOnPaths = [] }) {
                                 <X size={18} />
                             </button>
                         </div>
-                        <div className="rf-mobile-drawer-body-wrap" style={{ maxHeight: 'calc(100vh - 120px)', overflowY: 'auto' }}>
+                        <div className="rf-mobile-drawer-body-wrap" style={{ overflowY: 'auto' }}>
                             <div className="rf-mobile-body">
                                 <div className="rf-mobile-section">
                                     <div className="section-label">📞 고객센터</div>

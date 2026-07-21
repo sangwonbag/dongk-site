@@ -1,12 +1,17 @@
+:root {
+    --total-header-height: calc(var(--header-height, 80px) + var(--notice-height, 38px));
+}
+
 .main-layout {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    min-height: 100dvh;
 }
 
 .main-content {
     flex: 1;
-    padding-top: 130px; /* Clear fixed top header and notice bar (118px total) */
+    padding-top: calc(env(safe-area-inset-top, 0px) + var(--total-header-height));
 }
 
 .main-content.home-main-content {
@@ -14,17 +19,17 @@
 }
 
 .main-content.admin-main-content {
-    padding-top: 170px; /* Secure ample spacing for admin actions (>24px gap) */
+    padding-top: calc(env(safe-area-inset-top, 0px) + var(--total-header-height) + 40px); /* Secure ample spacing for admin actions */
 }
 
 @media (max-width: 768px) {
     .main-content {
-        padding-top: 110px;
+        padding-top: calc(env(safe-area-inset-top, 0px) + var(--total-header-height));
     }
     .main-content.home-main-content {
         padding-top: 0;
     }
     .main-content.admin-main-content {
-        padding-top: 130px;
+        padding-top: calc(env(safe-area-inset-top, 0px) + var(--total-header-height) + 20px);
     }
-}
+}

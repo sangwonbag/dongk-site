@@ -61,3 +61,23 @@
         padding: 10px 16px;
     }
 }
+
+/* Sibling-aware adjustment for product detail page to avoid overlap with mobile CTA bar */
+@media (max-width: 991px) {
+    .main-content.product-detail-page ~ .floating-buttons-container {
+        bottom: calc(130px + env(safe-area-inset-bottom, 0px)) !important;
+        right: 16px !important;
+    }
+}
+
+@media (max-width: 374px) {
+    .floating-buttons-container {
+        right: 10px !important;
+    }
+    .floating-phone-btn,
+    .floating-kakao-btn {
+        min-height: 48px;
+        padding: 8px 14px;
+        font-size: 13px;
+    }
+}

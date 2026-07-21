@@ -15,6 +15,7 @@ import {
   AlertTriangle
 } from "lucide-react";
 import MainLayout from "../../components/layout/MainLayout";
+import { ProductImage } from "../../components/ui";
 import { useEstimateCart } from "../../contexts/EstimateCartContext";
 import { KAKAO_CHAT_URL } from "../../constants/contact";
 import { getValidGalleryImages, getDetailImage, getThumbnailImage } from "../../utils/galleryUtils";
@@ -2008,14 +2009,10 @@ export default function MaterialDetail() {
                       onClick={() => navigate(`/materials/${rItem.id}`)}
                     >
                       <div className="related-thumb-box">
-                        <img 
-                          src={rItem.thumbnail || "/images/deco_tile.png"} 
+                        <ProductImage 
+                          src={rItem.thumbnail} 
                           alt={rItem.name} 
                           className="related-thumb-img"
-                          onError={(e) => {
-                            e.target.onerror = null;
-                            e.target.src = "/images/no-image.svg";
-                          }}
                         />
                       </div>
                       <div className="related-info-box">

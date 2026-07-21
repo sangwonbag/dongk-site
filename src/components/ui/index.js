@@ -8,3 +8,4 @@ export { default as ImagePlaceholder } from "./ImagePlaceholder";
 export { default as PdfUnavailable } from "./PdfUnavailable";
 export { default as FloatingPhoneButton } from "./FloatingPhoneButton";
 export { default as RightFloatingBox } from "./RightFloatingBox";
+export { default as ProductImage } from "./ProductImage";

@@ -17,14 +17,12 @@
 .showroom-detail-bg {
   background-color: #ffffff;
   min-height: 100vh;
+  min-height: 100dvh;
   color: var(--text);
 }
 
-.main-content.product-detail-page {
-  padding-top: 140px !important;
-}
-
 .mat-detail-container {
+  padding-top: 24px;
   padding-bottom: 100px;
 }
 
@@ -70,25 +68,24 @@
 
 .showroom-main-frame {
   width: 100%;
-  height: auto;
-  min-height: 0;
-  aspect-ratio: auto;
+  max-width: 100%;
+  aspect-ratio: 1 / 1;
   background-color: #ffffff;
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  overflow: visible;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: var(--shadow-md);
+  box-sizing: border-box;
 }
 
 .showroom-main-img {
   display: block;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
   max-width: 100%;
-  max-height: 620px;
   object-fit: contain;
   object-position: center;
   transition: var(--transition);
@@ -113,9 +110,14 @@
 .showroom-thumb-strip {
   display: flex;
   gap: 10px;
+  width: 100%;
+  max-width: 100%;
   margin-top: 16px;
-  overflow-x: auto;
   padding-bottom: 4px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
 }
 
 .showroom-thumb-box {
@@ -124,7 +126,7 @@
   padding: 3px;
   border-radius: var(--radius-md);
   overflow: hidden;
-  border: 1px solid var(--border);
+  border: 2px solid var(--border);
   cursor: pointer;
   opacity: 0.6;
   background-color: #ffffff;
@@ -133,6 +135,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 .showroom-thumb-box:hover {
@@ -142,16 +145,15 @@
 
 .showroom-thumb-box.active {
   opacity: 1;
-  border: 2px solid var(--point-gold);
+  border-color: var(--point-gold);
   box-shadow: var(--shadow-sm);
 }
 
 .showroom-thumb-img {
   display: block;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
   max-width: 100%;
-  max-height: 100%;
   object-fit: contain;
   object-position: center;
 }
@@ -160,6 +162,24 @@
 .showroom-meta-data {
   display: flex;
   flex-direction: column;
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.showroom-meta-data > * {
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.showroom-product-title,
+.showroom-product-code,
+.price-num,
+.tech-value,
+.consulting-guide-text {
+  overflow-wrap: anywhere;
+  word-break: keep-all;
 }
 
 .product-brand-badge {
@@ -1138,28 +1158,47 @@
   }
   
   .related-materials-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  
+  .related-materials-grid > * {
+    min-width: 0;
   }
   
   .virtual-space-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 16px;
+  }
+  
+  .virtual-space-grid > * {
+    min-width: 0;
   }
   
   .mobile-cta-fixed-bar {
     display: flex;
+    box-sizing: border-box;
+    padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+  }
+  
+  .mobile-cta-sub-row,
+  .mobile-cta-main-row {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .mobile-cta-sub-btn,
+  .mobile-cta-main-btn {
+    min-width: 0;
+    box-sizing: border-box;
   }
   
   .mat-detail-container {
-    padding-bottom: 120px;
+    padding-top: 16px;
+    padding-bottom: calc(180px + env(safe-area-inset-bottom, 0px));
   }
 }
 
 @media (max-width: 768px) {
-  .main-content.product-detail-page {
-    padding-top: 100px !important;
-  }
-  
   .showroom-product-title {
     font-size: 24px;
   }
@@ -1186,6 +1225,58 @@
   }
   
   .related-materials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .showroom-main-actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .showroom-main-actions button {
+    width: 100%;
+    min-width: 0;
+    min-height: 52px;
+    height: auto;
+    box-sizing: border-box;
+  }
+
+  .showroom-action-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-top: 12px;
+  }
+
+  .showroom-action-buttons button,
+  .showroom-action-buttons a {
+    width: 100%;
+    min-width: 0;
+    min-height: 52px;
+    height: auto;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 480px) {
+  .quick-tech-specs {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+}
+
+@media (max-width: 359px) {
+  .showroom-main-actions {
+    grid-template-columns: 1fr;
+  }
+  .showroom-action-buttons {
     grid-template-columns: 1fr;
   }
 }
