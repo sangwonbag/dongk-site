@@ -7,6 +7,7 @@ import { useAuth } from '../../contexts/AuthContext';
 import { ArrowLeft, Trash2, Plus, Minus, CheckCircle, Phone, MessageSquare, MapPin } from 'lucide-react';
 import MaterialSearchModal from './MaterialSearchModal';
 import { createEstimateInquiry } from '../../services/estimateInquiryService';
+import { sendOrderNotification } from '../../services/notificationService';
 import { loadDaumPostcode } from '../../utils/loadDaumPostcode';
 import './EstimateRequest.css';
 
@@ -228,7 +229,36 @@ export default function EstimateRequest() {
 
       const inquiryData = await createEstimateInquiry(payload);
 
-      setSubmittedNo(inquiryData.estimate_no || inquiryData.id.substring(0, 8).toUpperCase());
+      // 이메일 알림 전송 (비동기 처리)
+      const estNo = inquiryData.estimate_no || (inquiryData.id ? inquiryData.id.substring(0, 8).toUpperCase() : 'EST-' + Date.now());
+      sendOrderNotification({
+        order_no: `[견적요청] ${estNo}`,
+        customer_name: customer.name,
+        company_name: customer.type || '',
+        phone: customer.phone,
+        email: customer.email || '',
+        address: site.address || '주소 정보 없음',
+        address_detail: site.detailAddress || '',
+        memo: payload.request_memo,
+        delivery_request_date: finalPreferredDate || '',
+        payment_method: '견적 상담',
+        payment_status: '견적 요청 접수',
+        status: '접수완료',
+        total_amount: Math.round(subtotal),
+        order_items: (selectedItems || []).map(item => ({
+          product_name: item.name || item.product_name || '자재',
+          product_code: item.code || item.product_code || '-',
+          brand: item.brand || '',
+          spec: item.spec || item.selectedSize || '-',
+          unit: item.unit || '개',
+          quantity: item.quantity || 1,
+          unit_price: item.price || item.unit_price || 0,
+          image_url: item.image || item.thumbnail || ''
+        })),
+        created_at: new Date().toISOString()
+      }, 'admin').catch(e => console.warn('[Estimate Notification Exception]:', e));
+
+      setSubmittedNo(estNo);
       setSubmitSuccess(true);
       clearCart();
       window.scrollTo(0, 0);
