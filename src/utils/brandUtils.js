@@ -163,8 +163,10 @@ export const getNormalizedThickness = (item) => {
  * 영어/영문기호 형태 및 패턴 명칭(square, .wood 등)을 한국어 직관적 명칭(450각, 우드 등)으로 표준화합니다.
  */
 export function formatShapeOrPattern(value) {
-  if (!value) return "";
+  if (value === null || value === undefined) return "";
+  if (typeof value !== "string" && typeof value !== "number") return "";
   const val = String(value).trim();
+  if (!val) return "";
   const lower = val.toLowerCase().replace(/^\./, '');
   
   if (lower === "square" || lower === "450square" || lower === "450" || lower === "kcc_square") {
@@ -201,22 +203,26 @@ export function formatShapeOrPattern(value) {
 
 export function normalizeProductDetails(item) {
   if (!item) return item;
-  if (item.category === "마루") {
-    const { materialType, displayLine } = getMaterialTypeAndLine(item);
-    item.materialType = materialType;
-    item.displayLine = displayLine;
-  }
-  if (item.category === "장판") {
-    item.thickness = getNormalizedThickness(item);
-  }
-  if (item.shape) {
-    item.shape = formatShapeOrPattern(item.shape);
-  }
-  if (item.line && (item.line.startsWith('.') || item.line.toLowerCase() === 'square' || item.line.toLowerCase() === 'wood')) {
-    item.line = formatShapeOrPattern(item.line);
-  }
-  if (item.pattern) {
-    item.pattern = formatShapeOrPattern(item.pattern);
+  try {
+    if (item.category === "마루") {
+      const { materialType, displayLine } = getMaterialTypeAndLine(item);
+      item.materialType = materialType;
+      item.displayLine = displayLine;
+    }
+    if (item.category === "장판") {
+      item.thickness = getNormalizedThickness(item);
+    }
+    if (item.shape) {
+      item.shape = formatShapeOrPattern(item.shape);
+    }
+    if (item.line && typeof item.line === 'string' && (item.line.startsWith('.') || item.line.toLowerCase() === 'square' || item.line.toLowerCase() === 'wood')) {
+      item.line = formatShapeOrPattern(item.line);
+    }
+    if (item.pattern) {
+      item.pattern = formatShapeOrPattern(item.pattern);
+    }
+  } catch (err) {
+    console.error("normalizeProductDetails error:", err);
   }
   return item;
 }
