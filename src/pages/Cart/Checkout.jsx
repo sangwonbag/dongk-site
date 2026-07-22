@@ -248,17 +248,20 @@ export default function Checkout() {
   // 1. Initialize and sync checkout items
   useEffect(() => {
     if (loading || isOrderSuccess) return;
-    const pendingDirect = getPendingDirectOrder();
+    const pendingDirect = (location.state?.buyNowItem || location.state?.directOrderItem) 
+      ? (location.state.buyNowItem || location.state.directOrderItem)
+      : getPendingDirectOrder();
     let targetItems = [];
     let isDirect = false;
 
-    if (location.state?.isDirect && location.state?.directOrderItem) {
-      targetItems = [location.state.directOrderItem];
-      isDirect = true;
-    } else if (pendingDirect) {
-      targetItems = [pendingDirect];
-      isDirect = true;
-    } else {
+    if (location.state?.purchaseMode === "buyNow" || location.state?.isDirect || pendingDirect) {
+      if (pendingDirect) {
+        targetItems = Array.isArray(pendingDirect) ? pendingDirect : [pendingDirect];
+        isDirect = true;
+      }
+    }
+    
+    if (!isDirect) {
       targetItems = globalCartItems;
       isDirect = false;
     }
@@ -545,9 +548,18 @@ export default function Checkout() {
 
       setIsOrderSuccess(true);
 
-      // 장바구니 및 바로구매 임시 정보 완전 초기화
-      await clearCart({ clearAll: true });
+      // 장바구니 및 바로구매 임시 정보 초기화
       removePendingDirectOrder();
+      try {
+        localStorage.removeItem('buyNowItem');
+        sessionStorage.removeItem('buyNowItem');
+      } catch (e) {
+        console.error('Failed to remove buyNowItem', e);
+      }
+
+      if (!isDirectOrder) {
+        await clearCart({ clearAll: true });
+      }
 
       // Clear session storage values
       sessionStorage.removeItem("checkout_delivery_method");

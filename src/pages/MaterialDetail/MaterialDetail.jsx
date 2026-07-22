@@ -1142,10 +1142,6 @@ export default function MaterialDetail() {
   const currentPacking = selectedOption ? (selectedOption.package || "1박스 단위 판매") : (item.specs?.packing || "1박스 단위 판매");
 
   const handleAddToCart = () => {
-    if (!currentUser) {
-      openLoginModal();
-      return;
-    }
     let itemPrice = item.price;
     if (typeof itemPrice === 'string') {
       itemPrice = parseInt(itemPrice.replace(/[^0-9]/g, ""), 10) || 0;
@@ -1156,20 +1152,23 @@ export default function MaterialDetail() {
     }
 
     const imgPath = getMaterialImagePath(item);
-    addToCart({
+    const cartPayload = {
       id: selectedOption ? `${item.id}-${selectedOption.label}` : item.id,
       product_id: item.id,
       productId: item.id,
       thumbnail: imgPath,
       image: imgPath,
+      imageUrl: imgPath,
       brand: getComputedBrand(item),
-      thickness: item.thickness || (item.specs?.thickness) || getNormalizedThickness(item),
+      thickness: item.thickness || (item.specs?.thickness) || "",
       category: item.category,
       line: item.line || "",
       name: displayName,
       product_name: displayName,
+      productName: displayName,
       code: item.code,
       product_code: item.code,
+      productCode: item.code,
       spec: selectedOption ? selectedOption.spec : (item.specs?.size || item.spec || "표준규격"),
       specs: selectedOption ? {
         thickness: selectedOption.thickness,
@@ -1179,12 +1178,17 @@ export default function MaterialDetail() {
       packing: selectedOption ? (selectedOption.package || "") : (item.specs?.packing || "1박스 단위 판매"),
       price: itemPrice,
       unit_price: itemPrice,
+      unitPrice: itemPrice,
       unit: getProductUnit(item),
       quantity: qty,
       amount: itemPrice * qty,
+      subtotal: itemPrice * qty,
+      selectedOption: selectedOption ? selectedOption.label : undefined,
+      selectedOptions: selectedOption ? [selectedOption.label] : [],
       selectedSize: selectedOption ? selectedOption.label : undefined
-    });
+    };
 
+    addToCart(cartPayload);
     setShowCartModal(true);
   };
 
@@ -1203,11 +1207,6 @@ export default function MaterialDetail() {
       return;
     }
 
-    if (!currentUser) {
-      openLoginModal();
-      return;
-    }
-
     const imgPath = getMaterialImagePath(item);
     const directOrderItem = {
       id: selectedOption ? `${item.id}-${selectedOption.label}` : item.id,
@@ -1215,14 +1214,17 @@ export default function MaterialDetail() {
       productId: item.id,
       thumbnail: imgPath,
       image: imgPath,
+      imageUrl: imgPath,
       brand: getComputedBrand(item),
-      thickness: item.thickness || (item.specs?.thickness) || getNormalizedThickness(item),
+      thickness: item.thickness || (item.specs?.thickness) || "",
       category: item.category,
       line: item.line || "",
       name: displayName,
       product_name: displayName,
+      productName: displayName,
       code: item.code,
       product_code: item.code,
+      productCode: item.code,
       spec: selectedOption ? selectedOption.spec : (item.specs?.size || item.spec || "표준규격"),
       specs: selectedOption ? {
         thickness: selectedOption.thickness,
@@ -1232,14 +1234,31 @@ export default function MaterialDetail() {
       packing: selectedOption ? (selectedOption.package || "") : (item.specs?.packing || "1박스 단위 판매"),
       price: itemPrice,
       unit_price: itemPrice,
+      unitPrice: itemPrice,
       unit: getProductUnit(item),
       quantity: qty,
       amount: itemPrice * qty,
+      subtotal: itemPrice * qty,
+      selectedOption: selectedOption ? selectedOption.label : undefined,
+      selectedOptions: selectedOption ? [selectedOption.label] : [],
       selectedSize: selectedOption ? selectedOption.label : undefined
     };
 
     setPendingDirectOrder(directOrderItem);
-    navigate("/checkout", { state: { isDirect: true, directOrderItem } });
+    try {
+      localStorage.setItem('buyNowItem', JSON.stringify(directOrderItem));
+    } catch (e) {
+      console.error('Failed to save buyNowItem to localStorage', e);
+    }
+
+    navigate("/checkout", { 
+      state: { 
+        purchaseMode: "buyNow", 
+        isDirect: true, 
+        directOrderItem,
+        buyNowItem: directOrderItem
+      } 
+    });
   };
 
   const handleBack = () => {
@@ -1536,9 +1555,19 @@ export default function MaterialDetail() {
                   수량: {qty}박스 {isDecoTile(item) && <span style={{ color: 'var(--point-gold)', fontWeight: '700', marginLeft: '6px' }}>(주문 평수: {qty}평)</span>}
                 </span>
                 <div className="qty-counter-box">
-                  <button onClick={() => setQty(Math.max(1, qty - 1))} className="qty-btn">-</button>
-                  <input type="number" value={qty} onChange={(e) => setQty(Math.max(1, parseInt(e.target.value) || 1))} className="qty-input" />
-                  <button onClick={() => setQty(qty + 1)} className="qty-btn">+</button>
+                  <button type="button" onClick={() => setQty(Math.max(1, qty - 1))} className="qty-btn" aria-label="수량 감소">-</button>
+                  <input 
+                    type="number" 
+                    min="1"
+                    step="1"
+                    value={qty} 
+                    onChange={(e) => {
+                      const val = parseInt(e.target.value.replace(/[^0-9]/g, ""), 10);
+                      setQty(isNaN(val) || val < 1 ? 1 : val);
+                    }} 
+                    className="qty-input" 
+                  />
+                  <button type="button" onClick={() => setQty(qty + 1)} className="qty-btn" aria-label="수량 증가">+</button>
                 </div>
               </div>
 
@@ -1618,23 +1647,17 @@ export default function MaterialDetail() {
  
               {/* Primary CTA Actions */}
               <div className="showroom-main-actions">
-                <button className="btn-main-cart" onClick={handleAddToCart}>
+                <button type="button" className="btn-main-cart" onClick={handleAddToCart}>
                   <ShoppingCart size={18} style={{ marginRight: '6px' }} /> 장바구니 담기
                 </button>
-                {isDirectPricingCategory(item) ? (
-                  <button className="btn-main-buy" onClick={handleDirectBuy} style={{ backgroundColor: 'var(--point-orange)', borderColor: 'var(--point-orange)' }}>
-                    <CheckCircle size={18} style={{ marginRight: '6px' }} /> 바로구매
-                  </button>
-                ) : (
-                  <button className="btn-main-buy" onClick={handleEstimate} style={{ backgroundColor: 'var(--point-orange)', borderColor: 'var(--point-orange)' }}>
-                    <FileText size={18} style={{ marginRight: '6px' }} /> 바로 견적요청
-                  </button>
-                )}
+                <button type="button" className="btn-main-buy" onClick={handleDirectBuy} style={{ backgroundColor: 'var(--point-orange)', borderColor: 'var(--point-orange)' }}>
+                  <CheckCircle size={18} style={{ marginRight: '6px' }} /> 바로구매
+                </button>
               </div>
  
               {/* Secondary Actions: Kakao, Phone */}
               <div className="showroom-action-buttons" style={{ marginTop: '12px' }}>
-                <a href={KAKAO_CHAT_URL} target="_blank" rel="noopener noreferrer" className="btn-showroom-quote text-center btn-kakao-action" style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#FEE500', color: '#191919', border: 'none', fontWeight: '700' }}>
+                <a href={KAKAO_CHAT_URL} target="_blank" rel="noopener noreferrer" className="btn-showroom-quote text-center btn-kakao-action" style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#FEE500', color: '#191919', border: 'none', fontWeight: '700', textDecoration: 'none' }}>
                   💬 카카오톡 1:1 상담
                 </a>
                 <a href="tel:02-487-9775" className="btn-showroom-phone">

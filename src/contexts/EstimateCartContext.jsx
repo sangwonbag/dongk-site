@@ -17,26 +17,24 @@ export function EstimateCartProvider({ children }) {
   };
 
   const [cartItems, setCartItems] = useState(() => {
-    // If there is no authenticated user on app mount, initialize cart as empty
     const savedUserStr = localStorage.getItem('dk_auth_user');
-    if (!savedUserStr) {
-      return [];
-    }
-
     let initialKey = 'estimateCart_guest';
-    try {
-      const parsed = JSON.parse(savedUserStr);
-      if (parsed && parsed.id) {
-        initialKey = `estimateCart_${parsed.id}`;
+    if (savedUserStr) {
+      try {
+        const parsed = JSON.parse(savedUserStr);
+        if (parsed && parsed.id) {
+          initialKey = `estimateCart_${parsed.id}`;
+        }
+      } catch (e) {
+        console.error('Failed to parse user on initial cart load', e);
       }
-    } catch (e) {
-      console.error('Failed to parse user on initial cart load', e);
     }
 
     const saved = localStorage.getItem(initialKey);
     if (saved) {
       try {
-        return JSON.parse(saved);
+        const parsed = JSON.parse(saved);
+        if (Array.isArray(parsed)) return parsed;
       } catch (e) {
         console.error('Failed to parse estimate cart', e);
       }
@@ -47,27 +45,34 @@ export function EstimateCartProvider({ children }) {
 
   const prevUserRef = useRef(user);
 
-  // Helper getters/setters for pending direct orders to completely encapsulate local storage
-  const getPendingDirectOrder = () => {
+  // Helper getters/setters for buyNowItem & pendingDirectOrder
+  const getBuyNowItem = () => {
     try {
-      const item = localStorage.getItem('pendingDirectOrder');
+      const item = localStorage.getItem('buyNowItem') || localStorage.getItem('pendingDirectOrder');
       return item ? JSON.parse(item) : null;
     } catch (e) {
-      console.error('Failed to parse pending direct order', e);
+      console.error('Failed to parse buyNowItem', e);
       return null;
     }
   };
 
-  const setPendingDirectOrder = (item) => {
+  const setBuyNowItem = (item) => {
+    localStorage.setItem('buyNowItem', JSON.stringify(item));
     localStorage.setItem('pendingDirectOrder', JSON.stringify(item));
   };
 
-  const removePendingDirectOrder = () => {
+  const removeBuyNowItem = () => {
+    localStorage.removeItem('buyNowItem');
+    sessionStorage.removeItem('buyNowItem');
     localStorage.removeItem('pendingDirectOrder');
     sessionStorage.removeItem('pendingDirectOrder');
     localStorage.removeItem('directOrder');
     sessionStorage.removeItem('directOrder');
   };
+
+  const getPendingDirectOrder = getBuyNowItem;
+  const setPendingDirectOrder = setBuyNowItem;
+  const removePendingDirectOrder = removeBuyNowItem;
 
   const clearAllCartStorage = () => {
     const keysToRemove = [];
@@ -77,6 +82,7 @@ export function EstimateCartProvider({ children }) {
         key === 'estimateCart' ||
         key === 'estimateCart_guest' ||
         key === 'pendingDirectOrder' ||
+        key === 'buyNowItem' ||
         key === 'checkoutItems' ||
         key === 'checkoutDraft' ||
         key === 'directOrder' ||
@@ -92,6 +98,7 @@ export function EstimateCartProvider({ children }) {
 
     // Clear session storage as well
     sessionStorage.removeItem('pendingDirectOrder');
+    sessionStorage.removeItem('buyNowItem');
     sessionStorage.removeItem('directOrder');
     sessionStorage.removeItem('checkoutItems');
     sessionStorage.removeItem('checkoutDraft');
@@ -99,16 +106,6 @@ export function EstimateCartProvider({ children }) {
     window.dispatchEvent(new CustomEvent('dongk-cart-cleared'));
     window.dispatchEvent(new StorageEvent('storage', { key: 'estimateCart' }));
   };
-
-  // If no user is authenticated on initial load, ensure all cart keys are cleared
-  useEffect(() => {
-    const savedUserStr = localStorage.getItem('dk_auth_user');
-    if (!savedUserStr) {
-      console.log("[CartContext] Initial mount: No authenticated user. Purging cart storage.");
-      setCartItems([]);
-      clearAllCartStorage();
-    }
-  }, []);
 
   // Legacy local storage keys cleanup
   useEffect(() => {
@@ -304,6 +301,9 @@ export function EstimateCartProvider({ children }) {
       getPendingDirectOrder,
       setPendingDirectOrder,
       removePendingDirectOrder,
+      getBuyNowItem,
+      setBuyNowItem,
+      removeBuyNowItem,
       toast,
       hideToast
     }}>
