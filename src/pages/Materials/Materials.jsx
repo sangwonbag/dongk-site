@@ -535,97 +535,95 @@ export default function Materials() {
           
           {/* ✅ Section A. Sticky Area (자재찾기 제목 ~ 카테고리/브랜드/형태분류 - PC Sticky) */}
           <section className="materials-sticky-area">
-            {/* 1. Page Header (Title, Description, Integrated Search & Active Filter Chips) */}
-            <div className="materials-page-header">
-              <div className="header-text">
-                <h1 className="materials-title">자재찾기</h1>
-                <p className="materials-desc">
-                  동경바닥재가 엄선한 국내 주요 제조사(KCC, 동신, LX 등)의 자재를 상품명 및 자재 코드별로 조회하여 바로 발주하거나 견적을 요청할 수 있습니다.
-                </p>
-              </div>
+            {/* 1. Title & Description Heading Block */}
+            <div className="materials-heading">
+              <h1 className="materials-title">자재찾기</h1>
+              <p className="materials-description">
+                동경바닥재가 엄선한 국내 주요 제조사(KCC, 동신, LX 등)의 자재를 상품명 및 자재 코드별로 조회하고 바로 발주하거나 견적을 요청할 수 있습니다.
+              </p>
+            </div>
 
-              {/* Integrated Search Box & Mobile Filter Trigger */}
-              <div className="materials-search-row-wrap">
-                <div className="materials-search-box">
-                  <input
-                    type="text"
-                    placeholder="통합 검색 (제품번호, 자재명 등)..."
-                    value={searchInput}
-                    onChange={(e) => setSearchInput(e.target.value)}
-                    className="materials-search-input-field"
-                  />
-                  {searchInput && (
-                    <button className="search-clear-btn" onClick={() => setSearchInput("")}>
-                      &times;
-                    </button>
-                  )}
-                </div>
-                <button 
-                  className="mobile-filter-trigger-btn"
-                  onClick={() => setIsFilterSheetOpen(true)}
-                >
-                  <SlidersHorizontal size={18} />
-                  <span>필터</span>
-                  {activeFilterCount > 0 && <span className="trigger-badge">{activeFilterCount}</span>}
+            {/* 2. Integrated Search Box Row & Mobile Trigger */}
+            <div className="materials-integrated-search">
+              <div className="materials-search-box">
+                <input
+                  type="text"
+                  placeholder="통합 검색 (제품번호, 자재명 등)..."
+                  value={searchInput}
+                  onChange={(e) => setSearchInput(e.target.value)}
+                  className="materials-search-input-field"
+                />
+                {searchInput && (
+                  <button className="search-clear-btn" onClick={() => setSearchInput("")}>
+                    &times;
+                  </button>
+                )}
+              </div>
+              <button 
+                className="mobile-filter-trigger-btn"
+                onClick={() => setIsFilterSheetOpen(true)}
+              >
+                <SlidersHorizontal size={18} />
+                <span>필터</span>
+                {activeFilterCount > 0 && <span className="trigger-badge">{activeFilterCount}</span>}
+              </button>
+            </div>
+
+            {/* Active Filter Chips Bar */}
+            {activeFilterCount > 0 && (
+              <div className="active-filter-chips-bar">
+                {activeBrand !== "all" && (
+                  <span className="active-chip">
+                    브랜드: {activeBrand}
+                    <X size={14} className="chip-remove" onClick={() => setActiveBrand("all")} />
+                  </span>
+                )}
+                {activeThickness !== "all" && (
+                  <span className="active-chip">
+                    두께: {activeThickness}
+                    <X size={14} className="chip-remove" onClick={() => updateParams({ thickness: null })} />
+                  </span>
+                )}
+                {activeShape !== "all" && (
+                  <span className="active-chip">
+                    형태: {activeShape}
+                    <X size={14} className="chip-remove" onClick={() => updateParams({ shape: null })} />
+                  </span>
+                )}
+                {activeLine !== "all" && (
+                  <span className="active-chip">
+                    라인업: {activeLine}
+                    <X size={14} className="chip-remove" onClick={() => updateParams({ line: null })} />
+                  </span>
+                )}
+                {nameFilter.trim() && (
+                  <span className="active-chip">
+                    제품명: {nameFilter}
+                    <X size={14} className="chip-remove" onClick={() => setNameFilter("")} />
+                  </span>
+                )}
+                {codeFilter.trim() && (
+                  <span className="active-chip">
+                    코드: {codeFilter}
+                    <X size={14} className="chip-remove" onClick={() => setCodeFilter("")} />
+                  </span>
+                )}
+                {specFilter.trim() && (
+                  <span className="active-chip">
+                    규격: {specFilter}
+                    <X size={14} className="chip-remove" onClick={() => setSpecFilter("")} />
+                  </span>
+                )}
+                <button className="active-chips-reset-btn" onClick={handleResetFilters}>
+                  전체 삭제
                 </button>
               </div>
-
-              {/* Active Filter Chips Bar */}
-              {activeFilterCount > 0 && (
-                <div className="active-filter-chips-bar">
-                  {activeBrand !== "all" && (
-                    <span className="active-chip">
-                      브랜드: {activeBrand}
-                      <X size={14} className="chip-remove" onClick={() => setActiveBrand("all")} />
-                    </span>
-                  )}
-                  {activeThickness !== "all" && (
-                    <span className="active-chip">
-                      두께: {activeThickness}
-                      <X size={14} className="chip-remove" onClick={() => updateParams({ thickness: null })} />
-                    </span>
-                  )}
-                  {activeShape !== "all" && (
-                    <span className="active-chip">
-                      형태: {activeShape}
-                      <X size={14} className="chip-remove" onClick={() => updateParams({ shape: null })} />
-                    </span>
-                  )}
-                  {activeLine !== "all" && (
-                    <span className="active-chip">
-                      라인업: {activeLine}
-                      <X size={14} className="chip-remove" onClick={() => updateParams({ line: null })} />
-                    </span>
-                  )}
-                  {nameFilter.trim() && (
-                    <span className="active-chip">
-                      제품명: {nameFilter}
-                      <X size={14} className="chip-remove" onClick={() => setNameFilter("")} />
-                    </span>
-                  )}
-                  {codeFilter.trim() && (
-                    <span className="active-chip">
-                      코드: {codeFilter}
-                      <X size={14} className="chip-remove" onClick={() => setCodeFilter("")} />
-                    </span>
-                  )}
-                  {specFilter.trim() && (
-                    <span className="active-chip">
-                      규격: {specFilter}
-                      <X size={14} className="chip-remove" onClick={() => setSpecFilter("")} />
-                    </span>
-                  )}
-                  <button className="active-chips-reset-btn" onClick={handleResetFilters}>
-                    전체 삭제
-                  </button>
-                </div>
-              )}
-            </div>
+            )}
             
-            {/* 2. Primary Category/Brand/Shape Tabs Panel */}
-            <div className="filter-panel">
+            {/* 3. Primary Category / Brand / Shape Filters Panel */}
+            <div className="materials-main-filters">
               {/* Category tabs */}
-              <div className="filter-group">
+              <div className="materials-filter-row">
                 <span className="filter-label">카테고리</span>
                 <div className="filter-options">
                   {CATEGORIES.map((category) => (
@@ -642,7 +640,7 @@ export default function Materials() {
    
               {/* Brand tabs */}
               {visibleBrands.length > 1 && (
-                <div className="filter-group">
+                <div className="materials-filter-row">
                   <span className="filter-label">브랜드</span>
                   <div className="filter-options">
                     {visibleBrands.map((brand) => (
@@ -660,7 +658,7 @@ export default function Materials() {
 
               {/* Thickness tabs (only for 장판) */}
               {activeTab === "장판" && visibleThicknesses.length > 1 && (
-                <div className="filter-group thickness-filter-group">
+                <div className="materials-filter-row thickness-filter-group">
                   <span className="filter-label">두께</span>
                   <div className="filter-options thickness-filter-options" style={{ display: 'flex', flexWrap: 'nowrap', overflowX: 'auto', gap: '6px', paddingBottom: '4px' }}>
                     {visibleThicknesses.map((t) => (
@@ -681,7 +679,7 @@ export default function Materials() {
               {activeTab === "데코타일" && activeBrand === "KCC" && !loading && (
                 <>
                   {visibleShapes.length > 1 && (
-                    <div className="filter-group">
+                    <div className="materials-filter-row">
                       <span className="filter-label">형태 분류</span>
                       <div className="filter-options">
                         {visibleShapes.map((shape) => (
@@ -701,7 +699,7 @@ export default function Materials() {
 
               {/* 마루 세부 분류 (Material Type) */}
               {activeTab === "마루" && visibleMaterialTypes.length > 2 && (
-                <div className="filter-group">
+                <div className="materials-filter-row">
                   <span className="filter-label">세부 분류</span>
                   <div className="filter-options">
                     {visibleMaterialTypes.map((type) => (
@@ -719,10 +717,10 @@ export default function Materials() {
             </div>
           </section>
 
-          {/* ✅ Section B. Scroll Area (세부 검색창 ~ 상품 목록 - Normal Scroll) */}
+          {/* ✅ Section B. Scroll Area (세부 검색창 ~ 라인업 ~ 상품 목록 - Normal Scroll) */}
           <section className="materials-scroll-area">
             {/* Detailed search inputs */}
-            <div className="materials-detail-search-panel">
+            <div className="materials-detail-search">
               <div className="search-filters-grid">
                 <div className="search-field">
                   <label className="field-label">제품명 검색</label>
@@ -759,7 +757,7 @@ export default function Materials() {
 
             {/* Lineup Filter (Dynamic - Shows only when multiple lines are loaded) */}
             {!loading && visibleLines.length > 2 && (
-              <div className="material-type-row">
+              <div className="materials-lineup-filter">
                 {visibleLines.map((lineName) => (
                   <button
                     key={lineName}
@@ -772,76 +770,76 @@ export default function Materials() {
               </div>
             )}
 
-            {/* Products grid display wrapper */}
-            <div className="materials-wrapper">
-
-            <div className="results-header">
-              <div className="results-info">
-                {loading ? (
-                  <span>자재 정보를 불러오는 중입니다...</span>
-                ) : (
-                  <span>
-                    총 <strong>{filtered.length}</strong>개 상품
-                  </span>
-                )}
+            {/* Products Grid & Display Wrapper */}
+            <div className="materials-product-grid">
+              <div className="results-header">
+                <div className="results-info">
+                  {loading ? (
+                    <span>자재 정보를 불러오는 중입니다...</span>
+                  ) : (
+                    <span>
+                      총 <strong>{filtered.length}</strong>개 상품
+                    </span>
+                  )}
+                </div>
               </div>
-            </div>
 
-            {loading ? (
-              <div className="materials-grid">
-                {Array.from({ length: 8 }).map((_, idx) => (
-                  <div key={idx} className="material-card-skeleton" style={{ border: '1px solid var(--border)', borderRadius: 'var(--radius-md)', overflow: 'hidden' }}>
-                    <div className="card-thumb-skeleton" style={{ overflow: 'hidden', position: 'relative', height: '200px' }}>
-                      <Skeleton height="100%" />
-                    </div>
-                    <div className="card-info-skeleton" style={{ padding: '16px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
-                      <Skeleton width="40%" height="12px" />
-                      <Skeleton width="80%" height="18px" />
-                      <Skeleton width="60%" height="14px" />
-                      <Skeleton width="50%" height="16px" />
-                      <div className="skeleton-buttons" style={{ display: 'flex', gap: '8px', marginTop: '12px' }}>
-                        <Skeleton height="34px" />
-                        <Skeleton height="34px" />
+              {loading ? (
+                <div className="materials-grid">
+                  {Array.from({ length: 8 }).map((_, idx) => (
+                    <div key={idx} className="material-card-skeleton" style={{ border: '1px solid var(--border)', borderRadius: 'var(--radius-md)', overflow: 'hidden' }}>
+                      <div className="card-thumb-skeleton" style={{ overflow: 'hidden', position: 'relative', height: '200px' }}>
+                        <Skeleton height="100%" />
+                      </div>
+                      <div className="card-info-skeleton" style={{ padding: '16px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                        <Skeleton width="40%" height="12px" />
+                        <Skeleton width="80%" height="18px" />
+                        <Skeleton width="60%" height="14px" />
+                        <Skeleton width="50%" height="16px" />
+                        <div className="skeleton-buttons" style={{ display: 'flex', gap: '8px', marginTop: '12px' }}>
+                          <Skeleton height="34px" />
+                          <Skeleton height="34px" />
+                        </div>
                       </div>
                     </div>
-                  </div>
-                ))}
-              </div>
-            ) : filtered.length > 0 ? (
-              <>
-                <div className="materials-grid">
-                  {filtered.slice(0, visibleCount).map((m) => (
-                    <MaterialCard key={m.id} material={m} />
                   ))}
                 </div>
-                
-                {visibleCount < filtered.length && (
-                  <div className="load-more-container">
-                    <button 
-                      className="load-more-btn" 
-                      onClick={() => setVisibleCount(prev => prev + 24)}
-                    >
-                      더보기 ({Math.min(visibleCount, filtered.length)} / {filtered.length})
-                    </button>
+              ) : filtered.length > 0 ? (
+                <>
+                  <div className="materials-grid">
+                    {filtered.slice(0, visibleCount).map((m) => (
+                      <MaterialCard key={m.id} material={m} />
+                    ))}
                   </div>
-                )}
-              </>
-            ) : (
-              <EmptyState
-                title="검색 결과가 없습니다"
-                description={
-                  searchText 
-                    ? `"${searchText}"에 부합하는 자재가 없거나 현재 준비 중입니다.` 
-                    : (activeTab === "장판" && (activeBrand !== "all" || activeThickness !== "all"))
-                      ? "선택한 브랜드와 두께에 해당하는 상품이 없습니다."
-                      : "선택하신 분류 및 브랜드의 자재가 준비 중입니다."
-                }
-              />
-            )}
-          </div>
+                  
+                  {visibleCount < filtered.length && (
+                    <div className="load-more-container">
+                      <button 
+                        className="load-more-btn" 
+                        onClick={() => setVisibleCount(prev => prev + 24)}
+                      >
+                        더보기 ({Math.min(visibleCount, filtered.length)} / {filtered.length})
+                      </button>
+                    </div>
+                  )}
+                </>
+              ) : (
+                <EmptyState
+                  title="검색 결과가 없습니다"
+                  description={
+                    searchText 
+                      ? `"${searchText}"에 부합하는 자재가 없거나 현재 준비 중입니다.` 
+                      : (activeTab === "장판" && (activeBrand !== "all" || activeThickness !== "all"))
+                        ? "선택한 브랜드와 두께에 해당하는 상품이 없습니다."
+                        : "선택하신 분류 및 브랜드의 자재가 준비 중입니다."
+                  }
+                />
+              )}
+            </div>
           </section>
         </main>
       </div>
+
 
 
       {/* Mobile Filter Sheet Modal */}
