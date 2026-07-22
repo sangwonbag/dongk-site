@@ -370,7 +370,7 @@ export default function EstimateRequest() {
                     </li>
                     <li className="details-content-item">
                       <span className="label">채널 주소</span>
-                      <span className="value">https://pf.kakao.com/_hbxkPX</span>
+                      <span className="value">{KAKAO_CHAT_URL}</span>
                     </li>
                   </ul>
                   <div className="details-action-buttons">
