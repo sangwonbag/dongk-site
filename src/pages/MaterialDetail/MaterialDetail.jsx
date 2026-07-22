@@ -23,7 +23,7 @@ import { getMaterialImagePath } from "../../utils/materialImageResolver";
 import { supabase } from "../../lib/supabaseClient";
 import { useAuth } from "../../contexts/AuthContext";
 import { materials } from "../../data/materials.db"; // Local fallback data
-import { getComputedBrand, normalizeProductDetails, formatFlooringProductName, getProductUnit } from "../../utils/brandUtils";
+import { getComputedBrand, normalizeProductDetails, formatFlooringProductName, getProductUnit, formatShapeOrPattern } from "../../utils/brandUtils";
 import { dongshinPolymer2026 } from "../../data/dongshinPolymer2026.js";
 import { imageManifest } from "../../data/materialImageManifest.generated";
 import { normalizeImagePath, getImageSrc, getUniqueProductImages } from "../../utils/galleryNormalizer";
@@ -1508,7 +1508,7 @@ export default function MaterialDetail() {
                 {item.brand === 'KCC' && item.category === '데코타일' && item.pattern && (
                   <div className="tech-spec-item">
                     <span className="tech-label">패턴 분류</span>
-                    <span className="tech-value">{item.pattern}</span>
+                    <span className="tech-value">{formatShapeOrPattern(item.pattern)}</span>
                   </div>
                 )}
                 <div className="tech-spec-item">

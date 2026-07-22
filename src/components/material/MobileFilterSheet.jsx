@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { X, RotateCcw, Check } from "lucide-react";
+import { formatShapeOrPattern } from "../../utils/brandUtils";
 import "./MobileFilterSheet.css";
 
 export default function MobileFilterSheet({
@@ -111,7 +112,7 @@ export default function MobileFilterSheet({
                     className={`sheet-chip ${activeShape === s ? "active" : ""}`}
                     onClick={() => onShapeChange(s)}
                   >
-                    {s === "all" ? "전체 형태" : s}
+                    {s === "all" ? "전체 형태" : formatShapeOrPattern(s)}
                   </button>
                 ))}
               </div>
@@ -129,7 +130,7 @@ export default function MobileFilterSheet({
                     className={`sheet-chip ${activeLine === l ? "active" : ""}`}
                     onClick={() => onLineChange(l)}
                   >
-                    {l === "all" ? "전체 라인업" : l}
+                    {l === "all" ? "전체 라인업" : formatShapeOrPattern(l)}
                   </button>
                 ))}
               </div>

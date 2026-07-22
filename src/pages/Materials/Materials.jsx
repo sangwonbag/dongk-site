@@ -1,7 +1,7 @@
 import React, { useMemo, useState, useEffect, useRef } from "react";
 import { useSearchParams } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
-import { getComputedBrand, getMaterialTypeAndLine } from "../../utils/brandUtils";
+import { getComputedBrand, getMaterialTypeAndLine, formatShapeOrPattern } from "../../utils/brandUtils";
 import { getSearchScore } from "../../utils/searchUtils";
 import MaterialCard from "../../components/material/MaterialCard";
 import { fetchFilteredProducts, fetchAllProducts } from "../../utils/supabaseFetcher";
@@ -586,13 +586,13 @@ export default function Materials() {
                 )}
                 {activeShape !== "all" && (
                   <span className="active-chip">
-                    형태: {activeShape}
+                    형태: {formatShapeOrPattern(activeShape)}
                     <X size={14} className="chip-remove" onClick={() => updateParams({ shape: null })} />
                   </span>
                 )}
                 {activeLine !== "all" && (
                   <span className="active-chip">
-                    라인업: {activeLine}
+                    라인업: {formatShapeOrPattern(activeLine)}
                     <X size={14} className="chip-remove" onClick={() => updateParams({ line: null })} />
                   </span>
                 )}
@@ -688,7 +688,7 @@ export default function Materials() {
                             className={`filter-tab ${activeShape === shape ? "active" : ""}`}
                             onClick={() => setActiveShape(shape)}
                           >
-                            {shape === "all" ? "전체 형태" : shape}
+                            {shape === "all" ? "전체 형태" : formatShapeOrPattern(shape)}
                           </button>
                         ))}
                       </div>
@@ -764,7 +764,7 @@ export default function Materials() {
                     className={`material-type-chip ${activeLine === lineName ? "active" : ""}`}
                     onClick={() => setActiveLine(lineName)}
                   >
-                    {lineName === "all" ? "전체 라인업" : lineName}
+                    {lineName === "all" ? "전체 라인업" : formatShapeOrPattern(lineName)}
                   </button>
                 ))}
               </div>

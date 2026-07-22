@@ -159,14 +159,64 @@ export const getNormalizedThickness = (item) => {
   return "두께 정보 없음";
 };
 
+/**
+ * 영어/영문기호 형태 및 패턴 명칭(square, .wood 등)을 한국어 직관적 명칭(450각, 우드 등)으로 표준화합니다.
+ */
+export function formatShapeOrPattern(value) {
+  if (!value) return "";
+  const val = String(value).trim();
+  const lower = val.toLowerCase().replace(/^\./, '');
+  
+  if (lower === "square" || lower === "450square" || lower === "450" || lower === "kcc_square") {
+    return "450각";
+  }
+  if (lower === "600square" || lower === "600") {
+    return "600각";
+  }
+  if (lower === "wood" || lower === "kcc_wood") {
+    return "우드";
+  }
+  if (lower === "tile" || lower === "wood_tile") {
+    return "타일";
+  }
+  if (lower === "marble") {
+    return "마블";
+  }
+  if (lower === "stone") {
+    return "스톤";
+  }
+  if (lower === "concrete") {
+    return "콘크리트";
+  }
+  if (lower === "carpet" || lower === "carpet_tile") {
+    return "카펫";
+  }
+  
+  if (val.startsWith('.')) {
+    return val.substring(1);
+  }
+  
+  return val;
+}
+
 export function normalizeProductDetails(item) {
-  if (item && item.category === "마루") {
+  if (!item) return item;
+  if (item.category === "마루") {
     const { materialType, displayLine } = getMaterialTypeAndLine(item);
     item.materialType = materialType;
     item.displayLine = displayLine;
   }
-  if (item && item.category === "장판") {
+  if (item.category === "장판") {
     item.thickness = getNormalizedThickness(item);
+  }
+  if (item.shape) {
+    item.shape = formatShapeOrPattern(item.shape);
+  }
+  if (item.line && (item.line.startsWith('.') || item.line.toLowerCase() === 'square' || item.line.toLowerCase() === 'wood')) {
+    item.line = formatShapeOrPattern(item.line);
+  }
+  if (item.pattern) {
+    item.pattern = formatShapeOrPattern(item.pattern);
   }
   return item;
 }

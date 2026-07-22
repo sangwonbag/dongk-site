@@ -5,7 +5,7 @@ import { useEstimateCart } from '../../contexts/EstimateCartContext';
 import { useAuth } from '../../contexts/AuthContext';
 import { getThumbnailImage } from '../../utils/galleryUtils';
 import { getMaterialImagePath } from '../../utils/materialImageResolver';
-import { getComputedBrand, getNormalizedThickness, formatFlooringProductName, getProductUnit } from '../../utils/brandUtils';
+import { getComputedBrand, getNormalizedThickness, formatFlooringProductName, getProductUnit, formatShapeOrPattern } from '../../utils/brandUtils';
 import { isDecoTile } from '../../utils/decotileUtils';
 import { Skeleton, ImagePlaceholder, ProductImage } from '../ui';
 import './MaterialCard.css';
@@ -298,12 +298,12 @@ const MaterialCard = ({ material }) => {
                     <div className="card-meta">
                         <div className="card-meta-item">
                             <span className="meta-label">제품군</span>
-                            <span className="meta-value">{material.line}</span>
+                            <span className="meta-value">{formatShapeOrPattern(material.line)}</span>
                         </div>
                         {material.pattern && (
                             <div className="card-meta-item">
                                 <span className="meta-label">패턴명</span>
-                                <span className="meta-value">{material.pattern}</span>
+                                <span className="meta-value">{formatShapeOrPattern(material.pattern)}</span>
                             </div>
                         )}
                         <div className="card-meta-item">
