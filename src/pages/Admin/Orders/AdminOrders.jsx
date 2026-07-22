@@ -29,7 +29,9 @@ import {
   Clock
 } from "lucide-react";
 import { formatFlooringProductName } from "../../../utils/brandUtils";
+import { isDecoTile } from "../../../utils/decotileUtils";
 import "./AdminOrders.css";
+
 
 // 헬퍼 함수: memo에서 희망배송일 및 시간 추출
 const extractDeliveryDateAndTime = (memo) => {
@@ -707,7 +709,9 @@ ${itemsDetailText}
                         <span>규격: {item.spec || "-"}</span>
                       </div>
                       <div className="item-price-calc">
-                        <span className="calc-unit">{item.unit_price?.toLocaleString()}원 × {item.quantity}{item.unit || "평"}</span>
+                        <span className="calc-unit">
+                          {item.unit_price?.toLocaleString()}원 × {isDecoTile(item) ? `${item.quantity}박스 (${item.quantity}평)` : `${item.quantity}${item.unit || "개"}`}
+                        </span>
                         <strong className="calc-total">
                           {((item.unit_price || 0) * (item.quantity || 0)).toLocaleString()}원
                         </strong>
@@ -735,10 +739,11 @@ ${itemsDetailText}
                   <div className="details-row highlight-green">
                     <span className="details-label">무료배송 조건</span>
                     <span className="details-val">
-                      동일 브랜드 데코타일 50평 이상 충족 (<strong>{order.free_shipping_brand || '기타'}</strong> 브랜드 합계 <strong>{order.free_shipping_area || 0}</strong>평)
+                      데코타일 50평(50박스) 이상 충족 (<strong>{order.free_shipping_brand || '데코타일'}</strong> 합계 <strong>{order.free_shipping_area || 0}</strong>박스/평)
                     </span>
                   </div>
                 )}
+
 
                 {order.delivery_method === "cargo" && (
                   <div className="details-row highlight-orange">

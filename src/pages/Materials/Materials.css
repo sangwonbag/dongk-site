@@ -481,3 +481,115 @@
   }
 }
 
+/* Mobile Filter Trigger & Search Row Wrap */
+.materials-search-row-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.mobile-filter-trigger-btn {
+  display: none;
+}
+
+.active-filter-chips-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.active-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: 14px;
+  background-color: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  color: #334155;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.chip-remove {
+  cursor: pointer;
+  color: #64748b;
+}
+
+.chip-remove:hover {
+  color: #0f172a;
+}
+
+.active-chips-reset-btn {
+  background: transparent;
+  border: none;
+  color: var(--danger, #c62828);
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+@media (max-width: 767.98px) {
+  .mobile-filter-trigger-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    height: 44px; /* Min 44px touch height */
+    padding: 0 14px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    background-color: #ffffff;
+    color: #334155;
+    font-size: 13.5px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    flex-shrink: 0;
+  }
+
+  .trigger-badge {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    background-color: #3a2a1e;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 800;
+    height: 16px;
+    min-width: 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4px;
+    border: 1.5px solid #ffffff;
+  }
+
+  /* Simplify inline filter panel on mobile (filters open in BottomSheet instead) */
+  .filter-panel {
+    display: none !important;
+  }
+
+  .materials-title {
+    font-size: 20px !important;
+    margin-bottom: 4px !important;
+  }
+
+  .materials-desc {
+    display: none !important; /* Hide long description on mobile to maximize card visibility */
+  }
+
+  .materials-page-header {
+    position: static !important;
+    border-bottom: none !important;
+    padding-bottom: 4px !important;
+  }
+}
+
+

@@ -7,6 +7,7 @@ import { Trash2, Plus, Minus, ArrowLeft, ShoppingBag } from "lucide-react";
 import { EmptyState } from "../../components/ui";
 import { formatFlooringProductName } from "../../utils/brandUtils";
 import { getProductPyeong, calculateDecorTilePyeong } from "../../utils/shippingUtils";
+import { isDecoTile } from "../../utils/decotileUtils";
 import "./Cart.css";
 
 export default function Cart() {
@@ -173,15 +174,14 @@ export default function Cart() {
                     const itemPacking = item.packing || item.specs?.packing || "1박스 단위";
                     const isRollOrM = item.category === "장판" || item.category === "벽지";
                     let itemQtyDesc = isRollOrM ? `${qty}M` : `${qty}박스 (약 ${qty}평 시공용)`;
-                     if (item.category === '데코타일') {
-                       const pyeong = getProductPyeong(item);
-                       const sqm = pyeong * 3.3058;
-                       itemQtyDesc = `${qty}박스 (약 ${pyeong.toFixed(2)}평 / ${sqm.toFixed(2)}㎡ 시공용)`;
-                     } else if (item.brand === '스완' && item.category === '카페트타일') {
-                       const pyeong = getProductPyeong(item);
-                       const sqm = qty * 4;
-                       itemQtyDesc = `${qty}박스 (약 ${pyeong.toFixed(2)}평 / ${sqm.toFixed(2)}㎡ 시공용)`;
-                     }
+                    if (isDecoTile(item)) {
+                      itemQtyDesc = `${qty}박스 (${qty}평)`;
+                    } else if (item.brand === '스완' && item.category === '카페트타일') {
+                      const pyeong = getProductPyeong(item);
+                      const sqm = qty * 4;
+                      itemQtyDesc = `${qty}박스 (약 ${pyeong.toFixed(2)}평 / ${sqm.toFixed(2)}㎡ 시공용)`;
+                    }
+
 
                     return (
                       <div key={item.id} className="cart-item-card">
@@ -311,17 +311,17 @@ export default function Cart() {
                     </div>
                     {/* 데코타일 무료배송 D-day 안내 */}
                     {(() => {
-                      const decotilePyeong = calculateDecorTilePyeong(cartItems);
-                      const hasDecotile = cartItems.some(item => item.category === "데코타일");
-                      const remaining = 50 - decotilePyeong;
+                      const decotileBoxes = calculateDecorTilePyeong(cartItems);
+                      const hasDecotile = cartItems.some(item => isDecoTile(item));
+                      const remaining = 50 - decotileBoxes;
                       return (
                         <div className="cart-decotile-shipping-banner">
-                          <span className="banner-title">데코타일 50평 이상 무료배송</span>
+                          <span className="banner-title">데코타일 50평(50박스) 이상 무료배송</span>
                           {hasDecotile ? (
-                            decotilePyeong >= 50 ? (
-                              <span className="banner-status success">50평 이상 무료배송이 적용되었습니다.</span>
+                            decotileBoxes >= 50 ? (
+                              <span className="banner-status success">50평(50박스) 이상 무료배송이 적용되었습니다.</span>
                             ) : (
-                              <span className="banner-status warning">무료배송까지 {remaining.toFixed(2)}평 남았습니다.</span>
+                              <span className="banner-status warning">무료배송까지 {remaining}박스({remaining}평) 남았습니다.</span>
                             )
                           ) : (
                             <span className="banner-status info">장바구니에 데코타일을 추가해 보세요.</span>
@@ -329,6 +329,7 @@ export default function Cart() {
                         </div>
                       );
                     })()}
+
                     <div className="summary-divider"></div>
                     <div className="summary-row-total">
                       <span>최종 예상금액</span>

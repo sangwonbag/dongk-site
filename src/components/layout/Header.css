@@ -18,6 +18,12 @@
     transition: var(--transition);
 }
 
+@media (max-width: 767.98px) {
+    .header-wrapper {
+        display: none !important;
+    }
+}
+
 .mall-header {
     height: 80px;
     display: flex;

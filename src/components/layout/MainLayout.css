@@ -1,5 +1,7 @@
 :root {
     --total-header-height: calc(var(--header-height, 80px) + var(--notice-height, 38px));
+    --mobile-header-height: 52px;
+    --mobile-bottom-nav-height: 58px;
 }
 
 .main-layout {
@@ -15,21 +17,36 @@
 }
 
 .main-content.home-main-content {
-    padding-top: 0; /* Homepage transparent overlay header has no top gap */
+    padding-top: 0; /* Homepage transparent overlay header has no top gap on Desktop */
 }
 
 .main-content.admin-main-content {
     padding-top: calc(env(safe-area-inset-top, 0px) + var(--total-header-height) + 40px); /* Secure ample spacing for admin actions */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
     .main-content {
-        padding-top: calc(env(safe-area-inset-top, 0px) + var(--total-header-height));
+        padding-top: calc(var(--mobile-header-height) + env(safe-area-inset-top, 0px));
+        padding-bottom: calc(var(--mobile-bottom-nav-height) + 16px + env(safe-area-inset-bottom, 0px));
     }
+
     .main-content.home-main-content {
-        padding-top: 0;
+        padding-top: calc(var(--mobile-header-height) + env(safe-area-inset-top, 0px));
     }
+
     .main-content.admin-main-content {
-        padding-top: calc(env(safe-area-inset-top, 0px) + var(--total-header-height) + 20px);
+        padding-top: calc(var(--mobile-header-height) + env(safe-area-inset-top, 0px) + 16px);
+        padding-bottom: calc(var(--mobile-bottom-nav-height) + 16px + env(safe-area-inset-bottom, 0px));
     }
-}
+
+    /* Position floating action buttons above bottom navigation bar */
+    .right-floating-box,
+    .floating-phone-btn,
+    .quick-inquiry-box {
+        bottom: calc(var(--mobile-bottom-nav-height) + 12px + env(safe-area-inset-bottom, 0px)) !important;
+    }
+
+    footer {
+        padding-bottom: calc(var(--mobile-bottom-nav-height) + 20px + env(safe-area-inset-bottom, 0px)) !important;
+    }
+}

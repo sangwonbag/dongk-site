@@ -6,8 +6,10 @@ import { useAuth } from '../../contexts/AuthContext';
 import { getThumbnailImage } from '../../utils/galleryUtils';
 import { getMaterialImagePath } from '../../utils/materialImageResolver';
 import { getComputedBrand, getNormalizedThickness, formatFlooringProductName, getProductUnit } from '../../utils/brandUtils';
+import { isDecoTile } from '../../utils/decotileUtils';
 import { Skeleton, ImagePlaceholder, ProductImage } from '../ui';
 import './MaterialCard.css';
+
 
 const isDirectPricingCategory = (product) => {
     if (!product) return false;
@@ -415,8 +417,9 @@ const MaterialCard = ({ material }) => {
                         )}
                     </div>
                     <span className="card-delivery-badge">
-                        {material.category === '장판' ? "m 단위 절단" : "50평 이상 무료배송"}
+                        {isDecoTile(material) ? "50평(50박스) 이상 무료배송" : (material.category === '장판' ? "m 단위 절단" : "전문 배송")}
                     </span>
+
                 </div>
 
                 {material.category === '부자재' && (

@@ -10,6 +10,7 @@ import { fetchAllProducts } from "../../utils/supabaseFetcher";
 import { formatFlooringProductName } from "../../utils/brandUtils";
 import { ImagePlaceholder } from "../../components/ui";
 import { getProductPyeong, calculateDecorTilePyeong } from "../../utils/shippingUtils";
+import { isDecoTile } from "../../utils/decotileUtils";
 import "./Checkout.css";
 
 const DELIVERY_TIME_OPTIONS = [
@@ -1048,18 +1049,19 @@ export default function Checkout() {
                     {freeShippingInfo.eligible ? (
                       <div className="free-shipping-badge-box">
                         <span className="badge-title">무료배송 적용</span>
-                        <span className="badge-text">데코타일 합계 {freeShippingInfo.eligibleArea.toFixed(2)}평</span>
+                        <span className="badge-text">데코타일 합계 {freeShippingInfo.eligibleArea}박스 ({freeShippingInfo.eligibleArea}평)</span>
                         <span className="badge-text text-address">배송지: {customer.address ? `${customer.address} ${customer.address_detail || ""}`.trim() : "배송지 주소 미입력"}</span>
                       </div>
                     ) : (
                       <span className="delivery-disabled-reason">
-                        {checkoutItems.some(item => item.category === "데코타일") ? (
-                          `* 선택 불가 (데코타일 50평 미만, 무료배송까지 ${(50 - decotilePyeong).toFixed(2)}평 남음)`
+                        {checkoutItems.some(item => isDecoTile(item)) ? (
+                          `* 선택 불가 (데코타일 50평 미만, 무료배송까지 ${50 - decotilePyeong}박스 남음)`
                         ) : (
                           "* 선택 불가 (데코타일 50평 이상 주문 시 적용)"
                         )}
                       </span>
                     )}
+
                   </div>
                 </div>
 

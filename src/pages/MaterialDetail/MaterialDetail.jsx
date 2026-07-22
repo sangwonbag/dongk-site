@@ -28,7 +28,9 @@ import { dongshinPolymer2026 } from "../../data/dongshinPolymer2026.js";
 import { imageManifest } from "../../data/materialImageManifest.generated";
 import { normalizeImagePath, getImageSrc, getUniqueProductImages } from "../../utils/galleryNormalizer";
 import { getProductPyeong } from "../../utils/shippingUtils";
+import { isDecoTile, DECOTILE_NOTICE_TEXT } from "../../utils/decotileUtils";
 import "./MaterialDetail.css";
+
 
 const normalizeText = (value = "") =>
   String(value).replace(/\s+/g, "").toLowerCase().trim();
@@ -1530,7 +1532,9 @@ export default function MaterialDetail() {
  
               {/* Quantity Counter & Action Buttons */}
               <div className="showroom-qty-selector">
-                <span className="qty-label">소요량 산정 ({getProductUnit(item)} 단위)</span>
+                <span className="qty-label">
+                  수량: {qty}박스 {isDecoTile(item) && <span style={{ color: 'var(--point-gold)', fontWeight: '700', marginLeft: '6px' }}>(주문 평수: {qty}평)</span>}
+                </span>
                 <div className="qty-counter-box">
                   <button onClick={() => setQty(Math.max(1, qty - 1))} className="qty-btn">-</button>
                   <input type="number" value={qty} onChange={(e) => setQty(Math.max(1, parseInt(e.target.value) || 1))} className="qty-input" />
@@ -1538,23 +1542,26 @@ export default function MaterialDetail() {
                 </div>
               </div>
 
-              {item.category === '데코타일' && (
+              {isDecoTile(item) && (
                 <div className="detail-decotile-shipping-notice-box" style={{
                   background: '#f8fafc',
-                  border: '1px solid #e2e8f0',
+                  border: '1px solid #cbd5e1',
                   borderRadius: 'var(--radius-md)',
                   padding: '12px 16px',
                   marginBottom: '16px',
                   fontSize: '13px'
                 }}>
-                  <div style={{ fontWeight: '800', color: 'var(--primary)', marginBottom: '4px' }}>🚚 데코타일 50평 이상 무료배송</div>
-                  {getProductPyeong({ ...item, quantity: qty }) >= 50 ? (
+                  <div style={{ fontWeight: '800', color: 'var(--primary)', marginBottom: '4px' }}>🚚 데코타일 50평(50박스) 이상 무료배송</div>
+                  <div style={{ fontSize: '12px', color: '#475569', marginBottom: '8px' }}>
+                    * {DECOTILE_NOTICE_TEXT}
+                  </div>
+                  {qty >= 50 ? (
                     <div style={{ color: '#059669', fontWeight: '700', backgroundColor: '#ecfdf5', padding: '4px 8px', borderRadius: '4px', width: 'fit-content' }}>
-                      50평 이상 무료배송이 적용되었습니다.
+                      50평(50박스) 이상 무료배송이 적용되었습니다.
                     </div>
                   ) : (
                     <div style={{ color: '#d97706', fontWeight: '700', backgroundColor: '#fff7ed', padding: '4px 8px', borderRadius: '4px', width: 'fit-content' }}>
-                      무료배송까지 {(50 - getProductPyeong({ ...item, quantity: qty })).toFixed(2)}평 남았습니다.
+                      무료배송까지 {50 - qty}박스({50 - qty}평) 남았습니다.
                     </div>
                   )}
                 </div>
@@ -1576,10 +1583,10 @@ export default function MaterialDetail() {
                     <strong>{qty} {getProductUnit(item)}</strong>
                   </div>
                   <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '6px' }}>
-                    <span style={{ color: 'var(--text-light-gray)' }}>총 시공면적:</span>
+                    <span style={{ color: 'var(--text-light-gray)' }}>주문 평수:</span>
                     <strong>
-                      {item.category === '데코타일' ? (
-                        `${(getProductPyeong({ ...item, quantity: qty }) * 3.3058).toFixed(2)}㎡ (약 ${getProductPyeong({ ...item, quantity: qty }).toFixed(2)}평)`
+                      {isDecoTile(item) ? (
+                        `${qty}평`
                       ) : item.category === '카페트타일' ? (
                         `${(qty * 4).toFixed(2)}㎡ (약 ${(qty * 1.21).toFixed(2)}평)`
                       ) : (
@@ -1587,6 +1594,12 @@ export default function MaterialDetail() {
                       )}
                     </strong>
                   </div>
+                  {isDecoTile(item) && (
+                    <div style={{ fontSize: '11.5px', color: '#64748b', marginTop: '2px', marginBottom: '6px' }}>
+                      * {DECOTILE_NOTICE_TEXT}
+                    </div>
+                  )}
+
                   {item.brand === '서울' && (item.line || '').includes('소폭') && (
                     <div style={{ color: 'var(--accent-showroom-green)', fontSize: '11px', margin: '4px 0', fontWeight: 'bold' }}>
                       * 10박스 이상 주문 시 ₩73,000원/박스로 자동 적용됩니다 (현재: {qty >= 10 ? '할인 적용됨' : '기본가 적용'}).

@@ -2,6 +2,8 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
+import MobileAppHeader from "./MobileAppHeader";
+import MobileBottomNavigation from "./MobileBottomNavigation";
 import FloatingPhoneButton from "../ui/FloatingPhoneButton";
 import RightFloatingBox from "../ui/RightFloatingBox";
 import AdminOrderNotifier from "../admin/AdminOrderNotifier";
@@ -16,14 +18,17 @@ export default function MainLayout({ children, className = "" }) {
     return (
         <div className="main-layout">
             <ScrollRevealMenu />
+            <MobileAppHeader />
             <Header />
             <main className={`main-content ${isHome ? "home-main-content" : ""} ${isAdminRoute ? "admin-main-content" : ""} ${className}`}>
                 {children}
             </main>
             <Footer />
+            <MobileBottomNavigation />
             <FloatingPhoneButton />
             <RightFloatingBox />
             <AdminOrderNotifier />
         </div>
     );
 }
+

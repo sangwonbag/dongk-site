@@ -3,7 +3,9 @@ import { useLocation, useNavigate } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { KAKAO_CHAT_URL } from "../../constants/contact";
 import { CheckCircle2 } from "lucide-react";
+import { isDecoTile } from "../../utils/decotileUtils";
 import "./OrderComplete.css";
+
 
 export default function OrderComplete() {
   const location = useLocation();
@@ -168,14 +170,18 @@ export default function OrderComplete() {
                         <span className="item-row-brand">{item.brand}</span>
                         <h4 className="item-row-name">{item.product_name}</h4>
                         {item.spec && <p className="item-row-spec">규격: {item.spec}</p>}
-                        
                         <div className="item-row-pricing">
-                          <span className="item-row-qty">{item.quantity} {item.unit || "평"}</span>
+                          <span className="item-row-qty">
+                            {isDecoTile(item) 
+                              ? `${item.quantity}박스 (${item.quantity}평)` 
+                              : `${item.quantity} ${item.unit || "개"}`}
+                          </span>
                           <span className="item-row-price-unit">(@ {item.unit_price?.toLocaleString()}원)</span>
                           <strong className="item-row-total">{(item.unit_price * item.quantity)?.toLocaleString()}원</strong>
                         </div>
                       </div>
                     </div>
+
                   ))}
                 </div>
               </div>

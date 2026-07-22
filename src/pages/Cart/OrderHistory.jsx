@@ -6,7 +6,9 @@ import { getMyOrders } from "../../services/orderService";
 import { ChevronDown, ChevronUp, Package, Calendar, CreditCard, ClipboardList } from "lucide-react";
 import { LoadingSpinner, ErrorState, EmptyState } from "../../components/ui";
 import { formatFlooringProductName } from "../../utils/brandUtils";
+import { isDecoTile } from "../../utils/decotileUtils";
 import "./OrderHistory.css";
+
 
 export default function OrderHistory() {
   const navigate = useNavigate();
@@ -261,8 +263,9 @@ export default function OrderHistory() {
                                   </div>
                                 </div>
                                 <div className="item-qty-cell text-right">
-                                  {item.quantity}{item.category === '장판' ? 'm' : (item.unit || "평")}
+                                  {isDecoTile(item) ? `${item.quantity}박스 (${item.quantity}평)` : `${item.quantity}${item.category === '장판' ? 'm' : (item.unit || "개")}`}
                                 </div>
+
                                 <div className="item-price-cell text-right">
                                   {hasPrice ? `${item.unit_price?.toLocaleString()}원${item.category === '장판' ? '/m' : ''}` : "상담 필요"}
                                 </div>

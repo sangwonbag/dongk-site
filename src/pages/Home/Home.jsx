@@ -22,10 +22,122 @@ import {
   Users,
   MapPin,
   Clock,
-  Mail
+  Mail,
+  Search,
+  Layers,
+  Wrench,
+  Sparkles
 } from "lucide-react";
 import "./Home.css";
 import BrandLogosCarousel from "../../components/home/BrandLogosCarousel";
+
+// Mobile App Home View
+const MobileHomeView = ({ nav, featuredItems, loading }) => {
+  return (
+    <div className="mobile-home-view">
+      {/* 1. Top Search Bar */}
+      <div className="mobile-home-search-section">
+        <div className="mobile-home-search-bar" onClick={() => nav("/materials")}>
+          <Search size={18} className="search-icon" />
+          <span className="search-placeholder">상품명 또는 상품코드를 검색하세요</span>
+        </div>
+      </div>
+
+      {/* 2. Category 4-Col Icon Grid */}
+      <section className="mobile-app-category-section">
+        <div className="mobile-app-category-grid">
+          <Link to="/materials?category=데코타일" className="mobile-cat-icon-card">
+            <div className="cat-icon-box bg-tile">🔳</div>
+            <span className="cat-label">데코타일</span>
+          </Link>
+          <Link to="/materials?category=장판" className="mobile-cat-icon-card">
+            <div className="cat-icon-box bg-jangpan">📜</div>
+            <span className="cat-label">장판</span>
+          </Link>
+          <Link to="/materials?category=마루" className="mobile-cat-icon-card">
+            <div className="cat-icon-box bg-maru">🪵</div>
+            <span className="cat-label">마루</span>
+          </Link>
+          <Link to="/materials?category=벽지" className="mobile-cat-icon-card">
+            <div className="cat-icon-box bg-wallpaper">🎨</div>
+            <span className="cat-label">벽지</span>
+          </Link>
+          <Link to="/materials?category=카페트타일" className="mobile-cat-icon-card">
+            <div className="cat-icon-box bg-carpet">🟩</div>
+            <span className="cat-label">카페트타일</span>
+          </Link>
+          <Link to="/materials?category=부자재" className="mobile-cat-icon-card">
+            <div className="cat-icon-box bg-sub">🧪</div>
+            <span className="cat-label">부자재</span>
+          </Link>
+          <Link to="/samplebooks" className="mobile-cat-icon-card">
+            <div className="cat-icon-box bg-sample">📖</div>
+            <span className="cat-label">샘플북</span>
+          </Link>
+          <Link to="/cases" className="mobile-cat-icon-card">
+            <div className="cat-icon-box bg-cases">🏢</div>
+            <span className="cat-label">시공사례</span>
+          </Link>
+        </div>
+      </section>
+
+      {/* 3. Core Banners */}
+      <section className="mobile-home-banners-section">
+        <div className="mobile-banners-carousel">
+          <div className="mobile-banner-card banner-experience">
+            <span className="banner-badge">20년+ 노하우</span>
+            <h3>20년 이상 전문 시공 경험</h3>
+            <p>자재 이해와 현장 노하우로 정확하게 추천해 드립니다.</p>
+          </div>
+          <div className="mobile-banner-card banner-shipping">
+            <span className="banner-badge badge-gold">데코타일 혜택</span>
+            <h3>데코타일 50평 이상 무료배송</h3>
+            <p>동일 브랜드 데코타일 50평 주문 시 화물지점/배송 혜택</p>
+          </div>
+          <div className="mobile-banner-card banner-consult">
+            <span className="banner-badge">맞춤 서비스</span>
+            <h3>자재 판매 & 전문 시공 상담</h3>
+            <p>자재 구매부터 전문 시공 연계까지 원스톱 지원</p>
+          </div>
+        </div>
+      </section>
+
+      {/* 4. Recommended Materials */}
+      <section className="mobile-home-products-section">
+        <div className="mobile-section-header">
+          <h2>추천 자재</h2>
+          <Link to="/materials" className="link-more">전체보기 <ChevronRight size={16} /></Link>
+        </div>
+        <div className="mobile-product-grid">
+          {loading ? (
+            Array.from({ length: 4 }).map((_, i) => <SkeletonCard key={i} />)
+          ) : (
+            featuredItems.slice(0, 6).map((mat, idx) => (
+              <FeaturedCard key={mat.id || idx} mat={mat} idx={idx} />
+            ))
+          )}
+        </div>
+      </section>
+
+      {/* 5. Estimate Banner CTA */}
+      <section className="mobile-home-cta-card">
+        <h3>공간에 딱 맞는 자재 견적이 필요하신가요?</h3>
+        <p>평수와 조건을 선택하면 1분 만에 자동견적을 산출해 드립니다.</p>
+        <button className="btn-mobile-cta" onClick={() => nav("/estimate/request")}>
+          자동견적 바로가기
+        </button>
+      </section>
+
+      {/* 6. Brand Carousel Section */}
+      <section className="mobile-home-brand-section">
+        <div className="mobile-section-header">
+          <h2>주요 취급 브랜드</h2>
+        </div>
+        <BrandLogosCarousel />
+      </section>
+    </div>
+  );
+};
 
 // Dynamic featured material card component with asynchronous thumbnail resolver
 const FeaturedCard = ({ mat, idx }) => {
@@ -536,6 +648,10 @@ export default function Home() {
     <MainLayout>
       <div className="showroom-home-layout redesign-premium-theme">
         
+        {/* Mobile App Home View */}
+        <MobileHomeView nav={nav} featuredItems={featuredItems} loading={featuredItems.length === 0} />
+
+
         {/* 1. 히어로 섹션 */}
         <section className="showroom-hero-redesign">
           <div className="hero-redesign-bg-wrapper">

@@ -6,6 +6,8 @@ import { getSearchScore } from "../../utils/searchUtils";
 import MaterialCard from "../../components/material/MaterialCard";
 import { fetchFilteredProducts, fetchAllProducts } from "../../utils/supabaseFetcher";
 import { Skeleton, EmptyState, ErrorState } from "../../components/ui";
+import MobileFilterSheet from "../../components/material/MobileFilterSheet";
+import { SlidersHorizontal, X } from "lucide-react";
 import "./Materials.css";
 import "./MaterialsPageSkeleton.css";
 
@@ -111,6 +113,29 @@ export default function Materials() {
 
   // Local input state for the search bar (for responsiveness while typing)
   const [searchInput, setSearchInput] = useState(searchText);
+
+  // Mobile Filter Sheet State
+  const [isFilterSheetOpen, setIsFilterSheetOpen] = useState(false);
+
+  // Active filter count
+  const activeFilterCount = useMemo(() => {
+    let count = 0;
+    if (activeBrand !== "all" && activeBrand !== "KCC") count++;
+    if (activeThickness !== "all") count++;
+    if (activeShape !== "all") count++;
+    if (activeLine !== "all") count++;
+    if (nameFilter.trim()) count++;
+    if (codeFilter.trim()) count++;
+    if (specFilter.trim()) count++;
+    return count;
+  }, [activeBrand, activeThickness, activeShape, activeLine, nameFilter, codeFilter, specFilter]);
+
+  const handleResetFilters = () => {
+    updateParams({ brand: "all", type: null, line: null, shape: null, thickness: null });
+    setNameFilter("");
+    setCodeFilter("");
+    setSpecFilter("");
+  };
 
   // Pagination state (Optimized default to 24 for faster render)
   const [visibleCount, setVisibleCount] = useState(24);
@@ -536,21 +561,82 @@ export default function Materials() {
                 동경바닥재가 엄선한 국내 주요 제조사(KCC, 동신, LX 등)의 자재를 상품명 및 자재 코드별로 조회하여 바로 발주하거나 견적을 요청할 수 있습니다.
               </p>
             </div>
-            {/* Search Box on the Page */}
-            <div className="materials-search-box">
-              <input
-                type="text"
-                placeholder="통합 검색 (제품번호, 자재명 등)..."
-                value={searchInput}
-                onChange={(e) => setSearchInput(e.target.value)}
-                className="materials-search-input-field"
-              />
-              {searchInput && (
-                <button className="search-clear-btn" onClick={() => setSearchInput("")}>
-                  &times;
-                </button>
-              )}
+            {/* Search Box on the Page & Mobile Filter Trigger */}
+            <div className="materials-search-row-wrap">
+              <div className="materials-search-box">
+                <input
+                  type="text"
+                  placeholder="통합 검색 (제품번호, 자재명 등)..."
+                  value={searchInput}
+                  onChange={(e) => setSearchInput(e.target.value)}
+                  className="materials-search-input-field"
+                />
+                {searchInput && (
+                  <button className="search-clear-btn" onClick={() => setSearchInput("")}>
+                    &times;
+                  </button>
+                )}
+              </div>
+              <button 
+                className="mobile-filter-trigger-btn"
+                onClick={() => setIsFilterSheetOpen(true)}
+              >
+                <SlidersHorizontal size={18} />
+                <span>필터</span>
+                {activeFilterCount > 0 && <span className="trigger-badge">{activeFilterCount}</span>}
+              </button>
             </div>
+
+            {/* Active Filter Chips Bar (Mobile / Desktop) */}
+            {activeFilterCount > 0 && (
+              <div className="active-filter-chips-bar">
+                {activeBrand !== "all" && (
+                  <span className="active-chip">
+                    브랜드: {activeBrand}
+                    <X size={14} className="chip-remove" onClick={() => setActiveBrand("all")} />
+                  </span>
+                )}
+                {activeThickness !== "all" && (
+                  <span className="active-chip">
+                    두께: {activeThickness}
+                    <X size={14} className="chip-remove" onClick={() => updateParams({ thickness: null })} />
+                  </span>
+                )}
+                {activeShape !== "all" && (
+                  <span className="active-chip">
+                    형태: {activeShape}
+                    <X size={14} className="chip-remove" onClick={() => updateParams({ shape: null })} />
+                  </span>
+                )}
+                {activeLine !== "all" && (
+                  <span className="active-chip">
+                    라인업: {activeLine}
+                    <X size={14} className="chip-remove" onClick={() => updateParams({ line: null })} />
+                  </span>
+                )}
+                {nameFilter.trim() && (
+                  <span className="active-chip">
+                    제품명: {nameFilter}
+                    <X size={14} className="chip-remove" onClick={() => setNameFilter("")} />
+                  </span>
+                )}
+                {codeFilter.trim() && (
+                  <span className="active-chip">
+                    코드: {codeFilter}
+                    <X size={14} className="chip-remove" onClick={() => setCodeFilter("")} />
+                  </span>
+                )}
+                {specFilter.trim() && (
+                  <span className="active-chip">
+                    규격: {specFilter}
+                    <X size={14} className="chip-remove" onClick={() => setSpecFilter("")} />
+                  </span>
+                )}
+                <button className="active-chips-reset-btn" onClick={handleResetFilters}>
+                  전체 삭제
+                </button>
+              </div>
+            )}
           </div>
           
           {/* ✅ 2. Filter Panel */}
@@ -767,6 +853,36 @@ export default function Materials() {
           </div>
         </main>
       </div>
+
+      {/* Mobile Filter Sheet Modal */}
+      <MobileFilterSheet
+        isOpen={isFilterSheetOpen}
+        onClose={() => setIsFilterSheetOpen(false)}
+        categories={CATEGORIES}
+        activeTab={activeTab}
+        onCategoryChange={handleCategoryChange}
+        visibleBrands={visibleBrands}
+        activeBrand={activeBrand}
+        onBrandChange={setActiveBrand}
+        visibleThicknesses={visibleThicknesses}
+        activeThickness={activeThickness}
+        onThicknessChange={(t) => updateParams({ thickness: t })}
+        visibleShapes={visibleShapes}
+        activeShape={activeShape}
+        onShapeChange={setActiveShape}
+        visibleLines={visibleLines}
+        activeLine={activeLine}
+        onLineChange={setActiveLine}
+        nameFilter={nameFilter}
+        setNameFilter={setNameFilter}
+        codeFilter={codeFilter}
+        setCodeFilter={setCodeFilter}
+        specFilter={specFilter}
+        setSpecFilter={setSpecFilter}
+        totalCount={filtered.length}
+        onResetFilters={handleResetFilters}
+      />
     </MainLayout>
   );
 }
+

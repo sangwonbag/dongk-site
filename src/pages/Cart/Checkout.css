@@ -548,11 +548,15 @@
   }
   
   .form-group-checkout input,
-  .form-group-checkout textarea {
-    height: 44px;
-    padding: 10px;
+  .form-group-checkout textarea,
+  .form-group-checkout select {
+    height: 48px;
+    padding: 12px 14px;
+    font-size: 16px !important; /* Prevents iOS Safari auto-zoom */
+    border-radius: 8px;
   }
 }
+
 
 /* ==========================================
    Kakao Postcode Address Search

@@ -1,0 +1,107 @@
+/* Mobile App Header Styling */
+.mobile-app-header {
+  display: none;
+}
+
+@media (max-width: 767.98px) {
+  .mobile-app-header {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(52px + env(safe-area-inset-top, 0px));
+    padding-top: env(safe-area-inset-top, 0px);
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    z-index: 1000;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  }
+
+  .mobile-app-header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 52px;
+    padding: 0 12px;
+  }
+
+  .mobile-header-left,
+  .mobile-header-right {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    min-width: 80px;
+  }
+
+  .mobile-header-right {
+    justify-content: flex-end;
+  }
+
+  .mobile-header-center {
+    flex: 1;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .mobile-header-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--primary, #1a1a1a);
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .mobile-header-logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .mobile-header-logo .logo-main {
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: -0.5px;
+    color: var(--primary, #1a1a1a);
+  }
+
+  .mobile-icon-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background: transparent;
+    border: none;
+    color: #333333;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    padding: 0;
+    transition: background-color 0.15s ease;
+  }
+
+  .mobile-icon-btn:active {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  .mobile-cart-badge {
+    position: absolute;
+    top: 6px;
+    right: 4px;
+    background-color: var(--danger, #c62828);
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 800;
+    height: 16px;
+    min-width: 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4px;
+    border: 1.5px solid #ffffff;
+    line-height: 1;
+  }
+}
