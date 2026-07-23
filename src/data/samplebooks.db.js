@@ -188,6 +188,37 @@ export const sampleBooks = [
         description: "녹수 프라임 1500 데코타일 샘플북"
     },
 
+    // 유성 (데코타일)
+    {
+        id: "yuseong-fineo-deluxe",
+        title: "유성 피네오 디럭스타일",
+        brand: "유성",
+        category: "데코타일",
+        cover: "/samplebooks/데코타일/유성/유성_피네오 디럭스타일/0.jpg",
+        pages: Array.from({ length: 4 }, (_, i) => `/samplebooks/데코타일/유성/유성_피네오 디럭스타일/${i}.jpg`),
+        description: "유성 피네오 디럭스타일 데코타일 샘플북",
+        isRecommended: true
+    },
+    {
+        id: "yuseong-fineo-unique",
+        title: "유성 피네오 유니크타일",
+        brand: "유성",
+        category: "데코타일",
+        cover: "/samplebooks/데코타일/유성/유성_피네오 유니크타일/0.jpg",
+        pages: Array.from({ length: 27 }, (_, i) => `/samplebooks/데코타일/유성/유성_피네오 유니크타일/${i}.jpg`),
+        description: "유성 피네오 유니크타일 데코타일 샘플북",
+        isRecommended: true
+    },
+    {
+        id: "yuseong-pione-modern2",
+        title: "유성 피오네 모던2",
+        brand: "유성",
+        category: "데코타일",
+        cover: "/samplebooks/데코타일/유성/유성_피오네 모던2/0.jpg",
+        pages: Array.from({ length: 48 }, (_, i) => `/samplebooks/데코타일/유성/유성_피오네 모던2/${i}.jpg`),
+        description: "유성 피오네 모던2 데코타일 샘플북"
+    },
+
     // 현대
     {
         id: "hyundai-goldtile-classic",

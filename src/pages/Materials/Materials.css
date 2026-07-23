@@ -265,7 +265,7 @@
   min-width: 0;
 }
 
-/* Section A. Sticky Area (Title ~ Shape Filter) */
+/* Section A. Filter & Header Area (Title ~ Shape Filter) */
 .materials-sticky-area {
   display: block;
   width: 100%;
@@ -275,25 +275,22 @@
   box-sizing: border-box;
   height: auto;
   min-height: 0;
+  position: relative;
 }
 
 @media (min-width: 1024px) {
   .materials-sticky-area {
-    position: sticky;
-    top: calc(env(safe-area-inset-top, 0px) + var(--total-header-height, 72px));
-    z-index: 30;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+    position: relative;
+    box-shadow: none;
     border-bottom: 1px solid var(--border);
-    padding: 12px 16px 10px;
-    margin-bottom: 8px;
-    border-radius: 0 0 var(--radius-md) var(--radius-md);
+    padding: 12px 0 10px;
+    margin-bottom: 16px;
   }
 }
 
 @media (max-width: 1023px) {
   .materials-sticky-area {
-    position: static;
-    top: auto;
+    position: relative;
     box-shadow: none;
     border-bottom: none;
     padding: 0;

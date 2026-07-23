@@ -241,8 +241,15 @@ export default function Cart() {
                             <input 
                               type="number"
                               className="qty-input"
+                              min="1"
                               value={qty}
-                              onChange={(e) => updateQuantity(item.id, Math.max(1, parseInt(e.target.value) || 1))}
+                              onChange={(e) => updateQuantity(item.id, e.target.value === "" ? "" : Math.max(1, parseInt(e.target.value, 10) || 1))}
+                              onBlur={(e) => {
+                                const val = parseInt(e.target.value, 10);
+                                if (isNaN(val) || val < 1) {
+                                  updateQuantity(item.id, 1);
+                                }
+                              }}
                             />
                             <button 
                               type="button" 

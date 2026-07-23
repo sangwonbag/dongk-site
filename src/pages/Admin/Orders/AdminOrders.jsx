@@ -824,7 +824,7 @@ ${itemsDetailText}
               <div className="payment-summary-box">
                 <div className="payment-row">
                   <span className="pay-label">결제 방식</span>
-                  <span className="pay-value">{order.payment_method || "무통장입금"}</span>
+                  <span className="pay-value">{order.payment_method || "계좌이체"}</span>
                 </div>
                 <div className="payment-row">
                   <span className="pay-label">결제 상태</span>

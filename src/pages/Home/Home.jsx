@@ -702,7 +702,7 @@ export default function Home() {
               </div>
               <div className="trust-redesign-card">
                 <div className="trust-card-icon-box">🚚</div>
-                <h3>50평 이상 무료배송</h3>
+                <h3>데코타일 50평 이상 무료배송</h3>
                 <p>동일 브랜드 데코타일 50평 이상 주문 시 배송 조건에 따라 무료배송이 가능합니다.</p>
                 <span className="trust-card-note">* 브랜드, 수량, 지역 및 배송조건에 따라 달라질 수 있음</span>
               </div>

@@ -12,7 +12,7 @@ export default function MainInfoBanner() {
                 <span className="mib-badge">배송 안내</span>
                 <h2 className="mib-title">KCC · 동신 배송 및 견적 안내</h2>
                 <p className="mib-desc">
-                    KCC 50평 이상 무료배송<br className="mobile-br" />
+                    KCC 데코타일 50평 이상 무료배송<br className="mobile-br" />
                     KCC · 동신 제품 대량 구매 시 배송 가능
                 </p>
             </div>

@@ -114,9 +114,29 @@ export default async function handler(req, res) {
         주문이 정상 접수되었습니다. 입금 확인 후 담당자가 순차적으로 확인하여 연락드리겠습니다.
       </div>
       
-      <!-- 무통장 입금 안내 -->
+      <!-- 결제 수단별 안내 -->
+      ${payment_method === '동경바닥재 방문결제' || payment_method === 'store_payment' ? `
       <div style="background-color: #FFF3E0; border: 1px solid #FFE0B2; padding: 16px; border-radius: 8px; margin-bottom: 24px;">
-        <h4 style="margin: 0 0 8px 0; color: #E65100; font-size: 14px; font-weight: 800;">무통장 입금 계좌 안내</h4>
+        <h4 style="margin: 0 0 8px 0; color: #E65100; font-size: 14px; font-weight: 800;">동경바닥재 방문결제 안내</h4>
+        <table style="width: 100%; border-collapse: collapse; font-size: 13.5px; line-height: 1.5;">
+          <tr>
+            <td style="color: #78909C; width: 80px; padding: 4px 0;">방문주소</td>
+            <td style="color: #141615; font-weight: bold; padding: 4px 0;">경기 하남시 서하남로 37 (동경바닥재)</td>
+          </tr>
+          <tr>
+            <td style="color: #78909C; padding: 4px 0;">운영시간</td>
+            <td style="color: #0A4C37; font-weight: bold; padding: 4px 0;">평일 07:00 ~ 18:00 / 주말 07:00 ~ 12:00</td>
+          </tr>
+          <tr>
+            <td style="color: #78909C; padding: 4px 0;">문의전화</td>
+            <td style="color: #141615; font-weight: bold; padding: 4px 0;">02-487-9775</td>
+          </tr>
+        </table>
+        <p style="font-size: 12px; color: #E65100; margin: 8px 0 0 0; font-weight: bold;">• 방문 전 상품 재고와 준비 여부를 반드시 확인해 주세요.</p>
+      </div>
+      ` : `
+      <div style="background-color: #FFF3E0; border: 1px solid #FFE0B2; padding: 16px; border-radius: 8px; margin-bottom: 24px;">
+        <h4 style="margin: 0 0 8px 0; color: #E65100; font-size: 14px; font-weight: 800;">계좌이체 안내</h4>
         <table style="width: 100%; border-collapse: collapse; font-size: 13.5px; line-height: 1.5;">
           <tr>
             <td style="color: #78909C; width: 80px; padding: 4px 0;">은행명</td>
@@ -131,7 +151,9 @@ export default async function handler(req, res) {
             <td style="color: #141615; font-weight: bold; padding: 4px 0;">(주) 동경바닥재</td>
           </tr>
         </table>
+        <p style="font-size: 12px; color: #E65100; margin: 8px 0 0 0; font-weight: bold;">• 주문 접수 후 입금 확인이 완료되면 상품 준비가 시작됩니다.</p>
       </div>
+      `}
     `;
     ctaHtml = `
       <a href="https://dk-floor.vercel.app/mypage" target="_blank" style="display: inline-block; background-color: #0A4C37; color: #ffffff; text-decoration: none; padding: 12px 28px; border-radius: 8px; font-size: 14.5px; font-weight: 700; box-shadow: 0 4px 10px rgba(10, 76, 55, 0.15);">
@@ -190,7 +212,7 @@ export default async function handler(req, res) {
             </tr>` : ''}
             <tr>
               <th style="text-align: left; color: #78909C; font-size: 13px; font-weight: 700; padding: 6px 0; border: none;">결제 방식</th>
-              <td style="color: #141615; font-size: 14px; padding: 6px 0; border: none;">${payment_method || '무통장입금'}</td>
+              <td style="color: #141615; font-size: 14px; padding: 6px 0; border: none;">${payment_method || '계좌이체'}</td>
             </tr>
             <tr>
               <th style="text-align: left; color: #78909C; font-size: 13px; font-weight: 700; padding: 6px 0; border: none;">주문 상태</th>

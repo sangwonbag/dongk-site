@@ -52,7 +52,7 @@ export default function Checkout() {
     memo: "",
   });
 
-  const [paymentMethod, setPaymentMethod] = useState("무통장입금"); // 무통장입금 | 전화확인
+  const [paymentMethod, setPaymentMethod] = useState("계좌이체"); // 계좌이체 | 동경바닥재 방문결제
   const [hasElevator, setHasElevator] = useState("yes"); // yes | no
   const [needCarry, setNeedCarry] = useState("no"); // yes | no
   const [loading, setLoading] = useState(false);
@@ -1092,7 +1092,7 @@ export default function Checkout() {
                     <strong>대신화물 지점 배송</strong>
                   </div>
                   <div className="delivery-card-body">
-                    <div className="delivery-card-desc">데코타일 50평 미만 주문 시 기본 배송 방식입니다. 인근 대신화물 지점에서 수령합니다.</div>
+                    <div className="delivery-card-desc">기본 배송 방식입니다. 인근 대신화물 지점에서 수령합니다.</div>
                     <div className="delivery-info-item">
                       <span className="info-label">수령 방식:</span>
                       <span className="info-val">대신화물 지점 직접 내방 수령</span>
@@ -1218,31 +1218,31 @@ export default function Checkout() {
             <div className="checkout-card">
               <h3>5. 결제 방식 선택</h3>
               <div className="payment-method-selector">
-                <label className={`payment-option ${paymentMethod === "무통장입금" ? "active" : ""}`}>
+                <label className={`payment-option ${(paymentMethod === "계좌이체" || paymentMethod === "bank_transfer") ? "active" : ""}`}>
                   <input
                     type="radio"
                     name="payment_method"
-                    value="무통장입금"
-                    checked={paymentMethod === "무통장입금"}
-                    onChange={() => setPaymentMethod("무통장입금")}
+                    value="계좌이체"
+                    checked={paymentMethod === "계좌이체" || paymentMethod === "bank_transfer"}
+                    onChange={() => setPaymentMethod("계좌이체")}
                   />
                   <div className="payment-option-desc">
-                    <strong>무통장입금</strong>
-                    <span>주문 완료 후 아래 계좌로 입금해 주세요. (가장 빠른 접수 가능)</span>
+                    <strong>계좌이체</strong>
+                    <span>주문 접수 후 무통장 입금 계좌로 입금하는 방식입니다.</span>
                   </div>
                 </label>
 
-                <label className={`payment-option ${paymentMethod === "전화확인" ? "active" : ""}`}>
+                <label className={`payment-option ${(paymentMethod === "동경바닥재 방문결제" || paymentMethod === "store_payment") ? "active" : ""}`}>
                   <input
                     type="radio"
                     name="payment_method"
-                    value="전화확인"
-                    checked={paymentMethod === "전화확인"}
-                    onChange={() => setPaymentMethod("전화확인")}
+                    value="동경바닥재 방문결제"
+                    checked={paymentMethod === "동경바닥재 방문결제" || paymentMethod === "store_payment"}
+                    onChange={() => setPaymentMethod("동경바닥재 방문결제")}
                   />
                   <div className="payment-option-desc">
-                    <strong>전화확인 주문</strong>
-                    <span>상담 전화 통화 후 결제 및 배송을 안내해 드립니다.</span>
+                    <strong>동경바닥재 방문결제</strong>
+                    <span>동경바닥재 본사/매장에 직접 방문하여 결제하는 방식입니다.</span>
                   </div>
                 </label>
               </div>
@@ -1283,14 +1283,14 @@ export default function Checkout() {
                 <p className="vat-notice">* 배송비 및 부가세는 별도로 안내됩니다.</p>
               </div>
 
-              {/* 무통장 입금 안내 카드박스 */}
-              {paymentMethod === "무통장입금" && (
+              {/* 결제 수단별 상세 안내 카드박스 */}
+              {(paymentMethod === "계좌이체" || paymentMethod === "bank_transfer" || !paymentMethod) && (
                 <div className="checkout-bank-transfer-box">
-                  <strong>💳 무통장 입금 정보</strong>
+                  <strong>💳 계좌이체 안내</strong>
                   <div className="bank-info-grid">
                     <div className="bank-info-row">
                       <span className="bank-info-label">은행명</span>
-                      <span className="bank-info-val">농협은행</span>
+                      <span className="bank-info-val">NH농협은행</span>
                     </div>
                     <div className="bank-info-row">
                       <span className="bank-info-label">계좌번호</span>
@@ -1298,11 +1298,36 @@ export default function Checkout() {
                     </div>
                     <div className="bank-info-row">
                       <span className="bank-info-label">예금주</span>
-                      <span className="bank-info-val">동경바닥재</span>
+                      <span className="bank-info-val">(주)동경바닥재</span>
                     </div>
                   </div>
-                  <div className="bank-guideline">
-                    • 입금 완료 시점 기준으로 주문 접수가 최종 처리되며, 담당자가 화물 지점 및 운임 통화를 즉시 연결합니다.
+                  <div className="bank-guideline" style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                    <p style={{ margin: 0 }}>• 주문 접수 후 입금 확인이 완료되면 상품 준비가 시작됩니다.</p>
+                    <p style={{ margin: 0 }}>• 입금자명과 주문자명이 다를 경우 주문 요청사항에 입금자명을 작성해 주세요.</p>
+                  </div>
+                </div>
+              )}
+
+              {(paymentMethod === "동경바닥재 방문결제" || paymentMethod === "store_payment") && (
+                <div className="checkout-bank-transfer-box store-payment-notice">
+                  <strong>🏬 동경바닥재 방문결제 안내</strong>
+                  <div className="bank-info-grid">
+                    <div className="bank-info-row">
+                      <span className="bank-info-label">방문주소</span>
+                      <span className="bank-info-val">경기 하남시 서하남로 37 (동경바닥재)</span>
+                    </div>
+                    <div className="bank-info-row">
+                      <span className="bank-info-label">운영시간</span>
+                      <span className="bank-info-val">평일 07:00 ~ 18:00 / 주말 07:00 ~ 12:00</span>
+                    </div>
+                    <div className="bank-info-row">
+                      <span className="bank-info-label">문의전화</span>
+                      <span className="bank-info-val">02-487-9775</span>
+                    </div>
+                  </div>
+                  <div className="bank-guideline" style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                    <p style={{ margin: 0 }}>• 동경바닥재 본사/매장에 직접 방문하여 결제하는 방식입니다.</p>
+                    <p style={{ margin: 0 }}>• 방문 전 상품 재고와 준비 여부를 반드시 확인해 주세요.</p>
                   </div>
                 </div>
               )}

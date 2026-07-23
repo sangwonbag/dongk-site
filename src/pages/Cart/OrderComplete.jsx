@@ -246,7 +246,7 @@ export default function OrderComplete() {
                 </div>
                 <div className="details-row">
                   <span className="details-lbl">결제 수단</span>
-                  <span className="details-val">무통장 입금</span>
+                  <span className="details-val">{order.payment_method || "계좌이체"}</span>
                 </div>
                 <div className="details-row">
                   <span className="details-lbl">결제 상태</span>
@@ -256,19 +256,34 @@ export default function OrderComplete() {
                 </div>
               </div>
 
-              {/* Bank Account Guidelines */}
-              <div className="order-complete-bank-box">
-                <h4 className="bank-box-title">무통장 입금 계좌 안내</h4>
-                <div className="bank-account-details">
-                  <p className="bank-name">NH농협은행</p>
-                  <p className="bank-number">301-0298-9197-81</p>
-                  <p className="bank-holder">예금주: 동경바닥재</p>
+              {/* 결제 수단 안내 박스 */}
+              {order.payment_method === '동경바닥재 방문결제' || order.payment_method === 'store_payment' ? (
+                <div className="order-complete-bank-box store-box">
+                  <h4 className="bank-box-title">동경바닥재 방문결제 안내</h4>
+                  <div className="bank-account-details">
+                    <p className="bank-name">방문주소: 경기 하남시 서하남로 37 (동경바닥재)</p>
+                    <p className="bank-number">운영시간: 평일 07:00 ~ 18:00 / 주말 07:00 ~ 12:00</p>
+                    <p className="bank-holder">문의전화: 02-487-9775</p>
+                  </div>
+                  <div className="bank-box-notice" style={{ marginTop: '10px', display: 'flex', flexDirection: 'column', gap: '4px', fontSize: '11.5px', color: 'var(--text-muted)' }}>
+                    <span>* 동경바닥재 본사/매장에 직접 방문하여 결제하는 방식입니다.</span>
+                    <span style={{ color: 'var(--point-gold)', fontWeight: '600' }}>* 방문 전 상품 재고와 준비 여부를 반드시 확인해 주세요.</span>
+                  </div>
                 </div>
-                <div className="bank-box-notice" style={{ marginTop: '10px', display: 'flex', flexDirection: 'column', gap: '4px', fontSize: '11.5px', color: 'var(--text-muted)' }}>
-                  <span>* 입금 시 입금자명을 주문자명 또는 회사명과 동일하게 설정해 주세요.</span>
-                  <span style={{ color: 'var(--point-gold)', fontWeight: '600' }}>* 입금 확인 완료 즉시 담당자가 연락을 드려 자재 출고 일정과 현장 배송 편을 확정해 드립니다.</span>
+              ) : (
+                <div className="order-complete-bank-box">
+                  <h4 className="bank-box-title">계좌이체 안내</h4>
+                  <div className="bank-account-details">
+                    <p className="bank-name">NH농협은행</p>
+                    <p className="bank-number">301-0298-9197-81</p>
+                    <p className="bank-holder">예금주: (주)동경바닥재</p>
+                  </div>
+                  <div className="bank-box-notice" style={{ marginTop: '10px', display: 'flex', flexDirection: 'column', gap: '4px', fontSize: '11.5px', color: 'var(--text-muted)' }}>
+                    <span>* 주문 접수 후 입금 확인이 완료되면 상품 준비가 시작됩니다.</span>
+                    <span>* 입금자명과 주문자명이 다를 경우 주문 요청사항에 입금자명을 작성해 주세요.</span>
+                  </div>
                 </div>
-              </div>
+              )}
             </div>
 
           </div>

@@ -1151,6 +1151,7 @@ export default function MaterialDetail() {
       itemPrice = 0;
     }
 
+    const finalQty = Math.max(1, parseInt(qty, 10) || 1);
     const imgPath = getMaterialImagePath(item);
     const cartPayload = {
       id: selectedOption ? `${item.id}-${selectedOption.label}` : item.id,
@@ -1180,9 +1181,9 @@ export default function MaterialDetail() {
       unit_price: itemPrice,
       unitPrice: itemPrice,
       unit: getProductUnit(item),
-      quantity: qty,
-      amount: itemPrice * qty,
-      subtotal: itemPrice * qty,
+      quantity: finalQty,
+      amount: itemPrice * finalQty,
+      subtotal: itemPrice * finalQty,
       selectedOption: selectedOption ? selectedOption.label : undefined,
       selectedOptions: selectedOption ? [selectedOption.label] : [],
       selectedSize: selectedOption ? selectedOption.label : undefined
@@ -1207,6 +1208,7 @@ export default function MaterialDetail() {
       return;
     }
 
+    const finalQty = Math.max(1, parseInt(qty, 10) || 1);
     const imgPath = getMaterialImagePath(item);
     const directOrderItem = {
       id: selectedOption ? `${item.id}-${selectedOption.label}` : item.id,
@@ -1236,9 +1238,9 @@ export default function MaterialDetail() {
       unit_price: itemPrice,
       unitPrice: itemPrice,
       unit: getProductUnit(item),
-      quantity: qty,
-      amount: itemPrice * qty,
-      subtotal: itemPrice * qty,
+      quantity: finalQty,
+      amount: itemPrice * finalQty,
+      subtotal: itemPrice * finalQty,
       selectedOption: selectedOption ? selectedOption.label : undefined,
       selectedOptions: selectedOption ? [selectedOption.label] : [],
       selectedSize: selectedOption ? selectedOption.label : undefined
@@ -1514,7 +1516,7 @@ export default function MaterialDetail() {
                 <div className="tech-spec-item">
                   <span className="tech-label">배송 조건</span>
                   <span className="tech-value">
-                    {item.category === '장판' ? "m 단위 절단 배송" : "50평 이상 주문 시 무료배송"}
+                    {isDecoTile(item) ? "50평 이상 주문 시 무료배송" : (item.category === '장판' ? "m 단위 절단 배송" : "화물/택배 배송")}
                   </span>
                 </div>
               </div>
@@ -1550,100 +1552,132 @@ export default function MaterialDetail() {
               )}
  
               {/* Quantity Counter & Action Buttons */}
-              <div className="showroom-qty-selector">
-                <span className="qty-label">
-                  수량: {qty}박스 {isDecoTile(item) && <span style={{ color: 'var(--point-gold)', fontWeight: '700', marginLeft: '6px' }}>(주문 평수: {qty}평)</span>}
-                </span>
-                <div className="qty-counter-box">
-                  <button type="button" onClick={() => setQty(Math.max(1, qty - 1))} className="qty-btn" aria-label="수량 감소">-</button>
-                  <input 
-                    type="number" 
-                    min="1"
-                    step="1"
-                    value={qty} 
-                    onChange={(e) => {
-                      const val = parseInt(e.target.value.replace(/[^0-9]/g, ""), 10);
-                      setQty(isNaN(val) || val < 1 ? 1 : val);
-                    }} 
-                    className="qty-input" 
-                  />
-                  <button type="button" onClick={() => setQty(qty + 1)} className="qty-btn" aria-label="수량 증가">+</button>
-                </div>
-              </div>
+              {(() => {
+                const displayQtyNum = parseInt(qty, 10) || 0;
+                const activeQty = Math.max(1, parseInt(qty, 10) || 1);
+                return (
+                  <>
+                    <div className="showroom-qty-selector">
+                      <span className="qty-label">
+                        수량: {displayQtyNum}박스 {isDecoTile(item) && <span style={{ color: 'var(--point-gold)', fontWeight: '700', marginLeft: '6px' }}>(주문 평수: {displayQtyNum}평)</span>}
+                      </span>
+                      <div className="qty-counter-box">
+                        <button 
+                          type="button" 
+                          onClick={() => setQty(Math.max(1, activeQty - 1))} 
+                          className="qty-btn" 
+                          aria-label="수량 감소"
+                        >
+                          -
+                        </button>
+                        <input 
+                          type="number" 
+                          min="1"
+                          step="1"
+                          value={qty} 
+                          onChange={(e) => {
+                            const raw = e.target.value;
+                            if (raw === "") {
+                              setQty("");
+                            } else {
+                              const parsed = parseInt(raw.replace(/[^0-9]/g, ""), 10);
+                              setQty(isNaN(parsed) ? "" : parsed);
+                            }
+                          }} 
+                          onBlur={() => {
+                            if (qty === "" || isNaN(parseInt(qty, 10)) || parseInt(qty, 10) < 1) {
+                              setQty(1);
+                            }
+                          }}
+                          className="qty-input" 
+                        />
+                        <button 
+                          type="button" 
+                          onClick={() => setQty(activeQty + 1)} 
+                          className="qty-btn" 
+                          aria-label="수량 증가"
+                        >
+                          +
+                        </button>
+                      </div>
+                    </div>
 
-              {isDecoTile(item) && (
-                <div className="detail-decotile-shipping-notice-box" style={{
-                  background: '#f8fafc',
-                  border: '1px solid #cbd5e1',
-                  borderRadius: 'var(--radius-md)',
-                  padding: '12px 16px',
-                  marginBottom: '16px',
-                  fontSize: '13px'
-                }}>
-                  <div style={{ fontWeight: '800', color: 'var(--primary)', marginBottom: '4px' }}>🚚 데코타일 50평(50박스) 이상 무료배송</div>
-                  <div style={{ fontSize: '12px', color: '#475569', marginBottom: '8px' }}>
-                    * {DECOTILE_NOTICE_TEXT}
-                  </div>
-                  {qty >= 50 ? (
-                    <div style={{ color: '#059669', fontWeight: '700', backgroundColor: '#ecfdf5', padding: '4px 8px', borderRadius: '4px', width: 'fit-content' }}>
-                      50평(50박스) 이상 무료배송이 적용되었습니다.
-                    </div>
-                  ) : (
-                    <div style={{ color: '#d97706', fontWeight: '700', backgroundColor: '#fff7ed', padding: '4px 8px', borderRadius: '4px', width: 'fit-content' }}>
-                      무료배송까지 {50 - qty}박스({50 - qty}평) 남았습니다.
-                    </div>
-                  )}
-                </div>
-              )}
+                    {isDecoTile(item) && (
+                      <div className="detail-decotile-shipping-notice-box" style={{
+                        background: '#f8fafc',
+                        border: '1px solid #cbd5e1',
+                        borderRadius: 'var(--radius-md)',
+                        padding: '12px 16px',
+                        marginBottom: '16px',
+                        fontSize: '13px'
+                      }}>
+                        <div style={{ fontWeight: '800', color: 'var(--primary)', marginBottom: '4px' }}>🚚 데코타일 50평(50박스) 이상 무료배송</div>
+                        <div style={{ fontSize: '12px', color: '#475569', marginBottom: '8px' }}>
+                          * {DECOTILE_NOTICE_TEXT}
+                        </div>
+                        {activeQty >= 50 ? (
+                          <div style={{ color: '#059669', fontWeight: '700', backgroundColor: '#ecfdf5', padding: '4px 8px', borderRadius: '4px', width: 'fit-content' }}>
+                            50평(50박스) 이상 무료배송이 적용되었습니다.
+                          </div>
+                        ) : (
+                          <div style={{ color: '#d97706', fontWeight: '700', backgroundColor: '#fff7ed', padding: '4px 8px', borderRadius: '4px', width: 'fit-content' }}>
+                            무료배송까지 {50 - activeQty}박스({50 - activeQty}평) 남았습니다.
+                          </div>
+                        )}
+                      </div>
+                    )}
 
-              {isDirectPricingCategory(item) && (
-                <div className="kcc-calculation-summary" style={{
-                  background: '#FAF8F2',
-                  padding: '16px',
-                  borderRadius: 'var(--radius-md)',
-                  border: '1px solid #E6E2D8',
-                  marginBottom: '20px',
-                  fontSize: '13px',
-                  lineHeight: '1.6',
-                  color: 'var(--text)'
-                }}>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '6px' }}>
-                    <span style={{ color: 'var(--text-light-gray)' }}>주문 수량:</span>
-                    <strong>{qty} {getProductUnit(item)}</strong>
-                  </div>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '6px' }}>
-                    <span style={{ color: 'var(--text-light-gray)' }}>주문 평수:</span>
-                    <strong>
-                      {isDecoTile(item) ? (
-                        `${qty}평`
-                      ) : item.category === '카페트타일' ? (
-                        `${(qty * 4).toFixed(2)}㎡ (약 ${(qty * 1.21).toFixed(2)}평)`
-                      ) : (
-                        getProductUnit(item) === 'BOX' ? `약 ${qty * 40}평 (20롤)` : `약 ${qty * 5}평`
-                      )}
-                    </strong>
-                  </div>
-                  {isDecoTile(item) && (
-                    <div style={{ fontSize: '11.5px', color: '#64748b', marginTop: '2px', marginBottom: '6px' }}>
-                      * {DECOTILE_NOTICE_TEXT}
-                    </div>
-                  )}
+                    {isDirectPricingCategory(item) && (
+                      <div className="kcc-calculation-summary" style={{
+                        background: '#FAF8F2',
+                        padding: '16px',
+                        borderRadius: 'var(--radius-md)',
+                        border: '1px solid #E6E2D8',
+                        marginBottom: '20px',
+                        fontSize: '13px',
+                        lineHeight: '1.6',
+                        color: 'var(--text)'
+                      }}>
+                        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '6px' }}>
+                          <span style={{ color: 'var(--text-light-gray)' }}>주문 수량:</span>
+                          <strong>{displayQtyNum} {getProductUnit(item)}</strong>
+                        </div>
+                        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '6px' }}>
+                          <span style={{ color: 'var(--text-light-gray)' }}>주문 평수:</span>
+                          <strong>
+                            {isDecoTile(item) ? (
+                              `${displayQtyNum}평`
+                            ) : item.category === '카페트타일' ? (
+                              `${(displayQtyNum * 4).toFixed(2)}㎡ (약 ${(displayQtyNum * 1.21).toFixed(2)}평)`
+                            ) : (
+                              getProductUnit(item) === 'BOX' ? `약 ${displayQtyNum * 40}평 (20롤)` : `약 ${displayQtyNum * 5}평`
+                            )}
+                          </strong>
+                        </div>
+                        {isDecoTile(item) && (
+                          <div style={{ fontSize: '11.5px', color: '#64748b', marginTop: '2px', marginBottom: '6px' }}>
+                            * {DECOTILE_NOTICE_TEXT}
+                          </div>
+                        )}
 
-                  {item.brand === '서울' && (item.line || '').includes('소폭') && (
-                    <div style={{ color: 'var(--accent-showroom-green)', fontSize: '11px', margin: '4px 0', fontWeight: 'bold' }}>
-                      * 10박스 이상 주문 시 ₩73,000원/박스로 자동 적용됩니다 (현재: {qty >= 10 ? '할인 적용됨' : '기본가 적용'}).
-                    </div>
-                  )}
-                  <div style={{ display: 'flex', justifyContent: 'space-between', borderTop: '1px dashed #E6E2D8', paddingTop: '8px', marginTop: '8px' }}>
-                    <span style={{ fontWeight: '600' }}>총 상품금액:</span>
-                    <strong style={{ color: 'var(--point-orange)', fontSize: '16px' }}>
-                      {(qty * (
-                        item.brand === '서울' && (item.line || '').includes('소폭') && qty >= 10 ? 73000 : (item.price || 0)
-                      )).toLocaleString()}원
-                    </strong>
-                  </div>
-                </div>
-              )}
+                        {item.brand === '서울' && (item.line || '').includes('소폭') && (
+                          <div style={{ color: 'var(--accent-showroom-green)', fontSize: '11px', margin: '4px 0', fontWeight: 'bold' }}>
+                            * 10박스 이상 주문 시 ₩73,000원/박스로 자동 적용됩니다 (현재: {activeQty >= 10 ? '할인 적용됨' : '기본가 적용'}).
+                          </div>
+                        )}
+                        <div style={{ display: 'flex', justifyContent: 'space-between', borderTop: '1px dashed #E6E2D8', paddingTop: '8px', marginTop: '8px' }}>
+                          <span style={{ fontWeight: '600' }}>총 상품금액:</span>
+                          <strong style={{ color: 'var(--point-orange)', fontSize: '16px' }}>
+                            {(activeQty * (
+                              item.brand === '서울' && (item.line || '').includes('소폭') && activeQty >= 10 ? 73000 : (item.price || 0)
+                            )).toLocaleString()}원
+                          </strong>
+                        </div>
+                      </div>
+                    )}
+                  </>
+                );
+              })()}
  
               {/* Primary CTA Actions */}
               <div className="showroom-main-actions">

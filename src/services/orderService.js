@@ -21,8 +21,14 @@ const STATUS_KO_TO_EN = {
 };
 
 const PAYMENT_METHOD_KO_TO_EN = {
+  "계좌이체": "bank_transfer",
   "무통장입금": "bank_transfer",
-  "전화확인": "phone_confirm"
+  "동경바닥재 방문결제": "store_payment",
+  "방문결제": "store_payment",
+  "현장결제": "store_payment",
+  "전화확인": "phone_confirm",
+  "bank_transfer": "bank_transfer",
+  "store_payment": "store_payment"
 };
 
 const PAYMENT_STATUS_KO_TO_EN = {
@@ -44,8 +50,11 @@ const STATUS_EN_TO_KO = {
 };
 
 const PAYMENT_METHOD_EN_TO_KO = {
-  "bank_transfer": "무통장입금",
-  "phone_confirm": "전화확인"
+  "bank_transfer": "계좌이체",
+  "store_payment": "동경바닥재 방문결제",
+  "phone_confirm": "동경바닥재 방문결제",
+  "on_site": "동경바닥재 방문결제",
+  "card": "계좌이체"
 };
 
 const PAYMENT_STATUS_EN_TO_KO = {
@@ -248,7 +257,7 @@ export const createOrder = async ({ cartItems, customer, paymentMethod }) => {
     shipping_fee: 0,
     total_amount: totalAmount,
     status: 'submitted', // 접수완료
-    payment_method: PAYMENT_METHOD_KO_TO_EN[paymentMethod] || 'bank_transfer',
+    payment_method: (PAYMENT_METHOD_KO_TO_EN[paymentMethod] === 'store_payment' ? 'store_payment' : 'bank_transfer'),
     payment_status: 'unpaid' // 미입금
   };
 
