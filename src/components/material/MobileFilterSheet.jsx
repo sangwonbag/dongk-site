@@ -101,23 +101,7 @@ export default function MobileFilterSheet({
             </div>
           )}
 
-          {/* Shape (for KCC Decotile) */}
-          {activeTab === "데코타일" && activeBrand === "KCC" && visibleShapes && visibleShapes.length > 1 && (
-            <div className="filter-sheet-group">
-              <label className="sheet-label">형태 분류</label>
-              <div className="sheet-chips-grid">
-                {visibleShapes.map((s) => (
-                  <button
-                    key={s}
-                    className={`sheet-chip ${activeShape === s ? "active" : ""}`}
-                    onClick={() => onShapeChange(s)}
-                  >
-                    {s === "all" ? "전체 형태" : formatShapeOrPattern(s)}
-                  </button>
-                ))}
-              </div>
-            </div>
-          )}
+
 
           {/* Lineup */}
           {visibleLines && visibleLines.length > 2 && (

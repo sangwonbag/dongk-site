@@ -584,12 +584,7 @@ export default function Materials() {
                     <X size={14} className="chip-remove" onClick={() => updateParams({ thickness: null })} />
                   </span>
                 )}
-                {activeShape !== "all" && (
-                  <span className="active-chip">
-                    형태: {formatShapeOrPattern(activeShape)}
-                    <X size={14} className="chip-remove" onClick={() => updateParams({ shape: null })} />
-                  </span>
-                )}
+
                 {activeLine !== "all" && (
                   <span className="active-chip">
                     라인업: {formatShapeOrPattern(activeLine)}
@@ -675,27 +670,7 @@ export default function Materials() {
                 </div>
               )}
 
-              {/* KCC Decotile specific filters: Shape */}
-              {activeTab === "데코타일" && activeBrand === "KCC" && !loading && (
-                <>
-                  {visibleShapes.length > 1 && (
-                    <div className="materials-filter-row">
-                      <span className="filter-label">형태 분류</span>
-                      <div className="filter-options">
-                        {visibleShapes.map((shape) => (
-                          <button
-                            key={shape}
-                            className={`filter-tab ${activeShape === shape ? "active" : ""}`}
-                            onClick={() => setActiveShape(shape)}
-                          >
-                            {shape === "all" ? "전체 형태" : formatShapeOrPattern(shape)}
-                          </button>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-                </>
-              )}
+
 
               {/* 마루 세부 분류 (Material Type) */}
               {activeTab === "마루" && visibleMaterialTypes.length > 2 && (

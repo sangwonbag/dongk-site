@@ -281,16 +281,21 @@
 @media (min-width: 1024px) {
   .materials-sticky-area {
     position: relative;
+    top: auto;
+    z-index: 1;
+    background: #ffffff;
     box-shadow: none;
     border-bottom: 1px solid var(--border);
     padding: 12px 0 10px;
     margin-bottom: 16px;
+    border-radius: 0;
   }
 }
 
 @media (max-width: 1023px) {
   .materials-sticky-area {
     position: relative;
+    top: auto;
     box-shadow: none;
     border-bottom: none;
     padding: 0;
