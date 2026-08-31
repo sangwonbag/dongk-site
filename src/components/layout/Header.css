@@ -438,6 +438,102 @@
     visibility: visible;
 }
 
+/* Header Menu Links & Mega Dropdowns */
+.header-menu-links {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.menu-link-dropdown-wrapper {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+}
+
+.menu-link {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text);
+    cursor: pointer;
+    transition: var(--transition);
+    position: relative;
+    padding: 8px 0;
+}
+
+.menu-link:hover,
+.menu-link.active {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+/* Mega Dropdown */
+.header-mega-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(8px);
+    background: #FFFFFF;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-lg);
+    padding: 20px 24px;
+    width: 280px;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: all 0.2s ease-in-out;
+    z-index: 1100;
+}
+
+.header-mega-dropdown.mega-brand {
+    width: 380px;
+}
+
+.menu-link-dropdown-wrapper:hover .header-mega-dropdown {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateX(-50%) translateY(0);
+}
+
+.dropdown-title {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+}
+
+.dropdown-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 16px;
+}
+
+.dropdown-grid.brand-grid {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.dropdown-grid span {
+    font-size: 13.5px;
+    color: var(--text);
+    cursor: pointer;
+    transition: var(--transition);
+    padding: 4px 6px;
+    border-radius: var(--radius-sm);
+}
+
+.dropdown-grid span:hover {
+    background-color: var(--bg-showroom);
+    color: var(--primary);
+    font-weight: 600;
+}
+
 .drawer-menu-links {
     display: flex;
     flex-direction: column;

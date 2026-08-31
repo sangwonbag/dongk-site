@@ -255,28 +255,33 @@ export function formatFlooringProductName(product) {
 }
 
 export const getProductUnit = (product) => {
-  if (!product) return '롤';
+  if (!product) return '평';
   if (product.category === '장판') return 'm';
   if (product.category === '데코타일') return 'BOX';
-  if (product.brand === '스완' && product.category === '카페트타일') return 'BOX';
-  
-  const brand = product.brand || "";
-  const name = product.name || product.product_name || "";
-  const line = product.line || "";
-  const spec = product.spec || (product.specs && product.specs.size) || "";
-  
-  const lineClean = line.replace(/\s+/g, '');
-  const nameClean = name.replace(/\s+/g, '');
-  
-  if (brand === '서울' && (lineClean.includes('소폭') || nameClean.includes('소폭') || spec.includes('53'))) {
-    return 'BOX';
+  if (product.category === '마루') return '평';
+  if (product.category === '카페트타일') return '평';
+  if (product.category === '부자재') return product.unit || '개';
+  if (product.category === '벽지') {
+    const brand = product.brand || "";
+    const name = product.name || product.product_name || "";
+    const line = product.line || "";
+    const spec = product.spec || (product.specs && product.specs.size) || "";
+    
+    const lineClean = line.replace(/\s+/g, '');
+    const nameClean = name.replace(/\s+/g, '');
+    
+    if (brand === '서울' && (lineClean.includes('소폭') || nameClean.includes('소폭') || spec.includes('53'))) {
+      return 'BOX';
+    }
+    if (brand === '개나리' && (lineClean.includes('소폭') || nameClean.includes('소폭') || lineClean.includes('스토리'))) {
+      return 'BOX';
+    }
+    if (brand === 'LX' && (lineClean.includes('소폭') || nameClean.includes('소폭') || spec.includes('53'))) {
+      return 'BOX';
+    }
+    return '롤';
   }
-  if (brand === '개나리' && (lineClean.includes('소폭') || nameClean.includes('소폭') || lineClean.includes('스토리'))) {
-    return 'BOX';
-  }
-  if (brand === 'LX' && (lineClean.includes('소폭') || nameClean.includes('소폭') || spec.includes('53'))) {
-    return 'BOX';
-  }
-  return '롤';
+  return product.unit || '평';
 };
+
 

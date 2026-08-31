@@ -104,6 +104,21 @@ allFiles.forEach(fullPath => {
     manifest[decodedPath.toLowerCase()] = entry;
     manifest[supabaseFilename] = entry;
     manifest[supabaseFilename.toLowerCase()] = entry;
+
+    // Canonical relative path keys (e.g. 데코타일/KCC/KCC_pro/30082P.png & materials/데코타일/KCC/KCC_pro/30082P.png)
+    manifest[relFromMaterials] = entry;
+    manifest[relFromMaterials.toLowerCase()] = entry;
+    manifest['/' + relFromMaterials] = entry;
+    manifest['/' + relFromMaterials.toLowerCase()] = entry;
+    manifest['materials/' + relFromMaterials] = entry;
+    manifest['materials/' + relFromMaterials.toLowerCase()] = entry;
+    manifest['/materials/' + relFromMaterials] = entry;
+    manifest['/materials/' + relFromMaterials.toLowerCase()] = entry;
+
+    // Basename keys
+    const baseName = path.basename(fullPath);
+    manifest[baseName] = entry;
+    manifest[baseName.toLowerCase()] = entry;
   } catch (err) {
     console.error(`Error processing file ${fullPath}:`, err);
   }

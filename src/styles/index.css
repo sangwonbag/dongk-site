@@ -16,50 +16,44 @@
    ========================================================================== */
 
 :root {
-  /* Color Tokens */
-  --primary: #1A1A1A; /* 메인 딥 차콜 */
+  /* Color Tokens - Spruce Showroom Concept */
+  --primary: #171717; /* 메인 딥 차콜 */
   --primary-hover: #000000;
-  --bg: #FFFFFF; /* 전체 배경: 깨끗한 화이트 */
+  --bg: #FFFFFF; /* 전체 배경 */
   --bg-card: #FFFFFF; /* 카드 배경 */
-  --bg-alt: #F8F9FA; /* 보조 배경: 깔끔한 밝은 그레이 (섹션 구분용) */
-  --intro-bg: #1A1A1A;
-  --text: #1A1A1A; /* 메인 텍스트 */
-  --text-muted: #555555; /* 보조 텍스트 */
-  --text-light: #888888; /* 비활성/플레이스홀더 */
-  --gray: #FBFBFA; 
-  --border: #E5E5E5; /* 경계선/라인 */
-  --border-hover: #CCCCCC;
+  --bg-alt: #F7F7F5; /* 쇼룸 따뜻한 보조 배경 (Spruce Warm White) */
+  --bg-showroom: #F7F7F5;
+  --text: #171717; /* 메인 텍스트 */
+  --text-muted: #777777; /* 보조 텍스트 (회색) */
+  --text-light: #999999; /* 비활성/플레이스홀더 */
+  --border: #E5E5E5; /* 얇은 경계선 */
+  --border-hover: #171717;
   
-  --point-orange: #B57A50; /* 테라코타 (최소 사용) */
-  --point-orange-hover: #9C623C;
-  --point-orange-light: #FAF3EC;
-  
-  --point-gold: #B3925F; /* 포인트 브라스 골드 (작은 포인트 및 브랜드 강조용) */
-  --point-gold-hover: #9C7C4C;
-  --point-gold-light: #FAF7F2;
+  --point-accent: #171717; /* 최소한의 단정한 억센트 */
+  --point-orange: #B57A50;
+  --point-gold: #B3925F;
   
   /* Status Colors */
-  --success: #2E7D32; /* 성공/완료 */
+  --success: #2E7D32;
   --danger: #C62828;
-  --warning: #D84315; /* 경고/주의 */
+  --warning: #D84315;
   --info: #1565C0;
 
   /* Spacing & Layout */
   --container-width: 1280px;
   
-  /* Design Details */
+  /* Design Details - Subtle Radius & Clean Shadows */
   --radius-sm: 2px;
-  --radius-md: 4px; /* 기하학적이고 단정한 반경 */
+  --radius-md: 4px; /* 단정한 4px 라디우스 */
   --radius-lg: 6px;
-  --radius-xl: 10px;
+  --radius-xl: 8px;
   --radius-full: 9999px;
   
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 12px 24px rgba(0, 0, 0, 0.08);
   
-  --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 /* Custom Scrollbar */

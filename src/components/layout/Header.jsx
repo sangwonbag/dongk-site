@@ -342,9 +342,8 @@ export default function Header() {
             <span className="logo-subtitle">동경바닥재</span>
           </div>
 
-          {/* Desktop Navigation Links */}
+          {/* Desktop Navigation Links - Spruce Showroom Style */}
           <nav className="header-menu-links">
-            <span className={`menu-link ${location.pathname === '/' ? 'active' : ''}`} onClick={() => nav("/")}>홈</span>
             <span 
               className={`menu-link ${location.pathname === '/materials' ? 'active' : ''}`} 
               onClick={() => nav("/materials")}
@@ -353,9 +352,43 @@ export default function Header() {
             >
               자재찾기
             </span>
+
+            {/* 공간별 Dropdown */}
+            <div className="menu-link-dropdown-wrapper">
+              <span className="menu-link" onClick={() => nav("/materials")}>
+                공간별
+              </span>
+              <div className="header-mega-dropdown">
+                <div className="dropdown-title">공간별 추천 자재</div>
+                <div className="dropdown-grid">
+                  <span onClick={() => nav("/materials?search=거실")}>거실</span>
+                  <span onClick={() => nav("/materials?search=상업공간")}>상업공간</span>
+                  <span onClick={() => nav("/materials?search=사무실")}>사무실</span>
+                  <span onClick={() => nav("/materials?search=학원")}>학원</span>
+                  <span onClick={() => nav("/materials?search=병원")}>병원</span>
+                  <span onClick={() => nav("/materials?search=원룸")}>원룸</span>
+                  <span onClick={() => nav("/materials?search=주거공간")}>주거공간</span>
+                </div>
+              </div>
+            </div>
+
+            {/* 브랜드 Dropdown */}
+            <div className="menu-link-dropdown-wrapper">
+              <span className="menu-link" onClick={() => nav("/materials")}>
+                브랜드
+              </span>
+              <div className="header-mega-dropdown mega-brand">
+                <div className="dropdown-title">주요 제조사 브랜드</div>
+                <div className="dropdown-grid brand-grid">
+                  {["LX", "KCC", "동신", "재영", "우성", "녹수", "현대", "구정", "이건", "동화", "신한", "개나리", "서울", "제일", "DID", "현대벽지"].map(b => (
+                    <span key={b} onClick={() => nav(`/materials?brand=${b}`)}>{b}</span>
+                  ))}
+                </div>
+              </div>
+            </div>
+
             <span className={`menu-link ${location.pathname === '/samplebooks' ? 'active' : ''}`} onClick={() => nav("/samplebooks")}>샘플북</span>
-            <span className={`menu-link ${location.pathname === '/cases' ? 'active' : ''}`} onClick={() => nav("/cases")}>시공사례</span>
-            <span className={`menu-link ${location.pathname === '/estimate/request' || location.pathname === '/estimate' ? 'active' : ''}`} onClick={() => nav("/estimate/request")}>견적문의</span>
+            <span className={`menu-link ${location.pathname === '/estimate/request' || location.pathname === '/estimate' ? 'active' : ''}`} onClick={() => nav("/estimate/request")}>자동견적</span>
           </nav>
 
           {/* Search Bar */}

@@ -194,8 +194,7 @@ export const sampleBooks = [
         title: "유성 피네오 디럭스타일",
         brand: "유성",
         category: "데코타일",
-        cover: "/samplebooks/데코타일/유성/유성_피네오 디럭스타일/0.jpg",
-        pages: Array.from({ length: 4 }, (_, i) => `/samplebooks/데코타일/유성/유성_피네오 디럭스타일/${i}.jpg`),
+        pdf: "/samplebooks/데코타일/유성/유성_피네오 디럭스타일/유성_피네오 디럭스타일.pdf",
         description: "유성 피네오 디럭스타일 데코타일 샘플북",
         isRecommended: true
     },
@@ -204,8 +203,7 @@ export const sampleBooks = [
         title: "유성 피네오 유니크타일",
         brand: "유성",
         category: "데코타일",
-        cover: "/samplebooks/데코타일/유성/유성_피네오 유니크타일/0.jpg",
-        pages: Array.from({ length: 27 }, (_, i) => `/samplebooks/데코타일/유성/유성_피네오 유니크타일/${i}.jpg`),
+        pdf: "/samplebooks/데코타일/유성/유성_피네오 유니크타일/유성_피네오 유니크타일.pdf",
         description: "유성 피네오 유니크타일 데코타일 샘플북",
         isRecommended: true
     },
@@ -214,8 +212,7 @@ export const sampleBooks = [
         title: "유성 피오네 모던2",
         brand: "유성",
         category: "데코타일",
-        cover: "/samplebooks/데코타일/유성/유성_피오네 모던2/0.jpg",
-        pages: Array.from({ length: 48 }, (_, i) => `/samplebooks/데코타일/유성/유성_피오네 모던2/${i}.jpg`),
+        pdf: "/samplebooks/데코타일/유성/유성_피오네 모던2/유성_피오네 모던2.pdf",
         description: "유성 피오네 모던2 데코타일 샘플북"
     },
 

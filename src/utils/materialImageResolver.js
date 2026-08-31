@@ -1,5 +1,6 @@
 import { imageManifest } from '../data/materialImageManifest.generated.js';
 import { imageManifest as imageManifestMap } from '../data/imageManifest.js';
+import { getUniqueProductImages } from './galleryNormalizer.js';
 
 const SUPABASE_PUBLIC_URL_PREFIX = "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/";
 
@@ -252,28 +253,7 @@ export function resolveProductImages(material) {
   }
 
   // Deduplicate and filter out placeholders
-  const uniqueList = [];
-  const seen = new Set();
-
-  for (const src of candidates) {
-    if (!src) continue;
-    const cleanSrc = String(src).trim();
-    const norm = cleanSrc.toLowerCase();
-
-    // Ignore placeholder URLs
-    if (norm.includes('no-image.svg') || norm.includes('deco_tile.png') || norm.includes('material-placeholder.jpg')) {
-      continue;
-    }
-
-    // Standardize directory slashes for key lookup
-    const urlKey = cleanSrc.replace(/\\/g, '/');
-    if (!seen.has(urlKey)) {
-      seen.add(urlKey);
-      uniqueList.push(cleanSrc);
-    }
-  }
-
-  return uniqueList;
+  return getUniqueProductImages(candidates);
 }
 
 export function resolveProductCardImage(material) {

@@ -11,6 +11,13 @@ import { formatFlooringProductName } from "../../utils/brandUtils";
 import { ImagePlaceholder } from "../../components/ui";
 import { getProductPyeong, calculateDecorTilePyeong } from "../../utils/shippingUtils";
 import { isDecoTile } from "../../utils/decotileUtils";
+import { 
+  isAccessoryItem, 
+  isMaterialItem, 
+  getItemDisplayUnit, 
+  formatQuantityWithUnit,
+  getItemClassificationLabel 
+} from "../../utils/productClassification";
 import "./Checkout.css";
 
 const DELIVERY_TIME_OPTIONS = [
@@ -118,7 +125,28 @@ export default function Checkout() {
     loadDb();
   }, []);
 
-  const decotilePyeong = calculateDecorTilePyeong(checkoutItems);
+  // 자재/부자재 분류 및 계산 로직 분리
+  const materialItems = useMemo(() => {
+    return checkoutItems.filter(isMaterialItem);
+  }, [checkoutItems]);
+
+  const accessoryItems = useMemo(() => {
+    return checkoutItems.filter(isAccessoryItem);
+  }, [checkoutItems]);
+
+  const materialQuantitySum = useMemo(() => {
+    return materialItems.reduce((sum, item) => sum + (parseInt(item.quantity) || 1), 0);
+  }, [materialItems]);
+
+  const accessoryQuantitySum = useMemo(() => {
+    return accessoryItems.reduce((sum, item) => sum + (parseInt(item.quantity) || 1), 0);
+  }, [accessoryItems]);
+
+  const materialPyeongSum = useMemo(() => {
+    return calculateDecorTilePyeong(materialItems);
+  }, [materialItems]);
+
+  const decotilePyeong = materialPyeongSum;
   const freeShippingInfo = useMemo(() => {
     return {
       eligible: decotilePyeong >= 50,
@@ -165,6 +193,12 @@ export default function Checkout() {
       recommendedSlugs.add('sub-thin-separator');
       recommendedSlugs.add('sub-straight-separator');
       recommendedSlugs.add('sub-l-separator');
+      recommendedSlugs.add('sub-nonslip-light-white');
+      recommendedSlugs.add('sub-nonslip-light-gray');
+      recommendedSlugs.add('sub-nonslip-light-darkwood');
+      recommendedSlugs.add('sub-nonslip-heavy-lightwood');
+      recommendedSlugs.add('sub-nonslip-heavy-darkwood');
+      recommendedSlugs.add('sub-nonslip-heavy-gray');
     }
 
     if (hasCarpet) {
@@ -174,7 +208,7 @@ export default function Checkout() {
       recommendedSlugs.add('sub-carpet-separator');
     }
 
-    return allAccessories.filter(p => recommendedSlugs.has(p.id));
+    return allAccessories.filter(p => recommendedSlugs.has(p.id) || recommendedSlugs.has(p.slug) || recommendedSlugs.has(p.code));
   }, [allAccessories, checkoutItems]);
 
   const handleUpdateAccessoryQty = (id, newQty, inCart) => {
@@ -397,19 +431,27 @@ export default function Checkout() {
     return basePrice;
   };
 
-  const calculateTotal = () => {
-    return checkoutItems.reduce((sum, item) => {
+  const materialTotalAmount = useMemo(() => {
+    return materialItems.reduce((sum, item) => {
       const qty = Math.max(1, parseInt(item.quantity) || 1);
       const price = getItemUnitPrice(item, qty);
       return sum + (price * qty);
     }, 0);
+  }, [materialItems]);
+
+  const accessoryTotalAmount = useMemo(() => {
+    return accessoryItems.reduce((sum, item) => {
+      const qty = Math.max(1, parseInt(item.quantity) || 1);
+      const price = getItemUnitPrice(item, qty);
+      return sum + (price * qty);
+    }, 0);
+  }, [accessoryItems]);
+
+  const calculateTotal = () => {
+    return materialTotalAmount + accessoryTotalAmount;
   };
 
   const totalTypesCount = checkoutItems.length;
-
-  const totalQuantitySum = checkoutItems.reduce((sum, item) => {
-    return sum + (parseInt(item.quantity) || 1);
-  }, 0);
 
   // 주문 실행
   const handleOrderSubmit = async (e) => {
@@ -638,61 +680,159 @@ export default function Checkout() {
           {/* 1. 왼쪽: 주문 정보 및 배송지 입력 폼 */}
           <div className="checkout-left-section">
             
-            {/* [단계 1] 주문 상품 확인 */}
-            <div className="checkout-card">
-              <h3>1. 주문 상품 확인</h3>
-              <div className="summary-item-list" style={{ maxHeight: 'none', overflowY: 'visible' }}>
-                {checkoutItems.map((item) => {
-                  const qty = Math.max(1, parseInt(item.quantity) || 1);
-                  const price = getItemUnitPrice(item, qty);
-                  const hasPrice = price > 0;
-                  const itemSpec = item.spec || item.specs?.size || "표준규격";
-                  const itemPacking = item.packing || item.specs?.packing || "1박스 단위";
+            {/* [단계 1] 주문 상품 확인 (ERP 스타일 결제 금액 확인 표) */}
+            <div className="checkout-card erp-checkout-card">
+              <div className="checkout-card-header-flex">
+                <h3>1. 주문 상품 확인</h3>
+                <span className="order-items-summary-badge">
+                  총 {checkoutItems.length}종 (자재 {materialItems.length}종 / 부자재 {accessoryItems.length}종)
+                </span>
+              </div>
 
-                  return (
-                    <div key={item.id} className="summary-item-card">
-                      {/* 썸네일 */}
-                      <div className="summary-item-thumb-wrapper">
-                        <img 
-                          className="summary-item-thumb"
-                          src={item.thumbnail || item.image || "/images/no-image.svg"} 
-                          alt={item.name || item.product_name}
-                          onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = "/images/no-image.svg"; }}
-                        />
-                      </div>
-                      
-                      {/* 사양 */}
-                      <div className="summary-item-info">
-                        <div className="summary-item-brand-row">
-                          {item.brand && <span className="summary-item-brand">{item.brand}</span>}
-                          {item.category && <span className="summary-item-category">{item.category}</span>}
-                        </div>
-                        <span className="summary-item-name">
-                          {formatFlooringProductName(item)}
-                          {item.selectedSize && ` / ${item.selectedSize}`}
-                        </span>
-                        <div className="summary-item-details">
-                          {item.code && item.code !== "" && <span>코드: {item.code}</span>}
-                          <span>규격: {itemSpec}</span>
-                          <span>구성: {itemPacking}</span>
-                          <span>단가: {hasPrice ? `${price.toLocaleString()}원${item.category === '장판' ? '/m' : ''}` : "가격문의"}</span>
-                        </div>
-                      </div>
-
-                      {/* 단가 및 소계 */}
-                      <div className="summary-item-price-side">
-                        <div className="summary-item-price-qty">{qty} {item.category === '장판' ? 'm' : (item.unit || "평")}</div>
-                        {hasPrice ? (
-                          <div className="summary-item-price-total">
-                            ₩{(price * qty).toLocaleString()}원
-                          </div>
-                        ) : (
-                          <div className="summary-item-price-total consult-text">상담 필요</div>
-                        )}
-                      </div>
+              <div className="erp-order-table-container">
+                {/* 자재 품목 테이블 */}
+                {materialItems.length > 0 && (
+                  <div className="erp-category-group">
+                    <div className="erp-group-header material-header">
+                      <span className="group-title-badge badge-material">자재</span>
+                      <span className="group-summary-info">
+                        총 {materialItems.length}개 품목 · {materialPyeongSum > 0 ? `${materialPyeongSum}평` : `${materialQuantitySum}개`}
+                      </span>
                     </div>
-                  );
-                })}
+
+                    <div className="erp-table-wrapper">
+                      <table className="erp-order-table">
+                        <thead>
+                          <tr>
+                            <th className="col-type">구분</th>
+                            <th className="col-name">상품명</th>
+                            <th className="col-qty text-right">수량</th>
+                            <th className="col-unit text-center">단위</th>
+                            <th className="col-price text-right">단가</th>
+                            <th className="col-total text-right">금액</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {materialItems.map((item) => {
+                            const qty = Math.max(1, parseInt(item.quantity) || 1);
+                            const price = getItemUnitPrice(item, qty);
+                            const hasPrice = price > 0;
+                            const unitStr = getItemDisplayUnit(item);
+
+                            return (
+                              <tr key={item.id || item.product_id}>
+                                <td className="col-type">
+                                  <span className="item-class-tag tag-material">자재</span>
+                                </td>
+                                <td className="col-name">
+                                  <div className="erp-item-name-box">
+                                    {item.brand && <span className="erp-item-brand">{item.brand}</span>}
+                                    <strong className="erp-item-title">{formatFlooringProductName(item)}</strong>
+                                    {(item.code || item.spec) && (
+                                      <span className="erp-item-sub">
+                                        {item.code ? `코드: ${item.code}` : ''} {item.spec ? `| 규격: ${item.spec}` : ''}
+                                      </span>
+                                    )}
+                                  </div>
+                                </td>
+                                <td className="col-qty text-right font-bold highlight-qty">
+                                  {qty.toLocaleString()}
+                                </td>
+                                <td className="col-unit text-center text-muted">
+                                  {unitStr}
+                                </td>
+                                <td className="col-price text-right text-muted">
+                                  {hasPrice ? `${price.toLocaleString()}원` : "가격문의"}
+                                </td>
+                                <td className="col-total text-right font-bold">
+                                  {hasPrice ? `${(price * qty).toLocaleString()}원` : "상담 필요"}
+                                </td>
+                              </tr>
+                            );
+                          })}
+                        </tbody>
+                        <tfoot>
+                          <tr className="erp-subtotal-row material-subtotal-row">
+                            <td colSpan="2" className="text-left font-bold erp-subtotal-label">자재 소계 ({materialItems.length}종)</td>
+                            <td className="col-qty text-right font-bold highlight-qty">{materialPyeongSum > 0 ? materialPyeongSum.toLocaleString() : materialQuantitySum.toLocaleString()}</td>
+                            <td className="col-unit text-center font-bold">{materialPyeongSum > 0 ? "평" : "개"}</td>
+                            <td className="col-price"></td>
+                            <td className="col-total text-right font-bold erp-subtotal-amount">{materialTotalAmount.toLocaleString()}원</td>
+                          </tr>
+                        </tfoot>
+                      </table>
+                    </div>
+                  </div>
+                )}
+
+                {/* 부자재 품목 테이블 */}
+                {accessoryItems.length > 0 && (
+                  <div className="erp-category-group accessory-group" style={{ marginTop: materialItems.length > 0 ? '20px' : '0' }}>
+                    <div className="erp-group-header accessory-header">
+                      <span className="group-title-badge badge-accessory">부자재</span>
+                      <span className="group-summary-info">
+                        총 {accessoryItems.length}개 품목 · {accessoryQuantitySum}개
+                      </span>
+                    </div>
+
+                    <div className="erp-table-wrapper">
+                      <table className="erp-order-table">
+                        <thead>
+                          <tr>
+                            <th className="col-type">구분</th>
+                            <th className="col-name">상품명</th>
+                            <th className="col-qty text-right">수량</th>
+                            <th className="col-unit text-center">단위</th>
+                            <th className="col-price text-right">단가</th>
+                            <th className="col-total text-right">금액</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {accessoryItems.map((item) => {
+                            const qty = Math.max(1, parseInt(item.quantity) || 1);
+                            const price = getItemUnitPrice(item, qty);
+                            const hasPrice = price > 0;
+                            const unitStr = getItemDisplayUnit(item);
+
+                            return (
+                              <tr key={item.id || item.product_id}>
+                                <td className="col-type">
+                                  <span className="item-class-tag tag-accessory">부자재</span>
+                                </td>
+                                <td className="col-name">
+                                  <div className="erp-item-name-box">
+                                    <strong className="erp-item-title">{item.name || item.product_name}</strong>
+                                  </div>
+                                </td>
+                                <td className="col-qty text-right font-bold highlight-qty">
+                                  {qty.toLocaleString()}
+                                </td>
+                                <td className="col-unit text-center text-muted">
+                                  {unitStr}
+                                </td>
+                                <td className="col-price text-right text-muted">
+                                  {hasPrice ? `${price.toLocaleString()}원` : "가격문의"}
+                                </td>
+                                <td className="col-total text-right font-bold">
+                                  {hasPrice ? `${(price * qty).toLocaleString()}원` : "상담 필요"}
+                                </td>
+                              </tr>
+                            );
+                          })}
+                        </tbody>
+                        <tfoot>
+                          <tr className="erp-subtotal-row accessory-subtotal-row">
+                            <td colSpan="2" className="text-left font-bold erp-subtotal-label">부자재 소계 ({accessoryItems.length}종)</td>
+                            <td className="col-qty text-right font-bold highlight-qty">{accessoryQuantitySum.toLocaleString()}</td>
+                            <td className="col-unit text-center font-bold">개</td>
+                            <td className="col-price"></td>
+                            <td className="col-total text-right font-bold erp-subtotal-amount">{accessoryTotalAmount.toLocaleString()}원</td>
+                          </tr>
+                        </tfoot>
+                      </table>
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
 
@@ -1256,20 +1396,32 @@ export default function Checkout() {
 
               <div className="summary-detail-rows">
                 <div className="summary-detail-row">
-                  <span>상품 종류 수</span>
-                  <span>{totalTypesCount}종</span>
+                  <span>자재 수량</span>
+                  <span className="summary-val-highlight">
+                    {materialPyeongSum > 0 ? `${materialPyeongSum.toLocaleString()}평` : `${materialQuantitySum.toLocaleString()}개`}
+                  </span>
                 </div>
                 <div className="summary-detail-row">
-                  <span>총 수량</span>
-                  <span>{totalQuantitySum.toLocaleString()} 평(박스/M)</span>
+                  <span>자재 금액</span>
+                  <span>{materialTotalAmount.toLocaleString()}원</span>
                 </div>
-                <div className="summary-detail-row">
-                  <span>상품합계 금액</span>
-                  <span>{calculateTotal().toLocaleString()}원</span>
-                </div>
-                <div className="summary-detail-row">
+
+                {accessoryItems.length > 0 && (
+                  <>
+                    <div className="summary-detail-row accessory-sub-row" style={{ paddingTop: '8px', borderTop: '1px dashed #e2ded5' }}>
+                      <span>부자재 수량</span>
+                      <span className="summary-val-highlight">{accessoryQuantitySum.toLocaleString()}개</span>
+                    </div>
+                    <div className="summary-detail-row accessory-sub-row">
+                      <span>부자재 금액</span>
+                      <span>{accessoryTotalAmount.toLocaleString()}원</span>
+                    </div>
+                  </>
+                )}
+
+                <div className="summary-detail-row shipping-row" style={{ paddingTop: '8px', borderTop: '1px solid var(--border)' }}>
                   <span>배송비</span>
-                  <span style={{ color: (deliveryMethod === "free_shipping" || deliveryMethod === "pickup") ? 'var(--success)' : 'var(--danger)' }}>
+                  <span style={{ color: (deliveryMethod === "free_shipping" || deliveryMethod === "pickup") ? 'var(--success)' : 'var(--danger)', fontWeight: 'bold' }}>
                     {deliveryMethod === "free_shipping" || deliveryMethod === "pickup" ? "0원 (무료)" : "별도 협의 (화물 착불)"}
                   </span>
                 </div>

@@ -8,6 +8,7 @@ import { EmptyState } from "../../components/ui";
 import { formatFlooringProductName } from "../../utils/brandUtils";
 import { getProductPyeong, calculateDecorTilePyeong } from "../../utils/shippingUtils";
 import { isDecoTile } from "../../utils/decotileUtils";
+import { isMaterialItem, isAccessoryItem } from "../../utils/productClassification";
 import "./Cart.css";
 
 export default function Cart() {
@@ -31,20 +32,26 @@ export default function Cart() {
   const totalItemsCount = cartItems.length;
   
   const getDisplayTotalQtyText = () => {
-    const tileOrFloorQty = cartItems
+    const materialItemsOnly = cartItems.filter(isMaterialItem);
+    const accessoryItemsOnly = cartItems.filter(isAccessoryItem);
+
+    const tileOrFloorQty = materialItemsOnly
       .filter(item => item.category !== "장판" && item.category !== "벽지")
       .reduce((sum, item) => sum + (parseInt(item.quantity) || 1), 0);
-    const rollOrMQty = cartItems
+    const rollOrMQty = materialItemsOnly
       .filter(item => item.category === "장판" || item.category === "벽지")
       .reduce((sum, item) => sum + (parseInt(item.quantity) || 1), 0);
+    const accQty = accessoryItemsOnly
+      .reduce((sum, item) => sum + (parseInt(item.quantity) || 1), 0);
       
-    const totalPyeong = cartItems
+    const totalPyeong = materialItemsOnly
       .filter(item => item.category !== "장판" && item.category !== "벽지")
       .reduce((sum, item) => sum + getProductPyeong(item), 0);
     
     const parts = [];
-    if (tileOrFloorQty > 0) parts.push(`${tileOrFloorQty}박스(약 ${totalPyeong.toFixed(2)}평)`);
+    if (tileOrFloorQty > 0) parts.push(`${tileOrFloorQty}박스(${Math.round(totalPyeong)}평)`);
     if (rollOrMQty > 0) parts.push(`${rollOrMQty}M`);
+    if (accQty > 0) parts.push(`부자재 ${accQty}개`);
     return parts.join(" / ") || "0박스";
   };
 

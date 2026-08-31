@@ -24332,20 +24332,6 @@ export const imageManifest = {
       "10f94b5594cbaf727ddf6dbfc421b606.jpg"
     ]
   },
-  "._7043-01": {
-    "thumbnail": "fe02529bc4aacaf59508962c301907ef.jpg",
-    "images": [
-      "fe02529bc4aacaf59508962c301907ef.jpg",
-      "87b2eca78b2e09de2b53db53bee168d4.jpg"
-    ]
-  },
-  "._7043-02": {
-    "thumbnail": "164083bcb16030ee13938dc66feaa4ea.jpg",
-    "images": [
-      "164083bcb16030ee13938dc66feaa4ea.jpg",
-      "0d7935fca0bb3e46aaf8fedaf6b5de75.jpg"
-    ]
-  },
   "90013-1": {
     "thumbnail": "264d43a3372793836f55fde29574a7a7.jpg",
     "images": [

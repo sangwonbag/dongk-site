@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Skeleton from "./Skeleton";
 import "./ProductImage.css";
 
-export default function ProductImage({ src, alt, className = "", style = {} }) {
+export default function ProductImage({ src, alt, className = "", style = {}, fit = "contain" }) {
   const [hasError, setHasError] = useState(false);
   const [loaded, setLoaded] = useState(false);
 
@@ -24,7 +24,6 @@ export default function ProductImage({ src, alt, className = "", style = {} }) {
   };
 
   useEffect(() => {
-    // Reset states if src changes
     setHasError(false);
     setLoaded(false);
   }, [src]);
@@ -33,16 +32,16 @@ export default function ProductImage({ src, alt, className = "", style = {} }) {
 
   if (invalid || hasError) {
     return (
-      <div className="product-image-fallback-container" style={style}>
+      <div className="product-image-fallback-container" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", ...style }}>
         <div className="product-image-placeholder">
-          이미지 준비중입니다.
+          이미지 준비 중입니다.
         </div>
       </div>
     );
   }
 
   return (
-    <div className="product-image-wrapper" style={{ position: "relative", width: "100%", height: "100%", overflow: "hidden", ...style }}>
+    <div className="product-image-wrapper" style={{ position: "relative", width: "100%", height: "100%", overflow: "hidden", backgroundColor: "#f8fafc", ...style }}>
       {!loaded && (
         <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 1 }}>
           <Skeleton height="100%" radius="0" />
@@ -60,7 +59,10 @@ export default function ProductImage({ src, alt, className = "", style = {} }) {
           transition: "opacity 0.25s ease-in-out",
           width: "100%",
           height: "100%",
-          objectFit: "cover",
+          objectFit: fit,
+          objectPosition: "center",
+          padding: fit === "contain" ? "4px" : "0",
+          boxSizing: "border-box",
           display: "block"
         }}
       />

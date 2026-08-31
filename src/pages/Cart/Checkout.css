@@ -1295,6 +1295,26 @@
   text-overflow: ellipsis;
 }
 
+.cod-shipping-agreement {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  margin: 14px 0;
+  padding: 12px;
+  border: 1px solid #fed7aa;
+  border-radius: var(--radius-md);
+  background: #fff7ed;
+  color: #9a3412;
+  font-size: 12px;
+  line-height: 1.55;
+  cursor: pointer;
+}
+
+.cod-shipping-agreement input {
+  flex: 0 0 auto;
+  margin-top: 3px;
+}
+
 @media (max-width: 768px) {
   .delivery-methods-grid {
     grid-template-columns: 1fr;
@@ -1303,3 +1323,223 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* ==========================================================================
+   ERP Purchase Order Style Table (결제확인창 품목 정리 UI)
+   ========================================================================== */
+.checkout-card-header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.checkout-card-header-flex h3 {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+.order-items-summary-badge {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--primary);
+  background-color: var(--bg-alt);
+  padding: 4px 12px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+}
+
+.erp-order-table-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.erp-group-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  background-color: #faf9f6;
+  border: 1px solid #e8e4dc;
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+  border-bottom: none;
+}
+
+.group-title-badge {
+  font-size: 12px;
+  font-weight: 800;
+  padding: 3px 10px;
+  border-radius: 4px;
+}
+
+.badge-material {
+  background-color: #1e3a8a;
+  color: #ffffff;
+}
+
+.badge-accessory {
+  background-color: #d97706;
+  color: #ffffff;
+}
+
+.group-summary-info {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.erp-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  border: 1px solid #e8e4dc;
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+}
+
+.erp-order-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+  background-color: #ffffff;
+}
+
+.erp-order-table th {
+  background-color: #f4f1ea;
+  color: var(--text-main);
+  font-weight: 700;
+  font-size: 12.5px;
+  padding: 10px 12px;
+  border-bottom: 1px solid #e1dcd1;
+  white-space: nowrap;
+}
+
+.erp-order-table td {
+  padding: 12px;
+  border-bottom: 1px solid #f0ece3;
+  vertical-align: middle;
+}
+
+.erp-order-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.erp-order-table tbody tr:hover {
+  background-color: #fdfcf9;
+}
+
+.col-type {
+  width: 70px;
+  text-align: center;
+}
+
+.col-name {
+  min-width: 180px;
+}
+
+.col-qty {
+  width: 80px;
+  white-space: nowrap;
+}
+
+.col-unit {
+  width: 50px;
+  white-space: nowrap;
+}
+
+.col-price {
+  width: 100px;
+  white-space: nowrap;
+}
+
+.col-total {
+  width: 110px;
+  white-space: nowrap;
+}
+
+.erp-order-table tfoot tr {
+  background-color: #f7f5f0;
+  border-top: 2px solid #e1dcd1;
+}
+
+.erp-subtotal-label {
+  color: var(--primary);
+  font-size: 13px;
+}
+
+.erp-subtotal-amount {
+  color: var(--primary);
+  font-size: 14px;
+}
+
+.item-class-tag {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+.tag-material {
+  background-color: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+}
+
+.tag-accessory {
+  background-color: #fffbe6;
+  color: #b45309;
+  border: 1px solid #fef08a;
+}
+
+.erp-item-name-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.erp-item-brand {
+  font-size: 11px;
+  color: var(--text-light);
+  font-weight: 600;
+}
+
+.erp-item-title {
+  font-size: 13.5px;
+  color: var(--primary);
+}
+
+.erp-item-sub {
+  font-size: 11.5px;
+  color: var(--text-light);
+}
+
+.highlight-qty {
+  color: #111827;
+  font-size: 14px;
+}
+
+.summary-val-highlight {
+  font-weight: 700;
+  color: var(--primary);
+}
+
+@media (max-width: 640px) {
+  .erp-order-table th, 
+  .erp-order-table td {
+    padding: 8px 10px;
+    font-size: 12.5px;
+  }
+
+  .col-type {
+    display: none;
+  }
+
+  .erp-order-table th.col-type {
+    display: none;
+  }
+}
+

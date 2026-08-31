@@ -846,36 +846,24 @@ export default function MaterialDetail() {
     if (Array.isArray(item.images)) {
       candidates.push(...item.images);
     }
-    if (Array.isArray(rawImages.itemImages)) {
-      candidates.push(...rawImages.itemImages);
-    }
 
     // 3) 2x2 또는 4칸 패턴 이미지 (galleryImages, detailImages)
     if (Array.isArray(rawImages.galleryObjs)) {
       rawImages.galleryObjs.forEach(go => {
-        if (go.detail) candidates.push(go.detail);
-        if (go.thumbnail) candidates.push(go.thumbnail);
+        const imgPath = go.detail || go.thumbnail;
+        if (imgPath) candidates.push(imgPath);
       });
     }
     if (Array.isArray(item.galleryImages)) {
       candidates.push(...item.galleryImages);
     }
-    if (Array.isArray(rawImages.itemGalleryImages)) {
-      candidates.push(...rawImages.itemGalleryImages);
-    }
     if (Array.isArray(item.detailImages)) {
       candidates.push(...item.detailImages);
-    }
-    if (Array.isArray(rawImages.itemDetailImages)) {
-      candidates.push(...rawImages.itemDetailImages);
     }
 
     // 4) 시공 이미지 (installationImages)
     if (Array.isArray(item.installationImages)) {
       candidates.push(...item.installationImages);
-    }
-    if (Array.isArray(rawImages.itemInstallationImages)) {
-      candidates.push(...rawImages.itemInstallationImages);
     }
 
     // Deduplicate
@@ -2112,12 +2100,16 @@ export default function MaterialDetail() {
          4. Fixed Bottom CTA Bar (Mobile Viewports Only)
          ========================================== */}
       <div className="mobile-cta-fixed-bar">
+        <div className="mobile-cta-summary-row" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '2px 4px', fontSize: '13px' }}>
+          <span style={{ color: 'var(--text-muted)' }}>선택 수량: <strong style={{ color: 'var(--primary)' }}>{qty} {productUnit}</strong></span>
+          <span style={{ fontSize: '14px', color: 'var(--text-muted)' }}>예상금액: <strong style={{ color: 'var(--point-gold)', fontSize: '16px', fontWeight: '800' }}>{displayPriceNum > 0 ? (displayPriceNum * qty).toLocaleString() : '가격문의'}원</strong></span>
+        </div>
         <div className="mobile-cta-sub-row">
           <button className="mobile-cta-sub-btn" onClick={handleEstimate}>
-            <FileText size={14} /> 견적 요청하기
+            <FileText size={13} /> 견적요청
           </button>
           <a href="tel:02-487-9775" className="mobile-cta-sub-btn">
-            <Phone size={14} /> 전화 문의하기
+            <Phone size={13} /> 전화문의
           </a>
         </div>
         <div className="mobile-cta-main-row">

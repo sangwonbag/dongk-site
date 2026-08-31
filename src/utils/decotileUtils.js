@@ -1,14 +1,17 @@
 /**
  * Dongkyung Flooring (동경바닥재) - Decotile Unified Calculation Utility
  * 
- * Core Rule:
+ * Core Rules:
  * 1 Box Decotile = 1 Pyeong (1박스 = 1평) unconditionally.
  * Required boxes = Required pyeong.
  * Ordered pyeong = Ordered boxes.
- * Decotile 50+ boxes = 50+ pyeong = Free Shipping.
+ * Decotile 50+ boxes of the SAME BRAND = 50+ pyeong = Free Shipping benefit automatically.
+ * Different brands are NOT summed together.
  */
 
-export const DECOTILE_NOTICE_TEXT = "데코타일은 주문 계산 시 1박스를 1평으로 계산합니다.";
+import { isAccessoryItem } from "./productClassification";
+
+export const DECOTILE_NOTICE_TEXT = "동일 브랜드 데코타일 50평(50박스) 이상 주문 시 배송비 무료 혜택이 자동 적용됩니다.";
 
 /**
  * Safely check if a product or category string is Decotile.
@@ -39,9 +42,10 @@ export const isDecoTile = (productOrCategory) => {
  * Calculate order pyeong for a product item based on quantity.
  * For Decotile: 1 Box = 1 Pyeong (returns box quantity directly).
  * For non-Decotile categories: preserves original calculation formulas.
+ * Accessories unconditionally return 0 pyeong.
  */
 export const getOrderPyeong = (item, quantityOverride = null) => {
-  if (!item) return 0;
+  if (!item || isAccessoryItem(item)) return 0;
   const qty = parseInt(quantityOverride !== null ? quantityOverride : item.quantity) || 1;
 
   // 1. Decotile Category: 1 Box = 1 Pyeong unconditionally
@@ -68,7 +72,49 @@ export const getOrderPyeong = (item, quantityOverride = null) => {
 };
 
 /**
- * Sum total Decotile boxes (pyeong) in an array of cart/checkout items.
+ * Group decotile items by brand and sum boxes per brand.
+ * @returns {Object} Map of BRAND_NAME -> totalBoxes
+ */
+export const calculateDecotileBoxesByBrand = (cartItems) => {
+  if (!cartItems || !Array.isArray(cartItems)) return {};
+  const brandMap = {};
+  cartItems.forEach(item => {
+    if (isDecoTile(item)) {
+      const rawBrand = item.brand || '기타';
+      const brandKey = rawBrand.trim().toUpperCase();
+      const qty = parseInt(item.quantity) || 1;
+      brandMap[brandKey] = (brandMap[brandKey] || 0) + qty;
+    }
+  });
+  return brandMap;
+};
+
+/**
+ * Check if ANY single brand's Decotile total pyeong is >= 50.
+ * @returns {{ eligible: boolean, eligibleBrands: string[], brandTotals: Object, maxBrandBoxes: number }}
+ */
+export const getDecotileFreeShippingStatus = (cartItems) => {
+  const brandTotals = calculateDecotileBoxesByBrand(cartItems);
+  const eligibleBrands = [];
+  let maxBrandBoxes = 0;
+
+  Object.entries(brandTotals).forEach(([brand, boxes]) => {
+    if (boxes > maxBrandBoxes) maxBrandBoxes = boxes;
+    if (boxes >= 50) {
+      eligibleBrands.push(brand);
+    }
+  });
+
+  return {
+    eligible: eligibleBrands.length > 0,
+    eligibleBrands,
+    brandTotals,
+    maxBrandBoxes
+  };
+};
+
+/**
+ * Sum total Decotile boxes across all items in cart.
  */
 export const calculateDecotileBoxes = (cartItems) => {
   if (!cartItems || !Array.isArray(cartItems)) return 0;
@@ -78,9 +124,8 @@ export const calculateDecotileBoxes = (cartItems) => {
 };
 
 /**
- * Check if the Decotile items in the cart meet the 50 box (50 pyeong) threshold for free shipping.
+ * Check if same-brand Decotile items meet the 50 box threshold.
  */
 export const isDecotileFreeShippingEligible = (cartItems) => {
-  const totalBoxes = calculateDecotileBoxes(cartItems);
-  return totalBoxes >= 50;
+  return getDecotileFreeShippingStatus(cartItems).eligible;
 };
