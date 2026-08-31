@@ -1,12 +1,22 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Skeleton from "./Skeleton";
 import "./ProductImage.css";
 
 export default function ProductImage({ src, alt, className = "", style = {}, fit = "contain" }) {
   const [hasError, setHasError] = useState(false);
   const [loaded, setLoaded] = useState(false);
+  const imgRef = useRef(null);
 
-  // Check if src is empty or invalid
+  // Clean URI encoded paths safely
+  const cleanSrc = (() => {
+    if (!src || typeof src !== "string") return src;
+    try {
+      return decodeURIComponent(src);
+    } catch (e) {
+      return src;
+    }
+  })();
+
   const isInvalidSrc = (val) => {
     if (val === undefined || val === null) return true;
     if (Array.isArray(val)) return val.length === 0;
@@ -26,9 +36,19 @@ export default function ProductImage({ src, alt, className = "", style = {}, fit
   useEffect(() => {
     setHasError(false);
     setLoaded(false);
-  }, [src]);
 
-  const invalid = isInvalidSrc(src);
+    if (imgRef.current) {
+      if (imgRef.current.complete) {
+        if (imgRef.current.naturalWidth > 0) {
+          setLoaded(true);
+        } else if (imgRef.current.src && imgRef.current.src !== window.location.href) {
+          setHasError(true);
+        }
+      }
+    }
+  }, [cleanSrc]);
+
+  const invalid = isInvalidSrc(cleanSrc);
 
   if (invalid || hasError) {
     return (
@@ -48,15 +68,16 @@ export default function ProductImage({ src, alt, className = "", style = {}, fit
         </div>
       )}
       <img
-        src={src}
+        ref={imgRef}
+        src={cleanSrc}
         alt={alt}
         className={className}
         loading="lazy"
         onLoad={() => setLoaded(true)}
         onError={() => setHasError(true)}
         style={{
-          opacity: loaded ? 1 : 0,
-          transition: "opacity 0.25s ease-in-out",
+          opacity: 1,
+          transition: "opacity 0.2s ease-in-out",
           width: "100%",
           height: "100%",
           objectFit: fit,

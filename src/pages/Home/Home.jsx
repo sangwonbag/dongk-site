@@ -138,106 +138,14 @@ export default function Home() {
               <button className="spruce-btn-primary" onClick={() => nav("/materials")}>
                 자재 찾아보기
               </button>
-              <button className="spruce-btn-secondary" onClick={() => {
-                const el = document.getElementById("auto-estimate-section");
-                if (el) el.scrollIntoView({ behavior: "smooth" });
-              }}>
+              <button className="spruce-btn-secondary" onClick={() => nav("/estimate-request")}>
                 자동견적
               </button>
             </div>
           </div>
         </section>
 
-        {/* ================= 2. AUTOMATIC ESTIMATE CTA (평수 계산기) ================= */}
-        <section id="auto-estimate-section" className="spruce-estimate-cta-section">
-          <div className="container">
-            <div className="estimate-cta-box">
-              <div className="est-intro">
-                <h2>몇 평인지 입력해보세요</h2>
-                <p>공간과 평수만 선택하면 필요한 자재 수량과 예상 견적을 즉시 계산해 드립니다.</p>
-              </div>
-
-              <div className="est-form-grid">
-                <div className="form-group">
-                  <label>공간 유형</label>
-                  <select value={estSpaceType} onChange={e => setEstSpaceType(e.target.value)}>
-                    <option value="거실">거실 / 주거</option>
-                    <option value="원룸">원룸 / 오피스텔</option>
-                    <option value="사무실">사무실</option>
-                    <option value="상업공간">상업공간</option>
-                    <option value="학원">학원 / 교육시설</option>
-                    <option value="병원">병원 / 의료시설</option>
-                  </select>
-                </div>
-
-                <div className="form-group">
-                  <label>시공 평수</label>
-                  <div className="input-pyeong-row">
-                    <input
-                      type="number"
-                      min="1"
-                      max="500"
-                      value={estPyeong}
-                      onChange={e => setEstPyeong(e.target.value)}
-                    />
-                    <span>평</span>
-                  </div>
-                </div>
-
-                <div className="form-group">
-                  <label>자재 종목</label>
-                  <select value={estMaterialCategory} onChange={e => setEstMaterialCategory(e.target.value)}>
-                    <option value="장판">장판</option>
-                    <option value="데코타일">데코타일</option>
-                    <option value="마루">마루 (강마루)</option>
-                    <option value="카페트타일">카페트타일</option>
-                    <option value="벽지">벽지</option>
-                  </select>
-                </div>
-
-                <div className="form-group">
-                  <label>브랜드</label>
-                  <select value={estBrand} onChange={e => setEstBrand(e.target.value)}>
-                    <option value="LX">LX 하우시스</option>
-                    <option value="KCC">KCC 글라스</option>
-                    <option value="동신">동신</option>
-                    <option value="동화">동화자연마루</option>
-                    <option value="신한">신한벽지</option>
-                    <option value="개나리">개나리벽지</option>
-                  </select>
-                </div>
-              </div>
-
-              <div className="est-result-panel">
-                <div className="result-row">
-                  <span>예상 필요 수량</span>
-                  <strong>약 {estCalculation.neededUnits} 평 분량</strong>
-                </div>
-                <div className="result-row">
-                  <span>예상 자재비</span>
-                  <span>{estCalculation.materialCost.toLocaleString()} 원</span>
-                </div>
-                <div className="result-row">
-                  <span>예상 부자재비 (본드/부자재)</span>
-                  <span>{estCalculation.subMaterialCost.toLocaleString()} 원</span>
-                </div>
-                <div className="result-total-row">
-                  <span>총 예상 견적 금액</span>
-                  <strong>{estCalculation.totalCost.toLocaleString()} 원</strong>
-                </div>
-
-                <div className="est-action-btns">
-                  <button className="est-add-cart-btn" onClick={handleAddEstToCart}>
-                    <ShoppingBag size={18} /> 견적 세트 장바구니 담기
-                  </button>
-                  {addedToast && <span className="est-toast">✓ 장바구니에 담겼습니다!</span>}
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* ================= 3. CORE VALUE BARS ================= */}
+        {/* ================= 2. CORE VALUE BARS ================= */}
         <section className="spruce-values-section">
           <div className="container">
             <div className="values-grid">
