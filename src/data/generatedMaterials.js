@@ -12,7 +12,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30082P.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -40,7 +40,7 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30102P_1.png",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30102P_2.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -66,7 +66,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30111P.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -92,7 +92,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30112P.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -118,7 +118,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30113P.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -144,7 +144,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30114P.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -170,7 +170,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30133P.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -196,7 +196,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30141M.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -222,7 +222,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30142M.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -248,7 +248,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30151M.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -274,7 +274,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30152M.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -300,7 +300,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30153M.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -326,7 +326,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30154M.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -352,7 +352,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30161M.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -378,7 +378,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30162M.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -404,7 +404,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30163M.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -430,7 +430,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30171M.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -456,7 +456,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30181M.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -482,7 +482,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30182M.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -508,7 +508,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30191M.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -534,7 +534,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30192M.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -560,7 +560,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30193M.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -586,7 +586,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30201M.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -613,7 +613,7 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30221P_0.png",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30221P_1.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -640,7 +640,7 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30222P.png",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30222P_1.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -667,7 +667,7 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30223P.png",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30223P_1.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -694,7 +694,7 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30224P.png",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30224P_1.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -721,7 +721,7 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30225P.png",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30225P_1.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -748,7 +748,7 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30226P_0.png",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30226P_1.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -774,7 +774,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33011P.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -800,7 +800,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33021M.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -826,7 +826,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33022M.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -852,7 +852,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33023M.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -878,7 +878,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33031M.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -904,7 +904,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33032M.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -930,7 +930,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33101M.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -956,7 +956,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33102M.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -982,7 +982,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33121P.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1008,7 +1008,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33122P.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1034,7 +1034,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33151M.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1060,7 +1060,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33152M.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1086,7 +1086,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33161P.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1112,7 +1112,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33171P.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1138,7 +1138,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33172P.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1164,7 +1164,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33181P.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1190,7 +1190,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33182P.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1216,7 +1216,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33183P.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1242,7 +1242,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33191P.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1268,7 +1268,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33192P.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1294,7 +1294,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33201P.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1320,7 +1320,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33211P.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1346,7 +1346,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35001G.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1372,7 +1372,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35011G.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1398,7 +1398,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35022G.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1424,7 +1424,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35042G.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1450,7 +1450,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35043G.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1476,7 +1476,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35051G.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1502,7 +1502,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35052G.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1528,7 +1528,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35062G.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1554,7 +1554,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35064G.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1580,7 +1580,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38011G.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1606,7 +1606,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38021G.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1632,7 +1632,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38031G.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1658,7 +1658,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38141G.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1684,7 +1684,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38142G.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
@@ -1710,7 +1710,7 @@ export const materials = [
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38191G.png"
     ],
-    "price": 27000,
+    "price": 35000,
     "thickness": "3.0T",
     "specs": {
       "division": "센스타일 프로",
