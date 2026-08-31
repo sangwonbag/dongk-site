@@ -7,9 +7,16 @@ const SUPABASE_PUBLIC_URL_PREFIX = "https://ymoshkaiwvnmhhcglpjj.supabase.co/sto
 // Helper to clean paths and convert to full URL
 function toFullImageUrl(path) {
   if (!path) return '';
-  if (path.startsWith('http')) return path;
-  if (path.startsWith('/')) return path;
-  return SUPABASE_PUBLIC_URL_PREFIX + path;
+  let str = String(path).trim();
+  try {
+    if (str.includes('%')) {
+      str = decodeURIComponent(str);
+    }
+  } catch (e) {}
+
+  if (str.startsWith('http')) return str;
+  if (str.startsWith('/')) return str;
+  return SUPABASE_PUBLIC_URL_PREFIX + str;
 }
 
 // Normalize codes and texts by stripping spaces, special chars, and capitalizing

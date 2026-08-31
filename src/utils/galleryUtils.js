@@ -8,9 +8,13 @@ export const SUPABASE_PUBLIC_URL_PREFIX = "https://ymoshkaiwvnmhhcglpjj.supabase
 
 function toFullUrl(path) {
     if (!path) return "";
-    if (path.startsWith('http')) return path;
-    if (path.startsWith('/')) return path; // Keep absolute local paths
-    return SUPABASE_PUBLIC_URL_PREFIX + path;
+    let str = String(path).trim();
+    try {
+        if (str.includes('%')) str = decodeURIComponent(str);
+    } catch (e) {}
+    if (str.startsWith('http')) return str;
+    if (str.startsWith('/')) return str; // Keep absolute local paths
+    return SUPABASE_PUBLIC_URL_PREFIX + str;
 }
 
 export async function getThumbnailImage(item) {
