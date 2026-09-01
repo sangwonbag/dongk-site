@@ -18,8 +18,10 @@ export function normalizeProductImageUrl(rawUrl) {
 
   // Handle URI encoded Korean characters safely
   try {
-    if (str.includes('%')) {
+    while (str.includes('%')) {
+      const prev = str;
       str = decodeURIComponent(str);
+      if (str === prev) break;
     }
   } catch (e) {
     // Keep original string if decoding fails
