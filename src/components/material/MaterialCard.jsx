@@ -5,6 +5,7 @@ import { useEstimateCart } from '../../contexts/EstimateCartContext';
 import { useAuth } from '../../contexts/AuthContext';
 import { getThumbnailImage } from '../../utils/galleryUtils';
 import { getMaterialImagePath } from '../../utils/materialImageResolver';
+import { getProductImageUrl } from '../../utils/productImageResolver';
 import { getComputedBrand, getNormalizedThickness, formatFlooringProductName, getProductUnit, formatShapeOrPattern } from '../../utils/brandUtils';
 import { isDecoTile } from '../../utils/decotileUtils';
 import { Skeleton, ImagePlaceholder, ProductImage } from '../ui';
@@ -35,11 +36,7 @@ const MaterialCard = ({ material }) => {
     
     const [qty, setQty] = useState(1);
 
-    // Hybrid local-sync / Supabase-async resolver to eliminate render flickering
-    const [coverUrl, setCoverUrl] = useState(() => {
-        const localPath = getMaterialImagePath(material);
-        return localPath !== "/images/no-image.svg" ? localPath : "";
-    });
+    const [coverUrl, setCoverUrl] = useState(() => getProductImageUrl(material));
 
     const hasOptions = material.sizeOptions && material.sizeOptions.length >= 2;
     const [selectedOption, setSelectedOption] = useState(() => {
@@ -90,21 +87,7 @@ const MaterialCard = ({ material }) => {
     })();
 
     useEffect(() => {
-        let isMounted = true;
-        const localPath = getMaterialImagePath(material);
-        if (localPath !== "/images/no-image.svg") {
-            Promise.resolve().then(() => {
-                if (isMounted) setCoverUrl(localPath);
-            });
-            return;
-        }
-
-        getThumbnailImage(material).then((url) => {
-            if (isMounted && url) {
-                setCoverUrl(url);
-            }
-        });
-        return () => { isMounted = false; };
+        setCoverUrl(getProductImageUrl(material));
     }, [material]);
 
     const parsePrice = (priceVal) => {

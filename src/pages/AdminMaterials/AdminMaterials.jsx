@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import MainLayout from '../../components/layout/MainLayout';
 import { supabase } from '../../lib/supabaseClient';
 import { fetchAllProducts, clearProductCache } from '../../utils/supabaseFetcher';
+import { getProductImageUrl } from '../../utils/productImageResolver';
 import { useAuth } from '../../contexts/AuthContext';
 import { ArrowLeft, Plus, Search, Edit2, Trash2, Save, X, Upload, Layers, Image as ImageIcon, Loader2 } from 'lucide-react';
 import { LoadingSpinner, EmptyState } from '../../components/ui';
@@ -565,11 +566,13 @@ export default function AdminMaterials() {
                   <tr key={p.id}>
                     <td className="img-cell">
                       <img
-                        src={p.image_url || "/images/no-image.svg"}
+                        src={getProductImageUrl(p)}
                         alt={p.name}
                         onError={(e) => {
-                          e.target.onerror = null;
-                          e.target.src = "/images/no-image.svg";
+                          if (e.target.src !== "/images/no-image.svg") {
+                            e.target.onerror = null;
+                            e.target.src = "/images/no-image.svg";
+                          }
                         }}
                       />
                     </td>

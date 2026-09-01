@@ -313,6 +313,13 @@ export default function Header() {
     import("../../pages/Materials/Materials").catch(() => {});
   };
 
+  const handleEstimateNav = () => {
+    if (!currentUser) {
+      openLoginModal();
+    }
+    nav("/estimate/request");
+  };
+
   return (
     <div ref={headerRef} className={`header-wrapper ${isHome ? "is-home" : ""} ${isScrolled ? "is-scrolled" : "is-transparent"}`}>
       {/* Top Notice Bar - Hidden on homepage when transparent for full immersion */}
@@ -388,7 +395,7 @@ export default function Header() {
             </div>
 
             <span className={`menu-link ${location.pathname === '/samplebooks' ? 'active' : ''}`} onClick={() => nav("/samplebooks")}>샘플북</span>
-            <span className={`menu-link ${location.pathname === '/estimate/request' || location.pathname === '/estimate' ? 'active' : ''}`} onClick={() => nav("/estimate/request")}>자동견적</span>
+            <span className={`menu-link ${location.pathname === '/estimate/request' || location.pathname === '/estimate' ? 'active' : ''}`} onClick={handleEstimateNav}>자동견적</span>
           </nav>
 
           {/* Search Bar */}
@@ -523,7 +530,7 @@ export default function Header() {
           </span>
           <span className="drawer-link" onClick={() => { nav("/samplebooks"); setMobileMenuOpen(false); }}>샘플북</span>
           <span className="drawer-link" onClick={() => { nav("/cases"); setMobileMenuOpen(false); }}>시공사례</span>
-          <span className="drawer-link" onClick={() => { nav("/estimate/request"); setMobileMenuOpen(false); }}>견적문의</span>
+          <span className="drawer-link" onClick={() => { handleEstimateNav(); setMobileMenuOpen(false); }}>자동견적</span>
         </div>
         <div className="drawer-actions">
           <button className="drawer-cart-btn" onClick={() => { nav("/cart"); setMobileMenuOpen(false); }}>

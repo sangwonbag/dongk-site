@@ -6,11 +6,54 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 40px 24px 100px;
+  transition: max-width 0.3s ease;
+}
+
+.est-page.wide-page {
+  max-width: 1080px;
+}
+
+/* View Tab Buttons */
+.est-view-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.btn-est-tab {
+  flex: 1;
+  max-width: 320px;
+  padding: 14px 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  border: 2px solid #cbd5e1;
+  background-color: #ffffff;
+  color: #475569;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-est-tab:hover {
+  border-color: #0f172a;
+  color: #0f172a;
+}
+
+.btn-est-tab.active {
+  background-color: #0f172a;
+  color: #ffffff;
+  border-color: #0f172a;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.2);
 }
 
 .est-header {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .est-header h1 {

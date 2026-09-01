@@ -4,8 +4,9 @@ import MainLayout from '../../components/layout/MainLayout';
 import { KAKAO_CHAT_URL, OFFICE_PHONE, OFFICE_ADDRESS, NAVER_MAP_URL } from '../../constants/contact';
 import { useEstimateCart } from '../../contexts/EstimateCartContext';
 import { useAuth } from '../../contexts/AuthContext';
-import { ArrowLeft, Trash2, Plus, Minus, CheckCircle, Phone, MessageSquare, MapPin } from 'lucide-react';
+import { ArrowLeft, Trash2, Plus, Minus, CheckCircle, Phone, MessageSquare, MapPin, Calculator, FileText } from 'lucide-react';
 import MaterialSearchModal from './MaterialSearchModal';
+import JangpanAutoCalculator from '../../components/estimate/JangpanAutoCalculator';
 import { createEstimateInquiry } from '../../services/estimateInquiryService';
 import { sendOrderNotification } from '../../services/notificationService';
 import { loadDaumPostcode } from '../../utils/loadDaumPostcode';
@@ -23,6 +24,7 @@ export default function EstimateRequest() {
   const { cartItems, updateQuantity, syncAutomaticQuantities, removeFromCart, clearCart } = useEstimateCart();
   const { user: currentUser, openLoginModal } = useAuth();
   
+  const [activeViewTab, setActiveViewTab] = useState('calc'); // 'calc' | 'inquiry'
   const [step, setStep] = useState(1);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
@@ -492,56 +494,89 @@ export default function EstimateRequest() {
     );
   }
 
+  const handleCalculatorInquiry = (quoteResult) => {
+    if (quoteResult && quoteResult.areaPyeong) {
+      setSite(prev => ({ ...prev, areaPyeong: String(quoteResult.areaPyeong) }));
+    }
+    setActiveViewTab('inquiry');
+    setStep(1);
+    window.scrollTo({ top: 100, behavior: 'smooth' });
+  };
+
   const pyeongVal = parseFloat(site.areaPyeong);
   const defaultQuantity = (!isNaN(pyeongVal) && pyeongVal > 0) ? (pyeongVal > 1000 ? 1000 : pyeongVal) : 1;
 
   return (
     <MainLayout>
-      <div className="container est-page">
+      <div className={`container est-page ${activeViewTab === 'calc' ? 'wide-page' : ''}`}>
         <div className="est-header">
-          <h1>견적요청</h1>
-          <p>현장 정보와 필요한 자재를 입력해주시면 확인 후 연락드리겠습니다.</p>
+          <h1>자동견적 & 상담요청</h1>
+          <p>실시간 장판 자동 견적계산 및 1:1 맞춤 견적 문의를 빠르게 진행하세요.</p>
         </div>
 
-        {location.state?.selectedProduct && (
-          <div className="product-prefill-banner" style={{
-            backgroundColor: '#e6f4ea',
-            border: '1.5px solid #137333',
-            color: '#137333',
-            padding: '16px 20px',
-            borderRadius: '12px',
-            marginBottom: '30px',
-            fontSize: '14.5px',
-            fontWeight: '600',
-            lineHeight: '1.5',
-            display: 'flex',
-            alignItems: 'center',
-            gap: '10px'
-          }}>
-            <CheckCircle size={20} style={{ flexShrink: 0 }} />
-            <div>
-              선택하신 자재 <strong>[{location.state.selectedProduct.brand}] {location.state.selectedProduct.name}{location.state.selectedProduct.selectedSize ? ` / ${location.state.selectedProduct.selectedSize}` : ''} {location.state.selectedProduct.code ? `(${location.state.selectedProduct.code})` : ''}</strong> 정보가 견적서에 자동 추가되었습니다. 연락처와 주소 등 기본 사항만 채우시면 간편하게 접수하실 수 있습니다.
-            </div>
-          </div>
-        )}
-
-        {/* Steps */}
-        <div className="est-stepper">
-          {[1, 2, 3, 4].map(num => (
-            <div key={num} className={`step ${step === num ? 'active' : step > num ? 'completed' : ''}`}>
-              <div className="step-circle">{step > num ? '✓' : num}</div>
-              <span>
-                {num === 1 ? '고객정보' : num === 2 ? '현장정보' : num === 3 ? '자재선택' : '확인/제출'}
-              </span>
-            </div>
-          ))}
+        {/* View Switcher Tabs */}
+        <div className="est-view-tabs">
+          <button
+            type="button"
+            className={`btn-est-tab ${activeViewTab === 'calc' ? 'active' : ''}`}
+            onClick={() => setActiveViewTab('calc')}
+          >
+            <Calculator size={18} />
+            <span>장판 자동 견적계산기</span>
+          </button>
+          <button
+            type="button"
+            className={`btn-est-tab ${activeViewTab === 'inquiry' ? 'active' : ''}`}
+            onClick={() => setActiveViewTab('inquiry')}
+          >
+            <FileText size={18} />
+            <span>1:1 견적요청 / 상담접수</span>
+          </button>
         </div>
 
-        {errors.length > 0 && (
-          <div className="est-errors">
-            <ul>{errors.map((e, i) => <li key={i}>{e}</li>)}</ul>
-          </div>
-        )}
+        {activeViewTab === 'calc' ? (
+          <JangpanAutoCalculator onSelectForInquiry={handleCalculatorInquiry} />
+        ) : (
+          <>
+            {location.state?.selectedProduct && (
+              <div className="product-prefill-banner" style={{
+                backgroundColor: '#e6f4ea',
+                border: '1.5px solid #137333',
+                color: '#137333',
+                padding: '16px 20px',
+                borderRadius: '12px',
+                marginBottom: '30px',
+                fontSize: '14.5px',
+                fontWeight: '600',
+                lineHeight: '1.5',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '10px'
+              }}>
+                <CheckCircle size={20} style={{ flexShrink: 0 }} />
+                <div>
+                  선택하신 자재 <strong>[{location.state.selectedProduct.brand}] {location.state.selectedProduct.name}{location.state.selectedProduct.selectedSize ? ` / ${location.state.selectedProduct.selectedSize}` : ''} {location.state.selectedProduct.code ? `(${location.state.selectedProduct.code})` : ''}</strong> 정보가 견적서에 자동 추가되었습니다. 연락처와 주소 등 기본 사항만 채우시면 간편하게 접수하실 수 있습니다.
+                </div>
+              </div>
+            )}
+
+            {/* Steps */}
+            <div className="est-stepper">
+              {[1, 2, 3, 4].map(num => (
+                <div key={num} className={`step ${step === num ? 'active' : step > num ? 'completed' : ''}`}>
+                  <div className="step-circle">{step > num ? '✓' : num}</div>
+                  <span>
+                    {num === 1 ? '고객정보' : num === 2 ? '현장정보' : num === 3 ? '자재선택' : '확인/제출'}
+                  </span>
+                </div>
+              ))}
+            </div>
+
+            {errors.length > 0 && (
+              <div className="est-errors">
+                <ul>{errors.map((e, i) => <li key={i}>{e}</li>)}</ul>
+              </div>
+            )}
 
         <div className="est-form">
           {step === 1 && (
@@ -816,7 +851,9 @@ export default function EstimateRequest() {
             </button>
           )}
         </div>
-      </div>
+      </>
+    )}
+  </div>
 
       {isModalOpen && (
         <MaterialSearchModal 

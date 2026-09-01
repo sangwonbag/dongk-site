@@ -1,22 +1,13 @@
 import { imageManifest } from '../data/materialImageManifest.generated.js';
 import { imageManifest as imageManifestMap } from '../data/imageManifest.js';
 import { getUniqueProductImages } from './galleryNormalizer.js';
+import { getProductImageUrl, normalizeProductImageUrl } from './productImageResolver.js';
 
 const SUPABASE_PUBLIC_URL_PREFIX = "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/";
 
 // Helper to clean paths and convert to full URL
 function toFullImageUrl(path) {
-  if (!path) return '';
-  let str = String(path).trim();
-  try {
-    if (str.includes('%')) {
-      str = decodeURIComponent(str);
-    }
-  } catch (e) {}
-
-  if (str.startsWith('http')) return str;
-  if (str.startsWith('/')) return str;
-  return SUPABASE_PUBLIC_URL_PREFIX + str;
+  return normalizeProductImageUrl(path);
 }
 
 // Normalize codes and texts by stripping spaces, special chars, and capitalizing
@@ -264,16 +255,14 @@ export function resolveProductImages(material) {
 }
 
 export function resolveProductCardImage(material) {
+  const url = getProductImageUrl(material);
+  if (url && url !== '/images/no-image.svg') {
+    return url;
+  }
+
   const images = resolveProductImages(material);
-  
   if (images.length > 0) {
     return images[0];
-  }
-  
-  // Fallback to local image resolving logic
-  const localPath = getMaterialImagePath(material);
-  if (localPath && localPath !== '/images/no-image.svg') {
-    return localPath;
   }
   
   return '/images/no-image.svg';

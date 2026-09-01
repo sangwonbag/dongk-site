@@ -26,6 +26,14 @@ export default function MobileBottomNavigation() {
     }
   };
 
+  const handleEstimateClick = (e) => {
+    e.preventDefault();
+    if (!user) {
+      openLoginModal();
+    }
+    navigate("/estimate/request");
+  };
+
   const navItems = [
     {
       id: "home",
@@ -47,6 +55,7 @@ export default function MobileBottomNavigation() {
       path: "/estimate/request",
       icon: FileText,
       isActive: pathname.startsWith("/estimate"),
+      onClick: handleEstimateClick,
     },
     {
       id: "cart",

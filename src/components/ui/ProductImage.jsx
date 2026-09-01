@@ -37,14 +37,9 @@ export default function ProductImage({ src, alt, className = "", style = {}, fit
     setHasError(false);
     setLoaded(false);
 
-    if (imgRef.current) {
-      if (imgRef.current.complete) {
-        if (imgRef.current.naturalWidth > 0) {
-          setLoaded(true);
-        } else if (imgRef.current.src && imgRef.current.src !== window.location.href) {
-          setHasError(true);
-        }
-      }
+    // If image is already cached and loaded by browser, mark as loaded
+    if (imgRef.current && imgRef.current.complete && imgRef.current.naturalWidth > 0) {
+      setLoaded(true);
     }
   }, [cleanSrc]);
 
@@ -76,7 +71,7 @@ export default function ProductImage({ src, alt, className = "", style = {}, fit
         onLoad={() => setLoaded(true)}
         onError={() => setHasError(true)}
         style={{
-          opacity: 1,
+          opacity: loaded ? 1 : 0,
           transition: "opacity 0.2s ease-in-out",
           width: "100%",
           height: "100%",

@@ -4,6 +4,7 @@ import MainLayout from "../../components/layout/MainLayout";
 import { fetchAllProducts } from "../../utils/supabaseFetcher";
 import { getSupabaseImageUrl } from "../../utils/getSupabaseImageUrl";
 import { useEstimateCart } from "../../contexts/EstimateCartContext";
+import { useAuth } from "../../contexts/AuthContext";
 import { 
   ChevronRight, 
   Search, 
@@ -23,18 +24,12 @@ import "./Home.css";
 export default function Home() {
   const nav = useNavigate();
   const { addToCart } = useEstimateCart();
+  const { user: currentUser, openLoginModal } = useAuth();
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
   // Space recommendation tab state
   const [activeSpaceTab, setActiveSpaceTab] = useState("거실");
-
-  // Auto Estimate Widget State
-  const [estSpaceType, setEstSpaceType] = useState("거실");
-  const [estPyeong, setEstPyeong] = useState(20);
-  const [estMaterialCategory, setEstMaterialCategory] = useState("장판");
-  const [estBrand, setEstBrand] = useState("LX");
-  const [addedToast, setAddedToast] = useState(false);
 
   useEffect(() => {
     async function loadData() {
@@ -72,50 +67,11 @@ export default function Home() {
     return products.filter(p => p.category === "마루" || p.category === "장판" || p.category === "벽지").slice(0, 4);
   }, [products, activeSpaceTab]);
 
-  // Auto Estimate Calculation
-  const estCalculation = useMemo(() => {
-    const p = Math.max(1, Number(estPyeong) || 1);
-    let basePricePerPyeong = 25000;
-    let unitLabel = "평";
-    let neededUnits = p;
-
-    if (estMaterialCategory === "장판") {
-      basePricePerPyeong = 35000; // LX/KCC 장판 평균
-    } else if (estMaterialCategory === "데코타일") {
-      basePricePerPyeong = 27000; // 데코타일 평당
-    } else if (estMaterialCategory === "마루") {
-      basePricePerPyeong = 68000; // 강마루 평당
-    } else if (estMaterialCategory === "카페트타일") {
-      basePricePerPyeong = 55000;
-    } else if (estMaterialCategory === "벽지") {
-      basePricePerPyeong = 18000;
+  const handleEstimateClick = () => {
+    if (!currentUser) {
+      openLoginModal();
     }
-
-    const materialCost = Math.round(p * basePricePerPyeong);
-    const subMaterialCost = Math.round(p * 3500); // 본드/부자재 약 평당 3.5천원
-    const totalCost = materialCost + subMaterialCost;
-
-    return {
-      neededUnits,
-      materialCost,
-      subMaterialCost,
-      totalCost
-    };
-  }, [estPyeong, estMaterialCategory]);
-
-  const handleAddEstToCart = () => {
-    addToCart({
-      id: `est-${Date.now()}`,
-      name: `${estBrand} ${estMaterialCategory} (${estSpaceType} ${estPyeong}평 견적 세트)`,
-      brand: estBrand,
-      category: estMaterialCategory,
-      code: `EST-${estPyeong}PY`,
-      price: estCalculation.totalCost,
-      quantity: 1,
-      unit: "세트"
-    });
-    setAddedToast(true);
-    setTimeout(() => setAddedToast(false), 3000);
+    nav("/estimate/request");
   };
 
   return (
@@ -138,7 +94,7 @@ export default function Home() {
               <button className="spruce-btn-primary" onClick={() => nav("/materials")}>
                 자재 찾아보기
               </button>
-              <button className="spruce-btn-secondary" onClick={() => nav("/estimate-request")}>
+              <button className="spruce-btn-secondary" onClick={handleEstimateClick}>
                 자동견적
               </button>
             </div>

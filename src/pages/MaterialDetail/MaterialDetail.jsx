@@ -20,6 +20,7 @@ import { useEstimateCart } from "../../contexts/EstimateCartContext";
 import { KAKAO_CHAT_URL } from "../../constants/contact";
 import { getValidGalleryImages, getDetailImage, getThumbnailImage } from "../../utils/galleryUtils";
 import { getMaterialImagePath } from "../../utils/materialImageResolver";
+import { getProductImageUrl } from "../../utils/productImageResolver";
 import { supabase } from "../../lib/supabaseClient";
 import { useAuth } from "../../contexts/AuthContext";
 import { materials } from "../../data/materials.db"; // Local fallback data
@@ -830,6 +831,11 @@ export default function MaterialDetail() {
     if (!item) return [];
 
     const candidates = [];
+
+    const primaryUrl = getProductImageUrl(item);
+    if (primaryUrl && primaryUrl !== '/images/no-image.svg') {
+      candidates.push(primaryUrl);
+    }
 
     // 1) 대표 제품 이미지 (mainImage, image, thumbnail, thumbnailImage, etc.)
     if (item.brand === '이건' && rawImages.eagonImg) {
