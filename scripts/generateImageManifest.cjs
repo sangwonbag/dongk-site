@@ -118,13 +118,19 @@ const manifestData = allFiles.map(fullPath => {
   const extractedCode = extractCode(fileName);
   const normalizedFileName = fileName.replace(/[^a-zA-Z0-9가-힣]/g, '').toLowerCase();
 
-  // Create a safe, URL-encoded path for browser loading
-  // We want to URL-encode each segment of the path individually to preserve slashes "/"
-  const encodedPath = '/' + relativeFromPublic.split('/').map(segment => encodeURIComponent(segment)).join('/');
+  // Create a clean unencoded public path for browser loading
+  let cleanPublicPath = '/' + relativeFromPublic.replace(/\\/g, '/');
+  try {
+    while (cleanPublicPath.includes('%')) {
+      const prev = cleanPublicPath;
+      cleanPublicPath = decodeURIComponent(cleanPublicPath);
+      if (cleanPublicPath === prev) break;
+    }
+  } catch (e) {}
 
   return {
     fileName,
-    fullPublicPath: encodedPath,
+    fullPublicPath: cleanPublicPath,
     category,
     brand,
     series,

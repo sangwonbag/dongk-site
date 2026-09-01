@@ -581,9 +581,22 @@ export default function MaterialDetail() {
   }, [id]);
 
   const handleImageError = (brokenSrc) => {
-    if (!brokenSrc) return;
+    if (!brokenSrc || typeof brokenSrc !== 'string') return;
+    let cleanSrc = brokenSrc.split('?')[0].trim();
+    try {
+      while (cleanSrc.includes('%')) {
+        const prev = cleanSrc;
+        cleanSrc = decodeURIComponent(cleanSrc);
+        if (cleanSrc === prev) break;
+      }
+    } catch (e) {}
+
+    if (cleanSrc.includes('no-image.svg') || cleanSrc.includes('deco_tile.png')) return;
+
     setBrokenImages(prev => {
+      if (prev.has(cleanSrc) || prev.has(brokenSrc)) return prev;
       const next = new Set(prev);
+      next.add(cleanSrc);
       next.add(brokenSrc);
       return next;
     });
@@ -828,7 +841,7 @@ export default function MaterialDetail() {
 
   // Generate finalized deduplicated images array
   const productImages = useMemo(() => {
-    if (!item) return [];
+    if (!item) return ["/images/no-image.svg"];
 
     const candidates = [];
 
@@ -856,8 +869,10 @@ export default function MaterialDetail() {
     // 3) 2x2 또는 4칸 패턴 이미지 (galleryImages, detailImages)
     if (Array.isArray(rawImages.galleryObjs)) {
       rawImages.galleryObjs.forEach(go => {
-        const imgPath = go.detail || go.thumbnail;
-        if (imgPath) candidates.push(imgPath);
+        if (go) {
+          const imgPath = go.detail || go.thumbnail;
+          if (imgPath) candidates.push(imgPath);
+        }
       });
     }
     if (Array.isArray(item.galleryImages)) {
@@ -872,12 +887,27 @@ export default function MaterialDetail() {
       candidates.push(...item.installationImages);
     }
 
+    const cleanCandidates = candidates.map(c => {
+      if (!c || typeof c !== 'string') return '';
+      let str = c.trim();
+      try {
+        while (str.includes('%')) {
+          const prev = str;
+          str = decodeURIComponent(str);
+          if (str === prev) break;
+        }
+      } catch (e) {}
+      return str;
+    }).filter(Boolean);
+
     // Deduplicate
-    const uniqueList = getUniqueProductImages(candidates);
+    const uniqueList = getUniqueProductImages(cleanCandidates);
 
     // Filter out broken images and default placeholders
     const filteredList = uniqueList.filter(src => {
-      if (!src || brokenImages.has(src)) return false;
+      if (!src || typeof src !== 'string') return false;
+      const clean = src.split('?')[0].trim();
+      if (brokenImages.has(clean) || brokenImages.has(src)) return false;
       const norm = src.toLowerCase();
       return !norm.includes('no-image.svg') && !norm.includes('deco_tile.png') && !norm.includes('material-placeholder.jpg');
     });
@@ -887,7 +917,12 @@ export default function MaterialDetail() {
     }
 
     // Fallback: Show a single valid placeholder or default
-    const firstValid = uniqueList.find(src => src && !brokenImages.has(src));
+    const firstValid = uniqueList.find(src => {
+      if (!src || typeof src !== 'string') return false;
+      const clean = src.split('?')[0].trim();
+      return !brokenImages.has(clean) && !brokenImages.has(src);
+    });
+
     return [firstValid || "/images/no-image.svg"];
   }, [item, rawImages, brokenImages]);
 
