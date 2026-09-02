@@ -51,7 +51,7 @@ export default function ProductImage({ src, alt, className = "", style = {}, fit
   }
 
   return (
-    <div className="product-image-wrapper" style={{ position: "relative", width: "100%", height: "100%", overflow: "hidden", backgroundColor: "#f8fafc", ...style }}>
+    <div className="product-image-wrapper" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", overflow: "hidden", backgroundColor: "#f8fafc", ...style }}>
       <img
         src={cleanSrc}
         alt={alt || "상품 이미지"}
