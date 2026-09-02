@@ -2143,7 +2143,7 @@ export default function MaterialDetail() {
       <div className="mobile-cta-fixed-bar">
         <div className="mobile-cta-summary-row" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '2px 4px', fontSize: '13px' }}>
           <span style={{ color: 'var(--text-muted)' }}>선택 수량: <strong style={{ color: 'var(--primary)' }}>{qty} {getProductUnit(item)}</strong></span>
-          <span style={{ fontSize: '14px', color: 'var(--text-muted)' }}>예상금액: <strong style={{ color: 'var(--point-gold)', fontSize: '16px', fontWeight: '800' }}>{displayPriceNum > 0 ? (displayPriceNum * qty).toLocaleString() : '가격문의'}원</strong></span>
+          <span style={{ fontSize: '14px', color: 'var(--text-muted)' }}>예상금액: <strong style={{ color: 'var(--point-gold)', fontSize: '16px', fontWeight: '800' }}>{item?.price > 0 ? (item.price * (parseInt(qty, 10) || 1)).toLocaleString() + '원' : '가격문의'}</strong></span>
         </div>
         <div className="mobile-cta-sub-row">
           <button className="mobile-cta-sub-btn" onClick={handleEstimate}>
