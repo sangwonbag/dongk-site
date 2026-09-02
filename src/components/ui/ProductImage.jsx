@@ -40,35 +40,35 @@ export default function ProductImage({ src, alt, className = "", style = {}, fit
 
   const invalid = isInvalidSrc(cleanSrc);
 
-  if (invalid || hasError) {
-    return (
-      <div className="product-image-fallback-container" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", ...style }}>
-        <div className="product-image-placeholder">
-          이미지 준비중
-        </div>
-      </div>
-    );
-  }
-
   return (
-    <div className="product-image-wrapper" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", overflow: "hidden", backgroundColor: "#f8fafc", ...style }}>
-      <img
-        src={cleanSrc}
-        alt={alt || "상품 이미지"}
-        className={className}
-        loading="lazy"
-        decoding="async"
-        onError={() => setHasError(true)}
-        style={{
-          width: "100%",
-          height: "100%",
-          objectFit: fit,
-          objectPosition: "center",
-          padding: fit === "contain" ? "4px" : "0",
-          boxSizing: "border-box",
-          display: "block"
-        }}
-      />
+    <div className="product-image-container" style={{ position: "relative", width: "100%", height: "100%", overflow: "hidden", ...style }}>
+      {invalid || hasError ? (
+        <div className="product-image-fallback-container" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%" }}>
+          <div className="product-image-placeholder">
+            이미지 준비중
+          </div>
+        </div>
+      ) : (
+        <div className="product-image-wrapper" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", overflow: "hidden", backgroundColor: "#f8fafc" }}>
+          <img
+            src={cleanSrc}
+            alt={alt || "상품 이미지"}
+            className={className}
+            loading="lazy"
+            decoding="async"
+            onError={() => setHasError(true)}
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: fit,
+              objectPosition: "center",
+              padding: fit === "contain" ? "4px" : "0",
+              boxSizing: "border-box",
+              display: "block"
+            }}
+          />
+        </div>
+      )}
     </div>
   );
 }

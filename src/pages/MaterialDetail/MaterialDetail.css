@@ -1429,3 +1429,12 @@
     color: #ffffff;
   }
 }
+
+.related-thumb-box {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background-color: #f8fafc;
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+}
