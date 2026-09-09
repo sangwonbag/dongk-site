@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { preloadRoute } from '../../utils/routePreloader';
 import './ScrollRevealMenu.css';
 
 export default function ScrollRevealMenu() {
@@ -59,27 +60,61 @@ export default function ScrollRevealMenu() {
   return (
     <div className={`scroll-reveal-menu ${isVisible ? 'is-visible' : ''}`}>
       <div className="scroll-reveal-menu-inner">
-        <Link to="/" className="scroll-reveal-menu-logo" aria-label="동경바닥재 홈">
+        <Link 
+          to="/" 
+          className="scroll-reveal-menu-logo" 
+          aria-label="동경바닥재 홈"
+          onMouseEnter={() => preloadRoute('/')}
+        >
           DK Floor
         </Link>
         <nav className="scroll-reveal-menu-nav" aria-label="상단 스크롤 메뉴">
-          <Link to="/" className={`scroll-reveal-menu-link ${pathname === '/' ? 'active' : ''}`}>
+          <Link 
+            to="/" 
+            className={`scroll-reveal-menu-link ${pathname === '/' ? 'active' : ''}`}
+            onMouseEnter={() => preloadRoute('/')}
+          >
             홈
           </Link>
-          <Link to="/materials" className={`scroll-reveal-menu-link ${pathname.startsWith('/materials') ? 'active' : ''}`}>
+          <Link 
+            to="/materials" 
+            className={`scroll-reveal-menu-link ${pathname.startsWith('/materials') ? 'active' : ''}`}
+            onMouseEnter={() => preloadRoute('/materials')}
+            onTouchStart={() => preloadRoute('/materials')}
+          >
             자재찾기
           </Link>
-          <Link to="/samplebooks" className={`scroll-reveal-menu-link ${pathname.startsWith('/samplebooks') ? 'active' : ''}`}>
+          <Link 
+            to="/samplebooks" 
+            className={`scroll-reveal-menu-link ${pathname.startsWith('/samplebooks') ? 'active' : ''}`}
+            onMouseEnter={() => preloadRoute('/samplebooks')}
+            onTouchStart={() => preloadRoute('/samplebooks')}
+          >
             샘플북
           </Link>
-          <Link to="/cases" className={`scroll-reveal-menu-link ${pathname.startsWith('/cases') ? 'active' : ''}`}>
+          <Link 
+            to="/cases" 
+            className={`scroll-reveal-menu-link ${pathname.startsWith('/cases') ? 'active' : ''}`}
+            onMouseEnter={() => preloadRoute('/cases')}
+            onTouchStart={() => preloadRoute('/cases')}
+          >
             시공사례
           </Link>
-          <Link to="/estimate/request" className={`scroll-reveal-menu-link ${pathname.startsWith('/estimate') ? 'active' : ''}`}>
+          <Link 
+            to="/estimate/request" 
+            className={`scroll-reveal-menu-link ${pathname.startsWith('/estimate') ? 'active' : ''}`}
+            onMouseEnter={() => preloadRoute('/estimate')}
+            onTouchStart={() => preloadRoute('/estimate')}
+          >
             견적문의
           </Link>
         </nav>
-        <Link to="/estimate/request" className="scroll-reveal-menu-cta">
+        <Link 
+          to="/estimate/request" 
+          className="scroll-reveal-menu-cta"
+          onMouseEnter={() => preloadRoute('/estimate')}
+          onTouchStart={() => preloadRoute('/estimate')}
+        >
           빠른 견적 신청
         </Link>
       </div>

@@ -23,11 +23,34 @@ import { getMaterialImagePath } from "../../utils/materialImageResolver";
 import { getProductImageUrl } from "../../utils/productImageResolver";
 import { supabase } from "../../lib/supabaseClient";
 import { useAuth } from "../../contexts/AuthContext";
-import { materials } from "../../data/materials.db"; // Local fallback data
 import { getComputedBrand, normalizeProductDetails, formatFlooringProductName, getProductUnit, formatShapeOrPattern } from "../../utils/brandUtils";
 import { dongshinPolymer2026 } from "../../data/dongshinPolymer2026.js";
-import { imageManifest } from "../../data/materialImageManifest.generated";
 import { normalizeImagePath, getImageSrc, getUniqueProductImages } from "../../utils/galleryNormalizer";
+
+let cachedMaterials = null;
+async function getLocalMaterialsData() {
+  if (cachedMaterials) return cachedMaterials;
+  try {
+    const mod = await import("../../data/materials.db");
+    cachedMaterials = mod.materials || [];
+  } catch {
+    cachedMaterials = [];
+  }
+  return cachedMaterials;
+}
+
+let cachedImageManifest = null;
+async function getLocalImageManifestData() {
+  if (cachedImageManifest) return cachedImageManifest;
+  try {
+    const mod = await import("../../data/materialImageManifest.generated");
+    cachedImageManifest = mod.imageManifest || [];
+  } catch {
+    cachedImageManifest = [];
+  }
+  return cachedImageManifest;
+}
+
 import { getProductPyeong } from "../../utils/shippingUtils";
 import { isDecoTile, DECOTILE_NOTICE_TEXT } from "../../utils/decotileUtils";
 import "./MaterialDetail.css";
@@ -125,8 +148,9 @@ const resolveEagonProductImage = (mat) => {
   
   const matName = mat.name || "";
   
+  const manifestList = cachedImageManifest || [];
   // Filter manifest to files under correct brand and series folder
-  const folderImages = imageManifest.filter(img => 
+  const folderImages = manifestList.filter(img => 
     img.brand === '이건' && 
     img.series.replace(/\\/g, '/').replace(/\s+/g, '').toLowerCase() === folder.replace(/\s+/g, '').toLowerCase()
   );
@@ -152,7 +176,7 @@ const resolveEagonProductImage = (mat) => {
   }
   
   // Try checking without folder restriction first, in case of folder mismatches
-  let looseFound = imageManifest.find(img => {
+  let looseFound = manifestList.find(img => {
     if (img.brand !== '이건') return false;
     const lastDot = img.fileName.lastIndexOf('.');
     const nameOnly = lastDot !== -1 ? img.fileName.slice(0, lastDot) : img.fileName;
@@ -173,7 +197,7 @@ const resolveEagonProductImage = (mat) => {
   
   // B. Same upper category first image
   const upperCat = getEagonUpperCategory(line);
-  const upperCatImages = imageManifest.filter(img => 
+  const upperCatImages = manifestList.filter(img => 
     img.brand === '이건' && 
     getEagonUpperCategory(img.series || img.line) === upperCat
   );
@@ -652,7 +676,8 @@ export default function MaterialDetail() {
 
       // Fallback
       if (queryError || !productData) {
-        const localItem = materials.find(m => m.id === id || m.code === id);
+        const localMaterials = await getLocalMaterialsData();
+        const localItem = localMaterials.find(m => m.id === id || m.code === id);
         if (localItem) {
           const itemCode = localItem.code || "";
           const inferredBrand = 

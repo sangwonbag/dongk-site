@@ -1,12 +1,13 @@
 import React, { useState, useEffect, useMemo, useRef } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { Search, ShoppingCart, User, BookOpen, Layers } from "lucide-react";
-import { fetchAllProducts } from "../../utils/supabaseFetcher";
+import { fetchHomeProducts, searchProductsServer } from "../../utils/supabaseFetcher";
 import { getSearchScore, RECOMMENDATIONS, normalizeSearchText, tokenizeSearchQuery, handleSearchRedirect } from "../../utils/searchUtils";
 import { getSupabaseImageUrl } from "../../utils/getSupabaseImageUrl";
 import { useEstimateCart } from "../../contexts/EstimateCartContext";
 import { FileText, Settings, LogOut } from "lucide-react";
 import { useAuth } from "../../contexts/AuthContext";
+import { preloadRoute } from "../../utils/routePreloader";
 import "./Header.css";
 
 // Debounce hook
@@ -77,6 +78,15 @@ export default function Header() {
     window.location.reload();
   };
 
+  const prefetchMaterials = () => {
+    preloadRoute('/materials');
+  };
+
+  const handleEstimateNav = () => {
+    preloadRoute('/estimate');
+    nav('/estimate/request');
+  };
+
   // Scroll responsive styling states
   const isHome = location.pathname === "/";
   const [isScrolled, setIsScrolled] = useState(false);
@@ -122,8 +132,8 @@ export default function Header() {
   // Fetch materials from Supabase on search focus to keep it dynamic and fast
   useEffect(() => {
     if (isFocused && dbMaterials.length === 0) {
-      console.log("[Debug] Search input focused. Fetching materials for autocomplete...");
-      fetchAllProducts().then(setDbMaterials).catch(console.error);
+      console.log("[Debug] Search input focused. Fetching initial materials for autocomplete...");
+      fetchHomeProducts(100).then(setDbMaterials).catch(console.error);
     }
   }, [isFocused, dbMaterials.length]);
 
@@ -309,31 +319,20 @@ export default function Header() {
     setIsFocused(false);
   };
 
-  const prefetchMaterials = () => {
-    import("../../pages/Materials/Materials").catch(() => {});
-  };
-
-  const handleEstimateNav = () => {
-    if (!currentUser) {
-      openLoginModal();
-    }
-    nav("/estimate/request");
-  };
-
   return (
-    <div ref={headerRef} className={`header-wrapper ${isHome ? "is-home" : ""} ${isScrolled ? "is-scrolled" : "is-transparent"}`}>
-      {/* Top Notice Bar - Hidden on homepage when transparent for full immersion */}
-      {!(isHome && !isScrolled) && (
-        <div ref={noticeRef} className="top-notice-bar">
-          <div className="container notice-row">
-            <div className="notice-left">
+    <div className="header-wrapper">
+      {/* Top Banner Notice */}
+      {!location.pathname.startsWith('/admin') && (
+        <div className="top-notice-bar">
+          <div className="container notice-container">
+            <div className="notice-text">
               <span className="speaker-icon">📢</span>
               <span>전문 시공팀과 함께 자재 공급부터 시공까지 원스톱 서비스를 제공합니다.</span>
             </div>
             <div className="notice-links">
-              <span className="notice-link" onClick={() => nav("/")}>회사소개</span>
+              <Link to="/" className="notice-link" onMouseEnter={() => preloadRoute('/')}>회사소개</Link>
               <span className="notice-separator">|</span>
-              <span className="notice-link" onClick={() => nav("/cases")}>시공사례</span>
+              <Link to="/cases" className="notice-link" onMouseEnter={() => preloadRoute('/cases')}>시공사례</Link>
               <span className="notice-separator">|</span>
               <span className="notice-link" onClick={scrollToFooter}>고객센터</span>
             </div>
@@ -344,58 +343,58 @@ export default function Header() {
       <header ref={mallHeaderRef} className="mall-header">
         <div className="container header-row">
           {/* Logo */}
-          <div className="header-logo" onClick={() => nav("/")}>
+          <Link to="/" className="header-logo" onMouseEnter={() => preloadRoute('/')}>
             <span className="logo-title">DK Floor</span>
             <span className="logo-subtitle">동경바닥재</span>
-          </div>
+          </Link>
 
           {/* Desktop Navigation Links - Spruce Showroom Style */}
           <nav className="header-menu-links">
-            <span 
+            <Link 
+              to="/materials"
               className={`menu-link ${location.pathname === '/materials' ? 'active' : ''}`} 
-              onClick={() => nav("/materials")}
               onMouseEnter={prefetchMaterials}
               onTouchStart={prefetchMaterials}
             >
               자재찾기
-            </span>
+            </Link>
 
             {/* 공간별 Dropdown */}
             <div className="menu-link-dropdown-wrapper">
-              <span className="menu-link" onClick={() => nav("/materials")}>
+              <Link to="/materials" className="menu-link" onMouseEnter={prefetchMaterials}>
                 공간별
-              </span>
+              </Link>
               <div className="header-mega-dropdown">
                 <div className="dropdown-title">공간별 추천 자재</div>
                 <div className="dropdown-grid">
-                  <span onClick={() => nav("/materials?search=거실")}>거실</span>
-                  <span onClick={() => nav("/materials?search=상업공간")}>상업공간</span>
-                  <span onClick={() => nav("/materials?search=사무실")}>사무실</span>
-                  <span onClick={() => nav("/materials?search=학원")}>학원</span>
-                  <span onClick={() => nav("/materials?search=병원")}>병원</span>
-                  <span onClick={() => nav("/materials?search=원룸")}>원룸</span>
-                  <span onClick={() => nav("/materials?search=주거공간")}>주거공간</span>
+                  <Link to="/materials?search=거실" onMouseEnter={prefetchMaterials}>거실</Link>
+                  <Link to="/materials?search=상업공간" onMouseEnter={prefetchMaterials}>상업공간</Link>
+                  <Link to="/materials?search=사무실" onMouseEnter={prefetchMaterials}>사무실</Link>
+                  <Link to="/materials?search=학원" onMouseEnter={prefetchMaterials}>학원</Link>
+                  <Link to="/materials?search=병원" onMouseEnter={prefetchMaterials}>병원</Link>
+                  <Link to="/materials?search=원룸" onMouseEnter={prefetchMaterials}>원룸</Link>
+                  <Link to="/materials?search=주거공간" onMouseEnter={prefetchMaterials}>주거공간</Link>
                 </div>
               </div>
             </div>
 
-            {/* 브랜드 Dropdown */}
-            <div className="menu-link-dropdown-wrapper">
-              <span className="menu-link" onClick={() => nav("/materials")}>
-                브랜드
-              </span>
-              <div className="header-mega-dropdown mega-brand">
-                <div className="dropdown-title">주요 제조사 브랜드</div>
-                <div className="dropdown-grid brand-grid">
-                  {["LX", "KCC", "동신", "재영", "우성", "녹수", "현대", "구정", "이건", "동화", "신한", "개나리", "서울", "제일", "DID", "현대벽지"].map(b => (
-                    <span key={b} onClick={() => nav(`/materials?brand=${b}`)}>{b}</span>
-                  ))}
-                </div>
-              </div>
-            </div>
+            <Link 
+              to="/samplebooks"
+              className={`menu-link ${location.pathname === '/samplebooks' ? 'active' : ''}`} 
+              onMouseEnter={() => preloadRoute('/samplebooks')}
+              onTouchStart={() => preloadRoute('/samplebooks')}
+            >
+              샘플북
+            </Link>
 
-            <span className={`menu-link ${location.pathname === '/samplebooks' ? 'active' : ''}`} onClick={() => nav("/samplebooks")}>샘플북</span>
-            <span className={`menu-link ${location.pathname === '/estimate/request' || location.pathname === '/estimate' ? 'active' : ''}`} onClick={handleEstimateNav}>자동견적</span>
+            <Link 
+              to="/estimate/request"
+              className={`menu-link ${location.pathname === '/estimate/request' || location.pathname === '/estimate' ? 'active' : ''}`} 
+              onMouseEnter={() => preloadRoute('/estimate')}
+              onTouchStart={() => preloadRoute('/estimate')}
+            >
+              자동견적
+            </Link>
           </nav>
 
           {/* Search Bar */}

@@ -7,6 +7,24 @@
   background-color: #FFFFFF;
   color: var(--text);
   overflow-x: hidden;
+  animation: homeFadeIn 180ms ease-out both;
+}
+
+@keyframes homeFadeIn {
+  from {
+    opacity: 0.9;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce), (max-width: 768px) {
+  .spruce-showroom-home {
+    animation: none;
+  }
 }
 
 /* Common Section Container & Headers */
@@ -65,7 +83,7 @@
   font-weight: 600;
   color: var(--primary);
   text-decoration: none;
-  transition: var(--transition);
+  transition: opacity 0.15s ease;
 }
 
 .view-all-link:hover {
@@ -104,9 +122,8 @@
   text-transform: uppercase;
   color: #FFFFFF !important;
   margin-bottom: 16px;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.4);
   border: 1px solid rgba(255, 255, 255, 0.35);
-  backdrop-filter: blur(8px);
   padding: 6px 14px;
   border-radius: var(--radius-sm);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
@@ -138,6 +155,9 @@
 }
 
 .spruce-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background-color: #FFFFFF;
   color: #171717 !important;
   font-size: 16px;
@@ -146,8 +166,9 @@
   border-radius: var(--radius-md);
   border: none;
   cursor: pointer;
+  text-decoration: none;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
-  transition: var(--transition);
+  transition: transform 0.15s ease, background-color 0.15s ease;
 }
 
 .spruce-btn-primary:hover {
@@ -157,16 +178,24 @@
 }
 
 .spruce-btn-secondary {
-  background-color: rgba(0, 0, 0, 0.3);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
   color: #FFFFFF !important;
   font-size: 16px;
   font-weight: 600;
   padding: 14px 32px;
   border-radius: var(--radius-md);
   border: 1px solid rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(4px);
   cursor: pointer;
-  transition: var(--transition);
+  text-decoration: none;
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+.spruce-btn-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: #FFFFFF;
 }
 
 .spruce-btn-secondary:hover {

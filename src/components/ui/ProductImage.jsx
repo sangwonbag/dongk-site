@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./ProductImage.css";
 
-export default function ProductImage({ src, alt, className = "", style = {}, fit = "contain" }) {
+export default function ProductImage({ src, alt, className = "", style = {}, fit = "contain", priority = false }) {
   const [hasError, setHasError] = useState(false);
 
   // Clean URI encoded paths safely
@@ -54,7 +54,8 @@ export default function ProductImage({ src, alt, className = "", style = {}, fit
             src={cleanSrc}
             alt={alt || "상품 이미지"}
             className={className}
-            loading="lazy"
+            loading={priority ? "eager" : "lazy"}
+            fetchPriority={priority ? "high" : "auto"}
             decoding="async"
             onError={() => setHasError(true)}
             style={{

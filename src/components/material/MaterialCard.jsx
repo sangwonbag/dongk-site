@@ -29,7 +29,7 @@ const isDirectPricingCategory = (product) => {
     return false;
 };
 
-const MaterialCard = ({ material }) => {
+const MaterialCard = ({ material, priority = false }) => {
     const navigate = useNavigate();
     const { addToCart } = useEstimateCart();
     const { user: currentUser, openLoginModal } = useAuth();
@@ -242,6 +242,7 @@ const MaterialCard = ({ material }) => {
                     src={coverUrl}
                     alt={displayName || material.code}
                     className="material-thumb"
+                    priority={priority}
                 />
                 {material.isNew && <span className="badge-new">NEW</span>}
             </div>

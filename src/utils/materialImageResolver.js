@@ -1,7 +1,23 @@
-import { imageManifest } from '../data/materialImageManifest.generated.js';
-import { imageManifest as imageManifestMap } from '../data/imageManifest.js';
 import { getUniqueProductImages } from './galleryNormalizer.js';
 import { getProductImageUrl, normalizeProductImageUrl } from './productImageResolver.js';
+
+let loadedGeneratedManifest = null;
+let loadedImageMapManifest = null;
+
+async function ensureMaterialManifestsLoaded() {
+  if (loadedGeneratedManifest && loadedImageMapManifest) return;
+  try {
+    const [gen, map] = await Promise.all([
+      import('../data/materialImageManifest.generated.js').catch(() => ({ imageManifest: [] })),
+      import('../data/imageManifest.js').catch(() => ({ imageManifest: {} }))
+    ]);
+    loadedGeneratedManifest = gen.imageManifest || [];
+    loadedImageMapManifest = map.imageManifest || {};
+  } catch {
+    loadedGeneratedManifest = [];
+    loadedImageMapManifest = {};
+  }
+}
 
 const SUPABASE_PUBLIC_URL_PREFIX = "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/";
 
@@ -64,14 +80,6 @@ function categoriesMatch(c1, c2) {
   return normalizeMaterialCode(c1) === normalizeMaterialCode(c2);
 }
 
-// Helper to extract design name inside parentheses
-function extractDesignName(name) {
-  if (!name) return '';
-  const match = name.match(/\(([^)]+)\)/);
-  if (match) return match[1].trim();
-  return '';
-}
-
 export function resolveMaterialImage(material) {
   const matBrand = material?.brand || '';
   const matName = material?.name || '';
@@ -114,8 +122,14 @@ export function resolveMaterialImage(material) {
     }
   }
 
+  if (!loadedGeneratedManifest || !loadedImageMapManifest) {
+    ensureMaterialManifestsLoaded();
+  }
+
+  const manifestList = loadedGeneratedManifest || [];
+
   // Filter manifest by brand and category to restrict matching domain and prevent mismatch collisions
-  const scopedImages = imageManifest.filter(img => 
+  const scopedImages = manifestList.filter(img => 
     brandsMatch(img.brand, matBrand) && categoriesMatch(img.category, matCategory)
   );
 
@@ -202,13 +216,20 @@ export function resolveProductImages(material) {
     }
   }
 
+  if (candidates.length === 0 && (!loadedImageMapManifest || !loadedGeneratedManifest)) {
+    ensureMaterialManifestsLoaded();
+  }
+
+  const manifestMap = loadedImageMapManifest || {};
+  const manifestList = loadedGeneratedManifest || [];
+
   // 2. Lookup in imageManifestMap (code-to-images map from src/data/imageManifest.js)
   const normTargetCode = normalizeMaterialCode(matCode);
   const normTargetName = normalizeMaterialCode(matName);
   
   const lookupKeys = [normTargetCode, normTargetName].filter(Boolean);
   for (const key of lookupKeys) {
-    const entry = imageManifestMap[key];
+    const entry = manifestMap[key];
     if (entry) {
       if (Array.isArray(entry)) {
         candidates.push(...entry.map(toFullImageUrl));
@@ -225,7 +246,7 @@ export function resolveProductImages(material) {
   // 3. Search in raw file manifest (materialImageManifest.generated.js)
   // Check exact code match in the generated manifest list
   if (normTargetCode) {
-    const scopedImages = imageManifest.filter(img => 
+    const scopedImages = manifestList.filter(img => 
       brandsMatch(img.brand, matBrand) && categoriesMatch(img.category, matCategory)
     );
     const matchedByCode = scopedImages.find(img => 

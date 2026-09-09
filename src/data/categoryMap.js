@@ -7,8 +7,18 @@ export const CATEGORY_BRAND_MAP = {
     '러버타일': ['현대']
 };
 
+export const BRANDS_BY_CATEGORY = CATEGORY_BRAND_MAP;
+
+export const ALL_BRANDS = [
+  'LX', 'KCC', '동신', '녹수', '유성', '현대', '재영', '대진', '이건', '동화', '구정', '개나리', '신한', '서울', '제일', '디아이디', '스완', '코오롱'
+];
+
+export const BRAND_TREE = Object.entries(CATEGORY_BRAND_MAP).map(([category, brands]) => ({
+  category,
+  brands: brands.map(b => ({ name: b, count: 0 }))
+}));
+
 // Maps internal English category keys to Korean display keys if needed
-// Or we can just use the Korean keys directly in the data as 'categoryKr'
 export const CATEGORY_LABEL_MAP = {
     "Deco Tile": "데코타일",
     "Jangpan": "장판",
@@ -17,3 +27,4 @@ export const CATEGORY_LABEL_MAP = {
     "Carpet Tile": "카페트타일",
     "Sub Materials": "부자재"
 };
+

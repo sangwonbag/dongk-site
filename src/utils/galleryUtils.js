@@ -1,21 +1,6 @@
-import { getMaterialImagePath, resolveProductImages, resolveProductCardImage } from "./materialImageResolver";
-import { imageManifest } from "../data/imageManifest";
-import { materials } from "../data/materials.db";
-
-const normalize = (str) => str ? str.replace(/[^a-zA-Z0-9가-힣]/g, '').toUpperCase() : "";
+import { resolveProductImages, resolveProductCardImage } from "./materialImageResolver";
 
 export const SUPABASE_PUBLIC_URL_PREFIX = "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/";
-
-function toFullUrl(path) {
-    if (!path) return "";
-    let str = String(path).trim();
-    try {
-        if (str.includes('%')) str = decodeURIComponent(str);
-    } catch (e) {}
-    if (str.startsWith('http')) return str;
-    if (str.startsWith('/')) return str; // Keep absolute local paths
-    return SUPABASE_PUBLIC_URL_PREFIX + str;
-}
 
 export async function getThumbnailImage(item) {
     if (!item) return "";

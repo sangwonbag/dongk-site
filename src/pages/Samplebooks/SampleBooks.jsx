@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo } from "react";
 import { useLocation } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { sampleBooks } from "../../data/samplebooks.db";
-import { BRANDS_BY_CATEGORY } from "../../data/materials.db";
+import { BRANDS_BY_CATEGORY } from "../../data/categoryMap";
 import { getComputedBrand } from "../../utils/brandUtils";
 import SampleBookViewer from "../../components/samplebook/SampleBookViewer";
 import SampleBookCard from "../../components/samplebook/SampleBookCard";

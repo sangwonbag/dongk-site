@@ -1,7 +1,19 @@
 import { supabase } from '../lib/supabaseClient';
-import { materials } from '../data/materials.db'; // Local fallback data
 import { dongshinPolymer2026 } from '../data/dongshinPolymer2026.js';
 import { normalizeProductDetails } from './brandUtils';
+
+let localMaterialsCache = null;
+async function getLocalMaterials() {
+  if (localMaterialsCache) return localMaterialsCache;
+  try {
+    const mod = await import('../data/materials.db');
+    localMaterialsCache = mod.materials || [];
+  } catch (e) {
+    console.error("Failed to dynamically import local materials db:", e);
+    localMaterialsCache = [];
+  }
+  return localMaterialsCache;
+}
 
 const normalizeText = (value = "") =>
   String(value).replace(/\s+/g, "").toLowerCase().trim();
@@ -23,7 +35,43 @@ const getMaterialMatchKey = (item) => {
 };
 
 let cachedProducts = null;
+let cachedHomeProducts = null;
 const filteredProductsCache = new Map();
+
+/**
+ * Fast home page product fetcher (only returns top 20 active products for initial render)
+ */
+export async function fetchHomeProducts(limit = 20) {
+  if (cachedHomeProducts && cachedHomeProducts.length >= Math.min(limit, 8)) {
+    return cachedHomeProducts;
+  }
+
+  if (supabase) {
+    try {
+      const { data, error } = await supabase
+        .from('products')
+        .select(`
+          id, slug, name, product_code, price, thickness, unit, image_url, description, is_featured, is_active, sort_order,
+          categories ( id, name ),
+          brands ( id, name )
+        `)
+        .eq('is_active', true)
+        .order('sort_order', { ascending: true })
+        .limit(limit);
+
+      if (!error && data && data.length > 0) {
+        cachedHomeProducts = deduplicateProducts(data.map(mapProductRow));
+        return cachedHomeProducts;
+      }
+    } catch (e) {
+      console.warn("fetchHomeProducts Supabase fetch exception:", e);
+    }
+  }
+
+  const all = await fetchAllProducts();
+  cachedHomeProducts = all.slice(0, limit);
+  return cachedHomeProducts;
+}
 
 export async function fetchAllProducts(forceRefresh = false) {
   if (cachedProducts && !forceRefresh) {
@@ -82,8 +130,9 @@ export async function fetchAllProducts(forceRefresh = false) {
   if (fetchError || !data || data.length === 0) {
     console.warn("Supabase load failed or returned no data. Falling back to local materials database...", fetchError);
     
+    const rawLocalMaterials = await getLocalMaterials();
     // Map local materials to the frontend product structure
-    cachedProducts = (materials || []).map(m => {
+    cachedProducts = (rawLocalMaterials || []).map(m => {
       const mapped = {
         id: m.id || m.code,
         code: m.code || "",
@@ -150,7 +199,7 @@ export function mapProductRow(p) {
     code: p.product_code || null
   };
   const dbKey = getMaterialMatchKey(dbItem);
-  const localMatch = materials.find(m => getMaterialMatchKey(m) === dbKey);
+  const localMatch = localMaterialsCache ? localMaterialsCache.find(m => getMaterialMatchKey(m) === dbKey) : null;
 
   const mapped = {
     id: p.slug || String(p.id),
@@ -238,62 +287,104 @@ export function deduplicateProducts(productList) {
   return deduplicatedProducts;
 }
 
-export async function fetchFilteredProducts({ category, brand, searchText }) {
+export async function fetchFilteredProducts({ category, brand, searchText, page = 0, pageSize = 24, signal }) {
   if (!supabase) {
     console.warn("Supabase client is not initialized. Using local fallback filtering.");
     const all = await fetchAllProducts();
-    return filterLocalProducts(all, { category, brand, searchText });
+    const filtered = filterLocalProducts(all, { category, brand, searchText });
+    const from = page * pageSize;
+    const paged = filtered.slice(from, from + pageSize);
+    const result = [...paged];
+    result.items = paged;
+    result.totalCount = filtered.length;
+    result.hasMore = from + paged.length < filtered.length;
+    return result;
   }
 
-  const cacheKey = `${category || 'all'}:${brand || 'all'}:${searchText || ''}`;
+  const cacheKey = `${category || 'all'}:${brand || 'all'}:${searchText || ''}:${page}:${pageSize}`;
   if (filteredProductsCache.has(cacheKey)) {
     return filteredProductsCache.get(cacheKey);
   }
 
-  let query = supabase
-    .from('products')
-    .select(`
-      id, slug, name, product_code, price, thickness, size_text, unit, image_url, description, is_featured, is_active, sort_order,
-      categories!inner ( id, name ),
-      brands!inner ( id, name )
-    `)
-    .eq('is_active', true);
+  if (filteredProductsCache.has(`inflight:${cacheKey}`)) {
+    return filteredProductsCache.get(`inflight:${cacheKey}`);
+  }
 
-  if (searchText) {
-    const s = searchText.trim();
-    query = query.or(`name.ilike.%${s}%,product_code.ilike.%${s}%,description.ilike.%${s}%`);
-  } else {
-    if (category && category !== 'all') {
-      query = query.eq('categories.name', category);
-    }
-    if (brand && brand !== 'all') {
-      const b = brand.toUpperCase();
-      if (b === 'LX') {
-        query = query.or('name.ilike.%LX%,name.ilike.%LG%', { foreignTable: 'brands' });
-      } else if (b === 'DID') {
-        query = query.or('name.ilike.%DID%,name.ilike.%디아이디%', { foreignTable: 'brands' });
-      } else if (b === '신한') {
-        query = query.like('brands.name', '%신한%');
-      } else if (b === '현대' || b === '현대벽지') {
-        query = query.like('brands.name', '%현대%');
-      } else if (b === '어반') {
-        query = query.or('name.ilike.%어반%,name.ilike.%URBAN%', { foreignTable: 'brands' });
-      } else {
-        query = query.ilike('brands.name', `%${brand}%`);
+  const fetchPromise = (async () => {
+    const from = page * pageSize;
+    const to = from + pageSize - 1;
+
+    let query = supabase
+      .from('products')
+      .select(`
+        id, slug, name, product_code, price, thickness, size_text, unit, image_url, description, is_featured, is_active, sort_order,
+        categories!inner ( id, name ),
+        brands!inner ( id, name )
+      `, { count: 'exact' })
+      .eq('is_active', true);
+
+    if (searchText) {
+      const s = searchText.trim();
+      query = query.or(`name.ilike.%${s}%,product_code.ilike.%${s}%,description.ilike.%${s}%`);
+    } else {
+      if (category && category !== 'all') {
+        query = query.eq('categories.name', category);
+      }
+      if (brand && brand !== 'all') {
+        const b = brand.toUpperCase();
+        if (b === 'LX') {
+          query = query.or('name.ilike.%LX%,name.ilike.%LG%', { foreignTable: 'brands' });
+        } else if (b === 'DID') {
+          query = query.or('name.ilike.%DID%,name.ilike.%디아이디%', { foreignTable: 'brands' });
+        } else if (b === '신한') {
+          query = query.like('brands.name', '%신한%');
+        } else if (b === '현대' || b === '현대벽지') {
+          query = query.like('brands.name', '%현대%');
+        } else if (b === '어반') {
+          query = query.or('name.ilike.%어반%,name.ilike.%URBAN%', { foreignTable: 'brands' });
+        } else {
+          query = query.ilike('brands.name', `%${brand}%`);
+        }
       }
     }
+
+    if (signal) {
+      query = query.abortSignal(signal);
+    }
+
+    query = query.order('sort_order', { ascending: true }).order('id', { ascending: false });
+    query = query.range(from, to);
+
+    const { data, count, error } = await query;
+    if (error) {
+      if (error.name === 'AbortError' || error.message?.includes('aborted')) {
+        const abortErr = new Error('aborted');
+        abortErr.name = 'AbortError';
+        throw abortErr;
+      }
+      throw error;
+    }
+
+    const mapped = deduplicateProducts((data || []).map(mapProductRow));
+    const totalCount = count ?? mapped.length;
+    const hasMore = from + (data || []).length < totalCount;
+
+    const result = [...mapped];
+    result.items = mapped;
+    result.totalCount = totalCount;
+    result.hasMore = hasMore;
+
+    filteredProductsCache.set(cacheKey, result);
+    return result;
+  })();
+
+  filteredProductsCache.set(`inflight:${cacheKey}`, fetchPromise);
+  try {
+    const res = await fetchPromise;
+    return res;
+  } finally {
+    filteredProductsCache.delete(`inflight:${cacheKey}`);
   }
-
-  query = query.order('sort_order', { ascending: true }).order('id', { ascending: false });
-
-  const { data, error } = await query;
-  if (error) {
-    throw error;
-  }
-
-  const mapped = deduplicateProducts((data || []).map(mapProductRow));
-  filteredProductsCache.set(cacheKey, mapped);
-  return mapped;
 }
 
 function filterLocalProducts(list, { category, brand, searchText }) {

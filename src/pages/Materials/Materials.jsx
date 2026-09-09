@@ -1,10 +1,10 @@
-import React, { useMemo, useState, useEffect, useRef } from "react";
+import React, { useMemo, useState, useEffect, useCallback } from "react";
 import { useSearchParams } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { getComputedBrand, getMaterialTypeAndLine, formatShapeOrPattern } from "../../utils/brandUtils";
 import { getSearchScore } from "../../utils/searchUtils";
 import MaterialCard from "../../components/material/MaterialCard";
-import { fetchFilteredProducts, fetchAllProducts } from "../../utils/supabaseFetcher";
+import { fetchFilteredProducts } from "../../utils/supabaseFetcher";
 import { Skeleton, EmptyState, ErrorState } from "../../components/ui";
 import MobileFilterSheet from "../../components/material/MobileFilterSheet";
 import { SlidersHorizontal, X } from "lucide-react";
@@ -19,7 +19,7 @@ const BRANDS_BY_CATEGORY = {
   데코타일: ["KCC", "동신", "재영", "유성", "LX", "녹수", "현대"],
   장판: ["LX", "현대", "KCC"],
   마루: ["이건", "동화", "구정"],
-  벽지: ["LX", "개나리", "서울", "제일", "DID", "신한", "현대벽지"],
+  벽지: ["LX", "개나리", "서울", "제일", "신한", "현대벽지"],
   카페트타일: ["스완", "어반"],
   부자재: []
 };
@@ -63,10 +63,13 @@ const getNormalizedLine = (m, activeTab, activeBrand) => {
 export default function Materials() {
   const [searchParams, setSearchParams] = useSearchParams();
 
-
   // Supabase Data States
   const [materialsList, setMaterialsList] = useState([]);
+  const [totalCount, setTotalCount] = useState(0);
+  const [hasMore, setHasMore] = useState(false);
+  const [page, setPage] = useState(0);
   const [loading, setLoading] = useState(true);
+  const [loadingMore, setLoadingMore] = useState(false);
   const [error, setError] = useState(null);
 
   // Detailed Search Filters
@@ -110,12 +113,12 @@ export default function Materials() {
     return count;
   }, [activeBrand, activeThickness, activeShape, activeLine, nameFilter, codeFilter, specFilter]);
 
-  const handleResetFilters = () => {
+  const handleResetFilters = useCallback(() => {
     updateParams({ brand: "all", type: null, line: null, shape: null, thickness: null });
     setNameFilter("");
     setCodeFilter("");
     setSpecFilter("");
-  };
+  }, []);
 
   // Pagination state (Optimized default to 24 for faster render)
   const [visibleCount, setVisibleCount] = useState(24);
@@ -130,23 +133,36 @@ export default function Materials() {
     }
   }, [searchParams, setSearchParams]);
 
-  // Fetch from Supabase on mount/filter change
+  // Fetch from Supabase on mount/filter change (Page 0)
   useEffect(() => {
     let isCurrent = true;
+    const controller = new AbortController();
+
     async function load() {
       try {
         setLoading(true);
         setError(null);
-        console.log(`[Debug] Fetching materials for: category=${activeTab}, brand=${activeBrand}, search=${searchText}`);
-        const data = await fetchFilteredProducts({
+        setPage(0);
+        console.log(`[Debug] Fetching initial page 0 for: category=${activeTab}, brand=${activeBrand}, search=${searchText}`);
+        
+        const res = await fetchFilteredProducts({
           category: activeTab,
           brand: activeBrand,
-          searchText: searchText
+          searchText: searchText,
+          page: 0,
+          pageSize: 24,
+          signal: controller.signal
         });
+
         if (isCurrent) {
-          setMaterialsList(data);
+          setMaterialsList(res.items || res);
+          setTotalCount(res.totalCount ?? (res.items || res).length);
+          setHasMore(res.hasMore ?? false);
         }
       } catch (err) {
+        if (err.name === 'AbortError' || err.message === 'aborted') {
+          return;
+        }
         console.error("[Debug] Supabase load error:", err);
         if (isCurrent) {
           setError(err.message || String(err));
@@ -157,11 +173,38 @@ export default function Materials() {
         }
       }
     }
+
     load();
+
     return () => {
       isCurrent = false;
+      controller.abort();
     };
   }, [activeTab, activeBrand, searchText]);
+
+  // Paginated load more handler
+  const handleLoadMore = useCallback(async () => {
+    if (loadingMore || !hasMore) return;
+    try {
+      setLoadingMore(true);
+      const nextPage = page + 1;
+      const res = await fetchFilteredProducts({
+        category: activeTab,
+        brand: activeBrand,
+        searchText: searchText,
+        page: nextPage,
+        pageSize: 24
+      });
+
+      setMaterialsList(prev => [...prev, ...(res.items || res)]);
+      setPage(nextPage);
+      setHasMore(res.hasMore ?? false);
+    } catch (err) {
+      console.error("[Debug] Load more error:", err);
+    } finally {
+      setLoadingMore(false);
+    }
+  }, [loadingMore, hasMore, page, activeTab, activeBrand, searchText]);
 
   // Sync search input state with URL search param changes
   useEffect(() => {
@@ -753,7 +796,7 @@ export default function Materials() {
                     <span>자재 정보를 불러오는 중입니다...</span>
                   ) : (
                     <span>
-                      총 <strong>{filtered.length}</strong>개 상품
+                      총 <strong>{totalCount || filtered.length}</strong>개 상품
                     </span>
                   )}
                 </div>
@@ -782,18 +825,19 @@ export default function Materials() {
               ) : filtered.length > 0 ? (
                 <>
                   <div className="materials-grid">
-                    {filtered.slice(0, visibleCount).map((m) => (
-                      <MaterialCard key={m.id} material={m} />
+                    {filtered.map((m, idx) => (
+                      <MaterialCard key={m.id || `product-${idx}`} material={m} priority={idx < 8} />
                     ))}
                   </div>
                   
-                  {visibleCount < filtered.length && (
+                  {hasMore && (
                     <div className="load-more-container">
                       <button 
                         className="load-more-btn" 
-                        onClick={() => setVisibleCount(prev => prev + 24)}
+                        onClick={handleLoadMore}
+                        disabled={loadingMore}
                       >
-                        더보기 ({Math.min(visibleCount, filtered.length)} / {filtered.length})
+                        {loadingMore ? "상품 추가 로딩 중..." : `더보기 (${filtered.length} / ${totalCount || filtered.length})`}
                       </button>
                     </div>
                   )}

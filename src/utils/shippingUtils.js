@@ -1,5 +1,4 @@
 import { 
-  isDecoTile, 
   getOrderPyeong, 
   calculateDecotileBoxes, 
   isDecotileFreeShippingEligible 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ChevronDown, ChevronUp, X } from 'lucide-react';
-import { BRAND_TREE } from '../../data/materials.db';
+import { BRAND_TREE } from '../../data/categoryMap';
 import './BrandTreeFilter.css';
 
 const BrandTreeFilter = ({ selectedCategory, selectedSubCategory, onSelect, className = '' }) => {

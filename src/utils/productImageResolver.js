@@ -1,6 +1,22 @@
-import { imageManifest } from '../data/materialImageManifest.generated.js';
-import { imageManifest as imageManifestMap } from '../data/imageManifest.js';
 import { getUniqueProductImages } from './galleryNormalizer.js';
+
+let loadedGeneratedManifest = null;
+let loadedImageMapManifest = null;
+
+async function ensureManifestsLoaded() {
+  if (loadedGeneratedManifest && loadedImageMapManifest) return;
+  try {
+    const [gen, map] = await Promise.all([
+      import('../data/materialImageManifest.generated.js').catch(() => ({ imageManifest: [] })),
+      import('../data/imageManifest.js').catch(() => ({ imageManifest: {} }))
+    ]);
+    loadedGeneratedManifest = gen.imageManifest || [];
+    loadedImageMapManifest = map.imageManifest || {};
+  } catch {
+    loadedGeneratedManifest = [];
+    loadedImageMapManifest = {};
+  }
+}
 
 const SUPABASE_PUBLIC_URL_PREFIX = "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/";
 
@@ -23,7 +39,7 @@ export function normalizeProductImageUrl(rawUrl) {
       str = decodeURIComponent(str);
       if (str === prev) break;
     }
-  } catch (e) {
+  } catch {
     // Keep original string if decoding fails
   }
 
@@ -76,25 +92,29 @@ export function getProductImageUrl(product) {
     }
   }
 
-  // 2. Manifest Lookup Fallback by Code & Name
-  const brand = product.brand || product.brands?.name || '';
-  const category = product.category || product.categories?.name || '';
+  // 2. Manifest Lookup Fallback by Code & Name (Synchronous if already loaded)
   const code = product.code || product.product_code || '';
   const name = product.name || '';
 
   const cleanCode = code ? String(code).replace(/[^a-zA-Z0-9가-힣]/g, '').toUpperCase() : '';
   const cleanName = name ? String(name).replace(/[^a-zA-Z0-9가-힣]/g, '').toUpperCase() : '';
 
+  if (!loadedImageMapManifest || !loadedGeneratedManifest) {
+    // Trigger lazy loading for future lookups
+    ensureManifestsLoaded();
+    return '/images/no-image.svg';
+  }
+
   // Lookup in static imageManifestMap (imageManifest.js)
-  if (cleanCode && imageManifestMap[cleanCode]) {
-    const entry = imageManifestMap[cleanCode];
+  if (cleanCode && loadedImageMapManifest[cleanCode]) {
+    const entry = loadedImageMapManifest[cleanCode];
     const rawMatch = Array.isArray(entry) ? entry[0] : (entry.images?.[0] || entry.thumbnail || entry.cover);
     if (rawMatch) return normalizeProductImageUrl(rawMatch);
   }
 
   // Lookup in generated manifest (materialImageManifest.generated.js)
-  if (imageManifest && imageManifest.length > 0) {
-    const matched = imageManifest.find(img => {
+  if (loadedGeneratedManifest && loadedGeneratedManifest.length > 0) {
+    const matched = loadedGeneratedManifest.find(img => {
       const imgCode = img.extractedCode ? String(img.extractedCode).replace(/[^a-zA-Z0-9가-힣]/g, '').toUpperCase() : '';
       if (cleanCode && imgCode === cleanCode) return true;
       if (cleanName && img.fileName) {

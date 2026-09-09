@@ -6,7 +6,7 @@ export function getSupabaseImageUrl(path, bucket = 'materials') {
   let str = String(path).trim();
   try {
     if (str.includes('%')) str = decodeURIComponent(str);
-  } catch (e) {}
+  } catch {}
 
   // Already a full URL or local absolute path, return as-is
   if (str.startsWith('http://') || str.startsWith('https://') || str.startsWith('/')) {

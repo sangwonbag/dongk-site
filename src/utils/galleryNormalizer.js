@@ -1,4 +1,16 @@
-import imageHashManifest from "../generated/imageManifest.json" with { type: "json" };
+let imageHashManifest = null;
+
+export async function ensureImageHashManifestLoaded() {
+  if (imageHashManifest) return imageHashManifest;
+  try {
+    const mod = await import("../generated/imageManifest.json", { with: { type: "json" } });
+    imageHashManifest = mod.default || {};
+  } catch {
+    imageHashManifest = {};
+  }
+  return imageHashManifest;
+}
+
 
 /**
  * Clean path to extract canonical relative path, stripping domains, protocols, query strings,
