@@ -7,6 +7,29 @@ import { EstimateCartProvider } from "./contexts/EstimateCartContext";
 import { AuthProvider } from "./contexts/AuthContext";
 import "./styles/index.css";
 
+// Automatically unregister legacy Service Workers & purge stale Cache Storage for existing visitors
+if (typeof window !== 'undefined') {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistrations().then((registrations) => {
+      for (const registration of registrations) {
+        registration.unregister().then((success) => {
+          if (success) console.log('[SW] Unregistered legacy service worker:', registration.scope);
+        });
+      }
+    }).catch(() => {});
+  }
+
+  if ('caches' in window) {
+    caches.keys().then((names) => {
+      for (const name of names) {
+        caches.delete(name).then((success) => {
+          if (success) console.log('[CacheStorage] Cleared legacy cache storage:', name);
+        });
+      }
+    }).catch(() => {});
+  }
+}
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ErrorBoundary>
@@ -20,14 +43,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </ErrorBoundary>
   </React.StrictMode>
 );
-
-// Register Service Worker in production environment for asset optimization
-if ('serviceWorker' in navigator && import.meta.env.PROD) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js').catch((err) => {
-      console.warn('[SW] Registration failed:', err);
-    });
-  });
-}
 
 

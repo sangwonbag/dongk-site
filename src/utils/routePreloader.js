@@ -1,40 +1,12 @@
 /**
  * Preloads page chunk JS modules in the background on hover/touch or idle.
+ * Since primary visitor routes are statically imported in App.jsx, preloading is a no-op.
  */
-const preloadedRoutes = new Set();
-
 export function preloadRoute(path) {
-  if (!path || preloadedRoutes.has(path)) return;
-  preloadedRoutes.add(path);
-
-  try {
-    if (path.startsWith('/materials')) {
-      import('../pages/Materials/Materials').catch(() => {});
-    } else if (path.startsWith('/estimate')) {
-      import('../pages/Estimate/EstimateRequest').catch(() => {});
-    } else if (path.startsWith('/samplebooks')) {
-      import('../pages/Samplebooks/SampleBooks').catch(() => {});
-    } else if (path.startsWith('/cases')) {
-      import('../pages/Cases/Cases').catch(() => {});
-    } else if (path.startsWith('/cart') || path.startsWith('/checkout')) {
-      import('../pages/Cart/Cart').catch(() => {});
-    }
-  } catch {
-    // Non-blocking preloader
-  }
+  // Primary routes are pre-bundled in main bundle index.js
 }
 
 export function setupIdlePreload() {
-  const preloader = () => {
-    preloadRoute('/materials');
-    preloadRoute('/estimate');
-  };
-
-  if ('requestIdleCallback' in window) {
-    const handle = window.requestIdleCallback(preloader, { timeout: 2000 });
-    return () => window.cancelIdleCallback(handle);
-  } else {
-    const timer = setTimeout(preloader, 1000);
-    return () => clearTimeout(timer);
-  }
+  return () => {};
 }
+

@@ -6,39 +6,36 @@ import AuthModal from "../components/auth/AuthModal";
 import LazyErrorBoundary from "../components/ui/LazyErrorBoundary";
 import MaterialsPageSkeleton from "../pages/Materials/MaterialsPageSkeleton";
 import AdminRoute from "../components/auth/AdminRoute";
-import { safeLazy } from "../utils/safeLazy";
+// Customer-facing pages: Pure static imports to guarantee 0% dynamic chunk load failures
+import Home from "../pages/Home/Home";
+import SampleBooks from "../pages/Samplebooks/SampleBooks";
+import Materials from "../pages/Materials/Materials";
+import MaterialDetail from "../pages/MaterialDetail/MaterialDetail";
+import Cases from "../pages/Cases/Cases";
+import Cart from "../pages/Cart/Cart";
+import Checkout from "../pages/Cart/Checkout";
+import OrderComplete from "../pages/Cart/OrderComplete";
+import OrderHistory from "../pages/Cart/OrderHistory";
+import EstimateRequest from "../pages/Estimate/EstimateRequest";
+import Login from "../pages/Login/Login";
+import Signup from "../pages/Signup/Signup";
+import LoginCallback from "../pages/Login/LoginCallback";
+import MyPage from "../pages/MyPage/MyPage";
+import PrivacyPolicy from "../pages/PrivacyPolicy/PrivacyPolicy";
+import TermsOfService from "../pages/TermsOfService/TermsOfService";
 
-const Home = safeLazy(() => import("../pages/Home/Home"));
-
-const SampleBooks = safeLazy(() => import("../pages/Samplebooks/SampleBooks"));
-const Materials = safeLazy(() => import("../pages/Materials/Materials"));
-const MaterialDetail = safeLazy(() => import("../pages/MaterialDetail/MaterialDetail"));
-const Cases = safeLazy(() => import("../pages/Cases/Cases"));
-const Cart = safeLazy(() => import("../pages/Cart/Cart"));
-const Login = safeLazy(() => import("../pages/Login/Login"));
-const Signup = safeLazy(() => import("../pages/Signup/Signup"));
-const LoginCallback = safeLazy(() => import("../pages/Login/LoginCallback"));
-const MyPage = safeLazy(() => import("../pages/MyPage/MyPage"));
-const PrivacyPolicy = safeLazy(() => import("../pages/PrivacyPolicy/PrivacyPolicy"));
-const TermsOfService = safeLazy(() => import("../pages/TermsOfService/TermsOfService"));
-const Inquiries = safeLazy(() => import("../pages/Admin/Inquiries"));
-const EstimateRequest = safeLazy(() => import("../pages/Estimate/EstimateRequest"));
-
-const AdminDashboard = safeLazy(() => import("../pages/Admin/Dashboard/AdminDashboard"));
-const AdminEstimates = safeLazy(() => import("../pages/Admin/Estimates/AdminEstimates"));
-const AdminEstimateDetail = safeLazy(() => import("../pages/Admin/Estimates/AdminEstimateDetail"));
-const AdminEstimateInquiries = safeLazy(() => import("../pages/Admin/Estimates/AdminEstimateInquiries"));
-const AdminPromptAssistant = safeLazy(() => import("../pages/AdminPromptAssistant/AdminPromptAssistant"));
-const AdminAnalytics = safeLazy(() => import("../pages/AdminAnalytics/AdminAnalytics"));
-const AdminConstructionCases = safeLazy(() => import("../pages/AdminConstructionCases/AdminConstructionCases"));
-const AdminMaterials = safeLazy(() => import("../pages/AdminMaterials/AdminMaterials"));
-const AdminProducts = safeLazy(() => import("../pages/AdminProducts/AdminProducts"));
-
-// New Order Flow Pages
-const Checkout = safeLazy(() => import("../pages/Cart/Checkout"));
-const OrderComplete = safeLazy(() => import("../pages/Cart/OrderComplete"));
-const OrderHistory = safeLazy(() => import("../pages/Cart/OrderHistory"));
-const AdminOrders = safeLazy(() => import("../pages/Admin/Orders/AdminOrders"));
+// Admin & back-office pages: Standard React.lazy without custom wrappers/retry/timeout logic
+const Inquiries = React.lazy(() => import("../pages/Admin/Inquiries"));
+const AdminDashboard = React.lazy(() => import("../pages/Admin/Dashboard/AdminDashboard"));
+const AdminEstimates = React.lazy(() => import("../pages/Admin/Estimates/AdminEstimates"));
+const AdminEstimateDetail = React.lazy(() => import("../pages/Admin/Estimates/AdminEstimateDetail"));
+const AdminEstimateInquiries = React.lazy(() => import("../pages/Admin/Estimates/AdminEstimateInquiries"));
+const AdminPromptAssistant = React.lazy(() => import("../pages/AdminPromptAssistant/AdminPromptAssistant"));
+const AdminAnalytics = React.lazy(() => import("../pages/AdminAnalytics/AdminAnalytics"));
+const AdminConstructionCases = React.lazy(() => import("../pages/AdminConstructionCases/AdminConstructionCases"));
+const AdminMaterials = React.lazy(() => import("../pages/AdminMaterials/AdminMaterials"));
+const AdminProducts = React.lazy(() => import("../pages/AdminProducts/AdminProducts"));
+const AdminOrders = React.lazy(() => import("../pages/Admin/Orders/AdminOrders"));
 
 // Global Components
 import IntroSplash from "../components/layout/IntroSplash";

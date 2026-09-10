@@ -12,19 +12,19 @@ export default class LazyErrorBoundary extends React.Component {
   }
 
   static getDerivedStateFromError(error) {
-    const errorId = `ERR-LAZY-${Date.now().toString(36).toUpperCase()}`;
-    return { hasError: true, error, errorId };
+    return { hasError: true, error };
   }
 
   componentDidCatch(error, errorInfo) {
     this.setState({ errorInfo });
-    console.error("[LazyErrorBoundary] Route Dynamic Import Error:", {
-      errorId: this.state.errorId,
-      pathname: window.location.pathname,
-      error: error?.message || error,
-      stack: error?.stack,
-      componentStack: errorInfo?.componentStack
-    });
+    console.error('ORIGINAL_APP_ERROR', error);
+    console.error('ERROR_NAME', error?.name);
+    console.error('ERROR_MESSAGE', error?.message);
+    console.error('ERROR_STACK', error?.stack);
+    console.error('ERROR_CAUSE', error?.cause);
+    console.error('CURRENT_URL', typeof window !== 'undefined' ? window.location.href : '');
+    console.error('REACT_ERROR', error);
+    console.error('COMPONENT_STACK', errorInfo?.componentStack);
   }
 
   handleReset = () => {

@@ -15,45 +15,6 @@ async function getLocalMaterials() {
   return localMaterialsCache;
 }
 
-/**
- * Wraps a promise with a timeout limit (default 6000ms)
- */
-export function fetchWithTimeout(promise, timeoutMs = 6000, errorMsg = 'Supabase request timeout') {
-  return new Promise((resolve, reject) => {
-    const timer = setTimeout(() => {
-      reject(new Error(errorMsg));
-    }, timeoutMs);
-
-    promise
-      .then((res) => {
-        clearTimeout(timer);
-        resolve(res);
-      })
-      .catch((err) => {
-        clearTimeout(timer);
-        reject(err);
-      });
-  });
-}
-
-/**
- * Executes a fetch function with retries on transient network failures
- */
-export async function withRetry(fn, maxRetries = 1, delayMs = 300) {
-  let lastError;
-  for (let attempt = 0; attempt <= maxRetries; attempt++) {
-    try {
-      return await fn();
-    } catch (err) {
-      lastError = err;
-      if (attempt < maxRetries) {
-        await new Promise((res) => setTimeout(res, delayMs));
-      }
-    }
-  }
-  throw lastError;
-}
-
 const normalizeText = (value = "") =>
   String(value).replace(/\s+/g, "").toLowerCase().trim();
 
@@ -78,7 +39,8 @@ let cachedHomeProducts = null;
 const filteredProductsCache = new Map();
 
 /**
- * Fast home page product fetcher (only returns top 20 active products for initial render)
+ * Fast home page product fetcher (returns top 20 active products for initial render)
+ * Soft-races Supabase against local materials DB to guarantee sub-second rendering without timeouts
  */
 export async function fetchHomeProducts(limit = 20) {
   if (cachedHomeProducts && cachedHomeProducts.length >= Math.min(limit, 8)) {
@@ -87,32 +49,35 @@ export async function fetchHomeProducts(limit = 20) {
 
   if (supabase) {
     try {
-      const data = await withRetry(async () => {
-        const queryPromise = supabase
-          .from('products')
-          .select(`
-            id, slug, name, product_code, price, thickness, unit, image_url, description, is_featured, is_active, sort_order,
-            categories ( id, name ),
-            brands ( id, name )
-          `)
-          .eq('is_active', true)
-          .order('sort_order', { ascending: true })
-          .limit(limit);
+      const queryPromise = supabase
+        .from('products')
+        .select(`
+          id, slug, name, product_code, price, thickness, unit, image_url, description, is_featured, is_active, sort_order,
+          categories ( id, name ),
+          brands ( id, name )
+        `)
+        .eq('is_active', true)
+        .order('sort_order', { ascending: true })
+        .limit(limit);
 
-        const { data: rows, error } = await fetchWithTimeout(queryPromise, 6000, 'fetchHomeProducts timeout');
-        if (error) throw error;
-        return rows;
-      }, 1, 300);
+      // Soft race: Wait up to 2 seconds for live Supabase DB response
+      const softTimer = new Promise(resolve => setTimeout(() => resolve({ timeout: true }), 2000));
+      const res = await Promise.race([queryPromise, softTimer]);
 
-      if (data && data.length > 0) {
-        cachedHomeProducts = deduplicateProducts(data.map(mapProductRow));
+      if (res && !res.timeout && !res.error && res.data && res.data.length > 0) {
+        cachedHomeProducts = deduplicateProducts(res.data.map(mapProductRow));
         return cachedHomeProducts;
       }
+
+      if (res && res.timeout) {
+        console.warn("[fetchHomeProducts] Supabase API response > 2s. Seamlessly serving local fallback data for instant render.");
+      }
     } catch (e) {
-      console.warn("fetchHomeProducts Supabase fetch exception (falling back to local materials DB):", e);
+      console.warn("[fetchHomeProducts] Supabase fetch exception (serving local fallback data):", e);
     }
   }
 
+  // Instant local fallback - guaranteed never to throw an exception
   const all = await fetchAllProducts();
   cachedHomeProducts = all.slice(0, limit);
   return cachedHomeProducts;

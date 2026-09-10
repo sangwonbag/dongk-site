@@ -29,3 +29,5 @@ temp_debug.json
 shinhan_files_recovery.json
 *.pyc
 __pycache__/
+test-results/
+playwright-report/
