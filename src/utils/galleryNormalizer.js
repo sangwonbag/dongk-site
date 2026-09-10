@@ -141,6 +141,10 @@ function isProductSpecificFilename(filename) {
 export function getUniqueProductImages(images) {
   if (!Array.isArray(images)) return [];
 
+  if (!imageHashManifest) {
+    ensureImageHashManifestLoaded().catch(() => {});
+  }
+
   const seenPaths = new Set();
   const seenHashes = new Set();
   const seenFilenames = new Set();
@@ -180,7 +184,7 @@ export function getUniqueProductImages(images) {
     ];
 
     for (const k of lookupKeys) {
-      if (k && imageHashManifest[k]?.hash) {
+      if (k && imageHashManifest && imageHashManifest[k]?.hash) {
         hash = imageHashManifest[k].hash;
         break;
       }
