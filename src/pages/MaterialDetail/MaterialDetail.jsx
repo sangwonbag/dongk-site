@@ -572,6 +572,7 @@ export default function MaterialDetail() {
   const [item, setItem] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [retryKey, setRetryKey] = useState(0);
 
   const [rawImages, setRawImages] = useState({
     detailStr: '',
@@ -626,59 +627,176 @@ export default function MaterialDetail() {
     });
   };
 
-  // 1. Fetch Product Detail
+  // 1. Fetch Product Detail (Safe, guaranteed loading finish under 10s)
   useEffect(() => {
-    if (!id) return;
-    
-    async function fetchItem() {
+    let disposed = false;
+
+    async function fetchMaterialDetail() {
       setLoading(true);
       setError(null);
-      let productData = null;
-      let queryError = null;
 
-      try {
-        if (supabase) {
-          const query = supabase
-            .from('products')
-            .select(`
-              *,
-              categories ( id, name ),
-              brands ( id, name )
-            `);
-          
-          let res;
-          if (/^\d+$/.test(id)) {
-            res = await query.eq('id', parseInt(id, 10)).maybeSingle();
-          } else {
-            res = await query.eq('slug', id).maybeSingle();
-            if (!res.data) {
-              res = await supabase
-                .from('products')
-                .select(`
-                  *,
-                  categories ( id, name ),
-                  brands ( id, name )
-                `)
-                .eq('product_code', id)
-                .maybeSingle();
-            }
-          }
-          if (res.error) {
-            queryError = res.error;
-          } else {
-            productData = res.data;
-          }
+      const routeParam = rawId;
+      console.log('[MaterialDetail] route param:', routeParam);
+
+      if (!routeParam) {
+        if (!disposed) {
+          setError("상품 식별자가 없습니다.");
+          setLoading(false);
         }
-      } catch (err) {
-        console.error("Supabase detail fetch exception:", err);
-        queryError = err;
+        return;
       }
 
-      // Fallback
-      if (queryError || !productData) {
-        const localMaterials = await getLocalMaterialsData();
-        const localItem = localMaterials.find(m => m.id === id || m.code === id);
-        if (localItem) {
+      let decodedParam = routeParam;
+      try {
+        decodedParam = decodeURIComponent(routeParam || "");
+      } catch (e) {
+        console.warn("[MaterialDetail] decodeURIComponent error:", e);
+      }
+
+      console.log('[MaterialDetail] decoded param:', decodedParam);
+      console.log('[MaterialDetail] query start');
+
+      let timerId = null;
+
+      try {
+        const timeoutPromise = new Promise((_, reject) => {
+          timerId = setTimeout(() => {
+            reject(new Error('상품 조회 시간이 초과되었습니다.'));
+          }, 10000);
+        });
+
+        const queryPromise = (async () => {
+          let productData = null;
+          let queryError = null;
+
+          if (supabase) {
+            try {
+              let res;
+              if (/^\d+$/.test(decodedParam)) {
+                res = await supabase
+                  .from('products')
+                  .select(`
+                    *,
+                    categories ( id, name ),
+                    brands ( id, name )
+                  `)
+                  .eq('id', parseInt(decodedParam, 10))
+                  .maybeSingle();
+              } else {
+                res = await supabase
+                  .from('products')
+                  .select(`
+                    *,
+                    categories ( id, name ),
+                    brands ( id, name )
+                  `)
+                  .eq('slug', decodedParam)
+                  .maybeSingle();
+
+                if (!res.data && !res.error) {
+                  res = await supabase
+                    .from('products')
+                    .select(`
+                      *,
+                      categories ( id, name ),
+                      brands ( id, name )
+                    `)
+                    .eq('product_code', decodedParam)
+                    .maybeSingle();
+                }
+              }
+
+              if (res.error) {
+                console.error("[MaterialDetail] Supabase detail fetch failure:", res.error, { queryParam: decodedParam });
+                queryError = res.error;
+              } else {
+                productData = res.data;
+              }
+            } catch (spErr) {
+              console.error("[MaterialDetail] Supabase exception:", spErr);
+              queryError = spErr;
+            }
+          }
+
+          console.log('[MaterialDetail] query result:', { data: productData, error: queryError });
+
+          if (productData) {
+            return { productData, source: 'supabase' };
+          }
+
+          // Fallback to local materials data if Supabase returned no product or had an error
+          try {
+            const localMaterials = await getLocalMaterialsData();
+            const localItem = localMaterials.find(m => 
+              m.id === decodedParam || 
+              m.code === decodedParam || 
+              m.slug === decodedParam ||
+              (m.code && m.code.toLowerCase() === decodedParam.toLowerCase())
+            );
+            if (localItem) {
+              return { localItem, source: 'local', localMaterials };
+            }
+          } catch (locErr) {
+            console.warn("[MaterialDetail] Local materials fallback error:", locErr);
+          }
+
+          return { productData: null, source: 'none' };
+        })();
+
+        const result = await Promise.race([queryPromise, timeoutPromise]);
+
+        if (disposed) return;
+
+        if (result.source === 'supabase' && result.productData) {
+          const p = result.productData;
+          const itemCode = p.product_code || "";
+          const inferredBrand = 
+            p.brands?.name || 
+            p.brand || 
+            p.brandName || 
+            p.manufacturer || 
+            p.company || 
+            inferBrandFromCode(itemCode) || 
+            "브랜드 정보 없음";
+          const inferredCategory = 
+            p.categories?.name || 
+            p.category || 
+            p.type || 
+            "카테고리 정보 없음";
+
+          const dongshinMatch = (inferredBrand === '동신' && inferredCategory === '데코타일')
+            ? dongshinPolymer2026.find(d => d.code.toUpperCase() === itemCode.toUpperCase())
+            : null;
+
+          const eagonInfo = inferredBrand === '이건' ? getEagonInfo(p.description || p.name || "") : null;
+
+          setItem({
+            id: p.slug || String(p.id),
+            product_id: p.id,
+            code: itemCode,
+            name: dongshinMatch ? dongshinMatch.code : (p.name || ""),
+            brand: inferredBrand,
+            category: inferredCategory,
+            price: p.price || 0,
+            thickness: eagonInfo ? eagonInfo.thickness : (p.thickness || ""),
+            specs: {
+              thickness: eagonInfo ? eagonInfo.thickness : (p.thickness || ""),
+              size: eagonInfo ? eagonInfo.size : (p.size_text || ""),
+              packing: eagonInfo ? eagonInfo.packing : (p.unit || "")
+            },
+            thumbnail: p.image_url || null,
+            image: p.image_url || null,
+            description: p.description || "",
+            features: eagonInfo ? eagonInfo.features : (p.features || []),
+            recommendedSpaces: eagonInfo ? eagonInfo.spaces : (p.recommended_spaces || []),
+            line: dongshinMatch ? dongshinMatch.line : (p.description || ""),
+            collection: dongshinMatch ? dongshinMatch.collection : null,
+            series: dongshinMatch ? dongshinMatch.series : null,
+            catalog: dongshinMatch ? dongshinMatch.catalog : null,
+            note: ""
+          });
+        } else if (result.source === 'local' && result.localItem) {
+          const localItem = result.localItem;
           const itemCode = localItem.code || "";
           const inferredBrand = 
             localItem.brand || 
@@ -691,13 +809,6 @@ export default function MaterialDetail() {
             localItem.category || 
             localItem.type || 
             "카테고리 정보 없음";
-
-          console.log("[Debug] Fallback product mapped info:", {
-            code: itemCode,
-            name: localItem.name,
-            brand: inferredBrand,
-            category: inferredCategory
-          });
 
           const dongshinMatch = (inferredBrand === '동신' && inferredCategory === '데코타일')
             ? dongshinPolymer2026.find(d => d.code.toUpperCase() === itemCode.toUpperCase())
@@ -731,102 +842,34 @@ export default function MaterialDetail() {
             note: localItem.note || "",
             sizeOptions: localItem.sizeOptions || undefined
           });
+        } else {
+          setItem(null);
+        }
+      } catch (err) {
+        console.error("[MaterialDetail] 상품 조회 실패:", err);
+        if (!disposed) {
+          setItem(null);
+          setError(
+            err instanceof Error
+              ? err.message
+              : '상품 정보를 불러오지 못했습니다.'
+          );
+        }
+      } finally {
+        if (timerId) clearTimeout(timerId);
+        if (!disposed) {
+          console.log('[MaterialDetail] loading finish');
           setLoading(false);
-          return;
         }
       }
-
-      if (!productData) {
-        setItem(null);
-      } else {
-        const p = productData;
-        const itemCode = p.product_code || "";
-        const inferredBrand = 
-          p.brands?.name || 
-          p.brand || 
-          p.brandName || 
-          p.manufacturer || 
-          p.company || 
-          inferBrandFromCode(itemCode) || 
-          "브랜드 정보 없음";
-        const inferredCategory = 
-          p.categories?.name || 
-          p.category || 
-          p.type || 
-          "카테고리 정보 없음";
-
-        console.log("[Debug] Fetched product raw metadata:", {
-          id: p.id,
-          slug: p.slug,
-          product_code: p.product_code,
-          brands_relation: p.brands,
-          categories_relation: p.categories,
-          brand_field: p.brand,
-          brandName_field: p.brandName,
-          manufacturer_field: p.manufacturer,
-          company_field: p.company,
-          category_field: p.category,
-          type_field: p.type
-        });
-
-        console.log("[Debug] Mapped product info for page:", {
-          code: itemCode,
-          name: p.name,
-          brand: inferredBrand,
-          category: inferredCategory
-        });
-
-        const dongshinMatch = (inferredBrand === '동신' && inferredCategory === '데코타일')
-          ? dongshinPolymer2026.find(d => d.code.toUpperCase() === itemCode.toUpperCase())
-          : null;
-
-        const lxMatch = (inferredBrand === 'LX' && inferredCategory === '데코타일')
-          ? materials.find(m => m.brand === 'LX' && m.category === '데코타일' && m.code && m.code.replace(/\s+/g, '').toLowerCase() === itemCode.replace(/\s+/g, '').toLowerCase())
-          : null;
-
-        const dbItem = {
-          brand: inferredBrand,
-          category: inferredCategory,
-          line: p.description || "",
-          name: p.name || "",
-          code: p.product_code || null
-        };
-        const dbKey = getMaterialMatchKey(dbItem);
-        const localMatch = materials.find(m => getMaterialMatchKey(m) === dbKey);
-
-        const eagonInfo = inferredBrand === '이건' ? getEagonInfo(p.description || p.name || "") : null;
-
-        setItem({
-          id: p.slug || String(p.id),
-          code: itemCode,
-          name: dongshinMatch ? dongshinMatch.code : (lxMatch ? lxMatch.name : (p.name || "")),
-          brand: inferredBrand,
-          category: inferredCategory,
-          price: p.price || 0,
-          thickness: eagonInfo ? eagonInfo.thickness : (p.thickness || ""),
-          specs: {
-            thickness: eagonInfo ? eagonInfo.thickness : (p.thickness || ""),
-            size: eagonInfo ? eagonInfo.size : (p.size_text || ""),
-            packing: eagonInfo ? eagonInfo.packing : (p.unit || "")
-          },
-          thumbnail: p.image_url || null,
-          image: p.image_url || null,
-          description: p.description || "",
-          features: eagonInfo ? eagonInfo.features : (p.features || []),
-          recommendedSpaces: eagonInfo ? eagonInfo.spaces : (p.recommended_spaces || []),
-          line: dongshinMatch ? dongshinMatch.line : (lxMatch ? lxMatch.line : (localMatch ? localMatch.line : (p.description || ""))),
-          collection: dongshinMatch ? dongshinMatch.collection : (lxMatch ? lxMatch.collection : (localMatch ? localMatch.collection : null)),
-          series: dongshinMatch ? dongshinMatch.series : (lxMatch ? lxMatch.series : (localMatch ? localMatch.series : null)),
-          catalog: dongshinMatch ? dongshinMatch.catalog : (lxMatch ? lxMatch.catalog : (localMatch ? localMatch.catalog : null)),
-          note: lxMatch ? lxMatch.note : (localMatch ? localMatch.note : ""),
-          sizeOptions: localMatch ? localMatch.sizeOptions : undefined
-        });
-      }
-      setLoading(false);
     }
-    
-    fetchItem();
-  }, [id]);
+
+    fetchMaterialDetail();
+
+    return () => {
+      disposed = true;
+    };
+  }, [rawId, retryKey]);
 
   // 2. Load Gallery Images
   useEffect(() => {
@@ -835,34 +878,38 @@ export default function MaterialDetail() {
     let alive = true;
 
     async function loadImages() {
-      const detailStr = await getDetailImage(item);
-      const thumbStr = await getThumbnailImage(item);
-      const galleryObjs = await getValidGalleryImages(item);
-      let eagonImg = null;
+      try {
+        const detailStr = await getDetailImage(item);
+        const thumbStr = await getThumbnailImage(item);
+        const galleryObjs = await getValidGalleryImages(item);
+        let eagonImg = null;
 
-      if (item.brand === '이건') {
-        eagonImg = resolveMaterialImageWithEagon(item);
+        if (item.brand === '이건') {
+          eagonImg = resolveMaterialImageWithEagon(item);
+        }
+
+        if (!alive) return;
+
+        setRawImages({
+          detailStr: detailStr || '',
+          thumbStr: thumbStr || '',
+          galleryObjs: galleryObjs || [],
+          eagonImg,
+          itemImages: item.images || [],
+          itemGalleryImages: item.galleryImages || [],
+          itemDetailImages: item.detailImages || [],
+          itemInstallationImages: item.installationImages || []
+        });
+        setBrokenImages(new Set());
+        setSelectedImageIndex(0);
+      } catch (imgErr) {
+        console.warn("[MaterialDetail] Non-critical image loading error:", imgErr);
       }
-
-      if (!alive) return;
-
-      setRawImages({
-        detailStr: detailStr || '',
-        thumbStr: thumbStr || '',
-        galleryObjs: galleryObjs || [],
-        eagonImg,
-        itemImages: item.images || [],
-        itemGalleryImages: item.galleryImages || [],
-        itemDetailImages: item.detailImages || [],
-        itemInstallationImages: item.installationImages || []
-      });
-      setBrokenImages(new Set());
-      setSelectedImageIndex(0);
     }
     loadImages();
 
     return () => { alive = false; };
-  }, [item]);
+  }, [item?.id, item?.code]);
 
   // Generate finalized deduplicated images array
   const productImages = useMemo(() => {
@@ -964,9 +1011,11 @@ export default function MaterialDetail() {
     }
   }, [productImages.length, selectedImageIndex]);
 
-  // 3. Fetch Related Products
+  // 3. Fetch Related Products (Non-blocking background call)
   useEffect(() => {
     if (!item) return;
+
+    let active = true;
 
     async function fetchRelated() {
       const getScore = (p) => {
@@ -1023,7 +1072,7 @@ export default function MaterialDetail() {
             }
           }
           
-          if (data && data.length > 0) {
+          if (data && data.length > 0 && active) {
             const mappedList = data.map(p => {
               const mapped = {
                 id: p.slug || String(p.id),
@@ -1054,55 +1103,96 @@ export default function MaterialDetail() {
       }
 
       // Fallback local related
-      const localRelated = materials
-        .filter(m => m.code !== item.code && m.id !== item.id)
-        .map(m => {
-          const mapped = {
-            id: m.id || m.code,
-            code: m.code || "",
-            name: m.name || "",
-            brand: m.brand || "",
-            category: m.category || "",
-            line: m.line || m.description || "",
-            price: m.price || 0,
-            size: m.specs?.size || m.specs?.thickness || ""
-          };
-          normalizeProductDetails(mapped);
-          mapped.thumbnail = resolveMaterialImageWithEagon(mapped);
-          return {
-            item: mapped,
-            score: getScore(mapped)
-          };
-        });
+      try {
+        const localMaterials = await getLocalMaterialsData();
+        if (!active) return;
+        const localRelated = localMaterials
+          .filter(m => m.code !== item.code && m.id !== item.id)
+          .map(m => {
+            const mapped = {
+              id: m.id || m.code,
+              code: m.code || "",
+              name: m.name || "",
+              brand: m.brand || "",
+              category: m.category || "",
+              line: m.line || m.description || "",
+              price: m.price || 0,
+              size: m.specs?.size || m.specs?.thickness || ""
+            };
+            normalizeProductDetails(mapped);
+            mapped.thumbnail = resolveMaterialImageWithEagon(mapped);
+            return {
+              item: mapped,
+              score: getScore(mapped)
+            };
+          });
 
-      localRelated.sort((a, b) => b.score - a.score);
-      const fallbackTop4 = localRelated.slice(0, 4).map(x => x.item);
-      setRelatedItems(fallbackTop4);
+        localRelated.sort((a, b) => b.score - a.score);
+        const fallbackTop4 = localRelated.slice(0, 4).map(x => x.item);
+        if (active) {
+          setRelatedItems(fallbackTop4);
+        }
+      } catch (e) {}
     }
 
     fetchRelated();
-  }, [item]);
+
+    return () => { active = false; };
+  }, [item?.id, item?.code]);
 
   if (loading) {
     return (
       <MainLayout>
         <div className="container" style={{ padding: "120px 0", textAlign: "center", fontSize: "16px", color: "#6B6B6B" }}>
           <div className="spinner-loader"></div>
-          <p style={{ marginTop: '20px' }}>자재 상세 쇼룸 정보를 불러오는 중입니다...</p>
+          <p style={{ marginTop: '20px' }}>자재 상세 쇼핑 정보를 불러오는 중입니다...</p>
         </div>
       </MainLayout>
     );
   }
 
-  if (error || !item) {
+  if (error) {
     return (
       <MainLayout>
         <div className="container" style={{ padding: "120px 0", textAlign: "center", color: "#6B6B6B" }}>
-          <h2>자재 정보를 찾을 수 없습니다.</h2>
-          <p style={{ marginTop: "15px" }}>선택하신 상품 코드나 주소를 다시 한 번 확인해 주세요.</p>
-          <button className="btn-showroom-dark" onClick={() => navigate("/materials")} style={{ marginTop: '30px', padding: '12px 28px', borderRadius: '25px' }}>
-            자재 목록으로 돌아가기
-          </button>
+          <h2 style={{ fontSize: "22px", color: "#2D2D2D", fontWeight: 600 }}>상품 정보를 불러오지 못했습니다.</h2>
+          <p style={{ marginTop: "12px", color: "#8E8E93" }}>{error}</p>
+          <div style={{ marginTop: "32px", display: "flex", gap: "12px", justifyContent: "center" }}>
+            <button 
+              className="btn-showroom-dark" 
+              onClick={() => setRetryKey(k => k + 1)} 
+              style={{ padding: '12px 28px', borderRadius: '25px', cursor: 'pointer' }}
+            >
+              다시 시도
+            </button>
+            <button 
+              className="btn-showroom-dark" 
+              onClick={() => navigate("/materials")} 
+              style={{ padding: '12px 28px', borderRadius: '25px', backgroundColor: '#555', cursor: 'pointer' }}
+            >
+              자재찾기로 돌아가기
+            </button>
+          </div>
+        </div>
+      </MainLayout>
+    );
+  }
+
+  if (!item) {
+    return (
+      <MainLayout>
+        <div className="container" style={{ padding: "120px 0", textAlign: "center", color: "#6B6B6B" }}>
+          <h2 style={{ fontSize: "22px", color: "#2D2D2D", fontWeight: 600 }}>상품을 찾을 수 없습니다.</h2>
+          <p style={{ marginTop: "12px", color: "#8E8E93" }}>존재하지 않거나 삭제된 상품입니다.</p>
+          <div style={{ marginTop: "32px", display: "flex", gap: "12px", justifyContent: "center" }}>
+            <button 
+              className="btn-showroom-dark" 
+              onClick={() => navigate("/materials")} 
+              style={{ padding: '12px 28px', borderRadius: '25px', backgroundColor: '#555', cursor: 'pointer' }}
+            >
+              자재목록으로 돌아가기
+            </button>
+          </div>
         </div>
       </MainLayout>
     );
