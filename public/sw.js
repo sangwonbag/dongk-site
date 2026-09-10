@@ -1,14 +1,12 @@
-// Dongkyung Flooring (동경바닥재) PWA Service Worker
-const CACHE_NAME = 'dk-floor-v1';
+// Dongkyung Flooring (동경바닥재) Service Worker
+const CACHE_NAME = 'dk-floor-v2';
 const STATIC_ASSETS = [
-  '/',
-  '/index.html',
   '/manifest.json',
   '/dk-apple-touch-icon-transparent.png',
   '/dk-favicon-transparent-32x32.png'
 ];
 
-// Install Event
+// Install Event - skip waiting immediately
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
@@ -18,13 +16,14 @@ self.addEventListener('install', (event) => {
   self.skipWaiting();
 });
 
-// Activate Event
+// Activate Event - claim clients & purge obsolete caches
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((cacheNames) => {
       return Promise.all(
         cacheNames.map((cache) => {
           if (cache !== CACHE_NAME) {
+            console.log('[SW] Deleting legacy cache:', cache);
             return caches.delete(cache);
           }
         })
@@ -38,7 +37,7 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
 
-  // Never cache API requests, Supabase calls, or payment endpoints (Network Only / Network First)
+  // 1. Bypass SW for API, Supabase, non-GET, checkout/cart
   if (
     url.pathname.startsWith('/api') ||
     url.hostname.includes('supabase.co') ||
@@ -47,17 +46,41 @@ self.addEventListener('fetch', (event) => {
     event.request.method !== 'GET'
   ) {
     event.respondWith(
-      fetch(event.request).catch(() => {
-        return caches.match(event.request);
-      })
+      fetch(event.request).catch(() => caches.match(event.request))
     );
     return;
   }
 
-  // Stale-While-Revalidate Strategy for HTML, JS, CSS, and Static Assets
+  // 2. HTML & Navigation Requests: Network-First Strategy
+  // NEVER serve stale index.html cache-first or stale-while-revalidate
+  const isHtmlRequest =
+    event.request.mode === 'navigate' ||
+    url.pathname === '/' ||
+    url.pathname.endsWith('.html') ||
+    event.request.headers.get('accept')?.includes('text/html');
+
+  if (isHtmlRequest) {
+    event.respondWith(
+      fetch(event.request)
+        .then((networkResponse) => {
+          if (networkResponse && networkResponse.status === 200) {
+            const responseToCache = networkResponse.clone();
+            caches.open(CACHE_NAME).then((cache) => {
+              cache.put(event.request, responseToCache);
+            });
+          }
+          return networkResponse;
+        })
+        .catch(() => caches.match(event.request))
+    );
+    return;
+  }
+
+  // 3. JS & CSS & Assets: Network-First with Cache Fallback
+  // Prevents outdated chunk references while offering offline support
   event.respondWith(
-    caches.match(event.request).then((cachedResponse) => {
-      const fetchPromise = fetch(event.request).then((networkResponse) => {
+    fetch(event.request)
+      .then((networkResponse) => {
         if (networkResponse && networkResponse.status === 200) {
           const responseToCache = networkResponse.clone();
           caches.open(CACHE_NAME).then((cache) => {
@@ -65,9 +88,8 @@ self.addEventListener('fetch', (event) => {
           });
         }
         return networkResponse;
-      }).catch(() => cachedResponse);
-
-      return cachedResponse || fetchPromise;
-    })
+      })
+      .catch(() => caches.match(event.request))
   );
 });
+

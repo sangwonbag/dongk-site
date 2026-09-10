@@ -9,15 +9,15 @@ export function preloadRoute(path) {
 
   try {
     if (path.startsWith('/materials')) {
-      import('../pages/Materials/Materials');
+      import('../pages/Materials/Materials').catch(() => {});
     } else if (path.startsWith('/estimate')) {
-      import('../pages/Estimate/EstimateRequest');
+      import('../pages/Estimate/EstimateRequest').catch(() => {});
     } else if (path.startsWith('/samplebooks')) {
-      import('../pages/Samplebooks/SampleBooks');
+      import('../pages/Samplebooks/SampleBooks').catch(() => {});
     } else if (path.startsWith('/cases')) {
-      import('../pages/Cases/Cases');
+      import('../pages/Cases/Cases').catch(() => {});
     } else if (path.startsWith('/cart') || path.startsWith('/checkout')) {
-      import('../pages/Cart/Cart');
+      import('../pages/Cart/Cart').catch(() => {});
     }
   } catch {
     // Non-blocking preloader

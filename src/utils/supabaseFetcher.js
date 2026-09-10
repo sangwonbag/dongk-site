@@ -15,6 +15,45 @@ async function getLocalMaterials() {
   return localMaterialsCache;
 }
 
+/**
+ * Wraps a promise with a timeout limit (default 6000ms)
+ */
+export function fetchWithTimeout(promise, timeoutMs = 6000, errorMsg = 'Supabase request timeout') {
+  return new Promise((resolve, reject) => {
+    const timer = setTimeout(() => {
+      reject(new Error(errorMsg));
+    }, timeoutMs);
+
+    promise
+      .then((res) => {
+        clearTimeout(timer);
+        resolve(res);
+      })
+      .catch((err) => {
+        clearTimeout(timer);
+        reject(err);
+      });
+  });
+}
+
+/**
+ * Executes a fetch function with retries on transient network failures
+ */
+export async function withRetry(fn, maxRetries = 1, delayMs = 300) {
+  let lastError;
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    try {
+      return await fn();
+    } catch (err) {
+      lastError = err;
+      if (attempt < maxRetries) {
+        await new Promise((res) => setTimeout(res, delayMs));
+      }
+    }
+  }
+  throw lastError;
+}
+
 const normalizeText = (value = "") =>
   String(value).replace(/\s+/g, "").toLowerCase().trim();
 
@@ -48,23 +87,29 @@ export async function fetchHomeProducts(limit = 20) {
 
   if (supabase) {
     try {
-      const { data, error } = await supabase
-        .from('products')
-        .select(`
-          id, slug, name, product_code, price, thickness, unit, image_url, description, is_featured, is_active, sort_order,
-          categories ( id, name ),
-          brands ( id, name )
-        `)
-        .eq('is_active', true)
-        .order('sort_order', { ascending: true })
-        .limit(limit);
+      const data = await withRetry(async () => {
+        const queryPromise = supabase
+          .from('products')
+          .select(`
+            id, slug, name, product_code, price, thickness, unit, image_url, description, is_featured, is_active, sort_order,
+            categories ( id, name ),
+            brands ( id, name )
+          `)
+          .eq('is_active', true)
+          .order('sort_order', { ascending: true })
+          .limit(limit);
 
-      if (!error && data && data.length > 0) {
+        const { data: rows, error } = await fetchWithTimeout(queryPromise, 6000, 'fetchHomeProducts timeout');
+        if (error) throw error;
+        return rows;
+      }, 1, 300);
+
+      if (data && data.length > 0) {
         cachedHomeProducts = deduplicateProducts(data.map(mapProductRow));
         return cachedHomeProducts;
       }
     } catch (e) {
-      console.warn("fetchHomeProducts Supabase fetch exception:", e);
+      console.warn("fetchHomeProducts Supabase fetch exception (falling back to local materials DB):", e);
     }
   }
 
@@ -547,22 +592,32 @@ export async function searchProductsServer(queryText, signal) {
       queries.push(q4.limit(20));
     }
 
-    const results = await Promise.all(queries);
+    const results = await Promise.allSettled(queries);
     const merged = [];
     const seenIds = new Set();
 
     for (const res of results) {
-      if (res.error) {
-        if (res.error.message && res.error.message.includes('aborted')) {
+      if (res.status === 'rejected') {
+        if (res.reason?.name === 'AbortError' || res.reason?.message === 'aborted') {
           const abortErr = new Error('aborted');
           abortErr.name = 'AbortError';
           throw abortErr;
         }
-        console.error('[searchProductsServer Subquery Error]:', res.error);
+        console.warn('[searchProductsServer Subquery Rejected]:', res.reason);
         continue;
       }
-      if (res.data) {
-        for (const rawItem of res.data) {
+      const queryRes = res.value;
+      if (queryRes.error) {
+        if (queryRes.error.message && queryRes.error.message.includes('aborted')) {
+          const abortErr = new Error('aborted');
+          abortErr.name = 'AbortError';
+          throw abortErr;
+        }
+        console.error('[searchProductsServer Subquery Error]:', queryRes.error);
+        continue;
+      }
+      if (queryRes.data) {
+        for (const rawItem of queryRes.data) {
           const item = mapProductRow(rawItem);
           if (!seenIds.has(item.id)) {
             seenIds.add(item.id);
