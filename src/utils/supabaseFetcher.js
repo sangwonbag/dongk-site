@@ -6,7 +6,7 @@ let localMaterialsCache = null;
 async function getLocalMaterials() {
   if (localMaterialsCache) return localMaterialsCache;
   try {
-    const mod = await import('../data/materials.db');
+    const mod = await import('../data/materials.db.js');
     localMaterialsCache = mod.materials || [];
   } catch (e) {
     console.error("Failed to dynamically import local materials db:", e);

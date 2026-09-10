@@ -31,7 +31,7 @@ let cachedMaterials = null;
 async function getLocalMaterialsData() {
   if (cachedMaterials) return cachedMaterials;
   try {
-    const mod = await import("../../data/materials.db");
+    const mod = await import("../../data/materials.db.js");
     cachedMaterials = mod.materials || [];
   } catch {
     cachedMaterials = [];
