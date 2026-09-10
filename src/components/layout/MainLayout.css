@@ -1,5 +1,7 @@
 :root {
-    --total-header-height: calc(var(--header-height, 80px) + var(--notice-height, 38px));
+    --header-height: 80px;
+    --notice-height: 38px;
+    --total-header-height: 118px;
     --mobile-header-height: 52px;
     --mobile-bottom-nav-height: 58px;
 }
