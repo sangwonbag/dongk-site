@@ -329,13 +329,6 @@ export default function Header() {
               <span className="speaker-icon">📢</span>
               <span>전문 시공팀과 함께 자재 공급부터 시공까지 원스톱 서비스를 제공합니다.</span>
             </div>
-            <div className="notice-links">
-              <Link to="/" className="notice-link" onMouseEnter={() => preloadRoute('/')}>회사소개</Link>
-              <span className="notice-separator">|</span>
-              <Link to="/cases" className="notice-link" onMouseEnter={() => preloadRoute('/cases')}>시공사례</Link>
-              <span className="notice-separator">|</span>
-              <span className="notice-link" onClick={scrollToFooter}>고객센터</span>
-            </div>
           </div>
         </div>
       )}
