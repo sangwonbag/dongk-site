@@ -247,12 +247,20 @@ async function runPrerender() {
 
   // Generate static pages
   for (const page of staticPages) {
-    const dir = path.dirname(page.outPath);
+    const html = generatePageHtml(page);
+
+    const dirPath = page.outPath;
+    const dir = path.dirname(dirPath);
     if (!fs.existsSync(dir)) {
       fs.mkdirSync(dir, { recursive: true });
     }
-    const html = generatePageHtml(page);
-    fs.writeFileSync(page.outPath, html, 'utf8');
+    fs.writeFileSync(dirPath, html, 'utf8');
+
+    if (page.route !== '/' && page.route.startsWith('/')) {
+      const filePath = path.join(distDir, `${page.route.slice(1)}.html`);
+      fs.writeFileSync(filePath, html, 'utf8');
+    }
+
     console.log(`[Prerender] Wrote static snapshot: ${page.route} -> ${page.outPath}`);
   }
 
