@@ -2959,10 +2959,11 @@ export const materials = [
     "id": "데코타일-kcc-kcc_wood-tw-5120g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_wood",
-    "subLine": "KCC_wood",
+    "line": "센스타일 트랜디",
+    "subLine": "센스타일 트랜디",
     "name": "TW 5120G",
     "code": "TW 5120G",
+    "pattern": "오크",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205120G_0.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205120G_0.png",
     "images": [
@@ -2970,14 +2971,14 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205120G_1.png"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0mm(T)",
     "specs": {
-      "division": "KCC_wood",
-      "thickness": "",
-      "size": "184x950mm",
-      "packing": "19pcs / 3.32㎡"
+      "division": "센스타일 트랜디",
+      "thickness": "3.0mm(T)",
+      "size": "184mm(W) × 950mm(L)",
+      "packing": "19pcs/box · 3.32㎡"
     },
-    "description": "KCC_wood"
+    "description": "KCC 센스타일 트랜디"
   },
   {
     "id": "데코타일-lx-lx하우스-hot-0065-라임-스톤-미스트",

@@ -793,6 +793,7 @@ export default function MaterialDetail() {
             collection: dongshinMatch ? dongshinMatch.collection : null,
             series: dongshinMatch ? dongshinMatch.series : null,
             catalog: dongshinMatch ? dongshinMatch.catalog : null,
+            pattern: p.pattern || (itemCode === 'TW 5120G' ? '오크' : undefined),
             note: ""
           });
         } else if (result.source === 'local' && result.localItem) {
@@ -1924,7 +1925,7 @@ export default function MaterialDetail() {
                             <th>카탈로그</th>
                             <td>{item.catalog || "동신포리마 2026 E-Catalog"}</td>
                             <th>권장 접착 자재</th>
-                            <td>친환경 전용 에폭시/본드</td>
+                            <td>데코타일 본드</td>
                           </tr>
                         </>
                       ) : item.brand === '이건' ? (
@@ -2004,20 +2005,24 @@ export default function MaterialDetail() {
                           <tr>
                             <th>자재 식별 코드</th>
                             <td>{item.code || "코드 정보 없음"}</td>
-                            <th>두께 규격</th>
-                            <td>{item.specs?.thickness || item.thickness || "표준 규격"}</td>
+                            <th>패턴명</th>
+                            <td>{item.pattern || (item.code === 'TW 5120G' ? '오크' : (formatShapeOrPattern(item.line) || "기본 패턴"))}</td>
                           </tr>
                           <tr>
+                            <th>두께 규격</th>
+                            <td>{item.specs?.thickness || item.thickness || (isDecoTile(item) ? "3.0mm(T)" : "3.0mm(T)")}</td>
                             <th>제품 가로세로 규격</th>
                             <td>{item.specs?.size || "규격 확인 필요"}</td>
-                            <th>포장 패킹 단위</th>
-                            <td>{item.specs?.packing || "상담 확인 필요"}</td>
                           </tr>
                           <tr>
+                            <th>포장 패킹 단위</th>
+                            <td>{item.specs?.packing || "상담 확인 필요"}</td>
                             <th>판매 단위</th>
-                            <td>평 (자재 1박스는 약 1평 면적을 마감합니다)</td>
+                            <td>{isDecoTile(item) ? "박스 또는 평 (1박스는 3.32㎡, 약 1평 마감)" : "평 (자재 1박스는 약 1평 면적을 마감합니다)"}</td>
+                          </tr>
+                          <tr>
                             <th>권장 접착 자재</th>
-                            <td>친환경 전용 에폭시/본드</td>
+                            <td colSpan="3">{isDecoTile(item) ? "데코타일 본드" : "데코타일 본드"}</td>
                           </tr>
                         </>
                       )}
