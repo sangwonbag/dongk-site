@@ -15,28 +15,63 @@ export const DECOTILE_NOTICE_TEXT = "동일 브랜드 데코타일 50평(50박�
 
 /**
  * Safely check if a product or category string is Decotile.
- * Handles variations: '데코타일', '데코 타일', 'deco_tile', 'decotile', '데코'
+ * Handles variations: '데코타일', '데코 타일', 'deco_tile', 'decotile', '데코', category_id === 1
  */
 export const isDecoTile = (productOrCategory) => {
   if (!productOrCategory) return false;
   
+  if (typeof productOrCategory === 'object' && productOrCategory !== null) {
+    if (productOrCategory.category_id === 1 || productOrCategory.category_id === '1') {
+      return true;
+    }
+  }
+
   const categoryStr = typeof productOrCategory === 'string' 
     ? productOrCategory 
     : (
         productOrCategory.category || 
         productOrCategory.category_name || 
         productOrCategory.categoryName || 
+        productOrCategory.categories?.name ||
         ''
       );
 
-  const normalized = categoryStr.toString().trim().toLowerCase().replace(/[\s_]/g, '');
+  if (!categoryStr) return false;
+
+  const normalized = categoryStr.toString().trim().toLowerCase().replace(/[\s_-]/g, '');
   return (
     normalized === '데코타일' ||
     normalized === 'decotile' ||
     normalized === 'decotiles' ||
-    normalized === '데코'
+    normalized === '데코' ||
+    normalized === '데코타일본드'
   );
 };
+
+/**
+ * Unify recommended adhesive for Decotile to "데코타일 본드".
+ * Non-Decotile categories preserve their respective adhesives.
+ */
+export const getRecommendedAdhesive = (item) => {
+  if (isDecoTile(item)) {
+    return "데코타일 본드";
+  }
+
+  if (!item) return "상담 문의";
+
+  const brand = (item.brand || '').trim();
+  const cat = (item.category || '').trim();
+
+  if (brand === '이건' || cat === '마루') {
+    return item.adhesive || "이건마루 친환경 황토풀 / 전용 마루 본드";
+  }
+  if (cat === '장판') {
+    return item.adhesive || "장판 전용 웰딩 시공 / 본드";
+  }
+
+  return item.adhesive || "상담 문의";
+};
+
 
 /**
  * Calculate order pyeong for a product item based on quantity.

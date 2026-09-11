@@ -201,9 +201,20 @@ export function formatShapeOrPattern(value) {
   return val;
 }
 
+import { isDecoTile, getRecommendedAdhesive } from "./decotileUtils";
+
 export function normalizeProductDetails(item) {
   if (!item) return item;
   try {
+    if (isDecoTile(item)) {
+      item.adhesive = "데코타일 본드";
+      if (item.specs) {
+        item.specs.adhesive = "데코타일 본드";
+      }
+    } else {
+      item.adhesive = getRecommendedAdhesive(item);
+    }
+
     if (item.category === "마루") {
       const { materialType, displayLine } = getMaterialTypeAndLine(item);
       item.materialType = materialType;

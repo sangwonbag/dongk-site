@@ -2010,7 +2010,7 @@ export default function MaterialDetail() {
                           </tr>
                           <tr>
                             <th>두께 규격</th>
-                            <td>{item.specs?.thickness || item.thickness || (isDecoTile(item) ? "3.0mm(T)" : "3.0mm(T)")}</td>
+                            <td>{item.specs?.thickness || item.thickness || (isDecoTile(item) ? "3.0mm(T)" : "상담 문의")}</td>
                             <th>제품 가로세로 규격</th>
                             <td>{item.specs?.size || "규격 확인 필요"}</td>
                           </tr>
@@ -2022,7 +2022,7 @@ export default function MaterialDetail() {
                           </tr>
                           <tr>
                             <th>권장 접착 자재</th>
-                            <td colSpan="3">{isDecoTile(item) ? "데코타일 본드" : "데코타일 본드"}</td>
+                            <td colSpan="3">{isDecoTile(item) ? "데코타일 본드" : (item.adhesive || "상담 문의")}</td>
                           </tr>
                         </>
                       )}
