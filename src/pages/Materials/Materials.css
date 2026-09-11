@@ -120,6 +120,40 @@
     font-weight: 700;
 }
 
+/* Results Sort Control */
+.results-sort-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sort-label {
+    font-size: 13px;
+    color: var(--text-muted, #71717a);
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.materials-sort-select {
+    padding: 6px 12px;
+    font-size: 13.5px;
+    font-weight: 500;
+    color: var(--text-main, #18181b);
+    background-color: var(--bg-card, #ffffff);
+    border: 1px solid var(--border, #e4e4e7);
+    border-radius: var(--radius-sm, 6px);
+    cursor: pointer;
+    outline: none;
+    transition: all 0.2s ease;
+    appearance: auto;
+}
+
+.materials-sort-select:hover,
+.materials-sort-select:focus {
+    border-color: var(--point-gold, #c5a059);
+    box-shadow: 0 0 0 2px rgba(197, 160, 89, 0.15);
+}
+
 /* Products Layout Grid */
 .materials-grid {
     display: grid;

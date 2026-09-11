@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { X, RotateCcw, Check } from "lucide-react";
 import { formatShapeOrPattern } from "../../utils/brandUtils";
+import { SORT_OPTIONS } from "../../utils/sortUtils";
 import "./MobileFilterSheet.css";
 
 export default function MobileFilterSheet({
@@ -27,6 +28,8 @@ export default function MobileFilterSheet({
   setCodeFilter,
   specFilter,
   setSpecFilter,
+  sortOption = "default",
+  onSortChange,
   totalCount,
   onResetFilters,
 }) {
@@ -49,6 +52,22 @@ export default function MobileFilterSheet({
 
         {/* Content Body */}
         <div className="mobile-filter-sheet-body">
+          {/* Sort Selection */}
+          <div className="filter-sheet-group">
+            <label className="sheet-label">정렬 기준</label>
+            <div className="sheet-chips-grid">
+              {SORT_OPTIONS.map((opt) => (
+                <button
+                  key={opt.value}
+                  className={`sheet-chip ${sortOption === opt.value ? "active" : ""}`}
+                  onClick={() => onSortChange && onSortChange(opt.value)}
+                >
+                  {opt.label}
+                </button>
+              ))}
+            </div>
+          </div>
+
           {/* Category */}
           <div className="filter-sheet-group">
             <label className="sheet-label">카테고리</label>

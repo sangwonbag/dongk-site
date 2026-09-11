@@ -5,6 +5,7 @@ import { getComputedBrand, getMaterialTypeAndLine, formatShapeOrPattern } from "
 import { getSearchScore } from "../../utils/searchUtils";
 import MaterialCard from "../../components/material/MaterialCard";
 import { fetchFilteredProducts } from "../../utils/supabaseFetcher";
+import { sortProducts, SORT_OPTIONS } from "../../utils/sortUtils";
 import { Skeleton, EmptyState, ErrorState } from "../../components/ui";
 import MobileFilterSheet from "../../components/material/MobileFilterSheet";
 import { SlidersHorizontal, X } from "lucide-react";
@@ -92,6 +93,7 @@ export default function Materials() {
   }
   const activeShape = searchParams.get("shape") || "all";
   const activeThickness = searchParams.get("thickness") || "all";
+  const sortOption = searchParams.get("sort") || "default";
   const searchText = searchParams.get("search") || "";
 
   // Local input state for the search bar (for responsiveness while typing)
@@ -107,14 +109,15 @@ export default function Materials() {
     if (activeThickness !== "all") count++;
     if (activeShape !== "all") count++;
     if (activeLine !== "all") count++;
+    if (sortOption !== "default") count++;
     if (nameFilter.trim()) count++;
     if (codeFilter.trim()) count++;
     if (specFilter.trim()) count++;
     return count;
-  }, [activeBrand, activeThickness, activeShape, activeLine, nameFilter, codeFilter, specFilter]);
+  }, [activeBrand, activeThickness, activeShape, activeLine, sortOption, nameFilter, codeFilter, specFilter]);
 
   const handleResetFilters = useCallback(() => {
-    updateParams({ brand: "all", type: null, line: null, shape: null, thickness: null });
+    updateParams({ brand: "all", type: null, line: null, shape: null, thickness: null, sort: null });
     setNameFilter("");
     setCodeFilter("");
     setSpecFilter("");
@@ -539,6 +542,11 @@ export default function Materials() {
     return result;
   }, [materialsList, activeTab, activeBrand, activeMaterialType, activeLine, activeShape, activeThickness, searchText, visibleLines, nameFilter, codeFilter, specFilter]);
 
+  // Apply sorting pipeline on filtered products (Immutably using useMemo)
+  const sortedProducts = useMemo(() => {
+    return sortProducts(filtered, sortOption);
+  }, [filtered, sortOption]);
+
   // Error View
   if (error) {
     const handleRetry = () => {
@@ -650,6 +658,12 @@ export default function Materials() {
                   <span className="active-chip">
                     규격: {specFilter}
                     <X size={14} className="chip-remove" onClick={() => setSpecFilter("")} />
+                  </span>
+                )}
+                {sortOption !== "default" && (
+                  <span className="active-chip">
+                    정렬: {SORT_OPTIONS.find(o => o.value === sortOption)?.label || sortOption}
+                    <X size={14} className="chip-remove" onClick={() => updateParams({ sort: null })} />
                   </span>
                 )}
                 <button className="active-chips-reset-btn" onClick={handleResetFilters}>
@@ -796,9 +810,24 @@ export default function Materials() {
                     <span>자재 정보를 불러오는 중입니다...</span>
                   ) : (
                     <span>
-                      총 <strong>{totalCount || filtered.length}</strong>개 상품
+                      총 <strong>{totalCount || sortedProducts.length}</strong>개 상품
                     </span>
                   )}
+                </div>
+                <div className="results-sort-wrapper">
+                  <label htmlFor="materials-sort-select" className="sort-label">정렬</label>
+                  <select
+                    id="materials-sort-select"
+                    value={sortOption}
+                    onChange={(e) => updateParams({ sort: e.target.value === "default" ? null : e.target.value })}
+                    className="materials-sort-select"
+                  >
+                    {SORT_OPTIONS.map((opt) => (
+                      <option key={opt.value} value={opt.value}>
+                        {opt.label}
+                      </option>
+                    ))}
+                  </select>
                 </div>
               </div>
 
@@ -822,10 +851,10 @@ export default function Materials() {
                     </div>
                   ))}
                 </div>
-              ) : filtered.length > 0 ? (
+              ) : sortedProducts.length > 0 ? (
                 <>
                   <div className="materials-grid">
-                    {filtered.map((m, idx) => (
+                    {sortedProducts.map((m, idx) => (
                       <MaterialCard key={m.id || `product-${idx}`} material={m} priority={idx < 8} />
                     ))}
                   </div>
@@ -837,7 +866,7 @@ export default function Materials() {
                         onClick={handleLoadMore}
                         disabled={loadingMore}
                       >
-                        {loadingMore ? "상품 추가 로딩 중..." : `더보기 (${filtered.length} / ${totalCount || filtered.length})`}
+                        {loadingMore ? "상품 추가 로딩 중..." : `더보기 (${sortedProducts.length} / ${totalCount || sortedProducts.length})`}
                       </button>
                     </div>
                   )}
@@ -886,7 +915,9 @@ export default function Materials() {
         setCodeFilter={setCodeFilter}
         specFilter={specFilter}
         setSpecFilter={setSpecFilter}
-        totalCount={filtered.length}
+        sortOption={sortOption}
+        onSortChange={(val) => updateParams({ sort: val === "default" ? null : val })}
+        totalCount={sortedProducts.length}
         onResetFilters={handleResetFilters}
       />
     </MainLayout>
