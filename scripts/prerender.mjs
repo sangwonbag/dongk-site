@@ -30,6 +30,21 @@ function getBrandName(item) {
   return b || '동경바닥재';
 }
 
+function generateSlug(item) {
+  const cat = (item.category || '').trim();
+  const brand = getBrandName(item);
+  const line = (item.line || item.line_name || '').trim().replace(/\s+/g, '_');
+  const code = (item.code || '').trim().replace(/\s+/g, '_');
+
+  const parts = [];
+  if (cat) parts.push(cat);
+  if (brand) parts.push(brand);
+  if (line) parts.push(line);
+  if (code) parts.push(code);
+
+  return parts.join('-').toLowerCase();
+}
+
 async function runPrerender() {
   console.log('[Prerender] Starting post-build SSG / Static Snapshot Generation...');
 
@@ -181,16 +196,13 @@ async function runPrerender() {
     }
   ];
 
-  // Function to inject SEO into base HTML template
   function generatePageHtml(meta) {
     let html = baseHtml;
 
-    // Update <title>
     if (meta.title) {
       html = html.replace(/<title>.*?<\/title>/i, `<title>${htmlEscape(meta.title)}<\/title>`);
     }
 
-    // Prepare meta elements to inject inside <head>
     let metaTags = '';
     metaTags += `\n    <meta name="description" content="${htmlEscape(meta.description || '')}" />`;
     metaTags += `\n    <meta name="robots" content="${meta.noindex ? 'noindex, nofollow' : 'index, follow'}" />`;
@@ -198,7 +210,6 @@ async function runPrerender() {
       metaTags += `\n    <link rel="canonical" href="${htmlEscape(meta.canonical)}" />`;
     }
 
-    // OpenGraph
     metaTags += `\n    <meta property="og:title" content="${htmlEscape(meta.title || '')}" />`;
     metaTags += `\n    <meta property="og:description" content="${htmlEscape(meta.description || '')}" />`;
     metaTags += `\n    <meta property="og:url" content="${htmlEscape(meta.canonical || BASE_URL)}" />`;
@@ -206,25 +217,19 @@ async function runPrerender() {
     metaTags += `\n    <meta property="og:type" content="${meta.ogType || 'website'}" />`;
     metaTags += `\n    <meta property="og:site_name" content="동경바닥재" />`;
 
-    // Twitter Card
     metaTags += `\n    <meta name="twitter:card" content="summary_large_image" />`;
     metaTags += `\n    <meta name="twitter:title" content="${htmlEscape(meta.title || '')}" />`;
     metaTags += `\n    <meta name="twitter:description" content="${htmlEscape(meta.description || '')}" />`;
     metaTags += `\n    <meta name="twitter:image" content="${htmlEscape(meta.ogImage || `${BASE_URL}/dk-apple-touch-icon-transparent.png`)}" />`;
 
-    // JSON-LD
     if (meta.jsonLd) {
       const jsonStr = JSON.stringify(meta.jsonLd);
       metaTags += `\n    <script type="application/ld+json" data-seo="json-ld">${jsonStr}</script>`;
     }
 
-    // Remove existing description if present in template to avoid duplicate
     html = html.replace(/<meta name="description"[^>]*>/gi, '');
-
-    // Inject metaTags before </head>
     html = html.replace('</head>', `${metaTags}\n  </head>`);
 
-    // Inject initial static contentHtml inside <div id="root">
     if (meta.contentHtml) {
       html = html.replace('<div id="root"></div>', `<div id="root">${meta.contentHtml}</div>`);
     }
@@ -243,20 +248,32 @@ async function runPrerender() {
     console.log(`[Prerender] Wrote static snapshot: ${page.route} -> ${page.outPath}`);
   }
 
-  // 2. Generate Product Detail SSG snapshots for ALL materials
+  // 2. Generate Product Detail SSG snapshots for ALL candidate identifiers
   let prodCount = 0;
-  const processedIds = new Set();
+  const createdPaths = new Set();
 
   for (const item of materials) {
-    const rawId = item.id || item.code;
-    if (!rawId || processedIds.has(String(rawId))) continue;
-    processedIds.add(String(rawId));
-
     const brand = getBrandName(item);
     const category = item.category || '바닥재';
     const line = item.line || '';
     const name = item.name || item.code || '';
     const code = item.code || '';
+
+    // Collect all valid URL key aliases for this product
+    const candidateKeys = new Set();
+
+    if (item.id) candidateKeys.add(String(item.id));
+    if (item.product_id) candidateKeys.add(String(item.product_id));
+    if (item.slug) candidateKeys.add(String(item.slug));
+    if (code) {
+      candidateKeys.add(code);
+      candidateKeys.add(code.replace(/\s+/g, '_'));
+      candidateKeys.add(code.replace(/\s+/g, '-'));
+    }
+    const autoSlug = generateSlug(item);
+    if (autoSlug) candidateKeys.add(autoSlug);
+
+    const primaryKey = item.slug || String(item.id || code);
 
     const displayName = `${brand} ${line} ${name}`.replace(/\s+/g, ' ').trim();
     const pageTitle = `${brand} ${line ? `${line} ` : ''}${name} ${category} | 동경바닥재`.replace(/\s+/g, ' ').trim();
@@ -279,7 +296,7 @@ async function runPrerender() {
     if (adhesive) descParts.push(`권장접착제: ${adhesive}`);
 
     const pageDesc = `${displayName}. ${descParts.join(', ')}. 동경바닥재 정품 자재 정보 조회 및 견적 요청.`;
-    const canonicalUrl = `${BASE_URL}/materials/${encodeURIComponent(String(rawId))}`;
+    const canonicalUrl = `${BASE_URL}/materials/${encodeURIComponent(primaryKey)}`;
     const imgUrl = item.thumbnail ? (item.thumbnail.startsWith('http') ? item.thumbnail : `${BASE_URL}${item.thumbnail}`) : `${BASE_URL}/dk-apple-touch-icon-transparent.png`;
 
     const numericPrice = typeof item.price === 'number' && item.price > 0 ? item.price : null;
@@ -290,7 +307,7 @@ async function runPrerender() {
       'name': displayName,
       'image': [imgUrl],
       'description': pageDesc,
-      'sku': code || String(rawId),
+      'sku': code || String(primaryKey),
       'brand': { '@type': 'Brand', 'name': brand },
       'url': canonicalUrl,
       ...(numericPrice ? {
@@ -346,12 +363,6 @@ async function runPrerender() {
       </article>
     `;
 
-    const outPath = path.join(distDir, 'materials', String(rawId), 'index.html');
-    const outDir = path.dirname(outPath);
-    if (!fs.existsSync(outDir)) {
-      fs.mkdirSync(outDir, { recursive: true });
-    }
-
     const html = generatePageHtml({
       title: pageTitle,
       description: pageDesc,
@@ -362,11 +373,23 @@ async function runPrerender() {
       contentHtml
     });
 
-    fs.writeFileSync(outPath, html, 'utf8');
-    prodCount++;
+    for (const key of candidateKeys) {
+      if (!key) continue;
+      const outPath = path.join(distDir, 'materials', key, 'index.html');
+      if (createdPaths.has(outPath)) continue;
+      createdPaths.add(outPath);
+
+      const outDir = path.dirname(outPath);
+      if (!fs.existsSync(outDir)) {
+        fs.mkdirSync(outDir, { recursive: true });
+      }
+
+      fs.writeFileSync(outPath, html, 'utf8');
+      prodCount++;
+    }
   }
 
-  console.log(`[Prerender] Successfully generated ${prodCount} product static SSG pages inside dist/materials/`);
+  console.log(`[Prerender] Successfully generated ${prodCount} product static SSG pages across all candidate identifiers in dist/materials/`);
 }
 
 runPrerender().catch(err => {
