@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ShoppingCart } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { useEstimateCart } from '../../contexts/EstimateCartContext';
 import { useAuth } from '../../contexts/AuthContext';
 import { getThumbnailImage } from '../../utils/galleryUtils';
@@ -236,8 +236,8 @@ const MaterialCard = ({ material, priority = false }) => {
     };
 
     return (
-        <div className="material-card" onClick={() => handleGoDetail()}>
-            <div className="card-thumb">
+        <div className="material-card" onClick={(e) => handleGoDetail(e)}>
+            <Link to={`/materials/${material.id}`} className="card-thumb" onClick={handleGoDetail}>
                 <ProductImage
                     src={coverUrl}
                     alt={displayName || material.code}
@@ -245,7 +245,7 @@ const MaterialCard = ({ material, priority = false }) => {
                     priority={priority}
                 />
                 {material.isNew && <span className="badge-new">NEW</span>}
-            </div>
+            </Link>
 
             <div className="card-info">
                 <div className="card-brand-cat">
@@ -276,7 +276,7 @@ const MaterialCard = ({ material, priority = false }) => {
                         </>
                     )}
                 </div>
-                <div className="card-name">{displayName}</div>
+                <Link to={`/materials/${material.id}`} className="card-name" onClick={handleGoDetail} style={{ color: 'inherit', textDecoration: 'none', display: 'block' }}>{displayName}</Link>
                 
                 {material.brand === 'KCC' && material.category === '데코타일' ? (
                     <div className="card-meta">

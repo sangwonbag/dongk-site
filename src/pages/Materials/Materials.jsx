@@ -9,6 +9,7 @@ import { sortProducts, SORT_OPTIONS } from "../../utils/sortUtils";
 import { Skeleton, EmptyState, ErrorState } from "../../components/ui";
 import MobileFilterSheet from "../../components/material/MobileFilterSheet";
 import { SlidersHorizontal, X } from "lucide-react";
+import SEO from "../../components/seo/SEO";
 import "./Materials.css";
 import "./MaterialsPageSkeleton.css";
 
@@ -579,8 +580,37 @@ export default function Materials() {
     );
   }
 
+  const seoTitle = activeTab 
+    ? `${activeTab}${activeBrand !== 'all' ? ` (${activeBrand})` : ''} 자재조회 | 동경바닥재`
+    : "자재찾기 | 동경바닥재 - 데코타일, 장판, 마루, 벽지, 카페트타일 조회";
+
+  const materialsBreadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "홈",
+        "item": "https://dkfloor.co.kr/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "자재찾기",
+        "item": "https://dkfloor.co.kr/materials"
+      }
+    ]
+  };
+
   return (
     <MainLayout>
+      <SEO 
+        title={seoTitle}
+        description="동경바닥재 자재찾기 - KCC, LX, 동신, 재영, 이건 등 국내 주요 바닥재 자재를 상품명, 제품코드, 규격별로 편리하게 검색하고 상세 정보를 확인하세요."
+        canonical="https://dkfloor.co.kr/materials"
+        jsonLd={materialsBreadcrumbJsonLd}
+      />
       <div className="materials-container container">
         <main className="materials-content full">
           

@@ -22,6 +22,7 @@ import { getValidGalleryImages, getDetailImage, getThumbnailImage } from "../../
 import { getMaterialImagePath } from "../../utils/materialImageResolver";
 import { getProductImageUrl } from "../../utils/productImageResolver";
 import { supabase } from "../../lib/supabaseClient";
+import SEO from "../../components/seo/SEO";
 import { useAuth } from "../../contexts/AuthContext";
 import { getComputedBrand, normalizeProductDetails, formatFlooringProductName, getProductUnit, formatShapeOrPattern } from "../../utils/brandUtils";
 import { dongshinPolymer2026 } from "../../data/dongshinPolymer2026.js";
@@ -1469,8 +1470,84 @@ export default function MaterialDetail() {
     return "/images/dongshin_tile_detail.jpg";
   })();
 
+  const brandName = getComputedBrand(item);
+  const detailSeoTitle = `${brandName} ${item.line ? `${item.line} ` : ''}${displayName || item.code || ''} ${item.category || '바닥재'} | 동경바닥재`.replace(/\s+/g, ' ').trim();
+  
+  const seoSize = selectedOption ? selectedOption.spec : (item.specs?.size || item.spec || "");
+  const seoThickness = item.thickness || item.specs?.thickness || "";
+  const seoPacking = item.specs?.packing || item.packing || "";
+  const seoUnit = getProductUnit(item);
+  const seoAdhesive = isDecoTile(item) ? "데코타일 본드" : (item.adhesive || "");
+
+  const detailSeoDescription = `${brandName} ${item.category || ''} ${displayName || item.code || ''}. ${seoThickness ? `두께: ${seoThickness}, ` : ''}${seoSize ? `규격: ${seoSize}, ` : ''}${seoPacking ? `포장: ${seoPacking}, ` : ''}${seoUnit ? `단위: ${seoUnit}, ` : ''}${seoAdhesive ? `권장접착제: ${seoAdhesive}. ` : ''}동경바닥재 정품 자재 정보 조회 및 견적 요청.`.replace(/\s+/g, ' ').trim();
+
+  const canonicalUrl = `https://dkfloor.co.kr/materials/${encodeURIComponent(item.id || id)}`;
+  const numericPrice = typeof item.price === 'number' && item.price > 0 ? item.price : null;
+
+  const productJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": displayName || detailSeoTitle,
+    "image": productImages && productImages.length > 0 ? productImages : [item.thumbnail || "https://dkfloor.co.kr/dk-apple-touch-icon-transparent.png"],
+    "description": detailSeoDescription,
+    "sku": item.code || String(item.id),
+    "brand": {
+      "@type": "Brand",
+      "name": brandName
+    },
+    "url": canonicalUrl,
+    ...(numericPrice ? {
+      "offers": {
+        "@type": "Offer",
+        "url": canonicalUrl,
+        "priceCurrency": "KRW",
+        "price": numericPrice,
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    } : {})
+  };
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "홈",
+        "item": "https://dkfloor.co.kr/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "자재찾기",
+        "item": "https://dkfloor.co.kr/materials"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": item.category || "자재",
+        "item": `https://dkfloor.co.kr/materials?category=${encodeURIComponent(item.category || '')}`
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": displayName || item.code,
+        "item": canonicalUrl
+      }
+    ]
+  };
+
   return (
     <MainLayout className="product-detail-page">
+      <SEO 
+        title={detailSeoTitle}
+        description={detailSeoDescription}
+        canonical={canonicalUrl}
+        ogImage={productImages[0] || item.thumbnail}
+        ogType="product"
+        jsonLd={[productJsonLd, breadcrumbJsonLd]}
+      />
       <div className="showroom-detail-bg">
         <div className="container mat-detail-container">
           

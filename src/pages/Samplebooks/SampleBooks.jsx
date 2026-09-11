@@ -7,6 +7,7 @@ import { getComputedBrand } from "../../utils/brandUtils";
 import SampleBookViewer from "../../components/samplebook/SampleBookViewer";
 import SampleBookCard from "../../components/samplebook/SampleBookCard";
 import { EmptyState } from "../../components/ui";
+import SEO from "../../components/seo/SEO";
 import "./SampleBooks.css";
 
 function useQuery() {
@@ -115,6 +116,11 @@ export default function SampleBooks() {
 
   return (
     <MainLayout className="samplebooks-page">
+      <SEO 
+        title="샘플북 조회 | 동경바닥재 - 브랜드별 E-카탈로그 및 Sample Book"
+        description="KCC, LX, 동신, 재영, 이건, 구정 등 바닥재 대표 제조사의 E-카탈로그 및 샘플북을 고해상도로 편리하게 조회하세요."
+        canonical="https://dkfloor.co.kr/samplebooks"
+      />
       <div className="samplebooks-container">
         <main className="sb-content full">
           <div className="samplebooks-filter-section">

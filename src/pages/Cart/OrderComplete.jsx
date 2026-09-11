@@ -4,6 +4,7 @@ import MainLayout from "../../components/layout/MainLayout";
 import { KAKAO_CHAT_URL } from "../../constants/contact";
 import { CheckCircle2 } from "lucide-react";
 import { isDecoTile } from "../../utils/decotileUtils";
+import SEO from "../../components/seo/SEO";
 import "./OrderComplete.css";
 
 
@@ -96,6 +97,7 @@ export default function OrderComplete() {
 
   return (
     <MainLayout>
+      <SEO title="주문완료 | 동경바닥재" noindex={true} canonical="https://dkfloor.co.kr/order-complete" />
       <div className="order-complete-page-wrapper">
         
         {/* 1. Progress steps stage indicator */}

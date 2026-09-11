@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import MainLayout from "../../components/layout/MainLayout";
 import { getPrivacyPolicyFullText } from "../../data/termsText";
 import { COMPANY_CONFIG } from "../../data/companyConfig";
+import SEO from "../../components/seo/SEO";
 import "./PrivacyPolicy.css";
 
 export default function PrivacyPolicy() {
@@ -13,6 +14,11 @@ export default function PrivacyPolicy() {
 
     return (
         <MainLayout>
+            <SEO 
+                title="개인정보 처리방침 | 동경바닥재"
+                description="동경바닥재 개인정보 처리방침 안내"
+                canonical="https://dkfloor.co.kr/privacy-policy"
+            />
             <div className="policy-page-container">
                 <div className="policy-card">
                     <h1 className="policy-title">개인정보 처리방침</h1>

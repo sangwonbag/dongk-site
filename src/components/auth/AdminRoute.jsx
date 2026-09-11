@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navigate } from 'react-router-dom';
 import { isAdmin } from '../../lib/auth';
+import SEO from '../seo/SEO';
 
 export default function AdminRoute({ children }) {
   if (!isAdmin()) {
@@ -8,5 +9,10 @@ export default function AdminRoute({ children }) {
     return <Navigate to="/login" replace />;
   }
 
-  return children;
+  return (
+    <>
+      <SEO title="관리자 | 동경바닥재" noindex={true} />
+      {children}
+    </>
+  );
 }

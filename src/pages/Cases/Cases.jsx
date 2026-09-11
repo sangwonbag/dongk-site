@@ -4,6 +4,7 @@ import { useAuth } from '../../contexts/AuthContext';
 import MainLayout from '../../components/layout/MainLayout';
 import { supabase } from '../../lib/supabaseClient';
 import { MapPin, Box, Calendar, Edit2, Trash2, Eye, EyeOff } from 'lucide-react';
+import SEO from '../../components/seo/SEO';
 import './Cases.css';
 
 // Curated fallback portfolio cases
@@ -144,6 +145,11 @@ export default function Cases() {
 
   return (
     <MainLayout>
+      <SEO 
+        title="시공사례 | 동경바닥재 - 데코타일·마루·장판 실제 바닥 시공 포트폴리오"
+        description="동경바닥재의 실제 주거, 사무, 상업 공간 바닥재(데코타일, 마루, 장판, 카페트타일) 시공사례 포트폴리오를 확인하세요."
+        canonical="https://dkfloor.co.kr/cases"
+      />
       <div className="cases-page-container container">
         {/* Admin Quick Banner */}
         {isAdmin && (

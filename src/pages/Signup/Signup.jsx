@@ -3,6 +3,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { checkDuplicateUsername } from "../../lib/auth";
 import { useAuth } from "../../contexts/AuthContext";
+import SEO from "../../components/seo/SEO";
 import "./Signup.css";
 import { getTermsContent } from "../../data/termsText";
 import { COMPANY_CONFIG } from "../../data/companyConfig";
@@ -322,6 +323,7 @@ export default function Signup() {
 
     return (
         <MainLayout>
+            <SEO title="회원가입 | 동경바닥재" noindex={true} canonical="https://dkfloor.co.kr/signup" />
             <div className="signup-page-container">
                 <div className="signup-card">
                     {/* Header */}

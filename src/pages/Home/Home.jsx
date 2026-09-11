@@ -19,7 +19,25 @@ import {
   Shield,
   Truck
 } from "lucide-react";
+import SEO from "../../components/seo/SEO";
 import "./Home.css";
+
+const HOME_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "동경바닥재 (DK Floor)",
+  "alternateName": "DK Floor",
+  "url": "https://dkfloor.co.kr",
+  "logo": "https://dkfloor.co.kr/dk-apple-touch-icon-transparent.png",
+  "image": "https://dkfloor.co.kr/dk-apple-touch-icon-transparent.png",
+  "description": "국내 주요 브랜드(KCC, LX, 동신, 재영, 이건 등) 데코타일, 마루, 장판, 벽지 등 프리미엄 바닥재 전문 유통 브랜드",
+  "telephone": "1668-5244",
+  "priceRange": "₩₩",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "KR"
+  }
+};
 
 export default function Home() {
   const [products, setProducts] = useState([]);
@@ -80,6 +98,12 @@ export default function Home() {
 
   return (
     <MainLayout>
+      <SEO 
+        title="동경바닥재 | KCC·LX·동신 프리미엄 바닥재·데코타일·마루·장판 유통 전문"
+        description="동경바닥재 - 국내 주요 브랜드(KCC, LX, 동신, 재영, 이건 등) 데코타일, 마루, 장판, 벽지 전문 유통. 자재 조회, 샘플북, 시공사례 및 자동 견적 서비스를 제공합니다."
+        canonical="https://dkfloor.co.kr/"
+        jsonLd={HOME_JSON_LD}
+      />
       <div className="spruce-showroom-home">
         
         {/* ================= 1. HERO SECTION ================= */}

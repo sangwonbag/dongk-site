@@ -18,6 +18,7 @@ import {
   formatQuantityWithUnit,
   getItemClassificationLabel 
 } from "../../utils/productClassification";
+import SEO from "../../components/seo/SEO";
 import "./Checkout.css";
 
 const DELIVERY_TIME_OPTIONS = [
@@ -664,6 +665,7 @@ export default function Checkout() {
 
   return (
     <MainLayout>
+      <SEO title="주문결제 | 동경바닥재" noindex={true} canonical="https://dkfloor.co.kr/checkout" />
       <div className="checkout-page-container">
         {/* 주문서 헤더 */}
         <div className="checkout-header">

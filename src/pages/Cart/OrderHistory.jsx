@@ -7,6 +7,7 @@ import { ChevronDown, ChevronUp, Package, Calendar, CreditCard, ClipboardList } 
 import { LoadingSpinner, ErrorState, EmptyState } from "../../components/ui";
 import { formatFlooringProductName } from "../../utils/brandUtils";
 import { isDecoTile } from "../../utils/decotileUtils";
+import SEO from "../../components/seo/SEO";
 import "./OrderHistory.css";
 
 
@@ -116,6 +117,7 @@ export default function OrderHistory() {
 
   return (
     <MainLayout>
+      <SEO title="주문내역 | 동경바닥재" noindex={true} canonical="https://dkfloor.co.kr/orders" />
       <div className="orders-page-container">
         <div className="orders-header">
           <h1>주문 내역</h1>

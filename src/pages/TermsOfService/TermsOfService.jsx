@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import MainLayout from "../../components/layout/MainLayout";
 import { getTermsOfServiceText } from "../../data/termsText";
 import { COMPANY_CONFIG } from "../../data/companyConfig";
+import SEO from "../../components/seo/SEO";
 import "../PrivacyPolicy/PrivacyPolicy.css";
 
 export default function TermsOfService() {
@@ -13,6 +14,11 @@ export default function TermsOfService() {
 
     return (
         <MainLayout>
+            <SEO 
+                title="서비스 이용약관 | 동경바닥재"
+                description="동경바닥재 서비스 이용약관 안내"
+                canonical="https://dkfloor.co.kr/terms-of-service"
+            />
             <div className="policy-page-container">
                 <div className="policy-card">
                     <h1 className="policy-title">서비스 이용약관</h1>

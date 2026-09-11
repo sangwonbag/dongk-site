@@ -9,6 +9,7 @@ import { formatFlooringProductName } from "../../utils/brandUtils";
 import { getProductPyeong, calculateDecorTilePyeong } from "../../utils/shippingUtils";
 import { isDecoTile } from "../../utils/decotileUtils";
 import { isMaterialItem, isAccessoryItem } from "../../utils/productClassification";
+import SEO from "../../components/seo/SEO";
 import "./Cart.css";
 
 export default function Cart() {
@@ -121,6 +122,7 @@ export default function Cart() {
 
   return (
     <MainLayout>
+      <SEO title="장바구니 | 동경바닥재" noindex={true} canonical="https://dkfloor.co.kr/cart" />
       <div className="cart-page-container">
         {/* 장바구니 헤더 */}
         <div className="cart-header">

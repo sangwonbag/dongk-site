@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { getCurrentUser, logout } from "../../lib/auth";
+import SEO from "../../components/seo/SEO";
 import "./MyPage.css";
 
 export default function MyPage() {
@@ -24,10 +25,11 @@ export default function MyPage() {
         nav("/login");
     };
 
-    if (!user) return <MainLayout><div className="mypage-loading">로딩 중...</div></MainLayout>;
+    if (!user) return <MainLayout><SEO title="마이페이지 | 동경바닥재" noindex={true} /><div className="mypage-loading">로딩 중...</div></MainLayout>;
 
     return (
         <MainLayout>
+            <SEO title="마이페이지 | 동경바닥재" noindex={true} canonical="https://dkfloor.co.kr/mypage" />
             <div className="mypage-container">
                 <div className="mypage-header">
                     <h1 className="mypage-title">마이페이지</h1>

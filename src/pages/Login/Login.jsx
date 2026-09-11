@@ -4,6 +4,7 @@ import MainLayout from "../../components/layout/MainLayout";
 import { useAuth } from "../../contexts/AuthContext";
 import { useEstimateCart } from "../../contexts/EstimateCartContext";
 import { supabase } from "../../lib/supabaseClient";
+import SEO from "../../components/seo/SEO";
 import "./Login.css";
 
 export default function Login() {
@@ -76,6 +77,7 @@ export default function Login() {
 
     return (
         <MainLayout>
+            <SEO title="로그인 | 동경바닥재" noindex={true} canonical="https://dkfloor.co.kr/login" />
             <div className="login-container">
                 <div className="login-box">
                     <h1 className="login-title">로그인</h1>

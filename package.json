@@ -8,6 +8,7 @@
     "prebuild": "node scripts/generateImageManifest.cjs && node scripts/generate-image-manifest.mjs",
     "dev": "vite",
     "build": "vite build",
+    "postbuild": "node scripts/generateSitemap.mjs && node scripts/prerender.mjs",
     "generate:image-manifest": "node scripts/generate-image-manifest.mjs",
     "lint": "eslint .",
     "preview": "vite preview",

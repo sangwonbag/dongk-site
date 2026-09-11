@@ -10,6 +10,7 @@ import JangpanAutoCalculator from '../../components/estimate/JangpanAutoCalculat
 import { createEstimateInquiry } from '../../services/estimateInquiryService';
 import { sendOrderNotification } from '../../services/notificationService';
 import { loadDaumPostcode } from '../../utils/loadDaumPostcode';
+import SEO from '../../components/seo/SEO';
 import './EstimateRequest.css';
 
 const ACCESSORY_OPTIONS = ['걸레받이', '본드', '실리콘', '논슬립', '마감재', '문턱/재료분리대'];
@@ -508,6 +509,11 @@ export default function EstimateRequest() {
 
   return (
     <MainLayout>
+      <SEO 
+        title="자동 견적 및 상담 문의 | 동경바닥재"
+        description="동경바닥재 자재 수량 계산기 및 자동 견적 시스템. 면적(㎡, 평) 입력 시 수량 및 예상 자재비를 실시간 계산하고 상담을 신청하세요."
+        canonical="https://dkfloor.co.kr/estimate"
+      />
       <div className={`container est-page ${activeViewTab === 'calc' ? 'wide-page' : ''}`}>
         <div className="est-header">
           <h1>자동견적 & 상담요청</h1>
