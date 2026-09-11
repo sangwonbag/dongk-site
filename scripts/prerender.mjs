@@ -253,12 +253,6 @@ async function runPrerender() {
     }
     const html = generatePageHtml(page);
     fs.writeFileSync(page.outPath, html, 'utf8');
-
-    if (page.route !== '/' && page.route.startsWith('/')) {
-      const altFilePath = path.join(distDir, `${page.route.slice(1)}.html`);
-      fs.writeFileSync(altFilePath, html, 'utf8');
-    }
-
     console.log(`[Prerender] Wrote static snapshot: ${page.route} -> ${page.outPath}`);
   }
 
@@ -390,7 +384,6 @@ async function runPrerender() {
     for (const key of candidateKeys) {
       if (!key) continue;
       const outPathDir = path.join(distDir, 'materials', key, 'index.html');
-      const outPathFile = path.join(distDir, 'materials', `${key}.html`);
 
       if (!createdPaths.has(outPathDir)) {
         createdPaths.add(outPathDir);
@@ -400,11 +393,6 @@ async function runPrerender() {
         }
         fs.writeFileSync(outPathDir, html, 'utf8');
         prodCount++;
-      }
-
-      if (!createdPaths.has(outPathFile)) {
-        createdPaths.add(outPathFile);
-        fs.writeFileSync(outPathFile, html, 'utf8');
       }
     }
   }
