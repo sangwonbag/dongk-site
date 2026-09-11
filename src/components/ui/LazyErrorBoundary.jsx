@@ -25,24 +25,53 @@ export default class LazyErrorBoundary extends React.Component {
     console.error('CURRENT_URL', typeof window !== 'undefined' ? window.location.href : '');
     console.error('REACT_ERROR', error);
     console.error('COMPONENT_STACK', errorInfo?.componentStack);
+
+    // Auto-reload on chunk load failure once to fetch new bundle hash
+    const errMessage = String(error?.message || error || '');
+    const isChunkError =
+      errMessage.includes('Failed to fetch dynamically imported module') ||
+      errMessage.includes('Loading chunk') ||
+      errMessage.includes('Unexpected token') ||
+      error?.name === 'ChunkLoadError';
+
+    if (isChunkError && typeof window !== 'undefined') {
+      const reloadedKey = 'chunk_reload_attempts';
+      const attempts = parseInt(sessionStorage.getItem(reloadedKey) || '0', 10);
+      if (attempts < 2) {
+        sessionStorage.setItem(reloadedKey, String(attempts + 1));
+        window.location.reload();
+      }
+    }
   }
 
   handleReset = () => {
+    if (typeof window !== 'undefined') sessionStorage.removeItem('chunk_reload_attempts');
     this.setState({ hasError: false, error: null, errorInfo: null, errorId: null });
   };
 
   handleReload = () => {
+    if (typeof window !== 'undefined') sessionStorage.removeItem('chunk_reload_attempts');
     this.setState({ hasError: false, error: null, errorInfo: null, errorId: null });
     window.location.reload();
   };
 
   handleGoHome = () => {
+    if (typeof window !== 'undefined') sessionStorage.removeItem('chunk_reload_attempts');
     this.setState({ hasError: false, error: null, errorInfo: null, errorId: null });
     window.location.href = "/";
   };
 
   render() {
     if (this.state.hasError) {
+      // Check if current user is a search engine crawler bot
+      const userAgent = typeof navigator !== 'undefined' ? (navigator.userAgent || '') : '';
+      const isBot = /googlebot|bingbot|yeti|baiduspider|twitterbot|facebookexternalhit|rogerbot|linkedinbot|embedly|quora link preview|showyouhaveseen|outbrain|pinterest|slackbot|vkShare|W3C_Validator|OAI-SearchBot/i.test(userAgent);
+
+      // For bots, keep pre-rendered HTML in DOM rather than rendering error UI
+      if (isBot) {
+        return this.props.children;
+      }
+
       const isDev = import.meta.env.DEV;
       const errMessage = String(this.state.error?.message || this.state.error || '');
       

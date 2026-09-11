@@ -39,6 +39,15 @@ class ErrorBoundary extends React.Component {
 
   render() {
     if (this.state.hasError) {
+      // Check if current user is a search engine crawler bot
+      const userAgent = typeof navigator !== 'undefined' ? (navigator.userAgent || '') : '';
+      const isBot = /googlebot|bingbot|yeti|baiduspider|twitterbot|facebookexternalhit|rogerbot|linkedinbot|embedly|quora link preview|showyouhaveseen|outbrain|pinterest|slackbot|vkShare|W3C_Validator|OAI-SearchBot/i.test(userAgent);
+
+      // For bots, keep pre-rendered HTML in DOM rather than rendering error UI
+      if (isBot) {
+        return this.props.children;
+      }
+
       const isDev = import.meta.env.DEV;
       const errMessage = String(this.state.error?.message || this.state.error || '');
       
