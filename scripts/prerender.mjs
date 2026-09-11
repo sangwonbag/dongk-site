@@ -193,7 +193,15 @@ async function runPrerender() {
       title: '서비스 이용약관 | 동경바닥재',
       description: '동경바닥재 서비스 이용약관 안내',
       canonical: `${BASE_URL}/terms-of-service`
-    }
+    },
+    // Private noindex SPA routes
+    { route: '/login', outPath: path.join(distDir, 'login', 'index.html'), title: '로그인 | 동경바닥재', noindex: true },
+    { route: '/signup', outPath: path.join(distDir, 'signup', 'index.html'), title: '회원가입 | 동경바닥재', noindex: true },
+    { route: '/cart', outPath: path.join(distDir, 'cart', 'index.html'), title: '장바구니 | 동경바닥재', noindex: true },
+    { route: '/checkout', outPath: path.join(distDir, 'checkout', 'index.html'), title: '주문 결제 | 동경바닥재', noindex: true },
+    { route: '/orders', outPath: path.join(distDir, 'orders', 'index.html'), title: '주문 내역 | 동경바닥재', noindex: true },
+    { route: '/mypage', outPath: path.join(distDir, 'mypage', 'index.html'), title: '마이페이지 | 동경바닥재', noindex: true },
+    { route: '/admin', outPath: path.join(distDir, 'admin', 'index.html'), title: '관리자 센터 | 동경바닥재', noindex: true }
   ];
 
   function generatePageHtml(meta) {

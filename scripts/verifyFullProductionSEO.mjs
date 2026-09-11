@@ -182,12 +182,6 @@ async function runAudit() {
 
   // 5. Product JSON-LD Inspection (10 Product Pages sampled from generatedMaterials.js)
   console.log('\n5. PRODUCT JSON-LD SAMPLING AUDIT (10 Products)\n');
-  
-  let materials = [];
-  try {
-    const mod = await import('../src/data/generatedMaterials.js');
-    materials = mod.generatedMaterials || mod.materials || mod.default || [];
-  } catch (e) {}
 
   const sampleProductPaths = [
     '/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5120g',
