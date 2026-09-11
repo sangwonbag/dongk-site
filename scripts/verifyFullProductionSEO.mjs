@@ -77,15 +77,19 @@ async function runAudit() {
   console.log('   PRODUCTION SEO & SSG FULL SUITE AUDIT REPORT   ');
   console.log('====================================================\n');
 
-  // 1. Mandatory URLs Inspection
+  let materials = [];
+  try {
+    const mod = await import('../src/data/generatedMaterials.js');
+    materials = mod.generatedMaterials || mod.materials || mod.default || [];
+  } catch (e) {}
+
+  const sampleProducts = materials.slice(0, 5);
+
   const testPaths = [
     '/',
     '/materials',
     '/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5120g',
-    '/materials/100938',
-    '/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-%EB%8F%99%EC%8B%A0-%EB%8F%99%EC%8B%A0_wood-ab-6211',
-    '/materials/%EC%9E%A5%ED%8C%90-kcc-kcc_forest-np-20-2211',
-    '/materials/%EB%A7%88%EB%A3%A4-%EC%9D%B4%EA%B1%B4-%EC%9D%B4%EA%B1%B4_hard-%EA%B0%95%EB%A7%88%EB%A3%A4-%ED%97%A4%EB%A7%81%EB%B3%B8-%EC%98%A4%ED%81%AC',
+    ...sampleProducts.map(m => `/materials/${encodeURIComponent(m.id || m.code)}`),
     '/samplebooks',
     '/cases',
     '/estimate'
@@ -176,25 +180,24 @@ async function runAudit() {
   console.log(`  Content-Type: ${robotsRes.contentType}`);
   console.log(`  Robots.txt Content:\n${robotsRes.fullBody}\n`);
 
-  // 5. Product JSON-LD Inspection (10 sampled products)
+  // 5. Product JSON-LD Inspection (10 Product Pages sampled from generatedMaterials.js)
   console.log('\n5. PRODUCT JSON-LD SAMPLING AUDIT (10 Products)\n');
+  
+  let materials = [];
+  try {
+    const mod = await import('../src/data/generatedMaterials.js');
+    materials = mod.generatedMaterials || mod.materials || mod.default || [];
+  } catch (e) {}
+
   const sampleProductPaths = [
     '/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5120g',
-    '/materials/100938',
-    '/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-%EB%8F%99%EC%8B%A0-%EB%8F%99%EC%8B%A0_wood-ab-6211',
-    '/materials/%EC%9E%A5%ED%8C%90-kcc-kcc_forest-np-20-2211',
-    '/materials/%EB%A7%88%EB%A3%A4-%EC%9D%B4%EA%B1%B4-%EC%9D%B4%EA%B1%B4_hard-%EA%B0%95%EB%A7%88%EB%A3%A4-%ED%97%A4%EB%A7%81%EB%B3%B8-%EC%98%A4%ED%81%AC',
-    '/materials/100001',
-    '/materials/100002',
-    '/materials/100003',
-    '/materials/100004',
-    '/materials/100005'
+    ...materials.slice(0, 9).map(m => `/materials/${encodeURIComponent(m.id || m.code)}`)
   ];
 
   for (const path of sampleProductPaths) {
     const res = await fetchUrl(path, GOOGLEBOT_UA);
     if (!res.jsonLd) {
-      console.log(`  ❌ ${path} -> NO JSON-LD`);
+      console.log(`  ❌ ${path} -> NO JSON-LD (Status ${res.status})`);
       continue;
     }
 
