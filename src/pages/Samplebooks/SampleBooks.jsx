@@ -32,6 +32,7 @@ export default function SampleBooks() {
   const [activeTab, setActiveTab] = useState("recommended");
   const [selectedBrand, setSelectedBrand] = useState("all");
   const [selectedMaterialType, setSelectedMaterialType] = useState("all");
+  const [searchQuery, setSearchQuery] = useState("");
   const [selectedBook, setSelectedBook] = useState(null);
 
   useEffect(() => {
@@ -39,49 +40,45 @@ export default function SampleBooks() {
     const bookId = query.get("bookId");
     if (bookId) {
       const book = sampleBooks.find(b => b.id === bookId);
-      // eslint-disable-next-line react-hooks/set-state-in-effect
       if (book) setSelectedBook(book);
     }
   }, [query]);
 
-  // 카테고리 이동 시 브랜드 필터 초기화
+  // 카테고리 이동 시 브랜드/검색 필터 초기화
   useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
     setSelectedBrand("all");
     setSelectedMaterialType("all");
   }, [activeTab]);
 
   // 브랜드 변경 시 재질 필터 초기화
   useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
     setSelectedMaterialType("all");
   }, [selectedBrand]);
 
   /** ✅ 해당 카테고리에 속한 브랜드 목록 (자재 페이지와 동일하게) */
   const brands = useMemo(() => {
     if (activeTab === "recommended") {
-      // 추천 탭인 경우 KCC, 동신, 유성만 표시
-      return ["all", "KCC", "동신", "유성"];
+      return ["all", "LX", "KCC", "동신", "동화", "이건", "구정", "유성", "녹수", "현대", "스완"];
     }
-    // 자재 데이터의 브랜드 목록 사용 (동적 생성 반영)
     let categoryBrands = [...(BRANDS_BY_CATEGORY[activeTab] || [])];
-
     return ["all", ...categoryBrands];
   }, [activeTab]);
 
-  /** ✅ 최종 필터링: 카테고리 + 브랜드 */
+  /** ✅ 최종 필터링: 카테고리 + 브랜드 + 재질 + 검색어 */
   const filtered = useMemo(() => {
+    const queryTerm = searchQuery.trim().toLowerCase();
+
     return sampleBooks.filter(sb => {
       let categoryOk = false;
       let sbComputedBrand = getComputedBrand(sb);
+
       if (activeTab === "recommended") {
-        categoryOk = (sbComputedBrand === "KCC" || sbComputedBrand === "동신" || sbComputedBrand === "유성");
+        categoryOk = sb.isRecommended || ["LX", "KCC", "동신", "유성", "이건", "구정", "동화"].includes(sbComputedBrand) || ["LX", "KCC", "동신", "유성", "이건", "구정", "동화"].includes(sb.brand);
       } else {
         categoryOk = sb.category === activeTab;
       }
 
       let brandOk = false;
-
       if (selectedBrand === "all") {
         brandOk = true;
       } else {
@@ -102,9 +99,18 @@ export default function SampleBooks() {
         materialOk = true;
       }
 
-      return categoryOk && brandOk && materialOk;
+      let searchOk = true;
+      if (queryTerm) {
+        const titleMatch = (sb.title || "").toLowerCase().includes(queryTerm);
+        const brandMatch = (sb.brand || "").toLowerCase().includes(queryTerm) || sbComputedBrand.toLowerCase().includes(queryTerm);
+        const catMatch = (sb.category || "").toLowerCase().includes(queryTerm);
+        const descMatch = (sb.description || "").toLowerCase().includes(queryTerm);
+        searchOk = titleMatch || brandMatch || catMatch || descMatch;
+      }
+
+      return categoryOk && brandOk && materialOk && searchOk;
     });
-  }, [activeTab, selectedBrand, selectedMaterialType]);
+  }, [activeTab, selectedBrand, selectedMaterialType, searchQuery]);
 
   const handleBookClick = (book) => {
     if (book.openInNewTab) {
@@ -124,6 +130,25 @@ export default function SampleBooks() {
       <div className="samplebooks-container">
         <main className="sb-content full">
           <div className="samplebooks-filter-section">
+            {/* ✅ 헤더 & 검색창 */}
+            <div className="sb-header-search-bar">
+              <div className="sb-search-box">
+                <span className="sb-search-icon">🔍</span>
+                <input
+                  type="text"
+                  placeholder="샘플북 명칭, 브랜드 (예: 뉴청맥, 디아망, 엑스컴포트, 마뷸러스) 검색"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  className="sb-search-input"
+                />
+                {searchQuery && (
+                  <button className="sb-search-clear" onClick={() => setSearchQuery("")}>
+                    ✕
+                  </button>
+                )}
+              </div>
+            </div>
+
             {/* ✅ 상단 카테고리 탭 */}
             <div className="samplebooks-tabs">
               {CATEGORY_TABS.map((tab) => (
@@ -168,7 +193,8 @@ export default function SampleBooks() {
 
           <div className="results-header samplebooks-count">
             <div className="results-info">
-              <span>총 <strong>{filtered.length}</strong>권</span>
+              <span>총 <strong>{filtered.length}</strong>권의 샘플북</span>
+              {searchQuery && <span className="sb-search-tag"> 검색어: "{searchQuery}"</span>}
             </div>
           </div>
 
@@ -184,8 +210,8 @@ export default function SampleBooks() {
             </div>
           ) : (
             <EmptyState 
-              title="샘플북이 준비 중입니다" 
-              description="선택하신 조건에 해당하는 브랜드 샘플북이 아직 준비되지 않았거나 업데이트 대기 중입니다." 
+              title={searchQuery ? `'${searchQuery}' 검색 결과가 없습니다` : "샘플북이 준비 중입니다"} 
+              description="선택하신 조건에 해당하는 브랜드 샘플북이 아직 준비되지 않았거나 검색어와 일치하는 항목이 없습니다." 
             />
           )}
         </main>

@@ -7,10 +7,37 @@
  * @param {string} text - 제목 또는 이름
  * @returns {string|null} - 추출된 두께 (예: "1.8T")
  */
+export const JANGPAN_STANDARD_THICKNESSES = ["1.8T", "2.0T", "2.2T", "2.7T", "3.2T", "4.5T", "5.0T"];
+
+export const FLOORING_THICKNESS_BY_BRAND = {
+  all: ['1.8T', '2.0T', '2.2T', '2.7T', '3.2T', '4.5T', '5.0T'],
+  LX: ['1.8T', '2.0T', '2.2T', '2.7T', '3.2T', '4.5T', '5.0T'],
+  현대: ['1.8T', '2.0T', '2.2T', '2.7T', '3.2T', '5.0T'],
+  KCC: ['1.8T', '2.0T', '2.2T', '2.7T', '3.2T', '4.5T', '5.0T'],
+};
+
+export const normalizeBrandName = (brandStr) => {
+  if (!brandStr) return "기타";
+  const b = String(brandStr).trim();
+  const upper = b.toUpperCase();
+  if (upper === "LX" || upper.includes("LX") || upper.includes("LG") || b.includes("엘지") || b.includes("엘엑스")) {
+    return "LX";
+  }
+  if (b.includes("현대") || upper.includes("HYUNDAI")) {
+    return "현대";
+  }
+  if (b.includes("KCC") || upper.includes("KCC")) {
+    return "KCC";
+  }
+  return b;
+};
+
 export const getThicknessToken = (text) => {
     if (!text) return null;
-    const match = text.match(/(\d+(?:\.\d+)?)T/);
-    return match ? match[1] + "T" : null;
+    const match = text.match(/(?<![\d.])(1\.8|2\.0|2|2\.2|2\.7|3\.2|4\.5|5\.0|5)\s*T/i);
+    if (!match) return null;
+    const val = parseFloat(match[1]);
+    return `${val.toFixed(1)}T`;
 };
 
 /**
@@ -115,45 +142,69 @@ export function getMaterialTypeAndLine(m) {
 }
 
 /**
- * 장판 카테고리 자재의 두께를 추출하고 표준 포맷(예: 2.2T, 2T)으로 규격화합니다.
+ * 장판 카테고리 자재의 두께를 추출하고 표준 포맷(예: 1.8T, 2.0T, 2.2T, 2.7T, 3.2T, 4.5T, 5.0T)으로 규격화합니다.
  * @param {Object} item - 자재 객체
- * @returns {string} - 규격화된 두께 (예: "2.2T", "2T", "두께 정보 없음")
+ * @returns {string} - 규격화된 두께 (예: "2.2T", "2.0T", "두께 정보 없음")
  */
 export const getNormalizedThickness = (item) => {
   if (!item || item.category !== "장판") return "두께 정보 없음";
 
-  const tField = item.thickness || item.specs?.thickness || "";
-  const sField = item.spec || item.specs?.size || item.size_text || "";
-  const nameField = item.name || item.productName || "";
-  const codeField = item.code || item.product_code || "";
-  const lineField = item.line || item.description || "";
+  const tField = String(item.thickness || item.specs?.thickness || "").trim();
+  const sField = String(item.spec || item.specs?.size || item.size_text || "").trim();
+  const nameField = String(item.name || item.productName || "").trim();
+  const codeField = String(item.code || item.product_code || "").trim();
+  const lineField = String(item.line || item.description || "").trim();
 
-  const textToSearch = [tField, sField, nameField, codeField, lineField].filter(Boolean).join(' ');
+  // 1. Direct check on thickness field if available
+  if (tField) {
+    const tClean = tField.replace(/\s+/g, "").toUpperCase();
+    if (/^1\.8(T|MM)?$/i.test(tClean)) return "1.8T";
+    if (/^(2|2\.0)(T|MM)?$/i.test(tClean)) return "2.0T";
+    if (/^2\.2(T|MM)?$/i.test(tClean)) return "2.2T";
+    if (/^2\.7(T|MM)?$/i.test(tClean)) return "2.7T";
+    if (/^3\.2(T|MM)?$/i.test(tClean)) return "3.2T";
+    if (/^4\.5(T|MM)?$/i.test(tClean)) return "4.5T";
+    if (/^(5|5\.0)(T|MM)?$/i.test(tClean)) return "5.0T";
+  }
 
-  // Extract digits followed by T, t, mm, ㎜ or 두께
-  const pattern1 = /(\d+(?:\.\d+)?)\s*(?:T|t|mm|㎜)/gi;
-  const pattern2 = /두께\s*(\d+(?:\.\d+)?)/gi;
-  
-  const matches = [];
-  let match;
-  
-  while ((match = pattern1.exec(textToSearch)) !== null) {
-    const val = parseFloat(match[1]);
-    if (val <= 10.0) {
-      matches.push(val);
+  // Combine fields for pattern extraction
+  const textToSearch = [tField, sField, lineField, nameField, codeField].filter(Boolean).join(" ");
+
+  // Pattern A: explicitly prefixed or suffixed with T, mm, ㎜ or 두께
+  const patterns = [
+    { regex: /(?<![\d.])1\.8\s*(?:T|t|mm|㎜|\(T\)|두께)/i, result: "1.8T" },
+    { regex: /(?<![\d.])(?:2\.0|2)\s*(?:T|t|mm|㎜|\(T\)|두께)(?![\d.])/i, result: "2.0T" },
+    { regex: /(?<![\d.])2\.2\s*(?:T|t|mm|㎜|\(T\)|두께)/i, result: "2.2T" },
+    { regex: /(?<![\d.])2\.7\s*(?:T|t|mm|㎜|\(T\)|두께)/i, result: "2.7T" },
+    { regex: /(?<![\d.])3\.2\s*(?:T|t|mm|㎜|\(T\)|두께)/i, result: "3.2T" },
+    { regex: /(?<![\d.])4\.5\s*(?:T|t|mm|㎜|\(T\)|두께)/i, result: "4.5T" },
+    { regex: /(?<![\d.])(?:5\.0|5)\s*(?:T|t|mm|㎜|\(T\)|두께)(?![\d.])/i, result: "5.0T" },
+  ];
+
+  for (const { regex, result } of patterns) {
+    if (regex.test(textToSearch)) {
+      return result;
     }
   }
 
-  while ((match = pattern2.exec(textToSearch)) !== null) {
-    const val = parseFloat(match[1]);
-    if (val <= 10.0) {
-      matches.push(val);
-    }
+  // Pattern B: "두께 1.8", "두께: 2.0", "두께 2"
+  const prefixMatch = textToSearch.match(/두께\s*[:\-_]?\s*(1\.8|2\.0|2|2\.2|2\.7|3\.2|4\.5|5\.0|5)(?![\d.])/i);
+  if (prefixMatch) {
+    const val = prefixMatch[1];
+    if (val === "1.8") return "1.8T";
+    if (val === "2" || val === "2.0") return "2.0T";
+    if (val === "2.2") return "2.2T";
+    if (val === "2.7") return "2.7T";
+    if (val === "3.2") return "3.2T";
+    if (val === "4.5") return "4.5T";
+    if (val === "5" || val === "5.0") return "5.0T";
   }
 
-  if (matches.length > 0) {
-    const val = matches[0];
-    return `${val.toFixed(1).replace(/\.0$/, '')}T`;
+  // Pattern C: standalone numbers in size text or division name
+  const genericMatch = textToSearch.match(/(?<![\d.])(1\.8|2\.0|2\.2|2\.7|3\.2|4\.5|5\.0)(?![\d.])/);
+  if (genericMatch) {
+    const val = genericMatch[1];
+    return `${parseFloat(val).toFixed(1)}T`;
   }
 
   return "두께 정보 없음";
@@ -201,7 +252,7 @@ export function formatShapeOrPattern(value) {
   return val;
 }
 
-import { isDecoTile, getRecommendedAdhesive } from "./decotileUtils";
+import { isDecoTile, getRecommendedAdhesive } from "./decotileUtils.js";
 
 export function normalizeProductDetails(item) {
   if (!item) return item;

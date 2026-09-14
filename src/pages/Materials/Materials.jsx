@@ -1,7 +1,7 @@
 import React, { useMemo, useState, useEffect, useCallback } from "react";
 import { useSearchParams } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
-import { getComputedBrand, getMaterialTypeAndLine, formatShapeOrPattern } from "../../utils/brandUtils";
+import { getComputedBrand, getMaterialTypeAndLine, formatShapeOrPattern, JANGPAN_STANDARD_THICKNESSES, FLOORING_THICKNESS_BY_BRAND, normalizeBrandName } from "../../utils/brandUtils";
 import { getSearchScore } from "../../utils/searchUtils";
 import MaterialCard from "../../components/material/MaterialCard";
 import { fetchFilteredProducts } from "../../utils/supabaseFetcher";
@@ -62,19 +62,33 @@ const getNormalizedLine = (m, activeTab, activeBrand) => {
   return line;
 };
 
+const normalizeUrlThickness = (raw) => {
+  if (!raw || raw === "all") return "all";
+  const clean = String(raw).trim().toUpperCase();
+  if (JANGPAN_STANDARD_THICKNESSES.includes(clean)) return clean;
+  if (/^1\.8(T|MM)?$/i.test(clean)) return "1.8T";
+  if (/^(2|2\.0)(T|MM)?$/i.test(clean)) return "2.0T";
+  if (/^2\.2(T|MM)?$/i.test(clean)) return "2.2T";
+  if (/^2\.7(T|MM)?$/i.test(clean)) return "2.7T";
+  if (/^3\.2(T|MM)?$/i.test(clean)) return "3.2T";
+  if (/^4\.5(T|MM)?$/i.test(clean)) return "4.5T";
+  if (/^(5|5\.0)(T|MM)?$/i.test(clean)) return "5.0T";
+  return null;
+};
+
 export default function Materials() {
   const [searchParams, setSearchParams] = useSearchParams();
 
-  // Supabase Data States
+  // State management
   const [materialsList, setMaterialsList] = useState([]);
-  const [totalCount, setTotalCount] = useState(0);
-  const [hasMore, setHasMore] = useState(false);
-  const [page, setPage] = useState(0);
   const [loading, setLoading] = useState(true);
-  const [loadingMore, setLoadingMore] = useState(false);
   const [error, setError] = useState(null);
+  const [totalCount, setTotalCount] = useState(0);
+  const [page, setPage] = useState(0);
+  const [hasMore, setHasMore] = useState(false);
+  const [loadingMore, setLoadingMore] = useState(false);
 
-  // Detailed Search Filters
+  // Filters state (Direct inputs for name, code, spec)
   const [nameFilter, setNameFilter] = useState("");
   const [codeFilter, setCodeFilter] = useState("");
   const [specFilter, setSpecFilter] = useState("");
@@ -93,7 +107,9 @@ export default function Materials() {
     activeLine = "all";
   }
   const activeShape = searchParams.get("shape") || "all";
-  const activeThickness = searchParams.get("thickness") || "all";
+  const rawThickness = searchParams.get("thickness");
+  const validThickness = normalizeUrlThickness(rawThickness);
+  const activeThickness = validThickness || "all";
   const sortOption = searchParams.get("sort") || "default";
   const searchText = searchParams.get("search") || "";
 
@@ -137,6 +153,21 @@ export default function Materials() {
     }
   }, [searchParams, setSearchParams]);
 
+  // Sanitize URL query parameter for thickness if invalid or format mismatch
+  useEffect(() => {
+    if (activeTab === "장판") {
+      const rawT = searchParams.get("thickness");
+      if (rawT) {
+        const norm = normalizeUrlThickness(rawT);
+        if (!norm || norm === "all") {
+          updateParams({ thickness: null });
+        } else if (norm !== rawT) {
+          updateParams({ thickness: norm });
+        }
+      }
+    }
+  }, [activeTab, searchParams]);
+
   // Fetch from Supabase on mount/filter change (Page 0)
   useEffect(() => {
     let isCurrent = true;
@@ -147,11 +178,12 @@ export default function Materials() {
         setLoading(true);
         setError(null);
         setPage(0);
-        console.log(`[Debug] Fetching initial page 0 for: category=${activeTab}, brand=${activeBrand}, search=${searchText}`);
+        console.log(`[Debug] Fetching initial page 0 for: category=${activeTab}, brand=${activeBrand}, thickness=${activeThickness}, search=${searchText}`);
         
         const res = await fetchFilteredProducts({
           category: activeTab,
           brand: activeBrand,
+          thickness: activeThickness,
           searchText: searchText,
           page: 0,
           pageSize: 24,
@@ -184,7 +216,7 @@ export default function Materials() {
       isCurrent = false;
       controller.abort();
     };
-  }, [activeTab, activeBrand, searchText]);
+  }, [activeTab, activeBrand, activeThickness, searchText]);
 
   // Paginated load more handler
   const handleLoadMore = useCallback(async () => {
@@ -195,6 +227,7 @@ export default function Materials() {
       const res = await fetchFilteredProducts({
         category: activeTab,
         brand: activeBrand,
+        thickness: activeThickness,
         searchText: searchText,
         page: nextPage,
         pageSize: 24
@@ -208,7 +241,7 @@ export default function Materials() {
     } finally {
       setLoadingMore(false);
     }
-  }, [loadingMore, hasMore, page, activeTab, activeBrand, searchText]);
+  }, [loadingMore, hasMore, page, activeTab, activeBrand, activeThickness, searchText]);
 
   // Sync search input state with URL search param changes
   useEffect(() => {
@@ -285,41 +318,22 @@ export default function Materials() {
     return ["all", ...list];
   }, [activeTab]);
 
-  // Visible thicknesses based on active category tab & brand selection
+  // Visible thicknesses based on active category tab & brand selection (from FLOORING_THICKNESS_BY_BRAND)
   const visibleThicknesses = useMemo(() => {
-    if (activeTab !== "장판" || !materialsList || materialsList.length === 0) return [];
-    
-    const thicknessSet = new Set();
-    materialsList.forEach((m) => {
-      if (!m || m.category !== "장판") return;
-      
-      const mComputedBrand = getComputedBrand(m);
-      const b = activeBrand.toUpperCase();
-      const itemBrand = (m.brand || "").toUpperCase();
-      const compBrand = mComputedBrand.toUpperCase();
-      
-      let matchesBrand = false;
-      if (b === "ALL") {
-        matchesBrand = true;
-      } else if (b === "LX") {
-        matchesBrand = itemBrand.includes("LX") || itemBrand.includes("LG") || compBrand.includes("LX");
-      } else {
-        matchesBrand = itemBrand === b || compBrand === b || itemBrand.includes(b) || compBrand.includes(b);
+    if (activeTab !== "장판") return [];
+    const normBrand = normalizeBrandName(activeBrand);
+    const list = FLOORING_THICKNESS_BY_BRAND[normBrand] || FLOORING_THICKNESS_BY_BRAND.all;
+    return ["all", ...list];
+  }, [activeTab, activeBrand]);
+
+  // Auto-reset activeThickness if selected thickness is not supported by brand (e.g. 현대 + 4.5T)
+  useEffect(() => {
+    if (activeTab === "장판" && activeThickness !== "all" && visibleThicknesses.length > 0) {
+      if (!visibleThicknesses.includes(activeThickness)) {
+        updateParams({ thickness: null });
       }
-      
-      if (matchesBrand && m.thickness && m.thickness !== "두께 정보 없음") {
-        thicknessSet.add(m.thickness);
-      }
-    });
-    
-    const sorted = Array.from(thicknessSet).sort((a, b) => {
-      const aNum = parseFloat(a);
-      const bNum = parseFloat(b);
-      return aNum - bNum;
-    });
-    
-    return ["all", ...sorted];
-  }, [materialsList, activeTab, activeBrand]);
+    }
+  }, [activeBrand, visibleThicknesses, activeThickness, activeTab]);
 
   // Visible material types (subcategories) for 마루 category
   const visibleMaterialTypes = useMemo(() => {
@@ -407,15 +421,6 @@ export default function Materials() {
     
     return ["all", ...Array.from(linesSet).sort()];
   }, [materialsList, activeTab, activeBrand, activeMaterialType, activeThickness]);
-
-  // Auto-reset activeThickness if it is not present in visibleThicknesses (on brand change)
-  useEffect(() => {
-    if (activeTab === "장판" && activeThickness !== "all" && visibleThicknesses.length > 0) {
-      if (!visibleThicknesses.includes(activeThickness)) {
-        updateParams({ thickness: null });
-      }
-    }
-  }, [activeBrand, visibleThicknesses, activeThickness, activeTab]);
 
   // Auto-reset activeLine if it is not present in visibleLines (on thickness change)
   useEffect(() => {

@@ -297,11 +297,11 @@ export function deduplicateProducts(productList) {
   return deduplicatedProducts;
 }
 
-export async function fetchFilteredProducts({ category, brand, searchText, page = 0, pageSize = 24, signal }) {
+export async function fetchFilteredProducts({ category, brand, thickness, searchText, page = 0, pageSize = 24, signal }) {
   if (!supabase) {
     console.warn("Supabase client is not initialized. Using local fallback filtering.");
     const all = await fetchAllProducts();
-    const filtered = filterLocalProducts(all, { category, brand, searchText });
+    const filtered = filterLocalProducts(all, { category, brand, thickness, searchText });
     const from = page * pageSize;
     const paged = filtered.slice(from, from + pageSize);
     const result = [...paged];
@@ -311,7 +311,7 @@ export async function fetchFilteredProducts({ category, brand, searchText, page 
     return result;
   }
 
-  const cacheKey = `${category || 'all'}:${brand || 'all'}:${searchText || ''}:${page}:${pageSize}`;
+  const cacheKey = `${category || 'all'}:${brand || 'all'}:${thickness || 'all'}:${searchText || ''}:${page}:${pageSize}`;
   if (filteredProductsCache.has(cacheKey)) {
     return filteredProductsCache.get(cacheKey);
   }
@@ -356,6 +356,9 @@ export async function fetchFilteredProducts({ category, brand, searchText, page 
           query = query.ilike('brands.name', `%${brand}%`);
         }
       }
+      if (category === '장판' && thickness && thickness !== 'all') {
+        query = query.eq('thickness', thickness);
+      }
     }
 
     if (signal) {
@@ -397,7 +400,7 @@ export async function fetchFilteredProducts({ category, brand, searchText, page 
   }
 }
 
-function filterLocalProducts(list, { category, brand, searchText }) {
+function filterLocalProducts(list, { category, brand, thickness, searchText }) {
   if (searchText) {
     const s = searchText.trim().toLowerCase();
     return list.filter(m => 
@@ -430,7 +433,11 @@ function filterLocalProducts(list, { category, brand, searchText }) {
         brandOk = itemBrand.includes(b) || compBrand.includes(b);
       }
     }
-    return catOk && brandOk;
+    let thicknessOk = true;
+    if (category === '장판' && thickness && thickness !== 'all') {
+      thicknessOk = (m.thickness === thickness);
+    }
+    return catOk && brandOk && thicknessOk;
   });
 }
 

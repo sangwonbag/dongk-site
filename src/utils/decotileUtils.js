@@ -9,7 +9,7 @@
  * Different brands are NOT summed together.
  */
 
-import { isAccessoryItem } from "./productClassification";
+import { isAccessoryItem } from "./productClassification.js";
 
 export const DECOTILE_NOTICE_TEXT = "동일 브랜드 데코타일 50평(50박스) 이상 주문 시 배송비 무료 혜택이 자동 적용됩니다.";
 
