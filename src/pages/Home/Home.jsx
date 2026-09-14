@@ -203,7 +203,7 @@ export default function Home() {
                   </div>
                   <div className="cat-info">
                     <h3>장판</h3>
-                    <span>1.8T / 2.0T / 2.2T / 4.5T</span>
+                    <span>1.8T / 2.0T / 2.2T / 2.7T / 3.2T / 4.5T / 5.0T</span>
                   </div>
                 </Link>
 

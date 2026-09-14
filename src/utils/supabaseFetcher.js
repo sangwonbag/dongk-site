@@ -1,6 +1,6 @@
-import { supabase } from '../lib/supabaseClient';
+import { supabase } from '../lib/supabaseClient.js';
 import { dongshinPolymer2026 } from '../data/dongshinPolymer2026.js';
-import { normalizeProductDetails } from './brandUtils';
+import { normalizeProductDetails } from './brandUtils.js';
 
 let localMaterialsCache = null;
 async function getLocalMaterials() {
