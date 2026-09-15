@@ -33454,6 +33454,51 @@ export const imageManifest = [
     "normalizedFileName": "subwallpaperprepjpg"
   },
   {
+    "fileName": "KCC-Green-2.0T-NK20-4121-Rosy-Wish-Oak.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/KCC/KCC_그린_2.0T/KCC-Green-2.0T-NK20-4121-Rosy-Wish-Oak.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "KCC_그린_2.0T",
+    "extractedCode": "KCC-Green-2.0T-NK20-4121-Rosy-Wish-Oak",
+    "normalizedFileName": "kccgreen20tnk204121rosywishoakpng"
+  },
+  {
+    "fileName": "KCC-Green-2.0T-NK20-4186-Standard-Oak.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/KCC/KCC_그린_2.0T/KCC-Green-2.0T-NK20-4186-Standard-Oak.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "KCC_그린_2.0T",
+    "extractedCode": "KCC-Green-2.0T-NK20-4186-Standard-Oak",
+    "normalizedFileName": "kccgreen20tnk204186standardoakpng"
+  },
+  {
+    "fileName": "KCC-Green-2.0T-NK20-4523-Gentle-White-Oak.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/KCC/KCC_그린_2.0T/KCC-Green-2.0T-NK20-4523-Gentle-White-Oak.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "KCC_그린_2.0T",
+    "extractedCode": "KCC-Green-2.0T-NK20-4523-Gentle-White-Oak",
+    "normalizedFileName": "kccgreen20tnk204523gentlewhiteoakpng"
+  },
+  {
+    "fileName": "KCC-Green-2.0T-NK20-4951-Yuro-Gray.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/KCC/KCC_그린_2.0T/KCC-Green-2.0T-NK20-4951-Yuro-Gray.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "KCC_그린_2.0T",
+    "extractedCode": "KCC-Green-2.0T-NK20-4951-Yuro-Gray",
+    "normalizedFileName": "kccgreen20tnk204951yurograypng"
+  },
+  {
+    "fileName": "KCC-Green-2.0T-NK20-5041-Basalt-Mondrian.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/KCC/KCC_그린_2.0T/KCC-Green-2.0T-NK20-5041-Basalt-Mondrian.png",
+    "category": "장판",
+    "brand": "KCC",
+    "series": "KCC_그린_2.0T",
+    "extractedCode": "KCC-Green-2.0T-NK20-5041-Basalt-Mondrian",
+    "normalizedFileName": "kccgreen20tnk205041basaltmondrianpng"
+  },
+  {
     "fileName": "NP18-3543_thumbnail.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-3543_thumbnail.jpg",
     "category": "장판",

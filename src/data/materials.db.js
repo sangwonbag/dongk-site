@@ -1,5 +1,164 @@
-// Updated material database with official thickness standardization
 export const materials = [
+  {
+    "id": "NK20-4951",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "KCC 그린 2.0",
+    "subLine": "그린2.0",
+    "name": "NK20-4951(2.0T)",
+    "code": "NK20-4951",
+    "product_code": "NK20-4951",
+    "thumbnail": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4951-Yuro-Gray.png",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4951-Yuro-Gray.png",
+    "image_url": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4951-Yuro-Gray.png",
+    "images": [
+      "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4951-Yuro-Gray.png"
+    ],
+    "price": 0,
+    "thickness": "2.0T",
+    "isNew": true,
+    "is_featured": true,
+    "unit": "m",
+    "size_text": "2.0T · 1,830mm(W) · 30m",
+    "specs": {
+      "division": "그린2.0",
+      "thickness": "2.0mm",
+      "size": "1,830mm(W)",
+      "packing": "30m",
+      "usage": "일반주택, 아파트, 어린이집, 학교, 종교시설 등 실내 바닥",
+      "adhesive": "장판용 륨본드",
+      "orderingMethod": "m 단위 절단"
+    },
+    "description": "밝고 담백한 그레이 계열의 스톤 패턴입니다. 공간을 깔끔하고 넓어 보이게 연출하기 좋으며 모던한 주거·상업 공간에 무난하게 어울립니다."
+  },
+  {
+    "id": "NK20-5041",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "KCC 그린 2.0",
+    "subLine": "그린2.0",
+    "name": "NK20-5041(2.0T)",
+    "code": "NK20-5041",
+    "product_code": "NK20-5041",
+    "thumbnail": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-5041-Basalt-Mondrian.png",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-5041-Basalt-Mondrian.png",
+    "image_url": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-5041-Basalt-Mondrian.png",
+    "images": [
+      "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-5041-Basalt-Mondrian.png"
+    ],
+    "price": 0,
+    "thickness": "2.0T",
+    "isNew": true,
+    "is_featured": true,
+    "unit": "m",
+    "size_text": "2.0T · 1,830mm(W) · 30m",
+    "specs": {
+      "division": "그린2.0",
+      "thickness": "2.0mm",
+      "size": "1,830mm(W)",
+      "packing": "30m",
+      "usage": "일반주택, 아파트, 어린이집, 학교, 종교시설 등 실내 바닥",
+      "adhesive": "장판용 륨본드",
+      "orderingMethod": "m 단위 절단"
+    },
+    "description": "은은한 회색 바탕에 사각 분할감이 표현된 모던 스톤 패턴입니다. 단정하면서도 밋밋하지 않아 현관, 거실, 사무공간 등에 잘 어울립니다."
+  },
+  {
+    "id": "NK20-4523",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "KCC 그린 2.0",
+    "subLine": "그린2.0",
+    "name": "NK20-4523(2.0T)",
+    "code": "NK20-4523",
+    "product_code": "NK20-4523",
+    "thumbnail": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4523-Gentle-White-Oak.png",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4523-Gentle-White-Oak.png",
+    "image_url": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4523-Gentle-White-Oak.png",
+    "images": [
+      "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4523-Gentle-White-Oak.png"
+    ],
+    "price": 0,
+    "thickness": "2.0T",
+    "isNew": true,
+    "is_featured": true,
+    "unit": "m",
+    "size_text": "2.0T · 1,830mm(W) · 30m",
+    "specs": {
+      "division": "그린2.0",
+      "thickness": "2.0mm",
+      "size": "1,830mm(W)",
+      "packing": "30m",
+      "usage": "일반주택, 아파트, 어린이집, 학교, 종교시설 등 실내 바닥",
+      "adhesive": "장판용 륨본드",
+      "orderingMethod": "m 단위 절단"
+    },
+    "description": "화이트와 라이트 그레이가 섞인 밝은 오크 패턴입니다. 깨끗하고 차분한 분위기를 만들며 밝은 인테리어나 작은 공간에 활용하기 좋습니다."
+  },
+  {
+    "id": "NK20-4121",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "KCC 그린 2.0",
+    "subLine": "그린2.0",
+    "name": "NK20-4121(2.0T)",
+    "code": "NK20-4121",
+    "product_code": "NK20-4121",
+    "thumbnail": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4121-Rosy-Wish-Oak.png",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4121-Rosy-Wish-Oak.png",
+    "image_url": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4121-Rosy-Wish-Oak.png",
+    "images": [
+      "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4121-Rosy-Wish-Oak.png"
+    ],
+    "price": 0,
+    "thickness": "2.0T",
+    "isNew": true,
+    "is_featured": true,
+    "unit": "m",
+    "size_text": "2.0T · 1,830mm(W) · 30m",
+    "specs": {
+      "division": "그린2.0",
+      "thickness": "2.0mm",
+      "size": "1,830mm(W)",
+      "packing": "30m",
+      "usage": "일반주택, 아파트, 어린이집, 학교, 종교시설 등 실내 바닥",
+      "adhesive": "장판용 륨본드",
+      "orderingMethod": "m 단위 절단"
+    },
+    "description": "따뜻한 베이지 톤의 내추럴 오크 패턴입니다. 부드럽고 포근한 느낌으로 거실, 침실, 어린이집 등 편안한 분위기의 공간에 잘 어울립니다."
+  },
+  {
+    "id": "NK20-4186",
+    "category": "장판",
+    "brand": "KCC",
+    "line": "KCC 그린 2.0",
+    "subLine": "그린2.0",
+    "name": "NK20-4186(2.0T)",
+    "code": "NK20-4186",
+    "product_code": "NK20-4186",
+    "thumbnail": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4186-Standard-Oak.png",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4186-Standard-Oak.png",
+    "image_url": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4186-Standard-Oak.png",
+    "images": [
+      "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4186-Standard-Oak.png"
+    ],
+    "price": 0,
+    "thickness": "2.0T",
+    "isNew": true,
+    "is_featured": true,
+    "unit": "m",
+    "size_text": "2.0T · 1,830mm(W) · 30m",
+    "specs": {
+      "division": "그린2.0",
+      "thickness": "2.0mm",
+      "size": "1,830mm(W)",
+      "packing": "30m",
+      "usage": "일반주택, 아파트, 어린이집, 학교, 종교시설 등 실내 바닥",
+      "adhesive": "장판용 륨본드",
+      "orderingMethod": "m 단위 절단"
+    },
+    "description": "중간 명도의 브라운 오크 패턴입니다. 자연스러운 나뭇결과 안정적인 색감으로 주거 공간 전반에 무난하게 사용할 수 있습니다."
+  },
   {
     "id": "데코타일-kcc-kcc_pro-30082p",
     "category": "데코타일",
