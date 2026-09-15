@@ -56,15 +56,68 @@ export const SORT_OPTIONS = [
   { value: 'name-desc', label: '이름 가나다 역순' },
 ];
 
+const DECOTILE_SUB_CODES = new Set([
+  'SUB-BOND-10KG', 'SUB-BOND-4KG', 'SUB-BOND-2KG', 'SUB-PIG-BOND',
+  'SUB-WAX-LARGE', 'SUB-WAX-SMALL', 'SUB-STRAIGHT-SEP', 'SUB-L-SEP',
+  'SUB-THIN-SEP', 'SUB-NONSLIP-HEAVY', 'SUB-NONSLIP-LIGHT',
+  'SUB-NONSLIP-LIGHT-WHITE', 'SUB-NONSLIP-LIGHT-GRAY', 'SUB-NONSLIP-LIGHT-DARKWOOD',
+  'SUB-NONSLIP-HEAVY-LIGHTWOOD', 'SUB-NONSLIP-HEAVY-DARKWOOD', 'SUB-NONSLIP-HEAVY-GRAY'
+]);
+
+const JANGPAN_SUB_CODES = new Set([
+  'SUB-RYUM-BOND', 'SUB-NOBON', 'SUB-NOBON-WHITE', 'SUB-NOBON-10'
+]);
+
+export function getSubmaterialGroupPriority(item) {
+  if (!item || item.category !== '부자재') return 99;
+  const code = String(item.code || item.product_code || '').toUpperCase().trim();
+  const name = String(item.name || item.product_name || '').trim();
+
+  if (
+    DECOTILE_SUB_CODES.has(code) ||
+    name.includes('데코타일') ||
+    code.startsWith('SUB-BOND-') ||
+    code === 'SUB-PIG-BOND' ||
+    code.startsWith('SUB-WAX-') ||
+    code.startsWith('SUB-NONSLIP-') ||
+    (code.endsWith('-SEP') && code !== 'SUB-CARPET-SEP')
+  ) {
+    return 1;
+  }
+
+  if (
+    JANGPAN_SUB_CODES.has(code) ||
+    name.includes('륨본드') ||
+    name.includes('노본')
+  ) {
+    return 2;
+  }
+
+  return 3;
+}
+
 /**
  * Sorts an array of products based on the sortOption without mutating the original array.
  * Supported options: 'default', 'price-asc', 'price-desc', 'name-asc', 'name-desc'
  */
 export const sortProducts = (products, sortOption = 'default') => {
   if (!products || !Array.isArray(products) || products.length === 0) return [];
-  if (!sortOption || sortOption === 'default') return products;
 
   const copied = [...products];
+
+  if (!sortOption || sortOption === 'default') {
+    if (copied.some(m => m && m.category === '부자재')) {
+      return copied.sort((a, b) => {
+        const prioA = getSubmaterialGroupPriority(a);
+        const prioB = getSubmaterialGroupPriority(b);
+        if (prioA !== prioB) return prioA - prioB;
+        const sortA = a.sort_order ?? 999;
+        const sortB = b.sort_order ?? 999;
+        return sortA - sortB;
+      });
+    }
+    return copied;
+  }
 
   switch (sortOption) {
     case 'price-asc':
