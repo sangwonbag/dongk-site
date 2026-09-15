@@ -1255,33 +1255,10 @@ export default function MaterialDetail() {
     });
   };
 
-  // Compute standard display name for LX / Dongshin / Eagon products
+  // Compute standard display name for product details
   const displayName = (() => {
     if (!item) return "";
-    if (item.category === '마루') {
-      const brandName = item.brand === '이건' ? '이건마루' : getComputedBrand(item);
-      const line = item.displayLine || item.line || "";
-      let name = item.name || "";
-      if (line && name.startsWith(line)) {
-        name = name.replace(line, "").trim();
-      }
-      return `${brandName} ${line} ${name}`.replace(/\s+/g, ' ').trim();
-    }
-    if (item.brand === '동신' && item.category === '데코타일' && ['아트타일', '아트하우스', '아트에코차음'].includes(item.line)) {
-      return item.code;
-    }
-    if (item.brand === 'LX' && item.category === '데코타일') {
-      const cleanCode = (item.code || "").replace(/\s+/g, "").toLowerCase();
-      const cleanName = (item.name || "").replace(/\s+/g, "").toLowerCase();
-      if (cleanCode && cleanName.includes(cleanCode)) {
-        return item.name;
-      }
-      return `${item.code} ${item.name}`;
-    }
-    if (item.category === '장판') {
-      return formatFlooringProductName(item);
-    }
-    return item.name;
+    return formatProductTitle(item);
   })();
 
   const currentSpec = selectedOption ? selectedOption.spec : (item.specs?.size || item.spec || "");

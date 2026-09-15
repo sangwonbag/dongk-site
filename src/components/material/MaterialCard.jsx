@@ -6,7 +6,7 @@ import { useAuth } from '../../contexts/AuthContext';
 import { getThumbnailImage } from '../../utils/galleryUtils';
 import { getMaterialImagePath } from '../../utils/materialImageResolver';
 import { getProductImageUrl } from '../../utils/productImageResolver';
-import { getComputedBrand, getNormalizedThickness, formatFlooringProductName, getProductUnit, formatShapeOrPattern } from '../../utils/brandUtils';
+import { getComputedBrand, getNormalizedThickness, formatFlooringProductName, formatProductTitle, getProductUnit, formatShapeOrPattern } from '../../utils/brandUtils';
 import { isDecoTile } from '../../utils/decotileUtils';
 import { Skeleton, ImagePlaceholder, ProductImage } from '../ui';
 import './MaterialCard.css';

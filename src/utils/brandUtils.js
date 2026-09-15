@@ -317,19 +317,27 @@ export const KCC_20_PATTERN_MAP = {
 
 export function getCleanProductCode(product) {
   if (!product) return '';
-  let c = (product.product_code || product.code || '').trim();
+  const raw = product.product_code ?? product.code ?? '';
+  let c = String(raw).trim();
+  if (!c) return '';
+
+  if (/^(SUB|ITEM|TEMP|DUMMY)-/i.test(c) || (product.category === '부자재' && /^SUB-/i.test(c))) {
+    return '';
+  }
+
   c = c.replace(/\s*\(\d+(\.\d+)?(T|MM)?\)$/i, '').trim();
   return c;
 }
 
 export function getCleanProductName(product, explicitCode) {
   if (!product) return '';
-  const c = explicitCode || getCleanProductCode(product);
+  const c = explicitCode !== undefined ? explicitCode : getCleanProductCode(product);
 
   if (c && LX_50_PATTERN_MAP[c]) return LX_50_PATTERN_MAP[c];
   if (c && KCC_20_PATTERN_MAP[c]) return KCC_20_PATTERN_MAP[c];
 
-  let name = (product.product_name || product.name || '').trim();
+  const rawName = product.product_name ?? product.name ?? product.title ?? '';
+  let name = String(rawName).trim();
   if (!name) return '';
 
   const normName = name.replace(/\s*\(\d+(\.\d+)?(T|MM)?\)$/i, '').trim();
@@ -345,7 +353,7 @@ export function getCleanProductName(product, explicitCode) {
   }
 
   name = name.replace(/^엑스컴포트\s*/i, '').trim();
-  name = name.replace(/\s*\(\d+(\.\d+)?(T|MM)?\)/gi, '').replace(/\s*\b\d+(\.\d+)?(T|MM)\b/gi, '').trim();
+  name = name.replace(/\s*\(\d+(\.\d+)?(T|MM)?\)$/gi, '').trim();
 
   if (!name || (c && name.toLowerCase() === c.toLowerCase())) {
     return '';
@@ -355,14 +363,11 @@ export function getCleanProductName(product, explicitCode) {
 }
 
 export function formatProductTitle(product) {
-  if (!product) return '';
+  if (!product) return '상품정보 확인 중';
   const code = getCleanProductCode(product);
   const name = getCleanProductName(product, code);
 
-  let thickness = (product.thickness || '').trim();
-  if (!thickness && product.specs && product.specs.thickness) {
-    thickness = product.specs.thickness;
-  }
+  let thickness = String(product.thickness || (product.specs && product.specs.thickness) || '').trim();
   if (thickness) {
     thickness = thickness.replace(/MM/i, 'mm').trim();
     if (!thickness.endsWith('T') && /^\d+(\.\d+)?$/.test(thickness)) {
@@ -377,6 +382,8 @@ export function formatProductTitle(product) {
     identity = code;
   } else if (name) {
     identity = name;
+  } else {
+    identity = '상품정보 확인 중';
   }
 
   return thickness ? `${identity} (${thickness})` : identity;
