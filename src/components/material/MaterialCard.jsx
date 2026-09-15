@@ -60,30 +60,7 @@ const MaterialCard = ({ material, priority = false }) => {
     // Compute standard display name for cards and cart items
     const displayName = (() => {
         if (!material) return "";
-        if (material.category === '마루') {
-            const brandName = material.brand === '이건' ? '이건마루' : getComputedBrand(material);
-            const line = material.displayLine || material.line || "";
-            let name = material.name || "";
-            if (line && name.startsWith(line)) {
-                name = name.replace(line, "").trim();
-            }
-            return `${brandName} ${line} ${name}`.replace(/\s+/g, ' ').trim();
-        }
-        if (material.brand === '동신' && material.category === '데코타일' && ['아트타일', '아트하우스', '아트에코차음'].includes(material.line)) {
-            return material.code;
-        }
-        if (material.brand === 'LX' && material.category === '데코타일') {
-            const cleanCode = (material.code || "").replace(/\s+/g, "").toLowerCase();
-            const cleanName = (material.name || "").replace(/\s+/g, "").toLowerCase();
-            if (cleanCode && cleanName.includes(cleanCode)) {
-                return material.name;
-            }
-            return `${material.code} ${material.name}`;
-        }
-        if (material.category === '장판') {
-            return formatFlooringProductName(material);
-        }
-        return material.name;
+        return formatProductTitle(material);
     })();
 
     useEffect(() => {

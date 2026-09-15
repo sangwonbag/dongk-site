@@ -289,32 +289,100 @@ export function normalizeProductDetails(item) {
   return item;
 }
 
-export function formatFlooringProductName(product) {
-  if (!product) return "";
-  const name = product.name || product.product_name || "";
-  const category = product.category || "";
-  if (category !== "장판") return name;
+export const LX_50_PATTERN_MAP = {
+  'XCF4531': '코지 콘크리트',
+  'XCF4541': '베인 샌드스톤',
+  'XCF4481': '크리마마필 화이트',
+  'XCF4482': '크리마마필 그레이',
+  'XCF3612': '스탠다드 베인',
+  'XCF3621': '텐더 그레이',
+  'XCF3622': '스페이스 그레이',
+  'XCFS011': '솔티 화이트',
+  'XCFS012': '솔티 그레이지',
+  'XCFW011': '스노우 우드',
+  'XCF3441': '골드 템퍼',
+  'XCF3442': '다크 템퍼',
+  'XCF3451': '애쉬 오크',
+  'XCF4023': '내추럴 오크',
+  'XCF4043': '워시 오크'
+};
 
-  const thickness = getNormalizedThickness(product);
-  if (thickness === "두께 정보 없음") return name;
+export const KCC_20_PATTERN_MAP = {
+  'NK20-4951': '유로 그레이',
+  'NK20-5041': '바살트 몬드리안',
+  'NK20-4523': '젠틀 화이트 오크',
+  'NK20-4121': '로지 위시오크',
+  'NK20-4186': '스탠다드 오크'
+};
 
-  const val = parseFloat(thickness);
-  if (isNaN(val)) return name;
-
-  const escapedVal = String(val).replace('.', '\\.');
-  let patternStr;
-  if (Number.isInteger(val)) {
-    patternStr = `(?:${val}|${val}\\.0+)`;
-  } else {
-    patternStr = escapedVal;
-  }
-  
-  const regex = new RegExp(`\\s*\\(?\\b${patternStr}\\s*(?:T|t|mm|㎜)\\)?`, 'gi');
-  if (regex.test(name)) {
-    return name.replace(regex, `(${thickness})`);
-  }
-  return `${name}(${thickness})`;
+export function getCleanProductCode(product) {
+  if (!product) return '';
+  let c = (product.product_code || product.code || '').trim();
+  c = c.replace(/\s*\(\d+(\.\d+)?(T|MM)?\)$/i, '').trim();
+  return c;
 }
+
+export function getCleanProductName(product, explicitCode) {
+  if (!product) return '';
+  const c = explicitCode || getCleanProductCode(product);
+
+  if (c && LX_50_PATTERN_MAP[c]) return LX_50_PATTERN_MAP[c];
+  if (c && KCC_20_PATTERN_MAP[c]) return KCC_20_PATTERN_MAP[c];
+
+  let name = (product.product_name || product.name || '').trim();
+  if (!name) return '';
+
+  const normName = name.replace(/\s*\(\d+(\.\d+)?(T|MM)?\)$/i, '').trim();
+  if (c && normName.toLowerCase() === c.toLowerCase()) {
+    return '';
+  }
+
+  name = name.replace(/^(LX하우시스|LX|LG|KCC글라스|KCC|현대L&C|현대|동신포리마|동신|재영|이건|구정|동화|개나리|신한|DID)\s*/i, '').trim();
+
+  if (c) {
+    const codeRegex = new RegExp('\\b' + c.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&') + '\\b', 'gi');
+    name = name.replace(codeRegex, '').trim();
+  }
+
+  name = name.replace(/^엑스컴포트\s*/i, '').trim();
+  name = name.replace(/\s*\(\d+(\.\d+)?(T|MM)?\)/gi, '').replace(/\s*\b\d+(\.\d+)?(T|MM)\b/gi, '').trim();
+
+  if (!name || (c && name.toLowerCase() === c.toLowerCase())) {
+    return '';
+  }
+
+  return name;
+}
+
+export function formatProductTitle(product) {
+  if (!product) return '';
+  const code = getCleanProductCode(product);
+  const name = getCleanProductName(product, code);
+
+  let thickness = (product.thickness || '').trim();
+  if (!thickness && product.specs && product.specs.thickness) {
+    thickness = product.specs.thickness;
+  }
+  if (thickness) {
+    thickness = thickness.replace(/MM/i, 'mm').trim();
+    if (!thickness.endsWith('T') && /^\d+(\.\d+)?$/.test(thickness)) {
+      thickness = thickness + 'T';
+    }
+  }
+
+  let identity = '';
+  if (code && name && code.toLowerCase() !== name.toLowerCase()) {
+    identity = `${code} | ${name}`;
+  } else if (code) {
+    identity = code;
+  } else if (name) {
+    identity = name;
+  }
+
+  return thickness ? `${identity} (${thickness})` : identity;
+}
+
+export const formatFlooringProductName = formatProductTitle;
 
 export const getProductUnit = (product) => {
   if (!product) return '평';

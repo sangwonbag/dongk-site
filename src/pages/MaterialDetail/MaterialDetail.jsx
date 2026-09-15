@@ -24,7 +24,7 @@ import { getProductImageUrl } from "../../utils/productImageResolver";
 import { supabase } from "../../lib/supabaseClient";
 import SEO from "../../components/seo/SEO";
 import { useAuth } from "../../contexts/AuthContext";
-import { getComputedBrand, normalizeProductDetails, formatFlooringProductName, getProductUnit, formatShapeOrPattern } from "../../utils/brandUtils";
+import { getComputedBrand, normalizeProductDetails, formatFlooringProductName, formatProductTitle, getProductUnit, formatShapeOrPattern } from "../../utils/brandUtils";
 import { dongshinPolymer2026 } from "../../data/dongshinPolymer2026.js";
 import { normalizeImagePath, getImageSrc, getUniqueProductImages } from "../../utils/galleryNormalizer";
 

@@ -129,7 +129,9 @@ export function buildProductSearchText(product) {
   }
   
   const fields = [
+    product.product_code,
     product.code,
+    product.product_name,
     product.name,
     product.brand,
     product.category,
