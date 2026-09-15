@@ -103498,5 +103498,62 @@ export const materials = [
     },
     "product_code": "SUB-MESH-TAPE",
     "product_name": "망테이프"
+  },
+  {
+    "id": "SUB-BOND-10KG",
+    "code": "SUB-BOND-10KG",
+    "name": "본드 10KG",
+    "brand": "부자재",
+    "category": "부자재",
+    "image_url": "/images/Thumbnail_Image/materials/부자재/kumjung-deco-bond-10kg.png",
+    "thumbnail_url": "/images/Thumbnail_Image/materials/부자재/kumjung-deco-bond-10kg.png",
+    "line": "본드 10KG",
+    "price": 32000,
+    "unit": "통",
+    "thickness": "",
+    "specs": {
+      "thickness": "",
+      "size": ""
+    },
+    "product_code": "SUB-BOND-10KG",
+    "product_name": "본드 10KG"
+  },
+  {
+    "id": "SUB-BOND-4KG",
+    "code": "SUB-BOND-4KG",
+    "name": "본드 4KG",
+    "brand": "부자재",
+    "category": "부자재",
+    "image_url": "/images/Thumbnail_Image/materials/부자재/kumjung-deco-bond-4kg.png",
+    "thumbnail_url": "/images/Thumbnail_Image/materials/부자재/kumjung-deco-bond-4kg.png",
+    "line": "본드 4KG",
+    "price": 20000,
+    "unit": "통",
+    "thickness": "",
+    "specs": {
+      "thickness": "",
+      "size": ""
+    },
+    "product_code": "SUB-BOND-4KG",
+    "product_name": "본드 4KG"
+  },
+  {
+    "id": "SUB-BOND-2KG",
+    "code": "SUB-BOND-2KG",
+    "name": "본드 2KG",
+    "brand": "부자재",
+    "category": "부자재",
+    "image_url": "/images/Thumbnail_Image/materials/부자재/kumjung-deco-bond-2kg.png",
+    "thumbnail_url": "/images/Thumbnail_Image/materials/부자재/kumjung-deco-bond-2kg.png",
+    "line": "본드 2KG",
+    "price": 15000,
+    "unit": "통",
+    "thickness": "",
+    "specs": {
+      "thickness": "",
+      "size": ""
+    },
+    "product_code": "SUB-BOND-2KG",
+    "product_name": "본드 2KG"
   }
 ];
