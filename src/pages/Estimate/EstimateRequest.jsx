@@ -1,16 +1,19 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate, useLocation, useSearchParams } from 'react-router-dom';
 import MainLayout from '../../components/layout/MainLayout';
 import { KAKAO_CHAT_URL, OFFICE_PHONE, OFFICE_ADDRESS, NAVER_MAP_URL } from '../../constants/contact';
 import { useEstimateCart } from '../../contexts/EstimateCartContext';
 import { useAuth } from '../../contexts/AuthContext';
-import { ArrowLeft, Trash2, Plus, Minus, CheckCircle, Phone, MessageSquare, MapPin, Calculator, FileText } from 'lucide-react';
+import { ArrowLeft, Trash2, Plus, Minus, CheckCircle, Phone, MessageSquare, MapPin, Calculator, FileText, X } from 'lucide-react';
 import MaterialSearchModal from './MaterialSearchModal';
 import JangpanAutoCalculator from '../../components/estimate/JangpanAutoCalculator';
 import { createEstimateInquiry } from '../../services/estimateInquiryService';
 import { sendOrderNotification } from '../../services/notificationService';
 import { loadDaumPostcode } from '../../utils/loadDaumPostcode';
+import { getComputedBrand, formatProductTitle, getProductUnit } from '../../utils/brandUtils';
+import { getMaterialImagePath } from '../../utils/materialImageResolver';
 import SEO from '../../components/seo/SEO';
+import { supabase } from '../../lib/supabaseClient';
 import './EstimateRequest.css';
 
 const ACCESSORY_OPTIONS = ['걸레받이', '본드', '실리콘', '논슬립', '마감재', '문턱/재료분리대'];
@@ -22,6 +25,7 @@ const CONSULTATION_TYPES = ['전화 상담', '카카오톡 1:1 상담', '방문 
 export default function EstimateRequest() {
   const navigate = useNavigate();
   const location = useLocation();
+  const [searchParams, setSearchParams] = useSearchParams();
   const { cartItems, updateQuantity, syncAutomaticQuantities, removeFromCart, clearCart } = useEstimateCart();
   const { user: currentUser, openLoginModal } = useAuth();
   
@@ -30,6 +34,9 @@ export default function EstimateRequest() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
   const [submittedNo, setSubmittedNo] = useState("");
+
+  // Selected Material from product detail or URL parameter
+  const [selectedMaterial, setSelectedMaterial] = useState(null);
   
   // Modal state
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -61,6 +68,149 @@ export default function EstimateRequest() {
       }));
     }
   }, [currentUser, openLoginModal]);
+
+  const isUnselectedRef = useRef(false);
+  const lastParamIdRef = useRef(null);
+
+  // Handle selected material from URL param or location.state
+  useEffect(() => {
+    const paramId = searchParams.get('materialId') || location.state?.materialId || location.state?.selectedProduct?.id;
+    const stateProduct = location.state?.selectedProduct || location.state?.selectedMaterial;
+
+    if (paramId && paramId !== lastParamIdRef.current) {
+      isUnselectedRef.current = false;
+      lastParamIdRef.current = paramId;
+    }
+
+    if (!paramId && !stateProduct) {
+      return;
+    }
+
+    if (isUnselectedRef.current) {
+      return;
+    }
+
+    let alive = true;
+
+    async function resolveMaterial() {
+      let found = null;
+      let isNetworkError = false;
+
+      // 1. Primary: Server Query (Supabase DB)
+      if (supabase && paramId) {
+        try {
+          let res = await supabase.from('materials').select('*').or(`id.eq.${paramId},code.eq.${paramId},slug.eq.${paramId}`).maybeSingle();
+          if (!res.data && !res.error) {
+            res = await supabase.from('products').select('*').or(`id.eq.${paramId},product_code.eq.${paramId},slug.eq.${paramId}`).maybeSingle();
+          }
+
+          if (res.error) {
+            console.warn('[EstimateRequest] Supabase query network error:', res.error);
+            isNetworkError = true;
+          } else if (res.data) {
+            const p = res.data;
+            // Check if product is deleted or discontinued on server
+            if (p.is_active === false || p.is_deleted === true || p.status === 'discontinued' || p.status === 'deleted') {
+              console.warn('[EstimateRequest] Product is deleted/discontinued on server:', paramId);
+              return; // Do not select discontinued/deleted item, and do NOT fall back to local DB!
+            }
+
+            found = {
+              id: p.id || p.slug,
+              code: p.product_code || p.code || '',
+              name: formatProductTitle(p),
+              brand: getComputedBrand(p),
+              category: p.category || (p.categories?.name) || '자재',
+              line: p.line || p.description || '',
+              spec: p.specs?.size || p.spec || p.size_text || '',
+              thickness: p.thickness || (p.specs?.thickness) || '',
+              price: p.price || 0,
+              unit: getProductUnit(p),
+              thumbnail: getMaterialImagePath(p)
+            };
+          }
+        } catch (spErr) {
+          console.warn('[EstimateRequest] Supabase exception during resolution:', spErr);
+          isNetworkError = true;
+        }
+      } else if (!stateProduct) {
+        isNetworkError = true;
+      }
+
+      // 2. If stateProduct was passed in location.state and no server override
+      if (!found && stateProduct && (stateProduct.name || stateProduct.code) && !isNetworkError) {
+        found = {
+          id: stateProduct.id || stateProduct.product_id,
+          code: stateProduct.code || stateProduct.product_code || '',
+          name: stateProduct.name || stateProduct.product_name || '',
+          brand: stateProduct.brand || '기타',
+          category: stateProduct.category || '자재',
+          line: stateProduct.line || '',
+          spec: stateProduct.spec || stateProduct.selectedSize || '',
+          thickness: stateProduct.thickness || '',
+          price: stateProduct.price || 0,
+          unit: stateProduct.unit || '박스',
+          thumbnail: stateProduct.thumbnail || stateProduct.image || ''
+        };
+      }
+
+      // 3. Fallback to local materials.db.js if server returned no row or connection failed
+      if (!found && paramId) {
+        try {
+          const mod = await import('../../data/materials.db.js');
+          const list = mod.materials || [];
+          const localItem = list.find(m => String(m.id) === String(paramId) || String(m.code) === String(paramId) || String(m.slug) === String(paramId));
+          if (localItem) {
+            found = {
+              id: localItem.id,
+              code: localItem.code,
+              name: formatProductTitle(localItem),
+              brand: getComputedBrand(localItem),
+              category: localItem.category || '자재',
+              line: localItem.line || '',
+              spec: localItem.specs?.size || localItem.spec || '',
+              thickness: localItem.thickness || (localItem.specs?.thickness) || '',
+              price: localItem.price || 0,
+              unit: getProductUnit(localItem),
+              thumbnail: getMaterialImagePath(localItem)
+            };
+          }
+        } catch (locErr) {
+          console.warn('[EstimateRequest] Local fallback error:', locErr);
+        }
+      }
+
+      // Set state if query is still alive and not unselected by user
+      if (found && alive && !isUnselectedRef.current) {
+        setSelectedMaterial(found);
+        setActiveViewTab('inquiry');
+        setSite(prev => ({ ...prev, workType: '자재 + 시공' }));
+      }
+    }
+
+    resolveMaterial();
+
+    return () => {
+      alive = false;
+    };
+  }, [searchParams, location.state]);
+
+  const handleUnselectMaterial = () => {
+    isUnselectedRef.current = true;
+    setSelectedMaterial(null);
+    setSearchParams(prev => {
+      const next = new URLSearchParams(prev);
+      next.delete('materialId');
+      return next;
+    }, { replace: true });
+
+    if (location.state) {
+      location.state.selectedProduct = null;
+      location.state.selectedMaterial = null;
+      location.state.materialId = null;
+    }
+    navigate('.', { replace: true, state: {} });
+  };
 
   // Backward compatibility: Map '문자 상담' or '카카오톡 상담' to '카카오톡 1:1 상담'
   useEffect(() => {
@@ -191,9 +341,8 @@ export default function EstimateRequest() {
       if (!finalPreferredDate) {
         finalPreferredDate = null;
       }
-      const subtotal = calculateSubtotal();
 
-      const selectedItems = cartItems.map(item => ({
+      let selectedItems = cartItems.map(item => ({
         product_id: item.productId || item.product_id || item.id,
         category: item.category || null,
         brand: item.brand || null,
@@ -205,6 +354,26 @@ export default function EstimateRequest() {
         unit_price: item.price || 0,
         supply_amount: Math.round((item.price || 0) * (item.quantity || 1))
       }));
+
+      if (selectedMaterial) {
+        const exists = selectedItems.some(i => String(i.product_id) === String(selectedMaterial.id));
+        if (!exists) {
+          selectedItems.unshift({
+            product_id: selectedMaterial.id,
+            category: selectedMaterial.category || null,
+            brand: selectedMaterial.brand || null,
+            product_code: selectedMaterial.code || null,
+            code: selectedMaterial.code || null,
+            product_name: selectedMaterial.name || "",
+            spec: selectedMaterial.spec || null,
+            quantity: 1,
+            unit_price: selectedMaterial.price || 0,
+            supply_amount: Math.round(selectedMaterial.price || 0)
+          });
+        }
+      }
+
+      const subtotal = selectedItems.reduce((sum, item) => sum + (item.supply_amount || 0), 0);
 
       const mappedConsultation = customer.consultation === '문자 상담' ? '카카오톡 1:1 상담' : customer.consultation;
 
@@ -544,7 +713,62 @@ export default function EstimateRequest() {
           <JangpanAutoCalculator onSelectForInquiry={handleCalculatorInquiry} />
         ) : (
           <>
-            {location.state?.selectedProduct && (
+            {selectedMaterial ? (
+              <div className="selected-material-banner-card">
+                <div className="selected-material-header">
+                  <div className="selected-material-title-badge">
+                    <CheckCircle size={18} />
+                    <span>선택한 시공 상담 자재</span>
+                  </div>
+                  <button 
+                    type="button" 
+                    className="btn-unselect-material"
+                    onClick={handleUnselectMaterial}
+                    title="선택 자재 해제 및 변경"
+                  >
+                    <X size={15} />
+                    <span>선택 해제</span>
+                  </button>
+                </div>
+                
+                <div className="selected-material-body">
+                  {selectedMaterial.thumbnail && (
+                    <img 
+                      src={selectedMaterial.thumbnail} 
+                      alt={selectedMaterial.name} 
+                      className="selected-material-thumb"
+                    />
+                  )}
+                  <div className="selected-material-details">
+                    <div className="selected-material-brand-tag">
+                      {selectedMaterial.brand} {selectedMaterial.category ? `· ${selectedMaterial.category}` : ''}
+                    </div>
+                    <h4 className="selected-material-name">{selectedMaterial.name}</h4>
+                    
+                    <div className="selected-material-meta">
+                      {selectedMaterial.code && <span className="meta-pill">코드: {selectedMaterial.code}</span>}
+                      {selectedMaterial.spec && <span className="meta-pill">규격: {selectedMaterial.spec}</span>}
+                      {selectedMaterial.thickness && <span className="meta-pill">두께: {selectedMaterial.thickness}</span>}
+                    </div>
+
+                    <div className="selected-material-price-row">
+                      <span className="price-label">자재 판매가:</span>
+                      {selectedMaterial.price ? (
+                        <span className="price-val">
+                          {Number(selectedMaterial.price).toLocaleString()}원
+                          <span className="unit-suffix"> / {selectedMaterial.unit || '박스'}</span>
+                        </span>
+                      ) : (
+                        <span className="price-consult">상담 후 안내</span>
+                      )}
+                    </div>
+                  </div>
+                </div>
+                <div className="selected-material-notice">
+                  💡 선택하신 자재 정보가 견적서에 저장됩니다. 시공비는 현장 면적(평수) 및 현장 여건 확인 후 최종 안내해 드립니다.
+                </div>
+              </div>
+            ) : location.state?.selectedProduct ? (
               <div className="product-prefill-banner" style={{
                 backgroundColor: '#e6f4ea',
                 border: '1.5px solid #137333',
@@ -561,10 +785,10 @@ export default function EstimateRequest() {
               }}>
                 <CheckCircle size={20} style={{ flexShrink: 0 }} />
                 <div>
-                  선택하신 자재 <strong>[{location.state.selectedProduct.brand}] {location.state.selectedProduct.name}{location.state.selectedProduct.selectedSize ? ` / ${location.state.selectedProduct.selectedSize}` : ''} {location.state.selectedProduct.code ? `(${location.state.selectedProduct.code})` : ''}</strong> 정보가 견적서에 자동 추가되었습니다. 연락처와 주소 등 기본 사항만 채우시면 간편하게 접수하실 수 있습니다.
+                  선택하신 자재 <strong>[{location.state.selectedProduct.brand}] {location.state.selectedProduct.name}{location.state.selectedProduct.selectedSize ? ` / ${location.state.selectedProduct.selectedSize}` : ''} {location.state.selectedProduct.code ? `(${location.state.selectedProduct.code})` : ''}</strong> 정보가 견적서에 자동 추가되었습니다.
                 </div>
               </div>
-            )}
+            ) : null}
 
             {/* Steps */}
             <div className="est-stepper">

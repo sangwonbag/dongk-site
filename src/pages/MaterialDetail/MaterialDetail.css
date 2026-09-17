@@ -358,11 +358,122 @@
   outline: none;
 }
 
+/* CTA Block Group & Purchase vs Consultation Division */
+.showroom-cta-block-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.detail-purchase-section-block {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 18px;
+}
+
+.purchase-block-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.purchase-badge {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--primary);
+  background: #FFFFFF;
+  border: 1px solid var(--border);
+  padding: 3px 10px;
+  border-radius: var(--radius-sm);
+}
+
+.price-material-notice {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.detail-installation-consult-card {
+  background: linear-gradient(180deg, #FFFDF7 0%, #FFF9EB 100%);
+  border: 1.5px solid var(--point-gold);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.consult-card-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.consult-badge {
+  display: inline-block;
+  align-self: flex-start;
+  font-size: 11px;
+  font-weight: 800;
+  color: #FFFFFF;
+  background: var(--point-gold);
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+}
+
+.consult-card-header h4 {
+  font-size: 17px;
+  font-weight: 800;
+  color: var(--primary);
+  margin: 0;
+}
+
+.consult-card-header p {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.btn-installation-consult {
+  width: 100%;
+  height: 48px;
+  background-color: var(--point-gold);
+  color: #FFFFFF;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 15px;
+  font-weight: 800;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(197, 155, 39, 0.25);
+  transition: var(--transition);
+}
+
+.btn-installation-consult:hover {
+  background-color: #B0881F;
+  transform: translateY(-1px);
+}
+
+.btn-installation-consult:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.consult-notice-text {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin: 0;
+  text-align: center;
+}
+
 /* Main Cart and Buy Actions */
 .showroom-main-actions {
   display: flex;
   gap: 12px;
-  margin-bottom: 12px;
 }
 
 .btn-main-cart {

@@ -1878,18 +1878,99 @@ export default function MaterialDetail() {
                 );
               })()}
  
-              {/* Primary CTA Actions */}
-              <div className="showroom-main-actions">
-                <button type="button" className="btn-main-cart" onClick={handleAddToCart}>
-                  <ShoppingCart size={18} style={{ marginRight: '6px' }} /> 장바구니 담기
-                </button>
-                <button type="button" className="btn-main-buy" onClick={handleDirectBuy} style={{ backgroundColor: 'var(--point-orange)', borderColor: 'var(--point-orange)' }}>
-                  <CheckCircle size={18} style={{ marginRight: '6px' }} /> 바로구매
-                </button>
-              </div>
- 
+              {/* Primary CTA Actions & Installation Consultation Block */}
+              {(() => {
+                const isAccessory = item.category === '부자재' || item.category === '부자재류';
+                const itemUnitPrice = typeof item.price === 'number' ? item.price : (parseInt(String(item.price || 0).replace(/[^0-9]/g, ""), 10) || 0);
+
+                const handleInstallationConsult = () => {
+                  setIsSubmitting(true);
+                  try {
+                    navigate(`/estimate/request?materialId=${encodeURIComponent(item.id)}`, {
+                      state: {
+                        fromProduct: true,
+                        materialId: item.id,
+                        selectedMaterial: {
+                          id: item.id,
+                          code: item.code,
+                          name: displayName,
+                          brand: getComputedBrand(item),
+                          category: item.category,
+                          line: item.line || '',
+                          spec: selectedOption ? selectedOption.spec : (item.specs?.size || item.spec || ''),
+                          thickness: item.thickness || (item.specs?.thickness) || '',
+                          price: itemUnitPrice,
+                          unit: getProductUnit(item),
+                          thumbnail: getMaterialImagePath(item)
+                        },
+                        selectedSize: selectedOption ? selectedOption.label : undefined
+                      }
+                    });
+                  } catch (err) {
+                    console.error("Navigation error:", err);
+                    alert("견적 화면 이동 중 오류가 발생했습니다. 다시 시도해 주세요.");
+                  } finally {
+                    setIsSubmitting(false);
+                  }
+                };
+
+                return (
+                  <div className="showroom-cta-block-group">
+                    {/* Block A: 자재만 구매 */}
+                    <div className="detail-purchase-section-block">
+                      <div className="purchase-block-header">
+                        <span className="purchase-badge">자재만 구매</span>
+                        <span className="price-material-notice">(자재 단품 금액 / 시공비 별도)</span>
+                      </div>
+
+                      <div className="showroom-main-actions">
+                        <button 
+                          type="button" 
+                          className="btn-main-cart" 
+                          onClick={handleAddToCart}
+                          disabled={isSubmitting}
+                        >
+                          <ShoppingCart size={18} style={{ marginRight: '6px' }} /> 장바구니 담기
+                        </button>
+                        <button 
+                          type="button" 
+                          className="btn-main-buy" 
+                          onClick={handleDirectBuy} 
+                          disabled={isSubmitting}
+                          style={{ backgroundColor: 'var(--point-orange)', borderColor: 'var(--point-orange)' }}
+                        >
+                          <CheckCircle size={18} style={{ marginRight: '6px' }} /> 바로구매
+                        </button>
+                      </div>
+                    </div>
+
+                    {/* Block B: 시공도 필요하세요? (Non-accessory only) */}
+                    {!isAccessory && (
+                      <div className="detail-installation-consult-card">
+                        <div className="consult-card-header">
+                          <span className="consult-badge">자재 + 시공 상담</span>
+                          <h4>시공도 필요하세요?</h4>
+                          <p>선택한 자재로 시공까지 함께 상담받으세요.</p>
+                        </div>
+                        <button 
+                          type="button" 
+                          className="btn-installation-consult"
+                          onClick={handleInstallationConsult}
+                          disabled={isSubmitting}
+                        >
+                          <Calculator size={18} style={{ marginRight: '6px' }} /> 이 자재로 시공 견적 상담
+                        </button>
+                        <p className="consult-notice-text">
+                          ※ 시공비는 면적과 현장 조건을 확인한 뒤 안내합니다.
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                );
+              })()}
+
               {/* Secondary Actions: Kakao, Phone */}
-              <div className="showroom-action-buttons" style={{ marginTop: '12px' }}>
+              <div className="showroom-action-buttons" style={{ marginTop: '16px' }}>
                 <a href={KAKAO_CHAT_URL} target="_blank" rel="noopener noreferrer" className="btn-showroom-quote text-center btn-kakao-action" style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#FEE500', color: '#191919', border: 'none', fontWeight: '700', textDecoration: 'none' }}>
                   💬 카카오톡 1:1 상담
                 </a>

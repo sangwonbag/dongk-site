@@ -1,5 +1,5 @@
-import { supabase } from '../lib/supabaseClient';
-import { formatFlooringProductName } from '../utils/brandUtils';
+import { supabase } from '../lib/supabaseClient.js';
+import { formatFlooringProductName } from '../utils/brandUtils.js';
 
 /**
  * 견적문의(Estimate Inquiry) 접수 및 관리를 담당하는 서비스입니다.
@@ -77,16 +77,72 @@ export const getEstimateInquiries = async () => {
     throw new Error('Supabase 클라이언트가 초기화되지 않았습니다.');
   }
 
-  const { data, error } = await supabase
-    .from('estimates')
-    .select('*')
-    .order('created_at', { ascending: false });
+  // 1. Try join query with estimate_items child records first
+  let estimatesData = null;
+  let fetchError = null;
 
-  if (error) {
-    return handleSupabaseError(error, '견적문의 목록을 가져오는 중 오류가 발생했습니다.');
+  try {
+    const { data, error } = await supabase
+      .from('estimates')
+      .select('*, estimate_items(*)')
+      .order('created_at', { ascending: false });
+
+    if (error) {
+      fetchError = error;
+    } else {
+      estimatesData = data;
+    }
+  } catch (err) {
+    fetchError = err;
   }
 
-  return data || [];
+  // 2. Fallback to basic query if join is not available
+  if (fetchError || !estimatesData) {
+    const { data: simpleData, error: simpleErr } = await supabase
+      .from('estimates')
+      .select('*')
+      .order('created_at', { ascending: false });
+
+    if (simpleErr) {
+      return handleSupabaseError(simpleErr, '견적문의 목록을 가져오는 중 오류가 발생했습니다.');
+    }
+    estimatesData = simpleData || [];
+  }
+
+  // Normalize selected_items: if estimate_items child records exist, populate selected_items
+  const normalized = (estimatesData || []).map(est => {
+    let items = est.selected_items;
+    if ((!items || items.length === 0) && est.estimate_items && est.estimate_items.length > 0) {
+      items = est.estimate_items.map(i => ({
+        product_id: i.product_id,
+        category: i.category,
+        brand: i.brand,
+        code: i.product_code || i.code,
+        product_code: i.product_code || i.code,
+        name: i.product_name || i.name,
+        spec: i.spec,
+        quantity: i.quantity,
+        unit_price: i.unit_price,
+        supply_amount: i.supply_amount
+      }));
+    }
+
+    // Map legacy status strings to standard UI status strings if needed
+    let mappedStatus = est.status || '신규 접수';
+    if (mappedStatus === '접수' || mappedStatus === '접수대기') mappedStatus = '신규 접수';
+    else if (mappedStatus === '상담중') mappedStatus = '상담 중';
+    else if (mappedStatus === '견적완료') mappedStatus = '견적 안내';
+    else if (mappedStatus === '주문전환') mappedStatus = '진행 확정';
+
+    return {
+      ...est,
+      status: mappedStatus,
+      raw_status: est.status,
+      selected_items: items || []
+    };
+  });
+
+  return normalized;
 };
 
 /**
@@ -99,12 +155,27 @@ export const getEstimateInquiryById = async (id) => {
 
   const { data, error } = await supabase
     .from('estimates')
-    .select('*')
+    .select('*, estimate_items(*)')
     .eq('id', id)
     .maybeSingle();
 
   if (error) {
     return handleSupabaseError(error, '견적문의 정보를 가져오는 중 오류가 발생했습니다.');
+  }
+
+  if (data && (!data.selected_items || data.selected_items.length === 0) && data.estimate_items) {
+    data.selected_items = data.estimate_items.map(i => ({
+      product_id: i.product_id,
+      category: i.category,
+      brand: i.brand,
+      code: i.product_code || i.code,
+      product_code: i.product_code || i.code,
+      name: i.product_name || i.name,
+      spec: i.spec,
+      quantity: i.quantity,
+      unit_price: i.unit_price,
+      supply_amount: i.supply_amount
+    }));
   }
 
   return data;
@@ -118,9 +189,13 @@ export const updateEstimateInquiryStatus = async (id, status) => {
     throw new Error('Supabase 클라이언트가 초기화되지 않았습니다.');
   }
 
+  const now = new Date().toISOString();
   const { data, error } = await supabase
     .from('estimates')
-    .update({ status })
+    .update({ 
+      status,
+      updated_at: now
+    })
     .eq('id', id)
     .select('*')
     .single();
@@ -133,16 +208,41 @@ export const updateEstimateInquiryStatus = async (id, status) => {
 };
 
 /**
- * 5. 견적문의 관리자 메모 변경
+ * 5. 견적문의 관리자 메모 및 상태 통합 변경 (낙관적 락 지원)
  */
-export const updateEstimateInquiryAdminMemo = async (id, adminMemo) => {
+export const updateEstimateInquiryAdminMemo = async (id, adminMemo, options = {}) => {
   if (!supabase) {
     throw new Error('Supabase 클라이언트가 초기화되지 않았습니다.');
   }
 
+  const { expectedUpdatedAt, status } = options;
+
+  // Optimistic concurrency check: Verify if record was modified by another admin in the meantime
+  if (expectedUpdatedAt) {
+    const { data: currentRecord } = await supabase
+      .from('estimates')
+      .select('updated_at')
+      .eq('id', id)
+      .maybeSingle();
+
+    if (currentRecord && currentRecord.updated_at && new Date(currentRecord.updated_at) > new Date(expectedUpdatedAt)) {
+      throw new Error('다른 관리자가 상담 내역을 수정했습니다. 최신 내용을 확인한 후 다시 시도해 주세요.');
+    }
+  }
+
+  const now = new Date().toISOString();
+  const updatePayload = {
+    admin_memo: adminMemo || null,
+    updated_at: now
+  };
+
+  if (status) {
+    updatePayload.status = status;
+  }
+
   const { data, error } = await supabase
     .from('estimates')
-    .update({ admin_memo: adminMemo || null })
+    .update(updatePayload)
     .eq('id', id)
     .select('*')
     .single();

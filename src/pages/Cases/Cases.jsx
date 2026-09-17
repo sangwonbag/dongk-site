@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
 import MainLayout from '../../components/layout/MainLayout';
 import { supabase } from '../../lib/supabaseClient';
@@ -53,12 +53,22 @@ const STATIC_PROJECTS = [
 
 export default function Cases() {
   const navigate = useNavigate();
+  const [searchParams, setSearchParams] = useSearchParams();
   const { user } = useAuth();
   const isAdmin = user?.role === 'admin' || user?.role === 'staff';
 
   const [casesList, setCasesList] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [categoryFilter, setCategoryFilter] = useState('전체');
+  const categoryFilter = searchParams.get('category') || '전체';
+
+  const setCategoryFilter = (cat) => {
+    if (cat === '전체') {
+      searchParams.delete('category');
+      setSearchParams(searchParams, { replace: true });
+    } else {
+      setSearchParams({ category: cat }, { replace: true });
+    }
+  };
 
   const loadCases = async () => {
     try {
