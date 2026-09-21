@@ -1,25 +1,5 @@
 import { getUniqueProductImages } from './galleryNormalizer.js';
-import { getProductImageUrl, normalizeProductImageUrl } from './productImageResolver.js';
-
-let loadedGeneratedManifest = null;
-let loadedImageMapManifest = null;
-
-async function ensureMaterialManifestsLoaded() {
-  if (loadedGeneratedManifest && loadedImageMapManifest) return;
-  try {
-    const [gen, map] = await Promise.all([
-      import('../data/materialImageManifest.generated.js').catch(() => ({ imageManifest: [] })),
-      import('../data/imageManifest.js').catch(() => ({ imageManifest: {} }))
-    ]);
-    loadedGeneratedManifest = gen.imageManifest || [];
-    loadedImageMapManifest = map.imageManifest || {};
-  } catch {
-    loadedGeneratedManifest = [];
-    loadedImageMapManifest = {};
-  }
-}
-
-const SUPABASE_PUBLIC_URL_PREFIX = "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/";
+import { getProductImageUrl, getAllProductImages, getProductImageCandidates, normalizeProductImageUrl } from './productImageResolver.js';
 
 // Helper to clean paths and convert to full URL
 function toFullImageUrl(path) {
@@ -66,26 +46,10 @@ export function extractCodeFromFileName(fileName) {
   return cleanName;
 }
 
-// Helper to determine if brands align (e.g. "LX" and "LX하우시스" or "동신" and "동신포리마")
-function brandsMatch(b1, b2) {
-  if (!b1 || !b2) return false;
-  const norm1 = normalizeMaterialCode(b1);
-  const norm2 = normalizeMaterialCode(b2);
-  return norm1.includes(norm2) || norm2.includes(norm1);
-}
-
-// Helper to determine if categories align (e.g. "데코타일" and "데코타일")
-function categoriesMatch(c1, c2) {
-  if (!c1 || !c2) return false;
-  return normalizeMaterialCode(c1) === normalizeMaterialCode(c2);
-}
-
 export function resolveMaterialImage(material) {
   const matBrand = material?.brand || '';
   const matName = material?.name || '';
   const matCode = material?.code || '';
-  const matCategory = material?.category || '';
-  
   const altText = `${matBrand} ${matName} ${matCode}`.trim();
 
   if (!material) {
@@ -98,87 +62,15 @@ export function resolveMaterialImage(material) {
     };
   }
 
-  // 1st Priority: If product data has an existing non-empty image/thumbnail URL in DB
-  const dbFields = [
-    material.image_url,
-    material.thumbnail_url,
-    material.main_image_url,
-    material.image,
-    material.imageUrl,
-    material.imagePath,
-    material.thumbnail
-  ].filter(Boolean);
+  const src = getProductImageUrl(material);
+  const isPlaceholder = !src || src === '/images/no-image.svg';
 
-  for (const field of dbFields) {
-    const fieldStr = String(field).trim();
-    if (fieldStr && !fieldStr.includes('no-image.svg') && !fieldStr.includes('placeholder')) {
-      return {
-        src: toFullImageUrl(fieldStr),
-        alt: altText,
-        isPlaceholder: false,
-        isRepresentativeImage: false,
-        matchReason: 'db-url'
-      };
-    }
-  }
-
-  if (!loadedGeneratedManifest || !loadedImageMapManifest) {
-    ensureMaterialManifestsLoaded();
-  }
-
-  const manifestList = loadedGeneratedManifest || [];
-
-  // Filter manifest by brand and category to restrict matching domain and prevent mismatch collisions
-  const scopedImages = manifestList.filter(img => 
-    brandsMatch(img.brand, matBrand) && categoriesMatch(img.category, matCategory)
-  );
-
-  // 2nd Priority: Match exact code (case insensitive, trimmed) in manifest
-  const normTargetCode = normalizeMaterialCode(matCode);
-  if (normTargetCode) {
-    const matchedByCode = scopedImages.find(img => 
-      normalizeMaterialCode(img.extractedCode) === normTargetCode
-    );
-    if (matchedByCode) {
-      return {
-        src: matchedByCode.fullPublicPath,
-        alt: altText,
-        isPlaceholder: false,
-        isRepresentativeImage: false,
-        matchReason: 'exact-code'
-      };
-    }
-  }
-
-  // 3rd Priority: Match exact name in manifest
-  if (matName) {
-    const normTargetName = normalizeMaterialCode(matName);
-    if (normTargetName) {
-      const matchedByName = scopedImages.find(img => {
-        const cleanFileName = normalizeMaterialCode(img.fileName.slice(0, img.fileName.lastIndexOf('.')));
-        return cleanFileName === normTargetName || cleanFileName.includes(normTargetName) || normTargetName.includes(cleanFileName);
-      });
-      if (matchedByName) {
-        return {
-          src: matchedByName.fullPublicPath,
-          alt: altText,
-          isPlaceholder: false,
-          isRepresentativeImage: false,
-          matchReason: 'exact-name'
-        };
-      }
-    }
-  }
-
-  // 4th Priority: Fallback to placeholder image (representative fallback disabled per strict matching request)
-
-  // 5th Priority: Fallback to placeholder image
   return {
-    src: '/images/no-image.svg',
-    alt: `${altText} 이미지 준비중`,
-    isPlaceholder: true,
+    src: src || '/images/no-image.svg',
+    alt: isPlaceholder ? `${altText} 이미지 준비중` : altText,
+    isPlaceholder,
     isRepresentativeImage: false,
-    matchReason: 'missing'
+    matchReason: isPlaceholder ? 'missing' : 'resolved'
   };
 }
 
@@ -188,104 +80,11 @@ export function getMaterialImagePath(material) {
 }
 
 export function resolveProductImages(material) {
-  if (!material) return [];
-
-  const candidates = [];
-  const matBrand = material.brand || '';
-  const matName = material.name || '';
-  const matCode = material.code || '';
-  const matCategory = material.category || '';
-
-  // 1. Direct database fields
-  const dbFields = [
-    material.image_url,
-    material.thumbnail_url,
-    material.main_image_url,
-    material.image,
-    material.imageUrl,
-    material.imagePath,
-    material.thumbnail,
-    material.thumbnailImage,
-    material.mainImage
-  ].filter(Boolean);
-
-  for (const field of dbFields) {
-    const fieldStr = String(field).trim();
-    if (fieldStr && !fieldStr.includes('no-image.svg') && !fieldStr.includes('placeholder')) {
-      candidates.push(toFullImageUrl(fieldStr));
-    }
-  }
-
-  if (candidates.length === 0 && (!loadedImageMapManifest || !loadedGeneratedManifest)) {
-    ensureMaterialManifestsLoaded();
-  }
-
-  const manifestMap = loadedImageMapManifest || {};
-  const manifestList = loadedGeneratedManifest || [];
-
-  // 2. Lookup in imageManifestMap (code-to-images map from src/data/imageManifest.js)
-  const normTargetCode = normalizeMaterialCode(matCode);
-  const normTargetName = normalizeMaterialCode(matName);
-  
-  const lookupKeys = [normTargetCode, normTargetName].filter(Boolean);
-  for (const key of lookupKeys) {
-    const entry = manifestMap[key];
-    if (entry) {
-      if (Array.isArray(entry)) {
-        candidates.push(...entry.map(toFullImageUrl));
-      } else if (entry.images) {
-        candidates.push(...entry.images.map(toFullImageUrl));
-      } else if (entry.thumbnail) {
-        candidates.push(toFullImageUrl(entry.thumbnail));
-      } else if (entry.cover) {
-        candidates.push(toFullImageUrl(entry.cover));
-      }
-    }
-  }
-
-  // 3. Search in raw file manifest (materialImageManifest.generated.js)
-  // Check exact code match in the generated manifest list
-  if (normTargetCode) {
-    const scopedImages = manifestList.filter(img => 
-      brandsMatch(img.brand, matBrand) && categoriesMatch(img.category, matCategory)
-    );
-    const matchedByCode = scopedImages.find(img => 
-      normalizeMaterialCode(img.extractedCode) === normTargetCode
-    );
-    if (matchedByCode && matchedByCode.fullPublicPath) {
-      candidates.push(toFullImageUrl(matchedByCode.fullPublicPath));
-    }
-  }
-
-  // 4. Object array fields
-  if (Array.isArray(material.images)) {
-    candidates.push(...material.images.map(toFullImageUrl));
-  }
-  if (Array.isArray(material.galleryImages)) {
-    candidates.push(...material.galleryImages.map(toFullImageUrl));
-  }
-  if (Array.isArray(material.detailImages)) {
-    candidates.push(...material.detailImages.map(toFullImageUrl));
-  }
-  if (Array.isArray(material.installationImages)) {
-    candidates.push(...material.installationImages.map(toFullImageUrl));
-  }
-
-  // Deduplicate and filter out placeholders
-  return getUniqueProductImages(candidates);
+  return getAllProductImages(material);
 }
 
 export function resolveProductCardImage(material) {
-  const url = getProductImageUrl(material);
-  if (url && url !== '/images/no-image.svg') {
-    return url;
-  }
-
-  const images = resolveProductImages(material);
-  if (images.length > 0) {
-    return images[0];
-  }
-  
-  return '/images/no-image.svg';
+  return getProductImageUrl(material);
 }
+
 

@@ -12,6 +12,7 @@ CREATE TABLE IF NOT EXISTS public.estimate_sequences (
 CREATE TABLE IF NOT EXISTS public.estimates (
   id uuid DEFAULT gen_random_uuid() PRIMARY KEY,
   estimate_no text UNIQUE NOT NULL,
+  user_id uuid REFERENCES public.profiles(id) ON DELETE SET NULL,
   created_at timestamp with time zone DEFAULT now(),
   updated_at timestamp with time zone DEFAULT now(),
   status text DEFAULT '접수' NOT NULL,
@@ -105,27 +106,41 @@ DROP POLICY IF EXISTS "Allow public insert for estimates" ON public.estimates;
 DROP POLICY IF EXISTS "Allow select for admin only" ON public.estimates;
 DROP POLICY IF EXISTS "Allow write for admin only" ON public.estimates;
 DROP POLICY IF EXISTS "Allow admin read/write for estimates" ON public.estimates;
+DROP POLICY IF EXISTS "Allow member read/update for estimates" ON public.estimates;
 
 DROP POLICY IF EXISTS "Allow public insert for estimate_items" ON public.estimate_items;
 DROP POLICY IF EXISTS "Allow select for admin only" ON public.estimate_items;
 DROP POLICY IF EXISTS "Allow write for admin only" ON public.estimate_items;
 DROP POLICY IF EXISTS "Allow admin read/write for estimate_items" ON public.estimate_items;
+DROP POLICY IF EXISTS "Allow member read for estimate_items" ON public.estimate_items;
 
--- 5-1. estimates 테이블 보안 정책 (일반 유저/익명 유저는 직접 쓰기/조회 차단, 오직 어드민만 가능)
-CREATE POLICY "Allow admin read/write for estimates" ON public.estimates
+-- 5-1. estimates 테이블 보안 정책 (본인 user_id에 연결된 견적만 조회/수정 허용, 어드민 전체 접근)
+CREATE POLICY "Allow member read/update for estimates" ON public.estimates
   FOR ALL TO authenticated
-  USING (EXISTS (
-    SELECT 1 FROM public.profiles
-    WHERE profiles.id = auth.uid() AND profiles.role = 'admin'
-  ));
+  USING (
+    user_id = auth.uid() OR 
+    EXISTS (
+      SELECT 1 FROM public.profiles
+      WHERE profiles.id = auth.uid() AND profiles.role = 'admin'
+    )
+  );
 
--- 5-2. estimate_items 테이블 보안 정책
-CREATE POLICY "Allow admin read/write for estimate_items" ON public.estimate_items
+-- 5-2. estimate_items 테이블 보안 정책 (부모 estimates의 소유권 전파 검증)
+CREATE POLICY "Allow member read for estimate_items" ON public.estimate_items
   FOR ALL TO authenticated
-  USING (EXISTS (
-    SELECT 1 FROM public.profiles
-    WHERE profiles.id = auth.uid() AND profiles.role = 'admin'
-  ));
+  USING (
+    EXISTS (
+      SELECT 1 FROM public.estimates
+      WHERE estimates.id = estimate_items.estimate_id
+      AND (
+        estimates.user_id = auth.uid() OR
+        EXISTS (
+          SELECT 1 FROM public.profiles
+          WHERE profiles.id = auth.uid() AND profiles.role = 'admin'
+        )
+      )
+    )
+  );
 
 
 -- ==========================================================================

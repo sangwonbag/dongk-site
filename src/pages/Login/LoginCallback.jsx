@@ -3,6 +3,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import { supabase } from "../../lib/supabaseClient";
 import { useAuth } from "../../contexts/AuthContext";
 import MainLayout from "../../components/layout/MainLayout";
+import { getSafeRedirectUrl } from "../../utils/urlUtils";
 
 export default function LoginCallback() {
   const navigate = useNavigate();
@@ -109,7 +110,7 @@ export default function LoginCallback() {
         
         // Retrieve redirect target URL
         const searchParams = new URLSearchParams(location.search);
-        const redirectUrl = searchParams.get("redirect") || "/";
+        const redirectUrl = getSafeRedirectUrl(searchParams.get("redirect"), "/");
         
         setTimeout(() => {
           navigate(redirectUrl);

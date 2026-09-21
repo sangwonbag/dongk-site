@@ -70,7 +70,7 @@ export default function AdminDashboard() {
 
       // Fetch Orders safely
       try {
-        const { data } = await supabase.from('orders').select('status, created_at');
+        const { data } = await supabase.from('orders').select('status, created_at, construction_date, construction_status, shipment_status, outstanding_balance, payment_status, total_amount, final_billing_amount, total_paid_amount');
         orderRows = data || [];
       } catch (err) {
         console.warn('orders table load fallback:', err);
@@ -78,7 +78,7 @@ export default function AdminDashboard() {
 
       // Fetch Estimates safely
       try {
-        const { data } = await supabase.from('estimates').select('status');
+        const { data } = await supabase.from('estimates').select('status, customer_response');
         estimateRows = data || [];
       } catch (err) {
         console.warn('estimates table load fallback:', err);
@@ -94,6 +94,7 @@ export default function AdminDashboard() {
 
       // Calculate statistics
       const now = new Date();
+      const todayIso = now.toISOString().split('T')[0];
       const startOfToday = new Date(now.getFullYear(), now.getMonth(), now.getDate());
       const startOf7DaysAgo = new Date(startOfToday.getTime() - 7 * 24 * 60 * 60 * 1000);
 
@@ -116,7 +117,19 @@ export default function AdminDashboard() {
         o => o.status !== '완료' && o.status !== '취소'
       ).length;
 
+      // Operational Metrics
+      const todayConstructionCount = orderRows.filter(o => o.construction_date === todayIso).length;
+      const shipmentPendingCount = orderRows.filter(o => o.shipment_status === '대기' || o.shipment_status === '준비중').length;
+      const unpaidOrdersCount = orderRows.filter(o => (o.outstanding_balance ?? Math.max(0, (o.final_billing_amount || o.total_amount || 0) - (o.total_paid_amount || 0))) > 0).length;
+      const totalOutstandingBalance = orderRows.reduce((sum, o) => {
+        const bal = o.outstanding_balance ?? Math.max(0, (o.final_billing_amount || o.total_amount || 0) - (o.total_paid_amount || 0));
+        return sum + bal;
+      }, 0);
+
       const newEstimates = estimateRows.filter(e => e.status === '접수' || e.status === '신규').length;
+      const customerApprovedCount = estimateRows.filter(e => e.customer_response === 'approved' || e.status === '고객승인').length;
+      const customerWaitCount = estimateRows.filter(e => e.status === '견적안내' && e.customer_response === 'pending').length;
+      const confirmedCount = estimateRows.filter(e => e.status === '진행확정').length;
       const newInquiries = inquiryRows.filter(i => i.status === 'new' || i.status === '신규').length;
 
       const totalProducts = productRows.length;
@@ -127,7 +140,14 @@ export default function AdminDashboard() {
         weekVisitors,
         todayNewOrders,
         pendingOrders,
+        todayConstructionCount,
+        shipmentPendingCount,
+        unpaidOrdersCount,
+        totalOutstandingBalance,
         newEstimates,
+        customerApprovedCount,
+        customerWaitCount,
+        confirmedCount,
         newInquiries,
         totalProducts,
         activeProducts
@@ -207,20 +227,45 @@ export default function AdminDashboard() {
 
           <div className="stat-card">
             <div className="stat-card-header">
-              <span className="stat-lbl">견적 및 상담 현황</span>
+              <span className="stat-lbl">상담 & 견적 응답 현황</span>
               <FileText size={16} className="stat-icon text-emerald" />
             </div>
-            <strong className="stat-val">{loading ? '-' : `${stats.newEstimates + stats.newInquiries}건`}</strong>
-            <span className="stat-desc">신규 견적: {stats.newEstimates}건 / 고객문의: {stats.newInquiries}건</span>
+            <strong className="stat-val highlighted-green">{loading ? '-' : `${stats.customerApprovedCount}건 (승인)`}</strong>
+            <span className="stat-desc">신규: {stats.newEstimates} | 응답대기: {stats.customerWaitCount} | 확정: {stats.confirmedCount}</span>
           </div>
 
           <div className="stat-card">
             <div className="stat-card-header">
-              <span className="stat-lbl">전체 상품 및 자재</span>
-              <Layers size={16} className="stat-icon text-purple" />
+              <span className="stat-lbl">현장 수금 & 미수금</span>
+              <Activity size={16} className="stat-icon text-rose" />
             </div>
-            <strong className="stat-val">{loading ? '-' : `${stats.totalProducts}종`}</strong>
-            <span className="stat-desc">노출(판매) 중인 자재: {loading ? '-' : `${stats.activeProducts}종`}</span>
+            <strong className="stat-val text-red">{loading ? '-' : `${(stats.totalOutstandingBalance || 0).toLocaleString()}원`}</strong>
+            <span className="stat-desc">미수 주문: {stats.unpaidOrdersCount || 0}건 / 전체 총액</span>
+          </div>
+        </div>
+
+        {/* 2.5 Today's Operations & Tasks */}
+        <div style={{ backgroundColor: '#ffffff', border: '1px solid var(--border)', borderRadius: 'var(--radius-lg)', padding: '20px 24px', marginBottom: '28px', boxShadow: 'var(--shadow-sm)' }}>
+          <h3 style={{ fontSize: '16px', fontWeight: '800', color: 'var(--primary)', margin: '0 0 14px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
+            <span>⚡ 오늘 업무 & 현장 운영 할 일</span>
+          </h3>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '12px' }}>
+            <div onClick={() => navigate('/admin-orders?filter=오늘시공')} style={{ backgroundColor: '#f0f9ff', border: '1px solid #bae6fd', padding: '14px', borderRadius: '8px', cursor: 'pointer' }}>
+              <div style={{ fontSize: '12px', color: '#0369a1', fontWeight: '700' }}>오늘 시공 예정</div>
+              <div style={{ fontSize: '20px', fontWeight: '900', color: '#0284c7', marginTop: '4px' }}>{stats.todayConstructionCount || 0}건</div>
+            </div>
+            <div onClick={() => navigate('/admin-orders?filter=출고대기')} style={{ backgroundColor: '#fff7ed', border: '1px solid #fed7aa', padding: '14px', borderRadius: '8px', cursor: 'pointer' }}>
+              <div style={{ fontSize: '12px', color: '#c2410c', fontWeight: '700' }}>자재 출고 대기</div>
+              <div style={{ fontSize: '20px', fontWeight: '900', color: '#ea580c', marginTop: '4px' }}>{stats.shipmentPendingCount || 0}건</div>
+            </div>
+            <div onClick={() => navigate('/admin/estimate-inquiries')} style={{ backgroundColor: '#f0fdf4', border: '1px solid #bbf7d0', padding: '14px', borderRadius: '8px', cursor: 'pointer' }}>
+              <div style={{ fontSize: '12px', color: '#15803d', fontWeight: '700' }}>고객 진행 요청 (견적승인)</div>
+              <div style={{ fontSize: '20px', fontWeight: '900', color: '#16a34a', marginTop: '4px' }}>{stats.customerApprovedCount || 0}건</div>
+            </div>
+            <div onClick={() => navigate('/admin-orders?filter=미수주문')} style={{ backgroundColor: '#fff1f2', border: '1px solid #fecdd3', padding: '14px', borderRadius: '8px', cursor: 'pointer' }}>
+              <div style={{ fontSize: '12px', color: '#be123c', fontWeight: '700' }}>미수금 확인 대상</div>
+              <div style={{ fontSize: '20px', fontWeight: '900', color: '#e11d48', marginTop: '4px' }}>{stats.unpaidOrdersCount || 0}건</div>
+            </div>
           </div>
         </div>
 

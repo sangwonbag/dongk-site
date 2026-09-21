@@ -7,6 +7,8 @@ import { supabase } from "../../lib/supabaseClient";
 import SEO from "../../components/seo/SEO";
 import "./Login.css";
 
+import { getSafeRedirectUrl } from "../../utils/urlUtils";
+
 export default function Login() {
     const nav = useNavigate();
     const location = useLocation();
@@ -20,7 +22,7 @@ export default function Login() {
         try {
             setErrorMsg("");
             const searchParams = new URLSearchParams(location.search);
-            const redirectUrl = searchParams.get("redirect") || "/";
+            const redirectUrl = getSafeRedirectUrl(searchParams.get("redirect"), "/");
             
             if (!supabase) {
                 throw new Error("Supabase 클라이언트가 초기화되지 않았습니다.");
@@ -66,7 +68,7 @@ export default function Login() {
                     nav("/checkout");
                 } else {
                     const searchParams = new URLSearchParams(location.search);
-                    const redirectUrl = searchParams.get("redirect") || "/";
+                    const redirectUrl = getSafeRedirectUrl(searchParams.get("redirect"), "/");
                     nav(redirectUrl);
                 }
             }

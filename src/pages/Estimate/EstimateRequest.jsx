@@ -50,24 +50,71 @@ export default function EstimateRequest() {
     consultation: '전화 상담'
   });
 
-  const hasAutoOpened = useRef(false);
+  const ESTIMATE_DRAFT_KEY = 'dk_pending_estimate';
+  const [showLoginPrompt, setShowLoginPrompt] = useState(false);
+  const isSubmittingRef = useRef(false);
 
-  // Open login modal if not logged in
+  // Save draft before login navigation
+  const saveEstimateDraft = () => {
+    try {
+      const draft = {
+        customer,
+        site,
+        selectedMaterial,
+        accessories,
+        extraAccessory,
+        requestMemo,
+        activeViewTab,
+        step,
+        draftSavedAt: Date.now()
+      };
+      sessionStorage.setItem(ESTIMATE_DRAFT_KEY, JSON.stringify(draft));
+    } catch (e) {
+      console.error('[EstimateRequest] Failed to save draft:', e);
+    }
+  };
+
+  // Restore draft from sessionStorage after login or page revisit
   useEffect(() => {
-    if (!currentUser) {
-      if (!hasAutoOpened.current) {
-        hasAutoOpened.current = true;
-        openLoginModal();
+    try {
+      const saved = sessionStorage.getItem(ESTIMATE_DRAFT_KEY);
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        if (parsed) {
+          // Check draft expiration (24h)
+          const MAX_DRAFT_AGE_MS = 24 * 60 * 60 * 1000;
+          if (parsed.draftSavedAt && (Date.now() - parsed.draftSavedAt > MAX_DRAFT_AGE_MS)) {
+            sessionStorage.removeItem(ESTIMATE_DRAFT_KEY);
+            return;
+          }
+
+          if (parsed.customer) setCustomer(prev => ({ ...prev, ...parsed.customer }));
+          if (parsed.site) setSite(prev => ({ ...prev, ...parsed.site }));
+          if (parsed.selectedMaterial) setSelectedMaterial(parsed.selectedMaterial);
+          if (Array.isArray(parsed.accessories)) setAccessories(parsed.accessories);
+          if (parsed.extraAccessory !== undefined) setExtraAccessory(parsed.extraAccessory);
+          if (parsed.requestMemo !== undefined) setRequestMemo(parsed.requestMemo);
+          if (parsed.activeViewTab) setActiveViewTab(parsed.activeViewTab);
+          if (parsed.step) setStep(parsed.step);
+          // Note: Do not remove draft here; remove ONLY after successful DB submission!
+        }
       }
-    } else {
+    } catch (e) {
+      console.error('[EstimateRequest] Failed to restore draft:', e);
+    }
+  }, []);
+
+  // Pre-fill customer fields when logged in
+  useEffect(() => {
+    if (currentUser) {
       setCustomer(prev => ({
         ...prev,
-        name: currentUser.name || prev.name,
-        phone: currentUser.phone || prev.phone,
-        email: currentUser.email || prev.email,
+        name: prev.name || currentUser.name || '',
+        phone: prev.phone || currentUser.phone || '',
+        email: prev.email || currentUser.email || '',
       }));
     }
-  }, [currentUser, openLoginModal]);
+  }, [currentUser]);
 
   const isUnselectedRef = useRef(false);
   const lastParamIdRef = useRef(null);
@@ -327,12 +374,27 @@ export default function EstimateRequest() {
     window.scrollTo(0, 0);
   };
 
+  const handleGoToLogin = () => {
+    saveEstimateDraft();
+    const currentPath = location.pathname + location.search;
+    navigate(`/login?redirect=${encodeURIComponent(currentPath)}`);
+  };
+
   const handleSubmit = async () => {
+    if (isSubmittingRef.current || isSubmitting) return;
+
+    if (!currentUser) {
+      saveEstimateDraft();
+      setShowLoginPrompt(true);
+      return;
+    }
+
     if (!agreePrivacy) {
       setErrors(['개인정보 수집 및 이용에 동의해야 합니다.']);
       return;
     }
 
+    isSubmittingRef.current = true;
     setIsSubmitting(true);
     setErrors([]);
 
@@ -430,6 +492,9 @@ export default function EstimateRequest() {
         created_at: new Date().toISOString()
       }, 'admin').catch(e => console.warn('[Estimate Notification Exception]:', e));
 
+      // DB 저장 성공 시에만 임시 draft 데이터 삭제
+      sessionStorage.removeItem(ESTIMATE_DRAFT_KEY);
+
       setSubmittedNo(estNo);
       setSubmitSuccess(true);
       clearCart();
@@ -446,32 +511,18 @@ export default function EstimateRequest() {
         extraAccessory,
         requestMemo
       });
-      setErrors(['견적요청 저장에 실패했습니다. 입력 정보를 확인 후 다시 시도해주세요.']);
+
+      if (err.message && err.message.includes('UNAUTHORIZED')) {
+        saveEstimateDraft();
+        setShowLoginPrompt(true);
+      } else {
+        setErrors(['견적요청 저장 중 문제가 발생했습니다. 작성 내용은 유지되어 있습니다. 다시 시도해 주세요.']);
+      }
     } finally {
+      isSubmittingRef.current = false;
       setIsSubmitting(false);
     }
   };
-
-  if (!currentUser) {
-    return (
-      <MainLayout>
-        <div className="container" style={{ padding: '100px 20px', textAlign: 'center' }}>
-          <h2>로그인 후 이용해주세요</h2>
-          <p style={{ marginTop: '20px', color: '#666' }}>견적요청은 로그인된 회원만 이용 가능합니다.</p>
-          <div style={{ marginTop: '40px', display: 'flex', gap: '10px', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <button className="btn-secondary" onClick={() => {
-              if (window.history.length > 1) {
-                navigate(-1);
-              } else {
-                navigate('/');
-              }
-            }}>이전 화면으로 돌아가기</button>
-            <button className="btn-primary" onClick={openLoginModal}>로그인하기</button>
-          </div>
-        </div>
-      </MainLayout>
-    );
-  }
 
   if (submitSuccess) {
     return (
@@ -640,6 +691,22 @@ export default function EstimateRequest() {
                 }}
               >
                 🏠 홈으로 가기
+              </button>
+              <button 
+                className="btn-primary" 
+                onClick={() => navigate('/mypage')}
+                style={{
+                  padding: '12px 24px',
+                  borderRadius: '8px',
+                  fontSize: '14px',
+                  fontWeight: '600',
+                  cursor: 'pointer',
+                  backgroundColor: '#0f172a',
+                  color: '#ffffff',
+                  border: 'none'
+                }}
+              >
+                📋 내 견적 확인하기
               </button>
               <button 
                 className="btn-primary" 
@@ -1060,6 +1127,12 @@ export default function EstimateRequest() {
                   개인정보 수집 및 상담 목적 이용에 동의합니다. (필수)
                 </label>
               </div>
+
+              {!currentUser && (
+                <div className="est-login-notice font-medium text-slate-500 mt-3 text-center text-xs">
+                  견적 신청은 로그인 후 이용 가능합니다.
+                </div>
+              )}
             </div>
           )}
         </div>
@@ -1090,6 +1163,27 @@ export default function EstimateRequest() {
           onClose={() => setIsModalOpen(false)} 
           defaultQuantity={defaultQuantity}
         />
+      )}
+
+      {showLoginPrompt && (
+        <div className="est-modal-overlay">
+          <div className="est-modal-card">
+            <div className="est-modal-header">
+              <h3>로그인 안내</h3>
+            </div>
+            <div className="est-modal-body">
+              <p>견적 신청은 로그인 후 이용할 수 있습니다.</p>
+            </div>
+            <div className="est-modal-actions">
+              <button type="button" className="btn-modal-login" onClick={handleGoToLogin}>
+                로그인하기
+              </button>
+              <button type="button" className="btn-modal-continue" onClick={() => setShowLoginPrompt(false)}>
+                계속 견적 확인하기
+              </button>
+            </div>
+          </div>
+        </div>
       )}
     </MainLayout>
   );

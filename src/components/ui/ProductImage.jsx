@@ -1,63 +1,122 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import "./ProductImage.css";
 
-export default function ProductImage({ src, alt, className = "", style = {}, fit = "contain", priority = false }) {
+const isInvalidSrc = (val) => {
+  if (val === undefined || val === null) return true;
+  if (Array.isArray(val)) return val.length === 0;
+  if (typeof val === "string") {
+    const trimmed = val.trim();
+    return (
+      trimmed === "" ||
+      trimmed === "/images/no-image.svg" ||
+      trimmed === "/images/deco_tile.png" ||
+      trimmed === "null" ||
+      trimmed === "undefined"
+    );
+  }
+  return false;
+};
+
+export default function ProductImage({
+  src,
+  candidates = null,
+  alt,
+  className = "",
+  style = {},
+  fit = "contain",
+  priority = false
+}) {
+  const [candidateIndex, setCandidateIndex] = useState(0);
   const [hasError, setHasError] = useState(false);
 
-  // Clean URI encoded paths safely
-  const cleanSrc = (() => {
-    if (!src || typeof src !== "string") return src;
-    let str = src.trim();
-    try {
-      while (str.includes('%')) {
-        const prev = str;
-        str = decodeURIComponent(str);
-        if (str === prev) break;
-      }
-    } catch (e) {}
-    return str;
-  })();
-
-  const isInvalidSrc = (val) => {
-    if (val === undefined || val === null) return true;
-    if (Array.isArray(val)) return val.length === 0;
-    if (typeof val === "string") {
-      const trimmed = val.trim();
-      return (
-        trimmed === "" ||
-        trimmed === "/images/no-image.svg" ||
-        trimmed === "/images/deco_tile.png" ||
-        trimmed === "null" ||
-        trimmed === "undefined"
-      );
+  // Build ordered list of candidate URLs
+  const urlsList = useMemo(() => {
+    const list = [];
+    if (Array.isArray(candidates) && candidates.length > 0) {
+      list.push(...candidates);
+    } else if (Array.isArray(src) && src.length > 0) {
+      list.push(...src);
+    } else if (typeof src === "string" && src.trim()) {
+      list.push(src.trim());
     }
-    return false;
-  };
+
+    return list
+      .map(item => {
+        if (!item || typeof item !== "string") return null;
+        let str = item.trim();
+        if (isInvalidSrc(str)) return null;
+        return str;
+      })
+      .filter(Boolean);
+  }, [src, candidates]);
 
   useEffect(() => {
+    setCandidateIndex(0);
     setHasError(false);
-  }, [cleanSrc]);
+  }, [src, candidates]);
 
-  const invalid = isInvalidSrc(cleanSrc);
+  const currentSrc = urlsList[candidateIndex] || null;
+
+  const handleImgError = () => {
+    if (candidateIndex + 1 < urlsList.length) {
+      setCandidateIndex(prev => prev + 1);
+    } else {
+      setHasError(true);
+    }
+  };
+
+  const isInvalid = !currentSrc || isInvalidSrc(currentSrc);
 
   return (
-    <div className="product-image-container" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", overflow: "hidden", ...style }}>
-      {invalid || hasError ? (
-        <div className="product-image-fallback-container" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%" }}>
+    <div
+      className="product-image-container"
+      style={{
+        position: "absolute",
+        top: 0,
+        left: 0,
+        width: "100%",
+        height: "100%",
+        overflow: "hidden",
+        ...style
+      }}
+    >
+      {isInvalid || hasError ? (
+        <div
+          className="product-image-fallback-container"
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%"
+          }}
+        >
           <div className="product-image-placeholder">
             이미지 준비중
           </div>
         </div>
       ) : (
-        <div className="product-image-wrapper" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", overflow: "hidden", backgroundColor: "#f8fafc" }}>
+        <div
+          className="product-image-wrapper"
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            overflow: "hidden",
+            backgroundColor: "#f8fafc"
+          }}
+        >
           <img
-            src={cleanSrc}
+            key={currentSrc}
+            src={currentSrc}
             alt={alt || "상품 이미지"}
             className={className}
             loading={priority ? "eager" : "lazy"}
             fetchPriority={priority ? "high" : "auto"}
             decoding="async"
-            onError={() => setHasError(true)}
+            onError={handleImgError}
             style={{
               width: "100%",
               height: "100%",
@@ -73,3 +132,4 @@ export default function ProductImage({ src, alt, className = "", style = {}, fit
     </div>
   );
 }
+

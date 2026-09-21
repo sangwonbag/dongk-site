@@ -1,6 +1,6 @@
-import { supabase } from '../lib/supabaseClient';
-import { getCurrentUser } from '../lib/auth';
-import { formatFlooringProductName, getProductUnit } from '../utils/brandUtils';
+import { supabase } from '../lib/supabaseClient.js';
+import { getCurrentUser } from '../lib/auth.js';
+import { formatFlooringProductName, getProductUnit } from '../utils/brandUtils.js';
 
 /**
  * 실제 주문 접수 기능을 담당하는 서비스입니다.
@@ -152,6 +152,18 @@ const mapOrderToKo = (order) => {
     memo: memoText,
     admin_memo: adminMemoText,
     
+    construction_status: order.construction_status || '일정 미정',
+    shipment_status: order.shipment_status || '대기',
+    shipment_checklist: Array.isArray(order.shipment_checklist) ? order.shipment_checklist : (order.shipment_checklist ? JSON.parse(order.shipment_checklist) : []),
+    
+    approved_amount: order.approved_amount ?? order.total_amount ?? 0,
+    extra_charge_amount: order.extra_charge_amount ?? 0,
+    extra_charge_reason: order.extra_charge_reason || '',
+    extra_discount_amount: order.extra_discount_amount ?? 0,
+    final_billing_amount: order.final_billing_amount ?? ((order.approved_amount ?? order.total_amount ?? 0) + (order.extra_charge_amount ?? 0) - (order.extra_discount_amount ?? 0)),
+    total_paid_amount: order.total_paid_amount ?? (order.payment_status === 'paid' || order.payment_status === '입금완료' ? (order.final_billing_amount ?? order.total_amount ?? 0) : 0),
+    outstanding_balance: order.outstanding_balance ?? Math.max(0, (order.final_billing_amount ?? order.total_amount ?? 0) - (order.total_paid_amount ?? 0)),
+
     delivery_method,
     delivery_method_label,
     delivery_fee,
@@ -591,3 +603,294 @@ export const updateOrderChecked = async (orderId, username) => {
 
   return mapOrderToKo(data);
 };
+
+/**
+ * 8. 시공 일정 업데이트
+ */
+export const updateOrderConstructionSchedule = async (orderId, {
+  construction_date,
+  construction_time_slot,
+  construction_manager,
+  construction_phone,
+  construction_memo
+}) => {
+  if (!supabase) throw new Error('Supabase 클라이언트가 초기화되지 않았습니다.');
+
+  const updatePayload = {
+    construction_date: construction_date || null,
+    construction_time_slot: construction_time_slot || null,
+    construction_manager: construction_manager || null,
+    construction_phone: construction_phone || null,
+    construction_memo: construction_memo || null,
+    construction_status: construction_date ? '일정 확정' : '일정 미정'
+  };
+
+  const { data, error } = await supabase
+    .from('orders')
+    .update(updatePayload)
+    .eq('id', orderId)
+    .select(`*, order_items (*)`)
+    .single();
+
+  if (error) {
+    return handleSupabaseError(error, '시공 일정 저장에 실패했습니다.');
+  }
+
+  return mapOrderToKo(data);
+};
+
+/**
+ * 9. 현장 진행 상태 변경 및 타임스탬프 기록
+ */
+export const updateOrderConstructionStatus = async (orderId, constructionStatus, timestampKey = null) => {
+  if (!supabase) throw new Error('Supabase 클라이언트가 초기화되지 않았습니다.');
+
+  const updatePayload = {
+    construction_status: constructionStatus
+  };
+
+  if (timestampKey) {
+    updatePayload[timestampKey] = new Date().toISOString();
+  }
+
+  const { data, error } = await supabase
+    .from('orders')
+    .update(updatePayload)
+    .eq('id', orderId)
+    .select(`*, order_items (*)`)
+    .single();
+
+  if (error) {
+    return handleSupabaseError(error, '현장 진행 상태 업데이트에 실패했습니다.');
+  }
+
+  return mapOrderToKo(data);
+};
+
+/**
+ * 10. 자재 출고 체크리스트 업데이트 및 출고 완료 처리
+ */
+export const updateOrderShipmentChecklist = async (orderId, checklistItems, isCompleted = false, username = 'admin') => {
+  if (!supabase) throw new Error('Supabase 클라이언트가 초기화되지 않았습니다.');
+
+  const hasUnprepared = checklistItems.some(item => !item.prepared);
+  const shipmentStatus = isCompleted 
+    ? (hasUnprepared ? '누락있음' : '출고완료')
+    : (checklistItems.some(item => item.prepared) ? '준비중' : '대기');
+
+  const updatePayload = {
+    shipment_checklist: checklistItems,
+    shipment_status: shipmentStatus
+  };
+
+  if (isCompleted) {
+    updatePayload.shipment_prepared_at = new Date().toISOString();
+    updatePayload.shipment_prepared_by = username;
+    updatePayload.construction_status = '출고 완료';
+  } else if (shipmentStatus === '준비중') {
+    updatePayload.construction_status = '출고 준비';
+  }
+
+  const { data, error } = await supabase
+    .from('orders')
+    .update(updatePayload)
+    .eq('id', orderId)
+    .select(`*, order_items (*)`)
+    .single();
+
+  if (error) {
+    return handleSupabaseError(error, '출고 체크리스트 저장에 실패했습니다.');
+  }
+
+  return mapOrderToKo(data);
+};
+
+/**
+ * 11. 시공 완료 및 최종 청구금액 저장
+ */
+export const saveOrderConstructionCompletion = async (orderId, {
+  actual_completion_date,
+  actual_construction_area,
+  extra_tasks_desc,
+  extra_materials_desc,
+  site_notes,
+  extra_charge_amount = 0,
+  extra_charge_reason = '',
+  extra_discount_amount = 0
+}) => {
+  if (!supabase) throw new Error('Supabase 클라이언트가 초기화되지 않았습니다.');
+
+  // Fetch current order to preserve original approved_amount & total_paid_amount
+  const { data: currentOrder, error: fetchErr } = await supabase
+    .from('orders')
+    .select('total_amount, approved_amount, total_paid_amount')
+    .eq('id', orderId)
+    .single();
+
+  if (fetchErr || !currentOrder) {
+    throw new Error('주문 정보를 찾을 수 없습니다.');
+  }
+
+  const approvedAmount = parseFloat(currentOrder.approved_amount || currentOrder.total_amount || 0);
+  const extraCharge = Math.max(0, parseFloat(extra_charge_amount) || 0);
+  const extraDiscount = Math.max(0, parseFloat(extra_discount_amount) || 0);
+  const finalBilling = approvedAmount + extraCharge - extraDiscount;
+  const currentPaid = parseFloat(currentOrder.total_paid_amount || 0);
+  const outstanding = Math.max(0, finalBilling - currentPaid);
+
+  let newPaymentStatus = currentOrder.payment_status || 'unpaid';
+  if (outstanding <= 0 && currentPaid > 0) {
+    newPaymentStatus = 'paid';
+  } else if (currentPaid > 0 && outstanding > 0) {
+    newPaymentStatus = 'partial';
+  }
+
+  const updatePayload = {
+    actual_completion_date: actual_completion_date || new Date().toISOString().split('T')[0],
+    actual_construction_area: actual_construction_area ? parseFloat(actual_construction_area) : null,
+    extra_tasks_desc: extra_tasks_desc || null,
+    extra_materials_desc: extra_materials_desc || null,
+    site_notes: site_notes || null,
+    approved_amount: approvedAmount,
+    extra_charge_amount: extraCharge,
+    extra_charge_reason: extra_charge_reason || null,
+    extra_discount_amount: extraDiscount,
+    final_billing_amount: finalBilling,
+    total_paid_amount: currentPaid,
+    outstanding_balance: outstanding,
+    payment_status: PAYMENT_STATUS_KO_TO_EN[newPaymentStatus] || newPaymentStatus,
+    construction_status: '시공 완료',
+    construction_completed_at: new Date().toISOString()
+  };
+
+  const { data, error } = await supabase
+    .from('orders')
+    .update(updatePayload)
+    .eq('id', orderId)
+    .select(`*, order_items (*)`)
+    .single();
+
+  if (error) {
+    return handleSupabaseError(error, '시공 완료 기록에 실패했습니다.');
+  }
+
+  return mapOrderToKo(data);
+};
+
+/**
+ * 12. 입금 이력 등록 및 미수금 자동 산정
+ */
+export const addOrderPayment = async (orderId, {
+  amount,
+  payment_method = '계좌이체',
+  paid_at,
+  memo
+}, username = 'admin') => {
+  if (!supabase) throw new Error('Supabase 클라이언트가 초기화되지 않았습니다.');
+
+  const numericAmount = parseFloat(amount);
+  if (isNaN(numericAmount) || numericAmount <= 0) {
+    throw new Error('올바른 입금 금액을 입력해 주세요.');
+  }
+
+  // 1. Fetch order details
+  const { data: orderData, error: orderErr } = await supabase
+    .from('orders')
+    .select('approved_amount, total_amount, extra_charge_amount, extra_discount_amount, final_billing_amount, total_paid_amount')
+    .eq('id', orderId)
+    .single();
+
+  if (orderErr || !orderData) {
+    throw new Error('주문 정보를 찾을 수 없습니다.');
+  }
+
+  const approvedAmount = parseFloat(orderData.approved_amount || orderData.total_amount || 0);
+  const extraCharge = parseFloat(orderData.extra_charge_amount || 0);
+  const extraDiscount = parseFloat(orderData.extra_discount_amount || 0);
+  const finalBilling = parseFloat(orderData.final_billing_amount || (approvedAmount + extraCharge - extraDiscount));
+  const prevPaid = parseFloat(orderData.total_paid_amount || 0);
+  const newTotalPaid = prevPaid + numericAmount;
+  const newOutstanding = Math.max(0, finalBilling - newTotalPaid);
+
+  let newPaymentStatus = 'unpaid';
+  if (newTotalPaid >= finalBilling) {
+    newPaymentStatus = 'paid';
+  } else if (newTotalPaid > 0) {
+    newPaymentStatus = 'partial';
+  }
+
+  // 2. Insert into `order_payments`
+  const { error: paymentErr } = await supabase
+    .from('order_payments')
+    .insert({
+      order_id: orderId,
+      amount: numericAmount,
+      payment_method,
+      paid_at: paid_at || new Date().toISOString(),
+      memo: memo || null,
+      created_by: username
+    });
+
+  if (paymentErr) {
+    console.warn('[addOrderPayment Warning] order_payments insert failed:', paymentErr);
+  }
+
+  // 3. Update `orders` header with total_paid_amount, outstanding_balance, payment_status
+  const { data: updatedOrder, error: updateErr } = await supabase
+    .from('orders')
+    .update({
+      approved_amount: approvedAmount,
+      final_billing_amount: finalBilling,
+      total_paid_amount: newTotalPaid,
+      outstanding_balance: newOutstanding,
+      payment_status: PAYMENT_STATUS_KO_TO_EN[newPaymentStatus] || newPaymentStatus
+    })
+    .eq('id', orderId)
+    .select(`*, order_items (*)`)
+    .single();
+
+  if (updateErr) {
+    return handleSupabaseError(updateErr, '주문 수금 상태 업데이트에 실패했습니다.');
+  }
+
+  return mapOrderToKo(updatedOrder);
+};
+
+/**
+ * 13. 주문 입금 이력 목록 조회
+ */
+export const getOrderPayments = async (orderId) => {
+  if (!supabase) return [];
+
+  const { data, error } = await supabase
+    .from('order_payments')
+    .select('*')
+    .eq('order_id', orderId)
+    .order('paid_at', { ascending: false });
+
+  if (error) {
+    console.warn('[getOrderPayments warning]', error);
+    return [];
+  }
+
+  return data || [];
+};
+
+/**
+ * 14. 고객용 주문 정보 보안 마스킹 (내부 관리자 메모, 원가, 출고 작성자 등 제거)
+ */
+export const sanitizeOrderForCustomer = (order) => {
+  if (!order) return null;
+  const mapped = mapOrderToKo(order);
+
+  delete mapped.admin_memo;
+  delete mapped.admin_checked;
+  delete mapped.admin_checked_at;
+  delete mapped.admin_checked_by;
+  delete mapped.shipment_prepared_by;
+  delete mapped.cost_price;
+  delete mapped.margin_rate;
+
+  return mapped;
+};
+

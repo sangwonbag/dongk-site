@@ -191,7 +191,52 @@ export default function OrderHistory() {
                   {/* 주문 상세 내용 (아코디언) */}
                   {isExpanded && (
                     <div className="order-card-details">
-                      {/* 1. 수령인 배송정보 */}
+                      {/* 1. 현장 시공 진행 및 수금 정보 (고객용) */}
+                      <div className="details-section-info" style={{ backgroundColor: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: '8px', padding: '16px', marginBottom: '20px' }}>
+                        <h4 style={{ color: '#0f172a', marginBottom: '10px' }}>🏗️ 현장 시공 진행 현황</h4>
+                        <div className="info-grid">
+                          <div className="info-row">
+                            <span className="label">시공 진행상태</span>
+                            <span className="val" style={{ color: '#0284c7', fontWeight: '800' }}>
+                              {order.construction_status || '일정 확인 중'}
+                            </span>
+                          </div>
+                          {order.construction_date && (
+                            <div className="info-row">
+                              <span className="label">시공 예정일시</span>
+                              <span className="val text-blue font-bold">
+                                {order.construction_date} ({order.construction_time_slot || '시간 사전협의'})
+                              </span>
+                            </div>
+                          )}
+                          <div className="info-row">
+                            <span className="label">최종 청구금액</span>
+                            <span className="val font-bold">
+                              {(order.final_billing_amount || order.total_amount || 0).toLocaleString()}원
+                            </span>
+                          </div>
+                          <div className="info-row">
+                            <span className="label">입금 완료금액</span>
+                            <span className="val" style={{ color: '#16a34a', fontWeight: '700' }}>
+                              {(order.total_paid_amount || 0).toLocaleString()}원
+                            </span>
+                          </div>
+                          <div className="info-row">
+                            <span className="label">남은 결제금액</span>
+                            <span className="val" style={{ color: (order.outstanding_balance || 0) > 0 ? '#dc2626' : '#16a34a', fontWeight: '800' }}>
+                              {(order.outstanding_balance || 0) > 0 ? `${(order.outstanding_balance).toLocaleString()}원 (미수금)` : '완납 (0원)'}
+                            </span>
+                          </div>
+                        </div>
+
+                        {(order.construction_status === '시공 완료' || order.construction_status === '고객 확인' || order.construction_status === '종결') && (
+                          <div style={{ marginTop: '12px', padding: '10px 14px', backgroundColor: '#dcfce7', border: '1px solid #86efac', borderRadius: '6px', color: '#15803d', fontSize: '13px', fontWeight: '700' }}>
+                            ✅ 현장 시공이 정상적으로 완료되었습니다. 이용해 주셔서 감사합니다!
+                          </div>
+                        )}
+                      </div>
+
+                      {/* 2. 수령인 배송정보 */}
                       <div className="details-section-info">
                         <h4>배송 및 주문 정보</h4>
                         <div className="info-grid">

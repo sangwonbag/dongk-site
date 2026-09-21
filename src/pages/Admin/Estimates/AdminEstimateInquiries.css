@@ -908,3 +908,546 @@
   }
 }
 
+/* ==========================================================================
+   Section ③ & ⑤ & ⑥ New Admin Control Components
+   ========================================================================== */
+
+.section-header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.btn-save-items-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #0284c7;
+  color: #ffffff;
+  border: none;
+  padding: 6px 14px;
+  font-size: 12.5px;
+  font-weight: 700;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn-save-items-inline:hover {
+  background-color: #0369a1;
+}
+
+.modal-items-editable-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.editable-item-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+}
+
+@media (min-width: 640px) {
+  .editable-item-card {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.editable-item-main {
+  flex: 1;
+}
+
+.editable-item-main .item-specs-sub {
+  font-size: 11.5px;
+  color: #64748b;
+  margin-top: 2px;
+}
+
+.editable-item-inputs {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.input-pair {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.input-pair label {
+  font-size: 11px;
+  font-weight: 700;
+  color: #64748b;
+}
+
+.input-pair input {
+  width: 100px;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+  font-family: monospace;
+  text-align: right;
+  outline: none;
+}
+
+.input-pair input:focus {
+  border-color: var(--point-gold);
+}
+
+.calculated-item-total {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  min-width: 90px;
+}
+
+.calculated-item-total .total-label {
+  font-size: 10.5px;
+  color: #94a3b8;
+}
+
+.calculated-item-total strong {
+  font-size: 14px;
+  color: #0f172a;
+}
+
+/* Section ⑤ Final Quote Styles */
+.final-quote-section {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.section-subtext {
+  font-size: 12.5px;
+  color: #64748b;
+  margin: -8px 0 16px 0;
+}
+
+.quote-grid-inputs {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+  .quote-grid-inputs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 850px) {
+  .quote-grid-inputs {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.quote-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background-color: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 10px 12px;
+}
+
+.quote-input-group.highlight-discount {
+  border-color: #fca5a5;
+  background-color: #fff5f5;
+}
+
+.quote-input-group label {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: #475569;
+}
+
+.quote-input-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  font-family: monospace;
+  font-weight: 700;
+  text-align: right;
+  outline: none;
+  background-color: #ffffff;
+}
+
+.quote-input-group input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px rgba(15, 23, 42, 0.08);
+}
+
+.comma-preview {
+  font-size: 11px;
+  font-family: monospace;
+  color: #0284c7;
+  text-align: right;
+  margin-top: 2px;
+}
+
+.comma-preview.text-red {
+  color: #dc2626;
+}
+
+.quote-calc-result-banner {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  color: #ffffff;
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15);
+}
+
+.calc-formula {
+  font-size: 11.5px;
+  color: #94a3b8;
+  margin-bottom: 8px;
+  word-break: break-all;
+  line-height: 1.4;
+}
+
+.calc-final-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calc-final-row .label {
+  font-size: 14px;
+  font-weight: 700;
+  color: #e2e8f0;
+}
+
+.final-total-price {
+  font-size: 22px;
+  font-weight: 800;
+  color: #38bdf8;
+  letter-spacing: -0.5px;
+}
+
+.quote-memo-box {
+  margin-bottom: 16px;
+}
+
+.quote-memo-box label {
+  display: block;
+  font-size: 12.5px;
+  margin-bottom: 6px;
+  color: #475569;
+}
+
+.quote-memo-box textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  font-size: 13px;
+  outline: none;
+  resize: vertical;
+}
+
+.confirm-quote-action-row {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-confirm-quote {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #16a34a;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(22, 163, 74, 0.25);
+}
+
+.btn-confirm-quote:hover:not(:disabled) {
+  background-color: #15803d;
+  transform: translateY(-1px);
+}
+
+.btn-confirm-quote:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.quote-confirmed-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #16a34a;
+  background-color: #dcfce7;
+  border: 1px solid #86efac;
+  padding: 2px 8px;
+  border-radius: 12px;
+}
+
+.converted-order-badge {
+  display: inline-block;
+  margin-left: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #0284c7;
+  background-color: #e0f2fe;
+  border: 1px solid #bae6fd;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.divider-hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 20px 0;
+}
+
+/* Section ⑥ Order Conversion Block */
+.order-conversion-card {
+  margin-top: 16px;
+}
+
+.order-conversion-card h3 {
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--primary);
+  margin-bottom: 12px;
+}
+
+.converted-info-box {
+  background-color: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: var(--radius-md);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.converted-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #15803d;
+}
+
+.converted-meta {
+  font-size: 12.5px;
+  color: #334155;
+  line-height: 1.5;
+}
+
+.btn-view-converted-order {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background-color: #0284c7;
+  color: #ffffff;
+  border: none;
+  padding: 10px 16px;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn-view-converted-order:hover {
+  background-color: #0369a1;
+}
+
+.conversion-action-box {
+  background-color: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 16px;
+}
+
+.conversion-desc {
+  font-size: 12.5px;
+  color: #475569;
+  line-height: 1.5;
+  margin-bottom: 14px;
+}
+
+.btn-convert-to-order {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.2);
+}
+
+.btn-convert-to-order:hover:not(:disabled) {
+  background-color: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+.btn-convert-to-order:disabled {
+  background-color: #94a3b8;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* ==========================================================================
+   Section ⑦ Customer Response & Section ⑧ Construction Schedule Styles
+   ========================================================================== */
+
+.customer-response-card,
+.construction-schedule-card {
+  margin-top: 16px;
+  background-color: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 18px;
+}
+
+.customer-response-card.status-approved {
+  border-color: #86efac;
+  background-color: #f0fdf4;
+}
+
+.customer-response-card.status-hold {
+  border-color: #fca5a5;
+  background-color: #fff5f5;
+}
+
+.customer-approved-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11.5px;
+  font-weight: 700;
+  color: #15803d;
+  background-color: #dcfce7;
+  border: 1px solid #86efac;
+  padding: 2px 8px;
+  border-radius: 12px;
+}
+
+.customer-hold-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11.5px;
+  font-weight: 700;
+  color: #b91c1c;
+  background-color: #fee2e2;
+  border: 1px solid #fca5a5;
+  padding: 2px 8px;
+  border-radius: 12px;
+}
+
+.badge-customer-approved {
+  background-color: #dcfce7;
+  color: #15803d;
+  border: 1px solid #86efac;
+}
+
+.badge-customer-hold {
+  background-color: #fee2e2;
+  color: #b91c1c;
+  border: 1px solid #fca5a5;
+}
+
+.schedule-grid-inputs {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+@media (min-width: 576px) {
+  .schedule-grid-inputs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.schedule-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.schedule-input-group label {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: #475569;
+}
+
+.schedule-input-group input,
+.schedule-input-group select {
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+  color: var(--primary);
+  outline: none;
+}
+
+.btn-save-schedule {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background-color: #0f172a;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  font-size: 13.5px;
+  font-weight: 700;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn-save-schedule:hover:not(:disabled) {
+  background-color: #b3925f;
+}
+
+.btn-save-schedule:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+
+

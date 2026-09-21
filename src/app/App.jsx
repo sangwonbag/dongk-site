@@ -21,6 +21,7 @@ import Login from "../pages/Login/Login";
 import Signup from "../pages/Signup/Signup";
 import LoginCallback from "../pages/Login/LoginCallback";
 import MyPage from "../pages/MyPage/MyPage";
+import CustomerEstimateView from "../pages/MyPage/CustomerEstimateView";
 import PrivacyPolicy from "../pages/PrivacyPolicy/PrivacyPolicy";
 import TermsOfService from "../pages/TermsOfService/TermsOfService";
 
@@ -110,6 +111,8 @@ export default function App() {
             <Route path="/login-callback" element={<LoginCallback />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/mypage" element={<MyPage />} />
+            <Route path="/mypage/estimates" element={<MyPage />} />
+            <Route path="/mypage/estimates/:id" element={<CustomerEstimateView />} />
             <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/terms-of-service" element={<TermsOfService />} />

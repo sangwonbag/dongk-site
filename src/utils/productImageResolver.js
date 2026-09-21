@@ -1,22 +1,6 @@
 import { getUniqueProductImages } from './galleryNormalizer.js';
-
-let loadedGeneratedManifest = null;
-let loadedImageMapManifest = null;
-
-async function ensureManifestsLoaded() {
-  if (loadedGeneratedManifest && loadedImageMapManifest) return;
-  try {
-    const [gen, map] = await Promise.all([
-      import('../data/materialImageManifest.generated.js').catch(() => ({ imageManifest: [] })),
-      import('../data/imageManifest.js').catch(() => ({ imageManifest: {} }))
-    ]);
-    loadedGeneratedManifest = gen.imageManifest || [];
-    loadedImageMapManifest = map.imageManifest || {};
-  } catch {
-    loadedGeneratedManifest = [];
-    loadedImageMapManifest = {};
-  }
-}
+import { imageManifest as mappedImageManifest } from '../data/imageManifest.js';
+import { imageManifest as generatedImageManifest } from '../data/materialImageManifest.generated.js';
 
 const SUPABASE_PUBLIC_URL_PREFIX = "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/";
 
@@ -30,17 +14,6 @@ export function normalizeProductImageUrl(rawUrl) {
   let str = rawUrl.trim();
   if (!str || str === 'null' || str === 'undefined' || str === '/images/no-image.svg' || str === '/images/deco_tile.png') {
     return '/images/no-image.svg';
-  }
-
-  // Handle URI encoded Korean characters safely
-  try {
-    while (str.includes('%')) {
-      const prev = str;
-      str = decodeURIComponent(str);
-      if (str === prev) break;
-    }
-  } catch {
-    // Keep original string if decoding fails
   }
 
   // Already a full HTTP/HTTPS URL
@@ -58,16 +31,46 @@ export function normalizeProductImageUrl(rawUrl) {
   return `${SUPABASE_PUBLIC_URL_PREFIX}${cleanPath}`;
 }
 
-/**
- * Unified resolver for obtaining the primary display image URL for any product object.
- * Inspects all DB field variants (image_url, thumbnail_url, image, imageUrl, etc.)
- * and fallbacks to manifest code/name lookup.
- */
-export function getProductImageUrl(product) {
-  if (!product) return '/images/no-image.svg';
+const normalizeCode = (code) => {
+  if (!code) return '';
+  return String(code).replace(/[^a-zA-Z0-9가-힣]/g, '').toUpperCase();
+};
 
-  // 1. Check all direct database field candidates
-  const dbCandidates = [
+/**
+ * Returns an ordered list of candidate image URLs for any product object.
+ * Candidate priority:
+ * 1. Mapped hash entry in imageManifest.js (Supabase Storage URL)
+ * 2. Direct DB image fields (image_url, thumbnail_url, main_image_url, etc.)
+ * 3. Generated manifest lookup in materialImageManifest.generated.js
+ * 4. Default placeholder
+ */
+export function getProductImageCandidates(product) {
+  if (!product) return ['/images/no-image.svg'];
+
+  const candidates = [];
+
+  const code = product.code || product.product_code || product.name || '';
+  const cleanCode = normalizeCode(code);
+  const cleanName = normalizeCode(product.name);
+  const cleanSlug = normalizeCode(product.slug);
+
+  // 1. Mapped Manifest Hash (imageManifest.js) - Highest Priority for verified storage assets
+  const lookupKeys = [code, cleanCode, product.name, cleanName, product.slug, cleanSlug].filter(Boolean);
+  for (const k of lookupKeys) {
+    const entry = mappedImageManifest[k];
+    if (entry) {
+      const hashes = Array.isArray(entry) ? entry : [entry.thumbnail || entry.images?.[0] || entry.cover];
+      for (const hash of hashes) {
+        if (hash && typeof hash === 'string') {
+          const fullUrl = hash.startsWith('http') ? hash : `${SUPABASE_PUBLIC_URL_PREFIX}${hash.replace(/^materials\//, '')}`;
+          if (!candidates.includes(fullUrl)) candidates.push(fullUrl);
+        }
+      }
+    }
+  }
+
+  // 2. Direct DB fields
+  const dbFields = [
     product.image_url,
     product.thumbnail_url,
     product.main_image_url,
@@ -75,61 +78,55 @@ export function getProductImageUrl(product) {
     product.imageUrl,
     product.imagePath,
     product.thumbnail,
-    product.thumbnailUrl,
     product.product_image,
     Array.isArray(product.images) && product.images.length > 0 ? product.images[0] : null,
     Array.isArray(product.galleryImages) && product.galleryImages.length > 0 ? product.galleryImages[0] : null,
     Array.isArray(product.detailImages) && product.detailImages.length > 0 ? product.detailImages[0] : null
   ].filter(Boolean);
 
-  for (const candidate of dbCandidates) {
+  for (const candidate of dbFields) {
     const candidateStr = String(candidate).trim();
     if (candidateStr && !candidateStr.includes('no-image.svg') && !candidateStr.includes('placeholder')) {
       const normalized = normalizeProductImageUrl(candidateStr);
-      if (normalized !== '/images/no-image.svg') {
-        return normalized;
+      if (normalized !== '/images/no-image.svg' && !candidates.includes(normalized)) {
+        candidates.push(normalized);
       }
     }
   }
 
-  // 2. Manifest Lookup Fallback by Code & Name (Synchronous if already loaded)
-  const code = product.code || product.product_code || '';
-  const name = product.name || '';
-
-  const cleanCode = code ? String(code).replace(/[^a-zA-Z0-9가-힣]/g, '').toUpperCase() : '';
-  const cleanName = name ? String(name).replace(/[^a-zA-Z0-9가-힣]/g, '').toUpperCase() : '';
-
-  if (!loadedImageMapManifest || !loadedGeneratedManifest) {
-    // Trigger lazy loading for future lookups
-    ensureManifestsLoaded();
-    return '/images/no-image.svg';
-  }
-
-  // Lookup in static imageManifestMap (imageManifest.js)
-  if (cleanCode && loadedImageMapManifest[cleanCode]) {
-    const entry = loadedImageMapManifest[cleanCode];
-    const rawMatch = Array.isArray(entry) ? entry[0] : (entry.images?.[0] || entry.thumbnail || entry.cover);
-    if (rawMatch) return normalizeProductImageUrl(rawMatch);
-  }
-
-  // Lookup in generated manifest (materialImageManifest.generated.js)
-  if (loadedGeneratedManifest && loadedGeneratedManifest.length > 0) {
-    const matched = loadedGeneratedManifest.find(img => {
-      const imgCode = img.extractedCode ? String(img.extractedCode).replace(/[^a-zA-Z0-9가-힣]/g, '').toUpperCase() : '';
+  // 3. Generated manifest lookup (materialImageManifest.generated.js)
+  if (cleanCode || cleanName) {
+    const genMatch = generatedImageManifest.find(img => {
+      const imgCode = normalizeCode(img.extractedCode);
       if (cleanCode && imgCode === cleanCode) return true;
       if (cleanName && img.fileName) {
-        const cleanFileName = String(img.fileName).replace(/[^a-zA-Z0-9가-힣]/g, '').toUpperCase();
-        return cleanFileName.includes(cleanName) || cleanName.includes(cleanFileName);
+        const cleanFileName = normalizeCode(img.fileName.slice(0, img.fileName.lastIndexOf('.')));
+        return cleanFileName === cleanName || cleanFileName.includes(cleanName);
       }
       return false;
     });
 
-    if (matched && matched.fullPublicPath) {
-      return normalizeProductImageUrl(matched.fullPublicPath);
+    if (genMatch && genMatch.fullPublicPath) {
+      const normalized = normalizeProductImageUrl(genMatch.fullPublicPath);
+      if (normalized !== '/images/no-image.svg' && !candidates.includes(normalized)) {
+        candidates.push(normalized);
+      }
     }
   }
 
-  return '/images/no-image.svg';
+  if (candidates.length === 0) {
+    candidates.push('/images/no-image.svg');
+  }
+
+  return candidates;
+}
+
+/**
+ * Unified resolver for obtaining the primary display image URL for any product object.
+ */
+export function getProductImageUrl(product) {
+  const candidates = getProductImageCandidates(product);
+  return candidates[0] || '/images/no-image.svg';
 }
 
 /**
@@ -138,23 +135,22 @@ export function getProductImageUrl(product) {
 export function getAllProductImages(product) {
   if (!product) return [];
 
-  const candidates = [];
+  const candidates = getProductImageCandidates(product);
 
-  // Direct main image
-  const main = getProductImageUrl(product);
-  if (main && main !== '/images/no-image.svg') {
-    candidates.push(main);
-  }
-
-  // Additional gallery arrays
   const arrayFields = [product.images, product.galleryImages, product.detailImages, product.installationImages];
   for (const arr of arrayFields) {
     if (Array.isArray(arr)) {
       arr.forEach(item => {
-        if (item) candidates.push(normalizeProductImageUrl(item));
+        if (item) {
+          const normalized = normalizeProductImageUrl(item);
+          if (normalized !== '/images/no-image.svg' && !candidates.includes(normalized)) {
+            candidates.push(normalized);
+          }
+        }
       });
     }
   }
 
   return getUniqueProductImages(candidates);
 }
+

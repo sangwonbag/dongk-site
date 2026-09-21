@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { ShoppingCart } from 'lucide-react';
 import { useNavigate, Link } from 'react-router-dom';
 import { useEstimateCart } from '../../contexts/EstimateCartContext';
 import { useAuth } from '../../contexts/AuthContext';
 import { getThumbnailImage } from '../../utils/galleryUtils';
 import { getMaterialImagePath } from '../../utils/materialImageResolver';
-import { getProductImageUrl } from '../../utils/productImageResolver';
+import { getProductImageUrl, getProductImageCandidates } from '../../utils/productImageResolver';
 import { getComputedBrand, getNormalizedThickness, formatFlooringProductName, formatProductTitle, getProductUnit, formatShapeOrPattern } from '../../utils/brandUtils';
 import { isDecoTile } from '../../utils/decotileUtils';
 import { Skeleton, ImagePlaceholder, ProductImage } from '../ui';
@@ -36,7 +36,8 @@ const MaterialCard = ({ material, priority = false }) => {
     
     const [qty, setQty] = useState(1);
 
-    const [coverUrl, setCoverUrl] = useState(() => getProductImageUrl(material));
+    const imageCandidates = useMemo(() => getProductImageCandidates(material), [material]);
+    const coverUrl = imageCandidates[0] || "/images/no-image.svg";
 
     const hasOptions = material.sizeOptions && material.sizeOptions.length >= 2;
     const [selectedOption, setSelectedOption] = useState(() => {
@@ -62,10 +63,6 @@ const MaterialCard = ({ material, priority = false }) => {
         if (!material) return "";
         return formatProductTitle(material);
     })();
-
-    useEffect(() => {
-        setCoverUrl(getProductImageUrl(material));
-    }, [material]);
 
     const parsePrice = (priceVal) => {
         if (priceVal === undefined || priceVal === null) return null;
@@ -217,6 +214,7 @@ const MaterialCard = ({ material, priority = false }) => {
             <Link to={`/materials/${material.id}`} className="card-thumb" onClick={handleGoDetail}>
                 <ProductImage
                     src={coverUrl}
+                    candidates={imageCandidates}
                     alt={displayName || material.code}
                     className="material-thumb"
                     priority={priority}

@@ -2,12 +2,18 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { getCurrentUser, logout } from "../../lib/auth";
+import { getCustomerEstimates } from "../../services/estimateInquiryService";
+import CustomerEstimateView from "./CustomerEstimateView";
 import SEO from "../../components/seo/SEO";
+import { FileText, ChevronRight, X, Clock, CheckCircle2 } from "lucide-react";
 import "./MyPage.css";
 
 export default function MyPage() {
     const nav = useNavigate();
     const [user, setUser] = useState(null);
+    const [estimates, setEstimates] = useState([]);
+    const [loadingEst, setLoadingEst] = useState(true);
+    const [selectedEstimate, setSelectedEstimate] = useState(null);
 
     useEffect(() => {
         const currentUser = getCurrentUser();
@@ -16,9 +22,21 @@ export default function MyPage() {
             nav("/login");
             return;
         }
-        // eslint-disable-next-line react-hooks/set-state-in-effect
         setUser(currentUser);
+        fetchUserEstimates(currentUser);
     }, [nav]);
+
+    const fetchUserEstimates = async (currentUser) => {
+        setLoadingEst(true);
+        try {
+            const data = await getCustomerEstimates(currentUser);
+            setEstimates(data || []);
+        } catch (err) {
+            console.error(err);
+        } finally {
+            setLoadingEst(false);
+        }
+    };
 
     const handleLogout = () => {
         logout();
@@ -72,16 +90,84 @@ export default function MyPage() {
                         </div>
                     </section>
 
-                    {/* Estimate History Placeholder */}
+                    {/* Customer Estimate Inquiry List Section */}
                     <section className="mypage-section">
-                        <h2 className="section-title">견적요청 내역</h2>
-                        <div className="empty-state">
-                            <div className="empty-icon">📄</div>
-                            <p>견적요청 내역은 준비 중입니다.</p>
+                        <div className="section-title-row">
+                            <h2 className="section-title">내 시공 상담 및 견적 확인</h2>
+                            <span className="count-badge">{estimates.length}건</span>
                         </div>
+
+                        {loadingEst ? (
+                            <div className="mypage-loading-sm">시공 견적 내역을 불러오는 중...</div>
+                        ) : estimates.length === 0 ? (
+                            <div className="empty-state">
+                                <div className="empty-icon"><FileText size={32} /></div>
+                                <p>접수된 시공 상담 및 견적 내역이 없습니다.</p>
+                                <button className="btn-go-estimate mt-2" onClick={() => nav('/estimate/request')}>
+                                    시공 상담 신청하기
+                                </button>
+                            </div>
+                        ) : (
+                            <div className="mypage-estimate-list">
+                                {estimates.map(item => {
+                                    const firstItem = item.selected_items && item.selected_items.length > 0 ? item.selected_items[0] : null;
+                                    const matName = firstItem ? (firstItem.product_name || firstItem.name) : '선택 자재';
+                                    const displayTotal = item.final_amount && Number(item.final_amount) > 0 ? Number(item.final_amount) : (item.total || 0);
+
+                                    return (
+                                        <div key={item.id} className="mypage-estimate-card" onClick={() => setSelectedEstimate(item)}>
+                                            <div className="card-top font-mono">
+                                                <span>접수일: {new Date(item.created_at).toLocaleDateString('ko-KR')}</span>
+                                                <span className="est-no">[{item.estimate_no || item.id.substring(0, 8)}]</span>
+                                            </div>
+                                            <div className="card-mid">
+                                                <strong className="mat-title">{matName} {item.selected_items?.length > 1 ? `외 ${item.selected_items.length - 1}건` : ''}</strong>
+                                                <div className="badge-wrap">
+                                                    {item.customer_response === 'approved' ? (
+                                                        <span className="badge-status badge-approved"><CheckCircle2 size={12} /> 진행 요청 완료</span>
+                                                    ) : item.customer_response === 'on_hold' ? (
+                                                        <span className="badge-status badge-hold">고객 보류</span>
+                                                    ) : (
+                                                        <span className="badge-status badge-ready">{item.status || '상담 진행 중'}</span>
+                                                    )}
+                                                </div>
+                                            </div>
+                                            <div className="card-bot">
+                                                <div className="location-text">현장: {item.site_address || '주소 미입력'} ({item.area_pyeong ? `${item.area_pyeong}평` : '-'})</div>
+                                                <div className="amount-text font-mono">
+                                                    {displayTotal > 0 ? `${displayTotal.toLocaleString()}원` : '견적 산정 중'}
+                                                    <ChevronRight size={16} />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    );
+                                })}
+                            </div>
+                        )}
                     </section>
                 </div>
             </div>
+
+            {/* Customer Quote Detail Modal */}
+            {selectedEstimate && (
+                <div className="customer-modal-overlay" onClick={() => setSelectedEstimate(null)}>
+                    <div className="customer-modal-content" onClick={e => e.stopPropagation()}>
+                        <div className="customer-modal-header">
+                            <h2>시공 견적 상세서</h2>
+                            <button className="btn-modal-close" onClick={() => setSelectedEstimate(null)}>
+                                <X size={20} />
+                            </button>
+                        </div>
+                        <div className="customer-modal-body">
+                            <CustomerEstimateView
+                                estimateData={selectedEstimate}
+                                isModal={true}
+                                onClose={() => setSelectedEstimate(null)}
+                            />
+                        </div>
+                    </div>
+                </div>
+            )}
         </MainLayout>
     );
 }
