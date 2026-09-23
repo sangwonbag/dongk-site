@@ -3,11 +3,11 @@ import { useNavigate } from 'react-router-dom';
 import MainLayout from '../../components/layout/MainLayout';
 import { supabase } from '../../lib/supabaseClient';
 import { fetchAllProducts, clearProductCache } from '../../utils/supabaseFetcher';
-import { getProductImageUrl } from '../../utils/productImageResolver';
+import { getProductImageUrl, getProductImageCandidates } from '../../utils/productImageResolver';
 import { useAuth } from '../../contexts/AuthContext';
 import { 
   ArrowLeft, Plus, Search, Edit2, Trash2, Save, X, Upload, 
-  Eye, EyeOff, Star, StarOff, Image as ImageIcon, Loader2, RefreshCw
+  Eye, EyeOff, Star, StarOff, Image as ImageIcon, Loader2, RefreshCw, AlertTriangle, CheckCircle
 } from 'lucide-react';
 import { LoadingSpinner, EmptyState } from '../../components/ui';
 import './AdminProducts.css';
@@ -28,6 +28,8 @@ export default function AdminProducts() {
   const [selectedCategoryName, setSelectedCategoryName] = useState('전체');
   const [selectedBrandName, setSelectedBrandName] = useState('전체');
   const [statusFilter, setStatusFilter] = useState('all'); // all, active, hidden, featured
+  const [imageStatusFilter, setImageStatusFilter] = useState('all'); // all, ok, missing, broken
+  const [failedImageIds, setFailedImageIds] = useState(new Set());
   const [visibleCount, setVisibleCount] = useState(50);
 
   // Form Modal States
@@ -35,6 +37,7 @@ export default function AdminProducts() {
   const [editingProduct, setEditingProduct] = useState(null);
   const [submitting, setSubmitting] = useState(false);
   const [uploading, setUploading] = useState(false);
+  const [previewImageError, setPreviewImageError] = useState(false);
 
   // Form Fields
   const [name, setName] = useState('');
@@ -47,6 +50,20 @@ export default function AdminProducts() {
   const [isFeatured, setIsFeatured] = useState(false);
   const [sortOrder, setSortOrder] = useState(0);
   const [imageUrl, setImageUrl] = useState('');
+
+  // Helper: calculate synchronous image status for a product
+  const calcImageStatus = (p) => {
+    if (!p) return 'missing';
+    if (failedImageIds.has(p.id)) return 'broken';
+    const rawDbImage = p.image_url || p.thumbnail_url || p.image || p.thumbnail;
+    const hasDbImage = Boolean(rawDbImage && rawDbImage !== '/images/no-image.svg');
+    const resolved = getProductImageUrl(p);
+
+    if (!resolved || resolved === '/images/no-image.svg') {
+      return hasDbImage ? 'broken' : 'missing';
+    }
+    return 'ok';
+  };
 
   // Fetch metadata
   const fetchMetadata = async () => {
@@ -112,7 +129,7 @@ export default function AdminProducts() {
   // Reset page pagination on filter changes
   useEffect(() => {
     setVisibleCount(50);
-  }, [searchTerm, selectedCategoryName, selectedBrandName, statusFilter]);
+  }, [searchTerm, selectedCategoryName, selectedBrandName, statusFilter, imageStatusFilter]);
 
   // Dynamically filter brand options in form
   const formAvailableBrands = useMemo(() => {
@@ -153,9 +170,17 @@ export default function AdminProducts() {
       else if (statusFilter === 'hidden') matchStatus = !p.is_active;
       else if (statusFilter === 'featured') matchStatus = p.is_featured;
 
-      return matchSearch && matchCategory && matchBrand && matchStatus;
+      let matchImageStatus = true;
+      if (imageStatusFilter !== 'all') {
+        const imgStatus = calcImageStatus(p);
+        if (imageStatusFilter === 'ok') matchImageStatus = (imgStatus === 'ok');
+        else if (imageStatusFilter === 'missing') matchImageStatus = (imgStatus === 'missing');
+        else if (imageStatusFilter === 'broken') matchImageStatus = (imgStatus === 'broken');
+      }
+
+      return matchSearch && matchCategory && matchBrand && matchStatus && matchImageStatus;
     });
-  }, [products, searchTerm, selectedCategoryName, selectedBrandName, statusFilter]);
+  }, [products, searchTerm, selectedCategoryName, selectedBrandName, statusFilter, imageStatusFilter, failedImageIds]);
 
   // Available brands in the filters toolbar
   const filterToolbarBrands = useMemo(() => {
@@ -237,11 +262,24 @@ export default function AdminProducts() {
         .getPublicUrl(filePath);
 
       setImageUrl(publicUrl);
+      setPreviewImageError(false);
     } catch (err) {
       alert('이미지 업로드 실패: ' + err.message);
     } finally {
       setUploading(false);
     }
+  };
+
+  const validateImageUrl = (url) => {
+    return new Promise((resolve) => {
+      if (!url || url === '/images/no-image.svg') return resolve(true);
+      if (url.startsWith('/')) return resolve(true);
+      const img = new Image();
+      const timer = setTimeout(() => resolve(false), 4000);
+      img.onload = () => { clearTimeout(timer); resolve(true); };
+      img.onerror = () => { clearTimeout(timer); resolve(false); };
+      img.src = url;
+    });
   };
 
   // Submit Handler
@@ -259,6 +297,19 @@ export default function AdminProducts() {
     setSubmitting(true);
     try {
       if (!supabase) throw new Error('Supabase client not initialized.');
+
+      if (imageUrl && imageUrl.trim() && imageUrl !== '/images/no-image.svg') {
+        const isImgValid = await validateImageUrl(imageUrl.trim());
+        if (!isImgValid) {
+          const proceed = window.confirm(
+            `[이미지 경로 경고]\n입력하신 이미지 URL을 불러올 수 없습니다 (404 또는 로드 오류).\n\n저장 경로:\n${imageUrl}\n\n그래도 저장하시겠습니까?`
+          );
+          if (!proceed) {
+            setSubmitting(false);
+            return;
+          }
+        }
+      }
 
       const brandObj = brands.find(b => b.id === parseInt(brandId));
       const cleanName = name.replace(/[^a-zA-Z0-9가-힣]/g, '-').toLowerCase();
@@ -357,6 +408,7 @@ export default function AdminProducts() {
     setIsFeatured(false);
     setSortOrder(0);
     setImageUrl('');
+    setPreviewImageError(false);
     if (categories.length > 0) setCategoryId(categories[0].id);
     setIsModalOpen(true);
   };
@@ -373,6 +425,7 @@ export default function AdminProducts() {
     setIsFeatured(p.is_featured ?? false);
     setSortOrder(p.sort_order || 0);
     setImageUrl(p.image_url || '');
+    setPreviewImageError(false);
     setIsModalOpen(true);
   };
 
@@ -421,10 +474,17 @@ export default function AdminProducts() {
             </select>
 
             <select value={statusFilter} onChange={e => setStatusFilter(e.target.value)}>
-              <option value="all">전체 상태</option>
+              <option value="all">전체 노출 상태</option>
               <option value="active">노출 중</option>
               <option value="hidden">숨김</option>
               <option value="featured">추천(베스트) 상품</option>
+            </select>
+
+            <select value={imageStatusFilter} onChange={e => setImageStatusFilter(e.target.value)}>
+              <option value="all">이미지 상태: 전체</option>
+              <option value="ok">정상</option>
+              <option value="missing">이미지 없음</option>
+              <option value="broken">이미지 경로 오류</option>
             </select>
           </div>
         </div>
@@ -438,26 +498,34 @@ export default function AdminProducts() {
           />
         ) : (
           <div className="admin-products-grid">
-            {filteredProducts.slice(0, visibleCount).map(p => (
-              <div key={p.id} className={`product-merchant-card ${p.is_active ? '' : 'disabled'}`}>
-                <div className="card-image-box">
-                  <img 
-                    src={getProductImageUrl(p)} 
-                    alt={p.name} 
-                    onError={e => {
-                      if (e.target.src !== "/images/no-image.svg") {
-                        e.target.onerror = null;
-                        e.target.src = "/images/no-image.svg";
-                      }
-                    }}
-                  />
-                  <div className="card-badge-layer">
-                    <span className={`badge-active ${p.is_active ? 'active' : 'hidden'}`}>
-                      {p.is_active ? '노출 중' : '숨김'}
-                    </span>
-                    {p.is_featured && <span className="badge-featured">베스트</span>}
+            {filteredProducts.slice(0, visibleCount).map(p => {
+              const imgStatus = calcImageStatus(p);
+              return (
+                <div key={p.id} className={`product-merchant-card ${p.is_active ? '' : 'disabled'}`}>
+                  <div className="card-image-box">
+                    <img 
+                      src={getProductImageUrl(p)} 
+                      alt={p.name} 
+                      onError={e => {
+                        if (e.target.src !== "/images/no-image.svg") {
+                          e.target.onerror = null;
+                          e.target.src = "/images/no-image.svg";
+                          setFailedImageIds(prev => new Set(prev).add(p.id));
+                        }
+                      }}
+                    />
+                    <div className="card-badge-layer">
+                      <div className="badge-group-left">
+                        <span className={`badge-active ${p.is_active ? 'active' : 'hidden'}`}>
+                          {p.is_active ? '노출 중' : '숨김'}
+                        </span>
+                        {imgStatus === 'ok' && <span className="badge-img-status ok">이미지 정상</span>}
+                        {imgStatus === 'broken' && <span className="badge-img-status broken">경로 오류</span>}
+                        {imgStatus === 'missing' && <span className="badge-img-status missing">이미지 누락</span>}
+                      </div>
+                      {p.is_featured && <span className="badge-featured">베스트</span>}
+                    </div>
                   </div>
-                </div>
                 
                 <div className="card-info-box">
                   <span className="info-brand-cat">[{p.brands?.name || '자재'}] {p.categories?.name}</span>
@@ -500,7 +568,8 @@ export default function AdminProducts() {
                   </div>
                 </div>
               </div>
-            ))}
+            );
+          })}
           </div>
         )}
 
@@ -610,7 +679,12 @@ export default function AdminProducts() {
                       <label>상품 대표 이미지 *</label>
                       <div className="preview-container">
                         {imageUrl ? (
-                          <img src={imageUrl} alt="상품 미리보기" />
+                          <img 
+                            src={imageUrl} 
+                            alt="상품 미리보기" 
+                            onError={() => setPreviewImageError(true)}
+                            onLoad={() => setPreviewImageError(false)}
+                          />
                         ) : (
                           <div className="empty-box">
                             <ImageIcon size={32} />
@@ -624,6 +698,23 @@ export default function AdminProducts() {
                           </div>
                         )}
                       </div>
+
+                      {imageUrl && imageUrl !== '/images/no-image.svg' ? (
+                        previewImageError ? (
+                          <div className="modal-preview-status-box broken">
+                            <span><AlertTriangle size={14} /> 이미지를 불러올 수 없습니다.</span>
+                            <span className="path-text">저장 경로: {imageUrl}</span>
+                          </div>
+                        ) : (
+                          <div className="modal-preview-status-box ok">
+                            <span><CheckCircle size={14} /> [상품 이미지] 이미지 정상</span>
+                          </div>
+                        )
+                      ) : (
+                        <div className="modal-preview-status-box missing">
+                          <span>ℹ️ 이미지 준비중 (등록된 이미지 없음)</span>
+                        </div>
+                      )}
 
                       <div className="uploader-actions">
                         <label className="btn-select-file">
@@ -640,7 +731,10 @@ export default function AdminProducts() {
                           type="text" 
                           placeholder="또는 이미지 URL 주소 붙여넣기" 
                           value={imageUrl} 
-                          onChange={e => setImageUrl(e.target.value)} 
+                          onChange={e => {
+                            setImageUrl(e.target.value);
+                            setPreviewImageError(false);
+                          }} 
                         />
                       </div>
                     </div>

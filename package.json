@@ -12,7 +12,7 @@
     "generate:image-manifest": "node scripts/generate-image-manifest.mjs",
     "lint": "eslint .",
     "preview": "vite preview",
-    "audit:images": "node scripts/audit-product-images.mjs",
+    "audit:images": "node scripts/auditProductImages.mjs",
     "upload:supabase": "node scripts/upload_thumbnails_supabase.cjs",
     "generate:materials": "node scripts/generateMaterials.js"
   },

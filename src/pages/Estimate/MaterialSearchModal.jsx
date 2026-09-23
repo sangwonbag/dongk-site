@@ -2,8 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import { X, Search, Loader2 } from 'lucide-react';
 import { useEstimateCart } from '../../contexts/EstimateCartContext';
 import { getComputedBrand } from '../../utils/brandUtils';
-import { getSupabaseImageUrl } from '../../utils/getSupabaseImageUrl';
 import { searchProductsServer, fetchBrands } from '../../utils/supabaseFetcher';
+import { getProductImageCandidates } from '../../utils/productImageResolver';
 import { ProductImage } from '../../components/ui';
 import './MaterialSearchModal.css';
 
@@ -120,13 +120,16 @@ export default function MaterialSearchModal({ onClose, defaultQuantity = 1 }) {
             {debouncedQuery && results.length === 0 && !loading ? (
               <div className="no-results">검색 결과가 없습니다.</div>
             ) : (
-              results.map(item => (
-                <div key={item.id} className="search-item-card">
-                  <ProductImage 
-                    src={getSupabaseImageUrl(item.thumbnail)} 
-                    alt={item.name} 
-                    className="search-item-thumb"
-                  />
+              results.map(item => {
+                const candidates = getProductImageCandidates(item);
+                return (
+                  <div key={item.id} className="search-item-card">
+                    <ProductImage 
+                      src={candidates[0]} 
+                      candidates={candidates}
+                      alt={item.name || item.code} 
+                      className="search-item-thumb"
+                    />
                   <div className="search-item-info">
                     <div className="search-item-meta">
                       {item.brand === '동화' || item.brand === '구정' 
@@ -141,7 +144,8 @@ export default function MaterialSearchModal({ onClose, defaultQuantity = 1 }) {
                     담기
                   </button>
                 </div>
-              ))
+                );
+              })
             )}
             {!debouncedQuery && !loading && (
               <div className="search-guide">검색어를 입력하시면 상품이 나타납니다.</div>

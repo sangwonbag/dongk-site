@@ -710,6 +710,86 @@ form {
   background-color: var(--primary);
 }
 
+/* Badge layer adjustments */
+.card-badge-layer .badge-group-left {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+/* Image status badges */
+.badge-img-status {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 4px 8px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.badge-img-status.ok {
+  background-color: #10b981;
+  color: #ffffff;
+}
+
+.badge-img-status.missing {
+  background-color: #6b7280;
+  color: #ffffff;
+}
+
+.badge-img-status.broken {
+  background-color: #ef4444;
+  color: #ffffff;
+}
+
+/* Enhanced Preview status box in edit modal */
+.modal-preview-status-box {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: left;
+}
+
+.modal-preview-status-box span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.modal-preview-status-box.ok {
+  background-color: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  color: #15803d;
+}
+
+.modal-preview-status-box.broken {
+  background-color: #fef2f2;
+  border: 1px solid #fecdd3;
+  color: #be123c;
+}
+
+.modal-preview-status-box.missing {
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  color: #6b7280;
+}
+
+.modal-preview-status-box .path-text {
+  font-size: 0.75rem;
+  font-family: monospace;
+  word-break: break-all;
+  color: #9f1239;
+  font-weight: 400;
+}
+
 @media (max-width: 768px) {
   .admin-products-toolbar {
     flex-direction: column;

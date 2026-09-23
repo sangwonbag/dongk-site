@@ -12,7 +12,7 @@ export default defineConfig({
           if (id.includes('src/data/generatedMaterials') || id.includes('src/data/materials.db')) {
             return 'fallback-materials-db';
           }
-          if (id.includes('src/data/materialImageManifest') || id.includes('src/generated/imageManifest')) {
+          if (id.includes('src/data/materialImageManifest') || id.includes('src/generated/imageManifest') || id.includes('src/data/imageManifest')) {
             return 'fallback-image-manifest';
           }
           if (id.includes('node_modules')) {

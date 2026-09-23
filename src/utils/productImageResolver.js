@@ -1,6 +1,28 @@
 import { getUniqueProductImages } from './galleryNormalizer.js';
-import { imageManifest as mappedImageManifest } from '../data/imageManifest.js';
-import { imageManifest as generatedImageManifest } from '../data/materialImageManifest.generated.js';
+
+let mappedImageManifestCache = null;
+let generatedImageManifestCache = null;
+let manifestPromise = null;
+
+/**
+ * Lazy loads image manifests only when a product lacks a valid direct DB image URL.
+ */
+export async function ensureManifestsLoaded() {
+  if (mappedImageManifestCache && generatedImageManifestCache) {
+    return { mapped: mappedImageManifestCache, generated: generatedImageManifestCache };
+  }
+  if (!manifestPromise) {
+    manifestPromise = Promise.all([
+      import('../data/imageManifest.js').then(m => m.imageManifest || {}).catch(() => ({})),
+      import('../data/materialImageManifest.generated.js').then(m => m.imageManifest || []).catch(() => ([]))
+    ]).then(([mapped, generated]) => {
+      mappedImageManifestCache = mapped;
+      generatedImageManifestCache = generated;
+      return { mapped, generated };
+    });
+  }
+  return manifestPromise;
+}
 
 const SUPABASE_PUBLIC_URL_PREFIX = "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/";
 
@@ -21,55 +43,74 @@ export function normalizeProductImageUrl(rawUrl) {
     return str;
   }
 
-  // Already an absolute local path (e.g. /images/...)
+  // Supabase Storage paths embedded with /images/ prefix (e.g. /images/Thumbnail_Image/... or /images/materials/...)
+  if (str.startsWith('/images/Thumbnail_Image/') || str.startsWith('/images/materials/')) {
+    const cleanPath = str.replace(/^\/images\//, '');
+    return `${SUPABASE_PUBLIC_URL_PREFIX}${cleanPath}`;
+  }
+
+  if (str.startsWith('Thumbnail_Image/') || str.startsWith('materials/')) {
+    const cleanPath = str.replace(/^materials\//, '');
+    return `${SUPABASE_PUBLIC_URL_PREFIX}${cleanPath}`;
+  }
+
+  // Local/relative paths
   if (str.startsWith('/')) {
+    if (str.includes('Thumbnail_Image') || str.includes('데코타일') || str.includes('장판') || str.includes('마루') || str.includes('벽지') || str.includes('KCC')) {
+      const cleanPath = str.replace(/^\/images\//, '').replace(/^\//, '');
+      return `${SUPABASE_PUBLIC_URL_PREFIX}${cleanPath}`;
+    }
     return str;
   }
 
-  // Relative Supabase storage path (e.g. materials/decotile/kcc/123.jpg or decotile/kcc/123.jpg)
   const cleanPath = str.replace(/^materials\//, '');
   return `${SUPABASE_PUBLIC_URL_PREFIX}${cleanPath}`;
 }
 
-const normalizeCode = (code) => {
+export function cleanProductCode(rawCode) {
+  if (!rawCode) return '';
+  return String(rawCode)
+    .replace(/\s*\(\d+(\.\d+)?T\)/gi, '')
+    .replace(/\s*\|\s*/g, ' ')
+    .trim();
+}
+
+export function normalizeCode(code) {
   if (!code) return '';
   return String(code).replace(/[^a-zA-Z0-9가-힣]/g, '').toUpperCase();
-};
+}
 
 /**
  * Returns an ordered list of candidate image URLs for any product object.
  * Candidate priority:
- * 1. Mapped hash entry in imageManifest.js (Supabase Storage URL)
- * 2. Direct DB image fields (image_url, thumbnail_url, main_image_url, etc.)
+ * 1. Direct DB image fields (image_url, thumbnail_url, main_image_url, etc.)
+ * 2. Mapped hash entry in imageManifest.js (Supabase Storage URL)
  * 3. Generated manifest lookup in materialImageManifest.generated.js
- * 4. Default placeholder
+ * 4. Sibling code matchers (e.g. 5.0T Sense Lay <-> 3.0T Sense Tile)
+ * 5. Default placeholder
  */
 export function getProductImageCandidates(product) {
   if (!product) return ['/images/no-image.svg'];
 
   const candidates = [];
 
-  const code = product.code || product.product_code || product.name || '';
-  const cleanCode = normalizeCode(code);
-  const cleanName = normalizeCode(product.name);
-  const cleanSlug = normalizeCode(product.slug);
+  const rawCode = product.code || product.product_code || '';
+  const rawName = product.name || '';
+  const cleanedCode = cleanProductCode(rawCode);
+  const cleanedName = cleanProductCode(rawName);
 
-  // 1. Mapped Manifest Hash (imageManifest.js) - Highest Priority for verified storage assets
-  const lookupKeys = [code, cleanCode, product.name, cleanName, product.slug, cleanSlug].filter(Boolean);
-  for (const k of lookupKeys) {
-    const entry = mappedImageManifest[k];
-    if (entry) {
-      const hashes = Array.isArray(entry) ? entry : [entry.thumbnail || entry.images?.[0] || entry.cover];
-      for (const hash of hashes) {
-        if (hash && typeof hash === 'string') {
-          const fullUrl = hash.startsWith('http') ? hash : `${SUPABASE_PUBLIC_URL_PREFIX}${hash.replace(/^materials\//, '')}`;
-          if (!candidates.includes(fullUrl)) candidates.push(fullUrl);
-        }
-      }
+  const codeNorm = normalizeCode(cleanedCode);
+  const nameNorm = normalizeCode(cleanedName);
+
+  const addCandidate = (url) => {
+    if (!url) return;
+    const norm = normalizeProductImageUrl(url);
+    if (norm && norm !== '/images/no-image.svg' && !candidates.includes(norm)) {
+      candidates.push(norm);
     }
-  }
+  };
 
-  // 2. Direct DB fields
+  // 1. Direct DB fields (Highest Priority for server data accuracy)
   const dbFields = [
     product.image_url,
     product.thumbnail_url,
@@ -82,34 +123,66 @@ export function getProductImageCandidates(product) {
     Array.isArray(product.images) && product.images.length > 0 ? product.images[0] : null,
     Array.isArray(product.galleryImages) && product.galleryImages.length > 0 ? product.galleryImages[0] : null,
     Array.isArray(product.detailImages) && product.detailImages.length > 0 ? product.detailImages[0] : null
-  ].filter(Boolean);
+  ];
 
-  for (const candidate of dbFields) {
-    const candidateStr = String(candidate).trim();
-    if (candidateStr && !candidateStr.includes('no-image.svg') && !candidateStr.includes('placeholder')) {
-      const normalized = normalizeProductImageUrl(candidateStr);
-      if (normalized !== '/images/no-image.svg' && !candidates.includes(normalized)) {
-        candidates.push(normalized);
+  for (const field of dbFields) {
+    if (field) addCandidate(String(field));
+  }
+
+  // Trigger background manifest loading if not already cached
+  const mappedManifest = mappedImageManifestCache;
+  const generatedManifest = generatedImageManifestCache;
+  if (!mappedManifest || !generatedManifest) {
+    ensureManifestsLoaded().catch(() => {});
+  }
+
+  // 2. Mapped Manifest Hash (imageManifest.js) if loaded
+  if (mappedManifest) {
+    const lookupKeys = [
+      rawCode, cleanedCode, codeNorm,
+      rawName, cleanedName, nameNorm,
+      product.slug, normalizeCode(product.slug)
+    ].filter(Boolean);
+
+    for (const k of lookupKeys) {
+      const entry = mappedManifest[k];
+      if (entry) {
+        const hashes = Array.isArray(entry) ? entry : [entry.thumbnail || entry.images?.[0] || entry.cover];
+        for (const hash of hashes) {
+          if (hash && typeof hash === 'string') {
+            const fullUrl = hash.startsWith('http') ? hash : `${SUPABASE_PUBLIC_URL_PREFIX}${hash.replace(/^materials\//, '')}`;
+            addCandidate(fullUrl);
+          }
+        }
       }
     }
   }
 
-  // 3. Generated manifest lookup (materialImageManifest.generated.js)
-  if (cleanCode || cleanName) {
-    const genMatch = generatedImageManifest.find(img => {
+  // 3. Generated manifest lookup (materialImageManifest.generated.js) if loaded
+  if (generatedManifest && (codeNorm || nameNorm)) {
+    const genMatch = generatedManifest.find(img => {
       const imgCode = normalizeCode(img.extractedCode);
-      if (cleanCode && imgCode === cleanCode) return true;
-      if (cleanName && img.fileName) {
+      if (codeNorm && imgCode === codeNorm) return true;
+      if (nameNorm && img.fileName) {
         const cleanFileName = normalizeCode(img.fileName.slice(0, img.fileName.lastIndexOf('.')));
-        return cleanFileName === cleanName || cleanFileName.includes(cleanName);
+        return cleanFileName === nameNorm || cleanFileName.includes(nameNorm);
       }
       return false;
     });
 
     if (genMatch && genMatch.fullPublicPath) {
-      const normalized = normalizeProductImageUrl(genMatch.fullPublicPath);
-      if (normalized !== '/images/no-image.svg' && !candidates.includes(normalized)) {
-        candidates.push(normalized);
+      addCandidate(genMatch.fullPublicPath);
+    }
+  }
+
+  // 4. Code / Name sibling fallback attempt (e.g., B3192J <-> 33192P, B3183J <-> 33183P)
+  if (mappedManifest && codeNorm.startsWith('B') && codeNorm.endsWith('J')) {
+    const siblingCode = '3' + codeNorm.slice(1, -1) + 'P';
+    const siblingEntry = mappedManifest[siblingCode];
+    if (siblingEntry) {
+      const hashes = Array.isArray(siblingEntry) ? siblingEntry : [siblingEntry.thumbnail || siblingEntry.images?.[0]];
+      for (const hash of hashes) {
+        if (hash) addCandidate(hash.startsWith('http') ? hash : `${SUPABASE_PUBLIC_URL_PREFIX}${hash.replace(/^materials\//, '')}`);
       }
     }
   }
@@ -153,4 +226,5 @@ export function getAllProductImages(product) {
 
   return getUniqueProductImages(candidates);
 }
+
 

@@ -1,4 +1,4 @@
-import { resolveProductImages, resolveProductCardImage } from "./materialImageResolver";
+import { resolveProductImages, resolveProductCardImage } from "./materialImageResolver.js";
 
 export const SUPABASE_PUBLIC_URL_PREFIX = "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/";
 

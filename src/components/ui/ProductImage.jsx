@@ -32,22 +32,27 @@ export default function ProductImage({
   // Build ordered list of candidate URLs
   const urlsList = useMemo(() => {
     const list = [];
-    if (Array.isArray(candidates) && candidates.length > 0) {
-      list.push(...candidates);
-    } else if (Array.isArray(src) && src.length > 0) {
-      list.push(...src);
-    } else if (typeof src === "string" && src.trim()) {
+    if (typeof src === "string" && src.trim() && !isInvalidSrc(src)) {
       list.push(src.trim());
+    } else if (Array.isArray(src)) {
+      src.forEach(item => {
+        if (item && typeof item === "string" && !isInvalidSrc(item)) {
+          const trimmed = item.trim();
+          if (!list.includes(trimmed)) list.push(trimmed);
+        }
+      });
     }
 
-    return list
-      .map(item => {
-        if (!item || typeof item !== "string") return null;
-        let str = item.trim();
-        if (isInvalidSrc(str)) return null;
-        return str;
-      })
-      .filter(Boolean);
+    if (Array.isArray(candidates) && candidates.length > 0) {
+      candidates.forEach(item => {
+        if (item && typeof item === "string" && !isInvalidSrc(item)) {
+          const trimmed = item.trim();
+          if (!list.includes(trimmed)) list.push(trimmed);
+        }
+      });
+    }
+
+    return list;
   }, [src, candidates]);
 
   useEffect(() => {

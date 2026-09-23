@@ -6,24 +6,25 @@ import AuthModal from "../components/auth/AuthModal";
 import LazyErrorBoundary from "../components/ui/LazyErrorBoundary";
 import MaterialsPageSkeleton from "../pages/Materials/MaterialsPageSkeleton";
 import AdminRoute from "../components/auth/AdminRoute";
-// Customer-facing pages: Pure static imports to guarantee 0% dynamic chunk load failures
+// Customer-facing pages: Core routes statically imported, secondary routes lazy loaded
 import Home from "../pages/Home/Home";
-import SampleBooks from "../pages/Samplebooks/SampleBooks";
 import Materials from "../pages/Materials/Materials";
 import MaterialDetail from "../pages/MaterialDetail/MaterialDetail";
-import Cases from "../pages/Cases/Cases";
 import Cart from "../pages/Cart/Cart";
 import Checkout from "../pages/Cart/Checkout";
-import OrderComplete from "../pages/Cart/OrderComplete";
-import OrderHistory from "../pages/Cart/OrderHistory";
 import EstimateRequest from "../pages/Estimate/EstimateRequest";
 import Login from "../pages/Login/Login";
-import Signup from "../pages/Signup/Signup";
-import LoginCallback from "../pages/Login/LoginCallback";
-import MyPage from "../pages/MyPage/MyPage";
-import CustomerEstimateView from "../pages/MyPage/CustomerEstimateView";
-import PrivacyPolicy from "../pages/PrivacyPolicy/PrivacyPolicy";
-import TermsOfService from "../pages/TermsOfService/TermsOfService";
+
+const SampleBooks = React.lazy(() => import("../pages/Samplebooks/SampleBooks"));
+const Cases = React.lazy(() => import("../pages/Cases/Cases"));
+const OrderComplete = React.lazy(() => import("../pages/Cart/OrderComplete"));
+const OrderHistory = React.lazy(() => import("../pages/Cart/OrderHistory"));
+const Signup = React.lazy(() => import("../pages/Signup/Signup"));
+const LoginCallback = React.lazy(() => import("../pages/Login/LoginCallback"));
+const MyPage = React.lazy(() => import("../pages/MyPage/MyPage"));
+const CustomerEstimateView = React.lazy(() => import("../pages/MyPage/CustomerEstimateView"));
+const PrivacyPolicy = React.lazy(() => import("../pages/PrivacyPolicy/PrivacyPolicy"));
+const TermsOfService = React.lazy(() => import("../pages/TermsOfService/TermsOfService"));
 
 // Admin & back-office pages: Standard React.lazy without custom wrappers/retry/timeout logic
 const Inquiries = React.lazy(() => import("../pages/Admin/Inquiries"));

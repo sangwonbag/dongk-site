@@ -12,7 +12,8 @@ import {
   ShieldCheck,
   CheckCircle,
   HelpCircle,
-  AlertTriangle
+  AlertTriangle,
+  Calculator
 } from "lucide-react";
 import MainLayout from "../../components/layout/MainLayout";
 import { ProductImage } from "../../components/ui";
@@ -592,6 +593,7 @@ export default function MaterialDetail() {
   const [showCartModal, setShowCartModal] = useState(false);
 
   const [selectedOption, setSelectedOption] = useState(null);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   useEffect(() => {
     if (item && item.sizeOptions && item.sizeOptions.length > 0) {
@@ -728,12 +730,15 @@ export default function MaterialDetail() {
           // Fallback to local materials data if Supabase returned no product or had an error
           try {
             const localMaterials = await getLocalMaterialsData();
-            const localItem = localMaterials.find(m => 
-              m.id === decodedParam || 
-              m.code === decodedParam || 
-              m.slug === decodedParam ||
-              (m.code && m.code.toLowerCase() === decodedParam.toLowerCase())
-            );
+            const normParam = String(decodedParam).replace(/[^a-zA-Z0-9가-힣]/g, '').toLowerCase();
+            const localItem = localMaterials.find(m => {
+              if (!m) return false;
+              if (String(m.id) === String(decodedParam) || m.code === decodedParam || m.slug === decodedParam) return true;
+              if (m.code && m.code.toLowerCase() === decodedParam.toLowerCase()) return true;
+              const normCode = String(m.code || '').replace(/[^a-zA-Z0-9가-힣]/g, '').toLowerCase();
+              if (normCode && normParam.endsWith(normCode)) return true;
+              return false;
+            });
             if (localItem) {
               return { localItem, source: 'local', localMaterials };
             }
@@ -881,6 +886,7 @@ export default function MaterialDetail() {
 
     async function loadImages() {
       try {
+        await getLocalImageManifestData();
         const detailStr = await getDetailImage(item);
         const thumbStr = await getThumbnailImage(item);
         const galleryObjs = await getValidGalleryImages(item);
@@ -1420,9 +1426,12 @@ export default function MaterialDetail() {
       const folder = getEagonImageFolder(item.line);
       let lineImages = [];
       if (folder) {
-        lineImages = imageManifest
+        const manifestList = cachedImageManifest || [];
+        lineImages = manifestList
           .filter(img => 
+            img &&
             img.brand === '이건' && 
+            img.series &&
             img.series.replace(/\\/g, '/').replace(/\s+/g, '').toLowerCase() === folder.replace(/\s+/g, '').toLowerCase() &&
             img.fullPublicPath !== mainImage
           )

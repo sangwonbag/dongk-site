@@ -1,4 +1,14 @@
-import { imageManifest } from "../data/imageManifest";
+let imageManifestCache = null;
+async function getImageManifest() {
+    if (imageManifestCache) return imageManifestCache;
+    try {
+        const mod = await import("../data/imageManifest");
+        imageManifestCache = mod.imageManifest || {};
+    } catch {
+        imageManifestCache = {};
+    }
+    return imageManifestCache;
+}
 
 /**
  * 샘플북 커버 이미지를 자동 매칭하는 유틸리티
@@ -41,17 +51,21 @@ export const getAutoMatchedCover = (book) => {
     if (!book) return null;
     if (book.cover) return safeEncodeURI(book.cover);
 
-    // 1. Manifest에서 ID 또는 제목으로 매칭 시도
-    const keys = [book.id, book.title, book.name].filter(Boolean).map(normalize);
-    for (const key of keys) {
-        const entry = imageManifest[key];
-        if (entry) {
-            const path = entry.thumbnail || entry.cover;
-            if (path) {
-                if (path.startsWith('http') || path.startsWith('/')) return safeEncodeURI(path);
-                return `https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/${path}`;
+    // 1. Manifest에서 ID 또는 제목으로 매칭 시도 (캐시된 경우 사용)
+    if (imageManifestCache) {
+        const keys = [book.id, book.title, book.name].filter(Boolean).map(normalize);
+        for (const key of keys) {
+            const entry = imageManifestCache[key];
+            if (entry) {
+                const path = entry.thumbnail || entry.cover;
+                if (path) {
+                    if (path.startsWith('http') || path.startsWith('/')) return safeEncodeURI(path);
+                    return `https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/${path}`;
+                }
             }
         }
+    } else {
+        getImageManifest().catch(() => {});
     }
 
     // 2. 두께 패턴 (x.xT) 기반 매칭 (레거시/폴백)
