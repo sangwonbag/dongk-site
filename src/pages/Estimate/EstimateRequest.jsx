@@ -27,7 +27,7 @@ export default function EstimateRequest() {
   const location = useLocation();
   const [searchParams, setSearchParams] = useSearchParams();
   const { cartItems, updateQuantity, syncAutomaticQuantities, removeFromCart, clearCart } = useEstimateCart();
-  const { user: currentUser, openLoginModal } = useAuth();
+  const { user: currentUser, loading: authLoading, openLoginModal } = useAuth();
   
   const [activeViewTab, setActiveViewTab] = useState('calc'); // 'calc' | 'inquiry'
   const [step, setStep] = useState(1);
@@ -523,6 +523,70 @@ export default function EstimateRequest() {
       setIsSubmitting(false);
     }
   };
+
+  // 0. Auth Gate: Require login for entire automated estimate calculator
+  if (authLoading) {
+    return (
+      <MainLayout>
+        <SEO title="자동견적 | 동경바닥재" noindex={true} />
+        <div className="estimate-loading-container" style={{ textAlign: 'center', padding: '100px 20px', minHeight: '60vh' }}>
+          <p style={{ fontSize: '15px', color: '#64748b' }}>인증 정보를 확인 중입니다...</p>
+        </div>
+      </MainLayout>
+    );
+  }
+
+  if (!currentUser) {
+    return (
+      <MainLayout>
+        <SEO 
+          title="자동견적 | 동경바닥재 - 회원 로그인 필요"
+          description="동경바닥재 자동견적 서비스를 이용하시려면 로그인이 필요합니다."
+          canonical="https://dkfloor.co.kr/estimate/request"
+        />
+        <div className="estimate-login-required-container">
+          <div className="estimate-login-card">
+            <div className="login-card-icon">
+              <Calculator size={48} className="icon-calculator-gold" />
+            </div>
+            
+            <h1 className="login-card-title">로그인이 필요한 서비스입니다</h1>
+            
+            <p className="login-card-desc">
+              자동견적 계산 및 견적 상담은<br />
+              동경바닥재 회원 로그인 후 이용할 수 있습니다.
+            </p>
+            
+            <div className="login-card-actions">
+              <button 
+                type="button"
+                className="btn-estimate-login" 
+                onClick={handleGoToLogin}
+              >
+                로그인하기
+              </button>
+            </div>
+            
+            <div className="login-card-footer">
+              <p>
+                아직 동경바닥재 회원이 아니신가요?{" "}
+                <button 
+                  type="button"
+                  className="btn-link-signup"
+                  onClick={() => {
+                    const currentPath = location.pathname + location.search;
+                    navigate(`/signup?redirect=${encodeURIComponent(currentPath)}`);
+                  }}
+                >
+                  회원가입
+                </button>
+              </p>
+            </div>
+          </div>
+        </div>
+      </MainLayout>
+    );
+  }
 
   if (submitSuccess) {
     return (

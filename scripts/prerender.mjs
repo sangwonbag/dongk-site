@@ -181,6 +181,69 @@ async function runPrerender() {
       `
     },
     {
+      route: '/guide',
+      outPath: path.join(distDir, 'guide', 'index.html'),
+      title: '어떤 바닥재가 맞을까요? | 바닥재 가이드 | 동경바닥재',
+      description: '집, 상가, 사무실 등 공간과 예산에 맞는 바닥재(장판, 데코타일, 강마루)를 비교하고 실제 판매 제품과 예상 견적까지 확인해 보세요.',
+      canonical: `${BASE_URL}/guide`
+    },
+    {
+      route: '/guide/flooring-types',
+      outPath: path.join(distDir, 'guide', 'flooring-types', 'index.html'),
+      title: '바닥재 종류 완벽 비교 가이드 | 장판·데코타일·마루 특징 | 동경바닥재',
+      description: '장판, 데코타일, 강마루, 강화마루, 원목마루의 소재별 특징, 시공 방식, 열전도율, 내구성 차이를 전문가 기준으로 한눈에 정리했습니다.',
+      canonical: `${BASE_URL}/guide/flooring-types`
+    },
+    {
+      route: '/guide/vinyl-vs-decotile',
+      outPath: path.join(distDir, 'guide', 'vinyl-vs-decotile', 'index.html'),
+      title: '장판 vs 데코타일 차이 완벽 비교표 | 동경바닥재 가이드',
+      description: '장판과 데코타일 중 우리 집에 무엇이 맞을까? 내구성, 물 수밀성, 시공비, 보수 용이성 9가지 비교표와 공간별 최적 추천을 확인하세요.',
+      canonical: `${BASE_URL}/guide/vinyl-vs-decotile`
+    },
+    {
+      route: '/guide/flooring-price',
+      outPath: path.join(distDir, 'guide', 'flooring-price', 'index.html'),
+      title: '바닥재 가격 계산 방식 및 평수 견적 산정 가이드 | 동경바닥재',
+      description: '바닥재 평당 자재비부터 시공 인건비, 부자재(본드/마감재), 철거비 계산 법을 정리했습니다. 실시간 자동견적 계산기를 바로 이용해보세요.',
+      canonical: `${BASE_URL}/guide/flooring-price`
+    },
+    {
+      route: '/guide/apartment-flooring',
+      outPath: path.join(distDir, 'guide', 'apartment-flooring', 'index.html'),
+      title: '아파트 바닥재 추천 가이드 | 장판 vs 마루 선택 기준 | 동경바닥재',
+      description: '아파트 주거 환경에 가장 적합한 2.2T~4.5T 장판과 강마루를 비교하고, 층간소음 완화 및 온돌 난방 효율을 높이는 바닥재를 추천합니다.',
+      canonical: `${BASE_URL}/guide/apartment-flooring`
+    },
+    {
+      route: '/guide/commercial-flooring',
+      outPath: path.join(distDir, 'guide', 'commercial-flooring', 'index.html'),
+      title: '상가·사무실 바닥재 추천 | 데코타일 3.0T 시공 가이드 | 동경바닥재',
+      description: '사무실, 카페, 매장, 병원 상가에 필수적인 데코타일 3.0T의 내구성, 스톤/우드 패턴, 낱개 보수 장점과 견적 가이드를 제공합니다.',
+      canonical: `${BASE_URL}/guide/commercial-flooring`
+    },
+    {
+      route: '/guide/pet-flooring',
+      outPath: path.join(distDir, 'guide', 'pet-flooring', 'index.html'),
+      title: '반려동물이 있는 집 바닥재 추천 | 슬개골 방지 장판 | 동경바닥재',
+      description: '반려견 발톱 긁힘 방지, 슬개골 탈구 예방 논슬립 엠보, 배변 실수도 손쉽게 닦아내는 친환경 고두께 장판 가이드입니다.',
+      canonical: `${BASE_URL}/guide/pet-flooring`
+    },
+    {
+      route: '/guide/vinyl-thickness',
+      outPath: path.join(distDir, 'guide', 'vinyl-thickness', 'index.html'),
+      title: '장판 두께 선택 가이드 (1.8T~5.0T 차이와 추천) | 동경바닥재',
+      description: '장판 두께 1.8T, 2.2T, 3.2T, 4.5T, 5.0T의 용도별 차이와 가격 대비 성능, 쿠션감, 층간 생활소음 완화 정도를 비교해 드립니다.',
+      canonical: `${BASE_URL}/guide/vinyl-thickness`
+    },
+    {
+      route: '/guide/decotile-quantity',
+      outPath: path.join(distDir, 'guide', 'decotile-quantity', 'index.html'),
+      title: '데코타일 수량 계산기 | 평수 대비 필요 박스 수 계산 | 동경바닥재',
+      description: '데코타일 1박스 면적(1평=3.31㎡) 기준, 재단 로스율(5~10%)을 고려한 정확한 데코타일 박스 수 수량 계산 공식과 실시간 계산기를 제공합니다.',
+      canonical: `${BASE_URL}/guide/decotile-quantity`
+    },
+    {
       route: '/privacy-policy',
       outPath: path.join(distDir, 'privacy-policy', 'index.html'),
       title: '개인정보 처리방침 | 동경바닥재',

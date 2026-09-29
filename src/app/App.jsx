@@ -17,6 +17,8 @@ import Login from "../pages/Login/Login";
 
 const SampleBooks = React.lazy(() => import("../pages/Samplebooks/SampleBooks"));
 const Cases = React.lazy(() => import("../pages/Cases/Cases"));
+const GuideMain = React.lazy(() => import("../pages/Guide/GuideMain"));
+const GuideDetail = React.lazy(() => import("../pages/Guide/GuideDetail"));
 const OrderComplete = React.lazy(() => import("../pages/Cart/OrderComplete"));
 const OrderHistory = React.lazy(() => import("../pages/Cart/OrderHistory"));
 const Signup = React.lazy(() => import("../pages/Signup/Signup"));
@@ -107,6 +109,8 @@ export default function App() {
             <Route path="/quote" element={<EstimateRequest />} />
             <Route path="/company" element={<Home />} />
             <Route path="/cases" element={<Cases />} />
+            <Route path="/guide" element={<GuideMain />} />
+            <Route path="/guide/:slug" element={<GuideDetail />} />
             <Route path="/customer-center" element={<Home />} />
             <Route path="/login" element={<Login />} />
             <Route path="/login-callback" element={<LoginCallback />} />

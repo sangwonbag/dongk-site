@@ -362,6 +362,15 @@ export default function Header() {
             </Link>
 
             <Link 
+              to="/guide"
+              className={`menu-link ${location.pathname.startsWith('/guide') ? 'active' : ''}`} 
+              onMouseEnter={() => preloadRoute('/guide')}
+              onTouchStart={() => preloadRoute('/guide')}
+            >
+              바닥재 가이드
+            </Link>
+
+            <Link 
               to="/estimate/request"
               className={`menu-link ${location.pathname === '/estimate/request' || location.pathname === '/estimate' ? 'active' : ''}`} 
               onMouseEnter={() => preloadRoute('/estimate')}
@@ -502,6 +511,7 @@ export default function Header() {
             자재찾기
           </span>
           <span className="drawer-link" onClick={() => { nav("/samplebooks"); setMobileMenuOpen(false); }}>샘플북</span>
+          <span className="drawer-link" onClick={() => { nav("/guide"); setMobileMenuOpen(false); }}>바닥재 가이드</span>
           <span className="drawer-link" onClick={() => { nav("/cases"); setMobileMenuOpen(false); }}>시공사례</span>
           <span className="drawer-link" onClick={() => { handleEstimateNav(); setMobileMenuOpen(false); }}>자동견적</span>
         </div>

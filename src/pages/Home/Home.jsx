@@ -288,6 +288,51 @@ export default function Home() {
           </section>
         </LazySection>
 
+        {/* ================= 4. FLOORING GUIDE SECTION ================= */}
+        <LazySection minHeight="320px">
+          <section className="onestop-guide-section" style={{ padding: "64px 0", background: "#f8fafc", borderTop: "1px solid #e2e8f0", borderBottom: "1px solid #e2e8f0" }}>
+            <div className="container">
+              <div className="section-header-block center" style={{ textAlign: "center", marginBottom: "36px" }}>
+                <span style={{ color: "#c99c47", fontSize: "13px", fontWeight: "700", letterSpacing: "1px", display: "inline-block", marginBottom: "8px" }}>FLOORING SELECTION GUIDE</span>
+                <h2 style={{ fontSize: "26px", fontWeight: "800", color: "#111827" }}>어떤 바닥재를 선택해야 할지 고민되시나요?</h2>
+                <p style={{ color: "#6b7280", fontSize: "15px", marginTop: "8px" }}>장판, 데코타일, 마루의 차이를 비교하고 우리 공간에 가장 잘 맞는 바닥재를 찾아보세요.</p>
+              </div>
+
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: "20px", marginBottom: "32px" }}>
+                <Link to="/guide/flooring-types" style={{ background: "#fff", padding: "24px", borderRadius: "16px", border: "1px solid #e5e7eb", textDecoration: "none", color: "inherit", transition: "transform 0.2s, border-color 0.2s" }}>
+                  <div style={{ fontSize: "13px", fontWeight: "700", color: "#c99c47", marginBottom: "6px" }}>소재별 비교</div>
+                  <h3 style={{ fontSize: "18px", fontWeight: "700", marginBottom: "8px", color: "#111827" }}>바닥재 종류 알아보기</h3>
+                  <p style={{ fontSize: "13.5px", color: "#6b7280", lineHeight: "1.5" }}>장판, 데코타일, 강마루, 강화마루, 원목마루의 장단점 총정리</p>
+                </Link>
+
+                <Link to="/guide/flooring-price" style={{ background: "#fff", padding: "24px", borderRadius: "16px", border: "1px solid #e5e7eb", textDecoration: "none", color: "inherit", transition: "transform 0.2s, border-color 0.2s" }}>
+                  <div style={{ fontSize: "13px", fontWeight: "700", color: "#c99c47", marginBottom: "6px" }}>견적 요소</div>
+                  <h3 style={{ fontSize: "18px", fontWeight: "700", marginBottom: "8px", color: "#111827" }}>가격 산정 방식</h3>
+                  <p style={{ fontSize: "13.5px", color: "#6b7280", lineHeight: "1.5" }}>자재비, 필요 수량, 시공비, 부자재, 철거비 합산 원리</p>
+                </Link>
+
+                <Link to="/guide/apartment-flooring" style={{ background: "#fff", padding: "24px", borderRadius: "16px", border: "1px solid #e5e7eb", textDecoration: "none", color: "inherit", transition: "transform 0.2s, border-color 0.2s" }}>
+                  <div style={{ fontSize: "13px", fontWeight: "700", color: "#c99c47", marginBottom: "6px" }}>맞춤 추천</div>
+                  <h3 style={{ fontSize: "18px", fontWeight: "700", marginBottom: "8px", color: "#111827" }}>공간별 바닥재 추천</h3>
+                  <p style={{ fontSize: "13.5px", color: "#6b7280", lineHeight: "1.5" }}>아파트, 상가, 사무실, 반려동물 가구 최적 바닥재</p>
+                </Link>
+
+                <Link to="/guide/vinyl-vs-decotile" style={{ background: "#fff", padding: "24px", borderRadius: "16px", border: "1px solid #e5e7eb", textDecoration: "none", color: "inherit", transition: "transform 0.2s, border-color 0.2s" }}>
+                  <div style={{ fontSize: "13px", fontWeight: "700", color: "#c99c47", marginBottom: "6px" }}>1위 비교</div>
+                  <h3 style={{ fontSize: "18px", fontWeight: "700", marginBottom: "8px", color: "#111827" }}>장판 vs 데코타일</h3>
+                  <p style={{ fontSize: "13.5px", color: "#6b7280", lineHeight: "1.5" }}>수밀성, 내구성, 보행감, 보수성 9가지 차이 정밀 비교표</p>
+                </Link>
+              </div>
+
+              <div style={{ textAlign: "center" }}>
+                <Link to="/guide" className="purpose-btn btn-gold" style={{ display: "inline-flex", alignItems: "center", gap: "8px", padding: "12px 28px", borderRadius: "9999px", fontWeight: "700" }}>
+                  바닥재 가이드 전체 보기 <ArrowRight size={16} />
+                </Link>
+              </div>
+            </div>
+          </section>
+        </LazySection>
+
         {/* ================= 4. MATERIALS CATEGORY AREA ================= */}
         <LazySection minHeight="420px">
           <section className="onestop-category-section">

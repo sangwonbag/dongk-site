@@ -257,8 +257,14 @@ const MaterialCard = ({ material, priority = false }) => {
                     <div className="card-meta">
                         <div className="card-meta-item">
                             <span className="meta-label">제품군</span>
-                            <span className="meta-value">{formatShapeOrPattern(material.line)}</span>
+                            <span className="meta-value">{material.line || "센스타일 트랜디"}</span>
                         </div>
+                        {material.shape && (
+                            <div className="card-meta-item">
+                                <span className="meta-label">형태</span>
+                                <span className="meta-value">{material.shape}</span>
+                            </div>
+                        )}
                         {material.pattern && (
                             <div className="card-meta-item">
                                 <span className="meta-label">패턴명</span>
@@ -270,6 +276,10 @@ const MaterialCard = ({ material, priority = false }) => {
                             <span className="meta-value">{material.code}</span>
                         </div>
                         <div className="card-meta-item">
+                            <span className="meta-label">두께</span>
+                            <span className="meta-value">{material.thickness || material.specs?.thickness || "3.0T"}</span>
+                        </div>
+                        <div className="card-meta-item">
                             <span className="meta-label">규격</span>
                             <span className="meta-value">{material.specs?.size || material.spec}</span>
                         </div>
@@ -277,12 +287,6 @@ const MaterialCard = ({ material, priority = false }) => {
                             <span className="meta-label">포장</span>
                             <span className="meta-value">{material.specs?.packing || material.package}</span>
                         </div>
-                        {material.specs?.area && (
-                            <div className="card-meta-item">
-                                <span className="meta-label">면적</span>
-                                <span className="meta-value">{material.specs.area} / BOX</span>
-                            </div>
-                        )}
                     </div>
                 ) : material.brand === '이건' && material.category === '마루' ? (
                     <div className="card-meta">

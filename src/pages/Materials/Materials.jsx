@@ -41,6 +41,12 @@ const getNormalizedLine = (m, activeTab, activeBrand) => {
     return m.line;
   }
   let line = m.line;
+  if (m.brand === "KCC" && m.category === "데코타일") {
+    if (line.includes("트랜디") || (m.name && m.name.includes("트랜디"))) return "센스타일 트랜디";
+    if (line.includes("프로") || (m.name && m.name.includes("프로"))) return "센스타일 프로";
+    if (line.includes("센스레이") || (m.name && m.name.includes("센스레이"))) return "센스레이 5.0";
+    return line;
+  }
   if (line.includes('_')) {
     const parts = line.split('_').map(p => p.trim());
     if (activeTab === "마루") {
@@ -51,7 +57,7 @@ const getNormalizedLine = (m, activeTab, activeBrand) => {
       line = colName;
     } else if (activeTab === "데코타일") {
       const b = activeBrand.toUpperCase();
-      if (b === "KCC" || b === "LX") {
+      if (b === "LX") {
         line = parts[1] || parts[0];
       } else {
         line = parts[0];
@@ -469,7 +475,7 @@ export default function Materials() {
 
       // Line check
       let lineOk = true;
-      if (activeLine !== "all" && visibleLines.length > 2) {
+      if (activeLine !== "all") {
         const line = activeTab === "마루" ? m.displayLine : getNormalizedLine(m, activeTab, activeBrand);
         if (activeTab === "마루" && m.brand === "구정" && m.series === "노블레스") {
           lineOk = (line === activeLine || (m.sizeOptions && m.sizeOptions.some(o => o.label === activeLine)));
@@ -518,6 +524,24 @@ export default function Materials() {
   const sortedProducts = useMemo(() => {
     return sortProducts(filtered, sortOption);
   }, [filtered, sortOption]);
+
+  const isFilteredSearch = useMemo(() => {
+    return activeLine !== "all" || activeShape !== "all" || activeThickness !== "all" || activeMaterialType !== "all" || !!nameFilter.trim() || !!codeFilter.trim() || !!specFilter.trim();
+  }, [activeLine, activeShape, activeThickness, activeMaterialType, nameFilter, codeFilter, specFilter]);
+
+  const displayTotalCount = useMemo(() => {
+    return isFilteredSearch ? sortedProducts.length : (totalCount || sortedProducts.length);
+  }, [isFilteredSearch, sortedProducts.length, totalCount]);
+
+  const visibleProducts = useMemo(() => {
+    return sortedProducts.slice(0, visibleCount);
+  }, [sortedProducts, visibleCount]);
+
+  const hasMoreItems = useMemo(() => {
+    if (visibleCount < sortedProducts.length) return true;
+    if (!isFilteredSearch) return hasMore;
+    return false;
+  }, [visibleCount, sortedProducts.length, isFilteredSearch, hasMore]);
 
   // Error View
   if (error) {
@@ -761,8 +785,8 @@ export default function Materials() {
               </div>
             </div>
 
-            {/* Lineup Filter (Dynamic - Shows only when multiple lines are loaded) */}
-            {!loading && visibleLines.length > 2 && (
+            {/* Lineup Filter */}
+            {!loading && visibleLines.length > 1 && (
               <div className="materials-lineup-filter">
                 {visibleLines.map((lineName) => (
                   <button
@@ -776,6 +800,22 @@ export default function Materials() {
               </div>
             )}
 
+            {/* Shape Filter (For KCC Decotiles: 전체 / 우드 / 450각 / 600각) */}
+            {!loading && activeTab === "데코타일" && activeBrand === "KCC" && visibleShapes.length > 1 && (
+              <div className="materials-lineup-filter shape-filter-group" style={{ marginTop: '10px' }}>
+                <span style={{ fontSize: '13px', fontWeight: '600', color: '#6b7280', alignSelf: 'center', marginRight: '6px' }}>형태:</span>
+                {visibleShapes.map((shapeName) => (
+                  <button
+                    key={shapeName}
+                    className={`material-type-chip ${activeShape === shapeName ? "active" : ""}`}
+                    onClick={() => setActiveShape(shapeName)}
+                  >
+                    {shapeName === "all" ? "전체 형태" : shapeName}
+                  </button>
+                ))}
+              </div>
+            )}
+
             {/* Products Grid & Display Wrapper */}
             <div className="materials-product-grid">
               <div className="results-header">
@@ -784,7 +824,7 @@ export default function Materials() {
                     <span>자재 정보를 불러오는 중입니다...</span>
                   ) : (
                     <span>
-                      총 <strong>{totalCount || sortedProducts.length}</strong>개 상품
+                      총 <strong>{displayTotalCount}</strong>개 상품
                     </span>
                   )}
                 </div>
@@ -825,22 +865,28 @@ export default function Materials() {
                     </div>
                   ))}
                 </div>
-              ) : sortedProducts.length > 0 ? (
+              ) : visibleProducts.length > 0 ? (
                 <>
                   <div className="materials-grid">
-                    {sortedProducts.map((m, idx) => (
+                    {visibleProducts.map((m, idx) => (
                       <MaterialCard key={m.id || `product-${idx}`} material={m} priority={idx < 8} />
                     ))}
                   </div>
                   
-                  {hasMore && (
+                  {hasMoreItems && (
                     <div className="load-more-container">
                       <button 
                         className="load-more-btn" 
-                        onClick={handleLoadMore}
+                        onClick={() => {
+                          if (visibleCount < sortedProducts.length) {
+                            setVisibleCount(prev => prev + 24);
+                          } else if (hasMore) {
+                            handleLoadMore();
+                          }
+                        }}
                         disabled={loadingMore}
                       >
-                        {loadingMore ? "상품 추가 로딩 중..." : `더보기 (${sortedProducts.length} / ${totalCount || sortedProducts.length})`}
+                        {loadingMore ? "상품 추가 로딩 중..." : `더보기 (${visibleProducts.length} / ${displayTotalCount})`}
                       </button>
                     </div>
                   )}

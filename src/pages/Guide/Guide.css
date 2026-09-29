@@ -1,0 +1,611 @@
+/* 동경바닥재 - 바닥재 가이드 (Guide) 스타일시트 */
+
+.guide-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+  color: #1f2937;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Header & Intro */
+.guide-header {
+  text-align: center;
+  margin-bottom: 48px;
+  padding: 48px 24px;
+  background: linear-gradient(135deg, #111827 0%, #1e293b 100%);
+  border-radius: 20px;
+  color: #ffffff;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.guide-header-badge {
+  display: inline-block;
+  padding: 6px 14px;
+  background: rgba(201, 156, 71, 0.2);
+  border: 1px solid #c99c47;
+  color: #fbbf24;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 9999px;
+  margin-bottom: 16px;
+  letter-spacing: 0.5px;
+}
+
+.guide-header h1 {
+  font-size: 34px;
+  font-weight: 800;
+  margin-bottom: 14px;
+  color: #ffffff;
+  line-height: 1.3;
+}
+
+.guide-header p {
+  font-size: 16px;
+  color: #9ca3af;
+  max-width: 680px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Category Filter Tabs */
+.guide-category-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.guide-tab-btn {
+  padding: 10px 20px;
+  border-radius: 9999px;
+  border: 1px solid #e5e7eb;
+  background-color: #ffffff;
+  color: #4b5563;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.guide-tab-btn:hover {
+  border-color: #c99c47;
+  color: #c99c47;
+}
+
+.guide-tab-btn.active {
+  background-color: #111827;
+  color: #ffffff;
+  border-color: #111827;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Common */
+.guide-section {
+  margin-bottom: 64px;
+}
+
+.guide-section-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.guide-section-subtitle {
+  font-size: 15px;
+  color: #6b7280;
+  margin-bottom: 24px;
+}
+
+/* Grid Cards (Main Types & Spaces) */
+.guide-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 24px;
+}
+
+.guide-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  position: relative;
+  overflow: hidden;
+}
+
+.guide-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -6px rgba(0, 0, 0, 0.08);
+  border-color: #c99c47;
+}
+
+.guide-card-header {
+  margin-bottom: 16px;
+}
+
+.guide-card-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  background: #fef3c7;
+  color: #92400e;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.guide-card-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.guide-card-tagline {
+  font-size: 14px;
+  color: #4b5563;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.guide-card-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+}
+
+.guide-card-features li {
+  font-size: 13.5px;
+  color: #374151;
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.guide-card-features li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #c99c47;
+  font-weight: bold;
+}
+
+.guide-card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #111827;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.guide-card-link:hover {
+  color: #c99c47;
+}
+
+/* AI / GEO Direct Answer Box */
+.ai-summary-box {
+  background: #f8fafc;
+  border-left: 4px solid #c99c47;
+  border-radius: 0 12px 12px 0;
+  padding: 24px;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+}
+
+.ai-summary-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #c99c47;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.ai-summary-text {
+  font-size: 15.5px;
+  line-height: 1.7;
+  color: #1e293b;
+  font-weight: 500;
+}
+
+/* Breadcrumb */
+.guide-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13.5px;
+  color: #6b7280;
+  margin-bottom: 24px;
+}
+
+.guide-breadcrumb a {
+  color: #4b5563;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.guide-breadcrumb a:hover {
+  color: #c99c47;
+}
+
+/* Comparison Table UI */
+.guide-table-wrapper {
+  overflow-x: auto;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.guide-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 14px;
+}
+
+.guide-table th {
+  background: #111827;
+  color: #ffffff;
+  padding: 16px;
+  font-weight: 700;
+}
+
+.guide-table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #e5e7eb;
+  color: #374151;
+  vertical-align: middle;
+}
+
+.guide-table tr:nth-child(even) td {
+  background-color: #f9fafb;
+}
+
+.guide-table tr:hover td {
+  background-color: #f3f4f6;
+}
+
+/* Embedded Pyung / Quantity Calculator Widget */
+.guide-calc-widget {
+  background: #ffffff;
+  border: 2px solid #c99c47;
+  border-radius: 16px;
+  padding: 32px;
+  margin-bottom: 48px;
+  box-shadow: 0 8px 24px rgba(201, 156, 71, 0.1);
+}
+
+.guide-calc-header {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.guide-calc-desc {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 24px;
+}
+
+.guide-calc-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.guide-calc-field label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 6px;
+}
+
+.guide-calc-field input,
+.guide-calc-field select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+  color: #111827;
+  background: #ffffff;
+}
+
+.guide-calc-result {
+  background: #fdf8f0;
+  border: 1px solid #fde68a;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.guide-result-value {
+  font-size: 22px;
+  font-weight: 800;
+  color: #92400e;
+}
+
+.guide-calc-btn {
+  padding: 12px 24px;
+  background: #111827;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.guide-calc-btn:hover {
+  background: #c99c47;
+}
+
+/* Related Products Grid */
+.guide-products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+  margin-bottom: 48px;
+}
+
+.guide-product-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.guide-product-card:hover {
+  transform: translateY(-3px);
+  border-color: #c99c47;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.06);
+}
+
+.guide-product-img-box {
+  width: 100%;
+  height: 180px;
+  background: #f3f4f6;
+  position: relative;
+  overflow: hidden;
+}
+
+.guide-product-img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.guide-product-card:hover img {
+  transform: scale(1.04);
+}
+
+.guide-product-info {
+  padding: 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.guide-product-brand {
+  font-size: 12px;
+  color: #6b7280;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.guide-product-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 8px;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.guide-product-price {
+  font-size: 16px;
+  font-weight: 800;
+  color: #c99c47;
+}
+
+/* FAQ Accordion Component */
+.guide-faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 48px;
+}
+
+.guide-faq-item {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #ffffff;
+  overflow: hidden;
+  transition: border-color 0.2s;
+}
+
+.guide-faq-item:hover {
+  border-color: #c99c47;
+}
+
+.guide-faq-question {
+  padding: 20px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #111827;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+  background: #ffffff;
+}
+
+.guide-faq-toggle-icon {
+  font-size: 18px;
+  color: #9ca3af;
+  transition: transform 0.3s ease;
+}
+
+.guide-faq-item.open .guide-faq-toggle-icon {
+  transform: rotate(180deg);
+  color: #c99c47;
+}
+
+.guide-faq-answer {
+  padding: 0 24px 20px;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: #4b5563;
+  border-top: 1px solid #f3f4f6;
+  background: #fafafa;
+}
+
+.guide-faq-link {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: 700;
+  color: #c99c47;
+  text-decoration: none;
+}
+
+.guide-faq-link:hover {
+  text-decoration: underline;
+}
+
+/* CTA Banner */
+.guide-cta-banner {
+  background: linear-gradient(135deg, #111827 0%, #1f2937 100%);
+  border-radius: 20px;
+  padding: 48px 32px;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.guide-cta-banner h2 {
+  font-size: 26px;
+  font-weight: 800;
+  margin-bottom: 12px;
+
+}
+
+.guide-cta-banner p {
+  font-size: 15px;
+  color: #d1d5db;
+  max-width: 560px;
+  margin: 0 auto 28px;
+}
+
+.guide-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 32px;
+  background: #c99c47;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 16px;
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 14px rgba(201, 156, 71, 0.4);
+}
+
+.guide-cta-btn:hover {
+  background: #b58836;
+  transform: translateY(-2px);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .guide-container {
+    padding: 24px 16px 60px;
+  }
+
+  .guide-header {
+    padding: 32px 16px;
+    margin-bottom: 32px;
+    border-radius: 16px;
+  }
+
+  .guide-header h1 {
+    font-size: 24px;
+  }
+
+  .guide-header p {
+    font-size: 14px;
+  }
+
+  .guide-card-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .guide-card {
+    padding: 20px;
+  }
+
+  .guide-calc-widget {
+    padding: 20px;
+  }
+
+  .guide-calc-result {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .guide-faq-question {
+    padding: 16px;
+    font-size: 15px;
+  }
+
+  .guide-faq-answer {
+    padding: 0 16px 16px;
+    font-size: 14px;
+  }
+
+  .guide-cta-banner {
+    padding: 32px 20px;
+  }
+
+  .guide-cta-banner h2 {
+    font-size: 20px;
+  }
+}

@@ -2319,19 +2319,20 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 457.2 × 457.2mm",
-      "packing": "16pcs/box",
-      "area": "3.34㎡",
-      "adhesive": "데코타일 본드"
+      "size": "457.2 × 457.2mm",
+      "packing": "16pcs/box · 3.34㎡",
+      "area": "3.34㎡"
     },
     "description": "KCC_square",
     "product_code": "TS5502P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "우븐",
+    "pattern": "베이직 마블",
     "adhesive": "데코타일 본드",
     "crossInstallation": true,
-    "notice": "교차 시공 권장 제품 (직각 교차 패턴 시공 시 완성도 향상)"
+    "notice": "교차 시공 권장 제품 (직각 교차 패턴 시공 시 완성도 향상)",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16pcs/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5503p",
@@ -2352,19 +2353,20 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 457.2 × 457.2mm",
-      "packing": "16pcs/box",
-      "area": "3.34㎡",
-      "adhesive": "데코타일 본드"
+      "size": "457.2 × 457.2mm",
+      "packing": "16pcs/box · 3.34㎡",
+      "area": "3.34㎡"
     },
     "description": "KCC_square",
     "product_code": "TS5503P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "우븐",
+    "pattern": "베이직 마블",
     "adhesive": "데코타일 본드",
     "crossInstallation": true,
-    "notice": "교차 시공 권장 제품 (직각 교차 패턴 시공 시 완성도 향상)"
+    "notice": "교차 시공 권장 제품 (직각 교차 패턴 시공 시 완성도 향상)",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16pcs/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5510p",
@@ -2385,17 +2387,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 457.2 × 457.2mm",
-      "packing": "16pcs/box",
-      "area": "3.34㎡",
-      "adhesive": "데코타일 본드"
+      "size": "457.2 × 457.2mm",
+      "packing": "16pcs/box · 3.34㎡",
+      "area": "3.34㎡"
     },
     "description": "KCC_square",
     "product_code": "TS5510P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "카펫",
-    "adhesive": "데코타일 본드"
+    "pattern": "슬레이트",
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16pcs/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5511p",
@@ -2416,17 +2419,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 457.2 × 457.2mm",
-      "packing": "16pcs/box",
-      "area": "3.34㎡",
-      "adhesive": "데코타일 본드"
+      "size": "457.2 × 457.2mm",
+      "packing": "16pcs/box · 3.34㎡",
+      "area": "3.34㎡"
     },
     "description": "KCC_square",
     "product_code": "TS5511P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "카펫",
-    "adhesive": "데코타일 본드"
+    "pattern": "슬레이트",
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16pcs/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5516p",
@@ -2447,17 +2451,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 457.2 × 457.2mm",
-      "packing": "16pcs/box",
-      "area": "3.34㎡",
-      "adhesive": "데코타일 본드"
+      "size": "457.2 × 457.2mm",
+      "packing": "16pcs/box · 3.34㎡",
+      "area": "3.34㎡"
     },
     "description": "KCC_square",
     "product_code": "TS5516P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "마블",
-    "adhesive": "데코타일 본드"
+    "pattern": "그란데 마블",
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16pcs/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5518p",
@@ -2478,17 +2483,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 457.2 × 457.2mm",
-      "packing": "16pcs/box",
-      "area": "3.34㎡",
-      "adhesive": "데코타일 본드"
+      "size": "457.2 × 457.2mm",
+      "packing": "16pcs/box · 3.34㎡",
+      "area": "3.34㎡"
     },
     "description": "KCC_square",
     "product_code": "TS5518P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "콘크리트",
-    "adhesive": "데코타일 본드"
+    "pattern": "그란데 마블",
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16pcs/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5519p",
@@ -2509,17 +2515,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 457.2 × 457.2mm",
-      "packing": "16pcs/box",
-      "area": "3.34㎡",
-      "adhesive": "데코타일 본드"
+      "size": "457.2 × 457.2mm",
+      "packing": "16pcs/box · 3.34㎡",
+      "area": "3.34㎡"
     },
     "description": "KCC_square",
     "product_code": "TS5519P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "콘크리트",
-    "adhesive": "데코타일 본드"
+    "pattern": "그란데 마블",
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16pcs/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5531m",
@@ -2540,17 +2547,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 600 × 600mm",
-      "packing": "9pcs/box",
-      "area": "3.24㎡",
-      "adhesive": "데코타일 본드"
+      "size": "600 × 600mm",
+      "packing": "9pcs/box · 3.24㎡",
+      "area": "3.24㎡"
     },
     "description": "KCC_square",
     "product_code": "TS5531M",
     "product_name": "",
     "shape": "600각",
-    "pattern": "오닉스",
-    "adhesive": "데코타일 본드"
+    "pattern": "모던 샌드",
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9pcs/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5532m",
@@ -2571,17 +2579,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 600 × 600mm",
-      "packing": "9pcs/box",
-      "area": "3.24㎡",
-      "adhesive": "데코타일 본드"
+      "size": "600 × 600mm",
+      "packing": "9pcs/box · 3.24㎡",
+      "area": "3.24㎡"
     },
     "description": "KCC_square",
     "product_code": "TS5532M",
     "product_name": "",
     "shape": "600각",
-    "pattern": "파라디소",
-    "adhesive": "데코타일 본드"
+    "pattern": "모던 샌드",
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9pcs/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5533m",
@@ -2601,17 +2610,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 600 × 600mm",
-      "packing": "9pcs/box",
-      "area": "3.24㎡",
-      "adhesive": "데코타일 본드"
+      "size": "600 × 600mm",
+      "packing": "9pcs/box · 3.24㎡",
+      "area": "3.24㎡"
     },
     "description": "KCC_square",
     "product_code": "TS5533M",
     "product_name": "",
     "shape": "600각",
-    "pattern": "파라디소",
-    "adhesive": "데코타일 본드"
+    "pattern": "모던 샌드",
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9pcs/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5534m",
@@ -2632,17 +2642,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 600 × 600mm",
-      "packing": "9pcs/box",
-      "area": "3.24㎡",
-      "adhesive": "데코타일 본드"
+      "size": "600 × 600mm",
+      "packing": "9pcs/box · 3.24㎡",
+      "area": "3.24㎡"
     },
     "description": "KCC_square",
     "product_code": "TS5534M",
     "product_name": "",
     "shape": "600각",
-    "pattern": "파라디소",
-    "adhesive": "데코타일 본드"
+    "pattern": "모던 샌드",
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9pcs/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5535m",
@@ -2663,17 +2674,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 600 × 600mm",
-      "packing": "9pcs/box",
-      "area": "3.24㎡",
-      "adhesive": "데코타일 본드"
+      "size": "600 × 600mm",
+      "packing": "9pcs/box · 3.24㎡",
+      "area": "3.24㎡"
     },
     "description": "KCC_square",
     "product_code": "TS5535M",
     "product_name": "",
     "shape": "600각",
-    "pattern": "어반 콘크리트",
-    "adhesive": "데코타일 본드"
+    "pattern": "모던 샌드",
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9pcs/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5536m",
@@ -2693,17 +2705,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 600 × 600mm",
-      "packing": "9pcs/box",
-      "area": "3.24㎡",
-      "adhesive": "데코타일 본드"
+      "size": "600 × 600mm",
+      "packing": "9pcs/box · 3.24㎡",
+      "area": "3.24㎡"
     },
     "description": "KCC_square",
     "product_code": "TS5536M",
     "product_name": "",
     "shape": "600각",
-    "pattern": "어반 콘크리트",
-    "adhesive": "데코타일 본드"
+    "pattern": "모던 샌드",
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9pcs/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5537m",
@@ -2723,17 +2736,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 600 × 600mm",
-      "packing": "9pcs/box",
-      "area": "3.24㎡",
-      "adhesive": "데코타일 본드"
+      "size": "600 × 600mm",
+      "packing": "9pcs/box · 3.24㎡",
+      "area": "3.24㎡"
     },
     "description": "KCC_square",
     "product_code": "TS5537M",
     "product_name": "",
     "shape": "600각",
-    "pattern": "어반 콘크리트",
-    "adhesive": "데코타일 본드"
+    "pattern": "모던 샌드",
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9pcs/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5541p",
@@ -2753,17 +2767,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 457.2 × 457.2mm",
-      "packing": "16pcs/box",
-      "area": "3.34㎡",
-      "adhesive": "데코타일 본드"
+      "size": "457.2 × 457.2mm",
+      "packing": "16pcs/box · 3.34㎡",
+      "area": "3.34㎡"
     },
     "description": "KCC_square",
     "product_code": "TS5541P",
     "product_name": "",
     "shape": "450각",
     "pattern": "슬레이트",
-    "adhesive": "데코타일 본드"
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16pcs/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5542p",
@@ -2783,17 +2798,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 457.2 × 457.2mm",
-      "packing": "16pcs/box",
-      "area": "3.34㎡",
-      "adhesive": "데코타일 본드"
+      "size": "457.2 × 457.2mm",
+      "packing": "16pcs/box · 3.34㎡",
+      "area": "3.34㎡"
     },
     "description": "KCC_square",
     "product_code": "TS5542P",
     "product_name": "",
     "shape": "450각",
     "pattern": "슬레이트",
-    "adhesive": "데코타일 본드"
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16pcs/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5543p",
@@ -2814,17 +2830,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 457.2 × 457.2mm",
-      "packing": "16pcs/box",
-      "area": "3.34㎡",
-      "adhesive": "데코타일 본드"
+      "size": "457.2 × 457.2mm",
+      "packing": "16pcs/box · 3.34㎡",
+      "area": "3.34㎡"
     },
     "description": "KCC_square",
     "product_code": "TS5543P",
     "product_name": "",
     "shape": "450각",
     "pattern": "슬레이트",
-    "adhesive": "데코타일 본드"
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16pcs/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5544p",
@@ -2844,17 +2861,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 457.2 × 457.2mm",
-      "packing": "16pcs/box",
-      "area": "3.34㎡",
-      "adhesive": "데코타일 본드"
+      "size": "457.2 × 457.2mm",
+      "packing": "16pcs/box · 3.34㎡",
+      "area": "3.34㎡"
     },
     "description": "KCC_square",
     "product_code": "TS5544P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "슬레이트",
-    "adhesive": "데코타일 본드"
+    "pattern": "콘크리트",
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16pcs/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5545p",
@@ -2874,17 +2892,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 457.2 × 457.2mm",
-      "packing": "16pcs/box",
-      "area": "3.34㎡",
-      "adhesive": "데코타일 본드"
+      "size": "457.2 × 457.2mm",
+      "packing": "16pcs/box · 3.34㎡",
+      "area": "3.34㎡"
     },
     "description": "KCC_square",
     "product_code": "TS5545P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "테라죠",
-    "adhesive": "데코타일 본드"
+    "pattern": "콘크리트",
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16pcs/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5546p",
@@ -2904,17 +2923,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 457.2 × 457.2mm",
-      "packing": "16pcs/box",
-      "area": "3.34㎡",
-      "adhesive": "데코타일 본드"
+      "size": "457.2 × 457.2mm",
+      "packing": "16pcs/box · 3.34㎡",
+      "area": "3.34㎡"
     },
     "description": "KCC_square",
     "product_code": "TS5546P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "테라죠",
-    "adhesive": "데코타일 본드"
+    "pattern": "콘크리트",
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16pcs/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5547p",
@@ -2935,17 +2955,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 457.2 × 457.2mm",
-      "packing": "16pcs/box",
-      "area": "3.34㎡",
-      "adhesive": "데코타일 본드"
+      "size": "457.2 × 457.2mm",
+      "packing": "16pcs/box · 3.34㎡",
+      "area": "3.34㎡"
     },
     "description": "KCC_square",
     "product_code": "TS5547P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "비앙코",
-    "adhesive": "데코타일 본드"
+    "pattern": "콘크리트",
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16pcs/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5548p",
@@ -2965,17 +2986,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 457.2 × 457.2mm",
-      "packing": "16pcs/box",
-      "area": "3.34㎡",
-      "adhesive": "데코타일 본드"
+      "size": "457.2 × 457.2mm",
+      "packing": "16pcs/box · 3.34㎡",
+      "area": "3.34㎡"
     },
     "description": "KCC_square",
     "product_code": "TS5548P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "샌드스톤",
-    "adhesive": "데코타일 본드"
+    "pattern": "테라조",
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16pcs/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5549p",
@@ -2994,17 +3016,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 457.2 × 457.2mm",
-      "packing": "16pcs/box",
-      "area": "3.34㎡",
-      "adhesive": "데코타일 본드"
+      "size": "457.2 × 457.2mm",
+      "packing": "16pcs/box · 3.34㎡",
+      "area": "3.34㎡"
     },
     "description": "KCC_square",
     "product_code": "TS5549P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "샌드스톤",
-    "adhesive": "데코타일 본드"
+    "pattern": "테라조",
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16pcs/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5550p",
@@ -3025,17 +3048,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 457.2 × 457.2mm",
-      "packing": "16pcs/box",
-      "area": "3.34㎡",
-      "adhesive": "데코타일 본드"
+      "size": "457.2 × 457.2mm",
+      "packing": "16pcs/box · 3.34㎡",
+      "area": "3.34㎡"
     },
     "description": "KCC_square",
     "product_code": "TS5550P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "콘크리트",
-    "adhesive": "데코타일 본드"
+    "pattern": "테라조",
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16pcs/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5551p",
@@ -3056,17 +3080,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 457.2 × 457.2mm",
-      "packing": "16pcs/box",
-      "area": "3.34㎡",
-      "adhesive": "데코타일 본드"
+      "size": "457.2 × 457.2mm",
+      "packing": "16pcs/box · 3.34㎡",
+      "area": "3.34㎡"
     },
     "description": "KCC_square",
     "product_code": "TS5551P",
     "product_name": "",
     "shape": "450각",
     "pattern": "베이직 카펫",
-    "adhesive": "데코타일 본드"
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16pcs/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5552p",
@@ -3086,17 +3111,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 457.2 × 457.2mm",
-      "packing": "16pcs/box",
-      "area": "3.34㎡",
-      "adhesive": "데코타일 본드"
+      "size": "457.2 × 457.2mm",
+      "packing": "16pcs/box · 3.34㎡",
+      "area": "3.34㎡"
     },
     "description": "KCC_square",
     "product_code": "TS5552P",
     "product_name": "",
     "shape": "450각",
     "pattern": "베이직 카펫",
-    "adhesive": "데코타일 본드"
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16pcs/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5102g",
@@ -3116,17 +3142,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 184 × 950mm",
-      "packing": "19pcs/box",
-      "area": "3.32㎡",
-      "adhesive": "데코타일 본드"
+      "size": "184 × 950mm",
+      "packing": "19pcs/box · 3.32㎡",
+      "area": "3.32㎡"
     },
     "description": "KCC_wood",
     "product_code": "TW 5102G",
     "product_name": "",
     "shape": "우드",
-    "pattern": "파인",
-    "adhesive": "데코타일 본드"
+    "pattern": "오크",
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19pcs/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5103g",
@@ -3146,17 +3173,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 184 × 950mm",
-      "packing": "19pcs/box",
-      "area": "3.32㎡",
-      "adhesive": "데코타일 본드"
+      "size": "184 × 950mm",
+      "packing": "19pcs/box · 3.32㎡",
+      "area": "3.32㎡"
     },
     "description": "KCC_wood",
     "product_code": "TW 5103G",
     "product_name": "",
     "shape": "우드",
-    "pattern": "워시 오크",
-    "adhesive": "데코타일 본드"
+    "pattern": "오크",
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19pcs/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5104g",
@@ -3176,17 +3204,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 184 × 950mm",
-      "packing": "19pcs/box",
-      "area": "3.32㎡",
-      "adhesive": "데코타일 본드"
+      "size": "184 × 950mm",
+      "packing": "19pcs/box · 3.32㎡",
+      "area": "3.32㎡"
     },
     "description": "KCC_wood",
     "product_code": "TW 5104G",
     "product_name": "",
     "shape": "우드",
     "pattern": "오크",
-    "adhesive": "데코타일 본드"
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19pcs/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5105g",
@@ -3206,17 +3235,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 184 × 950mm",
-      "packing": "19pcs/box",
-      "area": "3.32㎡",
-      "adhesive": "데코타일 본드"
+      "size": "184 × 950mm",
+      "packing": "19pcs/box · 3.32㎡",
+      "area": "3.32㎡"
     },
     "description": "KCC_wood",
     "product_code": "TW 5105G",
     "product_name": "",
     "shape": "우드",
     "pattern": "오크",
-    "adhesive": "데코타일 본드"
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19pcs/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5106g",
@@ -3236,17 +3266,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 184 × 950mm",
-      "packing": "19pcs/box",
-      "area": "3.32㎡",
-      "adhesive": "데코타일 본드"
+      "size": "184 × 950mm",
+      "packing": "19pcs/box · 3.32㎡",
+      "area": "3.32㎡"
     },
     "description": "KCC_wood",
     "product_code": "TW 5106G",
     "product_name": "",
     "shape": "우드",
-    "pattern": "엘름",
-    "adhesive": "데코타일 본드"
+    "pattern": "오크",
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19pcs/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5107g",
@@ -3266,17 +3297,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 184 × 950mm",
-      "packing": "19pcs/box",
-      "area": "3.32㎡",
-      "adhesive": "데코타일 본드"
+      "size": "184 × 950mm",
+      "packing": "19pcs/box · 3.32㎡",
+      "area": "3.32㎡"
     },
     "description": "KCC_wood",
     "product_code": "TW 5107G",
     "product_name": "",
     "shape": "우드",
     "pattern": "오크",
-    "adhesive": "데코타일 본드"
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19pcs/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5108g",
@@ -3296,17 +3328,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 184 × 950mm",
-      "packing": "19pcs/box",
-      "area": "3.32㎡",
-      "adhesive": "데코타일 본드"
+      "size": "184 × 950mm",
+      "packing": "19pcs/box · 3.32㎡",
+      "area": "3.32㎡"
     },
     "description": "KCC_wood",
     "product_code": "TW 5108G",
     "product_name": "",
     "shape": "우드",
     "pattern": "오크",
-    "adhesive": "데코타일 본드"
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19pcs/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5109g",
@@ -3326,17 +3359,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 184 × 950mm",
-      "packing": "19pcs/box",
-      "area": "3.32㎡",
-      "adhesive": "데코타일 본드"
+      "size": "184 × 950mm",
+      "packing": "19pcs/box · 3.32㎡",
+      "area": "3.32㎡"
     },
     "description": "KCC_wood",
     "product_code": "TW 5109G",
     "product_name": "",
     "shape": "우드",
-    "pattern": "메이플",
-    "adhesive": "데코타일 본드"
+    "pattern": "오크",
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19pcs/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5110g",
@@ -3356,17 +3390,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 184 × 950mm",
-      "packing": "19pcs/box",
-      "area": "3.32㎡",
-      "adhesive": "데코타일 본드"
+      "size": "184 × 950mm",
+      "packing": "19pcs/box · 3.32㎡",
+      "area": "3.32㎡"
     },
     "description": "KCC_wood",
     "product_code": "TW 5110G",
     "product_name": "",
     "shape": "우드",
     "pattern": "오크",
-    "adhesive": "데코타일 본드"
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19pcs/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5111g",
@@ -3386,17 +3421,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 184 × 950mm",
-      "packing": "19pcs/box",
-      "area": "3.32㎡",
-      "adhesive": "데코타일 본드"
+      "size": "184 × 950mm",
+      "packing": "19pcs/box · 3.32㎡",
+      "area": "3.32㎡"
     },
     "description": "KCC_wood",
     "product_code": "TW 5111G",
     "product_name": "",
     "shape": "우드",
-    "pattern": "워시 오크",
-    "adhesive": "데코타일 본드"
+    "pattern": "오크",
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19pcs/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5112g",
@@ -3416,17 +3452,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 184 × 950mm",
-      "packing": "19pcs/box",
-      "area": "3.32㎡",
-      "adhesive": "데코타일 본드"
+      "size": "184 × 950mm",
+      "packing": "19pcs/box · 3.32㎡",
+      "area": "3.32㎡"
     },
     "description": "KCC_wood",
     "product_code": "TW 5112G",
     "product_name": "",
     "shape": "우드",
     "pattern": "오크",
-    "adhesive": "데코타일 본드"
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19pcs/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5119g",
@@ -3446,17 +3483,18 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 184 × 950mm",
-      "packing": "19pcs/box",
-      "area": "3.32㎡",
-      "adhesive": "데코타일 본드"
+      "size": "184 × 950mm",
+      "packing": "19pcs/box · 3.32㎡",
+      "area": "3.32㎡"
     },
     "description": "KCC_wood",
     "product_code": "TW 5119G",
     "product_name": "",
     "shape": "우드",
     "pattern": "오크",
-    "adhesive": "데코타일 본드"
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19pcs/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5120g",
@@ -3477,16 +3515,17 @@ export const materials = [
     "thickness": "3.0T",
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 184 × 950mm",
-      "packing": "19pcs/box",
-      "area": "3.32㎡",
-      "adhesive": "데코타일 본드"
+      "size": "184 × 950mm",
+      "packing": "19pcs/box · 3.32㎡",
+      "area": "3.32㎡"
     },
     "description": "KCC 센스타일 트랜디",
     "product_code": "TW 5120G",
     "product_name": "",
     "shape": "우드",
-    "adhesive": "데코타일 본드"
+    "adhesive": "데코타일 본드",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19pcs/box · 3.32㎡"
   },
   {
     "id": "데코타일-lx-lx하우스-hot-0065-라임-스톤-미스트",
@@ -103709,19 +103748,19 @@ export const materials = [
     "line": "센스타일 트랜디",
     "thickness": "3.0T",
     "shape": "450각",
-    "pattern": "브러쉬 카펫",
+    "pattern": "슬레이트",
     "price": 27000,
     "specs": {
       "thickness": "3.0T",
-      "size": "3.0T × 457.2 × 457.2mm",
-      "packing": "16pcs/box",
-      "area": "3.34㎡",
-      "adhesive": "데코타일 본드"
+      "size": "457.2 × 457.2mm",
+      "packing": "16pcs/box · 3.34㎡",
+      "area": "3.34㎡"
     },
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_센스타일_트랜디_450각_이미지/TS5508P.png",
     "adhesive": "데코타일 본드",
     "crossInstallation": true,
-    "notice": "교차 시공 권장 제품 (직각 교차 패턴 시공 시 완성도 향상)"
+    "notice": "교차 시공 권장 제품 (직각 교차 패턴 시공 시 완성도 향상)",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16pcs/box · 3.34㎡"
   }
 ];
-export default materials;
