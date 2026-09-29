@@ -352,25 +352,6 @@ export default function Header() {
               자재찾기
             </Link>
 
-            {/* 공간별 Dropdown */}
-            <div className="menu-link-dropdown-wrapper">
-              <Link to="/materials" className="menu-link" onMouseEnter={prefetchMaterials}>
-                공간별
-              </Link>
-              <div className="header-mega-dropdown">
-                <div className="dropdown-title">공간별 추천 자재</div>
-                <div className="dropdown-grid">
-                  <Link to="/materials?search=거실" onMouseEnter={prefetchMaterials}>거실</Link>
-                  <Link to="/materials?search=상업공간" onMouseEnter={prefetchMaterials}>상업공간</Link>
-                  <Link to="/materials?search=사무실" onMouseEnter={prefetchMaterials}>사무실</Link>
-                  <Link to="/materials?search=학원" onMouseEnter={prefetchMaterials}>학원</Link>
-                  <Link to="/materials?search=병원" onMouseEnter={prefetchMaterials}>병원</Link>
-                  <Link to="/materials?search=원룸" onMouseEnter={prefetchMaterials}>원룸</Link>
-                  <Link to="/materials?search=주거공간" onMouseEnter={prefetchMaterials}>주거공간</Link>
-                </div>
-              </div>
-            </div>
-
             <Link 
               to="/samplebooks"
               className={`menu-link ${location.pathname === '/samplebooks' ? 'active' : ''}`} 

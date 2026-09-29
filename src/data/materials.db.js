@@ -2304,10 +2304,10 @@ export const materials = [
     "id": "데코타일-kcc-kcc_square-ts5502p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_square",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5502P",
+    "name": "KCC 센스타일 트랜디 TS 5502P",
+    "code": "TS 5502P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5502P_0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5502P_0.jpg",
     "images": [
@@ -2316,25 +2316,31 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5502P_2.jpg"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 457.2 × 457.2mm",
+      "packing": "16pcs/box",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5502P",
-    "product_name": ""
+    "product_name": "",
+    "shape": "450각",
+    "pattern": "우븐",
+    "adhesive": "데코타일 본드",
+    "crossInstallation": true,
+    "notice": "교차 시공 권장 제품 (직각 교차 패턴 시공 시 완성도 향상)"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5503p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_square",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5503P",
+    "name": "KCC 센스타일 트랜디 TS 5503P",
+    "code": "TS 5503P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5503P_0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5503P_0.jpg",
     "images": [
@@ -2343,50 +2349,31 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5503P_2.jpg"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 457.2 × 457.2mm",
+      "packing": "16pcs/box",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5503P",
-    "product_name": ""
-  },
-  {
-    "id": "데코타일-kcc-kcc_square-ts5508-브러쉬-카펫",
-    "category": "데코타일",
-    "brand": "KCC",
-    "line": "KCC_square",
-    "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5508 브러쉬 카펫",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5508%20%EB%B8%8C%EB%9F%AC%EC%89%AC%20%EC%B9%B4%ED%8E%AB_2.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5508%20%EB%B8%8C%EB%9F%AC%EC%89%AC%20%EC%B9%B4%ED%8E%AB_2.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5508%20%EB%B8%8C%EB%9F%AC%EC%89%AC%20%EC%B9%B4%ED%8E%AB_2.jpg"
-    ],
-    "price": 27000,
-    "thickness": "",
-    "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    },
-    "description": "KCC_square",
-    "product_code": "TS5508 브러쉬 카펫",
-    "product_name": ""
+    "product_name": "",
+    "shape": "450각",
+    "pattern": "우븐",
+    "adhesive": "데코타일 본드",
+    "crossInstallation": true,
+    "notice": "교차 시공 권장 제품 (직각 교차 패턴 시공 시 완성도 향상)"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5510p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_square",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5510P",
+    "name": "KCC 센스타일 트랜디 TS 5510P",
+    "code": "TS 5510P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5510P_0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5510P_0.jpg",
     "images": [
@@ -2395,25 +2382,29 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5510P_2.jpg"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 457.2 × 457.2mm",
+      "packing": "16pcs/box",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5510P",
-    "product_name": ""
+    "product_name": "",
+    "shape": "450각",
+    "pattern": "카펫",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5511p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_square",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5511P",
+    "name": "KCC 센스타일 트랜디 TS 5511P",
+    "code": "TS 5511P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5511P_0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5511P_0.jpg",
     "images": [
@@ -2422,25 +2413,29 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5511P_2.jpg"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 457.2 × 457.2mm",
+      "packing": "16pcs/box",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5511P",
-    "product_name": ""
+    "product_name": "",
+    "shape": "450각",
+    "pattern": "카펫",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5516p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_square",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5516P",
+    "name": "KCC 센스타일 트랜디 TS 5516P",
+    "code": "TS 5516P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5516P_0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5516P_0.jpg",
     "images": [
@@ -2449,25 +2444,29 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5516P_2.jpg"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 457.2 × 457.2mm",
+      "packing": "16pcs/box",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5516P",
-    "product_name": ""
+    "product_name": "",
+    "shape": "450각",
+    "pattern": "마블",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5518p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_square",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5518P",
+    "name": "KCC 센스타일 트랜디 TS 5518P",
+    "code": "TS 5518P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5518P_0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5518P_0.jpg",
     "images": [
@@ -2476,25 +2475,29 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5518P_2.jpg"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 457.2 × 457.2mm",
+      "packing": "16pcs/box",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5518P",
-    "product_name": ""
+    "product_name": "",
+    "shape": "450각",
+    "pattern": "콘크리트",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5519p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_square",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5519P",
+    "name": "KCC 센스타일 트랜디 TS 5519P",
+    "code": "TS 5519P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5519P_0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5519P_0.jpg",
     "images": [
@@ -2503,25 +2506,29 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5519P_2.jpg"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 457.2 × 457.2mm",
+      "packing": "16pcs/box",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5519P",
-    "product_name": ""
+    "product_name": "",
+    "shape": "450각",
+    "pattern": "콘크리트",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5531m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_square",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5531M",
+    "name": "KCC 센스타일 트랜디 TS 5531M",
+    "code": "TS 5531M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5531M_0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5531M_0.jpg",
     "images": [
@@ -2530,25 +2537,29 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5531M_2.jpg"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "600x600mm",
-      "packing": "9pcs / 3.24㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 600 × 600mm",
+      "packing": "9pcs/box",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5531M",
-    "product_name": ""
+    "product_name": "",
+    "shape": "600각",
+    "pattern": "오닉스",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5532m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_square",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5532M",
+    "name": "KCC 센스타일 트랜디 TS 5532M",
+    "code": "TS 5532M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5532M_0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5532M_0.jpg",
     "images": [
@@ -2557,25 +2568,29 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5532M_2.jpg"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "600x600mm",
-      "packing": "9pcs / 3.24㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 600 × 600mm",
+      "packing": "9pcs/box",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5532M",
-    "product_name": ""
+    "product_name": "",
+    "shape": "600각",
+    "pattern": "파라디소",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5533m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_square",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5533M",
+    "name": "KCC 센스타일 트랜디 TS 5533M",
+    "code": "TS 5533M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5533M_0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5533M_0.jpg",
     "images": [
@@ -2583,25 +2598,29 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5533M_1.jpg"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "600x600mm",
-      "packing": "9pcs / 3.24㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 600 × 600mm",
+      "packing": "9pcs/box",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5533M",
-    "product_name": ""
+    "product_name": "",
+    "shape": "600각",
+    "pattern": "파라디소",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5534m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_square",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5534M",
+    "name": "KCC 센스타일 트랜디 TS 5534M",
+    "code": "TS 5534M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5534M_0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5534M_0.jpg",
     "images": [
@@ -2610,25 +2629,29 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5534M_2.jpg"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "600x600mm",
-      "packing": "9pcs / 3.24㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 600 × 600mm",
+      "packing": "9pcs/box",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5534M",
-    "product_name": ""
+    "product_name": "",
+    "shape": "600각",
+    "pattern": "파라디소",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5535m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_square",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5535M",
+    "name": "KCC 센스타일 트랜디 TS 5535M",
+    "code": "TS 5535M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5535M_0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5535M_0.jpg",
     "images": [
@@ -2637,25 +2660,29 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5535M_2.jpg"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "600x600mm",
-      "packing": "9pcs / 3.24㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 600 × 600mm",
+      "packing": "9pcs/box",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5535M",
-    "product_name": ""
+    "product_name": "",
+    "shape": "600각",
+    "pattern": "어반 콘크리트",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5536m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_square",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5536M",
+    "name": "KCC 센스타일 트랜디 TS 5536M",
+    "code": "TS 5536M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5536M_0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5536M_0.jpg",
     "images": [
@@ -2663,25 +2690,29 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5536M_1.jpg"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "600x600mm",
-      "packing": "9pcs / 3.24㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 600 × 600mm",
+      "packing": "9pcs/box",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5536M",
-    "product_name": ""
+    "product_name": "",
+    "shape": "600각",
+    "pattern": "어반 콘크리트",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5537m",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_square",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5537M",
+    "name": "KCC 센스타일 트랜디 TS 5537M",
+    "code": "TS 5537M",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5537M_0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5537M_0.jpg",
     "images": [
@@ -2689,25 +2720,29 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5537M_1.jpg"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "600x600mm",
-      "packing": "9pcs / 3.24㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 600 × 600mm",
+      "packing": "9pcs/box",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5537M",
-    "product_name": ""
+    "product_name": "",
+    "shape": "600각",
+    "pattern": "어반 콘크리트",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5541p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_square",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5541P",
+    "name": "KCC 센스타일 트랜디 TS 5541P",
+    "code": "TS 5541P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5541P_0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5541P_0.jpg",
     "images": [
@@ -2715,25 +2750,29 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5541P_1.jpg"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 457.2 × 457.2mm",
+      "packing": "16pcs/box",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5541P",
-    "product_name": ""
+    "product_name": "",
+    "shape": "450각",
+    "pattern": "슬레이트",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5542p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_square",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5542P",
+    "name": "KCC 센스타일 트랜디 TS 5542P",
+    "code": "TS 5542P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5542P_0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5542P_0.jpg",
     "images": [
@@ -2741,25 +2780,29 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5542P_3.jpg"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 457.2 × 457.2mm",
+      "packing": "16pcs/box",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5542P",
-    "product_name": ""
+    "product_name": "",
+    "shape": "450각",
+    "pattern": "슬레이트",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5543p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_square",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5543P",
+    "name": "KCC 센스타일 트랜디 TS 5543P",
+    "code": "TS 5543P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5543P_0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5543P_0.jpg",
     "images": [
@@ -2768,25 +2811,29 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5543P_2.jpg"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 457.2 × 457.2mm",
+      "packing": "16pcs/box",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5543P",
-    "product_name": ""
+    "product_name": "",
+    "shape": "450각",
+    "pattern": "슬레이트",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5544p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_square",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5544P",
+    "name": "KCC 센스타일 트랜디 TS 5544P",
+    "code": "TS 5544P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5544P_0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5544P_0.jpg",
     "images": [
@@ -2794,25 +2841,29 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5544P_1.jpg"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 457.2 × 457.2mm",
+      "packing": "16pcs/box",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5544P",
-    "product_name": ""
+    "product_name": "",
+    "shape": "450각",
+    "pattern": "슬레이트",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5545p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_square",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5545P",
+    "name": "KCC 센스타일 트랜디 TS 5545P",
+    "code": "TS 5545P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5545P_1.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5545P_1.jpg",
     "images": [
@@ -2820,25 +2871,29 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5545P_2.jpg"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 457.2 × 457.2mm",
+      "packing": "16pcs/box",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5545P",
-    "product_name": ""
+    "product_name": "",
+    "shape": "450각",
+    "pattern": "테라죠",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5546p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_square",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5546P",
+    "name": "KCC 센스타일 트랜디 TS 5546P",
+    "code": "TS 5546P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5546P_0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5546P_0.jpg",
     "images": [
@@ -2846,25 +2901,29 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5546P_1.jpg"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 457.2 × 457.2mm",
+      "packing": "16pcs/box",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5546P",
-    "product_name": ""
+    "product_name": "",
+    "shape": "450각",
+    "pattern": "테라죠",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5547p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_square",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5547P",
+    "name": "KCC 센스타일 트랜디 TS 5547P",
+    "code": "TS 5547P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5547P_0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5547P_0.jpg",
     "images": [
@@ -2873,25 +2932,29 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5547P_2.jpg"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 457.2 × 457.2mm",
+      "packing": "16pcs/box",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5547P",
-    "product_name": ""
+    "product_name": "",
+    "shape": "450각",
+    "pattern": "비앙코",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5548p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_square",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5548P",
+    "name": "KCC 센스타일 트랜디 TS 5548P",
+    "code": "TS 5548P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5548P_1.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5548P_1.jpg",
     "images": [
@@ -2899,75 +2962,58 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5548P_2.jpg"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 457.2 × 457.2mm",
+      "packing": "16pcs/box",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5548P",
-    "product_name": ""
-  },
-  {
-    "id": "데코타일-kcc-kcc_square-ts5549m-샌드스톤",
-    "category": "데코타일",
-    "brand": "KCC",
-    "line": "KCC_square",
-    "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5549M 샌드스톤",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5549M%20%EC%83%8C%EB%93%9C%EC%8A%A4%ED%86%A4_1.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5549M%20%EC%83%8C%EB%93%9C%EC%8A%A4%ED%86%A4_1.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5549M%20%EC%83%8C%EB%93%9C%EC%8A%A4%ED%86%A4_1.jpg"
-    ],
-    "price": 27000,
-    "thickness": "",
-    "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    },
-    "description": "KCC_square",
-    "product_code": "TS5549M 샌드스톤",
-    "product_name": ""
+    "product_name": "",
+    "shape": "450각",
+    "pattern": "샌드스톤",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5549p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_square",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5549P",
+    "name": "KCC 센스타일 트랜디 TS 5549P",
+    "code": "TS 5549P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5549P_0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5549P_0.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5549P_0.jpg"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 457.2 × 457.2mm",
+      "packing": "16pcs/box",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5549P",
-    "product_name": ""
+    "product_name": "",
+    "shape": "450각",
+    "pattern": "샌드스톤",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5550p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_square",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5550P",
+    "name": "KCC 센스타일 트랜디 TS 5550P",
+    "code": "TS 5550P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5550P_0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5550P_0.jpg",
     "images": [
@@ -2976,25 +3022,29 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5550P_2.jpg"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 457.2 × 457.2mm",
+      "packing": "16pcs/box",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5550P",
-    "product_name": ""
+    "product_name": "",
+    "shape": "450각",
+    "pattern": "콘크리트",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5551p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_square",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5551P",
+    "name": "KCC 센스타일 트랜디 TS 5551P",
+    "code": "TS 5551P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5551P_0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5551P_0.jpg",
     "images": [
@@ -3003,25 +3053,29 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5551P_2.jpg"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 457.2 × 457.2mm",
+      "packing": "16pcs/box",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5551P",
-    "product_name": ""
+    "product_name": "",
+    "shape": "450각",
+    "pattern": "베이직 카펫",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5552p",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_square",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_square",
-    "name": "",
-    "code": "TS5552P",
+    "name": "KCC 센스타일 트랜디 TS 5552P",
+    "code": "TS 5552P",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5552P_0.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5552P_0.jpg",
     "images": [
@@ -3029,24 +3083,28 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5552P_1.jpg"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_square",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 457.2 × 457.2mm",
+      "packing": "16pcs/box",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5552P",
-    "product_name": ""
+    "product_name": "",
+    "shape": "450각",
+    "pattern": "베이직 카펫",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5102g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_wood",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_wood",
-    "name": "",
+    "name": "KCC 센스타일 트랜디 TW 5102G",
     "code": "TW 5102G",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205102G_0.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205102G_0.png",
@@ -3055,24 +3113,28 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205102G_1.png"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_wood",
-      "thickness": "",
-      "size": "184x950mm",
-      "packing": "19pcs / 3.32㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 184 × 950mm",
+      "packing": "19pcs/box",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_wood",
     "product_code": "TW 5102G",
-    "product_name": ""
+    "product_name": "",
+    "shape": "우드",
+    "pattern": "파인",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5103g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_wood",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_wood",
-    "name": "",
+    "name": "KCC 센스타일 트랜디 TW 5103G",
     "code": "TW 5103G",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205103G_0.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205103G_0.png",
@@ -3081,24 +3143,28 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205103G_1.png"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_wood",
-      "thickness": "",
-      "size": "184x950mm",
-      "packing": "19pcs / 3.32㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 184 × 950mm",
+      "packing": "19pcs/box",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_wood",
     "product_code": "TW 5103G",
-    "product_name": ""
+    "product_name": "",
+    "shape": "우드",
+    "pattern": "워시 오크",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5104g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_wood",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_wood",
-    "name": "",
+    "name": "KCC 센스타일 트랜디 TW 5104G",
     "code": "TW 5104G",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205104G_0.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205104G_0.png",
@@ -3107,24 +3173,28 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205104G_1.png"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_wood",
-      "thickness": "",
-      "size": "184x950mm",
-      "packing": "19pcs / 3.32㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 184 × 950mm",
+      "packing": "19pcs/box",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_wood",
     "product_code": "TW 5104G",
-    "product_name": ""
+    "product_name": "",
+    "shape": "우드",
+    "pattern": "오크",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5105g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_wood",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_wood",
-    "name": "",
+    "name": "KCC 센스타일 트랜디 TW 5105G",
     "code": "TW 5105G",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205105G_0.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205105G_0.png",
@@ -3133,24 +3203,28 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205105G_1.png"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_wood",
-      "thickness": "",
-      "size": "184x950mm",
-      "packing": "19pcs / 3.32㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 184 × 950mm",
+      "packing": "19pcs/box",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_wood",
     "product_code": "TW 5105G",
-    "product_name": ""
+    "product_name": "",
+    "shape": "우드",
+    "pattern": "오크",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5106g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_wood",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_wood",
-    "name": "",
+    "name": "KCC 센스타일 트랜디 TW 5106G",
     "code": "TW 5106G",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205106G_0.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205106G_0.png",
@@ -3159,24 +3233,28 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205106G_1.png"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_wood",
-      "thickness": "",
-      "size": "184x950mm",
-      "packing": "19pcs / 3.32㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 184 × 950mm",
+      "packing": "19pcs/box",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_wood",
     "product_code": "TW 5106G",
-    "product_name": ""
+    "product_name": "",
+    "shape": "우드",
+    "pattern": "엘름",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5107g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_wood",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_wood",
-    "name": "",
+    "name": "KCC 센스타일 트랜디 TW 5107G",
     "code": "TW 5107G",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205107G_0.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205107G_0.png",
@@ -3185,24 +3263,28 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205107G_1.png"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_wood",
-      "thickness": "",
-      "size": "184x950mm",
-      "packing": "19pcs / 3.32㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 184 × 950mm",
+      "packing": "19pcs/box",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_wood",
     "product_code": "TW 5107G",
-    "product_name": ""
+    "product_name": "",
+    "shape": "우드",
+    "pattern": "오크",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5108g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_wood",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_wood",
-    "name": "",
+    "name": "KCC 센스타일 트랜디 TW 5108G",
     "code": "TW 5108G",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205108G_0.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205108G_0.png",
@@ -3211,24 +3293,28 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205108G_1.png"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_wood",
-      "thickness": "",
-      "size": "184x950mm",
-      "packing": "19pcs / 3.32㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 184 × 950mm",
+      "packing": "19pcs/box",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_wood",
     "product_code": "TW 5108G",
-    "product_name": ""
+    "product_name": "",
+    "shape": "우드",
+    "pattern": "오크",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5109g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_wood",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_wood",
-    "name": "",
+    "name": "KCC 센스타일 트랜디 TW 5109G",
     "code": "TW 5109G",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205109G_0.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205109G_0.png",
@@ -3237,24 +3323,28 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205109G_1.png"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_wood",
-      "thickness": "",
-      "size": "184x950mm",
-      "packing": "19pcs / 3.32㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 184 × 950mm",
+      "packing": "19pcs/box",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_wood",
     "product_code": "TW 5109G",
-    "product_name": ""
+    "product_name": "",
+    "shape": "우드",
+    "pattern": "메이플",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5110g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_wood",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_wood",
-    "name": "",
+    "name": "KCC 센스타일 트랜디 TW 5110G",
     "code": "TW 5110G",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205110G_0.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205110G_0.png",
@@ -3263,24 +3353,28 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205110G_1.png"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_wood",
-      "thickness": "",
-      "size": "184x950mm",
-      "packing": "19pcs / 3.32㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 184 × 950mm",
+      "packing": "19pcs/box",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_wood",
     "product_code": "TW 5110G",
-    "product_name": ""
+    "product_name": "",
+    "shape": "우드",
+    "pattern": "오크",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5111g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_wood",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_wood",
-    "name": "",
+    "name": "KCC 센스타일 트랜디 TW 5111G",
     "code": "TW 5111G",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205111G_0.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205111G_0.png",
@@ -3289,24 +3383,28 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205111G_1.png"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_wood",
-      "thickness": "",
-      "size": "184x950mm",
-      "packing": "19pcs / 3.32㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 184 × 950mm",
+      "packing": "19pcs/box",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_wood",
     "product_code": "TW 5111G",
-    "product_name": ""
+    "product_name": "",
+    "shape": "우드",
+    "pattern": "워시 오크",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5112g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_wood",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_wood",
-    "name": "",
+    "name": "KCC 센스타일 트랜디 TW 5112G",
     "code": "TW 5112G",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205112G_0.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205112G_0.png",
@@ -3315,24 +3413,28 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205112G_1.png"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_wood",
-      "thickness": "",
-      "size": "184x950mm",
-      "packing": "19pcs / 3.32㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 184 × 950mm",
+      "packing": "19pcs/box",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_wood",
     "product_code": "TW 5112G",
-    "product_name": ""
+    "product_name": "",
+    "shape": "우드",
+    "pattern": "오크",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5119g",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "KCC_wood",
+    "line": "센스타일 트랜디",
     "subLine": "KCC_wood",
-    "name": "",
+    "name": "KCC 센스타일 트랜디 TW 5119G",
     "code": "TW 5119G",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205119G_0.png",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205119G_0.png",
@@ -3341,16 +3443,20 @@ export const materials = [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205119G_1.png"
     ],
     "price": 27000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "KCC_wood",
-      "thickness": "",
-      "size": "184x950mm",
-      "packing": "19pcs / 3.32㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 184 × 950mm",
+      "packing": "19pcs/box",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_wood",
     "product_code": "TW 5119G",
-    "product_name": ""
+    "product_name": "",
+    "shape": "우드",
+    "pattern": "오크",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5120g",
@@ -3358,7 +3464,7 @@ export const materials = [
     "brand": "KCC",
     "line": "센스타일 트랜디",
     "subLine": "센스타일 트랜디",
-    "name": "",
+    "name": "KCC 센스타일 트랜디 TW 5120G",
     "code": "TW 5120G",
     "pattern": "오크",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205120G_0.png",
@@ -3370,14 +3476,17 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 트랜디",
-      "thickness": "3.0mm(T)",
-      "size": "184mm(W) × 950mm(L)",
-      "packing": "19pcs/box · 3.32㎡"
+      "thickness": "3.0T",
+      "size": "3.0T × 184 × 950mm",
+      "packing": "19pcs/box",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC 센스타일 트랜디",
     "product_code": "TW 5120G",
-    "product_name": ""
+    "product_name": "",
+    "shape": "우드",
+    "adhesive": "데코타일 본드"
   },
   {
     "id": "데코타일-lx-lx하우스-hot-0065-라임-스톤-미스트",
@@ -103590,5 +103699,29 @@ export const materials = [
     "product_code": "SUB-HANDY-SMALL",
     "product_name": "핸디코트 소",
     "sort_order": 35
+  },
+  {
+    "id": "데코타일-kcc-센스타일_트랜디-ts5508p",
+    "code": "TS 5508P",
+    "name": "KCC 센스타일 트랜디 TS 5508P",
+    "brand": "KCC",
+    "category": "데코타일",
+    "line": "센스타일 트랜디",
+    "thickness": "3.0T",
+    "shape": "450각",
+    "pattern": "브러쉬 카펫",
+    "price": 27000,
+    "specs": {
+      "thickness": "3.0T",
+      "size": "3.0T × 457.2 × 457.2mm",
+      "packing": "16pcs/box",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
+    },
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_센스타일_트랜디_450각_이미지/TS5508P.png",
+    "adhesive": "데코타일 본드",
+    "crossInstallation": true,
+    "notice": "교차 시공 권장 제품 (직각 교차 패턴 시공 시 완성도 향상)"
   }
 ];
+export default materials;

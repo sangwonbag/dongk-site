@@ -2138,6 +2138,37 @@ export default function MaterialDetail() {
                             <td>장판 전용 웰딩 시공 / 본드</td>
                           </tr>
                         </>
+                      ) : item.brand === 'KCC' && item.category === '데코타일' ? (
+                        <>
+                          <tr>
+                            <th>제조 브랜드</th>
+                            <td>KCC글라스 (홈씨씨)</td>
+                            <th>카테고리 / 라인업</th>
+                            <td>데코타일 · 센스타일 트랜디</td>
+                          </tr>
+                          <tr>
+                            <th>자재 식별 코드</th>
+                            <td>{item.code}</td>
+                            <th>패턴 / 형태</th>
+                            <td>{item.pattern || "기본 패턴"} ({item.shape || "규격형"})</td>
+                          </tr>
+                          <tr>
+                            <th>두께 규격</th>
+                            <td>{item.specs?.thickness || item.thickness || "3.0T"} (3.0mm)</td>
+                            <th>제품 가로세로 규격</th>
+                            <td>{item.specs?.size || item.spec || "규격 확인 필요"}</td>
+                          </tr>
+                          <tr>
+                            <th>포장 패킹 단위</th>
+                            <td>{item.specs?.packing || "상담 확인 필요"}</td>
+                            <th>BOX당 시공면적</th>
+                            <td>{item.specs?.area || "3.32㎡"} / BOX</td>
+                          </tr>
+                          <tr>
+                            <th>권장 접착 자재</th>
+                            <td colSpan="3">데코타일 본드 (전용 본드 시공 권장)</td>
+                          </tr>
+                        </>
                       ) : (
                         <>
                           <tr>
@@ -2266,6 +2297,39 @@ export default function MaterialDetail() {
                         <div className="guide-card-text">
                           <h5>실물 샘플 확인 권장</h5>
                           <p>모니터와 조명 환경에 따라 색상이 다르게 보일 수 있으므로 최종 선택 전 샘플 확인을 권장합니다.</p>
+                        </div>
+                      </div>
+                    </>
+                  ) : item.brand === 'KCC' && item.category === '데코타일' ? (
+                    <>
+                      {item.crossInstallation && (
+                        <div className="guide-card-item" style={{ borderLeft: '4px solid var(--point-orange)', background: '#fff7ed' }}>
+                          <AlertTriangle className="guide-card-icon text-warn" style={{ color: 'var(--point-orange)' }} />
+                          <div className="guide-card-text">
+                            <h5 style={{ color: 'var(--point-orange)' }}>교차 시공 권장 (교차패턴)</h5>
+                            <p>본 우븐/카펫 패턴 제품은 방향성을 고려하여 직각 교차 패턴(Cross Installation)으로 시공 시 디자인 완성도가 가장 높습니다.</p>
+                          </div>
+                        </div>
+                      )}
+                      <div className="guide-card-item">
+                        <ShieldCheck className="guide-card-icon text-success" />
+                        <div className="guide-card-text">
+                          <h5>동일 LOT 시공 및 실내 환경 유의</h5>
+                          <p>동일 공간 시공 시 이색 방지를 위해 반드시 동일 LOT 번호 제품을 시공해야 합니다. 바닥 함수율 4.5% 이하, 동절기 실내온도 18~22℃ 유지가 필수입니다.</p>
+                        </div>
+                      </div>
+                      <div className="guide-card-item">
+                        <AlertTriangle className="guide-card-icon text-warn" />
+                        <div className="guide-card-text">
+                          <h5>충분한 압착 및 지정 접착제 사용</h5>
+                          <p>시공 후 핸드로러 등으로 바닥 전면에 충분한 압착을 진행하고, KCC 지정 전용 데코타일 본드를 사용해야 뜸 및 들뜸 현상을 방지할 수 있습니다.</p>
+                        </div>
+                      </div>
+                      <div className="guide-card-item">
+                        <HelpCircle className="guide-card-icon text-info" />
+                        <div className="guide-card-text">
+                          <h5>현장 수평 및 양중 조건</h5>
+                          <p>바닥 면의 단차나 요철이 심한 경우 사전 평탄화 작업이 요구되며, 고층 현장의 경우 화물 엘리베이터/사다리차 이용 여부를 확인해 주시기 바랍니다.</p>
                         </div>
                       </div>
                     </>

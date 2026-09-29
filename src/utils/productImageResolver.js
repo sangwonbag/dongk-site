@@ -1,7 +1,9 @@
 import { getUniqueProductImages } from './galleryNormalizer.js';
 
+import { imageManifest as syncGeneratedManifest } from '../data/materialImageManifest.generated.js';
+
 let mappedImageManifestCache = null;
-let generatedImageManifestCache = null;
+let generatedImageManifestCache = syncGeneratedManifest;
 let manifestPromise = null;
 
 /**
@@ -14,7 +16,7 @@ export async function ensureManifestsLoaded() {
   if (!manifestPromise) {
     manifestPromise = Promise.all([
       import('../data/imageManifest.js').then(m => m.imageManifest || {}).catch(() => ({})),
-      import('../data/materialImageManifest.generated.js').then(m => m.imageManifest || []).catch(() => ([]))
+      Promise.resolve(syncGeneratedManifest)
     ]).then(([mapped, generated]) => {
       mappedImageManifestCache = mapped;
       generatedImageManifestCache = generated;
@@ -43,28 +45,27 @@ export function normalizeProductImageUrl(rawUrl) {
     return str;
   }
 
-  // Supabase Storage paths embedded with /images/ prefix (e.g. /images/Thumbnail_Image/... or /images/materials/...)
-  if (str.startsWith('/images/Thumbnail_Image/') || str.startsWith('/images/materials/')) {
-    const cleanPath = str.replace(/^\/images\//, '');
-    return `${SUPABASE_PUBLIC_URL_PREFIX}${cleanPath}`;
+  // Local static relative paths under /images/ (e.g. /images/Thumbnail_Image/...)
+  if (str.startsWith('/images/')) {
+    return str;
   }
 
-  if (str.startsWith('Thumbnail_Image/') || str.startsWith('materials/')) {
+  if (str.startsWith('Thumbnail_Image/')) {
+    return `/${str}`;
+  }
+
+  // Supabase Storage paths
+  if (str.startsWith('materials/')) {
     const cleanPath = str.replace(/^materials\//, '');
     return `${SUPABASE_PUBLIC_URL_PREFIX}${cleanPath}`;
   }
 
-  // Local/relative paths
+  // Local/relative paths starting with /
   if (str.startsWith('/')) {
-    if (str.includes('Thumbnail_Image') || str.includes('데코타일') || str.includes('장판') || str.includes('마루') || str.includes('벽지') || str.includes('KCC')) {
-      const cleanPath = str.replace(/^\/images\//, '').replace(/^\//, '');
-      return `${SUPABASE_PUBLIC_URL_PREFIX}${cleanPath}`;
-    }
     return str;
   }
 
-  const cleanPath = str.replace(/^materials\//, '');
-  return `${SUPABASE_PUBLIC_URL_PREFIX}${cleanPath}`;
+  return `/${str}`;
 }
 
 export function cleanProductCode(rawCode) {
@@ -158,9 +159,11 @@ export function getProductImageCandidates(product) {
     }
   }
 
-  // 3. Generated manifest lookup (materialImageManifest.generated.js) if loaded
+  // 3. Generated manifest lookup (materialImageManifest.generated.js)
   if (generatedManifest && (codeNorm || nameNorm)) {
-    const genMatch = generatedManifest.find(img => {
+    const categoryNorm = normalizeCode(product.category);
+    let genMatch = generatedManifest.find(img => {
+      if (categoryNorm && normalizeCode(img.category) && normalizeCode(img.category) !== categoryNorm) return false;
       const imgCode = normalizeCode(img.extractedCode);
       if (codeNorm && imgCode === codeNorm) return true;
       if (nameNorm && img.fileName) {
@@ -169,6 +172,30 @@ export function getProductImageCandidates(product) {
       }
       return false;
     });
+
+    // B-series KCC tile sibling pattern lookup (e.g. B3192J -> TS5546P, B3183J -> TS5543P, B0122J -> TS5548P, B0114J -> TS5549P)
+    if (!genMatch && codeNorm.startsWith('B')) {
+      const bMap = {
+        'B3192J': 'TS5546P',
+        'B3183J': 'TS5543P',
+        'B0122J': 'TS5548P',
+        'B0114J': 'TS5549P'
+      };
+      const mappedCode = bMap[codeNorm] || bMap[cleanedCode];
+      if (mappedCode) {
+        genMatch = generatedManifest.find(img => normalizeCode(img.extractedCode) === mappedCode);
+      }
+      if (!genMatch) {
+        const numericPart = codeNorm.replace(/[^0-9]/g, '');
+        if (numericPart && numericPart.length >= 3) {
+          genMatch = generatedManifest.find(img => {
+            if (categoryNorm && normalizeCode(img.category) && normalizeCode(img.category) !== categoryNorm) return false;
+            const imgCode = normalizeCode(img.extractedCode);
+            return imgCode && imgCode.includes(numericPart);
+          });
+        }
+      }
+    }
 
     if (genMatch && genMatch.fullPublicPath) {
       addCandidate(genMatch.fullPublicPath);

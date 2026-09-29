@@ -365,6 +365,16 @@ export function getCleanProductName(product, explicitCode) {
 export function formatProductTitle(product) {
   if (!product) return '상품정보 확인 중';
   const code = getCleanProductCode(product);
+  
+  if (product.brand === 'KCC' && product.category === '데코타일') {
+    const lineStr = String(product.line || product.name || '').trim();
+    if (lineStr.includes('트랜디') || lineStr.includes('KCC_square') || lineStr.includes('KCC_wood') || /^T[SW]/i.test(code)) {
+      if (code) {
+        return `KCC 센스타일 트랜디 ${code}`;
+      }
+    }
+  }
+
   const name = getCleanProductName(product, code);
 
   let thickness = String(product.thickness || (product.specs && product.specs.thickness) || '').trim();

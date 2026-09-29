@@ -2,13 +2,12 @@ import React, { useMemo, useState, useEffect, useCallback } from "react";
 import { useSearchParams } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { getComputedBrand, getMaterialTypeAndLine, formatShapeOrPattern, JANGPAN_STANDARD_THICKNESSES, FLOORING_THICKNESS_BY_BRAND, normalizeBrandName } from "../../utils/brandUtils";
-import { getSearchScore } from "../../utils/searchUtils";
 import MaterialCard from "../../components/material/MaterialCard";
 import { fetchFilteredProducts } from "../../utils/supabaseFetcher";
 import { sortProducts, SORT_OPTIONS } from "../../utils/sortUtils";
 import { Skeleton, EmptyState, ErrorState } from "../../components/ui";
 import MobileFilterSheet from "../../components/material/MobileFilterSheet";
-import { SlidersHorizontal, X } from "lucide-react";
+import { X } from "lucide-react";
 import SEO from "../../components/seo/SEO";
 import "./Materials.css";
 import "./MaterialsPageSkeleton.css";
@@ -111,10 +110,6 @@ export default function Materials() {
   const validThickness = normalizeUrlThickness(rawThickness);
   const activeThickness = validThickness || "all";
   const sortOption = searchParams.get("sort") || "default";
-  const searchText = searchParams.get("search") || "";
-
-  // Local input state for the search bar (for responsiveness while typing)
-  const [searchInput, setSearchInput] = useState(searchText);
 
   // Mobile Filter Sheet State
   const [isFilterSheetOpen, setIsFilterSheetOpen] = useState(false);
@@ -178,13 +173,12 @@ export default function Materials() {
         setLoading(true);
         setError(null);
         setPage(0);
-        console.log(`[Debug] Fetching initial page 0 for: category=${activeTab}, brand=${activeBrand}, thickness=${activeThickness}, search=${searchText}`);
+        console.log(`[Debug] Fetching initial page 0 for: category=${activeTab}, brand=${activeBrand}, thickness=${activeThickness}`);
         
         const res = await fetchFilteredProducts({
           category: activeTab,
           brand: activeBrand,
           thickness: activeThickness,
-          searchText: searchText,
           page: 0,
           pageSize: 24,
           signal: controller.signal
@@ -216,7 +210,7 @@ export default function Materials() {
       isCurrent = false;
       controller.abort();
     };
-  }, [activeTab, activeBrand, activeThickness, searchText]);
+  }, [activeTab, activeBrand, activeThickness]);
 
   // Paginated load more handler
   const handleLoadMore = useCallback(async () => {
@@ -228,7 +222,6 @@ export default function Materials() {
         category: activeTab,
         brand: activeBrand,
         thickness: activeThickness,
-        searchText: searchText,
         page: nextPage,
         pageSize: 24
       });
@@ -241,27 +234,12 @@ export default function Materials() {
     } finally {
       setLoadingMore(false);
     }
-  }, [loadingMore, hasMore, page, activeTab, activeBrand, activeThickness, searchText]);
-
-  // Sync search input state with URL search param changes
-  useEffect(() => {
-    setSearchInput(searchText);
-  }, [searchText]);
-
-  // Debounced search parameter update
-  useEffect(() => {
-    const handler = setTimeout(() => {
-      if (searchInput !== searchText) {
-        updateParams({ search: searchInput || null });
-      }
-    }, 300);
-    return () => clearTimeout(handler);
-  }, [searchInput, searchText]);
+  }, [loadingMore, hasMore, page, activeTab, activeBrand, activeThickness]);
 
   // Reset pagination when filters change
   useEffect(() => {
     setVisibleCount(24);
-  }, [activeTab, activeBrand, activeMaterialType, activeLine, activeShape, activeThickness, searchText]);
+  }, [activeTab, activeBrand, activeMaterialType, activeLine, activeShape, activeThickness]);
 
   // Normalize legacy line parameters (e.g., line=강마루_듀오텍스쳐_DUO TEXTURE)
   useEffect(() => {
@@ -452,80 +430,68 @@ export default function Materials() {
   const filtered = useMemo(() => {
     if (!materialsList || materialsList.length === 0) return [];
     
-    let result = [];
-    const s = (searchText || "").trim();
+    let result = materialsList.filter((m) => {
+      if (!m) return false;
 
-    if (s) {
-      // If search text exists, ignore UI tab filters and search globally
-      result = materialsList
-        .map((m) => ({ item: m, score: getSearchScore(m, s) }))
-        .filter((x) => x.score > 0)
-        .sort((a, b) => b.score - a.score)
-        .map((x) => x.item);
-    } else {
-      result = materialsList.filter((m) => {
-        if (!m) return false;
+      // Category tab check
+      const tabOk = (m.category === activeTab);
 
-        // Category tab check
-        const tabOk = (m.category === activeTab);
-
-        // Brand check with normalization rules
-        let brandOk = false;
-        if (activeBrand === "all") {
-          brandOk = true;
+      // Brand check with normalization rules
+      let brandOk = false;
+      if (activeBrand === "all") {
+        brandOk = true;
+      } else {
+        const b = activeBrand.toUpperCase();
+        const itemBrand = (m.brand || "").toUpperCase();
+        const mComputedBrand = getComputedBrand(m);
+        const compBrand = mComputedBrand.toUpperCase();
+        
+        if (b === "LX") {
+          brandOk = itemBrand.includes("LX") || itemBrand.includes("LG") || compBrand.includes("LX");
+        } else if (b === "DID") {
+          brandOk = itemBrand.includes("DID") || itemBrand.includes("디아이디");
+        } else if (b === "신한") {
+          brandOk = itemBrand.includes("신한");
+        } else if (b === "현대벽지" || b === "현대") {
+          brandOk = itemBrand.includes("현대");
+        } else if (b === "어반") {
+          brandOk = itemBrand.includes("어반") || itemBrand.includes("URBAN");
         } else {
-          const b = activeBrand.toUpperCase();
-          const itemBrand = (m.brand || "").toUpperCase();
-          const mComputedBrand = getComputedBrand(m);
-          const compBrand = mComputedBrand.toUpperCase();
-          
-          if (b === "LX") {
-            brandOk = itemBrand.includes("LX") || itemBrand.includes("LG") || compBrand.includes("LX");
-          } else if (b === "DID") {
-            brandOk = itemBrand.includes("DID") || itemBrand.includes("디아이디");
-          } else if (b === "신한") {
-            brandOk = itemBrand.includes("신한");
-          } else if (b === "현대벽지" || b === "현대") {
-            brandOk = itemBrand.includes("현대");
-          } else if (b === "어반") {
-            brandOk = itemBrand.includes("어반") || itemBrand.includes("URBAN");
-          } else {
-            brandOk = itemBrand === b || compBrand === b || itemBrand.includes(b) || compBrand.includes(b);
-          }
+          brandOk = itemBrand === b || compBrand === b || itemBrand.includes(b) || compBrand.includes(b);
         }
+      }
 
-        // Material Type check (only for 마루)
-        let typeOk = true;
-        if (activeTab === "마루" && activeMaterialType !== "all") {
-          typeOk = (m.materialType === activeMaterialType);
+      // Material Type check (only for 마루)
+      let typeOk = true;
+      if (activeTab === "마루" && activeMaterialType !== "all") {
+        typeOk = (m.materialType === activeMaterialType);
+      }
+
+      // Line check
+      let lineOk = true;
+      if (activeLine !== "all" && visibleLines.length > 2) {
+        const line = activeTab === "마루" ? m.displayLine : getNormalizedLine(m, activeTab, activeBrand);
+        if (activeTab === "마루" && m.brand === "구정" && m.series === "노블레스") {
+          lineOk = (line === activeLine || (m.sizeOptions && m.sizeOptions.some(o => o.label === activeLine)));
+        } else {
+          lineOk = (line === activeLine);
         }
+      }
 
-        // Line check
-        let lineOk = true;
-        if (activeLine !== "all" && visibleLines.length > 2) {
-          const line = activeTab === "마루" ? m.displayLine : getNormalizedLine(m, activeTab, activeBrand);
-          if (activeTab === "마루" && m.brand === "구정" && m.series === "노블레스") {
-            lineOk = (line === activeLine || (m.sizeOptions && m.sizeOptions.some(o => o.label === activeLine)));
-          } else {
-            lineOk = (line === activeLine);
-          }
-        }
+      // Shape check (only for KCC decotiles)
+      let shapeOk = true;
+      if (activeTab === "데코타일" && activeBrand === "KCC" && activeShape !== "all") {
+        shapeOk = (m.shape === activeShape);
+      }
 
-        // Shape check (only for KCC decotiles)
-        let shapeOk = true;
-        if (activeTab === "데코타일" && activeBrand === "KCC" && activeShape !== "all") {
-          shapeOk = (m.shape === activeShape);
-        }
+      // Thickness check (only for 장판)
+      let thicknessOk = true;
+      if (activeTab === "장판" && activeThickness !== "all") {
+        thicknessOk = (m.thickness === activeThickness);
+      }
 
-        // Thickness check (only for 장판)
-        let thicknessOk = true;
-        if (activeTab === "장판" && activeThickness !== "all") {
-          thicknessOk = (m.thickness === activeThickness);
-        }
-
-        return tabOk && brandOk && typeOk && lineOk && shapeOk && thicknessOk;
-      });
-    }
+      return tabOk && brandOk && typeOk && lineOk && shapeOk && thicknessOk;
+    });
 
     // Apply client-side search inputs on top of standard filters
     if (nameFilter.trim()) {
@@ -546,7 +512,7 @@ export default function Materials() {
     }
 
     return result;
-  }, [materialsList, activeTab, activeBrand, activeMaterialType, activeLine, activeShape, activeThickness, searchText, visibleLines, nameFilter, codeFilter, specFilter]);
+  }, [materialsList, activeTab, activeBrand, activeMaterialType, activeLine, activeShape, activeThickness, visibleLines, nameFilter, codeFilter, specFilter]);
 
   // Apply sorting pipeline on filtered products (Immutably using useMemo)
   const sortedProducts = useMemo(() => {
@@ -560,8 +526,7 @@ export default function Materials() {
       setLoading(true);
       fetchFilteredProducts({
         category: activeTab,
-        brand: activeBrand,
-        searchText: searchText
+        brand: activeBrand
       }).then(data => {
         setMaterialsList(data);
         setLoading(false);
@@ -629,32 +594,6 @@ export default function Materials() {
               </p>
             </div>
 
-            {/* 2. Integrated Search Box Row & Mobile Trigger */}
-            <div className="materials-integrated-search">
-              <div className="materials-search-box">
-                <input
-                  type="text"
-                  placeholder="통합 검색 (제품번호, 자재명 등)..."
-                  value={searchInput}
-                  onChange={(e) => setSearchInput(e.target.value)}
-                  className="materials-search-input-field"
-                />
-                {searchInput && (
-                  <button className="search-clear-btn" onClick={() => setSearchInput("")}>
-                    &times;
-                  </button>
-                )}
-              </div>
-              <button 
-                className="mobile-filter-trigger-btn"
-                onClick={() => setIsFilterSheetOpen(true)}
-              >
-                <SlidersHorizontal size={18} />
-                <span>필터</span>
-                {activeFilterCount > 0 && <span className="trigger-badge">{activeFilterCount}</span>}
-              </button>
-            </div>
-
             {/* Active Filter Chips Bar */}
             {activeFilterCount > 0 && (
               <div className="active-filter-chips-bar">
@@ -707,7 +646,7 @@ export default function Materials() {
               </div>
             )}
             
-            {/* 3. Primary Category / Brand / Shape Filters Panel */}
+            {/* 2. Primary Category / Brand / Shape Filters Panel */}
             <div className="materials-main-filters">
               {/* Category tabs */}
               <div className="materials-filter-row">
@@ -910,8 +849,8 @@ export default function Materials() {
                 <EmptyState
                   title="검색 결과가 없습니다"
                   description={
-                    searchText 
-                      ? `"${searchText}"에 부합하는 자재가 없거나 현재 준비 중입니다.` 
+                    (nameFilter || codeFilter || specFilter)
+                      ? "검색 조건에 부합하는 자재가 없거나 현재 준비 중입니다." 
                       : (activeTab === "장판" && (activeBrand !== "all" || activeThickness !== "all"))
                         ? "선택한 브랜드와 두께에 해당하는 상품이 없습니다."
                         : "선택하신 분류 및 브랜드의 자재가 준비 중입니다."
