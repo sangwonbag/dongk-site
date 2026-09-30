@@ -211,6 +211,14 @@ export function mapProductRow(p) {
   const dbKey = getMaterialMatchKey(dbItem);
   const localMatch = localMaterialsCache ? localMaterialsCache.find(m => getMaterialMatchKey(m) === dbKey) : null;
 
+  const isSenseRay = (brandName === 'KCC' || code.startsWith('B')) &&
+    ((p.name || '').includes('센스레이') || (p.description || '').includes('센스레이') || code.startsWith('B'));
+
+  let rawImg = p.image_url || null;
+  if (isSenseRay && rawImg && (rawImg.includes('/KCC_pro/') || rawImg.includes('KCC_pro') || rawImg.includes('센스타일') || rawImg.includes('TS55'))) {
+    rawImg = null;
+  }
+
   const mapped = {
     id: p.slug || String(p.id),
     product_id: p.id,
@@ -226,8 +234,8 @@ export function mapProductRow(p) {
       size: p.size_text || "",
       packing: p.unit || ""
     },
-    thumbnail: p.image_url || null,
-    image: p.image_url || null,
+    thumbnail: rawImg,
+    image: rawImg,
     line: p.description || "",
     description: p.description || "",
     featured: p.is_featured || false,
@@ -297,7 +305,7 @@ export function deduplicateProducts(productList) {
   return deduplicatedProducts;
 }
 
-export async function fetchFilteredProducts({ category, brand, thickness, searchText, page = 0, pageSize = 24, signal }) {
+export async function fetchFilteredProducts({ category, brand, thickness, searchText, page = 0, pageSize = 2000, signal }) {
   if (!supabase) {
     console.warn("Supabase client is not initialized. Using local fallback filtering.");
     const all = await fetchAllProducts();

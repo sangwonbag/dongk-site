@@ -141,8 +141,9 @@ export default function Materials() {
     setSpecFilter("");
   }, []);
 
-  // Pagination state (Optimized default to 24 for faster render)
-  const [visibleCount, setVisibleCount] = useState(24);
+  // Pagination state (30 items per load)
+  const PRODUCTS_PER_LOAD = 30;
+  const [visibleCount, setVisibleCount] = useState(PRODUCTS_PER_LOAD);
 
   // Redirect if line param contains MACOSX
   useEffect(() => {
@@ -169,7 +170,7 @@ export default function Materials() {
     }
   }, [activeTab, searchParams]);
 
-  // Fetch from Supabase on mount/filter change (Page 0)
+  // Fetch products from Supabase/cache on mount/filter change
   useEffect(() => {
     let isCurrent = true;
     const controller = new AbortController();
@@ -178,22 +179,18 @@ export default function Materials() {
       try {
         setLoading(true);
         setError(null);
-        setPage(0);
-        console.log(`[Debug] Fetching initial page 0 for: category=${activeTab}, brand=${activeBrand}, thickness=${activeThickness}`);
         
         const res = await fetchFilteredProducts({
           category: activeTab,
           brand: activeBrand,
           thickness: activeThickness,
           page: 0,
-          pageSize: 24,
+          pageSize: 2000,
           signal: controller.signal
         });
 
         if (isCurrent) {
           setMaterialsList(res.items || res);
-          setTotalCount(res.totalCount ?? (res.items || res).length);
-          setHasMore(res.hasMore ?? false);
         }
       } catch (err) {
         if (err.name === 'AbortError' || err.message === 'aborted') {
@@ -218,34 +215,15 @@ export default function Materials() {
     };
   }, [activeTab, activeBrand, activeThickness]);
 
-  // Paginated load more handler
-  const handleLoadMore = useCallback(async () => {
-    if (loadingMore || !hasMore) return;
-    try {
-      setLoadingMore(true);
-      const nextPage = page + 1;
-      const res = await fetchFilteredProducts({
-        category: activeTab,
-        brand: activeBrand,
-        thickness: activeThickness,
-        page: nextPage,
-        pageSize: 24
-      });
+  // Load more handler
+  const handleLoadMore = useCallback(() => {
+    setVisibleCount(prev => prev + PRODUCTS_PER_LOAD);
+  }, []);
 
-      setMaterialsList(prev => [...prev, ...(res.items || res)]);
-      setPage(nextPage);
-      setHasMore(res.hasMore ?? false);
-    } catch (err) {
-      console.error("[Debug] Load more error:", err);
-    } finally {
-      setLoadingMore(false);
-    }
-  }, [loadingMore, hasMore, page, activeTab, activeBrand, activeThickness]);
-
-  // Reset pagination when filters change
+  // Reset visibleCount to 30 whenever any filter, search input, or sort option changes
   useEffect(() => {
-    setVisibleCount(24);
-  }, [activeTab, activeBrand, activeMaterialType, activeLine, activeShape, activeThickness]);
+    setVisibleCount(PRODUCTS_PER_LOAD);
+  }, [activeTab, activeBrand, activeMaterialType, activeLine, activeShape, activeThickness, nameFilter, codeFilter, specFilter, sortOption]);
 
   // Normalize legacy line parameters (e.g., line=강마루_듀오텍스쳐_DUO TEXTURE)
   useEffect(() => {
@@ -530,18 +508,16 @@ export default function Materials() {
   }, [activeLine, activeShape, activeThickness, activeMaterialType, nameFilter, codeFilter, specFilter]);
 
   const displayTotalCount = useMemo(() => {
-    return isFilteredSearch ? sortedProducts.length : (totalCount || sortedProducts.length);
-  }, [isFilteredSearch, sortedProducts.length, totalCount]);
+    return sortedProducts.length;
+  }, [sortedProducts.length]);
 
   const visibleProducts = useMemo(() => {
     return sortedProducts.slice(0, visibleCount);
   }, [sortedProducts, visibleCount]);
 
   const hasMoreItems = useMemo(() => {
-    if (visibleCount < sortedProducts.length) return true;
-    if (!isFilteredSearch) return hasMore;
-    return false;
-  }, [visibleCount, sortedProducts.length, isFilteredSearch, hasMore]);
+    return visibleCount < sortedProducts.length;
+  }, [visibleCount, sortedProducts.length]);
 
   // Error View
   if (error) {
@@ -877,16 +853,9 @@ export default function Materials() {
                     <div className="load-more-container">
                       <button 
                         className="load-more-btn" 
-                        onClick={() => {
-                          if (visibleCount < sortedProducts.length) {
-                            setVisibleCount(prev => prev + 24);
-                          } else if (hasMore) {
-                            handleLoadMore();
-                          }
-                        }}
-                        disabled={loadingMore}
+                        onClick={handleLoadMore}
                       >
-                        {loadingMore ? "상품 추가 로딩 중..." : `더보기 (${visibleProducts.length} / ${displayTotalCount})`}
+                        {`더보기 (${Math.min(visibleCount, sortedProducts.length)} / ${sortedProducts.length})`}
                       </button>
                     </div>
                   )}

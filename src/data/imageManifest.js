@@ -12062,66 +12062,6 @@ export const imageManifest = {
       "2f130efdeefb6bcd50929d33b6b01618.png"
     ]
   },
-  "B0111J": {
-    "thumbnail": "7aab6209f26b90a139a6b52540c922ad.png",
-    "images": [
-      "7aab6209f26b90a139a6b52540c922ad.png"
-    ]
-  },
-  "B0112J": {
-    "thumbnail": "b68907085fc7143e677f7412e1e5de05.png",
-    "images": [
-      "b68907085fc7143e677f7412e1e5de05.png"
-    ]
-  },
-  "B0113J": {
-    "thumbnail": "0c6f15d52d6347a13f6d298dd793cba3.png",
-    "images": [
-      "0c6f15d52d6347a13f6d298dd793cba3.png"
-    ]
-  },
-  "B0114J": {
-    "thumbnail": "9f9eeaeb70d8f385bb306ff2af64e6fd.png",
-    "images": [
-      "9f9eeaeb70d8f385bb306ff2af64e6fd.png"
-    ]
-  },
-  "B0122J": {
-    "thumbnail": "a1eaa8210ad8d39cdefc6e0f1fd06507.png",
-    "images": [
-      "a1eaa8210ad8d39cdefc6e0f1fd06507.png"
-    ]
-  },
-  "B3181J": {
-    "thumbnail": "d0ff4f625214f78cde7ad3a84d577ccc.png",
-    "images": [
-      "d0ff4f625214f78cde7ad3a84d577ccc.png"
-    ]
-  },
-  "B3182J": {
-    "thumbnail": "825eadc9656cb138ef9557eefd5dcee8.png",
-    "images": [
-      "825eadc9656cb138ef9557eefd5dcee8.png"
-    ]
-  },
-  "B3183J": {
-    "thumbnail": "5299e7dc7e6b3301f32f9551a449f9ce.png",
-    "images": [
-      "5299e7dc7e6b3301f32f9551a449f9ce.png"
-    ]
-  },
-  "B3191J": {
-    "thumbnail": "16df4de77ec711e55f573e5aa82b1146.png",
-    "images": [
-      "16df4de77ec711e55f573e5aa82b1146.png"
-    ]
-  },
-  "B3192J": {
-    "thumbnail": "3e0b30a367fac2324ea1a5a367a05ae8.png",
-    "images": [
-      "3e0b30a367fac2324ea1a5a367a05ae8.png"
-    ]
-  },
   "TS5502P": {
     "thumbnail": "6d9f1d5c5fc22601dc166ae5736bb1d1.jpg",
     "images": [

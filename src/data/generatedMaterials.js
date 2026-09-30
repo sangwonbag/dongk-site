@@ -1731,11 +1731,9 @@ export const materials = [
     "subLine": "센스레이 5.0",
     "name": "KCC 센스레이 텍스처 콘크리트 B0111J",
     "code": "B0111J",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0111J.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0111J.png",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0111J.png"
-    ],
+    "thumbnail": null,
+    "image": null,
+    "images": [],
     "price": 35000,
     "thickness": "5.0T",
     "specs": {
@@ -1757,11 +1755,9 @@ export const materials = [
     "subLine": "센스레이 5.0",
     "name": "KCC 센스레이 텍스처 콘크리트 B0112J",
     "code": "B0112J",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0112J.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0112J.png",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0112J.png"
-    ],
+    "thumbnail": null,
+    "image": null,
+    "images": [],
     "price": 35000,
     "thickness": "5.0T",
     "specs": {
@@ -1783,11 +1779,9 @@ export const materials = [
     "subLine": "센스레이 5.0",
     "name": "KCC 센스레이 텍스처 콘크리트 B0113J",
     "code": "B0113J",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0113J.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0113J.png",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0113J.png"
-    ],
+    "thumbnail": null,
+    "image": null,
+    "images": [],
     "price": 35000,
     "thickness": "5.0T",
     "specs": {
@@ -1809,11 +1803,9 @@ export const materials = [
     "subLine": "센스레이 5.0",
     "name": "KCC 센스레이 텍스처 콘크리트 B0114J",
     "code": "B0114J",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0114J.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0114J.png",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0114J.png"
-    ],
+    "thumbnail": null,
+    "image": null,
+    "images": [],
     "price": 35000,
     "thickness": "5.0T",
     "specs": {
@@ -1835,11 +1827,9 @@ export const materials = [
     "subLine": "센스레이 5.0",
     "name": "KCC 센스레이 어반 스톤 B0122J",
     "code": "B0122J",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0122J.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0122J.png",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B0122J.png"
-    ],
+    "thumbnail": null,
+    "image": null,
+    "images": [],
     "price": 35000,
     "thickness": "5.0T",
     "specs": {
@@ -1861,11 +1851,9 @@ export const materials = [
     "subLine": "센스레이 5.0",
     "name": "KCC 센스레이 콘그레이 B3181J",
     "code": "B3181J",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3181J.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3181J.png",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3181J.png"
-    ],
+    "thumbnail": null,
+    "image": null,
+    "images": [],
     "price": 35000,
     "thickness": "5.0T",
     "specs": {
@@ -1887,11 +1875,9 @@ export const materials = [
     "subLine": "센스레이 5.0",
     "name": "KCC 센스레이 콘그레이 B3182J",
     "code": "B3182J",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3182J.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3182J.png",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3182J.png"
-    ],
+    "thumbnail": null,
+    "image": null,
+    "images": [],
     "price": 35000,
     "thickness": "5.0T",
     "specs": {
@@ -1913,11 +1899,9 @@ export const materials = [
     "subLine": "센스레이 5.0",
     "name": "KCC 센스레이 콘그레이 B3183J",
     "code": "B3183J",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3183J.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3183J.png",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3183J.png"
-    ],
+    "thumbnail": null,
+    "image": null,
+    "images": [],
     "price": 35000,
     "thickness": "5.0T",
     "specs": {
@@ -1939,11 +1923,9 @@ export const materials = [
     "subLine": "센스레이 5.0",
     "name": "KCC 센스레이 소프트 콘크리트 B3191J",
     "code": "B3191J",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3191J.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3191J.png",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3191J.png"
-    ],
+    "thumbnail": null,
+    "image": null,
+    "images": [],
     "price": 35000,
     "thickness": "5.0T",
     "specs": {
@@ -1965,11 +1947,9 @@ export const materials = [
     "subLine": "센스레이 5.0",
     "name": "KCC 센스레이 소프트 콘크리트 B3192J",
     "code": "B3192J",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3192J.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3192J.png",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/B3192J.png"
-    ],
+    "thumbnail": null,
+    "image": null,
+    "images": [],
     "price": 35000,
     "thickness": "5.0T",
     "specs": {

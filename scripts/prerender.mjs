@@ -257,14 +257,29 @@ async function runPrerender() {
       description: '동경바닥재 서비스 이용약관 안내',
       canonical: `${BASE_URL}/terms-of-service`
     },
-    // Private noindex SPA routes
+    // Private noindex SPA routes & sub-routes
+    { route: '/estimate/request', outPath: path.join(distDir, 'estimate', 'request', 'index.html'), title: '자동견적 | 동경바닥재', noindex: true },
+    { route: '/quote', outPath: path.join(distDir, 'quote', 'index.html'), title: '자동견적 | 동경바닥재', noindex: true },
+    { route: '/company', outPath: path.join(distDir, 'company', 'index.html'), title: '회사소개 | 동경바닥재' },
+    { route: '/customer-center', outPath: path.join(distDir, 'customer-center', 'index.html'), title: '고객센터 | 동경바닥재' },
     { route: '/login', outPath: path.join(distDir, 'login', 'index.html'), title: '로그인 | 동경바닥재', noindex: true },
+    { route: '/login-callback', outPath: path.join(distDir, 'login-callback', 'index.html'), title: '로그인 처리 중 | 동경바닥재', noindex: true },
     { route: '/signup', outPath: path.join(distDir, 'signup', 'index.html'), title: '회원가입 | 동경바닥재', noindex: true },
     { route: '/cart', outPath: path.join(distDir, 'cart', 'index.html'), title: '장바구니 | 동경바닥재', noindex: true },
     { route: '/checkout', outPath: path.join(distDir, 'checkout', 'index.html'), title: '주문 결제 | 동경바닥재', noindex: true },
+    { route: '/order-complete', outPath: path.join(distDir, 'order-complete', 'index.html'), title: '주문 완료 | 동경바닥재', noindex: true },
     { route: '/orders', outPath: path.join(distDir, 'orders', 'index.html'), title: '주문 내역 | 동경바닥재', noindex: true },
+    { route: '/admin-orders', outPath: path.join(distDir, 'admin-orders', 'index.html'), title: '관리자 주문 | 동경바닥재', noindex: true },
     { route: '/mypage', outPath: path.join(distDir, 'mypage', 'index.html'), title: '마이페이지 | 동경바닥재', noindex: true },
-    { route: '/admin', outPath: path.join(distDir, 'admin', 'index.html'), title: '관리자 센터 | 동경바닥재', noindex: true }
+    { route: '/mypage/estimates', outPath: path.join(distDir, 'mypage', 'estimates', 'index.html'), title: '견적 내역 | 동경바닥재', noindex: true },
+    { route: '/privacy', outPath: path.join(distDir, 'privacy', 'index.html'), title: '개인정보 처리방침 | 동경바닥재' },
+    { route: '/admin', outPath: path.join(distDir, 'admin', 'index.html'), title: '관리자 센터 | 동경바닥재', noindex: true },
+    { route: '/admin/inquiries', outPath: path.join(distDir, 'admin', 'inquiries', 'index.html'), title: '관리자 문의 | 동경바닥재', noindex: true },
+    { route: '/admin/estimates', outPath: path.join(distDir, 'admin', 'estimates', 'index.html'), title: '관리자 견적 | 동경바닥재', noindex: true },
+    { route: '/admin/estimate-inquiries', outPath: path.join(distDir, 'admin', 'estimate-inquiries', 'index.html'), title: '관리자 견적상담 | 동경바닥재', noindex: true },
+    { route: '/admin/products', outPath: path.join(distDir, 'admin', 'products', 'index.html'), title: '관리자 상품 | 동경바닥재', noindex: true },
+    { route: '/admin/materials', outPath: path.join(distDir, 'admin', 'materials', 'index.html'), title: '관리자 자재 | 동경바닥재', noindex: true },
+    { route: '/admin/orders', outPath: path.join(distDir, 'admin', 'orders', 'index.html'), title: '관리자 주문관리 | 동경바닥재', noindex: true }
   ];
 
   function generatePageHtml(meta) {
@@ -318,11 +333,6 @@ async function runPrerender() {
       fs.mkdirSync(dir, { recursive: true });
     }
     fs.writeFileSync(dirPath, html, 'utf8');
-
-    if (page.route !== '/' && page.route.startsWith('/')) {
-      const filePath = path.join(distDir, `${page.route.slice(1)}.html`);
-      fs.writeFileSync(filePath, html, 'utf8');
-    }
 
     console.log(`[Prerender] Wrote static snapshot: ${page.route} -> ${page.outPath}`);
   }

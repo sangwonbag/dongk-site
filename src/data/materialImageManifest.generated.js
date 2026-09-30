@@ -8182,6 +8182,294 @@ export const imageManifest = [
     "normalizedFileName": "클릭s파인2jpg"
   },
   {
+    "fileName": "LARGO_SOLE_190_T1_New_Cumulus.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지/LARGO_SOLE_190_T1_New_Cumulus.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지",
+    "extractedCode": "LARGO_SOLE_190_T1_New_Cumulus",
+    "normalizedFileName": "largosole190t1newcumuluspng"
+  },
+  {
+    "fileName": "LARGO_SOLE_190_T1_New_Cumulus_strip.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지/LARGO_SOLE_190_T1_New_Cumulus_strip.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지",
+    "extractedCode": "LARGO_SOLE_190_T1_New_Cumulus_strip",
+    "normalizedFileName": "largosole190t1newcumulusstrippng"
+  },
+  {
+    "fileName": "LARGO_SOLE_190_T1_New_Eclipse.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지/LARGO_SOLE_190_T1_New_Eclipse.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지",
+    "extractedCode": "LARGO_SOLE_190_T1_New_Eclipse",
+    "normalizedFileName": "largosole190t1neweclipsepng"
+  },
+  {
+    "fileName": "LARGO_SOLE_190_T1_New_Eclipse_strip.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지/LARGO_SOLE_190_T1_New_Eclipse_strip.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지",
+    "extractedCode": "LARGO_SOLE_190_T1_New_Eclipse_strip",
+    "normalizedFileName": "largosole190t1neweclipsestrippng"
+  },
+  {
+    "fileName": "LARGO_SOLE_190_T1_New_Oak_S.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지/LARGO_SOLE_190_T1_New_Oak_S.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지",
+    "extractedCode": "LARGO_SOLE_190_T1_New_Oak_S",
+    "normalizedFileName": "largosole190t1newoakspng"
+  },
+  {
+    "fileName": "LARGO_SOLE_190_T1_New_Oak_S_strip.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지/LARGO_SOLE_190_T1_New_Oak_S_strip.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지",
+    "extractedCode": "LARGO_SOLE_190_T1_New_Oak_S_strip",
+    "normalizedFileName": "largosole190t1newoaksstrippng"
+  },
+  {
+    "fileName": "LARGO_SOLE_190_T1_New_Sand.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지/LARGO_SOLE_190_T1_New_Sand.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지",
+    "extractedCode": "LARGO_SOLE_190_T1_New_Sand",
+    "normalizedFileName": "largosole190t1newsandpng"
+  },
+  {
+    "fileName": "LARGO_SOLE_190_T1_New_Sand_strip.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지/LARGO_SOLE_190_T1_New_Sand_strip.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지",
+    "extractedCode": "LARGO_SOLE_190_T1_New_Sand_strip",
+    "normalizedFileName": "largosole190t1newsandstrippng"
+  },
+  {
+    "fileName": "LARGO_SOLE_190_T1_New_Sunrise.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지/LARGO_SOLE_190_T1_New_Sunrise.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지",
+    "extractedCode": "LARGO_SOLE_190_T1_New_Sunrise",
+    "normalizedFileName": "largosole190t1newsunrisepng"
+  },
+  {
+    "fileName": "LARGO_SOLE_190_T1_New_Sunrise_strip.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지/LARGO_SOLE_190_T1_New_Sunrise_strip.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지",
+    "extractedCode": "LARGO_SOLE_190_T1_New_Sunrise_strip",
+    "normalizedFileName": "largosole190t1newsunrisestrippng"
+  },
+  {
+    "fileName": "LARGO_SOLE_190_T3_Mist.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지/LARGO_SOLE_190_T3_Mist.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지",
+    "extractedCode": "LARGO_SOLE_190_T3_Mist",
+    "normalizedFileName": "largosole190t3mistpng"
+  },
+  {
+    "fileName": "LARGO_SOLE_190_T3_Mist_strip.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지/LARGO_SOLE_190_T3_Mist_strip.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지",
+    "extractedCode": "LARGO_SOLE_190_T3_Mist_strip",
+    "normalizedFileName": "largosole190t3miststrippng"
+  },
+  {
+    "fileName": "LARGO_SOLE_190_T3_Oak_S.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지/LARGO_SOLE_190_T3_Oak_S.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지",
+    "extractedCode": "LARGO_SOLE_190_T3_Oak_S",
+    "normalizedFileName": "largosole190t3oakspng"
+  },
+  {
+    "fileName": "LARGO_SOLE_190_T3_Oak_S_strip.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지/LARGO_SOLE_190_T3_Oak_S_strip.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지",
+    "extractedCode": "LARGO_SOLE_190_T3_Oak_S_strip",
+    "normalizedFileName": "largosole190t3oaksstrippng"
+  },
+  {
+    "fileName": "LARGO_SOLE_190_T3_Sand.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지/LARGO_SOLE_190_T3_Sand.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지",
+    "extractedCode": "LARGO_SOLE_190_T3_Sand",
+    "normalizedFileName": "largosole190t3sandpng"
+  },
+  {
+    "fileName": "LARGO_SOLE_190_T3_Sand_strip.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지/LARGO_SOLE_190_T3_Sand_strip.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지",
+    "extractedCode": "LARGO_SOLE_190_T3_Sand_strip",
+    "normalizedFileName": "largosole190t3sandstrippng"
+  },
+  {
+    "fileName": "LARGO_SOLE_190_T3_Sunrise.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지/LARGO_SOLE_190_T3_Sunrise.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지",
+    "extractedCode": "LARGO_SOLE_190_T3_Sunrise",
+    "normalizedFileName": "largosole190t3sunrisepng"
+  },
+  {
+    "fileName": "LARGO_SOLE_190_T3_Sunrise_strip.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지/LARGO_SOLE_190_T3_Sunrise_strip.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지",
+    "extractedCode": "LARGO_SOLE_190_T3_Sunrise_strip",
+    "normalizedFileName": "largosole190t3sunrisestrippng"
+  },
+  {
+    "fileName": "LARGO_SOLE_190_T3_Sunset.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지/LARGO_SOLE_190_T3_Sunset.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지",
+    "extractedCode": "LARGO_SOLE_190_T3_Sunset",
+    "normalizedFileName": "largosole190t3sunsetpng"
+  },
+  {
+    "fileName": "LARGO_SOLE_190_T3_Sunset_strip.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지/LARGO_SOLE_190_T3_Sunset_strip.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지",
+    "extractedCode": "LARGO_SOLE_190_T3_Sunset_strip",
+    "normalizedFileName": "largosole190t3sunsetstrippng"
+  },
+  {
+    "fileName": "LARGO_SOLE_190_T3_Teak_S.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지/LARGO_SOLE_190_T3_Teak_S.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지",
+    "extractedCode": "LARGO_SOLE_190_T3_Teak_S",
+    "normalizedFileName": "largosole190t3teakspng"
+  },
+  {
+    "fileName": "LARGO_SOLE_190_T3_Teak_S_strip.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지/LARGO_SOLE_190_T3_Teak_S_strip.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지",
+    "extractedCode": "LARGO_SOLE_190_T3_Teak_S_strip",
+    "normalizedFileName": "largosole190t3teaksstrippng"
+  },
+  {
+    "fileName": "LARGO_SOLE_240_T4_New_Cumulus.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지/LARGO_SOLE_240_T4_New_Cumulus.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지",
+    "extractedCode": "LARGO_SOLE_240_T4_New_Cumulus",
+    "normalizedFileName": "largosole240t4newcumuluspng"
+  },
+  {
+    "fileName": "LARGO_SOLE_240_T4_New_Cumulus_strip.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지/LARGO_SOLE_240_T4_New_Cumulus_strip.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지",
+    "extractedCode": "LARGO_SOLE_240_T4_New_Cumulus_strip",
+    "normalizedFileName": "largosole240t4newcumulusstrippng"
+  },
+  {
+    "fileName": "LARGO_SOLE_240_T4_New_Eclipse.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지/LARGO_SOLE_240_T4_New_Eclipse.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지",
+    "extractedCode": "LARGO_SOLE_240_T4_New_Eclipse",
+    "normalizedFileName": "largosole240t4neweclipsepng"
+  },
+  {
+    "fileName": "LARGO_SOLE_240_T4_New_Eclipse_strip.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지/LARGO_SOLE_240_T4_New_Eclipse_strip.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지",
+    "extractedCode": "LARGO_SOLE_240_T4_New_Eclipse_strip",
+    "normalizedFileName": "largosole240t4neweclipsestrippng"
+  },
+  {
+    "fileName": "LARGO_SOLE_240_T4_New_Oak_S.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지/LARGO_SOLE_240_T4_New_Oak_S.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지",
+    "extractedCode": "LARGO_SOLE_240_T4_New_Oak_S",
+    "normalizedFileName": "largosole240t4newoakspng"
+  },
+  {
+    "fileName": "LARGO_SOLE_240_T4_New_Oak_S_strip.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지/LARGO_SOLE_240_T4_New_Oak_S_strip.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지",
+    "extractedCode": "LARGO_SOLE_240_T4_New_Oak_S_strip",
+    "normalizedFileName": "largosole240t4newoaksstrippng"
+  },
+  {
+    "fileName": "LARGO_SOLE_240_T4_New_Sand.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지/LARGO_SOLE_240_T4_New_Sand.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지",
+    "extractedCode": "LARGO_SOLE_240_T4_New_Sand",
+    "normalizedFileName": "largosole240t4newsandpng"
+  },
+  {
+    "fileName": "LARGO_SOLE_240_T4_New_Sand_strip.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지/LARGO_SOLE_240_T4_New_Sand_strip.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지",
+    "extractedCode": "LARGO_SOLE_240_T4_New_Sand_strip",
+    "normalizedFileName": "largosole240t4newsandstrippng"
+  },
+  {
+    "fileName": "LARGO_SOLE_240_T4_New_Sunrise.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지/LARGO_SOLE_240_T4_New_Sunrise.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지",
+    "extractedCode": "LARGO_SOLE_240_T4_New_Sunrise",
+    "normalizedFileName": "largosole240t4newsunrisepng"
+  },
+  {
+    "fileName": "LARGO_SOLE_240_T4_New_Sunrise_strip.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지/LARGO_SOLE_240_T4_New_Sunrise_strip.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지",
+    "extractedCode": "LARGO_SOLE_240_T4_New_Sunrise_strip",
+    "normalizedFileName": "largosole240t4newsunrisestrippng"
+  },
+  {
     "fileName": "N 오크.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/N 오크.jpg",
     "category": "마루",

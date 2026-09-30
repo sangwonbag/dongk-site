@@ -97,18 +97,33 @@ export function getProductImageCandidates(product) {
 
   const rawCode = product.code || product.product_code || '';
   const rawName = product.name || '';
+  const brand = product.brand || '';
+  const line = product.line || product.subLine || '';
   const cleanedCode = cleanProductCode(rawCode);
   const cleanedName = cleanProductCode(rawName);
 
   const codeNorm = normalizeCode(cleanedCode);
   const nameNorm = normalizeCode(cleanedName);
+  const brandNorm = normalizeCode(brand);
+  const lineNorm = normalizeCode(line);
+
+  // Check if product is KCC SenseRay (센스레이)
+  const isSenseRay = (brandNorm === 'KCC' || (!brandNorm && codeNorm.startsWith('B'))) &&
+    (lineNorm.includes('센스레이') || nameNorm.includes('센스레이') || lineNorm.includes('SENSERAY') || nameNorm.includes('SENSERAY') || codeNorm.startsWith('B'));
 
   const addCandidate = (url) => {
     if (!url) return;
     const norm = normalizeProductImageUrl(url);
-    if (norm && norm !== '/images/no-image.svg' && !candidates.includes(norm)) {
-      candidates.push(norm);
+    if (!norm || norm === '/images/no-image.svg' || candidates.includes(norm)) return;
+
+    // For SenseRay products: reject any non-existent /KCC_pro/ dummy paths or SenStyle image paths/codes
+    if (isSenseRay) {
+      if (norm.includes('/KCC_pro/') || norm.includes('KCC_pro') || norm.includes('센스타일') || norm.includes('TS55') || norm.includes('KCC_square')) {
+        return;
+      }
     }
+
+    candidates.push(norm);
   };
 
   // 1. Direct DB fields (Highest Priority for server data accuracy)
@@ -173,44 +188,8 @@ export function getProductImageCandidates(product) {
       return false;
     });
 
-    // B-series KCC tile sibling pattern lookup (e.g. B3192J -> TS5546P, B3183J -> TS5543P, B0122J -> TS5548P, B0114J -> TS5549P)
-    if (!genMatch && codeNorm.startsWith('B')) {
-      const bMap = {
-        'B3192J': 'TS5546P',
-        'B3183J': 'TS5543P',
-        'B0122J': 'TS5548P',
-        'B0114J': 'TS5549P'
-      };
-      const mappedCode = bMap[codeNorm] || bMap[cleanedCode];
-      if (mappedCode) {
-        genMatch = generatedManifest.find(img => normalizeCode(img.extractedCode) === mappedCode);
-      }
-      if (!genMatch) {
-        const numericPart = codeNorm.replace(/[^0-9]/g, '');
-        if (numericPart && numericPart.length >= 3) {
-          genMatch = generatedManifest.find(img => {
-            if (categoryNorm && normalizeCode(img.category) && normalizeCode(img.category) !== categoryNorm) return false;
-            const imgCode = normalizeCode(img.extractedCode);
-            return imgCode && imgCode.includes(numericPart);
-          });
-        }
-      }
-    }
-
     if (genMatch && genMatch.fullPublicPath) {
       addCandidate(genMatch.fullPublicPath);
-    }
-  }
-
-  // 4. Code / Name sibling fallback attempt (e.g., B3192J <-> 33192P, B3183J <-> 33183P)
-  if (mappedManifest && codeNorm.startsWith('B') && codeNorm.endsWith('J')) {
-    const siblingCode = '3' + codeNorm.slice(1, -1) + 'P';
-    const siblingEntry = mappedManifest[siblingCode];
-    if (siblingEntry) {
-      const hashes = Array.isArray(siblingEntry) ? siblingEntry : [siblingEntry.thumbnail || siblingEntry.images?.[0]];
-      for (const hash of hashes) {
-        if (hash) addCandidate(hash.startsWith('http') ? hash : `${SUPABASE_PUBLIC_URL_PREFIX}${hash.replace(/^materials\//, '')}`);
-      }
     }
   }
 
