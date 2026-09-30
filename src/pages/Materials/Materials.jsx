@@ -3,7 +3,7 @@ import { useSearchParams } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { getComputedBrand, getMaterialTypeAndLine, formatShapeOrPattern, JANGPAN_STANDARD_THICKNESSES, FLOORING_THICKNESS_BY_BRAND, normalizeBrandName } from "../../utils/brandUtils";
 import MaterialCard from "../../components/material/MaterialCard";
-import { fetchFilteredProducts } from "../../utils/supabaseFetcher";
+import { fetchFilteredProducts, withTimeout } from "../../utils/supabaseFetcher";
 import { sortProducts, SORT_OPTIONS } from "../../utils/sortUtils";
 import { Skeleton, EmptyState, ErrorState } from "../../components/ui";
 import MobileFilterSheet from "../../components/material/MobileFilterSheet";
@@ -179,35 +179,50 @@ export default function Materials() {
     const controller = new AbortController();
 
     async function load() {
+      if (process.env.NODE_ENV !== 'production') {
+        console.debug('[Materials] request start', { category: activeTab, brand: activeBrand, thickness: activeThickness, requestId });
+      }
+      setLoading(true);
+      setError(null);
+      
       try {
-        setLoading(true);
-        setError(null);
-        
-        const res = await fetchFilteredProducts({
-          category: activeTab,
-          brand: activeBrand,
-          thickness: activeThickness,
-          page: 0,
-          pageSize: 2000,
-          signal: controller.signal
-        });
+        const res = await withTimeout(
+          fetchFilteredProducts({
+            category: activeTab,
+            brand: activeBrand,
+            thickness: activeThickness,
+            page: 0,
+            pageSize: 2000,
+            signal: controller.signal
+          }),
+          12000
+        );
 
         if (requestId === fetchRequestIdRef.current) {
           const items = Array.isArray(res) ? res : (res.items || []);
           setMaterialsList(items);
-          setLoading(false);
+          if (process.env.NODE_ENV !== 'production') {
+            console.debug('[Materials] request success', { count: items.length, requestId });
+          }
         }
       } catch (err) {
         if (err.name === 'AbortError' || err.message === 'aborted') {
-          if (requestId === fetchRequestIdRef.current) {
-            setLoading(false);
+          if (process.env.NODE_ENV !== 'production') {
+            console.debug('[Materials] request aborted', { requestId });
           }
           return;
         }
         console.error("[Materials] Supabase load error:", err);
         if (requestId === fetchRequestIdRef.current) {
-          setError(err.message || "자재 정보를 불러오지 못했습니다.");
+          const isTimeout = err.name === 'TimeoutError' || err.message === 'REQUEST_TIMEOUT';
+          setError(isTimeout ? "네트워크 응답 시간이 초과되었습니다. [다시 시도]를 눌러주세요." : (err.message || "자재 정보를 불러오지 못했습니다."));
+        }
+      } finally {
+        if (requestId === fetchRequestIdRef.current) {
           setLoading(false);
+          if (process.env.NODE_ENV !== 'production') {
+            console.debug('[Materials] request finished', { requestId });
+          }
         }
       }
     }
@@ -526,18 +541,37 @@ export default function Materials() {
   // Error View
   if (error) {
     const handleRetry = () => {
+      const requestId = ++fetchRequestIdRef.current;
       setError(null);
       setLoading(true);
-      fetchFilteredProducts({
-        category: activeTab,
-        brand: activeBrand
-      }).then(data => {
-        setMaterialsList(data);
-        setLoading(false);
-      }).catch(err => {
-        setError(err.message || String(err));
-        setLoading(false);
-      });
+
+      withTimeout(
+        fetchFilteredProducts({
+          category: activeTab,
+          brand: activeBrand,
+          thickness: activeThickness,
+          page: 0,
+          pageSize: 2000
+        }),
+        12000
+      )
+        .then(res => {
+          if (requestId === fetchRequestIdRef.current) {
+            const items = Array.isArray(res) ? res : (res.items || []);
+            setMaterialsList(items);
+          }
+        })
+        .catch(err => {
+          if (requestId === fetchRequestIdRef.current) {
+            const isTimeout = err.name === 'TimeoutError' || err.message === 'REQUEST_TIMEOUT';
+            setError(isTimeout ? "네트워크 응답 시간이 초과되었습니다. [다시 시도]를 눌러주세요." : (err.message || "자재 정보를 불러오지 못했습니다."));
+          }
+        })
+        .finally(() => {
+          if (requestId === fetchRequestIdRef.current) {
+            setLoading(false);
+          }
+        });
     };
 
     return (

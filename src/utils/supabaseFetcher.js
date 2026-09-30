@@ -279,17 +279,27 @@ export function mapProductRow(p) {
 }
 
 export function deduplicateProducts(productList) {
+  if (!Array.isArray(productList)) return [];
   const seenProducts = new Map();
   const deduplicatedProducts = [];
 
   for (const m of productList) {
+    if (!m) continue;
     const brand = normalizeText(m.brand);
     const category = normalizeText(m.category);
     const line = normalizeText(m.line);
     const name = normalizeText(m.name || m.productName);
     const code = normalizeText(m.code || m.product_code);
+    const id = m.id || m.product_id;
 
-    const key = code ? `${brand}_${category}_${code}` : `${brand}_${category}_${line}_${name}`;
+    let key = "";
+    if (code) {
+      key = `${brand}_${category}_${code}`;
+    } else if (name) {
+      key = `${brand}_${category}_${line}_${name}`;
+    } else {
+      key = `${brand}_${category}_id_${id}`;
+    }
 
     if (seenProducts.has(key)) {
       const existing = seenProducts.get(key);
@@ -307,13 +317,34 @@ export function deduplicateProducts(productList) {
   return deduplicatedProducts;
 }
 
+export function withTimeout(promise, ms = 12000) {
+  let timer = null;
+  const timeoutPromise = new Promise((_, reject) => {
+    timer = setTimeout(() => {
+      const err = new Error('REQUEST_TIMEOUT');
+      err.name = 'TimeoutError';
+      reject(err);
+    }, ms);
+  });
+
+  return Promise.race([
+    promise,
+    timeoutPromise
+  ]).finally(() => {
+    if (timer) clearTimeout(timer);
+  });
+}
+
 export async function fetchFilteredProducts({ category, brand, thickness, searchText, page = 0, pageSize = 2000, signal }) {
+  const safePage = Math.max(0, Number(page) || 0);
+  const safePageSize = Math.max(1, Number(pageSize) || 2000);
+
   if (!supabase) {
     console.warn("Supabase client is not initialized. Using local fallback filtering.");
     const all = await fetchAllProducts();
     const filtered = filterLocalProducts(all, { category, brand, thickness, searchText });
-    const from = page * pageSize;
-    const paged = filtered.slice(from, from + pageSize);
+    const from = safePage * safePageSize;
+    const paged = filtered.slice(from, from + safePageSize);
     const result = [...paged];
     result.items = paged;
     result.totalCount = filtered.length;
@@ -321,7 +352,7 @@ export async function fetchFilteredProducts({ category, brand, thickness, search
     return result;
   }
 
-  const cacheKey = `${category || 'all'}:${brand || 'all'}:${thickness || 'all'}:${searchText || ''}:${page}:${pageSize}`;
+  const cacheKey = `${category || 'all'}:${brand || 'all'}:${thickness || 'all'}:${searchText || ''}:${safePage}:${safePageSize}`;
   if (filteredProductsCache.has(cacheKey)) {
     return filteredProductsCache.get(cacheKey);
   }
@@ -333,8 +364,8 @@ export async function fetchFilteredProducts({ category, brand, thickness, search
 
   const fetchPromise = (async () => {
     try {
-      const from = page * pageSize;
-      const to = from + pageSize - 1;
+      const from = safePage * safePageSize;
+      const to = from + safePageSize - 1;
 
       let query = supabase
         .from('products')
@@ -380,7 +411,9 @@ export async function fetchFilteredProducts({ category, brand, thickness, search
       query = query.order('sort_order', { ascending: true }).order('id', { ascending: false });
       query = query.range(from, to);
 
-      const { data, count, error } = await query;
+      const res = await withTimeout(query, 12000);
+      const { data, count, error } = res || {};
+
       if (error) {
         if (error.name === 'AbortError' || error.message?.includes('aborted')) {
           const abortErr = new Error('aborted');
