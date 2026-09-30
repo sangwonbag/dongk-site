@@ -1,4 +1,4 @@
-import React, { useMemo, useState, useEffect, useCallback } from "react";
+import React, { useMemo, useState, useEffect, useCallback, useRef } from "react";
 import { useSearchParams } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { getComputedBrand, getMaterialTypeAndLine, formatShapeOrPattern, JANGPAN_STANDARD_THICKNESSES, FLOORING_THICKNESS_BY_BRAND, normalizeBrandName } from "../../utils/brandUtils";
@@ -93,6 +93,9 @@ export default function Materials() {
   const [hasMore, setHasMore] = useState(false);
   const [loadingMore, setLoadingMore] = useState(false);
 
+  // Request counter ref to prevent race conditions and guarantee loading termination
+  const fetchRequestIdRef = useRef(0);
+
   // Filters state (Direct inputs for name, code, spec)
   const [nameFilter, setNameFilter] = useState("");
   const [codeFilter, setCodeFilter] = useState("");
@@ -172,7 +175,7 @@ export default function Materials() {
 
   // Fetch products from Supabase/cache on mount/filter change
   useEffect(() => {
-    let isCurrent = true;
+    const requestId = ++fetchRequestIdRef.current;
     const controller = new AbortController();
 
     async function load() {
@@ -189,19 +192,21 @@ export default function Materials() {
           signal: controller.signal
         });
 
-        if (isCurrent) {
-          setMaterialsList(res.items || res);
+        if (requestId === fetchRequestIdRef.current) {
+          const items = Array.isArray(res) ? res : (res.items || []);
+          setMaterialsList(items);
+          setLoading(false);
         }
       } catch (err) {
         if (err.name === 'AbortError' || err.message === 'aborted') {
+          if (requestId === fetchRequestIdRef.current) {
+            setLoading(false);
+          }
           return;
         }
-        console.error("[Debug] Supabase load error:", err);
-        if (isCurrent) {
-          setError(err.message || String(err));
-        }
-      } finally {
-        if (isCurrent) {
+        console.error("[Materials] Supabase load error:", err);
+        if (requestId === fetchRequestIdRef.current) {
+          setError(err.message || "자재 정보를 불러오지 못했습니다.");
           setLoading(false);
         }
       }
@@ -210,7 +215,6 @@ export default function Materials() {
     load();
 
     return () => {
-      isCurrent = false;
       controller.abort();
     };
   }, [activeTab, activeBrand, activeThickness]);
@@ -805,6 +809,7 @@ export default function Materials() {
                   )}
                 </div>
                 <div className="results-sort-wrapper">
+                  <span className="page-size-badge">30개씩 보기</span>
                   <label htmlFor="materials-sort-select" className="sort-label">정렬</label>
                   <select
                     id="materials-sort-select"

@@ -181,11 +181,11 @@
     font-weight: 700;
 }
 
-/* Grid Layout (4 Columns) */
+/* Grid Layout (PC: 5 Columns) */
 .sb-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 16px;
     width: 100%;
 }
 
