@@ -1,6 +1,7 @@
 import { supabase } from '../lib/supabaseClient.js';
 import { dongshinPolymer2026 } from '../data/dongshinPolymer2026.js';
 import { normalizeProductDetails } from './brandUtils.js';
+import { HIDE_SUB_MATERIALS, isSubMaterialCategory } from '../config/categoryConfig.js';
 
 let localMaterialsCache = null;
 async function getLocalMaterials() {
@@ -65,7 +66,11 @@ export async function fetchHomeProducts(limit = 20) {
       const res = await Promise.race([queryPromise, softTimer]);
 
       if (res && !res.timeout && !res.error && res.data && res.data.length > 0) {
-        cachedHomeProducts = deduplicateProducts(res.data.map(mapProductRow));
+        let mapped = deduplicateProducts(res.data.map(mapProductRow));
+        if (HIDE_SUB_MATERIALS) {
+          mapped = mapped.filter(m => !isSubMaterialCategory(m));
+        }
+        cachedHomeProducts = mapped.slice(0, limit);
         return cachedHomeProducts;
       }
 
@@ -79,7 +84,11 @@ export async function fetchHomeProducts(limit = 20) {
 
   // Instant local fallback - guaranteed never to throw an exception
   const all = await fetchAllProducts();
-  cachedHomeProducts = all.slice(0, limit);
+  let filteredAll = all;
+  if (HIDE_SUB_MATERIALS) {
+    filteredAll = all.filter(m => !isSubMaterialCategory(m));
+  }
+  cachedHomeProducts = filteredAll.slice(0, limit);
   return cachedHomeProducts;
 }
 
@@ -345,8 +354,49 @@ export async function fetchFilteredProducts({ category, brand, thickness, search
   }
 
   const getLocalFallbackResult = async () => {
-    const all = await fetchAllProducts();
-    const filtered = filterLocalProducts(all, { category, brand, thickness, searchText });
+    const rawLocalMaterials = await getLocalMaterials();
+    const mappedLocal = (rawLocalMaterials || []).map(m => {
+      const mapped = {
+        id: m.id || m.code,
+        code: m.code || "",
+        name: m.name || "",
+        brand: m.brand || "",
+        category: m.category || "",
+        price: m.price || 0,
+        thickness: m.thickness || "",
+        specs: m.specs || {
+          thickness: m.thickness || "",
+          size: "",
+          packing: ""
+        },
+        thumbnail: m.thumbnail || null,
+        image: m.thumbnail || m.image || null,
+        images: m.images || [],
+        line: m.line || "",
+        type: m.type || "",
+        active: m.active ?? true
+      };
+
+      if (m.collection) mapped.collection = m.collection;
+      if (m.series) mapped.series = m.series;
+      if (m.subCategory) mapped.subCategory = m.subCategory;
+      if (m.catalog) mapped.catalog = m.catalog;
+      if (m.productName) mapped.productName = m.productName;
+      if (m.shape) mapped.shape = m.shape;
+      if (m.shape_kr) mapped.shape_kr = m.shape_kr;
+      if (m.family) mapped.family = m.family;
+      if (m.common_intro) mapped.common_intro = m.common_intro;
+      if (m.shape_intro) mapped.shape_intro = m.shape_intro;
+      if (m.pattern) mapped.pattern = m.pattern;
+      if (m.specs && m.specs.area) {
+        if (!mapped.specs) mapped.specs = {};
+        mapped.specs.area = m.specs.area;
+      }
+
+      return normalizeProductDetails(mapped);
+    });
+
+    const filtered = filterLocalProducts(mappedLocal, { category, brand, thickness, searchText });
     const from = safePage * safePageSize;
     const paged = filtered.slice(from, from + safePageSize);
     const result = [...paged];
@@ -357,13 +407,11 @@ export async function fetchFilteredProducts({ category, brand, thickness, search
   };
 
   if (!supabase) {
-    console.warn("Supabase client is not initialized. Using local fallback filtering.");
     const result = await getLocalFallbackResult();
     filteredProductsCache.set(cacheKey, result);
     return result;
   }
 
-  // Do not reuse inflight promises if an AbortSignal is used, to prevent signal cross-contamination
   if (!signal && filteredProductsCache.has(`inflight:${cacheKey}`)) {
     return filteredProductsCache.get(`inflight:${cacheKey}`);
   }
@@ -417,8 +465,8 @@ export async function fetchFilteredProducts({ category, brand, thickness, search
       query = query.order('sort_order', { ascending: true }).order('id', { ascending: false });
       query = query.range(from, to);
 
-      // Soft race: wait 2500ms max for Supabase query
-      const softTimer = new Promise(resolve => setTimeout(() => resolve({ timeout: true }), 2500));
+      // Soft race: wait 1500ms max for live Supabase DB response
+      const softTimer = new Promise(resolve => setTimeout(() => resolve({ timeout: true }), 1500));
       const res = await Promise.race([query, softTimer]);
 
       if (res && !res.timeout && !res.error && res.data && Array.isArray(res.data) && res.data.length > 0) {
@@ -440,17 +488,15 @@ export async function fetchFilteredProducts({ category, brand, thickness, search
         abortErr.name = 'AbortError';
         throw abortErr;
       }
-
-      console.warn('[fetchFilteredProducts] Supabase DB response slow (>2.5s), empty, or returned error. Serving local fallback data seamlessly.');
     } catch (err) {
       if (err.name === 'AbortError' || err.message === 'aborted') {
         filteredProductsCache.delete(`inflight:${cacheKey}`);
         throw err;
       }
-      console.warn('[fetchFilteredProducts] Supabase fetch exception, serving local fallback data:', err);
+      console.warn('[fetchFilteredProducts] Supabase fetch exception or soft timeout, serving instant local fallback:', err);
     }
 
-    // Local fallback data fetch when Supabase is slow or errors out
+    // Instant local fallback when Supabase is slow or errors out
     const fallbackResult = await getLocalFallbackResult();
     if (fallbackResult.length > 0) {
       filteredProductsCache.set(cacheKey, fallbackResult);
@@ -471,16 +517,20 @@ export async function fetchFilteredProducts({ category, brand, thickness, search
 }
 
 function filterLocalProducts(list, { category, brand, thickness, searchText }) {
+  let workingList = list;
+  if (HIDE_SUB_MATERIALS) {
+    workingList = workingList.filter(m => !isSubMaterialCategory(m));
+  }
   if (searchText) {
     const s = searchText.trim().toLowerCase();
-    return list.filter(m => 
+    return workingList.filter(m => 
       String(m.name).toLowerCase().includes(s) || 
       String(m.code).toLowerCase().includes(s) || 
       String(m.brand).toLowerCase().includes(s) ||
       String(m.line).toLowerCase().includes(s)
     );
   }
-  return list.filter(m => {
+  return workingList.filter(m => {
     const catOk = !category || category === 'all' || m.category === category;
     let brandOk = false;
     if (!brand || brand === 'all') {

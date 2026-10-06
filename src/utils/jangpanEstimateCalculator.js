@@ -9,6 +9,7 @@
  */
 
 import { JANGPAN_PRODUCTS_CONFIG, JANGPAN_ACCESSORIES_CONFIG } from '../config/jangpanQuoteConfig.js';
+import { HIDE_SUB_MATERIALS } from '../config/categoryConfig.js';
 
 /**
  * ID, 이름, 두께 파라미터로 장판 설정 데이터 조회
@@ -95,7 +96,7 @@ export function calculateJangpanQuote({ product: productParam, areaPyeong, acces
 
   // 7. 부자재 계산 (선택된 방식에 따라 단가 유동 적용)
   const calculatedAccessories = JANGPAN_ACCESSORIES_CONFIG.map(acc => {
-    const qty = Math.max(0, parseInt(accessoriesMap[acc.id] || 0) || 0);
+    const qty = HIDE_SUB_MATERIALS ? 0 : Math.max(0, parseInt(accessoriesMap[acc.id] || 0) || 0);
     // 방식이 시공포함일 경우 시공포함 단가(5,000원), 자재+인건비일 경우 자재단가(3,000원)
     const unitPrice = selectedMethodKey === "installed" ? acc.installedPrice : acc.materialPrice;
     const amount = qty * unitPrice;

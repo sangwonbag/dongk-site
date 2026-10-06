@@ -10,6 +10,7 @@ import { getProductPyeong, calculateDecorTilePyeong } from "../../utils/shipping
 import { isDecoTile } from "../../utils/decotileUtils";
 import { isMaterialItem, isAccessoryItem } from "../../utils/productClassification";
 import SEO from "../../components/seo/SEO";
+import { HIDE_SUB_MATERIALS, isSubMaterialCategory } from "../../config/categoryConfig";
 import "./Cart.css";
 
 export default function Cart() {
@@ -29,12 +30,17 @@ export default function Cart() {
     return isNaN(parsed) ? 0 : parsed;
   };
 
-  // Calculation states
+  // Filter active payable cart items (excluding hidden sub-materials when feature flag is active)
+  const payableCartItems = HIDE_SUB_MATERIALS 
+    ? cartItems.filter(item => !isSubMaterialCategory(item)) 
+    : cartItems;
+  const hasHiddenSubMaterialsInCart = HIDE_SUB_MATERIALS && cartItems.some(item => isSubMaterialCategory(item));
+
   const totalItemsCount = cartItems.length;
   
   const getDisplayTotalQtyText = () => {
-    const materialItemsOnly = cartItems.filter(isMaterialItem);
-    const accessoryItemsOnly = cartItems.filter(isAccessoryItem);
+    const materialItemsOnly = payableCartItems.filter(isMaterialItem);
+    const accessoryItemsOnly = payableCartItems.filter(isAccessoryItem);
 
     const tileOrFloorQty = materialItemsOnly
       .filter(item => item.category !== "장판" && item.category !== "벽지")
@@ -70,7 +76,7 @@ export default function Cart() {
   };
 
   const calculateSubtotal = () => {
-    return cartItems.reduce((sum, item) => {
+    return payableCartItems.reduce((sum, item) => {
       const qty = parseInt(item.quantity) || 1;
       const price = getItemUnitPrice(item, qty);
       return sum + (price * qty);
@@ -78,7 +84,7 @@ export default function Cart() {
   };
 
   // Flag if any item requires consulting (price is 0 or null)
-  const hasUnpricedItems = cartItems.some(item => {
+  const hasUnpricedItems = payableCartItems.some(item => {
     const price = parsePrice(item.price);
     return price <= 0;
   });
@@ -87,6 +93,11 @@ export default function Cart() {
   const handleProceedOrder = () => {
     if (!currentUser) {
       openLoginModal();
+      return;
+    }
+
+    if (payableCartItems.length === 0) {
+      alert("장바구니에 담긴 상품이 현재 판매 중단(부자재)되었거나 구매 가능한 자재가 없습니다.");
       return;
     }
 
@@ -162,6 +173,13 @@ export default function Cart() {
               </div>
             </div>
 
+            {/* 부자재 일시 중단 안내 배너 */}
+            {hasHiddenSubMaterialsInCart && (
+              <div className="price-warning-banner" style={{ background: '#fef2f2', borderColor: '#fca5a5', color: '#991b1b', marginBottom: '16px' }}>
+                <strong>⚠️ 안내:</strong> 장바구니에 포함된 부자재 상품은 현재 일시적으로 판매가 중단되었습니다. 신규 주문 결제 금액에서 제외됩니다.
+              </div>
+            )}
+
             {/* 가격 확인 필요 알림 배너 */}
             {hasUnpricedItems && (
               <div className="price-warning-banner">
@@ -177,6 +195,7 @@ export default function Cart() {
               <div className="cart-left-section">
                 <div className="cart-item-list">
                   {cartItems.map((item) => {
+                    const isSubMat = HIDE_SUB_MATERIALS && isSubMaterialCategory(item);
                     const qty = parseInt(item.quantity) || 1;
                     const price = getItemUnitPrice(item, qty);
                     const itemSpec = item.spec || item.specs?.size || "표준규격";
@@ -193,7 +212,7 @@ export default function Cart() {
 
 
                     return (
-                      <div key={item.id} className="cart-item-card">
+                      <div key={item.id} className="cart-item-card" style={isSubMat ? { opacity: 0.7, background: '#fcfcfc' } : {}}>
                         {/* 상품 이미지 */}
                         <div className="cart-item-img-wrapper">
                           <img 
@@ -217,6 +236,7 @@ export default function Cart() {
                               })()}
                             </span>}
                             {item.category && <span className="badge-category">{item.category}</span>}
+                            {isSubMat && <span className="badge-category" style={{ background: '#ef4444', color: '#ffffff', fontWeight: 700 }}>구매 불가 (판매 중단)</span>}
                           </div>
                           <h4 className="cart-item-name">
                             {formatFlooringProductName(item)}

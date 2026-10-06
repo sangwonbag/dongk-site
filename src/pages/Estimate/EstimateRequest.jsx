@@ -13,6 +13,7 @@ import { loadDaumPostcode } from '../../utils/loadDaumPostcode';
 import { getComputedBrand, formatProductTitle, getProductUnit } from '../../utils/brandUtils';
 import { getMaterialImagePath } from '../../utils/materialImageResolver';
 import SEO from '../../components/seo/SEO';
+import { HIDE_SUB_MATERIALS, isSubMaterialCategory } from '../../config/categoryConfig';
 import { supabase } from '../../lib/supabaseClient';
 import './EstimateRequest.css';
 
@@ -1086,19 +1087,23 @@ export default function EstimateRequest() {
                 </div>
               )}
 
-              <h3 style={{ marginTop: '30px' }}>부자재 추천 (선택)</h3>
-              <div className="accessory-grid">
-                {ACCESSORY_OPTIONS.map(opt => (
-                  <label key={opt} className="checkbox-label acc-label">
-                    <input type="checkbox" checked={accessories.includes(opt)} onChange={(e) => {
-                      if (e.target.checked) setAccessories([...accessories, opt]);
-                      else setAccessories(accessories.filter(a => a !== opt));
-                    }} />
-                    {opt}
-                  </label>
-                ))}
-              </div>
-              <input type="text" value={extraAccessory} onChange={e => setExtraAccessory(e.target.value)} placeholder="기타 직접 입력" className="extra-acc-input" />
+              {!HIDE_SUB_MATERIALS && (
+                <>
+                  <h3 style={{ marginTop: '30px' }}>부자재 추천 (선택)</h3>
+                  <div className="accessory-grid">
+                    {ACCESSORY_OPTIONS.map(opt => (
+                      <label key={opt} className="checkbox-label acc-label">
+                        <input type="checkbox" checked={accessories.includes(opt)} onChange={(e) => {
+                          if (e.target.checked) setAccessories([...accessories, opt]);
+                          else setAccessories(accessories.filter(a => a !== opt));
+                        }} />
+                        {opt}
+                      </label>
+                    ))}
+                  </div>
+                  <input type="text" value={extraAccessory} onChange={e => setExtraAccessory(e.target.value)} placeholder="기타 직접 입력" className="extra-acc-input" />
+                </>
+              )}
             </div>
           )}
 

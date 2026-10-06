@@ -6,6 +6,7 @@ import SEO from "../../components/seo/SEO";
 import { KAKAO_CHAT_URL, OFFICE_PHONE } from "../../constants/contact";
 import { supabase } from "../../lib/supabaseClient";
 import { preloadRoute, setupIdlePreload } from "../../utils/routePreloader";
+import { HIDE_SUB_MATERIALS } from "../../config/categoryConfig";
 import { 
   ArrowRight, 
   ChevronRight, 
@@ -413,19 +414,21 @@ export default function Home() {
                   </div>
                 </Link>
 
-                <Link 
-                  to="/materials?category=부자재" 
-                  className="cat-tile-card"
-                  onMouseEnter={() => preloadRoute('/materials')}
-                >
-                  <div className="cat-thumb-box">
-                    <img src="/images/categories/category-accessories.webp" alt="부자재" loading="lazy" decoding="async" width="300" height="200" />
-                  </div>
-                  <div className="cat-title-bar">
-                    <h4>부자재</h4>
-                    <span>접착제 / 용착제 / 걸레받이</span>
-                  </div>
-                </Link>
+                {!HIDE_SUB_MATERIALS && (
+                  <Link 
+                    to="/materials?category=부자재" 
+                    className="cat-tile-card"
+                    onMouseEnter={() => preloadRoute('/materials')}
+                  >
+                    <div className="cat-thumb-box">
+                      <img src="/images/categories/category-accessories.webp" alt="부자재" loading="lazy" decoding="async" width="300" height="200" />
+                    </div>
+                    <div className="cat-title-bar">
+                      <h4>부자재</h4>
+                      <span>접착제 / 용착제 / 걸레받이</span>
+                    </div>
+                  </Link>
+                )}
               </div>
             </div>
           </section>

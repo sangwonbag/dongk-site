@@ -12,8 +12,11 @@ import SEO from "../../components/seo/SEO";
 import "./Materials.css";
 import "./MaterialsPageSkeleton.css";
 
+import { HIDE_SUB_MATERIALS, getVisibleCategories } from "../../config/categoryConfig";
+
 // 1. Categories specified by the user
-const CATEGORIES = ["데코타일", "장판", "마루", "벽지", "카페트타일", "부자재"];
+const ALL_CATEGORIES = ["데코타일", "장판", "마루", "벽지", "카페트타일", "부자재"];
+const CATEGORIES = getVisibleCategories(ALL_CATEGORIES);
 
 // 2. Brands specified by the user
 const BRANDS_BY_CATEGORY = {
@@ -148,6 +151,13 @@ export default function Materials() {
   const PRODUCTS_PER_LOAD = 30;
   const [visibleCount, setVisibleCount] = useState(PRODUCTS_PER_LOAD);
 
+  // Sanitize URL query parameter for category if 부자재 is hidden
+  useEffect(() => {
+    if (HIDE_SUB_MATERIALS && (searchParams.get("category") === "부자재" || searchParams.get("category") === "부자재류")) {
+      updateParams({ category: "데코타일", brand: "KCC" });
+    }
+  }, [searchParams]);
+
   // Redirect if line param contains MACOSX
   useEffect(() => {
     const lineParam = searchParams.get("line");
@@ -186,17 +196,14 @@ export default function Materials() {
       setError(null);
       
       try {
-        const res = await withTimeout(
-          fetchFilteredProducts({
-            category: activeTab,
-            brand: activeBrand,
-            thickness: activeThickness,
-            page: 0,
-            pageSize: 2000,
-            signal: controller.signal
-          }),
-          12000
-        );
+        const res = await fetchFilteredProducts({
+          category: activeTab,
+          brand: activeBrand,
+          thickness: activeThickness,
+          page: 0,
+          pageSize: 2000,
+          signal: controller.signal
+        });
 
         if (requestId === fetchRequestIdRef.current) {
           const items = Array.isArray(res) ? res : (res.items || []);
@@ -212,10 +219,9 @@ export default function Materials() {
           }
           return;
         }
-        console.error("[Materials] Supabase load error:", err);
+        console.error("[Materials] load error:", err);
         if (requestId === fetchRequestIdRef.current) {
-          const isTimeout = err.name === 'TimeoutError' || err.message === 'REQUEST_TIMEOUT';
-          setError(isTimeout ? "네트워크 응답 시간이 초과되었습니다. [다시 시도]를 눌러주세요." : (err.message || "자재 정보를 불러오지 못했습니다."));
+          setError(err.message || "자재 정보를 불러오지 못했습니다.");
         }
       } finally {
         if (requestId === fetchRequestIdRef.current) {
@@ -538,55 +544,38 @@ export default function Materials() {
     return visibleCount < sortedProducts.length;
   }, [visibleCount, sortedProducts.length]);
 
-  // Error View
-  if (error) {
-    const handleRetry = () => {
-      const requestId = ++fetchRequestIdRef.current;
-      setError(null);
-      setLoading(true);
+  // Retry handler for user-initiated retry action
+  const handleRetry = useCallback(() => {
+    const requestId = ++fetchRequestIdRef.current;
+    setError(null);
+    setLoading(true);
 
-      withTimeout(
-        fetchFilteredProducts({
-          category: activeTab,
-          brand: activeBrand,
-          thickness: activeThickness,
-          page: 0,
-          pageSize: 2000
-        }),
-        12000
-      )
-        .then(res => {
-          if (requestId === fetchRequestIdRef.current) {
-            const items = Array.isArray(res) ? res : (res.items || []);
-            setMaterialsList(items);
-          }
-        })
-        .catch(err => {
-          if (requestId === fetchRequestIdRef.current) {
-            const isTimeout = err.name === 'TimeoutError' || err.message === 'REQUEST_TIMEOUT';
-            setError(isTimeout ? "네트워크 응답 시간이 초과되었습니다. [다시 시도]를 눌러주세요." : (err.message || "자재 정보를 불러오지 못했습니다."));
-          }
-        })
-        .finally(() => {
-          if (requestId === fetchRequestIdRef.current) {
-            setLoading(false);
-          }
-        });
-    };
-
-    return (
-      <MainLayout>
-        <div className="container" style={{ padding: "100px 0" }}>
-          <ErrorState 
-            title="자료를 불러오지 못했습니다" 
-            message={error} 
-            retryLabel="다시 시도" 
-            onRetry={handleRetry} 
-          />
-        </div>
-      </MainLayout>
-    );
-  }
+    fetchFilteredProducts({
+      category: activeTab,
+      brand: activeBrand,
+      thickness: activeThickness,
+      page: 0,
+      pageSize: 2000
+    })
+      .then(res => {
+        if (requestId === fetchRequestIdRef.current) {
+          const items = Array.isArray(res) ? res : (res.items || []);
+          setMaterialsList(items);
+        }
+      })
+      .catch(err => {
+        if (err.name === 'AbortError' || err.message === 'aborted') return;
+        if (requestId === fetchRequestIdRef.current) {
+          const isTimeout = err.name === 'TimeoutError' || err.message === 'REQUEST_TIMEOUT';
+          setError(isTimeout ? "네트워크 응답 시간이 초과되었습니다. [다시 시도]를 눌러주세요." : (err.message || "자재 정보를 불러오지 못했습니다."));
+        }
+      })
+      .finally(() => {
+        if (requestId === fetchRequestIdRef.current) {
+          setLoading(false);
+        }
+      });
+  }, [activeTab, activeBrand, activeThickness]);
 
   const seoTitle = activeTab 
     ? `${activeTab}${activeBrand !== 'all' ? ` (${activeBrand})` : ''} 자재조회 | 동경바닥재`
@@ -879,6 +868,15 @@ export default function Materials() {
                       </div>
                     </div>
                   ))}
+                </div>
+              ) : error && materialsList.length === 0 ? (
+                <div style={{ padding: '60px 0' }}>
+                  <ErrorState 
+                    title="자료를 불러오지 못했습니다" 
+                    message={error} 
+                    retryLabel="다시 시도" 
+                    onRetry={handleRetry} 
+                  />
                 </div>
               ) : visibleProducts.length > 0 ? (
                 <>

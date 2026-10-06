@@ -55,6 +55,8 @@ async function getLocalImageManifestData() {
 
 import { getProductPyeong } from "../../utils/shippingUtils";
 import { isDecoTile, DECOTILE_NOTICE_TEXT } from "../../utils/decotileUtils";
+import { HIDE_SUB_MATERIALS, isSubMaterialCategory } from "../../config/categoryConfig";
+
 import "./MaterialDetail.css";
 
 
@@ -1206,6 +1208,35 @@ export default function MaterialDetail() {
     );
   }
 
+  if (HIDE_SUB_MATERIALS && isSubMaterialCategory(item)) {
+    return (
+      <MainLayout>
+        <SEO 
+          title="상품 정보 | 동경바닥재"
+          description="현재 일시적으로 판매를 중단한 상품입니다."
+          canonical="https://dkfloor.co.kr/materials"
+        />
+        <div className="container" style={{ padding: "120px 0", textAlign: "center", color: "#6B6B6B" }}>
+          <div style={{ fontSize: "48px", marginBottom: "16px" }}>📦</div>
+          <h2 style={{ fontSize: "22px", color: "#2D2D2D", fontWeight: 700 }}>현재 일시적으로 판매를 중단한 상품입니다.</h2>
+          <p style={{ marginTop: "12px", color: "#6B7280", fontSize: "15px" }}>
+            해당 상품은 현재 판매가 중단되었습니다.<br />
+            자재찾기에서 다양한 바닥재 및 벽지 상품을 확인해보세요.
+          </p>
+          <div style={{ marginTop: "32px", display: "flex", gap: "12px", justifyContent: "center" }}>
+            <button 
+              className="btn-showroom-dark" 
+              onClick={() => navigate("/materials")} 
+              style={{ padding: '14px 32px', borderRadius: '25px', backgroundColor: '#111827', color: '#ffffff', cursor: 'pointer', border: 'none', fontWeight: 600, fontSize: '15px' }}
+            >
+              자재찾기로 돌아가기
+            </button>
+          </div>
+        </div>
+      </MainLayout>
+    );
+  }
+
   // Auto-fill and Redirection Handler
   const handleEstimate = () => {
     if (!currentUser) {
@@ -1556,6 +1587,7 @@ export default function MaterialDetail() {
                     alt={`${item.name} main`} 
                     onError={() => handleImageError(productImages[selectedImageIndex])} 
                     className="showroom-main-img"
+                    style={{ objectFit: 'contain' }}
                   />
                 ) : (
                   <div className="showroom-img-placeholder" style={{
@@ -1576,6 +1608,9 @@ export default function MaterialDetail() {
                     <span style={{ fontSize: '11px', fontWeight: '500', opacity: 0.8, marginTop: '6px' }}>상품코드 기준 이미지 확인 필요</span>
                   </div>
                 )}
+              </div>
+              <div className="showroom-img-caption" style={{ textAlign: 'center', marginTop: '10px', fontSize: '14px', color: '#475569', fontWeight: '600' }}>
+                {displayName} ({item.code})
               </div>
 
               {productImages.length > 1 && (
@@ -1635,6 +1670,18 @@ export default function MaterialDetail() {
                       <>
                         <span className="divider">·</span>
                         <span className="line-name">{item.line}</span>
+                      </>
+                    )}
+                  </>
+                ) : item.brand === 'KCC' ? (
+                  <>
+                    <span className="brand-name">KCC</span>
+                    <span className="divider">·</span>
+                    <span className="category-name">{item.family || item.line || item.category}</span>
+                    {(item.shape_kr || item.shape) && (
+                      <>
+                        <span className="divider">·</span>
+                        <span className="sub-category">{item.shape_kr || item.shape}</span>
                       </>
                     )}
                   </>
@@ -2032,6 +2079,22 @@ export default function MaterialDetail() {
                 </div>
               </section>
 
+              {/* KCC Product Intro Section */}
+              {item.brand === 'KCC' && (item.common_intro || item.shape_intro) && (
+                <section className="detail-doc-section">
+                  <h2 className="doc-section-title">제품 소개</h2>
+                  <div className="doc-accent-bar"></div>
+                  <div className="kcc-product-intro-box" style={{ background: '#f8fafc', padding: '20px', borderRadius: '12px', border: '1px solid #e2e8f0', lineHeight: '1.7', color: '#334155' }}>
+                    {item.common_intro && (
+                      <p style={{ fontWeight: '600', marginBottom: '10px', color: '#0f172a', fontSize: '15px' }}>{item.common_intro}</p>
+                    )}
+                    {item.shape_intro && (
+                      <p style={{ color: '#475569', fontSize: '14px' }}>[{item.shape_kr || item.shape}] {item.shape_intro}</p>
+                    )}
+                  </div>
+                </section>
+              )}
+
               {/* Technical Specifications Table */}
               <section className="detail-doc-section">
                 <h2 className="doc-section-title">자재 규격 상세표</h2>
@@ -2142,32 +2205,34 @@ export default function MaterialDetail() {
                         <>
                           <tr>
                             <th>제조 브랜드</th>
-                            <td>KCC글라스 (홈씨씨)</td>
-                            <th>카테고리 / 라인업</th>
-                            <td>데코타일 · 센스타일 트랜디</td>
+                            <td>KCC</td>
+                            <th>제품군</th>
+                            <td>{item.family || item.line || "데코타일"}</td>
                           </tr>
                           <tr>
-                            <th>자재 식별 코드</th>
+                            <th>제품코드</th>
                             <td>{item.code}</td>
-                            <th>패턴 / 형태</th>
-                            <td>{item.pattern || "기본 패턴"} ({item.shape || "규격형"})</td>
+                            <th>형태</th>
+                            <td>{item.shape_kr ? `${item.shape_kr} (${item.shape})` : (item.shape || "규격형")}</td>
                           </tr>
                           <tr>
-                            <th>두께 규격</th>
-                            <td>{item.specs?.thickness || item.thickness || "3.0T"} (3.0mm)</td>
-                            <th>제품 가로세로 규격</th>
-                            <td>{item.specs?.size || item.spec || "규격 확인 필요"}</td>
+                            <th>두께</th>
+                            <td>{item.specs?.thickness || item.thickness || (item.family === '센스레이' ? "5.0mm(5T)" : "3.0mm(3T)")}</td>
+                            <th>폭 × 길이</th>
+                            <td>{item.specs?.size || item.size_dim || item.spec || "규격 확인 필요"}</td>
                           </tr>
                           <tr>
-                            <th>포장 패킹 단위</th>
-                            <td>{item.specs?.packing || "상담 확인 필요"}</td>
-                            <th>BOX당 시공면적</th>
-                            <td>{item.specs?.area || "3.32㎡"} / BOX</td>
+                            <th>박스당 수량</th>
+                            <td>{item.specs?.pcs_per_box || item.pcs_per_box || (item.pcs_num ? `${item.pcs_num}장` : "상담 확인 필요")}</td>
+                            <th>박스당 포장 기준 면적</th>
+                            <td>{item.specs?.area || item.area_per_box || (item.area_num ? `${item.area_num}㎡` : "상담 확인 필요")}</td>
                           </tr>
-                          <tr>
-                            <th>권장 접착 자재</th>
-                            <td colSpan="3">데코타일 본드 (전용 본드 시공 권장)</td>
-                          </tr>
+                          {(item.family === '센스레이' || item.line === '센스레이' || (item.code && item.code.startsWith('B')) || item.wear_layer) && (
+                            <tr>
+                              <th>내마모층</th>
+                              <td colSpan="3">{item.wear_layer || "0.5mm"}</td>
+                            </tr>
+                          )}
                         </>
                       ) : (
                         <>
@@ -2302,34 +2367,25 @@ export default function MaterialDetail() {
                     </>
                   ) : item.brand === 'KCC' && item.category === '데코타일' ? (
                     <>
-                      {item.crossInstallation && (
-                        <div className="guide-card-item" style={{ borderLeft: '4px solid var(--point-orange)', background: '#fff7ed' }}>
-                          <AlertTriangle className="guide-card-icon text-warn" style={{ color: 'var(--point-orange)' }} />
-                          <div className="guide-card-text">
-                            <h5 style={{ color: 'var(--point-orange)' }}>교차 시공 권장 (교차패턴)</h5>
-                            <p>본 우븐/카펫 패턴 제품은 방향성을 고려하여 직각 교차 패턴(Cross Installation)으로 시공 시 디자인 완성도가 가장 높습니다.</p>
-                          </div>
-                        </div>
-                      )}
                       <div className="guide-card-item">
                         <ShieldCheck className="guide-card-icon text-success" />
                         <div className="guide-card-text">
-                          <h5>동일 LOT 시공 및 실내 환경 유의</h5>
-                          <p>동일 공간 시공 시 이색 방지를 위해 반드시 동일 LOT 번호 제품을 시공해야 합니다. 바닥 함수율 4.5% 이하, 동절기 실내온도 18~22℃ 유지가 필수입니다.</p>
+                          <h5>구매 수량 및 판매단위 안내</h5>
+                          <p>표시된 면적은 카탈로그의 박스당 포장 기준 면적입니다. 실제 주문 수량은 현장 실측 면적과 재단 손실, 시공 방향 등을 고려해 확인해 주세요. 제품 형태에 따라 박스당 수량과 면적이 다릅니다.</p>
                         </div>
                       </div>
                       <div className="guide-card-item">
                         <AlertTriangle className="guide-card-icon text-warn" />
                         <div className="guide-card-text">
-                          <h5>충분한 압착 및 지정 접착제 사용</h5>
-                          <p>시공 후 핸드로러 등으로 바닥 전면에 충분한 압착을 진행하고, KCC 지정 전용 데코타일 본드를 사용해야 뜸 및 들뜸 현상을 방지할 수 있습니다.</p>
+                          <h5>시공 전 확인사항</h5>
+                          <p>시공 전 바탕면 상태와 현장 조건을 확인해 주세요. 접착제와 시공 방법, 난방 바닥 적용 여부는 해당 제품의 제조사 시공지침 및 현장 상담을 통해 확인 후 결정해 주세요.</p>
                         </div>
                       </div>
                       <div className="guide-card-item">
                         <HelpCircle className="guide-card-icon text-info" />
                         <div className="guide-card-text">
-                          <h5>현장 수평 및 양중 조건</h5>
-                          <p>바닥 면의 단차나 요철이 심한 경우 사전 평탄화 작업이 요구되며, 고층 현장의 경우 화물 엘리베이터/사다리차 이용 여부를 확인해 주시기 바랍니다.</p>
+                          <h5>색상 및 이미지 안내</h5>
+                          <p>제품 이미지는 카탈로그에서 추출한 샘플 이미지입니다. 화면 설정과 조명에 따라 실제 제품과 색상 차이가 있을 수 있으므로, 주문 전 실물 샘플 확인을 권장합니다.</p>
                         </div>
                       </div>
                     </>

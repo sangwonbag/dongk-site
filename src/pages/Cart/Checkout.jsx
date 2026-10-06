@@ -19,6 +19,7 @@ import {
   getItemClassificationLabel 
 } from "../../utils/productClassification";
 import SEO from "../../components/seo/SEO";
+import { HIDE_SUB_MATERIALS, isSubMaterialCategory } from "../../config/categoryConfig";
 import "./Checkout.css";
 
 const DELIVERY_TIME_OPTIONS = [
@@ -301,9 +302,13 @@ export default function Checkout() {
       isDirect = false;
     }
 
+    if (HIDE_SUB_MATERIALS) {
+      targetItems = (targetItems || []).filter(item => !isSubMaterialCategory(item));
+    }
+
     // 주문 대상 품목이 없다면 리다이렉트
     if (!targetItems || targetItems.length === 0) {
-      alert("주문할 대상 상품이 없습니다.");
+      alert("주문할 대상 상품이 없거나 선택한 상품(부자재)이 판매 중단되었습니다.");
       navigate("/cart");
       return;
     }
@@ -850,7 +855,7 @@ export default function Checkout() {
               const onlyMaru = hasMaru && !hasDeco && !hasJangpan && !hasWallpaper && !hasCarpet;
               const hasRecommendation = hasDeco || hasJangpan || hasCarpet;
 
-              if (!hasRecommendation || onlyMaru) return null;
+              if (HIDE_SUB_MATERIALS || !hasRecommendation || onlyMaru) return null;
 
               const accessoriesToDisplay = showAllAccessories ? allAccessories : recommendedAccessories;
 

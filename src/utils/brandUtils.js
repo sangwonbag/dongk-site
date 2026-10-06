@@ -366,7 +366,14 @@ export function formatProductTitle(product) {
   if (!product) return '상품정보 확인 중';
   const code = getCleanProductCode(product);
   
-  if (product.brand === 'KCC' && product.category === '데코타일') {
+  if (product.brand === 'KCC' && (product.category === '데코타일' || !product.category)) {
+    const family = product.family || product.line || '';
+    if (family === '센스타일 프로' || family.includes('센스타일 프로') || family.includes('프로') || (code && (code.startsWith('GW') || code.startsWith('GS')))) {
+      if (code) return `KCC 센스타일 프로 ${code}`;
+    }
+    if (family === '센스레이' || family.includes('센스레이') || (code && code.startsWith('B'))) {
+      if (code) return `KCC 센스레이 ${code}`;
+    }
     const lineStr = String(product.line || product.name || '').trim();
     if (lineStr.includes('트랜디') || lineStr.includes('KCC_square') || lineStr.includes('KCC_wood') || /^T[SW]/i.test(code)) {
       if (code) {

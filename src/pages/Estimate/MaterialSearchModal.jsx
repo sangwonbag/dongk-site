@@ -4,6 +4,7 @@ import { useEstimateCart } from '../../contexts/EstimateCartContext';
 import { getComputedBrand } from '../../utils/brandUtils';
 import { searchProductsServer, fetchBrands } from '../../utils/supabaseFetcher';
 import { getProductImageCandidates } from '../../utils/productImageResolver';
+import { HIDE_SUB_MATERIALS, isSubMaterialCategory } from '../../config/categoryConfig';
 import { ProductImage } from '../../components/ui';
 import './MaterialSearchModal.css';
 
@@ -70,8 +71,9 @@ export default function MaterialSearchModal({ onClose, defaultQuantity = 1 }) {
         // Stale response guard
         if (controller.signal.aborted || currentRequestId !== latestRequestIdRef.current) return;
         
-        localSearchCache.set(cacheKey, data);
-        setResults(data);
+        const finalData = HIDE_SUB_MATERIALS ? (data || []).filter(item => !isSubMaterialCategory(item)) : data;
+        localSearchCache.set(cacheKey, finalData);
+        setResults(finalData);
         setLoading(false);
       })
       .catch((err) => {
