@@ -14,63 +14,78 @@ export function AuthProvider({ children }) {
     setAuthStatus('checking');
     try {
       if (supabase) {
-        // 1. Check Supabase Auth OAuth session
-        const { data: { session }, error: sessionError } = await supabase.auth.getSession();
+        // 1. Check Supabase Auth OAuth session with 3s timeout safety
+        const sessionPromise = supabase.auth.getSession();
+        const timeoutPromise = new Promise((resolve) => setTimeout(() => resolve({ data: { session: null }, error: 'timeout' }), 3000));
+        const { data: sessionData, error: sessionError } = await Promise.race([sessionPromise, timeoutPromise]);
+        
+        const session = sessionData?.session;
         if (!sessionError && session && session.user) {
           const sUser = session.user;
-          const { data: profile } = await supabase
-            .from('profiles')
-            .select('id, username, name, phone, company_name, user_type, role')
-            .eq('id', sUser.id)
-            .maybeSingle();
+          try {
+            const { data: profile } = await supabase
+              .from('profiles')
+              .select('id, username, name, phone, company_name, user_type, role')
+              .eq('id', sUser.id)
+              .maybeSingle();
 
-          const authData = {
-            id: sUser.id,
-            username: profile?.username || `oauth_${sUser.id.substring(0, 8)}`,
-            name: profile?.name || sUser.user_metadata?.name || '회원',
-            phone: profile?.phone || sUser.user_metadata?.phone || '',
-            company_name: profile?.company_name || null,
-            user_type: profile?.user_type || '일반',
-            role: profile?.role || 'user',
-            email: sUser.email || null,
-            isLoggedIn: true
-          };
+            const authData = {
+              id: sUser.id,
+              username: profile?.username || `oauth_${sUser.id.substring(0, 8)}`,
+              name: profile?.name || sUser.user_metadata?.name || '회원',
+              phone: profile?.phone || sUser.user_metadata?.phone || '',
+              company_name: profile?.company_name || null,
+              user_type: profile?.user_type || '일반',
+              role: profile?.role || 'user',
+              email: sUser.email || null,
+              isLoggedIn: true
+            };
 
-          localStorage.setItem('dk_auth_user', JSON.stringify(authData));
-          setUser(authData);
-          setAuthStatus('authenticated');
-          return;
+            localStorage.setItem('dk_auth_user', JSON.stringify(authData));
+            setUser(authData);
+            setAuthStatus('authenticated');
+            return;
+          } catch (pErr) {
+            console.warn('[AuthContext] Supabase profile fetch exception:', pErr);
+          }
         }
 
         // 2. Check local user session saved from custom login
         const localUser = getCurrentUser();
         if (localUser && localUser.isLoggedIn) {
-          const { data: profile, error: profileErr } = await supabase
-            .from('profiles')
-            .select('id, username, name, phone, company_name, user_type, role')
-            .eq('username', localUser.username)
-            .maybeSingle();
+          try {
+            const { data: profile, error: profileErr } = await supabase
+              .from('profiles')
+              .select('id, username, name, phone, company_name, user_type, role')
+              .eq('username', localUser.username)
+              .maybeSingle();
 
-          if (!profileErr && profile) {
-            const updatedUser = {
-              ...localUser,
-              ...profile,
-              isLoggedIn: true
-            };
-            localStorage.setItem('dk_auth_user', JSON.stringify(updatedUser));
-            setUser(updatedUser);
-            setAuthStatus('authenticated');
-            return;
-          } else if (profileErr) {
-            // Network error during profile check; trust local user defensively
+            if (!profileErr && profile) {
+              const updatedUser = {
+                ...localUser,
+                ...profile,
+                isLoggedIn: true
+              };
+              localStorage.setItem('dk_auth_user', JSON.stringify(updatedUser));
+              setUser(updatedUser);
+              setAuthStatus('authenticated');
+              return;
+            } else if (profileErr) {
+              // Network error during profile check; trust local user defensively
+              setUser(localUser);
+              setAuthStatus('authenticated');
+              return;
+            } else {
+              // Profile no longer exists on server
+              authLogout();
+              setUser(null);
+              setAuthStatus('unauthenticated');
+              return;
+            }
+          } catch (locProfileErr) {
+            console.warn('[AuthContext] Local user profile check exception:', locProfileErr);
             setUser(localUser);
             setAuthStatus('authenticated');
-            return;
-          } else {
-            // Profile no longer exists on server
-            authLogout();
-            setUser(null);
-            setAuthStatus('unauthenticated');
             return;
           }
         }
@@ -97,6 +112,8 @@ export function AuthProvider({ children }) {
         setUser(null);
         setAuthStatus('unauthenticated');
       }
+    } finally {
+      setAuthStatus(prev => prev === 'checking' ? 'unauthenticated' : prev);
     }
   }, []);
 
@@ -105,33 +122,43 @@ export function AuthProvider({ children }) {
 
     if (supabase) {
       const { data: { subscription } } = supabase.auth.onAuthStateChange(async (event, session) => {
-        if (event === 'SIGNED_OUT') {
-          authLogout();
-          setUser(null);
-          setAuthStatus('unauthenticated');
-        } else if (event === 'SIGNED_IN' && session?.user) {
-          const sUser = session.user;
-          const { data: profile } = await supabase
-            .from('profiles')
-            .select('id, username, name, phone, company_name, user_type, role')
-            .eq('id', sUser.id)
-            .maybeSingle();
+        try {
+          if (event === 'SIGNED_OUT') {
+            authLogout();
+            setUser(null);
+            setAuthStatus('unauthenticated');
+          } else if (event === 'SIGNED_IN' && session?.user) {
+            const sUser = session.user;
+            let profile = null;
+            try {
+              const res = await supabase
+                .from('profiles')
+                .select('id, username, name, phone, company_name, user_type, role')
+                .eq('id', sUser.id)
+                .maybeSingle();
+              profile = res.data;
+            } catch (e) {
+              console.warn('[AuthContext] onAuthStateChange profile fetch error:', e);
+            }
 
-          const authData = {
-            id: sUser.id,
-            username: profile?.username || `oauth_${sUser.id.substring(0, 8)}`,
-            name: profile?.name || sUser.user_metadata?.name || '회원',
-            phone: profile?.phone || sUser.user_metadata?.phone || '',
-            company_name: profile?.company_name || null,
-            user_type: profile?.user_type || '일반',
-            role: profile?.role || 'user',
-            email: sUser.email || null,
-            isLoggedIn: true
-          };
+            const authData = {
+              id: sUser.id,
+              username: profile?.username || `oauth_${sUser.id.substring(0, 8)}`,
+              name: profile?.name || sUser.user_metadata?.name || '회원',
+              phone: profile?.phone || sUser.user_metadata?.phone || '',
+              company_name: profile?.company_name || null,
+              user_type: profile?.user_type || '일반',
+              role: profile?.role || 'user',
+              email: sUser.email || null,
+              isLoggedIn: true
+            };
 
-          localStorage.setItem('dk_auth_user', JSON.stringify(authData));
-          setUser(authData);
-          setAuthStatus('authenticated');
+            localStorage.setItem('dk_auth_user', JSON.stringify(authData));
+            setUser(authData);
+            setAuthStatus('authenticated');
+          }
+        } catch (evtErr) {
+          console.error('[AuthContext] onAuthStateChange error:', evtErr);
         }
       });
 

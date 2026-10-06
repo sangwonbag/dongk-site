@@ -27,7 +27,7 @@ export default function EstimateRequest() {
   const location = useLocation();
   const [searchParams, setSearchParams] = useSearchParams();
   const { cartItems, updateQuantity, syncAutomaticQuantities, removeFromCart, clearCart } = useEstimateCart();
-  const { user: currentUser, loading: authLoading, authStatus, openLoginModal } = useAuth();
+  const { user: currentUser } = useAuth();
   
   const [activeViewTab, setActiveViewTab] = useState('calc'); // 'calc' | 'inquiry'
   const [step, setStep] = useState(1);
@@ -116,14 +116,6 @@ export default function EstimateRequest() {
     }
   }, [currentUser]);
 
-  // Redirect unauthenticated user to login immediately
-  useEffect(() => {
-    if (!authLoading && authStatus !== 'checking' && (!currentUser || authStatus === 'unauthenticated')) {
-      saveEstimateDraft();
-      const redirectTarget = location.pathname + location.search;
-      navigate(`/login?redirect=${encodeURIComponent(redirectTarget)}`, { replace: true });
-    }
-  }, [authLoading, authStatus, currentUser, location.pathname, location.search, navigate]);
 
   const isUnselectedRef = useRef(false);
   const lastParamIdRef = useRef(null);
@@ -533,28 +525,6 @@ export default function EstimateRequest() {
     }
   };
 
-  // 0. Auth Gate: Require login for entire automated estimate calculator
-  if (authLoading || authStatus === 'checking') {
-    return (
-      <MainLayout>
-        <SEO title="자동견적 | 동경바닥재" noindex={true} />
-        <div className="estimate-loading-container" style={{ textAlign: 'center', padding: '100px 20px', minHeight: '60vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-          <p style={{ fontSize: '15px', color: '#64748b' }}>인증 세션을 확인 중입니다...</p>
-        </div>
-      </MainLayout>
-    );
-  }
-
-  if (!currentUser || authStatus === 'unauthenticated') {
-    return (
-      <MainLayout>
-        <SEO title="자동견적 | 동경바닥재 - 회원 로그인 필요" noindex={true} />
-        <div className="estimate-loading-container" style={{ textAlign: 'center', padding: '100px 20px', minHeight: '60vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-          <p style={{ fontSize: '15px', color: '#64748b' }}>로그인이 필요한 서비스입니다. 로그인 페이지로 이동 중입니다...</p>
-        </div>
-      </MainLayout>
-    );
-  }
 
   if (submitSuccess) {
     return (
