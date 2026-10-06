@@ -339,8 +339,12 @@ export async function fetchFilteredProducts({ category, brand, thickness, search
   const safePage = Math.max(0, Number(page) || 0);
   const safePageSize = Math.max(1, Number(pageSize) || 2000);
 
-  if (!supabase) {
-    console.warn("Supabase client is not initialized. Using local fallback filtering.");
+  const cacheKey = `${category || 'all'}:${brand || 'all'}:${thickness || 'all'}:${searchText || ''}:${safePage}:${safePageSize}`;
+  if (filteredProductsCache.has(cacheKey)) {
+    return filteredProductsCache.get(cacheKey);
+  }
+
+  const getLocalFallbackResult = async () => {
     const all = await fetchAllProducts();
     const filtered = filterLocalProducts(all, { category, brand, thickness, searchText });
     const from = safePage * safePageSize;
@@ -350,11 +354,13 @@ export async function fetchFilteredProducts({ category, brand, thickness, search
     result.totalCount = filtered.length;
     result.hasMore = from + paged.length < filtered.length;
     return result;
-  }
+  };
 
-  const cacheKey = `${category || 'all'}:${brand || 'all'}:${thickness || 'all'}:${searchText || ''}:${safePage}:${safePageSize}`;
-  if (filteredProductsCache.has(cacheKey)) {
-    return filteredProductsCache.get(cacheKey);
+  if (!supabase) {
+    console.warn("Supabase client is not initialized. Using local fallback filtering.");
+    const result = await getLocalFallbackResult();
+    filteredProductsCache.set(cacheKey, result);
+    return result;
   }
 
   // Do not reuse inflight promises if an AbortSignal is used, to prevent signal cross-contamination
@@ -411,34 +417,45 @@ export async function fetchFilteredProducts({ category, brand, thickness, search
       query = query.order('sort_order', { ascending: true }).order('id', { ascending: false });
       query = query.range(from, to);
 
-      const res = await withTimeout(query, 12000);
-      const { data, count, error } = res || {};
+      // Soft race: wait 2500ms max for Supabase query
+      const softTimer = new Promise(resolve => setTimeout(() => resolve({ timeout: true }), 2500));
+      const res = await Promise.race([query, softTimer]);
 
-      if (error) {
-        if (error.name === 'AbortError' || error.message?.includes('aborted')) {
-          const abortErr = new Error('aborted');
-          abortErr.name = 'AbortError';
-          throw abortErr;
-        }
-        console.error('[materials] Supabase query failed:', error);
-        throw error;
+      if (res && !res.timeout && !res.error && res.data && Array.isArray(res.data) && res.data.length > 0) {
+        const mapped = deduplicateProducts(res.data.map(mapProductRow));
+        const totalCount = res.count ?? mapped.length;
+        const hasMore = from + res.data.length < totalCount;
+
+        const result = [...mapped];
+        result.items = mapped;
+        result.totalCount = totalCount;
+        result.hasMore = hasMore;
+
+        filteredProductsCache.set(cacheKey, result);
+        return result;
       }
 
-      const mapped = deduplicateProducts((data || []).map(mapProductRow));
-      const totalCount = count ?? mapped.length;
-      const hasMore = from + (data || []).length < totalCount;
+      if (res && res.error && (res.error.name === 'AbortError' || res.error.message?.includes('aborted'))) {
+        const abortErr = new Error('aborted');
+        abortErr.name = 'AbortError';
+        throw abortErr;
+      }
 
-      const result = [...mapped];
-      result.items = mapped;
-      result.totalCount = totalCount;
-      result.hasMore = hasMore;
-
-      filteredProductsCache.set(cacheKey, result);
-      return result;
+      console.warn('[fetchFilteredProducts] Supabase DB response slow (>2.5s), empty, or returned error. Serving local fallback data seamlessly.');
     } catch (err) {
-      filteredProductsCache.delete(`inflight:${cacheKey}`);
-      throw err;
+      if (err.name === 'AbortError' || err.message === 'aborted') {
+        filteredProductsCache.delete(`inflight:${cacheKey}`);
+        throw err;
+      }
+      console.warn('[fetchFilteredProducts] Supabase fetch exception, serving local fallback data:', err);
     }
+
+    // Local fallback data fetch when Supabase is slow or errors out
+    const fallbackResult = await getLocalFallbackResult();
+    if (fallbackResult.length > 0) {
+      filteredProductsCache.set(cacheKey, fallbackResult);
+    }
+    return fallbackResult;
   })();
 
   if (!signal) {
