@@ -1,7 +1,7 @@
 import React, { useMemo, useState, useEffect, useCallback, useRef } from "react";
 import { useSearchParams } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
-import { getComputedBrand, getMaterialTypeAndLine, formatShapeOrPattern, JANGPAN_STANDARD_THICKNESSES, FLOORING_THICKNESS_BY_BRAND, normalizeBrandName } from "../../utils/brandUtils";
+import { getComputedBrand, getMaterialTypeAndLine, formatShapeOrPattern, JANGPAN_STANDARD_THICKNESSES, FLOORING_THICKNESS_BY_BRAND, normalizeBrandName, isSentenceDescription } from "../../utils/brandUtils";
 import MaterialCard from "../../components/material/MaterialCard";
 import { fetchFilteredProducts, withTimeout } from "../../utils/supabaseFetcher";
 import { sortProducts, SORT_OPTIONS } from "../../utils/sortUtils";
@@ -39,11 +39,40 @@ const DEFAULT_BRAND_BY_CATEGORY = {
 };
 
 const getNormalizedLine = (m, activeTab, activeBrand) => {
-  if (!m || !m.line) return "";
-  if (m.brand === "동화") {
-    return m.line;
+  if (!m) return "";
+  let line = m.line || "";
+
+  if (isSentenceDescription(line)) {
+    line = "";
   }
-  let line = m.line;
+
+  const brand = (m.brand || activeBrand || "").toUpperCase();
+  const category = m.category || activeTab || "";
+
+  // Special normalization for KCC 장판
+  if ((brand.includes("KCC") || brand.includes("KCC글라스")) && category === "장판") {
+    const code = (m.code || m.id || m.product_code || "").toUpperCase();
+    const name = (m.name || m.product_name || "").toUpperCase();
+    const fullText = `${code} ${line} ${name}`;
+
+    if (fullText.includes("NP18") || fullText.includes("NK20") || fullText.includes("그린")) {
+      return "그린";
+    }
+    if (fullText.includes("NJ27") || fullText.includes("NR32") || fullText.includes("도담")) {
+      return "도담";
+    }
+    if (fullText.includes("MN22") || fullText.includes("숲 옥") || fullText.includes("숲옥")) {
+      return "숲 옥";
+    }
+    if (fullText.includes("NC45") || fullText.includes("NV50") || fullText.includes("휴가온")) {
+      return "휴가온";
+    }
+    return line && !isSentenceDescription(line) ? line : "";
+  }
+
+  if (m.brand === "동화") {
+    return line;
+  }
   if (m.brand === "KCC" && m.category === "데코타일") {
     if (line.includes("트랜디") || (m.name && m.name.includes("트랜디"))) return "센스타일 트랜디";
     if (line.includes("프로") || (m.name && m.name.includes("프로"))) return "센스타일 프로";
@@ -67,7 +96,7 @@ const getNormalizedLine = (m, activeTab, activeBrand) => {
       }
     }
   }
-  return line;
+  return isSentenceDescription(line) ? "" : line;
 };
 
 const normalizeUrlThickness = (raw) => {
@@ -183,14 +212,14 @@ export default function Materials() {
     }
   }, [activeTab, searchParams]);
 
-  // Fetch products from Supabase/cache on mount/filter change
+  // Fetch products from Supabase/cache on mount/filter/pagination change
   useEffect(() => {
     const requestId = ++fetchRequestIdRef.current;
     const controller = new AbortController();
 
     async function load() {
       if (process.env.NODE_ENV !== 'production') {
-        console.debug('[Materials] request start', { category: activeTab, brand: activeBrand, thickness: activeThickness, requestId });
+        console.debug('[Materials] request start', { category: activeTab, brand: activeBrand, thickness: activeThickness, visibleCount, requestId });
       }
       setLoading(true);
       setError(null);
@@ -201,15 +230,18 @@ export default function Materials() {
           brand: activeBrand,
           thickness: activeThickness,
           page: 0,
-          pageSize: 2000,
+          pageSize: visibleCount,
           signal: controller.signal
         });
 
         if (requestId === fetchRequestIdRef.current) {
           const items = Array.isArray(res) ? res : (res.items || []);
           setMaterialsList(items);
+          if (res && typeof res.totalCount === 'number') {
+            setTotalCount(res.totalCount);
+          }
           if (process.env.NODE_ENV !== 'production') {
-            console.debug('[Materials] request success', { count: items.length, requestId });
+            console.debug('[Materials] request success', { count: items.length, totalCount: res?.totalCount, requestId });
           }
         }
       } catch (err) {
@@ -219,7 +251,7 @@ export default function Materials() {
           }
           return;
         }
-        console.error("[Materials] load error:", err);
+        console.error("[Materials] load error:", { category: activeTab, brand: activeBrand, page: 0, error: err });
         if (requestId === fetchRequestIdRef.current) {
           setError(err.message || "자재 정보를 불러오지 못했습니다.");
         }
@@ -238,7 +270,7 @@ export default function Materials() {
     return () => {
       controller.abort();
     };
-  }, [activeTab, activeBrand, activeThickness]);
+  }, [activeTab, activeBrand, activeThickness, visibleCount]);
 
   // Load more handler
   const handleLoadMore = useCallback(() => {
@@ -533,16 +565,17 @@ export default function Materials() {
   }, [activeLine, activeShape, activeThickness, activeMaterialType, nameFilter, codeFilter, specFilter]);
 
   const displayTotalCount = useMemo(() => {
-    return sortedProducts.length;
-  }, [sortedProducts.length]);
+    if (isFilteredSearch) return sortedProducts.length;
+    return totalCount || sortedProducts.length;
+  }, [isFilteredSearch, sortedProducts.length, totalCount]);
 
   const visibleProducts = useMemo(() => {
     return sortedProducts.slice(0, visibleCount);
   }, [sortedProducts, visibleCount]);
 
   const hasMoreItems = useMemo(() => {
-    return visibleCount < sortedProducts.length;
-  }, [visibleCount, sortedProducts.length]);
+    return visibleCount < displayTotalCount;
+  }, [visibleCount, displayTotalCount]);
 
   // Retry handler for user-initiated retry action
   const handleRetry = useCallback(() => {
@@ -555,12 +588,15 @@ export default function Materials() {
       brand: activeBrand,
       thickness: activeThickness,
       page: 0,
-      pageSize: 2000
+      pageSize: visibleCount
     })
       .then(res => {
         if (requestId === fetchRequestIdRef.current) {
           const items = Array.isArray(res) ? res : (res.items || []);
           setMaterialsList(items);
+          if (res && typeof res.totalCount === 'number') {
+            setTotalCount(res.totalCount);
+          }
         }
       })
       .catch(err => {

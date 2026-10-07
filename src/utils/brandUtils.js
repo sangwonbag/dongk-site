@@ -9,6 +9,21 @@
  */
 export const JANGPAN_STANDARD_THICKNESSES = ["1.8T", "2.0T", "2.2T", "2.7T", "3.2T", "4.5T", "5.0T"];
 
+/**
+ * 긴 문장 형태의 자재 설명 텍스트인지 판별합니다.
+ */
+export function isSentenceDescription(str) {
+  if (!str || typeof str !== 'string') return false;
+  const s = str.trim();
+  if (s.length > 25) return true;
+  if (/[.?!]$/.test(s)) return true;
+  if (/\.(?:\s|$)/.test(s)) return true;
+  if (/(입니다|어울립니다|느낌입니다|패턴입니다|좋습니다|사용할|활용하기|연출하기|만듭니다|표현된|계열의|분위기의|공간에|바탕에|톤의|오크 패턴|스톤 패턴|마블패턴)/.test(s)) {
+    return true;
+  }
+  return false;
+}
+
 export const FLOORING_THICKNESS_BY_BRAND = {
   all: ['1.8T', '2.0T', '2.2T', '2.7T', '3.2T', '4.5T', '5.0T'],
   LX: ['1.8T', '2.0T', '2.2T', '2.7T', '3.2T', '4.5T', '5.0T'],

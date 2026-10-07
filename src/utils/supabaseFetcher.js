@@ -1,6 +1,6 @@
 import { supabase } from '../lib/supabaseClient.js';
 import { dongshinPolymer2026 } from '../data/dongshinPolymer2026.js';
-import { normalizeProductDetails } from './brandUtils.js';
+import { normalizeProductDetails, isSentenceDescription } from './brandUtils.js';
 import { HIDE_SUB_MATERIALS, isSubMaterialCategory } from '../config/categoryConfig.js';
 
 let localMaterialsCache = null;
@@ -152,6 +152,8 @@ export async function fetchAllProducts(forceRefresh = false) {
     const rawLocalMaterials = await getLocalMaterials();
     // Map local materials to the frontend product structure
     cachedProducts = (rawLocalMaterials || []).map(m => {
+      const rawLine = m.line || "";
+      const validLine = (rawLine && !isSentenceDescription(rawLine)) ? rawLine : "";
       const mapped = {
         id: m.id || m.code,
         code: m.code || "",
@@ -167,7 +169,7 @@ export async function fetchAllProducts(forceRefresh = false) {
         },
         thumbnail: m.thumbnail || null,
         images: m.images || [],
-        line: m.line || "",
+        line: validLine,
         type: m.type || "",
         active: m.active ?? true
       };
@@ -213,7 +215,7 @@ export function mapProductRow(p) {
   const dbItem = {
     brand: brandName,
     category: categoryName,
-    line: p.description || "",
+    line: p.line || "",
     name: p.name || "",
     code: p.product_code || null
   };
@@ -227,6 +229,9 @@ export function mapProductRow(p) {
   if (isSenseRay && rawImg && (rawImg.includes('/KCC_pro/') || rawImg.includes('KCC_pro') || rawImg.includes('센스타일') || rawImg.includes('TS55'))) {
     rawImg = null;
   }
+
+  const rawLineCandidate = p.line || (localMatch && localMatch.line) || "";
+  const validLine = (rawLineCandidate && !isSentenceDescription(rawLineCandidate)) ? rawLineCandidate : "";
 
   const mapped = {
     id: p.slug || String(p.id),
@@ -245,7 +250,7 @@ export function mapProductRow(p) {
     },
     thumbnail: rawImg,
     image: rawImg,
-    line: p.description || "",
+    line: validLine,
     description: p.description || "",
     featured: p.is_featured || false,
     active: p.is_active ?? true
@@ -266,6 +271,9 @@ export function mapProductRow(p) {
     mapped.note = localMatch.note;
     mapped.catalog = localMatch.catalog;
     mapped.productName = localMatch.productName;
+    if (localMatch.line && !isSentenceDescription(localMatch.line)) {
+      mapped.line = localMatch.line;
+    }
     if (localMatch.subCategory) {
       mapped.subCategory = localMatch.subCategory;
     }
