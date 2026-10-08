@@ -578,6 +578,7 @@ export default function MaterialDetail() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [retryKey, setRetryKey] = useState(0);
+  const [fetchStatus, setFetchStatus] = useState('loading');
 
   const [rawImages, setRawImages] = useState({
     detailStr: '',
@@ -635,16 +636,29 @@ export default function MaterialDetail() {
 
   // 1. Fetch Product Detail (Safe, guaranteed fast lookup with multi-strategy search)
   useEffect(() => {
-    let controller = new AbortController();
+    const controller = new AbortController();
+    let disposed = false;
+    let completed = false;
+    const watchdog = setTimeout(() => {
+      if (disposed || completed) return;
+      controller.abort();
+      setItem(null);
+      setFetchStatus('timeout');
+      setError('상품 조회 시간이 초과되었습니다. 다시 시도해 주세요.');
+      setLoading(false);
+    }, 9000);
 
     async function fetchMaterialDetail() {
       setLoading(true);
       setError(null);
+      setFetchStatus('loading');
+      setItem(null);
 
       const routeParam = rawId;
       console.log('[MaterialDetail] route param:', routeParam);
 
       if (!routeParam) {
+        setFetchStatus("notFound");
         setError("상품 식별자가 없습니다.");
         setLoading(false);
         return;
@@ -653,7 +667,7 @@ export default function MaterialDetail() {
       try {
         const fetchedItem = await fetchProductDetailBySlugOrId(routeParam, controller.signal);
 
-        if (controller.signal.aborted) return;
+        if (controller.signal.aborted || disposed) return;
 
         if (fetchedItem) {
           // If Eagon product, apply Eagon specific specs if needed
@@ -675,24 +689,29 @@ export default function MaterialDetail() {
             enrichedItem.pattern = '오크';
           }
           setItem(enrichedItem);
+          setFetchStatus('success');
         } else {
           setItem(null);
+          setFetchStatus("notFound");
           setError("상품 정보를 불러오지 못했습니다. 요청하신 상품이 존재하지 않거나 삭제되었을 수 있습니다.");
         }
       } catch (err) {
-        if (err.name === 'AbortError' || err.message === 'aborted') {
+        if (disposed || controller.signal.aborted || err.name === 'AbortError' || err.message === 'aborted') {
           console.log('[MaterialDetail] fetch aborted');
           return;
         }
         console.error("[MaterialDetail] 상품 조회 실패:", err);
         setItem(null);
+        setFetchStatus(err.name === "TimeoutError" ? "timeout" : "error");
         setError(
           err instanceof Error
             ? err.message
             : '상품 정보를 불러오지 못했습니다.'
         );
       } finally {
-        if (!controller.signal.aborted) {
+        completed = true;
+        clearTimeout(watchdog);
+        if (!disposed && !controller.signal.aborted) {
           console.log('[MaterialDetail] loading finish');
           setLoading(false);
         }
@@ -702,6 +721,8 @@ export default function MaterialDetail() {
     fetchMaterialDetail();
 
     return () => {
+      disposed = true;
+      clearTimeout(watchdog);
       controller.abort();
     };
   }, [rawId, retryKey]);
@@ -976,7 +997,7 @@ export default function MaterialDetail() {
     return () => { active = false; };
   }, [item?.id, item?.code]);
 
-  if (loading) {
+  if (loading || fetchStatus === 'loading') {
     return (
       <MainLayout>
         <div className="container" style={{ padding: "120px 0", textAlign: "center", fontSize: "16px", color: "#6B6B6B" }}>
@@ -987,7 +1008,7 @@ export default function MaterialDetail() {
     );
   }
 
-  if (error) {
+  if (error || fetchStatus === 'notFound' || fetchStatus === 'timeout' || fetchStatus === 'error') {
     return (
       <MainLayout>
         <div className="container" style={{ padding: "120px 0", textAlign: "center", color: "#6B6B6B" }}>
