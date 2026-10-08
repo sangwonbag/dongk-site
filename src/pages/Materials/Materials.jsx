@@ -1,7 +1,8 @@
 import React, { useMemo, useState, useEffect, useCallback, useRef } from "react";
 import { useSearchParams } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
-import { getComputedBrand, getMaterialTypeAndLine, formatShapeOrPattern, JANGPAN_STANDARD_THICKNESSES, FLOORING_THICKNESS_BY_BRAND, normalizeBrandName, isSentenceDescription } from "../../utils/brandUtils";
+import { getComputedBrand, getMaterialTypeAndLine, formatShapeOrPattern, JANGPAN_STANDARD_THICKNESSES, FLOORING_THICKNESS_BY_BRAND, normalizeBrandName, isSentenceDescription, getKccLineup, KCC_DECOTILE_LINEUPS, resolveKccLineupName, resolveKccLineupSlug, KCC_LINEUP_NAME_TO_SLUG } from "../../utils/brandUtils";
+import { DONGSHIN_MAJOR_CATEGORIES, DONGSHIN_DETAILED_LINEUPS_MAP, getDongshinMajorCategory, getDongshinDetailedLineup } from "../../utils/dongshinUtils";
 import MaterialCard from "../../components/material/MaterialCard";
 import { fetchFilteredProducts, withTimeout } from "../../utils/supabaseFetcher";
 import { sortProducts, SORT_OPTIONS } from "../../utils/sortUtils";
@@ -73,11 +74,8 @@ const getNormalizedLine = (m, activeTab, activeBrand) => {
   if (m.brand === "동화") {
     return line;
   }
-  if (m.brand === "KCC" && m.category === "데코타일") {
-    if (line.includes("트랜디") || (m.name && m.name.includes("트랜디"))) return "센스타일 트랜디";
-    if (line.includes("프로") || (m.name && m.name.includes("프로"))) return "센스타일 프로";
-    if (line.includes("센스레이") || (m.name && m.name.includes("센스레이"))) return "센스레이 5.0";
-    return line;
+  if ((m.brand === "KCC" || (m.brand || "").includes("KCC")) && m.category === "데코타일") {
+    return getKccLineup(m);
   }
   if (line.includes('_')) {
     const parts = line.split('_').map(p => p.trim());
@@ -142,10 +140,19 @@ export default function Materials() {
   const activeBrand = searchParams.get("brand") || defaultBrand;
   
   const activeMaterialType = searchParams.get("type") || "all";
-  let activeLine = searchParams.get("line") || "all";
+  const rawLineParam = searchParams.get("line") || "all";
+  let activeLine = resolveKccLineupName(rawLineParam);
   if (activeLine && activeLine.toUpperCase().includes("MACOSX")) {
     activeLine = "all";
   }
+
+  const activeDongshinMajor = (activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마"))
+    ? (searchParams.get("line") || "all")
+    : "all";
+  const activeDongshinDetail = (activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마"))
+    ? (searchParams.get("detail") || "all")
+    : "all";
+
   const activeShape = searchParams.get("shape") || "all";
   const rawThickness = searchParams.get("thickness");
   const validThickness = normalizeUrlThickness(rawThickness);
@@ -161,16 +168,18 @@ export default function Materials() {
     if (activeBrand !== "all" && activeBrand !== "KCC") count++;
     if (activeThickness !== "all") count++;
     if (activeShape !== "all") count++;
-    if (activeLine !== "all") count++;
+    if (activeLine !== "all" && activeBrand !== "동신" && activeBrand !== "동신포리마") count++;
+    if (activeDongshinMajor !== "all") count++;
+    if (activeDongshinDetail !== "all") count++;
     if (sortOption !== "default") count++;
     if (nameFilter.trim()) count++;
     if (codeFilter.trim()) count++;
     if (specFilter.trim()) count++;
     return count;
-  }, [activeBrand, activeThickness, activeShape, activeLine, sortOption, nameFilter, codeFilter, specFilter]);
+  }, [activeBrand, activeThickness, activeShape, activeLine, activeDongshinMajor, activeDongshinDetail, sortOption, nameFilter, codeFilter, specFilter]);
 
   const handleResetFilters = useCallback(() => {
-    updateParams({ brand: "all", type: null, line: null, shape: null, thickness: null, sort: null });
+    updateParams({ brand: "all", type: null, line: null, detail: null, shape: null, thickness: null, sort: null });
     setNameFilter("");
     setCodeFilter("");
     setSpecFilter("");
@@ -230,7 +239,7 @@ export default function Materials() {
           brand: activeBrand,
           thickness: activeThickness,
           page: 0,
-          pageSize: visibleCount,
+          pageSize: 2000,
           signal: controller.signal
         });
 
@@ -270,7 +279,7 @@ export default function Materials() {
     return () => {
       controller.abort();
     };
-  }, [activeTab, activeBrand, activeThickness, visibleCount]);
+  }, [activeTab, activeBrand, activeThickness]);
 
   // Load more handler
   const handleLoadMore = useCallback(() => {
@@ -280,7 +289,7 @@ export default function Materials() {
   // Reset visibleCount to 30 whenever any filter, search input, or sort option changes
   useEffect(() => {
     setVisibleCount(PRODUCTS_PER_LOAD);
-  }, [activeTab, activeBrand, activeMaterialType, activeLine, activeShape, activeThickness, nameFilter, codeFilter, specFilter, sortOption]);
+  }, [activeTab, activeBrand, activeMaterialType, activeLine, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, nameFilter, codeFilter, specFilter, sortOption]);
 
   // Normalize legacy line parameters (e.g., line=강마루_듀오텍스쳐_DUO TEXTURE)
   useEffect(() => {
@@ -317,7 +326,10 @@ export default function Materials() {
 
   const setActiveBrand = (brand) => updateParams({ brand, type: null, line: null, shape: null });
   const setActiveMaterialType = (type) => updateParams({ type });
-  const setActiveLine = (line) => updateParams({ line });
+  const setActiveLine = (line) => {
+    const slug = KCC_LINEUP_NAME_TO_SLUG[line] || line;
+    updateParams({ line: slug === "all" ? null : slug });
+  };
   const setActiveShape = (shape) => updateParams({ shape });
 
   // Scroll restoration on return
@@ -396,6 +408,10 @@ export default function Materials() {
   const visibleLines = useMemo(() => {
     if (!materialsList || materialsList.length === 0 || activeTab === "all" || activeBrand === "all") return [];
     
+    if (activeTab === "데코타일" && activeBrand === "KCC") {
+      return ["all", ...KCC_DECOTILE_LINEUPS];
+    }
+
     const linesSet = new Set();
     materialsList.forEach((m) => {
       if (!m) return;
@@ -464,17 +480,74 @@ export default function Materials() {
     return counts;
   }, [materialsList, activeTab, activeBrand]);
 
-  // KCC Decotile specific options (Shape & Pattern)
-  const visibleShapes = useMemo(() => {
-    if (activeTab !== "데코타일" || activeBrand !== "KCC" || !materialsList) return [];
-    const shapes = new Set();
+  const dongshinMajorCounts = useMemo(() => {
+    if (activeTab !== "데코타일" || (activeBrand !== "동신" && activeBrand !== "동신포리마") || !materialsList) return {};
+    const counts = { "전체": 0 };
+    DONGSHIN_MAJOR_CATEGORIES.forEach(cat => {
+      if (cat !== "전체") counts[cat] = 0;
+    });
+
     materialsList.forEach(m => {
-      if (m.brand === "KCC" && m.category === "데코타일" && m.shape) {
-        if (activeLine !== "all" && m.line !== activeLine) return;
-        shapes.add(m.shape);
+      if (!m || m.category !== "데코타일" || (m.brand !== "동신" && m.brand !== "동신포리마")) return;
+      const major = getDongshinMajorCategory(m);
+      counts["전체"] = (counts["전체"] || 0) + 1;
+      if (major && counts[major] !== undefined) {
+        counts[major] = (counts[major] || 0) + 1;
       }
     });
-    return ["all", ...Array.from(shapes).sort()];
+
+    return counts;
+  }, [materialsList, activeTab, activeBrand]);
+
+  const dongshinDetailCounts = useMemo(() => {
+    if (activeTab !== "데코타일" || (activeBrand !== "동신" && activeBrand !== "동신포리마") || !materialsList) return {};
+    const counts = { "전체": 0 };
+
+    const targetItems = materialsList.filter(m => {
+      if (!m || m.category !== "데코타일" || (m.brand !== "동신" && m.brand !== "동신포리마")) return false;
+      if (activeDongshinMajor !== "all" && getDongshinMajorCategory(m) !== activeDongshinMajor) {
+        return false;
+      }
+      return true;
+    });
+
+    counts["전체"] = targetItems.length;
+
+    targetItems.forEach(m => {
+      const detail = getDongshinDetailedLineup(m);
+      if (detail) {
+        counts[detail] = (counts[detail] || 0) + 1;
+      }
+    });
+
+    return counts;
+  }, [materialsList, activeTab, activeBrand, activeDongshinMajor]);
+
+  const visibleDongshinDetails = useMemo(() => {
+    if (activeTab !== "데코타일" || (activeBrand !== "동신" && activeBrand !== "동신포리마")) return [];
+    const list = DONGSHIN_DETAILED_LINEUPS_MAP[activeDongshinMajor] || DONGSHIN_DETAILED_LINEUPS_MAP["전체"];
+    return ["전체", ...list.filter(item => item !== "전체")];
+  }, [activeTab, activeBrand, activeDongshinMajor]);
+
+  // KCC Decotile specific options (Shape & Pattern)
+  const visibleShapes = useMemo(() => {
+    if (activeTab !== "데코타일" || (activeBrand !== "KCC" && activeBrand !== "all") || !materialsList) return [];
+    
+    if (activeLine === "센스레이(내수)") {
+      return ["all", "라지 우드", "일반 우드", "라지 타일", "일반 타일", "텍스타일 플랭크"];
+    }
+
+    const shapes = new Set();
+    materialsList.forEach(m => {
+      if ((m.brand === "KCC" || m.brand === "KCC글라스" || (m.brand && m.brand.includes("KCC"))) && m.category === "데코타일") {
+        const line = getNormalizedLine(m, activeTab, activeBrand);
+        if (activeLine !== "all" && line !== activeLine && m.line !== activeLine) return;
+        if (m.shape) shapes.add(m.shape);
+      }
+    });
+    const orderMap = { "일반 우드": 1, "600각": 2, "450각": 3, "와이드 우드": 4 };
+    const sortedShapes = Array.from(shapes).sort((a, b) => (orderMap[a] || 99) - (orderMap[b] || 99));
+    return ["all", ...sortedShapes];
   }, [materialsList, activeTab, activeBrand, activeLine]);
 
 
@@ -524,7 +597,16 @@ export default function Materials() {
 
       // Line check
       let lineOk = true;
-      if (activeLine !== "all") {
+      if (activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마")) {
+        if (activeDongshinMajor !== "all") {
+          const mMajor = getDongshinMajorCategory(m);
+          if (mMajor !== activeDongshinMajor) lineOk = false;
+        }
+        if (activeDongshinDetail !== "all") {
+          const mDetail = getDongshinDetailedLineup(m);
+          if (mDetail !== activeDongshinDetail) lineOk = false;
+        }
+      } else if (activeLine !== "all") {
         const line = activeTab === "마루" ? m.displayLine : getNormalizedLine(m, activeTab, activeBrand);
         if (activeTab === "마루" && m.brand === "구정" && m.series === "노블레스") {
           lineOk = (line === activeLine || (m.sizeOptions && m.sizeOptions.some(o => o.label === activeLine)));
@@ -535,8 +617,18 @@ export default function Materials() {
 
       // Shape check (only for KCC decotiles)
       let shapeOk = true;
-      if (activeTab === "데코타일" && activeBrand === "KCC" && activeShape !== "all") {
-        shapeOk = (m.shape === activeShape);
+      if (activeTab === "데코타일" && (activeBrand === "KCC" || activeBrand === "all") && activeShape !== "all") {
+        if (activeLine === "센스레이(내수)" || (m.line || "").includes("센스레이")) {
+          const sizeText = m.spec || m.specs?.size || m.size_text || "";
+          const s = String(sizeText).replace(/\s+/g, "");
+          if (activeShape === "라지 우드") shapeOk = s.includes("1524") || s.includes("228.6");
+          else if (activeShape === "일반 우드") shapeOk = s.includes("1219") || s.includes("177.8");
+          else if (activeShape === "라지 타일") shapeOk = s.includes("914.4") || s.includes("914");
+          else if (activeShape === "일반 타일") shapeOk = s.includes("457.2x457.2") || s.includes("457.2×457.2");
+          else if (activeShape === "텍스타일 플랭크") shapeOk = s.includes("184") || s.includes("950");
+        } else {
+          shapeOk = (m.shape === activeShape);
+        }
       }
 
       // Thickness check (only for 장판)
@@ -567,7 +659,7 @@ export default function Materials() {
     }
 
     return result;
-  }, [materialsList, activeTab, activeBrand, activeMaterialType, activeLine, activeShape, activeThickness, visibleLines, nameFilter, codeFilter, specFilter]);
+  }, [materialsList, activeTab, activeBrand, activeMaterialType, activeLine, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, visibleLines, nameFilter, codeFilter, specFilter]);
 
   // Apply sorting pipeline on filtered products (Immutably using useMemo)
   const sortedProducts = useMemo(() => {
@@ -575,8 +667,8 @@ export default function Materials() {
   }, [filtered, sortOption]);
 
   const isFilteredSearch = useMemo(() => {
-    return activeLine !== "all" || activeShape !== "all" || activeThickness !== "all" || activeMaterialType !== "all" || !!nameFilter.trim() || !!codeFilter.trim() || !!specFilter.trim();
-  }, [activeLine, activeShape, activeThickness, activeMaterialType, nameFilter, codeFilter, specFilter]);
+    return activeLine !== "all" || activeDongshinMajor !== "all" || activeDongshinDetail !== "all" || activeShape !== "all" || activeThickness !== "all" || activeMaterialType !== "all" || !!nameFilter.trim() || !!codeFilter.trim() || !!specFilter.trim();
+  }, [activeLine, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, activeMaterialType, nameFilter, codeFilter, specFilter]);
 
   const displayTotalCount = useMemo(() => {
     if (isFilteredSearch) return sortedProducts.length;
@@ -687,11 +779,28 @@ export default function Materials() {
                   </span>
                 )}
 
-                {activeLine !== "all" && (
-                  <span className="active-chip">
-                    라인업: {formatShapeOrPattern(activeLine)}
-                    <X size={14} className="chip-remove" onClick={() => updateParams({ line: null })} />
-                  </span>
+                {activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마") ? (
+                  <>
+                    {activeDongshinMajor !== "all" && (
+                      <span className="active-chip">
+                        대분류: {activeDongshinMajor}
+                        <X size={14} className="chip-remove" onClick={() => updateParams({ line: null, detail: null })} />
+                      </span>
+                    )}
+                    {activeDongshinDetail !== "all" && (
+                      <span className="active-chip">
+                        세부 라인업: {activeDongshinDetail}
+                        <X size={14} className="chip-remove" onClick={() => updateParams({ detail: null })} />
+                      </span>
+                    )}
+                  </>
+                ) : (
+                  activeLine !== "all" && (
+                    <span className="active-chip">
+                      라인업: {formatShapeOrPattern(activeLine)}
+                      <X size={14} className="chip-remove" onClick={() => updateParams({ line: null })} />
+                    </span>
+                  )
                 )}
                 {nameFilter.trim() && (
                   <span className="active-chip">
@@ -838,8 +947,45 @@ export default function Materials() {
               </div>
             </div>
 
-            {/* Lineup Filter */}
-            {!loading && visibleLines.length > 1 && (
+            {/* Dongshin 2-Tier Lineup Filter */}
+            {!loading && activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마") && (
+              <>
+                <div className="materials-lineup-filter dongshin-major-group">
+                  <span style={{ fontSize: '13px', fontWeight: '600', color: '#6b7280', alignSelf: 'center', marginRight: '6px' }}>대분류:</span>
+                  {DONGSHIN_MAJOR_CATEGORIES.map((catName) => (
+                    <button
+                      key={catName}
+                      className={`material-type-chip ${activeDongshinMajor === catName ? "active" : ""}`}
+                      onClick={() => updateParams({ line: catName === "전체" ? null : catName, detail: null })}
+                    >
+                      {catName === "전체"
+                        ? `전체 (${dongshinMajorCounts["전체"] || 130})`
+                        : `${catName} (${dongshinMajorCounts[catName] || 0})`}
+                    </button>
+                  ))}
+                </div>
+
+                {visibleDongshinDetails.length > 0 && (
+                  <div className="materials-lineup-filter dongshin-detail-group" style={{ marginTop: '10px' }}>
+                    <span style={{ fontSize: '13px', fontWeight: '600', color: '#6b7280', alignSelf: 'center', marginRight: '6px' }}>세부 라인업:</span>
+                    {visibleDongshinDetails.map((detailName) => (
+                      <button
+                        key={detailName}
+                        className={`material-type-chip ${activeDongshinDetail === detailName ? "active" : ""}`}
+                        onClick={() => updateParams({ detail: detailName === "전체" ? null : detailName })}
+                      >
+                        {detailName === "전체"
+                          ? `전체 (${dongshinDetailCounts["전체"] || 0})`
+                          : `${detailName} (${dongshinDetailCounts[detailName] || 0})`}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </>
+            )}
+
+            {/* Lineup Filter (Non-Dongshin) */}
+            {!loading && !(activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마")) && visibleLines.length > 1 && (
               <div className="materials-lineup-filter">
                 {visibleLines.map((lineName) => (
                   <button
@@ -987,6 +1133,11 @@ export default function Materials() {
         visibleLines={visibleLines}
         activeLine={activeLine}
         onLineChange={setActiveLine}
+        activeDongshinMajor={activeDongshinMajor}
+        onDongshinMajorChange={(cat) => updateParams({ line: cat === "전체" ? null : cat, detail: null })}
+        visibleDongshinDetails={visibleDongshinDetails}
+        activeDongshinDetail={activeDongshinDetail}
+        onDongshinDetailChange={(det) => updateParams({ detail: det === "전체" ? null : det })}
         nameFilter={nameFilter}
         setNameFilter={setNameFilter}
         codeFilter={codeFilter}

@@ -81,6 +81,31 @@ export function normalizeCode(code) {
   return String(code).replace(/[^a-zA-Z0-9가-힣]/g, '').toUpperCase();
 }
 
+export function getKccLineup(product) {
+  if (!product) return 'unknown';
+  const rawCode = product.code || product.product_code || '';
+  const rawName = product.name || product.product_name || '';
+  const rawLine = product.line || product.family || product.subLine || '';
+  const code = String(rawCode).trim().toUpperCase();
+  const name = String(rawName).trim();
+  const line = String(rawLine).trim();
+
+  if (code.startsWith('B') || name.startsWith('KCC 센스레이') || line === '센스레이' || line === 'SenseRay') {
+    return 'sensray';
+  }
+  if (name.startsWith('KCC 센스타일 프로') || line === '센스타일 프로' || code.startsWith('GW') || code.startsWith('GS') || /^\d{5}[PMCMG]$/.test(code)) {
+    return 'sensestyle-pro';
+  }
+  if (name.startsWith('KCC 센스타일 트랜디') || line === '센스타일 트랜디' || /^T[SWN]/i.test(code)) {
+    return 'sensestyle-trendy';
+  }
+  if (name.includes('센스레이')) return 'sensray';
+  if (name.includes('프로')) return 'sensestyle-pro';
+  if (name.includes('트랜디') || name.includes('트렌디')) return 'sensestyle-trendy';
+
+  return 'unknown';
+}
+
 /**
  * Returns an ordered list of candidate image URLs for any product object.
  * Candidate priority:
@@ -107,18 +132,24 @@ export function getProductImageCandidates(product) {
   const brandNorm = normalizeCode(brand);
   const lineNorm = normalizeCode(line);
 
-  // Check if product is KCC SenseRay (센스레이)
-  const isSenseRay = (brandNorm === 'KCC' || (!brandNorm && codeNorm.startsWith('B'))) &&
-    (lineNorm.includes('센스레이') || nameNorm.includes('센스레이') || lineNorm.includes('SENSERAY') || nameNorm.includes('SENSERAY') || codeNorm.startsWith('B'));
+  const lineup = getKccLineup(product);
 
   const addCandidate = (url) => {
     if (!url) return;
     const norm = normalizeProductImageUrl(url);
     if (!norm || norm === '/images/no-image.svg' || candidates.includes(norm)) return;
 
-    // For SenseRay products: reject any non-existent /KCC_pro/ dummy paths or SenStyle image paths/codes
-    if (isSenseRay) {
+    // Strict lineup boundary checks to prevent cross-lineup image bleed
+    if (lineup === 'sensray') {
       if (norm.includes('/KCC_pro/') || norm.includes('KCC_pro') || norm.includes('센스타일') || norm.includes('TS55') || norm.includes('KCC_square')) {
+        return;
+      }
+    } else if (lineup === 'sensestyle-pro') {
+      if (norm.includes('/센스레이/') || norm.includes('sensray')) {
+        return;
+      }
+    } else if (lineup === 'sensestyle-trendy') {
+      if (norm.includes('/센스레이/') || norm.includes('sensray')) {
         return;
       }
     }

@@ -1909,6 +1909,14 @@ export default function MaterialDetail() {
                             )}
                           </strong>
                         </div>
+                        {isDecoTile(item) && (item.specs?.area || item.area_per_box) && (
+                          <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '6px' }}>
+                            <span style={{ color: 'var(--text-light-gray)' }}>총 시공 가능 면적:</span>
+                            <strong style={{ color: 'var(--accent-showroom-green)' }}>
+                              {(displayQtyNum * parseFloat(item.specs?.area || item.area_per_box || "3.32")).toFixed(2)}㎡
+                            </strong>
+                          </div>
+                        )}
                         {isDecoTile(item) && (
                           <div style={{ fontSize: '11.5px', color: '#64748b', marginTop: '2px', marginBottom: '6px' }}>
                             * {DECOTILE_NOTICE_TEXT}
@@ -2201,13 +2209,13 @@ export default function MaterialDetail() {
                             <td>장판 전용 웰딩 시공 / 본드</td>
                           </tr>
                         </>
-                      ) : item.brand === 'KCC' && item.category === '데코타일' ? (
+                      ) : (item.brand === 'KCC' || item.brand === 'KCC글라스' || (item.brand && item.brand.includes('KCC'))) && item.category === '데코타일' ? (
                         <>
                           <tr>
                             <th>제조 브랜드</th>
-                            <td>KCC</td>
+                            <td>KCC글라스</td>
                             <th>제품군</th>
-                            <td>{item.family || item.line || "데코타일"}</td>
+                            <td>{item.line || item.family || (item.code?.startsWith('B') ? "센스레이" : "센스타일 프로")}</td>
                           </tr>
                           <tr>
                             <th>제품코드</th>
@@ -2217,34 +2225,26 @@ export default function MaterialDetail() {
                           </tr>
                           <tr>
                             <th>형태</th>
-                            <td>{item.shape_kr ? `${item.shape_kr} (${item.shape})` : (item.shape || "규격형")}</td>
+                            <td>{item.shape || item.specs?.shape || "일반 우드"}</td>
                             <th>두께</th>
-                            <td>{item.specs?.thickness || item.thickness || (item.family === '센스레이' || item.line === '센스레이' ? "5.0mm(5T)" : "3.0mm(3T)")}</td>
+                            <td>{item.thickness || item.specs?.thickness || (item.code?.startsWith('B') ? "5.0T" : "3.0T")}</td>
                           </tr>
                           <tr>
-                            <th>폭 × 길이</th>
-                            <td>{item.specs?.size || item.size_dim || item.spec || "규격 확인 필요"}</td>
-                            <th>권장 접착 자재</th>
-                            <td>데코타일 본드</td>
+                            <th>규격 (폭 × 길이)</th>
+                            <td>{item.specs?.size || item.size_text || item.spec || "규격 확인 필요"}</td>
+                            <th>판매단위</th>
+                            <td>BOX</td>
                           </tr>
                           <tr>
                             <th>박스당 수량</th>
-                            <td>{item.specs?.pcs_per_box || item.specs?.packing || item.pcs_per_box || (item.pcs_num ? `${item.pcs_num}장` : "상담 확인 필요")}</td>
-                            <th>박스당 포장 기준 면적</th>
-                            <td>{item.specs?.area || item.area_per_box || (item.area_num ? `${item.area_num}㎡` : "상담 확인 필요")}</td>
+                            <td>{item.specs?.pcs_per_box || (item.unit?.includes('매') ? item.unit.split('/')[0] : "상담 확인 필요")}</td>
+                            <th>박스당 시공면적</th>
+                            <td>{item.specs?.area || item.area_per_box || (item.unit?.includes('㎡') ? item.unit.split('/')[1] : "상담 확인 필요")}</td>
                           </tr>
-                          {(item.family === '센스레이' || item.line === '센스레이' || (item.code && item.code.startsWith('B')) || item.wear_layer || item.wearLayer) && (
-                            <tr>
-                              <th>내마모층</th>
-                              <td colSpan="3">{item.wear_layer || item.wearLayer || "0.5mm"}</td>
-                            </tr>
-                          )}
-                          {item.supply_status && (
-                            <tr>
-                              <th>공급 상태</th>
-                              <td colSpan="3">{item.supply_status}</td>
-                            </tr>
-                          )}
+                          <tr>
+                            <th>권장 접착제</th>
+                            <td colSpan="3">제조사 권장 데코타일 전용 접착제 (현장 조건에 맞는 접착제 선택 필요)</td>
+                          </tr>
                         </>
                       ) : (
                         <>
@@ -2377,27 +2377,55 @@ export default function MaterialDetail() {
                         </div>
                       </div>
                     </>
-                  ) : item.brand === 'KCC' && item.category === '데코타일' ? (
+                  ) : (item.brand === 'KCC' || item.brand === 'KCC글라스' || (item.brand && item.brand.includes('KCC'))) && item.category === '데코타일' ? (
                     <>
                       <div className="guide-card-item">
                         <ShieldCheck className="guide-card-icon text-success" />
                         <div className="guide-card-text">
-                          <h5>구매 수량 및 판매단위 안내</h5>
-                          <p>표시된 면적은 카탈로그의 박스당 포장 기준 면적입니다. 실제 주문 수량은 현장 실측 면적과 재단 손실, 시공 방향 등을 고려해 확인해 주세요. 제품 형태에 따라 박스당 수량과 면적이 다릅니다.</p>
+                          <h5>1. LOT 번호 확인 및 동일 LOT 사용</h5>
+                          <p>시공 전 제품 박스의 LOT 번호를 반드시 확인하고, 동일 공간에는 동일한 LOT 번호의 제품만 사용해 이색 방지 조치를 취합니다.</p>
                         </div>
                       </div>
                       <div className="guide-card-item">
                         <AlertTriangle className="guide-card-icon text-warn" />
                         <div className="guide-card-text">
-                          <h5>시공 전 확인사항</h5>
-                          <p>시공 전 바탕면 상태와 현장 조건을 확인해 주세요. 접착제와 시공 방법, 난방 바닥 적용 여부는 해당 제품의 제조사 시공지침 및 현장 상담을 통해 확인 후 결정해 주세요.</p>
+                          <h5>2. 시공면 상태 및 바닥 수분 함수율 확인</h5>
+                          <p>시공 바닥면의 수분(수분 함수율 5% 이하 기준), 평활도, 균열 및 바탕 강도를 사전 점검하고 신축 및 수분 과다 현장은 충분한 건조 후 시공합니다.</p>
                         </div>
                       </div>
                       <div className="guide-card-item">
                         <HelpCircle className="guide-card-icon text-info" />
                         <div className="guide-card-text">
-                          <h5>색상 및 이미지 안내</h5>
-                          <p>제품 이미지는 카탈로그에서 추출한 샘플 이미지입니다. 화면 설정과 조명에 따라 실제 제품과 색상 차이가 있을 수 있으므로, 주문 전 실물 샘플 확인을 권장합니다.</p>
+                          <h5>3. 시공면 오염물 및 이물질 완전 제거</h5>
+                          <p>바탕면의 먼지, 유분, 접착제 잔여물, 레이턴스 등 접착 저해 요소를 청소 및 샌딩 조치하여 청결한 상태를 유지합니다.</p>
+                        </div>
+                      </div>
+                      <div className="guide-card-item">
+                        <ShieldCheck className="guide-card-icon text-success" />
+                        <div className="guide-card-text">
+                          <h5>4. 제조사 권장 전용 접착제 선택 및 사용</h5>
+                          <p>제품 및 현장 상황(난방 여부, 습기 상태, 상업 현장 조건)에 맞는 제조사 권장 전용 데코타일 접착제를 선택하여 적정 도포량을 준수합니다.</p>
+                        </div>
+                      </div>
+                      <div className="guide-card-item">
+                        <AlertTriangle className="guide-card-icon text-warn" />
+                        <div className="guide-card-text">
+                          <h5>5. 타일 뒷면 방향 표시 확인 및 순방향 시공</h5>
+                          <p>제품 뒷면에 인쇄된 화살표 등 방향 표시를 확인하여 동일한 방향으로 순차 시공하여 이색 및 질감 차이를 예방합니다.</p>
+                        </div>
+                      </div>
+                      <div className="guide-card-item">
+                        <ShieldCheck className="guide-card-icon text-success" />
+                        <div className="guide-card-text">
+                          <h5>6. 접착 후 롤러를 이용한 충분한 압착</h5>
+                          <p>접착제 도포 후 오픈 타임을 준수하여 시공하고, 부착 후 50kg 핸들 롤러 등으로 바닥 전면을 충분히 압착하여 기포를 제거합니다.</p>
+                        </div>
+                      </div>
+                      <div className="guide-card-item">
+                        <HelpCircle className="guide-card-icon text-info" />
+                        <div className="guide-card-text">
+                          <h5>7. 동절기 실온 유지 및 양생 후 관리</h5>
+                          <p>동절기 시공 시 실온 15℃ 이상을 유지하고, 시공 후 24시간 이상 양생 기간 동안 보행을 제한하며 제조사 지침에 따라 유지관리합니다.</p>
                         </div>
                       </div>
                     </>

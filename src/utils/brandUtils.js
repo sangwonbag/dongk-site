@@ -31,6 +31,98 @@ export const FLOORING_THICKNESS_BY_BRAND = {
   KCC: ['1.8T', '2.0T', '2.2T', '2.7T', '3.2T', '4.5T', '5.0T'],
 };
 
+export const KCC_LINEUP_SLUG_MAP = {
+  "pro-600": "센스타일 프로 600각",
+  "pro-450": "센스타일 프로 450각",
+  "pro-wood": "센스타일 프로 우드",
+  "pro-wide-wood": "센스타일 프로 와이드 우드",
+  "trendy-600": "센스타일 트랜디 600각",
+  "trendy-450": "센스타일 트랜디 450각",
+  "trendy-wood": "센스타일 트랜디 우드",
+  "sensray": "센스레이(내수)"
+};
+
+export const KCC_LINEUP_NAME_TO_SLUG = {
+  "센스타일 프로 600각": "pro-600",
+  "센스타일 프로 450각": "pro-450",
+  "센스타일 프로 우드": "pro-wood",
+  "센스타일 프로 와이드 우드": "pro-wide-wood",
+  "센스타일 트랜디 600각": "trendy-600",
+  "센스타일 트랜디 450각": "trendy-450",
+  "센스타일 트랜디 우드": "trendy-wood",
+  "센스레이(내수)": "sensray"
+};
+
+export const KCC_DECOTILE_LINEUPS = [
+  "센스타일 프로 600각",
+  "센스타일 프로 450각",
+  "센스타일 프로 우드",
+  "센스타일 프로 와이드 우드",
+  "센스타일 트랜디 600각",
+  "센스타일 트랜디 450각",
+  "센스타일 트랜디 우드",
+  "센스레이(내수)"
+];
+
+export function resolveKccLineupName(raw) {
+  if (!raw || raw === "all") return "all";
+  const s = String(raw).trim();
+  if (KCC_LINEUP_SLUG_MAP[s]) return KCC_LINEUP_SLUG_MAP[s];
+  if (s === "센스레이" || s === "SenseRay") return "센스레이(내수)";
+  if (s === "센스타일 프로" || s === "프로") return "센스타일 프로 450각";
+  if (s === "센스타일 트랜디" || s === "트랜디" || s === "트렌디") return "센스타일 트랜디 450각";
+  return s;
+}
+
+export function resolveKccLineupSlug(name) {
+  if (!name || name === "all") return null;
+  return KCC_LINEUP_NAME_TO_SLUG[name] || name;
+}
+
+export function getKccLineup(item) {
+  if (!item) return "미분류";
+
+  const code = String(item.code || item.product_code || item.productCode || "").trim();
+  const name = String(item.name || item.product_name || item.productName || item.title || "").trim();
+  const line = String(item.line || item.family || item.collection || "").trim();
+  const desc = String(item.description || "").trim();
+  const spec = String(item.spec || item.size_text || (item.specs && item.specs.size) || "").trim();
+  const shape = String(item.shape || "").trim();
+
+  // 1. 센스레이(내수)
+  if (code.startsWith('B') || name.includes('센스레이') || line.includes('센스레이') || desc.includes('센스레이')) {
+    return '센스레이(내수)';
+  }
+
+  // 2. 센스타일 트랜디
+  if (code.startsWith('TW') || code.startsWith('TS') || name.includes('트랜디') || line.includes('트랜디') || desc.includes('트랜디')) {
+    if (code.endsWith('M') || spec.includes('600') || shape.includes('600')) return '센스타일 트랜디 600각';
+    if (code.endsWith('P') || spec.includes('457') || spec.includes('450') || shape.includes('450')) return '센스타일 트랜디 450각';
+    if (code.endsWith('G') || spec.includes('184') || shape.includes('우드')) return '센스타일 트랜디 우드';
+    if (code.startsWith('TW')) return '센스타일 트랜디 우드';
+    return '센스타일 트랜디 450각';
+  }
+
+  // 3. 센스타일 프로
+  if (code.startsWith('GW') || code.startsWith('GS') || /^\d{5}[PMCMGK]$/.test(code) || name.includes('프로') || line.includes('프로') || desc.includes('프로')) {
+    if (code.endsWith('M') || spec.includes('600') || shape.includes('600')) return '센스타일 프로 600각';
+    if (code.endsWith('P') || spec.includes('457') || spec.includes('450') || shape.includes('450')) return '센스타일 프로 450각';
+    if (code.endsWith('W') || code.endsWith('K') || spec.includes('1219') || spec.includes('228')) return '센스타일 프로 와이드 우드';
+    if (code.endsWith('G') || spec.includes('184') || shape.includes('우드')) return '센스타일 프로 우드';
+    if (code.endsWith('W') || code.endsWith('K')) return '센스타일 프로 와이드 우드';
+    if (code.endsWith('G')) return '센스타일 프로 우드';
+    if (code.endsWith('M')) return '센스타일 프로 600각';
+    if (code.endsWith('P')) return '센스타일 프로 450각';
+  }
+
+  if (code.endsWith('M') || spec.includes('600')) return '센스타일 프로 600각';
+  if (code.endsWith('P') || spec.includes('457')) return '센스타일 프로 450각';
+  if (code.endsWith('G') || spec.includes('184')) return '센스타일 프로 우드';
+  if (code.endsWith('W') || code.endsWith('K') || spec.includes('1219')) return '센스타일 프로 와이드 우드';
+
+  return '센스타일 프로 450각';
+}
+
 export const normalizeBrandName = (brandStr) => {
   if (!brandStr) return "기타";
   const b = String(brandStr).trim();
@@ -268,6 +360,7 @@ export function formatShapeOrPattern(value) {
 }
 
 import { isDecoTile, getRecommendedAdhesive } from "./decotileUtils.js";
+import { getDongshinMajorCategory } from "./dongshinUtils.js";
 
 export function normalizeProductDetails(item) {
   if (!item) return item;
@@ -380,20 +473,37 @@ export function getCleanProductName(product, explicitCode) {
 export function formatProductTitle(product) {
   if (!product) return '상품정보 확인 중';
   const code = getCleanProductCode(product);
-  
-  if (product.brand === 'KCC' && (product.category === '데코타일' || !product.category)) {
-    const family = product.family || product.line || '';
-    if (family === '센스타일 프로' || family.includes('센스타일 프로') || family.includes('프로') || (code && (code.startsWith('GW') || code.startsWith('GS')))) {
-      if (code) return `KCC 센스타일 프로 ${code}`;
+  const brand = (product.brand || '').trim();
+  const family = product.family || product.line || '';
+
+  if ((brand.includes('KCC') || (product.name && product.name.includes('KCC'))) && (product.category === '데코타일' || !product.category)) {
+    const rawName = product.name || product.product_name || product.title || '';
+    if (rawName.startsWith('KCC 센스타일 프로') || rawName.startsWith('KCC 센스레이') || rawName.startsWith('KCC 센스타일 트랜디')) {
+      return rawName;
+    }
+    const pattern = (product.pattern || '').trim();
+    const patternPrefix = pattern ? `${pattern} ` : '';
+
+    if (family === '센스타일 프로' || family.includes('센스타일 프로') || family.includes('프로') || (code && (code.startsWith('GW') || code.startsWith('GS') || /^\d{5}[PMCMG]$/.test(code)))) {
+      if (code) return `KCC 센스타일 프로 ${patternPrefix}${code} (3.0T)`.replace(/\s+/g, ' ');
+    }
+    if (family === '센스타일 트랜디' || family.includes('트랜디') || family.includes('트렌디') || /^T[SW]/i.test(code)) {
+      if (code) return `KCC 센스타일 트랜디 ${patternPrefix}${code} (3.0T)`.replace(/\s+/g, ' ');
     }
     if (family === '센스레이' || family.includes('센스레이') || (code && code.startsWith('B'))) {
-      if (code) return `KCC 센스레이 ${code}`;
+      if (code) return `KCC 센스레이 ${patternPrefix}${code} (5.0T)`.replace(/\s+/g, ' ');
     }
-    const lineStr = String(product.line || product.name || '').trim();
-    if (lineStr.includes('트랜디') || lineStr.includes('KCC_square') || lineStr.includes('KCC_wood') || /^T[SW]/i.test(code)) {
-      if (code) {
-        return `KCC 센스타일 트랜디 ${code}`;
-      }
+  }
+
+  if ((brand.includes('동신') || (product.name && product.name.includes('동신'))) && (product.category === '데코타일' || !product.category)) {
+    const major = getDongshinMajorCategory(product);
+    let thickness = String(product.thickness || (product.specs && product.specs.thickness) || '').trim();
+    if (thickness && !thickness.endsWith('T') && /^\d+(\.\d+)?$/.test(thickness)) {
+      thickness = thickness + 'T';
+    }
+    const tStr = thickness ? ` (${thickness})` : '';
+    if (code) {
+      return `동신 ${major} ${code}${tStr}`.replace(/\s+/g, ' ');
     }
   }
 

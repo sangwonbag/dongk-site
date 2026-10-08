@@ -6,8 +6,9 @@ import { useAuth } from '../../contexts/AuthContext';
 import { getThumbnailImage } from '../../utils/galleryUtils';
 import { getMaterialImagePath } from '../../utils/materialImageResolver';
 import { getProductImageUrl, getProductImageCandidates } from '../../utils/productImageResolver';
-import { getComputedBrand, getNormalizedThickness, formatFlooringProductName, formatProductTitle, getProductUnit, formatShapeOrPattern } from '../../utils/brandUtils';
+import { getComputedBrand, getNormalizedThickness, formatFlooringProductName, formatProductTitle, getProductUnit, formatShapeOrPattern, getKccLineup } from '../../utils/brandUtils';
 import { isDecoTile } from '../../utils/decotileUtils';
+import { getDongshinMajorCategory, getDongshinDetailedLineup } from '../../utils/dongshinUtils';
 import { Skeleton, ImagePlaceholder, ProductImage } from '../ui';
 import './MaterialCard.css';
 
@@ -253,27 +254,21 @@ const MaterialCard = ({ material, priority = false }) => {
                 </div>
                 <Link to={`/materials/${material.id}`} className="card-name" onClick={handleGoDetail} style={{ color: 'inherit', textDecoration: 'none', display: 'block' }}>{displayName}</Link>
                 
-                {material.brand === 'KCC' && material.category === '데코타일' ? (
+                {(material.brand === 'KCC' || material.brand === 'KCC글라스' || (material.brand && material.brand.includes('KCC'))) && material.category === '데코타일' ? (
                     <div className="card-meta">
                         <div className="card-meta-item">
                             <span className="meta-label">제품군</span>
-                            <span className="meta-value">{material.line || "센스타일 트랜디"}</span>
+                            <span className="meta-value">{getKccLineup(material)}</span>
                         </div>
-                        {material.shape && (
+                        {(material.shape || material.specs?.shape) && (
                             <div className="card-meta-item">
                                 <span className="meta-label">형태</span>
-                                <span className="meta-value">{material.shape}</span>
-                            </div>
-                        )}
-                        {material.pattern && (
-                            <div className="card-meta-item">
-                                <span className="meta-label">패턴명</span>
-                                <span className="meta-value">{formatShapeOrPattern(material.pattern)}</span>
+                                <span className="meta-value">{material.shape || material.specs?.shape}</span>
                             </div>
                         )}
                         <div className="card-meta-item">
-                            <span className="meta-label">코드</span>
-                            <span className="meta-value">{material.code}</span>
+                            <span className="meta-label">제품코드</span>
+                            <span className="meta-value">{material.code || material.product_code}</span>
                         </div>
                         <div className="card-meta-item">
                             <span className="meta-label">두께</span>
@@ -281,11 +276,13 @@ const MaterialCard = ({ material, priority = false }) => {
                         </div>
                         <div className="card-meta-item">
                             <span className="meta-label">규격</span>
-                            <span className="meta-value">{material.specs?.size || material.spec}</span>
+                            <span className="meta-value">{material.specs?.size || material.size_text || material.spec}</span>
                         </div>
                         <div className="card-meta-item">
                             <span className="meta-label">포장</span>
-                            <span className="meta-value">{material.specs?.packing || material.package}</span>
+                            <span className="meta-value">
+                                {material.specs?.pcs_per_box ? `${material.specs.pcs_per_box}/BOX` : (material.unit?.includes('매') ? `${material.unit.split('/')[0]}/BOX` : (material.specs?.packing || material.package || "BOX"))}
+                            </span>
                         </div>
                     </div>
                 ) : material.brand === '이건' && material.category === '마루' ? (
@@ -328,7 +325,30 @@ const MaterialCard = ({ material, priority = false }) => {
                             <span className="meta-value">{currentSpec}</span>
                         </div>
                     </div>
-                ) : ((material.brand === '동신' && material.category === '데코타일' && ['아트타일', '아트하우스', '아트에코차음'].includes(material.line)) || (material.brand === 'LX' && material.category === '데코타일')) ? (
+                ) : ((material.brand === '동신' || (material.brand && material.brand.includes('동신'))) && material.category === '데코타일') ? (
+                    <div className="card-meta">
+                        <div className="card-meta-item">
+                            <span className="meta-label">분류</span>
+                            <span className="meta-value">{getDongshinMajorCategory(material)} · {getDongshinDetailedLineup(material)}</span>
+                        </div>
+                        <div className="card-meta-item">
+                            <span className="meta-label">코드</span>
+                            <span className="meta-value">{material.code || material.product_code}</span>
+                        </div>
+                        <div className="card-meta-item">
+                            <span className="meta-label">두께</span>
+                            <span className="meta-value">{material.thickness || material.specs?.thickness || "3.0T"}</span>
+                        </div>
+                        <div className="card-meta-item">
+                            <span className="meta-label">규격</span>
+                            <span className="meta-value">{material.specs?.size || material.size_text || material.spec}</span>
+                        </div>
+                        <div className="card-meta-item">
+                            <span className="meta-label">포장</span>
+                            <span className="meta-value">{material.specs?.packing || material.package || material.unit}</span>
+                        </div>
+                    </div>
+                ) : (material.brand === 'LX' && material.category === '데코타일') ? (
                     <div className="card-meta">
                         <div className="card-meta-item">
                             <span className="meta-label">라인업</span>

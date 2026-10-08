@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { X, RotateCcw, Check } from "lucide-react";
 import { formatShapeOrPattern } from "../../utils/brandUtils";
+import { DONGSHIN_MAJOR_CATEGORIES } from "../../utils/dongshinUtils";
 import { SORT_OPTIONS } from "../../utils/sortUtils";
 import "./MobileFilterSheet.css";
 
@@ -22,6 +23,11 @@ export default function MobileFilterSheet({
   visibleLines,
   activeLine,
   onLineChange,
+  activeDongshinMajor,
+  onDongshinMajorChange,
+  visibleDongshinDetails,
+  activeDongshinDetail,
+  onDongshinDetailChange,
   nameFilter,
   setNameFilter,
   codeFilter,
@@ -122,8 +128,45 @@ export default function MobileFilterSheet({
 
 
 
-          {/* Lineup */}
-          {visibleLines && visibleLines.length > 2 && (
+          {/* Dongshin 2-Tier Lineup Filter */}
+          {activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마") && (
+            <>
+              <div className="filter-sheet-group">
+                <label className="sheet-label">대분류</label>
+                <div className="sheet-chips-grid">
+                  {DONGSHIN_MAJOR_CATEGORIES.map((cat) => (
+                    <button
+                      key={cat}
+                      className={`sheet-chip ${activeDongshinMajor === cat ? "active" : ""}`}
+                      onClick={() => onDongshinMajorChange && onDongshinMajorChange(cat)}
+                    >
+                      {cat}
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              {visibleDongshinDetails && visibleDongshinDetails.length > 0 && (
+                <div className="filter-sheet-group">
+                  <label className="sheet-label">세부 라인업</label>
+                  <div className="sheet-chips-grid">
+                    {visibleDongshinDetails.map((det) => (
+                      <button
+                        key={det}
+                        className={`sheet-chip ${activeDongshinDetail === det ? "active" : ""}`}
+                        onClick={() => onDongshinDetailChange && onDongshinDetailChange(det)}
+                      >
+                        {det}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </>
+          )}
+
+          {/* Lineup (Non-Dongshin) */}
+          {!(activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마")) && visibleLines && visibleLines.length > 2 && (
             <div className="filter-sheet-group">
               <label className="sheet-label">라인업</label>
               <div className="sheet-chips-grid">
@@ -133,7 +176,7 @@ export default function MobileFilterSheet({
                     className={`sheet-chip ${activeLine === l ? "active" : ""}`}
                     onClick={() => onLineChange(l)}
                   >
-                    {l === "all" ? "전체 라인업" : formatShapeOrPattern(l)}
+                    {l === "all" ? "전체 라인업" : l}
                   </button>
                 ))}
               </div>

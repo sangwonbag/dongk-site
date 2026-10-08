@@ -1,6 +1,6 @@
 import { supabase } from '../lib/supabaseClient.js';
 import { dongshinPolymer2026 } from '../data/dongshinPolymer2026.js';
-import { normalizeProductDetails, isSentenceDescription } from './brandUtils.js';
+import { normalizeProductDetails, isSentenceDescription, getKccLineup } from './brandUtils.js';
 import { HIDE_SUB_MATERIALS, isSubMaterialCategory } from '../config/categoryConfig.js';
 
 let localMaterialsCache = null;
@@ -222,8 +222,7 @@ export function mapProductRow(p) {
   const dbKey = getMaterialMatchKey(dbItem);
   const localMatch = localMaterialsCache ? localMaterialsCache.find(m => getMaterialMatchKey(m) === dbKey) : null;
 
-  const isSenseRay = (brandName === 'KCC' || code.startsWith('B')) &&
-    ((p.name || '').includes('센스레이') || (p.description || '').includes('센스레이') || code.startsWith('B'));
+  const isSenseRay = code.startsWith('B') || (p.name || '').startsWith('KCC 센스레이') || p.line === '센스레이';
 
   let rawImg = p.image_url || null;
   if (isSenseRay && rawImg && (rawImg.includes('/KCC_pro/') || rawImg.includes('KCC_pro') || rawImg.includes('센스타일') || rawImg.includes('TS55'))) {
@@ -290,6 +289,10 @@ export function mapProductRow(p) {
       if (!mapped.specs) mapped.specs = {};
       mapped.specs.area = localMatch.specs.area;
     }
+  }
+
+  if (mapped.category === '데코타일' && (mapped.brand === 'KCC' || (mapped.brand || '').includes('KCC'))) {
+    mapped.line = getKccLineup(mapped);
   }
 
   return normalizeProductDetails(mapped);
