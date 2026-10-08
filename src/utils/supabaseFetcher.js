@@ -802,133 +802,135 @@ export function extractProductCodeFromParam(param) {
 }
 
 /**
- * Smart, multi-strategy product detail fetcher that handles:
- * 1. Numeric ID
- * 2. Exact slug
- * 3. Exact product_code
- * 4. Extracted product code
- * 5. Compact product code
- * 6. Case-insensitive slug / name matches
- * 7. Fast local fallback search
+ * Product details must load even when a Supabase request stalls.
+ * Query exact identifiers concurrently, cap the server wait, then use the
+ * local catalogue only for an exact and active product match.
+ * Avoid substring matching: it can silently show another product's detail.
  */
 export async function fetchProductDetailBySlugOrId(routeParam, signal = null) {
   if (!routeParam) return null;
 
   let decodedParam = String(routeParam).trim();
   try {
-    decodedParam = decodeURIComponent(routeParam).trim();
+    decodedParam = decodeURIComponent(decodedParam).trim();
   } catch (e) {
-    console.warn('[fetchProductDetailBySlugOrId] decodeURIComponent error:', e);
+    console.warn('[fetchProductDetailBySlugOrId] Invalid URL encoding:', e);
   }
-
   if (!decodedParam) return null;
 
+  const throwIfAborted = () => {
+    if (signal?.aborted) {
+      const err = new Error('aborted');
+      err.name = 'AbortError';
+      throw err;
+    }
+  };
+  throwIfAborted();
+
+  // A generated route can end in e.g. "kcc_pro-30082p".
+  // The previous extractor mistook "pro30082p" for the product code.
+  const trailingCode = decodedParam.match(/(?:^|[-_])(\d{3,6}[a-zA-Z]{0,4})$/i)?.[1] || '';
   const extractedCode = extractProductCodeFromParam(decodedParam);
   const compactParam = decodedParam.replace(/[-_\s]/g, '');
-  const selectFields = '*, categories(id, name), brands(id, name)';
+  const codeCandidates = [decodedParam, trailingCode, extractedCode, compactParam]
+    .filter((value, index, all) => value && all.findIndex(other => other.toLowerCase() === value.toLowerCase()) === index);
 
   if (supabase) {
+    const requestController = new AbortController();
+    const forwardAbort = () => requestController.abort();
+    signal?.addEventListener('abort', forwardAbort, { once: true });
+    let timeoutId;
+
     try {
-      // 1. Numeric ID
+      const selectFields = '*, categories(id, name), brands(id, name)';
+      const strategies = [];
       if (/^\d+$/.test(decodedParam)) {
-        let q = supabase.from('products').select(selectFields).eq('id', parseInt(decodedParam, 10)).maybeSingle();
-        if (signal) q = q.abortSignal(signal);
-        const { data } = await q;
-        if (data) return mapProductRow(data);
+        strategies.push({ field: 'id', value: Number(decodedParam), exact: true });
+      }
+      strategies.push({ field: 'slug', value: decodedParam, exact: true });
+
+      // Exact (case-insensitive) code lookup, not "%code%" fuzzy matches.
+      for (const code of codeCandidates) {
+        if (code.length >= 3 && code.length <= 48) {
+          strategies.push({ field: 'product_code', value: code, exact: false });
+        }
       }
 
-      // 2. Exact slug match
-      {
-        let q = supabase.from('products').select(selectFields).eq('slug', decodedParam).maybeSingle();
-        if (signal) q = q.abortSignal(signal);
-        const { data } = await q;
-        if (data) return mapProductRow(data);
-      }
+      // Each query is individually abortable; all strategies share one deadline.
+      const resultsPromise = Promise.all(strategies.map(async strategy => {
+        try {
+          let q = supabase.from('products').select(selectFields);
+          q = strategy.exact
+            ? q.eq(strategy.field, strategy.value)
+            : q.ilike(strategy.field, strategy.value);
+          const { data, error } = await q.limit(5).abortSignal(requestController.signal);
+          return { data, error };
+        } catch (error) {
+          return { data: null, error };
+        }
+      }));
 
-      // 3. Exact product_code match
-      {
-        let q = supabase.from('products').select(selectFields).eq('product_code', decodedParam).maybeSingle();
-        if (signal) q = q.abortSignal(signal);
-        const { data } = await q;
-        if (data) return mapProductRow(data);
-      }
+      const results = await Promise.race([
+        resultsPromise,
+        new Promise(resolve => {
+          timeoutId = setTimeout(() => resolve(null), 3500);
+        })
+      ]);
+      throwIfAborted();
 
-      // 4. Extracted code match
-      if (extractedCode) {
-        let q = supabase.from('products').select(selectFields).eq('product_code', extractedCode).maybeSingle();
-        if (signal) q = q.abortSignal(signal);
-        const { data } = await q;
-        if (data) return mapProductRow(data);
+      if (!results) {
+        console.warn('[fetchProductDetailBySlugOrId] Supabase timed out; checking exact local match.');
+      } else {
+        for (const result of results) {
+          if (result.error) {
+            console.warn('[fetchProductDetailBySlugOrId] Query error:', result.error);
+            continue;
+          }
+          const rows = Array.isArray(result.data) ? result.data : [];
+          if (!rows.length) continue;
 
-        let q2 = supabase.from('products').select(selectFields).ilike('product_code', '%' + extractedCode + '%').limit(1);
-        if (signal) q2 = q2.abortSignal(signal);
-        const { data: d2 } = await q2;
-        if (d2 && d2.length > 0) return mapProductRow(d2[0]);
+          const preferred = rows.find(p => String(p.slug || '').toLowerCase() === decodedParam.toLowerCase())
+            || rows.find(p => {
+              const brand = String(p.brands?.name || '').toLowerCase();
+              return brand && decodedParam.toLowerCase().split(/[-_]/).includes(brand);
+            })
+            || rows[0];
 
-        let q3 = supabase.from('products').select(selectFields).ilike('slug', '%' + extractedCode.toLowerCase() + '%').limit(1);
-        if (signal) q3 = q3.abortSignal(signal);
-        const { data: d3 } = await q3;
-        if (d3 && d3.length > 0) return mapProductRow(d3[0]);
-      }
-
-      // 5. Compact param match
-      if (compactParam && compactParam !== extractedCode) {
-        let q = supabase.from('products').select(selectFields).eq('product_code', compactParam).maybeSingle();
-        if (signal) q = q.abortSignal(signal);
-        const { data } = await q;
-        if (data) return mapProductRow(data);
-      }
-
-      // 6. Case-insensitive slug / name match
-      {
-        let q = supabase.from('products').select(selectFields).ilike('slug', decodedParam).maybeSingle();
-        if (signal) q = q.abortSignal(signal);
-        const { data } = await q;
-        if (data) return mapProductRow(data);
-      }
-
-      {
-        let q = supabase.from('products').select(selectFields).ilike('name', '%' + decodedParam + '%').limit(1);
-        if (signal) q = q.abortSignal(signal);
-        const { data } = await q;
-        if (data && data.length > 0) return mapProductRow(data[0]);
+          // Never revive a disabled product via the local fallback catalogue.
+          if (preferred.is_active === false) return null;
+          return mapProductRow(preferred);
+        }
       }
     } catch (err) {
-      if (err.name === 'AbortError' || err.message === 'aborted') {
-        const abortErr = new Error('aborted');
-        abortErr.name = 'AbortError';
-        throw abortErr;
-      }
-      console.warn('[fetchProductDetailBySlugOrId] Supabase fetch exception:', err);
+      if (signal?.aborted) throwIfAborted();
+      console.warn('[fetchProductDetailBySlugOrId] Server lookup failed; checking local catalogue:', err);
+    } finally {
+      if (timeoutId) clearTimeout(timeoutId);
+      requestController.abort();
+      signal?.removeEventListener('abort', forwardAbort);
     }
   }
 
-  // Strategy 7: Fast Local Fallback
+  throwIfAborted();
   try {
     const localList = await getLocalMaterials();
-    const normParam = String(decodedParam).replace(/[^a-zA-Z0-9가-힣]/g, '').toLowerCase();
-
-    const matched = localList.find(m => {
-      if (!m) return false;
-      if (String(m.id) === String(decodedParam) || m.code === decodedParam || m.slug === decodedParam) return true;
-      if (m.code && m.code.toLowerCase() === decodedParam.toLowerCase()) return true;
-      const normCode = String(m.code || '').replace(/[^a-zA-Z0-9가-힣]/g, '').toLowerCase();
-      if (normCode && (normCode === normParam || normParam.endsWith(normCode) || normCode.endsWith(normParam))) return true;
-      if (extractedCode) {
-        const normExtracted = extractedCode.toLowerCase();
-        if (normCode === normExtracted || normParam.includes(normExtracted)) return true;
-      }
-      return false;
+    throwIfAborted();
+    const normalizedCode = value => String(value || '').replace(/[^a-zA-Z0-9가-힣]/g, '').toLowerCase();
+    const exactId = decodedParam.toLowerCase();
+    const isActive = m => m && m.active !== false && m.is_active !== false;
+    // Local identifiers are checked first, before searching by product code.
+    const exact = localList.find(m => isActive(m) &&
+      [m.id, m.slug, m.code].some(value => value != null && String(value).toLowerCase() === exactId));
+    const matched = exact || localList.find(m => {
+      if (!isActive(m) || !m.code) return false;
+      const materialCode = normalizedCode(m.code);
+      return materialCode.length >= 3 && codeCandidates.some(candidate =>
+        normalizedCode(candidate) === materialCode);
     });
-
-    if (matched) {
-      return normalizeProductDetails(matched);
-    }
-  } catch (locErr) {
-    console.warn('[fetchProductDetailBySlugOrId] Local fallback error:', locErr);
+    return matched ? normalizeProductDetails(matched) : null;
+  } catch (err) {
+    if (signal?.aborted) throwIfAborted();
+    console.warn('[fetchProductDetailBySlugOrId] Local exact-match lookup failed:', err);
+    return null;
   }
-
-  return null;
 }
-
-
