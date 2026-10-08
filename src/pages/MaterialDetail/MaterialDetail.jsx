@@ -2212,25 +2212,37 @@ export default function MaterialDetail() {
                           <tr>
                             <th>제품코드</th>
                             <td>{item.code}</td>
-                            <th>형태</th>
-                            <td>{item.shape_kr ? `${item.shape_kr} (${item.shape})` : (item.shape || "규격형")}</td>
+                            <th>패턴명</th>
+                            <td>{item.pattern || "기본 패턴"}</td>
                           </tr>
                           <tr>
+                            <th>형태</th>
+                            <td>{item.shape_kr ? `${item.shape_kr} (${item.shape})` : (item.shape || "규격형")}</td>
                             <th>두께</th>
-                            <td>{item.specs?.thickness || item.thickness || (item.family === '센스레이' ? "5.0mm(5T)" : "3.0mm(3T)")}</td>
+                            <td>{item.specs?.thickness || item.thickness || (item.family === '센스레이' || item.line === '센스레이' ? "5.0mm(5T)" : "3.0mm(3T)")}</td>
+                          </tr>
+                          <tr>
                             <th>폭 × 길이</th>
                             <td>{item.specs?.size || item.size_dim || item.spec || "규격 확인 필요"}</td>
+                            <th>권장 접착 자재</th>
+                            <td>데코타일 본드</td>
                           </tr>
                           <tr>
                             <th>박스당 수량</th>
-                            <td>{item.specs?.pcs_per_box || item.pcs_per_box || (item.pcs_num ? `${item.pcs_num}장` : "상담 확인 필요")}</td>
+                            <td>{item.specs?.pcs_per_box || item.specs?.packing || item.pcs_per_box || (item.pcs_num ? `${item.pcs_num}장` : "상담 확인 필요")}</td>
                             <th>박스당 포장 기준 면적</th>
                             <td>{item.specs?.area || item.area_per_box || (item.area_num ? `${item.area_num}㎡` : "상담 확인 필요")}</td>
                           </tr>
-                          {(item.family === '센스레이' || item.line === '센스레이' || (item.code && item.code.startsWith('B')) || item.wear_layer) && (
+                          {(item.family === '센스레이' || item.line === '센스레이' || (item.code && item.code.startsWith('B')) || item.wear_layer || item.wearLayer) && (
                             <tr>
                               <th>내마모층</th>
-                              <td colSpan="3">{item.wear_layer || "0.5mm"}</td>
+                              <td colSpan="3">{item.wear_layer || item.wearLayer || "0.5mm"}</td>
+                            </tr>
+                          )}
+                          {item.supply_status && (
+                            <tr>
+                              <th>공급 상태</th>
+                              <td colSpan="3">{item.supply_status}</td>
                             </tr>
                           )}
                         </>

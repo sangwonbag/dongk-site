@@ -180,17 +180,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30082P",
       "thickness": "3.0T",
-      "size": "3T×457.2×457.2mm",
-      "packing": "16PCS/BOX",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "450각",
     "pattern": "그란데 테라조",
     "product_code": "30082P",
-    "product_name": "센스타일 프로 그란데 테라조"
+    "product_name": "센스타일 프로 그란데 테라조",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30102p",
@@ -210,17 +214,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30102P",
       "thickness": "3.0T",
-      "size": "3T×457.2×457.2mm",
-      "packing": "16PCS/BOX",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "450각",
     "pattern": "믹스 쉐브론",
     "product_code": "30102P",
-    "product_name": "센스타일 프로 믹스 쉐브론"
+    "product_name": "센스타일 프로 믹스 쉐브론",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30111p",
@@ -238,17 +246,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30111P",
       "thickness": "3.0T",
-      "size": "3T×457.2×457.2mm",
-      "packing": "16PCS/BOX",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "450각",
     "pattern": "텍스처 콘크리트",
     "product_code": "30111P",
-    "product_name": "센스타일 프로 텍스처 콘크리트"
+    "product_name": "센스타일 프로 텍스처 콘크리트",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30112p",
@@ -266,17 +278,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30112P",
       "thickness": "3.0T",
-      "size": "3T×457.2×457.2mm",
-      "packing": "16PCS/BOX",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "450각",
     "pattern": "텍스처 콘크리트",
     "product_code": "30112P",
-    "product_name": "센스타일 프로 텍스처 콘크리트"
+    "product_name": "센스타일 프로 텍스처 콘크리트",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30113p",
@@ -294,17 +310,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30113P",
       "thickness": "3.0T",
-      "size": "3T×457.2×457.2mm",
-      "packing": "16PCS/BOX",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "450각",
     "pattern": "텍스처 콘크리트",
     "product_code": "30113P",
-    "product_name": "센스타일 프로 텍스처 콘크리트"
+    "product_name": "센스타일 프로 텍스처 콘크리트",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30114p",
@@ -322,17 +342,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30114P",
       "thickness": "3.0T",
-      "size": "3T×457.2×457.2mm",
-      "packing": "16PCS/BOX",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "450각",
     "pattern": "텍스처 콘크리트",
     "product_code": "30114P",
-    "product_name": "센스타일 프로 텍스처 콘크리트"
+    "product_name": "센스타일 프로 텍스처 콘크리트",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30133p",
@@ -350,17 +374,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30133P",
       "thickness": "3.0T",
-      "size": "3T×457.2×457.2mm",
-      "packing": "16PCS/BOX",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "450각",
     "pattern": "트래버틴",
     "product_code": "30133P",
-    "product_name": "센스타일 프로 트래버틴"
+    "product_name": "센스타일 프로 트래버틴",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30141m",
@@ -378,17 +406,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30141M",
       "thickness": "3.0T",
-      "size": "3T×600×600mm",
-      "packing": "9PCS/BOX",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "600각",
     "pattern": "실키스톤",
     "product_code": "30141M",
-    "product_name": "센스타일 프로 실키스톤"
+    "product_name": "센스타일 프로 실키스톤",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30142m",
@@ -406,17 +438,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30142M",
       "thickness": "3.0T",
-      "size": "3T×600×600mm",
-      "packing": "9PCS/BOX",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "600각",
     "pattern": "실키스톤",
     "product_code": "30142M",
-    "product_name": "센스타일 프로 실키스톤"
+    "product_name": "센스타일 프로 실키스톤",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30151m",
@@ -434,17 +470,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30151M",
       "thickness": "3.0T",
-      "size": "3T×600×600mm",
-      "packing": "9PCS/BOX",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "600각",
     "pattern": "베이직 콘크리트",
     "product_code": "30151M",
-    "product_name": "센스타일 프로 베이직 콘크리트"
+    "product_name": "센스타일 프로 베이직 콘크리트",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30152m",
@@ -462,17 +502,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30152M",
       "thickness": "3.0T",
-      "size": "3T×600×600mm",
-      "packing": "9PCS/BOX",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "600각",
     "pattern": "베이직 콘크리트",
     "product_code": "30152M",
-    "product_name": "센스타일 프로 베이직 콘크리트"
+    "product_name": "센스타일 프로 베이직 콘크리트",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30153m",
@@ -490,17 +534,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30153M",
       "thickness": "3.0T",
-      "size": "3T×600×600mm",
-      "packing": "9PCS/BOX",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "600각",
     "pattern": "베이직 콘크리트",
     "product_code": "30153M",
-    "product_name": "센스타일 프로 베이직 콘크리트"
+    "product_name": "센스타일 프로 베이직 콘크리트",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30154m",
@@ -518,17 +566,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30154M",
       "thickness": "3.0T",
-      "size": "3T×600×600mm",
-      "packing": "9PCS/BOX",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "600각",
     "pattern": "베이직 콘크리트",
     "product_code": "30154M",
-    "product_name": "센스타일 프로 베이직 콘크리트"
+    "product_name": "센스타일 프로 베이직 콘크리트",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30161m",
@@ -546,17 +598,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30161M",
       "thickness": "3.0T",
-      "size": "3T×600×600mm",
-      "packing": "9PCS/BOX",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "600각",
     "pattern": "임페리얼 스톤",
     "product_code": "30161M",
-    "product_name": "센스타일 프로 임페리얼 스톤"
+    "product_name": "센스타일 프로 임페리얼 스톤",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30162m",
@@ -574,17 +630,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30162M",
       "thickness": "3.0T",
-      "size": "3T×600×600mm",
-      "packing": "9PCS/BOX",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "600각",
     "pattern": "임페리얼 스톤",
     "product_code": "30162M",
-    "product_name": "센스타일 프로 임페리얼 스톤"
+    "product_name": "센스타일 프로 임페리얼 스톤",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30163m",
@@ -602,17 +662,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30163M",
       "thickness": "3.0T",
-      "size": "3T×600×600mm",
-      "packing": "9PCS/BOX",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "600각",
     "pattern": "임페리얼 스톤",
     "product_code": "30163M",
-    "product_name": "센스타일 프로 임페리얼 스톤"
+    "product_name": "센스타일 프로 임페리얼 스톤",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30171m",
@@ -630,17 +694,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30171M",
       "thickness": "3.0T",
-      "size": "3T×600×600mm",
-      "packing": "9PCS/BOX",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "600각",
     "pattern": "델리카토",
     "product_code": "30171M",
-    "product_name": "센스타일 프로 델리카토"
+    "product_name": "센스타일 프로 델리카토",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30181m",
@@ -658,17 +726,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30181M",
       "thickness": "3.0T",
-      "size": "3T×600×600mm",
-      "packing": "9PCS/BOX",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "600각",
     "pattern": "마이크로 테라조",
     "product_code": "30181M",
-    "product_name": "센스타일 프로 마이크로 테라조"
+    "product_name": "센스타일 프로 마이크로 테라조",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30182m",
@@ -686,17 +758,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30182M",
       "thickness": "3.0T",
-      "size": "3T×600×600mm",
-      "packing": "9PCS/BOX",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "600각",
     "pattern": "마이크로 테라조",
     "product_code": "30182M",
-    "product_name": "센스타일 프로 마이크로 테라조"
+    "product_name": "센스타일 프로 마이크로 테라조",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30191m",
@@ -714,17 +790,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30191M",
       "thickness": "3.0T",
-      "size": "3T×600×600mm",
-      "packing": "9PCS/BOX",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "600각",
     "pattern": "로만스톤",
     "product_code": "30191M",
-    "product_name": "센스타일 프로 로만스톤"
+    "product_name": "센스타일 프로 로만스톤",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30192m",
@@ -742,17 +822,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30192M",
       "thickness": "3.0T",
-      "size": "3T×600×600mm",
-      "packing": "9PCS/BOX",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "600각",
     "pattern": "로만스톤",
     "product_code": "30192M",
-    "product_name": "센스타일 프로 로만스톤"
+    "product_name": "센스타일 프로 로만스톤",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30193m",
@@ -770,17 +854,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30193M",
       "thickness": "3.0T",
-      "size": "3T×600×600mm",
-      "packing": "9PCS/BOX",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "600각",
     "pattern": "로만스톤",
     "product_code": "30193M",
-    "product_name": "센스타일 프로 로만스톤"
+    "product_name": "센스타일 프로 로만스톤",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30201m",
@@ -798,17 +886,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30201M",
       "thickness": "3.0T",
-      "size": "3T×600×600mm",
-      "packing": "9PCS/BOX",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "600각",
     "pattern": "화이트 라이노",
     "product_code": "30201M",
-    "product_name": "센스타일 프로 화이트 라이노"
+    "product_name": "센스타일 프로 화이트 라이노",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30221p",
@@ -827,17 +919,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30221P",
       "thickness": "3.0T",
-      "size": "3T×457.2×457.2mm",
-      "packing": "16PCS/BOX",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "450각",
     "pattern": "네오 패브릭",
     "product_code": "30221P",
-    "product_name": "센스타일 프로 네오 패브릭"
+    "product_name": "센스타일 프로 네오 패브릭",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30222p",
@@ -856,17 +952,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30222P",
       "thickness": "3.0T",
-      "size": "3T×457.2×457.2mm",
-      "packing": "16PCS/BOX",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "450각",
     "pattern": "네오 패브릭",
     "product_code": "30222P",
-    "product_name": "센스타일 프로 네오 패브릭"
+    "product_name": "센스타일 프로 네오 패브릭",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30223p",
@@ -885,17 +985,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30223P",
       "thickness": "3.0T",
-      "size": "3T×457.2×457.2mm",
-      "packing": "16PCS/BOX",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "450각",
     "pattern": "네오 패브릭",
     "product_code": "30223P",
-    "product_name": "센스타일 프로 네오 패브릭"
+    "product_name": "센스타일 프로 네오 패브릭",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30224p",
@@ -914,17 +1018,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30224P",
       "thickness": "3.0T",
-      "size": "3T×457.2×457.2mm",
-      "packing": "16PCS/BOX",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "450각",
     "pattern": "네오 패브릭",
     "product_code": "30224P",
-    "product_name": "센스타일 프로 네오 패브릭"
+    "product_name": "센스타일 프로 네오 패브릭",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30225p",
@@ -943,17 +1051,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30225P",
       "thickness": "3.0T",
-      "size": "3T×457.2×457.2mm",
-      "packing": "16PCS/BOX",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "450각",
     "pattern": "네오 패브릭",
     "product_code": "30225P",
-    "product_name": "센스타일 프로 네오 패브릭"
+    "product_name": "센스타일 프로 네오 패브릭",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30226p",
@@ -972,17 +1084,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "30226P",
       "thickness": "3.0T",
-      "size": "3T×457.2×457.2mm",
-      "packing": "16PCS/BOX",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "450각",
     "pattern": "네오 패브릭",
     "product_code": "30226P",
-    "product_name": "센스타일 프로 네오 패브릭"
+    "product_name": "센스타일 프로 네오 패브릭",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33011p",
@@ -1000,17 +1116,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "33011P",
       "thickness": "3.0T",
-      "size": "3T×457.2×457.2mm",
-      "packing": "16PCS/BOX",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "450각",
     "pattern": "추상",
     "product_code": "33011P",
-    "product_name": "센스타일 프로 추상"
+    "product_name": "센스타일 프로 추상",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33021m",
@@ -1028,17 +1148,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "33021M",
       "thickness": "3.0T",
-      "size": "3T×600×600mm",
-      "packing": "9PCS/BOX",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "600각",
     "pattern": "콘크리트",
     "product_code": "33021M",
-    "product_name": "센스타일 프로 콘크리트"
+    "product_name": "센스타일 프로 콘크리트",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33022m",
@@ -1056,17 +1180,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "33022M",
       "thickness": "3.0T",
-      "size": "3T×600×600mm",
-      "packing": "9PCS/BOX",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "600각",
     "pattern": "콘크리트",
     "product_code": "33022M",
-    "product_name": "센스타일 프로 콘크리트"
+    "product_name": "센스타일 프로 콘크리트",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33023m",
@@ -1084,17 +1212,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "33023M",
       "thickness": "3.0T",
-      "size": "3T×600×600mm",
-      "packing": "9PCS/BOX",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "600각",
     "pattern": "콘크리트",
     "product_code": "33023M",
-    "product_name": "센스타일 프로 콘크리트"
+    "product_name": "센스타일 프로 콘크리트",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33031m",
@@ -1112,17 +1244,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "33031M",
       "thickness": "3.0T",
-      "size": "3T×600×600mm",
-      "packing": "9PCS/BOX",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "600각",
     "pattern": "사하라 누아르",
     "product_code": "33031M",
-    "product_name": "센스타일 프로 사하라 누아르"
+    "product_name": "센스타일 프로 사하라 누아르",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33032m",
@@ -1140,17 +1276,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "33032M",
       "thickness": "3.0T",
-      "size": "3T×600×600mm",
-      "packing": "9PCS/BOX",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "600각",
     "pattern": "사하라 누아르",
     "product_code": "33032M",
-    "product_name": "센스타일 프로 사하라 누아르"
+    "product_name": "센스타일 프로 사하라 누아르",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33101m",
@@ -1168,17 +1308,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "33101M",
       "thickness": "3.0T",
-      "size": "3T×600×600mm",
-      "packing": "9PCS/BOX",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "600각",
     "pattern": "카펫",
     "product_code": "33101M",
-    "product_name": "센스타일 프로 카펫"
+    "product_name": "센스타일 프로 카펫",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33102m",
@@ -1196,17 +1340,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "33102M",
       "thickness": "3.0T",
-      "size": "3T×600×600mm",
-      "packing": "9PCS/BOX",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "600각",
     "pattern": "카펫",
     "product_code": "33102M",
-    "product_name": "센스타일 프로 카펫"
+    "product_name": "센스타일 프로 카펫",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33121p",
@@ -1224,17 +1372,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "33121P",
       "thickness": "3.0T",
-      "size": "3T×457.2×457.2mm",
-      "packing": "16PCS/BOX",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "450각",
     "pattern": "스트라이프 카펫",
     "product_code": "33121P",
-    "product_name": "센스타일 프로 스트라이프 카펫"
+    "product_name": "센스타일 프로 스트라이프 카펫",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33122p",
@@ -1252,17 +1404,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "33122P",
       "thickness": "3.0T",
-      "size": "3T×457.2×457.2mm",
-      "packing": "16PCS/BOX",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "450각",
     "pattern": "스트라이프 카펫",
     "product_code": "33122P",
-    "product_name": "센스타일 프로 스트라이프 카펫"
+    "product_name": "센스타일 프로 스트라이프 카펫",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33151m",
@@ -1280,17 +1436,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "33151M",
       "thickness": "3.0T",
-      "size": "3T×600×600mm",
-      "packing": "9PCS/BOX",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "600각",
     "pattern": "헤라 콘크리트",
     "product_code": "33151M",
-    "product_name": "센스타일 프로 헤라 콘크리트"
+    "product_name": "센스타일 프로 헤라 콘크리트",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33152m",
@@ -1308,17 +1468,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "33152M",
       "thickness": "3.0T",
-      "size": "3T×600×600mm",
-      "packing": "9PCS/BOX",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "600각",
     "pattern": "헤라 콘크리트",
     "product_code": "33152M",
-    "product_name": "센스타일 프로 헤라 콘크리트"
+    "product_name": "센스타일 프로 헤라 콘크리트",
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33161p",
@@ -1336,17 +1500,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "33161P",
       "thickness": "3.0T",
-      "size": "3T×457.2×457.2mm",
-      "packing": "16PCS/BOX",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "450각",
     "pattern": "마블",
     "product_code": "33161P",
-    "product_name": "센스타일 프로 마블"
+    "product_name": "센스타일 프로 마블",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33171p",
@@ -1364,17 +1532,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "33171P",
       "thickness": "3.0T",
-      "size": "3T×457.2×457.2mm",
-      "packing": "16PCS/BOX",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "450각",
     "pattern": "리버스톤",
     "product_code": "33171P",
-    "product_name": "센스타일 프로 리버스톤"
+    "product_name": "센스타일 프로 리버스톤",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33172p",
@@ -1392,17 +1564,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "33172P",
       "thickness": "3.0T",
-      "size": "3T×457.2×457.2mm",
-      "packing": "16PCS/BOX",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "450각",
     "pattern": "리버스톤",
     "product_code": "33172P",
-    "product_name": "센스타일 프로 리버스톤"
+    "product_name": "센스타일 프로 리버스톤",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33181p",
@@ -1420,17 +1596,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "33181P",
       "thickness": "3.0T",
-      "size": "3T×457.2×457.2mm",
-      "packing": "16PCS/BOX",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "450각",
     "pattern": "콘그레이",
     "product_code": "33181P",
-    "product_name": "센스타일 프로 콘그레이"
+    "product_name": "센스타일 프로 콘그레이",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33182p",
@@ -1448,17 +1628,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "33182P",
       "thickness": "3.0T",
-      "size": "3T×457.2×457.2mm",
-      "packing": "16PCS/BOX",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "450각",
     "pattern": "콘그레이",
     "product_code": "33182P",
-    "product_name": "센스타일 프로 콘그레이"
+    "product_name": "센스타일 프로 콘그레이",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33183p",
@@ -1476,17 +1660,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "33183P",
       "thickness": "3.0T",
-      "size": "3T×457.2×457.2mm",
-      "packing": "16PCS/BOX",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "450각",
     "pattern": "콘그레이",
     "product_code": "33183P",
-    "product_name": "센스타일 프로 콘그레이"
+    "product_name": "센스타일 프로 콘그레이",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33191p",
@@ -1504,17 +1692,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "33191P",
       "thickness": "3.0T",
-      "size": "3T×457.2×457.2mm",
-      "packing": "16PCS/BOX",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "450각",
     "pattern": "소프트 콘크리트",
     "product_code": "33191P",
-    "product_name": "센스타일 프로 소프트 콘크리트"
+    "product_name": "센스타일 프로 소프트 콘크리트",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33192p",
@@ -1532,17 +1724,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "33192P",
       "thickness": "3.0T",
-      "size": "3T×457.2×457.2mm",
-      "packing": "16PCS/BOX",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "450각",
     "pattern": "소프트 콘크리트",
     "product_code": "33192P",
-    "product_name": "센스타일 프로 소프트 콘크리트"
+    "product_name": "센스타일 프로 소프트 콘크리트",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33201p",
@@ -1560,17 +1756,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "33201P",
       "thickness": "3.0T",
-      "size": "3T×457.2×457.2mm",
-      "packing": "16PCS/BOX",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "450각",
     "pattern": "테라조",
     "product_code": "33201P",
-    "product_name": "센스타일 프로 테라조"
+    "product_name": "센스타일 프로 테라조",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33211p",
@@ -1588,17 +1788,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "33211P",
       "thickness": "3.0T",
-      "size": "3T×457.2×457.2mm",
-      "packing": "16PCS/BOX",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "450각",
     "pattern": "카펫",
     "product_code": "33211P",
-    "product_name": "센스타일 프로 카펫"
+    "product_name": "센스타일 프로 카펫",
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-35001g",
@@ -1616,17 +1820,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "35001G",
       "thickness": "3.0T",
-      "size": "3T×184×950mm",
-      "packing": "19PCS/BOX",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "우드",
     "pattern": "앤틱 오크",
     "product_code": "35001G",
-    "product_name": "센스타일 프로 앤틱 오크"
+    "product_name": "센스타일 프로 앤틱 오크",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-35011g",
@@ -1644,17 +1852,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "35011G",
       "thickness": "3.0T",
-      "size": "3T×184×950mm",
-      "packing": "19PCS/BOX",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "우드",
     "pattern": "크랙 오크",
     "product_code": "35011G",
-    "product_name": "센스타일 프로 크랙 오크"
+    "product_name": "센스타일 프로 크랙 오크",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-35022g",
@@ -1672,17 +1884,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "35022G",
       "thickness": "3.0T",
-      "size": "3T×184×950mm",
-      "packing": "19PCS/BOX",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "우드",
     "pattern": "노르딕 오크",
     "product_code": "35022G",
-    "product_name": "센스타일 프로 노르딕 오크"
+    "product_name": "센스타일 프로 노르딕 오크",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-35042g",
@@ -1700,17 +1916,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "35042G",
       "thickness": "3.0T",
-      "size": "3T×184×950mm",
-      "packing": "19PCS/BOX",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "우드",
     "pattern": "캐시드럴 오크",
     "product_code": "35042G",
-    "product_name": "센스타일 프로 캐시드럴 오크"
+    "product_name": "센스타일 프로 캐시드럴 오크",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-35043g",
@@ -1728,17 +1948,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "35043G",
       "thickness": "3.0T",
-      "size": "3T×184×950mm",
-      "packing": "19PCS/BOX",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "우드",
     "pattern": "캐시드럴 오크",
     "product_code": "35043G",
-    "product_name": "센스타일 프로 캐시드럴 오크"
+    "product_name": "센스타일 프로 캐시드럴 오크",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-35051g",
@@ -1756,17 +1980,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "35051G",
       "thickness": "3.0T",
-      "size": "3T×184×950mm",
-      "packing": "19PCS/BOX",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "우드",
     "pattern": "내추럴 오크",
     "product_code": "35051G",
-    "product_name": "센스타일 프로 내추럴 오크"
+    "product_name": "센스타일 프로 내추럴 오크",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-35052g",
@@ -1784,17 +2012,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "35052G",
       "thickness": "3.0T",
-      "size": "3T×184×950mm",
-      "packing": "19PCS/BOX",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "우드",
     "pattern": "내추럴 오크",
     "product_code": "35052G",
-    "product_name": "센스타일 프로 내추럴 오크"
+    "product_name": "센스타일 프로 내추럴 오크",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-35062g",
@@ -1812,17 +2044,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "35062G",
       "thickness": "3.0T",
-      "size": "3T×184×950mm",
-      "packing": "19PCS/BOX",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "우드",
     "pattern": "쏘우밀 오크",
     "product_code": "35062G",
-    "product_name": "센스타일 프로 쏘우밀 오크"
+    "product_name": "센스타일 프로 쏘우밀 오크",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-35064g",
@@ -1840,17 +2076,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "35064G",
       "thickness": "3.0T",
-      "size": "3T×184×950mm",
-      "packing": "19PCS/BOX",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "우드",
     "pattern": "쏘우밀 오크",
     "product_code": "35064G",
-    "product_name": "센스타일 프로 쏘우밀 오크"
+    "product_name": "센스타일 프로 쏘우밀 오크",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-38011g",
@@ -1868,17 +2108,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "38011G",
       "thickness": "3.0T",
-      "size": "3T×184×950mm",
-      "packing": "19PCS/BOX",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "우드",
     "pattern": "오크",
     "product_code": "38011G",
-    "product_name": "센스타일 프로 오크"
+    "product_name": "센스타일 프로 오크",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-38021g",
@@ -1896,17 +2140,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "38021G",
       "thickness": "3.0T",
-      "size": "3T×184×950mm",
-      "packing": "19PCS/BOX",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "우드",
     "pattern": "오크",
     "product_code": "38021G",
-    "product_name": "센스타일 프로 오크"
+    "product_name": "센스타일 프로 오크",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-38031g",
@@ -1924,17 +2172,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "38031G",
       "thickness": "3.0T",
-      "size": "3T×184×950mm",
-      "packing": "19PCS/BOX",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "우드",
     "pattern": "오크",
     "product_code": "38031G",
-    "product_name": "센스타일 프로 오크"
+    "product_name": "센스타일 프로 오크",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-38141g",
@@ -1952,17 +2204,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "38141G",
       "thickness": "3.0T",
-      "size": "3T×184×950mm",
-      "packing": "19PCS/BOX",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "우드",
     "pattern": "오크",
     "product_code": "38141G",
-    "product_name": "센스타일 프로 오크"
+    "product_name": "센스타일 프로 오크",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-38142g",
@@ -1980,17 +2236,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "38142G",
       "thickness": "3.0T",
-      "size": "3T×184×950mm",
-      "packing": "19PCS/BOX",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "우드",
     "pattern": "오크",
     "product_code": "38142G",
-    "product_name": "센스타일 프로 오크"
+    "product_name": "센스타일 프로 오크",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-38191g",
@@ -2008,17 +2268,21 @@ export const materials = [
     "price": 35000,
     "thickness": "3.0T",
     "specs": {
-      "division": "센스타일 프로",
+      "family": "센스타일 프로",
+      "code": "38191G",
       "thickness": "3.0T",
-      "size": "3T×184×950mm",
-      "packing": "19PCS/BOX",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스타일 프로",
     "shape": "우드",
     "pattern": "오크",
     "product_code": "38191G",
-    "product_name": "센스타일 프로 오크"
+    "product_name": "센스타일 프로 오크",
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b0111j",
@@ -2034,21 +2298,19 @@ export const materials = [
       "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0111J.jpg"
     ],
     "price": 35000,
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "specs": {
       "family": "센스레이",
       "code": "B0111J",
-      "shape": "LARGE TILE",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "457.2 × 914.4mm",
-      "pcs_per_box": "6장",
-      "packing": "6장 / 2.51㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "457.2×914.4mm",
+      "packing": "6매 / 2.51㎡",
       "area": "2.51㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "description": "센스레이는 두께 5.0mm, 내마모층 0.5mm의 PVC 타일 바닥재입니다. 라지 플랭크, 스탠다드 플랭크, 라지 타일, 스탠다드 타일, 텍스타일 플랭크로 구성되며, 형태에 따라 제품 크기와 박스당 포장 수량이 다릅니다.\n\n[라지 타일 / LARGE TILE]\n폭 457.2mm, 길이 914.4mm의 직사각형 타일 제품입니다. 1박스에 6장이 포장되며, 카탈로그 기준 면적은 2.51㎡입니다.",
-    "shape": "LARGE TILE",
+    "shape": "라지 타일",
     "pattern": "텍스처 콘크리트",
     "product_code": "B0111J",
     "product_name": "KCC 센스레이 B0111J",
@@ -2061,7 +2323,10 @@ export const materials = [
     "shape_intro": "폭 457.2mm, 길이 914.4mm의 직사각형 타일 제품입니다. 1박스에 6장이 포장되며, 카탈로그 기준 면적은 2.51㎡입니다.",
     "pdf_page": 28,
     "print_page": 55,
-    "supply_status": "현재 공급 여부는 상담 시 확인해 주세요"
+    "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 457.2 × 914.4mm",
+    "package": "6매/box · 2.51㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b0112j",
@@ -2077,21 +2342,19 @@ export const materials = [
       "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0112J.jpg"
     ],
     "price": 35000,
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "specs": {
       "family": "센스레이",
       "code": "B0112J",
-      "shape": "LARGE TILE",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "457.2 × 914.4mm",
-      "pcs_per_box": "6장",
-      "packing": "6장 / 2.51㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "457.2×914.4mm",
+      "packing": "6매 / 2.51㎡",
       "area": "2.51㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "description": "센스레이는 두께 5.0mm, 내마모층 0.5mm의 PVC 타일 바닥재입니다. 라지 플랭크, 스탠다드 플랭크, 라지 타일, 스탠다드 타일, 텍스타일 플랭크로 구성되며, 형태에 따라 제품 크기와 박스당 포장 수량이 다릅니다.\n\n[라지 타일 / LARGE TILE]\n폭 457.2mm, 길이 914.4mm의 직사각형 타일 제품입니다. 1박스에 6장이 포장되며, 카탈로그 기준 면적은 2.51㎡입니다.",
-    "shape": "LARGE TILE",
+    "shape": "라지 타일",
     "pattern": "텍스처 콘크리트",
     "product_code": "B0112J",
     "product_name": "KCC 센스레이 B0112J",
@@ -2104,7 +2367,10 @@ export const materials = [
     "shape_intro": "폭 457.2mm, 길이 914.4mm의 직사각형 타일 제품입니다. 1박스에 6장이 포장되며, 카탈로그 기준 면적은 2.51㎡입니다.",
     "pdf_page": 28,
     "print_page": 55,
-    "supply_status": "현재 공급 여부는 상담 시 확인해 주세요"
+    "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 457.2 × 914.4mm",
+    "package": "6매/box · 2.51㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b0113j",
@@ -2120,21 +2386,19 @@ export const materials = [
       "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0113J.jpg"
     ],
     "price": 35000,
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "specs": {
       "family": "센스레이",
       "code": "B0113J",
-      "shape": "LARGE TILE",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "457.2 × 914.4mm",
-      "pcs_per_box": "6장",
-      "packing": "6장 / 2.51㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "457.2×914.4mm",
+      "packing": "6매 / 2.51㎡",
       "area": "2.51㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "description": "센스레이는 두께 5.0mm, 내마모층 0.5mm의 PVC 타일 바닥재입니다. 라지 플랭크, 스탠다드 플랭크, 라지 타일, 스탠다드 타일, 텍스타일 플랭크로 구성되며, 형태에 따라 제품 크기와 박스당 포장 수량이 다릅니다.\n\n[라지 타일 / LARGE TILE]\n폭 457.2mm, 길이 914.4mm의 직사각형 타일 제품입니다. 1박스에 6장이 포장되며, 카탈로그 기준 면적은 2.51㎡입니다.",
-    "shape": "LARGE TILE",
+    "shape": "라지 타일",
     "pattern": "텍스처 콘크리트",
     "product_code": "B0113J",
     "product_name": "KCC 센스레이 B0113J",
@@ -2147,13 +2411,16 @@ export const materials = [
     "shape_intro": "폭 457.2mm, 길이 914.4mm의 직사각형 타일 제품입니다. 1박스에 6장이 포장되며, 카탈로그 기준 면적은 2.51㎡입니다.",
     "pdf_page": 28,
     "print_page": 55,
-    "supply_status": "현재 공급 여부는 상담 시 확인해 주세요"
+    "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 457.2 × 914.4mm",
+    "package": "6매/box · 2.51㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b0114j",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "센스레이 5.0",
+    "line": "센스레이",
     "subLine": "센스레이 5.0",
     "name": "센스레이 텍스처 콘크리트",
     "code": "B0114J",
@@ -2163,17 +2430,23 @@ export const materials = [
     "price": 35000,
     "thickness": "5.0T",
     "specs": {
-      "division": "센스레이 5.0",
+      "family": "센스레이",
+      "code": "B0114J",
       "thickness": "5.0T",
-      "size": "5T×457.2×914.4mm",
-      "packing": "6PCS/BOX",
-      "area": "2.51㎡"
+      "wearLayer": "0.5mm",
+      "size": "184×950mm",
+      "packing": "12매 / 2.10㎡",
+      "area": "2.10㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스레이 5.0",
-    "shape": "직사각",
+    "shape": "우드",
     "pattern": "텍스처 콘크리트",
     "product_code": "B0114J",
-    "product_name": "센스레이 텍스처 콘크리트"
+    "product_name": "센스레이 텍스처 콘크리트",
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 184 × 950mm",
+    "package": "12매/box · 2.10㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b0122j",
@@ -2189,21 +2462,19 @@ export const materials = [
       "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0122J.jpg"
     ],
     "price": 35000,
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "specs": {
       "family": "센스레이",
       "code": "B0122J",
-      "shape": "LARGE TILE",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "457.2 × 914.4mm",
-      "pcs_per_box": "6장",
-      "packing": "6장 / 2.51㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "457.2×914.4mm",
+      "packing": "6매 / 2.51㎡",
       "area": "2.51㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "description": "센스레이는 두께 5.0mm, 내마모층 0.5mm의 PVC 타일 바닥재입니다. 라지 플랭크, 스탠다드 플랭크, 라지 타일, 스탠다드 타일, 텍스타일 플랭크로 구성되며, 형태에 따라 제품 크기와 박스당 포장 수량이 다릅니다.\n\n[라지 타일 / LARGE TILE]\n폭 457.2mm, 길이 914.4mm의 직사각형 타일 제품입니다. 1박스에 6장이 포장되며, 카탈로그 기준 면적은 2.51㎡입니다.",
-    "shape": "LARGE TILE",
+    "shape": "라지 타일",
     "pattern": "어반 스톤",
     "product_code": "B0122J",
     "product_name": "KCC 센스레이 B0122J",
@@ -2216,13 +2487,16 @@ export const materials = [
     "shape_intro": "폭 457.2mm, 길이 914.4mm의 직사각형 타일 제품입니다. 1박스에 6장이 포장되며, 카탈로그 기준 면적은 2.51㎡입니다.",
     "pdf_page": 28,
     "print_page": 55,
-    "supply_status": "현재 공급 여부는 상담 시 확인해 주세요"
+    "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 457.2 × 914.4mm",
+    "package": "6매/box · 2.51㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b3181j",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "센스레이 5.0",
+    "line": "센스레이",
     "subLine": "센스레이 5.0",
     "name": "센스레이 콘그레이",
     "code": "B3181J",
@@ -2232,23 +2506,29 @@ export const materials = [
     "price": 35000,
     "thickness": "5.0T",
     "specs": {
-      "division": "센스레이 5.0",
+      "family": "센스레이",
+      "code": "B3181J",
       "thickness": "5.0T",
-      "size": "5T×457.2×914.4mm",
-      "packing": "6PCS/BOX",
-      "area": "2.51㎡"
+      "wearLayer": "0.5mm",
+      "size": "184×950mm",
+      "packing": "12매 / 2.10㎡",
+      "area": "2.10㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스레이 5.0",
-    "shape": "직사각",
+    "shape": "우드",
     "pattern": "콘그레이",
     "product_code": "B3181J",
-    "product_name": "센스레이 콘그레이"
+    "product_name": "센스레이 콘그레이",
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 184 × 950mm",
+    "package": "12매/box · 2.10㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b3182j",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "센스레이 5.0",
+    "line": "센스레이",
     "subLine": "센스레이 5.0",
     "name": "센스레이 콘그레이",
     "code": "B3182J",
@@ -2258,23 +2538,29 @@ export const materials = [
     "price": 35000,
     "thickness": "5.0T",
     "specs": {
-      "division": "센스레이 5.0",
+      "family": "센스레이",
+      "code": "B3182J",
       "thickness": "5.0T",
-      "size": "5T×457.2×914.4mm",
-      "packing": "6PCS/BOX",
-      "area": "2.51㎡"
+      "wearLayer": "0.5mm",
+      "size": "184×950mm",
+      "packing": "12매 / 2.10㎡",
+      "area": "2.10㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스레이 5.0",
-    "shape": "직사각",
+    "shape": "우드",
     "pattern": "콘그레이",
     "product_code": "B3182J",
-    "product_name": "센스레이 콘그레이"
+    "product_name": "센스레이 콘그레이",
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 184 × 950mm",
+    "package": "12매/box · 2.10㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b3183j",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "센스레이 5.0",
+    "line": "센스레이",
     "subLine": "센스레이 5.0",
     "name": "센스레이 콘그레이",
     "code": "B3183J",
@@ -2284,23 +2570,29 @@ export const materials = [
     "price": 35000,
     "thickness": "5.0T",
     "specs": {
-      "division": "센스레이 5.0",
+      "family": "센스레이",
+      "code": "B3183J",
       "thickness": "5.0T",
-      "size": "5T×457.2×914.4mm",
-      "packing": "6PCS/BOX",
-      "area": "2.51㎡"
+      "wearLayer": "0.5mm",
+      "size": "184×950mm",
+      "packing": "12매 / 2.10㎡",
+      "area": "2.10㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스레이 5.0",
-    "shape": "직사각",
+    "shape": "우드",
     "pattern": "콘그레이",
     "product_code": "B3183J",
-    "product_name": "센스레이 콘그레이"
+    "product_name": "센스레이 콘그레이",
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 184 × 950mm",
+    "package": "12매/box · 2.10㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b3191j",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "센스레이 5.0",
+    "line": "센스레이",
     "subLine": "센스레이 5.0",
     "name": "센스레이 소프트 콘크리트",
     "code": "B3191J",
@@ -2310,23 +2602,29 @@ export const materials = [
     "price": 35000,
     "thickness": "5.0T",
     "specs": {
-      "division": "센스레이 5.0",
+      "family": "센스레이",
+      "code": "B3191J",
       "thickness": "5.0T",
-      "size": "5T×457.2×914.4mm",
-      "packing": "6PCS/BOX",
-      "area": "2.51㎡"
+      "wearLayer": "0.5mm",
+      "size": "184×950mm",
+      "packing": "12매 / 2.10㎡",
+      "area": "2.10㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스레이 5.0",
-    "shape": "직사각",
+    "shape": "우드",
     "pattern": "소프트 콘크리트",
     "product_code": "B3191J",
-    "product_name": "센스레이 소프트 콘크리트"
+    "product_name": "센스레이 소프트 콘크리트",
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 184 × 950mm",
+    "package": "12매/box · 2.10㎡"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b3192j",
     "category": "데코타일",
     "brand": "KCC",
-    "line": "센스레이 5.0",
+    "line": "센스레이",
     "subLine": "센스레이 5.0",
     "name": "센스레이 소프트 콘크리트",
     "code": "B3192J",
@@ -2336,17 +2634,23 @@ export const materials = [
     "price": 35000,
     "thickness": "5.0T",
     "specs": {
-      "division": "센스레이 5.0",
+      "family": "센스레이",
+      "code": "B3192J",
       "thickness": "5.0T",
-      "size": "5T×457.2×914.4mm",
-      "packing": "6PCS/BOX",
-      "area": "2.51㎡"
+      "wearLayer": "0.5mm",
+      "size": "184×950mm",
+      "packing": "12매 / 2.10㎡",
+      "area": "2.10㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "센스레이 5.0",
-    "shape": "직사각",
+    "shape": "우드",
     "pattern": "소프트 콘크리트",
     "product_code": "B3192J",
-    "product_name": "센스레이 소프트 콘크리트"
+    "product_name": "센스레이 소프트 콘크리트",
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 184 × 950mm",
+    "package": "12매/box · 2.10㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5502p",
@@ -2366,21 +2670,24 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TS5502P",
       "thickness": "3.0T",
-      "size": "457.2 × 457.2mm",
-      "packing": "16pcs/box · 3.34㎡",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5502P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "베이직 마블",
+    "pattern": "우븐",
     "adhesive": "데코타일 본드",
     "crossInstallation": true,
     "notice": "교차 시공 권장 제품 (직각 교차 패턴 시공 시 완성도 향상)",
     "spec": "3.0T × 457.2 × 457.2mm",
-    "package": "16pcs/box · 3.34㎡"
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5503p",
@@ -2400,21 +2707,24 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TS5503P",
       "thickness": "3.0T",
-      "size": "457.2 × 457.2mm",
-      "packing": "16pcs/box · 3.34㎡",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5503P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "베이직 마블",
+    "pattern": "우븐",
     "adhesive": "데코타일 본드",
     "crossInstallation": true,
     "notice": "교차 시공 권장 제품 (직각 교차 패턴 시공 시 완성도 향상)",
     "spec": "3.0T × 457.2 × 457.2mm",
-    "package": "16pcs/box · 3.34㎡"
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5510p",
@@ -2434,19 +2744,22 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TS5510P",
       "thickness": "3.0T",
-      "size": "457.2 × 457.2mm",
-      "packing": "16pcs/box · 3.34㎡",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5510P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "슬레이트",
+    "pattern": "카펫",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
-    "package": "16pcs/box · 3.34㎡"
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5511p",
@@ -2466,19 +2779,22 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TS5511P",
       "thickness": "3.0T",
-      "size": "457.2 × 457.2mm",
-      "packing": "16pcs/box · 3.34㎡",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5511P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "슬레이트",
+    "pattern": "카펫",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
-    "package": "16pcs/box · 3.34㎡"
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5516p",
@@ -2498,19 +2814,22 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TS5516P",
       "thickness": "3.0T",
-      "size": "457.2 × 457.2mm",
-      "packing": "16pcs/box · 3.34㎡",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5516P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "그란데 마블",
+    "pattern": "마블",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
-    "package": "16pcs/box · 3.34㎡"
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5518p",
@@ -2530,19 +2849,22 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TS5518P",
       "thickness": "3.0T",
-      "size": "457.2 × 457.2mm",
-      "packing": "16pcs/box · 3.34㎡",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5518P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "그란데 마블",
+    "pattern": "콘크리트",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
-    "package": "16pcs/box · 3.34㎡"
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5519p",
@@ -2562,19 +2884,22 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TS5519P",
       "thickness": "3.0T",
-      "size": "457.2 × 457.2mm",
-      "packing": "16pcs/box · 3.34㎡",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5519P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "그란데 마블",
+    "pattern": "콘크리트",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
-    "package": "16pcs/box · 3.34㎡"
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5531m",
@@ -2594,19 +2919,22 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TS5531M",
       "thickness": "3.0T",
-      "size": "600 × 600mm",
-      "packing": "9pcs/box · 3.24㎡",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5531M",
     "product_name": "",
     "shape": "600각",
-    "pattern": "모던 샌드",
+    "pattern": "오닉스",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 600 × 600mm",
-    "package": "9pcs/box · 3.24㎡"
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5532m",
@@ -2626,19 +2954,22 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TS5532M",
       "thickness": "3.0T",
-      "size": "600 × 600mm",
-      "packing": "9pcs/box · 3.24㎡",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5532M",
     "product_name": "",
     "shape": "600각",
-    "pattern": "모던 샌드",
+    "pattern": "파라디소",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 600 × 600mm",
-    "package": "9pcs/box · 3.24㎡"
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5533m",
@@ -2657,19 +2988,22 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TS5533M",
       "thickness": "3.0T",
-      "size": "600 × 600mm",
-      "packing": "9pcs/box · 3.24㎡",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5533M",
     "product_name": "",
     "shape": "600각",
-    "pattern": "모던 샌드",
+    "pattern": "파라디소",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 600 × 600mm",
-    "package": "9pcs/box · 3.24㎡"
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5534m",
@@ -2689,19 +3023,22 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TS5534M",
       "thickness": "3.0T",
-      "size": "600 × 600mm",
-      "packing": "9pcs/box · 3.24㎡",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5534M",
     "product_name": "",
     "shape": "600각",
-    "pattern": "모던 샌드",
+    "pattern": "파라디소",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 600 × 600mm",
-    "package": "9pcs/box · 3.24㎡"
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5535m",
@@ -2721,19 +3058,22 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TS5535M",
       "thickness": "3.0T",
-      "size": "600 × 600mm",
-      "packing": "9pcs/box · 3.24㎡",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5535M",
     "product_name": "",
     "shape": "600각",
-    "pattern": "모던 샌드",
+    "pattern": "어반 콘크리트",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 600 × 600mm",
-    "package": "9pcs/box · 3.24㎡"
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5536m",
@@ -2752,19 +3092,22 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TS5536M",
       "thickness": "3.0T",
-      "size": "600 × 600mm",
-      "packing": "9pcs/box · 3.24㎡",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5536M",
     "product_name": "",
     "shape": "600각",
-    "pattern": "모던 샌드",
+    "pattern": "어반 콘크리트",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 600 × 600mm",
-    "package": "9pcs/box · 3.24㎡"
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5537m",
@@ -2783,19 +3126,22 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TS5537M",
       "thickness": "3.0T",
-      "size": "600 × 600mm",
-      "packing": "9pcs/box · 3.24㎡",
-      "area": "3.24㎡"
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
+      "area": "3.24㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5537M",
     "product_name": "",
     "shape": "600각",
-    "pattern": "모던 샌드",
+    "pattern": "어반 콘크리트",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 600 × 600mm",
-    "package": "9pcs/box · 3.24㎡"
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5541p",
@@ -2814,10 +3160,13 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TS5541P",
       "thickness": "3.0T",
-      "size": "457.2 × 457.2mm",
-      "packing": "16pcs/box · 3.34㎡",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5541P",
@@ -2826,7 +3175,7 @@ export const materials = [
     "pattern": "슬레이트",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
-    "package": "16pcs/box · 3.34㎡"
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5542p",
@@ -2845,10 +3194,13 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TS5542P",
       "thickness": "3.0T",
-      "size": "457.2 × 457.2mm",
-      "packing": "16pcs/box · 3.34㎡",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5542P",
@@ -2857,7 +3209,7 @@ export const materials = [
     "pattern": "슬레이트",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
-    "package": "16pcs/box · 3.34㎡"
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5543p",
@@ -2877,10 +3229,13 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TS5543P",
       "thickness": "3.0T",
-      "size": "457.2 × 457.2mm",
-      "packing": "16pcs/box · 3.34㎡",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5543P",
@@ -2889,7 +3244,7 @@ export const materials = [
     "pattern": "슬레이트",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
-    "package": "16pcs/box · 3.34㎡"
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5544p",
@@ -2908,19 +3263,22 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TS5544P",
       "thickness": "3.0T",
-      "size": "457.2 × 457.2mm",
-      "packing": "16pcs/box · 3.34㎡",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5544P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "콘크리트",
+    "pattern": "슬레이트",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
-    "package": "16pcs/box · 3.34㎡"
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5545p",
@@ -2939,19 +3297,22 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TS5545P",
       "thickness": "3.0T",
-      "size": "457.2 × 457.2mm",
-      "packing": "16pcs/box · 3.34㎡",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5545P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "콘크리트",
+    "pattern": "테라죠",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
-    "package": "16pcs/box · 3.34㎡"
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5546p",
@@ -2970,19 +3331,22 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TS5546P",
       "thickness": "3.0T",
-      "size": "457.2 × 457.2mm",
-      "packing": "16pcs/box · 3.34㎡",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5546P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "콘크리트",
+    "pattern": "테라죠",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
-    "package": "16pcs/box · 3.34㎡"
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5547p",
@@ -3002,19 +3366,22 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TS5547P",
       "thickness": "3.0T",
-      "size": "457.2 × 457.2mm",
-      "packing": "16pcs/box · 3.34㎡",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5547P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "콘크리트",
+    "pattern": "비앙코",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
-    "package": "16pcs/box · 3.34㎡"
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5548p",
@@ -3033,19 +3400,22 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TS5548P",
       "thickness": "3.0T",
-      "size": "457.2 × 457.2mm",
-      "packing": "16pcs/box · 3.34㎡",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5548P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "테라조",
+    "pattern": "샌드스톤",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
-    "package": "16pcs/box · 3.34㎡"
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5549p",
@@ -3063,19 +3433,22 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TS5549P",
       "thickness": "3.0T",
-      "size": "457.2 × 457.2mm",
-      "packing": "16pcs/box · 3.34㎡",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5549P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "테라조",
+    "pattern": "샌드스톤",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
-    "package": "16pcs/box · 3.34㎡"
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5550p",
@@ -3095,19 +3468,22 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TS5550P",
       "thickness": "3.0T",
-      "size": "457.2 × 457.2mm",
-      "packing": "16pcs/box · 3.34㎡",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5550P",
     "product_name": "",
     "shape": "450각",
-    "pattern": "테라조",
+    "pattern": "콘크리트",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
-    "package": "16pcs/box · 3.34㎡"
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5551p",
@@ -3127,10 +3503,13 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TS5551P",
       "thickness": "3.0T",
-      "size": "457.2 × 457.2mm",
-      "packing": "16pcs/box · 3.34㎡",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5551P",
@@ -3139,7 +3518,7 @@ export const materials = [
     "pattern": "베이직 카펫",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
-    "package": "16pcs/box · 3.34㎡"
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5552p",
@@ -3158,10 +3537,13 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TS5552P",
       "thickness": "3.0T",
-      "size": "457.2 × 457.2mm",
-      "packing": "16pcs/box · 3.34㎡",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_square",
     "product_code": "TS5552P",
@@ -3170,7 +3552,7 @@ export const materials = [
     "pattern": "베이직 카펫",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
-    "package": "16pcs/box · 3.34㎡"
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5102g",
@@ -3189,19 +3571,22 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TW5102G",
       "thickness": "3.0T",
-      "size": "184 × 950mm",
-      "packing": "19pcs/box · 3.32㎡",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_wood",
     "product_code": "TW 5102G",
     "product_name": "",
     "shape": "우드",
-    "pattern": "오크",
+    "pattern": "파인",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 184 × 950mm",
-    "package": "19pcs/box · 3.32㎡"
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5103g",
@@ -3220,19 +3605,22 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TW5103G",
       "thickness": "3.0T",
-      "size": "184 × 950mm",
-      "packing": "19pcs/box · 3.32㎡",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_wood",
     "product_code": "TW 5103G",
     "product_name": "",
     "shape": "우드",
-    "pattern": "오크",
+    "pattern": "워시 오크",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 184 × 950mm",
-    "package": "19pcs/box · 3.32㎡"
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5104g",
@@ -3251,10 +3639,13 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TW5104G",
       "thickness": "3.0T",
-      "size": "184 × 950mm",
-      "packing": "19pcs/box · 3.32㎡",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_wood",
     "product_code": "TW 5104G",
@@ -3263,7 +3654,7 @@ export const materials = [
     "pattern": "오크",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 184 × 950mm",
-    "package": "19pcs/box · 3.32㎡"
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5105g",
@@ -3282,10 +3673,13 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TW5105G",
       "thickness": "3.0T",
-      "size": "184 × 950mm",
-      "packing": "19pcs/box · 3.32㎡",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_wood",
     "product_code": "TW 5105G",
@@ -3294,7 +3688,7 @@ export const materials = [
     "pattern": "오크",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 184 × 950mm",
-    "package": "19pcs/box · 3.32㎡"
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5106g",
@@ -3313,19 +3707,22 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TW5106G",
       "thickness": "3.0T",
-      "size": "184 × 950mm",
-      "packing": "19pcs/box · 3.32㎡",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_wood",
     "product_code": "TW 5106G",
     "product_name": "",
     "shape": "우드",
-    "pattern": "오크",
+    "pattern": "엘름",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 184 × 950mm",
-    "package": "19pcs/box · 3.32㎡"
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5107g",
@@ -3344,10 +3741,13 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TW5107G",
       "thickness": "3.0T",
-      "size": "184 × 950mm",
-      "packing": "19pcs/box · 3.32㎡",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_wood",
     "product_code": "TW 5107G",
@@ -3356,7 +3756,7 @@ export const materials = [
     "pattern": "오크",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 184 × 950mm",
-    "package": "19pcs/box · 3.32㎡"
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5108g",
@@ -3375,10 +3775,13 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TW5108G",
       "thickness": "3.0T",
-      "size": "184 × 950mm",
-      "packing": "19pcs/box · 3.32㎡",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_wood",
     "product_code": "TW 5108G",
@@ -3387,7 +3790,7 @@ export const materials = [
     "pattern": "오크",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 184 × 950mm",
-    "package": "19pcs/box · 3.32㎡"
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5109g",
@@ -3406,19 +3809,22 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TW5109G",
       "thickness": "3.0T",
-      "size": "184 × 950mm",
-      "packing": "19pcs/box · 3.32㎡",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_wood",
     "product_code": "TW 5109G",
     "product_name": "",
     "shape": "우드",
-    "pattern": "오크",
+    "pattern": "메이플",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 184 × 950mm",
-    "package": "19pcs/box · 3.32㎡"
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5110g",
@@ -3437,10 +3843,13 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TW5110G",
       "thickness": "3.0T",
-      "size": "184 × 950mm",
-      "packing": "19pcs/box · 3.32㎡",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_wood",
     "product_code": "TW 5110G",
@@ -3449,7 +3858,7 @@ export const materials = [
     "pattern": "오크",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 184 × 950mm",
-    "package": "19pcs/box · 3.32㎡"
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5111g",
@@ -3468,19 +3877,22 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TW5111G",
       "thickness": "3.0T",
-      "size": "184 × 950mm",
-      "packing": "19pcs/box · 3.32㎡",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_wood",
     "product_code": "TW 5111G",
     "product_name": "",
     "shape": "우드",
-    "pattern": "오크",
+    "pattern": "워시 오크",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 184 × 950mm",
-    "package": "19pcs/box · 3.32㎡"
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5112g",
@@ -3499,10 +3911,13 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TW5112G",
       "thickness": "3.0T",
-      "size": "184 × 950mm",
-      "packing": "19pcs/box · 3.32㎡",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_wood",
     "product_code": "TW 5112G",
@@ -3511,7 +3926,7 @@ export const materials = [
     "pattern": "오크",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 184 × 950mm",
-    "package": "19pcs/box · 3.32㎡"
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5119g",
@@ -3530,10 +3945,13 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TW5119G",
       "thickness": "3.0T",
-      "size": "184 × 950mm",
-      "packing": "19pcs/box · 3.32㎡",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC_wood",
     "product_code": "TW 5119G",
@@ -3542,7 +3960,7 @@ export const materials = [
     "pattern": "오크",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 184 × 950mm",
-    "package": "19pcs/box · 3.32㎡"
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5120g",
@@ -3562,10 +3980,13 @@ export const materials = [
     "price": 27000,
     "thickness": "3.0T",
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TW5120G",
       "thickness": "3.0T",
-      "size": "184 × 950mm",
-      "packing": "19pcs/box · 3.32㎡",
-      "area": "3.32㎡"
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
+      "area": "3.32㎡",
+      "adhesive": "데코타일 본드"
     },
     "description": "KCC 센스타일 트랜디",
     "product_code": "TW 5120G",
@@ -3573,7 +3994,7 @@ export const materials = [
     "shape": "우드",
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 184 × 950mm",
-    "package": "19pcs/box · 3.32㎡"
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "데코타일-lx-lx하우스-hot-0065-라임-스톤-미스트",
@@ -103796,20 +104217,23 @@ export const materials = [
     "line": "센스타일 트랜디",
     "thickness": "3.0T",
     "shape": "450각",
-    "pattern": "슬레이트",
+    "pattern": "브러쉬 카펫",
     "price": 27000,
     "specs": {
+      "family": "센스타일 트랜디",
+      "code": "TS5508P",
       "thickness": "3.0T",
-      "size": "457.2 × 457.2mm",
-      "packing": "16pcs/box · 3.34㎡",
-      "area": "3.34㎡"
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
+      "area": "3.34㎡",
+      "adhesive": "데코타일 본드"
     },
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_센스타일_트랜디_450각_이미지/TS5508P.png",
     "adhesive": "데코타일 본드",
     "crossInstallation": true,
     "notice": "교차 시공 권장 제품 (직각 교차 패턴 시공 시 완성도 향상)",
     "spec": "3.0T × 457.2 × 457.2mm",
-    "package": "16pcs/box · 3.34㎡"
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gw1111g",
@@ -103823,9 +104247,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD WOOD",
+    "shape": "우드",
     "shape_kr": "스탠다드 우드",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "184 × 950mm",
     "full_spec": "3.0 × 184 × 950mm",
@@ -103846,16 +104270,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GW1111G",
-      "shape": "STANDARD WOOD",
-      "thickness": "3.0mm(3T)",
-      "size": "184 × 950mm",
-      "pcs_per_box": "19장",
-      "packing": "19장 / 3.32㎡",
+      "thickness": "3.0T",
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
       "area": "3.32㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 20,
-    "print_page": 39
+    "print_page": 39,
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "kcc-pro-gw1114g",
@@ -103869,9 +104293,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD WOOD",
+    "shape": "우드",
     "shape_kr": "스탠다드 우드",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "184 × 950mm",
     "full_spec": "3.0 × 184 × 950mm",
@@ -103892,16 +104316,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GW1114G",
-      "shape": "STANDARD WOOD",
-      "thickness": "3.0mm(3T)",
-      "size": "184 × 950mm",
-      "pcs_per_box": "19장",
-      "packing": "19장 / 3.32㎡",
+      "thickness": "3.0T",
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
       "area": "3.32㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 20,
-    "print_page": 39
+    "print_page": 39,
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "kcc-pro-gw1115g",
@@ -103915,9 +104339,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD WOOD",
+    "shape": "우드",
     "shape_kr": "스탠다드 우드",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "184 × 950mm",
     "full_spec": "3.0 × 184 × 950mm",
@@ -103938,16 +104362,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GW1115G",
-      "shape": "STANDARD WOOD",
-      "thickness": "3.0mm(3T)",
-      "size": "184 × 950mm",
-      "pcs_per_box": "19장",
-      "packing": "19장 / 3.32㎡",
+      "thickness": "3.0T",
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
       "area": "3.32㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 20,
-    "print_page": 39
+    "print_page": 39,
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "kcc-pro-gw1112g",
@@ -103961,9 +104385,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD WOOD",
+    "shape": "우드",
     "shape_kr": "스탠다드 우드",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "184 × 950mm",
     "full_spec": "3.0 × 184 × 950mm",
@@ -103984,16 +104408,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GW1112G",
-      "shape": "STANDARD WOOD",
-      "thickness": "3.0mm(3T)",
-      "size": "184 × 950mm",
-      "pcs_per_box": "19장",
-      "packing": "19장 / 3.32㎡",
+      "thickness": "3.0T",
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
       "area": "3.32㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 20,
-    "print_page": 39
+    "print_page": 39,
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "kcc-pro-gw1113g",
@@ -104007,9 +104431,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD WOOD",
+    "shape": "우드",
     "shape_kr": "스탠다드 우드",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "184 × 950mm",
     "full_spec": "3.0 × 184 × 950mm",
@@ -104030,16 +104454,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GW1113G",
-      "shape": "STANDARD WOOD",
-      "thickness": "3.0mm(3T)",
-      "size": "184 × 950mm",
-      "pcs_per_box": "19장",
-      "packing": "19장 / 3.32㎡",
+      "thickness": "3.0T",
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
       "area": "3.32㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 20,
-    "print_page": 39
+    "print_page": 39,
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "kcc-pro-gw1504g",
@@ -104053,9 +104477,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD WOOD",
+    "shape": "우드",
     "shape_kr": "스탠다드 우드",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "184 × 950mm",
     "full_spec": "3.0 × 184 × 950mm",
@@ -104076,16 +104500,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GW1504G",
-      "shape": "STANDARD WOOD",
-      "thickness": "3.0mm(3T)",
-      "size": "184 × 950mm",
-      "pcs_per_box": "19장",
-      "packing": "19장 / 3.32㎡",
+      "thickness": "3.0T",
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
       "area": "3.32㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 20,
-    "print_page": 39
+    "print_page": 39,
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "kcc-pro-gw1517g",
@@ -104099,9 +104523,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD WOOD",
+    "shape": "우드",
     "shape_kr": "스탠다드 우드",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "184 × 950mm",
     "full_spec": "3.0 × 184 × 950mm",
@@ -104122,16 +104546,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GW1517G",
-      "shape": "STANDARD WOOD",
-      "thickness": "3.0mm(3T)",
-      "size": "184 × 950mm",
-      "pcs_per_box": "19장",
-      "packing": "19장 / 3.32㎡",
+      "thickness": "3.0T",
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
       "area": "3.32㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 21,
-    "print_page": 41
+    "print_page": 41,
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "kcc-pro-gw1514g",
@@ -104145,9 +104569,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD WOOD",
+    "shape": "우드",
     "shape_kr": "스탠다드 우드",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "184 × 950mm",
     "full_spec": "3.0 × 184 × 950mm",
@@ -104168,16 +104592,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GW1514G",
-      "shape": "STANDARD WOOD",
-      "thickness": "3.0mm(3T)",
-      "size": "184 × 950mm",
-      "pcs_per_box": "19장",
-      "packing": "19장 / 3.32㎡",
+      "thickness": "3.0T",
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
       "area": "3.32㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 21,
-    "print_page": 40
+    "print_page": 40,
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "kcc-pro-gw1505g",
@@ -104191,9 +104615,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD WOOD",
+    "shape": "우드",
     "shape_kr": "스탠다드 우드",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "184 × 950mm",
     "full_spec": "3.0 × 184 × 950mm",
@@ -104214,16 +104638,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GW1505G",
-      "shape": "STANDARD WOOD",
-      "thickness": "3.0mm(3T)",
-      "size": "184 × 950mm",
-      "pcs_per_box": "19장",
-      "packing": "19장 / 3.32㎡",
+      "thickness": "3.0T",
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
       "area": "3.32㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 21,
-    "print_page": 40
+    "print_page": 40,
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "kcc-pro-gw1518g",
@@ -104237,9 +104661,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD WOOD",
+    "shape": "우드",
     "shape_kr": "스탠다드 우드",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "184 × 950mm",
     "full_spec": "3.0 × 184 × 950mm",
@@ -104260,16 +104684,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GW1518G",
-      "shape": "STANDARD WOOD",
-      "thickness": "3.0mm(3T)",
-      "size": "184 × 950mm",
-      "pcs_per_box": "19장",
-      "packing": "19장 / 3.32㎡",
+      "thickness": "3.0T",
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
       "area": "3.32㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 21,
-    "print_page": 41
+    "print_page": 41,
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "kcc-pro-gw1506g",
@@ -104283,9 +104707,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD WOOD",
+    "shape": "우드",
     "shape_kr": "스탠다드 우드",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "184 × 950mm",
     "full_spec": "3.0 × 184 × 950mm",
@@ -104306,16 +104730,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GW1506G",
-      "shape": "STANDARD WOOD",
-      "thickness": "3.0mm(3T)",
-      "size": "184 × 950mm",
-      "pcs_per_box": "19장",
-      "packing": "19장 / 3.32㎡",
+      "thickness": "3.0T",
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
       "area": "3.32㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 21,
-    "print_page": 40
+    "print_page": 40,
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "kcc-pro-gw1515g",
@@ -104329,9 +104753,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD WOOD",
+    "shape": "우드",
     "shape_kr": "스탠다드 우드",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "184 × 950mm",
     "full_spec": "3.0 × 184 × 950mm",
@@ -104352,16 +104776,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GW1515G",
-      "shape": "STANDARD WOOD",
-      "thickness": "3.0mm(3T)",
-      "size": "184 × 950mm",
-      "pcs_per_box": "19장",
-      "packing": "19장 / 3.32㎡",
+      "thickness": "3.0T",
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
       "area": "3.32㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 21,
-    "print_page": 40
+    "print_page": 40,
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "kcc-pro-gw1516g",
@@ -104375,9 +104799,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD WOOD",
+    "shape": "우드",
     "shape_kr": "스탠다드 우드",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "184 × 950mm",
     "full_spec": "3.0 × 184 × 950mm",
@@ -104398,16 +104822,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GW1516G",
-      "shape": "STANDARD WOOD",
-      "thickness": "3.0mm(3T)",
-      "size": "184 × 950mm",
-      "pcs_per_box": "19장",
-      "packing": "19장 / 3.32㎡",
+      "thickness": "3.0T",
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
       "area": "3.32㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 21,
-    "print_page": 40
+    "print_page": 40,
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "kcc-pro-gw1519g",
@@ -104421,9 +104845,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD WOOD",
+    "shape": "우드",
     "shape_kr": "스탠다드 우드",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "184 × 950mm",
     "full_spec": "3.0 × 184 × 950mm",
@@ -104444,16 +104868,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GW1519G",
-      "shape": "STANDARD WOOD",
-      "thickness": "3.0mm(3T)",
-      "size": "184 × 950mm",
-      "pcs_per_box": "19장",
-      "packing": "19장 / 3.32㎡",
+      "thickness": "3.0T",
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
       "area": "3.32㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 21,
-    "print_page": 41
+    "print_page": 41,
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "kcc-pro-gw1507g",
@@ -104467,9 +104891,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD WOOD",
+    "shape": "우드",
     "shape_kr": "스탠다드 우드",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "184 × 950mm",
     "full_spec": "3.0 × 184 × 950mm",
@@ -104490,16 +104914,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GW1507G",
-      "shape": "STANDARD WOOD",
-      "thickness": "3.0mm(3T)",
-      "size": "184 × 950mm",
-      "pcs_per_box": "19장",
-      "packing": "19장 / 3.32㎡",
+      "thickness": "3.0T",
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
       "area": "3.32㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 21,
-    "print_page": 40
+    "print_page": 40,
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "kcc-pro-gw1523g",
@@ -104513,9 +104937,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD WOOD",
+    "shape": "우드",
     "shape_kr": "스탠다드 우드",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "184 × 950mm",
     "full_spec": "3.0 × 184 × 950mm",
@@ -104536,16 +104960,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GW1523G",
-      "shape": "STANDARD WOOD",
-      "thickness": "3.0mm(3T)",
-      "size": "184 × 950mm",
-      "pcs_per_box": "19장",
-      "packing": "19장 / 3.32㎡",
+      "thickness": "3.0T",
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
       "area": "3.32㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 21,
-    "print_page": 41
+    "print_page": 41,
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "kcc-pro-gw1508g",
@@ -104559,9 +104983,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD WOOD",
+    "shape": "우드",
     "shape_kr": "스탠다드 우드",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "184 × 950mm",
     "full_spec": "3.0 × 184 × 950mm",
@@ -104582,16 +105006,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GW1508G",
-      "shape": "STANDARD WOOD",
-      "thickness": "3.0mm(3T)",
-      "size": "184 × 950mm",
-      "pcs_per_box": "19장",
-      "packing": "19장 / 3.32㎡",
+      "thickness": "3.0T",
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
       "area": "3.32㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 21,
-    "print_page": 40
+    "print_page": 40,
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "kcc-pro-gw1509g",
@@ -104605,9 +105029,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD WOOD",
+    "shape": "우드",
     "shape_kr": "스탠다드 우드",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "184 × 950mm",
     "full_spec": "3.0 × 184 × 950mm",
@@ -104628,16 +105052,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GW1509G",
-      "shape": "STANDARD WOOD",
-      "thickness": "3.0mm(3T)",
-      "size": "184 × 950mm",
-      "pcs_per_box": "19장",
-      "packing": "19장 / 3.32㎡",
+      "thickness": "3.0T",
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
       "area": "3.32㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 21,
-    "print_page": 40
+    "print_page": 40,
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "kcc-pro-gw1524g",
@@ -104651,9 +105075,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD WOOD",
+    "shape": "우드",
     "shape_kr": "스탠다드 우드",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "184 × 950mm",
     "full_spec": "3.0 × 184 × 950mm",
@@ -104674,16 +105098,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GW1524G",
-      "shape": "STANDARD WOOD",
-      "thickness": "3.0mm(3T)",
-      "size": "184 × 950mm",
-      "pcs_per_box": "19장",
-      "packing": "19장 / 3.32㎡",
+      "thickness": "3.0T",
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
       "area": "3.32㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 21,
-    "print_page": 41
+    "print_page": 41,
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "kcc-pro-gw1510g",
@@ -104697,9 +105121,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD WOOD",
+    "shape": "우드",
     "shape_kr": "스탠다드 우드",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "184 × 950mm",
     "full_spec": "3.0 × 184 × 950mm",
@@ -104720,16 +105144,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GW1510G",
-      "shape": "STANDARD WOOD",
-      "thickness": "3.0mm(3T)",
-      "size": "184 × 950mm",
-      "pcs_per_box": "19장",
-      "packing": "19장 / 3.32㎡",
+      "thickness": "3.0T",
+      "size": "184×950mm",
+      "packing": "19매 / 3.32㎡",
       "area": "3.32㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 21,
-    "print_page": 40
+    "print_page": 40,
+    "spec": "3.0T × 184 × 950mm",
+    "package": "19매/box · 3.32㎡"
   },
   {
     "id": "kcc-pro-gw1104k",
@@ -104743,9 +105167,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "WIDE WOOD",
+    "shape": "와이드 우드",
     "shape_kr": "와이드 우드",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "228.6 × 1219.2mm",
     "full_spec": "3.0 × 228.6 × 1219.2mm",
@@ -104766,16 +105190,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GW1104K",
-      "shape": "WIDE WOOD",
-      "thickness": "3.0mm(3T)",
-      "size": "228.6 × 1219.2mm",
-      "pcs_per_box": "12장",
-      "packing": "12장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "228.6×1219.2mm",
+      "packing": "12매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 22,
-    "print_page": 42
+    "print_page": 42,
+    "spec": "3.0T × 228.6 × 1219.2mm",
+    "package": "12매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gw1101k",
@@ -104789,9 +105213,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "WIDE WOOD",
+    "shape": "와이드 우드",
     "shape_kr": "와이드 우드",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "228.6 × 1219.2mm",
     "full_spec": "3.0 × 228.6 × 1219.2mm",
@@ -104812,16 +105236,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GW1101K",
-      "shape": "WIDE WOOD",
-      "thickness": "3.0mm(3T)",
-      "size": "228.6 × 1219.2mm",
-      "pcs_per_box": "12장",
-      "packing": "12장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "228.6×1219.2mm",
+      "packing": "12매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 22,
-    "print_page": 42
+    "print_page": 42,
+    "spec": "3.0T × 228.6 × 1219.2mm",
+    "package": "12매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gw1102k",
@@ -104835,9 +105259,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "WIDE WOOD",
+    "shape": "와이드 우드",
     "shape_kr": "와이드 우드",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "228.6 × 1219.2mm",
     "full_spec": "3.0 × 228.6 × 1219.2mm",
@@ -104858,16 +105282,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GW1102K",
-      "shape": "WIDE WOOD",
-      "thickness": "3.0mm(3T)",
-      "size": "228.6 × 1219.2mm",
-      "pcs_per_box": "12장",
-      "packing": "12장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "228.6×1219.2mm",
+      "packing": "12매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 22,
-    "print_page": 42
+    "print_page": 42,
+    "spec": "3.0T × 228.6 × 1219.2mm",
+    "package": "12매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gw1105k",
@@ -104881,9 +105305,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "WIDE WOOD",
+    "shape": "와이드 우드",
     "shape_kr": "와이드 우드",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "228.6 × 1219.2mm",
     "full_spec": "3.0 × 228.6 × 1219.2mm",
@@ -104904,16 +105328,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GW1105K",
-      "shape": "WIDE WOOD",
-      "thickness": "3.0mm(3T)",
-      "size": "228.6 × 1219.2mm",
-      "pcs_per_box": "12장",
-      "packing": "12장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "228.6×1219.2mm",
+      "packing": "12매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 22,
-    "print_page": 42
+    "print_page": 42,
+    "spec": "3.0T × 228.6 × 1219.2mm",
+    "package": "12매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gw1106k",
@@ -104927,9 +105351,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "WIDE WOOD",
+    "shape": "와이드 우드",
     "shape_kr": "와이드 우드",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "228.6 × 1219.2mm",
     "full_spec": "3.0 × 228.6 × 1219.2mm",
@@ -104950,16 +105374,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GW1106K",
-      "shape": "WIDE WOOD",
-      "thickness": "3.0mm(3T)",
-      "size": "228.6 × 1219.2mm",
-      "pcs_per_box": "12장",
-      "packing": "12장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "228.6×1219.2mm",
+      "packing": "12매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 22,
-    "print_page": 42
+    "print_page": 42,
+    "spec": "3.0T × 228.6 × 1219.2mm",
+    "package": "12매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gw1103k",
@@ -104973,9 +105397,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "WIDE WOOD",
+    "shape": "와이드 우드",
     "shape_kr": "와이드 우드",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "228.6 × 1219.2mm",
     "full_spec": "3.0 × 228.6 × 1219.2mm",
@@ -104996,16 +105420,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GW1103K",
-      "shape": "WIDE WOOD",
-      "thickness": "3.0mm(3T)",
-      "size": "228.6 × 1219.2mm",
-      "pcs_per_box": "12장",
-      "packing": "12장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "228.6×1219.2mm",
+      "packing": "12매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 22,
-    "print_page": 42
+    "print_page": 42,
+    "spec": "3.0T × 228.6 × 1219.2mm",
+    "package": "12매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gs1551m",
@@ -105019,9 +105443,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "600 사각",
+    "shape": "600각",
     "shape_kr": "600 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "600 × 600mm",
     "full_spec": "3.0 × 600 × 600mm",
@@ -105042,16 +105466,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1551M",
-      "shape": "600 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "600 × 600mm",
-      "pcs_per_box": "9장",
-      "packing": "9장 / 3.24㎡",
+      "thickness": "3.0T",
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
       "area": "3.24㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 22,
-    "print_page": 43
+    "print_page": 43,
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "kcc-pro-gs1552m",
@@ -105065,9 +105489,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "600 사각",
+    "shape": "600각",
     "shape_kr": "600 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "600 × 600mm",
     "full_spec": "3.0 × 600 × 600mm",
@@ -105088,16 +105512,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1552M",
-      "shape": "600 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "600 × 600mm",
-      "pcs_per_box": "9장",
-      "packing": "9장 / 3.24㎡",
+      "thickness": "3.0T",
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
       "area": "3.24㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 22,
-    "print_page": 43
+    "print_page": 43,
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "kcc-pro-gs1553m",
@@ -105111,9 +105535,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "600 사각",
+    "shape": "600각",
     "shape_kr": "600 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "600 × 600mm",
     "full_spec": "3.0 × 600 × 600mm",
@@ -105134,16 +105558,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1553M",
-      "shape": "600 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "600 × 600mm",
-      "pcs_per_box": "9장",
-      "packing": "9장 / 3.24㎡",
+      "thickness": "3.0T",
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
       "area": "3.24㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 22,
-    "print_page": 43
+    "print_page": 43,
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "kcc-pro-gs1602m",
@@ -105157,9 +105581,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "600 사각",
+    "shape": "600각",
     "shape_kr": "600 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "600 × 600mm",
     "full_spec": "3.0 × 600 × 600mm",
@@ -105180,16 +105604,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1602M",
-      "shape": "600 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "600 × 600mm",
-      "pcs_per_box": "9장",
-      "packing": "9장 / 3.24㎡",
+      "thickness": "3.0T",
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
       "area": "3.24㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 22,
-    "print_page": 43
+    "print_page": 43,
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "kcc-pro-gs1601m",
@@ -105203,9 +105627,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "600 사각",
+    "shape": "600각",
     "shape_kr": "600 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "600 × 600mm",
     "full_spec": "3.0 × 600 × 600mm",
@@ -105226,16 +105650,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1601M",
-      "shape": "600 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "600 × 600mm",
-      "pcs_per_box": "9장",
-      "packing": "9장 / 3.24㎡",
+      "thickness": "3.0T",
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
       "area": "3.24㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 22,
-    "print_page": 43
+    "print_page": 43,
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "kcc-pro-gs1556m",
@@ -105249,9 +105673,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "600 사각",
+    "shape": "600각",
     "shape_kr": "600 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "600 × 600mm",
     "full_spec": "3.0 × 600 × 600mm",
@@ -105272,16 +105696,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1556M",
-      "shape": "600 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "600 × 600mm",
-      "pcs_per_box": "9장",
-      "packing": "9장 / 3.24㎡",
+      "thickness": "3.0T",
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
       "area": "3.24㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 23,
-    "print_page": 44
+    "print_page": 44,
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "kcc-pro-gs1555m",
@@ -105295,9 +105719,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "600 사각",
+    "shape": "600각",
     "shape_kr": "600 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "600 × 600mm",
     "full_spec": "3.0 × 600 × 600mm",
@@ -105318,16 +105742,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1555M",
-      "shape": "600 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "600 × 600mm",
-      "pcs_per_box": "9장",
-      "packing": "9장 / 3.24㎡",
+      "thickness": "3.0T",
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
       "area": "3.24㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 23,
-    "print_page": 44
+    "print_page": 44,
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "kcc-pro-gs1557m",
@@ -105341,9 +105765,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "600 사각",
+    "shape": "600각",
     "shape_kr": "600 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "600 × 600mm",
     "full_spec": "3.0 × 600 × 600mm",
@@ -105364,16 +105788,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1557M",
-      "shape": "600 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "600 × 600mm",
-      "pcs_per_box": "9장",
-      "packing": "9장 / 3.24㎡",
+      "thickness": "3.0T",
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
       "area": "3.24㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 23,
-    "print_page": 44
+    "print_page": 44,
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "kcc-pro-gs1605m",
@@ -105387,9 +105811,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "600 사각",
+    "shape": "600각",
     "shape_kr": "600 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "600 × 600mm",
     "full_spec": "3.0 × 600 × 600mm",
@@ -105410,16 +105834,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1605M",
-      "shape": "600 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "600 × 600mm",
-      "pcs_per_box": "9장",
-      "packing": "9장 / 3.24㎡",
+      "thickness": "3.0T",
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
       "area": "3.24㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 23,
-    "print_page": 44
+    "print_page": 44,
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "kcc-pro-gs1604m",
@@ -105433,9 +105857,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "600 사각",
+    "shape": "600각",
     "shape_kr": "600 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "600 × 600mm",
     "full_spec": "3.0 × 600 × 600mm",
@@ -105456,16 +105880,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1604M",
-      "shape": "600 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "600 × 600mm",
-      "pcs_per_box": "9장",
-      "packing": "9장 / 3.24㎡",
+      "thickness": "3.0T",
+      "size": "600×600mm",
+      "packing": "9매 / 3.24㎡",
       "area": "3.24㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 23,
-    "print_page": 44
+    "print_page": 44,
+    "spec": "3.0T × 600 × 600mm",
+    "package": "9매/box · 3.24㎡"
   },
   {
     "id": "kcc-pro-gs1611c",
@@ -105479,9 +105903,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "457.2 사각",
+    "shape": "450각",
     "shape_kr": "457.2 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "457.2 × 457.2mm",
     "full_spec": "3.0 × 457.2 × 457.2mm",
@@ -105502,16 +105926,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1611C",
-      "shape": "457.2 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "16장",
-      "packing": "16장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 23,
-    "print_page": 45
+    "print_page": 45,
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gs1613c",
@@ -105525,9 +105949,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "457.2 사각",
+    "shape": "450각",
     "shape_kr": "457.2 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "457.2 × 457.2mm",
     "full_spec": "3.0 × 457.2 × 457.2mm",
@@ -105548,16 +105972,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1613C",
-      "shape": "457.2 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "16장",
-      "packing": "16장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 23,
-    "print_page": 45
+    "print_page": 45,
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gs1560c",
@@ -105571,9 +105995,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "457.2 사각",
+    "shape": "450각",
     "shape_kr": "457.2 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "457.2 × 457.2mm",
     "full_spec": "3.0 × 457.2 × 457.2mm",
@@ -105594,16 +106018,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1560C",
-      "shape": "457.2 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "16장",
-      "packing": "16장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 23,
-    "print_page": 45
+    "print_page": 45,
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gs1612c",
@@ -105617,9 +106041,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "457.2 사각",
+    "shape": "450각",
     "shape_kr": "457.2 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "457.2 × 457.2mm",
     "full_spec": "3.0 × 457.2 × 457.2mm",
@@ -105640,16 +106064,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1612C",
-      "shape": "457.2 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "16장",
-      "packing": "16장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 23,
-    "print_page": 45
+    "print_page": 45,
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gs1614c",
@@ -105663,9 +106087,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "457.2 사각",
+    "shape": "450각",
     "shape_kr": "457.2 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "457.2 × 457.2mm",
     "full_spec": "3.0 × 457.2 × 457.2mm",
@@ -105686,16 +106110,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1614C",
-      "shape": "457.2 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "16장",
-      "packing": "16장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 23,
-    "print_page": 45
+    "print_page": 45,
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gs1561c",
@@ -105709,9 +106133,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "457.2 사각",
+    "shape": "450각",
     "shape_kr": "457.2 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "457.2 × 457.2mm",
     "full_spec": "3.0 × 457.2 × 457.2mm",
@@ -105732,16 +106156,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1561C",
-      "shape": "457.2 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "16장",
-      "packing": "16장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 23,
-    "print_page": 45
+    "print_page": 45,
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gs1615c",
@@ -105755,9 +106179,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "457.2 사각",
+    "shape": "450각",
     "shape_kr": "457.2 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "457.2 × 457.2mm",
     "full_spec": "3.0 × 457.2 × 457.2mm",
@@ -105778,16 +106202,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1615C",
-      "shape": "457.2 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "16장",
-      "packing": "16장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 23,
-    "print_page": 45
+    "print_page": 45,
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gs1564c",
@@ -105801,9 +106225,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "457.2 사각",
+    "shape": "450각",
     "shape_kr": "457.2 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "457.2 × 457.2mm",
     "full_spec": "3.0 × 457.2 × 457.2mm",
@@ -105824,16 +106248,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1564C",
-      "shape": "457.2 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "16장",
-      "packing": "16장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 23,
-    "print_page": 45
+    "print_page": 45,
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gs1562c",
@@ -105847,9 +106271,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "457.2 사각",
+    "shape": "450각",
     "shape_kr": "457.2 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "457.2 × 457.2mm",
     "full_spec": "3.0 × 457.2 × 457.2mm",
@@ -105870,16 +106294,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1562C",
-      "shape": "457.2 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "16장",
-      "packing": "16장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 23,
-    "print_page": 45
+    "print_page": 45,
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gs1563c",
@@ -105893,9 +106317,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "457.2 사각",
+    "shape": "450각",
     "shape_kr": "457.2 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "457.2 × 457.2mm",
     "full_spec": "3.0 × 457.2 × 457.2mm",
@@ -105916,16 +106340,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1563C",
-      "shape": "457.2 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "16장",
-      "packing": "16장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 23,
-    "print_page": 45
+    "print_page": 45,
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gs1617c",
@@ -105939,9 +106363,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "457.2 사각",
+    "shape": "450각",
     "shape_kr": "457.2 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "457.2 × 457.2mm",
     "full_spec": "3.0 × 457.2 × 457.2mm",
@@ -105962,16 +106386,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1617C",
-      "shape": "457.2 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "16장",
-      "packing": "16장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 23,
-    "print_page": 45
+    "print_page": 45,
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gs1616c",
@@ -105985,9 +106409,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "457.2 사각",
+    "shape": "450각",
     "shape_kr": "457.2 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "457.2 × 457.2mm",
     "full_spec": "3.0 × 457.2 × 457.2mm",
@@ -106008,16 +106432,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1616C",
-      "shape": "457.2 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "16장",
-      "packing": "16장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 23,
-    "print_page": 45
+    "print_page": 45,
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gs1622c",
@@ -106031,9 +106455,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "457.2 사각",
+    "shape": "450각",
     "shape_kr": "457.2 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "457.2 × 457.2mm",
     "full_spec": "3.0 × 457.2 × 457.2mm",
@@ -106054,16 +106478,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1622C",
-      "shape": "457.2 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "16장",
-      "packing": "16장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 24,
-    "print_page": 47
+    "print_page": 47,
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gs1620c",
@@ -106077,9 +106501,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "457.2 사각",
+    "shape": "450각",
     "shape_kr": "457.2 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "457.2 × 457.2mm",
     "full_spec": "3.0 × 457.2 × 457.2mm",
@@ -106100,16 +106524,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1620C",
-      "shape": "457.2 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "16장",
-      "packing": "16장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 24,
-    "print_page": 46
+    "print_page": 46,
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gs1621c",
@@ -106123,9 +106547,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "457.2 사각",
+    "shape": "450각",
     "shape_kr": "457.2 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "457.2 × 457.2mm",
     "full_spec": "3.0 × 457.2 × 457.2mm",
@@ -106146,16 +106570,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1621C",
-      "shape": "457.2 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "16장",
-      "packing": "16장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 24,
-    "print_page": 46
+    "print_page": 46,
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gs1618c",
@@ -106169,9 +106593,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "457.2 사각",
+    "shape": "450각",
     "shape_kr": "457.2 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "457.2 × 457.2mm",
     "full_spec": "3.0 × 457.2 × 457.2mm",
@@ -106192,16 +106616,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1618C",
-      "shape": "457.2 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "16장",
-      "packing": "16장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 24,
-    "print_page": 46
+    "print_page": 46,
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gs1586c",
@@ -106215,9 +106639,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "457.2 사각",
+    "shape": "450각",
     "shape_kr": "457.2 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "457.2 × 457.2mm",
     "full_spec": "3.0 × 457.2 × 457.2mm",
@@ -106238,16 +106662,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1586C",
-      "shape": "457.2 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "16장",
-      "packing": "16장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 24,
-    "print_page": 47
+    "print_page": 47,
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gs1589c",
@@ -106261,9 +106685,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "457.2 사각",
+    "shape": "450각",
     "shape_kr": "457.2 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "457.2 × 457.2mm",
     "full_spec": "3.0 × 457.2 × 457.2mm",
@@ -106284,16 +106708,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1589C",
-      "shape": "457.2 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "16장",
-      "packing": "16장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 24,
-    "print_page": 47
+    "print_page": 47,
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gs1588c",
@@ -106307,9 +106731,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "457.2 사각",
+    "shape": "450각",
     "shape_kr": "457.2 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "457.2 × 457.2mm",
     "full_spec": "3.0 × 457.2 × 457.2mm",
@@ -106330,16 +106754,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1588C",
-      "shape": "457.2 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "16장",
-      "packing": "16장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 24,
-    "print_page": 47
+    "print_page": 47,
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gs1619c",
@@ -106353,9 +106777,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "457.2 사각",
+    "shape": "450각",
     "shape_kr": "457.2 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "457.2 × 457.2mm",
     "full_spec": "3.0 × 457.2 × 457.2mm",
@@ -106376,16 +106800,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1619C",
-      "shape": "457.2 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "16장",
-      "packing": "16장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 24,
-    "print_page": 46
+    "print_page": 46,
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gs1580c",
@@ -106399,9 +106823,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "457.2 사각",
+    "shape": "450각",
     "shape_kr": "457.2 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "457.2 × 457.2mm",
     "full_spec": "3.0 × 457.2 × 457.2mm",
@@ -106422,16 +106846,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1580C",
-      "shape": "457.2 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "16장",
-      "packing": "16장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 24,
-    "print_page": 47
+    "print_page": 47,
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gs1573c",
@@ -106445,9 +106869,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "457.2 사각",
+    "shape": "450각",
     "shape_kr": "457.2 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "457.2 × 457.2mm",
     "full_spec": "3.0 × 457.2 × 457.2mm",
@@ -106468,16 +106892,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1573C",
-      "shape": "457.2 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "16장",
-      "packing": "16장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 24,
-    "print_page": 47
+    "print_page": 47,
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gs1570c",
@@ -106491,9 +106915,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "457.2 사각",
+    "shape": "450각",
     "shape_kr": "457.2 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "457.2 × 457.2mm",
     "full_spec": "3.0 × 457.2 × 457.2mm",
@@ -106514,16 +106938,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1570C",
-      "shape": "457.2 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "16장",
-      "packing": "16장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 24,
-    "print_page": 46
+    "print_page": 46,
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gs1623c",
@@ -106537,9 +106961,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "457.2 사각",
+    "shape": "450각",
     "shape_kr": "457.2 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "457.2 × 457.2mm",
     "full_spec": "3.0 × 457.2 × 457.2mm",
@@ -106560,16 +106984,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1623C",
-      "shape": "457.2 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "16장",
-      "packing": "16장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 24,
-    "print_page": 47
+    "print_page": 47,
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gs1572c",
@@ -106583,9 +107007,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "457.2 사각",
+    "shape": "450각",
     "shape_kr": "457.2 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "457.2 × 457.2mm",
     "full_spec": "3.0 × 457.2 × 457.2mm",
@@ -106606,16 +107030,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1572C",
-      "shape": "457.2 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "16장",
-      "packing": "16장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 24,
-    "print_page": 46
+    "print_page": 46,
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "kcc-pro-gs1574c",
@@ -106629,9 +107053,9 @@ export const materials = [
     "line": "센스타일 프로",
     "subLine": "센스타일 프로",
     "raw_material": "PVC 타일",
-    "shape": "457.2 사각",
+    "shape": "450각",
     "shape_kr": "457.2 사각",
-    "thickness": "3.0mm(3T)",
+    "thickness": "3.0T",
     "thickness_num": "3.0T",
     "size_dim": "457.2 × 457.2mm",
     "full_spec": "3.0 × 457.2 × 457.2mm",
@@ -106652,16 +107076,16 @@ export const materials = [
     "specs": {
       "family": "센스타일 프로",
       "code": "GS1574C",
-      "shape": "457.2 사각",
-      "thickness": "3.0mm(3T)",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "16장",
-      "packing": "16장 / 3.34㎡",
+      "thickness": "3.0T",
+      "size": "457.2×457.2mm",
+      "packing": "16매 / 3.34㎡",
       "area": "3.34㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 24,
-    "print_page": 47
+    "print_page": 47,
+    "spec": "3.0T × 457.2 × 457.2mm",
+    "package": "16매/box · 3.34㎡"
   },
   {
     "id": "kcc-ray-b5001f",
@@ -106675,9 +107099,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "LARGE PLANK",
+    "shape": "라지 우드",
     "shape_kr": "라지 플랭크",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "228.6 × 1524mm",
@@ -106699,17 +107123,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B5001F",
-      "shape": "LARGE PLANK",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "228.6 × 1524mm",
-      "pcs_per_box": "6장",
-      "packing": "6장 / 2.09㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "228.6×1524mm",
+      "packing": "6매 / 2.09㎡",
       "area": "2.09㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 25,
-    "print_page": 49
+    "print_page": 49,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 228.6 × 1524mm",
+    "package": "6매/box · 2.09㎡"
   },
   {
     "id": "kcc-ray-b5002f",
@@ -106723,9 +107148,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "LARGE PLANK",
+    "shape": "라지 우드",
     "shape_kr": "라지 플랭크",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "228.6 × 1524mm",
@@ -106747,17 +107172,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B5002F",
-      "shape": "LARGE PLANK",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "228.6 × 1524mm",
-      "pcs_per_box": "6장",
-      "packing": "6장 / 2.09㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "228.6×1524mm",
+      "packing": "6매 / 2.09㎡",
       "area": "2.09㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 25,
-    "print_page": 49
+    "print_page": 49,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 228.6 × 1524mm",
+    "package": "6매/box · 2.09㎡"
   },
   {
     "id": "kcc-ray-b5061f",
@@ -106771,9 +107197,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "LARGE PLANK",
+    "shape": "라지 우드",
     "shape_kr": "라지 플랭크",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "228.6 × 1524mm",
@@ -106795,17 +107221,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B5061F",
-      "shape": "LARGE PLANK",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "228.6 × 1524mm",
-      "pcs_per_box": "6장",
-      "packing": "6장 / 2.09㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "228.6×1524mm",
+      "packing": "6매 / 2.09㎡",
       "area": "2.09㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 25,
-    "print_page": 49
+    "print_page": 49,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 228.6 × 1524mm",
+    "package": "6매/box · 2.09㎡"
   },
   {
     "id": "kcc-ray-b5062f",
@@ -106819,9 +107246,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "LARGE PLANK",
+    "shape": "라지 우드",
     "shape_kr": "라지 플랭크",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "228.6 × 1524mm",
@@ -106843,17 +107270,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B5062F",
-      "shape": "LARGE PLANK",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "228.6 × 1524mm",
-      "pcs_per_box": "6장",
-      "packing": "6장 / 2.09㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "228.6×1524mm",
+      "packing": "6매 / 2.09㎡",
       "area": "2.09㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 25,
-    "print_page": 49
+    "print_page": 49,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 228.6 × 1524mm",
+    "package": "6매/box · 2.09㎡"
   },
   {
     "id": "kcc-ray-b5063f",
@@ -106867,9 +107295,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "LARGE PLANK",
+    "shape": "라지 우드",
     "shape_kr": "라지 플랭크",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "228.6 × 1524mm",
@@ -106891,17 +107319,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B5063F",
-      "shape": "LARGE PLANK",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "228.6 × 1524mm",
-      "pcs_per_box": "6장",
-      "packing": "6장 / 2.09㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "228.6×1524mm",
+      "packing": "6매 / 2.09㎡",
       "area": "2.09㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 25,
-    "print_page": 49
+    "print_page": 49,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 228.6 × 1524mm",
+    "package": "6매/box · 2.09㎡"
   },
   {
     "id": "kcc-ray-b5064f",
@@ -106915,9 +107344,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "LARGE PLANK",
+    "shape": "라지 우드",
     "shape_kr": "라지 플랭크",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "228.6 × 1524mm",
@@ -106939,17 +107368,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B5064F",
-      "shape": "LARGE PLANK",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "228.6 × 1524mm",
-      "pcs_per_box": "6장",
-      "packing": "6장 / 2.09㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "228.6×1524mm",
+      "packing": "6매 / 2.09㎡",
       "area": "2.09㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 25,
-    "print_page": 49
+    "print_page": 49,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 228.6 × 1524mm",
+    "package": "6매/box · 2.09㎡"
   },
   {
     "id": "kcc-ray-b5041f",
@@ -106963,9 +107393,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "LARGE PLANK",
+    "shape": "라지 우드",
     "shape_kr": "라지 플랭크",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "228.6 × 1524mm",
@@ -106987,17 +107417,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B5041F",
-      "shape": "LARGE PLANK",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "228.6 × 1524mm",
-      "pcs_per_box": "6장",
-      "packing": "6장 / 2.09㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "228.6×1524mm",
+      "packing": "6매 / 2.09㎡",
       "area": "2.09㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 26,
-    "print_page": 50
+    "print_page": 50,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 228.6 × 1524mm",
+    "package": "6매/box · 2.09㎡"
   },
   {
     "id": "kcc-ray-b5042f",
@@ -107011,9 +107442,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "LARGE PLANK",
+    "shape": "라지 우드",
     "shape_kr": "라지 플랭크",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "228.6 × 1524mm",
@@ -107035,17 +107466,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B5042F",
-      "shape": "LARGE PLANK",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "228.6 × 1524mm",
-      "pcs_per_box": "6장",
-      "packing": "6장 / 2.09㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "228.6×1524mm",
+      "packing": "6매 / 2.09㎡",
       "area": "2.09㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 26,
-    "print_page": 50
+    "print_page": 50,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 228.6 × 1524mm",
+    "package": "6매/box · 2.09㎡"
   },
   {
     "id": "kcc-ray-b5043f",
@@ -107059,9 +107491,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "LARGE PLANK",
+    "shape": "라지 우드",
     "shape_kr": "라지 플랭크",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "228.6 × 1524mm",
@@ -107083,17 +107515,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B5043F",
-      "shape": "LARGE PLANK",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "228.6 × 1524mm",
-      "pcs_per_box": "6장",
-      "packing": "6장 / 2.09㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "228.6×1524mm",
+      "packing": "6매 / 2.09㎡",
       "area": "2.09㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 26,
-    "print_page": 50
+    "print_page": 50,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 228.6 × 1524mm",
+    "package": "6매/box · 2.09㎡"
   },
   {
     "id": "kcc-ray-b5051b",
@@ -107107,9 +107540,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD PLANK",
+    "shape": "우드",
     "shape_kr": "스탠다드 플랭크",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "177.8 × 1219.2mm",
@@ -107131,17 +107564,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B5051B",
-      "shape": "STANDARD PLANK",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "177.8 × 1219.2mm",
-      "pcs_per_box": "10장",
-      "packing": "10장 / 2.17㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "177.8×1219.2mm",
+      "packing": "10매 / 2.17㎡",
       "area": "2.17㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 27,
-    "print_page": 52
+    "print_page": 52,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 177.8 × 1219.2mm",
+    "package": "10매/box · 2.17㎡"
   },
   {
     "id": "kcc-ray-b5011b",
@@ -107155,9 +107589,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD PLANK",
+    "shape": "우드",
     "shape_kr": "스탠다드 플랭크",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "177.8 × 1219.2mm",
@@ -107179,17 +107613,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B5011B",
-      "shape": "STANDARD PLANK",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "177.8 × 1219.2mm",
-      "pcs_per_box": "10장",
-      "packing": "10장 / 2.17㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "177.8×1219.2mm",
+      "packing": "10매 / 2.17㎡",
       "area": "2.17㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 27,
-    "print_page": 52
+    "print_page": 52,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 177.8 × 1219.2mm",
+    "package": "10매/box · 2.17㎡"
   },
   {
     "id": "kcc-ray-b5052b",
@@ -107203,9 +107638,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD PLANK",
+    "shape": "우드",
     "shape_kr": "스탠다드 플랭크",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "177.8 × 1219.2mm",
@@ -107227,17 +107662,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B5052B",
-      "shape": "STANDARD PLANK",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "177.8 × 1219.2mm",
-      "pcs_per_box": "10장",
-      "packing": "10장 / 2.17㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "177.8×1219.2mm",
+      "packing": "10매 / 2.17㎡",
       "area": "2.17㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 27,
-    "print_page": 52
+    "print_page": 52,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 177.8 × 1219.2mm",
+    "package": "10매/box · 2.17㎡"
   },
   {
     "id": "kcc-ray-b5012b",
@@ -107251,9 +107687,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD PLANK",
+    "shape": "우드",
     "shape_kr": "스탠다드 플랭크",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "177.8 × 1219.2mm",
@@ -107275,17 +107711,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B5012B",
-      "shape": "STANDARD PLANK",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "177.8 × 1219.2mm",
-      "pcs_per_box": "10장",
-      "packing": "10장 / 2.17㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "177.8×1219.2mm",
+      "packing": "10매 / 2.17㎡",
       "area": "2.17㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 27,
-    "print_page": 52
+    "print_page": 52,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 177.8 × 1219.2mm",
+    "package": "10매/box · 2.17㎡"
   },
   {
     "id": "kcc-ray-b5053b",
@@ -107299,9 +107736,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD PLANK",
+    "shape": "우드",
     "shape_kr": "스탠다드 플랭크",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "177.8 × 1219.2mm",
@@ -107323,17 +107760,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B5053B",
-      "shape": "STANDARD PLANK",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "177.8 × 1219.2mm",
-      "pcs_per_box": "10장",
-      "packing": "10장 / 2.17㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "177.8×1219.2mm",
+      "packing": "10매 / 2.17㎡",
       "area": "2.17㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 27,
-    "print_page": 52
+    "print_page": 52,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 177.8 × 1219.2mm",
+    "package": "10매/box · 2.17㎡"
   },
   {
     "id": "kcc-ray-b5013b",
@@ -107347,9 +107785,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD PLANK",
+    "shape": "우드",
     "shape_kr": "스탠다드 플랭크",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "177.8 × 1219.2mm",
@@ -107371,17 +107809,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B5013B",
-      "shape": "STANDARD PLANK",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "177.8 × 1219.2mm",
-      "pcs_per_box": "10장",
-      "packing": "10장 / 2.17㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "177.8×1219.2mm",
+      "packing": "10매 / 2.17㎡",
       "area": "2.17㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 27,
-    "print_page": 52
+    "print_page": 52,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 177.8 × 1219.2mm",
+    "package": "10매/box · 2.17㎡"
   },
   {
     "id": "kcc-ray-b5021b",
@@ -107395,9 +107834,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD PLANK",
+    "shape": "우드",
     "shape_kr": "스탠다드 플랭크",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "177.8 × 1219.2mm",
@@ -107419,17 +107858,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B5021B",
-      "shape": "STANDARD PLANK",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "177.8 × 1219.2mm",
-      "pcs_per_box": "10장",
-      "packing": "10장 / 2.17㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "177.8×1219.2mm",
+      "packing": "10매 / 2.17㎡",
       "area": "2.17㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 27,
-    "print_page": 52
+    "print_page": 52,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 177.8 × 1219.2mm",
+    "package": "10매/box · 2.17㎡"
   },
   {
     "id": "kcc-ray-b5031b",
@@ -107443,9 +107883,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD PLANK",
+    "shape": "우드",
     "shape_kr": "스탠다드 플랭크",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "177.8 × 1219.2mm",
@@ -107467,17 +107907,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B5031B",
-      "shape": "STANDARD PLANK",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "177.8 × 1219.2mm",
-      "pcs_per_box": "10장",
-      "packing": "10장 / 2.17㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "177.8×1219.2mm",
+      "packing": "10매 / 2.17㎡",
       "area": "2.17㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 27,
-    "print_page": 52
+    "print_page": 52,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 177.8 × 1219.2mm",
+    "package": "10매/box · 2.17㎡"
   },
   {
     "id": "kcc-ray-b5022b",
@@ -107491,9 +107932,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD PLANK",
+    "shape": "우드",
     "shape_kr": "스탠다드 플랭크",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "177.8 × 1219.2mm",
@@ -107515,17 +107956,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B5022B",
-      "shape": "STANDARD PLANK",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "177.8 × 1219.2mm",
-      "pcs_per_box": "10장",
-      "packing": "10장 / 2.17㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "177.8×1219.2mm",
+      "packing": "10매 / 2.17㎡",
       "area": "2.17㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 27,
-    "print_page": 52
+    "print_page": 52,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 177.8 × 1219.2mm",
+    "package": "10매/box · 2.17㎡"
   },
   {
     "id": "kcc-ray-b5023b",
@@ -107539,9 +107981,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD PLANK",
+    "shape": "우드",
     "shape_kr": "스탠다드 플랭크",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "177.8 × 1219.2mm",
@@ -107563,17 +108005,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B5023B",
-      "shape": "STANDARD PLANK",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "177.8 × 1219.2mm",
-      "pcs_per_box": "10장",
-      "packing": "10장 / 2.17㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "177.8×1219.2mm",
+      "packing": "10매 / 2.17㎡",
       "area": "2.17㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 27,
-    "print_page": 52
+    "print_page": 52,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 177.8 × 1219.2mm",
+    "package": "10매/box · 2.17㎡"
   },
   {
     "id": "kcc-ray-b0121j",
@@ -107587,9 +108030,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "LARGE TILE",
+    "shape": "라지 타일",
     "shape_kr": "라지 타일",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "457.2 × 914.4mm",
@@ -107611,17 +108054,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B0121J",
-      "shape": "LARGE TILE",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "457.2 × 914.4mm",
-      "pcs_per_box": "6장",
-      "packing": "6장 / 2.51㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "457.2×914.4mm",
+      "packing": "6매 / 2.51㎡",
       "area": "2.51㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 28,
-    "print_page": 55
+    "print_page": 55,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 457.2 × 914.4mm",
+    "package": "6매/box · 2.51㎡"
   },
   {
     "id": "kcc-ray-b0131j",
@@ -107635,9 +108079,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "LARGE TILE",
+    "shape": "라지 타일",
     "shape_kr": "라지 타일",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "457.2 × 914.4mm",
@@ -107659,17 +108103,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B0131J",
-      "shape": "LARGE TILE",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "457.2 × 914.4mm",
-      "pcs_per_box": "6장",
-      "packing": "6장 / 2.51㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "457.2×914.4mm",
+      "packing": "6매 / 2.51㎡",
       "area": "2.51㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 28,
-    "print_page": 55
+    "print_page": 55,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 457.2 × 914.4mm",
+    "package": "6매/box · 2.51㎡"
   },
   {
     "id": "kcc-ray-b0132j",
@@ -107683,9 +108128,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "LARGE TILE",
+    "shape": "라지 타일",
     "shape_kr": "라지 타일",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "457.2 × 914.4mm",
@@ -107707,17 +108152,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B0132J",
-      "shape": "LARGE TILE",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "457.2 × 914.4mm",
-      "pcs_per_box": "6장",
-      "packing": "6장 / 2.51㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "457.2×914.4mm",
+      "packing": "6매 / 2.51㎡",
       "area": "2.51㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 28,
-    "print_page": 55
+    "print_page": 55,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 457.2 × 914.4mm",
+    "package": "6매/box · 2.51㎡"
   },
   {
     "id": "kcc-ray-b0071p",
@@ -107731,9 +108177,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD TILE",
+    "shape": "450각",
     "shape_kr": "스탠다드 타일",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "457.2 × 457.2mm",
@@ -107755,17 +108201,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B0071P",
-      "shape": "STANDARD TILE",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "10장",
-      "packing": "10장 / 2.09㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "457.2×457.2mm",
+      "packing": "10매 / 2.09㎡",
       "area": "2.09㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 29,
-    "print_page": 56
+    "print_page": 56,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 457.2 × 457.2mm",
+    "package": "10매/box · 2.09㎡"
   },
   {
     "id": "kcc-ray-b0072p",
@@ -107779,9 +108226,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD TILE",
+    "shape": "450각",
     "shape_kr": "스탠다드 타일",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "457.2 × 457.2mm",
@@ -107803,17 +108250,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B0072P",
-      "shape": "STANDARD TILE",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "10장",
-      "packing": "10장 / 2.09㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "457.2×457.2mm",
+      "packing": "10매 / 2.09㎡",
       "area": "2.09㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 29,
-    "print_page": 56
+    "print_page": 56,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 457.2 × 457.2mm",
+    "package": "10매/box · 2.09㎡"
   },
   {
     "id": "kcc-ray-b0081p",
@@ -107827,9 +108275,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD TILE",
+    "shape": "450각",
     "shape_kr": "스탠다드 타일",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "457.2 × 457.2mm",
@@ -107851,17 +108299,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B0081P",
-      "shape": "STANDARD TILE",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "10장",
-      "packing": "10장 / 2.09㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "457.2×457.2mm",
+      "packing": "10매 / 2.09㎡",
       "area": "2.09㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 29,
-    "print_page": 56
+    "print_page": 56,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 457.2 × 457.2mm",
+    "package": "10매/box · 2.09㎡"
   },
   {
     "id": "kcc-ray-b0082p",
@@ -107875,9 +108324,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD TILE",
+    "shape": "450각",
     "shape_kr": "스탠다드 타일",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "457.2 × 457.2mm",
@@ -107899,17 +108348,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B0082P",
-      "shape": "STANDARD TILE",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "10장",
-      "packing": "10장 / 2.09㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "457.2×457.2mm",
+      "packing": "10매 / 2.09㎡",
       "area": "2.09㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 29,
-    "print_page": 56
+    "print_page": 56,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 457.2 × 457.2mm",
+    "package": "10매/box · 2.09㎡"
   },
   {
     "id": "kcc-ray-b0101p",
@@ -107923,9 +108373,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD TILE",
+    "shape": "450각",
     "shape_kr": "스탠다드 타일",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "457.2 × 457.2mm",
@@ -107947,17 +108397,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B0101P",
-      "shape": "STANDARD TILE",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "10장",
-      "packing": "10장 / 2.09㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "457.2×457.2mm",
+      "packing": "10매 / 2.09㎡",
       "area": "2.09㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 29,
-    "print_page": 56
+    "print_page": 56,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 457.2 × 457.2mm",
+    "package": "10매/box · 2.09㎡"
   },
   {
     "id": "kcc-ray-b0102p",
@@ -107971,9 +108422,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD TILE",
+    "shape": "450각",
     "shape_kr": "스탠다드 타일",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "457.2 × 457.2mm",
@@ -107995,17 +108446,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B0102P",
-      "shape": "STANDARD TILE",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "10장",
-      "packing": "10장 / 2.09㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "457.2×457.2mm",
+      "packing": "10매 / 2.09㎡",
       "area": "2.09㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 29,
-    "print_page": 56
+    "print_page": 56,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 457.2 × 457.2mm",
+    "package": "10매/box · 2.09㎡"
   },
   {
     "id": "kcc-ray-b0091p",
@@ -108019,9 +108471,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD TILE",
+    "shape": "450각",
     "shape_kr": "스탠다드 타일",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "457.2 × 457.2mm",
@@ -108043,17 +108495,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B0091P",
-      "shape": "STANDARD TILE",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "10장",
-      "packing": "10장 / 2.09㎡",
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "457.2×457.2mm",
+      "packing": "10매 / 2.09㎡",
       "area": "2.09㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 29,
-    "print_page": 56
+    "print_page": 56,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 457.2 × 457.2mm",
+    "package": "10매/box · 2.09㎡"
   },
   {
     "id": "kcc-ray-b0092p",
@@ -108067,9 +108520,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD TILE",
+    "shape": "우드",
     "shape_kr": "스탠다드 타일",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "457.2 × 457.2mm",
@@ -108091,17 +108544,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B0092P",
-      "shape": "STANDARD TILE",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "10장",
-      "packing": "10장 / 2.09㎡",
-      "area": "2.09㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "184×950mm",
+      "packing": "12매 / 2.10㎡",
+      "area": "2.10㎡",
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 29,
-    "print_page": 56
+    "print_page": 56,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 184 × 950mm",
+    "package": "12매/box · 2.10㎡"
   },
   {
     "id": "kcc-ray-b0093p",
@@ -108115,9 +108569,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "STANDARD TILE",
+    "shape": "우드",
     "shape_kr": "스탠다드 타일",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "457.2 × 457.2mm",
@@ -108139,17 +108593,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B0093P",
-      "shape": "STANDARD TILE",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "457.2 × 457.2mm",
-      "pcs_per_box": "10장",
-      "packing": "10장 / 2.09㎡",
-      "area": "2.09㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "184×950mm",
+      "packing": "12매 / 2.10㎡",
+      "area": "2.10㎡",
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 29,
-    "print_page": 56
+    "print_page": 56,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 184 × 950mm",
+    "package": "12매/box · 2.10㎡"
   },
   {
     "id": "kcc-ray-b0091g",
@@ -108163,9 +108618,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "TEXTILE PLANK",
+    "shape": "우드",
     "shape_kr": "텍스타일 플랭크",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "184 × 950mm",
@@ -108187,17 +108642,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B0091G",
-      "shape": "TEXTILE PLANK",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "184 × 950mm",
-      "pcs_per_box": "12장",
-      "packing": "12장 / 2.1㎡",
-      "area": "2.1㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "184×950mm",
+      "packing": "12매 / 2.10㎡",
+      "area": "2.10㎡",
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 29,
-    "print_page": 56
+    "print_page": 56,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 184 × 950mm",
+    "package": "12매/box · 2.10㎡"
   },
   {
     "id": "kcc-ray-b0092g",
@@ -108211,9 +108667,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "TEXTILE PLANK",
+    "shape": "우드",
     "shape_kr": "텍스타일 플랭크",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "184 × 950mm",
@@ -108235,17 +108691,18 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B0092G",
-      "shape": "TEXTILE PLANK",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "184 × 950mm",
-      "pcs_per_box": "12장",
-      "packing": "12장 / 2.1㎡",
-      "area": "2.1㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "184×950mm",
+      "packing": "12매 / 2.10㎡",
+      "area": "2.10㎡",
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 29,
-    "print_page": 56
+    "print_page": 56,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 184 × 950mm",
+    "package": "12매/box · 2.10㎡"
   },
   {
     "id": "kcc-ray-b0093g",
@@ -108259,9 +108716,9 @@ export const materials = [
     "line": "센스레이",
     "subLine": "센스레이",
     "raw_material": "PVC 타일",
-    "shape": "TEXTILE PLANK",
+    "shape": "우드",
     "shape_kr": "텍스타일 플랭크",
-    "thickness": "5.0mm(5T)",
+    "thickness": "5.0T",
     "thickness_num": "5.0T",
     "wear_layer": "0.5mm",
     "size_dim": "184 × 950mm",
@@ -108283,16 +108740,17 @@ export const materials = [
     "specs": {
       "family": "센스레이",
       "code": "B0093G",
-      "shape": "TEXTILE PLANK",
-      "thickness": "5.0mm(5T)",
-      "wear_layer": "0.5mm",
-      "size": "184 × 950mm",
-      "pcs_per_box": "12장",
-      "packing": "12장 / 2.1㎡",
-      "area": "2.1㎡",
-      "usage": "상업공간, 오피스, 매장, 실내 바닥 등"
+      "thickness": "5.0T",
+      "wearLayer": "0.5mm",
+      "size": "184×950mm",
+      "packing": "12매 / 2.10㎡",
+      "area": "2.10㎡",
+      "adhesive": "데코타일 본드"
     },
     "pdf_page": 29,
-    "print_page": 56
+    "print_page": 56,
+    "wearLayer": "0.5mm",
+    "spec": "5.0T × 184 × 950mm",
+    "package": "12매/box · 2.10㎡"
   }
 ];
