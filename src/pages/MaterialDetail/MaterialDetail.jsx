@@ -660,6 +660,8 @@ export default function MaterialDetail() {
       if (!routeParam) {
         setFetchStatus("notFound");
         setError("상품 식별자가 없습니다.");
+        completed = true;
+        clearTimeout(watchdog);
         setLoading(false);
         return;
       }
