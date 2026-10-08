@@ -450,6 +450,20 @@ export default function Materials() {
     }
   }, [activeThickness, visibleLines, activeLine, activeTab]);
 
+  // Calculate item counts for each lineup
+  const lineCounts = useMemo(() => {
+    if (!materialsList || materialsList.length === 0) return {};
+    const counts = {};
+    materialsList.forEach((m) => {
+      if (!m || m.category !== activeTab) return;
+      const line = activeTab === "마루" ? m.displayLine : getNormalizedLine(m, activeTab, activeBrand);
+      if (line) {
+        counts[line] = (counts[line] || 0) + 1;
+      }
+    });
+    return counts;
+  }, [materialsList, activeTab, activeBrand]);
+
   // KCC Decotile specific options (Shape & Pattern)
   const visibleShapes = useMemo(() => {
     if (activeTab !== "데코타일" || activeBrand !== "KCC" || !materialsList) return [];
@@ -833,7 +847,9 @@ export default function Materials() {
                     className={`material-type-chip ${activeLine === lineName ? "active" : ""}`}
                     onClick={() => setActiveLine(lineName)}
                   >
-                    {lineName === "all" ? "전체 라인업" : formatShapeOrPattern(lineName)}
+                    {lineName === "all"
+                      ? "전체 라인업"
+                      : `${formatShapeOrPattern(lineName)}${lineCounts[lineName] ? ` (${lineCounts[lineName]})` : ''}`}
                   </button>
                 ))}
               </div>
