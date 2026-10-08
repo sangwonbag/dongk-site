@@ -782,3 +782,153 @@ export async function searchProductsServer(queryText, signal) {
   }
 }
 
+/**
+ * Helper to extract clean product code candidate from slug/param
+ */
+export function extractProductCodeFromParam(param) {
+  if (!param) return '';
+  let decoded = String(param).trim();
+  try {
+    decoded = decodeURIComponent(param).trim();
+  } catch (e) {
+    // fallback
+  }
+  if (/^\d+$/.test(decoded)) return '';
+  const match = decoded.match(/([a-zA-Z]{1,5}[-_\s]?\d{3,5}[a-zA-Z]*)/);
+  if (match) return match[1].replace(/[-_\s]/g, '');
+  const numMatch = decoded.match(/(\d{3,6}(-\d+)?)/);
+  if (numMatch) return numMatch[1];
+  return decoded.replace(/[-_\s]/g, '');
+}
+
+/**
+ * Smart, multi-strategy product detail fetcher that handles:
+ * 1. Numeric ID
+ * 2. Exact slug
+ * 3. Exact product_code
+ * 4. Extracted product code
+ * 5. Compact product code
+ * 6. Case-insensitive slug / name matches
+ * 7. Fast local fallback search
+ */
+export async function fetchProductDetailBySlugOrId(routeParam, signal = null) {
+  if (!routeParam) return null;
+
+  let decodedParam = String(routeParam).trim();
+  try {
+    decodedParam = decodeURIComponent(routeParam).trim();
+  } catch (e) {
+    console.warn('[fetchProductDetailBySlugOrId] decodeURIComponent error:', e);
+  }
+
+  if (!decodedParam) return null;
+
+  const extractedCode = extractProductCodeFromParam(decodedParam);
+  const compactParam = decodedParam.replace(/[-_\s]/g, '');
+  const selectFields = '*, categories(id, name), brands(id, name)';
+
+  if (supabase) {
+    try {
+      // 1. Numeric ID
+      if (/^\d+$/.test(decodedParam)) {
+        let q = supabase.from('products').select(selectFields).eq('id', parseInt(decodedParam, 10)).maybeSingle();
+        if (signal) q = q.abortSignal(signal);
+        const { data } = await q;
+        if (data) return mapProductRow(data);
+      }
+
+      // 2. Exact slug match
+      {
+        let q = supabase.from('products').select(selectFields).eq('slug', decodedParam).maybeSingle();
+        if (signal) q = q.abortSignal(signal);
+        const { data } = await q;
+        if (data) return mapProductRow(data);
+      }
+
+      // 3. Exact product_code match
+      {
+        let q = supabase.from('products').select(selectFields).eq('product_code', decodedParam).maybeSingle();
+        if (signal) q = q.abortSignal(signal);
+        const { data } = await q;
+        if (data) return mapProductRow(data);
+      }
+
+      // 4. Extracted code match
+      if (extractedCode) {
+        let q = supabase.from('products').select(selectFields).eq('product_code', extractedCode).maybeSingle();
+        if (signal) q = q.abortSignal(signal);
+        const { data } = await q;
+        if (data) return mapProductRow(data);
+
+        let q2 = supabase.from('products').select(selectFields).ilike('product_code', '%' + extractedCode + '%').limit(1);
+        if (signal) q2 = q2.abortSignal(signal);
+        const { data: d2 } = await q2;
+        if (d2 && d2.length > 0) return mapProductRow(d2[0]);
+
+        let q3 = supabase.from('products').select(selectFields).ilike('slug', '%' + extractedCode.toLowerCase() + '%').limit(1);
+        if (signal) q3 = q3.abortSignal(signal);
+        const { data: d3 } = await q3;
+        if (d3 && d3.length > 0) return mapProductRow(d3[0]);
+      }
+
+      // 5. Compact param match
+      if (compactParam && compactParam !== extractedCode) {
+        let q = supabase.from('products').select(selectFields).eq('product_code', compactParam).maybeSingle();
+        if (signal) q = q.abortSignal(signal);
+        const { data } = await q;
+        if (data) return mapProductRow(data);
+      }
+
+      // 6. Case-insensitive slug / name match
+      {
+        let q = supabase.from('products').select(selectFields).ilike('slug', decodedParam).maybeSingle();
+        if (signal) q = q.abortSignal(signal);
+        const { data } = await q;
+        if (data) return mapProductRow(data);
+      }
+
+      {
+        let q = supabase.from('products').select(selectFields).ilike('name', '%' + decodedParam + '%').limit(1);
+        if (signal) q = q.abortSignal(signal);
+        const { data } = await q;
+        if (data && data.length > 0) return mapProductRow(data[0]);
+      }
+    } catch (err) {
+      if (err.name === 'AbortError' || err.message === 'aborted') {
+        const abortErr = new Error('aborted');
+        abortErr.name = 'AbortError';
+        throw abortErr;
+      }
+      console.warn('[fetchProductDetailBySlugOrId] Supabase fetch exception:', err);
+    }
+  }
+
+  // Strategy 7: Fast Local Fallback
+  try {
+    const localList = await getLocalMaterials();
+    const normParam = String(decodedParam).replace(/[^a-zA-Z0-9가-힣]/g, '').toLowerCase();
+
+    const matched = localList.find(m => {
+      if (!m) return false;
+      if (String(m.id) === String(decodedParam) || m.code === decodedParam || m.slug === decodedParam) return true;
+      if (m.code && m.code.toLowerCase() === decodedParam.toLowerCase()) return true;
+      const normCode = String(m.code || '').replace(/[^a-zA-Z0-9가-힣]/g, '').toLowerCase();
+      if (normCode && (normCode === normParam || normParam.endsWith(normCode) || normCode.endsWith(normParam))) return true;
+      if (extractedCode) {
+        const normExtracted = extractedCode.toLowerCase();
+        if (normCode === normExtracted || normParam.includes(normExtracted)) return true;
+      }
+      return false;
+    });
+
+    if (matched) {
+      return normalizeProductDetails(matched);
+    }
+  } catch (locErr) {
+    console.warn('[fetchProductDetailBySlugOrId] Local fallback error:', locErr);
+  }
+
+  return null;
+}
+
+

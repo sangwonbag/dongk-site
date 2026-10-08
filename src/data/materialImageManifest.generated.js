@@ -2710,6 +2710,42 @@ export const imageManifest = [
     "normalizedFileName": "oa336jpg"
   },
   {
+    "fileName": "OA 337.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 337.jpg",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA 337",
+    "normalizedFileName": "oa337jpg"
+  },
+  {
+    "fileName": "OA 338.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 338.jpg",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA 338",
+    "normalizedFileName": "oa338jpg"
+  },
+  {
+    "fileName": "OA 339.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 339.jpg",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA 339",
+    "normalizedFileName": "oa339jpg"
+  },
+  {
+    "fileName": "OA 340.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 340.jpg",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA 340",
+    "normalizedFileName": "oa340jpg"
+  },
+  {
     "fileName": "OA 341.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 341.jpg",
     "category": "데코타일",
@@ -34264,256 +34300,256 @@ export const imageManifest = [
     "normalizedFileName": "m3315thumbnailjpg"
   },
   {
-    "fileName": "A4301_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움2.7/A4301_detail.jpg",
+    "fileName": "A4301.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움2.7/A4301.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "아티움2.7",
-    "extractedCode": "A4301_detail",
-    "normalizedFileName": "a4301detailjpg"
+    "extractedCode": "A4301",
+    "normalizedFileName": "a4301jpg"
   },
   {
-    "fileName": "A4302_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움2.7/A4302_detail.jpg",
+    "fileName": "A4302.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움2.7/A4302.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "아티움2.7",
-    "extractedCode": "A4302_detail",
-    "normalizedFileName": "a4302detailjpg"
+    "extractedCode": "A4302",
+    "normalizedFileName": "a4302jpg"
   },
   {
-    "fileName": "A4303_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움2.7/A4303_detail.jpg",
+    "fileName": "A4303.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움2.7/A4303.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "아티움2.7",
-    "extractedCode": "A4303_detail",
-    "normalizedFileName": "a4303detailjpg"
+    "extractedCode": "A4303",
+    "normalizedFileName": "a4303jpg"
   },
   {
-    "fileName": "A4304_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움2.7/A4304_detail.jpg",
+    "fileName": "A4304.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움2.7/A4304.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "아티움2.7",
-    "extractedCode": "A4304_detail",
-    "normalizedFileName": "a4304detailjpg"
+    "extractedCode": "A4304",
+    "normalizedFileName": "a4304jpg"
   },
   {
-    "fileName": "A4305_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움2.7/A4305_detail.jpg",
+    "fileName": "A4305.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움2.7/A4305.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "아티움2.7",
-    "extractedCode": "A4305_detail",
-    "normalizedFileName": "a4305detailjpg"
+    "extractedCode": "A4305",
+    "normalizedFileName": "a4305jpg"
   },
   {
-    "fileName": "A4306_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움2.7/A4306_detail.jpg",
+    "fileName": "A4306.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움2.7/A4306.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "아티움2.7",
-    "extractedCode": "A4306_detail",
-    "normalizedFileName": "a4306detailjpg"
+    "extractedCode": "A4306",
+    "normalizedFileName": "a4306jpg"
   },
   {
-    "fileName": "A4307_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움2.7/A4307_detail.jpg",
+    "fileName": "A4307.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움2.7/A4307.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "아티움2.7",
-    "extractedCode": "A4307_detail",
-    "normalizedFileName": "a4307detailjpg"
+    "extractedCode": "A4307",
+    "normalizedFileName": "a4307jpg"
   },
   {
-    "fileName": "A5301_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움3.2/A5301_detail.jpg",
+    "fileName": "A5301.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움3.2/A5301.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "아티움3.2",
-    "extractedCode": "A5301_detail",
-    "normalizedFileName": "a5301detailjpg"
+    "extractedCode": "A5301",
+    "normalizedFileName": "a5301jpg"
   },
   {
-    "fileName": "A5302_detail.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움3.2/A5302_detail.png",
+    "fileName": "A5302.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움3.2/A5302.png",
     "category": "장판",
     "brand": "현대",
     "series": "아티움3.2",
-    "extractedCode": "A5302_detail",
-    "normalizedFileName": "a5302detailpng"
+    "extractedCode": "A5302",
+    "normalizedFileName": "a5302png"
   },
   {
-    "fileName": "A5303_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움3.2/A5303_detail.jpg",
+    "fileName": "A5303.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움3.2/A5303.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "아티움3.2",
-    "extractedCode": "A5303_detail",
-    "normalizedFileName": "a5303detailjpg"
+    "extractedCode": "A5303",
+    "normalizedFileName": "a5303jpg"
   },
   {
-    "fileName": "A5304_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움3.2/A5304_detail.jpg",
+    "fileName": "A5304.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움3.2/A5304.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "아티움3.2",
-    "extractedCode": "A5304_detail",
-    "normalizedFileName": "a5304detailjpg"
+    "extractedCode": "A5304",
+    "normalizedFileName": "a5304jpg"
   },
   {
-    "fileName": "A5305_detail.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움3.2/A5305_detail.png",
+    "fileName": "A5305.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움3.2/A5305.png",
     "category": "장판",
     "brand": "현대",
     "series": "아티움3.2",
-    "extractedCode": "A5305_detail",
-    "normalizedFileName": "a5305detailpng"
+    "extractedCode": "A5305",
+    "normalizedFileName": "a5305png"
   },
   {
-    "fileName": "A5306_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움3.2/A5306_detail.jpg",
+    "fileName": "A5306.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움3.2/A5306.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "아티움3.2",
-    "extractedCode": "A5306_detail",
-    "normalizedFileName": "a5306detailjpg"
+    "extractedCode": "A5306",
+    "normalizedFileName": "a5306jpg"
   },
   {
-    "fileName": "A5307_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움3.2/A5307_detail.jpg",
+    "fileName": "A5307.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움3.2/A5307.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "아티움3.2",
-    "extractedCode": "A5307_detail",
-    "normalizedFileName": "a5307detailjpg"
+    "extractedCode": "A5307",
+    "normalizedFileName": "a5307jpg"
   },
   {
-    "fileName": "A5308_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움3.2/A5308_detail.jpg",
+    "fileName": "A5308.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움3.2/A5308.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "아티움3.2",
-    "extractedCode": "A5308_detail",
-    "normalizedFileName": "a5308detailjpg"
+    "extractedCode": "A5308",
+    "normalizedFileName": "a5308jpg"
   },
   {
-    "fileName": "A5309_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움3.2/A5309_detail.jpg",
+    "fileName": "A5309.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/아티움3.2/A5309.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "아티움3.2",
-    "extractedCode": "A5309_detail",
-    "normalizedFileName": "a5309detailjpg"
+    "extractedCode": "A5309",
+    "normalizedFileName": "a5309jpg"
   },
   {
-    "fileName": "C1152_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움1.8/C1152_detail.jpg",
+    "fileName": "C1152.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움1.8/C1152.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "참다움1.8",
-    "extractedCode": "C1152_detail",
-    "normalizedFileName": "c1152detailjpg"
+    "extractedCode": "C1152",
+    "normalizedFileName": "c1152jpg"
   },
   {
-    "fileName": "C1154_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움1.8/C1154_detail.jpg",
+    "fileName": "C1154.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움1.8/C1154.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "참다움1.8",
-    "extractedCode": "C1154_detail",
-    "normalizedFileName": "c1154detailjpg"
+    "extractedCode": "C1154",
+    "normalizedFileName": "c1154jpg"
   },
   {
-    "fileName": "C1161_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움1.8/C1161_detail.jpg",
+    "fileName": "C1161.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움1.8/C1161.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "참다움1.8",
-    "extractedCode": "C1161_detail",
-    "normalizedFileName": "c1161detailjpg"
+    "extractedCode": "C1161",
+    "normalizedFileName": "c1161jpg"
   },
   {
-    "fileName": "C1162_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움1.8/C1162_detail.jpg",
+    "fileName": "C1162.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움1.8/C1162.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "참다움1.8",
-    "extractedCode": "C1162_detail",
-    "normalizedFileName": "c1162detailjpg"
+    "extractedCode": "C1162",
+    "normalizedFileName": "c1162jpg"
   },
   {
-    "fileName": "C1171_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움1.8/C1171_detail.jpg",
+    "fileName": "C1171.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움1.8/C1171.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "참다움1.8",
-    "extractedCode": "C1171_detail",
-    "normalizedFileName": "c1171detailjpg"
+    "extractedCode": "C1171",
+    "normalizedFileName": "c1171jpg"
   },
   {
-    "fileName": "C1172_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움1.8/C1172_detail.jpg",
+    "fileName": "C1172.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움1.8/C1172.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "참다움1.8",
-    "extractedCode": "C1172_detail",
-    "normalizedFileName": "c1172detailjpg"
+    "extractedCode": "C1172",
+    "normalizedFileName": "c1172jpg"
   },
   {
-    "fileName": "C1173_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움1.8/C1173_detail.jpg",
+    "fileName": "C1173.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움1.8/C1173.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "참다움1.8",
-    "extractedCode": "C1173_detail",
-    "normalizedFileName": "c1173detailjpg"
+    "extractedCode": "C1173",
+    "normalizedFileName": "c1173jpg"
   },
   {
-    "fileName": "C1705_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움1.8/C1705_detail.jpg",
+    "fileName": "C1705.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움1.8/C1705.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "참다움1.8",
-    "extractedCode": "C1705_detail",
-    "normalizedFileName": "c1705detailjpg"
+    "extractedCode": "C1705",
+    "normalizedFileName": "c1705jpg"
   },
   {
-    "fileName": "C1706_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움1.8/C1706_detail.jpg",
+    "fileName": "C1706.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움1.8/C1706.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "참다움1.8",
-    "extractedCode": "C1706_detail",
-    "normalizedFileName": "c1706detailjpg"
+    "extractedCode": "C1706",
+    "normalizedFileName": "c1706jpg"
   },
   {
-    "fileName": "C1708_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움1.8/C1708_detail.jpg",
+    "fileName": "C1708.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움1.8/C1708.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "참다움1.8",
-    "extractedCode": "C1708_detail",
-    "normalizedFileName": "c1708detailjpg"
+    "extractedCode": "C1708",
+    "normalizedFileName": "c1708jpg"
   },
   {
-    "fileName": "C1712_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움1.8/C1712_detail.jpg",
+    "fileName": "C1712.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움1.8/C1712.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "참다움1.8",
-    "extractedCode": "C1712_detail",
-    "normalizedFileName": "c1712detailjpg"
+    "extractedCode": "C1712",
+    "normalizedFileName": "c1712jpg"
   },
   {
-    "fileName": "C1909_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움1.8/C1909_detail.jpg",
+    "fileName": "C1909.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움1.8/C1909.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "참다움1.8",
-    "extractedCode": "C1909_detail",
-    "normalizedFileName": "c1909detailjpg"
+    "extractedCode": "C1909",
+    "normalizedFileName": "c1909jpg"
   },
   {
     "fileName": "C1152_installation.jpg",
@@ -34624,58 +34660,58 @@ export const imageManifest = [
     "normalizedFileName": "c1909installationjpg"
   },
   {
-    "fileName": "M2151_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움2.0/M2151_detail.jpg",
+    "fileName": "M2151.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움2.0/M2151.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "참다움2.0",
-    "extractedCode": "M2151_detail",
-    "normalizedFileName": "m2151detailjpg"
+    "extractedCode": "M2151",
+    "normalizedFileName": "m2151jpg"
   },
   {
-    "fileName": "M2152_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움2.0/M2152_detail.jpg",
+    "fileName": "M2152.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움2.0/M2152.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "참다움2.0",
-    "extractedCode": "M2152_detail",
-    "normalizedFileName": "m2152detailjpg"
+    "extractedCode": "M2152",
+    "normalizedFileName": "m2152jpg"
   },
   {
-    "fileName": "M2157_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움2.0/M2157_detail.jpg",
+    "fileName": "M2157.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움2.0/M2157.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "참다움2.0",
-    "extractedCode": "M2157_detail",
-    "normalizedFileName": "m2157detailjpg"
+    "extractedCode": "M2157",
+    "normalizedFileName": "m2157jpg"
   },
   {
-    "fileName": "M2801_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움2.0/M2801_detail.jpg",
+    "fileName": "M2801.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움2.0/M2801.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "참다움2.0",
-    "extractedCode": "M2801_detail",
-    "normalizedFileName": "m2801detailjpg"
+    "extractedCode": "M2801",
+    "normalizedFileName": "m2801jpg"
   },
   {
-    "fileName": "M2803_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움2.0/M2803_detail.jpg",
+    "fileName": "M2803.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움2.0/M2803.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "참다움2.0",
-    "extractedCode": "M2803_detail",
-    "normalizedFileName": "m2803detailjpg"
+    "extractedCode": "M2803",
+    "normalizedFileName": "m2803jpg"
   },
   {
-    "fileName": "M2902_detail.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움2.0/M2902_detail.jpg",
+    "fileName": "M2902.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/장판/현대/참다움2.0/M2902.jpg",
     "category": "장판",
     "brand": "현대",
     "series": "참다움2.0",
-    "extractedCode": "M2902_detail",
-    "normalizedFileName": "m2902detailjpg"
+    "extractedCode": "M2902",
+    "normalizedFileName": "m2902jpg"
   },
   {
     "fileName": "M2151_installation.jpg",

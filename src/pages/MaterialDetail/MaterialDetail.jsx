@@ -28,6 +28,7 @@ import { useAuth } from "../../contexts/AuthContext";
 import { getComputedBrand, normalizeProductDetails, formatFlooringProductName, formatProductTitle, getProductUnit, formatShapeOrPattern } from "../../utils/brandUtils";
 import { dongshinPolymer2026 } from "../../data/dongshinPolymer2026.js";
 import { normalizeImagePath, getImageSrc, getUniqueProductImages } from "../../utils/galleryNormalizer";
+import { fetchProductDetailBySlugOrId } from "../../utils/supabaseFetcher";
 
 let cachedMaterials = null;
 async function getLocalMaterialsData() {
@@ -632,9 +633,9 @@ export default function MaterialDetail() {
     });
   };
 
-  // 1. Fetch Product Detail (Safe, guaranteed loading finish under 10s)
+  // 1. Fetch Product Detail (Safe, guaranteed fast lookup with multi-strategy search)
   useEffect(() => {
-    let disposed = false;
+    let controller = new AbortController();
 
     async function fetchMaterialDetail() {
       setLoading(true);
@@ -644,229 +645,54 @@ export default function MaterialDetail() {
       console.log('[MaterialDetail] route param:', routeParam);
 
       if (!routeParam) {
-        if (!disposed) {
-          setError("상품 식별자가 없습니다.");
-          setLoading(false);
-        }
+        setError("상품 식별자가 없습니다.");
+        setLoading(false);
         return;
       }
 
-      let decodedParam = routeParam;
       try {
-        decodedParam = decodeURIComponent(routeParam || "");
-      } catch (e) {
-        console.warn("[MaterialDetail] decodeURIComponent error:", e);
-      }
+        const fetchedItem = await fetchProductDetailBySlugOrId(routeParam, controller.signal);
 
-      console.log('[MaterialDetail] decoded param:', decodedParam);
-      console.log('[MaterialDetail] query start');
+        if (controller.signal.aborted) return;
 
-      let timerId = null;
-
-      try {
-        const timeoutPromise = new Promise((_, reject) => {
-          timerId = setTimeout(() => {
-            reject(new Error('상품 조회 시간이 초과되었습니다.'));
-          }, 10000);
-        });
-
-        const queryPromise = (async () => {
-          let productData = null;
-          let queryError = null;
-
-          if (supabase) {
-            try {
-              let res;
-              if (/^\d+$/.test(decodedParam)) {
-                res = await supabase
-                  .from('products')
-                  .select(`
-                    *,
-                    categories ( id, name ),
-                    brands ( id, name )
-                  `)
-                  .eq('id', parseInt(decodedParam, 10))
-                  .maybeSingle();
-              } else {
-                res = await supabase
-                  .from('products')
-                  .select(`
-                    *,
-                    categories ( id, name ),
-                    brands ( id, name )
-                  `)
-                  .eq('slug', decodedParam)
-                  .maybeSingle();
-
-                if (!res.data && !res.error) {
-                  res = await supabase
-                    .from('products')
-                    .select(`
-                      *,
-                      categories ( id, name ),
-                      brands ( id, name )
-                    `)
-                    .eq('product_code', decodedParam)
-                    .maybeSingle();
-                }
-              }
-
-              if (res.error) {
-                console.error("[MaterialDetail] Supabase detail fetch failure:", res.error, { queryParam: decodedParam });
-                queryError = res.error;
-              } else {
-                productData = res.data;
-              }
-            } catch (spErr) {
-              console.error("[MaterialDetail] Supabase exception:", spErr);
-              queryError = spErr;
+        if (fetchedItem) {
+          // If Eagon product, apply Eagon specific specs if needed
+          let enrichedItem = { ...fetchedItem };
+          if (enrichedItem.brand === '이건') {
+            const eagonInfo = getEagonInfo(enrichedItem.line || enrichedItem.description || enrichedItem.name || "");
+            if (eagonInfo) {
+              enrichedItem.thickness = eagonInfo.thickness;
+              enrichedItem.specs = {
+                thickness: eagonInfo.thickness,
+                size: eagonInfo.size,
+                packing: eagonInfo.packing
+              };
+              enrichedItem.features = eagonInfo.features;
+              enrichedItem.recommendedSpaces = eagonInfo.spaces;
             }
           }
-
-          console.log('[MaterialDetail] query result:', { data: productData, error: queryError });
-
-          if (productData) {
-            return { productData, source: 'supabase' };
+          if (enrichedItem.code === 'TW 5120G' && !enrichedItem.pattern) {
+            enrichedItem.pattern = '오크';
           }
-
-          // Fallback to local materials data if Supabase returned no product or had an error
-          try {
-            const localMaterials = await getLocalMaterialsData();
-            const normParam = String(decodedParam).replace(/[^a-zA-Z0-9가-힣]/g, '').toLowerCase();
-            const localItem = localMaterials.find(m => {
-              if (!m) return false;
-              if (String(m.id) === String(decodedParam) || m.code === decodedParam || m.slug === decodedParam) return true;
-              if (m.code && m.code.toLowerCase() === decodedParam.toLowerCase()) return true;
-              const normCode = String(m.code || '').replace(/[^a-zA-Z0-9가-힣]/g, '').toLowerCase();
-              if (normCode && normParam.endsWith(normCode)) return true;
-              return false;
-            });
-            if (localItem) {
-              return { localItem, source: 'local', localMaterials };
-            }
-          } catch (locErr) {
-            console.warn("[MaterialDetail] Local materials fallback error:", locErr);
-          }
-
-          return { productData: null, source: 'none' };
-        })();
-
-        const result = await Promise.race([queryPromise, timeoutPromise]);
-
-        if (disposed) return;
-
-        if (result.source === 'supabase' && result.productData) {
-          const p = result.productData;
-          const itemCode = p.product_code || "";
-          const inferredBrand = 
-            p.brands?.name || 
-            p.brand || 
-            p.brandName || 
-            p.manufacturer || 
-            p.company || 
-            inferBrandFromCode(itemCode) || 
-            "브랜드 정보 없음";
-          const inferredCategory = 
-            p.categories?.name || 
-            p.category || 
-            p.type || 
-            "카테고리 정보 없음";
-
-          const dongshinMatch = (inferredBrand === '동신' && inferredCategory === '데코타일')
-            ? dongshinPolymer2026.find(d => d.code.toUpperCase() === itemCode.toUpperCase())
-            : null;
-
-          const eagonInfo = inferredBrand === '이건' ? getEagonInfo(p.description || p.name || "") : null;
-
-          setItem({
-            id: p.slug || String(p.id),
-            product_id: p.id,
-            code: itemCode,
-            name: dongshinMatch ? dongshinMatch.code : (p.name || ""),
-            brand: inferredBrand,
-            category: inferredCategory,
-            price: p.price || 0,
-            thickness: eagonInfo ? eagonInfo.thickness : (p.thickness || ""),
-            specs: {
-              thickness: eagonInfo ? eagonInfo.thickness : (p.thickness || ""),
-              size: eagonInfo ? eagonInfo.size : (p.size_text || ""),
-              packing: eagonInfo ? eagonInfo.packing : (p.unit || "")
-            },
-            thumbnail: p.image_url || null,
-            image: p.image_url || null,
-            description: p.description || "",
-            features: eagonInfo ? eagonInfo.features : (p.features || []),
-            recommendedSpaces: eagonInfo ? eagonInfo.spaces : (p.recommended_spaces || []),
-            line: dongshinMatch ? dongshinMatch.line : (p.description || ""),
-            collection: dongshinMatch ? dongshinMatch.collection : null,
-            series: dongshinMatch ? dongshinMatch.series : null,
-            catalog: dongshinMatch ? dongshinMatch.catalog : null,
-            pattern: p.pattern || (itemCode === 'TW 5120G' ? '오크' : undefined),
-            note: ""
-          });
-        } else if (result.source === 'local' && result.localItem) {
-          const localItem = result.localItem;
-          const itemCode = localItem.code || "";
-          const inferredBrand = 
-            localItem.brand || 
-            localItem.brandName || 
-            localItem.manufacturer || 
-            localItem.company || 
-            inferBrandFromCode(itemCode) || 
-            "브랜드 정보 없음";
-          const inferredCategory = 
-            localItem.category || 
-            localItem.type || 
-            "카테고리 정보 없음";
-
-          const dongshinMatch = (inferredBrand === '동신' && inferredCategory === '데코타일')
-            ? dongshinPolymer2026.find(d => d.code.toUpperCase() === itemCode.toUpperCase())
-            : null;
-
-          const eagonInfo = inferredBrand === '이건' ? getEagonInfo(localItem.line || localItem.description || "") : null;
-
-          setItem({
-            id: localItem.id || localItem.code,
-            code: itemCode,
-            name: dongshinMatch ? dongshinMatch.code : (localItem.name || ""),
-            brand: inferredBrand,
-            category: inferredCategory,
-            price: localItem.price || 0,
-            thickness: eagonInfo ? eagonInfo.thickness : (localItem.thickness || ""),
-            specs: {
-              thickness: eagonInfo ? eagonInfo.thickness : (localItem.thickness || ""),
-              size: eagonInfo ? eagonInfo.size : (localItem.specs?.size || ""),
-              packing: eagonInfo ? eagonInfo.packing : (localItem.specs?.packing || "")
-            },
-            thumbnail: localItem.thumbnail || null,
-            image: localItem.thumbnail || null,
-            images: localItem.images || [],
-            description: localItem.description || "",
-            features: eagonInfo ? eagonInfo.features : (localItem.features || []),
-            recommendedSpaces: eagonInfo ? eagonInfo.spaces : (localItem.recommendedSpaces || []),
-            line: dongshinMatch ? dongshinMatch.line : (localItem.line || ""),
-            collection: dongshinMatch ? dongshinMatch.collection : (localItem.collection || null),
-            series: dongshinMatch ? dongshinMatch.series : (localItem.series || null),
-            catalog: dongshinMatch ? dongshinMatch.catalog : (localItem.catalog || null),
-            note: localItem.note || "",
-            sizeOptions: localItem.sizeOptions || undefined
-          });
+          setItem(enrichedItem);
         } else {
           setItem(null);
+          setError("상품 정보를 불러오지 못했습니다. 요청하신 상품이 존재하지 않거나 삭제되었을 수 있습니다.");
         }
       } catch (err) {
-        console.error("[MaterialDetail] 상품 조회 실패:", err);
-        if (!disposed) {
-          setItem(null);
-          setError(
-            err instanceof Error
-              ? err.message
-              : '상품 정보를 불러오지 못했습니다.'
-          );
+        if (err.name === 'AbortError' || err.message === 'aborted') {
+          console.log('[MaterialDetail] fetch aborted');
+          return;
         }
+        console.error("[MaterialDetail] 상품 조회 실패:", err);
+        setItem(null);
+        setError(
+          err instanceof Error
+            ? err.message
+            : '상품 정보를 불러오지 못했습니다.'
+        );
       } finally {
-        if (timerId) clearTimeout(timerId);
-        if (!disposed) {
+        if (!controller.signal.aborted) {
           console.log('[MaterialDetail] loading finish');
           setLoading(false);
         }
@@ -876,7 +702,7 @@ export default function MaterialDetail() {
     fetchMaterialDetail();
 
     return () => {
-      disposed = true;
+      controller.abort();
     };
   }, [rawId, retryKey]);
 
