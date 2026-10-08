@@ -802,135 +802,123 @@ export function extractProductCodeFromParam(param) {
 }
 
 /**
- * Product details must load even when a Supabase request stalls.
- * Query exact identifiers concurrently, cap the server wait, then use the
- * local catalogue only for an exact and active product match.
- * Avoid substring matching: it can silently show another product's detail.
+ * Resolve canonical slug before looking up alternative identifiers. The old
+ * Promise.all waited for unrelated lookups before displaying a valid product.
  */
 export async function fetchProductDetailBySlugOrId(routeParam, signal = null) {
   if (!routeParam) return null;
+  let slug = String(routeParam).trim();
+  try { slug = decodeURIComponent(slug).trim(); }
+  catch (error) { console.warn('[product-detail] malformed URL:', error); }
+  if (!slug) return null;
 
-  let decodedParam = String(routeParam).trim();
-  try {
-    decodedParam = decodeURIComponent(decodedParam).trim();
-  } catch (e) {
-    console.warn('[fetchProductDetailBySlugOrId] Invalid URL encoding:', e);
-  }
-  if (!decodedParam) return null;
+  const abortError = () => Object.assign(new Error('aborted'), { name: 'AbortError' });
+  const checkAbort = () => { if (signal?.aborted) throw abortError(); };
+  checkAbort();
 
-  const throwIfAborted = () => {
-    if (signal?.aborted) {
-      const err = new Error('aborted');
-      err.name = 'AbortError';
-      throw err;
-    }
-  };
-  throwIfAborted();
-
-  // A generated route can end in e.g. "kcc_pro-30082p".
-  // The previous extractor mistook "pro30082p" for the product code.
-  const trailingCode = decodedParam.match(/(?:^|[-_])(\d{3,6}[a-zA-Z]{0,4})$/i)?.[1] || '';
-  const extractedCode = extractProductCodeFromParam(decodedParam);
-  const compactParam = decodedParam.replace(/[-_\s]/g, '');
-  const codeCandidates = [decodedParam, trailingCode, extractedCode, compactParam]
-    .filter((value, index, all) => value && all.findIndex(other => other.toLowerCase() === value.toLowerCase()) === index);
+  const normalizeCode = value => String(value || '').replace(/[^a-zA-Z0-9가-힣]/g, '').toLowerCase();
+  const trailingCode = slug.match(/(?:^|[-_])([A-Za-z]{0,4}[-_ ]?\d{3,7}[A-Za-z]{0,4}(?:-\d{1,3})?)$/)?.[1] || '';
+  const codeCandidates = [slug, trailingCode, extractProductCodeFromParam(slug)]
+    .filter(value => value && value.length <= 48 && /\d/.test(value))
+    .filter((value, index, all) => all.findIndex(other => normalizeCode(other) === normalizeCode(value)) === index);
+  const brandHint = ['kcc', 'lx', '현대', '동신', '재영', '우성', '녹수', '이건', '동화', '구정']
+    .find(brand => slug.toLowerCase().split(/[-_]/).includes(brand));
+  let failureReason = 'network';
 
   if (supabase) {
-    const requestController = new AbortController();
-    const forwardAbort = () => requestController.abort();
-    signal?.addEventListener('abort', forwardAbort, { once: true });
-    let timeoutId;
+    const controller = new AbortController();
+    const onAbort = () => controller.abort();
+    signal?.addEventListener('abort', onAbort, { once: true });
+    let networkTimer;
+
+    const query = async (field, value, insensitive = false) => {
+      checkAbort();
+      let builder = supabase.from('products').select('*, categories(id, name), brands(id, name)');
+      builder = insensitive
+        ? builder.ilike(field, value.replace(/[%_\\]/g, '\\$&'))
+        : builder.eq(field, value);
+      const { data, error } = await builder.limit(20).abortSignal(controller.signal);
+      checkAbort();
+      if (error) throw error;
+      return data || [];
+    };
+
+    const queryServer = async () => {
+      const bySlug = await query('slug', slug);
+      if (bySlug.length) {
+        const row = bySlug.find(p => p.slug === slug) || bySlug[0];
+        return row.is_active === false ? { status: 'inactive' } : { status: 'found', row };
+      }
+      if (/^\d+$/.test(slug)) {
+        const byId = await query('id', Number(slug));
+        if (byId.length) {
+          return byId[0].is_active === false ? { status: 'inactive' } : { status: 'found', row: byId[0] };
+        }
+      }
+      for (const candidate of codeCandidates) {
+        const matches = (await query('product_code', candidate, true))
+          .filter(row => normalizeCode(row.product_code) === normalizeCode(candidate));
+        const scoped = brandHint
+          ? matches.filter(row => String(row.brands?.name || '').toLowerCase().includes(brandHint))
+          : matches;
+        if (scoped.length === 1) {
+          return scoped[0].is_active === false ? { status: 'inactive' } : { status: 'found', row: scoped[0] };
+        }
+      }
+      return { status: 'notFound' };
+    };
 
     try {
-      const selectFields = '*, categories(id, name), brands(id, name)';
-      const strategies = [];
-      if (/^\d+$/.test(decodedParam)) {
-        strategies.push({ field: 'id', value: Number(decodedParam), exact: true });
-      }
-      strategies.push({ field: 'slug', value: decodedParam, exact: true });
-
-      // Exact (case-insensitive) code lookup, not "%code%" fuzzy matches.
-      for (const code of codeCandidates) {
-        if (code.length >= 3 && code.length <= 48) {
-          strategies.push({ field: 'product_code', value: code, exact: false });
-        }
-      }
-
-      // Each query is individually abortable; all strategies share one deadline.
-      const resultsPromise = Promise.all(strategies.map(async strategy => {
-        try {
-          let q = supabase.from('products').select(selectFields);
-          q = strategy.exact
-            ? q.eq(strategy.field, strategy.value)
-            : q.ilike(strategy.field, strategy.value);
-          const { data, error } = await q.limit(5).abortSignal(requestController.signal);
-          return { data, error };
-        } catch (error) {
-          return { data: null, error };
-        }
-      }));
-
-      const results = await Promise.race([
-        resultsPromise,
+      const outcome = await Promise.race([
+        queryServer(),
         new Promise(resolve => {
-          timeoutId = setTimeout(() => resolve(null), 3500);
+          networkTimer = setTimeout(() => {
+            controller.abort();
+            resolve({ status: 'timeout' });
+          }, 5000);
         })
       ]);
-      throwIfAborted();
-
-      if (!results) {
-        console.warn('[fetchProductDetailBySlugOrId] Supabase timed out; checking exact local match.');
-      } else {
-        for (const result of results) {
-          if (result.error) {
-            console.warn('[fetchProductDetailBySlugOrId] Query error:', result.error);
-            continue;
-          }
-          const rows = Array.isArray(result.data) ? result.data : [];
-          if (!rows.length) continue;
-
-          const preferred = rows.find(p => String(p.slug || '').toLowerCase() === decodedParam.toLowerCase())
-            || rows.find(p => {
-              const brand = String(p.brands?.name || '').toLowerCase();
-              return brand && decodedParam.toLowerCase().split(/[-_]/).includes(brand);
-            })
-            || rows[0];
-
-          // Never revive a disabled product via the local fallback catalogue.
-          if (preferred.is_active === false) return null;
-          return mapProductRow(preferred);
-        }
-      }
-    } catch (err) {
-      if (signal?.aborted) throwIfAborted();
-      console.warn('[fetchProductDetailBySlugOrId] Server lookup failed; checking local catalogue:', err);
+      checkAbort();
+      if (outcome?.status === 'found') return mapProductRow(outcome.row);
+      if (outcome?.status === 'inactive' || outcome?.status === 'notFound') return null;
+      failureReason = 'timeout';
+    } catch (error) {
+      checkAbort();
+      console.warn('[product-detail] server failed, trying local exact match:', error);
     } finally {
-      if (timeoutId) clearTimeout(timeoutId);
-      requestController.abort();
-      signal?.removeEventListener('abort', forwardAbort);
+      clearTimeout(networkTimer);
+      controller.abort();
+      signal?.removeEventListener('abort', onAbort);
     }
   }
 
-  throwIfAborted();
+  // The local catalogue is a large dynamic chunk. Bound this import as well.
+  checkAbort();
+  let localTimer;
   try {
-    const localList = await getLocalMaterials();
-    throwIfAborted();
-    const normalizedCode = value => String(value || '').replace(/[^a-zA-Z0-9가-힣]/g, '').toLowerCase();
-    const exactId = decodedParam.toLowerCase();
-    const isActive = m => m && m.active !== false && m.is_active !== false;
-    // Local identifiers are checked first, before searching by product code.
-    const exact = localList.find(m => isActive(m) &&
-      [m.id, m.slug, m.code].some(value => value != null && String(value).toLowerCase() === exactId));
-    const matched = exact || localList.find(m => {
-      if (!isActive(m) || !m.code) return false;
-      const materialCode = normalizedCode(m.code);
-      return materialCode.length >= 3 && codeCandidates.some(candidate =>
-        normalizedCode(candidate) === materialCode);
-    });
-    return matched ? normalizeProductDetails(matched) : null;
-  } catch (err) {
-    if (signal?.aborted) throwIfAborted();
-    console.warn('[fetchProductDetailBySlugOrId] Local exact-match lookup failed:', err);
-    return null;
+    const localResult = await Promise.race([
+      getLocalMaterials().then(items => ({ items })),
+      new Promise(resolve => {
+        localTimer = setTimeout(() => resolve({ timedOut: true }), 2500);
+      })
+    ]);
+    checkAbort();
+    if (localResult.timedOut) {
+      throw Object.assign(new Error('상품 조회 시간이 초과되었습니다. 다시 시도해 주세요.'), { name: 'TimeoutError' });
+    }
+    const items = Array.isArray(localResult.items) ? localResult.items : [];
+    const active = row => row && row.active !== false && row.is_active !== false;
+    const exact = items.find(row => active(row) && [row.slug, row.id, row.code]
+      .some(value => value != null && String(value).toLowerCase() === slug.toLowerCase()));
+    const byCode = exact ? null : items.find(row => active(row) && row.code
+      && codeCandidates.some(code => normalizeCode(code) === normalizeCode(row.code))
+      && (!brandHint || String(row.brand || '').toLowerCase().includes(brandHint)));
+    if (exact || byCode) return normalizeProductDetails(exact || byCode);
+
+    const err = new Error('상품 서버에 연결하지 못했습니다. 다시 시도해 주세요.');
+    err.name = failureReason === 'timeout' ? 'TimeoutError' : 'NetworkError';
+    throw err;
+  } finally {
+    clearTimeout(localTimer);
   }
 }
