@@ -862,7 +862,8 @@ function AdminOrderCard({ order, currentUser, onSaveSuccess, highlight }) {
               <span className={`badge-delivery-method-summary ${order.delivery_method || 'cargo'}`}>
                 {order.delivery_method === "free_shipping" ? "무료배송" :
                  order.delivery_method === "quick" ? "퀵 요청" :
-                 order.delivery_method === "pickup" ? "직접 수령" : "대신화물"}
+                 order.delivery_method === "pickup" ? "직접 수령" :
+                  order.delivery_method === "kyungdong" ? "경동화물" : "대신화물"}
               </span>
               <span className="badge-construction-status" style={{ backgroundColor: '#f1f5f9', color: '#0f172a', border: '1px solid #cbd5e1', fontSize: '11px', padding: '2px 8px', borderRadius: '4px', fontWeight: '700' }}>
                 시공: {constructionStatus}
