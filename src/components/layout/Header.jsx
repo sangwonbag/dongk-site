@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo, useRef } from "react";
 import { useNavigate, useLocation, Link } from "react-router-dom";
 import { Search, ShoppingCart, User, BookOpen, Layers } from "lucide-react";
-import { fetchHomeProducts, searchProductsServer } from "../../utils/supabaseFetcher";
+import { fetchHomeProducts, searchProductsServer, prefetchProductDetail } from "../../utils/supabaseFetcher";
 import { getSearchScore, RECOMMENDATIONS, normalizeSearchText, tokenizeSearchQuery, handleSearchRedirect } from "../../utils/searchUtils";
 import { getSupabaseImageUrl } from "../../utils/getSupabaseImageUrl";
 import { useEstimateCart } from "../../contexts/EstimateCartContext";
@@ -411,7 +411,7 @@ export default function Header() {
                 {searchResults.type === "products" && (
                   <div className="search-results-list">
                     {searchResults.items.map(item => (
-                      <div key={item.id} className="search-result-item" onClick={() => handleProductClick(item)}>
+                      <div key={item.id} className="search-result-item" onMouseEnter={() => prefetchProductDetail(item.id)} onTouchStart={() => prefetchProductDetail(item.id)} onClick={() => handleProductClick(item)}>
                         <div className="search-thumb">
                           <img src={getSupabaseImageUrl(item.thumbnail)} alt={item.name} />
                         </div>

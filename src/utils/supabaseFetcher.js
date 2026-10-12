@@ -826,6 +826,48 @@ export function extractProductCodeFromParam(param) {
   return decoded.replace(/[-_\s]/g, '');
 }
 
+// Only cache active products that have been confirmed by the server. List-card
+// data is not trusted here, so disabled/deleted products keep their safeguards.
+const detailCache = new Map();
+const detailPrefetchRequests = new Map();
+const DETAIL_CACHE_TTL_MS = 30_000;
+const DETAIL_CACHE_LIMIT = 40;
+
+function getCachedDetail(key) {
+  const entry = detailCache.get(key);
+  if (!entry) return null;
+  if (Date.now() - entry.savedAt > DETAIL_CACHE_TTL_MS) {
+    detailCache.delete(key);
+    return null;
+  }
+  return entry.product;
+}
+
+function cacheVerifiedDetail(key, product) {
+  if (!product || product.active === false) return;
+  detailCache.delete(key);
+  detailCache.set(key, { product, savedAt: Date.now() });
+  if (detailCache.size > DETAIL_CACHE_LIMIT) {
+    detailCache.delete(detailCache.keys().next().value);
+  }
+}
+
+// Mouse/touch prefetch means the card's navigation can share the *same*
+// lookup instead of launching a second request to Supabase.
+export function prefetchProductDetail(routeParam) {
+  const key = String(routeParam ?? '').trim();
+  if (!key) return Promise.resolve(null);
+  const cached = getCachedDetail(key);
+  if (cached) return Promise.resolve(cached);
+  if (detailPrefetchRequests.has(key)) return detailPrefetchRequests.get(key);
+
+  const pending = fetchProductDetailBySlugOrId(key)
+    .catch(() => null) // Hover prefetch must not cause unhandled rejections.
+    .finally(() => detailPrefetchRequests.delete(key));
+  detailPrefetchRequests.set(key, pending);
+  return pending;
+}
+
 /**
  * Resolve canonical slug before looking up alternative identifiers. The old
  * Promise.all waited for unrelated lookups before displaying a valid product.
@@ -840,6 +882,38 @@ export async function fetchProductDetailBySlugOrId(routeParam, signal = null) {
   const abortError = () => Object.assign(new Error('aborted'), { name: 'AbortError' });
   const checkAbort = () => { if (signal?.aborted) throw abortError(); };
   checkAbort();
+
+  const cached = getCachedDetail(slug);
+  if (cached) return cached;
+  // A route reached from a hovered card can reuse its in-flight lookup.
+  const pending = detailPrefetchRequests.get(slug);
+  if (pending) {
+    let prefetched = null;
+    if (signal) {
+      prefetched = await new Promise((resolve, reject) => {
+        const onAbort = () => {
+          signal.removeEventListener('abort', onAbort);
+          reject(abortError());
+        };
+        signal.addEventListener('abort', onAbort, { once: true });
+        pending.then(
+          product => {
+            signal.removeEventListener('abort', onAbort);
+            resolve(product);
+          },
+          error => {
+            signal.removeEventListener('abort', onAbort);
+            reject(error);
+          }
+        );
+      });
+    } else {
+      prefetched = await pending;
+    }
+    checkAbort();
+    if (prefetched) return prefetched;
+    // Failed prefetch must never be treated as a confirmed "not found".
+  }
 
   const normalizeCode = value => String(value || '').replace(/[^a-zA-Z0-9가-힣]/g, '').toLowerCase();
   const trailingCode = slug.match(/(?:^|[-_])([A-Za-z]{0,4}[-_ ]?\d{3,7}[A-Za-z]{0,4}(?:-\d{1,3})?)$/)?.[1] || '';
@@ -904,7 +978,11 @@ export async function fetchProductDetailBySlugOrId(routeParam, signal = null) {
         })
       ]);
       checkAbort();
-      if (outcome?.status === 'found') return mapProductRow(outcome.row);
+      if (outcome?.status === 'found') {
+        const product = mapProductRow(outcome.row);
+        cacheVerifiedDetail(slug, product);
+        return product;
+      }
       if (outcome?.status === 'inactive' || outcome?.status === 'notFound') return null;
       failureReason = 'timeout';
     } catch (error) {

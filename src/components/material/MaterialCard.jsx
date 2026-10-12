@@ -6,6 +6,7 @@ import { useAuth } from '../../contexts/AuthContext';
 import { getThumbnailImage } from '../../utils/galleryUtils';
 import { getMaterialImagePath } from '../../utils/materialImageResolver';
 import { getProductImageUrl, getProductImageCandidates } from '../../utils/productImageResolver';
+import { prefetchProductDetail } from '../../utils/supabaseFetcher';
 import { getComputedBrand, getNormalizedThickness, formatFlooringProductName, formatProductTitle, getProductUnit, formatShapeOrPattern, getKccLineup } from '../../utils/brandUtils';
 import { isDecoTile } from '../../utils/decotileUtils';
 import { getDongshinMajorCategory, getDongshinDetailedLineup } from '../../utils/dongshinUtils';
@@ -204,6 +205,7 @@ const MaterialCard = ({ material, priority = false }) => {
 
     const handleGoDetail = (e) => {
         if (e) e.stopPropagation();
+        prefetchProductDetail(material.id);
         sessionStorage.setItem("materialsScrollY", window.scrollY.toString());
         // Also save current path+query so "Back to list" in detail view works exactly
         sessionStorage.setItem("materialsLastUrl", window.location.pathname + window.location.search);
@@ -211,7 +213,12 @@ const MaterialCard = ({ material, priority = false }) => {
     };
 
     return (
-        <div className="material-card" onClick={(e) => handleGoDetail(e)}>
+        <div
+            className="material-card"
+            onClick={(e) => handleGoDetail(e)}
+            onMouseEnter={() => prefetchProductDetail(material.id)}
+            onTouchStart={() => prefetchProductDetail(material.id)}
+        >
             <Link to={`/materials/${material.id}`} className="card-thumb" onClick={handleGoDetail}>
                 <ProductImage
                     src={coverUrl}
