@@ -4,7 +4,8 @@ import MainLayout from "../../components/layout/MainLayout";
 import { getComputedBrand, getMaterialTypeAndLine, formatShapeOrPattern, JANGPAN_STANDARD_THICKNESSES, FLOORING_THICKNESS_BY_BRAND, normalizeBrandName, isSentenceDescription, getKccLineup, KCC_DECOTILE_LINEUPS, resolveKccLineupName, resolveKccLineupSlug, KCC_LINEUP_NAME_TO_SLUG } from "../../utils/brandUtils";
 import { DONGSHIN_MAJOR_CATEGORIES, DONGSHIN_DETAILED_LINEUPS_MAP, getDongshinMajorCategory, getDongshinDetailedLineup } from "../../utils/dongshinUtils";
 import MaterialCard from "../../components/material/MaterialCard";
-import { fetchFilteredProducts, withTimeout } from "../../utils/supabaseFetcher";
+import { fetchFilteredProducts, searchProductsServer, withTimeout } from "../../utils/supabaseFetcher";
+import { getSearchScore } from "../../utils/searchUtils";
 import { sortProducts, SORT_OPTIONS } from "../../utils/sortUtils";
 import { Skeleton, EmptyState, ErrorState } from "../../components/ui";
 import MobileFilterSheet from "../../components/material/MobileFilterSheet";
@@ -132,6 +133,8 @@ export default function Materials() {
   const [specFilter, setSpecFilter] = useState("");
 
   // Read state directly from URL query parameters (or default)
+  const globalSearch = (searchParams.get("search") || "").trim();
+  const isGlobalSearch = Boolean(globalSearch);
   const activeTab = searchParams.get("category") || "데코타일";
   
   // If there's an explicit category query, but no brand query: default to "all" (to show all brands).
@@ -165,6 +168,7 @@ export default function Materials() {
   // Active filter count
   const activeFilterCount = useMemo(() => {
     let count = 0;
+    if (isGlobalSearch) return 0;
     if (activeBrand !== "all" && activeBrand !== "KCC") count++;
     if (activeThickness !== "all") count++;
     if (activeShape !== "all") count++;
@@ -176,10 +180,10 @@ export default function Materials() {
     if (codeFilter.trim()) count++;
     if (specFilter.trim()) count++;
     return count;
-  }, [activeBrand, activeThickness, activeShape, activeLine, activeDongshinMajor, activeDongshinDetail, sortOption, nameFilter, codeFilter, specFilter]);
+  }, [isGlobalSearch, activeBrand, activeThickness, activeShape, activeLine, activeDongshinMajor, activeDongshinDetail, sortOption, nameFilter, codeFilter, specFilter]);
 
   const handleResetFilters = useCallback(() => {
-    updateParams({ brand: "all", type: null, line: null, detail: null, shape: null, thickness: null, sort: null });
+    updateParams({ search: null, brand: "all", type: null, line: null, detail: null, shape: null, thickness: null, sort: null });
     setNameFilter("");
     setCodeFilter("");
     setSpecFilter("");
@@ -234,7 +238,9 @@ export default function Materials() {
       setError(null);
       
       try {
-        const res = await fetchFilteredProducts({
+        const res = isGlobalSearch
+          ? await searchProductsServer(globalSearch, controller.signal)
+          : await fetchFilteredProducts({
           category: activeTab,
           brand: activeBrand,
           thickness: activeThickness,
@@ -279,7 +285,7 @@ export default function Materials() {
     return () => {
       controller.abort();
     };
-  }, [activeTab, activeBrand, activeThickness]);
+  }, [activeTab, activeBrand, activeThickness, globalSearch, isGlobalSearch]);
 
   // Load more handler
   const handleLoadMore = useCallback(() => {
@@ -289,7 +295,7 @@ export default function Materials() {
   // Reset visibleCount to 30 whenever any filter, search input, or sort option changes
   useEffect(() => {
     setVisibleCount(PRODUCTS_PER_LOAD);
-  }, [activeTab, activeBrand, activeMaterialType, activeLine, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, nameFilter, codeFilter, specFilter, sortOption]);
+  }, [globalSearch, activeTab, activeBrand, activeMaterialType, activeLine, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, nameFilter, codeFilter, specFilter, sortOption]);
 
   // Normalize legacy line parameters (e.g., line=강마루_듀오텍스쳐_DUO TEXTURE)
   useEffect(() => {
@@ -304,6 +310,8 @@ export default function Materials() {
   const updateParams = (updates) => {
     setSearchParams(prev => {
       const newParams = new URLSearchParams(prev);
+      // Selecting a category/brand/lineup switches from global search to browsing.
+      if (updates.search === undefined && Object.keys(updates).some(key => key !== "sort") && prev.has("search")) newParams.delete("search");
       Object.entries(updates).forEach(([key, val]) => {
         if (val === null || val === "all") {
           newParams.delete(key);
@@ -557,7 +565,12 @@ export default function Materials() {
   // Filter items
   const filtered = useMemo(() => {
     if (!materialsList || materialsList.length === 0) return [];
-    
+    if (isGlobalSearch) {
+      return materialsList
+        .filter(m => m && getSearchScore(m, globalSearch) > 0)
+        .sort((a, b) => getSearchScore(b, globalSearch) - getSearchScore(a, globalSearch));
+    }
+
     let result = materialsList.filter((m) => {
       if (!m) return false;
 
@@ -659,7 +672,7 @@ export default function Materials() {
     }
 
     return result;
-  }, [materialsList, activeTab, activeBrand, activeMaterialType, activeLine, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, visibleLines, nameFilter, codeFilter, specFilter]);
+  }, [materialsList, isGlobalSearch, globalSearch, activeTab, activeBrand, activeMaterialType, activeLine, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, visibleLines, nameFilter, codeFilter, specFilter]);
 
   // Apply sorting pipeline on filtered products (Immutably using useMemo)
   const sortedProducts = useMemo(() => {
@@ -671,9 +684,9 @@ export default function Materials() {
   }, [activeLine, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, activeMaterialType, nameFilter, codeFilter, specFilter]);
 
   const displayTotalCount = useMemo(() => {
-    if (isFilteredSearch) return sortedProducts.length;
+    if (isGlobalSearch || isFilteredSearch) return sortedProducts.length;
     return totalCount || sortedProducts.length;
-  }, [isFilteredSearch, sortedProducts.length, totalCount]);
+  }, [isGlobalSearch, isFilteredSearch, sortedProducts.length, totalCount]);
 
   const visibleProducts = useMemo(() => {
     return sortedProducts.slice(0, visibleCount);
@@ -689,13 +702,13 @@ export default function Materials() {
     setError(null);
     setLoading(true);
 
-    fetchFilteredProducts({
+    (isGlobalSearch ? searchProductsServer(globalSearch) : fetchFilteredProducts({
       category: activeTab,
       brand: activeBrand,
       thickness: activeThickness,
       page: 0,
       pageSize: visibleCount
-    })
+    }))
       .then(res => {
         if (requestId === fetchRequestIdRef.current) {
           const items = Array.isArray(res) ? res : (res.items || []);
@@ -717,7 +730,7 @@ export default function Materials() {
           setLoading(false);
         }
       });
-  }, [activeTab, activeBrand, activeThickness]);
+  }, [activeTab, activeBrand, activeThickness, globalSearch, isGlobalSearch]);
 
   const seoTitle = activeTab 
     ? `${activeTab}${activeBrand !== 'all' ? ` (${activeBrand})` : ''} 자재조회 | 동경바닥재`
@@ -753,8 +766,17 @@ export default function Materials() {
       <div className="materials-container container">
         <main className="materials-content full">
           
+          {isGlobalSearch && (
+            <div className="global-search-summary" style={{ padding: "16px", marginBottom: "12px", border: "1px solid #e5e7eb", borderRadius: "8px" }}>
+              <strong>전체 상품 검색: "{globalSearch}"</strong>
+              <p style={{ margin: "6px 0", fontSize: "13px", color: "#666" }}>
+                기존 브랜드·라인업·형태 필터와 관계없이 모든 카테고리에서 검색합니다.
+              </p>
+              <button type="button" onClick={() => updateParams({ search: null, category: "데코타일", brand: "KCC", line: null, detail: null, type: null, shape: null, thickness: null })}>검색 종료 · 자재찾기로 돌아가기</button>
+            </div>
+          )}
           {/* ✅ Section A. Sticky Area (자재찾기 제목 ~ 카테고리/브랜드/형태분류 - PC Sticky) */}
-          <section className="materials-sticky-area">
+          {!isGlobalSearch && <section className="materials-sticky-area">
             {/* 1. Title & Description Heading Block */}
             <div className="materials-heading">
               <h1 className="materials-title">자재찾기</h1>
@@ -907,12 +929,12 @@ export default function Materials() {
                 </div>
               )}
             </div>
-          </section>
+          </section>}
 
           {/* ✅ Section B. Scroll Area (세부 검색창 ~ 라인업 ~ 상품 목록 - Normal Scroll) */}
           <section className="materials-scroll-area">
             {/* Detailed search inputs */}
-            <div className="materials-detail-search">
+            {!isGlobalSearch && <div className="materials-detail-search">
               <div className="search-filters-grid">
                 <div className="search-field">
                   <label className="field-label">제품명 검색</label>
@@ -945,10 +967,10 @@ export default function Materials() {
                   />
                 </div>
               </div>
-            </div>
+            </div>}
 
-            {/* Dongshin 2-Tier Lineup Filter */}
-            {!loading && activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마") && (
+            {/* Dongshin 2-Tier Lineup Filter */
+            {!isGlobalSearch && !loading && activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마") && (
               <>
                 <div className="materials-lineup-filter dongshin-major-group">
                   <span style={{ fontSize: '13px', fontWeight: '600', color: '#6b7280', alignSelf: 'center', marginRight: '6px' }}>대분류:</span>
@@ -985,7 +1007,7 @@ export default function Materials() {
             )}
 
             {/* Lineup Filter (Non-Dongshin) */}
-            {!loading && !(activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마")) && visibleLines.length > 1 && (
+            {!isGlobalSearch && !loading && !(activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마")) && visibleLines.length > 1 && (
               <div className="materials-lineup-filter">
                 {visibleLines.map((lineName) => (
                   <button
@@ -1002,7 +1024,7 @@ export default function Materials() {
             )}
 
             {/* Shape Filter (For KCC Decotiles: 전체 / 우드 / 450각 / 600각) */}
-            {!loading && activeTab === "데코타일" && activeBrand === "KCC" && visibleShapes.length > 1 && (
+            {!isGlobalSearch && !loading && activeTab === "데코타일" && activeBrand === "KCC" && visibleShapes.length > 1 && (
               <div className="materials-lineup-filter shape-filter-group" style={{ marginTop: '10px' }}>
                 <span style={{ fontSize: '13px', fontWeight: '600', color: '#6b7280', alignSelf: 'center', marginRight: '6px' }}>형태:</span>
                 {visibleShapes.map((shapeName) => (
@@ -1099,7 +1121,7 @@ export default function Materials() {
                 <EmptyState
                   title="검색 결과가 없습니다"
                   description={
-                    (nameFilter || codeFilter || specFilter)
+                    (isGlobalSearch || nameFilter || codeFilter || specFilter)
                       ? "검색 조건에 부합하는 자재가 없거나 현재 준비 중입니다." 
                       : (activeTab === "장판" && (activeBrand !== "all" || activeThickness !== "all"))
                         ? "선택한 브랜드와 두께에 해당하는 상품이 없습니다."
