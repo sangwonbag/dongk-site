@@ -27,7 +27,11 @@ export default function SampleBookViewer({ book, onClose }) {
   if (!book) return null;
 
   const isPdfMode = Boolean(book.pdf && !book.openInNewTab);
-  const pdfUrl = isPdfMode ? safeEncodeURI(book.pdf) : "";
+  // Generated /samplebook-assets/ links already encode each filename segment.
+  // Preserve %23 and %3F in filenames instead of treating them as URL fragments.
+  const pdfUrl = isPdfMode
+    ? (book.pdf.startsWith("/samplebook-assets/") ? book.pdf : safeEncodeURI(book.pdf))
+    : "";
   const images = book.pages || [];
   const hasImages = images.length > 0;
 
