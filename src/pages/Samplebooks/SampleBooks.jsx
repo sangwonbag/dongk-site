@@ -4,6 +4,7 @@ import MainLayout from "../../components/layout/MainLayout";
 import { sampleBooks } from "../../data/samplebooks.db";
 import { BRANDS_BY_CATEGORY } from "../../data/categoryMap";
 import { getComputedBrand } from "../../utils/brandUtils";
+import { getSampleBookTarget, openCatalogWindow } from "../../utils/samplebookResolver";
 import SampleBookViewer from "../../components/samplebook/SampleBookViewer";
 import SampleBookCard from "../../components/samplebook/SampleBookCard";
 import { EmptyState } from "../../components/ui";
@@ -44,7 +45,7 @@ export default function SampleBooks() {
     }
   }, [query]);
 
-  // 카테고리 이동 시 브랜드/검색 필터 초기화
+  // 카테고리 이동 시 브랜드/재질 필터 초기화
   useEffect(() => {
     setSelectedBrand("all");
     setSelectedMaterialType("all");
@@ -55,7 +56,7 @@ export default function SampleBooks() {
     setSelectedMaterialType("all");
   }, [selectedBrand]);
 
-  /** ✅ 해당 카테고리에 속한 브랜드 목록 (자재 페이지와 동일하게) */
+  /** ✅ 해당 카테고리에 속한 브랜드 목록 */
   const brands = useMemo(() => {
     if (activeTab === "recommended") {
       return ["all", "LX", "KCC", "동신", "동화", "이건", "구정", "유성", "녹수", "현대", "스완"];
@@ -64,32 +65,87 @@ export default function SampleBooks() {
     return ["all", ...categoryBrands];
   }, [activeTab]);
 
-  /** ✅ 최종 필터링: 카테고리 + 브랜드 + 재질 + 검색어 */
+  /** ✅ 최종 필터링: 카테고리 + 브랜드 + 재질 + 스마트 다중 토큰 검색 */
   const filtered = useMemo(() => {
     const queryTerm = searchQuery.trim().toLowerCase();
+    const queryTokens = queryTerm.split(/\s+/).filter(Boolean);
+
+    // 검색어 매칭 함수 (다중 토큰 및 두께/특수문자 유연 매칭)
+    const matchesSearch = (sb) => {
+      if (queryTokens.length === 0) return true;
+      const sbComputedBrand = getComputedBrand(sb);
+      const text = [
+        sb.title,
+        sb.brand,
+        sbComputedBrand,
+        sb.category,
+        sb.materialType,
+        sb.description,
+        sb.id,
+        sb.catalogProvider
+      ].filter(Boolean).join(" ").toLowerCase();
+
+      // 특수문자/괄호 제거 정규화 텍스트 (예: (2.0T) -> 2 0t)
+      const textClean = text.replace(/[()\-_.,/]/g, " ");
+
+      return queryTokens.every(token => {
+        const tokenClean = token.replace(/[()\-_.,/]/g, " ").trim();
+        return text.includes(token) || (tokenClean && textClean.includes(tokenClean));
+      });
+    };
 
     return sampleBooks.filter(sb => {
-      let categoryOk = false;
       let sbComputedBrand = getComputedBrand(sb);
 
-      if (activeTab === "recommended") {
-        categoryOk = sb.isRecommended || ["LX", "KCC", "동신", "유성", "이건", "구정", "동화"].includes(sbComputedBrand) || ["LX", "KCC", "동신", "유성", "이건", "구정", "동화"].includes(sb.brand);
+      // 1. 검색어 매칭 검사
+      const searchOk = matchesSearch(sb);
+      if (!searchOk) return false;
+
+      // 2. 카테고리 필터 검사
+      let categoryOk = false;
+      if (queryTerm) {
+        if (activeTab === "recommended") {
+          // 추천 탭에서 검색 시 전 카테고리 검색 지원
+          categoryOk = true;
+        } else {
+          // 특정 탭에서 검색 시 해당 탭 내 결과가 있으면 탭 우선, 없으면 전 카테고리 결과 지원
+          const hasMatchesInActiveTab = sampleBooks.some(item => 
+            item.category === activeTab && matchesSearch(item)
+          );
+          categoryOk = hasMatchesInActiveTab ? sb.category === activeTab : true;
+        }
       } else {
-        categoryOk = sb.category === activeTab;
+        if (activeTab === "recommended") {
+          categoryOk = sb.isRecommended || ["LX", "KCC", "동신", "유성", "이건", "구정", "동화"].includes(sbComputedBrand) || ["LX", "KCC", "동신", "유성", "이건", "구정", "동화"].includes(sb.brand);
+        } else {
+          categoryOk = sb.category === activeTab;
+        }
       }
 
+      // 3. 브랜드 필터 검사
       let brandOk = false;
       if (selectedBrand === "all") {
         brandOk = true;
       } else {
-        brandOk =
+        const brandMatches = (
           sbComputedBrand === selectedBrand ||
           sb.brand === selectedBrand ||
-          (selectedBrand === "LX하우시스" && (sb.brand === "LX" || sb.brand === "LX하우시스"));
+          (selectedBrand === "LX하우시스" && (sb.brand === "LX" || sb.brand === "LX하우시스"))
+        );
+        if (queryTerm) {
+          // 검색어가 있는 경우 선택된 브랜드 내 일치 항목 유무 확인
+          const hasMatchesInBrand = sampleBooks.some(item => 
+            (getComputedBrand(item) === selectedBrand || item.brand === selectedBrand) && matchesSearch(item)
+          );
+          brandOk = hasMatchesInBrand ? brandMatches : true;
+        } else {
+          brandOk = brandMatches;
+        }
       }
 
+      // 4. 벽지 재질 필터 검사
       let materialOk = false;
-      if (activeTab === "벽지") {
+      if (activeTab === "벽지" && !queryTerm) {
         if (selectedMaterialType === "all") {
           materialOk = true;
         } else {
@@ -99,22 +155,15 @@ export default function SampleBooks() {
         materialOk = true;
       }
 
-      let searchOk = true;
-      if (queryTerm) {
-        const titleMatch = (sb.title || "").toLowerCase().includes(queryTerm);
-        const brandMatch = (sb.brand || "").toLowerCase().includes(queryTerm) || sbComputedBrand.toLowerCase().includes(queryTerm);
-        const catMatch = (sb.category || "").toLowerCase().includes(queryTerm);
-        const descMatch = (sb.description || "").toLowerCase().includes(queryTerm);
-        searchOk = titleMatch || brandMatch || catMatch || descMatch;
-      }
-
-      return categoryOk && brandOk && materialOk && searchOk;
+      return categoryOk && brandOk && materialOk;
     });
   }, [activeTab, selectedBrand, selectedMaterialType, searchQuery]);
 
+  /** ✅ 샘플북 클릭 시: 공식 카탈로그 검증 제품은 직접 새 창 열기, 미확인은 알림 모달 */
   const handleBookClick = (book) => {
-    if (book.openInNewTab) {
-      window.open(book.pdf || "#", "_blank", "noopener,noreferrer");
+    const target = getSampleBookTarget(book);
+    if (target.isVerified && target.url) {
+      openCatalogWindow(target.url);
     } else {
       setSelectedBook(book);
     }
@@ -124,7 +173,7 @@ export default function SampleBooks() {
     <MainLayout className="samplebooks-page">
       <SEO 
         title="샘플북 조회 | 동경바닥재 - 브랜드별 E-카탈로그 및 Sample Book"
-        description="KCC, LX, 동신, 재영, 이건, 구정 등 바닥재 대표 제조사의 E-카탈로그 및 샘플북을 고해상도로 편리하게 조회하세요."
+        description="KCC, LX, 현대L&C, 동신, 이건, 구정 등 바닥재 대표 제조사의 공식 E-카탈로그 및 샘플북을 고해상도로 편리하게 조회하세요."
         canonical="https://dkfloor.co.kr/samplebooks"
       />
       <div className="samplebooks-container">
@@ -136,13 +185,13 @@ export default function SampleBooks() {
                 <span className="sb-search-icon">🔍</span>
                 <input
                   type="text"
-                  placeholder="샘플북 명칭, 브랜드 (예: 뉴청맥, 디아망, 엑스컴포트, 마뷸러스) 검색"
+                  placeholder="샘플북 명칭, 브랜드 (예: 뉴청맥, 보타닉, KCC 센스타일, 신한 벽지) 검색"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   className="sb-search-input"
                 />
                 {searchQuery && (
-                  <button className="sb-search-clear" onClick={() => setSearchQuery("")}>
+                  <button className="sb-search-clear" onClick={() => setSearchQuery("")} aria-label="검색어 지우기">
                     ✕
                   </button>
                 )}
@@ -176,7 +225,7 @@ export default function SampleBooks() {
             </div>
 
             {/* ✅ 벽지인 경우 재질 필터 추가 */}
-            {activeTab === "벽지" && (
+            {activeTab === "벽지" && !searchQuery && (
               <div className="brand-filter-row material-type-row">
                 {(selectedBrand === "all" ? ["all"] : selectedBrand === "개나리" ? ["all", "프리미엄", "합지(소폭)", "합지(장폭)", "실크", "방염"] : selectedBrand === "LX" ? ["all", "디아망", "합지", "실크", "방염"] : selectedBrand === "서울" ? ["all", "프리미엄", "합지", "실크", "방염"] : ["all", "합지", "실크", "방염"]).map((t) => (
                   <button
@@ -217,7 +266,7 @@ export default function SampleBooks() {
         </main>
       </div>
 
-      {/* Viewer Modal */}
+      {/* Viewer Modal (미확인 샘플북 안내 또는 딥링크 조회용) */}
       {selectedBook && (
         <SampleBookViewer book={selectedBook} onClose={() => setSelectedBook(null)} />
       )}

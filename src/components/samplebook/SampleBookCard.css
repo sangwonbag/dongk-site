@@ -82,8 +82,22 @@
     left: 10px;
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 5px;
     z-index: 2;
+}
+
+.sb-badge-official {
+    background: linear-gradient(135deg, #b8860b 0%, #d4af37 50%, #996515 100%);
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+    letter-spacing: 0.3px;
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
 }
 
 .sb-badge-rec {
@@ -143,17 +157,59 @@
     padding-top: 10px;
     border-top: 1px dashed #e2e8f0;
     display: flex;
+    align-items: center;
     justify-content: flex-end;
 }
 
 .sb-open-btn {
     font-size: 12px;
     font-weight: 600;
-    color: #2563eb;
-    transition: color 0.15s ease;
+    transition: all 0.15s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
 }
 
-.sb-card:hover .sb-open-btn {
-    color: #1d4ed8;
-    text-decoration: underline;
+.sb-open-btn.verified {
+    color: #1e40af;
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.sb-card:hover .sb-open-btn.verified {
+    background: #2563eb;
+    color: #ffffff;
+    border-color: #2563eb;
+}
+
+.sb-open-btn.remote_pdf {
+    color: #047857;
+    background: #ecfdf5;
+    border: 1px solid #a7f3d0;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.sb-card:hover .sb-open-btn.remote_pdf {
+    background: #059669;
+    color: #ffffff;
+    border-color: #059669;
+}
+
+.sb-open-btn.unverified {
+    color: #64748b;
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 11.5px;
+    font-weight: 600;
+}
+
+.sb-card.is-unverified:hover {
+    border-color: #cbd5e1;
 }

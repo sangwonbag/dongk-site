@@ -1,4 +1,5 @@
-import { getAutoMatchedCover, safeEncodeURI } from '../../utils/samplebookResolver';
+import React from 'react';
+import { getAutoMatchedCover, safeEncodeURI, getSampleBookTarget } from '../../utils/samplebookResolver';
 import { getComputedBrand } from '../../utils/brandUtils';
 import './SampleBookCard.css';
 
@@ -7,9 +8,21 @@ const SampleBookCard = ({ book, onClick }) => {
     const rawCover = book.cover || autoCover;
     const coverSrc = rawCover ? safeEncodeURI(rawCover) : null;
     const brandName = getComputedBrand(book);
+    const target = getSampleBookTarget(book);
 
     return (
-        <div className="sb-card" onClick={() => onClick(book)}>
+        <div 
+            className={`sb-card ${target.isVerified ? 'is-verified' : 'is-unverified'}`} 
+            onClick={() => onClick(book)}
+            role="button"
+            tabIndex={0}
+            onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    onClick(book);
+                }
+            }}
+        >
             <div className="sb-card-cover">
                 {coverSrc ? (
                     <img
@@ -36,6 +49,7 @@ const SampleBookCard = ({ book, onClick }) => {
                 </div>
 
                 <div className="sb-badges">
+                    {target.isVerified && <div className="sb-badge-official">공식 E-카탈로그</div>}
                     {book.isRecommended && <div className="sb-badge-rec">추천</div>}
                     {book.isNew && <div className="sb-badge-new">NEW</div>}
                 </div>
@@ -45,8 +59,8 @@ const SampleBookCard = ({ book, onClick }) => {
                 <div className="sb-card-title">{book.title}</div>
                 <div className="sb-card-desc">{book.description}</div>
                 <div className="sb-card-footer">
-                    <span className="sb-open-btn">
-                        {book.pdf ? "PDF 열기 ↗" : "미리보기 ↗"}
+                    <span className={`sb-open-btn ${target.status}`}>
+                        {target.buttonText}
                     </span>
                 </div>
             </div>
@@ -55,4 +69,3 @@ const SampleBookCard = ({ book, onClick }) => {
 };
 
 export default SampleBookCard;
-

@@ -1,11 +1,10 @@
-import React, { useState, useEffect } from "react";
-import { PdfUnavailable } from "../ui";
-import { safeEncodeURI } from "../../utils/samplebookResolver";
+import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
+import { safeEncodeURI, getSampleBookTarget, openCatalogWindow, getAutoMatchedCover } from "../../utils/samplebookResolver";
+import { getComputedBrand } from "../../utils/brandUtils";
 import "./SampleBookViewer.css";
 
 export default function SampleBookViewer({ book, onClose }) {
-  const [pageIndex, setPageIndex] = useState(0);
-
   // Body scroll lock & ESC key binding
   useEffect(() => {
     const origStyle = document.body.style.overflow;
@@ -26,107 +25,113 @@ export default function SampleBookViewer({ book, onClose }) {
 
   if (!book) return null;
 
-  const isPdfMode = Boolean(book.pdf && !book.openInNewTab);
-  const pdfUrl = isPdfMode ? safeEncodeURI(book.pdf) : "";
-  const images = book.pages || [];
-  const hasImages = images.length > 0;
+  const target = getSampleBookTarget(book);
+  const brandName = getComputedBrand(book);
+  const autoCover = getAutoMatchedCover(book);
+  const coverSrc = book.cover || autoCover ? safeEncodeURI(book.cover || autoCover) : null;
 
-  const handleNext = () => {
-    setPageIndex((prev) => (prev + 1) % images.length);
-  };
-
-  const handlePrev = () => {
-    setPageIndex((prev) => (prev - 1 + images.length) % images.length);
-  };
-
-  const handleOpenNewTab = () => {
-    if (book.pdf) {
-      window.open(pdfUrl, "_blank", "noopener,noreferrer");
-    }
-  };
-
-  const handleDownload = () => {
-    if (book.pdf) {
-      const a = document.createElement("a");
-      a.href = pdfUrl;
-      a.download = `${book.title}.pdf`;
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
+  const handleOpenCatalog = () => {
+    if (target.url) {
+      openCatalogWindow(target.url);
     }
   };
 
   return (
-    <div className="sb-viewer-overlay" onClick={onClose}>
-      <div className="sb-viewer-content" onClick={(e) => e.stopPropagation()}>
-        {/* Top Header Bar */}
+    <div className="sb-viewer-overlay" onClick={onClose} role="dialog" aria-modal="true">
+      <div className="sb-viewer-modal" onClick={(e) => e.stopPropagation()}>
+        {/* Header Bar */}
         <div className="sb-viewer-header">
           <div className="sb-viewer-header-info">
-            <span className="sb-viewer-brand">{book.brand}</span>
+            <span className="sb-viewer-brand">{brandName}</span>
             <h3 className="sb-viewer-title">{book.title}</h3>
           </div>
-          <div className="sb-viewer-header-actions">
-            {isPdfMode && (
-              <>
-                <button className="sb-action-btn" onClick={handleOpenNewTab} title="새 창에서 열기">
-                  <span>새 창 열기</span> ↗
-                </button>
-                <button className="sb-action-btn secondary" onClick={handleDownload} title="PDF 다운로드">
-                  <span>다운로드</span> 📥
-                </button>
-              </>
-            )}
-            <button className="sb-close-btn" onClick={onClose} aria-label="닫기">
-              ✕
-            </button>
-          </div>
+          <button className="sb-close-btn" onClick={onClose} aria-label="닫기">
+            ✕
+          </button>
         </div>
 
-        {/* Viewer Body */}
-        <div className="sb-viewer-body">
-          {isPdfMode ? (
-            <div className="sb-pdf-container">
-              <iframe
-                src={`${pdfUrl}#view=FitH`}
-                title={book.title}
-                width="100%"
-                height="100%"
-                style={{ border: "none", display: "block" }}
-              />
-            </div>
-          ) : hasImages ? (
-            <div className="sb-slider-container">
-              <div className="sb-slide">
-                <img src={safeEncodeURI(images[pageIndex])} alt={`${pageIndex + 1}페이지`} />
+        {/* Modal Body */}
+        <div className="sb-viewer-modal-body">
+          <div className="sb-viewer-card-preview">
+            {coverSrc ? (
+              <img src={coverSrc} alt={book.title} className="sb-viewer-cover-img" />
+            ) : (
+              <div className="sb-viewer-cover-placeholder">
+                <span className="sb-viewer-placeholder-brand">{brandName}</span>
+                <span className="sb-viewer-placeholder-title">{book.title}</span>
               </div>
+            )}
+          </div>
 
-              {images.length > 1 && (
-                <>
-                  <button className="sb-nav-btn prev" onClick={handlePrev}>‹</button>
-                  <button className="sb-nav-btn next" onClick={handleNext}>›</button>
-                  <div className="sb-indicators">
-                    {images.map((_, i) => (
-                      <span
-                        key={i}
-                        className={`sb-dot ${i === pageIndex ? "active" : ""}`}
-                        onClick={() => setPageIndex(i)}
-                      />
-                    ))}
-                  </div>
-                </>
+          <div className="sb-viewer-details">
+            <div className="sb-viewer-meta">
+              <span className="sb-viewer-category-tag">{book.category}</span>
+              {book.materialType && (
+                <span className="sb-viewer-material-tag">{book.materialType}</span>
+              )}
+              {target.isVerified ? (
+                <span className="sb-viewer-status-badge verified">공식 E-카탈로그 인증</span>
+              ) : (
+                <span className="sb-viewer-status-badge unverified">공식 카탈로그 확인 중</span>
               )}
             </div>
-          ) : (
-            <div className="sb-empty-state">
-              <PdfUnavailable 
-                title="미리보기 준비 중" 
-                message="해당 샘플북의 온라인 카탈로그/미리보기가 준비되지 않았습니다. 동경바닥재 고객센터로 문의주시면 실물 샘플북 상담을 도와드립니다." 
-              />
-            </div>
-          )}
+
+            <h2 className="sb-viewer-product-title">{book.title}</h2>
+            <p className="sb-viewer-product-desc">
+              {book.description || `${brandName} ${book.category} 샘플북`}
+            </p>
+
+            {target.isVerified ? (
+              <div className="sb-viewer-notice-box verified">
+                <div className="sb-notice-header">
+                  <span className="sb-notice-icon">✓</span>
+                  <strong>제조사 공식 온라인 E-카탈로그</strong>
+                </div>
+                <p className="sb-notice-desc">
+                  제조사({target.provider})에서 직접 제공하는 공식 웹 뷰어로 이동하여 고해상도 샘플북과 제품 스펙을 열람하실 수 있습니다.
+                </p>
+                <div className="sb-viewer-actions">
+                  <button className="sb-modal-btn primary" onClick={handleOpenCatalog}>
+                    공식 카탈로그 새 창 열기 ↗
+                  </button>
+                  <Link
+                    to={`/materials?search=${encodeURIComponent(book.title)}`}
+                    className="sb-modal-btn secondary"
+                    onClick={onClose}
+                  >
+                    관련 자재 찾기
+                  </Link>
+                </div>
+              </div>
+            ) : (
+              <div className="sb-viewer-notice-box unverified">
+                <div className="sb-notice-header">
+                  <span className="sb-notice-icon info">ℹ</span>
+                  <strong>공식 카탈로그 확인 중 안내</strong>
+                </div>
+                <p className="sb-notice-desc">
+                  본 제품은 제조사에서 별도 온라인 웹 뷰어를 제공하지 않거나 최신 개정판 카탈로그를 준비 중인 품목입니다.
+                </p>
+                <p className="sb-notice-sub">
+                  실물 샘플북 확인이나 자재 스펙 상담이 필요하신 고객님께서는 동경바닥재 고객센터로 문의해 주시기 바랍니다.
+                </p>
+                <div className="sb-viewer-actions">
+                  <a href="tel:010-3392-7440" className="sb-modal-btn gold">
+                    📞 고객센터 문의 (010-3392-7440)
+                  </a>
+                  <Link
+                    to={`/materials?search=${encodeURIComponent(book.title)}`}
+                    className="sb-modal-btn secondary"
+                    onClick={onClose}
+                  >
+                    관련 자재 찾기
+                  </Link>
+                </div>
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </div>
   );
 }
-
