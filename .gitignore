@@ -3,6 +3,9 @@ public/samplebooks/*
 !public/samplebooks/dsArtHouseCover.jpg
 !public/samplebooks/iris-cover.jpg
 *.pdf
+# Allow published samplebook PDFs; other PDFs remain ignored.
+!public/samplebook-assets/*.pdf
+!public/samplebook-assets/**/*.pdf
 *.zip
 node_modules
 dist

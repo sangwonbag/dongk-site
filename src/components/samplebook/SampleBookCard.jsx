@@ -46,7 +46,7 @@ const SampleBookCard = ({ book, onClick }) => {
                 <div className="sb-card-desc">{book.description}</div>
                 <div className="sb-card-footer">
                     <span className="sb-open-btn">
-                        {book.pdf ? "PDF 열기 ↗" : "미리보기 ↗"}
+                        {book.pdf ? "PDF 열기 ↗" : book.pdfPending ? "PDF 업로드 전" : "미리보기 ↗"}
                     </span>
                 </div>
             </div>

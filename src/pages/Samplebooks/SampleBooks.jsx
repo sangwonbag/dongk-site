@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo } from "react";
 import { useLocation } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { sampleBooks } from "../../data/samplebooks.db";
+import pdfIndex from "../../data/samplebookPdfIndex.generated.json";
 import { BRANDS_BY_CATEGORY } from "../../data/categoryMap";
 import { getComputedBrand } from "../../utils/brandUtils";
 import SampleBookViewer from "../../components/samplebook/SampleBookViewer";
@@ -18,12 +19,24 @@ function useQuery() {
 /** ✅ 상단 탭: 카테고리 (자재 페이지와 동일하게 구성) */
 const CATEGORY_TABS = [
   { id: "recommended", label: "추천 자재" },
+  { id: "all", label: "전체 샘플북" },
   { id: "데코타일", label: "데코타일" },
   { id: "장판", label: "장판" },
   { id: "마루", label: "마루" },
   { id: "벽지", label: "벽지" },
   { id: "카페트타일", label: "카페트타일" },
   { id: "러버타일", label: "러버타일" },
+];
+
+// The build-generated index contains only PDFs physically present in public/.
+// Never show a broken local URL as if a PDF were already uploaded.
+const linkedSampleBooks = [
+  ...sampleBooks.map(book => {
+    if (!book.pdf || /^https?:\/\//i.test(book.pdf)) return book;
+    const pdf = pdfIndex.matched?.[book.id];
+    return pdf ? { ...book, pdf } : { ...book, pdf: null, pdfPending: true };
+  }),
+  ...(pdfIndex.additional || [])
 ];
 
 export default function SampleBooks() {
@@ -39,7 +52,7 @@ export default function SampleBooks() {
     // Check for deep-linked book
     const bookId = query.get("bookId");
     if (bookId) {
-      const book = sampleBooks.find(b => b.id === bookId);
+      const book = linkedSampleBooks.find(b => b.id === bookId);
       if (book) setSelectedBook(book);
     }
   }, [query]);
@@ -60,6 +73,9 @@ export default function SampleBooks() {
     if (activeTab === "recommended") {
       return ["all", "LX", "KCC", "동신", "동화", "이건", "구정", "유성", "녹수", "현대", "스완"];
     }
+    if (activeTab === "all") {
+      return ["all", ...new Set(linkedSampleBooks.map(book => getComputedBrand(book) || book.brand).filter(Boolean))];
+    }
     let categoryBrands = [...(BRANDS_BY_CATEGORY[activeTab] || [])];
     return ["all", ...categoryBrands];
   }, [activeTab]);
@@ -68,11 +84,13 @@ export default function SampleBooks() {
   const filtered = useMemo(() => {
     const queryTerm = searchQuery.trim().toLowerCase();
 
-    return sampleBooks.filter(sb => {
+    return linkedSampleBooks.filter(sb => {
       let categoryOk = false;
       let sbComputedBrand = getComputedBrand(sb);
 
-      if (activeTab === "recommended") {
+      if (activeTab === "all") {
+        categoryOk = true;
+      } else if (activeTab === "recommended") {
         categoryOk = sb.isRecommended || ["LX", "KCC", "동신", "유성", "이건", "구정", "동화"].includes(sbComputedBrand) || ["LX", "KCC", "동신", "유성", "이건", "구정", "동화"].includes(sb.brand);
       } else {
         categoryOk = sb.category === activeTab;
