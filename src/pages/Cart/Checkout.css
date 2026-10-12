@@ -1543,3 +1543,8 @@
   }
 }
 
+
+/* Optional delivery site details */
+.checkout-optional-label-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.checkout-optional-label-row button { border: 0; background: transparent; color: var(--text-light); text-decoration: underline; font-size: 12px; cursor: pointer; padding: 2px 0; }
+.checkout-optional-label-row .opt { font-size: 12px; font-weight: 400; color: var(--text-light); }
