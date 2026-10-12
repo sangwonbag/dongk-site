@@ -96,12 +96,13 @@ const mapOrderToKo = (order) => {
       delivery_fee_status = methodMatch[3].trim();
       
       if (delivery_method_label.includes("무료")) delivery_method = "free_shipping";
-      else if (delivery_method_label.includes("퀵")) delivery_method = "quick";
+      else if (delivery_method_label.includes("경동")) delivery_method = "kyungdong";
+       else if (delivery_method_label.includes("퀵")) delivery_method = "quick";
       else if (delivery_method_label.includes("직접")) delivery_method = "pickup";
       else delivery_method = "cargo";
     }
 
-    const branchMatch = memoText.match(/\[대신화물지점\]\s*([^\n(]+)\s*\(([^/]+)\/\s*([^)]*)\)/);
+    const branchMatch = memoText.match(/\[(?:대신|경동)화물지점\]\s*([^\n(]+)\s*\(([^/]+)\/\s*([^)]*)\)/);
     if (branchMatch) {
       freight_branch_name = branchMatch[1].trim();
       if (freight_branch_name === '없음') freight_branch_name = null;
@@ -129,7 +130,7 @@ const mapOrderToKo = (order) => {
     // Clean memo text from the fallback tags for cleaner display
     memoText = memoText
       .replace(/\[배송방식\].*$/m, "")
-      .replace(/\[대신화물지점\].*$/m, "")
+      .replace(/\[(?:대신|경동)화물지점\].*$/m, "")
       .replace(/\[무료배송여부\].*$/m, "")
       .replace(/\[부자재안내\].*$/m, "")
       .trim();
@@ -291,7 +292,7 @@ export const createOrder = async ({ cartItems, customer, paymentMethod }) => {
     insertPayload.accessory_recommendation_skipped = customer.accessory_recommendation_skipped ?? false;
   } else {
     // 컬럼이 아직 마이그레이션 전인 경우 memo 컬럼의 하단 꼬리표에 포맷팅하여 적재 (Graceful fallback)
-    const fallbackText = `\n[배송방식] ${customer.delivery_method_label || '대신화물 지점 배송'} | 배송비: ${customer.delivery_fee || '별도 안내'} (${customer.delivery_fee_status || 'unconfirmed'})\n[대신화물지점] ${customer.freight_branch_name || '없음'} (${customer.freight_branch_address || ''} / ${customer.freight_branch_phone || ''})\n[무료배송여부] ${customer.free_shipping_eligible ? '대상' : '대상아님'} (적용브랜드: ${customer.free_shipping_brand || '없음'}, 합계평수: ${customer.free_shipping_area || 0}평)\n[부자재안내] 노출여부: ${customer.accessory_recommendation_shown ? '노출됨' : '노출안됨'}, 건너뜀여부: ${customer.accessory_recommendation_skipped ? '건너뜀' : '선택완료'}`;
+    const fallbackText = `\n[배송방식] ${customer.delivery_method_label || '대신화물 지점 배송'} | 배송비: ${customer.delivery_fee || '별도 안내'} (${customer.delivery_fee_status || 'unconfirmed'})\n[${customer.delivery_method === "kyungdong" ? "경동" : "대신"}화물지점] ${customer.freight_branch_name || '없음'} (${customer.freight_branch_address || ''} / ${customer.freight_branch_phone || ''})\n[무료배송여부] ${customer.free_shipping_eligible ? '대상' : '대상아님'} (적용브랜드: ${customer.free_shipping_brand || '없음'}, 합계평수: ${customer.free_shipping_area || 0}평)\n[부자재안내] 노출여부: ${customer.accessory_recommendation_shown ? '노출됨' : '노출안됨'}, 건너뜀여부: ${customer.accessory_recommendation_skipped ? '건너뜀' : '선택완료'}`;
     insertPayload.memo = (insertPayload.memo ? insertPayload.memo + fallbackText : fallbackText.trim());
   }
 
