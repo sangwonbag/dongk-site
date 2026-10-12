@@ -737,13 +737,16 @@ export default function MaterialDetail() {
 
     async function loadImages() {
       try {
-        await getLocalImageManifestData();
-        const detailStr = await getDetailImage(item);
-        const thumbStr = await getThumbnailImage(item);
-        const galleryObjs = await getValidGalleryImages(item);
+        // A large image manifest is only needed for Eagon folder lookup.
+        // Fetch the remaining gallery sources concurrently (non-blocking for product data).
+        const [detailStr, thumbStr, galleryObjs] = await Promise.all([
+          getDetailImage(item),
+          getThumbnailImage(item),
+          getValidGalleryImages(item)
+        ]);
         let eagonImg = null;
-
         if (item.brand === '이건') {
+          await getLocalImageManifestData();
           eagonImg = resolveMaterialImageWithEagon(item);
         }
 
@@ -911,7 +914,9 @@ export default function MaterialDetail() {
                 brands ( id, name )
               `)
               .eq('brand_id', 12)
-              .neq('product_code', item.code);
+              .eq('is_active', true)
+              .neq('product_code', item.code)
+              .limit(12);
             if (res.data) {
               data = res.data;
             }
@@ -924,8 +929,9 @@ export default function MaterialDetail() {
                 brands ( id, name )
               `)
               .eq('category_id', item.category_id || 1)
+              .eq('is_active', true)
               .neq('product_code', item.code)
-              .limit(20);
+              .limit(12);
             if (res.data) {
               data = res.data;
             }
@@ -944,7 +950,7 @@ export default function MaterialDetail() {
                 size: p.size_text || ""
               };
               normalizeProductDetails(mapped);
-              mapped.thumbnail = resolveMaterialImageWithEagon(mapped);
+              mapped.thumbnail = p.image_url || resolveMaterialImageWithEagon(mapped);
               return {
                 item: mapped,
                 score: getScore(mapped)
