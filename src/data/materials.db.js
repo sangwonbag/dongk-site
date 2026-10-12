@@ -1,4 +1,3 @@
-// Auto-generated materials database
 export const materials = [
   {
     "id": "NK20-4951",
@@ -17063,31 +17062,6 @@ export const materials = [
     },
     "description": "골드타일마스터",
     "product_code": "MTW4488",
-    "product_name": ""
-  },
-  {
-    "id": "데코타일-현대-골드타일마스터-mts4415_mts4417",
-    "category": "데코타일",
-    "brand": "현대",
-    "line": "골드타일마스터",
-    "subLine": "골드타일마스터",
-    "name": "",
-    "code": "MTS4415_MTS4417",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS4415_MTS4417_%EC%8B%9C%EA%B3%B5.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS4415_MTS4417_%EC%8B%9C%EA%B3%B5.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS4415_MTS4417_%EC%8B%9C%EA%B3%B5.jpg"
-    ],
-    "price": 26000,
-    "thickness": "",
-    "specs": {
-      "division": "골드타일마스터",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
-    },
-    "description": "골드타일마스터",
-    "product_code": "MTS4415_MTS4417",
     "product_name": ""
   },
   {
@@ -90302,7 +90276,10 @@ export const materials = [
     },
     "description": "참다움",
     "product_code": "C1152",
-    "product_name": ""
+    "product_name": "",
+    "installationImages": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1152_installation.jpg"
+    ]
   },
   {
     "id": "장판-현대-참다움-c1154",
@@ -90327,7 +90304,10 @@ export const materials = [
     },
     "description": "참다움",
     "product_code": "C1154",
-    "product_name": ""
+    "product_name": "",
+    "installationImages": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1154_installation.jpg"
+    ]
   },
   {
     "id": "장판-현대-참다움-c1161",
@@ -90352,7 +90332,10 @@ export const materials = [
     },
     "description": "참다움",
     "product_code": "C1161",
-    "product_name": ""
+    "product_name": "",
+    "installationImages": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1161_installation.jpg"
+    ]
   },
   {
     "id": "장판-현대-참다움-c1162",
@@ -90377,7 +90360,10 @@ export const materials = [
     },
     "description": "참다움",
     "product_code": "C1162",
-    "product_name": ""
+    "product_name": "",
+    "installationImages": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1162_installation.jpg"
+    ]
   },
   {
     "id": "장판-현대-참다움-c1171",
@@ -90402,7 +90388,10 @@ export const materials = [
     },
     "description": "참다움",
     "product_code": "C1171",
-    "product_name": ""
+    "product_name": "",
+    "installationImages": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1171_installation.jpg"
+    ]
   },
   {
     "id": "장판-현대-참다움-c1172",
@@ -90427,7 +90416,10 @@ export const materials = [
     },
     "description": "참다움",
     "product_code": "C1172",
-    "product_name": ""
+    "product_name": "",
+    "installationImages": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1172_installation.jpg"
+    ]
   },
   {
     "id": "장판-현대-참다움-c1173",
@@ -90452,7 +90444,10 @@ export const materials = [
     },
     "description": "참다움",
     "product_code": "C1173",
-    "product_name": ""
+    "product_name": "",
+    "installationImages": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1173_installation.jpg"
+    ]
   },
   {
     "id": "장판-현대-참다움-c1705",
@@ -90477,7 +90472,10 @@ export const materials = [
     },
     "description": "참다움",
     "product_code": "C1705",
-    "product_name": ""
+    "product_name": "",
+    "installationImages": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1705_installation.jpg"
+    ]
   },
   {
     "id": "장판-현대-참다움-c1706",
@@ -90502,7 +90500,10 @@ export const materials = [
     },
     "description": "참다움",
     "product_code": "C1706",
-    "product_name": ""
+    "product_name": "",
+    "installationImages": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1706_installation.jpg"
+    ]
   },
   {
     "id": "장판-현대-참다움-c1708",
@@ -90527,7 +90528,10 @@ export const materials = [
     },
     "description": "참다움",
     "product_code": "C1708",
-    "product_name": ""
+    "product_name": "",
+    "installationImages": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1708_installation.jpg"
+    ]
   },
   {
     "id": "장판-현대-참다움-c1712",
@@ -90552,7 +90556,10 @@ export const materials = [
     },
     "description": "참다움",
     "product_code": "C1712",
-    "product_name": ""
+    "product_name": "",
+    "installationImages": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1712_installation.jpg"
+    ]
   },
   {
     "id": "장판-현대-참다움-c1909",
@@ -90577,307 +90584,10 @@ export const materials = [
     },
     "description": "참다움",
     "product_code": "C1909",
-    "product_name": ""
-  },
-  {
-    "id": "장판-현대-참다움-c1152",
-    "category": "장판",
-    "brand": "현대",
-    "line": "참다움",
-    "subLine": "참다움1.8",
-    "name": "",
-    "code": "C1152",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1152_installation.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1152_installation.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1152_installation.jpg"
-    ],
-    "price": 0,
-    "thickness": "1.8T",
-    "specs": {
-      "division": "참다움1.8",
-      "thickness": "1.8T",
-      "size": "제품별 규격 문의",
-      "packing": "Roll 단위"
-    },
-    "description": "참다움",
-    "product_code": "C1152",
-    "product_name": ""
-  },
-  {
-    "id": "장판-현대-참다움-c1154",
-    "category": "장판",
-    "brand": "현대",
-    "line": "참다움",
-    "subLine": "참다움1.8",
-    "name": "",
-    "code": "C1154",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1154_installation.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1154_installation.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1154_installation.jpg"
-    ],
-    "price": 0,
-    "thickness": "1.8T",
-    "specs": {
-      "division": "참다움1.8",
-      "thickness": "1.8T",
-      "size": "제품별 규격 문의",
-      "packing": "Roll 단위"
-    },
-    "description": "참다움",
-    "product_code": "C1154",
-    "product_name": ""
-  },
-  {
-    "id": "장판-현대-참다움-c1161",
-    "category": "장판",
-    "brand": "현대",
-    "line": "참다움",
-    "subLine": "참다움1.8",
-    "name": "",
-    "code": "C1161",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1161_installation.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1161_installation.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1161_installation.jpg"
-    ],
-    "price": 0,
-    "thickness": "1.8T",
-    "specs": {
-      "division": "참다움1.8",
-      "thickness": "1.8T",
-      "size": "제품별 규격 문의",
-      "packing": "Roll 단위"
-    },
-    "description": "참다움",
-    "product_code": "C1161",
-    "product_name": ""
-  },
-  {
-    "id": "장판-현대-참다움-c1162",
-    "category": "장판",
-    "brand": "현대",
-    "line": "참다움",
-    "subLine": "참다움1.8",
-    "name": "",
-    "code": "C1162",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1162_installation.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1162_installation.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1162_installation.jpg"
-    ],
-    "price": 0,
-    "thickness": "1.8T",
-    "specs": {
-      "division": "참다움1.8",
-      "thickness": "1.8T",
-      "size": "제품별 규격 문의",
-      "packing": "Roll 단위"
-    },
-    "description": "참다움",
-    "product_code": "C1162",
-    "product_name": ""
-  },
-  {
-    "id": "장판-현대-참다움-c1171",
-    "category": "장판",
-    "brand": "현대",
-    "line": "참다움",
-    "subLine": "참다움1.8",
-    "name": "",
-    "code": "C1171",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1171_installation.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1171_installation.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1171_installation.jpg"
-    ],
-    "price": 0,
-    "thickness": "1.8T",
-    "specs": {
-      "division": "참다움1.8",
-      "thickness": "1.8T",
-      "size": "제품별 규격 문의",
-      "packing": "Roll 단위"
-    },
-    "description": "참다움",
-    "product_code": "C1171",
-    "product_name": ""
-  },
-  {
-    "id": "장판-현대-참다움-c1172",
-    "category": "장판",
-    "brand": "현대",
-    "line": "참다움",
-    "subLine": "참다움1.8",
-    "name": "",
-    "code": "C1172",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1172_installation.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1172_installation.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1172_installation.jpg"
-    ],
-    "price": 0,
-    "thickness": "1.8T",
-    "specs": {
-      "division": "참다움1.8",
-      "thickness": "1.8T",
-      "size": "제품별 규격 문의",
-      "packing": "Roll 단위"
-    },
-    "description": "참다움",
-    "product_code": "C1172",
-    "product_name": ""
-  },
-  {
-    "id": "장판-현대-참다움-c1173",
-    "category": "장판",
-    "brand": "현대",
-    "line": "참다움",
-    "subLine": "참다움1.8",
-    "name": "",
-    "code": "C1173",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1173_installation.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1173_installation.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1173_installation.jpg"
-    ],
-    "price": 0,
-    "thickness": "1.8T",
-    "specs": {
-      "division": "참다움1.8",
-      "thickness": "1.8T",
-      "size": "제품별 규격 문의",
-      "packing": "Roll 단위"
-    },
-    "description": "참다움",
-    "product_code": "C1173",
-    "product_name": ""
-  },
-  {
-    "id": "장판-현대-참다움-c1705",
-    "category": "장판",
-    "brand": "현대",
-    "line": "참다움",
-    "subLine": "참다움1.8",
-    "name": "",
-    "code": "C1705",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1705_installation.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1705_installation.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1705_installation.jpg"
-    ],
-    "price": 0,
-    "thickness": "1.8T",
-    "specs": {
-      "division": "참다움1.8",
-      "thickness": "1.8T",
-      "size": "제품별 규격 문의",
-      "packing": "Roll 단위"
-    },
-    "description": "참다움",
-    "product_code": "C1705",
-    "product_name": ""
-  },
-  {
-    "id": "장판-현대-참다움-c1706",
-    "category": "장판",
-    "brand": "현대",
-    "line": "참다움",
-    "subLine": "참다움1.8",
-    "name": "",
-    "code": "C1706",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1706_installation.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1706_installation.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1706_installation.jpg"
-    ],
-    "price": 0,
-    "thickness": "1.8T",
-    "specs": {
-      "division": "참다움1.8",
-      "thickness": "1.8T",
-      "size": "제품별 규격 문의",
-      "packing": "Roll 단위"
-    },
-    "description": "참다움",
-    "product_code": "C1706",
-    "product_name": ""
-  },
-  {
-    "id": "장판-현대-참다움-c1708",
-    "category": "장판",
-    "brand": "현대",
-    "line": "참다움",
-    "subLine": "참다움1.8",
-    "name": "",
-    "code": "C1708",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1708_installation.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1708_installation.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1708_installation.jpg"
-    ],
-    "price": 0,
-    "thickness": "1.8T",
-    "specs": {
-      "division": "참다움1.8",
-      "thickness": "1.8T",
-      "size": "제품별 규격 문의",
-      "packing": "Roll 단위"
-    },
-    "description": "참다움",
-    "product_code": "C1708",
-    "product_name": ""
-  },
-  {
-    "id": "장판-현대-참다움-c1712",
-    "category": "장판",
-    "brand": "현대",
-    "line": "참다움",
-    "subLine": "참다움1.8",
-    "name": "",
-    "code": "C1712",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1712_installation.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1712_installation.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1712_installation.jpg"
-    ],
-    "price": 0,
-    "thickness": "1.8T",
-    "specs": {
-      "division": "참다움1.8",
-      "thickness": "1.8T",
-      "size": "제품별 규격 문의",
-      "packing": "Roll 단위"
-    },
-    "description": "참다움",
-    "product_code": "C1712",
-    "product_name": ""
-  },
-  {
-    "id": "장판-현대-참다움-c1909",
-    "category": "장판",
-    "brand": "현대",
-    "line": "참다움",
-    "subLine": "참다움1.8",
-    "name": "",
-    "code": "C1909",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1909_installation.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1909_installation.jpg",
-    "images": [
+    "product_name": "",
+    "installationImages": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1909_installation.jpg"
-    ],
-    "price": 0,
-    "thickness": "1.8T",
-    "specs": {
-      "division": "참다움1.8",
-      "thickness": "1.8T",
-      "size": "제품별 규격 문의",
-      "packing": "Roll 단위"
-    },
-    "description": "참다움",
-    "product_code": "C1909",
-    "product_name": ""
+    ]
   },
   {
     "id": "장판-현대-참다움-m2151",
@@ -90902,7 +90612,10 @@ export const materials = [
     },
     "description": "참다움",
     "product_code": "M2151",
-    "product_name": ""
+    "product_name": "",
+    "installationImages": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2151_installation.jpg"
+    ]
   },
   {
     "id": "장판-현대-참다움-m2152",
@@ -90927,7 +90640,10 @@ export const materials = [
     },
     "description": "참다움",
     "product_code": "M2152",
-    "product_name": ""
+    "product_name": "",
+    "installationImages": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2152_installation.jpg"
+    ]
   },
   {
     "id": "장판-현대-참다움-m2157",
@@ -90952,7 +90668,10 @@ export const materials = [
     },
     "description": "참다움",
     "product_code": "M2157",
-    "product_name": ""
+    "product_name": "",
+    "installationImages": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2157_installation.jpg"
+    ]
   },
   {
     "id": "장판-현대-참다움-m2801",
@@ -90977,7 +90696,10 @@ export const materials = [
     },
     "description": "참다움",
     "product_code": "M2801",
-    "product_name": ""
+    "product_name": "",
+    "installationImages": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2801_installation.jpg"
+    ]
   },
   {
     "id": "장판-현대-참다움-m2803",
@@ -91002,7 +90724,10 @@ export const materials = [
     },
     "description": "참다움",
     "product_code": "M2803",
-    "product_name": ""
+    "product_name": "",
+    "installationImages": [
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2803_installation.jpg"
+    ]
   },
   {
     "id": "장판-현대-참다움-m2902",
@@ -91027,157 +90752,10 @@ export const materials = [
     },
     "description": "참다움",
     "product_code": "M2902",
-    "product_name": ""
-  },
-  {
-    "id": "장판-현대-참다움-m2151",
-    "category": "장판",
-    "brand": "현대",
-    "line": "참다움",
-    "subLine": "참다움2.0",
-    "name": "",
-    "code": "M2151",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2151_installation.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2151_installation.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2151_installation.jpg"
-    ],
-    "price": 0,
-    "thickness": "2.0T",
-    "specs": {
-      "division": "참다움2.0",
-      "thickness": "2.0T",
-      "size": "제품별 규격 문의",
-      "packing": "Roll 단위"
-    },
-    "description": "참다움",
-    "product_code": "M2151",
-    "product_name": ""
-  },
-  {
-    "id": "장판-현대-참다움-m2152",
-    "category": "장판",
-    "brand": "현대",
-    "line": "참다움",
-    "subLine": "참다움2.0",
-    "name": "",
-    "code": "M2152",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2152_installation.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2152_installation.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2152_installation.jpg"
-    ],
-    "price": 0,
-    "thickness": "2.0T",
-    "specs": {
-      "division": "참다움2.0",
-      "thickness": "2.0T",
-      "size": "제품별 규격 문의",
-      "packing": "Roll 단위"
-    },
-    "description": "참다움",
-    "product_code": "M2152",
-    "product_name": ""
-  },
-  {
-    "id": "장판-현대-참다움-m2157",
-    "category": "장판",
-    "brand": "현대",
-    "line": "참다움",
-    "subLine": "참다움2.0",
-    "name": "",
-    "code": "M2157",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2157_installation.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2157_installation.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2157_installation.jpg"
-    ],
-    "price": 0,
-    "thickness": "2.0T",
-    "specs": {
-      "division": "참다움2.0",
-      "thickness": "2.0T",
-      "size": "제품별 규격 문의",
-      "packing": "Roll 단위"
-    },
-    "description": "참다움",
-    "product_code": "M2157",
-    "product_name": ""
-  },
-  {
-    "id": "장판-현대-참다움-m2801",
-    "category": "장판",
-    "brand": "현대",
-    "line": "참다움",
-    "subLine": "참다움2.0",
-    "name": "",
-    "code": "M2801",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2801_installation.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2801_installation.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2801_installation.jpg"
-    ],
-    "price": 0,
-    "thickness": "2.0T",
-    "specs": {
-      "division": "참다움2.0",
-      "thickness": "2.0T",
-      "size": "제품별 규격 문의",
-      "packing": "Roll 단위"
-    },
-    "description": "참다움",
-    "product_code": "M2801",
-    "product_name": ""
-  },
-  {
-    "id": "장판-현대-참다움-m2803",
-    "category": "장판",
-    "brand": "현대",
-    "line": "참다움",
-    "subLine": "참다움2.0",
-    "name": "",
-    "code": "M2803",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2803_installation.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2803_installation.jpg",
-    "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2803_installation.jpg"
-    ],
-    "price": 0,
-    "thickness": "2.0T",
-    "specs": {
-      "division": "참다움2.0",
-      "thickness": "2.0T",
-      "size": "제품별 규격 문의",
-      "packing": "Roll 단위"
-    },
-    "description": "참다움",
-    "product_code": "M2803",
-    "product_name": ""
-  },
-  {
-    "id": "장판-현대-참다움-m2902",
-    "category": "장판",
-    "brand": "현대",
-    "line": "참다움",
-    "subLine": "참다움2.0",
-    "name": "",
-    "code": "M2902",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2902_installation.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2902_installation.jpg",
-    "images": [
+    "product_name": "",
+    "installationImages": [
       "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2902_installation.jpg"
-    ],
-    "price": 0,
-    "thickness": "2.0T",
-    "specs": {
-      "division": "참다움2.0",
-      "thickness": "2.0T",
-      "size": "제품별 규격 문의",
-      "packing": "Roll 단위"
-    },
-    "description": "참다움",
-    "product_code": "M2902",
-    "product_name": ""
+    ]
   },
   {
     "id": "카페트타일-스완-롤-카페트-ar502",

@@ -1855,6 +1855,627 @@ export const imageManifest = [
     "normalizedFileName": "gw1524gjpg"
   },
   {
+    "fileName": "HOT 0065 라임 스톤 미스트.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스/HOT 0065 라임 스톤 미스트.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스",
+    "extractedCode": "HOT 0065",
+    "normalizedFileName": "hot0065라임스톤미스트jpg"
+  },
+  {
+    "fileName": "HOT 0066 라임 스톤 그레이.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스/HOT 0066 라임 스톤 그레이.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스",
+    "extractedCode": "HOT 0066",
+    "normalizedFileName": "hot0066라임스톤그레이jpg"
+  },
+  {
+    "fileName": "HOT 0067 라임 스톤 크림.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스/HOT 0067 라임 스톤 크림.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스",
+    "extractedCode": "HOT 0067",
+    "normalizedFileName": "hot0067라임스톤크림jpg"
+  },
+  {
+    "fileName": "HOT 0068 라임 스톤 베이지.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스/HOT 0068 라임 스톤 베이지.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스",
+    "extractedCode": "HOT 0068",
+    "normalizedFileName": "hot0068라임스톤베이지jpg"
+  },
+  {
+    "fileName": "HOT 0069 오셔너스 스노우.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스/HOT 0069 오셔너스 스노우.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스",
+    "extractedCode": "HOT 0069",
+    "normalizedFileName": "hot0069오셔너스스노우jpg"
+  },
+  {
+    "fileName": "HOT 0070 오셔너스 쿨 그레이.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스/HOT 0070 오셔너스 쿨 그레이.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스",
+    "extractedCode": "HOT 0070",
+    "normalizedFileName": "hot0070오셔너스쿨그레이jpg"
+  },
+  {
+    "fileName": "HOT 0071 오셔너스 블랙.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스/HOT 0071 오셔너스 블랙.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스",
+    "extractedCode": "HOT 0071",
+    "normalizedFileName": "hot0071오셔너스블랙jpg"
+  },
+  {
+    "fileName": "HOT 0072 퍼실 화이트.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스/HOT 0072 퍼실 화이트.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스",
+    "extractedCode": "HOT 0072",
+    "normalizedFileName": "hot0072퍼실화이트jpg"
+  },
+  {
+    "fileName": "HOT 0073 카사 베이직.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스/HOT 0073 카사 베이직.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스",
+    "extractedCode": "HOT 0073",
+    "normalizedFileName": "hot0073카사베이직jpg"
+  },
+  {
+    "fileName": "HOW 0032 오크 라이트.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스/HOW 0032 오크 라이트.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스",
+    "extractedCode": "HOW 0032",
+    "normalizedFileName": "how0032오크라이트jpg"
+  },
+  {
+    "fileName": "HOW 0033 오크 내추럴.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스/HOW 0033 오크 내추럴.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스",
+    "extractedCode": "HOW 0033",
+    "normalizedFileName": "how0033오크내추럴jpg"
+  },
+  {
+    "fileName": "HOW 0034 오크 스노우.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스/HOW 0034 오크 스노우.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스",
+    "extractedCode": "HOW 0034",
+    "normalizedFileName": "how0034오크스노우jpg"
+  },
+  {
+    "fileName": "HOW 0035 오크 베이지.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스/HOW 0035 오크 베이지.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스",
+    "extractedCode": "HOW 0035",
+    "normalizedFileName": "how0035오크베이지jpg"
+  },
+  {
+    "fileName": "HOW 0036 애쉬 라떼.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스/HOW 0036 애쉬 라떼.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스",
+    "extractedCode": "HOW 0036",
+    "normalizedFileName": "how0036애쉬라떼jpg"
+  },
+  {
+    "fileName": "HOW 0037 애쉬 그레이.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스/HOW 0037 애쉬 그레이.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스",
+    "extractedCode": "HOW 0037",
+    "normalizedFileName": "how0037애쉬그레이jpg"
+  },
+  {
+    "fileName": "내지_데코_DLT 3300.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스_데코레이s/내지_데코_DLT 3300.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스_데코레이s",
+    "extractedCode": "DLT 3300",
+    "normalizedFileName": "내지데코dlt3300jpg"
+  },
+  {
+    "fileName": "내지_데코_DLT 3301.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스_데코레이s/내지_데코_DLT 3301.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스_데코레이s",
+    "extractedCode": "DLT 3301",
+    "normalizedFileName": "내지데코dlt3301jpg"
+  },
+  {
+    "fileName": "내지_데코_DLT 3302.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스_데코레이s/내지_데코_DLT 3302.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스_데코레이s",
+    "extractedCode": "DLT 3302",
+    "normalizedFileName": "내지데코dlt3302jpg"
+  },
+  {
+    "fileName": "내지_데코_DLT 3303.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스_데코레이s/내지_데코_DLT 3303.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스_데코레이s",
+    "extractedCode": "DLT 3303",
+    "normalizedFileName": "내지데코dlt3303jpg"
+  },
+  {
+    "fileName": "내지_데코_DLT 3306.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스_데코레이s/내지_데코_DLT 3306.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스_데코레이s",
+    "extractedCode": "DLT 3306",
+    "normalizedFileName": "내지데코dlt3306jpg"
+  },
+  {
+    "fileName": "내지_데코_DLT 3307.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스_데코레이s/내지_데코_DLT 3307.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스_데코레이s",
+    "extractedCode": "DLT 3307",
+    "normalizedFileName": "내지데코dlt3307jpg"
+  },
+  {
+    "fileName": "내지_데코_DLT 3308.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스_데코레이s/내지_데코_DLT 3308.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스_데코레이s",
+    "extractedCode": "DLT 3308",
+    "normalizedFileName": "내지데코dlt3308jpg"
+  },
+  {
+    "fileName": "내지_데코_DLT 3309.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스_데코레이s/내지_데코_DLT 3309.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스_데코레이s",
+    "extractedCode": "DLT 3309",
+    "normalizedFileName": "내지데코dlt3309jpg"
+  },
+  {
+    "fileName": "내지_데코_DLT 3310.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스_데코레이s/내지_데코_DLT 3310.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스_데코레이s",
+    "extractedCode": "DLT 3310",
+    "normalizedFileName": "내지데코dlt3310jpg"
+  },
+  {
+    "fileName": "내지_데코_DLT 3311.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스_데코레이s/내지_데코_DLT 3311.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스_데코레이s",
+    "extractedCode": "DLT 3311",
+    "normalizedFileName": "내지데코dlt3311jpg"
+  },
+  {
+    "fileName": "내지_데코_DLT 3312.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스_데코레이s/내지_데코_DLT 3312.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스_데코레이s",
+    "extractedCode": "DLT 3312",
+    "normalizedFileName": "내지데코dlt3312jpg"
+  },
+  {
+    "fileName": "내지_데코_DLT 3313.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스_데코레이s/내지_데코_DLT 3313.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스_데코레이s",
+    "extractedCode": "DLT 3313",
+    "normalizedFileName": "내지데코dlt3313jpg"
+  },
+  {
+    "fileName": "내지_데코_DLT 3314.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스_데코레이s/내지_데코_DLT 3314.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스_데코레이s",
+    "extractedCode": "DLT 3314",
+    "normalizedFileName": "내지데코dlt3314jpg"
+  },
+  {
+    "fileName": "내지_데코_DLT 3315_1.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스_데코레이s/내지_데코_DLT 3315_1.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스_데코레이s",
+    "extractedCode": "DLT 3315",
+    "normalizedFileName": "내지데코dlt33151jpg"
+  },
+  {
+    "fileName": "내지_데코_DLT 3316.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스_데코레이s/내지_데코_DLT 3316.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스_데코레이s",
+    "extractedCode": "DLT 3316",
+    "normalizedFileName": "내지데코dlt3316jpg"
+  },
+  {
+    "fileName": "ZOT 0761.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOT 0761.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스스타일",
+    "extractedCode": "ZOT 0761",
+    "normalizedFileName": "zot0761jpg"
+  },
+  {
+    "fileName": "ZOT 0762.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOT 0762.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스스타일",
+    "extractedCode": "ZOT 0762",
+    "normalizedFileName": "zot0762jpg"
+  },
+  {
+    "fileName": "ZOT 0767.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOT 0767.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스스타일",
+    "extractedCode": "ZOT 0767",
+    "normalizedFileName": "zot0767jpg"
+  },
+  {
+    "fileName": "ZOT 0768.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOT 0768.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스스타일",
+    "extractedCode": "ZOT 0768",
+    "normalizedFileName": "zot0768jpg"
+  },
+  {
+    "fileName": "ZOT 0769.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOT 0769.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스스타일",
+    "extractedCode": "ZOT 0769",
+    "normalizedFileName": "zot0769jpg"
+  },
+  {
+    "fileName": "ZOT 0770.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOT 0770.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스스타일",
+    "extractedCode": "ZOT 0770",
+    "normalizedFileName": "zot0770jpg"
+  },
+  {
+    "fileName": "ZOT 0771.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOT 0771.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스스타일",
+    "extractedCode": "ZOT 0771",
+    "normalizedFileName": "zot0771jpg"
+  },
+  {
+    "fileName": "ZOW 0712.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOW 0712.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스스타일",
+    "extractedCode": "ZOW 0712",
+    "normalizedFileName": "zow0712jpg"
+  },
+  {
+    "fileName": "ZOW 0717.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOW 0717.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스스타일",
+    "extractedCode": "ZOW 0717",
+    "normalizedFileName": "zow0717jpg"
+  },
+  {
+    "fileName": "ZOW 0718.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOW 0718.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스스타일",
+    "extractedCode": "ZOW 0718",
+    "normalizedFileName": "zow0718jpg"
+  },
+  {
+    "fileName": "ZOW 0719.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOW 0719.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스스타일",
+    "extractedCode": "ZOW 0719",
+    "normalizedFileName": "zow0719jpg"
+  },
+  {
+    "fileName": "ZOW 0720.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOW 0720.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스스타일",
+    "extractedCode": "ZOW 0720",
+    "normalizedFileName": "zow0720jpg"
+  },
+  {
+    "fileName": "DLX081.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/디럭스/DLX081.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "디럭스",
+    "extractedCode": "DLX081",
+    "normalizedFileName": "dlx081jpg"
+  },
+  {
+    "fileName": "DLX082.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/디럭스/DLX082.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "디럭스",
+    "extractedCode": "DLX082",
+    "normalizedFileName": "dlx082jpg"
+  },
+  {
+    "fileName": "DLX083.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/디럭스/DLX083.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "디럭스",
+    "extractedCode": "DLX083",
+    "normalizedFileName": "dlx083jpg"
+  },
+  {
+    "fileName": "DLX084.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/디럭스/DLX084.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "디럭스",
+    "extractedCode": "DLX084",
+    "normalizedFileName": "dlx084jpg"
+  },
+  {
+    "fileName": "DLX085.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/디럭스/DLX085.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "디럭스",
+    "extractedCode": "DLX085",
+    "normalizedFileName": "dlx085jpg"
+  },
+  {
+    "fileName": "DLX086.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/디럭스/DLX086.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "디럭스",
+    "extractedCode": "DLX086",
+    "normalizedFileName": "dlx086jpg"
+  },
+  {
+    "fileName": "DLX087.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/디럭스/DLX087.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "디럭스",
+    "extractedCode": "DLX087",
+    "normalizedFileName": "dlx087jpg"
+  },
+  {
+    "fileName": "DLX088.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/디럭스/DLX088.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "디럭스",
+    "extractedCode": "DLX088",
+    "normalizedFileName": "dlx088jpg"
+  },
+  {
+    "fileName": "DLX090.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/디럭스/DLX090.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "디럭스",
+    "extractedCode": "DLX090",
+    "normalizedFileName": "dlx090jpg"
+  },
+  {
+    "fileName": "DLX091.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/디럭스/DLX091.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "디럭스",
+    "extractedCode": "DLX091",
+    "normalizedFileName": "dlx091jpg"
+  },
+  {
+    "fileName": "DLX092.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/디럭스/DLX092.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "디럭스",
+    "extractedCode": "DLX092",
+    "normalizedFileName": "dlx092jpg"
+  },
+  {
+    "fileName": "DLX094.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/디럭스/DLX094.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "디럭스",
+    "extractedCode": "DLX094",
+    "normalizedFileName": "dlx094jpg"
+  },
+  {
+    "fileName": "DLX095.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/디럭스/DLX095.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "디럭스",
+    "extractedCode": "DLX095",
+    "normalizedFileName": "dlx095jpg"
+  },
+  {
+    "fileName": "DLX096.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/디럭스/DLX096.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "디럭스",
+    "extractedCode": "DLX096",
+    "normalizedFileName": "dlx096jpg"
+  },
+  {
+    "fileName": "DBT3066 카펫 그레이 450.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT3066 카펫 그레이 450.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "보타닉",
+    "extractedCode": "DBT3066",
+    "normalizedFileName": "dbt3066카펫그레이450jpg"
+  },
+  {
+    "fileName": "DBT3067 스톤 그레이지 450.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT3067 스톤 그레이지 450.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "보타닉",
+    "extractedCode": "DBT3067",
+    "normalizedFileName": "dbt3067스톤그레이지450jpg"
+  },
+  {
+    "fileName": "DBT3069 스톤 실버 450.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT3069 스톤 실버 450.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "보타닉",
+    "extractedCode": "DBT3069",
+    "normalizedFileName": "dbt3069스톤실버450jpg"
+  },
+  {
+    "fileName": "DBT3074 라임스톤 라이트그레이 450.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT3074 라임스톤 라이트그레이 450.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "보타닉",
+    "extractedCode": "DBT3074",
+    "normalizedFileName": "dbt3074라임스톤라이트그레이450jpg"
+  },
+  {
+    "fileName": "DBT3075 라임스톤 라이트그레이 450.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT3075 라임스톤 라이트그레이 450.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "보타닉",
+    "extractedCode": "DBT3075",
+    "normalizedFileName": "dbt3075라임스톤라이트그레이450jpg"
+  },
+  {
+    "fileName": "DBT3082 콘크리트 라이트그레이 600.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT3082 콘크리트 라이트그레이 600.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "보타닉",
+    "extractedCode": "DBT3082",
+    "normalizedFileName": "dbt3082콘크리트라이트그레이600jpg"
+  },
+  {
+    "fileName": "DBT3090 샌드스톤 라이트그레이 600.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBT3090 샌드스톤 라이트그레이 600.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "보타닉",
+    "extractedCode": "DBT3090",
+    "normalizedFileName": "dbt3090샌드스톤라이트그레이600jpg"
+  },
+  {
+    "fileName": "DBW3020 우드 브라운 180.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW3020 우드 브라운 180.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "보타닉",
+    "extractedCode": "DBW3020",
+    "normalizedFileName": "dbw3020우드브라운180jpg"
+  },
+  {
+    "fileName": "DBW3022 우드 브라운 180.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW3022 우드 브라운 180.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "보타닉",
+    "extractedCode": "DBW3022",
+    "normalizedFileName": "dbw3022우드브라운180jpg"
+  },
+  {
+    "fileName": "DBW3029 우드 라이트베이지 180.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW3029 우드 라이트베이지 180.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "보타닉",
+    "extractedCode": "DBW3029",
+    "normalizedFileName": "dbw3029우드라이트베이지180jpg"
+  },
+  {
+    "fileName": "DBW3037 우드 라이트베이지 180.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW3037 우드 라이트베이지 180.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "보타닉",
+    "extractedCode": "DBW3037",
+    "normalizedFileName": "dbw3037우드라이트베이지180jpg"
+  },
+  {
+    "fileName": "DBW3038 우드 베이지 180.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW3038 우드 베이지 180.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "보타닉",
+    "extractedCode": "DBW3038",
+    "normalizedFileName": "dbw3038우드베이지180jpg"
+  },
+  {
+    "fileName": "DBW3042 우드 라이트브라운 180.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/DBW3042 우드 라이트브라운 180.jpg",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "보타닉",
+    "extractedCode": "DBW3042",
+    "normalizedFileName": "dbw3042우드라이트브라운180jpg"
+  },
+  {
     "fileName": "DC1517.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/대진/DC1517.jpg",
     "category": "데코타일",

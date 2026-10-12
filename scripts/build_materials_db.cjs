@@ -924,6 +924,7 @@ function processDirectory(dirPath, category, brandFolder, lineFolder) {
         const fullPath = path.join(dirPath, file.name);
 
         if (file.isDirectory()) {
+            if (/상세페이지|시공사례|시공이미지|상세이미지/i.test(file.name)) return;
             if (!brandFolder) {
                 items = items.concat(processDirectory(fullPath, category, file.name, ""));
             } else if (!lineFolder) {
@@ -932,8 +933,9 @@ function processDirectory(dirPath, category, brandFolder, lineFolder) {
                 items = items.concat(processDirectory(fullPath, category, brandFolder, lineFolder + "_" + file.name));
             }
         } else if (/\.(jpg|jpeg|png|webp|avif)$/i.test(file.name)) {
-            // Ignore _detail or _original for primary mapping as they should be deduped
-            if (file.name.toLowerCase().includes('_detail')) return;
+            // Ignore _detail, _original, _installation, _시공 for primary mapping as they should be deduped
+            if (file.name.toLowerCase().includes('_detail') && !dirPath.includes('숲 옥2.2')) return;
+            if (file.name.toLowerCase().includes('_installation') || file.name.includes('_시공')) return;
             
             const nameOnly = path.parse(file.name).name.replace(/_original$/i, '');
             
