@@ -151,7 +151,7 @@ export async function fetchAllProducts(forceRefresh = false) {
     
     const rawLocalMaterials = await getLocalMaterials();
     // Map local materials to the frontend product structure
-    cachedProducts = (rawLocalMaterials || []).map(m => {
+    cachedProducts = deduplicateProducts((rawLocalMaterials || []).map(m => {
       const rawLine = m.line || "";
       const validLine = (rawLine && !isSentenceDescription(rawLine)) ? rawLine : "";
       const mapped = {
@@ -187,7 +187,7 @@ export async function fetchAllProducts(forceRefresh = false) {
       }
 
       return normalizeProductDetails(mapped);
-    });
+    }));
 
     console.log("Successfully loaded local fallback materials:", cachedProducts.length);
     return cachedProducts;
@@ -298,6 +298,17 @@ export function mapProductRow(p) {
   return normalizeProductDetails(mapped);
 }
 
+// Product data can contain both a swatch thumbnail entry and an interior/detail
+// photo entry for the same code. Keep only one listing card, preferring the swatch.
+const listingImagePriority = (product) => {
+  const url = String(
+    product?.thumbnail_url || product?.thumbnail || product?.image_url || product?.image || ''
+  );
+  if (/(?:thumbnail[_/-]?image|(?:^|[/_-])thumb(?:nail)?(?:[/_-]|$))/i.test(url)) return 2;
+  if (/(?:detail[_/-]?image|(?:^|[/_-])detail(?:[/_-]|$))/i.test(url)) return 0;
+  return 1;
+};
+
 export function deduplicateProducts(productList) {
   if (!Array.isArray(productList)) return [];
   const seenProducts = new Map();
@@ -309,27 +320,41 @@ export function deduplicateProducts(productList) {
     const category = normalizeText(m.category);
     const line = normalizeText(m.line);
     const name = normalizeText(m.name || m.productName);
-    const code = normalizeText(m.code || m.product_code);
+    const code = normalizeText(m.code || m.product_code)
+      .replace(/\(\d+(?:\.\d+)?t\)$/i, "");
     const id = m.id || m.product_id;
 
     let key = "";
     if (code) {
-      key = `${brand}_${category}_${code}`;
+      key = brand + "_" + category + "_" + code;
     } else if (name) {
-      key = `${brand}_${category}_${line}_${name}`;
+      key = brand + "_" + category + "_" + line + "_" + name;
     } else {
-      key = `${brand}_${category}_id_${id}`;
+      key = brand + "_" + category + "_id_" + id;
     }
 
     if (seenProducts.has(key)) {
-      const existing = seenProducts.get(key);
-      if (m.sizeOptions && m.sizeOptions.length > 0) {
-        if (!existing.sizeOptions || existing.sizeOptions.length < m.sizeOptions.length) {
-          existing.sizeOptions = m.sizeOptions;
+      const index = seenProducts.get(key);
+      const existing = deduplicatedProducts[index];
+      const incomingPreferred = listingImagePriority(m) > listingImagePriority(existing);
+      const preferred = incomingPreferred ? m : existing;
+      const other = incomingPreferred ? existing : m;
+      const merged = { ...preferred };
+
+      // Retain details and option lists from the other entry where necessary.
+      if (other.sizeOptions?.length > (merged.sizeOptions?.length || 0)) {
+        merged.sizeOptions = other.sizeOptions;
+      }
+      for (const field of ['price', 'specs', 'line', 'collection', 'series', 'catalog',
+        'productName', 'shape', 'pattern', 'description']) {
+        if ((merged[field] == null || merged[field] === '' ||
+             (field === 'price' && merged[field] === 0)) && other[field] != null) {
+          merged[field] = other[field];
         }
       }
+      deduplicatedProducts[index] = merged;
     } else {
-      seenProducts.set(key, m);
+      seenProducts.set(key, deduplicatedProducts.length);
       deduplicatedProducts.push(m);
     }
   }
@@ -407,7 +432,7 @@ export async function fetchFilteredProducts({ category, brand, thickness, search
       return normalizeProductDetails(mapped);
     });
 
-    const filtered = filterLocalProducts(mappedLocal, { category, brand, thickness, searchText });
+    const filtered = filterLocalProducts(deduplicateProducts(mappedLocal), { category, brand, thickness, searchText });
     const from = safePage * safePageSize;
     const paged = filtered.slice(from, from + safePageSize);
     const result = [...paged];
