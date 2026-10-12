@@ -1120,7 +1120,7 @@ export default function Checkout() {
                 {/* 🏗️ 현장 배송 조건 입력 필드 */}
                 <div className="form-group-checkout-radio-row">
                   <div className="radio-field">
-                    <label>엘리베이터 유무 <span className="req">*</span></label>
+                    <div className="checkout-optional-label-row"><label>엘리베이터 유무 <span className="opt">(선택)</span></label>{hasElevator && <button type="button" onClick={() => setHasElevator("")}>선택 해제</button>}</div>
                     <div className="checkout-radio-group">
                       <label className={`checkout-radio-label ${hasElevator === "yes" ? "active" : ""}`}>
                         <input
@@ -1152,7 +1152,7 @@ export default function Checkout() {
                   </div>
 
                   <div className="radio-field">
-                    <label>양중 작업(계단 운반) <span className="req">*</span></label>
+                    <div className="checkout-optional-label-row"><label>양중 작업(계단 운반) <span className="opt">(선택)</span></label>{needCarry && <button type="button" onClick={() => setNeedCarry("")}>선택 해제</button>}</div>
                     <div className="checkout-radio-group">
                       <label className={`checkout-radio-label ${needCarry === "no" ? "active" : ""}`}>
                         <input
@@ -1274,6 +1274,20 @@ export default function Checkout() {
                   </div>
                 </div>
 
+                {/* 경동화물 배송 카드 */}
+                <div className={`delivery-method-card ${deliveryMethod === "kyungdong" ? "active" : ""}`} onClick={() => setDeliveryMethod("kyungdong")}>
+                  <div className="delivery-card-header">
+                    <input type="radio" name="delivery_method_select" checked={deliveryMethod === "kyungdong"} onChange={() => setDeliveryMethod("kyungdong")} />
+                    <strong>경동화물 지점 배송</strong>
+                  </div>
+                  <div className="delivery-card-body">
+                    <div className="delivery-card-desc">인근 경동화물 영업소에서 직접 수령합니다.</div>
+                    <div className="delivery-info-item"><span className="info-label">수령 방식:</span><span className="info-val">경동화물 지점 직접 내방 수령</span></div>
+                    <div className="delivery-info-item"><span className="info-label">배송비:</span><span className="info-val text-warning">화물 비용 착불 (별도 안내)</span></div>
+                    <span className="delivery-status-note">* 주문 확인 후 수령 지점과 운임을 안내드립니다.</span>
+                  </div>
+                </div>
+
                 {/* 퀵 배송 카드 */}
                 <div 
                   className={`delivery-method-card ${deliveryMethod === "quick" ? "active" : ""}`}
@@ -1332,51 +1346,49 @@ export default function Checkout() {
               </div>
 
               {/* 대신화물 수령지 선택 패널 */}
-              {deliveryMethod === "cargo" && (
+              {isFreightDelivery && (
                 <div className="freight-branch-selector-box">
-                  <label>대신화물 수령 지점 지정 <span className="opt">(선택)</span></label>
+                  <label>{freightCarrierLabel} 수령 지점 지정 <span className="opt">(선택)</span></label>
                   <div style={{ display: 'flex', gap: '8px' }}>
                     <input 
                       type="text" 
-                      placeholder="도착을 희망하시는 대신화물 지점명 (주변 지점 확인을 이용해 검색해 보세요)"
-                      value={freightBranch.name}
-                      onChange={(e) => setFreightBranch({ ...freightBranch, name: e.target.value })}
+                      placeholder="희망하시는 수령 지점명 (미입력 시 주문 후 안내)"
+                      value={selectedFreightBranch.name}
+                      onChange={(e) => updateSelectedFreightBranch({ name: e.target.value, address: "", phone: "" })}
                       style={{ flex: 1, height: '42px', padding: '0 12px', fontSize: '13.5px', border: '1px solid var(--border)', borderRadius: 'var(--radius-md)', outline: 'none' }}
                     />
-                    <button 
+                    {deliveryMethod === "cargo" ? (<button 
                       type="button" 
                       className="btn-select-branch-trigger"
                       onClick={() => setShowBranchModal(true)}
                       style={{ height: '42px', padding: '0 16px' }}
                     >
                       주변 지점 확인
-                    </button>
+                    </button>) : (<a className="btn-select-branch-trigger" href="https://kdexp.com/" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", padding: "0 12px", minHeight: "42px", textDecoration: "none" }}>경동 영업소 조회</a>)}
                   </div>
                   
-                  {freightBranch.name ? (
+                  {selectedFreightBranch.name ? (
                     <div className="freight-branch-inputs">
                       <div className="form-group-checkout" style={{ gap: '4px' }}>
                         <span style={{ fontSize: '11px', color: 'var(--text-light)' }}>지점 주소</span>
                         <input 
                           type="text" 
-                          value={freightBranch.address} 
-                          onChange={(e) => setFreightBranch({ ...freightBranch, address: e.target.value })}
-                          readOnly
+                          value={selectedFreightBranch.address} 
+                          onChange={(e) => updateSelectedFreightBranch({ ...selectedFreightBranch, address: e.target.value })}
                         />
                       </div>
                       <div className="form-group-checkout" style={{ gap: '4px' }}>
                         <span style={{ fontSize: '11px', color: 'var(--text-light)' }}>지점 연락처</span>
                         <input 
                           type="text" 
-                          value={freightBranch.phone} 
-                          onChange={(e) => setFreightBranch({ ...freightBranch, phone: e.target.value })}
-                          readOnly
+                          value={selectedFreightBranch.phone} 
+                          onChange={(e) => updateSelectedFreightBranch({ ...selectedFreightBranch, phone: e.target.value })}
                         />
                       </div>
                     </div>
                   ) : (
                     <p style={{ margin: 0, fontSize: '12px', color: 'var(--text-light)', lineHeight: '1.4' }}>
-                      💡 지점을 선택하거나 입력하지 않으시면 주문서 주소를 확인하고 가장 가까운 지점을 임의 배정하여 전화 통화 시 안내 드립니다.
+                      💡 지점을 입력하지 않아도 주문 가능합니다. 주문 확인 후 수령 가능한 {freightCarrierLabel} 지점을 안내드립니다.
                     </p>
                   )}
                 </div>
