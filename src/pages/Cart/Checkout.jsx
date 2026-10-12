@@ -62,8 +62,8 @@ export default function Checkout() {
   });
 
   const [paymentMethod, setPaymentMethod] = useState("계좌이체"); // 계좌이체 | 동경바닥재 방문결제
-  const [hasElevator, setHasElevator] = useState("yes"); // yes | no
-  const [needCarry, setNeedCarry] = useState("no"); // yes | no
+  const [hasElevator, setHasElevator] = useState(""); // optional: "" | yes | no
+  const [needCarry, setNeedCarry] = useState(""); // optional: "" | yes | no
   const [loading, setLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState("");
   const [isOrderSuccess, setIsOrderSuccess] = useState(false);
@@ -93,6 +93,19 @@ export default function Checkout() {
     const saved = sessionStorage.getItem("checkout_freight_branch");
     return saved ? JSON.parse(saved) : { name: "", address: "", phone: "" };
   });
+  const [kyungdongBranch, setKyungdongBranch] = useState(() => {
+    try {
+      const stored = sessionStorage.getItem("checkout_kyungdong_branch");
+      return stored ? JSON.parse(stored) : { name: "", address: "", phone: "" };
+    } catch {
+      return { name: "", address: "", phone: "" };
+    }
+  });
+  const isFreightDelivery = deliveryMethod === "cargo" || deliveryMethod === "kyungdong";
+  const freightCarrierLabel = deliveryMethod === "kyungdong" ? "경동화물" : "대신화물";
+  const selectedFreightBranch = deliveryMethod === "kyungdong" ? kyungdongBranch : freightBranch;
+  const updateSelectedFreightBranch = deliveryMethod === "kyungdong" ? setKyungdongBranch : setFreightBranch;
+
   const [customAccessories, setCustomAccessories] = useState(() => {
     const saved = sessionStorage.getItem("checkout_custom_accessories");
     return saved ? JSON.parse(saved) : [];
@@ -109,6 +122,10 @@ export default function Checkout() {
   useEffect(() => {
     sessionStorage.setItem("checkout_freight_branch", JSON.stringify(freightBranch));
   }, [freightBranch]);
+
+  useEffect(() => {
+    sessionStorage.setItem("checkout_kyungdong_branch", JSON.stringify(kyungdongBranch));
+  }, [kyungdongBranch]);
 
   useEffect(() => {
     sessionStorage.setItem("checkout_custom_accessories", JSON.stringify(customAccessories));
@@ -529,6 +546,10 @@ export default function Checkout() {
         deliveryLabel = "무료배송";
         deliveryFee = "0원";
         deliveryFeeStatus = "free";
+      } else if (deliveryMethod === "kyungdong") {
+        deliveryLabel = "경동화물 지점 배송";
+        deliveryFee = "착불 (별도 안내)";
+        deliveryFeeStatus = "cod";
       } else if (deliveryMethod === "quick") {
         deliveryLabel = "퀵 배송";
         deliveryFee = "착불 (거리비례)";
@@ -553,7 +574,7 @@ export default function Checkout() {
         customAccText = `\n[상담요청 부자재] ${customAccessories.join(", ")}`;
       }
 
-      const siteInfo = `[현장정보] 엘리베이터: ${hasElevator === "yes" ? "있음" : "없음"} / 양중(계단운반): ${needCarry === "yes" ? "필요(운임협의)" : "불필요(1층하차)"}`;
+      const siteInfo = `[현장정보] 엘리베이터: ${hasElevator === "yes" ? "있음" : hasElevator === "no" ? "없음" : "미입력"} / 양중(계단운반): ${needCarry === "yes" ? "필요(운임협의)" : needCarry === "no" ? "불필요(1층하차)" : "미입력"}`;
       const finalMemo = `${siteInfo}\n[요청사항] ${customer.memo || "없음"}${customAccText}`;
 
       // Assemble customer payload
@@ -569,9 +590,9 @@ export default function Checkout() {
         shipping_address: `${customer.address} ${customer.address_detail || ""}`.trim(),
         
         // Freight branch details
-        freight_branch_name: deliveryMethod === "cargo" ? (freightBranch.name || null) : null,
-        freight_branch_address: deliveryMethod === "cargo" ? (freightBranch.address || null) : null,
-        freight_branch_phone: deliveryMethod === "cargo" ? (freightBranch.phone || null) : null,
+        freight_branch_name: isFreightDelivery ? (selectedFreightBranch.name || null) : null,
+        freight_branch_address: isFreightDelivery ? (selectedFreightBranch.address || null) : null,
+        freight_branch_phone: isFreightDelivery ? (selectedFreightBranch.phone || null) : null,
 
         // Free shipping details
         free_shipping_eligible: freeShippingInfo.eligible,
@@ -612,6 +633,7 @@ export default function Checkout() {
       // Clear session storage values
       sessionStorage.removeItem("checkout_delivery_method");
       sessionStorage.removeItem("checkout_freight_branch");
+       sessionStorage.removeItem("checkout_kyungdong_branch");
       sessionStorage.removeItem("checkout_custom_accessories");
 
       // 비동기 알림 발송
