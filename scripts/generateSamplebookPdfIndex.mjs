@@ -18,7 +18,7 @@ const basename = (value) => String(value || "").split("/").pop().replace(/\.pdf$
 const normalize = (value) => String(value || "").normalize("NFKC").toLocaleLowerCase().replace(/[^\p{L}\p{N}]/gu, "");
 const categories = ["데코타일", "장판", "마루", "벽지", "카페트타일", "러버타일"];
 const brands = ["KCC", "LX", "동신", "재영", "유성", "녹수", "현대", "우성", "이건", "동화", "구정", "개나리", "서울", "제일", "DID", "신한", "스완", "어반"];
-const fileToUrl = relative => "/samplebook-assets/" + relative.split(path.sep).map(encodeURIComponent).join("/");
+const fileToUrl = relative => "/samplebook-assets/" + relative.split("/").map(encodeURIComponent).join("/");
 const normalizeRelative = value => String(value || "").split("/").map(part => {
   try { return decodeURIComponent(part); } catch { return part; }
 }).join("/").normalize("NFKC").toLocaleLowerCase();
