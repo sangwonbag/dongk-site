@@ -7,7 +7,13 @@ export const sampleBooks = [
         "cover": "/samplebook-assets/Thumbnail_image/장판/LX/LX장판_1.8T/LX장판_1.8T.png",
         "pdf": "/samplebook-assets/장판/LX/2025 뉴청맥(1.8T).pdf",
         "description": "LX 실속형 장판 컬렉션",
-        "isRecommended": true
+        "isRecommended": true,
+        "catalogUrl": "https://www.b2bzincatalog.com/digital/samplebook/newchungmac/",
+        "catalogType": "external_viewer",
+        "catalogProvider": "LX하우시스",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "lx-xcomfort-2025",
@@ -16,7 +22,13 @@ export const sampleBooks = [
         "category": "장판",
         "cover": "/samplebook-assets/Thumbnail_image/장판/LX/LX장판_5.0T/LX장판_5.0T.png",
         "pdf": "/samplebook-assets/장판/LX/2025 엑스컴포트(5.0T).pdf",
-        "description": "고급 안심 매트 장판"
+        "description": "고급 안심 매트 장판",
+        "catalogUrl": "https://www.b2bzincatalog.com/digital/samplebook/xcomfort/",
+        "catalogType": "external_viewer",
+        "catalogProvider": "LX하우시스",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "lx-unhaengmok-2025",
@@ -25,7 +37,13 @@ export const sampleBooks = [
         "category": "장판",
         "cover": "/samplebook-assets/Thumbnail_image/장판/LX/LX장판_2.0T/LX장판_2.0T.png",
         "pdf": "/samplebook-assets/장판/LX/2025 은행목(2.0T).pdf",
-        "description": "LX 실용적인 바닥재"
+        "description": "LX 실용적인 바닥재",
+        "catalogUrl": "https://www.b2bzincatalog.com/digital/samplebook/eunhaengmok/",
+        "catalogType": "external_viewer",
+        "catalogProvider": "LX하우시스",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "lx-jiasarang-2025",
@@ -34,7 +52,13 @@ export const sampleBooks = [
         "category": "장판",
         "cover": "/samplebook-assets/Thumbnail_image/장판/LX/LX장판_2.7T_3.2T/LX장판_2.7T_3.2T.png",
         "pdf": "/samplebook-assets/장판/LX/2025 지아사랑애(3.2T,2.7T).pdf",
-        "description": "친환경 지아(ZIA) 컬렉션"
+        "description": "친환경 지아(ZIA) 컬렉션",
+        "catalogUrl": "https://www.b2bzincatalog.com/digital/samplebook/zeasarangae/",
+        "catalogType": "external_viewer",
+        "catalogProvider": "LX하우시스",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "lx-jiasorijam-2025",
@@ -43,7 +67,13 @@ export const sampleBooks = [
         "category": "장판",
         "cover": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%86%8C%EB%A6%AC%EC%9E%A0_4.5T/ZS80021-11.jpg",
         "pdf": "/samplebook-assets/장판/LX/2025 지아소리잠(4.5T).pdf",
-        "description": "충격 흡수 및 소음 저감 바닥재"
+        "description": "충격 흡수 및 소음 저감 바닥재",
+        "catalogUrl": "https://www.b2bzincatalog.com/digital/samplebook/zeasorijam/",
+        "catalogType": "external_viewer",
+        "catalogProvider": "LX하우시스",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "lx-jiajayeonae-2026",
@@ -52,7 +82,13 @@ export const sampleBooks = [
         "category": "장판",
         "cover": "/samplebook-assets/Thumbnail_image/장판/LX/LX장판_2.2T/LX장판_2.2T.png",
         "pdf": "/samplebook-assets/장판/LX/2026 지아자연애(2.2T).pdf",
-        "description": "트렌디한 디자인의 바닥재"
+        "description": "트렌디한 디자인의 바닥재",
+        "catalogUrl": "https://www.b2bzincatalog.com/digital/samplebook/zeajayeonae/",
+        "catalogType": "external_viewer",
+        "catalogProvider": "LX하우시스",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "lx-botanic-2025",
@@ -61,7 +97,13 @@ export const sampleBooks = [
         "category": "데코타일",
         "cover": "/samplebook-assets/Thumbnail_image/데코타일/LX/2025 보타닉/cover.png",
         "pdf": "/samplebook-assets/데코타일/LX/2025 보타닉.pdf",
-        "description": "친환경 주거용 바닥재"
+        "description": "친환경 주거용 바닥재",
+        "catalogUrl": "https://www.b2bzincatalog.com/digital/samplebook/botanic/",
+        "catalogType": "external_viewer",
+        "catalogProvider": "LX하우시스",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "lx-editon-stone-2025",
@@ -71,7 +113,13 @@ export const sampleBooks = [
         "cover": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200065%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4%20%EB%AF%B8%EC%8A%A4%ED%8A%B8.jpg",
         "pdf": "/samplebook-assets/데코타일/LX/2025 에디톤 스톤.pdf",
         "description": "고급스러운 스톤 디자인 데코타일",
-        "isRecommended": true
+        "isRecommended": true,
+        "catalogUrl": "https://www.b2bzincatalog.com/digital/samplebook/editonestone/",
+        "catalogType": "external_viewer",
+        "catalogProvider": "LX하우시스",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "lx-econoplus-2025",
@@ -80,7 +128,13 @@ export const sampleBooks = [
         "category": "데코타일",
         "cover": "/samplebook-assets/Thumbnail_image/데코타일/LX/2025 에코노플러스/cover.png",
         "pdf": "/samplebook-assets/데코타일/LX/2025 에코노플러스.pdf",
-        "description": "LX 상업용/주거용 데코타일"
+        "description": "LX 상업용/주거용 데코타일",
+        "catalogUrl": "https://www.b2bzincatalog.com/digital/samplebook/econoplus/",
+        "catalogType": "external_viewer",
+        "catalogProvider": "LX하우시스",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "lx-prestige-2025",
@@ -88,7 +142,14 @@ export const sampleBooks = [
         "brand": "LX",
         "category": "데코타일",
         "pdf": "/samplebook-assets/데코타일/LX/2025 프레스티지.pdf",
-        "description": "프리미엄 데코타일 컬렉션"
+        "description": "프리미엄 데코타일 컬렉션",
+        "cover": "/samplebook-assets/Thumbnail_image/데코타일/LX/2025 보타닉/cover.png",
+        "catalogUrl": "https://www.b2bzincatalog.com/digital/samplebook/prestg/",
+        "catalogType": "external_viewer",
+        "catalogProvider": "LX하우시스",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "lx-house-2025",
@@ -97,7 +158,13 @@ export const sampleBooks = [
         "category": "데코타일",
         "cover": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200065%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4%20%EB%AF%B8%EC%8A%A4%ED%8A%B8.jpg",
         "pdf": "/samplebook-assets/데코타일/LX/2025 하우스.pdf",
-        "description": "주거용 리모델링 최적화 데코타일"
+        "description": "주거용 리모델링 최적화 데코타일",
+        "catalogUrl": "https://www.b2bzincatalog.com/digital/samplebook/house/",
+        "catalogType": "external_viewer",
+        "catalogProvider": "LX하우시스",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "lx-housestyle-2025",
@@ -106,7 +173,13 @@ export const sampleBooks = [
         "category": "데코타일",
         "cover": "/samplebook-assets/Thumbnail_image/데코타일/LX/2025 하우스스타일/cover.png",
         "pdf": "/samplebook-assets/데코타일/LX/2025 하우스스타일.pdf",
-        "description": "LX 하우스스타일 컬렉션"
+        "description": "LX 하우스스타일 컬렉션",
+        "catalogUrl": "https://www.b2bzincatalog.com/digital/samplebook/housestyle/",
+        "catalogType": "external_viewer",
+        "catalogProvider": "LX하우시스",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "lx-eq-floor-2025",
@@ -115,7 +188,14 @@ export const sampleBooks = [
         "category": "장판",
         "thickness": "6.0T",
         "pdf": "/samplebook-assets/장판/LX/2025 EQ플로어.pdf",
-        "description": "6.0T 교육용 시트 바닥재"
+        "description": "6.0T 교육용 시트 바닥재",
+        "cover": "/samplebook-assets/Thumbnail_image/장판/LX/LX장판_5.0T/LX장판_5.0T.png",
+        "catalogUrl": "https://www.b2bzincatalog.com/digital/samplebook/eqfloor/",
+        "catalogType": "external_viewer",
+        "catalogProvider": "LX하우시스",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "lx-oa-tile-2025",
@@ -124,7 +204,13 @@ export const sampleBooks = [
         "category": "데코타일",
         "cover": "/samplebook-assets/Thumbnail_image/데코타일/LX/2025 OA타일/cover.png",
         "pdf": "/samplebook-assets/데코타일/LX/2025 OA타일.pdf",
-        "description": "Looselay 스탠다드 OA 타일"
+        "description": "Looselay 스탠다드 OA 타일",
+        "catalogUrl": "https://www.b2bzincatalog.com/digital/samplebook/OAtile/",
+        "catalogType": "external_viewer",
+        "catalogProvider": "LX하우시스",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "lx-rexcourt-2025",
@@ -132,7 +218,14 @@ export const sampleBooks = [
         "brand": "LX",
         "category": "장판",
         "pdf": "/samplebook-assets/장판/LX/2025 렉스코트.pdf",
-        "description": "Sports Flooring 전문 바닥재"
+        "description": "Sports Flooring 전문 바닥재",
+        "cover": "/samplebook-assets/Thumbnail_image/장판/LX/LX장판_2.7T_3.2T/LX장판_2.7T_3.2T.png",
+        "catalogUrl": "https://www.b2bzincatalog.com/digital/samplebook/rexcourt/",
+        "catalogType": "external_viewer",
+        "catalogProvider": "LX하우시스",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "kcc-senstyle-trendy-2025",
@@ -142,17 +235,29 @@ export const sampleBooks = [
         "cover": "/samplebook-assets/Thumbnail_image/데코타일/KCC/senstyle_trendy_page1.png",
         "pdf": "/samplebook-assets/데코타일/KCC/센스타일 트랜디_카탈로그_KCC글라스.pdf",
         "description": "KCC 글라스 대표 데코타일",
-        "isRecommended": true
+        "isRecommended": true,
+        "catalogUrl": "https://www.homecc.com/catalog/lvt/sensetiletrendy/hcc.do?/tjqvi/afmy",
+        "catalogType": "external_viewer",
+        "catalogProvider": "KCC글라스",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "dongshin-polyma-samplebook",
-        "title": "동신포리마 2026 E-Catalog",
+        "title": "동신 아트타일 2026 E-Catalog",
         "brand": "동신",
         "category": "데코타일",
         "cover": "/samplebook-assets/Thumbnail_image/데코타일/동신/동신아트타일_cover.jpg",
         "pdf": "/samplebook-assets/데코타일/동신/동신포리마샘플북.pdf",
-        "description": "동신포리마 2026 E-Catalog 종합 샘플북",
-        "isRecommended": true
+        "description": "동신 아트타일 / 동신포리마 2026 E-Catalog 종합 데코타일 샘플북",
+        "isRecommended": true,
+        "catalogUrl": "http://www.dsarttile.co.kr/kr/sub/customer/download.php",
+        "catalogType": "official_page",
+        "catalogProvider": "동신포리마",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "noxo-ecohome-2000",
@@ -161,7 +266,13 @@ export const sampleBooks = [
         "category": "데코타일",
         "cover": "/samplebook-assets/Thumbnail_image/데코타일/녹수/에코홈2000/ecohome2000_page1.png",
         "pdf": "/samplebook-assets/데코타일/녹수/에코홈2000.pdf",
-        "description": "녹수 에코홈 2000 데코타일 샘플북"
+        "description": "녹수 에코홈 2000 데코타일 샘플북",
+        "catalogUrl": null,
+        "catalogType": "none",
+        "catalogProvider": "녹수(NOX)",
+        "catalogStatus": "unverified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": "제조사 공식 온라인 E-카탈로그 뷰어 미확인"
     },
     {
         "id": "noxo-orchid-3000",
@@ -170,7 +281,13 @@ export const sampleBooks = [
         "category": "데코타일",
         "cover": "/samplebook-assets/Thumbnail_image/데코타일/녹수/오키드3000/orchid3000_page1.png",
         "pdf": "/samplebook-assets/데코타일/녹수/오키드3000.pdf",
-        "description": "녹수 오키드 3000 데코타일 샘플북"
+        "description": "녹수 오키드 3000 데코타일 샘플북",
+        "catalogUrl": null,
+        "catalogType": "none",
+        "catalogProvider": "녹수(NOX)",
+        "catalogStatus": "unverified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": "제조사 공식 온라인 E-카탈로그 뷰어 미확인"
     },
     {
         "id": "noxo-prime-1500",
@@ -179,7 +296,13 @@ export const sampleBooks = [
         "category": "데코타일",
         "cover": "/samplebook-assets/Thumbnail_image/데코타일/녹수/프라임1500/prime1500_page1.png",
         "pdf": "/samplebook-assets/데코타일/녹수/프라임1500.pdf",
-        "description": "녹수 프라임 1500 데코타일 샘플북"
+        "description": "녹수 프라임 1500 데코타일 샘플북",
+        "catalogUrl": null,
+        "catalogType": "none",
+        "catalogProvider": "녹수(NOX)",
+        "catalogStatus": "unverified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": "제조사 공식 온라인 E-카탈로그 뷰어 미확인"
     },
     {
         "id": "yuseong-fineo-deluxe",
@@ -189,7 +312,13 @@ export const sampleBooks = [
         "cover": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%EC%9C%A0%EC%84%B1_%EB%94%94%EB%9F%AD%EC%8A%A4_%EC%A0%9C%ED%92%88%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%BD%94%EB%93%9C%EB%AA%85/%ED%94%BC%EB%84%A4%EC%98%A4%EA%B3%A8%EB%93%9C/FG01_%ED%94%BC%EB%84%A4%EC%98%A4%EA%B3%A8%EB%93%9C.png",
         "pdf": "/samplebook-assets/데코타일/유성/유성_피네오 디럭스타일/유성_피네오 디럭스타일.pdf",
         "description": "유성 피네오 디럭스타일 데코타일 샘플북",
-        "isRecommended": true
+        "isRecommended": true,
+        "catalogUrl": null,
+        "catalogType": "none",
+        "catalogProvider": "유성씨앤에프",
+        "catalogStatus": "unverified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": "제조사 공식 온라인 E-카탈로그 뷰어 미확인"
     },
     {
         "id": "yuseong-fineo-unique",
@@ -199,7 +328,13 @@ export const sampleBooks = [
         "cover": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%EC%9C%A0%EC%84%B1_%EB%94%94%EB%9F%AD%EC%8A%A4_%EC%A0%9C%ED%92%88%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%BD%94%EB%93%9C%EB%AA%85/%ED%94%BC%EB%84%A4%EC%98%A4%EA%B3%A8%EB%93%9C/FG01_%ED%94%BC%EB%84%A4%EC%98%A4%EA%B3%A8%EB%93%9C.png",
         "pdf": "/samplebook-assets/데코타일/유성/유성_피네오 유니크타일/유성_피네오 유니크타일.pdf",
         "description": "유성 피네오 유니크타일 데코타일 샘플북",
-        "isRecommended": true
+        "isRecommended": true,
+        "catalogUrl": null,
+        "catalogType": "none",
+        "catalogProvider": "유성씨앤에프",
+        "catalogStatus": "unverified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": "제조사 공식 온라인 E-카탈로그 뷰어 미확인"
     },
     {
         "id": "yuseong-pione-modern2",
@@ -208,7 +343,13 @@ export const sampleBooks = [
         "category": "데코타일",
         "cover": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205101%20.jpg",
         "pdf": "/samplebook-assets/데코타일/유성/유성_피오네 모던2/유성_피오네 모던2.pdf",
-        "description": "유성 피오네 모던2 데코타일 샘플북"
+        "description": "유성 피오네 모던2 데코타일 샘플북",
+        "catalogUrl": null,
+        "catalogType": "none",
+        "catalogProvider": "유성씨앤에프",
+        "catalogStatus": "unverified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": "제조사 공식 온라인 E-카탈로그 뷰어 미확인"
     },
     {
         "id": "hyundai-goldtile-classic",
@@ -217,7 +358,13 @@ export const sampleBooks = [
         "category": "데코타일",
         "cover": "/samplebook-assets/Thumbnail_image/데코타일/현대/골드타일 클래식/goldtile_classic_page1.png",
         "pdf": "/samplebook-assets/데코타일/현대/골드타일 클래식/골드타일 클래식.pdf",
-        "description": "현대 골드타일 클래식 데코타일 샘플북"
+        "description": "현대 골드타일 클래식 데코타일 샘플북",
+        "catalogUrl": "https://www.hyundailnc.com/product/contents?mng_cd=18B5D8EF",
+        "catalogType": "official_page",
+        "catalogProvider": "현대L&C",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "hyundai-goldtile-master",
@@ -226,7 +373,13 @@ export const sampleBooks = [
         "category": "데코타일",
         "cover": "/samplebook-assets/Thumbnail_image/데코타일/현대/골드타일 마스터/골드타일마스터썸네일.png",
         "pdf": "/samplebook-assets/데코타일/현대/골드타일 마스터/골드타일 마스터.pdf",
-        "description": "현대 골드타일 마스터 데코타일 샘플북"
+        "description": "현대 골드타일 마스터 데코타일 샘플북",
+        "catalogUrl": "https://www.hyundailnc.com/product/contents?mng_cd=D58B15D4",
+        "catalogType": "official_page",
+        "catalogProvider": "현대L&C",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "hyundai-deluxetile",
@@ -235,7 +388,13 @@ export const sampleBooks = [
         "category": "데코타일",
         "cover": "/samplebook-assets/Thumbnail_image/데코타일/현대/디럭스타일/deluxe_style_page1.png",
         "pdf": "/samplebook-assets/데코타일/현대/디럭스타일/디럭스타일.pdf",
-        "description": "현대 디럭스타일 샘플북"
+        "description": "현대 디럭스타일 샘플북",
+        "catalogUrl": "https://www.hyundailnc.com/product/contents?mng_cd=CE8C1780",
+        "catalogType": "official_page",
+        "catalogProvider": "현대L&C",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "hyundai-goldtile-relic",
@@ -244,7 +403,13 @@ export const sampleBooks = [
         "category": "데코타일",
         "cover": "/samplebook-assets/Thumbnail_image/데코타일/현대/골드타일 레릭/goldtile_relic_page1.png",
         "pdf": "/samplebook-assets/데코타일/현대/골드타일 레릭/골드타일 레릭.pdf",
-        "description": "현대 골드타일 레릭 데코타일 샘플북"
+        "description": "현대 골드타일 레릭 데코타일 샘플북",
+        "catalogUrl": "https://www.hyundailnc.com/product/contents?mng_cd=1411D801",
+        "catalogType": "official_page",
+        "catalogProvider": "현대L&C",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "hyundai-nobletile",
@@ -253,7 +418,13 @@ export const sampleBooks = [
         "category": "데코타일",
         "cover": "/samplebook-assets/Thumbnail_image/데코타일/현대/노블타일/노블타일썸네일.jpg",
         "pdf": "/samplebook-assets/데코타일/현대/노블타일/노블타일.pdf",
-        "description": "현대 노블타일 데코타일 샘플북"
+        "description": "현대 노블타일 데코타일 샘플북",
+        "catalogUrl": "https://www.hyundailnc.com/product/contents?mng_cd=80F7A45B",
+        "catalogType": "official_page",
+        "catalogProvider": "현대L&C",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "hyundai-carpet-tile",
@@ -262,25 +433,46 @@ export const sampleBooks = [
         "category": "카페트타일",
         "cover": "/samplebook-assets/Thumbnail_image/데코타일/현대/카펫타일/carpet_tile_page1.png",
         "pdf": "/samplebook-assets/데코타일/현대/카펫타일/카펫타일.pdf",
-        "description": "현대 카펫타일 샘플북"
+        "description": "현대 카펫타일 샘플북",
+        "catalogUrl": "https://www.hyundailnc.com/product/contents?mng_cd=6B25807C",
+        "catalogType": "official_page",
+        "catalogProvider": "현대L&C",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "lx-hapji",
-        "title": "LX 합지 벽지",
+        "title": "LX 합지 벽지 (베스트 합지)",
         "brand": "LX",
         "category": "벽지",
         "materialType": "합지",
-        "cover": "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D/PR002-01.jpg",
-        "description": "LX 합지 벽지 샘플북"
+        "cover": "/samplebook-assets/Thumbnail_image/벽지/LX/실크/LX_베스트/8190-01.jpg",
+        "description": "LX 하우시스 실속형 친환경 합지 벽지",
+        "pdf": "/samplebook-assets/벽지/LX/합지/LX_합지벽지.pdf",
+        "catalogUrl": "https://www.b2bzincatalog.com/digital/samplebook/therapy/",
+        "catalogType": "external_viewer",
+        "catalogProvider": "LX하우시스",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "lx-silk",
-        "title": "LX 실크 벽지",
+        "title": "LX 실크 벽지 (베스트 / 테라피)",
         "brand": "LX",
         "category": "벽지",
         "materialType": "실크",
-        "cover": "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D/PR002-01.jpg",
-        "description": "LX 실크 벽지 샘플북"
+        "cover": "/samplebook-assets/Thumbnail_image/벽지/LX/실크/LX_테라피/7043-01.jpg",
+        "description": "LX 하우시스 대표 실크 벽지 베스트&테라피 컬렉션",
+        "pdf": "/samplebook-assets/벽지/LX/실크/LX_실크벽지(베스트_테라피).pdf",
+        "isRecommended": true,
+        "catalogUrl": "https://www.b2bzincatalog.com/digital/samplebook/bestie/",
+        "catalogType": "external_viewer",
+        "catalogProvider": "LX하우시스",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "lx-fire",
@@ -288,8 +480,15 @@ export const sampleBooks = [
         "brand": "LX",
         "category": "벽지",
         "materialType": "방염",
-        "cover": "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/LX/%EB%94%94%EC%95%84%EB%A7%9D/LX_%EB%94%94%EC%95%84%EB%A7%9D/PR002-01.jpg",
-        "description": "LX 방염 벽지 샘플북"
+        "cover": "/samplebook-assets/Thumbnail_image/벽지/LX/디아망/LX_디아망포티스/DF001-01.jpg",
+        "description": "LX 하우시스 소방 안전 기준 준수 방염 벽지",
+        "pdf": "/samplebook-assets/벽지/LX/방염/LX_방염벽지.pdf",
+        "catalogUrl": "https://www.b2bzincatalog.com/digital/samplebook/diamantfortis/",
+        "catalogType": "external_viewer",
+        "catalogProvider": "LX하우시스",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "gaenari-lohas",
@@ -299,7 +498,13 @@ export const sampleBooks = [
         "materialType": "실크",
         "cover": "/samplebook-assets/Thumbnail_image/벽지/개나리/실크/로하스/lohas_page1_full.png",
         "pdf": "/samplebook-assets/벽지/개나리/실크/로하스.pdf",
-        "description": "개나리 대표 실크 벽지 로하스"
+        "description": "개나리 대표 실크 벽지 로하스",
+        "catalogUrl": "https://www.gniwallpaper.com/product/index.php?ctg_code=lohas&code=10&br_code=br_1",
+        "catalogType": "official_page",
+        "catalogProvider": "개나리벽지",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "gaenari-artbook",
@@ -309,7 +514,13 @@ export const sampleBooks = [
         "materialType": "실크",
         "cover": "/samplebook-assets/Thumbnail_image/벽지/개나리/실크/아트북/artbook_page1_full.png",
         "pdf": "/samplebook-assets/벽지/개나리/실크/아트북.pdf",
-        "description": "개나리 트렌디 실크 벽지 아트북"
+        "description": "개나리 트렌디 실크 벽지 아트북",
+        "catalogUrl": "https://www.gniwallpaper.com/product/index.php?ctg_code=artbook&code=10&br_code=br_3",
+        "catalogType": "official_page",
+        "catalogProvider": "개나리벽지",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "gaenari-story",
@@ -319,7 +530,13 @@ export const sampleBooks = [
         "materialType": "합지",
         "cover": "/samplebook-assets/Thumbnail_image/벽지/개나리/합지(소폭)/story_page1_full.png",
         "pdf": "/samplebook-assets/벽지/개나리/합지/스토리(소폭합지).pdf",
-        "description": "개나리 실속형 소폭 합지 벽지"
+        "description": "개나리 실속형 소폭 합지 벽지",
+        "catalogUrl": "https://www.gniwallpaper.com/product/index.php?ctg_code=story&code=11&br_code=br_7",
+        "catalogType": "official_page",
+        "catalogProvider": "개나리벽지",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "gaenari-trendy",
@@ -329,7 +546,13 @@ export const sampleBooks = [
         "materialType": "합지",
         "cover": "/samplebook-assets/Thumbnail_image/벽지/개나리/합지(장폭)/trendy_page1_full.png",
         "pdf": "/samplebook-assets/벽지/개나리/합지/트랜디(고급장폭).pdf",
-        "description": "개나리 고급 장폭 합지 벽지 트랜디"
+        "description": "개나리 고급 장폭 합지 벽지 트랜디",
+        "catalogUrl": "https://www.gniwallpaper.com/product/index.php?ctg_code=trendy&code=11&br_code=br_5",
+        "catalogType": "official_page",
+        "catalogProvider": "개나리벽지",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "gaenari-fire",
@@ -339,7 +562,13 @@ export const sampleBooks = [
         "materialType": "방염",
         "cover": "/samplebook-assets/Thumbnail_image/벽지/개나리/방염/방염썸네일.png",
         "pdf": "/samplebook-assets/벽지/개나리/방염/방염.pdf",
-        "description": "개나리 안전 방염 벽지"
+        "description": "개나리 안전 방염 벽지",
+        "catalogUrl": "https://www.gniwallpaper.com/product/index.php?ctg_code=fireproof&code=13",
+        "catalogType": "official_page",
+        "catalogProvider": "개나리벽지",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "gaenari-primo",
@@ -349,7 +578,13 @@ export const sampleBooks = [
         "materialType": "프리미엄",
         "cover": "/samplebook-assets/Thumbnail_image/벽지/개나리/프리미엄/primo_page1_full.png",
         "pdf": "/samplebook-assets/벽지/개나리/프리미엄/프리모.pdf",
-        "description": "개나리 프리미엄 벽지 컬렉션"
+        "description": "개나리 프리미엄 벽지 컬렉션",
+        "catalogUrl": "https://www.gniwallpaper.com/product/index.php?ctg_code=primo&code=10&br_code=br_8",
+        "catalogType": "official_page",
+        "catalogProvider": "개나리벽지",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "seoul-hapji",
@@ -357,8 +592,15 @@ export const sampleBooks = [
         "brand": "서울",
         "category": "벽지",
         "materialType": "합지",
-        "cover": "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EB%B0%A9%EC%97%BC/1000-1.jpg",
-        "description": "서울 합지 벽지 샘플북"
+        "cover": "/samplebook-assets/Thumbnail_image/벽지/서울/합지/100-1.jpg",
+        "description": "서울벽지 실속형 친환경 합지 벽지",
+        "pdf": "/samplebook-assets/벽지/서울/합지/서울_합지벽지.pdf",
+        "catalogUrl": "https://www.seoulwallpaper.co.kr/collection/collection.php?search_category=7",
+        "catalogType": "official_page",
+        "catalogProvider": "서울벽지",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "seoul-silk",
@@ -366,8 +608,15 @@ export const sampleBooks = [
         "brand": "서울",
         "category": "벽지",
         "materialType": "실크",
-        "cover": "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EB%B0%A9%EC%97%BC/1000-1.jpg",
-        "description": "서울 실크 벽지 샘플북"
+        "cover": "/samplebook-assets/Thumbnail_image/벽지/서울/실크/1000-1.jpg",
+        "description": "서울벽지 대표 고품격 실크 벽지 컬렉션",
+        "pdf": "/samplebook-assets/벽지/서울/실크/서울_실크벽지.pdf",
+        "catalogUrl": "https://www.seoulwallpaper.co.kr/collection/collection.php?search_category=1",
+        "catalogType": "official_page",
+        "catalogProvider": "서울벽지",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "seoul-fire",
@@ -375,8 +624,15 @@ export const sampleBooks = [
         "brand": "서울",
         "category": "벽지",
         "materialType": "방염",
-        "cover": "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EC%84%9C%EC%9A%B8/%EB%B0%A9%EC%97%BC/1000-1.jpg",
-        "description": "서울 방염 벽지 샘플북"
+        "cover": "/samplebook-assets/Thumbnail_image/벽지/서울/방염/1000-1.jpg",
+        "description": "서울벽지 공공/상업용 안전 방염 벽지",
+        "pdf": "/samplebook-assets/벽지/서울/방염/서울_방염벽지.pdf",
+        "catalogUrl": "https://www.seoulwallpaper.co.kr/collection/collection.php?search_category=6",
+        "catalogType": "official_page",
+        "catalogProvider": "서울벽지",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "jeil-hapji",
@@ -384,7 +640,15 @@ export const sampleBooks = [
         "brand": "제일",
         "category": "벽지",
         "materialType": "합지",
-        "description": "제일 합지 벽지 샘플북"
+        "description": "제일벽지 실속형 친환경 합지 벽지",
+        "pdf": "/samplebook-assets/벽지/제일/합지/제일_합지벽지.pdf",
+        "cover": "/samplebook-assets/Thumbnail_image/벽지/개나리/합지(소폭)/story_page1_full.png",
+        "catalogUrl": "https://www.jeilwallpaper.com/kor/%EC%A0%9C%ED%92%88%EC%86%8C%EA%B0%9C/%ED%95%A9%EC%A7%80-%EB%B8%8C%EB%9E%9C%EB%93%9C",
+        "catalogType": "official_page",
+        "catalogProvider": "제일벽지",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "jeil-silk",
@@ -392,7 +656,15 @@ export const sampleBooks = [
         "brand": "제일",
         "category": "벽지",
         "materialType": "실크",
-        "description": "제일 실크 벽지 샘플북"
+        "description": "제일벽지 고품격 디자인 실크 벽지",
+        "pdf": "/samplebook-assets/벽지/제일/실크/제일_실크벽지.pdf",
+        "cover": "/samplebook-assets/Thumbnail_image/벽지/개나리/실크/아트북/artbook_page1_full.png",
+        "catalogUrl": "https://www.jeilwallpaper.com/kor/%EC%A0%9C%ED%92%88%EC%86%8C%EA%B0%9C/%EC%8B%A4%ED%81%AC-%EB%B8%8C%EB%9E%9C%EB%93%9C",
+        "catalogType": "official_page",
+        "catalogProvider": "제일벽지",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "jeil-fire",
@@ -400,16 +672,31 @@ export const sampleBooks = [
         "brand": "제일",
         "category": "벽지",
         "materialType": "방염",
-        "description": "제일 방염 벽지 샘플북"
+        "description": "제일벽지 한국소방산업기술원 검정 방염 벽지",
+        "pdf": "/samplebook-assets/벽지/제일/방염/제일_방염벽지.pdf",
+        "cover": "/samplebook-assets/Thumbnail_image/벽지/개나리/방염/방염썸네일.png",
+        "catalogUrl": "https://www.jeilwallpaper.com/kor/%EC%A0%9C%ED%92%88%EC%86%8C%EA%B0%9C/%EC%8B%A4%ED%81%AC-%EB%B8%8C%EB%9E%9C%EB%93%9C",
+        "catalogType": "official_page",
+        "catalogProvider": "제일벽지",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "did-hapji",
-        "title": "디아이디 합지 벽지",
+        "title": "디아이디 합지 벽지 (더원)",
         "brand": "디아이디",
         "category": "벽지",
         "materialType": "합지",
-        "cover": "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EB%94%94%EC%95%84%EC%9D%B4%EB%94%94/%EB%B0%A9%EC%97%BC/F1601-1.png",
-        "description": "디아이디 합지 벽지 샘플북"
+        "cover": "/images/Thumbnail_Image/materials/벽지/디아이디/방염/F1601-1.png",
+        "description": "디아이디 더원 친환경 합지 벽지",
+        "pdf": "/samplebook-assets/벽지/디아이디/합지/디아이디_합지벽지.pdf",
+        "catalogUrl": "https://www.didwallpaper.com/collection",
+        "catalogType": "official_page",
+        "catalogProvider": "디아이디벽지",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "did-silk",
@@ -417,8 +704,15 @@ export const sampleBooks = [
         "brand": "디아이디",
         "category": "벽지",
         "materialType": "실크",
-        "cover": "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EB%94%94%EC%95%84%EC%9D%B4%EB%94%94/%EB%B0%A9%EC%97%BC/F1601-1.png",
-        "description": "디아이디 실크 벽지 샘플북"
+        "cover": "/images/Thumbnail_Image/materials/벽지/디아이디/방염/F1603-1.png",
+        "description": "디아이디 NO.5 / NO.7 / 메이트 프리미엄 실크",
+        "pdf": "/samplebook-assets/벽지/디아이디/실크/디아이디_실크벽지.pdf",
+        "catalogUrl": "https://www.didwallpaper.com/collection",
+        "catalogType": "official_page",
+        "catalogProvider": "디아이디벽지",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "did-fire",
@@ -426,17 +720,31 @@ export const sampleBooks = [
         "brand": "디아이디",
         "category": "벽지",
         "materialType": "방염",
-        "cover": "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EB%94%94%EC%95%84%EC%9D%B4%EB%94%94/%EB%B0%A9%EC%97%BC/F1601-1.png",
-        "description": "디아이디 방염 벽지 샘플북"
+        "cover": "/images/Thumbnail_Image/materials/벽지/디아이디/방염/F1601-1.png",
+        "description": "디아이디 방염 안전 벽지 컬렉션",
+        "pdf": "/samplebook-assets/벽지/디아이디/방염/디아이디_방염벽지.pdf",
+        "catalogUrl": "https://www.didwallpaper.com/collection",
+        "catalogType": "official_page",
+        "catalogProvider": "디아이디벽지",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "shinhan-hapji-total",
-        "title": "신한 합지 벽지 (전체)",
+        "title": "신한 합지 벽지 (아이리스 / 파인하임)",
         "brand": "신한",
         "category": "벽지",
         "materialType": "합지",
-        "cover": "/samplebook-assets/벽지/신한/합지/cover.jpg",
-        "description": "신한 합지 벽지 통합 샘플북 (아이리스/파인하임 등)"
+        "cover": "/samplebook-assets/Thumbnail_image/벽지/신한/합지/신한벽지_파인하임/4244-1 터치터치.jpg",
+        "description": "신한벽지 아이리스 & 파인하임 친환경 합지 컬렉션",
+        "pdf": "/samplebook-assets/벽지/신한/합지/신한벽지_합지.pdf",
+        "catalogUrl": "https://www.shinhanwall.co.kr/brands/view.html?depth1=2&depth2=8",
+        "catalogType": "official_page",
+        "catalogProvider": "신한벽지",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "shinhan-silk-living",
@@ -445,7 +753,14 @@ export const sampleBooks = [
         "category": "벽지",
         "materialType": "실크",
         "cover": "/samplebook-assets/Thumbnail_image/벽지/신한/실크/신한벽지_리빙(LIVING)/신한벽지리빙.png",
-        "description": "신한 리빙 실크 벽지 샘플북"
+        "description": "신한벽지 모던 감성 리빙 실크 벽지",
+        "pdf": "/samplebook-assets/벽지/신한/실크/신한벽지_리빙.pdf",
+        "catalogUrl": "https://www.shinhanwall.co.kr/brands/view.html?depth1=1&depth2=4",
+        "catalogType": "official_page",
+        "catalogProvider": "신한벽지",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "shinhan-silk-sketch",
@@ -454,7 +769,14 @@ export const sampleBooks = [
         "category": "벽지",
         "materialType": "실크",
         "cover": "/samplebook-assets/Thumbnail_image/벽지/신한/실크/신한벽지_스케치(SKETCH)/신한벽지스케치.png",
-        "description": "신한 스케치 실크 벽지 샘플북"
+        "description": "신한벽지 스케치 프리미엄 실크 컬렉션",
+        "pdf": "/samplebook-assets/벽지/신한/실크/신한벽지_스케치.pdf",
+        "catalogUrl": "https://www.shinhanwall.co.kr/brands/view.html?depth1=1&depth2=5",
+        "catalogType": "official_page",
+        "catalogProvider": "신한벽지",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "shinhan-silk-wallguard",
@@ -463,7 +785,14 @@ export const sampleBooks = [
         "category": "벽지",
         "materialType": "실크",
         "cover": "/samplebook-assets/Thumbnail_image/벽지/신한/실크/신한벽지_월가드(WALLGUARD)/신한벽지월가드 썸네일.png",
-        "description": "신한 월가드 실크 벽지 샘플북"
+        "description": "신한벽지 내구성 강화 안심 월가드 벽지",
+        "pdf": "/samplebook-assets/벽지/신한/실크/신한벽지_월가드.pdf",
+        "catalogUrl": "https://www.shinhanwall.co.kr/brands/view.html?depth1=1&depth2=61",
+        "catalogType": "official_page",
+        "catalogProvider": "신한벽지",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "shinhan-silk-facade",
@@ -472,7 +801,14 @@ export const sampleBooks = [
         "category": "벽지",
         "materialType": "실크",
         "cover": "/samplebook-assets/Thumbnail_image/벽지/신한/실크/신한벽지_파사드(FACADE)/신한벽지파사드.png",
-        "description": "신한 파사드 실크 벽지 샘플북"
+        "description": "신한벽지 하이엔드 텍스처 파사드 컬렉션",
+        "pdf": "/samplebook-assets/벽지/신한/실크/신한벽지_파사드.pdf",
+        "catalogUrl": "https://www.shinhanwall.co.kr/brands/view.html?depth1=1&depth2=59",
+        "catalogType": "official_page",
+        "catalogProvider": "신한벽지",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "kujung-modern-kang",
@@ -481,7 +817,13 @@ export const sampleBooks = [
         "category": "마루",
         "cover": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EA%B5%AC%EC%A0%95/%EA%B0%95%EB%A7%88%EB%A3%A8/%EB%AA%A8%EB%8D%98%EA%B0%95/%EB%AA%A8%EB%8D%98%20%EB%85%B8%EB%8D%98%20%ED%99%94%EC%9D%B4%ED%8A%B8.png",
         "pdf": "/samplebook-assets/마루/구정/강마루/구정 모던강.pdf",
-        "description": "구정 강마루 - 모던강 컬렉션"
+        "description": "구정 강마루 - 모던강 컬렉션",
+        "catalogUrl": "https://www.kujungmaru.com/product/catalogue/catalogue?type=%EC%83%98%ED%94%8C%EB%B6%81",
+        "catalogType": "external_viewer",
+        "catalogProvider": "구정마루",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "kujung-kang-maru",
@@ -490,7 +832,13 @@ export const sampleBooks = [
         "category": "마루",
         "cover": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EA%B5%AC%EC%A0%95/%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B5%AC%EC%A0%95%EA%B0%95/%EB%88%84%ED%81%AC%ED%99%94%EC%9D%B4%ED%8A%B8.png",
         "pdf": "/samplebook-assets/마루/구정/강마루/구정강마루.pdf",
-        "description": "구정 강마루 컬렉션"
+        "description": "구정 강마루 컬렉션",
+        "catalogUrl": "https://www.kujungmaru.com/product/catalogue/catalogue?type=%EC%83%98%ED%94%8C%EB%B6%81",
+        "catalogType": "external_viewer",
+        "catalogProvider": "구정마루",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "kujung-marbulous-deux",
@@ -499,7 +847,13 @@ export const sampleBooks = [
         "category": "마루",
         "cover": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EA%B5%AC%EC%A0%95/%ED%83%80%EC%9D%BC%EB%A7%88%EB%A3%A8/%EB%A7%88%EB%B7%B8%EB%9F%AC%EC%8A%A4%20%EB%93%80%EC%8A%A4/%EB%A9%9C%EB%A1%9C%EC%9A%B0%20%EB%B2%A0%EC%9D%B4%EC%A7%80.png",
         "pdf": "/samplebook-assets/마루/구정/강마루/마뷸러스 듀스.pdf",
-        "description": "구정 강마루 - 마뷸러스 듀스"
+        "description": "구정 강마루 - 마뷸러스 듀스",
+        "catalogUrl": "https://www.kujungmaru.com/product/catalogue/catalogue?type=%EC%83%98%ED%94%8C%EB%B6%81",
+        "catalogType": "external_viewer",
+        "catalogProvider": "구정마루",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "kujung-marbulous-live",
@@ -508,7 +862,13 @@ export const sampleBooks = [
         "category": "마루",
         "cover": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EA%B5%AC%EC%A0%95/%ED%83%80%EC%9D%BC%EB%A7%88%EB%A3%A8/%EB%A7%88%EB%B7%B8%EB%9F%AC%EC%8A%A4%20%EB%93%80%EC%8A%A4/%EB%A9%9C%EB%A1%9C%EC%9A%B0%20%EB%B2%A0%EC%9D%B4%EC%A7%80.png",
         "pdf": "/samplebook-assets/마루/구정/강마루/마뷸러스 리브.pdf",
-        "description": "구정 강마루 - 마뷸러스 리브"
+        "description": "구정 강마루 - 마뷸러스 리브",
+        "catalogUrl": "https://www.kujungmaru.com/product/catalogue/catalogue?type=%EC%83%98%ED%94%8C%EB%B6%81",
+        "catalogType": "external_viewer",
+        "catalogProvider": "구정마루",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "kujung-marbulous-muse",
@@ -517,7 +877,13 @@ export const sampleBooks = [
         "category": "마루",
         "cover": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EA%B5%AC%EC%A0%95/%ED%83%80%EC%9D%BC%EB%A7%88%EB%A3%A8/%EB%A7%88%EB%B7%B8%EB%9F%AC%EC%8A%A4%20%EB%93%80%EC%8A%A4/%EB%A9%9C%EB%A1%9C%EC%9A%B0%20%EB%B2%A0%EC%9D%B4%EC%A7%80.png",
         "pdf": "/samplebook-assets/마루/구정/강마루/마뷸러스 뮤즈.pdf",
-        "description": "구정 강마루 - 마뷸러스 뮤즈"
+        "description": "구정 강마루 - 마뷸러스 뮤즈",
+        "catalogUrl": "https://www.kujungmaru.com/product/catalogue/catalogue?type=%EC%83%98%ED%94%8C%EB%B6%81",
+        "catalogType": "external_viewer",
+        "catalogProvider": "구정마루",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "kujung-marbulous-l",
@@ -526,7 +892,13 @@ export const sampleBooks = [
         "category": "마루",
         "cover": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EA%B5%AC%EC%A0%95/%ED%83%80%EC%9D%BC%EB%A7%88%EB%A3%A8/%EB%A7%88%EB%B7%B8%EB%9F%AC%EC%8A%A4%20%EB%93%80%EC%8A%A4/%EB%A9%9C%EB%A1%9C%EC%9A%B0%20%EB%B2%A0%EC%9D%B4%EC%A7%80.png",
         "pdf": "/samplebook-assets/마루/구정/강마루/마뷸러스 엘.pdf",
-        "description": "구정 강마루 - 마뷸러스 엘"
+        "description": "구정 강마루 - 마뷸러스 엘",
+        "catalogUrl": "https://www.kujungmaru.com/product/catalogue/catalogue?type=%EC%83%98%ED%94%8C%EB%B6%81",
+        "catalogType": "external_viewer",
+        "catalogProvider": "구정마루",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "kujung-marbulous-zen",
@@ -535,7 +907,13 @@ export const sampleBooks = [
         "category": "마루",
         "cover": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EA%B5%AC%EC%A0%95/%ED%83%80%EC%9D%BC%EB%A7%88%EB%A3%A8/%EB%A7%88%EB%B7%B8%EB%9F%AC%EC%8A%A4%20%EB%93%80%EC%8A%A4/%EB%A9%9C%EB%A1%9C%EC%9A%B0%20%EB%B2%A0%EC%9D%B4%EC%A7%80.png",
         "pdf": "/samplebook-assets/마루/구정/강마루/마뷸러스 젠.pdf",
-        "description": "구정 강마루 - 마뷸러스 젠"
+        "description": "구정 강마루 - 마뷸러스 젠",
+        "catalogUrl": "https://www.kujungmaru.com/product/catalogue/catalogue?type=%EC%83%98%ED%94%8C%EB%B6%81",
+        "catalogType": "external_viewer",
+        "catalogProvider": "구정마루",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "kujung-blonte",
@@ -544,7 +922,13 @@ export const sampleBooks = [
         "category": "마루",
         "cover": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EA%B5%AC%EC%A0%95/%EA%B0%95%EB%A7%88%EB%A3%A8/%EB%B8%94%EB%A1%A0%ED%85%8C/%EB%B3%B8%20%EC%98%A4%ED%81%AC(%EB%A7%88%EC%82%AC).jpg",
         "pdf": "/samplebook-assets/마루/구정/강마루/블론테.pdf",
-        "description": "구정 강마루 - 블론테"
+        "description": "구정 강마루 - 블론테",
+        "catalogUrl": "https://www.kujungmaru.com/product/catalogue/catalogue?type=%EC%83%98%ED%94%8C%EB%B6%81",
+        "catalogType": "external_viewer",
+        "catalogProvider": "구정마루",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "kujung-grand-texture-165",
@@ -553,7 +937,13 @@ export const sampleBooks = [
         "category": "마루",
         "cover": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EA%B5%AC%EC%A0%95/%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%9E%9C%EB%93%9C%20%ED%85%8D%EC%8A%A4%EC%B3%90/%EB%9F%AC%EC%8A%A4%ED%8B%B1.png",
         "pdf": "/samplebook-assets/마루/구정/온돌마루/그랜드 텍스쳐 165.pdf",
-        "description": "구정 온돌마루 - 그랜드 텍스쳐 165"
+        "description": "구정 온돌마루 - 그랜드 텍스쳐 165",
+        "catalogUrl": "https://www.kujungmaru.com/product/catalogue/catalogue?type=%EC%83%98%ED%94%8C%EB%B6%81",
+        "catalogType": "external_viewer",
+        "catalogProvider": "구정마루",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "kujung-premium-texture",
@@ -562,7 +952,13 @@ export const sampleBooks = [
         "category": "마루",
         "cover": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EA%B5%AC%EC%A0%95/%EA%B0%95%EB%A7%88%EB%A3%A8/%EA%B7%B8%EB%9E%9C%EB%93%9C%20%ED%85%8D%EC%8A%A4%EC%B3%90/%EB%9F%AC%EC%8A%A4%ED%8B%B1.png",
         "pdf": "/samplebook-assets/마루/구정/온돌마루/프리미엄 텍스쳐.pdf",
-        "description": "구정 온돌마루 - 프리미엄 텍스쳐"
+        "description": "구정 온돌마루 - 프리미엄 텍스쳐",
+        "catalogUrl": "https://www.kujungmaru.com/product/catalogue/catalogue?type=%EC%83%98%ED%94%8C%EB%B6%81",
+        "catalogType": "external_viewer",
+        "catalogProvider": "구정마루",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "kujung-noblesse",
@@ -571,7 +967,13 @@ export const sampleBooks = [
         "category": "마루",
         "cover": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EA%B5%AC%EC%A0%95/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%EB%85%B8%EB%B8%94%EB%A0%88%EC%8A%A4/%EB%A6%AC%EC%96%BC%20%EB%B8%94%EB%9E%99%20%EC%98%A4%ED%81%AC.png",
         "pdf": "/samplebook-assets/마루/구정/원목마루/노블레스.pdf",
-        "description": "구정 원목마루 - 노블레스"
+        "description": "구정 원목마루 - 노블레스",
+        "catalogUrl": "https://www.kujungmaru.com/product/catalogue/catalogue?type=%EC%83%98%ED%94%8C%EB%B6%81",
+        "catalogType": "external_viewer",
+        "catalogProvider": "구정마루",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "kujung-piante",
@@ -580,7 +982,13 @@ export const sampleBooks = [
         "category": "마루",
         "cover": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EA%B5%AC%EC%A0%95/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%ED%94%BC%EC%95%88%ED%85%8C/%EB%B2%A0%ED%82%A4%EC%98%A4.png",
         "pdf": "/samplebook-assets/마루/구정/원목마루/피안테.pdf",
-        "description": "구정 원목마루 - 피안테"
+        "description": "구정 원목마루 - 피안테",
+        "catalogUrl": "https://www.kujungmaru.com/product/catalogue/catalogue?type=%EC%83%98%ED%94%8C%EB%B6%81",
+        "catalogType": "external_viewer",
+        "catalogProvider": "구정마루",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "kujung-heritage",
@@ -589,7 +997,13 @@ export const sampleBooks = [
         "category": "마루",
         "cover": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EA%B5%AC%EC%A0%95/%EC%9B%90%EB%AA%A9%EB%A7%88%EB%A3%A8/%ED%97%A4%EB%A6%AC%ED%8B%B0%EC%A7%80/%EB%8B%A4%ED%81%AC%20%EB%B8%8C%EB%9D%BC%EC%9A%B4%20%EC%95%A0%EC%89%AC.jpg",
         "pdf": "/samplebook-assets/마루/구정/원목마루/헤리티지.pdf",
-        "description": "구정 원목마루 - 헤리티지"
+        "description": "구정 원목마루 - 헤리티지",
+        "catalogUrl": "https://www.kujungmaru.com/product/catalogue/catalogue?type=%EC%83%98%ED%94%8C%EB%B6%81",
+        "catalogType": "external_viewer",
+        "catalogProvider": "구정마루",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "kujung-prestige-brush-gold",
@@ -597,7 +1011,14 @@ export const sampleBooks = [
         "brand": "구정",
         "category": "마루",
         "pdf": "/samplebook-assets/마루/구정/천연마루/프레스티지&브러쉬골드.pdf",
-        "description": "구정 천연마루 - 프레스티지 & 브러쉬 골드"
+        "description": "구정 천연마루 - 프레스티지 & 브러쉬 골드",
+        "cover": "/images/Thumbnail_Image/materials/마루/구정/원목마루/노블레스/리얼 블랙 오크.png",
+        "catalogUrl": "https://www.kujungmaru.com/product/catalogue/catalogue?type=%EC%83%98%ED%94%8C%EB%B6%81",
+        "catalogType": "external_viewer",
+        "catalogProvider": "구정마루",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "igun-grin-105",
@@ -606,7 +1027,13 @@ export const sampleBooks = [
         "category": "마루",
         "cover": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 125/마일드/마일드 크림.jpg",
         "pdf": "/samplebook-assets/마루/이건/강마루/GRIN(프리미엄 강마루 10.5mm).pdf",
-        "description": "이건 강마루 - GRIN (10.5mm)"
+        "description": "이건 강마루 - GRIN (10.5mm)",
+        "catalogUrl": "https://catalog.eagon.com",
+        "catalogType": "external_viewer",
+        "catalogProvider": "이건마루",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "igun-sera-basic-62",
@@ -615,7 +1042,13 @@ export const sampleBooks = [
         "category": "마루",
         "cover": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라 플렉스S/세라 플렉스 143/데일리 오크.jpg",
         "pdf": "/samplebook-assets/마루/이건/강마루/Sera Basic(강마루 6.2mm).pdf",
-        "description": "이건 강마루 - Sera Basic (6.2mm)"
+        "description": "이건 강마루 - Sera Basic (6.2mm)",
+        "catalogUrl": "https://catalog.eagon.com",
+        "catalogType": "external_viewer",
+        "catalogProvider": "이건마루",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "igun-sera-75",
@@ -624,7 +1057,13 @@ export const sampleBooks = [
         "category": "마루",
         "cover": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라 플렉스S/세라 플렉스 143/데일리 오크.jpg",
         "pdf": "/samplebook-assets/마루/이건/강마루/Sera(강마루 7.5mm).pdf",
-        "description": "이건 강마루 - Sera (7.5mm)"
+        "description": "이건 강마루 - Sera (7.5mm)",
+        "catalogUrl": "https://catalog.eagon.com",
+        "catalogType": "external_viewer",
+        "catalogProvider": "이건마루",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "igun-sera-flax-143",
@@ -633,7 +1072,13 @@ export const sampleBooks = [
         "category": "마루",
         "cover": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라 플렉스S/세라 플렉스 143/데일리 오크.jpg",
         "pdf": "/samplebook-assets/마루/이건/강마루/Sera-Flax 143 (광폭 강마루 10.5mm).pdf",
-        "description": "이건 강마루 - Sera-Flax 143 (10.5mm)"
+        "description": "이건 강마루 - Sera-Flax 143 (10.5mm)",
+        "catalogUrl": "https://catalog.eagon.com",
+        "catalogType": "external_viewer",
+        "catalogProvider": "이건마루",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "igun-foresta-g",
@@ -642,7 +1087,13 @@ export const sampleBooks = [
         "category": "마루",
         "cover": "/images/Thumbnail_Image/materials/마루/이건/천연마루/포레스타 G/캐시미어 화이트.jpg",
         "pdf": "/samplebook-assets/마루/이건/온돌마루/FORESTA - G (프리미엄 천연마루).pdf",
-        "description": "이건 천연마루 - FORESTA - G"
+        "description": "이건 천연마루 - FORESTA - G",
+        "catalogUrl": "https://catalog.eagon.com",
+        "catalogType": "external_viewer",
+        "catalogProvider": "이건마루",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "igun-foresta",
@@ -651,7 +1102,13 @@ export const sampleBooks = [
         "category": "마루",
         "cover": "/images/Thumbnail_Image/materials/마루/이건/천연마루/포레스타 G/캐시미어 화이트.jpg",
         "pdf": "/samplebook-assets/마루/이건/온돌마루/FORESTA(프리미엄 천연마루).pdf",
-        "description": "이건 천연마루 - FORESTA"
+        "description": "이건 천연마루 - FORESTA",
+        "catalogUrl": "https://catalog.eagon.com",
+        "catalogType": "external_viewer",
+        "catalogProvider": "이건마루",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "igun-gena-natural",
@@ -660,7 +1117,13 @@ export const sampleBooks = [
         "category": "마루",
         "cover": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 125/내추럴/내추럴 샌드.jpg",
         "pdf": "/samplebook-assets/마루/이건/온돌마루/Gena-Natural (천연마루).pdf",
-        "description": "이건 천연마루 - Gena-Natural"
+        "description": "이건 천연마루 - Gena-Natural",
+        "catalogUrl": "https://catalog.eagon.com",
+        "catalogType": "external_viewer",
+        "catalogProvider": "이건마루",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "igun-largo",
@@ -669,7 +1132,13 @@ export const sampleBooks = [
         "category": "마루",
         "cover": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T1/큐물러스.jpg",
         "pdf": "/samplebook-assets/마루/이건/원목마루/라르고.pdf",
-        "description": "이건 원목마루 - 라르고"
+        "description": "이건 원목마루 - 라르고",
+        "catalogUrl": "https://catalog.eagon.com",
+        "catalogType": "external_viewer",
+        "catalogProvider": "이건마루",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "igun-total-catalog",
@@ -678,7 +1147,14 @@ export const sampleBooks = [
         "category": "마루",
         "pdf": "/samplebook-assets/마루/이건/이건마루종합.pdf",
         "description": "이건마루 전 제품 종합 카탈로그",
-        "isRecommended": true
+        "isRecommended": true,
+        "cover": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라 플렉스S/세라 플렉스 143/데일리 오크.jpg",
+        "catalogUrl": "https://catalog.eagon.com",
+        "catalogType": "external_viewer",
+        "catalogProvider": "이건마루",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     },
     {
         "id": "swan-carpet-tile",
@@ -688,6 +1164,261 @@ export const sampleBooks = [
         "cover": "/samplebook-assets/Thumbnail_image/카페트타일/스완/0.jpg",
         "pdf": "/samplebook-assets/카페트타일/스완카페트타일.pdf",
         "description": "스완 카페트타일 토탈 컬렉션",
-        "isRecommended": true
+        "isRecommended": true,
+        "catalogUrl": "http://www.swancarpet.co.kr/kr/carpet/tile_carpet_introduce.do",
+        "catalogType": "official_page",
+        "catalogProvider": "스완카페트",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
+    },
+    {
+        "id": "kcc-senstyle-pro-2025",
+        "title": "2025 KCC 센스타일 프로",
+        "brand": "KCC",
+        "category": "데코타일",
+        "cover": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30082P.png",
+        "pdf": "/samplebook-assets/데코타일/KCC/KCC센스타일프로.pdf",
+        "description": "KCC 프리미엄 상업용 데코타일 컬렉션",
+        "isRecommended": true,
+        "catalogUrl": "https://www.homecc.com/catalog/lvt/sensetilepro/hcc.do?/tjqvi/bmir",
+        "catalogType": "external_viewer",
+        "catalogProvider": "KCC글라스",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
+    },
+    {
+        "id": "jaeyoung-decotile-2025",
+        "title": "2025 재영 에코 데코타일",
+        "brand": "재영",
+        "category": "데코타일",
+        "cover": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/그래니트/T2302.jpg",
+        "pdf": "/samplebook-assets/데코타일/재영/재영타일.pdf",
+        "description": "재영 친환경 인테리어 데코타일 컬렉션",
+        "catalogUrl": "https://www.jflor.co.kr/customer/download.php",
+        "catalogType": "official_page",
+        "catalogProvider": "재영",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
+    },
+    {
+        "id": "dongwha-maru-duo",
+        "title": "동화자연마루 강마루 듀오",
+        "brand": "동화",
+        "category": "마루",
+        "cover": "/images/Thumbnail_Image/materials/마루/동화/강마루/듀오텍스쳐/DUO TEXTURE/까사 내추럴.png",
+        "pdf": "/samplebook-assets/마루/동화/강마루/동화강마루듀오.pdf",
+        "description": "동화자연마루 듀오 텍스쳐 컬렉션",
+        "catalogUrl": "https://www.greendongwha.com/product/brand/duo/",
+        "catalogType": "official_page",
+        "catalogProvider": "동화자연마루",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
+    },
+    {
+        "id": "dongwha-maru-jin-teramax",
+        "title": "동화자연마루 진 / 진테라맥스",
+        "brand": "동화",
+        "category": "마루",
+        "cover": "/images/Thumbnail_Image/materials/마루/동화/강마루/진그란데/사하라 라이트.jpg",
+        "pdf": "/samplebook-assets/마루/동화/강마루/동화강마루진_진테라맥스.pdf",
+        "description": "초광폭 대형 스톤 & 우드 텍스쳐 강마루",
+        "isRecommended": true,
+        "catalogUrl": "https://www.greendongwha.com/product/brand/jin/",
+        "catalogType": "official_page",
+        "catalogProvider": "동화자연마루",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
+    },
+    {
+        "id": "dongwha-maru-texture",
+        "title": "동화자연마루 강마루 텍스쳐",
+        "brand": "동화",
+        "category": "마루",
+        "cover": "/images/Thumbnail_Image/materials/마루/동화/강마루/듀오텍스쳐/DUO TEXTURE/까사 내추럴.png",
+        "pdf": "/samplebook-assets/마루/동화/강마루/동화강마루텍스쳐.pdf",
+        "description": "리얼한 원목 질감의 내추럴 강마루",
+        "catalogUrl": "https://www.greendongwha.com/product/brand/duo/",
+        "catalogType": "official_page",
+        "catalogProvider": "동화자연마루",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
+    },
+    {
+        "id": "dongwha-maru-baum",
+        "title": "동화자연마루 원목마루 바움(BAUM)",
+        "brand": "동화",
+        "category": "마루",
+        "cover": "/images/Thumbnail_Image/materials/마루/동화/강마루/진오리진/어반 내추럴.jpg",
+        "pdf": "/samplebook-assets/마루/동화/원목마루/동화원목마루바움.pdf",
+        "description": "프리미엄 천연 원목마루 컬렉션",
+        "catalogUrl": "https://www.greendongwha.com/product/brand/baum/",
+        "catalogType": "official_page",
+        "catalogProvider": "동화자연마루",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
+    },
+    {
+        "id": "kcc-dodam-2026",
+        "title": "2026 KCC 숲 도담(2.7T/3.2T)",
+        "brand": "KCC",
+        "category": "장판",
+        "cover": "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-4202.jpg",
+        "pdf": "/samplebook-assets/장판/KCC/2026 숲 도담 2.7,3.2.pdf",
+        "description": "고쿠션 프리미엄 친환경 안심 바닥재",
+        "isRecommended": true,
+        "catalogUrl": "https://www.homecc.com/catalog/sheet/sup_dodam/hcc.do?/tjqvi/fesu",
+        "catalogType": "external_viewer",
+        "catalogProvider": "KCC글라스",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
+    },
+    {
+        "id": "kcc-hyugaon-2025",
+        "title": "KCC 숲 휴가온(4.5T/5.0T)",
+        "brand": "KCC",
+        "category": "장판",
+        "cover": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-4232.jpg",
+        "pdf": "/samplebook-assets/장판/KCC/숲 휴가온 5.0,4.5.pdf",
+        "description": "최고급 차음/충격흡수 하이엔드 장판",
+        "isRecommended": true,
+        "catalogUrl": "https://www.homecc.com/catalog/sheet/sup_hyugaon/hcc.do?/tjqvi/cfxl",
+        "catalogType": "external_viewer",
+        "catalogProvider": "KCC글라스",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
+    },
+    {
+        "id": "lx-diamant-2025",
+        "title": "LX 디아망 프리미엄 벽지",
+        "brand": "LX",
+        "category": "벽지",
+        "materialType": "프리미엄",
+        "cover": "/samplebook-assets/Thumbnail_image/벽지/LX/디아망/LX_디아망/PR002-01.jpg",
+        "pdf": "/samplebook-assets/벽지/LX/디아망/LX_디아망.pdf",
+        "description": "풍부한 볼륨감과 섬세한 텍스처의 하이엔드 벽지",
+        "isRecommended": true,
+        "catalogUrl": "https://www.b2bzincatalog.com/digital/samplebook/diamant/",
+        "catalogType": "external_viewer",
+        "catalogProvider": "LX하우시스",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
+    },
+    {
+        "id": "shinhan-fire-2025",
+        "title": "신한 방염 벽지",
+        "brand": "신한",
+        "category": "벽지",
+        "materialType": "방염",
+        "cover": "/samplebook-assets/Thumbnail_image/벽지/신한/방염/신한벽지_방염/방염_F15053-1 조용한 사색.jpg",
+        "pdf": "/samplebook-assets/벽지/신한/방염/신한벽지_방염.pdf",
+        "description": "소방 방재청 형식승인 최고 등급 안전 방염벽지",
+        "catalogUrl": "https://www.shinhanwall.co.kr/brands/view.html?depth1=3&depth2=10",
+        "catalogType": "official_page",
+        "catalogProvider": "신한벽지",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
+    },
+    {
+        "id": "kcc-rubber-tile-catalog",
+        "title": "KCC 홈씨씨 러버타일",
+        "brand": "KCC",
+        "category": "러버타일",
+        "cover": "/samplebook-assets/Thumbnail_image/데코타일/KCC/senstyle_trendy_page1.png",
+        "pdf": "/samplebook-assets/러버타일/KCC/KCC홈씨씨_러버타일.pdf",
+        "description": "KCC 홈씨씨 고무/러버타일 종합 E-Catalog",
+        "isRecommended": true,
+        "catalogUrl": "https://www.homecc.com/catalog/etc/rubbertile/hcc.do?/tjqvi/vixc",
+        "catalogType": "external_viewer",
+        "catalogProvider": "KCC글라스",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
+    },
+    {
+        "id": "hyundai-chamdaum-2025",
+        "title": "2025 현대 참다움 (1.8T/2.0T)",
+        "brand": "현대",
+        "category": "장판",
+        "cover": "/images/Thumbnail_Image/materials/장판/현대/참다움1.8/C1152.jpg",
+        "pdf": "/samplebook-assets/장판/현대/2025 참다움(1.8T, 2.0T).pdf",
+        "description": "현대 L&C 친환경 주거용 장판 참다움 컬렉션",
+        "isRecommended": true,
+        "catalogUrl": "https://www.hyundailnc.com/product/contents?mng_cd=AAF85B3B",
+        "catalogType": "official_page",
+        "catalogProvider": "현대L&C",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
+    },
+    {
+        "id": "hyundai-sorijium-2025",
+        "title": "2025 현대 소리지움 (5.0T)",
+        "brand": "현대",
+        "category": "장판",
+        "cover": "/images/Thumbnail_Image/materials/장판/현대/참다움2.0/M2151.jpg",
+        "pdf": "/samplebook-assets/장판/현대/2025 소리지움(5.0T).pdf",
+        "description": "현대 L&C 고쿠션 차음 바닥재 소리지움 5.0",
+        "catalogUrl": "https://heyzine.com/flip-book/c20e79f796.html",
+        "catalogType": "external_viewer",
+        "catalogProvider": "현대L&C",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
+    },
+    {
+        "id": "hyundai-thechaeum-2025",
+        "title": "2025 현대 더채움 (2.2T)",
+        "brand": "현대",
+        "category": "장판",
+        "cover": "/images/Thumbnail_Image/materials/장판/현대/더채움2.2/M3204_thumbnail.jpg",
+        "pdf": "/samplebook-assets/장판/현대/2025 더채움(2.2T).pdf",
+        "description": "현대 L&C 주거용 기능성 바닥재 더채움 2.2",
+        "catalogUrl": "https://www.hyundailnc.com/product/contents?mng_cd=8262A23A",
+        "catalogType": "official_page",
+        "catalogProvider": "현대L&C",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
+    },
+    {
+        "id": "hyundai-artium-2023",
+        "title": "현대 아티움 (2.7T/3.2T)",
+        "brand": "현대",
+        "category": "장판",
+        "cover": "/images/Thumbnail_Image/materials/장판/현대/아티움2.7/A4301.jpg",
+        "pdf": "/samplebook-assets/장판/현대/2023 아티움.pdf",
+        "description": "현대 L&C 프리미엄 시트 바닥재 아티움",
+        "catalogUrl": "https://www.hyundailnc.com/product/contents?mng_cd=DA98D9D5",
+        "catalogType": "official_page",
+        "catalogProvider": "현대L&C",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
+    },
+    {
+        "id": "hyundai-conductive-tile",
+        "title": "현대 전도성타일 / 레릭 대전방지타일",
+        "brand": "현대",
+        "category": "데코타일",
+        "cover": "/samplebook-assets/Thumbnail_image/데코타일/현대/골드타일 레릭/goldtile_relic_page1.png",
+        "pdf": "/samplebook-assets/데코타일/현대/전도성타일.pdf",
+        "description": "클린룸, 정밀 전자기기실 전도성 및 대전방지 바닥재",
+        "catalogUrl": "https://www.hyundailnc.com/product/contents?mng_cd=CC9C5475",
+        "catalogType": "official_page",
+        "catalogProvider": "현대L&C",
+        "catalogStatus": "verified",
+        "verifiedAt": "2026-10-12",
+        "unverifiedReason": null
     }
 ];
