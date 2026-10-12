@@ -311,7 +311,7 @@ export default function Materials() {
     setSearchParams(prev => {
       const newParams = new URLSearchParams(prev);
       // Selecting a category/brand/lineup switches from global search to browsing.
-      if (updates.search === undefined && prev.has("search")) newParams.delete("search");
+      if (updates.search === undefined && Object.keys(updates).some(key => key !== "sort") && prev.has("search")) newParams.delete("search");
       Object.entries(updates).forEach(([key, val]) => {
         if (val === null || val === "all") {
           newParams.delete(key);
