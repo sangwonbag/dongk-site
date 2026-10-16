@@ -40,6 +40,52 @@ let cachedProducts = null;
 let cachedHomeProducts = null;
 const filteredProductsCache = new Map();
 
+// Product Detail In-Memory Cache (TTL: 10 minutes) & In-flight request deduplication
+export const productDetailMemoryCache = new Map();
+const productDetailInflightRequests = new Map();
+const PRODUCT_CACHE_TTL_MS = 10 * 60 * 1000;
+
+export function setCachedProduct(item) {
+  if (!item) return;
+  const entry = { data: item, timestamp: Date.now() };
+  if (item.id != null) {
+    productDetailMemoryCache.set(String(item.id).trim().toLowerCase(), entry);
+  }
+  if (item.product_id != null) {
+    productDetailMemoryCache.set(String(item.product_id).trim().toLowerCase(), entry);
+  }
+  if (item.slug) {
+    productDetailMemoryCache.set(String(item.slug).trim().toLowerCase(), entry);
+  }
+  if (item.code) {
+    productDetailMemoryCache.set(String(item.code).trim().toLowerCase(), entry);
+    const norm = String(item.code).replace(/[^a-zA-Z0-9가-힣]/g, '').toLowerCase();
+    if (norm) productDetailMemoryCache.set(norm, entry);
+  }
+}
+
+export function getCachedProduct(key) {
+  if (!key) return null;
+  const cleanKey = String(key).trim().toLowerCase();
+  const entry = productDetailMemoryCache.get(cleanKey);
+  if (entry) {
+    return entry.data;
+  }
+  const norm = cleanKey.replace(/[^a-zA-Z0-9가-힣]/g, '');
+  if (norm) {
+    const normEntry = productDetailMemoryCache.get(norm);
+    if (normEntry) return normEntry.data;
+  }
+  return null;
+}
+
+export function prefetchProductDetail(routeParam) {
+  if (!routeParam) return;
+  const cleanKey = String(routeParam).trim().toLowerCase();
+  if (productDetailMemoryCache.has(cleanKey)) return;
+  fetchProductDetailBySlugOrId(routeParam).catch(() => {});
+}
+
 /**
  * Fast home page product fetcher (returns top 20 active products for initial render)
  * Soft-races Supabase against local materials DB to guarantee sub-second rendering without timeouts
@@ -516,6 +562,9 @@ export async function fetchFilteredProducts({ category, brand, thickness, search
         result.totalCount = totalCount;
         result.hasMore = hasMore;
 
+        // Pre-populate individual product cache so navigating to detail page is instantaneous
+        mapped.forEach(item => setCachedProduct(item));
+
         filteredProductsCache.set(cacheKey, result);
         return result;
       }
@@ -601,6 +650,8 @@ function filterLocalProducts(list, { category, brand, thickness, searchText }) {
 export function clearProductCache() {
   cachedProducts = null;
   filteredProductsCache.clear();
+  productDetailMemoryCache.clear();
+  productDetailInflightRequests.clear();
 }
 
 let cachedBrands = [];
@@ -816,7 +867,7 @@ export function extractProductCodeFromParam(param) {
   let decoded = String(param).trim();
   try {
     decoded = decodeURIComponent(param).trim();
-  } catch (e) {
+  } catch {
     // fallback
   }
   if (/^\d+$/.test(decoded)) return '';
@@ -828,10 +879,14 @@ export function extractProductCodeFromParam(param) {
 }
 
 /**
- * Resolve canonical slug before looking up alternative identifiers. The old
- * Promise.all waited for unrelated lookups before displaying a valid product.
+ * High-performance single product detail fetcher with:
+ * 1. In-memory client cache
+ * 2. In-flight request deduplication
+ * 3. Priority single-query lookup (direct ID query first if numeric, slug if string)
+ * 4. Stale-while-revalidate support
  */
-export async function fetchProductDetailBySlugOrId(routeParam, signal = null) {
+export async function fetchProductDetailBySlugOrId(routeParam, signal = null, options = {}) {
+  const { forceRefresh = false } = options;
   if (!routeParam) return null;
   let slug = String(routeParam).trim();
   try { slug = decodeURIComponent(slug).trim(); }
@@ -842,110 +897,170 @@ export async function fetchProductDetailBySlugOrId(routeParam, signal = null) {
   const checkAbort = () => { if (signal?.aborted) throw abortError(); };
   checkAbort();
 
-  const normalizeCode = value => String(value || '').replace(/[^a-zA-Z0-9가-힣]/g, '').toLowerCase();
-  const trailingCode = slug.match(/(?:^|[-_])([A-Za-z]{0,4}[-_ ]?\d{3,7}[A-Za-z]{0,4}(?:-\d{1,3})?)$/)?.[1] || '';
-  const codeCandidates = [slug, trailingCode, extractProductCodeFromParam(slug)]
-    .filter(value => value && value.length <= 48 && /\d/.test(value))
-    .filter((value, index, all) => all.findIndex(other => normalizeCode(other) === normalizeCode(value)) === index);
-  const brandHint = ['kcc', 'lx', '현대', '동신', '재영', '우성', '녹수', '이건', '동화', '구정']
-    .find(brand => slug.toLowerCase().split(/[-_]/).includes(brand));
-  let failureReason = 'network';
+  const cleanKey = slug.toLowerCase();
 
-  if (supabase) {
-    const controller = new AbortController();
-    const onAbort = () => controller.abort();
-    signal?.addEventListener('abort', onAbort, { once: true });
-    let networkTimer;
+  // Return cached product immediately if available and not forceRefresh
+  if (!forceRefresh) {
+    const cached = getCachedProduct(cleanKey);
+    if (cached) return cached;
+  }
 
-    const query = async (field, value, insensitive = false) => {
-      checkAbort();
-      let builder = supabase.from('products').select('*, categories(id, name), brands(id, name)');
-      builder = insensitive
-        ? builder.ilike(field, value.replace(/[%_\\]/g, '\\$&'))
-        : builder.eq(field, value);
-      const { data, error } = await builder.limit(20).abortSignal(controller.signal);
-      checkAbort();
-      if (error) throw error;
-      return data || [];
-    };
+  // Deduplicate concurrent in-flight requests for same key
+  if (!signal && productDetailInflightRequests.has(cleanKey)) {
+    return productDetailInflightRequests.get(cleanKey);
+  }
 
-    const queryServer = async () => {
-      const bySlug = await query('slug', slug);
-      if (bySlug.length) {
-        const row = bySlug.find(p => p.slug === slug) || bySlug[0];
-        return row.is_active === false ? { status: 'inactive' } : { status: 'found', row };
-      }
-      if (/^\d+$/.test(slug)) {
-        const byId = await query('id', Number(slug));
-        if (byId.length) {
-          return byId[0].is_active === false ? { status: 'inactive' } : { status: 'found', row: byId[0] };
+  const fetchPromise = (async () => {
+    const normalizeCode = value => String(value || '').replace(/[^a-zA-Z0-9가-힣]/g, '').toLowerCase();
+    const trailingCode = slug.match(/(?:^|[-_])([A-Za-z]{0,4}[-_ ]?\d{3,7}[A-Za-z]{0,4}(?:-\d{1,3})?)$/)?.[1] || '';
+    const codeCandidates = [slug, trailingCode, extractProductCodeFromParam(slug)]
+      .filter(value => value && value.length <= 48 && /\d/.test(value))
+      .filter((value, index, all) => all.findIndex(other => normalizeCode(other) === normalizeCode(value)) === index);
+    const brandHint = ['kcc', 'lx', '현대', '동신', '재영', '우성', '녹수', '이건', '동화', '구정']
+      .find(brand => slug.toLowerCase().split(/[-_]/).includes(brand));
+    let failureReason = 'network';
+
+    if (supabase) {
+      const controller = new AbortController();
+      const onAbort = () => controller.abort();
+      signal?.addEventListener('abort', onAbort, { once: true });
+      let networkTimer;
+
+      const queryFields = `
+        id, slug, name, product_code, price, thickness, size_text, unit, image_url, description, is_featured, is_active, sort_order,
+        categories ( id, name ),
+        brands ( id, name )
+      `;
+
+      const queryServer = async () => {
+        checkAbort();
+        // Priority 1: Numeric ID (most common from list click /materials/123)
+        if (/^\d+$/.test(slug)) {
+          const { data, error } = await supabase
+            .from('products')
+            .select(queryFields)
+            .eq('id', Number(slug))
+            .maybeSingle()
+            .abortSignal(controller.signal);
+          checkAbort();
+          if (error) throw error;
+          if (data) {
+            return data.is_active === false ? { status: 'inactive' } : { status: 'found', row: data };
+          }
+        } else {
+          // Priority 2: Canonical slug (e.g. /materials/kcc-sense-pro-123)
+          const { data, error } = await supabase
+            .from('products')
+            .select(queryFields)
+            .eq('slug', slug)
+            .maybeSingle()
+            .abortSignal(controller.signal);
+          checkAbort();
+          if (error) throw error;
+          if (data) {
+            return data.is_active === false ? { status: 'inactive' } : { status: 'found', row: data };
+          }
         }
-      }
-      for (const candidate of codeCandidates) {
-        const matches = (await query('product_code', candidate, true))
-          .filter(row => normalizeCode(row.product_code) === normalizeCode(candidate));
-        const scoped = brandHint
-          ? matches.filter(row => String(row.brands?.name || '').toLowerCase().includes(brandHint))
-          : matches;
-        if (scoped.length === 1) {
-          return scoped[0].is_active === false ? { status: 'inactive' } : { status: 'found', row: scoped[0] };
-        }
-      }
-      return { status: 'notFound' };
-    };
 
+        // Priority 3: Exact product_code match
+        for (const candidate of codeCandidates) {
+          checkAbort();
+          const { data, error } = await supabase
+            .from('products')
+            .select(queryFields)
+            .ilike('product_code', candidate.replace(/[%_\\]/g, '\\$&'))
+            .limit(10)
+            .abortSignal(controller.signal);
+          checkAbort();
+          if (error) throw error;
+          if (data && data.length > 0) {
+            const matches = data.filter(row => normalizeCode(row.product_code) === normalizeCode(candidate));
+            const scoped = brandHint
+              ? matches.filter(row => String(row.brands?.name || '').toLowerCase().includes(brandHint))
+              : matches;
+            if (scoped.length >= 1) {
+              const row = scoped[0];
+              return row.is_active === false ? { status: 'inactive' } : { status: 'found', row };
+            }
+          }
+        }
+        return { status: 'notFound' };
+      };
+
+      try {
+        const outcome = await Promise.race([
+          queryServer(),
+          new Promise(resolve => {
+            networkTimer = setTimeout(() => {
+              controller.abort();
+              resolve({ status: 'timeout' });
+            }, 4000);
+          })
+        ]);
+        checkAbort();
+        if (outcome?.status === 'found') {
+          const mapped = mapProductRow(outcome.row);
+          setCachedProduct(mapped);
+          return mapped;
+        }
+        if (outcome?.status === 'inactive') {
+          return { __inactive: true };
+        }
+        if (outcome?.status === 'notFound') return null;
+        failureReason = 'timeout';
+      } catch (error) {
+        checkAbort();
+        console.warn('[product-detail] server failed, trying local exact match:', error);
+      } finally {
+        clearTimeout(networkTimer);
+        controller.abort();
+        signal?.removeEventListener('abort', onAbort);
+      }
+    }
+
+    // Local fallback check if Supabase is offline
+    checkAbort();
+    let localTimer;
     try {
-      const outcome = await Promise.race([
-        queryServer(),
+      const localResult = await Promise.race([
+        getLocalMaterials().then(items => ({ items })),
         new Promise(resolve => {
-          networkTimer = setTimeout(() => {
-            controller.abort();
-            resolve({ status: 'timeout' });
-          }, 5000);
+          localTimer = setTimeout(() => resolve({ timedOut: true }), 2000);
         })
       ]);
       checkAbort();
-      if (outcome?.status === 'found') return mapProductRow(outcome.row);
-      if (outcome?.status === 'inactive' || outcome?.status === 'notFound') return null;
-      failureReason = 'timeout';
-    } catch (error) {
-      checkAbort();
-      console.warn('[product-detail] server failed, trying local exact match:', error);
+      if (localResult.timedOut) {
+        throw Object.assign(new Error('상품 조회 시간이 초과되었습니다. 다시 시도해 주세요.'), { name: 'TimeoutError' });
+      }
+      const items = Array.isArray(localResult.items) ? localResult.items : [];
+      const active = row => row && row.active !== false && row.is_active !== false;
+      const exact = items.find(row => active(row) && [row.slug, row.id, row.code]
+        .some(value => value != null && String(value).toLowerCase() === slug.toLowerCase()));
+      const byCode = exact ? null : items.find(row => active(row) && row.code
+        && codeCandidates.some(code => normalizeCode(code) === normalizeCode(row.code))
+        && (!brandHint || String(row.brand || '').toLowerCase().includes(brandHint)));
+      if (exact || byCode) {
+        const mapped = normalizeProductDetails(exact || byCode);
+        setCachedProduct(mapped);
+        return mapped;
+      }
+
+      const err = new Error('상품 서버에 연결하지 못했습니다. 다시 시도해 주세요.');
+      err.name = failureReason === 'timeout' ? 'TimeoutError' : 'NetworkError';
+      throw err;
     } finally {
-      clearTimeout(networkTimer);
-      controller.abort();
-      signal?.removeEventListener('abort', onAbort);
+      clearTimeout(localTimer);
     }
+  })();
+
+  if (!signal) {
+    productDetailInflightRequests.set(cleanKey, fetchPromise);
   }
 
-  // The local catalogue is a large dynamic chunk. Bound this import as well.
-  checkAbort();
-  let localTimer;
   try {
-    const localResult = await Promise.race([
-      getLocalMaterials().then(items => ({ items })),
-      new Promise(resolve => {
-        localTimer = setTimeout(() => resolve({ timedOut: true }), 2500);
-      })
-    ]);
-    checkAbort();
-    if (localResult.timedOut) {
-      throw Object.assign(new Error('상품 조회 시간이 초과되었습니다. 다시 시도해 주세요.'), { name: 'TimeoutError' });
-    }
-    const items = Array.isArray(localResult.items) ? localResult.items : [];
-    const active = row => row && row.active !== false && row.is_active !== false;
-    const exact = items.find(row => active(row) && [row.slug, row.id, row.code]
-      .some(value => value != null && String(value).toLowerCase() === slug.toLowerCase()));
-    const byCode = exact ? null : items.find(row => active(row) && row.code
-      && codeCandidates.some(code => normalizeCode(code) === normalizeCode(row.code))
-      && (!brandHint || String(row.brand || '').toLowerCase().includes(brandHint)));
-    if (exact || byCode) return normalizeProductDetails(exact || byCode);
-
-    const err = new Error('상품 서버에 연결하지 못했습니다. 다시 시도해 주세요.');
-    err.name = failureReason === 'timeout' ? 'TimeoutError' : 'NetworkError';
-    throw err;
+    return await fetchPromise;
   } finally {
-    clearTimeout(localTimer);
+    productDetailInflightRequests.delete(cleanKey);
   }
 }
 

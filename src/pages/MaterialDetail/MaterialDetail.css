@@ -1549,3 +1549,12 @@
   background-color: #f8fafc;
   border-radius: var(--radius-md) var(--radius-md) 0 0;
 }
+
+@keyframes skeleton-pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.45;
+  }
+}

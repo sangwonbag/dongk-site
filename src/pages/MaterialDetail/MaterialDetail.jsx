@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate, useLocation } from "react-router-dom";
 import { 
   ArrowLeft, 
   Phone, 
@@ -25,22 +25,9 @@ import { getProductImageUrl } from "../../utils/productImageResolver";
 import { supabase } from "../../lib/supabaseClient";
 import SEO from "../../components/seo/SEO";
 import { useAuth } from "../../contexts/AuthContext";
-import { getComputedBrand, normalizeProductDetails, formatFlooringProductName, formatProductTitle, getProductUnit, formatShapeOrPattern } from "../../utils/brandUtils";
-import { dongshinPolymer2026 } from "../../data/dongshinPolymer2026.js";
-import { normalizeImagePath, getImageSrc, getUniqueProductImages } from "../../utils/galleryNormalizer";
-import { fetchProductDetailBySlugOrId } from "../../utils/supabaseFetcher";
-
-let cachedMaterials = null;
-async function getLocalMaterialsData() {
-  if (cachedMaterials) return cachedMaterials;
-  try {
-    const mod = await import("../../data/materials.db.js");
-    cachedMaterials = mod.materials || [];
-  } catch {
-    cachedMaterials = [];
-  }
-  return cachedMaterials;
-}
+import { getComputedBrand, normalizeProductDetails, formatProductTitle, getProductUnit, formatShapeOrPattern } from "../../utils/brandUtils";
+import { normalizeImagePath, getUniqueProductImages } from "../../utils/galleryNormalizer";
+import { fetchProductDetailBySlugOrId, getCachedProduct, productDetailMemoryCache } from "../../utils/supabaseFetcher";
 
 let cachedImageManifest = null;
 async function getLocalImageManifestData() {
@@ -54,54 +41,10 @@ async function getLocalImageManifestData() {
   return cachedImageManifest;
 }
 
-import { getProductPyeong } from "../../utils/shippingUtils";
 import { isDecoTile, DECOTILE_NOTICE_TEXT } from "../../utils/decotileUtils";
 import { HIDE_SUB_MATERIALS, isSubMaterialCategory } from "../../config/categoryConfig";
 
 import "./MaterialDetail.css";
-
-
-const normalizeText = (value = "") =>
-  String(value).replace(/\s+/g, "").toLowerCase().trim();
-
-const getMaterialMatchKey = (item) => {
-  if (!item) return "";
-  const brand = normalizeText(item.brand);
-  const category = normalizeText(item.category);
-  const line = normalizeText(item.line);
-  const name = normalizeText(item.name || item.productName);
-
-  // 제품코드가 있는 브랜드는 code 기준
-  if (item.code) {
-    return `${brand}_${category}_${normalizeText(item.code)}`;
-  }
-
-  // 이건마루처럼 code가 없는 제품은 line + name 기준
-  return `${brand}_${category}_${line}_${name}`;
-};
-
-// Helper function to infer brand from code prefix if missing
-const inferBrandFromCode = (code) => {
-  if (!code) return null;
-  const upperCode = code.toUpperCase();
-  if (upperCode.startsWith("TS")) {
-    return "KCC";
-  }
-  if (
-    upperCode.startsWith("D") || 
-    upperCode.startsWith("DS") || 
-    upperCode.startsWith("CH")
-  ) {
-    return "동신";
-  }
-  if (upperCode.includes("LX") || upperCode.startsWith("LX")) {
-    return "LX";
-  }
-  if (upperCode.includes("LG") || upperCode.startsWith("LG")) {
-    return "LG";
-  }
-  return null;
-};
 
 // Eagon flooring sub-classification / upper category helper
 const getEagonUpperCategory = (line = "") => {
@@ -140,25 +83,40 @@ const getEagonImageFolder = (line = "") => {
   return null;
 };
 
+// Eagon image resolver cache for O(1) lookups
+const eagonProductImageCache = new Map();
+const eagonFolderImagesCache = new Map();
+
 // Eagon image resolver helper matching file directories and naming patterns
 const resolveEagonProductImage = (mat) => {
   if (!mat) return "/images/no-image.svg";
   
   const brandStr = mat.brand || "";
   if (brandStr !== '이건') return "/images/no-image.svg";
+
+  const cacheKey = `${mat.code || ''}_${mat.line || ''}_${mat.name || ''}`;
+  if (eagonProductImageCache.has(cacheKey)) {
+    return eagonProductImageCache.get(cacheKey);
+  }
   
   const line = mat.line || mat.description || "";
   const folder = getEagonImageFolder(line);
-  if (!folder) return "/images/no-image.svg";
+  if (!folder) {
+    eagonProductImageCache.set(cacheKey, "/images/no-image.svg");
+    return "/images/no-image.svg";
+  }
   
   const matName = mat.name || "";
-  
   const manifestList = cachedImageManifest || [];
-  // Filter manifest to files under correct brand and series folder
-  const folderImages = manifestList.filter(img => 
-    img.brand === '이건' && 
-    img.series.replace(/\\/g, '/').replace(/\s+/g, '').toLowerCase() === folder.replace(/\s+/g, '').toLowerCase()
-  );
+
+  let folderImages = eagonFolderImagesCache.get(folder);
+  if (!folderImages) {
+    folderImages = manifestList.filter(img => 
+      img.brand === '이건' && 
+      img.series.replace(/\\/g, '/').replace(/\s+/g, '').toLowerCase() === folder.replace(/\s+/g, '').toLowerCase()
+    );
+    eagonFolderImagesCache.set(folder, folderImages);
+  }
   
   const cleanTerm = (term) => String(term).replace(/[^a-zA-Z0-9가-힣]/g, '').replace(/뮬/g, '물').toLowerCase().trim();
   
@@ -177,41 +135,17 @@ const resolveEagonProductImage = (mat) => {
   });
   
   if (found) {
+    eagonProductImageCache.set(cacheKey, found.fullPublicPath);
     return found.fullPublicPath;
   }
   
-  // Try checking without folder restriction first, in case of folder mismatches
-  let looseFound = manifestList.find(img => {
-    if (img.brand !== '이건') return false;
-    const lastDot = img.fileName.lastIndexOf('.');
-    const nameOnly = lastDot !== -1 ? img.fileName.slice(0, lastDot) : img.fileName;
-    const normFile = cleanTerm(nameOnly);
-    
-    return normFile === normMatName || normFile === normMatNameNoNew;
-  });
-  
-  if (looseFound) {
-    return looseFound.fullPublicPath;
-  }
-  
   // Fallbacks:
-  // A. Same product line folder first image
+  let fallbackUrl = "/images/placeholders/material-placeholder.jpg";
   if (folderImages.length > 0) {
-    return folderImages[0].fullPublicPath;
+    fallbackUrl = folderImages[0].fullPublicPath;
   }
-  
-  // B. Same upper category first image
-  const upperCat = getEagonUpperCategory(line);
-  const upperCatImages = manifestList.filter(img => 
-    img.brand === '이건' && 
-    getEagonUpperCategory(img.series || img.line) === upperCat
-  );
-  if (upperCatImages.length > 0) {
-    return upperCatImages[0].fullPublicPath;
-  }
-  
-  // C. Placeholder
-  return "/images/placeholders/material-placeholder.jpg";
+  eagonProductImageCache.set(cacheKey, fallbackUrl);
+  return fallbackUrl;
 };
 
 const resolveMaterialImageWithEagon = (mat) => {
@@ -547,38 +481,62 @@ const getVirtualSpaceExamples = (product, galleryImages) => {
   ];
 };
 
+const enrichProduct = (raw) => {
+  if (!raw) return null;
+  let enriched = { ...raw };
+  if (enriched.brand === '이건') {
+    const eagonInfo = getEagonInfo(enriched.line || enriched.description || enriched.name || "");
+    if (eagonInfo) {
+      enriched.thickness = eagonInfo.thickness;
+      enriched.specs = {
+        thickness: eagonInfo.thickness,
+        size: eagonInfo.size,
+        packing: eagonInfo.packing
+      };
+      enriched.features = eagonInfo.features;
+      enriched.recommendedSpaces = eagonInfo.spaces;
+    }
+  }
+  if (enriched.code === 'TW 5120G' && !enriched.pattern) {
+    enriched.pattern = '오크';
+  }
+  return enriched;
+};
+
+const isDirectPricingCategory = (product) => {
+  if (!product) return false;
+  if (product.category === '부자재' && (product.price || 0) > 0) return true;
+  if (product.brand === 'KCC' && product.category === '데코타일') return true;
+  if (['LX', '개나리', '서울'].includes(product.brand) && product.category === '벽지') {
+    const lineClean = (product.line || "").replace(/\s+/g, '');
+    if (product.brand === '서울' && (lineClean.includes('프리미엄') || lineClean.includes('방염'))) {
+      return false;
+    }
+    return true;
+  }
+  if (product.brand === '스완' && product.category === '카페트타일' && (product.line || '').includes('타일') && (product.price || 0) > 0) {
+    return true;
+  }
+  return false;
+};
+
 export default function MaterialDetail() {
   const { id: rawId } = useParams();
   const navigate = useNavigate();
+  const location = useLocation();
   const { addToCart, setPendingDirectOrder } = useEstimateCart();
   const { user: currentUser, openLoginModal } = useAuth();
 
   const id = decodeURIComponent(rawId || "");
 
-  // Utilized common getProductPyeong from shippingUtils
+  // Instant data initialization: reuse list state or memory cache for 0ms initial render
+  const initialData = location.state?.initialProduct || getCachedProduct(rawId);
 
-  const isDirectPricingCategory = (product) => {
-    if (!product) return false;
-    if (product.category === '부자재' && (product.price || 0) > 0) return true;
-    if (product.brand === 'KCC' && product.category === '데코타일') return true;
-    if (['LX', '개나리', '서울'].includes(product.brand) && product.category === '벽지') {
-      const lineClean = (product.line || "").replace(/\s+/g, '');
-      if (product.brand === '서울' && (lineClean.includes('프리미엄') || lineClean.includes('방염'))) {
-        return false;
-      }
-      return true;
-    }
-    if (product.brand === '스완' && product.category === '카페트타일' && (product.line || '').includes('타일') && (product.price || 0) > 0) {
-      return true;
-    }
-    return false;
-  };
-
-  const [item, setItem] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const [item, setItem] = useState(() => enrichProduct(initialData));
+  const [loading, setLoading] = useState(() => !initialData);
   const [error, setError] = useState(null);
   const [retryKey, setRetryKey] = useState(0);
-  const [fetchStatus, setFetchStatus] = useState('loading');
+  const [fetchStatus, setFetchStatus] = useState(() => initialData ? 'success' : 'loading');
 
   const [rawImages, setRawImages] = useState({
     detailStr: '',
@@ -598,6 +556,17 @@ export default function MaterialDetail() {
 
   const [selectedOption, setSelectedOption] = useState(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
+
+  // Sync state if navigating directly between products
+  useEffect(() => {
+    const nextInitial = location.state?.initialProduct || getCachedProduct(rawId);
+    if (nextInitial) {
+      setItem(enrichProduct(nextInitial));
+      setLoading(false);
+      setFetchStatus('success');
+      setError(null);
+    }
+  }, [rawId, location.state]);
 
   useEffect(() => {
     if (item && item.sizeOptions && item.sizeOptions.length > 0) {
@@ -621,7 +590,9 @@ export default function MaterialDetail() {
         cleanSrc = decodeURIComponent(cleanSrc);
         if (cleanSrc === prev) break;
       }
-    } catch (e) {}
+    } catch {
+      // ignore
+    }
 
     if (cleanSrc.includes('no-image.svg') || cleanSrc.includes('deco_tile.png')) return;
 
@@ -634,7 +605,7 @@ export default function MaterialDetail() {
     });
   };
 
-  // 1. Fetch Product Detail (Safe, guaranteed fast lookup with multi-strategy search)
+  // 1. Fetch Product Detail (Fast lookup + SWR revalidation with 5s watchdog to eliminate infinite loading)
   useEffect(() => {
     const controller = new AbortController();
     let disposed = false;
@@ -642,21 +613,16 @@ export default function MaterialDetail() {
     const watchdog = setTimeout(() => {
       if (disposed || completed) return;
       controller.abort();
-      setItem(null);
-      setFetchStatus('timeout');
-      setError('상품 조회 시간이 초과되었습니다. 다시 시도해 주세요.');
-      setLoading(false);
-    }, 9000);
+      if (!item) {
+        setItem(null);
+        setFetchStatus('timeout');
+        setError('상품 조회 시간이 초과되었습니다. 다시 시도해 주세요.');
+        setLoading(false);
+      }
+    }, 5000);
 
     async function fetchMaterialDetail() {
-      setLoading(true);
-      setError(null);
-      setFetchStatus('loading');
-      setItem(null);
-
       const routeParam = rawId;
-      console.log('[MaterialDetail] route param:', routeParam);
-
       if (!routeParam) {
         setFetchStatus("notFound");
         setError("상품 식별자가 없습니다.");
@@ -666,32 +632,28 @@ export default function MaterialDetail() {
         return;
       }
 
+      // If we don't have initial data, show loading state
+      if (!item) {
+        setLoading(true);
+        setError(null);
+        setFetchStatus('loading');
+      }
+
       try {
-        const fetchedItem = await fetchProductDetailBySlugOrId(routeParam, controller.signal);
+        const fetchedItem = await fetchProductDetailBySlugOrId(routeParam, controller.signal, { forceRefresh: true });
 
         if (controller.signal.aborted || disposed) return;
 
         if (fetchedItem) {
-          // If Eagon product, apply Eagon specific specs if needed
-          let enrichedItem = { ...fetchedItem };
-          if (enrichedItem.brand === '이건') {
-            const eagonInfo = getEagonInfo(enrichedItem.line || enrichedItem.description || enrichedItem.name || "");
-            if (eagonInfo) {
-              enrichedItem.thickness = eagonInfo.thickness;
-              enrichedItem.specs = {
-                thickness: eagonInfo.thickness,
-                size: eagonInfo.size,
-                packing: eagonInfo.packing
-              };
-              enrichedItem.features = eagonInfo.features;
-              enrichedItem.recommendedSpaces = eagonInfo.spaces;
-            }
+          if (fetchedItem.__inactive) {
+            setItem(null);
+            setFetchStatus('inactive');
+            return;
           }
-          if (enrichedItem.code === 'TW 5120G' && !enrichedItem.pattern) {
-            enrichedItem.pattern = '오크';
-          }
-          setItem(enrichedItem);
+          const enriched = enrichProduct(fetchedItem);
+          setItem(enriched);
           setFetchStatus('success');
+          setError(null);
         } else {
           setItem(null);
           setFetchStatus("notFound");
@@ -699,22 +661,23 @@ export default function MaterialDetail() {
         }
       } catch (err) {
         if (disposed || controller.signal.aborted || err.name === 'AbortError' || err.message === 'aborted') {
-          console.log('[MaterialDetail] fetch aborted');
           return;
         }
         console.error("[MaterialDetail] 상품 조회 실패:", err);
-        setItem(null);
-        setFetchStatus(err.name === "TimeoutError" ? "timeout" : "error");
-        setError(
-          err instanceof Error
-            ? err.message
-            : '상품 정보를 불러오지 못했습니다.'
-        );
+        // Only set error state if we didn't already have initial data to display
+        if (!item) {
+          setItem(null);
+          setFetchStatus(err.name === "TimeoutError" ? "timeout" : "error");
+          setError(
+            err instanceof Error
+              ? err.message
+              : '상품 정보를 불러오지 못했습니다.'
+          );
+        }
       } finally {
         completed = true;
         clearTimeout(watchdog);
         if (!disposed && !controller.signal.aborted) {
-          console.log('[MaterialDetail] loading finish');
           setLoading(false);
         }
       }
@@ -827,7 +790,9 @@ export default function MaterialDetail() {
           str = decodeURIComponent(str);
           if (str === prev) break;
         }
-      } catch (e) {}
+      } catch {
+        // ignore
+      }
       return str;
     }).filter(Boolean);
 
@@ -877,6 +842,10 @@ export default function MaterialDetail() {
     let active = true;
 
     async function fetchRelated() {
+      // Defer related fetch so main hero image and viewport render first without interruption
+      await new Promise(r => setTimeout(r, 80));
+      if (!active) return;
+
       const getScore = (p) => {
         const pBrand = p.brand || "";
         const pLine = p.line || "";
@@ -901,31 +870,25 @@ export default function MaterialDetail() {
 
       try {
         if (supabase) {
+          const queryCols = 'id, slug, name, product_code, price, thickness, size_text, unit, image_url, description, categories ( id, name ), brands ( id, name )';
           let data = [];
           if (item.brand === '이건') {
             const res = await supabase
               .from('products')
-              .select(`
-                *,
-                categories ( id, name ),
-                brands ( id, name )
-              `)
+              .select(queryCols)
               .eq('brand_id', 12)
-              .neq('product_code', item.code);
+              .neq('product_code', item.code)
+              .limit(8);
             if (res.data) {
               data = res.data;
             }
           } else {
             const res = await supabase
               .from('products')
-              .select(`
-                *,
-                categories ( id, name ),
-                brands ( id, name )
-              `)
+              .select(queryCols)
               .eq('category_id', item.category_id || 1)
               .neq('product_code', item.code)
-              .limit(20);
+              .limit(8);
             if (res.data) {
               data = res.data;
             }
@@ -958,40 +921,24 @@ export default function MaterialDetail() {
           }
         }
       } catch (err) {
-        console.warn("Supabase related fetch failed, using fallback.", err);
+        console.warn("Supabase related fetch failed, using memory cache fallback.", err);
       }
 
-      // Fallback local related
-      try {
-        const localMaterials = await getLocalMaterialsData();
-        if (!active) return;
-        const localRelated = localMaterials
-          .filter(m => m.code !== item.code && m.id !== item.id)
-          .map(m => {
-            const mapped = {
-              id: m.id || m.code,
-              code: m.code || "",
-              name: m.name || "",
-              brand: m.brand || "",
-              category: m.category || "",
-              line: m.line || m.description || "",
-              price: m.price || 0,
-              size: m.specs?.size || m.specs?.thickness || ""
-            };
-            normalizeProductDetails(mapped);
-            mapped.thumbnail = resolveMaterialImageWithEagon(mapped);
-            return {
-              item: mapped,
-              score: getScore(mapped)
-            };
-          });
-
-        localRelated.sort((a, b) => b.score - a.score);
-        const fallbackTop4 = localRelated.slice(0, 4).map(x => x.item);
-        if (active) {
-          setRelatedItems(fallbackTop4);
+      // Fast in-memory cache fallback to avoid freezing main thread
+      if (productDetailMemoryCache.size > 1 && active) {
+        const cachedCandidates = [];
+        for (const entry of productDetailMemoryCache.values()) {
+          const m = entry.data;
+          if (m && m.code !== item.code && m.id !== item.id && (m.category === item.category || m.brand === item.brand)) {
+            cachedCandidates.push(m);
+            if (cachedCandidates.length >= 4) break;
+          }
         }
-      } catch (e) {}
+        if (cachedCandidates.length > 0 && active) {
+          setRelatedItems(cachedCandidates);
+          return;
+        }
+      }
     }
 
     fetchRelated();
@@ -999,12 +946,55 @@ export default function MaterialDetail() {
     return () => { active = false; };
   }, [item?.id, item?.code]);
 
-  if (loading || fetchStatus === 'loading') {
+  if (loading && !item) {
+    return (
+      <MainLayout className="product-detail-page">
+        <div className="showroom-detail-bg">
+          <div className="container mat-detail-container" style={{ padding: '40px 0' }}>
+            <div style={{ width: '130px', height: '38px', borderRadius: '20px', background: '#e2e8f0', marginBottom: '24px', animation: 'skeleton-pulse 1.5s ease-in-out infinite' }} />
+            <div className="showroom-split-row">
+              <div className="showroom-visuals">
+                <div style={{ width: '100%', height: '420px', borderRadius: '12px', background: '#f1f5f9', animation: 'skeleton-pulse 1.5s ease-in-out infinite' }} />
+              </div>
+              <div className="showroom-meta-data" style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                <div style={{ width: '140px', height: '24px', borderRadius: '4px', background: '#e2e8f0', animation: 'skeleton-pulse 1.5s ease-in-out infinite' }} />
+                <div style={{ width: '70%', height: '36px', borderRadius: '6px', background: '#e2e8f0', animation: 'skeleton-pulse 1.5s ease-in-out infinite' }} />
+                <div style={{ width: '40%', height: '20px', borderRadius: '4px', background: '#e2e8f0', animation: 'skeleton-pulse 1.5s ease-in-out infinite' }} />
+                <div style={{ width: '100%', height: '90px', borderRadius: '8px', background: '#f1f5f9', animation: 'skeleton-pulse 1.5s ease-in-out infinite' }} />
+                <div style={{ width: '100%', height: '140px', borderRadius: '8px', background: '#f1f5f9', animation: 'skeleton-pulse 1.5s ease-in-out infinite' }} />
+                <div style={{ width: '100%', height: '54px', borderRadius: '8px', background: '#e2e8f0', animation: 'skeleton-pulse 1.5s ease-in-out infinite' }} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </MainLayout>
+    );
+  }
+
+  if (fetchStatus === 'inactive') {
     return (
       <MainLayout>
-        <div className="container" style={{ padding: "120px 0", textAlign: "center", fontSize: "16px", color: "#6B6B6B" }}>
-          <div className="spinner-loader"></div>
-          <p style={{ marginTop: '20px' }}>자재 상세 쇼핑 정보를 불러오는 중입니다...</p>
+        <SEO 
+          title="상품 정보 | 동경바닥재"
+          description="현재 일시적으로 판매를 중단한 상품입니다."
+          canonical="https://dkfloor.co.kr/materials"
+        />
+        <div className="container" style={{ padding: "120px 0", textAlign: "center", color: "#6B6B6B" }}>
+          <div style={{ fontSize: "48px", marginBottom: "16px" }}>📦</div>
+          <h2 style={{ fontSize: "22px", color: "#2D2D2D", fontWeight: 700 }}>현재 일시적으로 판매를 중단한 상품입니다.</h2>
+          <p style={{ marginTop: "12px", color: "#6B7280", fontSize: "15px" }}>
+            해당 상품은 현재 판매가 중단되었거나 삭제되었습니다.<br />
+            자재찾기에서 다양한 바닥재 및 벽지 상품을 확인해보세요.
+          </p>
+          <div style={{ marginTop: "32px", display: "flex", gap: "12px", justifyContent: "center" }}>
+            <button 
+              className="btn-showroom-dark" 
+              onClick={() => navigate("/materials")} 
+              style={{ padding: '14px 32px', borderRadius: '25px', backgroundColor: '#111827', color: '#ffffff', cursor: 'pointer', border: 'none', fontWeight: 600, fontSize: '15px' }}
+            >
+              자재찾기로 돌아가기
+            </button>
+          </div>
         </div>
       </MainLayout>
     );
@@ -1015,11 +1005,15 @@ export default function MaterialDetail() {
       <MainLayout>
         <div className="container" style={{ padding: "120px 0", textAlign: "center", color: "#6B6B6B" }}>
           <h2 style={{ fontSize: "22px", color: "#2D2D2D", fontWeight: 600 }}>상품 정보를 불러오지 못했습니다.</h2>
-          <p style={{ marginTop: "12px", color: "#8E8E93" }}>{error}</p>
+          <p style={{ marginTop: "12px", color: "#8E8E93" }}>{error || "상품 정보를 불러오는 중 문제가 발생했습니다."}</p>
           <div style={{ marginTop: "32px", display: "flex", gap: "12px", justifyContent: "center" }}>
             <button 
               className="btn-showroom-dark" 
-              onClick={() => setRetryKey(k => k + 1)} 
+              onClick={() => {
+                setError(null);
+                setFetchStatus('loading');
+                setRetryKey(k => k + 1);
+              }} 
               style={{ padding: '12px 28px', borderRadius: '25px', cursor: 'pointer' }}
             >
               다시 시도
@@ -1432,8 +1426,11 @@ export default function MaterialDetail() {
               <div className="showroom-main-frame" style={{ position: 'relative' }}>
                 {productImages[selectedImageIndex] && productImages[selectedImageIndex] !== "/images/no-image.svg" && !productImages[selectedImageIndex].includes("deco_tile.png") ? (
                   <img 
-                    src={`${productImages[selectedImageIndex]}?v=2`} 
+                    src={productImages[selectedImageIndex]} 
                     alt={`${item.name} main`} 
+                    fetchPriority="high"
+                    loading="eager"
+                    decoding="async"
                     onError={() => handleImageError(productImages[selectedImageIndex])} 
                     className="showroom-main-img"
                     style={{ objectFit: 'contain' }}
@@ -1473,7 +1470,9 @@ export default function MaterialDetail() {
                         onClick={() => setSelectedImageIndex(idx)}
                       >
                         <img
-                          src={`${src}?v=2`}
+                          src={src}
+                          loading="lazy"
+                          decoding="async"
                           onError={() => handleImageError(src)}
                           alt={`${item.name} thumbnail-${idx + 1}`}
                           className="showroom-thumb-img"

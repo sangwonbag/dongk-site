@@ -6,6 +6,49 @@ let mappedImageManifestCache = null;
 let generatedImageManifestCache = syncGeneratedManifest;
 let manifestPromise = null;
 
+let generatedManifestCodeIndex = null;
+let generatedManifestNameIndex = null;
+
+export function getGeneratedManifestIndices() {
+  if (generatedManifestCodeIndex && generatedManifestNameIndex) {
+    return { codeIndex: generatedManifestCodeIndex, nameIndex: generatedManifestNameIndex };
+  }
+  generatedManifestCodeIndex = new Map();
+  generatedManifestNameIndex = new Map();
+
+  const manifest = generatedImageManifestCache;
+  if (Array.isArray(manifest)) {
+    for (let i = 0; i < manifest.length; i++) {
+      const img = manifest[i];
+      if (img.extractedCode) {
+        const cKey = normalizeCode(img.extractedCode);
+        if (cKey && !generatedManifestCodeIndex.has(cKey)) {
+          generatedManifestCodeIndex.set(cKey, img);
+        }
+      }
+      if (img.fileName) {
+        const lastDot = img.fileName.lastIndexOf('.');
+        const namePart = lastDot !== -1 ? img.fileName.slice(0, lastDot) : img.fileName;
+        const nKey = normalizeCode(namePart);
+        if (nKey && !generatedManifestNameIndex.has(nKey)) {
+          generatedManifestNameIndex.set(nKey, img);
+        }
+      }
+    }
+  }
+  return { codeIndex: generatedManifestCodeIndex, nameIndex: generatedManifestNameIndex };
+}
+
+export function prefetchProductImage(url) {
+  if (!url || typeof url !== 'string' || url === '/images/no-image.svg') return;
+  try {
+    const img = new Image();
+    img.src = url;
+  } catch {
+    // ignore
+  }
+}
+
 /**
  * Lazy loads image manifests only when a product lacks a valid direct DB image URL.
  */
@@ -122,15 +165,11 @@ export function getProductImageCandidates(product) {
 
   const rawCode = product.code || product.product_code || '';
   const rawName = product.name || '';
-  const brand = product.brand || '';
-  const line = product.line || product.subLine || '';
   const cleanedCode = cleanProductCode(rawCode);
   const cleanedName = cleanProductCode(rawName);
 
   const codeNorm = normalizeCode(cleanedCode);
   const nameNorm = normalizeCode(cleanedName);
-  const brandNorm = normalizeCode(brand);
-  const lineNorm = normalizeCode(line);
 
   const lineup = getKccLineup(product);
 
@@ -176,6 +215,11 @@ export function getProductImageCandidates(product) {
     if (field) addCandidate(String(field));
   }
 
+  // Early return if product already has direct, valid DB images (drastically reduces CPU & loop overhead)
+  if (candidates.length > 0) {
+    return candidates;
+  }
+
   // Trigger background manifest loading if not already cached
   const mappedManifest = mappedImageManifestCache;
   const generatedManifest = generatedImageManifestCache;
@@ -205,19 +249,22 @@ export function getProductImageCandidates(product) {
     }
   }
 
-  // 3. Generated manifest lookup (materialImageManifest.generated.js)
+  // If candidate found in mappedManifest, return early
+  if (candidates.length > 0) {
+    return candidates;
+  }
+
+  // 3. Fast Indexed Generated manifest lookup (materialImageManifest.generated.js)
   if (generatedManifest && (codeNorm || nameNorm)) {
-    const categoryNorm = normalizeCode(product.category);
-    let genMatch = generatedManifest.find(img => {
-      if (categoryNorm && normalizeCode(img.category) && normalizeCode(img.category) !== categoryNorm) return false;
-      const imgCode = normalizeCode(img.extractedCode);
-      if (codeNorm && imgCode === codeNorm) return true;
-      if (nameNorm && img.fileName) {
-        const cleanFileName = normalizeCode(img.fileName.slice(0, img.fileName.lastIndexOf('.')));
-        return cleanFileName === nameNorm || cleanFileName.includes(nameNorm);
-      }
-      return false;
-    });
+    const indices = getGeneratedManifestIndices();
+    let genMatch = null;
+
+    if (codeNorm) {
+      genMatch = indices.codeIndex.get(codeNorm);
+    }
+    if (!genMatch && nameNorm) {
+      genMatch = indices.nameIndex.get(nameNorm);
+    }
 
     if (genMatch && genMatch.fullPublicPath) {
       addCandidate(genMatch.fullPublicPath);

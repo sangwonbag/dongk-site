@@ -1,15 +1,14 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useMemo } from 'react';
 import { ShoppingCart } from 'lucide-react';
 import { useNavigate, Link } from 'react-router-dom';
 import { useEstimateCart } from '../../contexts/EstimateCartContext';
 import { useAuth } from '../../contexts/AuthContext';
-import { getThumbnailImage } from '../../utils/galleryUtils';
-import { getMaterialImagePath } from '../../utils/materialImageResolver';
-import { getProductImageUrl, getProductImageCandidates } from '../../utils/productImageResolver';
-import { getComputedBrand, getNormalizedThickness, formatFlooringProductName, formatProductTitle, getProductUnit, formatShapeOrPattern, getKccLineup } from '../../utils/brandUtils';
+import { getProductImageCandidates, prefetchProductImage } from '../../utils/productImageResolver';
+import { getComputedBrand, getNormalizedThickness, formatProductTitle, getProductUnit, getKccLineup } from '../../utils/brandUtils';
 import { isDecoTile } from '../../utils/decotileUtils';
 import { getDongshinMajorCategory, getDongshinDetailedLineup } from '../../utils/dongshinUtils';
 import { Skeleton, ImagePlaceholder, ProductImage } from '../ui';
+import { prefetchProductDetail } from '../../utils/supabaseFetcher';
 import './MaterialCard.css';
 
 
@@ -48,14 +47,12 @@ const MaterialCard = ({ material, priority = false }) => {
         return null;
     });
 
-    useEffect(() => {
+    const [prevMaterialId, setPrevMaterialId] = useState(material?.id);
+    if (material?.id !== prevMaterialId) {
+        setPrevMaterialId(material?.id);
         setQty(1);
-        if (material.sizeOptions && material.sizeOptions.length > 0) {
-            setSelectedOption(material.sizeOptions[0]);
-        } else {
-            setSelectedOption(null);
-        }
-    }, [material]);
+        setSelectedOption(material?.sizeOptions && material.sizeOptions.length > 0 ? material.sizeOptions[0] : null);
+    }
 
     const currentSpec = selectedOption ? selectedOption.spec : (material.specs?.size || material.spec || "");
 
@@ -202,17 +199,47 @@ const MaterialCard = ({ material, priority = false }) => {
         navigate("/checkout");
     };
 
+    const prefetchTimerRef = React.useRef(null);
+    const handlePrefetch = () => {
+        if (typeof window !== 'undefined' && !('ontouchstart' in window)) {
+            if (prefetchTimerRef.current) clearTimeout(prefetchTimerRef.current);
+            prefetchTimerRef.current = setTimeout(() => {
+                prefetchProductDetail(material.id || material.slug);
+                if (coverUrl && coverUrl !== '/images/no-image.svg') {
+                    prefetchProductImage(coverUrl);
+                }
+            }, 100);
+        }
+    };
+    const handleCancelPrefetch = () => {
+        if (prefetchTimerRef.current) {
+            clearTimeout(prefetchTimerRef.current);
+            prefetchTimerRef.current = null;
+        }
+    };
+
     const handleGoDetail = (e) => {
         if (e) e.stopPropagation();
         sessionStorage.setItem("materialsScrollY", window.scrollY.toString());
         // Also save current path+query so "Back to list" in detail view works exactly
         sessionStorage.setItem("materialsLastUrl", window.location.pathname + window.location.search);
-        navigate(`/materials/${material.id}`);
+        navigate(`/materials/${material.id}`, { state: { initialProduct: material } });
     };
 
     return (
-        <div className="material-card" onClick={(e) => handleGoDetail(e)}>
-            <Link to={`/materials/${material.id}`} className="card-thumb" onClick={handleGoDetail}>
+        <div 
+            className="material-card" 
+            onClick={(e) => handleGoDetail(e)}
+            onMouseEnter={handlePrefetch}
+            onMouseLeave={handleCancelPrefetch}
+            onFocus={handlePrefetch}
+        >
+            <Link 
+                to={`/materials/${material.id}`} 
+                state={{ initialProduct: material }} 
+                className="card-thumb" 
+                onClick={handleGoDetail}
+            >
                 <ProductImage
                     src={coverUrl}
                     candidates={imageCandidates}
@@ -252,7 +279,15 @@ const MaterialCard = ({ material, priority = false }) => {
                         </>
                     )}
                 </div>
-                <Link to={`/materials/${material.id}`} className="card-name" onClick={handleGoDetail} style={{ color: 'inherit', textDecoration: 'none', display: 'block' }}>{displayName}</Link>
+                <Link 
+                    to={`/materials/${material.id}`} 
+                    state={{ initialProduct: material }} 
+                    className="card-name" 
+                    onClick={handleGoDetail} 
+                    style={{ color: 'inherit', textDecoration: 'none', display: 'block' }}
+                >
+                    {displayName}
+                </Link>
                 
                 {(material.brand === 'KCC' || material.brand === 'KCC글라스' || (material.brand && material.brand.includes('KCC'))) && material.category === '데코타일' ? (
                     <div className="card-meta">
