@@ -75,14 +75,14 @@ const SYNONYM_KEYS = Object.keys(SYNONYMS).sort((a, b) => b.length - a.length);
 
 export function normalizeSearchText(text) {
   if (!text) return "";
-  let t = text.toLowerCase();
+  let t = String(text).normalize("NFKC").toLowerCase();
   t = t.replace(/[\s\-_()]/g, "");
   return t;
 }
 
 export function normalizeProductCode(code) {
   if (!code) return "";
-  let pre = code.toLowerCase();
+  let pre = String(code).normalize("NFKC").toLowerCase();
   pre = pre.replace(/[_(]\d+[)]?$/, '');
   return normalizeSearchText(pre);
 }
@@ -155,8 +155,33 @@ export function buildProductSearchText(product) {
 }
 
 
+// Numeric searches target product identifiers, never prices or dimensions.
+export function isProductNumberQuery(query) {
+  return /^[0-9\s_-]+$/.test(String(query || '').normalize('NFKC').trim());
+}
+
+export function getProductNumberScore(product, query) {
+  const q = normalizeSearchText(query);
+  if (!q) return 0;
+  const codes = [product.code, product.product_code].filter(v => v != null && String(v).trim());
+  // Some legacy records store the identifier only in the display name.
+  if (!codes.length) {
+    codes.push(...(String(product.name || product.product_name || '').match(/[a-zA-Z]*\d{3,}(?:[-_]\d+)?[a-zA-Z]*/g) || []));
+  }
+  return Math.max(0, ...codes.map(value => {
+    const code = normalizeSearchText(value);
+    const number = code.replace(/^[a-z]+|[a-z]+$/g, '');
+    if (code === q) return 4000;
+    if (number === q) return 3000;
+    if (number.startsWith(q)) return 2000;
+    if (code.includes(q)) return 1000;
+    return 0;
+  }));
+}
+
 export function getSearchScore(product, rawQuery) {
   if (!product || !rawQuery) return 0;
+  if (isProductNumberQuery(rawQuery)) return getProductNumberScore(product, rawQuery);
 
   const rawTokens = tokenizeSearchQuery(rawQuery);
   const tokens = expandSynonyms(rawTokens);
@@ -165,7 +190,7 @@ export function getSearchScore(product, rawQuery) {
 
   const brand = normalizeSearchText(product.brand || "");
   const category = normalizeSearchText(product.category || "");
-  const code = normalizeProductCode(product.code || "");
+  const code = normalizeProductCode(product.code || product.product_code || "");
   const name = normalizeSearchText(product.name || "");
   const fullText = buildProductSearchText(product);
   
@@ -196,7 +221,7 @@ export function getSearchScore(product, rawQuery) {
   let score = 100 * matchCount; // Base score proportional to matchCount
 
   // Exact / Partial Product Code Matches
-  const productCode = normalizeProductCode(product.code || "");
+  const productCode = normalizeProductCode(product.code || product.product_code || "");
   const rawQueryNorm = normalizeSearchText(rawQuery);
   const rawCodeQuery = normalizeProductCode(rawQuery);
 

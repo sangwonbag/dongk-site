@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo, useRef } from "react";
 import { useNavigate, useLocation, Link } from "react-router-dom";
 import { Search, ShoppingCart, User, BookOpen, Layers } from "lucide-react";
-import { fetchHomeProducts, searchProductsServer } from "../../utils/supabaseFetcher";
+import { searchMaterials } from "../../utils/supabaseFetcher";
 import { getSearchScore, RECOMMENDATIONS, normalizeSearchText, tokenizeSearchQuery, handleSearchRedirect } from "../../utils/searchUtils";
 import { getSupabaseImageUrl } from "../../utils/getSupabaseImageUrl";
 import { useEstimateCart } from "../../contexts/EstimateCartContext";
@@ -129,13 +129,16 @@ export default function Header() {
   const debouncedQ = useDebounce(q, 300);
   const [dbMaterials, setDbMaterials] = useState([]);
 
-  // Fetch materials from Supabase on search focus to keep it dynamic and fast
+  // Search the catalogue, not only the first 100 home-page products.
   useEffect(() => {
-    if (isFocused && dbMaterials.length === 0) {
-      console.log("[Debug] Search input focused. Fetching initial materials for autocomplete...");
-      fetchHomeProducts(100).then(setDbMaterials).catch(console.error);
-    }
-  }, [isFocused, dbMaterials.length]);
+    const controller = new AbortController();
+    setDbMaterials([]);
+    if (!isFocused || !debouncedQ.trim()) return () => controller.abort();
+    searchMaterials(debouncedQ, controller.signal)
+      .then(items => { if (!controller.signal.aborted) setDbMaterials(items); })
+      .catch(error => { if (error.name !== 'AbortError') console.warn(error); });
+    return () => controller.abort();
+  }, [isFocused, debouncedQ]);
 
   // Sync search input with URL
   useEffect(() => {
@@ -264,53 +267,13 @@ export default function Header() {
       return;
     }
     
-    // Find the best matching product synchronously to determine its category and brand
-    let topProduct = null;
-    if (dbMaterials && dbMaterials.length > 0) {
-      const scored = dbMaterials
-        .map(m => ({ item: m, score: getSearchScore(m, keyword) }))
-        .filter(x => x.score > 0)
-        .sort((a, b) => b.score - a.score);
-      
-      if (scored.length > 0) {
-        topProduct = scored[0].item;
-      }
-    }
-
-    const customNav = (url) => {
-      if (url.startsWith('/materials?search=')) {
-        const newParams = new URLSearchParams();
-        newParams.set('search', keyword);
-        
-        if (topProduct) {
-          if (topProduct.category) newParams.set('category', topProduct.category);
-          if (topProduct.brand) {
-            const b = topProduct.brand;
-            const brandFormat = b.toLowerCase() === 'lx' ? 'LX' : (b.toLowerCase() === 'kcc' ? 'KCC' : b);
-            newParams.set('brand', brandFormat);
-          }
-          if (topProduct.line) newParams.set('line', topProduct.line);
-          if (topProduct.materialType) newParams.set('type', topProduct.materialType);
-        } else if (location.pathname === '/materials') {
-          const currentParams = new URLSearchParams(location.search);
-          if (currentParams.has('category')) newParams.set('category', currentParams.get('category'));
-          if (currentParams.has('brand')) newParams.set('brand', currentParams.get('brand'));
-          if (currentParams.has('line')) newParams.set('line', currentParams.get('line'));
-          if (currentParams.has('type')) newParams.set('type', currentParams.get('type'));
-        }
-        
-        nav(`/materials?${newParams.toString()}`);
-      } else {
-        nav(url);
-      }
-    };
-
-    handleSearchRedirect(keyword, customNav);
+    // Keep every matching brand/category; never infer filters from one result.
+    nav(`/materials?search=${encodeURIComponent(keyword)}`);
     setIsFocused(false);
   };
 
   const handleProductClick = (item) => {
-    nav(`/materials/${item.id}`);
+    nav(`/materials/${encodeURIComponent(item.slug || item.id)}`);
     setIsFocused(false);
   };
 

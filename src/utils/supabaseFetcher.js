@@ -1,3 +1,4 @@
+import { getSearchScore, isProductNumberQuery, normalizeSearchText } from './searchUtils.js';
 import { supabase } from '../lib/supabaseClient.js';
 import { dongshinPolymer2026 } from '../data/dongshinPolymer2026.js';
 import { normalizeProductDetails, isSentenceDescription, getKccLineup } from './brandUtils.js';
@@ -946,4 +947,58 @@ export async function fetchProductDetailBySlugOrId(routeParam, signal = null) {
   } finally {
     clearTimeout(localTimer);
   }
+}
+
+/** Shared full-catalog search for autocomplete and the materials results page. */
+export async function searchMaterials(queryText, signal) {
+  const text = String(queryText || '').trim();
+  if (!normalizeSearchText(text)) return [];
+  const checkAbort = () => {
+    if (signal?.aborted) throw Object.assign(new Error('aborted'), { name: 'AbortError' });
+  };
+  const rank = items => deduplicateProducts(items)
+    .filter(item => item.active !== false && item.is_active !== false
+      && !(HIDE_SUB_MATERIALS && isSubMaterialCategory(item)))
+    .map(item => ({ item, score: getSearchScore(item, text) }))
+    .filter(entry => entry.score > 0)
+    .sort((a, b) => b.score - a.score || String(a.item.code || '').localeCompare(String(b.item.code || ''), 'ko'))
+    .map(entry => entry.item);
+  checkAbort();
+  if (supabase) {
+    const controller = new AbortController();
+    const abort = () => controller.abort();
+    signal?.addEventListener('abort', abort, { once: true });
+    const timer = setTimeout(abort, 6000);
+    try {
+      const rows = [];
+      for (let page = 0; ; page++) {
+        let request = supabase.from('products')
+          .select('*, categories(id, name), brands(id, name)')
+          .eq('is_active', true).order('id').range(page * 1000, page * 1000 + 999)
+          .abortSignal(controller.signal);
+        if (isProductNumberQuery(text)) {
+          // Digits only: safe in PostgREST syntax. Match separators on the server,
+          // then require a contiguous normalized identifier in rank().
+          const pattern = '%' + normalizeSearchText(text).split('').join('%') + '%';
+          request = request.or(`product_code.ilike.${pattern},name.ilike.${pattern}`);
+        }
+        const { data, error } = await request;
+        checkAbort();
+        if (error) throw error;
+        rows.push(...(data || []));
+        if (!data || data.length < 1000) break;
+      }
+      return rank(rows.map(mapProductRow));
+    } catch (error) {
+      checkAbort();
+      console.warn('[searchMaterials] Live search unavailable; using local catalogue:', error.message);
+    } finally {
+      clearTimeout(timer);
+      signal?.removeEventListener('abort', abort);
+      controller.abort();
+    }
+  }
+  const local = await withTimeout(getLocalMaterials(), 5000);
+  checkAbort();
+  return rank(local.map(normalizeProductDetails));
 }
