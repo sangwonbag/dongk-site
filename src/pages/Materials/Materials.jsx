@@ -4,7 +4,8 @@ import MainLayout from "../../components/layout/MainLayout";
 import { getComputedBrand, getMaterialTypeAndLine, formatShapeOrPattern, JANGPAN_STANDARD_THICKNESSES, FLOORING_THICKNESS_BY_BRAND, normalizeBrandName, isSentenceDescription, getKccLineup, KCC_DECOTILE_LINEUPS, resolveKccLineupName, resolveKccLineupSlug, KCC_LINEUP_NAME_TO_SLUG } from "../../utils/brandUtils";
 import { DONGSHIN_MAJOR_CATEGORIES, DONGSHIN_DETAILED_LINEUPS_MAP, getDongshinMajorCategory, getDongshinDetailedLineup } from "../../utils/dongshinUtils";
 import MaterialCard from "../../components/material/MaterialCard";
-import { fetchFilteredProducts, withTimeout } from "../../utils/supabaseFetcher";
+import { fetchFilteredProducts, searchMaterials, withTimeout } from "../../utils/supabaseFetcher";
+import { getSearchScore, isProductNumberQuery } from "../../utils/searchUtils";
 import { sortProducts, SORT_OPTIONS } from "../../utils/sortUtils";
 import { Skeleton, EmptyState, ErrorState } from "../../components/ui";
 import MobileFilterSheet from "../../components/material/MobileFilterSheet";
@@ -131,13 +132,22 @@ export default function Materials() {
   const [codeFilter, setCodeFilter] = useState("");
   const [specFilter, setSpecFilter] = useState("");
 
+  const urlSearch = (searchParams.get("search") || "").trim();
+  const catalogQuery = codeFilter.trim() || urlSearch || (isProductNumberQuery(nameFilter) ? nameFilter.trim() : "");
+  const [debouncedQuery, setDebouncedQuery] = useState(catalogQuery);
+  useEffect(() => {
+    const timer = setTimeout(() => setDebouncedQuery(catalogQuery), 250);
+    return () => clearTimeout(timer);
+  }, [catalogQuery]);
+  const searching = !!catalogQuery;
+
   // Read state directly from URL query parameters (or default)
-  const activeTab = searchParams.get("category") || "데코타일";
+  const activeTab = searching ? "all" : (searchParams.get("category") || "데코타일");
   
   // If there's an explicit category query, but no brand query: default to "all" (to show all brands).
   // If there's no category query either (first load): default to "KCC".
   const defaultBrand = searchParams.get("category") ? "all" : "KCC";
-  const activeBrand = searchParams.get("brand") || defaultBrand;
+  const activeBrand = searching ? "all" : (searchParams.get("brand") || defaultBrand);
   
   const activeMaterialType = searchParams.get("type") || "all";
   const rawLineParam = searchParams.get("line") || "all";
@@ -179,7 +189,7 @@ export default function Materials() {
   }, [activeBrand, activeThickness, activeShape, activeLine, activeDongshinMajor, activeDongshinDetail, sortOption, nameFilter, codeFilter, specFilter]);
 
   const handleResetFilters = useCallback(() => {
-    updateParams({ brand: "all", type: null, line: null, detail: null, shape: null, thickness: null, sort: null });
+    updateParams({ search: null, brand: "all", type: null, line: null, detail: null, shape: null, thickness: null, sort: null });
     setNameFilter("");
     setCodeFilter("");
     setSpecFilter("");
@@ -234,7 +244,7 @@ export default function Materials() {
       setError(null);
       
       try {
-        const res = await fetchFilteredProducts({
+        const res = debouncedQuery ? await searchMaterials(debouncedQuery, controller.signal) : await fetchFilteredProducts({
           category: activeTab,
           brand: activeBrand,
           thickness: activeThickness,
@@ -279,7 +289,7 @@ export default function Materials() {
     return () => {
       controller.abort();
     };
-  }, [activeTab, activeBrand, activeThickness]);
+  }, [activeTab, activeBrand, activeThickness, debouncedQuery]);
 
   // Load more handler
   const handleLoadMore = useCallback(() => {
@@ -289,7 +299,7 @@ export default function Materials() {
   // Reset visibleCount to 30 whenever any filter, search input, or sort option changes
   useEffect(() => {
     setVisibleCount(PRODUCTS_PER_LOAD);
-  }, [activeTab, activeBrand, activeMaterialType, activeLine, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, nameFilter, codeFilter, specFilter, sortOption]);
+  }, [activeTab, activeBrand, activeMaterialType, activeLine, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, nameFilter, codeFilter, specFilter, sortOption, catalogQuery]);
 
   // Normalize legacy line parameters (e.g., line=강마루_듀오텍스쳐_DUO TEXTURE)
   useEffect(() => {
@@ -318,7 +328,7 @@ export default function Materials() {
   const handleCategoryChange = (category) => {
     // Switch category and reset brand to its default corresponding brand
     const defaultBrand = DEFAULT_BRAND_BY_CATEGORY[category] || "all";
-    updateParams({ category, brand: defaultBrand, type: null, line: null, shape: null, thickness: null });
+    updateParams({ category, search: null, brand: defaultBrand, type: null, line: null, shape: null, thickness: null });
     setNameFilter("");
     setCodeFilter("");
     setSpecFilter("");
@@ -559,7 +569,8 @@ export default function Materials() {
     if (!materialsList || materialsList.length === 0) return [];
     
     let result = materialsList.filter((m) => {
-      if (!m) return false;
+      if (!m || m.active === false || m.is_active === false) return false;
+      if (searching) return getSearchScore(m, catalogQuery) > 0;
 
       // Category tab check
       const tabOk = (m.category === activeTab);
@@ -641,13 +652,9 @@ export default function Materials() {
     });
 
     // Apply client-side search inputs on top of standard filters
-    if (nameFilter.trim()) {
+    if (nameFilter.trim() && !isProductNumberQuery(nameFilter)) {
       const q = nameFilter.trim().toLowerCase();
       result = result.filter(m => (m.name || "").toLowerCase().includes(q));
-    }
-    if (codeFilter.trim()) {
-      const q = codeFilter.trim().toLowerCase();
-      result = result.filter(m => (m.code || "").toLowerCase().includes(q) || (m.product_code || "").toLowerCase().includes(q));
     }
     if (specFilter.trim()) {
       const q = specFilter.trim().toLowerCase();
@@ -659,29 +666,30 @@ export default function Materials() {
     }
 
     return result;
-  }, [materialsList, activeTab, activeBrand, activeMaterialType, activeLine, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, visibleLines, nameFilter, codeFilter, specFilter]);
+  }, [materialsList, activeTab, activeBrand, activeMaterialType, activeLine, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, visibleLines, nameFilter, codeFilter, specFilter, searching, catalogQuery]);
 
   // Apply sorting pipeline on filtered products (Immutably using useMemo)
   const sortedProducts = useMemo(() => {
+    if (searching && sortOption === "default") return [...filtered].sort((a, b) => getSearchScore(b, catalogQuery) - getSearchScore(a, catalogQuery));
     return sortProducts(filtered, sortOption);
-  }, [filtered, sortOption]);
+  }, [filtered, sortOption, searching, catalogQuery]);
 
   const isFilteredSearch = useMemo(() => {
     return activeLine !== "all" || activeDongshinMajor !== "all" || activeDongshinDetail !== "all" || activeShape !== "all" || activeThickness !== "all" || activeMaterialType !== "all" || !!nameFilter.trim() || !!codeFilter.trim() || !!specFilter.trim();
   }, [activeLine, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, activeMaterialType, nameFilter, codeFilter, specFilter]);
 
   const displayTotalCount = useMemo(() => {
-    if (isFilteredSearch) return sortedProducts.length;
+    if (searching || isFilteredSearch) return sortedProducts.length;
     return totalCount || sortedProducts.length;
-  }, [isFilteredSearch, sortedProducts.length, totalCount]);
+  }, [searching, isFilteredSearch, sortedProducts.length, totalCount]);
 
   const visibleProducts = useMemo(() => {
     return sortedProducts.slice(0, visibleCount);
   }, [sortedProducts, visibleCount]);
 
   const hasMoreItems = useMemo(() => {
-    return visibleCount < displayTotalCount;
-  }, [visibleCount, displayTotalCount]);
+    return visibleCount < sortedProducts.length;
+  }, [visibleCount, sortedProducts.length]);
 
   // Retry handler for user-initiated retry action
   const handleRetry = useCallback(() => {
@@ -689,13 +697,13 @@ export default function Materials() {
     setError(null);
     setLoading(true);
 
-    fetchFilteredProducts({
+    (debouncedQuery ? searchMaterials(debouncedQuery) : fetchFilteredProducts({
       category: activeTab,
       brand: activeBrand,
       thickness: activeThickness,
       page: 0,
-      pageSize: visibleCount
-    })
+      pageSize: 2000
+    }))
       .then(res => {
         if (requestId === fetchRequestIdRef.current) {
           const items = Array.isArray(res) ? res : (res.items || []);
@@ -717,9 +725,9 @@ export default function Materials() {
           setLoading(false);
         }
       });
-  }, [activeTab, activeBrand, activeThickness]);
+  }, [activeTab, activeBrand, activeThickness, debouncedQuery]);
 
-  const seoTitle = activeTab 
+  const seoTitle = searching ? `“${catalogQuery}” 자재 검색 | 동경바닥재` : activeTab
     ? `${activeTab}${activeBrand !== 'all' ? ` (${activeBrand})` : ''} 자재조회 | 동경바닥재`
     : "자재찾기 | 동경바닥재 - 데코타일, 장판, 마루, 벽지, 카페트타일 조회";
 
@@ -911,6 +919,11 @@ export default function Materials() {
 
           {/* ✅ Section B. Scroll Area (세부 검색창 ~ 라인업 ~ 상품 목록 - Normal Scroll) */}
           <section className="materials-scroll-area">
+            {searching && (
+              <p role="status">전체 자재 검색: “{catalogQuery}” · 일치도가 높은 자재부터 표시합니다.
+                <button type="button" onClick={() => { setNameFilter(""); setCodeFilter(""); updateParams({ search: null }); }}>검색 지우기</button>
+              </p>
+            )}
             {/* Detailed search inputs */}
             <div className="materials-detail-search">
               <div className="search-filters-grid">
@@ -928,7 +941,7 @@ export default function Materials() {
                   <label className="field-label">상품코드 검색</label>
                   <input
                     type="text"
-                    placeholder="상품코드 입력 (예: CM21882)"
+                    placeholder="번호만 입력 (예: 3084, 5702, 49598-01)"
                     value={codeFilter}
                     onChange={(e) => setCodeFilter(e.target.value)}
                     className="field-input"
