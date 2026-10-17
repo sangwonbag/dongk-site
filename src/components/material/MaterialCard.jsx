@@ -72,12 +72,7 @@ const MaterialCard = ({ material, priority = false }) => {
     };
 
     const handleInquiry = (e) => {
-        e.stopPropagation();
-        if (!currentUser) {
-            openLoginModal();
-            return;
-        }
-        
+        if (e) e.stopPropagation();
         const price = parsePrice(material.price) || 0;
         
         const cartItem = {
@@ -110,6 +105,12 @@ const MaterialCard = ({ material, priority = false }) => {
         };
 
         addToCart(cartItem);
+        navigate("/estimate/request", {
+            state: {
+                selectedProduct: cartItem,
+                materialId: material.id
+            }
+        });
     };
 
     const handleAddToCart = (e) => {
@@ -473,7 +474,7 @@ const MaterialCard = ({ material, priority = false }) => {
                         </button>
                     ) : (
                         <button className="btn-quote" onClick={handleInquiry}>
-                            견적요청
+                            견적문의
                         </button>
                     )}
                 </div>

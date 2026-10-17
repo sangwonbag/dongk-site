@@ -138,7 +138,7 @@ export default function Cart() {
         {/* 장바구니 헤더 */}
         <div className="cart-header">
           <h1>장바구니</h1>
-          <p>선택하신 자재를 확인하고 견적요청 또는 간편 주문을 진행해 보세요.</p>
+          <p>선택하신 자재를 확인하고 견적문의 또는 간편 주문을 진행해 보세요.</p>
         </div>
 
         {totalItemsCount === 0 ? (
@@ -393,7 +393,7 @@ export default function Cart() {
                       onClick={handleProceedEstimate}
                       disabled={totalItemsCount === 0}
                     >
-                      견적 요청하기
+                      견적문의 접수하기
                     </button>
                   </div>
                 </div>

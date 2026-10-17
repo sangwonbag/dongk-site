@@ -279,8 +279,8 @@ export default function AdminDashboard() {
 
           <button className="dashboard-card" onClick={() => navigate('/admin/estimates')}>
             <FileText size={32} className="card-icon text-sky" />
-            <div className="card-title">견적요청 관리</div>
-            <div className="card-desc">고객의 자동 견적 계산 요청 및 내역 확인</div>
+            <div className="card-title">견적문의 관리</div>
+            <div className="card-desc">고객의 견적문의 접수 내역 확인 및 맞춤 견적 작성</div>
           </button>
 
           <button className="dashboard-card" onClick={() => navigate('/admin/estimate-inquiries')}>

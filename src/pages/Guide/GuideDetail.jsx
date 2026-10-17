@@ -264,7 +264,7 @@ export default function GuideDetail() {
               </div>
             </div>
             <button className="guide-calc-btn" onClick={() => navigate("/estimate/request")}>
-              실제 정확한 자동견적 계산하기 <ArrowRight size={16} />
+              실제 맞춤 견적문의 접수하기 <ArrowRight size={16} />
             </button>
           </div>
         </section>
@@ -341,10 +341,10 @@ export default function GuideDetail() {
       <div className="guide-cta-banner">
         <h2>실제 내 공간 시공 비용이 궁금하신가요?</h2>
         <p>
-          자동견적 계산기에 평수와 자재를 입력하시면 시공 부자재 포함 정확한 소요 비용을 즉시 산출해 드립니다.
+          견적문의 페이지에 평수와 자재를 입력하시면 시공 부자재 포함 맞춤 견적을 상세히 안내해 드립니다.
         </p>
         <Link to="/estimate/request" className="guide-cta-btn">
-          자동견적 계산하기 <ArrowRight size={18} />
+          견적문의 접수하기 <ArrowRight size={18} />
         </Link>
       </div>
     </div>

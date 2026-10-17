@@ -130,8 +130,8 @@ export default function Home() {
                     onMouseEnter={() => preloadRoute('/estimate')} 
                     onTouchStart={() => preloadRoute('/estimate')}
                   >
-                    <Calculator size={18} />
-                    시공 견적 알아보기
+                    <FileText size={18} />
+                    견적문의
                   </Link>
                 </div>
 
@@ -272,7 +272,7 @@ export default function Home() {
                     공간과 면적, 현장 조건에 맞춰 자재와 시공을 함께 상담하세요.
                   </p>
                   <ul className="card-feature-list">
-                    <li><CheckCircle2 size={16} /> 면적 기반 시공 예상견적 산출</li>
+                    <li><CheckCircle2 size={16} /> 면적 및 현장조건 기반 맞춤 견적 산정</li>
                     <li><CheckCircle2 size={16} /> 전문 시공팀 일정 및 현장조건 맞춤 상담</li>
                   </ul>
                   <Link 
@@ -281,7 +281,7 @@ export default function Home() {
                     onMouseEnter={() => preloadRoute('/estimate')} 
                     onTouchStart={() => preloadRoute('/estimate')}
                   >
-                    견적 알아보기 <ChevronRight size={16} />
+                    견적문의 <ChevronRight size={16} />
                   </Link>
                 </div>
               </div>
@@ -477,7 +477,7 @@ export default function Home() {
                 </p>
                 <p className="notice-line sub">
                   <FileText size={16} className="notice-icon" /> 
-                  <strong>견적 확인 안내:</strong> 자동견적 시스템은 입력하신 면적 기반의 예상 견적입니다. 바탕면 샌딩, 보수, 짐 이동 등 현장 조건에 따라 상담 시 최종 비용이 확정됩니다.
+                  <strong>견적 확인 안내:</strong> 견적문의 접수 후 담당자가 현장 조건과 자재를 확인하여 맞춤 견적을 상세히 안내해 드립니다.
                 </p>
               </div>
             </div>
@@ -513,7 +513,7 @@ export default function Home() {
                   <p>동경바닥재 전문 시공팀의 최신 시공 현장이 곧 업데이트될 예정입니다.</p>
                   <div className="empty-actions">
                     <Link to="/estimate/request" className="btn-empty-action">
-                      시공 견적 문의하기 <ChevronRight size={16} />
+                      견적문의 접수하기 <ChevronRight size={16} />
                     </Link>
                   </div>
                 </div>
@@ -573,8 +573,8 @@ export default function Home() {
                   className="btn-consult-primary"
                   onMouseEnter={() => preloadRoute('/estimate')}
                 >
-                  <Calculator size={18} />
-                  견적 알아보기
+                  <FileText size={18} />
+                  견적문의
                 </Link>
 
                 <a 

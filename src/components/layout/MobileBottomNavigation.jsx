@@ -28,9 +28,6 @@ export default function MobileBottomNavigation() {
 
   const handleEstimateClick = (e) => {
     e.preventDefault();
-    if (!user) {
-      openLoginModal();
-    }
     navigate("/estimate/request");
   };
 
@@ -51,10 +48,10 @@ export default function MobileBottomNavigation() {
     },
     {
       id: "estimate",
-      label: "자동견적",
+      label: "견적문의",
       path: "/estimate/request",
       icon: FileText,
-      isActive: pathname.startsWith("/estimate"),
+      isActive: pathname.startsWith("/estimate") || pathname === "/quote",
       onClick: handleEstimateClick,
     },
     {

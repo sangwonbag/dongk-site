@@ -4,7 +4,7 @@ import { ArrowLeft, Search, ShoppingCart, Home } from "lucide-react";
 import { useEstimateCart } from "../../contexts/EstimateCartContext";
 import "./MobileAppHeader.css";
 
-export default function MobileAppHeader({ onOpenSearchModal }) {
+export default function MobileAppHeader() {
   const navigate = useNavigate();
   const location = useLocation();
   const { cartCount } = useEstimateCart();
@@ -26,7 +26,7 @@ export default function MobileAppHeader({ onOpenSearchModal }) {
     if (isDetail) return "상품 상세";
     if (isCart) return "장바구니";
     if (isCheckout) return "주문/결제";
-    if (isEstimate) return "자동견적";
+    if (isEstimate) return "견적문의";
     if (isMyPage) return "마이페이지";
     if (isCases) return "시공사례";
     if (isSamplebooks) return "샘플북";

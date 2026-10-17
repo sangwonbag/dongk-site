@@ -138,13 +138,28 @@ export default function CustomerEstimateView({ estimateData: propEstimate, isMod
     ? estimate.selected_items
     : (estimate?.estimate_items || []);
 
-  const displayTotal = estimate?.final_amount && Number(estimate.final_amount) > 0
+  const isQuoteConfirmed = Boolean(
+    estimate?.quote_confirmed || 
+    estimate?.quote_confirmed_at || 
+    (estimate?.status === '견적 안내' && Number(estimate?.final_amount || estimate?.total) > 0) ||
+    (estimate?.status === '진행 확정' && Number(estimate?.final_amount || estimate?.total) > 0)
+  );
+
+  const displayTotal = isQuoteConfirmed && estimate?.final_amount && Number(estimate.final_amount) > 0
     ? Number(estimate.final_amount)
-    : (estimate?.total && Number(estimate.total) > 0 ? Number(estimate.total) : 0);
+    : (isQuoteConfirmed && estimate?.total && Number(estimate.total) > 0 ? Number(estimate.total) : 0);
 
   const viewContent = (
     <div className="customer-quote-card-wrapper">
-      {!isModal && (
+      {isModal ? (
+        onClose && (
+          <div className="quote-modal-header" style={{ display: 'flex', justifyContent: 'flex-end', padding: '8px' }}>
+            <button className="btn-close-modal" onClick={onClose} aria-label="닫기" style={{ background: 'none', border: 'none', cursor: 'pointer' }}>
+              <X size={20} />
+            </button>
+          </div>
+        )
+      ) : (
         <div className="quote-nav-header">
           <button className="btn-back" onClick={() => navigate('/mypage')}>
             <ChevronLeft size={18} /> 마이페이지로 돌아가기
@@ -167,6 +182,15 @@ export default function CustomerEstimateView({ estimateData: propEstimate, isMod
           <h3>비회원 시공 견적 조회</h3>
           <p>접수 당시 입력하신 연락처와 견적번호로 조회하실 수 있습니다.</p>
           <form onSubmit={handleGuestSearch} className="guest-lookup-form">
+            <div className="form-group">
+              <label>견적번호 (선택)</label>
+              <input
+                type="text"
+                placeholder="예: EST-20261017-001"
+                value={guestEstNo}
+                onChange={e => setGuestEstNo(e.target.value)}
+              />
+            </div>
             <div className="form-group">
               <label>연락처 (- 없이 입력)</label>
               <input
@@ -291,8 +315,12 @@ export default function CustomerEstimateView({ estimateData: propEstimate, isMod
                         <td className="td-code font-mono">{item.product_code || item.code || '-'}</td>
                         <td className="td-spec">{item.spec || item.size || '-'}</td>
                         <td className="td-qty font-mono">{item.quantity} {item.unit || '평'}</td>
-                        <td className="td-price font-mono">{(Number(item.unit_price) || 0).toLocaleString()}원</td>
-                        <td className="td-total font-mono font-bold">{((Number(item.quantity) || 1) * (Number(item.unit_price) || 0)).toLocaleString()}원</td>
+                        <td className="td-price font-mono">
+                          {isQuoteConfirmed ? `${(Number(item.unit_price) || 0).toLocaleString()}원` : '상담 후 확정'}
+                        </td>
+                        <td className="td-total font-mono font-bold">
+                          {isQuoteConfirmed ? `${((Number(item.quantity) || 1) * (Number(item.unit_price) || 0)).toLocaleString()}원` : '상담 후 확정'}
+                        </td>
                       </tr>
                     ))}
                   </tbody>
@@ -302,52 +330,71 @@ export default function CustomerEstimateView({ estimateData: propEstimate, isMod
           </div>
 
           {/* Section 3: Final Quote Breakdown & Grand Total */}
-          <div className="quote-breakdown-section">
-            <h4><Calculator size={15} /> 최종 견적 세부 항목</h4>
-            <div className="breakdown-grid">
-              <div className="breakdown-row">
-                <span>자재비</span>
-                <strong className="font-mono">{(Number(estimate.material_fee) || 0).toLocaleString()} 원</strong>
-              </div>
-              <div className="breakdown-row">
-                <span>부자재비</span>
-                <strong className="font-mono">{(Number(estimate.sub_material_fee) || 0).toLocaleString()} 원</strong>
-              </div>
-              <div className="breakdown-row">
-                <span>시공비 (인건비)</span>
-                <strong className="font-mono">{(Number(estimate.construction_fee) || 0).toLocaleString()} 원</strong>
-              </div>
-              <div className="breakdown-row">
-                <span>철거비</span>
-                <strong className="font-mono">{(Number(estimate.demolition_fee) || 0).toLocaleString()} 원</strong>
-              </div>
-              <div className="breakdown-row">
-                <span>운반비 (물류)</span>
-                <strong className="font-mono">{(Number(estimate.transport_fee) || 0).toLocaleString()} 원</strong>
-              </div>
-              <div className="breakdown-row">
-                <span>기타 비용</span>
-                <strong className="font-mono">{(Number(estimate.extra_fee) || 0).toLocaleString()} 원</strong>
-              </div>
-              {Number(estimate.discount_fee) > 0 && (
-                <div className="breakdown-row discount-row">
-                  <span>할인 금액</span>
-                  <strong className="font-mono text-red">-(Number(estimate.discount_fee)).toLocaleString() 원</strong>
+          {isQuoteConfirmed ? (
+            <div className="quote-breakdown-section">
+              <h4><Calculator size={15} /> 최종 견적 세부 항목</h4>
+              <div className="breakdown-grid">
+                <div className="breakdown-row">
+                  <span>자재비</span>
+                  <strong className="font-mono">{(Number(estimate.material_fee) || 0).toLocaleString()} 원</strong>
                 </div>
-              )}
-            </div>
+                <div className="breakdown-row">
+                  <span>부자재비</span>
+                  <strong className="font-mono">{(Number(estimate.sub_material_fee) || 0).toLocaleString()} 원</strong>
+                </div>
+                <div className="breakdown-row">
+                  <span>시공비 (인건비)</span>
+                  <strong className="font-mono">{(Number(estimate.construction_fee) || 0).toLocaleString()} 원</strong>
+                </div>
+                <div className="breakdown-row">
+                  <span>철거비</span>
+                  <strong className="font-mono">{(Number(estimate.demolition_fee) || 0).toLocaleString()} 원</strong>
+                </div>
+                <div className="breakdown-row">
+                  <span>운반비 (물류)</span>
+                  <strong className="font-mono">{(Number(estimate.transport_fee) || 0).toLocaleString()} 원</strong>
+                </div>
+                <div className="breakdown-row">
+                  <span>기타 비용</span>
+                  <strong className="font-mono">{(Number(estimate.extra_fee) || 0).toLocaleString()} 원</strong>
+                </div>
+                {Number(estimate.discount_fee) > 0 && (
+                  <div className="breakdown-row discount-row">
+                    <span>할인 금액</span>
+                    <strong className="font-mono text-red">-{(Number(estimate.discount_fee)).toLocaleString()} 원</strong>
+                  </div>
+                )}
+              </div>
 
-            {/* GRAND TOTAL HIGHLIGHT BANNER */}
-            <div className="customer-grand-total-banner">
-              <div className="banner-left">
-                <span className="total-title">최종 시공 견적 금액</span>
-                <small className="total-desc">VAT 포함 / 맞춤 시공 서비스 일체 포함</small>
-              </div>
-              <div className="banner-right font-mono">
-                <strong className="grand-total-price">{displayTotal.toLocaleString()} 원</strong>
+              {/* GRAND TOTAL HIGHLIGHT BANNER */}
+              <div className="customer-grand-total-banner">
+                <div className="banner-left">
+                  <span className="total-title">최종 시공 견적 금액</span>
+                  <small className="total-desc">VAT 포함 / 맞춤 시공 서비스 일체 포함</small>
+                </div>
+                <div className="banner-right font-mono">
+                  <strong className="grand-total-price">{displayTotal.toLocaleString()} 원</strong>
+                </div>
               </div>
             </div>
-          </div>
+          ) : (
+            <div className="quote-breakdown-section" style={{ backgroundColor: '#fffbf0', border: '1.5px solid #fef08a' }}>
+              <div style={{ display: 'flex', alignItems: 'flex-start', gap: '14px', padding: '8px' }}>
+                <Clock size={28} style={{ color: 'var(--point-gold)', flexShrink: 0, marginTop: '2px' }} />
+                <div>
+                  <h4 style={{ margin: '0 0 6px', fontSize: '16px', fontWeight: '800', color: '#854d0e' }}>
+                    맞춤 견적 산정 중
+                  </h4>
+                  <p style={{ margin: '0 0 8px', fontSize: '14px', color: '#713f12', lineHeight: '1.5' }}>
+                    동경바닥재 담당자가 접수된 현장 정보(면적, 시공 환경, 철거/양중 등)를 확인하여 최적의 맞춤 견적을 산정하고 있습니다.
+                  </p>
+                  <small style={{ color: '#a16207', fontSize: '13px' }}>
+                    💡 견적이 확정되면 안내 연락(카카오톡/유선)을 드리며, 확정 즉시 이곳에서 상세 견적서 확인 및 시공 진행 요청이 가능합니다.
+                  </small>
+                </div>
+              </div>
+            </div>
+          )}
 
           {/* Customer Actions Area */}
           <div className="quote-customer-actions-area">
@@ -363,7 +410,7 @@ export default function CustomerEstimateView({ estimateData: propEstimate, isMod
                   <small className="text-muted">담당 직원이 확인 후 유선 연락하여 정식 계약 체결 및 일정을 확정해 드립니다.</small>
                 </div>
               </div>
-            ) : (
+            ) : isQuoteConfirmed ? (
               <div className="buttons-action-row">
                 <button
                   type="button"
@@ -382,6 +429,10 @@ export default function CustomerEstimateView({ estimateData: propEstimate, isMod
                 >
                   <CheckCircle2 size={18} /> 이 견적으로 진행하기
                 </button>
+              </div>
+            ) : (
+              <div style={{ textAlign: 'center', padding: '12px', fontSize: '13.5px', color: '#64748b' }}>
+                <span>💡 관리자의 최종 견적 산정 및 확정 후 진행 승인 버튼이 활성화됩니다.</span>
               </div>
             )}
           </div>

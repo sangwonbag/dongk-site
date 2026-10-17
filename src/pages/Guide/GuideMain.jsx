@@ -80,7 +80,7 @@ export default function GuideMain() {
         <h1>어떤 바닥재가 맞을까요?</h1>
         <p>
           집, 상가, 사무실 등 공간 특성과 시공 예산에 꼭 맞는 바닥재를 손쉽게 비교하고,<br />
-          실제 판매 중인 브랜드 자재와 자동견적까지 원스톱으로 확인해 보세요.
+          실제 판매 중인 브랜드 자재와 맞춤 견적문의까지 원스톱으로 확인해 보세요.
         </p>
       </header>
 
@@ -271,7 +271,7 @@ export default function GuideMain() {
               </div>
             </div>
             <button className="guide-calc-btn" onClick={() => navigate("/estimate/request")}>
-              실시간 정확한 자동견적 계산하기 <ArrowRight size={16} />
+              맞춤 견적문의 접수하기 <ArrowRight size={16} />
             </button>
           </div>
         </section>
@@ -315,10 +315,10 @@ export default function GuideMain() {
       <div className="guide-cta-banner">
         <h2>우리 집 기준 실제 비용이 궁금하신가요?</h2>
         <p>
-          평수와 원하시는 브랜드 자재를 직접 선택하면 부자재 포함 최종 견적을 실시간으로 확인하실 수 있습니다.
+          평수와 원하시는 브랜드 자재를 직접 선택해 견적문의를 남겨주시면 담당자가 맞춤 견적을 상세히 안내해 드립니다.
         </p>
         <Link to="/estimate/request" className="guide-cta-btn">
-          자동견적 계산기로 바로가기 <ArrowRight size={18} />
+          견적문의 접수하기 <ArrowRight size={18} />
         </Link>
       </div>
     </div>

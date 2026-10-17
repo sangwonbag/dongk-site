@@ -104,7 +104,7 @@ export default function MyPage() {
                                 <div className="empty-icon"><FileText size={32} /></div>
                                 <p>접수된 시공 상담 및 견적 내역이 없습니다.</p>
                                 <button className="btn-go-estimate mt-2" onClick={() => nav('/estimate/request')}>
-                                    시공 상담 신청하기
+                                    견적문의 접수하기
                                 </button>
                             </div>
                         ) : (
@@ -112,7 +112,10 @@ export default function MyPage() {
                                 {estimates.map(item => {
                                     const firstItem = item.selected_items && item.selected_items.length > 0 ? item.selected_items[0] : null;
                                     const matName = firstItem ? (firstItem.product_name || firstItem.name) : '선택 자재';
-                                    const displayTotal = item.final_amount && Number(item.final_amount) > 0 ? Number(item.final_amount) : (item.total || 0);
+                                    const isConfirmed = Boolean(item.quote_confirmed || item.quote_confirmed_at || (item.status === '견적 안내' && Number(item.final_amount) > 0));
+                                    const displayTotal = isConfirmed && item.final_amount && Number(item.final_amount) > 0 
+                                      ? Number(item.final_amount) 
+                                      : (isConfirmed && item.total && Number(item.total) > 0 ? Number(item.total) : 0);
 
                                     return (
                                         <div key={item.id} className="mypage-estimate-card" onClick={() => setSelectedEstimate(item)}>
@@ -135,7 +138,7 @@ export default function MyPage() {
                                             <div className="card-bot">
                                                 <div className="location-text">현장: {item.site_address || '주소 미입력'} ({item.area_pyeong ? `${item.area_pyeong}평` : '-'})</div>
                                                 <div className="amount-text font-mono">
-                                                    {displayTotal > 0 ? `${displayTotal.toLocaleString()}원` : '견적 산정 중'}
+                                                    {isConfirmed && displayTotal > 0 ? `${displayTotal.toLocaleString()}원` : '견적 산정 중'}
                                                     <ChevronRight size={16} />
                                                 </div>
                                             </div>

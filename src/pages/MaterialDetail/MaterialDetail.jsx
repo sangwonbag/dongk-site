@@ -525,7 +525,7 @@ export default function MaterialDetail() {
   const navigate = useNavigate();
   const location = useLocation();
   const { addToCart, setPendingDirectOrder } = useEstimateCart();
-  const { user: currentUser, openLoginModal } = useAuth();
+  const { user: currentUser } = useAuth();
 
   const id = decodeURIComponent(rawId || "");
 
@@ -1080,12 +1080,11 @@ export default function MaterialDetail() {
     );
   }
 
-  // Auto-fill and Redirection Handler
+  // Auto-fill and Redirection Handler to 견적문의
   const handleEstimate = () => {
-    if (!currentUser) {
-      openLoginModal();
-      return;
-    }
+    const finalQty = Math.max(1, parseInt(qty, 10) || 1);
+    const imgPath = getMaterialImagePath(item) || productImages[0] || "/images/no-image.svg";
+
     // 1. Add item to cart
     addToCart({
       id: selectedOption ? `${item.id}-${selectedOption.label}` : item.id,
@@ -1104,16 +1103,18 @@ export default function MaterialDetail() {
         packing: selectedOption.package || ""
       } : (item.specs || null),
       packing: selectedOption ? (selectedOption.package || "") : (item.specs?.packing || "1박스 단위 판매"),
-      price: item.price,
-      thumbnail: getMaterialImagePath(item),
-      quantity: qty,
+      price: item.price || 0,
+      thumbnail: imgPath,
+      image: imgPath,
+      quantity: finalQty,
       selectedSize: selectedOption ? selectedOption.label : undefined
     });
 
-    // 2. Navigate with state
+    // 2. Navigate with state to inquiry form
     navigate("/estimate/request", {
       state: {
         fromProduct: true,
+        materialId: item.id,
         selectedProduct: {
           id: selectedOption ? `${item.id}-${selectedOption.label}` : item.id,
           product_id: item.id,
@@ -1129,6 +1130,10 @@ export default function MaterialDetail() {
             size: selectedOption.spec,
             packing: selectedOption.package || ""
           } : (item.specs || null),
+          thickness: item.thickness || (item.specs?.thickness) || "",
+          quantity: finalQty,
+          thumbnail: imgPath,
+          image: imgPath,
           selectedSize: selectedOption ? selectedOption.label : undefined
         }
       }
@@ -2325,7 +2330,7 @@ export default function MaterialDetail() {
 
                 <div className="sticky-button-stack">
                   <button className="btn-sticky-quote" onClick={handleEstimate}>
-                    간편 견적 요청서 작성
+                    견적문의 접수하기
                   </button>
                   <button className="btn-sticky-sample" onClick={() => navigate("/samplebooks")}>
                     자재 샘플북 신청
@@ -2419,7 +2424,7 @@ export default function MaterialDetail() {
         </div>
         <div className="mobile-cta-sub-row">
           <button className="mobile-cta-sub-btn" onClick={handleEstimate}>
-            <FileText size={13} /> 견적요청
+            <FileText size={13} /> 견적문의
           </button>
           <a href="tel:02-487-9775" className="mobile-cta-sub-btn">
             <Phone size={13} /> 전화문의

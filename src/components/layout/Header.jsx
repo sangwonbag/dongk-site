@@ -50,23 +50,15 @@ export default function Header() {
   const nav = useNavigate();
   const location = useLocation();
 
-  const scrollToFooter = () => {
-    const footer = document.querySelector('footer');
-    if (footer) {
-      footer.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   const [q, setQ] = useState(() => {
     const params = new URLSearchParams(location.search);
     return params.get("search") || "";
   });
   const [isFocused, setIsFocused] = useState(false);
   const dropdownRef = useRef(null);
-  const headerRef = useRef(null);
   const mallHeaderRef = useRef(null);
   const noticeRef = useRef(null);
-  const { cartItems, cartCount, clearCart } = useEstimateCart();
+  const { cartCount, clearCart } = useEstimateCart();
   const estimateCount = cartCount;
 
   const { user: currentUser, logout: authLogout, openLoginModal } = useAuth();
@@ -339,7 +331,7 @@ export default function Header() {
               onMouseEnter={() => preloadRoute('/estimate')}
               onTouchStart={() => preloadRoute('/estimate')}
             >
-              자동견적
+              견적문의
             </Link>
           </nav>
 
@@ -476,7 +468,7 @@ export default function Header() {
           <span className="drawer-link" onClick={() => { nav("/samplebooks"); setMobileMenuOpen(false); }}>샘플북</span>
           <span className="drawer-link" onClick={() => { nav("/guide"); setMobileMenuOpen(false); }}>바닥재 가이드</span>
           <span className="drawer-link" onClick={() => { nav("/cases"); setMobileMenuOpen(false); }}>시공사례</span>
-          <span className="drawer-link" onClick={() => { handleEstimateNav(); setMobileMenuOpen(false); }}>자동견적</span>
+          <span className="drawer-link" onClick={() => { handleEstimateNav(); setMobileMenuOpen(false); }}>견적문의</span>
         </div>
         <div className="drawer-actions">
           <button className="drawer-cart-btn" onClick={() => { nav("/cart"); setMobileMenuOpen(false); }}>
