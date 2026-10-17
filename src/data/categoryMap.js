@@ -1,7 +1,7 @@
 export const CATEGORY_BRAND_MAP = {
     '데코타일': ['KCC', '동신', 'LX', '녹수', '유성', '현대', '재영', '대진'],
     '장판': ['LX', '현대', 'KCC'],
-    '마루': ['이건', '동화', '구정'],
+    '마루': ['이건마루', '동화', '구정'],
     '벽지': ['LX', '개나리', '신한', '서울', '제일', '디아이디'],
     '카페트타일': ['스완', '아반', '코오롱'],
     '러버타일': ['KCC', '현대']
@@ -10,7 +10,7 @@ export const CATEGORY_BRAND_MAP = {
 export const BRANDS_BY_CATEGORY = CATEGORY_BRAND_MAP;
 
 export const ALL_BRANDS = [
-  'LX', 'KCC', '동신', '녹수', '유성', '현대', '재영', '대진', '이건', '동화', '구정', '개나리', '신한', '서울', '제일', '디아이디', '스완', '코오롱'
+  'LX', 'KCC', '동신', '녹수', '유성', '현대', '재영', '대진', '이건마루', '이건', '동화', '구정', '개나리', '신한', '서울', '제일', '디아이디', '스완', '코오롱'
 ];
 
 export const BRAND_TREE = Object.entries(CATEGORY_BRAND_MAP).map(([category, brands]) => ({

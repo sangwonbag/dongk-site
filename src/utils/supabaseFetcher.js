@@ -251,7 +251,8 @@ export async function fetchAllProducts(forceRefresh = false) {
 
 export function mapProductRow(p) {
   const code = p.product_code || "";
-  const brandName = p.brands?.name || "";
+  const rawBrand = p.brands?.name || "";
+  const brandName = (rawBrand === '이건' || rawBrand === '이건마루') ? '이건마루' : rawBrand;
   const categoryName = p.categories?.name || "";
 
   // Find matching Dongshin PDF product to enrich properties
@@ -532,6 +533,8 @@ export async function fetchFilteredProducts({ category, brand, thickness, search
             query = query.like('brands.name', '%현대%');
           } else if (b === '어반') {
             query = query.or('name.ilike.%어반%,name.ilike.%URBAN%', { foreignTable: 'brands' });
+          } else if (b.includes('이건')) {
+            query = query.or('name.ilike.%이건%,name.ilike.%이건마루%', { foreignTable: 'brands' });
           } else {
             query = query.ilike('brands.name', `%${brand}%`);
           }
@@ -635,6 +638,8 @@ function filterLocalProducts(list, { category, brand, thickness, searchText }) {
         brandOk = itemBrand.includes("현대");
       } else if (b === '어반') {
         brandOk = itemBrand.includes("어반") || itemBrand.includes("URBAN");
+      } else if (b.includes('이건')) {
+        brandOk = itemBrand.includes("이건") || compBrand.includes("이건");
       } else {
         brandOk = itemBrand.includes(b) || compBrand.includes(b);
       }

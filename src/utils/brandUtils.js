@@ -136,6 +136,9 @@ export const normalizeBrandName = (brandStr) => {
   if (b.includes("KCC") || upper.includes("KCC")) {
     return "KCC";
   }
+  if (b.includes("이건")) {
+    return "이건마루";
+  }
   return b;
 };
 
@@ -156,6 +159,10 @@ export const getComputedBrand = (item) => {
     if (!item) return "기타";
 
     const originalBrand = (item.brand || "기타").trim();
+
+    if (originalBrand.includes("이건")) {
+        return "이건마루";
+    }
 
     if (item.category === "장판") {
         // 장판인 경우 이름(title)이나 기존 thickness 필드에서 두께 추출
@@ -476,6 +483,15 @@ export function formatProductTitle(product) {
   const brand = (product.brand || '').trim();
   const family = product.family || product.line || '';
 
+  if (brand.includes('이건') || (product.name && String(product.name).startsWith('이건마루'))) {
+    const rawName = String(product.product_name ?? product.name ?? product.title ?? '').trim();
+    if (rawName.startsWith('이건마루')) {
+      return rawName;
+    }
+    const line = product.line || '';
+    return `이건마루 ${line} ${rawName}`.replace(/\s+/g, ' ').trim();
+  }
+
   if ((brand.includes('KCC') || (product.name && product.name.includes('KCC'))) && (product.category === '데코타일' || !product.category)) {
     const rawName = product.name || product.product_name || product.title || '';
     if (rawName.startsWith('KCC 센스타일 프로') || rawName.startsWith('KCC 센스레이') || rawName.startsWith('KCC 센스타일 트랜디')) {
@@ -563,4 +579,5 @@ export const getProductUnit = (product) => {
   return product.unit || '평';
 };
 
+export * from "./eagonUtils.js";
 

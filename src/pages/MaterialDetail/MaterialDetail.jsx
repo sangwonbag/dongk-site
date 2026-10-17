@@ -43,6 +43,14 @@ async function getLocalImageManifestData() {
 
 import { isDecoTile, DECOTILE_NOTICE_TEXT } from "../../utils/decotileUtils";
 import { HIDE_SUB_MATERIALS, isSubMaterialCategory } from "../../config/categoryConfig";
+import { 
+  isEagonProduct, 
+  getEagonLineupGroup, 
+  getEagonSpecKey, 
+  getEagonMaterialType, 
+  getEagonColorName, 
+  getEagonSiblingProducts 
+} from "../../utils/eagonUtils";
 
 import "./MaterialDetail.css";
 
@@ -51,9 +59,7 @@ const getEagonUpperCategory = (line = "") => {
   const norm = String(line).replace(/\s+/g, "").toLowerCase();
   if (norm.includes("라르고")) return "원목마루";
   if (norm.includes("포레스타") || norm.includes("제나")) return "천연마루";
-  if (norm.includes("그린")) return "프리미엄 강마루";
-  if (norm.includes("세라")) return "강마루";
-  return "마루";
+  return "강마루";
 };
 
 const getEagonClassification = (line = "") => getEagonUpperCategory(line);
@@ -91,8 +97,12 @@ const eagonFolderImagesCache = new Map();
 const resolveEagonProductImage = (mat) => {
   if (!mat) return "/images/no-image.svg";
   
+  if (mat.image_url && mat.image_url !== "/images/no-image.svg") return mat.image_url;
+  if (mat.image && mat.image !== "/images/no-image.svg") return mat.image;
+  if (mat.thumbnail && mat.thumbnail !== "/images/no-image.svg") return mat.thumbnail;
+
   const brandStr = mat.brand || "";
-  if (brandStr !== '이건') return "/images/no-image.svg";
+  if (brandStr !== '이건' && brandStr !== '이건마루' && !isEagonProduct(mat)) return "/images/no-image.svg";
 
   const cacheKey = `${mat.code || ''}_${mat.line || ''}_${mat.name || ''}`;
   if (eagonProductImageCache.has(cacheKey)) {
@@ -149,7 +159,7 @@ const resolveEagonProductImage = (mat) => {
 };
 
 const resolveMaterialImageWithEagon = (mat) => {
-  if (mat && mat.brand === '이건') {
+  if (mat && (mat.brand === '이건' || mat.brand === '이건마루' || isEagonProduct(mat))) {
     return resolveEagonProductImage(mat);
   }
   return getMaterialImagePath(mat);
@@ -706,7 +716,7 @@ export default function MaterialDetail() {
         const galleryObjs = await getValidGalleryImages(item);
         let eagonImg = null;
 
-        if (item.brand === '이건') {
+        if (item.brand === '이건' || item.brand === '이건마루' || isEagonProduct(item)) {
           eagonImg = resolveMaterialImageWithEagon(item);
         }
 
@@ -834,6 +844,24 @@ export default function MaterialDetail() {
       setSelectedImageIndex(0);
     }
   }, [productImages.length, selectedImageIndex]);
+
+  // 2.5 Load Eagon Sibling Products for instant spec switching
+  const [eagonSiblingSpecs, setEagonSiblingSpecs] = useState([]);
+
+  useEffect(() => {
+    if (!item || !isEagonProduct(item)) {
+      setEagonSiblingSpecs([]);
+      return;
+    }
+
+    import("../../data/materials.db.js").then(mod => {
+      const list = mod.materials || mod.default || [];
+      const siblings = getEagonSiblingProducts(item, list);
+      setEagonSiblingSpecs(siblings);
+    }).catch(err => {
+      console.warn("Could not load eagon sibling products", err);
+    });
+  }, [item?.id, item?.code, item?.name, item?.line]);
 
   // 3. Fetch Related Products (Non-blocking background call)
   useEffect(() => {
@@ -1298,7 +1326,7 @@ export default function MaterialDetail() {
 
   const spaceExamples = (() => {
     if (!item) return [];
-    if (item.brand === '이건' && eagonInfo) {
+    if ((item.brand === '이건' || item.brand === '이건마루' || isEagonProduct(item)) && eagonInfo) {
       const mainImage = resolveEagonProductImage(item);
       
       // Get other images from the same Eagon product line folder in the manifest
@@ -1309,7 +1337,7 @@ export default function MaterialDetail() {
         lineImages = manifestList
           .filter(img => 
             img &&
-            img.brand === '이건' && 
+            (img.brand === '이건' || img.brand === '이건마루') && 
             img.series &&
             img.series.replace(/\\/g, '/').replace(/\s+/g, '').toLowerCase() === folder.replace(/\s+/g, '').toLowerCase() &&
             img.fullPublicPath !== mainImage
@@ -1317,9 +1345,10 @@ export default function MaterialDetail() {
           .map(img => img.fullPublicPath);
       }
       
+      const roomScene = (item.images && item.images.length > 1) ? item.images[1] : (lineImages[0] || "/images/placeholders/material-placeholder.jpg");
       const img1 = mainImage;
-      const img2 = lineImages[0] || "/images/placeholders/material-placeholder.jpg";
-      const img3 = lineImages[1] || lineImages[0] || "/images/placeholders/material-placeholder.jpg";
+      const img2 = roomScene;
+      const img3 = (item.images && item.images.length > 2) ? item.images[2] : (lineImages[1] || roomScene);
       
       return eagonInfo.spaceExamples.map((ex, idx) => ({
         title: ex.title,
@@ -1512,17 +1541,19 @@ export default function MaterialDetail() {
                       </>
                     )}
                   </>
-                ) : item.brand === '이건' ? (
+                ) : isEagonProduct(item) ? (
                   <>
                     <span className="brand-name">이건마루</span>
                     <span className="divider">·</span>
                     <span className="category-name">
-                      {`${item.category} (${getEagonClassification(item.line)})`}
+                      {`마루 (${getEagonMaterialType(item)})`}
                     </span>
-                    {item.line && (
+                    <span className="divider">·</span>
+                    <span className="line-name">{getEagonLineupGroup(item)}</span>
+                    {getEagonSpecKey(item) && (
                       <>
                         <span className="divider">·</span>
-                        <span className="line-name">{item.line}</span>
+                        <span className="spec-name">{getEagonSpecKey(item)}</span>
                       </>
                     )}
                   </>
@@ -1604,6 +1635,10 @@ export default function MaterialDetail() {
                   <span className="tech-value">{currentSpec || "상담 확인 필요"}</span>
                 </div>
                 <div className="tech-spec-item">
+                  <span className="tech-label">두께</span>
+                  <span className="tech-value">{item.thickness || (item.specs && item.specs.thickness) || "상담 확인 필요"}</span>
+                </div>
+                <div className="tech-spec-item">
                   <span className="tech-label">{item.brand === 'KCC' && item.category === '데코타일' ? "포장 수량" : "박스 구성"}</span>
                   <span className="tech-value">{currentPacking}</span>
                 </div>
@@ -1615,10 +1650,10 @@ export default function MaterialDetail() {
                     ) : item.category === '장판' ? "M 단위 소요량 측정" : `1 ${getProductUnit(item)}당 시공 가능`}
                   </span>
                 </div>
-                {item.brand === 'KCC' && item.category === '데코타일' && item.pattern && (
+                {(item.pattern || isEagonProduct(item)) && (
                   <div className="tech-spec-item">
-                    <span className="tech-label">패턴 분류</span>
-                    <span className="tech-value">{formatShapeOrPattern(item.pattern)}</span>
+                    <span className="tech-label">패턴/디자인</span>
+                    <span className="tech-value">{item.pattern || (isEagonProduct(item) && getEagonLineupGroup(item).includes("스퀘어") ? "스톤" : "우드")}</span>
                   </div>
                 )}
                 <div className="tech-spec-item">
@@ -1628,6 +1663,90 @@ export default function MaterialDetail() {
                   </span>
                 </div>
               </div>
+
+              {/* Eagon Sibling Specs Selector ("제공되는 다른 규격") */}
+              {isEagonProduct(item) && eagonSiblingSpecs.length > 0 && (
+                <div className="detail-eagon-specs" style={{
+                  marginBottom: '20px',
+                  padding: '16px',
+                  background: '#f8fafc',
+                  borderRadius: '10px',
+                  border: '1px solid #e2e8f0'
+                }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px' }}>
+                    <span style={{ fontSize: '13px', fontWeight: '700', color: '#1e293b' }}>
+                      제공되는 다른 규격 ({getEagonColorName(item)})
+                    </span>
+                    <span style={{ fontSize: '11px', color: '#64748b' }}>
+                      동일 색상 다른 규격 바로 이동
+                    </span>
+                  </div>
+                  <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
+                    {eagonSiblingSpecs.map(s => {
+                      if (s.isCurrent) {
+                        return (
+                          <span
+                            key={s.specKey}
+                            style={{
+                              padding: '7px 14px',
+                              fontSize: '12px',
+                              fontWeight: '700',
+                              borderRadius: '6px',
+                              background: '#2563eb',
+                              color: '#ffffff',
+                              border: '1px solid #2563eb',
+                              boxShadow: '0 1px 2px rgba(37,99,235,0.2)'
+                            }}
+                          >
+                            {s.label} (현재 선택됨)
+                          </span>
+                        );
+                      }
+                      if (s.isAvailable && s.product) {
+                        return (
+                          <button
+                            key={s.specKey}
+                            type="button"
+                            onClick={() => navigate(`/materials/${encodeURIComponent(s.product.id || s.product.slug)}`)}
+                            style={{
+                              padding: '7px 14px',
+                              fontSize: '12px',
+                              fontWeight: '600',
+                              borderRadius: '6px',
+                              background: '#ffffff',
+                              color: '#1e293b',
+                              border: '1px solid #cbd5e1',
+                              cursor: 'pointer',
+                              transition: 'all 0.15s ease'
+                            }}
+                            title={`${s.fullLabel} 상세페이지로 이동`}
+                          >
+                            {s.label}
+                          </button>
+                        );
+                      }
+                      return (
+                        <span
+                          key={s.specKey}
+                          style={{
+                            padding: '7px 14px',
+                            fontSize: '12px',
+                            borderRadius: '6px',
+                            background: '#f1f5f9',
+                            color: '#94a3b8',
+                            border: '1px solid #e2e8f0',
+                            cursor: 'not-allowed',
+                            textDecoration: 'line-through'
+                          }}
+                          title="해당 색상 미제공 규격 (선택 불가)"
+                        >
+                          {s.label} (미제공)
+                        </span>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
  
               {/* Size Options Selector */}
               {item.sizeOptions && item.sizeOptions.length >= 2 && (

@@ -3,6 +3,17 @@ import { useSearchParams } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { getComputedBrand, getMaterialTypeAndLine, formatShapeOrPattern, JANGPAN_STANDARD_THICKNESSES, FLOORING_THICKNESS_BY_BRAND, normalizeBrandName, isSentenceDescription, getKccLineup, KCC_DECOTILE_LINEUPS, resolveKccLineupName, resolveKccLineupSlug, KCC_LINEUP_NAME_TO_SLUG } from "../../utils/brandUtils";
 import { DONGSHIN_MAJOR_CATEGORIES, DONGSHIN_DETAILED_LINEUPS_MAP, getDongshinMajorCategory, getDongshinDetailedLineup } from "../../utils/dongshinUtils";
+import { 
+  EAGON_MAJOR_CATEGORIES, 
+  EAGON_LINEUPS_BY_MAJOR, 
+  EAGON_SPECS_BY_LINEUP, 
+  EAGON_SPEC_LABEL_MAP, 
+  isEagonProduct, 
+  getEagonLineupGroup, 
+  getEagonSpecKey, 
+  getEagonMaterialType, 
+  getEagonColorName 
+} from "../../utils/eagonUtils";
 import MaterialCard from "../../components/material/MaterialCard";
 import { fetchFilteredProducts, searchMaterials, withTimeout } from "../../utils/supabaseFetcher";
 import { getSearchScore, isProductNumberQuery } from "../../utils/searchUtils";
@@ -24,7 +35,7 @@ const CATEGORIES = getVisibleCategories(ALL_CATEGORIES);
 const BRANDS_BY_CATEGORY = {
   데코타일: ["KCC", "동신", "재영", "유성", "LX", "녹수", "현대"],
   장판: ["LX", "현대", "KCC"],
-  마루: ["이건", "동화", "구정"],
+  마루: ["이건마루", "동화", "구정"],
   벽지: ["LX", "개나리", "서울", "제일", "신한", "현대벽지"],
   카페트타일: ["스완", "어반"],
   부자재: []
@@ -34,7 +45,7 @@ const BRANDS_BY_CATEGORY = {
 const DEFAULT_BRAND_BY_CATEGORY = {
   데코타일: "KCC",
   장판: "LX",
-  마루: "이건",
+  마루: "이건마루",
   벽지: "LX",
   카페트타일: "스완",
   부자재: "all"
@@ -156,6 +167,11 @@ export default function Materials() {
     activeLine = "all";
   }
 
+  const isEagonBrand = (activeTab === "마루" && (activeBrand === "이건마루" || activeBrand === "이건"));
+  const activeEagonMajor = isEagonBrand ? (searchParams.get("type") || "all") : "all";
+  const activeEagonLine = isEagonBrand ? (searchParams.get("line") || "all") : "all";
+  const activeEagonSpec = isEagonBrand ? (searchParams.get("spec") || "all") : "all";
+
   const activeDongshinMajor = (activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마"))
     ? (searchParams.get("line") || "all")
     : "all";
@@ -175,21 +191,27 @@ export default function Materials() {
   // Active filter count
   const activeFilterCount = useMemo(() => {
     let count = 0;
-    if (activeBrand !== "all" && activeBrand !== "KCC") count++;
+    if (activeBrand !== "all" && activeBrand !== "KCC" && activeBrand !== "이건마루") count++;
     if (activeThickness !== "all") count++;
     if (activeShape !== "all") count++;
-    if (activeLine !== "all" && activeBrand !== "동신" && activeBrand !== "동신포리마") count++;
-    if (activeDongshinMajor !== "all") count++;
-    if (activeDongshinDetail !== "all") count++;
+    if (isEagonBrand) {
+      if (activeEagonMajor !== "all") count++;
+      if (activeEagonLine !== "all") count++;
+      if (activeEagonSpec !== "all") count++;
+    } else {
+      if (activeLine !== "all" && activeBrand !== "동신" && activeBrand !== "동신포리마") count++;
+      if (activeDongshinMajor !== "all") count++;
+      if (activeDongshinDetail !== "all") count++;
+    }
     if (sortOption !== "default") count++;
     if (nameFilter.trim()) count++;
     if (codeFilter.trim()) count++;
     if (specFilter.trim()) count++;
     return count;
-  }, [activeBrand, activeThickness, activeShape, activeLine, activeDongshinMajor, activeDongshinDetail, sortOption, nameFilter, codeFilter, specFilter]);
+  }, [activeBrand, activeThickness, activeShape, activeLine, activeDongshinMajor, activeDongshinDetail, isEagonBrand, activeEagonMajor, activeEagonLine, activeEagonSpec, sortOption, nameFilter, codeFilter, specFilter]);
 
   const handleResetFilters = useCallback(() => {
-    updateParams({ search: null, brand: "all", type: null, line: null, detail: null, shape: null, thickness: null, sort: null });
+    updateParams({ search: null, brand: "all", type: null, line: null, detail: null, shape: null, thickness: null, spec: null, sort: null });
     setNameFilter("");
     setCodeFilter("");
     setSpecFilter("");
@@ -299,7 +321,7 @@ export default function Materials() {
   // Reset visibleCount to 30 whenever any filter, search input, or sort option changes
   useEffect(() => {
     setVisibleCount(PRODUCTS_PER_LOAD);
-  }, [activeTab, activeBrand, activeMaterialType, activeLine, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, nameFilter, codeFilter, specFilter, sortOption, catalogQuery]);
+  }, [activeTab, activeBrand, activeMaterialType, activeLine, activeDongshinMajor, activeDongshinDetail, isEagonBrand, activeEagonMajor, activeEagonLine, activeEagonSpec, activeShape, activeThickness, nameFilter, codeFilter, specFilter, sortOption, catalogQuery]);
 
   // Normalize legacy line parameters (e.g., line=강마루_듀오텍스쳐_DUO TEXTURE)
   useEffect(() => {
@@ -328,13 +350,13 @@ export default function Materials() {
   const handleCategoryChange = (category) => {
     // Switch category and reset brand to its default corresponding brand
     const defaultBrand = DEFAULT_BRAND_BY_CATEGORY[category] || "all";
-    updateParams({ category, search: null, brand: defaultBrand, type: null, line: null, shape: null, thickness: null });
+    updateParams({ category, search: null, brand: defaultBrand, type: null, line: null, shape: null, thickness: null, spec: null, detail: null });
     setNameFilter("");
     setCodeFilter("");
     setSpecFilter("");
   };
 
-  const setActiveBrand = (brand) => updateParams({ brand, type: null, line: null, shape: null });
+  const setActiveBrand = (brand) => updateParams({ brand, type: null, line: null, shape: null, thickness: null, spec: null, detail: null });
   const setActiveMaterialType = (type) => updateParams({ type });
   const setActiveLine = (line) => {
     const slug = KCC_LINEUP_NAME_TO_SLUG[line] || line;
@@ -533,6 +555,55 @@ export default function Materials() {
     return counts;
   }, [materialsList, activeTab, activeBrand, activeDongshinMajor]);
 
+  // Eagon Major, Lineup, and Spec Counts
+  const eagonMajorCounts = useMemo(() => {
+    if (!isEagonBrand || !materialsList) return {};
+    const counts = { "전체": 0, "원목마루": 0, "천연마루": 0, "강마루": 0 };
+    materialsList.forEach(m => {
+      if (!m || !isEagonProduct(m)) return;
+      counts["전체"]++;
+      const type = getEagonMaterialType(m);
+      if (counts[type] !== undefined) counts[type]++;
+    });
+    return counts;
+  }, [isEagonBrand, materialsList]);
+
+  const visibleEagonLineups = useMemo(() => {
+    if (!isEagonBrand) return [];
+    return EAGON_LINEUPS_BY_MAJOR[activeEagonMajor] || EAGON_LINEUPS_BY_MAJOR["전체"];
+  }, [isEagonBrand, activeEagonMajor]);
+
+  const eagonLineCounts = useMemo(() => {
+    if (!isEagonBrand || !materialsList) return {};
+    const counts = { "전체": 0 };
+    materialsList.forEach(m => {
+      if (!m || !isEagonProduct(m)) return;
+      if (activeEagonMajor !== "all" && getEagonMaterialType(m) !== activeEagonMajor) return;
+      counts["전체"]++;
+      const group = getEagonLineupGroup(m);
+      counts[group] = (counts[group] || 0) + 1;
+    });
+    return counts;
+  }, [isEagonBrand, materialsList, activeEagonMajor]);
+
+  const visibleEagonSpecs = useMemo(() => {
+    if (!isEagonBrand || activeEagonLine === "all") return [];
+    return EAGON_SPECS_BY_LINEUP[activeEagonLine] || [];
+  }, [isEagonBrand, activeEagonLine]);
+
+  const eagonSpecCounts = useMemo(() => {
+    if (!isEagonBrand || activeEagonLine === "all" || !materialsList) return {};
+    const counts = { "all": 0 };
+    materialsList.forEach(m => {
+      if (!m || !isEagonProduct(m)) return;
+      if (getEagonLineupGroup(m) !== activeEagonLine) return;
+      counts["all"]++;
+      const spec = getEagonSpecKey(m);
+      counts[spec] = (counts[spec] || 0) + 1;
+    });
+    return counts;
+  }, [isEagonBrand, activeEagonLine, materialsList]);
+
   const visibleDongshinDetails = useMemo(() => {
     if (activeTab !== "데코타일" || (activeBrand !== "동신" && activeBrand !== "동신포리마")) return [];
     const list = DONGSHIN_DETAILED_LINEUPS_MAP[activeDongshinMajor] || DONGSHIN_DETAILED_LINEUPS_MAP["전체"];
@@ -595,9 +666,26 @@ export default function Materials() {
           brandOk = itemBrand.includes("현대");
         } else if (b === "어반") {
           brandOk = itemBrand.includes("어반") || itemBrand.includes("URBAN");
+        } else if (b.includes("이건")) {
+          brandOk = isEagonProduct(m);
         } else {
           brandOk = itemBrand === b || compBrand === b || itemBrand.includes(b) || compBrand.includes(b);
         }
+      }
+
+      // Eagon specific hierarchical check (대분류 -> 라인업 -> 규격)
+      if (isEagonBrand) {
+        if (!isEagonProduct(m)) return false;
+        if (activeEagonMajor !== "all" && getEagonMaterialType(m) !== activeEagonMajor) {
+          return false;
+        }
+        if (activeEagonLine !== "all" && getEagonLineupGroup(m) !== activeEagonLine) {
+          return false;
+        }
+        if (activeEagonSpec !== "all" && getEagonSpecKey(m) !== activeEagonSpec) {
+          return false;
+        }
+        return tabOk && brandOk;
       }
 
       // Material Type check (only for 마루)
@@ -666,7 +754,7 @@ export default function Materials() {
     }
 
     return result;
-  }, [materialsList, activeTab, activeBrand, activeMaterialType, activeLine, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, visibleLines, nameFilter, codeFilter, specFilter, searching, catalogQuery]);
+  }, [materialsList, activeTab, activeBrand, isEagonBrand, activeEagonMajor, activeEagonLine, activeEagonSpec, activeMaterialType, activeLine, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, visibleLines, nameFilter, codeFilter, specFilter, searching, catalogQuery]);
 
   // Apply sorting pipeline on filtered products (Immutably using useMemo)
   const sortedProducts = useMemo(() => {
@@ -675,8 +763,8 @@ export default function Materials() {
   }, [filtered, sortOption, searching, catalogQuery]);
 
   const isFilteredSearch = useMemo(() => {
-    return activeLine !== "all" || activeDongshinMajor !== "all" || activeDongshinDetail !== "all" || activeShape !== "all" || activeThickness !== "all" || activeMaterialType !== "all" || !!nameFilter.trim() || !!codeFilter.trim() || !!specFilter.trim();
-  }, [activeLine, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, activeMaterialType, nameFilter, codeFilter, specFilter]);
+    return activeLine !== "all" || activeDongshinMajor !== "all" || activeDongshinDetail !== "all" || activeShape !== "all" || activeThickness !== "all" || activeMaterialType !== "all" || (isEagonBrand && (activeEagonMajor !== "all" || activeEagonLine !== "all" || activeEagonSpec !== "all")) || !!nameFilter.trim() || !!codeFilter.trim() || !!specFilter.trim();
+  }, [activeLine, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, activeMaterialType, isEagonBrand, activeEagonMajor, activeEagonLine, activeEagonSpec, nameFilter, codeFilter, specFilter]);
 
   const displayTotalCount = useMemo(() => {
     if (searching || isFilteredSearch) return sortedProducts.length;
@@ -787,7 +875,28 @@ export default function Materials() {
                   </span>
                 )}
 
-                {activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마") ? (
+                {isEagonBrand ? (
+                  <>
+                    {activeEagonMajor !== "all" && (
+                      <span className="active-chip">
+                        대분류: {activeEagonMajor}
+                        <X size={14} className="chip-remove" onClick={() => updateParams({ type: null, line: null, spec: null })} />
+                      </span>
+                    )}
+                    {activeEagonLine !== "all" && (
+                      <span className="active-chip">
+                        라인업: {activeEagonLine}
+                        <X size={14} className="chip-remove" onClick={() => updateParams({ line: null, spec: null })} />
+                      </span>
+                    )}
+                    {activeEagonSpec !== "all" && (
+                      <span className="active-chip">
+                        규격: {activeEagonSpec}
+                        <X size={14} className="chip-remove" onClick={() => updateParams({ spec: null })} />
+                      </span>
+                    )}
+                  </>
+                ) : activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마") ? (
                   <>
                     {activeDongshinMajor !== "all" && (
                       <span className="active-chip">
@@ -898,7 +1007,7 @@ export default function Materials() {
 
 
               {/* 마루 세부 분류 (Material Type) */}
-              {activeTab === "마루" && visibleMaterialTypes.length > 2 && (
+              {activeTab === "마루" && !isEagonBrand && visibleMaterialTypes.length > 2 && (
                 <div className="materials-filter-row">
                   <span className="filter-label">세부 분류</span>
                   <div className="filter-options">
@@ -997,8 +1106,69 @@ export default function Materials() {
               </>
             )}
 
-            {/* Lineup Filter (Non-Dongshin) */}
-            {!loading && !(activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마")) && visibleLines.length > 1 && (
+            {/* Eagon 3-Tier Lineup & Spec Filter */}
+            {!loading && isEagonBrand && (
+              <>
+                <div className="materials-lineup-filter eagon-major-group">
+                  <span style={{ fontSize: '13px', fontWeight: '600', color: '#6b7280', alignSelf: 'center', marginRight: '6px' }}>대분류:</span>
+                  {EAGON_MAJOR_CATEGORIES.map((catName) => (
+                    <button
+                      key={catName}
+                      className={`material-type-chip ${activeEagonMajor === (catName === "전체" ? "all" : catName) ? "active" : ""}`}
+                      onClick={() => updateParams({ type: catName === "전체" ? null : catName, line: null, spec: null })}
+                    >
+                      {catName === "전체"
+                        ? `전체 (${eagonMajorCounts["전체"] || 122})`
+                        : `${catName} (${eagonMajorCounts[catName] || 0})`}
+                    </button>
+                  ))}
+                </div>
+
+                {visibleEagonLineups.length > 0 && (
+                  <div className="materials-lineup-filter eagon-lineup-group" style={{ marginTop: '10px' }}>
+                    <span style={{ fontSize: '13px', fontWeight: '600', color: '#6b7280', alignSelf: 'center', marginRight: '6px' }}>라인업:</span>
+                    {visibleEagonLineups.map((lineName) => (
+                      <button
+                        key={lineName}
+                        className={`material-type-chip ${activeEagonLine === (lineName === "전체" ? "all" : lineName) ? "active" : ""}`}
+                        onClick={() => updateParams({ line: lineName === "전체" ? null : lineName, spec: null })}
+                      >
+                        {lineName === "전체"
+                          ? `전체 (${eagonLineCounts["전체"] || 0})`
+                          : `${lineName} (${eagonLineCounts[lineName] || 0})`}
+                      </button>
+                    ))}
+                  </div>
+                )}
+
+                {visibleEagonSpecs.length > 1 && (
+                  <div className="materials-lineup-filter eagon-spec-group" style={{ marginTop: '10px' }}>
+                    <span style={{ fontSize: '13px', fontWeight: '600', color: '#6b7280', alignSelf: 'center', marginRight: '6px' }}>규격:</span>
+                    {visibleEagonSpecs.map((specKey) => {
+                      let specLabel = specKey;
+                      if (specKey === "all") specLabel = `전체 규격 (${eagonSpecCounts["all"] || 0})`;
+                      else if (activeEagonLine === "그린") specLabel = `${specKey}폭 (${eagonSpecCounts[specKey] || 0})`;
+                      else if (activeEagonLine === "그린 스퀘어") specLabel = specKey === "597" ? `597각 (4)` : `395각 (4)`;
+                      else if (activeEagonLine === "세라 플렉스 S") specLabel = specKey === "395" ? `395 스톤 (4)` : `165 우드 (14)`;
+                      else specLabel = `${specKey} (${eagonSpecCounts[specKey] || 0})`;
+
+                      return (
+                        <button
+                          key={specKey}
+                          className={`material-type-chip ${activeEagonSpec === specKey ? "active" : ""}`}
+                          onClick={() => updateParams({ spec: specKey === "all" ? null : specKey })}
+                        >
+                          {specLabel}
+                        </button>
+                      );
+                    })}
+                  </div>
+                )}
+              </>
+            )}
+
+            {/* Lineup Filter (Non-Dongshin, Non-Eagon) */}
+            {!loading && !(activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마")) && !isEagonBrand && visibleLines.length > 1 && (
               <div className="materials-lineup-filter">
                 {visibleLines.map((lineName) => (
                   <button

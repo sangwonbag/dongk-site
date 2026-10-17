@@ -14,8 +14,25 @@ const SYNONYMS = {
   "yousung": "유성",
   "재영": "재영",
   "jaeyoung": "재영",
-  "이건": "이건",
-  "eagon": "이건",
+  "이건": "이건마루",
+  "이건마루": "이건마루",
+  "eagon": "이건마루",
+  "그린스퀘어": "그린 스퀘어",
+  "그린 스퀘어": "그린 스퀘어",
+  "세라플렉스": "세라 플렉스",
+  "세라 플렉스": "세라 플렉스",
+  "세라플렉스s": "세라 플렉스 S",
+  "세라블렌딩": "세라 블렌딩",
+  "세라베이직": "세라 베이직",
+  "포레스타g": "포레스타 G",
+  "라르고솔레": "라르고 솔레",
+  "n오크": "N 오크",
+  "noak": "N 오크",
+  "n-오크": "N 오크",
+  "디어베이지": "디어 베이지",
+  "마일드오크": "마일드 오크",
+  "마일드크림": "마일드 크림",
+  "마일드베이지": "마일드 베이지",
   "lx하우시스": "LX하우시스",
   "lxhauzys": "LX하우시스",
   "녹수": "녹수",
@@ -92,6 +109,12 @@ export function tokenizeSearchQuery(query) {
   if (!query) return [];
   
   let q = query.toLowerCase();
+
+  // Break attached model names and numbers: e.g. 그린230 -> 그린 230, 세라165 -> 세라 165, 라르고240 -> 라르고 240
+  q = q.replace(/(그린스퀘어|그린|세라플렉스|세라|라르고솔레|라르고|포레스타)(\d+)/gi, '$1 $2');
+  q = q.replace(/(\d+)(그린스퀘어|그린|세라플렉스|세라|라르고솔레|라르고|포레스타)/gi, '$1 $2');
+  q = q.replace(/(포레스타)(g)\b/gi, '$1 $2');
+  q = q.replace(/(^|[\s\-_])(n)(오크)/gi, '$1$2 $3');
   
   // Insert spaces around known synonyms to break glued words (e.g. "현대디럭스" -> " 현대  디럭스 ")
   for (const key of SYNONYM_KEYS) {
@@ -138,6 +161,12 @@ export function buildProductSearchText(product) {
     product.subCategory,
     product.collection,
     product.series,
+    product.line,
+    product.displayLine,
+    product.subLine,
+    product.lineup_group,
+    product.spec_name,
+    product.color_name,
     product.type,
     product.pattern,
     product.specs?.size || product.sizeLabel,
@@ -157,7 +186,11 @@ export function buildProductSearchText(product) {
 
 // Numeric searches target product identifiers, never prices or dimensions.
 export function isProductNumberQuery(query) {
-  return /^[0-9\s_-]+$/.test(String(query || '').normalize('NFKC').trim());
+  const q = String(query || '').normalize('NFKC').trim();
+  if (['230', '190', '165', '125', '597', '395', '240', '115', '95'].includes(q)) {
+    return false;
+  }
+  return /^[0-9\s_-]+$/.test(q);
 }
 
 export function getProductNumberScore(product, query) {

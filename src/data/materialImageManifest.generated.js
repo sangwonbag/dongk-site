@@ -10423,6 +10423,51 @@ export const imageManifest = [
     "normalizedFileName": "largosole190t1newsunrisestrippng"
   },
   {
+    "fileName": "뉴 샌드.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지/뉴 샌드.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지",
+    "extractedCode": "뉴 샌드",
+    "normalizedFileName": "뉴샌드png"
+  },
+  {
+    "fileName": "뉴 썬라이즈.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지/뉴 썬라이즈.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지",
+    "extractedCode": "뉴 썬라이즈",
+    "normalizedFileName": "뉴썬라이즈png"
+  },
+  {
+    "fileName": "뉴 오크 에스.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지/뉴 오크 에스.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지",
+    "extractedCode": "뉴 오크 에스",
+    "normalizedFileName": "뉴오크에스png"
+  },
+  {
+    "fileName": "뉴 이클립스.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지/뉴 이클립스.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지",
+    "extractedCode": "뉴 이클립스",
+    "normalizedFileName": "뉴이클립스png"
+  },
+  {
+    "fileName": "뉴 큐뮬러스.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지/뉴 큐뮬러스.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T1_이미지",
+    "extractedCode": "뉴 큐뮬러스",
+    "normalizedFileName": "뉴큐뮬러스png"
+  },
+  {
     "fileName": "LARGO_SOLE_190_T3_Mist.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지/LARGO_SOLE_190_T3_Mist.png",
     "category": "마루",
@@ -10531,6 +10576,60 @@ export const imageManifest = [
     "normalizedFileName": "largosole190t3teaksstrippng"
   },
   {
+    "fileName": "미스트.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지/미스트.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지",
+    "extractedCode": "미스트",
+    "normalizedFileName": "미스트png"
+  },
+  {
+    "fileName": "샌드.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지/샌드.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지",
+    "extractedCode": "샌드",
+    "normalizedFileName": "샌드png"
+  },
+  {
+    "fileName": "썬라이즈.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지/썬라이즈.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지",
+    "extractedCode": "썬라이즈",
+    "normalizedFileName": "썬라이즈png"
+  },
+  {
+    "fileName": "썬셋.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지/썬셋.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지",
+    "extractedCode": "썬셋",
+    "normalizedFileName": "썬셋png"
+  },
+  {
+    "fileName": "오크 에스.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지/오크 에스.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지",
+    "extractedCode": "오크 에스",
+    "normalizedFileName": "오크에스png"
+  },
+  {
+    "fileName": "티크 에스.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지/티크 에스.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_190_T3_이미지",
+    "extractedCode": "티크 에스",
+    "normalizedFileName": "티크에스png"
+  },
+  {
     "fileName": "LARGO_SOLE_240_T4_New_Cumulus.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지/LARGO_SOLE_240_T4_New_Cumulus.png",
     "category": "마루",
@@ -10621,6 +10720,51 @@ export const imageManifest = [
     "normalizedFileName": "largosole240t4newsunrisestrippng"
   },
   {
+    "fileName": "뉴 샌드.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지/뉴 샌드.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지",
+    "extractedCode": "뉴 샌드",
+    "normalizedFileName": "뉴샌드png"
+  },
+  {
+    "fileName": "뉴 썬라이즈.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지/뉴 썬라이즈.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지",
+    "extractedCode": "뉴 썬라이즈",
+    "normalizedFileName": "뉴썬라이즈png"
+  },
+  {
+    "fileName": "뉴 오크 에스.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지/뉴 오크 에스.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지",
+    "extractedCode": "뉴 오크 에스",
+    "normalizedFileName": "뉴오크에스png"
+  },
+  {
+    "fileName": "뉴 이클립스.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지/뉴 이클립스.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지",
+    "extractedCode": "뉴 이클립스",
+    "normalizedFileName": "뉴이클립스png"
+  },
+  {
+    "fileName": "뉴 큐뮬러스.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지/뉴 큐뮬러스.png",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/라르고솔래/이건마루_라르고솔레_240_T4_이미지",
+    "extractedCode": "뉴 큐뮬러스",
+    "normalizedFileName": "뉴큐뮬러스png"
+  },
+  {
     "fileName": "N 오크.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/N 오크.jpg",
     "category": "마루",
@@ -10673,6 +10817,15 @@ export const imageManifest = [
     "series": "강마루/세라/세라",
     "extractedCode": "브리티쉬 월넛",
     "normalizedFileName": "브리티쉬월넛jpg"
+  },
+  {
+    "fileName": "브리티시 월넛.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라/브리티시 월넛.jpg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/세라/세라",
+    "extractedCode": "브리티시 월넛",
+    "normalizedFileName": "브리티시월넛jpg"
   },
   {
     "fileName": "블랑 화이트.jpg",
@@ -11044,6 +11197,15 @@ export const imageManifest = [
     "normalizedFileName": "브리티쉬티크jpg"
   },
   {
+    "fileName": "브리티시 티크.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라블랜딩/브리티시 티크.jpg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/세라/세라블랜딩",
+    "extractedCode": "브리티시 티크",
+    "normalizedFileName": "브리티시티크jpg"
+  },
+  {
     "fileName": "비앙코.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라블랜딩/비앙코.jpg",
     "category": "마루",
@@ -11078,6 +11240,753 @@ export const imageManifest = [
     "series": "강마루/세라/세라블랜딩",
     "extractedCode": "크래프트 오크",
     "normalizedFileName": "크래프트오크jpg"
+  },
+  {
+    "fileName": "노블 티크.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라 플렉스S/세라 플렉스 165/노블 티크.jpg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/세라 플렉스S/세라 플렉스 165",
+    "extractedCode": "노블 티크",
+    "normalizedFileName": "노블티크jpg"
+  },
+  {
+    "fileName": "데일리 오크.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라 플렉스S/세라 플렉스 165/데일리 오크.jpg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/세라 플렉스S/세라 플렉스 165",
+    "extractedCode": "데일리 오크",
+    "normalizedFileName": "데일리오크jpg"
+  },
+  {
+    "fileName": "디어 베이지.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라 플렉스S/세라 플렉스 165/디어 베이지.jpg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/세라 플렉스S/세라 플렉스 165",
+    "extractedCode": "디어 베이지",
+    "normalizedFileName": "디어베이지jpg"
+  },
+  {
+    "fileName": "러블리 베이지.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라 플렉스S/세라 플렉스 165/러블리 베이지.jpg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/세라 플렉스S/세라 플렉스 165",
+    "extractedCode": "러블리 베이지",
+    "normalizedFileName": "러블리베이지jpg"
+  },
+  {
+    "fileName": "멜로우 골드.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라 플렉스S/세라 플렉스 165/멜로우 골드.jpg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/세라 플렉스S/세라 플렉스 165",
+    "extractedCode": "멜로우 골드",
+    "normalizedFileName": "멜로우골드jpg"
+  },
+  {
+    "fileName": "모먼트 크림.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라 플렉스S/세라 플렉스 165/모먼트 크림.jpg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/세라 플렉스S/세라 플렉스 165",
+    "extractedCode": "모먼트 크림",
+    "normalizedFileName": "모먼트크림jpg"
+  },
+  {
+    "fileName": "무드 화이트.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라 플렉스S/세라 플렉스 165/무드 화이트.jpg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/세라 플렉스S/세라 플렉스 165",
+    "extractedCode": "무드 화이트",
+    "normalizedFileName": "무드화이트jpg"
+  },
+  {
+    "fileName": "미스티 그레이.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라 플렉스S/세라 플렉스 165/미스티 그레이.jpg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/세라 플렉스S/세라 플렉스 165",
+    "extractedCode": "미스티 그레이",
+    "normalizedFileName": "미스티그레이jpg"
+  },
+  {
+    "fileName": "블러쉬 샌드.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라 플렉스S/세라 플렉스 165/블러쉬 샌드.jpg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/세라 플렉스S/세라 플렉스 165",
+    "extractedCode": "블러쉬 샌드",
+    "normalizedFileName": "블러쉬샌드jpg"
+  },
+  {
+    "fileName": "심플리 화이트.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라 플렉스S/세라 플렉스 165/심플리 화이트.jpg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/세라 플렉스S/세라 플렉스 165",
+    "extractedCode": "심플리 화이트",
+    "normalizedFileName": "심플리화이트jpg"
+  },
+  {
+    "fileName": "젠틀리 티크.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라 플렉스S/세라 플렉스 165/젠틀리 티크.jpg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/세라 플렉스S/세라 플렉스 165",
+    "extractedCode": "젠틀리 티크",
+    "normalizedFileName": "젠틀리티크jpg"
+  },
+  {
+    "fileName": "카믈리 아이보리.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라 플렉스S/세라 플렉스 165/카믈리 아이보리.jpg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/세라 플렉스S/세라 플렉스 165",
+    "extractedCode": "카믈리 아이보리",
+    "normalizedFileName": "카믈리아이보리jpg"
+  },
+  {
+    "fileName": "퓨얼리 오크.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라 플렉스S/세라 플렉스 165/퓨얼리 오크.jpg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/세라 플렉스S/세라 플렉스 165",
+    "extractedCode": "퓨얼리 오크",
+    "normalizedFileName": "퓨얼리오크jpg"
+  },
+  {
+    "fileName": "허밍 오크.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라 플렉스S/세라 플렉스 165/허밍 오크.jpg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/세라 플렉스S/세라 플렉스 165",
+    "extractedCode": "허밍 오크",
+    "normalizedFileName": "허밍오크jpg"
+  },
+  {
+    "fileName": "메테오 스톤.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라 플렉스S/세라 플렉스 395/메테오 스톤.jpg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/세라 플렉스S/세라 플렉스 395",
+    "extractedCode": "메테오 스톤",
+    "normalizedFileName": "메테오스톤jpg"
+  },
+  {
+    "fileName": "브루니아 크림.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라 플렉스S/세라 플렉스 395/브루니아 크림.jpg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/세라 플렉스S/세라 플렉스 395",
+    "extractedCode": "브루니아 크림",
+    "normalizedFileName": "브루니아크림jpg"
+  },
+  {
+    "fileName": "셀리나 샌드.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라 플렉스S/세라 플렉스 395/셀리나 샌드.jpg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/세라 플렉스S/세라 플렉스 395",
+    "extractedCode": "셀리나 샌드",
+    "normalizedFileName": "셀리나샌드jpg"
+  },
+  {
+    "fileName": "윌로우 그레이.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라 플렉스S/세라 플렉스 395/윌로우 그레이.jpg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "강마루/세라 플렉스S/세라 플렉스 395",
+    "extractedCode": "윌로우 그레이",
+    "normalizedFileName": "윌로우그레이jpg"
+  },
+  {
+    "fileName": "시공_그린_내추럴_다크_쏘우_p82.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_그린_내추럴_다크_쏘우_p82.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_그린_내추럴_다크_쏘우_p82",
+    "normalizedFileName": "시공그린내추럴다크쏘우p82jpeg"
+  },
+  {
+    "fileName": "시공_그린_내추럴_샌드_p83.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_그린_내추럴_샌드_p83.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_그린_내추럴_샌드_p83",
+    "normalizedFileName": "시공그린내추럴샌드p83jpeg"
+  },
+  {
+    "fileName": "시공_그린_내추럴_오크_p72.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_그린_내추럴_오크_p72.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_그린_내추럴_오크_p72",
+    "normalizedFileName": "시공그린내추럴오크p72jpeg"
+  },
+  {
+    "fileName": "시공_그린_러스틱_그레이_p74.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_그린_러스틱_그레이_p74.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_그린_러스틱_그레이_p74",
+    "normalizedFileName": "시공그린러스틱그레이p74jpeg"
+  },
+  {
+    "fileName": "시공_그린_러스틱_브라운_p75.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_그린_러스틱_브라운_p75.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_그린_러스틱_브라운_p75",
+    "normalizedFileName": "시공그린러스틱브라운p75jpeg"
+  },
+  {
+    "fileName": "시공_그린_마일드_골드_p80.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_그린_마일드_골드_p80.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_그린_마일드_골드_p80",
+    "normalizedFileName": "시공그린마일드골드p80jpeg"
+  },
+  {
+    "fileName": "시공_그린_마일드_베이지_p78.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_그린_마일드_베이지_p78.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_그린_마일드_베이지_p78",
+    "normalizedFileName": "시공그린마일드베이지p78jpeg"
+  },
+  {
+    "fileName": "시공_그린_마일드_아이보리_카믈리_p85.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_그린_마일드_아이보리_카믈리_p85.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_그린_마일드_아이보리_카믈리_p85",
+    "normalizedFileName": "시공그린마일드아이보리카믈리p85jpeg"
+  },
+  {
+    "fileName": "시공_그린_마일드_오크_p79.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_그린_마일드_오크_p79.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_그린_마일드_오크_p79",
+    "normalizedFileName": "시공그린마일드오크p79jpeg"
+  },
+  {
+    "fileName": "시공_그린_마일드_오크_데일리_p84.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_그린_마일드_오크_데일리_p84.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_그린_마일드_오크_데일리_p84",
+    "normalizedFileName": "시공그린마일드오크데일리p84jpeg"
+  },
+  {
+    "fileName": "시공_그린_마일드_크림_p77.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_그린_마일드_크림_p77.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_그린_마일드_크림_p77",
+    "normalizedFileName": "시공그린마일드크림p77jpeg"
+  },
+  {
+    "fileName": "시공_그린_마일드_티크_p81.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_그린_마일드_티크_p81.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_그린_마일드_티크_p81",
+    "normalizedFileName": "시공그린마일드티크p81jpeg"
+  },
+  {
+    "fileName": "시공_그린_마일드_화이트_p76.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_그린_마일드_화이트_p76.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_그린_마일드_화이트_p76",
+    "normalizedFileName": "시공그린마일드화이트p76jpeg"
+  },
+  {
+    "fileName": "시공_그린_스퀘어_글램_스톤_p90.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_그린_스퀘어_글램_스톤_p90.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_그린_스퀘어_글램_스톤_p90",
+    "normalizedFileName": "시공그린스퀘어글램스톤p90jpeg"
+  },
+  {
+    "fileName": "시공_그린_스퀘어_데저트_크림_p88.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_그린_스퀘어_데저트_크림_p88.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_그린_스퀘어_데저트_크림_p88",
+    "normalizedFileName": "시공그린스퀘어데저트크림p88jpeg"
+  },
+  {
+    "fileName": "시공_그린_스퀘어_밀키웨이_다크_p93.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_그린_스퀘어_밀키웨이_다크_p93.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_그린_스퀘어_밀키웨이_다크_p93",
+    "normalizedFileName": "시공그린스퀘어밀키웨이다크p93jpeg"
+  },
+  {
+    "fileName": "시공_그린_스퀘어_브리즈_그레이_p89.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_그린_스퀘어_브리즈_그레이_p89.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_그린_스퀘어_브리즈_그레이_p89",
+    "normalizedFileName": "시공그린스퀘어브리즈그레이p89jpeg"
+  },
+  {
+    "fileName": "시공_그린_스퀘어_세레나_포그_p92.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_그린_스퀘어_세레나_포그_p92.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_그린_스퀘어_세레나_포그_p92",
+    "normalizedFileName": "시공그린스퀘어세레나포그p92jpeg"
+  },
+  {
+    "fileName": "시공_그린_스퀘어_코랄_클라우드_p91.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_그린_스퀘어_코랄_클라우드_p91.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_그린_스퀘어_코랄_클라우드_p91",
+    "normalizedFileName": "시공그린스퀘어코랄클라우드p91jpeg"
+  },
+  {
+    "fileName": "시공_라르고_솔레_190_T1_뉴_샌드_p34.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_라르고_솔레_190_T1_뉴_샌드_p34.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_라르고_솔레_190_T1_뉴_샌드_p34",
+    "normalizedFileName": "시공라르고솔레190t1뉴샌드p34jpeg"
+  },
+  {
+    "fileName": "시공_라르고_솔레_190_T1_뉴_오크_에스_p37.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_라르고_솔레_190_T1_뉴_오크_에스_p37.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_라르고_솔레_190_T1_뉴_오크_에스_p37",
+    "normalizedFileName": "시공라르고솔레190t1뉴오크에스p37jpeg"
+  },
+  {
+    "fileName": "시공_라르고_솔레_190_T1_뉴_이클립스_p36.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_라르고_솔레_190_T1_뉴_이클립스_p36.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_라르고_솔레_190_T1_뉴_이클립스_p36",
+    "normalizedFileName": "시공라르고솔레190t1뉴이클립스p36jpeg"
+  },
+  {
+    "fileName": "시공_라르고_솔레_190_T1_뉴_큐뮬러스_p35.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_라르고_솔레_190_T1_뉴_큐뮬러스_p35.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_라르고_솔레_190_T1_뉴_큐뮬러스_p35",
+    "normalizedFileName": "시공라르고솔레190t1뉴큐뮬러스p35jpeg"
+  },
+  {
+    "fileName": "시공_라르고_솔레_190_T3_미스트_p30.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_라르고_솔레_190_T3_미스트_p30.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_라르고_솔레_190_T3_미스트_p30",
+    "normalizedFileName": "시공라르고솔레190t3미스트p30jpeg"
+  },
+  {
+    "fileName": "시공_라르고_솔레_190_T3_썬셋_p32.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_라르고_솔레_190_T3_썬셋_p32.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_라르고_솔레_190_T3_썬셋_p32",
+    "normalizedFileName": "시공라르고솔레190t3썬셋p32jpeg"
+  },
+  {
+    "fileName": "시공_라르고_솔레_190_T3_오크_에스_p31.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_라르고_솔레_190_T3_오크_에스_p31.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_라르고_솔레_190_T3_오크_에스_p31",
+    "normalizedFileName": "시공라르고솔레190t3오크에스p31jpeg"
+  },
+  {
+    "fileName": "시공_라르고_솔레_190_T3_티크_에스_p33.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_라르고_솔레_190_T3_티크_에스_p33.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_라르고_솔레_190_T3_티크_에스_p33",
+    "normalizedFileName": "시공라르고솔레190t3티크에스p33jpeg"
+  },
+  {
+    "fileName": "시공_라르고_솔레_240_T4_뉴_샌드_p26.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_라르고_솔레_240_T4_뉴_샌드_p26.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_라르고_솔레_240_T4_뉴_샌드_p26",
+    "normalizedFileName": "시공라르고솔레240t4뉴샌드p26jpeg"
+  },
+  {
+    "fileName": "시공_라르고_솔레_240_T4_뉴_썬라이즈_p27.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_라르고_솔레_240_T4_뉴_썬라이즈_p27.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_라르고_솔레_240_T4_뉴_썬라이즈_p27",
+    "normalizedFileName": "시공라르고솔레240t4뉴썬라이즈p27jpeg"
+  },
+  {
+    "fileName": "시공_라르고_솔레_240_T4_뉴_오크_에스_p28.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_라르고_솔레_240_T4_뉴_오크_에스_p28.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_라르고_솔레_240_T4_뉴_오크_에스_p28",
+    "normalizedFileName": "시공라르고솔레240t4뉴오크에스p28jpeg"
+  },
+  {
+    "fileName": "시공_라르고_솔레_240_T4_뉴_큐뮬러스_p29.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_라르고_솔레_240_T4_뉴_큐뮬러스_p29.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_라르고_솔레_240_T4_뉴_큐뮬러스_p29",
+    "normalizedFileName": "시공라르고솔레240t4뉴큐뮬러스p29jpeg"
+  },
+  {
+    "fileName": "시공_세라_골드_티크_p123.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_세라_골드_티크_p123.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_세라_골드_티크_p123",
+    "normalizedFileName": "시공세라골드티크p123jpeg"
+  },
+  {
+    "fileName": "시공_세라_리사_화이트_p120.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_세라_리사_화이트_p120.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_세라_리사_화이트_p120",
+    "normalizedFileName": "시공세라리사화이트p120jpeg"
+  },
+  {
+    "fileName": "시공_세라_마일드_오크_p124.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_세라_마일드_오크_p124.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_세라_마일드_오크_p124",
+    "normalizedFileName": "시공세라마일드오크p124jpeg"
+  },
+  {
+    "fileName": "시공_세라_베이직_베이직_버터_p129.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_세라_베이직_베이직_버터_p129.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_세라_베이직_베이직_버터_p129",
+    "normalizedFileName": "시공세라베이직베이직버터p129jpeg"
+  },
+  {
+    "fileName": "시공_세라_베이직_베이직_슈가_p131.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_세라_베이직_베이직_슈가_p131.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_세라_베이직_베이직_슈가_p131",
+    "normalizedFileName": "시공세라베이직베이직슈가p131jpeg"
+  },
+  {
+    "fileName": "시공_세라_베이직_베이직_오크_p130.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_세라_베이직_베이직_오크_p130.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_세라_베이직_베이직_오크_p130",
+    "normalizedFileName": "시공세라베이직베이직오크p130jpeg"
+  },
+  {
+    "fileName": "시공_세라_베이직_베이직_크림_p128.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_세라_베이직_베이직_크림_p128.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_세라_베이직_베이직_크림_p128",
+    "normalizedFileName": "시공세라베이직베이직크림p128jpeg"
+  },
+  {
+    "fileName": "시공_세라_블렌딩_그라노_오크_p116.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_세라_블렌딩_그라노_오크_p116.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_세라_블렌딩_그라노_오크_p116",
+    "normalizedFileName": "시공세라블렌딩그라노오크p116jpeg"
+  },
+  {
+    "fileName": "시공_세라_블렌딩_로맨틱_오크_p117.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_세라_블렌딩_로맨틱_오크_p117.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_세라_블렌딩_로맨틱_오크_p117",
+    "normalizedFileName": "시공세라블렌딩로맨틱오크p117jpeg"
+  },
+  {
+    "fileName": "시공_세라_블렌딩_브리티시_티크_p114.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_세라_블렌딩_브리티시_티크_p114.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_세라_블렌딩_브리티시_티크_p114",
+    "normalizedFileName": "시공세라블렌딩브리티시티크p114jpeg"
+  },
+  {
+    "fileName": "시공_세라_블렌딩_스톤_그레이_p115.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_세라_블렌딩_스톤_그레이_p115.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_세라_블렌딩_스톤_그레이_p115",
+    "normalizedFileName": "시공세라블렌딩스톤그레이p115jpeg"
+  },
+  {
+    "fileName": "시공_세라_오가닉_오크_p125.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_세라_오가닉_오크_p125.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_세라_오가닉_오크_p125",
+    "normalizedFileName": "시공세라오가닉오크p125jpeg"
+  },
+  {
+    "fileName": "시공_세라_플렉스_S_165_디어_베이지_p108.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_세라_플렉스_S_165_디어_베이지_p108.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_세라_플렉스_S_165_디어_베이지_p108",
+    "normalizedFileName": "시공세라플렉스s165디어베이지p108jpeg"
+  },
+  {
+    "fileName": "시공_세라_플렉스_S_165_러블리_베이지_p110.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_세라_플렉스_S_165_러블리_베이지_p110.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_세라_플렉스_S_165_러블리_베이지_p110",
+    "normalizedFileName": "시공세라플렉스s165러블리베이지p110jpeg"
+  },
+  {
+    "fileName": "시공_세라_플렉스_S_165_멜로우_골드_p106.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_세라_플렉스_S_165_멜로우_골드_p106.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_세라_플렉스_S_165_멜로우_골드_p106",
+    "normalizedFileName": "시공세라플렉스s165멜로우골드p106jpeg"
+  },
+  {
+    "fileName": "시공_세라_플렉스_S_165_모먼트_크림_p104.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_세라_플렉스_S_165_모먼트_크림_p104.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_세라_플렉스_S_165_모먼트_크림_p104",
+    "normalizedFileName": "시공세라플렉스s165모먼트크림p104jpeg"
+  },
+  {
+    "fileName": "시공_세라_플렉스_S_165_무드_화이트_p105.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_세라_플렉스_S_165_무드_화이트_p105.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_세라_플렉스_S_165_무드_화이트_p105",
+    "normalizedFileName": "시공세라플렉스s165무드화이트p105jpeg"
+  },
+  {
+    "fileName": "시공_세라_플렉스_S_165_미스티_그레이_p107.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_세라_플렉스_S_165_미스티_그레이_p107.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_세라_플렉스_S_165_미스티_그레이_p107",
+    "normalizedFileName": "시공세라플렉스s165미스티그레이p107jpeg"
+  },
+  {
+    "fileName": "시공_세라_플렉스_S_165_젠틀리_티크_p111.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_세라_플렉스_S_165_젠틀리_티크_p111.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_세라_플렉스_S_165_젠틀리_티크_p111",
+    "normalizedFileName": "시공세라플렉스s165젠틀리티크p111jpeg"
+  },
+  {
+    "fileName": "시공_세라_플렉스_S_165_허밍_오크_p109.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_세라_플렉스_S_165_허밍_오크_p109.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_세라_플렉스_S_165_허밍_오크_p109",
+    "normalizedFileName": "시공세라플렉스s165허밍오크p109jpeg"
+  },
+  {
+    "fileName": "시공_세라_플렉스_S_395_메테오_스톤_p103.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_세라_플렉스_S_395_메테오_스톤_p103.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_세라_플렉스_S_395_메테오_스톤_p103",
+    "normalizedFileName": "시공세라플렉스s395메테오스톤p103jpeg"
+  },
+  {
+    "fileName": "시공_세라_플렉스_S_395_브루니아_크림_p100.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_세라_플렉스_S_395_브루니아_크림_p100.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_세라_플렉스_S_395_브루니아_크림_p100",
+    "normalizedFileName": "시공세라플렉스s395브루니아크림p100jpeg"
+  },
+  {
+    "fileName": "시공_세라_플렉스_S_395_셀리나_샌드_p101.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_세라_플렉스_S_395_셀리나_샌드_p101.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_세라_플렉스_S_395_셀리나_샌드_p101",
+    "normalizedFileName": "시공세라플렉스s395셀리나샌드p101jpeg"
+  },
+  {
+    "fileName": "시공_세라_플렉스_S_395_윌로우_그레이_p102.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_세라_플렉스_S_395_윌로우_그레이_p102.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_세라_플렉스_S_395_윌로우_그레이_p102",
+    "normalizedFileName": "시공세라플렉스s395윌로우그레이p102jpeg"
+  },
+  {
+    "fileName": "시공_세라_플로랄_화이트_p122.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_세라_플로랄_화이트_p122.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_세라_플로랄_화이트_p122",
+    "normalizedFileName": "시공세라플로랄화이트p122jpeg"
+  },
+  {
+    "fileName": "시공_포레스타_G_뉴_매리골드_p52.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_포레스타_G_뉴_매리골드_p52.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_포레스타_G_뉴_매리골드_p52",
+    "normalizedFileName": "시공포레스타g뉴매리골드p52jpeg"
+  },
+  {
+    "fileName": "시공_포레스타_G_뉴_아몬드_옐로우_p50.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_포레스타_G_뉴_아몬드_옐로우_p50.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_포레스타_G_뉴_아몬드_옐로우_p50",
+    "normalizedFileName": "시공포레스타g뉴아몬드옐로우p50jpeg"
+  },
+  {
+    "fileName": "시공_포레스타_G_뉴_오닉스_블랙_p54.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_포레스타_G_뉴_오닉스_블랙_p54.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_포레스타_G_뉴_오닉스_블랙_p54",
+    "normalizedFileName": "시공포레스타g뉴오닉스블랙p54jpeg"
+  },
+  {
+    "fileName": "시공_포레스타_G_뉴_캐시미어_화이트_p46.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_포레스타_G_뉴_캐시미어_화이트_p46.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_포레스타_G_뉴_캐시미어_화이트_p46",
+    "normalizedFileName": "시공포레스타g뉴캐시미어화이트p46jpeg"
+  },
+  {
+    "fileName": "시공_포레스타_G_뉴_허스크_베이지_p48.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_포레스타_G_뉴_허스크_베이지_p48.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_포레스타_G_뉴_허스크_베이지_p48",
+    "normalizedFileName": "시공포레스타g뉴허스크베이지p48jpeg"
+  },
+  {
+    "fileName": "시공_포레스타_뉴_루나_블랙_p64.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_포레스타_뉴_루나_블랙_p64.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_포레스타_뉴_루나_블랙_p64",
+    "normalizedFileName": "시공포레스타뉴루나블랙p64jpeg"
+  },
+  {
+    "fileName": "시공_포레스타_뉴_어텀_브라운_p62.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_포레스타_뉴_어텀_브라운_p62.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_포레스타_뉴_어텀_브라운_p62",
+    "normalizedFileName": "시공포레스타뉴어텀브라운p62jpeg"
+  },
+  {
+    "fileName": "시공_포레스타_뉴_오크_퓸_p58.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_포레스타_뉴_오크_퓸_p58.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_포레스타_뉴_오크_퓸_p58",
+    "normalizedFileName": "시공포레스타뉴오크퓸p58jpeg"
+  },
+  {
+    "fileName": "시공_포레스타_뉴_티크_에스_p60.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/시공사진/시공_포레스타_뉴_티크_에스_p60.jpeg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "시공사진",
+    "extractedCode": "시공_포레스타_뉴_티크_에스_p60",
+    "normalizedFileName": "시공포레스타뉴티크에스p60jpeg"
   },
   {
     "fileName": "미스트.jpg",
@@ -11503,6 +12412,24 @@ export const imageManifest = [
     "normalizedFileName": "마일드골드jpg"
   },
   {
+    "fileName": "마일드 베이지.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 125/마일드/마일드 베이지.jpg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "프리미엄 강마루/그린/그린 125/마일드",
+    "extractedCode": "마일드 베이지",
+    "normalizedFileName": "마일드베이지jpg"
+  },
+  {
+    "fileName": "마일드 오크.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 125/마일드/마일드 오크.jpg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "프리미엄 강마루/그린/그린 125/마일드",
+    "extractedCode": "마일드 오크",
+    "normalizedFileName": "마일드오크jpg"
+  },
+  {
     "fileName": "마일드 크림.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 125/마일드/마일드 크림.jpg",
     "category": "마루",
@@ -11510,6 +12437,15 @@ export const imageManifest = [
     "series": "프리미엄 강마루/그린/그린 125/마일드",
     "extractedCode": "마일드 크림",
     "normalizedFileName": "마일드크림jpg"
+  },
+  {
+    "fileName": "마일드 화이트.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 125/마일드/마일드 화이트.jpg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "프리미엄 강마루/그린/그린 125/마일드",
+    "extractedCode": "마일드 화이트",
+    "normalizedFileName": "마일드화이트jpg"
   },
   {
     "fileName": "내추럴 다크 쏘우.jpg",
@@ -11557,6 +12493,15 @@ export const imageManifest = [
     "normalizedFileName": "마일드베이지jpg"
   },
   {
+    "fileName": "마일드 아이보리_카믈리.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 165/마일드/마일드 아이보리_카믈리.jpg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "프리미엄 강마루/그린/그린 165/마일드",
+    "extractedCode": "마일드 아이보리_카믈리",
+    "normalizedFileName": "마일드아이보리카믈리jpg"
+  },
+  {
     "fileName": "마일드 오크.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 165/마일드/마일드 오크.jpg",
     "category": "마루",
@@ -11564,6 +12509,24 @@ export const imageManifest = [
     "series": "프리미엄 강마루/그린/그린 165/마일드",
     "extractedCode": "마일드 오크",
     "normalizedFileName": "마일드오크jpg"
+  },
+  {
+    "fileName": "마일드 오크_데일리.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 165/마일드/마일드 오크_데일리.jpg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "프리미엄 강마루/그린/그린 165/마일드",
+    "extractedCode": "마일드 오크_데일리",
+    "normalizedFileName": "마일드오크데일리jpg"
+  },
+  {
+    "fileName": "마일드 오크_퓨얼리.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 165/마일드/마일드 오크_퓨얼리.jpg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "프리미엄 강마루/그린/그린 165/마일드",
+    "extractedCode": "마일드 오크_퓨얼리",
+    "normalizedFileName": "마일드오크퓨얼리jpg"
   },
   {
     "fileName": "마일드 크림.jpg",
@@ -11582,6 +12545,15 @@ export const imageManifest = [
     "series": "프리미엄 강마루/그린/그린 165/마일드",
     "extractedCode": "마일드 티크",
     "normalizedFileName": "마일드티크jpg"
+  },
+  {
+    "fileName": "마일드 화이트_심플리.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/이건/프리미엄 강마루/그린/그린 165/마일드/마일드 화이트_심플리.jpg",
+    "category": "마루",
+    "brand": "이건",
+    "series": "프리미엄 강마루/그린/그린 165/마일드",
+    "extractedCode": "마일드 화이트_심플리",
+    "normalizedFileName": "마일드화이트심플리jpg"
   },
   {
     "fileName": "내추럴 샌드.jpg",
