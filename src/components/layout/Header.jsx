@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo, useRef } from "react";
 import { useNavigate, useLocation, Link } from "react-router-dom";
 import { Search, ShoppingCart, User, BookOpen, Layers } from "lucide-react";
 import { searchMaterials } from "../../utils/supabaseFetcher";
-import { getSearchScore, RECOMMENDATIONS, normalizeSearchText, tokenizeSearchQuery, handleSearchRedirect } from "../../utils/searchUtils";
+import { getSearchScore, generateAutocompleteSuggestions, normalizeSearchText, tokenizeSearchQuery, handleSearchRedirect } from "../../utils/searchUtils";
 import { getSupabaseImageUrl } from "../../utils/getSupabaseImageUrl";
 import { useEstimateCart } from "../../contexts/EstimateCartContext";
 import { FileText, Settings, LogOut } from "lucide-react";
@@ -221,8 +221,6 @@ export default function Header() {
     const query = debouncedQ.trim();
     if (!query) return { type: "none", items: [] };
 
-    const normQuery = normalizeSearchText(query);
-    
     // Check if there are matching products
     let scored = [];
     if (dbMaterials && dbMaterials.length > 0) {
@@ -233,12 +231,12 @@ export default function Header() {
     }
 
     if (scored.length > 0) {
-      // Top 20 results for performance
-      return { type: "products", items: scored.slice(0, 20).map(x => x.item) };
+      // Top 8 results for performance and elegance
+      return { type: "products", items: scored.slice(0, 8).map(x => x.item) };
     }
 
-    // Check recommendations if no product matches
-    const recommendations = RECOMMENDATIONS.filter(r => r.trigger === normQuery);
+    // Check recommendations if no direct product matches
+    const recommendations = generateAutocompleteSuggestions(query);
     if (recommendations.length > 0) {
       return { type: "recommendations", items: recommendations };
     }
@@ -253,14 +251,14 @@ export default function Header() {
       if (location.pathname === "/materials") {
         const sp = new URLSearchParams(location.search);
         sp.delete("search");
+        sp.delete("q");
         nav(`/materials?${sp.toString()}`);
       }
       setIsFocused(false);
       return;
     }
     
-    // Keep every matching brand/category; never infer filters from one result.
-    nav(`/materials?search=${encodeURIComponent(keyword)}`);
+    handleSearchRedirect(keyword, nav);
     setIsFocused(false);
   };
 

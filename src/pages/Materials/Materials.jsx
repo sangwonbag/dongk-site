@@ -16,11 +16,11 @@ import {
 } from "../../utils/eagonUtils";
 import MaterialCard from "../../components/material/MaterialCard";
 import { fetchFilteredProducts, searchMaterials, withTimeout } from "../../utils/supabaseFetcher";
-import { getSearchScore, isProductNumberQuery } from "../../utils/searchUtils";
+import { getSearchScore, isProductNumberQuery, generateAutocompleteSuggestions, POPULAR_KEYWORDS, parseSearchQuery } from "../../utils/searchUtils";
 import { sortProducts, SORT_OPTIONS } from "../../utils/sortUtils";
 import { Skeleton, EmptyState, ErrorState } from "../../components/ui";
 import MobileFilterSheet from "../../components/material/MobileFilterSheet";
-import { X } from "lucide-react";
+import { X, Search } from "lucide-react";
 import SEO from "../../components/seo/SEO";
 import "./Materials.css";
 import "./MaterialsPageSkeleton.css";
@@ -138,27 +138,58 @@ export default function Materials() {
   // Request counter ref to prevent race conditions and guarantee loading termination
   const fetchRequestIdRef = useRef(0);
 
-  // Filters state (Direct inputs for name, code, spec)
-  const [nameFilter, setNameFilter] = useState("");
-  const [codeFilter, setCodeFilter] = useState("");
-  const [specFilter, setSpecFilter] = useState("");
+  // Unified Search State
+  const initialSearch = (searchParams.get("q") || searchParams.get("search") || "").trim();
+  const [searchQuery, setSearchQuery] = useState(initialSearch);
+  const [debouncedQuery, setDebouncedQuery] = useState(initialSearch);
+  const [isSearchFocused, setIsSearchFocused] = useState(false);
+  const [selectedSuggestionIndex, setSelectedSuggestionIndex] = useState(-1);
+  const searchInputWrapperRef = useRef(null);
 
-  const urlSearch = (searchParams.get("search") || "").trim();
-  const catalogQuery = codeFilter.trim() || urlSearch || (isProductNumberQuery(nameFilter) ? nameFilter.trim() : "");
-  const [debouncedQuery, setDebouncedQuery] = useState(catalogQuery);
+  // Sync state if URL changes (back/forward navigation)
   useEffect(() => {
-    const timer = setTimeout(() => setDebouncedQuery(catalogQuery), 250);
-    return () => clearTimeout(timer);
-  }, [catalogQuery]);
-  const searching = !!catalogQuery;
+    const currentQ = (searchParams.get("q") || searchParams.get("search") || "").trim();
+    if (currentQ !== searchQuery) {
+      setSearchQuery(currentQ);
+      setDebouncedQuery(currentQ);
+    }
+  }, [searchParams]);
 
-  // Read state directly from URL query parameters (or default)
-  const activeTab = searching ? "all" : (searchParams.get("category") || "데코타일");
-  
-  // If there's an explicit category query, but no brand query: default to "all" (to show all brands).
-  // If there's no category query either (first load): default to "KCC".
-  const defaultBrand = searchParams.get("category") ? "all" : "KCC";
-  const activeBrand = searching ? "all" : (searchParams.get("brand") || defaultBrand);
+  // 200ms Debounce for instant live search while typing
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setDebouncedQuery(searchQuery.trim());
+    }, 200);
+    return () => clearTimeout(timer);
+  }, [searchQuery]);
+
+  const searching = !!debouncedQuery;
+
+  // Autocomplete suggestions
+  const suggestions = useMemo(() => {
+    if (!searchQuery.trim() || !isSearchFocused) return [];
+    return generateAutocompleteSuggestions(searchQuery);
+  }, [searchQuery, isSearchFocused]);
+
+  // Close autocomplete on click outside
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (searchInputWrapperRef.current && !searchInputWrapperRef.current.contains(e.target)) {
+        setIsSearchFocused(false);
+        setSelectedSuggestionIndex(-1);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  // Category & Brand resolution
+  const urlCategory = searchParams.get("category");
+  const urlBrand = searchParams.get("brand");
+
+  const activeTab = urlCategory || (searching ? "all" : "데코타일");
+  const defaultBrand = urlCategory ? "all" : (searching ? "all" : "KCC");
+  const activeBrand = urlBrand || defaultBrand;
   
   const activeMaterialType = searchParams.get("type") || "all";
   const rawLineParam = searchParams.get("line") || "all";
@@ -204,18 +235,74 @@ export default function Materials() {
       if (activeDongshinDetail !== "all") count++;
     }
     if (sortOption !== "default") count++;
-    if (nameFilter.trim()) count++;
-    if (codeFilter.trim()) count++;
-    if (specFilter.trim()) count++;
+    if (debouncedQuery.trim()) count++;
     return count;
-  }, [activeBrand, activeThickness, activeShape, activeLine, activeDongshinMajor, activeDongshinDetail, isEagonBrand, activeEagonMajor, activeEagonLine, activeEagonSpec, sortOption, nameFilter, codeFilter, specFilter]);
+  }, [activeBrand, activeThickness, activeShape, activeLine, activeDongshinMajor, activeDongshinDetail, isEagonBrand, activeEagonMajor, activeEagonLine, activeEagonSpec, sortOption, debouncedQuery]);
 
   const handleResetFilters = useCallback(() => {
-    updateParams({ search: null, brand: "all", type: null, line: null, detail: null, shape: null, thickness: null, spec: null, sort: null });
-    setNameFilter("");
-    setCodeFilter("");
-    setSpecFilter("");
+    updateParams({ search: null, q: null, brand: "all", type: null, line: null, detail: null, shape: null, thickness: null, spec: null, sort: null });
+    setSearchQuery("");
+    setDebouncedQuery("");
   }, []);
+
+  const handleClearSearch = useCallback(() => {
+    setSearchQuery("");
+    setDebouncedQuery("");
+    setIsSearchFocused(false);
+    setSelectedSuggestionIndex(-1);
+    updateParams({ q: null, search: null });
+  }, []);
+
+  const handleKeywordClick = useCallback((kw) => {
+    setSearchQuery(kw);
+    setDebouncedQuery(kw);
+    setIsSearchFocused(false);
+    updateParams({ q: kw, search: null });
+  }, []);
+
+  const handleSuggestionClick = useCallback((suggestion) => {
+    setSearchQuery(suggestion.query);
+    setDebouncedQuery(suggestion.query);
+    setIsSearchFocused(false);
+    setSelectedSuggestionIndex(-1);
+    const updates = { q: suggestion.query, search: null };
+    if (suggestion.category && activeTab === "all") {
+      updates.category = suggestion.category;
+    }
+    if (suggestion.brand && activeBrand === "all") {
+      updates.brand = suggestion.brand;
+    }
+    updateParams(updates);
+  }, [activeTab, activeBrand]);
+
+  const handleSearchKeyDown = useCallback((e) => {
+    if (suggestions.length === 0) {
+      if (e.key === "Enter") {
+        updateParams({ q: searchQuery.trim() || null, search: null });
+        setIsSearchFocused(false);
+      }
+      return;
+    }
+
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      setSelectedSuggestionIndex(prev => (prev + 1) % suggestions.length);
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      setSelectedSuggestionIndex(prev => (prev - 1 + suggestions.length) % suggestions.length);
+    } else if (e.key === "Enter") {
+      e.preventDefault();
+      if (selectedSuggestionIndex >= 0 && selectedSuggestionIndex < suggestions.length) {
+        handleSuggestionClick(suggestions[selectedSuggestionIndex]);
+      } else {
+        updateParams({ q: searchQuery.trim() || null, search: null });
+        setIsSearchFocused(false);
+      }
+    } else if (e.key === "Escape") {
+      setIsSearchFocused(false);
+      setSelectedSuggestionIndex(-1);
+    }
+  }, [suggestions, selectedSuggestionIndex, searchQuery, handleSuggestionClick]);
 
   // Pagination state (30 items per load)
   const PRODUCTS_PER_LOAD = 30;
@@ -259,14 +346,16 @@ export default function Materials() {
     const controller = new AbortController();
 
     async function load() {
-      if (process.env.NODE_ENV !== 'production') {
-        console.debug('[Materials] request start', { category: activeTab, brand: activeBrand, thickness: activeThickness, visibleCount, requestId });
-      }
       setLoading(true);
       setError(null);
       
       try {
-        const res = debouncedQuery ? await searchMaterials(debouncedQuery, controller.signal) : await fetchFilteredProducts({
+        const res = debouncedQuery ? await searchMaterials(debouncedQuery, {
+          category: activeTab,
+          brand: activeBrand,
+          thickness: activeThickness,
+          signal: controller.signal
+        }) : await fetchFilteredProducts({
           category: activeTab,
           brand: activeBrand,
           thickness: activeThickness,
@@ -280,28 +369,21 @@ export default function Materials() {
           setMaterialsList(items);
           if (res && typeof res.totalCount === 'number') {
             setTotalCount(res.totalCount);
-          }
-          if (process.env.NODE_ENV !== 'production') {
-            console.debug('[Materials] request success', { count: items.length, totalCount: res?.totalCount, requestId });
+          } else {
+            setTotalCount(items.length);
           }
         }
       } catch (err) {
         if (err.name === 'AbortError' || err.message === 'aborted') {
-          if (process.env.NODE_ENV !== 'production') {
-            console.debug('[Materials] request aborted', { requestId });
-          }
           return;
         }
-        console.error("[Materials] load error:", { category: activeTab, brand: activeBrand, page: 0, error: err });
+        console.error("[Materials] load error:", err);
         if (requestId === fetchRequestIdRef.current) {
           setError(err.message || "자재 정보를 불러오지 못했습니다.");
         }
       } finally {
         if (requestId === fetchRequestIdRef.current) {
           setLoading(false);
-          if (process.env.NODE_ENV !== 'production') {
-            console.debug('[Materials] request finished', { requestId });
-          }
         }
       }
     }
@@ -321,7 +403,7 @@ export default function Materials() {
   // Reset visibleCount to 30 whenever any filter, search input, or sort option changes
   useEffect(() => {
     setVisibleCount(PRODUCTS_PER_LOAD);
-  }, [activeTab, activeBrand, activeMaterialType, activeLine, activeDongshinMajor, activeDongshinDetail, isEagonBrand, activeEagonMajor, activeEagonLine, activeEagonSpec, activeShape, activeThickness, nameFilter, codeFilter, specFilter, sortOption, catalogQuery]);
+  }, [activeTab, activeBrand, activeMaterialType, activeLine, activeDongshinMajor, activeDongshinDetail, isEagonBrand, activeEagonMajor, activeEagonLine, activeEagonSpec, activeShape, activeThickness, debouncedQuery, sortOption]);
 
   // Normalize legacy line parameters (e.g., line=강마루_듀오텍스쳐_DUO TEXTURE)
   useEffect(() => {
@@ -350,10 +432,7 @@ export default function Materials() {
   const handleCategoryChange = (category) => {
     // Switch category and reset brand to its default corresponding brand
     const defaultBrand = DEFAULT_BRAND_BY_CATEGORY[category] || "all";
-    updateParams({ category, search: null, brand: defaultBrand, type: null, line: null, shape: null, thickness: null, spec: null, detail: null });
-    setNameFilter("");
-    setCodeFilter("");
-    setSpecFilter("");
+    updateParams({ category, brand: defaultBrand, type: null, line: null, shape: null, thickness: null, spec: null, detail: null });
   };
 
   const setActiveBrand = (brand) => updateParams({ brand, type: null, line: null, shape: null, thickness: null, spec: null, detail: null });
@@ -641,10 +720,14 @@ export default function Materials() {
     
     let result = materialsList.filter((m) => {
       if (!m || m.active === false || m.is_active === false) return false;
-      if (searching) return getSearchScore(m, catalogQuery) > 0;
 
-      // Category tab check
-      const tabOk = (m.category === activeTab);
+      // When searching, match score must be > 0
+      if (searching && getSearchScore(m, debouncedQuery) <= 0) {
+        return false;
+      }
+
+      // Category tab check (if activeTab is 'all', all categories pass)
+      const tabOk = (activeTab === "all" || m.category === activeTab);
 
       // Brand check with normalization rules
       let brandOk = false;
@@ -739,32 +822,20 @@ export default function Materials() {
       return tabOk && brandOk && typeOk && lineOk && shapeOk && thicknessOk;
     });
 
-    // Apply client-side search inputs on top of standard filters
-    if (nameFilter.trim() && !isProductNumberQuery(nameFilter)) {
-      const q = nameFilter.trim().toLowerCase();
-      result = result.filter(m => (m.name || "").toLowerCase().includes(q));
-    }
-    if (specFilter.trim()) {
-      const q = specFilter.trim().toLowerCase();
-      result = result.filter(m => {
-        const thickness = (m.thickness || "").toLowerCase();
-        const size = (m.specs?.size || m.spec || "").toLowerCase();
-        return thickness.includes(q) || size.includes(q);
-      });
-    }
-
     return result;
-  }, [materialsList, activeTab, activeBrand, isEagonBrand, activeEagonMajor, activeEagonLine, activeEagonSpec, activeMaterialType, activeLine, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, visibleLines, nameFilter, codeFilter, specFilter, searching, catalogQuery]);
+  }, [materialsList, activeTab, activeBrand, isEagonBrand, activeEagonMajor, activeEagonLine, activeEagonSpec, activeMaterialType, activeLine, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, visibleLines, searching, debouncedQuery]);
 
   // Apply sorting pipeline on filtered products (Immutably using useMemo)
   const sortedProducts = useMemo(() => {
-    if (searching && sortOption === "default") return [...filtered].sort((a, b) => getSearchScore(b, catalogQuery) - getSearchScore(a, catalogQuery));
+    if (searching && sortOption === "default") {
+      return [...filtered].sort((a, b) => getSearchScore(b, debouncedQuery) - getSearchScore(a, debouncedQuery));
+    }
     return sortProducts(filtered, sortOption);
-  }, [filtered, sortOption, searching, catalogQuery]);
+  }, [filtered, sortOption, searching, debouncedQuery]);
 
   const isFilteredSearch = useMemo(() => {
-    return activeLine !== "all" || activeDongshinMajor !== "all" || activeDongshinDetail !== "all" || activeShape !== "all" || activeThickness !== "all" || activeMaterialType !== "all" || (isEagonBrand && (activeEagonMajor !== "all" || activeEagonLine !== "all" || activeEagonSpec !== "all")) || !!nameFilter.trim() || !!codeFilter.trim() || !!specFilter.trim();
-  }, [activeLine, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, activeMaterialType, isEagonBrand, activeEagonMajor, activeEagonLine, activeEagonSpec, nameFilter, codeFilter, specFilter]);
+    return activeLine !== "all" || activeDongshinMajor !== "all" || activeDongshinDetail !== "all" || activeShape !== "all" || activeThickness !== "all" || activeMaterialType !== "all" || (isEagonBrand && (activeEagonMajor !== "all" || activeEagonLine !== "all" || activeEagonSpec !== "all")) || searching;
+  }, [activeLine, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, activeMaterialType, isEagonBrand, activeEagonMajor, activeEagonLine, activeEagonSpec, searching]);
 
   const displayTotalCount = useMemo(() => {
     if (searching || isFilteredSearch) return sortedProducts.length;
@@ -815,7 +886,7 @@ export default function Materials() {
       });
   }, [activeTab, activeBrand, activeThickness, debouncedQuery]);
 
-  const seoTitle = searching ? `“${catalogQuery}” 자재 검색 | 동경바닥재` : activeTab
+  const seoTitle = searching ? `“${debouncedQuery}” 자재 검색 | 동경바닥재` : activeTab
     ? `${activeTab}${activeBrand !== 'all' ? ` (${activeBrand})` : ''} 자재조회 | 동경바닥재`
     : "자재찾기 | 동경바닥재 - 데코타일, 장판, 마루, 벽지, 카페트타일 조회";
 
@@ -857,6 +928,81 @@ export default function Materials() {
               <p className="materials-description">
                 동경바닥재가 엄선한 국내 주요 제조사(KCC, 동신, LX 등)의 자재를 상품명 및 자재 코드별로 조회하고 바로 발주하거나 견적을 요청할 수 있습니다.
               </p>
+            </div>
+
+            {/* 통합 검색창 (Unified Search Bar & Autocomplete & Popular Tags) */}
+            <div className="materials-unified-search-section" ref={searchInputWrapperRef}>
+              <div className={`materials-search-input-wrapper ${isSearchFocused ? 'focused' : ''}`}>
+                <Search size={20} className="materials-search-icon" />
+                <input
+                  type="text"
+                  className="materials-search-input"
+                  placeholder="제품명, 브랜드, 제품번호, 라인업 검색 (예: 디아망, 8195, 30082P)"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  onFocus={() => setIsSearchFocused(true)}
+                  onKeyDown={handleSearchKeyDown}
+                  autoComplete="off"
+                />
+                {searchQuery && (
+                  <button 
+                    type="button" 
+                    className="materials-search-clear-btn" 
+                    onClick={handleClearSearch}
+                    aria-label="검색어 지우기"
+                  >
+                    <X size={16} />
+                  </button>
+                )}
+              </div>
+
+              {/* Autocomplete Suggestions Dropdown */}
+              {isSearchFocused && suggestions.length > 0 && (
+                <div className="materials-autocomplete-dropdown" role="listbox">
+                  {suggestions.map((item, idx) => {
+                    let badgeClass = 'badge-lineup';
+                    if (item.type === 'brand') badgeClass = 'badge-brand';
+                    else if (item.type === 'product') badgeClass = 'badge-product';
+                    else if (item.type === 'category') badgeClass = 'badge-category';
+                    else if (item.type === 'spec') badgeClass = 'badge-spec';
+
+                    return (
+                      <div
+                        key={item.title + idx}
+                        className={`autocomplete-item ${selectedSuggestionIndex === idx ? 'selected' : ''}`}
+                        onClick={() => handleSuggestionClick(item)}
+                        onMouseEnter={() => setSelectedSuggestionIndex(idx)}
+                        role="option"
+                        aria-selected={selectedSuggestionIndex === idx}
+                      >
+                        <div className="autocomplete-item-left">
+                          <span className={`autocomplete-badge ${badgeClass}`}>{item.badge}</span>
+                          <div className="autocomplete-text-group">
+                            <span className="autocomplete-title">{item.title}</span>
+                            {item.subtitle && <span className="autocomplete-subtitle">{item.subtitle}</span>}
+                          </div>
+                        </div>
+                        <span className="autocomplete-action-hint">선택 ↵</span>
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
+
+              {/* Popular Search Keywords */}
+              <div className="search-popular-keywords-bar">
+                <span className="popular-label">인기 검색:</span>
+                {POPULAR_KEYWORDS.map(kw => (
+                  <button
+                    key={kw}
+                    type="button"
+                    className="popular-tag-btn"
+                    onClick={() => handleKeywordClick(kw)}
+                  >
+                    {kw}
+                  </button>
+                ))}
+              </div>
             </div>
 
             {/* Active Filter Chips Bar */}
@@ -919,22 +1065,10 @@ export default function Materials() {
                     </span>
                   )
                 )}
-                {nameFilter.trim() && (
+                {debouncedQuery.trim() && (
                   <span className="active-chip">
-                    제품명: {nameFilter}
-                    <X size={14} className="chip-remove" onClick={() => setNameFilter("")} />
-                  </span>
-                )}
-                {codeFilter.trim() && (
-                  <span className="active-chip">
-                    코드: {codeFilter}
-                    <X size={14} className="chip-remove" onClick={() => setCodeFilter("")} />
-                  </span>
-                )}
-                {specFilter.trim() && (
-                  <span className="active-chip">
-                    규격: {specFilter}
-                    <X size={14} className="chip-remove" onClick={() => setSpecFilter("")} />
+                    검색어: {debouncedQuery}
+                    <X size={14} className="chip-remove" onClick={handleClearSearch} />
                   </span>
                 )}
                 {sortOption !== "default" && (
@@ -1028,46 +1162,56 @@ export default function Materials() {
 
           {/* ✅ Section B. Scroll Area (세부 검색창 ~ 라인업 ~ 상품 목록 - Normal Scroll) */}
           <section className="materials-scroll-area">
+            {/* Search Results Summary Header Bar */}
             {searching && (
-              <p role="status">전체 자재 검색: “{catalogQuery}” · 일치도가 높은 자재부터 표시합니다.
-                <button type="button" onClick={() => { setNameFilter(""); setCodeFilter(""); updateParams({ search: null }); }}>검색 지우기</button>
-              </p>
-            )}
-            {/* Detailed search inputs */}
-            <div className="materials-detail-search">
-              <div className="search-filters-grid">
-                <div className="search-field">
-                  <label className="field-label">제품명 검색</label>
-                  <input
-                    type="text"
-                    placeholder="제품명 입력 (예: 오크, 타일)"
-                    value={nameFilter}
-                    onChange={(e) => setNameFilter(e.target.value)}
-                    className="field-input"
-                  />
+              <div className="search-results-summary-bar">
+                <div className="search-results-headline">
+                  <span className="search-query-highlight">“{debouncedQuery}”</span> 검색 결과: 총 <strong>{displayTotalCount}</strong>개 상품
                 </div>
-                <div className="search-field">
-                  <label className="field-label">상품코드 검색</label>
-                  <input
-                    type="text"
-                    placeholder="번호만 입력 (예: 3084, 5702, 49598-01)"
-                    value={codeFilter}
-                    onChange={(e) => setCodeFilter(e.target.value)}
-                    className="field-input"
-                  />
-                </div>
-                <div className="search-field">
-                  <label className="field-label">규격/두께 검색</label>
-                  <input
-                    type="text"
-                    placeholder="규격/두께 입력 (예: 1.8T, 2.2mm)"
-                    value={specFilter}
-                    onChange={(e) => setSpecFilter(e.target.value)}
-                    className="field-input"
-                  />
-                </div>
+                {(activeTab !== "all" || activeBrand !== "all" || activeThickness !== "all") && (
+                  <div className="search-active-filter-tags">
+                    {activeTab !== "all" && (
+                      <span className="search-filter-tag">
+                        카테고리: {activeTab}
+                        <X size={12} onClick={() => updateParams({ category: "all" })} />
+                      </span>
+                    )}
+                    {activeBrand !== "all" && (
+                      <span className="search-filter-tag">
+                        브랜드: {activeBrand}
+                        <X size={12} onClick={() => updateParams({ brand: "all" })} />
+                      </span>
+                    )}
+                    {activeThickness !== "all" && (
+                      <span className="search-filter-tag">
+                        두께: {activeThickness}
+                        <X size={12} onClick={() => updateParams({ thickness: null })} />
+                      </span>
+                    )}
+                  </div>
+                )}
               </div>
-            </div>
+            )}
+
+            {/* Filter Conflict Notice */}
+            {searching && sortedProducts.length === 0 && (activeTab !== "all" || activeBrand !== "all" || activeThickness !== "all") && (
+              <div className="search-filter-conflict-notice">
+                <div className="conflict-icon">🔍</div>
+                <div className="conflict-message">현재 선택한 필터에서 검색 결과가 없습니다.</div>
+                <div className="conflict-subtext">
+                  선택하신 조건({activeTab !== 'all' ? `카테고리: ${activeTab} ` : ''}{activeBrand !== 'all' ? `브랜드: ${activeBrand}` : ''})에서는 “{debouncedQuery}” 검색 결과가 없습니다.
+                </div>
+                <button 
+                  type="button" 
+                  className="conflict-search-all-btn"
+                  onClick={() => {
+                    updateParams({ category: "all", brand: "all", thickness: null, type: null, line: null, detail: null, shape: null, spec: null });
+                  }}
+                >
+                  전체 자재에서 검색
+                </button>
+              </div>
+            )}
 
             {/* Dongshin 2-Tier Lineup Filter */}
             {!loading && activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마") && (

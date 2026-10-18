@@ -511,51 +511,360 @@
   z-index: 1;
 }
 
-.materials-detail-search {
+/* ==========================================================================
+   동경바닥재 통합 검색창 (Unified Search Bar & Autocomplete & Filter Chips)
+   ========================================================================== */
+
+.materials-unified-search-section {
+  position: relative;
   width: 100%;
-  margin-top: 10px;
-  margin-bottom: 16px;
-  padding: 12px 16px;
-  background: #f8fafc;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
+  margin: 12px 0 16px;
+  z-index: 20;
+}
+
+.materials-search-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 52px;
+  background: #ffffff;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   box-sizing: border-box;
 }
 
-.search-filters-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
+.materials-search-input-wrapper:hover {
+  border-color: #cbd5e1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
 }
 
-.search-field {
+.materials-search-input-wrapper.focused {
+  border-color: var(--point-gold, #c89b3c);
+  box-shadow: 0 0 0 4px rgba(200, 155, 60, 0.15);
+  background: #ffffff;
+}
+
+.materials-search-icon {
+  margin-left: 16px;
+  margin-right: 12px;
+  color: var(--point-gold, #c89b3c);
+  flex-shrink: 0;
+}
+
+.materials-search-input {
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 15.5px;
+  font-weight: 500;
+  color: #1e293b;
+  padding: 0 8px 0 0;
+}
+
+.materials-search-input::placeholder {
+  color: #94a3b8;
+  font-size: 14.5px;
+  font-weight: 400;
+}
+
+.materials-search-clear-btn {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  margin-right: 12px;
+  border: none;
+  background: #f1f5f9;
+  border-radius: 50%;
+  color: #64748b;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  flex-shrink: 0;
+}
+
+.materials-search-clear-btn:hover {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+/* 인기 검색어 바 */
+.search-popular-keywords-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+  padding: 0 4px;
+}
+
+.popular-label {
+  font-size: 13px;
+  font-weight: 700;
+  color: #475569;
+  display: inline-flex;
+  align-items: center;
   gap: 4px;
 }
 
-.field-label {
-  font-size: 12px;
+.popular-tag-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  font-size: 12.5px;
+  font-weight: 500;
+  color: #334155;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  line-height: 1.4;
+}
+
+.popular-tag-btn:hover {
+  background: var(--point-gold-light, #fbf7ee);
+  border-color: var(--point-gold, #c89b3c);
+  color: var(--point-gold-hover, #9c7320);
+  transform: translateY(-1px);
+}
+
+/* 자동완성 드롭다운 (Autocomplete Dropdown) */
+.materials-autocomplete-dropdown {
+  position: absolute;
+  top: calc(100% - 24px);
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12), 0 2px 6px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+  z-index: 50;
+  animation: fadeInDown 0.18s ease-out;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.autocomplete-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 11px 16px;
+  border-bottom: 1px solid #f1f5f9;
+  cursor: pointer;
+  transition: background-color 0.12s ease;
+}
+
+.autocomplete-item:last-child {
+  border-bottom: none;
+}
+
+.autocomplete-item:hover,
+.autocomplete-item.selected {
+  background-color: #f8fafc;
+}
+
+.autocomplete-item-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.autocomplete-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 7px;
+  font-size: 11px;
   font-weight: 700;
-  color: var(--text-muted);
+  border-radius: 4px;
+  white-space: nowrap;
 }
 
-.field-input {
-  width: 100%;
-  height: 36px;
-  padding: 6px 12px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
+.badge-lineup {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.badge-brand {
+  background: #e0f2fe;
+  color: #0369a1;
+}
+
+.badge-product {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.badge-category {
+  background: #f3e8ff;
+  color: #6b21a8;
+}
+
+.badge-spec {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.autocomplete-text-group {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.autocomplete-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0f172a;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.autocomplete-subtitle {
+  font-size: 12px;
+  color: #64748b;
+  margin-top: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.autocomplete-action-hint {
+  font-size: 12px;
+  color: #94a3b8;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+
+/* 검색 결과 헤더 요약 바 (Search Results Summary Bar) */
+.search-results-summary-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 12px 16px;
+  margin: 12px 0 16px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+}
+
+.search-results-headline {
+  font-size: 15px;
+  color: #334155;
+  font-weight: 500;
+}
+
+.search-query-highlight {
+  color: var(--point-gold, #c89b3c);
+  font-weight: 700;
+}
+
+.search-results-headline strong {
+  color: #0f172a;
+  font-weight: 700;
+}
+
+.search-active-filter-tags {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.search-filter-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 9px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #334155;
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+}
+
+.search-filter-tag svg {
+  cursor: pointer;
+  color: #64748b;
+  transition: color 0.15s ease;
+}
+
+.search-filter-tag svg:hover {
+  color: #ef4444;
+}
+
+/* 필터 충돌 안내 및 전체 자재 검색 버튼 */
+.search-filter-conflict-notice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 24px;
+  text-align: center;
+  background: #ffffff;
+  border: 1px dashed #cbd5e1;
+  border-radius: 14px;
+  margin: 20px 0;
+}
+
+.conflict-icon {
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+
+.conflict-message {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 6px;
+}
+
+.conflict-subtext {
   font-size: 13.5px;
-  color: var(--text);
-  background-color: #ffffff;
-  transition: var(--transition);
-  outline: none;
+  color: #64748b;
+  margin-bottom: 20px;
 }
 
-.field-input:focus {
-  border-color: var(--point-gold);
-  box-shadow: 0 0 0 3px rgba(179, 146, 95, 0.12);
+.conflict-search-all-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 22px;
+  font-size: 14.5px;
+  font-weight: 700;
+  color: #ffffff;
+  background: var(--point-gold, #c89b3c);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(200, 155, 60, 0.25);
+  transition: all 0.2s ease;
+}
+
+.conflict-search-all-btn:hover {
+  background: var(--point-gold-hover, #9c7320);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(200, 155, 60, 0.35);
 }
 
 .materials-lineup-filter {
