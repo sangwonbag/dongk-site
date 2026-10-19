@@ -451,9 +451,13 @@ const getVirtualSpaceExamples = (product, galleryImages) => {
   const img3 = imageList[2] || imageList[1] || imageList[0] || mainImage;
 
   if (category === "데코타일") {
+    const isTS5502P = (product?.code || '').replace(/\s+/g, '').toUpperCase() === 'TS5502P';
+    const officeImg = isTS5502P 
+      ? '/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/KCC_트랜디_TS5502P_사무실.webp' 
+      : img2;
     return [
       { title: "상업공간 적용 예시", subtitle: "내구성과 관리가 중요한 매장 바닥에 적합", image: img1 },
-      { title: "사무실 적용 예시", subtitle: "깔끔하고 실용적인 업무공간 연출", image: img2 },
+      { title: "사무실 적용 예시", subtitle: isTS5502P ? "KCC 센스타일 트랜디 TS5502P 실제 사무공간 연출" : "깔끔하고 실용적인 업무공간 연출", image: officeImg },
       { title: "카페·매장 적용 예시", subtitle: "공간 분위기를 정리해주는 바닥 패턴", image: img3 }
     ];
   }
@@ -534,6 +538,17 @@ const enrichProduct = (raw) => {
         area: trendyInfo.areaPerBox
       };
     }
+  }
+  const normCode = (enriched.code || '').replace(/\s+/g, '').toUpperCase();
+  if (normCode === 'TS5502P') {
+    const officeImg = '/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/KCC_트랜디_TS5502P_사무실.webp';
+    const mainImg = '/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P.png';
+    enriched.thumbnail = mainImg;
+    enriched.image = mainImg;
+    enriched.images = [mainImg, officeImg];
+    enriched.galleryImages = [mainImg, officeImg];
+    enriched.installationImages = [officeImg];
+    if (!enriched.pattern) enriched.pattern = '우븐 / 카펫';
   }
   if (enriched.code === 'TW 5120G' && !enriched.pattern) {
     enriched.pattern = '오크';

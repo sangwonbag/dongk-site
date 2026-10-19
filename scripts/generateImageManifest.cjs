@@ -63,21 +63,26 @@ function extractCode(filename) {
   const ext = path.extname(filename);
   const nameWithoutExt = filename.slice(0, -ext.length).trim();
   
-  // 1. Remove suffix indices (e.g. "_0", "_1", " (2)")
-  let cleanName = nameWithoutExt.replace(/_thumbnail$/i, '').replace(/_(\d+)$/, '').replace(/\s*\(\d+\)$/, '').trim();
+  // 1. Remove suffix indices and space descriptions (e.g. "_0", "_1", " (2)", "_사무실", "_시공")
+  let cleanName = nameWithoutExt
+    .replace(/_thumbnail$/i, '')
+    .replace(/_(?:사무실|시공|패턴|거실|침실|카페|매장|office|scene|room)$/i, '')
+    .replace(/_(\d+)$/, '')
+    .replace(/\s*\(\d+\)$/, '')
+    .trim();
   
   // 2. Try matching standard code patterns: [Letters 2-5] + [spaces?] + [Numbers 3-5] + [Letters?]
-  // Examples: HOT 0065, TS5502P, OA 317, DBT3066, ZOT 0761, CM21882, ZS84011-11
-  const codeRegex = /\b([A-Z]{2,5})\s*(\d{3,5}(?:-\d+)?)([A-Z]*)\b/i;
+  // Support underscore boundaries like KCC_트랜디_TS5502P_사무실
+  const codeRegex = /(?:^|[_\s])([A-Z]{2,5}\s*\d{3,5}(?:-\d+)?[A-Z]*)(?:[_\s]|$)/i;
   const match = cleanName.match(codeRegex);
   if (match) {
-    // Reconstruct normalized code (like HOT 0065 or TS5502P)
-    const prefix = match[1].toUpperCase();
-    const numbers = match[2];
-    const suffix = match[3] ? match[3].toUpperCase() : '';
-    // If it was originally written with space, preserve one space, otherwise keep it compact.
-    // We'll return the matched string itself as extracted code
-    return match[0].trim();
+    return match[1].trim();
+  }
+
+  const boundaryRegex = /\b([A-Z]{2,5})\s*(\d{3,5}(?:-\d+)?)([A-Z]*)\b/i;
+  const bMatch = cleanName.match(boundaryRegex);
+  if (bMatch) {
+    return bMatch[0].trim();
   }
   
   // 3. Try matching numeric code patterns at the start (e.g. 90013-1, 25097-1)

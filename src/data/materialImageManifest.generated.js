@@ -937,6 +937,24 @@ export const imageManifest = [
     "normalizedFileName": "b5064fjpg"
   },
   {
+    "fileName": "KCC_트랜디_TS5502P_사무실.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/KCC_트랜디_TS5502P_사무실.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5502P",
+    "normalizedFileName": "kcc트랜디ts5502p사무실jpg"
+  },
+  {
+    "fileName": "KCC_트랜디_TS5502P_사무실.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/KCC_트랜디_TS5502P_사무실.webp",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5502P",
+    "normalizedFileName": "kcc트랜디ts5502p사무실webp"
+  },
+  {
     "fileName": "TS5502P.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P.png",
     "category": "데코타일",
@@ -944,6 +962,15 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
     "extractedCode": "TS5502P",
     "normalizedFileName": "ts5502ppng"
+  },
+  {
+    "fileName": "TS5502P_1.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P_1.webp",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5502P",
+    "normalizedFileName": "ts5502p1webp"
   },
   {
     "fileName": "TS5503P.png",
@@ -4461,7 +4488,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "유성",
     "series": "유성_디럭스_제품이미지_코드명/피네오디럭스",
-    "extractedCode": "YD886_피네오디럭스",
+    "extractedCode": "YD886",
     "normalizedFileName": "yd886피네오디럭스png"
   },
   {
@@ -4470,7 +4497,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "유성",
     "series": "유성_디럭스_제품이미지_코드명/피네오디럭스",
-    "extractedCode": "YD887_피네오디럭스",
+    "extractedCode": "YD887",
     "normalizedFileName": "yd887피네오디럭스png"
   },
   {
@@ -4479,7 +4506,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "유성",
     "series": "유성_디럭스_제품이미지_코드명/피네오디럭스",
-    "extractedCode": "YD888_피네오디럭스",
+    "extractedCode": "YD888",
     "normalizedFileName": "yd888피네오디럭스png"
   },
   {
@@ -4488,7 +4515,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "유성",
     "series": "유성_디럭스_제품이미지_코드명/피네오디럭스",
-    "extractedCode": "YD890_피네오디럭스",
+    "extractedCode": "YD890",
     "normalizedFileName": "yd890피네오디럭스png"
   },
   {
@@ -4497,7 +4524,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "유성",
     "series": "유성_디럭스_제품이미지_코드명/피네오디럭스",
-    "extractedCode": "YD891_피네오디럭스",
+    "extractedCode": "YD891",
     "normalizedFileName": "yd891피네오디럭스png"
   },
   {
@@ -4506,7 +4533,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "유성",
     "series": "유성_디럭스_제품이미지_코드명/피네오디럭스",
-    "extractedCode": "YD895_피네오디럭스",
+    "extractedCode": "YD895",
     "normalizedFileName": "yd895피네오디럭스png"
   },
   {
@@ -4515,7 +4542,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "유성",
     "series": "유성_디럭스_제품이미지_코드명/피네오디럭스",
-    "extractedCode": "YD897_피네오디럭스",
+    "extractedCode": "YD897",
     "normalizedFileName": "yd897피네오디럭스png"
   },
   {
@@ -4524,7 +4551,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "유성",
     "series": "유성_디럭스_제품이미지_코드명/피네오디럭스",
-    "extractedCode": "YD910_피네오디럭스",
+    "extractedCode": "YD910",
     "normalizedFileName": "yd910피네오디럭스png"
   },
   {
@@ -4533,7 +4560,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "유성",
     "series": "유성_디럭스_제품이미지_코드명/피네오디럭스",
-    "extractedCode": "YD911_피네오디럭스",
+    "extractedCode": "YD911",
     "normalizedFileName": "yd911피네오디럭스png"
   },
   {
@@ -4542,7 +4569,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "유성",
     "series": "유성_디럭스_제품이미지_코드명/피네오디럭스",
-    "extractedCode": "YD919_피네오디럭스",
+    "extractedCode": "YD919",
     "normalizedFileName": "yd919피네오디럭스png"
   },
   {
@@ -4551,7 +4578,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "유성",
     "series": "유성_디럭스_제품이미지_코드명/피네오디럭스",
-    "extractedCode": "YD921_피네오디럭스",
+    "extractedCode": "YD921",
     "normalizedFileName": "yd921피네오디럭스png"
   },
   {
@@ -4560,7 +4587,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "유성",
     "series": "유성_디럭스_제품이미지_코드명/피네오디럭스",
-    "extractedCode": "YD923_피네오디럭스",
+    "extractedCode": "YD923",
     "normalizedFileName": "yd923피네오디럭스png"
   },
   {
@@ -4569,7 +4596,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "유성",
     "series": "유성_디럭스_제품이미지_코드명/피네오디럭스",
-    "extractedCode": "YD925_피네오디럭스",
+    "extractedCode": "YD925",
     "normalizedFileName": "yd925피네오디럭스png"
   },
   {
@@ -4578,7 +4605,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "유성",
     "series": "유성_디럭스_제품이미지_코드명/피네오보니타",
-    "extractedCode": "BT101_피네오보니타",
+    "extractedCode": "BT101",
     "normalizedFileName": "bt101피네오보니타png"
   },
   {
@@ -4587,7 +4614,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "유성",
     "series": "유성_디럭스_제품이미지_코드명/피네오보니타",
-    "extractedCode": "BT102_피네오보니타",
+    "extractedCode": "BT102",
     "normalizedFileName": "bt102피네오보니타png"
   },
   {
@@ -4596,7 +4623,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "유성",
     "series": "유성_디럭스_제품이미지_코드명/피네오보니타",
-    "extractedCode": "BT104_피네오보니타",
+    "extractedCode": "BT104",
     "normalizedFileName": "bt104피네오보니타png"
   },
   {
@@ -4605,7 +4632,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "유성",
     "series": "유성_디럭스_제품이미지_코드명/피네오보니타",
-    "extractedCode": "BT106_피네오보니타",
+    "extractedCode": "BT106",
     "normalizedFileName": "bt106피네오보니타png"
   },
   {
@@ -6504,7 +6531,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "현대",
     "series": "골드타일마스터/상세페이지",
-    "extractedCode": "MTS4415_MTS4417_시공",
+    "extractedCode": "MTS4415",
     "normalizedFileName": "mts4415mts4417시공jpg"
   },
   {
@@ -6513,7 +6540,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "현대",
     "series": "골드타일마스터/상세페이지",
-    "extractedCode": "MTS4421_시공",
+    "extractedCode": "MTS4421",
     "normalizedFileName": "mts4421시공jpg"
   },
   {
@@ -6522,7 +6549,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "현대",
     "series": "골드타일마스터/상세페이지",
-    "extractedCode": "MTS4433_시공",
+    "extractedCode": "MTS4433",
     "normalizedFileName": "mts4433시공jpg"
   },
   {
@@ -6531,7 +6558,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "현대",
     "series": "골드타일마스터/상세페이지",
-    "extractedCode": "MTS5523_시공",
+    "extractedCode": "MTS5523",
     "normalizedFileName": "mts5523시공jpg"
   },
   {
@@ -6540,7 +6567,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "현대",
     "series": "골드타일마스터/상세페이지",
-    "extractedCode": "MTS6013_시공",
+    "extractedCode": "MTS6013",
     "normalizedFileName": "mts6013시공jpg"
   },
   {
@@ -6549,7 +6576,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "현대",
     "series": "골드타일마스터/상세페이지",
-    "extractedCode": "MTS6022_시공",
+    "extractedCode": "MTS6022",
     "normalizedFileName": "mts6022시공jpg"
   },
   {
@@ -6558,7 +6585,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "현대",
     "series": "골드타일마스터/상세페이지",
-    "extractedCode": "MTS6024_시공",
+    "extractedCode": "MTS6024",
     "normalizedFileName": "mts6024시공jpg"
   },
   {
@@ -6567,7 +6594,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "현대",
     "series": "골드타일마스터/상세페이지",
-    "extractedCode": "MTS6033_시공",
+    "extractedCode": "MTS6033",
     "normalizedFileName": "mts6033시공jpg"
   },
   {
@@ -6576,7 +6603,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "현대",
     "series": "골드타일마스터/상세페이지",
-    "extractedCode": "MTS6051_시공",
+    "extractedCode": "MTS6051",
     "normalizedFileName": "mts6051시공jpg"
   },
   {
@@ -6585,7 +6612,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "현대",
     "series": "골드타일마스터/상세페이지",
-    "extractedCode": "MTS6062_시공",
+    "extractedCode": "MTS6062",
     "normalizedFileName": "mts6062시공jpg"
   },
   {
@@ -6594,7 +6621,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "현대",
     "series": "골드타일마스터/상세페이지",
-    "extractedCode": "MTS6111_시공",
+    "extractedCode": "MTS6111",
     "normalizedFileName": "mts6111시공jpg"
   },
   {
@@ -6603,7 +6630,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "현대",
     "series": "골드타일마스터/상세페이지",
-    "extractedCode": "MTS6131_시공",
+    "extractedCode": "MTS6131",
     "normalizedFileName": "mts6131시공jpg"
   },
   {
@@ -6612,7 +6639,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "현대",
     "series": "골드타일마스터/상세페이지",
-    "extractedCode": "MTS6143_시공",
+    "extractedCode": "MTS6143",
     "normalizedFileName": "mts6143시공jpg"
   },
   {
@@ -6621,7 +6648,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "현대",
     "series": "골드타일마스터/상세페이지",
-    "extractedCode": "MTS6154_시공",
+    "extractedCode": "MTS6154",
     "normalizedFileName": "mts6154시공jpg"
   },
   {
@@ -6630,7 +6657,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "현대",
     "series": "골드타일마스터/상세페이지",
-    "extractedCode": "MTS6161_시공",
+    "extractedCode": "MTS6161",
     "normalizedFileName": "mts6161시공jpg"
   },
   {
@@ -6639,7 +6666,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "현대",
     "series": "골드타일마스터/상세페이지",
-    "extractedCode": "MTW3021_시공",
+    "extractedCode": "MTW3021",
     "normalizedFileName": "mtw3021시공jpg"
   },
   {
@@ -6648,7 +6675,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "현대",
     "series": "골드타일마스터/상세페이지",
-    "extractedCode": "MTW4464_시공",
+    "extractedCode": "MTW4464",
     "normalizedFileName": "mtw4464시공jpg"
   },
   {
@@ -6657,7 +6684,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "현대",
     "series": "골드타일마스터/상세페이지",
-    "extractedCode": "MTW4487_시공",
+    "extractedCode": "MTW4487",
     "normalizedFileName": "mtw4487시공jpg"
   },
   {
@@ -32811,7 +32838,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_FC8052-1 알토",
+    "extractedCode": "FC8052-1",
     "normalizedFileName": "방염fc80521알토jpg"
   },
   {
@@ -32820,7 +32847,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_FC8052-3 알토",
+    "extractedCode": "FC8052-3",
     "normalizedFileName": "방염fc80523알토jpg"
   },
   {
@@ -32829,7 +32856,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_FC9643-10 스타",
+    "extractedCode": "FC9643-10",
     "normalizedFileName": "방염fc964310스타jpg"
   },
   {
@@ -32838,7 +32865,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_FC9643-11 스타",
+    "extractedCode": "FC9643-11",
     "normalizedFileName": "방염fc964311스타jpg"
   },
   {
@@ -32847,7 +32874,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_FK0007-1 파브",
+    "extractedCode": "FK0007-1",
     "normalizedFileName": "방염fk00071파브jpg"
   },
   {
@@ -32856,7 +32883,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_FK0007-2 파브",
+    "extractedCode": "FK0007-2",
     "normalizedFileName": "방염fk00072파브jpg"
   },
   {
@@ -32865,7 +32892,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_FK0007-4 파브",
+    "extractedCode": "FK0007-4",
     "normalizedFileName": "방염fk00074파브jpg"
   },
   {
@@ -32874,7 +32901,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_FK0010-1 그릴",
+    "extractedCode": "FK0010-1",
     "normalizedFileName": "방염fk00101그릴jpg"
   },
   {
@@ -32883,7 +32910,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_FK0010-2 그릴",
+    "extractedCode": "FK0010-2",
     "normalizedFileName": "방염fk00102그릴jpg"
   },
   {
@@ -32892,7 +32919,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_FK0010-3 그릴",
+    "extractedCode": "FK0010-3",
     "normalizedFileName": "방염fk00103그릴jpg"
   },
   {
@@ -32901,7 +32928,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_FK0010-4 그릴",
+    "extractedCode": "FK0010-4",
     "normalizedFileName": "방염fk00104그릴jpg"
   },
   {
@@ -32910,7 +32937,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_FK0014-1 리얼터치",
+    "extractedCode": "FK0014-1",
     "normalizedFileName": "방염fk00141리얼터치jpg"
   },
   {
@@ -32919,7 +32946,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_FK0014-2 리얼터치",
+    "extractedCode": "FK0014-2",
     "normalizedFileName": "방염fk00142리얼터치jpg"
   },
   {
@@ -32928,7 +32955,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_FK0014-3 리얼터치",
+    "extractedCode": "FK0014-3",
     "normalizedFileName": "방염fk00143리얼터치jpg"
   },
   {
@@ -32937,7 +32964,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_FK0014-4 리얼터치",
+    "extractedCode": "FK0014-4",
     "normalizedFileName": "방염fk00144리얼터치jpg"
   },
   {
@@ -32946,7 +32973,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_FK0018-1 스톤베이스",
+    "extractedCode": "FK0018-1",
     "normalizedFileName": "방염fk00181스톤베이스jpg"
   },
   {
@@ -32955,7 +32982,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_FK0018-2 스톤베이스",
+    "extractedCode": "FK0018-2",
     "normalizedFileName": "방염fk00182스톤베이스jpg"
   },
   {
@@ -32964,7 +32991,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_FK0018-3 스톤베이스",
+    "extractedCode": "FK0018-3",
     "normalizedFileName": "방염fk00183스톤베이스jpg"
   },
   {
@@ -32973,7 +33000,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_FK0019-1 와일드터치",
+    "extractedCode": "FK0019-1",
     "normalizedFileName": "방염fk00191와일드터치jpg"
   },
   {
@@ -32982,7 +33009,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_FK0025-1 티모시",
+    "extractedCode": "FK0025-1",
     "normalizedFileName": "방염fk00251티모시jpg"
   },
   {
@@ -32991,7 +33018,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_FK0025-2 티모시",
+    "extractedCode": "FK0025-2",
     "normalizedFileName": "방염fk00252티모시jpg"
   },
   {
@@ -33000,7 +33027,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_FK0025-3 티모시",
+    "extractedCode": "FK0025-3",
     "normalizedFileName": "방염fk00253티모시jpg"
   },
   {
@@ -33009,7 +33036,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_FK0025-4 티모시",
+    "extractedCode": "FK0025-4",
     "normalizedFileName": "방염fk00254티모시jpg"
   },
   {
@@ -34224,7 +34251,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "도담_2.7/시공이미지",
-    "extractedCode": "NJ27-4202_시공",
+    "extractedCode": "NJ27-4202",
     "normalizedFileName": "nj274202시공jpg"
   },
   {
@@ -34233,7 +34260,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "도담_2.7/시공이미지",
-    "extractedCode": "NJ27-4583_시공",
+    "extractedCode": "NJ27-4583",
     "normalizedFileName": "nj274583시공jpg"
   },
   {
@@ -34242,7 +34269,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "도담_2.7/시공이미지",
-    "extractedCode": "NJ27-4911_시공",
+    "extractedCode": "NJ27-4911",
     "normalizedFileName": "nj274911시공jpg"
   },
   {
@@ -34251,7 +34278,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "도담_2.7/시공이미지",
-    "extractedCode": "NJ27-4965_시공",
+    "extractedCode": "NJ27-4965",
     "normalizedFileName": "nj274965시공jpg"
   },
   {
@@ -34260,7 +34287,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "도담_2.7/시공이미지",
-    "extractedCode": "NJ27-5121_시공",
+    "extractedCode": "NJ27-5121",
     "normalizedFileName": "nj275121시공jpg"
   },
   {
@@ -34269,7 +34296,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "도담_2.7/시공이미지",
-    "extractedCode": "NJ27-5235_시공",
+    "extractedCode": "NJ27-5235",
     "normalizedFileName": "nj275235시공jpg"
   },
   {
@@ -34278,7 +34305,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "도담_2.7/시공이미지",
-    "extractedCode": "NJ27-5331_시공",
+    "extractedCode": "NJ27-5331",
     "normalizedFileName": "nj275331시공jpg"
   },
   {
@@ -34296,7 +34323,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "도담_3.2",
-    "extractedCode": "NR32-4368_시공",
+    "extractedCode": "NR32-4368",
     "normalizedFileName": "nr324368시공jpg"
   },
   {
@@ -34314,7 +34341,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "도담_3.2",
-    "extractedCode": "NR32-4791_시공",
+    "extractedCode": "NR32-4791",
     "normalizedFileName": "nr324791시공jpg"
   },
   {
@@ -34332,7 +34359,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "도담_3.2",
-    "extractedCode": "NR32-4835_시공",
+    "extractedCode": "NR32-4835",
     "normalizedFileName": "nr324835시공jpg"
   },
   {
@@ -34350,7 +34377,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "도담_3.2",
-    "extractedCode": "NR32-4901_시공",
+    "extractedCode": "NR32-4901",
     "normalizedFileName": "nr324901시공jpg"
   },
   {
@@ -34368,7 +34395,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "도담_3.2",
-    "extractedCode": "NR32-4968_시공",
+    "extractedCode": "NR32-4968",
     "normalizedFileName": "nr324968시공jpg"
   },
   {
@@ -34386,7 +34413,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "도담_3.2",
-    "extractedCode": "NR32-5103_시공",
+    "extractedCode": "NR32-5103",
     "normalizedFileName": "nr325103시공jpg"
   },
   {
@@ -34404,7 +34431,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "도담_3.2",
-    "extractedCode": "NR32-5105_시공",
+    "extractedCode": "NR32-5105",
     "normalizedFileName": "nr325105시공jpg"
   },
   {
@@ -34422,7 +34449,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "도담_3.2",
-    "extractedCode": "NR32-5111_시공",
+    "extractedCode": "NR32-5111",
     "normalizedFileName": "nr325111시공jpg"
   },
   {
@@ -34440,7 +34467,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "도담_3.2",
-    "extractedCode": "NR32-5131_시공",
+    "extractedCode": "NR32-5131",
     "normalizedFileName": "nr325131시공jpg"
   },
   {
@@ -34458,7 +34485,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "도담_3.2",
-    "extractedCode": "NR32-5165_시공",
+    "extractedCode": "NR32-5165",
     "normalizedFileName": "nr325165시공jpg"
   },
   {
@@ -34476,7 +34503,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "도담_3.2",
-    "extractedCode": "NR32-5321_시공",
+    "extractedCode": "NR32-5321",
     "normalizedFileName": "nr325321시공jpg"
   },
   {
@@ -34494,7 +34521,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "도담_3.2",
-    "extractedCode": "NR32-5323_시공",
+    "extractedCode": "NR32-5323",
     "normalizedFileName": "nr325323시공jpg"
   },
   {
@@ -34764,7 +34791,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "휴가온_4.5/시공이미지",
-    "extractedCode": "NC45-4232_시공",
+    "extractedCode": "NC45-4232",
     "normalizedFileName": "nc454232시공jpg"
   },
   {
@@ -34773,7 +34800,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "휴가온_4.5/시공이미지",
-    "extractedCode": "NC45-4751_시공",
+    "extractedCode": "NC45-4751",
     "normalizedFileName": "nc454751시공jpg"
   },
   {
@@ -34782,7 +34809,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "휴가온_4.5/시공이미지",
-    "extractedCode": "NC45-4761_시공",
+    "extractedCode": "NC45-4761",
     "normalizedFileName": "nc454761시공jpg"
   },
   {
@@ -34791,7 +34818,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "휴가온_4.5/시공이미지",
-    "extractedCode": "NC45-4941_시공",
+    "extractedCode": "NC45-4941",
     "normalizedFileName": "nc454941시공jpg"
   },
   {
@@ -34800,7 +34827,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "휴가온_4.5/시공이미지",
-    "extractedCode": "NC45-5151_시공",
+    "extractedCode": "NC45-5151",
     "normalizedFileName": "nc455151시공jpg"
   },
   {
@@ -34809,7 +34836,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "휴가온_4.5/시공이미지",
-    "extractedCode": "NC45-5153_시공",
+    "extractedCode": "NC45-5153",
     "normalizedFileName": "nc455153시공jpg"
   },
   {
@@ -34818,7 +34845,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "휴가온_4.5/시공이미지",
-    "extractedCode": "NC45-5161_시공",
+    "extractedCode": "NC45-5161",
     "normalizedFileName": "nc455161시공jpg"
   },
   {
@@ -34827,7 +34854,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "휴가온_4.5/시공이미지",
-    "extractedCode": "NC45-5171_시공",
+    "extractedCode": "NC45-5171",
     "normalizedFileName": "nc455171시공jpg"
   },
   {
@@ -34836,7 +34863,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "휴가온_4.5/시공이미지",
-    "extractedCode": "NC45-5181_시공",
+    "extractedCode": "NC45-5181",
     "normalizedFileName": "nc455181시공jpg"
   },
   {
@@ -34908,7 +34935,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "휴가온_5.0/시공이미지",
-    "extractedCode": "NV50-4931_시공",
+    "extractedCode": "NV50-4931",
     "normalizedFileName": "nv504931시공jpg"
   },
   {
@@ -34917,7 +34944,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "휴가온_5.0/시공이미지",
-    "extractedCode": "NV50-4961_시공",
+    "extractedCode": "NV50-4961",
     "normalizedFileName": "nv504961시공jpg"
   },
   {
@@ -34926,7 +34953,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "휴가온_5.0/시공이미지",
-    "extractedCode": "NV50-4981_시공",
+    "extractedCode": "NV50-4981",
     "normalizedFileName": "nv504981시공jpg"
   },
   {
@@ -34935,7 +34962,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "휴가온_5.0/시공이미지",
-    "extractedCode": "NV50-5001_시공",
+    "extractedCode": "NV50-5001",
     "normalizedFileName": "nv505001시공jpg"
   },
   {
@@ -34944,7 +34971,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "휴가온_5.0/시공이미지",
-    "extractedCode": "NV50-5003_시공",
+    "extractedCode": "NV50-5003",
     "normalizedFileName": "nv505003시공jpg"
   },
   {
@@ -34953,7 +34980,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "휴가온_5.0/시공이미지",
-    "extractedCode": "NV50-5013_시공",
+    "extractedCode": "NV50-5013",
     "normalizedFileName": "nv505013시공jpg"
   },
   {
@@ -34962,7 +34989,7 @@ export const imageManifest = [
     "category": "장판",
     "brand": "KCC",
     "series": "휴가온_5.0/시공이미지",
-    "extractedCode": "NV50-5163_시공",
+    "extractedCode": "NV50-5163",
     "normalizedFileName": "nv505163시공jpg"
   },
   {

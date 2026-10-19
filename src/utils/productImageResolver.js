@@ -22,8 +22,15 @@ export function getGeneratedManifestIndices() {
       const img = manifest[i];
       if (img.extractedCode) {
         const cKey = normalizeCode(img.extractedCode);
-        if (cKey && !generatedManifestCodeIndex.has(cKey)) {
-          generatedManifestCodeIndex.set(cKey, img);
+        if (cKey) {
+          const isSceneOrExtra = /(?:사무실|시공|거실|침실|카페|매장|office|scene|_\d+$)/i.test(img.fileName || '');
+          const existing = generatedManifestCodeIndex.get(cKey);
+          if (!existing) {
+            generatedManifestCodeIndex.set(cKey, img);
+          } else if (/(?:사무실|시공|거실|침실|카페|매장|office|scene|_\d+$)/i.test(existing.fileName || '') && !isSceneOrExtra) {
+            // Replace scene image with actual product swatch image as primary
+            generatedManifestCodeIndex.set(cKey, img);
+          }
         }
       }
       if (img.fileName) {
@@ -305,6 +312,20 @@ export function getAllProductImages(product) {
           }
         }
       });
+    }
+  }
+
+  // Also collect all matching images from generated manifest for this product code
+  if (Array.isArray(generatedImageManifestCache) && product.code) {
+    const cKey = normalizeCode(product.code);
+    for (let i = 0; i < generatedImageManifestCache.length; i++) {
+      const img = generatedImageManifestCache[i];
+      if (img.extractedCode && normalizeCode(img.extractedCode) === cKey && img.fullPublicPath) {
+        const norm = normalizeProductImageUrl(img.fullPublicPath);
+        if (norm !== '/images/no-image.svg' && !candidates.includes(norm)) {
+          candidates.push(norm);
+        }
+      }
     }
   }
 
