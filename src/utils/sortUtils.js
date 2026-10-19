@@ -1,3 +1,5 @@
+import { getKccProductLineupPriority } from './brandUtils.js';
+
 /**
  * Utility functions for price normalization, product name extraction, and product list sorting.
  */
@@ -116,6 +118,31 @@ export const sortProducts = (products, sortOption = 'default') => {
         return sortA - sortB;
       });
     }
+
+    // KCC 데코타일 기본 정렬: 센스타일 트랜디 -> 센스타일 프로 -> 센스레이 순서
+    const isKccDecotileList = copied.some(m => {
+      const b = (m?.brand || '').toUpperCase();
+      const c = m?.category || '';
+      return (b === 'KCC' || b.includes('KCC')) && (c === '데코타일' || c === '');
+    });
+
+    if (isKccDecotileList) {
+      return copied.sort((a, b) => {
+        const isKccA = ((a?.brand || '').toUpperCase().includes('KCC'));
+        const isKccB = ((b?.brand || '').toUpperCase().includes('KCC'));
+        if (isKccA && isKccB) {
+          const prioA = getKccProductLineupPriority(a);
+          const prioB = getKccProductLineupPriority(b);
+          if (prioA !== prioB) return prioA - prioB;
+          const sortA = a.sort_order ?? 999;
+          const sortB = b.sort_order ?? 999;
+          if (sortA !== sortB) return sortA - sortB;
+          return 0;
+        }
+        return 0;
+      });
+    }
+
     return copied;
   }
 

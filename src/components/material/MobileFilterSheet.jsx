@@ -28,12 +28,6 @@ export default function MobileFilterSheet({
   visibleDongshinDetails,
   activeDongshinDetail,
   onDongshinDetailChange,
-  nameFilter,
-  setNameFilter,
-  codeFilter,
-  setCodeFilter,
-  specFilter,
-  setSpecFilter,
   sortOption = "default",
   onSortChange,
   totalCount,
@@ -201,33 +195,6 @@ export default function MobileFilterSheet({
             </div>
           )}
 
-          {/* Detailed Inputs */}
-          <div className="filter-sheet-group">
-            <label className="sheet-label">직접 검색 조건</label>
-            <div className="sheet-inputs-stack">
-              <input
-                type="text"
-                className="sheet-input"
-                placeholder="제품명 검색 (예: 오크, 타일)"
-                value={nameFilter}
-                onChange={(e) => setNameFilter(e.target.value)}
-              />
-              <input
-                type="text"
-                className="sheet-input"
-                placeholder="상품코드 검색 (예: CM21882)"
-                value={codeFilter}
-                onChange={(e) => setCodeFilter(e.target.value)}
-              />
-              <input
-                type="text"
-                className="sheet-input"
-                placeholder="규격/두께 검색 (예: 1.8T, 2.2mm)"
-                value={specFilter}
-                onChange={(e) => setSpecFilter(e.target.value)}
-              />
-            </div>
-          </div>
         </div>
 
         {/* Footer Fixed Actions */}

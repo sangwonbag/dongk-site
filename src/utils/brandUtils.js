@@ -32,35 +32,35 @@ export const FLOORING_THICKNESS_BY_BRAND = {
 };
 
 export const KCC_LINEUP_SLUG_MAP = {
-  "pro-600": "센스타일 프로 600각",
+  "trendy-450": "센스타일 트랜디 450각",
+  "trendy-600": "센스타일 트랜디 600각",
+  "trendy-wood": "센스타일 트랜디 우드",
   "pro-450": "센스타일 프로 450각",
+  "pro-600": "센스타일 프로 600각",
   "pro-wood": "센스타일 프로 우드",
   "pro-wide-wood": "센스타일 프로 와이드 우드",
-  "trendy-600": "센스타일 트랜디 600각",
-  "trendy-450": "센스타일 트랜디 450각",
-  "trendy-wood": "센스타일 트랜디 우드",
   "sensray": "센스레이(내수)"
 };
 
 export const KCC_LINEUP_NAME_TO_SLUG = {
-  "센스타일 프로 600각": "pro-600",
+  "센스타일 트랜디 450각": "trendy-450",
+  "센스타일 트랜디 600각": "trendy-600",
+  "센스타일 트랜디 우드": "trendy-wood",
   "센스타일 프로 450각": "pro-450",
+  "센스타일 프로 600각": "pro-600",
   "센스타일 프로 우드": "pro-wood",
   "센스타일 프로 와이드 우드": "pro-wide-wood",
-  "센스타일 트랜디 600각": "trendy-600",
-  "센스타일 트랜디 450각": "trendy-450",
-  "센스타일 트랜디 우드": "trendy-wood",
   "센스레이(내수)": "sensray"
 };
 
 export const KCC_DECOTILE_LINEUPS = [
-  "센스타일 프로 600각",
+  "센스타일 트랜디 450각",
+  "센스타일 트랜디 600각",
+  "센스타일 트랜디 우드",
   "센스타일 프로 450각",
+  "센스타일 프로 600각",
   "센스타일 프로 우드",
   "센스타일 프로 와이드 우드",
-  "센스타일 트랜디 600각",
-  "센스타일 트랜디 450각",
-  "센스타일 트랜디 우드",
   "센스레이(내수)"
 ];
 
@@ -68,15 +68,45 @@ export function resolveKccLineupName(raw) {
   if (!raw || raw === "all") return "all";
   const s = String(raw).trim();
   if (KCC_LINEUP_SLUG_MAP[s]) return KCC_LINEUP_SLUG_MAP[s];
-  if (s === "센스레이" || s === "SenseRay") return "센스레이(내수)";
-  if (s === "센스타일 프로" || s === "프로") return "센스타일 프로 450각";
-  if (s === "센스타일 트랜디" || s === "트랜디" || s === "트렌디") return "센스타일 트랜디 450각";
+  if (s === "센스레이" || s === "SenseRay" || s === "senseray") return "센스레이(내수)";
+  if (s === "센스타일 트랜디" || s === "트랜디" || s === "트렌디" || s === "trendy") return "센스타일 트랜디 450각";
+  if (s === "센스타일 프로" || s === "프로" || s === "pro") return "센스타일 프로 450각";
   return s;
 }
 
 export function resolveKccLineupSlug(name) {
   if (!name || name === "all") return null;
   return KCC_LINEUP_NAME_TO_SLUG[name] || name;
+}
+
+export function getKccLineupPriority(lineName) {
+  const name = String(lineName || "").trim();
+  switch (name) {
+    // 1순위 — 센스타일 트랜디
+    case "센스타일 트랜디 450각": return 10;
+    case "센스타일 트랜디 600각": return 20;
+    case "센스타일 트랜디 우드": return 30;
+    // 2순위 — 센스타일 프로
+    case "센스타일 프로 450각": return 110;
+    case "센스타일 프로 600각": return 120;
+    case "센스타일 프로 우드": return 130;
+    case "센스타일 프로 와이드 우드":
+    case "센스타일 프로 와이드우드": return 140;
+    // 3순위 — 센스레이
+    case "센스레이(내수)":
+    case "센스레이": return 210;
+    default:
+      if (name.includes("트랜디") || name.includes("트렌디")) return 40;
+      if (name.includes("프로")) return 150;
+      if (name.includes("센스레이")) return 220;
+      return 999;
+  }
+}
+
+export function getKccProductLineupPriority(item) {
+  if (!item) return 999;
+  const lineup = getKccLineup(item);
+  return getKccLineupPriority(lineup);
 }
 
 export function getKccLineup(item) {

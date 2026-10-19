@@ -1,7 +1,7 @@
 import React, { useMemo, useState, useEffect, useCallback, useRef } from "react";
 import { useSearchParams } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
-import { getComputedBrand, getMaterialTypeAndLine, formatShapeOrPattern, JANGPAN_STANDARD_THICKNESSES, FLOORING_THICKNESS_BY_BRAND, normalizeBrandName, isSentenceDescription, getKccLineup, KCC_DECOTILE_LINEUPS, resolveKccLineupName, resolveKccLineupSlug, KCC_LINEUP_NAME_TO_SLUG } from "../../utils/brandUtils";
+import { getComputedBrand, getMaterialTypeAndLine, formatShapeOrPattern, JANGPAN_STANDARD_THICKNESSES, FLOORING_THICKNESS_BY_BRAND, normalizeBrandName, isSentenceDescription, getKccLineup, KCC_DECOTILE_LINEUPS, resolveKccLineupName, resolveKccLineupSlug, KCC_LINEUP_NAME_TO_SLUG, getKccLineupPriority } from "../../utils/brandUtils";
 import { DONGSHIN_MAJOR_CATEGORIES, DONGSHIN_DETAILED_LINEUPS_MAP, getDongshinMajorCategory, getDongshinDetailedLineup } from "../../utils/dongshinUtils";
 import { 
   EAGON_MAJOR_CATEGORIES, 
@@ -191,9 +191,16 @@ export default function Materials() {
   const defaultBrand = urlCategory ? "all" : (searching ? "all" : "KCC");
   const activeBrand = urlBrand || defaultBrand;
   
+  const isKccDecotile = (activeTab === "데코타일" && (activeBrand === "KCC" || activeBrand.includes("KCC")));
+
   const activeMaterialType = searchParams.get("type") || "all";
-  const rawLineParam = searchParams.get("line") || "all";
-  let activeLine = resolveKccLineupName(rawLineParam);
+  const rawLineParam = searchParams.get("line");
+  let activeLine = "all";
+  if (rawLineParam !== null) {
+    activeLine = resolveKccLineupName(rawLineParam);
+  } else if (!searching && isKccDecotile) {
+    activeLine = "센스타일 트랜디 450각";
+  }
   if (activeLine && activeLine.toUpperCase().includes("MACOSX")) {
     activeLine = "all";
   }
@@ -419,7 +426,7 @@ export default function Materials() {
     setSearchParams(prev => {
       const newParams = new URLSearchParams(prev);
       Object.entries(updates).forEach(([key, val]) => {
-        if (val === null || val === "all") {
+        if (val === null || (val === "all" && !(key === "line" && isKccDecotile))) {
           newParams.delete(key);
         } else {
           newParams.set(key, val);
@@ -429,17 +436,39 @@ export default function Materials() {
     }, { replace: true });
   };
 
+  // Sync URL for KCC decotile default lineup (센스타일 트랜디 450각)
+  useEffect(() => {
+    if (!searching && isKccDecotile && !searchParams.has("line")) {
+      updateParams({
+        category: "데코타일",
+        brand: "KCC",
+        line: "trendy-450"
+      });
+    }
+  }, [searching, isKccDecotile, searchParams]);
+
   const handleCategoryChange = (category) => {
     // Switch category and reset brand to its default corresponding brand
     const defaultBrand = DEFAULT_BRAND_BY_CATEGORY[category] || "all";
-    updateParams({ category, brand: defaultBrand, type: null, line: null, shape: null, thickness: null, spec: null, detail: null });
+    if (category === "데코타일" && (defaultBrand === "KCC" || defaultBrand.includes("KCC"))) {
+      updateParams({ category, brand: "KCC", line: "trendy-450", type: null, shape: null, thickness: null, spec: null, detail: null });
+    } else {
+      updateParams({ category, brand: defaultBrand, type: null, line: null, shape: null, thickness: null, spec: null, detail: null });
+    }
   };
 
-  const setActiveBrand = (brand) => updateParams({ brand, type: null, line: null, shape: null, thickness: null, spec: null, detail: null });
+  const setActiveBrand = (brand) => {
+    if ((brand === "KCC" || brand.includes("KCC")) && activeTab === "데코타일") {
+      updateParams({ brand: "KCC", line: "trendy-450", type: null, shape: null, thickness: null, spec: null, detail: null });
+    } else {
+      updateParams({ brand, type: null, line: null, shape: null, thickness: null, spec: null, detail: null });
+    }
+  };
+
   const setActiveMaterialType = (type) => updateParams({ type });
   const setActiveLine = (line) => {
     const slug = KCC_LINEUP_NAME_TO_SLUG[line] || line;
-    updateParams({ line: slug === "all" ? null : slug });
+    updateParams({ line: slug === "all" ? (isKccDecotile ? "all" : null) : slug, shape: null });
   };
   const setActiveShape = (shape) => updateParams({ shape });
 
@@ -519,8 +548,20 @@ export default function Materials() {
   const visibleLines = useMemo(() => {
     if (!materialsList || materialsList.length === 0 || activeTab === "all" || activeBrand === "all") return [];
     
-    if (activeTab === "데코타일" && activeBrand === "KCC") {
-      return ["all", ...KCC_DECOTILE_LINEUPS];
+    if (activeTab === "데코타일" && (activeBrand === "KCC" || activeBrand.includes("KCC"))) {
+      const kccLines = new Set();
+      materialsList.forEach((m) => {
+        if (!m) return;
+        const b = (m.brand || "").toUpperCase();
+        if ((b === "KCC" || b.includes("KCC")) && m.category === "데코타일") {
+          const l = getKccLineup(m);
+          if (l) kccLines.add(l);
+        }
+      });
+      const sortedKccLines = Array.from(kccLines).sort((a, b) => {
+        return getKccLineupPriority(a) - getKccLineupPriority(b);
+      });
+      return ["all", ...sortedKccLines];
     }
 
     const linesSet = new Set();
@@ -1061,7 +1102,7 @@ export default function Materials() {
                   activeLine !== "all" && (
                     <span className="active-chip">
                       라인업: {formatShapeOrPattern(activeLine)}
-                      <X size={14} className="chip-remove" onClick={() => updateParams({ line: null })} />
+                      <X size={14} className="chip-remove" onClick={() => setActiveLine("all")} />
                     </span>
                   )
                 )}
@@ -1426,7 +1467,7 @@ export default function Materials() {
                 <EmptyState
                   title="검색 결과가 없습니다"
                   description={
-                    (nameFilter || codeFilter || specFilter)
+                    debouncedQuery
                       ? "검색 조건에 부합하는 자재가 없거나 현재 준비 중입니다." 
                       : (activeTab === "장판" && (activeBrand !== "all" || activeThickness !== "all"))
                         ? "선택한 브랜드와 두께에 해당하는 상품이 없습니다."
@@ -1465,12 +1506,6 @@ export default function Materials() {
         visibleDongshinDetails={visibleDongshinDetails}
         activeDongshinDetail={activeDongshinDetail}
         onDongshinDetailChange={(det) => updateParams({ detail: det === "전체" ? null : det })}
-        nameFilter={nameFilter}
-        setNameFilter={setNameFilter}
-        codeFilter={codeFilter}
-        setCodeFilter={setCodeFilter}
-        specFilter={specFilter}
-        setSpecFilter={setSpecFilter}
         sortOption={sortOption}
         onSortChange={(val) => updateParams({ sort: val === "default" ? null : val })}
         totalCount={sortedProducts.length}
