@@ -1558,3 +1558,433 @@
     opacity: 0.45;
   }
 }
+
+/* ==========================================================================
+   KCC Sensetile Trendy Product Detail Styles
+   ========================================================================== */
+
+.section-title-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.section-badge-kcc {
+  display: inline-flex;
+  align-items: center;
+  background-color: #f0fdf4;
+  color: #166534;
+  border: 1px solid #bbf7d0;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 9999px;
+  padding: 4px 12px;
+  letter-spacing: -0.01em;
+}
+
+.section-badge-catalog {
+  display: inline-flex;
+  align-items: center;
+  background-color: #f8fafc;
+  color: #0f172a;
+  border: 1px solid #cbd5e1;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 9999px;
+  padding: 4px 12px;
+}
+
+/* Lineup Comparison Table */
+.kcc-trendy-lineup-comparison-wrap {
+  margin-top: 24px;
+  padding: 24px;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+}
+
+.comparison-table-header {
+  margin-bottom: 16px;
+}
+
+.comparison-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 4px 0;
+}
+
+.comparison-helper {
+  font-size: 12.5px;
+  color: #64748b;
+  display: block;
+}
+
+.table-responsive-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.kcc-comparison-table {
+  width: 100%;
+  min-width: 620px;
+  border-collapse: collapse;
+  font-size: 13.5px;
+  text-align: left;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+}
+
+.kcc-comparison-table th {
+  background-color: #f1f5f9;
+  color: #334155;
+  font-weight: 700;
+  padding: 12px 14px;
+  border-bottom: 2px solid #cbd5e1;
+  white-space: nowrap;
+}
+
+.kcc-comparison-table td {
+  padding: 13px 14px;
+  border-bottom: 1px solid #f1f5f9;
+  color: #1e293b;
+  vertical-align: middle;
+}
+
+.kcc-comparison-table tr:last-child td {
+  border-bottom: none;
+}
+
+.kcc-comparison-table tr.row-current-product {
+  background-color: #f0f7ff !important;
+  box-shadow: inset 3px 0 0 #2563eb;
+}
+
+.kcc-comparison-table tr.row-current-product td {
+  color: #1e3a8a;
+  font-weight: 600;
+}
+
+.current-product-pill {
+  display: inline-block;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 4px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+/* Catalog Preview Container */
+.kcc-catalog-preview-container {
+  position: relative;
+  width: 100%;
+  margin-top: 18px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+  transition: all 0.25s ease;
+}
+
+.kcc-catalog-preview-container:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.09);
+  transform: translateY(-2px);
+  border-color: #cbd5e1;
+}
+
+.kcc-catalog-preview-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.kcc-catalog-zoom-overlay {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.zoom-btn-pill {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(15, 23, 42, 0.88);
+  backdrop-filter: blur(6px);
+  color: #ffffff;
+  padding: 9px 18px;
+  border-radius: 9999px;
+  font-size: 13px;
+  font-weight: 700;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease;
+}
+
+.kcc-catalog-preview-container:hover .zoom-btn-pill {
+  transform: scale(1.05);
+  background: rgba(15, 23, 42, 0.95);
+}
+
+/* Catalog Modal Lightbox */
+.kcc-catalog-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.88);
+  backdrop-filter: blur(8px);
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  animation: catalogModalFadeIn 0.2s ease;
+}
+
+@keyframes catalogModalFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.kcc-catalog-modal-container {
+  background: #ffffff;
+  border-radius: 16px;
+  max-width: 1200px;
+  width: 95vw;
+  max-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
+}
+
+.kcc-catalog-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  border-bottom: 1px solid #e2e8f0;
+  background: #f8fafc;
+}
+
+.modal-title-group {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.modal-title-main {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.modal-title-sub {
+  font-size: 13px;
+  color: #64748b;
+}
+
+.kcc-catalog-modal-close-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #0f172a;
+  color: #ffffff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.kcc-catalog-modal-close-btn:hover {
+  background-color: #334155;
+}
+
+.kcc-catalog-modal-body {
+  flex: 1;
+  overflow: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f172a;
+}
+
+.kcc-catalog-modal-img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+/* Features Grid */
+.kcc-features-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.kcc-feature-card {
+  display: flex;
+  gap: 14px;
+  padding: 20px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  transition: border-color 0.2s ease;
+}
+
+.kcc-feature-card:hover {
+  border-color: #cbd5e1;
+}
+
+.feature-icon-badge {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  flex-shrink: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.feature-card-content h4 {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 6px 0;
+}
+
+.feature-card-content p {
+  font-size: 13px;
+  color: #475569;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Structure Layers */
+.kcc-structure-layer-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.structure-layer-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px 20px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  border-left: 4px solid var(--point-gold, #c5a880);
+}
+
+.layer-step-num {
+  background: #0f172a;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.layer-details h4 {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 4px 0;
+}
+
+.layer-details p {
+  font-size: 13px;
+  color: #475569;
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* Application Guideline Box */
+.kcc-application-guideline-box {
+  margin-top: 24px;
+  padding: 20px 24px;
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+  border-radius: 12px;
+}
+
+.guideline-badge {
+  display: inline-block;
+  background: #d97706;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 9999px;
+  margin-bottom: 8px;
+}
+
+.guideline-main-desc {
+  font-size: 14px;
+  color: #78350f;
+  margin: 0 0 6px 0;
+  line-height: 1.5;
+}
+
+.guideline-sub-notice {
+  font-size: 12.5px;
+  color: #92400e;
+  line-height: 1.55;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .kcc-features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .kcc-catalog-modal-container {
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    border-radius: 0;
+  }
+
+  .kcc-catalog-modal-header {
+    padding: 12px 16px;
+  }
+
+  .kcc-catalog-modal-body {
+    padding: 10px;
+  }
+
+  .kcc-trendy-lineup-comparison-wrap {
+    padding: 16px;
+  }
+
+  .zoom-btn-pill {
+    padding: 7px 14px;
+    font-size: 12px;
+  }
+}

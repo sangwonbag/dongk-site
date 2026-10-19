@@ -109,6 +109,72 @@ export function getKccProductLineupPriority(item) {
   return getKccLineupPriority(lineup);
 }
 
+export const KCC_TRENDY_CATALOG_IMAGE = "/images/kcc-sensetile-trendy-catalog.webp";
+
+export const KCC_TRENDY_SPECS = {
+  "센스타일 트랜디 450각": {
+    lineup: "센스타일 트랜디 450각",
+    group: "450각",
+    thickness: "3.0T",
+    size: "457.2 × 457.2mm",
+    pcsPerBox: "16매",
+    areaPerBox: "3.31㎡",
+    packing: "16매 (3.31㎡) / BOX",
+    shapes: "사각타일 (석재 / 콘크리트 / 텍스타일)",
+    catalogSection: "450 사각"
+  },
+  "센스타일 트랜디 600각": {
+    lineup: "센스타일 트랜디 600각",
+    group: "600각",
+    thickness: "3.0T",
+    size: "600 × 600mm",
+    pcsPerBox: "9매",
+    areaPerBox: "3.24㎡",
+    packing: "9매 (3.24㎡) / BOX",
+    shapes: "사각타일 (석재 / 콘크리트)",
+    catalogSection: "600 사각"
+  },
+  "센스타일 트랜디 우드": {
+    lineup: "센스타일 트랜디 우드",
+    group: "우드",
+    thickness: "3.0T",
+    size: "184 × 950mm",
+    pcsPerBox: "19매",
+    areaPerBox: "3.32㎡",
+    packing: "19매 (3.32㎡) / BOX",
+    shapes: "우드 (일반 우드)",
+    catalogSection: "우드"
+  }
+};
+
+export function isKccTrendyProduct(item) {
+  if (!item) return false;
+  const brand = (item.brand || '').toUpperCase();
+  if (!brand.includes('KCC')) return false;
+  const cat = item.category || '';
+  if (cat && cat !== '데코타일') return false;
+  const lineup = getKccLineup(item);
+  return lineup === '센스타일 트랜디 450각' || lineup === '센스타일 트랜디 600각' || lineup === '센스타일 트랜디 우드';
+}
+
+export function getKccTrendyInfo(item) {
+  if (!isKccTrendyProduct(item)) return null;
+  const lineup = getKccLineup(item);
+  const data = KCC_TRENDY_SPECS[lineup];
+  if (!data) return null;
+  return {
+    ...data,
+    lineupName: data.lineup,
+    spec: {
+      thickness: data.thickness,
+      size: data.size,
+      pcs_per_box: data.pcsPerBox,
+      area: data.areaPerBox,
+      packing: data.packing
+    }
+  };
+}
+
 export function getKccLineup(item) {
   if (!item) return "미분류";
 
@@ -418,6 +484,20 @@ export function normalizeProductDetails(item) {
     }
     if (item.category === "장판") {
       item.thickness = getNormalizedThickness(item);
+    }
+    if (isKccTrendyProduct(item)) {
+      const trendyInfo = getKccTrendyInfo(item);
+      if (trendyInfo) {
+        item.thickness = trendyInfo.thickness;
+        if (!item.specs) item.specs = {};
+        item.specs.thickness = trendyInfo.thickness;
+        item.specs.size = trendyInfo.size;
+        item.specs.packing = trendyInfo.packing;
+        item.specs.pcs_per_box = trendyInfo.pcsPerBox;
+        item.specs.area = trendyInfo.areaPerBox;
+        item.shape = trendyInfo.group;
+        item.line = trendyInfo.lineup;
+      }
     }
     if (item.shape) {
       item.shape = formatShapeOrPattern(item.shape);

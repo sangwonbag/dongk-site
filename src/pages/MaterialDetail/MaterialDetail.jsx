@@ -13,7 +13,9 @@ import {
   CheckCircle,
   HelpCircle,
   AlertTriangle,
-  Calculator
+  Calculator,
+  X,
+  Maximize2
 } from "lucide-react";
 import MainLayout from "../../components/layout/MainLayout";
 import { ProductImage } from "../../components/ui";
@@ -25,7 +27,17 @@ import { getProductImageUrl } from "../../utils/productImageResolver";
 import { supabase } from "../../lib/supabaseClient";
 import SEO from "../../components/seo/SEO";
 import { useAuth } from "../../contexts/AuthContext";
-import { getComputedBrand, normalizeProductDetails, formatProductTitle, getProductUnit, formatShapeOrPattern } from "../../utils/brandUtils";
+import { 
+  getComputedBrand, 
+  normalizeProductDetails, 
+  formatProductTitle, 
+  getProductUnit, 
+  formatShapeOrPattern,
+  isKccTrendyProduct,
+  getKccTrendyInfo,
+  KCC_TRENDY_SPECS,
+  KCC_TRENDY_CATALOG_IMAGE
+} from "../../utils/brandUtils";
 import { normalizeImagePath, getUniqueProductImages } from "../../utils/galleryNormalizer";
 import { fetchProductDetailBySlugOrId, getCachedProduct, productDetailMemoryCache } from "../../utils/supabaseFetcher";
 
@@ -507,6 +519,22 @@ const enrichProduct = (raw) => {
       enriched.recommendedSpaces = eagonInfo.spaces;
     }
   }
+  if (isKccTrendyProduct(enriched)) {
+    const trendyInfo = getKccTrendyInfo(enriched);
+    if (trendyInfo) {
+      enriched.thickness = trendyInfo.thickness;
+      enriched.shape = trendyInfo.group;
+      enriched.line = trendyInfo.lineup;
+      enriched.specs = {
+        ...(enriched.specs || {}),
+        thickness: trendyInfo.thickness,
+        size: trendyInfo.size,
+        packing: trendyInfo.packing,
+        pcs_per_box: trendyInfo.pcsPerBox,
+        area: trendyInfo.areaPerBox
+      };
+    }
+  }
   if (enriched.code === 'TW 5120G' && !enriched.pattern) {
     enriched.pattern = '오크';
   }
@@ -516,7 +544,6 @@ const enrichProduct = (raw) => {
 const isDirectPricingCategory = (product) => {
   if (!product) return false;
   if (product.category === '부자재' && (product.price || 0) > 0) return true;
-  if (product.brand === 'KCC' && product.category === '데코타일') return true;
   if (['LX', '개나리', '서울'].includes(product.brand) && product.category === '벽지') {
     const lineClean = (product.line || "").replace(/\s+/g, '');
     if (product.brand === '서울' && (lineClean.includes('프리미엄') || lineClean.includes('방염'))) {
@@ -566,6 +593,19 @@ export default function MaterialDetail() {
 
   const [selectedOption, setSelectedOption] = useState(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isCatalogModalOpen, setIsCatalogModalOpen] = useState(false);
+
+  // Close catalog modal on ESC key
+  useEffect(() => {
+    if (!isCatalogModalOpen) return;
+    const handleKeyDown = (e) => {
+      if (e.key === "Escape") {
+        setIsCatalogModalOpen(false);
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [isCatalogModalOpen]);
 
   // Sync state if navigating directly between products
   useEffect(() => {
@@ -1323,6 +1363,8 @@ export default function MaterialDetail() {
   const displaySpaces = item.recommendedSpaces && item.recommendedSpaces.length > 0 ? item.recommendedSpaces : defaultSpaces;
 
   const eagonInfo = item?.brand === '이건' ? getEagonInfo(item.line) : null;
+  const isKccTrendy = useMemo(() => isKccTrendyProduct(item), [item]);
+  const kccTrendyInfo = useMemo(() => isKccTrendy ? getKccTrendyInfo(item) : null, [isKccTrendy, item]);
 
   const spaceExamples = (() => {
     if (!item) return [];
@@ -1557,6 +1599,14 @@ export default function MaterialDetail() {
                       </>
                     )}
                   </>
+                ) : isKccTrendy ? (
+                  <>
+                    <span className="brand-name">KCC</span>
+                    <span className="divider">·</span>
+                    <span className="category-name">센스타일 트랜디</span>
+                    <span className="divider">·</span>
+                    <span className="line-name">{kccTrendyInfo?.group || item.shape_kr || item.shape || '450각'}</span>
+                  </>
                 ) : item.brand === 'KCC' ? (
                   <>
                     <span className="brand-name">KCC</span>
@@ -1616,7 +1666,7 @@ export default function MaterialDetail() {
                     <div className="showroom-detail-price" style={{ marginBottom: "16px", borderBottom: "1px solid var(--border-showroom-light)", paddingBottom: "16px" }}>
                       <span style={{ fontSize: "14px", color: "var(--text-light-gray)", marginRight: "8px" }}>가격:</span>
                       <strong style={{ fontSize: "22px", color: "var(--accent-showroom-green)" }}>
-                        {item.price ? `₩${item.price.toLocaleString()}원${item.category === '장판' ? '/m' : ''}` : "가격문의"}
+                        {isKccTrendy ? "견적문의 (상담 시 맞춤 단가 안내)" : (item.price ? `₩${item.price.toLocaleString()}원${item.category === '장판' ? '/m' : ''}` : "가격문의")}
                       </strong>
                     </div>
                     <span className="consulting-title">시공 견적 및 공급가 문의</span>
@@ -1631,29 +1681,39 @@ export default function MaterialDetail() {
               {/* Technical Specifications Highlights */}
               <div className="quick-tech-specs">
                 <div className="tech-spec-item">
-                  <span className="tech-label">{item.brand === 'KCC' && item.category === '데코타일' ? "전체 규격" : "규격"}</span>
-                  <span className="tech-value">{currentSpec || "상담 확인 필요"}</span>
+                  <span className="tech-label">{isKccTrendy ? "제품 규격" : (item.brand === 'KCC' && item.category === '데코타일' ? "전체 규격" : "규격")}</span>
+                  <span className="tech-value">
+                    {isKccTrendy ? (kccTrendyInfo?.spec?.size || kccTrendyInfo?.size) : (currentSpec || "상담 확인 필요")}
+                  </span>
                 </div>
                 <div className="tech-spec-item">
                   <span className="tech-label">두께</span>
-                  <span className="tech-value">{item.thickness || (item.specs && item.specs.thickness) || "상담 확인 필요"}</span>
-                </div>
-                <div className="tech-spec-item">
-                  <span className="tech-label">{item.brand === 'KCC' && item.category === '데코타일' ? "포장 수량" : "박스 구성"}</span>
-                  <span className="tech-value">{currentPacking}</span>
-                </div>
-                <div className="tech-spec-item">
-                  <span className="tech-label">{item.brand === 'KCC' && item.category === '데코타일' ? "BOX당 시공면적" : "시공 면적"}</span>
                   <span className="tech-value">
-                    {item.brand === 'KCC' && item.category === '데코타일' ? (
-                      item.specs?.area || "3.32㎡"
-                    ) : item.category === '장판' ? "M 단위 소요량 측정" : `1 ${getProductUnit(item)}당 시공 가능`}
+                    {isKccTrendy ? (kccTrendyInfo?.spec?.thickness || kccTrendyInfo?.thickness) : (item.thickness || (item.specs && item.specs.thickness) || "상담 확인 필요")}
                   </span>
                 </div>
-                {(item.pattern || isEagonProduct(item)) && (
+                <div className="tech-spec-item">
+                  <span className="tech-label">{isKccTrendy ? "박스당 수량" : (item.brand === 'KCC' && item.category === '데코타일' ? "포장 수량" : "박스 구성")}</span>
+                  <span className="tech-value">
+                    {isKccTrendy ? (kccTrendyInfo?.spec?.pcs_per_box || kccTrendyInfo?.pcsPerBox) : currentPacking}
+                  </span>
+                </div>
+                <div className="tech-spec-item">
+                  <span className="tech-label">{isKccTrendy ? "박스당 시공면적" : (item.brand === 'KCC' && item.category === '데코타일' ? "BOX당 시공면적" : "시공 면적")}</span>
+                  <span className="tech-value">
+                    {isKccTrendy ? (kccTrendyInfo?.spec?.area || kccTrendyInfo?.areaPerBox) : (
+                      item.brand === 'KCC' && item.category === '데코타일' ? (
+                        item.specs?.area || "3.32㎡"
+                      ) : item.category === '장판' ? "M 단위 소요량 측정" : `1 ${getProductUnit(item)}당 시공 가능`
+                    )}
+                  </span>
+                </div>
+                {(item.pattern || isEagonProduct(item) || isKccTrendy) && (
                   <div className="tech-spec-item">
                     <span className="tech-label">패턴/디자인</span>
-                    <span className="tech-value">{item.pattern || (isEagonProduct(item) && getEagonLineupGroup(item).includes("스퀘어") ? "스톤" : "우드")}</span>
+                    <span className="tech-value">
+                      {item.pattern || (isKccTrendy ? (kccTrendyInfo?.group === '우드' ? '우드' : '석재 / 콘크리트') : (isEagonProduct(item) && getEagonLineupGroup(item).includes("스퀘어") ? "스톤" : "우드"))}
+                    </span>
                   </div>
                 )}
                 <div className="tech-spec-item">
@@ -2033,227 +2093,449 @@ export default function MaterialDetail() {
             
             {/* Left Content Area (Features, Guidelines, Space examples) */}
             <div className="showroom-detailed-content">
-              
-              {/* Features List Section */}
-              <section className="detail-doc-section">
-                <h2 className="doc-section-title">제품 정보 및 특장점</h2>
-                <div className="doc-accent-bar"></div>
-                <ul className="doc-features-list">
-                  {displayFeatures.map((feat, index) => (
-                    <li key={index} className="feature-list-item">
-                      <div className="check-bullet">✔</div>
-                      <p>{feat}</p>
-                    </li>
-                  ))}
-                </ul>
-              </section>
-
-              {/* Recommended Spaces Tags */}
-              <section className="detail-doc-section">
-                <h2 className="doc-section-title">주요 권장 공간</h2>
-                <div className="doc-accent-bar"></div>
-                <div className="space-tags-strip">
-                  {displaySpaces.map((space, index) => (
-                    <span key={index} className="space-tag">{space}</span>
-                  ))}
-                </div>
-              </section>
-
-              {/* KCC Product Intro Section */}
-              {item.brand === 'KCC' && (item.common_intro || item.shape_intro) && (
-                <section className="detail-doc-section">
-                  <h2 className="doc-section-title">제품 소개</h2>
-                  <div className="doc-accent-bar"></div>
-                  <div className="kcc-product-intro-box" style={{ background: '#f8fafc', padding: '20px', borderRadius: '12px', border: '1px solid #e2e8f0', lineHeight: '1.7', color: '#334155' }}>
-                    {item.common_intro && (
-                      <p style={{ fontWeight: '600', marginBottom: '10px', color: '#0f172a', fontSize: '15px' }}>{item.common_intro}</p>
-                    )}
-                    {item.shape_intro && (
-                      <p style={{ color: '#475569', fontSize: '14px' }}>[{item.shape_kr || item.shape}] {item.shape_intro}</p>
-                    )}
-                  </div>
-                </section>
-              )}
-
-              {/* Technical Specifications Table */}
-              <section className="detail-doc-section">
-                <h2 className="doc-section-title">자재 규격 상세표</h2>
-                <div className="doc-accent-bar"></div>
-                <div className="spec-table-frame">
-                  <table className="tech-spec-table">
-                    <tbody>
-                      {(item.brand === '동신' && item.category === '데코타일' && ['아트타일', '아트하우스', '아트에코차음'].includes(item.line)) || (item.brand === 'LX' && item.category === '데코타일') ? (
-                        <>
+              {isKccTrendy ? (
+                <>
+                  {/* B. 제품 상세 규격 */}
+                  <section className="detail-doc-section">
+                    <div className="section-title-with-badge">
+                      <h2 className="doc-section-title">제품 상세 규격</h2>
+                      <span className="section-badge-kcc">KCC 공식 규격</span>
+                    </div>
+                    <div className="doc-accent-bar"></div>
+                    
+                    {/* 현재 선택 제품 규격표 */}
+                    <div className="spec-table-frame" style={{ marginBottom: '24px' }}>
+                      <table className="tech-spec-table">
+                        <tbody>
                           <tr>
                             <th>제조 브랜드</th>
-                            <td>{getComputedBrand(item)}</td>
-                            <th>카테고리</th>
-                            <td>{item.category || "자재"}</td>
+                            <td>KCC글라스 (KCC Glass)</td>
+                            <th>제품 라인업</th>
+                            <td>센스타일 트랜디 ({kccTrendyInfo?.group})</td>
                           </tr>
                           <tr>
-                            <th>라인업</th>
-                            <td>{item.line}</td>
-                            <th>컬렉션</th>
-                            <td>{item.collection || "Art Tile"}</td>
-                          </tr>
-                          <tr>
-                            <th>시리즈</th>
-                            <td>{item.series}</td>
-                            <th>자재 식별 코드</th>
+                            <th>제품 식별 코드</th>
                             <td>{item.code || "코드 정보 없음"}</td>
+                            <th>패턴 / 디자인</th>
+                            <td>{item.pattern || (kccTrendyInfo?.group === '우드' ? '우드 (Wood)' : '석재 / 콘크리트')}</td>
                           </tr>
                           <tr>
+                            <th>제품 두께</th>
+                            <td><strong>{kccTrendyInfo?.spec?.thickness || kccTrendyInfo?.thickness}</strong></td>
                             <th>제품 가로세로 규격</th>
-                            <td>{item.specs?.size || "규격 확인 필요"}</td>
-                            <th>포장 패킹 단위</th>
-                            <td>{item.specs?.packing || "상담 확인 필요"}</td>
+                            <td><strong>{kccTrendyInfo?.spec?.size || kccTrendyInfo?.size}</strong></td>
                           </tr>
                           <tr>
-                            <th>카탈로그</th>
-                            <td>{item.catalog || "동신포리마 2026 E-Catalog"}</td>
-                            <th>권장 접착 자재</th>
-                            <td>데코타일 본드</td>
-                          </tr>
-                        </>
-                      ) : item.brand === '이건' ? (
-                        <>
-                          <tr>
-                            <th>제조 브랜드</th>
-                            <td>이건마루</td>
-                            <th>카테고리</th>
-                            <td>{item.category || "마루"} ({eagonInfo?.classification || "마루"})</td>
+                            <th>박스당 포장 수량</th>
+                            <td><strong>{kccTrendyInfo?.spec?.pcs_per_box || kccTrendyInfo?.pcsPerBox}</strong> ({kccTrendyInfo?.spec?.packing || kccTrendyInfo?.packing})</td>
+                            <th>박스당 시공 면적</th>
+                            <td><strong>{kccTrendyInfo?.spec?.area || kccTrendyInfo?.areaPerBox}</strong> (약 1평)</td>
                           </tr>
                           <tr>
-                            <th>제품군</th>
-                            <td>{item.line || "이건마루 라인"}</td>
-                            <th>자재 식별 코드</th>
-                            <td>{item.code || "코드 정보 없음"}</td>
-                          </tr>
-                          <tr>
-                            <th>두께 규격</th>
-                            <td>{eagonInfo?.thickness || "상담 확인 필요"}</td>
-                            <th>제품 기본 규격</th>
-                            <td>{eagonInfo?.size || "상담 확인 필요"}</td>
-                          </tr>
-                          <tr>
-                            <th>포장 패킹 단위</th>
-                            <td>{eagonInfo?.packing || "상담 확인 필요"}</td>
-                            <th>판매 단위</th>
-                            <td>평 (현장 실측 기준 소요량 산정)</td>
-                          </tr>
-                          <tr>
-                            <th>권장 접착 자재</th>
-                            <td>이건마루 친환경 황토풀 / 전용 마루 본드</td>
-                            <th>포장/입수</th>
-                            <td>상담 확인 필요</td>
-                          </tr>
-                        </>
-                      ) : item.category === '장판' ? (
-                        <>
-                          <tr>
-                            <th>브랜드</th>
-                            <td>{(() => {
-                                const b = (item.brand || "").trim();
-                                return (b.includes("현대") || b.includes("Hyundai")) ? "현대" 
-                                     : (b.includes("KCC")) ? "KCC" 
-                                     : (b.includes("LX") || b.includes("LG") || b.includes("하우시스")) ? "LX" 
-                                     : b;
-                            })()}</td>
-                            <th>라인업</th>
-                            <td>{item.line || item.description || "정보 없음"}</td>
-                          </tr>
-                          <tr>
-                            <th>두께 규격</th>
-                            <td>{item.thickness || "두께 정보 없음"}</td>
-                            <th>제품 가로세로 규격</th>
-                            <td>{item.specs?.size || item.spec || "제품별 규격 문의"}</td>
-                          </tr>
-                          <tr>
-                            <th>포장 패킹 단위</th>
-                            <td>{item.specs?.packing || item.packing || "Roll 단위"}</td>
-                            <th>판매 단위</th>
-                            <td>M (1M 단위 절단 판매 가능)</td>
-                          </tr>
-                          <tr>
-                            <th>자재 식별 코드</th>
-                            <td>{item.code || "코드 정보 없음"}</td>
-                            <th>권장 접착 자재</th>
-                            <td>장판 전용 웰딩 시공 / 본드</td>
-                          </tr>
-                        </>
-                      ) : (item.brand === 'KCC' || item.brand === 'KCC글라스' || (item.brand && item.brand.includes('KCC'))) && item.category === '데코타일' ? (
-                        <>
-                          <tr>
-                            <th>제조 브랜드</th>
-                            <td>KCC글라스</td>
-                            <th>제품군</th>
-                            <td>{item.line || item.family || (item.code?.startsWith('B') ? "센스레이" : "센스타일 프로")}</td>
-                          </tr>
-                          <tr>
-                            <th>제품코드</th>
-                            <td>{item.code}</td>
-                            <th>패턴명</th>
-                            <td>{item.pattern || "기본 패턴"}</td>
-                          </tr>
-                          <tr>
-                            <th>형태</th>
-                            <td>{item.shape || item.specs?.shape || "일반 우드"}</td>
-                            <th>두께</th>
-                            <td>{item.thickness || item.specs?.thickness || (item.code?.startsWith('B') ? "5.0T" : "3.0T")}</td>
-                          </tr>
-                          <tr>
-                            <th>규격 (폭 × 길이)</th>
-                            <td>{item.specs?.size || item.size_text || item.spec || "규격 확인 필요"}</td>
-                            <th>판매단위</th>
-                            <td>BOX</td>
-                          </tr>
-                          <tr>
-                            <th>박스당 수량</th>
-                            <td>{item.specs?.pcs_per_box || (item.unit?.includes('매') ? item.unit.split('/')[0] : "상담 확인 필요")}</td>
-                            <th>박스당 시공면적</th>
-                            <td>{item.specs?.area || item.area_per_box || (item.unit?.includes('㎡') ? item.unit.split('/')[1] : "상담 확인 필요")}</td>
-                          </tr>
-                          <tr>
+                            <th>재질 분류</th>
+                            <td>LVT (Luxury Vinyl Tile) 고급 데코타일</td>
                             <th>권장 접착제</th>
-                            <td colSpan="3">제조사 권장 데코타일 전용 접착제 (현장 조건에 맞는 접착제 선택 필요)</td>
+                            <td>KCC 권장 친환경 데코타일 전용 접착제</td>
                           </tr>
-                        </>
-                      ) : (
-                        <>
-                          <tr>
-                            <th>제조 브랜드</th>
-                            <td>{getComputedBrand(item)}</td>
-                            <th>카테고리</th>
-                            <td>{item.category || "자재"}</td>
-                          </tr>
-                          <tr>
-                            <th>자재 식별 코드</th>
-                            <td>{item.code || "코드 정보 없음"}</td>
-                            <th>패턴명</th>
-                            <td>{item.pattern || (item.code === 'TW 5120G' ? '오크' : (formatShapeOrPattern(item.line) || "기본 패턴"))}</td>
-                          </tr>
-                          <tr>
-                            <th>두께 규격</th>
-                            <td>{item.specs?.thickness || item.thickness || (isDecoTile(item) ? "3.0mm(T)" : "상담 문의")}</td>
-                            <th>제품 가로세로 규격</th>
-                            <td>{item.specs?.size || "규격 확인 필요"}</td>
-                          </tr>
-                          <tr>
-                            <th>포장 패킹 단위</th>
-                            <td>{item.specs?.packing || "상담 확인 필요"}</td>
-                            <th>판매 단위</th>
-                            <td>{isDecoTile(item) ? "박스 또는 평 (1박스는 3.32㎡, 약 1평 마감)" : "평 (자재 1박스는 약 1평 면적을 마감합니다)"}</td>
-                          </tr>
-                          <tr>
-                            <th>권장 접착 자재</th>
-                            <td colSpan="3">{isDecoTile(item) ? "데코타일 본드" : (item.adhesive || "상담 문의")}</td>
-                          </tr>
-                        </>
-                      )}
-                    </tbody>
-                  </table>
-                </div>
-              </section>
+                        </tbody>
+                      </table>
+                    </div>
+
+                    {/* 센스타일 트랜디 라인업별 규격 비교표 (450각 / 600각 / 우드) */}
+                    <div className="kcc-trendy-lineup-comparison-wrap">
+                      <h3 className="kcc-comparison-title">센스타일 트랜디 전 제품군 규격 안내</h3>
+                      <div className="kcc-table-scroll-wrapper">
+                        <table className="kcc-comparison-table">
+                          <thead>
+                            <tr>
+                              <th>제품군</th>
+                              <th>두께</th>
+                              <th>규격</th>
+                              <th>박스 수량</th>
+                              <th>박스 시공면적</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr className={kccTrendyInfo?.group === '450각' ? 'row-current-product' : ''}>
+                              <td>
+                                트랜디 450각
+                                {kccTrendyInfo?.group === '450각' && <span className="current-product-pill">현재 제품</span>}
+                              </td>
+                              <td>3.0T</td>
+                              <td>457.2 × 457.2mm</td>
+                              <td>16매</td>
+                              <td>3.31㎡</td>
+                            </tr>
+                            <tr className={kccTrendyInfo?.group === '600각' ? 'row-current-product' : ''}>
+                              <td>
+                                트랜디 600각
+                                {kccTrendyInfo?.group === '600각' && <span className="current-product-pill">현재 제품</span>}
+                              </td>
+                              <td>3.0T</td>
+                              <td>600 × 600mm</td>
+                              <td>9매</td>
+                              <td>3.24㎡</td>
+                            </tr>
+                            <tr className={kccTrendyInfo?.group === '우드' ? 'row-current-product' : ''}>
+                              <td>
+                                트랜디 우드
+                                {kccTrendyInfo?.group === '우드' && <span className="current-product-pill">현재 제품</span>}
+                              </td>
+                              <td>3.0T</td>
+                              <td>184 × 950mm</td>
+                              <td>19매</td>
+                              <td>3.32㎡</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <p className="kcc-table-note">
+                        * 센스타일 트랜디 450각의 실제 정밀 규격은 457.2 × 457.2mm(16매/3.31㎡)입니다. 제품군별 규격과 입수량이 상이하므로 실측 평수에 맞추어 수량을 선택해 주시기 바랍니다.
+                      </p>
+                    </div>
+                  </section>
+
+                  {/* C. 제품 카탈로그 안내 */}
+                  <section className="detail-doc-section">
+                    <div className="section-title-with-badge">
+                      <h2 className="doc-section-title">KCC 센스타일 트랜디 제품 카탈로그</h2>
+                      <span className="section-badge-catalog">공식 카탈로그</span>
+                    </div>
+                    <div className="doc-accent-bar"></div>
+                    <p className="kcc-catalog-lead">
+                      KCC글라스 센스타일 트랜디 공식 카탈로그입니다. 제품 소개, 다층 구조, 규격 및 용도를 고화질로 확인하실 수 있습니다. (클릭 시 확대)
+                    </p>
+                    <div 
+                      className="kcc-catalog-preview-container"
+                      onClick={() => setIsCatalogModalOpen(true)}
+                      role="button"
+                      tabIndex={0}
+                      aria-label="KCC 센스타일 트랜디 카탈로그 확대 보기"
+                      onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { setIsCatalogModalOpen(true); } }}
+                    >
+                      <img 
+                        src={KCC_TRENDY_CATALOG_IMAGE} 
+                        alt="KCC 센스타일 트랜디 제품 카탈로그" 
+                        className="kcc-catalog-preview-img"
+                        loading="lazy"
+                      />
+                      <div className="kcc-catalog-zoom-overlay">
+                        <span className="zoom-btn-pill">
+                          <Maximize2 size={16} /> 클릭하여 카탈로그 크게 보기
+                        </span>
+                      </div>
+                    </div>
+                  </section>
+
+                  {/* D. 제품 특장점 */}
+                  <section className="detail-doc-section">
+                    <h2 className="doc-section-title">제품 특장점</h2>
+                    <div className="doc-accent-bar"></div>
+                    <div className="kcc-features-grid">
+                      <div className="kcc-feature-card">
+                        <div className="feature-icon-badge">✨</div>
+                        <div className="feature-card-content">
+                          <h4>부담없는 가격 및 만족스러운 품질</h4>
+                          <p>다양한 공간에 실용적이고 능동적으로 적용할 수 있는 고품질 LVT 바닥재</p>
+                        </div>
+                      </div>
+                      <div className="kcc-feature-card">
+                        <div className="feature-icon-badge">🏛️</div>
+                        <div className="feature-card-content">
+                          <h4>천연 질감의 다채로운 디자인</h4>
+                          <p>콘크리트, 석재 등 다양한 디자인 패턴으로 고객이 원하는 실내 공간을 취향에 맞게 구현</p>
+                        </div>
+                      </div>
+                      <div className="kcc-feature-card">
+                        <div className="feature-icon-badge">🏢</div>
+                        <div className="feature-card-content">
+                          <h4>상업공간 및 실내 인테리어 최적화</h4>
+                          <p>소규모 사무실, 상업시설 등 실내 디자인과 모던한 감각이 요구되는 공간에 이상적</p>
+                        </div>
+                      </div>
+                      <div className="kcc-feature-card">
+                        <div className="feature-icon-badge">📐</div>
+                        <div className="feature-card-content">
+                          <h4>최신 트렌드 반영 및 정밀 가공</h4>
+                          <p>최신 설비 및 정밀한 가공으로 시공 시 다양한 형태의 디자인을 정교하고 매끄럽게 연출</p>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+                  {/* E. 제품 구조 및 용도 */}
+                  <section className="detail-doc-section">
+                    <h2 className="doc-section-title">제품 구조</h2>
+                    <div className="doc-accent-bar"></div>
+                    <p className="doc-section-helper">
+                      KCC 센스타일 트랜디는 4단계 고내구성 다층 구조로 설계되어 일상 스크래치 방지와 탁월한 보행감을 제공합니다.
+                    </p>
+                    <div className="kcc-structure-layer-stack">
+                      <div className="structure-layer-card">
+                        <span className="layer-step-num">Layer 1</span>
+                        <div className="layer-details">
+                          <h4>Skin층 (Wear Layer)</h4>
+                          <p>표면 내마모성을 극대화하여 스크래치 및 일상 오염으로부터 자재를 보호하는 특수 표면층</p>
+                        </div>
+                      </div>
+                      <div className="structure-layer-card">
+                        <span className="layer-step-num">Layer 2</span>
+                        <div className="layer-details">
+                          <h4>인쇄층 (Printed Layer)</h4>
+                          <p>천연 콘크리트, 석재, 우드의 고유한 결을 사실감 있게 표현한 고해상도 디자인 인쇄층</p>
+                        </div>
+                      </div>
+                      <div className="structure-layer-card">
+                        <span className="layer-step-num">Layer 3</span>
+                        <div className="layer-details">
+                          <h4>중재층 (Middle Layer)</h4>
+                          <p>온도 및 습도 변화에 따른 수축·팽창을 억제하고 치수 안정성을 보장하는 중간 코어층</p>
+                        </div>
+                      </div>
+                      <div className="structure-layer-card">
+                        <span className="layer-step-num">Layer 4</span>
+                        <div className="layer-details">
+                          <h4>하재층 (Bottom Layer)</h4>
+                          <p>바닥 접착제와의 결합력을 향상시키고 충격을 흡수하여 견고한 보행감을 형성하는 하부층</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="kcc-application-guideline-box">
+                      <span className="guideline-badge">제품 용도 및 유지관리</span>
+                      <p className="guideline-main-desc">
+                        • <strong>권장 적용처:</strong> 소규모 사무실, 상업시설 등 실내 디자인이 요구되는 장소
+                      </p>
+                      <p className="guideline-sub-notice">
+                        * 단, 중량물의 이동이 잦고 보행이 빈번한 장소에 적용 시에는 내구성 증진을 위하여 필수적으로 주기적인 왁스코팅이 필요합니다.
+                      </p>
+                    </div>
+                  </section>
+                </>
+              ) : (
+                <>
+                  {/* Features List Section */}
+                  <section className="detail-doc-section">
+                    <h2 className="doc-section-title">제품 정보 및 특장점</h2>
+                    <div className="doc-accent-bar"></div>
+                    <ul className="doc-features-list">
+                      {displayFeatures.map((feat, index) => (
+                        <li key={index} className="feature-list-item">
+                          <div className="check-bullet">✔</div>
+                          <p>{feat}</p>
+                        </li>
+                      ))}
+                    </ul>
+                  </section>
+
+                  {/* Recommended Spaces Tags */}
+                  <section className="detail-doc-section">
+                    <h2 className="doc-section-title">주요 권장 공간</h2>
+                    <div className="doc-accent-bar"></div>
+                    <div className="space-tags-strip">
+                      {displaySpaces.map((space, index) => (
+                        <span key={index} className="space-tag">{space}</span>
+                      ))}
+                    </div>
+                  </section>
+
+                  {/* KCC Product Intro Section */}
+                  {item.brand === 'KCC' && (item.common_intro || item.shape_intro) && (
+                    <section className="detail-doc-section">
+                      <h2 className="doc-section-title">제품 소개</h2>
+                      <div className="doc-accent-bar"></div>
+                      <div className="kcc-product-intro-box" style={{ background: '#f8fafc', padding: '20px', borderRadius: '12px', border: '1px solid #e2e8f0', lineHeight: '1.7', color: '#334155' }}>
+                        {item.common_intro && (
+                          <p style={{ fontWeight: '600', marginBottom: '10px', color: '#0f172a', fontSize: '15px' }}>{item.common_intro}</p>
+                        )}
+                        {item.shape_intro && (
+                          <p style={{ color: '#475569', fontSize: '14px' }}>[{item.shape_kr || item.shape}] {item.shape_intro}</p>
+                        )}
+                      </div>
+                    </section>
+                  )}
+
+                  {/* Technical Specifications Table */}
+                  <section className="detail-doc-section">
+                    <h2 className="doc-section-title">자재 규격 상세표</h2>
+                    <div className="doc-accent-bar"></div>
+                    <div className="spec-table-frame">
+                      <table className="tech-spec-table">
+                        <tbody>
+                          {(item.brand === '동신' && item.category === '데코타일' && ['아트타일', '아트하우스', '아트에코차음'].includes(item.line)) || (item.brand === 'LX' && item.category === '데코타일') ? (
+                            <>
+                              <tr>
+                                <th>제조 브랜드</th>
+                                <td>{getComputedBrand(item)}</td>
+                                <th>카테고리</th>
+                                <td>{item.category || "자재"}</td>
+                              </tr>
+                              <tr>
+                                <th>라인업</th>
+                                <td>{item.line}</td>
+                                <th>컬렉션</th>
+                                <td>{item.collection || "Art Tile"}</td>
+                              </tr>
+                              <tr>
+                                <th>시리즈</th>
+                                <td>{item.series}</td>
+                                <th>자재 식별 코드</th>
+                                <td>{item.code || "코드 정보 없음"}</td>
+                              </tr>
+                              <tr>
+                                <th>제품 가로세로 규격</th>
+                                <td>{item.specs?.size || "규격 확인 필요"}</td>
+                                <th>포장 패킹 단위</th>
+                                <td>{item.specs?.packing || "상담 확인 필요"}</td>
+                              </tr>
+                              <tr>
+                                <th>카탈로그</th>
+                                <td>{item.catalog || "동신포리마 2026 E-Catalog"}</td>
+                                <th>권장 접착 자재</th>
+                                <td>데코타일 본드</td>
+                              </tr>
+                            </>
+                          ) : item.brand === '이건' ? (
+                            <>
+                              <tr>
+                                <th>제조 브랜드</th>
+                                <td>이건마루</td>
+                                <th>카테고리</th>
+                                <td>{item.category || "마루"} ({eagonInfo?.classification || "마루"})</td>
+                              </tr>
+                              <tr>
+                                <th>제품군</th>
+                                <td>{item.line || "이건마루 라인"}</td>
+                                <th>자재 식별 코드</th>
+                                <td>{item.code || "코드 정보 없음"}</td>
+                              </tr>
+                              <tr>
+                                <th>두께 규격</th>
+                                <td>{eagonInfo?.thickness || "상담 확인 필요"}</td>
+                                <th>제품 기본 규격</th>
+                                <td>{eagonInfo?.size || "상담 확인 필요"}</td>
+                              </tr>
+                              <tr>
+                                <th>포장 패킹 단위</th>
+                                <td>{eagonInfo?.packing || "상담 확인 필요"}</td>
+                                <th>판매 단위</th>
+                                <td>평 (현장 실측 기준 소요량 산정)</td>
+                              </tr>
+                              <tr>
+                                <th>권장 접착 자재</th>
+                                <td>이건마루 친환경 황토풀 / 전용 마루 본드</td>
+                                <th>포장/입수</th>
+                                <td>상담 확인 필요</td>
+                              </tr>
+                            </>
+                          ) : item.category === '장판' ? (
+                            <>
+                              <tr>
+                                <th>브랜드</th>
+                                <td>{(() => {
+                                    const b = (item.brand || "").trim();
+                                    return (b.includes("현대") || b.includes("Hyundai")) ? "현대" 
+                                         : (b.includes("KCC")) ? "KCC" 
+                                         : (b.includes("LX") || b.includes("LG") || b.includes("하우시스")) ? "LX" 
+                                         : b;
+                                })()}</td>
+                                <th>라인업</th>
+                                <td>{item.line || item.description || "정보 없음"}</td>
+                              </tr>
+                              <tr>
+                                <th>두께 규격</th>
+                                <td>{item.thickness || "두께 정보 없음"}</td>
+                                <th>제품 가로세로 규격</th>
+                                <td>{item.specs?.size || item.spec || "제품별 규격 문의"}</td>
+                              </tr>
+                              <tr>
+                                <th>포장 패킹 단위</th>
+                                <td>{item.specs?.packing || item.packing || "Roll 단위"}</td>
+                                <th>판매 단위</th>
+                                <td>M (1M 단위 절단 판매 가능)</td>
+                              </tr>
+                              <tr>
+                                <th>자재 식별 코드</th>
+                                <td>{item.code || "코드 정보 없음"}</td>
+                                <th>권장 접착 자재</th>
+                                <td>장판 전용 웰딩 시공 / 본드</td>
+                              </tr>
+                            </>
+                          ) : (item.brand === 'KCC' || item.brand === 'KCC글라스' || (item.brand && item.brand.includes('KCC'))) && item.category === '데코타일' ? (
+                            <>
+                              <tr>
+                                <th>제조 브랜드</th>
+                                <td>KCC글라스</td>
+                                <th>제품군</th>
+                                <td>{item.line || item.family || (item.code?.startsWith('B') ? "센스레이" : "센스타일 프로")}</td>
+                              </tr>
+                              <tr>
+                                <th>제품코드</th>
+                                <td>{item.code}</td>
+                                <th>패턴명</th>
+                                <td>{item.pattern || "기본 패턴"}</td>
+                              </tr>
+                              <tr>
+                                <th>형태</th>
+                                <td>{item.shape || item.specs?.shape || "일반 우드"}</td>
+                                <th>두께</th>
+                                <td>{item.thickness || item.specs?.thickness || (item.code?.startsWith('B') ? "5.0T" : "3.0T")}</td>
+                              </tr>
+                              <tr>
+                                <th>규격 (폭 × 길이)</th>
+                                <td>{item.specs?.size || item.size_text || item.spec || "규격 확인 필요"}</td>
+                                <th>판매단위</th>
+                                <td>BOX</td>
+                              </tr>
+                              <tr>
+                                <th>박스당 수량</th>
+                                <td>{item.specs?.pcs_per_box || (item.unit?.includes('매') ? item.unit.split('/')[0] : "상담 확인 필요")}</td>
+                                <th>박스당 시공면적</th>
+                                <td>{item.specs?.area || item.area_per_box || (item.unit?.includes('㎡') ? item.unit.split('/')[1] : "상담 확인 필요")}</td>
+                              </tr>
+                              <tr>
+                                <th>권장 접착제</th>
+                                <td colSpan="3">제조사 권장 데코타일 전용 접착제 (현장 조건에 맞는 접착제 선택 필요)</td>
+                              </tr>
+                            </>
+                          ) : (
+                            <>
+                              <tr>
+                                <th>제조 브랜드</th>
+                                <td>{getComputedBrand(item)}</td>
+                                <th>카테고리</th>
+                                <td>{item.category || "자재"}</td>
+                              </tr>
+                              <tr>
+                                <th>자재 식별 코드</th>
+                                <td>{item.code || "코드 정보 없음"}</td>
+                                <th>패턴명</th>
+                                <td>{item.pattern || (item.code === 'TW 5120G' ? '오크' : (formatShapeOrPattern(item.line) || "기본 패턴"))}</td>
+                              </tr>
+                              <tr>
+                                <th>두께 규격</th>
+                                <td>{item.specs?.thickness || item.thickness || (isDecoTile(item) ? "3.0mm(T)" : "상담 문의")}</td>
+                                <th>제품 가로세로 규격</th>
+                                <td>{item.specs?.size || "규격 확인 필요"}</td>
+                              </tr>
+                              <tr>
+                                <th>포장 패킹 단위</th>
+                                <td>{item.specs?.packing || "상담 확인 필요"}</td>
+                                <th>판매 단위</th>
+                                <td>{isDecoTile(item) ? "박스 또는 평 (1박스는 3.32㎡, 약 1평 마감)" : "평 (자재 1박스는 약 1평 면적을 마감합니다)"}</td>
+                              </tr>
+                              <tr>
+                                <th>권장 접착 자재</th>
+                                <td colSpan="3">{isDecoTile(item) ? "데코타일 본드" : (item.adhesive || "상담 문의")}</td>
+                              </tr>
+                            </>
+                          )}
+                        </tbody>
+                      </table>
+                    </div>
+                  </section>
+                </>
+              )}
 
               {/* 제품 상세 정보 이미지 (상세페이지 내용) */}
               {detailContentImg && (
@@ -2574,6 +2856,54 @@ export default function MaterialDetail() {
                 navigate("/cart");
               }}>
                 장바구니로 이동
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* KCC 센스타일 트랜디 공식 카탈로그 확대 모달 */}
+      {isKccTrendy && isCatalogModalOpen && (
+        <div 
+          className="kcc-catalog-modal-overlay" 
+          onClick={() => setIsCatalogModalOpen(false)}
+          role="dialog"
+          aria-modal="true"
+          aria-label="KCC 센스타일 트랜디 공식 카탈로그 확대 보기"
+        >
+          <div 
+            className="kcc-catalog-modal-container"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="kcc-catalog-modal-header">
+              <div className="modal-title-group">
+                <span className="modal-title-main">KCC 센스타일 트랜디 공식 카탈로그</span>
+                <span className="modal-title-sub">제품 구조 · 규격 · 특장점 및 시공 용도</span>
+              </div>
+              <button 
+                type="button"
+                className="kcc-catalog-modal-close-btn"
+                onClick={() => setIsCatalogModalOpen(false)}
+                aria-label="카탈로그 닫기"
+              >
+                <X size={16} />
+                <span>닫기</span>
+              </button>
+            </div>
+            <div className="kcc-catalog-modal-body">
+              <img 
+                src={KCC_TRENDY_CATALOG_IMAGE} 
+                alt="KCC 센스타일 트랜디 공식 카탈로그 전체 보기" 
+                className="kcc-catalog-modal-img"
+              />
+            </div>
+            <div className="kcc-catalog-modal-footer">
+              <button 
+                type="button" 
+                className="btn-modal-close-action"
+                onClick={() => setIsCatalogModalOpen(false)}
+              >
+                카탈로그 닫기
               </button>
             </div>
           </div>
