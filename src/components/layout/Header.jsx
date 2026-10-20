@@ -273,7 +273,7 @@ export default function Header() {
   };
 
   return (
-    <div className="header-wrapper">
+    <div className={`header-wrapper ${isHome ? "is-home" : ""} ${isHome && !isScrolled ? "is-home-transparent" : "is-scrolled"}`}>
       {/* Top Banner Notice */}
       {!location.pathname.startsWith('/admin') && (
         <div className="top-notice-bar">

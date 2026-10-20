@@ -41,8 +41,22 @@ export default function MobileAppHeader() {
     }
   };
 
+  const [isScrolled, setIsScrolled] = React.useState(false);
+  React.useEffect(() => {
+    if (!isHome) {
+      setIsScrolled(true);
+      return;
+    }
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50);
+    };
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [isHome]);
+
   return (
-    <header className="mobile-app-header">
+    <header className={`mobile-app-header ${isHome ? "is-home" : ""} ${isHome && !isScrolled ? "is-home-transparent" : "is-scrolled"}`}>
       <div className="mobile-app-header-inner">
         {/* Left Action */}
         <div className="mobile-header-left">

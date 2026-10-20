@@ -16,6 +16,20 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
     z-index: 1000;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+    transition: background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+  }
+
+  .mobile-app-header.is-home-transparent {
+    background-color: transparent !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
+    box-shadow: none !important;
+  }
+
+  .mobile-app-header.is-home-transparent .logo-main,
+  .mobile-app-header.is-home-transparent .mobile-header-title,
+  .mobile-app-header.is-home-transparent .mobile-icon-btn {
+    color: #ffffff !important;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
   }
 
   .mobile-app-header-inner {
