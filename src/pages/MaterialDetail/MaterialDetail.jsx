@@ -552,7 +552,7 @@ const enrichProduct = (raw) => {
   const normCode = (enriched.code || '').replace(/\s+/g, '').toUpperCase();
   if (normCode === 'TS5502P') {
     const officeImg = '/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P_사무실.jpg';
-    const mainImg = '/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P_1.png';
+    const mainImg = '/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P.png';
     enriched.thumbnail = mainImg;
     enriched.image = mainImg;
     enriched.images = [mainImg, officeImg];
@@ -930,13 +930,25 @@ export default function MaterialDetail() {
 
   // Filter detailImagesList to only show supplementary detail images that aren't already displayed in the top gallery
   const supplementaryDetailImages = useMemo(() => {
-    const gallerySet = new Set((productImages || []).map(p => normalizeImagePath(p)));
+    const galleryKeys = new Set((productImages || []).flatMap(p => {
+      const norm = normalizeImagePath(p);
+      const filename = norm.split('/').pop() || '';
+      const baseFilename = filename.replace(/_\d+(\.[a-z0-9]+)$/i, '$1');
+      return [norm, filename, baseFilename];
+    }));
+
     return (detailImagesList || []).filter(img => {
       const url = typeof img === 'string' ? img : (img.url || img.image_url);
       if (!url) return false;
       if (url.includes('/catalogs/kcc-sensetile-trendy/')) return false;
       const norm = normalizeImagePath(url);
-      return !gallerySet.has(norm);
+      const filename = norm.split('/').pop() || '';
+      const baseFilename = filename.replace(/_\d+(\.[a-z0-9]+)$/i, '$1');
+
+      if (galleryKeys.has(norm) || galleryKeys.has(filename) || galleryKeys.has(baseFilename)) {
+        return false;
+      }
+      return true;
     });
   }, [detailImagesList, productImages]);
 
