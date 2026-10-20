@@ -937,42 +937,6 @@ export const imageManifest = [
     "normalizedFileName": "b5064fjpg"
   },
   {
-    "fileName": "KCC_트랜디_TS5502P_사무실.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/KCC_트랜디_TS5502P_사무실.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
-    "extractedCode": "TS5502P",
-    "normalizedFileName": "kcc트랜디ts5502p사무실jpg"
-  },
-  {
-    "fileName": "KCC_트랜디_TS5502P_사무실.webp",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/KCC_트랜디_TS5502P_사무실.webp",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
-    "extractedCode": "TS5502P",
-    "normalizedFileName": "kcc트랜디ts5502p사무실webp"
-  },
-  {
-    "fileName": "KCC_트랜디_TS5508P_사무실.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/KCC_트랜디_TS5508P_사무실.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
-    "extractedCode": "TS5508P",
-    "normalizedFileName": "kcc트랜디ts5508p사무실jpg"
-  },
-  {
-    "fileName": "KCC_트랜디_TS5508P_사무실.webp",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/KCC_트랜디_TS5508P_사무실.webp",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
-    "extractedCode": "TS5508P",
-    "normalizedFileName": "kcc트랜디ts5508p사무실webp"
-  },
-  {
     "fileName": "TS5502P.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P.png",
     "category": "데코타일",
@@ -982,13 +946,58 @@ export const imageManifest = [
     "normalizedFileName": "ts5502ppng"
   },
   {
-    "fileName": "TS5502P_1.webp",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P_1.webp",
+    "fileName": "TS5502P_1.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P_1.png",
     "category": "데코타일",
     "brand": "KCC",
     "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
     "extractedCode": "TS5502P",
-    "normalizedFileName": "ts5502p1webp"
+    "normalizedFileName": "ts5502p1png"
+  },
+  {
+    "fileName": "TS5502P_2.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P_2.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5502P",
+    "normalizedFileName": "ts5502p2jpg"
+  },
+  {
+    "fileName": "TS5502P_3.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P_3.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5502P",
+    "normalizedFileName": "ts5502p3jpg"
+  },
+  {
+    "fileName": "TS5502P_사무실.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P_사무실.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5502P",
+    "normalizedFileName": "ts5502p사무실jpg"
+  },
+  {
+    "fileName": "TS5503P 우븐.jpg_180cross.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5503P 우븐.jpg_180cross.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5503P",
+    "normalizedFileName": "ts5503p우븐jpg180crossjpg"
+  },
+  {
+    "fileName": "TS5503P 우븐.jpg_90cross.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5503P 우븐.jpg_90cross.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5503P",
+    "normalizedFileName": "ts5503p우븐jpg90crossjpg"
   },
   {
     "fileName": "TS5503P.png",
@@ -1000,6 +1009,24 @@ export const imageManifest = [
     "normalizedFileName": "ts5503ppng"
   },
   {
+    "fileName": "TS5508 브러쉬 카펫.jpg_180cross.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5508 브러쉬 카펫.jpg_180cross.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5508",
+    "normalizedFileName": "ts5508브러쉬카펫jpg180crossjpg"
+  },
+  {
+    "fileName": "TS5508 브러쉬 카펫.jpg_90cross.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5508 브러쉬 카펫.jpg_90cross.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5508",
+    "normalizedFileName": "ts5508브러쉬카펫jpg90crossjpg"
+  },
+  {
     "fileName": "TS5508P.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5508P.png",
     "category": "데코타일",
@@ -1009,13 +1036,13 @@ export const imageManifest = [
     "normalizedFileName": "ts5508ppng"
   },
   {
-    "fileName": "TS5508P_1.webp",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5508P_1.webp",
+    "fileName": "TS5508P_사무실.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5508P_사무실.jpg",
     "category": "데코타일",
     "brand": "KCC",
     "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
     "extractedCode": "TS5508P",
-    "normalizedFileName": "ts5508p1webp"
+    "normalizedFileName": "ts5508p사무실jpg"
   },
   {
     "fileName": "TS5510P.png",
@@ -1027,6 +1054,24 @@ export const imageManifest = [
     "normalizedFileName": "ts5510ppng"
   },
   {
+    "fileName": "TS5510P_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5510P_2x2.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5510P",
+    "normalizedFileName": "ts5510p2x2png"
+  },
+  {
+    "fileName": "TS5510P_사무실.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5510P_사무실.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5510P",
+    "normalizedFileName": "ts5510p사무실jpg"
+  },
+  {
     "fileName": "TS5511P.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5511P.png",
     "category": "데코타일",
@@ -1034,6 +1079,24 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
     "extractedCode": "TS5511P",
     "normalizedFileName": "ts5511ppng"
+  },
+  {
+    "fileName": "TS5511P_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5511P_2x2.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5511P",
+    "normalizedFileName": "ts5511p2x2png"
+  },
+  {
+    "fileName": "TS5512P_사무실.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5512P_사무실.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5512P",
+    "normalizedFileName": "ts5512p사무실jpg"
   },
   {
     "fileName": "TS5516P.png",
@@ -1045,6 +1108,15 @@ export const imageManifest = [
     "normalizedFileName": "ts5516ppng"
   },
   {
+    "fileName": "TS5516P_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5516P_2x2.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5516P",
+    "normalizedFileName": "ts5516p2x2png"
+  },
+  {
     "fileName": "TS5518P.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5518P.png",
     "category": "데코타일",
@@ -1052,6 +1124,15 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
     "extractedCode": "TS5518P",
     "normalizedFileName": "ts5518ppng"
+  },
+  {
+    "fileName": "TS5518P_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5518P_2x2.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5518P",
+    "normalizedFileName": "ts5518p2x2png"
   },
   {
     "fileName": "TS5519P.png",
@@ -1063,6 +1144,24 @@ export const imageManifest = [
     "normalizedFileName": "ts5519ppng"
   },
   {
+    "fileName": "TS5519P_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5519P_2x2.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5519P",
+    "normalizedFileName": "ts5519p2x2png"
+  },
+  {
+    "fileName": "TS5534M_상업공간.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5534M_상업공간.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5534M",
+    "normalizedFileName": "ts5534m상업공간jpg"
+  },
+  {
     "fileName": "TS5541P.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5541P.png",
     "category": "데코타일",
@@ -1070,6 +1169,15 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
     "extractedCode": "TS5541P",
     "normalizedFileName": "ts5541ppng"
+  },
+  {
+    "fileName": "TS5541P_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5541P_2x2.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5541P",
+    "normalizedFileName": "ts5541p2x2png"
   },
   {
     "fileName": "TS5542P.png",
@@ -1081,6 +1189,15 @@ export const imageManifest = [
     "normalizedFileName": "ts5542ppng"
   },
   {
+    "fileName": "TS5542P_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5542P_2x2.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5542P",
+    "normalizedFileName": "ts5542p2x2png"
+  },
+  {
     "fileName": "TS5543P.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5543P.png",
     "category": "데코타일",
@@ -1088,6 +1205,24 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
     "extractedCode": "TS5543P",
     "normalizedFileName": "ts5543ppng"
+  },
+  {
+    "fileName": "TS5543P_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5543P_2x2.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5543P",
+    "normalizedFileName": "ts5543p2x2png"
+  },
+  {
+    "fileName": "TS5543P_상업공간.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5543P_상업공간.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5543P",
+    "normalizedFileName": "ts5543p상업공간jpg"
   },
   {
     "fileName": "TS5544P.png",
@@ -1099,6 +1234,15 @@ export const imageManifest = [
     "normalizedFileName": "ts5544ppng"
   },
   {
+    "fileName": "TS5544P_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5544P_2x2.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5544P",
+    "normalizedFileName": "ts5544p2x2png"
+  },
+  {
     "fileName": "TS5545P.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5545P.png",
     "category": "데코타일",
@@ -1106,6 +1250,24 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
     "extractedCode": "TS5545P",
     "normalizedFileName": "ts5545ppng"
+  },
+  {
+    "fileName": "TS5545P_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5545P_2x2.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5545P",
+    "normalizedFileName": "ts5545p2x2png"
+  },
+  {
+    "fileName": "TS5545P_상업공간.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5545P_상업공간.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5545P",
+    "normalizedFileName": "ts5545p상업공간jpg"
   },
   {
     "fileName": "TS5546P.png",
@@ -1117,6 +1279,15 @@ export const imageManifest = [
     "normalizedFileName": "ts5546ppng"
   },
   {
+    "fileName": "TS5546P_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5546P_2x2.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5546P",
+    "normalizedFileName": "ts5546p2x2png"
+  },
+  {
     "fileName": "TS5547P.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5547P.png",
     "category": "데코타일",
@@ -1124,6 +1295,24 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
     "extractedCode": "TS5547P",
     "normalizedFileName": "ts5547ppng"
+  },
+  {
+    "fileName": "TS5547P_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5547P_2x2.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5547P",
+    "normalizedFileName": "ts5547p2x2png"
+  },
+  {
+    "fileName": "TS5547P_상업공간.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5547P_상업공간.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5547P",
+    "normalizedFileName": "ts5547p상업공간jpg"
   },
   {
     "fileName": "TS5548P.png",
@@ -1135,6 +1324,15 @@ export const imageManifest = [
     "normalizedFileName": "ts5548ppng"
   },
   {
+    "fileName": "TS5548P_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5548P_2x2.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5548P",
+    "normalizedFileName": "ts5548p2x2png"
+  },
+  {
     "fileName": "TS5549P.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5549P.png",
     "category": "데코타일",
@@ -1142,6 +1340,15 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
     "extractedCode": "TS5549P",
     "normalizedFileName": "ts5549ppng"
+  },
+  {
+    "fileName": "TS5549P_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5549P_2x2.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5549P",
+    "normalizedFileName": "ts5549p2x2png"
   },
   {
     "fileName": "TS5550P.png",
@@ -1153,6 +1360,24 @@ export const imageManifest = [
     "normalizedFileName": "ts5550ppng"
   },
   {
+    "fileName": "TS5550P_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5550P_2x2.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5550P",
+    "normalizedFileName": "ts5550p2x2png"
+  },
+  {
+    "fileName": "TS5550P_사무실.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5550P_사무실.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5550P",
+    "normalizedFileName": "ts5550p사무실jpg"
+  },
+  {
     "fileName": "TS5551P.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5551P.png",
     "category": "데코타일",
@@ -1162,6 +1387,15 @@ export const imageManifest = [
     "normalizedFileName": "ts5551ppng"
   },
   {
+    "fileName": "TS5551P_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5551P_2x2.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5551P",
+    "normalizedFileName": "ts5551p2x2png"
+  },
+  {
     "fileName": "TS5552P.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5552P.png",
     "category": "데코타일",
@@ -1169,6 +1403,15 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
     "extractedCode": "TS5552P",
     "normalizedFileName": "ts5552ppng"
+  },
+  {
+    "fileName": "TS5552P_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5552P_2x2.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_450각_이미지",
+    "extractedCode": "TS5552P",
+    "normalizedFileName": "ts5552p2x2png"
   },
   {
     "fileName": "TS5531M.png",
@@ -1243,6 +1486,15 @@ export const imageManifest = [
     "normalizedFileName": "tw5102gpng"
   },
   {
+    "fileName": "TW5102G_상업공간.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5102G_상업공간.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
+    "extractedCode": "TW5102G",
+    "normalizedFileName": "tw5102g상업공간jpg"
+  },
+  {
     "fileName": "TW5103G.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5103G.png",
     "category": "데코타일",
@@ -1259,6 +1511,15 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
     "extractedCode": "TW5104G",
     "normalizedFileName": "tw5104gpng"
+  },
+  {
+    "fileName": "TW5104G_사무실.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5104G_사무실.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
+    "extractedCode": "TW5104G",
+    "normalizedFileName": "tw5104g사무실jpg"
   },
   {
     "fileName": "TW5105G.png",
@@ -1340,6 +1601,15 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
     "extractedCode": "TW5119G",
     "normalizedFileName": "tw5119gpng"
+  },
+  {
+    "fileName": "TW5119G_상업공간.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5119G_상업공간.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
+    "extractedCode": "TW5119G",
+    "normalizedFileName": "tw5119g상업공간jpg"
   },
   {
     "fileName": "TW5120G.png",

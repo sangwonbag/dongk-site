@@ -23,7 +23,7 @@ import { useEstimateCart } from "../../contexts/EstimateCartContext";
 import { KAKAO_CHAT_URL } from "../../constants/contact";
 import { getValidGalleryImages, getDetailImage, getThumbnailImage } from "../../utils/galleryUtils";
 import { getMaterialImagePath } from "../../utils/materialImageResolver";
-import { getProductImageUrl } from "../../utils/productImageResolver";
+import { getProductImageUrl, sortProductImagesByType } from "../../utils/productImageResolver";
 import { supabase } from "../../lib/supabaseClient";
 import SEO from "../../components/seo/SEO";
 import { useAuth } from "../../contexts/AuthContext";
@@ -35,9 +35,10 @@ import {
   formatShapeOrPattern,
   isKccTrendyProduct,
   getKccTrendyInfo,
-  KCC_TRENDY_SPECS,
-  KCC_TRENDY_CATALOG_IMAGE
+  KCC_TRENDY_SPECS
 } from "../../utils/brandUtils";
+import ProductDetailImages from "../../components/product/ProductDetailImages";
+import { getProductDetailImages } from "../../services/productDetailImageService";
 import { normalizeImagePath, getUniqueProductImages } from "../../utils/galleryNormalizer";
 import { fetchProductDetailBySlugOrId, getCachedProduct, productDetailMemoryCache } from "../../utils/supabaseFetcher";
 
@@ -625,19 +626,28 @@ export default function MaterialDetail() {
 
   const [selectedOption, setSelectedOption] = useState(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [isCatalogModalOpen, setIsCatalogModalOpen] = useState(false);
+  const [detailImagesList, setDetailImagesList] = useState([]);
 
-  // Close catalog modal on ESC key
+  // Fetch product detail images from database or default catalogs
   useEffect(() => {
-    if (!isCatalogModalOpen) return;
-    const handleKeyDown = (e) => {
-      if (e.key === "Escape") {
-        setIsCatalogModalOpen(false);
-      }
+    let isCancelled = false;
+    if (item) {
+      getProductDetailImages(item.product_id || item.id, item.code, item)
+        .then((imgs) => {
+          if (!isCancelled) {
+            setDetailImagesList(imgs || []);
+          }
+        })
+        .catch((err) => {
+          console.warn('[MaterialDetail] Failed to load detail images:', err);
+        });
+    } else {
+      setDetailImagesList([]);
+    }
+    return () => {
+      isCancelled = true;
     };
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [isCatalogModalOpen]);
+  }, [item]);
 
   // Sync state if navigating directly between products
   useEffect(() => {
@@ -891,7 +901,7 @@ export default function MaterialDetail() {
     });
 
     if (filteredList.length > 0) {
-      return filteredList;
+      return sortProductImagesByType(filteredList, item?.code || item?.product_code || item?.name);
     }
 
     // Fallback: Show a single valid placeholder or default
@@ -2227,37 +2237,12 @@ export default function MaterialDetail() {
                     </div>
                   </section>
 
-                  {/* C. 제품 카탈로그 안내 */}
-                  <section className="detail-doc-section">
-                    <div className="section-title-with-badge">
-                      <h2 className="doc-section-title">KCC 센스타일 트랜디 제품 카탈로그</h2>
-                      <span className="section-badge-catalog">공식 카탈로그</span>
-                    </div>
-                    <div className="doc-accent-bar"></div>
-                    <p className="kcc-catalog-lead">
-                      KCC글라스 센스타일 트랜디 공식 카탈로그입니다. 제품 소개, 다층 구조, 규격 및 용도를 고화질로 확인하실 수 있습니다. (클릭 시 확대)
-                    </p>
-                    <div 
-                      className="kcc-catalog-preview-container"
-                      onClick={() => setIsCatalogModalOpen(true)}
-                      role="button"
-                      tabIndex={0}
-                      aria-label="KCC 센스타일 트랜디 카탈로그 확대 보기"
-                      onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { setIsCatalogModalOpen(true); } }}
-                    >
-                      <img 
-                        src={KCC_TRENDY_CATALOG_IMAGE} 
-                        alt="KCC 센스타일 트랜디 제품 카탈로그" 
-                        className="kcc-catalog-preview-img"
-                        loading="lazy"
-                      />
-                      <div className="kcc-catalog-zoom-overlay">
-                        <span className="zoom-btn-pill">
-                          <Maximize2 size={16} /> 클릭하여 카탈로그 크게 보기
-                        </span>
-                      </div>
-                    </div>
-                  </section>
+                  {/* C. 쇼핑몰형 순차 상세 이미지 영역 */}
+                  <ProductDetailImages 
+                    images={detailImagesList} 
+                    productName={displayName || item.name} 
+                    sectionTitle="제품 상세 이미지"
+                  />
 
                   {/* D. 제품 특장점 */}
                   <section className="detail-doc-section">
@@ -2569,19 +2554,13 @@ export default function MaterialDetail() {
                 </>
               )}
 
-              {/* 제품 상세 정보 이미지 (상세페이지 내용) */}
-              {detailContentImg && (
-                <section className="detail-doc-section detail-page-content-image">
-                  <h2 className="doc-section-title">제품 상세 정보</h2>
-                  <div className="doc-accent-bar"></div>
-                  <div className="detail-content-img-frame" style={{ marginTop: '24px', width: '100%', display: 'flex', justifyContent: 'center', background: '#fcfcfc', padding: '20px', borderRadius: '12px', border: '1px solid var(--border)' }}>
-                    <img 
-                      src={detailContentImg} 
-                      alt={`${item.name} 상세 정보`} 
-                      style={{ maxWidth: '100%', height: 'auto', display: 'block', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }} 
-                    />
-                  </div>
-                </section>
+              {/* 전체 자재 카테고리 공통 쇼핑몰형 상세 이미지 */}
+              {!isKccTrendy && (
+                <ProductDetailImages 
+                  images={detailImagesList} 
+                  productName={displayName || item.name} 
+                  sectionTitle="제품 상세 이미지"
+                />
               )}
 
               {/* Dynamic Virtual Space Showroom Section */}
@@ -2894,53 +2873,7 @@ export default function MaterialDetail() {
         </div>
       )}
 
-      {/* KCC 센스타일 트랜디 공식 카탈로그 확대 모달 */}
-      {isKccTrendy && isCatalogModalOpen && (
-        <div 
-          className="kcc-catalog-modal-overlay" 
-          onClick={() => setIsCatalogModalOpen(false)}
-          role="dialog"
-          aria-modal="true"
-          aria-label="KCC 센스타일 트랜디 공식 카탈로그 확대 보기"
-        >
-          <div 
-            className="kcc-catalog-modal-container"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <div className="kcc-catalog-modal-header">
-              <div className="modal-title-group">
-                <span className="modal-title-main">KCC 센스타일 트랜디 공식 카탈로그</span>
-                <span className="modal-title-sub">제품 구조 · 규격 · 특장점 및 시공 용도</span>
-              </div>
-              <button 
-                type="button"
-                className="kcc-catalog-modal-close-btn"
-                onClick={() => setIsCatalogModalOpen(false)}
-                aria-label="카탈로그 닫기"
-              >
-                <X size={16} />
-                <span>닫기</span>
-              </button>
-            </div>
-            <div className="kcc-catalog-modal-body">
-              <img 
-                src={KCC_TRENDY_CATALOG_IMAGE} 
-                alt="KCC 센스타일 트랜디 공식 카탈로그 전체 보기" 
-                className="kcc-catalog-modal-img"
-              />
-            </div>
-            <div className="kcc-catalog-modal-footer">
-              <button 
-                type="button" 
-                className="btn-modal-close-action"
-                onClick={() => setIsCatalogModalOpen(false)}
-              >
-                카탈로그 닫기
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
+
     </MainLayout>
   );
 }

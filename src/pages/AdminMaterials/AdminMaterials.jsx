@@ -7,6 +7,8 @@ import { getProductImageUrl, getProductImageCandidates } from '../../utils/produ
 import { useAuth } from '../../contexts/AuthContext';
 import { ArrowLeft, Plus, Search, Edit2, Trash2, Save, X, Upload, Layers, Image as ImageIcon, Loader2, AlertTriangle, CheckCircle } from 'lucide-react';
 import { LoadingSpinner, EmptyState } from '../../components/ui';
+import ProductDetailImageManager from '../../components/admin/ProductDetailImageManager';
+import { getProductDetailImages, saveProductDetailImages } from '../../services/productDetailImageService';
 import './AdminMaterials.css';
 
 export default function AdminMaterials() {
@@ -52,6 +54,7 @@ export default function AdminMaterials() {
   const [isFeatured, setIsFeatured] = useState(false);
   const [sortOrder, setSortOrder] = useState(0);
   const [imageUrl, setImageUrl] = useState('');
+  const [detailImages, setDetailImages] = useState([]);
 
   // Helper: calculate synchronous image status for a product
   const calcImageStatus = (p) => {
@@ -265,6 +268,7 @@ export default function AdminMaterials() {
     setSortOrder(0);
     setImageUrl('');
     setPreviewImageError(false);
+    setDetailImages([]);
     
     if (categories.length > 0) {
       setCategoryId(categories[0].id);
@@ -291,6 +295,13 @@ export default function AdminMaterials() {
     setSortOrder(p.sort_order || 0);
     setImageUrl(p.image_url || '');
     setPreviewImageError(false);
+    setDetailImages([]);
+
+    if (p?.id) {
+      getProductDetailImages(p.id, p.product_code, p).then(imgs => {
+        setDetailImages(imgs || []);
+      });
+    }
     
     setIsModalOpen(true);
   };
@@ -409,6 +420,9 @@ export default function AdminMaterials() {
           .eq('id', editingProduct.id);
 
         if (error) throw error;
+        if (editingProduct?.id) {
+          await saveProductDetailImages(editingProduct.id, detailImages).catch(e => console.warn('Detail images save warning:', e));
+        }
         alert('자재 정보가 성공적으로 수정되었습니다.');
       } else {
         // INSERT
@@ -431,15 +445,20 @@ export default function AdminMaterials() {
           }
         }
 
-        const { error } = await supabase
+        const { data: newProd, error } = await supabase
           .from('products')
           .insert({
             ...payload,
             slug,
             created_at: new Date().toISOString()
-          });
+          })
+          .select('id')
+          .single();
 
         if (error) throw error;
+        if (newProd?.id) {
+          await saveProductDetailImages(newProd.id, detailImages).catch(e => console.warn('Detail images save warning:', e));
+        }
         alert('신규 자재가 성공적으로 등록되었습니다.');
       }
 
@@ -937,6 +956,14 @@ export default function AdminMaterials() {
                     </div>
                   </div>
                 </div>
+
+                {/* 쇼핑몰형 상세 이미지 관리 */}
+                <ProductDetailImageManager
+                  productId={editingProduct?.id}
+                  productCode={productCode || name}
+                  images={detailImages}
+                  onChange={setDetailImages}
+                />
 
                 <div className="modal-actions-row">
                   <button

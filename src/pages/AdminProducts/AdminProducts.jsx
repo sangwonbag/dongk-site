@@ -10,6 +10,8 @@ import {
   Eye, EyeOff, Star, StarOff, Image as ImageIcon, Loader2, RefreshCw, AlertTriangle, CheckCircle
 } from 'lucide-react';
 import { LoadingSpinner, EmptyState } from '../../components/ui';
+import ProductDetailImageManager from '../../components/admin/ProductDetailImageManager';
+import { getProductDetailImages, saveProductDetailImages } from '../../services/productDetailImageService';
 import './AdminProducts.css';
 
 export default function AdminProducts() {
@@ -50,6 +52,7 @@ export default function AdminProducts() {
   const [isFeatured, setIsFeatured] = useState(false);
   const [sortOrder, setSortOrder] = useState(0);
   const [imageUrl, setImageUrl] = useState('');
+  const [detailImages, setDetailImages] = useState([]);
 
   // Helper: calculate synchronous image status for a product
   const calcImageStatus = (p) => {
@@ -337,6 +340,9 @@ export default function AdminProducts() {
           .eq('id', editingProduct.id);
 
         if (error) throw error;
+        if (editingProduct?.id) {
+          await saveProductDetailImages(editingProduct.id, detailImages).catch(e => console.warn('Detail images save warning:', e));
+        }
         alert('상품이 수정되었습니다.');
       } else {
         // Slug check
@@ -358,15 +364,20 @@ export default function AdminProducts() {
           }
         }
 
-        const { error } = await supabase
+        const { data: newProd, error } = await supabase
           .from('products')
           .insert({
             ...payload,
             slug,
             created_at: new Date().toISOString()
-          });
+          })
+          .select('id')
+          .single();
 
         if (error) throw error;
+        if (newProd?.id) {
+          await saveProductDetailImages(newProd.id, detailImages).catch(e => console.warn('Detail images save warning:', e));
+        }
         alert('신규 상품이 등록되었습니다.');
       }
 
@@ -409,6 +420,7 @@ export default function AdminProducts() {
     setSortOrder(0);
     setImageUrl('');
     setPreviewImageError(false);
+    setDetailImages([]);
     if (categories.length > 0) setCategoryId(categories[0].id);
     setIsModalOpen(true);
   };
@@ -426,6 +438,13 @@ export default function AdminProducts() {
     setSortOrder(p.sort_order || 0);
     setImageUrl(p.image_url || '');
     setPreviewImageError(false);
+    setDetailImages([]);
+
+    if (p?.id) {
+      getProductDetailImages(p.id, p.product_code, p).then(imgs => {
+        setDetailImages(imgs || []);
+      });
+    }
     setIsModalOpen(true);
   };
 
@@ -740,6 +759,14 @@ export default function AdminProducts() {
                     </div>
                   </div>
                 </div>
+
+                {/* 쇼핑몰형 상세 이미지 관리 */}
+                <ProductDetailImageManager
+                  productId={editingProduct?.id}
+                  productCode={productCode || name}
+                  images={detailImages}
+                  onChange={setDetailImages}
+                />
 
                 <div className="form-actions">
                   <button type="button" className="btn-cancel" onClick={() => setIsModalOpen(false)} disabled={submitting}>

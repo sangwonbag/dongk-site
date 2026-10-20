@@ -294,7 +294,138 @@ export function getProductImageUrl(product) {
 }
 
 /**
+ * Classifies an image URL into one of four types:
+ * - 'original': 기본 원장 자재 이미지 (단품 타일)
+ * - 'pattern2x2': 2x2 패턴 연결 이미지
+ * - 'installation': 실제 공간 시공 이미지 (사무실, 상업공간, 거실, 주거, 매장 등)
+ * - 'other': 교차 시공, 90도/180도 크로스, 회전 등 기타 이미지
+ */
+export function classifyProductImage(url, productCode = '') {
+  if (!url || typeof url !== 'string') return 'other';
+  const decoded = decodeURIComponent(url.split('?')[0]);
+  const fileName = decoded.split('/').pop() || '';
+  const lower = fileName.toLowerCase();
+
+  // 1. 2x2 패턴 이미지 (pattern2x2)
+  if (
+    lower.includes('2x2') ||
+    lower.includes('2_2') ||
+    lower.includes('2×2') ||
+    lower.includes('pattern') ||
+    lower.includes('패턴')
+  ) {
+    return 'pattern2x2';
+  }
+
+  // 2. 시공 이미지 (installation)
+  if (
+    lower.includes('시공') ||
+    lower.includes('사무실') ||
+    lower.includes('상업공간') ||
+    lower.includes('거실') ||
+    lower.includes('주거') ||
+    lower.includes('매장') ||
+    lower.includes('현장') ||
+    lower.includes('office') ||
+    lower.includes('commercial') ||
+    lower.includes('installation') ||
+    lower.includes('interior') ||
+    lower.includes('scene')
+  ) {
+    return 'installation';
+  }
+
+  // 3. 기타 패턴/교차/회전 이미지 (other)
+  if (
+    lower.includes('cross') ||
+    lower.includes('크로스') ||
+    lower.includes('90') ||
+    lower.includes('180') ||
+    lower.includes('회전') ||
+    /_([2-9])\.(jpe?g|png|webp|avif)$/i.test(fileName)
+  ) {
+    return 'other';
+  }
+
+  // 4. 원장 이미지 (original)
+  return 'original';
+}
+
+/**
+ * Sorts an array of product image URLs strictly by image type:
+ * 1) original (원장) -> 2) pattern2x2 (2x2) -> 3) installation (시공) -> 4) other (기타)
+ * Also removes true duplicate files (e.g. Code_1.png when Code.png exists).
+ */
+export function sortProductImagesByType(images, productCode = '') {
+  if (!Array.isArray(images) || images.length === 0) return [];
+
+  const rankMap = {
+    original: 1,
+    pattern2x2: 2,
+    installation: 3,
+    other: 4
+  };
+
+  const seenPaths = new Set();
+  const deduped = [];
+
+  const cleanCode = String(productCode || '').replace(/[^a-zA-Z0-9]/g, '').toUpperCase();
+
+  for (const src of images) {
+    if (!src || typeof src !== 'string') continue;
+    const clean = src.split('?')[0].trim();
+    if (!clean || clean.includes('no-image.svg') || clean.includes('deco_tile.png') || clean.includes('material-placeholder.jpg')) {
+      continue;
+    }
+
+    if (seenPaths.has(clean)) continue;
+
+    // Remove duplicate original filenames (e.g. Code_1.png when Code.png exists)
+    const fileName = decodeURIComponent(clean.split('/').pop() || '');
+    if (cleanCode) {
+      if (fileName.toUpperCase() === `${cleanCode}_1.PNG` && seenPaths.has(clean.replace('_1.png', '.png'))) {
+        continue;
+      }
+      if (fileName.toUpperCase() === `${cleanCode}.PNG` && seenPaths.has(clean.replace('.png', '_1.png'))) {
+        const oldIdx = deduped.findIndex(x => x.includes(`${cleanCode}_1.png`));
+        if (oldIdx !== -1) {
+          deduped[oldIdx] = clean;
+          seenPaths.add(clean);
+          continue;
+        }
+      }
+    }
+
+    seenPaths.add(clean);
+    deduped.push(clean);
+  }
+
+  return deduped.sort((a, b) => {
+    const typeA = classifyProductImage(a, productCode);
+    const typeB = classifyProductImage(b, productCode);
+    const rankA = rankMap[typeA] || 99;
+    const rankB = rankMap[typeB] || 99;
+
+    if (rankA !== rankB) {
+      return rankA - rankB;
+    }
+
+    // Sub-sort for 'other' (e.g. 90cross / _2 before 180cross / _3)
+    if (typeA === 'other') {
+      const aLower = a.toLowerCase();
+      const bLower = b.toLowerCase();
+      const aSub = (aLower.includes('90') || aLower.includes('_2.')) ? 1 : (aLower.includes('180') || aLower.includes('_3.')) ? 2 : 3;
+      const bSub = (bLower.includes('90') || bLower.includes('_2.')) ? 1 : (bLower.includes('180') || bLower.includes('_3.')) ? 2 : 3;
+      if (aSub !== bSub) return aSub - bSub;
+    }
+
+    return 0;
+  });
+}
+
+/**
  * Resolves all available images (main + gallery) for a product object.
+ * Strictly sorted by: original (원장) -> pattern2x2 (2x2) -> installation (시공) -> other (기타)
  */
 export function getAllProductImages(product) {
   if (!product) return [];
@@ -316,20 +447,30 @@ export function getAllProductImages(product) {
   }
 
   // Also collect all matching images from generated manifest for this product code
-  if (Array.isArray(generatedImageManifestCache) && product.code) {
-    const cKey = normalizeCode(product.code);
+  const rawCode = product.code || product.product_code || product.productCode || product.name || '';
+  const cKey = normalizeCode(rawCode);
+  const baseCode = cKey.replace(/[^A-Z0-9]/g, '');
+
+  if (Array.isArray(generatedImageManifestCache) && baseCode) {
     for (let i = 0; i < generatedImageManifestCache.length; i++) {
       const img = generatedImageManifestCache[i];
-      if (img.extractedCode && normalizeCode(img.extractedCode) === cKey && img.fullPublicPath) {
-        const norm = normalizeProductImageUrl(img.fullPublicPath);
-        if (norm !== '/images/no-image.svg' && !candidates.includes(norm)) {
-          candidates.push(norm);
+      if (img.extractedCode && img.fullPublicPath) {
+        const imgKey = normalizeCode(img.extractedCode);
+        const match = imgKey === cKey || 
+          (baseCode.length >= 4 && (imgKey.startsWith(baseCode) || baseCode.startsWith(imgKey)));
+        if (match) {
+          const norm = normalizeProductImageUrl(img.fullPublicPath);
+          if (norm !== '/images/no-image.svg' && !candidates.includes(norm)) {
+            candidates.push(norm);
+          }
         }
       }
     }
   }
 
-  return getUniqueProductImages(candidates);
+  // Deduplicate and sort by image type: original -> pattern2x2 -> installation -> other
+  return sortProductImagesByType(candidates, rawCode);
 }
+
 
 

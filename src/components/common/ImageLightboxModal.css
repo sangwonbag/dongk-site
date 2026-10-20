@@ -1,0 +1,174 @@
+/* src/components/common/ImageLightboxModal.css */
+
+.img-lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  background-color: rgba(10, 15, 29, 0.92);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  animation: lightboxFadeIn 0.2s ease-out forwards;
+}
+
+@keyframes lightboxFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Floating Top Toolbar */
+.img-lightbox-toolbar {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  pointer-events: auto;
+}
+
+.zoom-btn-group {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(30, 41, 59, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 30px;
+  padding: 4px 8px;
+  gap: 4px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.lightbox-tool-btn {
+  background: transparent;
+  border: none;
+  color: #f1f5f9;
+  padding: 6px 10px;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.lightbox-tool-btn:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.15);
+  color: #38bdf8;
+}
+
+.lightbox-tool-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.scale-text {
+  font-size: 12px;
+  font-family: monospace;
+}
+
+.lightbox-close-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(239, 68, 68, 0.85);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 8px 18px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s ease;
+}
+
+.lightbox-close-btn:hover {
+  background: #dc2626;
+  transform: translateY(-1px);
+}
+
+/* Stage Area */
+.img-lightbox-stage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: zoom-in;
+  padding: 60px 20px 40px;
+}
+
+.img-lightbox-stage.is-zoomed {
+  cursor: grab;
+}
+
+.img-lightbox-stage.is-dragging {
+  cursor: grabbing;
+}
+
+.img-wrapper {
+  max-width: 90vw;
+  max-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-origin: center center;
+}
+
+.lightbox-target-img {
+  max-width: 90vw;
+  max-height: 85vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 6px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+  pointer-events: auto;
+}
+
+/* Bottom Hint */
+.img-lightbox-hint {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(15, 23, 42, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #94a3b8;
+  font-size: 12px;
+  padding: 6px 16px;
+  border-radius: 20px;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .img-lightbox-toolbar {
+    top: 12px;
+    left: 12px;
+    right: 12px;
+  }
+  .lightbox-close-btn .btn-text {
+    display: none;
+  }
+  .lightbox-close-btn {
+    padding: 8px;
+    border-radius: 50%;
+  }
+  .lightbox-target-img {
+    max-width: 96vw;
+    max-height: 80vh;
+  }
+  .img-lightbox-hint {
+    display: none;
+  }
+}
