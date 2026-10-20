@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { safeEncodeURI, getSampleBookTarget, openCatalogWindow, getAutoMatchedCover } from "../../utils/samplebookResolver";
 import { getComputedBrand } from "../../utils/brandUtils";
+import { OFFICE_PHONE } from "../../constants/contact";
 import "./SampleBookViewer.css";
 
 export default function SampleBookViewer({ book, onClose }) {
@@ -116,8 +117,8 @@ export default function SampleBookViewer({ book, onClose }) {
                   실물 샘플북 확인이나 자재 스펙 상담이 필요하신 고객님께서는 동경바닥재 고객센터로 문의해 주시기 바랍니다.
                 </p>
                 <div className="sb-viewer-actions">
-                  <a href="tel:010-3392-7440" className="sb-modal-btn gold">
-                    📞 고객센터 문의 (010-3392-7440)
+                  <a href={`tel:${OFFICE_PHONE}`} className="sb-modal-btn gold">
+                    📞 고객센터 문의 ({OFFICE_PHONE})
                   </a>
                   <Link
                     to={`/materials?search=${encodeURIComponent(book.title)}`}

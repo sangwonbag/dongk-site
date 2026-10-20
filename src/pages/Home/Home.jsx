@@ -49,7 +49,7 @@ const KCC_COLLECTION = [
     subLine: "450각 · 600각 · 우드",
     spec: "457.2 × 457.2mm (450각) · 3.0T",
     packaging: "16매 / 3.34㎡(1BOX)",
-    badge: "KCC 최우선 추천",
+    badge: "추천",
     description: "감각적인 직물·스톤·우드 질감의 주거 및 상업 공간 베스트셀러 데코타일",
     image: "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P.png",
     detailUrl: "/materials/TS5502P",
@@ -62,7 +62,7 @@ const KCC_COLLECTION = [
     subLine: "600각 · 대형 타일",
     spec: "600 × 600mm (600각) · 3.0T",
     packaging: "9매 / 3.24㎡(1BOX)",
-    badge: "KCC 최우선 추천",
+    badge: "추천",
     description: "특수 UV 코팅과 스톤·마블·콘크리트 질감의 고강도 프리미엄 상업용 LVT 바닥재",
     image: "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30141M.png",
     detailUrl: "/materials/30141M",
@@ -75,7 +75,7 @@ const KCC_COLLECTION = [
     subLine: "5.0T 고두께 프리미엄",
     spec: "457.2 × 457.2mm · 5.0T (고두께)",
     packaging: "비접착 친환경 시공",
-    badge: "KCC 최우선 추천",
+    badge: "추천",
     description: "5mm 고두께 설계로 뛰어난 치수 안정성과 쿠션감을 제공하는 하이엔드 타일",
     image: "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0122J.jpg",
     detailUrl: "/materials/B0122J",
@@ -360,7 +360,7 @@ export default function Home() {
                 공간에 어울리는 바닥재를 만나보세요.
               </h2>
               <p className="section-sub-copy">
-                동경바닥재가 최우선 추천하는 KCC 대표 상업·주거용 데코타일 라인업
+                동경바닥재가 추천하는 KCC 대표 상업·주거용 데코타일 라인업
               </p>
             </div>
 
