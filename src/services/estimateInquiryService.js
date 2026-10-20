@@ -46,7 +46,7 @@ export const createEstimateInquiry = async (payload) => {
 
   // [운영 가이드] 오직 RPC 단일 경로 트랜잭션으로만 저장하며, 클라이언트 fallback은 제거
   const { data: rpcData, error: rpcError } = await supabase.rpc('create_estimate_with_items', {
-    p_customer_type: payload.customer_type || '일반 소비자',
+    p_customer_type: payload.customer_type || null,
     p_customer_name: payload.customer_name,
     p_phone: payload.phone,
     p_email: payload.email || null,

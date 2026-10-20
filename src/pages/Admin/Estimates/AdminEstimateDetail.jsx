@@ -241,7 +241,7 @@ export default function AdminEstimateDetail() {
                   </tr>
                   <tr>
                     <th>상 호</th>
-                    <td>{est.customer_name} ({est.customer_type}) 귀하</td>
+                    <td>{est.customer_name}{est.customer_type ? ` (${est.customer_type})` : ''} 귀하</td>
                   </tr>
                   <tr>
                     <th>현장주소</th>

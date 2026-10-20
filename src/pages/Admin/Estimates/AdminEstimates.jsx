@@ -150,7 +150,7 @@ export default function AdminEstimates() {
                       <td className="td-no">{est.estimate_no}</td>
                       <td><span className={`status-badge ${getStatusClass(est.status)}`}>{est.status}</span></td>
                       <td>{new Date(est.created_at).toLocaleString('ko-KR')}</td>
-                      <td>{est.customer_name} <br/><small className="text-gray">({est.customer_type})</small></td>
+                      <td>{est.customer_name}{est.customer_type ? <><br/><small className="text-gray">({est.customer_type})</small></> : null}</td>
                       <td>{est.phone}</td>
                       <td className="td-addr" title={est.site_address}>{est.site_address}</td>
                       <td>{est.consultation_type}</td>

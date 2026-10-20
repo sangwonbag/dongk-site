@@ -34,7 +34,6 @@ import { supabase } from '../../lib/supabaseClient';
 import './EstimateRequest.css';
 
 const ACCESSORY_OPTIONS = ['걸레받이', '본드', '실리콘', '논슬립', '마감재', '문턱/재료분리대'];
-const CUSTOMER_TYPES = ['일반 소비자', '인테리어/시공 업자', '건설사/업체', '기타'];
 const SITE_TYPES = ['아파트', '빌라', '상가', '사무실', '병원/학원', '공장', '기타'];
 const WORK_TYPES = ['자재만 구매', '자재 + 시공', '철거 포함', '상담 후 결정'];
 const CONSULTATION_TYPES = ['전화 상담', '카카오톡 1:1 상담', '방문 상담'];
@@ -64,7 +63,6 @@ export default function EstimateRequest() {
 
   // Form states - Pre-filled from logged in user
   const [customer, setCustomer] = useState({
-    type: '일반 소비자',
     name: '',
     phone: '',
     email: '',
@@ -444,7 +442,7 @@ export default function EstimateRequest() {
       const fullMemo = [extraDetails.join(' '), requestMemo?.trim()].filter(Boolean).join('\n\n');
 
       const payload = {
-        customer_type: customer.type,
+        customer_type: null,
         customer_name: customer.name,
         phone: customer.phone,
         email: customer.email || null,
@@ -471,7 +469,7 @@ export default function EstimateRequest() {
       sendOrderNotification({
         order_no: `[견적문의] ${estNo}`,
         customer_name: customer.name,
-        company_name: customer.type || '',
+        company_name: '',
         phone: customer.phone,
         email: customer.email || '',
         address: site.address || '주소 정보 없음',
@@ -829,22 +827,6 @@ export default function EstimateRequest() {
               </div>
 
               <div className="form-group">
-                <label>고객 구분 <span className="req">*</span></label>
-                <div className="customer-type-chips">
-                  {CUSTOMER_TYPES.map(t => (
-                    <button
-                      key={t}
-                      type="button"
-                      className={`type-chip ${customer.type === t ? 'active' : ''}`}
-                      onClick={() => setCustomer({ ...customer, type: t })}
-                    >
-                      {t}
-                    </button>
-                  ))}
-                </div>
-              </div>
-
-              <div className="form-group">
                 <label>이름 또는 업체명 <span className="req">*</span></label>
                 <input 
                   type="text" 
@@ -1188,7 +1170,7 @@ export default function EstimateRequest() {
                 <div className="review-grid">
                   <div className="review-col">
                     <span className="col-label">고객 정보</span>
-                    <div className="col-val"><strong>{customer.name}</strong> ({customer.type})</div>
+                    <div className="col-val"><strong>{customer.name}</strong></div>
                     <div className="col-sub">{customer.phone} {customer.email && `· ${customer.email}`}</div>
                     <div className="col-sub">상담 방식: <strong>{customer.consultation}</strong></div>
                   </div>
