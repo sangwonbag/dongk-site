@@ -7,6 +7,7 @@ import { getComputedBrand } from "../../utils/brandUtils";
 import { getSampleBookTarget, openCatalogWindow } from "../../utils/samplebookResolver";
 import SampleBookViewer from "../../components/samplebook/SampleBookViewer";
 import SampleBookCard from "../../components/samplebook/SampleBookCard";
+import { sortBrandsByPriority, compareSampleBookPriority } from "../../constants/brandPriority";
 import { EmptyState } from "../../components/ui";
 import SEO from "../../components/seo/SEO";
 import "./SampleBooks.css";
@@ -56,13 +57,13 @@ export default function SampleBooks() {
     setSelectedMaterialType("all");
   }, [selectedBrand]);
 
-  /** ✅ 해당 카테고리에 속한 브랜드 목록 */
+  /** ✅ 해당 카테고리에 속한 브랜드 목록 (통합 순서: KCC -> LX -> 동신 -> 동화 -> 이건 -> 구정 -> ...) */
   const brands = useMemo(() => {
     if (activeTab === "recommended") {
-      return ["all", "LX", "KCC", "동신", "동화", "이건", "구정", "유성", "녹수", "현대", "스완"];
+      return sortBrandsByPriority(["all", "KCC", "LX", "동신", "동화", "이건", "구정", "유성", "녹수", "현대", "스완"]);
     }
     let categoryBrands = [...(BRANDS_BY_CATEGORY[activeTab] || [])];
-    return ["all", ...categoryBrands];
+    return sortBrandsByPriority(["all", ...categoryBrands]);
   }, [activeTab]);
 
   /** ✅ 최종 필터링: 카테고리 + 브랜드 + 재질 + 스마트 다중 토큰 검색 */
@@ -159,6 +160,31 @@ export default function SampleBooks() {
     });
   }, [activeTab, selectedBrand, selectedMaterialType, searchQuery]);
 
+  /** ✅ 최종 정렬: KCC 센스타일 트랜디 -> 프로 -> 센스레이 -> 기타 KCC -> LX 및 타 브랜드 (검색 시 정확도 우선) */
+  const sortedSampleBooks = useMemo(() => {
+    const list = [...filtered];
+    const queryTerm = searchQuery.trim().toLowerCase();
+
+    return list.sort((a, b) => {
+      if (queryTerm) {
+        const titleA = (a.title || "").toLowerCase();
+        const titleB = (b.title || "").toLowerCase();
+        const brandA = (a.brand || "").toLowerCase();
+        const brandB = (b.brand || "").toLowerCase();
+
+        const matchTitleA = titleA.includes(queryTerm);
+        const matchTitleB = titleB.includes(queryTerm);
+        if (matchTitleA !== matchTitleB) return matchTitleA ? -1 : 1;
+
+        const matchBrandA = brandA.includes(queryTerm);
+        const matchBrandB = brandB.includes(queryTerm);
+        if (matchBrandA !== matchBrandB) return matchBrandA ? -1 : 1;
+      }
+
+      return compareSampleBookPriority(a, b);
+    });
+  }, [filtered, searchQuery]);
+
   /** ✅ 샘플북 클릭 시: 공식 카탈로그 검증 제품은 직접 새 창 열기, 미확인은 알림 모달 */
   const handleBookClick = (book) => {
     const target = getSampleBookTarget(book);
@@ -242,14 +268,14 @@ export default function SampleBooks() {
 
           <div className="results-header samplebooks-count">
             <div className="results-info">
-              <span>총 <strong>{filtered.length}</strong>권의 샘플북</span>
+              <span>총 <strong>{sortedSampleBooks.length}</strong>권의 샘플북</span>
               {searchQuery && <span className="sb-search-tag"> 검색어: "{searchQuery}"</span>}
             </div>
           </div>
 
-          {filtered.length > 0 ? (
+          {sortedSampleBooks.length > 0 ? (
             <div className="sb-grid">
-              {filtered.map(book => (
+              {sortedSampleBooks.map(book => (
                 <SampleBookCard
                   key={book.id}
                   book={book}

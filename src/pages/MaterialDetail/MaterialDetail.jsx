@@ -999,20 +999,46 @@ export default function MaterialDetail() {
         const pLine = p.line || "";
         const itemBrand = item.brand;
         const itemLine = item.line;
+        const isKcc = (pBrand || "").toUpperCase().includes("KCC") || (p.brands?.name || "").toUpperCase().includes("KCC");
         
-        if (pBrand === itemBrand) {
-          if (pLine === itemLine) {
-            return 100; // Same brand + same line
+        // 1. If currently viewing a KCC product:
+        if (itemBrand === 'KCC') {
+          if (pLine && itemLine && pLine === itemLine) {
+            return 100; // Same KCC product line (e.g. 센스타일 트랜디 450각)
           }
+          if (isKcc) {
+            if (pLine.includes('트랜디') || p.name.includes('트랜디')) return 95;
+            if (pLine.includes('프로') || p.name.includes('프로')) return 90;
+            if (pLine.includes('센스레이') || p.name.includes('센스레이')) return 85;
+            return 80;
+          }
+          return 20;
+        }
+
+        // 2. If viewing a non-KCC product (e.g. LX 데코타일, 현대 장판):
+        // Prioritize KCC within the same category
+        if (isKcc) {
+          if (pLine.includes('트랜디') || p.name.includes('트랜디')) return 90;
+          if (pLine.includes('프로') || p.name.includes('프로')) return 85;
+          if (pLine.includes('센스레이') || p.name.includes('센스레이')) return 80;
+          return 75;
+        }
+
+        // 3. Same brand as currently viewed
+        if (pBrand === itemBrand) {
           if (itemBrand === '이건') {
             const pClass = getEagonClassification(pLine);
             const itemClass = getEagonClassification(itemLine);
             if (pClass === itemClass) {
-              return 80; // Same brand + same classification
+              return 80;
             }
           }
-          return 50; // Same brand + different line
+          if (pLine === itemLine) {
+            return 70;
+          }
+          return 40;
         }
+
         return 10; // Different brand
       };
 
@@ -1031,15 +1057,31 @@ export default function MaterialDetail() {
               data = res.data;
             }
           } else {
-            const res = await supabase
-              .from('products')
-              .select(queryCols)
-              .eq('category_id', item.category_id || 1)
-              .neq('product_code', item.code)
-              .limit(8);
-            if (res.data) {
-              data = res.data;
+            // Query KCC products in this category + general products in this category
+            const [kccRes, catRes] = await Promise.all([
+              supabase
+                .from('products')
+                .select(queryCols)
+                .eq('category_id', item.category_id || 1)
+                .in('brand_id', [1, 22])
+                .neq('product_code', item.code)
+                .limit(8),
+              supabase
+                .from('products')
+                .select(queryCols)
+                .eq('category_id', item.category_id || 1)
+                .neq('product_code', item.code)
+                .limit(8)
+            ]);
+
+            const combinedMap = new Map();
+            if (kccRes.data) {
+              kccRes.data.forEach(p => combinedMap.set(p.product_code || p.id, p));
             }
+            if (catRes.data) {
+              catRes.data.forEach(p => combinedMap.set(p.product_code || p.id, p));
+            }
+            data = Array.from(combinedMap.values());
           }
           
           if (data && data.length > 0 && active) {

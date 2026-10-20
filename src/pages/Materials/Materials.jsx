@@ -18,6 +18,7 @@ import MaterialCard from "../../components/material/MaterialCard";
 import { fetchFilteredProducts, searchMaterials, withTimeout } from "../../utils/supabaseFetcher";
 import { getSearchScore, isProductNumberQuery, generateAutocompleteSuggestions, POPULAR_KEYWORDS, parseSearchQuery } from "../../utils/searchUtils";
 import { sortProducts, SORT_OPTIONS } from "../../utils/sortUtils";
+import { sortBrandsByPriority, compareProductRecommendationPriority } from "../../constants/brandPriority";
 import { Skeleton, EmptyState, ErrorState } from "../../components/ui";
 import MobileFilterSheet from "../../components/material/MobileFilterSheet";
 import { X, Search } from "lucide-react";
@@ -31,11 +32,11 @@ import { HIDE_SUB_MATERIALS, getVisibleCategories } from "../../config/categoryC
 const ALL_CATEGORIES = ["데코타일", "장판", "마루", "벽지", "카페트타일", "부자재"];
 const CATEGORIES = getVisibleCategories(ALL_CATEGORIES);
 
-// 2. Brands specified by the user
+// 2. Brands specified by the user (통합 우선순위: KCC -> LX -> 동신 -> 동화 -> 이건 -> 구정 -> 우성 -> 녹수 -> 현대 -> 스완)
 const BRANDS_BY_CATEGORY = {
-  데코타일: ["KCC", "동신", "재영", "유성", "LX", "녹수", "현대"],
-  장판: ["LX", "현대", "KCC"],
-  마루: ["이건마루", "동화", "구정"],
+  데코타일: ["KCC", "LX", "동신", "녹수", "현대", "유성", "재영", "대진"],
+  장판: ["KCC", "LX", "현대"],
+  마루: ["동화", "이건마루", "구정"],
   벽지: ["LX", "개나리", "서울", "제일", "신한", "현대벽지"],
   카페트타일: ["스완", "어반"],
   부자재: []
@@ -44,8 +45,8 @@ const BRANDS_BY_CATEGORY = {
 // Default brand selection for each category to prevent empty listings when tabs switch
 const DEFAULT_BRAND_BY_CATEGORY = {
   데코타일: "KCC",
-  장판: "LX",
-  마루: "이건마루",
+  장판: "KCC",
+  마루: "동화",
   벽지: "LX",
   카페트타일: "스완",
   부자재: "all"
@@ -483,10 +484,10 @@ export default function Materials() {
     }
   }, []);
 
-  // Visible brands based on current category tab selection
+  // Visible brands based on current category tab selection (통합 순서: KCC -> LX -> 동신 -> 동화 -> ...)
   const visibleBrands = useMemo(() => {
     const list = BRANDS_BY_CATEGORY[activeTab] || [];
-    return ["all", ...list];
+    return sortBrandsByPriority(["all", ...list]);
   }, [activeTab]);
 
   // Visible thicknesses based on active category tab & brand selection (from FLOORING_THICKNESS_BY_BRAND)
@@ -869,7 +870,11 @@ export default function Materials() {
   // Apply sorting pipeline on filtered products (Immutably using useMemo)
   const sortedProducts = useMemo(() => {
     if (searching && sortOption === "default") {
-      return [...filtered].sort((a, b) => getSearchScore(b, debouncedQuery) - getSearchScore(a, debouncedQuery));
+      return [...filtered].sort((a, b) => {
+        const scoreDiff = getSearchScore(b, debouncedQuery) - getSearchScore(a, debouncedQuery);
+        if (scoreDiff !== 0) return scoreDiff;
+        return compareProductRecommendationPriority(a, b);
+      });
     }
     return sortProducts(filtered, sortOption);
   }, [filtered, sortOption, searching, debouncedQuery]);

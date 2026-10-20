@@ -9,6 +9,7 @@ import { isDecoTile } from '../../utils/decotileUtils';
 import { getDongshinMajorCategory, getDongshinDetailedLineup } from '../../utils/dongshinUtils';
 import { Skeleton, ImagePlaceholder, ProductImage } from '../ui';
 import { prefetchProductDetail } from '../../utils/supabaseFetcher';
+import { isProductRecommended } from '../../constants/brandPriority';
 import './MaterialCard.css';
 
 
@@ -248,6 +249,7 @@ const MaterialCard = ({ material, priority = false }) => {
                     className="material-thumb"
                     priority={priority}
                 />
+                {isProductRecommended(material) && <span className="badge-featured">추천</span>}
                 {material.isNew && <span className="badge-new">NEW</span>}
             </Link>
 
