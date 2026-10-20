@@ -1,153 +1,132 @@
 // src/services/productDetailImageService.js
-import { supabase } from '../lib/supabaseClient';
+import { supabase } from '../lib/supabaseClient.js';
 
 const TRENDY_450_BASE = '/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지';
+const TRENDY_600_BASE = '/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지';
+const TRENDY_WOOD_BASE = '/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지';
 
-// Fallback high-res catalog detail images for KCC 센스타일 트랜디
+// Fallback high-res detail images for KCC 센스타일 트랜디: 원장 -> 2x2 -> 시공
 export const KCC_TRENDY_CATALOG_MAP = {
   // 450각 우븐
   'TS5502P': [
-    '/images/catalogs/kcc-sensetile-trendy/page_02.webp',
-    '/images/catalogs/kcc-sensetile-trendy/page_14.webp',
-    `${TRENDY_450_BASE}/TS5502P_사무실.jpg`,
-    `${TRENDY_450_BASE}/TS5502P_2.jpg`,
-    `${TRENDY_450_BASE}/TS5502P_3.jpg`
+    `${TRENDY_450_BASE}/TS5502P.png`,
+    `${TRENDY_450_BASE}/TS5502P_사무실.jpg`
   ],
   'TS5503P': [
-    '/images/catalogs/kcc-sensetile-trendy/page_02.webp',
-    '/images/catalogs/kcc-sensetile-trendy/page_14.webp',
+    `${TRENDY_450_BASE}/TS5503P.png`,
     `${TRENDY_450_BASE}/TS5503P 우븐.jpg_90cross.jpg`,
     `${TRENDY_450_BASE}/TS5503P 우븐.jpg_180cross.jpg`
   ],
   // 450각 카펫
   'TS5508': [
-    '/images/catalogs/kcc-sensetile-trendy/page_02.webp',
-    '/images/catalogs/kcc-sensetile-trendy/page_12.webp',
+    `${TRENDY_450_BASE}/TS5508P.png`,
     `${TRENDY_450_BASE}/TS5508P_사무실.jpg`,
     `${TRENDY_450_BASE}/TS5508 브러쉬 카펫.jpg_90cross.jpg`,
     `${TRENDY_450_BASE}/TS5508 브러쉬 카펫.jpg_180cross.jpg`
   ],
   'TS5510P': [
-    '/images/catalogs/kcc-sensetile-trendy/page_02.webp',
-    '/images/catalogs/kcc-sensetile-trendy/page_13.webp',
+    `${TRENDY_450_BASE}/TS5510P.png`,
     `${TRENDY_450_BASE}/TS5510P_2x2.png`,
     `${TRENDY_450_BASE}/TS5510P_사무실.jpg`
   ],
   'TS5511P': [
-    '/images/catalogs/kcc-sensetile-trendy/page_02.webp',
-    '/images/catalogs/kcc-sensetile-trendy/page_13.webp',
+    `${TRENDY_450_BASE}/TS5511P.png`,
     `${TRENDY_450_BASE}/TS5511P_2x2.png`
   ],
   'TS5551P': [
-    '/images/catalogs/kcc-sensetile-trendy/page_02.webp',
-    '/images/catalogs/kcc-sensetile-trendy/page_13.webp',
+    `${TRENDY_450_BASE}/TS5551P.png`,
     `${TRENDY_450_BASE}/TS5551P_2x2.png`
   ],
   'TS5552P': [
-    '/images/catalogs/kcc-sensetile-trendy/page_02.webp',
-    '/images/catalogs/kcc-sensetile-trendy/page_13.webp',
+    `${TRENDY_450_BASE}/TS5552P.png`,
     `${TRENDY_450_BASE}/TS5552P_2x2.png`
   ],
   // 450각 비앙코 & 마블
   'TS5516P': [
-    '/images/catalogs/kcc-sensetile-trendy/page_02.webp',
-    '/images/catalogs/kcc-sensetile-trendy/page_11.webp',
+    `${TRENDY_450_BASE}/TS5516P.png`,
     `${TRENDY_450_BASE}/TS5516P_2x2.png`
   ],
   'TS5547P': [
-    '/images/catalogs/kcc-sensetile-trendy/page_02.webp',
-    '/images/catalogs/kcc-sensetile-trendy/page_11.webp',
+    `${TRENDY_450_BASE}/TS5547P.png`,
     `${TRENDY_450_BASE}/TS5547P_2x2.png`,
     `${TRENDY_450_BASE}/TS5547P_상업공간.jpg`
   ],
   // 450각 콘크리트
   'TS5518P': [
-    '/images/catalogs/kcc-sensetile-trendy/page_02.webp',
-    '/images/catalogs/kcc-sensetile-trendy/page_12.webp',
+    `${TRENDY_450_BASE}/TS5518P.png`,
     `${TRENDY_450_BASE}/TS5518P_2x2.png`
   ],
   'TS5519P': [
-    '/images/catalogs/kcc-sensetile-trendy/page_02.webp',
-    '/images/catalogs/kcc-sensetile-trendy/page_12.webp',
+    `${TRENDY_450_BASE}/TS5519P.png`,
     `${TRENDY_450_BASE}/TS5519P_2x2.png`
   ],
   'TS5550P': [
-    '/images/catalogs/kcc-sensetile-trendy/page_02.webp',
-    '/images/catalogs/kcc-sensetile-trendy/page_12.webp',
+    `${TRENDY_450_BASE}/TS5550P.png`,
     `${TRENDY_450_BASE}/TS5550P_2x2.png`,
     `${TRENDY_450_BASE}/TS5550P_사무실.jpg`
   ],
   // 450각 슬레이트
   'TS5541P': [
-    '/images/catalogs/kcc-sensetile-trendy/page_02.webp',
-    '/images/catalogs/kcc-sensetile-trendy/page_10.webp',
+    `${TRENDY_450_BASE}/TS5541P.png`,
     `${TRENDY_450_BASE}/TS5541P_2x2.png`
   ],
   'TS5542P': [
-    '/images/catalogs/kcc-sensetile-trendy/page_02.webp',
-    '/images/catalogs/kcc-sensetile-trendy/page_10.webp',
+    `${TRENDY_450_BASE}/TS5542P.png`,
     `${TRENDY_450_BASE}/TS5542P_2x2.png`
   ],
   'TS5543P': [
-    '/images/catalogs/kcc-sensetile-trendy/page_02.webp',
-    '/images/catalogs/kcc-sensetile-trendy/page_10.webp',
+    `${TRENDY_450_BASE}/TS5543P.png`,
     `${TRENDY_450_BASE}/TS5543P_2x2.png`,
     `${TRENDY_450_BASE}/TS5543P_상업공간.jpg`
   ],
   'TS5544P': [
-    '/images/catalogs/kcc-sensetile-trendy/page_02.webp',
-    '/images/catalogs/kcc-sensetile-trendy/page_10.webp',
+    `${TRENDY_450_BASE}/TS5544P.png`,
     `${TRENDY_450_BASE}/TS5544P_2x2.png`
   ],
   'TS5548P': [
-    '/images/catalogs/kcc-sensetile-trendy/page_02.webp',
-    '/images/catalogs/kcc-sensetile-trendy/page_10.webp',
+    `${TRENDY_450_BASE}/TS5548P.png`,
     `${TRENDY_450_BASE}/TS5548P_2x2.png`
   ],
   'TS5549P': [
-    '/images/catalogs/kcc-sensetile-trendy/page_02.webp',
-    '/images/catalogs/kcc-sensetile-trendy/page_10.webp',
+    `${TRENDY_450_BASE}/TS5549P.png`,
     `${TRENDY_450_BASE}/TS5549P_2x2.png`
   ],
   'TS5549M': [
-    '/images/catalogs/kcc-sensetile-trendy/page_02.webp',
-    '/images/catalogs/kcc-sensetile-trendy/page_10.webp',
+    `${TRENDY_450_BASE}/TS5549P.png`,
     `${TRENDY_450_BASE}/TS5549P_2x2.png`
   ],
   // 450각 테라죠
   'TS5545P': [
-    '/images/catalogs/kcc-sensetile-trendy/page_02.webp',
-    '/images/catalogs/kcc-sensetile-trendy/page_09.webp',
+    `${TRENDY_450_BASE}/TS5545P.png`,
     `${TRENDY_450_BASE}/TS5545P_2x2.png`,
     `${TRENDY_450_BASE}/TS5545P_상업공간.jpg`
   ],
   'TS5546P': [
-    '/images/catalogs/kcc-sensetile-trendy/page_02.webp',
-    '/images/catalogs/kcc-sensetile-trendy/page_09.webp',
+    `${TRENDY_450_BASE}/TS5546P.png`,
     `${TRENDY_450_BASE}/TS5546P_2x2.png`
   ],
   // 600각 어반 콘크리트
-  'TS5531M': ['/images/catalogs/kcc-sensetile-trendy/page_02.webp', '/images/catalogs/kcc-sensetile-trendy/page_09.webp'],
-  'TS5532M': ['/images/catalogs/kcc-sensetile-trendy/page_02.webp', '/images/catalogs/kcc-sensetile-trendy/page_08.webp'],
-  'TS5533M': ['/images/catalogs/kcc-sensetile-trendy/page_02.webp', '/images/catalogs/kcc-sensetile-trendy/page_08.webp'],
-  'TS5534M': ['/images/catalogs/kcc-sensetile-trendy/page_02.webp', '/images/catalogs/kcc-sensetile-trendy/page_08.webp'],
-  'TS5535M': ['/images/catalogs/kcc-sensetile-trendy/page_02.webp', '/images/catalogs/kcc-sensetile-trendy/page_08.webp'],
-  'TS5536M': ['/images/catalogs/kcc-sensetile-trendy/page_02.webp', '/images/catalogs/kcc-sensetile-trendy/page_08.webp'],
-  'TS5537M': ['/images/catalogs/kcc-sensetile-trendy/page_02.webp', '/images/catalogs/kcc-sensetile-trendy/page_08.webp'],
+  'TS5531M': [`${TRENDY_600_BASE}/TS5531M.png`],
+  'TS5532M': [`${TRENDY_600_BASE}/TS5532M.png`],
+  'TS5533M': [`${TRENDY_600_BASE}/TS5533M.png`],
+  'TS5534M': [`${TRENDY_600_BASE}/TS5534M.png`, `${TRENDY_450_BASE}/TS5534M_상업공간.jpg`],
+  'TS5535M': [`${TRENDY_600_BASE}/TS5535M.png`],
+  'TS5536M': [`${TRENDY_600_BASE}/TS5536M.png`],
+  'TS5537M': [`${TRENDY_600_BASE}/TS5537M.png`],
   // 우드 플랭크
-  'TW5102G': ['/images/catalogs/kcc-sensetile-trendy/page_02.webp', '/images/catalogs/kcc-sensetile-trendy/page_05.webp'],
-  'TW5103G': ['/images/catalogs/kcc-sensetile-trendy/page_02.webp', '/images/catalogs/kcc-sensetile-trendy/page_05.webp'],
-  'TW5104G': ['/images/catalogs/kcc-sensetile-trendy/page_02.webp', '/images/catalogs/kcc-sensetile-trendy/page_06.webp'],
-  'TW5105G': ['/images/catalogs/kcc-sensetile-trendy/page_02.webp', '/images/catalogs/kcc-sensetile-trendy/page_05.webp'],
-  'TW5106G': ['/images/catalogs/kcc-sensetile-trendy/page_02.webp', '/images/catalogs/kcc-sensetile-trendy/page_05.webp'],
-  'TW5107G': ['/images/catalogs/kcc-sensetile-trendy/page_02.webp', '/images/catalogs/kcc-sensetile-trendy/page_06.webp'],
-  'TW5108G': ['/images/catalogs/kcc-sensetile-trendy/page_02.webp', '/images/catalogs/kcc-sensetile-trendy/page_06.webp'],
-  'TW5109G': ['/images/catalogs/kcc-sensetile-trendy/page_02.webp', '/images/catalogs/kcc-sensetile-trendy/page_06.webp'],
-  'TW5110G': ['/images/catalogs/kcc-sensetile-trendy/page_02.webp', '/images/catalogs/kcc-sensetile-trendy/page_06.webp'],
-  'TW5111G': ['/images/catalogs/kcc-sensetile-trendy/page_02.webp', '/images/catalogs/kcc-sensetile-trendy/page_07.webp'],
-  'TW5112G': ['/images/catalogs/kcc-sensetile-trendy/page_02.webp', '/images/catalogs/kcc-sensetile-trendy/page_07.webp'],
-  'TW5119G': ['/images/catalogs/kcc-sensetile-trendy/page_02.webp', '/images/catalogs/kcc-sensetile-trendy/page_07.webp'],
-  'TW5120G': ['/images/catalogs/kcc-sensetile-trendy/page_02.webp', '/images/catalogs/kcc-sensetile-trendy/page_07.webp']
+  'TW5102G': [`${TRENDY_WOOD_BASE}/TW5102G.png`, `${TRENDY_WOOD_BASE}/TW5102G_상업공간.jpg`],
+  'TW5103G': [`${TRENDY_WOOD_BASE}/TW5103G.png`],
+  'TW5104G': [`${TRENDY_WOOD_BASE}/TW5104G.png`, `${TRENDY_WOOD_BASE}/TW5104G_사무실.jpg`],
+  'TW5105G': [`${TRENDY_WOOD_BASE}/TW5105G.png`],
+  'TW5106G': [`${TRENDY_WOOD_BASE}/TW5106G.png`],
+  'TW5107G': [`${TRENDY_WOOD_BASE}/TW5107G.png`],
+  'TW5108G': [`${TRENDY_WOOD_BASE}/TW5108G.png`],
+  'TW5109G': [`${TRENDY_WOOD_BASE}/TW5109G.png`],
+  'TW5110G': [`${TRENDY_WOOD_BASE}/TW5110G.png`],
+  'TW5111G': [`${TRENDY_WOOD_BASE}/TW5111G.png`],
+  'TW5112G': [`${TRENDY_WOOD_BASE}/TW5112G.png`],
+  'TW5119G': [`${TRENDY_WOOD_BASE}/TW5119G.png`, `${TRENDY_WOOD_BASE}/TW5119G_상업공간.jpg`],
+  'TW5120G': [`${TRENDY_WOOD_BASE}/TW5120G.png`]
 };
 
 /**

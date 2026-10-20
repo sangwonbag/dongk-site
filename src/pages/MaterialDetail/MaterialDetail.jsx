@@ -38,6 +38,7 @@ import {
   KCC_TRENDY_SPECS
 } from "../../utils/brandUtils";
 import ProductDetailImages from "../../components/product/ProductDetailImages";
+import ImageLightboxModal from "../../components/common/ImageLightboxModal";
 import { getProductDetailImages } from "../../services/productDetailImageService";
 import { normalizeImagePath, getUniqueProductImages } from "../../utils/galleryNormalizer";
 import { fetchProductDetailBySlugOrId, getCachedProduct, productDetailMemoryCache } from "../../utils/supabaseFetcher";
@@ -457,10 +458,10 @@ const getVirtualSpaceExamples = (product, galleryImages) => {
     let officeSubtitle = "깔끔하고 실용적인 업무공간 연출";
 
     if (code === 'TS5502P') {
-      officeImg = '/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/KCC_트랜디_TS5502P_사무실.webp';
+      officeImg = '/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P_사무실.jpg';
       officeSubtitle = "KCC 센스타일 트랜디 TS5502P 실제 사무공간 연출";
-    } else if (code === 'TS5508P') {
-      officeImg = '/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/KCC_트랜디_TS5508P_사무실.webp';
+    } else if (code === 'TS5508P' || code === 'TS5508') {
+      officeImg = '/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5508P_사무실.jpg';
       officeSubtitle = "KCC 센스타일 트랜디 TS5508P 실제 사무공간 연출";
     }
 
@@ -550,21 +551,23 @@ const enrichProduct = (raw) => {
   }
   const normCode = (enriched.code || '').replace(/\s+/g, '').toUpperCase();
   if (normCode === 'TS5502P') {
-    const officeImg = '/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/KCC_트랜디_TS5502P_사무실.webp';
-    const mainImg = '/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P.png';
+    const officeImg = '/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P_사무실.jpg';
+    const mainImg = '/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P_1.png';
     enriched.thumbnail = mainImg;
     enriched.image = mainImg;
     enriched.images = [mainImg, officeImg];
     enriched.galleryImages = [mainImg, officeImg];
     enriched.installationImages = [officeImg];
     if (!enriched.pattern) enriched.pattern = '우븐 / 카펫';
-  } else if (normCode === 'TS5508P') {
-    const officeImg = '/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/KCC_트랜디_TS5508P_사무실.webp';
+  } else if (normCode === 'TS5508P' || normCode === 'TS5508') {
+    const officeImg = '/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5508P_사무실.jpg';
     const mainImg = '/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5508P.png';
+    const cross90 = '/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5508 브러쉬 카펫.jpg_90cross.jpg';
+    const cross180 = '/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5508 브러쉬 카펫.jpg_180cross.jpg';
     enriched.thumbnail = mainImg;
     enriched.image = mainImg;
-    enriched.images = [mainImg, officeImg];
-    enriched.galleryImages = [mainImg, officeImg];
+    enriched.images = [mainImg, officeImg, cross90, cross180];
+    enriched.galleryImages = [mainImg, officeImg, cross90, cross180];
     enriched.installationImages = [officeImg];
     if (!enriched.pattern) enriched.pattern = '우븐 / 텍스타일';
   }
@@ -627,6 +630,7 @@ export default function MaterialDetail() {
   const [selectedOption, setSelectedOption] = useState(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [detailImagesList, setDetailImagesList] = useState([]);
+  const [isGalleryLightboxOpen, setIsGalleryLightboxOpen] = useState(false);
 
   // Fetch product detail images from database or default catalogs
   useEffect(() => {
@@ -873,6 +877,16 @@ export default function MaterialDetail() {
       candidates.push(...item.installationImages);
     }
 
+    // 5) DB/Fallback 상세 이미지 목록 (detailImagesList)
+    if (Array.isArray(detailImagesList) && detailImagesList.length > 0) {
+      detailImagesList.forEach(img => {
+        const u = typeof img === 'string' ? img : (img.url || img.image_url);
+        if (u && !u.includes('/catalogs/kcc-sensetile-trendy/')) {
+          candidates.push(u);
+        }
+      });
+    }
+
     const cleanCandidates = candidates.map(c => {
       if (!c || typeof c !== 'string') return '';
       let str = c.trim();
@@ -912,7 +926,19 @@ export default function MaterialDetail() {
     });
 
     return [firstValid || "/images/no-image.svg"];
-  }, [item, rawImages, brokenImages]);
+  }, [item, rawImages, brokenImages, detailImagesList]);
+
+  // Filter detailImagesList to only show supplementary detail images that aren't already displayed in the top gallery
+  const supplementaryDetailImages = useMemo(() => {
+    const gallerySet = new Set((productImages || []).map(p => normalizeImagePath(p)));
+    return (detailImagesList || []).filter(img => {
+      const url = typeof img === 'string' ? img : (img.url || img.image_url);
+      if (!url) return false;
+      if (url.includes('/catalogs/kcc-sensetile-trendy/')) return false;
+      const norm = normalizeImagePath(url);
+      return !gallerySet.has(norm);
+    });
+  }, [detailImagesList, productImages]);
 
   useEffect(() => {
     setSelectedImageIndex(0);
@@ -1541,18 +1567,58 @@ export default function MaterialDetail() {
             
             {/* Left Column: Big Images & Thumbnails */}
             <div className="showroom-visuals">
-              <div className="showroom-main-frame" style={{ position: 'relative' }}>
+              <div 
+                className="showroom-main-frame" 
+                style={{ position: 'relative', cursor: 'zoom-in' }}
+                onClick={() => {
+                  if (productImages[selectedImageIndex] && productImages[selectedImageIndex] !== "/images/no-image.svg") {
+                    setIsGalleryLightboxOpen(true);
+                  }
+                }}
+                role="button"
+                tabIndex={0}
+                aria-label="메인 이미지 크게 보기"
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    setIsGalleryLightboxOpen(true);
+                  }
+                }}
+              >
                 {productImages[selectedImageIndex] && productImages[selectedImageIndex] !== "/images/no-image.svg" && !productImages[selectedImageIndex].includes("deco_tile.png") ? (
-                  <img 
-                    src={productImages[selectedImageIndex]} 
-                    alt={`${item.name} main`} 
-                    fetchPriority="high"
-                    loading="eager"
-                    decoding="async"
-                    onError={() => handleImageError(productImages[selectedImageIndex])} 
-                    className="showroom-main-img"
-                    style={{ objectFit: 'contain' }}
-                  />
+                  <>
+                    <img 
+                      src={productImages[selectedImageIndex]} 
+                      alt={`${item.name} main`} 
+                      fetchPriority="high"
+                      loading="eager"
+                      decoding="async"
+                      onError={() => handleImageError(productImages[selectedImageIndex])} 
+                      className="showroom-main-img"
+                      style={{ objectFit: 'contain' }}
+                    />
+                    <div 
+                      className="showroom-zoom-hint"
+                      style={{
+                        position: 'absolute',
+                        bottom: '12px',
+                        right: '12px',
+                        background: 'rgba(15, 23, 42, 0.75)',
+                        color: '#ffffff',
+                        fontSize: '11.5px',
+                        fontWeight: '600',
+                        padding: '4px 10px',
+                        borderRadius: '20px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '4px',
+                        pointerEvents: 'none',
+                        backdropFilter: 'blur(4px)',
+                        boxShadow: '0 2px 6px rgba(0,0,0,0.2)'
+                      }}
+                    >
+                      <Maximize2 size={13} /> 클릭하여 확대
+                    </div>
+                  </>
                 ) : (
                   <div className="showroom-img-placeholder" style={{
                     width: '100%',
@@ -2237,9 +2303,9 @@ export default function MaterialDetail() {
                     </div>
                   </section>
 
-                  {/* C. 쇼핑몰형 순차 상세 이미지 영역 */}
+                  {/* C. 쇼핑몰형 순차 상세 이미지 영역 (갤러리에 없는 추가 상세 설명 이미지만 표시) */}
                   <ProductDetailImages 
-                    images={detailImagesList} 
+                    images={supplementaryDetailImages} 
                     productName={displayName || item.name} 
                     sectionTitle="제품 상세 이미지"
                   />
@@ -2554,10 +2620,10 @@ export default function MaterialDetail() {
                 </>
               )}
 
-              {/* 전체 자재 카테고리 공통 쇼핑몰형 상세 이미지 */}
+              {/* 전체 자재 카테고리 공통 쇼핑몰형 상세 이미지 (갤러리에 없는 추가 상세 설명 이미지만 표시) */}
               {!isKccTrendy && (
                 <ProductDetailImages 
-                  images={detailImagesList} 
+                  images={supplementaryDetailImages} 
                   productName={displayName || item.name} 
                   sectionTitle="제품 상세 이미지"
                 />
@@ -2874,6 +2940,14 @@ export default function MaterialDetail() {
       )}
 
 
+      {/* 갤러리 메인 이미지 확대 라이트박스 모달 */}
+      {isGalleryLightboxOpen && productImages[selectedImageIndex] && (
+        <ImageLightboxModal
+          imageUrl={productImages[selectedImageIndex]}
+          altText={`${displayName || item?.name || '제품'} 상세 확대`}
+          onClose={() => setIsGalleryLightboxOpen(false)}
+        />
+      )}
     </MainLayout>
   );
 }
