@@ -189,6 +189,19 @@
     width: 100%;
 }
 
+/* Recommended Tab Grid Layout (PC: 3 Columns) */
+.sb-grid.is-recommended {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+    .sb-grid.is-recommended {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
 .no-results {
     padding: 80px 0;
     text-align: center;

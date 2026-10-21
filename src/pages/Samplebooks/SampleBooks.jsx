@@ -108,20 +108,15 @@ export default function SampleBooks() {
 
       // 2. 카테고리 필터 검사
       let categoryOk = false;
-      if (queryTerm) {
-        if (activeTab === "recommended") {
-          // 추천 탭에서 검색 시 전 카테고리 검색 지원
-          categoryOk = true;
-        } else {
+      if (activeTab === "recommended") {
+        categoryOk = Boolean(sb.isRecommended);
+      } else {
+        if (queryTerm) {
           // 특정 탭에서 검색 시 해당 탭 내 결과가 있으면 탭 우선, 없으면 전 카테고리 결과 지원
           const hasMatchesInActiveTab = sampleBooks.some(item => 
             item.category === activeTab && matchesSearch(item)
           );
           categoryOk = hasMatchesInActiveTab ? sb.category === activeTab : true;
-        }
-      } else {
-        if (activeTab === "recommended") {
-          categoryOk = sb.isRecommended || ["LX", "KCC", "동신", "유성", "이건", "구정", "동화"].includes(sbComputedBrand) || ["LX", "KCC", "동신", "유성", "이건", "구정", "동화"].includes(sb.brand);
         } else {
           categoryOk = sb.category === activeTab;
         }
@@ -135,9 +130,15 @@ export default function SampleBooks() {
         const brandMatches = (
           sbComputedBrand === selectedBrand ||
           sb.brand === selectedBrand ||
-          (selectedBrand === "LX하우시스" && (sb.brand === "LX" || sb.brand === "LX하우시스"))
+          ((selectedBrand === "LX" || selectedBrand === "LX하우시스") && (sb.brand === "LX" || sb.brand === "LX하우시스" || sbComputedBrand.startsWith("LX"))) ||
+          (selectedBrand === "KCC" && (sb.brand === "KCC" || sbComputedBrand.startsWith("KCC"))) ||
+          (selectedBrand === "동신" && (sb.brand === "동신" || sbComputedBrand.startsWith("동신"))) ||
+          (selectedBrand === "현대" && (sb.brand === "현대" || sbComputedBrand.startsWith("현대")))
         );
-        if (queryTerm) {
+
+        if (activeTab === "recommended") {
+          brandOk = brandMatches;
+        } else if (queryTerm) {
           // 검색어가 있는 경우 선택된 브랜드 내 일치 항목 유무 확인
           const hasMatchesInBrand = sampleBooks.some(item => 
             (getComputedBrand(item) === selectedBrand || item.brand === selectedBrand) && matchesSearch(item)
@@ -278,7 +279,7 @@ export default function SampleBooks() {
           </div>
 
           {sortedSampleBooks.length > 0 ? (
-            <div className="sb-grid">
+            <div className={`sb-grid ${activeTab === "recommended" ? "is-recommended" : ""}`}>
               {sortedSampleBooks.map(book => (
                 <SampleBookCard
                   key={book.id}

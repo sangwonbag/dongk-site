@@ -400,7 +400,22 @@ export function getSampleBookPriority(book, category = '') {
     return 1000 + (brandRank * 100);
   }
 
-  // 3. 추천(전체) 탭 및 기타 카테고리
+  // 3. 추천 자재 탭: KCC 센스타일 트랜디(1순위) -> LX하우시스 X.XT(2순위) -> 동신 아트타일(3순위)
+  if (cat === 'recommended') {
+    if ((brand === 'KCC' || id.startsWith('kcc-')) && (id.includes('trendy') || title.includes('트랜디') || title.includes('트렌디'))) {
+      return 1;
+    }
+    if ((brand === 'LX' || id.startsWith('lx-')) && (id.includes('xxt') || title.includes('x.xt') || title.includes('xxt'))) {
+      return 2;
+    }
+    if ((brand === '동신' || id.startsWith('dongshin-')) && (id.includes('art-tile') || id.includes('polyma') || title.includes('아트타일'))) {
+      return 3;
+    }
+    if (book.isRecommended) return 100;
+    return 1000 + (getBrandSortPriority(book, '') * 10);
+  }
+
+  // 4. 기타 fallback
   const isKcc = brand === 'KCC' || title.includes('kcc') || id.startsWith('kcc-');
   if (isKcc) {
     if (id.includes('trendy') || title.includes('트랜디') || title.includes('트렌디')) return 10;
