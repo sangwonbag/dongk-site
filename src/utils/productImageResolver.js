@@ -23,13 +23,16 @@ export function getGeneratedManifestIndices() {
       if (img.extractedCode) {
         const cKey = normalizeCode(img.extractedCode);
         if (cKey) {
-          const isSceneOrExtra = /(?:사무실|시공|거실|침실|카페|매장|office|scene|_\d+$)/i.test(img.fileName || '');
+          const isSceneOrExtra = img.imageType ? (img.imageType !== 'original') : /(?:사무실|시공|거실|침실|카페|매장|office|scene|_\d+$)/i.test(img.fileName || '');
           const existing = generatedManifestCodeIndex.get(cKey);
           if (!existing) {
             generatedManifestCodeIndex.set(cKey, img);
-          } else if (/(?:사무실|시공|거실|침실|카페|매장|office|scene|_\d+$)/i.test(existing.fileName || '') && !isSceneOrExtra) {
-            // Replace scene image with actual product swatch image as primary
-            generatedManifestCodeIndex.set(cKey, img);
+          } else {
+            const existingIsSceneOrExtra = existing.imageType ? (existing.imageType !== 'original') : /(?:사무실|시공|거실|침실|카페|매장|office|scene|_\d+$)/i.test(existing.fileName || '');
+            if (existingIsSceneOrExtra && !isSceneOrExtra) {
+              // Replace scene image with actual product swatch image as primary
+              generatedManifestCodeIndex.set(cKey, img);
+            }
           }
         }
       }
@@ -181,12 +184,15 @@ export function getProductImageCandidates(product) {
   const lineup = getKccLineup(product);
 
   const addCandidate = (url) => {
-    if (!url) return;
+    if (!url || typeof url !== 'string') return;
     const norm = normalizeProductImageUrl(url);
-    if (!norm || norm === '/images/no-image.svg' || candidates.includes(norm)) return;
+    if (!norm || norm === '/images/no-image.svg' || norm.endsWith('/.webp') || candidates.includes(norm)) return;
 
     // Strict lineup boundary checks to prevent cross-lineup image bleed
     if (lineup === 'sensray') {
+      if (norm.includes('B0122J') && !codeNorm.includes('B0122')) {
+        return; // Prevent B0122J from being assigned to other SenseRay products
+      }
       if (norm.includes('/KCC_pro/') || norm.includes('KCC_pro') || norm.includes('센스타일') || norm.includes('TS55') || norm.includes('KCC_square')) {
         return;
       }
@@ -374,7 +380,7 @@ export function sortProductImagesByType(images, productCode = '') {
   for (const src of images) {
     if (!src || typeof src !== 'string') continue;
     const clean = src.split('?')[0].trim();
-    if (!clean || clean.includes('no-image.svg') || clean.includes('deco_tile.png') || clean.includes('material-placeholder.jpg')) {
+    if (!clean || clean.includes('no-image.svg') || clean.includes('deco_tile.png') || clean.includes('material-placeholder.jpg') || clean.endsWith('/.webp')) {
       continue;
     }
 
@@ -457,7 +463,11 @@ export function getAllProductImages(product) {
       if (img.extractedCode && img.fullPublicPath) {
         const imgKey = normalizeCode(img.extractedCode);
         const match = imgKey === cKey || 
-          (baseCode.length >= 4 && (imgKey.startsWith(baseCode) || baseCode.startsWith(imgKey)));
+          (baseCode.length >= 4 && (
+            imgKey === baseCode || 
+            (imgKey.startsWith(baseCode) && !/\d/.test(imgKey.slice(baseCode.length))) ||
+            (baseCode.startsWith(imgKey) && !/\d/.test(baseCode.slice(imgKey.length)))
+          ));
         if (match) {
           const norm = normalizeProductImageUrl(img.fullPublicPath);
           if (norm !== '/images/no-image.svg' && !candidates.includes(norm)) {

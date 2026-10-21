@@ -8,11 +8,11 @@ export const materials = [
     "name": "유로 그레이",
     "code": "NK20-4951",
     "product_code": "NK20-4951",
-    "thumbnail": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4951-Yuro-Gray.png",
-    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4951-Yuro-Gray.png",
-    "image_url": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4951-Yuro-Gray.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/KCC_그린_2.0T/KCC-Green-2.0T-NK20-4951-Yuro-Gray.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/KCC_그린_2.0T/KCC-Green-2.0T-NK20-4951-Yuro-Gray.png",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/KCC_그린_2.0T/KCC-Green-2.0T-NK20-4951-Yuro-Gray.png",
     "images": [
-      "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4951-Yuro-Gray.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/KCC_그린_2.0T/KCC-Green-2.0T-NK20-4951-Yuro-Gray.png"
     ],
     "price": 0,
     "thickness": "2.0T",
@@ -41,11 +41,11 @@ export const materials = [
     "name": "바살트 몬드리안",
     "code": "NK20-5041",
     "product_code": "NK20-5041",
-    "thumbnail": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-5041-Basalt-Mondrian.png",
-    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-5041-Basalt-Mondrian.png",
-    "image_url": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-5041-Basalt-Mondrian.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/KCC_그린_2.0T/KCC-Green-2.0T-NK20-5041-Basalt-Mondrian.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/KCC_그린_2.0T/KCC-Green-2.0T-NK20-5041-Basalt-Mondrian.png",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/KCC_그린_2.0T/KCC-Green-2.0T-NK20-5041-Basalt-Mondrian.png",
     "images": [
-      "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-5041-Basalt-Mondrian.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/KCC_그린_2.0T/KCC-Green-2.0T-NK20-5041-Basalt-Mondrian.png"
     ],
     "price": 0,
     "thickness": "2.0T",
@@ -74,11 +74,11 @@ export const materials = [
     "name": "젠틀 화이트 오크",
     "code": "NK20-4523",
     "product_code": "NK20-4523",
-    "thumbnail": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4523-Gentle-White-Oak.png",
-    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4523-Gentle-White-Oak.png",
-    "image_url": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4523-Gentle-White-Oak.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/KCC_그린_2.0T/KCC-Green-2.0T-NK20-4523-Gentle-White-Oak.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/KCC_그린_2.0T/KCC-Green-2.0T-NK20-4523-Gentle-White-Oak.png",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/KCC_그린_2.0T/KCC-Green-2.0T-NK20-4523-Gentle-White-Oak.png",
     "images": [
-      "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4523-Gentle-White-Oak.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/KCC_그린_2.0T/KCC-Green-2.0T-NK20-4523-Gentle-White-Oak.png"
     ],
     "price": 0,
     "thickness": "2.0T",
@@ -107,11 +107,11 @@ export const materials = [
     "name": "로지 위시오크",
     "code": "NK20-4121",
     "product_code": "NK20-4121",
-    "thumbnail": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4121-Rosy-Wish-Oak.png",
-    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4121-Rosy-Wish-Oak.png",
-    "image_url": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4121-Rosy-Wish-Oak.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/KCC_그린_2.0T/KCC-Green-2.0T-NK20-4121-Rosy-Wish-Oak.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/KCC_그린_2.0T/KCC-Green-2.0T-NK20-4121-Rosy-Wish-Oak.png",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/KCC_그린_2.0T/KCC-Green-2.0T-NK20-4121-Rosy-Wish-Oak.png",
     "images": [
-      "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4121-Rosy-Wish-Oak.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/KCC_그린_2.0T/KCC-Green-2.0T-NK20-4121-Rosy-Wish-Oak.png"
     ],
     "price": 0,
     "thickness": "2.0T",
@@ -140,11 +140,11 @@ export const materials = [
     "name": "스탠다드 오크",
     "code": "NK20-4186",
     "product_code": "NK20-4186",
-    "thumbnail": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4186-Standard-Oak.png",
-    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4186-Standard-Oak.png",
-    "image_url": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4186-Standard-Oak.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/KCC_그린_2.0T/KCC-Green-2.0T-NK20-4186-Standard-Oak.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/KCC_그린_2.0T/KCC-Green-2.0T-NK20-4186-Standard-Oak.png",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/KCC_그린_2.0T/KCC-Green-2.0T-NK20-4186-Standard-Oak.png",
     "images": [
-      "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/jangpan/kcc/KCC-Green-2.0T-NK20-4186-Standard-Oak.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/KCC_그린_2.0T/KCC-Green-2.0T-NK20-4186-Standard-Oak.png"
     ],
     "price": 0,
     "thickness": "2.0T",
@@ -2948,8 +2948,8 @@ export const materials = [
     "subLine": "센스레이 5.0",
     "name": "KCC 센스레이 텍스처 콘크리트 B0114J (5.0T)",
     "code": "B0114J",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0122J.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0122J.jpg",
+    "thumbnail": null,
+    "image": null,
     "images": [],
     "price": 35000,
     "thickness": "5.0T",
@@ -2971,7 +2971,7 @@ export const materials = [
     "package": "12매/box · 2.10㎡",
     "size_text": "457.2 × 914.4mm",
     "unit": "6매/박스 (2.51㎡)",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0122J.jpg",
+    "image_url": null,
     "common_intro": "KCC글라스 센스레이는 5.0mm 두께의 상업용 LVT 바닥재입니다. 내마모층과 UV 코팅 기술을 적용하고 치수 안정성을 고려한 구조로 설계되었으며, 다양한 우드 및 석재 계열 디자인을 제공합니다. 사무실과 상업시설 등 다양한 실내 공간에 활용할 수 있습니다."
   },
   {
@@ -3027,8 +3027,8 @@ export const materials = [
     "subLine": "센스레이 5.0",
     "name": "KCC 센스레이 콘그레이 B3181J (5.0T)",
     "code": "B3181J",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0122J.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0122J.jpg",
+    "thumbnail": null,
+    "image": null,
     "images": [],
     "price": 35000,
     "thickness": "5.0T",
@@ -3050,7 +3050,7 @@ export const materials = [
     "package": "12매/box · 2.10㎡",
     "size_text": "457.2 × 914.4mm",
     "unit": "6매/박스 (2.51㎡)",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0122J.jpg",
+    "image_url": null,
     "common_intro": "KCC글라스 센스레이는 5.0mm 두께의 상업용 LVT 바닥재입니다. 내마모층과 UV 코팅 기술을 적용하고 치수 안정성을 고려한 구조로 설계되었으며, 다양한 우드 및 석재 계열 디자인을 제공합니다. 사무실과 상업시설 등 다양한 실내 공간에 활용할 수 있습니다."
   },
   {
@@ -3061,8 +3061,8 @@ export const materials = [
     "subLine": "센스레이 5.0",
     "name": "KCC 센스레이 콘그레이 B3182J (5.0T)",
     "code": "B3182J",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0122J.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0122J.jpg",
+    "thumbnail": null,
+    "image": null,
     "images": [],
     "price": 35000,
     "thickness": "5.0T",
@@ -3084,7 +3084,7 @@ export const materials = [
     "package": "12매/box · 2.10㎡",
     "size_text": "457.2 × 914.4mm",
     "unit": "6매/박스 (2.51㎡)",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0122J.jpg",
+    "image_url": null,
     "common_intro": "KCC글라스 센스레이는 5.0mm 두께의 상업용 LVT 바닥재입니다. 내마모층과 UV 코팅 기술을 적용하고 치수 안정성을 고려한 구조로 설계되었으며, 다양한 우드 및 석재 계열 디자인을 제공합니다. 사무실과 상업시설 등 다양한 실내 공간에 활용할 수 있습니다."
   },
   {
@@ -3095,8 +3095,8 @@ export const materials = [
     "subLine": "센스레이 5.0",
     "name": "KCC 센스레이 콘그레이 B3183J (5.0T)",
     "code": "B3183J",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0122J.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0122J.jpg",
+    "thumbnail": null,
+    "image": null,
     "images": [],
     "price": 35000,
     "thickness": "5.0T",
@@ -3118,7 +3118,7 @@ export const materials = [
     "package": "12매/box · 2.10㎡",
     "size_text": "457.2 × 914.4mm",
     "unit": "6매/박스 (2.51㎡)",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0122J.jpg",
+    "image_url": null,
     "common_intro": "KCC글라스 센스레이는 5.0mm 두께의 상업용 LVT 바닥재입니다. 내마모층과 UV 코팅 기술을 적용하고 치수 안정성을 고려한 구조로 설계되었으며, 다양한 우드 및 석재 계열 디자인을 제공합니다. 사무실과 상업시설 등 다양한 실내 공간에 활용할 수 있습니다."
   },
   {
@@ -3129,8 +3129,8 @@ export const materials = [
     "subLine": "센스레이 5.0",
     "name": "KCC 센스레이 소프트 콘크리트 B3191J (5.0T)",
     "code": "B3191J",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0122J.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0122J.jpg",
+    "thumbnail": null,
+    "image": null,
     "images": [],
     "price": 35000,
     "thickness": "5.0T",
@@ -3152,7 +3152,7 @@ export const materials = [
     "package": "12매/box · 2.10㎡",
     "size_text": "457.2 × 914.4mm",
     "unit": "6매/박스 (2.51㎡)",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0122J.jpg",
+    "image_url": null,
     "common_intro": "KCC글라스 센스레이는 5.0mm 두께의 상업용 LVT 바닥재입니다. 내마모층과 UV 코팅 기술을 적용하고 치수 안정성을 고려한 구조로 설계되었으며, 다양한 우드 및 석재 계열 디자인을 제공합니다. 사무실과 상업시설 등 다양한 실내 공간에 활용할 수 있습니다."
   },
   {
@@ -3163,8 +3163,8 @@ export const materials = [
     "subLine": "센스레이 5.0",
     "name": "KCC 센스레이 소프트 콘크리트 B3192J (5.0T)",
     "code": "B3192J",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0122J.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0122J.jpg",
+    "thumbnail": null,
+    "image": null,
     "images": [],
     "price": 35000,
     "thickness": "5.0T",
@@ -3186,7 +3186,7 @@ export const materials = [
     "package": "12매/box · 2.10㎡",
     "size_text": "457.2 × 914.4mm",
     "unit": "6매/박스 (2.51㎡)",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0122J.jpg",
+    "image_url": null,
     "common_intro": "KCC글라스 센스레이는 5.0mm 두께의 상업용 LVT 바닥재입니다. 내마모층과 UV 코팅 기술을 적용하고 치수 안정성을 고려한 구조로 설계되었으며, 다양한 우드 및 석재 계열 디자인을 제공합니다. 사무실과 상업시설 등 다양한 실내 공간에 활용할 수 있습니다."
   },
   {
@@ -3197,12 +3197,10 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5502P",
     "code": "TS 5502P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5502P_0.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5502P_1.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5502P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P.webp"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -3225,7 +3223,7 @@ export const materials = [
     "notice": "교차 시공 권장 제품 (직각 교차 패턴 시공 시 완성도 향상)",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5503p",
@@ -3235,12 +3233,10 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5503P",
     "code": "TS 5503P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5503P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5503P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5503P_0.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5503P_1.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5503P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5503P.webp"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -3263,7 +3259,7 @@ export const materials = [
     "notice": "교차 시공 권장 제품 (직각 교차 패턴 시공 시 완성도 향상)",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5503P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5510p",
@@ -3273,12 +3269,10 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5510P",
     "code": "TS 5510P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5510P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5510P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5510P_0.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5510P_1.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5510P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5510P.webp"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -3299,7 +3293,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5510P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5511p",
@@ -3309,12 +3303,10 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5511P",
     "code": "TS 5511P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5511P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5511P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5511P_0.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5511P_1.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5511P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5511P.webp"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -3335,7 +3327,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5511P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5516p",
@@ -3345,12 +3337,10 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5516P",
     "code": "TS 5516P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5516P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5516P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5516P_0.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5516P_1.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5516P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5516P.webp"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -3371,7 +3361,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5516P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5518p",
@@ -3381,12 +3371,10 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5518P",
     "code": "TS 5518P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5518P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5518P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5518P_0.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5518P_1.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5518P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5518P.webp"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -3407,7 +3395,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5518P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5519p",
@@ -3417,12 +3405,10 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5519P",
     "code": "TS 5519P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5519P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5519P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5519P_0.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5519P_1.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5519P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5519P.webp"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -3443,7 +3429,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5519P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5531m",
@@ -3702,11 +3688,10 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5541P",
     "code": "TS 5541P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5541P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5541P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5541P_0.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5541P_1.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5541P.webp"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -3727,7 +3712,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5541P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5542p",
@@ -3737,11 +3722,10 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5542P",
     "code": "TS 5542P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5542P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5542P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5542P_0.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5542P_3.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5542P.webp"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -3762,7 +3746,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5542P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5543p",
@@ -3772,12 +3756,10 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5543P",
     "code": "TS 5543P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5543P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5543P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5543P_0.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5543P_1.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5543P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5543P.webp"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -3798,7 +3780,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5543P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5544p",
@@ -3808,11 +3790,10 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5544P",
     "code": "TS 5544P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5544P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5544P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5544P_0.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5544P_1.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5544P.webp"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -3833,7 +3814,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5544P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5545p",
@@ -3843,11 +3824,10 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5545P",
     "code": "TS 5545P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5545P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5545P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5545P_1.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5545P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5545P.webp"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -3868,7 +3848,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5545P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5546p",
@@ -3878,11 +3858,10 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5546P",
     "code": "TS 5546P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5546P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5546P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5546P_0.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5546P_1.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5546P.webp"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -3903,7 +3882,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5546P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5547p",
@@ -3913,12 +3892,10 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5547P",
     "code": "TS 5547P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5547P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5547P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5547P_0.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5547P_1.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5547P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5547P.webp"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -3939,7 +3916,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5547P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5548p",
@@ -3949,11 +3926,10 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5548P",
     "code": "TS 5548P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5548P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5548P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5548P_1.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5548P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5548P.webp"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -3974,7 +3950,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5548P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5549p",
@@ -3984,10 +3960,10 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5549P",
     "code": "TS 5549P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5549P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5549P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5549P_0.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5549P.webp"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -4008,7 +3984,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5549P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5550p",
@@ -4018,12 +3994,10 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5550P",
     "code": "TS 5550P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5550P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5550P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5550P_0.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5550P_1.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5550P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5550P.webp"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -4044,7 +4018,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5550P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5551p",
@@ -4054,12 +4028,10 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5551P",
     "code": "TS 5551P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5551P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5551P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5551P_0.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5551P_1.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5551P_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5551P.webp"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -4080,7 +4052,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5551P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5552p",
@@ -4090,11 +4062,10 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5552P",
     "code": "TS 5552P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5552P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5552P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5552P_0.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5552P_1.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5552P.webp"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -4115,7 +4086,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5552P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5102g",
@@ -85601,10 +85572,10 @@ export const materials = [
     "subLine": "그린1.8",
     "name": "",
     "code": "NP18-3543",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-3543_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-3543_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-3543_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-3543_thumbnail.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-3543_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-3543_thumbnail.jpg"
     ],
     "price": 0,
     "thickness": "1.8T",
@@ -85616,7 +85587,8 @@ export const materials = [
     },
     "description": "그린",
     "product_code": "NP18-3543",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-3543_thumbnail.jpg"
   },
   {
     "id": "장판-kcc-그린-np18-4123",
@@ -85626,10 +85598,10 @@ export const materials = [
     "subLine": "그린1.8",
     "name": "",
     "code": "NP18-4123",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4123_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4123_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4123_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4123_thumbnail.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4123_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4123_thumbnail.jpg"
     ],
     "price": 0,
     "thickness": "1.8T",
@@ -85641,7 +85613,8 @@ export const materials = [
     },
     "description": "그린",
     "product_code": "NP18-4123",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4123_thumbnail.jpg"
   },
   {
     "id": "장판-kcc-그린-np18-4125",
@@ -85651,10 +85624,10 @@ export const materials = [
     "subLine": "그린1.8",
     "name": "",
     "code": "NP18-4125",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4125_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4125_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4125_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4125_thumbnail.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4125_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4125_thumbnail.jpg"
     ],
     "price": 0,
     "thickness": "1.8T",
@@ -85666,7 +85639,8 @@ export const materials = [
     },
     "description": "그린",
     "product_code": "NP18-4125",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4125_thumbnail.jpg"
   },
   {
     "id": "장판-kcc-그린-np18-4681",
@@ -85676,10 +85650,10 @@ export const materials = [
     "subLine": "그린1.8",
     "name": "",
     "code": "NP18-4681",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4681_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4681_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4681_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4681_thumbnail.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4681_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4681_thumbnail.jpg"
     ],
     "price": 0,
     "thickness": "1.8T",
@@ -85691,7 +85665,8 @@ export const materials = [
     },
     "description": "그린",
     "product_code": "NP18-4681",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4681_thumbnail.jpg"
   },
   {
     "id": "장판-kcc-그린-np18-4701",
@@ -85701,10 +85676,10 @@ export const materials = [
     "subLine": "그린1.8",
     "name": "",
     "code": "NP18-4701",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4701_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4701_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4701_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4701_thumbnail.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4701_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4701_thumbnail.jpg"
     ],
     "price": 0,
     "thickness": "1.8T",
@@ -85716,7 +85691,8 @@ export const materials = [
     },
     "description": "그린",
     "product_code": "NP18-4701",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4701_thumbnail.jpg"
   },
   {
     "id": "장판-kcc-그린-np18-4703",
@@ -85726,10 +85702,10 @@ export const materials = [
     "subLine": "그린1.8",
     "name": "",
     "code": "NP18-4703",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4703_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4703_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4703_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4703_thumbnail.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4703_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4703_thumbnail.jpg"
     ],
     "price": 0,
     "thickness": "1.8T",
@@ -85741,7 +85717,8 @@ export const materials = [
     },
     "description": "그린",
     "product_code": "NP18-4703",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4703_thumbnail.jpg"
   },
   {
     "id": "장판-kcc-그린-np18-4733",
@@ -85751,10 +85728,10 @@ export const materials = [
     "subLine": "그린1.8",
     "name": "",
     "code": "NP18-4733",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4733_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4733_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4733_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4733_thumbnail.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4733_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4733_thumbnail.jpg"
     ],
     "price": 0,
     "thickness": "1.8T",
@@ -85766,7 +85743,8 @@ export const materials = [
     },
     "description": "그린",
     "product_code": "NP18-4733",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4733_thumbnail.jpg"
   },
   {
     "id": "장판-kcc-그린-np18-4863",
@@ -85776,10 +85754,10 @@ export const materials = [
     "subLine": "그린1.8",
     "name": "",
     "code": "NP18-4863",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4863_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4863_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4863_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4863_thumbnail.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4863_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4863_thumbnail.jpg"
     ],
     "price": 0,
     "thickness": "1.8T",
@@ -85791,7 +85769,8 @@ export const materials = [
     },
     "description": "그린",
     "product_code": "NP18-4863",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4863_thumbnail.jpg"
   },
   {
     "id": "장판-kcc-그린-np18-4921",
@@ -85801,10 +85780,10 @@ export const materials = [
     "subLine": "그린1.8",
     "name": "",
     "code": "NP18-4921",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4921_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4921_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4921_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4921_thumbnail.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-4921_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4921_thumbnail.jpg"
     ],
     "price": 0,
     "thickness": "1.8T",
@@ -85816,7 +85795,8 @@ export const materials = [
     },
     "description": "그린",
     "product_code": "NP18-4921",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4921_thumbnail.jpg"
   },
   {
     "id": "장판-kcc-그린-np18-5021",
@@ -85826,10 +85806,10 @@ export const materials = [
     "subLine": "그린1.8",
     "name": "",
     "code": "NP18-5021",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-5021_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-5021_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-5021_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-5021_thumbnail.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-5021_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-5021_thumbnail.jpg"
     ],
     "price": 0,
     "thickness": "1.8T",
@@ -85841,7 +85821,8 @@ export const materials = [
     },
     "description": "그린",
     "product_code": "NP18-5021",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-5021_thumbnail.jpg"
   },
   {
     "id": "장판-kcc-그린-np18-5031",
@@ -85851,10 +85832,10 @@ export const materials = [
     "subLine": "그린1.8",
     "name": "",
     "code": "NP18-5031",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-5031_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-5031_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-5031_thumbnail.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-5031_thumbnail.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EA%B7%B8%EB%A6%B01.8/NP18-5031_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-5031_thumbnail.jpg"
     ],
     "price": 0,
     "thickness": "1.8T",
@@ -85866,7 +85847,8 @@ export const materials = [
     },
     "description": "그린",
     "product_code": "NP18-5031",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-5031_thumbnail.jpg"
   },
   {
     "id": "장판-kcc-도담-nj27-4202",
@@ -85876,11 +85858,10 @@ export const materials = [
     "subLine": "도담_2.7",
     "name": "",
     "code": "NJ27-4202",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4202.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4202.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-4202.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-4202.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4202.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NJ27-4202_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-4202.jpg"
     ],
     "price": 0,
     "thickness": "2.7T",
@@ -85892,7 +85873,8 @@ export const materials = [
     },
     "description": "도담",
     "product_code": "NJ27-4202",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-4202.jpg"
   },
   {
     "id": "장판-kcc-도담-nj27-4583",
@@ -85902,11 +85884,10 @@ export const materials = [
     "subLine": "도담_2.7",
     "name": "",
     "code": "NJ27-4583",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4583.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4583.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-4583.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-4583.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4583.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NJ27-4583_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-4583.jpg"
     ],
     "price": 0,
     "thickness": "2.7T",
@@ -85918,7 +85899,8 @@ export const materials = [
     },
     "description": "도담",
     "product_code": "NJ27-4583",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-4583.jpg"
   },
   {
     "id": "장판-kcc-도담-nj27-4911",
@@ -85928,11 +85910,10 @@ export const materials = [
     "subLine": "도담_2.7",
     "name": "",
     "code": "NJ27-4911",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4911.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4911.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-4911.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-4911.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4911.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NJ27-4911_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-4911.jpg"
     ],
     "price": 0,
     "thickness": "2.7T",
@@ -85944,7 +85925,8 @@ export const materials = [
     },
     "description": "도담",
     "product_code": "NJ27-4911",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-4911.jpg"
   },
   {
     "id": "장판-kcc-도담-nj27-4965",
@@ -85954,11 +85936,10 @@ export const materials = [
     "subLine": "도담_2.7",
     "name": "",
     "code": "NJ27-4965",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4965.png",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4965.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-4965.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-4965.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-4965.png",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NJ27-4965_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-4965.png"
     ],
     "price": 0,
     "thickness": "2.7T",
@@ -85970,7 +85951,8 @@ export const materials = [
     },
     "description": "도담",
     "product_code": "NJ27-4965",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-4965.png"
   },
   {
     "id": "장판-kcc-도담-nj27-5121",
@@ -85980,11 +85962,10 @@ export const materials = [
     "subLine": "도담_2.7",
     "name": "",
     "code": "NJ27-5121",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-5121.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-5121.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-5121.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-5121.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-5121.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NJ27-5121_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-5121.jpg"
     ],
     "price": 0,
     "thickness": "2.7T",
@@ -85996,7 +85977,8 @@ export const materials = [
     },
     "description": "도담",
     "product_code": "NJ27-5121",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-5121.jpg"
   },
   {
     "id": "장판-kcc-도담-nj27-5235",
@@ -86006,11 +85988,10 @@ export const materials = [
     "subLine": "도담_2.7",
     "name": "",
     "code": "NJ27-5235",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-5235.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-5235.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-5235.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-5235.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-5235.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NJ27-5235_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-5235.jpg"
     ],
     "price": 0,
     "thickness": "2.7T",
@@ -86022,7 +86003,8 @@ export const materials = [
     },
     "description": "도담",
     "product_code": "NJ27-5235",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-5235.jpg"
   },
   {
     "id": "장판-kcc-도담-nj27-5331",
@@ -86032,11 +86014,10 @@ export const materials = [
     "subLine": "도담_2.7",
     "name": "",
     "code": "NJ27-5331",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-5331.png",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-5331.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-5331.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-5331.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/NJ27-5331.png",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_2.7/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NJ27-5331_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-5331.png"
     ],
     "price": 0,
     "thickness": "2.7T",
@@ -86048,7 +86029,8 @@ export const materials = [
     },
     "description": "도담",
     "product_code": "NJ27-5331",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/도담_2.7/NJ27-5331.png"
   },
   {
     "id": "장판-kcc-도담-nr32-4368",
@@ -86058,11 +86040,10 @@ export const materials = [
     "subLine": "도담_3.2",
     "name": "",
     "code": "NR32-4368",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4368.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4368.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-4368.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-4368.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4368.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4368_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-4368.jpg"
     ],
     "price": 0,
     "thickness": "3.2T",
@@ -86074,7 +86055,8 @@ export const materials = [
     },
     "description": "도담",
     "product_code": "NR32-4368",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-4368.jpg"
   },
   {
     "id": "장판-kcc-도담-nr32-4791",
@@ -86084,11 +86066,10 @@ export const materials = [
     "subLine": "도담_3.2",
     "name": "",
     "code": "NR32-4791",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4791.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4791.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-4791.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-4791.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4791.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4791_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-4791.jpg"
     ],
     "price": 0,
     "thickness": "3.2T",
@@ -86100,7 +86081,8 @@ export const materials = [
     },
     "description": "도담",
     "product_code": "NR32-4791",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-4791.jpg"
   },
   {
     "id": "장판-kcc-도담-nr32-4835",
@@ -86110,11 +86092,10 @@ export const materials = [
     "subLine": "도담_3.2",
     "name": "",
     "code": "NR32-4835",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4835.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4835.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-4835.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-4835.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4835.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4835_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-4835.jpg"
     ],
     "price": 0,
     "thickness": "3.2T",
@@ -86126,7 +86107,8 @@ export const materials = [
     },
     "description": "도담",
     "product_code": "NR32-4835",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-4835.jpg"
   },
   {
     "id": "장판-kcc-도담-nr32-4901",
@@ -86136,11 +86118,10 @@ export const materials = [
     "subLine": "도담_3.2",
     "name": "",
     "code": "NR32-4901",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4901.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4901.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-4901.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-4901.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4901.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4901_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-4901.jpg"
     ],
     "price": 0,
     "thickness": "3.2T",
@@ -86152,7 +86133,8 @@ export const materials = [
     },
     "description": "도담",
     "product_code": "NR32-4901",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-4901.jpg"
   },
   {
     "id": "장판-kcc-도담-nr32-4968",
@@ -86162,11 +86144,10 @@ export const materials = [
     "subLine": "도담_3.2",
     "name": "",
     "code": "NR32-4968",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4968.png",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4968.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-4968.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-4968.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4968.png",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-4968_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-4968.png"
     ],
     "price": 0,
     "thickness": "3.2T",
@@ -86178,7 +86159,8 @@ export const materials = [
     },
     "description": "도담",
     "product_code": "NR32-4968",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-4968.png"
   },
   {
     "id": "장판-kcc-도담-nr32-5103",
@@ -86188,11 +86170,10 @@ export const materials = [
     "subLine": "도담_3.2",
     "name": "",
     "code": "NR32-5103",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5103.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5103.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5103.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5103.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5103.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5103_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5103.jpg"
     ],
     "price": 0,
     "thickness": "3.2T",
@@ -86204,7 +86185,8 @@ export const materials = [
     },
     "description": "도담",
     "product_code": "NR32-5103",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5103.jpg"
   },
   {
     "id": "장판-kcc-도담-nr32-5105",
@@ -86214,11 +86196,10 @@ export const materials = [
     "subLine": "도담_3.2",
     "name": "",
     "code": "NR32-5105",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5105.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5105.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5105.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5105.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5105.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5105_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5105.jpg"
     ],
     "price": 0,
     "thickness": "3.2T",
@@ -86230,7 +86211,8 @@ export const materials = [
     },
     "description": "도담",
     "product_code": "NR32-5105",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5105.jpg"
   },
   {
     "id": "장판-kcc-도담-nr32-5111",
@@ -86240,11 +86222,10 @@ export const materials = [
     "subLine": "도담_3.2",
     "name": "",
     "code": "NR32-5111",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5111.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5111.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5111.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5111.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5111.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5111_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5111.jpg"
     ],
     "price": 0,
     "thickness": "3.2T",
@@ -86256,7 +86237,8 @@ export const materials = [
     },
     "description": "도담",
     "product_code": "NR32-5111",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5111.jpg"
   },
   {
     "id": "장판-kcc-도담-nr32-5131",
@@ -86266,11 +86248,10 @@ export const materials = [
     "subLine": "도담_3.2",
     "name": "",
     "code": "NR32-5131",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5131.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5131.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5131.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5131.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5131.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5131_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5131.jpg"
     ],
     "price": 0,
     "thickness": "3.2T",
@@ -86282,7 +86263,8 @@ export const materials = [
     },
     "description": "도담",
     "product_code": "NR32-5131",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5131.jpg"
   },
   {
     "id": "장판-kcc-도담-nr32-5165",
@@ -86292,11 +86274,10 @@ export const materials = [
     "subLine": "도담_3.2",
     "name": "",
     "code": "NR32-5165",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5165.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5165.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5165.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5165.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5165.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5165_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5165.jpg"
     ],
     "price": 0,
     "thickness": "3.2T",
@@ -86308,7 +86289,8 @@ export const materials = [
     },
     "description": "도담",
     "product_code": "NR32-5165",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5165.jpg"
   },
   {
     "id": "장판-kcc-도담-nr32-5321",
@@ -86318,11 +86300,10 @@ export const materials = [
     "subLine": "도담_3.2",
     "name": "",
     "code": "NR32-5321",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5321.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5321.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5321.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5321.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5321.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5321_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5321.jpg"
     ],
     "price": 0,
     "thickness": "3.2T",
@@ -86334,7 +86315,8 @@ export const materials = [
     },
     "description": "도담",
     "product_code": "NR32-5321",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5321.jpg"
   },
   {
     "id": "장판-kcc-도담-nr32-5323",
@@ -86344,11 +86326,10 @@ export const materials = [
     "subLine": "도담_3.2",
     "name": "",
     "code": "NR32-5323",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5323.png",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5323.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5323.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5323.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5323.png",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EB%8F%84%EB%8B%B4_3.2/NR32-5323_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5323.png"
     ],
     "price": 0,
     "thickness": "3.2T",
@@ -86360,7 +86341,8 @@ export const materials = [
     },
     "description": "도담",
     "product_code": "NR32-5323",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/도담_3.2/NR32-5323.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-4151_detail",
@@ -86369,11 +86351,11 @@ export const materials = [
     "line": "숲 옥",
     "subLine": "숲 옥2.2",
     "name": "",
-    "code": "MN22-4151_detail",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4151_detail.png",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4151_detail.png",
+    "code": "MN22-4151",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4151_detail.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4151_detail.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4151_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4151_detail.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86384,8 +86366,9 @@ export const materials = [
       "packing": "30m / Roll"
     },
     "description": "숲 옥",
-    "product_code": "MN22-4151_detail",
-    "product_name": ""
+    "product_code": "MN22-4151",
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4151_detail.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-4162_detail",
@@ -86394,11 +86377,11 @@ export const materials = [
     "line": "숲 옥",
     "subLine": "숲 옥2.2",
     "name": "",
-    "code": "MN22-4162_detail",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4162_detail.png",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4162_detail.png",
+    "code": "MN22-4162",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4162_detail.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4162_detail.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4162_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4162_detail.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86409,8 +86392,9 @@ export const materials = [
       "packing": "30m / Roll"
     },
     "description": "숲 옥",
-    "product_code": "MN22-4162_detail",
-    "product_name": ""
+    "product_code": "MN22-4162",
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4162_detail.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-4383_detail",
@@ -86419,11 +86403,11 @@ export const materials = [
     "line": "숲 옥",
     "subLine": "숲 옥2.2",
     "name": "",
-    "code": "MN22-4383_detail",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4383_detail.png",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4383_detail.png",
+    "code": "MN22-4383",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4383_detail.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4383_detail.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4383_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4383_detail.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86434,8 +86418,9 @@ export const materials = [
       "packing": "30m / Roll"
     },
     "description": "숲 옥",
-    "product_code": "MN22-4383_detail",
-    "product_name": ""
+    "product_code": "MN22-4383",
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4383_detail.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-4581_detail",
@@ -86444,11 +86429,11 @@ export const materials = [
     "line": "숲 옥",
     "subLine": "숲 옥2.2",
     "name": "",
-    "code": "MN22-4581_detail",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4581_detail.png",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4581_detail.png",
+    "code": "MN22-4581",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4581_detail.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4581_detail.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4581_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4581_detail.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86459,8 +86444,9 @@ export const materials = [
       "packing": "30m / Roll"
     },
     "description": "숲 옥",
-    "product_code": "MN22-4581_detail",
-    "product_name": ""
+    "product_code": "MN22-4581",
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4581_detail.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-4591_detail",
@@ -86469,11 +86455,11 @@ export const materials = [
     "line": "숲 옥",
     "subLine": "숲 옥2.2",
     "name": "",
-    "code": "MN22-4591_detail",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4591_detail.png",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4591_detail.png",
+    "code": "MN22-4591",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4591_detail.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4591_detail.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4591_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4591_detail.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86484,8 +86470,9 @@ export const materials = [
       "packing": "30m / Roll"
     },
     "description": "숲 옥",
-    "product_code": "MN22-4591_detail",
-    "product_name": ""
+    "product_code": "MN22-4591",
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4591_detail.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-4811_detail",
@@ -86494,11 +86481,11 @@ export const materials = [
     "line": "숲 옥",
     "subLine": "숲 옥2.2",
     "name": "",
-    "code": "MN22-4811_detail",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4811_detail.png",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4811_detail.png",
+    "code": "MN22-4811",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4811_detail.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4811_detail.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4811_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4811_detail.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86509,8 +86496,9 @@ export const materials = [
       "packing": "30m / Roll"
     },
     "description": "숲 옥",
-    "product_code": "MN22-4811_detail",
-    "product_name": ""
+    "product_code": "MN22-4811",
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4811_detail.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-4821_detail",
@@ -86519,11 +86507,11 @@ export const materials = [
     "line": "숲 옥",
     "subLine": "숲 옥2.2",
     "name": "",
-    "code": "MN22-4821_detail",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4821_detail.png",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4821_detail.png",
+    "code": "MN22-4821",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4821_detail.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4821_detail.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4821_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4821_detail.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86534,8 +86522,9 @@ export const materials = [
       "packing": "30m / Roll"
     },
     "description": "숲 옥",
-    "product_code": "MN22-4821_detail",
-    "product_name": ""
+    "product_code": "MN22-4821",
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4821_detail.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-4823_detail",
@@ -86544,11 +86533,11 @@ export const materials = [
     "line": "숲 옥",
     "subLine": "숲 옥2.2",
     "name": "",
-    "code": "MN22-4823_detail",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4823_detail.png",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4823_detail.png",
+    "code": "MN22-4823",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4823_detail.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4823_detail.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4823_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4823_detail.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86559,8 +86548,9 @@ export const materials = [
       "packing": "30m / Roll"
     },
     "description": "숲 옥",
-    "product_code": "MN22-4823_detail",
-    "product_name": ""
+    "product_code": "MN22-4823",
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4823_detail.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-4831_detail",
@@ -86569,11 +86559,11 @@ export const materials = [
     "line": "숲 옥",
     "subLine": "숲 옥2.2",
     "name": "",
-    "code": "MN22-4831_detail",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4831_detail.png",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4831_detail.png",
+    "code": "MN22-4831",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4831_detail.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4831_detail.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-4831_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4831_detail.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86584,8 +86574,9 @@ export const materials = [
       "packing": "30m / Roll"
     },
     "description": "숲 옥",
-    "product_code": "MN22-4831_detail",
-    "product_name": ""
+    "product_code": "MN22-4831",
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4831_detail.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-5051_detail",
@@ -86594,11 +86585,11 @@ export const materials = [
     "line": "숲 옥",
     "subLine": "숲 옥2.2",
     "name": "",
-    "code": "MN22-5051_detail",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5051_detail.png",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5051_detail.png",
+    "code": "MN22-5051",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5051_detail.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5051_detail.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5051_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5051_detail.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86609,8 +86600,9 @@ export const materials = [
       "packing": "30m / Roll"
     },
     "description": "숲 옥",
-    "product_code": "MN22-5051_detail",
-    "product_name": ""
+    "product_code": "MN22-5051",
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5051_detail.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-5061_detail",
@@ -86619,11 +86611,11 @@ export const materials = [
     "line": "숲 옥",
     "subLine": "숲 옥2.2",
     "name": "",
-    "code": "MN22-5061_detail",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5061_detail.png",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5061_detail.png",
+    "code": "MN22-5061",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5061_detail.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5061_detail.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5061_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5061_detail.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86634,8 +86626,9 @@ export const materials = [
       "packing": "30m / Roll"
     },
     "description": "숲 옥",
-    "product_code": "MN22-5061_detail",
-    "product_name": ""
+    "product_code": "MN22-5061",
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5061_detail.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-5071_detail",
@@ -86644,11 +86637,11 @@ export const materials = [
     "line": "숲 옥",
     "subLine": "숲 옥2.2",
     "name": "",
-    "code": "MN22-5071_detail",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5071_detail.png",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5071_detail.png",
+    "code": "MN22-5071",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5071_detail.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5071_detail.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5071_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5071_detail.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86659,8 +86652,9 @@ export const materials = [
       "packing": "30m / Roll"
     },
     "description": "숲 옥",
-    "product_code": "MN22-5071_detail",
-    "product_name": ""
+    "product_code": "MN22-5071",
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5071_detail.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-5091_detail",
@@ -86669,11 +86663,11 @@ export const materials = [
     "line": "숲 옥",
     "subLine": "숲 옥2.2",
     "name": "",
-    "code": "MN22-5091_detail",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5091_detail.png",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5091_detail.png",
+    "code": "MN22-5091",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5091_detail.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5091_detail.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5091_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5091_detail.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86684,8 +86678,9 @@ export const materials = [
       "packing": "30m / Roll"
     },
     "description": "숲 옥",
-    "product_code": "MN22-5091_detail",
-    "product_name": ""
+    "product_code": "MN22-5091",
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5091_detail.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-5191_detail",
@@ -86694,11 +86689,11 @@ export const materials = [
     "line": "숲 옥",
     "subLine": "숲 옥2.2",
     "name": "",
-    "code": "MN22-5191_detail",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5191_detail.png",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5191_detail.png",
+    "code": "MN22-5191",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5191_detail.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5191_detail.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5191_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5191_detail.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86709,8 +86704,9 @@ export const materials = [
       "packing": "30m / Roll"
     },
     "description": "숲 옥",
-    "product_code": "MN22-5191_detail",
-    "product_name": ""
+    "product_code": "MN22-5191",
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5191_detail.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-5201_detail",
@@ -86719,11 +86715,11 @@ export const materials = [
     "line": "숲 옥",
     "subLine": "숲 옥2.2",
     "name": "",
-    "code": "MN22-5201_detail",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5201_detail.png",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5201_detail.png",
+    "code": "MN22-5201",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5201_detail.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5201_detail.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5201_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5201_detail.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86734,8 +86730,9 @@ export const materials = [
       "packing": "30m / Roll"
     },
     "description": "숲 옥",
-    "product_code": "MN22-5201_detail",
-    "product_name": ""
+    "product_code": "MN22-5201",
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5201_detail.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-5203_detail",
@@ -86744,11 +86741,11 @@ export const materials = [
     "line": "숲 옥",
     "subLine": "숲 옥2.2",
     "name": "",
-    "code": "MN22-5203_detail",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5203_detail.png",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5203_detail.png",
+    "code": "MN22-5203",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5203_detail.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5203_detail.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5203_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5203_detail.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86759,8 +86756,9 @@ export const materials = [
       "packing": "30m / Roll"
     },
     "description": "숲 옥",
-    "product_code": "MN22-5203_detail",
-    "product_name": ""
+    "product_code": "MN22-5203",
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5203_detail.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-5211_detail",
@@ -86769,11 +86767,11 @@ export const materials = [
     "line": "숲 옥",
     "subLine": "숲 옥2.2",
     "name": "",
-    "code": "MN22-5211_detail",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5211_detail.png",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5211_detail.png",
+    "code": "MN22-5211",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5211_detail.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5211_detail.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5211_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5211_detail.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86784,8 +86782,9 @@ export const materials = [
       "packing": "30m / Roll"
     },
     "description": "숲 옥",
-    "product_code": "MN22-5211_detail",
-    "product_name": ""
+    "product_code": "MN22-5211",
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5211_detail.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-5221_detail",
@@ -86794,11 +86793,11 @@ export const materials = [
     "line": "숲 옥",
     "subLine": "숲 옥2.2",
     "name": "",
-    "code": "MN22-5221_detail",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5221_detail.png",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5221_detail.png",
+    "code": "MN22-5221",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5221_detail.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5221_detail.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5221_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5221_detail.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86809,8 +86808,9 @@ export const materials = [
       "packing": "30m / Roll"
     },
     "description": "숲 옥",
-    "product_code": "MN22-5221_detail",
-    "product_name": ""
+    "product_code": "MN22-5221",
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5221_detail.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-5231_detail",
@@ -86819,11 +86819,11 @@ export const materials = [
     "line": "숲 옥",
     "subLine": "숲 옥2.2",
     "name": "",
-    "code": "MN22-5231_detail",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5231_detail.png",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5231_detail.png",
+    "code": "MN22-5231",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5231_detail.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5231_detail.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5231_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5231_detail.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86834,8 +86834,9 @@ export const materials = [
       "packing": "30m / Roll"
     },
     "description": "숲 옥",
-    "product_code": "MN22-5231_detail",
-    "product_name": ""
+    "product_code": "MN22-5231",
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5231_detail.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-5233_detail",
@@ -86844,11 +86845,11 @@ export const materials = [
     "line": "숲 옥",
     "subLine": "숲 옥2.2",
     "name": "",
-    "code": "MN22-5233_detail",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5233_detail.png",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5233_detail.png",
+    "code": "MN22-5233",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5233_detail.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5233_detail.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%EC%88%B2%20%EC%98%A52.2/MN22-5233_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5233_detail.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86859,8 +86860,9 @@ export const materials = [
       "packing": "30m / Roll"
     },
     "description": "숲 옥",
-    "product_code": "MN22-5233_detail",
-    "product_name": ""
+    "product_code": "MN22-5233",
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5233_detail.png"
   },
   {
     "id": "장판-kcc-휴가온-nc45-4232",
@@ -86870,11 +86872,10 @@ export const materials = [
     "subLine": "휴가온_4.5",
     "name": "",
     "code": "NC45-4232",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4232.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4232.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-4232.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-4232.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4232.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NC45-4232_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-4232.jpg"
     ],
     "price": 0,
     "thickness": "4.5T",
@@ -86886,7 +86887,8 @@ export const materials = [
     },
     "description": "휴가온",
     "product_code": "NC45-4232",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-4232.jpg"
   },
   {
     "id": "장판-kcc-휴가온-nc45-4751",
@@ -86896,11 +86898,10 @@ export const materials = [
     "subLine": "휴가온_4.5",
     "name": "",
     "code": "NC45-4751",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4751.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4751.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-4751.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-4751.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4751.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NC45-4751_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-4751.jpg"
     ],
     "price": 0,
     "thickness": "4.5T",
@@ -86912,7 +86913,8 @@ export const materials = [
     },
     "description": "휴가온",
     "product_code": "NC45-4751",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-4751.jpg"
   },
   {
     "id": "장판-kcc-휴가온-nc45-4761",
@@ -86922,11 +86924,10 @@ export const materials = [
     "subLine": "휴가온_4.5",
     "name": "",
     "code": "NC45-4761",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4761.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4761.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-4761.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-4761.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4761.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NC45-4761_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-4761.jpg"
     ],
     "price": 0,
     "thickness": "4.5T",
@@ -86938,7 +86939,8 @@ export const materials = [
     },
     "description": "휴가온",
     "product_code": "NC45-4761",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-4761.jpg"
   },
   {
     "id": "장판-kcc-휴가온-nc45-4941",
@@ -86948,11 +86950,10 @@ export const materials = [
     "subLine": "휴가온_4.5",
     "name": "",
     "code": "NC45-4941",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4941.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4941.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-4941.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-4941.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-4941.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NC45-4941_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-4941.jpg"
     ],
     "price": 0,
     "thickness": "4.5T",
@@ -86964,7 +86965,8 @@ export const materials = [
     },
     "description": "휴가온",
     "product_code": "NC45-4941",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-4941.jpg"
   },
   {
     "id": "장판-kcc-휴가온-nc45-5151",
@@ -86974,11 +86976,10 @@ export const materials = [
     "subLine": "휴가온_4.5",
     "name": "",
     "code": "NC45-5151",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5151.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5151.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-5151.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-5151.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5151.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NC45-5151_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-5151.jpg"
     ],
     "price": 0,
     "thickness": "4.5T",
@@ -86990,7 +86991,8 @@ export const materials = [
     },
     "description": "휴가온",
     "product_code": "NC45-5151",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-5151.jpg"
   },
   {
     "id": "장판-kcc-휴가온-nc45-5153",
@@ -87000,11 +87002,10 @@ export const materials = [
     "subLine": "휴가온_4.5",
     "name": "",
     "code": "NC45-5153",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5153.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5153.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-5153.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-5153.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5153.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NC45-5153_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-5153.jpg"
     ],
     "price": 0,
     "thickness": "4.5T",
@@ -87016,7 +87017,8 @@ export const materials = [
     },
     "description": "휴가온",
     "product_code": "NC45-5153",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-5153.jpg"
   },
   {
     "id": "장판-kcc-휴가온-nc45-5161",
@@ -87026,11 +87028,10 @@ export const materials = [
     "subLine": "휴가온_4.5",
     "name": "",
     "code": "NC45-5161",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5161.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5161.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-5161.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-5161.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5161.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NC45-5161_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-5161.jpg"
     ],
     "price": 0,
     "thickness": "4.5T",
@@ -87042,7 +87043,8 @@ export const materials = [
     },
     "description": "휴가온",
     "product_code": "NC45-5161",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-5161.jpg"
   },
   {
     "id": "장판-kcc-휴가온-nc45-5171",
@@ -87052,11 +87054,10 @@ export const materials = [
     "subLine": "휴가온_4.5",
     "name": "",
     "code": "NC45-5171",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5171.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5171.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-5171.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-5171.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5171.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NC45-5171_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-5171.jpg"
     ],
     "price": 0,
     "thickness": "4.5T",
@@ -87068,7 +87069,8 @@ export const materials = [
     },
     "description": "휴가온",
     "product_code": "NC45-5171",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-5171.jpg"
   },
   {
     "id": "장판-kcc-휴가온-nc45-5181",
@@ -87078,11 +87080,10 @@ export const materials = [
     "subLine": "휴가온_4.5",
     "name": "",
     "code": "NC45-5181",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5181.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5181.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-5181.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-5181.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/NC45-5181.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_4.5/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NC45-5181_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-5181.jpg"
     ],
     "price": 0,
     "thickness": "4.5T",
@@ -87094,7 +87095,8 @@ export const materials = [
     },
     "description": "휴가온",
     "product_code": "NC45-5181",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_4.5/NC45-5181.jpg"
   },
   {
     "id": "장판-kcc-휴가온-nv50-4931",
@@ -87104,11 +87106,10 @@ export const materials = [
     "subLine": "휴가온_5.0",
     "name": "",
     "code": "NV50-4931",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-4931.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-4931.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-4931.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-4931.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-4931.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NV50-4931_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-4931.jpg"
     ],
     "price": 0,
     "thickness": "5.0T",
@@ -87120,7 +87121,8 @@ export const materials = [
     },
     "description": "휴가온",
     "product_code": "NV50-4931",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-4931.jpg"
   },
   {
     "id": "장판-kcc-휴가온-nv50-4961",
@@ -87130,11 +87132,10 @@ export const materials = [
     "subLine": "휴가온_5.0",
     "name": "",
     "code": "NV50-4961",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-4961.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-4961.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-4961.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-4961.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-4961.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NV50-4961_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-4961.jpg"
     ],
     "price": 0,
     "thickness": "5.0T",
@@ -87146,7 +87147,8 @@ export const materials = [
     },
     "description": "휴가온",
     "product_code": "NV50-4961",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-4961.jpg"
   },
   {
     "id": "장판-kcc-휴가온-nv50-4981",
@@ -87156,11 +87158,10 @@ export const materials = [
     "subLine": "휴가온_5.0",
     "name": "",
     "code": "NV50-4981",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-4981.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-4981.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-4981.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-4981.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-4981.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NV50-4981_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-4981.jpg"
     ],
     "price": 0,
     "thickness": "5.0T",
@@ -87172,7 +87173,8 @@ export const materials = [
     },
     "description": "휴가온",
     "product_code": "NV50-4981",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-4981.jpg"
   },
   {
     "id": "장판-kcc-휴가온-nv50-5001",
@@ -87182,11 +87184,10 @@ export const materials = [
     "subLine": "휴가온_5.0",
     "name": "",
     "code": "NV50-5001",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5001.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5001.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-5001.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-5001.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5001.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NV50-5001_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-5001.jpg"
     ],
     "price": 0,
     "thickness": "5.0T",
@@ -87198,7 +87199,8 @@ export const materials = [
     },
     "description": "휴가온",
     "product_code": "NV50-5001",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-5001.jpg"
   },
   {
     "id": "장판-kcc-휴가온-nv50-5003",
@@ -87208,11 +87210,10 @@ export const materials = [
     "subLine": "휴가온_5.0",
     "name": "",
     "code": "NV50-5003",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5003.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5003.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-5003.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-5003.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5003.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NV50-5003_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-5003.jpg"
     ],
     "price": 0,
     "thickness": "5.0T",
@@ -87224,7 +87225,8 @@ export const materials = [
     },
     "description": "휴가온",
     "product_code": "NV50-5003",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-5003.jpg"
   },
   {
     "id": "장판-kcc-휴가온-nv50-5013",
@@ -87234,11 +87236,10 @@ export const materials = [
     "subLine": "휴가온_5.0",
     "name": "",
     "code": "NV50-5013",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5013.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5013.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-5013.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-5013.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5013.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NV50-5013_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-5013.jpg"
     ],
     "price": 0,
     "thickness": "5.0T",
@@ -87250,7 +87251,8 @@ export const materials = [
     },
     "description": "휴가온",
     "product_code": "NV50-5013",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-5013.jpg"
   },
   {
     "id": "장판-kcc-휴가온-nv50-5163",
@@ -87260,11 +87262,10 @@ export const materials = [
     "subLine": "휴가온_5.0",
     "name": "",
     "code": "NV50-5163",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5163.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5163.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-5163.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-5163.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/NV50-5163.jpg",
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/KCC/%ED%9C%B4%EA%B0%80%EC%98%A8_5.0/%EC%8B%9C%EA%B3%B5%EC%9D%B4%EB%AF%B8%EC%A7%80/NV50-5163_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-5163.jpg"
     ],
     "price": 0,
     "thickness": "5.0T",
@@ -87276,7 +87277,8 @@ export const materials = [
     },
     "description": "휴가온",
     "product_code": "NV50-5163",
-    "product_name": ""
+    "product_name": "",
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/휴가온_5.0/NV50-5163.jpg"
   },
   {
     "id": "장판-lx하우시스-뉴청맥-cm21882",
@@ -97993,14 +97995,17 @@ export const materials = [
       "area": "3.34㎡",
       "adhesive": "데코타일 본드"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5508P.webp",
     "adhesive": "데코타일 본드",
     "crossInstallation": true,
     "notice": "교차 시공 권장 제품 (직각 교차 패턴 시공 시 완성도 향상)",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5508P.webp",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5508P.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5508P.webp"
+    ]
   },
   {
     "id": "kcc-pro-gw1111g",

@@ -58,21 +58,53 @@ function getNormalizedBrand(folderBrand, category) {
   return folderBrand;
 }
 
+// Classify image role: original (원장), pattern2x2 (2x2 패턴), installation (시공 예시), other (크로스/회전 등)
+function classifyProductImage(fileName) {
+  const lower = fileName.toLowerCase();
+  if (lower.includes('2x2') || lower.includes('2_2') || lower.includes('2×2') || lower.includes('패턴')) {
+    return 'pattern2x2';
+  }
+  if (
+    lower.includes('시공') ||
+    lower.includes('사무실') ||
+    lower.includes('상업공간') ||
+    lower.includes('거실') ||
+    lower.includes('침실') ||
+    lower.includes('매장') ||
+    lower.includes('office') ||
+    lower.includes('scene') ||
+    lower.includes('room')
+  ) {
+    return 'installation';
+  }
+  if (lower.includes('cross') || lower.includes('크로스') || lower.includes('90') || lower.includes('180') || lower.includes('회전')) {
+    return 'other';
+  }
+  return 'original';
+}
+
 // Robust code extractor helper from filename
 function extractCode(filename) {
   const ext = path.extname(filename);
-  const nameWithoutExt = filename.slice(0, -ext.length).trim();
+  let cleanName = filename.slice(0, -ext.length).trim();
   
-  // 1. Remove suffix indices and space descriptions (e.g. "_0", "_1", " (2)", "_사무실", "_시공")
-  let cleanName = nameWithoutExt
-    .replace(/_thumbnail$/i, '')
-    .replace(/_(?:사무실|시공|패턴|거실|침실|카페|매장|office|scene|room)$/i, '')
+  // 1. Remove suffix indices, patterns, and descriptions (e.g. "_detail", "_thumbnail", "_사무실", "_시공", "_2x2")
+  cleanName = cleanName
+    .replace(/\.jpg_[0-9]+cross$/i, '')
+    .replace(/_(?:thumbnail|detail)$/i, '')
+    .replace(/_(?:사무실|시공|상업공간|패턴|거실|침실|카페|매장|office|scene|room|2x2)$/i, '')
     .replace(/_(\d+)$/, '')
     .replace(/\s*\(\d+\)$/, '')
     .trim();
   
-  // 2. Try matching standard code patterns: [Letters 2-5] + [spaces?] + [Numbers 3-5] + [Letters?]
-  // Support underscore boundaries like KCC_트랜디_TS5502P_사무실
+  // 2. KCC Jangpan pattern: NK20-4121, NP18-3543, MN22-4151, MN27-4151, MN45-4121, MN50-4121
+  const jangpanMatch = cleanName.match(/(?:^|[_\-\s])([A-Z]{2,4}\d{2}-\d{3,5})(?:[_\-\s]|$)/i);
+  if (jangpanMatch) {
+    return jangpanMatch[1].trim();
+  }
+
+  // 3. Try matching standard code patterns: [Letters 2-5] + [spaces?] + [Numbers 3-5] + [Letters?]
+  // Support underscore boundaries like KCC_트랜디_TS5502P_사무실, GW1111G, GS1551M, B0122J
   const codeRegex = /(?:^|[_\s])([A-Z]{2,5}\s*\d{3,5}(?:-\d+)?[A-Z]*)(?:[_\s]|$)/i;
   const match = cleanName.match(codeRegex);
   if (match) {
@@ -85,14 +117,14 @@ function extractCode(filename) {
     return bMatch[0].trim();
   }
   
-  // 3. Try matching numeric code patterns at the start (e.g. 90013-1, 25097-1)
-  const numericRegex = /^(\d{3,6}(?:-\d+)?)/;
+  // 4. Try matching numeric code patterns with letter suffix (e.g. 30082P, 30141M, 90013-1)
+  const numericRegex = /^(\d{3,6}(?:-\d+)?[A-Z]*)/i;
   const numMatch = cleanName.match(numericRegex);
   if (numMatch) {
-    return numMatch[1];
+    return numMatch[1].trim();
   }
 
-  // 4. Try matching other patterns like OA 317 or DLT 3300
+  // 5. Try matching other patterns like OA 317 or DLT 3300
   const looseMatch = cleanName.match(/([A-Z0-9]{2,6})\s+(\d{3,5})/i);
   if (looseMatch) {
     return looseMatch[0].trim();
@@ -122,6 +154,7 @@ const manifestData = allFiles.map(fullPath => {
   
   const extractedCode = extractCode(fileName);
   const normalizedFileName = fileName.replace(/[^a-zA-Z0-9가-힣]/g, '').toLowerCase();
+  const imageType = classifyProductImage(fileName);
 
   // Create a clean unencoded public path for browser loading
   let cleanPublicPath = '/' + relativeFromPublic.replace(/\\/g, '/');
@@ -140,7 +173,8 @@ const manifestData = allFiles.map(fullPath => {
     brand,
     series,
     extractedCode,
-    normalizedFileName
+    normalizedFileName,
+    imageType
   };
 });
 

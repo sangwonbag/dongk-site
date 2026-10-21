@@ -1,5 +1,6 @@
 // src/services/productDetailImageService.js
 import { supabase } from '../lib/supabaseClient.js';
+import { imageManifest } from '../data/materialImageManifest.generated.js';
 
 const TRENDY_450_BASE = '/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지';
 const TRENDY_600_BASE = '/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지';
@@ -140,9 +141,10 @@ export const KCC_TRENDY_CATALOG_MAP = {
 
 /**
  * 특정 상품의 상세 이미지 목록을 불러옵니다.
- * 1. Supabase product_images 테이블 조회
- * 2. 없으면 KCC 센스타일 트랜디 및 브랜드별 기본 카탈로그 매핑 조회
- * 3. 없으면 빈 배열 [] 반환 (화면에서 해당 영역 숨김)
+ * 1. Supabase product_images 테이블 조회 (카탈로그 페이지 덤프 제외)
+ * 2. materialImageManifest.generated.js 자동 매핑: 원장 -> 2x2 -> 시공
+ * 3. KCC 센스타일 트랜디 및 브랜드별 기본 카탈로그 매핑 조회
+ * 4. 없으면 빈 배열 [] 반환 (화면에서 해당 영역 숨김)
  */
 export async function getProductDetailImages(productId, productCode = '', product = null) {
   try {
@@ -155,25 +157,67 @@ export async function getProductDetailImages(productId, productCode = '', produc
         .order('sort_order', { ascending: true });
 
       if (!error && data && data.length > 0) {
-        return data.map((item, idx) => ({
-          id: item.id,
-          product_id: item.product_id,
-          url: item.image_url,
-          sort_order: item.sort_order ?? idx,
-          alt_text: item.alt_text || '',
-          image_type: item.image_type || 'detail'
-        }));
+        // 카탈로그 PDF 덤프 페이지는 제외
+        const validDbImages = data.filter(item => 
+          item.image_url && 
+          !item.image_url.includes('catalogs/kcc-sensetile-trendy') &&
+          !item.image_url.includes('/page_') &&
+          !item.image_url.endsWith('/.webp')
+        );
+
+        if (validDbImages.length > 0) {
+          return validDbImages.map((item, idx) => ({
+            id: item.id,
+            product_id: item.product_id,
+            url: item.image_url,
+            sort_order: item.sort_order ?? idx,
+            alt_text: item.alt_text || '',
+            image_type: item.image_type || 'detail'
+          }));
+        }
       }
     }
   } catch (err) {
     console.warn('[productDetailImageService] Database query failed, checking fallback:', err);
   }
 
-  // Fallback 1: KCC 센스타일 트랜디 카탈로그 이미지 매핑
-  const cleanCode = String(productCode || product?.code || product?.product_code || product?.name || '')
-    .replace(/[^a-zA-Z0-9]/g, '')
-    .toUpperCase();
+  const rawCode = String(productCode || product?.code || product?.product_code || product?.name || '');
+  const cleanCode = rawCode.replace(/[^a-zA-Z0-9가-힣]/g, '').toUpperCase();
+  const baseCode = cleanCode.replace(/[^A-Z0-9]/g, '');
 
+  // Dynamic Lookup from Auto-Generated Image Manifest (All KCC Products: Trendy, Pro, SenseRay, Jangpan)
+  if (Array.isArray(imageManifest) && baseCode && baseCode.length >= 3) {
+    const matchingEntries = imageManifest.filter(img => {
+      if (!img.extractedCode || !img.fullPublicPath) return false;
+      const imgKey = String(img.extractedCode).replace(/[^a-zA-Z0-9]/g, '').toUpperCase();
+      if (imgKey === baseCode) return true;
+      if (baseCode.length >= 4) {
+        // Match TS5508 <-> TS5508P, but never TS5508 <-> TS5509
+        if (imgKey.startsWith(baseCode) && !/\d/.test(imgKey.slice(baseCode.length))) return true;
+        if (baseCode.startsWith(imgKey) && !/\d/.test(baseCode.slice(imgKey.length))) return true;
+      }
+      return false;
+    });
+
+    if (matchingEntries.length > 0) {
+      const rankMap = { original: 1, pattern2x2: 2, installation: 3, other: 4 };
+      const sorted = [...matchingEntries].sort((a, b) => {
+        const rA = rankMap[a.imageType || 'original'] || 99;
+        const rB = rankMap[b.imageType || 'original'] || 99;
+        return rA - rB;
+      });
+
+      return sorted.map((img, idx) => ({
+        id: `manifest-${img.extractedCode}-${idx}`,
+        url: img.fullPublicPath,
+        sort_order: idx,
+        alt_text: `${rawCode || img.extractedCode} ${img.imageType === 'original' ? '원장' : img.imageType === 'pattern2x2' ? '2x2 패턴' : img.imageType === 'installation' ? '시공 예시' : '상세 이미지'}`,
+        image_type: img.imageType || 'detail'
+      }));
+    }
+  }
+
+  // Fallback 1: KCC 센스타일 트랜디 카탈로그 이미지 매핑
   for (const [key, urls] of Object.entries(KCC_TRENDY_CATALOG_MAP)) {
     if (cleanCode.includes(key.toUpperCase())) {
       return urls.map((url, idx) => ({

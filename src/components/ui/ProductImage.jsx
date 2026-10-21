@@ -10,6 +10,7 @@ const isInvalidSrc = (val) => {
       trimmed === "" ||
       trimmed === "/images/no-image.svg" ||
       trimmed === "/images/deco_tile.png" ||
+      trimmed.endsWith("/.webp") ||
       trimmed === "null" ||
       trimmed === "undefined"
     );
