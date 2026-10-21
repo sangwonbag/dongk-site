@@ -7,7 +7,7 @@ import { getComputedBrand } from "../../utils/brandUtils";
 import { getSampleBookTarget, openCatalogWindow } from "../../utils/samplebookResolver";
 import SampleBookViewer from "../../components/samplebook/SampleBookViewer";
 import SampleBookCard from "../../components/samplebook/SampleBookCard";
-import { sortBrandsByPriority, compareSampleBookPriority } from "../../constants/brandPriority";
+import { sortBrandsByPriority, compareSampleBookPriority, getDisplayBrandName } from "../../constants/brandPriority";
 import { EmptyState } from "../../components/ui";
 import SEO from "../../components/seo/SEO";
 import "./SampleBooks.css";
@@ -25,7 +25,6 @@ const CATEGORY_TABS = [
   { id: "마루", label: "마루" },
   { id: "벽지", label: "벽지" },
   { id: "카페트타일", label: "카페트타일" },
-  { id: "러버타일", label: "러버타일" },
 ];
 
 export default function SampleBooks() {
@@ -57,13 +56,13 @@ export default function SampleBooks() {
     setSelectedMaterialType("all");
   }, [selectedBrand]);
 
-  /** ✅ 해당 카테고리에 속한 브랜드 목록 (통합 순서: KCC -> LX -> 동신 -> 동화 -> 이건 -> 구정 -> ...) */
+  /** ✅ 해당 카테고리에 속한 브랜드 목록 (카테고리별 차등 순서 적용) */
   const brands = useMemo(() => {
     if (activeTab === "recommended") {
       return sortBrandsByPriority(["all", "KCC", "LX", "동신", "동화", "이건", "구정", "유성", "녹수", "현대", "스완"]);
     }
     let categoryBrands = [...(BRANDS_BY_CATEGORY[activeTab] || [])];
-    return sortBrandsByPriority(["all", ...categoryBrands]);
+    return sortBrandsByPriority(["all", ...categoryBrands], activeTab);
   }, [activeTab]);
 
   /** ✅ 최종 필터링: 카테고리 + 브랜드 + 재질 + 스마트 다중 토큰 검색 */
@@ -97,6 +96,11 @@ export default function SampleBooks() {
 
     return sampleBooks.filter(sb => {
       let sbComputedBrand = getComputedBrand(sb);
+
+      // KCC 러버타일 샘플북 비노출 처리
+      if ((sb.brand === 'KCC' || sbComputedBrand === 'KCC' || (sb.title && sb.title.includes('KCC'))) && ((sb.title && sb.title.includes('러버')) || (sb.description && sb.description.includes('러버')) || sb.category === '러버타일')) {
+        return false;
+      }
 
       // 1. 검색어 매칭 검사
       const searchOk = matchesSearch(sb);
@@ -160,7 +164,7 @@ export default function SampleBooks() {
     });
   }, [activeTab, selectedBrand, selectedMaterialType, searchQuery]);
 
-  /** ✅ 최종 정렬: KCC 센스타일 트랜디 -> 프로 -> 센스레이 -> 기타 KCC -> LX 및 타 브랜드 (검색 시 정확도 우선) */
+  /** ✅ 최종 정렬: 카테고리별 우선순위 반영 (데코타일: KCC 트랜디->프로->센스레이 / 장판: LX->KCC->현대) */
   const sortedSampleBooks = useMemo(() => {
     const list = [...filtered];
     const queryTerm = searchQuery.trim().toLowerCase();
@@ -181,9 +185,9 @@ export default function SampleBooks() {
         if (matchBrandA !== matchBrandB) return matchBrandA ? -1 : 1;
       }
 
-      return compareSampleBookPriority(a, b);
+      return compareSampleBookPriority(a, b, activeTab);
     });
-  }, [filtered, searchQuery]);
+  }, [filtered, searchQuery, activeTab]);
 
   /** ✅ 샘플북 클릭 시: 공식 카탈로그 검증 제품은 직접 새 창 열기, 미확인은 알림 모달 */
   const handleBookClick = (book) => {
@@ -245,7 +249,7 @@ export default function SampleBooks() {
                   className={`brand-chip ${selectedBrand === b ? "active" : ""}`}
                   onClick={() => setSelectedBrand(b)}
                 >
-                  {b === "all" ? "전체 브랜드" : b}
+                  {b === "all" ? "전체 브랜드" : getDisplayBrandName(b, activeTab)}
                 </button>
               ))}
             </div>

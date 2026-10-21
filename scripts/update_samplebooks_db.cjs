@@ -149,16 +149,6 @@ const newItems = [
     description: '소방 방재청 형식승인 최고 등급 안전 방염벽지'
   },
   {
-    id: 'kcc-rubber-tile-catalog',
-    title: 'KCC 홈씨씨 러버타일',
-    brand: 'KCC',
-    category: '러버타일',
-    cover: '/samplebook-assets/Thumbnail_image/데코타일/KCC/senstyle_trendy_page1.png',
-    pdf: '/samplebook-assets/러버타일/KCC/KCC홈씨씨_러버타일.pdf',
-    description: 'KCC 홈씨씨 고무/러버타일 종합 E-Catalog',
-    isRecommended: true
-  },
-  {
     id: 'hyundai-chamdaum-2025',
     title: '2025 현대 참다움 (1.8T/2.0T)',
     brand: '현대',

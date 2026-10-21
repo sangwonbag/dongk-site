@@ -3,6 +3,7 @@ import { X, RotateCcw, Check } from "lucide-react";
 import { formatShapeOrPattern } from "../../utils/brandUtils";
 import { DONGSHIN_MAJOR_CATEGORIES } from "../../utils/dongshinUtils";
 import { SORT_OPTIONS } from "../../utils/sortUtils";
+import { getDisplayBrandName } from "../../constants/brandPriority";
 import "./MobileFilterSheet.css";
 
 export default function MobileFilterSheet({
@@ -89,15 +90,22 @@ export default function MobileFilterSheet({
             <div className="filter-sheet-group">
               <label className="sheet-label">브랜드</label>
               <div className="sheet-chips-grid">
-                {visibleBrands.map((b) => (
-                  <button
-                    key={b}
-                    className={`sheet-chip ${activeBrand === b ? "active" : ""}`}
-                    onClick={() => onBrandChange(b)}
-                  >
-                    {b === "all" ? "전체 브랜드" : b}
-                  </button>
-                ))}
+                {visibleBrands.map((b) => {
+                  const isBrandActive = activeBrand === b ||
+                    (b === "LX하우시스" && (activeBrand === "LX" || activeBrand === "LX하우시스")) ||
+                    (b === "LX" && (activeBrand === "LX" || activeBrand === "LX하우시스")) ||
+                    ((b === "우성" || b === "유성") && (activeBrand === "우성" || activeBrand === "유성"));
+
+                  return (
+                    <button
+                      key={b}
+                      className={`sheet-chip ${isBrandActive ? "active" : ""}`}
+                      onClick={() => onBrandChange(b === "LX하우시스" ? "LX" : b)}
+                    >
+                      {b === "all" ? "전체 브랜드" : getDisplayBrandName(b, activeTab)}
+                    </button>
+                  );
+                })}
               </div>
             </div>
           )}

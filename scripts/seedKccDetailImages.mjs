@@ -18,101 +18,110 @@ const TRENDY_WOOD_BASE = '/images/Thumbnail_Image/materials/데코타일/KCC/트
 export const KCC_TRENDY_CATALOG_MAPPING = {
   // 450각 우븐
   'TS5502P': [
-    `${TRENDY_450_BASE}/TS5502P.png`,
+    `${TRENDY_450_BASE}/TS5502P.webp`,
     `${TRENDY_450_BASE}/TS5502P_사무실.jpg`
   ],
   'TS5503P': [
-    `${TRENDY_450_BASE}/TS5503P.png`,
+    `${TRENDY_450_BASE}/TS5503P.webp`,
     `${TRENDY_450_BASE}/TS5503P 우븐.jpg_90cross.jpg`,
     `${TRENDY_450_BASE}/TS5503P 우븐.jpg_180cross.jpg`
   ],
   // 450각 카펫
   'TS5508': [
-    `${TRENDY_450_BASE}/TS5508P.png`,
-    `${TRENDY_450_BASE}/TS5508P_사무실.jpg`,
+    `${TRENDY_450_BASE}/TS5508P.webp`,
     `${TRENDY_450_BASE}/TS5508 브러쉬 카펫.jpg_90cross.jpg`,
-    `${TRENDY_450_BASE}/TS5508 브러쉬 카펫.jpg_180cross.jpg`
+    `${TRENDY_450_BASE}/TS5508 브러쉬 카펫.jpg_180cross.jpg`,
+    `${TRENDY_450_BASE}/TS5508P_사무실.jpg`
+  ],
+  'TS5508P': [
+    `${TRENDY_450_BASE}/TS5508P.webp`,
+    `${TRENDY_450_BASE}/TS5508 브러쉬 카펫.jpg_90cross.jpg`,
+    `${TRENDY_450_BASE}/TS5508 브러쉬 카펫.jpg_180cross.jpg`,
+    `${TRENDY_450_BASE}/TS5508P_사무실.jpg`
   ],
   'TS5510P': [
-    `${TRENDY_450_BASE}/TS5510P.png`,
-    `${TRENDY_450_BASE}/TS5510P_2x2.png`,
+    `${TRENDY_450_BASE}/TS5510P.webp`,
+    `${TRENDY_450_BASE}/TS5510P_2x2.webp`,
     `${TRENDY_450_BASE}/TS5510P_사무실.jpg`
   ],
   'TS5511P': [
-    `${TRENDY_450_BASE}/TS5511P.png`,
-    `${TRENDY_450_BASE}/TS5511P_2x2.png`
+    `${TRENDY_450_BASE}/TS5511P.webp`,
+    `${TRENDY_450_BASE}/TS5511P_2x2.webp`
+  ],
+  'TS5512P': [
+    `${TRENDY_450_BASE}/TS5512P_사무실.jpg`
   ],
   'TS5551P': [
-    `${TRENDY_450_BASE}/TS5551P.png`,
-    `${TRENDY_450_BASE}/TS5551P_2x2.png`
+    `${TRENDY_450_BASE}/TS5551P.webp`,
+    `${TRENDY_450_BASE}/TS5551P_2x2.webp`
   ],
   'TS5552P': [
-    `${TRENDY_450_BASE}/TS5552P.png`,
-    `${TRENDY_450_BASE}/TS5552P_2x2.png`
+    `${TRENDY_450_BASE}/TS5552P.webp`,
+    `${TRENDY_450_BASE}/TS5552P_2x2.webp`
   ],
   // 450각 비앙코 & 마블
   'TS5516P': [
-    `${TRENDY_450_BASE}/TS5516P.png`,
-    `${TRENDY_450_BASE}/TS5516P_2x2.png`
+    `${TRENDY_450_BASE}/TS5516P.webp`,
+    `${TRENDY_450_BASE}/TS5516P_2x2.webp`
   ],
   'TS5547P': [
-    `${TRENDY_450_BASE}/TS5547P.png`,
-    `${TRENDY_450_BASE}/TS5547P_2x2.png`,
+    `${TRENDY_450_BASE}/TS5547P.webp`,
+    `${TRENDY_450_BASE}/TS5547P_2x2.webp`,
     `${TRENDY_450_BASE}/TS5547P_상업공간.jpg`
   ],
   // 450각 콘크리트
   'TS5518P': [
-    `${TRENDY_450_BASE}/TS5518P.png`,
-    `${TRENDY_450_BASE}/TS5518P_2x2.png`
+    `${TRENDY_450_BASE}/TS5518P.webp`,
+    `${TRENDY_450_BASE}/TS5518P_2x2.webp`
   ],
   'TS5519P': [
-    `${TRENDY_450_BASE}/TS5519P.png`,
-    `${TRENDY_450_BASE}/TS5519P_2x2.png`
+    `${TRENDY_450_BASE}/TS5519P.webp`,
+    `${TRENDY_450_BASE}/TS5519P_2x2.webp`
   ],
   'TS5550P': [
-    `${TRENDY_450_BASE}/TS5550P.png`,
-    `${TRENDY_450_BASE}/TS5550P_2x2.png`,
+    `${TRENDY_450_BASE}/TS5550P.webp`,
+    `${TRENDY_450_BASE}/TS5550P_2x2.webp`,
     `${TRENDY_450_BASE}/TS5550P_사무실.jpg`
   ],
   // 450각 슬레이트
   'TS5541P': [
-    `${TRENDY_450_BASE}/TS5541P.png`,
-    `${TRENDY_450_BASE}/TS5541P_2x2.png`
+    `${TRENDY_450_BASE}/TS5541P.webp`,
+    `${TRENDY_450_BASE}/TS5541P_2x2.webp`
   ],
   'TS5542P': [
-    `${TRENDY_450_BASE}/TS5542P.png`,
-    `${TRENDY_450_BASE}/TS5542P_2x2.png`
+    `${TRENDY_450_BASE}/TS5542P.webp`,
+    `${TRENDY_450_BASE}/TS5542P_2x2.webp`
   ],
   'TS5543P': [
-    `${TRENDY_450_BASE}/TS5543P.png`,
-    `${TRENDY_450_BASE}/TS5543P_2x2.png`,
+    `${TRENDY_450_BASE}/TS5543P.webp`,
+    `${TRENDY_450_BASE}/TS5543P_2x2.webp`,
     `${TRENDY_450_BASE}/TS5543P_상업공간.jpg`
   ],
   'TS5544P': [
-    `${TRENDY_450_BASE}/TS5544P.png`,
-    `${TRENDY_450_BASE}/TS5544P_2x2.png`
+    `${TRENDY_450_BASE}/TS5544P.webp`,
+    `${TRENDY_450_BASE}/TS5544P_2x2.webp`
   ],
   'TS5548P': [
-    `${TRENDY_450_BASE}/TS5548P.png`,
-    `${TRENDY_450_BASE}/TS5548P_2x2.png`
+    `${TRENDY_450_BASE}/TS5548P.webp`,
+    `${TRENDY_450_BASE}/TS5548P_2x2.webp`
   ],
   'TS5549P': [
-    `${TRENDY_450_BASE}/TS5549P.png`,
-    `${TRENDY_450_BASE}/TS5549P_2x2.png`
+    `${TRENDY_450_BASE}/TS5549P.webp`,
+    `${TRENDY_450_BASE}/TS5549P_2x2.webp`
   ],
   'TS5549M': [
-    `${TRENDY_450_BASE}/TS5549P.png`,
-    `${TRENDY_450_BASE}/TS5549P_2x2.png`
+    `${TRENDY_450_BASE}/TS5549P.webp`,
+    `${TRENDY_450_BASE}/TS5549P_2x2.webp`
   ],
   // 450각 테라죠
   'TS5545P': [
-    `${TRENDY_450_BASE}/TS5545P.png`,
-    `${TRENDY_450_BASE}/TS5545P_2x2.png`,
+    `${TRENDY_450_BASE}/TS5545P.webp`,
+    `${TRENDY_450_BASE}/TS5545P_2x2.webp`,
     `${TRENDY_450_BASE}/TS5545P_상업공간.jpg`
   ],
   'TS5546P': [
-    `${TRENDY_450_BASE}/TS5546P.png`,
-    `${TRENDY_450_BASE}/TS5546P_2x2.png`
+    `${TRENDY_450_BASE}/TS5546P.webp`,
+    `${TRENDY_450_BASE}/TS5546P_2x2.webp`
   ],
   // 600각 어반 콘크리트
   'TS5531M': [`${TRENDY_600_BASE}/TS5531M.png`],

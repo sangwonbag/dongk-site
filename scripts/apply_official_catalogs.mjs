@@ -175,13 +175,6 @@ const officialCatalogs = {
     catalogStatus: 'verified',
     verifiedAt: '2026-10-12'
   },
-  'kcc-rubber-tile-catalog': {
-    catalogUrl: 'https://www.homecc.com/catalog/etc/rubbertile/hcc.do?/tjqvi/vixc',
-    catalogType: 'external_viewer',
-    catalogProvider: 'KCC글라스',
-    catalogStatus: 'verified',
-    verifiedAt: '2026-10-12'
-  },
 
   // === 현대L&C (11) ===
   'hyundai-goldtile-classic': {

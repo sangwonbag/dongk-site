@@ -45,24 +45,26 @@ const KCC_COLLECTION = [
   {
     id: "trendy",
     code: "TS5502P",
+    brand: "KCC",
     lineup: "KCC 센스타일 트랜디",
     subLine: "450각 · 600각 · 우드",
     spec: "457.2 × 457.2mm (450각) · 3.0T",
     packaging: "16매 / 3.34㎡(1BOX)",
-    badge: "추천",
+    badge: "동경바닥재 PICK",
     description: "감각적인 직물·스톤·우드 질감의 주거 및 상업 공간 베스트셀러 데코타일",
-    image: "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P.png",
+    image: "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P.webp",
     detailUrl: "/materials/TS5502P",
     browseUrl: "/materials?category=데코타일&brand=KCC&line=센스타일 트랜디"
   },
   {
     id: "pro",
     code: "30141M",
+    brand: "KCC",
     lineup: "KCC 센스타일 프로",
     subLine: "600각 · 대형 타일",
     spec: "600 × 600mm (600각) · 3.0T",
     packaging: "9매 / 3.24㎡(1BOX)",
-    badge: "추천",
+    badge: "인기 데코타일",
     description: "특수 UV 코팅과 스톤·마블·콘크리트 질감의 고강도 프리미엄 상업용 LVT 바닥재",
     image: "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30141M.png",
     detailUrl: "/materials/30141M",
@@ -71,6 +73,7 @@ const KCC_COLLECTION = [
   {
     id: "senselay",
     code: "B0122J",
+    brand: "KCC",
     lineup: "KCC 센스레이",
     subLine: "5.0T 고두께 프리미엄",
     spec: "457.2 × 457.2mm · 5.0T (고두께)",
@@ -80,6 +83,52 @@ const KCC_COLLECTION = [
     image: "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0122J.jpg",
     detailUrl: "/materials/B0122J",
     browseUrl: "/materials?category=데코타일&brand=KCC&line=센스레이(내수)"
+  }
+];
+
+// LX Flagship Sheet Flooring Lineups (Ordered: 뉴청맥 1.8T -> 지아자연애 2.2T -> 엑스컴포트 5.0T)
+const LX_JANGPAN_COLLECTION = [
+  {
+    id: "newcheongmaek",
+    code: "CM21882",
+    brand: "LX하우시스",
+    lineup: "LX하우시스 뉴청맥",
+    subLine: "1.8T · 베스트셀러 륨 장판",
+    spec: "1.8mm(T) × 1,830mm · 1.8T",
+    packaging: "35m / Roll",
+    badge: "동경바닥재 PICK",
+    description: "합리적인 가격과 검증된 품질로 대중적인 신뢰를 받는 대표 베스트셀러 1.8T 주거용 륨 장판",
+    image: "/images/Thumbnail_Image/materials/장판/LX/LX하우시스_뉴청맥_1.8T/CM21882.jpg",
+    detailUrl: "/materials/CM21882",
+    browseUrl: "/materials?category=장판&brand=LX하우시스&line=뉴청맥"
+  },
+  {
+    id: "jiazayeonae",
+    code: "ZJ43601-22",
+    brand: "LX하우시스",
+    lineup: "LX하우시스 지아자연애",
+    subLine: "2.2T · 친환경 프리미엄",
+    spec: "2.2mm(T) × 1,830mm · 2.2T",
+    packaging: "30m / Roll",
+    badge: "추천",
+    description: "옥수수 유래 식물성 지아(Zea) 원료 층 적용, 친환경성과 풍부한 쿠션감을 갖춘 2.2T 프리미엄 장판",
+    image: "/images/Thumbnail_Image/materials/장판/LX/LX하우시스_지아자연애_2.2T/ZJ43601-22.jpg",
+    detailUrl: "/materials/ZJ43601-22",
+    browseUrl: "/materials?category=장판&brand=LX하우시스&line=지아자연애"
+  },
+  {
+    id: "xcomfort",
+    code: "XCF3441",
+    brand: "LX하우시스",
+    lineup: "LX하우시스 엑스컴포트",
+    subLine: "5.0T · 최고급 고탄성 쿠션",
+    spec: "5.0mm(T) × 1,830mm · 5.0T",
+    packaging: "20m / Roll",
+    badge: "인기 장판",
+    description: "5.0T 고탄성 2중 쿠션층으로 탁월한 충격 흡수와 층간소음 저감 효과를 제공하는 하이엔드 장판",
+    image: "/images/Thumbnail_Image/materials/장판/LX/LX하우시스_엑스컴포트_5.0T/XCF3441.jpg",
+    detailUrl: "/materials/XCF3441",
+    browseUrl: "/materials?category=장판&brand=LX하우시스&line=엑스컴포트"
   }
 ];
 
@@ -135,6 +184,7 @@ export default function Home() {
   const [isPlaying, setIsPlaying] = useState(true);
   const [videoError, setVideoError] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
+  const [recommendedCategory, setRecommendedCategory] = useState("decotile");
 
   // Setup idle preload for seamless route switching
   useEffect(() => {
@@ -351,7 +401,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ================= 2. KCC RECOMMENDED COLLECTION ================= */}
+        {/* ================= 2. RECOMMENDED COLLECTION (데코타일: KCC / 장판: LX) ================= */}
         <section className="showroom-collection-section">
           <div className="container">
             <div className="section-head-block center">
@@ -360,13 +410,37 @@ export default function Home() {
                 공간에 어울리는 바닥재를 만나보세요.
               </h2>
               <p className="section-sub-copy">
-                동경바닥재가 추천하는 KCC 대표 상업·주거용 데코타일 라인업
+                {recommendedCategory === "decotile"
+                  ? "동경바닥재가 추천하는 KCC 대표 상업·주거용 데코타일 라인업"
+                  : "동경바닥재가 추천하는 LX하우시스 대표 친환경·고기능 륨 장판 라인업"}
               </p>
+
+              {/* Category Switcher Tabs */}
+              <div className="collection-category-tabs">
+                <button
+                  type="button"
+                  className={`collection-tab-btn ${recommendedCategory === "decotile" ? "active" : ""}`}
+                  onClick={() => setRecommendedCategory("decotile")}
+                  aria-pressed={recommendedCategory === "decotile"}
+                >
+                  <span className="tab-badge">KCC 최우선</span>
+                  <span>데코타일 추천</span>
+                </button>
+                <button
+                  type="button"
+                  className={`collection-tab-btn ${recommendedCategory === "jangpan" ? "active" : ""}`}
+                  onClick={() => setRecommendedCategory("jangpan")}
+                  aria-pressed={recommendedCategory === "jangpan"}
+                >
+                  <span className="tab-badge">LX하우시스 최우선</span>
+                  <span>장판 추천</span>
+                </button>
+              </div>
             </div>
 
-            {/* 3 Flagship KCC Cards (트랜디 -> 프로 -> 센스레이) */}
+            {/* Flagship Cards Grid */}
             <div className="collection-cards-grid">
-              {KCC_COLLECTION.map((item, idx) => (
+              {(recommendedCategory === "decotile" ? KCC_COLLECTION : LX_JANGPAN_COLLECTION).map((item, idx) => (
                 <article key={item.id} className="collection-card">
                   {/* Card Thumbnail Image with Hover Zoom */}
                   <div className="collection-card-media">
@@ -392,7 +466,7 @@ export default function Home() {
                   {/* Card Content & Details */}
                   <div className="collection-card-body">
                     <div className="card-brand-row">
-                      <span className="brand-chip">KCC</span>
+                      <span className="brand-chip">{item.brand || "KCC"}</span>
                       <span className="subline-chip">{item.subLine}</span>
                     </div>
 
@@ -425,47 +499,91 @@ export default function Home() {
             </div>
 
             {/* Quick Filter Navigation Sub-bar */}
-            <div className="kcc-quick-pills-bar">
-              <span className="quick-bar-label">라인업별 바로가기:</span>
-              <div className="quick-pills-wrap">
-                <Link 
-                  to="/materials?category=데코타일&brand=KCC&shape=450각" 
-                  className="quick-pill"
-                >
-                  센스타일 트랜디 450각
-                </Link>
-                <Link 
-                  to="/materials?category=데코타일&brand=KCC&shape=600각" 
-                  className="quick-pill"
-                >
-                  센스타일 트랜디 600각
-                </Link>
-                <Link 
-                  to="/materials?category=데코타일&brand=KCC&shape=일반 우드" 
-                  className="quick-pill"
-                >
-                  센스타일 트랜디 우드
-                </Link>
-                <Link 
-                  to="/materials?category=데코타일&brand=KCC&line=센스타일 프로" 
-                  className="quick-pill"
-                >
-                  센스타일 프로
-                </Link>
-                <Link 
-                  to="/materials?category=데코타일&brand=KCC&line=센스레이(내수)" 
-                  className="quick-pill"
-                >
-                  센스레이 (5.0T)
-                </Link>
-                <Link 
-                  to="/materials?category=데코타일&brand=KCC" 
-                  className="quick-pill highlight"
-                >
-                  KCC 전체 자재 보기 →
-                </Link>
+            {recommendedCategory === "decotile" ? (
+              <div className="kcc-quick-pills-bar">
+                <span className="quick-bar-label">라인업별 바로가기:</span>
+                <div className="quick-pills-wrap">
+                  <Link 
+                    to="/materials?category=데코타일&brand=KCC&shape=450각" 
+                    className="quick-pill"
+                  >
+                    센스타일 트랜디 450각
+                  </Link>
+                  <Link 
+                    to="/materials?category=데코타일&brand=KCC&shape=600각" 
+                    className="quick-pill"
+                  >
+                    센스타일 트랜디 600각
+                  </Link>
+                  <Link 
+                    to="/materials?category=데코타일&brand=KCC&shape=일반 우드" 
+                    className="quick-pill"
+                  >
+                    센스타일 트랜디 우드
+                  </Link>
+                  <Link 
+                    to="/materials?category=데코타일&brand=KCC&line=센스타일 프로" 
+                    className="quick-pill"
+                  >
+                    센스타일 프로
+                  </Link>
+                  <Link 
+                    to="/materials?category=데코타일&brand=KCC&line=센스레이(내수)" 
+                    className="quick-pill"
+                  >
+                    센스레이 (5.0T)
+                  </Link>
+                  <Link 
+                    to="/materials?category=데코타일&brand=KCC" 
+                    className="quick-pill highlight"
+                  >
+                    KCC 데코타일 전체 보기 →
+                  </Link>
+                </div>
               </div>
-            </div>
+            ) : (
+              <div className="kcc-quick-pills-bar">
+                <span className="quick-bar-label">두께별 바로가기:</span>
+                <div className="quick-pills-wrap">
+                  <Link 
+                    to="/materials?category=장판&brand=LX하우시스&thickness=1.8T" 
+                    className="quick-pill"
+                  >
+                    뉴청맥 (1.8T)
+                  </Link>
+                  <Link 
+                    to="/materials?category=장판&brand=LX하우시스&thickness=2.2T" 
+                    className="quick-pill"
+                  >
+                    지아자연애 (2.2T)
+                  </Link>
+                  <Link 
+                    to="/materials?category=장판&brand=LX하우시스&thickness=3.2T" 
+                    className="quick-pill"
+                  >
+                    지아사랑애 (2.7/3.2T)
+                  </Link>
+                  <Link 
+                    to="/materials?category=장판&brand=LX하우시스&thickness=4.5T" 
+                    className="quick-pill"
+                  >
+                    지아소리잠 (4.5T)
+                  </Link>
+                  <Link 
+                    to="/materials?category=장판&brand=LX하우시스&thickness=5.0T" 
+                    className="quick-pill"
+                  >
+                    엑스컴포트 (5.0T)
+                  </Link>
+                  <Link 
+                    to="/materials?category=장판&brand=LX하우시스" 
+                    className="quick-pill highlight"
+                  >
+                    LX하우시스 장판 전체 보기 →
+                  </Link>
+                </div>
+              </div>
+            )}
           </div>
         </section>
 

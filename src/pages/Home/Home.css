@@ -362,6 +362,81 @@
   z-index: 5;
 }
 
+/* Category Switcher Tabs (KCC 데코타일 / LX 장판) */
+.collection-category-tabs {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #f1f5f9;
+  padding: 6px;
+  border-radius: 9999px;
+  margin-top: 24px;
+  border: 1px solid var(--border-subtle);
+  box-shadow: inset 0 1px 3px rgba(15, 23, 42, 0.05);
+}
+
+.collection-tab-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 22px;
+  border-radius: 9999px;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 14.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.collection-tab-btn .tab-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  background: rgba(15, 23, 42, 0.06);
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+}
+
+.collection-tab-btn:hover {
+  color: var(--text-primary);
+}
+
+.collection-tab-btn.active {
+  background: #0f172a;
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.18);
+}
+
+.collection-tab-btn.active .tab-badge {
+  background: linear-gradient(135deg, #c99c47 0%, #b88b36 100%);
+  color: #ffffff;
+}
+
+@media (max-width: 640px) {
+  .collection-category-tabs {
+    width: 100%;
+    display: flex;
+    padding: 4px;
+    margin-top: 18px;
+  }
+  .collection-tab-btn {
+    flex: 1;
+    justify-content: center;
+    padding: 8px 10px;
+    font-size: 13px;
+    gap: 5px;
+  }
+  .collection-tab-btn .tab-badge {
+    font-size: 10px;
+    padding: 1px 6px;
+  }
+}
+
 .collection-cards-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

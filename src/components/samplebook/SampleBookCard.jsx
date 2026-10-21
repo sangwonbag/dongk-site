@@ -5,9 +5,10 @@ import './SampleBookCard.css';
 
 const SampleBookCard = ({ book, onClick }) => {
     const autoCover = getAutoMatchedCover(book);
-    const rawCover = book.cover || autoCover;
-    const coverSrc = rawCover ? safeEncodeURI(rawCover) : null;
-    const brandName = getComputedBrand(book);
+    const rawCover = book.cover || book.thumbnail || autoCover;
+    const coverSrc = rawCover ? safeEncodeURI(rawCover) : '';
+    const rawBrandName = getComputedBrand(book);
+    const brandName = rawBrandName.replace(/^LX(\s|$)/, 'LX하우시스$1');
     const target = getSampleBookTarget(book);
 
     return (

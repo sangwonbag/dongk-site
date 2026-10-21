@@ -103,7 +103,7 @@ export function getSubmaterialGroupPriority(item) {
  * Sorts an array of products based on the sortOption without mutating the original array.
  * Supported options: 'default', 'price-asc', 'price-desc', 'name-asc', 'name-desc'
  */
-export const sortProducts = (products, sortOption = 'default') => {
+export const sortProducts = (products, sortOption = 'default', category = '') => {
   if (!products || !Array.isArray(products) || products.length === 0) return [];
 
   const copied = [...products];
@@ -120,8 +120,8 @@ export const sortProducts = (products, sortOption = 'default') => {
       });
     }
 
-    // Default sorting: KCC is prioritized across the site, followed by LX and remaining brands according to UNIFIED_BRAND_ORDER
-    return copied.sort(compareProductRecommendationPriority);
+    // Default sorting: category-specific recommendation priority (데코타일: KCC 최우선, 장판: LX 최우선)
+    return copied.sort((a, b) => compareProductRecommendationPriority(a, b, category));
   }
 
   switch (sortOption) {
@@ -129,22 +129,22 @@ export const sortProducts = (products, sortOption = 'default') => {
       return copied.sort((a, b) => {
         const priceA = getProductPrice(a);
         const priceB = getProductPrice(b);
-        if (priceA === null && priceB === null) return compareProductRecommendationPriority(a, b);
+        if (priceA === null && priceB === null) return compareProductRecommendationPriority(a, b, category);
         if (priceA === null) return 1;
         if (priceB === null) return -1;
         if (priceA !== priceB) return priceA - priceB;
-        return compareProductRecommendationPriority(a, b);
+        return compareProductRecommendationPriority(a, b, category);
       });
 
     case 'price-desc':
       return copied.sort((a, b) => {
         const priceA = getProductPrice(a);
         const priceB = getProductPrice(b);
-        if (priceA === null && priceB === null) return compareProductRecommendationPriority(a, b);
+        if (priceA === null && priceB === null) return compareProductRecommendationPriority(a, b, category);
         if (priceA === null) return 1;
         if (priceB === null) return -1;
         if (priceA !== priceB) return priceB - priceA;
-        return compareProductRecommendationPriority(a, b);
+        return compareProductRecommendationPriority(a, b, category);
       });
 
     case 'name-asc':
@@ -168,6 +168,6 @@ export const sortProducts = (products, sortOption = 'default') => {
       });
 
     default:
-      return copied;
+      return copied.sort((a, b) => compareProductRecommendationPriority(a, b, category));
   }
 };

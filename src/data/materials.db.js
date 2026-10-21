@@ -3197,8 +3197,8 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5502P",
     "code": "TS 5502P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5502P_0.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5502P_1.jpg",
@@ -3225,7 +3225,7 @@ export const materials = [
     "notice": "교차 시공 권장 제품 (직각 교차 패턴 시공 시 완성도 향상)",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5503p",
@@ -3235,8 +3235,8 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5503P",
     "code": "TS 5503P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5503P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5503P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5503P_0.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5503P_1.jpg",
@@ -3263,7 +3263,7 @@ export const materials = [
     "notice": "교차 시공 권장 제품 (직각 교차 패턴 시공 시 완성도 향상)",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5503P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5510p",
@@ -3273,8 +3273,8 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5510P",
     "code": "TS 5510P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5510P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5510P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5510P_0.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5510P_1.jpg",
@@ -3299,7 +3299,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5510P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5511p",
@@ -3309,8 +3309,8 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5511P",
     "code": "TS 5511P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5511P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5511P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5511P_0.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5511P_1.jpg",
@@ -3335,7 +3335,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5511P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5516p",
@@ -3345,8 +3345,8 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5516P",
     "code": "TS 5516P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5516P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5516P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5516P_0.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5516P_1.jpg",
@@ -3371,7 +3371,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5516P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5518p",
@@ -3381,8 +3381,8 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5518P",
     "code": "TS 5518P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5518P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5518P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5518P_0.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5518P_1.jpg",
@@ -3407,7 +3407,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5518P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5519p",
@@ -3417,8 +3417,8 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5519P",
     "code": "TS 5519P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5519P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5519P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5519P_0.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5519P_1.jpg",
@@ -3443,7 +3443,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5519P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5531m",
@@ -3702,8 +3702,8 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5541P",
     "code": "TS 5541P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5541P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5541P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5541P_0.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5541P_1.jpg"
@@ -3727,7 +3727,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5541P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5542p",
@@ -3737,8 +3737,8 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5542P",
     "code": "TS 5542P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5542P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5542P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5542P_0.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5542P_3.jpg"
@@ -3762,7 +3762,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5542P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5543p",
@@ -3772,8 +3772,8 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5543P",
     "code": "TS 5543P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5543P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5543P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5543P_0.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5543P_1.jpg",
@@ -3798,7 +3798,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5543P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5544p",
@@ -3808,8 +3808,8 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5544P",
     "code": "TS 5544P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5544P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5544P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5544P_0.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5544P_1.jpg"
@@ -3833,7 +3833,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5544P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5545p",
@@ -3843,8 +3843,8 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5545P",
     "code": "TS 5545P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5545P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5545P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5545P_1.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5545P_2.jpg"
@@ -3868,7 +3868,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5545P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5546p",
@@ -3878,8 +3878,8 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5546P",
     "code": "TS 5546P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5546P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5546P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5546P_0.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5546P_1.jpg"
@@ -3903,7 +3903,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5546P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5547p",
@@ -3913,8 +3913,8 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5547P",
     "code": "TS 5547P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5547P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5547P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5547P_0.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5547P_1.jpg",
@@ -3939,7 +3939,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5547P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5548p",
@@ -3949,8 +3949,8 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5548P",
     "code": "TS 5548P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5548P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5548P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5548P_1.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5548P_2.jpg"
@@ -3974,7 +3974,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5548P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5549p",
@@ -3984,8 +3984,8 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5549P",
     "code": "TS 5549P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5549P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5549P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5549P_0.jpg"
     ],
@@ -4008,7 +4008,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5549P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5550p",
@@ -4018,8 +4018,8 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5550P",
     "code": "TS 5550P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5550P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5550P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5550P_0.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5550P_1.jpg",
@@ -4044,7 +4044,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5550P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5551p",
@@ -4054,8 +4054,8 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5551P",
     "code": "TS 5551P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5551P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5551P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5551P_0.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5551P_1.jpg",
@@ -4080,7 +4080,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5551P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5552p",
@@ -4090,8 +4090,8 @@ export const materials = [
     "subLine": "KCC_square",
     "name": "KCC 센스타일 트랜디 TS 5552P",
     "code": "TS 5552P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5552P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5552P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5552P_0.jpg",
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5552P_1.jpg"
@@ -4115,7 +4115,7 @@ export const materials = [
     "adhesive": "데코타일 본드",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5552P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
   },
   {
     "id": "데코타일-kcc-kcc_wood-tw-5102g",
@@ -97993,14 +97993,14 @@ export const materials = [
       "area": "3.34㎡",
       "adhesive": "데코타일 본드"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5508P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
     "adhesive": "데코타일 본드",
     "crossInstallation": true,
     "notice": "교차 시공 권장 제품 (직각 교차 패턴 시공 시 완성도 향상)",
     "spec": "3.0T × 457.2 × 457.2mm",
     "package": "16매/box · 3.34㎡",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5508P.png",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5508P.png"
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/.webp"
   },
   {
     "id": "kcc-pro-gw1111g",

@@ -997,49 +997,71 @@ export default function MaterialDetail() {
       const getScore = (p) => {
         const pBrand = p.brand || "";
         const pLine = p.line || "";
-        const itemBrand = item.brand;
-        const itemLine = item.line;
+        const itemBrand = item.brand || "";
+        const itemLine = item.line || "";
+        const itemCategory = item.category || "";
         const isKcc = (pBrand || "").toUpperCase().includes("KCC") || (p.brands?.name || "").toUpperCase().includes("KCC");
-        
-        // 1. If currently viewing a KCC product:
-        if (itemBrand === 'KCC') {
-          if (pLine && itemLine && pLine === itemLine) {
-            return 100; // Same KCC product line (e.g. 센스타일 트랜디 450각)
-          }
+        const isLx = (pBrand || "").toUpperCase().includes("LX") || (pBrand || "").toUpperCase().includes("LG") || (p.brands?.name || "").toUpperCase().includes("LX");
+
+        // 1. 데코타일: KCC 관련 제품 최우선 추천 (스펙/규격 관련성 고려)
+        if (itemCategory === '데코타일' || (!itemCategory && (item.shape || isKcc || itemBrand === '동신'))) {
+          const itemSpec = String(item.specs?.size || item.spec || item.size_text || item.shape || '');
+          const pSpec = String(p.size || p.size_text || p.spec || '');
+          const sameSpec = itemSpec && pSpec && (
+            (itemSpec.includes('457') && pSpec.includes('457')) ||
+            (itemSpec.includes('600') && pSpec.includes('600')) ||
+            (itemSpec.includes('184') && pSpec.includes('184'))
+          );
+
           if (isKcc) {
-            if (pLine.includes('트랜디') || p.name.includes('트랜디')) return 95;
-            if (pLine.includes('프로') || p.name.includes('프로')) return 90;
-            if (pLine.includes('센스레이') || p.name.includes('센스레이')) return 85;
-            return 80;
+            let baseScore = 75;
+            if (pLine.includes('트랜디') || p.name.includes('트랜디')) baseScore = 90;
+            else if (pLine.includes('프로') || p.name.includes('프로')) baseScore = 85;
+            else if (pLine.includes('센스레이') || p.name.includes('센스레이')) baseScore = 80;
+            return sameSpec ? baseScore + 10 : baseScore;
           }
-          return 20;
+
+          if (pBrand === itemBrand) {
+            if (pLine === itemLine) return 70;
+            return sameSpec ? 60 : 40;
+          }
+          return 10;
         }
 
-        // 2. If viewing a non-KCC product (e.g. LX 데코타일, 현대 장판):
-        // Prioritize KCC within the same category
-        if (isKcc) {
-          if (pLine.includes('트랜디') || p.name.includes('트랜디')) return 90;
-          if (pLine.includes('프로') || p.name.includes('프로')) return 85;
-          if (pLine.includes('센스레이') || p.name.includes('센스레이')) return 80;
-          return 75;
+        // 2. 장판: LX하우시스 관련 제품 최우선 추천 (동일/유사 두께 관련성 고려)
+        if (itemCategory === '장판') {
+          const itemT = String(item.thickness || item.specs?.thickness || '').replace(/[^0-9.]/g, '');
+          const pT = String(p.thickness || p.size || '').replace(/[^0-9.]/g, '');
+          const sameThickness = itemT && pT && itemT === pT;
+
+          if (isLx) {
+            let baseScore = 75;
+            if (pLine.includes('뉴청맥') || p.name.includes('뉴청맥')) baseScore = 90;
+            else if (pLine.includes('자연애') || p.name.includes('자연애')) baseScore = 85;
+            else if (pLine.includes('사랑애') || p.name.includes('사랑애')) baseScore = 80;
+            else if (pLine.includes('소리잠') || p.name.includes('소리잠')) baseScore = 78;
+            else if (pLine.includes('엑스컴포트') || p.name.includes('엑스컴포트')) baseScore = 76;
+            return sameThickness ? baseScore + 10 : baseScore;
+          }
+
+          if (pBrand === itemBrand) {
+            return sameThickness ? 70 : 40;
+          }
+          return 10;
         }
 
-        // 3. Same brand as currently viewed
+        // 3. 마루/벽지/기타: 동일 브랜드 및 라인업 우선
         if (pBrand === itemBrand) {
           if (itemBrand === '이건') {
             const pClass = getEagonClassification(pLine);
             const itemClass = getEagonClassification(itemLine);
-            if (pClass === itemClass) {
-              return 80;
-            }
+            if (pClass === itemClass) return 80;
           }
-          if (pLine === itemLine) {
-            return 70;
-          }
+          if (pLine === itemLine) return 70;
           return 40;
         }
 
-        return 10; // Different brand
+        return 10;
       };
 
       try {
@@ -1057,26 +1079,28 @@ export default function MaterialDetail() {
               data = res.data;
             }
           } else {
-            // Query KCC products in this category + general products in this category
-            const [kccRes, catRes] = await Promise.all([
+            // 카테고리별 주력 브랜드 쿼리 (데코타일: KCC, 장판: LX)
+            const isJangpan = item.category === '장판';
+            const priorityBrandFilter = isJangpan ? [2, 3] : [1, 22]; // LX or KCC
+            const [prioRes, catRes] = await Promise.all([
               supabase
                 .from('products')
                 .select(queryCols)
-                .eq('category_id', item.category_id || 1)
-                .in('brand_id', [1, 22])
+                .eq('category_id', item.category_id || (isJangpan ? 2 : 1))
+                .in('brand_id', priorityBrandFilter)
                 .neq('product_code', item.code)
                 .limit(8),
               supabase
                 .from('products')
                 .select(queryCols)
-                .eq('category_id', item.category_id || 1)
+                .eq('category_id', item.category_id || (isJangpan ? 2 : 1))
                 .neq('product_code', item.code)
                 .limit(8)
             ]);
 
             const combinedMap = new Map();
-            if (kccRes.data) {
-              kccRes.data.forEach(p => combinedMap.set(p.product_code || p.id, p));
+            if (prioRes.data) {
+              prioRes.data.forEach(p => combinedMap.set(p.product_code || p.id, p));
             }
             if (catRes.data) {
               catRes.data.forEach(p => combinedMap.set(p.product_code || p.id, p));
@@ -1117,15 +1141,24 @@ export default function MaterialDetail() {
       // Fast in-memory cache fallback to avoid freezing main thread
       if (productDetailMemoryCache.size > 1 && active) {
         const cachedCandidates = [];
+        const isJangpan = item.category === '장판';
         for (const entry of productDetailMemoryCache.values()) {
           const m = entry.data;
           if (m && m.code !== item.code && m.id !== item.id && (m.category === item.category || m.brand === item.brand)) {
-            cachedCandidates.push(m);
-            if (cachedCandidates.length >= 4) break;
+            const brandStr = (m.brand || '').toUpperCase();
+            // 장판이면 LX 우선, 데코타일이면 KCC 우선 배치
+            if (isJangpan && (brandStr.includes('LX') || brandStr.includes('LG'))) {
+              cachedCandidates.unshift(m);
+            } else if (!isJangpan && brandStr.includes('KCC')) {
+              cachedCandidates.unshift(m);
+            } else {
+              cachedCandidates.push(m);
+            }
+            if (cachedCandidates.length >= 6) break;
           }
         }
         if (cachedCandidates.length > 0 && active) {
-          setRelatedItems(cachedCandidates);
+          setRelatedItems(cachedCandidates.slice(0, 4));
           return;
         }
       }

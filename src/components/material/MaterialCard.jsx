@@ -4,12 +4,12 @@ import { useNavigate, Link } from 'react-router-dom';
 import { useEstimateCart } from '../../contexts/EstimateCartContext';
 import { useAuth } from '../../contexts/AuthContext';
 import { getProductImageCandidates, prefetchProductImage } from '../../utils/productImageResolver';
+import { prefetchProductDetail } from '../../utils/supabaseFetcher';
 import { getComputedBrand, getNormalizedThickness, formatProductTitle, getProductUnit, getKccLineup } from '../../utils/brandUtils';
 import { isDecoTile } from '../../utils/decotileUtils';
 import { getDongshinMajorCategory, getDongshinDetailedLineup } from '../../utils/dongshinUtils';
 import { Skeleton, ImagePlaceholder, ProductImage } from '../ui';
-import { prefetchProductDetail } from '../../utils/supabaseFetcher';
-import { isProductRecommended } from '../../constants/brandPriority';
+import { isProductRecommended, getProductBadgeInfo, getDisplayBrandName } from '../../constants/brandPriority';
 import './MaterialCard.css';
 
 
@@ -36,6 +36,7 @@ const MaterialCard = ({ material, priority = false }) => {
     const { user: currentUser, openLoginModal } = useAuth();
     
     const [qty, setQty] = useState(1);
+    const badgeInfo = useMemo(() => getProductBadgeInfo(material), [material]);
 
     const imageCandidates = useMemo(() => getProductImageCandidates(material), [material]);
     const coverUrl = imageCandidates[0] || "/images/no-image.svg";
@@ -249,7 +250,11 @@ const MaterialCard = ({ material, priority = false }) => {
                     className="material-thumb"
                     priority={priority}
                 />
-                {isProductRecommended(material) && <span className="badge-featured">추천</span>}
+                {badgeInfo && (
+                    <span className={`badge-featured badge-${badgeInfo.type}`}>
+                        {badgeInfo.text}
+                    </span>
+                )}
                 {material.isNew && <span className="badge-new">NEW</span>}
             </Link>
 
@@ -268,7 +273,7 @@ const MaterialCard = ({ material, priority = false }) => {
                                     const b = (material.brand || "").trim();
                                     const brandDisplay = (b.includes("현대") || b.includes("Hyundai")) ? "현대" 
                                                        : (b.includes("KCC")) ? "KCC" 
-                                                       : (b.includes("LX") || b.includes("LG") || b.includes("하우시스")) ? "LX" 
+                                                       : (b.includes("LX") || b.includes("LG") || b.includes("하우시스")) ? "LX하우시스" 
                                                        : b;
                                     return `${brandDisplay} · ${getNormalizedThickness(material)}`;
                                 })()}
@@ -276,7 +281,7 @@ const MaterialCard = ({ material, priority = false }) => {
                         </>
                     ) : (
                         <>
-                            <span className="card-brand">{getComputedBrand(material)}</span>
+                            <span className="card-brand">{getDisplayBrandName(material, material.category) || getComputedBrand(material)}</span>
                             {material.category && <span className="card-cat-divider">|</span>}
                             <span className="card-category">{material.category}</span>
                         </>
