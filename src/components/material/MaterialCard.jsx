@@ -9,7 +9,7 @@ import { getComputedBrand, getNormalizedThickness, formatProductTitle, getProduc
 import { isDecoTile } from '../../utils/decotileUtils';
 import { getDongshinMajorCategory, getDongshinDetailedLineup } from '../../utils/dongshinUtils';
 import { Skeleton, ImagePlaceholder, ProductImage } from '../ui';
-import { isProductRecommended, getProductBadgeInfo, getDisplayBrandName } from '../../constants/brandPriority';
+import { isProductRecommended, getDisplayBrandName } from '../../constants/brandPriority';
 import './MaterialCard.css';
 
 
@@ -36,7 +36,6 @@ const MaterialCard = ({ material, priority = false }) => {
     const { user: currentUser, openLoginModal } = useAuth();
     
     const [qty, setQty] = useState(1);
-    const badgeInfo = useMemo(() => getProductBadgeInfo(material), [material]);
 
     const imageCandidates = useMemo(() => getProductImageCandidates(material), [material]);
     const coverUrl = imageCandidates[0] || "/images/no-image.svg";
@@ -250,11 +249,6 @@ const MaterialCard = ({ material, priority = false }) => {
                     className="material-thumb"
                     priority={priority}
                 />
-                {badgeInfo && (
-                    <span className={`badge-featured badge-${badgeInfo.type}`}>
-                        {badgeInfo.text}
-                    </span>
-                )}
                 {material.isNew && <span className="badge-new">NEW</span>}
             </Link>
 
