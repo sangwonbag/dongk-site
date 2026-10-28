@@ -137,40 +137,55 @@ const convertToPublicPath = (absPath) => {
 };
 
 // Robust code extractor helper from filename
-function extractCodeFromFilename(filename) {
+function extractCodesFromFilename(filename) {
     const ext = path.extname(filename);
-    const nameWithoutExt = filename.slice(0, -ext.length).trim();
+    let cleanName = filename.slice(0, -ext.length).trim();
     
-    // 1. Remove suffix indices (e.g. "_0", "_1", " (2)", "_시공", "_installation", "_사무실", "_2x2", "_90cross")
-    let cleanName = nameWithoutExt
-        .replace(/_thumbnail$/i, '')
-        .replace(/_detail$/i, '')
-        .replace(/_(?:사무실|상업공간|시공|installation|2x2|90cross|180cross)$/i, '')
-        .replace(/_(\d+)$/, '')
-        .replace(/\s*\(\d+\)$/, '')
-        .trim();
-    
-    // 2. Try matching standard code patterns: [Letters 2-5] + [spaces?] + [Numbers 3-5] + [Letters?]
-    const codeRegex = /\b([A-Z]{2,5})\s*(\d{3,5}(?:-\d+)?)([A-Z]*)\b/i;
-    const match = cleanName.match(codeRegex);
-    if (match) {
-        return match[0].trim();
-    }
-    
-    // 3. Try matching numeric code patterns at the start (e.g. 90013-1, 25097-1)
-    const numericRegex = /^(\d{3,6}(?:-\d+)?)/;
-    const numMatch = cleanName.match(numericRegex);
-    if (numMatch) {
-        return numMatch[1];
-    }
-    
-    // 4. Try matching other patterns like OA 317 or DLT 3300
-    const looseMatch = cleanName.match(/([A-Z0-9]{2,6})\s+(\d{3,5})/i);
-    if (looseMatch) {
-        return looseMatch[0].trim();
+    // 1. Remove suffix indices, patterns, and descriptions iteratively
+    let prevName;
+    do {
+        prevName = cleanName;
+        cleanName = cleanName
+            .replace(/\.jpg_[0-9]+cross$/i, '')
+            .replace(/_(?:thumbnail|detail)$/i, '')
+            .replace(/_(?:사무실|시공예시|시공|상업공간|패턴|확장|거실|침실|카페|매장|office|scene|room|2x2|90cross|180cross)$/i, '')
+            .replace(/_(\d+)$/, '')
+            .replace(/\s*\(\d+\)$/, '')
+            .trim();
+    } while (cleanName !== prevName);
+
+    // If combined like B0156M_B0158M or DS626_DS627 or AS1810_AS1814
+    const parts = cleanName.split('_');
+    const validCodeRegex = /^[A-Z]{1,5}\s*\d{3,5}(?:-\d+)?[A-Z]*$/i;
+    if (parts.length > 1 && parts.every(p => validCodeRegex.test(p.trim()))) {
+        return parts.map(p => p.trim());
     }
 
-    return cleanName;
+    // Standard single code matches
+    const codeRegex = /(?:^|[_\s])([A-Z]{1,5}\s*\d{3,5}(?:-\d+)?[A-Z]*)(?:[_\s]|$)/i;
+    const match = cleanName.match(codeRegex);
+    if (match) {
+        return [match[1].trim()];
+    }
+
+    const boundaryRegex = /\b([A-Z]{1,5})\s*(\d{3,5}(?:-\d+)?)([A-Z]*)\b/i;
+    const bMatch = cleanName.match(boundaryRegex);
+    if (bMatch) {
+        return [bMatch[0].trim()];
+    }
+
+    const numericRegex = /^(\d{3,6}(?:-\d+)?[A-Z]*)/i;
+    const numMatch = cleanName.match(numericRegex);
+    if (numMatch) {
+        return [numMatch[1].trim()];
+    }
+
+    const looseMatch = cleanName.match(/([A-Z0-9]{2,6})\s+(\d{3,5})/i);
+    if (looseMatch) {
+        return [looseMatch[0].trim()];
+    }
+
+    return [cleanName];
 }
 
 // Pre-index allFiles for instant O(1) lookup
@@ -180,8 +195,7 @@ const preprocessedFiles = allFiles.map(f => {
     const fileName = path.basename(f);
     const nameOnly = path.parse(fileName).name;
     const nFile = normalize(nameOnly);
-    const extCode = extractCodeFromFilename(fileName);
-    const nExt = normalize(extCode);
+    const extCodes = extractCodesFromFilename(fileName);
     const lower = fileName.toLowerCase();
     
     let index = 0; // Universal IMAGE_PRIORITY: material: 0, 2x2: 1, 90cross: 2, office: 3, other: 4
@@ -189,7 +203,7 @@ const preprocessedFiles = allFiles.map(f => {
         index = 1;
     } else if (lower.includes('90cross') || lower.includes('_cross') || lower.includes('크로스') || /(?:^|[_\-\s])cross(?:[_\-\s.]|$)/i.test(fileName)) {
         index = 2;
-    } else if (lower.includes('사무실') || lower.includes('상업공간') || lower.includes('시공') || lower.includes('installation') || lower.includes('office')) {
+    } else if (lower.includes('사무실') || lower.includes('상업공간') || lower.includes('시공') || lower.includes('시공예시') || lower.includes('installation') || lower.includes('office') || lower.includes('scene')) {
         index = 3;
     } else if (lower.includes('180cross') || lower.includes('회전') || /_([2-9])\.(jpe?g|png|webp)$/i.test(fileName)) {
         index = 4;
@@ -197,14 +211,17 @@ const preprocessedFiles = allFiles.map(f => {
         index = 0; // Material swatch original
     }
 
-    const obj = { path: f, index, isThumb: f.includes('Thumbnail_Image'), nFile, nExt, fileName };
+    const obj = { path: f, index, isThumb: f.includes('Thumbnail_Image'), nFile, extCodes, fileName };
     
     if (!filesByExact.has(nFile)) filesByExact.set(nFile, []);
     filesByExact.get(nFile).push(obj);
 
-    if (nExt) {
-        if (!filesByCode.has(nExt)) filesByCode.set(nExt, []);
-        filesByCode.get(nExt).push(obj);
+    for (const code of extCodes) {
+        const nExt = normalize(code);
+        if (nExt) {
+            if (!filesByCode.has(nExt)) filesByCode.set(nExt, []);
+            filesByCode.get(nExt).push(obj);
+        }
     }
 
     return obj;

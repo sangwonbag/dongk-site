@@ -1,6 +1,6 @@
 // src/data/materials.db.js
 // Auto-generated database for Tokyo Flooring (동경바닥재)
-// Updated with complete 2026 KCC SenseLay (50 products) & Dongshin Polyma collections
+// Updated with complete 2026 KCC SenseLay & Dongshin Polyma collections
 
 export const materials = [
   {
@@ -101087,13 +101087,19 @@ export const materials = [
       "size": "500 x 500 x 5.0mm",
       "packing": "13pcs / Box (3.25㎡)"
     },
-    "thumbnail": null,
-    "image": null,
-    "images": [],
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 337.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 337.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 337.jpg"
+    ],
     "price": 0,
     "description": "동신 아트 OA타일 OA 프리미엄",
     "product_code": "OA 337",
-    "product_name": "OA 337"
+    "product_name": "OA 337",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 337.jpg",
+    "galleryImages": [
+      "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 337.jpg"
+    ]
   },
   {
     "id": "데코타일-동신-동신-oa타일-oa-338",
@@ -101113,13 +101119,19 @@ export const materials = [
       "size": "500 x 500 x 5.0mm",
       "packing": "13pcs / Box (3.25㎡)"
     },
-    "thumbnail": null,
-    "image": null,
-    "images": [],
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 338.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 338.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 338.jpg"
+    ],
     "price": 0,
     "description": "동신 아트 OA타일 OA 프리미엄",
     "product_code": "OA 338",
-    "product_name": "OA 338"
+    "product_name": "OA 338",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 338.jpg",
+    "galleryImages": [
+      "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 338.jpg"
+    ]
   },
   {
     "id": "데코타일-동신-동신-oa타일-oa-339",
@@ -101139,13 +101151,19 @@ export const materials = [
       "size": "500 x 500 x 5.0mm",
       "packing": "13pcs / Box (3.25㎡)"
     },
-    "thumbnail": null,
-    "image": null,
-    "images": [],
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 339.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 339.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 339.jpg"
+    ],
     "price": 0,
     "description": "동신 아트 OA타일 OA 프리미엄",
     "product_code": "OA 339",
-    "product_name": "OA 339"
+    "product_name": "OA 339",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 339.jpg",
+    "galleryImages": [
+      "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 339.jpg"
+    ]
   },
   {
     "id": "데코타일-동신-동신-oa타일-oa-340",
@@ -101165,13 +101183,19 @@ export const materials = [
       "size": "500 x 500 x 5.0mm",
       "packing": "13pcs / Box (3.25㎡)"
     },
-    "thumbnail": null,
-    "image": null,
-    "images": [],
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 340.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 340.jpg",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 340.jpg"
+    ],
     "price": 0,
     "description": "동신 아트 OA타일 OA 프리미엄",
     "product_code": "OA 340",
-    "product_name": "OA 340"
+    "product_name": "OA 340",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 340.jpg",
+    "galleryImages": [
+      "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 340.jpg"
+    ]
   },
   {
     "id": "데코타일-동신-동신-oa타일-oa-341",
