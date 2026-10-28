@@ -1,0 +1,913 @@
+/* Dongshin Polyma Detail Page Showroom Styles */
+
+.dongshin-detail-container {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  width: 100%;
+}
+
+/* Badges */
+.section-badge-dongshin {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  letter-spacing: 0.3px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.badge-acoustic {
+  background-color: #064e3b;
+  color: #34d399;
+  border: 1px solid #059669;
+}
+
+.badge-arthouse {
+  background-color: #451a03;
+  color: #fcd34d;
+  border: 1px solid #b45309;
+}
+
+.badge-arttile {
+  background-color: #172554;
+  color: #93c5fd;
+  border: 1px solid #2563eb;
+}
+
+.dongshin-sub-pill {
+  font-size: 12px;
+  font-weight: 600;
+  background: #f1f5f9;
+  color: #475569;
+  padding: 3px 10px;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+}
+
+.dongshin-code-badge {
+  display: inline-block;
+  background-color: #0f172a;
+  color: #ffffff;
+  padding: 3px 9px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+
+.dongshin-highlight-thick {
+  color: #059669;
+  font-size: 14.5px;
+  background: #ecfdf5;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.adhesive-highlight-cell {
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+/* Comparison Table */
+.dongshin-lineup-comparison-wrap {
+  margin-top: 24px;
+  padding: 22px;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+}
+
+.dongshin-comparison-title {
+  font-size: 15.5px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 4px 0;
+}
+
+.dongshin-comparison-table {
+  width: 100%;
+  min-width: 660px;
+  border-collapse: collapse;
+  font-size: 13px;
+  text-align: left;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  margin-top: 12px;
+}
+
+.dongshin-comparison-table th {
+  background-color: #f1f5f9;
+  color: #334155;
+  font-weight: 700;
+  padding: 12px 14px;
+  border-bottom: 2px solid #cbd5e1;
+  white-space: nowrap;
+}
+
+.dongshin-comparison-table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #f1f5f9;
+  color: #1e293b;
+  vertical-align: middle;
+}
+
+.dongshin-comparison-table tr:last-child td {
+  border-bottom: none;
+}
+
+.dongshin-comparison-table tr.row-current-product {
+  background-color: #f0fdf4 !important;
+  box-shadow: inset 4px 0 0 #059669;
+}
+
+.dongshin-comparison-table tr.row-current-product td {
+  color: #064e3b;
+  font-weight: 600;
+}
+
+.dongshin-comparison-table td.note-cell {
+  color: #64748b;
+  font-size: 12px;
+}
+
+.dongshin-table-note {
+  font-size: 12px;
+  color: #64748b;
+  margin-top: 10px;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+/* Features 2-column Grid */
+.dongshin-features-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.dongshin-feature-card {
+  display: flex;
+  gap: 14px;
+  padding: 20px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+}
+
+.dongshin-feature-card:hover {
+  border-color: #cbd5e1;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.dongshin-feature-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  flex-shrink: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.dongshin-feature-text h4 {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 6px 0;
+}
+
+.dongshin-feature-text p {
+  font-size: 13px;
+  color: #475569;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Structure Diagram Banner */
+.dongshin-diagram-banner {
+  position: relative;
+  width: 100%;
+  margin: 18px 0 20px 0;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  background: #2b2b28;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+}
+
+.dongshin-diagram-banner:hover {
+  border-color: #cbd5e1;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.09);
+}
+
+.diagram-img-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #2b2b28;
+  padding: 10px;
+}
+
+.diagram-img {
+  max-width: 100%;
+  max-height: 280px;
+  object-fit: contain;
+}
+
+.diagram-overlay-hint {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(4px);
+  color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Layer Stack */
+.dongshin-layer-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dongshin-layer-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 14px 18px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  border-left: 4px solid var(--point-gold, #c5a880);
+  transition: border-color 0.2s ease;
+}
+
+.dongshin-layer-card.layer-card-acoustic {
+  border-left: 4px solid #059669;
+  background: #f0fdf4;
+}
+
+.layer-step-badge {
+  background: #0f172a;
+  color: #ffffff;
+  font-size: 11.5px;
+  font-weight: 700;
+  padding: 4px 9px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.layer-card-acoustic .layer-step-badge {
+  background: #064e3b;
+  color: #34d399;
+}
+
+.layer-content h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 3px 0;
+}
+
+.layer-content p {
+  font-size: 12.5px;
+  color: #475569;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Space Examples 3-column Grid */
+.dongshin-scenes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.dongshin-scene-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: all 0.25s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.dongshin-scene-card:hover {
+  transform: translateY(-3px);
+  border-color: #cbd5e1;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+.scene-img-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: #f1f5f9;
+}
+
+.scene-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.dongshin-scene-card:hover .scene-img {
+  transform: scale(1.04);
+}
+
+.scene-match-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 4px;
+  letter-spacing: 0.2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.badge-exact {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.badge-lineup {
+  background: rgba(15, 23, 42, 0.85);
+  color: #f1f5f9;
+}
+
+.scene-zoom-hint {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(0, 0, 0, 0.65);
+  color: #ffffff;
+  font-size: 11px;
+  padding: 3px 7px;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.dongshin-scene-card:hover .scene-zoom-hint {
+  opacity: 1;
+}
+
+.scene-info-box {
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.scene-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 4px 0;
+}
+
+.scene-subtitle {
+  font-size: 12px;
+  color: #64748b;
+  margin: 0 0 10px 0;
+}
+
+.scene-codes-row {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-top: 8px;
+  border-top: 1px solid #f1f5f9;
+  font-size: 12px;
+}
+
+.code-label {
+  color: #94a3b8;
+  font-size: 11px;
+}
+
+.code-val {
+  font-weight: 700;
+  color: #0f172a;
+}
+
+/* Adhesive Guide */
+.adhesive-summary-card {
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid;
+  margin-top: 14px;
+}
+
+.card-standard-theme {
+  background: #fffbeb;
+  border-color: #fde68a;
+}
+
+.card-acoustic-theme {
+  background: #f0fdf4;
+  border-color: #a7f3d0;
+}
+
+.adhesive-main-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.adhesive-header-icon {
+  width: 38px;
+  height: 38px;
+  color: #0f172a;
+}
+
+.card-acoustic-theme .adhesive-header-icon {
+  color: #059669;
+}
+
+.adhesive-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 4px 0;
+}
+
+.adhesive-subtitle {
+  font-size: 13px;
+  color: #475569;
+  margin: 0;
+}
+
+.adhesive-specs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.adhesive-spec-col {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background: #ffffff;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.col-label {
+  font-size: 11.5px;
+  color: #64748b;
+}
+
+.col-val {
+  font-size: 13.5px;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.col-val.val-highlight {
+  color: #059669;
+  font-size: 14.5px;
+  font-weight: 700;
+}
+
+.adhesive-notice-box {
+  margin-top: 18px;
+  padding: 14px 16px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.notice-icon {
+  color: #0f172a;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.card-acoustic-theme .notice-icon {
+  color: #059669;
+}
+
+.adhesive-notice-box p {
+  font-size: 12.5px;
+  line-height: 1.6;
+  margin: 0;
+  color: #334155;
+}
+
+.dongshin-adhesives-table {
+  width: 100%;
+  min-width: 600px;
+  border-collapse: collapse;
+  font-size: 13px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.dongshin-adhesives-table th {
+  background: #f1f5f9;
+  color: #334155;
+  font-weight: 700;
+  padding: 10px 14px;
+  border-bottom: 2px solid #cbd5e1;
+}
+
+.dongshin-adhesives-table td {
+  padding: 11px 14px;
+  border-bottom: 1px solid #f1f5f9;
+  color: #1e293b;
+}
+
+/* Warnings Grid */
+.dongshin-warnings-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.dongshin-warning-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+.warn-danger {
+  background: #fef2f2;
+  border-color: #fecaca;
+}
+
+.warn-danger .warn-icon {
+  color: #dc2626;
+  flex-shrink: 0;
+}
+
+.warn-danger h5 {
+  color: #991b1b;
+}
+
+.warn-warn {
+  background: #fffbeb;
+  border-color: #fde68a;
+}
+
+.warn-warn .warn-icon {
+  color: #d97706;
+  flex-shrink: 0;
+}
+
+.warn-warn h5 {
+  color: #92400e;
+}
+
+.warn-content h5 {
+  font-size: 13.5px;
+  font-weight: 700;
+  margin: 0 0 4px 0;
+}
+
+.warn-content p {
+  font-size: 12px;
+  color: #475569;
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* Precheck Section */
+.precheck-container {
+  margin-top: 24px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 20px 22px;
+}
+
+.precheck-heading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14.5px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 16px 0;
+}
+
+.precheck-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.precheck-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  background: #ffffff;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.precheck-bullet {
+  background: #0f172a;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 700;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.precheck-text h6 {
+  font-size: 13px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 3px 0;
+}
+
+.precheck-text p {
+  font-size: 12px;
+  color: #64748b;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Steps Process Grid */
+.steps-process-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.process-step-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  background: #f8fafc;
+  padding: 18px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+}
+
+.step-num-circle {
+  background: #0f172a;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.step-body h5 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 4px 0;
+}
+
+.step-body p {
+  font-size: 12.5px;
+  color: #475569;
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* Maintenance Cards Grid */
+.maintenance-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.maintenance-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background: #f8fafc;
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+}
+
+.m-icon {
+  width: 22px;
+  height: 22px;
+  color: var(--point-gold, #c5a880);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.m-text h5 {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 4px 0;
+}
+
+.m-text p {
+  font-size: 12.5px;
+  color: #475569;
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* Disclaimer Banner */
+.dongshin-disclaimer-section {
+  margin-top: 10px;
+}
+
+.disclaimer-inner-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 22px 24px;
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+}
+
+.disclaimer-icon {
+  color: #0f172a;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.disclaimer-title {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 6px 0;
+}
+
+.disclaimer-desc {
+  font-size: 13px;
+  font-weight: 600;
+  color: #334155;
+  margin: 0 0 8px 0;
+  line-height: 1.6;
+}
+
+.disclaimer-sub {
+  font-size: 12px;
+  color: #64748b;
+  margin: 0;
+  line-height: 1.55;
+}
+
+/* Modal Lightbox */
+.dongshin-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.88);
+  backdrop-filter: blur(8px);
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  animation: modalFadeIn 0.2s ease;
+}
+
+@keyframes modalFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.dongshin-modal-container {
+  background: #ffffff;
+  border-radius: 14px;
+  max-width: 1100px;
+  width: 95vw;
+  max-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+.dongshin-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+  border-bottom: 1px solid #e2e8f0;
+  background: #f8fafc;
+}
+
+.modal-title {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.dongshin-modal-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #64748b;
+  padding: 4px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dongshin-modal-close:hover {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+.dongshin-modal-body {
+  flex: 1;
+  overflow: auto;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f172a;
+}
+
+.dongshin-modal-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 820px) {
+  .dongshin-features-grid,
+  .dongshin-scenes-grid,
+  .adhesive-specs-grid,
+  .dongshin-warnings-grid,
+  .precheck-grid,
+  .steps-process-container,
+  .maintenance-cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dongshin-lineup-comparison-wrap {
+    padding: 16px 14px;
+  }
+
+  .adhesive-summary-card {
+    padding: 16px;
+  }
+}

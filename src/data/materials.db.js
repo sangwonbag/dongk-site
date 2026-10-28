@@ -103237,17 +103237,22 @@ export const materials = [
       "division": "아트에코차음 · 우드",
       "thickness": "5.0T",
       "size": "250 x 1050 x 5.0mm",
-      "packing": "12pcs / 3.15㎡"
+      "packing": "12pcs / 3.15㎡",
+      "usage": "고기능 차음 LVT (친환경 고밀도 IXPE 흡음 발포패드 일체형)",
+      "adhesive": "차음 전용 수성 아크릴계 CT-100A (120~150g/㎡ 롤러 도포)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH5700.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH5700.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5700.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5700.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH5700.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5700.jpg"
     ],
     "price": 56000,
     "description": "동신 아트에코차음 우드",
     "product_code": "CH 5700",
-    "product_name": "CH 5700"
+    "product_name": "CH 5700",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5700.jpg",
+    "subLine": "에코차음 우드",
+    "unit": "12매/3.15㎡"
   },
   {
     "id": "데코타일-동신-아트에코차음-ch5701",
@@ -103265,17 +103270,22 @@ export const materials = [
       "division": "아트에코차음 · 우드",
       "thickness": "5.0T",
       "size": "250 x 1050 x 5.0mm",
-      "packing": "12pcs / 3.15㎡"
+      "packing": "12pcs / 3.15㎡",
+      "usage": "고기능 차음 LVT (친환경 고밀도 IXPE 흡음 발포패드 일체형)",
+      "adhesive": "차음 전용 수성 아크릴계 CT-100A (120~150g/㎡ 롤러 도포)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH5701.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH5701.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5701.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5701.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH5701.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5701.jpg"
     ],
     "price": 56000,
     "description": "동신 아트에코차음 우드",
     "product_code": "CH 5701",
-    "product_name": "CH 5701"
+    "product_name": "CH 5701",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5701.jpg",
+    "subLine": "에코차음 우드",
+    "unit": "12매/3.15㎡"
   },
   {
     "id": "데코타일-동신-아트에코차음-ch5702",
@@ -103293,17 +103303,22 @@ export const materials = [
       "division": "아트에코차음 · 우드",
       "thickness": "5.0T",
       "size": "250 x 1050 x 5.0mm",
-      "packing": "12pcs / 3.15㎡"
+      "packing": "12pcs / 3.15㎡",
+      "usage": "고기능 차음 LVT (친환경 고밀도 IXPE 흡음 발포패드 일체형)",
+      "adhesive": "차음 전용 수성 아크릴계 CT-100A (120~150g/㎡ 롤러 도포)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH5702.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH5702.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5702.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5702.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH5702.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5702.jpg"
     ],
     "price": 56000,
     "description": "동신 아트에코차음 우드",
     "product_code": "CH 5702",
-    "product_name": "CH 5702"
+    "product_name": "CH 5702",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5702.jpg",
+    "subLine": "에코차음 우드",
+    "unit": "12매/3.15㎡"
   },
   {
     "id": "데코타일-동신-아트에코차음-ch5703",
@@ -103321,17 +103336,23 @@ export const materials = [
       "division": "아트에코차음 · 우드",
       "thickness": "5.0T",
       "size": "250 x 1050 x 5.0mm",
-      "packing": "12pcs / 3.15㎡"
+      "packing": "12pcs / 3.15㎡",
+      "usage": "고기능 차음 LVT (친환경 고밀도 IXPE 흡음 발포패드 일체형)",
+      "adhesive": "차음 전용 수성 아크릴계 CT-100A (120~150g/㎡ 롤러 도포)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH5703.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH5703.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5703.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5703.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH5703.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5703.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5703_시공예시.jpg"
     ],
     "price": 56000,
     "description": "동신 아트에코차음 우드",
     "product_code": "CH 5703",
-    "product_name": "CH 5703"
+    "product_name": "CH 5703",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5703.jpg",
+    "subLine": "에코차음 우드",
+    "unit": "12매/3.15㎡"
   },
   {
     "id": "데코타일-동신-아트에코차음-ch5704",
@@ -103349,17 +103370,23 @@ export const materials = [
       "division": "아트에코차음 · 우드",
       "thickness": "5.0T",
       "size": "250 x 1050 x 5.0mm",
-      "packing": "12pcs / 3.15㎡"
+      "packing": "12pcs / 3.15㎡",
+      "usage": "고기능 차음 LVT (친환경 고밀도 IXPE 흡음 발포패드 일체형)",
+      "adhesive": "차음 전용 수성 아크릴계 CT-100A (120~150g/㎡ 롤러 도포)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH5704.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH5704.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5704.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5704.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH5704.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5704.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5704_시공예시.jpg"
     ],
     "price": 56000,
     "description": "동신 아트에코차음 우드",
     "product_code": "CH 5704",
-    "product_name": "CH 5704"
+    "product_name": "CH 5704",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5704.jpg",
+    "subLine": "에코차음 우드",
+    "unit": "12매/3.15㎡"
   },
   {
     "id": "데코타일-동신-아트에코차음-ch5705",
@@ -103377,17 +103404,22 @@ export const materials = [
       "division": "아트에코차음 · 우드",
       "thickness": "5.0T",
       "size": "250 x 1050 x 5.0mm",
-      "packing": "12pcs / 3.15㎡"
+      "packing": "12pcs / 3.15㎡",
+      "usage": "고기능 차음 LVT (친환경 고밀도 IXPE 흡음 발포패드 일체형)",
+      "adhesive": "차음 전용 수성 아크릴계 CT-100A (120~150g/㎡ 롤러 도포)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH5705.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH5705.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5705.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5705.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH5705.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5705.jpg"
     ],
     "price": 56000,
     "description": "동신 아트에코차음 우드",
     "product_code": "CH 5705",
-    "product_name": "CH 5705"
+    "product_name": "CH 5705",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5705.jpg",
+    "subLine": "에코차음 우드",
+    "unit": "12매/3.15㎡"
   },
   {
     "id": "데코타일-동신-아트에코차음-ch5706",
@@ -103405,17 +103437,22 @@ export const materials = [
       "division": "아트에코차음 · 우드",
       "thickness": "5.0T",
       "size": "250 x 1050 x 5.0mm",
-      "packing": "12pcs / 3.15㎡"
+      "packing": "12pcs / 3.15㎡",
+      "usage": "고기능 차음 LVT (친환경 고밀도 IXPE 흡음 발포패드 일체형)",
+      "adhesive": "차음 전용 수성 아크릴계 CT-100A (120~150g/㎡ 롤러 도포)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH5706.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH5706.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5706.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5706.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH5706.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5706.jpg"
     ],
     "price": 56000,
     "description": "동신 아트에코차음 우드",
     "product_code": "CH 5706",
-    "product_name": "CH 5706"
+    "product_name": "CH 5706",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5706.jpg",
+    "subLine": "에코차음 우드",
+    "unit": "12매/3.15㎡"
   },
   {
     "id": "데코타일-동신-아트에코차음-ch6300",
@@ -103433,17 +103470,22 @@ export const materials = [
       "division": "아트에코차음 · 사각",
       "thickness": "5.0T",
       "size": "600 x 600 x 5.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "고기능 차음 LVT (친환경 고밀도 IXPE 흡음 발포패드 일체형)",
+      "adhesive": "차음 전용 수성 아크릴계 CT-100A (120~150g/㎡ 롤러 도포)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6300.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6300.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6300.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6300.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6300.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6300.jpg"
     ],
     "price": 56000,
     "description": "동신 아트에코차음 사각",
     "product_code": "CH 6300",
-    "product_name": "CH 6300"
+    "product_name": "CH 6300",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6300.jpg",
+    "subLine": "에코차음 사각",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트에코차음-ch6301",
@@ -103461,17 +103503,22 @@ export const materials = [
       "division": "아트에코차음 · 사각",
       "thickness": "5.0T",
       "size": "600 x 600 x 5.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "고기능 차음 LVT (친환경 고밀도 IXPE 흡음 발포패드 일체형)",
+      "adhesive": "차음 전용 수성 아크릴계 CT-100A (120~150g/㎡ 롤러 도포)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6301.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6301.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6301.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6301.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6301.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6301.jpg"
     ],
     "price": 56000,
     "description": "동신 아트에코차음 사각",
     "product_code": "CH 6301",
-    "product_name": "CH 6301"
+    "product_name": "CH 6301",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6301.jpg",
+    "subLine": "에코차음 사각",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트에코차음-ch6302",
@@ -103489,17 +103536,22 @@ export const materials = [
       "division": "아트에코차음 · 사각",
       "thickness": "5.0T",
       "size": "600 x 600 x 5.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "고기능 차음 LVT (친환경 고밀도 IXPE 흡음 발포패드 일체형)",
+      "adhesive": "차음 전용 수성 아크릴계 CT-100A (120~150g/㎡ 롤러 도포)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6302.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6302.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6302.png",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6302.png",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6302.png"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6302.png"
     ],
     "price": 56000,
     "description": "동신 아트에코차음 사각",
     "product_code": "CH 6302",
-    "product_name": "CH 6302"
+    "product_name": "CH 6302",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6302.png",
+    "subLine": "에코차음 사각",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트에코차음-ch6303",
@@ -103517,17 +103569,23 @@ export const materials = [
       "division": "아트에코차음 · 사각",
       "thickness": "5.0T",
       "size": "600 x 600 x 5.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "고기능 차음 LVT (친환경 고밀도 IXPE 흡음 발포패드 일체형)",
+      "adhesive": "차음 전용 수성 아크릴계 CT-100A (120~150g/㎡ 롤러 도포)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6303.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6303.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6303.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6303.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6303.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6303.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6303_시공예시.jpg"
     ],
     "price": 56000,
     "description": "동신 아트에코차음 사각",
     "product_code": "CH 6303",
-    "product_name": "CH 6303"
+    "product_name": "CH 6303",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6303.jpg",
+    "subLine": "에코차음 사각",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트에코차음-ch6304",
@@ -103545,17 +103603,22 @@ export const materials = [
       "division": "아트에코차음 · 사각",
       "thickness": "5.0T",
       "size": "600 x 600 x 5.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "고기능 차음 LVT (친환경 고밀도 IXPE 흡음 발포패드 일체형)",
+      "adhesive": "차음 전용 수성 아크릴계 CT-100A (120~150g/㎡ 롤러 도포)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6304.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6304.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6304.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6304.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6304.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6304.jpg"
     ],
     "price": 56000,
     "description": "동신 아트에코차음 사각",
     "product_code": "CH 6304",
-    "product_name": "CH 6304"
+    "product_name": "CH 6304",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6304.jpg",
+    "subLine": "에코차음 사각",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트에코차음-ch6305",
@@ -103573,17 +103636,22 @@ export const materials = [
       "division": "아트에코차음 · 사각",
       "thickness": "5.0T",
       "size": "600 x 600 x 5.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "고기능 차음 LVT (친환경 고밀도 IXPE 흡음 발포패드 일체형)",
+      "adhesive": "차음 전용 수성 아크릴계 CT-100A (120~150g/㎡ 롤러 도포)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6305.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6305.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6305.png",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6305.png",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6305.png"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6305.png"
     ],
     "price": 56000,
     "description": "동신 아트에코차음 사각",
     "product_code": "CH 6305",
-    "product_name": "CH 6305"
+    "product_name": "CH 6305",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6305.png",
+    "subLine": "에코차음 사각",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트에코차음-ch6306",
@@ -103601,17 +103669,22 @@ export const materials = [
       "division": "아트에코차음 · 사각",
       "thickness": "5.0T",
       "size": "600 x 600 x 5.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "고기능 차음 LVT (친환경 고밀도 IXPE 흡음 발포패드 일체형)",
+      "adhesive": "차음 전용 수성 아크릴계 CT-100A (120~150g/㎡ 롤러 도포)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6306.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6306.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6306.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6306.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6306.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6306.jpg"
     ],
     "price": 56000,
     "description": "동신 아트에코차음 사각",
     "product_code": "CH 6306",
-    "product_name": "CH 6306"
+    "product_name": "CH 6306",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6306.jpg",
+    "subLine": "에코차음 사각",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트에코차음-ch6307",
@@ -103629,17 +103702,22 @@ export const materials = [
       "division": "아트에코차음 · 사각",
       "thickness": "5.0T",
       "size": "600 x 600 x 5.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "고기능 차음 LVT (친환경 고밀도 IXPE 흡음 발포패드 일체형)",
+      "adhesive": "차음 전용 수성 아크릴계 CT-100A (120~150g/㎡ 롤러 도포)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6307.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6307.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6307.png",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6307.png",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6307.png"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6307.png"
     ],
     "price": 56000,
     "description": "동신 아트에코차음 사각",
     "product_code": "CH 6307",
-    "product_name": "CH 6307"
+    "product_name": "CH 6307",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6307.png",
+    "subLine": "에코차음 사각",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트에코차음-ch6308",
@@ -103657,17 +103735,22 @@ export const materials = [
       "division": "아트에코차음 · 사각",
       "thickness": "5.0T",
       "size": "600 x 600 x 5.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "고기능 차음 LVT (친환경 고밀도 IXPE 흡음 발포패드 일체형)",
+      "adhesive": "차음 전용 수성 아크릴계 CT-100A (120~150g/㎡ 롤러 도포)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6308.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6308.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6308.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6308.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6308.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6308.jpg"
     ],
     "price": 56000,
     "description": "동신 아트에코차음 사각",
     "product_code": "CH 6308",
-    "product_name": "CH 6308"
+    "product_name": "CH 6308",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6308.jpg",
+    "subLine": "에코차음 사각",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트에코차음-ch6309",
@@ -103685,17 +103768,22 @@ export const materials = [
       "division": "아트에코차음 · 사각",
       "thickness": "5.0T",
       "size": "600 x 600 x 5.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "고기능 차음 LVT (친환경 고밀도 IXPE 흡음 발포패드 일체형)",
+      "adhesive": "차음 전용 수성 아크릴계 CT-100A (120~150g/㎡ 롤러 도포)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6309.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6309.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6309.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6309.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6309.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6309.jpg"
     ],
     "price": 56000,
     "description": "동신 아트에코차음 사각",
     "product_code": "CH 6309",
-    "product_name": "CH 6309"
+    "product_name": "CH 6309",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6309.jpg",
+    "subLine": "에코차음 사각",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트에코차음-ch6310",
@@ -103713,17 +103801,22 @@ export const materials = [
       "division": "아트에코차음 · 사각",
       "thickness": "5.0T",
       "size": "600 x 600 x 5.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "고기능 차음 LVT (친환경 고밀도 IXPE 흡음 발포패드 일체형)",
+      "adhesive": "차음 전용 수성 아크릴계 CT-100A (120~150g/㎡ 롤러 도포)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6310.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6310.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6310.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6310.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6310.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6310.jpg"
     ],
     "price": 56000,
     "description": "동신 아트에코차음 사각",
     "product_code": "CH 6310",
-    "product_name": "CH 6310"
+    "product_name": "CH 6310",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6310.jpg",
+    "subLine": "에코차음 사각",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트에코차음-ch6311",
@@ -103741,17 +103834,22 @@ export const materials = [
       "division": "아트에코차음 · 사각",
       "thickness": "5.0T",
       "size": "600 x 600 x 5.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "고기능 차음 LVT (친환경 고밀도 IXPE 흡음 발포패드 일체형)",
+      "adhesive": "차음 전용 수성 아크릴계 CT-100A (120~150g/㎡ 롤러 도포)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6311.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6311.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6311.png",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6311.png",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6311.png"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6311.png"
     ],
     "price": 56000,
     "description": "동신 아트에코차음 사각",
     "product_code": "CH 6311",
-    "product_name": "CH 6311"
+    "product_name": "CH 6311",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6311.png",
+    "subLine": "에코차음 사각",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트에코차음-ch6312",
@@ -103769,17 +103867,23 @@ export const materials = [
       "division": "아트에코차음 · 사각",
       "thickness": "5.0T",
       "size": "600 x 600 x 5.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "고기능 차음 LVT (친환경 고밀도 IXPE 흡음 발포패드 일체형)",
+      "adhesive": "차음 전용 수성 아크릴계 CT-100A (120~150g/㎡ 롤러 도포)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6312.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6312.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6312.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6312.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/CH6312.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6312.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6312_시공예시.jpg"
     ],
     "price": 56000,
     "description": "동신 아트에코차음 사각",
     "product_code": "CH 6312",
-    "product_name": "CH 6312"
+    "product_name": "CH 6312",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6312.jpg",
+    "subLine": "에코차음 사각",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트하우스-ah726",
@@ -103797,17 +103901,22 @@ export const materials = [
       "division": "아트하우스 · 리빙듀오",
       "thickness": "3.0T",
       "size": "180 x 920 x 3.0mm",
-      "packing": "20pcs / 3.31㎡"
+      "packing": "20pcs / 3.31㎡",
+      "usage": "온돌용 프리미엄 LVT (Glass Fiber 치수안정층 결합)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH726.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH726.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH726.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH726.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH726.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH726.jpg"
     ],
     "price": 37000,
     "description": "동신 아트하우스 리빙듀오",
     "product_code": "AH 726",
-    "product_name": "AH 726"
+    "product_name": "AH 726",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH726.jpg",
+    "subLine": "리빙듀오",
+    "unit": "20매/3.31㎡"
   },
   {
     "id": "데코타일-동신-아트하우스-ah728",
@@ -103825,17 +103934,22 @@ export const materials = [
       "division": "아트하우스 · 리빙듀오",
       "thickness": "3.0T",
       "size": "180 x 920 x 3.0mm",
-      "packing": "20pcs / 3.31㎡"
+      "packing": "20pcs / 3.31㎡",
+      "usage": "온돌용 프리미엄 LVT (Glass Fiber 치수안정층 결합)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH728.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH728.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH728.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH728.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH728.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH728.jpg"
     ],
     "price": 37000,
     "description": "동신 아트하우스 리빙듀오",
     "product_code": "AH 728",
-    "product_name": "AH 728"
+    "product_name": "AH 728",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH728.jpg",
+    "subLine": "리빙듀오",
+    "unit": "20매/3.31㎡"
   },
   {
     "id": "데코타일-동신-아트하우스-ah729",
@@ -103853,17 +103967,22 @@ export const materials = [
       "division": "아트하우스 · 리빙듀오",
       "thickness": "3.0T",
       "size": "180 x 920 x 3.0mm",
-      "packing": "20pcs / 3.31㎡"
+      "packing": "20pcs / 3.31㎡",
+      "usage": "온돌용 프리미엄 LVT (Glass Fiber 치수안정층 결합)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH729.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH729.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH729.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH729.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH729.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH729.jpg"
     ],
     "price": 37000,
     "description": "동신 아트하우스 리빙듀오",
     "product_code": "AH 729",
-    "product_name": "AH 729"
+    "product_name": "AH 729",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH729.jpg",
+    "subLine": "리빙듀오",
+    "unit": "20매/3.31㎡"
   },
   {
     "id": "데코타일-동신-아트하우스-ah730",
@@ -103881,17 +104000,22 @@ export const materials = [
       "division": "아트하우스 · 리빙듀오",
       "thickness": "3.0T",
       "size": "180 x 920 x 3.0mm",
-      "packing": "20pcs / 3.31㎡"
+      "packing": "20pcs / 3.31㎡",
+      "usage": "온돌용 프리미엄 LVT (Glass Fiber 치수안정층 결합)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH730.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH730.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH730.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH730.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH730.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH730.jpg"
     ],
     "price": 37000,
     "description": "동신 아트하우스 리빙듀오",
     "product_code": "AH 730",
-    "product_name": "AH 730"
+    "product_name": "AH 730",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH730.jpg",
+    "subLine": "리빙듀오",
+    "unit": "20매/3.31㎡"
   },
   {
     "id": "데코타일-동신-아트하우스-ah734",
@@ -103909,17 +104033,22 @@ export const materials = [
       "division": "아트하우스 · 리빙듀오",
       "thickness": "3.0T",
       "size": "180 x 920 x 3.0mm",
-      "packing": "20pcs / 3.31㎡"
+      "packing": "20pcs / 3.31㎡",
+      "usage": "온돌용 프리미엄 LVT (Glass Fiber 치수안정층 결합)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH734.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH734.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH734.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH734.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH734.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH734.jpg"
     ],
     "price": 37000,
     "description": "동신 아트하우스 리빙듀오",
     "product_code": "AH 734",
-    "product_name": "AH 734"
+    "product_name": "AH 734",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH734.jpg",
+    "subLine": "리빙듀오",
+    "unit": "20매/3.31㎡"
   },
   {
     "id": "데코타일-동신-아트하우스-ah735",
@@ -103937,17 +104066,23 @@ export const materials = [
       "division": "아트하우스 · 리빙듀오",
       "thickness": "3.0T",
       "size": "180 x 920 x 3.0mm",
-      "packing": "20pcs / 3.31㎡"
+      "packing": "20pcs / 3.31㎡",
+      "usage": "온돌용 프리미엄 LVT (Glass Fiber 치수안정층 결합)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH735.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH735.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH735.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH735.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH735.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH735.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH735_시공예시.jpg"
     ],
     "price": 37000,
     "description": "동신 아트하우스 리빙듀오",
     "product_code": "AH 735",
-    "product_name": "AH 735"
+    "product_name": "AH 735",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH735.jpg",
+    "subLine": "리빙듀오",
+    "unit": "20매/3.31㎡"
   },
   {
     "id": "데코타일-동신-아트하우스-ah736",
@@ -103965,17 +104100,22 @@ export const materials = [
       "division": "아트하우스 · 리빙듀오",
       "thickness": "3.0T",
       "size": "180 x 920 x 3.0mm",
-      "packing": "20pcs / 3.31㎡"
+      "packing": "20pcs / 3.31㎡",
+      "usage": "온돌용 프리미엄 LVT (Glass Fiber 치수안정층 결합)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH736.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH736.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH736.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH736.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH736.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH736.jpg"
     ],
     "price": 37000,
     "description": "동신 아트하우스 리빙듀오",
     "product_code": "AH 736",
-    "product_name": "AH 736"
+    "product_name": "AH 736",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH736.jpg",
+    "subLine": "리빙듀오",
+    "unit": "20매/3.31㎡"
   },
   {
     "id": "데코타일-동신-아트하우스-ah737",
@@ -103993,17 +104133,22 @@ export const materials = [
       "division": "아트하우스 · 리빙듀오",
       "thickness": "3.0T",
       "size": "180 x 920 x 3.0mm",
-      "packing": "20pcs / 3.31㎡"
+      "packing": "20pcs / 3.31㎡",
+      "usage": "온돌용 프리미엄 LVT (Glass Fiber 치수안정층 결합)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH737.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH737.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH737.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH737.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH737.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH737.jpg"
     ],
     "price": 37000,
     "description": "동신 아트하우스 리빙듀오",
     "product_code": "AH 737",
-    "product_name": "AH 737"
+    "product_name": "AH 737",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH737.jpg",
+    "subLine": "리빙듀오",
+    "unit": "20매/3.31㎡"
   },
   {
     "id": "데코타일-동신-아트하우스-ah738",
@@ -104021,17 +104166,23 @@ export const materials = [
       "division": "아트하우스 · 리빙듀오",
       "thickness": "3.0T",
       "size": "180 x 920 x 3.0mm",
-      "packing": "20pcs / 3.31㎡"
+      "packing": "20pcs / 3.31㎡",
+      "usage": "온돌용 프리미엄 LVT (Glass Fiber 치수안정층 결합)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH738.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH738.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH738.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH738.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH738.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH738.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH739_AH738_시공예시.jpg"
     ],
     "price": 37000,
     "description": "동신 아트하우스 리빙듀오",
     "product_code": "AH 738",
-    "product_name": "AH 738"
+    "product_name": "AH 738",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH738.jpg",
+    "subLine": "리빙듀오",
+    "unit": "20매/3.31㎡"
   },
   {
     "id": "데코타일-동신-아트하우스-ah739",
@@ -104049,17 +104200,23 @@ export const materials = [
       "division": "아트하우스 · 리빙듀오",
       "thickness": "3.0T",
       "size": "180 x 920 x 3.0mm",
-      "packing": "20pcs / 3.31㎡"
+      "packing": "20pcs / 3.31㎡",
+      "usage": "온돌용 프리미엄 LVT (Glass Fiber 치수안정층 결합)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH739.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH739.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH739.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH739.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH739.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH739.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH739_AH738_시공예시.jpg"
     ],
     "price": 37000,
     "description": "동신 아트하우스 리빙듀오",
     "product_code": "AH 739",
-    "product_name": "AH 739"
+    "product_name": "AH 739",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH739.jpg",
+    "subLine": "리빙듀오",
+    "unit": "20매/3.31㎡"
   },
   {
     "id": "데코타일-동신-아트하우스-ah6100",
@@ -104077,17 +104234,23 @@ export const materials = [
       "division": "아트하우스 · 하우스 마블",
       "thickness": "3.0T",
       "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "온돌용 프리미엄 LVT (Glass Fiber 치수안정층 결합)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6100.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6100.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6100.png",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6100.png",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6100.png"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6100.png",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6100_시공예시.jpg"
     ],
     "price": 37000,
     "description": "동신 아트하우스 하우스 마블",
     "product_code": "AH 6100",
-    "product_name": "AH 6100"
+    "product_name": "AH 6100",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6100.png",
+    "subLine": "하우스마블",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트하우스-ah6101",
@@ -104105,17 +104268,22 @@ export const materials = [
       "division": "아트하우스 · 하우스 마블",
       "thickness": "3.0T",
       "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "온돌용 프리미엄 LVT (Glass Fiber 치수안정층 결합)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6101.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6101.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6101.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6101.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6101.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6101.jpg"
     ],
     "price": 37000,
     "description": "동신 아트하우스 하우스 마블",
     "product_code": "AH 6101",
-    "product_name": "AH 6101"
+    "product_name": "AH 6101",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6101.jpg",
+    "subLine": "하우스마블",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트하우스-ah6102",
@@ -104133,17 +104301,22 @@ export const materials = [
       "division": "아트하우스 · 하우스 마블",
       "thickness": "3.0T",
       "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "온돌용 프리미엄 LVT (Glass Fiber 치수안정층 결합)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6102.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6102.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6102.png",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6102.png",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6102.png"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6102.png"
     ],
     "price": 37000,
     "description": "동신 아트하우스 하우스 마블",
     "product_code": "AH 6102",
-    "product_name": "AH 6102"
+    "product_name": "AH 6102",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6102.png",
+    "subLine": "하우스마블",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트하우스-ah6103",
@@ -104161,17 +104334,23 @@ export const materials = [
       "division": "아트하우스 · 하우스 마블",
       "thickness": "3.0T",
       "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "온돌용 프리미엄 LVT (Glass Fiber 치수안정층 결합)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6103.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6103.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6103.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6103.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6103.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6103.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6103_AH6108_시공예시.jpg"
     ],
     "price": 37000,
     "description": "동신 아트하우스 하우스 마블",
     "product_code": "AH 6103",
-    "product_name": "AH 6103"
+    "product_name": "AH 6103",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6103.jpg",
+    "subLine": "하우스마블",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트하우스-ah6104",
@@ -104189,17 +104368,23 @@ export const materials = [
       "division": "아트하우스 · 하우스 마블",
       "thickness": "3.0T",
       "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "온돌용 프리미엄 LVT (Glass Fiber 치수안정층 결합)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6104.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6104.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6104.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6104.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6104.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6104.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6104_AS1538_시공예시.jpg"
     ],
     "price": 37000,
     "description": "동신 아트하우스 하우스 마블",
     "product_code": "AH 6104",
-    "product_name": "AH 6104"
+    "product_name": "AH 6104",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6104.jpg",
+    "subLine": "하우스마블",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트하우스-ah6105",
@@ -104217,17 +104402,22 @@ export const materials = [
       "division": "아트하우스 · 하우스 마블",
       "thickness": "3.0T",
       "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "온돌용 프리미엄 LVT (Glass Fiber 치수안정층 결합)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6105.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6105.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6105.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6105.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6105.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6105.jpg"
     ],
     "price": 37000,
     "description": "동신 아트하우스 하우스 마블",
     "product_code": "AH 6105",
-    "product_name": "AH 6105"
+    "product_name": "AH 6105",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6105.jpg",
+    "subLine": "하우스마블",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트하우스-ah6106",
@@ -104245,17 +104435,23 @@ export const materials = [
       "division": "아트하우스 · 하우스 마블",
       "thickness": "3.0T",
       "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "온돌용 프리미엄 LVT (Glass Fiber 치수안정층 결합)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6106.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6106.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6106.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6106.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6106.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6106.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6106_AH6107_시공예시.jpg"
     ],
     "price": 37000,
     "description": "동신 아트하우스 하우스 마블",
     "product_code": "AH 6106",
-    "product_name": "AH 6106"
+    "product_name": "AH 6106",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6106.jpg",
+    "subLine": "하우스마블",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트하우스-ah6107",
@@ -104273,17 +104469,23 @@ export const materials = [
       "division": "아트하우스 · 하우스 마블",
       "thickness": "3.0T",
       "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "온돌용 프리미엄 LVT (Glass Fiber 치수안정층 결합)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6107.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6107.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6107.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6107.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6107.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6107.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6106_AH6107_시공예시.jpg"
     ],
     "price": 37000,
     "description": "동신 아트하우스 하우스 마블",
     "product_code": "AH 6107",
-    "product_name": "AH 6107"
+    "product_name": "AH 6107",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6107.jpg",
+    "subLine": "하우스마블",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트하우스-ah6108",
@@ -104301,17 +104503,23 @@ export const materials = [
       "division": "아트하우스 · 하우스 마블",
       "thickness": "3.0T",
       "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "온돌용 프리미엄 LVT (Glass Fiber 치수안정층 결합)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6108.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6108.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6108.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6108.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6108.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6108.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6103_AH6108_시공예시.jpg"
     ],
     "price": 37000,
     "description": "동신 아트하우스 하우스 마블",
     "product_code": "AH 6108",
-    "product_name": "AH 6108"
+    "product_name": "AH 6108",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6108.jpg",
+    "subLine": "하우스마블",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트하우스-ah6109",
@@ -104329,17 +104537,22 @@ export const materials = [
       "division": "아트하우스 · 하우스 마블",
       "thickness": "3.0T",
       "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "온돌용 프리미엄 LVT (Glass Fiber 치수안정층 결합)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6109.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6109.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6109.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6109.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/AH6109.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6109.jpg"
     ],
     "price": 37000,
     "description": "동신 아트하우스 하우스 마블",
     "product_code": "AH 6109",
-    "product_name": "AH 6109"
+    "product_name": "AH 6109",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6109.jpg",
+    "subLine": "하우스마블",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ds608",
@@ -104357,17 +104570,22 @@ export const materials = [
       "division": "아트타일 · 600 사각타일",
       "thickness": "3.0T",
       "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS608.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS608.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS608.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS608.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS608.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS608.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 600 사각타일",
     "product_code": "DS 608",
-    "product_name": "DS 608"
+    "product_name": "DS 608",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS608.jpg",
+    "subLine": "600 사각타일",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ds611",
@@ -104385,17 +104603,22 @@ export const materials = [
       "division": "아트타일 · 600 사각타일",
       "thickness": "3.0T",
       "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS611.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS611.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS611.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS611.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS611.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS611.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 600 사각타일",
     "product_code": "DS 611",
-    "product_name": "DS 611"
+    "product_name": "DS 611",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS611.jpg",
+    "subLine": "600 사각타일",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ds612",
@@ -104413,17 +104636,23 @@ export const materials = [
       "division": "아트타일 · 600 사각타일",
       "thickness": "3.0T",
       "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS612.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS612.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS612.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS612.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS612.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS612.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS612_시공예시.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 600 사각타일",
     "product_code": "DS 612",
-    "product_name": "DS 612"
+    "product_name": "DS 612",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS612.jpg",
+    "subLine": "600 사각타일",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ds613",
@@ -104441,17 +104670,22 @@ export const materials = [
       "division": "아트타일 · 600 사각타일",
       "thickness": "3.0T",
       "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS613.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS613.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS613.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS613.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS613.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS613.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 600 사각타일",
     "product_code": "DS 613",
-    "product_name": "DS 613"
+    "product_name": "DS 613",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS613.jpg",
+    "subLine": "600 사각타일",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ds615",
@@ -104469,17 +104703,22 @@ export const materials = [
       "division": "아트타일 · 600 사각타일",
       "thickness": "3.0T",
       "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS615.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS615.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS615.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS615.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS615.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS615.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 600 사각타일",
     "product_code": "DS 615",
-    "product_name": "DS 615"
+    "product_name": "DS 615",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS615.jpg",
+    "subLine": "600 사각타일",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ds616",
@@ -104497,17 +104736,23 @@ export const materials = [
       "division": "아트타일 · 600 사각타일",
       "thickness": "3.0T",
       "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS616.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS616.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS616.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS616.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS616.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS616.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS616_시공예시.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 600 사각타일",
     "product_code": "DS 616",
-    "product_name": "DS 616"
+    "product_name": "DS 616",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS616.jpg",
+    "subLine": "600 사각타일",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ds618",
@@ -104525,17 +104770,22 @@ export const materials = [
       "division": "아트타일 · 600 사각타일",
       "thickness": "3.0T",
       "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS618.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS618.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS618.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS618.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS618.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS618.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 600 사각타일",
     "product_code": "DS 618",
-    "product_name": "DS 618"
+    "product_name": "DS 618",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS618.jpg",
+    "subLine": "600 사각타일",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ds619",
@@ -104553,17 +104803,23 @@ export const materials = [
       "division": "아트타일 · 600 사각타일",
       "thickness": "3.0T",
       "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS619.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS619.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS619.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS619.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS619.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS619.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS619_시공예시.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 600 사각타일",
     "product_code": "DS 619",
-    "product_name": "DS 619"
+    "product_name": "DS 619",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS619.jpg",
+    "subLine": "600 사각타일",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ds620",
@@ -104581,17 +104837,22 @@ export const materials = [
       "division": "아트타일 · 600 사각타일",
       "thickness": "3.0T",
       "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS620.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS620.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS620.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS620.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS620.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS620.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 600 사각타일",
     "product_code": "DS 620",
-    "product_name": "DS 620"
+    "product_name": "DS 620",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS620.jpg",
+    "subLine": "600 사각타일",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ds621",
@@ -104609,17 +104870,22 @@ export const materials = [
       "division": "아트타일 · 600 사각타일",
       "thickness": "3.0T",
       "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS621.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS621.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS621.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS621.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS621.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS621.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 600 사각타일",
     "product_code": "DS 621",
-    "product_name": "DS 621"
+    "product_name": "DS 621",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS621.jpg",
+    "subLine": "600 사각타일",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ds623",
@@ -104637,17 +104903,23 @@ export const materials = [
       "division": "아트타일 · 600 사각타일",
       "thickness": "3.0T",
       "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS623.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS623.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS623.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS623.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS623.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS623.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS623_DS625_시공예시.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 600 사각타일",
     "product_code": "DS 623",
-    "product_name": "DS 623"
+    "product_name": "DS 623",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS623.jpg",
+    "subLine": "600 사각타일",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ds625",
@@ -104665,17 +104937,23 @@ export const materials = [
       "division": "아트타일 · 600 사각타일",
       "thickness": "3.0T",
       "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS625.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS625.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS625.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS625.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS625.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS625.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS623_DS625_시공예시.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 600 사각타일",
     "product_code": "DS 625",
-    "product_name": "DS 625"
+    "product_name": "DS 625",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS625.jpg",
+    "subLine": "600 사각타일",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ds626",
@@ -104693,17 +104971,23 @@ export const materials = [
       "division": "아트타일 · 600 사각타일",
       "thickness": "3.0T",
       "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS626.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS626.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS626.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS626.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS626.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS626.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS626_DS627_시공예시.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 600 사각타일",
     "product_code": "DS 626",
-    "product_name": "DS 626"
+    "product_name": "DS 626",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS626.jpg",
+    "subLine": "600 사각타일",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ds627",
@@ -104721,17 +105005,23 @@ export const materials = [
       "division": "아트타일 · 600 사각타일",
       "thickness": "3.0T",
       "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS627.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS627.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS627.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS627.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS627.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS627.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS626_DS627_시공예시.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 600 사각타일",
     "product_code": "DS 627",
-    "product_name": "DS 627"
+    "product_name": "DS 627",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS627.jpg",
+    "subLine": "600 사각타일",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ds671",
@@ -104749,17 +105039,22 @@ export const materials = [
       "division": "아트타일 · 600 사각타일",
       "thickness": "3.0T",
       "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS671.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS671.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS671.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS671.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS671.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS671.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 600 사각타일",
     "product_code": "DS 671",
-    "product_name": "DS 671"
+    "product_name": "DS 671",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS671.jpg",
+    "subLine": "600 사각타일",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ds673",
@@ -104777,17 +105072,22 @@ export const materials = [
       "division": "아트타일 · 600 사각타일",
       "thickness": "3.0T",
       "size": "600 x 600 x 3.0mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9pcs / 3.24㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS673.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS673.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS673.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS673.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/DS673.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS673.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 600 사각타일",
     "product_code": "DS 673",
-    "product_name": "DS 673"
+    "product_name": "DS 673",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS673.jpg",
+    "subLine": "600 사각타일",
+    "unit": "9매/3.24㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as4126",
@@ -104805,17 +105105,22 @@ export const materials = [
       "division": "아트타일 · 콘크리트",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4126.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4126.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4126.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4126.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4126.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4126.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 콘크리트",
     "product_code": "AS 4126",
-    "product_name": "AS 4126"
+    "product_name": "AS 4126",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4126.jpg",
+    "subLine": "콘크리트",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as4127",
@@ -104833,17 +105138,22 @@ export const materials = [
       "division": "아트타일 · 콘크리트",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4127.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4127.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4127.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4127.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4127.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4127.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 콘크리트",
     "product_code": "AS 4127",
-    "product_name": "AS 4127"
+    "product_name": "AS 4127",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4127.jpg",
+    "subLine": "콘크리트",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as4128",
@@ -104861,17 +105171,22 @@ export const materials = [
       "division": "아트타일 · 콘크리트",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4128.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4128.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4128.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4128.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4128.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4128.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 콘크리트",
     "product_code": "AS 4128",
-    "product_name": "AS 4128"
+    "product_name": "AS 4128",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4128.jpg",
+    "subLine": "콘크리트",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as4130",
@@ -104889,17 +105204,22 @@ export const materials = [
       "division": "아트타일 · 콘크리트",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4130.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4130.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4130.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4130.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4130.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4130.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 콘크리트",
     "product_code": "AS 4130",
-    "product_name": "AS 4130"
+    "product_name": "AS 4130",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4130.jpg",
+    "subLine": "콘크리트",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as4139",
@@ -104917,17 +105237,22 @@ export const materials = [
       "division": "아트타일 · 콘크리트",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4139.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4139.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4139.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4139.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4139.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4139.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 콘크리트",
     "product_code": "AS 4139",
-    "product_name": "AS 4139"
+    "product_name": "AS 4139",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4139.jpg",
+    "subLine": "콘크리트",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as4147",
@@ -104945,17 +105270,23 @@ export const materials = [
       "division": "아트타일 · 콘크리트",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4147.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4147.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4147.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4147.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4147.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4147.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4147_AS4148_시공예시.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 콘크리트",
     "product_code": "AS 4147",
-    "product_name": "AS 4147"
+    "product_name": "AS 4147",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4147.jpg",
+    "subLine": "콘크리트",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as4148",
@@ -104973,17 +105304,23 @@ export const materials = [
       "division": "아트타일 · 콘크리트",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4148.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4148.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4148.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4148.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4148.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4148.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4147_AS4148_시공예시.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 콘크리트",
     "product_code": "AS 4148",
-    "product_name": "AS 4148"
+    "product_name": "AS 4148",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4148.jpg",
+    "subLine": "콘크리트",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as4149",
@@ -105001,17 +105338,22 @@ export const materials = [
       "division": "아트타일 · 콘크리트",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4149.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4149.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4149.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4149.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4149.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4149.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 콘크리트",
     "product_code": "AS 4149",
-    "product_name": "AS 4149"
+    "product_name": "AS 4149",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4149.jpg",
+    "subLine": "콘크리트",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as4004",
@@ -105029,17 +105371,22 @@ export const materials = [
       "division": "아트타일 · 앱스트랙",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4004.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4004.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4004.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4004.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4004.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4004.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 앱스트랙",
     "product_code": "AS 4004",
-    "product_name": "AS 4004"
+    "product_name": "AS 4004",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4004.jpg",
+    "subLine": "앱스트랙",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as4012",
@@ -105057,17 +105404,22 @@ export const materials = [
       "division": "아트타일 · 앱스트랙",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4012.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4012.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4012.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4012.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4012.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4012.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 앱스트랙",
     "product_code": "AS 4012",
-    "product_name": "AS 4012"
+    "product_name": "AS 4012",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4012.jpg",
+    "subLine": "앱스트랙",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as4114",
@@ -105085,17 +105437,23 @@ export const materials = [
       "division": "아트타일 · 앱스트랙",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4114.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4114.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4114.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4114.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4114.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4114.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4114_AS4116_시공예시.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 앱스트랙",
     "product_code": "AS 4114",
-    "product_name": "AS 4114"
+    "product_name": "AS 4114",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4114.jpg",
+    "subLine": "앱스트랙",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as4116",
@@ -105113,17 +105471,23 @@ export const materials = [
       "division": "아트타일 · 앱스트랙",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4116.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4116.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4116.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4116.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4116.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4116.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4114_AS4116_시공예시.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 앱스트랙",
     "product_code": "AS 4116",
-    "product_name": "AS 4116"
+    "product_name": "AS 4116",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4116.jpg",
+    "subLine": "앱스트랙",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as4120",
@@ -105141,17 +105505,22 @@ export const materials = [
       "division": "아트타일 · 앱스트랙",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4120.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4120.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4120.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4120.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4120.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4120.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 앱스트랙",
     "product_code": "AS 4120",
-    "product_name": "AS 4120"
+    "product_name": "AS 4120",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4120.jpg",
+    "subLine": "앱스트랙",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as4140",
@@ -105169,17 +105538,22 @@ export const materials = [
       "division": "아트타일 · 앱스트랙",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4140.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4140.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4140.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4140.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4140.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4140.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 앱스트랙",
     "product_code": "AS 4140",
-    "product_name": "AS 4140"
+    "product_name": "AS 4140",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4140.jpg",
+    "subLine": "앱스트랙",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as4141",
@@ -105197,17 +105571,23 @@ export const materials = [
       "division": "아트타일 · 앱스트랙",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4141.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4141.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4141.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4141.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4141.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4141.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4141_AS4142_시공예시.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 앱스트랙",
     "product_code": "AS 4141",
-    "product_name": "AS 4141"
+    "product_name": "AS 4141",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4141.jpg",
+    "subLine": "앱스트랙",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as4142",
@@ -105225,17 +105605,23 @@ export const materials = [
       "division": "아트타일 · 앱스트랙",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4142.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4142.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4142.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4142.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS4142.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4142.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4141_AS4142_시공예시.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 앱스트랙",
     "product_code": "AS 4142",
-    "product_name": "AS 4142"
+    "product_name": "AS 4142",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4142.jpg",
+    "subLine": "앱스트랙",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as1001",
@@ -105253,17 +105639,22 @@ export const materials = [
       "division": "아트타일 · 마블",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1001.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1001.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1001.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1001.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1001.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1001.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 마블",
     "product_code": "AS 1001",
-    "product_name": "AS 1001"
+    "product_name": "AS 1001",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1001.jpg",
+    "subLine": "마블",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as1002",
@@ -105281,17 +105672,22 @@ export const materials = [
       "division": "아트타일 · 마블",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1002.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1002.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1002.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1002.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1002.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1002.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 마블",
     "product_code": "AS 1002",
-    "product_name": "AS 1002"
+    "product_name": "AS 1002",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1002.jpg",
+    "subLine": "마블",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as1301",
@@ -105306,20 +105702,25 @@ export const materials = [
     "productName": "동신 아트타일 AS 1301",
     "thickness": "3.0T",
     "specs": {
-      "division": "아트타일 · 마블",
+      "division": "아트타일 · 카펫",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1301.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1301.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1301.png",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1301.png",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1301.png"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1301.png"
     ],
     "price": 25000,
     "description": "동신 아트타일 마블",
     "product_code": "AS 1301",
-    "product_name": "AS 1301"
+    "product_name": "AS 1301",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1301.png",
+    "subLine": "카펫",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as1525",
@@ -105334,20 +105735,25 @@ export const materials = [
     "productName": "동신 아트타일 AS 1525",
     "thickness": "3.0T",
     "specs": {
-      "division": "아트타일 · 마블",
+      "division": "아트타일 · 카펫",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1525.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1525.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1525.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1525.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1525.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1525.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 마블",
     "product_code": "AS 1525",
-    "product_name": "AS 1525"
+    "product_name": "AS 1525",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1525.jpg",
+    "subLine": "카펫",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as1526",
@@ -105362,20 +105768,25 @@ export const materials = [
     "productName": "동신 아트타일 AS 1526",
     "thickness": "3.0T",
     "specs": {
-      "division": "아트타일 · 마블",
+      "division": "아트타일 · 카펫",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1526.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1526.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1526.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1526.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1526.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1526.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 마블",
     "product_code": "AS 1526",
-    "product_name": "AS 1526"
+    "product_name": "AS 1526",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1526.jpg",
+    "subLine": "카펫",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as1528",
@@ -105390,20 +105801,25 @@ export const materials = [
     "productName": "동신 아트타일 AS 1528",
     "thickness": "3.0T",
     "specs": {
-      "division": "아트타일 · 마블",
+      "division": "아트타일 · 카펫",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1528.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1528.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1528.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1528.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1528.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1528.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 마블",
     "product_code": "AS 1528",
-    "product_name": "AS 1528"
+    "product_name": "AS 1528",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1528.jpg",
+    "subLine": "카펫",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as1531",
@@ -105418,20 +105834,26 @@ export const materials = [
     "productName": "동신 아트타일 AS 1531",
     "thickness": "3.0T",
     "specs": {
-      "division": "아트타일 · 마블",
+      "division": "아트타일 · 카펫",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1531.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1531.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1531.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1531.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1531.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1531.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AS1531_AS1533_시공예시.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 마블",
     "product_code": "AS 1531",
-    "product_name": "AS 1531"
+    "product_name": "AS 1531",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1531.jpg",
+    "subLine": "카펫",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as1533",
@@ -105446,20 +105868,26 @@ export const materials = [
     "productName": "동신 아트타일 AS 1533",
     "thickness": "3.0T",
     "specs": {
-      "division": "아트타일 · 마블",
+      "division": "아트타일 · 카펫",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1533.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1533.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1533.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1533.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1533.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1533.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AS1531_AS1533_시공예시.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 마블",
     "product_code": "AS 1533",
-    "product_name": "AS 1533"
+    "product_name": "AS 1533",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1533.jpg",
+    "subLine": "카펫",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as1536",
@@ -105477,17 +105905,22 @@ export const materials = [
       "division": "아트타일 · 마블",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1536.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1536.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1536.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1536.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1536.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1536.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 마블",
     "product_code": "AS 1536",
-    "product_name": "AS 1536"
+    "product_name": "AS 1536",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1536.jpg",
+    "subLine": "마블",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as1538",
@@ -105505,17 +105938,23 @@ export const materials = [
       "division": "아트타일 · 마블",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1538.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1538.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1538.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1538.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1538.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1538.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6104_AS1538_시공예시.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 마블",
     "product_code": "AS 1538",
-    "product_name": "AS 1538"
+    "product_name": "AS 1538",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1538.jpg",
+    "subLine": "마블",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as1539",
@@ -105533,17 +105972,22 @@ export const materials = [
       "division": "아트타일 · 마블",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1539.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1539.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1539.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1539.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1539.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1539.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 마블",
     "product_code": "AS 1539",
-    "product_name": "AS 1539"
+    "product_name": "AS 1539",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1539.jpg",
+    "subLine": "마블",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as1540",
@@ -105561,17 +106005,22 @@ export const materials = [
       "division": "아트타일 · 마블",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1540.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1540.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1540.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1540.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1540.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1540.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 마블",
     "product_code": "AS 1540",
-    "product_name": "AS 1540"
+    "product_name": "AS 1540",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1540.jpg",
+    "subLine": "마블",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as1541",
@@ -105589,17 +106038,22 @@ export const materials = [
       "division": "아트타일 · 마블",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1541.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1541.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1541.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1541.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1541.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1541.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 마블",
     "product_code": "AS 1541",
-    "product_name": "AS 1541"
+    "product_name": "AS 1541",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1541.jpg",
+    "subLine": "마블",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as1542",
@@ -105617,17 +106071,22 @@ export const materials = [
       "division": "아트타일 · 마블",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1542.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1542.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1542.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1542.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1542.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1542.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 마블",
     "product_code": "AS 1542",
-    "product_name": "AS 1542"
+    "product_name": "AS 1542",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1542.jpg",
+    "subLine": "마블",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as1703",
@@ -105642,20 +106101,25 @@ export const materials = [
     "productName": "동신 아트타일 AS 1703",
     "thickness": "3.0T",
     "specs": {
-      "division": "아트타일 · 마블",
+      "division": "아트타일 · 그라니트",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1703.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1703.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1703.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1703.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1703.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1703.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 마블",
     "product_code": "AS 1703",
-    "product_name": "AS 1703"
+    "product_name": "AS 1703",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1703.jpg",
+    "subLine": "그라니트",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as1919",
@@ -105673,17 +106137,23 @@ export const materials = [
       "division": "아트타일 · 카펫",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1919.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1919.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1919.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1919.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1919.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1919.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1922_AS1919_시공예시.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 카펫",
     "product_code": "AS 1919",
-    "product_name": "AS 1919"
+    "product_name": "AS 1919",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1919.jpg",
+    "subLine": "카펫",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as1922",
@@ -105701,17 +106171,23 @@ export const materials = [
       "division": "아트타일 · 카펫",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1922.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1922.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1922.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1922.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1922.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1922.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1922_AS1919_시공예시.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 카펫",
     "product_code": "AS 1922",
-    "product_name": "AS 1922"
+    "product_name": "AS 1922",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1922.jpg",
+    "subLine": "카펫",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as1923",
@@ -105729,17 +106205,22 @@ export const materials = [
       "division": "아트타일 · 카펫",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1923.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1923.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1923.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1923.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1923.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1923.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 카펫",
     "product_code": "AS 1923",
-    "product_name": "AS 1923"
+    "product_name": "AS 1923",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1923.jpg",
+    "subLine": "카펫",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as1924",
@@ -105757,17 +106238,22 @@ export const materials = [
       "division": "아트타일 · 카펫",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1924.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1924.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1924.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1924.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1924.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1924.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 카펫",
     "product_code": "AS 1924",
-    "product_name": "AS 1924"
+    "product_name": "AS 1924",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1924.jpg",
+    "subLine": "카펫",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as1938",
@@ -105785,17 +106271,22 @@ export const materials = [
       "division": "아트타일 · 카펫",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1938.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1938.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1938.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1938.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1938.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1938.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 카펫",
     "product_code": "AS 1938",
-    "product_name": "AS 1938"
+    "product_name": "AS 1938",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1938.jpg",
+    "subLine": "카펫",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as1941",
@@ -105813,17 +106304,22 @@ export const materials = [
       "division": "아트타일 · 카펫",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1941.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1941.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1941.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1941.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1941.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1941.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 카펫",
     "product_code": "AS 1941",
-    "product_name": "AS 1941"
+    "product_name": "AS 1941",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1941.jpg",
+    "subLine": "카펫",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as1810",
@@ -105841,17 +106337,23 @@ export const materials = [
       "division": "아트타일 · 그라니트",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1810.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1810.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1810.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1810.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1810.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1810.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1810_AS1814_시공예시.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 그라니트",
     "product_code": "AS 1810",
-    "product_name": "AS 1810"
+    "product_name": "AS 1810",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1810.jpg",
+    "subLine": "그라니트",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-as1814",
@@ -105869,17 +106371,23 @@ export const materials = [
       "division": "아트타일 · 그라니트",
       "thickness": "3.0T",
       "size": "457.2 x 457.2 x 3.0mm",
-      "packing": "16pcs / 3.34㎡"
+      "packing": "16pcs / 3.34㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1814.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1814.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1814.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1814.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1814.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1814.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1810_AS1814_시공예시.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 그라니트",
     "product_code": "AS 1814",
-    "product_name": "AS 1814"
+    "product_name": "AS 1814",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1814.jpg",
+    "subLine": "그라니트",
+    "unit": "16매/3.34㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ab6711",
@@ -105897,17 +106405,22 @@ export const materials = [
       "division": "아트타일 · 듀오라인",
       "thickness": "3.0T",
       "size": "180 x 920 x 3.0mm",
-      "packing": "20pcs / 3.31㎡"
+      "packing": "20pcs / 3.31㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6711.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6711.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6711.png",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6711.png",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6711.png"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6711.png"
     ],
     "price": 25000,
     "description": "동신 아트타일 듀오라인",
     "product_code": "AB 6711",
-    "product_name": "AB 6711"
+    "product_name": "AB 6711",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6711.png",
+    "subLine": "듀오라인",
+    "unit": "20매/3.31㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ab6712",
@@ -105925,17 +106438,22 @@ export const materials = [
       "division": "아트타일 · 듀오라인",
       "thickness": "3.0T",
       "size": "180 x 920 x 3.0mm",
-      "packing": "20pcs / 3.31㎡"
+      "packing": "20pcs / 3.31㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6712.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6712.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6712.png",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6712.png",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6712.png"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6712.png"
     ],
     "price": 25000,
     "description": "동신 아트타일 듀오라인",
     "product_code": "AB 6712",
-    "product_name": "AB 6712"
+    "product_name": "AB 6712",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6712.png",
+    "subLine": "듀오라인",
+    "unit": "20매/3.31㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ab6717",
@@ -105953,17 +106471,22 @@ export const materials = [
       "division": "아트타일 · 듀오라인",
       "thickness": "3.0T",
       "size": "180 x 920 x 3.0mm",
-      "packing": "20pcs / 3.31㎡"
+      "packing": "20pcs / 3.31㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6717.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6717.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6717.png",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6717.png",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6717.png"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6717.png"
     ],
     "price": 25000,
     "description": "동신 아트타일 듀오라인",
     "product_code": "AB 6717",
-    "product_name": "AB 6717"
+    "product_name": "AB 6717",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6717.png",
+    "subLine": "듀오라인",
+    "unit": "20매/3.31㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ab6727",
@@ -105981,17 +106504,23 @@ export const materials = [
       "division": "아트타일 · 듀오라인",
       "thickness": "3.0T",
       "size": "180 x 920 x 3.0mm",
-      "packing": "20pcs / 3.31㎡"
+      "packing": "20pcs / 3.31㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6727.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6727.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6727.png",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6727.png",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6727.png"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6727.png",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6727_시공예시.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 듀오라인",
     "product_code": "AB 6727",
-    "product_name": "AB 6727"
+    "product_name": "AB 6727",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6727.png",
+    "subLine": "듀오라인",
+    "unit": "20매/3.31㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ab6739",
@@ -106009,17 +106538,22 @@ export const materials = [
       "division": "아트타일 · 듀오라인",
       "thickness": "3.0T",
       "size": "180 x 920 x 3.0mm",
-      "packing": "20pcs / 3.31㎡"
+      "packing": "20pcs / 3.31㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6739.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6739.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6739.png",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6739.png",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6739.png"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6739.png"
     ],
     "price": 25000,
     "description": "동신 아트타일 듀오라인",
     "product_code": "AB 6739",
-    "product_name": "AB 6739"
+    "product_name": "AB 6739",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6739.png",
+    "subLine": "듀오라인",
+    "unit": "20매/3.31㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ab6740",
@@ -106037,17 +106571,22 @@ export const materials = [
       "division": "아트타일 · 듀오라인",
       "thickness": "3.0T",
       "size": "180 x 920 x 3.0mm",
-      "packing": "20pcs / 3.31㎡"
+      "packing": "20pcs / 3.31㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6740.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6740.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6740.png",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6740.png",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6740.png"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6740.png"
     ],
     "price": 25000,
     "description": "동신 아트타일 듀오라인",
     "product_code": "AB 6740",
-    "product_name": "AB 6740"
+    "product_name": "AB 6740",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6740.png",
+    "subLine": "듀오라인",
+    "unit": "20매/3.31㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ab6741",
@@ -106065,17 +106604,22 @@ export const materials = [
       "division": "아트타일 · 듀오라인",
       "thickness": "3.0T",
       "size": "180 x 920 x 3.0mm",
-      "packing": "20pcs / 3.31㎡"
+      "packing": "20pcs / 3.31㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6741.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6741.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6741.png",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6741.png",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6741.png"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6741.png"
     ],
     "price": 25000,
     "description": "동신 아트타일 듀오라인",
     "product_code": "AB 6741",
-    "product_name": "AB 6741"
+    "product_name": "AB 6741",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6741.png",
+    "subLine": "듀오라인",
+    "unit": "20매/3.31㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ab6915",
@@ -106093,17 +106637,22 @@ export const materials = [
       "division": "아트타일 · 앤틱우드",
       "thickness": "3.0T",
       "size": "180 x 920 x 3.0mm",
-      "packing": "20pcs / 3.31㎡"
+      "packing": "20pcs / 3.31㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6915.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6915.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6915.png",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6915.png",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6915.png"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6915.png"
     ],
     "price": 25000,
     "description": "동신 아트타일 앤틱우드",
     "product_code": "AB 6915",
-    "product_name": "AB 6915"
+    "product_name": "AB 6915",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6915.png",
+    "subLine": "앤틱우드",
+    "unit": "20매/3.31㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ab6933",
@@ -106121,17 +106670,22 @@ export const materials = [
       "division": "아트타일 · 앤틱우드",
       "thickness": "3.0T",
       "size": "180 x 920 x 3.0mm",
-      "packing": "20pcs / 3.31㎡"
+      "packing": "20pcs / 3.31㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6933.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6933.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6933.png",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6933.png",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6933.png"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6933.png"
     ],
     "price": 25000,
     "description": "동신 아트타일 앤틱우드",
     "product_code": "AB 6933",
-    "product_name": "AB 6933"
+    "product_name": "AB 6933",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6933.png",
+    "subLine": "앤틱우드",
+    "unit": "20매/3.31㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ab6978",
@@ -106149,17 +106703,22 @@ export const materials = [
       "division": "아트타일 · 앤틱우드",
       "thickness": "3.0T",
       "size": "180 x 920 x 3.0mm",
-      "packing": "20pcs / 3.31㎡"
+      "packing": "20pcs / 3.31㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6978.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6978.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6978.png",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6978.png",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6978.png"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6978.png"
     ],
     "price": 25000,
     "description": "동신 아트타일 앤틱우드",
     "product_code": "AB 6978",
-    "product_name": "AB 6978"
+    "product_name": "AB 6978",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6978.png",
+    "subLine": "앤틱우드",
+    "unit": "20매/3.31㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ab6981",
@@ -106177,17 +106736,22 @@ export const materials = [
       "division": "아트타일 · 앤틱우드",
       "thickness": "3.0T",
       "size": "180 x 920 x 3.0mm",
-      "packing": "20pcs / 3.31㎡"
+      "packing": "20pcs / 3.31㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6981.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6981.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6981.png",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6981.png",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6981.png"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6981.png"
     ],
     "price": 25000,
     "description": "동신 아트타일 앤틱우드",
     "product_code": "AB 6981",
-    "product_name": "AB 6981"
+    "product_name": "AB 6981",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6981.png",
+    "subLine": "앤틱우드",
+    "unit": "20매/3.31㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ab6984",
@@ -106205,17 +106769,23 @@ export const materials = [
       "division": "아트타일 · 앤틱우드",
       "thickness": "3.0T",
       "size": "180 x 920 x 3.0mm",
-      "packing": "20pcs / 3.31㎡"
+      "packing": "20pcs / 3.31㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6984.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6984.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6984.png",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6984.png",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6984.png"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6984.png",
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6984_시공예시.jpg"
     ],
     "price": 25000,
     "description": "동신 아트타일 앤틱우드",
     "product_code": "AB 6984",
-    "product_name": "AB 6984"
+    "product_name": "AB 6984",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6984.png",
+    "subLine": "앤틱우드",
+    "unit": "20매/3.31㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ab6989",
@@ -106233,17 +106803,22 @@ export const materials = [
       "division": "아트타일 · 앤틱우드",
       "thickness": "3.0T",
       "size": "180 x 920 x 3.0mm",
-      "packing": "20pcs / 3.31㎡"
+      "packing": "20pcs / 3.31㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6989.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6989.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6989.png",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6989.png",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6989.png"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6989.png"
     ],
     "price": 25000,
     "description": "동신 아트타일 앤틱우드",
     "product_code": "AB 6989",
-    "product_name": "AB 6989"
+    "product_name": "AB 6989",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6989.png",
+    "subLine": "앤틱우드",
+    "unit": "20매/3.31㎡"
   },
   {
     "id": "데코타일-동신-아트타일-ab6990",
@@ -106261,17 +106836,22 @@ export const materials = [
       "division": "아트타일 · 앤틱우드",
       "thickness": "3.0T",
       "size": "180 x 920 x 3.0mm",
-      "packing": "20pcs / 3.31㎡"
+      "packing": "20pcs / 3.31㎡",
+      "usage": "상업용 고내구 LVT (고밀도 PVC 내마모 타일)",
+      "adhesive": "아크릴계(W-320E, W-300S) / 폴리우레탄계(T-10)"
     },
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6990.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6990.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6990.png",
+    "image": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6990.png",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6990.png"
+      "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6990.png"
     ],
     "price": 25000,
     "description": "동신 아트타일 앤틱우드",
     "product_code": "AB 6990",
-    "product_name": "AB 6990"
+    "product_name": "AB 6990",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6990.png",
+    "subLine": "앤틱우드",
+    "unit": "20매/3.31㎡"
   },
   {
     "id": "eagon-largo-sole-240-t4-new-cumulus",

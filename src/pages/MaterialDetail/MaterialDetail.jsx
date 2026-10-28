@@ -37,6 +37,11 @@ import {
   getKccTrendyInfo,
   KCC_TRENDY_SPECS
 } from "../../utils/brandUtils";
+import { 
+  isDongshinDecoProduct, 
+  getDongshinDetailInfo 
+} from "../../utils/dongshinDetailUtils";
+import DongshinDetailSection from "../../components/product/DongshinDetailSection";
 import ProductDetailImages from "../../components/product/ProductDetailImages";
 import ImageLightboxModal from "../../components/common/ImageLightboxModal";
 import { getProductDetailImages } from "../../services/productDetailImageService";
@@ -546,6 +551,24 @@ const enrichProduct = (raw) => {
         packing: trendyInfo.packing,
         pcs_per_box: trendyInfo.pcsPerBox,
         area: trendyInfo.areaPerBox
+      };
+    }
+  }
+  if (isDongshinDecoProduct(enriched)) {
+    const dongshinInfo = getDongshinDetailInfo(enriched);
+    if (dongshinInfo) {
+      enriched.thickness = dongshinInfo.spec.thickness;
+      enriched.line = dongshinInfo.groupName;
+      enriched.subLine = dongshinInfo.lineupName;
+      enriched.specs = {
+        ...(enriched.specs || {}),
+        thickness: dongshinInfo.spec.thickness,
+        size: dongshinInfo.spec.size,
+        packing: dongshinInfo.spec.packing,
+        pcs_per_box: dongshinInfo.spec.pcs_per_box,
+        area: dongshinInfo.spec.area,
+        usage: dongshinInfo.spec.materialType,
+        adhesive: dongshinInfo.spec.adhesive
       };
     }
   }
@@ -1520,6 +1543,8 @@ export default function MaterialDetail() {
   const eagonInfo = item?.brand === '이건' ? getEagonInfo(item.line) : null;
   const isKccTrendy = isKccTrendyProduct(item);
   const kccTrendyInfo = isKccTrendy ? getKccTrendyInfo(item) : null;
+  const isDongshinDeco = isDongshinDecoProduct(item);
+  const dongshinInfo = isDongshinDeco ? getDongshinDetailInfo(item) : null;
 
   const spaceExamples = (() => {
     if (!item) return [];
@@ -1554,11 +1579,6 @@ export default function MaterialDetail() {
       }));
     }
     return getVirtualSpaceExamples(item, productImages);
-  })();
-
-  const detailContentImg = (() => {
-    if (!item || getComputedBrand(item) !== "동신") return null;
-    return "/images/dongshin_tile_detail.jpg";
   })();
 
   const brandName = getComputedBrand(item);
@@ -1876,38 +1896,38 @@ export default function MaterialDetail() {
               {/* Technical Specifications Highlights */}
               <div className="quick-tech-specs">
                 <div className="tech-spec-item">
-                  <span className="tech-label">{isKccTrendy ? "제품 규격" : (item.brand === 'KCC' && item.category === '데코타일' ? "전체 규격" : "규격")}</span>
+                  <span className="tech-label">{isKccTrendy ? "제품 규격" : isDongshinDeco ? "공식 규격" : (item.brand === 'KCC' && item.category === '데코타일' ? "전체 규격" : "규격")}</span>
                   <span className="tech-value">
-                    {isKccTrendy ? (kccTrendyInfo?.spec?.size || kccTrendyInfo?.size) : (currentSpec || "상담 확인 필요")}
+                    {isKccTrendy ? (kccTrendyInfo?.spec?.size || kccTrendyInfo?.size) : isDongshinDeco ? dongshinInfo?.spec?.size : (currentSpec || "상담 확인 필요")}
                   </span>
                 </div>
                 <div className="tech-spec-item">
                   <span className="tech-label">두께</span>
                   <span className="tech-value">
-                    {isKccTrendy ? (kccTrendyInfo?.spec?.thickness || kccTrendyInfo?.thickness) : (item.thickness || (item.specs && item.specs.thickness) || "상담 확인 필요")}
+                    {isKccTrendy ? (kccTrendyInfo?.spec?.thickness || kccTrendyInfo?.thickness) : isDongshinDeco ? dongshinInfo?.spec?.thickness : (item.thickness || (item.specs && item.specs.thickness) || "상담 확인 필요")}
                   </span>
                 </div>
                 <div className="tech-spec-item">
-                  <span className="tech-label">{isKccTrendy ? "박스당 수량" : (item.brand === 'KCC' && item.category === '데코타일' ? "포장 수량" : "박스 구성")}</span>
+                  <span className="tech-label">{isKccTrendy ? "박스당 수량" : isDongshinDeco ? "박스당 수량" : (item.brand === 'KCC' && item.category === '데코타일' ? "포장 수량" : "박스 구성")}</span>
                   <span className="tech-value">
-                    {isKccTrendy ? (kccTrendyInfo?.spec?.pcs_per_box || kccTrendyInfo?.pcsPerBox) : currentPacking}
+                    {isKccTrendy ? (kccTrendyInfo?.spec?.pcs_per_box || kccTrendyInfo?.pcsPerBox) : isDongshinDeco ? dongshinInfo?.spec?.pcs_per_box : currentPacking}
                   </span>
                 </div>
                 <div className="tech-spec-item">
-                  <span className="tech-label">{isKccTrendy ? "박스당 시공면적" : (item.brand === 'KCC' && item.category === '데코타일' ? "BOX당 시공면적" : "시공 면적")}</span>
+                  <span className="tech-label">{isKccTrendy ? "박스당 시공면적" : isDongshinDeco ? "박스당 시공면적" : (item.brand === 'KCC' && item.category === '데코타일' ? "BOX당 시공면적" : "시공 면적")}</span>
                   <span className="tech-value">
-                    {isKccTrendy ? (kccTrendyInfo?.spec?.area || kccTrendyInfo?.areaPerBox) : (
+                    {isKccTrendy ? (kccTrendyInfo?.spec?.area || kccTrendyInfo?.areaPerBox) : isDongshinDeco ? dongshinInfo?.spec?.area : (
                       item.brand === 'KCC' && item.category === '데코타일' ? (
                         item.specs?.area || "3.32㎡"
                       ) : item.category === '장판' ? "M 단위 소요량 측정" : `1 ${getProductUnit(item)}당 시공 가능`
                     )}
                   </span>
                 </div>
-                {(item.pattern || isEagonProduct(item) || isKccTrendy) && (
+                {(item.pattern || isEagonProduct(item) || isKccTrendy || isDongshinDeco) && (
                   <div className="tech-spec-item">
                     <span className="tech-label">패턴/디자인</span>
                     <span className="tech-value">
-                      {item.pattern || (isKccTrendy ? (kccTrendyInfo?.group === '우드' ? '우드' : '석재 / 콘크리트') : (isEagonProduct(item) && getEagonLineupGroup(item).includes("스퀘어") ? "스톤" : "우드"))}
+                      {item.pattern || (isKccTrendy ? (kccTrendyInfo?.group === '우드' ? '우드' : '석재 / 콘크리트') : isDongshinDeco ? dongshinInfo?.spec?.designType : (isEagonProduct(item) && getEagonLineupGroup(item).includes("스퀘어") ? "스톤" : "우드"))}
                     </span>
                   </div>
                 )}
@@ -2482,6 +2502,8 @@ export default function MaterialDetail() {
                     </div>
                   </section>
                 </>
+              ) : isDongshinDeco ? (
+                <DongshinDetailSection item={item} info={dongshinInfo} />
               ) : (
                 <>
                   {/* Features List Section */}
@@ -2708,7 +2730,7 @@ export default function MaterialDetail() {
               )}
 
               {/* 전체 자재 카테고리 공통 쇼핑몰형 상세 이미지 (갤러리에 없는 추가 상세 설명 이미지만 표시) */}
-              {!isKccTrendy && (
+              {!isKccTrendy && !isDongshinDeco && (
                 <ProductDetailImages 
                   images={supplementaryDetailImages} 
                   productName={displayName || item.name} 
@@ -2717,165 +2739,169 @@ export default function MaterialDetail() {
               )}
 
               {/* Dynamic Virtual Space Showroom Section */}
-              <section className="detail-doc-section">
-                <h2 className="doc-section-title">이 자재가 적용된 공간 예시</h2>
-                <div className="doc-accent-bar"></div>
-                <p className="doc-section-helper">현재 선택한 자재 패턴과 이미지를 기반으로 한 가상 공간 적용 시뮬레이션입니다.</p>
-                <div className="virtual-space-grid">
-                  {spaceExamples.map((ex, idx) => (
-                    <div key={idx} className={`virtual-space-card ${item.category === '벽지' ? 'category-wall' : 'category-floor'}`}>
-                      <div className="space-card-img-wrapper">
-                        <img 
-                          src={ex.image} 
-                          alt={ex.title} 
-                          className="space-card-img"
-                          onError={(e) => { 
-                            e.target.onerror = null; 
-                            e.target.src = item.thumbnail || "/images/no-image.svg"; 
-                          }}
-                        />
-                        <div className="space-card-overlay"></div>
-                        <div className="space-card-info">
-                          <h3 className="space-card-title">{ex.title}</h3>
-                          <p className="space-card-desc">{ex.subtitle}</p>
-                          <span className="space-card-badge">{item.brand} {item.code}</span>
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </section>
-
-              {/* Guidelines Section */}
-              <section className="detail-doc-section">
-                <h2 className="doc-section-title">시공 전 유의 사항 안내</h2>
-                <div className="doc-accent-bar"></div>
-                <div className="guidelines-card-list">
-                  {item.brand === '이건' ? (
-                    <>
-                      <div className="guide-card-item">
-                        <AlertTriangle className="guide-card-icon text-warn" />
-                        <div className="guide-card-text">
-                          <h5>현장 실측 및 추가 비용 변동성</h5>
-                          <p>기존 바닥 수평, 걸레받이, 문턱, 철거 상태, 양중 조건에 따라 추가 공사 비용이 발생할 수 있습니다.</p>
-                        </div>
-                      </div>
-                      
-                      <div className="guide-card-item">
-                        <HelpCircle className="guide-card-icon text-info" />
-                        <div className="guide-card-text">
-                          <h5>기존 바닥 철거 여부 체크</h5>
-                          <p>마루 시공 전 기존 바닥 위에 덧방 시공이 가능한지, 철거가 필요한지 현장 확인이 필요합니다.</p>
-                        </div>
-                      </div>
-
-                      <div className="guide-card-item">
-                        <ShieldCheck className="guide-card-icon text-success" />
-                        <div className="guide-card-text">
-                          <h5>양중 및 엘리베이터 환경</h5>
-                          <p>고층 빌딩, 아파트 시공 시 엘리베이터 미확보 또는 사다리차 접근 불가 시 별도 운반비가 발생할 수 있습니다.</p>
-                        </div>
-                      </div>
-
-                      {(String(item.line).includes("라르고") || String(item.line).includes("포레스타")) && (
-                        <div className="guide-card-item">
-                          <AlertTriangle className="guide-card-icon text-warn" style={{ color: '#d97706' }} />
-                          <div className="guide-card-text">
-                            <h5>천연 원목 제품 색상 차이</h5>
-                            <p>라르고/포레스타 같은 천연 원목 제품은 심재와 변재 차이로 밝은색, 중간색, 어두운색이 자연스럽게 혼합될 수 있습니다.</p>
+              {!isDongshinDeco && (
+                <section className="detail-doc-section">
+                  <h2 className="doc-section-title">이 자재가 적용된 공간 예시</h2>
+                  <div className="doc-accent-bar"></div>
+                  <p className="doc-section-helper">현재 선택한 자재 패턴과 이미지를 기반으로 한 가상 공간 적용 시뮬레이션입니다.</p>
+                  <div className="virtual-space-grid">
+                    {spaceExamples.map((ex, idx) => (
+                      <div key={idx} className={`virtual-space-card ${item.category === '벽지' ? 'category-wall' : 'category-floor'}`}>
+                        <div className="space-card-img-wrapper">
+                          <img 
+                            src={ex.image} 
+                            alt={ex.title} 
+                            className="space-card-img"
+                            onError={(e) => { 
+                              e.target.onerror = null; 
+                              e.target.src = item.thumbnail || "/images/no-image.svg"; 
+                            }}
+                          />
+                          <div className="space-card-overlay"></div>
+                          <div className="space-card-info">
+                            <h3 className="space-card-title">{ex.title}</h3>
+                            <p className="space-card-desc">{ex.subtitle}</p>
+                            <span className="space-card-badge">{item.brand} {item.code}</span>
                           </div>
                         </div>
-                      )}
+                      </div>
+                    ))}
+                  </div>
+                </section>
+              )}
 
-                      <div className="guide-card-item">
-                        <HelpCircle className="guide-card-icon text-info" />
-                        <div className="guide-card-text">
-                          <h5>실물 샘플 확인 권장</h5>
-                          <p>모니터와 조명 환경에 따라 색상이 다르게 보일 수 있으므로 최종 선택 전 샘플 확인을 권장합니다.</p>
+              {/* Guidelines Section */}
+              {!isDongshinDeco && (
+                <section className="detail-doc-section">
+                  <h2 className="doc-section-title">시공 전 유의 사항 안내</h2>
+                  <div className="doc-accent-bar"></div>
+                  <div className="guidelines-card-list">
+                    {item.brand === '이건' ? (
+                      <>
+                        <div className="guide-card-item">
+                          <AlertTriangle className="guide-card-icon text-warn" />
+                          <div className="guide-card-text">
+                            <h5>현장 실측 및 추가 비용 변동성</h5>
+                            <p>기존 바닥 수평, 걸레받이, 문턱, 철거 상태, 양중 조건에 따라 추가 공사 비용이 발생할 수 있습니다.</p>
+                          </div>
                         </div>
-                      </div>
-                    </>
-                  ) : (item.brand === 'KCC' || item.brand === 'KCC글라스' || (item.brand && item.brand.includes('KCC'))) && item.category === '데코타일' ? (
-                    <>
-                      <div className="guide-card-item">
-                        <ShieldCheck className="guide-card-icon text-success" />
-                        <div className="guide-card-text">
-                          <h5>1. LOT 번호 확인 및 동일 LOT 사용</h5>
-                          <p>시공 전 제품 박스의 LOT 번호를 반드시 확인하고, 동일 공간에는 동일한 LOT 번호의 제품만 사용해 이색 방지 조치를 취합니다.</p>
+                        
+                        <div className="guide-card-item">
+                          <HelpCircle className="guide-card-icon text-info" />
+                          <div className="guide-card-text">
+                            <h5>기존 바닥 철거 여부 체크</h5>
+                            <p>마루 시공 전 기존 바닥 위에 덧방 시공이 가능한지, 철거가 필요한지 현장 확인이 필요합니다.</p>
+                          </div>
                         </div>
-                      </div>
-                      <div className="guide-card-item">
-                        <AlertTriangle className="guide-card-icon text-warn" />
-                        <div className="guide-card-text">
-                          <h5>2. 시공면 상태 및 바닥 수분 함수율 확인</h5>
-                          <p>시공 바닥면의 수분(수분 함수율 5% 이하 기준), 평활도, 균열 및 바탕 강도를 사전 점검하고 신축 및 수분 과다 현장은 충분한 건조 후 시공합니다.</p>
-                        </div>
-                      </div>
-                      <div className="guide-card-item">
-                        <HelpCircle className="guide-card-icon text-info" />
-                        <div className="guide-card-text">
-                          <h5>3. 시공면 오염물 및 이물질 완전 제거</h5>
-                          <p>바탕면의 먼지, 유분, 접착제 잔여물, 레이턴스 등 접착 저해 요소를 청소 및 샌딩 조치하여 청결한 상태를 유지합니다.</p>
-                        </div>
-                      </div>
-                      <div className="guide-card-item">
-                        <ShieldCheck className="guide-card-icon text-success" />
-                        <div className="guide-card-text">
-                          <h5>4. 제조사 권장 전용 접착제 선택 및 사용</h5>
-                          <p>제품 및 현장 상황(난방 여부, 습기 상태, 상업 현장 조건)에 맞는 제조사 권장 전용 데코타일 접착제를 선택하여 적정 도포량을 준수합니다.</p>
-                        </div>
-                      </div>
-                      <div className="guide-card-item">
-                        <AlertTriangle className="guide-card-icon text-warn" />
-                        <div className="guide-card-text">
-                          <h5>5. 타일 뒷면 방향 표시 확인 및 순방향 시공</h5>
-                          <p>제품 뒷면에 인쇄된 화살표 등 방향 표시를 확인하여 동일한 방향으로 순차 시공하여 이색 및 질감 차이를 예방합니다.</p>
-                        </div>
-                      </div>
-                      <div className="guide-card-item">
-                        <ShieldCheck className="guide-card-icon text-success" />
-                        <div className="guide-card-text">
-                          <h5>6. 접착 후 롤러를 이용한 충분한 압착</h5>
-                          <p>접착제 도포 후 오픈 타임을 준수하여 시공하고, 부착 후 50kg 핸들 롤러 등으로 바닥 전면을 충분히 압착하여 기포를 제거합니다.</p>
-                        </div>
-                      </div>
-                      <div className="guide-card-item">
-                        <HelpCircle className="guide-card-icon text-info" />
-                        <div className="guide-card-text">
-                          <h5>7. 동절기 실온 유지 및 양생 후 관리</h5>
-                          <p>동절기 시공 시 실온 15℃ 이상을 유지하고, 시공 후 24시간 이상 양생 기간 동안 보행을 제한하며 제조사 지침에 따라 유지관리합니다.</p>
-                        </div>
-                      </div>
-                    </>
-                  ) : (
-                    <>
-                      <div className="guide-card-item">
-                        <AlertTriangle className="guide-card-icon text-warn" />
-                        <div className="guide-card-text">
-                          <h5>현장 실측 및 추가 비용 변동성</h5>
-                          <p>기존 바닥 수평 불균형이 극심한 경우, 평탄화 작업(보수 및 샌딩)으로 인한 부가 공사비용이 별도 청구될 수 있습니다.</p>
-                        </div>
-                      </div>
-                      
-                      <div className="guide-card-item">
-                        <HelpCircle className="guide-card-icon text-info" />
-                        <div className="guide-card-text">
-                          <h5>기존 바닥 철거 여부 체크</h5>
-                          <p>마루나 장판 등 기존 바닥 위에 덧방 시공이 불가한 심한 오염/습기 상태일 경우, 기존 바닥의 선철거 공정이 반드시 필요합니다.</p>
-                        </div>
-                      </div>
 
-                      <div className="guide-card-item">
-                        <ShieldCheck className="guide-card-icon text-success" />
-                        <div className="guide-card-text">
-                          <h5>양중 및 엘리베이터 환경</h5>
-                          <p>고층 빌딩/아파트 시공 시 화물 엘리베이터 미확보 또는 사다리차 접근 불가 시 계단 운반(양중비)이 발생하게 됩니다.</p>
+                        <div className="guide-card-item">
+                          <ShieldCheck className="guide-card-icon text-success" />
+                          <div className="guide-card-text">
+                            <h5>양중 및 엘리베이터 환경</h5>
+                            <p>고층 빌딩, 아파트 시공 시 엘리베이터 미확보 또는 사다리차 접근 불가 시 별도 운반비가 발생할 수 있습니다.</p>
+                          </div>
                         </div>
-                      </div>
-                    </>
-                  )}
-                </div>
-              </section>
+
+                        {(String(item.line).includes("라르고") || String(item.line).includes("포레스타")) && (
+                          <div className="guide-card-item">
+                            <AlertTriangle className="guide-card-icon text-warn" style={{ color: '#d97706' }} />
+                            <div className="guide-card-text">
+                              <h5>천연 원목 제품 색상 차이</h5>
+                              <p>라르고/포레스타 같은 천연 원목 제품은 심재와 변재 차이로 밝은색, 중간색, 어두운색이 자연스럽게 혼합될 수 있습니다.</p>
+                            </div>
+                          </div>
+                        )}
+
+                        <div className="guide-card-item">
+                          <HelpCircle className="guide-card-icon text-info" />
+                          <div className="guide-card-text">
+                            <h5>실물 샘플 확인 권장</h5>
+                            <p>모니터와 조명 환경에 따라 색상이 다르게 보일 수 있으므로 최종 선택 전 샘플 확인을 권장합니다.</p>
+                          </div>
+                        </div>
+                      </>
+                    ) : (item.brand === 'KCC' || item.brand === 'KCC글라스' || (item.brand && item.brand.includes('KCC'))) && item.category === '데코타일' ? (
+                      <>
+                        <div className="guide-card-item">
+                          <ShieldCheck className="guide-card-icon text-success" />
+                          <div className="guide-card-text">
+                            <h5>1. LOT 번호 확인 및 동일 LOT 사용</h5>
+                            <p>시공 전 제품 박스의 LOT 번호를 반드시 확인하고, 동일 공간에는 동일한 LOT 번호의 제품만 사용해 이색 방지 조치를 취합니다.</p>
+                          </div>
+                        </div>
+                        <div className="guide-card-item">
+                          <AlertTriangle className="guide-card-icon text-warn" />
+                          <div className="guide-card-text">
+                            <h5>2. 시공면 상태 및 바닥 수분 함수율 확인</h5>
+                            <p>시공 바닥면의 수분(수분 함수율 5% 이하 기준), 평활도, 균열 및 바탕 강도를 사전 점검하고 신축 및 수분 과다 현장은 충분한 건조 후 시공합니다.</p>
+                          </div>
+                        </div>
+                        <div className="guide-card-item">
+                          <HelpCircle className="guide-card-icon text-info" />
+                          <div className="guide-card-text">
+                            <h5>3. 시공면 오염물 및 이물질 완전 제거</h5>
+                            <p>바탕면의 먼지, 유분, 접착제 잔여물, 레이턴스 등 접착 저해 요소를 청소 및 샌딩 조치하여 청결한 상태를 유지합니다.</p>
+                          </div>
+                        </div>
+                        <div className="guide-card-item">
+                          <ShieldCheck className="guide-card-icon text-success" />
+                          <div className="guide-card-text">
+                            <h5>4. 제조사 권장 전용 접착제 선택 및 사용</h5>
+                            <p>제품 및 현장 상황(난방 여부, 습기 상태, 상업 현장 조건)에 맞는 제조사 권장 전용 데코타일 접착제를 선택하여 적정 도포량을 준수합니다.</p>
+                          </div>
+                        </div>
+                        <div className="guide-card-item">
+                          <AlertTriangle className="guide-card-icon text-warn" />
+                          <div className="guide-card-text">
+                            <h5>5. 타일 뒷면 방향 표시 확인 및 순방향 시공</h5>
+                            <p>제품 뒷면에 인쇄된 화살표 등 방향 표시를 확인하여 동일한 방향으로 순차 시공하여 이색 및 질감 차이를 예방합니다.</p>
+                          </div>
+                        </div>
+                        <div className="guide-card-item">
+                          <ShieldCheck className="guide-card-icon text-success" />
+                          <div className="guide-card-text">
+                            <h5>6. 접착 후 롤러를 이용한 충분한 압착</h5>
+                            <p>접착제 도포 후 오픈 타임을 준수하여 시공하고, 부착 후 50kg 핸들 롤러 등으로 바닥 전면을 충분히 압착하여 기포를 제거합니다.</p>
+                          </div>
+                        </div>
+                        <div className="guide-card-item">
+                          <HelpCircle className="guide-card-icon text-info" />
+                          <div className="guide-card-text">
+                            <h5>7. 동절기 실온 유지 및 양생 후 관리</h5>
+                            <p>동절기 시공 시 실온 15℃ 이상을 유지하고, 시공 후 24시간 이상 양생 기간 동안 보행을 제한하며 제조사 지침에 따라 유지관리합니다.</p>
+                          </div>
+                        </div>
+                      </>
+                    ) : (
+                      <>
+                        <div className="guide-card-item">
+                          <AlertTriangle className="guide-card-icon text-warn" />
+                          <div className="guide-card-text">
+                            <h5>현장 실측 및 추가 비용 변동성</h5>
+                            <p>기존 바닥 수평 불균형이 극심한 경우, 평탄화 작업(보수 및 샌딩)으로 인한 부가 공사비용이 별도 청구될 수 있습니다.</p>
+                          </div>
+                        </div>
+                        
+                        <div className="guide-card-item">
+                          <HelpCircle className="guide-card-icon text-info" />
+                          <div className="guide-card-text">
+                            <h5>기존 바닥 철거 여부 체크</h5>
+                            <p>마루나 장판 등 기존 바닥 위에 덧방 시공이 불가한 심한 오염/습기 상태일 경우, 기존 바닥의 선철거 공정이 반드시 필요합니다.</p>
+                          </div>
+                        </div>
+
+                        <div className="guide-card-item">
+                          <ShieldCheck className="guide-card-icon text-success" />
+                          <div className="guide-card-text">
+                            <h5>양중 및 엘리베이터 환경</h5>
+                            <p>고층 빌딩/아파트 시공 시 화물 엘리베이터 미확보 또는 사다리차 접근 불가 시 계단 운반(양중비)이 발생하게 됩니다.</p>
+                          </div>
+                        </div>
+                      </>
+                    )}
+                  </div>
+                </section>
+              )}
 
             </div>
 

@@ -318,17 +318,6 @@ export async function getProductDetailImages(productId, productCode = '', produc
     }
   }
 
-  // Fallback 2: 동신 데코타일
-  const brandName = (product?.brand || product?.brands?.name || '').trim();
-  if (brandName === '동신') {
-    return [{
-      id: 'fallback-dongshin-0',
-      url: '/images/dongshin_tile_detail.jpg',
-      sort_order: 0,
-      alt_text: '동신 데코타일 상세 정보'
-    }];
-  }
-
   return [];
 }
 
