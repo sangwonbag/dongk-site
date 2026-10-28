@@ -23,14 +23,16 @@ export function getGeneratedManifestIndices() {
       if (img.extractedCode) {
         const cKey = normalizeCode(img.extractedCode);
         if (cKey) {
-          const isSceneOrExtra = img.imageType ? (img.imageType !== 'original') : /(?:사무실|시공|거실|침실|카페|매장|office|scene|_\d+$)/i.test(img.fileName || '');
+          const imgType = img.imageType || classifyProductImage(img.fileName || '');
+          const imgPriority = IMAGE_PRIORITY[imgType] !== undefined ? IMAGE_PRIORITY[imgType] : 99;
           const existing = generatedManifestCodeIndex.get(cKey);
           if (!existing) {
             generatedManifestCodeIndex.set(cKey, img);
           } else {
-            const existingIsSceneOrExtra = existing.imageType ? (existing.imageType !== 'original') : /(?:사무실|시공|거실|침실|카페|매장|office|scene|_\d+$)/i.test(existing.fileName || '');
-            if (existingIsSceneOrExtra && !isSceneOrExtra) {
-              // Replace scene image with actual product swatch image as primary
+            const existingType = existing.imageType || classifyProductImage(existing.fileName || '');
+            const existingPriority = IMAGE_PRIORITY[existingType] !== undefined ? IMAGE_PRIORITY[existingType] : 99;
+            if (imgPriority < existingPriority) {
+              // Lower number means higher priority (material swatch 0 > 2x2 1 > 90cross 2 > office 3)
               generatedManifestCodeIndex.set(cKey, img);
             }
           }
@@ -40,8 +42,19 @@ export function getGeneratedManifestIndices() {
         const lastDot = img.fileName.lastIndexOf('.');
         const namePart = lastDot !== -1 ? img.fileName.slice(0, lastDot) : img.fileName;
         const nKey = normalizeCode(namePart);
-        if (nKey && !generatedManifestNameIndex.has(nKey)) {
-          generatedManifestNameIndex.set(nKey, img);
+        if (nKey) {
+          const imgType = img.imageType || classifyProductImage(img.fileName || '');
+          const imgPriority = IMAGE_PRIORITY[imgType] !== undefined ? IMAGE_PRIORITY[imgType] : 99;
+          const existing = generatedManifestNameIndex.get(nKey);
+          if (!existing) {
+            generatedManifestNameIndex.set(nKey, img);
+          } else {
+            const existingType = existing.imageType || classifyProductImage(existing.fileName || '');
+            const existingPriority = IMAGE_PRIORITY[existingType] !== undefined ? IMAGE_PRIORITY[existingType] : 99;
+            if (imgPriority < existingPriority) {
+              generatedManifestNameIndex.set(nKey, img);
+            }
+          }
         }
       }
     }
@@ -186,7 +199,13 @@ export function getProductImageCandidates(product) {
   const addCandidate = (url) => {
     if (!url || typeof url !== 'string') return;
     const norm = normalizeProductImageUrl(url);
-    if (!norm || norm === '/images/no-image.svg' || norm.endsWith('/.webp') || candidates.includes(norm)) return;
+    if (!norm || norm === '/images/no-image.svg' || norm.endsWith('/.webp')) return;
+    
+    const safeDecoded = (str) => {
+      try { return decodeURI(str); } catch { return str; }
+    };
+    const normDecoded = safeDecoded(norm);
+    if (candidates.some(c => safeDecoded(c) === normDecoded)) return;
 
     // Strict lineup boundary checks to prevent cross-lineup image bleed
     if (lineup === 'sensray') {
@@ -230,7 +249,7 @@ export function getProductImageCandidates(product) {
 
   // Early return if product already has direct, valid DB images (drastically reduces CPU & loop overhead)
   if (candidates.length > 0) {
-    return candidates;
+    return sortProductImagesByType(candidates, rawCode);
   }
 
   // Trigger background manifest loading if not already cached
@@ -264,7 +283,7 @@ export function getProductImageCandidates(product) {
 
   // If candidate found in mappedManifest, return early
   if (candidates.length > 0) {
-    return candidates;
+    return sortProductImagesByType(candidates, rawCode);
   }
 
   // 3. Fast Indexed Generated manifest lookup (materialImageManifest.generated.js)
@@ -288,7 +307,7 @@ export function getProductImageCandidates(product) {
     candidates.push('/images/no-image.svg');
   }
 
-  return candidates;
+  return sortProductImagesByType(candidates, rawCode);
 }
 
 /**
@@ -300,11 +319,28 @@ export function getProductImageUrl(product) {
 }
 
 /**
- * Classifies an image URL into one of four types:
- * - 'original': 기본 원장 자재 이미지 (단품 타일)
- * - 'pattern2x2': 2x2 패턴 연결 이미지
- * - 'installation': 실제 공간 시공 이미지 (사무실, 상업공간, 거실, 주거, 매장 등)
- * - 'other': 교차 시공, 90도/180도 크로스, 회전 등 기타 이미지
+ * Universal Image Priority for the whole Dongkyung Flooring site:
+ * 1. material (자재 원본) -> 0
+ * 2. 2x2 (2x2 패턴) -> 1
+ * 3. 90cross (90cross 교차 배열) -> 2
+ * 4. office (사무실 / 상업공간 / 시공 예시) -> 3
+ * 5. other (기타 180cross / 보조 각도) -> 4
+ */
+export const IMAGE_PRIORITY = {
+  material: 0,
+  "2x2": 1,
+  "90cross": 2,
+  office: 3,
+  other: 4
+};
+
+/**
+ * Classifies an image URL strictly into one of the four unified types:
+ * - 'material': 자재 원본 대표 스와치 이미지
+ * - '2x2': 2행 2열 패턴 연결 이미지
+ * - '90cross': 90도 교차 시공 배열 이미지
+ * - 'office': 사무실 / 상업공간 / 현장 시공 예시
+ * - 'other': 180도 회전 또는 기타 보조 컷
  */
 export function classifyProductImage(url, productCode = '') {
   if (!url || typeof url !== 'string') return 'other';
@@ -312,23 +348,35 @@ export function classifyProductImage(url, productCode = '') {
   const fileName = decoded.split('/').pop() || '';
   const lower = fileName.toLowerCase();
 
-  // 1. 2x2 패턴 이미지 (pattern2x2)
+  // 1. 2x2 패턴 이미지 (2x2)
   if (
     lower.includes('2x2') ||
     lower.includes('2_2') ||
-    lower.includes('2×2') ||
-    lower.includes('pattern') ||
-    lower.includes('패턴')
+    lower.includes('2×2')
   ) {
-    return 'pattern2x2';
+    return '2x2';
   }
 
-  // 2. 시공 이미지 (installation)
+  // 2. 90cross 교차 시공 이미지 (90cross)
+  // Strict matching to prevent digits like DLX090 or DBT3090 from false-positive match
   if (
-    lower.includes('시공') ||
+    lower.includes('90cross') ||
+    lower.includes('_90cross') ||
+    lower.includes('_cross') ||
+    lower.includes('크로스') ||
+    /(?:^|[_\-\s])90cross(?:[_\-\s.]|$)/i.test(fileName) ||
+    /(?:^|[_\-\s])cross(?:[_\-\s.]|$)/i.test(fileName)
+  ) {
+    return '90cross';
+  }
+
+  // 3. 사무실 / 상업공간 / 시공 이미지 (office)
+  if (
     lower.includes('사무실') ||
     lower.includes('상업공간') ||
+    lower.includes('시공') ||
     lower.includes('거실') ||
+    lower.includes('침실') ||
     lower.includes('주거') ||
     lower.includes('매장') ||
     lower.includes('현장') ||
@@ -338,44 +386,34 @@ export function classifyProductImage(url, productCode = '') {
     lower.includes('interior') ||
     lower.includes('scene')
   ) {
-    return 'installation';
+    return 'office';
   }
 
-  // 3. 기타 패턴/교차/회전 이미지 (other)
+  // 4. 180cross / 회전 / 기타 번호 보조 컷 (other)
   if (
-    lower.includes('cross') ||
-    lower.includes('크로스') ||
-    lower.includes('90') ||
-    lower.includes('180') ||
+    lower.includes('180cross') ||
     lower.includes('회전') ||
     /_([2-9])\.(jpe?g|png|webp|avif)$/i.test(fileName)
   ) {
     return 'other';
   }
 
-  // 4. 원장 이미지 (original)
-  return 'original';
+  // 5. 기본 자재 원본 (material)
+  return 'material';
 }
 
 /**
- * Sorts an array of product image URLs strictly by image type:
- * 1) original (원장) -> 2) pattern2x2 (2x2) -> 3) installation (시공) -> 4) other (기타)
+ * Sorts an array of product image URLs strictly by the universal site order:
+ * ① 자재 원본 (0) -> ② 2x2 (1) -> ③ 90cross (2) -> ④ 사무실 (3) -> ⑤ 기타 (4)
  * Also removes true duplicate files (e.g. Code_1.png when Code.png exists).
  */
 export function sortProductImagesByType(images, productCode = '') {
   if (!Array.isArray(images) || images.length === 0) return [];
 
-  const rankMap = {
-    original: 1,
-    pattern2x2: 2,
-    installation: 3,
-    other: 4
-  };
-
   const seenPaths = new Set();
   const deduped = [];
 
-  const cleanCode = String(productCode || '').replace(/[^a-zA-Z0-9]/g, '').toUpperCase();
+  const cleanCode = String(productCode || '').replace(/[^a-zA-Z0-9가-힣]/g, '').toUpperCase();
 
   for (const src of images) {
     if (!src || typeof src !== 'string') continue;
@@ -384,44 +422,49 @@ export function sortProductImagesByType(images, productCode = '') {
       continue;
     }
 
-    if (seenPaths.has(clean)) continue;
+    const safeDecoded = (() => {
+      try { return decodeURI(clean); } catch { return clean; }
+    })();
+    if (seenPaths.has(safeDecoded)) continue;
 
     // Remove duplicate original filenames (e.g. Code_1.png when Code.png exists)
     const fileName = decodeURIComponent(clean.split('/').pop() || '');
     if (cleanCode) {
-      if (fileName.toUpperCase() === `${cleanCode}_1.PNG` && seenPaths.has(clean.replace('_1.png', '.png'))) {
+      if (fileName.toUpperCase() === `${cleanCode}_1.PNG` && seenPaths.has(safeDecoded.replace('_1.png', '.png'))) {
         continue;
       }
-      if (fileName.toUpperCase() === `${cleanCode}.PNG` && seenPaths.has(clean.replace('.png', '_1.png'))) {
-        const oldIdx = deduped.findIndex(x => x.includes(`${cleanCode}_1.png`));
+      if (fileName.toUpperCase() === `${cleanCode}.PNG` && seenPaths.has(safeDecoded.replace('.png', '_1.png'))) {
+        const oldIdx = deduped.findIndex(x => {
+          try { return decodeURI(x).includes(`${cleanCode}_1.png`); } catch { return false; }
+        });
         if (oldIdx !== -1) {
           deduped[oldIdx] = clean;
-          seenPaths.add(clean);
+          seenPaths.add(safeDecoded);
           continue;
         }
       }
     }
 
-    seenPaths.add(clean);
+    seenPaths.add(safeDecoded);
     deduped.push(clean);
   }
 
   return deduped.sort((a, b) => {
     const typeA = classifyProductImage(a, productCode);
     const typeB = classifyProductImage(b, productCode);
-    const rankA = rankMap[typeA] || 99;
-    const rankB = rankMap[typeB] || 99;
+    const rankA = IMAGE_PRIORITY[typeA] !== undefined ? IMAGE_PRIORITY[typeA] : 99;
+    const rankB = IMAGE_PRIORITY[typeB] !== undefined ? IMAGE_PRIORITY[typeB] : 99;
 
     if (rankA !== rankB) {
       return rankA - rankB;
     }
 
-    // Sub-sort for 'other' (e.g. 90cross / _2 before 180cross / _3)
+    // Sub-sort for 'other' (e.g. 180cross before secondary angles)
     if (typeA === 'other') {
       const aLower = a.toLowerCase();
       const bLower = b.toLowerCase();
-      const aSub = (aLower.includes('90') || aLower.includes('_2.')) ? 1 : (aLower.includes('180') || aLower.includes('_3.')) ? 2 : 3;
-      const bSub = (bLower.includes('90') || bLower.includes('_2.')) ? 1 : (bLower.includes('180') || bLower.includes('_3.')) ? 2 : 3;
+      const aSub = aLower.includes('180') ? 1 : 2;
+      const bSub = bLower.includes('180') ? 1 : 2;
       if (aSub !== bSub) return aSub - bSub;
     }
 

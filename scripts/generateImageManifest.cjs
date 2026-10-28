@@ -58,29 +58,63 @@ function getNormalizedBrand(folderBrand, category) {
   return folderBrand;
 }
 
-// Classify image role: original (원장), pattern2x2 (2x2 패턴), installation (시공 예시), other (크로스/회전 등)
+// Classify image role strictly according to universal site order:
+// 1. material (자재 원본)
+// 2. 2x2 (2x2 패턴)
+// 3. 90cross (90cross 교차)
+// 4. office (사무실 / 상업공간 / 시공)
+// 5. other (180cross 등 기타 보조 컷)
 function classifyProductImage(fileName) {
   const lower = fileName.toLowerCase();
-  if (lower.includes('2x2') || lower.includes('2_2') || lower.includes('2×2') || lower.includes('패턴')) {
-    return 'pattern2x2';
+
+  // 1. 2x2 패턴
+  if (lower.includes('2x2') || lower.includes('2_2') || lower.includes('2×2')) {
+    return '2x2';
   }
+
+  // 2. 90cross (strict matching to prevent DLX090 or DBT3090 from false-positive)
   if (
-    lower.includes('시공') ||
+    lower.includes('90cross') ||
+    lower.includes('_90cross') ||
+    lower.includes('_cross') ||
+    lower.includes('크로스') ||
+    /(?:^|[_\-\s])90cross(?:[_\-\s.]|$)/i.test(fileName) ||
+    /(?:^|[_\-\s])cross(?:[_\-\s.]|$)/i.test(fileName)
+  ) {
+    return '90cross';
+  }
+
+  // 3. 사무실 / 상업공간 / 시공
+  if (
     lower.includes('사무실') ||
     lower.includes('상업공간') ||
+    lower.includes('시공') ||
     lower.includes('거실') ||
     lower.includes('침실') ||
+    lower.includes('주거') ||
     lower.includes('매장') ||
+    lower.includes('현장') ||
     lower.includes('office') ||
+    lower.includes('commercial') ||
+    lower.includes('installation') ||
+    lower.includes('interior') ||
     lower.includes('scene') ||
     lower.includes('room')
   ) {
-    return 'installation';
+    return 'office';
   }
-  if (lower.includes('cross') || lower.includes('크로스') || lower.includes('90') || lower.includes('180') || lower.includes('회전')) {
+
+  // 4. 180cross / 회전 / 기타
+  if (
+    lower.includes('180cross') ||
+    lower.includes('회전') ||
+    /_([2-9])\.(jpe?g|png|webp|avif)$/i.test(fileName)
+  ) {
     return 'other';
   }
-  return 'original';
+
+  // 5. 자재 원본
+  return 'material';
 }
 
 // Robust code extractor helper from filename
@@ -88,11 +122,11 @@ function extractCode(filename) {
   const ext = path.extname(filename);
   let cleanName = filename.slice(0, -ext.length).trim();
   
-  // 1. Remove suffix indices, patterns, and descriptions (e.g. "_detail", "_thumbnail", "_사무실", "_시공", "_2x2")
+  // 1. Remove suffix indices, patterns, and descriptions (e.g. "_detail", "_thumbnail", "_사무실", "_시공", "_2x2", "_90cross")
   cleanName = cleanName
     .replace(/\.jpg_[0-9]+cross$/i, '')
     .replace(/_(?:thumbnail|detail)$/i, '')
-    .replace(/_(?:사무실|시공|상업공간|패턴|거실|침실|카페|매장|office|scene|room|2x2)$/i, '')
+    .replace(/_(?:사무실|시공|상업공간|패턴|거실|침실|카페|매장|office|scene|room|2x2|90cross|180cross)$/i, '')
     .replace(/_(\d+)$/, '')
     .replace(/\s*\(\d+\)$/, '')
     .trim();

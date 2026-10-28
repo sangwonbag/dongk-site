@@ -3442,9 +3442,8 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5531M.png",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5531M.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5531M_0.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5531M_1.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5531M_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5531M.png",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5531M_2x2.png"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -3478,9 +3477,8 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5532M.png",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5532M.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5532M_0.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5532M_1.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5532M_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5532M.png",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5532M_2x2.png"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -3514,8 +3512,8 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5533M.png",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5533M.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5533M_0.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5533M_1.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5533M.png",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5533M_2x2.png"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -3549,9 +3547,8 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5534M.png",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5534M.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5534M_0.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5534M_1.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5534M_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5534M.png",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5534M_2x2.png"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -3585,9 +3582,8 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5535M.png",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5535M.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5535M_0.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5535M_1.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5535M_2.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5535M.png",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5535M_2x2.png"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -3621,8 +3617,8 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5536M.png",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5536M.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5536M_0.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5536M_1.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5536M.png",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5536M_2x2.png"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -3656,8 +3652,8 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5537M.png",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5537M.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5537M_0.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_square/TS5537M_1.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5537M.png",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5537M_2x2.png"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -4099,8 +4095,8 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5102G.png",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5102G.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205102G_0.png",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205102G_1.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5102G.png",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5102G_사무실.jpg"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -4134,8 +4130,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5103G.png",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5103G.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205103G_0.png",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205103G_1.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5103G.png"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -4169,8 +4164,8 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5104G.png",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5104G.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205104G_0.png",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205104G_1.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5104G.png",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5104G_사무실.jpg"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -4204,8 +4199,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5105G.png",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5105G.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205105G_0.png",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205105G_1.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5105G.png"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -4239,8 +4233,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5106G.png",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5106G.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205106G_0.png",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205106G_1.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5106G.png"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -4274,8 +4267,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5107G.png",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5107G.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205107G_0.png",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205107G_1.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5107G.png"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -4309,8 +4301,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5108G.png",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5108G.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205108G_0.png",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205108G_1.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5108G.png"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -4344,8 +4335,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5109G.png",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5109G.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205109G_0.png",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205109G_1.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5109G.png"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -4379,8 +4369,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5110G.png",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5110G.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205110G_0.png",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205110G_1.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5110G.png"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -4414,8 +4403,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5111G.png",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5111G.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205111G_0.png",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205111G_1.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5111G.png"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -4449,8 +4437,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5112G.png",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5112G.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205112G_0.png",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205112G_1.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5112G.png"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -4484,8 +4471,8 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5119G.png",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5119G.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205119G_0.png",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205119G_1.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5119G.png",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5119G_사무실.jpg"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -4520,8 +4507,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5120G.png",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5120G.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205120G_0.png",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_wood/TW%205120G_1.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5120G.png"
     ],
     "price": 27000,
     "thickness": "3.0T",
@@ -5251,10 +5237,10 @@ export const materials = [
     "subLine": "LX하우스_데코레이s",
     "name": "",
     "code": "내지_데코_DLT 3315",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203315_1.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203315_1.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203315.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203315.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203315_1.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203315.jpg"
     ],
     "price": 44000,
     "thickness": "",
@@ -6551,10 +6537,10 @@ export const materials = [
     "subLine": "우드",
     "name": "",
     "code": "NEH-2004",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%97%90%EC%BD%94%ED%99%882000/%EC%9A%B0%EB%93%9C/NEH-2004%20.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%97%90%EC%BD%94%ED%99%882000/%EC%9A%B0%EB%93%9C/NEH-2004%20.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%97%90%EC%BD%94%ED%99%882000/%EC%9A%B0%EB%93%9C/NEH-2004.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%97%90%EC%BD%94%ED%99%882000/%EC%9A%B0%EB%93%9C/NEH-2004.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%97%90%EC%BD%94%ED%99%882000/%EC%9A%B0%EB%93%9C/NEH-2004%20.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%97%90%EC%BD%94%ED%99%882000/%EC%9A%B0%EB%93%9C/NEH-2004.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -7226,10 +7212,10 @@ export const materials = [
     "subLine": "600각",
     "name": "",
     "code": "NOT-3634",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/600%EA%B0%81/NOT-3634%20.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/600%EA%B0%81/NOT-3634%20.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/600%EA%B0%81/NOT-3634.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/600%EA%B0%81/NOT-3634.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/600%EA%B0%81/NOT-3634%20.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/600%EA%B0%81/NOT-3634.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -7276,10 +7262,10 @@ export const materials = [
     "subLine": "600각",
     "name": "",
     "code": "NOT-3636",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/600%EA%B0%81/NOT-3636%20.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/600%EA%B0%81/NOT-3636%20.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/600%EA%B0%81/NOT-3636.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/600%EA%B0%81/NOT-3636.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/600%EA%B0%81/NOT-3636%20.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/600%EA%B0%81/NOT-3636.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -7501,10 +7487,10 @@ export const materials = [
     "subLine": "900각",
     "name": "",
     "code": "NOT-3991",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/900%EA%B0%81/NOT-3991%20.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/900%EA%B0%81/NOT-3991%20.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/900%EA%B0%81/NOT-3991.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/900%EA%B0%81/NOT-3991.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/900%EA%B0%81/NOT-3991%20.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/900%EA%B0%81/NOT-3991.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -7726,10 +7712,10 @@ export const materials = [
     "subLine": "우드1200",
     "name": "",
     "code": "NOW-3066",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/%EC%9A%B0%EB%93%9C1200/NOW-3066%20.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/%EC%9A%B0%EB%93%9C1200/NOW-3066%20.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/%EC%9A%B0%EB%93%9C1200/NOW-3066.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/%EC%9A%B0%EB%93%9C1200/NOW-3066.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/%EC%9A%B0%EB%93%9C1200/NOW-3066%20.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/%EC%9A%B0%EB%93%9C1200/NOW-3066.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -7876,10 +7862,10 @@ export const materials = [
     "subLine": "450각",
     "name": "",
     "code": "NOT-31001",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/450%EA%B0%81/NOT-31001%20.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/450%EA%B0%81/NOT-31001%20.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/450%EA%B0%81/NOT-31001.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/450%EA%B0%81/NOT-31001.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/450%EA%B0%81/NOT-31001%20.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/450%EA%B0%81/NOT-31001.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -7901,10 +7887,10 @@ export const materials = [
     "subLine": "450각",
     "name": "",
     "code": "NOT-31002",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/450%EA%B0%81/NOT-31002%20.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/450%EA%B0%81/NOT-31002%20.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/450%EA%B0%81/NOT-31002.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/450%EA%B0%81/NOT-31002.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/450%EA%B0%81/NOT-31002%20.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/450%EA%B0%81/NOT-31002.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -7926,10 +7912,10 @@ export const materials = [
     "subLine": "450각",
     "name": "",
     "code": "NOT-31003",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/450%EA%B0%81/NOT-31003%20.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/450%EA%B0%81/NOT-31003%20.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/450%EA%B0%81/NOT-31003.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/450%EA%B0%81/NOT-31003.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/450%EA%B0%81/NOT-31003%20.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%EC%98%A4%ED%82%A4%EB%93%9C3000/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84/450%EA%B0%81/NOT-31003.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -8151,10 +8137,10 @@ export const materials = [
     "subLine": "450각",
     "name": "",
     "code": "NPT-0612",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%ED%94%84%EB%9D%BC%EC%9E%841500/450%EA%B0%81/NPT-0612%20.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%ED%94%84%EB%9D%BC%EC%9E%841500/450%EA%B0%81/NPT-0612%20.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%ED%94%84%EB%9D%BC%EC%9E%841500/450%EA%B0%81/NPT-0612.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%ED%94%84%EB%9D%BC%EC%9E%841500/450%EA%B0%81/NPT-0612.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%ED%94%84%EB%9D%BC%EC%9E%841500/450%EA%B0%81/NPT-0612%20.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%ED%94%84%EB%9D%BC%EC%9E%841500/450%EA%B0%81/NPT-0612.jpg"
     ],
     "price": 24000,
     "thickness": "3.0T",
@@ -8401,10 +8387,10 @@ export const materials = [
     "subLine": "450각",
     "name": "",
     "code": "NPT-0821",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%ED%94%84%EB%9D%BC%EC%9E%841500/450%EA%B0%81/NPT-0821%20.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%ED%94%84%EB%9D%BC%EC%9E%841500/450%EA%B0%81/NPT-0821%20.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%ED%94%84%EB%9D%BC%EC%9E%841500/450%EA%B0%81/NPT-0821.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%ED%94%84%EB%9D%BC%EC%9E%841500/450%EA%B0%81/NPT-0821.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%ED%94%84%EB%9D%BC%EC%9E%841500/450%EA%B0%81/NPT-0821%20.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%ED%94%84%EB%9D%BC%EC%9E%841500/450%EA%B0%81/NPT-0821.jpg"
     ],
     "price": 24000,
     "thickness": "3.0T",
@@ -8501,10 +8487,10 @@ export const materials = [
     "subLine": "450각",
     "name": "",
     "code": "NPT-1025",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%ED%94%84%EB%9D%BC%EC%9E%841500/450%EA%B0%81/NPT-1025%20.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%ED%94%84%EB%9D%BC%EC%9E%841500/450%EA%B0%81/NPT-1025%20.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%ED%94%84%EB%9D%BC%EC%9E%841500/450%EA%B0%81/NPT-1025.png",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%ED%94%84%EB%9D%BC%EC%9E%841500/450%EA%B0%81/NPT-1025.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%ED%94%84%EB%9D%BC%EC%9E%841500/450%EA%B0%81/NPT-1025%20.png"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EB%85%B9%EC%88%98/%ED%94%84%EB%9D%BC%EC%9E%841500/450%EA%B0%81/NPT-1025.png"
     ],
     "price": 24000,
     "thickness": "3.0T",
@@ -11776,10 +11762,10 @@ export const materials = [
     "subLine": "600각",
     "name": "",
     "code": "FSM 5101",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205101%20.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205101%20.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205101.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205101.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205101%20.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205101.jpg"
     ],
     "price": 25000,
     "thickness": "3.0T",
@@ -11801,10 +11787,10 @@ export const materials = [
     "subLine": "600각",
     "name": "",
     "code": "FSM 5102",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205102%20.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205102%20.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205102.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205102.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205102%20.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205102.jpg"
     ],
     "price": 25000,
     "thickness": "3.0T",
@@ -12401,10 +12387,10 @@ export const materials = [
     "subLine": "600각",
     "name": "",
     "code": "FSM 5602",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205602%20.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205602%20.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205602.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205602.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205602%20.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%EC%9C%A0%EC%84%B1/%ED%94%BC%EC%98%A4%EB%84%A4%20%EB%AA%A8%EB%8D%98/600%EA%B0%81/FSM%205602.jpg"
     ],
     "price": 25000,
     "thickness": "3.0T",
@@ -15755,7 +15741,7 @@ export const materials = [
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4421.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4421.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS4421_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS4421_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ],
     "price": 26000,
     "thickness": "",
@@ -15831,7 +15817,7 @@ export const materials = [
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4433.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS4433.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS4433_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS4433_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ],
     "price": 26000,
     "thickness": "",
@@ -15932,7 +15918,7 @@ export const materials = [
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5523.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS5523.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS5523_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS5523_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ],
     "price": 26000,
     "thickness": "",
@@ -16033,7 +16019,7 @@ export const materials = [
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6013.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6013.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6013_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6013_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ],
     "price": 26000,
     "thickness": "",
@@ -16084,7 +16070,7 @@ export const materials = [
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6022.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6022.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6022_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6022_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ],
     "price": 26000,
     "thickness": "",
@@ -16135,7 +16121,7 @@ export const materials = [
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6024.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6024.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6024_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6024_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ],
     "price": 26000,
     "thickness": "",
@@ -16261,7 +16247,7 @@ export const materials = [
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6033.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6033.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6033_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6033_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ],
     "price": 26000,
     "thickness": "",
@@ -16287,7 +16273,7 @@ export const materials = [
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6051.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6051.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6051_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6051_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ],
     "price": 26000,
     "thickness": "",
@@ -16338,7 +16324,7 @@ export const materials = [
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6062.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6062.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6062_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6062_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ],
     "price": 26000,
     "thickness": "",
@@ -16389,7 +16375,7 @@ export const materials = [
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6111.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6111.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6111_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6111_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ],
     "price": 26000,
     "thickness": "",
@@ -16440,7 +16426,7 @@ export const materials = [
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6131.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6131.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6131_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6131_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ],
     "price": 26000,
     "thickness": "",
@@ -16541,7 +16527,7 @@ export const materials = [
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6143.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6143.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6143_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6143_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ],
     "price": 26000,
     "thickness": "",
@@ -16667,7 +16653,7 @@ export const materials = [
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6154.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6154.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6154_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6154_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ],
     "price": 26000,
     "thickness": "",
@@ -16693,7 +16679,7 @@ export const materials = [
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6161.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTS6161.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6161_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTS6161_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ],
     "price": 26000,
     "thickness": "",
@@ -16844,7 +16830,7 @@ export const materials = [
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3021.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW3021.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTW3021_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTW3021_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ],
     "price": 26000,
     "thickness": "",
@@ -16920,7 +16906,7 @@ export const materials = [
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4464.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4464.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTW4464_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTW4464_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ],
     "price": 26000,
     "thickness": "",
@@ -16996,7 +16982,7 @@ export const materials = [
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4487.jpg",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/MTW4487.jpg",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTW4487_%EC%8B%9C%EA%B3%B5.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/%ED%98%84%EB%8C%80/%EA%B3%A8%EB%93%9C%ED%83%80%EC%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80/MTW4487_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ],
     "price": 26000,
     "thickness": "",
@@ -23243,10 +23229,10 @@ export const materials = [
     "subLine": "DUO TEXTURE",
     "name": "",
     "code": "까사 브라운",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EB%8F%99%ED%99%94/%EA%B0%95%EB%A7%88%EB%A3%A8/%EB%93%80%EC%98%A4%ED%85%8D%EC%8A%A4%EC%B3%90/DUO%20TEXTURE/%EA%B9%8C%EC%82%AC%20%EB%B8%8C%EB%9D%BC%EC%9A%B4%20.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EB%8F%99%ED%99%94/%EA%B0%95%EB%A7%88%EB%A3%A8/%EB%93%80%EC%98%A4%ED%85%8D%EC%8A%A4%EC%B3%90/DUO%20TEXTURE/%EA%B9%8C%EC%82%AC%20%EB%B8%8C%EB%9D%BC%EC%9A%B4%20.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EB%8F%99%ED%99%94/%EA%B0%95%EB%A7%88%EB%A3%A8/%EB%93%80%EC%98%A4%ED%85%8D%EC%8A%A4%EC%B3%90/DUO%20TEXTURE/%EA%B9%8C%EC%82%AC%20%EB%B8%8C%EB%9D%BC%EC%9A%B4.png",
+    "image": "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EB%8F%99%ED%99%94/%EA%B0%95%EB%A7%88%EB%A3%A8/%EB%93%80%EC%98%A4%ED%85%8D%EC%8A%A4%EC%B3%90/DUO%20TEXTURE/%EA%B9%8C%EC%82%AC%20%EB%B8%8C%EB%9D%BC%EC%9A%B4.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EB%8F%99%ED%99%94/%EA%B0%95%EB%A7%88%EB%A3%A8/%EB%93%80%EC%98%A4%ED%85%8D%EC%8A%A4%EC%B3%90/DUO%20TEXTURE/%EA%B9%8C%EC%82%AC%20%EB%B8%8C%EB%9D%BC%EC%9A%B4%20.png"
+      "/images/Thumbnail_Image/materials/%EB%A7%88%EB%A3%A8/%EB%8F%99%ED%99%94/%EA%B0%95%EB%A7%88%EB%A3%A8/%EB%93%80%EC%98%A4%ED%85%8D%EC%8A%A4%EC%B3%90/DUO%20TEXTURE/%EA%B9%8C%EC%82%AC%20%EB%B8%8C%EB%9D%BC%EC%9A%B4.png"
     ],
     "price": 64000,
     "thickness": "7.5T",
@@ -64924,7 +64910,7 @@ export const materials = [
     "image": "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EB%94%94%EC%95%84%EC%9D%B4%EB%94%94/%ED%95%A9%EC%A7%80/%EB%8D%94%EC%9B%90/33173-1.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EB%94%94%EC%95%84%EC%9D%B4%EB%94%94/%ED%95%A9%EC%A7%80/%EB%8D%94%EC%9B%90/33173-1.png",
-      "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EB%94%94%EC%95%84%EC%9D%B4%EB%94%94/%ED%95%A9%EC%A7%80/%EB%8D%94%EC%9B%90/33173-1_2.png"
+      "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EB%94%94%EC%95%84%EC%9D%B4%EB%94%94/%ED%95%A9%EC%A7%80/%EB%8D%94%EC%9B%90/33173-1_%EC%82%AC%EB%AC%B4%EC%8B%A4.png"
     ],
     "price": 0,
     "thickness": "",
@@ -65025,7 +65011,7 @@ export const materials = [
     "image": "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EB%94%94%EC%95%84%EC%9D%B4%EB%94%94/%ED%95%A9%EC%A7%80/%EB%8D%94%EC%9B%90/33175-1.png",
     "images": [
       "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EB%94%94%EC%95%84%EC%9D%B4%EB%94%94/%ED%95%A9%EC%A7%80/%EB%8D%94%EC%9B%90/33175-1.png",
-      "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EB%94%94%EC%95%84%EC%9D%B4%EB%94%94/%ED%95%A9%EC%A7%80/%EB%8D%94%EC%9B%90/33175-1_2.png"
+      "/images/Thumbnail_Image/materials/%EB%B2%BD%EC%A7%80/%EB%94%94%EC%95%84%EC%9D%B4%EB%94%94/%ED%95%A9%EC%A7%80/%EB%8D%94%EC%9B%90/33175-1_%EC%82%AC%EB%AC%B4%EC%8B%A4.png"
     ],
     "price": 0,
     "thickness": "",
@@ -85572,10 +85558,10 @@ export const materials = [
     "subLine": "그린1.8",
     "name": "",
     "code": "NP18-3543",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-3543_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-3543_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-3543.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-3543.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-3543_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-3543.jpg"
     ],
     "price": 0,
     "thickness": "1.8T",
@@ -85588,7 +85574,7 @@ export const materials = [
     "description": "그린",
     "product_code": "NP18-3543",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-3543_thumbnail.jpg"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-3543.jpg"
   },
   {
     "id": "장판-kcc-그린-np18-4123",
@@ -85598,10 +85584,10 @@ export const materials = [
     "subLine": "그린1.8",
     "name": "",
     "code": "NP18-4123",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4123_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4123_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4123.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4123.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4123_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4123.jpg"
     ],
     "price": 0,
     "thickness": "1.8T",
@@ -85614,7 +85600,7 @@ export const materials = [
     "description": "그린",
     "product_code": "NP18-4123",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4123_thumbnail.jpg"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4123.jpg"
   },
   {
     "id": "장판-kcc-그린-np18-4125",
@@ -85624,10 +85610,10 @@ export const materials = [
     "subLine": "그린1.8",
     "name": "",
     "code": "NP18-4125",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4125_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4125_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4125.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4125.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4125_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4125.jpg"
     ],
     "price": 0,
     "thickness": "1.8T",
@@ -85640,7 +85626,7 @@ export const materials = [
     "description": "그린",
     "product_code": "NP18-4125",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4125_thumbnail.jpg"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4125.jpg"
   },
   {
     "id": "장판-kcc-그린-np18-4681",
@@ -85650,10 +85636,10 @@ export const materials = [
     "subLine": "그린1.8",
     "name": "",
     "code": "NP18-4681",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4681_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4681_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4681.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4681.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4681_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4681.jpg"
     ],
     "price": 0,
     "thickness": "1.8T",
@@ -85666,7 +85652,7 @@ export const materials = [
     "description": "그린",
     "product_code": "NP18-4681",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4681_thumbnail.jpg"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4681.jpg"
   },
   {
     "id": "장판-kcc-그린-np18-4701",
@@ -85676,10 +85662,10 @@ export const materials = [
     "subLine": "그린1.8",
     "name": "",
     "code": "NP18-4701",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4701_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4701_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4701.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4701.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4701_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4701.jpg"
     ],
     "price": 0,
     "thickness": "1.8T",
@@ -85692,7 +85678,7 @@ export const materials = [
     "description": "그린",
     "product_code": "NP18-4701",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4701_thumbnail.jpg"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4701.jpg"
   },
   {
     "id": "장판-kcc-그린-np18-4703",
@@ -85702,10 +85688,10 @@ export const materials = [
     "subLine": "그린1.8",
     "name": "",
     "code": "NP18-4703",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4703_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4703_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4703.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4703.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4703_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4703.jpg"
     ],
     "price": 0,
     "thickness": "1.8T",
@@ -85718,7 +85704,7 @@ export const materials = [
     "description": "그린",
     "product_code": "NP18-4703",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4703_thumbnail.jpg"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4703.jpg"
   },
   {
     "id": "장판-kcc-그린-np18-4733",
@@ -85728,10 +85714,10 @@ export const materials = [
     "subLine": "그린1.8",
     "name": "",
     "code": "NP18-4733",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4733_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4733_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4733.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4733.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4733_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4733.jpg"
     ],
     "price": 0,
     "thickness": "1.8T",
@@ -85744,7 +85730,7 @@ export const materials = [
     "description": "그린",
     "product_code": "NP18-4733",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4733_thumbnail.jpg"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4733.jpg"
   },
   {
     "id": "장판-kcc-그린-np18-4863",
@@ -85754,10 +85740,10 @@ export const materials = [
     "subLine": "그린1.8",
     "name": "",
     "code": "NP18-4863",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4863_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4863_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4863.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4863.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4863_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4863.jpg"
     ],
     "price": 0,
     "thickness": "1.8T",
@@ -85770,7 +85756,7 @@ export const materials = [
     "description": "그린",
     "product_code": "NP18-4863",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4863_thumbnail.jpg"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4863.jpg"
   },
   {
     "id": "장판-kcc-그린-np18-4921",
@@ -85780,10 +85766,10 @@ export const materials = [
     "subLine": "그린1.8",
     "name": "",
     "code": "NP18-4921",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4921_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4921_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4921.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4921.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4921_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4921.jpg"
     ],
     "price": 0,
     "thickness": "1.8T",
@@ -85796,7 +85782,7 @@ export const materials = [
     "description": "그린",
     "product_code": "NP18-4921",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4921_thumbnail.jpg"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-4921.jpg"
   },
   {
     "id": "장판-kcc-그린-np18-5021",
@@ -85806,10 +85792,10 @@ export const materials = [
     "subLine": "그린1.8",
     "name": "",
     "code": "NP18-5021",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-5021_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-5021_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-5021.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-5021.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-5021_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-5021.jpg"
     ],
     "price": 0,
     "thickness": "1.8T",
@@ -85822,7 +85808,7 @@ export const materials = [
     "description": "그린",
     "product_code": "NP18-5021",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-5021_thumbnail.jpg"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-5021.jpg"
   },
   {
     "id": "장판-kcc-그린-np18-5031",
@@ -85832,10 +85818,10 @@ export const materials = [
     "subLine": "그린1.8",
     "name": "",
     "code": "NP18-5031",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-5031_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-5031_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-5031.jpg",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-5031.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-5031_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-5031.jpg"
     ],
     "price": 0,
     "thickness": "1.8T",
@@ -85848,7 +85834,7 @@ export const materials = [
     "description": "그린",
     "product_code": "NP18-5031",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-5031_thumbnail.jpg"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/그린1.8/NP18-5031.jpg"
   },
   {
     "id": "장판-kcc-도담-nj27-4202",
@@ -86352,10 +86338,10 @@ export const materials = [
     "subLine": "숲 옥2.2",
     "name": "",
     "code": "MN22-4151",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4151_detail.png",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4151_detail.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4151.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4151.png",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4151_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4151.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86368,7 +86354,7 @@ export const materials = [
     "description": "숲 옥",
     "product_code": "MN22-4151",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4151_detail.png"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4151.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-4162_detail",
@@ -86378,10 +86364,10 @@ export const materials = [
     "subLine": "숲 옥2.2",
     "name": "",
     "code": "MN22-4162",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4162_detail.png",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4162_detail.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4162.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4162.png",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4162_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4162.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86394,7 +86380,7 @@ export const materials = [
     "description": "숲 옥",
     "product_code": "MN22-4162",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4162_detail.png"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4162.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-4383_detail",
@@ -86404,10 +86390,10 @@ export const materials = [
     "subLine": "숲 옥2.2",
     "name": "",
     "code": "MN22-4383",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4383_detail.png",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4383_detail.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4383.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4383.png",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4383_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4383.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86420,7 +86406,7 @@ export const materials = [
     "description": "숲 옥",
     "product_code": "MN22-4383",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4383_detail.png"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4383.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-4581_detail",
@@ -86430,10 +86416,10 @@ export const materials = [
     "subLine": "숲 옥2.2",
     "name": "",
     "code": "MN22-4581",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4581_detail.png",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4581_detail.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4581.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4581.png",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4581_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4581.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86446,7 +86432,7 @@ export const materials = [
     "description": "숲 옥",
     "product_code": "MN22-4581",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4581_detail.png"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4581.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-4591_detail",
@@ -86456,10 +86442,10 @@ export const materials = [
     "subLine": "숲 옥2.2",
     "name": "",
     "code": "MN22-4591",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4591_detail.png",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4591_detail.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4591.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4591.png",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4591_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4591.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86472,7 +86458,7 @@ export const materials = [
     "description": "숲 옥",
     "product_code": "MN22-4591",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4591_detail.png"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4591.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-4811_detail",
@@ -86482,10 +86468,10 @@ export const materials = [
     "subLine": "숲 옥2.2",
     "name": "",
     "code": "MN22-4811",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4811_detail.png",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4811_detail.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4811.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4811.png",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4811_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4811.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86498,7 +86484,7 @@ export const materials = [
     "description": "숲 옥",
     "product_code": "MN22-4811",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4811_detail.png"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4811.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-4821_detail",
@@ -86508,10 +86494,10 @@ export const materials = [
     "subLine": "숲 옥2.2",
     "name": "",
     "code": "MN22-4821",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4821_detail.png",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4821_detail.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4821.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4821.png",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4821_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4821.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86524,7 +86510,7 @@ export const materials = [
     "description": "숲 옥",
     "product_code": "MN22-4821",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4821_detail.png"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4821.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-4823_detail",
@@ -86534,10 +86520,10 @@ export const materials = [
     "subLine": "숲 옥2.2",
     "name": "",
     "code": "MN22-4823",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4823_detail.png",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4823_detail.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4823.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4823.png",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4823_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4823.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86550,7 +86536,7 @@ export const materials = [
     "description": "숲 옥",
     "product_code": "MN22-4823",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4823_detail.png"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4823.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-4831_detail",
@@ -86560,10 +86546,10 @@ export const materials = [
     "subLine": "숲 옥2.2",
     "name": "",
     "code": "MN22-4831",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4831_detail.png",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4831_detail.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4831.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4831.png",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4831_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4831.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86576,7 +86562,7 @@ export const materials = [
     "description": "숲 옥",
     "product_code": "MN22-4831",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4831_detail.png"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-4831.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-5051_detail",
@@ -86586,10 +86572,10 @@ export const materials = [
     "subLine": "숲 옥2.2",
     "name": "",
     "code": "MN22-5051",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5051_detail.png",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5051_detail.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5051.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5051.png",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5051_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5051.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86602,7 +86588,7 @@ export const materials = [
     "description": "숲 옥",
     "product_code": "MN22-5051",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5051_detail.png"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5051.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-5061_detail",
@@ -86612,10 +86598,10 @@ export const materials = [
     "subLine": "숲 옥2.2",
     "name": "",
     "code": "MN22-5061",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5061_detail.png",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5061_detail.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5061.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5061.png",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5061_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5061.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86628,7 +86614,7 @@ export const materials = [
     "description": "숲 옥",
     "product_code": "MN22-5061",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5061_detail.png"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5061.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-5071_detail",
@@ -86638,10 +86624,10 @@ export const materials = [
     "subLine": "숲 옥2.2",
     "name": "",
     "code": "MN22-5071",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5071_detail.png",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5071_detail.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5071.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5071.png",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5071_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5071.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86654,7 +86640,7 @@ export const materials = [
     "description": "숲 옥",
     "product_code": "MN22-5071",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5071_detail.png"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5071.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-5091_detail",
@@ -86664,10 +86650,10 @@ export const materials = [
     "subLine": "숲 옥2.2",
     "name": "",
     "code": "MN22-5091",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5091_detail.png",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5091_detail.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5091.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5091.png",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5091_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5091.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86680,7 +86666,7 @@ export const materials = [
     "description": "숲 옥",
     "product_code": "MN22-5091",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5091_detail.png"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5091.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-5191_detail",
@@ -86690,10 +86676,10 @@ export const materials = [
     "subLine": "숲 옥2.2",
     "name": "",
     "code": "MN22-5191",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5191_detail.png",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5191_detail.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5191.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5191.png",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5191_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5191.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86706,7 +86692,7 @@ export const materials = [
     "description": "숲 옥",
     "product_code": "MN22-5191",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5191_detail.png"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5191.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-5201_detail",
@@ -86716,10 +86702,10 @@ export const materials = [
     "subLine": "숲 옥2.2",
     "name": "",
     "code": "MN22-5201",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5201_detail.png",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5201_detail.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5201.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5201.png",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5201_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5201.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86732,7 +86718,7 @@ export const materials = [
     "description": "숲 옥",
     "product_code": "MN22-5201",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5201_detail.png"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5201.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-5203_detail",
@@ -86742,10 +86728,10 @@ export const materials = [
     "subLine": "숲 옥2.2",
     "name": "",
     "code": "MN22-5203",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5203_detail.png",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5203_detail.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5203.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5203.png",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5203_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5203.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86758,7 +86744,7 @@ export const materials = [
     "description": "숲 옥",
     "product_code": "MN22-5203",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5203_detail.png"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5203.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-5211_detail",
@@ -86768,10 +86754,10 @@ export const materials = [
     "subLine": "숲 옥2.2",
     "name": "",
     "code": "MN22-5211",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5211_detail.png",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5211_detail.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5211.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5211.png",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5211_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5211.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86784,7 +86770,7 @@ export const materials = [
     "description": "숲 옥",
     "product_code": "MN22-5211",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5211_detail.png"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5211.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-5221_detail",
@@ -86794,10 +86780,10 @@ export const materials = [
     "subLine": "숲 옥2.2",
     "name": "",
     "code": "MN22-5221",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5221_detail.png",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5221_detail.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5221.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5221.png",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5221_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5221.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86810,7 +86796,7 @@ export const materials = [
     "description": "숲 옥",
     "product_code": "MN22-5221",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5221_detail.png"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5221.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-5231_detail",
@@ -86820,10 +86806,10 @@ export const materials = [
     "subLine": "숲 옥2.2",
     "name": "",
     "code": "MN22-5231",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5231_detail.png",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5231_detail.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5231.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5231.png",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5231_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5231.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86836,7 +86822,7 @@ export const materials = [
     "description": "숲 옥",
     "product_code": "MN22-5231",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5231_detail.png"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5231.png"
   },
   {
     "id": "장판-kcc-숲-옥-mn22-5233_detail",
@@ -86846,10 +86832,10 @@ export const materials = [
     "subLine": "숲 옥2.2",
     "name": "",
     "code": "MN22-5233",
-    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5233_detail.png",
-    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5233_detail.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5233.png",
+    "image": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5233.png",
     "images": [
-      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5233_detail.png"
+      "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5233.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -86862,7 +86848,7 @@ export const materials = [
     "description": "숲 옥",
     "product_code": "MN22-5233",
     "product_name": "",
-    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5233_detail.png"
+    "image_url": "/images/Thumbnail_Image/materials/장판/KCC/숲 옥2.2/MN22-5233.png"
   },
   {
     "id": "장판-kcc-휴가온-nc45-4232",
@@ -88038,10 +88024,10 @@ export const materials = [
     "subLine": "LX하우시스_은행목_2.0T",
     "name": "은행목 마곡 오크",
     "code": "EH13712",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH13712%20.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH13712%20.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH13712.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH13712.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH13712%20.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%9D%80%ED%96%89%EB%AA%A9_2.0T/EH13712.jpg"
     ],
     "price": 18000,
     "thickness": "2.0T",
@@ -88538,10 +88524,10 @@ export const materials = [
     "subLine": "LX하우시스_지아사랑애_3.2T",
     "name": "지아사랑애 에버닌오크",
     "code": "64221",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64221%20.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64221%20.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64221.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64221.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64221%20.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/LX/LX%ED%95%98%EC%9A%B0%EC%8B%9C%EC%8A%A4_%EC%A7%80%EC%95%84%EC%82%AC%EB%9E%91%EC%95%A0_3.2T/64221.jpg"
     ],
     "price": 38000,
     "thickness": "3.2T",
@@ -89413,10 +89399,10 @@ export const materials = [
     "subLine": "더채움2.2",
     "name": "",
     "code": "M3204",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3204_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3204_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3204.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3204.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3204_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3204.jpg"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -89438,10 +89424,10 @@ export const materials = [
     "subLine": "더채움2.2",
     "name": "",
     "code": "M3205",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3205_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3205_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3205.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3205.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3205_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3205.jpg"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -89463,10 +89449,10 @@ export const materials = [
     "subLine": "더채움2.2",
     "name": "",
     "code": "M3208",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3208_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3208_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3208.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3208.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3208_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3208.jpg"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -89488,10 +89474,10 @@ export const materials = [
     "subLine": "더채움2.2",
     "name": "",
     "code": "M3221",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3221_thumbnail.png",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3221_thumbnail.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3221.png",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3221.png",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3221_thumbnail.png"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3221.png"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -89513,10 +89499,10 @@ export const materials = [
     "subLine": "더채움2.2",
     "name": "",
     "code": "M3223",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3223_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3223_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3223.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3223.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3223_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3223.jpg"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -89538,10 +89524,10 @@ export const materials = [
     "subLine": "더채움2.2",
     "name": "",
     "code": "M3232",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3232_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3232_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3232.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3232.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3232_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3232.jpg"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -89563,10 +89549,10 @@ export const materials = [
     "subLine": "더채움2.2",
     "name": "",
     "code": "M3235",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3235_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3235_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3235.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3235.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3235_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3235.jpg"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -89588,10 +89574,10 @@ export const materials = [
     "subLine": "더채움2.2",
     "name": "",
     "code": "M3236",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3236_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3236_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3236.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3236.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3236_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3236.jpg"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -89613,10 +89599,10 @@ export const materials = [
     "subLine": "더채움2.2",
     "name": "",
     "code": "M3301",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3301_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3301_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3301.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3301.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3301_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3301.jpg"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -89638,10 +89624,10 @@ export const materials = [
     "subLine": "더채움2.2",
     "name": "",
     "code": "M3302",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3302_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3302_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3302.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3302.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3302_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3302.jpg"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -89663,10 +89649,10 @@ export const materials = [
     "subLine": "더채움2.2",
     "name": "",
     "code": "M3303",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3303_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3303_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3303.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3303.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3303_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3303.jpg"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -89688,10 +89674,10 @@ export const materials = [
     "subLine": "더채움2.2",
     "name": "",
     "code": "M3306",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3306_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3306_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3306.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3306.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3306_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3306.jpg"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -89713,10 +89699,10 @@ export const materials = [
     "subLine": "더채움2.2",
     "name": "",
     "code": "M3307",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3307_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3307_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3307.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3307.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3307_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3307.jpg"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -89738,10 +89724,10 @@ export const materials = [
     "subLine": "더채움2.2",
     "name": "",
     "code": "M3311",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3311_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3311_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3311.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3311.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3311_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3311.jpg"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -89763,10 +89749,10 @@ export const materials = [
     "subLine": "더채움2.2",
     "name": "",
     "code": "M3312",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3312_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3312_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3312.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3312.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3312_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3312.jpg"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -89788,10 +89774,10 @@ export const materials = [
     "subLine": "더채움2.2",
     "name": "",
     "code": "M3313",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3313_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3313_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3313.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3313.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3313_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3313.jpg"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -89813,10 +89799,10 @@ export const materials = [
     "subLine": "더채움2.2",
     "name": "",
     "code": "M3314",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3314_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3314_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3314.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3314.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3314_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3314.jpg"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -89838,10 +89824,10 @@ export const materials = [
     "subLine": "더채움2.2",
     "name": "",
     "code": "M3315",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3315_thumbnail.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3315_thumbnail.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3315.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3315.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3315_thumbnail.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EB%8D%94%EC%B1%84%EC%9B%802.2/M3315.jpg"
     ],
     "price": 0,
     "thickness": "2.2T",
@@ -90280,7 +90266,7 @@ export const materials = [
     "product_code": "C1152",
     "product_name": "",
     "installationImages": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1152_installation.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1152_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ]
   },
   {
@@ -90308,7 +90294,7 @@ export const materials = [
     "product_code": "C1154",
     "product_name": "",
     "installationImages": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1154_installation.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1154_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ]
   },
   {
@@ -90336,7 +90322,7 @@ export const materials = [
     "product_code": "C1161",
     "product_name": "",
     "installationImages": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1161_installation.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1161_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ]
   },
   {
@@ -90364,7 +90350,7 @@ export const materials = [
     "product_code": "C1162",
     "product_name": "",
     "installationImages": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1162_installation.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1162_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ]
   },
   {
@@ -90392,7 +90378,7 @@ export const materials = [
     "product_code": "C1171",
     "product_name": "",
     "installationImages": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1171_installation.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1171_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ]
   },
   {
@@ -90420,7 +90406,7 @@ export const materials = [
     "product_code": "C1172",
     "product_name": "",
     "installationImages": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1172_installation.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1172_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ]
   },
   {
@@ -90448,7 +90434,7 @@ export const materials = [
     "product_code": "C1173",
     "product_name": "",
     "installationImages": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1173_installation.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1173_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ]
   },
   {
@@ -90476,7 +90462,7 @@ export const materials = [
     "product_code": "C1705",
     "product_name": "",
     "installationImages": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1705_installation.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1705_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ]
   },
   {
@@ -90504,7 +90490,7 @@ export const materials = [
     "product_code": "C1706",
     "product_name": "",
     "installationImages": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1706_installation.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1706_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ]
   },
   {
@@ -90532,7 +90518,7 @@ export const materials = [
     "product_code": "C1708",
     "product_name": "",
     "installationImages": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1708_installation.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1708_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ]
   },
   {
@@ -90560,7 +90546,7 @@ export const materials = [
     "product_code": "C1712",
     "product_name": "",
     "installationImages": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1712_installation.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1712_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ]
   },
   {
@@ -90588,7 +90574,7 @@ export const materials = [
     "product_code": "C1909",
     "product_name": "",
     "installationImages": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1909_installation.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%801.8/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/C1909_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ]
   },
   {
@@ -90616,7 +90602,7 @@ export const materials = [
     "product_code": "M2151",
     "product_name": "",
     "installationImages": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2151_installation.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2151_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ]
   },
   {
@@ -90644,7 +90630,7 @@ export const materials = [
     "product_code": "M2152",
     "product_name": "",
     "installationImages": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2152_installation.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2152_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ]
   },
   {
@@ -90672,7 +90658,7 @@ export const materials = [
     "product_code": "M2157",
     "product_name": "",
     "installationImages": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2157_installation.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2157_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ]
   },
   {
@@ -90700,7 +90686,7 @@ export const materials = [
     "product_code": "M2801",
     "product_name": "",
     "installationImages": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2801_installation.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2801_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ]
   },
   {
@@ -90728,7 +90714,7 @@ export const materials = [
     "product_code": "M2803",
     "product_name": "",
     "installationImages": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2803_installation.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2803_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ]
   },
   {
@@ -90756,7 +90742,7 @@ export const materials = [
     "product_code": "M2902",
     "product_name": "",
     "installationImages": [
-      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2902_installation.jpg"
+      "/images/Thumbnail_Image/materials/%EC%9E%A5%ED%8C%90/%ED%98%84%EB%8C%80/%EC%B0%B8%EB%8B%A4%EC%9B%802.0/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%8B%9C%EA%B3%B5%EC%82%AC%EB%A1%80/M2902_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ]
   },
   {
@@ -92367,10 +92353,10 @@ export const materials = [
     "subLine": "롤 카페트",
     "name": "",
     "code": "rq054",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%EB%A1%A4%20%EC%B9%B4%ED%8E%98%ED%8A%B8/rq054_2.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%EB%A1%A4%20%EC%B9%B4%ED%8E%98%ED%8A%B8/rq054_2.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%EB%A1%A4%20%EC%B9%B4%ED%8E%98%ED%8A%B8/RQ054_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%EB%A1%A4%20%EC%B9%B4%ED%8E%98%ED%8A%B8/RQ054_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%EB%A1%A4%20%EC%B9%B4%ED%8E%98%ED%8A%B8/rq054_2.jpg"
+      "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%EB%A1%A4%20%EC%B9%B4%ED%8E%98%ED%8A%B8/RQ054_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ],
     "price": 55000,
     "thickness": "9.0(±0.5)",
@@ -93467,10 +93453,10 @@ export const materials = [
     "subLine": "타일 카페트",
     "name": "",
     "code": "bs353",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/bs353_2.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/bs353_2.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BS353_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BS353_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/bs353_2.jpg"
+      "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/BS353_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ],
     "price": 55000,
     "thickness": "",
@@ -95067,10 +95053,10 @@ export const materials = [
     "subLine": "타일 카페트",
     "name": "",
     "code": "gp641",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/gp641_1.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/gp641_1.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GP641_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GP641_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/gp641_1.jpg"
+      "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GP641_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ],
     "price": 55000,
     "thickness": "",
@@ -95117,10 +95103,10 @@ export const materials = [
     "subLine": "타일 카페트",
     "name": "",
     "code": "gp642",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/gp642_1.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/gp642_1.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GP642_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GP642_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/gp642_1.jpg"
+      "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GP642_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ],
     "price": 55000,
     "thickness": "",
@@ -95167,10 +95153,10 @@ export const materials = [
     "subLine": "타일 카페트",
     "name": "",
     "code": "gp643",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/gp643_1.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/gp643_1.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GP643_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg",
+    "image": "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GP643_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/gp643_1.jpg"
+      "/images/Thumbnail_Image/materials/%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC/%EC%8A%A4%EC%99%84/%ED%83%80%EC%9D%BC%20%EC%B9%B4%ED%8E%98%ED%8A%B8/GP643_%EC%82%AC%EB%AC%B4%EC%8B%A4.jpg"
     ],
     "price": 55000,
     "thickness": "",
@@ -98032,7 +98018,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1111G.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1111G.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GW1111G.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1111G.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -98079,7 +98065,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1114G.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1114G.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GW1114G.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1114G.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -98126,7 +98112,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1115G.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1115G.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GW1115G.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1115G.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -98173,7 +98159,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1112G.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1112G.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GW1112G.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1112G.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -98220,7 +98206,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1113G.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1113G.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GW1113G.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1113G.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -98267,7 +98253,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1504G.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1504G.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GW1504G.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1504G.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -98314,7 +98300,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1517G.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1517G.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GW1517G.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1517G.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -98361,7 +98347,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1514G.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1514G.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GW1514G.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1514G.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -98408,7 +98394,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1505G.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1505G.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GW1505G.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1505G.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -98455,7 +98441,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1518G.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1518G.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GW1518G.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1518G.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -98502,7 +98488,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1506G.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1506G.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GW1506G.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1506G.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -98549,7 +98535,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1515G.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1515G.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GW1515G.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1515G.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -98596,7 +98582,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1516G.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1516G.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GW1516G.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1516G.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -98643,7 +98629,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1519G.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1519G.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GW1519G.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1519G.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -98690,7 +98676,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1507G.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1507G.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GW1507G.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1507G.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -98737,7 +98723,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1523G.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1523G.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GW1523G.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1523G.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -98784,7 +98770,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1508G.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1508G.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GW1508G.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1508G.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -98831,7 +98817,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1509G.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1509G.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GW1509G.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1509G.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -98878,7 +98864,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1524G.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1524G.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GW1524G.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1524G.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -98925,7 +98911,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1510G.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1510G.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GW1510G.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1510G.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -98972,7 +98958,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1104K.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1104K.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GW1104K.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1104K.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -99019,7 +99005,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1101K.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1101K.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GW1101K.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1101K.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -99066,7 +99052,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1102K.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1102K.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GW1102K.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1102K.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -99113,7 +99099,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1105K.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1105K.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GW1105K.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1105K.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -99160,7 +99146,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1106K.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1106K.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GW1106K.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1106K.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -99207,7 +99193,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1103K.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1103K.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GW1103K.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1103K.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -99254,7 +99240,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1551M.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1551M.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1551M.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1551M.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -99301,7 +99287,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1552M.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1552M.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1552M.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1552M.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -99348,7 +99334,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1553M.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1553M.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1553M.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1553M.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -99395,7 +99381,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1602M.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1602M.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1602M.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1602M.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -99442,7 +99428,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1601M.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1601M.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1601M.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1601M.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -99489,7 +99475,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1556M.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1556M.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1556M.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1556M.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -99536,7 +99522,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1555M.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1555M.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1555M.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1555M.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -99583,7 +99569,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1557M.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1557M.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1557M.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1557M.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -99630,7 +99616,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1605M.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1605M.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1605M.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1605M.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -99677,7 +99663,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1604M.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1604M.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1604M.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1604M.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -99724,7 +99710,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1611C.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1611C.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1611C.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1611C.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -99771,7 +99757,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1613C.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1613C.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1613C.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1613C.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -99818,7 +99804,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1560C.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1560C.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1560C.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1560C.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -99865,7 +99851,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1612C.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1612C.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1612C.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1612C.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -99912,7 +99898,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1614C.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1614C.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1614C.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1614C.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -99959,7 +99945,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1561C.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1561C.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1561C.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1561C.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -100006,7 +99992,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1615C.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1615C.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1615C.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1615C.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -100053,7 +100039,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1564C.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1564C.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1564C.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1564C.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -100100,7 +100086,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1562C.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1562C.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1562C.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1562C.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -100147,7 +100133,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1563C.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1563C.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1563C.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1563C.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -100194,7 +100180,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1617C.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1617C.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1617C.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1617C.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -100241,7 +100227,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1616C.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1616C.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1616C.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1616C.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -100288,7 +100274,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1622C.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1622C.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1622C.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1622C.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -100335,7 +100321,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1620C.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1620C.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1620C.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1620C.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -100382,7 +100368,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1621C.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1621C.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1621C.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1621C.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -100429,7 +100415,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1618C.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1618C.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1618C.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1618C.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -100476,7 +100462,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1586C.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1586C.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1586C.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1586C.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -100523,7 +100509,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1589C.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1589C.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1589C.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1589C.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -100570,7 +100556,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1588C.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1588C.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1588C.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1588C.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -100617,7 +100603,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1619C.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1619C.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1619C.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1619C.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -100664,7 +100650,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1580C.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1580C.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1580C.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1580C.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -100711,7 +100697,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1573C.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1573C.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1573C.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1573C.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -100758,7 +100744,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1570C.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1570C.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1570C.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1570C.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -100805,7 +100791,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1623C.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1623C.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1623C.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1623C.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -100852,7 +100838,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1572C.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1572C.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1572C.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1572C.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",
@@ -100899,7 +100885,7 @@ export const materials = [
     "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1574C.jpg",
     "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1574C.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스타일%20프로/GS1574C.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1574C.jpg"
     ],
     "price": 0,
     "supply_status": "현재 공급 여부는 상담 시 확인해 주세요",

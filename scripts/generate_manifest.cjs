@@ -141,13 +141,13 @@ function extractCodeFromFilename(filename) {
     const ext = path.extname(filename);
     const nameWithoutExt = filename.slice(0, -ext.length).trim();
     
-    // 1. Remove suffix indices (e.g. "_0", "_1", " (2)", "_시공", "_installation")
+    // 1. Remove suffix indices (e.g. "_0", "_1", " (2)", "_시공", "_installation", "_사무실", "_2x2", "_90cross")
     let cleanName = nameWithoutExt
         .replace(/_thumbnail$/i, '')
+        .replace(/_detail$/i, '')
+        .replace(/_(?:사무실|상업공간|시공|installation|2x2|90cross|180cross)$/i, '')
         .replace(/_(\d+)$/, '')
         .replace(/\s*\(\d+\)$/, '')
-        .replace(/_시공$/i, '')
-        .replace(/_installation$/i, '')
         .trim();
     
     // 2. Try matching standard code patterns: [Letters 2-5] + [spaces?] + [Numbers 3-5] + [Letters?]
@@ -173,96 +173,102 @@ function extractCodeFromFilename(filename) {
     return cleanName;
 }
 
+// Pre-index allFiles for instant O(1) lookup
+const filesByExact = new Map();
+const filesByCode = new Map();
+const preprocessedFiles = allFiles.map(f => {
+    const fileName = path.basename(f);
+    const nameOnly = path.parse(fileName).name;
+    const nFile = normalize(nameOnly);
+    const extCode = extractCodeFromFilename(fileName);
+    const nExt = normalize(extCode);
+    const lower = fileName.toLowerCase();
+    
+    let index = 0; // Universal IMAGE_PRIORITY: material: 0, 2x2: 1, 90cross: 2, office: 3, other: 4
+    if (lower.includes('2x2') || lower.includes('2_2') || lower.includes('2×2')) {
+        index = 1;
+    } else if (lower.includes('90cross') || lower.includes('_cross') || lower.includes('크로스') || /(?:^|[_\-\s])cross(?:[_\-\s.]|$)/i.test(fileName)) {
+        index = 2;
+    } else if (lower.includes('사무실') || lower.includes('상업공간') || lower.includes('시공') || lower.includes('installation') || lower.includes('office')) {
+        index = 3;
+    } else if (lower.includes('180cross') || lower.includes('회전') || /_([2-9])\.(jpe?g|png|webp)$/i.test(fileName)) {
+        index = 4;
+    } else {
+        index = 0; // Material swatch original
+    }
+
+    const obj = { path: f, index, isThumb: f.includes('Thumbnail_Image'), nFile, nExt, fileName };
+    
+    if (!filesByExact.has(nFile)) filesByExact.set(nFile, []);
+    filesByExact.get(nFile).push(obj);
+
+    if (nExt) {
+        if (!filesByCode.has(nExt)) filesByCode.set(nExt, []);
+        filesByCode.get(nExt).push(obj);
+    }
+
+    return obj;
+});
+
 items.forEach(code => {
     const nCode = normalize(code);
     if (!nCode) return;
 
-    // Find all files that might match this code
-    const fileMatches = allFiles.filter(f => {
-        const fileName = path.basename(f);
-        const nameOnly = path.parse(fileName).name;
-        const nFile = normalize(nameOnly);
-        
-        // Exact match (normalized)
-        if (nFile === nCode) return true;
-        
-        // Extract base code from filename and compare exactly
-        const extCode = extractCodeFromFilename(fileName);
-        const nExt = normalize(extCode);
-        if (nExt === nCode) return true;
+    // Fast indexed match
+    let matches = [];
+    if (filesByExact.has(nCode)) {
+        matches.push(...filesByExact.get(nCode));
+    }
+    if (filesByCode.has(nCode)) {
+        matches.push(...filesByCode.get(nCode));
+    }
 
-        // If the code is short or numeric, we do NOT allow loose matches
+    // Deduplicate file references
+    const seenFiles = new Set();
+    const fileMatches = [];
+    for (const m of matches) {
+        if (!seenFiles.has(m.path)) {
+            seenFiles.add(m.path);
+            fileMatches.push(m);
+        }
+    }
+
+    if (fileMatches.length === 0) {
+        // Fallback for non-numeric codes > 4 chars: prefix/word boundary match
         const isShortOrNumeric = /^\d+$/.test(nCode) || nCode.length <= 4;
         if (!isShortOrNumeric) {
-            // Code is contained in filename (e.g. "CM24731" in "1. CM24731 내추럴 화이트")
-            const wordRegex = new RegExp(`\\b${nCode}\\b`, 'i');
-            if (wordRegex.test(nFile)) return true;
-            
-            if (nFile.includes(nCode)) {
-                const trailingChar = nFile.slice(nFile.indexOf(nCode) + nCode.length, nFile.indexOf(nCode) + nCode.length + 1);
-                if (!trailingChar || !/\d/.test(trailingChar)) {
-                    return true;
+            for (const f of preprocessedFiles) {
+                if (f.nFile.includes(nCode)) {
+                    const trailingChar = f.nFile.slice(f.nFile.indexOf(nCode) + nCode.length, f.nFile.indexOf(nCode) + nCode.length + 1);
+                    if (!trailingChar || !/\d/.test(trailingChar)) {
+                        if (!seenFiles.has(f.path)) {
+                            seenFiles.add(f.path);
+                            fileMatches.push(f);
+                        }
+                    }
                 }
             }
         }
-
-        return false;
-    }).map(f => {
-        const nameOnly = path.parse(path.basename(f)).name;
-        const nFile = normalize(nameOnly);
-        let index = 99; // Default low priority
-
-        // Determine index/priority
-        if (nFile === nCode) {
-            index = 0;
-        } else if (nFile.includes("ORIGINAL")) {
-            index = 0; // High priority for thumbnail
-        } else if (nFile.includes("DETAIL")) {
-            index = 999; // Low priority for thumbnail
-        } else {
-            // Check for trailing index like _1, _2
-            const idxMatch = nameOnly.match(/[_\s](\d+)$/);
-            if (idxMatch) {
-                index = parseInt(idxMatch[1], 10);
-            } else {
-                // Check for leading index like "1. ..."
-                const prefixMatch = nameOnly.match(/^(\d+)\./);
-                if (prefixMatch) {
-                    index = parseInt(prefixMatch[1], 10) - 1;
-                }
-            }
-        }
-        
-        const isDetail = nFile.includes("DETAIL");
-        return { path: f, index, isThumb: f.includes('Thumbnail_Image'), isDetail };
-    });
+    }
 
     if (fileMatches.length === 0) return;
 
-    // Pick best THUMBNAIL: non-detail first, then lowest index thumbnail, or lowest index cover
+    // Pick best THUMBNAIL: lowest index first (material: 0 > 2x2: 1 > 90cross: 2 > office: 3)
     const thumbMatches = [...fileMatches].sort((a, b) => {
-        if (a.isDetail !== b.isDetail) return a.isDetail ? 1 : -1;
+        if (a.index !== b.index) return a.index - b.index;
         if (a.isThumb !== b.isThumb) return a.isThumb ? -1 : 1;
-        return a.index - b.index;
-    });
-
-    // Pick best DETAIL: detail flag first, then lowest index non-thumbnail (high-res), or lowest index thumbnail
-    const detailMatches = [...fileMatches].sort((a, b) => {
-        if (a.isDetail !== b.isDetail) return a.isDetail ? -1 : 1;
-        if (a.isThumb !== b.isThumb) return a.isThumb ? 1 : -1;
-        return a.index - b.index;
+        return 0;
     });
 
     const thumbnail = convertToPublicPath(thumbMatches[0].path);
-    const detail = convertToPublicPath(detailMatches[0].path);
+    const detail = thumbnail;
     const cover = thumbnail; // Fallback alias
     
     // Deduplicate gallery by file content (hash) AND path
-    // This handles cases where different files are identical copies
+    // Sort strictly by universal index: material (0) -> 2x2 (1) -> 90cross (2) -> office (3)
     const seenHashes = new Set();
     const uniqueGallery = [];
 
-    // Sort fileMatches by index so that _0, _1, _2 are in order
     const sortedFileMatches = [...fileMatches].sort((a, b) => a.index - b.index);
 
     for (const m of sortedFileMatches) {
