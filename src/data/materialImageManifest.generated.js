@@ -776,7 +776,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "KCC",
     "series": "KCC_pro/KCC프로 사각/5.0T",
-    "extractedCode": "B0122J_install",
+    "extractedCode": "B0122J",
     "normalizedFileName": "b0122jinstalljpg",
     "imageType": "material"
   },
@@ -1156,7 +1156,7 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "KCC",
     "series": "센스레이/KCC센스레이 450각",
-    "extractedCode": "B0361M_시공예시",
+    "extractedCode": "B0361M",
     "normalizedFileName": "b0361m시공예시2jpg",
     "imageType": "office"
   },
@@ -1326,7 +1326,17 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "KCC",
     "series": "센스레이/KCC센스레이600각",
-    "extractedCode": "B0156M_B0158M",
+    "extractedCode": "B0156M",
+    "normalizedFileName": "b0156mb0158m시공예시jpg",
+    "imageType": "office"
+  },
+  {
+    "fileName": "B0156M_B0158M_시공예시.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0156M_B0158M_시공예시.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이/KCC센스레이600각",
+    "extractedCode": "B0158M",
     "normalizedFileName": "b0156mb0158m시공예시jpg",
     "imageType": "office"
   },
@@ -1396,7 +1406,17 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "KCC",
     "series": "센스레이/KCC센스레이600각",
-    "extractedCode": "B0197M_B0198M",
+    "extractedCode": "B0197M",
+    "normalizedFileName": "b0197mb0198m시공예시jpg",
+    "imageType": "office"
+  },
+  {
+    "fileName": "B0197M_B0198M_시공예시.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0197M_B0198M_시공예시.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이/KCC센스레이600각",
+    "extractedCode": "B0198M",
     "normalizedFileName": "b0197mb0198m시공예시jpg",
     "imageType": "office"
   },
@@ -1486,7 +1506,17 @@ export const imageManifest = [
     "category": "데코타일",
     "brand": "KCC",
     "series": "센스레이/KCC센스레이600각",
-    "extractedCode": "B0305M_B0307M",
+    "extractedCode": "B0305M",
+    "normalizedFileName": "b0305mb0307m시공예시jpg",
+    "imageType": "office"
+  },
+  {
+    "fileName": "B0305M_B0307M_시공예시.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0305M_B0307M_시공예시.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이/KCC센스레이600각",
+    "extractedCode": "B0307M",
     "normalizedFileName": "b0305mb0307m시공예시jpg",
     "imageType": "office"
   },
@@ -6671,6 +6701,16 @@ export const imageManifest = [
     "imageType": "office"
   },
   {
+    "fileName": "AS1810_AS1814_시공예시.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1810_AS1814_시공예시.jpg",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS1814",
+    "normalizedFileName": "as1810as1814시공예시jpg",
+    "imageType": "office"
+  },
+  {
     "fileName": "AS1814.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1814.jpg",
     "category": "데코타일",
@@ -6707,6 +6747,16 @@ export const imageManifest = [
     "brand": "동신",
     "series": "아트타일/동신 아트 450각",
     "extractedCode": "AS1922",
+    "normalizedFileName": "as1922as1919시공예시jpg",
+    "imageType": "office"
+  },
+  {
+    "fileName": "AS1922_AS1919_시공예시.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1922_AS1919_시공예시.jpg",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS1919",
     "normalizedFileName": "as1922as1919시공예시jpg",
     "imageType": "office"
   },
@@ -6787,6 +6837,16 @@ export const imageManifest = [
     "brand": "동신",
     "series": "아트타일/동신 아트 450각",
     "extractedCode": "AS4114",
+    "normalizedFileName": "as4114as4116시공예시jpg",
+    "imageType": "office"
+  },
+  {
+    "fileName": "AS4114_AS4116_시공예시.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4114_AS4116_시공예시.jpg",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS4116",
     "normalizedFileName": "as4114as4116시공예시jpg",
     "imageType": "office"
   },
@@ -6891,6 +6951,16 @@ export const imageManifest = [
     "imageType": "office"
   },
   {
+    "fileName": "AS4141_AS4142_시공예시.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4141_AS4142_시공예시.jpg",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS4142",
+    "normalizedFileName": "as4141as4142시공예시jpg",
+    "imageType": "office"
+  },
+  {
     "fileName": "AS4142.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4142.jpg",
     "category": "데코타일",
@@ -6917,6 +6987,16 @@ export const imageManifest = [
     "brand": "동신",
     "series": "아트타일/동신 아트 450각",
     "extractedCode": "AS4147",
+    "normalizedFileName": "as4147as4148시공예시jpg",
+    "imageType": "office"
+  },
+  {
+    "fileName": "AS4147_AS4148_시공예시.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4147_AS4148_시공예시.jpg",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS4148",
     "normalizedFileName": "as4147as4148시공예시jpg",
     "imageType": "office"
   },
@@ -7091,6 +7171,16 @@ export const imageManifest = [
     "imageType": "office"
   },
   {
+    "fileName": "DS623_DS625_시공예시.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS623_DS625_시공예시.jpg",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 600각",
+    "extractedCode": "DS625",
+    "normalizedFileName": "ds623ds625시공예시jpg",
+    "imageType": "office"
+  },
+  {
     "fileName": "DS625.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS625.jpg",
     "category": "데코타일",
@@ -7117,6 +7207,16 @@ export const imageManifest = [
     "brand": "동신",
     "series": "아트타일/동신 아트 600각",
     "extractedCode": "DS626",
+    "normalizedFileName": "ds626ds627시공예시jpg",
+    "imageType": "office"
+  },
+  {
+    "fileName": "DS626_DS627_시공예시.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS626_DS627_시공예시.jpg",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 600각",
+    "extractedCode": "DS627",
     "normalizedFileName": "ds626ds627시공예시jpg",
     "imageType": "office"
   },
@@ -7321,6 +7421,16 @@ export const imageManifest = [
     "imageType": "office"
   },
   {
+    "fileName": "AS1531_AS1533_시공예시.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AS1531_AS1533_시공예시.jpg",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AS1533",
+    "normalizedFileName": "as1531as1533시공예시jpg",
+    "imageType": "office"
+  },
+  {
     "fileName": "AH6100.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6100.png",
     "category": "데코타일",
@@ -7381,6 +7491,16 @@ export const imageManifest = [
     "imageType": "office"
   },
   {
+    "fileName": "AH6103_AH6108_시공예시.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6103_AH6108_시공예시.jpg",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트하우스/동신 하우스 사각",
+    "extractedCode": "AH6108",
+    "normalizedFileName": "ah6103ah6108시공예시jpg",
+    "imageType": "office"
+  },
+  {
     "fileName": "AH6104.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6104.jpg",
     "category": "데코타일",
@@ -7397,6 +7517,16 @@ export const imageManifest = [
     "brand": "동신",
     "series": "아트하우스/동신 하우스 사각",
     "extractedCode": "AH6104",
+    "normalizedFileName": "ah6104as1538시공예시jpg",
+    "imageType": "office"
+  },
+  {
+    "fileName": "AH6104_AS1538_시공예시.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6104_AS1538_시공예시.jpg",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트하우스/동신 하우스 사각",
+    "extractedCode": "AS1538",
     "normalizedFileName": "ah6104as1538시공예시jpg",
     "imageType": "office"
   },
@@ -7427,6 +7557,16 @@ export const imageManifest = [
     "brand": "동신",
     "series": "아트하우스/동신 하우스 사각",
     "extractedCode": "AH6106",
+    "normalizedFileName": "ah6106ah6107시공예시jpg",
+    "imageType": "office"
+  },
+  {
+    "fileName": "AH6106_AH6107_시공예시.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6106_AH6107_시공예시.jpg",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트하우스/동신 하우스 사각",
+    "extractedCode": "AH6107",
     "normalizedFileName": "ah6106ah6107시공예시jpg",
     "imageType": "office"
   },
@@ -7577,6 +7717,16 @@ export const imageManifest = [
     "brand": "동신",
     "series": "아트하우스/동신 하우스 우드",
     "extractedCode": "AH739",
+    "normalizedFileName": "ah739ah738시공예시jpg",
+    "imageType": "office"
+  },
+  {
+    "fileName": "AH739_AH738_시공예시.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH739_AH738_시공예시.jpg",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트하우스/동신 하우스 우드",
+    "extractedCode": "AH738",
     "normalizedFileName": "ah739ah738시공예시jpg",
     "imageType": "office"
   },
@@ -15666,7 +15816,7 @@ export const imageManifest = [
     "category": "마루",
     "brand": "이건",
     "series": "시공사진",
-    "extractedCode": "시공_세라_골드_티크_p123",
+    "extractedCode": "p123",
     "normalizedFileName": "시공세라골드티크p123jpeg",
     "imageType": "office"
   },
@@ -15676,7 +15826,7 @@ export const imageManifest = [
     "category": "마루",
     "brand": "이건",
     "series": "시공사진",
-    "extractedCode": "시공_세라_리사_화이트_p120",
+    "extractedCode": "p120",
     "normalizedFileName": "시공세라리사화이트p120jpeg",
     "imageType": "office"
   },
@@ -15686,7 +15836,7 @@ export const imageManifest = [
     "category": "마루",
     "brand": "이건",
     "series": "시공사진",
-    "extractedCode": "시공_세라_마일드_오크_p124",
+    "extractedCode": "p124",
     "normalizedFileName": "시공세라마일드오크p124jpeg",
     "imageType": "office"
   },
@@ -15696,7 +15846,7 @@ export const imageManifest = [
     "category": "마루",
     "brand": "이건",
     "series": "시공사진",
-    "extractedCode": "시공_세라_베이직_베이직_버터_p129",
+    "extractedCode": "p129",
     "normalizedFileName": "시공세라베이직베이직버터p129jpeg",
     "imageType": "office"
   },
@@ -15706,7 +15856,7 @@ export const imageManifest = [
     "category": "마루",
     "brand": "이건",
     "series": "시공사진",
-    "extractedCode": "시공_세라_베이직_베이직_슈가_p131",
+    "extractedCode": "p131",
     "normalizedFileName": "시공세라베이직베이직슈가p131jpeg",
     "imageType": "office"
   },
@@ -15716,7 +15866,7 @@ export const imageManifest = [
     "category": "마루",
     "brand": "이건",
     "series": "시공사진",
-    "extractedCode": "시공_세라_베이직_베이직_오크_p130",
+    "extractedCode": "p130",
     "normalizedFileName": "시공세라베이직베이직오크p130jpeg",
     "imageType": "office"
   },
@@ -15726,7 +15876,7 @@ export const imageManifest = [
     "category": "마루",
     "brand": "이건",
     "series": "시공사진",
-    "extractedCode": "시공_세라_베이직_베이직_크림_p128",
+    "extractedCode": "p128",
     "normalizedFileName": "시공세라베이직베이직크림p128jpeg",
     "imageType": "office"
   },
@@ -15736,7 +15886,7 @@ export const imageManifest = [
     "category": "마루",
     "brand": "이건",
     "series": "시공사진",
-    "extractedCode": "시공_세라_블렌딩_그라노_오크_p116",
+    "extractedCode": "p116",
     "normalizedFileName": "시공세라블렌딩그라노오크p116jpeg",
     "imageType": "office"
   },
@@ -15746,7 +15896,7 @@ export const imageManifest = [
     "category": "마루",
     "brand": "이건",
     "series": "시공사진",
-    "extractedCode": "시공_세라_블렌딩_로맨틱_오크_p117",
+    "extractedCode": "p117",
     "normalizedFileName": "시공세라블렌딩로맨틱오크p117jpeg",
     "imageType": "office"
   },
@@ -15756,7 +15906,7 @@ export const imageManifest = [
     "category": "마루",
     "brand": "이건",
     "series": "시공사진",
-    "extractedCode": "시공_세라_블렌딩_브리티시_티크_p114",
+    "extractedCode": "p114",
     "normalizedFileName": "시공세라블렌딩브리티시티크p114jpeg",
     "imageType": "office"
   },
@@ -15766,7 +15916,7 @@ export const imageManifest = [
     "category": "마루",
     "brand": "이건",
     "series": "시공사진",
-    "extractedCode": "시공_세라_블렌딩_스톤_그레이_p115",
+    "extractedCode": "p115",
     "normalizedFileName": "시공세라블렌딩스톤그레이p115jpeg",
     "imageType": "office"
   },
@@ -15776,7 +15926,7 @@ export const imageManifest = [
     "category": "마루",
     "brand": "이건",
     "series": "시공사진",
-    "extractedCode": "시공_세라_오가닉_오크_p125",
+    "extractedCode": "p125",
     "normalizedFileName": "시공세라오가닉오크p125jpeg",
     "imageType": "office"
   },
@@ -15786,7 +15936,7 @@ export const imageManifest = [
     "category": "마루",
     "brand": "이건",
     "series": "시공사진",
-    "extractedCode": "시공_세라_플렉스_S_165_디어_베이지_p108",
+    "extractedCode": "p108",
     "normalizedFileName": "시공세라플렉스s165디어베이지p108jpeg",
     "imageType": "office"
   },
@@ -15796,7 +15946,7 @@ export const imageManifest = [
     "category": "마루",
     "brand": "이건",
     "series": "시공사진",
-    "extractedCode": "시공_세라_플렉스_S_165_러블리_베이지_p110",
+    "extractedCode": "p110",
     "normalizedFileName": "시공세라플렉스s165러블리베이지p110jpeg",
     "imageType": "office"
   },
@@ -15806,7 +15956,7 @@ export const imageManifest = [
     "category": "마루",
     "brand": "이건",
     "series": "시공사진",
-    "extractedCode": "시공_세라_플렉스_S_165_멜로우_골드_p106",
+    "extractedCode": "p106",
     "normalizedFileName": "시공세라플렉스s165멜로우골드p106jpeg",
     "imageType": "office"
   },
@@ -15816,7 +15966,7 @@ export const imageManifest = [
     "category": "마루",
     "brand": "이건",
     "series": "시공사진",
-    "extractedCode": "시공_세라_플렉스_S_165_모먼트_크림_p104",
+    "extractedCode": "p104",
     "normalizedFileName": "시공세라플렉스s165모먼트크림p104jpeg",
     "imageType": "office"
   },
@@ -15826,7 +15976,7 @@ export const imageManifest = [
     "category": "마루",
     "brand": "이건",
     "series": "시공사진",
-    "extractedCode": "시공_세라_플렉스_S_165_무드_화이트_p105",
+    "extractedCode": "p105",
     "normalizedFileName": "시공세라플렉스s165무드화이트p105jpeg",
     "imageType": "office"
   },
@@ -15836,7 +15986,7 @@ export const imageManifest = [
     "category": "마루",
     "brand": "이건",
     "series": "시공사진",
-    "extractedCode": "시공_세라_플렉스_S_165_미스티_그레이_p107",
+    "extractedCode": "p107",
     "normalizedFileName": "시공세라플렉스s165미스티그레이p107jpeg",
     "imageType": "office"
   },
@@ -15846,7 +15996,7 @@ export const imageManifest = [
     "category": "마루",
     "brand": "이건",
     "series": "시공사진",
-    "extractedCode": "시공_세라_플렉스_S_165_젠틀리_티크_p111",
+    "extractedCode": "p111",
     "normalizedFileName": "시공세라플렉스s165젠틀리티크p111jpeg",
     "imageType": "office"
   },
@@ -15856,7 +16006,7 @@ export const imageManifest = [
     "category": "마루",
     "brand": "이건",
     "series": "시공사진",
-    "extractedCode": "시공_세라_플렉스_S_165_허밍_오크_p109",
+    "extractedCode": "p109",
     "normalizedFileName": "시공세라플렉스s165허밍오크p109jpeg",
     "imageType": "office"
   },
@@ -15866,7 +16016,7 @@ export const imageManifest = [
     "category": "마루",
     "brand": "이건",
     "series": "시공사진",
-    "extractedCode": "시공_세라_플렉스_S_395_메테오_스톤_p103",
+    "extractedCode": "p103",
     "normalizedFileName": "시공세라플렉스s395메테오스톤p103jpeg",
     "imageType": "office"
   },
@@ -15876,7 +16026,7 @@ export const imageManifest = [
     "category": "마루",
     "brand": "이건",
     "series": "시공사진",
-    "extractedCode": "시공_세라_플렉스_S_395_브루니아_크림_p100",
+    "extractedCode": "p100",
     "normalizedFileName": "시공세라플렉스s395브루니아크림p100jpeg",
     "imageType": "office"
   },
@@ -15886,7 +16036,7 @@ export const imageManifest = [
     "category": "마루",
     "brand": "이건",
     "series": "시공사진",
-    "extractedCode": "시공_세라_플렉스_S_395_셀리나_샌드_p101",
+    "extractedCode": "p101",
     "normalizedFileName": "시공세라플렉스s395셀리나샌드p101jpeg",
     "imageType": "office"
   },
@@ -15896,7 +16046,7 @@ export const imageManifest = [
     "category": "마루",
     "brand": "이건",
     "series": "시공사진",
-    "extractedCode": "시공_세라_플렉스_S_395_윌로우_그레이_p102",
+    "extractedCode": "p102",
     "normalizedFileName": "시공세라플렉스s395윌로우그레이p102jpeg",
     "imageType": "office"
   },
@@ -15906,7 +16056,7 @@ export const imageManifest = [
     "category": "마루",
     "brand": "이건",
     "series": "시공사진",
-    "extractedCode": "시공_세라_플로랄_화이트_p122",
+    "extractedCode": "p122",
     "normalizedFileName": "시공세라플로랄화이트p122jpeg",
     "imageType": "office"
   },
@@ -38566,7 +38716,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F15053-1 조용한 사색",
+    "extractedCode": "F15053-1",
     "normalizedFileName": "방염f150531조용한사색jpg",
     "imageType": "material"
   },
@@ -38576,7 +38726,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F15053-2 조용한 사색",
+    "extractedCode": "F15053-2",
     "normalizedFileName": "방염f150532조용한사색jpg",
     "imageType": "material"
   },
@@ -38586,7 +38736,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F15087-5 봄날의 열매",
+    "extractedCode": "F15087-5",
     "normalizedFileName": "방염f150875봄날의열매jpg",
     "imageType": "material"
   },
@@ -38596,7 +38746,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F15087-7 봄날의 열매",
+    "extractedCode": "F15087-7",
     "normalizedFileName": "방염f150877봄날의열매jpg",
     "imageType": "material"
   },
@@ -38606,7 +38756,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F15094-2 서울의 야경",
+    "extractedCode": "F15094-2",
     "normalizedFileName": "방염f150942서울의야경jpg",
     "imageType": "material"
   },
@@ -38616,7 +38766,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F15094-3 서울의 야경",
+    "extractedCode": "F15094-3",
     "normalizedFileName": "방염f150943서울의야경jpg",
     "imageType": "material"
   },
@@ -38626,7 +38776,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F15094-4 서울의 야경",
+    "extractedCode": "F15094-4",
     "normalizedFileName": "방염f150944서울의야경jpg",
     "imageType": "material"
   },
@@ -38636,7 +38786,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F15099-1 신비로운 새벽",
+    "extractedCode": "F15099-1",
     "normalizedFileName": "방염f150991신비로운새벽jpg",
     "imageType": "material"
   },
@@ -38646,7 +38796,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F15099-2 신비로운 새벽",
+    "extractedCode": "F15099-2",
     "normalizedFileName": "방염f150992신비로운새벽jpg",
     "imageType": "material"
   },
@@ -38656,7 +38806,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F15099-3 신비로운 새벽",
+    "extractedCode": "F15099-3",
     "normalizedFileName": "방염f150993신비로운새벽jpg",
     "imageType": "material"
   },
@@ -38666,7 +38816,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F15099-4 신비로운 새벽",
+    "extractedCode": "F15099-4",
     "normalizedFileName": "방염f150994신비로운새벽jpg",
     "imageType": "material"
   },
@@ -38676,7 +38826,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F15099-8 신비로운 새벽",
+    "extractedCode": "F15099-8",
     "normalizedFileName": "방염f150998신비로운새벽jpg",
     "imageType": "material"
   },
@@ -38686,7 +38836,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F15099-9 신비로운 새벽",
+    "extractedCode": "F15099-9",
     "normalizedFileName": "방염f150999신비로운새벽jpg",
     "imageType": "material"
   },
@@ -38696,7 +38846,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F15102-1 소소한 기다림",
+    "extractedCode": "F15102-1",
     "normalizedFileName": "방염f151021소소한기다림jpg",
     "imageType": "material"
   },
@@ -38706,7 +38856,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F15102-3 소소한 기다림",
+    "extractedCode": "F15102-3",
     "normalizedFileName": "방염f151023소소한기다림jpg",
     "imageType": "material"
   },
@@ -38716,7 +38866,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F15102-4 소소한 기다림",
+    "extractedCode": "F15102-4",
     "normalizedFileName": "방염f151024소소한기다림jpg",
     "imageType": "material"
   },
@@ -38726,7 +38876,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F15102-6 소소한 기다림",
+    "extractedCode": "F15102-6",
     "normalizedFileName": "방염f151026소소한기다림jpg",
     "imageType": "material"
   },
@@ -38736,7 +38886,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F15102-7 소소한 기다림",
+    "extractedCode": "F15102-7",
     "normalizedFileName": "방염f151027소소한기다림jpg",
     "imageType": "material"
   },
@@ -38746,7 +38896,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F15102-8 소소한 기다림",
+    "extractedCode": "F15102-8",
     "normalizedFileName": "방염f151028소소한기다림jpg",
     "imageType": "material"
   },
@@ -38756,7 +38906,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F15103-1 비밀이야기",
+    "extractedCode": "F15103-1",
     "normalizedFileName": "방염f151031비밀이야기jpg",
     "imageType": "material"
   },
@@ -38766,7 +38916,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F15103-2 비밀이야기",
+    "extractedCode": "F15103-2",
     "normalizedFileName": "방염f151032비밀이야기jpg",
     "imageType": "material"
   },
@@ -38776,7 +38926,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F15103-3 비밀이야기",
+    "extractedCode": "F15103-3",
     "normalizedFileName": "방염f151033비밀이야기jpg",
     "imageType": "material"
   },
@@ -38786,7 +38936,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F15103-4 비밀이야기",
+    "extractedCode": "F15103-4",
     "normalizedFileName": "방염f151034비밀이야기jpg",
     "imageType": "material"
   },
@@ -38796,7 +38946,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F15105-1 그날의 약속",
+    "extractedCode": "F15105-1",
     "normalizedFileName": "방염f151051그날의약속jpg",
     "imageType": "material"
   },
@@ -38806,7 +38956,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F15105-2 그날의 약속",
+    "extractedCode": "F15105-2",
     "normalizedFileName": "방염f151052그날의약속jpg",
     "imageType": "material"
   },
@@ -38816,7 +38966,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F15105-3 그날의 약속",
+    "extractedCode": "F15105-3",
     "normalizedFileName": "방염f151053그날의약속jpg",
     "imageType": "material"
   },
@@ -38826,7 +38976,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F15105-4 그날의 약속",
+    "extractedCode": "F15105-4",
     "normalizedFileName": "방염f151054그날의약속jpg",
     "imageType": "material"
   },
@@ -38836,7 +38986,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70180-3 노출콘크리트",
+    "extractedCode": "F70180-3",
     "normalizedFileName": "방염f701803노출콘크리트jpg",
     "imageType": "material"
   },
@@ -38846,7 +38996,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70199-2 이솝",
+    "extractedCode": "F70199-2",
     "normalizedFileName": "방염f701992이솝jpg",
     "imageType": "material"
   },
@@ -38856,7 +39006,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70199-3 이솝",
+    "extractedCode": "F70199-3",
     "normalizedFileName": "방염f701993이솝jpg",
     "imageType": "material"
   },
@@ -38866,7 +39016,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70213-10 플레인",
+    "extractedCode": "F70213-10",
     "normalizedFileName": "방염f7021310플레인jpg",
     "imageType": "material"
   },
@@ -38876,7 +39026,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70220-1 뷰글라스",
+    "extractedCode": "F70220-1",
     "normalizedFileName": "방염f702201뷰글라스jpg",
     "imageType": "material"
   },
@@ -38886,7 +39036,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70220-2 뷰글라스",
+    "extractedCode": "F70220-2",
     "normalizedFileName": "방염f702202뷰글라스jpg",
     "imageType": "material"
   },
@@ -38896,7 +39046,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70220-4 뷰글라스",
+    "extractedCode": "F70220-4",
     "normalizedFileName": "방염f702204뷰글라스jpg",
     "imageType": "material"
   },
@@ -38906,7 +39056,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70226-1 브람스",
+    "extractedCode": "F70226-1",
     "normalizedFileName": "방염f702261브람스jpg",
     "imageType": "material"
   },
@@ -38916,7 +39066,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70226-2 브람스",
+    "extractedCode": "F70226-2",
     "normalizedFileName": "방염f702262브람스jpg",
     "imageType": "material"
   },
@@ -38926,7 +39076,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70227-1 던",
+    "extractedCode": "F70227-1",
     "normalizedFileName": "방염f702271던jpg",
     "imageType": "material"
   },
@@ -38936,7 +39086,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70231-1 바흐",
+    "extractedCode": "F70231-1",
     "normalizedFileName": "방염f702311바흐jpg",
     "imageType": "material"
   },
@@ -38946,7 +39096,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70231-2 바흐",
+    "extractedCode": "F70231-2",
     "normalizedFileName": "방염f702312바흐jpg",
     "imageType": "material"
   },
@@ -38956,7 +39106,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70231-3 바흐",
+    "extractedCode": "F70231-3",
     "normalizedFileName": "방염f702313바흐jpg",
     "imageType": "material"
   },
@@ -38966,7 +39116,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70249-1 텐더",
+    "extractedCode": "F70249-1",
     "normalizedFileName": "방염f702491텐더jpg",
     "imageType": "material"
   },
@@ -38976,7 +39126,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70249-2 텐더",
+    "extractedCode": "F70249-2",
     "normalizedFileName": "방염f702492텐더jpg",
     "imageType": "material"
   },
@@ -38986,7 +39136,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70249-3 텐더",
+    "extractedCode": "F70249-3",
     "normalizedFileName": "방염f702493텐더jpg",
     "imageType": "material"
   },
@@ -38996,7 +39146,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70249-4 텐더",
+    "extractedCode": "F70249-4",
     "normalizedFileName": "방염f702494텐더jpg",
     "imageType": "material"
   },
@@ -39006,7 +39156,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70249-6 텐더",
+    "extractedCode": "F70249-6",
     "normalizedFileName": "방염f702496텐더jpg",
     "imageType": "material"
   },
@@ -39016,7 +39166,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70252-1 르메르",
+    "extractedCode": "F70252-1",
     "normalizedFileName": "방염f702521르메르jpg",
     "imageType": "material"
   },
@@ -39026,7 +39176,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70252-2 르메르",
+    "extractedCode": "F70252-2",
     "normalizedFileName": "방염f702522르메르jpg",
     "imageType": "material"
   },
@@ -39036,7 +39186,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70252-3 르메르",
+    "extractedCode": "F70252-3",
     "normalizedFileName": "방염f702523르메르jpg",
     "imageType": "material"
   },
@@ -39046,7 +39196,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70254-1 제프리",
+    "extractedCode": "F70254-1",
     "normalizedFileName": "방염f702541제프리jpg",
     "imageType": "material"
   },
@@ -39056,7 +39206,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70254-2 제프리",
+    "extractedCode": "F70254-2",
     "normalizedFileName": "방염f702542제프리jpg",
     "imageType": "material"
   },
@@ -39066,7 +39216,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70254-3 제프리",
+    "extractedCode": "F70254-3",
     "normalizedFileName": "방염f702543제프리jpg",
     "imageType": "material"
   },
@@ -39076,7 +39226,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70254-4 제프리",
+    "extractedCode": "F70254-4",
     "normalizedFileName": "방염f702544제프리jpg",
     "imageType": "material"
   },
@@ -39086,7 +39236,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70254-5 제프리",
+    "extractedCode": "F70254-5",
     "normalizedFileName": "방염f702545제프리jpg",
     "imageType": "material"
   },
@@ -39096,7 +39246,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70254-6 제프리",
+    "extractedCode": "F70254-6",
     "normalizedFileName": "방염f702546제프리jpg",
     "imageType": "material"
   },
@@ -39106,7 +39256,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70255-1 센터",
+    "extractedCode": "F70255-1",
     "normalizedFileName": "방염f702551센터jpg",
     "imageType": "material"
   },
@@ -39116,7 +39266,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70255-2 센터",
+    "extractedCode": "F70255-2",
     "normalizedFileName": "방염f702552센터jpg",
     "imageType": "material"
   },
@@ -39126,7 +39276,7 @@ export const imageManifest = [
     "category": "벽지",
     "brand": "신한",
     "series": "방염/신한벽지_방염",
-    "extractedCode": "방염_F70255-3 센터",
+    "extractedCode": "F70255-3",
     "normalizedFileName": "방염f702553센터jpg",
     "imageType": "material"
   },

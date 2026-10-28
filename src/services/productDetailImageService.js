@@ -205,6 +205,191 @@ export const KCC_TRENDY_CATALOG_MAP = {
   ]
 };
 
+export const KCC_SENSELAY_CATALOG_MAP = {
+  'B0111J': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0111J.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0111J_시공예시.jpg'
+  ],
+  'B0112J': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0112J.jpg'
+  ],
+  'B0113J': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0113J.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0113J_시공예시.jpg'
+  ],
+  'B0114J': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0114J.jpg'
+  ],
+  'B0123J': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0123J.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0123J_시공예시.jpg'
+  ],
+  'B0144M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0144M.jpg'
+  ],
+  'B0145M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0145M.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0145M_시공예시.jpg'
+  ],
+  'B0156M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0156M.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0156M_B0158M_시공예시.jpg'
+  ],
+  'B0157M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0157M.jpg'
+  ],
+  'B0158M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0158M.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0156M_B0158M_시공예시.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0158M_시공예시.jpg'
+  ],
+  'B0195M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0195M.jpg'
+  ],
+  'B0196M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0196M.jpg'
+  ],
+  'B0197M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0197M.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0197M_B0198M_시공예시.jpg'
+  ],
+  'B0198M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0198M.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0197M_B0198M_시공예시.jpg'
+  ],
+  'B0199M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0199M.jpg'
+  ],
+  'B0271M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0271M.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0271M_시공예시.jpg'
+  ],
+  'B0272M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0272M.jpg'
+  ],
+  'B0303M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0303M.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0303M_시공예시.jpg'
+  ],
+  'B0305M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0305M.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0305M_B0307M_시공예시.jpg'
+  ],
+  'B0307M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0307M.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0305M_B0307M_시공예시.jpg'
+  ],
+  'B0312M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0312M.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0312M_시공예시.jpg'
+  ],
+  'B0313M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0313M.jpg'
+  ],
+  'B0322M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0322M.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0322M_시공예시.jpg'
+  ],
+  'B0323M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0323M.jpg'
+  ],
+  'B0324M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0324M.jpg'
+  ],
+  'B0325M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0325M.jpg'
+  ],
+  'B0331M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0331M.jpg'
+  ],
+  'B0332M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0332M.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0332M_시공예시.jpg'
+  ],
+  'B0333M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0333M.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0333M_시공예시.jpg'
+  ],
+  'B0341M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0341M.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0341M_시공예시.jpg'
+  ],
+  'B0342M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0342M.jpg'
+  ],
+  'B0343M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0343M.jpg'
+  ],
+  'B0344M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0344M.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이600각/B0344M_시공예시.jpg'
+  ],
+  'B0351J': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0351J.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0351J_시공예시.jpg'
+  ],
+  'B0353J': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0353J.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0353J_시공예시.jpg'
+  ],
+  'B0361M': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0361M.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0361M_시공예시.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0361M_시공예시_2.jpg'
+  ],
+  'B0391J': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0391J.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0391J_시공예시.jpg'
+  ],
+  'B0392J': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0392J.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0392J_시공예시.jpg'
+  ],
+  'B0393J': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0393J.jpg'
+  ],
+  'B0394J': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0394J.jpg'
+  ],
+  'B3181J': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B3181J.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B3181J_시공예시.jpg'
+  ],
+  'B3182J': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B3182J.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B3182J_시공예시.jpg'
+  ],
+  'B3183J': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B3183J.jpg'
+  ],
+  'B5082B': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B5082B.jpg'
+  ],
+  'B5083B': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이우드/B5083B.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이우드/B5083B_시공예시.jpg'
+  ],
+  'B5111B': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이우드/B5111B.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이우드/B5111B_시공예시.jpg'
+  ],
+  'B5231B': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이우드/B5231B.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이우드/B5231B_시공예시.jpg'
+  ],
+  'B5232B': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이우드/B5232B.jpg'
+  ],
+  'B5233B': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이우드/B5233B.jpg'
+  ],
+  'B5234B': [
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이우드/B5234B.jpg',
+    '/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이우드/B5234B_시공예시.jpg'
+  ],
+};
+
+
 /**
  * 특정 상품의 상세 이미지 목록을 불러옵니다.
  * 1. Supabase product_images 테이블 조회 (카탈로그 페이지 덤프 제외)
@@ -302,6 +487,19 @@ export async function getProductDetailImages(productId, productCode = '', produc
         sort_order: idx,
         alt_text: `${rawCode || img.extractedCode} ${img.imageType === 'material' || img.imageType === 'original' ? '자재 원본' : (img.imageType === '2x2' || img.imageType === 'pattern2x2' || img.imageType === 'expanded' || img.imageType === '확장') ? '2x2 / 패턴' : (img.imageType === '90cross' || img.imageType === 'cross') ? '90cross' : (img.imageType === 'office' || img.imageType === 'installation') ? '사무실 시공' : '상세 이미지'}`,
         image_type: img.imageType || 'detail'
+      }));
+    }
+  }
+
+  // Fallback 2: KCC 센스레이 카탈로그 이미지 매핑
+  for (const [key, urls] of Object.entries(KCC_SENSELAY_CATALOG_MAP)) {
+    if (cleanCode.includes(key.toUpperCase())) {
+      return urls.map((url, idx) => ({
+        id: `fallback-senselay-${key}-${idx}`,
+        url,
+        sort_order: idx,
+        alt_text: `${productCode || 'KCC 센스레이'} ${idx === 0 ? '자재 원본' : '시공예시 공간'}`,
+        image_type: idx === 0 ? 'material' : 'office'
       }));
     }
   }

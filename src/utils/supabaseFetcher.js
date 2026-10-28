@@ -1058,8 +1058,11 @@ export async function fetchProductDetailBySlugOrId(routeParam, signal = null, op
         if (outcome?.status === 'inactive') {
           return { __inactive: true };
         }
-        if (outcome?.status === 'notFound') return null;
-        failureReason = 'timeout';
+        if (outcome?.status === 'notFound') {
+          failureReason = 'notFound';
+        } else {
+          failureReason = 'timeout';
+        }
       } catch (error) {
         checkAbort();
         console.warn('[product-detail] server failed, trying local exact match:', error);
@@ -1096,6 +1099,8 @@ export async function fetchProductDetailBySlugOrId(routeParam, signal = null, op
         setCachedProduct(mapped);
         return mapped;
       }
+
+      if (failureReason === 'notFound') return null;
 
       const err = new Error('상품 서버에 연결하지 못했습니다. 다시 시도해 주세요.');
       err.name = failureReason === 'timeout' ? 'TimeoutError' : 'NetworkError';

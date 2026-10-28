@@ -72,16 +72,16 @@ const KCC_COLLECTION = [
   },
   {
     id: "senselay",
-    code: "B0122J",
+    code: "B0123J",
     brand: "KCC",
     lineup: "KCC 센스레이",
     subLine: "5.0T 고두께 프리미엄",
-    spec: "457.2 × 457.2mm · 5.0T (고두께)",
-    packaging: "비접착 친환경 시공",
+    spec: "457.2 × 914.4mm · 5.0T (고두께)",
+    packaging: "지정 접착제 (센스풀) 시공",
     badge: "추천",
-    description: "5mm 고두께 설계로 뛰어난 치수 안정성과 쿠션감을 제공하는 하이엔드 타일",
-    image: "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0122J.jpg",
-    detailUrl: "/materials/B0122J",
+    description: "5mm 고두께 설계로 뛰어난 치수 안정성과 내마모성을 제공하는 프리미엄 LVT",
+    image: "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0123J.jpg",
+    detailUrl: "/materials/B0123J",
     browseUrl: "/materials?category=데코타일&brand=KCC&line=센스레이(내수)"
   }
 ];

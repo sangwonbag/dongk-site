@@ -2687,7 +2687,7 @@ export default function MaterialDetail() {
                               </tr>
                               <tr>
                                 <th>권장 접착제</th>
-                                <td colSpan="3">제조사 권장 데코타일 전용 접착제 (현장 조건에 맞는 접착제 선택 필요)</td>
+                                <td colSpan="3">{item.code?.startsWith('B') ? "센스풀 (2K-5000) 아크릴계 접착제 (표준도포량 0.3~0.4kg/㎡, 바닥 습도 4.5% 이하 현장)" : "제조사 권장 데코타일 전용 접착제 (현장 조건에 맞는 접착제 선택 필요)"}</td>
                               </tr>
                             </>
                           ) : (

@@ -125,59 +125,71 @@ function classifyProductImage(fileName) {
 }
 
 // Robust code extractor helper from filename
-function extractCode(filename) {
+function extractCodes(filename) {
   const ext = path.extname(filename);
   let cleanName = filename.slice(0, -ext.length).trim();
   
-  // 1. Remove suffix indices, patterns, and descriptions (e.g. "_detail", "_thumbnail", "_사무실", "_시공", "_시공예시", "_확장", "_2x2", "_90cross")
-  cleanName = cleanName
-    .replace(/\.jpg_[0-9]+cross$/i, '')
-    .replace(/_(?:thumbnail|detail)$/i, '')
-    .replace(/_(?:사무실|시공|시공예시|상업공간|패턴|확장|거실|침실|카페|매장|office|scene|room|2x2|90cross|180cross)$/i, '')
-    .replace(/_(\d+)$/, '')
-    .replace(/\s*\(\d+\)$/, '')
-    .trim();
-  
+  // 1. Remove suffix indices, patterns, and descriptions iteratively
+  let prevName;
+  do {
+    prevName = cleanName;
+    cleanName = cleanName
+      .replace(/\.jpg_[0-9]+cross$/i, '')
+      .replace(/_(?:thumbnail|detail)$/i, '')
+      .replace(/_(?:사무실|시공|시공예시|상업공간|패턴|확장|거실|침실|카페|매장|office|scene|room|2x2|90cross|180cross)$/i, '')
+      .replace(/_(\d+)$/, '')
+      .replace(/\s*\(\d+\)$/, '')
+      .trim();
+  } while (cleanName !== prevName);
+
+  // If combined like B0156M_B0158M or DS626_DS627
+  const parts = cleanName.split('_');
+  const validCodeRegex = /^[A-Z]{1,5}\s*\d{3,5}(?:-\d+)?[A-Z]*$/i;
+  if (parts.length > 1 && parts.every(p => validCodeRegex.test(p.trim()))) {
+    return parts.map(p => p.trim());
+  }
+
   // 2. KCC Jangpan pattern: NK20-4121, NP18-3543, MN22-4151, MN27-4151, MN45-4121, MN50-4121
   const jangpanMatch = cleanName.match(/(?:^|[_\-\s])([A-Z]{2,4}\d{2}-\d{3,5})(?:[_\-\s]|$)/i);
   if (jangpanMatch) {
-    return jangpanMatch[1].trim();
+    return [jangpanMatch[1].trim()];
   }
 
-  // 3. Try matching standard code patterns: [Letters 2-5] + [spaces?] + [Numbers 3-5] + [Letters?]
-  // Support underscore boundaries like KCC_트랜디_TS5502P_사무실, GW1111G, GS1551M, B0122J
-  const codeRegex = /(?:^|[_\s])([A-Z]{2,5}\s*\d{3,5}(?:-\d+)?[A-Z]*)(?:[_\s]|$)/i;
+  // 3. Try matching standard code patterns: [Letters 1-5] + [spaces?] + [Numbers 3-5] + [Letters?]
+  // Support underscore boundaries like KCC_트랜디_TS5502P_사무실, GW1111G, GS1551M, B0122J, B0351J
+  const codeRegex = /(?:^|[_\s])([A-Z]{1,5}\s*\d{3,5}(?:-\d+)?[A-Z]*)(?:[_\s]|$)/i;
   const match = cleanName.match(codeRegex);
   if (match) {
-    return match[1].trim();
+    return [match[1].trim()];
   }
 
-  const boundaryRegex = /\b([A-Z]{2,5})\s*(\d{3,5}(?:-\d+)?)([A-Z]*)\b/i;
+  const boundaryRegex = /\b([A-Z]{1,5})\s*(\d{3,5}(?:-\d+)?)([A-Z]*)\b/i;
   const bMatch = cleanName.match(boundaryRegex);
   if (bMatch) {
-    return bMatch[0].trim();
+    return [bMatch[0].trim()];
   }
   
   // 4. Try matching numeric code patterns with letter suffix (e.g. 30082P, 30141M, 90013-1)
   const numericRegex = /^(\d{3,6}(?:-\d+)?[A-Z]*)/i;
   const numMatch = cleanName.match(numericRegex);
   if (numMatch) {
-    return numMatch[1].trim();
+    return [numMatch[1].trim()];
   }
 
   // 5. Try matching other patterns like OA 317 or DLT 3300
   const looseMatch = cleanName.match(/([A-Z0-9]{2,6})\s+(\d{3,5})/i);
   if (looseMatch) {
-    return looseMatch[0].trim();
+    return [looseMatch[0].trim()];
   }
 
-  return cleanName;
+  return [cleanName];
 }
 
 const allFiles = collectFiles(SOURCE_DIR);
 console.log(`Found ${allFiles.length} local material image files.`);
 
-const manifestData = allFiles.map(fullPath => {
+const manifestData = [];
+allFiles.forEach(fullPath => {
   // Relative path from public directory: e.g. images/Thumbnail_Image/materials/데코타일/LX/LX하우스/HOT 0065 라임 스톤 미스트.jpg
   const relativeFromPublic = path.relative(path.resolve(process.cwd(), 'public'), fullPath).replace(/\\/g, '/');
   
@@ -193,7 +205,7 @@ const manifestData = allFiles.map(fullPath => {
   const series = parts.slice(2, parts.length - 1).join('/') || '';
   const fileName = parts[parts.length - 1];
   
-  const extractedCode = extractCode(fileName);
+  const extractedCodes = extractCodes(fileName);
   const normalizedFileName = fileName.replace(/[^a-zA-Z0-9가-힣]/g, '').toLowerCase();
   const imageType = classifyProductImage(fileName);
 
@@ -207,16 +219,18 @@ const manifestData = allFiles.map(fullPath => {
     }
   } catch (e) {}
 
-  return {
-    fileName,
-    fullPublicPath: cleanPublicPath,
-    category,
-    brand,
-    series,
-    extractedCode,
-    normalizedFileName,
-    imageType
-  };
+  extractedCodes.forEach(code => {
+    manifestData.push({
+      fileName,
+      fullPublicPath: cleanPublicPath,
+      category,
+      brand,
+      series,
+      extractedCode: code,
+      normalizedFileName,
+      imageType
+    });
+  });
 });
 
 // Output manifest file as ESM
