@@ -116,13 +116,22 @@ export function handleSearchRedirect(query, navFunction) {
   const parsed = parseSearchQuery(query);
   const params = new URLSearchParams();
 
-  if (parsed.detectedCategory) {
-    params.set("category", parsed.detectedCategory);
+  // Only pre-filter category/brand if it's a dedicated category/lineup search and NOT a code query
+  if (!parsed.isCodeQuery && parsed.tokens.length <= 2) {
+    if (parsed.detectedLineup) {
+      params.set("category", parsed.detectedLineup.category);
+      params.set("brand", parsed.detectedLineup.brand);
+    } else {
+      if (parsed.detectedCategory) {
+        params.set("category", parsed.detectedCategory);
+      }
+      if (parsed.detectedBrand) {
+        params.set("brand", parsed.detectedBrand);
+      }
+    }
   }
-  if (parsed.detectedBrand) {
-    params.set("brand", parsed.detectedBrand);
-  }
-  if (parsed.detectedThickness) {
+
+  if (parsed.detectedThickness && parsed.detectedCategory === "장판") {
     params.set("thickness", parsed.detectedThickness);
   }
 

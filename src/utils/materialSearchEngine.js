@@ -94,8 +94,8 @@ export const BRAND_DICTIONARY = {
   유성: {
     canonical: "유성",
     displayName: "유성",
-    aliases: ["유성", "yousung", "youseong"],
-    categories: ["데코타일"]
+    aliases: ["유성", "yousung", "youseong", "우성"],
+    categories: ["데코타일", "디럭스타일"]
   },
   재영: {
     canonical: "재영",
@@ -317,9 +317,45 @@ export const LINEUP_DATABASE = [
     lineup: "아트에코차음",
     brand: "동신",
     category: "데코타일",
-    aliases: ["아트에코차음", "차음타일", "동신 차음타일", "아트에코"],
-    dbKeywords: ["아트에코차음", "차음"],
+    aliases: [
+      "아트에코차음", "동신 아트에코차음", "동신아트에코차음",
+      "에코차음", "동신 에코차음", "동신에코차음", "에코 차음",
+      "차음타일", "동신 차음타일", "아트에코", "동신 아트에코"
+    ],
+    dbKeywords: ["아트에코차음", "에코차음", "차음", "CH57", "CH63"],
     description: "동신포리마 5.0T 소음저감 데코타일"
+  },
+  {
+    lineup: "피오네 모던",
+    brand: "유성",
+    category: "데코타일",
+    aliases: ["피오네", "피오네 모던", "피오네모던", "유성 피오네", "fsm"],
+    dbKeywords: ["피오네", "FSM"],
+    description: "유성 피오네 모던 데코타일"
+  },
+  {
+    lineup: "골드타일레릭",
+    brand: "현대",
+    category: "데코타일",
+    aliases: ["골드타일레릭", "레릭", "현대 레릭", "골드타일", "rt"],
+    dbKeywords: ["골드타일레릭", "RT", "골드타일"],
+    description: "현대L&C 골드타일 레릭 데코타일"
+  },
+  {
+    lineup: "에코홈2000",
+    brand: "녹수",
+    category: "데코타일",
+    aliases: ["에코홈", "에코홈2000", "녹수 에코홈", "neh"],
+    dbKeywords: ["에코홈", "NEH"],
+    description: "녹수 에코홈 2000 데코타일"
+  },
+  {
+    lineup: "차음",
+    brand: "재영",
+    category: "데코타일",
+    aliases: ["재영 차음", "재영차음", "차음타일", "t77"],
+    dbKeywords: ["차음", "T77"],
+    description: "재영 5.0T 차음 데코타일"
   },
 
   // [현대 바닥재]
@@ -351,7 +387,7 @@ export const LINEUP_DATABASE = [
     lineup: "골드타일",
     brand: "현대",
     category: "데코타일",
-    aliases: ["골드타일", "골드타일레릭", "골드타일마스터", "골드타일클래식"],
+    aliases: ["골드타일", "골드타일마스터", "골드타일클래식"],
     dbKeywords: ["골드타일"],
     description: "현대L&C 고품질 상업용 데코타일"
   },
@@ -526,9 +562,28 @@ export function normalizeProductCode(code) {
 export function tokenizeQuery(query) {
   if (!query) return [];
   const q = String(query).normalize("NFKC").toLowerCase().trim();
-  // 공백 및 특수문자로 분리
   const rawTokens = q.split(/[\s\-_()[\]/·,]+/).filter(Boolean);
-  return Array.from(new Set(rawTokens));
+  const tokenSet = new Set(rawTokens);
+
+  for (const t of rawTokens) {
+    // Split Korean + digits: "에코차음6202" -> "에코차음", "6202"
+    const krNumMatch = t.match(/^([가-힣]+)(\d+)$/);
+    if (krNumMatch) {
+      tokenSet.add(krNumMatch[1]);
+      tokenSet.add(krNumMatch[2]);
+    }
+    // Split Alpha + digits: "ts5541" -> "ts", "5541"
+    const alphaNumMatch = t.match(/^([a-z]+)(\d+)$/i);
+    if (alphaNumMatch) {
+      tokenSet.add(alphaNumMatch[1]);
+      tokenSet.add(alphaNumMatch[2]);
+    }
+    // Subwords for compound terms
+    if (t.includes('에코') && t.length > 2) tokenSet.add('에코');
+    if (t.includes('차음') && t.length > 2) tokenSet.add('차음');
+  }
+
+  return Array.from(tokenSet);
 }
 
 // 7. 검색어 분석 엔진 (Parser)
@@ -546,11 +601,11 @@ export function parseSearchQuery(query) {
   let detectedSpec = null;
   let detectedThickness = null;
 
-  // A. 브랜드 감지 (직접 입력된 경우)
+  // A. 브랜드 감지
   for (const [key, brandInfo] of Object.entries(BRAND_DICTIONARY)) {
     for (const alias of brandInfo.aliases) {
       const aliasNorm = normalizeSearchText(alias);
-      if (tokens.some(t => normalizeSearchText(t) === aliasNorm) || norm.includes(aliasNorm)) {
+      if (tokens.some(t => normalizeSearchText(t) === aliasNorm) || norm === aliasNorm || norm.startsWith(aliasNorm)) {
         explicitBrand = brandInfo.canonical;
         detectedBrand = brandInfo.canonical;
         break;
@@ -559,13 +614,13 @@ export function parseSearchQuery(query) {
     if (explicitBrand) break;
   }
 
-  // B. 카테고리 감지 (직접 입력된 경우)
+  // B. 카테고리 감지
   const categoryKeywords = {
-    "데코타일": ["데코타일", "데코", "lvt", "바닥타일", "타일바닥재"],
+    "데코타일": ["데코타일", "데코 타일", "데코", "lvt", "바닥타일", "타일바닥재"],
     "장판": ["장판", "모노륨", "륨", "시트바닥재", "륨바닥재"],
     "마루": ["마루", "강마루", "원목마루", "천연마루", "강화마루"],
     "벽지": ["벽지", "실크벽지", "합지벽지", "방염벽지", "도배지"],
-    "카페트타일": ["카페트타일", "카페트", "카펫", "카펫타일", "타일카페트"]
+    "카페트타일": ["카페트타일", "카페트 타일", "카페트", "카펫", "카펫타일", "타일카페트"]
   };
 
   for (const [cat, aliases] of Object.entries(categoryKeywords)) {
@@ -594,24 +649,27 @@ export function parseSearchQuery(query) {
     if (detectedLineup) break;
   }
 
-  // D. 규격 / 두께 감지
-  // 1.8T, 2.0T, 2.2T, 2.7T, 3.2T, 4.5T, 5.0T 등
-  const thicknessMatch = raw.match(/(1\.8|2\.0|2|2\.2|2\.7|3\.2|4\.5|5\.0|5)\s*(?:T|t|mm|㎜)?/i);
-  if (thicknessMatch && (raw.includes('T') || raw.includes('t') || raw.includes('장판') || detectedCategory === '장판')) {
-    const val = parseFloat(thicknessMatch[1]).toFixed(1) + 'T';
-    detectedThickness = val;
+  // D. 엄격한 규격 / 두께 감지 (T/t/mm가 붙어있거나, '장판' 키워드가 함께 있는 경우에만 두께 인식)
+  const thickStrict = raw.match(/(?:^|\s)(1\.8|2\.0|2\.2|2\.7|3\.2|4\.5|5\.0|1\.8|2|3|4\.5|5)\s*(?:T|t|mm|㎜)(?:\s|$)/i);
+  if (thickStrict) {
+    detectedThickness = parseFloat(thickStrict[1]).toFixed(1) + 'T';
+  } else if (detectedCategory === '장판') {
+    const jangpanThick = raw.match(/(?:^|\s)(1\.8|2\.0|2\.2|2\.7|3\.2|4\.5|5\.0|1\.8|2|3)(?:\s|$)/);
+    if (jangpanThick) {
+      detectedThickness = parseFloat(jangpanThick[1]).toFixed(1) + 'T';
+    }
   }
 
-  // 450각, 600각, 600x600 등
-  if (/450각|450|457/i.test(raw)) {
+  // E. 규격 감지 (450각, 600각 등)
+  if (/450각|457\.?2?각|450\s*[x×]\s*450/i.test(raw)) {
     detectedSpec = "450각";
-  } else if (/600각|600|600x600|600×600/i.test(raw)) {
+  } else if (/600각|600\s*[x×]\s*600/i.test(raw)) {
     detectedSpec = "600각";
   }
 
-  // E. 상품 번호 쿼리 여부 (순수 영문/숫자/하이픈 쿼리이거나, 개별 토큰 중 3자리 이상 코드 토큰이 있는 경우)
+  // F. 상품 코드/번호 쿼리 여부
   const isPureCode = /^[A-Z0-9\-_./]+$/i.test(raw.trim()) && /[0-9]/.test(codeNorm) && codeNorm.length >= 2;
-  const isCodeQuery = isPureCode || (tokens.some(t => /^[A-Z0-9\-_]{3,}$/i.test(t) && /[0-9]/.test(t)));
+  const isCodeQuery = isPureCode || (tokens.some(t => /^[A-Z0-9\-_]{2,}$/i.test(t) && /[0-9]/.test(t)));
 
   return {
     raw,
@@ -629,7 +687,7 @@ export function parseSearchQuery(query) {
   };
 }
 
-// 8. 관련도(Relevance) 랭킹 점수 계산
+// 8. 관련도(Relevance) 8단계 랭킹 점수 계산 엔진
 export function scoreProduct(product, query, parsedInfo = null) {
   if (!product || !query) return 0;
   const p = parsedInfo || parseSearchQuery(query);
@@ -640,77 +698,100 @@ export function scoreProduct(product, query, parsedInfo = null) {
 
   let score = 0;
 
-  // 1. 상품코드 완전 일치 (최우선순위: 10,000점)
   const codeRaw = String(product.code || product.product_code || "").trim();
   const pCode = normalizeProductCode(codeRaw);
+  const pCodeDigits = pCode.replace(/\D/g, "");
+  const qCodeDigits = qCode.replace(/\D/g, "");
 
-  if (pCode && qCode && p.isCodeQuery) {
+  const pName = normalizeSearchText(product.name || product.product_name || product.productName || "");
+  const pDisplayTitle = normalizeSearchText(product.displayTitle || "");
+  const pBrand = normalizeSearchText(product.brand || "");
+  const pLine = normalizeSearchText(product.line || product.series || product.collection || product.description || "");
+  const pCategory = product.category || "";
+
+  // 1. 상품코드 일치 (최우선 순위: 15,000점)
+  let codeMatched = false;
+  if (pCode && qCode) {
     if (pCode === qCode) {
-      score += 10000;
+      score += 15000;
+      codeMatched = true;
     } else if (pCode.startsWith(qCode)) {
-      score += 4500;
+      score += 10000;
+      codeMatched = true;
+    } else if (pCode.endsWith(qCode)) {
+      score += 8500;
+      codeMatched = true;
     } else if (pCode.includes(qCode)) {
-      score += 2500;
+      score += 7000;
+      codeMatched = true;
+    } else if (qCodeDigits.length >= 3 && pCodeDigits === qCodeDigits) {
+      score += 9000;
+      codeMatched = true;
+    } else if (qCodeDigits.length >= 3 && pCodeDigits.includes(qCodeDigits)) {
+      score += 6500;
+      codeMatched = true;
+    }
+  }
+
+  // 토큰 단위 상품코드 매칭 (예: "TS 5541", "에코차음 6202")
+  for (const token of p.tokens) {
+    const tCode = normalizeProductCode(token);
+    const tDigits = tCode.replace(/\D/g, "");
+    if (tDigits.length >= 3 && pCode) {
+      if (pCode === tCode) {
+        score += 8000;
+        codeMatched = true;
+      } else if (pCode.endsWith(tCode) || (pCodeDigits && pCodeDigits === tDigits)) {
+        score += 7000;
+        codeMatched = true;
+      } else if (pCode.includes(tCode) || (pCodeDigits && pCodeDigits.includes(tDigits))) {
+        score += 5000;
+        codeMatched = true;
+      }
     }
   }
 
   // 2. 상품명 일치
-  const pName = normalizeSearchText(product.name || product.product_name || "");
-  const pTitle = normalizeSearchText(product.displayTitle || "");
-
-  if (pName === qNorm || pTitle === qNorm) {
-    score += 8000;
-  } else if (pName.startsWith(qNorm) || pTitle.startsWith(qNorm)) {
-    score += 4000;
-  } else if (pName.includes(qNorm) || pTitle.includes(qNorm)) {
-    score += 3000;
+  if (pName || pDisplayTitle) {
+    if (pName === qNorm || pDisplayTitle === qNorm) {
+      score += 12000;
+    } else if (pName.startsWith(qNorm) || pDisplayTitle.startsWith(qNorm)) {
+      score += 6000;
+    } else if (pName.includes(qNorm) || pDisplayTitle.includes(qNorm)) {
+      score += 4000;
+    }
   }
 
   // 3. 라인업 일치
-  const pLine = normalizeSearchText(product.line || product.series || product.collection || product.description || "");
   let matchesLineup = false;
   if (p.detectedLineup) {
     const targetLine = normalizeSearchText(p.detectedLineup.lineup);
-    const targetKeywords = p.detectedLineup.dbKeywords.map(k => normalizeSearchText(k));
+    const targetKeywords = p.detectedLineup.dbKeywords.map(normalizeSearchText);
 
-    if (pLine.includes(targetLine) || targetKeywords.some(k => pLine.includes(k))) {
+    if (pLine.includes(targetLine) || targetKeywords.some(k => pLine.includes(k) || pName.includes(k))) {
       matchesLineup = true;
-      score += 6000;
-      // 브랜드까지 일치하면 가산점
-      const pBrand = normalizeSearchText(product.brand || "");
-      const targetBrand = normalizeSearchText(p.detectedLineup.brand);
-      if (pBrand === targetBrand || (BRAND_DICTIONARY[targetBrand] && BRAND_DICTIONARY[targetBrand].aliases.includes(pBrand))) {
+      score += 5500;
+      if (pBrand === normalizeSearchText(p.detectedLineup.brand)) {
         score += 2000;
       }
     }
   }
 
-  // 특정 라인업 검색 시, 라인업에 일치하지도 않고 상품명/코드에도 검색어가 포함되지 않은 무관한 제품은 배제
-  if (p.detectedLineup && !matchesLineup) {
-    const hasNameOrCodeMatch = (pCode && qCode && p.isCodeQuery && pCode.includes(qCode)) ||
-      (pName && pName.includes(qNorm)) ||
-      (pTitle && pTitle.includes(qNorm));
-    if (!hasNameOrCodeMatch) {
-      return 0;
-    }
-  }
-
-  // 4. 브랜드 일치 (사용자가 직접 입력했거나, 라인업 검색이 아닌 일반 검색인 경우)
-  if (p.explicitBrand || (!p.detectedLineup && p.detectedBrand)) {
-    const pBrand = normalizeSearchText(product.brand || "");
-    const targetBrand = p.explicitBrand || p.detectedBrand;
-    const bInfo = BRAND_DICTIONARY[targetBrand];
-    if (bInfo && (pBrand === normalizeSearchText(bInfo.canonical) || bInfo.aliases.includes(pBrand))) {
-      score += 1500;
+  // 4. 브랜드 일치
+  if (p.detectedBrand) {
+    const bInfo = BRAND_DICTIONARY[p.detectedBrand];
+    if (bInfo) {
+      const canonicalNorm = normalizeSearchText(bInfo.canonical);
+      const isAliasMatch = bInfo.aliases.map(normalizeSearchText).includes(pBrand);
+      if (pBrand === canonicalNorm || isAliasMatch) {
+        score += 2000;
+      }
     }
   }
 
   // 5. 카테고리 일치
-  if (p.explicitCategory || (!p.detectedLineup && p.detectedCategory)) {
-    const targetCat = p.explicitCategory || p.detectedCategory;
-    if (product.category === targetCat) {
-      score += 800;
-    }
+  if (p.detectedCategory && pCategory === p.detectedCategory) {
+    score += 1000;
   }
 
   // 6. 규격 및 두께 일치
@@ -733,25 +814,48 @@ export function scoreProduct(product, query, parsedInfo = null) {
     }
   }
 
-  // 7. 개별 토큰 부분 매칭
+  // 7. 복수 토큰 전체 일치 가산점 (2글자 이하 축약어의 경우 단어 경계 또는 코드 접두사 엄격 매칭)
+  const searchableWords = `${pBrand} ${pCategory} ${pLine} ${pName} ${codeRaw} ${pCode} ${product.description || ''}`
+    .toLowerCase()
+    .split(/[\s\-_()[\]/·,]+/)
+    .filter(Boolean);
+  const searchableText = searchableWords.join(' ');
+
+  let matchedTokenCount = 0;
   for (const token of p.tokens) {
     const tNorm = normalizeSearchText(token);
-    if (!tNorm || tNorm.length < 2) continue;
-    // 코드 매칭은 토큰이 영문/숫자/하이픈 형태일 때만 (한글 단어에 숫자 붙은 텍스트는 제외)
-    const isCodeToken = /^[a-zA-Z0-9\-_]+$/.test(token) && /[0-9]/.test(token);
-    if (isCodeToken && pCode.includes(normalizeProductCode(token))) {
+    const tCode = normalizeProductCode(token);
+    if (!tNorm) continue;
+
+    let tokenMatched = false;
+    if (tNorm.length <= 2) {
+      // 2글자 이하 단어는 정확한 단어 또는 코드 접두사로만 일치 인정 (예: "ts"가 "mts4415"에 오매칭되는 것 방지)
+      if (searchableWords.includes(tNorm) || pCode.startsWith(tCode)) {
+        tokenMatched = true;
+      }
+    } else {
+      if (searchableText.includes(tNorm) || (tCode && pCode.includes(tCode))) {
+        tokenMatched = true;
+      }
+    }
+
+    if (tokenMatched) {
+      matchedTokenCount++;
       score += 500;
     }
-    if (pName.includes(tNorm)) score += 400;
-    if (pLine.includes(tNorm)) score += 400;
   }
 
-  // 8. 무관한 임의의 텍스트 필터링
-  if (!p.detectedLineup && !p.detectedBrand && !p.detectedCategory && !p.detectedSpec && !p.detectedThickness && !p.isCodeQuery) {
-    const exactSub = pName.includes(qNorm) || pLine.includes(qNorm) || (pCode && qCode && pCode.includes(qCode));
-    if (!exactSub) {
+  if (p.tokens.length >= 2) {
+    if (matchedTokenCount === p.tokens.length) {
+      score += 10000; // 모든 검색 토큰 동시 일치 가산점
+    } else if (matchedTokenCount === 0 && !codeMatched && !matchesLineup) {
       return 0;
     }
+  }
+
+  // 8. 무관한 상품 필터링 (최소 기준 미달 시 배제)
+  if (!codeMatched && !matchesLineup && matchedTokenCount === 0 && !pName.includes(qNorm) && !pLine.includes(qNorm)) {
+    return 0;
   }
 
   return score;

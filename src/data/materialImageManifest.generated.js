@@ -1731,6 +1731,16 @@ export const imageManifest = [
     "imageType": "office"
   },
   {
+    "fileName": "TW5102G_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5102G_확장.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
+    "extractedCode": "TW5102G",
+    "normalizedFileName": "tw5102g확장png",
+    "imageType": "material"
+  },
+  {
     "fileName": "TW5103G.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5103G.png",
     "category": "데코타일",
@@ -1738,6 +1748,16 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
     "extractedCode": "TW5103G",
     "normalizedFileName": "tw5103gpng",
+    "imageType": "material"
+  },
+  {
+    "fileName": "TW5103G_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5103G_확장.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
+    "extractedCode": "TW5103G",
+    "normalizedFileName": "tw5103g확장png",
     "imageType": "material"
   },
   {
@@ -1761,6 +1781,16 @@ export const imageManifest = [
     "imageType": "office"
   },
   {
+    "fileName": "TW5104G_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5104G_확장.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
+    "extractedCode": "TW5104G",
+    "normalizedFileName": "tw5104g확장png",
+    "imageType": "material"
+  },
+  {
     "fileName": "TW5105G.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5105G.png",
     "category": "데코타일",
@@ -1768,6 +1798,16 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
     "extractedCode": "TW5105G",
     "normalizedFileName": "tw5105gpng",
+    "imageType": "material"
+  },
+  {
+    "fileName": "TW5105G_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5105G_확장.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
+    "extractedCode": "TW5105G",
+    "normalizedFileName": "tw5105g확장png",
     "imageType": "material"
   },
   {
@@ -1781,6 +1821,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "TW5106G_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5106G_확장.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
+    "extractedCode": "TW5106G",
+    "normalizedFileName": "tw5106g확장png",
+    "imageType": "material"
+  },
+  {
     "fileName": "TW5107G.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5107G.png",
     "category": "데코타일",
@@ -1788,6 +1838,16 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
     "extractedCode": "TW5107G",
     "normalizedFileName": "tw5107gpng",
+    "imageType": "material"
+  },
+  {
+    "fileName": "TW5107G_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5107G_확장.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
+    "extractedCode": "TW5107G",
+    "normalizedFileName": "tw5107g확장png",
     "imageType": "material"
   },
   {
@@ -1801,6 +1861,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "TW5108G_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5108G_확장.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
+    "extractedCode": "TW5108G",
+    "normalizedFileName": "tw5108g확장png",
+    "imageType": "material"
+  },
+  {
     "fileName": "TW5109G.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5109G.png",
     "category": "데코타일",
@@ -1808,6 +1878,16 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
     "extractedCode": "TW5109G",
     "normalizedFileName": "tw5109gpng",
+    "imageType": "material"
+  },
+  {
+    "fileName": "TW5109G_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5109G_확장.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
+    "extractedCode": "TW5109G",
+    "normalizedFileName": "tw5109g확장png",
     "imageType": "material"
   },
   {
@@ -1821,6 +1901,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "TW5110G_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5110G_확장.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
+    "extractedCode": "TW5110G",
+    "normalizedFileName": "tw5110g확장png",
+    "imageType": "material"
+  },
+  {
     "fileName": "TW5111G.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5111G.png",
     "category": "데코타일",
@@ -1828,6 +1918,16 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
     "extractedCode": "TW5111G",
     "normalizedFileName": "tw5111gpng",
+    "imageType": "material"
+  },
+  {
+    "fileName": "TW5111G_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5111G_확장.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
+    "extractedCode": "TW5111G",
+    "normalizedFileName": "tw5111g확장png",
     "imageType": "material"
   },
   {
@@ -1849,6 +1949,16 @@ export const imageManifest = [
     "extractedCode": "TW5112G",
     "normalizedFileName": "tw5112g시공예시jpg",
     "imageType": "office"
+  },
+  {
+    "fileName": "TW5112G_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5112G_확장.png",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
+    "extractedCode": "TW5112G",
+    "normalizedFileName": "tw5112g확장png",
+    "imageType": "material"
   },
   {
     "fileName": "TW5119G.png",
@@ -1881,623 +1991,13 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
-    "fileName": "GS1551M.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1551M.jpg",
+    "fileName": "TW5120G_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5120G_확장.png",
     "category": "데코타일",
     "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1551M",
-    "normalizedFileName": "gs1551mjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1552M.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1552M.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1552M",
-    "normalizedFileName": "gs1552mjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1553M.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1553M.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1553M",
-    "normalizedFileName": "gs1553mjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1555M.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1555M.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1555M",
-    "normalizedFileName": "gs1555mjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1556M.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1556M.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1556M",
-    "normalizedFileName": "gs1556mjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1557M.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1557M.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1557M",
-    "normalizedFileName": "gs1557mjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1560C.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1560C.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1560C",
-    "normalizedFileName": "gs1560cjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1561C.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1561C.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1561C",
-    "normalizedFileName": "gs1561cjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1562C.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1562C.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1562C",
-    "normalizedFileName": "gs1562cjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1563C.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1563C.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1563C",
-    "normalizedFileName": "gs1563cjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1564C.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1564C.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1564C",
-    "normalizedFileName": "gs1564cjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1570C.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1570C.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1570C",
-    "normalizedFileName": "gs1570cjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1572C.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1572C.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1572C",
-    "normalizedFileName": "gs1572cjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1573C.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1573C.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1573C",
-    "normalizedFileName": "gs1573cjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1574C.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1574C.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1574C",
-    "normalizedFileName": "gs1574cjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1580C.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1580C.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1580C",
-    "normalizedFileName": "gs1580cjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1586C.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1586C.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1586C",
-    "normalizedFileName": "gs1586cjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1588C.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1588C.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1588C",
-    "normalizedFileName": "gs1588cjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1589C.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1589C.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1589C",
-    "normalizedFileName": "gs1589cjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1601M.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1601M.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1601M",
-    "normalizedFileName": "gs1601mjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1602M.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1602M.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1602M",
-    "normalizedFileName": "gs1602mjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1604M.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1604M.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1604M",
-    "normalizedFileName": "gs1604mjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1605M.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1605M.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1605M",
-    "normalizedFileName": "gs1605mjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1611C.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1611C.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1611C",
-    "normalizedFileName": "gs1611cjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1612C.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1612C.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1612C",
-    "normalizedFileName": "gs1612cjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1613C.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1613C.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1613C",
-    "normalizedFileName": "gs1613cjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1614C.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1614C.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1614C",
-    "normalizedFileName": "gs1614cjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1615C.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1615C.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1615C",
-    "normalizedFileName": "gs1615cjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1616C.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1616C.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1616C",
-    "normalizedFileName": "gs1616cjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1617C.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1617C.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1617C",
-    "normalizedFileName": "gs1617cjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1618C.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1618C.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1618C",
-    "normalizedFileName": "gs1618cjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1619C.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1619C.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1619C",
-    "normalizedFileName": "gs1619cjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1620C.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1620C.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1620C",
-    "normalizedFileName": "gs1620cjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1621C.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1621C.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1621C",
-    "normalizedFileName": "gs1621cjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1622C.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1622C.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1622C",
-    "normalizedFileName": "gs1622cjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GS1623C.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GS1623C.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GS1623C",
-    "normalizedFileName": "gs1623cjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GW1101K.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1101K.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GW1101K",
-    "normalizedFileName": "gw1101kjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GW1102K.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1102K.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GW1102K",
-    "normalizedFileName": "gw1102kjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GW1103K.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1103K.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GW1103K",
-    "normalizedFileName": "gw1103kjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GW1104K.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1104K.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GW1104K",
-    "normalizedFileName": "gw1104kjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GW1105K.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1105K.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GW1105K",
-    "normalizedFileName": "gw1105kjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GW1106K.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1106K.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GW1106K",
-    "normalizedFileName": "gw1106kjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GW1111G.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1111G.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GW1111G",
-    "normalizedFileName": "gw1111gjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GW1112G.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1112G.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GW1112G",
-    "normalizedFileName": "gw1112gjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GW1113G.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1113G.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GW1113G",
-    "normalizedFileName": "gw1113gjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GW1114G.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1114G.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GW1114G",
-    "normalizedFileName": "gw1114gjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GW1115G.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1115G.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GW1115G",
-    "normalizedFileName": "gw1115gjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GW1504G.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1504G.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GW1504G",
-    "normalizedFileName": "gw1504gjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GW1505G.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1505G.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GW1505G",
-    "normalizedFileName": "gw1505gjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GW1506G.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1506G.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GW1506G",
-    "normalizedFileName": "gw1506gjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GW1507G.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1507G.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GW1507G",
-    "normalizedFileName": "gw1507gjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GW1508G.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1508G.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GW1508G",
-    "normalizedFileName": "gw1508gjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GW1509G.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1509G.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GW1509G",
-    "normalizedFileName": "gw1509gjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GW1510G.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1510G.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GW1510G",
-    "normalizedFileName": "gw1510gjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GW1514G.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1514G.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GW1514G",
-    "normalizedFileName": "gw1514gjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GW1515G.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1515G.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GW1515G",
-    "normalizedFileName": "gw1515gjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GW1516G.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1516G.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GW1516G",
-    "normalizedFileName": "gw1516gjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GW1517G.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1517G.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GW1517G",
-    "normalizedFileName": "gw1517gjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GW1518G.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1518G.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GW1518G",
-    "normalizedFileName": "gw1518gjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GW1519G.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1519G.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GW1519G",
-    "normalizedFileName": "gw1519gjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GW1523G.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1523G.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GW1523G",
-    "normalizedFileName": "gw1523gjpg",
-    "imageType": "material"
-  },
-  {
-    "fileName": "GW1524G.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/프로/GW1524G.jpg",
-    "category": "데코타일",
-    "brand": "KCC",
-    "series": "트렌디/프로",
-    "extractedCode": "GW1524G",
-    "normalizedFileName": "gw1524gjpg",
+    "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
+    "extractedCode": "TW5120G",
+    "normalizedFileName": "tw5120g확장png",
     "imageType": "material"
   },
   {

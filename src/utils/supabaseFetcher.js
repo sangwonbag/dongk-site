@@ -1192,36 +1192,67 @@ export async function searchMaterials(queryText, optionsOrSignal = null) {
       // Build target conditions using materialSearchEngine
       const orConds = [];
 
-      // 1. Lineup keywords
+      // 1. Lineup keywords (e.g. "디아망", "아트에코차음", "센스타일", etc.)
       if (parsed.detectedLineup) {
         for (const kw of parsed.detectedLineup.dbKeywords) {
-          orConds.push(`name.ilike.%${kw}%`, `description.ilike.%${kw}%`, `slug.ilike.%${kw}%`, `image_url.ilike.%${kw}%`);
+          orConds.push(`name.ilike.%${kw}%`, `description.ilike.%${kw}%`, `slug.ilike.%${kw}%`);
         }
       }
 
-      // 2. Code matching
-      if (parsed.isCodeQuery && parsed.codeNorm) {
+      // 2. Product code and numeric matching (space/hyphen agnostic)
+      if (parsed.codeNorm) {
         orConds.push(`product_code.ilike.%${parsed.codeNorm}%`, `name.ilike.%${parsed.codeNorm}%`);
+
+        // If code has letters + digits (e.g. "TS5541", "FSM6202", "RT6202")
+        const codeAlphaNum = parsed.codeNorm.match(/^([A-Z]+)(\d+)([A-Z]*)$/i);
+        if (codeAlphaNum) {
+          const prefix = codeAlphaNum[1];
+          const digits = codeAlphaNum[2];
+          orConds.push(`product_code.ilike.%${prefix}%${digits}%`, `name.ilike.%${prefix}%${digits}%`);
+          if (digits.length >= 3) {
+            orConds.push(`product_code.ilike.%${digits}%`, `name.ilike.%${digits}%`);
+          }
+        } else {
+          const digitsOnly = parsed.codeNorm.replace(/\D/g, '');
+          if (digitsOnly.length >= 3) {
+            orConds.push(`product_code.ilike.%${digitsOnly}%`, `name.ilike.%${digitsOnly}%`);
+          }
+        }
+
         if (/^\d{6}$/.test(parsed.codeNorm)) {
           const hyp = parsed.codeNorm.slice(0, 4) + '-' + parsed.codeNorm.slice(4);
           orConds.push(`product_code.ilike.%${hyp}%`, `name.ilike.%${hyp}%`);
         }
       }
 
-      // 3. Thickness matching
+      // 3. Multi-token keywords (e.g. "에코", "차음", "트랜디", "센스타일", "5541")
+      for (const tok of parsed.tokens) {
+        if (!tok || tok.length < 2) continue;
+        const tokCode = tok.replace(/[^A-Za-z0-9]/g, '');
+        if (tokCode.length >= 2) {
+          orConds.push(`product_code.ilike.%${tokCode}%`, `name.ilike.%${tokCode}%`);
+          const numOnly = tok.replace(/\D/g, '');
+          if (numOnly.length >= 3) {
+            orConds.push(`product_code.ilike.%${numOnly}%`, `name.ilike.%${numOnly}%`);
+          }
+        }
+        orConds.push(`name.ilike.%${tok}%`, `description.ilike.%${tok}%`, `slug.ilike.%${tok}%`);
+      }
+
+      // 4. Thickness matching
       if (parsed.detectedThickness) {
         const rawT = parsed.detectedThickness.replace('T', '');
         orConds.push(`thickness.ilike.%${rawT}%`, `name.ilike.%${rawT}T%`, `description.ilike.%${rawT}%`);
       }
 
-      // 4. Spec matching
+      // 5. Spec matching
       if (parsed.detectedSpec === '450각') {
         orConds.push(`size_text.ilike.%450%`, `size_text.ilike.%457%`, `description.ilike.%450%`);
       } else if (parsed.detectedSpec === '600각') {
         orConds.push(`size_text.ilike.%600%`, `description.ilike.%600%`);
       }
 
-      // 5. Fallback or general tokens
+      // 6. Fallback if empty
       if (orConds.length === 0) {
         const s = text.trim();
         orConds.push(`product_code.ilike.%${s}%`, `name.ilike.%${s}%`, `description.ilike.%${s}%`, `slug.ilike.%${s}%`);
@@ -1229,20 +1260,18 @@ export async function searchMaterials(queryText, optionsOrSignal = null) {
 
       request = request.or(Array.from(new Set(orConds)).join(','));
 
-      // Category filter (either from explicit options or if user has active category)
-      const effectiveCategory = categoryFilter || (parsed.tokens.length > 1 ? parsed.detectedCategory : null);
-      if (effectiveCategory && effectiveCategory !== 'all') {
-        request = request.eq('categories.name', effectiveCategory);
+      // Category filter (only apply if explicitly requested in options and not 'all')
+      if (categoryFilter && categoryFilter !== 'all') {
+        request = request.eq('categories.name', categoryFilter);
       }
 
-      // Brand filter
-      const effectiveBrand = brandFilter || (parsed.tokens.length > 1 ? parsed.detectedBrand : null);
-      if (effectiveBrand && effectiveBrand !== 'all') {
-        const b = effectiveBrand.toUpperCase();
+      // Brand filter (only apply if explicitly requested in options and not 'all')
+      if (brandFilter && brandFilter !== 'all') {
+        const b = brandFilter.toUpperCase();
         if (b === 'LX') {
           request = request.or('name.ilike.%LX%,name.ilike.%LG%', { foreignTable: 'brands' });
         } else {
-          request = request.ilike('brands.name', `%${effectiveBrand}%`);
+          request = request.ilike('brands.name', `%${brandFilter}%`);
         }
       }
 

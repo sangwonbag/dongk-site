@@ -16,7 +16,7 @@ import {
 } from "../../utils/eagonUtils";
 import MaterialCard from "../../components/material/MaterialCard";
 import { fetchFilteredProducts, searchMaterials, withTimeout } from "../../utils/supabaseFetcher";
-import { getSearchScore, isProductNumberQuery, generateAutocompleteSuggestions, POPULAR_KEYWORDS, parseSearchQuery } from "../../utils/searchUtils";
+import { getSearchScore, isProductNumberQuery, generateAutocompleteSuggestions, POPULAR_KEYWORDS, parseSearchQuery, scoreProduct } from "../../utils/searchUtils";
 import { sortProducts, SORT_OPTIONS } from "../../utils/sortUtils";
 import { sortBrandsByPriority, compareProductRecommendationPriority, getDisplayBrandName } from "../../constants/brandPriority";
 import { Skeleton, EmptyState, ErrorState } from "../../components/ui";
@@ -258,14 +258,30 @@ export default function Materials() {
     setDebouncedQuery("");
     setIsSearchFocused(false);
     setSelectedSuggestionIndex(-1);
-    updateParams({ q: null, search: null });
+    updateParams({
+      q: null,
+      search: null,
+      line: null,
+      detail: null,
+      shape: null,
+      type: null,
+      spec: null
+    });
   }, []);
 
   const handleKeywordClick = useCallback((kw) => {
     setSearchQuery(kw);
     setDebouncedQuery(kw);
     setIsSearchFocused(false);
-    updateParams({ q: kw, search: null });
+    updateParams({
+      q: kw,
+      search: null,
+      line: null,
+      detail: null,
+      shape: null,
+      type: null,
+      spec: null
+    });
   }, []);
 
   const handleSuggestionClick = useCallback((suggestion) => {
@@ -273,7 +289,15 @@ export default function Materials() {
     setDebouncedQuery(suggestion.query);
     setIsSearchFocused(false);
     setSelectedSuggestionIndex(-1);
-    const updates = { q: suggestion.query, search: null };
+    const updates = {
+      q: suggestion.query,
+      search: null,
+      line: null,
+      detail: null,
+      shape: null,
+      type: null,
+      spec: null
+    };
     if (suggestion.category && activeTab === "all") {
       updates.category = suggestion.category;
     }
@@ -286,7 +310,15 @@ export default function Materials() {
   const handleSearchKeyDown = useCallback((e) => {
     if (suggestions.length === 0) {
       if (e.key === "Enter") {
-        updateParams({ q: searchQuery.trim() || null, search: null });
+        updateParams({
+          q: searchQuery.trim() || null,
+          search: null,
+          line: null,
+          detail: null,
+          shape: null,
+          type: null,
+          spec: null
+        });
         setIsSearchFocused(false);
       }
       return;
@@ -303,7 +335,15 @@ export default function Materials() {
       if (selectedSuggestionIndex >= 0 && selectedSuggestionIndex < suggestions.length) {
         handleSuggestionClick(suggestions[selectedSuggestionIndex]);
       } else {
-        updateParams({ q: searchQuery.trim() || null, search: null });
+        updateParams({
+          q: searchQuery.trim() || null,
+          search: null,
+          line: null,
+          detail: null,
+          shape: null,
+          type: null,
+          spec: null
+        });
         setIsSearchFocused(false);
       }
     } else if (e.key === "Escape") {
@@ -449,6 +489,14 @@ export default function Materials() {
   }, [searching, isKccDecotile, searchParams]);
 
   const handleCategoryChange = (category) => {
+    if (searching) {
+      if (category === "all") {
+        updateParams({ category: "all", brand: "all", line: null, shape: null, thickness: null, spec: null, detail: null });
+      } else {
+        updateParams({ category, brand: "all", line: null, shape: null, thickness: null, spec: null, detail: null });
+      }
+      return;
+    }
     // Switch category and reset brand to its default corresponding brand
     const defaultBrand = DEFAULT_BRAND_BY_CATEGORY[category] || "all";
     if (category === "데코타일" && (defaultBrand === "KCC" || defaultBrand.includes("KCC"))) {
@@ -460,6 +508,10 @@ export default function Materials() {
 
   const setActiveBrand = (brand) => {
     const targetBrand = brand === "LX하우시스" ? "LX" : brand;
+    if (searching) {
+      updateParams({ brand: targetBrand, type: null, line: null, shape: null, thickness: null, spec: null, detail: null });
+      return;
+    }
     if ((targetBrand === "KCC" || targetBrand.includes("KCC")) && activeTab === "데코타일") {
       updateParams({ brand: "KCC", line: "trendy-450", type: null, shape: null, thickness: null, spec: null, detail: null });
     } else {
@@ -765,7 +817,7 @@ export default function Materials() {
       if (!m || m.active === false || m.is_active === false) return false;
 
       // When searching, match score must be > 0
-      if (searching && getSearchScore(m, debouncedQuery) <= 0) {
+      if (searching && scoreProduct(m, debouncedQuery) <= 0) {
         return false;
       }
 
@@ -801,8 +853,8 @@ export default function Materials() {
         }
       }
 
-      // Eagon specific hierarchical check (대분류 -> 라인업 -> 규격)
-      if (isEagonBrand) {
+      // Eagon specific hierarchical check (only when not searching)
+      if (!searching && isEagonBrand) {
         if (!isEagonProduct(m)) return false;
         if (activeEagonMajor !== "all" && getEagonMaterialType(m) !== activeEagonMajor) {
           return false;
@@ -816,35 +868,37 @@ export default function Materials() {
         return tabOk && brandOk;
       }
 
-      // Material Type check (only for 마루)
+      // Material Type check (only for 마루 when not searching)
       let typeOk = true;
-      if (activeTab === "마루" && activeMaterialType !== "all") {
+      if (!searching && activeTab === "마루" && activeMaterialType !== "all") {
         typeOk = (m.materialType === activeMaterialType);
       }
 
-      // Line check
+      // Line check (only when not searching)
       let lineOk = true;
-      if (activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마")) {
-        if (activeDongshinMajor !== "all") {
-          const mMajor = getDongshinMajorCategory(m);
-          if (mMajor !== activeDongshinMajor) lineOk = false;
-        }
-        if (activeDongshinDetail !== "all") {
-          const mDetail = getDongshinDetailedLineup(m);
-          if (mDetail !== activeDongshinDetail) lineOk = false;
-        }
-      } else if (activeLine !== "all") {
-        const line = activeTab === "마루" ? m.displayLine : getNormalizedLine(m, activeTab, activeBrand);
-        if (activeTab === "마루" && m.brand === "구정" && m.series === "노블레스") {
-          lineOk = (line === activeLine || (m.sizeOptions && m.sizeOptions.some(o => o.label === activeLine)));
-        } else {
-          lineOk = (line === activeLine);
+      if (!searching) {
+        if (activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마")) {
+          if (activeDongshinMajor !== "all") {
+            const mMajor = getDongshinMajorCategory(m);
+            if (mMajor !== activeDongshinMajor) lineOk = false;
+          }
+          if (activeDongshinDetail !== "all") {
+            const mDetail = getDongshinDetailedLineup(m);
+            if (mDetail !== activeDongshinDetail) lineOk = false;
+          }
+        } else if (activeLine !== "all") {
+          const line = activeTab === "마루" ? m.displayLine : getNormalizedLine(m, activeTab, activeBrand);
+          if (activeTab === "마루" && m.brand === "구정" && m.series === "노블레스") {
+            lineOk = (line === activeLine || (m.sizeOptions && m.sizeOptions.some(o => o.label === activeLine)));
+          } else {
+            lineOk = (line === activeLine);
+          }
         }
       }
 
-      // Shape check (only for KCC decotiles)
+      // Shape check (only when not searching)
       let shapeOk = true;
-      if (activeTab === "데코타일" && (activeBrand === "KCC" || activeBrand === "all") && activeShape !== "all") {
+      if (!searching && activeTab === "데코타일" && (activeBrand === "KCC" || activeBrand === "all") && activeShape !== "all") {
         if (activeLine === "센스레이(내수)" || (m.line || "").includes("센스레이")) {
           const sizeText = m.spec || m.specs?.size || m.size_text || "";
           const s = String(sizeText).replace(/\s+/g, "");
@@ -874,7 +928,7 @@ export default function Materials() {
   const sortedProducts = useMemo(() => {
     if (searching && sortOption === "default") {
       return [...filtered].sort((a, b) => {
-        const scoreDiff = getSearchScore(b, debouncedQuery) - getSearchScore(a, debouncedQuery);
+        const scoreDiff = scoreProduct(b, debouncedQuery) - scoreProduct(a, debouncedQuery);
         if (scoreDiff !== 0) return scoreDiff;
         return compareProductRecommendationPriority(a, b, activeTab);
       });
@@ -1222,7 +1276,15 @@ export default function Materials() {
             {searching && (
               <div className="search-results-summary-bar">
                 <div className="search-results-headline">
-                  <span className="search-query-highlight">“{debouncedQuery}”</span> 검색 결과: 총 <strong>{displayTotalCount}</strong>개 상품
+                  {loading ? (
+                    <>
+                      <span className="search-query-highlight">“{debouncedQuery}”</span> 검색 중입니다...
+                    </>
+                  ) : (
+                    <>
+                      <span className="search-query-highlight">“{debouncedQuery}”</span> 검색 결과: 총 <strong>{displayTotalCount}</strong>개 상품
+                    </>
+                  )}
                 </div>
                 {(activeTab !== "all" || activeBrand !== "all" || activeThickness !== "all") && (
                   <div className="search-active-filter-tags">

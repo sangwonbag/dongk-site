@@ -135,7 +135,7 @@ export default function Header() {
   // Sync search input with URL
   useEffect(() => {
     const params = new URLSearchParams(location.search);
-    const searchParam = params.get("search");
+    const searchParam = params.get("q") || params.get("search");
     if (searchParam !== null && searchParam !== q) {
       // eslint-disable-next-line react-hooks/set-state-in-effect
       setQ(searchParam);
