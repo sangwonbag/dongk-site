@@ -116,27 +116,93 @@ export const KCC_TRENDY_CATALOG_MAP = {
     `${TRENDY_450_BASE}/TS5546P_2x2.webp`
   ],
   // 600각 어반 콘크리트
-  'TS5531M': [`${TRENDY_600_BASE}/TS5531M.png`],
-  'TS5532M': [`${TRENDY_600_BASE}/TS5532M.png`],
-  'TS5533M': [`${TRENDY_600_BASE}/TS5533M.png`],
-  'TS5534M': [`${TRENDY_600_BASE}/TS5534M.png`, `${TRENDY_450_BASE}/TS5534M_사무실.jpg`],
-  'TS5535M': [`${TRENDY_600_BASE}/TS5535M.png`],
-  'TS5536M': [`${TRENDY_600_BASE}/TS5536M.png`],
-  'TS5537M': [`${TRENDY_600_BASE}/TS5537M.png`],
+  'TS5531M': [
+    `${TRENDY_600_BASE}/TS5531M.png`,
+    `${TRENDY_600_BASE}/TS5531M_2x2.png`,
+    `${TRENDY_600_BASE}/TS5531M_시공예시.jpg`
+  ],
+  'TS5532M': [
+    `${TRENDY_600_BASE}/TS5532M.png`,
+    `${TRENDY_600_BASE}/TS5532M_2x2.png`
+  ],
+  'TS5533M': [
+    `${TRENDY_600_BASE}/TS5533M.png`,
+    `${TRENDY_600_BASE}/TS5533M_2x2.png`
+  ],
+  'TS5534M': [
+    `${TRENDY_600_BASE}/TS5534M.png`,
+    `${TRENDY_600_BASE}/TS5534M_2x2.png`,
+    `${TRENDY_600_BASE}/TS5534M_시공예시.jpg`
+  ],
+  'TS5535M': [
+    `${TRENDY_600_BASE}/TS5535M.png`,
+    `${TRENDY_600_BASE}/TS5535M_2x2.png`,
+    `${TRENDY_600_BASE}/TS5535M_시공예시.jpg`
+  ],
+  'TS5536M': [
+    `${TRENDY_600_BASE}/TS5536M.png`,
+    `${TRENDY_600_BASE}/TS5536M_2x2.png`
+  ],
+  'TS5537M': [
+    `${TRENDY_600_BASE}/TS5537M.png`,
+    `${TRENDY_600_BASE}/TS5537M_2x2.png`
+  ],
   // 우드 플랭크
-  'TW5102G': [`${TRENDY_WOOD_BASE}/TW5102G.png`, `${TRENDY_WOOD_BASE}/TW5102G_사무실.jpg`],
-  'TW5103G': [`${TRENDY_WOOD_BASE}/TW5103G.png`],
-  'TW5104G': [`${TRENDY_WOOD_BASE}/TW5104G.png`, `${TRENDY_WOOD_BASE}/TW5104G_사무실.jpg`],
-  'TW5105G': [`${TRENDY_WOOD_BASE}/TW5105G.png`],
-  'TW5106G': [`${TRENDY_WOOD_BASE}/TW5106G.png`],
-  'TW5107G': [`${TRENDY_WOOD_BASE}/TW5107G.png`],
-  'TW5108G': [`${TRENDY_WOOD_BASE}/TW5108G.png`],
-  'TW5109G': [`${TRENDY_WOOD_BASE}/TW5109G.png`],
-  'TW5110G': [`${TRENDY_WOOD_BASE}/TW5110G.png`],
-  'TW5111G': [`${TRENDY_WOOD_BASE}/TW5111G.png`],
-  'TW5112G': [`${TRENDY_WOOD_BASE}/TW5112G.png`],
-  'TW5119G': [`${TRENDY_WOOD_BASE}/TW5119G.png`, `${TRENDY_WOOD_BASE}/TW5119G_사무실.jpg`],
-  'TW5120G': [`${TRENDY_WOOD_BASE}/TW5120G.png`]
+  'TW5102G': [
+    `${TRENDY_WOOD_BASE}/TW5102G.png`,
+    `${TRENDY_WOOD_BASE}/TW5102G_확장.png`,
+    `${TRENDY_WOOD_BASE}/TW5102G_사무실.jpg`
+  ],
+  'TW5103G': [
+    `${TRENDY_WOOD_BASE}/TW5103G.png`,
+    `${TRENDY_WOOD_BASE}/TW5103G_확장.png`
+  ],
+  'TW5104G': [
+    `${TRENDY_WOOD_BASE}/TW5104G.png`,
+    `${TRENDY_WOOD_BASE}/TW5104G_확장.png`,
+    `${TRENDY_WOOD_BASE}/TW5104G_사무실.jpg`
+  ],
+  'TW5105G': [
+    `${TRENDY_WOOD_BASE}/TW5105G.png`,
+    `${TRENDY_WOOD_BASE}/TW5105G_확장.png`
+  ],
+  'TW5106G': [
+    `${TRENDY_WOOD_BASE}/TW5106G.png`,
+    `${TRENDY_WOOD_BASE}/TW5106G_확장.png`
+  ],
+  'TW5107G': [
+    `${TRENDY_WOOD_BASE}/TW5107G.png`,
+    `${TRENDY_WOOD_BASE}/TW5107G_확장.png`
+  ],
+  'TW5108G': [
+    `${TRENDY_WOOD_BASE}/TW5108G.png`,
+    `${TRENDY_WOOD_BASE}/TW5108G_확장.png`
+  ],
+  'TW5109G': [
+    `${TRENDY_WOOD_BASE}/TW5109G.png`,
+    `${TRENDY_WOOD_BASE}/TW5109G_확장.png`
+  ],
+  'TW5110G': [
+    `${TRENDY_WOOD_BASE}/TW5110G.png`,
+    `${TRENDY_WOOD_BASE}/TW5110G_확장.png`
+  ],
+  'TW5111G': [
+    `${TRENDY_WOOD_BASE}/TW5111G.png`,
+    `${TRENDY_WOOD_BASE}/TW5111G_확장.png`
+  ],
+  'TW5112G': [
+    `${TRENDY_WOOD_BASE}/TW5112G.png`,
+    `${TRENDY_WOOD_BASE}/TW5112G_확장.png`,
+    `${TRENDY_WOOD_BASE}/TW5112G_시공예시.jpg`
+  ],
+  'TW5119G': [
+    `${TRENDY_WOOD_BASE}/TW5119G.png`,
+    `${TRENDY_WOOD_BASE}/TW5119G_사무실.jpg`
+  ],
+  'TW5120G': [
+    `${TRENDY_WOOD_BASE}/TW5120G.png`,
+    `${TRENDY_WOOD_BASE}/TW5120G_확장.png`
+  ]
 };
 
 /**
@@ -205,6 +271,8 @@ export async function getProductDetailImages(productId, productCode = '', produc
         original: 0,
         '2x2': 1,
         pattern2x2: 1,
+        expanded: 1,
+        '확장': 1,
         '90cross': 2,
         cross: 2,
         office: 3,
@@ -232,7 +300,7 @@ export async function getProductDetailImages(productId, productCode = '', produc
         id: `manifest-${img.extractedCode}-${idx}`,
         url: img.fullPublicPath,
         sort_order: idx,
-        alt_text: `${rawCode || img.extractedCode} ${img.imageType === 'material' || img.imageType === 'original' ? '자재 원본' : (img.imageType === '2x2' || img.imageType === 'pattern2x2') ? '2x2 패턴' : (img.imageType === '90cross' || img.imageType === 'cross') ? '90cross' : (img.imageType === 'office' || img.imageType === 'installation') ? '사무실 시공' : '상세 이미지'}`,
+        alt_text: `${rawCode || img.extractedCode} ${img.imageType === 'material' || img.imageType === 'original' ? '자재 원본' : (img.imageType === '2x2' || img.imageType === 'pattern2x2' || img.imageType === 'expanded' || img.imageType === '확장') ? '2x2 / 패턴' : (img.imageType === '90cross' || img.imageType === 'cross') ? '90cross' : (img.imageType === 'office' || img.imageType === 'installation') ? '사무실 시공' : '상세 이미지'}`,
         image_type: img.imageType || 'detail'
       }));
     }

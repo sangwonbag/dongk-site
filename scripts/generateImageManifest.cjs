@@ -67,8 +67,14 @@ function getNormalizedBrand(folderBrand, category) {
 function classifyProductImage(fileName) {
   const lower = fileName.toLowerCase();
 
-  // 1. 2x2 패턴
-  if (lower.includes('2x2') || lower.includes('2_2') || lower.includes('2×2')) {
+  // 1. 2x2 패턴 및 우드 타일 확장 패턴
+  if (
+    lower.includes('2x2') ||
+    lower.includes('2_2') ||
+    lower.includes('2×2') ||
+    lower.includes('확장') ||
+    lower.includes('expanded')
+  ) {
     return '2x2';
   }
 
@@ -89,6 +95,7 @@ function classifyProductImage(fileName) {
     lower.includes('사무실') ||
     lower.includes('상업공간') ||
     lower.includes('시공') ||
+    lower.includes('시공예시') ||
     lower.includes('거실') ||
     lower.includes('침실') ||
     lower.includes('주거') ||
@@ -122,11 +129,11 @@ function extractCode(filename) {
   const ext = path.extname(filename);
   let cleanName = filename.slice(0, -ext.length).trim();
   
-  // 1. Remove suffix indices, patterns, and descriptions (e.g. "_detail", "_thumbnail", "_사무실", "_시공", "_2x2", "_90cross")
+  // 1. Remove suffix indices, patterns, and descriptions (e.g. "_detail", "_thumbnail", "_사무실", "_시공", "_시공예시", "_확장", "_2x2", "_90cross")
   cleanName = cleanName
     .replace(/\.jpg_[0-9]+cross$/i, '')
     .replace(/_(?:thumbnail|detail)$/i, '')
-    .replace(/_(?:사무실|시공|상업공간|패턴|거실|침실|카페|매장|office|scene|room|2x2|90cross|180cross)$/i, '')
+    .replace(/_(?:사무실|시공|시공예시|상업공간|패턴|확장|거실|침실|카페|매장|office|scene|room|2x2|90cross|180cross)$/i, '')
     .replace(/_(\d+)$/, '')
     .replace(/\s*\(\d+\)$/, '')
     .trim();

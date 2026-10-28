@@ -348,11 +348,13 @@ export function classifyProductImage(url, productCode = '') {
   const fileName = decoded.split('/').pop() || '';
   const lower = fileName.toLowerCase();
 
-  // 1. 2x2 패턴 이미지 (2x2)
+  // 1. 2x2 패턴 이미지 (2x2 / 우드 타일 확장 패턴)
   if (
     lower.includes('2x2') ||
     lower.includes('2_2') ||
-    lower.includes('2×2')
+    lower.includes('2×2') ||
+    lower.includes('확장') ||
+    lower.includes('expanded')
   ) {
     return '2x2';
   }
@@ -375,6 +377,7 @@ export function classifyProductImage(url, productCode = '') {
     lower.includes('사무실') ||
     lower.includes('상업공간') ||
     lower.includes('시공') ||
+    lower.includes('시공예시') ||
     lower.includes('거실') ||
     lower.includes('침실') ||
     lower.includes('주거') ||
@@ -384,7 +387,8 @@ export function classifyProductImage(url, productCode = '') {
     lower.includes('commercial') ||
     lower.includes('installation') ||
     lower.includes('interior') ||
-    lower.includes('scene')
+    lower.includes('scene') ||
+    lower.includes('room')
   ) {
     return 'office';
   }

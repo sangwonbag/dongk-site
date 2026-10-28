@@ -1738,7 +1738,7 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
     "extractedCode": "TW5102G",
     "normalizedFileName": "tw5102g확장png",
-    "imageType": "material"
+    "imageType": "2x2"
   },
   {
     "fileName": "TW5103G.png",
@@ -1758,7 +1758,7 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
     "extractedCode": "TW5103G",
     "normalizedFileName": "tw5103g확장png",
-    "imageType": "material"
+    "imageType": "2x2"
   },
   {
     "fileName": "TW5104G.png",
@@ -1788,7 +1788,7 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
     "extractedCode": "TW5104G",
     "normalizedFileName": "tw5104g확장png",
-    "imageType": "material"
+    "imageType": "2x2"
   },
   {
     "fileName": "TW5105G.png",
@@ -1808,7 +1808,7 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
     "extractedCode": "TW5105G",
     "normalizedFileName": "tw5105g확장png",
-    "imageType": "material"
+    "imageType": "2x2"
   },
   {
     "fileName": "TW5106G.png",
@@ -1828,7 +1828,7 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
     "extractedCode": "TW5106G",
     "normalizedFileName": "tw5106g확장png",
-    "imageType": "material"
+    "imageType": "2x2"
   },
   {
     "fileName": "TW5107G.png",
@@ -1848,7 +1848,7 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
     "extractedCode": "TW5107G",
     "normalizedFileName": "tw5107g확장png",
-    "imageType": "material"
+    "imageType": "2x2"
   },
   {
     "fileName": "TW5108G.png",
@@ -1868,7 +1868,7 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
     "extractedCode": "TW5108G",
     "normalizedFileName": "tw5108g확장png",
-    "imageType": "material"
+    "imageType": "2x2"
   },
   {
     "fileName": "TW5109G.png",
@@ -1888,7 +1888,7 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
     "extractedCode": "TW5109G",
     "normalizedFileName": "tw5109g확장png",
-    "imageType": "material"
+    "imageType": "2x2"
   },
   {
     "fileName": "TW5110G.png",
@@ -1908,7 +1908,7 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
     "extractedCode": "TW5110G",
     "normalizedFileName": "tw5110g확장png",
-    "imageType": "material"
+    "imageType": "2x2"
   },
   {
     "fileName": "TW5111G.png",
@@ -1928,7 +1928,7 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
     "extractedCode": "TW5111G",
     "normalizedFileName": "tw5111g확장png",
-    "imageType": "material"
+    "imageType": "2x2"
   },
   {
     "fileName": "TW5112G.png",
@@ -1958,7 +1958,7 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
     "extractedCode": "TW5112G",
     "normalizedFileName": "tw5112g확장png",
-    "imageType": "material"
+    "imageType": "2x2"
   },
   {
     "fileName": "TW5119G.png",
@@ -1998,7 +1998,7 @@ export const imageManifest = [
     "series": "트렌디/KCC_센스타일_트랜디_우드_이미지",
     "extractedCode": "TW5120G",
     "normalizedFileName": "tw5120g확장png",
-    "imageType": "material"
+    "imageType": "2x2"
   },
   {
     "fileName": "HOT 0065 라임 스톤 미스트.jpg",
@@ -5091,146 +5091,6 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
-    "fileName": "AB6711.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6711.png",
-    "category": "데코타일",
-    "brand": "동신",
-    "series": "아트타일",
-    "extractedCode": "AB6711",
-    "normalizedFileName": "ab6711png",
-    "imageType": "material"
-  },
-  {
-    "fileName": "AB6712.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6712.png",
-    "category": "데코타일",
-    "brand": "동신",
-    "series": "아트타일",
-    "extractedCode": "AB6712",
-    "normalizedFileName": "ab6712png",
-    "imageType": "material"
-  },
-  {
-    "fileName": "AB6717.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6717.png",
-    "category": "데코타일",
-    "brand": "동신",
-    "series": "아트타일",
-    "extractedCode": "AB6717",
-    "normalizedFileName": "ab6717png",
-    "imageType": "material"
-  },
-  {
-    "fileName": "AB6727.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6727.png",
-    "category": "데코타일",
-    "brand": "동신",
-    "series": "아트타일",
-    "extractedCode": "AB6727",
-    "normalizedFileName": "ab6727png",
-    "imageType": "material"
-  },
-  {
-    "fileName": "AB6739.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6739.png",
-    "category": "데코타일",
-    "brand": "동신",
-    "series": "아트타일",
-    "extractedCode": "AB6739",
-    "normalizedFileName": "ab6739png",
-    "imageType": "material"
-  },
-  {
-    "fileName": "AB6740.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6740.png",
-    "category": "데코타일",
-    "brand": "동신",
-    "series": "아트타일",
-    "extractedCode": "AB6740",
-    "normalizedFileName": "ab6740png",
-    "imageType": "material"
-  },
-  {
-    "fileName": "AB6741.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6741.png",
-    "category": "데코타일",
-    "brand": "동신",
-    "series": "아트타일",
-    "extractedCode": "AB6741",
-    "normalizedFileName": "ab6741png",
-    "imageType": "material"
-  },
-  {
-    "fileName": "AB6915.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6915.png",
-    "category": "데코타일",
-    "brand": "동신",
-    "series": "아트타일",
-    "extractedCode": "AB6915",
-    "normalizedFileName": "ab6915png",
-    "imageType": "material"
-  },
-  {
-    "fileName": "AB6933.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6933.png",
-    "category": "데코타일",
-    "brand": "동신",
-    "series": "아트타일",
-    "extractedCode": "AB6933",
-    "normalizedFileName": "ab6933png",
-    "imageType": "material"
-  },
-  {
-    "fileName": "AB6978.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6978.png",
-    "category": "데코타일",
-    "brand": "동신",
-    "series": "아트타일",
-    "extractedCode": "AB6978",
-    "normalizedFileName": "ab6978png",
-    "imageType": "material"
-  },
-  {
-    "fileName": "AB6981.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6981.png",
-    "category": "데코타일",
-    "brand": "동신",
-    "series": "아트타일",
-    "extractedCode": "AB6981",
-    "normalizedFileName": "ab6981png",
-    "imageType": "material"
-  },
-  {
-    "fileName": "AB6984.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6984.png",
-    "category": "데코타일",
-    "brand": "동신",
-    "series": "아트타일",
-    "extractedCode": "AB6984",
-    "normalizedFileName": "ab6984png",
-    "imageType": "material"
-  },
-  {
-    "fileName": "AB6989.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6989.png",
-    "category": "데코타일",
-    "brand": "동신",
-    "series": "아트타일",
-    "extractedCode": "AB6989",
-    "normalizedFileName": "ab6989png",
-    "imageType": "material"
-  },
-  {
-    "fileName": "AB6990.png",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AB6990.png",
-    "category": "데코타일",
-    "brand": "동신",
-    "series": "아트타일",
-    "extractedCode": "AB6990",
-    "normalizedFileName": "ab6990png",
-    "imageType": "material"
-  },
-  {
     "fileName": "AS1001.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/AS1001.jpg",
     "category": "데코타일",
@@ -5778,6 +5638,146 @@ export const imageManifest = [
     "series": "아트타일",
     "extractedCode": "DS673",
     "normalizedFileName": "ds673jpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "AB6711.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6711.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6711",
+    "normalizedFileName": "ab6711png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "AB6712.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6712.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6712",
+    "normalizedFileName": "ab6712png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "AB6717.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6717.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6717",
+    "normalizedFileName": "ab6717png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "AB6727.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6727.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6727",
+    "normalizedFileName": "ab6727png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "AB6739.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6739.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6739",
+    "normalizedFileName": "ab6739png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "AB6740.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6740.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6740",
+    "normalizedFileName": "ab6740png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "AB6741.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6741.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6741",
+    "normalizedFileName": "ab6741png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "AB6915.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6915.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6915",
+    "normalizedFileName": "ab6915png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "AB6933.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6933.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6933",
+    "normalizedFileName": "ab6933png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "AB6978.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6978.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6978",
+    "normalizedFileName": "ab6978png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "AB6981.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6981.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6981",
+    "normalizedFileName": "ab6981png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "AB6984.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6984.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6984",
+    "normalizedFileName": "ab6984png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "AB6989.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6989.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6989",
+    "normalizedFileName": "ab6989png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "AB6990.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6990.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6990",
+    "normalizedFileName": "ab6990png",
     "imageType": "material"
   },
   {
