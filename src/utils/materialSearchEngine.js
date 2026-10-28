@@ -562,10 +562,20 @@ export function normalizeProductCode(code) {
 export function tokenizeQuery(query) {
   if (!query) return [];
   const q = String(query).normalize("NFKC").toLowerCase().trim();
-  const rawTokens = q.split(/[\s\-_()[\]/·,]+/).filter(Boolean);
-  const tokenSet = new Set(rawTokens);
+  const rawTokens = q.split(/[\s()[\]/·,]+/).filter(Boolean);
+  const tokenSet = new Set();
 
-  for (const t of rawTokens) {
+  for (const raw of rawTokens) {
+    tokenSet.add(raw);
+    const subParts = raw.split(/[-_]+/).filter(Boolean);
+    for (const sub of subParts) {
+      if (sub.length >= 3 || /[가-힣]/.test(sub)) {
+        tokenSet.add(sub);
+      }
+    }
+  }
+
+  for (const t of Array.from(tokenSet)) {
     // Split Korean + digits: "에코차음6202" -> "에코차음", "6202"
     const krNumMatch = t.match(/^([가-힣]+)(\d+)$/);
     if (krNumMatch) {
@@ -719,17 +729,35 @@ export function scoreProduct(product, query, parsedInfo = null) {
       score += 10000;
       codeMatched = true;
     } else if (pCode.endsWith(qCode)) {
-      score += 8500;
-      codeMatched = true;
+      const afterHyphen = codeRaw.includes('-') ? codeRaw.split('-').pop() : '';
+      if (!codeRaw.includes('-') || normalizeProductCode(afterHyphen).endsWith(qCode) || normalizeProductCode(afterHyphen) === qCode) {
+        score += 8500;
+        codeMatched = true;
+      }
     } else if (pCode.includes(qCode)) {
-      score += 7000;
-      codeMatched = true;
+      // 부분 포함인 경우 하이픈 경계를 가로지르는 오매칭 방지 (예: K5308-6 에 3086 매칭 방지)
+      const parts = codeRaw.toUpperCase().split(/[-_/\s]+/);
+      const isPartMatch = parts.some(part => {
+        const normPart = normalizeProductCode(part);
+        return normPart.includes(qCode) || normPart.endsWith(qCode);
+      });
+      if (isPartMatch || !codeRaw.includes('-')) {
+        score += 7000;
+        codeMatched = true;
+      }
     } else if (qCodeDigits.length >= 3 && pCodeDigits === qCodeDigits) {
       score += 9000;
       codeMatched = true;
     } else if (qCodeDigits.length >= 3 && pCodeDigits.includes(qCodeDigits)) {
-      score += 6500;
-      codeMatched = true;
+      const parts = codeRaw.toUpperCase().split(/[-_/\s]+/);
+      const isPartDigitMatch = parts.some(part => {
+        const normDigits = normalizeProductCode(part).replace(/\D/g, "");
+        return normDigits.length >= 3 && normDigits.includes(qCodeDigits);
+      });
+      if (isPartDigitMatch || !codeRaw.includes('-')) {
+        score += 6500;
+        codeMatched = true;
+      }
     }
   }
 
@@ -742,11 +770,21 @@ export function scoreProduct(product, query, parsedInfo = null) {
         score += 8000;
         codeMatched = true;
       } else if (pCode.endsWith(tCode) || (pCodeDigits && pCodeDigits === tDigits)) {
-        score += 7000;
-        codeMatched = true;
+        const afterHyphen = codeRaw.includes('-') ? codeRaw.split('-').pop() : '';
+        if (!codeRaw.includes('-') || normalizeProductCode(afterHyphen).endsWith(tCode) || normalizeProductCode(afterHyphen) === tCode) {
+          score += 7000;
+          codeMatched = true;
+        }
       } else if (pCode.includes(tCode) || (pCodeDigits && pCodeDigits.includes(tDigits))) {
-        score += 5000;
-        codeMatched = true;
+        const parts = codeRaw.toUpperCase().split(/[-_/\s]+/);
+        const isPartMatch = parts.some(part => {
+          const normPart = normalizeProductCode(part);
+          return normPart.includes(tCode) || normPart.endsWith(tCode);
+        });
+        if (isPartMatch || !codeRaw.includes('-')) {
+          score += 5000;
+          codeMatched = true;
+        }
       }
     }
   }
@@ -815,7 +853,7 @@ export function scoreProduct(product, query, parsedInfo = null) {
   }
 
   // 7. 복수 토큰 전체 일치 가산점 (2글자 이하 축약어의 경우 단어 경계 또는 코드 접두사 엄격 매칭)
-  const searchableWords = `${pBrand} ${pCategory} ${pLine} ${pName} ${codeRaw} ${pCode} ${product.description || ''}`
+  const searchableWords = `${pBrand} ${pCategory} ${pLine} ${pName} ${codeRaw} ${product.description || ''} ${product.series || ''} ${product.collection || ''}`
     .toLowerCase()
     .split(/[\s\-_()[\]/·,]+/)
     .filter(Boolean);
@@ -825,16 +863,18 @@ export function scoreProduct(product, query, parsedInfo = null) {
   for (const token of p.tokens) {
     const tNorm = normalizeSearchText(token);
     const tCode = normalizeProductCode(token);
-    if (!tNorm) continue;
+    if (!tNorm || tNorm.length < 2) continue;
 
     let tokenMatched = false;
-    if (tNorm.length <= 2) {
-      // 2글자 이하 단어는 정확한 단어 또는 코드 접두사로만 일치 인정 (예: "ts"가 "mts4415"에 오매칭되는 것 방지)
-      if (searchableWords.includes(tNorm) || pCode.startsWith(tCode)) {
+    if (tNorm.length === 2 && !/[가-힣]/.test(tNorm)) {
+      // 2글자 영문/숫자 단어는 정확한 단어 일치 또는 2글자 이상 코드 접두사로만 일치 인정
+      if (searchableWords.includes(tNorm) || (tCode && tCode.length >= 2 && pCode.startsWith(tCode))) {
         tokenMatched = true;
       }
     } else {
-      if (searchableText.includes(tNorm) || (tCode && pCode.includes(tCode))) {
+      const parts = codeRaw.toUpperCase().split(/[-_/\s]+/);
+      const isPartMatch = tCode && tCode.length >= 3 && parts.some(part => normalizeProductCode(part).includes(tCode));
+      if (searchableText.includes(tNorm) || isPartMatch || (!codeRaw.includes('-') && tCode && tCode.length >= 3 && pCode.includes(tCode))) {
         tokenMatched = true;
       }
     }

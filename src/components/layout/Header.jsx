@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo, useRef } from "react";
 import { useNavigate, useLocation, Link } from "react-router-dom";
-import { Search, ShoppingCart, User, BookOpen, Layers } from "lucide-react";
+import { Search, ShoppingCart, User, BookOpen, Layers, X } from "lucide-react";
 import { searchMaterials } from "../../utils/supabaseFetcher";
 import { getSearchScore, generateAutocompleteSuggestions, normalizeSearchText, tokenizeSearchQuery, handleSearchRedirect } from "../../utils/searchUtils";
 import { getSupabaseImageUrl } from "../../utils/getSupabaseImageUrl";
@@ -345,15 +345,35 @@ export default function Header() {
                   setQ(val);
                   if (val.trim() === "" && location.pathname === "/materials") {
                     const sp = new URLSearchParams(location.search);
-                    if (sp.has("search")) {
+                    if (sp.has("search") || sp.has("q")) {
                       sp.delete("search");
+                      sp.delete("q");
                       nav(`/materials?${sp.toString()}`);
                     }
                   }
                 }}
                 onFocus={() => setIsFocused(true)}
               />
-              <button type="submit">
+              {q && (
+                <button
+                  type="button"
+                  className="header-search-clear-btn"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setQ("");
+                    if (location.pathname === "/materials") {
+                      const sp = new URLSearchParams(location.search);
+                      sp.delete("search");
+                      sp.delete("q");
+                      nav(`/materials?${sp.toString()}`);
+                    }
+                  }}
+                  aria-label="검색어 지우기"
+                >
+                  <X size={15} />
+                </button>
+              )}
+              <button type="submit" aria-label="검색 실행">
                 <Search size={18} />
               </button>
             </form>
@@ -369,11 +389,22 @@ export default function Header() {
                           <img src={getSupabaseImageUrl(item.thumbnail)} alt={item.name} />
                         </div>
                         <div className="search-info">
-                          <div className="search-code">
-                            <HighlightText text={item.code || item.name} highlight={q} />
+                          <div className="search-title-row">
+                            <span className="search-brand-tag">{item.brand}</span>
+                            <span className="search-code-text">
+                              <HighlightText text={item.code || item.name} highlight={q} />
+                            </span>
+                            {item.line && <span className="search-line-tag">{item.line}</span>}
                           </div>
-                          <div className="search-meta">
-                            <HighlightText text={`${item.brand} > ${item.category}`} highlight={q} />
+                          <div className="search-desc-row">
+                            <span className="search-name-text">
+                              <HighlightText text={item.name} highlight={q} />
+                            </span>
+                            {(item.thickness || item.specs?.size) && (
+                              <span className="search-spec-text">
+                                {[item.thickness, item.specs?.size].filter(Boolean).join(' · ')}
+                              </span>
+                            )}
                           </div>
                         </div>
                       </div>
@@ -386,7 +417,13 @@ export default function Header() {
                     <div className="search-recommendation-title">추천 검색어</div>
                     {searchResults.items.map((rec, i) => (
                       <div key={i} className="search-recommendation-item" onClick={() => handleRecommendationClick(rec)}>
-                        <Search size={14} /> <span>{rec.text}</span>
+                        {rec.badge && <span className="search-rec-badge">{rec.badge}</span>}
+                        <div className="search-rec-content">
+                          <div className="search-rec-title">
+                            <HighlightText text={rec.title || rec.query} highlight={q} />
+                          </div>
+                          {rec.subtitle && <div className="search-rec-sub">{rec.subtitle}</div>}
+                        </div>
                       </div>
                     ))}
                   </div>

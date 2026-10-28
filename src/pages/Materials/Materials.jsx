@@ -1545,11 +1545,15 @@ export default function Materials() {
                   title="검색 결과가 없습니다"
                   description={
                     debouncedQuery
-                      ? "검색 조건에 부합하는 자재가 없거나 현재 준비 중입니다." 
+                      ? (activeFilterCount > (debouncedQuery ? 1 : 0)
+                          ? `적용된 필터(${[activeBrand !== 'all' && `브랜드: ${activeBrand}`, activeThickness !== 'all' && `두께: ${activeThickness}`, activeLine !== 'all' && `라인업: ${activeLine}`].filter(Boolean).join(', ')})로 인해 결과가 제한되었을 수 있습니다.` 
+                          : "검색 조건에 부합하는 자재가 없거나 현재 준비 중입니다.")
                       : (activeTab === "장판" && (activeBrand !== "all" || activeThickness !== "all"))
                         ? "선택한 브랜드와 두께에 해당하는 상품이 없습니다."
                         : "선택하신 분류 및 브랜드의 자재가 준비 중입니다."
                   }
+                  actionLabel={activeFilterCount > 0 ? "전체 필터 초기화" : ""}
+                  onAction={activeFilterCount > 0 ? handleResetFilters : null}
                 />
               )}
             </div>
