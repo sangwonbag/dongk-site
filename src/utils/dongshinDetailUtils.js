@@ -9,7 +9,7 @@
  * - Installation & Maintenance Guidelines: pp. 34~35
  */
 
-import { getComputedBrand } from './brandUtils';
+import { getComputedBrand } from './brandUtils.js';
 
 /**
  * Normalizes product code by removing spaces and converting to uppercase
